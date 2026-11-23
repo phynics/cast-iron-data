@@ -33,103 +33,74 @@ _This enormous, eyeless eel-person has a round head atop its long neck and a thi
 hand-like tentacles and two long tails. Its skin is translucent, displaying colorful fluids rippling
 within, and embedded with strange objects._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+blindsight: 30
+Alignment: Chaotic evil
+Initiative: +11
+Size: large
+Type: outsider
+Perception: +16
+Senses: Scent
+Subtype: Native, Water
+Experience points: 12,800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 26
+Touch: 16
+Flat-footed: 19
+AC modifiers: +7 Dex, +10 natural, -1 size
+Hit points: 137 (11d10+77)
+Fort: +9
+Ref: +14
+Will: +11
+Immune: [gaze](ref/umr/gaze) attacks, illusions, visual effects, and other attack forms that rely on sight
+Resist: cold 30
+Sr: 22
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: 4 tentacles +17 (1d6+3), 2 tail slaps +12 (1d8+1)
+Reach: 10
+Space: 10
+Spec Att: powerful tentacles, synesthetic masterpiece (DC 20)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+At will: hydraulic push, mage hand, prestidigitation
+Per day: 3/day: aqueous orb (DC 18), quickened hydraulic push, hydraulic torrent (DC 18)\
+1/day: cone of cold (DC 20), major creation, telekinesis (DC 20)
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 16, Dex 25, Con 23, Int 18, Wis 14, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 32
+Feats: Agile Maneuvers, Improved Initiative, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hydraulic push), Toughness, Weapon Finesse
+Skills: Craft (any 3) +18, Disable Device +16, Knowledge (planes) +12, Perception +16, Sleight of Hand +21, Spellcraft +18, Stealth +17, Swim +25, Use Magic Device +19
+Languages: Aklo, Aquan
+Special qualities: bower
+:::
 
-**Subtype:** Native, Water
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 16
-
-**Flat-footed:** 19
-
-**AC modifiers:** +7 Dex, +10 natural, -1 size
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +11
-
-**Immune:** [gaze](ref/umr/gaze) attacks, illusions, visual effects, and other attack forms that
-rely on sight
-
-**Resist:** cold 30
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** 4 tentacles +17 (1d6+3), 2 tail slaps +12 (1d8+1)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** powerful tentacles, synesthetic masterpiece (DC 20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**At will:**
-
-- hydraulic push, mage hand, prestidigitation
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 18), quickened hydraulic push, hydraulic torrent (DC 18)
-- 1/day: cone of cold (DC 20), major creation, telekinesis (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 25, Con 23, Int 18, Wis 14, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32
-
-**Feats:** Agile Maneuvers, Improved Initiative, Iron Will, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (hydraulic push), Toughness, Weapon Finesse
-
-**Skills:** Craft (any 3) +18, Disable Device +16, Knowledge (planes) +12, Perception +16, Sleight
-of Hand +21, Spellcraft +18, Stealth +17, Swim +25, Use Magic Device +19
-
-**Languages:** Aklo, Aquan
-
-**Special qualities:** bower
-
-**Ecology**
-
-**Environment:** any water (Kaer Maga)
-
-**Organization:** solitary or collective (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water (Kaer Maga)
+Organization: solitary or collective (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

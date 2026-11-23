@@ -28,97 +28,71 @@ abilities = ["4", "19", "16", "15", "12", "19"]
 
 _Two slimy tentacles protrude from the sides of this brain-shaped mass of quivering ooze._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: psychic noise (10 ft., DC 19)
+blindsight: 60
+Initiative: +6
+Alignment: Neutral evil
+Type: ooze
+Perception: +11
+Size: tiny
+Experience points: 3,200
+:::
 
-**aura:** psychic noise (10 ft., DC 19)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 23
+Touch: 19
+Flat-footed: 18
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +2 insight, +2 size
+Hit points: 75 (10d8+30)
+Fort: +6
+Ref: +9
+Will: +6
+Defensive abilities: prescience
+Evasion: present
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 5 ft., fly 60 ft. (good)
+Melee: 2 tentacles +13 touch (1d6 electricity plus neural pulse)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect thoughts, mage armor
+At will: charm monster (DC 18), dominate animal (DC 17), dominate person (DC 19)
+Per day: 3/day: dispel magic, modify memory (DC 18)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 19, Con 16, Int 15, Wis 12, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Defensive Combat Training, Dodge, Iron Will, Mobility, Weapon Finesse
+Skills: Bluff +10, Diplomacy +5, Sense Motive +11, Stealth +15
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 19
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +2 insight, +2 size
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +6
-
-**Defensive abilities:** prescience
-
-**Evasion:** present
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (good)
-
-**Melee:** 2 tentacles +13 touch (1d6 electricity plus neural pulse)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect thoughts, mage armor
-
-**At will:**
-
-- charm monster (DC 18), dominate animal (DC 17), dominate person (DC 19)
-
-**Per day:**
-
-- 3/day: dispel magic, modify memory (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 19, Con 16, Int 15, Wis 12, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Defensive Combat Training, Dodge, Iron Will, Mobility, Weapon Finesse
-
-**Skills:** Bluff +10, Diplomacy +5, Sense Motive +11, Stealth +15
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ruins or underground
-
-**Organization:** solitary, pair, flight (3-6), or colony (7-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ruins or underground
+Organization: solitary, pair, flight (3-6), or colony (7-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

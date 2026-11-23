@@ -29,67 +29,56 @@ abilities = ["19", "10", "17", "2", "13", "4"]
 _The vicious spines surrounding this boar's head are almost as unnerving as the wild look in its
 eyes._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +6
+Will: +2
+Ferocity: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +7 (1d8+6 plus spines)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 10, Con 17, Int 2, Wis 13, Cha 4
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 17
+Feats: Lightning Reflexes, Power Attack
+Skills: Acrobatics +5, Perception +6
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +7 (1d8+6 plus spines)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 17, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 17
-
-**Feats:** Lightning Reflexes, Power Attack
-
-**Skills:** Acrobatics +5, Perception +6
-
-**Ecology**
-
-**Environment:** any plains or hills
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any plains or hills
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,75 +30,60 @@ abilities = ["1", "14", "13", "-", "10", "2"]
 _A writhing mass of clacking shells and snapping pincers rushes from the surf, their spider-like
 legs twitching across the sand._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Swarm
+Type: vermin
+Experience points: 1,200
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 16
+AC modifiers: +2 Dex, +2 natural, +4 size
+Hit points: 38 (7d8+7)
+Fort: +6
+Ref: +4
+Will: +2
+Immune: mind-affecting effects, swarm traits, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Distraction: 14
+Melee: swarm (2d6)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Swarm
+::: statblock
+Ability scores: Str 1, Dex 14, Con 13, Int -, Wis 10, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Swim +10
+Racial Modifiers: uses Dex to modify Swim
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +2 natural, +4 size
-
-**Hit points:** 38 (7d8+7)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** mind-affecting effects, swarm traits, weapon damage
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Distraction:** 14
-
-**Melee:** swarm (2d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 14, Con 13, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Swim +10
-
-**Racial Modifiers:** uses Dex to modify Swim
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary, pair, or wave (3-8 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary, pair, or wave (3-8 swarms)
+Treasure: None
+:::
 
 ### Description
 

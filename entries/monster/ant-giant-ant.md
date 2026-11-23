@@ -29,74 +29,61 @@ abilities = ["14", "10", "17", "-", "13", "11"]
 _A thin, six-legged ant the size of a pony stands at the ready, its mandibles chittering and its
 stinger dripping with venom._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Scent
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 18 (2d8+9)
+Fort: +6
+Ref: +0
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +3 (1d6+2 plus [grab](ref/umr/grab)), sting +3 (1d4+2 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 18 (2d8+9)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +3 (1d6+2 plus [grab](ref/umr/grab)), sting +3 (1d4+2 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 10, Con 17, Int -, Wis 13, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 13 (21 vs. trip)
-
-**Feats:** Toughness^B^
-
-**Skills:** Climb +10, Perception +5
-
-**Racial Modifiers:** +4 Perception, +4 Survival
+::: statblock
+Ability scores: Str 14, Dex 10, Con 17, Int -, Wis 13, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 13 (21 vs. trip)
+Feats: Toughness^B^
+Skills: Climb +10, Perception +5
+Racial Modifiers: +4 Perception, +4 Survival
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, gang (3-6), or hive (7-18 plus 10-100 workers, 2-8 drones, and 1
-queen)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, gang (3-6), or hive (7-18 plus 10-100 workers, 2-8 drones, and 1 queen)
+Treasure: None
+:::
 
 ### Special Abilities
 

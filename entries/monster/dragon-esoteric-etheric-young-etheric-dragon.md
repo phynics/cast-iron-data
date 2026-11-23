@@ -31,85 +31,65 @@ abilities = ["24", "13", "18", "15", "12", "13"]
 
 _This silent dragon seems to gather shadows and gloom around its tattered-appearing wings._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: dragon
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: Dragon senses, See in darkness
+Subtype: Extraplanar
+Experience points: 3,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +1 Dex, +9 natural
+Hit points: 84 (8d12+32)
+Fort: +10
+Ref: +7
+Will: +7
+Immune: paralysis, sleep
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 150 ft. (average)
+Br Weap: 60-ft. line, DC 18, 6d8 force
+Melee: bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +13 (1d4+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+Spec Att: spectral attacks, spirit eater
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Dragon senses, See in darkness
+::: statblock
+Ability scores: Str 24, Dex 13, Con 18, Int 15, Wis 12, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Multiattack, Power Attack
+Skills: Appraise +13, Fly +12, Intimidate +12, Knowledge (planes) +13, Perception +12
+Languages: Draconic
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +9 natural
-
-**Hit points:** 84 (8d12+32)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** paralysis, sleep
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 40 ft., fly 150 ft. (average)
-
-**Br Weap:** 60-ft. line, DC 18, 6d8 force
-
-**Melee:** bite +15 (1d8+10), 2 claws +15 (1d6+7), 2 wings +13 (1d4+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** spectral attacks, spirit eater
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 18, Int 15, Wis 12, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Multiattack, Power Attack
-
-**Skills:** Appraise +13, Fly +12, Intimidate +12, Knowledge (planes) +13, Perception +12
-
-**Languages:** Draconic
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: Double
+:::
 
 ### Description
 

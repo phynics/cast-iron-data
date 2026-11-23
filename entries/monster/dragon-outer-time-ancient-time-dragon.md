@@ -28,143 +28,88 @@ special_qualities = "immortal, no breath, read the threads, starflight"
 abilities = ["38", "11", "28", "23", "22", "23"]
 +++
 
-**Challenge rating:** 20
-
-**aura:** alien presence (300 ft., DC 29)
-
-**Type:** dragon
-
-**Size:** gargantuan
-
-**Initiative:** +14
-
-**Alignment:** Neutral
-
-**Perception:** +36
-
-**Senses:** Detect magic, Dragon senses, See in darkness
-
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 6
-
-**Flat-footed:** 37
-
-**AC modifiers:** +31 natural, -4 size
-
-**Hit points:** 418 (27d12+243)
-
-**Fort:** +24
-
-**Ref:** +17
-
-**Will:** +21
-
-**Dr:** 15/magic
-
-**Immune:** cold, paralysis, sleep, staggered
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., fly 250 ft. (clumsy)
-
-**Br Weap:** 60-ft. cone, 20d10 electricity, DC 32
-
-**Melee:** bite +38 (4d6+21), 2 claws +38 (2d8+14/19-20), 2 wings +35 (2d6+7), tail slap +35
-(2d8+21)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** crush, second chance, shifting breath (5 rounds), tail sweep
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +33
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- clairaudience/clairvoyance, legend lore, locate creature, share memory
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**7th-level spells:**
-
-- 4/day: plane shift (DC 23), sequester
-
-**6th-level spells:**
-
-- 7/day: disintegrate (DC 22), greater dispel magic, true seeing
-
-**5th-level spells:**
-
-- 7/day: dominate person (DC 21), feeblemind (DC 21), telepathic bond, teleport
-
-**4th-level spells:**
-
-- 7/day: fear (DC 20), scrying (DC 20), stone shape, stoneskin
-
-**3rd-level spells:**
-
-- 7/day: blink, dispel magic, slow (DC 19), tongues
-
-**2nd-level spells:**
-
-- 8/day: arcane lock, blindness/deafness (DC 18), blur, detect thoughts (DC 18), memory lapse (DC
-  18)
-
-**1st-level spells:**
-
-- 8/day: erase, feather fall, identify, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: light, mage hand, message, read magic, =5 more
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 11, Con 28, Int 23, Wis 22, Cha 23
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +45 (+47 sunder)
-
-**Combat maneuver defense:** 57 (59 vs. sunder, 61 vs. trip)
-
-**Feats:** Cleave, Critical Focus, Improved Critical (claw), Improved Initiative, Improved Sunder,
-Lightning Reflexes, Multiattack, Power Attack, Quicken Spell, Skill Focus (Knowledge \[history\]),
-Spell Penetration, Step Up, Weapon Focus (bite, claw)
-
-**Skills:** Bluff +36, Diplomacy +36, Sense Motive +36, Spellcraft +36
-
-**Languages:** Celestial, Common, Draconic, Dwarven, Elven, Infernal, Sylvan
-
-**Special qualities:** immortal, [no breath](ref/umr/no-breath), read the threads, starflight
-
-**Ecology**
-
-**Environment:** vacuum
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Challenge rating: 20
+aura: alien presence (300 ft., DC 29)
+Type: dragon
+Size: gargantuan
+Initiative: +14
+Alignment: Neutral
+Perception: +36
+Senses: Detect magic, Dragon senses, See in darkness
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 37
+Touch: 6
+Flat-footed: 37
+AC modifiers: +31 natural, -4 size
+Hit points: 418 (27d12+243)
+Fort: +24
+Ref: +17
+Will: +21
+Dr: 15/magic
+Immune: cold, paralysis, sleep, staggered
+Sr: 31
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft., fly 250 ft. (clumsy)
+Br Weap: 60-ft. cone, 20d10 electricity, DC 32
+Melee: bite +38 (4d6+21), 2 claws +38 (2d8+14/19-20), 2 wings +35 (2d6+7), tail slap +35 (2d8+21)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 20
+Spec Att: crush, second chance, shifting breath (5 rounds), tail sweep
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +33
+Constant: detect magic
+At will: clairaudience/clairvoyance, legend lore, locate creature, share memory
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +21
+7th-level spells: 4/day: plane shift (DC 23), sequester
+6th-level spells: 7/day: disintegrate (DC 22), greater dispel magic, true seeing
+5th-level spells: 7/day: dominate person (DC 21), feeblemind (DC 21), telepathic bond, teleport
+4th-level spells: 7/day: fear (DC 20), scrying (DC 20), stone shape, stoneskin
+3rd-level spells: 7/day: blink, dispel magic, slow (DC 19), tongues
+2nd-level spells: 8/day: arcane lock, blindness/deafness (DC 18), blur, detect thoughts (DC 18), memory lapse (DC 18)
+1st-level spells: 8/day: erase, feather fall, identify, mage armor, magic missile
+Cantrips: At will: light, mage hand, message, read magic, =5 more
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 38, Dex 11, Con 28, Int 23, Wis 22, Cha 23
+Base attack bonus: +27
+Combat maneuver bonus: +45 (+47 sunder)
+Combat maneuver defense: 57 (59 vs. sunder, 61 vs. trip)
+Feats: Cleave, Critical Focus, Improved Critical (claw), Improved Initiative, Improved Sunder, Lightning Reflexes, Multiattack, Power Attack, Quicken Spell, Skill Focus (Knowledge \[history\]), Spell Penetration, Step Up, Weapon Focus (bite, claw)
+Skills: Bluff +36, Diplomacy +36, Sense Motive +36, Spellcraft +36
+Languages: Celestial, Common, Draconic, Dwarven, Elven, Infernal, Sylvan
+Special qualities: immortal, [no breath](ref/umr/no-breath), read the threads, starflight
+:::
+
+### Ecology
+
+::: statblock
+Environment: vacuum
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

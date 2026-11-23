@@ -30,102 +30,73 @@ abilities = ["25", "18", "24", "14", "15", "17"]
 _This hideous cross between a lobster, an octopus, and a human threatens enemies with powerful claws
 and writhing tentacles._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect good, Detect magic, See invisibility
+Subtype: Aquatic, Daemon, Evil, Extraplanar
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +4 Dex, +10 natural
+Hit points: 137 (11d10+77)
+Fort: +14
+Ref: +7
+Will: +9
+Dr: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 21
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Constrict: 2d6+10
+Melee: 2 claws +18 (2d6+7/18-20/×3 plus [grab](ref/umr/grab) and 1d6 bleed), tentacles +16 (1d10+3 plus poison)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+Constant: detect good, detect magic, see invisibility
+At will: dispel magic, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: fly, stinking cloud (DC 16)\
+1/day: summon (level 4, 1d3 [hydrodaemons](ref/monster/daemon-hydrodaemon) 35%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
+### Statistics
 
-**Subtype:** Aquatic, Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 25, Dex 18, Con 24, Int 14, Wis 15, Cha 17
+Base attack bonus: +11
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 32
+Feats: Critical Focus, Improved Initiative, Multiattack, Power Attack, Sickening Critical, Vital Strike
+Skills: Escape Artist +18, Intimidate +17, Knowledge (planes) +16, Perception +16, Swim +29
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), augmented critical
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +10 natural
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +14
-
-**Ref:** +7
-
-**Will:** +9
-
-**Dr:** 10/good
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Constrict:** 2d6+10
-
-**Melee:** 2 claws +18 (2d6+7/18-20/×3 plus [grab](ref/umr/grab) and 1d6 bleed), tentacles +16
-(1d10+3 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- dispel magic, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: fly, stinking cloud (DC 16)
-- 1/day: summon (level 4, 1d3 [hydrodaemons](ref/monster/daemon-hydrodaemon) 35%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 24, Int 14, Wis 15, Cha 17
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 32
-
-**Feats:** Critical Focus, Improved Initiative, Multiattack, Power Attack, Sickening Critical, Vital
-Strike
-
-**Skills:** Escape Artist +18, Intimidate +17, Knowledge (planes) +16, Perception +16, Swim +29
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), augmented critical
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or knot (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or knot (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

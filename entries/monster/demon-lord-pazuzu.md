@@ -31,131 +31,84 @@ abilities = ["40", "28", "42", "33", "34", "36"]
 _Held aloft by four great feathered wings, this hawk-faced fiend has a scorpion's tail and carries a
 black metal scepter._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 40, 10 rounds), locusts (10 ft., distraction, DC 43), unholy aura (DC 31)
+Alignment: Chaotic evil
+Initiative: +13
+Size: large
+Type: outsider
+Perception: +58
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Air, Chaotic, Demon, Evil, Extraplanar
+Experience points: 9,830,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 40, 10 rounds), locusts (10
-ft., distraction, DC 43), unholy aura (DC 31)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 48
+Touch: 38
+Flat-footed: 39
+AC modifiers: +4 deflection, +9 Dex, +10 natural, +16 profane, -1 size
+Hit points: 752 (35d10+560)
+Fort: +31
+Ref: +32
+Will: +35
+Defensive abilities: Abyssal resurrection, avian mastery, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, epic, and good
+Immune: ability damage, ability drain, charm effects, compulsion effects, cold, death effects, electricity, energy drain, petrification, and poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30, fire 30
+Sr: 41
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., fly 150 ft. (perfect)
+Melee: +5 [anarchic](ref/magic-enh/anarchic) [keen](ref/magic-enh/keen) [unholy](ref/magic-enh/unholy) longsword +54/+49/+44/+39 (2d6+20/17-20), bite +49 (2d6+15), claw +49 (1d6+15), sting +49 (2d8+15 plus poison), 2 talons +49 (1d6+15)
+Reach: 10
+Space: 10
+Spec Att: hear name, poison, possession, profane
+:::
 
-**Type:** outsider
-
-**Perception:** +58
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 38
-
-**Flat-footed:** 39
-
-**AC modifiers:** +4 deflection, +9 Dex, +10 natural, +16 profane, -1 size
-
-**Hit points:** 752 (35d10+560)
-
-**Fort:** +31
-
-**Ref:** +32
-
-**Will:** +35
-
-**Defensive abilities:** Abyssal resurrection, avian mastery,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage, ability drain, charm effects, compulsion effects, cold, death effects,
-electricity, energy drain, petrification, and poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 60 ft., fly 150 ft. (perfect)
-
-**Melee:** +5 [anarchic](ref/magic-enh/anarchic) [keen](ref/magic-enh/keen)
-[unholy](ref/magic-enh/unholy) longsword +54/+49/+44/+39 (2d6+20/17-20), bite +49 (2d6+15), claw +49
-(1d6+15), sting +49 (2d8+15 plus poison), 2 talons +49 (1d6+15)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** hear name, poison, possession, profane
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +43
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, speak with animals, winged animals only, true
-  seeing, unholy aura (DC 31)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 30), control winds, desecrate^M^, dominate person^M^ (DC 28),
-  greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 28), unhallow, unholy
-  blight^M^ (DC 27)
-
-**Per day:**
-
-- 3/day: quickened dominate person^M^ (DC 28), summon demons, symbol of persuasion (DC 29), sympathy
-  (DC 31), whirlwind^M^
-- 1/day: dominate monster (DC 32), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +43
+Constant: detect good, detect law, freedom of movement, speak with animals, winged animals only, true seeing, unholy aura (DC 31)
+At will: astral projection, blasphemy^M^ (DC 30), control winds, desecrate^M^, dominate person^M^ (DC 28), greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 28), unhallow, unholy blight^M^ (DC 27)
+Per day: 3/day: quickened dominate person^M^ (DC 28), summon demons, symbol of persuasion (DC 29), sympathy (DC 31), whirlwind^M^\
+1/day: dominate monster (DC 32), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Pazuzu can use the mythic version of this ability in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 40, Dex 28, Con 42, Int 33, Wis 34, Cha 36
+::: statblock
+Ability scores: Str 40, Dex 28, Con 42, Int 33, Wis 34, Cha 36
+Base attack bonus: +35
+Combat maneuver bonus: +51 (+55 sunder)
+Combat maneuver defense: 92 (94 vs. sunder)
+Feats: Bleeding Critical, Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Rod, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Greater Vital Strike, Improved Initiative, Improved Sunder, Improved Vital Strike, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person), Vital Strike
+Skills: Acrobatics +47 (+59 when jumping), Bluff +51, Diplomacy +51, Fly +53, Intimidate +48, Knowledge (arcana, planes) +49, Knowledge (nature) +46, Perception +58, Use Magic Device +48
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Auran, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: demon lord traits
+Faith: Pazuzu
+:::
 
-**Base attack bonus:** +35
+### Ecology
 
-**Combat maneuver bonus:** +51 (+55 sunder)
-
-**Combat maneuver defense:** 92 (94 vs. sunder)
-
-**Feats:** Bleeding Critical, Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms
-and Armor, Craft Rod, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Greater
-Vital Strike, Improved Initiative, Improved Sunder, Improved Vital Strike, Multiattack, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person), Vital Strike
-
-**Skills:** Acrobatics +47 (+59 when jumping), Bluff +51, Diplomacy +51, Fly +53, Intimidate +48,
-Knowledge (arcana, planes) +49, Knowledge (nature) +46, Perception +58, Use Magic Device +48
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Auran, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** demon lord traits
-
-**Faith:** Pazuzu
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (Scepter of Shibaxet); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple (Scepter of Shibaxet); other treasure
+:::
 
 ### Special Abilities
 

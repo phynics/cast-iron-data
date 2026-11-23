@@ -28,69 +28,57 @@ abilities = ["16", "19", "15", "2", "15", "12"]
 _This flying reptile has two huge wings and a distinctive backward-sweeping crest decorating its
 head._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +8
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 dodge, +2 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +8
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 50 ft. (clumsy)
+Melee: bite +5 (2d6+4)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 16, Dex 19, Con 15, Int 2, Wis 15, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Skill Focus (Perception)
+Skills: Fly -1, Perception +11
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (clumsy)
-
-**Melee:** bite +5 (2d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 15, Int 2, Wis 15, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Fly -1, Perception +11
-
-**Ecology**
-
-**Environment:** warm coastline
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastline
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Description
 

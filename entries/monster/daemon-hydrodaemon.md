@@ -31,107 +31,76 @@ abilities = ["18", "15", "18", "9", "11", "14"]
 _The skin on this frog-like fiend is clammy and its eyes look dead and milky; its wide face is split
 by a fanged maw._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +2
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Aquatic, Daemon, Evil, Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 18
+AC modifiers: +2 Dex, +9 natural, -1 size
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +9
+Will: +3
+Dr: 10/cold iron or silver
+Immune: acid, death effects, disease, poison, waters of the River Styx
+Resist: cold 10, electricity 10, fire 10
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 60 ft., fly 40 ft. (average; see glide, below)
+Melee: bite +13 (1d8+4 plus [grab](ref/umr/grab)), 2 claws +13 (1d6+4)
+Rake: 2 claws +13, 1d6+4
+Ranged: sleep spittle +11 (sleep)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Constant: detect magic, water walk
+At will: acid arrow, deeper darkness
+Per day: 3/day: control water, greater teleport, self plus 50 lbs. of objects only, summon monster V, Large water elemental only\
+1/day: desecrate, summon (level 3, 1 hydrodaemon 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+### Statistics
 
-**Subtype:** Aquatic, Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 15, Con 18, Int 9, Wis 11, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +15 (+9 grapple)
+Combat maneuver defense: 27
+Feats: Cleave, Point-Blank Shot, Power Attack, Precise Shot, Skill Focus (Perception)
+Skills: Fly +0
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), glide
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +9 natural, -1 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +3
-
-**Dr:** 10/cold iron or silver
-
-**Immune:** acid, death effects, disease, poison, waters of the River Styx
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft., fly 40 ft. (average; see glide, below)
-
-**Melee:** bite +13 (1d8+4 plus [grab](ref/umr/grab)), 2 claws +13 (1d6+4)
-
-**Rake:** 2 claws +13, 1d6+4
-
-**Ranged:** sleep spittle +11 (sleep)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect magic, water walk
-
-**At will:**
-
-- acid arrow, deeper darkness
-
-**Per day:**
-
-- 3/day: control water, greater teleport, self plus 50 lbs. of objects only, summon monster V, Large
-  water elemental only
-- 1/day: desecrate, summon (level 3, 1 hydrodaemon 50%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 18, Int 9, Wis 11, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15 (+9 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Point-Blank Shot, Power Attack, Precise Shot, Skill Focus (Perception)
-
-**Skills:** Fly +0
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), glide
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, gang (2-5), or mob (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, gang (2-5), or mob (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

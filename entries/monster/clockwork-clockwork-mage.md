@@ -31,81 +31,65 @@ abilities = ["16", "21", "-", "-", "14", "1"]
 
 _This faceless construct has a crystal wand set into its chest, bristling with arcane energy._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 18
+AC modifiers: +5 Dex, +2 dodge, +8 natural
+Hit points: 102 (15d10+20)
+Fort: +5
+Ref: +12
+Will: +7
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 20
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 4 slams +18 (1d4+3)
+Spec Att: wand magic
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +2 dodge, +8 natural
-
-**Hit points:** 102 (15d10+20)
-
-**Fort:** +5
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 20
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 4 slams +18 (1d4+3)
-
-**Spec Att:** wand magic
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con -, Int -, Wis 14, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 35
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, swift reactions, winding
+::: statblock
+Ability scores: Str 16, Dex 21, Con -, Int -, Wis 14, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +18
+Combat maneuver defense: 35
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

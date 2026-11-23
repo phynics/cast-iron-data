@@ -28,71 +28,58 @@ abilities = ["19", "11", "18", "-", "12", "13"]
 
 _This giant bee is as large as a horse and unusually fat, with light brown stripes on her body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +2
+Will: +3
+Immune: mind-affecting effects
+Weaknesses: vulnerable to smoke
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: sting +8 (1d8+6 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 19, Dex 11, Con 18, Int -, Wis 12, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (28 vs. trip)
+Skills: Fly +2
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** vulnerable to smoke
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** sting +8 (1d8+6 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 11, Con 18, Int -, Wis 12, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (28 vs. trip)
-
-**Skills:** Fly +2
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary or colony (1 queen and 3-18 giant bees)
-
-**Treasure:** Incidental; royal jelly
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary or colony (1 queen and 3-18 giant bees)
+Treasure: Incidental; royal jelly
+:::
 
 ### Special Abilities
 

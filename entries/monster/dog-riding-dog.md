@@ -28,67 +28,56 @@ abilities = ["15", "15", "15", "2", "12", "6"]
 
 _This burly dog is fitted with a small saddle. A low, menacing growl rumbles up from its chest._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +3 (1d6+3 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 15, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Acrobatics +6 (+14 jumping), Perception +8
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival when tracking by scent
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +3 (1d6+3 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Acrobatics +6 (+14 jumping), Perception +8
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

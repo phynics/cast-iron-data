@@ -34,104 +34,76 @@ abilities = ["17", "16", "19", "12", "12", "15"]
 _This muscular, red-eyed, goat-headed demon wields a burning sword. Fire licks up from its flaming
 hooves._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: smoke breath (5 ft., DC 17)
+Alignment: Chaotic evil
+Initiative: +7
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**aura:** smoke breath (5 ft., DC 17)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +3 Dex, +4 natural, +1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +8
+Will: +3
+Defensive abilities: boiling blood
+Dr: 5/cold iron or good
+Immune: electricity, fire
+Resist: acid 10, cold 10
+Sr: 16
+Vulner: cold
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Br Weap: 20-ft. line of boiling blood, 5d6 fire damage, Ref DC 17 half, once every 1d4 rounds
+Melee: longsword +11/+6 (1d6+3/19-20 plus 1d6 fire), hoof +5 (1d3+1 plus 1d6 fire)
+Spec Att: burning hooves
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 3/day: dispel magic, heat metal (DC 14), produce flame\
+1/day: air walk, fireball (DC 15), greater teleport, self plus 50 lbs. of objects only, summon (level 3, 1 brimorak 50%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 17, Dex 16, Con 19, Int 12, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Combat Casting, Improved Initiative, Weapon Focus (longsword)
+Skills: Acrobatics +12, Bluff +11, Knowledge (engineering, planes) +10, Perception +18, Sense Motive +10, Stealth +16
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic, Ignan; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: flaming weapon
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +4 natural, +1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +3
-
-**Defensive abilities:** boiling blood
-
-**Dr:** 5/cold iron or good
-
-**Immune:** electricity, fire
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 16
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 20-ft. line of boiling blood, 5d6 fire damage, Ref DC 17 half, once every 1d4 rounds
-
-**Melee:** longsword +11/+6 (1d6+3/19-20 plus 1d6 fire), hoof +5 (1d3+1 plus 1d6 fire)
-
-**Spec Att:** burning hooves
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: dispel magic, heat metal (DC 14), produce flame
-- 1/day: air walk, fireball (DC 15), greater teleport, self plus 50 lbs. of objects only, summon
-  (level 3, 1 brimorak 50%)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 19, Int 12, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Casting, Improved Initiative, Weapon Focus (longsword)
-
-**Skills:** Acrobatics +12, Bluff +11, Knowledge (engineering, planes) +10, Perception +18, Sense
-Motive +10, Stealth +16
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic, Ignan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** flaming weapon
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, band (2-6), or platoon (7-16)
-
-**Treasure:** Standard (longsword); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, band (2-6), or platoon (7-16)
+Treasure: Standard (longsword); other treasure
+:::
 
 ### Special Abilities
 

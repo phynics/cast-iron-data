@@ -30,71 +30,54 @@ abilities = ["6", "14", "-", "-", "11", "1"]
 
 _This crimson-skinned genie has an artificial, sculpted appearance._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: construct
+Initiative: +6
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 dodge, +2 natural, +2 size
+Hit points: 5 (1d10)
+Fort: +0
+Ref: +4
+Will: +0
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Burn: 1d6 fire, DC 10
+Melee: slam +1 (1d3-2 plus burn)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
-
-**Size:** tiny
-
-**Experience points:** 400
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 dodge, +2 natural, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +0
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Burn:** 1d6 fire, DC 10
-
-**Melee:** slam +1 (1d3-2 plus burn)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, swift reflexes, winding
+::: statblock
+Ability scores: Str 6, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 11
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, swift reflexes, winding
+:::
 
 ###### B {#footnote-b}
 

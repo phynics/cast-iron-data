@@ -32,101 +32,73 @@ abilities = ["36", "30", "29", "17", "23", "24"]
 _This churning mound of snow-like material has several large red eyes and four tentacles tipped with
 icy stingers._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsight: 120
+Initiative: +14
+Size: medium
+Alignment: Neutral evil
+Type: ooze
+Perception: +24
+Subtype: Blight, Cold
+Experience points: 76,800
+:::
 
-**blindsight:** 120
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 32
+Touch: 21
+Flat-footed: 21
+AC modifiers: +10 Dex, +1 dodge, +11 natural
+Hit points: 243 (18d8+162)
+Fort: +15
+Ref: +18
+Will: +14
+Defensive abilities: rejuvenation
+Fh: 15
+Immune: acid, cold, [ooze traits](ref/umr/ooze-traits)
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 30 ft., climb 30 ft., burrow (snow and ice only)
+Melee: 4 stings +26 (1d8+13 plus 1d6 cold and curse)
+Reach: 15
+Space: 5
+Spec Att: creeping cold, curse of winter, frozen domain
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+Per day: 1/day: blight (DC 22), command plants (DC 21), cone of cold (DC 22), dominate monster (animals and magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21)
+:::
 
-**Perception:** +24
+### Statistics
 
-**Subtype:** Blight, Cold
+::: statblock
+Ability scores: Str 36, Dex 30, Con 29, Int 17, Wis 23, Cha 24
+Base attack bonus: +13
+Combat maneuver bonus: +26
+Combat maneuver defense: 47 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Power Attack, Spring Attack
+Skills: Climb +39, Intimidate +25, Knowledge (geography) +21, Perception +24, Stealth +28 (+36 in ice or snow)
+Racial Modifiers: +8 Stealth in ice or snow
+Languages: Aklo, Auran; domain [telepathy](ref/umr/telepathy)
+Special qualities: cursed domain, [favored terrain](ref/ability/favored-terrain) (cold), icewalking
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 21
-
-**Flat-footed:** 21
-
-**AC modifiers:** +10 Dex, +1 dodge, +11 natural
-
-**Hit points:** 243 (18d8+162)
-
-**Fort:** +15
-
-**Ref:** +18
-
-**Will:** +14
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 15
-
-**Immune:** acid, cold, [ooze traits](ref/umr/ooze-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., climb 30 ft., burrow (snow and ice only)
-
-**Melee:** 4 stings +26 (1d8+13 plus 1d6 cold and curse)
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** creeping cold, curse of winter, frozen domain
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**Per day:**
-
-- 1/day: blight (DC 22), command plants (DC 21), cone of cold (DC 22), dominate monster (animals and
-  magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 30, Con 29, Int 17, Wis 23, Cha 24
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 47 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning
-Reflexes, Mobility, Power Attack, Spring Attack
-
-**Skills:** Climb +39, Intimidate +25, Knowledge (geography) +21, Perception +24, Stealth +28 (+36
-in ice or snow)
-
-**Racial Modifiers:** +8 Stealth in ice or snow
-
-**Languages:** Aklo, Auran; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** cursed domain, [favored terrain](ref/ability/favored-terrain) (cold),
-icewalking
-
-**Ecology**
-
-**Environment:** cold plains or glaciers
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: cold plains or glaciers
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

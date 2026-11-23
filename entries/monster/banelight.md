@@ -31,105 +31,73 @@ abilities = ["12", "32", "25", "21", "22", "23"]
 _This creature has a dragonfly's body and a woman's head and arms. A glowing red vortex gathers
 between her hands._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: banelight (60 ft.)
+blindsight: 60
+Type: fey
+Initiative: +15
+Size: medium
+Alignment: Neutral evil
+Perception: +25
+Senses: Low-light vision
+Experience points: 19,200
+:::
 
-**aura:** banelight (60 ft.)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 27
+Touch: 21
+Flat-footed: 16
+AC modifiers: +11 Dex, +6 natural
+Hit points: 168 (16d6+112)
+Fort: +14
+Ref: +21
+Will: +16
+Dr: 10/cold iron
+Fh: 10
+Immune: magic
+Weaknesses: susceptible to darkness
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +15
+::: statblock
+Speed: 20 ft., fly 100 ft. (perfect)
+Melee: 2 light vortices +19 touch (5d8)
+Ranged: 2 light vortices +19 touch (5d8)
+Spec Att: create will-o'-wisp
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: daylight, centered on self
+At will: wandering star motes (DC 20)
+Per day: 3/day: quickened wandering star motes (DC 20)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str 12, Dex 32, Con 25, Int 21, Wis 22, Cha 23
+Base attack bonus: +8
+Combat maneuver bonus: +9
+Combat maneuver defense: 38 (42 vs. trip)
+Feats: Combat Reflexes, Defensive Combat Training, Great Fortitude, Improved Great Fortitude, Improved Initiative, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wandering star motes), Vital Strike, Weapon Finesse
+Skills: Acrobatics +30, Bluff +25, Escape Artist +30, Fly +38, Intimidate +22, Knowledge (nature) +24, Perception +25, Sense Motive +25, Spellcraft +21, Stealth +30, Use Magic Device +25
+Languages: Aklo, Auran, Common, Draconic, Sylvan
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 21
-
-**Flat-footed:** 16
-
-**AC modifiers:** +11 Dex, +6 natural
-
-**Hit points:** 168 (16d6+112)
-
-**Fort:** +14
-
-**Ref:** +21
-
-**Will:** +16
-
-**Dr:** 10/cold iron
-
-**Fh:** 10
-
-**Immune:** magic
-
-**Weaknesses:** susceptible to darkness
-
-**Offense**
-
-**Speed:** 20 ft., fly 100 ft. (perfect)
-
-**Melee:** 2 light vortices +19 touch (5d8)
-
-**Ranged:** 2 light vortices +19 touch (5d8)
-
-**Spec Att:** create will-o'-wisp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- daylight, centered on self
-
-**At will:**
-
-- wandering star motes (DC 20)
-
-**Per day:**
-
-- 3/day: quickened wandering star motes (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 32, Con 25, Int 21, Wis 22, Cha 23
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 38 (42 vs. trip)
-
-**Feats:** Combat Reflexes, Defensive Combat Training, Great Fortitude, Improved Great Fortitude,
-Improved Initiative, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wandering star
-motes), Vital Strike, Weapon Finesse
-
-**Skills:** Acrobatics +30, Bluff +25, Escape Artist +30, Fly +38, Intimidate +22, Knowledge
-(nature) +24, Perception +25, Sense Motive +25, Spellcraft +21, Stealth +30, Use Magic Device +25
-
-**Languages:** Aklo, Auran, Common, Draconic, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or witchlight (3-10 plus 4-6 will-o'-wisps or
-[lurkers in light](ref/monster/lurker-in-light))
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or witchlight (3-10 plus 4-6 will-o'-wisps or [lurkers in light](ref/monster/lurker-in-light))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

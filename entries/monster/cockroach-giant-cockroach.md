@@ -29,73 +29,59 @@ abilities = ["11", "12", "19", "-", "11", "2"]
 
 _A dog-sized cockroach skitters forth, greedily clicking its filth-slicked mandibles._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+tremorsense: 60
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 8 (1d8+4)
+Fort: +6
+Ref: +1
+Will: +0
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 40 ft. (poor)
+Melee: bite +1 (1d4)
+:::
 
-**Size:** small
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 11, Dex 12, Con 19, Int -, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 10
+Feats: Diehard, Endurance
+Skills: Climb +8, Perception +4, Stealth +9
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 8 (1d8+4)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +0
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 40 ft. (poor)
-
-**Melee:** bite +1 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 12, Con 19, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 10
-
-**Feats:** Diehard, Endurance
-
-**Skills:** Climb +8, Perception +4, Stealth +9
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or intrusion (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or intrusion (2-20)
+Treasure: None
+:::
 
 ### Description
 

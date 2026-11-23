@@ -32,120 +32,83 @@ abilities = ["27", "16", "29", "18", "18", "19"]
 _The eight spider eyes of this pale, towering humanoid glisten hungrily, and its mouth contains
 dozens of sharp teeth. It carries a barbed spear with a long, clinking chain attached to its end._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: [mental static](ref/umr/mental-static-aura) (DC 21)
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** [mental static](ref/umr/mental-static-aura) (DC 21)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 25
+AC modifiers: +3 Dex, +16 natural, -1 size
+Hit points: 203 (14d10+126)
+Fort: +18
+Ref: +12
+Will: +10
+Dr: 10/good
+Immune: electricity, poison, sleep
+Resist: acid 10, cold 10, fire 10
+Sr: 25
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: +1 cold iron spear +23/+18/+13 (2d6+13/19-20/×3), bite +16 (1d8+4) or bite +21 (1d8+12)
+Ranged: +1 cold iron spear +18 (2d6+9/19-20/×3)
+Reach: 10
+Space: 10
+Spec Att: chain-spear
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: true seeing
+Per day: 1/day: summon (level 6, 1 painajai 35%)
+:::
 
-**Perception:** +21
+::: statblock
+title = "Psychic Magic"
+Caster level: 14
+Concentration: +18
+Power points: 25
+Psychoactive powers: cognitive block, 3 PE, DC 17, confusion, 4 PE, DC 18, fear, 4 PE, DC 18, greater oneiric horror, 4 PE, DC 18, hungry pit, 5 PE, DC 19, mental barrier II, 3 PE, mirage arcana, 5 PE, DC 19, nightmare, 5 PE, DC 19, phantasmal killer, 4 PE, DC 18, synaptic pulse, 3 PE, DC 17
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 27, Dex 16, Con 29, Int 18, Wis 18, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 36
+Feats: Combat Reflexes, Improved Critical (spear), Improved Initiative, Improved Vital Strike, Iron Will, Vital Strike, Weapon Focus (spear)
+Skills: Acrobatics +20 (+24 when jumping), Bluff +21, Climb +33, Intimidate +21, Knowledge (local, nature) +18, Perception +21
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: dreamwalker
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +3 Dex, +16 natural, -1 size
-
-**Hit points:** 203 (14d10+126)
-
-**Fort:** +18
-
-**Ref:** +12
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison, sleep
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** +1 cold iron spear +23/+18/+13 (2d6+13/19-20/×3), bite +16 (1d8+4) or bite +21 (1d8+12)
-
-**Ranged:** +1 cold iron spear +18 (2d6+9/19-20/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** chain-spear
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- true seeing
-
-**Per day:**
-
-- 1/day: summon (level 6, 1 painajai 35%)
-
-**Psychic Magic**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Power points:** 25
-
-**Psychoactive powers:**
-
-- cognitive block, 3 PE, DC 17, confusion, 4 PE, DC 18, fear, 4 PE, DC 18, greater oneiric horror, 4
-  PE, DC 18, hungry pit, 5 PE, DC 19, mental barrier II, 3 PE, mirage arcana, 5 PE, DC 19,
-  nightmare, 5 PE, DC 19, phantasmal killer, 4 PE, DC 18, synaptic pulse, 3 PE, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 16, Con 29, Int 18, Wis 18, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Reflexes, Improved Critical (spear), Improved Initiative, Improved Vital Strike,
-Iron Will, Vital Strike, Weapon Focus (spear)
-
-**Skills:** Acrobatics +20 (+24 when jumping), Bluff +21, Climb +33, Intimidate +21, Knowledge
-(local, nature) +18, Perception +21
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** dreamwalker
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss) or
-[Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+1 MC spear); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss) or [Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: solitary
+Treasure: Standard (+1 MC spear); other treasure
+:::
 
 ### Special Abilities
 

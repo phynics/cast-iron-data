@@ -32,112 +32,79 @@ abilities = ["43", "6", "26", "3", "14", "15"]
 _This enormous beast has rocky, armored plates on its body. Elaborate horns crown its horrific
 head._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsense: 60
+Size: colossal
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Behemoth, Earth
+tremorsense: 60
+Experience points: 153,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 35
+Touch: 0
+Flat-footed: 35
+AC modifiers: -2 Dex, +35 natural, -8 size
+Hit points: 337 (25d10+200)
+Fort: +22
+Ref: +12
+Will: +12
+Dr: 15/epic
+Immune: ability damage, acid, aging, bleed, disease, energy drain, fire, mind-affecting effects, negative levels, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 20
+Sr: 29
+Unstop: present
+Vulner: [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
+:::
 
-**Initiative:** -2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+F Swallow: present
+Melee: bite +33 (4d6+16 plus [grab](ref/umr/grab)), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus [trip](ref/umr/trip))
+Ranged: 4 rocks +15 (3d6+24 plus stun)
+Reach: 20
+Space: 30
+Spec Att: mighty roar, rock spitting, ruinous
+Swallow: 4d6+24 bludgeoning and 4d6 fire damage, AC 27, 33 hp
+Trample: 2d8+24, DC 38
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +22
+Per day: 3/day: earthquake (DC 20)
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 43, Dex 6, Con 26, Int 3, Wis 14, Cha 15
+Base attack bonus: +25
+Combat maneuver bonus: +49 (+53 bull rush, grapple, overrun, or sunder)
+Combat maneuver defense: 57 (59 vs. bull rush, overrun, or sunder, 61 vs. trip)
+Feats: Awesome Blow, Cleave, Great Cleave, Greater Bull Rush, Greater Overrun, Greater Sunder, Improved Bull Rush, Improved Overrun, Improved Sunder, Iron Will, Lunge, Power Attack, Snatch
+Skills: Perception +27, Swim +20
+Racial Modifiers: +10 Perception
+:::
 
-**Subtype:** Behemoth, Earth
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 0
-
-**Flat-footed:** 35
-
-**AC modifiers:** -2 Dex, +35 natural, -8 size
-
-**Hit points:** 337 (25d10+200)
-
-**Fort:** +22
-
-**Ref:** +12
-
-**Will:** +12
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, acid, aging, bleed, disease, energy drain, fire, mind-affecting effects,
-negative levels, paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 20
-
-**Sr:** 29
-
-**Unstop:** present
-
-**Vulner:** [miracles](ref/spell/miracle) and [wishes](ref/spell/wish)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +33 (4d6+16 plus [grab](ref/umr/grab)), gore +33 (4d6+16), 2 stomps +28 (2d8+8 plus
-[trip](ref/umr/trip))
-
-**Ranged:** 4 rocks +15 (3d6+24 plus stun)
-
-**Reach:** 20
-
-**Space:** 30
-
-**Spec Att:** mighty roar, rock spitting, ruinous
-
-**Swallow:** 4d6+24 bludgeoning and 4d6 fire damage, AC 27, 33 hp
-
-**Trample:** 2d8+24, DC 38
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: earthquake (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 6, Con 26, Int 3, Wis 14, Cha 15
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +49 (+53 bull rush, grapple, overrun, or sunder)
-
-**Combat maneuver defense:** 57 (59 vs. bull rush, overrun, or sunder, 61 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Greater Bull Rush, Greater Overrun, Greater Sunder,
-Improved Bull Rush, Improved Overrun, Improved Sunder, Iron Will, Lunge, Power Attack, Snatch
-
-**Skills:** Perception +27, Swim +20
-
-**Racial Modifiers:** +10 Perception
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

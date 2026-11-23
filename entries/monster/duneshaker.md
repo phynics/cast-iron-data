@@ -30,79 +30,62 @@ abilities = ["48", "27", "31", "-", "26", "3"]
 _This enormous spider-like creature has a tremendous pair of jagged fangs as menacing as its
 oversized claws._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Size: colossal
+Initiative: +8
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 153,600
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 33
+Touch: 10
+Flat-footed: 25
+AC modifiers: +8 Dex, +23 natural, -8 size
+Hit points: 290 (20d8+200)
+Fort: +22
+Ref: +14
+Will: +14
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 60 ft., burrow 30 ft.
+Melee: bite +26 (4d6+19), 2 claws +26 (2d8+19)
+Pounce: present
+Reach: 30
+Rend: 2 claws, 2d8+19
+Space: 30
+Spec Att: venom spray
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 48, Dex 27, Con 31, Int -, Wis 26, Cha 3
+Base attack bonus: +15
+Combat maneuver bonus: +42
+Combat maneuver defense: 60 (72 vs. trip)
+Skills: Perception +16, Stealth +4 (+28 in deserts)
+Racial Modifiers: +8 Perception, +12 Stealth (+36 in deserts)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +8 Dex, +23 natural, -8 size
-
-**Hit points:** 290 (20d8+200)
-
-**Fort:** +22
-
-**Ref:** +14
-
-**Will:** +14
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft.
-
-**Melee:** bite +26 (4d6+19), 2 claws +26 (2d8+19)
-
-**Pounce:** present
-
-**Reach:** 30
-
-**Rend:** 2 claws, 2d8+19
-
-**Space:** 30
-
-**Spec Att:** venom spray
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 27, Con 31, Int -, Wis 26, Cha 3
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +42
-
-**Combat maneuver defense:** 60 (72 vs. trip)
-
-**Skills:** Perception +16, Stealth +4 (+28 in deserts)
-
-**Racial Modifiers:** +8 Perception, +12 Stealth (+36 in deserts)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

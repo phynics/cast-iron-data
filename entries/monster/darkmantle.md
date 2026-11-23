@@ -29,81 +29,65 @@ abilities = ["11", "15", "14", "2", "11", "10"]
 _As this creature falls from the cavern roof, it opens like a hideous octopus, its thin, hook-lined
 tentacles connected by a fleshy web._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 90
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**blindsight:** 90
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +3
+Will: +0
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 30 ft. (poor)
+Constrict: 1d4+4
+Grab: any size
+Melee: slam +3 (1d4 plus grab)
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Per day: 1/day: darkness
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 15, Con 14, Int 2, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +1 (+5 grapple)
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative
+Skills: Fly +5, Perception +4, Stealth +10
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (poor)
-
-**Constrict:** 1d4+4
-
-**Grab:** any size
-
-**Melee:** slam +3 (1d4 plus grab)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Per day:**
-
-- 1/day: darkness
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 14, Int 2, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1 (+5 grapple)
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly +5, Perception +4, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or clutch (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or clutch (3-12)
+Treasure: None
+:::
 
 ### Description
 

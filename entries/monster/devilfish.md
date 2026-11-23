@@ -35,81 +35,63 @@ abilities = ["17", "17", "16", "3", "12", "8"]
 _This purple, seven-armed octopoid monstrosity is the size of a horse, with hook-lined tentacles and
 cold, blue eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +5
+Senses: Low-light vision, See in darkness
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 Dex, +5 natural, -1 size
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +7
+Will: +2
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Jet: 240
+Melee: tentacles +7 (3d6+4 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 10
+Spec Att: savage bite (+7 melee, 2d6+4/18-20 plus poison), unholy blood
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, See in darkness
+::: statblock
+Ability scores: Str 17, Dex 17, Con 16, Int 3, Wis 12, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Cleave, Combat Reflexes, Power Attack
+Skills: Escape Artist +5, Perception +5, Stealth +3, Swim +15
+Languages: Abyssal, Aquan, Common
+Special qualities: water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +5 natural, -1 size
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +2
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Jet:** 240
-
-**Melee:** tentacles +7 (3d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** savage bite (+7 melee, 2d6+4/18-20 plus poison), unholy blood
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 17, Con 16, Int 3, Wis 12, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Cleave, Combat Reflexes, Power Attack
-
-**Skills:** Escape Artist +5, Perception +5, Stealth +3, Swim +15
-
-**Languages:** Abyssal, Aquan, Common
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

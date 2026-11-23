@@ -29,124 +29,85 @@ special_qualities = "agile, galactic emissary, no breath, starflight"
 abilities = ["27", "12", "21", "20", "19", "20"]
 +++
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: alien presence (180 ft., DC 23)
+Type: dragon
+Size: huge
+Initiative: +5
+Alignment: Lawful neutral
+Perception: +24
+Senses: Dragon senses, See in darkness
+Subtype: Fire
+Experience points: 38,400
+:::
 
-**aura:** alien presence (180 ft., DC 23)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 30
+Touch: 9
+Flat-footed: 29
+AC modifiers: +1 Dex, +21 natural, -2 size
+Hit points: 195 (17d12+85)
+Fort: +17
+Ref: +13
+Will: +14
+Dr: 5/magic
+Immune: fire, paralysis, sleep
+Sr: 25
+Vulner: cold
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 60 ft., fly 200 ft. (good)
+Br Weap: 50-ft. cone, 12d8 fire, DC 23
+Melee: bite +23 (2d8+12/19-20), 2 claws +23 (2d6+8), 2 wings +21 (1d8+4), tail slap +21 (2d6+12)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush, fragmented strike
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +22
+At will: anticipate peril, entropic shield
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: displacement, protection from energy
+2nd-level spells: 7/day: mirror image, resist energy, scorching ray
+1st-level spells: 8/day: comprehend languages, feather fall, magic missile, obscuring mist, true strike
+Cantrips: At will: detect magic, light, message, read magic, =3 more
+:::
 
-**Senses:** Dragon senses, See in darkness
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 27, Dex 12, Con 21, Int 20, Wis 19, Cha 20
+Base attack bonus: +17
+Combat maneuver bonus: +27
+Combat maneuver defense: 38 (42 vs. trip)
+Feats: Flyby Attack, Great Fortitude, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Snatch, Wingover
+Skills: Bluff +25, Diplomacy +25, Sense Motive +24, Spellcraft +25
+Languages: Abyssal, Auran, Celestial, Common, Draconic, Infernal
+Special qualities: agile, galactic emissary, [no breath](ref/umr/no-breath), starflight
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 9
-
-**Flat-footed:** 29
-
-**AC modifiers:** +1 Dex, +21 natural, -2 size
-
-**Hit points:** 195 (17d12+85)
-
-**Fort:** +17
-
-**Ref:** +13
-
-**Will:** +14
-
-**Dr:** 5/magic
-
-**Immune:** fire, paralysis, sleep
-
-**Sr:** 25
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (good)
-
-**Br Weap:** 50-ft. cone, 12d8 fire, DC 23
-
-**Melee:** bite +23 (2d8+12/19-20), 2 claws +23 (2d6+8), 2 wings +21 (1d8+4), tail slap +21 (2d6+12)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush, fragmented strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +22
-
-**At will:**
-
-- anticipate peril, entropic shield
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: displacement, protection from energy
-
-**2nd-level spells:**
-
-- 7/day: mirror image, resist energy, scorching ray
-
-**1st-level spells:**
-
-- 8/day: comprehend languages, feather fall, magic missile, obscuring mist, true strike
-
-**Cantrips:**
-
-- At will: detect magic, light, message, read magic, =3 more
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con 21, Int 20, Wis 19, Cha 20
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 38 (42 vs. trip)
-
-**Feats:** Flyby Attack, Great Fortitude, Improved Critical (bite), Improved Initiative, Lightning
-Reflexes, Multiattack, Power Attack, Snatch, Wingover
-
-**Skills:** Bluff +25, Diplomacy +25, Sense Motive +24, Spellcraft +25
-
-**Languages:** Abyssal, Auran, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** agile, galactic emissary, [no breath](ref/umr/no-breath), starflight
-
-**Ecology**
-
-**Environment:** vacuum
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: vacuum
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

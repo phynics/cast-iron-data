@@ -29,88 +29,66 @@ abilities = ["26", "16", "21", "3", "11", "6"]
 
 _This enormous worm has stony hide and acid-dripping jaws._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: gargantuan
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 23
+Touch: 9
+Flat-footed: 20
+AC modifiers: +3 Dex, +14 natural, -4 size
+Hit points: 157 (15d10+75)
+Fort: +14
+Ref: +12
+Will: +5
+Defensive abilities: corrosive blood (DC 22), venomous skin
+Immune: acid, electricity, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Br Weap: 60-ft. line, 15d6 acid damage, Reflex DC 22 for half, usable every 1d4 rounds
+F Swallow: present
+Melee: bite +20 (4d6+12/19-20 plus [grab](ref/umr/grab) and poison)
+Ranged: electrical jolt +14 (touch 8d6 electricity)
+Reach: 20
+Space: 20
+Swallow: 2d6+18 acid damage, AC 17, 15 hp
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 16, Con 21, Int 3, Wis 11, Cha 6
+Base attack bonus: +15
+Combat maneuver bonus: +27 (+29 bull rush, +31 grapple, +29 overrun)
+Combat maneuver defense: 40 (42 vs. bull rush, 42 vs. overrun)
+Feats: Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Overrun, Power Attack, Vital Strike, Weapon Focus (bite)
+Skills: Perception +13, Stealth -1 (+15 in deserts or rocky areas)
+Racial Modifiers: +16 Stealth in deserts or rocky areas
+Languages: Terran
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +14 natural, -4 size
-
-**Hit points:** 157 (15d10+75)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +5
-
-**Defensive abilities:** corrosive blood (DC 22), venomous skin
-
-**Immune:** acid, electricity, poison
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Br Weap:** 60-ft. line, 15d6 acid damage, Reflex DC 22 for half, usable every 1d4 rounds
-
-**F Swallow:** present
-
-**Melee:** bite +20 (4d6+12/19-20 plus [grab](ref/umr/grab) and poison)
-
-**Ranged:** electrical jolt +14 (touch 8d6 electricity)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 2d6+18 acid damage, AC 17, 15 hp
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 16, Con 21, Int 3, Wis 11, Cha 6
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27 (+29 bull rush, +31 grapple, +29 overrun)
-
-**Combat maneuver defense:** 40 (42 vs. bull rush, 42 vs. overrun)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved
-Overrun, Power Attack, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Perception +13, Stealth -1 (+15 in deserts or rocky areas)
-
-**Racial Modifiers:** +16 Stealth in deserts or rocky areas
-
-**Languages:** Terran
-
-**Ecology**
-
-**Environment:** warm deserts, hills, or plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts, hills, or plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,79 +31,61 @@ abilities = ["19", "14", "-", "17", "10", "11"]
 _This insectile construct skitters around on metallic legs, its manipulators clacking and glowing
 eyes searching._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 75 (10d10+20)
+Fort: +3
+Ref: +7
+Will: +5
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: sunlight dependency
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +15 (1d8+4/19-20 plus [grab](ref/umr/grab))
+Ranged: spark +12 touch (2d6 electricity)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int 17, Wis 10, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 26
+Feats: Improved Critical (claw), Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (claw)
+Skills: Acrobatics +12 (+16 when jumping), Climb +22, Knowledge (engineering) +13, Perception +10, Stealth +12
+Languages: Common; shortwave 100 ft.
+Special qualities: rebuild
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 75 (10d10+20)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** sunlight dependency
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +15 (1d8+4/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** spark +12 touch (2d6 electricity)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int 17, Wis 10, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Improved Critical (claw), Iron Will, Lightning Reflexes, Power Attack, Weapon Focus
-(claw)
-
-**Skills:** Acrobatics +12 (+16 when jumping), Climb +22, Knowledge (engineering) +13, Perception
-+10, Stealth +12
-
-**Languages:** Common; shortwave 100 ft.
-
-**Special qualities:** rebuild
-
-**Ecology**
-
-**Environment:** Aballon
-
-**Organization:** solitary, pair, or network (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: Aballon
+Organization: solitary, pair, or network (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

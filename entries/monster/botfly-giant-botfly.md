@@ -30,79 +30,64 @@ abilities = ["2", "14", "10", "-", "11", "2"]
 _This foot-long, gray-and-black-striped insect looks like a cross between a bee and fly, with an
 oversized head and bulbous eyes._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: vermin
+Experience points: 135
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 5 ft., fly 60 ft. (good)
+Melee: sting +4 (1d2-4 plus infestation)
+Reach: 0
+Space: 2-1/2
+Spec Att: infestation
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** vermin
-
-**Experience points:** 135
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (good)
-
-**Melee:** sting +4 (1d2-4 plus infestation)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** infestation
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 14, Con 10, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse^B^
-
-**Skills:** Fly +10, Stealth +12
-
-**Racial Modifiers:** +4 Stealth
+::: statblock
+Ability scores: Str 2, Dex 14, Con 10, Int -, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse^B^
+Skills: Fly +10, Stealth +12
+Racial Modifiers: +4 Stealth
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm jungle
-
-**Organization:** solitary, pair, or colony (10-30)
-
-**Treasure:** None
+::: statblock
+Environment: warm jungle
+Organization: solitary, pair, or colony (10-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

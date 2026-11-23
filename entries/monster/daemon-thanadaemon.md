@@ -30,105 +30,73 @@ abilities = ["21", "16", "23", "17", "17", "18"]
 _Rattling with each stride, this looming, horned, skeletal figure clutches a wicked staff. A
 seething glow burns in its eye sockets._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 25,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 23
+AC modifiers: +3 Dex, +1 dodge, +13 natural
+Hit points: 172 (15d10+90)
+Fort: +11
+Ref: +12
+Will: +14
+Dr: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 24
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+E Drain: 1 level, DC 21
+Melee: +2 quarterstaff +22/+17/+12 (1d6+9 plus energy drain) or 2 claws +20 (1d4+5 plus energy drain)
+Spec Att: draining weapon, fear gaze, soul crush
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +19
+Constant: air walk, true seeing
+At will: greater teleport, self plus skiff and passengers only, plane shift, self plus skiff and passengers only, Astral, Ethereal, and evil-aligned planes only
+Per day: 3/day: animate dead, desecrate, enervation\
+1/day: summon (level 4, 1d4 [hydrodaemons](ref/monster/daemon-hydrodaemon) 80% or 1 thanadaemon 35%)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 16, Con 23, Int 17, Wis 17, Cha 18
+Base attack bonus: +15
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+Feats: Alertness, Blind-Fight, Dodge, Improved Initiative, Iron Will, Lunge, Mobility, Power Attack
+Skills: Acrobatics +21, Bluff +22, Diplomacy +22, Intimidate +22, Knowledge (planes) +21, Perception +25
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 23
-
-**AC modifiers:** +3 Dex, +1 dodge, +13 natural
-
-**Hit points:** 172 (15d10+90)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +14
-
-**Dr:** 10/good
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 1 level, DC 21
-
-**Melee:** +2 quarterstaff +22/+17/+12 (1d6+9 plus energy drain) or 2 claws +20 (1d4+5 plus energy
-drain)
-
-**Spec Att:** draining weapon, fear gaze, soul crush
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +19
-
-**Constant:**
-
-- air walk, true seeing
-
-**At will:**
-
-- greater teleport, self plus skiff and passengers only, plane shift, self plus skiff and passengers
-  only, Astral, Ethereal, and evil-aligned planes only
-
-**Per day:**
-
-- 3/day: animate dead, desecrate, enervation
-- 1/day: summon (level 4, 1d4 [hydrodaemons](ref/monster/daemon-hydrodaemon) 80% or 1 thanadaemon
-  35%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 23, Int 17, Wis 17, Cha 18
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Blind-Fight, Dodge, Improved Initiative, Iron Will, Lunge, Mobility, Power
-Attack
-
-**Skills:** Acrobatics +21, Bluff +22, Diplomacy +22, Intimidate +22, Knowledge (planes) +21,
-Perception +25
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or council (3-11)
-
-**Treasure:** Standard (+2 quarterstaff); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or council (3-11)
+Treasure: Standard (+2 quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

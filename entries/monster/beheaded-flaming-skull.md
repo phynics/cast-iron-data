@@ -28,65 +28,55 @@ abilities = ["9", "12", "-", "-", "10", "13"]
 _This humanoid head floats silently and ominously, bits of flesh still hanging from its face and
 graying teeth clattering slightly as it bobs in the air._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +1
+Ref: +1
+Will: +2
+Immune: fire, [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: slam (1d2-1 plus 1d6 fire)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 9, Dex 12, Con -, Int -, Wis 10, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 8 (can't be tripped)
+Skills: Fly +9
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +2
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** slam (1d2-1 plus 1d6 fire)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 12, Con -, Int -, Wis 10, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 8 (can't be tripped)
-
-**Skills:** Fly +9
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or patrol (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or patrol (3-6)
+Treasure: None
+:::
 
 ### Description
 

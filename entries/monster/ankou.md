@@ -33,100 +33,73 @@ abilities = ["26", "28", "22", "17", "19", "25"]
 
 _Cloaked by wings of darkness, this horrific, skeletal creature appears to burn from within._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+blindsense: 120
+Type: fey
+Initiative: +13
+Size: large
+Alignment: Lawful evil
+Perception: +21
+Senses: Low-light vision
+Subtype: Extraplanar
+Experience points: 38,400
+:::
 
-**blindsense:** 120
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 31
+Touch: 19
+Flat-footed: 21
+AC modifiers: +9 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 133 (14d6+84)
+Fort: +10
+Ref: +18
+Will: +13
+Dr: 10/cold iron
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 90 ft. (perfect)
+Bleed: 2d6
+Melee: 2 claws +14 (1d6+8), tail slap +9 (1d8+4 plus bleed), 2 wings +9 (1d8+4 plus bleed)
+Reach: 5
+Sneak: +3d6
+Space: 10
+Spec Att: cold iron killer, shadow doubles
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+At will: deeper darkness, ray of exhaustion (DC 20), silence, self only
+Per day: 3/day: dimensional anchor, greater teleport, true seeing\
+1/day: circle of death (DC 23), discern location, prismatic spray (DC 24)
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 28, Con 22, Int 17, Wis 19, Cha 25
+Base attack bonus: +7
+Combat maneuver bonus: +16
+Combat maneuver defense: 36
+Feats: Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Lightning Stance, Wind Stance
+Skills: Bluff +24, Escape Artist +26, Fly +32, Intimidate +21, Knowledge (nature) +20, Perception +21, Sense Motive +21, Stealth +22
+Languages: Common (can't speak), Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 31
-
-**Touch:** 19
-
-**Flat-footed:** 21
-
-**AC modifiers:** +9 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 133 (14d6+84)
-
-**Fort:** +10
-
-**Ref:** +18
-
-**Will:** +13
-
-**Dr:** 10/cold iron
-
-**Offense**
-
-**Speed:** fly 90 ft. (perfect)
-
-**Bleed:** 2d6
-
-**Melee:** 2 claws +14 (1d6+8), tail slap +9 (1d8+4 plus bleed), 2 wings +9 (1d8+4 plus bleed)
-
-**Reach:** 5
-
-**Sneak:** +3d6
-
-**Space:** 10
-
-**Spec Att:** cold iron killer, shadow doubles
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**At will:**
-
-- deeper darkness, ray of exhaustion (DC 20), silence, self only
-
-**Per day:**
-
-- 3/day: dimensional anchor, greater teleport, true seeing
-- 1/day: circle of death (DC 23), discern location, prismatic spray (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 28, Con 22, Int 17, Wis 19, Cha 25
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 36
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Lightning Stance,
-Wind Stance
-
-**Skills:** Bluff +24, Escape Artist +26, Fly +32, Intimidate +21, Knowledge (nature) +20,
-Perception +21, Sense Motive +21, Stealth +22
-
-**Languages:** Common (can't speak), Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (primal land of fey)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any (primal land of fey)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

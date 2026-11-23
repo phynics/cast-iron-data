@@ -33,69 +33,57 @@ abilities = ["18", "9", "-", "-", "11", "1"]
 _With its feet planted firmly together, this marble statue of a female warrior holding a stone sword
 rises up to support the ceiling._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: -1 Dex, +5 natural
+Hit points: 36 (3d10+20)
+Fort: +1
+Ref: +0
+Will: +1
+Defensive abilities: shatter weapons
+Dr: 5/-
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: mwk longsword +8 (1d8+4/19-20)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 16 (cannot be disarmed)
+Special qualities: statue
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** -1 Dex, +5 natural
-
-**Hit points:** 36 (3d10+20)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +1
-
-**Defensive abilities:** shatter weapons
-
-**Dr:** 5/-
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk longsword +8 (1d8+4/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 16 (cannot be disarmed)
-
-**Special qualities:** statue
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colonnade (6-11)
-
-**Treasure:** Standard (mwk longsword); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or colonnade (6-11)
+Treasure: Standard (mwk longsword); other treasure
+:::
 
 ### Special Abilities
 

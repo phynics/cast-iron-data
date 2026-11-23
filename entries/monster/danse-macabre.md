@@ -34,88 +34,66 @@ _Dozens of ghostly figures swirl and cavort, floating through the air as they fo
 ancient, rhythmic dance, seemingly keeping time with the ebb and flow of life itself. Amid this
 eerie crowd of dancing specters looms a dark-cloaked figure wielding a scythe._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: dance of death (40 ft., DC 27)
+Initiative: +13
+Size: large
+lifesense: 60
+Alignment: Neutral evil
+Perception: +29
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 38,400
+:::
 
-**aura:** dance of death (40 ft., DC 27)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 29
+Touch: 29
+Flat-footed: 19
+AC modifiers: +10 deflection, +9 Dex, +1 dodge, -1 size
+Hit points: 203 (14d8+140)
+Fort: +14
+Ref: +13
+Will: +17
+Chan Res: +4
+Defensive abilities: deathless
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**lifesense:** 60
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal scythe +18/+13 touch (2d6/×4 plus 1d6 Constitution drain)
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +29
+::: statblock
+Ability scores: Str -, Dex 28, Con -, Int 8, Wis 22, Cha 30
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 41
+Feats: Combat Reflexes, Dodge, Improved Initiative, Iron Will, Mobility, Skill Focus (Perception), Spring Attack
+Skills: Fly +32, Perception +29, Sense Motive +23
+Languages: Common, Necril
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology {#stat-ecology}
 
-**Subtype:** Incorporeal
-
-**Type:** undead
-
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 29
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 deflection, +9 Dex, +1 dodge, -1 size
-
-**Hit points:** 203 (14d8+140)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +17
-
-**Chan Res:** +4
-
-**Defensive abilities:** deathless
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal scythe +18/+13 touch (2d6/×4 plus 1d6 Constitution drain)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 28, Con -, Int 8, Wis 22, Cha 30
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Iron Will, Mobility, Skill Focus
-(Perception), Spring Attack
-
-**Skills:** Fly +32, Perception +29, Sense Motive +23
-
-**Languages:** Common, Necril
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

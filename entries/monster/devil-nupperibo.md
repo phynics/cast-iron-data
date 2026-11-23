@@ -27,53 +27,41 @@ special_qualities = "infernal slave"
 abilities = ["10", "10", "10", "-", "11", "4"]
 +++
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 60
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 12
+AC modifiers: +2 natural
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +2
+Will: +0
+Dr: 5/good or silver
+Immune: fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
-
-**Type:** outsider
-
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 natural
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Dr:** 5/good or silver
-
-**Immune:** fire, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** spear +1 (1d8/×3), 2 claws +1 (1d4)
+::: statblock
+Speed: 20 ft.
+Melee: spear +1 (1d8/×3), 2 claws +1 (1d4)
+:::
 
 ### Tactics
 
@@ -82,17 +70,15 @@ only if it is disarmed.
 
 **Morale** Nupperibos fight to the death.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 10, Con 10, Int -, Wis 11, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11
-
-**Special qualities:** infernal slave
+::: statblock
+Ability scores: Str 10, Dex 10, Con 10, Int -, Wis 11, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 11
+Special qualities: infernal slave
+:::
 
 ### Special Abilities
 

@@ -29,69 +29,57 @@ abilities = ["10", "13", "15", "2", "12", "6"]
 _The squat, waddling badger trudges forth. Thrusting its flattened nose about the ground, it sniffs
 incessantly._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 9 (1d8+5)
+Fort: +4
+Ref: +3
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Blood Rage: present
+Melee: bite +1 (1d3), 2 claws +1 (1d2)
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 13, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 10 (14 vs. trip)
+Feats: Toughness
+Skills: Escape Artist +5, Perception +5
+Racial Modifiers: +4 Escape Artist
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Blood Rage:** present
-
-**Melee:** bite +1 (1d3), 2 claws +1 (1d2)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 10 (14 vs. trip)
-
-**Feats:** Toughness
-
-**Skills:** Escape Artist +5, Perception +5
-
-**Racial Modifiers:** +4 Escape Artist
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or clan (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or clan (3-6)
+Treasure: Incidental
+:::
 
 ### Description
 

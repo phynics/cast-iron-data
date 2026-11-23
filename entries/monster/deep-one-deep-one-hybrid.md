@@ -31,107 +31,82 @@ abilities = ["13", "10", "17", "10", "16", "8"]
 _This elderly man's wide-mouthed, staring countenance and webbed hands suggest a sinister taint in
 his bloodline._
 
-**Challenge rating:** 1/2
-
 **Deep one hybrid [cleric](ref/class/cleric) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: medium
+Perception: +4
+Senses: Low-light vision
+Subtype: Deep one, Human
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 13
+AC modifiers: +2 armor, +1 natural
+Hit points: 12 (1d8+4)
+Fort: +5
+Ref: +0
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Ch N En: 2/day, DC 9, 1d6
+Melee: mwk dagger +2 (1d4+1/19-20)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 6/day: touch of chaos, vision of madness
+:::
 
-**Subtype:** Deep one, Human
-
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +1 natural
-
-**Hit points:** 12 (1d8+4)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Ch N En:** 2/day, DC 9, 1d6
-
-**Melee:** mwk dagger +2 (1d4+1/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 6/day: touch of chaos, vision of madness
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- cause fear (DC 14), cure light wounds, lesser confusion^D^ (DC 14)
-
-**Cantrips:**
-
-- bleed (DC 13), light, resistance
-
-**Domains:** Chaos, [Madness](ref/domain/madness)
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +4
+1st-level spells: cause fear (DC 14), cure light wounds, lesser confusion^D^ (DC 14)
+Cantrips: bleed (DC 13), light, resistance
+Domains: Chaos, [Madness](ref/domain/madness)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 10, Con 17, Int 10, Wis 16, Cha 8
+::: statblock
+Ability scores: Str 13, Dex 10, Con 17, Int 10, Wis 16, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 11
+Feats: Improved Initiative
+Skills: Knowledge (religion) +4, Perception +4, Swim +9
+Racial Modifiers: +8 Swim
+Languages: Aklo, Common
+Special qualities: final change, sea longing, take to the water
+:::
 
-**Base attack bonus:** +0
+### Ecology
 
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Improved Initiative
-
-**Skills:** Knowledge (religion) +4, Perception +4, Swim +9
-
-**Racial Modifiers:** +8 Swim
-
-**Languages:** Aklo, Common
-
-**Special qualities:** final change, sea longing, take to the water
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, cult (2-12), or township (13+)
-
-**Treasure:** NPC gear (mwk dagger, leather armor); other treasure
+::: statblock
+Environment: any urban
+Organization: solitary, cult (2-12), or township (13+)
+Treasure: NPC gear (mwk dagger, leather armor); other treasure
+:::
 
 ### Special Abilities
 

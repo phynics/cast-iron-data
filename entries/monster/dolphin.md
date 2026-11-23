@@ -30,71 +30,58 @@ abilities = ["12", "15", "13", "2", "13", "6"]
 _This streamlined, fish-like mammal has sparkling eyes over a smiling mouth filled with hundreds of
 teeth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+blindsight: 120
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: swim 80 ft.
+Melee: slam +3 (1d4+1)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 12, Dex 15, Con 13, Int 2, Wis 13, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Perception +9, Swim +13
+Racial Modifiers: +4 Perception
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 80 ft.
-
-**Melee:** slam +3 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 13, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +9, Swim +13
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or pod (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or pod (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,71 +29,58 @@ abilities = ["13", "17", "17", "2", "14", "14"]
 _This small, sleek dinosaur has vicious, snapping jaws and feet that end in large talons for gutting
 prey._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +7
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 natural, +1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +6
+Will: +3
+Evasion: present
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 60 ft.
+Melee: bite +6 (1d4+1), 2 talons +6 (1d6+1/19-20)
+Spec Att: leaping charge
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 17, Con 17, Int 2, Wis 14, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Improved Initiative, Weapon Finesse
+Skills: Acrobatics +11 (+23 when jumping), Perception +10, Stealth +15
+Racial Modifiers: +4 Acrobatics (+16 when jumping), +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 natural, +1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +3
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +6 (1d4+1), 2 talons +6 (1d6+1/19-20)
-
-**Spec Att:** leaping charge
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 17, Int 2, Wis 14, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +11 (+23 when jumping), Perception +10, Stealth +15
-
-**Racial Modifiers:** +4 Acrobatics (+16 when jumping), +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,60 @@ abilities = ["20", "10", "21", "-", "13", "11"]
 _This hulking, wide-headed ant is the size of a horse, its antennae twitching and mandibles
 scarred._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+tremorsense: 30
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 42 (4d8+24)
+Fort: +9
+Ref: +1
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 50 ft., burrow 20 ft., climb 20 ft.
+Melee: bite +7 (1d8+5 plus [grab](ref/umr/grab)), sting +7 (1d6+5 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 20, Dex 10, Con 21, Int -, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 19 (27 vs. trip)
+Feats: Coordinated Defense, Toughness
+Skills: Climb +13
+Special qualities: hive guard
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 42 (4d8+24)
-
-**Fort:** +9
-
-**Ref:** +1
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., burrow 20 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d8+5 plus [grab](ref/umr/grab)), sting +7 (1d6+5 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 10, Con 21, Int -, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 19 (27 vs. trip)
-
-**Feats:** Coordinated Defense, Toughness
-
-**Skills:** Climb +13
-
-**Special qualities:** hive guard
-
-**Ecology**
-
-**Environment:** any warm
-
-**Organization:** solitary, pair, scouting party (2 plus 1d4
-[giant ants](ref/monster/ant-giant-ant)), colony (3-8 plus 10-100 workers, 3-12 soldiers, and 1
-queen)
-
-**Treasure:** None
+::: statblock
+Environment: any warm
+Organization: solitary, pair, scouting party (2 plus 1d4 [giant ants](ref/monster/ant-giant-ant)), colony (3-8 plus 10-100 workers, 3-12 soldiers, and 1 queen)
+Treasure: None
+:::
 
 ### Special Abilities
 

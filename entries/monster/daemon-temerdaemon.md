@@ -34,109 +34,76 @@ abilities = ["21", "22", "23", "13", "24", "20"]
 _This humanoid creature's limbs - four arms and four legs - bend in awkward configurations. It
 wields a scythe in its largest arms._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: reaper's curse (30 ft., DC 23, 10 rounds)
+Initiative: +10
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** reaper's curse (30 ft., DC 23, 10 rounds)
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 23
+AC modifiers: +6 Dex, +14 natural, -1 size
+Hit points: 195 (17d10+102)
+Fort: +16
+Ref: +13
+Will: +17
+Dr: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: +1 scythe +23/+18/+13/+8 (2d4+8/19-20/×4 plus confusion), 2 claws +16 (1d4+2 plus confusion)
+Reach: 10
+Sp Extra: air walk
+Space: 10
+Spec Att: confusion
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+At will: bestow curse (DC 19), death knell (DC 17), gaseous form, passwall, stone shape, telekinesis (DC 20)
+Per day: 3/day: disintegrate (DC 21), greater dispel magic, illusory wall (DC 19), suggestion (DC 18)\
+1/day: summon (level 5, 1 temerdaemon 30%)
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 22, Con 23, Int 13, Wis 24, Cha 20
+Base attack bonus: +17
+Combat maneuver bonus: +23 (+25 trip)
+Combat maneuver defense: 39 (45 vs. trip)
+Feats: Blinding Critical, Combat Expertise, Critical Focus, Improved Critical (scythe), Improved Initiative, Improved Trip, Lightning Reflexes, Power Attack, Weapon Focus (scythe)
+Skills: Bluff +25, Intimidate +25, Knowledge (planes, religion) +21, Perception +27, Sense Motive +27, Stealth +22
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +6 Dex, +14 natural, -1 size
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +17
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 scythe +23/+18/+13/+8 (2d4+8/19-20/×4 plus confusion), 2 claws +16 (1d4+2 plus
-confusion)
-
-**Reach:** 10
-
-**Sp Extra:** air walk
-
-**Space:** 10
-
-**Spec Att:** confusion
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**At will:**
-
-- bestow curse (DC 19), death knell (DC 17), gaseous form, passwall, stone shape, telekinesis (DC
-  20)
-
-**Per day:**
-
-- 3/day: disintegrate (DC 21), greater dispel magic, illusory wall (DC 19), suggestion (DC 18)
-- 1/day: summon (level 5, 1 temerdaemon 30%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 22, Con 23, Int 13, Wis 24, Cha 20
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23 (+25 trip)
-
-**Combat maneuver defense:** 39 (45 vs. trip)
-
-**Feats:** Blinding Critical, Combat Expertise, Critical Focus, Improved Critical (scythe), Improved
-Initiative, Improved Trip, Lightning Reflexes, Power Attack, Weapon Focus (scythe)
-
-**Skills:** Bluff +25, Intimidate +25, Knowledge (planes, religion) +21, Perception +27, Sense
-Motive +27, Stealth +22
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or trapper gang (3 temerdaemons and 10-16
-[cacodaemons](ref/monster/daemon-cacodaemon))
-
-**Treasure:** Standard (+1 scythe); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or trapper gang (3 temerdaemons and 10-16 [cacodaemons](ref/monster/daemon-cacodaemon))
+Treasure: Standard (+1 scythe); other treasure
+:::
 
 ### Special Abilities
 

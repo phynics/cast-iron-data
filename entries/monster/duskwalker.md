@@ -33,83 +33,65 @@ abilities = ["13", "17", "12", "10", "14", "8"]
 _This tall, gray-skinned woman's eyes flicker with determination. Her somber attire is decorated
 with small bones._
 
-**Challenge rating:** 1/2
-
 **Female duskwalker [ranger](ref/class/ranger) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 1/2
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 armor, +3 Dex
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +5
+Will: +2; +2 vs. negative energy and death effects
+Defensive abilities: ward against corruption
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Fav En: undead +2
+Melee: dagger +2 (1d4+1/19-20)
+Ranged: composite longbow +4 (1d8+1/×3)
+Spec Att: ghost hunter
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 13, Dex 17, Con 12, Int 10, Wis 14, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Point-Blank Shot
+Skills: Acrobatics +4, Heal +8, Knowledge (nature) +4, Perception +6
+Racial Modifiers: +2 Heal, +2 Knowledge (religion)
+Languages: Celestial, Common
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +0
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +3 Dex
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +2; +2 vs. negative energy and death effects
-
-**Defensive abilities:** ward against corruption
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** undead +2
-
-**Melee:** dagger +2 (1d4+1/19-20)
-
-**Ranged:** composite longbow +4 (1d8+1/×3)
-
-**Spec Att:** ghost hunter
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 12, Int 10, Wis 14, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Point-Blank Shot
-
-**Skills:** Acrobatics +4, Heal +8, Knowledge (nature) +4, Perception +6
-
-**Racial Modifiers:** +2 Heal, +2 Knowledge (religion)
-
-**Languages:** Celestial, Common
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +0
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or team (3-6)
-
-**Treasure:** NPC gear (cl20, leather armor, dagger); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or team (3-6)
+Treasure: NPC gear (cl20, leather armor, dagger); other treasure
+:::
 
 ### Special Abilities
 

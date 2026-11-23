@@ -34,119 +34,78 @@ abilities = ["27", "20", "30", "21", "23", "26"]
 _While this seductive woman has goat horns, goat hooves, and a serpentine tail, her eyeless face is
 her most disturbing feature._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: unholy aura (DC 26)
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar, Shapechanger
+Experience points: 102,400
+:::
 
-**aura:** unholy aura (DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 34
+Touch: 24
+Flat-footed: 28
+AC modifiers: +4 deflection, +5 Dex, +1 dodge, +10 natural, +4 profane
+Hit points: 263 (17d10+170)
+Fort: +19
+Ref: +23
+Will: +20
+Defensive abilities: profane grace
+Dr: 10/cold iron and good
+Evasion: present
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 28
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., fly 60 ft. (good)
+Melee: 4 claws +25 (2d8+8/19-20), tail slap +20 touch (1d6+4 plus branding)
+Spec Att: create husk, husk link, profane pact, swift claws
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +25
+Constant: fly, tongues, true seeing, unholy aura (DC 26)
+At will: charm monster (DC 22), detect thoughts (DC 20), greater teleport, self plus 50 lbs. of objects only, suggestion (DC 21), telekinesis (DC 23)
+Per day: 3/day: quickened charm monster (DC 22), persistent image (DC 23), seeming (DC 23)\
+1/day: demand (DC 26), dominate monster (DC 27), project image (DC 25), summon (level 5, 1 lilitu 20%, 1d2 glabrezus 40%, or 1d6 vrocks 50%)
+Per week: binding (DC 26), wish, granted to a mortal humanoid only
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 27, Dex 20, Con 30, Int 21, Wis 23, Cha 26
+Base attack bonus: +17
+Combat maneuver bonus: +25
+Combat maneuver defense: 49
+Feats: Critical Focus, Deceitful, Dodge, Improved Critical (claw), Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Spring Attack, Staggering Critical
+Skills: Acrobatics +25, Bluff +40, Diplomacy +28, Disguise +29, Sense Motive +26
+Racial Modifiers: +8 Bluff, +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), profane wishcraft
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar, Shapechanger
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 34
-
-**Touch:** 24
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 deflection, +5 Dex, +1 dodge, +10 natural, +4 profane
-
-**Hit points:** 263 (17d10+170)
-
-**Fort:** +19
-
-**Ref:** +23
-
-**Will:** +20
-
-**Defensive abilities:** profane grace
-
-**Dr:** 10/cold iron and good
-
-**Evasion:** present
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 60 ft., fly 60 ft. (good)
-
-**Melee:** 4 claws +25 (2d8+8/19-20), tail slap +20 touch (1d6+4 plus branding)
-
-**Spec Att:** create husk, husk link, profane pact, swift claws
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +25
-
-**Constant:**
-
-- fly, tongues, true seeing, unholy aura (DC 26)
-
-**At will:**
-
-- charm monster (DC 22), detect thoughts (DC 20), greater teleport, self plus 50 lbs. of objects
-  only, suggestion (DC 21), telekinesis (DC 23)
-
-**Per day:**
-
-- 3/day: quickened charm monster (DC 22), persistent image (DC 23), seeming (DC 23)
-- 1/day: demand (DC 26), dominate monster (DC 27), project image (DC 25), summon (level 5, 1 lilitu
-  20%, 1d2 glabrezus 40%, or 1d6 vrocks 50%)
-
-**Per week:**
-
-- binding (DC 26), wish, granted to a mortal humanoid only
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 20, Con 30, Int 21, Wis 23, Cha 26
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 49
-
-**Feats:** Critical Focus, Deceitful, Dodge, Improved Critical (claw), Mobility, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Spring Attack,
-Staggering Critical
-
-**Skills:** Acrobatics +25, Bluff +40, Diplomacy +28, Disguise +29, Sense Motive +26
-
-**Racial Modifiers:** +8 Bluff, +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), profane wishcraft
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, gathering (3-5), or cult (1 lilitu and 6-12
-[succubi](ref/monster/demon-succubus))
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, gathering (3-5), or cult (1 lilitu and 6-12 [succubi](ref/monster/demon-succubus))
+Treasure: Double
+:::
 
 ### Special Abilities
 

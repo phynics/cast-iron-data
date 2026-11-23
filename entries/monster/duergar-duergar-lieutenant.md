@@ -29,75 +29,57 @@ special_qualities = "favored terrain (underground +2), hunter's bond (companions
 abilities = ["16", "12", "16", "10", "15", "4"]
 +++
 
-**Challenge rating:** 5
-
 **Duergar [ranger](ref/class/ranger) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +11
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +5 armor, +1 Dex, +4 natural
+Hit points: 61 (6d10+24)
+Fort: +8
+Ref: +6
+Will: +4; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft.
+Fav En: dwarves +4, elves +2
+Melee: +1 warhammer +11/+6 (2d6+4/×3)
+Ranged: mwk light crossbow +8 (1d8/19-20)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +3
+Per day: 1/day: dust of twilight, ironskin
+:::
 
-**Subtype:** Dwarf
-
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +1 Dex, +4 natural
-
-**Hit points:** 61 (6d10+24)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +4; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Fav En:** dwarves +4, elves +2
-
-**Melee:** +1 warhammer +11/+6 (2d6+4/×3)
-
-**Ranged:** mwk light crossbow +8 (1d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: dust of twilight, ironskin
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**1st-level spells:**
-
-- lead blades, longstrider
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +5
+1st-level spells: lead blades, longstrider
+:::
 
 ### Tactics
 
@@ -108,34 +90,26 @@ _[lead blades](ref/spell/lead-blades)_ on himself.
 _[lead blades](ref/spell/lead-blades),_ the lieutenant's statistics are AC 16, touch 11, flat-footed
 15; Melee +1 warhammer +11/+6 (1d8+4/×3).
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 16, Dex 12, Con 16, Int 10, Wis 15, Cha 4
+::: statblock
+Ability scores: Str 16, Dex 12, Con 16, Int 10, Wis 15, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 20 (24 vs. bull rush or trip)
+Feats: Cleave, Endurance, Mounted Combat, Power Attack, Weapon Focus (warhammer)
+Skills: Climb +11, Survival +11
+Languages: Common, Dwarven, Undercommon
+Special qualities: [favored terrain](ref/ability/favored-terrain) (underground +2), hunter's bond (companions), ironskinned, slow and steady, stability, track +3, twilight touched, [wild empathy](ref/ability/wild-empathy) +3
+Combat gear: potion of cure moderate wounds, potion of invisibility, 2 alchemist's fire, 2 thunderstones
+Other gear: +1 chain shirt, +1 warhammer, mwk light crossbow with 20 bolts, 51 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20 (24 vs. bull rush or trip)
-
-**Feats:** Cleave, Endurance, Mounted Combat, Power Attack, Weapon Focus (warhammer)
-
-**Skills:** Climb +11, Survival +11
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (underground +2), hunter's
-bond (companions), ironskinned, slow and steady, stability, track +3, twilight touched,
-[wild empathy](ref/ability/wild-empathy) +3
-
-**Combat gear:** potion of cure moderate wounds, potion of invisibility, 2 alchemist's fire, 2
-thunderstones
-
-**Other gear:** +1 chain shirt, +1 warhammer, mwk light crossbow with 20 bolts, 51 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

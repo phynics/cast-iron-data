@@ -32,125 +32,80 @@ abilities = ["30", "39", "40", "30", "31", "31"]
 _This stork-headed, winged humanoid is spattered with blood and wields a pair of gory, razor-sharp
 daggers in his dripping hands._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: bleeding wounds (30 ft.), [frightful presence](ref/umr/frightful-presence) (120 ft., DC 36), unholy aura (DC 28)
+Alignment: Chaotic evil
+Initiative: +18
+Size: medium
+Type: outsider
+Perception: +54
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 4,915,200
+:::
 
-**aura:** bleeding wounds (30 ft.), [frightful presence](ref/umr/frightful-presence) (120 ft., DC
-36), unholy aura (DC 28)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 46
+Touch: 38
+Flat-footed: 32
+AC modifiers: +14 Dex, +8 natural, +14 profane
+Hit points: 676 (33d10+495)
+Fort: +26
+Ref: +32
+Will: +28
+Defensive abilities: absorb blood, Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, epic, and good
+Immune: ability damage and drain, bleed, charm and compulsion effects, death effects, electricity, energy drain, poison, petrification
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30, fire 30
+Sr: 39
+:::
 
-**Initiative:** +18
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft.
+Melee: +5 unholy dagger +46/+41/+36/+31 (1d4+15/17-20), +5 unholy dagger +46/+41/+36/+31 (1d4+15/17-20), bite +38 (1d6+5)
+Ranged: thrown surgical tool +47/+42/+37/+32 (1d6+10)
+Sneak: +5d6
+Spec Att: command blood, frightful weapon prowess, painful cuts
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +38
+Constant: detect good, detect law, freedom of movement, true seeing, unholy aura
+At will: astral projection, blasphemy (DC 27), blood biography (DC 23), desecrate, greater dispel magic, greater teleport, telekinesis (DC 25), shapechange, spiritual weapon, unhallow, unholy blight (DC 24)
+Per day: 3/day: blade barrier (DC 26), mage's sword, summon demons, symbol of pain (DC 25)\
+1/day: finger of death (DC 27), time stop, weird (DC 29)
+:::
 
-**Perception:** +54
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 30, Dex 39, Con 40, Int 30, Wis 31, Cha 31
+Base attack bonus: +33
+Combat maneuver bonus: +43 (+47 disarm)
+Combat maneuver defense: 81
+Feats: Blinding Critical, Combat Expertise, Combat Reflexes, Craft Magic Arms and Armor, Critical Focus, Double Slice, Greater Disarm, Greater Two-Weapon Fighting, Improved Critical (dagger), Improved Disarm, Improved Initiative, Improved Two-Weapon Fighting, Improvised Weapon Mastery, Quick Draw, Throw Anything, Two-Weapon Fighting, Two-Weapon Rend
+Skills: Acrobatics +50, Bluff +46, Craft (alchemy) +46, Disable Device +50, Fly +47, Intimidate +46, Knowledge (arcana) +43, Knowledge (planes) +46, Perception +54, Sense Motive +46, Sleight of Hand +47, Spellcraft +43, Stealth +50, Use Magic Device +46
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: master of lies
+Faith: Shax
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 38
-
-**Flat-footed:** 32
-
-**AC modifiers:** +14 Dex, +8 natural, +14 profane
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +26
-
-**Ref:** +32
-
-**Will:** +28
-
-**Defensive abilities:** absorb blood, Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage and drain, bleed, charm and compulsion effects, death effects,
-electricity, energy drain, poison, petrification
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +5 unholy dagger +46/+41/+36/+31 (1d4+15/17-20), +5 unholy dagger +46/+41/+36/+31
-(1d4+15/17-20), bite +38 (1d6+5)
-
-**Ranged:** thrown surgical tool +47/+42/+37/+32 (1d6+10)
-
-**Sneak:** +5d6
-
-**Spec Att:** command blood, frightful weapon prowess, painful cuts
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +38
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, true seeing, unholy aura
-
-**At will:**
-
-- astral projection, blasphemy (DC 27), blood biography (DC 23), desecrate, greater dispel magic,
-  greater teleport, telekinesis (DC 25), shapechange, spiritual weapon, unhallow, unholy blight (DC
-  24)
-
-**Per day:**
-
-- 3/day: blade barrier (DC 26), mage's sword, summon demons, symbol of pain (DC 25)
-- 1/day: finger of death (DC 27), time stop, weird (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 39, Con 40, Int 30, Wis 31, Cha 31
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +43 (+47 disarm)
-
-**Combat maneuver defense:** 81
-
-**Feats:** Blinding Critical, Combat Expertise, Combat Reflexes, Craft Magic Arms and Armor,
-Critical Focus, Double Slice, Greater Disarm, Greater Two-Weapon Fighting, Improved Critical
-(dagger), Improved Disarm, Improved Initiative, Improved Two-Weapon Fighting, Improvised Weapon
-Mastery, Quick Draw, Throw Anything, Two-Weapon Fighting, Two-Weapon Rend
-
-**Skills:** Acrobatics +50, Bluff +46, Craft (alchemy) +46, Disable Device +50, Fly +47, Intimidate
-+46, Knowledge (arcana) +43, Knowledge (planes) +46, Perception +54, Sense Motive +46, Sleight of
-Hand +47, Spellcraft +43, Stealth +50, Use Magic Device +46
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** master of lies
-
-**Faith:** Shax
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (2 +5 unholy daggers); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple (2 +5 unholy daggers); other treasure
+:::
 
 ### Special Abilities
 

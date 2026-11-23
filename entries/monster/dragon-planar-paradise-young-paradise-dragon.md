@@ -31,98 +31,72 @@ abilities = ["25", "12", "21", "16", "17", "16"]
 
 _This sleek dragon carries itself with regal dignity. Its eyes glow with heavenly light._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: dragon
+Initiative: +5
+Size: large
+Alignment: Lawful good
+Perception: +24
+Senses: Dragon senses
+Subtype: Extraplanar, Good, Lawful
+Experience points: 19,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 161 (14d12+70)
+Fort: +14
+Ref: +10
+Will: +12
+Immune: force effects, paralysis, petrification, poison, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 60 ft., fly 200 ft. (average)
+Br Weap: 80-ft. line, 6d8 force damage, Reflex DC 22 half
+Melee: bite +21 (2d6+10/19-20), 2 claws +20 (1d8+7), tail slap +18 (1d8+10), 2 wings +18 (1d6+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+Spec Att: rebuking breath
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: cure light wounds, remove fear
+Cantrips: At will: create water, detect magic, light, purify food and drink
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful
+::: statblock
+Ability scores: Str 25, Dex 12, Con 21, Int 16, Wis 17, Cha 16
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 33 (37 vs. trip)
+Feats: Alertness, Hover, Improved Critical (bite), Improved Initiative, Multiattack, Persuasive, Weapon Focus (bite)
+Skills: Diplomacy +24, Sense Motive +24, Spellcraft +20
+Languages: Celestial, Common, Draconic
+Special qualities: graceful flight, heavenly aid
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 161 (14d12+70)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +12
-
-**Immune:** force effects, paralysis, petrification, poison, sleep
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (average)
-
-**Br Weap:** 80-ft. line, 6d8 force damage, Reflex DC 22 half
-
-**Melee:** bite +21 (2d6+10/19-20), 2 claws +20 (1d8+7), tail slap +18 (1d8+10), 2 wings +18 (1d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** rebuking breath
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: cure light wounds, remove fear
-
-**Cantrips:**
-
-- At will: create water, detect magic, light, purify food and drink
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 21, Int 16, Wis 17, Cha 16
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33 (37 vs. trip)
-
-**Feats:** Alertness, Hover, Improved Critical (bite), Improved Initiative, Multiattack, Persuasive,
-Weapon Focus (bite)
-
-**Skills:** Diplomacy +24, Sense Motive +24, Spellcraft +20
-
-**Languages:** Celestial, Common, Draconic
-
-**Special qualities:** graceful flight, heavenly aid
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

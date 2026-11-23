@@ -30,69 +30,57 @@ abilities = ["13", "15", "10", "10", "8", "11"]
 _This scaly, pale-furred monstrosity has bulging muscles, a short muzzle, and two small horns that
 erupt over its sloping brow._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (4d10)
+Fort: +1
+Ref: +6
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Melee: handaxe +5 (1d6+1/×3), claw +0 (1d4) or 2 claws +5 (1d4+1)
+Spec Att: share deformity, unsettling scream
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 13, Dex 15, Con 10, Int 10, Wis 8, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Athletic, Nimble Moves
+Skills: Acrobatics +6, Climb +10
+Languages: Common
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (4d10)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Melee:** handaxe +5 (1d6+1/×3), claw +0 (1d4) or 2 claws +5 (1d4+1)
-
-**Spec Att:** share deformity, unsettling scream
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 10, Int 10, Wis 8, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Athletic, Nimble Moves
-
-**Skills:** Acrobatics +6, Climb +10
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate and warm forests and marshes
-
-**Organization:** solitary or brotherhood (2-6)
-
-**Treasure:** Standard (handaxe); other treasure
+::: statblock
+Environment: temperate and warm forests and marshes
+Organization: solitary or brotherhood (2-6)
+Treasure: Standard (handaxe); other treasure
+:::
 
 ### Special Abilities
 

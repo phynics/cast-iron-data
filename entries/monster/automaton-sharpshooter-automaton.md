@@ -33,109 +33,77 @@ abilities = ["18", "20", "-", "17", "19", "18"]
 _This construct resembles a humanoid with a large crossbow built into its arm. It floats with no
 apparent mechanism._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Initiative: +9
+Alignment: Lawful neutral
+Size: medium
+Perception: +27
+Senses: Darkvision 120 ft., Low-light vision, See invisibility
+Subtype: Automaton, Extraplanar
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 25
+AC modifiers: +4 Dex, +15 natural
+Hit points: 130 (20d10+20)
+Fort: +6
+Ref: +14
+Will: +10
+Defensive abilities: all-around vision, sharpshooter's sense
+Dr: 15/adamantine
+Fh: 10
+Immune: [construct traits](ref/umr/construct-traits), electricity
+Resist: cold 10, sonic 10
+Sr: 26
+Weaknesses: vulnerable mind
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: slam +24 (1d8+6)
+Ranged: automated crossbow +25/+20/+15/+10 (2d8+6/17-20 plus 1d6 fire)
+Spec Att: arcane propulsion, bolt volley, energy beam
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: see invisibility
+At will: hold person (DC 16), mirror image, web (DC 16)
+Per day: 3/day: chain lightning (DC 20), wall of force\
+1/day: plane shift, self plus 50 lbs. of objects only, reverse gravity
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Automaton, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 20, Con -, Int 17, Wis 19, Cha 18
+Base attack bonus: +20
+Combat maneuver bonus: +24
+Combat maneuver defense: 40
+Feats: Far Shot, Hover, Improved Critical (automated crossbow), Improved Initiative, Improved Precise Shot, Manyshot, Pinpoint Targeting, Point-Blank Shot, Precise Shot, Rapid Shot
+Skills: Diplomacy +27, Spellcraft +26
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: automaton core, intelligent construct
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +15 natural
-
-**Hit points:** 130 (20d10+20)
-
-**Fort:** +6
-
-**Ref:** +14
-
-**Will:** +10
-
-**Defensive abilities:** all-around vision, sharpshooter's sense
-
-**Dr:** 15/adamantine
-
-**Fh:** 10
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 26
-
-**Weaknesses:** vulnerable mind
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +24 (1d8+6)
-
-**Ranged:** automated crossbow +25/+20/+15/+10 (2d8+6/17-20 plus 1d6 fire)
-
-**Spec Att:** arcane propulsion, bolt volley, energy beam
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- hold person (DC 16), mirror image, web (DC 16)
-
-**Per day:**
-
-- 3/day: chain lightning (DC 20), wall of force
-- 1/day: plane shift, self plus 50 lbs. of objects only, reverse gravity
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 20, Con -, Int 17, Wis 19, Cha 18
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 40
-
-**Feats:** Far Shot, Hover, Improved Critical (automated crossbow), Improved Initiative, Improved
-Precise Shot, Manyshot, Pinpoint Targeting, Point-Blank Shot, Precise Shot, Rapid Shot
-
-**Skills:** Diplomacy +27, Spellcraft +26
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** automaton core, intelligent construct
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary or pair
-
-**Treasure:** Other (automated crossbow)
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary or pair
+Treasure: Other (automated crossbow)
+:::
 
 ### Special Abilities
 

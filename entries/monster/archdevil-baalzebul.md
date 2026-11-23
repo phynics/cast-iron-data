@@ -30,129 +30,84 @@ abilities = ["36", "30", "41", "35", "32", "35"]
 
 _This swarm of droning black flies teems in the semblance of a winged angel with glowing red eyes._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 39), shield of law (DC 30)
+blindsight: 120
+Initiative: +14
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +49
+Senses: Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 9,830,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 39), shield of law (DC 30)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 48
+Touch: 40
+Flat-footed: 37
+AC modifiers: +4 deflection, +10 Dex, +1 dodge, +8 natural, +16 profane, -1 size
+Hit points: 717 (35d10+525)
+Fort: +30
+Ref: +30
+Will: +36; +8 vs. mind-affecting effects
+Defensive abilities: infernal resurrection, _[mind blank](ref/spell/mind-blank)_, swarm body, usurpation
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm, cold, compulsion, death effects, disease, energy drain, fire, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30
+Sr: 41
+:::
 
-**Initiative:** +14
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 120 ft. (perfect)
+Melee: +5 adamantine good-outsider-bane icy burst unholy longsword +53/+48/+43/+38 (2d6+24/17-20 plus 1d6 cold) or 2 slams +47 (8d6+13)
+Reach: 10
+Space: 10
+Spec Att: biting blackflies, hellfrost, suffocating swarm
+:::
 
-**Alignment:** Lawful evil
-
-**Type:** outsider
-
-**Perception:** +49
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 40
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, +10 Dex, +1 dodge, +8 natural, +16 profane, -1 size
-
-**Hit points:** 717 (35d10+525)
-
-**Fort:** +30
-
-**Ref:** +30
-
-**Will:** +36; +8 vs. mind-affecting effects
-
-**Defensive abilities:** infernal resurrection, _[mind blank](ref/spell/mind-blank)_, swarm body,
-usurpation
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm, cold, compulsion, death effects, disease, energy
-drain, fire, petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** fly 120 ft. (perfect)
-
-**Melee:** +5 adamantine good-outsider-bane icy burst unholy longsword +53/+48/+43/+38 (2d6+24/17-20
-plus 1d6 cold) or 2 slams +47 (8d6+13)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** biting blackflies, hellfrost, suffocating swarm
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +42
-
-**Constant:**
-
-- detect chaos, detect good, mind blank, shield of law (DC 30), true seeing
-
-**At will:**
-
-- astral projection, curse of disgust (DC 27), desecrate^M^, dictum^M^ (DC 29), greater dispel
-  magic, greater invisibility, greater teleport, icy prison (DC 27), insect plague, order's wrath^M^
-  (DC 26), unhallow
-
-**Per day:**
-
-- 3/day: demand (DC 30), finger of death^M^ (DC 29), quickened freezing sphere, empowered cone of
-  cold^M^, summon devils
-- 1/day: mass suffocation (DC 31), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +42
+Constant: detect chaos, detect good, mind blank, shield of law (DC 30), true seeing
+At will: astral projection, curse of disgust (DC 27), desecrate^M^, dictum^M^ (DC 29), greater dispel magic, greater invisibility, greater teleport, icy prison (DC 27), insect plague, order's wrath^M^ (DC 26), unhallow
+Per day: 3/day: demand (DC 30), finger of death^M^ (DC 29), quickened freezing sphere, empowered cone of cold^M^, summon devils\
+1/day: mass suffocation (DC 31), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Baalzebul can use this ability's mythic version in his infernal realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 36, Dex 30, Con 41, Int 35, Wis 32, Cha 35
+::: statblock
+Ability scores: Str 36, Dex 30, Con 41, Int 35, Wis 32, Cha 35
+Base attack bonus: +35
+Combat maneuver bonus: +49
+Combat maneuver defense: 90 (can't be tripped)
+Feats: Critical Focus, Dazzling Display, Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Flyby Attack, Improved Critical (longsword), Improved Initiative, Improved Iron Will, Iron Will, Lightning Stance, Mobility, Power Attack, Quicken Spell-Like Ability (freezing sphere), Shatter Defenses, Sickening Critical, Skill Focus (Bluff), Weapon Focus (longsword), Wind Stance
+Skills: Acrobatics +48, Bluff +56, Diplomacy +50, Disguise +50, Sense Motive +49, Spellcraft +47, Stealth +44, Use Magic Device +47
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: lord of the flies, swarm master
+Faith: Baalzebul
+:::
 
-**Base attack bonus:** +35
+### Ecology
 
-**Combat maneuver bonus:** +49
-
-**Combat maneuver defense:** 90 (can't be tripped)
-
-**Feats:** Critical Focus, Dazzling Display, Dodge, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Flyby Attack, Improved Critical
-(longsword), Improved Initiative, Improved Iron Will, Iron Will, Lightning Stance, Mobility, Power
-Attack, Quicken Spell-Like Ability (freezing sphere), Shatter Defenses, Sickening Critical, Skill
-Focus (Bluff), Weapon Focus (longsword), Wind Stance
-
-**Skills:** Acrobatics +48, Bluff +56, Diplomacy +50, Disguise +50, Sense Motive +49, Spellcraft
-+47, Stealth +44, Use Magic Device +47
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** lord of the flies, swarm master
-
-**Faith:** Baalzebul
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 MA BANE-good-outsider I unholy longsword); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (+5 MA BANE-good-outsider I unholy longsword); other treasure
+:::
 
 ### Special Abilities
 

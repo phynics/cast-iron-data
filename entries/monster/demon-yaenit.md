@@ -32,99 +32,72 @@ abilities = ["20", "14", "19", "9", "13", "16"]
 
 _Patches of fur adorn the sickly flesh of this gangly but muscular hyena-headed humanoid._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: hallucinatory aura (20 ft., DC 17)
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**aura:** hallucinatory aura (20 ft., DC 17)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +8
+Will: +5
+Dr: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: mwk falchion +14/+9 (2d4+7/18-20), bite +8 (1d6+2)
+Spec Att: break bones
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: see invisibility
+At will: darkness, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: hold person (DC 16), vampiric touch\
+1/day: summon (level 3, 1 yaenit 40%)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility
+::: statblock
+Ability scores: Str 20, Dex 14, Con 19, Int 9, Wis 13, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Cleave, Dodge, Iron Will, Power Attack
+Skills: Acrobatics +11, Bluff +12, Climb +14, Intimidate +10, Knowledge (planes) +8, Perception +10, Stealth +11
+Languages: Abyssal, Celestial, Draconic, Gnoll; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +5
-
-**Dr:** 5/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** mwk falchion +14/+9 (2d4+7/18-20), bite +8 (1d6+2)
-
-**Spec Att:** break bones
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- darkness, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: hold person (DC 16), vampiric touch
-- 1/day: summon (level 3, 1 yaenit 40%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con 19, Int 9, Wis 13, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Cleave, Dodge, Iron Will, Power Attack
-
-**Skills:** Acrobatics +11, Bluff +12, Climb +14, Intimidate +10, Knowledge (planes) +8, Perception
-+10, Stealth +11
-
-**Languages:** Abyssal, Celestial, Draconic, Gnoll; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pack (2-5), or clan (6-12)
-
-**Treasure:** Standard (mwk falchion); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pack (2-5), or clan (6-12)
+Treasure: Standard (mwk falchion); other treasure
+:::
 
 ### Special Abilities
 

@@ -29,107 +29,79 @@ abilities = ["18", "14", "17", "16", "14", "13"]
 _Its parchment-colored scales rustling like dry leaves, this dragon seems unusually attentive, as if
 always on the lookout._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: protective aura (20 ft.)
+Type: dragon
+Initiative: +2
+Size: medium
+Alignment: Neutral good
+Perception: +14
+Senses: Appraising sight, Dragon senses
+Experience points: 2,400
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 19
+AC modifiers: +2 Dex, +9 natural
+Hit points: 57 (6d12+18)
+Fort: +8
+Ref: +7
+Will: +7
+Immune: paralysis, sleep
+Sr: 17
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 150 ft. (average)
+Br Weap: 30-ft. cone, DC 16, 6d6 cold or fire
+Melee: bite +10 (1d8+6), 2 claws +10 (1d6+4), 2 wings +8 (1d4+2)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +9
+Power points: 3
+Psychoactive powers: forbid action, 1 PE, DC 14, mending, 0 PE
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: mage armor, sleep (DC 14)
+Cantrips: At will: detect magic, detect psychic significance, mage hand, read magic
+:::
 
-**Senses:** Appraising sight, Dragon senses
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 18, Dex 14, Con 17, Int 16, Wis 14, Cha 13
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Deceitful, Multiattack, Skill Focus (Perception)
+Skills: Appraise +12, Bluff +12, Disguise +9, Sense Motive +11
+Languages: Celestial, Common, Draconic
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +9 natural
-
-**Hit points:** 57 (6d12+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +7
-
-**Immune:** paralysis, sleep
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft., fly 150 ft. (average)
-
-**Br Weap:** 30-ft. cone, DC 16, 6d6 cold or fire
-
-**Melee:** bite +10 (1d8+6), 2 claws +10 (1d6+4), 2 wings +8 (1d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Power points:** 3
-
-**Psychoactive powers:**
-
-- forbid action, 1 PE, DC 14, mending, 0 PE
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: mage armor, sleep (DC 14)
-
-**Cantrips:**
-
-- At will: detect magic, detect psychic significance, mage hand, read magic
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 14, Con 17, Int 16, Wis 14, Cha 13
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Deceitful, Multiattack, Skill Focus (Perception)
-
-**Skills:** Appraise +12, Bluff +12, Disguise +9, Sense Motive +11
-
-**Languages:** Celestial, Common, Draconic
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

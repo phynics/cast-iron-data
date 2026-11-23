@@ -31,105 +31,74 @@ abilities = ["24", "18", "29", "14", "15", "15"]
 _The head of this muscular, furry humanoid figure is that of an angry badger; it looks ready to
 strike at a moment's notice._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: protective aura (20 ft.)
+Initiative: +8
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Experience points: 76,800
+:::
 
-**aura:** protective aura (20 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 26
+AC modifiers: +4 Dex, +1 dodge, +16 natural
+Hit points: 261 (18d10+162)
+Fort: +15
+Ref: +15
+Will: +13; +4 resistance vs. evil
+Dr: 10/evil and silver
+Immune: electricity, petrification
+Regen: 5 (evil weapons and spells)
+Resist: cold 10, sonic 10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: unarmed strike +26/+21/+16/+11 (2d8+7/19-20)
+Spec Att: reckless bravura
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +20
+Constant: speak with animals
+At will: soften earth and stone, thunderstomp
+Per day: 3/day: meld into stone, stone call, stone shape\
+1/day: summon monster V, Large earth elemental only
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 18, Con 29, Int 14, Wis 15, Cha 15
+Base attack bonus: +18
+Combat maneuver bonus: +25 (+27 grapple)
+Combat maneuver defense: 40 (42 vs. grapple)
+Feats: Dodge, Improved Critical (unarmed strike), Improved Grapple, Improved Initiative, Improved Unarmed Strike, Lunge, Mobility, Spring Attack, Weapon Focus (unarmed strike)
+Skills: Acrobatics +25, Bluff +23, Climb +28, Escape Artist +25, Knowledge (planes) +14, Perception +23
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: celestial strike, [lay on hands](ref/ability/lay-on-hands) (9d6, 11/day, as an 18th-level paladin), poison purge
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +1 dodge, +16 natural
-
-**Hit points:** 261 (18d10+162)
-
-**Fort:** +15
-
-**Ref:** +15
-
-**Will:** +13; +4 resistance vs. evil
-
-**Dr:** 10/evil and silver
-
-**Immune:** electricity, petrification
-
-**Regen:** 5 (evil weapons and spells)
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** unarmed strike +26/+21/+16/+11 (2d8+7/19-20)
-
-**Spec Att:** reckless bravura
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +20
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- soften earth and stone, thunderstomp
-
-**Per day:**
-
-- 3/day: meld into stone, stone call, stone shape
-- 1/day: summon monster V, Large earth elemental only
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 18, Con 29, Int 14, Wis 15, Cha 15
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +25 (+27 grapple)
-
-**Combat maneuver defense:** 40 (42 vs. grapple)
-
-**Feats:** Dodge, Improved Critical (unarmed strike), Improved Grapple, Improved Initiative,
-Improved Unarmed Strike, Lunge, Mobility, Spring Attack, Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +25, Bluff +23, Climb +28, Escape Artist +25, Knowledge (planes) +14,
-Perception +23
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** celestial strike, [lay on hands](ref/ability/lay-on-hands) (9d6, 11/day, as
-an 18th-level paladin), poison purge
-
-**Ecology**
-
-**Environment:** any underground ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or cete (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any underground ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or cete (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

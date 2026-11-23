@@ -31,109 +31,75 @@ abilities = ["21", "17", "18", "12", "14", "14"]
 _This horned, albino ape has four arms and thick white fur braided with bone fetishes and trophies.
 It carries a strangely shaped throwing axe._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: Magical beast
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent, See invisibility
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 21
+AC modifiers: +4 armor, +3 Dex, +8 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +11
+Will: +8
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 19
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., climb 30 ft., climb (40-ft. base)
+Melee: mwk throwing axe +16/+11/+6 (1d8+5), 3 mwk throwing axes +16 (1d8+2), bite +11 (1d8+2) or bite +16 (1d8+5), 4 claws +16 (1d6+5 plus rend)
+Ranged: 4 mwk throwing axes +16 (1d8+5)
+Reach: 5
+Rend: 4 claws +16, 1d6+7
+Space: 10
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +16
+Constant: see invisibility
+At will: deeper darkness, dimension door, dispel magic
+Per day: 3/day: dominate monster (DC 21), fear (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 21, Dex 17, Con 18, Int 12, Wis 14, Cha 14
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 31
+Feats: Cleave, Combat Reflexes, Iron Will, Multiweapon Fighting, Power Attack, Weapon Focus (throwing axe)
+Skills: Climb +20, Intimidate +11, Knowledge (religion) +14, Perception +11
+Languages: Abyssal, Common, Polyglot
+Special qualities: martial training
+Gear: mwk Ah, 8 mwk throwing axes, leather axe harness
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, +3 Dex, +8 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +8
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., climb (40-ft. base)
-
-**Melee:** mwk throwing axe +16/+11/+6 (1d8+5), 3 mwk throwing axes +16 (1d8+2), bite +11 (1d8+2) or
-bite +16 (1d8+5), 4 claws +16 (1d6+5 plus rend)
-
-**Ranged:** 4 mwk throwing axes +16 (1d8+5)
-
-**Reach:** 5
-
-**Rend:** 4 claws +16, 1d6+7
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +16
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- deeper darkness, dimension door, dispel magic
-
-**Per day:**
-
-- 3/day: dominate monster (DC 21), fear (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 18, Int 12, Wis 14, Cha 14
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31
-
-**Feats:** Cleave, Combat Reflexes, Iron Will, Multiweapon Fighting, Power Attack, Weapon Focus
-(throwing axe)
-
-**Skills:** Climb +20, Intimidate +11, Knowledge (religion) +14, Perception +11
-
-**Languages:** Abyssal, Common, Polyglot
-
-**Special qualities:** martial training
-
-**Gear:** mwk Ah, 8 mwk throwing axes, leather axe harness
-
-**Ecology**
-
-**Environment:** warm jungle
-
-**Organization:** solitary, tribe (2-4 angazhani, 4-8 [girallons](ref/monster/girallon), and 12-24
-[charau-ka](ref/monster/charau-ka)), or empire (8-12 angazhani, 12-20 girallons, and 50-100
-charau-ka)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm jungle
+Organization: solitary, tribe (2-4 angazhani, 4-8 [girallons](ref/monster/girallon), and 12-24 [charau-ka](ref/monster/charau-ka)), or empire (8-12 angazhani, 12-20 girallons, and 50-100 charau-ka)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

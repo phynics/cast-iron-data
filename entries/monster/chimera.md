@@ -29,75 +29,60 @@ abilities = ["19", "12", "17", "4", "13", "10"]
 _This winged monster has the body of a lion, though two more heads flank its central feline one - a
 dragon and a horned goat._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Type: Magical beast
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +7
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 50 ft. (poor)
+Br Weap: usable every 1d4 rounds
+Melee: bite +12 (2d6+4), bite +12 (1d8+4), gore +12 (1d8+4), 2 claws +12 (1d6+4)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 12, Con 17, Int 4, Wis 13, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Hover, Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
+Skills: Fly +2, Perception +10, Stealth +4 (+8 in scrubland or brush)
+Racial Modifiers: +2 Perception, +4 Stealth in scrubland or brush
+Languages: Draconic
+:::
 
-**Experience points:** 3,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (poor)
-
-**Br Weap:** usable every 1d4 rounds
-
-**Melee:** bite +12 (2d6+4), bite +12 (1d8+4), gore +12 (1d8+4), 2 claws +12 (1d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 17, Int 4, Wis 13, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Hover, Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
-
-**Skills:** Fly +2, Perception +10, Stealth +4 (+8 in scrubland or brush)
-
-**Racial Modifiers:** +2 Perception, +4 Stealth in scrubland or brush
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, pair, pride (3-6), or flight (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills
+Organization: solitary, pair, pride (3-6), or flight (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

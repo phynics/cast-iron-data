@@ -35,95 +35,72 @@ abilities = ["34", "19", "-", "-", "11", "1"]
 _Though made of thousands of metal parts, this masterpiece of gleaming metal glides through the air
 with impossible grace._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: construct
+Size: huge
+Initiative: +8
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Clockwork
+Experience points: 76,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 28
+AC modifiers: +4 Dex, +2 dodge, +20 natural, -2 size
+Hit points: 177 (25d10+40)
+Fort: +8
+Ref: +14
+Will: +8
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: fire 20
+Sr: 27
+Vulner: electricity
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft., swim 60 ft., fly 100 ft. (average)
+Br Weap: 100-ft. line, 14d6 fire damage, Reflex DC 22 half, usable every 1d4 rounds
+Melee: bite +35 (4d6+12), 2 claws +35 (2d8+12), tail slap +30 (2d6+6), 2 wings +30 (2d6+6)
+Reach: 15
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: adamantine weapons, self-destruction
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
-
-**Subtype:** Clockwork
-
-**Experience points:** 76,800
-
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 Dex, +2 dodge, +20 natural, -2 size
-
-**Hit points:** 177 (25d10+40)
-
-**Fort:** +8
-
-**Ref:** +14
-
-**Will:** +8
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** fire 20
-
-**Sr:** 27
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft., fly 100 ft. (average)
-
-**Br Weap:** 100-ft. line, 14d6 fire damage, Reflex DC 22 half, usable every 1d4 rounds
-
-**Melee:** bite +35 (4d6+12), 2 claws +35 (2d8+12), tail slap +30 (2d6+6), 2 wings +30 (2d6+6)
-
-**Reach:** 15
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** adamantine weapons, self-destruction
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 19, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +39
-
-**Combat maneuver defense:** 55 (59 vs. trip)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Skills:** Fly +8
-
-**Racial Modifiers:** +8 Fly, +8 Perception
-
-**Special qualities:** difficult to create, efficient winding, swift reactions
+::: statblock
+Ability scores: Str 34, Dex 19, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +25
+Combat maneuver bonus: +39
+Combat maneuver defense: 55 (59 vs. trip)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Skills: Fly +8
+Racial Modifiers: +8 Fly, +8 Perception
+Special qualities: difficult to create, efficient winding, swift reactions
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

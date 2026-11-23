@@ -33,105 +33,75 @@ abilities = ["28", "25", "25", "13", "22", "20"]
 _Moving with deadly grace, this brutal, thickly furred humanoid figure's head is that of a lioness
 with dead black eyes._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +11
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Div, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Initiative:** +11
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 16
+Flat-footed: 20
+AC modifiers: +7 Dex, +11 natural, -1 size
+Hit points: 150 (12d10+84)
+Fort: +11
+Ref: +15
+Will: +14
+Dr: 10/cold iron and good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 23
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: bite +21 (1d8+9/19-20), 2 claws +21 (1d8+9 plus [grab](ref/umr/grab))
+Rake: 2 claws +21, 1d8+9
+Reach: 10
+Space: 10
+Spec Att: consume essence, dusty pelt
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: true seeing
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: magic circle against good, waves of fatigue\
+1/day: summon (level 5, 1d2 [pairakas](ref/monster/div-pairaka) or 1 shira 35%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 25, Con 25, Int 13, Wis 22, Cha 20
+Base attack bonus: +12
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 39
+Feats: Improved Critical (bite), Improved Initiative, Power Attack, Run, Weapon Focus (claw), Weapon Focus (bite)
+Skills: Acrobatics +22 (+30 when jumping), Bluff +20, Climb +24, Intimidate +20, Perception +21
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +11 natural, -1 size
-
-**Hit points:** 150 (12d10+84)
-
-**Fort:** +11
-
-**Ref:** +15
-
-**Will:** +14
-
-**Dr:** 10/cold iron and good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +21 (1d8+9/19-20), 2 claws +21 (1d8+9 plus [grab](ref/umr/grab))
-
-**Rake:** 2 claws +21, 1d8+9
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** consume essence, dusty pelt
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: magic circle against good, waves of fatigue
-- 1/day: summon (level 5, 1d2 [pairakas](ref/monster/div-pairaka) or 1 shira 35%)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 25, Con 25, Int 13, Wis 22, Cha 20
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 39
-
-**Feats:** Improved Critical (bite), Improved Initiative, Power Attack, Run, Weapon Focus (claw),
-Weapon Focus (bite)
-
-**Skills:** Acrobatics +22 (+30 when jumping), Bluff +20, Climb +24, Intimidate +20, Perception +21
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

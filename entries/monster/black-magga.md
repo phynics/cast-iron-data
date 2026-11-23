@@ -35,112 +35,77 @@ abilities = ["37", "10", "31", "25", "18", "20"]
 _This enormous creature's serpentine neck supports a leering reptilian head - its body is a
 wriggling mass of tentacles._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Type: outsider
+Perception: +22
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Aquatic, Native
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +24 natural, -4 size
+Hit points: 232 (15d10+150)
+Fort: +19
+Ref: +11
+Will: +9
+Dr: 15/cold iron and magic
+Immune: death effects, mind-affecting effects, petrification, polymorph
+Resist: acid 20, cold 20
+Sr: 26
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Constrict: 2d6+11
+E Drain: 2 levels, DC 22
+Melee: bite +24 (2d8+13/19-20 plus energy drain), 4 tentacles +19 (2d6+6 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: breath of madness
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: invisibility purge
+At will: death knell (DC 17), prayer
+Per day: 3/day: demand (DC 23), dimensional anchor, divination, dominate person (DC 20), greater command (DC 20)\
+1/day: commune, dream, unhallow
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Native
+::: statblock
+Ability scores: Str 37, Dex 10, Con 31, Int 25, Wis 18, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +32 (+36 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Acrobatics +18, Intimidate +23, Knowledge (arcana, planes) +25, Knowledge (history) +22, Perception +22, Swim +36
+Languages: Abyssal, Celestial, Common, Draconic, Infernal, Thassilonian
+Special qualities: transdimensional tentacles, warp dimensions
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +24 natural, -4 size
-
-**Hit points:** 232 (15d10+150)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 15/cold iron and magic
-
-**Immune:** death effects, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 20, cold 20
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Constrict:** 2d6+11
-
-**E Drain:** 2 levels, DC 22
-
-**Melee:** bite +24 (2d8+13/19-20 plus energy drain), 4 tentacles +19 (2d6+6 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** breath of madness
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- invisibility purge
-
-**At will:**
-
-- death knell (DC 17), prayer
-
-**Per day:**
-
-- 3/day: demand (DC 23), dimensional anchor, divination, dominate person (DC 20), greater command
-  (DC 20)
-- 1/day: commune, dream, unhallow
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 10, Con 31, Int 25, Wis 18, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32 (+36 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved
-Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +18, Intimidate +23, Knowledge (arcana, planes) +25, Knowledge (history) +22,
-Perception +22, Swim +36
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal, Thassilonian
-
-**Special qualities:** transdimensional tentacles, warp dimensions
-
-**Ecology**
-
-**Environment:** the Storval Deep
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: the Storval Deep
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -32,103 +32,74 @@ abilities = ["32", "15", "23", "14", "16", "25"]
 _A humanoid head peers forth from this enormous creature's beautifully iridescent, spike-covered
 beetle carapace._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+Alignment: Chaotic good
+Size: huge
+Initiative: +2
+Perception: +22
+Senses: Darkvision 60 ft.
+tremorsense: 100
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 23
+AC modifiers: +2 Dex, +15 natural, -2 size
+Hit points: 168 (16d8+96)
+Fort: +11
+Ref: +7
+Will: +15
+Dr: 10/magic and slashing
+Immune: acid
+Resist: cold 10
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: bite +21 (2d6+11), 2 claws +21 (1d10+11)
+Ranged: acid spit +13 touch (10d6 acid)
+Reach: 15
+Rend: 1d10+11
+Space: 15
+Spec Att: acid spit
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+At will: dancing lights, faerie fire
+Per day: 3/day: daylight, giant vermin, insect plague, repel vermin (DC 21), summon swarm
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 100
+::: statblock
+Ability scores: Str 32, Dex 15, Con 23, Int 14, Wis 16, Cha 25
+Base attack bonus: +12
+Combat maneuver bonus: +25 (+29 bull rush)
+Combat maneuver defense: 37 (39 vs. bull rush, 45 vs. trip)
+Feats: Awesome Blow, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Iron Will, Point-Blank Shot, Power Attack, Weapon Focus (acid spit)
+Skills: Climb +26, Handle Animal +17, Intimidate +26, Knowledge (dungeoneering) +12, Perception +22
+Languages: Aklo, Common, Undercommon
+Special qualities: vermin master
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +15 natural, -2 size
-
-**Hit points:** 168 (16d8+96)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +15
-
-**Dr:** 10/magic and slashing
-
-**Immune:** acid
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** bite +21 (2d6+11), 2 claws +21 (1d10+11)
-
-**Ranged:** acid spit +13 touch (10d6 acid)
-
-**Reach:** 15
-
-**Rend:** 1d10+11
-
-**Space:** 15
-
-**Spec Att:** acid spit
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**At will:**
-
-- dancing lights, faerie fire
-
-**Per day:**
-
-- 3/day: daylight, giant vermin, insect plague, repel vermin (DC 21), summon swarm
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 15, Con 23, Int 14, Wis 16, Cha 25
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25 (+29 bull rush)
-
-**Combat maneuver defense:** 37 (39 vs. bull rush, 45 vs. trip)
-
-**Feats:** Awesome Blow, Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Iron Will,
-Point-Blank Shot, Power Attack, Weapon Focus (acid spit)
-
-**Skills:** Climb +26, Handle Animal +17, Intimidate +26, Knowledge (dungeoneering) +12, Perception
-+22
-
-**Languages:** Aklo, Common, Undercommon
-
-**Special qualities:** vermin master
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pair, or brood (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: underground
+Organization: solitary, pair, or brood (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,110 +30,80 @@ abilities = ["19", "13", "16", "16", "15", "18"]
 
 _Clouds trail from the edges of this graceful, nearly fanciful creature in hypnotizing patterns._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: dragon
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +22
+Senses: Dragon senses, Dreamsight
+Subtype: Extraplanar
+Experience points: 9,600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 21
+AC modifiers: +1 Dex, +12 natural, -1 size
+Hit points: 104 (11d12+33)
+Fort: +10
+Ref: +8
+Will: +9
+Immune: paralysis, sleep
+Sr: 21
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, DC 18, 6d6 electricity
+Melee: bite +15 (2d6+6), 2 claws +14 (1d8+4), 2 wings +12 (1d6+2), tail slap +12 (1d8+6)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+Spec Att: sleeping breath 1/day
+:::
 
-**Perception:** +22
+::: statblock
+title = "Psychic Magic"
+Caster level: 1
+Concentration: +5
+Power points: 5
+Psychoactive powers: lullaby, 0 PE, DC 14, mirror strike, 1 PE
+:::
 
-**Senses:** Dragon senses, Dreamsight
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +5
+1st-level spells: 4/day: shield, sleep (DC 15)
+Cantrips: At will: daze (DC 14), ghost sound (DC 14), light, message
+:::
 
-**Subtype:** Extraplanar
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 19, Dex 13, Con 16, Int 16, Wis 15, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +16
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Multiattack, Power Attack, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Bluff +18, Diplomacy +18, Sense Motive +16, Stealth +11
+Languages: Aklo, Common, Draconic
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +12 natural, -1 size
-
-**Hit points:** 104 (11d12+33)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +9
-
-**Immune:** paralysis, sleep
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, DC 18, 6d6 electricity
-
-**Melee:** bite +15 (2d6+6), 2 claws +14 (1d8+4), 2 wings +12 (1d6+2), tail slap +12 (1d8+6)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** sleeping breath 1/day
-
-**Psychic Magic**
-
-**Caster level:** 1
-
-**Concentration:** +5
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- lullaby, 0 PE, DC 14, mirror strike, 1 PE
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +5
-
-**1st-level spells:**
-
-- 4/day: shield, sleep (DC 15)
-
-**Cantrips:**
-
-- At will: daze (DC 14), ghost sound (DC 14), light, message
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 16, Int 16, Wis 15, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Multiattack, Power Attack, Skill Focus (Perception),
-Weapon Focus (bite)
-
-**Skills:** Bluff +18, Diplomacy +18, Sense Motive +16, Stealth +11
-
-**Languages:** Aklo, Common, Draconic
-
-**Ecology**
-
-**Environment:** any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

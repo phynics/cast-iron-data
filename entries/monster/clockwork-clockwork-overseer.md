@@ -32,93 +32,70 @@ abilities = ["19", "14", "-", "-", "13", "1"]
 _One arm of this six-limbed clockwork construct ends in a broad fist, and the other extends into an
 articulated metal lash._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: aura of command (30 ft.)
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 3,200
+:::
 
-**aura:** aura of command (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 17
+AC modifiers: +2 Dex, +2 dodge, +7 natural
+Hit points: 75 (10d10+20)
+Fort: +4
+Ref: +8
+Will: +5
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: lash +15 (1d4+5 plus [trip](ref/umr/trip)), slam +15 (1d6+5 plus push)
+Push: slam, 10 ft.
+Reach: 5
+Reach P: 10 ft. with lash
+Space: 5
+Spec Att: overclock
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +1
-
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +2 dodge, +7 natural
-
-**Hit points:** 75 (10d10+20)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** lash +15 (1d4+5 plus [trip](ref/umr/trip)), slam +15 (1d6+5 plus push)
-
-**Push:** slam, 10 ft.
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with lash
-
-**Space:** 5
-
-**Spec Att:** overclock
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int -, Wis 13, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 29
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Skills:** Climb +12
-
-**Special qualities:** swift reactions, tactical calculus, winding
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int -, Wis 13, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 29
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Skills: Climb +12
+Special qualities: swift reactions, tactical calculus, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any land
-
-**Organization:** solitary, crew (1 plus 2-5
-[clockwork servants](ref/monster/clockwork-clockwork-servant)), or deployment (1-2 plus 2-5
-[clockwork soldiers](ref/monster/clockwork-clockwork-soldier))
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, crew (1 plus 2-5 [clockwork servants](ref/monster/clockwork-clockwork-servant)), or deployment (1-2 plus 2-5 [clockwork soldiers](ref/monster/clockwork-clockwork-soldier))
+Treasure: None
+:::
 
 ### Special Abilities
 

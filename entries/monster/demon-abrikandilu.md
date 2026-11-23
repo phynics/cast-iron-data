@@ -34,95 +34,72 @@ abilities = ["15", "11", "12", "6", "10", "13"]
 _This deformed, horned, hunchbacked humanoid has a forked, rat-like tail and two thumbs on each
 taloned hand._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +0
+Size: medium
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 32 (5d10+5)
+Fort: +5
+Ref: +4
+Will: +3
+Dr: 5/cold iron
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Weaknesses: hatred of mirrors
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +7 (1d6+2 plus mutilation), 2 claws +7 (1d4+2)
+Ranged: improvised weapon +5 (1d6+2)
+Spec Att: destructive attacks, mutilation
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 3/day: cause fear (DC 12), shatter (DC 13)\
+1/day: summon (level 1, 1 abrikandilu 50%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 15, Dex 11, Con 12, Int 6, Wis 10, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +7 (+9 sunder)
+Combat maneuver defense: 17 (19 vs. sunder)
+Feats: Improved Sunder, Iron Will, Power Attack, Throw Anything
+Skills: Appraise +6, Climb +10, Disable Device +8, Perception +12
+Racial Modifiers: +4 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +3
-
-**Dr:** 5/cold iron
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Weaknesses:** hatred of mirrors
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +7 (1d6+2 plus mutilation), 2 claws +7 (1d4+2)
-
-**Ranged:** improvised weapon +5 (1d6+2)
-
-**Spec Att:** destructive attacks, mutilation
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: cause fear (DC 12), shatter (DC 13)
-- 1/day: summon (level 1, 1 abrikandilu 50%)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 11, Con 12, Int 6, Wis 10, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7 (+9 sunder)
-
-**Combat maneuver defense:** 17 (19 vs. sunder)
-
-**Feats:** Improved Sunder, Iron Will, Power Attack, Throw Anything
-
-**Skills:** Appraise +6, Climb +10, Disable Device +8, Perception +12
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-12)
-
-**Treasure:** Standard; [thieves' tools](ref/eq-misc/thieves-tools), other treasure, but any art
-objects are broken
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-12)
+Treasure: Standard; [thieves' tools](ref/eq-misc/thieves-tools), other treasure, but any art objects are broken
+:::
 
 ### Special Abilities
 

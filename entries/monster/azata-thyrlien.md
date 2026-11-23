@@ -31,101 +31,74 @@ abilities = ["9", "15", "12", "12", "15", "14"]
 _This fey-looking humanoid is colored in shades of gray. Its wings are decorated with colored motes
 resembling a starry night sky._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic good
+Initiative: +6
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+Size: small
+Subtype: Azata, Chaotic, Extraplanar, Good, Shapechanger
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 Dex, +3 natural, +1 size
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +7
+Will: +7; +4 vs. poison
+Dr: 5/evil
+Fh: 1 (see below)
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+Sr: 15
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Fav En: evil outsiders +2, vermin +2
+Melee: bite +9 (1d3-1 plus poison), 2 wings +4 (1d4-1)
+Spec Att: poison, starlight blast
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect evil, detect magic
+Per day: 3/day: cure light wounds, locate creature, magic missile, message\
+1/day: blindness/deafness (DC 15), neutralize poison, true strike
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good, Shapechanger
+::: statblock
+Ability scores: Str 9, Dex 15, Con 12, Int 12, Wis 15, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Flyby Attack, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +11, Fly +8, Knowledge (planes) +10, Perception +11
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) (giant moth \[use [giant wasp](ref/monster/wasp-giant-wasp) stats\]; [vermin shape II](ref/spell/vermin-shape-2))
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +3 natural, +1 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +7; +4 vs. poison
-
-**Dr:** 5/evil
-
-**Fh:** 1 (see below)
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Fav En:** evil outsiders +2, vermin +2
-
-**Melee:** bite +9 (1d3-1 plus poison), 2 wings +4 (1d4-1)
-
-**Spec Att:** poison, starlight blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect evil, detect magic
-
-**Per day:**
-
-- 3/day: cure light wounds, locate creature, magic missile, message
-- 1/day: blindness/deafness (DC 15), neutralize poison, true strike
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 15, Con 12, Int 12, Wis 15, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Flyby Attack, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +11, Fly +8, Knowledge (planes) +10, Perception +11
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (giant moth \[use
-[giant wasp](ref/monster/wasp-giant-wasp) stats\]; [vermin shape II](ref/spell/vermin-shape-2))
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or squad (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or squad (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

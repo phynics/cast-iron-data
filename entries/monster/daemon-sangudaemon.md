@@ -34,104 +34,75 @@ abilities = ["24", "21", "19", "10", "16", "15"]
 _This human-sized, serpent-headed spider seems to be made of clotted blood, its dragonfly-like wings
 dripping crimson streamers._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: bleeding aura (30 ft.)
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Scent
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**aura:** bleeding aura (30 ft.)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 23
+Touch: 16
+Flat-footed: 17
+AC modifiers: +5 Dex, +1 dodge, +7 natural
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +13
+Will: +7
+Dr: 10/good or silver
+Immune: acid, bleed, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 20
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+B Drain: 1d2 Con
+Bleed: 2d4+2
+Melee: bite +19 (1d8+7/18-20/×3 plus bleed), 2 claws +19 (1d6+7/19-20)
+Spec Att: drain soul
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: quickened death knell (DC 14), invisibility, summon swarm\
+1/day: hold monster (DC 17), summon (level 6, 1 sangudaemon 40%)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 24, Dex 21, Con 19, Int 10, Wis 16, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 35 (47 vs. trip)
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
+Skills: Fly +24, Intimidate +17, Knowledge (arcana) +15, Perception +18, Sense Motive +18, Spellcraft +15
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: augmented critical, contagious gore
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 16
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 Dex, +1 dodge, +7 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +13
-
-**Will:** +7
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, bleed, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**B Drain:** 1d2 Con
-
-**Bleed:** 2d4+2
-
-**Melee:** bite +19 (1d8+7/18-20/×3 plus bleed), 2 claws +19 (1d6+7/19-20)
-
-**Spec Att:** drain soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: quickened death knell (DC 14), invisibility, summon swarm
-- 1/day: hold monster (DC 17), summon (level 6, 1 sangudaemon 40%)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 21, Con 19, Int 10, Wis 16, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35 (47 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (death knell)
-
-**Skills:** Fly +24, Intimidate +17, Knowledge (arcana) +15, Perception +18, Sense Motive +18,
-Spellcraft +15
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** augmented critical, contagious gore
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, cluster (2-5), or hunt (6-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, cluster (2-5), or hunt (6-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

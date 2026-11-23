@@ -30,73 +30,61 @@ _A leathery piece of skin stretched across a frame of joints and bony knobs beat
 the air. Eyes glare from the folds of its thick wings, writhing tentacles surround its sucker-like
 maw, and a long, thin tongue darts forth seemingly at random to lash the air around it._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +2
+Senses: Blood scent, Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +1 armor, +3 Dex, +1 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +6
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 10 ft., fly 50 ft. (average)
+Bleed: 1
+Distraction: 11
+Melee: 1 bite +6 (1d4-2 plus bleed)
+:::
 
-**Senses:** Blood scent, Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
-
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 armor, +3 Dex, +1 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (average)
-
-**Bleed:** 1
-
-**Distraction:** 11
-
-**Melee:** 1 bite +6 (1d4-2 plus bleed)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 17, Con 10, Int 2, Wis 14, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Flyby Attack^B^, Weapon Finesse
-
-**Skills:** Fly +5, Stealth +12
+::: statblock
+Ability scores: Str 7, Dex 17, Con 10, Int 2, Wis 14, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Flyby Attack^B^, Weapon Finesse
+Skills: Fly +5, Stealth +12
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate hills and ruins
-
-**Organization:** solitary, pair, or clutch (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills and ruins
+Organization: solitary, pair, or clutch (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

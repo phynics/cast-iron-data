@@ -31,86 +31,65 @@ abilities = ["19", "10", "14", "5", "12", "17"]
 _This weeping willow tree has a pale and mottled trunk that is contorted into twisted and torturous
 forms, and long branches made of bones and fibrous fronds._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +8
+Type: plant
+Senses: Low-light vision, Spiritsense
+Subtype: Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: +6 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +1
+Will: +2
+Defensive abilities: negative energy affinity
+Dr: 5/bludgeoning
+Immune: death effects, disease, energy drain, exhaustion, fatigue, nonlethal damage, [plant traits](ref/umr/plant-traits)
+Resist: cold 10, electricity 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (2d6+6)
+Reach: 10
+Space: 10
+Spec Att: bonerattle, spray of splintered bones
+:::
 
-**Type:** plant
+### Statistics
 
-**Senses:** Low-light vision, Spiritsense
+::: statblock
+Ability scores: Str 19, Dex 10, Con 14, Int 5, Wis 12, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+10 bull rush)
+Combat maneuver defense: 18 (20 vs. bull rush)
+Feats: Cleave, Improved Bull Rush, Power Attack
+Skills: Intimidate +12, Perception +8
+Racial Modifiers: +8 Intimidate
+Languages: Common (can't speak)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +2
-
-**Defensive abilities:** negative energy affinity
-
-**Dr:** 5/bludgeoning
-
-**Immune:** death effects, disease, energy drain, exhaustion, fatigue, nonlethal damage,
-[plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10, electricity 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (2d6+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bonerattle, spray of splintered bones
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 14, Int 5, Wis 12, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+10 bull rush)
-
-**Combat maneuver defense:** 18 (20 vs. bull rush)
-
-**Feats:** Cleave, Improved Bull Rush, Power Attack
-
-**Skills:** Intimidate +12, Perception +8
-
-**Racial Modifiers:** +8 Intimidate
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land (The [Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or copse (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any land (The [Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or copse (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

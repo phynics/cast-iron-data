@@ -31,77 +31,61 @@ abilities = ["22", "12", "19", "10", "11", "15"]
 _This reptilian creature's gaunt body, legs, and bat-like face are covered in long spines. Two wings
 stretch out from its torso._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: dragon
+Initiative: +1
+Size: large
+Alignment: Lawful evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 84 (8d12+32)
+Fort: +10
+Ref: +7
+Will: +6
+Immune: curses, energy drain, negative energy, paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 60 ft. (average)
+Melee: bite +13 (2d6+6 plus 1d6 negative energy), tail slap +8 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: accursed breath, soul corruption
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 12, Con 19, Int 10, Wis 11, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 26
+Feats: Flyby Attack, Power Attack, Vital Strike, Wingover
+Skills: Climb +20, Knowledge (arcana) +10, Perception +11, Spellcraft +10, Use Magic Device +13
+Languages: Draconic
+Special qualities: speed surge
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 84 (8d12+32)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** curses, energy drain, negative energy, paralysis, sleep
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +13 (2d6+6 plus 1d6 negative energy), tail slap +8 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** accursed breath, soul corruption
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 12, Con 19, Int 10, Wis 11, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26
-
-**Feats:** Flyby Attack, Power Attack, Vital Strike, Wingover
-
-**Skills:** Climb +20, Knowledge (arcana) +10, Perception +11, Spellcraft +10, Use Magic Device +13
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge
-
-**Ecology**
-
-**Environment:** any hills
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any hills
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

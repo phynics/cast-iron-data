@@ -35,104 +35,74 @@ abilities = ["26", "25", "24", "15", "19", "18"]
 _This rancid-smelling mound of animated ooze has about its shifting countenance the hideous shape of
 a half-melted man._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +28
+Senses: Darkvision 120 ft.
+Subtype: Aquatic, Chaotic, Demon, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 28
+Touch: 18
+Flat-footed: 20
+AC modifiers: +7 Dex, +1 dodge, +10 natural
+Hit points: 162 (13d10+91)
+Fort: +15
+Ref: +13
+Will: +12
+Dr: 10/good
+Immune: acid, critical hits, disease, electricity, paralysis, poison, polymorph, sleep effects, stunning
+Resist: cold 10, fire 10
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 80 ft.
+Melee: 2 slams +21 (1d6+8 plus 3d6 acid and [grab](ref/umr/grab))
+Ranged: slime +20 (1d6 plus 3d6 acid and entangle)
+Spec Att: smothering
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+At will: create water, greater teleport, self plus 50 lbs. of objects only, liquid leap, telekinesis (DC 19)
+Per day: 3/day: gaseous form, control water, poison (DC 18), stinking cloud (DC 17)\
+1/day: acid fog, summon (level 4, 1 omox 30% or 1d4 babaus 60%)
+:::
 
-**Senses:** Darkvision 120 ft.
+### Statistics
 
-**Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 26, Dex 25, Con 24, Int 15, Wis 19, Cha 18
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spring Attack, Vital Strike
+Skills: Acrobatics +23 (+27 jump), Climb +32
+Racial Modifiers: +16 Escape Artist, +8 Perception, +10 Stealth when submerged
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: amorphous, [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +1 dodge, +10 natural
-
-**Hit points:** 162 (13d10+91)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +12
-
-**Dr:** 10/good
-
-**Immune:** acid, critical hits, disease, electricity, paralysis, poison, polymorph, sleep effects,
-stunning
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 80 ft.
-
-**Melee:** 2 slams +21 (1d6+8 plus 3d6 acid and [grab](ref/umr/grab))
-
-**Ranged:** slime +20 (1d6 plus 3d6 acid and entangle)
-
-**Spec Att:** smothering
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**At will:**
-
-- create water, greater teleport, self plus 50 lbs. of objects only, liquid leap, telekinesis (DC
-  19)
-
-**Per day:**
-
-- 3/day: gaseous form, control water, poison (DC 18), stinking cloud (DC 17)
-- 1/day: acid fog, summon (level 4, 1 omox 30% or 1d4 babaus 60%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 25, Con 24, Int 15, Wis 19, Cha 18
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility, Spring Attack,
-Vital Strike
-
-**Skills:** Acrobatics +23 (+27 jump), Climb +32
-
-**Racial Modifiers:** +16 Escape Artist, +8 Perception, +10 Stealth when submerged
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** amorphous, [amphibious](ref/umr/amphibious),
-[compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or clot (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or clot (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

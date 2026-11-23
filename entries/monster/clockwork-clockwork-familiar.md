@@ -34,79 +34,62 @@ abilities = ["10", "14", "10", "11", "13", "11"]
 _This tiny metallic creature is shaped like a raven, gears and belts whirring beneath its shining,
 articulated plates._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +6
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 Dodge, +2 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +5
+Will: +2
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 10, fire 10
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., fly 50 ft. (perfect)
+Melee: bite +7 (1d3 plus 1d6 electricity)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
+::: statblock
+Ability scores: Str 10, Dex 14, Con 10, Int 11, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Alertness, Improved Initiative, Lightning Reflexes, Weapon Finesse
+Skills: Fly +19, Perception +5, Sense Motive +3, Stealth +12
+Languages: Common
+Special qualities: advice, item installation, swift reactions, winding
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 Dodge, +2 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 10, fire 10
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +7 (1d3 plus 1d6 electricity)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 14, Con 10, Int 11, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Alertness, Improved Initiative, Lightning Reflexes, Weapon Finesse
-
-**Skills:** Fly +19, Perception +5, Sense Motive +3, Stealth +12
-
-**Languages:** Common
-
-**Special qualities:** advice, item installation, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

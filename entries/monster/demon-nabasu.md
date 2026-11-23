@@ -30,96 +30,72 @@ abilities = ["22", "17", "22", "15", "16", "19"]
 _This lanky fiend's mouth is filled with sharp fangs, while great bat-like wings stretch from its
 scaly hide._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Native
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +8 natural
+Hit points: 103 (9d10+54)
+Fort: +9
+Ref: +9
+Will: +9
+Dr: 10/cold iron or good
+Immune: death effects, electricity, paralysis, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: 2 claws +15 (1d6+6), bite +15 (1d8+6)
+Sneak: +2d6
+Spec Att: consume life, death-stealing gaze
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+At will: deeper darkness, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 19)
+Per day: 3/day: enervation, silence (DC 16), vampiric touch\
+1/day: mass hold person (DC 21), regenerate, summon (level 4, 1 nabasu 30% or 1d4 babaus 30%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Native
+::: statblock
+Ability scores: Str 22, Dex 17, Con 22, Int 15, Wis 16, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 29
+Feats: Cleave, Combat Expertise, Dodge, Improved Initiative, Power Attack
+Skills: Acrobatics +15, Fly +15, Knowledge (arcana) +14, Perception +23
+Racial Modifiers: +8 Perception, +8 Stealth in shadowy areas
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +8 natural
-
-**Hit points:** 103 (9d10+54)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +9
-
-**Dr:** 10/cold iron or good
-
-**Immune:** death effects, electricity, paralysis, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +15 (1d6+6), bite +15 (1d8+6)
-
-**Sneak:** +2d6
-
-**Spec Att:** consume life, death-stealing gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**At will:**
-
-- deeper darkness, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 19)
-
-**Per day:**
-
-- 3/day: enervation, silence (DC 16), vampiric touch
-- 1/day: mass hold person (DC 21), regenerate, summon (level 4, 1 nabasu 30% or 1d4 babaus 30%)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 22, Int 15, Wis 16, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 29
-
-**Feats:** Cleave, Combat Expertise, Dodge, Improved Initiative, Power Attack
-
-**Skills:** Acrobatics +15, Fly +15, Knowledge (arcana) +14, Perception +23
-
-**Racial Modifiers:** +8 Perception, +8 Stealth in shadowy areas
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

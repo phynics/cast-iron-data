@@ -33,73 +33,59 @@ abilities = ["13", "16", "14", "3", "15", "6"]
 _This lizard-like creature stalks forward upon two muscular legs, a mane of spikes running down its
 scaly back._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +7
+Will: +3
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: bite +6 (1d4+1 plus [grab](ref/umr/grab)), 2 claws +6 (1d3+1)
+Pounce: present
+Spec Att: chupar
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 16, Con 14, Int 3, Wis 15, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 17
+Feats: Combat Reflexes, Improved Initiative
+Skills: Acrobatics +7 (+11 jumping), Perception +6, Stealth +16
+Racial Modifiers: +4 Acrobatics when jumping, +4 Stealth (+8 in undergrowth or rocky areas)
+Languages: Aklo (can't speak)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +6 (1d4+1 plus [grab](ref/umr/grab)), 2 claws +6 (1d3+1)
-
-**Pounce:** present
-
-**Spec Att:** chupar
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 14, Int 3, Wis 15, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Reflexes, Improved Initiative
-
-**Skills:** Acrobatics +7 (+11 jumping), Perception +6, Stealth +16
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Stealth (+8 in undergrowth or rocky areas)
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** warm hills or plains
-
-**Organization:** solitary, pair, or gang (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: warm hills or plains
+Organization: solitary, pair, or gang (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

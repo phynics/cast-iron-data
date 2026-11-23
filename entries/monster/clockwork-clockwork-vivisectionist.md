@@ -33,79 +33,64 @@ _The mechanical workings of this humanoid figure are incredibly complex, but the
 scalpels it has on one hand and the glistening syringes inside its cage-like chest make its
 intentions clear._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: -1
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +2 Dex, +2 dodge, +10 natural
+Hit points: 91 (13d10+20)
+Fort: +4
+Ref: +8
+Will: +3
+Dr: 10/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claw +22 (2d6+9 plus [grab](ref/umr/grab))
+Spec Att: anesthetizing injection
+:::
 
-**Perception:** -1
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +2 dodge, +10 natural
-
-**Hit points:** 91 (13d10+20)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +3
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claw +22 (2d6+9 plus [grab](ref/umr/grab))
-
-**Spec Att:** anesthetizing injection
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con -, Int -, Wis 9, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 36
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, efficient winding, standby, swift reactions
+::: statblock
+Ability scores: Str 28, Dex 15, Con -, Int -, Wis 9, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 36
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, efficient winding, standby, swift reactions
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

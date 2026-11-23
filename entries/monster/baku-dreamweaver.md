@@ -31,106 +31,78 @@ abilities = ["18", "25", "18", "18", "23", "27"]
 _Simple but elegant robes drape over this gray-furred, trunked quadruped, and its kind gaze suggests
 a gentle wisdom._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +11
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +25
+Senses: Darkvision 60 ft., Low-light vision
+thoughtsense: 60
+Experience points: 12,800
+:::
 
-**Initiative:** +11
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 25
+Touch: 25
+Flat-footed: 18
+AC modifiers: +7 Dex, +8 deflection
+Hit points: 174 (12d10+96)
+Fort: +16
+Ref: +15
+Will: +12
+Dr: 15/cold iron and magic
+Immune: mind-affecting effects, sleep
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 claws +19 (2d8+4 plus mental siphon), gore +19 (1d8+4)
+Spec Att: mental siphon
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +19
+Constant: ethereal fists
+At will: dream council, invisibility, lullaby, sleep (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 18
+Concentration: +26
+Power points: 30
+Psychoactive powers: deep slumber, 3 PE, DC 21, dream scan, 5 PE, DC 23, dream voyage, 9 PE, incorporeal chains, 6 PE, modify memory, 5 PE, DC 23
+:::
 
-**thoughtsense:** 60
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 18, Dex 25, Con 18, Int 18, Wis 23, Cha 27
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 41
+Feats: Alertness, Flyby Attack, Improved Initiative, Iron Will, Lucid Dreamer, Weapon Finesse
+Skills: Diplomacy +20, Sense Motive +22, Spellcraft +16, Stealth +22
+Languages: Aklo, Celestial, Common
+Special qualities: consume dream, dream shepherd, dream whispers, dreaming grace, oneiromancy
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 25
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 Dex, +8 deflection
-
-**Hit points:** 174 (12d10+96)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +12
-
-**Dr:** 15/cold iron and magic
-
-**Immune:** mind-affecting effects, sleep
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +19 (2d8+4 plus mental siphon), gore +19 (1d8+4)
-
-**Spec Att:** mental siphon
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +19
-
-**Constant:**
-
-- ethereal fists
-
-**At will:**
-
-- dream council, invisibility, lullaby, sleep (DC 21)
-
-**Psychic Magic**
-
-**Caster level:** 18
-
-**Concentration:** +26
-
-**Power points:** 30
-
-**Psychoactive powers:**
-
-- deep slumber, 3 PE, DC 21, dream scan, 5 PE, DC 23, dream voyage, 9 PE, incorporeal chains, 6 PE,
-  modify memory, 5 PE, DC 23
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 18, Int 18, Wis 23, Cha 27
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 41
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative, Iron Will, Lucid Dreamer, Weapon Finesse
-
-**Skills:** Diplomacy +20, Sense Motive +22, Spellcraft +16, Stealth +22
-
-**Languages:** Aklo, Celestial, Common
-
-**Special qualities:** consume dream, dream shepherd, dream whispers, dreaming grace, oneiromancy
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

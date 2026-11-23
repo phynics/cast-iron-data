@@ -32,100 +32,72 @@ abilities = ["21", "16", "17", "16", "15", "18"]
 _This dragon's scales and insectile wings dance with color, while its whip-like tail waves as if
 stirred by an unseen breeze._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic good
+Type: dragon
+Initiative: +7
+Size: large
+Perception: +19
+Senses: Dragon senses
+Subtype: Chaotic, Extraplanar, Good
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 22
+AC modifiers: +3 Dex, +13 natural, -1 size
+Hit points: 133 (14d12+42)
+Fort: +12
+Ref: +14
+Will: +11
+Immune: confused, nauseated, paralysis, sickened, sleep, sonic
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d10 sonic damage, Reflex DC 20 half
+Melee: bite +18 (2d6+7), 2 claws +18 (1d8+5), tail slap +17 (1d8+7/19-20 plus [trip](ref/umr/trip)), 2 wings +16 (1d6+2)
+Reach: 5
+Reach P: 10 ft. with bite and tail slap
+Space: 10
+Spec Att: lashing tail
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +5
+1st-level spells: 4/day: entropic shield, grease (DC 15)
+Cantrips: At will: create water, detect magic, mage hand, open/close
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 21, Dex 16, Con 17, Int 16, Wis 15, Cha 18
+Base attack bonus: +14
+Combat maneuver bonus: +20
+Combat maneuver defense: 33 (37 vs. trip)
+Feats: Improved Critical (tail slap), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (tail slap), Wingover
+Skills: Bluff +21, Fly +14, Knowledge (local, planes) +20, Perception +19, Perform (comedy) +21, Sense Motive +19, Spellcraft +20, Use Magic Device +21
+Languages: Celestial, Common, Draconic, Sylvan
+Special qualities: change shape (3/day)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +13 natural, -1 size
-
-**Hit points:** 133 (14d12+42)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +11
-
-**Immune:** confused, nauseated, paralysis, sickened, sleep, sonic
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d10 sonic damage, Reflex DC 20 half
-
-**Melee:** bite +18 (2d6+7), 2 claws +18 (1d8+5), tail slap +17 (1d8+7/19-20 plus
-[trip](ref/umr/trip)), 2 wings +16 (1d6+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite and tail slap
-
-**Space:** 10
-
-**Spec Att:** lashing tail
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +5
-
-**1st-level spells:**
-
-- 4/day: entropic shield, grease (DC 15)
-
-**Cantrips:**
-
-- At will: create water, detect magic, mage hand, open/close
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 17, Int 16, Wis 15, Cha 18
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 33 (37 vs. trip)
-
-**Feats:** Improved Critical (tail slap), Improved Initiative, Lightning Reflexes, Multiattack,
-Power Attack, Weapon Focus (tail slap), Wingover
-
-**Skills:** Bluff +21, Fly +14, Knowledge (local, planes) +20, Perception +19, Perform (comedy) +21,
-Sense Motive +19, Spellcraft +20, Use Magic Device +21
-
-**Languages:** Celestial, Common, Draconic, Sylvan
-
-**Special qualities:** change shape (3/day)
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

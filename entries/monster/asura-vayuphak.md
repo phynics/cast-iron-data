@@ -29,112 +29,81 @@ abilities = ["16", "16", "13", "15", "16", "19"]
 _This blue-skinned humanoid has two pairs of ebony wings protruding from its waist. Talon-like nails
 grace its hands._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: elusive (30 ft.), [mental static](ref/umr/mental-static-aura) (30 ft., DC 18)
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 1,600
+:::
 
-**aura:** elusive (30 ft.), [mental static](ref/umr/mental-static-aura) (30 ft., DC 18)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 52 (8d10+8)
+Fort: +3
+Ref: +11
+Will: +9; +2 vs. enchantments
+Defensive abilities: enveloping winds
+Dr: 5/cold iron or good
+Fh: 5
+Immune: curse effects, disease, poison
+Resist: acid 10, electricity 10
+Sr: 16
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Melee: mwk spear +12/+7 (1d8+4/×3), 2 wings +6 (1d4+1)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 4, 1 vayuphak 35%)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Psychic Magic"
+Caster level: 5
+Concentration: +9
+Power points: 7
+Psychoactive powers: dispel magic, 3 PE, id insinuation I, 2 PE, DC 16, object reading, 1 PE, scorching ray, 2 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 16, Dex 16, Con 13, Int 15, Wis 16, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Dodge, Flyby Attack, Lightning Reflexes, Mobility
+Skills: Acrobatics +13, Bluff +15, Diplomacy +10, Perform (dance) +13, Spellcraft +9, Stealth +10
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 52 (8d10+8)
-
-**Fort:** +3
-
-**Ref:** +11
-
-**Will:** +9; +2 vs. enchantments
-
-**Defensive abilities:** enveloping winds
-
-**Dr:** 5/cold iron or good
-
-**Fh:** 5
-
-**Immune:** curse effects, disease, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Melee:** mwk spear +12/+7 (1d8+4/×3), 2 wings +6 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 4, 1 vayuphak 35%)
-
-**Psychic Magic**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Power points:** 7
-
-**Psychoactive powers:**
-
-- dispel magic, 3 PE, id insinuation I, 2 PE, DC 16, object reading, 1 PE, scorching ray, 2 PE
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 16, Con 13, Int 15, Wis 16, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Dodge, Flyby Attack, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +13, Bluff +15, Diplomacy +10, Perform (dance) +13, Spellcraft +9, Stealth
-+10
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or band (3-12)
-
-**Treasure:** Standard (mwk spear); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or band (3-12)
+Treasure: Standard (mwk spear); other treasure
+:::
 
 ### Special Abilities
 

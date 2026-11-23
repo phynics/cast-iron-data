@@ -31,123 +31,81 @@ abilities = ["35", "26", "30", "19", "24", "27"]
 _Ornate armor covers this hulking creature, rocky protrusions jutting from its hide and fierce horns
 crowning its broad head._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: hopelessness (30 ft., DC 30)
+Size: gargantuan
+Initiative: +12
+Alignment: Neutral evil
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Div, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**aura:** hopelessness (30 ft., DC 30)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 38
+Touch: 10
+Flat-footed: 34
+AC modifiers: +13 armor, +4 Dex, +15 natural, -4 size
+Hit points: 372 (24d10+240)
+Fort: +18
+Ref: +22
+Will: +21
+Dr: 15/cold iron and good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 31
+:::
 
-**Initiative:** +12
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., fly 120 ft. (good)
+Melee: bite +32 (2d8+12 plus [grab](ref/umr/grab)/19-20), 2 claws +32 (2d6+12), tail slap +30 (2d10+6)
+Reach: 20
+Reach P: 25 ft. with tail
+Rend: 2 claws, 2d6+18
+Space: 20
+Spec Att: create ghul, shake faith, torturous gullet
+Swallow: 6d6+18 plus 4d6 energy damage, AC 25, 37 hp
+Trample: 2d8+18, DC 34
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: true seeing
+At will: align weapon, detect magic, greater teleport, self plus 50 lbs. of objects only, magic circle against good, telekinesis (DC 23)
+Per day: 3/day: blasphemy (DC 25), disintegrate (DC 24), dispel magic, forcecage (DC 25), protection from energy\
+1/day: geas/quest, plane shift, summon (level 6, 1d2 [sepids](ref/monster/div-sepid) 100%)
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
+::: statblock
+Ability scores: Str 35, Dex 26, Con 30, Int 19, Wis 24, Cha 27
+Base attack bonus: +24
+Combat maneuver bonus: +40
+Combat maneuver defense: 58
+Feats: Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Improved Bull Rush, Improved Initiative, Improved Critical (bite), Multiattack, Power Attack, Staggering Critical, Stunning Critical
+Skills: Acrobatics +28 (+36 when jumping), Bluff +43, Diplomacy +31, Sense Motive +30, Spellcraft +19, Use Magic Device +23
+Racial Modifiers: +8 Acrobatics when jumping, +8 Bluff
+Languages: Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: armor training 4
+:::
 
-**Subtype:** Div, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 10
-
-**Flat-footed:** 34
-
-**AC modifiers:** +13 armor, +4 Dex, +15 natural, -4 size
-
-**Hit points:** 372 (24d10+240)
-
-**Fort:** +18
-
-**Ref:** +22
-
-**Will:** +21
-
-**Dr:** 15/cold iron and good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., fly 120 ft. (good)
-
-**Melee:** bite +32 (2d8+12 plus [grab](ref/umr/grab)/19-20), 2 claws +32 (2d6+12), tail slap +30
-(2d10+6)
-
-**Reach:** 20
-
-**Reach P:** 25 ft. with tail
-
-**Rend:** 2 claws, 2d6+18
-
-**Space:** 20
-
-**Spec Att:** create ghul, shake faith, torturous gullet
-
-**Swallow:** 6d6+18 plus 4d6 energy damage, AC 25, 37 hp
-
-**Trample:** 2d8+18, DC 34
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- align weapon, detect magic, greater teleport, self plus 50 lbs. of objects only, magic circle
-  against good, telekinesis (DC 23)
-
-**Per day:**
-
-- 3/day: blasphemy (DC 25), disintegrate (DC 24), dispel magic, forcecage (DC 25), protection from
-  energy
-- 1/day: geas/quest, plane shift, summon (level 6, 1d2 [sepids](ref/monster/div-sepid) 100%)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 26, Con 30, Int 19, Wis 24, Cha 27
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 58
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Improved Bull Rush,
-Improved Initiative, Improved Critical (bite), Multiattack, Power Attack, Staggering Critical,
-Stunning Critical
-
-**Skills:** Acrobatics +28 (+36 when jumping), Bluff +43, Diplomacy +31, Sense Motive +30,
-Spellcraft +19, Use Magic Device +23
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +8 Bluff
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100
-ft.
-
-**Special qualities:** armor training 4
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+5 half-plate); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard (+5 half-plate); other treasure
+:::
 
 ### Special Abilities
 

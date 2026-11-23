@@ -30,76 +30,60 @@ abilities = ["28", "23", "17", "2", "16", "9"]
 _Ligaments of stringy black fungus connect the bones of this filthy skeleton. In numerous places,
 the fungus has formed thorny growths._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +10
+Lifesense: present
+Size: medium
+Alignment: Neutral
+Perception: +22
+Senses: Low-light vision
+Type: plant
+Experience points: 19,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 20
+AC modifiers: +6 Dex, +1 dodge, +10 natural
+Hit points: 150 (20d8+60)
+Fort: +15
+Ref: +14
+Will: +11
+Defensive abilities: positive energy absorption
+Dr: 10/bludgeoning
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +24 (2d6+9 plus spores), 2 claws +24 (2d6+9/19-20 plus spores)
+Spec Att: critical implantation
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 23, Con 17, Int 2, Wis 16, Cha 9
+Base attack bonus: +15
+Combat maneuver bonus: +24
+Combat maneuver defense: 41
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Sickening Critical, Skill Focus (Perception)
+Skills: Perception +22, Stealth +19
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 Dex, +1 dodge, +10 natural
-
-**Hit points:** 150 (20d8+60)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +11
-
-**Defensive abilities:** positive energy absorption
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +24 (2d6+9 plus spores), 2 claws +24 (2d6+9/19-20 plus spores)
-
-**Spec Att:** critical implantation
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 23, Con 17, Int 2, Wis 16, Cha 9
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Critical (claw), Improved Initiative,
-Iron Will, Lightning Reflexes, Mobility, Sickening Critical, Skill Focus (Perception)
-
-**Skills:** Perception +22, Stealth +19
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, gang (2-6), or pack (7-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, gang (2-6), or pack (7-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

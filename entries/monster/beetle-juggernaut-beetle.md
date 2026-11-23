@@ -28,80 +28,62 @@ abilities = ["31", "9", "20", "2", "13", "8"]
 
 _This massive insect lumbers ominously, waving scythe-like mandibles that reek of acid._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: huge
+Initiative: -1
+Type: Magical beast
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 120 ft., Low-light vision
+Experience points: 38,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: -1 Dex, +22 natural, -2 size
+Hit points: 210 (20d10+100)
+Fort: +17
+Ref: +11
+Will: +7
+Defensive abilities: selective mind
+Immune: acid, mind-affecting effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Br Weap: 60-ft. cone, 8d6 acid damage, Reflex DC 25 half, usable once every 1d4 rounds
+Melee: bite +28 (4d10+15/19-20)
+Reach: 10
+Space: 15
+Trample: 2d8+15, DC 30
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 9, Con 20, Int 2, Wis 13, Cha 8
+Base attack bonus: +20
+Combat maneuver bonus: +32 (+34 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush or trip)
+Feats: Awesome Blow, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Vital Strike, Power Attack, Stunning Critical, Vital Strike
+Skills: Climb +23, Perception +14
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** -1 Dex, +22 natural, -2 size
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +7
-
-**Defensive abilities:** selective mind
-
-**Immune:** acid, mind-affecting effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 60-ft. cone, 8d6 acid damage, Reflex DC 25 half, usable once every 1d4 rounds
-
-**Melee:** bite +28 (4d10+15/19-20)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Trample:** 2d8+15, DC 30
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 9, Con 20, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +32 (+34 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush or trip)
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Improved Critical
-(bite), Improved Vital Strike, Power Attack, Stunning Critical, Vital Strike
-
-**Skills:** Climb +23, Perception +14
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** single or pair
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: single or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

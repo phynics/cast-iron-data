@@ -33,71 +33,58 @@ abilities = ["27", "12", "-", "-", "11", "1"]
 _This looming humanoid figure is made of rune-etched metal and polished stone, with crystalline eyes
 that glow with blue light._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 24
+AC modifiers: +1 Dex, +15 natural, -1 size
+Hit points: 107 (14d10+30)
+Fort: +4
+Ref: +5
+Will: +4
+Dr: 10/adamantine
+Immune: magic, [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +21 (2d10+8 plus paralysis)
+Reach: 10
+Space: 10
+Spec Att: soul shriek
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 12, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 34
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +15 natural, -1 size
-
-**Hit points:** 107 (14d10+30)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** magic, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +21 (2d10+8 plus paralysis)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** soul shriek
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 12, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34
-
-**Ecology**
-
-**Environment:** any (Katapesh)
-
-**Organization:** solitary or squad (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: any (Katapesh)
+Organization: solitary or squad (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

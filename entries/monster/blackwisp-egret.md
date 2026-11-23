@@ -29,67 +29,56 @@ abilities = ["4", "15", "11", "2", "12", "5"]
 _This jet-black bird has a long, hooked beak. Its piercing orange eyes reflect any light that hits
 them, making them appear to glow ominously._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+Defensive abilities: deceptive target
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: bite +3 (1d4-3)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 4, Dex 15, Con 11, Int 2, Wis 12, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -4
+Combat maneuver defense: 8
+Feats: Weapon Finesse
+Skills: Fly +4, Stealth +10
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Defensive abilities:** deceptive target
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** bite +3 (1d4-3)
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 15, Con 11, Int 2, Wis 12, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -4
-
-**Combat maneuver defense:** 8
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +4, Stealth +10
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

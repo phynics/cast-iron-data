@@ -29,95 +29,70 @@ abilities = ["12", "21", "16", "15", "12", "21"]
 
 _This incredibly handsome man's pointed ears and otherworldly grace betray an inhuman beauty._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic good
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 12
+AC modifiers: +5 Dex, +2 natural
+Hit points: 42 (5d10+15)
+Fort: +4
+Ref: +9
+Will: +5
+Dr: 5/cold iron or evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+Weaknesses: vulnerable to smoke
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: +1 mithral rapier +11 (1d6+6/18-20)
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +10
+At will: charm person (DC 16), mirror image, suggestion (DC 17)
+Per day: 1/day: cure moderate wounds, good hope
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 12, Dex 21, Con 16, Int 15, Wis 12, Cha 21
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Combat Reflexes, Persuasive, Weapon Finesse
+Skills: Bluff +13, Diplomacy +15, Disguise +13, Perform (wind) +13, Sense Motive +7, Stealth +9, Use Magic Device +10
+Languages: Celestial, Infernal, Sylvan; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), gancanagh's grace, invigorating passion
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +2 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +5
-
-**Dr:** 5/cold iron or evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Weaknesses:** vulnerable to smoke
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 mithral rapier +11 (1d6+6/18-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +10
-
-**At will:**
-
-- charm person (DC 16), mirror image, suggestion (DC 17)
-
-**Per day:**
-
-- 1/day: cure moderate wounds, good hope
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 16, Int 15, Wis 12, Cha 21
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Reflexes, Persuasive, Weapon Finesse
-
-**Skills:** Bluff +13, Diplomacy +15, Disguise +13, Perform (wind) +13, Sense Motive +7, Stealth +9,
-Use Magic Device +10
-
-**Languages:** Celestial, Infernal, Sylvan; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), gancanagh's grace, invigorating passion
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** Triple (+1 MM rapier); other treasure
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: Triple (+1 MM rapier); other treasure
+:::
 
 ### Special Abilities
 

@@ -29,71 +29,58 @@ abilities = ["19", "10", "15", "-", "10", "9"]
 _With a sleek body and huge mandibles raised in a threatening pose, this large beetle stands firm in
 defense of its territory._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 45 (7d8+14)
+Fort: +7
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., fly 20 ft. (poor)
+Melee: bite +8 (2d8+6)
+Reach: 5
+Space: 10
+Trample: 1d6+6, DC 17
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 19, Dex 10, Con 15, Int -, Wis 10, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (28 vs. trip)
+Skills: Fly -6
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 20 ft. (poor)
-
-**Melee:** bite +8 (2d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 1d6+6, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 15, Int -, Wis 10, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (28 vs. trip)
-
-**Skills:** Fly -6
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Description
 

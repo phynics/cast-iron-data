@@ -32,81 +32,63 @@ abilities = ["21", "8", "15", "10", "13", "8"]
 _A single huge eye stares from the forehead of this nine-foot-tall giant. Below this sole orb, an
 even larger mouth gapes like a cave._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: -1
+Size: large
+Alignment: Neutral evil
+Perception: +11
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 19
+Touch: 8
+Flat-footed: 19
+AC modifiers: +4 armor, -1 Dex, +7 natural, -1 size
+Hit points: 65 (10d8+20)
+Fort: +9
+Ref: +2
+Will: +4
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: greataxe +11/+6 (3d6+7/×3)
+Ranged: heavy crossbow +5 (2d8/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 8, Con 15, Int 10, Wis 13, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 22
+Feats: Alertness, Cleave, Great Cleave, Improved Bull Rush, Power Attack
+Skills: Intimidate +9, Perception +11
+Racial Modifiers: +8 Perception
+Languages: Common, Cyclops, Giant
+Special qualities: flash of insight
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 8
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, -1 Dex, +7 natural, -1 size
-
-**Hit points:** 65 (10d8+20)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +4
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** greataxe +11/+6 (3d6+7/×3)
-
-**Ranged:** heavy crossbow +5 (2d8/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 8, Con 15, Int 10, Wis 13, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 22
-
-**Feats:** Alertness, Cleave, Great Cleave, Improved Bull Rush, Power Attack
-
-**Skills:** Intimidate +9, Perception +11
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** flash of insight
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary or conclave (2-6) or tribe (7-18)
-
-**Treasure:** Standard (Ah, L greataxe, L heavy crossbow); other treasure
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary or conclave (2-6) or tribe (7-18)
+Treasure: Standard (Ah, L greataxe, L heavy crossbow); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,99 +32,72 @@ abilities = ["23", "12", "19", "16", "21", "16"]
 _This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully
 over its emaciated form._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: dragon
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +26
+Senses: Dragon senses
+Subtype: Extraplanar
+Experience points: 19,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 23
+AC modifiers: +1 Dex, +14 natural, -1 size
+Hit points: 147 (14d12+56)
+Fort: +13
+Ref: +10
+Will: +14
+Defensive abilities: grave endurance
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d10 negative energy, Reflex DC 21 half
+Melee: bite +20 (2d6+9/19-20), 2 claws +19 (1d8+6), tail slap +17 (1d8+9), 2 wings +17 (1d6+3)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+Spec Att: decaying breath, inexorable attacks, rotting breath (1d2 negative levels)
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: sanctuary (DC 14), shield of faith
+Cantrips: At will: bleed (DC 13), detect magic, guidance, stabilize
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 23, Dex 12, Con 19, Int 16, Wis 21, Cha 16
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Alertness, Critical Focus, Improved Critical (bite), Improved Initiative, Multiattack, Step Up, Weapon Focus (bite)
+Skills: Fly +12, Intimidate +20, Knowledge (engineering, planes, religion) +20, Perception +26, Sense Motive +26, Spellcraft +20, Stealth +14
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +14 natural, -1 size
-
-**Hit points:** 147 (14d12+56)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +14
-
-**Defensive abilities:** grave endurance
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d10 negative energy, Reflex DC 21 half
-
-**Melee:** bite +20 (2d6+9/19-20), 2 claws +19 (1d8+6), tail slap +17 (1d8+9), 2 wings +17 (1d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** decaying breath, inexorable attacks, rotting breath (1d2 negative levels)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: sanctuary (DC 14), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 13), detect magic, guidance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 19, Int 16, Wis 21, Cha 16
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Alertness, Critical Focus, Improved Critical (bite), Improved Initiative, Multiattack,
-Step Up, Weapon Focus (bite)
-
-**Skills:** Fly +12, Intimidate +20, Knowledge (engineering, planes, religion) +20, Perception +26,
-Sense Motive +26, Spellcraft +20, Stealth +14
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

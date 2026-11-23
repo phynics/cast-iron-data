@@ -28,69 +28,57 @@ abilities = ["11", "15", "14", "2", "14", "13"]
 
 _This small, slender-necked dinosaur's bright, inquisitive eyes seem to miss nothing._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +3 (1d6), 2 claws +3 (1d4)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 11, Dex 15, Con 14, Int 2, Wis 14, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Weapon Finesse
+Skills: Perception +10, Stealth +6
+Racial Modifiers: +4 Perception
+Special qualities: easily trained
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +3 (1d6), 2 claws +3 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 14, Int 2, Wis 14, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +10, Stealth +6
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** easily trained
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

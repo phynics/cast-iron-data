@@ -30,98 +30,71 @@ abilities = ["8", "14", "9", "11", "13", "12"]
 _A small cluster of shimmering lights floats in the air, orbited by multiple vibrant crystals and
 gemstones._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: emotion aura (DC 12, 30 ft.)
+Initiative: +2
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aeon, Extraplanar
+Experience points: 600
+:::
 
-**aura:** emotion aura (DC 12, 30 ft.)
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 13 (3d10-3)
+Fort: +4
+Ref: +3
+Will: +6
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 7
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (good)
+Melee: slam +3 (1d3-1 plus 1d6 electricity)
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: sanctuary (DC 12)
+Per day: 3/day: calm emotions (DC 13)
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 14, Con 9, Int 11, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Great Fortitude, Iron Will
+Skills: Fly +8, Intimidate +7, Knowledge (arcana) +7, Perception +7, Sense Motive +7, Stealth +12
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Subtype:** Aeon, Extraplanar
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 13 (3d10-3)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +6
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 7
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Melee:** slam +3 (1d3-1 plus 1d6 electricity)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- sanctuary (DC 12)
-
-**Per day:**
-
-- 3/day: calm emotions (DC 13)
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 9, Int 11, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Great Fortitude, Iron Will
-
-**Skills:** Fly +8, Intimidate +7, Knowledge (arcana) +7, Perception +7, Sense Motive +7, Stealth
-+12
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or commune (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or commune (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

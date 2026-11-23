@@ -31,79 +31,58 @@ abilities = ["23", "15", "19", "18", "18", "18"]
 _This snarling, canine beast pads forward on all fours, its slender front limbs looking more like
 hands than a wolf's paws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 18
+AC modifiers: +2 Dex, +9 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +10
+Will: +10
+Dr: 10/magic
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: bite +14 (1d8+6), 2 claws +14 (1d6+6)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+At will: blink, invisibility sphere, levitate, misdirection
+Per day: 1/day: charm monster (DC 18), crushing despair (DC 18), dimension door, mass bull's strength, mass enlarge
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Lawful, Shapechanger
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +9 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +10
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +14 (1d8+6), 2 claws +14 (1d6+6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**At will:**
-
-- blink, invisibility sphere, levitate, misdirection
-
-**Per day:**
-
-- 1/day: charm monster (DC 18), crushing despair (DC 18), dimension door, mass bull's strength, mass
-  enlarge
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 15, Con 19, Int 18, Wis 18, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Combat Casting, Combat Reflexes, Improved Initiative, Great Fortitude, Lightning Reflexes
-
-**Skills:** Acrobatics +14, Bluff +16, Climb +15
-
-**Languages:** Common, Goblin, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (goblin or wolf;
-[polymorph](ref/spell/polymorph))
+::: statblock
+Ability scores: Str 23, Dex 15, Con 19, Int 18, Wis 18, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Combat Casting, Combat Reflexes, Improved Initiative, Great Fortitude, Lightning Reflexes
+Skills: Acrobatics +14, Bluff +16, Climb +15
+Languages: Common, Goblin, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (goblin or wolf; [polymorph](ref/spell/polymorph))
+:::
 
 ### Description
 

@@ -32,111 +32,78 @@ abilities = ["22", "15", "-", "14", "15", "18"]
 _This large construct has arms that end in massive pincers, and the core in the center of its head
 glows with an unrivaled ferocity._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +2
+Size: large
+Alignment: Lawful neutral
+Perception: +19
+Senses: Darkvision 120 ft., Low-light vision, See invisibility
+Subtype: Automaton, Extraplanar
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 22
+AC modifiers: +2 Dex, +2 insight, +10 natural
+Hit points: 127 (13d10+56)
+Fort: +4
+Ref: +6
+Will: +6
+Defensive abilities: warrior's resolve
+Dr: 10/adamantine
+Fh: 15
+Immune: [construct traits](ref/umr/construct-traits), electricity
+Resist: cold 10, sonic 10
+Sr: 21
+Weaknesses: vulnerable mind
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: 2 arcane pincers +18 (2d6+12 plus [grab](ref/umr/grab)), slam +18 (1d8+6)
+Reach: 10
+Space: 10
+Spec Att: energy beam (60-ft. line or 30-ft. cone, DC 18, 8d6, usable every 1d4 rounds)
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +17
+Constant: see invisibility
+At will: force hook charge, shatter (DC 16)
+Per day: 3/day: fly, mirror image\
+1/day: haste, plane shift, self plus 50 lbs. of objects only
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Automaton, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 15, Con -, Int 14, Wis 15, Cha 18
+Base attack bonus: +13
+Combat maneuver bonus: +20 (+22 bull rush, sunder, +24 grapple)
+Combat maneuver defense: 32 (34 vs. bull rush or sunder)
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Sunder, Power Attack, Vital Strike
+Skills: Climb +31
+Languages: Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: automaton core, intelligent construct
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +2 insight, +10 natural
-
-**Hit points:** 127 (13d10+56)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** warrior's resolve
-
-**Dr:** 10/adamantine
-
-**Fh:** 15
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 21
-
-**Weaknesses:** vulnerable mind
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** 2 arcane pincers +18 (2d6+12 plus [grab](ref/umr/grab)), slam +18 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** energy beam (60-ft. line or 30-ft. cone, DC 18, 8d6, usable every 1d4 rounds)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +17
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- force hook charge, shatter (DC 16)
-
-**Per day:**
-
-- 3/day: fly, mirror image
-- 1/day: haste, plane shift, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con -, Int 14, Wis 15, Cha 18
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +20 (+22 bull rush, sunder, +24 grapple)
-
-**Combat maneuver defense:** 32 (34 vs. bull rush or sunder)
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Sunder, Power Attack,
-Vital Strike
-
-**Skills:** Climb +31
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** automaton core, intelligent construct
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -39,67 +39,56 @@ abilities = ["14", "10", "-", "-", "1", "1"]
 _The skeleton locked within rattles as this animated cage lurches forward on chain legs in search of
 new prisoners._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: -5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 12
+AC modifiers: +4 natural
+Hit points: 36 (3d10+20)
+Fort: +1
+Ref: +1
+Will: -4
+Defensive abilities: [hardness](ref/umr/hardness) 5 (or more)
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +5 (1d6+3)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 10, Con -, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Special qualities: construction points
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 natural
-
-**Hit points:** 36 (3d10+20)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** -4
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 5 (or more)
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +5 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 10, Con -, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Special qualities:** construction points
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or group (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or group (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

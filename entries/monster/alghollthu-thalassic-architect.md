@@ -30,109 +30,75 @@ abilities = ["20", "18", "23", "17", "18", "19"]
 _This piscine nightmare glares with five eyes. Four tentacles, two of them terminating in small
 claws, flank its fanged jaws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Initiative: +8
+Size: large
+Alignment: Lawful evil
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 20
+AC modifiers: +4 Dex, +11 natural, -1 size
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +10
+Will: +14
+Immune: electricity, mind-affecting effects, sonic
+Resist: cold 10
+Sr: 21
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 15 ft., swim 60 ft.
+Melee: bite +13 (1d8+5 plus slime), 2 claws +13 (1d6+5 plus slime), 2 tentacles +11 (1d6+2 plus 2d6 sonic)
+Reach: 10
+Reach P: 15 ft. with claws and tentacles
+Space: 10
+Spec Att: deadlight, glyph carver, mucus cloud, water manipulation (DC 20)
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: read magic
+At will: detect magic, detect thoughts (DC 16), hydraulic torrent, project image (DC 21), telekinesis
+Per day: 3/day: illusory wall (DC 18), mirage arcana (DC 19), quickened hydraulic torrent, stone shape, wall of force\
+1/day: disintegrate (DC 20), fabricate, make whole, move earth
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 20, Dex 18, Con 23, Int 17, Wis 18, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+17 sunder)
+Combat maneuver defense: 29 (31 vs. sunder)
+Feats: Improved Initiative, Improved Sunder, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hydraulic torrent)
+Skills: Craft (stonemasonry) +13, Knowledge (arcana) +16, Knowledge (dungeoneering) +11, Knowledge (history) +13, Stealth +11, Swim +26, Use Magic Device +12
+Languages: Aboleth, Aklo, Aquan, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +11 natural, -1 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +14
-
-**Immune:** electricity, mind-affecting effects, sonic
-
-**Resist:** cold 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 15 ft., swim 60 ft.
-
-**Melee:** bite +13 (1d8+5 plus slime), 2 claws +13 (1d6+5 plus slime), 2 tentacles +11 (1d6+2 plus
-2d6 sonic)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with claws and tentacles
-
-**Space:** 10
-
-**Spec Att:** deadlight, glyph carver, mucus cloud, water manipulation (DC 20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- read magic
-
-**At will:**
-
-- detect magic, detect thoughts (DC 16), hydraulic torrent, project image (DC 21), telekinesis
-
-**Per day:**
-
-- 3/day: illusory wall (DC 18), mirage arcana (DC 19), quickened hydraulic torrent, stone shape,
-  wall of force
-- 1/day: disintegrate (DC 20), fabricate, make whole, move earth
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 18, Con 23, Int 17, Wis 18, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+17 sunder)
-
-**Combat maneuver defense:** 29 (31 vs. sunder)
-
-**Feats:** Improved Initiative, Improved Sunder, Iron Will, Lightning Reflexes, Multiattack, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hydraulic torrent)
-
-**Skills:** Craft (stonemasonry) +13, Knowledge (arcana) +16, Knowledge (dungeoneering) +11,
-Knowledge (history) +13, Stealth +11, Swim +26, Use Magic Device +12
-
-**Languages:** Aboleth, Aklo, Aquan, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or crew (1 thalassic architect plus 2-30
-[aboleths](ref/monster/alghollthu-aboleth), [skum](ref/monster/skum), and other dominated creatures)
-
-**Treasure:** Double
+::: statblock
+Environment: any water
+Organization: solitary, pair, or crew (1 thalassic architect plus 2-30 [aboleths](ref/monster/alghollthu-aboleth), [skum](ref/monster/skum), and other dominated creatures)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -31,90 +31,69 @@ abilities = ["28", "12", "24", "11", "13", "13"]
 _A spider the size of an elephant, this dark blue arachnid rears up on its six hind legs to raise
 its barbed and razor-edged front claws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Size: huge
+Initiative: +5
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 22
+Touch: 9
+Flat-footed: 21
+AC modifiers: +1 Dex, +13 natural, -2 size
+Hit points: 150 (12d10+84)
+Fort: +15
+Ref: +11
+Will: +7
+Dr: 10/good
+:::
 
-**Initiative:** +5
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +19 (2d6+9 plus rot) and 2 claws +19 (2d4+9/19-20)
+Reach: 15
+Space: 15
+Spec Att: dismantle armor, penetrating strike
+Web: +11 ranged, DC 23, 12 hp
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+At will: plane shift, bebilith only
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 12, Con 24, Int 11, Wis 13, Cha 13
+Base attack bonus: +12
+Combat maneuver bonus: +23
+Combat maneuver defense: 34 (46 vs. trip)
+Feats: Cleave, Improved Critical (claws), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
+Skills: Acrobatics +16, Climb +32, Perception +16
+Racial Modifiers: +8 Stealth
+Languages: Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +13 natural, -2 size
-
-**Hit points:** 150 (12d10+84)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +19 (2d6+9 plus rot) and 2 claws +19 (2d4+9/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** dismantle armor, penetrating strike
-
-**Web:** +11 ranged, DC 23, 12 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**At will:**
-
-- plane shift, bebilith only
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 12, Con 24, Int 11, Wis 13, Cha 13
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34 (46 vs. trip)
-
-**Feats:** Cleave, Improved Critical (claws), Improved Initiative, Iron Will, Lightning Reflexes,
-Power Attack
-
-**Skills:** Acrobatics +16, Climb +32, Perception +16
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or band (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or band (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

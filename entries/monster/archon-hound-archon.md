@@ -31,94 +31,70 @@ abilities = ["15", "10", "13", "10", "13", "12"]
 _This canine-headed humanoid's well-groomed appearance and polished greatsword show it to be more
 than a common beast._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: aura of menace (DC 16), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Initiative: +4
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect evil, Low-light vision, Scent
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 1,200
+:::
 
-**aura:** aura of menace (DC 16), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 19
+AC modifiers: +9 natural; +2 deflection vs. evil
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +5
+Will: +5; +4 vs. poison, +2 resistance vs. evil
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 15
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: bite +8 (1d8+3), slam +8 (1d4+1) or mwk greatsword +9/+4 (2d6+3), bite +3 (1d8+2)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Constant: detect evil, magic circle against evil
+At will: aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 10, Con 13, Int 10, Wis 13, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 18
+Feats: Improved Initiative, Iron Will, Power Attack
+Skills: Acrobatics +9, Intimidate +10, Perception +10
+Racial Modifiers: +4 Stealth, +4 Survival
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) ([beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 natural; +2 deflection vs. evil
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +5; +4 vs. poison, +2 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +8 (1d8+3), slam +8 (1d4+1) or mwk greatsword +9/+4 (2d6+3), bite +3 (1d8+2)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Constant:**
-
-- detect evil, magic circle against evil
-
-**At will:**
-
-- aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con 13, Int 10, Wis 13, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative, Iron Will, Power Attack
-
-**Skills:** Acrobatics +9, Intimidate +10, Perception +10
-
-**Racial Modifiers:** +4 Stealth, +4 Survival
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or squad (3-5)
-
-**Treasure:** Standard (mwk greatsword); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or squad (3-5)
+Treasure: Standard (mwk greatsword); other treasure
+:::
 
 ### Special Abilities
 

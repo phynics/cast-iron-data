@@ -32,114 +32,78 @@ abilities = ["34", "33", "-", "27", "30", "35"]
 _This porphyry statue depicts a three-headed goddess with draconic wings, a long tail, and a deadly
 looking longbow in her hands._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+aura: divine antithesis (60 ft., DC 35)
+Alignment: Chaotic evil
+Type: construct
+Initiative: +11
+Size: large
+Perception: +36
+Senses: Darkvision 60 ft., Divine sense, Low-light vision, True seeing
+Experience points: 819,200
+:::
 
-**aura:** divine antithesis (60 ft., DC 35)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 42
+Touch: 32
+Flat-footed: 31
+AC modifiers: +11 Dex, +10 natural, +12 profane, -1 size
+Hit points: 485 (26d10+342)
+Fort: +20
+Ref: +19
+Will: +20
+Defensive abilities: divine antithesis
+Dr: 15/-
+Fh: 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 30, cold 30, electricity 30, fire 30
+Sr: 34
+:::
 
-**Type:** construct
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 60 ft., fly 60 ft. (good)
+Melee: 2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)
+Ranged: +5 [unholy](ref/magic-enh/unholy) composite longbow +42/+37/+32/+27 (2d6+17/19-20/×3)
+Reach: 10
+Space: 10
+Spec Att: severance
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +35
+Constant: true seeing
+At will: align weapon, chaos only, animate dead, cause fear (DC 23), chaos hammer (DC 26), death knell, death ward, dispel law, magic circle against law, protection from law, slay living (DC 27)
+Per day: 3/day: animate objects, cloak of chaos (DC 30), create greater undead, create undead, destruction (DC 29), word of chaos (DC 29)\
+1/day: summon monster
+:::
 
-**Perception:** +36
+### Statistics
 
-**Senses:** Darkvision 60 ft., Divine sense, Low-light vision, True seeing
+::: statblock
+Ability scores: Str 34, Dex 33, Con -, Int 27, Wis 30, Cha 35
+Base attack bonus: +26
+Combat maneuver bonus: +39
+Combat maneuver defense: 72
+Feats: Clustered Shots, Combat Reflexes, Deadly Aim, Far Shot, Improved Critical (composite longbow), Improved Precise Shot, Improved Snap Shot, Iron Will, Point-Blank Shot, Precise Shot, Rapid Shot, Snap Shot, Weapon Focus (composite longbow)
+Skills: Fly +42, Intimidate +38, Knowledge (arcana, planes, religion) +34, Perception +36
+Languages: Abyssal, Common; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: divinity lost, favored weapon, hideous will
+:::
 
-**Experience points:** 819,200
+### Ecology
 
-**Armor class:** 42
-
-**Touch:** 32
-
-**Flat-footed:** 31
-
-**AC modifiers:** +11 Dex, +10 natural, +12 profane, -1 size
-
-**Hit points:** 485 (26d10+342)
-
-**Fort:** +20
-
-**Ref:** +19
-
-**Will:** +20
-
-**Defensive abilities:** divine antithesis
-
-**Dr:** 15/-
-
-**Fh:** 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 30, cold 30, electricity 30, fire 30
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 60 ft., fly 60 ft. (good)
-
-**Melee:** 2 bites +37 (2d6+12), gore +37 (1d8+6), 2 slams +37 (1d6+12)
-
-**Ranged:** +5 [unholy](ref/magic-enh/unholy) composite longbow +42/+37/+32/+27 (2d6+17/19-20/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** severance
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +35
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- align weapon, chaos only, animate dead, cause fear (DC 23), chaos hammer (DC 26), death knell,
-  death ward, dispel law, magic circle against law, protection from law, slay living (DC 27)
-
-**Per day:**
-
-- 3/day: animate objects, cloak of chaos (DC 30), create greater undead, create undead, destruction
-  (DC 29), word of chaos (DC 29)
-- 1/day: summon monster
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 33, Con -, Int 27, Wis 30, Cha 35
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +39
-
-**Combat maneuver defense:** 72
-
-**Feats:** Clustered Shots, Combat Reflexes, Deadly Aim, Far Shot, Improved Critical (composite
-longbow), Improved Precise Shot, Improved Snap Shot, Iron Will, Point-Blank Shot, Precise Shot,
-Rapid Shot, Snap Shot, Weapon Focus (composite longbow)
-
-**Skills:** Fly +42, Intimidate +38, Knowledge (arcana, planes, religion) +34, Perception +36
-
-**Languages:** Abyssal, Common; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** divinity lost, favored weapon, hideous will
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

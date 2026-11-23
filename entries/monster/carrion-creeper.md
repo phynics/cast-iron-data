@@ -31,80 +31,62 @@ abilities = ["19", "25", "18", "4", "12", "7"]
 _This thick mass of vegetation has several sturdy tendrils studded with long thorns and rippling
 with strength._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 17
+AC modifiers: +7 Dex, +8 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +13
+Ref: +11
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 4 vines +17 (2d6+4/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: brutal pull, efficient grappler, whirlwind of thorns
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 19, Dex 25, Con 18, Int 4, Wis 12, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +18 (+26 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Agile Maneuvers, Combat Reflexes, Improved Critical (vine), Skill Focus (Stealth), Toughness, Weapon Finesse, Weapon Focus (vine)
+Skills: Climb +16, Perception +9, Stealth +14
+Languages: Sylvan (can't speak)
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +8 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 4 vines +17 (2d6+4/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** brutal pull, efficient grappler, whirlwind of thorns
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 25, Con 18, Int 4, Wis 12, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18 (+26 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Improved Critical (vine), Skill Focus (Stealth),
-Toughness, Weapon Finesse, Weapon Focus (vine)
-
-**Skills:** Climb +16, Perception +9, Stealth +14
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary or tangle (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary or tangle (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

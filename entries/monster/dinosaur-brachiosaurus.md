@@ -28,72 +28,58 @@ abilities = ["37", "10", "21", "2", "13", "10"]
 _A long tail counterbalances this reptile's equally long neck, at the end of which a relatively
 small head pulls food from the treetop._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: animal
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Perception: +28
+Senses: Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 18
+Touch: 6
+Flat-footed: 18
+AC modifiers: +12 natural, -4 size
+Hit points: 171 (18d8+90)
+Fort: +18
+Ref: +11
+Will: +9
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: tail +22 (4d6+19)
+Reach: 20
+Space: 20
+Trample: 2d6+19, DC 32
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 37, Dex 10, Con 21, Int 2, Wis 13, Cha 10
+Base attack bonus: +13
+Combat maneuver bonus: +30
+Combat maneuver defense: 40 (44 vs. trip)
+Feats: Cleave, Great Cleave, Great Fortitude, Greater Overrun, Improved Bull Rush, Iron Will, Power Attack, Skill Focus (Perception), Weapon Focus (tail)
+Skills: Perception +28
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 6
-
-**Flat-footed:** 18
-
-**AC modifiers:** +12 natural, -4 size
-
-**Hit points:** 171 (18d8+90)
-
-**Fort:** +18
-
-**Ref:** +11
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail +22 (4d6+19)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Trample:** 2d6+19, DC 32
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 10, Con 21, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 40 (44 vs. trip)
-
-**Feats:** Cleave, Great Cleave, Great Fortitude, Greater Overrun, Improved Bull Rush, Iron Will,
-Power Attack, Skill Focus (Perception), Weapon Focus (tail)
-
-**Skills:** Perception +28
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

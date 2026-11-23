@@ -30,98 +30,72 @@ abilities = ["24", "21", "22", "17", "18", "21"]
 _A man with fiery red hair and antlers rides a red-gold stallion. His robes expose the hairy legs of
 a goat, ending in cloven hooves._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: fey
+Initiative: +9
+Alignment: Lawful neutral
+Size: medium
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 24
+AC modifiers: +8 armor, +5 Dex, +4 natural, +2 shield
+Hit points: 152 (16d6+96)
+Fort: +11
+Ref: +15
+Will: +14
+Dr: 10/cold iron
+Immune: cold, poison
+Sr: 23
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: +2 [flaming](ref/magic-enh/flaming) scimitar +18/+13 (1d6+9/15-20)
+Spec Att: bright blast, Rider's weapon, weal or woe (DC 23)
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: see invisibility
+At will: chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
+Per day: 5/day: ice storm\
+3/day: cone of cold (DC 20), flame strike (DC 20)\
+1/day: fire storm (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 24, Dex 21, Con 22, Int 17, Wis 18, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 25 (can't be disarmed)
+Feats: Critical Focus, Improved Critical (scimitar), Improved Initiative, Mounted Combat, Power Attack, Ride-By Attack, Trample, Weapon Focus (scimitar)
+Skills: Acrobatics +12, Diplomacy +24, Ride +24, Sense Motive +23, Stealth +20
+Languages: Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: conjure mount, Rider's robes
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +8 armor, +5 Dex, +4 natural, +2 shield
-
-**Hit points:** 152 (16d6+96)
-
-**Fort:** +11
-
-**Ref:** +15
-
-**Will:** +14
-
-**Dr:** 10/cold iron
-
-**Immune:** cold, poison
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 [flaming](ref/magic-enh/flaming) scimitar +18/+13 (1d6+9/15-20)
-
-**Spec Att:** bright blast, Rider's weapon, weal or woe (DC 23)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
-
-**Per day:**
-
-- 5/day: ice storm
-- 3/day: cone of cold (DC 20), flame strike (DC 20)
-- 1/day: fire storm (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 21, Con 22, Int 17, Wis 18, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 25 (can't be disarmed)
-
-**Feats:** Critical Focus, Improved Critical (scimitar), Improved Initiative, Mounted Combat, Power
-Attack, Ride-By Attack, Trample, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +12, Diplomacy +24, Ride +24, Sense Motive +23, Stealth +20
-
-**Languages:** Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** conjure mount, Rider's robes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

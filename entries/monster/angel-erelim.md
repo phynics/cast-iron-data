@@ -31,104 +31,75 @@ abilities = ["15", "17", "16", "11", "14", "12"]
 
 _This athletic, winged humanoid has handsome features and wields a shining lance._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: protective aura
+Initiative: +3
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Angel, Extraplanar, Good
+Experience points: 2,400
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +5 natural
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +5
+Will: +8; +4 vs. poison, +4 resistance vs. evil
+Dr: 5/evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: +1 lance +11/+6 (1d8+4/×3), or mwk greatsword +11/+6 (2d6+3/19-20)
+Ranged: mwk longbow +12/+7 (1d8/×3)
+Spec Att: celestial charge, righteous challenge
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Constant: detect evil
+At will: light, remove fear, stabilize, virtue
+Per day: 3/day: bless weapon, cure light wounds, remove curse\
+1/day: consecrate
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 17, Con 16, Int 11, Wis 14, Cha 12
+Base attack bonus: +8
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Cavalry Formation, Mounted Combat, Ride-By Attack, Spirited Charge
+Skills: Fly +7, Handle Animal +12, Heal +11, Sense Motive +11
+Languages: Celestial, Common, Infernal; _truespeech_
+Special qualities: inspiring presence, shining mount
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +5 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +8; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 5/evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** +1 lance +11/+6 (1d8+4/×3), or mwk greatsword +11/+6 (2d6+3/19-20)
-
-**Ranged:** mwk longbow +12/+7 (1d8/×3)
-
-**Spec Att:** celestial charge, righteous challenge
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- light, remove fear, stabilize, virtue
-
-**Per day:**
-
-- 3/day: bless weapon, cure light wounds, remove curse
-- 1/day: consecrate
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 16, Int 11, Wis 14, Cha 12
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Cavalry Formation, Mounted Combat, Ride-By Attack, Spirited Charge
-
-**Skills:** Fly +7, Handle Animal +12, Heal +11, Sense Motive +11
-
-**Languages:** Celestial, Common, Infernal; _truespeech_
-
-**Special qualities:** inspiring presence, shining mount
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, formation (3-10), or host (5-12 formations)
-
-**Treasure:** Double (+1 lance, mwk greatsword, mwk longbow); other treasure
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, formation (3-10), or host (5-12 formations)
+Treasure: Double (+1 lance, mwk greatsword, mwk longbow); other treasure
+:::
 
 ### Special Abilities
 

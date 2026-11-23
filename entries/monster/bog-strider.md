@@ -33,79 +33,62 @@ It stands just over five feet tall, holding its head and thorax upright while cl
 intricately carved hunting spear in two clawed forelimbs. Powerful mandibles click in rhythm with
 the reed-thin antennae waving upon its head as if testing the air for the scent of prey._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+tremorParens: in water
+tremorsense: 120
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +3 natural
+Hit points: 15 (2d10+4)
+Fort: +2
+Ref: +5
+Will: +4
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)
+Ranged: spear +4 (1d8+2/×3) or mwk net +5 ranged touch (entangle)
+Sp Other: water stride 50 ft.
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 14, Con 14, Int 11, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Dodge
+Skills: Perception +6, Swim +11
+Racial Modifiers: +4 Swim
+Languages: Aquan; tremor tap 120 ft.
+Special qualities: [hold breath](ref/umr/hold-breath), water sprint
+:::
 
-**tremorParens:** in water
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +4 (1d8+3/×3), bite -1 (1d6+1) or 2 claws +4 (1d4-2), bite +4 (1d6+2)
-
-**Ranged:** spear +4 (1d8+2/×3) or mwk net +5 ranged touch (entangle)
-
-**Sp Other:** water stride 50 ft.
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 14, Con 14, Int 11, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Dodge
-
-**Skills:** Perception +6, Swim +11
-
-**Racial Modifiers:** +4 Swim
-
-**Languages:** Aquan; tremor tap 120 ft.
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), water sprint
-
-**Ecology**
-
-**Environment:** temperate or warm swamps
-
-**Organization:** solitary, pair, band (3-12), or tribe (13-60)
-
-**Treasure:** NPC gear (mwk net, spear); other treasure
+::: statblock
+Environment: temperate or warm swamps
+Organization: solitary, pair, band (3-12), or tribe (13-60)
+Treasure: NPC gear (mwk net, spear); other treasure
+:::
 
 ### Special Abilities
 

@@ -30,98 +30,72 @@ abilities = ["-", "25", "-", "15", "14", "17"]
 
 _This roiling horror appears to be a swirling vortex of darkness and screaming, ghostly faces._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Alignment: Chaotic evil
+Initiative: +11
+Size: large
+Perception: +22
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 6,400
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 12
+AC modifiers: +3 deflection, +7 Dex, +1 dodge, -1 size
+Hit points: 97 (13d8+39)
+Fort: +7
+Ref: +11
+Will: +10
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: sunlight powerlessness
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 60 ft. (good)
+Melee: incorporeal touch +15 (6d6 plus consume mind)
+Reach: 10
+Space: 10
+Spec Att: consume mind, wrap in despair
+:::
 
-**Perception:** +22
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +12
+Power points: 12
+Psychoactive powers: aversion, 2 PE, DC 15, emotive block, 3 PE, DC 16, greater oneiric horror, 4 PE, DC 17, mind thrust V, 5 PE, DC 18, paranoia, 2 PE, DC 15, telempathic projection, 1 PE, DC 14
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 25, Con -, Int 15, Wis 14, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Ability Focus (wrap in despair), Alertness, Combat Reflexes, Dodge, Improved Initiative, Skill Focus (Intimidate, Stealth)
+Skills: Fly +5, Intimidate +25, Knowledge (arcana) +18, Perception +22, Sense Motive +22, Spellcraft +18, Stealth +21
+Languages: Abyssal, Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 deflection, +7 Dex, +1 dodge, -1 size
-
-**Hit points:** 97 (13d8+39)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +10
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 60 ft. (good)
-
-**Melee:** incorporeal touch +15 (6d6 plus consume mind)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** consume mind, wrap in despair
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- aversion, 2 PE, DC 15, emotive block, 3 PE, DC 16, greater oneiric horror, 4 PE, DC 17, mind
-  thrust V, 5 PE, DC 18, paranoia, 2 PE, DC 15, telempathic projection, 1 PE, DC 14
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 25, Con -, Int 15, Wis 14, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Ability Focus (wrap in despair), Alertness, Combat Reflexes, Dodge, Improved Initiative,
-Skill Focus (Intimidate, Stealth)
-
-**Skills:** Fly +5, Intimidate +25, Knowledge (arcana) +18, Perception +22, Sense Motive +22,
-Spellcraft +18, Stealth +21
-
-**Languages:** Abyssal, Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

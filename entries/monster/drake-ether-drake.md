@@ -32,96 +32,72 @@ abilities = ["30", "15", "21", "8", "15", "14"]
 _Bony plates cover the upper body of this dragon. Its lower frame has a glassy sheen, and bone wings
 protrude from its back._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: dragon
+Initiative: +6
+Size: large
+lifesense: 60
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aether
+Experience points: 9,600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 138 (12d12+60)
+Fort: +13
+Ref: +10
+Will: +12
+Immune: paralysis, sleep
+Sr: 21
+:::
 
-**Size:** large
+### Offense
 
-**lifesense:** 60
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: bite +21 (3d6+15/17-20/×3), tail slap +16 (2d6+5)
+Reach: 10
+Space: 10
+Spec Att: ether bite
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Psychic Magic"
+Caster level: 12
+Concentration: +14
+Power points: 10
+Psychoactive powers: burst of adrenaline, 1 PE, condensed ether, 4 PE, mindlink, 1 PE
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 30, Dex 15, Con 21, Int 8, Wis 15, Cha 14
+Base attack bonus: +12
+Combat maneuver bonus: +23
+Combat maneuver defense: 35
+Feats: Critical Focus, Improved Critical (bite), Improved Initiative, Iron Will, Lunge, Power Attack
+Skills: Fly +23, Intimidate +17, Perception +17
+Languages: Draconic; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: etheric shift, speed surge
+:::
 
-**Subtype:** Aether
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 138 (12d12+60)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +12
-
-**Immune:** paralysis, sleep
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** bite +21 (3d6+15/17-20/×3), tail slap +16 (2d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ether bite
-
-**Psychic Magic**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**Power points:** 10
-
-**Psychoactive powers:**
-
-- burst of adrenaline, 1 PE, condensed ether, 4 PE, mindlink, 1 PE
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 15, Con 21, Int 8, Wis 15, Cha 14
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 35
-
-**Feats:** Critical Focus, Improved Critical (bite), Improved Initiative, Iron Will, Lunge, Power
-Attack
-
-**Skills:** Fly +23, Intimidate +17, Perception +17
-
-**Languages:** Draconic; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** etheric shift, speed surge
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or rampage (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or rampage (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

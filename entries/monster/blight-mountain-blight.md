@@ -32,101 +32,73 @@ abilities = ["34", "18", "27", "16", "19", "21"]
 _This black mass of glistening, tar-like slime bubbles and oozes, its two long tentacles each tipped
 with a stony club._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+blindsight: 120
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Type: ooze
+Perception: +20
+Subtype: Blight
+Experience points: 38,400
+:::
 
-**blindsight:** 120
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 25
+AC modifiers: +4 Dex, +15 natural
+Hit points: 200 (16d8+128)
+Fort: +15
+Ref: +9
+Will: +11
+Defensive abilities: rejuvenation
+Fh: 10
+Immune: acid, electricity, [ooze traits](ref/umr/ooze-traits)
+Resist: cold 10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: 2 slams +24 (2d10+18/19-20)
+Reach: 15
+Space: 5
+Spec Att: hypoxic domain, tremors
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Per day: 1/day: blight (DC 20), call lightning storm (DC 20), command plants (DC 19), dominate monster (animals and magical beasts only, DC 24), greater curse terrain, hallucinatory terrain (DC 19)
+:::
 
-**Perception:** +20
+### Statistics
 
-**Subtype:** Blight
+::: statblock
+Ability scores: Str 34, Dex 18, Con 27, Int 16, Wis 19, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+28 sunder)
+Combat maneuver defense: 38 (40 vs. sunder, can't be tripped)
+Feats: Great Fortitude, Greater Sunder, Improved Critical (slam), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Vital Strike
+Skills: Climb +36, Intimidate +21, Knowledge (geography) +19, Perception +20, Stealth +20 (+28 in mountains)
+Racial Modifiers: +8 Stealth in mountains
+Languages: Aklo, Terran; domain [telepathy](ref/umr/telepathy)
+Special qualities: cursed domain, [favored terrain](ref/ability/favored-terrain) (mountains), powerful slam
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +15 natural
-
-**Hit points:** 200 (16d8+128)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +11
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 10
-
-**Immune:** acid, electricity, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** 2 slams +24 (2d10+18/19-20)
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** hypoxic domain, tremors
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Per day:**
-
-- 1/day: blight (DC 20), call lightning storm (DC 20), command plants (DC 19), dominate monster
-  (animals and magical beasts only, DC 24), greater curse terrain, hallucinatory terrain (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 18, Con 27, Int 16, Wis 19, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+28 sunder)
-
-**Combat maneuver defense:** 38 (40 vs. sunder, can't be tripped)
-
-**Feats:** Great Fortitude, Greater Sunder, Improved Critical (slam), Improved Initiative, Improved
-Sunder, Iron Will, Power Attack, Vital Strike
-
-**Skills:** Climb +36, Intimidate +21, Knowledge (geography) +19, Perception +20, Stealth +20 (+28
-in mountains)
-
-**Racial Modifiers:** +8 Stealth in mountains
-
-**Languages:** Aklo, Terran; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** cursed domain, [favored terrain](ref/ability/favored-terrain) (mountains),
-powerful slam
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

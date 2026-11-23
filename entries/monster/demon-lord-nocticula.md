@@ -32,126 +32,80 @@ abilities = ["34", "36", "42", "35", "32", "40"]
 _This frighteningly majestic creature spreads wide her runeadorned wings. Molten iron weeps from her
 hooves, and her three tails are studded with barbs._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: seductive presence (180 ft., DC 43), unholy aura (DC 33)
+Alignment: Chaotic evil
+Initiative: +13
+Size: medium
+Type: outsider
+Perception: +58
+Senses: Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 9,830,400
+:::
 
-**aura:** seductive presence (180 ft., DC 43), unholy aura (DC 33)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 48
+Touch: 41
+Flat-footed: 35
+AC modifiers: +4 deflection, +13 Dex, +7 natural, +14 profane
+Hit points: 774 (36d10+576)
+Fort: +32
+Ref: +37
+Will: +35
+Defensive abilities: Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, epic, and lawful
+Immune: ability damage and drain, charm and compulsion effects, death effects, electricity, energy drain, fire, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 41
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., fly 90 ft. (good)
+Burn: 3d6 fire, DC 44
+Melee: 2 claws +48 (1d8+12 plus 1d4 Cha drain), 3 stings +48 (2d6+12/19-20 plus poison), 2 hooves +43 (1d4+6 plus 1d6 fire and burn), 2 wings +43 (1d4+6)
+Ranged: Shadowkiss +54/+49/+44/+39 (1d4+20/17-20 plus poison)
+Sneak: +4d6
+Spec Att: cruel shot, domination, energy drain, poison, profane ascension
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Constant: detect good, detect law, freedom of movement, tongues, true seeing, unholy aura (DC 33)
+At will: astral projection, blasphemy (DC 32), chaos hammer (DC 29), deeper darkness, desecrate, greater dispel magic, greater teleport, power word blind, telekinesis (DC 30), shapechange, unhallow
+Per day: 3/day: finger of death (DC 32), quickened mass suggestion (DC 31), summon demons, symbol of death (DC 33)\
+1/day: soul bind (DC 34), time stop, wail of the banshee (DC 34)
+:::
 
-**Perception:** +58
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, See in darkness, True seeing
+::: statblock
+Ability scores: Str 34, Dex 36, Con 42, Int 35, Wis 32, Cha 40
+Base attack bonus: +36
+Combat maneuver bonus: +48
+Combat maneuver defense: 89
+Feats: Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Deadly Aim, Flyby Attack, Greater Feint, Improved Critical (hand crossbow), Improved Critical (sting), Improved Feint, Point-Blank Shot, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion), Rapid Reload (hand crossbow), Rapid Shot, Staggering Critical
+Skills: Acrobatics +52, Bluff +62, Diplomacy +54, Disguise +51, Perform (dance) +51, Sense Motive +50, Sleight of Hand +49, Spellcraft +48, Stealth +52, Use Magic Device +54
+Racial Modifiers: +8 Bluff, +8 Perception
+Languages: xA, Celestial, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), swift transformation
+Faith: Nocticula
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 41
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 deflection, +13 Dex, +7 natural, +14 profane
-
-**Hit points:** 774 (36d10+576)
-
-**Fort:** +32
-
-**Ref:** +37
-
-**Will:** +35
-
-**Defensive abilities:** Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, epic, and lawful
-
-**Immune:** ability damage and drain, charm and compulsion effects, death effects, electricity,
-energy drain, fire, petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 60 ft., fly 90 ft. (good)
-
-**Burn:** 3d6 fire, DC 44
-
-**Melee:** 2 claws +48 (1d8+12 plus 1d4 Cha drain), 3 stings +48 (2d6+12/19-20 plus poison), 2
-hooves +43 (1d4+6 plus 1d6 fire and burn), 2 wings +43 (1d4+6)
-
-**Ranged:** Shadowkiss +54/+49/+44/+39 (1d4+20/17-20 plus poison)
-
-**Sneak:** +4d6
-
-**Spec Att:** cruel shot, domination, energy drain, poison, profane ascension
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, tongues, true seeing, unholy aura (DC 33)
-
-**At will:**
-
-- astral projection, blasphemy (DC 32), chaos hammer (DC 29), deeper darkness, desecrate, greater
-  dispel magic, greater teleport, power word blind, telekinesis (DC 30), shapechange, unhallow
-
-**Per day:**
-
-- 3/day: finger of death (DC 32), quickened mass suggestion (DC 31), summon demons, symbol of death
-  (DC 33)
-- 1/day: soul bind (DC 34), time stop, wail of the banshee (DC 34)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 36, Con 42, Int 35, Wis 32, Cha 40
-
-**Base attack bonus:** +36
-
-**Combat maneuver bonus:** +48
-
-**Combat maneuver defense:** 89
-
-**Feats:** Combat Expertise, Combat Reflexes, Craft Construct, Craft Magic Arms and Armor, Craft
-Wondrous Item, Critical Focus, Deadly Aim, Flyby Attack, Greater Feint, Improved Critical (hand
-crossbow), Improved Critical (sting), Improved Feint, Point-Blank Shot, Precise Shot, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion), Rapid Reload (hand crossbow),
-Rapid Shot, Staggering Critical
-
-**Skills:** Acrobatics +52, Bluff +62, Diplomacy +54, Disguise +51, Perform (dance) +51, Sense
-Motive +50, Sleight of Hand +49, Spellcraft +48, Stealth +52, Use Magic Device +54
-
-**Racial Modifiers:** +8 Bluff, +8 Perception
-
-**Languages:** xA, Celestial, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), swift transformation
-
-**Faith:** Nocticula
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple; Shadowkiss, 100,000 gp in various jewelry, other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple; Shadowkiss, 100,000 gp in various jewelry, other treasure
+:::
 
 ### Special Abilities
 

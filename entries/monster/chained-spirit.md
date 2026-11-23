@@ -35,89 +35,66 @@ abilities = ["-", "19", "-", "15", "20", "27"]
 _This humanoid figure's body fades into mist below the hips, while its upper, ghostly torso is bound
 in lengths of writhing chains._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +30
+Senses: Darkvision 60 ft., Spectral sight, Spiritsense
+Subtype: Incorporeal
+Type: undead
+Experience points: 38,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 30
+Touch: 30
+Flat-footed: 26
+AC modifiers: +8 deflection, +4 Dex, +8 profane
+Hit points: 200 (16d8+128)
+Fort: +13
+Ref: +11
+Will: +17
+Defensive abilities: spirit anchor
+Fh: 20
+Immune: positive energy, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: incorporeal touch +17 (1d6 Charisma drain), 4 chains +23 (2d4+7/19-20 plus 1 Charisma drain)
+Reach: 5
+Reach P: 30 ft. with chains
+Space: 5
+Spec Att: 5 ft. (30 ft. with chains)
+:::
 
-**Senses:** Darkvision 60 ft., Spectral sight, Spiritsense
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 19, Con -, Int 15, Wis 20, Cha 27
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 42
+Feats: Combat Expertise, Combat Reflexes, Improved Critical (chain), Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (incorporeal touch)
+Skills: Bluff +24, Diplomacy +24, Stealth +23
+Languages: Common, Necril
+Special qualities: spectral bindings
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 30
-
-**Flat-footed:** 26
-
-**AC modifiers:** +8 deflection, +4 Dex, +8 profane
-
-**Hit points:** 200 (16d8+128)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +17
-
-**Defensive abilities:** spirit anchor
-
-**Fh:** 20
-
-**Immune:** positive energy, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** incorporeal touch +17 (1d6 Charisma drain), 4 chains +23 (2d4+7/19-20 plus 1 Charisma
-drain)
-
-**Reach:** 5
-
-**Reach P:** 30 ft. with chains
-
-**Space:** 5
-
-**Spec Att:** 5 ft. (30 ft. with chains)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con -, Int 15, Wis 20, Cha 27
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 42
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Critical (chain), Improved Initiative, Iron
-Will, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (incorporeal touch)
-
-**Skills:** Bluff +24, Diplomacy +24, Stealth +23
-
-**Languages:** Common, Necril
-
-**Special qualities:** spectral bindings
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary plus up to 4 spirit anchors
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary plus up to 4 spirit anchors
+Treasure: Standard
+:::
 
 ### Special Abilities
 

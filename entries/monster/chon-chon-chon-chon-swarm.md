@@ -32,93 +32,71 @@ abilities = ["10", "15", "10", "7", "12", "13"]
 _This flying head has incredibly large ears that constantly flap to keep the creature aloft. It
 babbles to itself as it flies, as if to remind itself of secrets only it knows._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+aura: jabber (15 ft., DC 11)
+Alignment: Chaotic neutral
+Initiative: +6
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** jabber (15 ft., DC 11)
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 insight, +2 size
+Hit points: 27 (6d8)
+Fort: +2
+Ref: +6
+Will: +6
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Distraction: 13
+Melee: swarm +6 (2d6)
+Ranged: acid spit +8 (2d4 acid)
+Reach: 0
+Space: 10
+Spec Att: babble
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +8
+Constant: detect magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 10, Dex 15, Con 10, Int 7, Wis 12, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes
+Skills: Fly +19, Perception +10 (+14 to listen)
+Racial Modifiers: +4 Perception to listen
+Languages: Common (can't speak)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 insight, +2 size
-
-**Hit points:** 27 (6d8)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Distraction:** 13
-
-**Melee:** swarm +6 (2d6)
-
-**Ranged:** acid spit +8 (2d4 acid)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** babble
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect magic
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 10, Int 7, Wis 12, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes
-
-**Skills:** Fly +19, Perception +10 (+14 to listen)
-
-**Racial Modifiers:** +4 Perception to listen
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** temperate or tropical forests or ruins
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical forests or ruins
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

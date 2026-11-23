@@ -30,100 +30,72 @@ abilities = ["8", "14", "11", "11", "12", "11"]
 _Ram horns curl back from the twisted head of this tiny winged demon, and its body is thin and
 wiry._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +6
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +5
+Will: +4
+Dr: 5/cold iron or good
+Fh: 2
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee: 2 claws +7 (1d3-1 plus poison), bite +7 (1d4-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+At will: detect good, detect magic, invisibility, self only
+Per day: 1/day: cause fear (30-foot radius, DC 11)
+Per week: commune, six questions
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 14, Con 11, Int 11, Wis 12, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +6, Fly +20, Intimidate +6, Knowledge (planes) +6, Perception +7, Stealth +16
+Languages: Abyssal, Common; [telepathy](ref/umr/telepathy) (touch)
+Special qualities: [change shape](ref/umr/change-shape) (2 of the following forms: bat, Small centipede, toad, or wolf; [polymorph](ref/spell/polymorph))
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 5/cold iron or good
-
-**Fh:** 2
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Melee:** 2 claws +7 (1d3-1 plus poison), bite +7 (1d4-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**At will:**
-
-- detect good, detect magic, invisibility, self only
-
-**Per day:**
-
-- 1/day: cause fear (30-foot radius, DC 11)
-
-**Per week:**
-
-- commune, six questions
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 11, Int 11, Wis 12, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +6, Fly +20, Intimidate +6, Knowledge (planes) +6, Perception +7, Stealth +16
-
-**Languages:** Abyssal, Common; [telepathy](ref/umr/telepathy) (touch)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (2 of the following forms: bat, Small
-centipede, toad, or wolf; [polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or flock (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or flock (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

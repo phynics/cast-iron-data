@@ -31,117 +31,81 @@ abilities = ["17", "24", "21", "14", "19", "16"]
 
 _This lithe, six-armed humanoid has tusks that curve from his chin and carries a pair of bows._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: elusive (75 ft.)
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 19,200
+:::
 
-**aura:** elusive (75 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 20
+AC modifiers: +7 Dex, +10 natural
+Hit points: 147 (14d10+70)
+Fort: +9
+Ref: +16
+Will: +13; +2 vs. enchantment
+Dr: 10/good
+Immune: curse effects, disease, poison
+Regen: 5 (good spells, good weapons)
+Resist: acid 10, electricity 10
+Sr: 23
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: mwk handaxe +16/+11/+6 (1d6+3/×3), mwk handaxe +16/+11 (1d6+1/×3)
+Ranged: +1 composite shortbow +22/+17/+12 (1d6+4/×3) or +1 composite shortbows +20/+20/+15/+15/+10 (1d6+4/×3)
+Spec Att: dual bows
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +17
+Constant: see invisibility
+At will: augury, flame arrow
+Per day: 3/day: arcane sight, divination\
+1/day: summon (level 5, 1d3 [adhukaits](ref/monster/asura-adhukait) 50% or 1 [upasunda](ref/monster/asura-upasunda) 30%), true seeing, vision
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility
-
-**Subtype:** Asura, Evil, Extraplanar, Lawful
-
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +10 natural
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +9
-
-**Ref:** +16
-
-**Will:** +13; +2 vs. enchantment
-
-**Dr:** 10/good
-
-**Immune:** curse effects, disease, poison
-
-**Regen:** 5 (good spells, good weapons)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** mwk handaxe +16/+11/+6 (1d6+3/×3), mwk handaxe +16/+11 (1d6+1/×3)
-
-**Ranged:** +1 composite shortbow +22/+17/+12 (1d6+4/×3) or +1 composite shortbows
-+20/+20/+15/+15/+10 (1d6+4/×3)
-
-**Spec Att:** dual bows
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +17
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- augury, flame arrow
-
-**Per day:**
-
-- 3/day: arcane sight, divination
-- 1/day: summon (level 5, 1d3 [adhukaits](ref/monster/asura-adhukait) 50% or 1
-  [upasunda](ref/monster/asura-upasunda) 30%), true seeing, vision
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 24, Con 21, Int 14, Wis 19, Cha 16
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 34
-
-**Feats:** Deadly Aim, Deflect Arrows^B^, Improved Precise Shot, Improved Two-Weapon Fighting,
-Point-Blank Shot, Precise Shot, Rapid Shot, Snatch Arrows^B^, Two-Weapon Fighting
-
-**Skills:** Acrobatics +24 (+28 when jumping), Bluff +20, Climb +21, Escape Artist +23, Knowledge
-(planes) +12, Perception +25, Profession (soothsayer) +21, Sense Motive +21, Spellcraft +9, Stealth
-+24
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** hateful prophecy, infernal arrows, selective nondetection
+::: statblock
+Ability scores: Str 17, Dex 24, Con 21, Int 14, Wis 19, Cha 16
+Base attack bonus: +14
+Combat maneuver bonus: +17
+Combat maneuver defense: 34
+Feats: Deadly Aim, Deflect Arrows^B^, Improved Precise Shot, Improved Two-Weapon Fighting, Point-Blank Shot, Precise Shot, Rapid Shot, Snatch Arrows^B^, Two-Weapon Fighting
+Skills: Acrobatics +24 (+28 when jumping), Bluff +20, Climb +21, Escape Artist +23, Knowledge (planes) +12, Perception +25, Profession (soothsayer) +21, Sense Motive +21, Spellcraft +9, Stealth +24
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: hateful prophecy, infernal arrows, selective nondetection
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or foreboding (3-5)
-
-**Treasure:** Standard (2 +1 csbs+3, 2 mwk handaxes); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or foreboding (3-5)
+Treasure: Standard (2 +1 csbs+3, 2 mwk handaxes); other treasure
+:::
 
 ### Special Abilities
 

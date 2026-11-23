@@ -31,108 +31,75 @@ abilities = ["22", "11", "20", "7", "19", "16"]
 _This creature combines the features of a scorpion and a horse-slavering humanoid faces peer from
 between its two pincers._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +18
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 25
+AC modifiers: +16 natural, -1 size
+Hit points: 115 (11d10+55)
+Fort: +12
+Ref: +9
+Will: +7
+Dr: 10/good
+Immune: electricity, fear, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: 2 claws +16 (1d6+6/19-20 plus [grab](ref/umr/grab)), 2 stings +16 (1d6+6/19-20 plus poison)
+Reach: 10
+Space: 10
+Spec Att: hatred, rasping tongues
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: speak with animals
+At will: hold animal (DC 15), greater teleport, self plus 50 lbs. of objects only, unnatural lust (DC 14)
+Per day: 3/day: air walk, quickened unnatural lust (DC 14)\
+1/day: baleful polymorph (DC 18), summon (level 3, 1 kithangian 35%)
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 11, Con 20, Int 7, Wis 19, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 28
+Feats: Improved Critical (claw), Improved Critical (sting), Improved Initiative, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (unnatural lust)
+Skills: Handle Animal +17, Stealth +10
+Languages: Abyssal, Celestial, Draconic; _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Large animal; [beast shape II](ref/spell/beast-shape-2)), swift transformation
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +16 natural, -1 size
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** electricity, fear, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 claws +16 (1d6+6/19-20 plus [grab](ref/umr/grab)), 2 stings +16 (1d6+6/19-20 plus
-poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** hatred, rasping tongues
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- hold animal (DC 15), greater teleport, self plus 50 lbs. of objects only, unnatural lust (DC 14)
-
-**Per day:**
-
-- 3/day: air walk, quickened unnatural lust (DC 14)
-- 1/day: baleful polymorph (DC 18), summon (level 3, 1 kithangian 35%)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 11, Con 20, Int 7, Wis 19, Cha 16
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 28
-
-**Feats:** Improved Critical (claw), Improved Critical (sting), Improved Initiative, Lightning
-Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (unnatural lust)
-
-**Skills:** Handle Animal +17, Stealth +10
-
-**Languages:** Abyssal, Celestial, Draconic; _[speak with animals](ref/spell/speak-with-animals),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Large animal;
-[beast shape II](ref/spell/beast-shape-2)), swift transformation
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or pack (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

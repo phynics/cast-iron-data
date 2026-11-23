@@ -32,100 +32,72 @@ _The movements of this black-skinned humanoid are unnaturally quiet, clearly bel
 to slinking unseen and unheard through dark places. Ebon wings and a matching mask complete this
 figure's stealthy appearance._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: aura of menace (DC 13), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Initiative: +2
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect evil, Hone senses, Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 800
+:::
 
-**aura:** aura of menace (DC 13), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 natural
+Hit points: 26 (4d10+4)
+Fort: +2
+Ref: +6
+Will: +4; +4 vs. poison
+Dr: 5/evil
+Immune: electricity, petrification
+Sr: 14
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 40 ft. (good)
+Melee: mwk longsword +5 (1d8+2/19-20), mwk short sword +5 (1d6+1/19-20)
+Ranged: shortbow +6 (1d6/×3)
+Sneak: +1d6
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +3
+Constant: detect evil, magic circle against evil
+At will: aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message
+Per day: 3/day: darkness, entropic shield, undetectable alignment
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Hone senses, Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 15, Con 12, Int 13, Wis 10, Cha 9
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 18
+Feats: Skill Focus (Stealth), Two-Weapon Fighting
+Skills: Acrobatics +9, Bluff +6, Fly +13, Knowledge (planes) +8, Perception +7, Sense Motive +7, Stealth +12
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +4; +4 vs. poison
-
-**Dr:** 5/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (good)
-
-**Melee:** mwk longsword +5 (1d8+2/19-20), mwk short sword +5 (1d6+1/19-20)
-
-**Ranged:** shortbow +6 (1d6/×3)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +3
-
-**Constant:**
-
-- detect evil, magic circle against evil
-
-**At will:**
-
-- aid, continual flame, greater teleport, self plus 50 lbs. of objects only, message
-
-**Per day:**
-
-- 3/day: darkness, entropic shield, undetectable alignment
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 12, Int 13, Wis 10, Cha 9
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18
-
-**Feats:** Skill Focus (Stealth), Two-Weapon Fighting
-
-**Skills:** Acrobatics +9, Bluff +6, Fly +13, Knowledge (planes) +8, Perception +7, Sense Motive +7,
-Stealth +12
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard (mwk longsword, mwk short sword, shortbow, leather armor); other treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary or pair
+Treasure: Standard (mwk longsword, mwk short sword, shortbow, leather armor); other treasure
+:::
 
 ### Special Abilities
 

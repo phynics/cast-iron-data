@@ -31,163 +31,92 @@ abilities = ["28", "20", "30", "23", "27", "25"]
 _This towering humanoid creature has shining topaz eyes, metallic skin, and three pairs of white
 wings._
 
-**Challenge rating:** 23
-
-**aura:** protective aura
-
-**Initiative:** +9
-
-**Size:** large
-
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +33
-
-**Senses:** Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
-
-**Subtype:** Angel, Extraplanar, Good
-
-**Experience points:** 819,200
-
-**Armor class:** 44
-
-**Touch:** 11
-
-**Flat-footed:** 42
-
-**AC modifiers:** +14 armor, +1 Dex, +1 dodge, +19 natural, -1 size; +4 deflection vs. evil
-
-**Hit points:** 363 (22d10+242)
-
-**Fort:** +25
-
-**Ref:** +14
-
-**Will:** +23; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 15/epic and evil
-
-**Immune:** acid, cold, petrification
-
-**Regen:** 15 (evil artifacts, effects, and spells)
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 50 ft., fly 150 ft. (good)
-
-**Melee:** +5 dancing greatsword +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)
-
-**Ranged:** +5 composite longbow (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus slaying arrow)
-
-**Reach:** 10
-
-**Sp Extra:** 35 ft., fly 100 ft. (good) in armor
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Constant:**
-
-- detect evil, detect snares and pits, discern lies (DC 21), true seeing
-
-**At will:**
-
-- aid, animate objects, commune, continual flame, dimensional anchor, greater dispel magic, holy
-  smite (DC 21), imprisonment (DC 26), invisibility, self only, lesser restoration, remove curse,
-  remove disease, remove fear, resist energy, summon monster VII, speak with dead (DC 20), waves of
-  fatigue
-
-**Per day:**
-
-- 3/day: blade barrier (DC 23), earthquake (DC 25), heal, mass charm monster (DC 25), permanency,
-  resurrection, waves of exhaustion
-- 1/day: greater restoration, power word blind, power word kill, power word stun, prismatic spray
-  (DC 24), wish
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**9th-level spells:**
-
-- etherealness, mass heal, miracle, storm of vengeance (DC 27)
-
-**8th-level spells:**
-
-- fire storm (DC 26), holy aura, 2 (DC 26), mass cure critical wounds, 2
-
-**7th-level spells:**
-
-- destruction (DC 25), dictum (DC 25), ethereal jaunt, holy word (DC 25), regenerate
-
-**6th-level spells:**
-
-- banishment (DC 24), heroes' feast, mass cure moderate wounds, undeath to death (DC 24), word of
-  recall
-
-**5th-level spells:**
-
-- break enchantment, breath of life, dispel evil (DC 23), plane shift (DC 23), righteous might,
-  symbol of sleep (DC 23)
-
-**4th-level spells:**
-
-- cure critical wounds, 3, death ward, dismissal (DC 22), neutralize poison, 2 (DC 22)
-
-**3rd-level spells:**
-
-- cure serious wounds, daylight, invisibility purge, magic circle against evil, prayer, protection
-  from energy, wind wall
-
-**2nd-level spells:**
-
-- align weapon, bear's endurance, bull's strength, consecrate, cure moderate wounds, 2, eagle's
-  splendor
-
-**1st-level spells:**
-
-- bless, cure light wounds, 3, divine favor, entropic shield, shield of faith
-
-**Cantrips:**
-
-- detect magic, purify food and drink, stabilize, virtue
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 20, Con 30, Int 23, Wis 27, Cha 25
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 47
-
-**Feats:** Cleave, Deadly Aim, Dodge, Great Fortitude, Improved Initiative, Improved Sunder, Iron
-Will, Lightning Reflexes, Mobility, Power Attack, Toughness
-
-**Skills:** Craft (any one) +31, Diplomacy +32, Fly +32, Knowledge (history, planes) +31, Perception
-+33
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary or pair
-
-**Treasure:** Double (+5 full plate, +5 D greatsword, +5 cl+9)
+::: statblock
+Challenge rating: 23
+aura: protective aura
+Initiative: +9
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., Detect evil, Detect snares and pits, Low-light vision, True seeing
+Subtype: Angel, Extraplanar, Good
+Experience points: 819,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 44
+Touch: 11
+Flat-footed: 42
+AC modifiers: +14 armor, +1 Dex, +1 dodge, +19 natural, -1 size; +4 deflection vs. evil
+Hit points: 363 (22d10+242)
+Fort: +25
+Ref: +14
+Will: +23; +4 vs. poison, +4 resistance vs. evil
+Dr: 15/epic and evil
+Immune: acid, cold, petrification
+Regen: 15 (evil artifacts, effects, and spells)
+Resist: electricity 10, fire 10
+Sr: 34
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft., fly 150 ft. (good)
+Melee: +5 dancing greatsword +35/+30/+25/+20 (3d6+18) or slam +30 (2d8+13)
+Ranged: +5 composite longbow (+9 Str bonus) +31/+26/+21/+16 (2d6+14 plus slaying arrow)
+Reach: 10
+Sp Extra: 35 ft., fly 100 ft. (good) in armor
+Space: 10
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Constant: detect evil, detect snares and pits, discern lies (DC 21), true seeing
+At will: aid, animate objects, commune, continual flame, dimensional anchor, greater dispel magic, holy smite (DC 21), imprisonment (DC 26), invisibility, self only, lesser restoration, remove curse, remove disease, remove fear, resist energy, summon monster VII, speak with dead (DC 20), waves of fatigue
+Per day: 3/day: blade barrier (DC 23), earthquake (DC 25), heal, mass charm monster (DC 25), permanency, resurrection, waves of exhaustion\
+1/day: greater restoration, power word blind, power word kill, power word stun, prismatic spray (DC 24), wish
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+9th-level spells: etherealness, mass heal, miracle, storm of vengeance (DC 27)
+8th-level spells: fire storm (DC 26), holy aura, 2 (DC 26), mass cure critical wounds, 2
+7th-level spells: destruction (DC 25), dictum (DC 25), ethereal jaunt, holy word (DC 25), regenerate
+6th-level spells: banishment (DC 24), heroes' feast, mass cure moderate wounds, undeath to death (DC 24), word of recall
+5th-level spells: break enchantment, breath of life, dispel evil (DC 23), plane shift (DC 23), righteous might, symbol of sleep (DC 23)
+4th-level spells: cure critical wounds, 3, death ward, dismissal (DC 22), neutralize poison, 2 (DC 22)
+3rd-level spells: cure serious wounds, daylight, invisibility purge, magic circle against evil, prayer, protection from energy, wind wall
+2nd-level spells: align weapon, bear's endurance, bull's strength, consecrate, cure moderate wounds, 2, eagle's splendor
+1st-level spells: bless, cure light wounds, 3, divine favor, entropic shield, shield of faith
+Cantrips: detect magic, purify food and drink, stabilize, virtue
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 28, Dex 20, Con 30, Int 23, Wis 27, Cha 25
+Base attack bonus: +22
+Combat maneuver bonus: +32
+Combat maneuver defense: 47
+Feats: Cleave, Deadly Aim, Dodge, Great Fortitude, Improved Initiative, Improved Sunder, Iron Will, Lightning Reflexes, Mobility, Power Attack, Toughness
+Skills: Craft (any one) +31, Diplomacy +32, Fly +32, Knowledge (history, planes) +31, Perception +33
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self))
+:::
+
+### Ecology
+
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary or pair
+Treasure: Double (+5 full plate, +5 D greatsword, +5 cl+9)
+:::
 
 ### Special Abilities
 

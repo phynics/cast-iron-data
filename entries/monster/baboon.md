@@ -29,67 +29,56 @@ abilities = ["12", "15", "12", "2", "12", "5"]
 _A hairy, stout animal with opposable thumbs, this creature has a pronounced muzzle and bright red
 buttocks._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft.
+Melee: bite +3 (1d4+1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Weapon Finesse
+Skills: Acrobatics +10, Climb +5
+Racial Modifiers: +4 Acrobatics, +4 Climb
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +3 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 12, Int 2, Wis 12, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +10, Climb +5
-
-**Racial Modifiers:** +4 Acrobatics, +4 Climb
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or mission (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or mission (3-6)
+Treasure: None
+:::
 
 ### Description
 

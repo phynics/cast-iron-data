@@ -27,75 +27,60 @@ abilities = ["24", "15", "15", "2", "11", "10"]
 
 _Blade-like horns jut from the snout and eye ridges of this toothy, bipedal dinosaur._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 16
+AC modifiers: +2 Dex, +7 natural, -1 size
+Hit points: 52 (8d8+16)
+Fort: +8
+Ref: +8
+Will: +4
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Blood Rage: present
+Melee: bite +12 (2d6+10 plus [trip](ref/umr/trip))
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 24, Dex 15, Con 15, Int 2, Wis 11, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Improved Initiative, Iron Will, Run, Skill Focus (Stealth)
+Skills: Perception +7, Stealth +12
+Racial Modifiers: +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +7 natural, -1 size
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +4
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Blood Rage:** present
-
-**Melee:** bite +12 (2d6+10 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con 15, Int 2, Wis 11, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Improved Initiative, Iron Will, Run, Skill Focus (Stealth)
-
-**Skills:** Perception +7, Stealth +12
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or plains
+Organization: solitary, pair, or pack (3-7)
+Treasure: None
+:::
 
 ### Description
 

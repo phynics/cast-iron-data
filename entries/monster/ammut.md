@@ -32,115 +32,82 @@ _This massive creature has the head of a crocodile, the mane and torso of a lion
 hindquarters of a hippopotamus. The wickedly curved claws on the creature's forepaws pale in
 comparison to the danger of its mighty jaws._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: fear aura (30 ft., DC 29)
+Size: huge
+Initiative: +10
+Alignment: Lawful evil
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Scent, True seeing
+Subtype: Evil, Native
+tremorsense: 60
+Experience points: 153,600
+:::
 
-**aura:** fear aura (30 ft., DC 29)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 28
+AC modifiers: +6 Dex, +20 natural, -2 size
+Hit points: 290 (20d10+180)
+Fort: +21
+Ref: +20
+Will: +13
+Dr: 15/good and slashing
+Immune: disease, exhaustion, fatigue, fire, poison
+Resist: acid 10, cold 10, electricity 10
+Sr: 29
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft.
+Br Weap: 30-ft. cone, 14d6 fire damage, Reflex DC 29 half, usable every 1d4 rounds
+Melee: bite +31 (4d6+19/19-20 plus [grab](ref/umr/grab)), 2 claws +31 (2d6+13)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: devour soul, powerful jaw, wasting curse
+Swallow: 3d6+13 bludgeoning plus 4d6 fire plus wasting curse, AC 20, 29 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +23
+Constant: detect evil, detect good, detect chaos, true seeing
+Per day: 3/day: quickened ear-piercing scream (DC 20)\
+1/day: dominate monster
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent, True seeing
-
-**Subtype:** Evil, Native
-
-**tremorsense:** 60
-
-**Experience points:** 153,600
-
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 28
-
-**AC modifiers:** +6 Dex, +20 natural, -2 size
-
-**Hit points:** 290 (20d10+180)
-
-**Fort:** +21
-
-**Ref:** +20
-
-**Will:** +13
-
-**Dr:** 15/good and slashing
-
-**Immune:** disease, exhaustion, fatigue, fire, poison
-
-**Resist:** acid 10, cold 10, electricity 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 30-ft. cone, 14d6 fire damage, Reflex DC 29 half, usable every 1d4 rounds
-
-**Melee:** bite +31 (4d6+19/19-20 plus [grab](ref/umr/grab)), 2 claws +31 (2d6+13)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** devour soul, powerful jaw, wasting curse
-
-**Swallow:** 3d6+13 bludgeoning plus 4d6 fire plus wasting curse, AC 20, 29 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +23
-
-**Constant:**
-
-- detect evil, detect good, detect chaos, true seeing
-
-**Per day:**
-
-- 3/day: quickened ear-piercing scream (DC 20)
-- 1/day: dominate monster
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 22, Con 29, Int 11, Wis 24, Cha 29
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +35 (+37 bull rush)
-
-**Combat maneuver defense:** 51 (53 vs. bull rush, 55 vs. trip)
-
-**Feats:** Blind-Fight, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved
-Initiative, Lightning Reflexes, Lunge, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities)^B^ (ear-piercing scream), Staggering Critical
-
-**Skills:** Climb +24, Intimidate +30, Knowledge (planes) +20, Perception +30, Sense Motive +30,
-Stealth +21
-
-**Languages:** Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 36, Dex 22, Con 29, Int 11, Wis 24, Cha 29
+Base attack bonus: +20
+Combat maneuver bonus: +35 (+37 bull rush)
+Combat maneuver defense: 51 (53 vs. bull rush, 55 vs. trip)
+Feats: Blind-Fight, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Lunge, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)^B^ (ear-piercing scream), Staggering Critical
+Skills: Climb +24, Intimidate +30, Knowledge (planes) +20, Perception +30, Sense Motive +30, Stealth +21
+Languages: Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any (Osirion)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Osirion)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

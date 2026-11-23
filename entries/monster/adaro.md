@@ -36,77 +36,61 @@ abilities = ["16", "17", "14", "10", "13", "13"]
 _This hybrid of human and shark holds its spear menacingly, thick, glistening saliva dripping from
 its razor-sharp teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +7
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 10 ft., swim 50 ft.
+Melee: spear +8 (1d8+4/×3 plus poison), bite +2 (1d6+1)
+Ranged: spear +8 (1d8+3/×3 plus poison)
+Spec Att: rain frenzy
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 16, Dex 17, Con 14, Int 10, Wis 13, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Deadly Aim, Weapon Focus (spear)
+Skills: Intimidate +8, Perception +8, Stealth +10, Swim +18
+Languages: Aquan, Common; speak with sharks
+Special qualities: [amphibious](ref/umr/amphibious), poison use
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 10 ft., swim 50 ft.
-
-**Melee:** spear +8 (1d8+4/×3 plus poison), bite +2 (1d6+1)
-
-**Ranged:** spear +8 (1d8+3/×3 plus poison)
-
-**Spec Att:** rain frenzy
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con 14, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Deadly Aim, Weapon Focus (spear)
-
-**Skills:** Intimidate +8, Perception +8, Stealth +10, Swim +18
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Special qualities:** [amphibious](ref/umr/amphibious), poison use
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, hunting party (2-6), or tribe (7-12)
-
-**Treasure:** Standard (3 spears); other treasure
+::: statblock
+Environment: warm oceans
+Organization: solitary, hunting party (2-6), or tribe (7-12)
+Treasure: Standard (3 spears); other treasure
+:::
 
 ### Special Abilities
 

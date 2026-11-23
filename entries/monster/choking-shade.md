@@ -30,77 +30,61 @@ abilities = ["-", "19", "-", "6", "15", "17"]
 
 _A vague humanoid shape composed of whirling dust and shards of bone hovers menacingly in the air._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 1,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 13
+AC modifiers: +3 deflection, +4 Dex, +1 dodge
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +8
+Will: +7
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 2 incorporeal touches +9 touch (2d6 negative energy plus desperation)
+Spec Att: create spawn, gravedust
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 19, Con -, Int 6, Wis 15, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Ability Focus (desperation), Dodge, Improved Initiative, Lightning Reflexes
+Skills: Fly +12, Perception +12, Stealth +14
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +9 touch (2d6 negative energy plus desperation)
-
-**Spec Att:** create spawn, gravedust
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con -, Int 6, Wis 15, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Ability Focus (desperation), Dodge, Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +12, Perception +12, Stealth +14
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or haunting (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or haunting (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

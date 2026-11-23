@@ -32,114 +32,80 @@ abilities = ["1", "28", "20", "12", "17", "19"]
 _Thousands of golden lights form a cloud, swirling gracefully around one another. Each light in the
 cloud is a glowing rune no bigger than a thumbnail._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: aura of menace (DC 23), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Size: fine
+Initiative: +13
+Alignment: Lawful good
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful, Swarm
+Experience points: 51,200
+:::
 
-**aura:** aura of menace (DC 23), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 28
+Touch: 28
+Flat-footed: 18
+AC modifiers: +9 Dex, +1 dodge, +8 size
+Hit points: 189 (18d10+90)
+Fort: +18
+Ref: +15
+Will: +16; +4 vs. poison, +2 resistance vs. evil
+Defensive abilities: swarm traits
+Dr: 10/evil
+Immune: disease, electricity, petrification, weapon damage
+Resist: fire 20
+Sr: 26
+:::
 
-**Initiative:** +13
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: fly 30 ft. (perfect)
+Distraction: 24
+Heat: 3d6 fire
+Melee: swarm (5d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: 3d6 firevibrating combustion
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +22
+Constant: deathwatch, magic circle against evil
+At will: detect evil, greater teleport, self only
+Per day: 7/day: lesser restoration\
+5/day: mass cure light wounds, neutralize poison\
+3/day: greater restoration, heal
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 28, Con 20, Int 12, Wis 17, Cha 19
+Base attack bonus: +18
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (vibrating combustion), Combat Casting, Dodge, Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will, Mobility, Skill Focus (Heal)
+Skills: Acrobatics +21, Diplomacy +16, Fly +46, Intimidate +25, Perception +24
+Languages: Celestial, Common, Infernal; _truespeech_
+Special qualities: controlled swarm, superlative healer
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful, Swarm
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 28
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 Dex, +1 dodge, +8 size
-
-**Hit points:** 189 (18d10+90)
-
-**Fort:** +18
-
-**Ref:** +15
-
-**Will:** +16; +4 vs. poison, +2 resistance vs. evil
-
-**Defensive abilities:** swarm traits
-
-**Dr:** 10/evil
-
-**Immune:** disease, electricity, petrification, weapon damage
-
-**Resist:** fire 20
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Distraction:** 24
-
-**Heat:** 3d6 fire
-
-**Melee:** swarm (5d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** 3d6 firevibrating combustion
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +22
-
-**Constant:**
-
-- deathwatch, magic circle against evil
-
-**At will:**
-
-- detect evil, greater teleport, self only
-
-**Per day:**
-
-- 7/day: lesser restoration
-- 5/day: mass cure light wounds, neutralize poison
-- 3/day: greater restoration, heal
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 28, Con 20, Int 12, Wis 17, Cha 19
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (vibrating combustion), Combat Casting, Dodge, Great Fortitude, Improved
-Initiative, Improved Iron Will, Iron Will, Mobility, Skill Focus (Heal)
-
-**Skills:** Acrobatics +21, Diplomacy +16, Fly +46, Intimidate +25, Perception +24
-
-**Languages:** Celestial, Common, Infernal; _truespeech_
-
-**Special qualities:** controlled swarm, superlative healer
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or flock (3-6 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or flock (3-6 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

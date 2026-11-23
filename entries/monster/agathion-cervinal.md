@@ -34,113 +34,78 @@ abilities = ["31", "20", "26", "19", "24", "19"]
 _Beneath a crown of antlers, this centaur-like creature blends the upper body of a humanoid with the
 lower body of a majestic elk._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Initiative: +5
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., Detect scrying, Low-light vision
+Subtype: Agathion, Extraplanar, Good
+Experience points: 102,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 32
+Touch: 15
+Flat-footed: 26
+AC modifiers: +5 Dex, +1 dodge, +17 natural, -1 size
+Hit points: 283 (21d10+168)
+Fort: +20
+Ref: +14
+Will: +19; +4 vs. poison
+Dr: 10/evil and silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 28
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: 2 slams +30 (1d6+10), 2 hooves +25 (2d6+5)
+Pow Ch: gore, 2d8+15 plus stagger
+Ranged: +3 composite longbow +29/+24/+19/+14 (1d8+13/×3)
+Reach: 5
+Sp Extra: gallop
+Space: 10
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: detect scrying, see invisibility, speak with animals
+At will: discern lies, freedom of movement, greater teleport, self plus 50 lbs. of objects only, invisibility purge, light, message
+Per day: 5/day: clairaudience/clairvoyance, cure critical wounds, dismissal (DC 18), dispel magic\
+3/day: breath of life, mass bull's strength, plane shift (DC 19)\
+1/day: discern location, greater scrying (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Detect scrying, Low-light vision
+### Statistics
 
-**Subtype:** Agathion, Extraplanar, Good
+::: statblock
+Ability scores: Str 31, Dex 20, Con 26, Int 19, Wis 24, Cha 19
+Base attack bonus: +21
+Combat maneuver bonus: +32
+Combat maneuver defense: 48 (52 vs. trip)
+Feats: Combat Casting, Combat Reflexes, Deadly Aim, Dodge, Lightning Reflexes, Manyshot, Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
+Skills: Acrobatics +29, Climb +31, Diplomacy +28, Intimidate +25, Knowledge (arcana, nature, planes) +28, Perception +31
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (10d6, 14/day, as a 20th-level paladin), [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 15
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +1 dodge, +17 natural, -1 size
-
-**Hit points:** 283 (21d10+168)
-
-**Fort:** +20
-
-**Ref:** +14
-
-**Will:** +19; +4 vs. poison
-
-**Dr:** 10/evil and silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 slams +30 (1d6+10), 2 hooves +25 (2d6+5)
-
-**Pow Ch:** gore, 2d8+15 plus stagger
-
-**Ranged:** +3 composite longbow +29/+24/+19/+14 (1d8+13/×3)
-
-**Reach:** 5
-
-**Sp Extra:** gallop
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- detect scrying, see invisibility, speak with animals
-
-**At will:**
-
-- discern lies, freedom of movement, greater teleport, self plus 50 lbs. of objects only,
-  invisibility purge, light, message
-
-**Per day:**
-
-- 5/day: clairaudience/clairvoyance, cure critical wounds, dismissal (DC 18), dispel magic
-- 3/day: breath of life, mass bull's strength, plane shift (DC 19)
-- 1/day: discern location, greater scrying (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 20, Con 26, Int 19, Wis 24, Cha 19
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 48 (52 vs. trip)
-
-**Feats:** Combat Casting, Combat Reflexes, Deadly Aim, Dodge, Lightning Reflexes, Manyshot,
-Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
-
-**Skills:** Acrobatics +29, Climb +31, Diplomacy +28, Intimidate +25, Knowledge (arcana, nature,
-planes) +28, Perception +31
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (10d6, 14/day, as a 20th-level
-paladin), [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, collective (2-3), or herd (4-6)
-
-**Treasure:** Double (+3 cl+10); other treasure
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, collective (2-3), or herd (4-6)
+Treasure: Double (+3 cl+10); other treasure
+:::
 
 ### Special Abilities
 

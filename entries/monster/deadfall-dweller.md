@@ -32,85 +32,65 @@ abilities = ["21", "13", "16", "5", "12", "10"]
 _This creature resembles a fallen tree trunk that walks upon dozens of tiny, barbed branches and
 shambles like a spider._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 57 (6d10+24)
+Fort: +8
+Ref: +6
+Will: +3
+Immune: acid
+Vulner: electricity
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Entrap: DC 16, 1d4 rounds, [hardness](ref/umr/hardness) 3, hp 6
+Melee: bite +10 (1d6+5 plus poison), 2 limbs +5 (1d4+2)
+Ranged: spittle +6 (1d6 acid plus entrap)
+Reach: 5
+Space: 10
+Spec Att: implant, spittle
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 13, Con 16, Int 5, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 23 (can't be tripped)
+Feats: Improved Initiative, Power Attack, Toughness
+Skills: Climb +17, Perception +7, Stealth +2 (+10 in forests or swamps)
+Racial Modifiers: +8 Stealth in forests or swamps
+Languages: Sylvan (can't speak)
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** acid
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Entrap:** DC 16, 1d4 rounds, [hardness](ref/umr/hardness) 3, hp 6
-
-**Melee:** bite +10 (1d6+5 plus poison), 2 limbs +5 (1d4+2)
-
-**Ranged:** spittle +6 (1d6 acid plus entrap)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** implant, spittle
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 16, Int 5, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Feats:** Improved Initiative, Power Attack, Toughness
-
-**Skills:** Climb +17, Perception +7, Stealth +2 (+10 in forests or swamps)
-
-**Racial Modifiers:** +8 Stealth in forests or swamps
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** temperate forests and swamps
-
-**Organization:** solitary, brood (2-5), or ruin (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests and swamps
+Organization: solitary, brood (2-5), or ruin (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

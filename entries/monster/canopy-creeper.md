@@ -34,90 +34,67 @@ canopy of the trees suddenly coils itself into a large mass dangling high above.
 maw emerges from the center of the fecund mass, numerous thick, grasping vines whipping through the
 air._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Type: plant
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 20
+AC modifiers: +3 Dex, +12 natural, -2 size
+Hit points: 150 (12d8+96)
+Fort: +12
+Ref: +9
+Will: +8
+Fh: 2
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: fire 10
+Weaknesses: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +16 (2d6+12)
+Pull: vine tendril, 30 feet
+Ranged: 4 vine tendrils +10 ([grab](ref/umr/grab) plus feed and pull)
+Reach: 10
+Reach P: 100 ft. with vine tendrils
+Space: 15
+Spec Att: aerial attack
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 26, Dex 16, Con 26, Int 2, Wis 10, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Skill Focus (Climb)
+Skills: Climb +19, Perception +13, Stealth +4 (+20 in forests)
+Racial Modifiers: +4 Perception, +16 Stealth in forests
+Special qualities: camouflage, vine tendrils
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +12 natural, -2 size
-
-**Hit points:** 150 (12d8+96)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +8
-
-**Fh:** 2
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 10
-
-**Weaknesses:** cold
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +16 (2d6+12)
-
-**Pull:** vine tendril, 30 feet
-
-**Ranged:** 4 vine tendrils +10 ([grab](ref/umr/grab) plus feed and pull)
-
-**Reach:** 10
-
-**Reach P:** 100 ft. with vine tendrils
-
-**Space:** 15
-
-**Spec Att:** aerial attack
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 16, Con 26, Int 2, Wis 10, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Skill
-Focus (Climb)
-
-**Skills:** Climb +19, Perception +13, Stealth +4 (+20 in forests)
-
-**Racial Modifiers:** +4 Perception, +16 Stealth in forests
-
-**Special qualities:** camouflage, vine tendrils
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

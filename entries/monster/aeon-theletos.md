@@ -31,102 +31,74 @@ abilities = ["18", "14", "17", "11", "19", "12"]
 _Four bandy limbs, each splitting at the elbow into two three-fingered forearms, emerge from this
 creature's crystalline body._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Aeon, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 17
+AC modifiers: +2 deflection, +2 Dex, +1 dodge, +5 natural
+Hit points: 76 (9d10+27)
+Fort: +9
+Ref: +5
+Will: +12
+Fh: 5
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 18
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (poor)
+Melee: 2 slams +13 (1d6+4), 2 tentacles +8 (1d4+2 plus fate drain)
+Reach: 5
+Space: 5
+Spec Att: wreath of fate
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +10
+At will: augury, command (DC 12), doom (DC 12), sanctuary (DC 12)
+Per day: 3/day: bestow curse (DC 14), enthrall (DC 13), touch of idiocy (DC 13), dispel magic, remove curse, suggestion (DC 14)\
+1/day: charm monster (DC 15), lesser geas (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aeon, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 14, Con 17, Int 11, Wis 19, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Dodge, Hover, Improved Initiative, Improved Iron Will, Iron Will
+Skills: Fly -2, Intimidate +13, Knowledge (planes) +16, Perception +16, Sense Motive +16, Spellcraft +12, Stealth +14
+Languages: _envisaging_
+Special qualities: extension of all, void form
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 deflection, +2 Dex, +1 dodge, +5 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +12
-
-**Fh:** 5
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (poor)
-
-**Melee:** 2 slams +13 (1d6+4), 2 tentacles +8 (1d4+2 plus fate drain)
-
-**Reach:** 5
-
-**Space:** 5
-
-**Spec Att:** wreath of fate
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +10
-
-**At will:**
-
-- augury, command (DC 12), doom (DC 12), sanctuary (DC 12)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 14), enthrall (DC 13), touch of idiocy (DC 13), dispel magic, remove
-  curse, suggestion (DC 14)
-- 1/day: charm monster (DC 15), lesser geas (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 14, Con 17, Int 11, Wis 19, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Dodge, Hover, Improved Initiative, Improved Iron Will, Iron Will
-
-**Skills:** Fly -2, Intimidate +13, Knowledge (planes) +16, Perception +16, Sense Motive +16,
-Spellcraft +12, Stealth +14
-
-**Languages:** _envisaging_
-
-**Special qualities:** extension of all, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or collective (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or collective (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

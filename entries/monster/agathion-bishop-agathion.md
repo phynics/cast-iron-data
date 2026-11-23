@@ -31,106 +31,74 @@ abilities = ["14", "17", "11", "14", "16", "9"]
 _Layers of translucent, shimmering fins flow along this fishman's spindly body. Tentacles curl below
 its stately mouth, and its human-like hands and feet end in stubby but sharp claws._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: fear (30 ft., DC 16)
+Initiative: +7
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Extraplanar, Good
+Experience points: 1,200
+:::
 
-**aura:** fear (30 ft., DC 16)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 38 (7d10)
+Fort: +2
+Ref: +8
+Will: +8; +4 vs. poison
+Dr: 5/evil or silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: 2 claws +10 (1d10+3)
+Spec Att: stunning strike
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +3
+Constant: detect evil, speak with animals
+At will: create water, dancing lights, stabilize
+Per day: 3/day: bless, discern lies, remove disease
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 17, Con 11, Int 14, Wis 16, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Agile Maneuvers, Improved Initiative, Self-Sufficient, Weapon Finesse
+Skills: Bluff +9, Heal +5
+Languages: Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [amphibious](ref/umr/amphibious), [lay on hands](ref/ability/lay-on-hands) (3d6, 2/day, as a 7th-level paladin)
+:::
 
-**Subtype:** Aquatic, Extraplanar, Good
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 38 (7d10)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +8; +4 vs. poison
-
-**Dr:** 5/evil or silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** 2 claws +10 (1d10+3)
-
-**Spec Att:** stunning strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +3
-
-**Constant:**
-
-- detect evil, speak with animals
-
-**At will:**
-
-- create water, dancing lights, stabilize
-
-**Per day:**
-
-- 3/day: bless, discern lies, remove disease
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 11, Int 14, Wis 16, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Agile Maneuvers, Improved Initiative, Self-Sufficient, Weapon Finesse
-
-**Skills:** Bluff +9, Heal +5
-
-**Languages:** Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [lay on hands](ref/ability/lay-on-hands)
-(3d6, 2/day, as a 7th-level paladin)
-
-**Ecology**
-
-**Environment:** any waters ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or contingent (6-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any waters ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or contingent (6-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

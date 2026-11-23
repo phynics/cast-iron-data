@@ -34,79 +34,62 @@ abilities = ["21", "13", "16", "9", "12", "10"]
 
 _This ferocious creature looks like a red-and-yellow scaled dragon, but with only two legs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Fire
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 57 (6d12+18)
+Fort: +8
+Ref: +6
+Will: +6
+Immune: fire, paralysis, sleep
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Melee: bite +10 (2d6+5 plus 1d6 fire), tail slap +5 (1d6+2)
+Reach: 10
+Space: 10
+Spec Att: fireball breath
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 13, Con 16, Int 9, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 23
+Feats: Flyby Attack, Improved Initiative, Power Attack
+Skills: Fly +8, Intimidate +9, Perception +10
+Languages: Draconic
+Special qualities: speed surge
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 57 (6d12+18)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +6
-
-**Immune:** fire, paralysis, sleep
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +10 (2d6+5 plus 1d6 fire), tail slap +5 (1d6+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** fireball breath
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 16, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23
-
-**Feats:** Flyby Attack, Improved Initiative, Power Attack
-
-**Skills:** Fly +8, Intimidate +9, Perception +10
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge
-
-**Ecology**
-
-**Environment:** temperate mountains or hills
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate mountains or hills
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

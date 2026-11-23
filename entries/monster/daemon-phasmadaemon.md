@@ -34,116 +34,77 @@ abilities = ["26", "25", "23", "17", "18", "22"]
 _This serpentine monstrosity has the long snout of a crocodile, ram's horns, and mantis claws
 projecting from its sinuous body._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 27)
+Initiative: +11
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Deathwatch, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 102,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 27)
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 32
+Touch: 17
+Flat-footed: 24
+AC modifiers: +7 Dex, +1 dodge, +15 natural, -1 size
+Hit points: 264 (23d10+138)
+Fort: +19
+Ref: +14
+Will: +19
+Immune: acid, death effects, disease, fear, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 28
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Constrict: 2d6+8
+Melee: bite +30 (3d8+8/19-20 plus [grab](ref/umr/grab)), 2 claws +30 (2d6+8), tail slap +25 (2d6+4)
+Reach: 10
+Rend: 2 claws, 2d6+12
+Space: 10
+Spec Att: consume fear
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: deathwatch, true seeing
+At will: greater teleport, self plus 50 lbs. of objects only, persistent image (DC 21)
+Per day: 3/day: greater shadow conjuration (DC 23), greater shadow evocation (DC 24), mirage arcana (DC 21), nightmare (DC 21), permanent image (DC 22), quickened phantasmal killer (DC 20)\
+1/day: mislead (DC 22), summon (level 8, 1 [temerdaemon](ref/monster/daemon-temerdaemon) or 1d3 [suspiridaemons](ref/monster/daemon-suspiridaemon) 50%), symbol of fear (DC 22), weird (DC 25)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch, True seeing
+::: statblock
+Ability scores: Str 26, Dex 25, Con 23, Int 17, Wis 18, Cha 22
+Base attack bonus: +23
+Combat maneuver bonus: +32 (+36 grapple)
+Combat maneuver defense: 50 (can't be tripped)
+Feats: Combat Casting, Combat Reflexes, Dodge, Greater Spell Penetration, Greater Vital Strike, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (phantasmal killer), Spell Penetration, Vital Strike
+Skills: Bluff +32, Fly +35, Intimidate +32, Knowledge (arcana, planes) +29, Perception +30, Sense Motive +30, Spellcraft +29, Stealth +29
+Languages: Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression), tangible horror
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 17
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +1 dodge, +15 natural, -1 size
-
-**Hit points:** 264 (23d10+138)
-
-**Fort:** +19
-
-**Ref:** +14
-
-**Will:** +19
-
-**Immune:** acid, death effects, disease, fear, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Constrict:** 2d6+8
-
-**Melee:** bite +30 (3d8+8/19-20 plus [grab](ref/umr/grab)), 2 claws +30 (2d6+8), tail slap +25
-(2d6+4)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 2d6+12
-
-**Space:** 10
-
-**Spec Att:** consume fear
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- deathwatch, true seeing
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, persistent image (DC 21)
-
-**Per day:**
-
-- 3/day: greater shadow conjuration (DC 23), greater shadow evocation (DC 24), mirage arcana (DC
-  21), nightmare (DC 21), permanent image (DC 22), quickened phantasmal killer (DC 20)
-- 1/day: mislead (DC 22), summon (level 8, 1 [temerdaemon](ref/monster/daemon-temerdaemon) or 1d3
-  [suspiridaemons](ref/monster/daemon-suspiridaemon) 50%), symbol of fear (DC 22), weird (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 25, Con 23, Int 17, Wis 18, Cha 22
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +32 (+36 grapple)
-
-**Combat maneuver defense:** 50 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Greater Spell Penetration, Greater Vital Strike,
-Improved Critical (bite), Improved Initiative, Improved Vital Strike, Iron Will, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (phantasmal killer), Spell Penetration, Vital
-Strike
-
-**Skills:** Bluff +32, Fly +35, Intimidate +32, Knowledge (arcana, planes) +29, Perception +30,
-Sense Motive +30, Spellcraft +29, Stealth +29
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100
-ft.
-
-**Special qualities:** [compression](ref/umr/compression), tangible horror
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or cabal (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or cabal (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

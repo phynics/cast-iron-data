@@ -30,117 +30,79 @@ abilities = ["17", "15", "16", "13", "17", "16"]
 _Piercing yellow eyes gaze from the mossy skull of this ivy-covered skeleton. Where bones should be,
 gnarled roots grow, and tangles of vines hang from its moldering chest like spilt viscera._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +20
+Senses: Low-light vision
+Type: plant
+Experience points: 6,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +10 natural
+Hit points: 105 (14d8+42)
+Fort: +12
+Ref: +6
+Will: +7
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d4+3 plus grounding curse)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Constant: pass without trace
+At will: entangle (DC 14)
+Per day: 3/day: command plants (DC 17)\
+1/day: summon nature's ally V, 1 shambling mound only
+:::
 
-**Type:** plant
+::: statblock
+title = "Prepared Spells"
+Caster level: 7
+Concentration: +10
+4th-level spells: spike stones (DC 17)
+3rd-level spells: call lightning (2, DC 16), plant growth
+2nd-level spells: fog cloud, soften earth and stone, tree shape, wood shape (DC 15)
+1st-level spells: calm animals, detect animals or plants, goodberry, magic fang, speak with animals
+Cantrips: create water, detect magic, detect poison, know direction, mending
+:::
 
-**Experience points:** 6,400
+### Statistics
 
-**Armor class:** 23
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int 13, Wis 17, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Improved Iron Will, Mobility, Natural Spell
+Skills: Perception +20
+Languages: Common, Sylvan
+Special qualities: treespeech, wild shape
+:::
 
-**Touch:** 13
+### Ecology
 
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +10 natural
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +7
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d4+3 plus grounding curse)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- entangle (DC 14)
-
-**Per day:**
-
-- 3/day: command plants (DC 17)
-- 1/day: summon nature's ally V, 1 shambling mound only
-
-**Prepared Spells**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**4th-level spells:**
-
-- spike stones (DC 17)
-
-**3rd-level spells:**
-
-- call lightning (2, DC 16), plant growth
-
-**2nd-level spells:**
-
-- fog cloud, soften earth and stone, tree shape, wood shape (DC 15)
-
-**1st-level spells:**
-
-- calm animals, detect animals or plants, goodberry, magic fang, speak with animals
-
-**Cantrips:**
-
-- create water, detect magic, detect poison, know direction, mending
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int 13, Wis 17, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Improved Iron Will,
-Mobility, Natural Spell
-
-**Skills:** Perception +20
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** treespeech, wild shape
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, party (2-4), or band (2-4 borutas plus 1-3 shambling mounds)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, party (2-4), or band (2-4 borutas plus 1-3 shambling mounds)
+Treasure: None
+:::
 
 ### Special Abilities
 

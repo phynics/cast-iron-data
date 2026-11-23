@@ -30,83 +30,64 @@ abilities = ["17", "20", "16", "11", "10", "11"]
 
 _This gaunt mermaid has a long, semi-transparent tail with a vivid red crest and caudal fin._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Type: humanoid
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 12
+AC modifiers: +5 Dex, +2 natural
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +6
+Will: +4
+Defensive abilities: deep dweller, semi-transparent
+Resist: cold 5
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: spear +6 (1d8+4/×3)
+Sneak: +2d6
+Spec Att: sprint
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 17, Dex 20, Con 16, Int 11, Wis 10, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Improved Initiative, Power Attack
+Skills: Perception +2, Stealth +9 (+17 underwater), Swim +16
+Racial Modifiers: +8 Stealth (while underwater)
+Languages: Aquan
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +2 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +4
-
-**Defensive abilities:** deep dweller, semi-transparent
-
-**Resist:** cold 5
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** spear +6 (1d8+4/×3)
-
-**Sneak:** +2d6
-
-**Spec Att:** sprint
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 16, Int 11, Wis 10, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Perception +2, Stealth +9 (+17 underwater), Swim +16
-
-**Racial Modifiers:** +8 Stealth (while underwater)
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any oceans (trenches)
-
-**Organization:** solitary, family (2-4), or tribe (10-15)
-
-**Treasure:** Standard (spear); other treasure
+::: statblock
+Environment: any oceans (trenches)
+Organization: solitary, family (2-4), or tribe (10-15)
+Treasure: Standard (spear); other treasure
+:::
 
 ### Special Abilities
 

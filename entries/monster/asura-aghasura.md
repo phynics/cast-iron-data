@@ -30,110 +30,77 @@ abilities = ["34", "17", "23", "11", "14", "18"]
 _This immense creature looks like a horned rattlesnake, save for its two muscular arms, each of
 which wields a scimitar._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: attraction (50 ft.), elusive (75 ft.)
+Size: huge
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Scent
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 12,800
+:::
 
-**aura:** attraction (50 ft.), elusive (75 ft.)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 20
+AC modifiers: +6 armor, +3 Dex, +6 natural, -2 size
+Hit points: 161 (14d10+84)
+Fort: +15
+Ref: +9
+Will: +11; +2 vs. enchantment spells
+Dr: 10/good
+Immune: curse effects, disease, poison
+Regen: 5 (good weapons, good spells)
+Resist: acid 10, electricity 10
+Sr: 22
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., swim 30 ft., swim (35 ft., swim 20 ft. in armor)
+Melee: mwk scimitar +26/+21/+16 (2d6+12/15-20 plus poison), mwk scimitar +26 (2d6+12/15-20 plus poison), bite +19 (2d8+6 plus [grab](ref/umr/grab) and poison)
+Reach: 15
+Space: 15
+Spec Att: dual wielder, infused weapons
+Swallow: 2d6+12 acid damage, AC 13, 16 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: deeper darkness\
+1/day: cloudkill (DC 19), summon (level 4, 1d4+1 [adhukaits](ref/monster/asura-adhukait), 45%, or 1 aghasura, 20%)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 34, Dex 17, Con 23, Int 11, Wis 14, Cha 18
+Base attack bonus: +14
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 41 (can't be tripped)
+Feats: Cleave, Critical Focus, Great Cleave, Improved Critical (scimitar), Lightning Reflexes, Power Attack, Weapon Focus (scimitar)
+Skills: Acrobatics +17, Bluff +19, Escape Artist +6, Intimidate +17, Knowledge (planes) +13, Perception +19, Sense Motive +19, Stealth +9, Swim +17
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 armor, +3 Dex, +6 natural, -2 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +11; +2 vs. enchantment spells
-
-**Dr:** 10/good
-
-**Immune:** curse effects, disease, poison
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 50 ft., swim 30 ft., swim (35 ft., swim 20 ft. in armor)
-
-**Melee:** mwk scimitar +26/+21/+16 (2d6+12/15-20 plus poison), mwk scimitar +26 (2d6+12/15-20 plus
-poison), bite +19 (2d8+6 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** dual wielder, infused weapons
-
-**Swallow:** 2d6+12 acid damage, AC 13, 16 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: deeper darkness
-- 1/day: cloudkill (DC 19), summon (level 4, 1d4+1 [adhukaits](ref/monster/asura-adhukait), 45%, or
-  1 aghasura, 20%)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 23, Int 11, Wis 14, Cha 18
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 41 (can't be tripped)
-
-**Feats:** Cleave, Critical Focus, Great Cleave, Improved Critical (scimitar), Lightning Reflexes,
-Power Attack, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +17, Bluff +19, Escape Artist +6, Intimidate +17, Knowledge (planes) +13,
-Perception +19, Sense Motive +19, Stealth +9, Swim +17
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or troop (2-9)
-
-**Treasure:** Standard (mwk breastplate, 2 mwk scimitars); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or troop (2-9)
+Treasure: Standard (mwk breastplate, 2 mwk scimitars); other treasure
+:::
 
 ### Special Abilities
 

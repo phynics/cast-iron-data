@@ -29,81 +29,64 @@ abilities = ["12", "15", "14", "10", "13", "11"]
 _This sleek canine has a coarse, tawny coat, pointed ears, and pale eyes. A faint blue nimbus seems
 to dance upon its fur._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Lawful good
+Type: Magical beast
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: bite +4 (1d6+1)
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +7
+Constant: blink
+At will: quickened dimension door, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 12, Dex 15, Con 14, Int 10, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Combat Reflexes, Iron Will
+Skills: Perception +7
+Languages: Sylvan
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +4 (1d6+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +7
-
-**Constant:**
-
-- blink
-
-**At will:**
-
-- quickened dimension door, self only
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 14, Int 10, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Combat Reflexes, Iron Will
-
-**Skills:** Perception +7
-
-**Languages:** Sylvan
-
-**Ecology**
-
-**Environment:** temperate plains or forests
-
-**Organization:** solitary, pair, or pack (3-14)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate plains or forests
+Organization: solitary, pair, or pack (3-14)
+Treasure: Incidental
+:::
 
 ### Description
 

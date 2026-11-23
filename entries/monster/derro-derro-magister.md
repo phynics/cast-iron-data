@@ -35,107 +35,78 @@ abilities = ["15", "17", "16", "16", "5", "16"]
 _This pale blue humanoid has bright white eyes and wild, white hair adorned with a spiked,
 gem-encrusted coronet._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +7
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Derro
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 armor, +3 Dex, +3 natural, +1 size
+Hit points: 52 (7d8+21)
+Fort: +7
+Ref: +5
+Will: +8
+Immune: mind-affecting effects
+Sr: 16
+Weaknesses: vulnerability to sunlight
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft.
+Melee: mwk quarterstaff +10 (1d4+3)
+Sneak: +3d6
+Spec Att: cytillesh stare, puppeteer
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+At will: id insinuation II (DC 16), modify memory (DC 17)
+:::
 
-**Size:** small
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +9
+Power points: 20
+Psychoactive powers: babble, 2 PE, DC 15, battlemind link, 4 PE, greater synaptic pulse, 4 PE, DC 17, mad hallucination, 2 PE, DC 15, mind probe, 4 PE, DC 17, mindwipe, 4 PE, DC 17, paranoia, 1 PE, DC 14, placebo effect, 2 PE, synapse overload, 4 PE, DC 17, synaptic scramble, 3 PE, DC 16, synesthesia, 3 PE, DC 16
+:::
 
-**Subtype:** Derro
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 15, Dex 17, Con 16, Int 16, Wis 5, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Combat Casting, Great Fortitude, Improved Initiative, Weapon Finesse
+Skills: Craft (alchemy) +13, Knowledge (arcana) +10, Perception +4, Spellcraft +10, Stealth +14
+Languages: Aklo, Undercommon
+Special qualities: psychic incoherence
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +3 Dex, +3 natural, +1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +8
-
-**Immune:** mind-affecting effects
-
-**Sr:** 16
-
-**Weaknesses:** vulnerability to sunlight
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk quarterstaff +10 (1d4+3)
-
-**Sneak:** +3d6
-
-**Spec Att:** cytillesh stare, puppeteer
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**At will:**
-
-- id insinuation II (DC 16), modify memory (DC 17)
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- babble, 2 PE, DC 15, battlemind link, 4 PE, greater synaptic pulse, 4 PE, DC 17, mad
-  hallucination, 2 PE, DC 15, mind probe, 4 PE, DC 17, mindwipe, 4 PE, DC 17, paranoia, 1 PE, DC 14,
-  placebo effect, 2 PE, synapse overload, 4 PE, DC 17, synaptic scramble, 3 PE, DC 16, synesthesia,
-  3 PE, DC 16
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 16, Int 16, Wis 5, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Casting, Great Fortitude, Improved Initiative, Weapon Finesse
-
-**Skills:** Craft (alchemy) +13, Knowledge (arcana) +10, Perception +4, Spellcraft +10, Stealth +14
-
-**Languages:** Aklo, Undercommon
-
-**Special qualities:** psychic incoherence
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, squad (1 plus 5-8 [derros](ref/monster/derro)), or cabal (3 plus 11-20
-derros)
-
-**Treasure:** NPC gear (leather armor, mwk club); robes, other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, squad (1 plus 5-8 [derros](ref/monster/derro)), or cabal (3 plus 11-20 derros)
+Treasure: NPC gear (leather armor, mwk club); robes, other treasure
+:::
 
 ### Special Abilities
 

@@ -32,157 +32,80 @@ abilities = ["20", "20", "32", "20", "12", "38"]
 _This pale woman is as beautiful as she is menacing-her smile promises endless bliss, yet her
 weapons and fangs drip with blood._
 
-**Challenge rating:** 24
-
 **Female succubus [bard](ref/class/bard) 20**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 24
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +40
+Senses: Darkvision 60 ft., Detect good
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,228,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 41
+Touch: 21
+Flat-footed: 35
+AC modifiers: +9 armor, +5 deflection, +5 Dex, +1 dodge, +10 natural, +1 shield
+Hit points: 490 (8d10+20d8+356\~28)
+Fort: +24
+Ref: +28
+Will: +26; +4 vs. bardic performance, language-dependent, and sonic
+Dr: 10/cold iron or good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+Sr: 18
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +40
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: +5 speed wounding rapier +31/+31/+26/+21/+16 (1d6+10/18-20), +5 wounding unholy whip +31/+26/+21 (1d3+10)
+Spec Att: bardic performance 56 rounds/day (swift action, [countersong](ref/performance/countersong), [deadly performance](ref/performance/deadly-performance), [dirge of doom](ref/performance/dirge-of-doom), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [frightening tune](ref/performance/frightening-tune), [inspire competence](ref/performance/inspire-competence) +6, [inspire courage](ref/performance/inspire-courage) +4, [inspire greatness](ref/performance/inspire-greatness), [inspire heroics](ref/performance/inspire-heroics), [mass suggestion](ref/performance/mass-suggestion), [soothing performance](ref/performance/soothing-performance), [suggestion](ref/performance/suggestion)), energy drain, profane gift
+:::
 
-**Senses:** Darkvision 60 ft., Detect good
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +26
+Constant: detect good, tongues
+At will: charm monster (DC 28), detect thoughts (DC 26), ethereal jaunt, self plus 50 lbs. of objects only, greater teleport, self plus 50 lbs. of objects only, suggestion (DC 27)
+Per day: 1/day: dominate person (DC 29), summon (level 3, 1 babau 50%)
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+title = "Spells Known"
+Caster level: 20
+Concentration: +34
+6th-level spells: 8/day: mass charm monster (DC 30), geas/quest, irresistible dance, project image (DC 30), veil (DC 30)
+5th-level spells: 8/day: mind fog (DC 29), nightmare (DC 29), persistent image (DC 29), song of discord (DC 29), mass suggestion (DC 29)
+4th-level spells: 8/day: cure critical wounds, dominate person (DC 28), freedom of movement, invisibility, modify memory (DC 28), zone of silence
+3rd-level spells: 8/day: confusion (DC 27), cure serious wounds, dispel magic, displacement, major image (DC 27), scrying (DC 27)
+2nd-level spells: 9/day: blindness/deafness (DC 26), cure moderate wounds, hold person (DC 26), mirror image, misdirection, sound burst (DC 26)
+1st-level spells: 9/day: animate rope, cure light wounds, feather fall, hideous laughter (DC 25), silent image (DC 25), undetectable alignment
+Cantrips: At will: dancing lights, detect magic, ghost sound (DC 24), message, prestidigitation, summon instrument
+:::
 
-**Experience points:** 1,228,800
+### Statistics
 
-**Armor class:** 41
-
-**Touch:** 21
-
-**Flat-footed:** 35
-
-**AC modifiers:** +9 armor, +5 deflection, +5 Dex, +1 dodge, +10 natural, +1 shield
-
-**Hit points:** 490 (8d10+20d8+356\~28)
-
-**Fort:** +24
-
-**Ref:** +28
-
-**Will:** +26; +4 vs. bardic performance, language-dependent, and sonic
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** +5 speed wounding rapier +31/+31/+26/+21/+16 (1d6+10/18-20), +5 wounding unholy whip
-+31/+26/+21 (1d3+10)
-
-**Spec Att:** bardic performance 56 rounds/day (swift action,
-[countersong](ref/performance/countersong),
-[deadly performance](ref/performance/deadly-performance),
-[dirge of doom](ref/performance/dirge-of-doom), [distraction](ref/performance/distraction),
-[fascinate](ref/performance/fascinate), [frightening tune](ref/performance/frightening-tune),
-[inspire competence](ref/performance/inspire-competence) +6,
-[inspire courage](ref/performance/inspire-courage) +4,
-[inspire greatness](ref/performance/inspire-greatness),
-[inspire heroics](ref/performance/inspire-heroics),
-[mass suggestion](ref/performance/mass-suggestion),
-[soothing performance](ref/performance/soothing-performance),
-[suggestion](ref/performance/suggestion)), energy drain, profane gift
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +26
-
-**Constant:**
-
-- detect good, tongues
-
-**At will:**
-
-- charm monster (DC 28), detect thoughts (DC 26), ethereal jaunt, self plus 50 lbs. of objects only,
-  greater teleport, self plus 50 lbs. of objects only, suggestion (DC 27)
-
-**Per day:**
-
-- 1/day: dominate person (DC 29), summon (level 3, 1 babau 50%)
-
-**Spells Known**
-
-**Caster level:** 20
-
-**Concentration:** +34
-
-**6th-level spells:**
-
-- 8/day: mass charm monster (DC 30), geas/quest, irresistible dance, project image (DC 30), veil (DC
-  30)
-
-**5th-level spells:**
-
-- 8/day: mind fog (DC 29), nightmare (DC 29), persistent image (DC 29), song of discord (DC 29),
-  mass suggestion (DC 29)
-
-**4th-level spells:**
-
-- 8/day: cure critical wounds, dominate person (DC 28), freedom of movement, invisibility, modify
-  memory (DC 28), zone of silence
-
-**3rd-level spells:**
-
-- 8/day: confusion (DC 27), cure serious wounds, dispel magic, displacement, major image (DC 27),
-  scrying (DC 27)
-
-**2nd-level spells:**
-
-- 9/day: blindness/deafness (DC 26), cure moderate wounds, hold person (DC 26), mirror image,
-  misdirection, sound burst (DC 26)
-
-**1st-level spells:**
-
-- 9/day: animate rope, cure light wounds, feather fall, hideous laughter (DC 25), silent image (DC
-  25), undetectable alignment
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, ghost sound (DC 24), message, prestidigitation, summon
-  instrument
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 20, Con 32, Int 20, Wis 12, Cha 38
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 49
-
-**Feats:** Combat Expertise, Craft Magic Arms and Armor, Dodge, Double Slice, Greater Two-Weapon
-Fighting, Improved Two-Weapon Fighting, Improved Whip Mastery, Iron Will, Quicken Spell, Spellsong,
-Toughness, Two-Weapon Defense, Two-Weapon Fighting, Whip Mastery
-
-**Skills:** Acrobatics +45, Bluff +45, Diplomacy +45, Disguise +45, Perform (act, dance, oratory,
-sing) +45, Sense Motive +45, Stealth +36, Use Magic Device +45
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** bardic knowledge +10, [change shape](ref/umr/change-shape) (Small or Medium
-humanoid; [alter self](ref/spell/alter-self)), jack-of-all-trades (use any skill, all skills are
-class skills, take 10 on any skill), lore master 3/day, versatile performance (act, dance, oratory,
-sing, string)
-
-**Gear:** +5 MM chain shirt, +5 speed W rapier, +5 W unholy whip, Iamu3, Ibopm6sc, Iclk5, Ihbac6,
-ring of prot5, I-strand of prayer beads (standard), statuette of herself worth 3,400 gp (for project
-image), 3,479 gp
+::: statblock
+Ability scores: Str 20, Dex 20, Con 32, Int 20, Wis 12, Cha 38
+Base attack bonus: +23
+Combat maneuver bonus: +28
+Combat maneuver defense: 49
+Feats: Combat Expertise, Craft Magic Arms and Armor, Dodge, Double Slice, Greater Two-Weapon Fighting, Improved Two-Weapon Fighting, Improved Whip Mastery, Iron Will, Quicken Spell, Spellsong, Toughness, Two-Weapon Defense, Two-Weapon Fighting, Whip Mastery
+Skills: Acrobatics +45, Bluff +45, Diplomacy +45, Disguise +45, Perform (act, dance, oratory, sing) +45, Sense Motive +45, Stealth +36, Use Magic Device +45
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: bardic knowledge +10, [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), jack-of-all-trades (use any skill, all skills are class skills, take 10 on any skill), lore master 3/day, versatile performance (act, dance, oratory, sing, string)
+Gear: +5 MM chain shirt, +5 speed W rapier, +5 W unholy whip, Iamu3, Ibopm6sc, Iclk5, Ihbac6, ring of prot5, I-strand of prayer beads (standard), statuette of herself worth 3,400 gp (for project image), 3,479 gp
+:::
 
 ### Description
 

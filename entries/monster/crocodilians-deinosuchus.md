@@ -30,82 +30,65 @@ abilities = ["36", "12", "21", "1", "15", "2"]
 _This immense reptile, an alligator of overwhelming size, emerges from the water with rapidly
 snapping jaws that grind menacingly between each bite._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: animal
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 20
+AC modifiers: +1 Dex, +14 natural, -4 size
+Hit points: 104 (11d8+55)
+Fort: +12
+Ref: +10
+Will: +7
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Constrict: 2d6+13
+Melee: bite +18 (2d6+13 plus [grab](ref/umr/grab)), tail slap +12 (2d8+6)
+Reach: 20
+Space: 20
+Spec Att: snap bite
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +14 natural, -4 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Constrict:** 2d6+13
-
-**Melee:** bite +18 (2d6+13 plus [grab](ref/umr/grab)), tail slap +12 (2d8+6)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** snap bite
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 12, Con 21, Int 1, Wis 15, Cha 2
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Awesome Blow (tail slap only)^B^, Improved Initiative, Iron Will, Lightning Reflexes,
-Skill Focus (Perception, Stealth), Weapon Focus (bite)
-
-**Skills:** Perception +14, Stealth +0 (+12 in water), Swim +21
-
-**Racial Modifiers:** +12 Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
+::: statblock
+Ability scores: Str 36, Dex 12, Con 21, Int 1, Wis 15, Cha 2
+Base attack bonus: +8
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Awesome Blow (tail slap only)^B^, Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception, Stealth), Weapon Focus (bite)
+Skills: Perception +14, Stealth +0 (+12 in water), Swim +21
+Racial Modifiers: +12 Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any water
-
-**Organization:** solitary, pair, or float (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or float (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

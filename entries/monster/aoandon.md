@@ -30,91 +30,68 @@ abilities = ["-", "24", "19", "20", "15", "22"]
 _This translucent, shaggy, horned monster shines with an eerie blue light, and its form trickles
 into vapor below the waist._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., True seeing
+Subtype: Incorporeal, Native
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 16
+AC modifiers: +6 deflection, +7 Dex, +1 dodge
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +12
+Will: +12
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: touch of madness +19 touch (10d6)
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+Constant: true seeing
+At will: darkness
+Per day: 3/day: bestow curse (DC 20), suffocation (DC 21)\
+1/day: mass pain strike (DC 21), waves of fatigue
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Incorporeal, Native
+::: statblock
+Ability scores: Str -, Dex 24, Con 19, Int 20, Wis 15, Cha 22
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 40
+Feats: Combat Reflexes, Dodge, Mobility, Skill Focus (Fly), Skill Focus (Intimidate), Spring Attack, Weapon Finesse, Weapon Focus (touch)
+Skills: Acrobatics +22, Bluff +25, Diplomacy +19, Sense Motive +20, Spellcraft +22, Stealth +22
+Languages: Abyssal, Celestial, Common, Draconic, Giant, Infernal
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +7 Dex, +1 dodge
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +12
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** touch of madness +19 touch (10d6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- darkness
-
-**Per day:**
-
-- 3/day: bestow curse (DC 20), suffocation (DC 21)
-- 1/day: mass pain strike (DC 21), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 24, Con 19, Int 20, Wis 15, Cha 22
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 40
-
-**Feats:** Combat Reflexes, Dodge, Mobility, Skill Focus (Fly), Skill Focus (Intimidate), Spring
-Attack, Weapon Finesse, Weapon Focus (touch)
-
-**Skills:** Acrobatics +22, Bluff +25, Diplomacy +19, Sense Motive +20, Spellcraft +22, Stealth +22
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Giant, Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

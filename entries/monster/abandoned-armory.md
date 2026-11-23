@@ -32,81 +32,63 @@ abilities = ["34", "13", "-", "-", "10", "1"]
 _This aggregation of weapons, armor, and other tools of war looms like a slow avalanche of twisted
 iron and eldritch sparks._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsense: 120
+Type: construct
+Size: huge
+Initiative: +1
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**blindsense:** 120
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 29
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 armor, +1 Dex, -2 size
+Hit points: 139 (18d10+40)
+Fort: +8
+Ref: +6
+Will: +6
+Defensive abilities: leaden weariness, reflect spell
+Dr: 10/-
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 24
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +28 (2d10+18/19-20)
+Ranged: ballista +17/+12/+7/+2 (3d8/19-20)
+Reach: 15
+Space: 15
+Spec Att: perimeter defense, powerful blows
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +0
+::: statblock
+Ability scores: Str 34, Dex 13, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +32
+Combat maneuver defense: 43
+Special qualities: tide of metal
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 29
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 armor, +1 Dex, -2 size
-
-**Hit points:** 139 (18d10+40)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +6
-
-**Defensive abilities:** leaden weariness, reflect spell
-
-**Dr:** 10/-
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +28 (2d10+18/19-20)
-
-**Ranged:** ballista +17/+12/+7/+2 (3d8/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** perimeter defense, powerful blows
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 13, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 43
-
-**Special qualities:** tide of metal
-
-**Ecology**
-
-**Environment:** any plain or battlefield
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any plain or battlefield
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

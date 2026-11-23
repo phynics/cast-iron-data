@@ -32,103 +32,74 @@ abilities = ["8", "18", "12", "13", "15", "17"]
 _This short fiend has mottled pink skin, clawed fingers, and green eyes. It drags a tattered scroll
 behind its feminine frame._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +8
+Alignment: Lawful evil
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
+Size: small
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +4 natural, +1 size
+Hit points: 39 (6d10+6)
+Fort: +5
+Ref: +9
+Will: +7
+Defensive abilities: natural invisibility
+Dr: 5/cold or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee: 2 claws +6 (1d4-1)
+Spec Att: anathematize
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Detect thoughts, See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: detect magic, detect thoughts (DC 15)
+At will: daze (DC 13), greater teleport, self plus 50 lbs. of objects only, mage hand
+Per day: 5/day: bane (DC 14), chill touch (DC 14), doom (DC 14)\
+3/day: bestow curse (DC 16), suggestion (DC 16), touch of idiocy (DC 15)\
+1/day: blindness/deafness (DC 15), confusion (DC 17), contagion (DC 17), summon (level 3, 2 [lesser host devils](ref/monster/devil-host-devil-lesser-gaav) 50%)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 8, Dex 18, Con 12, Int 13, Wis 15, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +4
+Combat maneuver defense: 19
+Feats: Dodge, Great Fortitude, Improved Initiative
+Skills: Bluff +12, Fly +23, Intimidate +12, Perception +11, Sense Motive +11, Spellcraft +10, Stealth +17
+Languages: Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: broken curses, infernal bond
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +4 natural, +1 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +7
-
-**Defensive abilities:** natural invisibility
-
-**Dr:** 5/cold or silver
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 claws +6 (1d4-1)
-
-**Spec Att:** anathematize
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect magic, detect thoughts (DC 15)
-
-**At will:**
-
-- daze (DC 13), greater teleport, self plus 50 lbs. of objects only, mage hand
-
-**Per day:**
-
-- 5/day: bane (DC 14), chill touch (DC 14), doom (DC 14)
-- 3/day: bestow curse (DC 16), suggestion (DC 16), touch of idiocy (DC 15)
-- 1/day: blindness/deafness (DC 15), confusion (DC 17), contagion (DC 17), summon (level 3, 2
-  [lesser host devils](ref/monster/devil-host-devil-lesser-gaav) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 18, Con 12, Int 13, Wis 15, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Great Fortitude, Improved Initiative
-
-**Skills:** Bluff +12, Fly +23, Intimidate +12, Perception +11, Sense Motive +11, Spellcraft +10,
-Stealth +17
-
-**Languages:** Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** broken curses, infernal bond
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

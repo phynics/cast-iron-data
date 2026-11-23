@@ -31,97 +31,71 @@ abilities = ["18", "21", "18", "17", "14", "17"]
 _Two pairs of stretched and veiny leather wings adorn the back of this shrouded reptilian
 nightmare._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Evil
+Experience points: 12,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 18
+AC modifiers: +5 Dex, +1 dodge, +8 natural
+Hit points: 123 (13d10+52)
+Fort: +8
+Ref: +13
+Will: +10
+Dr: 10/good
+Immune: mind-affecting effects, poison
+Sr: 22
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 claws +18 (3d8+4/19-20 plus [grab](ref/umr/grab))
+Spec Att: writhing snakes
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+Constant: see invisibility
+At will: detect thoughts (DC 15)
+Per day: 3/day: bestow curse (DC 17), dimension door\
+1/day: feeblemind (DC 18), lesser geas (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Evil
+::: statblock
+Ability scores: Str 18, Dex 21, Con 18, Int 17, Wis 14, Cha 17
+Base attack bonus: +13
+Combat maneuver bonus: +20 (+24 grapple)
+Combat maneuver defense: 33
+Feats: Agile Maneuvers, Dodge, Flyby Attack, Improved Critical (claw), Mobility, Skill Focus (Perception), Weapon Focus (claw)
+Skills: Acrobatics +21, Bluff +19, Diplomacy +13, Sense Motive +18, Stealth +21
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 50 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +1 dodge, +8 natural
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** mind-affecting effects, poison
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +18 (3d8+4/19-20 plus [grab](ref/umr/grab))
-
-**Spec Att:** writhing snakes
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- detect thoughts (DC 15)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 17), dimension door
-- 1/day: feeblemind (DC 18), lesser geas (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 21, Con 18, Int 17, Wis 14, Cha 17
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +20 (+24 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Agile Maneuvers, Dodge, Flyby Attack, Improved Critical (claw), Mobility, Skill Focus
-(Perception), Weapon Focus (claw)
-
-**Skills:** Acrobatics +21, Bluff +19, Diplomacy +13, Sense Motive +18, Stealth +21
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 50 ft.
-
-**Ecology**
-
-**Environment:** any (evil planes)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any (evil planes)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

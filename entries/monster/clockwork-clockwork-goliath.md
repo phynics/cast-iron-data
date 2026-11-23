@@ -33,87 +33,68 @@ abilities = ["45", "20", "-", "-", "11", "1"]
 _The gears of this enormous, four-armed mechanical giant shriek and grind in a deafening cacophony
 as it lumbers forth._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Type: construct
+Size: gargantuan
+Initiative: +9
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 204,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 35
+Touch: 13
+Flat-footed: 28
+AC modifiers: +5 Dex, +2 dodge, +22 natural, -4 size
+Hit points: 214 (28d10+60)
+Fort: +9
+Ref: +16
+Will: +9
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Initiative:** +9
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 4 slams +41 (3d6+17)
+Ranged: cannon +29/+24/+19/+14 (6d6/×4)
+Reach: 20
+Space: 20
+Spec Att: self-destruction
+Trample: 3d6+25, DC 41
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 204,800
-
-**Armor class:** 35
-
-**Touch:** 13
-
-**Flat-footed:** 28
-
-**AC modifiers:** +5 Dex, +2 dodge, +22 natural, -4 size
-
-**Hit points:** 214 (28d10+60)
-
-**Fort:** +9
-
-**Ref:** +16
-
-**Will:** +9
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 slams +41 (3d6+17)
-
-**Ranged:** cannon +29/+24/+19/+14 (6d6/×4)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** self-destruction
-
-**Trample:** 3d6+25, DC 41
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 20, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +49
-
-**Combat maneuver defense:** 66
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** swift reactions, winding
+::: statblock
+Ability scores: Str 45, Dex 20, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +28
+Combat maneuver bonus: +49
+Combat maneuver defense: 66
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or siege (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or siege (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

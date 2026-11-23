@@ -34,92 +34,68 @@ rounded subcutaneous masses churning within. One end opens into a yawning maw, r
 cauldron of innumerable, lidless eyeballs of every size, shape, and color, each wreathed in sooty
 orange flame._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 16, inverted form only)
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Perception: +20
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 16, inverted form only)
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +8
+Ref: +6
+Will: +8
+Amorph: present
+Immune: fire, poison
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Burn: 1d6, DC 20
+Constrict: 1d6+4
+Melee: 3 slams +11 (1d6+4 plus burn and [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: burning blindness, swarming pyrocules
+Swallow: 2d6 fire, AC 15, 9 hp
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +20
+::: statblock
+Ability scores: Str 18, Dex 17, Con 20, Int 7, Wis 13, Cha 12
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 25
+Feats: Blind-Fight, Nimble Moves, Skill Focus (Perception), Step Up, Weapon Focus (slam)
+Skills: Climb +8
+Racial Modifiers: +8 Stealth when underwater
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), inversion
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
+### Ecology {#stat-ecology}
 
-**Subtype:** Aquatic
-
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +8
-
-**Amorph:** present
-
-**Immune:** fire, poison
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Burn:** 1d6, DC 20
-
-**Constrict:** 1d6+4
-
-**Melee:** 3 slams +11 (1d6+4 plus burn and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** burning blindness, swarming pyrocules
-
-**Swallow:** 2d6 fire, AC 15, 9 hp
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 20, Int 7, Wis 13, Cha 12
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Blind-Fight, Nimble Moves, Skill Focus (Perception), Step Up, Weapon Focus (slam)
-
-**Skills:** Climb +8
-
-**Racial Modifiers:** +8 Stealth when underwater
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression),
-inversion
-
-**Ecology**
-
-**Environment:** warm and temperate fresh water and swamps
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm and temperate fresh water and swamps
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

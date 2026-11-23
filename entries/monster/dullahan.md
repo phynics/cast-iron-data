@@ -30,79 +30,62 @@ abilities = ["20", "14", "-", "14", "16", "18"]
 _Clad in ragged black robes and tarnished armor, this grim, headless rider is surrounded by an aura
 of menace._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 19)
+blindsight: 60
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +16
+Type: undead
+Experience points: 3,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 19)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 20
+AC modifiers: +10 armor, +1 Dex
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +5
+Will: +12
+Chan Res: +4
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 18
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., (20 ft. in armor)
+Melee: +1 [keen](ref/magic-enh/keen) longsword +14/+9 (1d8+6/17-20 plus 1d6 cold)
+Spec Att: chilling blade, death's calling, summon mount
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +16
+::: statblock
+Ability scores: Str 20, Dex 14, Con -, Int 14, Wis 16, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 24
+Feats: Iron Will, Mounted Combat, Ride-By Attack, Trample, Weapon Focus (longsword)
+Skills: Handle Animal +14, Ride +7, Spellcraft +15, Stealth +10
+Languages: Common, Sylvan
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +10 armor, +1 Dex
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., (20 ft. in armor)
-
-**Melee:** +1 [keen](ref/magic-enh/keen) longsword +14/+9 (1d8+6/17-20 plus 1d6 cold)
-
-**Spec Att:** chilling blade, death's calling, summon mount
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con -, Int 14, Wis 16, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24
-
-**Feats:** Iron Will, Mounted Combat, Ride-By Attack, Trample, Weapon Focus (longsword)
-
-**Skills:** Handle Animal +14, Ride +7, Spellcraft +15, Stealth +10
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double (+1 full plate, +1 longsword); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double (+1 full plate, +1 longsword); other treasure
+:::
 
 ### Special Abilities
 

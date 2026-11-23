@@ -31,104 +31,74 @@ abilities = ["-", "30", "-", "15", "18", "27"]
 _Two spectral horses pull this ornate, ghostly carriage, whose windows are blocked by dark, heavy
 curtains._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: aura of doom (30 ft., DC 26)
+Size: huge
+Initiative: +14
+Lifesense: present
+Alignment: Neutral evil
+Perception: +30
+Senses: Darkvision 60 ft., Deathwatch
+Subtype: Incorporeal
+Type: undead
+Experience points: 38,400
+:::
 
-**aura:** aura of doom (30 ft., DC 26)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 27
+Touch: 27
+Flat-footed: 16
+AC modifiers: +8 deflection, +10 Dex, +1 Dodge, -2 size
+Hit points: 212 (17d8+136)
+Fort: +13
+Ref: +15
+Will: +14
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Initiative:** +14
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: 40 ft., fly 30 ft. (average)
+Melee: incorporeal touch +20 (17d6 negative energy)
+Reach: 15
+Sp Extra: soulbound gallop
+Space: 15
+Spec Att: collect soul
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +24
+At will: ghost sound (DC 18), scare (DC 20), distracting cacophony (DC 21)
+Per day: 3/day: quickened fear (DC 22), phantasmal killer (DC 22)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch
+::: statblock
+Ability scores: Str -, Dex 30, Con -, Int 15, Wis 18, Cha 27
+Base attack bonus: +12
+Combat maneuver bonus: +24
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Lightning Stance, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (fear), Skill Focus (Intimidate), Skill Focus (Perception), Wind Stance
+Skills: Fly +26, Intimidate +34, Knowledge (geography, history, local, nobility) +9, Perception +30
+Languages: Abyssal (can't speak), Common (can't speak), Infernal (can't speak)
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 38,400
-
-**Armor class:** 27
-
-**Touch:** 27
-
-**Flat-footed:** 16
-
-**AC modifiers:** +8 deflection, +10 Dex, +1 Dodge, -2 size
-
-**Hit points:** 212 (17d8+136)
-
-**Fort:** +13
-
-**Ref:** +15
-
-**Will:** +14
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 40 ft., fly 30 ft. (average)
-
-**Melee:** incorporeal touch +20 (17d6 negative energy)
-
-**Reach:** 15
-
-**Sp Extra:** soulbound gallop
-
-**Space:** 15
-
-**Spec Att:** collect soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +24
-
-**At will:**
-
-- ghost sound (DC 18), scare (DC 20), distracting cacophony (DC 21)
-
-**Per day:**
-
-- 3/day: quickened fear (DC 22), phantasmal killer (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 30, Con -, Int 15, Wis 18, Cha 27
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Stance, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (fear), Skill Focus (Intimidate), Skill Focus
-(Perception), Wind Stance
-
-**Skills:** Fly +26, Intimidate +34, Knowledge (geography, history, local, nobility) +9, Perception
-+30
-
-**Languages:** Abyssal (can't speak), Common (can't speak), Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

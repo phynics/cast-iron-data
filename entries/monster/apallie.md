@@ -29,81 +29,65 @@ abilities = ["14", "15", "12", "13", "12", "11"]
 _This small, green ooze shifts form constantly, often taking on a two-legged, vaguely humanoid
 appearance._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral
+Type: ooze
+Perception: +5
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 22 (4d8+4)
+Fort: +2
+Ref: +5
+Will: +2
+Amorph: present
+Immune: [ooze traits](ref/umr/ooze-traits)
+Weaknesses: sun allergy
+:::
 
-**Type:** ooze
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: 2 slams +6 (1d3+2 plus 1d4 acid)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +4
+At will: alter self, Small humanoids only
+:::
 
-**Experience points:** 600
+### Statistics
 
-**Armor class:** 15
+::: statblock
+Ability scores: Str 14, Dex 15, Con 12, Int 13, Wis 12, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Deceitful, Lightning Reflexes
+Skills: Bluff +2, Climb +10, Disguise +6, Stealth +10
+Languages: Sylvan
+:::
 
-**Touch:** 13
+### Ecology
 
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Amorph:** present
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Weaknesses:** sun allergy
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** 2 slams +6 (1d3+2 plus 1d4 acid)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +4
-
-**At will:**
-
-- alter self, Small humanoids only
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 12, Int 13, Wis 12, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Deceitful, Lightning Reflexes
-
-**Skills:** Bluff +2, Climb +10, Disguise +6, Stealth +10
-
-**Languages:** Sylvan
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary, pair, or colony (4-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, or colony (4-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

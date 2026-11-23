@@ -31,103 +31,73 @@ abilities = ["6", "17", "-", "10", "15", "18"]
 _The smell of scorched flesh accompanies this small child, who appears to be made entirely of dust
 and smoldering ash._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: elemental aura (fire, DC 17), [frightful presence](ref/umr/frightful-presence) (60 ft., DC 21)
+Alignment: Chaotic neutral
+Initiative: +7
+Perception: +17
+Size: small
+Subtype: Fire
+Type: undead
+Experience points: 9,600
+:::
 
-**aura:** elemental aura (fire, DC 17), [frightful presence](ref/umr/frightful-presence) (60 ft., DC
-21)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 150 (15d8+75)
+Fort: +9
+Ref: +12
+Will: +11
+Chan Res: +4
+Defensive abilities: final embrace
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Vulner: cold
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: 40 ft.
+Br Weap: 60-ft. cone, 10d6 fire damage, Reflex DC 21 half
+Burn: 2d8, DC 21
+Melee: slam +10 (1d4-2 plus burn)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+Constant: elemental aura (fire only; DC 17), fire trail (DC 17)
+At will: burning hands (DC 16), scorching ray (DC 16)
+Per day: 3/day: quickened fireball (DC 17)
+:::
 
-**Subtype:** Fire
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 6, Dex 17, Con -, Int 10, Wis 15, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 17
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (fireball), Toughness, Weapon Finesse
+Skills: Escape Artist +18, Intimidate +19, Perception +17, Sense Motive +17
+Languages: Common
+Special qualities: binary state
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 150 (15d8+75)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +11
-
-**Chan Res:** +4
-
-**Defensive abilities:** final embrace
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 60-ft. cone, 10d6 fire damage, Reflex DC 21 half
-
-**Burn:** 2d8, DC 21
-
-**Melee:** slam +10 (1d4-2 plus burn)
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**Constant:**
-
-- elemental aura (fire only; DC 17), fire trail (DC 17)
-
-**At will:**
-
-- burning hands (DC 16), scorching ray (DC 16)
-
-**Per day:**
-
-- 3/day: quickened fireball (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con -, Int 10, Wis 15, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 17
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (fireball), Toughness, Weapon Finesse
-
-**Skills:** Escape Artist +18, Intimidate +19, Perception +17, Sense Motive +17
-
-**Languages:** Common
-
-**Special qualities:** binary state
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** unique
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: unique
+Treasure: None
+:::
 
 ### Special Abilities
 

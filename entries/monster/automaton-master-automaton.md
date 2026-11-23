@@ -31,112 +31,77 @@ abilities = ["28", "16", "-", "20", "21", "27"]
 _This construct is covered with elaborate markings. Its arms end in tremendous hooks, and the core
 in its head glows with light._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Type: construct
+Size: huge
+Initiative: +3
+Alignment: Lawful neutral
+Perception: +34
+Senses: Automaton sense, Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Automaton, Extraplanar
+Experience points: 307,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 38
+Touch: 20
+Flat-footed: 34
+AC modifiers: +3 Dex, +1 dodge, +8 insight, +18 natural, -2 size
+Hit points: 377 (25d10+240)
+Fort: +16
+Ref: +19
+Will: +23
+Defensive abilities: powerful core, reconstruction
+Fh: 20
+Immune: [construct traits](ref/umr/construct-traits), electricity
+Resist: cold 30, sonic 30
+Sr: 31
+Weaknesses: vulnerable mind
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 60 ft., climb 30 ft., fly 60 ft. (average)
+Melee: 2 arcane hooks +33 (4d10+18/19-20)
+Reach: 15
+Rend: 2 arcane hooks, 4d10+18
+Space: 15
+Spec Att: energy beam (90-ft. line or 60-ft. cone, DC 30, 20d6, usable every 1d3 rounds)
+:::
 
-**Perception:** +34
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +33
+Constant: tongues, true seeing
+At will: cloudkill (DC 23), fireball (DC 21), lightning bolt (DC 21), teleport
+Per day: 3/day: banishment (DC 25), blade barrier (DC 24), plane shift, power word stun (DC 26)\
+1/day: reverse gravity, prismatic wall, time stop
+:::
 
-**Senses:** Automaton sense, Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Automaton, Extraplanar
+::: statblock
+Ability scores: Str 28, Dex 16, Con -, Int 20, Wis 21, Cha 27
+Base attack bonus: +25
+Combat maneuver bonus: +36
+Combat maneuver defense: 58
+Feats: Alertness, Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved Critical (arcane hook), Iron Will, Mobility, Power Attack, Spring Attack, Vital Strike, Weapon Focus (arcane hook)
+Skills: Climb +32, Intimidate +23, Knowledge (arcana) +30, Perception +34, Sense Motive +7, Spellcraft +20, Use Magic Device +23
+Languages: Abyssal, Celestial, Common, Ignan, Jistka; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 38
-
-**Touch:** 20
-
-**Flat-footed:** 34
-
-**AC modifiers:** +3 Dex, +1 dodge, +8 insight, +18 natural, -2 size
-
-**Hit points:** 377 (25d10+240)
-
-**Fort:** +16
-
-**Ref:** +19
-
-**Will:** +23
-
-**Defensive abilities:** powerful core, reconstruction
-
-**Fh:** 20
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity
-
-**Resist:** cold 30, sonic 30
-
-**Sr:** 31
-
-**Weaknesses:** vulnerable mind
-
-**Offense**
-
-**Speed:** 60 ft., climb 30 ft., fly 60 ft. (average)
-
-**Melee:** 2 arcane hooks +33 (4d10+18/19-20)
-
-**Reach:** 15
-
-**Rend:** 2 arcane hooks, 4d10+18
-
-**Space:** 15
-
-**Spec Att:** energy beam (90-ft. line or 60-ft. cone, DC 30, 20d6, usable every 1d3 rounds)
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +33
-
-**Constant:**
-
-- tongues, true seeing
-
-**At will:**
-
-- cloudkill (DC 23), fireball (DC 21), lightning bolt (DC 21), teleport
-
-**Per day:**
-
-- 3/day: banishment (DC 25), blade barrier (DC 24), plane shift, power word stun (DC 26)
-- 1/day: reverse gravity, prismatic wall, time stop
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 16, Con -, Int 20, Wis 21, Cha 27
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 58
-
-**Feats:** Alertness, Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Hover, Improved
-Critical (arcane hook), Iron Will, Mobility, Power Attack, Spring Attack, Vital Strike, Weapon Focus
-(arcane hook)
-
-**Skills:** Climb +32, Intimidate +23, Knowledge (arcana) +30, Perception +34, Sense Motive +7,
-Spellcraft +20, Use Magic Device +23
-
-**Languages:** Abyssal, Celestial, Common, Ignan, Jistka; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

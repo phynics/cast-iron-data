@@ -30,107 +30,76 @@ abilities = ["18", "11", "16", "11", "12", "15"]
 
 _Jagged bits of metal, armor, and sharp pieces of wire embed the flesh of this towering fiend._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: destruction (30 ft.)
+Initiative: +0
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**aura:** destruction (30 ft.)
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: +9 natural, -1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +5
+Will: +3
+Defensive abilities: barbed defense
+Dr: 5/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Melee: bite +10 (1d8+4), 2 claws +10 (1d6+4 plus bleed 1d4), tail slap +4 (1d8+2 plus bleed 1d4)
+Ranged: 4 shrapnel +5 (1d6+4/19-20)
+Reach: 10
+Space: 10
+Spec Att: penetrating slivers
+Trample: 1d6+6 plus bleed 1d4, DC 17
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect good
+At will: cause fear (DC 13), lesser confusion (DC 13), message, obscuring mist
+Per day: 1/day: crushing despair (DC 16), dispel magic, meld into stone, move earth
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 11, Con 16, Int 11, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 21
+Feats: Power Attack, Weapon Focus (bite), Weapon Focus (claws)
+Skills: Fly +7, Intimidate +11, Knowledge (engineering) +9, Perception +10, Stealth +5
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 natural, -1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +3
-
-**Defensive abilities:** barbed defense
-
-**Dr:** 5/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Melee:** bite +10 (1d8+4), 2 claws +10 (1d6+4 plus bleed 1d4), tail slap +4 (1d8+2 plus bleed 1d4)
-
-**Ranged:** 4 shrapnel +5 (1d6+4/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** penetrating slivers
-
-**Trample:** 1d6+6 plus bleed 1d4, DC 17
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect good
-
-**At will:**
-
-- cause fear (DC 13), lesser confusion (DC 13), message, obscuring mist
-
-**Per day:**
-
-- 1/day: crushing despair (DC 16), dispel magic, meld into stone, move earth
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 16, Int 11, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 21
-
-**Feats:** Power Attack, Weapon Focus (bite), Weapon Focus (claws)
-
-**Skills:** Fly +7, Intimidate +11, Knowledge (engineering) +9, Perception +10, Stealth +5
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or squad (2-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or squad (2-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

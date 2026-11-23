@@ -28,71 +28,59 @@ abilities = ["30", "6", "-", "-", "10", "1"]
 
 _A pile of more than 100,000 coins has been given malevolent life._
 
-**Challenge rating:** 9
-
 **Advanced animated object**
 
-**Type:** construct
+::: statblock
+Challenge rating: 9
+Type: construct
+Size: huge
+Initiative: -2
+Alignment: Lawful evil
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: -2 Dex, +15 natural, -2 size
+Hit points: 111 (13d10+40)
+Fort: +4
+Ref: +2
+Will: +4
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: 2 slam +21 (1d8+10)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 30, Dex 6, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +25
+Combat maneuver defense: 33
+Skills: Perception +2, Stealth +0
+Special qualities: construction points
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** -2 Dex, +15 natural, -2 size
-
-**Hit points:** 111 (13d10+40)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +4
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slam +21 (1d8+10)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 6, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 33
-
-**Skills:** Perception +2, Stealth +0
-
-**Special qualities:** construction points
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or treasury (3-50)
-
-**Treasure:** Other (double or more depending on composition)
+::: statblock
+Environment: any
+Organization: solitary, pair, or treasury (3-50)
+Treasure: Other (double or more depending on composition)
+:::
 
 ### Special Abilities
 

@@ -31,104 +31,71 @@ abilities = ["-", "26", "24", "17", "20", "20"]
 
 **Possession Devil, Greater (Gidim)**
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Incorporeal, Lawful
+Experience points: 51,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 15
+AC modifiers: +5 deflection, +8 Dex, +1 dodge
+Hit points: 187 (15d10+105)
+Fort: +16
+Ref: +19
+Will: +12
+Dr: 10/good
+Resist: acid 10, cold 10
+Sr: 26
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 40 ft. (perfect)
+Melee: 2 claws +19 (1d4+5), bite +19 (1d6+5)
+Spec Att: dread, malevolence
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: greater invisibility
+At will: bleed (DC 15), ghost sound (domain spell) (DC 15), greater teleport, self plus 50 lbs. of objects only, knock (domain spell) (DC 17), levitate (domain spell) (DC 17), major image (domain spell) (DC 18), prestidigitation (domain spell) (DC 15), unseen servant (domain spell) (DC 16)
+Per day: 3/day: animate dead, animate rope (domain spell) (DC 16), bestow curse (DC 19), contagion (DC 19), dancing lights (domain spell) (DC 15), ethereal jaunt, Ethereal Plane to Material Plane and vice versa, gust of wind (domain spell) (DC 17), major creation, plane shift, self only; to Ethereal Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 16), stinking cloud (DC 18), suggestion (DC 18)\
+1/day: summon (level 5, 1d4 [lesser possession devils](ref/monster/devil-possession-devil-lesser-gidim), 40%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
+::: statblock
+Ability scores: Str -, Dex 26, Con 24, Int 17, Wis 20, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 39
+Feats: Alertness, Combat Reflexes, Dodge, Improved Iron Will, Iron Will, Lightning Reflexes, Mobility, Stand Still
+Skills: Acrobatics +26, Bluff +23, Diplomacy +23, Sense Motive +27, Stealth +26
+Languages: Aklo, Common, Infernal
+Special qualities: nourished by negativity, otherworldly
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +8 Dex, +1 dodge
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +16
-
-**Ref:** +19
-
-**Will:** +12
-
-**Dr:** 10/good
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 claws +19 (1d4+5), bite +19 (1d6+5)
-
-**Spec Att:** dread, malevolence
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- greater invisibility
-
-**At will:**
-
-- bleed (DC 15), ghost sound (domain spell) (DC 15), greater teleport, self plus 50 lbs. of objects
-  only, knock (domain spell) (DC 17), levitate (domain spell) (DC 17), major image (domain spell)
-  (DC 18), prestidigitation (domain spell) (DC 15), unseen servant (domain spell) (DC 16)
-
-**Per day:**
-
-- 3/day: animate dead, animate rope (domain spell) (DC 16), bestow curse (DC 19), contagion (DC 19),
-  dancing lights (domain spell) (DC 15), ethereal jaunt, Ethereal Plane to Material Plane and vice
-  versa, gust of wind (domain spell) (DC 17), major creation, plane shift, self only; to Ethereal
-  Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 16), stinking cloud (DC 18),
-  suggestion (DC 18)
-- 1/day: summon (level 5, 1d4
-  [lesser possession devils](ref/monster/devil-possession-devil-lesser-gidim), 40%)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 26, Con 24, Int 17, Wis 20, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 39
-
-**Feats:** Alertness, Combat Reflexes, Dodge, Improved Iron Will, Iron Will, Lightning Reflexes,
-Mobility, Stand Still
-
-**Skills:** Acrobatics +26, Bluff +23, Diplomacy +23, Sense Motive +27, Stealth +26
-
-**Languages:** Aklo, Common, Infernal
-
-**Special qualities:** nourished by negativity, otherworldly
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell) or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Hell](ref/rule/hell) or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

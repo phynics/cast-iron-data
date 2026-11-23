@@ -33,105 +33,75 @@ abilities = ["12", "23", "26", "15", "22", "21"]
 _This moth-winged woman has a delicate appearance, though her features are somewhat masked by a haze
 of shimmering dust._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic good
+Initiative: +6
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Good
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 27
+Touch: 22
+Flat-footed: 21
+AC modifiers: +6 deflection, +6 Dex, +5 natural
+Hit points: 162 (12d10+96)
+Fort: +12
+Ref: +14
+Will: +16
+Defensive abilities: stardust
+Dr: 10/evil
+Immune: cold
+Resist: electricity 10, fire 10
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: +1 returning starknife +19/+14/+9 (1d4+2/19-20/×3)
+Ranged: +1 returning starknife +19/+14/+9 (1d4+2/19-20/×3)
+Sneak: +3d6
+Spec Att: dream powder
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: dancing lights, dream, restful sleep
+Per day: 3/day: greater teleport, self plus 50 lbs. of gear only, glitterdust (DC 17), dispel evil, plane shift (DC 22)\
+1/day: cloak of dreams (DC 21), confusion (DC 19), dream travel
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 12, Dex 23, Con 26, Int 15, Wis 22, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +13
+Combat maneuver defense: 35
+Feats: Acrobatic, Flyby Attack, Improved Critical (starknife), Iron Will, Lucid Dreamer, Weapon Finesse
+Skills: Acrobatics +22, Fly +25, Knowledge (geography) +14, Knowledge (planes) +11, Perception +21, Perform (dance) +17, Sense Motive +21, Stealth +21
+Languages: Celestial, Common
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 22
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 deflection, +6 Dex, +5 natural
-
-**Hit points:** 162 (12d10+96)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +16
-
-**Defensive abilities:** stardust
-
-**Dr:** 10/evil
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** +1 returning starknife +19/+14/+9 (1d4+2/19-20/×3)
-
-**Ranged:** +1 returning starknife +19/+14/+9 (1d4+2/19-20/×3)
-
-**Sneak:** +3d6
-
-**Spec Att:** dream powder
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- dancing lights, dream, restful sleep
-
-**Per day:**
-
-- 3/day: greater teleport, self plus 50 lbs. of gear only, glitterdust (DC 17), dispel evil, plane
-  shift (DC 22)
-- 1/day: cloak of dreams (DC 21), confusion (DC 19), dream travel
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 23, Con 26, Int 15, Wis 22, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 35
-
-**Feats:** Acrobatic, Flyby Attack, Improved Critical (starknife), Iron Will, Lucid Dreamer, Weapon
-Finesse
-
-**Skills:** Acrobatics +22, Fly +25, Knowledge (geography) +14, Knowledge (planes) +11, Perception
-+21, Perform (dance) +17, Sense Motive +21, Stealth +21
-
-**Languages:** Celestial, Common
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Cynosure](ref/rule/cynosure), [Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard (+1 returning starknife); other treasure
+::: statblock
+Environment: any ([Cynosure](ref/rule/cynosure), [Elysium](ref/rule/elysium))
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard (+1 returning starknife); other treasure
+:::
 
 ### Special Abilities
 

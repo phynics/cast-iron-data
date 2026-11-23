@@ -29,81 +29,63 @@ abilities = ["23", "12", "21", "7", "14", "12"]
 _This slithering, multilegged blue reptile has a fearsome head crowned with two large, curling
 horns._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 20
+AC modifiers: +1 Dex, +12 natural, -2 size
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +8
+Will: +5
+Immune: electricity
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Br Weap: 20-foot line, 7d6 electricity damage, Reflex DC 20 for half, usable every 1d4 rounds
+Constrict: 2d6+9
+Melee: bite +15 (2d6+9 plus [grab](ref/umr/grab))
+Rake: 6 claws +14, 1d4+6
+Reach: 10
+Space: 15
+Swallow: 2d8+9 bludgeoning damage, AC 16, 10 hp
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 12, Con 21, Int 7, Wis 14, Cha 12
+Base attack bonus: +10
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 29 (can't be tripped)
+Feats: Alertness, Cleave, Great Cleave, Power Attack, Weapon Focus (bite)
+Skills: Climb +14, Perception +8, Stealth +5
+Languages: Common
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +12 natural, -2 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +5
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Br Weap:** 20-foot line, 7d6 electricity damage, Reflex DC 20 for half, usable every 1d4 rounds
-
-**Constrict:** 2d6+9
-
-**Melee:** bite +15 (2d6+9 plus [grab](ref/umr/grab))
-
-**Rake:** 6 claws +14, 1d4+6
-
-**Reach:** 10
-
-**Space:** 15
-
-**Swallow:** 2d8+9 bludgeoning damage, AC 16, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 21, Int 7, Wis 14, Cha 12
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 29 (can't be tripped)
-
-**Feats:** Alertness, Cleave, Great Cleave, Power Attack, Weapon Focus (bite)
-
-**Skills:** Climb +14, Perception +8, Stealth +5
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** warm hills and deserts
-
-**Organization:** solitary or pair
-
-**Treasure:** Double
+::: statblock
+Environment: warm hills and deserts
+Organization: solitary or pair
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -33,79 +33,62 @@ abilities = ["26", "14", "-", "7", "13", "15"]
 _This animated husk from an enormous spider seems filled with thousands of living spiders that fall
 from its body like drops of blood._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: infestation (5 ft., 1d6 plus poison)
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**aura:** infestation (5 ft., 1d6 plus poison)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 71 (11d8+22)
+Fort: +5
+Ref: +5
+Will: +8
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +15 (2d8+12)
+Reach: 10
+Space: 10
+Web: +9 ranged, DC 15, 11 hp
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 14, Con -, Int 7, Wis 13, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +17
+Combat maneuver defense: 29 (41 vs. trip)
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Improved Initiative, Power Attack, Vital Strike
+Skills: Climb +16, Perception +15, Stealth +16
+Racial Modifiers: +4 Stealth
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 71 (11d8+22)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +8
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +15 (2d8+12)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Web:** +9 ranged, DC 15, 11 hp
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 14, Con -, Int 7, Wis 13, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 29 (41 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Improved Initiative, Power Attack, Vital Strike
-
-**Skills:** Climb +16, Perception +15, Stealth +16
-
-**Racial Modifiers:** +4 Stealth
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or nest (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

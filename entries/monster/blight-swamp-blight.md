@@ -32,101 +32,73 @@ abilities = ["34", "30", "31", "17", "23", "24"]
 _A cloud of mosquitoes churns around this quivering blob, its body studded with red eyes and its
 five tentacles tipped with stingers._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: mosquitoes (10 ft., DC 26)
+blindsight: 120
+Initiative: +14
+Alignment: Lawful evil
+Size: medium
+Type: ooze
+Perception: +25
+Subtype: Aquatic, Blight
+Experience points: 102,400
+:::
 
-**aura:** mosquitoes (10 ft., DC 26)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 32
+Touch: 20
+Flat-footed: 22
+AC modifiers: +10 Dex, +12 natural
+Hit points: 275 (19d8+190)
+Fort: +18
+Ref: +18
+Will: +14
+Defensive abilities: rejuvenation
+Fh: 15
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** +14
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: 5 stings +26 (1d8+12/19-20 plus toxic acid)
+Reach: 15
+Space: 5
+Spec Att: unquiet bog
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+Per day: 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21), insect plague
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str 34, Dex 30, Con 31, Int 17, Wis 23, Cha 24
+Base attack bonus: +14
+Combat maneuver bonus: +26 (+30 trip)
+Combat maneuver defense: 46 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Great Fortitude, Greater Trip, Improved Critical (sting), Improved Initiative, Improved Trip, Iron Will, Lightning Reflexes, Power Attack
+Skills: Intimidate +26, Knowledge (geography) +22, Perception +25, Stealth +29 (+37 in swamps), Swim +42
+Racial Modifiers: +8 Stealth in swamps
+Languages: Aklo, Aquan; domain [telepathy](ref/umr/telepathy)
+Special qualities: [amphibious](ref/umr/amphibious), cursed domain, [favored terrain](ref/ability/favored-terrain) (swamp)
+:::
 
-**Subtype:** Aquatic, Blight
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 20
-
-**Flat-footed:** 22
-
-**AC modifiers:** +10 Dex, +12 natural
-
-**Hit points:** 275 (19d8+190)
-
-**Fort:** +18
-
-**Ref:** +18
-
-**Will:** +14
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 15
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** 5 stings +26 (1d8+12/19-20 plus toxic acid)
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** unquiet bog
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**Per day:**
-
-- 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only,
-  DC 26), greater curse terrain, hallucinatory terrain (DC 21), insect plague
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 30, Con 31, Int 17, Wis 23, Cha 24
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26 (+30 trip)
-
-**Combat maneuver defense:** 46 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Great Fortitude, Greater Trip, Improved Critical
-(sting), Improved Initiative, Improved Trip, Iron Will, Lightning Reflexes, Power Attack
-
-**Skills:** Intimidate +26, Knowledge (geography) +22, Perception +25, Stealth +29 (+37 in swamps),
-Swim +42
-
-**Racial Modifiers:** +8 Stealth in swamps
-
-**Languages:** Aklo, Aquan; domain [telepathy](ref/umr/telepathy)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), cursed domain,
-[favored terrain](ref/ability/favored-terrain) (swamp)
-
-**Ecology**
-
-**Environment:** any swamps
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamps
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

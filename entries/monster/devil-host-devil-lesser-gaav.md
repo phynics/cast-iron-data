@@ -35,88 +35,68 @@ clawed arms work together to slash the air with a vicious-looking spear._
 
 **Host Devil, Lesser (Gaav)**
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft., See in darkness
+Size: small
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +7
+Will: +0
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 5 ft., fly 60 ft. (good)
+Melee: mwk spear +7 (1d8+1), 2 claws +6 (1d4+1)
+Spec Att: noxious breath, summon devil
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+At will: dancing lights, detect magic, greater teleport, self plus 50 lbs. of objects only, mage hand, ventriloquism (DC 10)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 7, Wis 9, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 18
+Feats: Dodge, Hover
+Skills: Acrobatics +9, Escape Artist +9, Fly +11, Perception +6, Stealth +13
+Languages: Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: superior grappler, shared senses, swarming
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +0
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (good)
-
-**Melee:** mwk spear +7 (1d8+1), 2 claws +6 (1d4+1)
-
-**Spec Att:** noxious breath, summon devil
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**At will:**
-
-- dancing lights, detect magic, greater teleport, self plus 50 lbs. of objects only, mage hand,
-  ventriloquism (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 7, Wis 9, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Hover
-
-**Skills:** Acrobatics +9, Escape Artist +9, Fly +11, Perception +6, Stealth +13
-
-**Languages:** Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** superior grappler, shared senses, swarming
-
-**Ecology**
-
-**Environment:** [Hell](ref/rule/hell)
-
-**Organization:** solitary or flock (2d4)
-
-**Treasure:** Standard (S mwk spear); other treasure
+::: statblock
+Environment: [Hell](ref/rule/hell)
+Organization: solitary or flock (2d4)
+Treasure: Standard (S mwk spear); other treasure
+:::
 
 ### Special Abilities
 

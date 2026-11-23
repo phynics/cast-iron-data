@@ -35,110 +35,76 @@ abilities = ["24", "15", "23", "12", "15", "14"]
 _Bristling with spiny ridges, coral horns, and needle-sharp teeth, this menacing biped seems to have
 emerged from some poisoned sea._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Aquatic, Div, Evil, Extraplanar
+Experience points: 9,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 26
+Touch: 11
+Flat-footed: 24
+AC modifiers: +2 Dex, +15 natural, -1 size
+Hit points: 161 (14d10+84)
+Fort: +10
+Ref: +13
+Will: +11
+Defensive abilities: rough hide
+Dr: 10/cold iron and good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 21
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 80 ft.
+Melee: bite +21 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear +20/+15/+10 (2d6+10/×3 plus poison), bite +19 (1d8+3/19-20), sting +18 (1d6+3 plus poison)
+Ranged: spear +15 (2d6+7/×3 plus poison)
+Reach: 10
+Space: 10
+Spec Att: boiling sea
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+Constant: detect good, detect magic
+At will: control water, curse water, deeper darkness, dimension door
+Per day: 3/day: hallucinatory terrain (DC 16), stinking cloud (DC 15), summon (level 6, 1 [pairaka](ref/monster/div-pairaka) 60%), quench (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Aquatic, Div, Evil, Extraplanar
+::: statblock
+Ability scores: Str 24, Dex 15, Con 23, Int 12, Wis 15, Cha 14
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 34
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite)
+Skills: Bluff +19, Knowledge (geography, planes) +18, Perception +19, Swim +32
+Languages: Abyssal, Aquan, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +2 Dex, +15 natural, -1 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +11
-
-**Defensive abilities:** rough hide
-
-**Dr:** 10/cold iron and good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., swim 80 ft.
-
-**Melee:** bite +21 (1d8+7/19-20), 2 claws +20 (1d6+7), sting +20 (1d6+7 plus poison) or spear
-+20/+15/+10 (2d6+10/×3 plus poison), bite +19 (1d8+3/19-20), sting +18 (1d6+3 plus poison)
-
-**Ranged:** spear +15 (2d6+7/×3 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** boiling sea
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- control water, curse water, deeper darkness, dimension door
-
-**Per day:**
-
-- 3/day: hallucinatory terrain (DC 16), stinking cloud (DC 15), summon (level 6, 1
-  [pairaka](ref/monster/div-pairaka) 60%), quench (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con 23, Int 12, Wis 15, Cha 14
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes,
-Multiattack, Power Attack, Weapon Focus (bite)
-
-**Skills:** Bluff +19, Knowledge (geography, planes) +18, Perception +19, Swim +32
-
-**Languages:** Abyssal, Aquan, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

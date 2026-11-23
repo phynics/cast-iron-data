@@ -32,110 +32,75 @@ _This winged abomination is a horrid mix of demonic and angelic features, as if 
 carelessly fused into one. Its fanged, inhuman face is frozen in permanent contempt, while a
 beautiful visage with an expression of horror bulges from the back of its skull._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +27
+Senses: All-around vision, Darkvision 60 ft., Detect good
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 25
+Touch: 18
+Flat-footed: 17
+AC modifiers: +7 Dex, +1 dodge, +7 natural
+Hit points: 148 (11d10+88)
+Fort: +11
+Ref: +14
+Will: +14
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: +1 longsword +19/+14/+9 (1d8+8/19-20), 2 claws +14 (1d4+3)
+Spec Att: blasphemous influence, lingering doubt, merge with host
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: detect good, misdirection
+At will: detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 20)
+Per day: 3/day: chaos hammer (DC 19), desecrate, greater invisibility, major image (DC 18), suggestion (DC 18)\
+1/day: blasphemy (DC 22), scrying (DC 19), summon (level 4, 1 succubus or 1 incubus 65%)
+Per week: unhallow, only one such effect can be active at a time
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Detect good
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 25, Dex 25, Con 26, Int 18, Wis 20, Cha 21
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 36
+Feats: Combat Reflexes, Deceitful, Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
+Skills: Bluff +23, Diplomacy +19, Disguise +14, Sense Motive +19, Sleight of Hand +18, Stealth +21, Use Magic Device +19
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Large humanoid; [alter self](ref/spell/alter-self)), subtle magic, trophy taker
+:::
 
-**Experience points:** 12,800
+### Ecology {#stat-ecology}
 
-**Armor class:** 25
-
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +1 dodge, +7 natural
-
-**Hit points:** 148 (11d10+88)
-
-**Fort:** +11
-
-**Ref:** +14
-
-**Will:** +14
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** +1 longsword +19/+14/+9 (1d8+8/19-20), 2 claws +14 (1d4+3)
-
-**Spec Att:** blasphemous influence, lingering doubt, merge with host
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect good, misdirection
-
-**At will:**
-
-- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: chaos hammer (DC 19), desecrate, greater invisibility, major image (DC 18), suggestion (DC
-  18)
-- 1/day: blasphemy (DC 22), scrying (DC 19), summon (level 4, 1 succubus or 1 incubus 65%)
-
-**Per week:**
-
-- unhallow, only one such effect can be active at a time
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 25, Con 26, Int 18, Wis 20, Cha 21
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Reflexes, Deceitful, Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
-
-**Skills:** Bluff +23, Diplomacy +19, Disguise +14, Sense Motive +19, Sleight of Hand +18, Stealth
-+21, Use Magic Device +19
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Large humanoid;
-[alter self](ref/spell/alter-self)), subtle magic, trophy taker
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or cabal (1 plus 1-2 [succubi](ref/monster/demon-succubus) and 1-3
-[incubi](ref/monster/demon-incubus))
-
-**Treasure:** Standard (+1 longsword); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or cabal (1 plus 1-2 [succubi](ref/monster/demon-succubus) and 1-3 [incubi](ref/monster/demon-incubus))
+Treasure: Standard (+1 longsword); other treasure
+:::
 
 ### Special Abilities
 

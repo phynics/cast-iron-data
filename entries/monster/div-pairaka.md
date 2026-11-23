@@ -33,98 +33,71 @@ abilities = ["17", "20", "16", "14", "18", "24"]
 _Blue-skinned and draped in revealing attire, this humanoid fiend has a sultry gaze suggesting all
 manner of debased pleasures._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Div, Evil, Extraplanar, Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 18
+AC modifiers: +5 Dex, +8 natural
+Hit points: 76 (9d10+27)
+Fort: +6
+Ref: +11
+Will: +10
+Dr: 10/cold iron or good
+Immune: fire, poison, disease
+Resist: acid 10, electricity 10
+Sr: 22
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Melee: 2 claws +14 (1d6+3 plus disease)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +19
+Constant: detect good, detect magic
+At will: charm monster (DC 21), dimension door, self plus 50 lbs. of objects only, misdirection (DC 19)
+Per day: 1/day: insect plague, summon (level 3, 1d4 [dorus](ref/monster/div-doru) 50%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 17, Dex 20, Con 16, Int 14, Wis 18, Cha 24
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Deceitful, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
+Skills: Bluff +20, Diplomacy +18, Disguise +18, Sense Motive +13, Stealth +17
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any Small or Medium animal or humanoid; [polymorph](ref/spell/polymorph))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +8 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +10
-
-**Dr:** 10/cold iron or good
-
-**Immune:** fire, poison, disease
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Melee:** 2 claws +14 (1d6+3 plus disease)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- charm monster (DC 21), dimension door, self plus 50 lbs. of objects only, misdirection (DC 19)
-
-**Per day:**
-
-- 1/day: insect plague, summon (level 3, 1d4 [dorus](ref/monster/div-doru) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 16, Int 14, Wis 18, Cha 24
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Deceitful, Flyby Attack, Hover, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +20, Diplomacy +18, Disguise +18, Sense Motive +13, Stealth +17
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Small or Medium animal or humanoid;
-[polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

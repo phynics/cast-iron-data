@@ -30,112 +30,77 @@ abilities = ["25", "16", "23", "13", "18", "22"]
 _This muscular fiend has two vertically mirrored faces, four arms, and a quartet of sinister
 punching daggers._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: elusive (75 ft.)
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Scent, Scent of carnage, Smoke sight
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 51,200
+:::
 
-**aura:** elusive (75 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 27
+AC modifiers: +3 Dex, +18 natural, -1 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +11
+Will: +15; +2 vs. enchantment spells
+Dr: 10/good
+Immune: curse effects, disease, poison
+Regen: 10 (good spells, good weapons)
+Resist: acid 10, electricity 10
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft.
+Melee: +1 punching dagger +23/+18/+13/+8 (1d6+8/19-20/×3), 3 +1 punching daggers +23 (1d6+4/19-20/×3), bite +19 (2d6+3) or bite +24 (2d6+7), 4 slams +24 (1d6+7)
+Reach: 10
+Rend: 2 slams or 2 punching daggers, 4d6 bleed and punitive penance
+Space: 10
+Spec Att: destructive blades, punitive penance, repentant rain
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+At will: gaseous form
+Per day: 3/day: chain lightning (DC 22), cloudkill (DC 21), cone of cold (DC 21), dimension door, fire snake (DC 21), greater dispel magic, wall of fire\
+1/day: control water, control weather, greater shout (DC 24), summon (level 6, 1d3 [aghasuras](ref/monster/asura-aghasura), 40%)
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent, Scent of carnage, Smoke sight
+::: statblock
+Ability scores: Str 25, Dex 16, Con 23, Int 13, Wis 18, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +26
+Combat maneuver defense: 39
+Feats: Combat Reflexes, Critical Focus, Improved Critical (punching dagger), Improved Initiative, Lightning Reflexes, Multiweapon Fighting, Nimble Moves, Power Attack, Staggering Critical
+Skills: Escape Artist +9, Intimidate +27, Knowledge (local, planes) +13, Perception +29, Sense Motive +25, Spellcraft +19, Use Magic Device +27
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +3 Dex, +18 natural, -1 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +15; +2 vs. enchantment spells
-
-**Dr:** 10/good
-
-**Immune:** curse effects, disease, poison
-
-**Regen:** 10 (good spells, good weapons)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 punching dagger +23/+18/+13/+8 (1d6+8/19-20/×3), 3 +1 punching daggers +23
-(1d6+4/19-20/×3), bite +19 (2d6+3) or bite +24 (2d6+7), 4 slams +24 (1d6+7)
-
-**Reach:** 10
-
-**Rend:** 2 slams or 2 punching daggers, 4d6 bleed and punitive penance
-
-**Space:** 10
-
-**Spec Att:** destructive blades, punitive penance, repentant rain
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**At will:**
-
-- gaseous form
-
-**Per day:**
-
-- 3/day: chain lightning (DC 22), cloudkill (DC 21), cone of cold (DC 21), dimension door, fire
-  snake (DC 21), greater dispel magic, wall of fire
-- 1/day: control water, control weather, greater shout (DC 24), summon (level 6, 1d3
-  [aghasuras](ref/monster/asura-aghasura), 40%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 23, Int 13, Wis 18, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 39
-
-**Feats:** Combat Reflexes, Critical Focus, Improved Critical (punching dagger), Improved
-Initiative, Lightning Reflexes, Multiweapon Fighting, Nimble Moves, Power Attack, Staggering
-Critical
-
-**Skills:** Escape Artist +9, Intimidate +27, Knowledge (local, planes) +13, Perception +29, Sense
-Motive +25, Spellcraft +19, Use Magic Device +27
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Standard; 4 +1 [punching daggers](ref/eq-weapon/punching-dagger), other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Standard; 4 +1 [punching daggers](ref/eq-weapon/punching-dagger), other treasure
+:::
 
 ### Special Abilities
 

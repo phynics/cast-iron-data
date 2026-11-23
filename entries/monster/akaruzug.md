@@ -34,99 +34,72 @@ abilities = ["26", "17", "-", "15", "18", "19"]
 _This stony guardian has been sculpted in the shape of a grim, horned angel, and a crucified corpse
 has been affixed to its chest._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: unhallow (40 ft.)
+Type: construct
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**aura:** unhallow (40 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 30
+Touch: 16
+Flat-footed: 27
+AC modifiers: +4 deflection, +3 Dex, +14 natural, -1 size
+Hit points: 220 (20d10+110)
+Fort: +8
+Ref: +11
+Will: +10
+Defensive abilities: soul shield
+Dr: 15/bludgeoning and good
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 2 claws +27 (2d6+8/19-20), gore +27 (2d8+8/19-20), 2 wings +22 (1d8+4)
+Reach: 10
+Space: 10
+Spec Att: soul steel
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: !_[unhallow](ref/spell/unhallow)_
+Per day: 1/day: soul slave
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 17, Con -, Int 15, Wis 18, Cha 19
+Base attack bonus: +20
+Combat maneuver bonus: +29
+Combat maneuver defense: 46
+Feats: Ability Focus (soul steal), Blinding Critical, Combat Reflexes, Critical Focus, Great Fortitude, Improved Critical (claws), Improved Critical (gore), Improved Initiative, Lightning Reflexes, Power Attack
+Skills: Fly +32, Knowledge (religion) +22, Perception +24, Sense Motive +24
+Languages: Infernal
+Special qualities: soul engine
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 16
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 deflection, +3 Dex, +14 natural, -1 size
-
-**Hit points:** 220 (20d10+110)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +10
-
-**Defensive abilities:** soul shield
-
-**Dr:** 15/bludgeoning and good
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 2 claws +27 (2d6+8/19-20), gore +27 (2d8+8/19-20), 2 wings +22 (1d8+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** soul steel
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- !_[unhallow](ref/spell/unhallow)_
-
-**Per day:**
-
-- 1/day: soul slave
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 17, Con -, Int 15, Wis 18, Cha 19
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 46
-
-**Feats:** Ability Focus (soul steal), Blinding Critical, Combat Reflexes, Critical Focus, Great
-Fortitude, Improved Critical (claws), Improved Critical (gore), Improved Initiative, Lightning
-Reflexes, Power Attack
-
-**Skills:** Fly +32, Knowledge (religion) +22, Perception +24, Sense Motive +24
-
-**Languages:** Infernal
-
-**Special qualities:** soul engine
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ruins
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

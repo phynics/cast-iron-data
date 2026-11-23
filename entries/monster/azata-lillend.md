@@ -30,112 +30,80 @@ abilities = ["20", "17", "21", "14", "16", "19"]
 _This creature has the body of a seductive, winged elven woman from the waist up and that of a snake
 from the waist down._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic good
+Initiative: +3
+Size: large
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 73 (7d10+35)
+Fort: +7
+Ref: +10
+Will: +10
+Immune: electricity, petrification, poison
+Resist: cold 10, fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 70 ft. (average)
+Constrict: 2d6+5
+Melee: +1 longsword +12/+7 (2d6+8/19-20), tail slap +6 (2d6+2 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: bardic performance (20 rounds/day)
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Per day: 3/day: darkness, hallucinatory terrain (DC 18), knock, light\
+1/day: charm person (DC 15), speak with animals, speak with plants
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 7
+3rd-level spells: 2/day: charm monster (DC 17), cure serious wounds
+2nd-level spells: 4/day: hold person (DC 16), invisibility, sound burst (DC 16), suggestion (DC 16)
+1st-level spells: 5/day: charm person (DC 15), cure light wounds, identify, sleep (DC 15)
+Cantrips: At will: dancing lights, daze (DC 14), detect magic, lullaby (DC 14), mage hand, read magic
+:::
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 20, Dex 17, Con 21, Int 14, Wis 16, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Combat Casting, Hover, Iron Will, Lightning Reflexes
+Skills: Bluff +14, Diplomacy +14, Fly +11, Knowledge (nature) +9, Perception +13
+Racial Modifiers: +4 Survival
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 73 (7d10+35)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +10
-
-**Immune:** electricity, petrification, poison
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 70 ft. (average)
-
-**Constrict:** 2d6+5
-
-**Melee:** +1 longsword +12/+7 (2d6+8/19-20), tail slap +6 (2d6+2 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bardic performance (20 rounds/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Per day:**
-
-- 3/day: darkness, hallucinatory terrain (DC 18), knock, light
-- 1/day: charm person (DC 15), speak with animals, speak with plants
-
-**Spells Known**
-
-**Caster level:** 7
-
-**3rd-level spells:**
-
-- 2/day: charm monster (DC 17), cure serious wounds
-
-**2nd-level spells:**
-
-- 4/day: hold person (DC 16), invisibility, sound burst (DC 16), suggestion (DC 16)
-
-**1st-level spells:**
-
-- 5/day: charm person (DC 15), cure light wounds, identify, sleep (DC 15)
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 14), detect magic, lullaby (DC 14), mage hand, read magic
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 21, Int 14, Wis 16, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Combat Casting, Hover, Iron Will, Lightning Reflexes
-
-**Skills:** Bluff +14, Diplomacy +14, Fly +11, Knowledge (nature) +9, Perception +13
-
-**Racial Modifiers:** +4 Survival
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or choir (3-6)
-
-**Treasure:** Standard (+1 longsword); [masterwork harp](ref/eq-misc/musical-instrument-masterwork)
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or choir (3-6)
+Treasure: Standard (+1 longsword); [masterwork harp](ref/eq-misc/musical-instrument-masterwork)
+:::
 
 ### Special Abilities
 

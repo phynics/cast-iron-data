@@ -33,101 +33,74 @@ abilities = ["20", "17", "17", "13", "16", "16"]
 _A pair of spiked fiends, interwoven through bodily cavities and impaling limbs, spin in a dance
 with their twin curved knives._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: elusive (30 ft.)
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +19
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 3,200
+:::
 
-**aura:** elusive (30 ft.)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +6 natural
+Hit points: 76 (9d10+27)
+Fort: +6
+Ref: +11
+Will: +9; dual mind, +2 vs. enchantments
+Dr: 5/good
+Immune: curse effects, disease, [flanking](ref/rule/flanking), poison
+Regen: 5 (good weapons, good spells)
+Resist: acid 10, electricity 10
+Sr: 18
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: 2 mwk kukris +15/+10 (1d4+5/18-20), 2 claws +9 (1d4+2)
+Spec Att: dance of disaster
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+At will: feather fall, greater teleport, self plus 50 lbs. of objects only, spider climb
+Per day: 3/day: blink, blur, mirror image, spike growth\
+1/day: summon (level 4, 1 adhukait 35%)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 17, Con 17, Int 13, Wis 16, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 28
+Feats: Combat Reflexes, Dodge, Lightning Reflexes, Mobility, Nimble Moves
+Skills: Acrobatics +15 (+19 when jumping), Bluff +15, Escape Artist +21, Intimidate +11, Knowledge (planes) +9, Perception +19, Perform (dance) +14, Stealth +15
+Racial Modifiers: +4 Acrobatics when jumping, +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +9; dual mind, +2 vs. enchantments
-
-**Dr:** 5/good
-
-**Immune:** curse effects, disease, [flanking](ref/rule/flanking), poison
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 mwk kukris +15/+10 (1d4+5/18-20), 2 claws +9 (1d4+2)
-
-**Spec Att:** dance of disaster
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**At will:**
-
-- feather fall, greater teleport, self plus 50 lbs. of objects only, spider climb
-
-**Per day:**
-
-- 3/day: blink, blur, mirror image, spike growth
-- 1/day: summon (level 4, 1 adhukait 35%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 17, Int 13, Wis 16, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Reflexes, Dodge, Lightning Reflexes, Mobility, Nimble Moves
-
-**Skills:** Acrobatics +15 (+19 when jumping), Bluff +15, Escape Artist +21, Intimidate +11,
-Knowledge (planes) +9, Perception +19, Perform (dance) +14, Stealth +15
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or band (3-12)
-
-**Treasure:** Standard (2 mwk kukris); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or band (3-12)
+Treasure: Standard (2 mwk kukris); other treasure
+:::
 
 ### Special Abilities
 

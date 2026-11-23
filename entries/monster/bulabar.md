@@ -31,94 +31,73 @@ abilities = ["6", "13", "12", "15", "10", "11"]
 _This small blue beetle stands upright on its hindmost legs and wears a bandolier full of tools and
 pouches._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +1
+Alignment: Lawful neutral
+Perception: +4
+Senses: Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 15
+AC modifiers: +1 Dex, +3 natural, +2 size
+Hit points: 7 (1d6+4)
+Fort: +1
+Ref: +3
+Will: +2
+Dr: 5/cold iron
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: spear +0 (1d4-2/×3) or 2 claws +3 (1d2-2)
+Ranged: light crossbow +3 (1d4/19-20)
+Reach: 0
+Space: 2-1/2
+Spec Att: disassemble (DC 12)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +1
+At will: mending
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +3 natural, +2 size
-
-**Hit points:** 7 (1d6+4)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** spear +0 (1d4-2/×3) or 2 claws +3 (1d2-2)
-
-**Ranged:** light crossbow +3 (1d4/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** disassemble (DC 12)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +1
-
-**At will:**
-
-- mending
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 13, Con 12, Int 15, Wis 10, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 7
-
-**Feats:** Ability Focus (disassemble), Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Appraise +3, Climb +2, Craft (alchemy) +6, Disable Device +10, Knowledge (engineering)
-+7, Perception +4, Stealth +13, Use Magic Device +4
-
-**Racial Modifiers:** +8 Disable Device, +4 Knowledge (engineering)
-
-**Languages:** Common, First Speech, Gm
+::: statblock
+Ability scores: Str 6, Dex 13, Con 12, Int 15, Wis 10, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 7
+Feats: Ability Focus (disassemble), Toughness^B^, Weapon Finesse^B^
+Skills: Appraise +3, Climb +2, Craft (alchemy) +6, Disable Device +10, Knowledge (engineering) +7, Perception +4, Stealth +13, Use Magic Device +4
+Racial Modifiers: +8 Disable Device, +4 Knowledge (engineering)
+Languages: Common, First Speech, Gm
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any (First World)
-
-**Organization:** solitary, pair, or team (3-10)
-
-**Treasure:** Standard (light crossbow with 20 bolts, spear)
+::: statblock
+Environment: any (First World)
+Organization: solitary, pair, or team (3-10)
+Treasure: Standard (light crossbow with 20 bolts, spear)
+:::
 
 ### Special Abilities
 

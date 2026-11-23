@@ -29,69 +29,57 @@ abilities = ["15", "19", "15", "-", "10", "2"]
 _Black and yellow stripes cover this winged insect's bulbous abdomen, which ends in a dagger-sized
 stinger._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +6
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft., burrow 10 ft., fly 40 ft. (average)
+Melee: bite +7 (1d6+2), sting +7 (1d4+2 plus poison)
+Spec Att: implant, poison
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 15, Dex 19, Con 15, Int -, Wis 10, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (27 vs. trip)
+Skills: Fly +6, Perception +4
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft., fly 40 ft. (average)
-
-**Melee:** bite +7 (1d6+2), sting +7 (1d4+2 plus poison)
-
-**Spec Att:** implant, poison
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 19, Con 15, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (27 vs. trip)
-
-**Skills:** Fly +6, Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** warm desert
-
-**Organization:** solitary or hive (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm desert
+Organization: solitary or hive (2-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

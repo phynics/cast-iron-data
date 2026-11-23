@@ -29,96 +29,72 @@ abilities = ["17", "14", "15", "8", "5", "6"]
 _This goat-headed humanoid is covered in a mangy gray hide that only partly covers its gaunt but
 muscled frame._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +7 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +3
+Will: +3
+Dr: 5/cold iron or good
+Immune: disease, electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk halberd +10 (1d10+4/×3 plus disease), gore +3 (1d6+1) or gore +8 (1d6+4)
+Pow Ch: gore, 3d6+4
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +4
+Constant: see invisibility, tongues
+Per day: 3/day: arcane lock, expeditious retreat, protection from good\
+1/day: summon (level 2, 1d3 schirs 20%)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 17, Dex 14, Con 15, Int 8, Wis 5, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Iron Will, Power Attack, Weapon Focus (halberd)
+Skills: Acrobatics +10 (+18 jumping), Climb +11, Intimidate +6, Perception +13
+Racial Modifiers: +8 Acrobatics when jumping, +8 Perception
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +7 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +3
-
-**Dr:** 5/cold iron or good
-
-**Immune:** disease, electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk halberd +10 (1d10+4/×3 plus disease), gore +3 (1d6+1) or gore +8 (1d6+4)
-
-**Pow Ch:** gore, 3d6+4
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +4
-
-**Constant:**
-
-- see invisibility, tongues
-
-**Per day:**
-
-- 3/day: arcane lock, expeditious retreat, protection from good
-- 1/day: summon (level 2, 1d3 schirs 20%)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 15, Int 8, Wis 5, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Iron Will, Power Attack, Weapon Focus (halberd)
-
-**Skills:** Acrobatics +10 (+18 jumping), Climb +11, Intimidate +6, Perception +13
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +8 Perception
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or pack (2-8)
-
-**Treasure:** Standard (mwk halberd); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or pack (2-8)
+Treasure: Standard (mwk halberd); other treasure
+:::
 
 ### Special Abilities
 

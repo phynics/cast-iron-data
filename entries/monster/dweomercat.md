@@ -28,98 +28,71 @@ special_qualities = "spell link"
 abilities = ["15", "23", "16", "13", "16", "16"]
 +++
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Initiative: +10
+Type: Magical beast
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft., Scent
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 85 (10d10+30)
+Fort: +10
+Ref: +13
+Will: +6
+Dr: 5/magic
+Sr: 19
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +16 (1d4+2), bite +16 (1d6+2)
+Pounce: present
+Rake: 2 claws +11, 1d4+2
+Spec Att: dweomer leap
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Constant: detect magic
+At will: lesser globe of invulnerability, dispel magic
+Per day: 3/day: dimension door, self only, antimagic field
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 15, Dex 23, Con 16, Int 13, Wis 16, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Finesse
+Skills: Climb +6, Knowledge (arcana) +11, Perception +16, Stealth +19
+Racial Modifiers: +4 Climb
+Languages: Common, Sylvan
+Special qualities: spell link
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +6
-
-**Dr:** 5/magic
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +16 (1d4+2), bite +16 (1d6+2)
-
-**Pounce:** present
-
-**Rake:** 2 claws +11, 1d4+2
-
-**Spec Att:** dweomer leap
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- lesser globe of invulnerability, dispel magic
-
-**Per day:**
-
-- 3/day: dimension door, self only, antimagic field
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 23, Con 16, Int 13, Wis 16, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Finesse
-
-**Skills:** Climb +6, Knowledge (arcana) +11, Perception +16, Stealth +19
-
-**Racial Modifiers:** +4 Climb
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** spell link
-
-**Ecology**
-
-**Environment:** any forest (First World)
-
-**Organization:** solitary, hunt (2-3), ambush (1-3 dweomercats and 2-12
-[dweomercat cubs](ref/monster/dweomercat-dweomercat-cub))
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest (First World)
+Organization: solitary, hunt (2-3), ambush (1-3 dweomercats and 2-12 [dweomercat cubs](ref/monster/dweomercat-dweomercat-cub))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

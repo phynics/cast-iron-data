@@ -35,92 +35,70 @@ abilities = ["10", "8", "12", "15", "14", "15"]
 _This slender woman's skin is unnaturally pale, her hair is dark, and each of her eyes is a
 different color._
 
-**Challenge rating:** 1/2
-
 **Female changeling [witch](ref/class/witch) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: -1
+Alignment: Lawful neutral
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Changeling
+Experience points: 200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 10
+Touch: 9
+Flat-footed: 10
+AC modifiers: -1 Dex, +1 natural
+Hit points: 8 (1d6+2)
+Fort: +1
+Ref: -1
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +0 (1d4+1)
+Spec Att: hexes ([cauldron](ref/hex/cauldron))
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +3
+1st-level spells: hypnotism (DC 14), sleep (DC 14)
+Cantrips: daze (DC 13), light, touch of fatigue (DC 13)
+Patron: [transformation](ref/patron/transformation)
+:::
 
-**Subtype:** Changeling
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 10, Dex 8, Con 12, Int 15, Wis 14, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9
+Feats: Brew Potion, Combat Casting
+Skills: Craft (alchemy) +10, Heal +6, Knowledge (arcana) +6, Spellcraft +6
+Languages: Common, Draconic, Elven, Orc
+Special qualities: hulking changeling, witch's familiar (spider)
+:::
 
-**Armor class:** 10
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 10
-
-**AC modifiers:** -1 Dex, +1 natural
-
-**Hit points:** 8 (1d6+2)
-
-**Fort:** +1
-
-**Ref:** -1
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +0 (1d4+1)
-
-**Spec Att:** hexes ([cauldron](ref/hex/cauldron))
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- hypnotism (DC 14), sleep (DC 14)
-
-**Cantrips:**
-
-- daze (DC 13), light, touch of fatigue (DC 13)
-
-**Patron:** [transformation](ref/patron/transformation)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 8, Con 12, Int 15, Wis 14, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9
-
-**Feats:** Brew Potion, Combat Casting
-
-**Skills:** Craft (alchemy) +10, Heal +6, Knowledge (arcana) +6, Spellcraft +6
-
-**Languages:** Common, Draconic, Elven, Orc
-
-**Special qualities:** hulking changeling, witch's familiar (spider)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** NPC gear (quarterstaff); [spell component pouch](ref/eq-misc/spell-component-pouch),
-other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: NPC gear (quarterstaff); [spell component pouch](ref/eq-misc/spell-component-pouch), other treasure
+:::
 
 ### Description
 

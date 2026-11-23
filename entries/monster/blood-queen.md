@@ -33,106 +33,76 @@ _This hideous monstrosity looks like an enormous curled maggot, varicolored like
 flesh. Three flailing tentacles adorn each side of the thing's huge, pulsating mouth, and five more
 arch from its hindquarters._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+blindsight: 120
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Type: outsider
+Perception: +39
+Senses: Surrogate senses
+Subtype: Native
+Experience points: 819,200
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 38
+Touch: 6
+Flat-footed: 38
+AC modifiers: +32 natural, -4 size
+Hit points: 471 (23d10+345)
+Fort: +28
+Ref: +9
+Will: +24
+Dr: 15/epic and lawful
+Immune: disease, electricity, mind-affecting effects, poison, sonic
+Regen: 10 (good)
+Sr: 34
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 10 ft.
+Melee: bite +29 (2d6+10), 5 stings +29 (2d6+10/19-20 plus 2d6 electricity), 6 tentacles +24 (2d8+5/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: horrifying bellow, unholy gestation
+Swallow: 15d6 acid damage, AC 26, 47 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +36
+Per day: 5/day: cacophonous call (DC 25), deeper darkness, dispel good (DC 28), inflict critical wounds (DC 27)\
+3/day: greater command (DC 28)\
+1/day: mass suffocation (DC 32)
+:::
 
-**Perception:** +39
+### Statistics
 
-**Senses:** Surrogate senses
+::: statblock
+Ability scores: Str 30, Dex 11, Con 40, Int 20, Wis 29, Cha 37
+Base attack bonus: +23
+Combat maneuver bonus: +37 (+41 grapple)
+Combat maneuver defense: 47
+Feats: Alertness, Awesome Blow, Bleeding Critical, Critical Focus, Improved Bull Rush, Improved Critical (sting), Improved Critical (tentacles), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Bluff +39, Diplomacy +39, Sense Motive +39, Spellcraft +31
+Languages: Abyssal, Aklo, Common, Draconic, Kuru, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: blood link
+:::
 
-**Subtype:** Native
+### Ecology
 
-**Experience points:** 819,200
-
-**Armor class:** 38
-
-**Touch:** 6
-
-**Flat-footed:** 38
-
-**AC modifiers:** +32 natural, -4 size
-
-**Hit points:** 471 (23d10+345)
-
-**Fort:** +28
-
-**Ref:** +9
-
-**Will:** +24
-
-**Dr:** 15/epic and lawful
-
-**Immune:** disease, electricity, mind-affecting effects, poison, sonic
-
-**Regen:** 10 (good)
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +29 (2d6+10), 5 stings +29 (2d6+10/19-20 plus 2d6 electricity), 6 tentacles +24
-(2d8+5/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** horrifying bellow, unholy gestation
-
-**Swallow:** 15d6 acid damage, AC 26, 47 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +36
-
-**Per day:**
-
-- 5/day: cacophonous call (DC 25), deeper darkness, dispel good (DC 28), inflict critical wounds (DC
-  27)
-- 3/day: greater command (DC 28)
-- 1/day: mass suffocation (DC 32)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con 40, Int 20, Wis 29, Cha 37
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +37 (+41 grapple)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Alertness, Awesome Blow, Bleeding Critical, Critical Focus, Improved Bull Rush, Improved
-Critical (sting), Improved Critical (tentacles), Improved Initiative, Iron Will, Lightning Reflexes,
-Power Attack, Vital Strike
-
-**Skills:** Bluff +39, Diplomacy +39, Sense Motive +39, Spellcraft +31
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Kuru, Undercommon; [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** blood link
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

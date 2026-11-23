@@ -33,137 +33,86 @@ abilities = ["24", "19", "20", "18", "15", "19"]
 _This bronze-skinned humanoid is muscular yet lithe, garbed in colorful clothing emblazoned with
 glowing runes._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic good
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 115 (11d10+55)
+Fort: +8
+Ref: +11
+Will: +9
+Dr: 10/cold iron and evil
+Immune: electricity, petrification, rune mastery
+Resist: cold 10, fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 120 ft. (good)
+Melee: 2 slams +19 (2d8+7)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: freedom of movement, nondetection
+At will: alter self
+Per day: 3/day: dimension door, modify memory (DC 17)\
+1/day: greater teleport, self plus 50 lbs. of objects only, plane shift (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spells Known"
+Caster level: 11
+Concentration: +15
+5th-level spells: 4/day: seeming, sending, symbol of pain (DC 20), symbol of sleep (DC 20)
+4th-level spells: 7/day: confusion (DC 18), greater invisibility, scrying (DC 18)
+3rd-level spells: 7/day: beast shape I, explosive runes (DC 18), glyph of warding (DC 18), haste, lightning bolt (DC 17), sepia snake sigil (DC 18), suggestion (DC 17)
+2nd-level spells: 7/day: detect thoughts (DC 16), hypnotic pattern (DC 16), invisibility, scorching ray, see invisibility
+1st-level spells: 7/day: erase, feather fall, hypnotism, silent image (DC 15), ventriloquism (DC 15)
+Cantrips: At will: arcane mark, dancing lights, detect magic, detect poison, light, mage hand, message, prestidigitation, read magic
+:::
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 24, Dex 19, Con 20, Int 18, Wis 15, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 33 (35 vs. grapple)
+Feats: Greater Grapple, Improved Grapple, Improved Initiative, Improved Unarmed Strike, Power Attack, Weapon Focus (slam)
+Skills: Acrobatics +18, Bluff +18, Disguise +14, Perform (oratory) +18, Spellcraft +18, Stealth +14
+Racial Modifiers: +10 Disguise
+Languages: Celestial, Common, Draconic, Infernal; _truespeech_
+Special qualities: rune mastery, word caller
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 10/cold iron and evil
-
-**Immune:** electricity, petrification, rune mastery
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 50 ft., fly 120 ft. (good)
-
-**Melee:** 2 slams +19 (2d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- freedom of movement, nondetection
-
-**At will:**
-
-- alter self
-
-**Per day:**
-
-- 3/day: dimension door, modify memory (DC 17)
-- 1/day: greater teleport, self plus 50 lbs. of objects only, plane shift (DC 21)
-
-**Spells Known**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**5th-level spells:**
-
-- 4/day: seeming, sending, symbol of pain (DC 20), symbol of sleep (DC 20)
-
-**4th-level spells:**
-
-- 7/day: confusion (DC 18), greater invisibility, scrying (DC 18)
-
-**3rd-level spells:**
-
-- 7/day: beast shape I, explosive runes (DC 18), glyph of warding (DC 18), haste, lightning bolt (DC
-  17), sepia snake sigil (DC 18), suggestion (DC 17)
-
-**2nd-level spells:**
-
-- 7/day: detect thoughts (DC 16), hypnotic pattern (DC 16), invisibility, scorching ray, see
-  invisibility
-
-**1st-level spells:**
-
-- 7/day: erase, feather fall, hypnotism, silent image (DC 15), ventriloquism (DC 15)
-
-**Cantrips:**
-
-- At will: arcane mark, dancing lights, detect magic, detect poison, light, mage hand, message,
-  prestidigitation, read magic
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 19, Con 20, Int 18, Wis 15, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 33 (35 vs. grapple)
-
-**Feats:** Greater Grapple, Improved Grapple, Improved Initiative, Improved Unarmed Strike, Power
-Attack, Weapon Focus (slam)
-
-**Skills:** Acrobatics +18, Bluff +18, Disguise +14, Perform (oratory) +18, Spellcraft +18, Stealth
-+14
-
-**Racial Modifiers:** +10 Disguise
-
-**Languages:** Celestial, Common, Draconic, Infernal; _truespeech_
-
-**Special qualities:** rune mastery, word caller
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or band (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or band (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

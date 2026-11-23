@@ -27,71 +27,58 @@ abilities = ["16", "19", "15", "2", "13", "6"]
 
 _With each graceful step, this leopard's steely muscles ripple beneath its spotted fur._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +7
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +6 (1d6+3 plus [grab](ref/umr/grab)), 2 claws +6 (1d3+3)
+Pounce: present
+Rake: 2 claws +6, 1d3+3
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 16, Dex 19, Con 15, Int 2, Wis 13, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +8, Climb +11, Perception +5, Stealth +11 (+15 in undergrowth)
+Racial Modifiers: +4 on Stealth in undergrowth
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +6 (1d6+3 plus [grab](ref/umr/grab)), 2 claws +6 (1d3+3)
-
-**Pounce:** present
-
-**Rake:** 2 claws +6, 1d3+3
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 15, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +8, Climb +11, Perception +5, Stealth +11 (+15 in undergrowth)
-
-**Racial Modifiers:** +4 on Stealth in undergrowth
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any forest
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

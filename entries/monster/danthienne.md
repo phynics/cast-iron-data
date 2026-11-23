@@ -29,92 +29,69 @@ abilities = ["6", "18", "21", "13", "8", "21"]
 _This bright-eyed, doll-sized woman wears jewels and silks. She has pointed ears, four-fingered
 hands, and a mischievous grin._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +4
+Perception: -1
+Senses: Low-light vision
+Size: tiny
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +2 natural, +2 size
+Hit points: 59 (7d6+35)
+Fort: +7
+Ref: +9
+Will: +6
+Dr: 5/cold iron
+Sr: 16
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d2-2/19-20)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+At will: auditory hallucination (DC 16), detect desires (DC 17), invisibility, prestidigitation, remove fear, shocking grasp
+Per day: 3/day: charm person (DC 16), deflect blame (DC 17), rumormonger (DC 18), suggestion (DC 18)\
+1/day: glibness, heroism, shout (DC 19)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 6, Dex 18, Con 21, Int 13, Wis 8, Cha 21
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 14
+Feats: Deceitful, Dodge, Iron Will, Mobility
+Skills: Bluff +17, Diplomacy +15, Escape Artist +14, Knowledge (nobility) +8, Perform (any one) +15, Sleight of Hand +14
+Languages: Common, Dwarven, Elven, Gm, Halfling, Sylvan
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 natural, +2 size
-
-**Hit points:** 59 (7d6+35)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d2-2/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**At will:**
-
-- auditory hallucination (DC 16), detect desires (DC 17), invisibility, prestidigitation, remove
-  fear, shocking grasp
-
-**Per day:**
-
-- 3/day: charm person (DC 16), deflect blame (DC 17), rumormonger (DC 18), suggestion (DC 18)
-- 1/day: glibness, heroism, shout (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 18, Con 21, Int 13, Wis 8, Cha 21
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 14
-
-**Feats:** Deceitful, Dodge, Iron Will, Mobility
-
-**Skills:** Bluff +17, Diplomacy +15, Escape Artist +14, Knowledge (nobility) +8, Perform (any one)
-+15, Sleight of Hand +14
-
-**Languages:** Common, Dwarven, Elven, Gm, Halfling, Sylvan
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or clique (2-4 danthiennes)
-
-**Treasure:** Double; jewelry and magic items only
+::: statblock
+Environment: any urban
+Organization: solitary or clique (2-4 danthiennes)
+Treasure: Double; jewelry and magic items only
+:::
 
 ### Special Abilities
 

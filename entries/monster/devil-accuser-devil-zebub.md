@@ -31,92 +31,70 @@ abilities = ["11", "18", "14", "9", "15", "12"]
 _This childlike blasphemy conjoins the features of a plump human infant and a gigantic,
 gore-fattened fly._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +8
+Alignment: Lawful evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +10
+Will: +3
+Dr: 5/good or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 60 ft. (perfect)
+Melee: bite +5 (1d6 plus 1d6 acid and disease)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+At will: greater teleport, self plus 50 lbs. of objects only, invisibility, self only
+Per day: 3/day: grease, summon swarm, whispering wind\
+1/day: summon (level 3, 1 zebub or 1d4 [lemures](ref/monster/devil-lemure), 40%)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 11, Dex 18, Con 14, Int 9, Wis 15, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Bluff +8, Fly +21, Knowledge (planes) +6, Perception +9, Stealth +15
+Languages: Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: infernal eye
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +3
-
-**Dr:** 5/good or silver
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (perfect)
-
-**Melee:** bite +5 (1d6 plus 1d6 acid and disease)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, invisibility, self only
-
-**Per day:**
-
-- 3/day: grease, summon swarm, whispering wind
-- 1/day: summon (level 3, 1 zebub or 1d4 [lemures](ref/monster/devil-lemure), 40%)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 18, Con 14, Int 9, Wis 15, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Bluff +8, Fly +21, Knowledge (planes) +6, Perception +9, Stealth +15
-
-**Languages:** Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** infernal eye
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or swarm (3-28)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or swarm (3-28)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

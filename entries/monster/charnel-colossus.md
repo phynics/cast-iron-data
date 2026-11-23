@@ -31,111 +31,76 @@ abilities = ["34", "9", "-", "18", "36", "25"]
 _This horror is composed of dozens, if not hundreds, of decomposing cadavers held together as an
 amalgamated whole._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: colossal
+Initiative: +3
+Alignment: Neutral evil
+Perception: +50
+Senses: Darkvision 60 ft., See invisibility
+Type: undead
+Experience points: 204,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 29
+Touch: 1
+Flat-footed: 29
+AC modifiers: -1 Dex, +28 natural, -8 size
+Hit points: 345 (30d8+210)
+Fort: +19
+Ref: +11
+Will: +32
+Amorph: present
+Chan Res: +4
+Dr: 15/magic and slashing
+Immune: critical hits, precision damage, [turning](ref/feat/turn-undead), [undead traits](ref/umr/undead-traits)
+Sr: 30
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +50
+::: statblock
+Speed: 30 ft.
+Melee: 6 slams +26 (2d8+12/19-20 plus [grab](ref/umr/grab) and mind feed) or 2 tendrils +21 (2d6+6 plus grab and [pull](ref/umr/pull))
+Reach: 20
+Reach P: 40 ft. with tendrils
+Space: 30
+Spec Att: voice of the ancients
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Constant: see invisibility
+At will: augury, blindness/deafness (DC 20), doom (DC 18)
+Per day: 3/day: bestow curse (DC 20), speak with dead (DC 20), unholy blight (DC 21)\
+1/day: blasphemy (DC 24), horrid wilting (DC 25)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 204,800
+::: statblock
+Ability scores: Str 34, Dex 9, Con -, Int 18, Wis 36, Cha 25
+Base attack bonus: +22
+Combat maneuver bonus: +42 (+46 grapple)
+Combat maneuver defense: 51 (can't be tripped)
+Feats: Ability Focus (voice of the ancients), Alertness, Blind-Fight, Combat Reflexes, Critical Focus, Great Fortitude, Improved Critical (slam), Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Stand Still, Stunning Critical
+Skills: Climb +45, Intimidate +40, Knowledge (arcana) +37, Knowledge (history) +34, Perception +50, Sense Motive +50, Spellcraft +37
+Languages: Common (or the most commonly spoken language of its corporate body)
+Special qualities: corporate will
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 1
-
-**Flat-footed:** 29
-
-**AC modifiers:** -1 Dex, +28 natural, -8 size
-
-**Hit points:** 345 (30d8+210)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +32
-
-**Amorph:** present
-
-**Chan Res:** +4
-
-**Dr:** 15/magic and slashing
-
-**Immune:** critical hits, precision damage, [turning](ref/feat/turn-undead),
-[undead traits](ref/umr/undead-traits)
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 6 slams +26 (2d8+12/19-20 plus [grab](ref/umr/grab) and mind feed) or 2 tendrils +21
-(2d6+6 plus grab and [pull](ref/umr/pull))
-
-**Reach:** 20
-
-**Reach P:** 40 ft. with tendrils
-
-**Space:** 30
-
-**Spec Att:** voice of the ancients
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- augury, blindness/deafness (DC 20), doom (DC 18)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 20), speak with dead (DC 20), unholy blight (DC 21)
-- 1/day: blasphemy (DC 24), horrid wilting (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 9, Con -, Int 18, Wis 36, Cha 25
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +42 (+46 grapple)
-
-**Combat maneuver defense:** 51 (can't be tripped)
-
-**Feats:** Ability Focus (voice of the ancients), Alertness, Blind-Fight, Combat Reflexes, Critical
-Focus, Great Fortitude, Improved Critical (slam), Improved Initiative, Improved Iron Will, Iron
-Will, Lightning Reflexes, Power Attack, Staggering Critical, Stand Still, Stunning Critical
-
-**Skills:** Climb +45, Intimidate +40, Knowledge (arcana) +37, Knowledge (history) +34, Perception
-+50, Sense Motive +50, Spellcraft +37
-
-**Languages:** Common (or the most commonly spoken language of its corporate body)
-
-**Special qualities:** corporate will
-
-**Ecology**
-
-**Environment:** any (Kalexcourt, Ustalav)
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Kalexcourt, Ustalav)
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

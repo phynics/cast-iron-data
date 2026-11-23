@@ -32,95 +32,72 @@ abilities = ["21", "14", "18", "7", "16", "19"]
 _This winged horror has the upper body of a feral, bloody-mouthed female orc warrior and the lower
 body of a giant wolf._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Deathwatch, Scent
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +7 natural, +1 dodge, -1 size
+Hit points: 76 (8d10+32)
+Fort: +8
+Ref: +4
+Will: +7
+Dr: 10/good or lawful
+Immune: fire, poison
+Resist: electricity 10
+Sr: 16
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: mwk greatsword +13/+8 (2d6+7) and 2 claws +12 (1d4+5)
+Reach: 5
+Space: 10
+Spec Att: terrifying howl
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Constant: deathwatch
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, Scent
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 21, Dex 14, Con 18, Int 7, Wis 16, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Dodge, Flyby Attack, Great Fortitude, Iron Will, Power Attack, Weapon Focus (greatsword)
+Skills: Fly +8, Intimidate +12, Knowledge (planes) +9, Perception +14
+Languages: Abyssal, Orc
+Special qualities: heart-feaster, [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +7 natural, +1 dodge, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +7
-
-**Dr:** 10/good or lawful
-
-**Immune:** fire, poison
-
-**Resist:** electricity 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** mwk greatsword +13/+8 (2d6+7) and 2 claws +12 (1d4+5)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** terrifying howl
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Constant:**
-
-- deathwatch
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 18, Int 7, Wis 16, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Dodge, Flyby Attack, Great Fortitude, Iron Will, Power Attack, Weapon Focus (greatsword)
-
-**Skills:** Fly +8, Intimidate +12, Knowledge (planes) +9, Perception +14
-
-**Languages:** Abyssal, Orc
-
-**Special qualities:** heart-feaster, [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, trio, or murder (6-8 dahzagans)
-
-**Treasure:** Standard (mwk greatsword); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, trio, or murder (6-8 dahzagans)
+Treasure: Standard (mwk greatsword); other treasure
+:::
 
 ### Special Abilities
 

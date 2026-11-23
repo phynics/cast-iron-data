@@ -30,113 +30,76 @@ abilities = ["37", "29", "35", "26", "30", "26"]
 _A pair of gigantic, flame-seared wings and eyes smoldering like embers give this towering devil a
 truly horrific appearance._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: fear (20 ft., DC 23)
+Initiative: +13
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 307,200
+:::
 
-**aura:** fear (20 ft., DC 23)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 38
+Touch: 18
+Flat-footed: 29
+AC modifiers: +9 Dex, +20 natural, -1 size
+Hit points: 350 (20d10+240)
+Fort: +24
+Ref: +21
+Will: +18
+Dr: 15/good and silver
+Immune: fire, poison
+Regen: 5 (good weapons, good spells)
+Resist: acid 10, cold 10
+Sr: 31
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Constrict: present
+Melee: 2 claws +32 (2d8+13), 2 wings +30 (2d6+6), bite +32 (4d6+13 plus poison and disease), tail slap +30 (2d8+6 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: 2d8+19, devil shaping
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+At will: blasphemy (DC 25), create undead, fireball (DC 21), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, greater scrying (DC 25), invisibility, magic circle against good, mass hold monster (DC 27), persistent image (DC 23), power word stun, scorching ray, trap the soul (DC 26), unholy aura (DC 26), wall of fire
+Per day: 3/day: quickened fireball (DC 21)\
+1/day: meteor swarm, summon (level 9, any 1 CR 19 or lower devil, 100%)
+Per year: wish
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 37, Dex 29, Con 35, Int 26, Wis 30, Cha 26
+Base attack bonus: +20
+Combat maneuver bonus: +34 (+38 grapple)
+Combat maneuver defense: 53
+Feats: Cleave, Great Cleave, Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (fireball), Vital Strike
+Skills: Appraise +17, Bluff +31, Diplomacy +31, Fly +30, Intimidate +31, Knowledge (arcana) +28, Knowledge (planes) +31, Perception +33, Use Magic Device +28
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 18
-
-**Flat-footed:** 29
-
-**AC modifiers:** +9 Dex, +20 natural, -1 size
-
-**Hit points:** 350 (20d10+240)
-
-**Fort:** +24
-
-**Ref:** +21
-
-**Will:** +18
-
-**Dr:** 15/good and silver
-
-**Immune:** fire, poison
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Constrict:** present
-
-**Melee:** 2 claws +32 (2d8+13), 2 wings +30 (2d6+6), bite +32 (4d6+13 plus poison and disease),
-tail slap +30 (2d8+6 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** 2d8+19, devil shaping
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**At will:**
-
-- blasphemy (DC 25), create undead, fireball (DC 21), greater dispel magic, greater teleport, self
-  plus 50 lbs. of objects only, greater scrying (DC 25), invisibility, magic circle against good,
-  mass hold monster (DC 27), persistent image (DC 23), power word stun, scorching ray, trap the soul
-  (DC 26), unholy aura (DC 26), wall of fire
-
-**Per day:**
-
-- 3/day: quickened fireball (DC 21)
-- 1/day: meteor swarm, summon (level 9, any 1 CR 19 or lower devil, 100%)
-
-**Per year:**
-
-- wish
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 29, Con 35, Int 26, Wis 30, Cha 26
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +34 (+38 grapple)
-
-**Combat maneuver defense:** 53
-
-**Feats:** Cleave, Great Cleave, Improved Initiative, Improved Iron Will, Improved Vital Strike,
-Iron Will, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(fireball), Vital Strike
-
-**Skills:** Appraise +17, Bluff +31, Diplomacy +31, Fly +30, Intimidate +31, Knowledge (arcana) +28,
-Knowledge (planes) +31, Perception +33, Use Magic Device +28
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or council (3-9)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or council (3-9)
+Treasure: Double
+:::
 
 ### Special Abilities
 

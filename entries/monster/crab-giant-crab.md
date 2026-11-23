@@ -30,73 +30,59 @@ abilities = ["15", "13", "14", "-", "10", "2"]
 
 _This lumbering hard-shelled crab stands as tall as a dwarf, its massive pincers waving menacingly._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Constrict: 1d4+2
+Melee: 2 claws +4 (1d4+2 plus [grab](ref/umr/grab))
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int -, Wis 10, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 15 (27 vs. trip)
+Skills: Perception +4, Swim +10
+Racial Modifiers: +4 Perception
+Special qualities: water dependency
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Constrict:** 1d4+2
-
-**Melee:** 2 claws +4 (1d4+2 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 15 (27 vs. trip)
-
-**Skills:** Perception +4, Swim +10
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary or cast (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary or cast (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

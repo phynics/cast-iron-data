@@ -30,109 +30,77 @@ abilities = ["27", "20", "22", "7", "17", "16"]
 _A deadly and vicious bouquet of insectile claws sprouts from this horrid, three-legged, multi-eyed
 beast._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: feeblemind (DC 20)
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +28
+Senses: All-around vision, Darkvision 60 ft., Detect magic, See invisibility
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**aura:** feeblemind (DC 20)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 22
+AC modifiers: +5 Dex, +13 natural, -1 size
+Hit points: 161 (14d10+84)
+Fort: +15
+Ref: +14
+Will: +7
+Dr: 10/good
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 23
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Melee: 5 claws +21 (1d6+8/19-20)
+Reach: 10
+Rend: 2 claws, 1d8+12 plus 2 Con damage
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: detect magic, see invisibility
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: fear (DC 17), quickened summon swarm\
+1/day: creeping doom, insect plague, summon (level 4, 1 derghodaemon 30%)
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Detect magic, See invisibility
+::: statblock
+Ability scores: Str 27, Dex 20, Con 22, Int 7, Wis 17, Cha 16
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 38 (40 vs. trip)
+Feats: Cleave, Critical Focus, Improved Critical (claws), Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm), Sickening Critical, Vital Strike
+Skills: Intimidate +20, Perception +28, Sense Motive +20, Stealth +18
+Racial Modifiers: +4 Perception
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: swarmwalking
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +5 Dex, +13 natural, -1 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 5 claws +21 (1d6+8/19-20)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+12 plus 2 Con damage
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect magic, see invisibility
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: fear (DC 17), quickened summon swarm
-- 1/day: creeping doom, insect plague, summon (level 4, 1 derghodaemon 30%)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 20, Con 22, Int 7, Wis 17, Cha 16
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 38 (40 vs. trip)
-
-**Feats:** Cleave, Critical Focus, Improved Critical (claws), Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (summon swarm), Sickening Critical, Vital Strike
-
-**Skills:** Intimidate +20, Perception +28, Sense Motive +20, Stealth +18
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** swarmwalking
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or infestation (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or infestation (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

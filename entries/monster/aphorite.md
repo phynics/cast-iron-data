@@ -30,87 +30,69 @@ abilities = ["17", "8", "14", "14", "13", "8"]
 _The shimmering flesh of this gold-skinned figure flashes with points of light that seem, at times,
 to create strange runic shapes._
 
-**Challenge rating:** 1/2
-
 **Aphorite [fighter](ref/class/fighter) 1**
 
-**Initiative:** -1
+::: statblock
+Challenge rating: 1/2
+Initiative: -1
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Alignment:** Lawful neutral
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 9
+Flat-footed: 13
+AC modifiers: +4 armor, -1 Dex
+Hit points: 13 (1d10+3)
+Fort: +4
+Ref: -1
+Will: +3; +2 vs. poison and mind-affecting effects
+Defensive abilities: crystalline dust
+Resist: electricity 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Melee: [cold iron](ref/eq-material/cold-iron) warhammer +5 (1d8+3/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +0
+Per day: 1/day: protection from chaos
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 17, Dex 8, Con 14, Int 14, Wis 13, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Iron Will, Weapon Focus (warhammer)
+Skills: Craft (armor) +8, Knowledge (engineering) +6, Perception +2
+Racial Modifiers: +2 Craft (armor)
+Languages: Celestial, Common
+:::
 
-**Armor class:** 13
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 armor, -1 Dex
-
-**Hit points:** 13 (1d10+3)
-
-**Fort:** +4
-
-**Ref:** -1
-
-**Will:** +3; +2 vs. poison and mind-affecting effects
-
-**Defensive abilities:** crystalline dust
-
-**Resist:** electricity 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** [cold iron](ref/eq-material/cold-iron) warhammer +5 (1d8+3/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +0
-
-**Per day:**
-
-- 1/day: protection from chaos
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 8, Con 14, Int 14, Wis 13, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Iron Will, Weapon Focus (warhammer)
-
-**Skills:** Craft (armor) +8, Knowledge (engineering) +6, Perception +2
-
-**Racial Modifiers:** +2 Craft (armor)
-
-**Languages:** Celestial, Common
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary or guild (2-12)
-
-**Treasure:** NPC gear (chain shirt, warhammer); other treasure
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary or guild (2-12)
+Treasure: NPC gear (chain shirt, warhammer); other treasure
+:::
 
 ### Special Abilities
 

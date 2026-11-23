@@ -31,84 +31,64 @@ abilities = ["14", "19", "14", "6", "15", "12"]
 _The acrid scent of vinegar wafts from this shield-sized blossom. Amid shocking blue petals slowly
 twitches a cluster of sharp stamens arranged like a ring of teeth within a leafy muzzle._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +8
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 30 ft., Low-light vision, Scent
+Type: plant
+Size: small
+Experience points: 1,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +6
+Ref: +6
+Will: +4
+Defensive abilities: cold healing
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 30 ft., Low-light vision, Scent
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: flower +7 (1d6+2 plus 1d6 cold), 2 tendrils +7 (1d4+2)
+Reach: 5
+Reach P: 10 ft. with tendrils
+Space: 5
+Spec Att: seed spray (15-ft. cone, 4d6 cold damage, Reflex DC 14 for half, usable every 1d4 rounds)
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 19, Con 14, Int 6, Wis 15, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (21 vs. trip)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative
+Skills: Stealth +17
+Languages: Sylvan (can't speak)
+Special qualities: mold mulch
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +4
-
-**Defensive abilities:** cold healing
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** flower +7 (1d6+2 plus 1d6 cold), 2 tendrils +7 (1d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tendrils
-
-**Space:** 5
-
-**Spec Att:** seed spray (15-ft. cone, 4d6 cold damage, Reflex DC 14 for half, usable every 1d4
-rounds)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 14, Int 6, Wis 15, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (21 vs. trip)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative
-
-**Skills:** Stealth +17
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** mold mulch
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary, growth (2-8), garden (9-25)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold forests
+Organization: solitary, growth (2-8), garden (9-25)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

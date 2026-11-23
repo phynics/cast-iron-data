@@ -31,103 +31,74 @@ abilities = ["8", "15", "-", "14", "10", "14"]
 _This small construct resembles a house cat. It bears elaborate markings, and the core in its head
 glows with a warm light._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +6
+Alignment: Lawful neutral
+Perception: +6
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Automaton, Extraplanar
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 15 (3d10)
+Fort: +1
+Ref: +3
+Will: +1
+Dr: 5/adamantine
+Fh: 2
+Immune: [construct traits](ref/umr/construct-traits), electricity
+Resist: cold 10, sonic 10
+Weaknesses: vulnerable mind
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., climb 30 ft.
+Melee: bite +5 (1d3-1 plus disease), 2 claws +5 (1d2-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: detect magic, invisibility, self only
+Per day: 3/day: magic missile
+Per week: plane shift, self plus 5 lbs. of objects only
+:::
 
-**Subtype:** Automaton, Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con -, Int 14, Wis 10, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Improved Initiative, Weapon Finesse
+Skills: Climb +7, Diplomacy +7, Spellcraft +7, Stealth +8, Use Magic Device +7
+Languages: Common; [telepathy](ref/umr/telepathy) (touch)
+Special qualities: automaton core, intelligent construct
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 15 (3d10)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1
-
-**Dr:** 5/adamantine
-
-**Fh:** 2
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity
-
-**Resist:** cold 10, sonic 10
-
-**Weaknesses:** vulnerable mind
-
-**Offense**
-
-**Speed:** 20 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d3-1 plus disease), 2 claws +5 (1d2-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- detect magic, invisibility, self only
-
-**Per day:**
-
-- 3/day: magic missile
-
-**Per week:**
-
-- plane shift, self plus 5 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con -, Int 14, Wis 10, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Climb +7, Diplomacy +7, Spellcraft +7, Stealth +8, Use Magic Device +7
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) (touch)
-
-**Special qualities:** automaton core, intelligent construct
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

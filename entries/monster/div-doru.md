@@ -31,104 +31,74 @@ abilities = ["8", "17", "10", "10", "12", "14"]
 
 _This disembodied and bestial head covered in lashing hair and curling horns flies through the air._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Div, Evil, Extraplanar
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 15
+AC modifiers: +3 Dex, +3 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +3
+Ref: +4
+Will: +4
+Dr: 10/cold iron or good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 13
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee: bite +9 (1d4-1 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: detect good, detect magic
+At will: invisibility, self only
+Per day: 3/day: charm person (DC 13), minor image (DC 14)\
+1/day: suggestion (DC 15)
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Div, Evil, Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 17, Con 10, Int 10, Wis 12, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Weapon Finesse, Weapon Focus (bite)
+Skills: Bluff +8, Fly +15, Knowledge (arcana) +6, Perception +7, Spellcraft +6, Stealth +17
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +3 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 10/cold iron or good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**Melee:** bite +9 (1d4-1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 3/day: charm person (DC 13), minor image (DC 14)
-- 1/day: suggestion (DC 15)
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con 10, Int 10, Wis 12, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Weapon Finesse, Weapon Focus (bite)
-
-**Skills:** Bluff +8, Fly +15, Knowledge (arcana) +6, Perception +7, Spellcraft +6, Stealth +17
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

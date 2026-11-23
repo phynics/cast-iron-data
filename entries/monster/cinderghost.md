@@ -30,83 +30,64 @@ abilities = ["-", "18", "-", "14", "14", "21"]
 _In the midst of a swirling cloud of desiccated ashes is the vague shape of a humanoid, with hollow,
 unblinking eyes that flicker like dying embers._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Fire, Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 15
+AC modifiers: +5 Deflection, +4 Dex, +1 Dodge
+Hit points: 85 (9d8+45)
+Fort: +10
+Ref: +7
+Will: +8
+Chan Res: +2
+Defensive abilities: cleansing fire
+Fh: 5
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Vulner: cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: fly 80 ft. (perfect)
+Heat: 3d6 fire
+Melee: incorpreal touch +11 (1d8 plus desiccation)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Fire, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 14, Wis 14, Cha 21
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 26
+Feats: Blind-Fight, Combat Reflexes, Dodge, Great Fortitude, Weapon Focus (incorporeal touch)
+Skills: Bluff +14, Fly +24, Intimidate +17, Knowledge (planes) +11, Perception +14, Stealth +16
+Languages: Common, Ignan
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Deflection, +4 Dex, +1 Dodge
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Defensive abilities:** cleansing fire
-
-**Fh:** 5
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** fly 80 ft. (perfect)
-
-**Heat:** 3d6 fire
-
-**Melee:** incorpreal touch +11 (1d8 plus desiccation)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 14, Wis 14, Cha 21
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 26
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Great Fortitude, Weapon Focus (incorporeal touch)
-
-**Skills:** Bluff +14, Fly +24, Intimidate +17, Knowledge (planes) +11, Perception +14, Stealth +16
-
-**Languages:** Common, Ignan
-
-**Ecology**
-
-**Environment:** any plains ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, trio, or rush (8-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any plains ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, trio, or rush (8-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

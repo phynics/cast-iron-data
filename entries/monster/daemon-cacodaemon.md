@@ -31,108 +31,75 @@ abilities = ["12", "11", "13", "8", "13", "12"]
 _An ever-gnashing maw, filled with row after row of mismatched teeth, dominates this frightful
 creature's orb-like body._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +4
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect good, Detect magic
+Subtype: Daemon, Evil, Extraplanar
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 16
+AC modifiers: +4 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +5
+Will: +4
+Dr: 5/good or silver
+Fh: 2
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 5 ft., fly 50 ft. (perfect)
+Melee: bite +6 (1d4+1 plus disease)
+Reach: 0
+Space: 2-1/2
+Spec Att: soul lock
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect good, detect magic
+At will: invisibility, self only
+Per day: 3/day: lesser confusion (DC 12)
+Per week: commune, CL 12th; six questions
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 12, Dex 11, Con 13, Int 8, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Bluff +7, Fly +18, Knowledge (planes) +5, Perception +7, Stealth +14
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (2 of the following forms: lizard, octopus, Small scorpion, venomous snake; [polymorph](ref/spell/polymorph))
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 5/good or silver
-
-**Fh:** 2
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 5 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +6 (1d4+1 plus disease)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** soul lock
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 3/day: lesser confusion (DC 12)
-
-**Per week:**
-
-- commune, CL 12th; six questions
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 11, Con 13, Int 8, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Bluff +7, Fly +18, Knowledge (planes) +5, Perception +7, Stealth +14
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (2 of the following forms: lizard,
-octopus, Small scorpion, venomous snake; [polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or swarm (2-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or swarm (2-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

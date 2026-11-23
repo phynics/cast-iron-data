@@ -32,98 +32,72 @@ abilities = ["25", "15", "20", "8", "14", "17"]
 _This blue-skinned, six-armed giant lurches to life, its armor and twin swords glittering with
 jewels._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +6
+Size: large
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +20
+Senses: Darkvision 60 ft., True seeing
+Experience points: 19,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 11
+Flat-footed: 25
+AC modifiers: +2 Dex, +12 natural, +4 shield, -1 size
+Hit points: 157 (15d10+75)
+Fort: +12
+Ref: +11
+Will: +11
+Defensive abilities: defensive slam, energy absorption, suspend animation
+Fh: 5
+Immune: electricity, mind-affecting effects, negative energy
+Sr: 23
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Br Weap: 60-foot line, 14d6 energy damage, Reflex DC 22 half, usable 1/day
+Melee: +1 longsword +18/+13/+8 (2d6+8/17-20), +1 longsword +18 (2d6+8/17-20), 4 slams +16 (1d6+3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: air walk, magic weapon, true seeing, water walk
+Per day: 3/day: lightning bolt (DC 16)\
+1/day: chain lightning (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 25, Dex 15, Con 20, Int 8, Wis 14, Cha 17
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 35
+Feats: Critical Focus, Double Slice, Great Fortitude, Improved Critical (longsword), Improved Initiative, Staggering Critical, Two-Weapon Fighting, Vital Strike
+Skills: Intimidate +21, Perception +20, Use Magic Device +18
+Languages: Common, Giant
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 25
-
-**AC modifiers:** +2 Dex, +12 natural, +4 shield, -1 size
-
-**Hit points:** 157 (15d10+75)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +11
-
-**Defensive abilities:** defensive slam, energy absorption, suspend animation
-
-**Fh:** 5
-
-**Immune:** electricity, mind-affecting effects, negative energy
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 60-foot line, 14d6 energy damage, Reflex DC 22 half, usable 1/day
-
-**Melee:** +1 longsword +18/+13/+8 (2d6+8/17-20), +1 longsword +18 (2d6+8/17-20), 4 slams +16
-(1d6+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- air walk, magic weapon, true seeing, water walk
-
-**Per day:**
-
-- 3/day: lightning bolt (DC 16)
-- 1/day: chain lightning (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 15, Con 20, Int 8, Wis 14, Cha 17
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 35
-
-**Feats:** Critical Focus, Double Slice, Great Fortitude, Improved Critical (longsword), Improved
-Initiative, Staggering Critical, Two-Weapon Fighting, Vital Strike
-
-**Skills:** Intimidate +21, Perception +20, Use Magic Device +18
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** temperate or tropical hills
-
-**Organization:** solitary, gang (2-4), or tribe (5-12)
-
-**Treasure:** Standard (2 +1 lss plus other treasure)
+::: statblock
+Environment: temperate or tropical hills
+Organization: solitary, gang (2-4), or tribe (5-12)
+Treasure: Standard (2 +1 lss plus other treasure)
+:::
 
 ### Special Abilities
 

@@ -35,122 +35,75 @@ abilities = ["43", "26", "36", "19", "24", "35"]
 _This humanoid creature has the head of a ravening, horned lion. A chorus of anguished screams
 echoes from his gaping maw._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: hopelessness (30 ft., DC 38), [frightful presence](ref/umr/frightful-presence) (60 ft., DC 38)
+Size: huge
+Initiative: +20
+Alignment: Neutral evil
+Type: outsider
+Perception: +43
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Div, Evil, Extraplanar
+Experience points: 2,457,600
+:::
 
-**aura:** hopelessness (30 ft., DC 38), [frightful presence](ref/umr/frightful-presence) (60 ft., DC
-38)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 46
+Touch: 21
+Flat-footed: 37
+AC modifiers: +8 Dex, +1 dodge, +15 natural, +14 profane, -2 size
+Hit points: 610 (33d10+429)
+Fort: +24
+Ref: +26
+Will: +25
+Defensive abilities: freeing chains, skin of serpents
+Dr: 20/cold iron, epic, and good
+Immune: ability damage and drain, charm and compulsion effects, death effects, energy drain, fire, petrification, poison
+Regen: 20 (mythic and epic or good)
+Resist: acid 30, electricity 30
+Sr: 37 (41 vs. good)
+:::
 
-**Initiative:** +20
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Bleed: 2d6
+Melee: Ahriman's scourge +47/+42/+37/+32 (3d6+16/19-20/×3), bite +45 (3d6+8/19-20 plus [grab](ref/umr/grab) and bottomless maw), claw +45 (1d8+8), gore +45 (2d6+8 plus crown of fourfold curses), 2 talons +45 (1d8+8)
+Pounce: present
+Reach: 10
+Reach P: 15 ft. with Ahriman's scourge
+Rend: 2 claws, 1d8+24
+Space: 15
+Spec Att: bottomless maw, consume essence, shake faith, symbolic prison
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +32
+Constant: arcane sight, true seeing
+At will: greater teleport, speak with dead (DC 25), unhallow, unholy blight (DC 26)
+Per day: 3/day: horrid wilting (DC 30), implosion (DC 31), maze, plane shift (DC 29), summon (level 9, see below), wish\
+1/day: demand (DC 30), symbol of fear (DC 28), symbol of persuasion (DC 28), symbol of stunning (DC 29), symbol of weakness (DC 29)
+:::
 
-**Perception:** +43
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
-
-**Subtype:** Div, Evil, Extraplanar
-
-**Experience points:** 2,457,600
-
-**Armor class:** 46
-
-**Touch:** 21
-
-**Flat-footed:** 37
-
-**AC modifiers:** +8 Dex, +1 dodge, +15 natural, +14 profane, -2 size
-
-**Hit points:** 610 (33d10+429)
-
-**Fort:** +24
-
-**Ref:** +26
-
-**Will:** +25
-
-**Defensive abilities:** freeing chains, skin of serpents
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage and drain, charm and compulsion effects, death effects, energy drain,
-fire, petrification, poison
-
-**Regen:** 20 (mythic and epic or good)
-
-**Resist:** acid 30, electricity 30
-
-**Sr:** 37 (41 vs. good)
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Bleed:** 2d6
-
-**Melee:** Ahriman's scourge +47/+42/+37/+32 (3d6+16/19-20/×3), bite +45 (3d6+8/19-20 plus
-[grab](ref/umr/grab) and bottomless maw), claw +45 (1d8+8), gore +45 (2d6+8 plus crown of fourfold
-curses), 2 talons +45 (1d8+8)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with Ahriman's scourge
-
-**Rend:** 2 claws, 1d8+24
-
-**Space:** 15
-
-**Spec Att:** bottomless maw, consume essence, shake faith, symbolic prison
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +32
-
-**Constant:**
-
-- arcane sight, true seeing
-
-**At will:**
-
-- greater teleport, speak with dead (DC 25), unhallow, unholy blight (DC 26)
-
-**Per day:**
-
-- 3/day: horrid wilting (DC 30), implosion (DC 31), maze, plane shift (DC 29), summon (level 9, see
-  below), wish
-- 1/day: demand (DC 30), symbol of fear (DC 28), symbol of persuasion (DC 28), symbol of stunning
-  (DC 29), symbol of weakness (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 26, Con 36, Int 19, Wis 24, Cha 35
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +51 (+53 bull rush, +55 grapple)
-
-**Combat maneuver defense:** 74 (76 vs. bull rush)
-
-**Feats:** Awesome Blow, Bleeding Critical, Cleave, Combat Expertise, Combat Reflexes, Critical
-Focus, Dodge, Improved Bull Rush, Improved Critical (Ahriman's scourge), Improved Critical (bite),
-Improved Initiative, Improved Natural Attack (bite), Iron Will, Lightning Reflexes, Mobility,
-Multiattack, Power Attack
-
-**Skills:** Bluff +48, Diplomacy +48, Sense Motive +43, Spellcraft +37, Stealth +17
-
-**Languages:** Abyssal, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran;
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** Ahriman's scourge, Lord of All Divs, slaughtered slave
-
-**Faith:** Ahriman
+::: statblock
+Ability scores: Str 43, Dex 26, Con 36, Int 19, Wis 24, Cha 35
+Base attack bonus: +33
+Combat maneuver bonus: +51 (+53 bull rush, +55 grapple)
+Combat maneuver defense: 74 (76 vs. bull rush)
+Feats: Awesome Blow, Bleeding Critical, Cleave, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Bull Rush, Improved Critical (Ahriman's scourge), Improved Critical (bite), Improved Initiative, Improved Natural Attack (bite), Iron Will, Lightning Reflexes, Mobility, Multiattack, Power Attack
+Skills: Bluff +48, Diplomacy +48, Sense Motive +43, Spellcraft +37, Stealth +17
+Languages: Abyssal, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: Ahriman's scourge, Lord of All Divs, slaughtered slave
+Faith: Ahriman
+:::
 
 ### Special Abilities
 

@@ -32,107 +32,79 @@ abilities = ["21", "12", "17", "16", "17", "16"]
 _The long, undulating body of this serpentine dragon rolls and bends with scales the color of the
 ocean's waves._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic good
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +5
+Senses: Dragon senses
+Subtype: Water
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 85 (9d12+27)
+Fort: +11
+Ref: +7
+Will: +9
+Immune: electricity, paralysis, sleep
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 60 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d6 fire damage, DC 17
+Melee: bite +13 (2d6+7), 2 claws +13 (1d8+5), gore +13 (1d8+7), tail slap +11 (1d8+7)
+Reach: 5
+Reach P: 10 ft. with bite and gore
+Space: 10
+Spec Att: torrent breath
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+At will: create water
+:::
 
-**Senses:** Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: color spray (DC 14), sleep (DC 14)
+Cantrips: At will: acid splash, mage hand, ray of frost, resistance
+:::
 
-**Subtype:** Water
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Alertness, Great Fortitude, Improved Initiative, Lunge, Multiattack
+Skills: Diplomacy +15, Fly +7
+Languages: Aquan, Common, Draconic
+Special qualities: change shape, water breathing
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 85 (9d12+27)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +9
-
-**Immune:** electricity, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d6 fire damage, DC 17
-
-**Melee:** bite +13 (2d6+7), 2 claws +13 (1d8+5), gore +13 (1d8+7), tail slap +11 (1d8+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite and gore
-
-**Space:** 10
-
-**Spec Att:** torrent breath
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**At will:**
-
-- create water
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: color spray (DC 14), sleep (DC 14)
-
-**Cantrips:**
-
-- At will: acid splash, mage hand, ray of frost, resistance
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Alertness, Great Fortitude, Improved Initiative, Lunge, Multiattack
-
-**Skills:** Diplomacy +15, Fly +7
-
-**Languages:** Aquan, Common, Draconic
-
-**Special qualities:** change shape, water breathing
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

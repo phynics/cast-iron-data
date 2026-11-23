@@ -33,88 +33,66 @@ abilities = ["34", "19", "23", "2", "13", "14"]
 _Planted in soil fertilized with corpses, this giant, blood-red flower is surrounded by prickly
 vines._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: preserving mists (30 ft.)
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 25,600
+:::
 
-**aura:** preserving mists (30 ft.)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 24
+AC modifiers: +4 Dex, +16 natural, -2 size
+Hit points: 178 (17d8+102)
+Fort: +16
+Ref: +11
+Will: +6
+Defensive abilities: all-around vision
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 10, electricity 10
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: 1d8+12
+Melee: 4 vines +22 (1d8+12 plus [grab](ref/umr/grab))
+Reach: 25
+Space: 15
+Swallow: 4d6 acid damage, AC 17, 17 hp
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 19, Con 23, Int 2, Wis 13, Cha 14
+Base attack bonus: +12
+Combat maneuver bonus: +26 (+28 bull rush)
+Combat maneuver defense: 40 (42 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Lightning Reflexes, Power Attack, Weapon Focus (vine)
+Skills: Perception +21
+Special qualities: camouflage, digest corpse, preserving mists
+:::
 
-**Type:** plant
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 Dex, +16 natural, -2 size
-
-**Hit points:** 178 (17d8+102)
-
-**Fort:** +16
-
-**Ref:** +11
-
-**Will:** +6
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 10, electricity 10
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d8+12
-
-**Melee:** 4 vines +22 (1d8+12 plus [grab](ref/umr/grab))
-
-**Reach:** 25
-
-**Space:** 15
-
-**Swallow:** 4d6 acid damage, AC 17, 17 hp
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 19, Con 23, Int 2, Wis 13, Cha 14
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +26 (+28 bull rush)
-
-**Combat maneuver defense:** 40 (42 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush,
-Lightning Reflexes, Power Attack, Weapon Focus (vine)
-
-**Skills:** Perception +21
-
-**Special qualities:** camouflage, digest corpse, preserving mists
-
-**Ecology**
-
-**Environment:** temperate forests or marshes
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests or marshes
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

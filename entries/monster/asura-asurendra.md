@@ -30,122 +30,82 @@ abilities = ["36", "26", "34", "25", "25", "31"]
 _This four-armed humanoid horror is garbed in golden armor and surrounded by a nimbus of floating,
 glowing weaponry._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: dimensional lock (20 ft., enemies only), elusive (100 ft.)
+Size: huge
+Initiative: +12
+Alignment: Lawful evil
+Type: outsider
+Perception: +34
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, Scent, True seeing
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 307,200
+:::
 
-**aura:** dimensional lock (20 ft., enemies only), elusive (100 ft.)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 35
+Touch: 25
+Flat-footed: 26
+AC modifiers: +5 deflection, +8 Dex, +1 dodge, +3 insight, +10 natural, -2 size
+Hit points: 385 (22d10+264)
+Fort: +25
+Ref: +17
+Will: +20; +2 vs. enchantment spells
+Dr: 15/chaotic and good
+Immune: curse effects, disease, [flanking](ref/rule/flanking), poison, polymorph
+Regen: 10 (good weapons, good spells)
+Resist: acid 10, electricity 10
+Sr: 31
+:::
 
-**Initiative:** +12
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., climb 50 ft., swim 50 ft., fly 50 ft. (perfect)
+Melee: bite +33 (2d6+13 plus [grab](ref/umr/grab) and poison), 6 claws +33 (2d6+13 plus curse)
+Reach: 15
+Space: 15
+Spec Att: curse of false wisdom, spirit blades (+29, 3d6+7/19-20)
+Swallow: 4d6+19 bludgeoning plus 4d8+12 acid damage, AC 15, 38 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: dimensional lock, enemies only, freedom of movement, tongues, true seeing
+At will: death knell (DC 22), greater dispel magic, greater scrying, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: quickened baleful polymorph (DC 25), blasphemy (DC 27), quickened death knell (DC 22), deeper darkness, demand (DC 28)\
+1/day: power word stun, summon (level 9, any 1 CR 19 or lower [asura](ref/family/asura) 100%), time stop
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent, True seeing
-
-**Subtype:** Asura, Evil, Extraplanar, Lawful
-
-**Experience points:** 307,200
-
-**Armor class:** 35
-
-**Touch:** 25
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 deflection, +8 Dex, +1 dodge, +3 insight, +10 natural, -2 size
-
-**Hit points:** 385 (22d10+264)
-
-**Fort:** +25
-
-**Ref:** +17
-
-**Will:** +20; +2 vs. enchantment spells
-
-**Dr:** 15/chaotic and good
-
-**Immune:** curse effects, disease, [flanking](ref/rule/flanking), poison, polymorph
-
-**Regen:** 10 (good weapons, good spells)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft., swim 50 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +33 (2d6+13 plus [grab](ref/umr/grab) and poison), 6 claws +33 (2d6+13 plus curse)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** curse of false wisdom, spirit blades (+29, 3d6+7/19-20)
-
-**Swallow:** 4d6+19 bludgeoning plus 4d8+12 acid damage, AC 15, 38 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- dimensional lock, enemies only, freedom of movement, tongues, true seeing
-
-**At will:**
-
-- death knell (DC 22), greater dispel magic, greater scrying, greater teleport, self plus 50 lbs. of
-  objects only
-
-**Per day:**
-
-- 3/day: quickened baleful polymorph (DC 25), blasphemy (DC 27), quickened death knell (DC 22),
-  deeper darkness, demand (DC 28)
-- 1/day: power word stun, summon (level 9, any 1 CR 19 or lower [asura](ref/family/asura) 100%),
-  time stop
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 26, Con 34, Int 25, Wis 25, Cha 31
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +37 (+41 grapple)
-
-**Combat maneuver defense:** 64
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes^B^, Critical Focus, Deflect Arrows^B^, Dodge^B^,
-Great Cleave, Improved Bull Rush, Improved Initiative, Lightning Reflexes, Mobility^B^, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful polymorph, blade
-barrier, death knell), Snatch Arrows^B^, Spring Attack
-
-**Skills:** Acrobatics +31 (+39 when jumping), Bluff +33, Climb +21, Diplomacy +30, Escape Artist
-+14, Fly +35, Use Magic Device +30
-
-**Racial Modifiers:** +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100
-ft.
+::: statblock
+Ability scores: Str 36, Dex 26, Con 34, Int 25, Wis 25, Cha 31
+Base attack bonus: +22
+Combat maneuver bonus: +37 (+41 grapple)
+Combat maneuver defense: 64
+Feats: Awesome Blow, Cleave, Combat Reflexes^B^, Critical Focus, Deflect Arrows^B^, Dodge^B^, Great Cleave, Improved Bull Rush, Improved Initiative, Lightning Reflexes, Mobility^B^, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (baleful polymorph, blade barrier, death knell), Snatch Arrows^B^, Spring Attack
+Skills: Acrobatics +31 (+39 when jumping), Bluff +33, Climb +21, Diplomacy +30, Escape Artist +14, Fly +35, Use Magic Device +30
+Racial Modifiers: +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or pair
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or pair
+Treasure: Double
+:::
 
 ### Special Abilities
 

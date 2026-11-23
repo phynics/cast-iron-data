@@ -28,125 +28,84 @@ special_qualities = "immortal, no breath, read the threads, starflight"
 abilities = ["30", "13", "24", "19", "18", "19"]
 +++
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: alien presence (180 ft., DC 23)
+Type: dragon
+Size: huge
+Initiative: +11
+Alignment: Neutral
+Perception: +26
+Senses: Detect magic, Dragon senses, See in darkness
+Experience points: 51,200
+:::
 
-**aura:** alien presence (180 ft., DC 23)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 28
+Touch: 9
+Flat-footed: 27
+AC modifiers: +1 Dex, +19 natural, -2 size
+Hit points: 256 (19d12+133)
+Fort: +18
+Ref: +12
+Will: +15
+Dr: 5/magic
+Immune: cold, paralysis, sleep, staggered
+Sr: 26
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 50 ft., fly 200 ft. (poor)
+Br Weap: 50-ft. cone, 12d10 electricity, DC 26
+Melee: bite +28 (2d8+15), 2 claws +28 (2d6+10/19-20), 2 wings +25 (1d8+5), tail slap +25 (2d6+15)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +23
+Constant: detect magic
+At will: clairaudience/clairvoyance, share memory
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +11
+3rd-level spells: 5/day: dispel magic, slow (DC 17)
+2nd-level spells: 7/day: arcane lock, blur, detect thoughts (DC 16)
+1st-level spells: 7/day: erase, feather fall, identify, mage armor, magic missile
+Cantrips: At will: light, mage hand, message, read magic, =3 more
+:::
 
-**Senses:** Detect magic, Dragon senses, See in darkness
+### Statistics
 
-**Experience points:** 51,200
+::: statblock
+Ability scores: Str 30, Dex 13, Con 24, Int 19, Wis 18, Cha 19
+Base attack bonus: +19
+Combat maneuver bonus: +31 (+33 sunder)
+Combat maneuver defense: 44 (48 vs. trip)
+Feats: Cleave, Great Cleave, Improved Critical (claw), Improved Initiative, Multiattack, Power Attack, Skill Focus (Knowledge \[history\]), Step Up, Weapon Focus (bite, claw)
+Skills: Diplomacy +26, Sense Motive +26, Spellcraft +26
+Languages: Common, Draconic, Dwarven, Elven, Sylvan
+Special qualities: immortal, [no breath](ref/umr/no-breath), read the threads, starflight
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +1 Dex, +19 natural, -2 size
-
-**Hit points:** 256 (19d12+133)
-
-**Fort:** +18
-
-**Ref:** +12
-
-**Will:** +15
-
-**Dr:** 5/magic
-
-**Immune:** cold, paralysis, sleep, staggered
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., fly 200 ft. (poor)
-
-**Br Weap:** 50-ft. cone, 12d10 electricity, DC 26
-
-**Melee:** bite +28 (2d8+15), 2 claws +28 (2d6+10/19-20), 2 wings +25 (1d8+5), tail slap +25
-(2d6+15)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +23
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- clairaudience/clairvoyance, share memory
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 5/day: dispel magic, slow (DC 17)
-
-**2nd-level spells:**
-
-- 7/day: arcane lock, blur, detect thoughts (DC 16)
-
-**1st-level spells:**
-
-- 7/day: erase, feather fall, identify, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: light, mage hand, message, read magic, =3 more
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 13, Con 24, Int 19, Wis 18, Cha 19
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +31 (+33 sunder)
-
-**Combat maneuver defense:** 44 (48 vs. trip)
-
-**Feats:** Cleave, Great Cleave, Improved Critical (claw), Improved Initiative, Multiattack, Power
-Attack, Skill Focus (Knowledge \[history\]), Step Up, Weapon Focus (bite, claw)
-
-**Skills:** Diplomacy +26, Sense Motive +26, Spellcraft +26
-
-**Languages:** Common, Draconic, Dwarven, Elven, Sylvan
-
-**Special qualities:** immortal, [no breath](ref/umr/no-breath), read the threads, starflight
-
-**Ecology**
-
-**Environment:** vacuum
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: vacuum
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

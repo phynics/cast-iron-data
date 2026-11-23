@@ -32,88 +32,66 @@ abilities = ["23", "22", "23", "4", "10", "11"]
 _A faint ripple in the air suggests a hazy and vaguely humanoid vapor moving with terrible
 swiftness._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +10
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 12,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 16
+Flat-footed: 17
+AC modifiers: +6 Dex, +7 natural
+Hit points: 149 (13d10+78)
+Fort: +10
+Ref: +14
+Will: +10
+Defensive abilities: natural invisibility
+Dr: 10/magic
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Constrict: 2d8+6
+Melee: 2 slams +19 (2d8+6 plus [grab](ref/umr/grab))
+Smother: present
+Sneak: +2d6
+Spec Att: wind blast
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 23, Dex 22, Con 23, Int 4, Wis 10, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 35
+Feats: Combat Reflexes, Following Step, Improved Initiative, Iron Will, Power Attack, Step Up, Step Up and Strike
+Skills: Fly +20, Knowledge (planes) +5, Perception +16
+Racial Modifiers: +4 Survival
+Languages: Auran, Common
+Special qualities: improved tracking
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 16
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 Dex, +7 natural
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +10
-
-**Ref:** +14
-
-**Will:** +10
-
-**Defensive abilities:** natural invisibility
-
-**Dr:** 10/magic
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Constrict:** 2d8+6
-
-**Melee:** 2 slams +19 (2d8+6 plus [grab](ref/umr/grab))
-
-**Smother:** present
-
-**Sneak:** +2d6
-
-**Spec Att:** wind blast
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 22, Con 23, Int 4, Wis 10, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 35
-
-**Feats:** Combat Reflexes, Following Step, Improved Initiative, Iron Will, Power Attack, Step Up,
-Step Up and Strike
-
-**Skills:** Fly +20, Knowledge (planes) +5, Perception +16
-
-**Racial Modifiers:** +4 Survival
-
-**Languages:** Auran, Common
-
-**Special qualities:** improved tracking
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,91 +31,70 @@ abilities = ["21", "12", "15", "12", "17", "10"]
 
 _Clothed in loose robes and wearing jewelry, this one-eyed giant appears to hold a high station._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +1
+Size: large
+Alignment: Neutral evil
+Perception: +20
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 20
+AC modifiers: +1 Dex, +4 insight, +7 natural, -1 size
+Hit points: 91 (14d8+28)
+Fort: +11
+Ref: +5
+Will: +7
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: mwk Large greataxe +15/+10 (3d6+7/×3)
+Ranged: heavy crossbow +10 (2d8/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Per day: 3/day: divination\
+1/day: augury
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 21, Dex 12, Con 15, Int 12, Wis 17, Cha 10
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 31
+Feats: Alertness, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Power Attack
+Skills: Bluff +10, Intimidate +9, Perception +20
+Racial Modifiers: +8 Perception
+Languages: Common, Cyclops, Giant
+Special qualities: greater flash of insight, protective foresight
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +4 insight, +7 natural, -1 size
-
-**Hit points:** 91 (14d8+28)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk Large greataxe +15/+10 (3d6+7/×3)
-
-**Ranged:** heavy crossbow +10 (2d8/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: divination
-- 1/day: augury
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 15, Int 12, Wis 17, Cha 10
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 31
-
-**Feats:** Alertness, Blind-Fight, Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Power
-Attack
-
-**Skills:** Bluff +10, Intimidate +9, Perception +20
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** greater flash of insight, protective foresight
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary, conclave (2-6), or tribe (7-18)
-
-**Treasure:** Standard (Ah, greataxe, heavy crossbow); other treasure
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary, conclave (2-6), or tribe (7-18)
+Treasure: Standard (Ah, greataxe, heavy crossbow); other treasure
+:::
 
 ### Special Abilities
 

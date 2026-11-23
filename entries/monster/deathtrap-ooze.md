@@ -30,75 +30,60 @@ abilities = ["20", "3", "22", "-", "1", "1"]
 
 _The killing blade of this horrific trap drips with an animated sheen of foul brown-orange slime._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+blindsight: 60
+Initiative: -4
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Shapechanger
+Experience points: 4,800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -4
+::: statblock
+Armor class: 10
+Touch: 5
+Flat-footed: 10
+AC modifiers: -4 Dex, +5 natural, -1 size
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +0
+Will: -1
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Constrict: 2d6+7 plus 2d6 acid
+Melee: slam +13 (2d6+7 plus 2d6 acid and [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 20, Dex 3, Con 22, Int -, Wis 1, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 21 (can't be tripped)
+Skills: Climb +13
+Special qualities: [compression](ref/umr/compression), trap form
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 10
-
-**Touch:** 5
-
-**Flat-footed:** 10
-
-**AC modifiers:** -4 Dex, +5 natural, -1 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +0
-
-**Will:** -1
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Constrict:** 2d6+7 plus 2d6 acid
-
-**Melee:** slam +13 (2d6+7 plus 2d6 acid and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 3, Con 22, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Skills:** Climb +13
-
-**Special qualities:** [compression](ref/umr/compression), trap form
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

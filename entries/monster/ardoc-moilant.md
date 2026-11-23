@@ -31,89 +31,67 @@ abilities = ["31", "11", "-", "10", "18", "9"]
 _This massive metallic biped stands on thick legs. A wide, serrated shovel serves as the brute's
 head, and iron pincers at the ends of its powerful arms snap open and shut._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: +16 natural, -2 size
+Hit points: 124 (13d10+53)
+Fort: +6
+Ref: +4
+Will: +10
+Defensive abilities: loyal servant
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 26
+Weaknesses: thaumaturgical field
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+11
+Melee: gore +21 (2d6+15/19-20), 2 vise-pincers +21 (1d8+10 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: resounding burst, shovelhead, vise-pincers
+Trample: 2d6+15, DC 26
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 11, Con -, Int 10, Wis 18, Cha 9
+Base attack bonus: +13
+Combat maneuver bonus: +25 (+29 grapple, +27 sunder)
+Combat maneuver defense: 35 (37 vs. bull rush, reposition, sunder)
+Feats: Great Fortitude, Improved Sunder, Iron Will, Lunge, Power Attack, Toughness, Vital Strike
+Skills: Knowledge (engineering) +13, Perception +17
+Languages: Common
+Special qualities: death throes, stable footing
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** +16 natural, -2 size
-
-**Hit points:** 124 (13d10+53)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +10
-
-**Defensive abilities:** loyal servant
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 26
-
-**Weaknesses:** thaumaturgical field
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+11
-
-**Melee:** gore +21 (2d6+15/19-20), 2 vise-pincers +21 (1d8+10 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** resounding burst, shovelhead, vise-pincers
-
-**Trample:** 2d6+15, DC 26
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 11, Con -, Int 10, Wis 18, Cha 9
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +25 (+29 grapple, +27 sunder)
-
-**Combat maneuver defense:** 35 (37 vs. bull rush, reposition, sunder)
-
-**Feats:** Great Fortitude, Improved Sunder, Iron Will, Lunge, Power Attack, Toughness, Vital Strike
-
-**Skills:** Knowledge (engineering) +13, Perception +17
-
-**Languages:** Common
-
-**Special qualities:** death throes, stable footing
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or fleet (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or fleet (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

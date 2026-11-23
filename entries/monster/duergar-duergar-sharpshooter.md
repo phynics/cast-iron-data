@@ -29,90 +29,70 @@ special_qualities = "ironskinned, slow and steady, stability, track +1, wild emp
 abilities = ["14", "15", "14", "10", "15", "4"]
 +++
 
-**Challenge rating:** 1/2
-
 **Duergar [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +6
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 armor, +2 Dex
+Hit points: 13 (1d10+3)
+Fort: +4
+Ref: +4
+Will: +2; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Fav En: dwarves +2
+Melee: warhammer +3 (1d8+2/×3)
+Ranged: mwk light crossbow +4 (1d8/19-20)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: -2
+Per day: 1/day: invisibility, self only, ironskin
+:::
 
-**Subtype:** Dwarf
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 10, Wis 15, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (19 vs. bull rush or trip)
+Feats: Rapid Reload (light crossbow)
+Skills: Climb +5, Handle Animal +1, Knowledge (dungeoneering) +4, Perception +6
+Languages: Common, Dwarven, Undercommon
+Special qualities: ironskinned, slow and steady, stability, track +1, [wild empathy](ref/ability/wild-empathy) -2
+Gear: studded leather armor, mwk light crossbow with 20 bolts, warhammer, 16 gp
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +2 Dex
-
-**Hit points:** 13 (1d10+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Fav En:** dwarves +2
-
-**Melee:** warhammer +3 (1d8+2/×3)
-
-**Ranged:** mwk light crossbow +4 (1d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** -2
-
-**Per day:**
-
-- 1/day: invisibility, self only, ironskin
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 10, Wis 15, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (19 vs. bull rush or trip)
-
-**Feats:** Rapid Reload (light crossbow)
-
-**Skills:** Climb +5, Handle Animal +1, Knowledge (dungeoneering) +4, Perception +6
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** ironskinned, slow and steady, stability, track +1,
-[wild empathy](ref/ability/wild-empathy) -2
-
-**Gear:** studded leather armor, mwk light crossbow with 20 bolts, warhammer, 16 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

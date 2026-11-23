@@ -29,78 +29,61 @@ abilities = ["17", "15", "16", "6", "13", "6"]
 _This bat has a wingspan the length of two humans, over-sized ears, and a squat, upturned snout with
 rows of needle-like teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 120
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**blindsense:** 120
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +6
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Melee: bite +6 (2d6+4)
+Reach: 5
+Space: 10
+Spec Att: screech
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int 6, Wis 13, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Flyby Attack, Skill Focus (Stealth)
+Skills: Fly +8, Perception +6 (+10 when using [blindsense](ref/rule/blindsight-and-blindsense)), Stealth +5
+Racial Modifiers: +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
+Languages: Undercommon (can't speak)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Melee:** bite +6 (2d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** screech
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int 6, Wis 13, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Flyby Attack, Skill Focus (Stealth)
-
-**Skills:** Fly +8, Perception +6 (+10 when using [blindsense](ref/rule/blindsight-and-blindsense)),
-Stealth +5
-
-**Racial Modifiers:** +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
-
-**Languages:** Undercommon (can't speak)
-
-**Ecology**
-
-**Environment:** temperate or warm forests, hills, or underground
-
-**Organization:** solitary or colony (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests, hills, or underground
+Organization: solitary or colony (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

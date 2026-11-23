@@ -32,119 +32,76 @@ abilities = ["19", "8", "17", "14", "15", "16"]
 _This enormous woman's eye darts constantly, never settling or focusing. Scrolls dangle from the
 belt that encircles her chiton._
 
-**Challenge rating:** 10
-
 **Cyclops [oracle](ref/class/oracle) ([cyclopean seer](ref/arc-oracle/cyclopean-seer)) 8**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 9,600
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +6 armor, -1 Dex, +7 natural, -1 size
+Hit points: 153 (10d8+8d8+72\~18)
+Fort: +12
+Ref: +4
+Will: +13
+Ferocity: present
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 20 ft.
+Melee: +1 quarterstaff +17/+12/+7 (1d8+7), bite +11 (1d8+2 plus [grab](ref/umr/grab))
+Ranged: heavy crossbow +11 (2d8/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 8
+Concentration: +11
+4th-level spells: 3/day: arcane sight, inflict critical wounds (DC 17), summon monster IV
+3rd-level spells: 6/day: bestow curse (DC 16), detect thoughts (DC 16), inflict serious wounds (DC 16), speak with dead (DC 16)
+2nd-level spells: 7/day: aid, cure moderate wounds, inflict moderate wounds (DC 15), silence (DC 15), true strike
+1st-level spells: 7/day: command (DC 14), comprehend languages, detect poison, divine favor, obscuring mist, shield of faith
+Cantrips: At will: bleed (DC 13), create water, detect magic, guidance, know direction, purify food and drink, stabilize, virtue
+:::
 
-**Subtype:** Giant
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 19, Dex 8, Con 17, Int 14, Wis 15, Cha 16
+Base attack bonus: +13
+Combat maneuver bonus: +18
+Combat maneuver defense: 27
+Feats: Alertness, Brew Potion, Combat Casting, Extra Revelation, Iron Will, Power Attack, Scribe Scroll, Skill Focus (Knowledge \[history\]), Toughness
+Skills: Diplomacy +10, Heal +7, Knowledge (arcana) +13, Knowledge (history) +21, Knowledge (nature) +10, Knowledge (planes) +11, Linguistics +9, Perception +16
+Racial Modifiers: +8 Perception
+Languages: Aklo, Celestial, Common, Cyclops, Draconic, Dwarven, Giant, Orc, Terran
+Special qualities: flash of insight, oracle's curse ([hunger](ref/oraclecurse/hunger)), revelations (assume fate \[3/day\], brutal trance \[8 rounds\], doomsaying \[3/day\], wisdom of the ancestors \[commune, 1/day\])
+Combat gear: 2 potion of cure moderate wounds, 2 potion of invisibility, potion of protection from chaos, 2 scroll of dispel magic, scroll of locate object, 2 scroll of remove curse, 2 scroll of tongues, Dcure light wounds/15 charges, Dinflict serious wounds/8 charges, Dlesser restoration/9 charges, 2 -holy water
+Other gear: +2 Ah, +1 quarterstaff, heavy crossbow with 20 bolts, Ihbac2, 2 at
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 armor, -1 Dex, +7 natural, -1 size
-
-**Hit points:** 153 (10d8+8d8+72\~18)
-
-**Fort:** +12
-
-**Ref:** +4
-
-**Will:** +13
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 quarterstaff +17/+12/+7 (1d8+7), bite +11 (1d8+2 plus [grab](ref/umr/grab))
-
-**Ranged:** heavy crossbow +11 (2d8/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**4th-level spells:**
-
-- 3/day: arcane sight, inflict critical wounds (DC 17), summon monster IV
-
-**3rd-level spells:**
-
-- 6/day: bestow curse (DC 16), detect thoughts (DC 16), inflict serious wounds (DC 16), speak with
-  dead (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: aid, cure moderate wounds, inflict moderate wounds (DC 15), silence (DC 15), true strike
-
-**1st-level spells:**
-
-- 7/day: command (DC 14), comprehend languages, detect poison, divine favor, obscuring mist, shield
-  of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 13), create water, detect magic, guidance, know direction, purify food and
-  drink, stabilize, virtue
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 8, Con 17, Int 14, Wis 15, Cha 16
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 27
-
-**Feats:** Alertness, Brew Potion, Combat Casting, Extra Revelation, Iron Will, Power Attack, Scribe
-Scroll, Skill Focus (Knowledge \[history\]), Toughness
-
-**Skills:** Diplomacy +10, Heal +7, Knowledge (arcana) +13, Knowledge (history) +21, Knowledge
-(nature) +10, Knowledge (planes) +11, Linguistics +9, Perception +16
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Aklo, Celestial, Common, Cyclops, Draconic, Dwarven, Giant, Orc, Terran
-
-**Special qualities:** flash of insight, oracle's curse ([hunger](ref/oraclecurse/hunger)),
-revelations (assume fate \[3/day\], brutal trance \[8 rounds\], doomsaying \[3/day\], wisdom of the
-ancestors \[commune, 1/day\])
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 potion of invisibility, potion of protection
-from chaos, 2 scroll of dispel magic, scroll of locate object, 2 scroll of remove curse, 2 scroll of
-tongues, Dcure light wounds/15 charges, Dinflict serious wounds/8 charges, Dlesser restoration/9
-charges, 2 -holy water
-
-**Other gear:** +2 Ah, +1 quarterstaff, heavy crossbow with 20 bolts, Ihbac2, 2 at
-
-**Ecology**
-
-**Environment:** any temperate or tropical
+::: statblock
+Environment: any temperate or tropical
+:::
 
 ### Description
 

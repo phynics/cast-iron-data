@@ -32,63 +32,50 @@ abilities = ["15", "16", "14", "3", "12", "5"]
 _This dog-sized creature resembles a soft-shelled lobster with underdeveloped claws and an oversized
 pair of mandibles._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +3
+Will: +4
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +4 (1d4+3)
+Spec Att: acid spray (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Subtype:** Aquatic
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +4 (1d4+3)
-
-**Spec Att:** acid spray (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 16, Con 14, Int 3, Wis 12, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +5, Stealth +11, Swim +10
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 15, Dex 16, Con 14, Int 3, Wis 12, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Improved Initiative
+Skills: Perception +5, Stealth +11, Swim +10
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ### Special Abilities
 

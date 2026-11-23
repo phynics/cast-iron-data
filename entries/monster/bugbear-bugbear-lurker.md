@@ -32,93 +32,70 @@ abilities = ["14", "18", "16", "13", "10", "10"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 8
-
 **Bugbear [rogue](ref/class/rogue) 7**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +8
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 18
+AC modifiers: +4 armor, +4 Dex, +1 deflection, +2 natural
+Hit points: 81 (10d8+37)
+Fort: +6
+Ref: +12
+Will: +3
+Evasion: present
+Trap S: +2
+Uncanny dodge: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft., Scent
-
-**Subtype:** Goblinoid
-
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +4 Dex, +1 deflection, +2 natural
-
-**Hit points:** 81 (10d8+37)
-
-**Fort:** +6
-
-**Ref:** +12
-
-**Will:** +3
-
-**Evasion:** present
-
-**Trap S:** +2
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 short sword +12/+7 (1d6+3/19-20)
-
-**Ranged:** javelin +12 (1d6+2)
-
-**Sneak:** +4d6
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +12/+7 (1d6+3/19-20)
+Ranged: javelin +12 (1d6+2)
+Sneak: +4d6
+:::
 
 ### Tactics
 
 **Before Combat** Using fast stealth to approach quickly, the bugbear lurker positions herself to
 land a surprise attack.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 18, Con 16, Int 13, Wis 10, Cha 10
+::: statblock
+Ability scores: Str 14, Dex 18, Con 16, Int 13, Wis 10, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Combat Expertise, Improved Feint, Improved Initiative, Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +16, Bluff +13, Climb +14, Disable Device +16, Intimidate +17, Perception +13, Stealth +31
+Languages: Common, Goblin, Orc
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +4, [fast stealth](ref/talent/fast-stealth), [surprise attack](ref/talent/surprise-attack)), stalker, [trapfinding](ref/ability/trapfinding) +3
+Combat gear: 4 alchemist's fire
+Other gear: mwk chain shirt, +1 short sword, 4 javelins, I-cloak of elvenkind, ring of prot1, 656 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Expertise, Improved Feint, Improved Initiative, Skill Focus (Stealth), Weapon
-Finesse
-
-**Skills:** Acrobatics +16, Bluff +13, Climb +14, Disable Device +16, Intimidate +17, Perception
-+13, Stealth +31
-
-**Languages:** Common, Goblin, Orc
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +4,
-[fast stealth](ref/talent/fast-stealth), [surprise attack](ref/talent/surprise-attack)), stalker,
-[trapfinding](ref/ability/trapfinding) +3
-
-**Combat gear:** 4 alchemist's fire
-
-**Other gear:** mwk chain shirt, +1 short sword, 4 javelins, I-cloak of elvenkind, ring of prot1,
-656 gp
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

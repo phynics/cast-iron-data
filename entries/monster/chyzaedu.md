@@ -30,123 +30,82 @@ abilities = ["32", "11", "21", "16", "21", "14"]
 _The massive, worm-like form of this eyeless, beaked beast is draped in shimmering metallic
 vestments._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+aura: ecstatic hunger (30 ft., DC 19)
+Size: gargantuan
+Initiative: +0
+Alignment: Lawful evil
+Perception: +22
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** ecstatic hunger (30 ft., DC 19)
+::: statblock
+Armor class: 24
+Touch: 6
+Flat-footed: 24
+AC modifiers: +6 armor, +12 natural, -4 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +4
+Will: +14
+Defensive abilities: 50% chance to negate critical hits and sneak attacks
+Dr: 10/magic
+Immune: acid, mind-affecting effects
+Sr: 21
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +0
+::: statblock
+Speed: 30 ft., burrow 20 ft., climb 20 ft.
+Melee: bite +17 (2d8+11 plus [grab](ref/umr/grab)), claw +17 (2d6+11)
+Reach: 20
+Space: 20
+Swallow: 5d6 acid damage, AC 16, 13 hp
+:::
 
-**Alignment:** Lawful evil
+::: statblock
+title = "Prepared Spells"
+Caster level: 10
+Concentration: +15
+5th-level spells: greater command (DC 20), mass inflict light wounds (DC 20), scrying (DC 20)
+4th-level spells: air walk, cure critical wounds, dimensional anchor, sending
+3rd-level spells: blindness/deafness (DC 18), deeper darkness, magic circle against good, prayer
+2nd-level spells: enthrall (DC 17), shatter (DC 17), silence (DC 17), sound burst (DC 17), spiritual weapon
+1st-level spells: cause fear (DC 16), command (DC 16), cure light wounds, divine favor, sanctuary (DC 16), shield of faith
+Cantrips: bleed, create water, detect magic, resistance
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**tremorsense:** 60
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 6
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 armor, +12 natural, -4 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +14
-
-**Defensive abilities:** 50% chance to negate critical hits and sneak attacks
-
-**Dr:** 10/magic
-
-**Immune:** acid, mind-affecting effects
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., climb 20 ft.
-
-**Melee:** bite +17 (2d8+11 plus [grab](ref/umr/grab)), claw +17 (2d6+11)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 5d6 acid damage, AC 16, 13 hp
-
-**Prepared Spells**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**5th-level spells:**
-
-- greater command (DC 20), mass inflict light wounds (DC 20), scrying (DC 20)
-
-**4th-level spells:**
-
-- air walk, cure critical wounds, dimensional anchor, sending
-
-**3rd-level spells:**
-
-- blindness/deafness (DC 18), deeper darkness, magic circle against good, prayer
-
-**2nd-level spells:**
-
-- enthrall (DC 17), shatter (DC 17), silence (DC 17), sound burst (DC 17), spiritual weapon
-
-**1st-level spells:**
-
-- cause fear (DC 16), command (DC 16), cure light wounds, divine favor, sanctuary (DC 16), shield of
-  faith
-
-**Cantrips:**
-
-- bleed, create water, detect magic, resistance
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 11, Con 21, Int 16, Wis 21, Cha 14
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +25 (+27 bull rush)
-
-**Combat maneuver defense:** 35 (37 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Casting, Eschew Materials^B^, Extend Spell, Improved Bull Rush,
-Intimidating Prowess, Power Attack, Vital Strike
-
-**Skills:** Climb +16, Diplomacy +16, Intimidate +30, Knowledge (religion) +20, Perception +22
-
-**Languages:** Aklo, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** alien vestment
+::: statblock
+Ability scores: Str 32, Dex 11, Con 21, Int 16, Wis 21, Cha 14
+Base attack bonus: +10
+Combat maneuver bonus: +25 (+27 bull rush)
+Combat maneuver defense: 35 (37 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Casting, Eschew Materials^B^, Extend Spell, Improved Bull Rush, Intimidating Prowess, Power Attack, Vital Strike
+Skills: Climb +16, Diplomacy +16, Intimidate +30, Knowledge (religion) +20, Perception +22
+Languages: Aklo, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: alien vestment
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double; 7,500 gp of metallic material, other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double; 7,500 gp of metallic material, other treasure
+:::
 
 ### Special Abilities
 

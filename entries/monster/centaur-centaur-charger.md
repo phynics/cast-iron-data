@@ -32,88 +32,67 @@ abilities = ["20", "16", "22", "9", "16", "12"]
 _An imposing wall of steel, corded muscle, and blood-stained banners, this centaur wields a lance
 and shield with the majesty and prowess of any human knight._
 
-**Challenge rating:** 14
-
 **Centaur [cavalier](ref/class/cavalier) ([charger](ref/arc-cavalier/charger)) 11**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 14
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft.
+Experience points: 38,400
+:::
 
-**Size:** large
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 24
+AC modifiers: +8 armor, +1 deflection, +3 Dex, +2 natural, +4 shield, -1 size
+Hit points: 183 (4d10+11d10+101\~15)
+Fort: +15
+Ref: +11
+Will: +11
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 90 ft.
+Melee: +2 lance +22/+17/+12 (1d8+9/×3), 2 hooves +15 (2d6+2/19-20) or mwk longsword +20/+15/+10 (1d8+5/19-20), 2 hooves +15 (2d6+2/19-20)
+Ranged: spear +17/+12/+7 (1d8+5/×3)
+Reach: 5
+Space: 10
+Spec Att: banner +3/+2, challenge (+11, +3, 4/day), ride down, thundering hooves
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 38,400
-
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +8 armor, +1 deflection, +3 Dex, +2 natural, +4 shield, -1 size
-
-**Hit points:** 183 (4d10+11d10+101\~15)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 90 ft.
-
-**Melee:** +2 lance +22/+17/+12 (1d8+9/×3), 2 hooves +15 (2d6+2/19-20) or mwk longsword +20/+15/+10
-(1d8+5/19-20), 2 hooves +15 (2d6+2/19-20)
-
-**Ranged:** spear +17/+12/+7 (1d8+5/×3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** banner +3/+2, challenge (+11, +3, 4/day), ride down, thundering hooves
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con 22, Int 9, Wis 16, Cha 12
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Acrobatic Steps, Cavalry Formation, Dazzling Display^B^, Lookout, Nimble Moves, Power
-Attack, Quick Draw, Ride-By Attack, Spirited Charge, Weapon Focus (lance), Weapon Focus (hooves)
-
-**Skills:** Acrobatics +13 (+25 when jumping), Bluff +10, Intimidate +13, Knowledge (nature) +3,
-Perception +10
-
-**Languages:** Common, Elven, Sylvan
-
-**Special qualities:** courser, greater tactician (3/day, 8 rounds, swift action), natural mount,
-order of the cockatrice (braggart, steal glory), [undersized weapons](ref/umr/undersized-weapons)
-
-**Combat gear:** potion of cure serious wounds, potion of heroism, potion of spider climb
-
-**Other gear:** +2 MM breastplate, +2 heavy steel shield, +2 lance, mwk longsword, 4 spears, Iamu1,
-Ibomc2, Iclk1, I-horseshoes of speed, ring of prot1, 3 [banners](ref/eq-misc/banner)
+::: statblock
+Ability scores: Str 20, Dex 16, Con 22, Int 9, Wis 16, Cha 12
+Base attack bonus: +15
+Combat maneuver bonus: +21
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Acrobatic Steps, Cavalry Formation, Dazzling Display^B^, Lookout, Nimble Moves, Power Attack, Quick Draw, Ride-By Attack, Spirited Charge, Weapon Focus (lance), Weapon Focus (hooves)
+Skills: Acrobatics +13 (+25 when jumping), Bluff +10, Intimidate +13, Knowledge (nature) +3, Perception +10
+Languages: Common, Elven, Sylvan
+Special qualities: courser, greater tactician (3/day, 8 rounds, swift action), natural mount, order of the cockatrice (braggart, steal glory), [undersized weapons](ref/umr/undersized-weapons)
+Combat gear: potion of cure serious wounds, potion of heroism, potion of spider climb
+Other gear: +2 MM breastplate, +2 heavy steel shield, +2 lance, mwk longsword, 4 spears, Iamu1, Ibomc2, Iclk1, I-horseshoes of speed, ring of prot1, 3 [banners](ref/eq-misc/banner)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate forests and plains
+::: statblock
+Environment: temperate forests and plains
+:::
 
 ### Description
 

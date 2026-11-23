@@ -32,117 +32,79 @@ abilities = ["23", "16", "21", "14", "18", "17"]
 _This imposing creature stands on three legs, with a body like three torsos fused together. These
 torsos are topped with a single head bearing three faces, each set in a bland, serene expression._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 30
+Initiative: +7
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +41
+Senses: Darkvision 90 ft., True seeing
+Subtype: Extraplanar, Lawful
+Experience points: 51,200
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 27
+AC modifiers: +6 armor, +3 Dex, +12 natural, -1 size
+Hit points: 210 (20d10+100)
+Fort: +17
+Ref: +11
+Will: +18
+Dr: 10/chaotic
+Immune: disease, electricity, mind-affecting effects
+Regen: 5 (chaotic or magic)
+Resist: cold 10, fire 10
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: +1 merciful greatclub +26/+21/+16/+11 (2d8+10), tentacle +20 (1d6+3 plus [grab](ref/umr/grab)), slam +20 (2d6+3 plus energized maul) or +1 axiomatic glaive +26 (2d8+10/×3), +1 merciful greatclub +26 (2d8+10), tentacle +25 (1d6+3 plus grab), slam +25 (2d6+3 plus energized maul)
+Reach: 10
+Reach P: 15 ft. with glaive and tentacle
+Space: 10
+Spec Att: energized maul, tripartite assault, watchful faces
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +23
+Constant: true seeing
+At will: detect chaos, overland flight
+Per day: 3/day: detect thoughts (DC 15), dimension door, dimensional anchor, dispel chaos (DC 18), hold monster (DC 18), order's wrath (DC 17), sending\
+1/day: break enchantment, dictum (DC 20), mass hold monster (DC 22)
+:::
 
-**Perception:** +41
+### Statistics
 
-**Senses:** Darkvision 90 ft., True seeing
+::: statblock
+Ability scores: Str 23, Dex 16, Con 21, Int 14, Wis 18, Cha 17
+Base attack bonus: +20
+Combat maneuver bonus: +27 (+29 disarm and trip)
+Combat maneuver defense: 40 (42 vs. disarm and trip)
+Feats: Cleave, Combat Expertise, Great Cleave, Improved Disarm, Improved Initiative, Improved Trip, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception)
+Skills: Acrobatics +23, Diplomacy +26, Sense Motive +31, Spellcraft +22
+Racial Modifiers: +8 Perception, +4 Sense Motive
+Languages: Abyssal, Celestial, Common; _truespeech_
+Special qualities: interrogate
+:::
 
-**Subtype:** Extraplanar, Lawful
+### Ecology {#stat-ecology}
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +6 armor, +3 Dex, +12 natural, -1 size
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +18
-
-**Dr:** 10/chaotic
-
-**Immune:** disease, electricity, mind-affecting effects
-
-**Regen:** 5 (chaotic or magic)
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** +1 merciful greatclub +26/+21/+16/+11 (2d8+10), tentacle +20 (1d6+3 plus
-[grab](ref/umr/grab)), slam +20 (2d6+3 plus energized maul) or +1 axiomatic glaive +26 (2d8+10/×3),
-+1 merciful greatclub +26 (2d8+10), tentacle +25 (1d6+3 plus grab), slam +25 (2d6+3 plus energized
-maul)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with glaive and tentacle
-
-**Space:** 10
-
-**Spec Att:** energized maul, tripartite assault, watchful faces
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +23
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- detect chaos, overland flight
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 15), dimension door, dimensional anchor, dispel chaos (DC 18), hold
-  monster (DC 18), order's wrath (DC 17), sending
-- 1/day: break enchantment, dictum (DC 20), mass hold monster (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 16, Con 21, Int 14, Wis 18, Cha 17
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +27 (+29 disarm and trip)
-
-**Combat maneuver defense:** 40 (42 vs. disarm and trip)
-
-**Feats:** Cleave, Combat Expertise, Great Cleave, Improved Disarm, Improved Initiative, Improved
-Trip, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Perception)
-
-**Skills:** Acrobatics +23, Diplomacy +26, Sense Motive +31, Spellcraft +22
-
-**Racial Modifiers:** +8 Perception, +4 Sense Motive
-
-**Languages:** Abyssal, Celestial, Common; _truespeech_
-
-**Special qualities:** interrogate
-
-**Ecology**
-
-**Environment:** any urban ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, patrol (2-4), squad (5-8), precinct (9-16), or academy (21-40)
-
-**Treasure:** Double (L mwk breastplate, L +1 axiomatic glaive, L +1 M greatclub); other treasure
+::: statblock
+Environment: any urban ([Axis](ref/rule/utopia))
+Organization: solitary, patrol (2-4), squad (5-8), precinct (9-16), or academy (21-40)
+Treasure: Double (L mwk breastplate, L +1 axiomatic glaive, L +1 M greatclub); other treasure
+:::
 
 ### Special Abilities
 

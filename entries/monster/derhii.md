@@ -38,77 +38,61 @@ abilities = ["21", "16", "17", "9", "12", "10"]
 _Powerful black wings beat from the back of this large ape, which carries a wickedly curved sword in
 its simian hands._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 59 (7d10+21)
+Fort: +5
+Ref: +8
+Will: +8
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 60 ft. (poor)
+Melee: mwk falchion +12/+7 (2d6+7/18-20) or 2 slams +11 (1d6+5)
+Ranged: javelin +9 (1d8+5)
+Reach: 10
+Space: 10
+Spec Att: aerial charge, knockdown
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Acrobatic, Combat Reflexes, Iron Will, Skill Focus (Perception)
+Skills: Acrobatics +12, Climb +13, Perception +14
+Languages: Auran, Common
+Special qualities: booming voice
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 60 ft. (poor)
-
-**Melee:** mwk falchion +12/+7 (2d6+7/18-20) or 2 slams +11 (1d6+5)
-
-**Ranged:** javelin +9 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** aerial charge, knockdown
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Acrobatic, Combat Reflexes, Iron Will, Skill Focus (Perception)
-
-**Skills:** Acrobatics +12, Climb +13, Perception +14
-
-**Languages:** Auran, Common
-
-**Special qualities:** booming voice
-
-**Ecology**
-
-**Environment:** warm forests and mountains
-
-**Organization:** solitary, pair, troop (3-5), or tribe (8-48)
-
-**Treasure:** Standard (mwk falchion, 4 javelins); other treasure
+::: statblock
+Environment: warm forests and mountains
+Organization: solitary, pair, troop (3-5), or tribe (8-48)
+Treasure: Standard (mwk falchion, 4 javelins); other treasure
+:::
 
 ### Special Abilities
 

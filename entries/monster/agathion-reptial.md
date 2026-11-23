@@ -30,101 +30,73 @@ abilities = ["12", "17", "14", "19", "16", "19"]
 
 _This iguana-headed scholar wears a robe of frills and scales covered in baubles and trinkets._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Alignment: Neutral good
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Agathion, Extraplanar, Good
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral good
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +4 natural, +1 size
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +7
+Will: +7; +4 vs. poison
+Dr: 5/evil or silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 15
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +9 (1d4+1), 2 claws +9 (1d3+1)
+Spec Att: imposing presence
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9
+Constant: speak with animals
+At will: faerie fire
+Per day: 3/day: color spray (DC 15), hypnotism (DC 15), protection from evil (DC 15), object reading\
+1/day: hideous laughter (DC 16)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Agathion, Extraplanar, Good
+::: statblock
+Ability scores: Str 12, Dex 17, Con 14, Int 19, Wis 16, Cha 19
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Dodge, Improved Initiative, Scribe Scroll, Weapon Finesse
+Skills: Acrobatics +10, Climb +9, Diplomacy +9, Sense Motive +11, Spellcraft +12, Stealth +15
+Languages: Celestial, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (2d6, 6/day, as a 5th-level paladin), relic collector
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural, +1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +7; +4 vs. poison
-
-**Dr:** 5/evil or silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +9 (1d4+1), 2 claws +9 (1d3+1)
-
-**Spec Att:** imposing presence
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- faerie fire
-
-**Per day:**
-
-- 3/day: color spray (DC 15), hypnotism (DC 15), protection from evil (DC 15), object reading
-- 1/day: hideous laughter (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 14, Int 19, Wis 16, Cha 19
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Improved Initiative, Scribe Scroll, Weapon Finesse
-
-**Skills:** Acrobatics +10, Climb +9, Diplomacy +9, Sense Motive +11, Spellcraft +12, Stealth +15
-
-**Languages:** Celestial, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (2d6, 6/day, as a 5th-level
-paladin), relic collector
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or mess (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or mess (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

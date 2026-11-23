@@ -31,109 +31,79 @@ abilities = ["23", "12", "18", "12", "13", "12"]
 _This massive serpentine and wingless creature has jade scales and antlers, and sounds like grinding
 stones as it stalks forth._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +15
+Senses: Dragon senses
+Subtype: Earth
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 21
+AC modifiers: +1 Dex, +12 natural, -1 size
+Hit points: 126 (11d12+55)
+Fort: +11
+Ref: +8
+Will: +8
+Immune: paralysis, poison, sleep
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d6 piercing damage, DC 19
+Melee: bite +17 (2d6+9), 2 claws +16 (1d8+6), gore +16 (1d8+9), tail slap +14 (1d8+9)
+Reach: 5
+Reach P: 10 ft. with bite and gore
+Space: 10
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +12
+At will: pass without trace
+:::
 
-**Senses:** Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +12
+1st-level spells: 4/day: obscuring mist, shield
+Cantrips: At will: ghost sound, read magic, resistance, touch of fatigue
+:::
 
-**Subtype:** Earth
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 23, Dex 12, Con 18, Int 12, Wis 13, Cha 12
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Improved Initiative, Multiattack, Power Attack, Skill Focus (Stealth), Toughness, Weapon Focus (bite)
+Skills: Acrobatics +7 (+11 when jumping), Bluff +15, Climb +28, Intimidate +15, Knowledge (arcana, nature) +9, Perception +15
+Languages: Common, Draconic
+Special qualities: sound imitation, [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +12 natural, -1 size
-
-**Hit points:** 126 (11d12+55)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** paralysis, poison, sleep
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., climb 30 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d6 piercing damage, DC 19
-
-**Melee:** bite +17 (2d6+9), 2 claws +16 (1d8+6), gore +16 (1d8+9), tail slap +14 (1d8+9)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite and gore
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +12
-
-**At will:**
-
-- pass without trace
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +12
-
-**1st-level spells:**
-
-- 4/day: obscuring mist, shield
-
-**Cantrips:**
-
-- At will: ghost sound, read magic, resistance, touch of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 18, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Improved Initiative, Multiattack, Power Attack, Skill Focus (Stealth), Toughness, Weapon
-Focus (bite)
-
-**Skills:** Acrobatics +7 (+11 when jumping), Bluff +15, Climb +28, Intimidate +15, Knowledge
-(arcana, nature) +9, Perception +15
-
-**Languages:** Common, Draconic
-
-**Special qualities:** sound imitation, [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

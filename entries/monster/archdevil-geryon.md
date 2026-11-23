@@ -31,129 +31,84 @@ abilities = ["38", "21", "42", "33", "30", "33"]
 _This tripartite being has three humanoid bodies engulfed from the waist down by a tangle of three
 immense serpents._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), shield of law (DC 29)
+Size: huge
+Initiative: +9
+Alignment: Lawful evil
+Type: outsider
+Perception: +47
+Senses: Darkvision 60 ft., Detect chaos, Detect good, Scent, See in darkness, True seeing
+Subtype: Aquatic, Devil, Evil, Extraplanar, Lawful
+Experience points: 6,553,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), shield of law (DC 29)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 47
+Touch: 32
+Flat-footed: 42
+AC modifiers: +4 deflection, +5 Dex, +8 natural, +15 profane, +7 shield, -2 size
+Hit points: 731 (34d10+544)
+Fort: +31
+Ref: +28
+Will: +33; +8 vs. mind-affecting effects
+Defensive abilities: all-around vision, envenomed scales, infernal resurrection, _[mind blank](ref/spell/mind-blank)_, threefold body
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm, cold, compulsion, death effects, energy drain, fire, memory loss effects, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30
+Sr: 40
+:::
 
-**Initiative:** +9
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., swim 50 ft.
+Melee: +5 cruel dispelling burst unholy flail +47/+42/+37/+32 (3d6+19/19-20), +1 heavy shield +43/+38 (2d6+15/19-20), 3 claws +41 (1d6+7), 3 tail slaps +41 (2d6+7/19-20 plus poison)
+Reach: 15
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 15
+Spec Att: casterbane, corrupting caress, perceive destiny
+:::
 
-**Type:** outsider
-
-**Perception:** +47
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Scent, See in darkness, True seeing
-
-**Subtype:** Aquatic, Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 32
-
-**Flat-footed:** 42
-
-**AC modifiers:** +4 deflection, +5 Dex, +8 natural, +15 profane, +7 shield, -2 size
-
-**Hit points:** 731 (34d10+544)
-
-**Fort:** +31
-
-**Ref:** +28
-
-**Will:** +33; +8 vs. mind-affecting effects
-
-**Defensive abilities:** all-around vision, envenomed scales, infernal resurrection,
-_[mind blank](ref/spell/mind-blank)_, threefold body
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm, cold, compulsion, death effects, energy drain,
-fire, memory loss effects, petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 50 ft., swim 50 ft.
-
-**Melee:** +5 cruel dispelling burst unholy flail +47/+42/+37/+32 (3d6+19/19-20), +1 heavy shield
-+43/+38 (2d6+15/19-20), 3 claws +41 (1d6+7), 3 tail slaps +41 (2d6+7/19-20 plus poison)
-
-**Reach:** 15
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 15
-
-**Spec Att:** casterbane, corrupting caress, perceive destiny
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +40
-
-**Constant:**
-
-- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
-
-**At will:**
-
-- astral projection, black tentacles^M^, desecrate^M^, dictum^M^ (DC 28), greater dispel magic,
-  greater teleport, mindwipe (DC 25), modify memory^M^ (DC 25), order's wrath^M^ (DC 25), unhallow,
-  wall of ice
-
-**Per day:**
-
-- 3/day: feeblemind (DC 26), quickened mindwipe (DC 25), mislead, persistent image (DC 26), summon
-  devils, vision
-- 1/day: prediction of failure (DC 29), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +40
+Constant: air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
+At will: astral projection, black tentacles^M^, desecrate^M^, dictum^M^ (DC 28), greater dispel magic, greater teleport, mindwipe (DC 25), modify memory^M^ (DC 25), order's wrath^M^ (DC 25), unhallow, wall of ice
+Per day: 3/day: feeblemind (DC 26), quickened mindwipe (DC 25), mislead, persistent image (DC 26), summon devils, vision\
+1/day: prediction of failure (DC 29), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Geryon can use this ability's mythic version in its realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 38, Dex 21, Con 42, Int 33, Wis 30, Cha 33
+::: statblock
+Ability scores: Str 38, Dex 21, Con 42, Int 33, Wis 30, Cha 33
+Base attack bonus: +34
+Combat maneuver bonus: +50 (+54 disarm, trip)
+Combat maneuver defense: 84 (86 vs. disarm, can't be tripped)
+Feats: Blinding Critical, Combat Expertise, Critical Focus, Double Slice, Greater Disarm, Greater Trip, Improved Critical (flail, heavy shield, tail slap), Improved Disarm, Improved Initiative, Improved Shield Bash, Improved Trip, Improved Two-Weapon Fighting, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mindwipe), Spellbreaker, Two-Weapon Fighting
+Skills: Bluff +48, Diplomacy +48, Sense Motive +47, Spellcraft +48, Swim +21
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (humanoid and serpentine; [shapechange](ref/spell/shapechange))
+Faith: Geryon
+:::
 
-**Base attack bonus:** +34
+### Ecology
 
-**Combat maneuver bonus:** +50 (+54 disarm, trip)
-
-**Combat maneuver defense:** 84 (86 vs. disarm, can't be tripped)
-
-**Feats:** Blinding Critical, Combat Expertise, Critical Focus, Double Slice, Greater Disarm,
-Greater Trip, Improved Critical (flail, heavy shield, tail slap), Improved Disarm, Improved
-Initiative, Improved Shield Bash, Improved Trip, Improved Two-Weapon Fighting, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mindwipe), Spellbreaker, Two-Weapon Fighting
-
-**Skills:** Bluff +48, Diplomacy +48, Sense Motive +47, Spellcraft +48, Swim +21
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape)
-(humanoid and serpentine; [shapechange](ref/spell/shapechange))
-
-**Faith:** Geryon
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 AD bashing heavy steel shield, +5 cruel DB unholy light flail, Horn of
-Lies); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (+5 AD bashing heavy steel shield, +5 cruel DB unholy light flail, Horn of Lies); other treasure
+:::
 
 ### Special Abilities
 

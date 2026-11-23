@@ -34,108 +34,76 @@ abilities = ["32", "25", "28", "5", "24", "17"]
 _This beast's bulbous body perches atop four sucker-ended, multijointed legs, and possesses two
 gnashing, ophidian maws._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +11
+Size: large
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 28
+Touch: 17
+Flat-footed: 20
+AC modifiers: +7 Dex, +1 dodge, +11 natural, -1 size
+Hit points: 175 (13d8+117)
+Fort: +13
+Ref: +11
+Will: +15
+Defensive abilities: all-around vision
+Dr: 10/lawful
+Immune: blindness, dazzling, poison, visual effects
+Resist: cold 20, fire 20
+Sr: 24
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., climb 60 ft.
+F Swallow: present
+Melee: 2 bites +19 (4d6+11/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: forever gullet
+Swallow: 8d6 slashing damage, AC 15, 17 hp
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+Constant: feather fall
+At will: gust of wind (DC 15)
+Per day: 1/day: control winds (DC 18), wind wall
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 32, Dex 25, Con 28, Int 5, Wis 24, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 39 (43 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Mobility, Spring Attack, Wind Stance
+Skills: Climb +29, Perception +16
+Languages: Abyssal
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +1 dodge, +11 natural, -1 size
-
-**Hit points:** 175 (13d8+117)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +15
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/lawful
-
-**Immune:** blindness, dazzling, poison, visual effects
-
-**Resist:** cold 20, fire 20
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft.
-
-**F Swallow:** present
-
-**Melee:** 2 bites +19 (4d6+11/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** forever gullet
-
-**Swallow:** 8d6 slashing damage, AC 15, 17 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**Constant:**
-
-- feather fall
-
-**At will:**
-
-- gust of wind (DC 15)
-
-**Per day:**
-
-- 1/day: control winds (DC 18), wind wall
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 25, Con 28, Int 5, Wis 24, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 39 (43 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Mobility, Spring
-Attack, Wind Stance
-
-**Skills:** Climb +29, Perception +16
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** cold mountains (Material Plane or [the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: cold mountains (Material Plane or [the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or pack (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

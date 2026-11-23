@@ -33,86 +33,61 @@ abilities = ["20", "12", "16", "12", "8", "15"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 13
-
 **Male bugbear [antipaladin](ref/class/antipaladin) ([fearmonger](ref/arc-antipaladin/fearmonger))
 12**
 
-**aura:** cowardice (10 ft.), despair (10 ft.), vengeance (10 ft.)
+::: statblock
+Challenge rating: 13
+aura: cowardice (10 ft.), despair (10 ft.), vengeance (10 ft.)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 26
+AC modifiers: +11 armor, +1 deflection, +1 Dex, +4 natural
+Hit points: 136 (3d8+12d10+57\~15)
+Fort: +15
+Ref: +11
+Will: +11
+Immune: disease
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Ch N En: DC 18, 6d6
+Melee: +2 falchion +22/+17/+12 (2d4+9/18-20)
+Ranged: mwk javelin +16 (1d6+5)
+Spec Att: smite good 4/day (+2 attack and AC, +12 damage)
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+At will: detect good
+:::
 
-**Senses:** Darkvision 60 ft., Scent
-
-**Subtype:** Goblinoid
-
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 12
-
-**Flat-footed:** 26
-
-**AC modifiers:** +11 armor, +1 deflection, +1 Dex, +4 natural
-
-**Hit points:** 136 (3d8+12d10+57\~15)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +11
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** DC 18, 6d6
-
-**Melee:** +2 falchion +22/+17/+12 (2d4+9/18-20)
-
-**Ranged:** mwk javelin +16 (1d6+5)
-
-**Spec Att:** smite good 4/day (+2 attack and AC, +12 damage)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**At will:**
-
-- detect good
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- isolate (DC 15)
-
-**2nd-level spells:**
-
-- corruption resistance, litany of warding, scare (DC 14)
-
-**1st-level spells:**
-
-- disguise self, litany of sloth, litany of weakness
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +11
+3rd-level spells: isolate (DC 15)
+2nd-level spells: corruption resistance, litany of warding, scare (DC 14)
+1st-level spells: disguise self, litany of sloth, litany of weakness
+:::
 
 ### Tactics
 
@@ -124,34 +99,26 @@ with Cruel Opportunist and Hurtful, while regaining hit points using his feed on
 tyrant cares little about the lives of those he fights alongside; if he must retreat, he allows his
 allies to die.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 12, Con 16, Int 12, Wis 8, Cha 15
+::: statblock
+Ability scores: Str 20, Dex 12, Con 16, Int 12, Wis 8, Cha 15
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 30
+Feats: _Cruel Opportunist_, Dazzling Display, Hurtful, Intimidating Prowess, Pile On, Power Attack, Visceral Threat, Weapon Focus (falchion)
+Skills: Intimidate +26, Perception +11, Stealth +15
+Languages: Abyssal, Common, Goblin
+Special qualities: cruelties (dazed, frightened, panicked), feed on fear (6 hp), fiendish boon (weapon +3, 2/day), stalker
+Combat gear: I-elixir of oppression, potion of cure moderate wounds
+Other gear: +2 full plate, +2 falchion, 2 mwk javelins, Iamu1, I-boots of striding and springing, Iclk1, ring of prot1, 973 gp
+:::
 
-**Base attack bonus:** +14
+### Ecology
 
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30
-
-**Feats:** _Cruel Opportunist_, Dazzling Display, Hurtful, Intimidating Prowess, Pile On, Power
-Attack, Visceral Threat, Weapon Focus (falchion)
-
-**Skills:** Intimidate +26, Perception +11, Stealth +15
-
-**Languages:** Abyssal, Common, Goblin
-
-**Special qualities:** cruelties (dazed, frightened, panicked), feed on fear (6 hp), fiendish boon
-(weapon +3, 2/day), stalker
-
-**Combat gear:** I-elixir of oppression, potion of cure moderate wounds
-
-**Other gear:** +2 full plate, +2 falchion, 2 mwk javelins, Iamu1, I-boots of striding and
-springing, Iclk1, ring of prot1, 973 gp
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

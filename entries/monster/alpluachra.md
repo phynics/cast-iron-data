@@ -32,81 +32,63 @@ abilities = ["4", "13", "14", "4", "11", "11"]
 _This minuscule creature resembles a newt with three tails. It's covered in a transparent slime, and
 looks hungry._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic neutral
+Size: diminutive
+Type: fey
+Initiative: +1
+Perception: +4
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 5 (1d6+2)
+Fort: +2
+Ref: +3
+Will: +2
+Defensive abilities: numbing slime
+Weaknesses: vulnerable to salt
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 10 ft., swim 10 ft.
+Melee: bite +1 (1d2-3)
+Reach: 0
+Space: 1
+Spec Att: implant
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 4, Dex 13, Con 14, Int 4, Wis 11, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 4 (8 vs. trip)
+Feats: Skill Focus (Stealth)
+Skills: Escape Artist +5, Perception +4, Stealth +20, Swim +5
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 5 (1d6+2)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +2
-
-**Defensive abilities:** numbing slime
-
-**Weaknesses:** vulnerable to salt
-
-**Offense**
-
-**Speed:** 10 ft., swim 10 ft.
-
-**Melee:** bite +1 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** implant
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 13, Con 14, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 4 (8 vs. trip)
-
-**Feats:** Skill Focus (Stealth)
-
-**Skills:** Escape Artist +5, Perception +4, Stealth +20, Swim +5
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate forests or fresh water
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or fresh water
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

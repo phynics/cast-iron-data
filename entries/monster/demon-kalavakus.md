@@ -29,99 +29,73 @@ abilities = ["22", "13", "24", "15", "17", "16"]
 
 _This muscular, violet demon walks upon elephantine feet. Large, razor-sharp horns cover its body._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 24
+AC modifiers: +1 Dex, +14 natural
+Hit points: 125 (10d10+70)
+Fort: +10
+Ref: +8
+Will: +10
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +16 (1d6+6), 2 claws +16 (1d8+6), gore +16 (2d6+6)
+Pow Ch: gore, 4d6+12
+Spec Att: enslave soul, horns
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+At will: command (DC 14), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
+Per day: 3/day: air walk, dominate person (DC 18), haste\
+1/day: greater command (DC 18), summon (level 4, 1 kalavakus 40%), symbol of persuasion (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 13, Con 24, Int 15, Wis 17, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +16 (+22 disarm)
+Combat maneuver defense: 27
+Feats: Combat Expertise, Improved Bull Rush, Improved Disarm, Improved Trip, Power Attack
+Skills: Acrobatics +14, Climb +19, Intimidate +16, Knowledge (planes) +15, Perception +24, Sense Motive +16, Stealth +14, Use Magic Device +16
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +14 natural
-
-**Hit points:** 125 (10d10+70)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +16 (1d6+6), 2 claws +16 (1d8+6), gore +16 (2d6+6)
-
-**Pow Ch:** gore, 4d6+12
-
-**Spec Att:** enslave soul, horns
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**At will:**
-
-- command (DC 14), greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 18)
-
-**Per day:**
-
-- 3/day: air walk, dominate person (DC 18), haste
-- 1/day: greater command (DC 18), summon (level 4, 1 kalavakus 40%), symbol of persuasion (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 24, Int 15, Wis 17, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16 (+22 disarm)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Expertise, Improved Bull Rush, Improved Disarm, Improved Trip, Power Attack
-
-**Skills:** Acrobatics +14, Climb +19, Intimidate +16, Knowledge (planes) +15, Perception +24, Sense
-Motive +16, Stealth +14, Use Magic Device +16
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or slaver gang (3-6 kalavakuses plus 10-20 slaves)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or slaver gang (3-6 kalavakuses plus 10-20 slaves)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,101 +33,73 @@ abilities = ["17", "15", "18", "13", "16", "18"]
 _This celestial being is obscured by darkness, but its wings glow brilliantly, silhouetting a stern
 individual with shining eyes._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: protective aura
+Initiative: +6
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect evil
+Subtype: Angel, Extraplanar, Good
+Experience points: 4,800
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +2 Dex, +1 dodge, +8 natural; +4 deflection vs. evil
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +7
+Will: +10; +4 vs. poison, +4 resistance vs. evil
+Dr: 10/evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +1 flaming heavy mace +14/+9 (1d8+4 plus 1d6 fire)
+Spec Att: brand of the impenitent
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect evil
+At will: aid, dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility, self only, plane shift, self only, remove curse, remove disease, remove fear
+Per day: 3/day: cure serious wounds, hold person (DC 16)\
+1/day: atonement, mark of justice
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil
+::: statblock
+Ability scores: Str 17, Dex 15, Con 18, Int 13, Wis 16, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Dodge, Improved Initiative, Lightning Reflexes, Mobility, Power Attack
+Skills: Acrobatics +15, Diplomacy +17, Sense Motive +16
+Languages: Celestial, Draconic, Infernal; _truespeech_
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +1 dodge, +8 natural; +4 deflection vs. evil
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +10; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +1 flaming heavy mace +14/+9 (1d8+4 plus 1d6 fire)
-
-**Spec Att:** brand of the impenitent
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- aid, dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility, self only, plane shift,
-  self only, remove curse, remove disease, remove fear
-
-**Per day:**
-
-- 3/day: cure serious wounds, hold person (DC 16)
-- 1/day: atonement, mark of justice
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 18, Int 13, Wis 16, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Dodge, Improved Initiative, Lightning Reflexes, Mobility, Power Attack
-
-**Skills:** Acrobatics +15, Diplomacy +17, Sense Motive +16
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Ecology**
-
-**Environment:** any good-aligned planes
-
-**Organization:** solitary
-
-**Treasure:** Double (+1 flaming heavy mace); other treasure
+::: statblock
+Environment: any good-aligned planes
+Organization: solitary
+Treasure: Double (+1 flaming heavy mace); other treasure
+:::
 
 ### Special Abilities
 

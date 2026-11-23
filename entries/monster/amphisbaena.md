@@ -29,77 +29,61 @@ abilities = ["14", "15", "13", "2", "13", "4"]
 _This large snake has two heads, one at each end of its long, coiling body. Both display large sets
 of fangs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 45 (6d10+12)
+Fort: +6
+Ref: +7
+Will: +3
+Defensive abilities: split
+Immune: petrification
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: 2 bites +8 (1d8+2 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 13, Int 2, Wis 13, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Skill Focus (Stealth), Toughness, Weapon Focus (bite)
+Skills: Acrobatics +10 (+6 jump), Climb +10
+Racial Modifiers: +8 Acrobatics, +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +3
-
-**Defensive abilities:** split
-
-**Immune:** petrification
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 2 bites +8 (1d8+2 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 13, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Skill Focus (Stealth), Toughness, Weapon Focus (bite)
-
-**Skills:** Acrobatics +10 (+6 jump), Climb +10
-
-**Racial Modifiers:** +8 Acrobatics, +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate hills or underground
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate hills or underground
+Organization: solitary or pack (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

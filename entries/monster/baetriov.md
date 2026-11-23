@@ -30,101 +30,75 @@ abilities = ["16", "19", "-", "17", "14", "18"]
 _Clad in the finest silks, this noblewoman has cheeks that are flush with vitality, though her eyes
 speak to great age and danger._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: hemophile (30 ft.)
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** hemophile (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 18
+Flat-footed: 15
+AC modifiers: +1 armor, +4 Dex, +4 profane
+Hit points: 102 (12d8+48)
+Fort: +12
+Ref: +12
+Will: +13
+Chan Res: +4
+Dr: 10/good and piercing
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: dagger +13 (1d4+3 plus bleed) or 2 slams +13 (1d4+3)
+Sneak: +3d6
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+At will: bleed (DC 14), blood biography (DC 16), bloodhound, pain strike (DC 19)
+Per day: 3/day: charm person (DC 15), modify memory (DC 18), rage (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 19
-
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 armor, +4 Dex, +4 profane
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Dr:** 10/good and piercing
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +13 (1d4+3 plus bleed) or 2 slams +13 (1d4+3)
-
-**Sneak:** +3d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**At will:**
-
-- bleed (DC 14), blood biography (DC 16), bloodhound, pain strike (DC 19)
-
-**Per day:**
-
-- 3/day: charm person (DC 15), modify memory (DC 18), rage (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con -, Int 17, Wis 14, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Ability Focus (pain strike), Dazzling Display, Deceitful^B^, Improved Initiative,
-Persuasive^B^, Shatter Defenses, Weapon Focus (dagger, slam)
-
-**Skills:** Bluff +18, Craft (alchemy) +13, Diplomacy +18, Disguise +14 (+24 when appearing to be
-alive), Sense Motive +15, Stealth +13
-
-**Languages:** Common, Elven, Infernal, Jistka
-
-**Special qualities:** blood well, bloody bath
+::: statblock
+Ability scores: Str 16, Dex 19, Con -, Int 17, Wis 14, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Ability Focus (pain strike), Dazzling Display, Deceitful^B^, Improved Initiative, Persuasive^B^, Shatter Defenses, Weapon Focus (dagger, slam)
+Skills: Bluff +18, Craft (alchemy) +13, Diplomacy +18, Disguise +14 (+24 when appearing to be alive), Sense Motive +15, Stealth +13
+Languages: Common, Elven, Infernal, Jistka
+Special qualities: blood well, bloody bath
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any urban
-
-**Organization:** solitary or cabal (2-6)
-
-**Treasure:** Double (padded, dagger); other treasure
+::: statblock
+Environment: any urban
+Organization: solitary or cabal (2-6)
+Treasure: Double (padded, dagger); other treasure
+:::
 
 ### Special Abilities
 

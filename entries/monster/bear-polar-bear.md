@@ -32,69 +32,57 @@ abilities = ["25", "17", "23", "2", "16", "10"]
 _This large bear is completely white save for small black eyes and black lips hiding huge,
 glistening teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 52 (5d8+30)
+Fort: +10
+Ref: +7
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +9 (1d8+7), 2 claws +9 (1d6+7 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 17, Con 23, Int 2, Wis 16, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Endurance, Run, Skill Focus (Survival)
+Skills: Perception +8, Swim +19
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 52 (5d8+30)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +9 (1d8+7), 2 claws +9 (1d6+7 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 17, Con 23, Int 2, Wis 16, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Endurance, Run, Skill Focus (Survival)
-
-**Skills:** Perception +8, Swim +19
-
-**Ecology**
-
-**Environment:** cold coastlines or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines or plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

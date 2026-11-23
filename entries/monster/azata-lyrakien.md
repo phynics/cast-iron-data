@@ -34,106 +34,74 @@ abilities = ["5", "19", "12", "14", "17", "20"]
 _This tiny woman has a lithe form with delicate butterfly wings. She is surrounded by sparkling
 lights and gentle rainbow arcs._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic good
+Initiative: +8
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +2
+Ref: +7
+Will: +6
+Dr: 5/evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., fly 80 ft. (perfect)
+Melee: slam +2 (1d2-3)
+Reach: 0
+Space: 2-1/2
+Spec Att: starlight blast
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +8
+Constant: detect evil, detect magic, freedom of movement
+At will: dancing lights, daze (DC 15), summon instrument, ventriloquism (DC 16)
+Per day: 1/day: cure light wounds, lesser confusion (DC 16), silent image (DC 16)
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 19, Con 12, Int 14, Wis 17, Cha 20
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 12
+Feats: Agile Maneuvers, Improved Initiative
+Skills: Acrobatics +10, Bluff +11, Diplomacy +11, Perform (any one) +11, Spellcraft +5, Stealth +18
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: traveler's friend
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 5/evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (perfect)
-
-**Melee:** slam +2 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** starlight blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect evil, detect magic, freedom of movement
-
-**At will:**
-
-- dancing lights, daze (DC 15), summon instrument, ventriloquism (DC 16)
-
-**Per day:**
-
-- 1/day: cure light wounds, lesser confusion (DC 16), silent image (DC 16)
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 19, Con 12, Int 14, Wis 17, Cha 20
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 12
-
-**Feats:** Agile Maneuvers, Improved Initiative
-
-**Skills:** Acrobatics +10, Bluff +11, Diplomacy +11, Perform (any one) +11, Spellcraft +5, Stealth
-+18
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** traveler's friend
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, band (2-5), or company (6-24)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, band (2-5), or company (6-24)
+Treasure: None
+:::
 
 ### Special Abilities
 

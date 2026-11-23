@@ -30,75 +30,60 @@ abilities = ["13", "15", "13", "4", "12", "6"]
 _This black-furred, two-headed dog is as large as a horse and has midnight-black eyes. Tiny worms
 crawl on its mangy hide._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 11
+AC modifiers: +2 Dex, +2 natural, -1 size
+Hit points: 22 (3d10+6)
+Fort: +4
+Ref: +5
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 bites +4 (1d8+1 plus disease and trip)
+Reach: 5
+Space: 10
+Spec Att: disease
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 13, Dex 15, Con 13, Int 4, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Toughness, Weapon Finesse
+Skills: Perception +7
+Racial Modifiers: +2 Perception, +2 Stealth, +2 Survival
+Languages: Goblin (can't speak)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +2 natural, -1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 bites +4 (1d8+1 plus disease and trip)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 13, Int 4, Wis 12, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Toughness, Weapon Finesse
-
-**Skills:** Perception +7
-
-**Racial Modifiers:** +2 Perception, +2 Stealth, +2 Survival
-
-**Languages:** Goblin (can't speak)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or pack (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

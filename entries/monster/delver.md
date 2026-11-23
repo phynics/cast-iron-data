@@ -32,85 +32,65 @@ abilities = ["28", "19", "22", "15", "15", "10"]
 _This fleshy, slug-like creature has two long pseudopods that end in lumps of hard, callused flesh,
 and its whole body sizzles with acidic slime as it slides forward through melting stone._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +21
+Senses: Darkvision 60 ft.
+Subtype: Earth
+tremorsense: 60
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 19
+AC modifiers: +4 Dex, +11 natural, -2 size
+Hit points: 138 (12d8+84)
+Fort: +12
+Ref: +8
+Will: +10
+Dr: 5/piercing or slashing
+Immune: acid
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: 2 slams +16 (2d6+9 plus corrosive slime)
+Reach: 10
+Space: 15
+Spec Att: corrosive slime
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 28, Dex 19, Con 22, Int 15, Wis 15, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +20
+Combat maneuver defense: 34 (can't be tripped)
+Feats: Alertness, Blind-Fight, Great Fortitude, Improved Initiative, Power Attack, Toughness
+Skills: Intimidate +10, Knowledge (dungeoneering) +17, Knowledge (local) +10, Perception +21
+Racial Modifiers: +8 Stealth in rocky areas
+Languages: Aklo, Terran, Undercommon
+Special qualities: [compression](ref/umr/compression), sculpt stone
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +11 natural, -2 size
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 5/piercing or slashing
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** 2 slams +16 (2d6+9 plus corrosive slime)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** corrosive slime
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con 22, Int 15, Wis 15, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34 (can't be tripped)
-
-**Feats:** Alertness, Blind-Fight, Great Fortitude, Improved Initiative, Power Attack, Toughness
-
-**Skills:** Intimidate +10, Knowledge (dungeoneering) +17, Knowledge (local) +10, Perception +21
-
-**Racial Modifiers:** +8 Stealth in rocky areas
-
-**Languages:** Aklo, Terran, Undercommon
-
-**Special qualities:** [compression](ref/umr/compression), sculpt stone
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Other (none or incidental)
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Other (none or incidental)
+:::
 
 ### Special Abilities
 

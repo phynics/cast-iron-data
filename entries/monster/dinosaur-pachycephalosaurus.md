@@ -28,71 +28,58 @@ abilities = ["22", "15", "17", "2", "12", "5"]
 
 _This bipedal reptile has a rounded, dome-like head adorned with bony frills and ridges._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +6
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: slam +8 (2d6+9)
+Reach: 10
+Space: 10
+Spec Att: clobbering charge
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 17, Int 2, Wis 12, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Improved Bull Rush, Power Attack, Run
+Skills: Perception +8, Stealth +2
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** slam +8 (2d6+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** clobbering charge
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 17, Int 2, Wis 12, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Bull Rush, Power Attack, Run
-
-**Skills:** Perception +8, Stealth +2
-
-**Ecology**
-
-**Environment:** warm or temperate plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,93 +31,70 @@ abilities = ["21", "16", "20", "7", "14", "13"]
 _This rugose figure rears up to a man's height, its large hands bearing far too many twitching
 fingers._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +8 natural
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +8
+Will: +10
+Defensive abilities: resist conjuration
+Dr: 5/lawful
+Immune: summoning
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +14 (2d6+5 plus [grab](ref/umr/grab))
+Spec Att: dimension mastery, shift planes
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+At will: dimension door
+Per day: 3/day: blink, dimensional anchor
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil
+::: statblock
+Ability scores: Str 21, Dex 16, Con 20, Int 7, Wis 14, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Vital Strike
+Skills: Knowledge (planes) +18, Perception +14, Sense Motive +14, Stealth +15
+Racial Modifiers: +8 Knowledge (planes)
+Languages: Aklo
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +8 natural
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +10
-
-**Defensive abilities:** resist conjuration
-
-**Dr:** 5/lawful
-
-**Immune:** summoning
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +14 (2d6+5 plus [grab](ref/umr/grab))
-
-**Spec Att:** dimension mastery, shift planes
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**At will:**
-
-- dimension door
-
-**Per day:**
-
-- 3/day: blink, dimensional anchor
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 20, Int 7, Wis 14, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Vital Strike
-
-**Skills:** Knowledge (planes) +18, Perception +14, Sense Motive +14, Stealth +15
-
-**Racial Modifiers:** +8 Knowledge (planes)
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

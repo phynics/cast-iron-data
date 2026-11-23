@@ -31,105 +31,78 @@ _Skin the color of thunderheads and wings made for soaring through the most viol
 lean, cyclopic being as a master of terrible storms. The sound of shrieking wind emanates from its
 mouth full of needle-sharp teeth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: stormwind aura
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Air, Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**aura:** stormwind aura
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +8
+Will: +1
+Defensive abilities: vengeful wind
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 15
+Weaknesses: enemy of dragons and eagles
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 claws +9 (1d4+3), bite +9 (1d6+3)
+Spec Att: hailstorm
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: alter winds (DC 13)
+Per day: 3/day: gust of wind (DC 14), river of wind (DC 16)\
+1/day: control winds (DC 17), summon (level 3, 1 hala 40%)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Air, Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +1
-
-**Defensive abilities:** vengeful wind
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 15
-
-**Weaknesses:** enemy of dragons and eagles
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 claws +9 (1d4+3), bite +9 (1d6+3)
-
-**Spec Att:** hailstorm
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- alter winds (DC 13)
-
-**Per day:**
-
-- 3/day: gust of wind (DC 14), river of wind (DC 16)
-- 1/day: control winds (DC 17), summon (level 3, 1 hala 40%)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 14, Int 12, Wis 11, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Flyby Attack, Hover, Weapon Finesse^B^, Wingover
-
-**Skills:** Acrobatics +12, Escape Artist +12, Fly +20, Intimidate +10, Knowledge (planes) +9,
-Perception +8, Stealth +12
-
-**Languages:** Abyssal, Celestial, Draconic, telepathy 100 ft.
+::: statblock
+Ability scores: Str 16, Dex 19, Con 14, Int 12, Wis 11, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Flyby Attack, Hover, Weapon Finesse^B^, Wingover
+Skills: Acrobatics +12, Escape Artist +12, Fly +20, Intimidate +10, Knowledge (planes) +9, Perception +8, Stealth +12
+Languages: Abyssal, Celestial, Draconic, telepathy 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

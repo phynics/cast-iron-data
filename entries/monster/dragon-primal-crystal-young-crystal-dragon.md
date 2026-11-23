@@ -31,94 +31,71 @@ abilities = ["17", "14", "17", "12", "13", "18"]
 _This brilliantly colored dragon has scales, teeth, and claws made of multicolored crystal, and its
 wings are sheets of flexible glass._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Type: dragon
+Initiative: +2
+Size: medium
+Perception: +11
+Senses: Dragon senses
+Subtype: Earth, Extraplanar
+tremorsense: 30
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 66 (7d12+21)
+Fort: +10
+Ref: +9
+Will: +6
+Immune: paralysis, sleep, sonic
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., burrow 30 ft., climb 30 ft., fly 150 ft. (average)
+Br Weap: 30-ft. cone, 6d4 sonic, DC 16
+Melee: bite +10 (1d8+4), 2 claws +10 (1d6+3), 2 wings +5 (1d4+1)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+At will: color spray (DC 15)
+:::
 
-**Senses:** Dragon senses
+### Statistics
 
-**Subtype:** Earth, Extraplanar
+::: statblock
+Ability scores: Str 17, Dex 14, Con 17, Int 12, Wis 13, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Deceitful, Great Fortitude, Lightning Reflexes, Power Attack
+Skills: Bluff +16, Climb +21, Intimidate +14, Knowledge (dungeoneering) +11, Perception +11, Stealth +12
+Languages: Draconic, Undercommon
+Special qualities: razor sharp
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 66 (7d12+21)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Immune:** paralysis, sleep, sonic
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft., climb 30 ft., fly 150 ft. (average)
-
-**Br Weap:** 30-ft. cone, 6d4 sonic, DC 16
-
-**Melee:** bite +10 (1d8+4), 2 claws +10 (1d6+3), 2 wings +5 (1d4+1)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**At will:**
-
-- color spray (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 17, Int 12, Wis 13, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Deceitful, Great Fortitude, Lightning Reflexes, Power Attack
-
-**Skills:** Bluff +16, Climb +21, Intimidate +14, Knowledge (dungeoneering) +11, Perception +11,
-Stealth +12
-
-**Languages:** Draconic, Undercommon
-
-**Special qualities:** razor sharp
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

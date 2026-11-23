@@ -29,84 +29,66 @@ abilities = ["12", "10", "14", "5", "11", "11"]
 _This creature's bloated frame shudders with each heaving step, yet despite its shape, the thing
 moves with surprising quickness._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +0
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 natural, +1 size
+Hit points: 18 (2d10+7)
+Fort: +5
+Ref: +0
+Will: +3
+Dr: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft.
+Melee: 2 claws +4 (1d4+1), bite +4 (1d4+1)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Per day: 1/day: cause fear (DC 11), stinking cloud (DC 13), summon (level 1, 1 dretch 35%)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 12, Dex 10, Con 14, Int 5, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+Feats: Toughness
+Skills: Escape Artist +5, Perception +5, Stealth +9
+Languages: Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft. (limited to Abyssal-speaking targets)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 natural, +1 size
-
-**Hit points:** 18 (2d10+7)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +3
-
-**Dr:** 5/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 claws +4 (1d4+1), bite +4 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Per day:**
-
-- 1/day: cause fear (DC 11), stinking cloud (DC 13), summon (level 1, 1 dretch 35%)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 10, Con 14, Int 5, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Feats:** Toughness
-
-**Skills:** Escape Artist +5, Perception +5, Stealth +9
-
-**Languages:** Abyssal (can't speak); [telepathy](ref/umr/telepathy) 100 ft. (limited to
-Abyssal-speaking targets)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, gang (3-5), crowd (6-12), or mob (13+)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, gang (3-5), crowd (6-12), or mob (13+)
+Treasure: None
+:::
 
 ### Description
 

@@ -31,95 +31,71 @@ abilities = ["25", "23", "24", "14", "23", "24"]
 _Corded muscles ripple under this massive devil's red skin as her black wings beat overhead and her
 black eyes smolder like coals._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 12,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 26
+Touch: 13
+Flat-footed: 23
+AC modifiers: +7 armor, +3 Dex, +6 natural
+Hit points: 150 (12d10+84)
+Fort: +15
+Ref: +10
+Will: +14
+Dr: 10/good
+Fh: 5
+Immune: fire, poison
+Resist: acid 15, cold 15
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Melee: +1 keen battleaxe +20/+15/+10 (1d8+11/19-20/×3), gore +14 (1d6+3)
+Spec Att: enraged warrior
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +18
+At will: greater teleport, self plus 50 lbs. of objects only, scorching ray
+Per day: 1/day: summon (level 4, 3 [erinyes](ref/monster/devil-erinyes) 60%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 25, Dex 23, Con 24, Int 14, Wis 23, Cha 24
+Base attack bonus: +12
+Combat maneuver bonus: +19 (+21 bull rush, sunder)
+Combat maneuver defense: 35 (37 vs. bull rush or sunder)
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Sunder, Power Attack
+Skills: Acrobatics +18, Fly +22
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 armor, +3 Dex, +6 natural
-
-**Hit points:** 150 (12d10+84)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +14
-
-**Dr:** 10/good
-
-**Fh:** 5
-
-**Immune:** fire, poison
-
-**Resist:** acid 15, cold 15
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Melee:** +1 keen battleaxe +20/+15/+10 (1d8+11/19-20/×3), gore +14 (1d6+3)
-
-**Spec Att:** enraged warrior
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +18
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, scorching ray
-
-**Per day:**
-
-- 1/day: summon (level 4, 3 [erinyes](ref/monster/devil-erinyes) 60%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 23, Con 24, Int 14, Wis 23, Cha 24
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19 (+21 bull rush, sunder)
-
-**Combat maneuver defense:** 35 (37 vs. bull rush or sunder)
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Bull Rush, Improved Sunder, Power Attack
-
-**Skills:** Acrobatics +18, Fly +22
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or squadron (3-8)
-
-**Treasure:** Double (+1 breastplate, +1 keen battleaxe); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or squadron (3-8)
+Treasure: Double (+1 breastplate, +1 keen battleaxe); other treasure
+:::
 
 ### Special Abilities
 

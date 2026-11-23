@@ -30,72 +30,58 @@ abilities = ["27", "10", "22", "1", "15", "10"]
 _This giant vermin waves two scything forelegs threateningly as hissing acid drips from its
 mandibles._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: +16 natural, -2 size
+Hit points: 115 (10d10+60)
+Fort: +13
+Ref: +7
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., burrow 30 ft.
+Melee: bite +16 (2d8+8 plus 2d6 acid), 2 claws +16 (1d8+8)
+Reach: 15
+Space: 15
+Spec Att: spit acid
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 10, Con 22, Int 1, Wis 15, Cha 10
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 30
+Feats: Improved Initiative, Iron Will, Skill Focus (Perception), Snatch, Step Up
+Skills: Climb +16, Perception +13
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** +16 natural, -2 size
-
-**Hit points:** 115 (10d10+60)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft., burrow 30 ft.
-
-**Melee:** bite +16 (2d8+8 plus 2d6 acid), 2 claws +16 (1d8+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** spit acid
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 10, Con 22, Int 1, Wis 15, Cha 10
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 30
-
-**Feats:** Improved Initiative, Iron Will, Skill Focus (Perception), Snatch, Step Up
-
-**Skills:** Climb +16, Perception +13
-
-**Ecology**
-
-**Environment:** any hills, plains, or underground
-
-**Organization:** solitary, royal party (1 ankhrav plus 2-12 [ankhegs](ref/monster/ankheg)), or army
-(1-3 ankhravs plus 2-8 ankhegs)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any hills, plains, or underground
+Organization: solitary, royal party (1 ankhrav plus 2-12 [ankhegs](ref/monster/ankheg)), or army (1-3 ankhravs plus 2-8 ankhegs)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

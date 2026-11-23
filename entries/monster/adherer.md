@@ -33,77 +33,61 @@ abilities = ["14", "16", "15", "4", "13", "11"]
 _This pallid humanoid creature is wrapped in wispy strips of skin, with bits of detritus and a sour
 stink clinging to it._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +5
+Senses: Darkvision 60 ft.
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +7
+Will: +5
+Dr: 5/-
+Sr: 14
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., climb 10 ft.
+Grab: Large
+Melee: 2 slams +6 (1d6+2 plus grab)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 16, Con 15, Int 4, Wis 13, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +7 (+19 grapple)
+Combat maneuver defense: 19
+Feats: Agile Maneuvers, Combat Reflexes
+Skills: Climb +10, Craft (cloth) +3, Perception +5, Stealth +11
+Racial Modifiers: +2 Craft (cloth), +4 Stealth
+Languages: Aklo
+Special qualities: adhesive
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/-
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 30 ft., climb 10 ft.
-
-**Grab:** Large
-
-**Melee:** 2 slams +6 (1d6+2 plus grab)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 16, Con 15, Int 4, Wis 13, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7 (+19 grapple)
-
-**Combat maneuver defense:** 19
-
-**Feats:** Agile Maneuvers, Combat Reflexes
-
-**Skills:** Climb +10, Craft (cloth) +3, Perception +5, Stealth +11
-
-**Racial Modifiers:** +2 Craft (cloth), +4 Stealth
-
-**Languages:** Aklo
-
-**Special qualities:** adhesive
-
-**Ecology**
-
-**Environment:** any temperate or underground
-
-**Organization:** solitary, gang (2-5), or nest (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any temperate or underground
+Organization: solitary, gang (2-5), or nest (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

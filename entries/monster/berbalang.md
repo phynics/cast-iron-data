@@ -29,90 +29,68 @@ abilities = ["17", "19", "-", "13", "16", "18"]
 _This hunched, bat-winged horror moves with an uncanny grace, its glowing eyes and long tongue
 presenting a frightening visage._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +5 natural
+Hit points: 68 (8d8+32)
+Fort: +6
+Ref: +6
+Will: +9
+Defensive abilities: projection
+Dr: 10/good or silver
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: 1 bite +9 (1d6+3 plus [paralysis](ref/rule/paralysis)), 2 claws +9 (1d6+3 plus paralysis) or incorporeal touch +10 (1d4 [Con damage](ref/rule/ability-damage-drain))
+Paralysis: 1d4+1 rounds, DC 18
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: bleed, ghost sound (DC 14)
+Per day: 3/day: alter self, charm person (DC 15)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 17, Dex 19, Con -, Int 13, Wis 16, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 26
+Feats: Defensive Combat Training, Dodge, Flyby Attack, Mobility
+Skills: Bluff +10, Escape Artist +10, Fly +17, Knowledge (local) +5, Perception +14, Stealth +15
+Languages: Common
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +5 natural
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +9
-
-**Defensive abilities:** projection
-
-**Dr:** 10/good or silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** 1 bite +9 (1d6+3 plus [paralysis](ref/rule/paralysis)), 2 claws +9 (1d6+3 plus paralysis)
-or incorporeal touch +10 (1d4 [Con damage](ref/rule/ability-damage-drain))
-
-**Paralysis:** 1d4+1 rounds, DC 18
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- bleed, ghost sound (DC 14)
-
-**Per day:**
-
-- 3/day: alter self, charm person (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con -, Int 13, Wis 16, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 26
-
-**Feats:** Defensive Combat Training, Dodge, Flyby Attack, Mobility
-
-**Skills:** Bluff +10, Escape Artist +10, Fly +17, Knowledge (local) +5, Perception +14, Stealth +15
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pack (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or pack (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

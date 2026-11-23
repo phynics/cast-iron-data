@@ -30,101 +30,74 @@ abilities = ["-", "18", "17", "14", "14", "19"]
 _Only this shadowy bat-winged demon's teeth and claws have any sense of physicality to them - the
 rest is lost in darkness._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar, Incorporeal
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 deflection, +4 Dex
+Hit points: 59 (7d10+21)
+Fort: +5
+Ref: +11
+Will: +7
+Dr: 10/cold iron or good
+Immune: cold, electricity, poison
+Incorporeal: present
+Resist: acid 10, fire 10
+Sr: 17
+Weaknesses: sunlight powerlessness
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 2 claws +11 touch (1d6 plus 1d6 cold), bite +11 touch (1d8 plus 1d6 cold)
+Pounce: present
+Spec Att: sprint, shadow blend
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+At will: deeper darkness, fear (DC 18), greater teleport, self only, telekinesis (DC 19)
+Per day: 3/day: shadow conjuration (DC 18), shadow evocation (DC 19)\
+1/day: magic jar (DC 19), summon (level 3, 1 shadow demon 50%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con 17, Int 14, Wis 14, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes
+Skills: Acrobatics +14, Bluff +14, Fly +22, Knowledge (local) +12, Perception +20, Sense Motive +12, Stealth +14
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +4 Dex
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +5
-
-**Ref:** +11
-
-**Will:** +7
-
-**Dr:** 10/cold iron or good
-
-**Immune:** cold, electricity, poison
-
-**Incorporeal:** present
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 17
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 2 claws +11 touch (1d6 plus 1d6 cold), bite +11 touch (1d8 plus 1d6 cold)
-
-**Pounce:** present
-
-**Spec Att:** sprint, shadow blend
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**At will:**
-
-- deeper darkness, fear (DC 18), greater teleport, self only, telekinesis (DC 19)
-
-**Per day:**
-
-- 3/day: shadow conjuration (DC 18), shadow evocation (DC 19)
-- 1/day: magic jar (DC 19), summon (level 3, 1 shadow demon 50%)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con 17, Int 14, Wis 14, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Lightning Reflexes
-
-**Skills:** Acrobatics +14, Bluff +14, Fly +22, Knowledge (local) +12, Perception +20, Sense Motive
-+12, Stealth +14
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or haunt (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or haunt (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -28,69 +28,57 @@ abilities = ["23", "12", "16", "-", "10", "1"]
 
 _This glossy blue-black beetle is the size of a cow._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 2,400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +4
+Will: +3
+Immune: death effects, disease, mind-affecting effects, paralysis
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft., climb 20 ft., fly 20 ft. (average)
+Melee: bite +11 (1d8+9 plus gnaw)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 23, Dex 12, Con 16, Int -, Wis 10, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 24 (32 vs. trip)
+Skills: Climb +14
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +3
-
-**Immune:** death effects, disease, mind-affecting effects, paralysis
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., fly 20 ft. (average)
-
-**Melee:** bite +11 (1d8+9 plus gnaw)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 16, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24 (32 vs. trip)
-
-**Skills:** Climb +14
-
-**Ecology**
-
-**Environment:** warm deserts (Osirion)
-
-**Organization:** solitary or swarm (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts (Osirion)
+Organization: solitary or swarm (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

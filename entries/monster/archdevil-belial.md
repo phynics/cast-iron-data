@@ -31,123 +31,81 @@ abilities = ["34", "26", "41", "31", "28", "37"]
 _One half of this figure's body is gleaming and beautiful with an angelic wing, while the other is
 scaled, scarred, and blackened._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: baleful beauty (30 ft., DC 39), shield of law (DC 31)
+Initiative: +12
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +45
+Senses: Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 4,915,200
+:::
 
-**aura:** baleful beauty (30 ft., DC 39), shield of law (DC 31)
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 46
+Touch: 35
+Flat-footed: 37
+AC modifiers: +4 deflection, +8 Dex, +1 dodge, +11 natural, +12 profane
+Hit points: 676 (33d10+495)
+Fort: +37
+Ref: +23
+Will: +31; +8 vs. mind-affecting effects
+Defensive abilities: amorphous anatomy, infernal resurrection, _[mind blank](ref/spell/mind-blank)_, reflexive shapeshifter
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, charm, compulsion, death effects, energy drain, fire, petrification, poison, polymorph effects
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 39
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., fly 120 ft. (good)
+Melee: +4 speed unholy ranseur +51/+46/+41/+36 (2d4+26/19-20/×3), caress +40 touch (special), 2 wings +40 (2d8+6), gore +40 (1d6+6)
+Spec Att: fiendish fluttering, hedonistic hope, ranseur mastery
+:::
 
-**Type:** outsider
-
-**Perception:** +45
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 35
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, +8 Dex, +1 dodge, +11 natural, +12 profane
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +37
-
-**Ref:** +23
-
-**Will:** +31; +8 vs. mind-affecting effects
-
-**Defensive abilities:** amorphous anatomy, infernal resurrection,
-_[mind blank](ref/spell/mind-blank)_, reflexive shapeshifter
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, charm, compulsion, death effects, energy drain, fire,
-petrification, poison, polymorph effects
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 50 ft., fly 120 ft. (good)
-
-**Melee:** +4 speed unholy ranseur +51/+46/+41/+36 (2d4+26/19-20/×3), caress +40 touch (special), 2
-wings +40 (2d8+6), gore +40 (1d6+6)
-
-**Spec Att:** fiendish fluttering, hedonistic hope, ranseur mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +41
-
-**Constant:**
-
-- detect chaos, detect good, mind blank, shield of law (DC 31), true seeing
-
-**At will:**
-
-- astral projection, baleful polymorph^M^ (DC 28), desecrate^M^, dictum^M^ (DC 30), dominate
-  person^M^ (DC 28), greater dispel magic, greater teleport, matchmaker (DC 26), modify memory^M^
-  (DC 27), order's wrath^M^ (DC 27), unhallow
-
-**Per day:**
-
-- 3/day: quickened mass suggestion (DC 29), prismatic spray^M^ (DC 30), summon devils, sympathy (DC
-  31), waves of ecstasy (DC 30)
-- 1/day: overwhelming presence (DC 32), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +41
+Constant: detect chaos, detect good, mind blank, shield of law (DC 31), true seeing
+At will: astral projection, baleful polymorph^M^ (DC 28), desecrate^M^, dictum^M^ (DC 30), dominate person^M^ (DC 28), greater dispel magic, greater teleport, matchmaker (DC 26), modify memory^M^ (DC 27), order's wrath^M^ (DC 27), unhallow
+Per day: 3/day: quickened mass suggestion (DC 29), prismatic spray^M^ (DC 30), summon devils, sympathy (DC 31), waves of ecstasy (DC 30)\
+1/day: overwhelming presence (DC 32), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Belial can use this ability's mythic version in their realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 34, Dex 26, Con 41, Int 31, Wis 28, Cha 37
+::: statblock
+Ability scores: Str 34, Dex 26, Con 41, Int 31, Wis 28, Cha 37
+Base attack bonus: +33
+Combat maneuver bonus: +45 (+49 disarm)
+Combat maneuver defense: 80 (82 vs. disarm)
+Feats: Combat Expertise, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Dodge, Flyby Attack, Greater Disarm, Greater Weapon Focus (ranseur), Greater Weapon Specialization (ranseur), Improved Critical (ranseur), Improved Disarm, Improved Initiative, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion), Weapon Focus (ranseur), Weapon Specialization (ranseur)
+Skills: Acrobatics +41, Bluff +49, Craft (weapons) +46, Diplomacy +49, Disguise +49, Sense Motive +45, Spellcraft +46, Use Magic Device +49
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: change shape (see below)
+Faith: Belial
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +45 (+49 disarm)
-
-**Combat maneuver defense:** 80 (82 vs. disarm)
-
-**Feats:** Combat Expertise, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item,
-Dodge, Flyby Attack, Greater Disarm, Greater Weapon Focus (ranseur), Greater Weapon Specialization
-(ranseur), Improved Critical (ranseur), Improved Disarm, Improved Initiative, Mobility, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion), Weapon Focus
-(ranseur), Weapon Specialization (ranseur)
-
-**Skills:** Acrobatics +41, Bluff +49, Craft (weapons) +46, Diplomacy +49, Disguise +49, Sense
-Motive +45, Spellcraft +46, Use Magic Device +49
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** change shape (see below)
-
-**Faith:** Belial
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+4 speed unholy ranseur); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (+4 speed unholy ranseur); other treasure
+:::
 
 ### Special Abilities
 

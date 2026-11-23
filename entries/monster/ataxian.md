@@ -33,106 +33,76 @@ abilities = ["5", "12", "15", "10", "13", "14"]
 _This sprite-like creature resembles a humanoid the size of a cat, with amber skin, surrounded by an
 aura of tiny bubbles._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 30
+Alignment: Chaotic good
+Initiative: +1
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Good
+Size: tiny
+Experience points: 1,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 15
+AC modifiers: +1 Dex, +3 natural, +2 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +2
+Will: +5
+Dr: 5/evil or lawful
+Immune: poison, fear
+Resist: acid 5, cold 5, fire 5
+Sr: 15
+:::
 
-**Initiative:** +1
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., fly 40 ft. (good)
+Melee: 2 slams +3 (1d2-3)
+Ranged: ray +7 (1d6 cold plus staggered)
+Reach: 0
+Space: 2-1/2
+Spec Att: possession
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+At will: remove fear
+Per day: 3/day: bear's endurance, create water, ale or wine; up to 4 cups, hideous laughter (DC 13), lesser confusion (DC 13), pick your poison, sleep (DC 13)\
+1/day: knock, magic jar, willing target only; lasts 1 hour; see possession, ray of sickening (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 5, Dex 12, Con 15, Int 10, Wis 13, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Agile Maneuvers, Combat Casting
+Skills: Acrobatics +8, Fly +9, Handle Animal +9, Stealth +16
+Languages: Celestial, Common, Dwarven, Elven, Halfling
+Special qualities: staggering drunk
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +3 natural, +2 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +5
-
-**Dr:** 5/evil or lawful
-
-**Immune:** poison, fear
-
-**Resist:** acid 5, cold 5, fire 5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (good)
-
-**Melee:** 2 slams +3 (1d2-3)
-
-**Ranged:** ray +7 (1d6 cold plus staggered)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** possession
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**At will:**
-
-- remove fear
-
-**Per day:**
-
-- 3/day: bear's endurance, create water, ale or wine; up to 4 cups, hideous laughter (DC 13), lesser
-  confusion (DC 13), pick your poison, sleep (DC 13)
-- 1/day: knock, magic jar, willing target only; lasts 1 hour; see possession, ray of sickening (DC
-  13)
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 12, Con 15, Int 10, Wis 13, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Agile Maneuvers, Combat Casting
-
-**Skills:** Acrobatics +8, Fly +9, Handle Animal +9, Stealth +16
-
-**Languages:** Celestial, Common, Dwarven, Elven, Halfling
-
-**Special qualities:** staggering drunk
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or brawl (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or brawl (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

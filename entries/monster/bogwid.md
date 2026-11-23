@@ -33,75 +33,60 @@ viscous residue stinking of putrefaction. Its amphibian skin is moist, green-bla
 warts and protuberances. On its back, dozens of fist-sized pustules shift and pulsate with
 nauseating vitality, like sentient oily bubbles threatening to burst._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+aura: revolting aura (10 ft., DC 13 Fort)
+Alignment: Chaotic neutral
+Initiative: +8
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** revolting aura (10 ft., DC 13 Fort)
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 15
+AC modifiers: +4 Dex, +5 natural
+Hit points: 47 (5d8+25)
+Fort: +5
+Ref: +5
+Will: +1
+Resist: acid 5, cold 5
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Melee: 2 slams +7 (1d6+4 plus nauseating touch)
+Ranged: offspring +7 ranged touch (1d2 bleed plus disease)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 19, Dex 18, Con 18, Int 3, Wis 4, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 21 (33 vs. trip)
+Feats: Improved Initiative, Stealthy, Toughness
+Skills: Climb +16
+Racial Modifiers: +8 Stealth in swamps
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +5 natural
-
-**Hit points:** 47 (5d8+25)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Resist:** acid 5, cold 5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 2 slams +7 (1d6+4 plus nauseating touch)
-
-**Ranged:** offspring +7 ranged touch (1d2 bleed plus disease)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 18, Int 3, Wis 4, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21 (33 vs. trip)
-
-**Feats:** Improved Initiative, Stealthy, Toughness
-
-**Skills:** Climb +16
-
-**Racial Modifiers:** +8 Stealth in swamps
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any swamps or underground
-
-**Organization:** solitary or clutch (1 adult plus 2-8 adolescents)
-
-**Treasure:** None
+::: statblock
+Environment: any swamps or underground
+Organization: solitary or clutch (1 adult plus 2-8 adolescents)
+Treasure: None
+:::
 
 ### Special Abilities
 

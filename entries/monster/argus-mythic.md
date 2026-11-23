@@ -33,124 +33,83 @@ eyes._
 
 **Mythic Argus**
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Mythic rank: 6
+Type: aberration
+aura: frightful presence (40 ft., DC 16)
+Size: gargantuan
+Initiative: +12, Mythic Improved Initiative
+Alignment: Lawful neutral
+Perception: +29
+Senses: All-around vision, Arcane sight, Darkvision 60 ft., Detect scrying, Limitless vision, Mistsight, See in darkness, True seeing
+Subtype: Mythic
+Experience points: 25,600
+:::
 
-**Mythic rank:** 6
+### Defense
 
-**Type:** aberration
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 28
+AC modifiers: +2 Dex, +4 insight, +18 natural, -4 size
+Hit points: 184 (13d8+126)
+Fort: +10
+Ref: +6
+Will: +9
+Defensive abilities: absolute readiness
+Dr: 10/epic
+Immune: blindness, dazzled
+Resist: cold 30, fire 30
+Rock Ct: present
+Vulner: fascination and _[sleep](ref/spell/sleep)_
+:::
 
-**aura:** frightful presence (40 ft., DC 16)
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 40 ft.
+Constrict: 3d6+14
+M Power: 6/day, surge +1d8
+Melee: 2 claws +20 (3d6+14 plus [grab](ref/umr/grab)), bite +19 (2d8+14)
+Ranged: rock +8 (3d6+14)
+Reach: 20
+Rend: 2 claws, 3d6+21
+Rock Th: 200 ft.
+Space: 20
+Spec Att: accurate strikes, eye gouge, fascinating gaze
+:::
 
-**Initiative:** +12, Mythic Improved Initiative
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+Constant: arcane sight, detect scrying, true seeing
+At will: arcane eye, clairaudience/clairvoyance, status, true strike
+Per day: 3/day: quickened true strike
+:::
 
-**Alignment:** Lawful neutral
+### Statistics
 
-**Perception:** +29
+::: statblock
+Ability scores: Str 39, Dex 14, Con 23, Int 13, Wis 12, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +27 (+31 grapple)
+Combat maneuver defense: 43
+Feats: Mythic Alertness, Mythic Combat Reflexes, Mythic Improved Initiative, Intimidating Prowess, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (true strike), Skill Focus (Perception), Weapon Focus (claw)
+Skills: Climb +24
+Racial Modifiers: +8 on vision-based Perception checks
+Languages: Aklo, Celestial, Common
+:::
 
-**Senses:** All-around vision, Arcane sight, Darkvision 60 ft., Detect scrying, Limitless vision,
-Mistsight, See in darkness, True seeing
+### Ecology
 
-**Subtype:** Mythic
-
-**Experience points:** 25,600
-
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +4 insight, +18 natural, -4 size
-
-**Hit points:** 184 (13d8+126)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +9
-
-**Defensive abilities:** absolute readiness
-
-**Dr:** 10/epic
-
-**Immune:** blindness, dazzled
-
-**Resist:** cold 30, fire 30
-
-**Rock Ct:** present
-
-**Vulner:** fascination and _[sleep](ref/spell/sleep)_
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 3d6+14
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** 2 claws +20 (3d6+14 plus [grab](ref/umr/grab)), bite +19 (2d8+14)
-
-**Ranged:** rock +8 (3d6+14)
-
-**Reach:** 20
-
-**Rend:** 2 claws, 3d6+21
-
-**Rock Th:** 200 ft.
-
-**Space:** 20
-
-**Spec Att:** accurate strikes, eye gouge, fascinating gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**Constant:**
-
-- arcane sight, detect scrying, true seeing
-
-**At will:**
-
-- arcane eye, clairaudience/clairvoyance, status, true strike
-
-**Per day:**
-
-- 3/day: quickened true strike
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 14, Con 23, Int 13, Wis 12, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +27 (+31 grapple)
-
-**Combat maneuver defense:** 43
-
-**Feats:** Mythic Alertness, Mythic Combat Reflexes, Mythic Improved Initiative, Intimidating
-Prowess, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (true strike), Skill Focus
-(Perception), Weapon Focus (claw)
-
-**Skills:** Climb +24
-
-**Racial Modifiers:** +8 on vision-based Perception checks
-
-**Languages:** Aklo, Celestial, Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,99 +30,74 @@ abilities = ["14", "15", "-", "11", "16", "17"]
 _This skeletal creature wears rotting robes, and carries a sword in its talon-like hands. An evil
 blue light dances in its empty eye sockets._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +3
+Will: +7
+Chan Res: +2
+Dr: 5/bludgeoning and magic
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft.
+Melee: mwk bastard sword +7 (1d10+3/19-20) or slam +5 (1d4+3)
+Spec Att: death drink, unnerving gaze
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Dr:** 5/bludgeoning and magic
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk bastard sword +7 (1d10+3/19-20) or slam +5 (1d4+3)
-
-**Spec Att:** death drink, unnerving gaze
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**2nd-level spells:**
-
-- hold person (DC 15), spiritual weapon, touch of idiocy^D^ (DC 15)
-
-**1st-level spells:**
-
-- cause fear (DC 14), command (DC 14), lesser confusion^D^ (DC 14), protection from good
-
-**Cantrips:**
-
-- detect magic, guidance, read magic, resistance
-
-**Domain:** [Madness](ref/domain/madness)
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +6
+2nd-level spells: hold person (DC 15), spiritual weapon, touch of idiocy^D^ (DC 15)
+1st-level spells: cause fear (DC 14), command (DC 14), lesser confusion^D^ (DC 14), protection from good
+Cantrips: detect magic, guidance, read magic, resistance
+Domain: [Madness](ref/domain/madness)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 15, Con -, Int 11, Wis 16, Cha 17
+::: statblock
+Ability scores: Str 14, Dex 15, Con -, Int 11, Wis 16, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Combat Casting, Improved Initiative, Weapon Focus (bastard sword)
+Skills: Intimidate +11, Knowledge (religion) +8, Perception +11, Stealth +10
+Languages: Common, Undercommon
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Improved Initiative, Weapon Focus (bastard sword)
-
-**Skills:** Intimidate +11, Knowledge (religion) +8, Perception +11, Stealth +10
-
-**Languages:** Common, Undercommon
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk bastard sword); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (mwk bastard sword); other treasure
+:::
 
 ### Special Abilities
 

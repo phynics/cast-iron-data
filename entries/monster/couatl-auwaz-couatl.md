@@ -32,99 +32,74 @@ abilities = ["16", "18", "17", "15", "15", "16"]
 _This winged serpent is covered with bright blue-and-green feathers that are reminiscent of ocean
 waters._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law
+Subtype: Native
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 84 (8d10+40)
+Fort: +5
+Ref: +10
+Will: +8
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Constrict: 1d8+4
+Melee: bite +12 (1d8+4 plus [grab](ref/umr/grab) and poison)
+Spec Att: poison
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: detect chaos, detect evil, detect good, detect law, know direction
+At will: create water, detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects only
+Per day: 3/day: hydraulic push (DC 14), obscuring mist, touch of the sea, water breathing\
+1/day: call lightning (DC 16), gust of wind (DC 15), hydraulic torrent (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
+### Statistics
 
-**Subtype:** Native
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Constrict:** 1d8+4
-
-**Melee:** bite +12 (1d8+4 plus [grab](ref/umr/grab) and poison)
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect chaos, detect evil, detect good, detect law, know direction
-
-**At will:**
-
-- create water, detect thoughts (DC 15), invisibility, plane shift, self plus 50 lbs. of objects
-  only
-
-**Per day:**
-
-- 3/day: hydraulic push (DC 14), obscuring mist, touch of the sea, water breathing
-- 1/day: call lightning (DC 16), gust of wind (DC 15), hydraulic torrent (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 17, Int 15, Wis 15, Cha 16
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Alertness, Eschew Materials^B^, Hover, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +14, Diplomacy +14, Fly +19, Knowledge (geography) +13, Perception +15
-
-**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** gift of the sea
+::: statblock
+Ability scores: Str 16, Dex 18, Con 17, Int 15, Wis 15, Cha 16
+Base attack bonus: +8
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Alertness, Eschew Materials^B^, Hover, Improved Initiative, Weapon Finesse
+Skills: Bluff +14, Diplomacy +14, Fly +19, Knowledge (geography) +13, Perception +15
+Languages: Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: gift of the sea
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

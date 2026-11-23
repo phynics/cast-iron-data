@@ -34,103 +34,71 @@ coarse fur. Its head is that of a jagged-toothed antelope, the face spotted with
 sifting out from between the fibers of its hair, and its legs end at the shin in stumps of charred
 flesh._
 
-**Challenge rating:** 19
-
 **Male dust wendigo**
 
-**blindsight:** 60
+::: statblock
+Challenge rating: 19
+blindsight: 60
+Alignment: Chaotic evil
+Size: huge
+Initiative: +12
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Air, Fire, Native
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 34
+Touch: 17
+Flat-footed: 25
+AC modifiers: +8 Dex, +1 dodge, +17 natural, -2 size
+Hit points: 350 (20d10+240)
+Fort: +18
+Ref: +20
+Will: +20
+Dr: 15/cold iron and magic
+Immune: fire, fear
+Regen: 15 (cold)
+Sr: 30
+Vulner: cold
+:::
 
-**Initiative:** +12
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 120 ft. (perfect)
+Melee: bite +29 (4d6+11 plus 4d6 fire), 2 claws +29 (2d8+11/19-20 plus 4d6 fire)
+Reach: 15
+Rend: 2 claws, 2d8+16 plus 4d6 fire and 1d4 Cha damage
+Space: 15
+Spec Att: dream haunting, howl, wendigo psychosis
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+At will: wind walk (DC 25)
+Per day: 3/day: empowered sirocco (DC 24)\
+1/day: control weather, as druid, nightmare (DC 24)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Air, Fire, Native
-
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 17
-
-**Flat-footed:** 25
-
-**AC modifiers:** +8 Dex, +1 dodge, +17 natural, -2 size
-
-**Hit points:** 350 (20d10+240)
-
-**Fort:** +18
-
-**Ref:** +20
-
-**Will:** +20
-
-**Dr:** 15/cold iron and magic
-
-**Immune:** fire, fear
-
-**Regen:** 15 (cold)
-
-**Sr:** 30
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (perfect)
-
-**Melee:** bite +29 (4d6+11 plus 4d6 fire), 2 claws +29 (2d8+11/19-20 plus 4d6 fire)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 2d8+16 plus 4d6 fire and 1d4 Cha damage
-
-**Space:** 15
-
-**Spec Att:** dream haunting, howl, wendigo psychosis
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**At will:**
-
-- wind walk (DC 25)
-
-**Per day:**
-
-- 3/day: empowered sirocco (DC 24)
-- 1/day: control weather, as druid, nightmare (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 27, Con 35, Int 24, Wis 22, Cha 26
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 52
-
-**Feats:** Ability Focus (howl), Critical Focus, Dodge, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (sirocco), Exhausting Critical, Flyby Attack,
-Improved Critical (claws), Improved Initiative, Iron Will, Tiring Critical
-
-**Skills:** Bluff +31, Disguise +31, Fly +35, Intimidate +31, Knowledge (arcana, nature) +27,
-Perception +29
-
-**Languages:** Aklo, Common, Giant; [telepathy](ref/umr/telepathy) 1 mile
-
-**Special qualities:** [no breath](ref/umr/no-breath)
+::: statblock
+Ability scores: Str 33, Dex 27, Con 35, Int 24, Wis 22, Cha 26
+Base attack bonus: +20
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 52
+Feats: Ability Focus (howl), Critical Focus, Dodge, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (sirocco), Exhausting Critical, Flyby Attack, Improved Critical (claws), Improved Initiative, Iron Will, Tiring Critical
+Skills: Bluff +31, Disguise +31, Fly +35, Intimidate +31, Knowledge (arcana, nature) +27, Perception +29
+Languages: Aklo, Common, Giant; [telepathy](ref/umr/telepathy) 1 mile
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
 ### Description
 

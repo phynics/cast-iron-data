@@ -32,80 +32,64 @@ abilities = ["28", "15", "-", "-", "11", "1"]
 _Cogs and gears are visible in the gaps of this metallic creature's armor. It wields a polearm as it
 stands ready at attention._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 Dex, +2 dodge, +6 natural
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +6
+Will: +2
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: +1 halberd +18/+13 (1d10+14/×3)
+Spec Att: latch
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +2 dodge, +6 natural
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 halberd +18/+13 (1d10+14/×3)
-
-**Spec Att:** latch
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +17 (+19 disarm)
-
-**Combat maneuver defense:** 31 (33 vs. disarm)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** efficient winding, proficient, standby, swift reactions
+::: statblock
+Ability scores: Str 28, Dex 15, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +17 (+19 disarm)
+Combat maneuver defense: 31 (33 vs. disarm)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: efficient winding, proficient, standby, swift reactions
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4
-[clockwork servants](ref/monster/clockwork-clockwork-servant))
-
-**Treasure:** Standard (+1 halberd); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, trio, troop (3-8), or company (9-12 plus 1-4 [clockwork servants](ref/monster/clockwork-clockwork-servant))
+Treasure: Standard (+1 halberd); other treasure
+:::
 
 ### Special Abilities
 

@@ -29,67 +29,56 @@ abilities = ["17", "10", "17", "2", "13", "4"]
 _This ill-tempered beast's tiny, bloodshot eyes glare angrily above a mouth filled with sharp
 tusks._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 14
+AC modifiers: +4 natural
+Hit points: 18 (2d8+9)
+Fort: +6
+Ref: +3
+Will: +1
+Ferocity: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +4 (1d8+4)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 10, Con 17, Int 2, Wis 13, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Toughness
+Skills: Perception +6
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 natural
-
-**Hit points:** 18 (2d8+9)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +4 (1d8+4)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 17, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Toughness
-
-**Skills:** Perception +6
-
-**Ecology**
-
-**Environment:** temperate or tropical forests
-
-**Organization:** solitary, pair, or group (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical forests
+Organization: solitary, pair, or group (3-8)
+Treasure: None
+:::
 
 ### Description
 

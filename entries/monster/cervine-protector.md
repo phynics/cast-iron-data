@@ -28,110 +28,77 @@ special_qualities = "fertile regeneration"
 abilities = ["22", "15", "18", "12", "13", "11"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +2
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +4
+Will: +9; +2 vs. poison
+Dr: 5/evil
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 17
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: gore +14 (1d8+6 plus push), 2 hooves +8 (1d6+3)
+Push: gore, 10 ft.
+Reach: 10
+Space: 10
+Trample: 1d6+9, DC 20
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +8
+Constant: speak with animals
+At will: detect evil
+Per day: 3/day: cure moderate wounds\
+1/day: neutralize poison, plant growth, remove disease
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 12, Wis 13, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +15 (+17 bull rush)
+Combat maneuver defense: 27 (29 vs. bull rush, 31 vs. trip)
+Feats: Improved Bull Rush, Iron Will, Power Attack, Weapon Focus (gore)
+Skills: Acrobatics +9 (+13 when jumping), Handle Animal +11, Intimidate +8, Knowledge (nature) +12, Perception +12
+Racial Modifiers: +8 Stealth in forests
+Languages: Celestial, Draconic, Druidic, Infernal; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: fertile regeneration
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +9; +2 vs. poison
-
-**Dr:** 5/evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +14 (1d8+6 plus push), 2 hooves +8 (1d6+3)
-
-**Push:** gore, 10 ft.
-
-**Reach:** 10
-
-**Space:** 10
-
-**Trample:** 1d6+9, DC 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +8
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- detect evil
-
-**Per day:**
-
-- 3/day: cure moderate wounds
-- 1/day: neutralize poison, plant growth, remove disease
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 12, Wis 13, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15 (+17 bull rush)
-
-**Combat maneuver defense:** 27 (29 vs. bull rush, 31 vs. trip)
-
-**Feats:** Improved Bull Rush, Iron Will, Power Attack, Weapon Focus (gore)
-
-**Skills:** Acrobatics +9 (+13 when jumping), Handle Animal +11, Intimidate +8, Knowledge (nature)
-+12, Perception +12
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Languages:** Celestial, Draconic, Druidic, Infernal;
-_[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** fertile regeneration
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** single, solitary, or bulwark (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: single, solitary, or bulwark (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

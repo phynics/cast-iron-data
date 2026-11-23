@@ -30,67 +30,56 @@ abilities = ["11", "10", "15", "2", "13", "8"]
 _This squat, grunting creature stinks of musk and earth. Leathery plates and black horns protect its
 woolly underside._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +0
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 30 ft., Low-light vision, Scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +3
+Will: +3; +4 vs. ingested poisons
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., burrow 10 ft.
+Melee: 2 claws +2 (1d3), gore +2 (1d4)
+Spec Att: pit
+:::
 
-**Senses:** Darkvision 30 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 10, Con 15, Int 2, Wis 13, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 10
+Feats: Iron Will
+Skills: Perception +6
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +3; +4 vs. ingested poisons
-
-**Offense**
-
-**Speed:** 20 ft., burrow 10 ft.
-
-**Melee:** 2 claws +2 (1d3), gore +2 (1d4)
-
-**Spec Att:** pit
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 15, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 10
-
-**Feats:** Iron Will
-
-**Skills:** Perception +6
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or herd (6-30)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or herd (6-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -34,113 +34,77 @@ abilities = ["34", "25", "30", "23", "25", "24"]
 
 _This ancient monstrosity has the torso of a massively muscled giant._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Size: huge
+Initiative: +11
+Alignment: Lawful evil
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 153,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 36
+Touch: 15
+Flat-footed: 29
+AC modifiers: +7 armor, +7 Dex, +14 natural, -2 size
+Hit points: 297 (18d10+198)
+Fort: +21
+Ref: +18
+Will: +13
+Defensive abilities: idol armor
+Dr: 10/good and silver
+Immune: cold, dismissal, electricity, fire, poison, sonic
+Resist: acid 10
+Sr: 29
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 80 ft. (average)
+Melee: bite +28 (2d6+12), 2 claws +28 (1d8+12 plus infernal wounds), 2 slams +26 (1d8+6), tail slap +26 (2d6+6)
+Reach: 15
+Reach P: 20 ft. with tail
+Space: 15
+Spec Att: infernal wound
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+At will: gaseous form, greater invisibility (DC 21), greater teleport, self plus 50 lbs. of objects only, scorching ray, whispering wind
+Per day: 3/day: blasphemy (DC 24), dispel magic, ethereal jaunt, harm (DC 23), heal (DC 23), hold monster (DC 22), wall of stone\
+1/day: greater scrying (DC 21), summon (level 7, [horned devil](ref/monster/devil-horned-devil-cornugon) 60%), unhallow
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 34, Dex 25, Con 30, Int 23, Wis 25, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +32 (+36 bull rush)
+Combat maneuver defense: 49 (51 vs. bull rush, 53 vs. trip)
+Feats: Awesome Blow, Flyby Attack, Greater Bull Rush, Hover, Improved Bull Rush, Improved Initiative, Multiattack, Power Attack, Toughness
+Skills: Acrobatics +25 (+29 when jumping), Bluff +28, Diplomacy +28, Sense Motive +28, Spellcraft +24, Stealth +20
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: devil mark, false divinity (Trickery)
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 36
-
-**Touch:** 15
-
-**Flat-footed:** 29
-
-**AC modifiers:** +7 armor, +7 Dex, +14 natural, -2 size
-
-**Hit points:** 297 (18d10+198)
-
-**Fort:** +21
-
-**Ref:** +18
-
-**Will:** +13
-
-**Defensive abilities:** idol armor
-
-**Dr:** 10/good and silver
-
-**Immune:** cold, dismissal, electricity, fire, poison, sonic
-
-**Resist:** acid 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 40 ft., fly 80 ft. (average)
-
-**Melee:** bite +28 (2d6+12), 2 claws +28 (1d8+12 plus infernal wounds), 2 slams +26 (1d8+6), tail
-slap +26 (2d6+6)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail
-
-**Space:** 15
-
-**Spec Att:** infernal wound
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**At will:**
-
-- gaseous form, greater invisibility (DC 21), greater teleport, self plus 50 lbs. of objects only,
-  scorching ray, whispering wind
-
-**Per day:**
-
-- 3/day: blasphemy (DC 24), dispel magic, ethereal jaunt, harm (DC 23), heal (DC 23), hold monster
-  (DC 22), wall of stone
-- 1/day: greater scrying (DC 21), summon (level 7,
-  [horned devil](ref/monster/devil-horned-devil-cornugon) 60%), unhallow
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 25, Con 30, Int 23, Wis 25, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +32 (+36 bull rush)
-
-**Combat maneuver defense:** 49 (51 vs. bull rush, 53 vs. trip)
-
-**Feats:** Awesome Blow, Flyby Attack, Greater Bull Rush, Hover, Improved Bull Rush, Improved
-Initiative, Multiattack, Power Attack, Toughness
-
-**Skills:** Acrobatics +25 (+29 when jumping), Bluff +28, Diplomacy +28, Sense Motive +28,
-Spellcraft +24, Stealth +20
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** devil mark, false divinity (Trickery)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or pantheon (2-5)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or pantheon (2-5)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -30,83 +30,63 @@ abilities = ["19", "18", "14", "10", "14", "9"]
 
 _A noxious fluid drips from the vicious arrows of this feral ape-like humanoid._
 
-**Challenge rating:** 5
-
 **Charau-ka [slayer](ref/class/slayer) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 17
+AC modifiers: +2 armor, +4 Dex, +1 dodge, +2 natural, +2 shield, +1 size
+Hit points: 53 (3d8+4d10+18\~7)
+Fort: +8
+Ref: +12
+Will: +5
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: mwk scimitar +12/+7 (1d4+4/18-20), bite +6 (1d3+6)
+Ranged: mwk composite shortbow +10/+5 (1d4+4/×3) or rock +10 (1d4+4, 19-20)
+Sneak: +1d6
+Spec Att: bleed,, studied target +1 (1 target)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 19, Dex 18, Con 14, Int 10, Wis 14, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Dodge, Point-Blank Shot, Precise Shot, Rapid Shot, Throw Anything
+Skills: Acrobatics +13, Climb +17, Craft (traps) +8, Knowledge (geography) +5, Perception +10
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Polyglot
+Special qualities: shrieking frenzy, slayer talents ([bleeding attack](ref/talent/bleeding-attack) +1, [slowing strike](ref/slayertalent/slowing-strike)), thrown-weapon mastery, track +2
+Combat gear: 2 potion of cure light wounds, potion of hide from animals, 4 caltrops, 4 potion of Xgiant wasp poison, 2 tanglefoot bags
+Other gear: mwk leather armor, +1 light wooden shield, mwk csb40+4, mwk scimitar, Iclk1, bear trap, [hemp rope (100 ft.)](ref/eq-misc/rope-50-ft), surgeon's tools
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 armor, +4 Dex, +1 dodge, +2 natural, +2 shield, +1 size
-
-**Hit points:** 53 (3d8+4d10+18\~7)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** mwk scimitar +12/+7 (1d4+4/18-20), bite +6 (1d3+6)
-
-**Ranged:** mwk composite shortbow +10/+5 (1d4+4/×3) or rock +10 (1d4+4, 19-20)
-
-**Sneak:** +1d6
-
-**Spec Att:** bleed,, studied target +1 (1 target)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 14, Int 10, Wis 14, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Point-Blank Shot, Precise Shot, Rapid Shot, Throw Anything
-
-**Skills:** Acrobatics +13, Climb +17, Craft (traps) +8, Knowledge (geography) +5, Perception +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Polyglot
-
-**Special qualities:** shrieking frenzy, slayer talents
-([bleeding attack](ref/talent/bleeding-attack) +1,
-[slowing strike](ref/slayertalent/slowing-strike)), thrown-weapon mastery, track +2
-
-**Combat gear:** 2 potion of cure light wounds, potion of hide from animals, 4 caltrops, 4 potion of
-Xgiant wasp poison, 2 tanglefoot bags
-
-**Other gear:** mwk leather armor, +1 light wooden shield, mwk csb40+4, mwk scimitar, Iclk1, bear
-trap, [hemp rope (100 ft.)](ref/eq-misc/rope-50-ft), surgeon's tools
-
-**Ecology**
-
-**Environment:** warm forests
+::: statblock
+Environment: warm forests
+:::
 
 ### Description
 

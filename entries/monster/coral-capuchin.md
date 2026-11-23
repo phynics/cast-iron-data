@@ -35,81 +35,63 @@ abilities = ["6", "17", "12", "6", "13", "7"]
 _This strange creature can only be described as a light pink, hairless monkey with the head of a
 fish and large, fin-like wings._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +6
+Will: +1
+Weaknesses: moisture dependency
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 30 ft., fly 40 ft. (good)
+Melee: bite +7 (1d3-2 plus cursed bite)
+Reach: 0
+Space: 2-1/2
+Spec Att: cursed bite
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 6, Dex 17, Con 12, Int 6, Wis 13, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 11
+Feats: Weapon Finesse
+Skills: Climb +6, Fly +11
+Racial Modifiers: +4 Sleight of Hand, +4 Stealth in coral reefs
+Languages: Common (generally knows only a dozen or so words)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +1
-
-**Weaknesses:** moisture dependency
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 30 ft., fly 40 ft. (good)
-
-**Melee:** bite +7 (1d3-2 plus cursed bite)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** cursed bite
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 12, Int 6, Wis 13, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +6, Fly +11
-
-**Racial Modifiers:** +4 Sleight of Hand, +4 Stealth in coral reefs
-
-**Languages:** Common (generally knows only a dozen or so words)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** warm coasts or oceans
-
-**Organization:** solitary, pair, or tribe (3-24 plus one matriarch)
-
-**Treasure:** None
+::: statblock
+Environment: warm coasts or oceans
+Organization: solitary, pair, or tribe (3-24 plus one matriarch)
+Treasure: None
+:::
 
 ### Special Abilities
 

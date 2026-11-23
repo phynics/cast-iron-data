@@ -30,111 +30,79 @@ abilities = ["22", "24", "19", "15", "24", "19"]
 _This six-armed woman has three fanged faces on her head. She wears colorful robes, and her hands
 wield several exotic weapons._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: elusive (50 ft.)
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +23
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Asura, Evil, Extraplanar, Lawful
+Experience points: 6,400
+:::
 
-**aura:** elusive (50 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 21
+Flat-footed: 16
+AC modifiers: +7 Dex, +1 dodge, +3 insight, +3 natural
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +11
+Will: +15
+Dr: 10/good
+Immune: curse effects, disease, [flanking](ref/rule/flanking), poison
+Improved evasion: present
+Regen: 5 (good weapons, good spells)
+Resist: acid 10, electricity 10
+Sr: 20
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft.
+Melee: mwk longsword +19/+14/+9 (1d8+6/19-20), mwk spear +19 (1d8+9/×3), mwk kukri +19 (1d4+6/18-20), 2 slams +13 (1d4+3) or 6 slams +18 (1d4+6)
+Spec Att: infused weapons, multiweapon mastery
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: disguise self, greater teleport, self plus 50 lbs. of objects only, feather fall, see invisibility, spider climb
+Per day: 3/day: deeper darkness, levitate, rainbow pattern (DC 18)\
+1/day: haste, hold monster (DC 19), summon (level 4, 2 [adhukaits](ref/monster/asura-adhukait) 45% or 1 upasunda 20%)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
-
-**Subtype:** Asura, Evil, Extraplanar, Lawful
-
-**Experience points:** 6,400
-
-**Armor class:** 24
-
-**Touch:** 21
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 Dex, +1 dodge, +3 insight, +3 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +15
-
-**Dr:** 10/good
-
-**Immune:** curse effects, disease, [flanking](ref/rule/flanking), poison
-
-**Improved evasion:** present
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** mwk longsword +19/+14/+9 (1d8+6/19-20), mwk spear +19 (1d8+9/×3), mwk kukri +19
-(1d4+6/18-20), 2 slams +13 (1d4+3) or 6 slams +18 (1d4+6)
-
-**Spec Att:** infused weapons, multiweapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- disguise self, greater teleport, self plus 50 lbs. of objects only, feather fall, see
-  invisibility, spider climb
-
-**Per day:**
-
-- 3/day: deeper darkness, levitate, rainbow pattern (DC 18)
-- 1/day: haste, hold monster (DC 19), summon (level 4, 2 [adhukaits](ref/monster/asura-adhukait) 45%
-  or 1 upasunda 20%)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 24, Con 19, Int 15, Wis 24, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+20 grapple)
-
-**Combat maneuver defense:** 39 (41 vs. grapple)
-
-**Feats:** Cleave, Combat Reflexes^B^, Deflect Arrows^B^, Dodge, Great Cleave, Improved Grapple^B^,
-Mobility, Power Attack, Spring Attack
-
-**Skills:** Acrobatics +19 (+27 when jumping), Bluff +16, Diplomacy +13, Perform (dance) +16, Sense
-Motive +19, Stealth +19
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 22, Dex 24, Con 19, Int 15, Wis 24, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+20 grapple)
+Combat maneuver defense: 39 (41 vs. grapple)
+Feats: Cleave, Combat Reflexes^B^, Deflect Arrows^B^, Dodge, Great Cleave, Improved Grapple^B^, Mobility, Power Attack, Spring Attack
+Skills: Acrobatics +19 (+27 when jumping), Bluff +16, Diplomacy +13, Perform (dance) +16, Sense Motive +19, Stealth +19
+Racial Modifiers: +8 Acrobatics when jumping, +6 Escape Artist, +4 Perception
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Standard; weapons listed above plus other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or squad (3-6)
+Treasure: Standard; weapons listed above plus other treasure
+:::
 
 ### Special Abilities
 

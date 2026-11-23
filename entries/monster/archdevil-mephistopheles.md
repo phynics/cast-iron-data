@@ -31,128 +31,83 @@ abilities = ["42", "30", "43", "35", "34", "39"]
 _This red-skinned devil has three sets of curving horns atop his brow and three mismatched pairs of
 wings._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 41), shield of law (DC 32)
+Initiative: +14
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +50
+Senses: Darkvision 60 ft., Detect chaos, Detect good, Discern lies, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 9,830,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 41), shield of law (DC 32)
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 48
+Touch: 40
+Flat-footed: 37
+AC modifiers: +4 deflection, +10 Dex, +1 dodge, +8 natural, +16 profane, -1 size
+Hit points: 752 (35d10+560)
+Fort: +31
+Ref: +33
+Will: +37; +8 vs. mind-affecting effects
+Defensive abilities: ashen essence, _[freedom of movement](ref/spell/freedom-of-movement)_, infernal resurrection, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, bleed, blindness, blood drain, charm, compulsion, critical hits, dazzled, deafness, death effects, energy drain, fire, petrification, poison, precision damage
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 41
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 50 ft., fly 100 ft. (perfect)
+Melee: +5 axiomatic flaming unholy trident +55/+50/+45/+40 (2d6+29/19-20 plus 1d6 fire), gore +50 (2d8+8), 6 wings +48 (1d8+8/19-20)
+Reach: 10
+Space: 10
+Spec Att: infernal wings, profane gift
+:::
 
-**Type:** outsider
-
-**Perception:** +50
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Discern lies, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 40
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, +10 Dex, +1 dodge, +8 natural, +16 profane, -1 size
-
-**Hit points:** 752 (35d10+560)
-
-**Fort:** +31
-
-**Ref:** +33
-
-**Will:** +37; +8 vs. mind-affecting effects
-
-**Defensive abilities:** ashen essence, _[freedom of movement](ref/spell/freedom-of-movement)_,
-infernal resurrection, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, bleed, blindness, blood drain, charm, compulsion,
-critical hits, dazzled, deafness, death effects, energy drain, fire, petrification, poison,
-precision damage
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 50 ft., fly 100 ft. (perfect)
-
-**Melee:** +5 axiomatic flaming unholy trident +55/+50/+45/+40 (2d6+29/19-20 plus 1d6 fire), gore
-+50 (2d8+8), 6 wings +48 (1d8+8/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** infernal wings, profane gift
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +44
-
-**Constant:**
-
-- detect chaos, detect good, discern lies (DC 28), freedom of movement, mind blank, shield of law
-  (DC 32), true seeing
-
-**At will:**
-
-- astral projection, deeper darkness, desecrate^M^, dictum^M^ (DC 31), dominate person^M^ (DC 29),
-  greater dispel magic, greater scrying (DC 31), greater teleport, order's wrath^M^ (DC 28), secret
-  page, unhallow
-
-**Per day:**
-
-- 3/day: quickened dominate person^M^ (DC 29), fire storm^M^ (DC 32), globe of invulnerability^M^,
-  mass charm monster (DC 32), mislead^M^ (DC 30), summon devils
-- 1/day: soul bind (DC 33), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +44
+Constant: detect chaos, detect good, discern lies (DC 28), freedom of movement, mind blank, shield of law (DC 32), true seeing
+At will: astral projection, deeper darkness, desecrate^M^, dictum^M^ (DC 31), dominate person^M^ (DC 29), greater dispel magic, greater scrying (DC 31), greater teleport, order's wrath^M^ (DC 28), secret page, unhallow
+Per day: 3/day: quickened dominate person^M^ (DC 29), fire storm^M^ (DC 32), globe of invulnerability^M^, mass charm monster (DC 32), mislead^M^ (DC 30), summon devils\
+1/day: soul bind (DC 33), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Mephistopheles can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 42, Dex 30, Con 43, Int 35, Wis 34, Cha 39
+::: statblock
+Ability scores: Str 42, Dex 30, Con 43, Int 35, Wis 34, Cha 39
+Base attack bonus: +35
+Combat maneuver bonus: +52
+Combat maneuver defense: 93
+Feats: Combat Expertise, Craft Construct, Craft Magic Arms and Armor, Craft Rod, Craft Wondrous Item, Critical Focus, Deceitful, Dodge, Flyby Attack, Forge Ring, Improved Critical (trident, wing), Improved Initiative, Iron Will, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person), Staggering Critical
+Skills: Bluff +56, Diplomacy +52, Disguise +56, Sense Motive +50, Sleight of Hand +45, Spellcraft +47, Stealth +44, Use Magic Device +49
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: flattering inquisitor
+Faith: Mephistopheles
+:::
 
-**Base attack bonus:** +35
+### Ecology
 
-**Combat maneuver bonus:** +52
-
-**Combat maneuver defense:** 93
-
-**Feats:** Combat Expertise, Craft Construct, Craft Magic Arms and Armor, Craft Rod, Craft Wondrous
-Item, Critical Focus, Deceitful, Dodge, Flyby Attack, Forge Ring, Improved Critical (trident, wing),
-Improved Initiative, Iron Will, Multiattack, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person), Staggering Critical
-
-**Skills:** Bluff +56, Diplomacy +52, Disguise +56, Sense Motive +50, Sleight of Hand +45,
-Spellcraft +47, Stealth +44, Use Magic Device +49
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** flattering inquisitor
-
-**Faith:** Mephistopheles
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 axiomatic flaming unholy trident, Visineir); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple (+5 axiomatic flaming unholy trident, Visineir); other treasure
+:::
 
 ### Special Abilities
 

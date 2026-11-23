@@ -35,123 +35,82 @@ of ancient robes. From beneath the rune-embroidered tatters stretch four, corpse
 bearing either a blade or some mysterious arcane device. Hidden within the cowl of its hood shimmer
 the faintest outlines of a veiled face and a pair of eyes flickering with barely restrained energy._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Incorporeal, Lawful
+Experience points: 9,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 22
+Flat-footed: 15
+AC modifiers: +5 deflection, +6 Dex, +1 dodge
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +15
+Will: +7
+Dr: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: 4 +1 daggers +17 (1d4+1/19-20)
+Ranged: 4 +1 daggers +17 (1d4+1/19-20)
+Spec Att: dread magic
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+At will: augury, greater teleport, self plus 50 lbs. of objects only, true seeing, unseen servant
+Per day: 3/day: bestow curse (DC 19), blink, detect thoughts (DC 17), dispel magic, invisibility\
+1/day: blasphemy (DC 22), mark of justice, summon devils
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+title = "Spells Known"
+Caster level: 8
+4th-level spells: 3/day: summon monster IV
+3rd-level spells: 5/day: fireball (DC 18), gaseous form
+2nd-level spells: 6/day: fog cloud, glitterdust (DC 17), mirror image (DC 17)
+1st-level spells: 6/day: disguise self, identify, magic missile, ray of enfeeblement (DC 16), shield
+Cantrips: At will: arcane mark, bleed (DC 15), dancing lights, detect magic, disrupt undead, mage hand, prestidigitation, touch of fatigue (DC 15)
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 11, Dex 22, Con 19, Int 22, Wis 18, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +10
+Combat maneuver defense: 32
+Feats: Dodge, Lightning Reflexes, Mobility, Scribe Scroll, Weapon Finesse, Wind Stance
+Skills: Appraise +16, Bluff +18, Diplomacy +18, Disguise +18, Sense Motive +17, Sleight of Hand +16, Spellcraft +16, Stealth +19
+Languages: Aklo, Celestial, Common, Draconic, Infernal, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: infernal arcana, scroll mastery, witch token
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 22
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +6 Dex, +1 dodge
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +15
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** 4 +1 daggers +17 (1d4+1/19-20)
-
-**Ranged:** 4 +1 daggers +17 (1d4+1/19-20)
-
-**Spec Att:** dread magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**At will:**
-
-- augury, greater teleport, self plus 50 lbs. of objects only, true seeing, unseen servant
-
-**Per day:**
-
-- 3/day: bestow curse (DC 19), blink, detect thoughts (DC 17), dispel magic, invisibility
-- 1/day: blasphemy (DC 22), mark of justice, summon devils
-
-**Spells Known**
-
-**Caster level:** 8
-
-**4th-level spells:**
-
-- 3/day: summon monster IV
-
-**3rd-level spells:**
-
-- 5/day: fireball (DC 18), gaseous form
-
-**2nd-level spells:**
-
-- 6/day: fog cloud, glitterdust (DC 17), mirror image (DC 17)
-
-**1st-level spells:**
-
-- 6/day: disguise self, identify, magic missile, ray of enfeeblement (DC 16), shield
-
-**Cantrips:**
-
-- At will: arcane mark, bleed (DC 15), dancing lights, detect magic, disrupt undead, mage hand,
-  prestidigitation, touch of fatigue (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 22, Con 19, Int 22, Wis 18, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 32
-
-**Feats:** Dodge, Lightning Reflexes, Mobility, Scribe Scroll, Weapon Finesse, Wind Stance
-
-**Skills:** Appraise +16, Bluff +18, Diplomacy +18, Disguise +18, Sense Motive +17, Sleight of Hand
-+16, Spellcraft +16, Stealth +19
-
-**Languages:** Aklo, Celestial, Common, Draconic, Infernal, Undercommon;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** infernal arcana, scroll mastery, witch token
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair or cabal (3-9)
-
-**Treasure:** Double (4 +1 daggers); other treasure as magic scrolls and writings
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair or cabal (3-9)
+Treasure: Double (4 +1 daggers); other treasure as magic scrolls and writings
+:::
 
 ### Special Abilities
 

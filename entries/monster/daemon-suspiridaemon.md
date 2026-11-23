@@ -34,109 +34,78 @@ abilities = ["21", "17", "18", "14", "15", "16"]
 _This tall, three-legged, vulture-headed fiend has a grotesquely long, suckered tongue and gangly
 arms that end in claws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: thin air (30 ft.)
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**aura:** thin air (30 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +6 natural
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +9
+Will: +8
+Dr: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10, sonic 30
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Constrict: 1d6+7
+Melee: 2 claws +14 (1d6+5), tongue +14 (1d6+7/19-20 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with tongue
+Space: 5
+Spec Att: concussive gasp, suffocate, tongue
+Strangle: present
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+At will: death knell (DC 15), ghoul touch (DC 15), greater teleport, self plus 50 lbs. of objects only, ray of enfeeblement (DC 14)
+Per day: 3/day: stinking cloud (DC 16), vampiric touch\
+1/day: cloudkill (DC 18), summon (level 4, 1d3 [lacridaemons](ref/monster/daemon-lacridaemon) 35%)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 17, Con 18, Int 14, Wis 15, Cha 16
+Base attack bonus: +9
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 28 (30 vs. trip)
+Feats: Combat Reflexes, Dodge, Great Fortitude, Improved Critical (tongue), Improved Initiative
+Skills: Climb +17, Diplomacy +15, Sense Motive +14, Stealth +15
+Languages: Abyssal, Draconic, Infernal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +8
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10, sonic 30
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d6+7
-
-**Melee:** 2 claws +14 (1d6+5), tongue +14 (1d6+7/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tongue
-
-**Space:** 5
-
-**Spec Att:** concussive gasp, suffocate, tongue
-
-**Strangle:** present
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**At will:**
-
-- death knell (DC 15), ghoul touch (DC 15), greater teleport, self plus 50 lbs. of objects only, ray
-  of enfeeblement (DC 14)
-
-**Per day:**
-
-- 3/day: stinking cloud (DC 16), vampiric touch
-- 1/day: cloudkill (DC 18), summon (level 4, 1d3 [lacridaemons](ref/monster/daemon-lacridaemon) 35%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 18, Int 14, Wis 15, Cha 16
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 28 (30 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Improved Critical (tongue), Improved Initiative
-
-**Skills:** Climb +17, Diplomacy +15, Sense Motive +14, Stealth +15
-
-**Languages:** Abyssal, Draconic, Infernal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, gang (2-4), or mob (5-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, gang (2-4), or mob (5-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

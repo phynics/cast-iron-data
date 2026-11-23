@@ -31,104 +31,74 @@ abilities = ["24", "20", "21", "14", "15", "19"]
 _This fiend is a horrendous amalgamation of snapping claws and writhing tendrils with a disgusting
 fanged mouth running vertically across its torso._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., See in darkness, See invisibility
+Subtype: Devil, Evil, Extraplanar, Lawful, Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +5 Dex, +6 natural
+Hit points: 84 (8d10+40)
+Fort: +11
+Ref: +11
+Will: +4
+Defensive abilities: caustic blood
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 heavy flail +16/+11 (1d10+11/19-20) or 2 claws +15 (1d4+7/19-20)
+Rend: 2 claws, 1d4+10
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: see invisibility
+At will: detect thoughts (DC 16), greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: protection from good\
+1/day: greater magic fang, summon (level 3, 1 [bearded devil](ref/monster/devil-bearded-devil-barbazu) 50%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness, See invisibility
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful, Shapechanger
+::: statblock
+Ability scores: Str 24, Dex 20, Con 21, Int 14, Wis 15, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 30
+Feats: Cleave, Combat Reflexes, Improved Critical (claw), Power Attack
+Skills: Bluff +15, Diplomacy +11, Disguise +11, Sense Motive +13
+Languages: Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), taint bloodline
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +6 natural
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +4
-
-**Defensive abilities:** caustic blood
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 heavy flail +16/+11 (1d10+11/19-20) or 2 claws +15 (1d4+7/19-20)
-
-**Rend:** 2 claws, 1d4+10
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- detect thoughts (DC 16), greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: protection from good
-- 1/day: greater magic fang, summon (level 3, 1
-  [bearded devil](ref/monster/devil-bearded-devil-barbazu) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 20, Con 21, Int 14, Wis 15, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 30
-
-**Feats:** Cleave, Combat Reflexes, Improved Critical (claw), Power Attack
-
-**Skills:** Bluff +15, Diplomacy +11, Disguise +11, Sense Motive +13
-
-**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), taint bloodline
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+1 heavy flail); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Standard (+1 heavy flail); other treasure
+:::
 
 ### Special Abilities
 

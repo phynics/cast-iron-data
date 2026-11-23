@@ -30,110 +30,76 @@ abilities = ["25", "19", "32", "18", "18", "25"]
 _This snake-bodied fiend has a six-armed woman's torso, pointed ears, and glittering, otherworldly
 eyes._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: unholy aura (DC 25)
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 102,400
+:::
 
-**aura:** unholy aura (DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 32
+Touch: 17
+Flat-footed: 28
+AC modifiers: +4 deflection, +4 Dex, +15 natural, -1 size
+Hit points: 264 (16d10+176)
+Fort: +25
+Ref: +18
+Will: +13
+Dr: 10/cold iron and good
+Immune: electricity and poison
+Resist: acid 10, cold 10, fire 10
+Sr: 28
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Constrict: tail slap, 2d6+10 plus crushing coils
+Melee: +1 longsword +24/+19/+14/+9 (2d6+8/17-20), 5 +1 longswords +24 (2d6+4/17-20), tail slap +17 (2d6+3 plus [grab](ref/umr/grab)) or 6 slams +22 (1d8+7), tail slap +17 (2d6+3 plus grab)
+Reach: 10
+Space: 10
+Spec Att: infuse weapon, multiweapon mastery
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Constant: true seeing, unholy aura (DC 25)
+At will: greater teleport, self plus 50 lbs. of objects only, project image (DC 24), telekinesis (DC 22)
+Per day: 3/day: blade barrier (DC 23), fly\
+1/day: summon (level 5, 1 marilith 20%, 1 nalfeshnee at 35%, or 1d4 hezrous at 60%)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 25, Dex 19, Con 32, Int 18, Wis 18, Cha 25
+Base attack bonus: +16
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Bleeding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Improved Critical (longsword), Improved Disarm, Power Attack, Weapon Focus (longsword)
+Skills: Acrobatics +23, Bluff +26, Diplomacy +26, Sense Motive +23, Stealth +19, Use Magic Device +26
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 17
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 deflection, +4 Dex, +15 natural, -1 size
-
-**Hit points:** 264 (16d10+176)
-
-**Fort:** +25
-
-**Ref:** +18
-
-**Will:** +13
-
-**Dr:** 10/cold iron and good
-
-**Immune:** electricity and poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** tail slap, 2d6+10 plus crushing coils
-
-**Melee:** +1 longsword +24/+19/+14/+9 (2d6+8/17-20), 5 +1 longswords +24 (2d6+4/17-20), tail slap
-+17 (2d6+3 plus [grab](ref/umr/grab)) or 6 slams +22 (1d8+7), tail slap +17 (2d6+3 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** infuse weapon, multiweapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Constant:**
-
-- true seeing, unholy aura (DC 25)
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, project image (DC 24), telekinesis (DC 22)
-
-**Per day:**
-
-- 3/day: blade barrier (DC 23), fly
-- 1/day: summon (level 5, 1 marilith 20%, 1 nalfeshnee at 35%, or 1d4 hezrous at 60%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 19, Con 32, Int 18, Wis 18, Cha 25
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Bleeding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Improved Critical
-(longsword), Improved Disarm, Power Attack, Weapon Focus (longsword)
-
-**Skills:** Acrobatics +23, Bluff +26, Diplomacy +26, Sense Motive +23, Stealth +19, Use Magic
-Device +26
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or platoon (1 marilith, 1-3
-[glabrezus](ref/monster/demon-glabrezu), and 3-14 [babaus](ref/monster/demon-babau))
-
-**Treasure:** Double (6 mwk longswords); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or platoon (1 marilith, 1-3 [glabrezus](ref/monster/demon-glabrezu), and 3-14 [babaus](ref/monster/demon-babau))
+Treasure: Double (6 mwk longswords); other treasure
+:::
 
 ### Special Abilities
 

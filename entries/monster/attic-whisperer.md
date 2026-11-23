@@ -32,71 +32,58 @@ abilities = ["9", "19", "-", "14", "16", "17"]
 _This thing resembles a gray, emaciated child, with cobwebs and dust for clothes and a fox skull for
 a head._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: sobs (10 ft.)
+Initiative: +8
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Size: small
+Type: undead
+Experience points: 1,200
+:::
 
-**aura:** sobs (10 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 45 (6d8+18)
+Fort: +5
+Ref: +6
+Will: +8
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 20 ft.
+Melee: bite +9 (1d4-1 plus steal breath), touch +4 melee touch (steal voice)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 9, Dex 19, Con -, Int 14, Wis 16, Cha 17
+Base attack bonus: +4
+Combat maneuver bonus: +2
+Combat maneuver defense: 17
+Feats: Dodge, Improved Initiative, Weapon Finesse
+Skills: Bluff +9, Climb +8, Knowledge (history) +8, Perception +12, Stealth +17
+Languages: Common (plus any 2d4 from victims)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +8
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +9 (1d4-1 plus steal breath), touch +4 melee touch (steal voice)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 19, Con -, Int 14, Wis 16, Cha 17
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 17
-
-**Feats:** Dodge, Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +9, Climb +8, Knowledge (history) +8, Perception +12, Stealth +17
-
-**Languages:** Common (plus any 2d4 from victims)
-
-**Ecology**
-
-**Environment:** any urban or ruins
-
-**Organization:** solitary, pair, or chorus (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any urban or ruins
+Organization: solitary, pair, or chorus (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

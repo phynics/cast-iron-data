@@ -30,99 +30,72 @@ abilities = ["26", "19", "21", "18", "18", "23"]
 _This tall, human-like creature has long, feathery wings and a gentle inner radiance that makes it
 difficult to look directly at._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: protective aura
+Initiative: +8
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Angel, Extraplanar, Good
+Experience points: 38,400
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 25
+AC modifiers: +4 Dex, +15 natural; +4 deflection vs. evil
+Hit points: 172 (15d10+90)
+Fort: +16
+Ref: +13
+Will: +11; +4 vs. poison, +4 resistance vs. evil
+Dr: 10/evil
+Immune: acid, cold, petrification
+Resist: electricity 10, fire 10
+Sr: 25
+Uncanny dodge: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 50 ft., fly 100 ft. (good)
+Melee: +2 disruption warhammer +26/+21/+16 (1d8+14/×3 plus stun) or slam +23 (1d8+12)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+At will: aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 23), remove curse, remove disease, remove fear
+Per day: 7/day: cure light wounds, see invisibility\
+1/day: blade barrier (DC 22), heal
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 19, Con 21, Int 18, Wis 18, Cha 23
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 37
+Feats: Alertness, Cleave, Great Fortitude, Improved Initiative, Iron Will, Power Attack, Toughness, Weapon Focus (warhammer)
+Skills: Acrobatics +22, Craft (any one) +22, Diplomacy +24, Sense Motive +26, Stealth +22
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Angel, Extraplanar, Good
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +15 natural; +4 deflection vs. evil
-
-**Hit points:** 172 (15d10+90)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +11; +4 vs. poison, +4 resistance vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 25
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 50 ft., fly 100 ft. (good)
-
-**Melee:** +2 disruption warhammer +26/+21/+16 (1d8+14/×3 plus stun) or slam +23 (1d8+12)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**At will:**
-
-- aid, continual flame, detect evil, discern lies (DC 20), dispel evil (DC 21), dispel magic, holy
-  aura (DC 24), holy smite (DC 20), holy word (DC 23), invisibility, self only, plane shift (DC 23),
-  remove curse, remove disease, remove fear
-
-**Per day:**
-
-- 7/day: cure light wounds, see invisibility
-- 1/day: blade barrier (DC 22), heal
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 21, Int 18, Wis 18, Cha 23
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 37
-
-**Feats:** Alertness, Cleave, Great Fortitude, Improved Initiative, Iron Will, Power Attack,
-Toughness, Weapon Focus (warhammer)
-
-**Skills:** Acrobatics +22, Craft (any one) +22, Diplomacy +24, Sense Motive +26, Stealth +22
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Double (+2 DR warhammer)
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or squad (3-6)
+Treasure: Double (+2 DR warhammer)
+:::
 
 ### Special Abilities
 

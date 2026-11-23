@@ -31,112 +31,75 @@ abilities = ["21", "30", "28", "25", "28", "29"]
 _This humanoid fiend has an overly long torso, black eyes, and a mouth full of razor-sharp teeth. It
 wears black robes that cover most of its rotting, frostbitten flesh._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+aura: fine print (120 ft.)
+Initiative: +15
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 614,400
+:::
 
-**aura:** fine print (120 ft.)
+### Defense
 
-**Initiative:** +15
+::: statblock
+Armor class: 40
+Touch: 28
+Flat-footed: 30
+AC modifiers: +8 deflection, +10 Dex, +12 natural
+Hit points: 377 (26d10+234)
+Fort: +17
+Ref: +25
+Will: +24
+Dr: 20/good and silver
+Immune: acid, charm, compulsion, death effects, disease, emotion, enchantments, mind-reading, poison
+Resist: cold 30, electricity 30, fire 30
+Sr: 33
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 60 ft., fly 60 ft. (perfect)
+Melee: toxic quill +41/+36/+31/+26 (3d6+15/17-20 plus poison)
+Ranged: toxic quill +41 (3d6+15/17-20 plus poison)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +35
+Constant: true seeing
+At will: dimension door, mirror image
+Per day: 3/day: displacement, quickened mirror image, power word blind, power word stun, symbol of insanity (DC 27), symbol of persuasion (DC 25), symbol of strife (DC 28), symbol of stunning (DC 26)\
+1/day: quickened mass hold person (DC 26), overwhelming presence (DC 28), quickened power word kill
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 21, Dex 30, Con 28, Int 25, Wis 28, Cha 29
+Base attack bonus: +26
+Combat maneuver bonus: +31
+Combat maneuver defense: 59
+Feats: Ability Focus, Combat Casting, Combat Expertise, Deadly Aim, Greater Vital Strike, Improved Critical (dagger), Improved Initiative, Improved Vital Strike, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass hold person), Quicken Spell-Like Ability (mirror image), Quicken Spell-Like Ability (power word kill), Vital Strike, Weapon Finesse
+Skills: Appraise +20, Bluff +38, Diplomacy +38, Disguise +35, Profession (barrister) +38, Sense Motive +38, Spellcraft +33, Stealth +39
+Languages: Abyssal, Common, Dwarven, Elven, Gm, Halfling, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: daemonic harbinger traits, deft of hand
+Faith: Braismois
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 614,400
-
-**Armor class:** 40
-
-**Touch:** 28
-
-**Flat-footed:** 30
-
-**AC modifiers:** +8 deflection, +10 Dex, +12 natural
-
-**Hit points:** 377 (26d10+234)
-
-**Fort:** +17
-
-**Ref:** +25
-
-**Will:** +24
-
-**Dr:** 20/good and silver
-
-**Immune:** acid, charm, compulsion, death effects, disease, emotion, enchantments, mind-reading,
-poison
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 30 ft., burrow 60 ft., fly 60 ft. (perfect)
-
-**Melee:** toxic quill +41/+36/+31/+26 (3d6+15/17-20 plus poison)
-
-**Ranged:** toxic quill +41 (3d6+15/17-20 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +35
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- dimension door, mirror image
-
-**Per day:**
-
-- 3/day: displacement, quickened mirror image, power word blind, power word stun, symbol of insanity
-  (DC 27), symbol of persuasion (DC 25), symbol of strife (DC 28), symbol of stunning (DC 26)
-- 1/day: quickened mass hold person (DC 26), overwhelming presence (DC 28), quickened power word
-  kill
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 30, Con 28, Int 25, Wis 28, Cha 29
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 59
-
-**Feats:** Ability Focus, Combat Casting, Combat Expertise, Deadly Aim, Greater Vital Strike,
-Improved Critical (dagger), Improved Initiative, Improved Vital Strike, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mass hold person), Quicken Spell-Like Ability
-(mirror image), Quicken Spell-Like Ability (power word kill), Vital Strike, Weapon Finesse
-
-**Skills:** Appraise +20, Bluff +38, Diplomacy +38, Disguise +35, Profession (barrister) +38, Sense
-Motive +38, Spellcraft +33, Stealth +39
-
-**Languages:** Abyssal, Common, Dwarven, Elven, Gm, Halfling, Infernal;
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** daemonic harbinger traits, deft of hand
-
-**Faith:** Braismois
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

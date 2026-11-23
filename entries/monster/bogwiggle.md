@@ -35,79 +35,62 @@ _This sallow-green beast appears to be an oversized tadpole that never fully mat
 large, bulbous eyes bulging from either side of its head, and a gaping mouth revealing jagged
 fangs._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +5
+Perception: +1
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +2
+Will: +4
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: bite +4 (1d4+1), tongue -1 touch (sticky tongue)
+Reach: 5
+Reach P: 10 ft. with tongue
+Space: 5
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 12, Con 13, Int 3, Wis 12, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Improved Initiative, Power Attack
+Skills: Acrobatics +5, Perception +1 (+5 in swamps), Stealth +9 (+17 in swamps), Swim +13
+Racial Modifiers: +4 Perception in swamps, +8 Stealth in swamps
+Languages: Boggard (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious), swamp stride
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** bite +4 (1d4+1), tongue -1 touch (sticky tongue)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tongue
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 12, Con 13, Int 3, Wis 12, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Acrobatics +5, Perception +1 (+5 in swamps), Stealth +9 (+17 in swamps), Swim +13
-
-**Racial Modifiers:** +4 Perception in swamps, +8 Stealth in swamps
-
-**Languages:** Boggard (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), swamp stride
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

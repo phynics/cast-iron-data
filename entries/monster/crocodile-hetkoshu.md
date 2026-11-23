@@ -30,80 +30,62 @@ abilities = ["40", "10", "25", "1", "18", "7"]
 _This enormous black crocodile gapes hungrily with a maw big enough to swallow two armored warriors
 whole._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: animal
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 25
+Touch: 6
+Flat-footed: 25
+AC modifiers: +19 natural, -4 size
+Hit points: 172 (15d8+105)
+Fort: +16
+Ref: +9
+Will: +11
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 30 ft.
+F Swallow: present
+Melee: bite +23 (3d6+15/19-20 plus [grab](ref/umr/grab)), tail slap +17 (4d8+7)
+Reach: 15
+Space: 20
+Spec Att: death roll (3d6+15 plus [trip](ref/umr/trip)), savage rush
+Swallow: 3d6+15 bludgeoning damage, AC 19, 17 hp
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 40, Dex 10, Con 25, Int 1, Wis 18, Cha 7
+Base attack bonus: +11
+Combat maneuver bonus: +30
+Combat maneuver defense: 40 (44 vs. trip)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Run, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Perception +15, Stealth +11 (+19 in water), Swim +23
+Racial Modifiers: +4 Perception, +8 Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 6
-
-**Flat-footed:** 25
-
-**AC modifiers:** +19 natural, -4 size
-
-**Hit points:** 172 (15d8+105)
-
-**Fort:** +16
-
-**Ref:** +9
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +23 (3d6+15/19-20 plus [grab](ref/umr/grab)), tail slap +17 (4d8+7)
-
-**Reach:** 15
-
-**Space:** 20
-
-**Spec Att:** death roll (3d6+15 plus [trip](ref/umr/trip)), savage rush
-
-**Swallow:** 3d6+15 bludgeoning damage, AC 19, 17 hp
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 10, Con 25, Int 1, Wis 18, Cha 7
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 40 (44 vs. trip)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Run, Skill Focus
-(Perception), Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Perception +15, Stealth +11 (+19 in water), Swim +23
-
-**Racial Modifiers:** +4 Perception, +8 Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm marshes or rivers
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm marshes or rivers
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,71 +32,54 @@ abilities = ["21", "14", "16", "8", "12", "5"]
 _This lobster-like creature stands as tall as a human. Coils of reaching, pink tendrils slither from
 within its jaws._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +3
+Will: +5
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Melee: 2 claws +8 (1d8+5 plus [grab](ref/umr/grab)), tendril +3 (1d4+2 plus staggering tendril)
+Reach: 5
+Reach P: 10 ft. with tendril
+Space: 5
+Spec Att: staggering tendril (DC 15)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Melee:** 2 claws +8 (1d8+5 plus [grab](ref/umr/grab)), tendril +3 (1d4+2 plus staggering tendril)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tendril
-
-**Space:** 5
-
-**Spec Att:** staggering tendril (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con 16, Int 8, Wis 12, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Alertness, Blind-Fight, Improved Initiative
-
-**Skills:** Perception +11, Sense Motive +8, Stealth +10, Swim +13
-
-**Languages:** Common (Undercommon instead for many subterranean variants)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 21, Dex 14, Con 16, Int 8, Wis 12, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Alertness, Blind-Fight, Improved Initiative
+Skills: Perception +11, Sense Motive +8, Stealth +10, Swim +13
+Languages: Common (Undercommon instead for many subterranean variants)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ### Special Abilities
 

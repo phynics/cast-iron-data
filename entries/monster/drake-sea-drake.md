@@ -32,81 +32,63 @@ abilities = ["23", "15", "18", "8", "10", "9"]
 _Not quite sea serpent or dragon, this vicious beast is covered with shiny blue-green scales. Its
 arms serve as both wings and flippers._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: dragon
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 73 (7d12+28)
+Fort: +9
+Ref: +9
+Will: +5
+Immune: electricity, paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., swim 60 ft., fly 60 ft. (average)
+Capsize: present
+Melee: bite +12 (1d8+6 plus 1d6 electricity), tail slap +7 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: ball lightning breath
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 15, Con 18, Int 8, Wis 10, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
+Skills: Fly +10
+Languages: Draconic
+Special qualities: [amphibious](ref/umr/amphibious), speed surge
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 73 (7d12+28)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +5
-
-**Immune:** electricity, paralysis, sleep
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft., fly 60 ft. (average)
-
-**Capsize:** present
-
-**Melee:** bite +12 (1d8+6 plus 1d6 electricity), tail slap +7 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ball lightning breath
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 15, Con 18, Int 8, Wis 10, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Improved Initiative, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
-
-**Skills:** Fly +10
-
-**Languages:** Draconic
-
-**Special qualities:** [amphibious](ref/umr/amphibious), speed surge
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastlines
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,61 @@ abilities = ["3", "16", "16", "-", "11", "5"]
 
 _An oily substance in the water surrounds this seething red mass of worm-like lumps of algae._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+Subtype: Swarm
+Experience points: 4,800
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 18
+AC modifiers: +3 Dex, +4 natural, +4 size
+Hit points: 97 (13d8+39)
+Fort: +11
+Ref: +7
+Will: +4
+Defensive abilities: swarm traits
+Immune: weapon damage, [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: swim 20 ft.
+Distraction: 18
+Melee: swarm (3d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: algal bloom, cling (DC 18)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 3, Dex 16, Con 16, Int -, Wis 11, Cha 5
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Swim +11
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +4 natural, +4 size
-
-**Hit points:** 97 (13d8+39)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +4
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Distraction:** 18
-
-**Melee:** swarm (3d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** algal bloom, cling (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 16, Con 16, Int -, Wis 11, Cha 5
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Swim +11
-
-**Ecology**
-
-**Environment:** temperate or warm rivers
-
-**Organization:** solitary or colony (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm rivers
+Organization: solitary or colony (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

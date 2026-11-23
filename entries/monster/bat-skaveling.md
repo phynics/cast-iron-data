@@ -29,80 +29,62 @@ abilities = ["21", "17", "-", "8", "15", "14"]
 _This monstrously sized, undead bat has mottled, decayed flesh and eyes that smolder with an unholy
 green glow._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 120
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +14
+Type: undead
+Experience points: 1,600
+:::
 
-**blindsense:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 58 (9d8+18)
+Fort: +5
+Ref: +6
+Will: +8
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Melee: bite +10 (2d8+7 plus disease and paralysis)
+Paralysis: 1d4+1 rounds, DC 16
+Reach: 5
+Space: 10
+Spec Att: screech
+:::
 
-**Perception:** +14
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 17, Con -, Int 8, Wis 15, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Dodge, Flyby Attack, Improved Initiative, Mobility, Skill Focus (Stealth)
+Skills: Fly +13, Perception +14 (+18 when using [blindsense](ref/rule/blindsight-and-blindsense)), Stealth +14
+Racial Modifiers: +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
+Languages: Undercommon
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 58 (9d8+18)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +8
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Melee:** bite +10 (2d8+7 plus disease and paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 16
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** screech
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con -, Int 8, Wis 15, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Mobility, Skill Focus (Stealth)
-
-**Skills:** Fly +13, Perception +14 (+18 when using
-[blindsense](ref/rule/blindsight-and-blindsense)), Stealth +14
-
-**Racial Modifiers:** +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
-
-**Languages:** Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or colony (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary or colony (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

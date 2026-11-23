@@ -31,79 +31,62 @@ abilities = ["19", "13", "16", "-", "11", "2"]
 _Six powerful legs, each ending in a hooked claw, jut from the shield-like body of this massive
 insect._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: [stench](ref/umr/stench) (DC 15, 3 rounds)
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 800
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 15, 3 rounds)
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 40 ft., fly 20 ft. (poor)
+Melee: 2 claws +6 (1d4+3 plus [grab](ref/umr/grab)), bite +6 (1d8+4 plus digestive enzymes)
+Reach: 10
+Space: 10
+Spec Att: digestive enzyme
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 13, Con 16, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 19 (27 vs. trip)
+Skills: Fly +1
+Racial Modifiers: +8 on Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 800
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft., fly 20 ft. (poor)
-
-**Melee:** 2 claws +6 (1d4+3 plus [grab](ref/umr/grab)), bite +6 (1d8+4 plus digestive enzymes)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** digestive enzyme
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 16, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 19 (27 vs. trip)
-
-**Skills:** Fly +1
-
-**Racial Modifiers:** +8 on Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate lakes, rivers, or swamps
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate lakes, rivers, or swamps
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

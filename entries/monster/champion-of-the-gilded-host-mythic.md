@@ -32,100 +32,74 @@ _This towering humanoid creature is made almost entirely of gold and radiates a 
 
 **Mythic Champion of the Gilded Host**
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Mythic rank: 7
+aura: blazing courage (30 ft.), selective antimagic (30 ft.)
+Size: colossal
+Type: construct
+Initiative: +1
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Colossus, Mythic
+Experience points: 153,600
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**aura:** blazing courage (30 ft.), selective antimagic (30 ft.)
+::: statblock
+Armor class: 32
+Touch: 3
+Flat-footed: 31
+AC modifiers: +1 Dex, +29 natural, -8 size
+Hit points: 273 (19d10+169)
+Fort: +6
+Ref: +7
+Will: +7
+Dr: 10/epic
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** colossal
+### Offense
 
-**Type:** construct
+::: statblock
+Speed: 50 ft., climb 50 ft., swim 50 ft.
+M Power: 7/day, surge +1d10
+Melee: 2 slams +30 (3d8+19/19-20) or stomp (6d8+28 plus pinning stomp and suppressing stomp)
+Reach: 30
+Space: 30
+Spec Att: mythic quickening
+:::
 
-**Initiative:** +1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +14
+Per day: 3/day: extended good hope\
+1/day: extended vengeful outrage (DC 16)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 48, Dex 13, Con -, Int 7, Wis 12, Cha 11
+Base attack bonus: +19
+Combat maneuver bonus: +46
+Combat maneuver defense: 57 (can't be tripped)
+Feats: Mythic Cleave, Combat Reflexes, Critical Focus, Great Cleave, Mythic Improved Critical (slam), Improved Vital Strike, Mythic Power Attack, Stand Still, Toughness, Vital Strike
+Skills: Climb +27
+Languages: Vudrani
+Special qualities: alternate form, blessing of the Gilded Host, mythic creation, mythic resilience
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Colossus, Mythic
-
-**Experience points:** 153,600
-
-**Armor class:** 32
-
-**Touch:** 3
-
-**Flat-footed:** 31
-
-**AC modifiers:** +1 Dex, +29 natural, -8 size
-
-**Hit points:** 273 (19d10+169)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +7
-
-**Dr:** 10/epic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft., swim 50 ft.
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** 2 slams +30 (3d8+19/19-20) or stomp (6d8+28 plus pinning stomp and suppressing stomp)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** mythic quickening
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: extended good hope
-- 1/day: extended vengeful outrage (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 13, Con -, Int 7, Wis 12, Cha 11
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 57 (can't be tripped)
-
-**Feats:** Mythic Cleave, Combat Reflexes, Critical Focus, Great Cleave, Mythic Improved Critical
-(slam), Improved Vital Strike, Mythic Power Attack, Stand Still, Toughness, Vital Strike
-
-**Skills:** Climb +27
-
-**Languages:** Vudrani
-
-**Special qualities:** alternate form, blessing of the Gilded Host, mythic creation, mythic
-resilience
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or legion (1 plus 10-100 human fighters of 5th-8th level)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or legion (1 plus 10-100 human fighters of 5th-8th level)
+Treasure: None
+:::
 
 ### Special Abilities
 

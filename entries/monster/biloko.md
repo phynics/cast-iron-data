@@ -32,81 +32,65 @@ _This gnome-sized humanoid's face is adorned with fiery red eyes and a sharp-too
 seems too wide for its head. The creature is garbed in leaves and possesses no hair - patches of
 grass and moss grow from its skin instead._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: fey
+Initiative: +6
+Alignment: Neutral evil
+Perception: +6
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 5 (2d6-2)
+Fort: -1
+Ref: +5
+Will: +4
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: 1 shortspear +0 (1d4-2), 1 bite +0 (1d4-2)
+Ranged: 1 shortspear +4 (1d4-2)
+:::
 
-**Senses:** Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +2
+Per day: 3/day: charm person (DC 13)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 6, Dex 15, Con 8, Int 11, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 10
+Feats: Improved Initiative
+Skills: Climb +3, Craft (traps) +5, Knowledge (nature) +5, Perception +6
+Languages: Common, Sylvan
+Special qualities: persuasion
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (2d6-2)
-
-**Fort:** -1
-
-**Ref:** +5
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 1 shortspear +0 (1d4-2), 1 bite +0 (1d4-2)
-
-**Ranged:** 1 shortspear +4 (1d4-2)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**Per day:**
-
-- 3/day: charm person (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 8, Int 11, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 10
-
-**Feats:** Improved Initiative
-
-**Skills:** Climb +3, Craft (traps) +5, Knowledge (nature) +5, Perception +6
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** persuasion
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or gang (3-16)
-
-**Treasure:** Standard (4 shortspears); other gear
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or gang (3-16)
+Treasure: Standard (4 shortspears); other gear
+:::
 
 ### Special Abilities
 

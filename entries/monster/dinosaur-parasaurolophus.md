@@ -28,69 +28,57 @@ abilities = ["23", "14", "17", "2", "13", "10"]
 _This thick-bodied dinosaur has a whip-like tail and a long neck, its head topped by the crest of a
 backward-curving horn._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 15
+AC modifiers: +2 Dex, +7 natural, -1 size
+Hit points: 45 (6d8+18)
+Fort: +8
+Ref: +7
+Will: +3
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: tail slap +8 (2d6+9)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 14, Con 17, Int 2, Wis 13, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Improved Bull Rush, Power Attack, Skill Focus (Perception)
+Skills: Perception +13
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +7 natural, -1 size
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** tail slap +8 (2d6+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 14, Con 17, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Improved Bull Rush, Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +13
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

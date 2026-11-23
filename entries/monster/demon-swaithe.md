@@ -30,104 +30,74 @@ abilities = ["11", "16", "14", "13", "11", "12"]
 
 _This creepy ash-gray goblin-like creature has empty eye sockets and scraggly, stained teeth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 30
+Alignment: Chaotic evil
+Initiative: +7
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +3 Dex, +4 natural, +1 size
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +9
+Will: +4
+Dr: 5/cold iron
+Immune: electricity, gaze attacks, poison, visual effects and attacks relying on sight
+Resist: acid 10, cold 10, fire 10
+Sr: 15
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +6 (1d4), 2 claws +6 (1d3)
+Spec Att: hexes ([cackle](ref/hex/cackle), [evil eye](ref/hex/evil-eye) \[-2, 4 rounds\], [misfortune](ref/hex/misfortune) \[1 round\]; DC 13)
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Constant: speak with animals
+At will: cause fear (DC 12), detect magic, ray of enfeeblement (DC 12), read magic
+Per day: 3/day: charm animal (DC 12), invisibility, self only\
+1/day: rage, waters of Lamashtu
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 16, Con 14, Int 13, Wis 11, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Combat Casting, Improved Initiative, Lightning Reflexes
+Skills: Handle Animal +9, Ride +11, Stealth +15
+Languages: Abyssal, Goblin, Gnoll, Orc; _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: eyeless, witchcraft
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +4 natural, +1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Immune:** electricity, gaze attacks, poison, visual effects and attacks relying on sight
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +6 (1d4), 2 claws +6 (1d3)
-
-**Spec Att:** hexes ([cackle](ref/hex/cackle), [evil eye](ref/hex/evil-eye) \[-2, 4 rounds\],
-[misfortune](ref/hex/misfortune) \[1 round\]; DC 13)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Constant:**
-
-- speak with animals
-
-**At will:**
-
-- cause fear (DC 12), detect magic, ray of enfeeblement (DC 12), read magic
-
-**Per day:**
-
-- 3/day: charm animal (DC 12), invisibility, self only
-- 1/day: rage, waters of Lamashtu
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 16, Con 14, Int 13, Wis 11, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Improved Initiative, Lightning Reflexes
-
-**Skills:** Handle Animal +9, Ride +11, Stealth +15
-
-**Languages:** Abyssal, Goblin, Gnoll, Orc; _[speak with animals](ref/spell/speak-with-animals),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** eyeless, witchcraft
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

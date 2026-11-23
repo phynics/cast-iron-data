@@ -30,77 +30,61 @@ abilities = ["1", "16", "11", "-", "13", "2"]
 
 _A loud droning buzz accompanies this mass of flying insects._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 600
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 size
+Hit points: 18 (4d8)
+Fort: +4
+Ref: +4
+Will: +2
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 5 ft., climb 20 ft., fly 40 ft. (average)
+Melee: swarm (1d6 plus distraction and song)
+Reach: 0
+Space: 10
+Spec Att: song (DC 12)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 16, Con 11, Int -, Wis 13, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +3, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 5 ft., climb 20 ft., fly 40 ft. (average)
-
-**Melee:** swarm (1d6 plus distraction and song)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** song (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 11, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +3, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or infestation (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or infestation (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,107 +30,75 @@ abilities = ["32", "23", "30", "17", "18", "21"]
 _Dozens of weapons pierce this massive monster's body. Red eyes glow with wickedness in its
 vulture-like head._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: fear (15 ft., DC 24), unholy aura
+Initiative: +10
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 153,600
+:::
 
-**aura:** fear (15 ft., DC 24), unholy aura
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 35
+Touch: 19
+Flat-footed: 29
+AC modifiers: +4 deflection, +6 Dex, +16 natural, -1 size
+Hit points: 294 (19d10+190)
+Fort: +25
+Ref: +21
+Will: +14
+Dr: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 29
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: +2 [wounding](ref/magic-enh/wounding) halberd (2d8+18/19-20/×3), bite +24 (1d8+5)
+Reach: 10
+Space: 10
+Spec Att: weapon steep
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+Constant: true seeing, unholy aura (DC 23)
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: chain lightning (DC 21), cone of cold (DC 20), flame strike (DC 20)\
+1/day: summon (level 5, 2 [derghodaemons](ref/monster/daemon-derghodaemon) 50%)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 32, Dex 23, Con 30, Int 17, Wis 18, Cha 21
+Base attack bonus: +19
+Combat maneuver bonus: +31
+Combat maneuver defense: 51
+Feats: Combat Expertise, Combat Reflexes, Greater Vital Strike, Improved Critical (halberd), Improved Initiative, Improved Sunder, Improved Vital Strike, Lunge, Power Attack, Quick Draw, Vital Strike, Weapon Focus (halberd)
+Skills: Acrobatics +28, Bluff +21, Diplomacy +17, Fly +16, Intimidate +27, Knowledge (planes) +25, Perception +26
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 35
-
-**Touch:** 19
-
-**Flat-footed:** 29
-
-**AC modifiers:** +4 deflection, +6 Dex, +16 natural, -1 size
-
-**Hit points:** 294 (19d10+190)
-
-**Fort:** +25
-
-**Ref:** +21
-
-**Will:** +14
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** +2 [wounding](ref/magic-enh/wounding) halberd (2d8+18/19-20/×3), bite +24 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** weapon steep
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Constant:**
-
-- true seeing, unholy aura (DC 23)
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: chain lightning (DC 21), cone of cold (DC 20), flame strike (DC 20)
-- 1/day: summon (level 5, 2 [derghodaemons](ref/monster/daemon-derghodaemon) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 23, Con 30, Int 17, Wis 18, Cha 21
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 51
-
-**Feats:** Combat Expertise, Combat Reflexes, Greater Vital Strike, Improved Critical (halberd),
-Improved Initiative, Improved Sunder, Improved Vital Strike, Lunge, Power Attack, Quick Draw, Vital
-Strike, Weapon Focus (halberd)
-
-**Skills:** Acrobatics +28, Bluff +21, Diplomacy +17, Fly +16, Intimidate +27, Knowledge (planes)
-+25, Perception +26
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, patrol (2-5), or unit (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, patrol (2-5), or unit (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

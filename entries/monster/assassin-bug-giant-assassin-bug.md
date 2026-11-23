@@ -32,69 +32,57 @@ abilities = ["15", "15", "13", "-", "10", "2"]
 
 _This goat-sized insect stands on long, spindly legs. Its mouthparts glisten with a curious fluid._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 27 (5d8+5)
+Fort: +5
+Ref: +3
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., fly 30 ft. (clumsy)
+Melee: bite +6 (1d4+2 plus poison), 2 claws +6 (1d3+2)
+Spec Att: poison, poison stream
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 15, Dex 15, Con 13, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (24 vs. trip)
+Skills: Fly -4, Perception +4, Stealth +10
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 27 (5d8+5)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (clumsy)
-
-**Melee:** bite +6 (1d4+2 plus poison), 2 claws +6 (1d3+2)
-
-**Spec Att:** poison, poison stream
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 13, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (24 vs. trip)
-
-**Skills:** Fly -4, Perception +4, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** any warm
-
-**Organization:** solitary or nest (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any warm
+Organization: solitary or nest (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

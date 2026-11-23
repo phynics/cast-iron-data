@@ -30,98 +30,72 @@ abilities = ["31", "17", "18", "10", "14", "13"]
 
 _This tall giant has no head; instead, its one-eyed face rests in the center of its broad chest._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: humanoid
+Initiative: +7
+Size: large
+Alignment: Lawful neutral
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Giant
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 22
+AC modifiers: +6 armor, +3 Dex, +7 natural, -1 size
+Hit points: 119 (14d8+56)
+Fort: +13
+Ref: +9
+Will: +8
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +19 (1d6+10), bite +19 (1d8+10)
+Ranged: rock +13 (1d8+15)
+Reach: 10
+Rock Th: 60 ft.
+Space: 10
+Spec Att: bounding stone
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +15
+Constant: see invisibility
+Per day: 3/day: alarm
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 31, Dex 17, Con 18, Int 10, Wis 14, Cha 13
+Base attack bonus: +10
+Combat maneuver bonus: +21
+Combat maneuver defense: 34
+Feats: Alertness, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Intimidate +9, Perception +20
+Racial Modifiers: +8 Perception
+Languages: Common, Cyclops, Giant
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 armor, +3 Dex, +7 natural, -1 size
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +8
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +19 (1d6+10), bite +19 (1d8+10)
-
-**Ranged:** rock +13 (1d8+15)
-
-**Reach:** 10
-
-**Rock Th:** 60 ft.
-
-**Space:** 10
-
-**Spec Att:** bounding stone
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +15
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 3/day: alarm
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 17, Con 18, Int 10, Wis 14, Cha 13
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Power
-Attack, Vital Strike
-
-**Skills:** Intimidate +9, Perception +20
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Common, Cyclops, Giant
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, patrol (2-5), company (6-20)
-
-**Treasure:** Standard (greatclub, mwk breastplate); other treasure
+::: statblock
+Environment: any land or underground
+Organization: solitary, patrol (2-5), company (6-20)
+Treasure: Standard (greatclub, mwk breastplate); other treasure
+:::
 
 ### Special Abilities
 

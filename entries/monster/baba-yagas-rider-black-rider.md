@@ -30,100 +30,73 @@ abilities = ["23", "20", "22", "17", "18", "21"]
 _A man with curling ram's horns sits astride a snorting, stamping black warhorse, gripping a dark,
 battle-worn spear._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: icy aura (10 ft., DC 24)
+Type: fey
+Initiative: +5
+Alignment: Lawful neutral
+Size: medium
+Perception: +25
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**aura:** icy aura (10 ft., DC 24)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 24
+AC modifiers: +9 armor, +5 Dex, +5 natural
+Hit points: 171 (18d6+108)
+Fort: +12
+Ref: +16
+Will: +15
+Dr: 10/cold iron
+Immune: cold, poison
+Sr: 24
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft.
+Melee: +2 [icy burst](ref/magic-enh/icy-burst) spear +18/+13 (1d8+11/19-20/×3)
+Spec Att: Rider's weapon, weal or woe (DC 24)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: see invisibility
+At will: chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
+Per day: 5/day: deeper darkness, ice storm\
+3/day: cone of cold (DC 20), dust of twilight (DC 17), moonstruck (DC 19)\
+1/day: cloak of dreams (DC 21)
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 20, Con 22, Int 17, Wis 18, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 25 (can't be disarmed)
+Feats: Cleave, Critical Focus, Improved Critical (spear), Mounted Combat, Power Attack, Ride-By Attack, Spirited Charge, Trample, Weapon Focus (spear)
+Skills: Intimidate +23, Knowledge (arcana) +18, Knowledge (nature) +21, Perception +25
+Languages: Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: conjure mount, Rider's robes
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +9 armor, +5 Dex, +5 natural
-
-**Hit points:** 171 (18d6+108)
-
-**Fort:** +12
-
-**Ref:** +16
-
-**Will:** +15
-
-**Dr:** 10/cold iron
-
-**Immune:** cold, poison
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 [icy burst](ref/magic-enh/icy-burst) spear +18/+13 (1d8+11/19-20/×3)
-
-**Spec Att:** Rider's weapon, weal or woe (DC 24)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- chill touch (DC 16), detect thoughts (DC 17), zone of truth (DC 17)
-
-**Per day:**
-
-- 5/day: deeper darkness, ice storm
-- 3/day: cone of cold (DC 20), dust of twilight (DC 17), moonstruck (DC 19)
-- 1/day: cloak of dreams (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 20, Con 22, Int 17, Wis 18, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 25 (can't be disarmed)
-
-**Feats:** Cleave, Critical Focus, Improved Critical (spear), Mounted Combat, Power Attack, Ride-By
-Attack, Spirited Charge, Trample, Weapon Focus (spear)
-
-**Skills:** Intimidate +23, Knowledge (arcana) +18, Knowledge (nature) +21, Perception +25
-
-**Languages:** Common, Hallit, Skald, Sylvan; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** conjure mount, Rider's robes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

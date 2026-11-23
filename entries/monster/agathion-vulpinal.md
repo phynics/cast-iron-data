@@ -33,108 +33,75 @@ abilities = ["12", "16", "17", "19", "15", "16"]
 _This bright-eyed, anthropomorphic fox is dressed in simple traveling clothes and carries a musical
 instrument in one hand._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: calm emotions (30 ft.)
+Initiative: +7
+Alignment: Neutral good
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Size: small
+Subtype: Agathion, Extraplanar, Good
+Experience points: 2,400
+:::
 
-**aura:** calm emotions (30 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 19
+AC modifiers: +4 armor, +3 Dex, +4 natural, +1 size
+Hit points: 59 (7d10+21)
+Fort: +5
+Ref: +10
+Will: +7; +4 vs. poison
+Dr: 10/evil or silver
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 17
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +11 (1d4+1), 2 claws +11 (1d3+1)
+Pounce: present
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Constant: detect evil, mage armor, speak with animals
+At will: invisibility, self only
+Per day: 3/day: charm monster (DC 17), dispel evil (DC 18), flame arrow, holy smite (DC 17), dimension door, self plus 50 lbs. of objects only, remove disease\
+1/day: major image (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 16, Con 17, Int 19, Wis 15, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Weapon Finesse
+Skills: Acrobatics +10 (+18 jump), Bluff +13, Knowledge (arcana plus one additional) +21, Perception +12, Perform (any one) +13, Spellcraft +14, Stealth +17, Use Magic Device +10
+Racial Modifiers: +8 Acrobatics when jumping
+Languages: Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: bardic knowledge +7, [lay on hands](ref/ability/lay-on-hands) (3d6, 6/day, as a 7th-level paladin)
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, +3 Dex, +4 natural, +1 size
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +7; +4 vs. poison
-
-**Dr:** 10/evil or silver
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +11 (1d4+1), 2 claws +11 (1d3+1)
-
-**Pounce:** present
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect evil, mage armor, speak with animals
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 3/day: charm monster (DC 17), dispel evil (DC 18), flame arrow, holy smite (DC 17), dimension
-  door, self plus 50 lbs. of objects only, remove disease
-- 1/day: major image (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 17, Int 19, Wis 15, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Weapon Finesse
-
-**Skills:** Acrobatics +10 (+18 jump), Bluff +13, Knowledge (arcana plus one additional) +21,
-Perception +12, Perform (any one) +13, Spellcraft +14, Stealth +17, Use Magic Device +10
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Languages:** Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** bardic knowledge +7, [lay on hands](ref/ability/lay-on-hands) (3d6, 6/day, as
-a 7th-level paladin)
-
-**Ecology**
-
-**Environment:** any land ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or team (3-12)
-
-**Treasure:** Standard; [masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork),
-other treasure
+::: statblock
+Environment: any land ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or team (3-12)
+Treasure: Standard; [masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

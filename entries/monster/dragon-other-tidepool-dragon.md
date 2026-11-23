@@ -32,106 +32,77 @@ _This small draconic creature seems better suited for the waves than wind, its w
 its body like massive fins. Light from the water refracts off its resilient-looking cerulean hide as
 it snaps crustacean-like claws._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +5
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 30 (4d12+4)
+Fort: +5
+Ref: +7
+Will: +6
+Immune: paralysis, sleep
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 10 ft., swim 60 ft., fly 30 ft. (average)
+Br Weap: 5-ft. line, 2d6 fire damage, Reflex DC 13 for half, usable every 1d4 rounds
+Melee: bite +6 (1d3), 2 claws +6 (1d3 plus attach)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Per day: 3/day: freedom of movement, self only
+:::
 
-**Subtype:** Aquatic
+::: statblock
+title = "Spells Known"
+Caster level: 4
+Concentration: +6
+2nd-level spells: 4/day: slipstream
+1st-level spells: 7/day: hydraulic push, obscuring mist
+Cantrips: At will: acid splash, dancing lights, daze (DC 12), detect poison, mage hand, touch of fatigue (DC 12)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 11, Dex 13, Con 13, Int 8, Wis 14, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Fly +12
+Languages: Common, Draconic
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 30 (4d12+4)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft., fly 30 ft. (average)
-
-**Br Weap:** 5-ft. line, 2d6 fire damage, Reflex DC 13 for half, usable every 1d4 rounds
-
-**Melee:** bite +6 (1d3), 2 claws +6 (1d3 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: freedom of movement, self only
-
-**Spells Known**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**2nd-level spells:**
-
-- 4/day: slipstream
-
-**1st-level spells:**
-
-- 7/day: hydraulic push, obscuring mist
-
-**Cantrips:**
-
-- At will: acid splash, dancing lights, daze (DC 12), detect poison, mage hand, touch of fatigue (DC
-  12)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 13, Con 13, Int 8, Wis 14, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +12
-
-**Languages:** Common, Draconic
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** warm coastlines
-
-**Organization:** solitary, pair, or clutch (3-6)
+::: statblock
+Environment: warm coastlines
+Organization: solitary, pair, or clutch (3-6)
+:::
 
 ### Special Abilities
 

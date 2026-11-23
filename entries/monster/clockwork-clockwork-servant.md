@@ -32,79 +32,64 @@ abilities = ["19", "14", "-", "-", "11", "1"]
 _This four-armed, human-sized clockwork construct balances on three legs that rise into a central
 body._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 dodge, +2 natural
+Hit points: 31 (2d10+20)
+Fort: +0
+Ref: +4
+Will: +0
+Fh: 2
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (1d4+6)
+Ranged: net +4 (entangle)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 dodge, +2 natural
-
-**Hit points:** 31 (2d10+20)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +0
-
-**Fh:** 2
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (1d4+6)
-
-**Ranged:** net +4 (entangle)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** repair clockwork, swift reactions, winding
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: repair clockwork, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, team (2-4), or squadron (5-10)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, team (2-4), or squadron (5-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

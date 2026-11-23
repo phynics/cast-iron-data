@@ -32,138 +32,89 @@ abilities = ["48", "23", "38", "25", "30", "27"]
 _This towering giant with twisted legs has human skulls woven into his beard and holds an immense
 warhammer._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 33), unholy aura (DC 26)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +6
+Type: outsider
+Perception: +52
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Cold, Demon, Evil, Extraplanar
+Experience points: 2,457,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 33), unholy aura (DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 44
+Touch: 30
+Flat-footed: 38
+AC modifiers: +4 deflection, +6 Dex, +14 natural, +12 profane, -2 size
+Hit points: 604 (31d10+434)
+Fort: +35
+Ref: +20
+Will: +31
+Defensive abilities: Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, epic, and good
+Immune: ability damage, ability drain, charm effects, compulsion effects, cold, death effects, electricity, energy drain, petrification, and poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, fire 30
+Rock Ct: present
+Sr: 37
+Vulner: fire
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 60 ft., climb 60 ft.
+Fav En: giants +4, humans +4, see below
+Melee: +5 adamantine icy burst warhammer +53/+48/+43/+38 (3d6+24/19-20/×3 plus 1d6 cold), slam +48 (1d8+19 plus [grab](ref/umr/grab))
+Ranged: rock +37/+32/+27/+22 (2d6+19)
+Reach: 15
+Rock Th: 600 ft.
+Space: 15
+Spec Att: clutch foe, crushing blow, powerful slam, vengeful strike
+:::
 
-**Type:** outsider
-
-**Perception:** +52
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Cold, Demon, Evil, Extraplanar
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 30
-
-**Flat-footed:** 38
-
-**AC modifiers:** +4 deflection, +6 Dex, +14 natural, +12 profane, -2 size
-
-**Hit points:** 604 (31d10+434)
-
-**Fort:** +35
-
-**Ref:** +20
-
-**Will:** +31
-
-**Defensive abilities:** Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, epic, and good
-
-**Immune:** ability damage, ability drain, charm effects, compulsion effects, cold, death effects,
-electricity, energy drain, petrification, and poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, fire 30
-
-**Rock Ct:** present
-
-**Sr:** 37
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft.
-
-**Fav En:** giants +4, humans +4, see below
-
-**Melee:** +5 adamantine icy burst warhammer +53/+48/+43/+38 (3d6+24/19-20/×3 plus 1d6 cold), slam
-+48 (1d8+19 plus [grab](ref/umr/grab))
-
-**Ranged:** rock +37/+32/+27/+22 (2d6+19)
-
-**Reach:** 15
-
-**Rock Th:** 600 ft.
-
-**Space:** 15
-
-**Spec Att:** clutch foe, crushing blow, powerful slam, vengeful strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +34
-
-**Constant:**
-
-- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 26)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 25), cone of cold^M^ (DC 23), desecrate^M^, enlarge person^M^,
-  greater dispel magic, greater teleport, telekinesis^M^ (DC 23), shapechange, unhallow, unholy
-  blight^M^ (DC 22)
-
-**Per day:**
-
-- 3/day: polar ray^M^, power word stun^M^, summon demons, symbol of stunning (DC 25)
-- 1/day: mass icy prison (DC 27), polar midnight (DC 27), time stop^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +34
+Constant: air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 26)
+At will: astral projection, blasphemy^M^ (DC 25), cone of cold^M^ (DC 23), desecrate^M^, enlarge person^M^, greater dispel magic, greater teleport, telekinesis^M^ (DC 23), shapechange, unhallow, unholy blight^M^ (DC 22)
+Per day: 3/day: polar ray^M^, power word stun^M^, summon demons, symbol of stunning (DC 25)\
+1/day: mass icy prison (DC 27), polar midnight (DC 27), time stop^M^
+:::
 
 ###### M {#footnote-m}
 
 Kostchtchie can use the mythic version of this ability in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 48, Dex 23, Con 38, Int 25, Wis 30, Cha 27
+::: statblock
+Ability scores: Str 48, Dex 23, Con 38, Int 25, Wis 30, Cha 27
+Base attack bonus: +31
+Combat maneuver bonus: +52 (+54 bull rush, +56 grapple, +56 sunder)
+Combat maneuver defense: 86 (88 vs. bull rush, 88 vs. sunder)
+Feats: Awesome Blow, Catch Off-Guard, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Greater Sunder, Greater Vital Strike, Improved Bull Rush, Improved Critical (warhammer), Improved Sunder, Improved Vital Strike, Power Attack, Quick Draw, Staggering Critical, Vital Strike
+Skills: Bluff +42, Climb +58, Intimidate +42, Knowledge (arcana, planes) +41, Knowledge (engineering) +38, Perception +52, Sense Motive +44, Spellcraft +41, Stealth +32, Use Magic Device +39
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic, Giant; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: demon lord traits
+Faith: Kostchtchie
+:::
 
-**Base attack bonus:** +31
+### Ecology
 
-**Combat maneuver bonus:** +52 (+54 bull rush, +56 grapple, +56 sunder)
-
-**Combat maneuver defense:** 86 (88 vs. bull rush, 88 vs. sunder)
-
-**Feats:** Awesome Blow, Catch Off-Guard, Craft Construct, Craft Magic Arms and Armor, Craft
-Wondrous Item, Critical Focus, Greater Sunder, Greater Vital Strike, Improved Bull Rush, Improved
-Critical (warhammer), Improved Sunder, Improved Vital Strike, Power Attack, Quick Draw, Staggering
-Critical, Vital Strike
-
-**Skills:** Bluff +42, Climb +58, Intimidate +42, Knowledge (arcana, planes) +41, Knowledge
-(engineering) +38, Perception +52, Sense Motive +44, Spellcraft +41, Stealth +32, Use Magic Device
-+39
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Giant; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** demon lord traits
-
-**Faith:** Kostchtchie
-
-**Ecology**
-
-**Environment:** any cold ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 MA I warhammer); other treasure
+::: statblock
+Environment: any cold ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple (+5 MA I warhammer); other treasure
+:::
 
 ### Special Abilities
 

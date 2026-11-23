@@ -32,99 +32,72 @@ abilities = ["18", "26", "18", "13", "17", "13"]
 _This humanoid wolf's fur is snowy white and its eyes piercing blue; it grips an ornate spear in its
 fist._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +12
+Size: medium
+Perception: +13
+Senses: Low-light vision
+Subtype: Adlet, Cold
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 24
+Touch: 19
+Flat-footed: 15
+AC modifiers: +8 Dex, +1 dodge, +5 natural
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +17
+Will: +8
+Immune: cold
+Vulner: fire
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: +1 spear +17/+12/+7 (1d8+7/×3), bite +10 (1d6+2 plus 1d6 cold)
+Spec Att: frozen breath
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+Constant: pass without trace
+At will: ray of frost
+Per day: 3/day: fog cloud, sleet storm\
+1/day: ice storm, wind walk, self only
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Adlet, Cold
+::: statblock
+Ability scores: Str 18, Dex 26, Con 18, Int 13, Wis 17, Cha 13
+Base attack bonus: +11
+Combat maneuver bonus: +15
+Combat maneuver defense: 35
+Feats: Diehard, Dodge, Endurance, Improved Initiative, Power Attack, Run, Self-Sufficient, Weapon Focus (spear)
+Skills: Acrobatics +13 (+17 when jumping), Climb +12, Handle Animal +9, Heal +5
+Racial Modifiers: +8 Stealth in snow
+Languages: Common, Adlet
+Special qualities: arctic stride
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 19
-
-**Flat-footed:** 15
-
-**AC modifiers:** +8 Dex, +1 dodge, +5 natural
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +17
-
-**Will:** +8
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 spear +17/+12/+7 (1d8+7/×3), bite +10 (1d6+2 plus 1d6 cold)
-
-**Spec Att:** frozen breath
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- ray of frost
-
-**Per day:**
-
-- 3/day: fog cloud, sleet storm
-- 1/day: ice storm, wind walk, self only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 26, Con 18, Int 13, Wis 17, Cha 13
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 35
-
-**Feats:** Diehard, Dodge, Endurance, Improved Initiative, Power Attack, Run, Self-Sufficient,
-Weapon Focus (spear)
-
-**Skills:** Acrobatics +13 (+17 when jumping), Climb +12, Handle Animal +9, Heal +5
-
-**Racial Modifiers:** +8 Stealth in snow
-
-**Languages:** Common, Adlet
-
-**Special qualities:** arctic stride
-
-**Ecology**
-
-**Environment:** cold plains, hills, or mountains
-
-**Organization:** solitary, pair, or pack (3-18 plus 1 shaman)
-
-**Treasure:** Standard (+1 spear); other treasure
+::: statblock
+Environment: cold plains, hills, or mountains
+Organization: solitary, pair, or pack (3-18 plus 1 shaman)
+Treasure: Standard (+1 spear); other treasure
+:::
 
 ### Special Abilities
 

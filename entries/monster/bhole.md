@@ -33,85 +33,64 @@ abilities = ["44", "8", "28", "3", "21", "23"]
 _This titanic worm heaves its endless bulk into the air, raising one end as if ready to strike with
 a massive set of hooked jaws._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +3
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 33
+Touch: 1
+Flat-footed: 33
+AC modifiers: -1 Dex, +32 natural, -8 size
+Hit points: 290 (20d10+180)
+Fort: +21
+Ref: +13
+Will: +11
+Dr: 10/-
+Immune: acid, fire, disease, magical control, paralysis, poison, sleep, stun
+Sr: 28
+:::
 
-**Initiative:** +3
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 50 ft., burrow 50 ft.
+Melee: bite +29 (6d6+25/19-20 plus [grab](ref/umr/grab)), slam +29 (3d8+25/19-20)
+Reach: 60
+Space: 30
+Spec Att: breath weapon, overwhelming strength
+Swallow: 20d6 acid damage, AC 26, 29 hp
+Trample: DC 37
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 44, Dex 8, Con 28, Int 3, Wis 21, Cha 23
+Base attack bonus: +20
+Combat maneuver bonus: +45 (+47 bull rush, +49 grapple)
+Combat maneuver defense: 54 (56 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Critical (slam), Improved Initiative, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
+Skills: Perception +28
+Languages: Aklo (rarely speaks)
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 1
-
-**Flat-footed:** 33
-
-**AC modifiers:** -1 Dex, +32 natural, -8 size
-
-**Hit points:** 290 (20d10+180)
-
-**Fort:** +21
-
-**Ref:** +13
-
-**Will:** +11
-
-**Dr:** 10/-
-
-**Immune:** acid, fire, disease, magical control, paralysis, poison, sleep, stun
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 50 ft., burrow 50 ft.
-
-**Melee:** bite +29 (6d6+25/19-20 plus [grab](ref/umr/grab)), slam +29 (3d8+25/19-20)
-
-**Reach:** 60
-
-**Space:** 30
-
-**Spec Att:** breath weapon, overwhelming strength
-
-**Swallow:** 20d6 acid damage, AC 26, 29 hp
-
-**Trample:** DC 37
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 8, Con 28, Int 3, Wis 21, Cha 23
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +45 (+47 bull rush, +49 grapple)
-
-**Combat maneuver defense:** 54 (56 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved
-Critical (slam), Improved Initiative, Lightning Reflexes, Power Attack, Staggering Critical, Vital
-Strike
-
-**Skills:** Perception +28
-
-**Languages:** Aklo (rarely speaks)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

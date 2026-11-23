@@ -35,79 +35,62 @@ abilities = ["19", "14", "14", "9", "11", "12"]
 _This green-scaled dragon has two powerful legs and a pair of long, leathery wings. A long spike
 adorns its thrashing tail._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: dragon
+Initiative: +6
+Size: large
+Alignment: Lawful evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth
+Experience points: 1,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 42 (5d12+10)
+Fort: +6
+Ref: +6
+Will: +4
+Immune: acid, paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 60 ft. (average)
+Melee: bite +8 (1d8+4), tail slap +3 (1d8+2)
+Reach: 10
+Space: 10
+Spec Att: acidic cloud
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 14, Con 14, Int 9, Wis 11, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Improved Initiative, Power Attack, Skill Focus (Perception)
+Skills: Fly +8
+Languages: Draconic
+Special qualities: aquatic adaptation, speed surge
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d12+10)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +4
-
-**Immune:** acid, paralysis, sleep
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +8 (1d8+4), tail slap +3 (1d8+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** acidic cloud
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 14, Int 9, Wis 11, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Power Attack, Skill Focus (Perception)
-
-**Skills:** Fly +8
-
-**Languages:** Draconic
-
-**Special qualities:** aquatic adaptation, speed surge
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

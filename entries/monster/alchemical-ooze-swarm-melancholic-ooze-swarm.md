@@ -27,77 +27,61 @@ special_attacks = "paralyzing slime~viscous (DC 15)"
 abilities = ["14", "1", "18", "-", "1", "1"]
 +++
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 60
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Swarm
+Size: tiny
+Experience points: 400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -5 Dex, +2 size
+Hit points: 17 (2d8+8)
+Fort: +4
+Ref: -5
+Will: -5
+Immune: [ooze traits](ref/umr/ooze-traits), swarm traits
+Resist: electricity 5
+Vulner: acid
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft.
+Distraction: 15
+Melee: swarm (1 plus viscous)
+Reach: 0
+Space: 10
+Spec Att: paralyzing slime, viscous (DC 15)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 14, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: -6
+Combat maneuver defense: 6 (can't be tripped)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -5 Dex, +2 size
-
-**Hit points:** 17 (2d8+8)
-
-**Fort:** +4
-
-**Ref:** -5
-
-**Will:** -5
-
-**Immune:** [ooze traits](ref/umr/ooze-traits), swarm traits
-
-**Resist:** electricity 5
-
-**Vulner:** acid
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (1 plus viscous)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** paralyzing slime, viscous (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -6
-
-**Combat maneuver defense:** 6 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or glob (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or glob (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

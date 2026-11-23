@@ -29,69 +29,57 @@ abilities = ["11", "13", "16", "-", "11", "2"]
 
 _Trim wings fold along the back of this oblong, iridescent insect._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +1
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 50 ft. (average)
+Melee: bite +2 (1d4)
+Spec Att: song (DC 14)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 11, Dex 13, Con 16, Int -, Wis 11, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (19 vs. trip)
+Skills: Acrobatics +0 (+8 when jumping), Climb +8
+Racial Modifiers: +8 Acrobatics when jumping
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +1
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 50 ft. (average)
-
-**Melee:** bite +2 (1d4)
-
-**Spec Att:** song (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 13, Con 16, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (19 vs. trip)
-
-**Skills:** Acrobatics +0 (+8 when jumping), Climb +8
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Ecology**
-
-**Environment:** any temperate or tropical land
-
-**Organization:** solitary, pair, or brood (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or tropical land
+Organization: solitary, pair, or brood (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

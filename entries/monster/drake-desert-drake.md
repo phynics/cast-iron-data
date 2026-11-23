@@ -32,85 +32,65 @@ abilities = ["22", "15", "21", "8", "11", "12"]
 _This sleek dragon has scales mottled in desert colors, lacks forelimbs, and sports massive wings on
 its lissome back._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: dragon
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth
+tremorsense: 30
+Experience points: 4,800
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +2 Dex, +10 natural, -1 size
+Hit points: 103 (9d12+45)
+Fort: +11
+Ref: +8
+Will: +8
+Immune: paralysis, sleep
+Resist: electricity 20
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 20 ft., fly 60 ft. (average)
+Melee: bite +15 (2d6+9/19-20 plus 1d10 electricity), tail slap +9 (1d8+3 plus push)
+Push: tail slap, 10 ft.
+Reach: 10
+Space: 10
+Spec Att: dazzling emergence, sandstorm breath, savage bite
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 21, Int 8, Wis 11, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 28
+Feats: Dazzling Display, Improved Initiative, Iron Will, Power Attack, Weapon Focus (bite)
+Skills: Fly +12, Intimidate +13, Perception +12
+Languages: Draconic
+Special qualities: speed surge
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +10 natural, -1 size
-
-**Hit points:** 103 (9d12+45)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** paralysis, sleep
-
-**Resist:** electricity 20
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +15 (2d6+9/19-20 plus 1d10 electricity), tail slap +9 (1d8+3 plus push)
-
-**Push:** tail slap, 10 ft.
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dazzling emergence, sandstorm breath, savage bite
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 21, Int 8, Wis 11, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28
-
-**Feats:** Dazzling Display, Improved Initiative, Iron Will, Power Attack, Weapon Focus (bite)
-
-**Skills:** Fly +12, Intimidate +13, Perception +12
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

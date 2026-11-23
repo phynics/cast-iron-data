@@ -34,150 +34,88 @@ abilities = ["22", "22", "27", "21", "19", "22"]
 _This monstrosity has six eyes and six long tentacles - four that end in glowing spheres, and two
 with what look like hands._
 
-**Challenge rating:** 14
-
-**Type:** aberration
-
-**aura:** mucus cloud (30 ft.)
-
-**Initiative:** +10
-
-**Size:** large
-
-**Alignment:** Lawful evil
-
-**Perception:** +23
-
-**Senses:** Darkvision 120 ft.
-
-**Subtype:** Aquatic, Shapechanger
-
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +6 Dex, +11 natural, -1 size
-
-**Hit points:** 200 (16d8+128)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +14
-
-**Immune:** electricity, mind-affecting effects
-
-**Resist:** cold 20
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 10 ft., swim 80 ft.
-
-**Melee:** bite +17 (2d6+6 plus consume memory and slime), 2 claws +17 (1d6+6 plus slime), 4
-tentacles +12 touch (2d6 electricity plus thoughtlance)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with claws and tentacles
-
-**Space:** 10
-
-**Spec Att:** delayed suggestion
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- mage armor
-
-**At will:**
-
-- detect thoughts (DC 18), dominate person (DC 21), hypnotic pattern (DC 18), illusory wall (DC 20),
-  mirage arcana (DC 21), persistent image (DC 21), programmed image (DC 22), project image (DC 23),
-  veil (DC 22)
-
-**Per day:**
-
-- 3/day: dominate monster (DC 25), quickened dominate person (DC 21), geas/quest, mass suggestion
-  (DC 22)
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**6th-level spells:**
-
-- 4/day: symbol of persuasion (DC 23)
-
-**5th-level spells:**
-
-- 6/day: symbol of pain (DC 22), teleport
-
-**4th-level spells:**
-
-- 7/day: dimension door, phantasmal killer (DC 20), symbol of slowing (DC 21)
-
-**3rd-level spells:**
-
-- 7/day: clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC 19), secret page
-
-**2nd-level spells:**
-
-- 8/day: blindness/deafness (DC 18), invisibility, levitate, symbol of mirroring (DC 19), touch of
-  idiocy
-
-**1st-level spells:**
-
-- 8/day: charm person (DC 17), comprehend languages, erase, ray of enfeeblement (DC 17), silent
-  image (DC 17)
-
-**Cantrips:**
-
-- At will: arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC 16), mage hand,
-  message, read magic, touch of fatigue (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 22, Con 27, Int 21, Wis 19, Cha 22
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35
-
-**Feats:** Arcane Strike, Combat Casting, Combat Expertise, Eschew Materials, Extend Spell, Improved
-Initiative, Lightning Reflexes, Quicken Spell, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person)
-
-**Skills:** Knowledge (arcana, history, nature) +21, Perception +23, Sense Motive +20, Spellcraft
-+24, Stealth +21, Swim +33, Use Magic Device +22
-
-**Languages:** Aboleth, Aklo, Aquan, Common, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Small or Medium;
-[greater polymorph](ref/spell/polymorph-greater)), runemastery, swift transformation
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or shoal (1 and 2-8 [aboleths](ref/monster/alghollthu-aboleth))
-
-**Treasure:** Triple
+::: statblock
+Challenge rating: 14
+Type: aberration
+aura: mucus cloud (30 ft.)
+Initiative: +10
+Size: large
+Alignment: Lawful evil
+Perception: +23
+Senses: Darkvision 120 ft.
+Subtype: Aquatic, Shapechanger
+Experience points: 38,400
+:::
+
+### Defense
+
+::: statblock
+Armor class: 30
+Touch: 15
+Flat-footed: 24
+AC modifiers: +4 armor, +6 Dex, +11 natural, -1 size
+Hit points: 200 (16d8+128)
+Fort: +13
+Ref: +13
+Will: +14
+Immune: electricity, mind-affecting effects
+Resist: cold 20
+Sr: 25
+:::
+
+### Offense
+
+::: statblock
+Speed: 10 ft., swim 80 ft.
+Melee: bite +17 (2d6+6 plus consume memory and slime), 2 claws +17 (1d6+6 plus slime), 4 tentacles +12 touch (2d6 electricity plus thoughtlance)
+Reach: 10
+Reach P: 20 ft. with claws and tentacles
+Space: 10
+Spec Att: delayed suggestion
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: mage armor
+At will: detect thoughts (DC 18), dominate person (DC 21), hypnotic pattern (DC 18), illusory wall (DC 20), mirage arcana (DC 21), persistent image (DC 21), programmed image (DC 22), project image (DC 23), veil (DC 22)
+Per day: 3/day: dominate monster (DC 25), quickened dominate person (DC 21), geas/quest, mass suggestion (DC 22)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +18
+6th-level spells: 4/day: symbol of persuasion (DC 23)
+5th-level spells: 6/day: symbol of pain (DC 22), teleport
+4th-level spells: 7/day: dimension door, phantasmal killer (DC 20), symbol of slowing (DC 21)
+3rd-level spells: 7/day: clairaudience/clairvoyance, explosive runes (DC 20), hold person (DC 19), secret page
+2nd-level spells: 8/day: blindness/deafness (DC 18), invisibility, levitate, symbol of mirroring (DC 19), touch of idiocy
+1st-level spells: 8/day: charm person (DC 17), comprehend languages, erase, ray of enfeeblement (DC 17), silent image (DC 17)
+Cantrips: At will: arcane mark, dancing lights, daze (DC 16), detect magic, ghost sound (DC 16), mage hand, message, read magic, touch of fatigue (DC 16)
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 22, Dex 22, Con 27, Int 21, Wis 19, Cha 22
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 35
+Feats: Arcane Strike, Combat Casting, Combat Expertise, Eschew Materials, Extend Spell, Improved Initiative, Lightning Reflexes, Quicken Spell, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dominate person)
+Skills: Knowledge (arcana, history, nature) +21, Perception +23, Sense Motive +20, Spellcraft +24, Stealth +21, Swim +33, Use Magic Device +22
+Languages: Aboleth, Aklo, Aquan, Common, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any Small or Medium; [greater polymorph](ref/spell/polymorph-greater)), runemastery, swift transformation
+:::
+
+### Ecology
+
+::: statblock
+Environment: any water
+Organization: solitary or shoal (1 and 2-8 [aboleths](ref/monster/alghollthu-aboleth))
+Treasure: Triple
+:::
 
 ### Special Abilities
 

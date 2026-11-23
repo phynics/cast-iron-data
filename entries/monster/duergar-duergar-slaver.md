@@ -29,90 +29,70 @@ special_qualities = "slow and steady, stability, trapfinding +1"
 abilities = ["13", "15", "12", "12", "16", "4"]
 +++
 
-**Challenge rating:** 1/2
-
 **Duergar [rogue](ref/class/rogue) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Perception: +7
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 armor, +2 Dex
+Hit points: 10 (1d8+2)
+Fort: +1
+Ref: +4
+Will: +3; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: short sword +1 (1d6+1/19-20) or sap +1 (1d6+1 nonlethal)
+Ranged: mwk light crossbow +3 (1d8/19-20)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: -2
+Per day: 1/day: enlarge person, self only, invisibility, self only
+:::
 
-**Subtype:** Dwarf
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 13, Dex 15, Con 12, Int 12, Wis 16, Cha 4
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (17 vs. bull rush or trip)
+Feats: Improved Initiative
+Skills: Acrobatics +5, Climb +4, Disable Device +5, Escape Artist +5, Knowledge (dungeoneering) +5, Perception +7
+Languages: Common, Dwarven, Undercommon
+Special qualities: slow and steady, stability, [trapfinding](ref/ability/trapfinding) +1
+Gear: studded leather armor, mwk light crossbow with 20 bolts, -sap, short sword, 18 gp
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +2 Dex
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +3; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** short sword +1 (1d6+1/19-20) or sap +1 (1d6+1 nonlethal)
-
-**Ranged:** mwk light crossbow +3 (1d8/19-20)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** -2
-
-**Per day:**
-
-- 1/day: enlarge person, self only, invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 12, Int 12, Wis 16, Cha 4
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (17 vs. bull rush or trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Acrobatics +5, Climb +4, Disable Device +5, Escape Artist +5, Knowledge (dungeoneering)
-+5, Perception +7
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** slow and steady, stability, [trapfinding](ref/ability/trapfinding) +1
-
-**Gear:** studded leather armor, mwk light crossbow with 20 bolts, -sap, short sword, 18 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

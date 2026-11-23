@@ -32,94 +32,69 @@ abilities = ["22", "11", "-", "5", "16", "19"]
 _The twisted, leafless branches of this dead tree still bear bright red fruit, each one shriveled
 and covered in splotches of black rot._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +4
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Type: undead
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 26
+Touch: 12
+Flat-footed: 26
+AC modifiers: +14 natural, +4 profane, -2 size
+Hit points: 136 (16d8+64)
+Fort: +9
+Ref: +7
+Will: +13
+Chan Res: +4
+Defensive abilities: all-around vision
+Immune: polymorph, [undead traits](ref/umr/undead-traits)
+Regen: 5 (fire or positive energy)
+Resist: cold 10
+Vulner: fire
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 5 ft.
+Constrict: 1d8+6
+Melee: 4 slams +17 (1d8+6 plus [grab](ref/umr/grab))
+Ranged: fruit bomb +11 touch (1d6 plus poison)
+Reach: 15
+Space: 15
+Spec Att: fruit bombs, poison, spiked branches
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 22, Dex 11, Con -, Int 5, Wis 16, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +20 (+24 grapple)
+Combat maneuver defense: 34 (can't be tripped)
+Feats: Cleave, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Weapon Focus (slam, fruit bomb)
+Skills: Disguise +13 (+17 to appear as a dead tree), Stealth -1
+Racial Modifiers: +4 Disguise to appear as a dead tree
+Languages: Sylvan (can't speak)
+Special qualities: blight wrath, infectious blight
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 12
-
-**Flat-footed:** 26
-
-**AC modifiers:** +14 natural, +4 profane, -2 size
-
-**Hit points:** 136 (16d8+64)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Defensive abilities:** all-around vision
-
-**Immune:** polymorph, [undead traits](ref/umr/undead-traits)
-
-**Regen:** 5 (fire or positive energy)
-
-**Resist:** cold 10
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Constrict:** 1d8+6
-
-**Melee:** 4 slams +17 (1d8+6 plus [grab](ref/umr/grab))
-
-**Ranged:** fruit bomb +11 touch (1d6 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** fruit bombs, poison, spiked branches
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 11, Con -, Int 5, Wis 16, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20 (+24 grapple)
-
-**Combat maneuver defense:** 34 (can't be tripped)
-
-**Feats:** Cleave, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise
-Shot, Weapon Focus (slam, fruit bomb)
-
-**Skills:** Disguise +13 (+17 to appear as a dead tree), Stealth -1
-
-**Racial Modifiers:** +4 Disguise to appear as a dead tree
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** blight wrath, infectious blight
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or grove (2-10)
-
-**Treasure:** Incidental; poison fruit
+::: statblock
+Environment: any forest
+Organization: solitary or grove (2-10)
+Treasure: Incidental; poison fruit
+:::
 
 ### Special Abilities
 

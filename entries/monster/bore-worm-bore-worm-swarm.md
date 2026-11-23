@@ -32,79 +32,62 @@ abilities = ["2", "15", "14", "-", "10", "2"]
 _Bright green and coated in an opaque yellow slime, this squirming mass of segmented worms leaves a
 trail of hissing melted stone slag in its wake._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Subtype: Swarm
+tremorsense: 60
+Type: vermin
+Experience points: 1,600
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 size
+Hit points: 45 (7d8+14)
+Fort: +7
+Ref: +4
+Will: +3
+Defensive abilities: swarm traits
+Immune: acid, mind-affecting effects, weapon damage
+Weaknesses: vulnerable to water
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 5 ft., burrow 20 ft.
+Distraction: 15
+Melee: swarm (2d6 plus 1d6 acid and distraction and painful bite)
+Reach: 0
+Space: 1/2
+Spec Att: painful bite (DC 15)
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 2, Dex 15, Con 14, Int -, Wis 10, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** vermin
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 size
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** acid, mind-affecting effects, weapon damage
-
-**Weaknesses:** vulnerable to water
-
-**Offense**
-
-**Speed:** 5 ft., burrow 20 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (2d6 plus 1d6 acid and distraction and painful bite)
-
-**Reach:** 0
-
-**Space:** 1/2
-
-**Spec Att:** painful bite (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 15, Con 14, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or tremor (1d6 plus 1 bore worm monarch)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or tremor (1d6 plus 1 bore worm monarch)
+Treasure: None
+:::
 
 ### Special Abilities
 

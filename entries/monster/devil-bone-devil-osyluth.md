@@ -30,102 +30,73 @@ abilities = ["21", "21", "20", "16", "15", "18"]
 _Merging the most horrifying features of carrion-fed insect and withered cadaver, this bony devil
 moves in unsettling lurches._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: fear aura (5 ft., DC 19, 1d6 rounds)
+Initiative: +9
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 6,400
+:::
 
-**aura:** fear aura (5 ft., DC 19, 1d6 rounds)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 25
+Touch: 14
+Flat-footed: 20
+AC modifiers: +5 Dex, +11 natural, -1 size
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +12
+Will: +7
+Dr: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: bite +14 melee (1d8+5), 2 claws +14 melee (1d6+5), sting +14 melee (3d4+5 plus poison)
+Reach: 10
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: fly
+At will: dimensional anchor, greater teleport, self plus 50 lbs. of objects only, invisibility, self only, major image (DC 17), wall of ice
+Per day: 3/day: quickened invisibility, self only\
+1/day: summon (level 4, 1 bone devil, 35%)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 21, Dex 21, Con 20, Int 16, Wis 15, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 31
+Feats: Alertness, Combat Reflexes, Improved Initiative, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility)
+Skills: Bluff +17, Diplomacy +17, Sense Motive +19, Spellcraft +16, Stealth +14
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +11 natural, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** bite +14 melee (1d8+5), 2 claws +14 melee (1d6+5), sting +14 melee (3d4+5 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- dimensional anchor, greater teleport, self plus 50 lbs. of objects only, invisibility, self only,
-  major image (DC 17), wall of ice
-
-**Per day:**
-
-- 3/day: quickened invisibility, self only
-- 1/day: summon (level 4, 1 bone devil, 35%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 21, Con 20, Int 16, Wis 15, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 31
-
-**Feats:** Alertness, Combat Reflexes, Improved Initiative, Iron Will, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility)
-
-**Skills:** Bluff +17, Diplomacy +17, Sense Motive +19, Spellcraft +16, Stealth +14
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or inquisition (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or inquisition (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

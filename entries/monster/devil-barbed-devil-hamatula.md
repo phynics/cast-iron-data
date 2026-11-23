@@ -31,94 +31,70 @@ abilities = ["23", "23", "22", "12", "15", "18"]
 _From the tip of its lashing tail to the serrated features of its fang-filled visage, this
 fiery-eyed sentinel bristles with barbs._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 12,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 26
+Touch: 16
+Flat-footed: 20
+AC modifiers: +6 Dex, +10 natural
+Hit points: 138 (12d10+72)
+Fort: +14
+Ref: +14
+Will: +8
+Defensive abilities: barbed defense
+Dr: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +18 (2d8+6/19-20 plus fear and [grab](ref/umr/grab))
+Spec Att: fear, impale 3d8+9
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+At will: greater teleport, self plus 50 lbs. of objects only, hold person (DC 17), major image (DC 17), produce flame, pyrotechnics (DC 16), scorching ray, 2 rays only
+Per day: 1/day: order's wrath (DC 18), summon (level 4, 1 barbed devil 35%), unholy blight (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 23, Dex 23, Con 22, Int 12, Wis 15, Cha 18
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 34
+Feats: Alertness, Cleave, Combat Reflexes, Improved Critical (claws), Iron Will, Power Attack
+Skills: Acrobatics +15, Diplomacy +13, Intimidate +19, Knowledge (planes) +16, Perception +21
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 Dex, +10 natural
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +14
-
-**Ref:** +14
-
-**Will:** +8
-
-**Defensive abilities:** barbed defense
-
-**Dr:** 10/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +18 (2d8+6/19-20 plus fear and [grab](ref/umr/grab))
-
-**Spec Att:** fear, impale 3d8+9
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, hold person (DC 17), major image (DC 17),
-  produce flame, pyrotechnics (DC 16), scorching ray, 2 rays only
-
-**Per day:**
-
-- 1/day: order's wrath (DC 18), summon (level 4, 1 barbed devil 35%), unholy blight (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 23, Con 22, Int 12, Wis 15, Cha 18
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Cleave, Combat Reflexes, Improved Critical (claws), Iron Will, Power Attack
-
-**Skills:** Acrobatics +15, Diplomacy +13, Intimidate +19, Knowledge (planes) +16, Perception +21
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, team (3-5), or squad (6-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, team (3-5), or squad (6-11)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

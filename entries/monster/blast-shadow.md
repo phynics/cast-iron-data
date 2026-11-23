@@ -31,67 +31,52 @@ special_attacks = "cloud of smoke and fire~death burst"
 abilities = ["15", "18", "-", "10", "13", "16"]
 +++
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Fire
+Type: undead
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 60 (8d8+24)
+Fort: +5
+Ref: +6
+Will: +7
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +11 (1d8+2 plus 1d6 fire)
+Spec Att: cloud of smoke and fire, death burst
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Fire
-
-**Type:** undead
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +7
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +11 (1d8+2 plus 1d6 fire)
-
-**Spec Att:** cloud of smoke and fire, death burst
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con -, Int 10, Wis 13, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Improved Initiative, Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Acrobatics +12, Climb +13, Perception +12, Stealth +15
-
-**Languages:** Azlanti
+::: statblock
+Ability scores: Str 15, Dex 18, Con -, Int 10, Wis 13, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Improved Initiative, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +12, Climb +13, Perception +12, Stealth +15
+Languages: Azlanti
+:::
 
 ### Special Abilities
 

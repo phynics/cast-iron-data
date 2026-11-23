@@ -32,81 +32,63 @@ abilities = ["24", "17", "19", "8", "13", "12"]
 _The skin of this rugged dragon is mottled in hues of blue and green. Its elongated tail hides a
 menacing stinger._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: dragon
+greensight: 60
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth
+Experience points: 2,400
+:::
 
-**Type:** dragon
+### Defense
 
-**greensight:** 60
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 73 (7d12+28)
+Fort: +9
+Ref: +8
+Will: +6
+Immune: disease, poison, paralysis, sleep
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 60 ft. (average)
+Melee: bite +13 (2d6+7 plus [grab](ref/umr/grab)), sting +13 (1d8+7 plus poison)
+Reach: 10
+Space: 10
+Spec Att: predatory grab
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 24, Dex 17, Con 19, Int 8, Wis 13, Cha 12
+Base attack bonus: +7
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 29
+Feats: Dodge, Improved Initiative, Mobility, Spring Attack
+Skills: Fly +11, Perception +11
+Languages: Draconic
+Special qualities: speed surge, [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Subtype:** Earth
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 73 (7d12+28)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +6
-
-**Immune:** disease, poison, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (average)
-
-**Melee:** bite +13 (2d6+7 plus [grab](ref/umr/grab)), sting +13 (1d8+7 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** predatory grab
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 19, Int 8, Wis 13, Cha 12
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 29
-
-**Feats:** Dodge, Improved Initiative, Mobility, Spring Attack
-
-**Skills:** Fly +11, Perception +11
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge, [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** warm jungles
-
-**Organization:** solitary, pair, or rampage (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm jungles
+Organization: solitary, pair, or rampage (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

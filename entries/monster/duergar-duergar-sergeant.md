@@ -29,91 +29,71 @@ special_qualities = "slow and steady, stability"
 abilities = ["17", "10", "16", "10", "15", "4"]
 +++
 
-**Challenge rating:** 1
-
 **Duergar [fighter](ref/class/fighter) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +0
+Size: large
+Alignment: Lawful evil
+Perception: +2
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 15
+AC modifiers: +7 armor, -1 size
+Hit points: 23 (2d10+8)
+Fort: +6
+Ref: +0
+Will: +2 (+1 vs. fear); +2 vs. spells
+Defensive abilities: bravery +1
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 20 ft.
+Melee: mwk dwarven waraxe +5 (2d8+4/×3)
+Ranged: heavy crossbow +3 (2d8/19-20)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: -1
+Per day: 1/day: enlarge person, self only, invisibility, self only
+:::
 
-**Subtype:** Dwarf
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 17, Dex 10, Con 16, Int 10, Wis 15, Cha 4
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16 (20 vs. bull rush or trip on solid ground)
+Feats: Cleave, Power Attack, Weapon Focus (dwarven waraxe)
+Skills: Handle Animal +1, Perception +2
+Languages: Common, Dwarven, Undercommon
+Special qualities: slow and steady, stability
+Combat gear: 2 potion of cure light wounds, 2 alchemist's fire
+Other gear: banded mail, heavy crossbow with 10 bolts, mwk -dwarven waraxe, 9 gp
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +7 armor, -1 size
-
-**Hit points:** 23 (2d10+8)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** +2 (+1 vs. fear); +2 vs. spells
-
-**Defensive abilities:** bravery +1
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk dwarven waraxe +5 (2d8+4/×3)
-
-**Ranged:** heavy crossbow +3 (2d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** -1
-
-**Per day:**
-
-- 1/day: enlarge person, self only, invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 10, Con 16, Int 10, Wis 15, Cha 4
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16 (20 vs. bull rush or trip on solid ground)
-
-**Feats:** Cleave, Power Attack, Weapon Focus (dwarven waraxe)
-
-**Skills:** Handle Animal +1, Perception +2
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** slow and steady, stability
-
-**Combat gear:** 2 potion of cure light wounds, 2 alchemist's fire
-
-**Other gear:** banded mail, heavy crossbow with 10 bolts, mwk -dwarven waraxe, 9 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

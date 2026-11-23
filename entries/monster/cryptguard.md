@@ -31,77 +31,61 @@ abilities = ["25", "17", "-", "-", "12", "1"]
 _This elegantly sculpted marble statue depicts a winged woman dressed in flowing robes, but with a
 raven's skull for a head._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: consecration (30 ft., DC 12)
+Type: construct
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**aura:** consecration (30 ft., DC 12)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +3 Dex, +10 natural
+Hit points: 111 (14d10+34)
+Fort: +4
+Ref: +7
+Will: +5
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +21 (2d6+10)
+Spec Att: sanctification
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +1
+::: statblock
+Ability scores: Str 25, Dex 17, Con -, Int -, Wis 12, Cha 1
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 34
+Feats: Toughness
+Skills: Perception +1, Stealth +0 (+8 when freezing)
+Racial Modifiers: +8 Stealth when freezing
+Special qualities: [freeze](ref/umr/freeze) (statue), powerful blows (slam), spirit touch
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +10 natural
-
-**Hit points:** 111 (14d10+34)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +21 (2d6+10)
-
-**Spec Att:** sanctification
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 17, Con -, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 34
-
-**Feats:** Toughness
-
-**Skills:** Perception +1, Stealth +0 (+8 when freezing)
-
-**Racial Modifiers:** +8 Stealth when freezing
-
-**Special qualities:** [freeze](ref/umr/freeze) (statue), powerful blows (slam), spirit touch
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

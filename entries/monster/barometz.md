@@ -29,77 +29,60 @@ abilities = ["30", "21", "24", "2", "15", "9"]
 _This massive green ram-like creature's pelt is actually a tangle of vines, and its horns are
 wickedly sharp wooden branches._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral
+Perception: +27
+Senses: Low-light vision
+Type: plant
+Experience points: 51,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 26
+AC modifiers: +5 Dex, +20 natural, -4 size
+Hit points: 253 (22d8+154)
+Fort: +20
+Ref: +12
+Will: +11
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +27
+::: statblock
+Speed: 40 ft.
+Melee: gore +23 (5d10+15/19-20)
+Pow Ch: gore, 10d10+15
+Reach: 20
+Space: 20
+Trample: 5d10+15, DC 31
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 30, Dex 21, Con 24, Int 2, Wis 15, Cha 9
+Base attack bonus: +16
+Combat maneuver bonus: +30 (+34 bull rush or overrun)
+Combat maneuver defense: 45 (47 vs. bull rush or overrun, 49 vs. trip)
+Feats: Awesome Blow, Bleeding Critical, Critical Focus, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Critical (gore), Improved Overrun, Iron Will, Power Attack, Weapon Focus (gore)
+Skills: Perception +27
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +20 natural, -4 size
-
-**Hit points:** 253 (22d8+154)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +23 (5d10+15/19-20)
-
-**Pow Ch:** gore, 10d10+15
-
-**Reach:** 20
-
-**Space:** 20
-
-**Trample:** 5d10+15, DC 31
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 21, Con 24, Int 2, Wis 15, Cha 9
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +30 (+34 bull rush or overrun)
-
-**Combat maneuver defense:** 45 (47 vs. bull rush or overrun, 49 vs. trip)
-
-**Feats:** Awesome Blow, Bleeding Critical, Critical Focus, Greater Bull Rush, Greater Overrun,
-Improved Bull Rush, Improved Critical (gore), Improved Overrun, Iron Will, Power Attack, Weapon
-Focus (gore)
-
-**Skills:** Perception +27
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary or serving druid masters
-
-**Treasure:** None
+::: statblock
+Environment: any forests
+Organization: solitary or serving druid masters
+Treasure: None
+:::
 
 ### Description
 

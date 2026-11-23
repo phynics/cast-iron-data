@@ -31,112 +31,76 @@ abilities = ["26", "19", "24", "25", "22", "21"]
 _This cylindrical creature of pale fog and dark shadow stands on three clawed feet. Three pale arms
 jut from around the column, each ending in a hand with long, black claws._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: ignorance (30 ft.)
+Initiative: +8
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., Detect magic, Detect thoughts
+Subtype: Aeon, Extraplanar
+Experience points: 38,400
+:::
 
-**aura:** ignorance (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 25
+AC modifiers: +4 deflection, +4 Dex, +12 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +14
+Ref: +14
+Will: +18
+Defensive abilities: all-around vision
+Immune: cold, critical hits, poison
+Resist: electricity 10, fire 10
+Sr: 25
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Bleed: 1d3 Int damage
+Melee: 3 claws +23 (2d6+8 plus bleed)
+Reach: 10
+Space: 10
+Spec Att: forgotten one
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: detect magic, detect thoughts
+At will: modify memory (DC 19), touch of idiocy
+Per day: 3/day: feeblemind (DC 20), quickened touch of idiocy
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect magic, Detect thoughts
+::: statblock
+Ability scores: Str 26, Dex 19, Con 24, Int 25, Wis 22, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 43 (45 vs. trip)
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Great Fortitude, Improved Initiative, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (touch of idiocy)
+Skills: Appraise +26, Fly +17, Intimidate +24, Knowledge (arcana, history, planes) +34, Knowledge (engineering, nature) +26, Perception +25, Sense Motive +25, Spellcraft +15, Stealth +19, Use Magic Device +13
+Languages: _envisaging_
+Special qualities: [compression](ref/umr/compression), extension of all, glance of understanding, lore minder, void form
+:::
 
-**Subtype:** Aeon, Extraplanar
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 deflection, +4 Dex, +12 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +14
-
-**Ref:** +14
-
-**Will:** +18
-
-**Defensive abilities:** all-around vision
-
-**Immune:** cold, critical hits, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Bleed:** 1d3 Int damage
-
-**Melee:** 3 claws +23 (2d6+8 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** forgotten one
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- detect magic, detect thoughts
-
-**At will:**
-
-- modify memory (DC 19), touch of idiocy
-
-**Per day:**
-
-- 3/day: feeblemind (DC 20), quickened touch of idiocy
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 24, Int 25, Wis 22, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 43 (45 vs. trip)
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Great Fortitude, Improved Initiative,
-Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (touch of
-idiocy)
-
-**Skills:** Appraise +26, Fly +17, Intimidate +24, Knowledge (arcana, history, planes) +34,
-Knowledge (engineering, nature) +26, Perception +25, Sense Motive +25, Spellcraft +15, Stealth +19,
-Use Magic Device +13
-
-**Languages:** _envisaging_
-
-**Special qualities:** [compression](ref/umr/compression), extension of all, glance of
-understanding, lore minder, void form
-
-**Ecology**
-
-**Environment:** any (Outer Planes)
-
-**Organization:** solitary, pair, or forgetting (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any (Outer Planes)
+Organization: solitary, pair, or forgetting (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

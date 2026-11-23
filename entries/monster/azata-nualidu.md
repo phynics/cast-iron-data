@@ -31,101 +31,74 @@ abilities = ["19", "16", "16", "13", "14", "15"]
 
 _Clear, flowing water forms the arms and the lower half of this angelic, elf-like being._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic good
+Initiative: +3
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good, Water
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +8
+Will: +4
+Dr: 5/cold iron or evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., swim 30 ft.
+Jet: 150
+Melee: 2 slams +10 (1d6+4)
+Ranged: cascade +9 ranged touch (3d6)
+Spec Att: cascade, drench
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: create water, hydraulic push, purify food and drink, water only
+Per day: 3/day: slipstream\
+1/day: control water, hydraulic torrent
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good, Water
+::: statblock
+Ability scores: Str 19, Dex 16, Con 16, Int 13, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Agile Maneuvers, Dodge, Mobility
+Skills: Acrobatics +12 (+16 when jumping), Escape Artist +12, Knowledge (nature) +10, Perception +11, Swim +21
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Aquan, Celestial, Draconic, Infernal; _truespeech_
+Special qualities: aqueous
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +4
-
-**Dr:** 5/cold iron or evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft., swim 30 ft.
-
-**Jet:** 150
-
-**Melee:** 2 slams +10 (1d6+4)
-
-**Ranged:** cascade +9 ranged touch (3d6)
-
-**Spec Att:** cascade, drench
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- create water, hydraulic push, purify food and drink, water only
-
-**Per day:**
-
-- 3/day: slipstream
-- 1/day: control water, hydraulic torrent
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 16, Con 16, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Agile Maneuvers, Dodge, Mobility
-
-**Skills:** Acrobatics +12 (+16 when jumping), Escape Artist +12, Knowledge (nature) +10, Perception
-+11, Swim +21
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Aquan, Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** aqueous
-
-**Ecology**
-
-**Environment:** any water ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or pod (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or pod (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

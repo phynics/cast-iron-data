@@ -34,82 +34,63 @@ to be a small, rocky island reveals itself to be a creature of titanic proportio
 tail lifts ominously from the water. With a thunderous crash, it slams down, sending the island
 plunging beneath the waves._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Size: colossal
+Initiative: -3
+Type: Magical beast
+Alignment: Neutral
+Perception: -2
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 102,400
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** -3
+::: statblock
+Armor class: 27
+Touch: -1
+Flat-footed: 27
+AC modifiers: +28 armor, -3 Dex, -8 size
+Hit points: 297 (22d10+176)
+Fort: +23
+Ref: +10
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 0 ft., swim 120 ft.
+Capsize: present
+Melee: bite +25 (4d6+11 plus [grab](ref/umr/grab)), tail slap +20 (4d6+5)
+Reach: 20
+Space: 150
+Spec Att: watery grave
+Swallow: 4d6 acid damage, AC 24, 29 hp
+:::
 
-**Perception:** -2
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 5, Con 27, Int 3, Wis 7, Cha 12
+Base attack bonus: +22
+Combat maneuver bonus: +41
+Combat maneuver defense: 48
+Feats: Diehard, Endurance, Great Fortitude, Greater Bull Rush, Improved Bull Rush, Improved Great Fortitude, Improved Iron Will, Improved Overrun, Iron Will, Power Attack, Stealthy
+Skills: Stealth -1, Swim +33
+Racial Modifiers: +10 Stealth to appear as an island
+Special qualities: deep sea denizen, hibernate, hibernation of ages
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 27
-
-**Touch:** -1
-
-**Flat-footed:** 27
-
-**AC modifiers:** +28 armor, -3 Dex, -8 size
-
-**Hit points:** 297 (22d10+176)
-
-**Fort:** +23
-
-**Ref:** +10
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 0 ft., swim 120 ft.
-
-**Capsize:** present
-
-**Melee:** bite +25 (4d6+11 plus [grab](ref/umr/grab)), tail slap +20 (4d6+5)
-
-**Reach:** 20
-
-**Space:** 150
-
-**Spec Att:** watery grave
-
-**Swallow:** 4d6 acid damage, AC 24, 29 hp
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 5, Con 27, Int 3, Wis 7, Cha 12
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 48
-
-**Feats:** Diehard, Endurance, Great Fortitude, Greater Bull Rush, Improved Bull Rush, Improved
-Great Fortitude, Improved Iron Will, Improved Overrun, Iron Will, Power Attack, Stealthy
-
-**Skills:** Stealth -1, Swim +33
-
-**Racial Modifiers:** +10 Stealth to appear as an island
-
-**Special qualities:** deep sea denizen, hibernate, hibernation of ages
-
-**Ecology**
-
-**Environment:** ocean
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: ocean
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

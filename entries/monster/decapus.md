@@ -30,88 +30,68 @@ abilities = ["16", "13", "15", "10", "11", "12"]
 _This swollen cephalopod has ten writhing tentacles and a hideously monstrous face with pale, milky
 eyes on its bulbous body._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 45 (6d8+18)
+Fort: +4
+Ref: +3
+Will: +5
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., climb 30 ft.
+Constrict: 2d4+4
+Melee: bite +7 (1d6+3), tentacles +8 (2d4+3 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 5
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+At will: minor image (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 16, Dex 13, Con 15, Int 10, Wis 11, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Skill Focus (Bluff), Toughness, Weapon Focus (tentacles)
+Skills: Acrobatics +7 (-1 jump), Bluff +7, Climb +16, Escape Artist +5, Intimidate +7, Perception +11, Spellcraft +6, Stealth +9
+Racial Modifiers: +4 Perception
+Languages: Aklo
+Special qualities: sound mimicry (voices), tentacles
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 10 ft., climb 30 ft.
-
-**Constrict:** 2d4+4
-
-**Melee:** bite +7 (1d6+3), tentacles +8 (2d4+3 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**At will:**
-
-- minor image (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 15, Int 10, Wis 11, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Skill Focus (Bluff), Toughness, Weapon Focus (tentacles)
-
-**Skills:** Acrobatics +7 (-1 jump), Bluff +7, Climb +16, Escape Artist +5, Intimidate +7,
-Perception +11, Spellcraft +6, Stealth +9
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aklo
-
-**Special qualities:** sound mimicry (voices), tentacles
-
-**Ecology**
-
-**Environment:** temperate forests or underground
-
-**Organization:** solitary or mated pair
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or underground
+Organization: solitary or mated pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

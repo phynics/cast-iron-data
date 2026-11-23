@@ -28,121 +28,79 @@ abilities = ["44", "23", "38", "24", "32", "28"]
 
 _This hulking, four-armed, four-headed, sting-tailed gargoyle stands as tall as a house._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 35), unholy aura (DC 27)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +6
+Type: outsider
+Perception: +55
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Experience points: 3,276,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 35), unholy aura (DC 27)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 45
+Touch: 30
+Flat-footed: 39
+AC modifiers: +4 deflection, +6 Dex, +15 natural, +12 profane, -2 size
+Hit points: 643 (33d10+462)
+Fort: +36
+Ref: +23
+Will: +33
+Defensive abilities: Abyssal resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/cold iron, good, and epic
+Immune: ability damage and drain, acid, charm and compulsion effects, death effects, electricity, level drain, petrification, poison
+Regen: 30 (mythic or deific)
+Resist: cold 30, fire 30
+Sr: 38
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 50 ft., fly 80 ft. (good)
+Melee: 4 claws +48 (1d8+17/19-20), 4 bites +48 (2d6+17/19-20), sting +48 (1d8+17/19-20 plus poison)
+Reach: 15
+Rend: 2 claws, 2d8+25
+Space: 15
+Spec Att: devastating blow, feed, poison, roar, shatter petrification, shockwave
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +36
+Constant: detect good, detect law, freedom of movement, true seeing, unholy aura (DC 27)
+At will: astral projection, blasphemy (DC 26), desecrate, flesh to stone (DC 25), greater dispel magic, greater teleport, shapechange, stone shape, telekinesis (DC 24), unhallow, unholy blight (DC 23)
+Per day: 3/day: earthquake, quickened flesh to stone (DC 25), reverse gravity, symbol of weakness (DC 26)\
+1/day: implosion (DC 28), imprisonment (DC 28), time stop
+:::
 
-**Perception:** +55
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 44, Dex 23, Con 38, Int 24, Wis 32, Cha 28
+Base attack bonus: +33
+Combat maneuver bonus: +52 (+56 bull rush, +56 sunder)
+Combat maneuver defense: 86 (88 vs. bull rush, 88 vs. sunder)
+Feats: Awesome Blow, Bleeding Critical, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved Critical (claw, bite, sting), Improved Lightning Reflexes, Improved Sunder, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (flesh to stone)
+Skills: Acrobatics +39 (+47 when jumping), Disable Device +42, Fly +42, Intimidate +45, Knowledge (arcana) +40, Knowledge (engineering) +43, Perception +55, Sense Motive +47, Spellcraft +43, Stealth +34, Use Magic Device +42
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic, Terran; [telepathy](ref/umr/telepathy) 300 ft.
+Faith: Xoveron
+:::
 
-**Experience points:** 3,276,800
+### Ecology
 
-**Armor class:** 45
-
-**Touch:** 30
-
-**Flat-footed:** 39
-
-**AC modifiers:** +4 deflection, +6 Dex, +15 natural, +12 profane, -2 size
-
-**Hit points:** 643 (33d10+462)
-
-**Fort:** +36
-
-**Ref:** +23
-
-**Will:** +33
-
-**Defensive abilities:** Abyssal resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/cold iron, good, and epic
-
-**Immune:** ability damage and drain, acid, charm and compulsion effects, death effects,
-electricity, level drain, petrification, poison
-
-**Regen:** 30 (mythic or deific)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 50 ft., fly 80 ft. (good)
-
-**Melee:** 4 claws +48 (1d8+17/19-20), 4 bites +48 (2d6+17/19-20), sting +48 (1d8+17/19-20 plus
-poison)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 2d8+25
-
-**Space:** 15
-
-**Spec Att:** devastating blow, feed, poison, roar, shatter petrification, shockwave
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +36
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, true seeing, unholy aura (DC 27)
-
-**At will:**
-
-- astral projection, blasphemy (DC 26), desecrate, flesh to stone (DC 25), greater dispel magic,
-  greater teleport, shapechange, stone shape, telekinesis (DC 24), unhallow, unholy blight (DC 23)
-
-**Per day:**
-
-- 3/day: earthquake, quickened flesh to stone (DC 25), reverse gravity, symbol of weakness (DC 26)
-- 1/day: implosion (DC 28), imprisonment (DC 28), time stop
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 23, Con 38, Int 24, Wis 32, Cha 28
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +52 (+56 bull rush, +56 sunder)
-
-**Combat maneuver defense:** 86 (88 vs. bull rush, 88 vs. sunder)
-
-**Feats:** Awesome Blow, Bleeding Critical, Craft Construct, Craft Magic Arms and Armor, Craft
-Wondrous Item, Critical Focus, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved
-Critical (claw, bite, sting), Improved Lightning Reflexes, Improved Sunder, Lightning Reflexes,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (flesh to stone)
-
-**Skills:** Acrobatics +39 (+47 when jumping), Disable Device +42, Fly +42, Intimidate +45,
-Knowledge (arcana) +40, Knowledge (engineering) +43, Perception +55, Sense Motive +47, Spellcraft
-+43, Stealth +34, Use Magic Device +42
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Terran; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Faith:** Xoveron
-
-**Ecology**
-
-**Environment:** any (Ghahazi, [the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any (Ghahazi, [the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

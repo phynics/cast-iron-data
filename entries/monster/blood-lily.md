@@ -33,90 +33,67 @@ abilities = ["18", "19", "16", "2", "7", "9"]
 _Hundreds of long but thin blood-red petals form a spherical shape atop the central stem of this
 plant monster. A pair of stout vine-like appendages sprout from either side of its central mass._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Type: plant
+Subtype: Aquatic
+tremorsense: 60
+Experience points: 9,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 21
+AC modifiers: +4 Dex, +12 natural, -1 size
+Hit points: 120 (16d8+48)
+Fort: +13
+Ref: +9
+Will: +3
+Defensive abilities: camouflage
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Bleed: 1d8
+Melee: 2 slams +16 (2d6+4 plus poison and trip)
+Ranged: 4 petal spikes +16 (1d8/19-20 plus bleed)
+Reach: 10
+Reach P: 20 ft. with slam
+Space: 10
+Spec Att: petal spikes, poison, trip
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 18, Dex 19, Con 16, Int 2, Wis 7, Cha 9
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Ability Focus (poison), Combat Reflexes, Improved Critical (petal spike), Point-Blank Shot, Power Attack, Precise Shot, Weapon Focus (petal spike), Weapon Focus (slam)
+Skills: Perception +8, Stealth +12 (+20 when among vegetation), Swim +12
+Racial Modifiers: +8 Stealth when among vegetation
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +12 natural, -1 size
-
-**Hit points:** 120 (16d8+48)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +3
-
-**Defensive abilities:** camouflage
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Bleed:** 1d8
-
-**Melee:** 2 slams +16 (2d6+4 plus poison and trip)
-
-**Ranged:** 4 petal spikes +16 (1d8/19-20 plus bleed)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with slam
-
-**Space:** 10
-
-**Spec Att:** petal spikes, poison, trip
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 16, Int 2, Wis 7, Cha 9
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Ability Focus (poison), Combat Reflexes, Improved Critical (petal spike), Point-Blank
-Shot, Power Attack, Precise Shot, Weapon Focus (petal spike), Weapon Focus (slam)
-
-**Skills:** Perception +8, Stealth +12 (+20 when among vegetation), Swim +12
-
-**Racial Modifiers:** +8 Stealth when among vegetation
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** warm coastlines or underwater
-
-**Organization:** solitary or pod (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm coastlines or underwater
+Organization: solitary or pod (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

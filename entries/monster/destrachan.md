@@ -30,81 +30,63 @@ abilities = ["18", "13", "16", "13", "18", "13"]
 _The hunched, reptilian beast lopes on two clawed feet, its eyeless head dominated by a huge
 circular maw filled with jagged teeth._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsight: 100
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Perception: +27
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 100
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 90 (12d8+36)
+Fort: +9
+Ref: +7
+Will: +12
+Defensive abilities: protection from sonics
+Immune: gaze attacks, visual effects, illusions, and attacks relying on sight
+Resist: sonic 30
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: bite +12 (2d6+4), 2 claws +12 (1d8+4)
+Reach: 5
+Space: 10
+Spec Att: destructive harmonics
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +27
+::: statblock
+Ability scores: Str 18, Dex 13, Con 16, Int 13, Wis 18, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike
+Skills: Climb +19, Perception +27
+Racial Modifiers: +8 Perception (hearing only)
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 90 (12d8+36)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +12
-
-**Defensive abilities:** protection from sonics
-
-**Immune:** gaze attacks, visual effects, illusions, and attacks relying on sight
-
-**Resist:** sonic 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +12 (2d6+4), 2 claws +12 (1d8+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** destructive harmonics
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 16, Int 13, Wis 18, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Dodge, Great Fortitude, Improved Initiative, Lightning Reflexes, Mobility, Vital Strike
-
-**Skills:** Climb +19, Perception +27
-
-**Racial Modifiers:** +8 Perception (hearing only)
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pair, or pack (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: underground
+Organization: solitary, pair, or pack (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

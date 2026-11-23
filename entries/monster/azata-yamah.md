@@ -35,99 +35,73 @@ abilities = ["17", "20", "14", "13", "15", "20"]
 _This blue-skinned woman has blue-and-white butterfly wings. Her black hair sparkles like a starlit
 sky._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic good
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +5 Dex, +4 natural
+Hit points: 52 (7d10+14)
+Fort: +4
+Ref: +10
+Will: +7
+Dr: 5/cold iron or evil
+Immune: electricity, petrification
+Resist: cold 10, fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 100 ft. (perfect)
+Melee: +2 [returning](ref/magic-enh/returning) starknife +14/+9 (1d4+5/×3)
+Ranged: +2 returning starknife +14 (1d4+5/×3)
+Sneak: +1d6
+Spec Att: steal magic
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +11
+Constant: detect evil, detect magic
+Per day: 3/day: cure moderate wounds, invisibility\
+1/day: charm person (DC 16), remove paralysis
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 17, Dex 20, Con 14, Int 13, Wis 15, Cha 20
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 25
+Feats: Deadly Aim, Point-Blank Shot, Precise Shot, Weapon Finesse
+Skills: Acrobatics +15, Bluff +15, Fly +23, Knowledge (planes) +11, Perception +12, Sense Motive +12, Stealth +15
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: infused weapon
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +4 natural
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +4
-
-**Ref:** +10
-
-**Will:** +7
-
-**Dr:** 5/cold iron or evil
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 100 ft. (perfect)
-
-**Melee:** +2 [returning](ref/magic-enh/returning) starknife +14/+9 (1d4+5/×3)
-
-**Ranged:** +2 returning starknife +14 (1d4+5/×3)
-
-**Sneak:** +1d6
-
-**Spec Att:** steal magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect evil, detect magic
-
-**Per day:**
-
-- 3/day: cure moderate wounds, invisibility
-- 1/day: charm person (DC 16), remove paralysis
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 14, Int 13, Wis 15, Cha 20
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 25
-
-**Feats:** Deadly Aim, Point-Blank Shot, Precise Shot, Weapon Finesse
-
-**Skills:** Acrobatics +15, Bluff +15, Fly +23, Knowledge (planes) +11, Perception +12, Sense Motive
-+12, Stealth +15
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** infused weapon
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or crusade (3-10)
-
-**Treasure:** Standard (mwk starknife); other treasure
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or crusade (3-10)
+Treasure: Standard (mwk starknife); other treasure
+:::
 
 ### Special Abilities
 

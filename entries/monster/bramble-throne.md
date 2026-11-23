@@ -30,110 +30,81 @@ abilities = ["33", "22", "25", "4", "18", "19"]
 _The low branches of this stout tree form the shape of a throne. Gold-trimmed leaves and thick vines
 grow on the branches._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: supplication (30 ft., DC 24)
+Size: huge
+Initiative: +10
+Alignment: Neutral
+Perception: +17
+Senses: Low-light vision
+Type: plant
+Thoughtsense: present
+tremorsense: 120
+Experience points: 76,800
+:::
 
-**aura:** supplication (30 ft., DC 24)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 24
+AC modifiers: +6 Dex, +16 natural, -2 size
+Hit points: 230 (20d8+140)
+Fort: +19
+Ref: +12
+Will: +12
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+B Drain: 1d4 Constitution
+Bleed: 2d6
+Melee: bite +25 (2d6+11 plus [grab](ref/umr/grab)), 4 vines +25 (1d8+11 plus bleed and grab)
+Reach: 10
+Reach P: 20 ft. with vines
+Space: 15
+Spec Att: puppet ruler
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: thoughtsense
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 16
+Concentration: +20
+Power points: 30
+Psychoactive powers: dominate person, 5 PE, DC 19, greater command, 5 PE, DC 19, paranoia, 2 PE, DC 16
+:::
 
-**Type:** plant
+### Statistics
 
-**Thoughtsense:** present
+::: statblock
+Ability scores: Str 33, Dex 22, Con 25, Int 4, Wis 18, Cha 19
+Base attack bonus: +15
+Combat maneuver bonus: +28 (+30 bull rush)
+Combat maneuver defense: 44 (46 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Vital Strike, Weapon Focus (bite, vines)
+Skills: Perception +17, Stealth +11
+Languages: Common
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 14
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 Dex, +16 natural, -2 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +19
-
-**Ref:** +12
-
-**Will:** +12
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**B Drain:** 1d4 Constitution
-
-**Bleed:** 2d6
-
-**Melee:** bite +25 (2d6+11 plus [grab](ref/umr/grab)), 4 vines +25 (1d8+11 plus bleed and grab)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with vines
-
-**Space:** 15
-
-**Spec Att:** puppet ruler
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- thoughtsense
-
-**Psychic Magic**
-
-**Caster level:** 16
-
-**Concentration:** +20
-
-**Power points:** 30
-
-**Psychoactive powers:**
-
-- dominate person, 5 PE, DC 19, greater command, 5 PE, DC 19, paranoia, 2 PE, DC 16
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 22, Con 25, Int 4, Wis 18, Cha 19
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +28 (+30 bull rush)
-
-**Combat maneuver defense:** 44 (46 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Improved Bull Rush, Improved Initiative, Improved Vital
-Strike, Iron Will, Power Attack, Vital Strike, Weapon Focus (bite, vines)
-
-**Skills:** Perception +17, Stealth +11
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

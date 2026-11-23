@@ -32,132 +32,81 @@ abilities = ["37", "8", "27", "24", "29", "24"]
 _This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully
 over its emaciated form._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 31)
+Type: dragon
+Size: gargantuan
+Initiative: +3
+Alignment: Neutral
+Perception: +44
+Senses: Dragon senses
+Subtype: Extraplanar
+Experience points: 409,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 31)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 40
+Touch: 5
+Flat-footed: 40
+AC modifiers: -1 Dex, +35 natural, -4 size
+Hit points: 406 (28d12+224)
+Fort: +24
+Ref: +17
+Will: +25
+Defensive abilities: grave endurance
+Dr: 15/adamantine
+Sr: 32
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 60 ft., fly 250 ft. (clumsy)
+Br Weap: 60-ft. cone, 20d10 negative energy, Reflex DC 32 half
+Melee: bite +38 (4d6+19/19-20), 2 claws +37 (2d8+13/19-20), tail slap +35 (2d8+19), 2 wings +35 (2d6+6)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 20
+Spec Att: crush, decaying breath, entombing crush, inexorable attacks, lingering rot, rotting breath (1d6 negative levels), tail sweep
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +22
+7th-level spells: 5/day: destruction (DC 24), repulsion (DC 24)
+6th-level spells: 7/day: animate objects, heal, word of recall
+5th-level spells: 7/day: break enchantment, slay living (DC 22), true seeing, wall of stone
+4th-level spells: 7/day: cure critical wounds, dismissal (DC 21), divination, spell immunity
+3rd-level spells: 8/day: glyph of warding, meld into stone, searing light, speak with dead (DC 20)
+2nd-level spells: 8/day: augury, cure moderate wounds, gentle repose, resist energy, silence (DC 19)
+1st-level spells: 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 18), shield of faith
+Cantrips: At will: bleed (DC 17), create water, detect magic, guidance, light, mending, read magic, resistance, stabilize
+:::
 
-**Perception:** +44
+### Statistics
 
-**Senses:** Dragon senses
+::: statblock
+Ability scores: Str 37, Dex 8, Con 27, Int 24, Wis 29, Cha 24
+Base attack bonus: +28
+Combat maneuver bonus: +45
+Combat maneuver defense: 54 (58 vs. trip)
+Feats: Alertness, Critical Focus, Greater Vital Strike, Improved Critical (×2: bite, claw), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Multiattack, Snatch, Staggering Critical, Step Up, Vital Strike, Weapon Focus (bite)
+Skills: Bluff +38, Diplomacy +38, Sense Motive +44, Spellcraft +38, Stealth +18
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: [compression](ref/umr/compression), planar infusion (300 ft.)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 409,600
-
-**Armor class:** 40
-
-**Touch:** 5
-
-**Flat-footed:** 40
-
-**AC modifiers:** -1 Dex, +35 natural, -4 size
-
-**Hit points:** 406 (28d12+224)
-
-**Fort:** +24
-
-**Ref:** +17
-
-**Will:** +25
-
-**Defensive abilities:** grave endurance
-
-**Dr:** 15/adamantine
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., fly 250 ft. (clumsy)
-
-**Br Weap:** 60-ft. cone, 20d10 negative energy, Reflex DC 32 half
-
-**Melee:** bite +38 (4d6+19/19-20), 2 claws +37 (2d8+13/19-20), tail slap +35 (2d8+19), 2 wings +35
-(2d6+6)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** crush, decaying breath, entombing crush, inexorable attacks, lingering rot, rotting
-breath (1d6 negative levels), tail sweep
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**7th-level spells:**
-
-- 5/day: destruction (DC 24), repulsion (DC 24)
-
-**6th-level spells:**
-
-- 7/day: animate objects, heal, word of recall
-
-**5th-level spells:**
-
-- 7/day: break enchantment, slay living (DC 22), true seeing, wall of stone
-
-**4th-level spells:**
-
-- 7/day: cure critical wounds, dismissal (DC 21), divination, spell immunity
-
-**3rd-level spells:**
-
-- 8/day: glyph of warding, meld into stone, searing light, speak with dead (DC 20)
-
-**2nd-level spells:**
-
-- 8/day: augury, cure moderate wounds, gentle repose, resist energy, silence (DC 19)
-
-**1st-level spells:**
-
-- 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 18), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 17), create water, detect magic, guidance, light, mending, read magic,
-  resistance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 8, Con 27, Int 24, Wis 29, Cha 24
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +45
-
-**Combat maneuver defense:** 54 (58 vs. trip)
-
-**Feats:** Alertness, Critical Focus, Greater Vital Strike, Improved Critical (×2: bite, claw),
-Improved Initiative, Improved Vital Strike, Lightning Reflexes, Multiattack, Snatch, Staggering
-Critical, Step Up, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Bluff +38, Diplomacy +38, Sense Motive +44, Spellcraft +38, Stealth +18
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** [compression](ref/umr/compression), planar infusion (300 ft.)
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

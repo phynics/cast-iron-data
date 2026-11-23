@@ -30,100 +30,72 @@ abilities = ["12", "21", "14", "15", "16", "25"]
 _Dressed in a long dark coat and a tall hat, this lanky, fanged humanoid exudes an almost palpable
 aura of horror._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: deepest fear (30 ft., DC 25)
+Type: fey
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +23
+Senses: Low-light vision
+Experience points: 9,600
+:::
 
-**aura:** deepest fear (30 ft., DC 25)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 23
+Touch: 23
+Flat-footed: 17
+AC modifiers: +7 deflection, +5 Dex, +1 dodge
+Hit points: 93 (17d6+34); terrible rejuvenation 5
+Fort: +9
+Ref: +15
+Will: +13
+Dr: 15/cold iron
+Sr: 21
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d8+1/19-20)
+Sneak: +6d6
+Spec Att: striking fear
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +17
+Constant: detect thoughts, tongues
+At will: darkness, gaseous form, ghost sound (DC 17), invisibility, suggestion (DC 20)
+Per day: 3/day: crushing despair (DC 21), hold person (DC 20), quickened phantasmal killer (DC 21)\
+1/day: nightmare (DC 22)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 21, Con 14, Int 15, Wis 16, Cha 25
+Base attack bonus: +8
+Combat maneuver bonus: +9
+Combat maneuver defense: 32
+Feats: Dodge, Great Fortitude, Improved Critical (claw), Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (phantasmal killer), Skill Focus (Stealth), Spring Attack, Weapon Finesse
+Skills: Bluff +27, Diplomacy +20, Sense Motive +23, Spellcraft +12, Stealth +35
+Racial Modifiers: +4 Intimidate, +4 Stealth
+Languages: Aklo, Common; _[tongues](ref/spell/tongues)_
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 23
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 93 (17d6+34); terrible rejuvenation 5
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +13
-
-**Dr:** 15/cold iron
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d8+1/19-20)
-
-**Sneak:** +6d6
-
-**Spec Att:** striking fear
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +17
-
-**Constant:**
-
-- detect thoughts, tongues
-
-**At will:**
-
-- darkness, gaseous form, ghost sound (DC 17), invisibility, suggestion (DC 20)
-
-**Per day:**
-
-- 3/day: crushing despair (DC 21), hold person (DC 20), quickened phantasmal killer (DC 21)
-- 1/day: nightmare (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 14, Int 15, Wis 16, Cha 25
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 32
-
-**Feats:** Dodge, Great Fortitude, Improved Critical (claw), Improved Initiative, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (phantasmal killer), Skill Focus (Stealth),
-Spring Attack, Weapon Finesse
-
-**Skills:** Bluff +27, Diplomacy +20, Sense Motive +23, Spellcraft +12, Stealth +35
-
-**Racial Modifiers:** +4 Intimidate, +4 Stealth
-
-**Languages:** Aklo, Common; _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -32,113 +32,77 @@ abilities = ["29", "10", "23", "20", "25", "20"]
 _This dragon's scales are the color of weathered bone, and its hide stretches tautly and painfully
 over its emaciated form._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+Type: dragon
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +34
+Senses: Dragon senses
+Subtype: Extraplanar
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 25)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 31
+Touch: 8
+Flat-footed: 31
+AC modifiers: +23 natural, -2 size
+Hit points: 250 (20d12+120)
+Fort: +18
+Ref: +14
+Will: +19
+Defensive abilities: grave endurance
+Dr: 5/adamantine
+Sr: 27
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 50-ft. cone, 12d10 negative energy, Reflex DC 26 half
+Melee: bite +28 (2d8+13/19-20), 2 claws +27 (2d6+9), tail slap +25 (2d6+13), 2 wings +25 (1d8+4)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush, decaying breath, entombing crush, inexorable attacks, rotting breath (1d2 negative levels)
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: searing light, speak with dead (DC 18)
+2nd-level spells: 7/day: augury, gentle repose, resist energy
+1st-level spells: 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 16), shield of faith
+Cantrips: At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, stabilize
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Dragon senses
+::: statblock
+Ability scores: Str 29, Dex 10, Con 23, Int 20, Wis 25, Cha 20
+Base attack bonus: +20
+Combat maneuver bonus: +31
+Combat maneuver defense: 41 (45 vs. trip)
+Feats: Alertness, Critical Focus, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Multiattack, Step Up, Vital Strike, Weapon Focus (bite)
+Skills: Diplomacy +28, Sense Motive +34, Spellcraft +28, Stealth +15
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: [compression](ref/umr/compression), planar infusion (180 ft.)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 8
-
-**Flat-footed:** 31
-
-**AC modifiers:** +23 natural, -2 size
-
-**Hit points:** 250 (20d12+120)
-
-**Fort:** +18
-
-**Ref:** +14
-
-**Will:** +19
-
-**Defensive abilities:** grave endurance
-
-**Dr:** 5/adamantine
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 50-ft. cone, 12d10 negative energy, Reflex DC 26 half
-
-**Melee:** bite +28 (2d8+13/19-20), 2 claws +27 (2d6+9), tail slap +25 (2d6+13), 2 wings +25 (1d8+4)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush, decaying breath, entombing crush, inexorable attacks, rotting breath (1d2
-negative levels)
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: searing light, speak with dead (DC 18)
-
-**2nd-level spells:**
-
-- 7/day: augury, gentle repose, resist energy
-
-**1st-level spells:**
-
-- 8/day: bless, cure light wounds, hide from undead, sanctuary (DC 16), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 15), detect magic, guidance, mending, read magic, resistance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 10, Con 23, Int 20, Wis 25, Cha 20
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 41 (45 vs. trip)
-
-**Feats:** Alertness, Critical Focus, Improved Critical (bite), Improved Initiative, Improved Vital
-Strike, Lightning Reflexes, Multiattack, Step Up, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Diplomacy +28, Sense Motive +34, Spellcraft +28, Stealth +15
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** [compression](ref/umr/compression), planar infusion (180 ft.)
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

@@ -33,96 +33,71 @@ of velvety moss and living grass for hair. An eldritch serenity graces her count
 approaches, her outstretched, root-like hands brushing the tips of the tallest grass - the wind
 itself whispers around her feet as patches of clover, heather, and milkweed mark her every step._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: allergen (DC 16, 1d6 rounds)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +11
+Senses: Low-light vision
+Experience points: 2,400
+:::
 
-**aura:** allergen (DC 16, 1d6 rounds)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +4 natural
+Hit points: 66 (7d6+35)
+Fort: +7
+Ref: +10
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +8 (1d8+4)
+Ranged: mwk sling +9 (1d4+4)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Constant: speak with plants
+At will: dancing lights, entangle (DC 15), plant growth, whispering wind
+Per day: 3/day: deep slumber (DC 17), modify memory (DC 18), spike growth (DC 17)\
+1/day: goodberry, hallucinatory terrain (DC 18), lesser geas (DC 17)
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 21, Con 21, Int 14, Wis 17, Cha 18
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 23
+Feats: Combat Casting, Dodge, Mobility, Weapon Finesse
+Skills: Diplomacy +14, Heal +9, Knowledge (nature) +12, Perception +11
+Racial Modifiers: +4 Stealth in grasslands
+Languages: Aklo, Common, Sylvan
+Special qualities: change shape, verdant step, [wild empathy](ref/ability/wild-empathy) +10
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +4 natural
-
-**Hit points:** 66 (7d6+35)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +8 (1d8+4)
-
-**Ranged:** mwk sling +9 (1d4+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- dancing lights, entangle (DC 15), plant growth, whispering wind
-
-**Per day:**
-
-- 3/day: deep slumber (DC 17), modify memory (DC 18), spike growth (DC 17)
-- 1/day: goodberry, hallucinatory terrain (DC 18), lesser geas (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 21, Con 21, Int 14, Wis 17, Cha 18
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23
-
-**Feats:** Combat Casting, Dodge, Mobility, Weapon Finesse
-
-**Skills:** Diplomacy +14, Heal +9, Knowledge (nature) +12, Perception +11
-
-**Racial Modifiers:** +4 Stealth in grasslands
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** change shape, verdant step, [wild empathy](ref/ability/wild-empathy) +10
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or gathering (3-8)
-
-**Treasure:** Double (mwk sng20); other treasure
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or gathering (3-8)
+Treasure: Double (mwk sng20); other treasure
+:::
 
 ### Special Abilities
 

@@ -36,109 +36,77 @@ abilities = ["20", "17", "19", "14", "16", "15"]
 _Armored like an infernal knight upon some monstrous steed, this fiend of iron and nails scuttles
 upon six bladed, beetle-like legs._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 84 (8d10+40)
+Fort: +10
+Ref: +9
+Will: +5
+Defensive abilities: construct form
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 12
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: mwk trident +13/+8 (2d6+7), 2 legs +7 (1d8+2)
+Ranged: mwk trident +10 (2d6+7) or net +10 ranged touch (entangle)
+Reach: 10
+Space: 10
+Spec Att: merciless blow
+Trample: 1d8+7, DC 19
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 4, 1d4 [lemure](ref/monster/devil-lemure) or 1 [bearded devil](ref/monster/devil-bearded-devil-barbazu) 40%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 20, Dex 17, Con 19, Int 14, Wis 16, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 27 (31 vs. bull rush and trip)
+Feats: Combat Reflexes, Improved Initiative, Power Attack, Toughness
+Skills: Acrobatics +14, Bluff +13, Climb +17, Craft (weapons) +9, Intimidate +13, Knowledge (dungeoneering, engineering) +9, Perception +16, Stealth +12 (+18 among metal objects or debris)
+Racial Modifiers: +2 Perception, +2 Stealth (+8 Stealth among metal objects or debris)
+Languages: Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: hellstrider, phalanx, stability
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 84 (8d10+40)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +5
-
-**Defensive abilities:** construct form
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** mwk trident +13/+8 (2d6+7), 2 legs +7 (1d8+2)
-
-**Ranged:** mwk trident +10 (2d6+7) or net +10 ranged touch (entangle)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** merciless blow
-
-**Trample:** 1d8+7, DC 19
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 4, 1d4 [lemure](ref/monster/devil-lemure) or 1
-  [bearded devil](ref/monster/devil-bearded-devil-barbazu) 40%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 19, Int 14, Wis 16, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27 (31 vs. bull rush and trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack, Toughness
-
-**Skills:** Acrobatics +14, Bluff +13, Climb +17, Craft (weapons) +9, Intimidate +13, Knowledge
-(dungeoneering, engineering) +9, Perception +16, Stealth +12 (+18 among metal objects or debris)
-
-**Racial Modifiers:** +2 Perception, +2 Stealth (+8 Stealth among metal objects or debris)
-
-**Languages:** Celestial, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** hellstrider, phalanx, stability
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or troop (3-18)
-
-**Treasure:** Standard (mwk trident); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or troop (3-18)
+Treasure: Standard (mwk trident); other treasure
+:::
 
 ### Special Abilities
 

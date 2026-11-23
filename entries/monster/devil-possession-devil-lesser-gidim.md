@@ -34,106 +34,73 @@ looming malevolence and faint foul breath._
 
 **Possession Devil, Lesser (Gidim)**
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Incorporeal, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 13
+AC modifiers: +3 deflection, +3 Dex, +1 dodge
+Hit points: 59 (7d10+21)
+Fort: +8
+Ref: +10
+Will: +7
+Dr: 5/good
+Incorporeal: present
+Resist: acid 10, cold 10
+Sr: 17
+Weaknesses: sunlight weakness
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee: 2 claws +10 touch (1d4+3), bite +10 touch (1d6+3)
+Spec Att: dread, malevolence
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: greater invisibility
+At will: bleed (DC 13), ghost sound (domain spell) (DC 13), greater teleport, self plus 50 lbs. of objects only, knock (domain spell) (DC 15), levitate (domain spell) (DC 15), open/close (domain spell) (DC 13), prestidigitation (domain spell) (DC 13), mage hand (domain spell) (DC 13)
+Per day: 3/day: animate rope (domain spell) (DC 14), dancing lights (domain spell) (DC 13), ethereal jaunt, Ethereal Plane to Material Plane and vice versa, minor creation, plane shift, self only; to Ethereal Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 14), silent image (domain spell) (DC 14), suggestion (DC 16), unseen servant (domain spell) (DC 14)\
+1/day: summon (level 4, 1 lesser possession devil, 40%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Incorporeal, Lawful
+::: statblock
+Ability scores: Str -, Dex 16, Con 16, Int 15, Wis 17, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 24
+Feats: Alertness, Dodge, Iron Will, Lightning Reflexes
+Skills: Acrobatics +13, Bluff +13, Disable Device +13, Fly +11, Intimidate +13, Knowledge (planes) +12, Perception +15, Sense Motive +15, Stealth +13
+Languages: Aklo, Common, Infernal
+Special qualities: nourished by negativity, otherworldly
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +3 Dex, +1 dodge
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +7
-
-**Dr:** 5/good
-
-**Incorporeal:** present
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 17
-
-**Weaknesses:** sunlight weakness
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect)
-
-**Melee:** 2 claws +10 touch (1d4+3), bite +10 touch (1d6+3)
-
-**Spec Att:** dread, malevolence
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- greater invisibility
-
-**At will:**
-
-- bleed (DC 13), ghost sound (domain spell) (DC 13), greater teleport, self plus 50 lbs. of objects
-  only, knock (domain spell) (DC 15), levitate (domain spell) (DC 15), open/close (domain spell) (DC
-  13), prestidigitation (domain spell) (DC 13), mage hand (domain spell) (DC 13)
-
-**Per day:**
-
-- 3/day: animate rope (domain spell) (DC 14), dancing lights (domain spell) (DC 13), ethereal jaunt,
-  Ethereal Plane to Material Plane and vice versa, minor creation, plane shift, self only; to
-  Ethereal Plane, Hell, or Material Plane only, produce flame (domain spell) (DC 14), silent image
-  (domain spell) (DC 14), suggestion (DC 16), unseen servant (domain spell) (DC 14)
-- 1/day: summon (level 4, 1 lesser possession devil, 40%)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con 16, Int 15, Wis 17, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Dodge, Iron Will, Lightning Reflexes
-
-**Skills:** Acrobatics +13, Bluff +13, Disable Device +13, Fly +11, Intimidate +13, Knowledge
-(planes) +12, Perception +15, Sense Motive +15, Stealth +13
-
-**Languages:** Aklo, Common, Infernal
-
-**Special qualities:** nourished by negativity, otherworldly
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell) or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Hell](ref/rule/hell) or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

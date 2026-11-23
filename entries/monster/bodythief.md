@@ -31,91 +31,67 @@ abilities = ["34", "1", "25", "21", "16", "14"]
 _This immense plant has jaws inside its central flower and vines that thresh the air. Its ovular
 seedpods throb like beating hearts._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Size: gargantuan
+Initiative: -1
+Alignment: Lawful evil
+Perception: +30
+Senses: Low-light vision
+Type: plant
+Experience points: 38,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 26
+Touch: 1
+Flat-footed: 25
+AC modifiers: -5 Dex, +25 natural, -4 size
+Hit points: 230 (20d8+140)
+Fort: +19
+Ref: +1
+Will: +11
+Defensive abilities: vexing vines
+Immune: [plant traits](ref/umr/plant-traits), sonic
+Resist: cold 20
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: 5 ft.
+Br Weap: 80-ft. line, 12d6 acid damage, Reflex DC 27 half, usable every 1d4 rounds
+Melee: bite +23 (2d8+12 plus [grab](ref/umr/grab)), 4 tentacles +21 (1d8+6 plus grab)
+Reach: 20
+Reach P: 40 ft. with tentacles
+Space: 20
+Spec Att: transfer
+Swallow: 4d6 acid damage plus absorb essence; AC 22, 23 hp
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 34, Dex 1, Con 25, Int 21, Wis 16, Cha 14
+Base attack bonus: +15
+Combat maneuver bonus: +31 (+35 disarm, +35 grapple, +33 trip)
+Combat maneuver defense: 38 (40 vs. disarm, can't be tripped)
+Feats: Alertness, Combat Expertise, Greater Disarm, Improved Disarm, Improved Initiative, Improved Iron Will, Improved Trip, Iron Will, Multiattack, Skill Focus (Knowledge \[nature\])
+Skills: Disguise +27, Sense Motive +27
+Racial Modifiers: +5 Disguise
+Languages: Common (can't speak), Dwarven (can't speak), Elven (can't speak), Orc (can't speak), Sylvan (can't speak); [telepathy](ref/umr/telepathy) 1,000 ft. (with spawn only)
+Special qualities: spawn pod creature
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 1
-
-**Flat-footed:** 25
-
-**AC modifiers:** -5 Dex, +25 natural, -4 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +19
-
-**Ref:** +1
-
-**Will:** +11
-
-**Defensive abilities:** vexing vines
-
-**Immune:** [plant traits](ref/umr/plant-traits), sonic
-
-**Resist:** cold 20
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Br Weap:** 80-ft. line, 12d6 acid damage, Reflex DC 27 half, usable every 1d4 rounds
-
-**Melee:** bite +23 (2d8+12 plus [grab](ref/umr/grab)), 4 tentacles +21 (1d8+6 plus grab)
-
-**Reach:** 20
-
-**Reach P:** 40 ft. with tentacles
-
-**Space:** 20
-
-**Spec Att:** transfer
-
-**Swallow:** 4d6 acid damage plus absorb essence; AC 22, 23 hp
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 1, Con 25, Int 21, Wis 16, Cha 14
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +31 (+35 disarm, +35 grapple, +33 trip)
-
-**Combat maneuver defense:** 38 (40 vs. disarm, can't be tripped)
-
-**Feats:** Alertness, Combat Expertise, Greater Disarm, Improved Disarm, Improved Initiative,
-Improved Iron Will, Improved Trip, Iron Will, Multiattack, Skill Focus (Knowledge \[nature\])
-
-**Skills:** Disguise +27, Sense Motive +27
-
-**Racial Modifiers:** +5 Disguise
-
-**Languages:** Common (can't speak), Dwarven (can't speak), Elven (can't speak), Orc (can't speak),
-Sylvan (can't speak); [telepathy](ref/umr/telepathy) 1,000 ft. (with spawn only)
-
-**Special qualities:** spawn pod creature
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -32,98 +32,73 @@ abilities = ["15", "9", "14", "12", "13", "12"]
 
 _A hideous, pale, worm-like head pushes violently up and out of a corpulent man's body._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Alignment: Chaotic evil
+Initiative: -1
+Size: medium
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: +3 armor, -1 Dex, +3 natural
+Hit points: 30 (4d10+8)
+Fort: +8
+Ref: +0
+Will: +5
+Defensive abilities: abandon flesh, flesh armor, negative energy affinity
+Dr: 5/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 14
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: longsword +6 (1d8+2/19-20), bite +1 (1d6+1)
+Spec Att: inhabit body
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Per day: 3/day: mass inflict light wounds (DC 16), spider climb\
+1/day: gentle repose, summon (level 2, 1d4 dretches 50%)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 15, Dex 9, Con 14, Int 12, Wis 13, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Deceitful, Great Fortitude
+Skills: Bluff +10, Disguise +10 (+18 when inhabiting a corpse), Sense Motive +8, Use Magic Device +8
+Racial Modifiers: +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a corpse
+Languages: Abyssal, Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, -1 Dex, +3 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +8
-
-**Ref:** +0
-
-**Will:** +5
-
-**Defensive abilities:** abandon flesh, flesh armor, negative energy affinity
-
-**Dr:** 5/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** longsword +6 (1d8+2/19-20), bite +1 (1d6+1)
-
-**Spec Att:** inhabit body
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: mass inflict light wounds (DC 16), spider climb
-- 1/day: gentle repose, summon (level 2, 1d4 dretches 50%)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 9, Con 14, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Deceitful, Great Fortitude
-
-**Skills:** Bluff +10, Disguise +10 (+18 when inhabiting a corpse), Sense Motive +8, Use Magic
-Device +8
-
-**Racial Modifiers:** +8 Disguise when inhabiting a corpse, +8 Escape Artist when not inhabiting a
-corpse
-
-**Languages:** Abyssal, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss); battlefields or graveyards)
-
-**Organization:** solitary or nest (2-10)
-
-**Treasure:** Standard (longsword); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss); battlefields or graveyards)
+Organization: solitary or nest (2-10)
+Treasure: Standard (longsword); other treasure
+:::
 
 ### Special Abilities
 

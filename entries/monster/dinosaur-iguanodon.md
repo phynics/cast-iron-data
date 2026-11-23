@@ -29,71 +29,58 @@ abilities = ["27", "14", "19", "2", "12", "7"]
 _This dinosaur seems comfortable on two legs or four. Its front limbs are each adorned with a
 cruel-looking, thumb-like spike._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 17
+AC modifiers: +2 Dex, +9 natural, -2 size
+Hit points: 76 (9d8+36)
+Fort: +10
+Ref: +8
+Will: +4
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d8+8/×3)
+Reach: 15
+Space: 15
+Spec Att: thumb spikes
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 14, Con 19, Int 2, Wis 12, Cha 7
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Power Attack, Run, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (claw)
+Skills: Perception +12, Stealth +4
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +9 natural, -2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d8+8/×3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** thumb spikes
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 14, Con 19, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Power Attack, Run, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (claw)
-
-**Skills:** Perception +12, Stealth +4
-
-**Ecology**
-
-**Environment:** warm forests or swamps
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or swamps
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

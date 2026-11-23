@@ -33,114 +33,78 @@ abilities = ["21", "25", "24", "14", "15", "24"]
 _Vaguely humanoid in shape, this gaunt fiend has the face of a hideous fish and a body of lanky
 limbs and writhing tendrils._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: soul siphon (10 ft.)
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Deathwatch, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**aura:** soul siphon (10 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 21
+AC modifiers: +7 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 212 (17d10+119)
+Fort: +12
+Ref: +17
+Will: +14
+Defensive abilities: displacement
+Dr: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 27
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 90 ft., fly 90 ft. (good)
+E Drain: 1 level, DC 25
+Melee: bite +23 (2d6+5 plus energy drain and [grab](ref/umr/grab)), 2 claws +23 (1d8+5 plus energy drain), tail slap +18 (1d12+2 plus energy drain)
+Reach: 10
+Reach P: 15 ft. with tail
+Space: 10
+Spec Att: devour soul
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +24
+Constant: deathwatch, displacement, true seeing
+At will: enervation, fear (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
+Per day: 3/day: locate creature, plane shift (DC 24)\
+1/day: energy drain (DC 24), finger of death (DC 24), summon (level 6, 1d3 [derghodaemons](ref/monster/daemon-derghodaemon) 50%)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch, True seeing
+::: statblock
+Ability scores: Str 21, Dex 25, Con 24, Int 14, Wis 15, Cha 24
+Base attack bonus: +17
+Combat maneuver bonus: +23
+Combat maneuver defense: 41
+Feats: Combat Reflexes, Dodge, Flyby Attack, Iron Will, Mobility, Nimble Moves, Power Attack, Spring Attack, Weapon Finesse
+Skills: Acrobatics +24 (+48 jump), Escape Artist +27, Fly +9, Intimidate +27, Knowledge (planes) +22, Perception +22
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +12
-
-**Ref:** +17
-
-**Will:** +14
-
-**Defensive abilities:** displacement
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 90 ft., fly 90 ft. (good)
-
-**E Drain:** 1 level, DC 25
-
-**Melee:** bite +23 (2d6+5 plus energy drain and [grab](ref/umr/grab)), 2 claws +23 (1d8+5 plus
-energy drain), tail slap +18 (1d12+2 plus energy drain)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tail
-
-**Space:** 10
-
-**Spec Att:** devour soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +24
-
-**Constant:**
-
-- deathwatch, displacement, true seeing
-
-**At will:**
-
-- enervation, fear (DC 21), greater teleport, self plus 50 lbs. of objects only, vampiric touch
-
-**Per day:**
-
-- 3/day: locate creature, plane shift (DC 24)
-- 1/day: energy drain (DC 24), finger of death (DC 24), summon (level 6, 1d3
-  [derghodaemons](ref/monster/daemon-derghodaemon) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 25, Con 24, Int 14, Wis 15, Cha 24
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 41
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Iron Will, Mobility, Nimble Moves, Power Attack,
-Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +24 (+48 jump), Escape Artist +27, Fly +9, Intimidate +27, Knowledge (planes)
-+22, Perception +22
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon) or [Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon) or [Astral Plane](ref/rule/astral-plane))
+Organization: solitary, pair, or pack (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

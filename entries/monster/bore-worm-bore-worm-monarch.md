@@ -31,76 +31,60 @@ abilities = ["20", "7", "15", "-", "10", "2"]
 _Bright red and coated in an opaque yellow slime, this monstrous worm has a menacing pair of barbed
 mandibles._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: -2
+Size: large
+Alignment: Neutral
+Perception: +0
+tremorsense: 60
+Type: vermin
+Experience points: 3,200
+:::
 
-**Initiative:** -2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -2 Dex, +12 natural, -1 size
+Hit points: 78 (12d8+24)
+Fort: +10
+Ref: +2
+Will: +4
+Dr: 10/piercing
+Immune: acid, mind-affecting effects
+Weaknesses: vulnerable to water
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., burrow 40 ft.
+Melee: bite +13 (2d6+7 plus 2d6 acid and painful bite)
+Reach: 10
+Space: 10
+Spec Att: painful bite (DC 18)
+:::
 
-**tremorsense:** 60
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 20, Dex 7, Con 15, Int -, Wis 10, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 23 (can't be tripped)
+Special qualities: [compression](ref/umr/compression), corrosive wake
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -2 Dex, +12 natural, -1 size
-
-**Hit points:** 78 (12d8+24)
-
-**Fort:** +10
-
-**Ref:** +2
-
-**Will:** +4
-
-**Dr:** 10/piercing
-
-**Immune:** acid, mind-affecting effects
-
-**Weaknesses:** vulnerable to water
-
-**Offense**
-
-**Speed:** 20 ft., burrow 40 ft.
-
-**Melee:** bite +13 (2d6+7 plus 2d6 acid and painful bite)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** painful bite (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 7, Con 15, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Special qualities:** [compression](ref/umr/compression), corrosive wake
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or tremor (1 plus 1d6
-[bore worm swarms](ref/monster/bore-worm-bore-worm-swarm))
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or tremor (1 plus 1d6 [bore worm swarms](ref/monster/bore-worm-bore-worm-swarm))
+Treasure: None
+:::
 
 ### Special Abilities
 

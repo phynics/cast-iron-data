@@ -30,73 +30,59 @@ abilities = ["20", "13", "17", "1", "12", "2"]
 _This fish-like reptile has a thin, streamlined snout filled with needle-like teeth and a long, flat
 tail that it uses to propel itself through the water._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 13
+AC modifiers: +1 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +5
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft., swim 50 ft.
+Melee: bite +7 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: death dive
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 13, Con 17, Int 1, Wis 12, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 20
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Perception +11, Swim +13
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 15 ft., swim 50 ft.
-
-**Melee:** bite +7 (1d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** death dive
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 17, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 20
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Perception +11, Swim +13
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** tropical oceans
-
-**Organization:** solitary, pair, or float (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: tropical oceans
+Organization: solitary, pair, or float (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

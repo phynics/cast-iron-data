@@ -32,102 +32,73 @@ abilities = ["17", "20", "21", "23", "22", "18"]
 
 _This winged, humanoid ascetic's face is bright red and boasts a prodigiously long nose._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., True seeing
+Subtype: Native, Shapechanger
+Experience points: 9,600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 24
+Flat-footed: 21
+AC modifiers: +5 Dex, +3 monk, +2 natural, +6 Wis
+Hit points: 126 (12d10+60)
+Fort: +9
+Ref: +13
+Will: +14
+Evasion: present
+Immune: disease, mind-affecting effects
+Sr: 21
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: unarmed strike +17/+12/+7 (2d6+3) or unarmed strike flurry of blows +17/+17/+12/+12/+7 (2d6+3)
+Ranged: +2 flaming dart +19/+14/+9 (1d4+5 plus 1d6 fire)
+Spec Att: stunning fist (12/day, DC 16)
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: speak with animals, birds only, true seeing
+Per day: 3/day: bestow curse (DC 18), gust of wind, remove curse, stone shape\
+1/day: wind walk
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Native, Shapechanger
+::: statblock
+Ability scores: Str 17, Dex 20, Con 21, Int 23, Wis 22, Cha 18
+Base attack bonus: +12
+Combat maneuver bonus: +15 (+17 disarm)
+Combat maneuver defense: 39 (41 vs. disarm)
+Feats: Combat Expertise, Combat Reflexes, Improved Disarm, Improved Unarmed Strike, Quick Draw, Snatch Arrows, Stunning Fist, Weapon Finesse
+Skills: Acrobatics +20, Bluff +19, Diplomacy +19, Fly +24, Intimidate +19, Knowledge (history, local, nobility, religion) +9, Perception +21
+Racial Modifiers: +6 Disguise
+Languages: Common, Tengu; _[speak with animals](ref/spell/speak-with-animals)_ (birds only)
+Special qualities: ascetic master, [change shape](ref/umr/change-shape) (any humanoid, [alter self](ref/spell/alter-self)), daitengu's blessing
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 24
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 Dex, +3 monk, +2 natural, +6 Wis
-
-**Hit points:** 126 (12d10+60)
-
-**Fort:** +9
-
-**Ref:** +13
-
-**Will:** +14
-
-**Evasion:** present
-
-**Immune:** disease, mind-affecting effects
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** unarmed strike +17/+12/+7 (2d6+3) or unarmed strike flurry of blows +17/+17/+12/+12/+7
-(2d6+3)
-
-**Ranged:** +2 flaming dart +19/+14/+9 (1d4+5 plus 1d6 fire)
-
-**Spec Att:** stunning fist (12/day, DC 16)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- speak with animals, birds only, true seeing
-
-**Per day:**
-
-- 3/day: bestow curse (DC 18), gust of wind, remove curse, stone shape
-- 1/day: wind walk
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 21, Int 23, Wis 22, Cha 18
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +15 (+17 disarm)
-
-**Combat maneuver defense:** 39 (41 vs. disarm)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Disarm, Improved Unarmed Strike, Quick Draw,
-Snatch Arrows, Stunning Fist, Weapon Finesse
-
-**Skills:** Acrobatics +20, Bluff +19, Diplomacy +19, Fly +24, Intimidate +19, Knowledge (history,
-local, nobility, religion) +9, Perception +21
-
-**Racial Modifiers:** +6 Disguise
-
-**Languages:** Common, Tengu; _[speak with animals](ref/spell/speak-with-animals)_ (birds only)
-
-**Special qualities:** ascetic master, [change shape](ref/umr/change-shape) (any humanoid,
-[alter self](ref/spell/alter-self)), daitengu's blessing
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary
-
-**Treasure:** NPC gear (12 +2 flaming dart); other treasure
+::: statblock
+Environment: any mountains
+Organization: solitary
+Treasure: NPC gear (12 +2 flaming dart); other treasure
+:::
 
 ### Special Abilities
 

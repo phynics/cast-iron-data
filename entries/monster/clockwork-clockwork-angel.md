@@ -32,82 +32,63 @@ abilities = ["24", "28", "-", "-", "11", "18"]
 _Brass, bronze, and silver components adorn this angelic figure. Moving gears are visible within the
 gaps of its metallic body._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Initiative: +13
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 29
+Touch: 21
+Flat-footed: 18
+AC modifiers: +9 Dex, +2 dodge, +8 natural
+Hit points: 210 (20d10+100)
+Fort: +6
+Ref: +17
+Will: +6
+Defensive abilities: infused heart
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: +1 [flaming](ref/magic-enh/flaming) [keen](ref/magic-enh/keen) greatsword +28/+23/+18/+13 (2d6+11/19-20 plus 1d6 fire)
+Spec Att: enhance weapon
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 28, Con -, Int -, Wis 11, Cha 18
+Base attack bonus: +20
+Combat maneuver bonus: +27
+Combat maneuver defense: 48
+Feats: Improved Initiative, Lightning Reflexes, Martial Weapon Proficiency (greatsword)
+Skills: Acrobatics +15, Fly +19, Perception +6
+Racial Modifiers: +6 Acrobatics, +6 Fly, +6 Perception
+Special qualities: difficult to create, programmed sentinel, swift reactions, winding
+:::
 
-**Subtype:** Clockwork
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 21
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 Dex, +2 dodge, +8 natural
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +6
-
-**Ref:** +17
-
-**Will:** +6
-
-**Defensive abilities:** infused heart
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** +1 [flaming](ref/magic-enh/flaming) [keen](ref/magic-enh/keen) greatsword +28/+23/+18/+13
-(2d6+11/19-20 plus 1d6 fire)
-
-**Spec Att:** enhance weapon
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 28, Con -, Int -, Wis 11, Cha 18
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 48
-
-**Feats:** Improved Initiative, Lightning Reflexes, Martial Weapon Proficiency (greatsword)
-
-**Skills:** Acrobatics +15, Fly +19, Perception +6
-
-**Racial Modifiers:** +6 Acrobatics, +6 Fly, +6 Perception
-
-**Special qualities:** difficult to create, programmed sentinel, swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or reliquary (3-6)
-
-**Treasure:** Incidental (mwk greatsword)
+::: statblock
+Environment: any
+Organization: solitary, pair, or reliquary (3-6)
+Treasure: Incidental (mwk greatsword)
+:::
 
 ### Special Abilities
 

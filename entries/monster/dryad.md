@@ -31,95 +31,70 @@ abilities = ["10", "19", "13", "14", "15", "18"]
 _This strange, beautiful woman has flesh that seems made of wood and vibrant hair that resembles
 leaves and blossoms._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic good
+Type: fey
+Initiative: +4
+Size: medium
+Perception: +11
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +4 Dex, +3 natural
+Hit points: 27 (6d6+6)
+Fort: +5
+Ref: +9
+Will: +7
+Dr: 5/cold iron
+Weaknesses: tree dependent
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: dagger +7 (1d4)
+Ranged: masterwork longbow +8 (1d8)
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Constant: speak with plants
+At will: entangle (DC 15), tree shape, wood shape, 1 lb. only
+Per day: 3/day: charm person (DC 15), deep slumber (DC 17), tree stride\
+1/day: suggestion (DC 17)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 10, Dex 19, Con 13, Int 14, Wis 15, Cha 18
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Great Fortitude, Stealthy, Weapon Finesse
+Skills: Climb +9, Craft (sculpture) +11, Escape Artist +15, Handle Animal +10, Knowledge (nature) +11, Perception +11
+Racial Modifiers: +6 Craft (wood)
+Languages: Common, Elven, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
+Special qualities: tree meld, [wild empathy](ref/ability/wild-empathy), woodcraft
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +3 natural
-
-**Hit points:** 27 (6d6+6)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Weaknesses:** tree dependent
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +7 (1d4)
-
-**Ranged:** masterwork longbow +8 (1d8)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- entangle (DC 15), tree shape, wood shape, 1 lb. only
-
-**Per day:**
-
-- 3/day: charm person (DC 15), deep slumber (DC 17), tree stride
-- 1/day: suggestion (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 19, Con 13, Int 14, Wis 15, Cha 18
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Great Fortitude, Stealthy, Weapon Finesse
-
-**Skills:** Climb +9, Craft (sculpture) +11, Escape Artist +15, Handle Animal +10, Knowledge
-(nature) +11, Perception +11
-
-**Racial Modifiers:** +6 Craft (wood)
-
-**Languages:** Common, Elven, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
-
-**Special qualities:** tree meld, [wild empathy](ref/ability/wild-empathy), woodcraft
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or grove (3-8)
-
-**Treasure:** Standard (dagger, mwk lb20); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or grove (3-8)
+Treasure: Standard (dagger, mwk lb20); other treasure
+:::
 
 ### Special Abilities
 

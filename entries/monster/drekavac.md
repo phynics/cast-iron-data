@@ -32,87 +32,68 @@ head perches atop its spindly, child-sized body, and its eyes are nothing but su
 with no trace of life in them. A cloying mist wreathes its frail form, accompanied by the stench of
 death and disease._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Initiative: +1
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: small
+Type: undead
+Experience points: 800
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 natural, +1 size
+Hit points: 30 (4d8+12)
+Fort: +4
+Ref: +2
+Will: +7
+Dr: 5/silver
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: sunlight aversion, vulnerability to magic, vulnerability to salt
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Melee: chilling grasp +5 touch (1d6 cold plus disease) or shadow +5 touch (disease)
+Spec Att: create spawn, disease, diseased shadow
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+At will: gaseous form
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 10, Dex 12, Con -, Int 9, Wis 12, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Iron Will, Weapon Finesse
+Skills: Intimidate +10, Perception +8, Stealth +12
+Languages: Common
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 natural, +1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +7
-
-**Dr:** 5/silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** sunlight aversion, vulnerability to magic, vulnerability to salt
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** chilling grasp +5 touch (1d6 cold plus disease) or shadow +5 touch (disease)
-
-**Spec Att:** create spawn, disease, diseased shadow
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**At will:**
-
-- gaseous form
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con -, Int 9, Wis 12, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Iron Will, Weapon Finesse
-
-**Skills:** Intimidate +10, Perception +8, Stealth +12
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

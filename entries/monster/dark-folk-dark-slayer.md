@@ -31,100 +31,71 @@ abilities = ["9", "18", "12", "10", "11", "15"]
 _This small humanoid is clothed in tattered rags from head to foot. Only its sinister eyes and pale
 hands are visible._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Perception: +4
+Senses: Detect magic, See in darkness
+Size: small
+Subtype: Dark folk
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 22 (4d8+4)
+Fort: +2
+Ref: +8
+Will: +1
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: kukri +8 (1d3-1/18-20 plus black smear poison)
+Sneak: +2d6
+Spec Att: death throes, poison use,, soul harvest
+:::
 
-**Senses:** Detect magic, See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: detect magic
+At will: bleed (DC 12), chill touch (DC 13), darkness, spectral hand
+Per day: 3/day: daze monster (DC 14), death knell (DC 14), inflict moderate wounds (DC 14)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Dark folk
+::: statblock
+Ability scores: Str 9, Dex 18, Con 12, Int 10, Wis 11, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Skill Focus (Use Magic Device), Weapon Finesse
+Skills: Climb +3, Perception +4, Spellcraft +7, Stealth +12, Use Magic Device +12
+Racial Modifiers: +4 Climb, +4 Stealth, +4 Perception
+Languages: Dark Folk
+Special qualities: magical knack
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +1
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** kukri +8 (1d3-1/18-20 plus black smear poison)
-
-**Sneak:** +2d6
-
-**Spec Att:** death throes, poison use,, soul harvest
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- bleed (DC 12), chill touch (DC 13), darkness, spectral hand
-
-**Per day:**
-
-- 3/day: daze monster (DC 14), death knell (DC 14), inflict moderate wounds (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 18, Con 12, Int 10, Wis 11, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Skill Focus (Use Magic Device), Weapon Finesse
-
-**Skills:** Climb +3, Perception +4, Spellcraft +7, Stealth +12, Use Magic Device +12
-
-**Racial Modifiers:** +4 Climb, +4 Stealth, +4 Perception
-
-**Languages:** Dark Folk
-
-**Special qualities:** magical knack
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, gang (1 dark slayer and 2-5
-[dark stalkers](ref/monster/dark-folk-dark-stalker)), or clan (20-80
-[dark creepers](ref/monster/dark-folk-dark-creeper) plus 1 dark stalker or dark slayer per 20 dark
-creepers)
-
-**Treasure:** Standard (kukri); 2 doses of [black smear](ref/eq-poison/black-smear), other gear
+::: statblock
+Environment: any underground
+Organization: solitary, gang (1 dark slayer and 2-5 [dark stalkers](ref/monster/dark-folk-dark-stalker)), or clan (20-80 [dark creepers](ref/monster/dark-folk-dark-creeper) plus 1 dark stalker or dark slayer per 20 dark creepers)
+Treasure: Standard (kukri); 2 doses of [black smear](ref/eq-poison/black-smear), other gear
+:::
 
 ### Special Abilities
 

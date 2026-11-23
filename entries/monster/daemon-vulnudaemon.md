@@ -29,97 +29,72 @@ abilities = ["14", "17", "13", "12", "13", "16"]
 _A bloody, tooth-filled mouth that looks almost like a horrific gash gasps in the neck of this pale,
 childlike horror._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: aura of doom (30 ft., DC 18)
+Initiative: +3
+Alignment: Neutral evil
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect good, Detect magic
+Size: small
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**aura:** aura of doom (30 ft., DC 18)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 size
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +5
+Will: +6
+Dr: 5/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Bleed: 1d4
+Melee: short sword +10/+5 (1d4+2/19-20 plus bleed), bite +5 (1d3+1)
+Sneak: +1d6
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+Constant: detect good, detect magic
+Per day: 3/day: blur, death knell (DC 15), invisibility, minor image (DC 15)\
+1/day: inflict critical wounds (DC 17), summon (level 2, 1d4 [cacodaemons](ref/monster/daemon-cacodaemon) 40%)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 17, Con 13, Int 12, Wis 13, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Ability Focus (aura of doom), Combat Casting, Weapon Finesse
+Skills: Bluff +12, Diplomacy +10, Sense Motive +10, Spellcraft +8, Stealth +16
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +6
-
-**Dr:** 5/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d4
-
-**Melee:** short sword +10/+5 (1d4+2/19-20 plus bleed), bite +5 (1d3+1)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**Constant:**
-
-- detect good, detect magic
-
-**Per day:**
-
-- 3/day: blur, death knell (DC 15), invisibility, minor image (DC 15)
-- 1/day: inflict critical wounds (DC 17), summon (level 2, 1d4
-  [cacodaemons](ref/monster/daemon-cacodaemon) 40%)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 13, Int 12, Wis 13, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Ability Focus (aura of doom), Combat Casting, Weapon Finesse
-
-**Skills:** Bluff +12, Diplomacy +10, Sense Motive +10, Spellcraft +8, Stealth +16
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or murder (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or murder (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

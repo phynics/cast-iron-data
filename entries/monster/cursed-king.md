@@ -30,78 +30,61 @@ abilities = ["30", "19", "-", "3", "19", "16"]
 _This desiccated figure wears linen wrappings and tarnished jewelry. Its humanoid body is topped
 with a withered crocodile head._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: demanding aura (30 ft., DC 20, 1d4 rounds)
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 9,600
+:::
 
-**aura:** demanding aura (30 ft., DC 20, 1d4 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +4 Dex, +10 natural
+Hit points: 119 (14d8+56)
+Fort: +9
+Ref: +8
+Will: +13
+Dr: 10/-
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: fire
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: bite +20 (1d8+10/19-20), 2 slams +20 (1d6+10)
+Spec Att: berserk, bestial curse
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 19, Con -, Int 3, Wis 19, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 34
+Feats: Combat Reflexes, Following Step, Great Fortitude, Improved Critical (bite), Power Attack, Step Up, Step Up and Strike, Toughness
+Skills: Perception +12, Stealth +16
+Languages: Abyssal (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +10 natural
-
-**Hit points:** 119 (14d8+56)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +13
-
-**Dr:** 10/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +20 (1d8+10/19-20), 2 slams +20 (1d6+10)
-
-**Spec Att:** berserk, bestial curse
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 19, Con -, Int 3, Wis 19, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Reflexes, Following Step, Great Fortitude, Improved Critical (bite), Power Attack,
-Step Up, Step Up and Strike, Toughness
-
-**Skills:** Perception +12, Stealth +16
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** warm ruins
-
-**Organization:** solitary or court (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm ruins
+Organization: solitary or court (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

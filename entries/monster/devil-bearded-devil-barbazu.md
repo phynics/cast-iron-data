@@ -31,97 +31,72 @@ abilities = ["19", "15", "19", "6", "12", "10"]
 _This seething devil deftly wields a vicious, saw-toothed glaive, while below its toothy maw writhes
 a hideous, twitching beard._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +2 Dex, +7 natural
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +7
+Will: +3
+Dr: 5/good or silver
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: glaive +11/+6 melee (1d10+6 plus infernal wound) or 2 claws +10 melee (1d6+4)
+Reach: 5
+Reach P: 10 ft. with glaive
+Space: 5
+Spec Att: beard
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 3, 1 bearded devil or 6 [lemures](ref/monster/devil-lemure), 50%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 19, Dex 15, Con 19, Int 6, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Improved Initiative, Power Attack, Weapon Focus (glaive)
+Skills: Climb +13, Intimidate +7, Perception +10, Sense Motive +6, Stealth +11
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +7 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +3
-
-**Dr:** 5/good or silver
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** glaive +11/+6 melee (1d10+6 plus infernal wound) or 2 claws +10 melee (1d6+4)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with glaive
-
-**Space:** 5
-
-**Spec Att:** beard
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 3, 1 bearded devil or 6 [lemures](ref/monster/devil-lemure), 50%)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 19, Int 6, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Power Attack, Weapon Focus (glaive)
-
-**Skills:** Climb +13, Intimidate +7, Perception +10, Sense Motive +6, Stealth +11
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, squad (3-10), or troop (10-40)
-
-**Treasure:** Standard (glaive); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, squad (3-10), or troop (10-40)
+Treasure: Standard (glaive); other treasure
+:::
 
 ### Special Abilities
 

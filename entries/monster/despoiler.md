@@ -30,73 +30,59 @@ abilities = ["23", "17", "-", "12", "14", "19"]
 
 _Three spears of obsidian energy skewer this cadaverous figure._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +6 natural
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +8
+Will: +9
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d6+6 plus 1d6 negative energy and [grab](ref/umr/grab))
+Ranged: black shard +10 (4d6 negative energy)
+Spec Att: black shards, embrace of darkness
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 23, Dex 17, Con -, Int 12, Wis 14, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 27
+Feats: Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
+Skills: Climb +19, Intimidate +17, Knowledge (religion) +14, Perception +15, Stealth +16
+Languages: Common, Necril
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +9
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d6+6 plus 1d6 negative energy and [grab](ref/umr/grab))
-
-**Ranged:** black shard +10 (4d6 negative energy)
-
-**Spec Att:** black shards, embrace of darkness
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 17, Con -, Int 12, Wis 14, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
-
-**Skills:** Climb +19, Intimidate +17, Knowledge (religion) +14, Perception +15, Stealth +16
-
-**Languages:** Common, Necril
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cult (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

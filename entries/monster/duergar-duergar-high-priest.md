@@ -29,126 +29,74 @@ special_qualities = "slow and steady, stability"
 abilities = ["13", "10", "14", "8", "20", "12"]
 +++
 
-**Challenge rating:** 12
-
 **Duergar [cleric](ref/class/cleric) 13**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 12
+Type: humanoid
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Perception: +18
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 19,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 31
+Touch: 14
+Flat-footed: 31
+AC modifiers: +9 armor, +4 deflection, +8 natural
+Hit points: 101 (13d8+39)
+Fort: +10
+Ref: +4
+Will: +13; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 20 ft.
+Ch N En: 4/day, DC 17, 7d6
+Melee: +1 heavy mace +12/+7 (1d8+2)
+Ranged: mwk light crossbow +10 (1d8/19-20)
+Sp Extra: _[freedom of movement](ref/spell/freedom-of-movement)_
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +14
+Per day: 1/day: enlarge person, self only, invisibility, self only, ironskin
+:::
 
-**Subtype:** Dwarf
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+At will: charming smile (13 rounds/day, DC 16), master's illusion (13 rounds/day, DC 21)
+Per day: 8/day: copycat, 13 rounds, dazing touch
+:::
 
-**Experience points:** 19,200
-
-**Armor class:** 31
-
-**Touch:** 14
-
-**Flat-footed:** 31
-
-**AC modifiers:** +9 armor, +4 deflection, +8 natural
-
-**Hit points:** 101 (13d8+39)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +13; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 4/day, DC 17, 7d6
-
-**Melee:** +1 heavy mace +12/+7 (1d8+2)
-
-**Ranged:** mwk light crossbow +10 (1d8/19-20)
-
-**Sp Extra:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +14
-
-**Per day:**
-
-- 1/day: enlarge person, self only, invisibility, self only, ironskin
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**At will:**
-
-- charming smile (13 rounds/day, DC 16), master's illusion (13 rounds/day, DC 21)
-
-**Per day:**
-
-- 8/day: copycat, 13 rounds, dazing touch
-
-**Prepared Spells**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**7th-level spells:**
-
-- blasphemy (DC 22), insanity^D^ (DC 22)
-
-**6th-level spells:**
-
-- blade barrier (DC 21), harm (DC 21), mislead^D^ (DC 21)
-
-**5th-level spells:**
-
-- break enchantment (DC 20), breath of life, charm monster^D^ (DC 20), slay living (DC 20), wall of
-  stone (DC 20)
-
-**4th-level spells:**
-
-- cure critical wounds, divine power, freedom of movement, heroism^D^, spell immunity, unholy blight
-  (DC 19)
-
-**3rd-level spells:**
-
-- bestow curse (DC 18), dispel magic, invisibility purge, stone shape, suggestion^D^ (DC 18), wind
-  wall
-
-**2nd-level spells:**
-
-- control vermin (DC 17), hold person (2, DC 17), invisibility^D^, sound burst (DC 17), spiritual
-  weapon
-
-**1st-level spells:**
-
-- bane (DC 16), charm person^D^ (DC 16), cure light wounds, divine favor, doom (DC 16), shield of
-  faith, 2
-
-**Cantrips:**
-
-- detect magic, guidance, resistance, virtue
-
-**Domains:** [Charm](ref/domain/charm), Trickery
+::: statblock
+title = "Prepared Spells"
+Caster level: 13
+Concentration: +18
+7th-level spells: blasphemy (DC 22), insanity^D^ (DC 22)
+6th-level spells: blade barrier (DC 21), harm (DC 21), mislead^D^ (DC 21)
+5th-level spells: break enchantment (DC 20), breath of life, charm monster^D^ (DC 20), slay living (DC 20), wall of stone (DC 20)
+4th-level spells: cure critical wounds, divine power, freedom of movement, heroism^D^, spell immunity, unholy blight (DC 19)
+3rd-level spells: bestow curse (DC 18), dispel magic, invisibility purge, stone shape, suggestion^D^ (DC 18), wind wall
+2nd-level spells: control vermin (DC 17), hold person (2, DC 17), invisibility^D^, sound burst (DC 17), spiritual weapon
+1st-level spells: bane (DC 16), charm person^D^ (DC 16), cure light wounds, divine favor, doom (DC 16), shield of faith, 2
+Cantrips: detect magic, guidance, resistance, virtue
+Domains: [Charm](ref/domain/charm), Trickery
+:::
 
 ###### D {#footnote-d}
 
@@ -166,33 +114,26 @@ _[enlarge person](ref/spell/enlarge-person)_ and enters combat.
 _[shield of faith](ref/spell/shield-of-faith),_ the high priest's statistics are AC 22, touch 11,
 flat-footed 22; Speed no _[freedom of movement](ref/spell/freedom-of-movement)._
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 10, Con 14, Int 8, Wis 20, Cha 12
+::: statblock
+Ability scores: Str 13, Dex 10, Con 14, Int 8, Wis 20, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (25 vs. bull rush or trip)
+Feats: Combat Casting, Gray Dwarf Magic (ironskin), Giant Steps, Innate Flexibility, Tough as Iron, Toughness, Weapon Focus (heavy mace)
+Skills: Knowledge (religion) +8, Perception +18, Spellcraft +9
+Languages: Common, Dwarven, Undercommon
+Special qualities: slow and steady, stability
+Combat gear: scroll of cure critical wounds
+Other gear: +3 chainmail, +1 heavy mace, mwk light crossbow with 20 bolts, Iamu2, Ihbw2, ring of prot1, silver unholy symbol, scp, 321 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (25 vs. bull rush or trip)
-
-**Feats:** Combat Casting, Gray Dwarf Magic (ironskin), Giant Steps, Innate Flexibility, Tough as
-Iron, Toughness, Weapon Focus (heavy mace)
-
-**Skills:** Knowledge (religion) +8, Perception +18, Spellcraft +9
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** slow and steady, stability
-
-**Combat gear:** scroll of cure critical wounds
-
-**Other gear:** +3 chainmail, +1 heavy mace, mwk light crossbow with 20 bolts, Iamu2, Ihbw2, ring of
-prot1, silver unholy symbol, scp, 321 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

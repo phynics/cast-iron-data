@@ -31,92 +31,65 @@ abilities = ["21", "18", "16", "7", "16", "15"]
 _This human-sized, mosquito-like creature has a long, flexible proboscis that ends in a murderous
 stinger._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+aura: stagnation (20 ft., DC 16)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** stagnation (20 ft., DC 16)
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +8
+Will: +8
+Dr: 5/magic
+Fh: 3
+Immune: acid, cold, poison
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 50 ft. (average)
+B Drain: 1d2 Con
+Melee: sting +10 (2d6+7/19-20 plus attach and poison)
+Reach: 10
+Space: 5
+Spec Att: stagnation gaze
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Constant: freedom of movement, pass without trace
+Per day: 1/day: bestow curse (DC 16), blur, contagion (DC 16), diminish plants, gust of wind, hold monster (DC 17)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 5/magic
-
-**Fh:** 3
-
-**Immune:** acid, cold, poison
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 50 ft. (average)
-
-**B Drain:** 1d2 Con
-
-**Melee:** sting +10 (2d6+7/19-20 plus attach and poison)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** stagnation gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Constant:**
-
-- freedom of movement, pass without trace
-
-**Per day:**
-
-- 1/day: bestow curse (DC 16), blur, contagion (DC 16), diminish plants, gust of wind, hold monster
-  (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con 16, Int 7, Wis 16, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+14 to maintain a grapple)
-
-**Combat maneuver defense:** 24 (32 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Lightning Reflexes, Power Attack
-
-**Skills:** Climb +13, Perception +13
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** [no breath](ref/umr/no-breath)
+::: statblock
+Ability scores: Str 21, Dex 18, Con 16, Int 7, Wis 16, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+14 to maintain a grapple)
+Combat maneuver defense: 24 (32 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Lightning Reflexes, Power Attack
+Skills: Climb +13, Perception +13
+Languages: Aklo (can't speak)
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
 ### Special Abilities
 

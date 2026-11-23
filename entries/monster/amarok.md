@@ -30,92 +30,69 @@ abilities = ["30", "21", "22", "15", "23", "16"]
 _This enormous black wolf's eyes gleam with a cunning intellect, and its fangs glow with the light
 of a cold moon._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +5
+Alignment: Lawful neutral
+Type: Magical beast
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision, Scent, See in darkness, True seeing
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 23
+AC modifiers: +5 Dex, +15 natural, -2 size
+Hit points: 172 (15d10+90)
+Fort: +15
+Ref: +14
+Will: +13
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 50 ft.
+Grab: present
+Melee: bite +23 (4d6+15/19-20 plus grab and trip)
+Reach: 10
+Space: 15
+Spec Att: soul bite, trip
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: discern lies, true seeing
+Per day: 3/day: remove curse
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, See in darkness, True seeing
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 30, Dex 21, Con 22, Int 15, Wis 23, Cha 16
+Base attack bonus: +15
+Combat maneuver bonus: +27 (+35 grapple)
+Combat maneuver defense: 42 (44 vs. grapple, 46 vs. trip)
+Feats: Alertness, Cleave, Combat Reflexes, Greater Grapple, Improved Critical (bite), Improved Grapple, Improved Vital Strike, Iron Will, Power Attack, Vital Strike
+Skills: Perception +28
+Racial Modifiers: +4 Stealth
+Languages: Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 Dex, +15 natural, -2 size
-
-**Hit points:** 172 (15d10+90)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +13
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Grab:** present
-
-**Melee:** bite +23 (4d6+15/19-20 plus grab and trip)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** soul bite, trip
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- discern lies, true seeing
-
-**Per day:**
-
-- 3/day: remove curse
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 21, Con 22, Int 15, Wis 23, Cha 16
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27 (+35 grapple)
-
-**Combat maneuver defense:** 42 (44 vs. grapple, 46 vs. trip)
-
-**Feats:** Alertness, Cleave, Combat Reflexes, Greater Grapple, Improved Critical (bite), Improved
-Grapple, Improved Vital Strike, Iron Will, Power Attack, Vital Strike
-
-**Skills:** Perception +28
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** cold forests or tundra
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold forests or tundra
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

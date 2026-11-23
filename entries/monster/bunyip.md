@@ -32,76 +32,60 @@ abilities = ["13", "16", "13", "2", "11", "7"]
 _A disturbing combination of shark and seal, this brown-furred creature has a wide mouth filled with
 razor-sharp teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+keenScent: 180
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**keenScent:** 180
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 32 (5d10+5)
+Fort: +5
+Ref: +7
+Will: +1
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., swim 50 ft.
+Bleed: 1d6
+Melee: bite +7 (1d8+1/19-20 plus bleed)
+Spec Att: blood frenzy, roar
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 13, Dex 16, Con 13, Int 2, Wis 11, Cha 7
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Improved Critical (bite), Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Escape Artist +5, Perception +8, Stealth +10, Swim +9
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 50 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +7 (1d8+1/19-20 plus bleed)
-
-**Spec Att:** blood frenzy, roar
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 13, Int 2, Wis 11, Cha 7
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Critical (bite), Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus
-(bite)
-
-**Skills:** Escape Artist +5, Perception +8, Stealth +10, Swim +9
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,88 +31,68 @@ abilities = ["11", "17", "14", "9", "10", "8"]
 _Filthy, reeking black rags wrap this small humanoid from head to toe, leaving only its hands and
 pale white nose visible._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +3
+Perception: +4
+Senses: See in darkness
+Size: small
+Subtype: Dark folk
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +6
+Will: +1
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: dagger +6 (1d3/19-20 plus poison)
+Sneak: +1d6
+Spec Att: death throes
+:::
 
-**Senses:** See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+At will: darkness, detect magic
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Dark folk
+::: statblock
+Ability scores: Str 11, Dex 17, Con 14, Int 9, Wis 10, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Skill Focus (Sleight of Hand), Weapon Finesse
+Skills: Climb +8, Perception +4, Sleight of Hand +7, Stealth +12
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Dark Folk
+Special qualities: poison use, rag armor
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +1
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +6 (1d3/19-20 plus poison)
-
-**Sneak:** +1d6
-
-**Spec Att:** death throes
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**At will:**
-
-- darkness, detect magic
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 17, Con 14, Int 9, Wis 10, Cha 8
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Skill Focus (Sleight of Hand), Weapon Finesse
-
-**Skills:** Climb +8, Perception +4, Sleight of Hand +7, Stealth +12
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Dark Folk
-
-**Special qualities:** poison use, rag armor
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, gang (3-6), or clan (20-80 plus 1
-[dark stalker](ref/monster/dark-folk-dark-stalker) per 20 dark creepers)
-
-**Treasure:** Standard (dagger); 3 doses of [black smear](ref/eq-poison/black-smear), other gear
+::: statblock
+Environment: any underground
+Organization: solitary, pair, gang (3-6), or clan (20-80 plus 1 [dark stalker](ref/monster/dark-folk-dark-stalker) per 20 dark creepers)
+Treasure: Standard (dagger); 3 doses of [black smear](ref/eq-poison/black-smear), other gear
+:::
 
 ### Special Abilities
 

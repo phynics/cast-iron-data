@@ -31,99 +31,73 @@ abilities = ["8", "13", "10", "17", "16", "10"]
 
 _This humanoid appears to be made of darkness, and has no discernible ears, eyes, mouth, or nose._
 
-**Challenge rating:** 1/2
-
 **Astomoi [psychic](ref/class/psychic) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Scent, Telepathic senses
+Subtype: Astomoi
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 13
+AC modifiers: +1 Dex, +3 Wis
+Hit points: 7 (1d6+1)
+Fort: +0
+Ref: +1
+Will: +5; -2 vs. disease and inhaled poison
+Immune: ingested poisons
+Weaknesses: sensitive breath
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Melee: dagger -1 (1d4-1/19-20)
+Push: +3, 3/day
+Spec Att: phrenic amplification ([conjured armor](ref/phrenicamp/conjured-armor)), phrenic pool (3 points), physical [push](ref/umr/push) (+3, 3/day)
+:::
 
-**Senses:** Darkvision 60 ft., Scent, Telepathic senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: expeditious retreat, mind thrust I (DC 14), summon monster I
+Cantrips: At will: daze (DC 13), flare (DC 13), grave words, telekinetic projectile
+Psychic Discipline: [self-perfection](ref/discipline/self-perfection)
+:::
 
-**Subtype:** Astomoi
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 8, Dex 13, Con 10, Int 17, Wis 16, Cha 10
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 13
+Feats: Combat Casting
+Skills: Diplomacy +4, Spellcraft +7
+Languages: Celestial (can't speak), Common (can't speak), Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: mouthless
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +3 Wis
-
-**Hit points:** 7 (1d6+1)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +5; -2 vs. disease and inhaled poison
-
-**Immune:** ingested poisons
-
-**Weaknesses:** sensitive breath
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger -1 (1d4-1/19-20)
-
-**Push:** +3, 3/day
-
-**Spec Att:** phrenic amplification ([conjured armor](ref/phrenicamp/conjured-armor)), phrenic pool
-(3 points), physical [push](ref/umr/push) (+3, 3/day)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: expeditious retreat, mind thrust I (DC 14), summon monster I
-
-**Cantrips:**
-
-- At will: daze (DC 13), flare (DC 13), grave words, telekinetic projectile
-
-**Psychic Discipline:** [self-perfection](ref/discipline/self-perfection)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 10, Int 17, Wis 16, Cha 10
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Combat Casting
-
-**Skills:** Diplomacy +4, Spellcraft +7
-
-**Languages:** Celestial (can't speak), Common (can't speak), Sylvan (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** mouthless
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or convent (6-20)
-
-**Treasure:** NPC gear (dagger); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or convent (6-20)
+Treasure: NPC gear (dagger); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,94 +32,73 @@ abilities = ["17", "22", "-", "-", "18", "1"]
 _This four-armed clockwork construct has a glowing crystal globe as a head and a shining crystal set
 into its chest._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +10
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 25
+Touch: 18
+Flat-footed: 17
+AC modifiers: +6 Dex, +2 dodge, +7 natural
+Hit points: 119 (18d10+20)
+Fort: +6
+Ref: +14
+Will: +10
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 4 slams +21 (1d4+3)
+Spec Att: domain magic
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +6
+At will: animate rope, cure light wounds
+Per day: 3/day: cure moderate wounds, wood shape (DC 16)\
+1/day: cure serious wounds, stone shape
+Domain: Artifice
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 18
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 Dex, +2 dodge, +7 natural
-
-**Hit points:** 119 (18d10+20)
-
-**Fort:** +6
-
-**Ref:** +14
-
-**Will:** +10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 4 slams +21 (1d4+3)
-
-**Spec Att:** domain magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +6
-
-**At will:**
-
-- animate rope, cure light wounds
-
-**Per day:**
-
-- 3/day: cure moderate wounds, wood shape (DC 16)
-- 1/day: cure serious wounds, stone shape
-
-**Domain:** Artifice
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 22, Con -, Int -, Wis 18, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 39
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Special qualities:** difficult to create, swift reactions, winding
+::: statblock
+Ability scores: Str 17, Dex 22, Con -, Int -, Wis 18, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +21
+Combat maneuver defense: 39
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Special qualities: difficult to create, swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or clergy (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or clergy (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

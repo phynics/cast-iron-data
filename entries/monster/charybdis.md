@@ -31,88 +31,66 @@ abilities = ["34", "9", "25", "4", "19", "6"]
 _An immense spiny monster, its back plated in chitin and its belly in thick folds of blubber, rises
 hungrily from the center of a whirlpool._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+blindsight: 60
+Alignment: Chaotic neutral
+Size: gargantuan
+Initiative: +3
+Perception: +23
+Senses: Darkvision 120 ft.
+Subtype: Aquatic
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 28
+Touch: 5
+Flat-footed: 28
+AC modifiers: -1 Dex, +23 natural, -4 size
+Hit points: 184 (16d8+112)
+Fort: +12
+Ref: +6
+Will: +14
+Fh: 10
+Immune: acid
+Resist: cold 20
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 20 ft., swim 50 ft.
+F Swallow: present
+Melee: bite +20 (2d8+12/19-20 plus [grab](ref/umr/grab)), 2 claws +20 (2d6+12)
+Reach: 20
+Space: 20
+Spec Att: rending claws, vortex
+Swallow: 6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18
+:::
 
-**Initiative:** +3
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str 34, Dex 9, Con 25, Int 4, Wis 19, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Perception +23, Swim +20
+Languages: Aquan
+:::
 
-**Senses:** Darkvision 120 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 5
-
-**Flat-footed:** 28
-
-**AC modifiers:** -1 Dex, +23 natural, -4 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +12
-
-**Ref:** +6
-
-**Will:** +14
-
-**Fh:** 10
-
-**Immune:** acid
-
-**Resist:** cold 20
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +20 (2d8+12/19-20 plus [grab](ref/umr/grab)), 2 claws +20 (2d6+12)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** rending claws, vortex
-
-**Swallow:** 6d6 bludgeoning damage plus 6d6 acid damage, AC 21, hp 18
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 9, Con 25, Int 4, Wis 19, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved
-Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Perception +23, Swim +20
-
-**Languages:** Aquan
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

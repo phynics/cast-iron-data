@@ -29,67 +29,56 @@ abilities = ["23", "10", "17", "2", "13", "8"]
 _The back of this horse-sized boar rises in a steep slope. Its tiny red eyes are crusted with filth
 and its bristly flank crawls with flies._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: +6 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +7
+Ref: +4
+Will: +2
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +8 (2d6+9)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 10, Con 17, Int 2, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 20
+Feats: Improved Initiative, Skill Focus (Perception), Toughness
+Skills: Perception +12
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +2
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +8 (2d6+9)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 17, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20
-
-**Feats:** Improved Initiative, Skill Focus (Perception), Toughness
-
-**Skills:** Perception +12
-
-**Ecology**
-
-**Environment:** temperate or tropical forests
-
-**Organization:** solitary, pair, or herd (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical forests
+Organization: solitary, pair, or herd (3-8)
+Treasure: None
+:::
 
 ### Description
 

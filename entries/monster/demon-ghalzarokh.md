@@ -30,111 +30,77 @@ abilities = ["25", "16", "22", "16", "25", "22"]
 _This corpulent, four-armed fiend is covered in yellow-orange dragon scales, and draconic wings
 sprout from its back._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: outsider
+Perception: +37
+Senses: Darkvision 60 ft., Scent, See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 27
+AC modifiers: +3 Dex, +18 natural, -1 size
+Hit points: 218 (19d10+114)
+Fort: +17
+Ref: +11
+Will: +18
+Dr: 10/cold iron and good
+Immune: electricity, fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft., fly 50 ft. (poor)
+Br Weap: 30-foot cone, once every 1d4 rounds, 10d6 acid and 10d6 fire, Reflex DC 25 half
+Melee: bite +25 (1d8+7), 4 claws +25 (2d4+7/19-20)
+Reach: 10
+Rend: 2 claws, 2d4+10
+Space: 10
+Spec Att: project blame
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: see invisibility
+At will: charm monster (DC 20), greater command (DC 21)
+Per day: 3/day: dominate person (DC 21), quickened fireball (DC 19), rage (DC 19), song of discord (DC 21)\
+1/day: demand (DC 24), mass suggestion (DC 22), summon (level 6, 1 succubus 35%)
+:::
 
-**Senses:** Darkvision 60 ft., Scent, See invisibility
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 25, Dex 16, Con 22, Int 16, Wis 25, Cha 22
+Base attack bonus: +19
+Combat maneuver bonus: +27
+Combat maneuver defense: 40
+Feats: Combat Reflexes, Critical Focus, Hover, Improved Critical (claw), Intimidating Prowess, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (fireball), Staggering Critical, Wingover
+Skills: Bluff +28, Fly +19, Intimidate +35, Knowledge (arcana, planes) +25, Perception +37, Sense Motive +29, Spellcraft +25, Stealth +21
+Racial Modifiers: +8 Perception
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft., _truespeech_
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +3 Dex, +18 natural, -1 size
-
-**Hit points:** 218 (19d10+114)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +18
-
-**Dr:** 10/cold iron and good
-
-**Immune:** electricity, fire, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., fly 50 ft. (poor)
-
-**Br Weap:** 30-foot cone, once every 1d4 rounds, 10d6 acid and 10d6 fire, Reflex DC 25 half
-
-**Melee:** bite +25 (1d8+7), 4 claws +25 (2d4+7/19-20)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 2d4+10
-
-**Space:** 10
-
-**Spec Att:** project blame
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- charm monster (DC 20), greater command (DC 21)
-
-**Per day:**
-
-- 3/day: dominate person (DC 21), quickened fireball (DC 19), rage (DC 19), song of discord (DC 21)
-- 1/day: demand (DC 24), mass suggestion (DC 22), summon (level 6, 1 succubus 35%)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 22, Int 16, Wis 25, Cha 22
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 40
-
-**Feats:** Combat Reflexes, Critical Focus, Hover, Improved Critical (claw), Intimidating Prowess,
-Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(fireball), Staggering Critical, Wingover
-
-**Skills:** Bluff +28, Fly +19, Intimidate +35, Knowledge (arcana, planes) +25, Perception +37,
-Sense Motive +29, Spellcraft +25, Stealth +21
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft., _truespeech_
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or trio
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or trio
+Treasure: Double
+:::
 
 ### Special Abilities
 

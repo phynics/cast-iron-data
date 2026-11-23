@@ -28,90 +28,69 @@ abilities = ["18", "31", "16", "11", "20", "19"]
 
 _This sleek and graceful doe possesses long, metallic antlers and a shiny, golden pelt._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +18
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent, See invisibility
+Experience points: 3,200
+:::
 
-**Initiative:** +18
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 24
+Flat-footed: 14
+AC modifiers: +10 Dex, +1 dodge, +1 natural, +4 sacred, -1 size
+Hit points: 76 (9d10+27)
+Fort: +9
+Ref: +16
+Will: +8
+Defensive abilities: freedom, sacred grace, unearthly speed
+Fh: 5
+Uncanny dodge: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 180 ft.
+Melee: gore +12 (1d8+6)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+Constant: see invisibility, speak with animals
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 18, Dex 31, Con 16, Int 11, Wis 20, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 39 (43 vs. trip)
+Feats: Dodge, Improved Initiative, Lightning Stance, Mobility, Run, Wind Stance
+Skills: Acrobatics +16 (+76 when jumping), Escape Artist +21, Knowledge (religion) +5, Perception +17
+Racial Modifiers: +60 Acrobatics when jumping, +10 Escape Artist, +4 Knowledge (religion)
+Languages: Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 24
-
-**Flat-footed:** 14
-
-**AC modifiers:** +10 Dex, +1 dodge, +1 natural, +4 sacred, -1 size
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +9
-
-**Ref:** +16
-
-**Will:** +8
-
-**Defensive abilities:** freedom, sacred grace, unearthly speed
-
-**Fh:** 5
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 180 ft.
-
-**Melee:** gore +12 (1d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**Constant:**
-
-- see invisibility, speak with animals
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 31, Con 16, Int 11, Wis 20, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 39 (43 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Lightning Stance, Mobility, Run, Wind Stance
-
-**Skills:** Acrobatics +16 (+76 when jumping), Escape Artist +21, Knowledge (religion) +5,
-Perception +17
-
-**Racial Modifiers:** +60 Acrobatics when jumping, +10 Escape Artist, +4 Knowledge (religion)
-
-**Languages:** Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** any plains, hills, or forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental; horns and pelt
+::: statblock
+Environment: any plains, hills, or forests
+Organization: solitary
+Treasure: Incidental; horns and pelt
+:::
 
 ### Special Abilities
 

@@ -33,95 +33,72 @@ abilities = ["44", "15", "33", "6", "16", "8"]
 _Towering nearly 40 feet tall, this monster bellows a horrid war cry as blood vessels bloom crimson
 in his single, rage-filled eye._
 
-**Challenge rating:** 18
-
 **Barbarian 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 18
+Alignment: Chaotic evil
+Size: huge
+Type: humanoid
+Initiative: +2
+Perception: +23
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 153,600
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 25
+Touch: 8
+Flat-footed: 23
+AC modifiers: +4 armor, +2 Dex, +13 natural, -2 rage, -2 size
+Hit points: 368 (17d8+6d12+253\~23)
+Fort: +21
+Ref: +11
+Will: +19
+Improved uncanny dodge: present
+Trap S: +2
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +23
-
-**Senses:** Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 153,600
-
-**Armor class:** 25
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +2 Dex, +13 natural, -2 rage, -2 size
-
-**Hit points:** 368 (17d8+6d12+253\~23)
-
-**Fort:** +21
-
-**Ref:** +11
-
-**Will:** +19
-
-**Improved uncanny dodge:** present
-
-**Trap S:** +2
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** mwk Huge greatclub +35/+30/+25/+20 (3d8+25), gore +33 (1d8+8) or gore +33 (1d8+17), 2
-slams +33 (2d6+17)
-
-**Pow Ch:** gore, 4d8+24
-
-**Ranged:** rock +18 (2d6+19)
-
-**Reach:** 15
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spec Att:** rage (23 rounds/day), rage powers ([knockback](ref/ragepower/knockback),
-[night vision](ref/ragepower/night-vision), [quick reflexes](ref/ragepower/quick-reflexes))
+::: statblock
+Speed: 60 ft.
+Melee: mwk Huge greatclub +35/+30/+25/+20 (3d8+25), gore +33 (1d8+8) or gore +33 (1d8+17), 2 slams +33 (2d6+17)
+Pow Ch: gore, 4d8+24
+Ranged: rock +18 (2d6+19)
+Reach: 15
+Rock Th: 120 ft.
+Space: 15
+Spec Att: rage (23 rounds/day), rage powers ([knockback](ref/ragepower/knockback), [night vision](ref/ragepower/night-vision), [quick reflexes](ref/ragepower/quick-reflexes))
+:::
 
 ### Tactics
 
 **Base Statistics** When not _raging,_ the barbarian's statistics are AC 27, touch 10, flat-footed
 25; hp 322; Fort +19, Will +17; Str 40, Con 29; CMB 35, CMD 47; Skills Climb +21.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 44, Dex 15, Con 33, Int 6, Wis 16, Cha 8
+::: statblock
+Ability scores: Str 44, Dex 15, Con 33, Int 6, Wis 16, Cha 8
+Base attack bonus: +18
+Combat maneuver bonus: +37
+Combat maneuver defense: 47
+Feats: Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (greatclub)
+Skills: Climb +23, Intimidate +14, Perception +23
+Special qualities: fast movement, flash of brutality
+:::
 
-**Base attack bonus:** +18
+### Ecology
 
-**Combat maneuver bonus:** +37
-
-**Combat maneuver defense:** 47
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Diehard, Endurance, Improved Bull Rush, Iron Will,
-Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (greatclub)
-
-**Skills:** Climb +23, Intimidate +14, Perception +23
-
-**Special qualities:** fast movement, flash of brutality
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk greatclub, Ah); other treasure
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary
+Treasure: Standard (mwk greatclub, Ah); other treasure
+:::
 
 ### Special Abilities
 

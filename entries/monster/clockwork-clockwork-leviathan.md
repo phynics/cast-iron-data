@@ -32,91 +32,70 @@ abilities = ["33", "18", "-", "-", "11", "1"]
 _Long and metallic, this serpentine construction resembles a mechanical eel with several paddle-like
 limbs._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Size: huge
+Initiative: +8
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +2 dodge, +14 natural, -2 size
+Hit points: 128 (16d10+40)
+Fort: +5
+Ref: +11
+Will: +5
+Dr: 10/adamantine
+Immune: fire, [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Br Weap: 60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day
+Melee: bite +25 (2d6+11 plus [grab](ref/umr/grab)), 2 slam +25 (1d8+11 plus grab)
+Reach: 15
+Space: 15
+Spec Att: grind
+Swallow: 2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Clockwork
-
-**Experience points:** 19,200
-
-**Armor class:** 28
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +2 dodge, +14 natural, -2 size
-
-**Hit points:** 128 (16d10+40)
-
-**Fort:** +5
-
-**Ref:** +11
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** fire, [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Br Weap:** 60-ft. line, 12d8 fire damage, DC 18 for half, usable every 1d4 rounds, 3/day
-
-**Melee:** bite +25 (2d6+11 plus [grab](ref/umr/grab)), 2 slam +25 (1d8+11 plus grab)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** grind
-
-**Swallow:** 2d8+16 slashing damage plus 2d6 fire damage, AC 17, 12 hp
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 18, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 45 (can't be tripped)
-
-**Feats:** Improved Initiative^B^, Lightning Reflexes^B^
-
-**Skills:** Stealth +8 (+12 in water), Swim +19
-
-**Racial Modifiers:** +12 Stealth (+16 in water)
-
-**Special qualities:** swift reactions, winding
+::: statblock
+Ability scores: Str 33, Dex 18, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 45 (can't be tripped)
+Feats: Improved Initiative^B^, Lightning Reflexes^B^
+Skills: Stealth +8 (+12 in water), Swim +19
+Racial Modifiers: +12 Stealth (+16 in water)
+Special qualities: swift reactions, winding
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or pod (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pod (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

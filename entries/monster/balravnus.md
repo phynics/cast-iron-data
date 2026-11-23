@@ -33,105 +33,72 @@ _This lumbering toad-like demon wields a blood-soaked halberd in its powerful ha
 hands is clad in a rusting jagged gauntlet, while on the beast's misshapen head perches a leering
 helm made of greasy green metal._
 
-**Challenge rating:** 18
-
 **Male hezrou [barbarian](ref/class/barbarian) 7**
 
-**aura:** [stench](ref/umr/stench) (DC 24, 10 rounds)
+::: statblock
+Challenge rating: 18
+aura: [stench](ref/umr/stench) (DC 24, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Chaotic, Demon, Evil, Extraplanar
+Experience points: 153,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 33
+Touch: 9
+Flat-footed: 31
+AC modifiers: +8 armor, +2 Dex, +16 natural, -2 rage, -1 size
+Hit points: 300 (10d10+7d12+194\~17)
+Fort: +23
+Ref: +9
+Will: +14; +2 vs. traps
+Dr: 10/good, 1/-
+Immune: electricity, poison
+Improved uncanny dodge: present
+Resist: acid 10, cold 10, fire 10
+Sr: 29
+Trap S: +2
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., swim 30 ft.
+Melee: +2 wounding halberd +29/+24/+19/+14 (2d8+18/19-20/×3), bite +22 (4d4+5)
+Reach: 10
+Space: 10
+Spec Att: nausea, rage (25 rounds/day), rage powers ([moment of clarity](ref/ragepower/moment-of-clarity), [quick reflexes](ref/ragepower/quick-reflexes), [strength surge](ref/ragepower/strength-surge) +7)
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +19
+At will: chaos hammer (DC 20), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 20)
+Per day: 3/day: gaseous form\
+1/day: blasphemy (DC 23), summon (level 4, 1 hezrou 35%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 9
-
-**Flat-footed:** 31
-
-**AC modifiers:** +8 armor, +2 Dex, +16 natural, -2 rage, -1 size
-
-**Hit points:** 300 (10d10+7d12+194\~17)
-
-**Fort:** +23
-
-**Ref:** +9
-
-**Will:** +14; +2 vs. traps
-
-**Dr:** 10/good, 1/-
-
-**Immune:** electricity, poison
-
-**Improved uncanny dodge:** present
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 29
-
-**Trap S:** +2
-
-**Offense**
-
-**Speed:** 40 ft., swim 30 ft.
-
-**Melee:** +2 wounding halberd +29/+24/+19/+14 (2d8+18/19-20/×3), bite +22 (4d4+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** nausea, rage (25 rounds/day), rage powers
-([moment of clarity](ref/ragepower/moment-of-clarity),
-[quick reflexes](ref/ragepower/quick-reflexes), [strength surge](ref/ragepower/strength-surge) +7)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +19
-
-**At will:**
-
-- chaos hammer (DC 20), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 20)
-
-**Per day:**
-
-- 3/day: gaseous form
-- 1/day: blasphemy (DC 23), summon (level 4, 1 hezrou 35%)
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 15, Con 32, Int 14, Wis 16, Cha 22
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 39
-
-**Feats:** Bleeding Critical, Blind-Fight, Critical Focus, Improved Critical (halberd), Improved
-Initiative, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Climb +31
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), fast movement
-
-**Gear:** +5 studded leather armor, +2 W halberd, I-gauntlet of rust, I-helm of telepathy
+::: statblock
+Ability scores: Str 33, Dex 15, Con 32, Int 14, Wis 16, Cha 22
+Base attack bonus: +17
+Combat maneuver bonus: +29
+Combat maneuver defense: 39
+Feats: Bleeding Critical, Blind-Fight, Critical Focus, Improved Critical (halberd), Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +31
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), fast movement
+Gear: +5 studded leather armor, +2 W halberd, I-gauntlet of rust, I-helm of telepathy
+:::
 
 ### Description
 

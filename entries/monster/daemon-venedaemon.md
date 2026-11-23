@@ -33,124 +33,82 @@ abilities = ["13", "15", "16", "22", "16", "17"]
 _Tentacles protrude from the robes of this floating hooded figure in place of arms and legs. Its
 face is a disturbing, toothless maw._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +12
+Senses: Arcane sight, Darkvision 60 ft.
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +7
+Will: +8
+Dr: 5/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 16
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Melee: 4 tentacles +8 (1d6+1)
+Spec Att: swallow soul
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+Constant: arcane sight
+At will: command cacodaemon (DC 18)
+Per day: 3/day: dimension door, dispel magic, slow (DC 16)\
+1/day: summon (level 3, 1 venedaemon 50% or 2d4 [cacodaemons](ref/monster/daemon-cacodaemon) 70%)
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft.
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +9
+3rd-level spells: 4/day: hold person (DC 16)
+2nd-level spells: 6/day: invisibility, scorching ray
+1st-level spells: 7/day: charm person (DC 14), mage armor, magic missile, shield
+Cantrips: At will: acid splash, arcane mark, bleed (DC 13), mage hand, prestidigitation, ray of frost, read magic
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 13, Dex 15, Con 16, Int 22, Wis 16, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Arcane Strike, Combat Casting, Eschew Materials, Weapon Finesse
+Skills: Bluff +12, Disguise +12, Sense Motive +12, Spellcraft +15, Stealth +11, Use Magic Device +12
+Languages: Abyssal, Aklo, Aquan, Auran, Common, Draconic, Ignan, Infernal, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +8
-
-**Dr:** 5/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Melee:** 4 tentacles +8 (1d6+1)
-
-**Spec Att:** swallow soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**Constant:**
-
-- arcane sight
-
-**At will:**
-
-- command cacodaemon (DC 18)
-
-**Per day:**
-
-- 3/day: dimension door, dispel magic, slow (DC 16)
-- 1/day: summon (level 3, 1 venedaemon 50% or 2d4 [cacodaemons](ref/monster/daemon-cacodaemon) 70%)
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- 4/day: hold person (DC 16)
-
-**2nd-level spells:**
-
-- 6/day: invisibility, scorching ray
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 14), mage armor, magic missile, shield
-
-**Cantrips:**
-
-- At will: acid splash, arcane mark, bleed (DC 13), mage hand, prestidigitation, ray of frost, read
-  magic
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 15, Con 16, Int 22, Wis 16, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Arcane Strike, Combat Casting, Eschew Materials, Weapon Finesse
-
-**Skills:** Bluff +12, Disguise +12, Sense Motive +12, Spellcraft +15, Stealth +11, Use Magic Device
-+12
-
-**Languages:** Abyssal, Aklo, Aquan, Auran, Common, Draconic, Ignan, Infernal, Terran;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or cabal (3-6 plus 2-12
-[cacodaemons](ref/monster/daemon-cacodaemon))
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or cabal (3-6 plus 2-12 [cacodaemons](ref/monster/daemon-cacodaemon))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

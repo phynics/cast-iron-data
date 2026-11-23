@@ -27,79 +27,61 @@ special_attacks = "corrosiove slime~viscous (DC 15)"
 abilities = ["16", "1", "19", "-", "1", "1"]
 +++
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Swarm
+Size: tiny
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -5 Dex, +2 size
+Hit points: 25 (3d8+12)
+Fort: +5
+Ref: -4
+Will: -4
+Immune: [ooze traits](ref/umr/ooze-traits), swarm traits
+Resist: acid 5
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft.
+Distraction: 15
+Melee: swarm (1 plus 1d4 acid and viscous)
+Reach: 0
+Space: 10
+Spec Att: corrosiove slime, viscous (DC 15)
+:::
 
-**Perception:** -5
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 16, Dex 1, Con 19, Int -, Wis 1, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: -5
+Combat maneuver defense: 8
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -5 Dex, +2 size
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +5
-
-**Ref:** -4
-
-**Will:** -4
-
-**Immune:** [ooze traits](ref/umr/ooze-traits), swarm traits
-
-**Resist:** acid 5
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Distraction:** 15
-
-**Melee:** swarm (1 plus 1d4 acid and viscous)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** corrosiove slime, viscous (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 19, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -5
-
-**Combat maneuver defense:** 8
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, mass (3-7), or sludge (3-5
-[melancholic ooze swarms](ref/monster/alchemical-ooze-swarm-melancholic-ooze-swarm) and 2-4 choleric
-ooze swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, mass (3-7), or sludge (3-5 [melancholic ooze swarms](ref/monster/alchemical-ooze-swarm-melancholic-ooze-swarm) and 2-4 choleric ooze swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

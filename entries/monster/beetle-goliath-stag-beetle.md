@@ -29,71 +29,58 @@ abilities = ["32", "10", "21", "-", "10", "4"]
 _This massive beetle is the size of a small house. Its immense, horn-like mandibles clash with a
 hungry fervor._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +13 natural, -2 size
+Hit points: 104 (11d8+55)
+Fort: +12
+Ref: +3
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., fly 30 ft. (poor)
+Melee: bite +17 (3d8+16)
+Reach: 10
+Space: 15
+Trample: 3d8+16, DC 26
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 32, Dex 10, Con 21, Int -, Wis 10, Cha 4
+Base attack bonus: +8
+Combat maneuver bonus: +21
+Combat maneuver defense: 31 (39 vs. trip)
+Skills: Fly -8
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +13 natural, -2 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (poor)
-
-**Melee:** bite +17 (3d8+16)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Trample:** 3d8+16, DC 26
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 10, Con 21, Int -, Wis 10, Cha 4
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 31 (39 vs. trip)
-
-**Skills:** Fly -8
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or herd (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or herd (3-8)
+Treasure: None
+:::
 
 ### Description
 

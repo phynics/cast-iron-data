@@ -31,85 +31,66 @@ abilities = ["18", "13", "12", "13", "14", "13"]
 _This grayish humanoid creature seems almost unfinished, with a narrow head, gaunt limbs, and a
 sinister, noseless face._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +1 Dex, +1 dodge, +4 natural
+Hit points: 26 (4d10+4)
+Fort: +4
+Ref: +5
+Will: +6
+Immune: charm, sleep
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +8 (1d8+4)
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+At will: detect thoughts (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 13, Con 12, Int 13, Wis 14, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Dodge, Great Fortitude
+Skills: Bluff +9 (+13 while using change shape ability), Diplomacy +4, Disguise +9 (+29 while using change shape ability), Sense Motive +6, Stealth +5
+Racial Modifiers: +4 Bluff, +4 Disguise
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self)), mimicry, perfect copy
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +1 dodge, +4 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +6
-
-**Immune:** charm, sleep
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +8 (1d8+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**At will:**
-
-- detect thoughts (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 12, Int 13, Wis 14, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Dodge, Great Fortitude
-
-**Skills:** Bluff +9 (+13 while using change shape ability), Diplomacy +4, Disguise +9 (+29 while
-using change shape ability), Sense Motive +6, Stealth +5
-
-**Racial Modifiers:** +4 Bluff, +4 Disguise
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([alter self](ref/spell/alter-self)),
-mimicry, perfect copy
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** NPC gear
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-6)
+Treasure: NPC gear
+:::
 
 ### Special Abilities
 

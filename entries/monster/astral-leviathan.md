@@ -31,101 +31,74 @@ abilities = ["35", "14", "31", "6", "15", "14"]
 _Above this brobdingnagian, whale-like creature's cavernous maw of freakish teeth, multiple eyes
 peer out in different directions._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsight: 180
+Size: colossal
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +31
+Senses: Astral locating, Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 153,600
+:::
 
-**blindsight:** 180
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 34
+Touch: 4
+Flat-footed: 32
+AC modifiers: +2 Dex, +30 natural, -8 size
+Hit points: 310 (20d10+200)
+Fort: +24
+Ref: +8
+Will: +16
+Dr: 10/adamantine
+Immune: cold
+Regen: 5 (acid and fire)
+Resist: electricity 30, fire 30
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 90 ft. (average)
+F Swallow: present
+Melee: bite +24 (4d6+12/19-20 plus [grab](ref/umr/grab)), 2 slams +24 (2d8+12), tail slap +19 (4d6+6)
+Reach: 30
+Space: 30
+Spec Att: gulping tide
+Swallow: 4d6+18 damage, AC 25, 31 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +22
+Per day: 3/day: dimension door
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Astral locating, Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 35, Dex 14, Con 31, Int 6, Wis 15, Cha 14
+Base attack bonus: +20
+Combat maneuver bonus: +40 (+42 bull rush, +44 grapple)
+Combat maneuver defense: 52 (54 vs. bull rush, can't be tripped)
+Feats: Blind-Fight, Cleave, Combat Reflexes, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Fly -6, Intimidate +22, Knowledge (planes) +21, Perception +31
+Languages: telepathy 30 ft.
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 34
-
-**Touch:** 4
-
-**Flat-footed:** 32
-
-**AC modifiers:** +2 Dex, +30 natural, -8 size
-
-**Hit points:** 310 (20d10+200)
-
-**Fort:** +24
-
-**Ref:** +8
-
-**Will:** +16
-
-**Dr:** 10/adamantine
-
-**Immune:** cold
-
-**Regen:** 5 (acid and fire)
-
-**Resist:** electricity 30, fire 30
-
-**Offense**
-
-**Speed:** fly 90 ft. (average)
-
-**F Swallow:** present
-
-**Melee:** bite +24 (4d6+12/19-20 plus [grab](ref/umr/grab)), 2 slams +24 (2d8+12), tail slap +19
-(4d6+6)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** gulping tide
-
-**Swallow:** 4d6+18 damage, AC 25, 31 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: dimension door
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 14, Con 31, Int 6, Wis 15, Cha 14
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +40 (+42 bull rush, +44 grapple)
-
-**Combat maneuver defense:** 52 (54 vs. bull rush, can't be tripped)
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Great Fortitude, Improved Bull Rush, Improved
-Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception)
-
-**Skills:** Fly -6, Intimidate +22, Knowledge (planes) +21, Perception +31
-
-**Languages:** telepathy 30 ft.
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary or pod (2-5 plus 1-2 young)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary or pod (2-5 plus 1-2 young)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

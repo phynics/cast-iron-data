@@ -31,77 +31,61 @@ abilities = ["1", "1", "10", "-", "1", "1"]
 _Thousands of tiny gelatinous clots of animate ooze swarm in a wet mound, surrounded by a cloying
 stink of rancid vinegar._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 30
+Size: fine
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Swarm
+Experience points: 400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 13
+AC modifiers: -5 Dex, +8 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: -5
+Will: -5
+Defensive abilities: ooze and swarm traits
+Immune: weapon damage
+:::
 
-**Initiative:** -5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 20 ft.
+Distraction: 11
+Melee: swarm (1d6 acid plus distraction)
+Reach: 0
+Space: 10
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 1, Dex 1, Con 10, Int -, Wis 1, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +3
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** -5 Dex, +8 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** -5
-
-**Will:** -5
-
-**Defensive abilities:** ooze and swarm traits
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 20 ft.
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6 acid plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 1, Con 10, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +3
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or colony (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary or colony (2-5)
+Treasure: None
+:::
 
 ### Description
 

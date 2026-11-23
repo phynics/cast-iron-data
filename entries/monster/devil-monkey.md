@@ -30,76 +30,60 @@ abilities = ["31", "17", "16", "2", "15", "10"]
 _This towering baboon has fiery orange fur, with two tufts of hair curling up like horns on its
 head._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 16
+AC modifiers: +3 Dex, +8 natural, -2 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +9
+Will: +5
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +15 (2d8+15 plus puncture armor)
+Ranged: rock +8 (1d8+10)
+Reach: 15
+Rock Th: 30 ft.
+Space: 15
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 17, Con 16, Int 2, Wis 15, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +18
+Combat maneuver defense: 31
+Feats: Dazzling Display, Improved Initiative, Intimidating Prowess, Power Attack, Weapon Focus (bite)
+Skills: Acrobatics +13, Climb +14, Intimidate +13, Perception +8
+Racial Modifiers: +4 Acrobatics, +4 Climb
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +8 natural, -2 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +15 (2d8+15 plus puncture armor)
-
-**Ranged:** rock +8 (1d8+10)
-
-**Reach:** 15
-
-**Rock Th:** 30 ft.
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 17, Con 16, Int 2, Wis 15, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dazzling Display, Improved Initiative, Intimidating Prowess, Power Attack, Weapon Focus
-(bite)
-
-**Skills:** Acrobatics +13, Climb +14, Intimidate +13, Perception +8
-
-**Racial Modifiers:** +4 Acrobatics, +4 Climb
-
-**Ecology**
-
-**Environment:** temperate or warm hills or plains
-
-**Organization:** solitary, pair, or troop (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm hills or plains
+Organization: solitary, pair, or troop (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

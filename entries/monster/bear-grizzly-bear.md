@@ -29,71 +29,58 @@ abilities = ["21", "13", "19", "2", "12", "6"]
 _Broad, powerful muscles move beneath this massive bear's brown fur, promising both speed and lethal
 force._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 15
+AC modifiers: +1 Dex, +6 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +8
+Ref: +5
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +7 (1d6+5 plus [grab](ref/umr/grab)), bite +7 (1d6+5)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 13, Con 19, Int 2, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Endurance, Run, Skill Focus (Survival)
+Skills: Perception +6, Swim +14
+Racial Modifiers: +4 Swim
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +7 (1d6+5 plus [grab](ref/umr/grab)), bite +7 (1d6+5)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 19, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Endurance, Run, Skill Focus (Survival)
-
-**Skills:** Perception +6, Swim +14
-
-**Racial Modifiers:** +4 Swim
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

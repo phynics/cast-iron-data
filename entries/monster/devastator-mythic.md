@@ -35,116 +35,80 @@ _Each of this mechanical horror's four monstrous limbs ends in a terrible weapon
 
 **Mythic Devastator**
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+Mythic rank: 8
+aura: corruption (60 ft.), unholy aura (DC 24)
+Alignment: Chaotic evil
+Type: construct
+Size: gargantuan
+Initiative: +6
+Perception: +34
+Senses: Darkvision 60 ft., Low-light vision, Mythic sight (2) 30 ft.
+Subtype: Extraplanar, Mythic
+Experience points: 614,400
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**aura:** corruption (60 ft.), unholy aura (DC 24)
+::: statblock
+Armor class: 44
+Touch: 20
+Flat-footed: 38
+AC modifiers: +4 deflection, +6 Dex, +24 natural, +4 profane, -4 size
+Hit points: 365 (30d10+200)
+Fort: +14
+Ref: +20
+Will: +18
+Defensive abilities: absorb good magic, unchanging
+Dr: 15/adamantine and epic
+Immune: acid, cold, [construct traits](ref/umr/construct-traits), electricity, fire
+Sr: 33
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Type:** construct
+::: statblock
+Speed: 50 ft., burrow 30 ft., fly 60 ft. (average)
+Bleed: 2d6
+M Power: 10/day, surge +1d10
+Melee: 4 vile arms +45 (2d8+18/19-20), 2 wings +40 (2d6+11/19-20 plus 2d6 bleed)
+Reach: 20
+Rend: 2 vile arms, 2d8+24
+Space: 20
+Spec Att: destroyer, display of Strength, farwalker (2), vile strikes
+:::
 
-**Size:** gargantuan
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: unholy aura
+At will: blade barrier (DC 22), dimensional anchor
+Per day: 3/day: blasphemy (DC 23), plane shift (DC 21)\
+1/day: destruction (DC 23), earthquake, implosion (DC 25)
+:::
 
-**Initiative:** +6
+### Statistics
 
-**Perception:** +34
+::: statblock
+Ability scores: Str 37, Dex 23, Con -, Int 15, Wis 18, Cha 22
+Base attack bonus: +30
+Combat maneuver bonus: +47
+Combat maneuver defense: 71
+Feats: Awesome Blow, Mythic Blind-Fight, Cleave, Mythic Combat Reflexes, Mythic Critical Focus, Great Cleave, Improved Bull Rush, Improved Critical (vile arm, wing), Power Attack, Staggering Critical, Mythic Toughness, Vital Strike, Weapon Focus (vile arm, wing)
+Skills: Acrobatics +21, Climb +28, Intimidate +36, Knowledge (planes) +17, Perception +34
+Languages: Abyssal, Celestial
+Special qualities: always a chance, extra mythic power
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Mythic sight (2) 30 ft.
+### Ecology
 
-**Subtype:** Extraplanar, Mythic
-
-**Experience points:** 614,400
-
-**Armor class:** 44
-
-**Touch:** 20
-
-**Flat-footed:** 38
-
-**AC modifiers:** +4 deflection, +6 Dex, +24 natural, +4 profane, -4 size
-
-**Hit points:** 365 (30d10+200)
-
-**Fort:** +14
-
-**Ref:** +20
-
-**Will:** +18
-
-**Defensive abilities:** absorb good magic, unchanging
-
-**Dr:** 15/adamantine and epic
-
-**Immune:** acid, cold, [construct traits](ref/umr/construct-traits), electricity, fire
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 50 ft., burrow 30 ft., fly 60 ft. (average)
-
-**Bleed:** 2d6
-
-**M Power:** 10/day, surge +1d10
-
-**Melee:** 4 vile arms +45 (2d8+18/19-20), 2 wings +40 (2d6+11/19-20 plus 2d6 bleed)
-
-**Reach:** 20
-
-**Rend:** 2 vile arms, 2d8+24
-
-**Space:** 20
-
-**Spec Att:** destroyer, display of Strength, farwalker (2), vile strikes
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- unholy aura
-
-**At will:**
-
-- blade barrier (DC 22), dimensional anchor
-
-**Per day:**
-
-- 3/day: blasphemy (DC 23), plane shift (DC 21)
-- 1/day: destruction (DC 23), earthquake, implosion (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 23, Con -, Int 15, Wis 18, Cha 22
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +47
-
-**Combat maneuver defense:** 71
-
-**Feats:** Awesome Blow, Mythic Blind-Fight, Cleave, Mythic Combat Reflexes, Mythic Critical Focus,
-Great Cleave, Improved Bull Rush, Improved Critical (vile arm, wing), Power Attack, Staggering
-Critical, Mythic Toughness, Vital Strike, Weapon Focus (vile arm, wing)
-
-**Skills:** Acrobatics +21, Climb +28, Intimidate +36, Knowledge (planes) +17, Perception +34
-
-**Languages:** Abyssal, Celestial
-
-**Special qualities:** always a chance, extra mythic power
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or catastrophe (3-13)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or catastrophe (3-13)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

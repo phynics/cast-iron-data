@@ -31,81 +31,63 @@ abilities = ["1", "15", "12", "-", "13", "2"]
 _A high-pitched whine issues forth from the haze of this surging crimson cloud. Within, thousands of
 tiny forms whir in agitation, each a tiny insect with a needle-like proboscis._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 120 ft., Scent
+Subtype: Swarm
+Type: vermin
+Experience points: 2,400
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 size
+Hit points: 71 (13d8+13)
+Fort: +9
+Ref: +6
+Will: +5
+Defensive abilities: swarm traits
+Immune: weapon damage
+Weaknesses: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 5 ft., fly 30 ft. (average)
+Distraction: 17
+Melee: swarm (1 Con damage and sleeping sickness)
+Reach: 0
+Space: 10
+Spec Att: cling, Con damage, disease
+:::
 
-**Senses:** Darkvision 120 ft., Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 15, Con 12, Int -, Wis 13, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +10, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 size
-
-**Hit points:** 71 (13d8+13)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Weaknesses:** swarm traits
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (average)
-
-**Distraction:** 17
-
-**Melee:** swarm (1 Con damage and sleeping sickness)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** cling, Con damage, disease
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 12, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +10, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** warm forests and swamps
-
-**Organization:** solitary, pair, pestilence (3-6 swarms), or plague (7-12 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests and swamps
+Organization: solitary, pair, pestilence (3-6 swarms), or plague (7-12 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

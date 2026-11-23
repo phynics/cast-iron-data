@@ -31,109 +31,76 @@ abilities = ["20", "23", "24", "14", "18", "21"]
 _This wicked creature has the claws and mandibles of an enormous insect, and its lower body is made
 entirely of swarming locusts._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +10
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Detect good, Detect magic, See invisibility
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 21
+AC modifiers: +6 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +18
+Will: +11
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Distraction: DC 25; biting locusts attack only
+Melee: bite +20 (2d6+5/19-20), 2 claws +20 (1d8+5)
+Reach: 10
+Reach P: 5 ft. with bite
+Space: 10
+Spec Att: biting locusts
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: detect good, detect magic, see invisibility
+At will: feast of ashes (DC 17), greater teleport, self plus 50 lbs. of objects only, putrefy food and drink
+Per day: 3/day: sirocco (DC 21), summon swarm\
+1/day: horrid wilting (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See invisibility
+### Statistics
 
-**Subtype:** Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 20, Dex 23, Con 24, Int 14, Wis 18, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +22
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Mobility
+Skills: Bluff +20, Fly +15, Intimidate +21, Knowledge (planes) +21, Perception +23, Use Magic Device +21
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: swarmlike
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +18
-
-**Will:** +11
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Distraction:** DC 25; biting locusts attack only
-
-**Melee:** bite +20 (2d6+5/19-20), 2 claws +20 (1d8+5)
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** biting locusts
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- feast of ashes (DC 17), greater teleport, self plus 50 lbs. of objects only, putrefy food and
-  drink
-
-**Per day:**
-
-- 3/day: sirocco (DC 21), summon swarm
-- 1/day: horrid wilting (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 24, Int 14, Wis 18, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Iron
-Will, Lightning Reflexes, Mobility
-
-**Skills:** Bluff +20, Fly +15, Intimidate +21, Knowledge (planes) +21, Perception +23, Use Magic
-Device +21
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** swarmlike
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pack (2-5), swarm (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pack (2-5), swarm (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

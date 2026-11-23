@@ -33,60 +33,45 @@ abilities = ["26", "17", "22", "10", "10", "10"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 8
-
 **Giant bugbear [barbarian](ref/class/barbarian) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +14
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 23
+Touch: 10
+Flat-footed: 19
+AC modifiers: +7 armor, +3 Dex, +6 natural, -2 rage, -1 size
+Hit points: 99 (3d8+5d12+48\~8)
+Fort: +12
+Ref: +8
+Will: +5
+Improved uncanny dodge: present
+Trap S: +1
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +14
-
-**Senses:** Darkvision 60 ft., Scent
-
-**Subtype:** Goblinoid
-
-**Experience points:** 4,800
-
-**Armor class:** 23
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +7 armor, +3 Dex, +6 natural, -2 rage, -1 size
-
-**Hit points:** 99 (3d8+5d12+48\~8)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +5
-
-**Improved uncanny dodge:** present
-
-**Trap S:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 falchion +15/+10 (2d6+13/18-20)
-
-**Ranged:** mwk javelin +10 (1d8+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rage (16 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury),
-[powerful blow](ref/ragepower/powerful-blow))
+::: statblock
+Speed: 30 ft.
+Melee: +1 falchion +15/+10 (2d6+13/18-20)
+Ranged: mwk javelin +10 (1d8+8)
+Reach: 10
+Space: 10
+Spec Att: rage (16 rounds/day), rage powers ([animal fury](ref/ragepower/animal-fury), [powerful blow](ref/ragepower/powerful-blow))
+:::
 
 ### Tactics
 
@@ -96,27 +81,24 @@ the thrill of the coming kill._
 hp 83; Fort +10, Will +3; Melee +1 falchion +13/+8 (2d6+10/18-20) Ranged mwk javelin +10 (1d8+6);
 Str 22, Con 18; CMB +14; Skills Intimidate +21.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 26, Dex 17, Con 22, Int 10, Wis 10, Cha 10
+::: statblock
+Ability scores: Str 26, Dex 17, Con 22, Int 10, Wis 10, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +16
+Combat maneuver defense: 27
+Feats: Hurtful, Intimidating Prowess, Pile On, Power Attack
+Skills: Intimidate +23, Perception +14
+Special qualities: fast movement, stalker
+Gear: +1 breastplate, +1 falchion, 2 mwk javelins, I-cloak of fangs, 373 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27
-
-**Feats:** Hurtful, Intimidating Prowess, Pile On, Power Attack
-
-**Skills:** Intimidate +23, Perception +14
-
-**Special qualities:** fast movement, stalker
-
-**Gear:** +1 breastplate, +1 falchion, 2 mwk javelins, I-cloak of fangs, 373 gp
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

@@ -31,106 +31,78 @@ abilities = ["21", "12", "17", "16", "17", "16"]
 _This sleek, dark dragon moves with a disturbing, serpentine grace, its eyes glowing as if lit from
 within by crimson embers._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +17
+Senses: Dragon senses
+Subtype: Extraplanar
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 21
+AC modifiers: +1 Dex, +12 natural, -1 size
+Hit points: 104 (11d12+33)
+Fort: +10
+Ref: +8
+Will: +10
+Immune: cold, death effects, energy drain, paralysis, sleep
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., fly 200 ft. (poor)
+Br Weap: 40-ft. cone, 6d8 neg. energy, DC 18
+Melee: bite +15 (2d6+7/19-20), 2 claws +15 (1d8+5), 2 wings +13 (1d6+2), tail slap +13 (1d8+7)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+At will: darkness
+:::
 
-**Senses:** Dragon senses
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: inflict light wounds (DC 14), shield
+Cantrips: At will: bleed (DC 13), detect magic, detect poison, read magic
+:::
 
-**Subtype:** Extraplanar
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +17
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Hover, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Vital Strike
+Skills: Bluff +17, Diplomacy +17, Sense Motive +17, Stealth +11
+Languages: Abyssal, Common, Draconic, Undercommon
+Special qualities: ghost bane, umbral scion
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +12 natural, -1 size
-
-**Hit points:** 104 (11d12+33)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +10
-
-**Immune:** cold, death effects, energy drain, paralysis, sleep
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (poor)
-
-**Br Weap:** 40-ft. cone, 6d8 neg. energy, DC 18
-
-**Melee:** bite +15 (2d6+7/19-20), 2 claws +15 (1d8+5), 2 wings +13 (1d6+2), tail slap +13 (1d8+7)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**At will:**
-
-- darkness
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: inflict light wounds (DC 14), shield
-
-**Cantrips:**
-
-- At will: bleed (DC 13), detect magic, detect poison, read magic
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 17, Int 16, Wis 17, Cha 16
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Hover, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Vital
-Strike
-
-**Skills:** Bluff +17, Diplomacy +17, Sense Motive +17, Stealth +11
-
-**Languages:** Abyssal, Common, Draconic, Undercommon
-
-**Special qualities:** ghost bane, umbral scion
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Description
 

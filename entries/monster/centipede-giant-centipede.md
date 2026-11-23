@@ -30,71 +30,58 @@ abilities = ["9", "15", "12", "-", "10", "2"]
 _This lengthy, segmented horror writhes and twists, pulsing its venomous mandibles in search of
 prey._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +2 (1d6-1 plus poison)
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 9, Dex 15, Con 12, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Climb +10, Perception +4, Stealth +10
+Racial Modifiers: +4 Perception, +8 Stealth
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +2 (1d6-1 plus poison)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 15, Con 12, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +10, Perception +4, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +8 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm forest or underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forest or underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

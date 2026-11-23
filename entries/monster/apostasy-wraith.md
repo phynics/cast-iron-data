@@ -29,79 +29,62 @@ abilities = ["-", "18", "-", "10", "11", "14"]
 
 _A broken mask gives this smoky, ghostly figure a bitter, unwavering gaze._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., Sense apostate
+Subtype: Incorporeal
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +2 deflection, +4 Dex
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +6
+Will: +8
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: Razmiri aversion
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: fly 60 ft. (perfect)
+E Drain: 1 level, DC 16
+Melee: incorporeal touch +10 (1d8 plus energy drain and rend faith)
+:::
 
-**Senses:** Darkvision 60 ft., Sense apostate
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 10, Wis 11, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Iron Will
+Skills: Fly +23, Knowledge (religion) +11, Perception +11, Stealth +15
+Languages: Common, Hallit
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +4 Dex
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +8
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** Razmiri aversion
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**E Drain:** 1 level, DC 16
-
-**Melee:** incorporeal touch +10 (1d8 plus energy drain and rend faith)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 10, Wis 11, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Iron Will
-
-**Skills:** Fly +23, Knowledge (religion) +11, Perception +11, Stealth +15
-
-**Languages:** Common, Hallit
-
-**Ecology**
-
-**Environment:** any (Razmiran)
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Razmiran)
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

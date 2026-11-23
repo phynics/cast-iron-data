@@ -32,99 +32,72 @@ abilities = ["38", "33", "30", "19", "23", "24"]
 _This mass of dark green protoplasm hangs thick and wet from the branches, and its long tentacles
 are tipped with thorny claws._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+blindsight: 120
+Alignment: Chaotic evil
+Initiative: +15
+Size: medium
+Type: ooze
+Perception: +26
+Subtype: Blight
+Experience points: 153,600
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 33
+Touch: 22
+Flat-footed: 21
+AC modifiers: +11 Dex, +1 dodge, +11 natural
+Hit points: 290 (20d8+200)
+Fort: +18
+Ref: +19
+Will: +12
+Defensive abilities: rejuvenation
+Fh: 15
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** +15
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 2 claws +29 (2d6+14/19-20 plus lignification), 4 tentacles +27 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 5
+Spec Att: living forest
+:::
 
-**Type:** ooze
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Per day: 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only, DC 26), greater curse terrain, hallucinatory terrain (DC 21), wall of thorns
+:::
 
-**Perception:** +26
+### Statistics
 
-**Subtype:** Blight
+::: statblock
+Ability scores: Str 38, Dex 33, Con 30, Int 19, Wis 23, Cha 24
+Base attack bonus: +15
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 51 (can't be tripped)
+Feats: Bleeding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Great Fortitude, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Multiattack
+Skills: Acrobatics +31, Climb +42, Intimidate +27, Knowledge (geography) +24, Perception +26, Stealth +31 (+39 in forests)
+Racial Modifiers: +8 Stealth in forests
+Languages: Aklo, Sylvan; [telepathy](ref/umr/telepathy) domain
+Special qualities: cursed domain, [favored terrain](ref/ability/favored-terrain) (forest)
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 22
-
-**Flat-footed:** 21
-
-**AC modifiers:** +11 Dex, +1 dodge, +11 natural
-
-**Hit points:** 290 (20d8+200)
-
-**Fort:** +18
-
-**Ref:** +19
-
-**Will:** +12
-
-**Defensive abilities:** rejuvenation
-
-**Fh:** 15
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 2 claws +29 (2d6+14/19-20 plus lignification), 4 tentacles +27 (1d8+7 plus
-[grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 5
-
-**Spec Att:** living forest
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Per day:**
-
-- 1/day: blight (DC 22), command plants (DC 21), dominate monster (animals and magical beasts only,
-  DC 26), greater curse terrain, hallucinatory terrain (DC 21), wall of thorns
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 33, Con 30, Int 19, Wis 23, Cha 24
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 51 (can't be tripped)
-
-**Feats:** Bleeding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Great
-Fortitude, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Multiattack
-
-**Skills:** Acrobatics +31, Climb +42, Intimidate +27, Knowledge (geography) +24, Perception +26,
-Stealth +31 (+39 in forests)
-
-**Racial Modifiers:** +8 Stealth in forests
-
-**Languages:** Aklo, Sylvan; [telepathy](ref/umr/telepathy) domain
-
-**Special qualities:** cursed domain, [favored terrain](ref/ability/favored-terrain) (forest)
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

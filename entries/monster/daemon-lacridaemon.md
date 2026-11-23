@@ -33,96 +33,72 @@ abilities = ["12", "17", "14", "11", "13", "12"]
 _The face of this gray-skinned humanoid stretches in a manic grin, even though it weeps steaming
 tears. Frost crusts its flesh._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: weeping (100 ft.)
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., Detect good, Detect magic
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 800
+:::
 
-**aura:** weeping (100 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +4
+Will: +5
+Dr: 5/good or silver
+Immune: acid, cold, death effects, disease, poison
+Resist: electricity 10, fire 10
+Sr: 14
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Melee: bite +5 (1d4+1 plus 1d4 cold and poison), 2 claws +6 (1d4+1 plus 1d4 cold)
+Spec Att: poisonous tears
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Constant: detect good, detect magic, pass without trace
+Per day: 3/day: overwhelming grief (DC 15), teleport, self plus 50 lbs. of objects only\
+1/day: hold person (DC 14), invisibility, snare, summon (level 3, 1 lacridaemon 50%)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic
+::: statblock
+Ability scores: Str 12, Dex 17, Con 14, Int 11, Wis 13, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Improved Initiative, Weapon Focus (claw)
+Skills: Acrobatics +10, Bluff +8, Climb +8, Perception +8, Sense Motive +8, Stealth +10
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +5
-
-**Dr:** 5/good or silver
-
-**Immune:** acid, cold, death effects, disease, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +5 (1d4+1 plus 1d4 cold and poison), 2 claws +6 (1d4+1 plus 1d4 cold)
-
-**Spec Att:** poisonous tears
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Constant:**
-
-- detect good, detect magic, pass without trace
-
-**Per day:**
-
-- 3/day: overwhelming grief (DC 15), teleport, self plus 50 lbs. of objects only
-- 1/day: hold person (DC 14), invisibility, snare, summon (level 3, 1 lacridaemon 50%)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 14, Int 11, Wis 13, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Acrobatics +10, Bluff +8, Climb +8, Perception +8, Sense Motive +8, Stealth +10
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or lurk (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or lurk (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

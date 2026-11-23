@@ -32,76 +32,60 @@ abilities = ["16", "13", "13", "10", "10", "9"]
 _This dark-furred creature raises a spiked morningstar, its tiny, milk-white eyes glittering with
 the thrill of the coming kill._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +2 armor, +1 Dex, +3 natural, +1 shield
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: morningstar +5 (1d8+3)
+Ranged: javelin +3 (1d6+3)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 16, Dex 13, Con 13, Int 10, Wis 10, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Intimidating Prowess, Skill Focus (Perception)
+Skills: Intimidate +7, Perception +8, Stealth +10
+Racial Modifiers: +4 Intimidate, +4 Stealth
+Languages: Common, Goblin
+Special qualities: stalker
+:::
 
-**Subtype:** Goblinoid
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +1 Dex, +3 natural, +1 shield
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** morningstar +5 (1d8+3)
-
-**Ranged:** javelin +3 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 13, Int 10, Wis 10, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Intimidating Prowess, Skill Focus (Perception)
-
-**Skills:** Intimidate +7, Perception +8, Stealth +10
-
-**Racial Modifiers:** +4 Intimidate, +4 Stealth
-
-**Languages:** Common, Goblin
-
-**Special qualities:** stalker
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, gang (3-6), or warband (7-12 plus 2 warriors of 1st level and 1
-chieftain of 3rd-5th level)
-
-**Treasure:** NPC gear (leather armor, light wooden shield, morningstar, 3 javelins); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, gang (3-6), or warband (7-12 plus 2 warriors of 1st level and 1 chieftain of 3rd-5th level)
+Treasure: NPC gear (leather armor, light wooden shield, morningstar, 3 javelins); other treasure
+:::
 
 ### Special Abilities
 

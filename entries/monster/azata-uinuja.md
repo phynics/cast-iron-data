@@ -35,119 +35,83 @@ abilities = ["24", "21", "22", "17", "22", "21"]
 _This dark-skinned woman has diaphanous wings, four large eyes - one pair under the other - and a
 tangle of night-blue hair._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: emotion (DC 24)
+Alignment: Chaotic good
+Initiative: +9
+Size: large
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 51,200
+:::
 
-**aura:** emotion (DC 24)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 30
+Touch: 19
+Flat-footed: 25
+AC modifiers: +5 deflection, +5 Dex, +11 natural, -1 size
+Hit points: 207 (18d10+108)
+Fort: +12
+Ref: +16
+Will: +19
+Dr: 10/cold iron and evil
+Immune: electricity, petrification, sleep
+Resist: cold 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: +3 starknife +27/+22/+17/+12 (1d6+10/19-20/×3)
+Ranged: +3 starknife +25 (1d6+10/19-20/×3)
+Reach: 10
+Space: 10
+Spec Att: psychic starknife
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+Constant: see invisibility, shield of faith
+At will: deep slumber (DC 18), invisibility
+:::
 
-**Perception:** +27
+::: statblock
+title = "Psychic Magic"
+Caster level: 18
+Concentration: +23
+Power points: 24
+Psychoactive powers: cure serious wounds, 3 PE, dancing lights, 0 PE, detect mindscape, 2 PE, dream council, 5 PE, etheric shards, 5 PE, DC 20, greater create mindscape, 6 PE, lesser restoration, 2 PE, message, 0 PE, mindscape door, 3 PE, mindwipe, 4 PE, DC 19, symbol of sleep, 5 PE, DC 20, thought shield IV, 5 PE
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Azata, Chaotic, Extraplanar, Good
+::: statblock
+Ability scores: Str 24, Dex 21, Con 22, Int 17, Wis 22, Cha 21
+Base attack bonus: +18
+Combat maneuver bonus: +26
+Combat maneuver defense: 46
+Feats: Critical Focus, Deadly Aim, Flyby Attack, Improved Critical (starknife), Improved Initiative, Iron Will, Power Attack, Spell Penetration, Tiring Critical
+Skills: Bluff +26, Diplomacy +26, Sense Motive +27, Stealth +22
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: dreamwalker
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 19
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 deflection, +5 Dex, +11 natural, -1 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +12
-
-**Ref:** +16
-
-**Will:** +19
-
-**Dr:** 10/cold iron and evil
-
-**Immune:** electricity, petrification, sleep
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** +3 starknife +27/+22/+17/+12 (1d6+10/19-20/×3)
-
-**Ranged:** +3 starknife +25 (1d6+10/19-20/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** psychic starknife
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Constant:**
-
-- see invisibility, shield of faith
-
-**At will:**
-
-- deep slumber (DC 18), invisibility
-
-**Psychic Magic**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Power points:** 24
-
-**Psychoactive powers:**
-
-- cure serious wounds, 3 PE, dancing lights, 0 PE, detect mindscape, 2 PE, dream council, 5 PE,
-  etheric shards, 5 PE, DC 20, greater create mindscape, 6 PE, lesser restoration, 2 PE, message, 0
-  PE, mindscape door, 3 PE, mindwipe, 4 PE, DC 19, symbol of sleep, 5 PE, DC 20, thought shield IV,
-  5 PE
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 21, Con 22, Int 17, Wis 22, Cha 21
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 46
-
-**Feats:** Critical Focus, Deadly Aim, Flyby Attack, Improved Critical (starknife), Improved
-Initiative, Iron Will, Power Attack, Spell Penetration, Tiring Critical
-
-**Skills:** Bluff +26, Diplomacy +26, Sense Motive +27, Stealth +22
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** dreamwalker
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or collective (3-12)
-
-**Treasure:** Standard (+3 starknife); other treasure
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or collective (3-12)
+Treasure: Standard (+3 starknife); other treasure
+:::
 
 ### Special Abilities
 

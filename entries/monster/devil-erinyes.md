@@ -30,102 +30,74 @@ abilities = ["20", "23", "21", "14", "18", "21"]
 _Some calamity has befallen this angelic warrior. Wings stained black shear the air as her merciless
 eyes search for a target._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 4,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +12
+Will: +7
+Dr: 5/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Melee: +1 longsword +15/+10 (1d8+8/19-20)
+Ranged: +1 flaming composite longbow +14/+14/+9 (1d8+6/×3 plus 1d6 fire) or rope +15 touch (entangle)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: true seeing
+At will: fear (single target, DC 19), greater teleport, self plus 50 lbs. of objects only, minor image (DC 17), unholy blight (DC 19)
+Per day: 1/day: summon (level 3, 2 [bearded devils](ref/monster/devil-bearded-devil-barbazu), 50%)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 4,800
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 5/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Melee:** +1 longsword +15/+10 (1d8+8/19-20)
-
-**Ranged:** +1 flaming composite longbow +14/+14/+9 (1d8+6/×3 plus 1d6 fire) or rope +15 touch
-(entangle)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- fear (single target, DC 19), greater teleport, self plus 50 lbs. of objects only, minor image (DC
-  17), unholy blight (DC 19)
-
-**Per day:**
-
-- 1/day: summon (level 3, 2 [bearded devils](ref/monster/devil-bearded-devil-barbazu), 50%)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 21, Int 14, Wis 18, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Dodge^B^, Mobility^B^, Point-Blank Shot, Precise Shot, Rapid Shot, Shot
-on the Run
-
-**Skills:** Acrobatics +18, Bluff +17, Diplomacy +14, Sense Motive +10, Stealth +15
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 20, Dex 23, Con 21, Int 14, Wis 18, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Dodge^B^, Mobility^B^, Point-Blank Shot, Precise Shot, Rapid Shot, Shot on the Run
+Skills: Acrobatics +18, Bluff +17, Diplomacy +14, Sense Motive +10, Stealth +15
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary or trio
-
-**Treasure:** Triple (+1 longsword, +1 flaming cl+5); rope
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary or trio
+Treasure: Triple (+1 longsword, +1 flaming cl+5); rope
+:::
 
 ### Special Abilities
 

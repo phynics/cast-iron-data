@@ -32,67 +32,56 @@ abilities = ["15", "17", "12", "2", "13", "12"]
 _The head of this colorful red and purple flying reptile is overly large, and its jaws are lined
 with tiny sharp teeth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +6
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 30 ft. (average)
+Melee: bite +3 (1d6+3 plus poison)
+Spec Att: poison
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 17, Con 12, Int 2, Wis 13, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Flyby Attack
+Skills: Fly +7, Perception +5
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (average)
-
-**Melee:** bite +3 (1d6+3 plus poison)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 12, Int 2, Wis 13, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Flyby Attack
-
-**Skills:** Fly +7, Perception +5
-
-**Ecology**
-
-**Environment:** warm coasts or forests
-
-**Organization:** solitary, pair, or flock (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: warm coasts or forests
+Organization: solitary, pair, or flock (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,105 +31,69 @@ abilities = ["29", "10", "25", "20", "21", "24"]
 
 _This serene dragon's feathered form emits a comforting warmth._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (180 ft., DC 27)
+Type: dragon
+Size: huge
+Initiative: +4
+Alignment: Neutral good
+Perception: +32
+Senses: Dragon senses
+Subtype: Extraplanar, Good
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (180 ft., DC 27)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 32
+Touch: 8
+Flat-footed: 32
+AC modifiers: +24 natural, -2 size
+Hit points: 270 (20d12+140)
+Fort: +19
+Ref: +12
+Will: +17
+Dr: 5/evil
+Immune: ability damage, ability drain, electricity, paralysis, petrification, sleep
+Sr: 27
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 60 ft., fly 200 ft. (poor)
+Br Weap: 100-ft. line, 12d10 electricity, DC 27
+Melee: bite +27 (2d8+13), 2 claws +28 (2d6+9/19-20), tail slap +22 (2d6+13), 2 wings +22 (1d8+4)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: crush, peacemaker, subduing strikes
+:::
 
-**Alignment:** Neutral good
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +14
+3rd-level spells: 6/day: dispel magic, wind wall
+2nd-level spells: 8/day: bull's strength, calm emotions (DC 19), status
+1st-level spells: 8/day: deathwatch, divine favor, remove fear, sanctuary (DC 18), shield of faith
+Cantrips: At will: create water, detect magic, detect poison, guidance, light, mending, stabilize
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Dragon senses
-
-**Subtype:** Extraplanar, Good
-
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 8
-
-**Flat-footed:** 32
-
-**AC modifiers:** +24 natural, -2 size
-
-**Hit points:** 270 (20d12+140)
-
-**Fort:** +19
-
-**Ref:** +12
-
-**Will:** +17
-
-**Dr:** 5/evil
-
-**Immune:** ability damage, ability drain, electricity, paralysis, petrification, sleep
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (poor)
-
-**Br Weap:** 100-ft. line, 12d10 electricity, DC 27
-
-**Melee:** bite +27 (2d8+13), 2 claws +28 (2d6+9/19-20), tail slap +22 (2d6+13), 2 wings +22 (1d8+4)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** crush, peacemaker, subduing strikes
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +14
-
-**3rd-level spells:**
-
-- 6/day: dispel magic, wind wall
-
-**2nd-level spells:**
-
-- 8/day: bull's strength, calm emotions (DC 19), status
-
-**1st-level spells:**
-
-- 8/day: deathwatch, divine favor, remove fear, sanctuary (DC 18), shield of faith
-
-**Cantrips:**
-
-- At will: create water, detect magic, detect poison, guidance, light, mending, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 10, Con 25, Int 20, Wis 21, Cha 24
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31 (+35 disarm)
-
-**Combat maneuver defense:** 41 (43 vs. disarm, 45 vs. trip)
-
-**Feats:** Alertness, Combat Expertise, Critical Focus, Greater Disarm, Improved Critical (claw),
-Improved Disarm, Improved Initiative, Self-Sufficient, Sickening Critical, Weapon Focus (claw)
-
-**Skills:** Diplomacy +30, Fly +15, Knowledge (geography, nature, planes) +28, Perception +32
-
-**Languages:** Celestial, Common, Draconic
-
-**Special qualities:** change shape, [lay on hands](ref/ability/lay-on-hands) (10d6, 17/day), planar
-infusion (180 ft.)
+::: statblock
+Ability scores: Str 29, Dex 10, Con 25, Int 20, Wis 21, Cha 24
+Base attack bonus: +20
+Combat maneuver bonus: +31 (+35 disarm)
+Combat maneuver defense: 41 (43 vs. disarm, 45 vs. trip)
+Feats: Alertness, Combat Expertise, Critical Focus, Greater Disarm, Improved Critical (claw), Improved Disarm, Improved Initiative, Self-Sufficient, Sickening Critical, Weapon Focus (claw)
+Skills: Diplomacy +30, Fly +15, Knowledge (geography, nature, planes) +28, Perception +32
+Languages: Celestial, Common, Draconic
+Special qualities: change shape, [lay on hands](ref/ability/lay-on-hands) (10d6, 17/day), planar infusion (180 ft.)
+:::
 
 ### Description
 

@@ -30,105 +30,73 @@ abilities = ["8", "14", "12", "13", "15", "13"]
 _This tiny monstrosity has the body of a well-muscled man, a crown of frilled horns, and eyes that
 glow like rubies._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Lawful evil
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Asura, Evil, Extraplanar, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +1 insight, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +3
+Will: +5
+Dr: 5/cold iron or good
+Fh: 2
+Immune: curse effects, disease, poison
+Resist: acid 10, electricity 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft.
+Melee: sting +7 (1d4-1 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect magic
+At will: feather fall
+Per day: 3/day: levitate, locate object, spider climb
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Subtype:** Asura, Evil, Extraplanar, Lawful
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 14, Con 12, Int 13, Wis 15, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Dodge, Weapon Finesse
+Skills: Acrobatics +8 (+4 when jumping), Appraise +4, Bluff +7, Escape Artist +8, Knowledge (arcana) +4, Perception +10, Perform (dance) +5, Spellcraft +4, Stealth +14
+Racial Modifiers: -4 Acrobatics when jumping, +6 Escape Artist, +4 Perception
+Languages: Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (any Small humanoid; [alter self](ref/spell/alter-self)), elusive
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +1 insight, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Dr:** 5/cold iron or good
-
-**Fh:** 2
-
-**Immune:** curse effects, disease, poison
-
-**Resist:** acid 10, electricity 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** sting +7 (1d4-1 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- feather fall
-
-**Per day:**
-
-- 3/day: levitate, locate object, spider climb
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 12, Int 13, Wis 15, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+4 when jumping), Appraise +4, Bluff +7, Escape Artist +8, Knowledge
-(arcana) +4, Perception +10, Perform (dance) +5, Spellcraft +4, Stealth +14
-
-**Racial Modifiers:** -4 Acrobatics when jumping, +6 Escape Artist, +4 Perception
-
-**Languages:** Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Small humanoid;
-[alter self](ref/spell/alter-self)), elusive
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or gang (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or gang (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

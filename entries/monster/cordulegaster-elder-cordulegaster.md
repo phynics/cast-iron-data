@@ -30,106 +30,76 @@ abilities = ["23", "11", "19", "12", "14", "8"]
 
 _The insectile eyes of this chitin-covered daemonic monstrosity display a malign intelligence._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Daemon, Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +5
+Will: +8
+Defensive abilities: all-around vision
+Immune: acid, disease, poison, death effects, waters of the River Styx
+Resist: cold 10, electricity 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Jet: 60
+Melee: bite +14 (2d6+9 plus [grab](ref/umr/grab) and pull), tail slap +9 (1d8+3)
+Pull: bite, 10 ft.
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 10
+Spec Att: extending jaw, gnaw, powerful bite, stygian bite (Will DC 15)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +9
+At will: healing thief (DC 13)
+Per day: 3/day: aqueous orb (DC 13), hydraulic torrent\
+1/day: confusion (DC 14), summon (level 3, 1 cordulegaster, 50%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Daemon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 23, Dex 11, Con 19, Int 12, Wis 14, Cha 8
+Base attack bonus: +9
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 26
+Feats: Ability Focus (stygian bite), Alertness, Improved Initiative, Improved Natural Attack (bite), Lightning Reflexes
+Skills: Climb +15, Use Magic Device +11
+Racial Modifiers: +5 Stealth in swampy terrain or underwater
+Languages: Abyssal (can't speak), Draconic (can't speak), Infernal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +8
-
-**Defensive abilities:** all-around vision
-
-**Immune:** acid, disease, poison, death effects, waters of the River Styx
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Jet:** 60
-
-**Melee:** bite +14 (2d6+9 plus [grab](ref/umr/grab) and pull), tail slap +9 (1d8+3)
-
-**Pull:** bite, 10 ft.
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** extending jaw, gnaw, powerful bite, stygian bite (Will DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +9
-
-**At will:**
-
-- healing thief (DC 13)
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 13), hydraulic torrent
-- 1/day: confusion (DC 14), summon (level 3, 1 cordulegaster, 50%)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 11, Con 19, Int 12, Wis 14, Cha 8
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Ability Focus (stygian bite), Alertness, Improved Initiative, Improved Natural Attack
-(bite), Lightning Reflexes
-
-**Skills:** Climb +15, Use Magic Device +11
-
-**Racial Modifiers:** +5 Stealth in swampy terrain or underwater
-
-**Languages:** Abyssal (can't speak), Draconic (can't speak), Infernal (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any freshwater (River Styx)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any freshwater (River Styx)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

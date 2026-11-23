@@ -29,75 +29,60 @@ abilities = ["5", "15", "-", "-", "10", "10"]
 _This humanoid head floats silently and ominously, bits of flesh still hanging from its face and
 graying teeth clattering slightly as it bobs in the air._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +2
+Will: +3
+Defensive abilities: swarm traits
+Immune: [undead traits](ref/umr/undead-traits), weapon damage
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: fly 40 ft. (perfect)
+Distraction: 11
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 15, Con -, Int -, Wis 10, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 8 (can't be tripped)
+Skills: Fly +6
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits), weapon damage
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 15, Con -, Int -, Wis 10, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 8 (can't be tripped)
-
-**Skills:** Fly +6
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or mass (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or mass (3-5)
+Treasure: None
+:::
 
 ### Description
 

@@ -33,77 +33,60 @@ abilities = ["13", "12", "15", "7", "10", "8"]
 _This creature looks like a humanoid crow with oily black feathers, glittering eyes, and a sharp
 beak._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 15 (2d10+4)
+Fort: +2
+Ref: +4
+Will: +3
+Ferocity: present
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 2 claws +3 (1d4+1)
+Rend: 2 claws, 1d4+1
+Spec Att: leap
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 12, Con 15, Int 7, Wis 10, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Blind-Fight, Skill Focus (Stealth)
+Skills: Acrobatics +10, Climb +13, Perception +6, Stealth +8
+Racial Modifiers: +8 Acrobatics, +2 Perception
+Languages: Undercommon
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +3
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 2 claws +3 (1d4+1)
-
-**Rend:** 2 claws, 1d4+1
-
-**Spec Att:** leap
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 12, Con 15, Int 7, Wis 10, Cha 8
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Blind-Fight, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +10, Climb +13, Perception +6, Stealth +8
-
-**Racial Modifiers:** +8 Acrobatics, +2 Perception
-
-**Languages:** Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** gang (2-5), hunting flock (1-3 dread corbies and 5-10 dire corbies), or rookery
-(1-10 dread corbies and 10-50 dire corbies plus 1 barbarian or fighter of 3rd-5th level per 10
-adults)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: gang (2-5), hunting flock (1-3 dread corbies and 5-10 dire corbies), or rookery (1-10 dread corbies and 10-50 dire corbies plus 1 barbarian or fighter of 3rd-5th level per 10 adults)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

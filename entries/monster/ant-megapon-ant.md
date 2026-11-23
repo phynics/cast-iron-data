@@ -30,73 +30,59 @@ abilities = ["26", "8", "25", "-", "13", "11"]
 _This enormous ant has vicious mandibles and a dripping stinger, and looks large enough to devour a
 horse._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+Type: vermin
+Experience points: 2,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 75 (6d8+48)
+Fort: +12
+Ref: +1
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +10 (2d6+8 plus [grab](ref/umr/grab)), sting +10 (1d8+8 plus poison)
+Reach: 10
+Space: 15
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 26, Dex 8, Con 25, Int -, Wis 13, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 23 (31 vs. trip)
+Feats: Snatch, Toughness
+Skills: Climb +16
+Special qualities: carry off
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 75 (6d8+48)
-
-**Fort:** +12
-
-**Ref:** +1
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +10 (2d6+8 plus [grab](ref/umr/grab)), sting +10 (1d8+8 plus poison)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 8, Con 25, Int -, Wis 13, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 23 (31 vs. trip)
-
-**Feats:** Snatch, Toughness
-
-**Skills:** Climb +16
-
-**Special qualities:** carry off
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, column (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, column (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

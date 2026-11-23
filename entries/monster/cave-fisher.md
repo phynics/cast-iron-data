@@ -30,69 +30,57 @@ abilities = ["17", "12", "17", "-", "10", "4"]
 _This man-sized, crab-like monstrosity clings tenaciously to the rough stone, its enormous pincers
 held out menacingly before it._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: 2 claws +5 (1d4+3)
+Pull: filament, 10 feet
+Ranged: filament +3 (drag)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 17, Dex 12, Con 17, Int -, Wis 10, Cha 4
+Base attack bonus: +2
+Combat maneuver bonus: +5 (+9 with pull)
+Combat maneuver defense: 16 (28 vs. trip)
+Skills: Climb +11
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** 2 claws +5 (1d4+3)
-
-**Pull:** filament, 10 feet
-
-**Ranged:** filament +3 (drag)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 17, Int -, Wis 10, Cha 4
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5 (+9 with pull)
-
-**Combat maneuver defense:** 16 (28 vs. trip)
-
-**Skills:** Climb +11
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or tangle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or tangle (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

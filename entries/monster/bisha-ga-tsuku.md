@@ -31,101 +31,74 @@ abilities = ["20", "22", "18", "13", "19", "19"]
 _Two clawed feet extend from a mysterious mobile fog bank, and dark eyes glow balefully from the
 mist._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20), hoarfrost halo (30 ft., DC 20)
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Cold, Native
+Experience points: 6,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20), hoarfrost halo (30 ft.,
-DC 20)
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 16
+AC modifiers: +6 Dex, +6 natural
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +10
+Will: +12
+Immune: cold
+Sr: 20
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 15 ft., fly 60 ft. (good)
+Melee: 3 tentacles +18 (2d6+5/19-20 plus 1d6 cold)
+Reach: 5
+Reach P: 15 ft. with tentacles
+Sneak: +1d6
+Space: 5
+Spec Att: soul-thieving chill
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Per day: 3/day: detonate (DC 18, cold only)\
+1/day: cold ice strike (DC 20), freezing sphere (DC 20), wall of ice (DC 18)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 22, Con 18, Int 13, Wis 19, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Dazing Assault, Flyby Attack, Improved Critical (tentacle), Improved Initiative, Power Attack, Weapon Focus (tentacle)
+Skills: Acrobatics +21, Fly +25, Knowledge (geography) +15, Knowledge (nature) +14, Perception +19, Spellcraft +12, Stealth +21
+Languages: Common (can't speak)
+:::
 
-**Subtype:** Cold, Native
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +6 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +12
-
-**Immune:** cold
-
-**Sr:** 20
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (good)
-
-**Melee:** 3 tentacles +18 (2d6+5/19-20 plus 1d6 cold)
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tentacles
-
-**Sneak:** +1d6
-
-**Space:** 5
-
-**Spec Att:** soul-thieving chill
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Per day:**
-
-- 3/day: detonate (DC 18, cold only)
-- 1/day: cold ice strike (DC 20), freezing sphere (DC 20), wall of ice (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 22, Con 18, Int 13, Wis 19, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Dazing Assault, Flyby Attack, Improved Critical (tentacle), Improved Initiative, Power
-Attack, Weapon Focus (tentacle)
-
-**Skills:** Acrobatics +21, Fly +25, Knowledge (geography) +15, Knowledge (nature) +14, Perception
-+19, Spellcraft +12, Stealth +21
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** cold hills or mountains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold hills or mountains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

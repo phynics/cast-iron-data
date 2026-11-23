@@ -29,107 +29,73 @@ abilities = ["23", "21", "22", "25", "22", "20"]
 
 _A pair of frozen, multifaceted eyes coldly judge all before this towering, insectile monstrosity._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: fear (10 ft., DC 22)
+Initiative: +9
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 25,600
+:::
 
-**aura:** fear (10 ft., DC 22)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +5 Dex, +18 natural, -1 size
+Hit points: 161 (14d10+84)
+Fort: +15
+Ref: +14
+Will: +12
+Dr: 10/good
+Immune: fire, cold, poison
+Regen: 5 (good weapons, good spells)
+Resist: acid 10
+Sr: 24
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +1 frost spear +21/+16/+11 (2d6+10/×3 plus 1d6 cold plus slow), bite +14 (2d6+6), tail +14 (3d6+3 plus slow)
+Reach: 10
+Space: 10
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Constant: fly
+At will: cone of cold (DC 20), ice storm, greater teleport, self plus 50 lbs. of objects only, persistent image (DC 20), wall of ice (DC 19)
+Per day: 1/day: summon (level 4, 2 [bone devils](ref/monster/devil-bone-devil-osyluth), 50%)
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 23, Dex 21, Con 22, Int 25, Wis 22, Cha 20
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 36
+Feats: Alertness, Cleave, Combat Reflexes, Improved Initiative, Iron Will, Power Attack, Weapon Focus (spear)
+Skills: Acrobatics +22, Bluff +22, Diplomacy +22, Fly +13, Intimidate +19, Knowledge (planes) +24, Perception +27
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +18 natural, -1 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +12
-
-**Dr:** 10/good
-
-**Immune:** fire, cold, poison
-
-**Regen:** 5 (good weapons, good spells)
-
-**Resist:** acid 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +1 frost spear +21/+16/+11 (2d6+10/×3 plus 1d6 cold plus slow), bite +14 (2d6+6), tail
-+14 (3d6+3 plus slow)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- cone of cold (DC 20), ice storm, greater teleport, self plus 50 lbs. of objects only, persistent
-  image (DC 20), wall of ice (DC 19)
-
-**Per day:**
-
-- 1/day: summon (level 4, 2 [bone devils](ref/monster/devil-bone-devil-osyluth), 50%)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 21, Con 22, Int 25, Wis 22, Cha 20
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 36
-
-**Feats:** Alertness, Cleave, Combat Reflexes, Improved Initiative, Iron Will, Power Attack, Weapon
-Focus (spear)
-
-**Skills:** Acrobatics +22, Bluff +22, Diplomacy +22, Fly +13, Intimidate +19, Knowledge (planes)
-+24, Perception +27
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, team (2-3), council (4-10), or contingent (1-3 ice devils, 2-6
-[horned devils](ref/monster/devil-horned-devil-cornugon), and 1-4
-[bone devils](ref/monster/devil-bone-devil-osyluth))
-
-**Treasure:** Standard (+1 FF spear); other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, team (2-3), council (4-10), or contingent (1-3 ice devils, 2-6 [horned devils](ref/monster/devil-horned-devil-cornugon), and 1-4 [bone devils](ref/monster/devil-bone-devil-osyluth))
+Treasure: Standard (+1 FF spear); other treasure
+:::
 
 ### Special Abilities
 

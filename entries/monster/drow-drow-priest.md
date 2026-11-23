@@ -31,108 +31,70 @@ abilities = ["10", "12", "12", "14", "18", "15"]
 
 _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless._
 
-**Challenge rating:** 5
-
 **Drow noble [cleric](ref/class/cleric) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: medium
+Perception: +11
+Senses: Darkvision 120 ft.
+Subtype: Elf
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 13
+Flat-footed: 23
+AC modifiers: +9 armor, +2 deflection, +1 Dex, +2 shield
+Hit points: 31 (5d8+5)
+Fort: +5
+Ref: +2
+Will: +8; +2 vs. enchantment
+Immune: sleep
+Sr: 16
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft.
+Ch N En: 7/day, DC 14, 3d6
+Melee: mwk flail +4 (1d8)
+Spec Att: hand of the acolyte (7/day)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Constant: detect magic
+At will: dancing lights, deeper darkness, faerie fire, feather fall, levitate
+Per day: 1/day: dispel magic, divine favor, suggestion (DC 15)
+:::
 
-**Subtype:** Elf
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9
+Per day: 7/day: touch of evil, 2 rounds
+:::
 
-**Experience points:** 1,600
-
-**Armor class:** 24
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +9 armor, +2 deflection, +1 Dex, +2 shield
-
-**Hit points:** 31 (5d8+5)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +8; +2 vs. enchantment
-
-**Immune:** sleep
-
-**Sr:** 16
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** 7/day, DC 14, 3d6
-
-**Melee:** mwk flail +4 (1d8)
-
-**Spec Att:** hand of the acolyte (7/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- dancing lights, deeper darkness, faerie fire, feather fall, levitate
-
-**Per day:**
-
-- 1/day: dispel magic, divine favor, suggestion (DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Per day:**
-
-- 7/day: touch of evil, 2 rounds
-
-**Prepared Spells**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- chain of perdition, dispel magic^D^, protection from energy
-
-**2nd-level spells:**
-
-- align weapon^D^, evil only, dread bolt (DC 16), hold person (DC 16), spiritual weapon
-
-**1st-level spells:**
-
-- cure light wounds, entropic shield, murderous command (DC 15), protection from good^D^, shield of
-  faith
-
-**Cantrips:**
-
-- bleed (DC 14), detect magic, detect poison, read magic
-
-**Domains:** Evil, Magic
+::: statblock
+title = "Prepared Spells"
+Caster level: 5
+Concentration: +9
+3rd-level spells: chain of perdition, dispel magic^D^, protection from energy
+2nd-level spells: align weapon^D^, evil only, dread bolt (DC 16), hold person (DC 16), spiritual weapon
+1st-level spells: cure light wounds, entropic shield, murderous command (DC 15), protection from good^D^, shield of faith
+Cantrips: bleed (DC 14), detect magic, detect poison, read magic
+Domains: Evil, Magic
+:::
 
 ###### D {#footnote-d}
 
@@ -150,32 +112,26 @@ _[hold person](ref/spell/hold-person)_ so her allies can surround the hapless ta
 **Base Statistics** Without _[shield of faith](ref/spell/shield-of-faith),_ the drow's statistics
 are AC 22, touch 11, flat-footed 21.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 12, Con 12, Int 14, Wis 18, Cha 15
+::: statblock
+Ability scores: Str 10, Dex 12, Con 12, Int 14, Wis 18, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Combat Casting, Extra Channel, Improved Initiative
+Skills: Bluff +3, Diplomacy +6, Sense Motive +12
+Languages: Abyssal, Common, Elven, Undercommon
+Special qualities: [poison use](ref/ability/poison-use)
+Combat gear: potion of invisibility, potion of owl's wisdom, scroll of cure moderate wounds, scroll of cure serious wounds, scroll of magic weapon
+Other gear: mwk full plate, heavy steel shield, mwk lfx, scp, 167 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Combat Casting, Extra Channel, Improved Initiative
-
-**Skills:** Bluff +3, Diplomacy +6, Sense Motive +12
-
-**Languages:** Abyssal, Common, Elven, Undercommon
-
-**Special qualities:** [poison use](ref/ability/poison-use)
-
-**Combat gear:** potion of invisibility, potion of owl's wisdom, scroll of cure moderate wounds,
-scroll of cure serious wounds, scroll of magic weapon
-
-**Other gear:** mwk full plate, heavy steel shield, mwk lfx, scp, 167 gp
-
-**Ecology**
-
-**Environment:** underground
+::: statblock
+Environment: underground
+:::
 
 ### Description
 

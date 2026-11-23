@@ -32,81 +32,63 @@ abilities = ["19", "15", "16", "9", "12", "10"]
 _This lanky dragon's dappled grayish scales and sprawling wings shift and fade in color, blending in
 with the mist._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: dragon
+Initiative: +2
+Size: large
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Fogvision, Low-light vision, Scent
+Subtype: Air
+Experience points: 1,600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 57 (6d12+18)
+Fort: +8
+Ref: +7
+Will: +6
+Immune: paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 80 ft. (average)
+Melee: bite +9 (2d6+4), tail slap +4 (1d8+2)
+Reach: 10
+Space: 10
+Spec Att: fogburst
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Fogvision, Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 16, Int 9, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Dodge, Flyby Attack, Hover
+Skills: Fly +9, Intimidate +9, Perception +10
+Racial Modifiers: +8 Stealth in fog or mist
+Languages: Draconic
+Special qualities: misty camouflage, speed surge
+:::
 
-**Subtype:** Air
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 57 (6d12+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (average)
-
-**Melee:** bite +9 (2d6+4), tail slap +4 (1d8+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** fogburst
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 16, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Flyby Attack, Hover
-
-**Skills:** Fly +9, Intimidate +9, Perception +10
-
-**Racial Modifiers:** +8 Stealth in fog or mist
-
-**Languages:** Draconic
-
-**Special qualities:** misty camouflage, speed surge
-
-**Ecology**
-
-**Environment:** cold or temperate coasts, hills, or marshes
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate coasts, hills, or marshes
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

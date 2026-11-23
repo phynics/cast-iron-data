@@ -32,86 +32,65 @@ abilities = ["25", "17", "20", "8", "12", "11"]
 _Horns jut from this muscular dragon's beaked head, and spikes cover the dragon's hide even in
 places on its winged arms._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Type: dragon
+Initiative: +7
+Size: large
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 20
+AC modifiers: +3 Dex, +11 natural, -1 size
+Hit points: 126 (11d12+55)
+Fort: +12
+Ref: +10
+Will: +8
+Immune: paralysis, sleep
+Resist: acid 30
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 20 ft., fly 60 ft. (average)
+Bleed: 1d6
+Melee: bite +18 (2d8+10/19-20 plus bleed), tail slap +12 (1d10+3 plus [trip](ref/umr/trip))
+Pounce: present
+Reach: 10
+Space: 10
+Spec Att: clinging corrosion, savage bite
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 17, Con 20, Int 8, Wis 12, Cha 11
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 32
+Feats: Bleeding Critical, Critical Focus, Flyby Attack, Improved Initiative, Power Attack, Weapon Focus (bite)
+Skills: Climb +15, Intimidate +12, Perception +14
+Languages: Draconic
+Special qualities: speed surge
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +11 natural, -1 size
-
-**Hit points:** 126 (11d12+55)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +8
-
-**Immune:** paralysis, sleep
-
-**Resist:** acid 30
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., fly 60 ft. (average)
-
-**Bleed:** 1d6
-
-**Melee:** bite +18 (2d8+10/19-20 plus bleed), tail slap +12 (1d10+3 plus [trip](ref/umr/trip))
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** clinging corrosion, savage bite
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 17, Con 20, Int 8, Wis 12, Cha 11
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32
-
-**Feats:** Bleeding Critical, Critical Focus, Flyby Attack, Improved Initiative, Power Attack,
-Weapon Focus (bite)
-
-**Skills:** Climb +15, Intimidate +12, Perception +14
-
-**Languages:** Draconic
-
-**Special qualities:** speed surge
-
-**Ecology**
-
-**Environment:** warm hills or mountains
-
-**Organization:** solitary, pair, or rampage (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm hills or mountains
+Organization: solitary, pair, or rampage (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

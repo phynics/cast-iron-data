@@ -28,76 +28,60 @@ abilities = ["21", "18", "18", "2", "13", "11"]
 
 _Powerful muscles ripple beneath the golden fur of this small yet fearsome eight-legged beast._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +8
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Experience points: 6,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 19
+AC modifiers: +4 Dex, +8 natural, +1 size
+Hit points: 114 (12d10+48)
+Fort: +14
+Ref: +12
+Will: +7
+Dr: 10/piercing or slashing
+Ferocity: present
+Immune: poison
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: bite +18 (1d6+5 plus [grab](ref/umr/grab)), 4 claws +18 (1d4+5 plus grab)
+Rake: 4 claws +18, 1d4+5
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 21, Dex 18, Con 18, Int 2, Wis 13, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +16 (+24 grapple)
+Combat maneuver defense: 30 (42 vs. trip)
+Feats: Bleeding Critical, Critical Focus, Great Fortitude, Improved Initiative, Iron Will, Skill Focus (Perception)
+Skills: Perception +13, Stealth +17
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +8 natural, +1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 10/piercing or slashing
-
-**Ferocity:** present
-
-**Immune:** poison
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** bite +18 (1d6+5 plus [grab](ref/umr/grab)), 4 claws +18 (1d4+5 plus grab)
-
-**Rake:** 4 claws +18, 1d4+5
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con 18, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16 (+24 grapple)
-
-**Combat maneuver defense:** 30 (42 vs. trip)
-
-**Feats:** Bleeding Critical, Critical Focus, Great Fortitude, Improved Initiative, Iron Will, Skill
-Focus (Perception)
-
-**Skills:** Perception +13, Stealth +17
-
-**Ecology**
-
-**Environment:** temperate plains, hills, or forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate plains, hills, or forests
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

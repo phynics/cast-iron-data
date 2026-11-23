@@ -29,75 +29,60 @@ abilities = ["25", "11", "21", "-", "10", "2"]
 
 _An elephantine centipede scurries about, its double tail lashing angrily behind it._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 15
+Touch: 8
+Flat-footed: 14
+AC modifiers: +7 natural, -2 size
+Hit points: 38 (4d8+20)
+Fort: +9
+Ref: +1
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +8 (2d6+7 plus poison), tail slap +3 (1d3 nonlethal plus trip)
+Reach: 15
+Reach P: 20 ft. with tail slap
+Space: 15
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 25, Dex 11, Con 21, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +12
+Combat maneuver defense: 22 (can't be tripped)
+Skills: Climb +15, Perception +4, Stealth +0
+Racial Modifiers: +4 Perception, +8 Stealth
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 8
-
-**Flat-footed:** 14
-
-**AC modifiers:** +7 natural, -2 size
-
-**Hit points:** 38 (4d8+20)
-
-**Fort:** +9
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +8 (2d6+7 plus poison), tail slap +3 (1d3 nonlethal plus trip)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tail slap
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 11, Con 21, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Skills:** Climb +15, Perception +4, Stealth +0
-
-**Racial Modifiers:** +4 Perception, +8 Stealth
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or warm forests or underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

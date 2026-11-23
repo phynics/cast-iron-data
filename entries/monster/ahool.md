@@ -30,82 +30,63 @@ abilities = ["24", "17", "18", "7", "14", "11"]
 _This hideous creature blends features of both bat and ape, with fleshy wings and hind legs ending
 in sharp claws._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +11
+Will: +8
+Ferocity: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Melee: bite +18 (2d6+7/19-20 plus [grab](ref/umr/grab)), 2 claws +18 (1d6+7), tail +13 (1d8+3)
+Reach: 5
+Reach P: 10 ft. with claws
+Rend: 2 claws, 1d6+10
+Space: 10
+Spec Att: snapping bite
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 17, Con 18, Int 7, Wis 14, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +20 (+24 grapple)
+Combat maneuver defense: 33
+Feats: Flyby Attack, Hover, Improved Critical (bite), Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Fly +7, Perception +11
+Racial Modifiers: +4 Stealth, +4 Survival
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +8
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Melee:** bite +18 (2d6+7/19-20 plus [grab](ref/umr/grab)), 2 claws +18 (1d6+7), tail +13 (1d8+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws
-
-**Rend:** 2 claws, 1d6+10
-
-**Space:** 10
-
-**Spec Att:** snapping bite
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 18, Int 7, Wis 14, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20 (+24 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Flyby Attack, Hover, Improved Critical (bite), Iron Will, Power Attack, Skill Focus
-(Perception)
-
-**Skills:** Fly +7, Perception +11
-
-**Racial Modifiers:** +4 Stealth, +4 Survival
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** warm forests or warm ruins
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests or warm ruins
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

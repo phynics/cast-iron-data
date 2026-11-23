@@ -33,71 +33,58 @@ abilities = ["26", "13", "18", "1", "14", "5"]
 _This twisted amalgamation of human and goat is covered in matted fur, its teeth sharp and eyes
 eerily blank._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft.
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 85 (9d8+45)
+Fort: +9
+Ref: +6
+Will: +8
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +13 (2d6+8 plus disease), 2 hooves +8 (1d8+4)
+Reach: 10
+Space: 10
+Spec Att: disease, rage call
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 13, Con 18, Int 1, Wis 14, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +15 (+17 bull rush)
+Combat maneuver defense: 26 (28 vs. bull rush)
+Feats: Great Fortitude, Improved Bull Rush, Lightning Reflexes, Power Attack, Toughness
+Skills: Climb +15, Perception +10
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +13 (2d6+8 plus disease), 2 hooves +8 (1d8+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** disease, rage call
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 18, Int 1, Wis 14, Cha 5
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15 (+17 bull rush)
-
-**Combat maneuver defense:** 26 (28 vs. bull rush)
-
-**Feats:** Great Fortitude, Improved Bull Rush, Lightning Reflexes, Power Attack, Toughness
-
-**Skills:** Climb +15, Perception +10
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pack (2-11), or herd (12-25)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pack (2-11), or herd (12-25)
+Treasure: None
+:::
 
 ### Special Abilities
 

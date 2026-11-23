@@ -30,80 +30,62 @@ abilities = ["21", "16", "19", "14", "15", "14"]
 _This ray-like creature opens a toothy maw and leers with glaring red eyes. Behind it whips a
 menacing tail of segmented bone._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+Alignment: Chaotic neutral
+Initiative: +7
+Size: large
+Perception: +14
+Senses: Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 Dex, +7 natural, -1 size
+Hit points: 51 (6d8+24)
+Fort: +6
+Ref: +5
+Will: +7
+Defensive abilities: shadow shift
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: bite +8 (1d6+5), tail slap +3 (1d8+2)
+Reach: 10
+Reach P: 5 ft. with bite
+Space: 10
+Spec Att: engulf, moan
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 16, Con 19, Int 14, Wis 15, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 23 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Skill Focus (Perception)
+Skills: Disguise +8 (+16 as cloak), Sense Motive +8, Stealth +8
+Racial Modifiers: +8 Disguise to appear as a cloak, sheet, manta ray, or similarly shaped object or creature
+Languages: Undercommon
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +7 natural, -1 size
-
-**Hit points:** 51 (6d8+24)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +7
-
-**Defensive abilities:** shadow shift
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** bite +8 (1d6+5), tail slap +3 (1d8+2)
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** engulf, moan
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 19, Int 14, Wis 15, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Disguise +8 (+16 as cloak), Sense Motive +8, Stealth +8
-
-**Racial Modifiers:** +8 Disguise to appear as a cloak, sheet, manta ray, or similarly shaped object
-or creature
-
-**Languages:** Undercommon
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pair, mob (3-6), or flock (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: underground
+Organization: solitary, pair, mob (3-6), or flock (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

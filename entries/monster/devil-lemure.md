@@ -29,69 +29,57 @@ abilities = ["11", "10", "12", "-", "11", "5"]
 _A roiling wave of flesh gushes forward. Amid the fatty surge wriggle half-formed limbs and a
 dripping tumorous face._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +0
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 14
+AC modifiers: +4 natural
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +3
+Will: +0
+Dr: 5/good or silver
+Immune: fire, mind-affecting effects, poison
+Resist: acid 10, cold 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Melee: 2 claws +2 (1d4)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 11, Dex 10, Con 12, Int -, Wis 11, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 natural
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +0
-
-**Dr:** 5/good or silver
-
-**Immune:** fire, mind-affecting effects, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 claws +2 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 12, Int -, Wis 11, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, gang (3-5), swarm (6-17), or mob (10-40 or more)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, gang (3-5), swarm (6-17), or mob (10-40 or more)
+Treasure: None
+:::
 
 ### Description
 

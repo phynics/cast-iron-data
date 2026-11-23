@@ -33,123 +33,84 @@ _This fiend has pitch-black, rubbery skin pulled taut over an immense frame. Arm
 glistening claws hang past the creature's knees, and two constantly whispering mouths rest on its
 eyeless face._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: worry (30 ft., DC 22)
+blindsight: 60
+Initiative: +8
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +21
+Senses: Arcane sight, Detect good
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 25,600
+:::
 
-**aura:** worry (30 ft., DC 22)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 24
+AC modifiers: +15 natural, +4 Dex, -1 size
+Hit points: 172 (15d10+90)
+Fort: +15
+Ref: +11
+Will: +14
+Dr: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Weaknesses: sunlight weakness
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Bleed: 1d4 Wisdom
+Melee: 2 claws +23 (1d8+9), 2 bites +23 (2d6+9 plus bleed)
+Spec Att: devour soul, shadow possession
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: arcane sight, detect good, tongues
+At will: detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, invisibility
+Per day: 3/day: crushing despair (DC 19), deeper darkness, nightmare (DC 20), suggestion (DC 18)\
+1/day: eyebite (DC 22), summon (level 4, 2d4 [ceustodaemons](ref/monster/daemon-ceustodaemon) 80% or 1 anisydaemon 35%)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Psychic Magic"
+Caster level: 15
+Concentration: +20
+Power points: 10
+Psychoactive powers: babble, 3 PE, DC 18, ego whip V, 7 PE, DC 22, mental block, 2 PE, DC 17, murderous command, 1 PE, DC 16, psychic crush III, 7 PE, DC 22
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Arcane sight, Detect good
+::: statblock
+Ability scores: Str 28, Dex 19, Con 22, Int 17, Wis 16, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +25
+Combat maneuver defense: 39
+Feats: Combat Reflexes, Improved Initiative, Intimidating Prowess, Iron Will, Lightning Reflexes, Power Attack, Stealthy, Skill Focus (Stealth)
+Skills: Acrobatics +22, Bluff +23, Intimidate +32, Knowledge (planes) +21, Perception +21, Sense Motive +21, Spellcraft +21, Stealth +32
+Languages: Abyssal, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft., _[tongues](ref/spell/tongues)_
+Special qualities: [compression](ref/umr/compression), hide in plain sight
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +15 natural, +4 Dex, -1 size
-
-**Hit points:** 172 (15d10+90)
-
-**Fort:** +15
-
-**Ref:** +11
-
-**Will:** +14
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Weaknesses:** sunlight weakness
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d4 Wisdom
-
-**Melee:** 2 claws +23 (1d8+9), 2 bites +23 (2d6+9 plus bleed)
-
-**Spec Att:** devour soul, shadow possession
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- arcane sight, detect good, tongues
-
-**At will:**
-
-- detect thoughts (DC 17), greater teleport, self plus 50 lbs. of objects only, invisibility
-
-**Per day:**
-
-- 3/day: crushing despair (DC 19), deeper darkness, nightmare (DC 20), suggestion (DC 18)
-- 1/day: eyebite (DC 22), summon (level 4, 2d4 [ceustodaemons](ref/monster/daemon-ceustodaemon) 80%
-  or 1 anisydaemon 35%)
-
-**Psychic Magic**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Power points:** 10
-
-**Psychoactive powers:**
-
-- babble, 3 PE, DC 18, ego whip V, 7 PE, DC 22, mental block, 2 PE, DC 17, murderous command, 1 PE,
-  DC 16, psychic crush III, 7 PE, DC 22
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con 22, Int 17, Wis 16, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 39
-
-**Feats:** Combat Reflexes, Improved Initiative, Intimidating Prowess, Iron Will, Lightning
-Reflexes, Power Attack, Stealthy, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +22, Bluff +23, Intimidate +32, Knowledge (planes) +21, Perception +21, Sense
-Motive +21, Spellcraft +21, Stealth +32
-
-**Languages:** Abyssal, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.,
-_[tongues](ref/spell/tongues)_
-
-**Special qualities:** [compression](ref/umr/compression), hide in plain sight
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or lurk (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or lurk (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

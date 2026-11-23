@@ -32,81 +32,63 @@ abilities = ["20", "13", "16", "-", "13", "1"]
 _This bright-red jellyfish dangles a long, central tentacle surrounded by a multitude of shorter red
 tendrils._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +2
+Will: +2
+Amorph: present
+Dr: 5/piercing or slashing
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: swim 10 ft.
+B Drain: 1d2 Con damage
+Melee: tentacle +8 (2d8+5 plus [grab](ref/umr/grab)), tendrils +3 touch (poison)
+Reach: 10
+Space: 5
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 20, Dex 13, Con 16, Int -, Wis 13, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 19 (can't be tripped)
+Skills: Swim +13
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +2
-
-**Amorph:** present
-
-**Dr:** 5/piercing or slashing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 10 ft.
-
-**B Drain:** 1d2 Con damage
-
-**Melee:** tentacle +8 (2d8+5 plus [grab](ref/umr/grab)), tendrils +3 touch (poison)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 16, Int -, Wis 13, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Skills:** Swim +13
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate oceans
-
-**Organization:** solitary, pack (2-4), or bloom (5-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate oceans
+Organization: solitary, pack (2-4), or bloom (5-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -28,69 +28,57 @@ abilities = ["26", "15", "20", "2", "13", "9"]
 _Long-necked and long-tailed, this large, predatory reptile glides through the water on four
 powerful flippers._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +9 natural, -2 size
+Hit points: 105 (10d8+60)
+Fort: +14
+Ref: +9
+Will: +6
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: bite +13 (2d8+12)
+Reach: 20
+Space: 15
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 26, Dex 15, Con 20, Int 2, Wis 13, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +17
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Dodge, Great Fortitude, Iron Will, Mobility, Toughness
+Skills: Perception +14, Swim +16
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +9 natural, -2 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** bite +13 (2d8+12)
-
-**Reach:** 20
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 20, Int 2, Wis 13, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Dodge, Great Fortitude, Iron Will, Mobility, Toughness
-
-**Skills:** Perception +14, Swim +16
-
-**Ecology**
-
-**Environment:** warm aquatic
-
-**Organization:** solitary, pair, or school (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm aquatic
+Organization: solitary, pair, or school (3-6)
+Treasure: None
+:::
 
 ### Description
 

@@ -33,71 +33,58 @@ abilities = ["20", "11", "17", "-", "11", "10"]
 _This gigantic burrowing insect has an oversized abdomen. A terrifying set of long, hooked mandibles
 protrudes from its head._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 60 (8d8+24)
+Fort: +9
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: bite +10 (2d8+7 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: sand trap
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 20, Dex 11, Con 17, Int -, Wis 11, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 22 (30 vs. trip)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** bite +10 (2d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** sand trap
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 11, Con 17, Int -, Wis 11, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 22 (30 vs. trip)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary or nest (2-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm deserts
+Organization: solitary or nest (2-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -29,71 +29,58 @@ abilities = ["17", "15", "13", "2", "14", "6"]
 _This giant, furry bat is nearly the size of an ox, with dark leathery wings that open wider than
 two men with arms outstretched._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+blindsense: 40
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +12
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 40
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +6
+Will: +3
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Melee: bite +5 (1d8+4)
+Reach: 5
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 17, Dex 15, Con 13, Int 2, Wis 14, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Alertness, Stealthy
+Skills: Fly +9, Perception +12, Stealth +4
+Racial Modifiers: +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (good)
-
-**Melee:** bite +5 (1d8+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 13, Int 2, Wis 14, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Stealthy
-
-**Skills:** Fly +9, Perception +12, Stealth +4
-
-**Racial Modifiers:** +4 Perception when using [blindsense](ref/rule/blindsight-and-blindsense)
-
-**Ecology**
-
-**Environment:** any temperate or tropical
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any temperate or tropical
+Organization: solitary, pair, or colony (3-8)
+Treasure: Incidental
+:::
 
 ### Description
 

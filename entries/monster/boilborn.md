@@ -29,73 +29,59 @@ abilities = ["12", "1", "17", "-", "2", "1"]
 
 _Like some taut pustule ready to burst, this mobile wound scuttles on a bristle of slick hairs._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 30
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -4
+Size: tiny
+Experience points: 400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -5 Dex, +2 size
+Hit points: 15 (2d8+6)
+Fort: +3
+Ref: -5
+Will: -4
+Immune: [ooze traits](ref/umr/ooze-traits)
+Resist: acid 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 10 ft.
+Melee: slam +4 (1d2+1 plus leprosy)
+Reach: 0
+Space: 2
+Spec Att: death throes, leprosy
+:::
 
-**Perception:** -4
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 12, Dex 1, Con 17, Int -, Wis 2, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: -6
+Combat maneuver defense: 5 (can't be tripped)
+Skills: Climb +9
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -5 Dex, +2 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +3
-
-**Ref:** -5
-
-**Will:** -4
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 10 ft.
-
-**Melee:** slam +4 (1d2+1 plus leprosy)
-
-**Reach:** 0
-
-**Space:** 2
-
-**Spec Att:** death throes, leprosy
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 1, Con 17, Int -, Wis 2, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -6
-
-**Combat maneuver defense:** 5 (can't be tripped)
-
-**Skills:** Climb +9
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or infestation (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or infestation (2-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

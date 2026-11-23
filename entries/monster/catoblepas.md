@@ -29,80 +29,62 @@ abilities = ["20", "8", "22", "5", "15", "10"]
 _This ugly creature has a boar-like head with short antlers, a thick bullish body covered in spines,
 and cloven hooves on its stumpy legs._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: [stench](ref/umr/stench) (30 ft., DC 23, 10 rounds)
+Initiative: -1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +25
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 23, 10 rounds)
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 27
+Touch: 8
+Flat-footed: 27
+AC modifiers: -1 Dex, +19 natural, -1 size
+Hit points: 161 (14d10+84)
+Fort: +15
+Ref: +8
+Will: +8
+Sr: 23
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Br Weap: 60-ft. cone, poison, Fortitude DC 23, usable every 1d4 rounds
+Melee: bite +18 (3d6+5), gore +18 (2d8+5/19-20), 2 hooves +16 (1d8+2)
+Reach: 15
+Space: 15
+Trample: 4d6+7, DC 22
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str 20, Dex 8, Con 22, Int 5, Wis 15, Cha 10
+Base attack bonus: +14
+Combat maneuver bonus: +20
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Diehard, Endurance, Improved Critical (gore), Improved Iron Will, Iron Will, Multiattack, Skill Focus (Perception)
+Skills: Perception +25, Swim +13
+Languages: Aklo
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 8
-
-**Flat-footed:** 27
-
-**AC modifiers:** -1 Dex, +19 natural, -1 size
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +15
-
-**Ref:** +8
-
-**Will:** +8
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Br Weap:** 60-ft. cone, poison, Fortitude DC 23, usable every 1d4 rounds
-
-**Melee:** bite +18 (3d6+5), gore +18 (2d8+5/19-20), 2 hooves +16 (1d8+2)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 4d6+7, DC 22
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 8, Con 22, Int 5, Wis 15, Cha 10
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Diehard, Endurance, Improved Critical (gore), Improved Iron Will, Iron Will, Multiattack,
-Skill Focus (Perception)
-
-**Skills:** Perception +25, Swim +13
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any swamps
-
-**Organization:** solitary, pair, or herd (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any swamps
+Organization: solitary, pair, or herd (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

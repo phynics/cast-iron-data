@@ -31,77 +31,61 @@ abilities = ["20", "10", "16", "-", "13", "9"]
 _This gnarled vine, as thick as a man's arm and bearing hand-shaped leaves, convulses across the
 ground in an unnatural slither._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsight: 30
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+Experience points: 800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: +6 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +1
+Will: +2
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: cold 10 and fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft.
+Constrict: 1d8+7
+Melee: slam +7 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: entangle
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 10, Con 16, Int -, Wis 13, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 19 (can't be tripped)
+Special qualities: camouflage
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +2
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10 and fire 10
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Constrict:** 1d8+7
-
-**Melee:** slam +7 (1d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** entangle
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 10, Con 16, Int -, Wis 13, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Special qualities:** camouflage
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or patch (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or patch (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,103 +30,73 @@ abilities = ["21", "19", "18", "19", "18", "19"]
 _This angelic being has smooth skin, a muscular body, and large golden wings, and wields a large
 mace._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: protective aura
+Initiative: +8
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Detect evil, Low-light vision
+Subtype: Angel, Aquatic, Extraplanar, Good
+Experience points: 19,200
+:::
 
-**aura:** protective aura
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 23
+AC modifiers: +4 Dex, +13 natural; +4 deflection vs. evil
+Hit points: 147 (14d10+70)
+Fort: +15
+Ref: +13
+Will: +10; +4 vs. poison
+Dr: 10/evil
+Immune: acid, cold, electricity, fire, death effects, energy drain, petrification
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +3 morningstar +22/+17/+12 (1d8+10 plus solid blow)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect evil
+At will: aid, charm monster (DC 18, elementals only), discern lies (DC 18), dispel evil (DC 19), dispel magic, holy smite (DC 18), invisibility, self only, plane shift (DC 19), remove curse, remove disease, remove fear
+Per day: 3/day: cure serious wounds, holy word (DC 21), mirror image\
+1/day: heal, hold monster (DC 19), holy aura (DC 22)
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 19, Con 18, Int 19, Wis 18, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +19
+Combat maneuver defense: 33
+Feats: Alertness, Cleave, Great Fortitude, Improved Initiative, Iron Will, Power Attack, Toughness
+Skills: Diplomacy +21, Fly +25
+Racial Modifiers: +4 Perception
+Languages: Celestial, Draconic, Infernal; _truespeech_
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Angel, Aquatic, Extraplanar, Good
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +13 natural; +4 deflection vs. evil
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +10; +4 vs. poison
-
-**Dr:** 10/evil
-
-**Immune:** acid, cold, electricity, fire, death effects, energy drain, petrification
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +3 morningstar +22/+17/+12 (1d8+10 plus solid blow)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- aid, charm monster (DC 18, elementals only), discern lies (DC 18), dispel evil (DC 19), dispel
-  magic, holy smite (DC 18), invisibility, self only, plane shift (DC 19), remove curse, remove
-  disease, remove fear
-
-**Per day:**
-
-- 3/day: cure serious wounds, holy word (DC 21), mirror image
-- 1/day: heal, hold monster (DC 19), holy aura (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 19, Con 18, Int 19, Wis 18, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 33
-
-**Feats:** Alertness, Cleave, Great Fortitude, Improved Initiative, Iron Will, Power Attack,
-Toughness
-
-**Skills:** Diplomacy +21, Fly +25
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Celestial, Draconic, Infernal; _truespeech_
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any good-aligned plane
-
-**Organization:** solitary, pair, or squad (3-6)
-
-**Treasure:** Double (+3 morningstar); other treasure
+::: statblock
+Environment: any good-aligned plane
+Organization: solitary, pair, or squad (3-6)
+Treasure: Double (+3 morningstar); other treasure
+:::
 
 ### Special Abilities
 

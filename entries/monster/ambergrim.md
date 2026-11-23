@@ -30,71 +30,58 @@ abilities = ["16", "1", "24", "-", "1", "1"]
 _A crown of rough gems encircles the top of this sleek, orangebrown glob as it rolls forward, the
 detritus of the forest churning within._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Initiative: -5
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Senses: Low-light vision
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 5
+Touch: 5
+Flat-footed: 5
+AC modifiers: -5 Dex
+Hit points: 103 (9d8+63)
+Fort: +10
+Ref: -2
+Will: -2
+Immune: bludgeoning damage, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +9 (1d6+3 plus [grab](ref/umr/grab)), slam +9 (2d4+3 plus grab)
+Swallow: AC 10, 10 hp
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 16, Dex 1, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +6 (+13 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+Skills: Climb +11, Perception -5
+Special qualities: preserve
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 5
-
-**Touch:** 5
-
-**Flat-footed:** 5
-
-**AC modifiers:** -5 Dex
-
-**Hit points:** 103 (9d8+63)
-
-**Fort:** +10
-
-**Ref:** -2
-
-**Will:** -2
-
-**Immune:** bludgeoning damage, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +9 (1d6+3 plus [grab](ref/umr/grab)), slam +9 (2d4+3 plus grab)
-
-**Swallow:** AC 10, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6 (+13 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Skills:** Climb +11, Perception -5
-
-**Special qualities:** preserve
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or cluster (2-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forest
+Organization: solitary or cluster (2-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

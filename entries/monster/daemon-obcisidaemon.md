@@ -34,111 +34,76 @@ abilities = ["26", "19", "28", "13", "21", "24"]
 _This massive fiend has eagle wings, a tusked canine face, and a muscular frame. It wields an
 immense, cruel-looking halberd._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+aura: scorched earth (60 ft., DC 28), unholy aura (DC 25)
+Size: gargantuan
+Initiative: +4
+Alignment: Neutral evil
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Deathwatch, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 204,800
+:::
 
-**aura:** scorched earth (60 ft., DC 28), unholy aura (DC 25)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 30
+AC modifiers: +4 deflection, +4 Dex, +20 natural, -4 size
+Hit points: 319 (22d10+198)
+Fort: +26
+Ref: +15
+Will: +22
+Dr: 15/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 30, electricity 30, fire 30
+Sr: 30
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: +1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/×3 plus inherit soul), bite +21 (2d8+4)
+Reach: 20
+Space: 20
+Spec Att: cloak of souls
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: deathwatch, true seeing, unholy aura (DC 25)
+At will: cloudkill (DC 22), greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: quickened cloudkill (DC 22), destruction (DC 24), fire storm (DC 25), incendiary cloud (DC 25), spell turning\
+1/day: mass hold person (DC 24), meteor swarm (DC 26), summon (level 9, 1 [purrodaemon](ref/monster/daemon-purrodaemon) 50%)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch, True seeing
+::: statblock
+Ability scores: Str 26, Dex 19, Con 28, Int 13, Wis 21, Cha 24
+Base attack bonus: +22
+Combat maneuver bonus: +34 (+38 sunder)
+Combat maneuver defense: 52 (54 vs. sunder)
+Feats: Bleeding Critical, Critical Focus, Greater Sunder, Greater Vital Strike, Improved Critical (halberd), Improved Sunder, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cloudkill), Vital Strike, Weapon Focus (halberd)
+Skills: Bluff +32, Fly +23, Intimidate +32, Knowledge (history, planes) +15, Perception +30, Sense Motive +30, Spellcraft +26
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: warfare mastery
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 30
-
-**AC modifiers:** +4 deflection, +4 Dex, +20 natural, -4 size
-
-**Hit points:** 319 (22d10+198)
-
-**Fort:** +26
-
-**Ref:** +15
-
-**Will:** +22
-
-**Dr:** 15/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** +1 unholy halberd +28/+23/+18/+13 (4d8+13/19-20/×3 plus inherit soul), bite +21 (2d8+4)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** cloak of souls
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- deathwatch, true seeing, unholy aura (DC 25)
-
-**At will:**
-
-- cloudkill (DC 22), greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: quickened cloudkill (DC 22), destruction (DC 24), fire storm (DC 25), incendiary cloud (DC
-  25), spell turning
-- 1/day: mass hold person (DC 24), meteor swarm (DC 26), summon (level 9, 1
-  [purrodaemon](ref/monster/daemon-purrodaemon) 50%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 28, Int 13, Wis 21, Cha 24
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +34 (+38 sunder)
-
-**Combat maneuver defense:** 52 (54 vs. sunder)
-
-**Feats:** Bleeding Critical, Critical Focus, Greater Sunder, Greater Vital Strike, Improved
-Critical (halberd), Improved Sunder, Improved Vital Strike, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cloudkill), Vital Strike, Weapon Focus (halberd)
-
-**Skills:** Bluff +32, Fly +23, Intimidate +32, Knowledge (history, planes) +15, Perception +30,
-Sense Motive +30, Spellcraft +26
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** warfare mastery
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or holocaust (3-6)
-
-**Treasure:** Standard (+1 unholy halberd); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or holocaust (3-6)
+Treasure: Standard (+1 unholy halberd); other treasure
+:::
 
 ### Special Abilities
 

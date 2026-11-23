@@ -33,108 +33,75 @@ abilities = ["26", "23", "28", "16", "19", "21"]
 _This woman's flesh is pale and clammy, as if her body had been drained of blood from the fanged
 slashes on her four arms._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: gaze of despair (30 ft., DC 22), unholy aura (DC 23)
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft., Deathwatch, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 51,200
+:::
 
-**aura:** gaze of despair (30 ft., DC 22), unholy aura (DC 23)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 20
+Flat-footed: 24
+AC modifiers: +4 deflection, +6 Dex, +10 natural
+Hit points: 217 (15d10+135); blood healing
+Fort: +22
+Ref: +15
+Will: +17
+Dr: 10/cold iron and good
+Immune: bleed, electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft.
+Constrict: 4d6+12 plus 2d6 bleed and 1d4 Strength drain
+Melee: +3 wounding scimitar +27/+22/+17 (1d6+11/15-20), 3 claws +21 (1d6+4 plus grab), gore +21 (2d6+4) or 4 claws +23 (1d6+8 plus [grab](ref/umr/grab)), gore +23 (2d6+8)
+Spec Att: compelling domination, multi-arm grab
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: deathwatch, true seeing, unholy aura (DC 23)
+At will: crushing despair (DC 18), dispel magic, greater teleport, self plus 50 lbs. of objects only, telekinesis (DC 20)
+Per day: 3/day: confusion (DC 19), demand (DC 23), dominate person (DC 19), fly\
+1/day: symbol of insanity (DC 23), summon (level 5, 1 seraptis 20% or 1 glabrezu 40%)
+:::
 
-**Perception:** +30
+### Statistics
 
-**Senses:** Darkvision 60 ft., Deathwatch, True seeing
+::: statblock
+Ability scores: Str 26, Dex 23, Con 28, Int 16, Wis 19, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 41
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (scimitar), Improved Initiative, Multiattack, Power Attack, Weapon Focus (scimitar)
+Skills: Acrobatics +24 (+32 when jumping), Bluff +23, Fly +24, Intimidate +23, Knowledge (planes) +21, Perception +30, Sense Motive +22, Stealth +24
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 20
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 deflection, +6 Dex, +10 natural
-
-**Hit points:** 217 (15d10+135); blood healing
-
-**Fort:** +22
-
-**Ref:** +15
-
-**Will:** +17
-
-**Dr:** 10/cold iron and good
-
-**Immune:** bleed, electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 4d6+12 plus 2d6 bleed and 1d4 Strength drain
-
-**Melee:** +3 wounding scimitar +27/+22/+17 (1d6+11/15-20), 3 claws +21 (1d6+4 plus grab), gore +21
-(2d6+4) or 4 claws +23 (1d6+8 plus [grab](ref/umr/grab)), gore +23 (2d6+8)
-
-**Spec Att:** compelling domination, multi-arm grab
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- deathwatch, true seeing, unholy aura (DC 23)
-
-**At will:**
-
-- crushing despair (DC 18), dispel magic, greater teleport, self plus 50 lbs. of objects only,
-  telekinesis (DC 20)
-
-**Per day:**
-
-- 3/day: confusion (DC 19), demand (DC 23), dominate person (DC 19), fly
-- 1/day: symbol of insanity (DC 23), summon (level 5, 1 seraptis 20% or 1 glabrezu 40%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 23, Con 28, Int 16, Wis 19, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 41
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (scimitar),
-Improved Initiative, Multiattack, Power Attack, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +24 (+32 when jumping), Bluff +23, Fly +24, Intimidate +23, Knowledge
-(planes) +21, Perception +30, Sense Motive +22, Stealth +24
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or cult (1 plus 2-6 [succubi](ref/monster/demon-succubus))
-
-**Treasure:** Double (+3 W scimitar); other
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or cult (1 plus 2-6 [succubi](ref/monster/demon-succubus))
+Treasure: Double (+3 W scimitar); other
+:::
 
 ### Special Abilities
 

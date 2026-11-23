@@ -32,94 +32,70 @@ abilities = ["12", "9", "15", "10", "13", "4"]
 _This bald, long-bearded dwarf has dull gray skin, low arching brows, and eyes that seem to absorb
 rather than reflect the light._
 
-**Challenge rating:** 1/3
-
 **Duergar [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: -1
+Alignment: Lawful evil
+Size: medium
+Perception: +1
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 135
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +6 armor, -1 Dex, +2 shield
+Hit points: 8 (1d10+3)
+Fort: +4
+Ref: -1
+Will: +1; +2 vs. spells
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft.
+Melee: warhammer +3 (1d8+1/×3)
+Ranged: light crossbow +0 (1d8/19-20)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Per day: 1/day: enlarge person, self only, invisibility, self only
+:::
 
-**Subtype:** Dwarf
+### Statistics
 
-**Experience points:** 135
+::: statblock
+Ability scores: Str 12, Dex 9, Con 15, Int 10, Wis 13, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Weapon Focus (warhammer)
+Skills: Intimidate +1, Stealth -3
+Racial Modifiers: +2 Perception relating to stonework, +4 Stealth
+Languages: Common, Dwarven, Undercommon
+Special qualities: slow and steady, stability
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 armor, -1 Dex, +2 shield
-
-**Hit points:** 8 (1d10+3)
-
-**Fort:** +4
-
-**Ref:** -1
-
-**Will:** +1; +2 vs. spells
-
-**Immune:** paralysis, phantasms, poison
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** warhammer +3 (1d8+1/×3)
-
-**Ranged:** light crossbow +0 (1d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Per day:**
-
-- 1/day: enlarge person, self only, invisibility, self only
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 9, Con 15, Int 10, Wis 13, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Focus (warhammer)
-
-**Skills:** Intimidate +1, Stealth -3
-
-**Racial Modifiers:** +2 Perception relating to stonework, +4 Stealth
-
-**Languages:** Common, Dwarven, Undercommon
-
-**Special qualities:** slow and steady, stability
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, team (2-5), squad (6-12 plus 3
-[sergeants](ref/monster/duergar-duergar-sergeant) of 3rd level and 1 leader of 3rd-8th level), or
-clan (13-80 plus 25% noncombatant children plus 1 sergeant of 3rd level per 5 adults, 3-6
-[lieutenants](ref/monster/duergar-duergar-lieutenant) of 3rd-6th level, and 1-4
-[captains](ref/monster/duergar-duergar-captain) of 9th level)
-
-**Treasure:** NPC gear (chainmail, heavy steel shield, warhammer, light crossbow with 20 bolts); 3d6
-gp, other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, team (2-5), squad (6-12 plus 3 [sergeants](ref/monster/duergar-duergar-sergeant) of 3rd level and 1 leader of 3rd-8th level), or clan (13-80 plus 25% noncombatant children plus 1 sergeant of 3rd level per 5 adults, 3-6 [lieutenants](ref/monster/duergar-duergar-lieutenant) of 3rd-6th level, and 1-4 [captains](ref/monster/duergar-duergar-captain) of 9th level)
+Treasure: NPC gear (chainmail, heavy steel shield, warhammer, light crossbow with 20 bolts); 3d6 gp, other treasure
+:::
 
 ### Description
 

@@ -31,71 +31,58 @@ abilities = ["10", "15", "13", "-", "11", "2"]
 _This coffin-shaped anemone features a ridged, dark brown trunk topped with waving yellow tendrils
 surrounding a soft, pale blue center._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 30
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Subtype: Aquatic
+Type: vermin
+Experience points: 400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +3
+Will: +1
+Amorph: present
+Defensive abilities: anchored
+Immune: gaze attacks, mind-affecting effects, poison, vision-based effects
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft.
+Melee: tentacles +2 (2d4 plus poison)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 10, Dex 15, Con 13, Int -, Wis 11, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (can't be tripped)
+Special qualities: sightless
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Amorph:** present
-
-**Defensive abilities:** anchored
-
-**Immune:** gaze attacks, mind-affecting effects, poison, vision-based effects
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** tentacles +2 (2d4 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 13, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Special qualities:** sightless
-
-**Ecology**
-
-**Environment:** temperate coastlines or oceans
-
-**Organization:** solitary, pair, or graveyard (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate coastlines or oceans
+Organization: solitary, pair, or graveyard (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

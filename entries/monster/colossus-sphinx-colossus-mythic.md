@@ -36,111 +36,80 @@ _This stone edifice resembles a lion with a regal human face, garbed in royal cl
 
 **Mythic Sphinx Colossus**
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Mythic rank: 4
+aura: frightful presence (150 ft., DC 20), selective antimagic aura (20 ft.)
+Type: construct
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, X-ray vision
+Subtype: Colossus, Mythic
+tremorsense: 120
+Experience points: 38,400
+:::
 
-**Mythic rank:** 4
+### Defense
 
-**aura:** frightful presence (150 ft., DC 20), selective antimagic aura (20 ft.)
+::: statblock
+Armor class: 31
+Touch: 7
+Flat-footed: 30
+AC modifiers: +1 Dex, +24 natural, -4 size
+Hit points: 199 (18d10+100)
+Fort: +6
+Ref: +9
+Will: +10
+Block At: present
+Dr: 10/epic
+Fortif: 50
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Type:** construct
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 50 ft.
+M Power: 4/day, surge +1d8
+Melee: 2 slams +29 (3d6+15) or stomp +29 (6d6+22 plus pinning stomp)
+Ranged: rock +15 (3d6+22)
+Reach: 20
+Rock Th: 120 ft.
+Sp Extra: earth glide
+Space: 20
+Spec Att: mythic quickening, pinning stomp
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +13
+Per day: 3/day: true strike\
+1/day: moment of prescience
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +16
+::: statblock
+Ability scores: Str 40, Dex 13, Con -, Int 10, Wis 15, Cha 13
+Base attack bonus: +18
+Combat maneuver bonus: +37
+Combat maneuver defense: 48 (52 vs. trip)
+Feats: Mythic Alertness, Cleave, Great Cleave, Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Mythic Power Attack, Vital Strike
+Skills: Knowledge (arcana, religion) +8, Perception +16, Sense Motive +16
+Languages: Celestial, Sphinx
+Special qualities: alternate form, create rocks, mythic creation, mythic resilience
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, X-ray vision
+### Ecology
 
-**Subtype:** Colossus, Mythic
-
-**tremorsense:** 120
-
-**Experience points:** 38,400
-
-**Armor class:** 31
-
-**Touch:** 7
-
-**Flat-footed:** 30
-
-**AC modifiers:** +1 Dex, +24 natural, -4 size
-
-**Hit points:** 199 (18d10+100)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +10
-
-**Block At:** present
-
-**Dr:** 10/epic
-
-**Fortif:** 50
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**M Power:** 4/day, surge +1d8
-
-**Melee:** 2 slams +29 (3d6+15) or stomp +29 (6d6+22 plus pinning stomp)
-
-**Ranged:** rock +15 (3d6+22)
-
-**Reach:** 20
-
-**Rock Th:** 120 ft.
-
-**Sp Extra:** earth glide
-
-**Space:** 20
-
-**Spec Att:** mythic quickening, pinning stomp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: true strike
-- 1/day: moment of prescience
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 13, Con -, Int 10, Wis 15, Cha 13
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +37
-
-**Combat maneuver defense:** 48 (52 vs. trip)
-
-**Feats:** Mythic Alertness, Cleave, Great Cleave, Improved Initiative, Improved Vital Strike, Iron
-Will, Lightning Reflexes, Mythic Power Attack, Vital Strike
-
-**Skills:** Knowledge (arcana, religion) +8, Perception +16, Sense Motive +16
-
-**Languages:** Celestial, Sphinx
-
-**Special qualities:** alternate form, create rocks, mythic creation, mythic resilience
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

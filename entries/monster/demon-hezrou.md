@@ -31,102 +31,75 @@ abilities = ["27", "11", "29", "14", "14", "18"]
 _This fiend's armored flesh is scaly and moist. Its large, toothy mouth gapes below a pair of
 hungry, reptilian eyes._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: [stench](ref/umr/stench) (DC 24, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Chaotic, Demon, Evil, Extraplanar
+Experience points: 12,800
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 24, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 25
+AC modifiers: +16 natural, -1 size
+Hit points: 145 (10d10+90)
+Fort: +16
+Ref: +3
+Will: +9
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 22
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +17 (4d4+8 plus [grab](ref/umr/grab)), 2 claws +17 (1d8+8 plus grab)
+Reach: 10
+Space: 10
+Spec Att: nausea
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+At will: chaos hammer (DC 18), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 18)
+Per day: 3/day: gaseous form\
+1/day: blasphemy (DC 21), summon (level 4, 1 hezrou 35%)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 27, Dex 11, Con 29, Int 14, Wis 14, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 29
+Feats: Blind-Fight, Cleave, Great Cleave, Improved Initiative, Power Attack
+Skills: Climb +21
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic, Chaotic, Demon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +16 natural, -1 size
-
-**Hit points:** 145 (10d10+90)
-
-**Fort:** +16
-
-**Ref:** +3
-
-**Will:** +9
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +17 (4d4+8 plus [grab](ref/umr/grab)), 2 claws +17 (1d8+8 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** nausea
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**At will:**
-
-- chaos hammer (DC 18), greater teleport, self plus 50 lbs. of objects only, unholy blight (DC 18)
-
-**Per day:**
-
-- 3/day: gaseous form
-- 1/day: blasphemy (DC 21), summon (level 4, 1 hezrou 35%)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 11, Con 29, Int 14, Wis 14, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 29
-
-**Feats:** Blind-Fight, Cleave, Great Cleave, Improved Initiative, Power Attack
-
-**Skills:** Climb +21
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any swamp ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamp ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or gang (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

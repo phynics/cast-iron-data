@@ -31,101 +31,73 @@ abilities = ["11", "16", "14", "13", "16", "12"]
 _Three lidless eyes with vertical pupils stare out from a small umbrella-shaped creature. It moves
 about using squirming tentacles, each moving independently in a mesmerizing motion._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+aura: mental disarmament (100 ft., DC 17), mucus cloud (5 ft., DC 14)
+Initiative: +3
+Alignment: Lawful evil
+Perception: +10
+Senses: Darkvision 120 ft.
+Size: small
+Subtype: Aquatic, Shapechanger
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** mental disarmament (100 ft., DC 17), mucus cloud (5 ft., DC 14)
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 37 (5d8+15)
+Fort: +3
+Ref: +4
+Will: +7
+Immune: mind-affecting effects
+Sr: 15
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Grab: Large
+Melee: 2 tentacles +4 (1d4 plus grab and slime)
+Reach: 10
+Space: 5
+Spec Att: alghollthu's bane
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +5
+At will: detect thoughts (DC 12), hypnotic pattern (DC 13)
+Per day: 3/day: unwilling shield (DC 17)
+:::
 
-**Senses:** Darkvision 120 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 16, Con 14, Int 13, Wis 16, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +2 (+6 grapple)
+Combat maneuver defense: 16 (can't be tripped)
+Feats: Ability Focus (mental disarmament), Dodge, Toughness
+Skills: Bluff +4, Escape Artist +9, Knowledge (dungeoneering) +5, Perception +10, Spellcraft +8, Stealth +14, Swim +13
+Languages: Aboleth, Aquan; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Tiny or Small animal; [greater polymorph](ref/spell/polymorph-greater)), symbiotic bond
+:::
 
-**Subtype:** Aquatic, Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +7
-
-**Immune:** mind-affecting effects
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Grab:** Large
-
-**Melee:** 2 tentacles +4 (1d4 plus grab and slime)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** alghollthu's bane
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +5
-
-**At will:**
-
-- detect thoughts (DC 12), hypnotic pattern (DC 13)
-
-**Per day:**
-
-- 3/day: unwilling shield (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 16, Con 14, Int 13, Wis 16, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2 (+6 grapple)
-
-**Combat maneuver defense:** 16 (can't be tripped)
-
-**Feats:** Ability Focus (mental disarmament), Dodge, Toughness
-
-**Skills:** Bluff +4, Escape Artist +9, Knowledge (dungeoneering) +5, Perception +10, Spellcraft +8,
-Stealth +14, Swim +13
-
-**Languages:** Aboleth, Aquan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Tiny or Small animal;
-[greater polymorph](ref/spell/polymorph-greater)), symbiotic bond
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or with 1 [veiled master](ref/monster/alghollthu-veiled-master)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary or with 1 [veiled master](ref/monster/alghollthu-veiled-master)
+Treasure: None
+:::
 
 ### Special Abilities
 

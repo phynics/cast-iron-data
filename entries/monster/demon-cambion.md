@@ -34,90 +34,70 @@ abilities = ["15", "13", "14", "13", "12", "14"]
 _This red-skinned, demonic humanoid has a forked tongue, and a pair of black horns sprout from its
 brow._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 armor, +1 Dex, +1 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +2
+Will: +4
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 13
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk scimitar +6 (1d6+2/18-20), claw +0 (1d4+1/19-20) or 2 claws +5 (1d4+2/19-20)
+Ranged: mwk composite longbow +5 (1d8+2/×3)
+Spec Att: sadistic strike, sinfrenzy
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+Per day: 3/day: command (DC 13)\
+1/day: charm person (DC 13), death knell (DC 14), enthrall (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 13, Wis 12, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Deceitful, Power Attack
+Skills: Acrobatics +7, Bluff +10, Disguise +10, Sense Motive +7, Stealth +7
+Languages: Abyssal, Common; [telepathy](ref/umr/telepathy) 30 ft.
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 armor, +1 Dex, +1 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk scimitar +6 (1d6+2/18-20), claw +0 (1d4+1/19-20) or 2 claws +5 (1d4+2/19-20)
-
-**Ranged:** mwk composite longbow +5 (1d8+2/×3)
-
-**Spec Att:** sadistic strike, sinfrenzy
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Per day:**
-
-- 3/day: command (DC 13)
-- 1/day: charm person (DC 13), death knell (DC 14), enthrall (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 13, Wis 12, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Deceitful, Power Attack
-
-**Skills:** Acrobatics +7, Bluff +10, Disguise +10, Sense Motive +7, Stealth +7
-
-**Languages:** Abyssal, Common; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, gang (3-7), or cult (8-13)
-
-**Treasure:** NPC gear (studded leather armor, mwk scimitar, mwk cl20+2); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, gang (3-7), or cult (8-13)
+Treasure: NPC gear (studded leather armor, mwk scimitar, mwk cl20+2); other treasure
+:::
 
 ### Special Abilities
 

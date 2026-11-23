@@ -31,81 +31,61 @@ abilities = ["11", "19", "14", "8", "10", "13"]
 _Dancing in a wicked celebration, this slight humanoid is wrapped head to toe in dirty scraps of
 dark cloth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +4
+Perception: +4
+Senses: See in darkness
+Size: small
+Subtype: Dark folk
+Experience points: 400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +7
+Will: +0
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: club +2 (1d4) or dagger +6 (1d3/19-20 plus poison)
+Spec Att: bardic performance (7 rounds), dark curse, death throes, [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
-**Senses:** See in darkness
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 19, Con 14, Int 8, Wis 10, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Climb +4, Perception +4, Perform (dance) +2, Sleight of Hand +5, Stealth +12
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+Languages: Dark Folk
+Special qualities: [poison use](ref/ability/poison-use)
+:::
 
-**Subtype:** Dark folk
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +0
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** club +2 (1d4) or dagger +6 (1d3/19-20 plus poison)
-
-**Spec Att:** bardic performance (7 rounds), dark curse, death throes,
-[sneak attack](ref/ability/sneak-attack) +1d6
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 19, Con 14, Int 8, Wis 10, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +4, Perception +4, Perform (dance) +2, Sleight of Hand +5, Stealth +12
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Dark Folk
-
-**Special qualities:** [poison use](ref/ability/poison-use)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, troupe (3-5), or delegation (1 plus 1
-[dark stalker](ref/monster/dark-folk-dark-stalker) and 4-10
-[dark creepers](ref/monster/dark-folk-dark-creeper))
-
-**Treasure:** Standard (club, dagger); [black smear poison](ref/eq-poison/black-smear) \[3 doses\],
-other gear
+::: statblock
+Environment: any underground
+Organization: solitary, pair, troupe (3-5), or delegation (1 plus 1 [dark stalker](ref/monster/dark-folk-dark-stalker) and 4-10 [dark creepers](ref/monster/dark-folk-dark-creeper))
+Treasure: Standard (club, dagger); [black smear poison](ref/eq-poison/black-smear) \[3 doses\], other gear
+:::
 
 ### Special Abilities
 

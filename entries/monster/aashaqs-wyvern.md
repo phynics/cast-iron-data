@@ -30,86 +30,65 @@ abilities = ["21", "12", "20", "9", "12", "11"]
 _This light purple dragon has immense wings and a bifurcated tail, each end tipped with a hooked
 stinger. Heavy smoke drips from the beast's nostrils and jaws._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +5
+Size: large
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 103 (9d12+45)
+Fort: +11
+Ref: +7
+Will: +9
+Immune: dragon traits, magic paralysis and sleep
+Resist: acid 10, fire 10
+Sr: 19
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., swim 40 ft., fly 60 ft. (poor)
+Br Weap: 30-ft. cone, 6d6 fire damage plus fumes, Reflex DC 19 half, usable every 1d4 rounds
+Melee: bite +13 (2d6+5 plus [grab](ref/umr/grab)), 2 stings +13 (1d6+5 plus poison), 2 wings +8 (1d6+2)
+Rake: 2 talons +16, 1d6+5
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 12, Con 20, Int 9, Wis 12, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)
+Skills: Fly +7
+Racial Modifiers: +4 Perception
+Languages: Draconic
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 103 (9d12+45)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +9
-
-**Immune:** dragon traits, magic paralysis and sleep
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft., fly 60 ft. (poor)
-
-**Br Weap:** 30-ft. cone, 6d6 fire damage plus fumes, Reflex DC 19 half, usable every 1d4 rounds
-
-**Melee:** bite +13 (2d6+5 plus [grab](ref/umr/grab)), 2 stings +13 (1d6+5 plus poison), 2 wings +8
-(1d6+2)
-
-**Rake:** 2 talons +16, 1d6+5
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 20, Int 9, Wis 12, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)
-
-**Skills:** Fly +7
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Draconic
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary, pair, or murder (3-5 and 1-3 [wyverns](ref/monster/wyvern))
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary, pair, or murder (3-5 and 1-3 [wyverns](ref/monster/wyvern))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

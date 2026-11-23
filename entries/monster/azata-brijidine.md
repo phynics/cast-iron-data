@@ -30,116 +30,79 @@ abilities = ["20", "21", "24", "15", "18", "23"]
 
 _This beautiful woman has flesh made of lava. She soars through the sky on a trail of fire._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: flaming body, holy aura
+Alignment: Chaotic good
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Azata, Chaotic, Earth, Extraplanar, Fire, Good
+tremorsense: 60
+Experience points: 102,400
+:::
 
-**aura:** flaming body, holy aura
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 32
+Touch: 19
+Flat-footed: 27
+AC modifiers: +4 deflection, +5 Dex, +13 natural
+Hit points: 256 (19d10+152)
+Fort: +22
+Ref: +15
+Will: +21
+Dr: 10/cold iron and evil
+Immune: electricity, fire, petrification
+Resist: cold 10
+Sr: 28
+Vulner: cold
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Burn: 2d6, DC 26
+Entrap: DC 26, instantaneous, [hardness](ref/umr/hardness) 8, hp 30
+Melee: +1 [flaming burst](ref/magic-enh/flaming-burst) [keen](ref/magic-enh/keen) longsword +25/+20/+15/+10 (1d8+8/17-20 plus 1d6 fire and burn)
+Ranged: lava blast +24 (16d6 fire plus burn and entrap)
+Trample: 1d8+7, DC 24
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +25
+Constant: holy aura (DC 24)
+At will: flaming sphere (DC 18), heat metal (DC 18), meld into stone, self only, soften earth and stone, stone shape
+Per day: 5/day: cure serious wounds, flame strike (DC 21), move earth, spike stones (DC 20), stone tell, summon nature's ally V, earth and fire elementals only, wall of stone (DC 22)\
+3/day: earthquake, fire storm (DC 23), heal, stoneskin, wall of fire
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 21, Con 24, Int 15, Wis 18, Cha 23
+Base attack bonus: +19
+Combat maneuver bonus: +24
+Combat maneuver defense: 43
+Feats: Cleave, Combat Expertise, Combat Reflexes, Critical Focus, Improved Bull Rush, Iron Will, Lunge, Power Attack, Staggering Critical, Toughness
+Skills: Craft (any one) +24, Sense Motive +26
+Languages: Celestial, Draconic, Ignan, Infernal, Terran; _truespeech_
+Special qualities: heat stone, obsidian blade
+:::
 
-**Subtype:** Azata, Chaotic, Earth, Extraplanar, Fire, Good
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 19
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 deflection, +5 Dex, +13 natural
-
-**Hit points:** 256 (19d10+152)
-
-**Fort:** +22
-
-**Ref:** +15
-
-**Will:** +21
-
-**Dr:** 10/cold iron and evil
-
-**Immune:** electricity, fire, petrification
-
-**Resist:** cold 10
-
-**Sr:** 28
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Burn:** 2d6, DC 26
-
-**Entrap:** DC 26, instantaneous, [hardness](ref/umr/hardness) 8, hp 30
-
-**Melee:** +1 [flaming burst](ref/magic-enh/flaming-burst) [keen](ref/magic-enh/keen) longsword
-+25/+20/+15/+10 (1d8+8/17-20 plus 1d6 fire and burn)
-
-**Ranged:** lava blast +24 (16d6 fire plus burn and entrap)
-
-**Trample:** 1d8+7, DC 24
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +25
-
-**Constant:**
-
-- holy aura (DC 24)
-
-**At will:**
-
-- flaming sphere (DC 18), heat metal (DC 18), meld into stone, self only, soften earth and stone,
-  stone shape
-
-**Per day:**
-
-- 5/day: cure serious wounds, flame strike (DC 21), move earth, spike stones (DC 20), stone tell,
-  summon nature's ally V, earth and fire elementals only, wall of stone (DC 22)
-- 3/day: earthquake, fire storm (DC 23), heal, stoneskin, wall of fire
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 21, Con 24, Int 15, Wis 18, Cha 23
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 43
-
-**Feats:** Cleave, Combat Expertise, Combat Reflexes, Critical Focus, Improved Bull Rush, Iron Will,
-Lunge, Power Attack, Staggering Critical, Toughness
-
-**Skills:** Craft (any one) +24, Sense Motive +26
-
-**Languages:** Celestial, Draconic, Ignan, Infernal, Terran; _truespeech_
-
-**Special qualities:** heat stone, obsidian blade
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary or team (2-5)
-
-**Treasure:** Double; no flammable items
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary or team (2-5)
+Treasure: Double; no flammable items
+:::
 
 ### Special Abilities
 

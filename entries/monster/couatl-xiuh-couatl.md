@@ -31,150 +31,90 @@ abilities = ["26", "20", "20", "23", "25", "23"]
 
 _Wreathed in flame, this winged serpent sports brightly colored feathers sparking with electricity._
 
-**Challenge rating:** 12
-
-**Initiative:** +9
-
-**Size:** large
-
-**Alignment:** Neutral good
-
-**Type:** outsider
-
-**Perception:** +29
-
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law
-
-**Subtype:** Native
-
-**thoughtsense:** 60
-
-**Experience points:** 19,200
-
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 24
-
-**AC modifiers:** +5 Dex, +15 natural, -1 size
-
-**Hit points:** 157 (15d10+75)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +16
-
-**Immune:** electricity, fire
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (average)
-
-**Br Weap:** 60-ft. line, 6d6 fire and 6d6 electricity, Reflex DC 22 half, usable every 1d6 rounds
-
-**Burn:** 1d6 fire, DC 22
-
-**Constrict:** 2d6+12
-
-**Melee:** bite +22 (2d6+12 plus burn, [grab](ref/umr/grab), and poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- detect chaos/evil/good/law
-
-**At will:**
-
-- detect thoughts (DC 18), invisibility, plane shift (DC 23)
-
-**Per week:**
-
-- atonement
-
-**Spells Known**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**7th-level spells:**
-
-- 4/day: greater arcane sight, vision
-
-**6th-level spells:**
-
-- 7/day: greater dispel magic, legend lore, veil (DC 22)
-
-**5th-level spells:**
-
-- 7/day: commune with nature, mind thrust V (DC 21), psychic crush I (DC 21), wall of force
-
-**4th-level spells:**
-
-- 7/day: divination, dream, locate creature, sending
-
-**3rd-level spells:**
-
-- 7/day: clairaudience/clairvoyance, deep slumber (DC 20), dispel magic, haste
-
-**2nd-level spells:**
-
-- 8/day: anticipate thoughts (DC 18), augury, aversion (DC 18), demand offering (DC 18), scare (DC
-  19)
-
-**1st-level spells:**
-
-- 8/day: anticipate peril (DC 17), charm person (DC 18), forbid action (DC 18), mindlink, sleep (DC
-  18)
-
-**Cantrips:**
-
-- At will: bleed (DC 17), detect magic, detect poison, ghost sound (DC 17), know direction, light,
-  mage hand, read magic, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 20, Con 20, Int 23, Wis 25, Cha 23
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Alertness, Flyby Attack, Hover, Improved Initiative, Persuasive, Power Attack, Quicken
-Spell, Wingover
-
-**Skills:** Acrobatics +20, Diplomacy +28, Fly +21, Intimidate +8, Knowledge (arcana) +13, Knowledge
-(geography) +14, Knowledge (local) +24, Perception +29, Use Magic Device +21
-
-**Languages:** Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** instrument of retribution
-
-**Ecology**
-
-**Environment:** any mountain
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Challenge rating: 12
+Initiative: +9
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law
+Subtype: Native
+thoughtsense: 60
+Experience points: 19,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 24
+AC modifiers: +5 Dex, +15 natural, -1 size
+Hit points: 157 (15d10+75)
+Fort: +14
+Ref: +10
+Will: +16
+Immune: electricity, fire
+Sr: 23
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft., fly 80 ft. (average)
+Br Weap: 60-ft. line, 6d6 fire and 6d6 electricity, Reflex DC 22 half, usable every 1d6 rounds
+Burn: 1d6 fire, DC 22
+Constrict: 2d6+12
+Melee: bite +22 (2d6+12 plus burn, [grab](ref/umr/grab), and poison)
+Reach: 10
+Space: 10
+Spec Att: poison
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: detect chaos/evil/good/law
+At will: detect thoughts (DC 18), invisibility, plane shift (DC 23)
+Per week: atonement
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 15
+Concentration: +21
+7th-level spells: 4/day: greater arcane sight, vision
+6th-level spells: 7/day: greater dispel magic, legend lore, veil (DC 22)
+5th-level spells: 7/day: commune with nature, mind thrust V (DC 21), psychic crush I (DC 21), wall of force
+4th-level spells: 7/day: divination, dream, locate creature, sending
+3rd-level spells: 7/day: clairaudience/clairvoyance, deep slumber (DC 20), dispel magic, haste
+2nd-level spells: 8/day: anticipate thoughts (DC 18), augury, aversion (DC 18), demand offering (DC 18), scare (DC 19)
+1st-level spells: 8/day: anticipate peril (DC 17), charm person (DC 18), forbid action (DC 18), mindlink, sleep (DC 18)
+Cantrips: At will: bleed (DC 17), detect magic, detect poison, ghost sound (DC 17), know direction, light, mage hand, read magic, stabilize
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 26, Dex 20, Con 20, Int 23, Wis 25, Cha 23
+Base attack bonus: +15
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Alertness, Flyby Attack, Hover, Improved Initiative, Persuasive, Power Attack, Quicken Spell, Wingover
+Skills: Acrobatics +20, Diplomacy +28, Fly +21, Intimidate +8, Knowledge (arcana) +13, Knowledge (geography) +14, Knowledge (local) +24, Perception +29, Use Magic Device +21
+Languages: Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: instrument of retribution
+:::
+
+### Ecology {#stat-ecology}
+
+::: statblock
+Environment: any mountain
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

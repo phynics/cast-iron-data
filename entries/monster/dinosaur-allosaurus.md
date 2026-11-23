@@ -28,75 +28,60 @@ abilities = ["26", "13", "19", "2", "15", "10"]
 _This bipedal dinosaur has a mouth filled with sharp teeth and short, powerful arms that end in
 sharp claws._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +28
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 18
+AC modifiers: +1 Dex, +10 natural, -2 size
+Hit points: 93 (11d8+44)
+Fort: +11
+Ref: +8
+Will: +7
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +14 (2d6+8/19-20 plus [grab](ref/umr/grab)), 2 claws +14 (1d8+8)
+Pounce: present
+Rake: 2 talons +14, 1d8+8
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 26, Dex 13, Con 19, Int 2, Wis 15, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +18
+Combat maneuver defense: 29
+Feats: Alertness, Improved Critical (bite), Improved Initiative, Iron Will, Nimble Moves, Run
+Skills: Perception +28
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +10 natural, -2 size
-
-**Hit points:** 93 (11d8+44)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +14 (2d6+8/19-20 plus [grab](ref/umr/grab)), 2 claws +14 (1d8+8)
-
-**Pounce:** present
-
-**Rake:** 2 talons +14, 1d8+8
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 19, Int 2, Wis 15, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 29
-
-**Feats:** Alertness, Improved Critical (bite), Improved Initiative, Iron Will, Nimble Moves, Run
-
-**Skills:** Perception +28
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate or warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests or plains
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Description
 

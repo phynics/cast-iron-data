@@ -32,77 +32,61 @@ abilities = ["10", "13", "-", "-", "11", "1"]
 _This tiny steel creature has one oversized eye, a spherical body, and several spider-like legs of
 grinding metal._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: construct
+Initiative: +5
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Clockwork
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 dodge, +2 size
+Hit points: 5 (1d10)
+Fort: +0
+Ref: +3
+Will: +0
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., fly 30 ft. (clumsy)
+Melee: slam +3 (1d2)
+Spec Att: record audio, self-destruct
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Clockwork
+::: statblock
+Ability scores: Str 10, Dex 13, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Climb +3, Stealth +11
+Racial Modifiers: +2 Climb, +2 Stealth
+Special qualities: swift reactions, winding
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 dodge, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +0
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (clumsy)
-
-**Melee:** slam +3 (1d2)
-
-**Spec Att:** record audio, self-destruct
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +3, Stealth +11
-
-**Racial Modifiers:** +2 Climb, +2 Stealth
-
-**Special qualities:** swift reactions, winding
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental; gemstone worth 50 gp
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental; gemstone worth 50 gp
+:::
 
 ### Special Abilities
 

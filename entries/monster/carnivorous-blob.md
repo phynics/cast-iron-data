@@ -30,85 +30,65 @@ abilities = ["36", "11", "24", "-", "1", "1"]
 _Rolling and twitching like a massive wad of translucent ooze, this crimson blob reaches out
 amorphous pseudopods in all directions._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsight: 60
+Size: colossal
+Initiative: +0
+Alignment: Neutral
+Type: ooze
+Perception: -5
+tremorsense: 120
+Experience points: 25,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 2
+Touch: 2
+Flat-footed: 2
+AC modifiers: -8 size
+Hit points: 184 (16d8+112)
+Fort: +12
+Ref: +5
+Will: +0
+Defensive abilities: reactive strike
+Dr: 10/-
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+Resist: electricity 30, fire 30
+Split: sonic or slashing, 32 hp
+Vulner: cold
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Constrict: 8d6+19 plus 1d4 Con drain
+Melee: slam +17 (8d6+19 plus 1d4 Con drain and [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: absorb flesh
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 36, Dex 11, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Skills: Climb +21
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 2
-
-**Touch:** 2
-
-**Flat-footed:** 2
-
-**AC modifiers:** -8 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +0
-
-**Defensive abilities:** reactive strike
-
-**Dr:** 10/-
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** electricity 30, fire 30
-
-**Split:** sonic or slashing, 32 hp
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Constrict:** 8d6+19 plus 1d4 Con drain
-
-**Melee:** slam +17 (8d6+19 plus 1d4 Con drain and [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** absorb flesh
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 11, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Skills:** Climb +21
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,81 +32,63 @@ abilities = ["14", "21", "17", "6", "11", "10"]
 _Dull, red eyes, grasping claws, and leathery wings give a demonic aspect to this creature's smoky
 form._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Evil
+Experience points: 2,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +5 Dex, +6 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +11
+Will: +2
+Dr: 5/-
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (perfect)
+Melee: bite +12 (1d6+2), 2 claws +12 (1d6+2), 2 wings +10 (1d6+1)
+Reach: 10
+Space: 10
+Spec Att: smoke claws
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 21, Con 17, Int 6, Wis 11, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Combat Reflexes, Flyby Attack, Multiattack, Weapon Finesse
+Skills: Acrobatics +16, Fly +22, Perception +11, Stealth +16
+Racial Modifiers: +4 Stealth
+Languages: Auran
+Special qualities: smoke form
+:::
 
-**Subtype:** Air, Elemental, Evil
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +6 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +2
-
-**Dr:** 5/-
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +12 (1d6+2), 2 claws +12 (1d6+2), 2 wings +10 (1d6+1)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** smoke claws
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 17, Int 6, Wis 11, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Combat Reflexes, Flyby Attack, Multiattack, Weapon Finesse
-
-**Skills:** Acrobatics +16, Fly +22, Perception +11, Stealth +16
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Auran
-
-**Special qualities:** smoke form
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary, pair, or clutch (3-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary, pair, or clutch (3-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -30,84 +30,67 @@ abilities = ["15", "11", "14", "6", "9", "12"]
 
 _This large, regal canine looks like a juvenile mastiff. It has red fur and vibrant blue eyes._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic good
+Initiative: +4
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft., Scent
+Size: small
+Subtype: Native
+Experience points: 600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 natural, +1 size
+Hit points: 22 (3d10+6)
+Fort: +3
+Ref: +3
+Will: +2
+Dr: 5/cold iron
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +6 (1d4+3)
+Spec Att: thunderous growl
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+Per day: 3/day: knock, open/close, stabilize\
+1/day: dimension door, self plus 5 lbs. of objects only
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 15, Dex 11, Con 14, Int 6, Wis 9, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Dimensional Agility, Improved Initiative
+Skills: Acrobatics +6, Intimidate +7, Perception +5, Sense Motive +5
+Languages: Celestial (can't speak)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 natural, +1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +6 (1d4+3)
-
-**Spec Att:** thunderous growl
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: knock, open/close, stabilize
-- 1/day: dimension door, self plus 5 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 11, Con 14, Int 6, Wis 9, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Dimensional Agility, Improved Initiative
-
-**Skills:** Acrobatics +6, Intimidate +7, Perception +5, Sense Motive +5
-
-**Languages:** Celestial (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pack (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or pack (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

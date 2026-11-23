@@ -32,96 +32,72 @@ into a giant, winged scorpion._
 
 **Mythic Apocalypse Locust**
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Mythic rank: 3
+Alignment: Chaotic evil
+Initiative: +0
+Size: large
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Mythic
+Experience points: 2,400
+:::
 
-**Mythic rank:** 3
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 75 (6d10+42)
+Fort: +7
+Ref: +2
+Will: +6
+Dr: 5/epic
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Br Weap: 30-ft. line, 1d6 fire damage plus accursed brand, Will DC 15 negates, usable every 2d4 rounds
+Constrict: 1d8+9
+M Power: 3/day, surge +1d6
+Melee: 2 pincers +7 (1d8+3 plus [grab](ref/umr/grab)), sting +11 (1d6+6 plus sting)
+Reach: 10
+Space: 10
+Spec Att: abyssal torment, maddening buzz, sting
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 1/day: summon swarm, locusts only
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 10, Con 14, Int 11, Wis 13, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 23
+Feats: Flyby Attack, Mythic Power Attack, Mythic Weapon Focus (pincer)
+Skills: Bluff +11, Fly +11, Intimidate +11, Perception +10
+Languages: Abyssal
+:::
 
-**Subtype:** Evil, Extraplanar, Mythic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 75 (6d10+42)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +6
-
-**Dr:** 5/epic
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Br Weap:** 30-ft. line, 1d6 fire damage plus accursed brand, Will DC 15 negates, usable every 2d4
-rounds
-
-**Constrict:** 1d8+9
-
-**M Power:** 3/day, surge +1d6
-
-**Melee:** 2 pincers +7 (1d8+3 plus [grab](ref/umr/grab)), sting +11 (1d6+6 plus sting)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** abyssal torment, maddening buzz, sting
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 1/day: summon swarm, locusts only
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 10, Con 14, Int 11, Wis 13, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Flyby Attack, Mythic Power Attack, Mythic Weapon Focus (pincer)
-
-**Skills:** Bluff +11, Fly +11, Intimidate +11, Perception +10
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any evil-aligned planes
-
-**Organization:** solitary, pair, or colony (3-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: any evil-aligned planes
+Organization: solitary, pair, or colony (3-30)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

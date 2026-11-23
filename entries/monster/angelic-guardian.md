@@ -30,73 +30,59 @@ abilities = ["18", "15", "-", "-", "11", "1"]
 _This brass statue is sculpted in the shape of an angel with metal wings, and its halo takes the
 form of a burning crown._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 53 (6d10+20)
+Fort: +2
+Ref: +4
+Will: +2
+Defensive abilities: deflective wings
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Br Weap: 60-ft. line, 6d6 fire damage, Reflex DC 13 half, usable every 1d4 rounds
+Melee: 2 slams +10 (1d6+4), 2 wings +5 (1d4+2)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 15, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Languages: Common (can't speak)
+Special qualities: metallic feathers
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 53 (6d10+20)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +2
-
-**Defensive abilities:** deflective wings
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Br Weap:** 60-ft. line, 6d6 fire damage, Reflex DC 13 half, usable every 1d4 rounds
-
-**Melee:** 2 slams +10 (1d6+4), 2 wings +5 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** metallic feathers
-
-**Ecology**
-
-**Environment:** any urban (Magnimar)
-
-**Organization:** solitary, assembly (2-4), or choir (5-8)
-
-**Treasure:** None
+::: statblock
+Environment: any urban (Magnimar)
+Organization: solitary, assembly (2-4), or choir (5-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

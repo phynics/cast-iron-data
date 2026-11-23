@@ -32,77 +32,61 @@ abilities = ["24", "17", "21", "16", "18", "21"]
 _The glossy alabaster coat of this noble horse ripples with muscles, while its hooves shimmer with
 pale blue energy._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral good
+Perception: +17
+Senses: Darkvision 120 ft., Know alignment, Low-light vision
+Subtype: Air
+Experience points: 6,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +3 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +10
+Will: +9
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 60 ft., fly 120 ft. (good)
+Melee: 2 hooves +16 (2d6+7 plus 1d6 electricity)
+Reach: 10
+Space: 10
+Spec Att: breath weapons, flying charge
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 120 ft., Know alignment, Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 17, Con 21, Int 16, Wis 18, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility
+Skills: Fly +18, Knowledge (planes) +13, Perception +17
+Languages: Auran, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: shift planes
+:::
 
-**Subtype:** Air
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (good)
-
-**Melee:** 2 hooves +16 (2d6+7 plus 1d6 electricity)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** breath weapons, flying charge
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 21, Int 16, Wis 18, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility
-
-**Skills:** Fly +18, Knowledge (planes) +13, Perception +17
-
-**Languages:** Auran, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** shift planes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

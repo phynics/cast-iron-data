@@ -31,76 +31,60 @@ abilities = ["15", "14", "15", "11", "14", "12"]
 _This creature has the sun-bronzed upper body of a seasoned warrior and the lower body of a sleek
 warhorse._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +6
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft.
+Experience points: 800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 18
+AC modifiers: +6 armor, +2 Dex, +1 natural, +2 shield, -1 size
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +6
+Will: +6
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., (35 ft. in armor)
+Melee: longsword +5 (1d8+2/19-20), 2 hooves +0 (1d6+1)
+Ranged: spear +5 (1d8+2/×3)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 14, Con 15, Int 11, Wis 14, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Run
+Skills: Diplomacy +5, Intimidate +6, Knowledge (nature) +4, Perception +7
+Languages: Common, Elven, Sylvan
+Special qualities: [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +2 Dex, +1 natural, +2 shield, -1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 50 ft., (35 ft. in armor)
-
-**Melee:** longsword +5 (1d8+2/19-20), 2 hooves +0 (1d6+1)
-
-**Ranged:** spear +5 (1d8+2/×3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 15, Int 11, Wis 14, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Run
-
-**Skills:** Diplomacy +5, Intimidate +6, Knowledge (nature) +4, Perception +7
-
-**Languages:** Common, Elven, Sylvan
-
-**Special qualities:** [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** temperate forests and plains
-
-**Organization:** solitary, pair, band (3-10), tribe (11-30 plus 3 hunters of 3rd level and 1 leader
-of 6th level)
-
-**Treasure:** Standard (breastplate, heavy steel shield, longsword, spear); other treasure
+::: statblock
+Environment: temperate forests and plains
+Organization: solitary, pair, band (3-10), tribe (11-30 plus 3 hunters of 3rd level and 1 leader of 6th level)
+Treasure: Standard (breastplate, heavy steel shield, longsword, spear); other treasure
+:::
 
 ### Special Abilities
 

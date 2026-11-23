@@ -31,79 +31,62 @@ abilities = ["28", "17", "-", "-", "19", "1"]
 
 _This massive, three-headed clockwork snake is crafted of brass and strange, dark alloys._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Type: construct
+Size: huge
+Initiative: +3
+Perception: +4
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Chaotic, Evil
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 30
+Touch: 11
+Flat-footed: 27
+AC modifiers: +3 Dex, +19 natural, -2 size
+Hit points: 139 (18d10+40)
+Fort: +6
+Ref: +9
+Will: +10
+Dr: 10/-
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 10, cold 10, electricity 10, fire 10
+Sr: 24
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 40 ft.
+Melee: 3 bites +25 (2d8+9 plus poison)
+Reach: 15
+Space: 15
+Spec Att: confusing critical, poison
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 17, Con -, Int -, Wis 19, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +29
+Combat maneuver defense: 42 (can't be tripped)
+Special qualities: demon-souled, find master, guard, shield other
+:::
 
-**Subtype:** Chaotic, Evil
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 30
-
-**Touch:** 11
-
-**Flat-footed:** 27
-
-**AC modifiers:** +3 Dex, +19 natural, -2 size
-
-**Hit points:** 139 (18d10+40)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +10
-
-**Dr:** 10/-
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 3 bites +25 (2d8+9 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** confusing critical, poison
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 17, Con -, Int -, Wis 19, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Special qualities:** demon-souled, find master, guard, shield other
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

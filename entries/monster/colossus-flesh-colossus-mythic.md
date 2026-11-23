@@ -33,102 +33,75 @@ humanoid shape._
 
 **Mythic Flesh Colossus**
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Mythic rank: 6
+aura: selective antimagic (20 ft.), unnatural (30 ft.)
+Type: construct
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Perception: +8
+Senses: All-around vision, Darkvision 60 ft., Low-light vision
+Subtype: Colossus, Mythic
+Experience points: 76,800
+:::
 
-**Mythic rank:** 6
+### Defense
 
-**aura:** selective antimagic (20 ft.), unnatural (30 ft.)
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +24 natural, -4 size
+Hit points: 224 (16d10+136)
+Fort: +5
+Ref: +5
+Will: +5
+Dr: 10/epic
+Immune: electricity, [construct traits](ref/umr/construct-traits)
+:::
 
-**Type:** construct
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 60 ft.
+Constrict: 2d12+16
+M Power: 6/day, surge +1d8
+Melee: 2 slams +28 (2d12+16/19-20/×3 plus [grab](ref/umr/grab)) or stomp +28 (4d12+24 plus pinning stomp)
+Reach: 20
+Space: 20
+Spec Att: mythic quickening, pinning stomp
+:::
 
-**Initiative:** +0
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +14
+Per day: 3/day: waves of fatigue\
+1/day: circle of death (DC 17)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 42, Dex 11, Con -, Int 3, Wis 10, Cha 7
+Base attack bonus: +16
+Combat maneuver bonus: +36
+Combat maneuver defense: 46
+Feats: Cleave, Great Cleave, Greater Vital Strike, Mythic Improved Critical (slam), Improved Vital Strike, Mythic Power Attack, Toughness, Vital Strike
+Skills: Intimidate +9, Perception +8
+Languages: Common
+Special qualities: alternate form, mythic creation, mythic resilience
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Colossus, Mythic
-
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +24 natural, -4 size
-
-**Hit points:** 224 (16d10+136)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 10/epic
-
-**Immune:** electricity, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Constrict:** 2d12+16
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** 2 slams +28 (2d12+16/19-20/×3 plus [grab](ref/umr/grab)) or stomp +28 (4d12+24 plus
-pinning stomp)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** mythic quickening, pinning stomp
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: waves of fatigue
-- 1/day: circle of death (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 11, Con -, Int 3, Wis 10, Cha 7
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 46
-
-**Feats:** Cleave, Great Cleave, Greater Vital Strike, Mythic Improved Critical (slam), Improved
-Vital Strike, Mythic Power Attack, Toughness, Vital Strike
-
-**Skills:** Intimidate +9, Perception +8
-
-**Languages:** Common
-
-**Special qualities:** alternate form, mythic creation, mythic resilience
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

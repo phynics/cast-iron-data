@@ -31,82 +31,63 @@ abilities = ["35", "12", "-", "13", "10", "9"]
 _Like a deranged caterpillar of grinding metal and protruding turrets, this massive armored vehicle
 dominates the battlefield, spitting hot lead and artillery - seemingly without a crew._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 28
+AC modifiers: +1 Dex, +20 natural, -2 size
+Hit points: 144 (16d10+56)
+Fort: +5
+Ref: +6
+Will: +5
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Ranged: 3 Maxim M1910 machine guns +15 (2d8/19-20), Hotchkiss 6 pounder +15 (8d6/×3)
+Reach: 5
+Space: 15
+Spec Att: integrated weaponry, telekinesis, vicious
+Trample: 6d6+18, DC 30
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 35, Dex 12, Con -, Int 13, Wis 10, Cha 9
+Base attack bonus: +16
+Combat maneuver bonus: +30 (+32 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush, can't be tripped)
+Feats: Alertness, Awesome Blow, Improved Bull Rush, Improved Initiative, Point-Blank Shot, Power Attack, Skill Focus (Perception), Toughness
+Skills: Intimidate +15, Perception +26, Sense Motive +20
+Languages: Russian (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: inexhaustible ammo
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 28
-
-**AC modifiers:** +1 Dex, +20 natural, -2 size
-
-**Hit points:** 144 (16d10+56)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Ranged:** 3 Maxim M1910 machine guns +15 (2d8/19-20), Hotchkiss 6 pounder +15 (8d6/×3)
-
-**Reach:** 5
-
-**Space:** 15
-
-**Spec Att:** integrated weaponry, telekinesis, vicious
-
-**Trample:** 6d6+18, DC 30
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 12, Con -, Int 13, Wis 10, Cha 9
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +30 (+32 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush, can't be tripped)
-
-**Feats:** Alertness, Awesome Blow, Improved Bull Rush, Improved Initiative, Point-Blank Shot, Power
-Attack, Skill Focus (Perception), Toughness
-
-**Skills:** Intimidate +15, Perception +26, Sense Motive +20
-
-**Languages:** Russian (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** inexhaustible ammo
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, troop (2-4), squadron (5-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, troop (2-4), squadron (5-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

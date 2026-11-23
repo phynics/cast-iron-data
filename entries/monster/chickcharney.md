@@ -31,69 +31,57 @@ abilities = ["6", "17", "14", "2", "13", "15"]
 _Resembling a filthy owl with the gangly long legs of a stork, this almost comically ugly bird has
 piercing black eyes and emits an annoying screech._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +7
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., fly 30 ft. (average)
+Melee: bite +8 (1d4-2 plus ill-luck), 2 claws +8 (1d3-2 plus ill luck)
+Spec Att: maddening screech
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 6, Dex 17, Con 14, Int 2, Wis 13, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Dodge, Weapon Finesse
+Skills: Fly +10, Perception +6
+Special qualities: blessed trill
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 30 ft. (average)
-
-**Melee:** bite +8 (1d4-2 plus ill-luck), 2 claws +8 (1d3-2 plus ill luck)
-
-**Spec Att:** maddening screech
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 17, Con 14, Int 2, Wis 13, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Fly +10, Perception +6
-
-**Special qualities:** blessed trill
-
-**Ecology**
-
-**Environment:** warm forests, hills, or plains
-
-**Organization:** solitary or nesting pair
-
-**Treasure:** None
+::: statblock
+Environment: warm forests, hills, or plains
+Organization: solitary or nesting pair
+Treasure: None
+:::
 
 ### Special Abilities
 

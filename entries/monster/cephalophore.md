@@ -34,75 +34,60 @@ abilities = ["25", "14", "-", "-", "12", "1"]
 _Holding its own severed head in its hands, this tall marble statue looms stern and forbidding over
 its domain._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 96 (12d10+30)
+Fort: +4
+Ref: +6
+Will: +5
+Defensive abilities: shatter weapon
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 20
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +18 (2d6+7 plus dazing strike)
+Reach: 10
+Space: 10
+Spec Att: dazing gaze
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 14, Con -, Int -, Wis 12, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 32
+Special qualities: shatter weapon, statue form
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 96 (12d10+30)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** shatter weapon
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +18 (2d6+7 plus dazing strike)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dazing gaze
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con -, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 32
-
-**Special qualities:** shatter weapon, statue form
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

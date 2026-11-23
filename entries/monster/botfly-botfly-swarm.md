@@ -31,79 +31,62 @@ abilities = ["2", "11", "10", "-", "11", "2"]
 _Like a cloud of black dust, a swirling swarm of insects hovers in the air. From within comes the
 low, droning buzz of thousands of tiny flies._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Size: fine
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 1,200
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 18
+AC modifiers: +8 size
+Hit points: 40 (9d8)
+Fort: +6
+Ref: +3
+Will: +3
+Defensive abilities: swarm traits
+Immune: mind-affecting effects, weapon damage
+Weaknesses: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 0 ft., fly 60 ft. (good)
+Distraction: 14
+Melee: swarm (2d6 plus infestation)
+Reach: 0
+Space: 10
+Spec Att: infestation, suffocation
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 2, Dex 11, Con 10, Int -, Wis 11, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +12
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 size
-
-**Hit points:** 40 (9d8)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +3
-
-**Defensive abilities:** swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Weaknesses:** swarm traits
-
-**Offense**
-
-**Speed:** 0 ft., fly 60 ft. (good)
-
-**Distraction:** 14
-
-**Melee:** swarm (2d6 plus infestation)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** infestation, suffocation
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 11, Con 10, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +12
-
-**Ecology**
-
-**Environment:** warm jungles and swamps
-
-**Organization:** solitary or colony (2-20 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: warm jungles and swamps
+Organization: solitary or colony (2-20 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

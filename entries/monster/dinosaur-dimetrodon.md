@@ -29,71 +29,58 @@ abilities = ["20", "15", "18", "1", "12", "3"]
 _The massive sail on the back of this squat reptilian creature flexes and twitches as the beast
 stalks forward._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +6
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +8 (1d8+7/19-20)
+Reach: 5
+Space: 10
+Spec Att: tearing bite
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 1, Wis 12, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Improved Initiative, Weapon Focus (bite)
+Skills: Perception +6, Stealth +3
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +8 (1d8+7/19-20)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** tearing bite
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 1, Wis 12, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Focus (bite)
-
-**Skills:** Perception +6, Stealth +3
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

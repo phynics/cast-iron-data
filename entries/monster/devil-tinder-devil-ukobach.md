@@ -35,84 +35,64 @@ and raw like the victim of horrific burns. Although barely taller than a child, 
 those of a terrible old man with an oversized head, knife-like nose, and crazed round eyes
 flickering with wild flames._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +8
+Alignment: Lawful evil
+Type: outsider
+Perception: +3
+Senses: Darkvision 60 ft., See in darkness
+Size: small
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 32 (5d10+5)
+Fort: +2
+Ref: +8
+Will: +7
+Dr: 5/silver or good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 15
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: 1 fire poker +5 (1d6-1 plus 1d4 fire) or 2 claws +5 (1d4-1 plus 1d4 fire)
+Ranged: 1 ember +10 (1d6 fire)
+Spec Att: animate flames, fire breathing, scorch
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 9, Dex 19, Con 13, Int 13, Wis 16, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Improved Initiative, Lightning Reflexes, Throw Anything
+Skills: Acrobatics +12, Appraise +9, Bluff +9, Climb +7, Craft (any) +9, Knowledge (arcana) +9, Stealth +16
+Languages: Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: fire leap
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +7
-
-**Dr:** 5/silver or good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 1 fire poker +5 (1d6-1 plus 1d4 fire) or 2 claws +5 (1d4-1 plus 1d4 fire)
-
-**Ranged:** 1 ember +10 (1d6 fire)
-
-**Spec Att:** animate flames, fire breathing, scorch
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 19, Con 13, Int 13, Wis 16, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Lightning Reflexes, Throw Anything
-
-**Skills:** Acrobatics +12, Appraise +9, Bluff +9, Climb +7, Craft (any) +9, Knowledge (arcana) +9,
-Stealth +16
-
-**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** fire leap
-
-**Ecology**
-
-**Environment:** [Hell](ref/rule/hell)
-
-**Organization:** solitary, pair, or team (4-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: [Hell](ref/rule/hell)
+Organization: solitary, pair, or team (4-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

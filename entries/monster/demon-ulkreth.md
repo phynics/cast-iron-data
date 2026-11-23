@@ -32,111 +32,79 @@ _This towering monstrosity is clad in cracked boulders, jagged shards of rock, s
 metal, and shredded steel. Four immense arms end in rocky fists, and bony wings protrude from its
 back._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +0
+Type: outsider
+Perception: +30
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar
+tremorsense: 60
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +24 natural, -4 size
+Hit points: 229 (17d10+136)
+Fort: +18
+Ref: +5
+Will: +12
+Dr: 10/cold iron and good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Rock Ct: present
+:::
 
-**Initiative:** +0
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 20 ft., fly 50 ft. (clumsy)
+Melee: gore +23 (2d8+10 plus 1d6 piercing), 4 slams +24 (2d6+10/19-20 plus 1d6 piercing)
+Ranged: 4 rocks +14 (3d6+10)
+Reach: 20
+Rend: 2 slams, 6d6+15
+Rock Th: 120 ft.
+Space: 20
+Spec Att: boulder barrage, ground pounder, punch through, wrecker
+Trample: 3d6+10, DC 28
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +17
+At will: greater teleport, self plus 50 lbs. of objects only, shatter (DC 14)
+Per day: 3/day: move earth\
+1/day: earthquake, summon (level 5, 1 ulkreth or 1 omox 40%)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+::: statblock
+Ability scores: Str 30, Dex 11, Con 26, Int 7, Wis 14, Cha 15
+Base attack bonus: +17
+Combat maneuver bonus: +31 (+35 overrun, +35 sunder)
+Combat maneuver defense: 43 (45 vs. overrun, 45 vs. sunder)
+Feats: Charge Through, Greater Overrun, Greater Sunder, Improved Critical (slams), Improved Overrun, Improved Sunder, Power Attack, Sundering Strike, Weapon Focus (slams)
+Skills: Climb +28
+Racial Modifiers: +8 Perception
+Languages: Abyssal, Celestial, Draconic
+:::
 
-**tremorsense:** 60
+### Ecology {#stat-ecology}
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +24 natural, -4 size
-
-**Hit points:** 229 (17d10+136)
-
-**Fort:** +18
-
-**Ref:** +5
-
-**Will:** +12
-
-**Dr:** 10/cold iron and good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., fly 50 ft. (clumsy)
-
-**Melee:** gore +23 (2d8+10 plus 1d6 piercing), 4 slams +24 (2d6+10/19-20 plus 1d6 piercing)
-
-**Ranged:** 4 rocks +14 (3d6+10)
-
-**Reach:** 20
-
-**Rend:** 2 slams, 6d6+15
-
-**Rock Th:** 120 ft.
-
-**Space:** 20
-
-**Spec Att:** boulder barrage, ground pounder, punch through, wrecker
-
-**Trample:** 3d6+10, DC 28
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +17
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, shatter (DC 14)
-
-**Per day:**
-
-- 3/day: move earth
-- 1/day: earthquake, summon (level 5, 1 ulkreth or 1 omox 40%)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 11, Con 26, Int 7, Wis 14, Cha 15
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +31 (+35 overrun, +35 sunder)
-
-**Combat maneuver defense:** 43 (45 vs. overrun, 45 vs. sunder)
-
-**Feats:** Charge Through, Greater Overrun, Greater Sunder, Improved Critical (slams), Improved
-Overrun, Improved Sunder, Power Attack, Sundering Strike, Weapon Focus (slams)
-
-**Skills:** Climb +28
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Abyssal, Celestial, Draconic
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or crew (2-4 ulkreths)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or crew (2-4 ulkreths)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

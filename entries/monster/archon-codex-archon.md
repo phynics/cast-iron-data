@@ -32,104 +32,73 @@ abilities = ["15", "16", "18", "17", "15", "16"]
 _This enormous book has wings of glowing light and an angelic figure on the cover that gazes out
 watchfully as though alive._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: aura of menace (DC 17), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+Initiative: +3
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+Subtype: Archon, Extraplanar, Good, Lawful
+Experience points: 1,600
+:::
 
-**aura:** aura of menace (DC 17), _[magic circle against evil](ref/spell/magic-circle-against-evil)_
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 47 (5d10+20)
+Fort: +7
+Ref: +7
+Will: +5; +4 vs. poison, +2 vs. evil
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 16
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (good)
+Fav En: any one +4
+Melee: slam +7 (1d8+2)
+Ranged: light ray +8 ranged touch (1d6)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Constant: detect evil, detect magic, magic circle against evil
+At will: aid, continual flame, forbid action (DC 14), greater teleport, self plus 50 lbs. of objects only, mage hand, message
+Per day: 1/day: calm emotions (DC 15), clairaudience/clairvoyance, commune, CL 9th; 1 question, daylight, silence (DC 15)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 16, Con 18, Int 17, Wis 15, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Iron Will, Point-Blank Shot, Skill Focus (Knowledge \[any one\])
+Skills: Craft (bookbinding) +11, Diplomacy +11, Disable Device +11, Knowledge (any one) +14, Linguistics +11, Perception +10
+Languages: Celestial, Draconic, Infernal, any 5 others; _truespeech_
+Special qualities: codex
+:::
 
-**Subtype:** Archon, Extraplanar, Good, Lawful
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +5; +4 vs. poison, +2 vs. evil
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** fly 30 ft. (good)
-
-**Fav En:** any one +4
-
-**Melee:** slam +7 (1d8+2)
-
-**Ranged:** light ray +8 ranged touch (1d6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Constant:**
-
-- detect evil, detect magic, magic circle against evil
-
-**At will:**
-
-- aid, continual flame, forbid action (DC 14), greater teleport, self plus 50 lbs. of objects only,
-  mage hand, message
-
-**Per day:**
-
-- 1/day: calm emotions (DC 15), clairaudience/clairvoyance, commune, CL 9th; 1 question, daylight,
-  silence (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 16, Con 18, Int 17, Wis 15, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Iron Will, Point-Blank Shot, Skill Focus (Knowledge \[any one\])
-
-**Skills:** Craft (bookbinding) +11, Diplomacy +11, Disable Device +11, Knowledge (any one) +14,
-Linguistics +11, Perception +10
-
-**Languages:** Celestial, Draconic, Infernal, any 5 others; _truespeech_
-
-**Special qualities:** codex
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or team (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or team (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

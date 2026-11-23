@@ -30,99 +30,72 @@ abilities = ["18", "19", "18", "13", "14", "17"]
 _A long-beaked, crested head on a twisted neck rises from a formless, glowing mass of a body. Now
 and then, a grasping claw extends forth._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: septic wounds (30 ft.)
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft., Scent
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 3,200
+:::
 
-**aura:** septic wounds (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +10
+Will: +7
+Amorph: present
+Dr: 10/good or silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +13 (1d8+4 plus 1d6 acid and disease), 2 claws +14 (1d4+4/19-20 plus 1d6 acid and disease)
+Spec Att: necrotic slough
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +10
+At will: contagion (DC 17), dimension door
+Per day: 1/day: summon (level 3, 1 sepsidaemon 40%)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 18, Dex 19, Con 18, Int 13, Wis 14, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 27
+Feats: Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Weapon Focus (claw)
+Skills: Climb +16
+Languages: Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +7
-
-**Amorph:** present
-
-**Dr:** 10/good or silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +13 (1d8+4 plus 1d6 acid and disease), 2 claws +14 (1d4+4/19-20 plus 1d6 acid and
-disease)
-
-**Spec Att:** necrotic slough
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**At will:**
-
-- contagion (DC 17), dimension door
-
-**Per day:**
-
-- 1/day: summon (level 3, 1 sepsidaemon 40%)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 18, Int 13, Wis 14, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Weapon Focus
-(claw)
-
-**Skills:** Climb +16
-
-**Languages:** Abyssal, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or infection (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or infection (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

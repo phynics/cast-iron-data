@@ -31,112 +31,77 @@ abilities = ["35", "26", "37", "12", "26", "25"]
 _Crowned with a wicked array of twisted horns, this wide-mouthed, spherical behemoth stands on four
 stout legs._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: unholy aura
+Size: gargantuan
+Initiative: +12
+Alignment: Neutral evil
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**aura:** unholy aura
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 38
+Touch: 18
+Flat-footed: 30
+AC modifiers: +4 deflection, +8 Dex, +20 natural, -4 size
+Hit points: 370 (20d10+260)
+Fort: +29
+Ref: +18
+Will: +26
+Dr: 10/good and silver
+Immune: acid, death effects, disease, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 31
+:::
 
-**Initiative:** +12
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 50 ft.
+Melee: 2 bites +28 (2d8+12/19-20 plus [grab](ref/umr/grab)), 4 claws +28 (2d6+12 plus grab), gore +28 (2d8+12)
+Reach: 20
+Space: 20
+Spec Att: drain soul, soul-drained breath
+Trample: 2d8+18, DC 32
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: air walk, true seeing, unholy aura (DC 25)
+At will: greater teleport, self plus 50 lbs. objects only, telekinesis, wall of fire, wall of ice
+Per day: 3/day: quickened disintegrate (DC 23), wall of force\
+1/day: blasphemy (DC 24), summon (level 9, any 1 CR 19 or lower daemon, 100%), wail of the banshee (DC 26)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 35, Dex 26, Con 37, Int 12, Wis 26, Cha 25
+Base attack bonus: +20
+Combat maneuver bonus: +36 (+40 grapple)
+Combat maneuver defense: 54 (58 vs. trip)
+Feats: Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate)
+Skills: Climb +35, Intimidate +30, Knowledge (planes) +24, Perception +31
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: adamantine claws
+:::
 
-**Subtype:** Daemon, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 18
-
-**Flat-footed:** 30
-
-**AC modifiers:** +4 deflection, +8 Dex, +20 natural, -4 size
-
-**Hit points:** 370 (20d10+260)
-
-**Fort:** +29
-
-**Ref:** +18
-
-**Will:** +26
-
-**Dr:** 10/good and silver
-
-**Immune:** acid, death effects, disease, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., burrow 50 ft.
-
-**Melee:** 2 bites +28 (2d8+12/19-20 plus [grab](ref/umr/grab)), 4 claws +28 (2d6+12 plus grab),
-gore +28 (2d8+12)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** drain soul, soul-drained breath
-
-**Trample:** 2d8+18, DC 32
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- air walk, true seeing, unholy aura (DC 25)
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. objects only, telekinesis, wall of fire, wall of ice
-
-**Per day:**
-
-- 3/day: quickened disintegrate (DC 23), wall of force
-- 1/day: blasphemy (DC 24), summon (level 9, any 1 CR 19 or lower daemon, 100%), wail of the banshee
-  (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 26, Con 37, Int 12, Wis 26, Cha 25
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +36 (+40 grapple)
-
-**Combat maneuver defense:** 54 (58 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Critical (bite),
-Improved Initiative, Improved Sunder, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate)
-
-**Skills:** Climb +35, Intimidate +30, Knowledge (planes) +24, Perception +31
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** adamantine claws
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or apocalypse (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or apocalypse (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

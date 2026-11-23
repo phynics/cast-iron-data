@@ -31,115 +31,81 @@ abilities = ["11", "21", "14", "18", "10", "19"]
 _A tangle of thin, tentacle-like eyestalks floats in the air, its innumerable unblinking eyes each
 projecting an air of cruelty._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +28
+Senses: All-around vision, Darkvision 120 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +5 Dex, +6 natural
+Hit points: 84 (13d8+26)
+Fort: +6
+Ref: +9
+Will: +8
+Dr: 5/magic
+Immune: cold, disease, poison
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 5 ft., fly 50 ft. (good)
+Constrict: 3d6 plus withering
+Melee: tentacles +15 (3d6 plus [grab](ref/umr/grab) and withering)
+Pull: tentacles, 5 feet
+Reach: 5
+Reach P: 15 ft. with tentacles
+Space: 5
+Spec Att: gnaw
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +17
+At will: calm emotions (DC 16), charm monster (DC 18), clairaudience/clairvoyance, clairvoyance only, daze monster (DC 16), feather fall
+Per day: 3/day: dispel magic, lightning bolt (DC 17)\
+1/day: dominate monster (DC 23)
+Per month: interplanetary teleport
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** All-around vision, Darkvision 120 ft., Low-light vision
-
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +6 natural
-
-**Hit points:** 84 (13d8+26)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +8
-
-**Dr:** 5/magic
-
-**Immune:** cold, disease, poison
-
-**Offense**
-
-**Speed:** 5 ft., fly 50 ft. (good)
-
-**Constrict:** 3d6 plus withering
-
-**Melee:** tentacles +15 (3d6 plus [grab](ref/umr/grab) and withering)
-
-**Pull:** tentacles, 5 feet
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tentacles
-
-**Space:** 5
-
-**Spec Att:** gnaw
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +17
-
-**At will:**
-
-- calm emotions (DC 16), charm monster (DC 18), clairaudience/clairvoyance, clairvoyance only, daze
-  monster (DC 16), feather fall
-
-**Per day:**
-
-- 3/day: dispel magic, lightning bolt (DC 17)
-- 1/day: dominate monster (DC 23)
-
-**Per month:**
-
-- interplanetary teleport
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 21, Con 14, Int 18, Wis 10, Cha 19
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +9 (+21 grapple)
-
-**Combat maneuver defense:** 24 (32 vs. grapple, can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Flyby Attack, Hover^B^, Improved Initiative, Skill Focus
-(Perception), Weapon Finesse, Weapon Focus (tentacle), Wingover^B^
-
-**Skills:** Acrobatics +21, Diplomacy +17, Sense Motive +13, Spellcraft +15, Stealth +21, Use Magic
-Device +17
-
-**Racial Modifiers:** +6 Perception
-
-**Languages:** Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression), float, [no breath](ref/umr/no-breath)
+::: statblock
+Ability scores: Str 11, Dex 21, Con 14, Int 18, Wis 10, Cha 19
+Base attack bonus: +9
+Combat maneuver bonus: +9 (+21 grapple)
+Combat maneuver defense: 24 (32 vs. grapple, can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Flyby Attack, Hover^B^, Improved Initiative, Skill Focus (Perception), Weapon Finesse, Weapon Focus (tentacle), Wingover^B^
+Skills: Acrobatics +21, Diplomacy +17, Sense Motive +13, Spellcraft +15, Stealth +21, Use Magic Device +17
+Racial Modifiers: +6 Perception
+Languages: Aklo, Common, Draconic, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression), float, [no breath](ref/umr/no-breath)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary, pair, pod (3-5), or invasion (6-36)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, pod (3-5), or invasion (6-36)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

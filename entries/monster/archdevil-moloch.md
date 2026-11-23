@@ -31,137 +31,88 @@ abilities = ["40", "25", "42", "25", "34", "33"]
 _This immense figure appears to be a suit of blackened, diabolic armor filled with shrieking blasts
 of blistering fire._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: fiendish furnace (10 ft.), [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), shield of law (DC 29)
+Size: huge
+Initiative: +11
+Alignment: Lawful evil
+Type: outsider
+Perception: +49
+Senses: Darkvision 60 ft., Detect chaos, Detect good, Mistsight, See in darkness, True seeing
+Subtype: Devil, Evil, Extraplanar, Lawful
+Experience points: 6,553,600
+:::
 
-**aura:** fiendish furnace (10 ft.), [frightful presence](ref/umr/frightful-presence) (120 ft., DC
-38), shield of law (DC 29)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 47
+Touch: 34
+Flat-footed: 40
+AC modifiers: +4 deflection, +7 Dex, +13 natural, +15 profane, -2 size
+Hit points: 731 (34d10+544)
+Fort: +39
+Ref: +24
+Will: +35; +8 vs. mind-affecting effects
+Defensive abilities: infernal resurrection, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic, good, and silver
+Fortif: 50
+Immune: ability damage, ability drain, charm, compulsion, death effects, energy drain, fire, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, cold 30
+Sr: 40
+:::
 
-**Initiative:** +11
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft.
+Burn: 2d6 hellfire, DC 43
+F Swallow: present
+Melee: Goreletch +46/+41/+36/+31 (3d6+18/19-20/×4), Ramithaine +46/+41 (3d6+18/17-20/×3), bite +42 (2d6+7 plus [grab](ref/umr/grab) and burn), gore +42 (2d6+7 plus burn)
+Reach: 15
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 15
+Spec Att: barbed blademaster, incinerate, spirit of hellfire
+Swallow: 20d10 hellfire damage plus pain, AC 16, 73 hp
+:::
 
-**Type:** outsider
-
-**Perception:** +49
-
-**Senses:** Darkvision 60 ft., Detect chaos, Detect good, Mistsight, See in darkness, True seeing
-
-**Subtype:** Devil, Evil, Extraplanar, Lawful
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 34
-
-**Flat-footed:** 40
-
-**AC modifiers:** +4 deflection, +7 Dex, +13 natural, +15 profane, -2 size
-
-**Hit points:** 731 (34d10+544)
-
-**Fort:** +39
-
-**Ref:** +24
-
-**Will:** +35; +8 vs. mind-affecting effects
-
-**Defensive abilities:** infernal resurrection, _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic, good, and silver
-
-**Fortif:** 50
-
-**Immune:** ability damage, ability drain, charm, compulsion, death effects, energy drain, fire,
-petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Burn:** 2d6 hellfire, DC 43
-
-**F Swallow:** present
-
-**Melee:** Goreletch +46/+41/+36/+31 (3d6+18/19-20/×4), Ramithaine +46/+41 (3d6+18/17-20/×3), bite
-+42 (2d6+7 plus [grab](ref/umr/grab) and burn), gore +42 (2d6+7 plus burn)
-
-**Reach:** 15
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 15
-
-**Spec Att:** barbed blademaster, incinerate, spirit of hellfire
-
-**Swallow:** 20d10 hellfire damage plus pain, AC 16, 73 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +40
-
-**Constant:**
-
-- air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
-
-**At will:**
-
-- astral projection, desecrate^M^, dictum^M^ (DC 28), dominate person^M^ (DC 26), fireball^M^ (DC
-  24), greater dispel magic, greater teleport, order's wrath^M^ (DC 25), slow^M^ (DC 24), unhallow,
-  wall of fire^M^
-
-**Per day:**
-
-- 3/day: quickened blade barrier^M^ (DC 27), empowered fire storm (DC 29), mass charm monster (DC
-  29), mass hold person (DC 28), summon devils
-- 1/day: meteor swarm^M^ (DC 30), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +40
+Constant: air walk, detect chaos, detect good, mind blank, shield of law (DC 29), true seeing
+At will: astral projection, desecrate^M^, dictum^M^ (DC 28), dominate person^M^ (DC 26), fireball^M^ (DC 24), greater dispel magic, greater teleport, order's wrath^M^ (DC 25), slow^M^ (DC 24), unhallow, wall of fire^M^
+Per day: 3/day: quickened blade barrier^M^ (DC 27), empowered fire storm (DC 29), mass charm monster (DC 29), mass hold person (DC 28), summon devils\
+1/day: meteor swarm^M^ (DC 30), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Moloch can use this ability's mythic version in his realm
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 40, Dex 25, Con 42, Int 25, Wis 34, Cha 33
+::: statblock
+Ability scores: Str 40, Dex 25, Con 42, Int 25, Wis 34, Cha 33
+Base attack bonus: +34
+Combat maneuver bonus: +51 (+53 bull rush)
+Combat maneuver defense: 87 (89 vs. bull rush)
+Feats: Combat Expertise, Craft Magic Arms and Armor, Critical Focus, Double Slice, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (fire storm), Improved Bull Rush, Improved Critical (battleaxe, longsword), Improved Initiative, Improved Lightning Reflexes, Improved Two-Weapon Fighting, Lightning Reflexes, Power Attack, Quicken Spell-Like Ability (blade barrier), Staggering Critical, Two-Weapon Fighting, Two-Weapon Rend
+Skills: Bluff +48, Intimidate +48, Knowledge (arcana, history, religion) +41, Linguistics +44, Perception +49, Use Magic Device +45
+Languages: all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: call weaponry, infernal fortress
+Faith: Moloch
+:::
 
-**Base attack bonus:** +34
+### Ecology
 
-**Combat maneuver bonus:** +51 (+53 bull rush)
-
-**Combat maneuver defense:** 87 (89 vs. bull rush)
-
-**Feats:** Combat Expertise, Craft Magic Arms and Armor, Critical Focus, Double Slice, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (fire storm), Improved Bull Rush, Improved
-Critical (battleaxe, longsword), Improved Initiative, Improved Lightning Reflexes, Improved
-Two-Weapon Fighting, Lightning Reflexes, Power Attack, Quicken Spell-Like Ability (blade barrier),
-Staggering Critical, Two-Weapon Fighting, Two-Weapon Rend
-
-**Skills:** Bluff +48, Intimidate +48, Knowledge (arcana, history, religion) +41, Linguistics +44,
-Perception +49, Use Magic Device +45
-
-**Languages:** all (language mastery); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** call weaponry, infernal fortress
-
-**Faith:** Moloch
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple; Goreletch, Ramithaine, other treasure
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary (unique)
+Treasure: Triple; Goreletch, Ramithaine, other treasure
+:::
 
 ### Special Abilities
 

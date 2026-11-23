@@ -31,86 +31,65 @@ abilities = ["22", "28", "22", "3", "15", "9"]
 _A tremendous bramble of intertwined bushes rises from a sizable pile of bones heaped at its roots,
 and its thorny flowers drip blood._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +13
+Size: large
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Initiative:** +13
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 18
+Flat-footed: 15
+AC modifiers: +9 Dex, +6 natural, -1 size
+Hit points: 126 (12d8+72)
+Fort: +14
+Ref: +13
+Will: +8
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Bleed: 1d6
+Melee: 4 vines +17 (1d8+6/19-20 plus bleed)
+Reach: 10
+Space: 10
+Spec Att: bramble incursion, swift trip
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 22, Dex 28, Con 22, Int 3, Wis 15, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 35 (can't be tripped)
+Feats: Improved Critical (vine), Improved Initiative, Iron Will, Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse
+Skills: Climb +14, Perception +14, Stealth +17
+Languages: Aklo (can't speak)
+Special qualities: [freeze](ref/umr/freeze) (as berry bush)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +9 Dex, +6 natural, -1 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +8
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 4 vines +17 (1d8+6/19-20 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bramble incursion, swift trip
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 28, Con 22, Int 3, Wis 15, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Feats:** Improved Critical (vine), Improved Initiative, Iron Will, Skill Focus (Perception), Skill
-Focus (Stealth), Weapon Finesse
-
-**Skills:** Climb +14, Perception +14, Stealth +17
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze) (as berry bush)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or thicket (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or thicket (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

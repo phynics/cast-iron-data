@@ -29,73 +29,59 @@ abilities = ["21", "15", "17", "-", "10", "2"]
 _What at first appears to be a spindly, dead tree suddenly crawls from its camouflage, its wiry
 antenna twitching in the air._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 60 (8d8+24)
+Fort: +9
+Ref: +4
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +10 (1d6+5)
+Reach: 10
+Space: 10
+Spec Att: nauseating spray
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 21, Dex 15, Con 17, Int -, Wis 10, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (32 vs. trip)
+Skills: Stealth +6 (+14 in brushy areas)
+Racial Modifiers: +8 Stealth (+16 in brushy areas)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +10 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** nauseating spray
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 17, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (32 vs. trip)
-
-**Skills:** Stealth +6 (+14 in brushy areas)
-
-**Racial Modifiers:** +8 Stealth (+16 in brushy areas)
-
-**Ecology**
-
-**Environment:** warm deserts and forests
-
-**Organization:** solitary, pair, or brood (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts and forests
+Organization: solitary, pair, or brood (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

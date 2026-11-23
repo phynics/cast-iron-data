@@ -30,117 +30,81 @@ abilities = ["11", "10", "13", "10", "13", "16"]
 _This creature looks like a humanoid skeleton with a complete set of internal organs. A violet glow
 replaces its missing flesh._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Detect magic
+Subtype: [cold](ref/subtype/cold) or [fire](ref/subtype/fire), [extraplanar](ref/subtype/extraplanar)
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 32 (5d10+5)
+Fort: +5
+Ref: +3
+Will: +5
+Defensive abilities: frostfire spirit
+Dr: 5/magic
+Immune: cold or fire
+Sr: 15
+Vulner: cold or fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +5 (1d6 plus 1d6 cold or fire)
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+At will: detect magic, read magic
+Per day: 3/day: cure light wounds\
+1/day: invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +8
+2nd-level spells: 5/day: acid arrow, daze monster (DC 15)
+1st-level spells: 7/day: chill touch (DC 14), color spray (DC 14), magic missile, sleep (DC 14)
+Cantrips: At will: dancing lights, daze (DC 13), disrupt undead, ghost sound (DC 13), mage hand, prestidigitation
+:::
 
-**Subtype:** [cold](ref/subtype/cold) or [fire](ref/subtype/fire),
-[extraplanar](ref/subtype/extraplanar)
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 11, Dex 10, Con 13, Int 10, Wis 13, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Combat Casting, Improved Initiative, Lightning Reflexes
+Skills: Intimidate +11, Knowledge (arcana) +8, Perception +9, Spellcraft +8, Stealth +4, Use Magic Device +11
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Celestial, Draconic, Protean; _[read magic](ref/spell/read-magic)_
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 32 (5d10+5)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +5
-
-**Defensive abilities:** frostfire spirit
-
-**Dr:** 5/magic
-
-**Immune:** cold or fire
-
-**Sr:** 15
-
-**Vulner:** cold or fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +5 (1d6 plus 1d6 cold or fire)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**At will:**
-
-- detect magic, read magic
-
-**Per day:**
-
-- 3/day: cure light wounds
-- 1/day: invisibility
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- 5/day: acid arrow, daze monster (DC 15)
-
-**1st-level spells:**
-
-- 7/day: chill touch (DC 14), color spray (DC 14), magic missile, sleep (DC 14)
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 13), disrupt undead, ghost sound (DC 13), mage hand,
-  prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 10, Con 13, Int 10, Wis 13, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Combat Casting, Improved Initiative, Lightning Reflexes
-
-**Skills:** Intimidate +11, Knowledge (arcana) +8, Perception +9, Spellcraft +8, Stealth +4, Use
-Magic Device +11
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Celestial, Draconic, Protean; _[read magic](ref/spell/read-magic)_
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or cabal (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or cabal (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

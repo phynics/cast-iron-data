@@ -33,111 +33,78 @@ abilities = ["25", "20", "27", "19", "19", "22"]
 
 _Twice the height of a human, this horned monstrous warrior wields a massive blade._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +9
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Div, Evil, Extraplanar
+Experience points: 38,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 27
+AC modifiers: +5 Dex, +18 natural, -1 size
+Hit points: 202 (15d10+120)
+Fort: +13
+Ref: +16
+Will: +15
+Dr: 10/cold iron and good
+Immune: fire, poison
+Resist: acid 10, electricity 10
+Sr: 25
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: +1 falchion +23/+18/+13 (2d6+11/15-20) or 2 claws +21 (1d6+7)
+Reach: 10
+Space: 10
+Spec Att: rain of debris
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+At will: comprehend languages, deeper darkness, greater teleport, self plus 50 lbs. of objects only, nondetection, speak with dead (DC 19)
+Per day: 3/day: blindness/deafness (DC 18), fly, ice storm, invisibility, mirror image, scorching ray, touch of idiocy, true strike\
+1/day: animate dead, baleful polymorph (DC 21), bestow curse (DC 20), break enchantment, create undead, disintegrate (DC 22), enervation, fireball (DC 19), hold monster (DC 21), summon (level 4, 1 [ghawwas](ref/monster/div-ghawwas) or 1 [shira](ref/monster/div-shira) 40%), true seeing
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Div, Evil, Extraplanar
-
-**Experience points:** 38,400
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +18 natural, -1 size
-
-**Hit points:** 202 (15d10+120)
-
-**Fort:** +13
-
-**Ref:** +16
-
-**Will:** +15
-
-**Dr:** 10/cold iron and good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, electricity 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 falchion +23/+18/+13 (2d6+11/15-20) or 2 claws +21 (1d6+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rain of debris
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**At will:**
-
-- comprehend languages, deeper darkness, greater teleport, self plus 50 lbs. of objects only,
-  nondetection, speak with dead (DC 19)
-
-**Per day:**
-
-- 3/day: blindness/deafness (DC 18), fly, ice storm, invisibility, mirror image, scorching ray,
-  touch of idiocy, true strike
-- 1/day: animate dead, baleful polymorph (DC 21), bestow curse (DC 20), break enchantment, create
-  undead, disintegrate (DC 22), enervation, fireball (DC 19), hold monster (DC 21), summon (level 4,
-  1 [ghawwas](ref/monster/div-ghawwas) or 1 [shira](ref/monster/div-shira) 40%), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con 27, Int 19, Wis 19, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 38
-
-**Feats:** Cleave, Combat Reflexes, Deflect Arrows^B^, Improved Critical (falchion), Improved
-Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (falchion)
-
-**Skills:** Bluff +24, Fly +15, Intimidate +24, Knowledge (arcana) +22, Perception +22, Sense Motive
-+20, Spellcraft +22, Stealth +19, Use Magic Device +24
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100
-ft.
-
-**Special qualities:** deflect rays
+::: statblock
+Ability scores: Str 25, Dex 20, Con 27, Int 19, Wis 19, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 38
+Feats: Cleave, Combat Reflexes, Deflect Arrows^B^, Improved Critical (falchion), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (falchion)
+Skills: Bluff +24, Fly +15, Intimidate +24, Knowledge (arcana) +22, Perception +22, Sense Motive +20, Spellcraft +22, Stealth +19, Use Magic Device +24
+Languages: Abyssal, Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: deflect rays
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+1 falchion); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard (+1 falchion); other treasure
+:::
 
 ### Special Abilities
 

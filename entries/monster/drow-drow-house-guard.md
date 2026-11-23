@@ -31,99 +31,76 @@ abilities = ["14", "17", "11", "10", "12", "10"]
 
 _This dark-skinned elf stands in a battle-ready pose, her hair silver and eyes white and pupilless._
 
-**Challenge rating:** 2
-
 **Drow [fighter](ref/class/fighter) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +6
+Senses: Darkvision 120 ft.
+Subtype: Elf
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex
+Hit points: 24 (3d10+3)
+Fort: +3
+Ref: +4
+Will: +2 (+1 vs. fear); +2 vs. enchantment
+Defensive abilities: bravery +1
+Immune: sleep
+Sr: 9
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: mwk longsword +7 (1d8+2/19-20 plus poison)
+Ranged: repeating heavy crossbow +7 (1d10/19-20 plus poison)
+:::
 
-**Senses:** Darkvision 120 ft.
-
-**Subtype:** Elf
-
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex
-
-**Hit points:** 24 (3d10+3)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2 (+1 vs. fear); +2 vs. enchantment
-
-**Defensive abilities:** bravery +1
-
-**Immune:** sleep
-
-**Sr:** 9
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk longsword +7 (1d8+2/19-20 plus poison)
-
-**Ranged:** repeating heavy crossbow +7 (1d10/19-20 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: dancing lights, darkness, faerie fire
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Per day: 1/day: dancing lights, darkness, faerie fire
+:::
 
 ### Tactics
 
 **During Combat** The house guard uses alchemical weapons and poison against spellcasters.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 17, Con 11, Int 10, Wis 12, Cha 10
+::: statblock
+Ability scores: Str 14, Dex 17, Con 11, Int 10, Wis 12, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Deadly Aim, Exotic Weapon Proficiency (heavy repeating crossbow), Point-Blank Shot, Weapon Focus (longsword)
+Skills: Climb +6, Perception +6, Stealth +5
+Languages: Elven, Undercommon
+Special qualities: armor training 1, [poison use](ref/ability/poison-use)
+Combat gear: +1 flaming -bolt, potion of cure light wounds, 2 potion of Xdrow, 2 sss, tanglefoot bag, 2 thunderstones
+Other gear: mwk chain shirt, mwk longsword, repeating heavy crossbow, 20 mwk bolts, 47 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Deadly Aim, Exotic Weapon Proficiency (heavy repeating crossbow), Point-Blank Shot,
-Weapon Focus (longsword)
-
-**Skills:** Climb +6, Perception +6, Stealth +5
-
-**Languages:** Elven, Undercommon
-
-**Special qualities:** armor training 1, [poison use](ref/ability/poison-use)
-
-**Combat gear:** +1 flaming -bolt, potion of cure light wounds, 2 potion of Xdrow, 2 sss, tanglefoot
-bag, 2 thunderstones
-
-**Other gear:** mwk chain shirt, mwk longsword, repeating heavy crossbow, 20 mwk bolts, 47 gp
-
-**Ecology**
-
-**Environment:** underground
+::: statblock
+Environment: underground
+:::
 
 ### Description
 

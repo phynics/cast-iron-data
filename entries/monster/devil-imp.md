@@ -30,104 +30,73 @@ abilities = ["10", "17", "10", "13", "12", "14"]
 _Fiendish wings and a whipping scorpion-like tail lash behind this diminutive, red-skinned
 nuisance._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness
+Subtype: Devil, Evil, Extraplanar, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 16
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +6
+Will: +4
+Dr: 5/good or silver
+Fh: 2
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee: sting +8 (1d4 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Constant: detect good, detect magic
+At will: invisibility, self only
+Per day: 1/day: augury, suggestion (DC 15)
+Per week: commune, 6 questions; CL 12th
+:::
 
-**Subtype:** Devil, Evil, Extraplanar, Lawful
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 10, Dex 17, Con 10, Int 13, Wis 12, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Dodge, Weapon Finesse
+Skills: Acrobatics +9, Bluff +8, Fly +21, Knowledge (arcana) +7, Perception +7, Spellcraft +7
+Languages: Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (boar, giant spider, rat, or raven; [beast shape I](ref/spell/beast-shape-1))
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/good or silver
-
-**Fh:** 2
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Melee:** sting +8 (1d4 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 1/day: augury, suggestion (DC 15)
-
-**Per week:**
-
-- commune, 6 questions; CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 10, Int 13, Wis 12, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Acrobatics +9, Bluff +8, Fly +21, Knowledge (arcana) +7, Perception +7, Spellcraft +7
-
-**Languages:** Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (boar, giant spider, rat, or raven;
-[beast shape I](ref/spell/beast-shape-1))
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or flock (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or flock (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 
