@@ -32,8 +32,6 @@ abilities = ["12", "15", "16", "3", "12", "11"]
 _This hairless blue lion has twin tentacular tails. Dozens more thick tentacles quiver and twitch
 where its mane should be._
 
-## Akata {#stat-akata}
-
 ::: statblock
 Challenge rating: 1
 Type: aberration
@@ -125,14 +123,11 @@ soon awoke to seek out suitable hosts to spawn their young. Left untended, an ak
 quickly grow into a significant threat. A typical akata stands 3-1/2 feet tall and weighs 400
 pounds.
 
-## Void Zombie {#stat-void-zombie}
-
 ::: statblock
+title = "Void Zombie"
 Acquired: present
 Challenge rating: +1
 :::
-
-**Source:** Bestiary 2/22;Pathfinder \#14: Children of the Void/80
 
 A humanoid killed by void death becomes a void zombie. A void zombie is a
 [fast zombie](ref/template/zombie) that gains a secondary "tongue" attack (actually the larval

@@ -29,8 +29,6 @@ abilities = ["17", "10", "-", "8", "10", "13"]
 _This barnacle-encrusted walking corpse looks like a zombie, but is dripping with water and gives
 off a nauseating stench._
 
-## Draugr {#stat-draugr}
-
 ::: statblock
 Challenge rating: 2
 Alignment: Chaotic evil
@@ -103,9 +101,8 @@ In the case of draugr who manifest when an entire ship sinks, these undead usual
 wreck of their ship. Some draugr may be found under the control of aquatic necromancers, while
 others may wander the seas as undead pirates aboard ghost ships.
 
-## Draugr Captain {#stat-captain}
-
 ::: statblock
+title = "Draugr Captain"
 Challenge rating: 3
 :::
 
