@@ -740,6 +740,65 @@ def ioun_seekers_fixes() -> tuple:
 PRINT_FIXES = PRINT_FIXES + ioun_seekers_fixes()
 
 
+# The pale lavender and the lavender and green ellipsoid (hand work, 2026-11-23; owner ruling 12).
+# The two entries shared one body (the Pf Data record held both stones), and each had both prices in
+# its block. Print gives each stone its own price (Core Rulebook p. 521, Ultimate Equipment p. 306:
+# 20,000 gp and 40,000 gp; construction cost is half the market price) and its own limits (the tables
+# print 4th level and 20 spell levels for the pale lavender, 8th level and 50 spell levels for the
+# lavender and green; the Description said 9th). Seekers of Secrets lists the stones in a table on
+# p. 49 (pale lavender) and p. 48 (lavender and green), their cracked variants on p. 47 and their
+# flawed variants on p. 50 (pale lavender) and p. 47 (lavender and green). Each entry now has a
+# heading, a Description and Flawed and Cracked sections for its own stone only, and the rows of the
+# pages its own text cites: the stone's table page first, then the variant pages in print order.
+# The two stone-only edits this does not state as pairs (the removal of the other stone's Flawed and
+# Cracked sections, which carried raw `Sources` lines) were made by hand. Neither entry is merged.
+BOTH_PRICES = "20,000 gp (pale lavender), 40,000 gp (lavender and green)"
+BOTH_COSTS = "10,000 gp (pale lavender), 20,000 gp (lavender and green)"
+SEEKERS_ROW = 'publication = "seekers-of-secrets"\n'
+SHARED_HEADING = "\n## Pale Lavender Ellipsoid; Lavender and Green Ellipsoid\n"
+SHARED_DESCRIPTION = """These stones work somewhat like a [rod of absorption](ref/magic-rod/rod-of-absorption). The **pale
+lavender ioun stone** absorbs spells of 4th level or lower, but only as a
+[readied action](ref/rule/ready). After absorbing 20 spell levels, the stone burns out and turns to
+[dull gray](ref/magic-ioun/dull-gray-stone), forever useless. The **lavender and green ioun stone**
+behaves the same way, but can absorb spells 9th level or lower, and burns out after 50 spell levels
+are absorbed. Neither stone can be used to empower spells.
+"""
+OWN_DESCRIPTION = """This stone works somewhat like a [rod of absorption](ref/magic-rod/rod-of-absorption). It absorbs
+spells of {level} level or lower, but only as a [readied action](ref/rule/ready). After absorbing {levels}
+spell levels, the stone burns out and turns to [dull gray](ref/magic-ioun/dull-gray-stone), forever
+useless. It cannot be used to empower spells.
+"""
+
+
+def lavender_fixes() -> tuple:
+    fixes = []
+    for slug, title, row, pages, price, cost, level, levels in (
+        ("lavender-and-green-ellipsoid", "Lavender and Green Ellipsoid", "48", ("48", "47"), "40,000 gp", "20,000 gp", "8th", "50"),
+        ("pale-lavender-ellipsoid", "Pale Lavender Ellipsoid", "47", ("49", "47", "50"), "20,000 gp", "10,000 gp", "4th", "20"),
+    ):
+        new_rows = SEEKERS_ROW + "".join(
+            f'page = "{page}"\n' if i == 0 else f'[[sources]]\n{SEEKERS_ROW}page = "{page}"\n' for i, page in enumerate(pages)
+        )
+        pairs = (
+            (SEEKERS_ROW + f'page = "{row}"\n\n[fields]', new_rows + "\n[fields]"),
+            (f'\nprice = "{BOTH_PRICES}"\n', f'\nprice = "{price}"\n'),
+            (f"\nPrice: {BOTH_PRICES}\n", f"\nPrice: {price}\n"),
+            (f"\nCost: {BOTH_COSTS}\n", f"\nCost: {cost}\n"),
+            (SHARED_HEADING, f"\n## {title}\n"),
+            (SHARED_DESCRIPTION, OWN_DESCRIPTION.format(level=level, levels=levels)),
+        )
+        note = (
+            f"rows: the stone is in the table on p. {pages[0]}, its variants on {'p.' if len(pages) == 2 else 'pp.'} {', '.join(pages[1:])}; "
+            f"the stone's own price {price}, construction cost {cost}, heading and Description (the entry held both stones'), "
+            "and the `price` field with it; the other stone's Flawed and Cracked sections left the entry"
+        )
+        fixes.append((f"entries/magic-ioun/{slug}.md", "Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306", note, pairs))
+    return tuple(fixes)
+
+
+PRINT_FIXES = PRINT_FIXES + lavender_fixes()
+
+
 # Monsters whose body prints a section of the creature on another page than its stat block (print
 # check, 2026-11-23): the row of the stat block stays first, and a row is added for each page the
 # body cites. (path, publication, the row now, the rows after the change, what the pages print).
@@ -760,6 +819,17 @@ def extra_page_row_fixes() -> tuple:
 
 
 PRINT_FIXES = PRINT_FIXES + extra_page_row_fixes()
+
+
+# Parts of an entry left as the corpus had them until a print source turns up (owner ruling 13 of
+# 2026-11-23). The rest of the entry is converted; the part stays prose and is listed in the TSV.
+HELD_FOR_PRINT = (
+    (
+        "entries/monster/brambleblight.md",
+        "creature",
+        "the Animated Bramble (second statistics, no rating in the corpus): held for print, ruling 13 (Pathfinder #92 is not available)",
+    ),
+)
 
 
 class Queue(Exception):
@@ -2913,6 +2983,8 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
     for rel, citation, note, _ in PRINT_FIXES:
         kind = {"monster": "creature", "npc": "npc"}.get(rel.split("/")[1], "item")
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
+    for rel, kind, detail in HELD_FOR_PRINT:
+        rows.append((rel, kind, "held-for-print", detail))
     for name in passes:
         for path in pass_files(root, name):
             if name in VARIANT_ONLY and not selected(path, parse_only(VARIANT_ONLY[name])):

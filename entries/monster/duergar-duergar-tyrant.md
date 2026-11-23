@@ -31,98 +31,83 @@ abilities = ["16", "13", "19", "10", "14", "6"]
 
 _The dull gray skin of this dwarf ripples with kinetic power._
 
-**Challenge rating:** 3
-
 **Duergar tyrant [geokineticist](ref/class/kineticist) 3**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 3
+Type: humanoid
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +8
+Senses: Darkvision 120 ft.
+Subtype: Dwarf
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 armor
+Hit points: 37 (3d8+12)
+Fort: +7
+Ref: +4
+Will: +3; +2 vs. spells or +4 vs. psychic spells
+Defensive abilities: psychic resilience
+Dr: 1/adamantine
+Immune: paralysis, phantasms, poison
+Sr: 14
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Ranged: earth blast +4 (2d6+6)
+Spec Att: kinetic blast
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 3
+Concentration: +3
+Power points: 5
+Psychoactive powers: ironskin, 2 PE, mind thrust I, 1 PE
+:::
 
-**Subtype:** Dwarf
+::: statblock
+title = "Kineticist Wild Talents Known"
+Defense: [flesh of stone](ref/kinetic/flesh-of-stone)
+Infusions: [extended range](ref/kinetic/extended-range), [kinetic blade](ref/kinetic/kinetic-blade) (2d6)
+Kinetic Blasts: [earth blast](ref/kinetic/earth-blast) (2d6+6)
+Utility: [basic geokinesis](ref/kinetic/basic-geokinesis), [kinetic cover](ref/kinetic/kinetic-cover)
+:::
 
-**Experience points:** 800
+### Statistics
 
-**Armor class:** 16
+::: statblock
+Ability scores: Str 16, Dex 13, Con 19, Int 10, Wis 14, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16 (20 vs. bull rush and trip while on solid ground)
+Feats: Point-Blank Shot, Weapon Focus (earth blast)
+Skills: Intimidate +4, Knowledge (dungeoneering) +6, Perception +8 (+10 related to stonework), Stealth +10
+Racial Modifiers: +2 Perception related to stonework, +4 Stealth
+Languages: Common, Dwarven, Undercommon
+Special qualities: burn (1/round, maximum 7), elemental overflow +1, slow and steady, stability, telekinetic adept
+:::
 
-**Touch:** 11
+### Ecology
 
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 armor
-
-**Hit points:** 37 (3d8+12)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +3; +2 vs. spells or +4 vs. psychic spells
-
-**Defensive abilities:** psychic resilience
-
-**Dr:** 1/adamantine
-
-**Immune:** paralysis, phantasms, poison
-
-**Sr:** 14
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ranged:** earth blast +4 (2d6+6)
-
-**Spec Att:** kinetic blast
-
-**Kineticist Wild Talents Known:**
-_Defense_-[flesh of stone](ref/kinetic/flesh-of-stone)_Infusions_-[extended range](ref/kinetic/extended-range),
-[kinetic blade](ref/kinetic/kinetic-blade) (2d6)_Kinetic
-Blasts_-[earth blast](ref/kinetic/earth-blast)
-(2d6+6)\~_Utility_-[basic geokinesis](ref/kinetic/basic-geokinesis),
-[kinetic cover](ref/kinetic/kinetic-cover)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 19, Int 10, Wis 14, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16 (20 vs. bull rush and trip while on solid ground)
-
-**Feats:** Point-Blank Shot, Weapon Focus (earth blast)
-
-**Skills:** Intimidate +4, Knowledge (dungeoneering) +6, Perception +8 (+10 related to stonework),
-Stealth +10
-
-**Racial Modifiers:** +2 Perception related to stonework, +4 Stealth
-
-**Special qualities:** burn (1/round, maximum 7), elemental overflow +1, slow and steady, stability,
-telekinetic adept
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, squad (1 plus 6-12 [duergar](ref/monster/duergar) plus 3
-[sergeants](ref/monster/duergar-duergar-sergeant) of 3rd level and 1 leader of 3rd-8th level), or
-clan (1 plus 13-18 duergar, 25% noncombatant children, 1 sergeant of 3rd level per 5 adults, 3-6
-[lieutenants](ref/monster/duergar-duergar-lieutenant) of 3rd-6th level, and 1-4
-[captains](ref/monster/duergar-duergar-captain) of 9th level)
-
-**Treasure:** NPC gear (+1 chain shirt); 400 gp
+::: statblock
+Environment: any underground
+Organization: solitary, squad (1 plus 6-12 [duergar](ref/monster/duergar) plus 3 [sergeants](ref/monster/duergar-duergar-sergeant) of 3rd level and 1 leader of 3rd-8th level), or clan (1 plus 13-18 duergar, 25% noncombatant children, 1 sergeant of 3rd level per 5 adults, 3-6 [lieutenants](ref/monster/duergar-duergar-lieutenant) of 3rd-6th level, and 1-4 [captains](ref/monster/duergar-duergar-captain) of 9th level)
+Treasure: NPC gear (+1 chain shirt, 400 gp)
+:::
 
 ### Description
 

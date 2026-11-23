@@ -16,16 +16,10 @@ entries/eq-misc/merfolks-comb.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/nepenthe.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/net-rigging.md	item	variant-paragraphs	Falling Net Trap
-entries/eq-misc/net-rigging.md	trap	label-twice	Type
 entries/eq-misc/nightsage.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
-entries/eq-weapon/composite-longbow.md	cost	no-lead-row	Cost
-entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
-entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost
-entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
 entries/magic-artifact/sword-of-gluttony-ungarato.md	intelligent	sentences-in-variant	Powers
@@ -60,13 +54,12 @@ entries/magic-ioun/dull-gray-stone.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/dusty-rose-prism.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 47) (Seekers of Secrets pp. 48, 46, 47)
 entries/magic-ioun/dusty-rose-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/emerald-ellipsoid.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/emerald-wedge.md	ioun	sentences-in-variant	Requirements
-entries/magic-ioun/emerald-wedge.md	item	variant-paragraphs	Aura
 entries/magic-ioun/gamboge-nodule.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/gold-nodule.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/incandescent-blue-sphere.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/iridescent-spindle.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/lavender-and-green-ellipsoid.md	item	sources-page-conflict	seekers-of-secrets: 48 / 47
+entries/magic-ioun/lavender-and-green-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 48, its variants on p. 47; the stone's own price 40,000 gp, construction cost 20,000 gp, heading and Description (the entry held both stones'), and the `price` field with it; the other stone's Flawed and Cracked sections left the entry (Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306)
+entries/magic-ioun/lavender-and-green-ellipsoid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/magenta-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/mossy-disk.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/mulberry-pentacle.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
@@ -84,7 +77,8 @@ entries/magic-ioun/pale-blue-rhomboid.md	item	print-fix	rows: the stone prints o
 entries/magic-ioun/pale-blue-rhomboid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-green-prism.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
 entries/magic-ioun/pale-green-prism.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/pale-lavender-ellipsoid.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
+entries/magic-ioun/pale-lavender-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 49, its variants on pp. 47, 50; the stone's own price 20,000 gp, construction cost 10,000 gp, heading and Description (the entry held both stones'), and the `price` field with it; the other stone's Flawed and Cracked sections left the entry (Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306)
+entries/magic-ioun/pale-lavender-ellipsoid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-orange-rhomboid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-ruby-trillian.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
 entries/magic-ioun/pale-ruby-trillian.md	item	variant-paragraphs	Price; Price
@@ -155,9 +149,8 @@ entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`:
 entries/magic-wondrous/remote-activation-cube.md	item	print-fix	row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body (Classic Treasures Revisited p. 14)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
 entries/monster/bog-strider.md	creature	print-254	tremorParens: in water
-entries/monster/brambleblight.md	creature	section-after-heading	Offense
+entries/monster/brambleblight.md	creature	held-for-print	the Animated Bramble (second statistics, no rating in the corpus): held for print, ruling 13 (Pathfinder #92 is not available)
 entries/monster/cauldron-bloom.md	creature	print-254	tremorParens: 1 mile
-entries/monster/duergar-duergar-tyrant.md	creature	multi-label-paragraph	Kineticist Wild Talents Known:
 entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst` where the import left `EFB` (Planes of Power p. 54)
 entries/monster/ghul.md	creature	print-fix	rows: the Ghul on p. 62 and the Great Ghuls on p. 63 (Dark Markets, a Guide to Katapesh pp. 62-63)
 entries/monster/hag-annis-hag.md	creature	sources-unparsed	Blood of the Coven

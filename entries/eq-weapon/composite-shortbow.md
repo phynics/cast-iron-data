@@ -38,31 +38,51 @@ composite shortbow is treated as if it were a [shortbow](ref/eq-weapon/shortbow)
 
 ### Composite shortbow +0
 
-**Cost** 75 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 70 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Bows
+::: statblock
+Cost: 75 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 70 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Bows](ref/ability/weapon-groups#sec-bows)
+:::
 
 ### Composite shortbow +1
 
-**Cost** 150gp
+::: statblock
+Cost: 150gp
+:::
 
 ### Composite shortbow +2
 
-**Cost** 225gp
+::: statblock
+Cost: 225gp
+:::
 
 ### Composite shortbow +3
 
-**Cost** 300gp
+::: statblock
+Cost: 300gp
+:::
 
 ### Composite shortbow +4
 
-**Cost** 375gp
+::: statblock
+Cost: 375gp
+:::
 
 ### Composite shortbow +5
 
-**Cost** 450gp
+::: statblock
+Cost: 450gp
+:::
 
-### Composite longbow +6
+### Composite shortbow +6
 
-**Cost** 525gp
+::: statblock
+Cost: 525gp
+:::

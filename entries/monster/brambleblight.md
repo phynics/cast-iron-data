@@ -32,85 +32,65 @@ abilities = ["25", "16", "18", "6", "14", "8"]
 _Two long vines covered in sharp thorns protrude from what appears to be a massive rotting bundle of
 barbs that's topped with a heap of berry-red eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: blight (40 ft., DC 19)
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +10
+Type: plant
+Senses: Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
+Experience points: 3,200
+:::
 
-**aura:** blight (40 ft., DC 19)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +6
+Will: +5
+Defensive abilities: thorny
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +13 (2d6+7)
+Ranged: 4 thorns +10 (1d6+7)
+Reach: 10
+Space: 10
+Spec Att: animate brambles, rain of thorns
+:::
 
-**Perception:** +10
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 25, Dex 16, Con 18, Int 6, Wis 14, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Power Attack, Stand Still, Weapon Focus (thorns)
+Skills: Perception +10, Stealth +7 (+19 in forests)
+Racial Modifiers: +12 Stealth in forests
+Languages: Sylvan
+Special qualities: bramble infestation, improved [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** thorny
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +13 (2d6+7)
-
-**Ranged:** 4 thorns +10 (1d6+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** animate brambles, rain of thorns
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 18, Int 6, Wis 14, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack, Stand Still, Weapon Focus (thorns)
-
-**Skills:** Perception +10, Stealth +7 (+19 in forests)
-
-**Racial Modifiers:** +12 Stealth in forests
-
-**Languages:** Sylvan
-
-**Special qualities:** bramble infestation, improved [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** temperate or warm forests or underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests or underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 
