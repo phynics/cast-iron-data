@@ -63,9 +63,13 @@ action for the runelord).
 
 ### Statistics
 
-**Alignment** LE; **Ego** 25\
-**Senses** 30 ft., sight and hearing\
-**Int** 18, **Wis** 10, **Cha** 10\
-**Communication** telepathy (Common, Thassilonian)\
-**Powers** 3/day - [create food and water](ref/spell/create-food-and-water),
-[cure serious wounds](ref/spell/cure-serious-wounds), [endure elements](ref/spell/endure-elements)
+::: statblock
+Alignment: LE
+Ego: 25
+Senses: 30 ft., sight and hearing
+Int: 18
+Wis: 10
+Cha: 10
+Communication: telepathy (Common, Thassilonian)
+Powers: 3/day - [create food and water](ref/spell/create-food-and-water), [cure serious wounds](ref/spell/cure-serious-wounds), [endure elements](ref/spell/endure-elements)
+:::

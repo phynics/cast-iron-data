@@ -49,7 +49,12 @@ of Wrath living in the world.
 
 ### Statistics
 
-**Alignment** CE; **Ego** 24\
-**Senses** [darkvision](ref/rule/darkvision) 120 ft., hearing\
-**Int** 17, **Wis** 10, **Cha** 17\
-**Communication** read languages, speech, telepathy (Abyssal, Azlanti, Thassilonian)
+::: statblock
+Alignment: CE
+Ego: 24
+Senses: [darkvision](ref/rule/darkvision) 120 ft., hearing
+Int: 17
+Wis: 10
+Cha: 17
+Communication: read languages, speech, telepathy (Abyssal, Azlanti, Thassilonian)
+:::

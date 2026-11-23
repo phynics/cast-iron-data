@@ -53,7 +53,12 @@ Price: 127,500 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 19\
-**Senses** 60 ft.\
-**Int** 16, **Wis** 14, **Cha** 14\
-**Communication** speech (Common, Necril, Osiriani)
+::: statblock
+Alignment: neutral
+Ego: 19
+Senses: 60 ft.
+Int: 16
+Wis: 14
+Cha: 14
+Communication: speech (Common, Necril, Osiriani)
+:::

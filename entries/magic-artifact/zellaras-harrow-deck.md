@@ -60,7 +60,12 @@ needed.
 
 ### Statistics
 
-**Alignment** CG; **Ego** 8\
-**Senses** 60 ft.\
-**Int** 10, **Wis** 13, **Cha** 13\
-**Communication** empathy (see above)
+::: statblock
+Alignment: CG
+Ego: 8
+Senses: 60 ft.
+Int: 10
+Wis: 13
+Cha: 13
+Communication: empathy (see above)
+:::

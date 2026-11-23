@@ -58,7 +58,12 @@ Price: 14,250 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 10\
-**Senses** 60 ft., [blindsense](ref/umr/blindsense)\
-**Int** 10, **Wis** 16, **Cha** 12\
-**Communication** empathy
+::: statblock
+Alignment: neutral
+Ego: 10
+Senses: 60 ft., [blindsense](ref/umr/blindsense)
+Int: 10
+Wis: 16
+Cha: 12
+Communication: empathy
+:::

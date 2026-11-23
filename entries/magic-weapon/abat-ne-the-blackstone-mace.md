@@ -63,7 +63,12 @@ Price: 40,600 gp
 
 ### Statistics
 
-**Alignment** n/a; **Ego** 23\
-**Senses** 60 ft., [blindsense](ref/rule/blindsight-and-blindsense)\
-**Int** 11, **Wis** 16, **Cha** 12\
-**Communication** telepathy (Ancient Osiriani)
+::: statblock
+Alignment: n/a
+Ego: 23
+Senses: 60 ft., [blindsense](ref/rule/blindsight-and-blindsense)
+Int: 11
+Wis: 16
+Cha: 12
+Communication: telepathy (Ancient Osiriani)
+:::

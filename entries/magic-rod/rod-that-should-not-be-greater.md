@@ -57,7 +57,12 @@ Price: 6,000 gp (Lesser), 20,000 gp (Greater)
 
 ### Statistics
 
-**Alignment** chaotic evil; **Ego** 3\
-**Senses** 30 ft.\
-**Int** 5, **Wis** 10, **Cha** 8\
-**Communication** none (none)
+::: statblock
+Alignment: chaotic evil
+Ego: 3
+Senses: 30 ft.
+Int: 5
+Wis: 10
+Cha: 8
+Communication: none (none)
+:::

@@ -47,7 +47,12 @@ Price: 58,660 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 14\
-**Senses** 120 ft., [darkvision](ref/rule/darkvision)\
-**Int** 14, **Wis** 16, **Cha** 14\
-**Communication** telepathy (Aklo, Common, and Elven)
+::: statblock
+Alignment: neutral
+Ego: 14
+Senses: 120 ft., [darkvision](ref/rule/darkvision)
+Int: 14
+Wis: 16
+Cha: 14
+Communication: telepathy (Aklo, Common, and Elven)
+:::

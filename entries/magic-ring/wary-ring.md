@@ -42,7 +42,12 @@ Price: 7,300 gp
 
 ### Statistics
 
-**Alignment** lawful good; **Ego** 7\
-**Senses** 60 ft.\
-**Int** 12, **Wis** 15, **Cha** 12\
-**Communication** empathy
+::: statblock
+Alignment: lawful good
+Ego: 7
+Senses: 60 ft.
+Int: 12
+Wis: 15
+Cha: 12
+Communication: empathy
+:::
