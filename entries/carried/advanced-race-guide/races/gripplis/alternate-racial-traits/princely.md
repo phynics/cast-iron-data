@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/grippli", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "190"
 
 [fields]
 kind = "racial_trait"

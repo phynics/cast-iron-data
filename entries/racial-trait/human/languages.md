@@ -10,6 +10,14 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/human" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+[[sources]]
+publication = "advanced-race-guide"
+page = "70"
+[[sources]]
+publication = "core-rulebook"
+page = "27"
 
 [fields]
 kind = "racial_trait"

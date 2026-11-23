@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/aasimar", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "85"
 
 [fields]
 kind = "racial_trait"

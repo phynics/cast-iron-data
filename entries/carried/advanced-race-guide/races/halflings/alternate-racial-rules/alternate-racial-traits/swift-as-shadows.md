@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/halfling", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "62"
 
 [fields]
 kind = "racial_trait"

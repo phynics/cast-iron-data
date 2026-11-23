@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/vanara", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "206"
 
 [fields]
 kind = "racial_trait"

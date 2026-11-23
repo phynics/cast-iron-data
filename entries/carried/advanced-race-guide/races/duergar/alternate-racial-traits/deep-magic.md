@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/duergar", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "186"
 
 [fields]
 kind = "racial_trait"

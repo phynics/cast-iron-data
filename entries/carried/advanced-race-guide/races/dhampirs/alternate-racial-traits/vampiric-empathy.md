@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "part", target = "ref/race/dhampir", label = "alternate" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
+page = "97"
 
 [fields]
 kind = "racial_trait"
