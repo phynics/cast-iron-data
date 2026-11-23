@@ -36,10 +36,13 @@ Columns: the 21 of the screen (see `membership-screen.py`), then
                                       `alternate = false` (638 pairs in the warning)
                class-hub              an `ref/class/*` entry, or an `ref/rule/class-*/*` mirror
                race-hub               a `ref/race/*` entry
-               hub-cited              another `rule` entry (hubs, faiths, abilities) whose body has
-                                      a `**Source**` line that names the book (cite it)
+               faith-excerpt          a `ref/faith/*` entry whose body quotes a section (the deity's
+                                      Divine Fighting Technique) under a `**Source**` line that
+                                      names the book (16 pairs in the warning)
+               hub-cited              another `rule` entry (hubs, abilities) whose body has a
+                                      `**Source**` line that names the book (cite it)
                link-only-hub          another `rule` entry without such a line: one or two
-                                      sentences and links. Waits for the owner's design (ruling 3)
+                                      sentences and links (owner ruling of 2026-11-24, design (a))
                figurine               a Figurine of Wondrous Power variant, or the entry that lists them
                no-pdf                 any other entry, in a book that is not among the owner's PDFs
                single-entry           any other entry
@@ -47,7 +50,17 @@ Columns: the 21 of the screen (see `membership-screen.py`), then
              each in book order), `S6`/`S7` (class hubs A-M, N-Z), `S8` (class mirrors). A row
              that is not in the warning is `S11`, except for figurines. A row with a verdict has
              `done` (decided in batches 1-4 and #98) or `S0` (decided by this script's rules).
-  waits      `design-q3` on link-only hubs: they wait for the design the owner asked for
+  ruling     the owner ruling that decides a row with no verdict yet (nothing waits any more):
+               `hub-design-a` (link-only-hub): the hub keeps only its home book. The 14 navigation
+                 hubs first get their topic lists back as `::: entry-link` blocks; then their
+                 non-first books go (removed where a listed entry carries the book or nothing
+                 does, cited where the body prints a section, read in print where the design
+                 table says so). The hub page shows each listed row's book (an app change). The
+                 home book of these hubs and the other 545 dropped subtopic lists are post-v1
+                 (phynics/cast-iron-data#277 and #276)
+               `faith-link` (faith-excerpt): replace the quoted technique section with a link to
+                 the technique's own entry; the book then leaves the faith. Where no such entry
+                 exists the slice reports it instead of guessing
   in_warning `yes` when the pair is in the `corpus-check` warning now
   pdf        `yes` when the book is among the owner's PDFs (the screen read it), else `no`
   body_line  `yes` when a body `**Source**` line names the book. `cite` converts it with
@@ -78,7 +91,7 @@ is what the row says.
 
 `--check` needs no screen. It proves the committed queue against the corpus: every pair of the
 warning and every figurine membership has a row, no pair appears twice, `group`, `slice`,
-`waits` and `in_warning` equal what the corpus gives, a `keep` or `cite`-applied row has its
+`ruling` and `in_warning` equal what the corpus gives, a `keep` or `cite`-applied row has its
 `[[sources]]` row, and a `resolved` row is out of `source_ids`. It exits 1 with the first
 problems when the queue is stale; run it after each slice.
 
@@ -112,7 +125,7 @@ apply = load_module("membership_apply", "membership-apply.py")
 SCREEN_COLS = ["book", "entry", "kind", "title", "member", "n_books", "tag", "status", "cited", "cite",
                "hits", "found", "via", "family", "parent_has_book", "gate", "proposed_primary",
                "proposed_status", "verdict", "print_page", "evidence"]
-NEW_COLS = ["group", "slice", "waits", "in_warning", "pdf", "body_line", "exact", "paren"]
+NEW_COLS = ["group", "slice", "ruling", "in_warning", "pdf", "body_line", "exact", "paren"]
 COLS = SCREEN_COLS + NEW_COLS
 CORE_RACES = ("dwarf", "elf", "gnome", "half-elf", "half-orc", "halfling", "human")
 DECIDED = ("remove", "keep", "expands", "cite", "resolved")
@@ -168,13 +181,20 @@ def group_of(d: dict, body_line: bool, pdf: bool) -> str:
         return "race-hub"
     if d["kind"] == "rule":
         # In a book that is not among the PDFs ruling 4 decides (keep, with the corpus's own page),
-        # unless the entry is a collector hub that no body line cites: that one waits for the design.
+        # unless the entry is a collector hub that no body line cites: that one is a link-only hub.
         if not pdf and not (screen.is_hub(d) and not body_line):
             return "no-pdf"
+        if body_line and e.startswith("ref/faith/"):
+            return "faith-excerpt"
         return "hub-cited" if body_line else "link-only-hub"
     if is_figurine(d):
         return "figurine"
     return "single-entry" if pdf else "no-pdf"
+
+
+def ruling_of(group: str) -> str:
+    """The owner ruling of 2026-11-24 on link-only hubs (design (a)) and faith excerpts."""
+    return {"link-only-hub": "hub-design-a", "faith-excerpt": "faith-link"}.get(group, "")
 
 
 def slice_of(group: str, d: dict, book: str, in_warning: bool, figurine_books: list[str]) -> str:
@@ -189,7 +209,7 @@ def slice_of(group: str, d: dict, book: str, in_warning: bool, figurine_books: l
         if d["kind"] == "class":
             return "S6" if parts[2][0] < "n" else "S7"
         return "S8"
-    return {"race-hub": "S9", "hub-cited": "S10", "link-only-hub": "S10",
+    return {"race-hub": "S9", "hub-cited": "S10", "link-only-hub": "S10", "faith-excerpt": "S10",
             "single-entry": "S5", "no-pdf": "S12"}[group]
 
 
@@ -293,7 +313,7 @@ def build(root: Path, queue_path: Path, screen_all: Path) -> list[dict]:
             r["slice"] = "S0" if assigned else ((o or {}).get("slice") or "done")
         else:
             r["slice"] = slice_of(group, d, book, in_warning, fig_books)
-        r["waits"] = "design-q3" if group == "link-only-hub" and not verdict else ""
+        r["ruling"] = ruling_of(group) if not verdict else ""
         rows.append(r)
     order = {t: i for i, t in enumerate(screen.TAG_ORDER)}
     rows.sort(key=lambda r: (r["book"], order[r["tag"]], r["entry"]))
@@ -368,6 +388,8 @@ def check(root: Path, queue_path: Path) -> int:
         if r["verdict"] == "resolved" and in_ids:
             problems.append(f"{e} in {b}: verdict resolved, but the book is back in source_ids")
         if not r["verdict"]:
+            if r["ruling"] != ruling_of(group):
+                problems.append(f"{e} in {b}: ruling {r['ruling']!r} is not {ruling_of(group)!r}")
             want = slice_of(group, d, b, in_warning, fig_books) if in_ids else "?"
             if in_ids and r["slice"] != want:
                 problems.append(f"{e} in {b}: slice {r['slice']} is not {want}")

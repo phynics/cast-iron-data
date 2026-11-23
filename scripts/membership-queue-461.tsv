@@ -1,6 +1,6 @@
-book	entry	kind	title	member	n_books	tag	status	cited	cite	hits	found	via	family	parent_has_book	gate	proposed_primary	proposed_status	verdict	print_page	evidence	group	slice	waits	in_warning	pdf	body_line	exact	paren
-advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242										link-only-hub	S10	design-q3	yes	yes			
-advanced-class-guide	ref/rule/gamemastery	rule	Gamemastery	6	8	hub-keep	weak		none	1	193										link-only-hub	S10	design-q3	yes	yes			
+book	entry	kind	title	member	n_books	tag	status	cited	cite	hits	found	via	family	parent_has_book	gate	proposed_primary	proposed_status	verdict	print_page	evidence	group	slice	ruling	in_warning	pdf	body_line	exact	paren
+advanced-class-guide	ref/rule/basics	rule	Basics	4	5	hub-keep	printed		none	2	241,242										link-only-hub	S10	hub-design-a	yes	yes			
+advanced-class-guide	ref/rule/gamemastery	rule	Gamemastery	6	8	hub-keep	weak		none	1	193										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-class-guide	ref/race/dwarf	race	Dwarf	14	17	family-leak	printed		none	3	69,161,251	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hardy(body)								race-hub	S9		yes	yes			
 advanced-class-guide	ref/race/elf	race	Elf	14	17	family-leak	printed		none	4	69,70,172,251	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/elven-magic(body),ref/racial-trait/elf/languages(title)								race-hub	S9		yes	yes			
 advanced-class-guide	ref/race/gnome	race	Gnome	13	16	family-leak	printed		none	3	70,217,251	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/illusion-resistance(body)								race-hub	S9		yes	yes			
@@ -99,14 +99,14 @@ advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-ow
 advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	12	15	review	printed	236	row	0											figurine	S4a			yes		yes	none
 advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	12	15	review	printed	236	row	0											figurine	S4a			yes		yes	none
 advanced-class-guide	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	12	15	review	printed	236	row	0								keep	236	title-on-cited-page	figurine	S0			yes		yes	page
-advanced-class-guide	ref/ability/combat-styles	rule	Combat Styles	6	7	weak	weak		none	1	118										link-only-hub	S10	design-q3	yes	yes			
+advanced-class-guide	ref/ability/combat-styles	rule	Combat Styles	6	7	weak	weak		none	1	118										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-class-guide	ref/racial-trait/gnome/obsessive	racial_trait	Obsessive	10	10	weak	weak		none	1	128	parent	ref/race/gnome(title)	yes							standard-racial-trait	S2		yes	yes			
 advanced-class-guide	ref/racial-trait/halfling/fearless	racial_trait	Fearless	12	14	weak	weak		none	1	116	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
 advanced-players-guide	ref/ability/arcane-schools	rule	Arcane Schools	2	7	hub-keep	printed	143	body	0											hub-cited	S10		yes	yes	yes	yes	
-advanced-players-guide	ref/rule/basics	rule	Basics	3	5	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+advanced-players-guide	ref/rule/basics	rule	Basics	3	5	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 advanced-players-guide	ref/rule/feats-multiperson	rule	Multiperson Feats	1	3	hub-keep	absent	150	body	0											hub-cited	S11			yes	yes	no	
-advanced-players-guide	ref/rule/gamemastery	rule	Gamemastery	8	8	hub-keep	weak		none	1	2										link-only-hub	S10	design-q3	yes	yes			
-advanced-players-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	4	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+advanced-players-guide	ref/rule/gamemastery	rule	Gamemastery	8	8	hub-keep	weak		none	1	2										link-only-hub	S10	hub-design-a	yes	yes			
+advanced-players-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	4	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 advanced-players-guide	ref/class/barbarian	class	Barbarian	2	10	family-leak	printed		none	32	3,10,11,12,13	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/bard	class	Bard	7	13	family-leak	printed		none	40	3,10,12,13,14	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes	yes		
 advanced-players-guide	ref/class/cleric	class	Cleric	5	9	family-leak	printed		none	40	3,10,11,12,14	child	ref/rule/class-cleric/cleric(title)								class-hub	S6		yes	yes	yes		
@@ -236,7 +236,7 @@ advanced-players-guide	ref/class/unchained-summoner	class	Unchained Summoner	2	4
 advanced-players-guide	ref/class/vigilante	class	Vigilante	2	5	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/class/warpriest	class	Warpriest	2	6	uncited	absent		none	0											class-hub	S7		yes	yes	yes		
 advanced-players-guide	ref/rule/favored-class	rule	Favored Class	2	2	uncited	printed	8	body	0											hub-cited	S10		yes	yes	yes	yes	
-advanced-players-guide	ref/rule/traits-and-other-details	rule	Filling Out the Details	2	3	uncited	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+advanced-players-guide	ref/rule/traits-and-other-details	rule	Filling Out the Details	2	3	uncited	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 advanced-players-guide	ref/sidekick/animal-companion	rule	Animal Companion	2	2	uncited	printed		none	26	15,17,19,20,23										hub-cited	S10		yes	yes	yes		
 advanced-players-guide	ref/sidekick/familiar	rule	Familiar	2	2	uncited	printed		none	36	3,10,12,14,17										hub-cited	S10		yes	yes	yes		
 advanced-players-guide	ref/eq-misc/sextant	item	Sextant	3	4	review	body	185	row	0											single-entry	S11			yes		no	
@@ -280,8 +280,8 @@ advanced-players-guide	ref/magic-wondrous/boots-of-friendly-terrain	item	Boots o
 advanced-players-guide	ref/magic-wondrous/one-way-window-cursed	item	One-Way Window (cursed)	2	2	cite-off	off-page	310	row	1	312										single-entry	S11			yes		no	page
 advanced-players-guide	ref/magic-wondrous/riot-pipes	item	Riot Pipes	2	2	cite-off	off-page	310	row	2	312,313										single-entry	S11			yes		no	
 advanced-players-guide	ref/spell/acid-pit	spell	Acid Pit	1	2	cite-off	off-page	204	row	4	195,198,199,201	variant	ref/spell/create-pit(title)								single-entry	S11			yes			
-advanced-race-guide	ref/rule/basics	rule	Basics	2	5	hub-keep	weak		none	1	8										link-only-hub	S10	design-q3	yes	yes			
-advanced-race-guide	ref/rule/gamemastery	rule	Gamemastery	4	8	hub-keep	printed		none	2	2,48										link-only-hub	S10	design-q3	yes	yes			
+advanced-race-guide	ref/rule/basics	rule	Basics	2	5	hub-keep	weak		none	1	8										link-only-hub	S10	hub-design-a	yes	yes			
+advanced-race-guide	ref/rule/gamemastery	rule	Gamemastery	4	8	hub-keep	printed		none	2	2,48										link-only-hub	S10	hub-design-a	yes	yes			
 advanced-race-guide	ref/class/barbarian	class	Barbarian	3	10	family-leak	printed		none	32	9,11,13,23,26	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/bard	class	Bard	3	13	family-leak	printed		none	40	9,13,19,23,33	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
 advanced-race-guide	ref/class/cleric	class	Cleric	3	9	family-leak	printed		none	40	9,13,15,16,19	child	ref/rule/class-cleric/cleric(title)								class-hub	S6		yes	yes			
@@ -338,7 +338,7 @@ advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	8	15	review	printed	166	row	0											figurine	S4a			yes		yes	none
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	8	15	review	printed	166	row	0											figurine	S4a			yes		yes	none
 advanced-race-guide	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	8	15	review	printed	166	row	0											figurine	S4a			yes		yes	none
-adventurers-armory	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	1	4	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
+adventurers-armory	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 adventurers-armory	ref/rule/types-of-traits	rule	Types of Traits	2	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 adventurers-armory	ref/eq-misc/shovel-common	item	Shovel (common)	4	4	uncited	printed		none	3	8,20,31										single-entry	S5		yes	yes			book
 adventurers-armory	ref/eq-misc/shovel-folding	item	Shovel (folding)	4	4	uncited	printed		none	3	8,20,31										single-entry	S5		yes	yes			book
@@ -451,7 +451,7 @@ adventurers-armory	ref/eq-misc/wig	item	Wig	2	2	cite-off	off-page	19	row	3	14,21
 adventurers-armory	ref/eq-weapon/sawtooth-sabre	item	Sawtooth sabre	5	6	cite-off	off-page	33	row	1	18										single-entry	S11			yes		no	
 adventurers-armory-2	ref/class/warpriest	class	Warpriest	3	7	uncited	absent		none	0								remove	11	expansion-credited-on-related	class-hub	done			yes			
 adventurers-armory-2	ref/arc-magus/kensai	archetype	Kensai	2	2	review	absent	11	row	0											single-entry	S11			yes		no	
-adventurers-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	1	10	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
+adventurers-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	1	10	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 adventurers-guide	ref/spell/detect-magic-greater	spell	Greater Detect Magic	2	5	family-leak	absent	77	row	0		variant	ref/spell/detect-magic(title)					remove	77	wrong-credit-invalidated	single-entry	done			yes			
 adventurers-guide	ref/spell/magic-aura-greater	spell	Greater Magic Aura	3	3	family-leak	absent	37	row	0		variant	ref/spell/magic-aura(title)					remove	37	wrong-credit-invalidated	single-entry	done			yes			
 adventurers-guide	ref/spell/identifiers-eye	spell	Identifier's Eye	2	5	review	absent	77	row	0											single-entry	S11			yes		no	
@@ -471,8 +471,8 @@ agents-of-evil	ref/racial-trait/half-orc/attributes	racial_trait	Attributes	7	11
 agents-of-evil	ref/racial-trait/half-orc/intimidating	racial_trait	Intimidating	11	16	weak	weak		none	1	25	parent	ref/race/half-orc(title)	yes							standard-racial-trait	S3		yes	yes			
 agents-of-evil	ref/racial-trait/half-orc/languages	racial_trait	Languages	12	18	weak	weak		none	1	32	parent	ref/race/half-orc(title)	yes							standard-racial-trait	S3		yes	yes			
 agents-of-evil	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	11	13	weak	weak		none	1	25	parent	ref/race/half-orc(title)	yes							standard-racial-trait	S3		yes	yes			
-alchemy-manual	ref/rule/specific-rulesets	rule	Specific Rulesets	11	11	hub-keep	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
-alchemy-manual	ref/rule/universal-path-abilities	rule	Universal Path Abilities	4	6	uncited	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+alchemy-manual	ref/rule/specific-rulesets	rule	Specific Rulesets	11	11	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+alchemy-manual	ref/rule/universal-path-abilities	rule	Universal Path Abilities	4	6	uncited	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 andoran-spirit-of-liberty	ref/spell/detect-magic-greater	spell	Greater Detect Magic	3	5	family-leak	absent	27	row	0		variant	ref/spell/detect-magic(title)					remove	27	wrong-credit-invalidated	single-entry	done			yes			
 andoran-spirit-of-liberty	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	9	15	review	loose	26	row	0											figurine	S4a			yes		no	
 andoran-spirit-of-liberty	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	9	15	review	printed	26	row	0											figurine	S4a			yes		yes	none
@@ -501,7 +501,7 @@ andoran-spirit-of-liberty	ref/spell/identifiers-eye	spell	Identifier's Eye	3	5	r
 animal-archive	ref/spell/die-for-your-master	spell	Die for Your Master	2	2	family-leak	absent	24	row	0		variant	ref/spell/bleed-for-your-master(title)					keep	24	title-printed	single-entry	done			yes			
 animal-archive	ref/spell/sea-stallion	spell	Sea Stallion	2	2	family-leak	absent	25	row	0		variant	ref/spell/sea-steed(title)					keep	25	title-printed	single-entry	done			yes		no	
 animal-archive	ref/spell/shield-companion-aa	spell	Shield Companion (AA)	2	2	family-leak	absent	25	row	0		variant	ref/spell/shield-other(title)					keep	25	title-printed	single-entry	done			yes		no	
-animal-archive	ref/ability/familiars	rule	Familiars	5	5	uncited	printed		none	11	0,2,3,4,5										link-only-hub	S10	design-q3	yes	yes			
+animal-archive	ref/ability/familiars	rule	Familiars	5	5	uncited	printed		none	11	0,2,3,4,5										link-only-hub	S10	hub-design-a	yes	yes			
 animal-archive	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	13	15	review	loose	27	row	0											figurine	S4a			yes		no	
 animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
 animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
@@ -527,9 +527,9 @@ animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	F
 animal-archive	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	13	15	review	loose	27	row	0											figurine	S4a			yes		no	none
 animal-archive	ref/spell/scamper	spell	Scamper	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
 animal-archive	ref/spell/sky-steed	spell	Sky Steed	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
-aquatic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	1	11	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
+aquatic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	1	11	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 aquatic-adventures	ref/ability/combat-styles	rule	Combat Styles	7	7	uncited	absent		none	0								keep	55	section-printed	link-only-hub	done			yes		no	
-aquatic-adventures	ref/rule/underwater-combat	rule	Underwater Combat	2	2	uncited	printed		none	3	44,60,66										link-only-hub	S10	design-q3	yes	yes			
+aquatic-adventures	ref/rule/underwater-combat	rule	Underwater Combat	2	2	uncited	printed		none	3	44,60,66										link-only-hub	S10	hub-design-a	yes	yes			
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	3	15	review	loose	62	row	0											figurine	S4a			yes		no	
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	3	15	review	printed	62	row	0											figurine	S4a			yes		yes	none
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	3	15	review	printed	62	row	0											figurine	S4a			yes		yes	none
@@ -553,7 +553,7 @@ aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl	
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	3	15	review	printed	62	row	0											figurine	S4a			yes		yes	none
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	3	15	review	printed	62	row	0											figurine	S4a			yes		yes	none
 aquatic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	3	15	review	printed	62	row	0											figurine	S4a			yes		yes	none
-arcane-anthology	ref/rule/optional-subsystems	rule	Optional Subsystems	6	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+arcane-anthology	ref/rule/optional-subsystems	rule	Optional Subsystems	6	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 arcane-anthology	ref/spell/reincarnate-spy	spell	Reincarnate Spy	3	4	family-leak	absent	13	row	0		variant	ref/spell/reincarnate(title)					remove	13	wrong-credit-invalidated	single-entry	done			yes			
 bastards-of-golarion	ref/racial-trait/half-elf/adaptability	racial_trait	Adaptability	5	17	inherited	unaligned		none	0				yes							standard-racial-trait	S2		yes	yes			
 bastards-of-golarion	ref/racial-trait/half-elf/attributes	racial_trait	Attributes	4	11	inherited	unaligned		none	0				yes							standard-racial-trait	S2		yes	yes			
@@ -577,13 +577,13 @@ bastards-of-golarion	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	W
 bastards-of-golarion	ref/race/half-elf	race	Half-Elf	5	18	uncited	unaligned		none	0											race-hub	S9		yes	yes			
 bastards-of-golarion	ref/race/half-orc	race	Half-Orc	5	18	uncited	unaligned		none	0											race-hub	S9		yes	yes			
 bestiary	ref/misc/damage-die-adjustments	rule	Damage Die Adjustments	1	3	hub-keep	absent		none	0											hub-cited	S11			yes	yes		
-bestiary	ref/rule/gamemastery	rule	Gamemastery	3	8	hub-keep	weak		none	1	2										link-only-hub	S10	design-q3	yes	yes			
+bestiary	ref/rule/gamemastery	rule	Gamemastery	3	8	hub-keep	weak		none	1	2										link-only-hub	S10	hub-design-a	yes	yes			
 bestiary	ref/rule/rare-races	rule	Rare Races	7	20	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 bestiary	ref/rule/slimes-molds-and-fungi	rule	Slimes, Molds, and Fungi	2	3	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 bestiary	ref/affliction/shadow/shadow-blight	affliction	Shadow blight	1	2	family-leak	absent		none	0		parent	ref/monster/shadow(title)	yes	primary	undead-revisited	printed	remove	50	whole-book-absent-new-primary-printed	single-entry	done			yes			
 bestiary	ref/affliction/zombie/deathspore-toxin	affliction	Deathspore Toxin	1	2	family-leak	absent		none	0		parent	ref/template/zombie(title)	yes	primary	horror-realms	printed				single-entry	S11			yes			
 bestiary	ref/affliction/zombie/zombie-curse-su	affliction	Zombie Curse (Su)	1	3	family-leak	absent		none	0		parent	ref/template/zombie(title)	yes	primary	classic-horrors-revisited	printed	remove	55	whole-book-absent-new-primary-printed	single-entry	done			yes			
-bestiary	ref/rule/umr-trample/trample	rule	Trample	2	2	family-leak	printed		none	12	14,33,83,86,128	parent	ref/umr/trample(body)	yes							link-only-hub	S10	design-q3	yes	yes			
+bestiary	ref/rule/umr-trample/trample	rule	Trample	2	2	family-leak	printed		none	12	14,33,83,86,128	parent	ref/umr/trample(body)	yes							link-only-hub	S10	hub-design-a	yes	yes			
 bestiary	ref/umr/trample	rule	Trample and Stampede	2	2	family-leak	body		none	4	68,184,285,305	child	ref/rule/umr-trample/trample(title)								hub-cited	S10		yes	yes	yes		
 bestiary	ref/monster/moldering-emperor	creature	The Moldering Emperor	2	2	review	body	214	row	0											single-entry	S11			yes		no	
 bestiary	ref/monster/yak	creature	Yak (Herd Animal)	1	3	review	absent	174	row	0					primary	pathfinder-51-the-hungry-storm	unscreened				single-entry	S11			yes		no	page
@@ -602,7 +602,7 @@ bestiary-5	ref/affliction/sea-urchin-giant-hunter-urchin/sea-urchin-venom	afflic
 bestiary-5	ref/affliction/sea-urchin-giant-spear-urchin/sea-urchin-venom	affliction	Sea Urchin Venom	2	2	family-leak	absent		none	0		parent	ref/monster/sea-urchin-giant-spear-urchin(title)	yes				remove	223	wrong-credit-invalidated	single-entry	done			yes			
 bestiary-5	ref/family/elemental	rule	Elemental	3	3	uncited	printed		none	26	3,11,14,20,21										hub-cited	S10		yes	yes	yes		
 bestiary-5	ref/family/robot	rule	Robot	2	2	uncited	printed		none	14	3,4,205,206,207										hub-cited	S10		yes	yes	yes		
-black-markets	ref/rule/specific-rulesets	rule	Specific Rulesets	2	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+black-markets	ref/rule/specific-rulesets	rule	Specific Rulesets	2	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 black-markets	ref/spell/share-language-communal	spell	Communal Share Language	2	3	family-leak	absent	24	row	0		variant	ref/spell/share-language(title)					remove	24	wrong-credit-invalidated	single-entry	done			yes			
 blood-of-fiends	ref/feat/fiendish-heritage	feat	Fiendish Heritage	2	2	uncited	printed		none	3	10,14,15										single-entry	S5		yes	yes			
 blood-of-shadows	ref/class/barbarian	class	Barbarian	4	10	family-leak	printed		none	2	7,10	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes			
@@ -741,7 +741,7 @@ blood-of-the-beast	ref/rule/class-sorcerer/sorcerer	rule	Sorcerer	4	11	family-le
 blood-of-the-beast	ref/rule/class-wizard/wizard	rule	Wizard	5	11	family-leak	printed		none	8	7,12,14,19,21	parent	ref/class/wizard(title)	yes							class-hub	S8		yes	yes			
 blood-of-the-beast	ref/spell/suggestion-mass	spell	Mass Suggestion	2	3	family-leak	absent	14	row	0		variant	ref/spell/suggestion(title)					remove	14	wrong-credit-invalidated	single-entry	done			yes			
 blood-of-the-beast	ref/spell/triggered-suggestion	spell	Triggered Suggestion	2	3	family-leak	absent	14	row	0		variant	ref/spell/suggestion(title)					remove	14	wrong-credit-invalidated	single-entry	done			yes			
-blood-of-the-beast	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	2	3	uncited	printed		none	2	3,29										link-only-hub	S10	design-q3	yes	yes			
+blood-of-the-beast	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	2	3	uncited	printed		none	2	3,29										link-only-hub	S10	hub-design-a	yes	yes			
 blood-of-the-beast	ref/class/alchemist	class	Alchemist	4	12	uncited	printed		none	7	4,7,10,11,19										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/antipaladin	class	Antipaladin	5	5	uncited	printed		none	2	7,14										class-hub	S6		yes	yes			
 blood-of-the-beast	ref/class/arcanist	class	Arcanist	7	8	uncited	printed		none	3	12,20,28										class-hub	S6		yes	yes			
@@ -798,7 +798,7 @@ blood-of-the-coven	ref/monster/hag-sea-hag	creature	Sea Hag	2	2	uncited	printed	
 blood-of-the-coven	ref/monster/hag-storm-hag	creature	Storm Hag	3	3	uncited	printed		none	4	0,9,12,13										single-entry	S5		yes	yes	yes		
 blood-of-the-coven	ref/monster/hag-winter-hag	creature	Winter Hag	2	2	uncited	printed		none	4	0,9,12,13										single-entry	S5		yes	yes	yes		
 blood-of-the-elements	ref/race/oread	race	Oread	5	5	uncited	printed		none	13	0,1,2,3,5										race-hub	S9		yes	yes			
-blood-of-the-night	ref/rule/optional-subsystems	rule	Optional Subsystems	10	10	hub-keep	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+blood-of-the-night	ref/rule/optional-subsystems	rule	Optional Subsystems	10	10	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 blood-of-the-night	ref/race/dhampir	race	Dhampir	4	5	uncited	unaligned		none	0											race-hub	S9		yes	yes			
 blood-of-the-sea	ref/class/bard	class	Bard	10	13	family-leak	printed		none	4	9,12,13,21	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
 blood-of-the-sea	ref/class/druid	class	Druid	3	12	family-leak	printed		none	6	3,5,11,21,24	child	ref/rule/class-druid/druid(title)								class-hub	S6		yes	yes			
@@ -827,13 +827,13 @@ blood-of-the-sea	ref/class/mesmerist	class	Mesmerist	8	9	weak	weak		none	1	13			
 blood-of-the-sea	ref/class/skald	class	Skald	4	7	weak	weak		none	1	13										class-hub	S7		yes	yes			
 blood-of-the-sea	ref/rule/class-fighter/fighter	rule	Fighter	4	10	weak	weak		none	1	5			yes							class-hub	S8		yes	yes			
 bonus-bestiary	ref/monster/ant-lion-giant-adult-ant-lion	creature	Giant Adult Ant Lion	2	2	review	absent	5	row	0											single-entry	S11			yes		no	
-book-of-the-damned	ref/rule/specific-rulesets	rule	Specific Rulesets	7	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+book-of-the-damned	ref/rule/specific-rulesets	rule	Specific Rulesets	7	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 carrion-hill	ref/monster/spawn-of-yog-sothoth	creature	Spawn of Yog-Sothoth	2	2	cite-off	off-page	30	row	16	3,4,7,8,9										single-entry	S11			yes		no	
 champions-of-corruption	ref/rule/feats-multiperson	rule	Multiperson Feats	2	3	hub-keep	off-page	22	row	1	20										hub-cited	S11			yes	yes	no	
 champions-of-corruption	ref/rule/feats-roleplaying	rule	Roleplaying Feats	4	6	hub-keep	absent	18	row	0											hub-cited	S11			yes	yes	no	
 cheliax-empire-of-devils	ref/trait/demon-hunter	trait	Demon Hunter	2	3	uncited	body		none	1	19										single-entry	S5		yes	yes			
 cheliax-the-infernal-empire	ref/race/changeling	race	Changeling	7	7	weak	weak		none	1	57										race-hub	S9		yes	yes			
-chronicle-of-legends	ref/rule/optional-magic-changes	rule	Optional Magic Changes	3	4	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+chronicle-of-legends	ref/rule/optional-magic-changes	rule	Optional Magic Changes	3	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 chronicle-of-legends	ref/rule/types-of-traits	rule	Types of Traits	6	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 chronicle-of-legends	ref/class/barbarian	class	Barbarian	6	10	family-leak	body		none	1	10	child	ref/rule/class-barbarian/barbarian(body)								class-hub	S6		yes	yes	yes		
 chronicle-of-legends	ref/class/bard	class	Bard	2	13	family-leak	printed		none	3	14,23,28	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes	yes		
@@ -889,11 +889,11 @@ chronicle-of-legends	ref/class/oracle	class	Oracle	5	13	weak	weak		none	1	29				
 chronicle-of-legends	ref/class/rogue	class	Rogue	2	14	weak	weak		none	1	29										class-hub	S7		yes	yes	yes		
 chronicle-of-legends	ref/rule/class-rogue/rogue	rule	Rogue	2	14	weak	weak		none	1	29			yes							class-hub	S8		yes	yes	yes		
 classic-horrors-revisited	ref/affliction/zombie/deathspore-toxin	affliction	Deathspore Toxin	3	3	family-leak	absent	25	row	0		parent	ref/template/zombie(title)	yes				remove	25	wrong-credit-invalidated	single-entry	done			yes			
-cohorts-and-companions	ref/rule/advanced-player-topics	rule	Advanced Player Topics	1	3	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
+cohorts-and-companions	ref/rule/advanced-player-topics	rule	Advanced Player Topics	1	3	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 cohorts-and-companions	ref/rule/types-of-traits	rule	Types of Traits	5	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
-cohorts-and-companions	ref/rule/universal-path-abilities	rule	Universal Path Abilities	6	6	weak	weak		none	1	10										link-only-hub	S10	design-q3	yes	yes			
+cohorts-and-companions	ref/rule/universal-path-abilities	rule	Universal Path Abilities	6	6	weak	weak		none	1	10										link-only-hub	S10	hub-design-a	yes	yes			
 core-rulebook	ref/misc/damage-die-adjustments	rule	Damage Die Adjustments	3	3	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
-core-rulebook	ref/rule/specific-rulesets	rule	Specific Rulesets	8	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+core-rulebook	ref/rule/specific-rulesets	rule	Specific Rulesets	8	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 core-rulebook	ref/rule/ability-weapon-groups/firearms	rule	Firearms	1	2	family-leak	absent		none	0		parent	ref/ability/weapon-groups(title)	yes	primary	ultimate-combat	printed	remove	45	whole-book-absent-new-primary-printed	link-only-hub	done			yes			
 core-rulebook	ref/spell/air-walk-communal	spell	Communal Air Walk	1	2	family-leak	absent		none	0		variant	ref/spell/air-walk(title)		primary	ultimate-combat	body	remove	222	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/align-weapon-communal	spell	Communal Align Weapon	1	2	family-leak	absent		none	0		variant	ref/spell/align-weapon(title)		primary	advanced-class-guide	body	remove	173	whole-book-absent-new-primary-printed	single-entry	done			yes			
@@ -982,7 +982,7 @@ core-rulebook	ref/spell/undeath-sense	spell	Undeath Sense	1	2	family-leak	absent
 core-rulebook	ref/spell/wandering-weather	spell	Wandering Weather	1	2	family-leak	absent		none	0		variant	ref/spell/control-weather(title)		primary	ultimate-wilderness	printed	remove	237	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/water-walk-communal	spell	Communal Water Walk	1	2	family-leak	absent		none	0		variant	ref/spell/water-walk(title)		primary	ultimate-combat	body	remove	249	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/monster/devil-cabal-devil-uniila	creature	Cabal Devil (Uniila)	2	2	uncited	absent		none	0								remove	none	whole-book-absent	single-entry	done			yes			
-core-rulebook	ref/rule/traits-and-other-details	rule	Filling Out the Details	1	3	uncited	absent		none	0					primary	(none)					link-only-hub	S11	design-q3		yes			
+core-rulebook	ref/rule/traits-and-other-details	rule	Filling Out the Details	1	3	uncited	absent		none	0					primary	(none)					link-only-hub	S11	hub-design-a		yes			
 core-rulebook	ref/spell/clay-skin	spell	Clay Skin	1	3	uncited	absent		none	0					primary	potions-and-poisons	printed	remove	17	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/demanding-message-mass	spell	Mass Demanding Message	1	2	uncited	absent		none	0					primary	ultimate-intrigue	body	remove	210	whole-book-absent-new-primary-printed	single-entry	done			yes			
 core-rulebook	ref/spell/false-resurrection-greater	spell	Greater False Resurrection	1	2	uncited	absent		none	0					primary	ultimate-intrigue	printed	remove	214	whole-book-absent-new-primary-printed	single-entry	done			yes			
@@ -1031,7 +1031,7 @@ core-rulebook	ref/eq-siegeengine/ram-colossal	item	Ram, colossal	2	2	cite-off	of
 core-rulebook	ref/eq-siegeengine/ram-gargantuan	item	Ram, gargantuan	2	2	cite-off	off-page	435	row	2	155,157										single-entry	S11			yes		no	
 core-rulebook	ref/magic-enh/keen	item	Keen	2	2	cite-off	off-page	469	row	15	22,23,24,26,63										single-entry	S11			yes		no	
 core-rulebook	ref/magic-staff/staff-of-divination	item	Staff of Divination	2	2	cite-off	off-page	293	row	1	493										single-entry	S11			yes		no	
-core-rulebook	ref/rule/wealth-and-money	rule	Wealth and Money	1	2	cite-off	off-page	40	row	2	3,140										link-only-hub	S11	design-q3		yes		no	
+core-rulebook	ref/rule/wealth-and-money	rule	Wealth and Money	1	2	cite-off	off-page	40	row	2	3,140										link-only-hub	S11	hub-design-a		yes		no	
 crown-of-the-kobold-king	ref/eq-weapon/chain-spear	item	Chain spear	2	5	review	absent	17	row	0											single-entry	S11			yes		no	
 crown-of-the-kobold-king	ref/monster/slurk	creature	Slurk	2	2	cite-off	off-page	33	row	5	19,20,21,22,31										single-entry	S11			yes		no	
 curse-of-the-crimson-throne-players-guide	ref/trait/dockside-avenger	trait	Dockside Avenger	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
@@ -1053,23 +1053,23 @@ darklands-revisited	ref/racial-trait/half-elf/attributes	racial_trait	Attributes
 darklands-revisited	ref/racial-trait/half-elf/low-light-vision	racial_trait	Low-Light Vision	9	17	weak	weak		none	1	63	parent	ref/race/half-elf(title)	yes							standard-racial-trait	S2		yes	yes			
 darklands-revisited	ref/racial-trait/half-elf/normal-speed	racial_trait	Normal Speed	7	13	weak	weak		none	1	37	parent	ref/race/half-elf(title)	yes							standard-racial-trait	S2		yes	yes			
 demon-hunters-handbook	ref/trait/exposed-to-awfulness	trait	Exposed to Awfulness	2	2	cite-off	off-page	31	row	1	3										single-entry	S11			yes		no	
-disciples-doctrine	ref/ability/combat-styles	rule	Combat Styles	4	7	weak	weak		none	1	5										link-only-hub	S10	design-q3	yes	yes			
+disciples-doctrine	ref/ability/combat-styles	rule	Combat Styles	4	7	weak	weak		none	1	5										link-only-hub	S10	hub-design-a	yes	yes			
 distant-shores	ref/rule/universal-path-abilities	rule	Universal Path Abilities	4	7	uncited	absent		none	0								expands	12	expansion-credited-via-upa-1	link-only-hub	done			yes			
-divine-anthology	ref/rule/basics	rule	Basics	5	5	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-divine-anthology	ref/rule/gamemastery	rule	Gamemastery	7	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-divine-anthology	ref/faith/asmodeus	rule	Asmodeus	4	5	uncited	printed		none	3	3,26,28										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/desna	rule	Desna	3	5	uncited	printed		none	3	3,17,28										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/erastil	rule	Erastil	3	4	uncited	printed		none	3	3,20,29										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/irori	rule	Irori	3	4	uncited	printed		none	6	3,4,8,25,26										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/lamashtu	rule	Lamashtu	4	6	uncited	printed		none	3	3,27,29										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/norgorber	rule	Norgorber	3	4	uncited	printed		none	6	3,4,6,7,22										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/rovagug	rule	Rovagug	3	4	uncited	printed		none	3	3,24,30										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/sarenrae	rule	Sarenrae	3	4	uncited	printed		none	6	3,10,20,25,26										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/torag	rule	Torag	3	4	uncited	printed		none	9	0,3,16,17,18										hub-cited	S10		yes	yes	yes		
-divine-anthology	ref/faith/urgathoa	rule	Urgathoa	3	4	uncited	printed		none	3	3,26,31										hub-cited	S10		yes	yes	yes		
-dragon-empires-primer	ref/ability/arcane-schools	rule	Arcane Schools	7	7	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+divine-anthology	ref/rule/basics	rule	Basics	5	5	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+divine-anthology	ref/rule/gamemastery	rule	Gamemastery	7	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+divine-anthology	ref/faith/asmodeus	rule	Asmodeus	4	5	uncited	printed		none	3	3,26,28										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/desna	rule	Desna	3	5	uncited	printed		none	3	3,17,28										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/erastil	rule	Erastil	3	4	uncited	printed		none	3	3,20,29										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/irori	rule	Irori	3	4	uncited	printed		none	6	3,4,8,25,26										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/lamashtu	rule	Lamashtu	4	6	uncited	printed		none	3	3,27,29										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/norgorber	rule	Norgorber	3	4	uncited	printed		none	6	3,4,6,7,22										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/rovagug	rule	Rovagug	3	4	uncited	printed		none	3	3,24,30										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/sarenrae	rule	Sarenrae	3	4	uncited	printed		none	6	3,10,20,25,26										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/torag	rule	Torag	3	4	uncited	printed		none	9	0,3,16,17,18										faith-excerpt	S10	faith-link	yes	yes	yes		
+divine-anthology	ref/faith/urgathoa	rule	Urgathoa	3	4	uncited	printed		none	3	3,26,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+dragon-empires-primer	ref/ability/arcane-schools	rule	Arcane Schools	7	7	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 dragonslayers-handbook	ref/eq-material/dragonhide	item	Dragonhide	3	3	review	absent	19	row	0											single-entry	S11			yes		no	
-dungeoneers-handbook	ref/rule/specific-rulesets	rule	Specific Rulesets	3	11	hub-keep	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+dungeoneers-handbook	ref/rule/specific-rulesets	rule	Specific Rulesets	3	11	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	10	15	review	loose	10	row	0											figurine	S4a			yes		no	
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	10	15	review	printed	10	row	0											figurine	S4a			yes		yes	none
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	10	15	review	printed	10	row	0											figurine	S4a			yes		yes	none
@@ -1093,7 +1093,7 @@ elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-serpent
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	10	15	review	printed	10	row	0											figurine	S4a			yes		yes	none
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	10	15	review	printed	10	row	0											figurine	S4a			yes		yes	none
 elemental-masters-handbook	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	10	15	review	printed	10	row	0											figurine	S4a			yes		yes	none
-faction-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	3	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+faction-guide	ref/rule/optional-subsystems	rule	Optional Subsystems	3	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 faction-guide	ref/eq-armorenh/deflecting	item	Deflecting	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
 faction-guide	ref/eq-armorenh/vitalguard	item	Vitalguard	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
 faction-guide	ref/eq-weapon/darkflare	item	Darkflare	2	2	review	absent	55	row	0											single-entry	S11			yes		no	
@@ -1115,7 +1115,7 @@ faiths-of-purity	ref/trait/lessons-of-chaldira	trait	Lessons of Chaldira	2	2	rev
 faiths-of-purity	ref/trait/purity-of-faith	trait	Purity of Faith	2	2	review	printed	11	row	0								keep	11	title-on-cited-page	single-entry	S0			yes		yes	
 faiths-of-purity	ref/trait/the-flexing-arm	trait	The Flexing Arm	2	2	review	printed	18	row	0								keep	18	title-on-cited-page	single-entry	S0			yes		yes	
 familiar-folio	ref/ability/familiars	rule	Familiars	2	5	uncited	printed		none	33	0,1,2,3,4										hub-cited	S10		yes	yes	yes		
-game-mastery-guide	ref/rule/gamemastery	rule	Gamemastery	2	8	hub-keep	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+game-mastery-guide	ref/rule/gamemastery	rule	Gamemastery	2	8	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 game-mastery-guide	ref/madness/amnesia	affliction	Amnesia	2	2	uncited	unaligned	250	body	0											single-entry	S5		yes	yes			
 game-mastery-guide	ref/madness/dissociated-identity	affliction	Dissociated Identity	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
 game-mastery-guide	ref/madness/mania	affliction	Mania	2	2	uncited	unaligned	251	body	0											single-entry	S5		yes	yes			
@@ -1240,7 +1240,7 @@ heroes-of-golarion	ref/class/oracle	class	Oracle	7	13	uncited	printed		none	3	3,
 heroes-of-golarion	ref/class/psychic	class	Psychic	7	8	uncited	printed		none	10	3,6,8,9,12										class-hub	S7		yes	yes			
 heroes-of-golarion	ref/class/slayer	class	Slayer	8	8	uncited	printed		none	3	3,4,6										class-hub	S7		yes	yes			
 heroes-of-golarion	ref/race/wyrwood	race	Wyrwood	3	3	uncited	printed		none	5	1,2,3,6,7										race-hub	S9		yes	yes			
-heroes-of-golarion	ref/rule/universal-path-abilities	rule	Universal Path Abilities	5	6	uncited	printed		none	2	28,31										link-only-hub	S10	design-q3	yes	yes			
+heroes-of-golarion	ref/rule/universal-path-abilities	rule	Universal Path Abilities	5	6	uncited	printed		none	2	28,31										link-only-hub	S10	hub-design-a	yes	yes			
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge	item	Alchemical cartridge	3	4	review	printed	18	row	0								keep	18	title-on-cited-page	single-entry	S0			yes		yes	
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-dragons-breath	item	Alchemical cartridge (dragon's breath)	3	4	review	printed	18	row	0											single-entry	S11			yes		yes	none
 heroes-of-golarion	ref/eq-weapon/alchemical-cartridge-entangling-shot	item	Alchemical cartridge (entangling shot)	3	4	review	printed	18	row	0											single-entry	S11			yes		yes	none
@@ -1487,7 +1487,7 @@ heroes-of-the-wild	ref/racial-trait/half-elf/multitalented	racial_trait	Multital
 heroes-of-the-wild	ref/racial-trait/half-orc/darkvision	racial_trait	Darkvision	6	17	weak	weak		none	1	5	parent	ref/race/half-orc(title)	yes							standard-racial-trait	S3		yes	yes			
 heroes-of-the-wild	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	6	13	weak	weak		none	1	5	parent	ref/race/half-orc(title)	yes							standard-racial-trait	S3		yes	yes			
 heroes-of-the-wild	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	6	13	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
-horror-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	3	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+horror-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	3	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 horror-adventures	ref/class/barbarian	class	Barbarian	7	10	family-leak	printed		none	8	3,33,41,46,47	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes			
 horror-adventures	ref/class/bard	class	Bard	13	13	family-leak	printed		none	18	40,64,70,99,108	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
 horror-adventures	ref/class/cleric	class	Cleric	7	9	family-leak	printed		none	38	3,23,26,27,40	child	ref/rule/class-cleric/cleric(title)								class-hub	S6		yes	yes			
@@ -1584,7 +1584,7 @@ horror-adventures	ref/class/psychic	class	Psychic	8	8	uncited	printed		none	40	1
 horror-adventures	ref/class/samurai	class	Samurai	8	9	uncited	absent		none	0								remove	none	whole-book-absent	class-hub	done			yes			
 horror-adventures	ref/class/spiritualist	class	Spiritualist	5	7	uncited	printed		none	24	3,38,44,50,68										class-hub	S7		yes	yes			
 horror-adventures	ref/class/witch	class	Witch	8	11	uncited	printed		none	40	3,16,17,22,27										class-hub	S7		yes	yes			
-horror-adventures	ref/rule/sanity-and-madness	rule	Sanity and Madness	2	2	uncited	printed		none	3	137,182,257										link-only-hub	S10	design-q3	yes	yes			
+horror-adventures	ref/rule/sanity-and-madness	rule	Sanity and Madness	2	2	uncited	printed		none	3	137,182,257										link-only-hub	S10	hub-design-a	yes	yes			
 horror-adventures	ref/racial-trait/dwarf/attributes	racial_trait	Attributes	4	9	weak	weak		none	1	124	parent	ref/race/dwarf(title)	yes							standard-racial-trait	S1		yes	yes			
 horror-adventures	ref/racial-trait/dwarf/greed	racial_trait	Greed	8	11	weak	weak		none	1	38	parent	ref/race/dwarf(title)	yes							standard-racial-trait	S1		yes	yes			
 horror-adventures	ref/racial-trait/dwarf/stonecunning	racial_trait	Stonecunning	8	11	weak	weak		none	1	38	parent	ref/race/dwarf(title)	yes							standard-racial-trait	S1		yes	yes			
@@ -1601,7 +1601,7 @@ horror-adventures	ref/racial-trait/human/attributes	racial_trait	Attributes	6	10
 horror-realms	ref/affliction/zombie/zombie-curse-su	affliction	Zombie Curse (Su)	2	3	family-leak	absent	33	row	0		parent	ref/template/zombie(title)	yes				remove	33	wrong-credit-invalidated	single-entry	done			yes			
 horror-realms	ref/affliction/zombie/zombie-rot	affliction	Zombie Rot	2	3	family-leak	absent	33	row	0		parent	ref/template/zombie(title)	yes				remove	33	wrong-credit-invalidated	single-entry	done			yes			
 humans-of-golarion	ref/trait/azlanti-inheritor	trait	Azlanti Inheritor	2	2	review	printed	30	row	0								keep	30	title-on-cited-page	single-entry	S0			yes		yes	
-inner-sea-combat	ref/ability/combat-styles	rule	Combat Styles	5	7	uncited	printed		none	2	1,11										link-only-hub	S10	design-q3	yes	yes			
+inner-sea-combat	ref/ability/combat-styles	rule	Combat Styles	5	7	uncited	printed		none	2	1,11										link-only-hub	S10	hub-design-a	yes	yes			
 inner-sea-combat	ref/magic-weapon/rostland-edge	item	Rostland Edge	2	2	review	absent	56	row	0											single-entry	S11			yes		no	
 inner-sea-gods	ref/spell/drunkards-breath	spell	Drunkard's Breath	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
 inner-sea-gods	ref/spell/ironbloom-sprouts	spell	Ironbloom Sprouts	2	2	uncited	body		none	1	228										single-entry	S5		yes	yes			
@@ -1610,12 +1610,12 @@ inner-sea-gods	ref/spell/swallow-your-fear	spell	Swallow Your Fear	2	2	uncited	b
 inner-sea-gods	ref/spell/sympathetic-wounds	spell	Sympathetic Wounds	2	2	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
 inner-sea-gods	ref/spell/trail-of-the-rose	spell	Trail of the Rose	2	2	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
 inner-sea-gods	ref/spell/traveling-dream	spell	Traveling Dream	3	3	uncited	absent		none	0								remove	228-245	section-read-no-entry	single-entry	done			yes			
-inner-sea-gods	ref/faith/damerrich	rule	Damerrich	1	2	review	absent	322	row	0					primary	chronicle-of-the-righteous	unaligned				link-only-hub	S11	design-q3		yes		no	
+inner-sea-gods	ref/faith/damerrich	rule	Damerrich	1	2	review	absent	322	row	0					primary	chronicle-of-the-righteous	unaligned				link-only-hub	S11	hub-design-a		yes		no	
 inner-sea-gods	ref/trait/elven-polytheist	trait	Elven Polytheist	2	2	review	printed	219	row	0								keep	219	title-on-cited-page	single-entry	S0			yes		yes	
-inner-sea-gods	ref/faith/chaldira-zuzaristan	rule	Chaldira Zuzaristan	1	2	cite-off	off-page	324	row	5	185,220,222,250,330										link-only-hub	S11	design-q3		yes		no	
-inner-sea-intrigue	ref/rule/advanced-player-topics	rule	Advanced Player Topics	3	3	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+inner-sea-gods	ref/faith/chaldira-zuzaristan	rule	Chaldira Zuzaristan	1	2	cite-off	off-page	324	row	5	185,220,222,250,330										link-only-hub	S11	hub-design-a		yes		no	
+inner-sea-intrigue	ref/rule/advanced-player-topics	rule	Advanced Player Topics	3	3	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 inner-sea-intrigue	ref/spell/nondetection-communal	spell	Communal Nondetection	2	3	family-leak	absent	60	row	0		variant	ref/spell/nondetection(title)					remove	60	wrong-credit-invalidated	single-entry	done			yes			
-inner-sea-magic	ref/rule/optional-subsystems	rule	Optional Subsystems	7	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+inner-sea-magic	ref/rule/optional-subsystems	rule	Optional Subsystems	7	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 inner-sea-npc-codex	ref/hkorder/order-of-the-scourge	class_option	Order of the Scourge	2	2	uncited	unaligned		none	0											single-entry	S5		yes	yes			
 inner-sea-npc-codex	ref/trait/scourge-of-the-seas	trait	Scourge of the Seas	2	2	uncited	unaligned		none	0											single-entry	S5		yes	yes			
 inner-sea-primer	ref/trait/desert-child	trait	Desert Child	4	4	uncited	body		none	1	21										single-entry	S5		yes	yes			
@@ -1627,11 +1627,11 @@ inner-sea-races	ref/spell/summon-natures-ally-7	spell	Summon Nature's Ally VII	2
 inner-sea-races	ref/spell/summon-natures-ally-8	spell	Summon Nature's Ally VIII	2	2	review	absent	223	row	0								resolved	none	out-of-source-ids	single-entry	S0			yes			
 inner-sea-races	ref/spell/summon-natures-ally-9	spell	Summon Nature's Ally IX	2	2	review	absent	223	row	0								resolved	none	out-of-source-ids	single-entry	S0			yes			
 inner-sea-races	ref/spell/summon-natures-ally-1	spell	Summon Nature's Ally I	2	2	cite-off	off-page	223	row	1	217	variant	ref/spell/summon-natures-ally-2(body),ref/spell/summon-natures-ally-5(title),ref/spell/summon-natures-ally-6(title)					resolved	none	out-of-source-ids	single-entry	S0			yes			
-inner-sea-taverns	ref/rule/specific-rulesets	rule	Specific Rulesets	1	11	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
+inner-sea-taverns	ref/rule/specific-rulesets	rule	Specific Rulesets	1	11	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ironfang-invasion-players-guide	ref/rule/militia-terminology	rule	Militia Terminology	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 isles-of-the-shackles	ref/rule/rare-races	rule	Rare Races	14	20	hub-keep	absent	51	row	0											hub-cited	S11			yes	yes	no	
 isles-of-the-shackles	ref/affliction/gholdako/seaside-rot	affliction	Seaside rot	2	2	family-leak	absent		none	0		parent	ref/monster/gholdako(title)	yes				keep	49	title-printed	single-entry	done			yes		no	
-jade-regent-players-guide	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	2	11	hub-keep	no-pdf		none	0											link-only-hub	S10	design-q3	yes	no			
+jade-regent-players-guide	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	2	11	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 jade-regent-players-guide	ref/trait/best-customer	trait	Best Customer	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 jade-regent-players-guide	ref/trait/foreign-tongued	trait	Foreign-Tongued	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 kobolds-of-golarion	ref/class/wizard	class	Wizard	10	11	family-leak	printed		none	4	15,26,27,32	child	ref/rule/class-wizard/wizard(title)								class-hub	S7		yes	yes			
@@ -1641,7 +1641,7 @@ kobolds-of-golarion	ref/class/inquisitor	class	Inquisitor	8	8	weak	weak		none	1	
 kobolds-of-golarion	ref/class/paladin	class	Paladin	10	12	weak	weak		none	1	15										class-hub	S7		yes	yes			
 kobolds-of-golarion	ref/rule/class-barbarian/barbarian	rule	Barbarian	8	10	weak	weak		none	1	15			yes							class-hub	S8		yes	yes			
 kobolds-of-golarion	ref/rule/class-paladin/paladin	rule	Paladin	10	12	weak	weak		none	1	15			yes							class-hub	S8		yes	yes			
-lands-of-conflict	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	6	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+lands-of-conflict	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	6	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 legacy-of-dragons	ref/class/paladin	class	Paladin	11	12	family-leak	printed		none	5	3,18,25,28,31	child	ref/rule/class-paladin/paladin(title)								class-hub	S7		yes	yes			
 legacy-of-dragons	ref/class/sorcerer	class	Sorcerer	8	11	family-leak	printed		none	15	0,2,3,4,5	child	ref/rule/class-sorcerer/sorcerer(title)								class-hub	S7		yes	yes			
 legacy-of-dragons	ref/race/dwarf	race	Dwarf	12	17	family-leak	printed		none	2	6,10	child	ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/greed(title),ref/racial-trait/dwarf/languages(title)								race-hub	S9		yes	yes			
@@ -1701,8 +1701,8 @@ legacy-of-dragons	ref/class/bloodrager	class	Bloodrager	9	9	uncited	printed		non
 legacy-of-dragons	ref/class/mesmerist	class	Mesmerist	9	9	uncited	printed		none	6	3,13,18,28,29										class-hub	S6		yes	yes			
 legacy-of-dragons	ref/class/oracle	class	Oracle	9	13	uncited	printed		none	7	3,8,9,18,28										class-hub	S7		yes	yes			
 legacy-of-dragons	ref/race/wyvaran	race	Wyvaran	3	3	uncited	printed		none	4	1,3,18,19										race-hub	S9		yes	yes			
-legacy-of-dragons	ref/faith/ardad-lili	rule	Ardad Lili	3	3	review	absent	31	row	0											hub-cited	S11			yes	yes	no	
-legacy-of-dragons	ref/faith/draghignazzo	rule	Draghignazzo	3	3	review	absent	31	row	0											hub-cited	S11			yes	yes	no	
+legacy-of-dragons	ref/faith/ardad-lili	rule	Ardad Lili	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
+legacy-of-dragons	ref/faith/draghignazzo	rule	Draghignazzo	3	3	review	absent	31	row	0											faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-dragons	ref/class/rogue	class	Rogue	14	14	weak	weak		none	1	18										class-hub	S7		yes	yes			
 legacy-of-dragons	ref/race/gnome	race	Gnome	8	16	weak	weak		none	1	10	child	ref/racial-trait/gnome/gnome-magic(body),ref/racial-trait/gnome/keen-senses(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
 legacy-of-dragons	ref/race/half-elf	race	Half-Elf	11	18	weak	weak		none	1	11	child	ref/racial-trait/half-elf/keen-senses(title),ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title)								race-hub	S9		yes	yes			
@@ -1728,10 +1728,10 @@ legacy-of-dragons	ref/racial-trait/halfling/fearless	racial_trait	Fearless	9	14	
 legacy-of-dragons	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	weak	weak		none	1	11	parent	ref/race/halfling(title)	yes							standard-racial-trait	S3		yes	yes			
 legacy-of-dragons	ref/racial-trait/human/attributes	racial_trait	Attributes	4	10	weak	weak		none	1	0	parent	ref/race/human(title)	yes							standard-racial-trait	S3		yes	yes			
 legacy-of-dragons	ref/rule/class-rogue/rogue	rule	Rogue	14	14	weak	weak		none	1	18			yes							class-hub	S8		yes	yes			
-legacy-of-dragons	ref/faith/general-susumu	rule	General Susumu	2	2	cite-off	off-page	31	row	1	8										hub-cited	S11			yes	yes	no	
-legacy-of-dragons	ref/faith/nalinivati	rule	Nalinivati	2	2	cite-off	off-page	31	row	1	8										hub-cited	S11			yes	yes	no	
-legacy-of-dragons	ref/faith/ragadahn	rule	Ragadahn	2	2	cite-off	off-page	31	row	1	8										hub-cited	S11			yes	yes	no	
-legacy-of-dragons	ref/faith/shizuru	rule	Shizuru	3	3	cite-off	off-page	31	row	1	8										hub-cited	S11			yes	yes	no	
+legacy-of-dragons	ref/faith/general-susumu	rule	General Susumu	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
+legacy-of-dragons	ref/faith/nalinivati	rule	Nalinivati	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
+legacy-of-dragons	ref/faith/ragadahn	rule	Ragadahn	2	2	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
+legacy-of-dragons	ref/faith/shizuru	rule	Shizuru	3	3	cite-off	off-page	31	row	1	8										faith-excerpt	S11	faith-link		yes	yes	no	
 legacy-of-fire-players-guide	ref/trait/elven-reflexes	trait	Elven Reflexes	3	3	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 legacy-of-fire-players-guide	ref/trait/savanna-child	trait	Savanna Child	3	3	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 legacy-of-fire-players-guide	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	5	15	review	no-pdf	26	row	0											figurine	S4b			no			
@@ -1845,7 +1845,7 @@ legacy-of-the-first-world	ref/racial-trait/halfling/fearless	racial_trait	Fearle
 legacy-of-the-first-world	ref/racial-trait/halfling/keen-senses	racial_trait	Keen Senses	8	14	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
 legacy-of-the-first-world	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	8	13	weak	weak		none	1	5			yes							standard-racial-trait	S3		yes	yes			
 magic-tactics-toolbox	ref/rule/feats-class	rule	Class-Based Feats	7	7	hub-keep	absent	28	row	0											hub-cited	S11			yes	yes	no	
-magic-tactics-toolbox	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	3	3	uncited	printed		none	2	3,10										link-only-hub	S10	design-q3	yes	yes			
+magic-tactics-toolbox	ref/ability/advanced-weapon-training	rule	Advanced Weapon Training	3	3	uncited	printed		none	2	3,10										link-only-hub	S10	hub-design-a	yes	yes			
 magical-marketplace	ref/hex/cackle	class_option	Cackle	2	4	uncited	unaligned		none	0											single-entry	S5		yes	yes			
 misfit-monsters-redeemed	ref/affliction/wolf-in-sheeps-clothing/wolf-in-sheeps-clothing-egg	affliction	Wolf-in-Sheep's-Clothing Egg	2	2	family-leak	printed	63	row	0		parent	ref/monster/wolf-in-sheeps-clothing(title)	yes				keep	63	title-on-cited-page	single-entry	S0			yes		yes	
 monster-codex	ref/template/vampire	rule	Vampire	3	3	hub-keep	unaligned	236	body	0											hub-cited	S10		yes	yes	yes		
@@ -1853,7 +1853,7 @@ monster-codex	ref/rule/class-barbarian/barbarian	rule	Barbarian	9	10	inherited	u
 monster-codex	ref/rule/class-bard/bard	rule	Bard	4	13	inherited	unaligned		none	0				yes							class-hub	S8		yes	yes			
 monster-codex	ref/rule/class-fighter/fighter	rule	Fighter	5	10	inherited	unaligned		none	0				yes							class-hub	S8		yes	yes			
 monster-codex	ref/rule/class-ranger/ranger	rule	Ranger	5	12	inherited	unaligned		none	0				yes							class-hub	S8		yes	yes			
-monster-codex	ref/rule/monster-sahuagin/sahuagin	rule	Sahuagin	2	2	inherited	unaligned		none	0				yes							link-only-hub	S10	design-q3	yes	yes			
+monster-codex	ref/rule/monster-sahuagin/sahuagin	rule	Sahuagin	2	2	inherited	unaligned		none	0				yes							link-only-hub	S10	hub-design-a	yes	yes			
 monster-codex	ref/class/barbarian	class	Barbarian	9	10	uncited	unaligned		none	0											class-hub	S6		yes	yes			
 monster-codex	ref/class/bard	class	Bard	4	13	uncited	unaligned		none	0											class-hub	S6		yes	yes			
 monster-codex	ref/class/fighter	class	Fighter	5	10	uncited	unaligned		none	0											class-hub	S6		yes	yes			
@@ -1871,7 +1871,7 @@ monster-summoners-handbook	ref/spell/summon-monster-4	spell	Summon Monster IV	2	
 monster-summoners-handbook	ref/spell/summon-monster-5	spell	Summon Monster V	2	2	cite-off	off-page	18	row	2	20,21							resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-7	spell	Summon Monster VII	2	2	cite-off	off-page	18	row	1	20							resolved	18	expanded-in-row	single-entry	S0			yes			
 monster-summoners-handbook	ref/spell/summon-monster-9	spell	Summon Monster IX	2	2	cite-off	off-page	18	row	2	7,21							resolved	18	expanded-in-row	single-entry	S0			yes			
-mythic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	7	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+mythic-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	7	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 mythic-adventures	ref/spell/magic-weapon-greater	spell	Greater Magic Weapon	2	2	family-leak	printed		none	2	143,144	addon	ref/spell/magic-weapon-greater/mythic(body)								single-entry	S5		yes	yes			
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	15	15	review	loose	151	row	0											figurine	S4b			yes		no	
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	15	15	review	printed	151	row	0								keep	151	title-on-cited-page	figurine	S0			yes		yes	page
@@ -1896,11 +1896,11 @@ mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl	i
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	15	15	review	printed	151	row	0											figurine	S4b			yes		yes	none
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	15	15	review	printed	151	row	0											figurine	S4b			yes		yes	none
 mythic-adventures	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	15	15	review	printed	151	row	0											figurine	S4b			yes		yes	none
-mythic-adventures	ref/rule/marshal-2-6	rule	6th-Tier Marshal Path Abilities	1	2	cite-off	off-page	35	row	1	42										link-only-hub	S11	design-q3		yes		no	
-mythic-origins	ref/rule/universal-path-abilities	rule	Universal Path Abilities	2	6	uncited	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
-mythic-realms	ref/rule/universal-path-abilities	rule	Universal Path Abilities	3	6	uncited	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+mythic-adventures	ref/rule/marshal-2-6	rule	6th-Tier Marshal Path Abilities	1	2	cite-off	off-page	35	row	1	42										link-only-hub	S11	hub-design-a		yes		no	
+mythic-origins	ref/rule/universal-path-abilities	rule	Universal Path Abilities	2	6	uncited	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+mythic-realms	ref/rule/universal-path-abilities	rule	Universal Path Abilities	3	6	uncited	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-adventures	ref/rule/feats-class	rule	Class-Based Feats	5	7	hub-keep	absent	128	row	0											hub-cited	S11			yes	yes	no	
-occult-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	8	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+occult-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	8	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-adventures	ref/race/dwarf	race	Dwarf	15	17	family-leak	printed		none	2	84,172	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
 occult-adventures	ref/race/elf	race	Elf	15	17	family-leak	printed		none	2	84,85	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
 occult-adventures	ref/race/human	race	Human	13	15	family-leak	printed		none	8	56,85,109,113,224	child	ref/racial-trait/human/attributes(title),ref/racial-trait/human/bonus-feat(title),ref/racial-trait/human/languages(title)								race-hub	S9		yes	yes			
@@ -1983,8 +1983,8 @@ occult-mysteries	ref/magic-wondrous/trumpet-of-spirit-speaking	item	Trumpet of S
 occult-origins	ref/arc-spiritualist/fractured-mind	archetype	Fractured Mind	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
 occult-origins	ref/feat/emotional-conduit	feat	Emotional Conduit	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
 occult-origins	ref/spell/spirit-bound-blade	spell	Spirit-Bound Blade	3	4	weak	weak		none	1	19										single-entry	S5		yes	yes			
-occult-realms	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	7	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-occult-realms	ref/rule/specific-rulesets	rule	Specific Rulesets	6	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+occult-realms	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	7	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+occult-realms	ref/rule/specific-rulesets	rule	Specific Rulesets	6	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 occult-realms	ref/ability/spirits	rule	Medium Spirits	2	2	uncited	body		none	1	10										hub-cited	S10		yes	yes	yes		
 paizo-blog-golarion-day-subdomains	ref/domain/death	class_option	Death	2	7	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 paizo-blog-golarion-day-subdomains	ref/domain/repose	class_option	Repose	4	5	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
@@ -1998,7 +1998,7 @@ pathfinder-101-the-kintargo-contract	ref/class/shaman	class	Shaman	6	8	uncited	n
 pathfinder-101-the-kintargo-contract	ref/class/slayer	class	Slayer	7	8	uncited	no-pdf		none	0											class-hub	S7		yes	no			
 pathfinder-101-the-kintargo-contract	ref/class/witch	class	Witch	9	11	uncited	no-pdf		none	0											class-hub	S7		yes	no			
 pathfinder-101-the-kintargo-contract	ref/race/strix	race	Strix	5	5	uncited	no-pdf		none	0											race-hub	S9		yes	no			
-pathfinder-115-trail-of-the-hunted	ref/rule/optional-subsystems	rule	Optional Subsystems	8	10	hub-keep	no-pdf		none	0											link-only-hub	S10	design-q3	yes	no			
+pathfinder-115-trail-of-the-hunted	ref/rule/optional-subsystems	rule	Optional Subsystems	8	10	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
 pathfinder-122-into-the-shattered-continent	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	6	15	review	no-pdf	33	row	0											figurine	S4b			no			
@@ -2032,10 +2032,10 @@ pathfinder-124-city-in-the-deep	ref/racial-trait/elf/medium	racial_trait	Medium	
 pathfinder-124-city-in-the-deep	ref/racial-trait/elf/normal-speed	racial_trait	Normal Speed	7	12	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
 pathfinder-124-city-in-the-deep	ref/racial-trait/elf/weapon-familiarity	racial_trait	Weapon Familiarity	9	13	inherited	no-pdf		none	0				yes							standard-racial-trait	S1		yes	no			
 pathfinder-124-city-in-the-deep	ref/race/elf	race	Elf	9	17	uncited	no-pdf		none	0											race-hub	S9		yes	no			
-pathfinder-128-songbird-scion-saboteur	ref/rule/optional-magic-changes	rule	Optional Magic Changes	2	4	hub-keep	no-pdf		none	0											link-only-hub	S10	design-q3	yes	no			
+pathfinder-128-songbird-scion-saboteur	ref/rule/optional-magic-changes	rule	Optional Magic Changes	2	4	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-25-the-bastards-of-erebus	ref/carried/bestiary-3/monsters/parasite/giant-rot-grub	creature	Parasite, Giant Rot Grub	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-25-the-bastards-of-erebus	ref/carried/bestiary-3/monsters/swarm/parasite/rot-grub	creature	Swarm, Parasite, Rot Grub	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
-pathfinder-30-the-twice-damned-prince	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	2	8	hub-keep	no-pdf		none	0											link-only-hub	S10	design-q3	yes	no			
+pathfinder-30-the-twice-damned-prince	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	2	8	hub-keep	no-pdf		none	0											link-only-hub	S10	hub-design-a	yes	no			
 pathfinder-34-blood-for-blood	ref/magic-wondrous/figurine-of-wondrous-power	item	Figurines of Wondrous Power	4	15	review	no-pdf	67	row	0											figurine	S4b			no			
 pathfinder-34-blood-for-blood	ref/magic-wondrous/figurine-of-wondrous-power-basalt-dragon	item	Figurine of Wondrous Power (Basalt Dragon)	4	15	review	no-pdf	67	row	0											figurine	S4b			no			
 pathfinder-34-blood-for-blood	ref/magic-wondrous/figurine-of-wondrous-power-black-jade-raven	item	Figurine of Wondrous Power (Black Jade Raven)	4	15	review	no-pdf	67	row	0											figurine	S4b			no			
@@ -2110,16 +2110,16 @@ pathfinder-86-lords-of-rust	ref/tech-weapon/plasma-grenade	item	Grenade (plasma 
 pathfinder-86-lords-of-rust	ref/tech-weapon/soft-grenade	item	Grenade (soft grenade)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-86-lords-of-rust	ref/tech-weapon/sonic-grenade	item	Grenade (sonic grenade)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
 pathfinder-86-lords-of-rust	ref/tech-weapon/zero-grenade	item	Grenade (zero grenade)	2	2	uncited	no-pdf		none	0											no-pdf	S12		yes	no			
-pathfinder-society-primer	ref/rule/specific-rulesets	rule	Specific Rulesets	10	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+pathfinder-society-primer	ref/rule/specific-rulesets	rule	Specific Rulesets	10	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 pathfinder-society-primer	ref/magic-wondrous/ioun-stone	item	Ioun Stones	2	3	uncited	printed		none	6	2,3,5,20,22										single-entry	S5		yes	yes	yes		
 pathfinder-society-primer	ref/magic-wondrous/polish-of-inconspicuous-armor	item	Polish of Inconspicuous Armor	2	2	review	absent	25	row	0											single-entry	S11			yes		no	
-pathfinder-unchained	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	1	8	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
-pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
-pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-pathfinder-unchained	ref/rule/optional-magic-changes	rule	Optional Magic Changes	1	4	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
-pathfinder-unchained	ref/rule/optional-subsystems	rule	Optional Subsystems	9	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+pathfinder-unchained	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	1	8	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
+pathfinder-unchained	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
+pathfinder-unchained	ref/rule/optional-combat-changes	rule	Optional Combat Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+pathfinder-unchained	ref/rule/optional-magic-changes	rule	Optional Magic Changes	1	4	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
+pathfinder-unchained	ref/rule/optional-subsystems	rule	Optional Subsystems	9	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 people-of-the-wastes	ref/hex/cackle	class_option	Cackle	4	4	weak	weak		none	1	21										single-entry	S5		yes	yes			
-planar-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	9	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+planar-adventures	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	9	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 planar-adventures	ref/rule/rare-races	rule	Rare Races	4	20	hub-keep	absent	224	row	0											hub-cited	S11			yes	yes	no	
 plane-hoppers-handbook	ref/rule/feats-roleplaying	rule	Roleplaying Feats	5	6	hub-keep	absent	22	row	0											hub-cited	S11			yes	yes	no	
 plane-hoppers-handbook	ref/class/bard	class	Bard	6	13	family-leak	printed		none	6	10,13,17,19,23	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
@@ -2223,7 +2223,7 @@ seers-of-the-drowned-city	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	
 taldor-echoes-of-glory	ref/trait/chivalrous	trait	Chivalrous	2	2	review	printed	13	row	0								keep	13	title-on-cited-page	single-entry	S0			yes		yes	
 taldor-echoes-of-glory	ref/trait/divine-warrior	trait	Divine Warrior	2	3	review	printed	14	row	0								keep	14	title-on-cited-page	single-entry	S0			yes		yes	
 taldor-echoes-of-glory	ref/trait/failed-apprentice	trait	Failed Apprentice	3	3	review	printed	14	row	0								keep	14	title-on-cited-page	single-entry	S0			yes		yes	
-technology-guide	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	11	11	hub-keep	unaligned		none	0											link-only-hub	S10	design-q3	yes	yes			
+technology-guide	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	11	11	hub-keep	unaligned		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 technology-guide	ref/skill/craft-any	skill	Craft (any)	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
 technology-guide	ref/skill/disable-device	skill	Disable Device	2	3	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
 technology-guide	ref/skill/heal	skill	Heal	3	4	uncited	unaligned	5	body	0											single-entry	S5		yes	yes	yes		
@@ -2233,21 +2233,21 @@ technology-guide	ref/skill/linguistics	skill	Linguistics	3	4	uncited	unaligned	5
 technology-guide	ref/spell/make-whole	spell	Make Whole	2	2	uncited	unaligned		none	0											single-entry	S5		yes	yes			
 the-first-world-realm-of-the-fey	ref/spell/charm-person-mass	spell	Mass Charm Person	2	3	family-leak	absent	12	row	0		variant	ref/spell/charm-person(title)					remove	12	wrong-credit-invalidated	single-entry	done			yes			
 the-first-world-realm-of-the-fey	ref/spell/hold-person-mass	spell	Mass Hold Person	2	2	family-leak	absent	12	row	0		variant	ref/spell/hold-person(title)					remove	12	wrong-credit-invalidated	single-entry	done			yes			
-ultimate-campaign	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	3	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-campaign	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	3	4	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-campaign	ref/rule/advanced-player-topics	rule	Advanced Player Topics	2	3	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-campaign	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	3	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-campaign	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	3	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-campaign	ref/rule/advanced-player-topics	rule	Advanced Player Topics	2	3	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-campaign	ref/rule/feats-roleplaying	rule	Roleplaying Feats	6	6	hub-keep	absent	66	body	0											hub-cited	S10		yes	yes	yes	no	
-ultimate-campaign	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	5	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-campaign	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-campaign	ref/rule/optional-subsystems	rule	Optional Subsystems	2	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-campaign	ref/rule/traits-and-other-details	rule	Filling Out the Details	3	3	uncited	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-campaign	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	5	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-campaign	ref/rule/optional-alignment-changes	rule	Optional Alignment Changes	2	2	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-campaign	ref/rule/optional-subsystems	rule	Optional Subsystems	2	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-campaign	ref/rule/traits-and-other-details	rule	Filling Out the Details	3	3	uncited	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-campaign	ref/trait/demon-hunter	trait	Demon Hunter	3	3	uncited	printed		none	2	48,63										single-entry	S5		yes	yes			
 ultimate-campaign	ref/trait/elven-reflexes	trait	Elven Reflexes	1	3	cite-off	off-page	62	row	1	17										single-entry	S11			yes		no	
-ultimate-combat	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	5	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-combat	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	5	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-combat	ref/rule/feats-class	rule	Class-Based Feats	3	7	hub-keep	loose	78	body	0											hub-cited	S10		yes	yes	yes	no	
 ultimate-combat	ref/rule/feats-other	rule	Other Feats	6	7	hub-keep	printed	78	body	0											hub-cited	S10		yes	yes	yes	yes	
-ultimate-combat	ref/rule/optional-combat-changes	rule	Optional Combat Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	design-q3		yes			
-ultimate-combat	ref/rule/specific-rulesets	rule	Specific Rulesets	4	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-combat	ref/rule/optional-combat-changes	rule	Optional Combat Changes	1	2	hub-keep	absent		none	0											link-only-hub	S11	hub-design-a		yes			
+ultimate-combat	ref/rule/specific-rulesets	rule	Specific Rulesets	4	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-combat	ref/spell/air-walk	spell	Air Walk	2	2	family-leak	printed		none	4	211,213,214,222	variant	ref/spell/air-walk-communal(body)								single-entry	S5		yes	yes			
 ultimate-combat	ref/spell/ant-haul	spell	Ant Haul	2	2	family-leak	printed		none	7	210,212,213,217,218	variant	ref/spell/ant-haul-communal(body)								single-entry	S5		yes	yes			
 ultimate-combat	ref/spell/compel-tongue	spell	Compel Tongue	3	3	family-leak	absent		none	0		variant	ref/spell/share-language(title)					remove	208-237	section-read-no-entry	single-entry	done			yes			
@@ -2304,7 +2304,7 @@ ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-serpentine-owl	ite
 ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-silver-raven	item	Figurine of Wondrous Power (Silver Raven)	11	15	review	printed	143	row	0											figurine	S4b			yes		yes	none
 ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-slate-spider	item	Figurine of Wondrous Power (Slate Spider)	11	15	review	printed	143	row	0								keep	143	title-on-cited-page	figurine	S0			yes		yes	page
 ultimate-combat	ref/magic-wondrous/figurine-of-wondrous-power-tin-imp	item	Figurine of Wondrous Power (Tin Imp)	11	15	review	printed	143	row	0											figurine	S4b			yes		yes	none
-ultimate-equipment	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	8	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-equipment	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	8	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-equipment	ref/monster/yak	creature	Yak (Herd Animal)	3	3	uncited	printed		none	2	81,86										single-entry	S5		yes	yes			none
 ultimate-equipment	ref/rule/common-cursed-item-effects	rule	Common Cursed Item Effects	2	2	uncited	loose	343	body	0											hub-cited	S10		yes	yes	yes	no	
 ultimate-equipment	ref/trait/savage-breaker	trait	Savage Breaker	2	2	uncited	absent		none	0											single-entry	S5		yes	yes			
@@ -2313,7 +2313,7 @@ ultimate-equipment	ref/eq-weapon/blade-of-lifes-defense	item	Blade of Life's Def
 ultimate-equipment	ref/magic-wondrous/gory-beacon	item	Gory Beacon	2	2	review	absent	301	row	0											single-entry	S11			yes		no	
 ultimate-equipment	ref/magic-wondrous/medallion-of-sar-gorog	item	Medallion of Sar-Gorog	2	3	review	absent	260	row	0											single-entry	S11			yes		no	
 ultimate-equipment	ref/magic-wondrous/nettles-poppet	item	Nettle's Poppet	2	2	review	absent	302	row	0											single-entry	S11			yes		no	
-ultimate-equipment	ref/misc/magic-items-by-category	rule	Magic Items by Category	2	2	review	absent	360	row	0											link-only-hub	S11	design-q3		yes		no	
+ultimate-equipment	ref/misc/magic-items-by-category	rule	Magic Items by Category	2	2	review	absent	360	row	0											link-only-hub	S11	hub-design-a		yes		no	
 ultimate-equipment	ref/eq-misc/burglars-outfit	item	Burglar's outfit	2	3	cite-off	off-page	89	row	1	91										single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-misc/copy-of-a-key	item	Copy of a key	1	2	cite-off	off-page	56	row	1	63										single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-misc/courtesans-outfit	item	Courtesan's outfit	2	3	cite-off	off-page	89	row	1	91										single-entry	S11			yes		no	
@@ -2329,10 +2329,10 @@ ultimate-equipment	ref/eq-misc/tear-away-doctors-outfit	item	Tear-away doctor's 
 ultimate-equipment	ref/eq-misc/tear-away-executioners-outfit	item	Tear-away executioner's outfit	2	3	cite-off	off-page	89	row	1	91										single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-misc/tear-away-squires-outfit	item	Tear-away squire's outfit	2	3	cite-off	off-page	89	row	1	91										single-entry	S11			yes		no	
 ultimate-equipment	ref/eq-weapon/short-sword	item	Short sword	1	2	cite-off	off-page	18	row	10	34,36,47,108,110										single-entry	S11			yes		no	
-ultimate-intrigue	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	6	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-intrigue	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	4	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-intrigue	ref/rule/optional-subsystems	rule	Optional Subsystems	5	10	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-intrigue	ref/rule/specific-rulesets	rule	Specific Rulesets	9	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-intrigue	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	6	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-intrigue	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	4	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-intrigue	ref/rule/optional-subsystems	rule	Optional Subsystems	5	10	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-intrigue	ref/rule/specific-rulesets	rule	Specific Rulesets	9	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/race/dwarf	race	Dwarf	17	17	family-leak	printed		none	6	17,93,97,117,142	child	ref/racial-trait/dwarf/attributes(title),ref/racial-trait/dwarf/darkvision(title),ref/racial-trait/dwarf/hatred(title)								race-hub	S9		yes	yes			
 ultimate-intrigue	ref/race/elf	race	Elf	17	17	family-leak	printed		none	7	17,107,115,151,158	child	ref/racial-trait/elf/attributes(title),ref/racial-trait/elf/languages(title),ref/racial-trait/elf/low-light-vision(title)								race-hub	S9		yes	yes			
 ultimate-intrigue	ref/race/gnome	race	Gnome	16	16	family-leak	printed		none	3	17,27,236	child	ref/racial-trait/gnome/attributes(title),ref/racial-trait/gnome/hatred(title),ref/racial-trait/gnome/languages(title)								race-hub	S9		yes	yes			
@@ -2394,7 +2394,7 @@ ultimate-intrigue	ref/racial-trait/halfling/halfling-luck	racial_trait	Halfling 
 ultimate-intrigue	ref/racial-trait/halfling/languages	racial_trait	Languages	17	17	inherited	printed		none	21	27,151,152,153,192			yes							standard-racial-trait	S3		yes	yes			
 ultimate-intrigue	ref/racial-trait/halfling/slow-speed	racial_trait	Slow Speed	17	17	inherited	absent		none	0				yes				remove	17	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-intrigue	ref/racial-trait/halfling/small	racial_trait	Small	17	17	inherited	printed		none	40	11,26,44,59,62			yes							standard-racial-trait	S3		yes	yes			
-ultimate-intrigue	ref/ability/combat-styles	rule	Combat Styles	3	7	uncited	printed		none	4	3,5,40,252										link-only-hub	S10	design-q3	yes	yes			
+ultimate-intrigue	ref/ability/combat-styles	rule	Combat Styles	3	7	uncited	printed		none	4	3,5,40,252										link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-intrigue	ref/feat/leadership	feat	Leadership	2	2	uncited	printed		none	14	3,5,24,35,45										single-entry	S5		yes	yes			
 ultimate-intrigue	ref/spell/identifiers-eye	spell	Identifier's Eye	4	5	review	absent	212	row	0											single-entry	S11			yes		no	
 ultimate-intrigue	ref/race/halfling	race	Halfling	17	17	weak	weak		none	1	114	child	ref/racial-trait/halfling/attributes(title),ref/racial-trait/halfling/languages(title),ref/racial-trait/halfling/small(title)								race-hub	S9		yes	yes			
@@ -2416,9 +2416,9 @@ ultimate-intrigue	ref/racial-trait/halfling/sure-footed	racial_trait	Sure-Footed
 ultimate-intrigue	ref/racial-trait/halfling/weapon-familiarity	racial_trait	Weapon Familiarity	13	13	weak	weak		none	1	27			yes							standard-racial-trait	S3		yes	yes			
 ultimate-intrigue	ref/spell/teleport-greater	spell	Greater Teleport	2	2	cite-off	off-page	227	row	5	76,79,80,88,159	variant	ref/spell/teleport(title)					resolved	none	out-of-source-ids	single-entry	S0			yes			
 ultimate-magic	ref/ability/arcane-schools	rule	Arcane Schools	6	7	hub-keep	loose	88	body	0											hub-cited	S10		yes	yes	yes	no	
-ultimate-magic	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	2	4	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-magic	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	2	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-magic	ref/rule/complex-modifications	rule	Complex Construct Modifications	2	2	hub-keep	body	114	body	0											hub-cited	S10		yes	yes	yes	no	
-ultimate-magic	ref/rule/optional-magic-changes	rule	Optional Magic Changes	4	4	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-magic	ref/rule/optional-magic-changes	rule	Optional Magic Changes	4	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-magic	ref/sidekick/eidolon	rule	Eidolon	2	3	hub-keep	printed	74	body	0											hub-cited	S10		yes	yes	yes	yes	
 ultimate-magic	ref/spell/animate-dead	spell	Animate Dead	2	2	family-leak	printed		none	10	15,20,26,27,147	variant	ref/spell/animate-dead-lesser(body)								single-entry	S5		yes	yes			
 ultimate-magic	ref/spell/astral-projection	spell	Astral Projection	2	2	family-leak	printed		none	9	20,53,54,58,134	variant	ref/spell/astral-projection-lesser(body)								single-entry	S5		yes	yes			
@@ -2438,10 +2438,10 @@ ultimate-magic	ref/spell/simulacrum	spell	Simulacrum	2	2	family-leak	printed		no
 ultimate-magic	ref/spell/summon-swarm	spell	Summon Swarm	2	2	family-leak	printed		none	3	125,126,233	variant	ref/spell/rain-of-frogs(title)								single-entry	S5		yes	yes			
 ultimate-magic	ref/ability/familiars	rule	Familiars	3	5	uncited	printed		none	20	3,5,12,34,35										hub-cited	S10		yes	yes	yes		
 ultimate-magic	ref/ability/sorcerer-bloodlines	rule	Sorcerer Bloodlines	2	2	uncited	printed		none	4	66,162,255,257										hub-cited	S10		yes	yes	yes		
-ultimate-wilderness	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	4	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-wilderness	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	4	4	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-wilderness	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	10	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-ultimate-wilderness	ref/rule/specific-rulesets	rule	Specific Rulesets	5	11	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
+ultimate-wilderness	ref/rule/advanced-gm-topics	rule	Advanced GM Topics	4	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-wilderness	ref/rule/advanced-magic-topics	rule	Advanced Magic Topics	4	4	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-wilderness	ref/rule/gm-specific-campaigns	rule	Specific Campaign Types	10	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+ultimate-wilderness	ref/rule/specific-rulesets	rule	Specific Rulesets	5	11	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-wilderness	ref/class/barbarian	class	Barbarian	10	10	family-leak	printed		none	23	3,5,10,31,36	child	ref/rule/class-barbarian/barbarian(title)								class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/bard	class	Bard	8	13	family-leak	printed		none	22	3,5,9,10,11	child	ref/rule/class-bard/bard(title)								class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/druid	class	Druid	7	12	family-leak	printed		none	40	3,4,5,10,11	child	ref/rule/class-druid/druid(title)								class-hub	S6		yes	yes			
@@ -2517,7 +2517,7 @@ ultimate-wilderness	ref/racial-trait/half-orc/normal-speed	racial_trait	Normal S
 ultimate-wilderness	ref/racial-trait/half-orc/orc-blood	racial_trait	Orc Blood	17	18	inherited	absent		none	0				yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/half-orc/orc-ferocity	racial_trait	Orc Ferocity	17	18	inherited	absent		none	0				yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
 ultimate-wilderness	ref/racial-trait/half-orc/weapon-familiarity	racial_trait	Weapon Familiarity	17	18	inherited	absent		none	0				yes				remove	8-31	race-section-read-no-trait	standard-racial-trait	done			yes			
-ultimate-wilderness	ref/ability/familiars	rule	Familiars	4	5	uncited	printed		none	36	3,4,5,92,113										link-only-hub	S10	design-q3	yes	yes			
+ultimate-wilderness	ref/ability/familiars	rule	Familiars	4	5	uncited	printed		none	36	3,4,5,92,113										link-only-hub	S10	hub-design-a	yes	yes			
 ultimate-wilderness	ref/class/alchemist	class	Alchemist	10	12	uncited	printed		none	24	3,8,14,21,22										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/bloodrager	class	Bloodrager	6	9	uncited	printed		none	15	10,14,16,17,140										class-hub	S6		yes	yes			
 ultimate-wilderness	ref/class/cavalier	class	Cavalier	5	8	uncited	printed		none	10	3,5,10,44,45										class-hub	S6		yes	yes			
@@ -2529,7 +2529,7 @@ ultimate-wilderness	ref/class/shaman	class	Shaman	8	8	uncited	printed		none	27	1
 ultimate-wilderness	ref/class/skald	class	Skald	7	7	uncited	printed		none	8	3,5,10,36,84										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/summoner	class	Summoner	6	7	uncited	printed		none	13	10,14,25,48,94										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/class/witch	class	Witch	11	11	uncited	printed		none	36	3,5,10,14,17										class-hub	S7		yes	yes			
-ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	design-q3		yes			
+ultimate-wilderness	ref/ability/animal-tricks	rule	Animal Tricks	3	3	review	absent		none	0											link-only-hub	S11	hub-design-a		yes			
 ultimate-wilderness	ref/spell/tectonic-communion	spell	Tectonic Communion	2	3	review	absent	235	row	0											single-entry	S11			yes		no	
 ultimate-wilderness	ref/class/samurai	class	Samurai	4	4	weak	weak		none	1	186										class-hub	S7		yes	yes			
 ultimate-wilderness	ref/race/half-elf	race	Half-Elf	17	18	weak	weak		none	1	31	child	ref/racial-trait/half-elf/languages(title),ref/racial-trait/half-elf/low-light-vision(title),ref/racial-trait/half-elf/medium(title)								race-hub	S9		yes	yes			
@@ -2557,13 +2557,13 @@ villain-codex	ref/spell/spiked-pit	spell	Spiked Pit	2	2	family-leak	absent	188	r
 villain-codex	ref/spell/thirsting-entanglement	spell	Thirsting Entanglement	2	4	family-leak	absent	140	row	0		variant	ref/spell/entangle(title)					remove	140	wrong-credit-invalidated	single-entry	done			yes			
 villain-codex	ref/spell/thorny-entanglement	spell	Thorny Entanglement	2	4	family-leak	absent	140	row	0		variant	ref/spell/entangle(title)					remove	140	wrong-credit-invalidated	single-entry	done			yes			
 wardens-of-the-reborn-forge	ref/affliction/capramace/waste-trembles	affliction	Waste Trembles	2	2	family-leak	printed	61	row	0		parent	ref/monster/capramace(title)	yes				keep	61	title-on-cited-page	single-entry	S0			yes		yes	
-weapon-masters-handbook	ref/rule/gamemastery	rule	Gamemastery	5	8	hub-keep	absent		none	0											link-only-hub	S10	design-q3	yes	yes			
-weapon-masters-handbook	ref/faith/calistria	rule	Calistria	3	5	uncited	printed		none	2	10,11										hub-cited	S10		yes	yes	yes		
-weapon-masters-handbook	ref/faith/cayden-cailean	rule	Cayden Cailean	3	4	uncited	printed		none	2	11,31										hub-cited	S10		yes	yes	yes		
-weapon-masters-handbook	ref/faith/iomedae	rule	Iomedae	3	4	uncited	printed		none	4	4,6,11,31										hub-cited	S10		yes	yes	yes		
-weapon-masters-handbook	ref/faith/abadar	rule	Abadar	3	5	weak	weak		none	1	10										hub-cited	S10		yes	yes	yes		
-weapon-masters-handbook	ref/faith/gorum	rule	Gorum	3	4	weak	weak		none	1	11										hub-cited	S10		yes	yes	yes		
-weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none	1	11										hub-cited	S10		yes	yes	yes		
+weapon-masters-handbook	ref/rule/gamemastery	rule	Gamemastery	5	8	hub-keep	absent		none	0											link-only-hub	S10	hub-design-a	yes	yes			
+weapon-masters-handbook	ref/faith/calistria	rule	Calistria	3	5	uncited	printed		none	2	10,11										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/cayden-cailean	rule	Cayden Cailean	3	4	uncited	printed		none	2	11,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/iomedae	rule	Iomedae	3	4	uncited	printed		none	4	4,6,11,31										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/abadar	rule	Abadar	3	5	weak	weak		none	1	10										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/gorum	rule	Gorum	3	4	weak	weak		none	1	11										faith-excerpt	S10	faith-link	yes	yes	yes		
+weapon-masters-handbook	ref/faith/zon-kuthon	rule	Zon-Kuthon	3	4	weak	weak		none	1	11										faith-excerpt	S10	faith-link	yes	yes	yes		
 wilderness-origins	ref/rule/types-of-traits	rule	Types of Traits	3	6	hub-keep	absent		none	0											hub-cited	S10		yes	yes	yes		
 wilderness-origins	ref/spell/phantom-steed-communal	spell	Communal Phantom Steed	2	3	family-leak	absent	28	row	0		variant	ref/spell/phantom-steed(title)					remove	28	wrong-credit-invalidated	single-entry	done			yes			
 wilderness-origins	ref/class/shifter	class	Shifter	4	4	uncited	printed		none	10	1,3,4,5,6										class-hub	S7		yes	yes			

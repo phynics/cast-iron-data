@@ -114,7 +114,7 @@ entry's parent lists the book).
         keep needs a `[[sources]]` row, and the row is added when the entry holds only a body line).
         A re-run overwrites the queue; scripts/membership-apply.py applies the rows marked `remove`
         and `cite`. Since S0 of #461 the queue is kept by scripts/membership-queue-461.py, which
-        adds the columns `group`, `slice`, `waits`, `in_warning`, `pdf`, `body_line`, `exact` and
+        adds the columns `group`, `slice`, `ruling`, `in_warning`, `pdf`, `body_line`, `exact` and
         `paren`, the verdicts `cite` and `resolved`, and the rows that this screen does not queue
         (see scripts/membership-queue-461.md). `--status-out` writes its input.
 

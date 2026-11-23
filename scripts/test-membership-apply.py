@@ -358,6 +358,44 @@ class CiteTest(unittest.TestCase):
                                     verdict="keep", flags=["--check"])
         self.assertEqual(r.returncode, 0, r.stdout)
 
+    def run_mixed(self, cite_text: str):
+        """A removal (book-c from `one`) and a cite (book-b on `two`) in one queue."""
+        tmp = Path(tempfile.mkdtemp())
+        (tmp / "entries/spell").mkdir(parents=True)
+        (tmp / "publications.toml").write_text(PUBS, encoding="utf-8")
+        (tmp / "books.toml").write_text('[[books]]\nsource = "book-a"\n', encoding="utf-8")
+        one = tmp / "entries/spell/one.md"
+        two = tmp / "entries/spell/two.md"
+        one.write_text(entry("", "Text.\n").replace("test-spell", "one"), encoding="utf-8")
+        two.write_text(cite_text.replace("test-spell", "two"), encoding="utf-8")
+        queue = tmp / "queue.tsv"
+        with open(queue, "w", newline="") as f:
+            w = csv.DictWriter(f, fieldnames=QUEUE_HEAD, delimiter="\t", lineterminator="\n")
+            w.writeheader()
+            for eid, book, verdict, page, ev in (("ref/spell/one", "book-c", "remove", "3", "whole-book-absent"),
+                                                 ("ref/spell/two", "book-b", "cite", "12", "section-printed")):
+                row = dict.fromkeys(QUEUE_HEAD, "")
+                row.update(book=book, entry=eid, kind="spell", title="Test Spell", tag="uncited", verdict=verdict,
+                           print_page=page, evidence=ev)
+                w.writerow(row)
+        argv = [sys.executable, str(APPLY), str(tmp), "--queue", str(queue), "--audit", str(tmp / "none.tsv")]
+        return subprocess.run(argv, capture_output=True, text=True), one, two
+
+    def test_a_refused_cite_after_a_removal_leaves_every_file_unchanged(self):
+        before_one = entry("", "Text.\n").replace("test-spell", "one")
+        bad_two = entry('[[sources]]\npublication = "book-b"\npage = "13"\n', "Text.\n")  # another page: refused
+        r, one, two = self.run_mixed(bad_two)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertIn("cites book-b at p. 13", r.stderr)
+        self.assertEqual(one.read_text(), before_one)  # the removal was not written
+        self.assertEqual(two.read_text(), bad_two.replace("test-spell", "two"))
+
+    def test_the_same_mix_applies_when_every_row_is_valid(self):
+        r, one, two = self.run_mixed(entry("", "Text.\n"))
+        self.assertEqual(r.returncode, 0, r.stderr)
+        self.assertIn('source_ids = ["book-a", "book-b"]', one.read_text())
+        self.assertIn('publication = "book-b"\npage = "12"', two.read_text())
+
 
 if __name__ == "__main__":
     unittest.main()

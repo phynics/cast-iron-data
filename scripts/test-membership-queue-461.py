@@ -5,7 +5,7 @@
 
 Cases: every pair of the `corpus-check` warning and every figurine membership gets a row; the group
 and the slice of a row follow the entry (a standard racial trait, a class hub and its mirror, a race
-hub, a hub with and without a body source line, a figurine, a book without a PDF); an old verdict is
+hub, a hub with and without a body source line, a faith excerpt, a figurine, a book without a PDF); an old verdict is
 kept as it is; a book that left `source_ids` is `resolved` (with the `expanded_in` page when the
 entry credits it); a row whose title is on the cited page is a `keep`, but a figurine whose variant
 name is not on the page is not; a second run gives the same file; `--check` accepts the file and
@@ -53,6 +53,8 @@ def corpus_files() -> dict[str, str]:
         "race/elf.md": entry("ref/race/elf", "race", "Elf", ["core", "book-a"]),
         "rule/hub-line.md": entry("ref/rule/hub-line", "rule", "Hub With Line", ["core", "book-a"],
                                   body="Links.\n\n**Source** Alpha Book pg. 3\\\n"),
+        "faith/lamashtu.md": entry("ref/faith/lamashtu", "rule", "Lamashtu", ["core", "book-a"],
+                                   body="Links.\n\n**Sources:** Alpha Book pg 3\\\n"),
         "rule/hub-bare.md": entry("ref/rule/hub-bare", "rule", "Hub Bare", ["core", "book-a"], body="Links.\n"),
         "spell/printed.md": entry("ref/spell/printed", "spell", "Printed Spell", ["core", "book-b"], rows=ROW_B),
         "spell/single.md": entry("ref/spell/single", "spell", "Single Spell", ["core", "book-a", "nopdf"]),
@@ -122,6 +124,7 @@ class QueueTest(unittest.TestCase):
             screen_row("book-a", "ref/race/elf", kind="race", title="Elf"),
             screen_row("book-a", "ref/rule/hub-line", kind="rule", title="Hub With Line", tag="hub-keep"),
             screen_row("book-a", "ref/rule/hub-bare", kind="rule", title="Hub Bare", tag="hub-keep"),
+            screen_row("book-a", "ref/faith/lamashtu", kind="rule", title="Lamashtu"),
             screen_row("book-a", "ref/spell/single", kind="spell", title="Single Spell", status="absent", queued="yes"),
             screen_row("book-a", "ref/item/fig-a", kind="item", title=f"{FIG} (Slate Spider)", cited="9", cite="row",
                        has_row="yes", exact="yes", paren="page"),
@@ -160,8 +163,11 @@ class QueueTest(unittest.TestCase):
         }
         for key, (group, slc) in want.items():
             self.assertEqual((rows[key]["group"], rows[key]["slice"]), (group, slc), key)
-        self.assertEqual(rows[("book-a", "ref/rule/hub-bare")]["waits"], "design-q3")
-        self.assertEqual(rows[("book-a", "ref/rule/hub-line")]["waits"], "")
+        self.assertEqual(rows[("book-a", "ref/rule/hub-bare")]["ruling"], "hub-design-a")
+        self.assertEqual(rows[("book-a", "ref/rule/hub-bare")]["slice"], "S10")
+        self.assertEqual(rows[("book-a", "ref/rule/hub-line")]["ruling"], "")
+        self.assertEqual(rows[("book-a", "ref/faith/lamashtu")]["group"], "faith-excerpt")
+        self.assertEqual(rows[("book-a", "ref/faith/lamashtu")]["ruling"], "faith-link")
         self.assertEqual(rows[("book-a", "ref/rule/hub-line")]["body_line"], "yes")
         self.assertEqual(rows[("nopdf", "ref/spell/single")]["pdf"], "no")
         self.assertEqual(rows[("nopdf", "ref/spell/single")]["status"], "no-pdf")

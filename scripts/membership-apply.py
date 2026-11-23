@@ -565,6 +565,38 @@ def main() -> int:
     for path, r in todo:
         edit_entry(path, r["book"], titles[r["book"]], write=False, entry=r["entry"], root=root, audit=audit,
                    primary_to=r["proposed_primary"] if r["gate"] else "", print_page=r["print_page"])
+    # `cite` rows are checked now too: a refusal of any row, removal or cite, stops the run before
+    # the first file is written.
+    cite_todo = []
+    for r in cites:
+        key = (r["book"], r["entry"])
+        if key in seen:
+            raise SystemExit(f"refused: duplicate row {r['entry']} in {r['book']}")
+        seen.add(key)
+        if r["book"] not in titles:
+            raise SystemExit(f"refused: unknown book {r['book']}")
+        path = entry_path(root, r["entry"])
+        if not path.is_file():
+            raise SystemExit(f"refused: no entry file for {r['entry']}")
+        cite_todo.append((path, r))
+    for path, r in cite_todo:
+        cite_entry(path, r["book"], titles[r["book"]], r["print_page"], write=False, convert_body=args.convert_body)
+    # A `keep` row is a decision that the entry's `[[sources]]` row is right, so it must be there.
+    # (The first book needs no row: it is the entry's home.)
+    unrowed = []
+    with open(args.queue, encoding="utf-8", newline="") as f:
+        for r in csv.DictReader(f, delimiter="\t"):
+            if r["verdict"] != "keep" or (args.only_kind and r["kind"] != args.only_kind):
+                continue
+            path = entry_path(root, r["entry"])
+            if not path.is_file():
+                raise SystemExit(f"refused: no entry file for {r['entry']}")
+            text = path.read_text(encoding="utf-8")
+            m = SOURCE_IDS.search(text)
+            ids = re.findall(r'"([^"]*)"', m.group(1)) if m else []
+            if r["book"] in ids and ids[0] != r["book"] and not has_sources_row(text, r["book"]):
+                unrowed.append(r)
+
     # The book files are checked before anything is written as well.
     planned: dict[str, set[str]] = defaultdict(set)
     for _, r in todo:
@@ -582,43 +614,12 @@ def main() -> int:
     layout, counts, groups = apply_layout(root, removals, args.dry_run)
     placed = sum(counts.values())
 
-    # `cite` rows. All are checked before the first is written, like the removals.
-    cite_todo = []
-    for r in cites:
-        key = (r["book"], r["entry"])
-        if key in seen:
-            raise SystemExit(f"refused: duplicate row {r['entry']} in {r['book']}")
-        seen.add(key)
-        if r["book"] not in titles:
-            raise SystemExit(f"refused: unknown book {r['book']}")
-        path = entry_path(root, r["entry"])
-        if not path.is_file():
-            raise SystemExit(f"refused: no entry file for {r['entry']}")
-        cite_todo.append((path, r))
-    for path, r in cite_todo:
-        cite_entry(path, r["book"], titles[r["book"]], r["print_page"], write=False, convert_body=args.convert_body)
     cited = cite_already = 0
     for path, r in cite_todo:
         state = cite_entry(path, r["book"], titles[r["book"]], r["print_page"], write=not args.dry_run,
                            convert_body=args.convert_body)
         cited += state == "cited"
         cite_already += state == "already"
-
-    # A `keep` row is a decision that the entry's `[[sources]]` row is right, so it must be there.
-    # (The first book needs no row: it is the entry's home.)
-    unrowed = []
-    with open(args.queue, encoding="utf-8", newline="") as f:
-        for r in csv.DictReader(f, delimiter="\t"):
-            if r["verdict"] != "keep" or (args.only_kind and r["kind"] != args.only_kind):
-                continue
-            path = entry_path(root, r["entry"])
-            if not path.is_file():
-                raise SystemExit(f"refused: no entry file for {r['entry']}")
-            text = path.read_text(encoding="utf-8")
-            m = SOURCE_IDS.search(text)
-            ids = re.findall(r'"([^"]*)"', m.group(1)) if m else []
-            if r["book"] in ids and ids[0] != r["book"] and not has_sources_row(text, r["book"]):
-                unrowed.append(r)
 
     print(f"rows with verdict remove: {len(rows)}")
     print(f"source_ids: removed {removed}, already out {absent}")

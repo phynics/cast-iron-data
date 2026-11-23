@@ -31,7 +31,9 @@ means nothing; the `group` says how to decide the row.
 ## Groups
 
 `group` has one value per row, the first that fits. It is a function of the entry, so
-`membership-queue-461.py --check` recomputes it.
+`membership-queue-461.py --check` recomputes it. The `ruling` column names the owner ruling that
+decides a row with no verdict (`hub-design-a`, `faith-link`); nothing in the queue waits for a
+ruling any more.
 
 | Group | What it is | How it is decided | Slice |
 |---|---|---|---|
@@ -40,8 +42,9 @@ means nothing; the `group` says how to decide the row.
 | `single-entry` | A spell, item, trait, creature, affliction, skill, class option, archetype or feat | Per entry: `remove`, `family-ref`, or `cite` | S5 |
 | `class-hub` | An `ref/class/*` entry, or one of the 11 `ref/rule/class-*/*` mirror entries | Owner ruling 1: keep a book only when it prints a section of the class body itself (alternate capstones; the Archetypes introduction, Advanced Player's Guide p. 72) and `cite` its page. A book that only adds an archetype goes: the archetype entry carries that book | S6 (A-M), S7 (N-Z), S8 (mirrors) |
 | `race-hub` | An `ref/race/*` entry | Owner ruling 2: remove a book whose race material has its own entries (Dwarf in Heroes of the Wild); a book that prints only a favored class line becomes an `expanded_in` credit (Half-Orc in Ultimate Wilderness p. 31) | S9 |
-| `hub-cited` | Another `rule` entry (hub, faith, ability) whose body has a `**Source**` line that names the book | `cite` with the line's page, after one check against print. `--convert-body` turns the line into the row | S10 |
-| `link-only-hub` | Another `rule` entry without such a line: Gamemastery, Specific Campaign Types, Specific Rulesets, Optional Subsystems, Advanced GM Topics, faith entries. One or two sentences and links | **Waits for a design** (owner ruling 3, `waits = design-q3`): the sources of the entries a hub links to are to be marked per entry, not carried by the hub. No row of this group is decided before the design | S10 |
+| `faith-excerpt` | A `ref/faith/*` entry whose body quotes a section (the deity's Divine Fighting Technique) under a `**Source**` line that names the book | Owner ruling of 2026-11-24 (`ruling = faith-link`): replace the quoted section with a link to the technique's own entry (for example Lamashtu's Carving, Divine Anthology pp. 28-31); the book then leaves the faith. Where no entry for the technique exists, report it instead of guessing | S10 |
+| `hub-cited` | Another `rule` entry (hub, ability) whose body has a `**Source**` line that names the book | `cite` with the line's page, after one check against print. `--convert-body` turns the line into the row | S10 |
+| `link-only-hub` | Another `rule` entry without such a line: Gamemastery, Specific Campaign Types, Specific Rulesets, Optional Subsystems, Advanced GM Topics. One or two sentences and links | Owner ruling of 2026-11-24, design (a) (`ruling = hub-design-a`): a hub keeps only its home book. The 14 navigation hubs first get their topic lists back as `::: entry-link` blocks (137 blocks); then their non-first books go: removed where a listed entry carries the book (`hub-link <target>`) or nothing does (`hub-no-evidence`), cited where the body prints a section, read in print where the design table says so. The muted book label on each listed row is an app change. The hubs' home book is post-v1 (phynics/cast-iron-data#277), and so are the 545 other dropped subtopic lists (#276) | S10 |
 | `no-pdf` | Any other entry, in a book that is not among the owner's PDFs (Adventure Path volumes, Player's Guides, one blog post). A `rule` entry there is `no-pdf` too, unless it is a collector hub that no body line cites | Owner ruling 4: keep with a row that carries the page of the corpus's own body or dataset citation. Evidence `unverified-no-pdf`, so a later check can find them | S12 |
 
 The three structural groups (standard racial traits, class hubs, race hubs) come before `no-pdf`:
@@ -55,7 +58,8 @@ At S0 (data `main` `dc1a2e653`; the warning is 1,471 memberships in 355 entries)
 | `standard-racial-trait` | 638 | 638 |
 | `class-hub` | 410 | 410 |
 | `race-hub` | 147 | 147 |
-| `hub-cited` | 51 | 73 |
+| `faith-excerpt` | 16 | 22 |
+| `hub-cited` | 35 | 51 |
 | `link-only-hub` | 77 | 93 |
 | `single-entry` | 104 | 314 |
 | `no-pdf` | 44 | 44 |
@@ -98,7 +102,7 @@ Slices touch only `source_ids`, `[[sources]]`, `[[expanded_in]]` and placements.
 | S5 | Single entries. Take the 17 traits book by book after #215 has passed those books | 4 |
 | S6, S7, S8 | Class hubs and mirrors, under ruling 1 | 5 |
 | S9 | Race hubs, under ruling 2 | 5 |
-| S10 | `hub-cited` rows (cite). The `link-only-hub` rows **wait for the design** (ruling 3) | 5 |
+| S10 | `hub-cited` rows (cite); `link-only-hub` rows (restore the lists of the 14 navigation hubs, then remove, cite or read: design (a)); `faith-excerpt` rows (replace the section with a link) | 5 |
 | S11 | Rows outside the warning: page corrections, `review` rows | 6 |
 | S12 | Books without an owner PDF, under ruling 4 | 7 |
 
