@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-streets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pierce_the_darkness", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-streets"
+page = "26"
 
 [fields]
 kind = "class_option"

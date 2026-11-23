@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "poison_use", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "8"
 
 [fields]
 kind = "class_option"

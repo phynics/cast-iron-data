@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "beast_speech", path = "json/class_ability_social_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "19"
 
 [fields]
 kind = "class_option"

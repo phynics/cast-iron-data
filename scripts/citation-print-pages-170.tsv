@@ -2941,3 +2941,340 @@ ref/vigtalent/poisoner	antiheros-handbook	16	print
 ref/vigtalent/signature-arrows	antiheros-handbook	16	print	
 ref/vigtalent/sweeping-strike	antiheros-handbook	16	print	
 ref/vigtalent/vigilantes-reflexes	antiheros-handbook	17	print	
+ref/arcanedisc/steward-of-the-great-beyond	champions-of-purity	27	print	
+ref/arcanedisc/werewolf-shape	blood-of-the-moon	25	print	
+ref/arcanedisc/yuelrals-blessing	champions-of-purity	27	print	
+ref/discovery/anguish-bomb	distant-realms	52	print	
+ref/discovery/aromatic-extract	heroes-of-the-high-court	10	print	
+ref/discovery/celestial-poisons	champions-of-purity	24	print	
+ref/discovery/change-alignment	champions-of-purity	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/discovery/constructive-dyes	heroes-of-golarion	25	print	
+ref/discovery/cursed-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/divine-inks	heroes-of-golarion	25	print	
+ref/discovery/dread-bomb	distant-realms	52	print	
+ref/discovery/elemental-destabilizers	elemental-masters-handbook	30	print		proposal 31, print 30: heading on exactly one page within two pages of the proposal
+ref/discovery/explosive-calligraphy	heroes-of-golarion	25	print	
+ref/discovery/grand-rasugen	distant-realms	52	print	
+ref/discovery/greater-change-alignment	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/greater-constructive-dyes	heroes-of-golarion	25	print	
+ref/discovery/greater-divine-inks	heroes-of-golarion	25	print	
+ref/discovery/greater-rasugen	distant-realms	52	print	
+ref/discovery/holy-bombs	champions-of-purity		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/improved-divine-inks	heroes-of-golarion	25	print	
+ref/discovery/living-pigment	heroes-of-golarion	25	print	
+ref/discovery/material-mastery	cohorts-and-companions	13	print	
+ref/discovery/melancholy-bomb	distant-realms	53	print	
+ref/discovery/neutralizing-bomb	healers-handbook	11	print	
+ref/discovery/nostrum	heroes-of-the-high-court	11	print	
+ref/discovery/pickled-quasit	champions-of-corruption	26	print	
+ref/discovery/plague-vector	champions-of-corruption	26	print	
+ref/discovery/poisoned-explosive	dirty-tactics-toolbox	7	print		title text only (no heading form): the name is on page 7 and on none of the two pages each side
+ref/discovery/profane-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/psychoactive-bomb	blood-of-the-moon	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
+ref/discovery/purging-mutagen	healers-handbook	11	print	
+ref/discovery/ranged-baptism	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/spell-knowledge	cohorts-and-companions	13	print	
+ref/discovery/substantiating-bomb	distant-realms	53	print		title text only (no heading form): the name is on page 53 and on none of the two pages each side
+ref/discovery/syringe-stirge	cohorts-and-companions	13	print	
+ref/discovery/tainted-infusion	champions-of-corruption	26	print	
+ref/eidolon/deepwater	blood-of-the-sea		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/eidolon/genie	elemental-masters-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/eidolon/shadow	blood-of-shadows	12	print		proposal 11, print 12: heading on exactly one page within two pages of the proposal
+ref/evolution/alignment-smite	champions-of-purity	26	print		title text only (no heading form): the name is on page 26 and on none of the two pages each side
+ref/evolution/bleed	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
+ref/evolution/celestial-appearance	champions-of-purity	26	print	
+ref/evolution/fiendish-appearance	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
+ref/evolution/rider-bond	cohorts-and-companions	9	print	
+ref/evolution/sacrifice	champions-of-purity	26	print	
+ref/evolution/sickening	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
+ref/evolution/slippery	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
+ref/evolution/sticky	champions-of-corruption	25	print		proposal 27, print 25: heading on exactly one page within two pages of the proposal
+ref/hex/ameliorating	healers-handbook	16	print		the heading is on the proposed page (16) and on 16,17; the row keeps the proposal
+ref/hex/animal-servant	heroes-of-golarion	16	print	
+ref/hex/animal-skin	blood-of-the-moon	15	print	
+ref/hex/aura-of-purity	champions-of-purity	27	print	
+ref/hex/beasts-gift	heroes-of-golarion	16	print	
+ref/hex/combat-hypnosis	heroes-of-golarion	15	print	
+ref/hex/curse-of-nonviolence	champions-of-purity	27	print		title text only (no heading form): the name is on page 27 and on none of the two pages each side
+ref/hex/cursed-wound	blood-of-the-moon	15	print	
+ref/hex/dark-apothecary	heroes-of-golarion	15	print	
+ref/hex/death-interrupted	healers-handbook	17	print	
+ref/hex/delicious-fright	blood-of-the-moon	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
+ref/hex/distraction	heroes-of-the-high-court	9	print	
+ref/hex/drugged	heroes-of-golarion	16	print	
+ref/hex/false-hospitality	heroes-of-golarion	16	print	
+ref/hex/lay-to-rest	champions-of-purity	27	print	
+ref/hex/major-ameliorating	healers-handbook	17	print	
+ref/hex/minor-prophecy	heroes-of-golarion	15	print	
+ref/hex/peacebond	champions-of-purity	27	print	
+ref/hex/prophecy	heroes-of-golarion	16	print		the heading is on the proposed page (16) and on 15,16; the row keeps the proposal
+ref/hex/protective-luck	heroes-of-the-high-court	9	print	
+ref/hex/regenerative-sinew	healers-handbook	17	print	
+ref/hex/steal-voice	dirty-tactics-toolbox	23	print	
+ref/hex/swamps-grasp	blood-of-the-moon	15	print	
+ref/hex/swine	heroes-of-golarion	15	print	
+ref/hex/witchs-bounty	champions-of-purity	27	print	
+ref/hex/witchs-charge	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/castling	elemental-masters-handbook	9	print	
+ref/invtalent/extra-earthcraft	elemental-masters-handbook	9	print	
+ref/invtalent/fortified-position	elemental-masters-handbook	9	print	
+ref/invtalent/greater-numerical-alchemy	disciples-doctrine		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/greater-numerical-strike	disciples-doctrine	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
+ref/invtalent/numerical-alchemy	disciples-doctrine	17	print	
+ref/invtalent/numerical-strike	disciples-doctrine	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
+ref/invtalent/unbalancing-trick	elemental-masters-handbook	9	print	
+ref/mercy/amputated	healers-handbook	25	print	
+ref/mercy/blinded	core-rulebook	62	print	
+ref/mercy/confused	healers-handbook	25	print	
+ref/mercy/cursed	core-rulebook	62	print	
+ref/mercy/dazed	core-rulebook	61	print	
+ref/mercy/deafened	core-rulebook	62	print	
+ref/mercy/deceived	healers-handbook	25	print	
+ref/mercy/diseased	core-rulebook	61	print	
+ref/mercy/enfeebled	healers-handbook	25	print	
+ref/mercy/ensorcelled	healers-handbook	25	print	
+ref/mercy/exhausted	core-rulebook	62	print	
+ref/mercy/fatigued	core-rulebook	61	print	
+ref/mercy/frightened	core-rulebook	62	print	
+ref/mercy/haunted	healers-handbook	25	print	
+ref/mercy/injured	healers-handbook	25	print	
+ref/mercy/nauseated	core-rulebook	62	print	
+ref/mercy/paralyzed	core-rulebook	62	print	
+ref/mercy/petrified	healers-handbook	25	print	
+ref/mercy/poisoned	core-rulebook	62	print	
+ref/mercy/riled	healers-handbook	25	print	
+ref/mercy/shaken	core-rulebook	61	print	
+ref/mercy/sickened	core-rulebook	61	print	
+ref/mercy/staggered	core-rulebook	61	print	
+ref/mercy/stunned	core-rulebook	62	print	
+ref/mercy/targeted	healers-handbook	25	print	
+ref/ninjatrick/acceleration-of-form	chronicle-of-legends	6	print	
+ref/ninjatrick/all-the-stars-in-the-sky	chronicle-of-legends	6	print	
+ref/ninjatrick/arcane-backfire	heroes-from-the-fringe	30	print	
+ref/ninjatrick/false-face	chronicle-of-legends	6	print	
+ref/ninjatrick/fractured-mirror	chronicle-of-legends	6	print	
+ref/ninjatrick/kami-warden	chronicle-of-legends	6	print	
+ref/ninjatrick/spiritual-companion	chronicle-of-legends	6	print	
+ref/ninjatrick/swarming-attack	heroes-from-the-fringe	30	print	
+ref/oraclecurse/consumed	blood-of-fiends	26	print	
+ref/oraclecurse/elemental-imbalance	elemental-masters-handbook	29	print		title text only (no heading form): the name is on page 29 and on none of the two pages each side
+ref/oraclecurse/god-meddled	heroes-of-golarion	14	print	
+ref/oraclecurse/legalistic	blood-of-fiends	26	print	
+ref/oraclecurse/song-bound	blood-of-the-sea	12	print	
+ref/oraclecurse/wrecker	blood-of-fiends	26	print	
+ref/oraclecurse/wrecking-mysticism	dirty-tactics-toolbox	23	print	
+ref/patron/boundaries	champions-of-purity	27	print	
+ref/patron/celestial-agenda	blood-of-the-coven	15	print	
+ref/patron/devotion	champions-of-purity	27	print	
+ref/patron/empath	blood-of-the-coven	15	print	
+ref/patron/fey-gifts	blood-of-the-coven	15	print	
+ref/patron/green-whispers	blood-of-the-coven	15	print	
+ref/patron/hags-calling	blood-of-the-coven	15	print	
+ref/patron/infernal-contract	blood-of-the-coven	15	print	
+ref/patron/jynx	blood-of-the-coven	17	print	
+ref/patron/mercy	blood-of-the-coven	17	print	
+ref/patron/peace	champions-of-purity	27	print	
+ref/patron/protection	heroes-of-the-high-court	9	print	
+ref/patron/recovery	healers-handbook	16	print	
+ref/patron/rot	blood-of-the-coven	17	print	
+ref/patron/shadowbound	blood-of-the-coven	15	print	
+ref/patron/the-condition-of-all	blood-of-the-coven	15	print	
+ref/patron/touched-by-the-outer-gods	blood-of-the-coven	15	print	
+ref/phrenicamp/minds-eye	heroes-of-golarion	13	print	
+ref/phrenicamp/perfect-body	heroes-of-golarion	13	print	
+ref/phrenicamp/psychic-defense	heroes-of-golarion	13	print	
+ref/phrenicamp/whisper-of-ancients	heroes-of-golarion	13	print	
+ref/ragepower/air-totem	blood-of-the-elements	11	print	
+ref/ragepower/animal-fury	core-rulebook	32	print	
+ref/ragepower/armor-ripper	blood-of-the-moon		unconfirmed	only a short title is on the proposed page, which proves little
+ref/ragepower/bloody-fist	demon-hunters-handbook	8	print	
+ref/ragepower/boars-charge	blood-of-the-moon	13	print	
+ref/ragepower/celestial-totem	champions-of-purity	22	print	
+ref/ragepower/clear-mind	core-rulebook	32	print	
+ref/ragepower/deathless-frenzy	blood-of-the-moon	13	print	
+ref/ragepower/disemboweling-tusks	blood-of-the-moon	13	print	
+ref/ragepower/earth-totem	blood-of-the-elements	11	print	
+ref/ragepower/enhance-venom	dirty-tactics-toolbox	9	print	
+ref/ragepower/fearless-rage	core-rulebook	33	print	
+ref/ragepower/feast-of-blood	demon-hunters-handbook	8	print	
+ref/ragepower/fire-totem	blood-of-the-elements	11	print	
+ref/ragepower/fueled-by-vengeance	blood-of-the-moon	13	print	
+ref/ragepower/greater-air-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-animal-fury	champions-of-corruption	27	print	
+ref/ragepower/greater-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-earth-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fire-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-water-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/guarded-stance	core-rulebook	33	print	
+ref/ragepower/increased-damage-reduction	core-rulebook	33	print	
+ref/ragepower/internal-fortitude	core-rulebook	33	print	
+ref/ragepower/intimidating-glare	core-rulebook	33	print	
+ref/ragepower/knockback	core-rulebook	33	print	
+ref/ragepower/lesser-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-elemental-totem	blood-of-the-elements	10	print		title text only (no heading form): the name is on page 10 and on none of the two pages each side
+ref/ragepower/low-light-vision	core-rulebook	33	print	
+ref/ragepower/mighty-swing	core-rulebook	33	print	
+ref/ragepower/moment-of-clarity	core-rulebook	33	print	
+ref/ragepower/night-vision	core-rulebook	33	print	
+ref/ragepower/no-escape	core-rulebook	33	print	
+ref/ragepower/penetrating-bite	champions-of-corruption	27	print	
+ref/ragepower/powerful-blow	core-rulebook	33	print	
+ref/ragepower/quick-reflexes	core-rulebook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/ragepower/raging-climber	core-rulebook	33	print	
+ref/ragepower/raging-leaper	core-rulebook	33	print	
+ref/ragepower/raging-swimmer	core-rulebook	33	print	
+ref/ragepower/renewed-vigor	core-rulebook	33	print	
+ref/ragepower/rolling-dodge	core-rulebook	33	print	
+ref/ragepower/roused-anger	core-rulebook	33	print	
+ref/ragepower/savage-intuition	blood-of-the-moon	13	print	
+ref/ragepower/savage-jaw	champions-of-corruption	27	print	
+ref/ragepower/scent	core-rulebook	33	print	
+ref/ragepower/strength-surge	core-rulebook	33	print	
+ref/ragepower/superstition	core-rulebook	33	print	
+ref/ragepower/surprise-accuracy	core-rulebook	33	print	
+ref/ragepower/swift-foot	core-rulebook	34	print	
+ref/ragepower/terrifying-howl	core-rulebook	34	print	
+ref/ragepower/unexpected-strike	core-rulebook	34	print	
+ref/ragepower/vipers-breath	dirty-tactics-toolbox	9	print	
+ref/ragepower/vipers-kiss	dirty-tactics-toolbox	9	print	
+ref/ragepower/water-totem	blood-of-the-elements	11	print	
+ref/rangertrap/anchoring-trap	demon-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/rangertrap/telepathy-trap	demon-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/rangertrap/transpositional-trap	demon-hunters-handbook	11	print		title text only (no heading form): the name is on page 11 and on none of the two pages each side
+ref/shamanhex/draconic-resilience	heroes-from-the-fringe	8	print	
+ref/shamanhex/intimidating-display	heroes-from-the-fringe	8	print	
+ref/shamanhex/wings	heroes-from-the-fringe	8	print	
+ref/slayertalent/aligned-sneak-attack	distant-realms	13	print	
+ref/slayertalent/armored-marauder	chronicle-of-legends	6	print	
+ref/slayertalent/armored-swiftness	chronicle-of-legends	6	print	
+ref/slayertalent/castling	elemental-masters-handbook	9	print	
+ref/slayertalent/catfolk-rogue-talent	dirty-tactics-toolbox	22	print		title text only (no heading form): the name is on page 22 and on none of the two pages each side
+ref/slayertalent/extra-earthcraft	elemental-masters-handbook	9	print	
+ref/slayertalent/fortified-position	elemental-masters-handbook	9	print	
+ref/slayertalent/jaguars-grace	heroes-of-golarion	4	print	
+ref/slayertalent/jaguars-pounce	heroes-of-golarion	4	print	
+ref/slayertalent/jaguars-protection	heroes-of-golarion	4	print	
+ref/slayertalent/marksmans-shot	chronicle-of-legends	6	print	
+ref/slayertalent/poison-use	blood-of-shadows	8	print	
+ref/slayertalent/reaping-stalker	chronicle-of-legends	7	print	
+ref/slayertalent/sever-alignment	distant-realms	13	print		title text only (no heading form): the name is on page 13 and on none of the two pages each side
+ref/slayertalent/swallow-reversal	chronicle-of-legends	7	print	
+ref/slayertalent/unbalancing-trick	elemental-masters-handbook	9	print	
+ref/soctalent/always-prepared	chronicle-of-legends	7	print	
+ref/soctalent/ancestral-enlightenment	disciples-doctrine	23	print	
+ref/soctalent/beast-friend	heroes-of-golarion	19	print	
+ref/soctalent/beast-speech	heroes-of-golarion	19	print	
+ref/soctalent/morphic-mask	chronicle-of-legends	7	print	
+ref/soctalent/owls-sight	heroes-of-golarion	19	print	
+ref/soctalent/skill-familiarity	disciples-doctrine	23	print	
+ref/soctalent/songbird	heroes-of-golarion	19	print	
+ref/stare/distracted	heroes-of-golarion	9	print	
+ref/stare/sensed	heroes-of-golarion	9	print	
+ref/stare/unaided	heroes-of-golarion	9	print	
+ref/talent/acrobatic-assist	cohorts-and-companions	27	print	
+ref/talent/against-the-wall	elemental-masters-handbook	9	print	
+ref/talent/aligned-disguise	blood-of-shadows	8	print	
+ref/talent/aligned-sneak-attack	distant-realms	13	print	
+ref/talent/bleeding-attack	core-rulebook	68	print		title text only (no heading form): the name is on page 68 and on none of the two pages each side
+ref/talent/blinding-strike	blood-of-shadows	9	print	
+ref/talent/castling	elemental-masters-handbook	9	print	
+ref/talent/cloying-shades	blood-of-shadows	7	print	
+ref/talent/combat-trick	core-rulebook	68	print	
+ref/talent/crippling-strike	core-rulebook	69	print		title text only (no heading form): the name is on page 69 and on none of the two pages each side
+ref/talent/dance-of-disorienting-shadows	blood-of-shadows	9	print	
+ref/talent/defensive-roll	core-rulebook	69	print	
+ref/talent/demand-attention	cohorts-and-companions	27	print	
+ref/talent/disease-use	blood-of-the-moon	19	print	
+ref/talent/dispelling-attack	core-rulebook	70	print		title text only (no heading form): the name is on page 70 and on none of the two pages each side
+ref/talent/eerie-disappearance	heroes-of-the-streets	26	print	
+ref/talent/emboldening-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
+ref/talent/expert-cypher	divine-anthology		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/extinguishing-strike	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
+ref/talent/extra-earthcraft	elemental-masters-handbook	9	print	
+ref/talent/face-in-the-crowd	blood-of-the-moon	19	print	
+ref/talent/false-attacker	heroes-of-the-streets	26	print	
+ref/talent/fast-stealth	core-rulebook	68	print	
+ref/talent/feat	core-rulebook	70	print	
+ref/talent/feint-from-shadows	blood-of-shadows	8	print	
+ref/talent/finesse-rogue	core-rulebook	68	print	
+ref/talent/focusing-attack	blood-of-shadows	8	print		title text only (no heading form): the name is on page 8 and on none of the two pages each side
+ref/talent/fortified-position	elemental-masters-handbook	9	print	
+ref/talent/gloom-magic	blood-of-shadows	8	print	
+ref/talent/got-your-back	cohorts-and-companions	27	print	
+ref/talent/greater-gloom-magic	blood-of-shadows	8	print	
+ref/talent/heads-up	cohorts-and-companions	27	print	
+ref/talent/improved-evasion	core-rulebook	70	print	
+ref/talent/improved-shadows-chill	blood-of-shadows	9	print		title text only (no heading form): the name is on page 9 and on none of the two pages each side
+ref/talent/ledge-walker	core-rulebook	68	print	
+ref/talent/major-magic	core-rulebook	68	print	
+ref/talent/mien-of-despair	blood-of-shadows	8	print	
+ref/talent/minor-magic	core-rulebook	68	print	
+ref/talent/obscuring-blow	blood-of-shadows	8	print		title text only (no heading form): the name is on the proposed page (8) and on 8,9; the row keeps the proposal
+ref/talent/opportunist	core-rulebook	70	print	
+ref/talent/petrifying-strike	elemental-masters-handbook	9	print		title text only (no heading form): the name is on page 9 and on none of the two pages each side
+ref/talent/pierce-the-darkness	heroes-of-the-streets	26	print	
+ref/talent/poison-use	blood-of-shadows	8	print	
+ref/talent/quick-disable	core-rulebook	68	print	
+ref/talent/quick-scrounge	blood-of-the-moon	19	print	
+ref/talent/reflexive-shadow-shield	blood-of-shadows	9	print	
+ref/talent/resiliency	core-rulebook	68	print	
+ref/talent/resonating-rumbles	elemental-masters-handbook	9	print		title text only (no heading form): the name is on page 9 and on none of the two pages each side
+ref/talent/rogue-crawl	core-rulebook	68	print	
+ref/talent/sacred-sneak-attack	champions-of-purity	25	print	
+ref/talent/sacrifice-self	champions-of-purity	25	print	
+ref/talent/scavenger	blood-of-the-moon	19	print	
+ref/talent/see-in-darkness	blood-of-shadows	9	print	
+ref/talent/set-up	cohorts-and-companions	27	print	
+ref/talent/sever-alignment	distant-realms	13	print		title text only (no heading form): the name is on page 13 and on none of the two pages each side
+ref/talent/shadow-duplicate	blood-of-shadows	8	print	
+ref/talent/shadows-chill	blood-of-shadows	8	print		title text only (no heading form): the name is on the proposed page (8) and on 8,9; the row keeps the proposal
+ref/talent/shove-aside	cohorts-and-companions	27	print	
+ref/talent/skill-mastery	core-rulebook	70	print	
+ref/talent/slippery-mind	core-rulebook	70	print	
+ref/talent/slow-reactions	core-rulebook		unconfirmed	only a short title is on the proposed page, which proves little
+ref/talent/stand-up	core-rulebook	68	print	
+ref/talent/stem-the-flow	champions-of-purity	25	print	
+ref/talent/stony-skin	elemental-masters-handbook	9	print	
+ref/talent/surprise-attack	core-rulebook	69	print	
+ref/talent/trap-spotter	core-rulebook	69	print	
+ref/talent/umbral-gear	blood-of-shadows	8	print	
+ref/talent/unbalancing-trick	elemental-masters-handbook	9	print	
+ref/talent/underhanded-trick	blood-of-shadows	8	print	
+ref/talent/weapon-training	core-rulebook	69	print	
+ref/trick/psychic-impression	heroes-of-golarion	9	print	
+ref/trick/telepathic-link	heroes-of-golarion	9	print	
+ref/trick/voice-of-reason	heroes-of-golarion	9	print	
+ref/vigtalent/animal-patron	heroes-of-golarion	20	print	
+ref/vigtalent/leap-and-bound	chronicle-of-legends	7	print	
+ref/vigtalent/magical-familiarity	disciples-doctrine	23	print	
+ref/vigtalent/malleable-flesh	chronicle-of-legends	7	print	
+ref/vigtalent/monkeys-paws	heroes-of-golarion	20	print	
+ref/vigtalent/morphic-weaponry	chronicle-of-legends	7	print	
+ref/vigtalent/one-with-the-wild	heroes-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
+ref/vigtalent/steel-soldier	chronicle-of-legends	7	print	
+ref/vigtalent/steely-resolve	disciples-doctrine	23	print	
+ref/vigtalent/tigers-claws	heroes-of-golarion	20	print	
+ref/vigtalent/volatile-arrows	chronicle-of-legends	7	print	
+ref/vigtalent/weapon-familiarity	disciples-doctrine	23	print	
+ref/arcanedisc/balanced-summoning	champions-of-balance	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/arcanedisc/beyond-morality	champions-of-balance	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/arcanedisc/creative-destruction	champions-of-balance	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/arcanedisc/defensive-feedback	champions-of-balance	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/arcanedisc/idealize	champions-of-balance	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/discovery/anarchic-bombs	champions-of-balance	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/discovery/axiomatic-bombs	champions-of-balance	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/discovery/collective-memory	champions-of-balance	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/discovery/intuitive-understanding	champions-of-balance	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/ninjatrick/blood-debt	champions-of-balance	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/ninjatrick/kamikaze	champions-of-balance	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/ninjatrick/kawarimi	champions-of-balance	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/ninjatrick/redirect-force	champions-of-balance	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/rangertrap/firework-trap	champions-of-balance	25	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/rangertrap/limning-trap	champions-of-balance	25	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/rangertrap/smoke-trap	champions-of-balance	25	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/rangertrap/toxic-fumes-trap	champions-of-balance	25	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 15 = printed p. 13 (Elemental Endowment)
+ref/oraclecurse/blackened	blood-of-angels	26	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 23 = printed p. 21 (Celestial Tracker)
+ref/oraclecurse/wolfscarred-face	blood-of-angels	26	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 23 = printed p. 21 (Celestial Tracker)
+ref/discovery/demolition-charge	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)
+ref/discovery/grease-bomb	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)
+ref/discovery/malignant-poison	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)

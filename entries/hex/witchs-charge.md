@@ -6,6 +6,8 @@ source_ids = ["champions-of-purity"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchs_charge", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "champions-of-purity"
 
 [fields]
 kind = "class_option"

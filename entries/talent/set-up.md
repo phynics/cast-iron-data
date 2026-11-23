@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "set_up", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "27"
 
 [fields]
 kind = "class_option"

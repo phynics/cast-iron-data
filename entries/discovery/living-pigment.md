@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "living_pigment", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "25"
 
 [fields]
 kind = "class_option"

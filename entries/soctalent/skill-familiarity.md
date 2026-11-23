@@ -6,6 +6,9 @@ source_ids = ["disciples-doctrine"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "skill_familiarity", path = "json/class_ability_social_talents.json" },
 ]
+[[sources]]
+publication = "disciples-doctrine"
+page = "23"
 
 [fields]
 kind = "class_option"

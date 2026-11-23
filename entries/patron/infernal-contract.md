@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-coven"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "infernal_contract", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "blood-of-the-coven"
+page = "15"
 
 [fields]
 kind = "class_option"

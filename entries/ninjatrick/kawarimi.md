@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kawarimi", path = "json/class_ability_ninja_tricks.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "18"
 
 [fields]
 kind = "class_option"

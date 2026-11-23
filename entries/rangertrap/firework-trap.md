@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "firework_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "25"
 
 [fields]
 kind = "class_option"

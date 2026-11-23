@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_with_the_wild", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "20"
 
 [fields]
 kind = "class_option"

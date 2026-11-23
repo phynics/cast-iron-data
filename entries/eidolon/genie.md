@@ -6,6 +6,8 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "genie", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
 
 [fields]
 kind = "class_option"

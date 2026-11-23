@@ -6,6 +6,8 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_ripper", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
 
 [fields]
 kind = "class_option"

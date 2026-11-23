@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elemental_imbalance", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "29"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "protection", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "9"
 
 [fields]
 kind = "class_option"

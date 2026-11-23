@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "arcane_backfire", path = "json/class_ability_ninja_tricks.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "30"
 
 [fields]
 kind = "class_option"

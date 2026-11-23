@@ -6,6 +6,9 @@ source_ids = ["champions-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sticky", path = "json/class_ability_evolutions.json" },
 ]
+[[sources]]
+publication = "champions-of-corruption"
+page = "25"
 
 [fields]
 kind = "class_option"

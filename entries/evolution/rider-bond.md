@@ -6,6 +6,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rider_bond", path = "json/class_ability_evolutions.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "9"
 
 [fields]
 kind = "class_option"
