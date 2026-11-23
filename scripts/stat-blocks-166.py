@@ -31,7 +31,7 @@ Usage (DIR defaults to the repository root):
                                                              fix is not applied, or the TSV is stale
     python3 scripts/stat-blocks-166.py --self-test           run the built-in tests
 
-    --pass sources[,creature,npc,item]
+    --pass sources[,creature,npc,item,siege]
                                  which passes run (default: every pass this version implements;
                                  `sources` runs first, so one `--write` moves the citation and then
                                  converts what it unblocked)
@@ -262,6 +262,28 @@ every other line is found again byte for byte, in order; reading the removed lin
 citations that each have a row in the new front matter with the printed page; no row is added that
 no citation prints. A second run finds nothing to move (`--write` checks it).
 
+Rules for the variant passes (owner ruling 2 of 2026-11-23, one pass for each variant kind)
+-------------------------------------------------------------------------------------------
+
+A variant sub-item of an entry (a size, a second set of statistics, a recipe) becomes a stat block
+of its own. A titled block per variant, `title = "<printed variant name>"`; an untitled block under
+an existing heading; a linked label moves onto the value; a variant row that only restates the
+entry's own `Price` or `Slot` stays prose, so the drift check reads the entry's own value. Poison
+affliction tails stay prose. A pass opens with one slice and stops for review.
+
+`siege` (`entries/eq-siegeengine`, 20 entries): the size variants that print without a colon.
+
+V1  Scope. A paragraph whose first line is `**Large**`, `**Huge**`, `**Gargantuan**` or
+    `**Colossal**` alone with a break, followed by statistics lines. The sizes that print with a
+    colon (`**Light:**`, 14 entries) and every other paragraph stay as they are.
+V2  Block. The paragraph becomes one stat block where it stands, with the size as its `title` and
+    one row for each label of the lines below, as the item rules I3 and I4 read them. The block of
+    the entry's own lead (`Large:`), when there is one, is not touched.
+V3  Queue. A paragraph with a line without a label, a sentence value, a label twice, a
+    `**Sources:**` line, or a fence in the body queues the whole file.
+    The proof (`prove_siege`) reads the words of the body before and after, with the title read as
+    the bold size name, and finds every other paragraph again byte for byte, in order.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -301,12 +323,20 @@ APPLIED: list[tuple[str, str | None]] = [
     ("creature", None),
     ("npc", None),
     ("item", None),
+    ("siege", None),
 ]
 
-PASS_FOLDERS = {"sources": ("monster", "npc", "*"), "creature": ("monster",), "npc": ("npc",), "item": ("*",), "fixes": ()}
-PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item"}
+PASS_FOLDERS = {
+    "sources": ("monster", "npc", "*"),
+    "creature": ("monster",),
+    "npc": ("npc",),
+    "item": ("*",),
+    "siege": ("eq-siegeengine",),
+    "fixes": (),
+}
+PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item", "siege": "item"}
 NOT_ITEM_FOLDERS = ("carried", "monster", "npc")
-KNOWN_PASSES = ("sources", "creature", "npc", "item", "fixes")
+KNOWN_PASSES = ("sources", "creature", "npc", "item", "siege", "fixes")
 
 # Rule S: the zones of a body whose raw `**Sources:**` lines the pass handles now, and the label.
 SOURCES_LABEL = "**Sources:**"
@@ -1555,6 +1585,83 @@ def item_leftovers(body: str) -> list[str]:
     return found
 
 
+# ---- the siege size variants (variant kind 1 of the owner ruling 2 of 2026-11-23) -------------------
+
+SIEGE_SIZES = ("Large", "Huge", "Gargantuan", "Colossal")
+SIEGE_TITLE = re.compile(r"\*\*(" + "|".join(SIEGE_SIZES) + r")\*\*")
+
+
+def siege_variants(cs: list[list[str]]) -> list[int]:
+    """V1: the paragraphs whose first line is a size alone in bold, with a break (`**Huge**\\`)."""
+    return [
+        index
+        for index, chunk in enumerate(cs)
+        if len(chunk) > 1 and chunk[0].endswith("\\") and SIEGE_TITLE.fullmatch(chunk[0][:-1])
+    ]
+
+
+def classify_siege(body: str) -> str:
+    if re.search(r"^:::(?! statblock$)(?!$)", body, re.M):
+        raise Queue("fence-in-body")
+    return "paragraphs" if siege_variants(chunks(body.split("\n"))) else "already"
+
+
+def convert_siege(body: str) -> str:
+    """V1 to V3: each size paragraph becomes a stat block titled with the size, where it stands.
+    Raises Queue when a paragraph does not read as rows."""
+    cs = chunks(body.split("\n"))
+    variants = set(siege_variants(cs))
+    out: list[str] = []
+    for index, chunk in enumerate(cs):
+        if index not in variants:
+            out.append("\n".join(chunk))
+            continue
+        segments = "\n".join(chunk).split("\\\n")
+        title = SIEGE_TITLE.fullmatch(segments[0]).group(1)
+        rows: list[tuple[str, list[str]]] = []
+        for segment in segments[1:]:
+            if segment.startswith("**Sources:**"):
+                raise Queue("sources-line-in-variant")
+            found = item_rows(segment, False)
+            if any(is_sentences(value) for _, value in found):
+                raise Queue("sentences-in-variant", title)
+            rows.extend((label, [value]) for label, value in found)
+        labels = [label for label, _ in rows]
+        if not rows or len(set(labels)) != len(labels):
+            raise Queue("label-twice" if rows else "prose-variant", title)
+        out.append(render_block(title, rows))
+    new_body = "\n" + "\n\n".join(out) + "\n"
+    prove_siege(body, new_body)
+    return new_body
+
+
+def siege_words(text: str) -> list[str]:
+    """`item_words`, with the title line of a stat block read as the bold size name of a variant."""
+    return item_words(re.sub(r'^title = "([^"]+)"$', r"\1:", text, flags=re.M)) if "::: statblock" in text else item_words(text)
+
+
+def prove_siege(body: str, new_body: str) -> None:
+    """The words are the same (the size becomes a title), every other paragraph is found again byte
+    for byte and in order, no heading changes, and each converted paragraph is one titled block."""
+    cs, new_cs = chunks(body.split("\n")), chunks(new_body.split("\n"))
+    variants = siege_variants(cs)
+    if len(cs) != len(new_cs):
+        raise ProofFailed("the number of paragraphs changed")
+    for index, (old, new) in enumerate(zip(cs, new_cs)):
+        if index in variants:
+            size = SIEGE_TITLE.fullmatch(old[0][:-1]).group(1)
+            if new[0] != "::: statblock" or new[1] != f'title = "{size}"' or new[-1] != ":::":
+                raise ProofFailed("a size paragraph is not a stat block with its size as title: " + size)
+        elif old != new:
+            raise ProofFailed("a paragraph outside the variants changed: " + old[0][:60])
+    expected, actual = siege_words(body), siege_words(new_body)
+    if expected != actual:
+        at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
+        raise ProofFailed(f"words differ at {at}: {expected[at:at + 6]} / {actual[at:at + 6]}")
+    if heading_lines(new_body) != heading_lines(body):
+        raise ProofFailed("a heading changed")
+
+
 # ---- the sources pass ------------------------------------------------------------------------------
 
 
@@ -1999,6 +2106,7 @@ def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
             "creature": (classify_monster, convert_monster),
             "npc": (classify_npc, convert_npc),
             "item": (classify_item, convert_item),
+            "siege": (classify_siege, convert_siege),
         }[name]
         state = classify(body)
         if state == "already":
@@ -2091,7 +2199,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
                     rows.append((rel, name, "block-ended-at-sentences", cut))
                 if construction_unlabelled(chunks(body.split("\n"))):
                     rows.append((rel, name, "construction-unlabelled", ""))
-            if name == "item":
+            if name in ("item", "siege"):
                 continue
             for row in print_254_rows(split_front(text)[1]):
                 rows.append((rel, name, "print-254", row))
@@ -2176,7 +2284,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3001,6 +3109,59 @@ Text.
 **Sources:** Ultimate Equipment pg 99\\
 **Price** +5 gp
 """
+
+
+class SiegeSelfTest(unittest.TestCase):
+    BODY = (
+        "\n## Ram\n\nA ram hits.\n\n::: statblock\nLarge:\nCost: 500 gp\nWeight: -\n:::\n\n"
+        "**Huge**\\\n**Cost** 1,000 gp **Weight** -\\\n**Damage** 3d6; **Critical** ×3; **Range** -; **Type** B\\\n"
+        "**Category** Close Assault; **Proficiency** Siege Engine\n\n"
+        "**Colossal**\\\n**Cost** 5,000 gp **Weight** -\\\n**Damage** 10d6\n"
+    )
+
+    def test_each_size_becomes_a_block_titled_with_it_and_the_lead_stays(self):
+        self.assertEqual(classify_siege(self.BODY), "paragraphs")
+        new = convert_siege(self.BODY)
+        self.assertEqual(
+            new,
+            "\n## Ram\n\nA ram hits.\n\n::: statblock\nLarge:\nCost: 500 gp\nWeight: -\n:::\n\n"
+            '::: statblock\ntitle = "Huge"\nCost: 1,000 gp\nWeight: -\nDamage: 3d6\nCritical: ×3\nRange: -\nType: B\n'
+            "Category: Close Assault\nProficiency: Siege Engine\n:::\n\n"
+            '::: statblock\ntitle = "Colossal"\nCost: 5,000 gp\nWeight: -\nDamage: 10d6\n:::\n',
+        )
+        self.assertEqual(classify_siege(new), "already")  # idempotent
+
+    def test_the_cases_the_rules_do_not_cover_queue(self):
+        cases = {
+            "label-twice": "**Huge**\\\n**Cost** 1 gp **Weight** -\\\n**Cost** 2 gp",
+            "unlabelled-line": "**Huge**\\\n**Cost** 1 gp **Weight** -\\\nA plain line",
+            "sources-line-in-variant": "**Huge**\\\n**Sources:** Bestiary pg 1\\\n**Cost** 1 gp",
+            "sentences-in-variant": "**Huge**\\\n**Cost** A ram is hauled by a crew. It then charges.",
+            "label-without-separator": "**Huge**\\\n**Damage** 3d6 **Critical** ×3",
+        }
+        for reason, paragraph in cases.items():
+            with self.subTest(reason=reason):
+                with self.assertRaises(Queue) as caught:
+                    convert_siege("\n" + paragraph + "\n")
+                self.assertEqual(caught.exception.reason, reason)
+        with self.assertRaises(Queue):
+            classify_siege("\n:::: quote\n**Huge**\\\n**Cost** 1 gp\n::::\n")
+
+    def test_a_size_with_a_colon_and_other_paragraphs_stay(self):
+        body = "\n**Light:**\\\n**Cost** 1 gp\n\n**Huge**\nA sentence.\n"
+        self.assertEqual(classify_siege(body), "already")
+
+    def test_the_proof_catches_a_changed_value_a_dropped_row_and_a_wrong_title(self):
+        good = convert_siege(self.BODY)
+        for name, bad in {
+            "value": good.replace("Cost: 1,000 gp", "Cost: 1,001 gp"),
+            "row": good.replace("Weight: -\nDamage: 3d6", "Damage: 3d6"),
+            "title": good.replace('title = "Huge"', 'title = "Large"'),
+            "prose": good.replace("A ram hits.", "A ram hit."),
+        }.items():
+            with self.subTest(name=name):
+                with self.assertRaises(ProofFailed):
+                    prove_siege(self.BODY, bad)
 
 
 class SourcesSelfTest(unittest.TestCase):
