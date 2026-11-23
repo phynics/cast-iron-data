@@ -125,7 +125,13 @@ N5  Spell lists. A line `**Title** (CL 6th; concentration +9)` followed by level
     level and the concentration (N8): the parentheses and the `;` go. Each level line `_3rd_-fly, haste` becomes
     the row `3rd: fly, haste`: the emphasis markers and the dash go. The rows after the level lines
     (`Bloodline`, `Domains`, `Opposition Schools`) stay in that block, as in monsters (C8). A
-    header with any other part (`arcane spell failure 10%`, `conc. +5`) is queued.
+    header with any other part (`conc. +5`, `25% spell failure`) is queued (see N5b).
+N5b Header parts (owner ruling 8 of 2026-11-23). The parts of a header are `CL n`, `concentration v`
+    and an extra part `arcane spell failure N%`, in that order, separated by `;` or by a comma
+    (some books print `CL 14th, concentration +20`). The extra part becomes its own row in its
+    printed words after the two others: `Arcane spell failure: 10%`. The separators go, as the `;`
+    did. `25% spell failure` and `conc. +5` are not covered and stay queued: the first would have
+    to reorder its words, the second to expand an abbreviation.
 N6  The linked label `[Spell-Like Abilities](ref/umr/spell-like-abilities)` becomes the plain title
     `Spell-Like Abilities`; the link is dropped. Any other label with markup is queued.
 N7  Queue. Anything else queues the whole file, unchanged: an unlabelled line outside N3 (an
@@ -521,6 +527,19 @@ PRINT_FIXES = (
                 "**Requirements** _absorbing shield;_ **Cost** -\n",
                 "**Requirements** [absorbing shield](ref/magic-armor/absorbing-shield); **Cost** -\n",
                 "\nRequirements: [absorbing shield](ref/magic-armor/absorbing-shield)\nCost: -\n:::\n",
+            ),
+        ),
+    ),
+    (
+        "entries/npc/winter-witch-baroness.md",
+        "Irrisen, Land of Eternal Winter p. 62",
+        "Spell-Like Abilities concentration: `+7`; the import left `+7))`",
+        (
+            (
+                "(CL 5th; concentration +7))\\\n",
+                "(CL 5th; concentration +7)\\\n",
+                # The same line once the NPC pass has made it rows.
+                "\nConcentration: +7\n",
             ),
         ),
     ),
@@ -1093,6 +1112,8 @@ NPC_LABEL = re.compile(r"\*\*([^*]+)\*\*")
 NPC_LEVEL = re.compile(r"_([^_]+)_-(.+)", re.S)
 NPC_HEADER = re.compile(r"\*\*([^*]+)\*\* \(([^()]*)\)")
 NPC_HEADER_PART = re.compile(r"(CL|concentration) (\S+)")
+NPC_HEADER_EXTRA = re.compile(r"(arcane spell failure) (\d+%)")
+NPC_HEADER_SEPARATOR = re.compile(r"[;,] ")
 # N8: the header parts take the labels of the monster spell blocks.
 NPC_HEADER_LABELS = {"CL": "Caster level", "concentration": "Concentration"}
 # The labels that print after a comma, not a semicolon: `**Fort** +3, **Ref** +4, **Will** +5`.
@@ -1263,12 +1284,20 @@ def convert_npc(body: str) -> str:
                         raise Queue("spell-header", flat[:60])
                     close()
                     block = [npc_label(header.group(1)), []]
-                    for piece in header.group(2).split("; "):
+                    for piece in NPC_HEADER_SEPARATOR.split(header.group(2)):
                         named = NPC_HEADER_PART.fullmatch(piece)
-                        if named is None:
+                        extra = NPC_HEADER_EXTRA.fullmatch(piece)
+                        if named is not None:
+                            add(NPC_HEADER_LABELS[named.group(1)], npc_value(named.group(1), named.group(2)))
+                        elif extra is not None:
+                            add(extra.group(1).capitalize(), npc_value(extra.group(1), extra.group(2)))
+                        else:
                             raise Queue("spell-header", flat[:60])
-                        add(NPC_HEADER_LABELS[named.group(1)], npc_value(named.group(1), named.group(2)))
-                    if [label for label, _ in block[1]][:1] != ["Caster level"] or len(block[1]) > 2:
+                    if [label for label, _ in block[1]] not in (
+                        ["Caster level"],
+                        ["Caster level", "Concentration"],
+                        ["Caster level", "Concentration", "Arcane spell failure"],
+                    ):
                         raise Queue("spell-header", flat[:60])
                     spell_rows = True
                     continue
@@ -1335,8 +1364,12 @@ def npc_proof_words(body: str) -> list[str]:
             header = re.fullmatch(r"\*\*([^*]+)\*\* \(([^()]*)\)", flat)
             if header and position + 1 < len(segments) and segments[position + 1].startswith("_"):
                 pieces = [
-                    re.sub(r"^(CL|concentration) ", lambda name: NPC_HEADER_LABELS[name.group(1)] + ": ", piece)
-                    for piece in header.group(2).split("; ")
+                    re.sub(
+                        r"^arcane (spell failure) ",
+                        lambda name: "Arcane " + name.group(1) + ": ",
+                        re.sub(r"^(CL|concentration) ", lambda name: NPC_HEADER_LABELS[name.group(1)] + ": ", piece),
+                    )
+                    for piece in NPC_HEADER_SEPARATOR.split(header.group(2))
                 ]
                 flat = header.group(1) + " " + " ".join(pieces)
             elif flat.startswith("_"):
@@ -3275,13 +3308,24 @@ class NpcSelfTest(unittest.TestCase):
         self.assertEqual((status, text), ("converted", FRONT + NPC_EXPECTED))
         self.assertEqual(plan_file(text, "npc"), ("already", "", text))
 
+    def test_the_extra_header_part_is_its_own_row_and_a_comma_separates_like_a_semicolon(self):
+        arcane = NPC_SAMPLE.replace("concentration +9)\\\n_3rd_", "concentration +9; arcane spell failure 10%)\\\n_3rd_")
+        status, _, text = plan_file(FRONT + arcane, "npc")
+        self.assertEqual(status, "converted")
+        self.assertIn("Caster level: 6th\nConcentration: +9\nArcane spell failure: 10%\n3rd:", text)
+        comma = NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(CL 6th, concentration +9, arcane spell failure 10%)\\\n_3rd_")
+        self.assertIn("Caster level: 6th\nConcentration: +9\nArcane spell failure: 10%\n", plan_file(FRONT + comma, "npc")[2])
+        self.assertEqual(plan_file(text, "npc"), ("already", "", text))
+
+
     def test_what_the_npc_rules_do_not_cover_is_queued(self):
         cases = [
             ("unlabelled-line", NPC_SAMPLE.replace("Perception +6\n", "Perception +6\\\nAura courage (10 ft.)\n", 1)),
             ("unlabelled-line", NPC_SAMPLE.replace("**hp** 33", "hp 33")),
             ("unlabelled-line", NPC_SAMPLE.replace("**D** Domain spell", "D Domain spell")),
-            ("spell-header", NPC_SAMPLE.replace("concentration +9)\\\n_3rd_", "concentration +9; arcane spell failure 10%)\\\n_3rd_")),
-            ("spell-header", NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(CL 6th, concentration +9)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("concentration +9)\\\n_3rd_", "concentration +9; 25% spell failure)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("concentration +9)\\\n_3rd_", "concentration +9; arcane spell failure 10% more)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(concentration +9; CL 6th)\\\n_3rd_")),
             ("spell-header", NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(CL 6th; conc. +9)\\\n_3rd_")),
             ("spell-header", NPC_SAMPLE.replace("**Speed** 30 ft.\\\n", "**Speed** 30 ft.\\\n_3rd_-fly\\\n")),
             ("spell-header", NPC_SAMPLE.replace("**D** Domain spell; **Domains** Fire", "**Domains** Fire\\\n_1st_-bless")),

@@ -15,52 +15,64 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Gnome [paladin](ref/class/paladin) of [Torag](ref/faith/torag) 2/[sorcerer](ref/class/sorcerer)
 7/eldritch knight 4\
-LG Small humanoid (gnome)\
-**Init** -1; **Senses** [low-light vision](ref/rule/low-light-vision),
-_[see invisibility](ref/spell/see-invisibility);_ Perception +12
+LG Small humanoid (gnome)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: -1
+Senses: [low-light vision](ref/rule/low-light-vision), _[see invisibility](ref/spell/see-invisibility);_ Perception +12
+:::
 
 ### Defense
 
-**AC** 21, touch 12, flat-footed 21 (+8 armor, +2 deflection, -1 Dex, +1 natural, +1 size)\
-**hp** 134 (2d10+7d6+4d10+72)\
-**Fort** +15, **Ref** +6, **Will** +13; +2 vs. illusions\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants); **DR** 10/adamantine
-(130 points)
+::: statblock
+AC: 21, touch 12, flat-footed 21 (+8 armor, +2 deflection, -1 Dex, +1 natural, +1 size)
+hp: 134 (2d10+7d6+4d10+72)
+Fort: +15
+Ref: +6
+Will: +13; +2 vs. illusions
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants)
+DR: 10/adamantine (130 points)
+:::
 
 ### Offense
 
-**Speed** 15 ft.\
-**Melee** +1 warhammer +14/+9 (1d6+5/×3)\
-**Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids, smite evil (+3
-attack and AC, +2 damage)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 13th; concentration +16)\
-_1/day_-[dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound),
-[prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)\
-**Paladin Spell-Like Abilities** (CL 2nd; concentration +5)\
-_At will_-[detect evil](ref/spell/detect-evil)\
-**Sorcerer Spells Known** (CL 10th; concentration +13; arcane spell failure 15%)\
-_5th (3/day)_-[wall of force](ref/spell/wall-of-force)\
-_4th (5/day)_-[dimension door](ref/spell/dimension-door),
-[resilient sphere](ref/spell/resilient-sphere) (DC 17), [stoneskin](ref/spell/stoneskin)\
-_3rd (7/day)_-[dispel magic](ref/spell/dispel-magic), [displacement](ref/spell/displacement),
-[fly](ref/spell/fly), [heroism](ref/spell/heroism)\
-_2nd (7/day)_-[darkvision](ref/spell/darkvision), [invisibility](ref/spell/invisibility),
-[scorching ray](ref/spell/scorching-ray), [see invisibility](ref/spell/see-invisibility),
-[web](ref/spell/web) (DC 15)\
-_1st (7/day)_-[comprehend languages](ref/spell/comprehend-languages),
-[enlarge person](ref/spell/enlarge-person), [identify](ref/spell/identify),
-[magic missile](ref/spell/magic-missile), [shield](ref/spell/shield),
-[true strike](ref/spell/true-strike)\
-_0 (at will)_-[arcane mark](ref/spell/arcane-mark), dancing lights,
-[detect magic](ref/spell/detect-magic), [disrupt undead](ref/spell/disrupt-undead),
-[mending](ref/spell/mending), prestidigitation, [ray of frost](ref/spell/ray-of-frost),
-[read magic](ref/spell/read-magic), [resistance](ref/spell/resistance)\
-**Bloodline** [arcane](ref/sorcbloodline/arcane)
+::: statblock
+Speed: 15 ft.
+Melee: +1 warhammer +14/+9 (1d6+5/×3)
+Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids, smite evil (+3 attack and AC, +2 damage)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13th
+Concentration: +16
+1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound), [prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)
+:::
+
+::: statblock
+title = "Paladin Spell-Like Abilities"
+Caster level: 2nd
+Concentration: +5
+At will: [detect evil](ref/spell/detect-evil)
+:::
+
+::: statblock
+title = "Sorcerer Spells Known"
+Caster level: 10th
+Concentration: +13
+Arcane spell failure: 15%
+5th (3/day): [wall of force](ref/spell/wall-of-force)
+4th (5/day): [dimension door](ref/spell/dimension-door), [resilient sphere](ref/spell/resilient-sphere) (DC 17), [stoneskin](ref/spell/stoneskin)
+3rd (7/day): [dispel magic](ref/spell/dispel-magic), [displacement](ref/spell/displacement), [fly](ref/spell/fly), [heroism](ref/spell/heroism)
+2nd (7/day): [darkvision](ref/spell/darkvision), [invisibility](ref/spell/invisibility), [scorching ray](ref/spell/scorching-ray), [see invisibility](ref/spell/see-invisibility), [web](ref/spell/web) (DC 15)
+1st (7/day): [comprehend languages](ref/spell/comprehend-languages), [enlarge person](ref/spell/enlarge-person), [identify](ref/spell/identify), [magic missile](ref/spell/magic-missile), [shield](ref/spell/shield), [true strike](ref/spell/true-strike)
+0 (at will): [arcane mark](ref/spell/arcane-mark), dancing lights, [detect magic](ref/spell/detect-magic), [disrupt undead](ref/spell/disrupt-undead), [mending](ref/spell/mending), prestidigitation, [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic), [resistance](ref/spell/resistance)
+Bloodline: [arcane](ref/sorcbloodline/arcane)
+:::
 
 ### Tactics
 
@@ -73,21 +85,21 @@ remainder of his assailants.\
 
 ### Statistics
 
-**Str** 14, **Dex** 8, **Con** 18, **Int** 12, **Wis** 10, **Cha** 17\
-**Base Atk** +9; **CMB** +10; **CMD** 21\
-**Feats** [Arcane Armor Mastery](ref/feat/arcane-armor-mastery),
-[Arcane Armor Training](ref/feat/arcane-armor-training),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Eschew Materials](ref/feat/eschew-materials), [Extra Lay on Hands](ref/feat/extra-lay-on-hands),
-[Power Attack](ref/feat/power-attack), [Still Spell](ref/feat/still-spell),
-[Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (warhammer),
-[Weapon Specialization](ref/feat/weapon-specialization) (warhammer)\
-**Skills** Craft (armor) +10, Diplomacy +9, Heal +5, Knowledge (arcana, religion) +9, Perception
-+12, Spellcraft +9, Use Magic Device +11\
-**Languages** Common, Draconic, Gnome, Sylvan\
-**SQ** arcane bond (+1 warhammer), aura, bloodline arcana (+1 DC for spells augmented by metamagic
-feats that increase spell level), code of conduct, diverse training,
-[lay on hands](ref/ability/lay-on-hands) (1d6, 6/day), metamagic adept (2/day)
+::: statblock
+Str: 14
+Dex: 8
+Con: 18
+Int: 12
+Wis: 10
+Cha: 17
+Base Atk: +9
+CMB: +10
+CMD: 21
+Feats: [Arcane Armor Mastery](ref/feat/arcane-armor-mastery), [Arcane Armor Training](ref/feat/arcane-armor-training), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Eschew Materials](ref/feat/eschew-materials), [Extra Lay on Hands](ref/feat/extra-lay-on-hands), [Power Attack](ref/feat/power-attack), [Still Spell](ref/feat/still-spell), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (warhammer), [Weapon Specialization](ref/feat/weapon-specialization) (warhammer)
+Skills: Craft (armor) +10, Diplomacy +9, Heal +5, Knowledge (arcana, religion) +9, Perception +12, Spellcraft +9, Use Magic Device +11
+Languages: Common, Draconic, Gnome, Sylvan
+SQ: arcane bond (+1 warhammer), aura, bloodline arcana (+1 DC for spells augmented by metamagic feats that increase spell level), code of conduct, diverse training, [lay on hands](ref/ability/lay-on-hands) (1d6, 6/day), metamagic adept (2/day)
+:::
 
 ### Description
 

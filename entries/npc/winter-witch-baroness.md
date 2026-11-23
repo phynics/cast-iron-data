@@ -18,58 +18,78 @@ cr = "4"
 _This woman's face shows a stern expression. Frost clings to her skin and clothes, though she
 doesn't appear to notice._
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Female human [witch](ref/class/witch) ([winter witch](ref/arc-witch/winter-witch)) 5\
-NE Medium humanoid (human)\
-**Init** +1; **Senses** Perception +5
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 13, touch 12, flat-footed 11 (+1 armor, +1 Dex, +1 dodge)\
-**hp** 20 (5d6)\
-**Fort** +3, **Ref** +2, **Will** +5\
-**Resist** cold 5
+::: statblock
+AC: 13, touch 12, flat-footed 11 (+1 armor, +1 Dex, +1 dodge)
+hp: 20 (5d6)
+Fort: +3
+Ref: +2
+Will: +5
+Resist: cold 5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +2 (1d4-1/19-20)\
-**Special Attacks** hexes (blight \[50 feet\], evil eye \[-2, 7 rounds\])\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 5th; concentration +7))\
-_Constant_-[endure elements](ref/spell/endure-elements) (cold temperatures only)\
-**Witch Spells Prepared** (CL 5th; concentration +9)\
-_3rd_-[nature's exile](ref/spell/natures-exile) (DC 17), [sleet storm](ref/spell/sleet-storm) (DC
-18)\
-_2nd_-[hold person](ref/spell/hold-person) (DC 16), [mirror image](ref/spell/mirror-image),
-[unshakable chill](ref/spell/unshakable-chill) (DC 16)\
-_1st_-[chill touch](ref/spell/chill-touch) (DC 15), [frostbite](ref/spell/frostbite),
-[ice spears](ref/spell/ice-spears) (DC 15), [sleep](ref/spell/sleep) (DC 15)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic),
-[ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)\
-**Patron** Trickery
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +2 (1d4-1/19-20)
+Special Attacks: hexes (blight \[50 feet\], evil eye \[-2, 7 rounds\])
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5th
+Concentration: +7
+Constant: [endure elements](ref/spell/endure-elements) (cold temperatures only)
+:::
+
+::: statblock
+title = "Witch Spells Prepared"
+Caster level: 5th
+Concentration: +9
+3rd: [nature's exile](ref/spell/natures-exile) (DC 17), [sleet storm](ref/spell/sleet-storm) (DC 18)
+2nd: [hold person](ref/spell/hold-person) (DC 16), [mirror image](ref/spell/mirror-image), [unshakable chill](ref/spell/unshakable-chill) (DC 16)
+1st: [chill touch](ref/spell/chill-touch) (DC 15), [frostbite](ref/spell/frostbite), [ice spears](ref/spell/ice-spears) (DC 15), [sleep](ref/spell/sleep) (DC 15)
+0 (at will): [daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)
+Patron: Trickery
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 13, **Con** 10, **Int** 18, **Wis** 12, **Cha** 14\
-**Base Atk** +2; **CMB** +1; **CMD** 12\
-**Feats** [Brew Potion](ref/feat/brew-potion), [Combat Casting](ref/feat/combat-casting),
-[Dodge](ref/feat/dodge), [Great Fortitude](ref/feat/great-fortitude)\
-**Skills** Bluff +7, Craft (alchemy) +11, Diplomacy +7, Intimidate +10, Knowledge (arcana) +12,
-Knowledge (nature) +11, Perception +5, Ride +7, Spellcraft +12\
-**Languages** Common, Giant, Hallit, Infernal, Skald\
-**SQ** cold flesh, ice magic, witch's familiar (raven)
+::: statblock
+Str: 8
+Dex: 13
+Con: 10
+Int: 18
+Wis: 12
+Cha: 14
+Base Atk: +2
+CMB: +1
+CMD: 12
+Feats: [Brew Potion](ref/feat/brew-potion), [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Great Fortitude](ref/feat/great-fortitude)
+Skills: Bluff +7, Craft (alchemy) +11, Diplomacy +7, Intimidate +10, Knowledge (arcana) +12, Knowledge (nature) +11, Perception +5, Ride +7, Spellcraft +12
+Languages: Common, Giant, Hallit, Infernal, Skald
+SQ: cold flesh, ice magic, witch's familiar (raven)
+:::
 
 ### Ecology
 
-**Environment** any (Irrisen)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), potion
-of [cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds)
-(2), potion of [invisibility](ref/spell/invisibility), wand of
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement) \[24 charges\])
+::: statblock
+Environment: any (Irrisen)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), potion of [cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [invisibility](ref/spell/invisibility), wand of [ray of enfeeblement](ref/spell/ray-of-enfeeblement) \[24 charges\])
+:::
 
 ### Special Abilities
 
