@@ -20,8 +20,13 @@ aura = "moderate abjuration [chaotic, evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration \[chaotic, evil\]; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration \[chaotic, evil\]
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 3 lbs.
+:::
 
 ### Description
 
@@ -41,5 +46,7 @@ recipient's disorganized thoughts impose a -2 penalty on initiative checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion), [misdirection](ref/spell/misdirection); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion), [misdirection](ref/spell/misdirection)
+Cost: 8,000 gp
+:::

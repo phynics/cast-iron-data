@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 500 lbs.
+:::
 
 This altar is a deceptively complex, many-chambered scroll rack or bookshelf capable of securing
 dozens of documents. Unlike most altars, its _[magic circle](ref/spell/magic-circle)_ effects are
@@ -33,7 +38,7 @@ level as 1 higher than normal when casting that spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [guidance](ref/spell/guidance),
-[magic circle against chaos/evil/good/law](ref/spell/magic-circle-against-chaos-evil-good-law) (as
-appropriate), creator must worship [Nethys](ref/faith/nethys); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [guidance](ref/spell/guidance), [magic circle against chaos/evil/good/law](ref/spell/magic-circle-against-chaos-evil-good-law) (as appropriate), creator must worship [Nethys](ref/faith/nethys)
+Cost: 4,000 gp
+:::

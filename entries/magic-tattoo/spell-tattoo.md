@@ -20,8 +20,13 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** varies; **Weight** -
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: varies
+Weight: -
+:::
 
 A spell tattoo is essentially a wearable [scroll](ref/rule/scrolls) inscribed on flesh instead of on
 parchment or vellum. These tattoos appear as colorful and intricate patterns rather than magical
@@ -34,5 +39,7 @@ market price four times as much as an equivalent scroll.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), the spell to be
-inscribed; **Cost** varies
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), the spell to be inscribed
+Cost: varies
+:::

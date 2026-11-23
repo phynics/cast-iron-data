@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: none
+Price: 16,000 gp
+Weight: 1/2 lb.
+:::
 
 ### Description
 
@@ -55,6 +60,7 @@ this manner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), and a piece of the body of the humanoid to be affected;
-**Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), and a piece of the body of the humanoid to be affected
+Cost: 8,000 gp
+:::

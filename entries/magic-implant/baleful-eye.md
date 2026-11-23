@@ -20,8 +20,13 @@ aura = "faint transmutation [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation \[evil\]; **CL** 5th\
-**Slot** none; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation \[evil\]
+CL: 5th
+Slot: none
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 ### Description
 
@@ -36,6 +41,7 @@ depend on sight.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness), [charm person](ref/spell/charm-person),
-[doom](ref/spell/doom), [see invisibility](ref/spell/see-invisibility); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness), [charm person](ref/spell/charm-person), [doom](ref/spell/doom), [see invisibility](ref/spell/see-invisibility)
+Cost: 3,500 gp
+:::

@@ -18,8 +18,9 @@ price = "250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grad
 
 ## Hemochem (Grade I)
 
-**Price** 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp
-(Grade V)
+::: statblock
+Price: 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grade V)
+:::
 
 ### Construction
 

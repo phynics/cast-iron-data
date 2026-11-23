@@ -18,8 +18,13 @@ aura = "moderate necromancy and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy and transmutation; **CL** 9th\
-**Slot**; **Price** 16,000 gp; **Weight** —
+::: statblock
+Aura: moderate necromancy and transmutation
+CL: 9th
+Slot:
+Price: 16,000 gp
+Weight: —
+:::
 
 A ghoulgut consists of a [ghoul's](ref/monster/ghoul) stomach, gallbladder, and liver implanted in
 the host's torso, resulting in a potent resistance to disease, but also a hunger for flesh. Once per
@@ -31,6 +36,7 @@ throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create undead](ref/spell/create-undead), [undead anatomy II](ref/spell/undead-anatomy-2), creator
-must have 8 ranks in Heal; **Cost** 8000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create undead](ref/spell/create-undead), [undead anatomy II](ref/spell/undead-anatomy-2), creator must have 8 ranks in Heal
+Cost: 8000 gp
+:::

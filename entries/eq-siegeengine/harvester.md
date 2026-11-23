@@ -26,7 +26,17 @@ passes them. A harvester has a [hardness](ref/umr/hardness) of 5 and 50 hit poin
 
 A harvester is a Large siege engine.
 
-**Cost** 800 gp **Weight** -\
-**Damage** 2d8; **Critical** ×4; **Range** -; **Type** S\
-**Crew** 4; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Cost: 800 gp
+Weight: -
+Damage: 2d8
+Critical: ×4
+Range: -
+Type: S
+Crew: 4
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::

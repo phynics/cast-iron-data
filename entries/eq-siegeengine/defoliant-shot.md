@@ -28,5 +28,9 @@ On a siege engine mishap, this ammunition explodes before it's launched, dealing
 siege engine and all nearby plant creatures as if one of the spaces of the siege engine (crew
 leader's choice) were the target square.
 
-**Cost** 300 gp **Weight** 20 lbs\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 300 gp
+Weight: 20 lbs
+Category: Ammunition
+Proficiency: Siege Engine
+:::

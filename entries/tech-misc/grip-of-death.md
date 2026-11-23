@@ -19,9 +19,13 @@ slot = "none"
 aura = "moderate necromancy and transmutation"
 +++
 
-**Price** 90,000 gp\
-**Slot** none; **Weight** 1 lb.\
-**Capacity** 10; **Usage** 1 charge/round
+::: statblock
+Price: 90,000 gp
+Slot: none
+Weight: 1 lb.
+Capacity: 10
+Usage: 1 charge/round
+:::
 
 ### Construction
 

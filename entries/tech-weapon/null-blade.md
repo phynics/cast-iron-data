@@ -16,10 +16,19 @@ category = "Technological Weapons"
 weight = "4 lbs."
 +++
 
-**Cost** 58,835 gp\
-**Type** one-handed melee; **Proficiency** exotic; **Weight** 4 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Damage Type** S; **Critical** 19-20/×2\
-**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special** -
+::: statblock
+Cost: 58,835 gp
+Type: one-handed melee
+Proficiency: exotic
+Weight: 4 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Damage Type: S
+Critical: 19-20/×2
+Range: -
+Capacity: 10
+Usage: 1 charge/round
+Special: -
+:::
 
 ### Construction
 

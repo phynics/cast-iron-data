@@ -21,5 +21,9 @@ used as ammunition for a catapult or a trebuchet. It deals only half damage, but
 by it is exposed to [filth fever](ref/disease/filth-fever). A GM might allow a plague bundle to
 inflict other diseases.
 
-**Cost** 80 gp **Weight** 20 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 80 gp
+Weight: 20 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

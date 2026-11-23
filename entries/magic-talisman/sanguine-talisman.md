@@ -22,8 +22,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** neck; **Price** varies; **Weight** —
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: neck
+Price: varies
+Weight: —
+:::
 
 ### Description
 
@@ -59,7 +64,7 @@ and might use his Sense Motive skill to aid a master he favors.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater planar binding](ref/spell/planar-binding-greater),
-[lesser planar binding](ref/spell/planar-binding-lesser), or
-[planar binding](ref/spell/planar-binding); **Cost** varies
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater planar binding](ref/spell/planar-binding-greater), [lesser planar binding](ref/spell/planar-binding-lesser), or [planar binding](ref/spell/planar-binding)
+Cost: varies
+:::

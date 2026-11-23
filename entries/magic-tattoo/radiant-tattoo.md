@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This tattoo typically takes the form of a colorful sunburst. The bearer can activate the tattoo with
 a command word, causing it to flare brilliantly. A single, adjacent foe is
@@ -34,5 +39,7 @@ may choose which foe is affected. The tattoo vanishes once it has been activated
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[daylight](ref/spell/daylight); **Cost** 750 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [daylight](ref/spell/daylight)
+Cost: 750 gp
+:::

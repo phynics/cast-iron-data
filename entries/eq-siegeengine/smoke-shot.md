@@ -24,5 +24,9 @@ space, and the substances mingle and then create an area of foul but harmless ye
 siege engine mishap, the ammunition explodes before it is launched. Its effect is centered on one of
 the spaces of the siege engine (crew leader's choice).
 
-**Cost** 250 gp **Weight** 20 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 250 gp
+Weight: 20 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

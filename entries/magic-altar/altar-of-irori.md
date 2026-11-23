@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation [lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation \[lawful\]; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation \[lawful\]
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 150 lbs.
+:::
 
 This altar is a wooden scroll rack whose top is engraved with Irori's holy symbol. Praying at the
 altar grants a +3 bonus on any skill check for which the worshiper takes 10 instead of rolling the
@@ -29,6 +34,7 @@ check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [magic circle against chaos](ref/spell/magic-circle-against-chaos),
-creator must worship [Irori](ref/faith/irori); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [magic circle against chaos](ref/spell/magic-circle-against-chaos), creator must worship [Irori](ref/faith/irori)
+Cost: 4,000 gp
+:::

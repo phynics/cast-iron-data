@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 8,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 8,000 gp
+Weight: 50 lbs.
+:::
 
 This vibrant red bush grows luscious, deep-red berries. These berries provide nourishment and
 healing as if the creature had consumed a berry affected by _[goodberry](ref/spell/goodberry)._ A
@@ -35,6 +40,7 @@ found clinging to otherwise lifeless cliff faces.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[goodberry](ref/spell/goodberry), cultivator must have 1 rank in Knowledge (nature); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [goodberry](ref/spell/goodberry), cultivator must have 1 rank in Knowledge (nature)
+Cost: 4,000 gp
+:::

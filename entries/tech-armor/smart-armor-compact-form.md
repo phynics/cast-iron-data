@@ -18,14 +18,19 @@ weight = "20 lbs."
 
 ## Smart armor (compact form)
 
-**Cost** 16,500 gp\
-**Type** Light; **Weight** 20 lbs.; **Armor Bonus** +4 (compact) or +8 (expanded)\
-**Max Dex Bonus** +4 (compact) or +1 (expanded); **Armor Check Penalty** -2 (compact) or -5
-(expanded)\
-**Arcane Spell Failure Chance** 25% (compact) or 35% (expanded)\
-**Speed (30 ft.)** 30 ft. (compact) or 20 ft. (expanded) ; **Speed (20 ft.)** 20 ft. (compact) or 15
-ft. (expanded)\
-**Capacity** 60; **Usage** 1 charge/10 minutes
+::: statblock
+Cost: 16,500 gp
+Type: Light
+Weight: 20 lbs.
+Armor Bonus: +4 (compact) or +8 (expanded)
+Max Dex Bonus: +4 (compact) or +1 (expanded)
+Armor Check Penalty: -2 (compact) or -5 (expanded)
+Arcane Spell Failure Chance: 25% (compact) or 35% (expanded)
+Speed (30 ft.): 30 ft. (compact) or 20 ft. (expanded)
+Speed (20 ft.): 20 ft. (compact) or 15 ft. (expanded)
+Capacity: 60
+Usage: 1 charge/10 minutes
+:::
 
 ### Construction
 

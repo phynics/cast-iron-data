@@ -30,8 +30,13 @@ caster_level = "12th"
 
 ## Pale Lavender Ellipsoid; Lavender and Green Ellipsoid
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** 20,000 gp (pale lavender), 40,000 gp (lavender and green); **Weight** —
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: 20,000 gp (pale lavender), 40,000 gp (lavender and green)
+Weight: —
+:::
 
 #### Description
 

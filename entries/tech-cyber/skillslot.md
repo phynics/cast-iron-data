@@ -18,9 +18,13 @@ weight = "1 lb."
 slot = "brain"
 +++
 
-**Price** 2,000 gp\
-**Slot** brain; **Weight** 1 lb.\
-**Install** DC 30; **Implantation** 1
+::: statblock
+Price: 2,000 gp
+Slot: brain
+Weight: 1 lb.
+Install: DC 30
+Implantation: 1
+:::
 
 ### Construction
 

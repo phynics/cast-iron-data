@@ -19,8 +19,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** none; **Price** 8,000 gp; **Weight** —
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: none
+Price: 8,000 gp
+Weight: —
+:::
 
 #### Description
 

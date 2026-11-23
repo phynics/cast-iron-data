@@ -18,8 +18,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot**; **Price** 420 gp; **Weight** —
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot:
+Price: 420 gp
+Weight: —
+:::
 
 Favored by demon cultists, this malign variant of [arsenic](ref/eq-poison/arsenic) causes a wide
 variety of painful deformations in the victim's flesh.

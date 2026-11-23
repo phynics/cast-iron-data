@@ -27,5 +27,9 @@ nearby creatures and wooden objects as if one of the spaces of the siege engine 
 choice) were the target square. This alchemical fire ignores the [hardness](ref/umr/hardness) of
 wooden objects.
 
-**Cost** 200 gp **Weight** 10 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 200 gp
+Weight: 10 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

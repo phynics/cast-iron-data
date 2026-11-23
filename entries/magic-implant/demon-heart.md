@@ -20,8 +20,13 @@ aura = "strong abjuration [chaotic, evil]"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration \[chaotic, evil\]; **CL** 13th\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration \[chaotic, evil\]
+CL: 13th
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 ### Description
 
@@ -39,5 +44,7 @@ causing it to become [nauseated](ref/misc/nauseated) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove fear](ref/spell/remove-fear), [stabilize](ref/spell/stabilize); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove fear](ref/spell/remove-fear), [stabilize](ref/spell/stabilize)
+Cost: 3,000 gp
+:::

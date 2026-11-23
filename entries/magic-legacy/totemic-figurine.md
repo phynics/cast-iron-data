@@ -19,8 +19,12 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Slot** none; **CL** 13th; **Weight** 2 lbs.\
-**Aura** strong transmutation
+::: statblock
+Slot: none
+CL: 13th
+Weight: 2 lbs.
+Aura: strong transmutation
+:::
 
 Unlike most [figurines of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power), this amber
 statuette depicts three creatures rather than one a dire tiger, a mastodon, and a megaloceros locked

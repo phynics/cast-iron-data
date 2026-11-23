@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: none
+Price: 12,000 gp
+Weight: 50 lbs.
+:::
 
 This evergreen has soft green leaves and sprouts fronds laden with unusual sky-blue berries. When
 ingested, these waxy berries grant the imbiber immunity to all effects caused by
@@ -34,6 +39,7 @@ The bush has one 13-week growing season per year, producing berries in the fall.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[endure elements](ref/spell/endure-elements), cultivator must have 3 ranks in Knowledge (nature);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [endure elements](ref/spell/endure-elements), cultivator must have 3 ranks in Knowledge (nature)
+Cost: 6,000 gp
+:::

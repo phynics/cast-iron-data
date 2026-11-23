@@ -20,8 +20,13 @@ price = "18,000 gp"
 slot = "body"
 +++
 
-**Price** 18,000 gp; **Elixir Price** 600 gp\
-**Saving Throw DC** 19; **Slot** body; **Temporary Duration** 1 hour
+::: statblock
+Price: 18,000 gp
+Elixir Price: 600 gp
+Saving Throw DC: 19
+Slot: body
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** A chitinous carapace covers the subject's body, attached by a collection of fibrous
 nerves. This grants a +4 enhancement bonus to the subject's natural armor bonus.

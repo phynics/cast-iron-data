@@ -17,8 +17,13 @@ price = "9,000 gp"
 slot = "neck"
 +++
 
-**Price** 9,000 gp; **Elixir Price** 500 gp\
-**Saving Throw DC** 20; **Slot** neck; **Temporary Duration** 1 hour
+::: statblock
+Price: 9,000 gp
+Elixir Price: 500 gp
+Saving Throw DC: 20
+Slot: neck
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** The gills and some of the glands of a shark are grafted to the subject's neck and into
 its lungs, changing the way its respiratory system works. While it benefits from this fleshcraft,

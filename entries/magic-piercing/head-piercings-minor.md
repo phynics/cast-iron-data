@@ -20,8 +20,12 @@ aura = "faint transmutation CL 5th"
 
 ## Head Piercings
 
-**Aura** faint transmutation CL 5th\
-**Slot** head; **Price** 3,750 gp (Minor), 6,000 gp (Major), 33,600 gp (Greater); **Weight** —
+::: statblock
+Aura: faint transmutation CL 5th
+Slot: head
+Price: 3,750 gp (Minor), 6,000 gp (Major), 33,600 gp (Greater)
+Weight: —
+:::
 
 Whether they are crowns of pins, pinned-back lips, or simple nose rings, these piercings accentuate
 the owner's terrifying presence and inner resolve.
@@ -34,6 +38,7 @@ the owner's terrifying presence and inner resolve.
 
 ### Construction
 
-**Requirements** [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [fear](ref/spell/fear)
-(minor and greater), [owl's wisdom](ref/spell/owls-wisdom) (major); **Cost** 1,875 gp (Minor), 3,000
-gp (Major), 16,800 gp (Greater)
+::: statblock
+Requirements: [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [fear](ref/spell/fear) (minor and greater), [owl's wisdom](ref/spell/owls-wisdom) (major)
+Cost: 1,875 gp (Minor), 3,000 gp (Major), 16,800 gp (Greater)
+:::

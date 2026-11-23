@@ -18,10 +18,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Suitable For** PCs of 7th-9th level\
-**Aura** strong transmutation\
-**Slot** none; **CL** 15th\
-**Weight** 1 lb.
+::: statblock
+Suitable For: PCs of 7th-9th level
+Aura: strong transmutation
+Slot: none
+CL: 15th
+Weight: 1 lb.
+:::
 
 This meticulously woven flag depicts a horse and an elephant, both about to charge. The tapestry's
 green and blue colors underscore the beasts' connection to Taldor's distinguished cavalry, the

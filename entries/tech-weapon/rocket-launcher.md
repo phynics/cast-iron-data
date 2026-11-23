@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "10 lbs."
 +++
 
-**Cost** 10,800 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.\
-**Damage** 8d6 (small), 12d6 (medium); **Damage Type** B and fire; **Critical** —\
-**Range** 120 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special**
-[Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+::: statblock
+Cost: 10,800 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 10 lbs.
+Damage: 8d6 (small), 12d6 (medium)
+Damage Type: B and fire
+Critical: —
+Range: 120 ft.
+Capacity: 10
+Usage: 1 (disposable)
+Special: [Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+:::
 
 A newly created rocket launcher contains its entire load of rockets and energy charges. It cannot be
 reloaded, and once its final rocket is fired, the weapon is useless. Rockets fired from a rocket

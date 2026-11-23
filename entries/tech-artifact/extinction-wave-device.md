@@ -17,8 +17,12 @@ weight = "1,000 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 1,000 lbs.\
-**Capacity** -; **Usage** -
+::: statblock
+Slot: none
+Weight: 1,000 lbs.
+Capacity: -
+Usage: -
+:::
 
 An extinction wave device is a devastating and ruinous weapon indeed. When activated by a remote
 [detonator](ref/tech-misc/detonator), this bomb explodes in a spherical wash of reality-warping

@@ -18,10 +18,13 @@ weight = "— (all)"
 slot = "skillslot"
 +++
 
-**Price** 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp
-(mark V)\
-**Slot** skillslot; **Weight** — (all)\
-**Capacity** -; **Usage** -
+::: statblock
+Price: 400 gp (mark I), 1,600 gp (mark II), 3,600 gp (mark III), 6,400 gp (mark IV), 10,000 gp (mark V)
+Slot: skillslot
+Weight: — (all)
+Capacity: -
+Usage: -
+:::
 
 ### Construction
 

@@ -16,10 +16,19 @@ category = "Technological Weapons"
 weight = "10 lbs."
 +++
 
-**Cost** 40,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 10 lbs.\
-**Damage** 6d4 (small), 5d6 (medium); **Damage Type** fire; **Critical** ×4\
-**Range** 200 ft.; **Capacity** 20; **Usage** 5 charges; **Special** [Touch](ref/misc/touch)
+::: statblock
+Cost: 40,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 10 lbs.
+Damage: 6d4 (small), 5d6 (medium)
+Damage Type: fire
+Critical: ×4
+Range: 200 ft.
+Capacity: 20
+Usage: 5 charges
+Special: [Touch](ref/misc/touch)
+:::
 
 An x-laser is a super-charged laser with devastating effects. It fires a highly focused, incredibly
 powerful beam of high-frequency light. An x-laser's beam functions as a

@@ -20,8 +20,13 @@ aura = "moderate transmutation [evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation \[evil\]; **CL** 10th\
-**Slot** none; **Price** 20,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation \[evil\]
+CL: 10th
+Slot: none
+Price: 20,000 gp
+Weight: 10 lbs.
+:::
 
 ### Description
 
@@ -35,6 +40,7 @@ poisons delivered by injury (including those delivered by a touch attacks).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [delay poison](ref/spell/delay-poison),
-[resist energy](ref/spell/resist-energy); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [delay poison](ref/spell/delay-poison), [resist energy](ref/spell/resist-energy)
+Cost: 10,000 gp
+:::

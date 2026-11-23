@@ -17,9 +17,13 @@ price = "5,000 gp"
 slot = "none"
 +++
 
-**Price** 5,000 gp\
-**Slot** none; **Weight** —\
-**Install** DC 30; **Implantation** 2
+::: statblock
+Price: 5,000 gp
+Slot: none
+Weight: —
+Install: DC 30
+Implantation: 2
+:::
 
 ### Construction
 

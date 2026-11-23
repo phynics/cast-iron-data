@@ -17,8 +17,12 @@ weight = "2,500 lbs."
 slot = "none"
 +++
 
-**Slot** none; **Weight** 2,500 lbs.\
-**Capacity** infinite; **Usage** see text
+::: statblock
+Slot: none
+Weight: 2,500 lbs.
+Capacity: infinite
+Usage: see text
+:::
 
 The apex of Androffan technology, the Divinity Drive was the single most important piece of
 machinery on Divinity - important enough to inspire the ship's name. The drive was named for its

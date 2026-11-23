@@ -16,7 +16,10 @@ category = "Armor Modifications"
 weight = "+5 lbs."
 +++
 
-**Cost** +1,000 gp **Weight** +5 lbs.
+::: statblock
+Cost: +1,000 gp
+Weight: +5 lbs.
+:::
 
 Nimble armor is designed for flexibility and ease of use, although this compromises its protective
 qualities. Nimble armor's maximum Dexterity bonus is increased by 2, and its armor check penalty is

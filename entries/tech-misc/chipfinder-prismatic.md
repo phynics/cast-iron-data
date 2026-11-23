@@ -20,10 +20,13 @@ slot = "none"
 
 ## Chipfinder
 
-**Price** 3,000 gp (black), 45,500 gp (blue), 500 gp (brown), 14,000 gp (gray), 22,500 gp (green),
-60,000 gp (orange), 76,500 gp (prismatic), 33,000 gp (red), 7,500 gp (white)\
-**Slot** none; **Weight** 4 lbs. (all)\
-**Capacity** 10; **Usage** 1 charge/hour
+::: statblock
+Price: 3,000 gp (black), 45,500 gp (blue), 500 gp (brown), 14,000 gp (gray), 22,500 gp (green), 60,000 gp (orange), 76,500 gp (prismatic), 33,000 gp (red), 7,500 gp (white)
+Slot: none
+Weight: 4 lbs. (all)
+Capacity: 10
+Usage: 1 charge/hour
+:::
 
 ### Construction
 

@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "11 lbs."
 +++
 
-**Cost** 3,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 11 lbs.\
-**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** —\
-**Range** 20 ft.; **Capacity** 10; **Usage** 1 (disposable); **Special** Single shot,
-[touch](ref/misc/touch)
+::: statblock
+Cost: 3,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 11 lbs.
+Damage: Special (small), Special (medium)
+Damage Type: Special
+Critical: —
+Range: 20 ft.
+Capacity: 10
+Usage: 1 (disposable)
+Special: Single shot, [touch](ref/misc/touch)
+:::
 
 This Dominion weapon is a 3-foot-long device constructed from a hard, fleshlike material of mottled
 dark hues. Its barrel tapers down and flares into something disturbingly like a mouth. The

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 8,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 8,000 gp
+Weight: 50 lbs.
+:::
 
 This green cactus grows in even the most arid environments, and it has a number of medicinal
 qualities. Its flowers can be mashed into a paste and spread over a creature's skin to grant fire
@@ -38,7 +43,7 @@ growing season of 13 weeks in the summer.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[cure light wounds](ref/spell/cure-light-wounds),
-[lesser restoration](ref/spell/restoration-lesser), cultivator must have 1 rank in Knowledge
-(nature); **Cost** 4,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [cure light wounds](ref/spell/cure-light-wounds), [lesser restoration](ref/spell/restoration-lesser), cultivator must have 1 rank in Knowledge (nature)
+Cost: 4,000 gp
+:::

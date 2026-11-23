@@ -22,8 +22,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** neck; **Price** 50,000 gp; **Weight** —
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: neck
+Price: 50,000 gp
+Weight: —
+:::
 
 ### Description
 
@@ -56,5 +61,7 @@ as per _[gate](ref/spell/gate)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 25,000 gp
+:::

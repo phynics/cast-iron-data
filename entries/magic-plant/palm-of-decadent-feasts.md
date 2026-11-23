@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "11th"
 +++
 
-**Aura** strong conjuration; **CL** 11th\
-**Slot** none; **Price** 9,600 gp; **Weight** 500 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 11th
+Slot: none
+Price: 9,600 gp
+Weight: 500 lbs.
+:::
 
 This tall tree has no branches but sprouts expansive leaves at the top. Its large, spiny fruit can
 be split to provide a meal for four that emulates _[heroes' feast](ref/spell/heroes-feast)._ If a
@@ -34,6 +39,7 @@ solstice.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[heroes' feast](ref/spell/heroes-feast), cultivator must have 6 ranks in Knowledge (nature);
-**Cost** 4,800 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [heroes' feast](ref/spell/heroes-feast), cultivator must have 6 ranks in Knowledge (nature)
+Cost: 4,800 gp
+:::

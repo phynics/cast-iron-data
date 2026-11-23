@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 7th\
-**Slot** none; **Price** 5,380 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 7th
+Slot: none
+Price: 5,380 gp
+Weight: 1,000 lbs.
+:::
 
 This altar is an ornate marble memorial to the dead and unborn, featuring abstract sculptures of the
 Lady of Graves in each of her aspects as midwife, prophet, and judge of souls. Instead of a
@@ -33,6 +38,7 @@ resumes if the weapon is returned to the worshiper.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow),
-[summon monster I](ref/spell/summon-monster-1), creator must worship [Pharasma](ref/faith/pharasma);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow), [summon monster I](ref/spell/summon-monster-1), creator must worship [Pharasma](ref/faith/pharasma)
+Cost: 5,000 gp
+:::

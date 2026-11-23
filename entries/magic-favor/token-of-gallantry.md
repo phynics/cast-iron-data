@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,400 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 2,400 gp
+Weight: -
+:::
 
 This favor is a lace handkerchief or scrap of silken clothing that is tied around the pommel or haft
 of a melee weapon. For 24 hours, that weapon becomes good-aligned for the purpose of bypassing
@@ -30,5 +35,7 @@ become soiled or bloody.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[align weapon](ref/spell/align-weapon), [status](ref/spell/status); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [align weapon](ref/spell/align-weapon), [status](ref/spell/status)
+Cost: 1,200 gp
+:::

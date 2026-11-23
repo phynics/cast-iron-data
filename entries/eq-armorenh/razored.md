@@ -16,7 +16,10 @@ category = "Armor Modifications"
 weight = "+10 lbs."
 +++
 
-**Cost** +1,350 gp **Weight** +10 lbs.
+::: statblock
+Cost: +1,350 gp
+Weight: +10 lbs.
+:::
 
 With every plate sharpened to a cutting edge, razored armor punishes those who get too close. Armor
 with the razored modification counts as having masterwork

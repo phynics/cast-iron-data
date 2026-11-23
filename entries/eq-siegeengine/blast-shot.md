@@ -25,5 +25,9 @@ object in the burst. It must miss every creature or target to misfire, and a mis
 normal effect. It deals its normal damage on a hit, but does not ignore the
 [hardness](ref/umr/hardness) of objects.
 
-**Cost** 30 gp **Weight** 25 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 30 gp
+Weight: 25 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

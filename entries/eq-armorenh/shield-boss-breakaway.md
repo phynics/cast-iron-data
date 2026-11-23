@@ -19,9 +19,10 @@ weight = "10 lbs. (breakaway), 10 lbs. (hooked), 10 lbs. (illuminating), - (mast
 
 ## Shield boss
 
-**Price** 120 gp (breakaway), 80 gp (hooked), 35 gp (illuminating), +50 gp (masterwork), 30 gp
-(reinforcing boss); **Weight** 10 lbs. (breakaway), 10 lbs. (hooked), 10 lbs. (illuminating), -
-(masterwork), 10 lbs. (reinforcing boss)
+::: statblock
+Price: 120 gp (breakaway), 80 gp (hooked), 35 gp (illuminating), +50 gp (masterwork), 30 gp (reinforcing boss)
+Weight: 10 lbs. (breakaway), 10 lbs. (hooked), 10 lbs. (illuminating), - (masterwork), 10 lbs. (reinforcing boss)
+:::
 
 A shield boss is a sturdy steel device that fastens to the front of a shield, providing metal
 support struts that radiate outward from the center of the shield, reinforcing its structure. A

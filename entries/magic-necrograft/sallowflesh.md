@@ -18,8 +18,13 @@ aura = "faint abjuration and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and necromancy; **CL** 5th\
-**Slot**; **Price** 20,000 gp; **Weight** —
+::: statblock
+Aura: faint abjuration and necromancy
+CL: 5th
+Slot:
+Price: 20,000 gp
+Weight: —
+:::
 
 This necrograft weaves strips of rotted skin across the bearer's body in a grisly process of
 scarification. The dense, undead hide provides a +2 enhancement bonus to its host's natural armor
@@ -33,6 +38,7 @@ Sallowflesh has no effect on living creatures' perceptions.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [hide from undead](ref/spell/hide-from-undead), creator must
-have 5 ranks in Heal; **Cost** 10000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [hide from undead](ref/spell/hide-from-undead), creator must have 5 ranks in Heal
+Cost: 10000 gp
+:::

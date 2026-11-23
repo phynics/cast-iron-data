@@ -26,7 +26,17 @@ high explosive (HE) shells that deal 8d6 points of bludgeoning, piercing, and sl
 weapon and has [hardness](ref/umr/hardness) 10 and 70 hit points. Hotchkiss HE shells cost 25 gp
 each and weigh 6 pounds each.
 
-**Cost** 2,000 gp **Weight** Special\
-**Damage** 8d6; **Critical** ×3; **Range** 300 ft.; **Type** B, P, and S\
-**Misfire** 1-2; **Crew** 2; **Aim** 0; **Load** 2\
-**Category** Siege; **Proficiency** Exotic
+::: statblock
+Cost: 2,000 gp
+Weight: Special
+Damage: 8d6
+Critical: ×3
+Range: 300 ft.
+Type: B, P, and S
+Misfire: 1-2
+Crew: 2
+Aim: 0
+Load: 2
+Category: Siege
+Proficiency: Exotic
+:::

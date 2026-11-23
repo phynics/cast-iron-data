@@ -20,8 +20,13 @@ price = "24,000 gp"
 slot = "wrists"
 +++
 
-**Price** 24,000 gp; **Elixir Price** 650 gp\
-**Saving Throw DC** 15; **Slot** wrists; **Temporary Duration** 1 hour
+::: statblock
+Price: 24,000 gp
+Elixir Price: 650 gp
+Saving Throw DC: 15
+Slot: wrists
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** Serrated, reptilian spines run along portions of the subject's arms. As a standard
 action, the subject can extend or retract a spine in one or both of its forearms. A Medium creature

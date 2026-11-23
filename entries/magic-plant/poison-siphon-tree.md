@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 56,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 56,000 gp
+Weight: 500 lbs.
+:::
 
 This large tree has flat, spongy leaves, each about the size of a human's hand. When a leaf is
 placed on the chest of a creature suffering from a poison effect, it slowly draws the poison out
@@ -34,6 +39,7 @@ in the spring and fall. It has no more than six leaves at a time.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[neutralize poison](ref/spell/neutralize-poison), cultivator must have 3 ranks in Knowledge
-(nature); **Cost** 28,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [neutralize poison](ref/spell/neutralize-poison), cultivator must have 3 ranks in Knowledge (nature)
+Cost: 28,000 gp
+:::

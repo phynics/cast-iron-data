@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Cost** +2,000 gp **Weight** -\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +2,000 gp
+Weight: -
+Category: Modification
+Proficiency: Modification
+:::
 
 Dual-balanced weapons are balanced to be wielded in tandem. Only melee weapons can be dual-balanced.
 When wielding two weapons with the dual-balanced modification, reduce any

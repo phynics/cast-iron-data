@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "14 lbs."
 +++
 
-**Cost** 30,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 14 lbs.\
-**Damage** 3d8 (small), 3d10 (medium); **Damage Type** B and P; **Critical** ×4\
-**Range** 200 ft.; **Capacity** 10; **Usage** 1 charge; **Special**
-[Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+::: statblock
+Cost: 30,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 14 lbs.
+Damage: 3d8 (small), 3d10 (medium)
+Damage Type: B and P
+Critical: ×4
+Range: 200 ft.
+Capacity: 10
+Usage: 1 charge
+Special: [Slow-firing](ref/misc/slow-firing), [touch](ref/misc/touch)
+:::
 
 A rail gun uses gravitons to compress raw metal scrap placed in its sequencing chamber into
 hyperdense shells that it then accelerates to astounding speed and fires from its

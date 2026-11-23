@@ -20,10 +20,13 @@ slot = "veemod goggles"
 
 ## Veemod
 
-**Price** 400 gp (black), 20,000 gp (blue), 200 gp (brown), 6,000 gp (gray), 10,000 gp (green),
-30,000 gp (orange), 50,000 gp (prismatic), 12,000 gp (red), 2,500 gp (white)\
-**Slot** veemod goggles; **Weight** — (all)\
-**Capacity** -; **Usage** varies
+::: statblock
+Price: 400 gp (black), 20,000 gp (blue), 200 gp (brown), 6,000 gp (gray), 10,000 gp (green), 30,000 gp (orange), 50,000 gp (prismatic), 12,000 gp (red), 2,500 gp (white)
+Slot: veemod goggles
+Weight: — (all)
+Capacity: -
+Usage: varies
+:::
 
 ### Construction
 

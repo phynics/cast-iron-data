@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "-"
 +++
 
-**Cost** +500 gp **Weight** -\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +500 gp
+Weight: -
+Category: Modification
+Proficiency: Modification
+:::
 
 A weapon with the versatile design modification is easier to wield for those skilled with other
 weapon groups. When versatile design is added to a weapon, choose a

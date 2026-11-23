@@ -17,9 +17,12 @@ price = "+150 gp"
 weight = "2 lbs."
 +++
 
-**Price** +150 gp; **Weight** 2 lbs.\
-**Category** Channel Foci\
-**Deity** Any
+::: statblock
+Price: +150 gp
+Weight: 2 lbs.
+Category: Channel Foci
+Deity: Any
+:::
 
 Consecrated weapons may be of any type - swords, axes, masterwork,
 [mithral](ref/eq-material/mithral), and even magical - and function appropriately. When activated,

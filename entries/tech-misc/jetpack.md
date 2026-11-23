@@ -18,9 +18,13 @@ weight = "10 lbs."
 slot = "shoulders"
 +++
 
-**Price** 18,000 gp\
-**Slot** shoulders; **Weight** 10 lbs.\
-**Capacity** 100; **Usage** 1 charge/round
+::: statblock
+Price: 18,000 gp
+Slot: shoulders
+Weight: 10 lbs.
+Capacity: 100
+Usage: 1 charge/round
+:::
 
 ### Construction
 

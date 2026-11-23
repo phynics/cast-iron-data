@@ -19,8 +19,12 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Slot** feet; **CL** 11th; **Weight** 1 lb.\
-**Aura** moderate transmutation
+::: statblock
+Slot: feet
+CL: 11th
+Weight: 1 lb.
+Aura: moderate transmutation
+:::
 
 Worn by the Tian-Min explorer Amatatsu Aganhei on his treks across the Crown of the World, these
 utilitarian leather boots remain comfortable on even the longest journeys. Decorated with only a

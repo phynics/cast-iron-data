@@ -24,5 +24,9 @@ the target space must make a DC 20 Fortitude saving throw or take half damage. O
 mishap, this ammunition explodes before it is launched, dealing its damage to all nearby creatures
 as if one of the spaces of the siege engine (crew leader's choice) were the target square.
 
-**Cost** 400 gp **Weight** 20 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 400 gp
+Weight: 20 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

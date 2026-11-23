@@ -26,5 +26,9 @@ engine and all nearby creatures and wooden objects as if one of the spaces of th
 leader's choice) were the target square. It ignores the [hardness](ref/umr/hardness) of wood and
 stone.
 
-**Cost** 600 gp **Weight** 30 lbs.\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 600 gp
+Weight: 30 lbs.
+Category: Ammunition
+Proficiency: Siege Engine
+:::

@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Caster's Tattoo
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 6,000 gp (Lesser), 21,000 gp (Normal), 48,000 gp (Greater); **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 6,000 gp (Lesser), 21,000 gp (Normal), 48,000 gp (Greater)
+Weight: -
+:::
 
 A caster's tattoo is infused with potential magical energy that aids in casting spells that normally
 utilize verbal and somatic components. Once per day, a spellcaster may activate her caster's tattoo
@@ -39,6 +44,7 @@ casting of a spell of up to 3rd level, 6th level, or 9th level respectively.
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[Silent Spell](ref/feat/silent-spell), [Still Spell](ref/feat/still-spell); **Cost** 3,000 gp
-(lesser), 10,500 gp (normal), 24,000 gp (greater)
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [Silent Spell](ref/feat/silent-spell), [Still Spell](ref/feat/still-spell)
+Cost: 3,000 gp (lesser), 10,500 gp (normal), 24,000 gp (greater)
+:::

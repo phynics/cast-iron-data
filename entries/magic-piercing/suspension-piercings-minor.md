@@ -20,9 +20,12 @@ aura = "faint transmutation (minor and major), moderate transmutation (greater) 
 
 ## Suspension Piercings
 
-**Aura** faint transmutation (minor and major), moderate transmutation (greater) CL 7th\
-**Slot** belt or shoulders; **Price** 6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater);
-**Weight** —
+::: statblock
+Aura: faint transmutation (minor and major), moderate transmutation (greater) CL 7th
+Slot: belt or shoulders
+Price: 6,000 gp (Minor), 7,200 gp (Major), 11,200 gp (Greater)
+Weight: —
+:::
 
 These piercings are popular among suspensionists, who hang from hooks attached to their skin.
 
@@ -34,7 +37,7 @@ These piercings are popular among suspensionists, who hang from hooks attached t
 
 ### Construction
 
-**Requirements** [Craft Shadow Piercing](ref/feat/craft-shadow-piercing),
-[feather fall](ref/spell/feather-fall) (minor), [levitate](ref/spell/levitate) (major),
-[air walk](ref/spell/air-walk) (greater); **Cost** 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp
-(Greater)
+::: statblock
+Requirements: [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [feather fall](ref/spell/feather-fall) (minor), [levitate](ref/spell/levitate) (major), [air walk](ref/spell/air-walk) (greater)
+Cost: 3,000 gp (Minor), 3,600 gp (Major), 5,600 gp (Greater)
+:::

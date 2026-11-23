@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This sinuous tattoo appears to move when the bearer flexes his muscles. Three times per day when the
 bearer makes a successful melee attack with a [monk](ref/misc/monk) or
@@ -32,6 +37,7 @@ attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Improved Dirty Trick](ref/feat/improved-dirty-trick),
-[Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[summon monster I](ref/spell/summon-monster-1); **Cost** 1,000 gp
+::: statblock
+Requirements: [Improved Dirty Trick](ref/feat/improved-dirty-trick), [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [summon monster I](ref/spell/summon-monster-1)
+Cost: 1,000 gp
+:::

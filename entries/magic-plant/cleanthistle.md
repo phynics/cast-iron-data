@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 7,200 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 7,200 gp
+Weight: 50 lbs.
+:::
 
 The needles of this bitter, black herb grow in Numeria and are used to alleviate the effects of
 [radiation poisoning](ref/rule/radiation). A creature that drinks tea made from the needles of
@@ -34,6 +39,7 @@ remain potent enough to brew for 1 week after being harvested.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[neutralize poison](ref/spell/neutralize-poison), cultivator must have 5 ranks in Knowledge
-(nature); **Cost** 3,600 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [neutralize poison](ref/spell/neutralize-poison), cultivator must have 5 ranks in Knowledge (nature)
+Cost: 3,600 gp
+:::

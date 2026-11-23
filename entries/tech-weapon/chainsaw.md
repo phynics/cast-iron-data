@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "10 lbs."
 +++
 
-**Cost** 2,700 gp\
-**Type** two-handed melee; **Proficiency** exotic; **Weight** 10 lbs.\
-**Damage** 1d12 (small), 3d6 (medium); **Damage Type** S; **Critical** 18-20/×2\
-**Range** -; **Capacity** 10; **Usage** 1 charge/hour; **Special** [Deadly](ref/misc/deadly),
-[distracting](ref/misc/distracting)
+::: statblock
+Cost: 2,700 gp
+Type: two-handed melee
+Proficiency: exotic
+Weight: 10 lbs.
+Damage: 1d12 (small), 3d6 (medium)
+Damage Type: S
+Critical: 18-20/×2
+Range: -
+Capacity: 10
+Usage: 1 charge/hour
+Special: [Deadly](ref/misc/deadly), [distracting](ref/misc/distracting)
+:::
 
 ### Construction
 

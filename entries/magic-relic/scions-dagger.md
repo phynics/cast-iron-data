@@ -18,10 +18,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Suitable For** PCs of 7th-9th level\
-**Aura** strong necromancy\
-**Slot** none; **CL** 17th\
-**Weight** 1/2 lb.
+::: statblock
+Suitable For: PCs of 7th-9th level
+Aura: strong necromancy
+Slot: none
+CL: 17th
+Weight: 1/2 lb.
+:::
 
 This elegant, jeweled blade looks ornamental, but it is just as vicious as any weapon. A large black
 sapphire glitters in the dagger's pommel, and the delicate work along the blade's handle shows

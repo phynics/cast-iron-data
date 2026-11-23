@@ -22,8 +22,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 6,000 gp; **Weight** —
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 6,000 gp
+Weight: —
+:::
 
 #### Description
 

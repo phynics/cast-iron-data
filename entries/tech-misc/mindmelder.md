@@ -18,9 +18,13 @@ weight = "3 lbs."
 slot = "head"
 +++
 
-**Price** 30,000 gp\
-**Slot** head; **Weight** 3 lbs.\
-**Capacity** 10; **Usage** 1/hour
+::: statblock
+Price: 30,000 gp
+Slot: head
+Weight: 3 lbs.
+Capacity: 10
+Usage: 1/hour
+:::
 
 ### Construction
 

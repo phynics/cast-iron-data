@@ -55,11 +55,21 @@ ram allows four additional crew members to assist in using the ram.
 Large ram has 30 hit points, a Huge one has 120 hit points, a Gargantuan one has 320 hit points, and
 a Colossal one has 625 hit points. Improvised rams have half the normal hit points.
 
-**Large**\
-**Cost** 500 gp **Weight** -\
-**Damage** 2d6; **Critical** ×3; **Range** -; **Type** B\
-**Crew** 5; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Large:
+Cost: 500 gp
+Weight: -
+Damage: 2d6
+Critical: ×3
+Range: -
+Type: B
+Crew: 5
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
 **Huge**\
 **Cost** 1,000 gp **Weight** -\

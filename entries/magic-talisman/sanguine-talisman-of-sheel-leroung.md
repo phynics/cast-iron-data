@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** neck; **Price** 67,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: neck
+Price: 67,500 gp
+Weight: -
+:::
 
 This crimson devil talisman once belonged to the diabolist Sheel Leroung, a conjurer who aided
 Daidian Ruel in investigating the ways of [Hell](ref/rule/hell). The wearer of this talisman gains a
@@ -37,6 +42,7 @@ remembers much of the early days of the [Hellknights'](ref/rule/aff-lawknights) 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar binding](ref/spell/planar-binding), ability to conjure and bind a barbazu; **Cost** 33,750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar binding](ref/spell/planar-binding), ability to conjure and bind a barbazu
+Cost: 33,750 gp
+:::

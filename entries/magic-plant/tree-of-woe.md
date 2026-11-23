@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "11th"
 +++
 
-**Aura** strong enchantment; **CL** 11th\
-**Slot** none; **Price** 20,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 11th
+Slot: none
+Price: 20,000 gp
+Weight: 500 lbs.
+:::
 
 This massive tree bears no leaves, and its branches are twisted and vile. A creature tied to the
 tree becomes more susceptible to influence, taking a -4 penalty on Will saves, Sense Motive checks,
@@ -33,6 +38,7 @@ A tree of woe is potent year round, but it can have a new creature lashed to it 
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[charm monster](ref/spell/charm-monster), [zone of truth](ref/spell/zone-of-truth), cultivator must
-have 6 ranks in Knowledge (nature); **Cost** 10,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [charm monster](ref/spell/charm-monster), [zone of truth](ref/spell/zone-of-truth), cultivator must have 6 ranks in Knowledge (nature)
+Cost: 10,000 gp
+:::

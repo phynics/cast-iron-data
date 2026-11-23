@@ -25,7 +25,17 @@ suffers a further mishap explodes, dealing its damage to all creatures within a 
 Reflex save halves). Firedrakes have a [hardness](ref/umr/hardness) of 10 and 70 hit points. One use
 of firedrake ammunition costs 200 gp and weighs 20 pounds.
 
-**Cost** 4,000 gp **Weight** -\
-**Damage** 6d6; **Critical** -; **Range** -; **Type** fire\
-**Crew** 3; **Aim** 2; **Load** 5; **Speed** 10 ft.\
-**Category** Direct-Fire (Huge); **Proficiency** Siege Engine
+::: statblock
+Cost: 4,000 gp
+Weight: -
+Damage: 6d6
+Critical: -
+Range: -
+Type: fire
+Crew: 3
+Aim: 2
+Load: 5
+Speed: 10 ft.
+Category: Direct-Fire (Huge)
+Proficiency: Siege Engine
+:::

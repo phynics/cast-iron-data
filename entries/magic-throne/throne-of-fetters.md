@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and enchantment; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate conjuration and enchantment
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 500 lbs.
+:::
 
 This imposing stone throne is ornamented with heavy chains radiating outward from the central seat.
 A throne of fetters provides a continuous _[heroism](ref/spell/heroism)_ effect to the ruler or
@@ -36,6 +41,7 @@ throne. Both of these effects last for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [freedom of movement](ref/spell/freedom-of-movement),
-[heroism](ref/spell/heroism); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [freedom of movement](ref/spell/freedom-of-movement), [heroism](ref/spell/heroism)
+Cost: 8,000 gp
+:::

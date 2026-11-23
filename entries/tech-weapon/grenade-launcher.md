@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "8 lbs."
 +++
 
-**Cost** 8,000 gp\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 8 lbs.\
-**Damage** Varies (small), Varies (medium); **Damage Type** Varies; **Critical** —\
-**Range** 100 ft.; **Capacity** 20 (5 grenades); **Usage** 1 grenade and 1 charge; **Special**
-[Slow-firing](ref/misc/slow-firing)
+::: statblock
+Cost: 8,000 gp
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 8 lbs.
+Damage: Varies (small), Varies (medium)
+Damage Type: Varies
+Critical: —
+Range: 100 ft.
+Capacity: 20 (5 grenades)
+Usage: 1 grenade and 1 charge
+Special: [Slow-firing](ref/misc/slow-firing)
+:::
 
 A grenade launcher is a bulky weapon that can fire any [grenade](ref/tech-weapon/grenade) a great
 distance. Grenades propelled by a launcher can be set to detonate upon impact or at the start of the

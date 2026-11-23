@@ -18,8 +18,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot**; **Price** 150 gp; **Weight** —
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot:
+Price: 150 gp
+Weight: —
+:::
 
 Brewed from [belladonna](ref/eq-poison/belladonna) and popular among the backstabbing nobility of
 Taldor and Cheliax, burning heart causes victims to burst into flames at the most embarrassing

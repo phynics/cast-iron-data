@@ -20,10 +20,13 @@ slot = "none"
 
 ## Cortex gun (mark I)
 
-**Price** 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV),
-151,250 gp (mark V)\
-**Slot** none; **Weight** 1 lb. (all)\
-**Capacity** 1 nanite canister; **Usage** disposable
+::: statblock
+Price: 30,250 gp (mark I), 60,500 gp (mark II), 90,750 gp (mark III), 121,000 gp (mark IV), 151,250 gp (mark V)
+Slot: none
+Weight: 1 lb. (all)
+Capacity: 1 nanite canister
+Usage: disposable
+:::
 
 ### Construction
 

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 50 lbs.
+:::
 
 These thin reeds are topped with fluffy, edible seedpods that grant a creature a puffy appearance
 and the ability to walk on water. This effect lasts for 1 hour. The reeds occupy a 20-square-foot
@@ -32,6 +37,7 @@ fall; there are usually 12 pods available at a time. The pods remain potent for 
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[water walk](ref/spell/water-walk), cultivator must have 1 rank in Knowledge (nature); **Cost**
-15,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [water walk](ref/spell/water-walk), cultivator must have 1 rank in Knowledge (nature)
+Cost: 15,000 gp
+:::

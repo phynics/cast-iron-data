@@ -19,8 +19,13 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong necromancy; **CL** 12th\
-**Slot** none; **Price** 200,000 gp; **Weight** —
+::: statblock
+Aura: strong necromancy
+CL: 12th
+Slot: none
+Price: 200,000 gp
+Weight: —
+:::
 
 #### Description
 

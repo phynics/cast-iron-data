@@ -16,8 +16,12 @@ category = "Weapon Modifications"
 weight = "+1 lb."
 +++
 
-**Cost** +1,000 gp **Weight** +1 lb.\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Cost: +1,000 gp
+Weight: +1 lb.
+Category: Modification
+Proficiency: Modification
+:::
 
 Brutal hooks and barbs are worked along the weapon's blade or length. Only piercing or slashing
 weapons can have jagged hooks. Projectile weapons can't have jagged hooks, but their ammunition can.

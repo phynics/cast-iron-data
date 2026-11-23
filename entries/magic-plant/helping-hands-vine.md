@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 50 lbs.
+:::
 
 These fleshy, yellow vines bear leaves that resemble hands. The vines always grow on vertical
 surfaces when available, creeping up as they mature. A fully mature helping hands vine covers an
@@ -35,6 +40,7 @@ nothing once winter hits only to regrow in the summer of the following year.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[feather fall](ref/spell/feather-fall), [spider climb](ref/spell/spider-climb), cultivator must have
-1 rank in Knowledge (nature); **Cost** 6,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [feather fall](ref/spell/feather-fall), [spider climb](ref/spell/spider-climb), cultivator must have 1 rank in Knowledge (nature)
+Cost: 6,000 gp
+:::

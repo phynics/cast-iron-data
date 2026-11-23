@@ -16,10 +16,19 @@ category = "Technological Weapons"
 weight = "4 lbs."
 +++
 
-**Cost** 6,000 gp\
-**Type** one-handed melee; **Proficiency** martial; **Weight** 4 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Damage Type** fire; **Critical** ×3\
-**Range** -; **Capacity** 10; **Usage** 1 charge; **Special** [Touch](ref/misc/touch)
+::: statblock
+Cost: 6,000 gp
+Type: one-handed melee
+Proficiency: martial
+Weight: 4 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Damage Type: fire
+Critical: ×3
+Range: -
+Capacity: 10
+Usage: 1 charge
+Special: [Touch](ref/misc/touch)
+:::
 
 ### Construction
 

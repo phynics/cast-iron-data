@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 18,000 gp
+Weight: -
+:::
 
 This tattoo typically takes the form of a coiled snake, and once per day the bearer can activate it
 as a standard action. A viper tattoo must be visible to the bearer and must be touched as part of
@@ -44,5 +49,7 @@ opponent, and in this case, the viper returns to its tattoo form once it reaches
 
 ### Construction
 
-**Requirements** [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Cost** 9,000 gp
+::: statblock
+Requirements: [Inscribe Magical Tattoo](ref/feat/inscribe-magical-tattoo), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 9,000 gp
+:::

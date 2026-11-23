@@ -18,10 +18,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Suitable For** (not given)\
-**Aura** strong evocation\
-**Slot** none; **CL** 15th\
-**Weight** 10 lbs.
+::: statblock
+Suitable For: (not given)
+Aura: strong evocation
+Slot: none
+CL: 15th
+Weight: 10 lbs.
+:::
 
 The haft of this stout, ornate metal lance has an intricate pommel resembling a starburst. Affixed
 to its handle is a decorative counterweight engraved with the image of a Taldan knight kneeling in

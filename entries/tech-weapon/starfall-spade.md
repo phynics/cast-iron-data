@@ -18,10 +18,19 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Cost** 8,620 gp\
-**Type** two-handed melee; **Proficiency** martial; **Weight** 12 lbs.\
-**Damage** Special (small), Special (medium); **Damage Type** Special; **Critical** ×2\
-**Range** -; **Capacity** 10; **Usage** see text; **Special** See text
+::: statblock
+Cost: 8,620 gp
+Type: two-handed melee
+Proficiency: martial
+Weight: 12 lbs.
+Damage: Special (small), Special (medium)
+Damage Type: Special
+Critical: ×2
+Range: -
+Capacity: 10
+Usage: see text
+Special: See text
+:::
 
 ### Construction
 

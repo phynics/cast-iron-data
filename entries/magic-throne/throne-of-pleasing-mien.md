@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and enchantment; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 350 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 350 lbs.
+:::
 
 This beautiful throne is delicately crafted from pale stone carved with images of dancing
 [nymphs](ref/monster/nymph) and frolicking [satyrs](ref/monster/satyr). A throne of pleasing mien
@@ -32,6 +37,7 @@ a +1 morale bonus on Will saving throws for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [heroism](ref/spell/heroism),
-[resistance](ref/spell/resistance); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [heroism](ref/spell/heroism), [resistance](ref/spell/resistance)
+Cost: 4,000 gp
+:::

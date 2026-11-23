@@ -19,8 +19,12 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Slot** ring; **CL** 15th; **Weight** -\
-**Aura** strong abjuration
+::: statblock
+Slot: ring
+CL: 15th
+Weight: -
+Aura: strong abjuration
+:::
 
 According to records salvaged from abandoned temples of Aroden, the high priest Narthoc was wearing
 a ring of sealed souls when he trapped [the Whispering Tyrant](ref/monster/the-whispering-tyrant)

@@ -19,7 +19,10 @@ category = "Armor Modifications"
 weight = "+10 lbs."
 +++
 
-**Cost** +1,000 gp **Weight** +10 lbs.
+::: statblock
+Cost: +1,000 gp
+Weight: +10 lbs.
+:::
 
 The artistry of a piece of armor's design lies not just in the protection it provides but also in
 its ability to deflect blows, creating momentary windows of opportunity when an opponent's attack is

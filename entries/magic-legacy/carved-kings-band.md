@@ -19,8 +19,12 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Slot** headband; **CL** 17th; **Weight** 1 lb.\
-**Aura** strong transmutation
+::: statblock
+Slot: headband
+CL: 17th
+Weight: 1 lb.
+Aura: strong transmutation
+:::
 
 The runic scrollwork that decorates this thick iron headband calls to mind the intricate tattoos of
 the Blue Warders, the dwarven caretakers of Tar-Kazmukh's arcane libraries. An heirloom of King

@@ -17,8 +17,13 @@ price = "36,000 gp"
 slot = "shoulders"
 +++
 
-**Price** 36,000 gp; **Elixir Price** 600 gp\
-**Saving Throw DC** 20; **Slot** shoulders; **Temporary Duration** 10 minutes
+::: statblock
+Price: 36,000 gp
+Elixir Price: 600 gp
+Saving Throw DC: 20
+Slot: shoulders
+Temporary Duration: 10 minutes
+:::
 
 **Benefit:** The subject gains leathery, bat-like wings on its back, granting it a fly speed of 60
 feet (with an average maneuverability) as well as a +5 competence bonus on Fly checks.

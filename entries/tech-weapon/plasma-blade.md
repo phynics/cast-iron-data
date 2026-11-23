@@ -16,14 +16,26 @@ category = "Technological Weapons"
 weight = "3 lbs."
 +++
 
-**Cost** 12,000 gp\
-**Type** one-handed melee; **Proficiency** exotic; **Weight** 3 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Damage Type** electricity and fire; **Critical** 19-20/×3\
-**Range** -; **Capacity** 10; **Usage** 1 charge/minute; **Special** [Touch](ref/misc/touch)
+::: statblock
+Cost: 12,000 gp
+Type: one-handed melee
+Proficiency: exotic
+Weight: 3 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Damage Type: electricity and fire
+Critical: 19-20/×3
+Range: -
+Capacity: 10
+Usage: 1 charge/minute
+Special: [Touch](ref/misc/touch)
+:::
 
 ### Construction
 
-**Craft DC** 0; **Cost** 6,000 gp
+::: statblock
+Craft DC: 0
+Cost: 6,000 gp
+:::
 
 When activated, a plasma blade's heavy, ornate handle projects a quantum field that contains
 energized plasma in a 2- to 3-foot-long "blade." Attacks made with a plasma blade resolve as touch

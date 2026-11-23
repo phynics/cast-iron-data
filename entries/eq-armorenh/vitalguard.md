@@ -19,7 +19,10 @@ category = "Armor Modifications"
 weight = "+15 lbs."
 +++
 
-**Cost** +500 gp **Weight** +15 lbs.
+::: statblock
+Cost: +500 gp
+Weight: +15 lbs.
+:::
 
 This well-designed armor reinforces your defenses, adding layers of padding or mail to your most
 vulnerable locations. Vitalguard armor's bonus to AC is increased by 2 for the purpose of confirming

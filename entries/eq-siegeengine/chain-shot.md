@@ -22,5 +22,9 @@ especially good at tearing through sails and dirigibles (see the
 propulsion. When fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude
 saving throw or be knocked prone.
 
-**Cost** 50 gp **Weight** 30 lbs\
-**Category** Ammunition; **Proficiency** Siege Engine
+::: statblock
+Cost: 50 gp
+Weight: 30 lbs
+Category: Ammunition
+Proficiency: Siege Engine
+:::

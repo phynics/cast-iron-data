@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 1,200 gp
+Weight: -
+:::
 
 This favor is a pretty button that does not need to be donned, but merely placed in a pouch or
 pocket and carried by the recipient. A lucky button is activated as soon as it is given by the
@@ -30,5 +35,7 @@ recipient gains a +2 luck bonus on skill rolls of that type.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [status](ref/spell/status); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [status](ref/spell/status)
+Cost: 600 gp
+:::

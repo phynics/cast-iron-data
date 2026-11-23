@@ -19,8 +19,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 2,800 gp; **Weight** —
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 2,800 gp
+Weight: —
+:::
 
 ### Description
 
@@ -37,6 +42,7 @@ Creating a batch of laubo powder provides enough for 3 uses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate person](ref/spell/dominate-person), [disguise self](ref/spell/disguise-self); **Cost**
-1,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate person](ref/spell/dominate-person), [disguise self](ref/spell/disguise-self)
+Cost: 1,400 gp
+:::

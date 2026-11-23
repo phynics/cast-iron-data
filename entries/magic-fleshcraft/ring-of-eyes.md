@@ -16,8 +16,13 @@ category = "Fleshcraft"
 price = "gp"
 +++
 
-**Price** gp; **Elixir Price** 1,400 gp\
-**Saving Throw DC** 20; **Slot**; **Temporary Duration** 10 minutes
+::: statblock
+Price: gp
+Elixir Price: 1,400 gp
+Saving Throw DC: 20
+Slot:
+Temporary Duration: 10 minutes
+:::
 
 **Benefit:** Numerous malformed eyes grow on the subject's head. The creature gains
 [all-around vision](ref/umr/all-around-vision) and can't be [flanked](ref/rule/flanking).

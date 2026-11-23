@@ -17,8 +17,12 @@ weight = "10 lbs."
 slot = "head"
 +++
 
-**Slot** head; **Weight** 10 lbs.\
-**Capacity** 20; **Usage** 1 charge
+::: statblock
+Slot: head
+Weight: 10 lbs.
+Capacity: 20
+Usage: 1 charge
+:::
 
 A more advanced version of the [neurocam](ref/tech-misc/neurocam), a psychic imprinter resembles a
 helmet with a closed and opaque visor. It can be adjusted to fit over the head a Small, Medium, or

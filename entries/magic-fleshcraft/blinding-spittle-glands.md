@@ -20,8 +20,13 @@ price = "2,000 gp"
 slot = "head"
 +++
 
-**Price** 2,000 gp; **Elixir Price** 600 gp\
-**Saving Throw DC** 13; **Slot** head; **Temporary Duration** 1 hour
+::: statblock
+Price: 2,000 gp
+Elixir Price: 600 gp
+Saving Throw DC: 13
+Slot: head
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** The subject produces viscous black spittle that can temporarily blind creatures within
 30 feet. If the subject succeeds at a ranged touch attack with this spittle, it

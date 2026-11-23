@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 10,000 gp
+Weight: 5 lbs.
+:::
 
 This broad-stalked shrub branches into dozens of oversized dandelion flowers. A Small or smaller
 creature weighing less than 50 pounds can use a flower as a move action to slow her fall to a rate
@@ -38,5 +43,7 @@ breezeblown dandelion remain potent until used.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[glide](ref/spell/glide); **Cost** 5,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [glide](ref/spell/glide)
+Cost: 5,000 gp
+:::

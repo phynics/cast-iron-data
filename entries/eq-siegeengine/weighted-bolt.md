@@ -24,5 +24,9 @@ bolt lodges itself into the target's body, leaving the weighted chain hanging lo
 multiple weighted bolts. A weighted bolt can be removed with a successful DC 25 Heal check or a DC
 20 Strength check.
 
-**Cost** 50 gp **Weight** 40 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 50 gp
+Weight: 40 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

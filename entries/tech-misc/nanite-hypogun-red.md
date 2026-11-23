@@ -20,10 +20,13 @@ slot = "none"
 
 ## Nanite hypogun
 
-**Price** 6,000 gp (black), 91,000 gp (blue), 1,000 gp (brown), 28,000 gp (gray), 45,000 gp (green),
-125,000 gp (orange), 178,000 gp (prismatic), 66,000 gp (red), 15,000 gp (white)\
-**Slot** none; **Weight** 1 lb. (all)\
-**Capacity** 1 nanite canister; **Usage** 1 charge or 5 charges
+::: statblock
+Price: 6,000 gp (black), 91,000 gp (blue), 1,000 gp (brown), 28,000 gp (gray), 45,000 gp (green), 125,000 gp (orange), 178,000 gp (prismatic), 66,000 gp (red), 15,000 gp (white)
+Slot: none
+Weight: 1 lb. (all)
+Capacity: 1 nanite canister
+Usage: 1 charge or 5 charges
+:::
 
 ### Construction
 

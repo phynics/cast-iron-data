@@ -20,8 +20,13 @@ aura = "moderate transmutation [evil]"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation \[evil\]; **CL** 7th\
-**Slot** none; **Price** 55,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation \[evil\]
+CL: 7th
+Slot: none
+Price: 55,000 gp
+Weight: 3 lbs.
+:::
 
 ### Description
 
@@ -35,5 +40,7 @@ have [Deflect Arrows](ref/feat/deflect-arrows) as a bonus feat.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 27,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 27,500 gp
+:::

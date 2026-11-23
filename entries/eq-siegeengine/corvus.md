@@ -33,9 +33,19 @@ creatures must make a DC 15 Reflex saving throw or fall. Succeeding at the savin
 to move to the nearest area of safe ground, but such movement provokes attacks of opportunity. A
 corvus cannot be armored.
 
-**Cost** 100 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 1; **Aim** 0; **Load** 0; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Cost: 100 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 1
+Aim: 0
+Load: 0
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
 **Note:** Marked as 'Large' siege engine based on the description given.

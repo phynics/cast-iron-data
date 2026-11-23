@@ -19,8 +19,12 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Slot** armor; **CL** 10th; **Weight** 15 lbs.\
-**Aura** moderate enchantment
+::: statblock
+Slot: armor
+CL: 10th
+Weight: 15 lbs.
+Aura: moderate enchantment
+:::
 
 The chasing of this +1 [mithral](ref/eq-material/mithral) [breastplate](ref/eq-armor/breastplate)
 makes it appear to be crafted of dragon's scales. Originally worn by Choral Rogarvia, the armor was

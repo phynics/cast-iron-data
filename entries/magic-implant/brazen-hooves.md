@@ -20,8 +20,13 @@ aura = "strong transmutation [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation \[evil\]; **CL** 15th\
-**Slot** none; **Price** 15,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation \[evil\]
+CL: 15th
+Slot: none
+Price: 15,000 gp
+Weight: 4 lbs.
+:::
 
 ### Description
 
@@ -42,6 +47,7 @@ attack, dealing 1d6 points of fire damage in addition to normal trample damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [wall of fire](ref/spell/wall-of-fire); **Cost** 7,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [wall of fire](ref/spell/wall-of-fire)
+Cost: 7,500 gp
+:::

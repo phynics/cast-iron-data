@@ -16,12 +16,19 @@ category = "Technological Armor"
 weight = "35 lbs."
 +++
 
-**Cost** 10,000 gp\
-**Type** Medium; **Weight** 35 lbs.; **Armor Bonus** +4\
-**Max Dex Bonus** +4; **Armor Check Penalty** -3\
-**Arcane Spell Failure Chance** 20%\
-**Speed (30 ft.)** 20 ft.; **Speed (20 ft.)** 15 ft.\
-**Capacity** 24; **Usage** 1 charge/hour
+::: statblock
+Cost: 10,000 gp
+Type: Medium
+Weight: 35 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +4
+Armor Check Penalty: -3
+Arcane Spell Failure Chance: 20%
+Speed (30 ft.): 20 ft.
+Speed (20 ft.): 15 ft.
+Capacity: 24
+Usage: 1 charge/hour
+:::
 
 ### Construction
 

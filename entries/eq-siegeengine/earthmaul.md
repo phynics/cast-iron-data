@@ -26,7 +26,17 @@ earthmaul has a [hardness](ref/umr/hardness) of 5 and 100 hit points.
 
 An earthmaul is a Huge siege engine.
 
-**Cost** 1,000 gp **Weight** -\
-**Damage** 6d6; **Critical** -; **Range** -; **Type** B\
-**Crew** 3; **Aim** 0; **Load** 3; **Speed** 0 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Cost: 1,000 gp
+Weight: -
+Damage: 6d6
+Critical: -
+Range: -
+Type: B
+Crew: 3
+Aim: 0
+Load: 3
+Speed: 0 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::

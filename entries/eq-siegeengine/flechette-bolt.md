@@ -27,5 +27,9 @@ deal 2d8 points of damage, while heavy ballista flechettes deal 3d8 points. Addi
 creature hit by flechettes has several holes punched in its wings, and has its fly speed reduced by
 10 feet. The creature takes a -4 penalty on Fly checks until the damage is healed.
 
-**Cost** 30 gp **Weight** 20 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 30 gp
+Weight: 20 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

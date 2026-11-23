@@ -16,11 +16,19 @@ category = "Technological Weapons"
 weight = "1 lb."
 +++
 
-**Cost** 70,000 gp\
-**Type** light melee; **Proficiency** exotic; **Weight** 1 lb.\
-**Damage** 1d10 (small), 2d6 (medium); **Damage Type** S; **Critical** 18-20/×3\
-**Range** -; **Capacity** 10; **Usage** 1 charge/round; **Special**
-[Performance](ref/misc/performance), [reach](ref/misc/reach), [touch](ref/misc/touch)
+::: statblock
+Cost: 70,000 gp
+Type: light melee
+Proficiency: exotic
+Weight: 1 lb.
+Damage: 1d10 (small), 2d6 (medium)
+Damage Type: S
+Critical: 18-20/×3
+Range: -
+Capacity: 10
+Usage: 1 charge/round
+Special: [Performance](ref/misc/performance), [reach](ref/misc/reach), [touch](ref/misc/touch)
+:::
 
 ### Construction
 

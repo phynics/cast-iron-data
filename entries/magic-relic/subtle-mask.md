@@ -18,10 +18,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Suitable For** PCs of 4th-6th level\
-**Aura** moderate divination\
-**Slot** head; **CL** 11th\
-**Weight** 1 lb.
+::: statblock
+Suitable For: PCs of 4th-6th level
+Aura: moderate divination
+Slot: head
+CL: 11th
+Weight: 1 lb.
+:::
 
 Fashioned to surround the wearer's eyes and cover the forehead and cheekbones, this mask is made of
 porcelain inset with blue and green gems and decorated with golden filigree. When donned, the mask

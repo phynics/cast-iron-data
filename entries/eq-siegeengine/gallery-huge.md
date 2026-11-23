@@ -37,11 +37,21 @@ Galleries have a [hardness](ref/umr/hardness) of 5, and hit points based on thei
 gallery has 30 hit points, a Huge one has 120 hit points, a Gargantuan one has 320 hit points, and a
 colossal one has 625 hit points.
 
-**Large**\
-**Cost** 250 gp **Weight** -\
-**Damage** -; **Critical** -; **Range** -; **Type** -\
-**Crew** 3; **Aim** 0; **Load** 0; **Speed** 15 ft.\
-**Category** Close Assault; **Proficiency** Siege Engine
+::: statblock
+Large:
+Cost: 250 gp
+Weight: -
+Damage: -
+Critical: -
+Range: -
+Type: -
+Crew: 3
+Aim: 0
+Load: 0
+Speed: 15 ft.
+Category: Close Assault
+Proficiency: Siege Engine
+:::
 
 **Huge**\
 **Cost** 500 gp **Weight** -\

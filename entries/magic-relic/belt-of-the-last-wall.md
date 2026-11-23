@@ -18,10 +18,13 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "13th"
 +++
 
-**Suitable For** (not given)\
-**Aura** strong abjuration and necromancy \[lawful\]\
-**Slot** belt; **CL** 13th\
-**Weight** 4 lbs.
+::: statblock
+Suitable For: (not given)
+Aura: strong abjuration and necromancy \[lawful\]
+Slot: belt
+CL: 13th
+Weight: 4 lbs.
+:::
 
 Three miniature shields, each worn and beaten, hang loosely from this decrepit leather belt. Dozens
 of [adamantine](ref/eq-material/adamantine) lamellar plates adorn the cord's exterior, giving it the

@@ -19,8 +19,13 @@ aura = "moderate transmutation [chaotic, evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation \[chaotic, evil\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** —
+::: statblock
+Aura: moderate transmutation \[chaotic, evil\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: —
+:::
 
 ### Description
 
@@ -35,6 +40,7 @@ _[detect poison](ref/spell/detect-poison)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect poison](ref/spell/detect-poison), [eagle's splendor](ref/spell/eagles-splendor); **Cost**
-5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect poison](ref/spell/detect-poison), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 5,000 gp
+:::

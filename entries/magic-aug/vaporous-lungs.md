@@ -19,8 +19,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 10,800 gp; **Weight** —
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 10,800 gp
+Weight: —
+:::
 
 The recipient's lungs are imbued with tiny pockets that contain elemental air, and his mouth and
 nose constantly leak thin trails of mist or smoke. Once per day as a standard action, the user can
@@ -43,6 +48,7 @@ This elemental augmentation cannot be applied to a creature that does not breath
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind), creator must have 7 ranks in Knowledge (planes); **Cost**
-5,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind), creator must have 7 ranks in Knowledge (planes)
+Cost: 5,400 gp
+:::

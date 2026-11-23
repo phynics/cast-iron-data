@@ -17,10 +17,13 @@ aura = "strong abjuration"
 caster_level = "11th"
 +++
 
-**Suitable For** PCs of 10th-12th level\
-**Aura** strong abjuration\
-**Slot** ring; **CL** 11th\
-**Weight** —
+::: statblock
+Suitable For: PCs of 10th-12th level
+Aura: strong abjuration
+Slot: ring
+CL: 11th
+Weight: —
+:::
 
 Stylistic flourishes and a stout design suggest dwarves had a hand in forging this thick ring. The
 precise engineering of the small moving parts shows the fine artistry that went into creating the

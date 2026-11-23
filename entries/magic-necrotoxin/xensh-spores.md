@@ -18,8 +18,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot**; **Price** 1,200 gp; **Weight** —
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot:
+Price: 1,200 gp
+Weight: —
+:::
 
 These Shadow Plane spores inhibit a victim's ability to absorb positive energy.
 
@@ -32,5 +37,7 @@ consecutive saves
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[undead anatomy I](ref/spell/undead-anatomy-1); **Cost** 225 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [undead anatomy I](ref/spell/undead-anatomy-1)
+Cost: 225 gp
+:::

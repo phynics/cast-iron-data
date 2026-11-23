@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment; **CL** 12th\
-**Slot** none; **Price** 25,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 12th
+Slot: none
+Price: 25,000 gp
+Weight: 50 lbs.
+:::
 
 A creature who consumes an ambrosial lotus must succeed at a DC 17 Will save or be overtaken by such
 a state of total bliss so as to be almost oblivious to the world around him. The creature's
@@ -34,6 +39,7 @@ An ambrosial lotus stalk grows one flower per day during its 13-week growing per
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[feeblemind](ref/spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature); **Cost**
-12,500 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [feeblemind](ref/spell/feeblemind), cultivator must have 10 ranks in Knowledge (nature)
+Cost: 12,500 gp
+:::

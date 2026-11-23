@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 500 lbs.
+:::
 
 This large tree bears both vibrant red and dull yellow apples. The imbiber of a red apple gains a +5
 insight bonus on her next Knowledge check. Consuming a yellow apple grants a single use of
@@ -34,5 +39,7 @@ yellow apple at any given time.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[augury](ref/spell/augury), cultivator must have 1 rank in Knowledge (nature); **Cost** 1,500 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [augury](ref/spell/augury), cultivator must have 1 rank in Knowledge (nature)
+Cost: 1,500 gp
+:::

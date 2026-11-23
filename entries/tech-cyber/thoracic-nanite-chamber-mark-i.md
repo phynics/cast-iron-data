@@ -20,10 +20,13 @@ slot = "body"
 
 ## Thoracic Nanite Chamber (Mark I)
 
-**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\
-**Slot** body; **Weight** 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III)\
-**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\
-**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)
+::: statblock
+Price: 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)
+Slot: body
+Weight: 5 lbs. (Mark I), 5 lbs. (Mark II), 5 lbs. (Mark III)
+Install: DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)
+Implantation: 2 (Mark I), 4 (Mark II), 8 (Mark III)
+:::
 
 ### Construction
 

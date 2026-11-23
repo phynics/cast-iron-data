@@ -18,11 +18,19 @@ weight = "18 lbs."
 
 ## Beam cannon (arc cannon)
 
-**Cost** 40,000 gp (arc cannon, laser cannon, zero cannon), 58,000 gp (EMP cannon, sonic cannon)\
-**Type** two-handed ranged; **Proficiency** exotic (heavy weaponry); **Weight** 18 lbs.\
-**Damage** 2d6 (small), 3d6 (medium); **Damage Type** See below; **Critical** ×2\
-**Range** 300 ft.; **Capacity** 50; **Usage** 1 charge; **Special** [Automatic](ref/misc/automatic),
-[touch](ref/misc/touch)
+::: statblock
+Cost: 40,000 gp (arc cannon, laser cannon, zero cannon), 58,000 gp (EMP cannon, sonic cannon)
+Type: two-handed ranged
+Proficiency: exotic (heavy weaponry)
+Weight: 18 lbs.
+Damage: 2d6 (small), 3d6 (medium)
+Damage Type: See below
+Critical: ×2
+Range: 300 ft.
+Capacity: 50
+Usage: 1 charge
+Special: [Automatic](ref/misc/automatic), [touch](ref/misc/touch)
+:::
 
 A beam cannon is an immense version of one of the six more common beam rifle types. Beam cannons are
 generally referred to by type as summarized below. In addition to the standard automatic firing mode

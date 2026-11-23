@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation [chaotic, evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation \[chaotic, evil\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation \[chaotic, evil\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 500 lbs.
+:::
 
 This altar is a flat rock covered in images of ferocious monsters such as
 [gnolls](ref/monster/gnoll) and adorned with a venerable beast's skull, especially that of a jackal
@@ -32,7 +37,7 @@ creature).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against good](ref/spell/magic-circle-against-good),
-[magic circle against law](ref/spell/magic-circle-against-law), [magic fang](ref/spell/magic-fang),
-creator must worship [Lamashtu](ref/faith/lamashtu); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against good](ref/spell/magic-circle-against-good), [magic circle against law](ref/spell/magic-circle-against-law), [magic fang](ref/spell/magic-fang), creator must worship [Lamashtu](ref/faith/lamashtu)
+Cost: 5,000 gp
+:::

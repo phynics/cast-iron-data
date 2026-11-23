@@ -17,8 +17,13 @@ price = "32,000 gp"
 slot = "hands"
 +++
 
-**Price** 32,000 gp; **Elixir Price** 1,600 gp\
-**Saving Throw DC** 20; **Slot** hands; **Temporary Duration** 1 hour
+::: statblock
+Price: 32,000 gp
+Elixir Price: 1,600 gp
+Saving Throw DC: 20
+Slot: hands
+Temporary Duration: 1 hour
+:::
 
 **Benefit:** The subject's hands are replaced with clawed appendages that can be used as
 [natural weapons](ref/umr/natural-attacks) that a Medium creature can use to deal 1d8 points of

@@ -18,9 +18,13 @@ weight = "8 lbs."
 slot = "none"
 +++
 
-**Price** 2,500 gp\
-**Slot** none; **Weight** 8 lbs.\
-**Capacity** 10; **Usage** 1 charge
+::: statblock
+Price: 2,500 gp
+Slot: none
+Weight: 8 lbs.
+Capacity: 10
+Usage: 1 charge
+:::
 
 ### Construction
 

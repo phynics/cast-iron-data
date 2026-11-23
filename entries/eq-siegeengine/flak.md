@@ -23,5 +23,9 @@ objects within 40 feet of the target square. A flak bomb must reach an altitude 
 to function properly. If flak ammunition impacts anything before it reaches this altitude, the bomb
 deals 1d6 points of bludgeoning damage and fails to explode.
 
-**Cost** 500 gp **Weight** 30 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 500 gp
+Weight: 30 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

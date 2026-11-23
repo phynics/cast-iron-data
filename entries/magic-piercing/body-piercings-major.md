@@ -20,8 +20,12 @@ aura = "faint transmutation CL 3rd"
 
 ## Body Piercings
 
-**Aura** faint transmutation CL 3rd\
-**Slot** body; **Price** 1,800 gp (Minor), 2,400 gp (Major), 3,200 gp (Greater); **Weight** —
+::: statblock
+Aura: faint transmutation CL 3rd
+Slot: body
+Price: 1,800 gp (Minor), 2,400 gp (Major), 3,200 gp (Greater)
+Weight: —
+:::
 
 These piercings come in the form of grotesque spikes and needles that cover every inch of the
 wearer's skin.
@@ -37,6 +41,7 @@ not wearing armor or bulky clothing, and is considered proficient with armor spi
 
 ### Construction
 
-**Requirements** [Craft Shadow Piercing](ref/feat/craft-shadow-piercing),
-[Improved Grapple](ref/feat/improved-grapple), [magic weapon](ref/spell/magic-weapon); **Cost** 900
-gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)
+::: statblock
+Requirements: [Craft Shadow Piercing](ref/feat/craft-shadow-piercing), [Improved Grapple](ref/feat/improved-grapple), [magic weapon](ref/spell/magic-weapon)
+Cost: 900 gp (Minor), 1,200 gp (Major), 1,600 gp (Greater)
+:::

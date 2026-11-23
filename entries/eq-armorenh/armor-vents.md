@@ -17,8 +17,11 @@ price = "+100 gp"
 weight = "-5 lbs."
 +++
 
-**Price** +100 gp; **Weight** -5 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: +100 gp
+Weight: -5 lbs.
+Category: Adventuring Gear
+:::
 
 Armor vents can be built into a suit of medium or heavy armor to allow for better ventilation and
 reduce the wearer's fatigue in hot environs. The vents can be slid open at the discretion of the

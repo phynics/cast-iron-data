@@ -22,8 +22,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 1,000 gp; **Weight** —
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 1,000 gp
+Weight: —
+:::
 
 #### Description
 

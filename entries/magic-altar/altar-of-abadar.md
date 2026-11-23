@@ -20,8 +20,13 @@ aura = "moderate abjuration [lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration \[lawful\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration \[lawful\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 1,000 lbs.
+:::
 
 This altar is a stone vault with an intricate, stylized lock decorated with golden keys, coins, and
 examples of flawless craftsmanship. Praying at the altar grants a +2 competence bonus on Diplomacy,
@@ -30,6 +35,7 @@ effect (DC 13).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[sanctuary](ref/spell/sanctuary), creator must worship [Abadar](ref/faith/abadar); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [sanctuary](ref/spell/sanctuary), creator must worship [Abadar](ref/faith/abadar)
+Cost: 5,000 gp
+:::

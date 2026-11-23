@@ -20,8 +20,13 @@ aura = "moderate abjuration [chaotic, good]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration \[chaotic, good\]; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: moderate abjuration \[chaotic, good\]
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 150 lbs.
+:::
 
 This altar is usually a heavy wooden box, often incorporated into the bar of a tavern or another
 social resting place for adventurers or revelers, and contains large stores of alcohol and the god's
@@ -30,8 +35,7 @@ poison.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[magic circle against law](ref/spell/magic-circle-against-law),
-[neutralize poison](ref/spell/neutralize-poison), [remove fear](ref/spell/remove-fear), creator must
-worship [Cayden Cailean](ref/faith/cayden-cailean); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic circle against evil](ref/spell/magic-circle-against-evil), [magic circle against law](ref/spell/magic-circle-against-law), [neutralize poison](ref/spell/neutralize-poison), [remove fear](ref/spell/remove-fear), creator must worship [Cayden Cailean](ref/faith/cayden-cailean)
+Cost: 4,000 gp
+:::

@@ -18,8 +18,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot**; **Price** 1,150 gp; **Weight** —
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot:
+Price: 1,150 gp
+Weight: —
+:::
 
 This black metallic powder infuses [lich dust](ref/eq-poison/lich-dust) with magic-destroying
 energies, tearing down any protective spells its imbiber may have in place. It is especially favored

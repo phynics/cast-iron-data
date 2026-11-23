@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 50 lbs.
+:::
 
 This green, leafy plant grows in areas of shallow water, such as small lakes or coastal waters. The
 leaves can be chewed to grant cold resistance 5 and allow the user to survive without air. One leaf
@@ -32,6 +37,7 @@ Its growing season lasts 13 weeks during the summer.
 
 ### Construction
 
-**Requirements** [Cultivate Magic Plants](ref/feat/cultivate-magic-plants),
-[water breathing](ref/spell/water-breathing), cultivator must have 1 rank in Knowledge (nature);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Cultivate Magic Plants](ref/feat/cultivate-magic-plants), [water breathing](ref/spell/water-breathing), cultivator must have 1 rank in Knowledge (nature)
+Cost: 15,000 gp
+:::

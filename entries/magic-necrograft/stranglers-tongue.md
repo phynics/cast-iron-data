@@ -18,8 +18,13 @@ aura = "faint enchantment and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and necromancy; **CL** 5th\
-**Slot**; **Price** 36,000 gp; **Weight** —
+::: statblock
+Aura: faint enchantment and necromancy
+CL: 5th
+Slot:
+Price: 36,000 gp
+Weight: —
+:::
 
 Extracted from a [mohrg](ref/monster/mohrg), this ropy, claw-tipped tongue is implanted into a
 recipient's mouth or throat. A strangler's tongue lacks the strength to grasp or hold items, but the
@@ -28,6 +33,7 @@ the strangler's tongue is [paralyzed](ref/rule/paralyzed) for 1d4 minutes (Will 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create undead](ref/spell/create-undead), [hold person](ref/spell/hold-person), creator must have 5
-ranks in Heal; **Cost** 18000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create undead](ref/spell/create-undead), [hold person](ref/spell/hold-person), creator must have 5 ranks in Heal
+Cost: 18000 gp
+:::

@@ -20,10 +20,13 @@ slot = "body"
 
 ## Wirejack Tendons (Mark I)
 
-**Price** 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\
-**Slot** body; **Weight** 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)\
-**Install** DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\
-**Implantation** 2 (Mark I), 4 (Mark II), 8 (Mark III)
+::: statblock
+Price: 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)
+Slot: body
+Weight: 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)
+Install: DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)
+Implantation: 2 (Mark I), 4 (Mark II), 8 (Mark III)
+:::
 
 ### Construction
 

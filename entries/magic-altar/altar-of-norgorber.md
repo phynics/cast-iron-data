@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment [evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and enchantment \[evil\]; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 250 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment \[evil\]
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 250 lbs.
+:::
 
 This altar is a lead-lined chest covered in dark fabric and a false cover, usually built into the
 floor or wall so that it can be easily concealed when not in use. Praying at the altar grants a +2
@@ -32,7 +37,7 @@ altar.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[false alibi](ref/spell/false-alibi),
-[magic circle against good](ref/spell/magic-circle-against-good), creator must worship
-[Norgorber](ref/faith/norgorber); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [false alibi](ref/spell/false-alibi), [magic circle against good](ref/spell/magic-circle-against-good), creator must worship [Norgorber](ref/faith/norgorber)
+Cost: 5,000 gp
+:::

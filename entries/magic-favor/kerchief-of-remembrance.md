@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** arm or wrist; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: arm or wrist
+Price: 600 gp
+Weight: -
+:::
 
 This favor is a simple checked kerchief worn around the arm or wrist. For 1 week, the recipient can
 automatically call to mind a detailed recollection of the presenter's features, even if his memory
@@ -32,5 +37,7 @@ _[status](ref/spell/status)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [status](ref/spell/status); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [status](ref/spell/status)
+Cost: 300 gp
+:::
