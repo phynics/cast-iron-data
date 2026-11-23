@@ -2476,6 +2476,7 @@ ref/affliction/chickcharney/curse-of-ill-luck	isles-of-the-shackles	46	print
 ref/affliction/colossus-iron-colossus-mythic/deadly-fumes	bestiary-4	36	print	
 ref/affliction/curse/curse-name-su	bestiary-5	291	print	
 ref/affliction/daemon-lacridaemon/lacridaemon-poison	bestiary-6	71	print		the poison is printed as a line in the monster's special abilities on this page
+ref/affliction/daemon-lacridaemon/lacridaemon-poison	book-of-the-damned-volume-3-horsemen-of-the-apocalypse	48	print		the poison line (Lacridaemon poison) is printed in the Lacridaemon special abilities on this page
 ref/affliction/daemonic-harbinger-braismois/poison-1-broken-oath	druma-profit-and-prophecy	58	print		the poison is a bullet of the Toxic Quill ability of Braismois on this page (the Promise of Power bullet continues on page 59)
 ref/affliction/daemonic-harbinger-braismois/poison-2-promise-of-power	druma-profit-and-prophecy	58	print		the poison is a bullet of the Toxic Quill ability of Braismois on this page (the Promise of Power bullet continues on page 59)
 ref/affliction/daemonic-harbinger-braismois/poison-3-silence	druma-profit-and-prophecy	59	print		the poison is a bullet of the Toxic Quill ability of Braismois, at the top of this page

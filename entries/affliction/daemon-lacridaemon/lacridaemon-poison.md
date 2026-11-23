@@ -13,6 +13,7 @@ publication = "bestiary-6"
 page = "71"
 [[sources]]
 publication = "book-of-the-damned-volume-3-horsemen-of-the-apocalypse"
+page = "48"
 
 [fields]
 kind = "none"
