@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "withering", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "11"
 
 [fields]
 kind = "class_option"

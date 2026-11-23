@@ -6,6 +6,9 @@ source_ids = ["ultimate-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "immolation_bomb", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "ultimate-combat"
+page = "24"
 
 [fields]
 kind = "class_option"

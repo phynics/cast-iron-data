@@ -6,6 +6,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deathcall", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "15"
 
 [fields]
 kind = "class_option"

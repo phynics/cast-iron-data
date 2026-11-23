@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bombers_discovery", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "class_option"

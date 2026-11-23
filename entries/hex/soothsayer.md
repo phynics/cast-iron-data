@@ -6,6 +6,9 @@ source_ids = ["the-harrow-handbook", "heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "soothsayer", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "the-harrow-handbook"
+page = "15"
 
 [fields]
 kind = "class_option"

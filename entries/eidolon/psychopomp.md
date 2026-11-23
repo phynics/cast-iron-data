@@ -6,6 +6,8 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
 
 [fields]
 kind = "class_option"

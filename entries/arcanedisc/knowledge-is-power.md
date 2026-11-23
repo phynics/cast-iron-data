@@ -6,6 +6,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "knowledge_is_power", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "9"
 
 [fields]
 kind = "class_option"
