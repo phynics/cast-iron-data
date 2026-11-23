@@ -3316,7 +3316,7 @@ ref/discovery/grand-fey-mutagen	legacy-of-the-first-world	7	print
 ref/discovery/greater-fey-mutagen	legacy-of-the-first-world	7	print		
 ref/discovery/method-to-the-madness	inner-sea-monster-codex	23	print		
 ref/discovery/monstrous-graft	inner-sea-monster-codex	23	print		
-ref/discovery/ooze-blight	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/ooze-blight	monster-hunters-handbook	17	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/precise-poison	inner-sea-monster-codex	23	print		
 ref/discovery/promethean-disciple	occult-adventures	112	print		
 ref/discovery/sleeper-agent	inner-sea-monster-codex	23	print		
@@ -3500,7 +3500,7 @@ ref/stylestrike/rabbit-punch	martial-arts-handbook	6	print
 ref/stylestrike/throat-crush	martial-arts-handbook	7	print		
 ref/talent/acrobatic-stunt	inner-sea-combat	16	print		
 ref/talent/ambuscading-grapple	monster-hunters-handbook	9	print		
-ref/talent/armor-piercer	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/talent/armor-piercer	monster-hunters-handbook	9	print		the rogue talent is printed under its name (with an asterisk) on this page
 ref/talent/claimed-turf	inner-sea-intrigue	32	print		
 ref/talent/climbing-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/dampen-presence	magic-tactics-toolbox	27	print		
