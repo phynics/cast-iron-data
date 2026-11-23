@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "black-markets"
-page = "20"
+page = "20-21"
 
 [fields]
 kind = "item"
@@ -31,15 +31,24 @@ Strength score of 19 for the purpose of determining how much weight it can lift.
 
 This can be crafted with a DC 25 Craft (traps) check.
 
-**Falling Net Trap**\
-**Type** mechanical; **Perception** DC 10; **Disable Device** DC 15\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all
-targets in a 10-ft.-square area)\
-**Hoisting Net Trap**\
-**Type** mechanical; **Perception** DC 10; **Disable Device** DC 15\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets
-(all targets in a 10-ft.-square area)
+::: statblock
+title = "Falling Net Trap - CR 1/2"
+Type: mechanical
+Perception: DC 10
+Disable Device: DC 15
+Effects:
+Trigger: touch
+Reset: manual
+Effect: net (entangled and tethered by 10-ft. rope); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)
+:::
+
+::: statblock
+title = "Hoisting Net Trap - CR 1/2"
+Type: mechanical
+Perception: DC 10
+Disable Device: DC 15
+Effects:
+Trigger: touch
+Reset: manual
+Effect: net (entangled and lifted 10 ft. into the air); Reflex DC 15 avoids; multiple targets (all targets in a 10-ft.-square area)
+:::

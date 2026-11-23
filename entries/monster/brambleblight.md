@@ -32,85 +32,65 @@ abilities = ["25", "16", "18", "6", "14", "8"]
 _Two long vines covered in sharp thorns protrude from what appears to be a massive rotting bundle of
 barbs that's topped with a heap of berry-red eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: blight (40 ft., DC 19)
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +10
+Type: plant
+Senses: Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
+Experience points: 3,200
+:::
 
-**aura:** blight (40 ft., DC 19)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +6
+Will: +5
+Defensive abilities: thorny
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +13 (2d6+7)
+Ranged: 4 thorns +10 (1d6+7)
+Reach: 10
+Space: 10
+Spec Att: animate brambles, rain of thorns
+:::
 
-**Perception:** +10
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 25, Dex 16, Con 18, Int 6, Wis 14, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Power Attack, Stand Still, Weapon Focus (thorns)
+Skills: Perception +10, Stealth +7 (+19 in forests)
+Racial Modifiers: +12 Stealth in forests
+Languages: Sylvan
+Special qualities: bramble infestation, improved [woodland stride](ref/ability/woodland-stride)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Plantsense 120 ft.
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** thorny
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +13 (2d6+7)
-
-**Ranged:** 4 thorns +10 (1d6+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** animate brambles, rain of thorns
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 18, Int 6, Wis 14, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack, Stand Still, Weapon Focus (thorns)
-
-**Skills:** Perception +10, Stealth +7 (+19 in forests)
-
-**Racial Modifiers:** +12 Stealth in forests
-
-**Languages:** Sylvan
-
-**Special qualities:** bramble infestation, improved [woodland stride](ref/ability/woodland-stride)
-
-**Ecology**
-
-**Environment:** temperate or warm forests or underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests or underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 
@@ -206,55 +186,49 @@ completely depleted of prey. If a brambleblight uproots itself and moves on to a
 region it blighted soon returns to its previous state. Likewise, when a brambleblight is killed, its
 tended patch withers and dies within days, eventually giving way once again to native vegetation.
 
-**Animated Bramble**
+## Animated Bramble {#stat-animated-bramble}
 
 _The following is an example of the animated vegetation that a brambleblight uses to help protect
 its rotting and thorny domain._
 
-N Large construct\
-**Init** -1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-[low-light vision](ref/rule/low-light-vision); Perception -5
+N Large construct
 
-**Armor class:** 15
+::: statblock
+Init: -1
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception -5
+:::
 
-**Touch:** 8
+### Defense
 
-**Flat-footed:** 15
+::: statblock
+Armor class: 15
+Touch: 8
+Flat-footed: 15
+AC modifiers: -1 Dex, +7 natural, -1 size
+Hit points: 52 (4d10+30)
+Fort: +1
+Ref: +0
+Will: -4
+Defensive abilities: [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**AC modifiers:** -1 Dex, +7 natural, -1 size
+### Offense
 
-**Hit points:** 52 (4d10+30)
+::: statblock
+Speed: 20 ft.
+Constrict: 1d6+9
+Melee: slam +9 (1d6+9 plus [grab](ref/umr/grab))
+Pull: slam, 5 ft.
+Reach: 10
+Space: 10
+:::
 
-**Fort:** +1
+### Statistics
 
-**Ref:** +0
-
-**Will:** -4
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 1d6+9
-
-**Melee:** slam +9 (1d6+9 plus [grab](ref/umr/grab))
-
-**Pull:** slam, 5 ft.
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 8, Con -, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 20 (can't be tripped)
+::: statblock
+Ability scores: Str 22, Dex 8, Con -, Int -, Wis 1, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +11
+Combat maneuver defense: 20 (can't be tripped)
+:::

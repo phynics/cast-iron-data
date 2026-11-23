@@ -21,8 +21,13 @@ caster_level = "12th"
 
 ### Emerald Wedge Ioun Stone
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 32,000 gp; **Weight** —
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 32,000 gp
+Weight: —
+:::
 
 #### Description
 
@@ -35,5 +40,7 @@ about the user's head.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level.;
-**Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 16,000 gp
+:::

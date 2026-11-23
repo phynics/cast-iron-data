@@ -14,7 +14,7 @@ publication = "core-rulebook"
 page = "143"
 [[sources]]
 publication = "ultimate-equipment"
-page = "19"
+page = "25"
 
 [fields]
 kind = "item"
@@ -38,31 +38,51 @@ were a [longbow](ref/eq-weapon/longbow).
 
 ### Composite longbow +0
 
-**Cost** 100 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 110 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Bows
+::: statblock
+Cost: 100 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 110 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Bows](ref/ability/weapon-groups#sec-bows)
+:::
 
 ### Composite longbow +1
 
-**Cost** 200gp
+::: statblock
+Cost: 200gp
+:::
 
 ### Composite longbow +2
 
-**Cost** 300gp
+::: statblock
+Cost: 300gp
+:::
 
 ### Composite longbow +3
 
-**Cost** 400gp
+::: statblock
+Cost: 400gp
+:::
 
 ### Composite longbow +4
 
-**Cost** 500gp
+::: statblock
+Cost: 500gp
+:::
 
 ### Composite longbow +5
 
-**Cost** 600gp
+::: statblock
+Cost: 600gp
+:::
 
 ### Composite longbow +6
 
-**Cost** 700gp
+::: statblock
+Cost: 700gp
+:::

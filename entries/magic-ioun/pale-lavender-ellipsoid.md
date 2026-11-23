@@ -17,12 +17,18 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
 category = "Ioun Stones"
-price = "20,000 gp (pale lavender), 40,000 gp (lavender and green)"
+price = "20,000 gp"
 slot = "none"
 aura = "strong varied"
 caster_level = "12th"
@@ -34,7 +40,7 @@ caster_level = "12th"
 Aura: strong varied
 CL: 12th
 Slot: none
-Price: 20,000 gp (pale lavender), 40,000 gp (lavender and green)
+Price: 20,000 gp
 Weight: —
 :::
 
@@ -56,12 +62,11 @@ action instead of a readied action.
 
 ::: statblock
 Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
-Cost: 10,000 gp (pale lavender), 20,000 gp (lavender and green)
+Cost: 10,000 gp
 :::
 
 ### Flawed Pale Lavender Ellipsoid Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 18,000 gp\
 This stone absorbs spells of 3rd level or lower (as a readied action), which deals 2 hit points of
 damage to the user for each spell level absorbed. After absorbing 20 spell levels, the stone burns
@@ -69,14 +74,12 @@ out and turns dull gray.
 
 ### Cracked Pale Lavender Ellipsoid Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 2,500 gp\
 This stone absorbs spells of 1st level or lower (as a readied action). After absorbing 5 spell
 levels, the stone burns out and turns dull gray.
 
 ### Flawed Lavender and Green Ellipsoid Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 36,000 gp\
 This stone absorbs spells of 6th level or lower (as a readied action), which deals 2 hit points of
 damage to the wearer for each spell level absorbed. After absorbing 50 spell levels, the stone burns
@@ -84,7 +87,6 @@ out and turns dull gray.
 
 ### Cracked Lavender and Green Ellipsoid Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 10,000 gp\
 This stone absorbs spells of 2nd level or lower (as a readied action). After absorbing 10 spell
 levels, the stone burns out and turns dull gray.

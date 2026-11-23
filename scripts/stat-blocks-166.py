@@ -740,6 +740,54 @@ def ioun_seekers_fixes() -> tuple:
 PRINT_FIXES = PRINT_FIXES + ioun_seekers_fixes()
 
 
+# The pale lavender and the lavender and green ellipsoid (hand work, 2026-11-23). The two entries share
+# one body (the Pf Data record held both stones), and each had both prices in its block. Print gives
+# each stone its own price (Core Rulebook p. 521, Ultimate Equipment p. 306: 20,000 gp and 40,000 gp;
+# construction cost is half the market price), and Seekers of Secrets lists the stones in a table on
+# p. 49 (pale lavender) and p. 48 (lavender and green), their cracked variants on p. 47 and their flawed
+# variants on p. 50 (pale lavender) and p. 47 (lavender and green). The body lines cite those lists;
+# the Flawed Pale Lavender line of the lavender and green entry cited p. 48. Each entry keeps its own
+# stone's page first, then the pages its body cites, in the order of the pages. Neither entry is merged.
+BOTH_PRICES = "20,000 gp (pale lavender), 40,000 gp (lavender and green)"
+BOTH_COSTS = "10,000 gp (pale lavender), 20,000 gp (lavender and green)"
+SEEKERS_ROW = 'publication = "seekers-of-secrets"\n'
+
+
+def lavender_fixes() -> tuple:
+    flawed_pale = "### Flawed Pale Lavender Ellipsoid Ioun Stone\n\n**Sources:** Seekers of Secrets pg "
+    fixes = []
+    for slug, row, pages, price, cost, stale_line in (
+        ("lavender-and-green-ellipsoid", "48", ("48", "47", "50"), "40,000 gp", "20,000 gp", "48"),
+        ("pale-lavender-ellipsoid", "47", ("49", "47", "50"), "20,000 gp", "10,000 gp", None),
+    ):
+        new_rows = SEEKERS_ROW + "".join(
+            f'page = "{page}"\n' if i == 0 else f'[[sources]]\n{SEEKERS_ROW}page = "{page}"\n' for i, page in enumerate(pages)
+        )
+        pairs = [
+            (SEEKERS_ROW + f'page = "{row}"\n\n[fields]', new_rows + "\n[fields]"),
+            (f'\nprice = "{BOTH_PRICES}"\n', f'\nprice = "{price}"\n'),
+            (f"\nPrice: {BOTH_PRICES}\n", f"\nPrice: {price}\n"),
+            (f"\nCost: {BOTH_COSTS}\n", f"\nCost: {cost}\n"),
+        ]
+        note = f"rows: the stone is in the table on p. {pages[0]}, its cracked variants on p. 47 and its flawed variants on p. 47 or 50"
+        if stale_line is not None:
+            pairs.append(
+                (
+                    f"{flawed_pale}{stale_line}\\\n",
+                    f"{flawed_pale}50\\\n",
+                    # The same paragraph once rule S has moved the line into a row.
+                    "### Flawed Pale Lavender Ellipsoid Ioun Stone\n\n**Price**",
+                )
+            )
+            note += f"; the Flawed Pale Lavender line cited p. {stale_line}, the list is on p. 50"
+        note += f"; the stone's own price {price} and construction cost {cost} (the block held both stones'), and the `price` field with it"
+        fixes.append((f"entries/magic-ioun/{slug}.md", "Seekers of Secrets pp. 47-50, Core Rulebook p. 521", note, tuple(pairs)))
+    return tuple(fixes)
+
+
+PRINT_FIXES = PRINT_FIXES + lavender_fixes()
+
+
 # Monsters whose body prints a section of the creature on another page than its stat block (print
 # check, 2026-11-23): the row of the stat block stays first, and a row is added for each page the
 # body cites. (path, publication, the row now, the rows after the change, what the pages print).
