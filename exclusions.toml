@@ -57058,6 +57058,14 @@ reason = "duplicate of ref/trap/wall-scythe-trap"
 path = "ref/carried/core-rulebook/rules/environment/sample-traps/wyvern-arrow-trap"
 reason = "duplicate of ref/trap/wyvern-arrow-trap"
 
+[[rejected]]
+path = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
+reason = "duplicate of ref/disease/rabies"
+
+[[rejected]]
+path = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+reason = "duplicate of ref/disease/ghoul-fever"
+
 [[resolved]]
 path = "json/prestige_classes.json#thought_thief_arcane_trickster"
 entries = ["ref/pclass/thought-thief-arcane-trickster"]

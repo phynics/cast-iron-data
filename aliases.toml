@@ -14362,7 +14362,7 @@ basis = "direct"
 
 [[entries]]
 old = "bestiary/monsters/dog/dog/dog/rabies"
-target = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
+target = "ref/disease/rabies"
 basis = "carried"
 
 [[entries]]
@@ -14972,7 +14972,7 @@ basis = "direct"
 
 [[entries]]
 old = "bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
-target = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+target = "ref/disease/ghoul-fever"
 basis = "carried"
 
 [[entries]]
@@ -31518,6 +31518,16 @@ basis = "shared"
 [[entries]]
 old = "ref/carried/advanced-race-guide/races/wayangs"
 target = "ref/race/wayang"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/bestiary/monsters/dog/dog/dog/rabies"
+target = "ref/disease/rabies"
+basis = "shared"
+
+[[entries]]
+old = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
+target = "ref/disease/ghoul-fever"
 basis = "shared"
 
 [[entries]]
