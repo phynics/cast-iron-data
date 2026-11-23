@@ -57204,3 +57204,11 @@ reason = "The Strength domain now ships as `ref/domain/strength`. The converter 
 path = "json/class_ability_domains3.json#trickery"
 entries = ["ref/domain/trickery"]
 reason = "The Trickery domain now ships as `ref/domain/trickery`. The converter rejected it because it failed on the inline `@list` directive and the `::clear` directive; the entry is now written in the corpus format. Refs phynics/cast-iron-data#103."
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/shared-wrath"
+reason = "duplicate of ref/spell/shared-wrath"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
+reason = "duplicate of ref/spell/tireless-pursuers"
