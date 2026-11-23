@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary"
-page = "122"
+page = "122-123"
 
 [fields]
 kind = "creature"
@@ -29,81 +29,66 @@ abilities = ["16", "8", "13", "4", "11", "11"]
 _This hulking, roughly humanoid creature of dirt and stone explodes up from the earth, faceless save
 for two glowing gemstone eyes._
 
-**Small Earth Elemental**
+## Small Earth Elemental {#stat-small}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: -1
+Alignment: Neutral
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 400
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: -1 Dex, +7 natural, +1 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: -1
+Will: +3
+Immune: elemental traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: slam +6 (1d6+4)
+Sp Extra: earth glide
+Spec Att: earth mastery
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** -1 Dex, +7 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** -1
-
-**Will:** +3
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** slam +6 (1d6+4)
-
-**Sp Extra:** earth glide
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 8, Con 13, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Bull Rush^B^, Power Attack
-
-**Skills:** Appraise +1, Climb +7, Knowledge (dungeoneering) +1, Perception +4, Stealth +7
+::: statblock
+Ability scores: Str 16, Dex 8, Con 13, Int 4, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Improved Bull Rush^B^, Power Attack
+Skills: Appraise +1, Climb +7, Knowledge (dungeoneering) +1, Perception +4, Stealth +7
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -142,373 +127,278 @@ that makes up parts of an earth elemental's body.
 
 **Family:** [Elemental](ref/family/elemental)
 
-**Medium Earth Elemental**
+## Medium Earth Elemental {#stat-medium}
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 800
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: -1 Dex, +9 natural
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +0
+Will: +4
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: slam +9 (1d8+7)
+Sp Extra: earth glide
+Spec Att: earth mastery
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 122\
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 800
-
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +9 natural
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +0
-
-**Will:** +4
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** slam +9 (1d8+7)
-
-**Sp Extra:** earth glide
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 8, Con 17, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18
-
-**Feats:** Cleave, Improved Bull Rush^B^, Power Attack
-
-**Skills:** Appraise +1, Climb +10, Knowledge (dungeoneering) +2, Perception +7, Stealth +3
+::: statblock
+Ability scores: Str 20, Dex 8, Con 17, Int 4, Wis 11, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 18
+Feats: Cleave, Improved Bull Rush^B^, Power Attack
+Skills: Appraise +1, Climb +10, Knowledge (dungeoneering) +2, Perception +7, Stealth +3
+:::
 
 ###### B {#footnote-b-2}
 
 Bonus feat.
 
-**Large Earth Elemental**
+## Large Earth Elemental {#stat-large}
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: -1
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 1,600
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +1
+Will: +6
+Dr: 5/-
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: 2 slams +14 (2d6+7)
+Reach: 10
+Sp Extra: earth glide
+Space: 10
+Spec Att: earth mastery
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 122\
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +1
-
-**Will:** +6
-
-**Dr:** 5/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** 2 slams +14 (2d6+7)
-
-**Reach:** 10
-
-**Sp Extra:** earth glide
-
-**Space:** 10
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 8, Con 17, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 25
-
-**Feats:** Cleave, Greater Bull Rush, Improved Bull Rush^B^, Improved Overrun, Power Attack
-
-**Skills:** Appraise +6, Climb +15, Knowledge (dungeoneering) +3, Perception +11, Stealth +5
+::: statblock
+Ability scores: Str 24, Dex 8, Con 17, Int 6, Wis 11, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 25
+Feats: Cleave, Greater Bull Rush, Improved Bull Rush^B^, Improved Overrun, Power Attack
+Skills: Appraise +6, Climb +15, Knowledge (dungeoneering) +3, Perception +11, Stealth +5
+:::
 
 ###### B {#footnote-b-3}
 
 Bonus feat.
 
-**Huge Earth Elemental**
+## Huge Earth Elemental {#stat-huge}
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +2
+Will: +7
+Dr: 5/-
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: 2 slams +17 (2d8+9)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: earth mastery
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 122\
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +2
-
-**Will:** +7
-
-**Dr:** 5/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** 2 slams +17 (2d8+9)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 8, Con 19, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 30
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush^B^, Improved Overrun, Power
-Attack
-
-**Skills:** Appraise +6, Climb +18, Knowledge (dungeoneering) +4, Perception +13, Stealth +4
+::: statblock
+Ability scores: Str 28, Dex 8, Con 19, Int 6, Wis 11, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +21
+Combat maneuver defense: 30
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush^B^, Improved Overrun, Power Attack
+Skills: Appraise +6, Climb +18, Knowledge (dungeoneering) +4, Perception +13, Stealth +4
+:::
 
 ###### B {#footnote-b-4}
 
 Bonus feat.
 
-**Greater Earth Elemental**
+## Greater Earth Elemental {#stat-greater}
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 21
+AC modifiers: -1 Dex, +14 natural, -2 size
+Hit points: 136 (13d10+65)
+Fort: +13
+Ref: +3
+Will: +8
+Dr: 10/-
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: 2 slams +21 (2d10+10)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: earth mastery
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 123\
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 6,400
-
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +14 natural, -2 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +3
-
-**Will:** +8
-
-**Dr:** 10/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** 2 slams +21 (2d10+10)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 8, Con 21, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 34
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush^B^, Improved
-Overrun, Improved Sunder, Power Attack
-
-**Skills:** Appraise +10, Climb +25, Knowledge (dungeoneering) +10, Perception +16, Stealth +7
+::: statblock
+Ability scores: Str 30, Dex 8, Con 21, Int 8, Wis 11, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +25
+Combat maneuver defense: 34
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush^B^, Improved Overrun, Improved Sunder, Power Attack
+Skills: Appraise +10, Climb +25, Knowledge (dungeoneering) +10, Perception +16, Stealth +7
+:::
 
 ###### B {#footnote-b-5}
 
 Bonus feat.
 
-**Elder Earth Elemental**
+## Elder Earth Elemental {#stat-elder}
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 23
+Touch: 7
+Flat-footed: 23
+AC modifiers: -1 Dex, +16 natural, -2 size
+Hit points: 168 (16d10+80)
+Fort: +15
+Ref: +4
+Will: +10
+Dr: 10/-
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: 2 slams +26 (2d10+12/19-20)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: earth mastery
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 123\
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 60
-
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 7
-
-**Flat-footed:** 23
-
-**AC modifiers:** -1 Dex, +16 natural, -2 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +15
-
-**Ref:** +4
-
-**Will:** +10
-
-**Dr:** 10/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** 2 slams +26 (2d10+12/19-20)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** earth mastery
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 8, Con 21, Int 10, Wis 11, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 39
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush^B^, Improved
-Critical (slam), Improved Overrun, Improved Sunder, Power Attack
-
-**Skills:** Appraise +19, Climb +31, Knowledge (dungeoneering) +19, Perception +19, Stealth +10
+::: statblock
+Ability scores: Str 34, Dex 8, Con 21, Int 10, Wis 11, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +30
+Combat maneuver defense: 39
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush^B^, Improved Critical (slam), Improved Overrun, Improved Sunder, Power Attack
+Skills: Appraise +19, Climb +31, Knowledge (dungeoneering) +19, Perception +19, Stealth +10
+:::
 
 ###### B {#footnote-b-6}
 

@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary-2"
-page = "118"
+page = "118-119"
 
 [fields]
 kind = "creature"
@@ -30,81 +30,64 @@ abilities = ["10", "8", "11", "4", "11", "11"]
 _This rocky monster glows with an internal heat. Red light spills from its eyes and mouth, as well
 as fractures in its outer surface._
 
-**Small Magma Elemental**
+## Small Magma Elemental {#stat-small}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Alignment: Neutral
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: -1 Dex, +5 natural, +1 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +2
+Will: +0
+Immune: fire, elemental traits
+Vulner: cold
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 1d4, DC 9
+Melee: slam +3 (1d3 plus burn)
+Sp Extra: earth glide
+Spec Att: lava puddle
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 8, Con 11, Int 4, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 10
+Feats: Improved Initiative
+Skills: Knowledge (dungeoneering) +2, Perception +5, Stealth +8
+Special qualities: earth glide
+:::
 
-**Subtype:** Earth, Elemental, Extraplanar, Fire
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +5 natural, +1 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 1d4, DC 9
-
-**Melee:** slam +3 (1d3 plus burn)
-
-**Sp Extra:** earth glide
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 8, Con 11, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 10
-
-**Feats:** Improved Initiative
-
-**Skills:** Knowledge (dungeoneering) +2, Perception +5, Stealth +8
-
-**Special qualities:** earth glide
-
-**Ecology**
-
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -137,373 +120,269 @@ feral or bestial appearance.
 
 **Family:** [Elemental](ref/family/elemental)
 
-**Medium Magma Elemental**
-
-**Challenge rating:** 3
-
-**Initiative:** +3
-
-**Size:** medium
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +7
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 118\
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** -1 Dex, +7 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 1d4, DC 12
-
-**Melee:** slam +6 (1d6+3 plus burn)
-
-**Sp Extra:** earth glide
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 8, Con 15, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Knowledge (dungeoneering) +4, Perception +7, Stealth +6
-
-**Special qualities:** earth glide
-
-**Large Magma Elemental**
-
-**Challenge rating:** 5
-
-**Initiative:** +3
-
-**Size:** large
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +11
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 118\
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 8
-
-**Flat-footed:** 16
-
-**AC modifiers:** -1 Dex, +8 natural, -1 size
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 5/-
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 1d6, DC 14
-
-**Melee:** 2 slams +11 (1d8+4 plus burn)
-
-**Reach:** 10
-
-**Sp Extra:** earth glide
-
-**Space:** 10
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 8, Con 15, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 22
-
-**Feats:** Cleave, Improved Bull Rush, Improved Initiative, Power Attack
-
-**Skills:** Climb +15, Knowledge (dungeoneering) +9, Perception +11, Stealth +6
-
-**Special qualities:** earth glide
-
-**Huge Magma Elemental**
-
-**Challenge rating:** 7
-
-**Size:** huge
-
-**Initiative:** +3
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 118\
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**Experience points:** 3,200
-
-**Armor class:** 17
-
-**Touch:** 7
-
-**Flat-footed:** 17
-
-**AC modifiers:** -1 Dex, +10 natural, -2 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +3
-
-**Dr:** 5/-
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 1d8, DC 16
-
-**Melee:** 2 slams +14 (2d6+6 plus burn)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 8, Con 17, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Greater Bull Rush, Improved Bull Rush, Improved Initiative, Power Attack
-
-**Skills:** Climb +19, Knowledge (dungeoneering) +11, Perception +13, Stealth +4
-
-**Special qualities:** earth glide
-
-**Greater Magma Elemental**
-
-**Challenge rating:** 9
-
-**Size:** huge
-
-**Initiative:** +3
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +16
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 119\
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**Experience points:** 6,400
-
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +4
-
-**Dr:** 10/-
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 2d6, DC 18
-
-**Melee:** 2 slams +18 (2d8+7 plus burn)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 8, Con 19, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 31
-
-**Feats:** Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Initiative,
-Improved Overrun, Power Attack
-
-**Skills:** Climb +23, Intimidate +16, Knowledge (dungeoneering) +15, Perception +16, Stealth +7
-
-**Special qualities:** earth glide
-
-**Elder Magma Elemental**
-
-**Challenge rating:** 11
-
-**Size:** huge
-
-**Initiative:** +3
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +19
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 119\
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 7
-
-**Flat-footed:** 25
-
-**AC modifiers:** -1 Dex, +18 natural, -2 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +5
-
-**Dr:** 10/-
-
-**Immune:** fire, elemental traits
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Burn:** 3d6, DC 20
-
-**Melee:** 2 slams +22 (3d6+8 plus burn)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** lava puddle
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 8, Con 19, Int 10, Wis 11, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 35
-
-**Feats:** Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Initiative,
-Improved Overrun, Power Attack, Vital Strike
-
-**Skills:** Climb +27, Intimidate +19, Knowledge (dungeoneering) +19, Perception +19, Stealth +10
-
-**Special qualities:** earth glide
+## Medium Magma Elemental {#stat-medium}
+
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: -1 Dex, +7 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +3
+Will: +1
+Immune: fire, elemental traits
+Vulner: cold
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 1d4, DC 12
+Melee: slam +6 (1d6+3 plus burn)
+Sp Extra: earth glide
+Spec Att: lava puddle
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 14, Dex 8, Con 15, Int 4, Wis 11, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Improved Initiative, Power Attack
+Skills: Knowledge (dungeoneering) +4, Perception +7, Stealth +6
+Special qualities: earth glide
+:::
+
+## Large Magma Elemental {#stat-large}
+
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 1,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 16
+Touch: 8
+Flat-footed: 16
+AC modifiers: -1 Dex, +8 natural, -1 size
+Hit points: 60 (8d10+16)
+Fort: +8
+Ref: +5
+Will: +2
+Dr: 5/-
+Immune: fire, elemental traits
+Vulner: cold
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 1d6, DC 14
+Melee: 2 slams +11 (1d8+4 plus burn)
+Reach: 10
+Sp Extra: earth glide
+Space: 10
+Spec Att: lava puddle
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 18, Dex 8, Con 15, Int 6, Wis 11, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 22
+Feats: Cleave, Improved Bull Rush, Improved Initiative, Power Attack
+Skills: Climb +15, Knowledge (dungeoneering) +9, Perception +11, Stealth +6
+Special qualities: earth glide
+:::
+
+## Huge Magma Elemental {#stat-huge}
+
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 3,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 17
+Touch: 7
+Flat-footed: 17
+AC modifiers: -1 Dex, +10 natural, -2 size
+Hit points: 85 (10d10+30)
+Fort: +10
+Ref: +6
+Will: +3
+Dr: 5/-
+Immune: fire, elemental traits
+Vulner: cold
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 1d8, DC 16
+Melee: 2 slams +14 (2d6+6 plus burn)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: lava puddle
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 22, Dex 8, Con 17, Int 6, Wis 11, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 27
+Feats: Cleave, Greater Bull Rush, Improved Bull Rush, Improved Initiative, Power Attack
+Skills: Climb +19, Knowledge (dungeoneering) +11, Perception +13, Stealth +4
+Special qualities: earth glide
+:::
+
+## Greater Magma Elemental {#stat-greater}
+
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 6,400
+:::
+
+### Defense
+
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +7
+Will: +4
+Dr: 10/-
+Immune: fire, elemental traits
+Vulner: cold
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 2d6, DC 18
+Melee: 2 slams +18 (2d8+7 plus burn)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: lava puddle
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 24, Dex 8, Con 19, Int 8, Wis 11, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 31
+Feats: Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Initiative, Improved Overrun, Power Attack
+Skills: Climb +23, Intimidate +16, Knowledge (dungeoneering) +15, Perception +16, Stealth +7
+Special qualities: earth glide
+:::
+
+## Elder Magma Elemental {#stat-elder}
+
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+Experience points: 12,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 25
+Touch: 7
+Flat-footed: 25
+AC modifiers: -1 Dex, +18 natural, -2 size
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +9
+Will: +5
+Dr: 10/-
+Immune: fire, elemental traits
+Vulner: cold
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Burn: 3d6, DC 20
+Melee: 2 slams +22 (3d6+8 plus burn)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: lava puddle
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 26, Dex 8, Con 19, Int 10, Wis 11, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +26
+Combat maneuver defense: 35
+Feats: Cleave, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Initiative, Improved Overrun, Power Attack, Vital Strike
+Skills: Climb +27, Intimidate +19, Knowledge (dungeoneering) +19, Perception +19, Stealth +10
+Special qualities: earth glide
+:::
