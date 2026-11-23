@@ -189,8 +189,9 @@ I6  Sentences. The block ends before the first line of the lead whose value read
     be the first of its line, or the file is queued. Each entry whose block ends this way is
     listed in the TSV as `block-ended-at-sentences`, with the first kept label.
 I7  A paragraph that opens with a `**Label:**` (`**Benefit:**`, `**Note:**`, a set piece link)
-    is prose and stays. A colon label inside the lead queues the file, as does a `**Sources:**`
-    line inside the lead.
+    is prose and stays (the colon of a set piece link sits inside the link: `**[Boots of the Cat:](…)**`;
+    such an entry has no statistics and is left alone). A colon label inside the lead queues the
+    file, as does a `**Sources:**` line inside the lead.
 I8  Construction. The paragraph directly under the first `### Construction` heading, when it is
     a statistics paragraph and comes after the lead, becomes an untitled stat block under the
     heading, which stays. Its rows are the printed ones: `Requirements` and `Cost` in most
@@ -717,11 +718,13 @@ def ioun_seekers_fixes() -> tuple:
     fixes = []
     for slug, row, own, cracked, flawed, flawed_line in IOUN_SEEKERS:
         pages = [own] + [page for page in (cracked, flawed) if page != own]
-        if len(pages) > 1 and pages[-1] == row:
-            pages[1:] = pages[:0:-1]  # the fix must not end in the text it replaces: the last row is not the old page
         head = 'publication = "seekers-of-secrets"\n'
         new_rows = head + "".join(f'page = "{page}"\n' if i == 0 else f'[[sources]]\n{head}page = "{page}"\n' for i, page in enumerate(pages))
-        pairs = [(head + f'page = "{row}"\n\n[fields]', new_rows + "\n[fields]")]
+        # The rows are in print order: the stone's page, then the cracked list, then the flawed list. When the
+        # last of them is the page the row held (clear spindle, dusty rose prism, deep red sphere: 47), the new
+        # text ends in the old text, so the pair starts at the row before it to tell the two states apart.
+        before = 'publication = "ultimate-equipment"\npage = "305"\n[[sources]]\n' if len(pages) > 1 and pages[-1] == row else ""
+        pairs = [(before + head + f'page = "{row}"\n\n[fields]', before + new_rows + "\n[fields]")]
         note = f"rows: the stone prints on p. {own}, its cracked variant on p. {cracked} and its flawed variant on p. {flawed} (the row said {row})"
         if flawed_line is not None:
             pairs.append(
@@ -819,6 +822,30 @@ def extra_page_row_fixes() -> tuple:
 
 
 PRINT_FIXES = PRINT_FIXES + extra_page_row_fixes()
+
+
+# Hand work, slice 2 (2026-11-23): two lines whose words differ from print.
+PRINT_FIXES = PRINT_FIXES + (
+    (
+        "entries/monster/goblin-goblin-vulture-pilot.md",
+        "Monster Codex p. 109",
+        "Combat Gear and Other Gear rows: `potions of barkskin (2)` and `mwk mithral chain shirt` as printed; the import wrote the count first (`2 potion of barkskin`), left the other counts the same way, and ran `mwk mithral` and `sunrods (2)` into `MM` and `srs`",
+        (
+            (
+                "Combat gear: 2 potion of barkskin, 2 potion of cure light wounds, 2 acid, 2 alchemist's fire, 2 tanglefoot bags\n"
+                "Other gear: mwk MM chain shirt, dagger, 2 srs, 293 gp\n",
+                "Combat gear: potions of barkskin (2), potions of cure light wounds (2), acid (2), alchemist's fire (2), tanglefoot bags (2)\n"
+                "Other gear: mwk mithral chain shirt, dagger, sunrods (2), 293 gp\n",
+            ),
+        ),
+    ),
+    (
+        "entries/npc/mammoth-rider.md",
+        "Inner Sea NPC Codex p. 36",
+        "Mammoth Steed Senses: `Perception +15` is part of the value (print does not set it as a label), so it is no `Perception` row",
+        (("scent; **Perception** +15\n", "scent; Perception +15\n"),),
+    ),
+)
 
 
 # Parts of an entry left as the corpus had them until a print source turns up (owner ruling 13 of
@@ -1619,6 +1646,7 @@ ANCHOR_EDITS = (
 CONSTRUCTION_HEADING = "### Construction"
 ITEM_STAT_START = re.compile(r"\*\*(?!\*)(?:\[[^\]]+\]\([^)]+\))?[^*:\[\]]*\*\* ?\S")
 ITEM_LABEL = re.compile(r"\*\*((?:\[[^\]]+\]\([^)]+\))?[^*]*)\*\*")
+SET_PIECE_LABEL = re.compile(r"\*\*\[[^\]]*:\]\([^)]+\)\*\*")  # I7: a colon label whose colon sits inside its link
 # I6: a value that reads as sentences. A lowercase word of three letters or more that ends a
 # sentence, with another sentence after it or at the end of a value of eight words or more.
 UNIT_WORDS = "lbs|lb|ft|oz|gp|sp|cp|pp|min|max|rd|hrs|sec"
@@ -1632,8 +1660,13 @@ def is_sentences(value: str) -> bool:
 
 def is_stat_paragraph(chunk: list[str]) -> bool:
     """A paragraph that opens with a bold label and a value: `**Price** 15 gp; **Weight** 4 lbs.`.
-    A `**Label:**` paragraph and a bold line alone (a variant's name) are not."""
-    return bool(ITEM_STAT_START.match(chunk[0])) and not chunk[0].startswith("**Sources:**")
+    A `**Label:**` paragraph and a bold line alone (a variant's name) are not, and neither is a
+    set piece line, whose linked label carries the colon inside the link (`**[Boots of the Cat:](…)**`)."""
+    return (
+        bool(ITEM_STAT_START.match(chunk[0]))
+        and not chunk[0].startswith("**Sources:**")
+        and not SET_PIECE_LABEL.match(chunk[0])
+    )
 
 
 def item_layout(body: str) -> tuple[list[list[str]], int | None, int | None]:
@@ -3731,6 +3764,11 @@ class ItemSelfTest(unittest.TestCase):
         self.assertEqual(plan_file(FRONT + ITEM_SAMPLE, "item")[0], "skipped")
         self.assertEqual(item_leftovers(ITEM_SAMPLE), ["Tear-away klar", "Cost"])
         self.assertEqual(item_leftovers(ITEM_EXPECTED), ["Tear-away klar", "Cost"])
+
+    def test_a_set_piece_line_is_prose(self):
+        set_piece = "\nA set.\n\n**[Boots of the Cat:](ref/magic-wondrous/boots-of-the-cat)** For each piece you wear, jump more.\n"
+        self.assertEqual(plan_file(ITEM_FRONT + set_piece, "item")[0], "no-statistics")
+        self.assertEqual(item_leftovers(set_piece), [])
 
     def test_an_item_without_a_lead_is_left_alone(self):
         prose = "\nA metal.\n\n**Note:** No statistics.\n\n|A|B|\n| --- | --- |\n|1|2|\n"

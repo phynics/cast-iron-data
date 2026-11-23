@@ -15,66 +15,70 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
+## Uskwood Druid {#stat-uskwood-druid}
 
-**XP** 9,600\
 Elf [druid](ref/class/druid) of [Zon-Kuthon](ref/faith/zon-kuthon) 11\
-NE Medium humanoid (elf)\
-**Init** +2; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +20
+NE Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +20
+:::
 
 ### Defense
 
-**AC** 22, touch 14, flat-footed 19 (+6 armor, +1 deflection, +2 Dex, +1 dodge, +2 shield)\
-**hp** 86 (11d8+33)\
-**Fort** +10, **Ref** +7, **Will** +13; +2 vs. enchantment, +4 vs. fey and plant-targeted effects\
-**Immune** poison, sleep
+::: statblock
+AC: 22, touch 14, flat-footed 19 (+6 armor, +1 deflection, +2 Dex, +1 dodge, +2 shield)
+hp: 86 (11d8+33)
+Fort: +10
+Ref: +7
+Will: +13; +2 vs. enchantment, +4 vs. fey and plant-targeted effects
+Immune: poison, sleep
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 scimitar +11/+6 (1d6+3/18-20)\
-**Ranged** +1 composite longbow +11/+6 (1d8+3/×3)\
-**Special Attacks** wild shape 4/day\
-**Druid Spells Prepared** (CL 11th; concentration +15)\
-_6th_-[transport via plants](ref/spell/transport-via-plants)\
-_5th_-[phantasmal killer](ref/spell/phantasmal-killer) (DC 15),
-[wall of thorns](ref/spell/wall-of-thorns)\
-_4th_-[displacement](ref/spell/displacement), [freedom of movement](ref/spell/freedom-of-movement),
-[ice storm](ref/spell/ice-storm), [spike stones](ref/spell/spike-stones) (DC 14)\
-_3rd_-[cure moderate wounds](ref/spell/cure-moderate-wounds), [ghoul touch](ref/spell/ghoul-touch)
-(DC 13), [greater magic fang](ref/spell/magic-fang-greater), [poison](ref/spell/poison) (DC 13),
-[sleet storm](ref/spell/sleet-storm)\
-_2nd_-[barkskin](ref/spell/barkskin) (2), [bear's endurance](ref/spell/bears-endurance),
-[chill touch](ref/spell/chill-touch) (DC 12), [resist energy](ref/spell/resist-energy)\
-_1st_-[cure light wounds](ref/spell/cure-light-wounds), [entangle](ref/spell/entangle) (DC 11),
-[longstrider](ref/spell/longstrider), [obscuring mist](ref/spell/obscuring-mist),
-[speak with animals](ref/spell/speak-with-animals)\
-_0 (at will)_-[detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance),
-[purify food and drink](ref/spell/purify-food-and-drink), [ray of frost](ref/spell/ray-of-frost)
+::: statblock
+Speed: 20 ft.
+Melee: +1 scimitar +11/+6 (1d6+3/18-20)
+Ranged: +1 composite longbow +11/+6 (1d8+3/×3)
+Special Attacks: wild shape 4/day
+:::
+
+::: statblock
+title = "Druid Spells Prepared"
+Caster level: 11th
+Concentration: +15
+6th: [transport via plants](ref/spell/transport-via-plants)
+5th: [phantasmal killer](ref/spell/phantasmal-killer) (DC 15), [wall of thorns](ref/spell/wall-of-thorns)
+4th: [displacement](ref/spell/displacement), [freedom of movement](ref/spell/freedom-of-movement), [ice storm](ref/spell/ice-storm), [spike stones](ref/spell/spike-stones) (DC 14)
+3rd: [cure moderate wounds](ref/spell/cure-moderate-wounds), [ghoul touch](ref/spell/ghoul-touch) (DC 13), [greater magic fang](ref/spell/magic-fang-greater), [poison](ref/spell/poison) (DC 13), [sleet storm](ref/spell/sleet-storm)
+2nd: [barkskin](ref/spell/barkskin) (2), [bear's endurance](ref/spell/bears-endurance), [chill touch](ref/spell/chill-touch) (DC 12), [resist energy](ref/spell/resist-energy)
+1st: [cure light wounds](ref/spell/cure-light-wounds), [entangle](ref/spell/entangle) (DC 11), [longstrider](ref/spell/longstrider), [obscuring mist](ref/spell/obscuring-mist), [speak with animals](ref/spell/speak-with-animals)
+0 (at will): [detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance), [purify food and drink](ref/spell/purify-food-and-drink), [ray of frost](ref/spell/ray-of-frost)
+:::
 
 ### Statistics
 
-**Str** 14, **Dex** 14, **Con** 12, **Int** 10, **Wis** 18, **Cha** 10\
-**Base Atk** +8; **CMB** +10; **CMD** 24\
-**Feats** [Augment Summoning](ref/feat/augment-summoning), [Dodge](ref/feat/dodge),
-[Natural Spell](ref/feat/natural-spell), [Shade of the Uskwood](ref/feat/shade-of-the-uskwood),
-[Spell Focus](ref/feat/spell-focus) (conjuration), [Toughness](ref/feat/toughness)\
-**Skills** Knowledge (nature) +16, Perception +20, Spellcraft +14 (+16 to identify magic item
-properties), Survival +20; Racial Modifiers +2 Perception, +2 Spellcraft to identify magic item
-properties\
-**Languages** Druidic, Elven, Shadowtongue, Sylvan\
-**SQ** elven magic, nature bond (animal companion), nature sense, trackless step, weapon
-familiarity, [wild empathy](ref/ability/wild-empathy) +11,
-[woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** scroll of [cure serious wounds](ref/spell/cure-serious-wounds); **Other Gear**
-[ironwood](ref/spell/ironwood) [breastplate](ref/eq-armor/breastplate), +1
-[light wooden shield](ref/eq-armor/light-wooden-shield), +1 [scimitar](ref/eq-weapon/scimitar), +1
-[composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows,
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[spell component pouch](ref/eq-misc/spell-component-pouch), Umbrae-Token (acts as a
-[wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) that radiates faint necromancy magic)
+::: statblock
+Str: 14
+Dex: 14
+Con: 12
+Int: 10
+Wis: 18
+Cha: 10
+Base Atk: +8
+CMB: +10
+CMD: 24
+Feats: [Augment Summoning](ref/feat/augment-summoning), [Dodge](ref/feat/dodge), [Natural Spell](ref/feat/natural-spell), [Shade of the Uskwood](ref/feat/shade-of-the-uskwood), [Spell Focus](ref/feat/spell-focus) (conjuration), [Toughness](ref/feat/toughness)
+Skills: Knowledge (nature) +16, Perception +20, Spellcraft +14 (+16 to identify magic item properties), Survival +20; Racial Modifiers +2 Perception, +2 Spellcraft to identify magic item properties
+Languages: Druidic, Elven, Shadowtongue, Sylvan
+SQ: elven magic, nature bond (animal companion), nature sense, trackless step, weapon familiarity, [wild empathy](ref/ability/wild-empathy) +11, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: scroll of [cure serious wounds](ref/spell/cure-serious-wounds)
+Other Gear: [ironwood](ref/spell/ironwood) [breastplate](ref/eq-armor/breastplate), +1 [light wooden shield](ref/eq-armor/light-wooden-shield), +1 [scimitar](ref/eq-weapon/scimitar), +1 [composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows, [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [spell component pouch](ref/eq-misc/spell-component-pouch), Umbrae-Token (acts as a [wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) that radiates faint necromancy magic)
+:::
 
 ### Special Abilities
 
@@ -139,44 +143,62 @@ from making use of flames that might set the forest ablaze. Even the light that 
 forest is blasphemy to an Uskwood druid, and kindling a campfire within its reaches invites certain
 death.
 
-> ### Dire Bat Companion
->
-> This Uskwood druid's animal companion is an immense, coal-black dire bat that sometimes carries
-> the druid as a rider to scout stretches of the Uskwood from the air. The creature is carnivorous
-> and vicious, and the druid has taught it to leave the gore on its body after it fights or feasts.
->
-> This dire bat resembles most predators of the Uskwood: cruel, feral, and unnerving. There's no
-> clear division between predator and prey in the forest. Even the smallest creatures, such as
-> centipedes, insects, and arachnids, tend to be venomous, and the largest predators might be
-> brought down by a group of other vicious beasts. Only the Uskwood druids and their magic can
-> control these monsters. The albinos torture and retrain potential animal companions until they're
-> broken in rather than attempting to entice them into service or befriending them.
->
-> ### Dire Bat Animal Companion
->
-> N Large animal\
-> **Init** +4; **Senses** [blindsense](ref/rule/blindsight-and-blindsense) 40 ft.; Perception +13
+### Dire Bat Companion
+
+This Uskwood druid's animal companion is an immense, coal-black dire bat that sometimes carries the
+druid as a rider to scout stretches of the Uskwood from the air. The creature is carnivorous and
+vicious, and the druid has taught it to leave the gore on its body after it fights or feasts.
+
+This dire bat resembles most predators of the Uskwood: cruel, feral, and unnerving. There's no clear
+division between predator and prey in the forest. Even the smallest creatures, such as centipedes,
+insects, and arachnids, tend to be venomous, and the largest predators might be brought down by a
+group of other vicious beasts. Only the Uskwood druids and their magic can control these monsters.
+The albinos torture and retrain potential animal companions until they're broken in rather than
+attempting to entice them into service or befriending them.
+
+## Dire Bat Animal Companion {#stat-dire-bat-animal-companion}
+
+N Large animal
+
+::: statblock
+Challenge rating: -
+Init: +4
+Senses: [blindsense](ref/rule/blindsight-and-blindsense) 40 ft.; Perception +13
+:::
 
 ### Defense
 
-> **AC** 22, touch 13, flat-footed 18 (+4 Dex, +9 natural, -1 size)\
-> **hp** 67 (9d8+27)\
-> **Fort** +8, **Ref** +10, **Will** +5 (+4 vs. enchantment)\
-> **Defensive Abilities** devotion, [evasion](ref/ability/evasion)
+::: statblock
+AC: 22, touch 13, flat-footed 18 (+4 Dex, +9 natural, -1 size)
+hp: 67 (9d8+27)
+Fort: +8
+Ref: +10
+Will: +5 (+4 vs. enchantment)
+Defensive Abilities: devotion, [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-> **Speed** 20 ft., fly 40 ft. (good)\
-> **Melee** bite +11/+6 (2d6+7)\
-> **Space** 10 ft.; **Reach** 5 ft.
+::: statblock
+Speed: 20 ft., fly 40 ft. (good)
+Melee: bite +11/+6 (2d6+7)
+Space: 10 ft.
+Reach: 5 ft.
+:::
 
 ### Statistics
 
-> **Str** 21, **Dex** 18, **Con** 14, **Int** 2, **Wis** 14, **Cha** 6\
-> **Base Atk** +6; **CMB** +12; **CMD** 26\
-> **Feats** [Improved Natural Attack](ref/feat/improved-natural-attack) (bite),
-> [Power Attack](ref/feat/power-attack), Toughness, [Vital Strike](ref/feat/vital-strike),
-> [Weapon Focus](ref/feat/weapon-focus) (bite)\
-> **Skills** Fly +10, Perception +13\
-> **SQ** link, share spells, tricks (attack \[any\], come, defend, down, fetch, guard, seek, stay,
-> work)
+::: statblock
+Str: 21
+Dex: 18
+Con: 14
+Int: 2
+Wis: 14
+Cha: 6
+Base Atk: +6
+CMB: +12
+CMD: 26
+Feats: [Improved Natural Attack](ref/feat/improved-natural-attack) (bite), [Power Attack](ref/feat/power-attack), Toughness, [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bite)
+Skills: Fly +10, Perception +13
+SQ: link, share spells, tricks (attack \[any\], come, defend, down, fetch, guard, seek, stay, work)
+:::

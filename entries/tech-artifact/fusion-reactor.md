@@ -15,9 +15,14 @@ kind = "item"
 category = "Technological Artifacts"
 +++
 
-**Yield** 500; **Fort** +10; **[Hardness](ref/umr/hardness)** 10; **HP** 1,800; **Explosion** 10d6
-bludgeoning and 10d6 fire and 10d6 electricity (100-ft. radius; Reflex DC 20 half); **Perception
-Penalty** -10
+::: statblock
+Yield: 500
+Fort: +10
+Hardness: [10](ref/umr/hardness)
+HP: 1,800
+Explosion: 10d6 bludgeoning and 10d6 fire and 10d6 electricity (100-ft. radius; Reflex DC 20 half)
+Perception Penalty: -10
+:::
 
 Although fusion reactors are superficially similar to
 [fission reactors](ref/tech-artifact/fission-reactor), the fact that their source of fuel is little
