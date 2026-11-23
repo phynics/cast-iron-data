@@ -22,7 +22,7 @@ hp = "610~33d10+429"
 fortitude = "+23"
 reflex = "+30"
 will = "+24"
-melee = "+4 earth-outsider-bane ~EFB longsword +44/+39/+34/+29 (2d6+14 plus 1d6 fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2 claws +37 (1d8+5 plus 1d10 fire plus trip)"
+melee = "+4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6 fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2 claws +37 (1d8+5 plus 1d10 fire plus trip)"
 special_attacks = "limitless fire 3/day~scorching rend"
 special_qualities = "change shape (any fire elemental; elemental body IV), elemental realm, fire tyrant, pyroportation"
 abilities = ["30", "35", "34", "26", "23", "31"]
@@ -80,9 +80,9 @@ fire, petrification
 
 **Speed:** 50 ft., fly 100 ft. (average)
 
-**Melee:** +4 earth-outsider-bane , EFB longsword +44/+39/+34/+29 (2d6+14 plus 1d6 fire/17-20), 3 +4
-earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2 claws +37 (1d8+5
-plus 1d10 fire plus trip)
+**Melee:** +4 earth-outsider-bane flaming burst longsword +44/+39/+34/+29 (2d6+14 plus 1d6
+fire/17-20), 3 +4 earth-outsider-bane flaming burst longswords +40 (2d6+9 plus 1d6 fire/17-20), 2
+claws +37 (1d8+5 plus 1d10 fire plus trip)
 
 **Reach:** 10
 
