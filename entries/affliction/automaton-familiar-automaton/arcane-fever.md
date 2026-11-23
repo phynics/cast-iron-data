@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "construct-handbook"
+page = "24"
 
 [fields]
 kind = "none"

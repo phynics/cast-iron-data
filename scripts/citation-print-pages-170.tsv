@@ -2461,6 +2461,7 @@ ref/affliction/ant-giant-ant/poison-ex	bestiary	16	print
 ref/affliction/ant-knight-ant/poison-ex	bestiary-5	27	print	
 ref/affliction/ant-megapon-ant/poison-ex	bestiary-5	27	print	
 ref/affliction/apocalypse-locust-mythic/sting-ex	bestiary-4	12	print	
+ref/affliction/automaton-familiar-automaton/arcane-fever	construct-handbook	24	print		the disease line (Arcane fever) is printed in the special abilities of the automaton familiar on this page (the proposal 24 was a coarse page)
 ref/affliction/basidirond/basidirond-spores	bestiary	28	print	
 ref/affliction/botfly-botfly-swarm/botfly-larvae	heart-of-the-jungle	59	print	
 ref/affliction/botfly-giant-botfly/giant-botfly-larvae	heart-of-the-jungle	59	print	
@@ -2479,6 +2480,7 @@ ref/affliction/dorvae/dorvae-poison-su	bestiary-4	62	print
 ref/affliction/duneshaker/duneshaker-poison	bestiary-6	256	print	
 ref/affliction/embalming-bear/potent-embalming-fluid	tears-at-bitter-manor	60	print	
 ref/affliction/empusa/lash-venom	planar-adventures	232	print	
+ref/affliction/energized/miasma	construct-handbook	38	print		the poison is printed in the energized template's Caustic Mist ability on this page
 ref/affliction/fafnheir/curse-of-fafnheir	lands-of-the-linnorm-kings	56	print	
 ref/affliction/festrog/necrotic-boils	bestiary-3	115	print	
 ref/affliction/fungal-creature/fungal-blood-or-flesh	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
@@ -2490,6 +2492,7 @@ ref/affliction/ghoul-leng-ghoul/leng-ghoul-fever	bestiary-5	120	print
 ref/affliction/giant-ash-giant/ash-leprosy	bestiary-3	126	print	
 ref/affliction/giant-plague-giant/atrophic-plague	bestiary-6	134	print	
 ref/affliction/golem-gold-golem/prismatic-poison	bestiary-6	140	print		the poison is the Poison row of the gold golem's prismatic ray table on this page (the proposal 140 was a coarse page)
+ref/affliction/golem-inubrix-golem/abysium-residue	construct-handbook	45	print		proposal 44, print 45: the Abysium Residue line is under the Inubrix golem entry on this page
 ref/affliction/golem-lead-golem/poison-cloud	bestiary-5	127	print	
 ref/affliction/golem-viridium-golem/viridium-leprosy	bestiary-6	143	print	
 ref/affliction/gravebound/false-death	bestiary-5	128	print	
