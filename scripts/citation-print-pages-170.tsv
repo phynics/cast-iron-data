@@ -2725,16 +2725,16 @@ ref/invtalent/item-lore	advanced-class-guide	33	print		proposal 32, print 33: he
 ref/invtalent/perceptive-tracking	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/prolonged-study	advanced-class-origins	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
 ref/invtalent/quick-study	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
-ref/invtalent/repositioning-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/repositioning-strike	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/rogue-talent	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
-ref/invtalent/sapping-offensive	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/invtalent/sickening-offensive	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/sapping-offensive	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
+ref/invtalent/sickening-offensive	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/slowing-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
-ref/invtalent/stealing-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/stealing-strike	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/studied-defense	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/tenacious-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/timed-strike	advanced-class-origins		unconfirmed	only a short title is on the proposed page, which proves little
-ref/invtalent/toppling-strike	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/toppling-strike	advanced-class-guide	33	print		the investigator talent is printed under its name on this page
 ref/invtalent/unconventional-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/invtalent/underworld-inspiration	advanced-class-guide	33	print		proposal 32, print 33: heading on exactly one page within two pages of the proposal
 ref/oraclecurse/clouded-vision	advanced-players-guide	43	print	
@@ -2779,24 +2779,24 @@ ref/ragepower/fiend-totem	advanced-players-guide	75	print
 ref/ragepower/fierce-fortitude	advanced-class-guide	114	print	
 ref/ragepower/flesh-wound	advanced-players-guide	76	print	
 ref/ragepower/good-for-what-ails-you	advanced-players-guide	76	print	
-ref/ragepower/greater-abyssal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-abyssal-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-beast-totem	advanced-players-guide	74	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-brawler	advanced-players-guide	74	print		the rage power is printed under its name in this form on this page
-ref/ragepower/greater-celestial-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-celestial-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-chaos-totem	advanced-players-guide	74	print		the rage power is printed under its name in this form on this page
-ref/ragepower/greater-draconic-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-elemental-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-draconic-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
+ref/ragepower/greater-elemental-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-elemental-rage	advanced-players-guide	74	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-energy-resistance	advanced-players-guide	75	print		title text only (no heading form): the name is on page 75 and on none of the two pages each side
 ref/ragepower/greater-ferocious-beast	animal-archive		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-mount	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-ferocious-trample	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
-ref/ragepower/greater-fey-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fey-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-fiend-totem	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-hurling	advanced-players-guide	76	print		the rage power is printed under its name in this form on this page
-ref/ragepower/greater-infernal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-infernal-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/greater-spirit-totem	advanced-players-guide	77	print		the rage power is printed under its name in this form on this page
-ref/ragepower/greater-undead-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-undead-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/ground-breaker	advanced-players-guide	76	print	
 ref/ragepower/guarded-life	advanced-players-guide	76	print	
 ref/ragepower/hurling-charge	advanced-players-guide	76	print	
@@ -2804,19 +2804,19 @@ ref/ragepower/hurling	advanced-players-guide	76	print
 ref/ragepower/infernal-blood	advanced-class-guide	80	print	
 ref/ragepower/inspire-ferocity	advanced-players-guide	76	print	
 ref/ragepower/knockdown	advanced-players-guide	76	print	
-ref/ragepower/lesser-abyssal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-abyssal-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/lesser-beast-totem	advanced-players-guide	74	print		title text only (no heading form): the name is on page 74 and on none of the two pages each side
-ref/ragepower/lesser-celestial-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-celestial-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/lesser-chaos-totem	advanced-players-guide	74	print		title text only (no heading form): the name is on page 74 and on none of the two pages each side
-ref/ragepower/lesser-draconic-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-draconic-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/lesser-elemental-blood	advanced-class-guide	80	print		title text only (no heading form): the name is on page 80 and on none of the two pages each side
 ref/ragepower/lesser-elemental-rage	advanced-players-guide	75	print		the rage power is printed under its name in this form on this page
-ref/ragepower/lesser-fey-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-fey-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/lesser-fiend-totem	advanced-players-guide	75	print		title text only (no heading form): the name is on page 75 and on none of the two pages each side
 ref/ragepower/lesser-hurling	advanced-players-guide	76	print		the rage power is printed under its name in this form on this page
-ref/ragepower/lesser-infernal-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-infernal-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/lesser-spirit-totem	advanced-players-guide	77	print		title text only (no heading form): the name is on page 77 and on none of the two pages each side
-ref/ragepower/lesser-undead-blood	advanced-class-guide		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-undead-blood	advanced-class-guide	80	print		the rage power is printed under its name in this form on this page
 ref/ragepower/liquid-courage	advanced-players-guide	76	print	
 ref/ragepower/overbearing-advance	advanced-players-guide	76	print	
 ref/ragepower/overbearing-onslaught	advanced-players-guide	76	print	
@@ -2852,7 +2852,7 @@ ref/slayertalent/ranger-combat-style	advanced-class-guide	53	print
 ref/slayertalent/rogue-and-ninja-advanced-talents	advanced-class-guide	55	print	
 ref/slayertalent/rogue-talent	advanced-class-guide	53	print	
 ref/slayertalent/slayer-camouflage	advanced-class-guide	55	print		title text only (no heading form): the name is on page 55 and on none of the two pages each side
-ref/slayertalent/slowing-strike	advanced-class-guide		unconfirmed	only a short title is on the proposed page, which proves little
+ref/slayertalent/slowing-strike	advanced-class-guide	53	print		the slayer talent is printed under its name on this page
 ref/slayertalent/studied-ally	advanced-class-origins	21	print	
 ref/slayertalent/trapfinding	advanced-class-guide	54	print	
 ref/slayertalent/woodland-stride	advanced-class-guide	55	print	
@@ -4380,3 +4380,10 @@ ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-
 ref/carried/advanced-players-guide/spells/transmute-potion-to-poison/transmuted-poisons/3rd-level-potion-poison	advanced-players-guide	250	print		the poison (save DC, frequency, effect, cure) is in the Transmuted Poisons list on this page
 ref/trait/favored-son-or-daughter	advanced-players-guide	330	print		the campaign trait is printed as Favored Son/Daughter on this page; print names the town of Sandpoint, the entry says a small town
 ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	advanced-players-guide	333	print		the text is the Calistrian Courtesan religion trait on this page; the title Divine Courtesan is not printed
+ref/ragepower/cairn-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Cairn on this page
+ref/ragepower/crag-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Crag on this page
+ref/ragepower/fjord-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Fjord on this page
+ref/ragepower/ice-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Ice on this page
+ref/ragepower/taiga-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Taiga on this page
+ref/ragepower/tarn-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Tarn on this page
+ref/ragepower/tor-linnorm-death-curse	advanced-class-guide	114	print		the rage power is printed as Linnorm Death Curse, Tor on this page
