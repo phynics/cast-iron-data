@@ -302,6 +302,9 @@ W2b Hardening (Muse review of #240). A label `Sources` anywhere in a variant lin
     paragraph with a `Price` or `Slot` row equal to the entry's own first row of that label stays
     prose, unchanged (ruling 2). `scripts/stat-blocks-replay-166.py` runs the converters again on the
     pre-image of every merged variant PR and compares with what was merged.
+W2c A source label is `Sources` or `Source`, in any case, with or without the colon or a link, in a
+    row or in a kept tail. A row value is the same as the entry's own after whitespace is collapsed
+    and a trailing full stop dropped.
 W3  The proof, read apart from the converter: the new body is the old body with exactly the swapped
     paragraphs; for each swap the words are the same (links reduced to their text, a bold label read
     as `Label:`, the title read as a bold name) and the multiset of link targets is the same; a
@@ -1771,6 +1774,16 @@ LINK_MARKUP = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 SECTION_HEADING = re.compile(r"#{1,6} ")
 
 
+def is_source_label(raw: str) -> bool:
+    """A label that cites a book: `Sources` or `Source`, with or without the colon, a link or capitals."""
+    return LINK_MARKUP.sub(r"\1", raw).strip().rstrip(":").strip().lower() in ("sources", "source")
+
+
+def has_source_label(text: str) -> bool:
+    """Whether any bold label of `text` is a source label (the normalization of `vrows`)."""
+    return any(is_source_label(match.group(1)) for match in ITEM_LABEL.finditer(text))
+
+
 def vrows(
     segment: str,
     commas: tuple[str, ...] = (),
@@ -1790,7 +1803,7 @@ def vrows(
     rows = []
     for position, match in enumerate(found):
         raw = match.group(1)
-        if LINK_MARKUP.sub(r"\1", raw).strip().rstrip(":").strip().lower() == "sources":
+        if is_source_label(raw):
             raise Queue("sources-line-in-variant", flat[:40])
         following = found[position + 1].group(1) if position + 1 < len(found) else None
         end = found[position + 1].start() if following is not None else len(flat)
@@ -1955,12 +1968,20 @@ def own_rows(chunks_out: list[str], label: str) -> str | None:
     return None
 
 
+def same_value(a: str | None, b: str | None) -> bool:
+    """Two row values are the same after whitespace is collapsed and a trailing full stop dropped."""
+    if a is None or b is None:
+        return False
+    norm = lambda text: " ".join(text.split()).rstrip(".")  # noqa: E731
+    return norm(a) == norm(b)
+
+
 def restates_own_row(chunks_out: list[str], block: str) -> bool:
     """Ruling 2: a variant row labelled `Price` or `Slot` whose value is the entry's own row
     restates it. Such a paragraph stays prose, so the drift check reads the entry's own value."""
     for label in RESTATED_LABELS:
         found = re.search(rf"^{label}: (.*)$", block, re.M)
-        if found and found.group(1) == own_rows(chunks_out, label):
+        if found and same_value(found.group(1), own_rows(chunks_out, label)):
             return True
     return False
 
@@ -1994,7 +2015,7 @@ def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
             lines = "\\\n".join(segments[:keep]).split("\n")
             tail = "\\\n".join(segments[keep:]) if keep < len(segments) else None
         block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()), spec.get("partial_labels", ()))
-        if tail and "Sources:**" in tail:
+        if tail and has_source_label(join_wrapped(tail.split("\n"))):
             raise Queue("sources-line-in-variant", tail[:40])
         if restates_own_row(out, block):
             out.append(texts[index])  # ruling 2: the paragraph stays prose
@@ -3802,6 +3823,25 @@ class VariantSelfTest(unittest.TestCase):
         with self.assertRaises(Queue) as caught:
             convert_variants("\n**Cost** 1 gp\\\nA line; **Sources:** Ultimate Equipment pg 5\n", tail_plan)
         self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+
+
+    def test_hardening_two(self):
+        for line in ("**Cost** 1 gp; **Source:** Bestiary pg 5", "**SOURCES** Bestiary pg 5", "**Cost** 1 gp; **[source](ref/x/y):** x"):
+            with self.subTest(line=line):
+                with self.assertRaises(Queue) as caught:
+                    vrows(line)
+                self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+        tail_plan = lambda cs: {i: {"tail": True} for i, chunk in enumerate(cs) if chunk[0].startswith("**Cost**")}  # noqa: E731
+        for tail in ("A line; **Source** Bestiary pg 5", "A line; **[Sources](ref/x/y):** x"):
+            with self.subTest(tail=tail):
+                with self.assertRaises(Queue) as caught:
+                    convert_variants("\n**Cost** 1 gp\\\n" + tail + "\n", tail_plan)
+                self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+        lead = "\n::: statblock\nPrice: 30 gp.\n:::\n\n"
+        plan = lambda cs: {i: {} for i, chunk in enumerate(cs) if chunk[0].startswith("**Price**")}  # noqa: E731
+        for value in ("30 gp", "30  gp.", "30 gp"):
+            self.assertEqual(convert_variants(lead + f"**Price** {value}\n", plan), lead + f"**Price** {value}\n")
+        self.assertTrue(same_value("1,000 gp.", "1,000  gp") and not same_value("1,000 gp", "1,001 gp") and not same_value(None, "1"))
 
 
 class RecipeSelfTest(unittest.TestCase):
