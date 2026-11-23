@@ -25,8 +25,13 @@ caster_level = "8th"
 
 ## Headband of Alluring Charisma
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** headband; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: headband
+Price: 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This attractive silver headband is decorated with a number of small red and orange gemstones. The
 headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a
@@ -35,5 +40,7 @@ worn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor); **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+:::

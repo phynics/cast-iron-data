@@ -20,8 +20,13 @@ aura = "moderate necromancy [evil]"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy \[evil\]; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy \[evil\]
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: -
+:::
 
 Death cults such as the [Whispering Way](ref/rule/f-gravepath) use this elixir to prevent their
 enemies from stealing their members' secrets, even after death. Elite cultists typically imbibe
@@ -35,5 +40,7 @@ spell can undo the effects of the elixir.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion)
+Cost: 700 gp
+:::

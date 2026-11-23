@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** belt; **Price** 2,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: belt
+Price: 2,000 gp
+Weight: 3 lbs.
+:::
 
 This wide leather is held together with two strands of oxen skin threaded through holes on each end.
 The belt's wearer is affected as though subject to a permanent _[ant haul](ref/spell/ant-haul)_
@@ -29,5 +34,7 @@ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ant haul](ref/spell/ant-haul); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ant haul](ref/spell/ant-haul)
+Cost: 1,000 gp
+:::

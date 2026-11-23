@@ -20,8 +20,13 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 5th\
-**Slot** none; **Price** 18,800 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 5th
+Slot: none
+Price: 18,800 gp
+Weight: 1/2 lb.
+:::
 
 This withered, black heart is disturbingly cool to the touch. It must be attuned to an evil deity in
 a vile ritual that takes at least 1 hour and requires a living sentient creature as a sacrifice
@@ -43,6 +48,7 @@ immune to it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect good](ref/spell/detect-good), [inflict serious wounds](ref/spell/inflict-serious-wounds),
-creator must be an evil worshiper of an evil deity; **Cost** 9,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect good](ref/spell/detect-good), [inflict serious wounds](ref/spell/inflict-serious-wounds), creator must be an evil worshiper of an evil deity
+Cost: 9,400 gp
+:::

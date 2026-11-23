@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This ornate glass jar is filled with greenish fluid and the slick, writhing forms of many large
 black leeches. Though [bloatmages](ref/pclass/bloatmage) often use leeches to help them regulate
@@ -42,5 +47,7 @@ dice twice and take the more favorable result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance)
+Cost: 3,000 gp
+:::

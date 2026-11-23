@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This light gray elixir makes the user's voice fiercer and louder, and gives it an inhuman quality
 that rattles those he talks to, granting the user a +10 competence bonus on
@@ -29,5 +34,7 @@ that rattles those he talks to, granting the user a +10 competence bonus on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sound burst](ref/spell/sound-burst); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sound burst](ref/spell/sound-burst)
+Cost: 125 gp
+:::

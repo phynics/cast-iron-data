@@ -20,8 +20,12 @@ aura = "strong transmutation"
 caster_level = "8th"
 +++
 
-**Aura** strong transmutation; **CL** 8th\
-**Slot** headband; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 8th
+Slot: headband
+Weight: 1 lb.
+:::
 
 This headband appears to be a _headband of vast intelligence +4,_ but instead of granting a +4 bonus
 to Intelligence and bonuses to associated skills, the wearer take a -4 penalty to Intelligence and a

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** head; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: head
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 This item appears to be a crown studded with gems, but its valuable metals are only veneers and its
 gems are clever fakes. The wielder can alter the crown's appearance at will to that of any crown or
@@ -38,5 +43,7 @@ rule does not appear to radiate a magical aura.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura), [veil](ref/spell/veil); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura), [veil](ref/spell/veil)
+Cost: 15,000 gp
+:::

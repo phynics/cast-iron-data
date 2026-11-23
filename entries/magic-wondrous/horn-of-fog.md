@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This small bugle allows its possessor to blow forth a thick cloud of heavy fog similar to that of an
 _[obscuring mist](ref/spell/obscuring-mist)_ spell. The fog covers a 10-foot square next to the horn
@@ -36,5 +41,7 @@ fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[obscuring mist](ref/spell/obscuring-mist); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 1,000 gp
+:::

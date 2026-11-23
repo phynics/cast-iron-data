@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This tiny silver cube is activated by throwing it at an intersection of squares within 50 feet. The
 cube hovers 5 feet above the ground at that location for the next 5 rounds. Any small projectile or
@@ -33,5 +38,7 @@ destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from arrows](ref/spell/protection-from-arrows); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from arrows](ref/spell/protection-from-arrows)
+Cost: 300 gp
+:::

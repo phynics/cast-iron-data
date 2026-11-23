@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 200 gp
+Weight: 2 lbs.
+:::
 
 This two-spouted funnel is used to safely mix two alchemical splash weapons into a single flask.
 Using the vial requires 10 minutes and a DC 25 [Craft (alchemy)](ref/skill/craft-any) check; a
@@ -39,6 +44,7 @@ fire) has no effect. A mixture cannot be combined with another mixture.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate) or [combine extracts](ref/discovery/combine-extracts) discovery;
-**Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate) or [combine extracts](ref/discovery/combine-extracts) discovery
+Cost: 100 gp
+:::

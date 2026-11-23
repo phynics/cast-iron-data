@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** head; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: head
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This silvery ring looks like a halo. When worn by a [tiefling](ref/race/tiefling) it hovers just
 above his head, though it still uses the head magic item slot. It helps to calm the baser emotions
@@ -35,5 +40,7 @@ and a +2 sacred bonus on saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[holy aura](ref/spell/holy-aura), creator must be a tiefling of good alignment; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [holy aura](ref/spell/holy-aura), creator must be a tiefling of good alignment
+Cost: 8,000 gp
+:::

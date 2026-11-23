@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 16,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 16,800 gp
+Weight: 1 lb.
+:::
 
 This instrument can be struck once every 10 minutes, and its resonant tone lasts for 3 full minutes.
 
@@ -34,5 +39,7 @@ radius of the chime unless the caster can make a [concentration](ref/rule/concen
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout);
-**Cost** 8,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout)
+Cost: 8,400 gp
+:::

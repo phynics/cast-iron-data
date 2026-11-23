@@ -20,8 +20,13 @@ aura = "faint abjuration and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and necromancy; **CL** 5th\
-**Slot** shoulders; **Price** 15,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and necromancy
+CL: 5th
+Slot: shoulders
+Price: 15,600 gp
+Weight: 1 lb.
+:::
 
 A favored cloak of rangers, this cloak is a patchwork of hides and fur. Comfort's cloak grants a
 constant _[endure elements](ref/spell/endure-elements)_ effect to the wearer, and grants a +4
@@ -34,5 +39,7 @@ character regains 5 times his Hit Dice in hit points instead of twice his Hit Di
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements); **Cost** 7,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements)
+Cost: 7,800 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy and transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy and transmutation; **CL** 4th\
-**Slot** hands; **Price** 7,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy and transmutation
+CL: 4th
+Slot: hands
+Price: 7,200 gp
+Weight: 1 lb.
+:::
 
 These ruddy leather gloves enhance the precision of the wearer. When wielding a piercing or slashing
 weapon and using [Weapon Finesse](ref/feat/weapon-finesse), the wearer can mark a creature when
@@ -36,5 +41,7 @@ by the mark is healed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear), [heroism](ref/spell/heroism); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear), [heroism](ref/spell/heroism)
+Cost: 3,600 gp
+:::

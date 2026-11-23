@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** shoulders; **Price** 3,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: shoulders
+Price: 3,200 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -34,6 +39,7 @@ to the approximate distance and direction of that ally.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate creature](ref/spell/locate-creature), [status](ref/spell/status), creator must be a ratfolk;
-**Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate creature](ref/spell/locate-creature), [status](ref/spell/status), creator must be a ratfolk
+Cost: 1,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** head; **Price** 19,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: head
+Price: 19,000 gp
+Weight: 1 lb.
+:::
 
 This crown of laurel leaves inspires its wearer to achieve mighty deeds. She gains a +4 morale bonus
 on saving throws against mind-affecting effects. If she succeeds at a saving throw against a harmful
@@ -36,6 +41,7 @@ per tier at the start of each day. These temporary hit points are restored whene
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [crushing despair](ref/spell/crushing-despair),
-[good hope](ref/spell/good-hope); **Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [crushing despair](ref/spell/crushing-despair), [good hope](ref/spell/good-hope)
+Cost: 9,500 gp
+:::

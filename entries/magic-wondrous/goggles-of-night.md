@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** eyes; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: eyes
+Price: 12,000 gp
+Weight: -
+:::
 
 The lenses of this item are made of violet crystal. Even though the lenses are opaque, when placed
 over the eyes of the wearer, they enable him to see normally and also grant him 60-foot
@@ -34,5 +39,7 @@ Both lenses must be worn for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision)
+Cost: 6,000 gp
+:::

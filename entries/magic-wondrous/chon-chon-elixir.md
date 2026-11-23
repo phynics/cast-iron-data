@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 2,750 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 2,750 gp
+Weight: -
+:::
 
 When a humanoid imbibes this foul-tasting green fluid, its ears grow to 10 times their size, and its
 head separates from its body. This effect is similar to [beast shape II](ref/spell/beast-shape-2),
@@ -57,5 +62,7 @@ considered [helpless](ref/misc/helpless) while the head is unattached.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [polymorph](ref/spell/polymorph); **Cost** 1,375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [polymorph](ref/spell/polymorph)
+Cost: 1,375 gp
+:::

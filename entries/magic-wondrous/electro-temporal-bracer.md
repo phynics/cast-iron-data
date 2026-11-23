@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** wrists; **Price** 32,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: wrists
+Price: 32,000 gp
+Weight: 1 lb.
+:::
 
 This rune-carved bracelet is made of thick, bright gold and allows the wearer to manipulate time
 through electricity magic. As a swift action, the wearer can activate the bracer, creating a nimbus
@@ -45,5 +50,7 @@ and the electro-temporal bracer ceases functioning for 1 month.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[slow](ref/spell/slow), [time stop](ref/spell/time-stop); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [slow](ref/spell/slow), [time stop](ref/spell/time-stop)
+Cost: 16,000 gp
+:::

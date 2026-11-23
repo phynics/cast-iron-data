@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 6,000 gp
+Weight: -
+:::
 
 When tossed into the air, this tarnished copper coin brings forth potential lost by life's
 decisions. If a human, half-elf, or half-orc flips the coin and catches it, she takes a -2 penalty
@@ -31,5 +36,7 @@ automatically negates the bonus as well. The coin can be used three times per da
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self)
+Cost: 3,000 gp
+:::

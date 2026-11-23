@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 45,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 45,000 gp
+Weight: 1/2 lb.
+:::
 
 This miniature chariot is made of wood and bronze and has a leather thong so it can hang around the
 neck or a belt. Once per day when the command word is spoken, the chariot increases in size to a
@@ -38,6 +43,7 @@ normal size when the chariot is next activated.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight), [shrink item](ref/spell/shrink-item); **Cost** 22,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight), [shrink item](ref/spell/shrink-item)
+Cost: 22,500 gp
+:::

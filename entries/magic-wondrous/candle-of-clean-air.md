@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 7,500 gp
+Weight: -
+:::
 
 This clean-smelling white candle is inscribed with glyphs portraying various sweet smelling flowers.
 When lit, the candle repels smoke, mist, cloud, and other gas effects in a 5-foot radius. These
@@ -36,5 +41,7 @@ candle is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wind wall](ref/spell/wind-wall); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wind wall](ref/spell/wind-wall)
+Cost: 3,750 gp
+:::

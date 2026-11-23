@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** headband; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: headband
+Price: 4,500 gp
+Weight: -
+:::
 
 This thin green headband is made entirely out of small metal scales that shimmer in the sunlight,
 sparkling in turn with flashes of emerald, forest green, and sea-foam depending on the angle from
@@ -35,5 +40,7 @@ The initial poison can be duplicated to only one additional target at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch injection](ref/spell/touch-injection); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch injection](ref/spell/touch-injection)
+Cost: 2,250 gp
+:::

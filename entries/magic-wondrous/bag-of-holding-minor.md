@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 1,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 1,000 gp
+Weight: 3 lbs.
+:::
 
 This more economical version of the [bag of holding](ref/magic-wondrous/bag-of-holding) functions in
 the same manner, but its internal measurements are smaller than those of a regular bag of holding.
@@ -29,5 +34,7 @@ It measures 2 feet by 4 feet and can carry up to 50 pounds or 6 cubic feet of ma
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 500 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 7,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 7,200 gp
+Weight: 1 lb.
+:::
 
 This cloak appears to be made of leather until the wearer enters salt water. At that time, the cloak
 of the manta ray adheres to the individual, and he appears nearly identical to a
@@ -39,6 +44,7 @@ movement if so desired.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [water breathing](ref/spell/water-breathing); **Cost**
-3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [water breathing](ref/spell/water-breathing)
+Cost: 3,600 gp
+:::

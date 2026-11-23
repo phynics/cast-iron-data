@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 These soft-soled boots provide their wearer with a +2 competence bonus on
 [Acrobatics](ref/skill/acrobatics), [Climb](ref/skill/climb), and [Stealth](ref/skill/stealth)
@@ -35,5 +40,7 @@ to even casual observation.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 1,000 gp
+:::

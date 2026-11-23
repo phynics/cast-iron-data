@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 6,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 6,900 gp
+Weight: 1 lb.
+:::
 
 This figurine stands several inches tall and is carved of black stone with gold highlights,
 resembling a man with the head of a jackal. With a successful DC 20 Knowledge (religion) check, a
@@ -42,6 +47,7 @@ magic and is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead),
-[temporary resurrection](ref/spell/temporary-resurrection); **Cost** 3,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead), [temporary resurrection](ref/spell/temporary-resurrection)
+Cost: 3,700 gp
+:::

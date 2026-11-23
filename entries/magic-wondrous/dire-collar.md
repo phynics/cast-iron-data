@@ -20,9 +20,13 @@ aura = "faint transmutation (normal), moderate transmutation (greater)"
 caster_level = "3rd (normal), 9th (greater)"
 +++
 
-**Aura** faint transmutation (normal), moderate transmutation (greater); **CL** 3rd (normal), 9th
-(greater)\
-**Slot** neck; **Price** 1,000 gp (normal), 14,000 gp (greater); **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation (normal), moderate transmutation (greater)
+CL: 3rd (normal), 9th (greater)
+Slot: neck
+Price: 1,000 gp (normal), 14,000 gp (greater)
+Weight: 2 lbs.
+:::
 
 This leather collar resizes to fit almost any size of creature. Once per day on command, the
 creature that fastened the dire collar to the animal can cause that animal to grow larger and more
@@ -35,5 +39,7 @@ benefit of an _[animal growth](ref/spell/animal-growth)_ spell for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animal growth](ref/spell/animal-growth); **Cost** 500 gp (normal), 7,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animal growth](ref/spell/animal-growth)
+Cost: 500 gp (normal), 7,000 gp (greater)
+:::

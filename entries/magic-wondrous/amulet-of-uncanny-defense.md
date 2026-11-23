@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** neck; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: neck
+Price: 5,000 gp
+Weight: -
+:::
 
 This heavy, [cold-iron](ref/eq-material/cold-iron) amulet depicts a bear's head with jaws open in a
 roar. It increases the wearer's [uncanny dodge](ref/ability/uncanny-dodge) ability, causing it to
@@ -32,5 +37,7 @@ attacker must have in order to sneak attack the wearer by flanking him.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** hands; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: hands
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 The palms of these light doeskin gloves are covered with supple ripples to augment the wearer's
 grip. The wearer gains a +4 competence bonus on combat maneuver checks to
@@ -34,6 +39,7 @@ two uses of mythic power to negate that effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [dimensional anchor](ref/spell/dimensional-anchor),
-[bull's strength](ref/spell/bulls-strength); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [dimensional anchor](ref/spell/dimensional-anchor), [bull's strength](ref/spell/bulls-strength)
+Cost: 4,500 gp
+:::

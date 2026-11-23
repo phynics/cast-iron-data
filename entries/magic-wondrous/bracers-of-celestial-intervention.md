@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** wrists; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: wrists
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 Prayers and engravings of celestial beings cover these golden bracers. A paladin can expend one or
 more of her uses of smite evil into these bracers as a standard action to call forth agathions,
@@ -32,5 +37,7 @@ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster VII](ref/spell/summon-monster-7), creator must be lawful good; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VII](ref/spell/summon-monster-7), creator must be lawful good
+Cost: 8,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and evocation; **CL** 16th\
-**Slot** wrists; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration and evocation
+CL: 16th
+Slot: wrists
+Price: 9,000 gp
+Weight: -
+:::
 
 At first glance, this circlet of plaited hair interwoven with a single gold thread appears to be
 nothing more than a personal memento or a lover's token. Closer examination reveals that each strand
@@ -43,5 +48,7 @@ also uses the wrist slot.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward)
+Cost: 4,500 gp
+:::

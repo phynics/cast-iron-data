@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: neck
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This forest green clasp is engraved with a stylized version of the tree and blade of Nirmathas. If
 the wearer has the [woodland stride](ref/ability/woodland-stride) ability, she gains the
@@ -31,5 +36,7 @@ ability as well.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [invisibility](ref/spell/invisibility); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [invisibility](ref/spell/invisibility)
+Cost: 7,000 gp
+:::

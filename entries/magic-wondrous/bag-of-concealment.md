@@ -20,9 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp (Type I), 10,000 gp (Type II), 14,800 gp (Type III), 20,000 gp
-(Type IV); **Weight** 15 lbs. (type I), 25 lbs. (type II), 35 lbs. (type III), 60 lbs. (type IV)
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp (Type I), 10,000 gp (Type II), 14,800 gp (Type III), 20,000 gp (Type IV)
+Weight: 15 lbs. (type I), 25 lbs. (type II), 35 lbs. (type III), 60 lbs. (type IV)
+:::
 
 A bag of concealment appears to be a common leather sack with a shoulder strap, about 2 feet by 4
 feet in size. The bag behaves as a [bag of holding](ref/magic-wondrous/bag-of-holding), with all the
@@ -43,7 +47,7 @@ stretched to up to four times its normal width, so larger goods may be hidden in
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [magic aura](ref/spell/magic-aura),
-[secret chest](ref/spell/secret-chest); **Cost** 2,500 gp (type I), 5,000 gp (type II), 7,400 gp
-(type III), 10,000 gp (type IV)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp (type I), 5,000 gp (type II), 7,400 gp (type III), 10,000 gp (type IV)
+:::

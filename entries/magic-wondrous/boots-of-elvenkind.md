@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 These soft boots are partially made out of living leaves and other natural materials. They enable
 the wearer to move nimbly about in virtually any surroundings, granting a +5 competence bonus on
@@ -32,5 +37,7 @@ the wearer to move nimbly about in virtually any surroundings, granting a +5 com
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an
-[elf](ref/race/elf); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be an [elf](ref/race/elf)
+Cost: 1,250 gp
+:::

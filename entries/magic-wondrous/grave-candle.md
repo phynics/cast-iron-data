@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** none; **Price** 5,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: none
+Price: 5,500 gp
+Weight: 1 lb.
+:::
 
 Grave candles are magical [candles](ref/eq-misc/candle) that draw forth spirits from the mortal
 remains of long-dead creatures, allowing the living to speak to these spirits for a short period
@@ -47,5 +52,7 @@ actual soul of the dead spirit, however) and destroys the candle.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead)
+Cost: 2,750 gp
+:::

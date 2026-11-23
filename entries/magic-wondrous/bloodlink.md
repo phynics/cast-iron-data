@@ -23,8 +23,13 @@ aura = "faint evocation and illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation and illusion; **CL** 3rd\
-**Slot** neck; **Price** 4,800 gp; **Weight** -
+::: statblock
+Aura: faint evocation and illusion
+CL: 3rd
+Slot: neck
+Price: 4,800 gp
+Weight: -
+:::
 
 This amulet allows the wearer to use the same spells many drow can cast innately. The wearer can use
 each of the following spells once per day as a spell-like ability: _dancing lights, darkness,_ and
@@ -38,8 +43,7 @@ serve as the focus for a [recorporeal incarnation](ref/spell/recorporeal-incarna
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow weapon proficiency](ref/spell/bestow-weapon-proficiency),
-[comprehend languages](ref/spell/comprehend-languages), [dancing lights](ref/spell/dancing-lights),
-[darkness](ref/spell/darkness), [faerie fire](ref/spell/faerie-fire),
-[misdirection](ref/spell/misdirection); **Cost** 6,075 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow weapon proficiency](ref/spell/bestow-weapon-proficiency), [comprehend languages](ref/spell/comprehend-languages), [dancing lights](ref/spell/dancing-lights), [darkness](ref/spell/darkness), [faerie fire](ref/spell/faerie-fire), [misdirection](ref/spell/misdirection)
+Cost: 6,075 gp
+:::

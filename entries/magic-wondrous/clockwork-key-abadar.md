@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 A clockwork key has two uses, but one functions only if [Abadar](ref/faith/abadar) is your patron.
 Constructs avoid attacking the bearer of the clockwork key, directing their attacks toward other
@@ -35,5 +40,7 @@ successfully paralyzed a construct, it is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [shatter](ref/spell/shatter); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shatter](ref/spell/shatter)
+Cost: 250 gp
+:::

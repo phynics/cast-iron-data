@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** feet; **Price** 1,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: feet
+Price: 1,600 gp
+Weight: 1 lb.
+:::
 
 These leather boots bear a knife motif worked into their durable blue leather. Three times per day,
 the wearer can speak a command word as a swift action, causing a serrated knife to fly from the
@@ -33,5 +38,7 @@ Bondbreaker's boots also cannot free the wearer if manacles or chains restrain h
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[unseen servant](ref/spell/unseen-servant); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [unseen servant](ref/spell/unseen-servant)
+Cost: 800 gp
+:::

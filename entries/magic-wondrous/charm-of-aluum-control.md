@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "20th"
 +++
 
-**Aura** moderate transmutation; **CL** 20th\
-**Slot** neck; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 20th
+Slot: neck
+Price: 20,000 gp
+Weight: -
+:::
 
 This pendant holds a glowing crystal etched with faint runes. Created by the pactmasters of Katapesh
 to manipulate and control their constructs known as [aluums](ref/monster/aluum), these charms are
@@ -45,6 +50,7 @@ command it.
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [soul bind](ref/spell/soul-bind); **Cost**
-10,000 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [soul bind](ref/spell/soul-bind)
+Cost: 10,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: 3 lbs.
+:::
 
 A champion's banner is a cloth flag or standard (typically 2 feet wide and 4 feet long) meant to be
 carried and displayed on a lance, polearm, frame, or staff. It has no effect unless it is mounted
@@ -35,6 +40,7 @@ when he does so.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), creator must have 5 ranks in the
-[Knowledge (nobility)](ref/skill/knowledge-nobility) skill; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), creator must have 5 ranks in the [Knowledge (nobility)](ref/skill/knowledge-nobility) skill
+Cost: 4,000 gp
+:::

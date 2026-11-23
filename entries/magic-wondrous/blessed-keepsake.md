@@ -20,8 +20,13 @@ aura = "faint abjuration and divination"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration and divination; **CL** 1st\
-**Slot** neck; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and divination
+CL: 1st
+Slot: neck
+Price: 8,000 gp
+Weight: -
+:::
 
 The fine chain bears a glass-fronted locket. If a piece of an outsider with an alignment subtype -
 such as a tooth from a demon or an angel's wing feather - is held in the locket for 24 hours, the
@@ -40,6 +45,7 @@ If the piece of outsider is removed, the blessed keepsake is inactive until a ne
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Alignment Channel,
-[detect chaos, evil, good, and law](ref/spell/detect-evil),
-[protection from chaos, evil, good, and law](ref/spell/protection-from-evil); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Alignment Channel, [detect chaos, evil, good, and law](ref/spell/detect-evil), [protection from chaos, evil, good, and law](ref/spell/protection-from-evil)
+Cost: 4,000 gp
+:::

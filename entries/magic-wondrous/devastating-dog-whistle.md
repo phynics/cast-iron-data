@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 When blown, this crudely carved reed whistle emits a painful sound that only dogs (or other canine
 creatures, like [wolves](ref/monster/wolf), [werewolves](ref/template/lycanthrope), or
@@ -35,5 +40,7 @@ that the devastating dog whistle is destroyed upon activation.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silence](ref/spell/silence),
-[sound burst](ref/spell/sound-burst); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silence](ref/spell/silence), [sound burst](ref/spell/sound-burst)
+Cost: 750 gp
+:::

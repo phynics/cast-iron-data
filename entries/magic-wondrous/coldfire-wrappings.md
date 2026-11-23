@@ -20,8 +20,13 @@ aura = "moderate evocation [cold]"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation \[cold\]; **CL** 10th\
-**Slot** body; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation \[cold\]
+CL: 10th
+Slot: body
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 When carefully wrapped around the body of a Medium-sized creature (a process that takes 10 minutes),
 these magical linen wrappings protect the wearer from fire and provide defense against physical
@@ -32,5 +37,7 @@ away into fine ash.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fire shield](ref/spell/fire-shield); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fire shield](ref/spell/fire-shield)
+Cost: 1,000 gp
+:::

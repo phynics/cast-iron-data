@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 35,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 35,000 gp
+Weight: 1 lb.
+:::
 
 This cloak is well crafted and stylish. As a swift action, the wearer can direct the cloak to
 attempt a combat maneuver check to [disarm](ref/rule/disarm) a creature within 5 feet, using the
@@ -31,6 +36,7 @@ the disarm attempt to gain a +5 competence bonus on the combat maneuver check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Improved Disarm](ref/feat/improved-disarm), [pilfering hand](ref/spell/pilfering-hand), creator
-must be a panache user; **Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Improved Disarm](ref/feat/improved-disarm), [pilfering hand](ref/spell/pilfering-hand), creator must be a panache user
+Cost: 17,500 gp
+:::

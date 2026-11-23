@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: shoulders
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This heavy linen cloak has a fish-scale pattern that darkens toward the bottom and white feathers on
 the shoulders. Once per day, the wearer can use _[beast shape I](ref/spell/beast-shape-1),_ but only
@@ -32,6 +37,7 @@ use _[feather fall](ref/spell/feather-fall)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [feather fall](ref/spell/feather-fall),
-[hide from animals](ref/spell/hide-from-animals); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [feather fall](ref/spell/feather-fall), [hide from animals](ref/spell/hide-from-animals)
+Cost: 2,000 gp
+:::

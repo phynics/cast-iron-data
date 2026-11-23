@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "13th"
 +++
 
-**Aura** moderate enchantment; **CL** 13th\
-**Slot** headband; **Price** 40,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 13th
+Slot: headband
+Price: 40,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -45,6 +50,7 @@ and are destroyed by any successful attack roll against that AC.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [mirror image](ref/spell/mirror-image),
-[project image](ref/spell/project-image), creator must be an elf; **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [mirror image](ref/spell/mirror-image), [project image](ref/spell/project-image), creator must be an elf
+Cost: 20,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 This elixir forces the drinker to say nothing but the truth for 10 minutes (Will DC 13 negates). She
 must answer any questions put to her in that time, but with each question she can make a separate DC
@@ -35,5 +40,7 @@ mind-affecting compulsion enchantment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [zone of truth](ref/spell/zone-of-truth)
+Cost: 250 gp
+:::

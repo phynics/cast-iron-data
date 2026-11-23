@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Aura** faint divination; **CL** 4th\
-**Slot** headband; **Price** 4,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 4th
+Slot: headband
+Price: 4,800 gp
+Weight: 1 lb.
+:::
 
 This thin, silver circlet allows an animal wearing it to speak, even if it is not normally capable
 of doing so because of its low Intelligence score or lack of known languages. The creator of the
@@ -33,5 +38,7 @@ though being spoken to via _[speak with animals](ref/spell/speak-with-animals)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with animals](ref/spell/speak-with-animals); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with animals](ref/spell/speak-with-animals)
+Cost: 2,400 gp
+:::

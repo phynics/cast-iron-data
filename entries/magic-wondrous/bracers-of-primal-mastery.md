@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** wrists; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: wrists
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 Seven [mithral](ref/eq-material/mithral) strips weave their way around these steel bracers, which
 thrum ever so faintly with the force of stabilizing magic. When the wearer activates a magic item,
@@ -32,5 +37,7 @@ roll twice and choose the result when using a [rod of wonder](ref/magic-rod/rod-
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic)
+Cost: 15,000 gp
+:::

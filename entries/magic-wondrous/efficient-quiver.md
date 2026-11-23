@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 1,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 1,800 gp
+Weight: 2 lbs.
+:::
 
 This appears to be a typical arrow container capable of holding about 20 arrows. It has three
 distinct portions, each with a non-dimensional space allowing it to store far more than would
@@ -38,5 +43,7 @@ placed inside it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 900 gp
+:::

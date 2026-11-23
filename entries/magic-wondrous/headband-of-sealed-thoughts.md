@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** headband; **Price** 150,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: headband
+Price: 150,000 gp
+Weight: 1 lb.
+:::
 
 Uncomfortably sharp protrusions bristle on the inner edge of this heavy, bronze headband. It grants
 its wearer a +4 enhancement bonus to Intelligence. Treat this as a
@@ -42,6 +47,7 @@ original spell from affecting targets other than the wearer of the headband of s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [fox's cunning](ref/spell/foxs-cunning),
-[mind blank](ref/spell/mind-blank), [spell turning](ref/spell/spell-turning); **Cost** 75,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [fox's cunning](ref/spell/foxs-cunning), [mind blank](ref/spell/mind-blank), [spell turning](ref/spell/spell-turning)
+Cost: 75,000 gp
+:::

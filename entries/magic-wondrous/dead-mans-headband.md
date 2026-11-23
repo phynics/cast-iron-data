@@ -20,8 +20,13 @@ aura = "faint enchantment and abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment and abjuration; **CL** 1st\
-**Slot** headband; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment and abjuration
+CL: 1st
+Slot: headband
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 This taut black band, clipped with a black metal skull, can be attached on the outside of a hat or
 other head slot item or can be worn as a normal headband. The wearer gains a +2 competence bonus on
@@ -33,5 +38,7 @@ targeting his headgear.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom),
-[shrink item](ref/spell/shrink-item); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom), [shrink item](ref/spell/shrink-item)
+Cost: 1,800 gp
+:::

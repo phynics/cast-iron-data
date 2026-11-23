@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 32,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 32,400 gp
+Weight: 1/2 lb.
+:::
 
 The handle of this magnifying glass is shaped like a holy symbol of [Sarenrae](ref/faith/sarenrae).
 When used to treat deadly wounds, the glass provides a +4 circumstance bonus on
@@ -31,5 +36,7 @@ use either function.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[regenerate](ref/spell/regenerate); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [regenerate](ref/spell/regenerate)
+Cost: 15,000 gp
+:::

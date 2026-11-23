@@ -20,8 +20,13 @@ aura = "faint conjuration and enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and enchantment; **CL** 5th\
-**Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and enchantment
+CL: 5th
+Slot: none
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 This black metal urn with a lead stopper bears the image of countless gaunt humanoids piled on top
 of one another in a torturous melee. When the stopper is removed, an invisible and odorless gas
@@ -43,5 +48,7 @@ again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion), [stinking cloud](ref/spell/stinking-cloud); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion), [stinking cloud](ref/spell/stinking-cloud)
+Cost: 2,700 gp
+:::

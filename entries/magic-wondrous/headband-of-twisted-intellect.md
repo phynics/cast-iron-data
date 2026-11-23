@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** headband; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: headband
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This strange metal
 [headband of vast intelligence +2](ref/magic-wondrous/headband-of-vast-intelligence-2) is crafted in
@@ -44,6 +49,7 @@ aside.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), creator must be an
-[aboleth](ref/monster/alghollthu-aboleth); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), creator must be an [aboleth](ref/monster/alghollthu-aboleth)
+Cost: 4,000 gp
+:::

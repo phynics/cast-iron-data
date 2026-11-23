@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 12,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 12,500 gp
+Weight: 1/2 lb.
+:::
 
 This [mithral](ref/eq-material/mithral) [zip-line hook](ref/eq-misc/zip-line-hook-normal) is
 attached to a black leather strap with a bronze buckle shaped like a spider. When the hook is
@@ -35,5 +40,7 @@ falling.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate), [spider climb](ref/spell/spider-climb); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate), [spider climb](ref/spell/spider-climb)
+Cost: 6,500 gp
+:::

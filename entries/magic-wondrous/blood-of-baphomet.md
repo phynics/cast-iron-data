@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 This red elixir is always the temperature of freshly spilled blood. A creature can consume a gobbet
 of flesh and drink this liquid as a single standard action.
@@ -37,5 +42,7 @@ Baphomet is consumed with humanoid flesh (a chaotic evil act), the drinker recei
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape III](ref/spell/beast-shape-3), [rage](ref/spell/rage); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape III](ref/spell/beast-shape-3), [rage](ref/spell/rage)
+Cost: 1,125 gp
+:::

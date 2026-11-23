@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 2,500 gp
+Weight: -
+:::
 
 These lenses are made of special crystal and fit over the eyes of the wearer. They grant a +5
 competence bonus on [Perception](ref/skill/perception) checks. Both lenses must be worn to gain the
@@ -33,5 +38,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 1,250 gp
+:::

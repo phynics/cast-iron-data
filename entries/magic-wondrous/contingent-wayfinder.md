@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 132,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 132,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) is constructed of delicate ivory. Its face constantly
 reshapes to form a relief of its bearer, and is capable of changing as quickly as two creatures can
@@ -43,7 +48,7 @@ gem can't be changed until it has been cast.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contingency](ref/spell/contingency),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability), [light](ref/spell/light); **Cost**
-66,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contingency](ref/spell/contingency), [imbue with spell ability](ref/spell/imbue-with-spell-ability), [light](ref/spell/light)
+Cost: 66,000 gp
+:::

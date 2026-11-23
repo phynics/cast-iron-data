@@ -23,8 +23,12 @@ aura = "strong divination"
 caster_level = "17th"
 +++
 
-**Aura** strong divination; **CL** 17th\
-**Slot** none; **Weight** 7 lbs.
+::: statblock
+Aura: strong divination
+CL: 17th
+Slot: none
+Weight: 7 lbs.
+:::
 
 This cursed scrying device is at first glance indistinguishable from a normal _crystal ball._
 However, anyone attempting to use the scrying device becomes [fascinated](ref/misc/fascinated) for
@@ -39,4 +43,7 @@ unaware of her subjugation.
 
 ### Construction
 
-**Requirements** [crystal ball](ref/magic-wondrous/crystal-ball); **Cost** -
+::: statblock
+Requirements: [crystal ball](ref/magic-wondrous/crystal-ball)
+Cost: -
+:::

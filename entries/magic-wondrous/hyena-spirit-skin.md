@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 16,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 16,000 gp
+Weight: 2 lbs.
+:::
 
 This ragged piece of fur and skin contains powerful magic. Once per day, when draped over the head
 and shoulders, the skin grants its wearer the physical characteristics of a
@@ -33,5 +38,7 @@ not provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[aspect of the wolf](ref/spell/aspect-of-the-wolf); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aspect of the wolf](ref/spell/aspect-of-the-wolf)
+Cost: 8,000 gp
+:::

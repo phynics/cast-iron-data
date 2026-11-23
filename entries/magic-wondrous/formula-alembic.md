@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 200 gp
+Weight: 2 lbs.
+:::
 
 This magically-augmented alchemical device distills a potion or alchemist extract into the knowledge
 needed to create its formula. By gently heating a potion or extract in the alembic for 1 hour, the
@@ -36,6 +41,7 @@ example, it cannot turn a potion of a cleric-only spell into something an alchem
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify), creator must be
-an alchemist; **Cost** 100 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify), creator must be an alchemist
+Cost: 100 gp
+:::

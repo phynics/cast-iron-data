@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 This black lamp has a wooden frame wrapped with a cover made from white linen, on which are drawn
 numerous spidery runes and constellations. While lit, a lantern of concealment creates a
@@ -33,5 +38,7 @@ effect. A lantern of concealment can only be used in this way once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hide campsite](ref/spell/hide-campsite); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hide campsite](ref/spell/hide-campsite)
+Cost: 6,000 gp
+:::

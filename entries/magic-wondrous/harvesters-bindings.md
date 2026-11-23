@@ -20,8 +20,13 @@ aura = "faint abjurationa and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjurationa and transmutation; **CL** 5th\
-**Slot** wrists; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: faint abjurationa and transmutation
+CL: 5th
+Slot: wrists
+Price: 8,500 gp
+Weight: -
+:::
 
 These bronze bracers are etched with an elaborate crisscross pattern on their exterior and are lined
 with a set of six small barbs that are anchored into the interior. When worn, the bracers provide
@@ -38,6 +43,7 @@ other poison is instead siphoned and stored in the bindings.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[drain poison](ref/spell/drain-poison), [neutralize poison](ref/spell/neutralize-poison); **Cost**
-4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [drain poison](ref/spell/drain-poison), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 4,250 gp
+:::

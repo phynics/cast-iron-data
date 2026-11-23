@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** hands; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: hands
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 Runes spiral and skitter across these leather bracers, which are adorned with small spikes. Twice
 per day, as a swift action after making a successful attack against a creature, the wearer can say
@@ -34,5 +39,7 @@ from any morale bonuses, a daily use of the item is wasted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[siphon magic](ref/spell/siphon-magic); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [siphon magic](ref/spell/siphon-magic)
+Cost: 12,500 gp
+:::

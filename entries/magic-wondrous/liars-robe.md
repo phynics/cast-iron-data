@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** body; **Price** 4,180 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: body
+Price: 4,180 gp
+Weight: 6 lbs.
+:::
 
 This hole-ridden burlap robe would appear completely worthless if not for the immaculate red velvet
 lining its interior. When worn inside out, a liar's robe enshrouds the wearer in a continually
@@ -40,5 +45,7 @@ wearer's anonymity without the wearer feigning another identity or hiding her pr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self); **Cost** 2,090 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self)
+Cost: 2,090 gp
+:::

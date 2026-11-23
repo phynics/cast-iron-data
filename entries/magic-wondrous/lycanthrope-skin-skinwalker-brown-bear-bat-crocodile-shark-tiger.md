@@ -22,9 +22,13 @@ caster_level = "9th"
 
 ## Lycanthrope Skin (Skinwalker)
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 24,000 gp (boar, rat, wolf), 40,000 gp (brown bear, bat, crocodile,
-shark, tiger); **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 24,000 gp (boar, rat, wolf), 40,000 gp (brown bear, bat, crocodile, shark, tiger)
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -41,7 +45,7 @@ form lasts until she chooses to end it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [speak with animals](ref/spell/speak-with-animals),
-creator must be a skinwalker; **Cost** 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat,
-crocodile, shark, tiger)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [speak with animals](ref/spell/speak-with-animals), creator must be a skinwalker
+Cost: 12,000 gp (boar, rat, wolf), 20,000 gp (brown bear, bat, crocodile, shark, tiger)
+:::

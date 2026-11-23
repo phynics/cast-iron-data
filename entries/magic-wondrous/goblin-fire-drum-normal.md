@@ -22,8 +22,13 @@ caster_level = "3rd"
 
 ## Goblin Fire Drum
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp (Normal), 4,500 gp (Greater); **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 2,000 gp (Normal), 4,500 gp (Greater)
+Weight: 1 lb.
+:::
 
 This small crude-looking drum is attached to a strap long enough to loop around the wearer's neck. A
 successful DC 12 [Perform (percussion)](ref/skill/perform-any) check activates the drum, which
@@ -42,6 +47,7 @@ _[pyrotechnics](ref/spell/pyrotechnics)_ once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pyrotechnics](ref/spell/pyrotechnics), [spark](ref/spell/spark); **Cost** 1,000 gp (Normal), 2,250
-gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pyrotechnics](ref/spell/pyrotechnics), [spark](ref/spell/spark)
+Cost: 1,000 gp (Normal), 2,250 gp (Greater)
+:::

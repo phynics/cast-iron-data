@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 1/2 lb.
+:::
 
 Little distinguishes this bitter-smelling stick of incense from normal incense until it is lit. In
 still air, the incense's smoke permeates a 40-foot-by-40-foot area to a height of 20 feet. Within
@@ -39,6 +44,7 @@ corporeality burns for 1 hour. If extinguished, the remaining incense loses effe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor), [ghostbane dirge](ref/spell/ghostbane-dirge);
-**Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor), [ghostbane dirge](ref/spell/ghostbane-dirge)
+Cost: 700 gp
+:::

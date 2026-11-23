@@ -26,8 +26,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** shoulders; **Price** 2,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: shoulders
+Price: 2,700 gp
+Weight: 1 lb.
+:::
 
 This brilliant red cloak bears a golden symbol of an upright winged sword. The wearer can use
 _[bless](ref/spell/bless)_ once per day.
@@ -40,6 +45,7 @@ banner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [bless](ref/spell/bless), [silent image](ref/spell/silent-image);
-**Cost** 1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [bless](ref/spell/bless), [silent image](ref/spell/silent-image)
+Cost: 1,350 gp
+:::

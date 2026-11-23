@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** none; **Price** 150 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: none
+Price: 150 gp
+Weight: -
+:::
 
 If a character drinks this gray liquid, the next time (within 24 hours) he falls below 0 hit points,
 he exhales a sliver of his consciousness - whether he is alive or dead. If a character drinks
@@ -34,5 +39,7 @@ bonus and the ally. The bonus must be used within 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance)
+Cost: 75 gp
+:::

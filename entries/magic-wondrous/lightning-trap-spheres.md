@@ -20,8 +20,13 @@ aura = "strong evocation [electricity]"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation \[electricity\]; **CL** 13th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation \[electricity\]
+CL: 13th
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 These tiny spheres, crafted from a dull gray material and studded with tiny copper protuberances,
 come in sets of four. As a standard action, a user can throw four or more spheres at a single target
@@ -35,5 +40,7 @@ process. The price above is for a set of four lightning trap spheres.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[forcecage](ref/spell/forcecage), [lightning bolt](ref/spell/lightning-bolt); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [forcecage](ref/spell/forcecage), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 1,000 gp
+:::

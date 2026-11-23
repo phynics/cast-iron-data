@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 50,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 50,000 gp
+Weight: 2 lbs.
+:::
 
 This magic instrument comes in four varieties. Each appears to be a normal, scarred old horn used
 for hunting or signaling during battle. When someone speaks its command word and blows the horn,
@@ -47,5 +52,7 @@ fight until they or their opponents are slain or until 1 hour has elapsed, which
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster VI](ref/spell/summon-monster-6); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 25,000 gp
+:::

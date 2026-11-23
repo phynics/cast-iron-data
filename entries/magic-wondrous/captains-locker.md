@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 30,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 30,000 gp
+Weight: 150 lbs.
+:::
 
 This iron-banded sea chest is 2-1/2 feet by 3 feet by 4 feet in size and is decorated with chains
 and brass skulls. The chest has no lock, but any standard lock can be easily attached to its hasp.
@@ -42,6 +47,7 @@ feet of the means of egress.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage's magnificent mansion](ref/spell/mages-magnificent-mansion),
-[secret chest](ref/spell/secret-chest); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage's magnificent mansion](ref/spell/mages-magnificent-mansion), [secret chest](ref/spell/secret-chest)
+Cost: 15,000 gp
+:::

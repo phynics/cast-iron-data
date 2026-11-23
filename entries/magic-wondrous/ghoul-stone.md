@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 No matter how vigorous the attempt to clean it, this amulet is perpetually bloodied. Once per day,
 if the wearer eats a pound of flesh from a creature of its own race, the amulet grants the wearer a
@@ -37,5 +42,7 @@ damage. A creature reduced to 0 Strength by the amulet dies and rises 24 hours l
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[undead anatomy](ref/spell/undead-anatomy-1); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [undead anatomy](ref/spell/undead-anatomy-1)
+Cost: 2,700 gp
+:::

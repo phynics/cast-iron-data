@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 11th\
-**Slot** none; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 11th
+Slot: none
+Price: 10,000 gp
+Weight: -
+:::
 
 This tiny hourglass is filled with blood-red sand. The sand flows only one way and turning it to
 start the flow activates its magic. It grants a target creature within 30 feet the following
@@ -37,5 +42,7 @@ total before its magic is consumed. These rounds need not be consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement), [heal](ref/spell/heal); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement), [heal](ref/spell/heal)
+Cost: 5,000 gp
+:::

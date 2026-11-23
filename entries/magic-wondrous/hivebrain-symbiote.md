@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "9th"
 +++
 
-**Aura** faint transmutation; **CL** 9th\
-**Slot** neck; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 9th
+Slot: neck
+Price: 1,000 gp
+Weight: -
+:::
 
 This red maggot constantly writhes and distends, snapping a small pair of pincers. A combination of
 [hellwasp](ref/monster/hellwasp-swarm) and worm, the hivebrain symbiote grants an echo of a hive
@@ -35,5 +40,7 @@ hivebrain symbiote dies immediately if removed before this time elapses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 500 gp
+:::

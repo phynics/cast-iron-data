@@ -22,8 +22,13 @@ caster_level = "9th"
 
 ## Lucky Horseshoe
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 6,800 gp (normal), 15,000 gp (communal); **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 6,800 gp (normal), 15,000 gp (communal)
+Weight: 2 lbs.
+:::
 
 Although it appears to be a simple horseshoe, a lucky horseshoe focuses and channels the mystical
 energies of good fortune. As long as a lucky horseshoe's owner carries it on her person, she gains a
@@ -44,6 +49,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [hallow](ref/spell/hallow) (communal only); **Cost** 3,400
-gp (normal), 7,500 gp (communal)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [hallow](ref/spell/hallow) (communal only)
+Cost: 3,400 gp (normal), 7,500 gp (communal)
+:::

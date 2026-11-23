@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** hands; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: hands
+Price: 2,000 gp
+Weight: -
+:::
 
 Each of these fingerless worked leather gloves look as though they have seen heavy use, and often
 bear the stains or scent of grass or wet mud. On command, the wearer can use the gloves to see and
@@ -31,5 +36,7 @@ continuously for 24 hours before activating his ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 1,000 gp
+:::

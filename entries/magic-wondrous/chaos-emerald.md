@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "19th"
 +++
 
-**Aura** strong abjuration; **CL** 19th\
-**Slot** none; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 19th
+Slot: none
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This lustrous green gemstone is uncut and about the size of a human fist. The gem grants its bearer
 the use of the following abilities.
@@ -42,8 +47,7 @@ carried.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chaos hammer](ref/spell/chaos-hammer), [entropic shield](ref/spell/entropic-shield),
-[lesser confusion](ref/spell/confusion-lesser),
-[magic circle against law](ref/spell/magic-circle-against-law), creator must be chaotic; **Cost**
-12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chaos hammer](ref/spell/chaos-hammer), [entropic shield](ref/spell/entropic-shield), [lesser confusion](ref/spell/confusion-lesser), [magic circle against law](ref/spell/magic-circle-against-law), creator must be chaotic
+Cost: 12,500 gp
+:::

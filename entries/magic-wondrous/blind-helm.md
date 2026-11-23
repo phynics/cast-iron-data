@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** head; **Price** 85,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: head
+Price: 85,000 gp
+Weight: 3 lbs.
+:::
 
 This plain steel helm completely covers the face, lacking even eyeholes or a slit to peer out of.
 Its wearer is [blinded](ref/misc/blinded) by the helm, but gains [blindsense](ref/umr/blindsense)
@@ -33,6 +38,7 @@ _[true seeing](ref/spell/true-seeing)_ for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [echolocation](ref/spell/echolocation),
-[true seeing](ref/spell/true-seeing); **Cost** 42,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [echolocation](ref/spell/echolocation), [true seeing](ref/spell/true-seeing)
+Cost: 42,500 gp
+:::

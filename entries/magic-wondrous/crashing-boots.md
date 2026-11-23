@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** feet; **Price** 8,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: feet
+Price: 8,800 gp
+Weight: 2 lbs.
+:::
 
 These thick, stout boots, crafted from the hide of a [gorthek](ref/monster/orc-gorthek), grant their
 wearer a +2 enhancement bonus on attack rolls when [charging](ref/rule/charge). In addition, once
@@ -33,6 +38,7 @@ knocked prone in the space adjacent to the obstacle.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [enlarge person](ref/spell/enlarge-person); **Cost**
-4,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [enlarge person](ref/spell/enlarge-person)
+Cost: 4,400 gp
+:::

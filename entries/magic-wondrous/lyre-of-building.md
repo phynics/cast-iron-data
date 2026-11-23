@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 13,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 13,000 gp
+Weight: 5 lbs.
+:::
 
 This magical instrument is usually made of gold and inlaid with numerous gems. If the proper chords
 are struck, a single use of this lyre negates any attacks made against inanimate construction
@@ -42,5 +47,7 @@ passed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 6,500 gp
+:::

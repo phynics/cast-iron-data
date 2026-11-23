@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 45,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 45,000 gp
+Weight: 2 lbs.
+:::
 
 This horn of Valhalla is crafted for service to a cause, whether lofty or profane. Though not
 intelligent, it has an alignment as determined by the
@@ -33,6 +38,7 @@ as ordering lawful good barbarians to attack helpless villagers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster VI](ref/spell/summon-monster-6); **Cost** 25,000 gp (alignment restriction affects
-the item's market price, but not the cost to create the item)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 25,000 gp (alignment restriction affects the item's market price, but not the cost to create the item)
+:::

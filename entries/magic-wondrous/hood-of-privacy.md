@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** head; **Price** 120,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: head
+Price: 120,000 gp
+Weight: 1 lb.
+:::
 
 This voluminous silver hood shimmers like a scattered handful of diamonds. The hood completely
 covers the wearer's face, hiding his identity, but does not impair the wearer's senses. The wearer
@@ -36,5 +41,7 @@ week.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect scrying](ref/spell/detect-scrying), [mind blank](ref/spell/mind-blank); **Cost** 60,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect scrying](ref/spell/detect-scrying), [mind blank](ref/spell/mind-blank)
+Cost: 60,000 gp
+:::

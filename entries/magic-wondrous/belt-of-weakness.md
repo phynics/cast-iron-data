@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Weight: 1 lb.
+:::
 
 Appearing to be a wide leather belt that functions as a _belt of mighty constitution +4,_ this belt
 in fact saps the wearer's health rather than supplement it. A belt of weakness confers a -4 penalty

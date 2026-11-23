@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "15th"
 +++
 
-**Aura** strong varied; **CL** 15th\
-**Slot** head; **Price** 80,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong varied
+CL: 15th
+Slot: head
+Price: 80,000 gp
+Weight: 3 lbs.
+:::
 
 The helm of reclamation is designed to destroy large groups of undead or powerful individual undead
 creatures, and is often used by undead-hating clerics with a flair for the dramatic. The gems of
@@ -33,7 +38,7 @@ protect against fire or risk detonation.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [detect undead](ref/spell/detect-undead),
-[flame blade](ref/spell/flame-blade), [searing light](ref/spell/searing-light),
-[sunburst](ref/spell/sunburst); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [detect undead](ref/spell/detect-undead), [flame blade](ref/spell/flame-blade), [searing light](ref/spell/searing-light), [sunburst](ref/spell/sunburst)
+Cost: 40,000 gp
+:::

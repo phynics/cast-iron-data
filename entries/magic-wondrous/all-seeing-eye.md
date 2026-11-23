@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 5,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 5,500 gp
+Weight: 5 lbs.
+:::
 
 This hardened, oversized eyeball is nearly a foot in diameter. The possessor gains a +1 insight
 bonus on the saving throw DCs of any spells of the divination school he casts, as well as a +1
@@ -34,5 +39,7 @@ cast.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune),
-[guidance](ref/spell/guidance); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune), [guidance](ref/spell/guidance)
+Cost: 2,250 gp
+:::

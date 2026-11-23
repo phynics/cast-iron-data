@@ -26,8 +26,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 2,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 2,600 gp
+Weight: 1 lb.
+:::
 
 This belt writhes like a living snake, and even hisses and blinks its red eyes. It clasps by holding
 its tail in its mouth. The wearer gains a +1 enhancement bonus to natural armor.
@@ -37,6 +42,7 @@ wearer can use _[magic fang](ref/spell/magic-fang)_ on one of his own natural we
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [magic fang](ref/spell/magic-fang),
-[summon monster I](ref/spell/summon-monster-1); **Cost** 1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [magic fang](ref/spell/magic-fang), [summon monster I](ref/spell/summon-monster-1)
+Cost: 1,300 gp
+:::

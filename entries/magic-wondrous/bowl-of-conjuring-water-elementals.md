@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 90,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 90,000 gp
+Weight: 3 lbs.
+:::
 
 This large container is usually fashioned from silver with a rippled pattern. It is about 1 foot in
 diameter and half that deep. The bowl must be filled with fresh or salt water to function. On
@@ -35,6 +40,7 @@ summoning expires.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster V](ref/spell/summon-monster-5), [summon monster VI](ref/spell/summon-monster-6);
-**Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster V](ref/spell/summon-monster-5), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 45,000 gp
+:::

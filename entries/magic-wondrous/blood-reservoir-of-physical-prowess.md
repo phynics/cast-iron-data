@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This blown-glass vial has a chain for attaching it to the handle of a weapon. When filled with the
 wearer's blood, it gains powerful magic. Filling the reservoir takes a full minute, deals 4 points
@@ -44,5 +49,7 @@ cannot take Constitution damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell)
+Cost: 1,000 gp
+:::

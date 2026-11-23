@@ -23,8 +23,13 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 19th\
-**Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 19th
+Slot: none
+Price: 90,000 gp
+Weight: 500 lbs.
+:::
 
 An apparatus of the crab is a metallic magical vehicle. When unoccupied, it appears to be a large,
 sealed iron barrel big enough to hold two Medium creatures. Close examination, and a DC 20
@@ -56,6 +61,7 @@ natural); **Melee** 2 pincers +12 (2d8); **CMB** +14; **CMD** 24.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator
-must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering)
+Cost: 45,000 gp
+:::

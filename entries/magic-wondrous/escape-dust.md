@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: -
+:::
 
 When a handful of this coarse, crystalline powder is thrown at a single creature, it circles around
 that creature and disrupts its ability to attack and see. Using this dust requires a ranged touch
@@ -31,5 +36,7 @@ opportunity or immediate actions for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glitterdust](ref/spell/glitterdust); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glitterdust](ref/spell/glitterdust)
+Cost: 150 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** wrists; **Price** 26,760 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: wrists
+Price: 26,760 gp
+Weight: 4 lbs.
+:::
 
 These rugged stone armbands slip on easily and swiftly adjust to a size appropriate for the wearer.
 Once per day, the wearer can create a _[wall of stone](ref/spell/wall-of-stone)_ up to 2 inches
@@ -38,5 +43,7 @@ _[wall of stone](ref/spell/wall-of-stone)_ crumbles to dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wall of stone](ref/spell/wall-of-stone); **Cost** 13,380 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wall of stone](ref/spell/wall-of-stone)
+Cost: 13,380 gp
+:::

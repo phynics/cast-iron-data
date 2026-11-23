@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 The longer the wearer of these boots stays in one place - as long as that place is on solid ground -
 the harder it is to move her from that place. The wearer gains a cumulative +1 circumstance bonus to
@@ -29,5 +34,7 @@ her CMD (maximum of +10) for each round she does not move from her space.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[elemental body I](ref/spell/elemental-body-1); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [elemental body I](ref/spell/elemental-body-1)
+Cost: 4,000 gp
+:::

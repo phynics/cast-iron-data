@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** hands; **Price** 25,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: hands
+Price: 25,000 gp
+Weight: -
+:::
 
 The wearer of this single, black silk glove can use _[death knell](ref/spell/death-knell)_ on
 command. The target of _[death knell](ref/spell/death-knell)_ dies if it fails a DC 13 Fortitude
@@ -36,5 +41,7 @@ together.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [false life](ref/spell/false-life); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [false life](ref/spell/false-life)
+Cost: 12,500 gp
+:::

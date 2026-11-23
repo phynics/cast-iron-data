@@ -20,9 +20,13 @@ aura = "moderate (no school)"
 caster_level = "7th"
 +++
 
-**Aura** moderate (no school); **CL** 7th\
-**Slot** head; **Price** 1,500 gp (Type I), 6,000 gp (Type II), 13,500 gp (Type III), 24,000 gp
-(Type IV); **Weight** -
+::: statblock
+Aura: moderate (no school)
+CL: 7th
+Slot: head
+Price: 1,500 gp (Type I), 6,000 gp (Type II), 13,500 gp (Type III), 24,000 gp (Type IV)
+Weight: -
+:::
 
 Iridescent whorls and runes in a flowing eldritch script adorn this golden circlet. The circlet
 functions as a [ring of spell knowledge](ref/magic-ring/ring-of-spell-knowledge), allowing a
@@ -39,7 +43,7 @@ creator can cast the first spell lost to the item once per day as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 750 gp (Type I), 3,000 gp
-(Type II), 6,750 gp (Type III), 12,000 gp (Type IV)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 750 gp (Type I), 3,000 gp (Type II), 6,750 gp (Type III), 12,000 gp (Type IV)
+:::

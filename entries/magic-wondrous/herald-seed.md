@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** none; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: none
+Price: 8,000 gp
+Weight: -
+:::
 
 Twice per day, when thrown into the air as a standard action, this palm-sized, tufted, purple seed
 drifts at a rate of 60 feet per round toward a spot clearly visualized by the thrower. It can be
@@ -35,6 +40,7 @@ to where it was last thrown, even if the thrower can't visualize the location.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[commune with nature](ref/spell/commune-with-nature), [message](ref/spell/message); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune with nature](ref/spell/commune-with-nature), [message](ref/spell/message)
+Cost: 4,000 gp
+:::

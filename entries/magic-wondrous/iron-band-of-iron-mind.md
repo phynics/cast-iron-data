@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** headband; **Price** 15,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: headband
+Price: 15,000 gp
+Weight: 4 lbs.
+:::
 
 This headband grants a +4 bonus on saving throws against all enchantment spells. When worn by a
 creature with the giant subtype, it makes the wearer immune to enchantments that target only
@@ -30,6 +35,7 @@ humanoid creatures (such as [charm person](ref/spell/charm-person) or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[break enchantment](ref/spell/break-enchantment), creator must have the giant subtype; **Cost**
-7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [break enchantment](ref/spell/break-enchantment), creator must have the giant subtype
+Cost: 7,500 gp
+:::

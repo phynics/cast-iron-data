@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** wrists; **Price** 15,750 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: wrists
+Price: 15,750 gp
+Weight: -
+:::
 
 This bracelet is adorned with seven coral beads carved in intricate designs. When a critical hit or
 [sneak attack](ref/ability/sneak-attack) is confirmed on the wearer, as an immediate action before
@@ -34,5 +39,7 @@ up, the bracelet itself crumbles into powder.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[breath of life](ref/spell/breath-of-life); **Cost** 7,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [breath of life](ref/spell/breath-of-life)
+Cost: 7,875 gp
+:::

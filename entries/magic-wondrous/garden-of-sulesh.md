@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** genie seal; **Price** 56,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: genie seal
+Price: 56,000 gp
+Weight: -
+:::
 
 This magic metal imprint is a genie seal, a special type of item that must be crafted onto a
 receptacle that holds a genie via the minimus containment effect of a _[binding](ref/spell/binding)_
@@ -54,6 +59,7 @@ can be crafted onto the receptacle.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [binding](ref/spell/binding),
-[geas/quest](ref/spell/geas-quest), creator must have personally bound the genie contained within
-the receptacle upon which the seal is to be placed; **Cost** 28,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [binding](ref/spell/binding), [geas/quest](ref/spell/geas-quest), creator must have personally bound the genie contained within the receptacle upon which the seal is to be placed
+Cost: 28,000 gp
+:::

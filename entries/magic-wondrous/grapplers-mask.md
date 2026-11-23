@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** head; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: head
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This mask is fashioned from dark leather decorated with geometrical patterns that emphasize the
 wearer's fearsomeness. It covers the wearer's face, but leaves his mouth and eyes uncovered. The
@@ -33,6 +38,7 @@ provoking attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace),
-[expeditious retreat](ref/spell/expeditious-retreat); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), [expeditious retreat](ref/spell/expeditious-retreat)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and enchantment; **CL** 9th\
-**Slot** neck; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and enchantment
+CL: 9th
+Slot: neck
+Price: 15,000 gp
+Weight: -
+:::
 
 Once per day as a standard action, the wearer of this collar can speak a suggested course of action.
 Her words coalesce into a living whisper - a sinuous creature with blue runes lining its back - that
@@ -37,6 +42,7 @@ for 1 minute or until slain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[suggestion](ref/spell/suggestion), [summon monster III](ref/spell/summon-monster-3); **Cost** 7,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [suggestion](ref/spell/suggestion), [summon monster III](ref/spell/summon-monster-3)
+Cost: 7,500 gp
+:::

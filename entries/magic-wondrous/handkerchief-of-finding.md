@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 15,000 gp
+Weight: -
+:::
 
 This elegant, perfumed handkerchief always seems to be a dazzling white. The bearer can attune the
 handkerchief to himself by keeping it in his possession for 1 week. Once the handkerchief is attuned
@@ -30,5 +35,7 @@ on the same plane. A bearer unaware of the handkerchief's power cannot attune to
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate object](ref/spell/locate-object); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate object](ref/spell/locate-object)
+Cost: 7,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This copper-and-bronze whistle is played by blowing through the mouthpiece while opening and closing
 one's hand over the hole to modify the pitch. The whistle has 3 charges, which are automatically
@@ -48,6 +53,7 @@ effect instead of expending those charges.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[alter self](ref/spell/alter-self), creator must have the bardic performance class ability; **Cost**
-3,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [alter self](ref/spell/alter-self), creator must have the bardic performance class ability
+Cost: 3,350 gp
+:::

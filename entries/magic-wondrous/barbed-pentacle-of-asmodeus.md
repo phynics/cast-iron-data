@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** neck; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: neck
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This iron disk hangs from an iron chain, and is inscribed with an inverted pentagram and decorated
 around its outer edge with tiny metal barbs. When worn, it provides a +1 deflection bonus to AC.
@@ -40,6 +45,7 @@ augmented by writing (such as [magic circle against evil](ref/spell/magic-circle
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[charm person](ref/spell/charm-person), [shield of faith](ref/spell/shield-of-faith); **Cost** 1,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [charm person](ref/spell/charm-person), [shield of faith](ref/spell/shield-of-faith)
+Cost: 1,500 gp
+:::

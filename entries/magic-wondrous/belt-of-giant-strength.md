@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 4,000 gp (+2), 16,000 gp (+4), 36,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the
 wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a
@@ -32,5 +37,7 @@ wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength); **Cost** 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength)
+Cost: 2,000 gp (+2), 8,000 gp (+4), 18,000 gp (+6)
+:::

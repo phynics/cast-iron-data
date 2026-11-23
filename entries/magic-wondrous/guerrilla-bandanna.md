@@ -20,8 +20,13 @@ aura = "moderate enchantment and illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment and illusion; **CL** 10th\
-**Slot** headband; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment and illusion
+CL: 10th
+Slot: headband
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 Used by warband leaders in Nirmathas, a guerrilla bandanna is a plain brown and green bandanna that
 can be tied around the forehead. The wearer gains a +5 competence bonus on
@@ -35,5 +40,7 @@ to the attack roll bonus his allies gain from that ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[instant enemy](ref/spell/instant-enemy), [invisibility](ref/spell/invisibility); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [instant enemy](ref/spell/instant-enemy), [invisibility](ref/spell/invisibility)
+Cost: 9,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 This small opaque flask releases a thick stream of coarse white fur when opened. This fur creeps up
 the user's arm and across her entire body until she is completely covered in a tangled pelt. While
@@ -32,5 +37,7 @@ expended after one use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [resist energy](ref/spell/resist-energy); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [resist energy](ref/spell/resist-energy)
+Cost: 400 gp
+:::

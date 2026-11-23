@@ -20,8 +20,13 @@ aura = "moderate conjuration (teleportation)"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration (teleportation); **CL** 11th\
-**Slot** none; **Price** 24,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration (teleportation)
+CL: 11th
+Slot: none
+Price: 24,000 gp
+Weight: 3 lbs.
+:::
 
 Excavated within the Shackles among the temples of its lost Ghol-Gan culture, these stone disks
 display whorls of symbols in the dead language of that dead kingdom, centered about a sphere of
@@ -33,5 +38,7 @@ Most of these are in the hands of Shackles pirate lords.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[word of recall](ref/spell/word-of-recall); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [word of recall](ref/spell/word-of-recall)
+Cost: 12,000 gp
+:::

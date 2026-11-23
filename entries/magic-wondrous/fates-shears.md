@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 6th\
-**Slot** none; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 6th
+Slot: none
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 The blades of these antique scissors are engraved with images of an infant, a child, an adult, and
 an elder (female images on one blade, male images on the other). The blades are permanently coated
@@ -36,6 +41,7 @@ ability. In addition, the bearer can use _[deathwatch](ref/spell/deathwatch)_ on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane),
-[bless](ref/spell/bless), [deathwatch](ref/spell/deathwatch), [grease](ref/spell/grease); **Cost**
-1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane), [bless](ref/spell/bless), [deathwatch](ref/spell/deathwatch), [grease](ref/spell/grease)
+Cost: 1,800 gp
+:::

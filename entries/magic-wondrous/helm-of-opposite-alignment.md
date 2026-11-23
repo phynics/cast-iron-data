@@ -23,8 +23,12 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** head; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: head
+Weight: 3 lbs.
+:::
 
 When placed upon the head, this item's curse immediately takes effect (Will DC 15 negates). On a
 failed save, the alignment of the wearer is radically altered to an alignment as different as
@@ -43,6 +47,7 @@ it loses its magical properties.
 
 ### Construction
 
-**Requirements** [hat of disguise](ref/magic-wondrous/hat-of-disguise),
-[helm of comprehend languages and read magic](ref/magic-wondrous/helm-of-comprehend-languages-and-read-magic),
-[helm of telepathy](ref/magic-wondrous/helm-of-telepathy); **Cost** -
+::: statblock
+Requirements: [hat of disguise](ref/magic-wondrous/hat-of-disguise), [helm of comprehend languages and read magic](ref/magic-wondrous/helm-of-comprehend-languages-and-read-magic), [helm of telepathy](ref/magic-wondrous/helm-of-telepathy)
+Cost: -
+:::

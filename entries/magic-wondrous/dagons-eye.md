@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and evocation; **CL** 5th\
-**Slot** none; **Price** 12,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination and evocation
+CL: 5th
+Slot: none
+Price: 12,600 gp
+Weight: 2 lbs.
+:::
 
 This chunk of yellow crystal glows like a [torch](ref/eq-misc/torch), shedding normal light in a
 20-foot radius and increasing the light level for an additional 20 feet by one step, up to normal
@@ -39,6 +44,7 @@ ability functions once every 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages),
-[explosive runes](ref/spell/explosive-runes), creator must worship a demon lord; **Cost** 6,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [explosive runes](ref/spell/explosive-runes), creator must worship a demon lord
+Cost: 6,300 gp
+:::

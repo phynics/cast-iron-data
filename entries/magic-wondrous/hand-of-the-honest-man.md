@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 This mummified human hand comes from an honest man punished for a crime he didn't commit, and is
 dried and hung from a simple twine thong around the neck. The hand's scapegoat origins offer some
@@ -41,5 +46,7 @@ a -2 penalty on all [Bluff](ref/skill/bluff) checks while wearing the hand.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove curse](ref/spell/remove-curse); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove curse](ref/spell/remove-curse)
+Cost: 1,500 gp
+:::

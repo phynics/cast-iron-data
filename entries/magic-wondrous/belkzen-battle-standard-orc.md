@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 34,000 gp
+Weight: 3 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -36,5 +41,7 @@ emblem is represented.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-creator must be an orc; **Cost** 17,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), creator must be an orc
+Cost: 17,000 gp
+:::

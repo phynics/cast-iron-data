@@ -20,8 +20,13 @@ aura = "faint evocation and enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and enchantment; **CL** 5th\
-**Slot** none; **Price** 6,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation and enchantment
+CL: 5th
+Slot: none
+Price: 6,400 gp
+Weight: 2 lbs.
+:::
 
 On command, this ornate Qadiran [hooded lantern](ref/eq-misc/hooded-lantern) lights itself with a
 _[continual flame](ref/spell/continual-flame)_ or extinguishes itself. Once per day when holding the
@@ -31,5 +36,7 @@ effect, though this effect immediately ends if the lantern is moved or its light
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[consecrate](ref/spell/consecrate), [continual flame](ref/spell/continual-flame); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [consecrate](ref/spell/consecrate), [continual flame](ref/spell/continual-flame)
+Cost: 3,200 gp
+:::

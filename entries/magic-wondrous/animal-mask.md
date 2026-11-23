@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 2,700 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 2,700 gp
+Weight: -
+:::
 
 This finely constructed mask of colored cloth and carved bone incorporates parts of the animal it
 represents, such as its hair, hide, horn, fur, and teeth. Depicting the head of an ape, bear, boar,
@@ -40,5 +45,7 @@ This duration does not need to be consecutive, but it must be used in 1-minute i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 1,350 gp
+:::

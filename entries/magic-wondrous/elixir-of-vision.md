@@ -23,13 +23,20 @@ aura = "faint divination"
 caster_level = "2nd"
 +++
 
-**Aura** faint divination; **CL** 2nd\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 2nd
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 Drinking this elixir grants the imbiber the ability to notice acute details with great accuracy (+10
 competence bonus on [Perception](ref/skill/perception) checks for 1 hour).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 125 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 This preparation of herbs includes belladonna, mandrake, and foxglove (also known as "witch's
 glove"), all carefully measured and mixed into a base of rendered fats. When rubbed over the skin,
@@ -33,5 +38,7 @@ _[overland flight](ref/spell/overland-flight)_ spell) for up to 9 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight)
+Cost: 1,125 gp
+:::

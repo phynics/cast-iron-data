@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 6,700 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 6,700 gp
+Weight: 2 lbs.
+:::
 
 This calfskin drum is painted with an image of a grinning skull, and comes with a giant's finger
 bones to use as beaters. A creature with at least 1 rank in
@@ -41,6 +46,7 @@ A bonedancer bodhran can be used for 9 rounds per day; these rounds need not be 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[command undead](ref/spell/command-undead), creator must have the bardic performance class ability;
-**Cost** 3,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command undead](ref/spell/command-undead), creator must have the bardic performance class ability
+Cost: 3,350 gp
+:::

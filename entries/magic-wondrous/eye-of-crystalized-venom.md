@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 2,250 gp
+Weight: -
+:::
 
 This thick, smooth leather collar is made from delicate but sturdy panels of calfskin and has a
 dainty green gem dangling from its center in an elaborate golden setting. The gem glows when poisons
@@ -32,5 +37,7 @@ second roll, even if it is worse. Activating this ability destroys the collar.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect poison](ref/spell/detect-poison), [delay poison](ref/spell/delay-poison); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect poison](ref/spell/detect-poison), [delay poison](ref/spell/delay-poison)
+Cost: 1,125 gp
+:::

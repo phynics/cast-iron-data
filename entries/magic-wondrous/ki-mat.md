@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: 3 lbs.
+:::
 
 This humble pad of woven river reeds allows its owner to recover his mental fortitude and ki pool by
 practicing breathing exercises and other forms of meditation. Each hour its owner spends sitting on
@@ -35,5 +40,7 @@ checks, do not automatically succeed on a 20). If the check is successful, the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser), creator must be a monk; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), creator must be a monk
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: none
+Price: 16,000 gp
+Weight: 1/2 lb.
+:::
 
 This bright silver piccolo has an uncanny connection to the alien Dark Tapestry and produces only
 disjointed notes when played, no matter how talented the user. In fact, talented performers produce
@@ -34,5 +39,7 @@ piccolo for 24 hours. This is a mind-affecting effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cacophonous call](ref/spell/cacophonous-call); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cacophonous call](ref/spell/cacophonous-call)
+Cost: 8,000 gp
+:::

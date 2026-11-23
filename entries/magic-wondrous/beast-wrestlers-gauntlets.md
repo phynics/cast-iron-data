@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** hands; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: hands
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 These gauntlets grant a +1 enhancement bonus on [grapple](ref/rule/grapple) checks. Each pair of
 gauntlets is created to fight a specific type or subtype of creature from the list of creature types
@@ -31,5 +36,7 @@ additional 2d6 points of nonlethal damage when dealing damage as part of a succe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster I](ref/spell/summon-monster-1); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster I](ref/spell/summon-monster-1)
+Cost: 3,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** neck; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: neck
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This black iron choker chain forges a link between the wearer and any undead creature of the
 wearer's choice. Creating this link requires a command word. The wearer can dismiss this bond with
@@ -33,6 +38,7 @@ of damage per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other) or [unwilling shield](ref/spell/unwilling-shield); **Cost**
-7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other) or [unwilling shield](ref/spell/unwilling-shield)
+Cost: 7,000 gp
+:::

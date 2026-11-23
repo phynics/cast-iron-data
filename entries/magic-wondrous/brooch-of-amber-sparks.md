@@ -20,8 +20,13 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and evocation; **CL** 5th\
-**Slot** neck; **Price** 16,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and evocation
+CL: 5th
+Slot: neck
+Price: 16,800 gp
+Weight: 1 lb.
+:::
 
 This copper clasp adorned with a piece of amber is used to fasten a cloak or cape. When its wearer
 takes electricity damage, this brooch absorbs up to 20 points of electrical damage and holds that
@@ -33,6 +38,7 @@ points of damage held).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resist energy](ref/spell/resist-energy), [shocking grasp](ref/spell/shocking-grasp); **Cost** 8,400
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resist energy](ref/spell/resist-energy), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 8,400 gp
+:::

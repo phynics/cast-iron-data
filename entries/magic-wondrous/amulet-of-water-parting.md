@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 This [amulet of natural armor +2](ref/magic-wondrous/amulet-of-natural-armor-2) is carved from
 [blackwood](ref/eq-material/blackwood) and often takes abstract artistic forms that incorporate
@@ -32,5 +37,7 @@ effects that require an attack roll.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [control water](ref/spell/control-water); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [control water](ref/spell/control-water)
+Cost: 5,000 gp
+:::

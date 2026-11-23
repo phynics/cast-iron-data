@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 54,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 54,000 gp
+Weight: 30 lbs.
+:::
 
 This telescope has over a dozen lenses and measurement devices attached to it. An astrologer's
 telescope functions as a [telescope with ×50 magnification](ref/eq-misc/telescope-x50).
@@ -52,6 +57,7 @@ removes the previous benefit, regardless of whether the new attempt succeeds or 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination), creator has at least 10 ranks in Knowledge (geography); **Cost**
-27,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination), creator has at least 10 ranks in Knowledge (geography)
+Cost: 27,000 gp
+:::

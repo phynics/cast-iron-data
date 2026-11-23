@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 7,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 7,000 gp
+Weight: -
+:::
 
 This bottle is crafted from the darkest ebony. When opened and held upright, faint whispers can be
 heard emanating from the bottle's mouth. The bottle initially has 4 charges. When turned upside
@@ -32,5 +37,7 @@ automatically restored to 4 charges at sundown.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead)
+Cost: 3,500 gp
+:::

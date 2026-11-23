@@ -20,8 +20,13 @@ aura = "faint conjuration and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and necromancy; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and necromancy
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This miniature sword emblazoned with a sunburst functions as a holy symbol of
 [Iomedae](ref/faith/iomedae). If Iomedae is the bearer's patron, when
@@ -35,5 +40,7 @@ dispelled.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sunburst](ref/spell/sunburst), creator must be a worshiper of Iomedae; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sunburst](ref/spell/sunburst), creator must be a worshiper of Iomedae
+Cost: 2,500 gp
+:::

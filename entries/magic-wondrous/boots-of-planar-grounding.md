@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** feet; **Price** 25,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: feet
+Price: 25,000 gp
+Weight: -
+:::
 
 These heavy, iron-soled boots link the wearer with the plane she is on. The wearer always counts as
 being on her home plane, regardless of the plane she is on, and she never gains the extraplanar
@@ -29,5 +34,7 @@ subtype.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 12,500 gp
+:::

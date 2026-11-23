@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** none; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: none
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 When the end of this gray hemp rope is held and the command word is uttered, it is irrevocably
 transmuted into solid iron. The transmuted rope loses all magic and has the
@@ -31,5 +36,7 @@ harden individually.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope)
+Cost: 375 gp
+:::

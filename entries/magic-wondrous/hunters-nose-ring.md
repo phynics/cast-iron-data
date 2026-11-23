@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 10,000 gp
+Weight: -
+:::
 
 This nose ring seems to be braided from five platinum strands. It grants its wearer the
 [scent](ref/umr/scent) ability along with a +4 competence bonus on
@@ -30,5 +35,7 @@ checks to track using scent.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bloodhound](ref/spell/bloodhound), platinum ring worth 250 gp; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bloodhound](ref/spell/bloodhound), platinum ring worth 250 gp
+Cost: 5,000 gp
+:::

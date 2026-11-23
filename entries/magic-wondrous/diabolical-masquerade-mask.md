@@ -20,8 +20,13 @@ aura = "faint conjuration, enchantment, and illusion"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration, enchantment, and illusion; **CL** 1st\
-**Slot** head; **Price** 2,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration, enchantment, and illusion
+CL: 1st
+Slot: head
+Price: 2,900 gp
+Weight: 1 lb.
+:::
 
 This masquerade mask resembles a handsome horned devil with red lenses in place of eyes. It
 functions as a [hat of disguise](ref/magic-wondrous/hat-of-disguise). The wearer can use
@@ -32,6 +37,7 @@ the disguise remain).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [disguise self](ref/spell/disguise-self),
-[infernal healing](ref/spell/infernal-healing); **Cost** 1,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [disguise self](ref/spell/disguise-self), [infernal healing](ref/spell/infernal-healing)
+Cost: 1,450 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong illusion and necromancy"
 caster_level = "14th"
 +++
 
-**Aura** strong illusion and necromancy; **CL** 14th\
-**Slot** head; **Price** 90,000 gp; **Weight** -
+::: statblock
+Aura: strong illusion and necromancy
+CL: 14th
+Slot: head
+Price: 90,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -46,6 +51,7 @@ aura automatically suffers a _[nightmare](ref/spell/nightmare)_ (DC 17) evoking 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cloak of dreams](ref/spell/cloak-of-dreams), [major curse](ref/spell/curse-major),
-[nightmare](ref/spell/nightmare), creator must be a changeling; **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cloak of dreams](ref/spell/cloak-of-dreams), [major curse](ref/spell/curse-major), [nightmare](ref/spell/nightmare), creator must be a changeling
+Cost: 45,000 gp
+:::

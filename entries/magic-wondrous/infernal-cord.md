@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 5,000 gp (Normal), 31,000 gp (Greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 5,000 gp (Normal), 31,000 gp (Greater)
+Weight: 1 lb.
+:::
 
 The entirety of this thick hide belt is scarred with impressions of fiendish visages, each shifting
 between a scowl and a smile. Commonly used by the servants of [Asmodeus](ref/faith/asmodeus) in
@@ -50,6 +55,7 @@ creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [infernal healing](ref/spell/infernal-healing);
-**Cost** 2,500 gp (Normal), 15,500 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [infernal healing](ref/spell/infernal-healing)
+Cost: 2,500 gp (Normal), 15,500 gp (Greater)
+:::

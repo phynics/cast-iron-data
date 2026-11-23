@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 30,000 gp; **Weight** 250 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 30,000 gp
+Weight: 250 lbs.
+:::
 
 This beautiful, gem-encrusted golden chest measures 4 feet long, 2 feet wide, and 4 feet tall. The
 chest of the mercane is engraved with symbols of wealth and trade, and comes with an equally ornate
@@ -54,6 +59,7 @@ mercane requires that they be picked up in person.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contact other plane](ref/spell/contact-other-plane), [secret chest](ref/spell/secret-chest);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contact other plane](ref/spell/contact-other-plane), [secret chest](ref/spell/secret-chest)
+Cost: 15,000 gp
+:::

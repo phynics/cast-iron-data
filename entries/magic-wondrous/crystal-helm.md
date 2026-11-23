@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 24,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 24,000 gp
+Weight: 3 lbs.
+:::
 
 This clear, spherical helm resembles a giant bowl the wearer inverts over his head. Donning or
 removing the crystal helm requires a standard action, as an invisible magical film stretches across
@@ -33,6 +38,7 @@ creature that dons the crystal helm without knowing its power may be in for a sh
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air breathing](ref/spell/air-breathing), [water breathing](ref/spell/water-breathing); **Cost**
-12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air breathing](ref/spell/air-breathing), [water breathing](ref/spell/water-breathing)
+Cost: 12,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** none; **Price** 1,700 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: none
+Price: 1,700 gp
+Weight: -
+:::
 
 This fan, a favorite tool of courtiers and courtesans, is usually decorated with a delicate design
 of flowers or geometric patterns. Once per day, the wielder can use the fan to attempt to completely
@@ -35,6 +40,7 @@ _[charm person](ref/spell/charm-person)_).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [hypnotism](ref/spell/hypnotism),
-[lock gaze](ref/spell/lock-gaze); **Cost** 850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [hypnotism](ref/spell/hypnotism), [lock gaze](ref/spell/lock-gaze)
+Cost: 850 gp
+:::

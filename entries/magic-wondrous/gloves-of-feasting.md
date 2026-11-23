@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** hands; **Price** 8,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: hands
+Price: 8,400 gp
+Weight: 1/2 lb.
+:::
 
 Each of these leather gloves has a large, ragged hole in the palm. Upon donning the gloves, the
 wearer is [nauseated](ref/misc/nauseated) with pain for 1 round as the skin on his palms rips open,
@@ -39,5 +44,7 @@ modifier for a Medium wearer (1d3 + his Strength modifier if he's Small).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 4,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 4,200 gp
+:::

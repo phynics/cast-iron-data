@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 1,800 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 1,800 gp
+Weight: -
+:::
 
 Scintillating colors swirl through this liquid. The elixir grants the drinker 100 points of
 protection from the first type of elemental damage he takes after drinking it. Unused points of
@@ -29,5 +34,7 @@ protection dissipate 1 hour after the liquid is consumed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from energy](ref/spell/protection-from-energy); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from energy](ref/spell/protection-from-energy)
+Cost: 900 gp
+:::

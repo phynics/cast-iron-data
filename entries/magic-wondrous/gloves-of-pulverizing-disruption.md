@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 9,400 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 9,400 gp
+Weight: -
+:::
 
 Three times per day, the wearer can use these thick leather gloves to make a melee touch attack
 against an undead creature, a construct, or a nonmagical object and deal 3d4 points of damage to it.
@@ -33,5 +38,7 @@ before 24 hours elapses, the dust disappears.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[corrosive touch](ref/spell/corrosive-touch); **Cost** 4,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [corrosive touch](ref/spell/corrosive-touch)
+Cost: 4,700 gp
+:::

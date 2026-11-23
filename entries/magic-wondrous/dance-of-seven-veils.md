@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 9th\
-**Slot** head or neck; **Price** 27,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 9th
+Slot: head or neck
+Price: 27,000 gp
+Weight: -
+:::
 
 This scarf is crafted from fine, almost transparent silk of a deep red hue. When worn about the head
 as a veil or the neck as a scarf, the dance of seven veils disguises the wearer in a different
@@ -32,7 +37,7 @@ Charisma.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor),
-[fox's cunning](ref/spell/foxs-cunning), [levitate](ref/spell/levitate),
-[feather fall](ref/spell/feather-fall); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), [levitate](ref/spell/levitate), [feather fall](ref/spell/feather-fall)
+Cost: 13,500 gp
+:::

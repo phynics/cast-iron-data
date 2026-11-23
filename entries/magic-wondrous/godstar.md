@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: 5 lbs.
+:::
 
 This small star is made of a brittle metal alloy and attaches easily to armor or a gauntlet. Each of
 the star's points is keyed to a specific god and can serve as a holy symbol for that god. As a
@@ -53,7 +58,7 @@ When broken off, each of the godstar's points provide effects as follows.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burst of insight](ref/spell/burst-of-insight), [magic weapon](ref/spell/magic-weapon),
-[remove fear](ref/spell/remove-fear), [resist energy](ref/spell/resist-energy),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burst of insight](ref/spell/burst-of-insight), [magic weapon](ref/spell/magic-weapon), [remove fear](ref/spell/remove-fear), [resist energy](ref/spell/resist-energy), [zone of truth](ref/spell/zone-of-truth)
+Cost: 500 gp
+:::

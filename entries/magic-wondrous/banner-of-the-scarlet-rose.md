@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 18,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 18,000 gp
+Weight: 3 lbs.
+:::
 
 This flag bears an image of a red rose on a silvery field. Made for the
 [Scarlet Rose's](ref/rule/aff-scarred-ladies) standard-bearers, these flags offer protection to the
@@ -42,6 +47,7 @@ throws against mind-affecting effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[good hope](ref/spell/good-hope), [resistance](ref/spell/resistance), [shield](ref/spell/shield);
-**Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [good hope](ref/spell/good-hope), [resistance](ref/spell/resistance), [shield](ref/spell/shield)
+Cost: 9,000 gp
+:::

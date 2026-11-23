@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 An engraving of a charging rhinoceros decorates this thick leather belt. The belt grants its wearer
 a +2 enhancement bonus to Strength. Treat this as a
@@ -34,5 +39,7 @@ as if they were [one size category larger](ref/misc/damage-die-adjustments) than
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [lead blades](ref/spell/lead-blades); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [lead blades](ref/spell/lead-blades)
+Cost: 5,000 gp
+:::

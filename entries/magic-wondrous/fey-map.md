@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 16,200 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 16,200 gp
+Weight: -
+:::
 
 This stylized and labeled map of the First World constantly shifts to reflect the relative locations
 of dozens of major geographical features, settlements, and other key locations. In addition, a tiny
@@ -39,6 +44,7 @@ appear spontaneously in familiar territory as the First World shifts.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar orientation](ref/spell/planar-orientation), [teleport](ref/spell/teleport); **Cost** 8,100
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar orientation](ref/spell/planar-orientation), [teleport](ref/spell/teleport)
+Cost: 8,100 gp
+:::

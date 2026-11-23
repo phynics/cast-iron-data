@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 8,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 8,400 gp
+Weight: 1/2 lb.
+:::
 
 Each of these special tapers is dedicated to one of the nine alignments. Simply burning the candle
 generates a favorable aura for the individual if the candle's alignment matches that of the
@@ -45,5 +50,7 @@ process.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-creator must be same alignment as candle created; **Cost** 4,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), creator must be same alignment as candle created
+Cost: 4,200 gp
+:::

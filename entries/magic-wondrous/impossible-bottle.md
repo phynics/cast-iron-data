@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** none; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: none
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 An intricately detailed miniature sailing ship sits inside this clear glass bottle. When taken
 aboard an undamaged sailing vessel at sea, the model automatically reconfigures to become a perfect
@@ -46,7 +51,7 @@ the vessel.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[make whole](ref/spell/make-whole), [shield other](ref/spell/shield-other),
-[shrink item](ref/spell/shrink-item), creator must have 5 ranks in the
-[Craft (ships)](ref/skill/craft-any) skill; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [make whole](ref/spell/make-whole), [shield other](ref/spell/shield-other), [shrink item](ref/spell/shrink-item), creator must have 5 ranks in the [Craft (ships)](ref/skill/craft-any) skill
+Cost: 10,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and necromancy; **CL** 5th\
-**Slot** none; **Price** 9,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint divination and necromancy
+CL: 5th
+Slot: none
+Price: 9,000 gp
+Weight: 5 lbs.
+:::
 
 Approximately 10 inches on each side, these two square, brass-colored metal plates have rubber edges
 and screws at each corner used to tighten the plates like a clamp. In the center of the top plate is
@@ -43,6 +48,7 @@ Confabulation plates can be used once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead), [speak with plants](ref/spell/speak-with-plants);
-**Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead), [speak with plants](ref/spell/speak-with-plants)
+Cost: 4,500 gp
+:::

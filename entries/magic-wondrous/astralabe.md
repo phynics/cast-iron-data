@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: none
+Price: 16,000 gp
+Weight: 3 lbs.
+:::
 
 An astralabe is essentially an extraplanar compass: a device that explorers of the planes can use to
 orient themselves in realms without shared cardinal directions or physical laws. The device creates
@@ -56,6 +61,7 @@ continuously while on any plane other than the Material Plane.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know direction](ref/spell/know-direction), cannot be created on the Material Plane; **Cost** 8,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know direction](ref/spell/know-direction), cannot be created on the Material Plane
+Cost: 8,000 gp
+:::

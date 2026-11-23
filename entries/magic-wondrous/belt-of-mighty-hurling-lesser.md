@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th (lesser), 12th (greater)"
 +++
 
-**Aura** moderate transmutation; **CL** 8th (lesser), 12th (greater)\
-**Slot** belt; **Price** 14,000 gp (lesser), 42,000 (greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th (lesser), 12th (greater)
+Slot: belt
+Price: 14,000 gp (lesser), 42,000 (greater)
+Weight: 1 lb.
+:::
 
 This thick leather belt is buckled with a bright bronze clasp in the shape of a fist. When worn, it
 grants its wearer an enhancement bonus to Strength and allows him to apply his Strength modifier as
@@ -38,7 +43,7 @@ bonus to Strength as a temporary ability bonus for the first 24 hours the belt i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [longshot](ref/spell/longshot),
-[returning weapon](ref/spell/returning-weapon) (greater belt of mighty hurling only); **Cost** 7,000
-gp (lesser), 21,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [longshot](ref/spell/longshot), [returning weapon](ref/spell/returning-weapon) (greater belt of mighty hurling only)
+Cost: 7,000 gp (lesser), 21,000 gp (greater)
+:::

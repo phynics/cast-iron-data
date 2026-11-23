@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 9th\
-**Slot** none; **Price** 16,500 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 9th
+Slot: none
+Price: 16,500 gp
+Weight: 20 lbs.
+:::
 
 This wood-and-leather [riding saddle](ref/eq-misc/saddle-riding) is stitched with icons of warriors
 on horseback. The saddle is of archaic design, with a thick girth, high cantle, and no stirrups. It
@@ -36,5 +41,7 @@ cruelly, the awakened animal may attempt to unseat or attack the rider.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [awaken](ref/spell/awaken),
-[speak with animals](ref/spell/speak-with-animals); **Cost** 8,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [awaken](ref/spell/awaken), [speak with animals](ref/spell/speak-with-animals)
+Cost: 8,250 gp
+:::

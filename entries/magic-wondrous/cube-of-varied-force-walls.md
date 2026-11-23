@@ -28,10 +28,13 @@ caster_level = "10th"
 
 ## Cube of Force
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 40,000 gp (discriminating cube), 56,000 gp (cube of varied force walls),
-62,000 gp (cube of force), 70,000 gp (independent cube of force, rechargeable cube of force, remote
-activation cube) ; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 40,000 gp (discriminating cube), 56,000 gp (cube of varied force walls), 62,000 gp (cube of force), 70,000 gp (independent cube of force, rechargeable cube of force, remote activation cube)
+Weight: 1/2 lb.
+:::
 
 This device is just under an inch across and can be made of ivory, bone, or any hard mineral.
 Typically, each of the cube's faces are polished smooth, but sometimes they are etched with runes.

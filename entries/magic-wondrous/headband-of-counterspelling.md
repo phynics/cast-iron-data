@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** headband; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: headband
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This metal headband grants a +5 insight bonus on [Spellcraft](ref/skill/spellcraft) checks made to
 identify a spell as it is being cast. Furthermore, once per day the wearer can attempt to
@@ -31,5 +36,7 @@ before countering a spell with this headband.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spell turning](ref/spell/spell-turning); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spell turning](ref/spell/spell-turning)
+Cost: 10,000 gp
+:::

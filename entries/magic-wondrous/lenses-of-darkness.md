@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** eyes; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: eyes
+Price: 12,000 gp
+Weight: -
+:::
 
 Crafted from a dark-colored crystalline material and infused with magical darkness, these lenses fit
 over the wearer's eyes. When worn by a creature with [light sensitivity](ref/umr/light-sensitivity)
@@ -31,5 +36,7 @@ worn for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness)
+Cost: 6,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 400 gp
+Weight: 1/2 lb.
+:::
 
 This ornate brass key automatically reshapes itself to fit any standard keyhole (generally those in
 doors scaled for use by Small or Medium creatures, not deliberately oversized locks like the main
@@ -37,5 +42,7 @@ mechanism operable again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hold portal](ref/spell/hold-portal); **Cost** 200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hold portal](ref/spell/hold-portal)
+Cost: 200 gp
+:::

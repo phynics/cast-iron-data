@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 28,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 28,500 gp
+Weight: 2 lbs.
+:::
 
 This well-worn doll is 18 inches tall, and its floppy limbs and fine clothing are patched in several
 places. Pressing the doll's left button-eye causes it to become preternaturally rigid and affix
@@ -46,8 +51,10 @@ Ninahu's Doll can move under its own power, but only to block a perceived threat
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other), [telekinesis](ref/spell/telekinesis); **Price** 14,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other), [telekinesis](ref/spell/telekinesis)
+Price: 14,250 gp
+:::
 
 ### Statistics
 

@@ -20,8 +20,12 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Weight: 1 lb.
+:::
 
 These simple calfskin gloves intensify the avaricious inclinations of their wearer. Kleptomaniac's
 gloves confer the same +5 competence bonus on [Sleight of Hand](ref/skill/sleight-of-hand) checks as
@@ -34,4 +38,7 @@ Kleptomaniac's gloves can be removed only after the wearer benefits from a
 
 ### Construction
 
-**Requirements** [gloves of larceny](ref/magic-wondrous/gloves-of-larceny); **Cost** -
+::: statblock
+Requirements: [gloves of larceny](ref/magic-wondrous/gloves-of-larceny)
+Cost: -
+:::

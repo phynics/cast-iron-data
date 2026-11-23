@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** wrists; **Price** 14,500 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: wrists
+Price: 14,500 gp
+Weight: -
+:::
 
 This heavy gold band can be worn openly as a display of wealth or concealed beneath a sleeve. It
 grants its wearer a +5 competence bonus on [Bluff](ref/skill/bluff),
@@ -32,6 +37,7 @@ exact nature of the deception.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[discern lies](ref/spell/discern-lies), [detect thoughts](ref/spell/detect-thoughts); **Cost** 7,250
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [discern lies](ref/spell/discern-lies), [detect thoughts](ref/spell/detect-thoughts)
+Cost: 7,250 gp
+:::

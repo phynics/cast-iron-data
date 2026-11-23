@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** wrists; **Price** 7,200 gp; **Weight** 1 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: wrists
+Price: 7,200 gp
+Weight: 1 lbs.
+:::
 
 An armiger's panoply is a magic item set made up of one pair of bracers and a large leather sack.
 The bracers are normally forearm guards made in the style of [masterwork](ref/rule/masterwork-armor)
@@ -41,5 +46,7 @@ trapped in.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[effortless armor](ref/spell/effortless-armor); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [effortless armor](ref/spell/effortless-armor)
+Cost: 3,600 gp
+:::

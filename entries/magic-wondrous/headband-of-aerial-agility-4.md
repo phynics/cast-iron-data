@@ -22,8 +22,13 @@ caster_level = "8th"
 
 ## Headband of Aerial Agility
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** headband; **Price** 4,500 gp (+2), 42,000 gp (+4), 81,000 gp (+6); **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: headband
+Price: 4,500 gp (+2), 42,000 gp (+4), 81,000 gp (+6)
+Weight: -
+:::
 
 This headband is decorated with feathers from a number of colorful birds. It grants boons to flying
 magic, and more powerful versions grant the power of flight. The wearer of a headband of aerial
@@ -44,6 +49,7 @@ ranks in [Fly](ref/skill/fly), [Acrobatics](ref/skill/acrobatics), or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [fly](ref/spell/fly); **Cost** 2,250 gp (+2), 21,000 gp (+4),
-40,500 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [fly](ref/spell/fly)
+Cost: 2,250 gp (+2), 21,000 gp (+4), 40,500 gp (+6)
+:::

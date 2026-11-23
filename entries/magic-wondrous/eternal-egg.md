@@ -20,8 +20,13 @@ aura = "strong enchantment and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment and transmutation; **CL** 15th\
-**Slot** none; **Price** 240,000 gp; **Weight** 100 lbs.
+::: statblock
+Aura: strong enchantment and transmutation
+CL: 15th
+Slot: none
+Price: 240,000 gp
+Weight: 100 lbs.
+:::
 
 This device is an arcane engine that draws on the
 [spell-like abilities](ref/umr/spell-like-abilities) of the [couatl](ref/monster/couatl) egg trapped
@@ -43,6 +48,7 @@ powers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift), [temporal stasis](ref/spell/temporal-stasis); **Cost** 120,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift), [temporal stasis](ref/spell/temporal-stasis)
+Cost: 120,000 gp
+:::

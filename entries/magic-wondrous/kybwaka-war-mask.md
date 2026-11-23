@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy; **CL** 4th\
-**Slot** head; **Price** 3,700 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 4th
+Slot: head
+Price: 3,700 gp
+Weight: 5 lbs.
+:::
 
 This oversized wooden mask covers the face and extends down to a point at the wearer's waist,
 covering most of his chest and abdomen. It is simplistically carved as a stylized, bestial face
@@ -33,5 +38,7 @@ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare),
-[shield](ref/spell/shield); **Cost** 1,850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare), [shield](ref/spell/shield)
+Cost: 1,850 gp
+:::

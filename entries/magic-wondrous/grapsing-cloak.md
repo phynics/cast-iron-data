@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** shoulders; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: shoulders
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 The long, threadbare tatters of this well-worn cloak coalesce into the rough form of a claw with
 opposable appendages, aiding the wearer with a helpful additional appendage when he might need it
@@ -34,5 +39,7 @@ the cloak is providing this bonus, it can't be used to hold or retrieve a stowed
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand)
+Cost: 1,500 gp
+:::

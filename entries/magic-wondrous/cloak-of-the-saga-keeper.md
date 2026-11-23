@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** shoulders; **Price** 13,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: shoulders
+Price: 13,800 gp
+Weight: 1 lb.
+:::
 
 Not all who board Ulfen longships or travel the paths of Kellid mammoth hunters are capable
 warriors, even though they may be just as brave. A cloak of the saga keeper is made from layers of
@@ -38,5 +43,7 @@ abilities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [resist energy](ref/spell/resist-energy); **Cost** 6,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [resist energy](ref/spell/resist-energy)
+Cost: 6,900 gp
+:::

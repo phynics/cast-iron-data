@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 150 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 150 gp
+Weight: -
+:::
 
 A draught of this pale blue liquid imposes a dull placidity upon the imbiber, making him less quick
 to anger while not significantly impairing his mental functions. A drinker with homicidal or other
@@ -36,5 +41,7 @@ repression lasts for 12 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions)
+Cost: 75 gp
+:::

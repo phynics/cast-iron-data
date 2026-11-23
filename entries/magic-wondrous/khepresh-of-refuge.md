@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** head; **Price** 63,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: head
+Price: 63,000 gp
+Weight: 3 lbs.
+:::
 
 This traditional Osirian crown - known as a khepresh, or "war crown" - made of hardened blue leather
 and adorned with discs of blue-tinted electrum and a rearing, hooded cobra of gold, was crafted
@@ -35,6 +40,7 @@ result of the reroll, even if it's worse.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[moment of prescience](ref/spell/moment-of-prescience), [resist energy](ref/spell/resist-energy),
-[shield of faith](ref/spell/shield-of-faith); **Cost** 31,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [moment of prescience](ref/spell/moment-of-prescience), [resist energy](ref/spell/resist-energy), [shield of faith](ref/spell/shield-of-faith)
+Cost: 31,500 gp
+:::

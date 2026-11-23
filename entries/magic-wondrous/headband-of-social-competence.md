@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** headband; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: headband
+Price: 1,000 gp
+Weight: -
+:::
 
 This simple yet elegant silver headband mentally warns the wearer before she commits a social
 misstep, which includes any action that would increase the DCs of Diplomacy checks to alter the
@@ -33,5 +38,7 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cultural adaptation](ref/spell/cultural-adaptation); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cultural adaptation](ref/spell/cultural-adaptation)
+Cost: 500 gp
+:::

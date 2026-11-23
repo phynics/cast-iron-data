@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 90,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 90,000 gp
+Weight: 4 lbs.
+:::
 
 The Beacon of the North is a ship's lantern that appears to be an unusually large
 [bullseye lantern](ref/eq-misc/bullseye-lantern). Activating any of its powers requires a special
@@ -52,6 +57,7 @@ Creating a portal of any size consumes 10 minutes worth of oil.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chill touch](ref/spell/chill-touch), [teleportation circle](ref/spell/teleportation-circle);
-**Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chill touch](ref/spell/chill-touch), [teleportation circle](ref/spell/teleportation-circle)
+Cost: 45,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 20,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 20,000 gp
+Weight: 4 lbs.
+:::
 
 Carved from the bone of some giant beast, this large horn emits an eerie, heart-lurching moan when
 sounded. A creature with the [favored enemy](ref/ability/favored-enemy) class feature may blow the
@@ -35,5 +40,7 @@ that cannot hear the horn are immune to its magic. The horn's magic works once p
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daze monster](ref/spell/daze-monster); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daze monster](ref/spell/daze-monster)
+Cost: 10,000 gp
+:::

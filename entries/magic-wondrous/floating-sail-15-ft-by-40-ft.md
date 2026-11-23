@@ -22,9 +22,13 @@ caster_level = "5th"
 
 ## Floating Sail
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 5,000 gp (10-ft.-by-15-ft.), 15,000 gp (15-ft.-by-30-ft.), 20,000 gp
-(15-ft.-by-40-ft.), 32,000 gp (20-ft.-by-50-ft.); **Weight** 20-50 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 5,000 gp (10-ft.-by-15-ft.), 15,000 gp (15-ft.-by-30-ft.), 20,000 gp (15-ft.-by-40-ft.), 32,000 gp (20-ft.-by-50-ft.)
+Weight: 20-50 lbs.
+:::
 
 This silk cloth is folded into a neat triangle and tied with a gold ribbon. If the command word is
 spoken, a floating sail unfurls up to its full size in an area chosen by the speaker and becomes a
@@ -49,6 +53,7 @@ activated again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[water walk](ref/spell/water-walk); **Cost** 2,500 gp (10-ft.-by-15-ft.), 7,500 gp
-(15-ft.-by-30-ft.), 10,000 gp (15-ft.-by-40-ft.), 16,000 gp (20-ft.-by-50-ft.)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [water walk](ref/spell/water-walk)
+Cost: 2,500 gp (10-ft.-by-15-ft.), 7,500 gp (15-ft.-by-30-ft.), 10,000 gp (15-ft.-by-40-ft.), 16,000 gp (20-ft.-by-50-ft.)
+:::

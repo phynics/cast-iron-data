@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** shoulders; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: shoulders
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 Wisps of black smoke dance above these gray, [fetchling](ref/race/fetchling)-made pauldrons. The
 wearer can manipulate these strands of shadow matter, assailing a target within 60 feet as a move
@@ -46,5 +51,7 @@ each day. Each of the following assaults uses 1 charge.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadow conjuration](ref/spell/shadow-conjuration); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 9,000 gp
+:::

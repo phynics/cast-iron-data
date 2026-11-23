@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** wrists; **Price** 11,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: wrists
+Price: 11,500 gp
+Weight: 1 lb.
+:::
 
 These silver bracers are polished to a mirrored sheen, but otherwise shift their appearance to match
 whatever suit of armor they are worn with.
@@ -34,5 +39,7 @@ on the attack roll equal to her Charisma bonus, and a +5 bonus to the damage rol
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bless weapon](ref/spell/bless-weapon); **Cost** 5,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless weapon](ref/spell/bless-weapon)
+Cost: 5,750 gp
+:::

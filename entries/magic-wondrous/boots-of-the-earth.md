@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** feet; **Price** 5,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: feet
+Price: 5,000 gp
+Weight: 5 lbs.
+:::
 
 These sturdy leather dwarven boots have soles made of thick gray marble. As a move action, the
 wearer can plant her feet and draw strength from the earth, gaining
@@ -32,6 +37,7 @@ unconscious.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [cure light wounds](ref/spell/cure-light-wounds);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [cure light wounds](ref/spell/cure-light-wounds)
+Cost: 2,500 gp
+:::

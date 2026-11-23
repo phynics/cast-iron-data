@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** neck; **Price** 24,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: neck
+Price: 24,000 gp
+Weight: -
+:::
 
 This winged, golden cartouche hangs on a leather thong beaded with semiprecious stones. Normally, a
 cartouche of distinctive warding functions as a
@@ -44,7 +49,7 @@ are not subject to the cartouche's power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser),
-[magic circle against chaos, evil, good, or law](ref/spell/magic-circle-against-chaos-evil-good-law),
-[shield](ref/spell/shield); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser), [magic circle against chaos, evil, good, or law](ref/spell/magic-circle-against-chaos-evil-good-law), [shield](ref/spell/shield)
+Cost: 12,000 gp
+:::

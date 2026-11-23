@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Aura** faint evocation; **CL** 4th\
-**Slot** wrists; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 4th
+Slot: wrists
+Price: 16,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,5 +42,7 @@ anyway.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), creator must be a halfling; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), creator must be a halfling
+Cost: 8,000 gp
+:::

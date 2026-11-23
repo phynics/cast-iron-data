@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: 2 lbs.
+:::
 
 A bilious bottle appears to be a tightly stoppered container of water. It can be
 [thrown as a splash weapon](ref/rule/throw-splash-weapon). When a bilious bottle is opened or
@@ -45,5 +50,7 @@ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stinking cloud](ref/spell/stinking-cloud); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stinking cloud](ref/spell/stinking-cloud)
+Cost: 250 gp
+:::

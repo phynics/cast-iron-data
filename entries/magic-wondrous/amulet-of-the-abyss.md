@@ -23,8 +23,13 @@ aura = "faint conjuration [chaotic, evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[chaotic, evil\]; **CL** 5th\
-**Slot** neck; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[chaotic, evil\]
+CL: 5th
+Slot: neck
+Price: 15,000 gp
+Weight: -
+:::
 
 Each amulet of the Abyss bears a demon lord's rune on its face, indicating the entity to which the
 amulet is attuned. An amulet of the Abyss functions as an unholy symbol of the demon lord. For a
@@ -39,5 +44,7 @@ never result in actual level loss).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must worship a demon
-lord; **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must worship a demon lord
+Cost: 7,500 gp
+:::

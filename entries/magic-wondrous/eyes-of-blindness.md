@@ -20,8 +20,12 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** eyes; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: eyes
+Weight: -
+:::
 
 These normal-looking glasses appear harmless and nondescript. When they are worn, the wearer becomes
 [blinded](ref/misc/blinded) as if subject to the [blindness/deafness](ref/spell/blindness-deafness)
@@ -29,4 +33,7 @@ spell (no saving throw).
 
 ### Construction
 
-**Requirements** any glasses or lenses; **Cost** -
+::: statblock
+Requirements: any glasses or lenses
+Cost: -
+:::

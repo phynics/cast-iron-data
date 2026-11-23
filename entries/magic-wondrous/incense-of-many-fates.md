@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: 1 lb.
+:::
 
 When used during meditation, this incense allows a [samsaran's](ref/race/samsaran) consciousness to
 pass through past or future lives to learn more about an important person, place, or thing. This
@@ -33,5 +38,7 @@ hours. Each block of incense lasts for 1 use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[legend lore](ref/spell/legend-lore); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [legend lore](ref/spell/legend-lore)
+Cost: 1,650 gp
+:::

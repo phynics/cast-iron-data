@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** neck; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: neck
+Price: 12,000 gp
+Weight: -
+:::
 
 This fist-sized silver badge bears a stylized image of a heraldic animal. The first time a character
 wears the crest, the animal changes to match that of the wearer's heraldic symbol. If the wearer
@@ -50,6 +55,7 @@ dark gray for 1 week, during which time the crest can't be activated.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deathwatch](ref/spell/deathwatch), [summon nature's ally II](ref/spell/summon-natures-ally-2);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deathwatch](ref/spell/deathwatch), [summon nature's ally II](ref/spell/summon-natures-ally-2)
+Cost: 6,000 gp
+:::

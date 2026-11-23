@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 This metal urn is identical in appearance to an [efreeti bottle](ref/magic-wondrous/efreeti-bottle),
 except that it does nothing but smoke. The amount of smoke is great if the stopper is pulled out,
@@ -38,5 +43,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pyrotechnics](ref/spell/pyrotechnics); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 2,700 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion; **CL** 9th\
-**Slot** none; **Price** 2,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 9th
+Slot: none
+Price: 2,300 gp
+Weight: 1 lb.
+:::
 
 This heavy pastel candle is carved and painted to look like its outer surface is covered with
 butterflies. A creature can use the candle to create a _[dream](ref/spell/dream)_ effect conveying a
@@ -32,5 +37,7 @@ recipient sleeps, she receives the message.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream);
-**Cost** 1,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dream](ref/spell/dream)
+Cost: 1,150 gp
+:::

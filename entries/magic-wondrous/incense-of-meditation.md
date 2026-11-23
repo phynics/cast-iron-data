@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 4,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 4,900 gp
+Weight: 1 lb.
+:::
 
 This incense comes in many shapes and colors, but is otherwise indistinguishable from nonmagical
 incense until lit. When it is burned, the special fragrance and pearly hued smoke of this special
@@ -42,5 +47,7 @@ summon a more powerful elemental; this renders it useless for maximizing spellca
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Maximize Spell](ref/feat/maximize-spell), [bless](ref/spell/bless); **Cost** 2,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Maximize Spell](ref/feat/maximize-spell), [bless](ref/spell/bless)
+Cost: 2,450 gp
+:::

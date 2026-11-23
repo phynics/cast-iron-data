@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** wrists; **Price** 20,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: wrists
+Price: 20,000 gp
+Weight: 3 lbs.
+:::
 
 Heavy golden coils form this serpentine armband. It wraps snugly around the upper arm of its wearer
 and stays firmly in place once donned.
@@ -36,6 +41,7 @@ does not gain any additional actions.
 
 ### Construction
 
-**Requirements** [Combat Casting](ref/feat/combat-casting),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [spectral hand](ref/spell/spectral-hand);
-**Cost** 10,000 gp
+::: statblock
+Requirements: [Combat Casting](ref/feat/combat-casting), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spectral hand](ref/spell/spectral-hand)
+Cost: 10,000 gp
+:::

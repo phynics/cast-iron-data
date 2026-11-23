@@ -25,8 +25,13 @@ caster_level = "3rd (minor), 7th (major)"
 
 ## Cloak of Displacement
 
-**Aura** faint (minor) or moderate (major) illusion; **CL** 3rd (minor), 7th (major)\
-**Slot** shoulders; **Price** 24,000 gp (minor), 50,000 gp (major); **Weight** 1 lb.
+::: statblock
+Aura: faint (minor) or moderate (major) illusion
+CL: 3rd (minor), 7th (major)
+Slot: shoulders
+Price: 24,000 gp (minor), 50,000 gp (major)
+Weight: 1 lb.
+:::
 
 **Minor:** This item appears to be a normal cloak, with a pattern very similar to a
 [major cloak of displacement](ref/magic-wondrous/cloak-of-displacement-major) nocturnal designs, but
@@ -41,6 +46,7 @@ day, which the wearer can divide up as she sees fit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell) (major only), [blur](ref/spell/blur) (minor only),
-[displacement](ref/spell/displacement) (major only) ; **Cost** 12,000 gp (minor), 25,000 gp (major)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell) (major only), [blur](ref/spell/blur) (minor only), [displacement](ref/spell/displacement) (major only)
+Cost: 12,000 gp (minor), 25,000 gp (major)
+:::

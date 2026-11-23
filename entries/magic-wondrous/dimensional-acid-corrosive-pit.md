@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Dimensional Acid
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 450 gp (Basic Pit), 1,000 gp (Jagged Pit), 1,750 gp (Corrosive Pit), 2,700
-gp (Living Pit); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 450 gp (Basic Pit), 1,000 gp (Jagged Pit), 1,750 gp (Corrosive Pit), 2,700 gp (Living Pit)
+Weight: 1 lb.
+:::
 
 The acid in this flask burns not through matter, but through space itself, creating a temporary
 extradimensional pit wherever it touches. A flask of dimensional acid can be thrown as a
@@ -51,5 +55,7 @@ Wondrous Item, [hungry pit](ref/spell/hungry-pit).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), additional spells; **Cost**
-225 gp (Basic Pit), 500 gp (Jagged Pit), 875 gp (Corrosive Pit), 1,350 gp (Living Pit)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), additional spells
+Cost: 225 gp (Basic Pit), 500 gp (Jagged Pit), 875 gp (Corrosive Pit), 1,350 gp (Living Pit)
+:::

@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 7,000 gp; **Weight** 175 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 7,000 gp
+Weight: 175 lbs.
+:::
 
 This large, oaken bureau has a double-door cabinet that sits atop three horizontal drawers. A user
 can concentrate on a set of clothing he would like to wear, then open the cabinet or one of the
@@ -40,6 +45,7 @@ three drawers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [minor creation](ref/spell/minor-creation), creator must have at
-least 5 ranks in Craft (clothing) or Profession (tailor); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [minor creation](ref/spell/minor-creation), creator must have at least 5 ranks in Craft (clothing) or Profession (tailor)
+Cost: 3,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 5th\
-**Slot** none; **Price** 23,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 5th
+Slot: none
+Price: 23,400 gp
+Weight: 1 lb.
+:::
 
 An angel's clarion is a graceful trumpet whose bell unfolds like the petals of a flower. These
 trumpets are usually platinum or silver near the mouthpiece, transforming to a rose gold at the
@@ -38,6 +43,7 @@ entangling flowers persist for 5 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure serious wounds](ref/spell/cure-serious-wounds), [entangle](ref/spell/entangle), creator must
-worship an empyreal lord; **Cost** 11,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure serious wounds](ref/spell/cure-serious-wounds), [entangle](ref/spell/entangle), creator must worship an empyreal lord
+Cost: 11,700 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 35,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 35,000 gp
+Weight: 5 lbs.
+:::
 
 This large container, crafted from an animal horn or woven of wicker, overflows with fruits, nuts,
 and vegetables. Up to three times per day, it can be inverted to pour forth delicious food equal to
@@ -37,6 +42,7 @@ within a single day provides no additional benefit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [create food and water](ref/spell/create-food-and-water),
-[heroes' feast](ref/spell/heroes-feast); **Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [create food and water](ref/spell/create-food-and-water), [heroes' feast](ref/spell/heroes-feast)
+Cost: 17,500 gp
+:::

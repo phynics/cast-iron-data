@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,950 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,950 gp
+Weight: -
+:::
 
 This vial contains what appears to be ordinary ink. However, when a command word is uttered and then
 an individual uses the ink to write something, the ink "stores" that person's handwriting style, and
@@ -44,5 +49,7 @@ handwriting style doesn't count toward the limit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret page](ref/spell/secret-page); **Cost** 975 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret page](ref/spell/secret-page)
+Cost: 975 gp
+:::

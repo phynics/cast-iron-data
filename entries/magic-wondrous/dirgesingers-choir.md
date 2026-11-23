@@ -20,8 +20,13 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 13th\
-**Slot** none; **Price** 34,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 13th
+Slot: none
+Price: 34,000 gp
+Weight: 3 lbs.
+:::
 
 Equal parts grisly and lovely, this unusual harp-like musical instrument is crafted from a corpse,
 with a bone frame, skin stretched around the soundbox for percussion, and strings of twisted hair.
@@ -52,6 +57,7 @@ The instrument cannot be affected by spells that target corpses, such as
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control undead](ref/spell/control-undead), [ghost sound](ref/spell/ghost-sound), creator must be
-evil; **Cost** 17,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control undead](ref/spell/control-undead), [ghost sound](ref/spell/ghost-sound), creator must be evil
+Cost: 17,000 gp
+:::

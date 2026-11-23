@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 14,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 14,000 gp
+Weight: 3 lbs.
+:::
 
 Numerous antlers protrude from this ornate leather helm, creating an impressive array of bony points
 that jut out in several directions. When the horned helm of the wild stag is donned, the wearer's
@@ -41,6 +46,7 @@ is a mind-affecting compulsion effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[aspect of the stag](ref/spell/aspect-of-the-stag), [moonstruck](ref/spell/moonstruck); **Cost**
-7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aspect of the stag](ref/spell/aspect-of-the-stag), [moonstruck](ref/spell/moonstruck)
+Cost: 7,000 gp
+:::

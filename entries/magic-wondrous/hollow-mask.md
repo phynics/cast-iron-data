@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** head; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: head
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 This porous wooden mask fits against the wearer's face much more tightly than its bulky, abstract
 design suggests. The mask is capable of storing air; the wearer can breathe normally underwater for
@@ -33,5 +38,7 @@ underwater, the mask needs an equal amount of time (maximum 5 minutes) to replen
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble), [message](ref/spell/message); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble), [message](ref/spell/message)
+Cost: 1,500 gp
+:::

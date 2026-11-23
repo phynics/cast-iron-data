@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** feet; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: feet
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These soft leather boots smell strongly of marsh gas, and leave faint wet prints behind even when
 they're dry. Despite these aesthetic flaws, bogstrider boots are of great use in areas of swampy
@@ -32,5 +37,7 @@ shallow bog. In addition, three times per day when the wearer takes a [charge](r
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement), [haste](ref/spell/haste); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement), [haste](ref/spell/haste)
+Cost: 5,000 gp
+:::

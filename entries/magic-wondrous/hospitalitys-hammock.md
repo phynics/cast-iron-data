@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 3 lbs.
+:::
 
 A luxurious crimson silk hammock embroidered with gold thread and gold fringed tassels, a
 hospitality's hammock is a beauty to behold, but no self-respecting seaman would ever be caught
@@ -40,6 +45,7 @@ The hospitality's hammock originally appeared on pg. 72 of Necromancer Games' _D
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [remove disease](ref/spell/remove-disease);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [remove disease](ref/spell/remove-disease)
+Cost: 2,500 gp
+:::

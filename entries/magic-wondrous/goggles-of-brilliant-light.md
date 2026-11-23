@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** eyes; **Price** 8,800 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: eyes
+Price: 8,800 gp
+Weight: -
+:::
 
 These sturdy goggles have a mirror sheen on the outside of their lenses, a wrapping of leather
 holding them snugly in place. This tint blocks a considerable amount of natural light. Twice per
@@ -32,5 +37,7 @@ effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[scorching ray](ref/spell/scorching-ray); **Cost** 4,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [scorching ray](ref/spell/scorching-ray)
+Cost: 4,400 gp
+:::

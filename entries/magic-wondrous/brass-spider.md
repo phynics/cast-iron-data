@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 2,500 gp
+Weight: 2 lbs.
+:::
 
 This diminutive, shiny brass construct looks like a spider made of gears and cogs. It's roughly the
 size of an adult human's hand, and its legs are all picks, chisels, pliers, and other tools of fine
@@ -40,5 +45,7 @@ any additional range.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [cat's grace](ref/spell/cats-grace); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [cat's grace](ref/spell/cats-grace)
+Cost: 1,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint, school based on cloak type"
 caster_level = "1st"
 +++
 
-**Aura** faint, school based on cloak type; **CL** 1st\
-**Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint, school based on cloak type
+CL: 1st
+Slot: shoulders
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This cloak comes in eight varieties - one for each school of magic. The cloak grants its wearer the
 ability to use a certain number of spells on command (caster level 1st) based on its school of
@@ -48,7 +53,7 @@ on command and at will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation) and any spell the cloak allows the caster to use; the
-creator must have [Spell Focus](ref/feat/spell-focus) in the cloak's school of magic; **Cost** 1,125
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation) and any spell the cloak allows the caster to use; the creator must have [Spell Focus](ref/feat/spell-focus) in the cloak's school of magic
+Cost: 1,125 gp
+:::

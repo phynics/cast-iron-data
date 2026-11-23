@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 2,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 2,800 gp
+Weight: 1 lb.
+:::
 
 Wearing this animal-hair cloak grants a +1 resistance bonus on saving throws. Furthermore, the
 wearer can force its teeth to grow rapidly up to five times per day as a swift action. The oversized
@@ -35,5 +40,7 @@ wearer is Small). If the wearer already has a bite attack, the damage of that bi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [resistance](ref/spell/resistance); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [resistance](ref/spell/resistance)
+Cost: 1,250 gp
+:::

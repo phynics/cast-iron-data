@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 Created by the masters within the Kusari-Gama faction, this thumbnail-sized crystal stores a single
 point of ki. Any person with the ki pool ability may expend the stored ki as if using his own ki.
@@ -31,4 +36,7 @@ animal statuettes or in shrines venerating a favored deity.
 
 ### Construction
 
-**Requirements** ki pool, [Kusari-Gama](ref/rule/f-clans) 40 TPA; **Cost** 1,000 gp
+::: statblock
+Requirements: ki pool, [Kusari-Gama](ref/rule/f-clans) 40 TPA
+Cost: 1,000 gp
+:::

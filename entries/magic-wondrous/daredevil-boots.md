@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** feet; **Price** 1,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: feet
+Price: 1,400 gp
+Weight: 1 lb.
+:::
 
 This pair of magical boots shimmers in vibrant shades of blazing red and burning orange when they
 are held up to the light. These boots allow the wearer to gain extra maneuverability while moving
@@ -34,5 +39,7 @@ she gains a +1 bonus on attack rolls against that enemy until the end of her tur
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 700 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 9th\
-**Slot** none; **Price** 6,200 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 9th
+Slot: none
+Price: 6,200 gp
+Weight: 3 lbs.
+:::
 
 This simple leather belt pouch can carry a small amount of ordinary gear and objects, as a normal
 container of its kind. In addition to this ordinary pouch, a black marketeer's bag contains three
@@ -40,6 +45,7 @@ round, as per _[memory lapse](ref/spell/memory-lapse)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[demand offering](ref/spell/demand-offering), [magic aura](ref/spell/magic-aura),
-[memory lapse](ref/spell/memory-lapse), [secret chest](ref/spell/secret-chest); **Cost** 3,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [demand offering](ref/spell/demand-offering), [magic aura](ref/spell/magic-aura), [memory lapse](ref/spell/memory-lapse), [secret chest](ref/spell/secret-chest)
+Cost: 3,100 gp
+:::

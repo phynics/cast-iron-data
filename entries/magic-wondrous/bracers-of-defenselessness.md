@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong conjuration; **CL** 16th\
-**Slot** wrists; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 16th
+Slot: wrists
+Weight: 1 lb.
+:::
 
 These bejeweled and shining bracers initially appear to be _bracers of armor +5_ and actually serve
 as such until the wearer is attacked in anger by an enemy with a Challenge Rating equal to or
@@ -34,4 +38,7 @@ their curse is activated, bracers of defenselessness can be removed only by mean
 
 ### Construction
 
-**Requirements** [bracers of armor +5](ref/magic-wondrous/bracers-of-armor-5); **Cost** -
+::: statblock
+Requirements: [bracers of armor +5](ref/magic-wondrous/bracers-of-armor-5)
+Cost: -
+:::

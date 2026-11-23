@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** neck; **Price** 4,800 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: neck
+Price: 4,800 gp
+Weight: -
+:::
 
 This amulet is crafted from a dragon scale hung on a thin wire of twisted
 [mithral](ref/eq-material/mithral). There are 10 different types of amulet of dragon's breath, each
@@ -34,5 +39,7 @@ becomes useless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dragon's breath](ref/spell/dragons-breath); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dragon's breath](ref/spell/dragons-breath)
+Cost: 2,400 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This smooth lodestone is gray and streaked with veins of glossy obsidian. As a ranged touch attack,
 the bearer can throw it at an opponent within 30 feet. If it strikes a target in metal armor, the
@@ -38,5 +43,7 @@ an ordinary magnetic stone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burdened thoughts](ref/spell/burdened-thoughts); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burdened thoughts](ref/spell/burdened-thoughts)
+Cost: 500 gp
+:::

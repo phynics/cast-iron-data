@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 1st\
-**Slot** head; **Price** 2,400 gp; **Weight** -
+::: statblock
+Aura: faint illusion and transmutation
+CL: 1st
+Slot: head
+Price: 2,400 gp
+Weight: -
+:::
 
 This crumpled leather hat has roughly hammered metal studs around its brim, and is often worn by
 worshipers of [Droskar](ref/faith/droskar) who venerate the dwarf god for his cheating aspect. The
@@ -32,6 +37,7 @@ The wearer adds 1 to the DC of any enchantment (compulsion) spells she casts.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [disguise self](ref/spell/disguise-self),
-[mage hand](ref/spell/mage-hand); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [disguise self](ref/spell/disguise-self), [mage hand](ref/spell/mage-hand)
+Cost: 1,200 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** hands; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: hands
+Price: 20,000 gp
+Weight: -
+:::
 
 As a move action, the wearer of these fine leather gloves can pick up an unattended object (weighing
 no more than 20 pounds) that is up to 30 feet away, and move it up to 30 feet. The object falls to
@@ -38,6 +43,7 @@ require touching or coming near the target. The gloves don't increase the wearer
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [mage hand](ref/spell/mage-hand),
-[telekinesis](ref/spell/telekinesis); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [mage hand](ref/spell/mage-hand), [telekinesis](ref/spell/telekinesis)
+Cost: 10,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** hands; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: hands
+Price: 3,000 gp
+Weight: -
+:::
 
 Thought to have been developed by disciples of Soong Bai, the famous promulgator of acupuncture,
 these gloves grant their wearer powerful skills in the arts of healing - and harming - living
@@ -32,5 +37,7 @@ with unarmed strikes or with natural weapons against living humanoid creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status),
-[true strike](ref/spell/true-strike), creator must have 5 ranks in Heal; **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status), [true strike](ref/spell/true-strike), creator must have 5 ranks in Heal
+Cost: 1,500 gp
+:::

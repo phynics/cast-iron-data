@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 40,000 gp; **Weight** 37 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 40,000 gp
+Weight: 37 lbs.
+:::
 
 Set in the center of this dark steel altar is an eye-shaped, obsidian lens. Many-eyed horrors from
 dark spaces between the stars stare back through the lens. When viewed from different angles, the
@@ -54,6 +59,7 @@ dimension.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser evolution surge](ref/spell/evolution-surge-lesser), [plane shift](ref/spell/plane-shift);
-**Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser evolution surge](ref/spell/evolution-surge-lesser), [plane shift](ref/spell/plane-shift)
+Cost: 20,000 gp
+:::

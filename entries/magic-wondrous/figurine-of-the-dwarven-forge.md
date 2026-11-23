@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 These stone and steel figurines depicting a forge and anvil are warm to the touch and give off a
 faint red glow. On command, the figurine enlarges to become a full-sized working forge with a
@@ -42,6 +47,7 @@ minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flame blade](ref/spell/flame-blade), [heat metal](ref/spell/heat-metal),
-[shrink item](ref/spell/shrink-item); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flame blade](ref/spell/flame-blade), [heat metal](ref/spell/heat-metal), [shrink item](ref/spell/shrink-item)
+Cost: 7,500 gp
+:::

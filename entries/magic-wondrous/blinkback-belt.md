@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** belt; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: belt
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 A set of clips is attached to this segmented belt constructed of metallic links. Up to two
 one-handed melee weapons or up to four light melee weapons can be hung from the belt in straps or
@@ -31,5 +36,7 @@ resolved.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[teleport object](ref/spell/teleport-object); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [teleport object](ref/spell/teleport-object)
+Cost: 2,500 gp
+:::

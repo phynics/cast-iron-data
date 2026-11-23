@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** body; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: body
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 When the wearer enters a stance from a style feat while wearing a dhoti of style mastery, he gains
 1d8+3 [temporary hit points](ref/rule/temporary-hit-points) plus an additional 1d8 temporary hit
@@ -32,5 +37,7 @@ way more than once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), any style feat,
-[false life](ref/spell/false-life); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), any style feat, [false life](ref/spell/false-life)
+Cost: 2,700 gp
+:::

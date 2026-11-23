@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This sticky henna paste is used to stamp a rust-colored handprint onto the body of a
 [familiar](ref/sidekick/familiar) or [animal companion](ref/sidekick/animal-companion), and a hoof,
@@ -41,6 +46,7 @@ charges are expended or the master marks another companion in this way.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Reach Spell](ref/feat/reach-spell), creator must have an animal companion or familiar; **Cost** 500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Reach Spell](ref/feat/reach-spell), creator must have an animal companion or familiar
+Cost: 500 gp
+:::

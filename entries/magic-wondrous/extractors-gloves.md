@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Aura** moderate transmutation; **CL** 5th\
-**Slot** hands; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 5th
+Slot: hands
+Price: 5,000 gp
+Weight: -
+:::
 
 These black leather fingerless gloves are shot through with strands of giant spider webbing. They
 allow their wearer to steal the special abilities of an opponent's weapon and augment the wearer's
@@ -43,6 +48,7 @@ still suspended in the opponent's weapon for the normal duration).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic weapon](ref/spell/magic-weapon), [vampiric touch](ref/spell/vampiric-touch); **Cost** 2,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic weapon](ref/spell/magic-weapon), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 2,500 gp
+:::

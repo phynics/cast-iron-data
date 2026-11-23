@@ -22,9 +22,13 @@ caster_level = "5th"
 
 ## Belt of Superior Maneuvers
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** belt; **Price** 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp
-(+5); **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: belt
+Price: 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5)
+Weight: -
+:::
 
 This thin, black canvas belt is typically tied loosely about the waist to secure a robe, kimono, or
 martial artist's dobok. Three times per day as a free action, the wearer can select a
@@ -35,6 +39,7 @@ additional use of her martial flexibility class feature each day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), creator's caster level must be at least triple the belt's
-bonus; **Cost** 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), creator's caster level must be at least triple the belt's bonus
+Cost: 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5)
+:::

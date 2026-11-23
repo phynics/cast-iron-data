@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** belt or head; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: belt or head
+Price: 2,500 gp
+Weight: -
+:::
 
 This long strip of red Qadiran fabric is wrapped around the wearer's waist or head several times and
 held in place by an ankh-shaped clasp of red gold. The wearer is protected as if by
@@ -43,6 +48,7 @@ but not so bright as to cause them harm.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [endure elements](ref/spell/endure-elements),
-[feather fall](ref/spell/feather-fall), [light](ref/spell/light); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [endure elements](ref/spell/endure-elements), [feather fall](ref/spell/feather-fall), [light](ref/spell/light)
+Cost: 1,250 gp
+:::

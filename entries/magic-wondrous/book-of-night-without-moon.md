@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** none; **Price** 15,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: none
+Price: 15,000 gp
+Weight: 4 lbs.
+:::
 
 This black grimoire's pages are mostly blank, but a few contain rough watercolor silhouettes. The
 Book of Night without Moon is a repository for trapped shadows. To sever a shadow from its owner and
@@ -50,5 +55,7 @@ A Book of Night without Moon purchased or found as treasure contains 2d6 shadows
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadow conjuration](ref/spell/shadow-conjuration); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 7,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation and divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation and divination; **CL** 10th\
-**Slot** none; **Price** 10,300 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation and divination
+CL: 10th
+Slot: none
+Price: 10,300 gp
+Weight: -
+:::
 
 The Clavis Somnus is a large, ornate, silver and [mithral](ref/eq-material/mithral) key. It is very
 cold to the touch and always gives off a faint vapor of condensation. Its construction and value
@@ -37,6 +42,7 @@ creatures are affected.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Lucid Dreamer](ref/feat/lucid-dreamer), [deep slumber](ref/spell/deep-slumber),
-[eagle's splendor](ref/spell/eagles-splendor), [guidance](ref/spell/guidance); **Cost** 5,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Lucid Dreamer](ref/feat/lucid-dreamer), [deep slumber](ref/spell/deep-slumber), [eagle's splendor](ref/spell/eagles-splendor), [guidance](ref/spell/guidance)
+Cost: 5,150 gp
+:::

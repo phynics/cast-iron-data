@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 80,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 80,000 gp
+Weight: 1 lb.
+:::
 
 If a [blind](ref/misc/blinded) creature holds this orb, that creature can see with
 [darkvision](ref/rule/darkvision) with a range of 120 feet, but also gains
@@ -35,6 +40,7 @@ or until he stops using the orb to see, whichever comes first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [darkvision](ref/spell/darkvision),
-[true seeing](ref/spell/true-seeing); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [darkvision](ref/spell/darkvision), [true seeing](ref/spell/true-seeing)
+Cost: 40,000 gp
+:::

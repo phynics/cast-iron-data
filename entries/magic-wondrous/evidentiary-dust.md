@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "4th"
 +++
 
-**Aura** faint divination; **CL** 4th\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 4th
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This light, shimmery blue powder is typically kept in a silk satchel with hemp drawstrings. When
 tossed into the air, the dust can cover a chamber with up to 100 square feet of floor space, and
@@ -36,6 +41,7 @@ Evidentiary dust cannot reveal footprints of creatures that hid their trail via 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[faerie fire](ref/spell/faerie-fire), [residual tracking](ref/spell/residual-tracking); **Cost** 300
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [faerie fire](ref/spell/faerie-fire), [residual tracking](ref/spell/residual-tracking)
+Cost: 300 gp
+:::

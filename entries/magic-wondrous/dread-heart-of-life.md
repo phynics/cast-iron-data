@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 A boon to vampires on long sea voyages or visiting desolate locations, the throbbing heart in this
 black box can store the life energy of a creature for later consumption. When a
@@ -33,5 +38,7 @@ benefits of feeding.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vampiric touch](ref/spell/vampiric-touch); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 1,000 gp
+:::

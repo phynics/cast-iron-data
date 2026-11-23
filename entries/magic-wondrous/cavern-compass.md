@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 Made specifically for those who frequently navigate the maze-like tunnels that wind throughout
 Nar-Voth, these compasses are made from stone sourced from the Darklands. However, instead of
@@ -41,5 +46,7 @@ mile and provides information about hazards only down that route.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[find the path](ref/spell/find-the-path); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [find the path](ref/spell/find-the-path)
+Cost: 7,500 gp
+:::

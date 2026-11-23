@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** feet; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: feet
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 These high-soled blue boots provide a great deal of comfort and arch support while also making the
 wearer appear a little bit taller than normal. The boot's wearer always takes the minimum possible
@@ -30,5 +35,7 @@ the fall) and at the end of a fall always lands on his feet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather fall](ref/spell/feather-fall); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather fall](ref/spell/feather-fall)
+Cost: 500 gp
+:::

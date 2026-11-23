@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "12th"
 +++
 
-**Aura** moderate transmutation; **CL** 12th\
-**Slot** none; **Price** 5,800 gp; **Weight** 75 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 12th
+Slot: none
+Price: 5,800 gp
+Weight: 75 lbs.
+:::
 
 This set consists of two masks of hammered iron, one sized for a gorthek's face and the other sized
 for the face of its orc handler. To bond a [gorthek](ref/monster/orc-gorthek) with its handler, orcs
@@ -43,6 +48,7 @@ gorthek.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with animals](ref/spell/speak-with-animals), [versatile weapon](ref/spell/versatile-weapon);
-**Cost** 2,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with animals](ref/spell/speak-with-animals), [versatile weapon](ref/spell/versatile-weapon)
+Cost: 2,900 gp
+:::

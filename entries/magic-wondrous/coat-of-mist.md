@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** chest; **Price** 8,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: chest
+Price: 8,400 gp
+Weight: 3 lbs.
+:::
 
 This gossamer jacket of gray-and-white silk allows the wearer to blend into mist and become almost
 invisible. She gains a +5 bonus on [Stealth](ref/skill/stealth) checks in areas of fog, mist, smoke,
@@ -36,6 +41,7 @@ _[gaseous form](ref/spell/gaseous-form),_ for up to 5 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gaseous form](ref/spell/gaseous-form), [obscuring mist](ref/spell/obscuring-mist); **Cost** 4,200
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gaseous form](ref/spell/gaseous-form), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 4,200 gp
+:::

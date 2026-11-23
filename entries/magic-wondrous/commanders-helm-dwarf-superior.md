@@ -22,9 +22,13 @@ caster_level = "4th"
 
 ## Commander's Helm (Dwarf)
 
-**Aura** faint enchantment; **CL** 4th\
-**Slot** head; **Price** 10,000 gp (Lesser), 16,000 gp (Greater), 24,000 gp (Superior); **Weight** 1
-lb.
+::: statblock
+Aura: faint enchantment
+CL: 4th
+Slot: head
+Price: 10,000 gp (Lesser), 16,000 gp (Greater), 24,000 gp (Superior)
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -46,6 +50,7 @@ apply to the feats that a dwarf wearer can grant when choosing from feats she po
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), the teamwork feat to be
-imbued, [tactical acumen](ref/spell/tactical-acumen), creator must be a dwarf; **Cost** 5,000 gp
-(Lesser), 8,000 gp (Greater), 12,000 gp (Superior)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), the teamwork feat to be imbued, [tactical acumen](ref/spell/tactical-acumen), creator must be a dwarf
+Cost: 5,000 gp (Lesser), 8,000 gp (Greater), 12,000 gp (Superior)
+:::

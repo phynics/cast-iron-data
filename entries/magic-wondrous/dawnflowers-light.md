@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and evocation; **CL** 5th\
-**Slot** none; **Price** 40,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination and evocation
+CL: 5th
+Slot: none
+Price: 40,000 gp
+Weight: 2 lbs.
+:::
 
 When lit, this [hooded lantern](ref/eq-misc/hooded-lantern) shines brightly in a 60-foot radius, as
 _[daylight](ref/spell/daylight)._ Once per day as a swift action, if the owner worships Sarenrae or
@@ -34,6 +39,7 @@ anything short of magical concealments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [detect evil](ref/spell/detect-evil), creator must worship
-[Sarenrae](ref/faith/sarenrae); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [detect evil](ref/spell/detect-evil), creator must worship [Sarenrae](ref/faith/sarenrae)
+Cost: 20,000 gp
+:::

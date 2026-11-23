@@ -26,8 +26,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: feet
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 These soft leather boots confer several powers upon the wearer. First, he is granted the power to
 walk on water in swampy environments, provided the water is no deeper than 5 feet - this effectively
@@ -38,6 +43,7 @@ resistance bonus on all Fortitude saves made against poison and disease.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [pass without trace](ref/spell/pass-without-trace),
-[resistance](ref/spell/resistance), [water walk](ref/spell/water-walk); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [pass without trace](ref/spell/pass-without-trace), [resistance](ref/spell/resistance), [water walk](ref/spell/water-walk)
+Cost: 1,750 gp
+:::

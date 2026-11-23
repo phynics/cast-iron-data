@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** eyes; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: eyes
+Price: 16,000 gp
+Weight: -
+:::
 
 These two transparent red crystal lenses fit directly over the wearer's eyes. On command, the wearer
 can speak a prayer to [Asmodeus](ref/faith/asmodeus) as a standard action to be granted
@@ -37,5 +42,7 @@ wearer for the magic item to take effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 8,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 8,000 gp
+Weight: -
+:::
 
 This finely polished wooden amulet has the image of a blindfolded [medusa](ref/monster/medusa)
 carved upon its surface. Whenever the wearer fails a saving throw that would result in him being
@@ -31,5 +36,7 @@ abilities do not function while the wearer is staggered.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stone to flesh](ref/spell/stone-to-flesh); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stone to flesh](ref/spell/stone-to-flesh)
+Cost: 4,000 gp
+:::

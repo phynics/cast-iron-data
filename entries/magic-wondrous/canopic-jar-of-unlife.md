@@ -20,8 +20,13 @@ aura = "strong conjuration and necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and necromancy; **CL** 13th\
-**Slot** none; **Price** 60,000 gp; **Weight** 7 lbs.
+::: statblock
+Aura: strong conjuration and necromancy
+CL: 13th
+Slot: none
+Price: 60,000 gp
+Weight: 7 lbs.
+:::
 
 This stone jar, capped with the head of an animal or human, resembles one of the traditional carved
 limestone or pottery canopic jars commonly used to hold the intestines, liver, lungs, and stomach of
@@ -46,5 +51,7 @@ jar of unlife.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [regenerate](ref/spell/regenerate); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [regenerate](ref/spell/regenerate)
+Cost: 30,000 gp
+:::

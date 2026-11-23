@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** body; **Price** 40,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: body
+Price: 40,000 gp
+Weight: 1/2 lb.
+:::
 
 This ivy harness allows the wearer's wings to manipulate objects or grab on to handholds, as if they
 were extra arms, as long as the wearer isn't flying. They do not grant additional attacks, but they
@@ -33,5 +38,7 @@ climbing with the roots.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[anchored step](ref/spell/anchored-step), [spider climb](ref/spell/spider-climb); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [anchored step](ref/spell/anchored-step), [spider climb](ref/spell/spider-climb)
+Cost: 20,000 gp
+:::

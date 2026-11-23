@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** shoulders; **Price** 6,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: shoulders
+Price: 6,400 gp
+Weight: 2 lbs.
+:::
 
 This dark burgundy cloak shifts its hue and pattern to blend in against its surroundings, granting
 the wearer a +5 competence bonus on [Stealth](ref/skill/stealth) checks. The cloak holds a concealed
@@ -35,5 +40,7 @@ _[vanish](ref/spell/vanish),_ as the spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item), [vanish](ref/spell/vanish); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item), [vanish](ref/spell/vanish)
+Cost: 3,200 gp
+:::

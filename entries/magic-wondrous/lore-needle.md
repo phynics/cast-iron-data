@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 4,000 gp
+Weight: -
+:::
 
 This thick silver needle is approximately 6 inches long and can be carefully inserted into the brain
 of a willing or helpless target in order to magically expand the target's knowledge. Implanting a
@@ -34,5 +39,7 @@ bonus on any other single Knowledge skill in which it is trained.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory)
+Cost: 2,000 gp
+:::

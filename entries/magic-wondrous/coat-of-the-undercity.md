@@ -20,9 +20,13 @@ aura = "faint transmutation (normal), moderate transmtuation (greater)"
 caster_level = "5th (normal), 9th (greater)"
 +++
 
-**Aura** faint transmutation (normal), moderate transmtuation (greater); **CL** 5th (normal), 9th
-(greater)\
-**Slot** chest; **Price** 7,500 gp (normal), 37,500 gp (greater); **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation (normal), moderate transmtuation (greater)
+CL: 5th (normal), 9th (greater)
+Slot: chest
+Price: 7,500 gp (normal), 37,500 gp (greater)
+Weight: 5 lbs.
+:::
 
 This dirty, tattered-looking gray coat would not look out of place wrapped around a drifter or
 vagrant. When the wearer speaks the command word, the coat of the undercity shifts into a wave of
@@ -52,6 +56,7 @@ used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vermin shape I](ref/spell/vermin-shape-1) (normal) or [vermin shape II](ref/spell/vermin-shape-2)
-(greater); **Cost** 3,750 gp (normal), 18,750 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vermin shape I](ref/spell/vermin-shape-1) (normal) or [vermin shape II](ref/spell/vermin-shape-2) (greater)
+Cost: 3,750 gp (normal), 18,750 gp (greater)
+:::

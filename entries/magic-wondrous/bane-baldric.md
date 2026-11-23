@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** chest; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: chest
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This ornate sash of embroidered velvet stretches across the chest from shoulder to waist. If the
 wearer is an [inquisitor](ref/class/inquisitor), she is treated as five levels higher when using her
@@ -32,5 +37,7 @@ Attuning a new weapon to the baldric ends the attunement for the previous weapon
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster I](ref/spell/summon-monster-1), creator must be an inquisitor; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster I](ref/spell/summon-monster-1), creator must be an inquisitor
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This short aspergillum is made of silver. An [inquisitor](ref/class/inquisitor) who carries it may
 use _[detect undead](ref/spell/detect-undead)_ as if it were one of the spells associated with her
@@ -32,6 +37,7 @@ until the combat ends.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [detect undead](ref/spell/detect-undead), creator
-must be an inquisitor; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [detect undead](ref/spell/detect-undead), creator must be an inquisitor
+Cost: 4,000 gp
+:::

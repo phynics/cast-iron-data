@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 24,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 24,000 gp
+Weight: -
+:::
 
 This silver locket is suspended from a silver chain. As a standard action, a creature holding the
 locket can speak a command word to attempt to steal the sight of one creature within 30 feet. The
@@ -40,5 +45,7 @@ saving throw the target attempts to prevent its eyes being stolen.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness)
+Cost: 12,000 gp
+:::

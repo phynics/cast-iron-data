@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "13th"
 +++
 
-**Aura** moderate transmutation; **CL** 13th\
-**Slot** head; **Price** 67,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 13th
+Slot: head
+Price: 67,500 gp
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -34,6 +39,7 @@ with her.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planetary adaptation](ref/spell/planetary-adaptation), [tongues](ref/spell/tongues), creator must
-be a Lashunta; **Cost** 33,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planetary adaptation](ref/spell/planetary-adaptation), [tongues](ref/spell/tongues), creator must be a Lashunta
+Cost: 33,750 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: 1 lb.
+:::
 
 This green glass bottle has a tiny winding key on its elongated stem that, if turned, causes a
 shadowy cork to slowly become substantial over a 1-round period. Anything the owner of the bottle
@@ -35,5 +40,7 @@ shatters.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic mouth](ref/spell/magic-mouth); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic mouth](ref/spell/magic-mouth)
+Cost: 150 gp
+:::

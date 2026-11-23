@@ -22,9 +22,13 @@ caster_level = "17th"
 
 ## Fetish of the Frog Queen
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 9,000 gp (Lesser), 32,500 gp (Standard), 73,000 gp (Greater); **Weight** 4
-lbs.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 9,000 gp (Lesser), 32,500 gp (Standard), 73,000 gp (Greater)
+Weight: 4 lbs.
+:::
 
 Created from the bodies of certain frogs whose poisons induce potent hallucinations and delusions,
 these mummified husks are variously cited as the invention of either [grippli](ref/race/grippli)
@@ -57,5 +61,7 @@ greater fetish affects any spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison);
-**Cost** 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison)
+Cost: 4,500 gp (Lesser), 16,250 gp (Standard), 36,500 gp (Greater)
+:::

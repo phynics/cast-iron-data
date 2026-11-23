@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** hands; **Price** 2,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: hands
+Price: 2,700 gp
+Weight: 1 lb.
+:::
 
 This metal gauntlet is the sort appropriate for wearing with [chainmail](ref/eq-armor/chainmail),
 though versions suited for [leather](ref/eq-armor/leather) or [full plate](ref/eq-armor/full-plate)
@@ -45,6 +50,7 @@ comes first).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[magic weapon](ref/spell/magic-weapon), [summon monster I](ref/spell/summon-monster-1); **Cost**
-1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [magic weapon](ref/spell/magic-weapon), [summon monster I](ref/spell/summon-monster-1)
+Cost: 1,350 gp
+:::

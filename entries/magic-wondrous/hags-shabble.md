@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** body; **Price** 3,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: body
+Price: 3,400 gp
+Weight: 3 lbs.
+:::
 
 This unkempt black smock is loose-fitting and stained from travel. In the River Kingdoms, the wearer
 is assumed to be a follower of [Gyronna](ref/faith/gyronna) because of the garment's association
@@ -36,6 +41,7 @@ _[detect thoughts](ref/spell/detect-thoughts)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), creator must have 5 ranks of Diplomacy and Intimidate;
-**Cost** 1,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), creator must have 5 ranks of Diplomacy and Intimidate
+Cost: 1,700 gp
+:::

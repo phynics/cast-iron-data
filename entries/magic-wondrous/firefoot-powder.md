@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This bright red powder contains a mixture of rare herbs and black salt. One dose of fire foot powder
 is enough powder to spread over two 5-foot squares, usually around doorways. The first creature to
@@ -36,5 +41,7 @@ its magic and becomes harmless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pain strike](ref/spell/pain-strike); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pain strike](ref/spell/pain-strike)
+Cost: 500 gp
+:::

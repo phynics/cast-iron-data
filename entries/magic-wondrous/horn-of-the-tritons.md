@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This device is a large, intricately inscribed and decorated conch shell that can be blown once per
 day (except by a [triton](ref/race/triton), who can sound it three times per day). Blowing the horn
@@ -42,7 +47,7 @@ Any sounding of a horn of the tritons can be heard by all tritons within a 3-mil
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water), [dismissal](ref/spell/dismissal), [fear](ref/spell/fear),
-[summon nature's ally V](ref/spell/summon-natures-ally-5), creator must be a triton; **Cost** 7,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water), [dismissal](ref/spell/dismissal), [fear](ref/spell/fear), [summon nature's ally V](ref/spell/summon-natures-ally-5), creator must be a triton
+Cost: 7,500 gp
+:::

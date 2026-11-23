@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** body; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: body
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 Sewn in the traditional style of the Kalistocracy, this white robe bears several golden
 embellishments. The robe is under a constant _[prestidigitation](ref/spell/prestidigitation)_ spell
@@ -32,6 +37,7 @@ pushed 10 feet in a direction specified by the wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[force punch](ref/spell/force-punch), [prestidigitation](ref/spell/prestidigitation); **Cost** 1,750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [force punch](ref/spell/force-punch), [prestidigitation](ref/spell/prestidigitation)
+Cost: 1,750 gp
+:::

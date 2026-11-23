@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 A set of lithomancy stones contains 1 5 semi-precious stones of varying shape and color,
 representing a mixture of elements, emotions, and various spiritual presences from the outer planes.
@@ -43,6 +48,7 @@ maximum of 90%).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination), creator must have at least 5 ranks in Knowledge (planes);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination), creator must have at least 5 ranks in Knowledge (planes)
+Cost: 6,000 gp
+:::

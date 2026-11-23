@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** feet; **Price** 6,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: feet
+Price: 6,000 gp
+Weight: 12 lbs.
+:::
 
 If a creature wearing these dull gray horseshoes remains stationary for 1 round, the creature and
 its rider, if any, gain a +10 bonus on [Stealth](ref/skill/stealth) checks for 1 round. In addition,
@@ -31,5 +36,7 @@ to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This iron gargoyle face holds an iron ring in its mouth. Once per day, when the flat back of the
 gargoyle face is placed against a wall, floor, or ceiling, it fuses into place, creating a usable
@@ -31,5 +36,7 @@ surface to its previous doorless shape, and releases the doorknocker from the su
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[passwall](ref/spell/passwall); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [passwall](ref/spell/passwall)
+Cost: 2,500 gp
+:::

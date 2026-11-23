@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** belt; **Price** 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6); **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: belt
+Price: 10,000 gp (+2), 40,000 gp (+4), 90,000 gp (+6)
+Weight: 1 lb.
+:::
 
 This belt grants the wearer an enhancement bonus to two physical ability scores (Strength,
 Dexterity, or Constitution) of +2, +4, or +6. Treat this as a
@@ -33,6 +38,7 @@ These bonuses are chosen when the belt is created and cannot be changed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), and/or
-[cat's grace](ref/spell/cats-grace); **Cost** 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), and/or [cat's grace](ref/spell/cats-grace)
+Cost: 5,000 gp (+2), 20,000 gp (+4), 45,000 gp (+6)
+:::

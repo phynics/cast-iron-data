@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 A familiar bubble looks like nothing more than a pair of reinforced leather straps designed to fit
 over the shoulders' until it is worn. Once the straps are donned, a bubble of force forms on the
@@ -38,5 +43,7 @@ order to get it into the bubble and then selects himself so he can retrieve the 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble)
+Cost: 1,250 gp
+:::

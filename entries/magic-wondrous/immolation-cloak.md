@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** shoulders; **Price** 65,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: shoulders
+Price: 65,000 gp
+Weight: 1 lb.
+:::
 
 An immolation cloak grants its wearer resist fire 20. As a swift action, the wearer can command the
 cloak to burst into flame, providing the benefits of a _[fire shield](ref/spell/fire-shield)_ (warm
@@ -38,7 +43,7 @@ unavailable).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [detonate](ref/spell/detonate),
-[fire shield](ref/spell/fire-shield), [resist energy](ref/spell/resist-energy) (fire); **Cost**
-32,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [detonate](ref/spell/detonate), [fire shield](ref/spell/fire-shield), [resist energy](ref/spell/resist-energy) (fire)
+Cost: 32,500 gp
+:::

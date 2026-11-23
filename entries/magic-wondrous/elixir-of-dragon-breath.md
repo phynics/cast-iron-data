@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: -
+:::
 
 This gurgling, luminescent elixir comes in several different varieties, each keyed to a particular
 type of metallic or chromatic dragon. A creature that drinks the elixir can, as a standard action,
@@ -40,5 +45,7 @@ associated dragon type:
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dragon's breath](ref/spell/dragons-breath); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dragon's breath](ref/spell/dragons-breath)
+Cost: 700 gp
+:::

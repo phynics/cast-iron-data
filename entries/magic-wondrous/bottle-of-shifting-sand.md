@@ -20,8 +20,13 @@ aura = "faint transmutation [earth]"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation \[earth\]; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation \[earth\]
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 This ornate glass bottle is filled with loose sand. A bottle of shifting sand can be
 [thrown as a splash weapon](ref/rule/throw-splash-weapon) targeting a specific grid intersection.
@@ -42,5 +47,7 @@ but has no effect on the surrounding terrain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shifting sand](ref/spell/shifting-sand); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shifting sand](ref/spell/shifting-sand)
+Cost: 375 gp
+:::

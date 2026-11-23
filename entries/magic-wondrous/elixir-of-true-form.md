@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 1,600 gp
+Weight: -
+:::
 
 This elixir removes all curses and transmutation effects from the imbiber, including the unnatural
 mutations resulting from the arcane warping of the island of Nal-Kashel or gained through an
@@ -32,5 +37,7 @@ can remove the warping effects of the island's influence.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove curse](ref/spell/remove-curse); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove curse](ref/spell/remove-curse)
+Cost: 800 gp
+:::

@@ -23,9 +23,13 @@ aura = "faint (normal) or moderate (greater) abjuration and conjuration"
 caster_level = "3rd (normal), 9th (greater)"
 +++
 
-**Aura** faint (normal) or moderate (greater) abjuration and conjuration; **CL** 3rd (normal), 9th
-(greater)\
-**Slot** neck; **Price** 1,500 gp (normal), 3,750 gp (greater); **Weight** -
+::: statblock
+Aura: faint (normal) or moderate (greater) abjuration and conjuration
+CL: 3rd (normal), 9th (greater)
+Slot: neck
+Price: 1,500 gp (normal), 3,750 gp (greater)
+Weight: -
+:::
 
 An **aegis of recovery** grants its wearer a +2 resistance bonus on all saving throws made to
 recover from a continuing effect, such as ongoing poison damage, daily saving throws against a
@@ -44,6 +48,7 @@ and then crumbles to dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [cure moderate wounds](ref/spell/cure-moderate-wounds) (normal) or
-[breath of life](ref/spell/breath-of-life) (greater); **Cost** 750 gp (normal), 1,875 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [cure moderate wounds](ref/spell/cure-moderate-wounds) (normal) or [breath of life](ref/spell/breath-of-life) (greater)
+Cost: 750 gp (normal), 1,875 gp (greater)
+:::

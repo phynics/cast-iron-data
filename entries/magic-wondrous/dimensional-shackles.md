@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** wrists; **Price** 28,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: wrists
+Price: 28,000 gp
+Weight: 5 lbs.
+:::
 
 These shackles have magical runes traced across their [cold iron](ref/eq-material/cold-iron) links.
 Any creature bound within them is affected as if a
@@ -33,5 +38,7 @@ Small to Large creature. The DC to break or slip out of the shackles is 30.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 14,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 14,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 5,040 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 5,040 gp
+Weight: 7 lbs.
+:::
 
 This magical standard appears to be a rather plain banner of nondescript canvas cloth, but on
 command it takes on the device or pattern chosen by the person using it. Once per day when the
@@ -37,5 +42,7 @@ so. The area created by the banner lasts for 8 hours or until the banner is take
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[endure elements](ref/spell/endure-elements); **Cost** 2,520 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [endure elements](ref/spell/endure-elements)
+Cost: 2,520 gp
+:::

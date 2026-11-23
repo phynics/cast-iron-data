@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This 1-inch red marble statue depicts a tiny praying mantis. When the command word is uttered, the
 mantis comes to life and moves as its owner instructs, as per a sensor eye from a
@@ -34,5 +39,7 @@ day. If the mantis is destroyed while animate, it reverts to statue form.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prying eyes](ref/spell/prying-eyes); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prying eyes](ref/spell/prying-eyes)
+Cost: 1,000 gp
+:::

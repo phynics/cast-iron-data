@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 19,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 19,000 gp
+Weight: 5 lbs.
+:::
 
 This squat, golden idol looks like a bald, obese wise man with an extra eye in his forehead. It can
 be used once per day to gain information as with an _[augury](ref/spell/augury)_ spell, and once per
@@ -32,5 +37,7 @@ might be, "Because Aballon and Eox are in conjunction in the House of the Eagle,
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[commune](ref/spell/commune), [divination](ref/spell/divination); **Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [commune](ref/spell/commune), [divination](ref/spell/divination)
+Cost: 9,500 gp
+:::

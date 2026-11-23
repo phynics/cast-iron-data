@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** head; **Price** 2,840 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: head
+Price: 2,840 gp
+Weight: 1 lb.
+:::
 
 This simple leather coif is of a style popular along the Crusader Road and throughout northern
 Avistan. The wearer gains a +2 resistance bonus on Will saves against mind-affecting effects created
@@ -37,6 +42,7 @@ only reveals the presence of such creatures, not their number or location.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead), [protection from evil](ref/spell/protection-from-evil);
-**Cost** 1,420 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead), [protection from evil](ref/spell/protection-from-evil)
+Cost: 1,420 gp
+:::

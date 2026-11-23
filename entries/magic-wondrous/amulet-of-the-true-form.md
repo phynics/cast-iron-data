@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** neck; **Price** 6,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: neck
+Price: 6,500 gp
+Weight: -
+:::
 
 This impeccable sapphire amulet is set with an immaculate pearl. An amulet of the true form is
 enchanted to ward off powers that would result in unwanted transformation. It grants its wearer a +2
@@ -30,5 +35,7 @@ throws against unwilling [lycanthropic](ref/rule/lycanthropy) transformation.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 3,250 gp
+:::

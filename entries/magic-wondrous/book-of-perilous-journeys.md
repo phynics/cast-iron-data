@@ -19,8 +19,12 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Weight** 1/2 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Weight: 1/2 lb.
+:::
 
 This leather-bound book looks like a journal partially ruined by moisture. The pages that are still
 legible detail three violent events that apparently took place while the writer was traveling
@@ -40,4 +44,7 @@ reappears later, however, at a random location.
 
 ### Construction
 
-**Requirements** [monster almanac](ref/magic-wondrous/monster-almanac); **Cost** -
+::: statblock
+Requirements: [monster almanac](ref/magic-wondrous/monster-almanac)
+Cost: -
+:::

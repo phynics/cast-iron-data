@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** shoulders; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: shoulders
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 Made from a single male lion's coat with the mane surrounding its hood, the lion cloak is an
 impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made
@@ -35,5 +40,7 @@ form the wearer cannot use its normal smite ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2)
+Cost: 6,000 gp
+:::

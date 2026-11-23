@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** head; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: head
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This cloth hat is floppy and shapeless. It offers its wearer an unusual amount of protection against
 particularly devastating blows. Once per day when struck by a critical hit, the wearer can spend an
@@ -30,5 +35,7 @@ no effect if the wearer is immune to nonlethal damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield);
-**Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield](ref/spell/shield)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: wrists
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This bronze, serpentine bracelet has five dangling charms, each depicting an open and staring eye.
 Once per day as a standard action, the wearer can touch the bracelet to a creature with a
@@ -40,6 +45,7 @@ loses all magical properties.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness), [lock gaze](ref/spell/lock-gaze); **Cost** 5,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness), [lock gaze](ref/spell/lock-gaze)
+Cost: 5,000 gp
+:::

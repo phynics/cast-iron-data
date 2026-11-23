@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** belt; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: belt
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This belt allows its wearer to easily forage while in the wilderness. As long as the wearer of this
 belt has at least 1 rank in [Survival](ref/skill/survival), she need not make a check to get along
@@ -37,6 +42,7 @@ exceeds 20.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect animals or plants](ref/spell/detect-animals-or-plants), creator must have 1 rank in
-Survival; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect animals or plants](ref/spell/detect-animals-or-plants), creator must have 1 rank in Survival
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This bead is carved with a tiny pictogram representing a small, harmless animal such as a newt,
 rabbit, or frog. If the bearer fails a saving throw against a hostile polymorph effect such as
@@ -30,5 +35,7 @@ affect the bearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic)
+Cost: 500 gp
+:::

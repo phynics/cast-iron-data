@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 9,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 9,000 gp
+Weight: 8 lbs.
+:::
 
 Images of ballistae ornament this metallic cloak, which fits easily over armor and other bulky
 clothing. The wearer can activate this cloak as a swift action, causing the garment to splay outward
@@ -43,5 +48,7 @@ This cloak can be activated up to three times per day, but not more often than o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air walk](ref/spell/air-walk), [bull's strength](ref/spell/bulls-strength); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air walk](ref/spell/air-walk), [bull's strength](ref/spell/bulls-strength)
+Cost: 4,500 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 These soft leather boots are incredibly light and comfortable, with thin soles reinforced by strips
 of tough hide that provide an unexpected amount of support and protection to the foot. On command,
@@ -33,5 +38,7 @@ herself.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate)
+Cost: 3,750 gp
+:::

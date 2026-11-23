@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: hands
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These white fingerless gloves are decorated with a spiral on the back of the hand. For the purposes
 of resolving the effects of [high winds](ref/rule/winds), the wearer is treated as one size larger
@@ -30,5 +35,7 @@ wearer can spend 1 ki point to create a _[gust of wind](ref/spell/gust-of-wind).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 5,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 13,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 13,000 gp
+Weight: -
+:::
 
 This crystal appears to be a long, rough prism. Upon utterance of a command word, though, the gem's
 facets suddenly grow highly polished as the crystal emits bright light of one of three sorts.
@@ -47,5 +52,7 @@ nonmagical and its facets grow cloudy with a fine network of cracks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight)
+Cost: 6,500 gp
+:::

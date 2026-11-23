@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 75,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 75,000 gp
+Weight: -
+:::
 
 This finely cut and polished stone is indistinguishable from an ordinary jewel in appearance. When
 it is gazed through, a gem of seeing enables the user to see as though she were affected by the
@@ -33,5 +38,7 @@ a day, in increments of 5 minutes. These increments do not need to be consecutiv
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 37,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 37,500 gp
+:::

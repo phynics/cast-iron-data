@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 26,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 26,000 gp
+Weight: 12 lbs.
+:::
 
 This heavy granite brick has no effect until it is held at the top of a door, window, or similar
 portal and touched with a forked metal rod attuned to serve as the focus component for a
@@ -39,5 +44,7 @@ location or plane of that creature. A lintel stone can be activated once per day
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 13,000 gp
+:::

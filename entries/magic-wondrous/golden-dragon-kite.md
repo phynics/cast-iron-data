@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 3,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 3,600 gp
+Weight: 2 lbs.
+:::
 
 This painted silk kite depicts a shining golden dragon. In an area with 40 feet or more of vertical
 space and in conditions of light to moderate wind, a golden dragon kite can be unfolded and raised
@@ -35,5 +40,7 @@ Rumors say that in Minkai, versions of these kites exist that deliver other spel
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands)
+Cost: 1,800 gp
+:::

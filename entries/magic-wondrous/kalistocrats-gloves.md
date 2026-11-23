@@ -20,8 +20,13 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and evocation; **CL** 5th\
-**Slot** hands; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and evocation
+CL: 5th
+Slot: hands
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 Wealthy Kalistocrats wear these elegant, full-length white gloves. Twice per day as a move action,
 the wearer of these gloves can repel an unwanted creature for 1 minute or until the wearer touches
@@ -35,5 +40,7 @@ or object with a +5 bonus. This bull rush combat maneuver doesn't provoke an att
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hydraulic push](ref/spell/hydraulic-push), [sanctuary](ref/spell/sanctuary); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hydraulic push](ref/spell/hydraulic-push), [sanctuary](ref/spell/sanctuary)
+Cost: 1,800 gp
+:::

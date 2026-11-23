@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 700 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 700 gp
+Weight: 1 lb.
+:::
 
 This round, rainbow-hued glass flask allows up to three alchemical splash weapons of the same type
 to be poured into it, concentrating them such that they never increase its weight noticeably. If
@@ -35,5 +40,7 @@ contains two alchemical items, or by 4 if it contains three items.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item); **Cost** 350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item)
+Cost: 350 gp
+:::

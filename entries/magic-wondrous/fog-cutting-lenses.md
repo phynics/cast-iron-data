@@ -26,8 +26,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** face; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: face
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 These goggles are made of polished rock crystal, with frames of polished brass and a simple leather
 strap and buckle sized for a giant's head (but easily adjustable for smaller wearers). The goggles
@@ -38,5 +43,7 @@ the goggles distort and skew vision strangely, imposing a -4 penalty on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [fog cloud](ref/spell/fog-cloud); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [fog cloud](ref/spell/fog-cloud)
+Cost: 4,000 gp
+:::

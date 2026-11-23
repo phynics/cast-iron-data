@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** wrists; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: wrists
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 These tortoise-shell bracers fit so snuggly against their wearer's skin that they almost seem part
 of him. The wearer of these bracers becomes exceptionally calm and composed if she takes her time to
@@ -30,5 +35,7 @@ depends on her arms and hands, she gains a +5 competence bonus on the check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid); **Cost**
-1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid)
+Cost: 1,000 gp
+:::

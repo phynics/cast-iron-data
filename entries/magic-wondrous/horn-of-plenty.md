@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 6,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 6,500 gp
+Weight: 3 lbs.
+:::
 
 This hollowed-out horn comes in four varieties: **a horn of plentiful goods, a horn of plentiful
 labor, a horn of plentiful influence,** and **a horn of plentiful magic.** Each variety carries the
@@ -43,5 +48,7 @@ to trade 3 points of either Goods, Labor, or Influence for 1 point of Magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person)
+Cost: 3,250 gp
+:::

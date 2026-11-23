@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate conjuration; **CL** 5th\
-**Slot** neck; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 5th
+Slot: neck
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 A deathbalm talisman grants its wearer a +5 resistance bonus on Fortitude saves against disease or
 poison, and if placed around the neck of an individual already suffering the effects of poison or
@@ -34,7 +39,7 @@ score currently suffering ability damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser),
-[neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease)
+Cost: 2,500 gp
+:::

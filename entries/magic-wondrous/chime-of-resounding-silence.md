@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This foot-long tube of gold absorbs nearby sound when struck, as if it were the target of a
 _[silence](ref/spell/silence)_ spell. This ability can be used once per day. The chime vibrates
@@ -37,5 +42,7 @@ it did not create.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout),
-[silence](ref/spell/silence); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout), [silence](ref/spell/silence)
+Cost: 5,000 gp
+:::

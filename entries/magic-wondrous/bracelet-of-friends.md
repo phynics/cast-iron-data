@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** wrists; **Price** 19,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: wrists
+Price: 19,000 gp
+Weight: -
+:::
 
 This silver charm bracelet has four charms upon it when created. The owner may designate one person
 known to him to be keyed to each charm. (This designation takes a standard action, but once done it
@@ -38,5 +43,7 @@ charm.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [refuge](ref/spell/refuge);
-**Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [refuge](ref/spell/refuge)
+Cost: 9,500 gp
+:::

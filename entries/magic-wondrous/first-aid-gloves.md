@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** hands; **Price** 4,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: hands
+Price: 4,500 gp
+Weight: 1 lb.
+:::
 
 These gloves have a sapphire decorating each finger, bearing 10 in all. While wearing a pair of
 first aid gloves, as a standard action the wearer can cast any of the following spells (caster level
@@ -42,9 +47,7 @@ to function. Once all of the sapphires are expended, a pair of first aid gloves 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[breath of life](ref/spell/breath-of-life), [cure critical wounds](ref/spell/cure-critical-wounds),
-[cure light wounds](ref/spell/cure-light-wounds),
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [breath of life](ref/spell/breath-of-life), [cure critical wounds](ref/spell/cure-critical-wounds), [cure light wounds](ref/spell/cure-light-wounds), [cure moderate wounds](ref/spell/cure-moderate-wounds), [cure serious wounds](ref/spell/cure-serious-wounds), [mass cure light wounds](ref/spell/cure-light-wounds-mass)
+Cost: 2,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** neck; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: neck
+Price: 3,000 gp
+Weight: -
+:::
 
 Once per day, this good luck charm allows the wearer to reroll a single skill check or
 [concentration](ref/rule/concentration) check after the success or failure of the original roll is
@@ -30,5 +35,7 @@ may not be used on a skill check that's already been rerolled by some other mean
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor)
+Cost: 1,500 gp
+:::

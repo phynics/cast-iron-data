@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** eyes; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: eyes
+Price: 12,000 gp
+Weight: -
+:::
 
 Fashioned from a scrap of a blind beggar's clothing, a blind man's fold is often used by explorers
 who must traverse caves inhabited by invisible creatures, or those drawn to sources of light. A
@@ -31,6 +36,7 @@ man's fold.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Improved Blind-Fight](ref/feat/improved-blind-fight), [darkness](ref/spell/darkness); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Improved Blind-Fight](ref/feat/improved-blind-fight), [darkness](ref/spell/darkness)
+Cost: 6,000 gp
+:::

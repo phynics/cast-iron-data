@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "14th"
 +++
 
-**Aura** strong transmutation; **CL** 14th\
-**Slot** none; **Price** 6,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 14th
+Slot: none
+Price: 6,700 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -35,5 +40,7 @@ spends, rather than half.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[shrink item](ref/spell/shrink-item), creator must be a dwarf; **Cost** 3,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [shrink item](ref/spell/shrink-item), creator must be a dwarf
+Cost: 3,350 gp
+:::

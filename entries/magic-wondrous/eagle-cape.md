@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 Large eagle feathers decorate the back and arms of this magnificent cape. Should the cape's wearer
 fall more than 5 feet, the cape spreads out behind the wearer and she gently drifts to the ground.
@@ -34,6 +39,7 @@ form, the wearer gains a +5 competence bonus on [Perception](ref/skill/perceptio
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [feather fall](ref/spell/feather-fall),
-[perceive cues](ref/spell/perceive-cues); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [feather fall](ref/spell/feather-fall), [perceive cues](ref/spell/perceive-cues)
+Cost: 3,500 gp
+:::

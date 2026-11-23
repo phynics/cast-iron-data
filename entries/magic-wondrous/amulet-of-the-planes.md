@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** neck; **Price** 120,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: neck
+Price: 120,000 gp
+Weight: -
+:::
 
 This device usually appears to be a black circular amulet, although anyone looking closely at it
 sees a dark, moving swirl of color. The amulet allows its wearer to utilize the spell
@@ -36,5 +41,7 @@ those traveling with her to a random location on that plane (01-60 on d%) or to 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 60,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 60,000 gp
+:::

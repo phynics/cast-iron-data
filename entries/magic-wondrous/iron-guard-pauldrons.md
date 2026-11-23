@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** shoulders; **Price** 5,750 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: shoulders
+Price: 5,750 gp
+Weight: 6 lbs.
+:::
 
 These simple, leather-strapped iron pauldrons are engraved with intricate images of icy winds and
 howling winter wolves, and are worn by senior members of the military order that serves
@@ -37,5 +42,7 @@ _[endure elements](ref/spell/endure-elements),_ but only for cold temperatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [resistance](ref/spell/resistance); **Cost** 2,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [resistance](ref/spell/resistance)
+Cost: 2,875 gp
+:::

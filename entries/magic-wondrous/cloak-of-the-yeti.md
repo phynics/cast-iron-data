@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** shoulders; **Price** 4,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: shoulders
+Price: 4,000 gp
+Weight: 5 lbs.
+:::
 
 This heavy cloak is crafted from shaggy white [yeti](ref/monster/yeti) fur. When the cloak's hood is
 pulled up over the wearer's head, it takes on a semblance of its arctic namesake's fearsome visage.
@@ -34,6 +39,7 @@ addition, with the hood drawn over the wearer's head, the cloak grants a +2 comp
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [cause fear](ref/spell/cause-fear),
-[endure elements](ref/spell/endure-elements); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [cause fear](ref/spell/cause-fear), [endure elements](ref/spell/endure-elements)
+Cost: 2,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** chest; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: chest
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,5 +42,7 @@ her Intelligence, Wisdom, and Charisma modifiers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), creator must be a Garundi; **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), creator must be a Garundi
+Cost: 7,000 gp
+:::

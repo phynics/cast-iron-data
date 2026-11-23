@@ -20,8 +20,12 @@ aura = "moderate enchantment and evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment and evocation; **CL** 11th\
-**Slot** none; **Price** 35,000 gp
+::: statblock
+Aura: moderate enchantment and evocation
+CL: 11th
+Slot: none
+Price: 35,000 gp
+:::
 
 This stone of good luck is weathered and resembles nothing so much as a hard piece of shale. The
 stone can cast _[good hope](ref/spell/good-hope)_ once per day, and its bearer gains a +2 insight
@@ -33,8 +37,10 @@ stone is instead silent and shudders slightly.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [good hope](ref/spell/good-hope); **Price** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [good hope](ref/spell/good-hope)
+Price: 17,500 gp
+:::
 
 ### Statistics
 

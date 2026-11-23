@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: 1 lb.
+:::
 
 This rough, fist-sized stone contains an inner cavity lined with crystals that have been infused
 with positive energy. When hurled at a hard surface up to 60 feet away, an effulgent geode explodes
@@ -33,5 +38,7 @@ immediately explodes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mass cure light wounds](ref/spell/cure-light-wounds-mass)
+Cost: 1,125 gp
+:::

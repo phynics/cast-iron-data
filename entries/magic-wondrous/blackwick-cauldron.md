@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 7th\
-**Slot** none; **Price** 8,850 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 7th
+Slot: none
+Price: 8,850 gp
+Weight: 3 lbs.
+:::
 
 Crafted from cattail wicker, rendered magically immune to fire, and blackened by years of use,
 blackwick cauldrons are but one variety of a number of similar items. Designed to aid in the
@@ -42,5 +47,7 @@ or less.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[identify](ref/spell/identify), [scrying](ref/spell/scrying); **Cost** 4,425 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify), [scrying](ref/spell/scrying)
+Cost: 4,425 gp
+:::

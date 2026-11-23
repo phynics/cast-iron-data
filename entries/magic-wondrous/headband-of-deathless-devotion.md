@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** headband; **Price** 6,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: headband
+Price: 6,400 gp
+Weight: 1 lb.
+:::
 
 This white headband, often painted or embroidered with calligraphy or a stylized pictogram such as a
 sunburst, helps focus the wearer's resolve and absolute determination to survive and succeed. The
@@ -34,5 +39,7 @@ class levels higher.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism),
-[stabilize](ref/spell/stabilize); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism), [stabilize](ref/spell/stabilize)
+Cost: 3,200 gp
+:::

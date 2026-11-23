@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 2,500 gp; **Weight** 24 lbs. (for four)
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 2,500 gp
+Weight: 24 lbs. (for four)
+:::
 
 These sturdy iron horseshoes come in sets of four like ordinary horseshoes, but are much heavier.
 When affixed to an animal's hooves, they double the animal's carrying capacity. All four shoes must
@@ -29,6 +34,7 @@ be worn by the same animal for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength); **Cost**
-1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength)
+Cost: 1,250 gp
+:::

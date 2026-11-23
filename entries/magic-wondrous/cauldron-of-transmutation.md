@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 33,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 33,000 gp
+Weight: 15 lbs.
+:::
 
 This small brass cauldron is engraved with arcane runes, and its bottom is blackened by fire. To
 function, the cauldron must be filled with pure water and heated from below. When any two potions
@@ -32,5 +37,7 @@ process takes 1 minute per spell level of the potion being created.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph any object](ref/spell/polymorph-any-object); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph any object](ref/spell/polymorph-any-object)
+Cost: 16,500 gp
+:::

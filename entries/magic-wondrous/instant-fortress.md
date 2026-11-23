@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 55,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 55,000 gp
+Weight: 1 lb.
+:::
 
 This metal cube is small, but when activated by speaking a command word it grows to form a tower 20
 feet square and 30 feet high, with arrow slits on all sides and a crenellated battlement atop it.
@@ -46,5 +51,7 @@ It cannot be deactivated unless it is empty.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage's magnificent mansion](ref/spell/mages-magnificent-mansion); **Cost** 27,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage's magnificent mansion](ref/spell/mages-magnificent-mansion)
+Cost: 27,500 gp
+:::

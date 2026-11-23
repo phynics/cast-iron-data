@@ -20,8 +20,13 @@ aura = "faint abjuration and conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and conjuration; **CL** 3rd\
-**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and conjuration
+CL: 3rd
+Slot: none
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 Traders crossing Casmaron's Grass Sea often carry a small, eagle-shaped caravan guardian with them
 on their journeys. These wooden statuettes serve as watchful guardians, alerting travelers when
@@ -38,5 +43,7 @@ guardian still sends a mental alarm. A caravan guardian can summon only one eagl
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 8,000 gp
+:::

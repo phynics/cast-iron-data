@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 1,200 gp
+Weight: -
+:::
 
 While worn, these white latex gloves provide an impressive grip for studying intricate objects. The
 wearer gains a +4 competence bonus on [Appraise](ref/skill/appraise) checks to determine the value
@@ -31,6 +36,7 @@ price of the item.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [investigative mind](ref/spell/investigative-mind);
-**Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [investigative mind](ref/spell/investigative-mind)
+Cost: 600 gp
+:::

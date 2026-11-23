@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** body; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: body
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 These fine dresses are delicately woven with magically preserved and layered leaves. The dresses
 were originally commissioned for elven diplomats who often interacted with gnomes and other members
@@ -33,5 +38,7 @@ gown also requires 1 interrupted minute and returns the gown and its wearer to t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[reduce person](ref/spell/reduce-person), creator must be an elf; **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [reduce person](ref/spell/reduce-person), creator must be an elf
+Cost: 1,750 gp
+:::

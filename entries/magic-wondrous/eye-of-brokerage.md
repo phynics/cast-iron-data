@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** neck; **Price** 16,550 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: neck
+Price: 16,550 gp
+Weight: 1/2 lb.
+:::
 
 This golden, eye-shaped amulet is relatively unassuming save for the stunning diamond in the center
 of the piece. An eye of brokerage grants the wearer additional prowess while bartering with
@@ -33,6 +38,7 @@ eyes for up to 7 rounds to determine whether up to seven creatures within 40 fee
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chaos hammer](ref/spell/chaos-hammer), [order's wrath](ref/spell/orders-wrath), creator must be
-neutral; **Cost** 8,275 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chaos hammer](ref/spell/chaos-hammer), [order's wrath](ref/spell/orders-wrath), creator must be neutral
+Cost: 8,275 gp
+:::

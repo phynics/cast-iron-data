@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This drinking horn is made from the highly polished tusk of some great beast. Etched around the rim
 are stylized waves and sea creatures. The horn typically appears empty, but once per day a creature
@@ -34,7 +39,7 @@ or is spilled from the horn, its effects are wasted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease),
-[lesser restoration](ref/spell/restoration-lesser); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure serious wounds](ref/spell/cure-serious-wounds), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 6,000 gp
+:::

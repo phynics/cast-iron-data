@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This black, iron bell is inscribed with diabolical symbols. The spherical clapper is affixed to a
 chain, resembling a tyrant's ball and chain. Diabolus bells can be dedicated to other powers of
@@ -49,6 +54,7 @@ effect, only one creature gains the benefits.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [doom](ref/spell/doom), [sound burst](ref/spell/sound-burst),
-[ward the faithful](ref/spell/ward-the-faithful); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [doom](ref/spell/doom), [sound burst](ref/spell/sound-burst), [ward the faithful](ref/spell/ward-the-faithful)
+Cost: 8,000 gp
+:::

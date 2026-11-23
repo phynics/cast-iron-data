@@ -20,8 +20,13 @@ aura = "moderate conjuration and divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and divination; **CL** 9th\
-**Slot** none; **Price** 10,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration and divination
+CL: 9th
+Slot: none
+Price: 10,000 gp
+Weight: 2 lbs.
+:::
 
 Often used by spies and arcane scholars to steal important texts without alerting their owners, a
 book thief's satchel contains enough room to hold a single tome of no more than 1,000 pages and no
@@ -44,5 +49,7 @@ be copied nor copying any of the pages to the blank book.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest), [steal book](ref/spell/steal-book); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest), [steal book](ref/spell/steal-book)
+Cost: 5,000 gp
+:::

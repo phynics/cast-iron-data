@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 6,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 6,000 gp
+Weight: 4 lbs.
+:::
 
 These shining, silvery horseshoes bear designs of swift-moving clouds and anthropomorphized images
 of the wind. When affixed to a horse, these horseshoes allow the horse to travel without actually
@@ -36,5 +41,7 @@ effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 These boots are made of fine red leather, and are decorated with stitched designs featuring
 humanoids wielding rapiers and other light weapons suited for
@@ -30,5 +35,7 @@ humanoids wielding rapiers and other light weapons suited for
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), creator must be a panache user; **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), creator must be a panache user
+Cost: 1,000 gp
+:::

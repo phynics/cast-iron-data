@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion; **CL** 1st\
-**Slot** shoulders; **Price** 900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 1st
+Slot: shoulders
+Price: 900 gp
+Weight: 1 lb.
+:::
 
 This plain cloak only has any effect when worn by a member of a half-human race, such as a
 [half-orc](ref/race/half-orc) or [half-elf](ref/race/half-elf). It alters the wearer's appearance
@@ -38,5 +43,7 @@ specific guise, and those familiar with his normal appearance can recognize him 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 450 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 16,000 gp
+Weight: 1/2 lb.
+:::
 
 This leather pouch is decorated with fresh mistletoe and sprigs of holly that are shaped to resemble
 the druidic symbol of the [Green Faith](ref/faith/green-faith). The pouch contains seeds of various
@@ -35,5 +40,7 @@ user to cast plant-altering or plant-creating spells in deserts, badlands, and o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wall of thorns](ref/spell/wall-of-thorns); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wall of thorns](ref/spell/wall-of-thorns)
+Cost: 8,000 gp
+:::

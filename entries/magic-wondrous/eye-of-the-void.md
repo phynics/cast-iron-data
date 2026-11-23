@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 The eye of the void normally appears to be a small black glass or crystal ball 3 to 4 inches in
 diameter. However, when commanded to open, the eye reveals itself as the terrifying, multi-pupilled
@@ -35,5 +40,7 @@ mind-affecting fear effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fear](ref/spell/fear)
+Cost: 5,000 gp
+:::

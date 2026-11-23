@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "4th"
 +++
 
-**Aura** faint illusion; **CL** 4th\
-**Slot** none; **Price** 1,100 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint illusion
+CL: 4th
+Slot: none
+Price: 1,100 gp
+Weight: 1/2 lb.
+:::
 
 This Fine brass construct is made to look like a beetle, and is sometimes painted in green, brown,
 or gray camouflage. A clockwork bug can record all nearby sounds within a 20-foot-radius
@@ -44,6 +49,7 @@ itself useless and irreparable.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound), creator must have 4 ranks in
-[Craft (clockwork)](ref/skill/craft-any); **Cost** 550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound), creator must have 4 ranks in [Craft (clockwork)](ref/skill/craft-any)
+Cost: 550 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** wrists; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: wrists
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 These thick brass and leather bracers allow the wearer to tear through bone and muscle like paper.
 Once per day, as part of a melee attack, the wearer can activate the bracers to inflict a horrific
@@ -34,5 +39,7 @@ or any magic that can break a curse.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 3,000 gp
+:::

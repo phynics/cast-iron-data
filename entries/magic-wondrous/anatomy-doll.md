@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 This stuffed rag doll might resemble a child's toy if not for the vital organs depicted on its
 cloth. By dabbing the doll with a few drops of blood from a living creature (a standard action), the
@@ -37,5 +42,7 @@ re-establish a broken link by anointing it with more of the target's blood.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [bleed](ref/spell/bleed); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [bleed](ref/spell/bleed)
+Cost: 500 gp
+:::

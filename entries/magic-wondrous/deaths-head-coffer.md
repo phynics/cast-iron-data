@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 1,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 1,000 gp
+Weight: 5 lbs.
+:::
 
 Typically engraved with numerous skulls, this small metal coffer allows the safe transport of
 infectious substances of up to Tiny size. Closing the lid seals in the contents and holds them in
@@ -47,5 +52,7 @@ successful [Disable Device](ref/skill/disable-device) checks with a DC of 30 or 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion), [gentle repose](ref/spell/gentle-repose); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion), [gentle repose](ref/spell/gentle-repose)
+Cost: 500 gp
+:::

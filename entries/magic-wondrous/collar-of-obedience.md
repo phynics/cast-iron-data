@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** neck; **Price** 5,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: neck
+Price: 5,000 gp
+Weight: 3 lbs.
+:::
 
 This collar of bright red leather bears a small golden pendant and makes the wearer much more
 biddable and compliant. The wearer takes a -4 penalty on saving throws against mind-affecting
@@ -39,5 +44,7 @@ equipped or removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal) or [mind fog](ref/spell/mind-fog); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal) or [mind fog](ref/spell/mind-fog)
+Cost: 2,500 gp
+:::

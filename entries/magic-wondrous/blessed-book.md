@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 12,500 gp
+Weight: 1 lb.
+:::
 
 This well-made tome is always of small size, typically no more than 12 inches tall, 8 inches wide,
 and 1 inch thick. All such books are durable, waterproof, bound with iron overlaid with silver, and
@@ -35,5 +40,7 @@ This book is never found as randomly generated treasure with spells already insc
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret page](ref/spell/secret-page); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret page](ref/spell/secret-page)
+Cost: 6,250 gp
+:::

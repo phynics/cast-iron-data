@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** hands; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: hands
+Price: 30,000 gp
+Weight: -
+:::
 
 These gloves grant the wearer greater control over his summoned creatures. As long as he wears the
 gloves, creatures conjured by the wearer can understand him as if they shared a common language.
@@ -33,6 +38,7 @@ if using _[control summoned creature](ref/spell/control-summoned-creature)_ (Wil
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages),
-[control summoned creature](ref/spell/control-summoned-creature); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [control summoned creature](ref/spell/control-summoned-creature)
+Cost: 15,000 gp
+:::

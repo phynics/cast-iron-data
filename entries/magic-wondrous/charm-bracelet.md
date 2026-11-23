@@ -20,8 +20,13 @@ aura = "faint varied"
 caster_level = "5th"
 +++
 
-**Aura** faint varied; **CL** 5th\
-**Slot** wrists; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint varied
+CL: 5th
+Slot: wrists
+Price: 8,000 gp
+Weight: -
+:::
 
 Tiny ornaments of gold hang from the links of a charm bracelet. In addition to 1d4+4 nonmagical
 charms, each bracelet carries one of each of the following magic charms. These magic charms can be
@@ -57,7 +62,7 @@ used, no matter the number of nonmagical charms left on the bracelet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [charm person](ref/spell/charm-person),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [prayer](ref/spell/prayer),
-[shadow weapon](ref/spell/shadow-weapon); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [charm person](ref/spell/charm-person), [cure moderate wounds](ref/spell/cure-moderate-wounds), [prayer](ref/spell/prayer), [shadow weapon](ref/spell/shadow-weapon)
+Cost: 4,000 gp
+:::

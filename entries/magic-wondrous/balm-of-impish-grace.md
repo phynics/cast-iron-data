@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 7,500 gp
+Weight: -
+:::
 
 When rubbed vigorously into the skin, this potent red liniment enhances a Tiny or smaller creature's
 ability to make full use of its size and mobility. Applying a dose of liniment is a standard action
@@ -32,5 +37,7 @@ newly created bottle of balm holds 5 doses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grace](ref/spell/grace);
-**Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grace](ref/spell/grace)
+Cost: 3,750 gp
+:::

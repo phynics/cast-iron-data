@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 40,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 40,000 gp
+Weight: 1 lb.
+:::
 
 This small talisman is comprised of teeth, fingers, ears, or other grotesque trophies taken from the
 freshly dead. Each talisman is imbued with an intense animosity toward a particular type of
@@ -38,6 +43,7 @@ would lose his orc bonus and only gain a +3 favored enemy bonus against dragons 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[instant enemy](ref/spell/instant-enemy), creator must have the favored enemy class feature;
-**Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [instant enemy](ref/spell/instant-enemy), creator must have the favored enemy class feature
+Cost: 20,000 gp
+:::

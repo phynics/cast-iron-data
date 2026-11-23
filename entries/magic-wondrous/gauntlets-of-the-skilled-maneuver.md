@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of these gauntlets gains a +2 bonus on one type of combat maneuver check (such as
 [bull rush](ref/rule/bull-rush), [disarm](ref/rule/disarm), or [steal](ref/rule/steal)) chosen by
@@ -29,5 +34,7 @@ the creator when the item is created.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have the
-appropriate Improved combat maneuver feat; **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have the appropriate Improved combat maneuver feat
+Cost: 2,000 gp
+:::

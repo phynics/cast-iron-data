@@ -25,9 +25,13 @@ caster_level = "10th"
 
 ## Lord's Banner
 
-**Aura** moderate varies; **CL** 10th\
-**Slot** none; **Price** 10,000 gp (Swiftness), 56,000 gp (Terror), 75,000 gp (Victory), 100,000 gp
-(Crusades); **Weight** 3 lbs.
+::: statblock
+Aura: moderate varies
+CL: 10th
+Slot: none
+Price: 10,000 gp (Swiftness), 56,000 gp (Terror), 75,000 gp (Victory), 100,000 gp (Crusades)
+Weight: 3 lbs.
+:::
 
 A lord's banner is a cloth flag or standard, typically at least 2 feet wide and 4 feet long (though
 some are up to twice that size), meant to be carried and displayed on a lance, polearm, frame, or
@@ -60,8 +64,7 @@ bonus on attack rolls, saves, and skill checks for as long as they can see the b
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor) (leadership), [hallow](ref/spell/hallow) (crusades),
-[freedom of movement](ref/spell/freedom-of-movement) (swiftness), [fear](ref/spell/fear) (terror),
-[heroism](ref/spell/heroism) (victory); **Cost** 5,000 gp (Swiftness), 28,000 gp (Terror), 37,500 gp
-(Victory), 50,000 gp (Crusades)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor) (leadership), [hallow](ref/spell/hallow) (crusades), [freedom of movement](ref/spell/freedom-of-movement) (swiftness), [fear](ref/spell/fear) (terror), [heroism](ref/spell/heroism) (victory)
+Cost: 5,000 gp (Swiftness), 28,000 gp (Terror), 37,500 gp (Victory), 50,000 gp (Crusades)
+:::

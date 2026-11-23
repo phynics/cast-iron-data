@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,500 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 2,500 gp
+Weight: 10 lbs.
+:::
 
 Three small metal rings adorn one side of this long, rectangular piece of black fabric, which
 shimmers with magic. Once per day, if the banner is attached to the mast of a ship or other
@@ -41,5 +46,7 @@ saving throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation)
+Cost: 1,250 gp
+:::

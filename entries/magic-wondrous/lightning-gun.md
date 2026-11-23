@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 95,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 95,000 gp
+Weight: 15 lbs.
+:::
 
 This device appears to be a box and frame made of a strange metallic alloy. A bellows or tapered
 accordion structure protrudes from the box, with handles and controls at the wide end and a bright
@@ -36,5 +41,7 @@ gold, copper, silver, or bronze.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chain lightning](ref/spell/chain-lightning); **Cost** 47,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chain lightning](ref/spell/chain-lightning)
+Cost: 47,500 gp
+:::

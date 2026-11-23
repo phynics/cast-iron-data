@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 2,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 2,600 gp
+Weight: 1 lb.
+:::
 
 This black leather tricorne hat is weather-beaten and salt-stained. It grants its wearer a +2
 competence bonus on [Profession (sailor)](ref/skill/profession-any) and [Swim](ref/skill/swim)
@@ -38,6 +43,7 @@ after 8 hours, the boat returns to its hat form, dumping out any occupants.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [shrink item](ref/spell/shrink-item), creator must have 5 ranks in
-Profession (sailor); **Cost** 1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [shrink item](ref/spell/shrink-item), creator must have 5 ranks in Profession (sailor)
+Cost: 1,300 gp
+:::

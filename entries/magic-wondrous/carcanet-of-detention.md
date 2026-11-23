@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration; **CL** 4th\
-**Slot** neck; **Price** 7,200 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 4th
+Slot: neck
+Price: 7,200 gp
+Weight: -
+:::
 
 Comprised of thick iron links, the carcanet of detention is commonly worn by prison guards and elite
 members of the city watch. Once per day, the wearer of the carcanet may command it to animate and
@@ -34,5 +39,7 @@ chain has a [hardness](ref/umr/hardness) of 10 and 15 hit points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope)
+Cost: 3,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration (teleportation)"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration (teleportation); **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration (teleportation)
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: 1 lb.
+:::
 
 When the command word is spoken, this palm-sized stone teleports one Medium creature and up to 100
 pounds of equipment to a specific elf gate that the stone is keyed to. Only one creature may travel
@@ -32,5 +37,7 @@ return and report on the mission.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[teleport](ref/spell/teleport); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [teleport](ref/spell/teleport)
+Cost: 1,125 gp
+:::

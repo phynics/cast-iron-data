@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** hands; **Price** 1,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: hands
+Price: 1,200 gp
+Weight: 1 lb.
+:::
 
 The inside of these fingerless leather gloves contains minute stitching forming the holy symbol of a
 specific deity or religion. As a standard action, the wearer can imprint a palm-sized image of the
@@ -34,5 +39,7 @@ image fades after 1 day, but can be prematurely removed by [dispel magic](ref/sp
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane mark](ref/spell/arcane-mark), [light](ref/spell/light); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane mark](ref/spell/arcane-mark), [light](ref/spell/light)
+Cost: 600 gp
+:::

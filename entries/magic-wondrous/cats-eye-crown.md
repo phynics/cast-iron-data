@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** head; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: head
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 This slender silver crown is decorated with a single cat's eye gemstone as a centerpiece. When the
 gem is attached to the crown, its wearer gains [darkvision](ref/rule/darkvision) 60 feet, or
@@ -42,6 +47,7 @@ takes 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[darkvision](ref/spell/darkvision), creator must be a catfolk; **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [darkvision](ref/spell/darkvision), creator must be a catfolk
+Cost: 9,000 gp
+:::

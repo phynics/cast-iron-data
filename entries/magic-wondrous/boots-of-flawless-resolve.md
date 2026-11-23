@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** feet; **Price** 6,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: feet
+Price: 6,500 gp
+Weight: 2 lbs.
+:::
 
 These knee-high white leather boots are covered in delicate lines of gemstones and precious metals
 that are almost imperceptible to the average human eye. Three times per day as a move action, the
@@ -37,5 +42,7 @@ previous target ends immediately, and declaring the new target expends another u
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[anticipate thoughts](ref/spell/anticipate-thoughts); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [anticipate thoughts](ref/spell/anticipate-thoughts)
+Cost: 3,250 gp
+:::

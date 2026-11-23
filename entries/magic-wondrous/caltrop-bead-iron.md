@@ -22,8 +22,13 @@ caster_level = "7th"
 
 ## Caltrop Bead
 
-**Aura** faint conjuration; **CL** 7th\
-**Slot** none; **Price** 40 gp (Iron), 80 gp (Cold Iron); **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 7th
+Slot: none
+Price: 40 gp (Iron), 80 gp (Cold Iron)
+Weight: 2 lbs.
+:::
 
 The wielder may throw this small, dense iron sphere as a ranged touch attack (with a 10-foot range
 increment) or use it as a sling bullet. Upon striking a solid object, a caltrop bead explodes into
@@ -34,5 +39,7 @@ disappearing.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 20 gp (iron), 40 gp (cold iron)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 20 gp (iron), 40 gp (cold iron)
+:::

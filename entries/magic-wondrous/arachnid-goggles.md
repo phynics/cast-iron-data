@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** eyes; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: eyes
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This leather band is studded with dozens of faceted crystals of varying size, two of which fit over
 the eyes. When wearing these goggles, the wearer uses all the crystals as eyes, gaining
@@ -29,5 +34,7 @@ the eyes. When wearing these goggles, the wearer uses all the crystals as eyes, 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[countless eyes](ref/spell/countless-eyes); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [countless eyes](ref/spell/countless-eyes)
+Cost: 7,500 gp
+:::

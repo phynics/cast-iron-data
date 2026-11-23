@@ -20,8 +20,13 @@ aura = "faint evocation, strong evil"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation, strong evil; **CL** 5th\
-**Slot** none; **Price** 5,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation, strong evil
+CL: 5th
+Slot: none
+Price: 5,800 gp
+Weight: 2 lbs.
+:::
 
 The skull of this [grim lantern](ref/magic-wondrous/grim-lantern) bears several rivets. Its blast of
 heat functions only when a creature of the user's type within 30 feet (including the user) is taking

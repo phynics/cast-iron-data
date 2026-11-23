@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 This container of sickly gray paste can coat the armor of one Medium or two Small creatures.
 Affected objects produce dark gray fumes for the next 24 hours. These fumes cause natural plants to
@@ -37,5 +42,7 @@ each successful attack or each round they maintain the grapple.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[diminish plants](ref/spell/diminish-plants); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [diminish plants](ref/spell/diminish-plants)
+Cost: 400 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Aura** moderate evocation; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate evocation
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 1/2 lb.
+:::
 
 Unable to use [levitate](ref/spell/levitate) like noble drow, common drow sometimes rely on these
 magical bolts to keep pace on climbs to the surface world or when delving deep caves.
@@ -39,5 +44,7 @@ can be used again. If the force chain is severed or broken, the caver's bolt cea
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[force hook charge](ref/spell/force-hook-charge); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [force hook charge](ref/spell/force-hook-charge)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** headband; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: headband
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of this black leather headband can spend 10 minutes attuning the headband to one touched
 vermin of Medium or larger size. Once the headband is attuned, any creature wearing it can attempt
@@ -34,5 +39,7 @@ the vermin dies, the headband is destroyed, or the headband is attuned to a diff
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control vermin](ref/spell/control-vermin); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control vermin](ref/spell/control-vermin)
+Cost: 500 gp
+:::

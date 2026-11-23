@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This magical grit is used by flinging a dose at a creature within 15 feet by as a ranged touch
 attack. If the grit hits, the target takes 1d4 points of
@@ -36,6 +41,7 @@ and doesn't activate until it has been thrown - the grit can be handled safely.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calcific touch](ref/spell/calcific-touch) or [flesh to stone](ref/spell/flesh-to-stone); **Cost**
-1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calcific touch](ref/spell/calcific-touch) or [flesh to stone](ref/spell/flesh-to-stone)
+Cost: 1,000 gp
+:::

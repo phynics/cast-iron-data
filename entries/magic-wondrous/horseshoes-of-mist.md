@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 27,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 27,000 gp
+Weight: 12 lbs.
+:::
 
 When a horse is shod with these horseshoes, they give off a puff of mist each time a hoof strikes
 the earth. On the rider's command, the mount and the rider are both affected as if subject to a
@@ -32,5 +37,7 @@ not be consecutive, but it must be spent in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gaseous form](ref/spell/gaseous-form); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gaseous form](ref/spell/gaseous-form)
+Cost: 13,500 gp
+:::

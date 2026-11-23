@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** feet; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: feet
+Price: 20,000 gp
+Weight: -
+:::
 
 Crafted of stout, wax-treated leather and wrapped with warm fur reminiscent of a
 [frost giant's](ref/monster/giant-frost-frost-giant) beard, these boots are sometimes given as gifts
@@ -36,7 +41,7 @@ The wearer can remain in giant form for up to 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [endure elements](ref/spell/endure-elements),
-[giant form I](ref/spell/giant-form-1), [pass without trace](ref/spell/pass-without-trace); **Cost**
-10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [endure elements](ref/spell/endure-elements), [giant form I](ref/spell/giant-form-1), [pass without trace](ref/spell/pass-without-trace)
+Cost: 10,000 gp
+:::

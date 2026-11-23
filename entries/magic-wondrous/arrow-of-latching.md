@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 500 gp; **Weight** 1/10 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 500 gp
+Weight: 1/10 lb.
+:::
 
 The shaft of this unassuming [arrow](ref/eq-weapon/arrow) appears tightly wrapped in 6-1/4 feet of
 twine from arrowhead to fletching. In reality, the twine actually consists of 100 feet of
@@ -46,6 +51,7 @@ If removed, the arrow of latching loses its magic, reduced to a common arrow.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [handy grapnel](ref/spell/handy-grapnel),
-[shrink item](ref/spell/shrink-item); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [handy grapnel](ref/spell/handy-grapnel), [shrink item](ref/spell/shrink-item)
+Cost: 250 gp
+:::

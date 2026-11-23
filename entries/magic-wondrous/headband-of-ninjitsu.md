@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** headband; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: headband
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 This simple black cloth band focuses the wearer's ki, helping her use subtle misdirection against
 opponents in combat. The wearer gains a +2 competence bonus on [Bluff](ref/skill/bluff) checks made
@@ -32,6 +37,7 @@ with [concealment](ref/rule/concealment) or total concealment, though miss chanc
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [see invisibility](ref/spell/see-invisibility);
-**Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [see invisibility](ref/spell/see-invisibility)
+Cost: 7,500 gp
+:::

@@ -23,8 +23,12 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** none; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: none
+Weight: -
+:::
 
 These blocks of incense appear to be _incense of meditation._ If meditation is conducted while the
 incense of obsession are burning, the user becomes totally confident that her spell ability is
@@ -34,4 +38,7 @@ or until 24 hours have elapsed.
 
 ### Construction
 
-**Requirements** [incense of meditation](ref/magic-wondrous/incense-of-meditation); **Cost** -
+::: statblock
+Requirements: [incense of meditation](ref/magic-wondrous/incense-of-meditation)
+Cost: -
+:::

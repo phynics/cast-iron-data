@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** neck; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: neck
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 Often crafted by the people of Riverton and sold to traveling river-goers, this small stone disk is
 etched with the symbol of waves and affixed to a silver chain. If the wearer falls unconscious from
@@ -32,5 +37,7 @@ regains consciousness at 0 hit points and the medallion crumbles to dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble)
+Cost: 500 gp
+:::

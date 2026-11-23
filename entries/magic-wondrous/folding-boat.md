@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 7,200 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 7,200 gp
+Weight: 4 lbs.
+:::
 
 A folding boat looks like a small wooden box about 12 inches long, 6 inches wide, and 6 inches deep
 when it is inactive. In this mode, it can be used to store items just like any other box. Yet when
@@ -44,6 +49,7 @@ it is unoccupied.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), creator must have 2 ranks in [Craft (ships)](ref/skill/craft-any);
-**Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), creator must have 2 ranks in [Craft (ships)](ref/skill/craft-any)
+Cost: 3,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 50,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 50,000 gp
+Weight: 2 lbs.
+:::
 
 Forged from [adamantine](ref/eq-material/adamantine) and silver, this heavy lock's shank is large
 enough to wrap around a humanoid ankle, magically resizing itself to fit any wearer. When the lock
@@ -43,5 +48,7 @@ or DC 30 [Disable Device](ref/skill/disable-device) check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true form](ref/spell/true-form); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true form](ref/spell/true-form)
+Cost: 25,000 gp
+:::

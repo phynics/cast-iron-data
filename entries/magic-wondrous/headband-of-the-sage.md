@@ -21,8 +21,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** headband; **Price** 71,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: headband
+Price: 71,300 gp
+Weight: 1 lb.
+:::
 
 This headband of vast intelligence +6 also holds a consciousness that shares its knowledge and
 education with a suitable wearer. This intelligence can be of any alignment and its only
@@ -40,9 +45,10 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), [fox's cunning](ref/spell/foxs-cunning),
-[legend lore](ref/spell/legend-lore), [read magic](ref/spell/read-magic); **Price** 35,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [fox's cunning](ref/spell/foxs-cunning), [legend lore](ref/spell/legend-lore), [read magic](ref/spell/read-magic)
+Price: 35,650 gp
+:::
 
 ### Statistics
 

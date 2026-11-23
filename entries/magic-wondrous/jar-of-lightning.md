@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: 1 lb.
+:::
 
 This clear glass jar has a stone lid held fast against a leather sealing ring by a hinged metal
 clamp. A marble-sized orb of crackling electricity flits within the jar. A jar of lightning can be
@@ -45,6 +50,7 @@ the ball hovers is sufficient to detonate the sphere.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt); **Cost**
-400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt)
+Cost: 400 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** feet; **Price** 45,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: feet
+Price: 45,000 gp
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -33,6 +38,7 @@ simultaneously teleport up to 1,000 feet as per _[dimension door](ref/spell/dime
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Quicken Spell](ref/feat/quicken-spell), [dimension door](ref/spell/dimension-door),
-[fog cloud](ref/spell/fog-cloud), creator must be a tiefling; **Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Quicken Spell](ref/feat/quicken-spell), [dimension door](ref/spell/dimension-door), [fog cloud](ref/spell/fog-cloud), creator must be a tiefling
+Cost: 22,500 gp
+:::

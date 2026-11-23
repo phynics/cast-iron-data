@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 35,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 35,000 gp
+Weight: -
+:::
 
 This silver amulet protects the wearer from scrying and magical location just as a
 _[nondetection](ref/spell/nondetection)_ spell does. If a divination spell is attempted against the
@@ -33,5 +38,7 @@ against a DC of 19 (as if the wearer had cast _[nondetection](ref/spell/nondetec
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nondetection](ref/spell/nondetection); **Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nondetection](ref/spell/nondetection)
+Cost: 17,500 gp
+:::

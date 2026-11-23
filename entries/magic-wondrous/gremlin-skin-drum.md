@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "5th"
 +++
 
-**Aura** moderate enchantment; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 5 lbs.
+:::
 
 These small hand drums have pitted metal frames, with dark skin bearing furry patches or rough
 scales stretched across it. The flaws in the drum's skin render the drum difficult to play, imposing
@@ -69,6 +74,7 @@ slightly. The effects of multiple versions of the same type of gremlin-skin drum
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), one dead gremlin of the type used to make the drum; **Cost**
-3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), one dead gremlin of the type used to make the drum
+Cost: 3,000 gp
+:::

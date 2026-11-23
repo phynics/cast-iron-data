@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** neck; **Price** 36,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: neck
+Price: 36,000 gp
+Weight: -
+:::
 
 Carved from a single piece of reddish coral, this small amulet is shaped into a swirling,
 counter-clockwise spiral centered behind a leaf. The design and creation of these amulets is
@@ -42,6 +47,7 @@ countered to the spell's original caster. A successful DC 18 Reflex save halves 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [protection from energy](ref/spell/protection-from-energy),
-creator must be a worshiper of Gozreh; **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [protection from energy](ref/spell/protection-from-energy), creator must be a worshiper of Gozreh
+Cost: 18,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 This delicate tin music box can produce a great volume of noise at a specific time determined by its
 owner. Four command words determine what sorts of sounds it is to play (battle, fire, massacre, or
@@ -34,5 +39,7 @@ to produce the desired sound. The noise from the box is as loud as 40 people. Th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound)
+Cost: 1,000 gp
+:::

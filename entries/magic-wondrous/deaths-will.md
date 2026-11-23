@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** hands; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: hands
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 This black leather fingerless glove is etched with delicate patterns and extends up to the wearer's
 midforearm, fitting snugly without being so tight as to keep the skin from breathing. Situated
@@ -34,5 +39,7 @@ of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [spit venom](ref/spell/spit-venom); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [spit venom](ref/spell/spit-venom)
+Cost: 1,800 gp
+:::

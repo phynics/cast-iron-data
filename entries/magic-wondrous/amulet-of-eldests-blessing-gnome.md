@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: neck
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -34,7 +39,7 @@ Finally, she gains a +4 insight bonus on saving throws against the Bleaching.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bleaching resistance](ref/spell/bleaching-resistance),
-[planar adaptation](ref/spell/planar-adaptation), [regenerate](ref/spell/regenerate), creator must
-be a gnome; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleaching resistance](ref/spell/bleaching-resistance), [planar adaptation](ref/spell/planar-adaptation), [regenerate](ref/spell/regenerate), creator must be a gnome
+Cost: 5,000 gp
+:::

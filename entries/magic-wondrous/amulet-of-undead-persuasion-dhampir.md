@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** neck; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: neck
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -39,6 +44,7 @@ liquid from the amulet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[command undead](ref/spell/command-undead), [minor creation](ref/spell/minor-creation), creator must
-be a dhampir; **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command undead](ref/spell/command-undead), [minor creation](ref/spell/minor-creation), creator must be a dhampir
+Cost: 7,500 gp
+:::

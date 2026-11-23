@@ -34,11 +34,13 @@ caster_level = "varies"
 
 ## Feather Tokens
 
-**Aura** varies; **CL** varies\
-**Slot** -; **Price** 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp
-(Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp
-(Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower);
-**Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: -
+Price: 50 gp (Anchor), 150 gp (Lance), 200 gp (Fan), 200 gp (Sky Hook), 300 gp (Bird), 400 gp (Catapult), 400 gp (Tree), 450 gp (Floating Feather), 450 gp (Swan Boat), 500 gp (Campsite), 500 gp (Ram), 500 gp (Whip), 600 gp (Tar and Feathers), 1,000 gp (Siege Tower)
+Weight: 1 lb.
+:::
 
 Each of these items is a small feather that has a power to suit a special need. The kinds of tokens
 are described below. Each token is usable once. A particular feather token has no specific features
@@ -105,8 +107,7 @@ tower disappears after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major creation](ref/spell/major-creation); **Cost** 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan),
-100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225
-gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp
-(Siege Tower)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major creation](ref/spell/major-creation)
+Cost: 25 gp (Anchor), 75 gp (Lance), 100 gp (Fan), 100 gp (Sky Hook), 150 gp (Bird), 200 gp (Catapult), 200 gp (Tree), 225 gp (Floating Feather), 225 gp (Swan Boat), 250 gp (Campsite), 250 gp (Ram), 250 gp (Whip), 300 gp (Tar and Feathers), 500 gp (Siege Tower)
+:::

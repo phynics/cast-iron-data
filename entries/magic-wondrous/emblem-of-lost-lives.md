@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 12,000 gp
+Weight: -
+:::
 
 This unassuming pendant whispers a constant discordant chorus of voices into the mind of its wearer.
 As a standard action, the wearer can focus on these voices and pick out one from a past life. The
@@ -33,5 +38,7 @@ the voices for aid with a future task, as per _[augury](ref/spell/augury)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[fox's cunning](ref/spell/foxs-cunning); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [fox's cunning](ref/spell/foxs-cunning)
+Cost: 6,000 gp
+:::

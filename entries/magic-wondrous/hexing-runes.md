@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 These runes may be carved from wood or cast in silver and are worn on a leather cord. When a
 [witch](ref/class/witch) prepares her spells, she may also choose to use the hexing runes to augment
@@ -31,6 +36,7 @@ if cast by an 8th level witch.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Spell Focus](ref/feat/spell-focus) (abjuration), [resistance](ref/spell/resistance), creator must
-be able to use the ward hex; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Spell Focus](ref/feat/spell-focus) (abjuration), [resistance](ref/spell/resistance), creator must be able to use the ward hex
+Cost: 5,000 gp
+:::

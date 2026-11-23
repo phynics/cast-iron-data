@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** hands; **Price** 2,200 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: hands
+Price: 2,200 gp
+Weight: -
+:::
 
 These supple, velvet gloves are the sort that might be thrown down in challenge for a
 [duel](ref/rule/duels) or other single combat. By removing a glove and using it to make a melee or
@@ -32,5 +37,7 @@ wearer attacks the challenged opponent. Both gloves must be worn by the same cre
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane),
-[bless](ref/spell/bless); **Cost** 1,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane), [bless](ref/spell/bless)
+Cost: 1,100 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** shoulders; **Price** 63,250 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: shoulders
+Price: 63,250 gp
+Weight: 2 lbs.
+:::
 
 Colored a muted gray, this cloak would be nondescript were it not for a single clasp of silver,
 stylized as a trio of skulls and inlaid with three large blue pearls. By pressing the first pearl as
@@ -46,6 +51,7 @@ can't be used again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [sculpt sound](ref/spell/sculpt-sound),
-[shadow body](ref/spell/shadow-body), [shadow walk](ref/spell/shadow-walk); **Cost** 31,625 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [sculpt sound](ref/spell/sculpt-sound), [shadow body](ref/spell/shadow-body), [shadow walk](ref/spell/shadow-walk)
+Cost: 31,625 gp
+:::

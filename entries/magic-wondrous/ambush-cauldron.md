@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "12th"
 +++
 
-**Aura** moderate transmutation; **CL** 12th\
-**Slot** none; **Price** 28,000 gp; **Weight** 60 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 12th
+Slot: none
+Price: 28,000 gp
+Weight: 60 lbs.
+:::
 
 This huge, sooty cauldron has two sets of rings aligned on opposite sides. Through these rings,
 large shafts can be inserted in order for two bearers to lift and carry the cauldron. The inside of
@@ -37,5 +42,7 @@ Any non-orc who consumes even a single spoonful of the soup or gruel immediately
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace); **Cost** 14,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace)
+Cost: 14,000 gp
+:::

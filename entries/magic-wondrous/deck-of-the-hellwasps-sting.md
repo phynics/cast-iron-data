@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 10,380 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 10,380 gp
+Weight: 1 lb.
+:::
 
 This seemingly ordinary deck of 54 playing cards is held in an ornate wooden box with a simple
 clasp, decorated with wasp-themed art. The clergy of [Calistria](ref/faith/calistria) sometimes
@@ -44,5 +49,7 @@ up to 10 rounds, at which point the swarm dissipates.
 
 ### Construction
 
-**Requirements** Arcane Strike, [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flame arrow](ref/spell/flame-arrow), [summon swarm](ref/spell/summon-swarm); **Cost** 5,190 gp
+::: statblock
+Requirements: Arcane Strike, [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flame arrow](ref/spell/flame-arrow), [summon swarm](ref/spell/summon-swarm)
+Cost: 5,190 gp
+:::

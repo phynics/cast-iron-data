@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** chest; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: chest
+Price: 8,000 gp
+Weight: -
+:::
 
 This stylish, purple silk shirt trimmed with designs embroidered in golden thread brings out
 reckless behavior in even the most conservative [swashbucklers](ref/class/swashbuckler). If the
@@ -30,6 +35,7 @@ regains 1 panache point. This shirt has no effect on someone who is not a panach
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [prestidigitation](ref/spell/prestidigitation),
-[resistance](ref/spell/resistance); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [prestidigitation](ref/spell/prestidigitation), [resistance](ref/spell/resistance)
+Cost: 4,000 gp
+:::

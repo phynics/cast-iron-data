@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** wrists; **Price** 15,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: wrists
+Price: 15,600 gp
+Weight: 1 lb.
+:::
 
 These golden bracers are engraved with images of celestial creatures. When worn by a
 [paladin](ref/class/paladin), he is considered four levels higher for the purposes of determining
@@ -31,6 +36,7 @@ providing relief as a _[lesser restoration](ref/spell/restoration-lesser)_ spell
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[lesser restoration](ref/spell/restoration-lesser); **Cost** 7,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure serious wounds](ref/spell/cure-serious-wounds), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 7,800 gp
+:::

@@ -22,8 +22,13 @@ caster_level = "3rd"
 
 ## Glorious Tabard
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** body; **Price** 400 gp (Lesser), 3,250 gp (Greater); **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: body
+Price: 400 gp (Lesser), 3,250 gp (Greater)
+Weight: 2 lbs.
+:::
 
 This sleeveless white tabard, worn over armor or other clothing, prominently bears the symbol of the
 Glorious Reclamation and can be used as a divine focus by members of the Glorious Reclamation who
@@ -44,7 +49,7 @@ followers of Iomedae.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[veil of heaven](ref/spell/veil-of-heaven), [weapons against evil](ref/spell/weapons-against-evil)
-(greater glorious tabard only), creator must be a member of Glorious Reclamation and follower of
-Iomedae; **Cost** 200 gp (Lesser), 1,625 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [veil of heaven](ref/spell/veil-of-heaven), [weapons against evil](ref/spell/weapons-against-evil) (greater glorious tabard only), creator must be a member of Glorious Reclamation and follower of Iomedae
+Cost: 200 gp (Lesser), 1,625 gp (Greater)
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong conjuration; **CL** 14th\
-**Slot** head; **Price** 16,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 14th
+Slot: head
+Price: 16,000 gp
+Weight: 3 lbs.
+:::
 
 This shining helm glints with the multicolored hues of the aurora, and features wings carved of fine
 whalebone that sweep back from the temples. While it is in good shape, it shows signs of having seen
@@ -34,5 +39,7 @@ nothing more than mist and can't attack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[phantom steed](ref/spell/phantom-steed); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [phantom steed](ref/spell/phantom-steed)
+Cost: 8,000 gp
+:::

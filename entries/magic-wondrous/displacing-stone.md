@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 430 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 430 gp
+Weight: -
+:::
 
 Upon activation, this pulsing white pebble creates an instantaneous burst of reverse gravity, which
 clears a 5-foot-diameter sphere of any loose stone or earth. The displacing stone then holds the
@@ -32,5 +37,7 @@ provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[move earth](ref/spell/move-earth); **Cost** 215 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [move earth](ref/spell/move-earth)
+Cost: 215 gp
+:::

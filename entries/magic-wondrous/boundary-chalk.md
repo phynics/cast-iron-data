@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: -
+:::
 
 The surface of this stick of white chalk is covered with silvery runes. Drawing a line with the
 chalk creates a _[wall of force](ref/spell/wall-of-force)_ that is as long as the line and extends
@@ -33,5 +38,7 @@ stick of boundary chalk can draw 100 feet of line before it is used up, and it m
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wall of force](ref/spell/wall-of-force); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wall of force](ref/spell/wall-of-force)
+Cost: 5,000 gp
+:::

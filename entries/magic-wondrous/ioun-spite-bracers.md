@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** wrists; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: wrists
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 These bracers find particular use by [Aspis](ref/rule/aff-profiteers) agents who often tangle with
 the [Pathfinder Society](ref/rule/aff-scholars). As a standard action, a creature wearing these
@@ -42,5 +47,7 @@ to 160 feet away. Drained ioun stones become dull gray for the next 2d4 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic missile](ref/spell/magic-missile), [telekinesis](ref/spell/telekinesis); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic missile](ref/spell/magic-missile), [telekinesis](ref/spell/telekinesis)
+Cost: 7,500 gp
+:::

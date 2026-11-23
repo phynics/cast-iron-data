@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** headband; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: headband
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This headband has three swirling patterns of red, green, and blue crystals arching across its
 length. Three times per day, its wearer can sacrifice an arcane spell to create an offensive blast
@@ -32,5 +37,7 @@ a swirling band of energy that lasts 1 round and gives the wearer a deflection b
 
 ### Construction
 
-**Requirements** Arcane Blast, Arcane Shield, [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prismatic spray](ref/spell/prismatic-spray); **Cost** 10,000 gp
+::: statblock
+Requirements: Arcane Blast, Arcane Shield, [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prismatic spray](ref/spell/prismatic-spray)
+Cost: 10,000 gp
+:::

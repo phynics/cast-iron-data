@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** wrists; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: wrists
+Price: 9,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -34,5 +39,7 @@ does not have a chance to take any actions (such as removing the bracers) before
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cast out](ref/spell/cast-out), creator must be a Shoanti; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cast out](ref/spell/cast-out), creator must be a Shoanti
+Cost: 4,500 gp
+:::

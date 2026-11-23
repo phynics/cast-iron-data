@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This cylindrical felt hat, favored by [Dawnflower dervishes](ref/arc-bard/dawnflower-dervish),
 grants its wearer a +2 competence bonus on one [Knowledge](ref/skill/knowledge-all) or
@@ -37,6 +42,7 @@ a bard wearing a dervish sikke can take 10 on any Perform skill check he has ran
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), [timely inspiration](ref/spell/timely-inspiration);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), [timely inspiration](ref/spell/timely-inspiration)
+Cost: 5,000 gp
+:::

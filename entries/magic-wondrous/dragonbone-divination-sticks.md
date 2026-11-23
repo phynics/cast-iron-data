@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 6,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 6,400 gp
+Weight: 1 lb.
+:::
 
 These eight rune-engraved dragon bones may be used as a divine focus for
 _[augury](ref/spell/augury)._ They add 5% to the chance to successfully cast
@@ -32,5 +37,7 @@ bonus on the same saving throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[guidance](ref/spell/guidance); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [guidance](ref/spell/guidance)
+Cost: 3,200 gp
+:::

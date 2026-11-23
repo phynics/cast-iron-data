@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 40,000 gp; **Weight** 100 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 40,000 gp
+Weight: 100 lbs.
+:::
 
 This iron pot is large enough for two Medium humanoids to stand in comfortably. Upon command, the
 cauldron and up to 500 pounds of additional weight can fly as if using
@@ -36,5 +41,7 @@ The cauldron provides partial [cover](ref/rule/cover) for anyone standing in it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight)
+Cost: 20,000 gp
+:::

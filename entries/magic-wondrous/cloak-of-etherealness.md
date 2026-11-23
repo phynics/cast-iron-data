@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** shoulders; **Price** 55,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: shoulders
+Price: 55,000 gp
+Weight: 1 lb.
+:::
 
 This silvery gray cloak seems to absorb light rather than be illuminated by it. On command, the
 cloak makes its wearer ethereal (as the _[ethereal jaunt](ref/spell/ethereal-jaunt)_ spell). The
@@ -33,5 +38,7 @@ day. This duration need not be continuous, but it must be used in 1 minute incre
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ethereal jaunt](ref/spell/ethereal-jaunt); **Cost** 27,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ethereal jaunt](ref/spell/ethereal-jaunt)
+Cost: 27,500 gp
+:::

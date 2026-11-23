@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** feet; **Price** 7,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: feet
+Price: 7,500 gp
+Weight: 2 lbs.
+:::
 
 These boots of heavy, furred hide rise to the wearer's calf, and are held in place with rough hide
 straps secured by thick iron buckles. They increase the wearer's base land speed by 10 feet
@@ -31,5 +36,7 @@ threatened area or by casting a spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat), [rage](ref/spell/rage); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat), [rage](ref/spell/rage)
+Cost: 3,750 gp
+:::

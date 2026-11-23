@@ -23,8 +23,12 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Weight: -
+:::
 
 This fine dust appears to be _dust of appearance._ If cast into the air, it causes those within a
 20-foot spread to fall into fits of sneezing and coughing. Those who fail a DC 15 Fortitude save
@@ -34,5 +38,7 @@ succeed on this saving throw are nonetheless disabled by choking (treat as
 
 ### Construction
 
-**Requirements** [dust of appearance](ref/magic-wondrous/dust-of-appearance),
-[dust of tracelessness](ref/magic-wondrous/dust-of-tracelessness); **Cost** -
+::: statblock
+Requirements: [dust of appearance](ref/magic-wondrous/dust-of-appearance), [dust of tracelessness](ref/magic-wondrous/dust-of-tracelessness)
+Cost: -
+:::

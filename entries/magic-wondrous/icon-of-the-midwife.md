@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 3,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 3,500 gp
+Weight: 2 lbs.
+:::
 
 This gray stone carving of a gaunt older woman is usually painted with black hair and black clothing
 with red trim. Once per day, the bearer can use it to cast _stabilize, resistance,_ and
@@ -39,6 +44,7 @@ buried within 24 hours it cannot be reanimated as an undead.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[consecrate](ref/spell/consecrate), [stabilize](ref/spell/stabilize),
-[resistance](ref/spell/resistance), [virtue](ref/spell/virtue); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [consecrate](ref/spell/consecrate), [stabilize](ref/spell/stabilize), [resistance](ref/spell/resistance), [virtue](ref/spell/virtue)
+Cost: 1,750 gp
+:::

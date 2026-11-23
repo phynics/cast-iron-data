@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 A detailed bronze figurine of a crowned honeybee adorns this iron choker. The first chokers of this
 type were created by a cabal of [gnome](ref/race/gnome) priests of the Eldest from the Abendego
@@ -46,6 +51,7 @@ condition.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [vomit swarm](ref/spell/vomit-swarm); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [vomit swarm](ref/spell/vomit-swarm)
+Cost: 4,000 gp
+:::

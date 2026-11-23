@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 11,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 11,000 gp
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -39,5 +44,7 @@ surface thoughts instead of concentrating for 3 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), creator must be an android; **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), creator must be an android
+Cost: 5,500 gp
+:::

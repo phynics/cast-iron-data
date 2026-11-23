@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** neck; **Price** 60,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: neck
+Price: 60,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -38,5 +43,7 @@ The price and cost listed are for a matched pair of clasps.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending),
-[status](ref/spell/status), creator must be a Taldan; **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending), [status](ref/spell/status), creator must be a Taldan
+Cost: 30,000 gp
+:::

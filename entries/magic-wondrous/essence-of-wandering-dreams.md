@@ -20,8 +20,13 @@ aura = "moderate conjuration and divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and divination; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and divination
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 This minute crystal vial contains a single drop distilled from the captured dreams of a hundred
 different worlds. The drop can be poured into a vessel of water, wine, or other drink, and shared
@@ -38,6 +43,7 @@ on that plane.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [contact other plane](ref/spell/contact-other-plane),
-[plane shift](ref/spell/plane-shift); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [contact other plane](ref/spell/contact-other-plane), [plane shift](ref/spell/plane-shift)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** neck; **Price** 12,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: neck
+Price: 12,000 gp
+Weight: 1/2 lb.
+:::
 
 This amulet consists of a pale translucent gem in a dull gray metal setting etched with ancient
 runes. When worn by an individual with the negative energy affinity racial trait, it alters the
@@ -37,5 +42,7 @@ provides no benefit to undead.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), life channel; **Cost** 6,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), life channel
+Cost: 6,000 gp
+:::

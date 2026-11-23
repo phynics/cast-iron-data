@@ -20,8 +20,13 @@ aura = "faint conjuration and divination"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and divination; **CL** 5th\
-**Slot** none; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and divination
+CL: 5th
+Slot: none
+Price: 9,000 gp
+Weight: -
+:::
 
 This long-stemmed, wooden pipe can burn any number of substances, but is primarily used for smoking
 tobacco. The pipe smoker can command a small, smoky servant to emerge from the pipe to do minor
@@ -39,5 +44,7 @@ as if he had the [eidetic recollection](ref/invtalent/eidetic-recollection) inve
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [unseen servant](ref/spell/unseen-servant); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [unseen servant](ref/spell/unseen-servant)
+Cost: 4,500 gp
+:::

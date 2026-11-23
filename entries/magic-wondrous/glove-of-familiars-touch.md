@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** hands; **Price** 23,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: hands
+Price: 23,000 gp
+Weight: 2 lbs.
+:::
 
 A glove of familiar's touch features a large, brightly colored gem fastened to its palm, and comes
 with an additional gem attuned to the glove. As long as his familiar is touching the attuned gem,
@@ -32,5 +37,7 @@ another glove of familiar's touch) that also uses the hands slot.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 11,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 11,500 gp
+:::

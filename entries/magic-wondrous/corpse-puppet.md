@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This crudely carved wax doll is roughly humanoid in shape. If the bearer of a corpse puppet dies
 while in an alternate form (such as that of a shapechanger using her
@@ -33,5 +38,7 @@ nothingness when activated.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sculpt corpse](ref/spell/sculpt-corpse); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sculpt corpse](ref/spell/sculpt-corpse)
+Cost: 125 gp
+:::

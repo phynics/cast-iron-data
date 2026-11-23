@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** eyes; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: eyes
+Price: 15,000 gp
+Weight: -
+:::
 
 Favored by doctors and torturers alike - especially the paincrafters of Nidal - these jet-black
 spectacles fully obscure the eyes of the wearer while granting her the ability to peer at the auras
@@ -31,5 +36,7 @@ auras.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[analyze aura](ref/spell/analyze-aura); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [analyze aura](ref/spell/analyze-aura)
+Cost: 7,500 gp
+:::

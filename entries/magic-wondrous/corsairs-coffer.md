@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 24,000 gp; **Weight** 250 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 24,000 gp
+Weight: 250 lbs.
+:::
 
 This huge-sized lacquered chest is bound in gold-plated steel, with three hasps for securing locks
 and spade-shaped feet. The chest is airtight when closed, and can be commanded to bury itself in
@@ -46,5 +51,7 @@ placed within the chest to survive for 20 minutes, after which time they begin t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[move earth](ref/spell/move-earth), [secret chest](ref/spell/secret-chest); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [move earth](ref/spell/move-earth), [secret chest](ref/spell/secret-chest)
+Cost: 12,000 gp
+:::

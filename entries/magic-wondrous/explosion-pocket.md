@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** none; **Price** 3,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: none
+Price: 3,000 gp
+Weight: 1/2 lb.
+:::
 
 An explosion pocket looks like a cloth pouch just large enough to contain a Small or Medium
 humanoid's hand. When placed against a shirt, vest, jacket, trousers, or similar piece of clothing,
@@ -38,5 +43,7 @@ minute after it is created or supercharged.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands)
+Cost: 1,500 gp
+:::

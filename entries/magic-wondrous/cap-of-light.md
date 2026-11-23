@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** head; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: head
+Price: 900 gp
+Weight: -
+:::
 
 This small cloth skullcap resembles those some priests wear, but is topped with a small silver
 statue in the shape of a lit candle. The wearer can command the statue to radiate
@@ -29,5 +34,7 @@ _[light](ref/spell/light)_ (as the spell). The light can also be turned off on c
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light);
-**Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light)
+Cost: 450 gp
+:::

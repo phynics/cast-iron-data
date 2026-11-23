@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** hands; **Price** 27,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: hands
+Price: 27,000 gp
+Weight: -
+:::
 
 Once per day on command, the wearer of these oxblood leather gloves can bend space to extend her
 reach to a non-adjacent square within line of sight. For the next 10 rounds, she can touch anything
@@ -47,5 +52,7 @@ gloves to target a square protected by such an effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[teleport](ref/spell/teleport); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [teleport](ref/spell/teleport)
+Cost: 8,000 gp
+:::

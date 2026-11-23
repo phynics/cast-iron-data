@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "12th"
 +++
 
-**Aura** moderate transmutation; **CL** 12th\
-**Slot** none; **Price** 29,300 gp; **Weight** 100 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 12th
+Slot: none
+Price: 29,300 gp
+Weight: 100 lbs.
+:::
 
 This appears to be a complex wooden chest of immense size - at least 5 feet long and 3 feet wide and
 tall, with numerous drawers, side-compartments, hatches, and lids and ornately carved feet and
@@ -43,8 +48,7 @@ golem's [encumbrance](ref/rule/carrying-capacity).
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[animate objects](ref/spell/animate-objects), [cat's grace](ref/spell/cats-grace),
-[geas/quest](ref/spell/geas-quest), [limited wish](ref/spell/limited-wish), creator must be at least
-caster level 12th, creator must succeed at a DC 17 Craft (carpentry) check; **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [animate objects](ref/spell/animate-objects), [cat's grace](ref/spell/cats-grace), [geas/quest](ref/spell/geas-quest), [limited wish](ref/spell/limited-wish), creator must be at least caster level 12th, creator must succeed at a DC 17 Craft (carpentry) check
+Cost: 14,800 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 400 gp
+Weight: 1 lb.
+:::
 
 These glass vials are held within stylized [cold-iron](ref/eq-material/cold-iron) casings etched
 with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small
@@ -44,6 +49,7 @@ hits takes 1 point of negative energy damage from the splash.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [gentle repose](ref/spell/gentle-repose);
-**Cost** 200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure moderate wounds](ref/spell/cure-moderate-wounds), [gentle repose](ref/spell/gentle-repose)
+Cost: 200 gp
+:::

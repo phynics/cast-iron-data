@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** hands; **Price** 180 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: hands
+Price: 180 gp
+Weight: 1 lb.
+:::
 
 The wearer of these simple gloves can speak a command word create a glowing disembodied hand. As a
 swift action, the wearer can have the hand assist him with a task as if using the
@@ -35,5 +40,7 @@ until 1 minute passes, whichever comes first, at which time the gloves become no
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand), [unseen servant](ref/spell/unseen-servant); **Cost** 90 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand), [unseen servant](ref/spell/unseen-servant)
+Cost: 90 gp
+:::

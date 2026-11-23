@@ -20,8 +20,13 @@ aura = "faint universal"
 caster_level = "3rd"
 +++
 
-**Aura** faint universal; **CL** 3rd\
-**Slot** belt; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint universal
+CL: 3rd
+Slot: belt
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 At first glance, there is nothing at all unique about this length of woven brown wool; however, in
 the hands of a spellcaster it can be a devious resource. The wearer of a diminishing sash can tear
@@ -36,6 +41,7 @@ components that cost 1 gp or less, the wearer casts the spell at +1 caster level
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Eschew Materials](ref/feat/eschew-materials), creator must have 3 ranks in Knowledge (arcana) and
-Spellcraft; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Eschew Materials](ref/feat/eschew-materials), creator must have 3 ranks in Knowledge (arcana) and Spellcraft
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) has a mother-of-pearl casing with perfect swirls of
 pink and green patterns covering the face of the device. It hangs on an 8-inch-long silver fob chain
@@ -41,5 +46,7 @@ standard action) and for 2 rounds thereafter.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hypnotic pattern](ref/spell/hypnotic-pattern), [light](ref/spell/light); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hypnotic pattern](ref/spell/hypnotic-pattern), [light](ref/spell/light)
+Cost: 1,500 gp
+:::

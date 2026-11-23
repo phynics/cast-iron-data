@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lbs.
+:::
 
 This hollow holy symbol includes a reservoir meant to contain a dose of
 [holy water](ref/eq-weapon/holy-water). When the reservoir is filled on the home plane of its
@@ -39,5 +44,7 @@ function but otherwise operate just as an anointed holy symbol.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[consecrate](ref/spell/consecrate); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [consecrate](ref/spell/consecrate)
+Cost: 5,000 gp
+:::

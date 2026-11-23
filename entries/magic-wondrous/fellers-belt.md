@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** belt; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: belt
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 The secret weapons of the Lumber Consortium's enforcers throughout Andoran, these belts nominally
 appear as expensive but effective aids for felling trees, but are instead used by the Consortium's
@@ -36,5 +41,7 @@ _[keen edge](ref/spell/keen-edge)_ or the [Improved Critical](ref/feat/improved-
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen edge](ref/spell/keen-edge), [warp wood](ref/spell/warp-wood); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen edge](ref/spell/keen-edge), [warp wood](ref/spell/warp-wood)
+Cost: 6,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 A drinker must add hair, skin, fur, blood, or nail clippings of a single creature to this elixir
 before drinking it, or it is expended uselessly. Once appropriate material has been added, the
@@ -37,5 +42,7 @@ at the time its material was harvested, as if she had cast
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), [polymorph](ref/spell/polymorph); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), [polymorph](ref/spell/polymorph)
+Cost: 2,000 gp
+:::

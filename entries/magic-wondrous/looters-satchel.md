@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 3,200 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 3,200 gp
+Weight: 15 lbs.
+:::
 
 This maroon satchel is embroidered with slightly glowing runes. The satchel functions as a
 [bag of holding (type I)](ref/magic-wondrous/bag-of-holding). Additionally, as long as the satchel
@@ -36,5 +41,7 @@ it would become overloaded, at which point it stops gathering items.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand), [secret chest](ref/spell/secret-chest); **Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand), [secret chest](ref/spell/secret-chest)
+Cost: 1,600 gp
+:::

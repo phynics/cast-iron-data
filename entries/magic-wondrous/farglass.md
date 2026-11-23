@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 6,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 6,400 gp
+Weight: 1 lb.
+:::
 
 This telescoping brass spyglass functions as a normal [spyglass](ref/eq-misc/spyglass) and allows
 clear vision to the horizon 3 miles away at sea level. From atop a typical crow's nest or
@@ -33,5 +38,7 @@ can move with the location. This effect lasts for up to 5 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 3,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 3,700 gp
+:::

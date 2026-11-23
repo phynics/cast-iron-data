@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 Each spell inscribed in this book becomes a
 _[greater glyph of warding](ref/spell/glyph-of-warding-greater)_ (DC 19, spell glyph) containing the
@@ -31,6 +36,7 @@ containing harmless spells or spells that can't be attached to a glyph are unaff
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase),
-[greater glyph of warding](ref/spell/glyph-of-warding-greater), creator must be a kobold; **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase), [greater glyph of warding](ref/spell/glyph-of-warding-greater), creator must be a kobold
+Cost: 4,000 gp
+:::

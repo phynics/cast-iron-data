@@ -20,8 +20,13 @@ aura = "strong conjuration and evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration and evocation; **CL** 17th\
-**Slot** head; **Price** 125,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration and evocation
+CL: 17th
+Slot: head
+Price: 125,000 gp
+Weight: 2 lbs.
+:::
 
 A band of golden skulls encircles this golden crown, and smaller skulls top its points. Forged for
 the first Hurricane King, Turpin Irons, when he sailed out of the Eye of Abendego more than 100
@@ -53,8 +58,7 @@ ability can be used at will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control winds](ref/spell/control-winds), [disguise self](ref/spell/disguise-self),
-[phase door](ref/spell/phase-door), [seamantle](ref/spell/seamantle),
-[true seeing](ref/spell/true-seeing), [winds of vengeance](ref/spell/winds-of-vengeance); **Cost**
-62,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control winds](ref/spell/control-winds), [disguise self](ref/spell/disguise-self), [phase door](ref/spell/phase-door), [seamantle](ref/spell/seamantle), [true seeing](ref/spell/true-seeing), [winds of vengeance](ref/spell/winds-of-vengeance)
+Cost: 62,500 gp
+:::

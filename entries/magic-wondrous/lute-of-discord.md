@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "12th"
 +++
 
-**Aura** moderate enchantment; **CL** 12th\
-**Slot** none; **Price** 37,900 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 12th
+Slot: none
+Price: 37,900 gp
+Weight: 3 lbs.
+:::
 
 This lute is a [masterwork instrument](ref/eq-misc/musical-instrument-masterwork) constructed of
 polished ebony, with mother of pearl embellishments and gold frets. It grants any creature playing
@@ -41,9 +46,10 @@ who can play the lute the following abilities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[distracting cacophony](ref/spell/distracting-cacophony), [echolocation](ref/spell/echolocation),
-[murderous command](ref/spell/murderous-command); **Price** 18,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [distracting cacophony](ref/spell/distracting-cacophony), [echolocation](ref/spell/echolocation), [murderous command](ref/spell/murderous-command)
+Price: 18,950 gp
+:::
 
 ### Statistics
 

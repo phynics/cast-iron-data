@@ -21,8 +21,13 @@ aura = "moderate divination, enchantment, and illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination, enchantment, and illusion; **CL** 11th\
-**Slot** head; **Price** 52,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination, enchantment, and illusion
+CL: 11th
+Slot: head
+Price: 52,500 gp
+Weight: 1 lb.
+:::
 
 The antennae on this [mask of the mantis](ref/magic-wondrous/mask-of-the-mantis) have been
 truncated. Bloody Mantis has three charges per day, which replenish automatically every 24 hours.
@@ -48,10 +53,10 @@ resists its will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [deathwatch](ref/spell/deathwatch),
-[disguise self](ref/spell/disguise-self), [geas/quest](ref/spell/geas-quest),
-[see invisibility](ref/spell/see-invisibility); **Price** 26,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [deathwatch](ref/spell/deathwatch), [disguise self](ref/spell/disguise-self), [geas/quest](ref/spell/geas-quest), [see invisibility](ref/spell/see-invisibility)
+Price: 26,250 gp
+:::
 
 ### Statistics
 

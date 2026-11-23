@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** neck; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: neck
+Price: 20,000 gp
+Weight: -
+:::
 
 This necklace consists of a fine gold chain from which hangs a small sealed crystal vial containing
 preserved liquid blood. Each ampoule is attuned to a specific
@@ -46,6 +51,7 @@ bloodline's bonus feat list.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[limited wish](ref/spell/limited-wish), [polymorph](ref/spell/polymorph), creator must be a sorcerer
-of the appropriate bloodline; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [limited wish](ref/spell/limited-wish), [polymorph](ref/spell/polymorph), creator must be a sorcerer of the appropriate bloodline
+Cost: 10,000 gp
+:::

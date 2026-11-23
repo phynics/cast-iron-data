@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "10th"
 +++
 
-**Aura** strong conjuration; **CL** 10th\
-**Slot** hands; **Price** 110,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 10th
+Slot: hands
+Price: 110,000 gp
+Weight: 5 lbs.
+:::
 
 These gauntlets come in a variety of forms. Some are mostly leather with small steel plates, and are
 suited for fine swordplay. Others are fully articulated plate favored by knights in full plate. On
@@ -38,5 +43,7 @@ Furthermore, three times per day on command, the gloves affect the wearer as the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism),
-[rope trick](ref/spell/rope-trick); **Cost** 55,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism), [rope trick](ref/spell/rope-trick)
+Cost: 55,000 gp
+:::

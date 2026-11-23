@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 When magic [scrolls](ref/rule/scrolls) are stored inside this electrum scroll case, glowing blue
 runes appear on the surface of the tube, indicating what spells are on the scrolls currently stored
@@ -33,5 +38,7 @@ stored within are protected against fire, water, and other damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane sight](ref/spell/arcane-sight), [resist energy](ref/spell/resist-energy); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane sight](ref/spell/arcane-sight), [resist energy](ref/spell/resist-energy)
+Cost: 2,500 gp
+:::

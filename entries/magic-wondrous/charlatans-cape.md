@@ -20,8 +20,13 @@ aura = "strong evocation and illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation and illusion; **CL** 13th\
-**Slot** shoulders; **Price** 45,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation and illusion
+CL: 13th
+Slot: shoulders
+Price: 45,000 gp
+Weight: 1 lb.
+:::
 
 This garish cape of red velvet is embroidered with gold-threaded patterns, typically in shapes of
 sinisterly masked harlequins or other imagery of sinister revelry. The cape acts like a
@@ -32,6 +37,7 @@ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door), [ethereal jaunt](ref/spell/ethereal-jaunt); **Cost**
-22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), [ethereal jaunt](ref/spell/ethereal-jaunt)
+Cost: 22,500 gp
+:::

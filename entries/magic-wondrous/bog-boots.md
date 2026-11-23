@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** feet; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: feet
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 These boots are well worn and caked with mud, but still sturdy, comfortable, and dry on the inside.
 
@@ -44,6 +49,7 @@ _[dimension door](ref/spell/dimension-door)_ from one affected square to another
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door),
-[transmute rock to mud](ref/spell/transmute-rock-to-mud); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), [transmute rock to mud](ref/spell/transmute-rock-to-mud)
+Cost: 6,000 gp
+:::

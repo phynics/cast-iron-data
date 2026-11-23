@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Amulet of the Spirits
 
-**Aura** varies; **CL** varies\
-**Slot** neck; **Price** 8,000 gp (Heavens), 8,000 gp (Wind), 10,000 gp (Flame), 10,000 gp (Stone),
-10,000 gp (Waves), 12,000 gp (Battle), 12,000 gp (Bones), 12,000 gp (Life); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: neck
+Price: 8,000 gp (Heavens), 8,000 gp (Wind), 10,000 gp (Flame), 10,000 gp (Stone), 10,000 gp (Waves), 12,000 gp (Battle), 12,000 gp (Bones), 12,000 gp (Life)
+Weight: 1 lb.
+:::
 
 Each different type of amulet of the spirit grants its wearer powers from one type of
 [shaman spirit](ref/ability/shaman-spirits) bond, but makes her vulnerable to attacks and effects
@@ -119,6 +123,7 @@ Craft Wondrous Item, _[entropic shield](ref/spell/entropic-shield),_
 
 ### Construction
 
-**Requirements** Craft Wondrous Item, additional spells (see text), creator must be a shaman with
-the appropriate spirit; **Cost** 6,000 gp (Battle), 6,000 gp (Bones), 5,000 gp (Flame), 4,000 gp
-(Heavens), 6,000 gp (Life), 5,000 gp (Stone), 5,000 gp (Waves), 4,000 gp (Wind)
+::: statblock
+Requirements: Craft Wondrous Item, additional spells (see text), creator must be a shaman with the appropriate spirit
+Cost: 6,000 gp (Battle), 6,000 gp (Bones), 5,000 gp (Flame), 4,000 gp (Heavens), 6,000 gp (Life), 5,000 gp (Stone), 5,000 gp (Waves), 4,000 gp (Wind)
+:::

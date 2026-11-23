@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 An extraction scarificator is a horrid variant of the more common bloodletting device used by
 healers and doctors. An extraction scarificator can be used only on a willing or helpless target.
@@ -43,6 +48,7 @@ caster level 3rd).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[calm emotions](ref/spell/calm-emotions), [cure moderate wounds](ref/spell/cure-moderate-wounds),
-[lesser restoration](ref/spell/restoration-lesser), [rage](ref/spell/rage); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [calm emotions](ref/spell/calm-emotions), [cure moderate wounds](ref/spell/cure-moderate-wounds), [lesser restoration](ref/spell/restoration-lesser), [rage](ref/spell/rage)
+Cost: 1,250 gp
+:::

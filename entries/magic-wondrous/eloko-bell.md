@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 This small, rusty iron bell contains great magic. When the bell is rung as a standard action, all
 creatures within 60 feet who can hear the bell must make a DC 14 Will save or be compelled to seek
@@ -32,5 +37,7 @@ before it crumbles away into rusty flakes and becomes useless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[suggestion](ref/spell/suggestion); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [suggestion](ref/spell/suggestion)
+Cost: 2,500 gp
+:::

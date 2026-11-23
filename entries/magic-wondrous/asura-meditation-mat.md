@@ -20,8 +20,13 @@ aura = "moderate abjuration [evil, lawful]"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration \[evil, lawful\]; **CL** 10th\
-**Slot** none; **Price** 32,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration \[evil, lawful\]
+CL: 10th
+Slot: none
+Price: 32,000 gp
+Weight: 3 lbs.
+:::
 
 This simple mat is woven from a type of reed that grows in the swamps of
 [Geryon's](ref/faith/geryon) realm. Meditating on the mat opens the user's mind to the destructive
@@ -39,5 +44,7 @@ ki pool, or one who is not lawful evil, gains no benefit from an asura meditatio
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mind blank](ref/spell/mind-blank); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mind blank](ref/spell/mind-blank)
+Cost: 16,000 gp
+:::

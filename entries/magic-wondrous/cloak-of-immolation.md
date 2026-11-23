@@ -23,8 +23,12 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** shoulders; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: shoulders
+Weight: 1 lb.
+:::
 
 This cloak appears to be a finely made garment that radiates protective magic. The cloak can be
 handled or examined without harm, but when it is put on, it immediately bursts into flames that burn
@@ -37,4 +41,7 @@ wearer against the cloak's flames while they last.
 
 ### Construction
 
-**Requirements** any cloak; **Cost** -
+::: statblock
+Requirements: any cloak
+Cost: -
+:::

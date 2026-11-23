@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** head; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: head
+Price: 2,000 gp
+Weight: -
+:::
 
 This magnificent feather, plucked from the wing of a powerful erinyes or angel, allows the wearer to
 call stronger outsiders to her service. The wearer can use the feather to call 2 more HD worth of
@@ -37,6 +42,7 @@ feather crumbles to mundane dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding); **Cost** 1,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding)
+Cost: 1,000 gp
+:::

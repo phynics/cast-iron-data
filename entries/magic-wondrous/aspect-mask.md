@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 6,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 6,500 gp
+Weight: 2 lbs.
+:::
 
 This leather mask is vaguely animalistic, and is inlaid with various primitive designs. Three times
 per day on command, the wearer gains the benefit of a single aspect of an animal attuned to the
@@ -30,5 +35,7 @@ attuned to one type of animal from the animal focus list, chosen when the mask i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have animal focus
-or wild shape class feature; **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have animal focus or wild shape class feature
+Cost: 3,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 9th\
-**Slot** none; **Price** 4,250 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 9th
+Slot: none
+Price: 4,250 gp
+Weight: 8 lbs.
+:::
 
 This gourd has been hollowed out and carved with the symbol of a good-aligned deity. It sheds light
 as a [candle](ref/eq-misc/candle). If the gourd is smashed onto the ground, the 40-foot-radius area
@@ -31,5 +36,7 @@ pumpkin, though other types of gourds, or even large turnips, can be used.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow),
-[remove fear](ref/spell/remove-fear); **Cost** 3,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow), [remove fear](ref/spell/remove-fear)
+Cost: 3,125 gp
+:::

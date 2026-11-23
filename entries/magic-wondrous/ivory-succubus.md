@@ -20,8 +20,13 @@ aura = "none (faint enchantment; see text)"
 caster_level = "3rd"
 +++
 
-**Aura** none (faint enchantment; see text); **CL** 3rd\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: none (faint enchantment; see text)
+CL: 3rd
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This exquisitely crafted, 6-inch-tall ivory statue of a succubus seems to change its pose every day
 or so, though its pose is always provocative. The statue emits a constant
@@ -54,5 +59,7 @@ other means.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [magic aura](ref/spell/magic-aura); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [magic aura](ref/spell/magic-aura)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration \[evil\]; **CL** 15th\
-**Slot** none; **Price** 56,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration \[evil\]
+CL: 15th
+Slot: none
+Price: 56,000 gp
+Weight: -
+:::
 
 This flap of leathery skin was flayed from the face of the [succubus](ref/monster/demon-succubus)
 Noctura. In order to attach the skin graft, the new user must make several lacerations around his
@@ -49,6 +54,7 @@ points of Constitution damage to the wearer and leaves the wearer's face permane
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[enervation](ref/spell/enervation), [regenerate](ref/spell/regenerate), creator must have a Charisma
-score of at least 18; **Cost** 28,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [enervation](ref/spell/enervation), [regenerate](ref/spell/regenerate), creator must have a Charisma score of at least 18
+Cost: 28,000 gp
+:::

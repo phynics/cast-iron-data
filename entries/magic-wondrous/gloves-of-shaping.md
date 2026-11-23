@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 10,000 gp
+Weight: -
+:::
 
 These soft leather gloves are constantly encrusted with clay between the fingers and allow the
 reshaping of otherwise durable materials. The wearer can shape objects with
@@ -40,6 +45,7 @@ the wearer desires to do so.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[soften earth and stone](ref/spell/soften-earth-and-stone), [stone shape](ref/spell/stone-shape),
-[transmute rock to mud](ref/spell/transmute-rock-to-mud); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [soften earth and stone](ref/spell/soften-earth-and-stone), [stone shape](ref/spell/stone-shape), [transmute rock to mud](ref/spell/transmute-rock-to-mud)
+Cost: 5,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 3,800 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 3,800 gp
+Weight: -
+:::
 
 This metal container looks like a hip flask for carrying alcoholic drinks except it is barely larger
 than a potion vial. The side of the flask may be blank or have a personalized decoration, but the
@@ -40,6 +45,7 @@ standard acid flask) once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[acid splash](ref/spell/acid-splash), [resistance](ref/spell/resistance), creator must have 5 ranks
-in Perception, Sleight of Hand, and Stealth; **Cost** 1,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [acid splash](ref/spell/acid-splash), [resistance](ref/spell/resistance), creator must have 5 ranks in Perception, Sleight of Hand, and Stealth
+Cost: 1,900 gp
+:::

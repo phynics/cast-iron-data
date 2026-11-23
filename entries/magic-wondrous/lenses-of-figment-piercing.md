@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 12,000 gp
+Weight: -
+:::
 
 When the wearer first sees an illusion effect with the figment subschool with a visual element, and
 that figment allows a saving throw, she can immediately make any allowed saving throw to realize the
@@ -32,5 +37,7 @@ saving throw to disbelieve, she gains a +4 competence bonus on this saving throw
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[see invisibility](ref/spell/see-invisibility); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [see invisibility](ref/spell/see-invisibility)
+Cost: 6,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 These supple gray leather slippers enable the wearer to keep his balance in precarious positions.
 The wearer retains his Dexterity bonus to AC when climbing, running, or using the
@@ -31,5 +36,7 @@ maneuvers and on Reflex saves to avoid falling (including falling prone).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 1,500 gp
+:::

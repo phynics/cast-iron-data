@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** shoulders; **Price** 22,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: shoulders
+Price: 22,000 gp
+Weight: 3 lbs.
+:::
 
 This crimson cloak is trimmed with feathers taken from [erinyes](ref/monster/devil-erinyes) devils.
 Three times per day on command, the cloak transforms into a pair of black-feathered wings that grant
@@ -32,5 +37,7 @@ saving throws.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly),
-[resistance](ref/spell/resistance); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly), [resistance](ref/spell/resistance)
+Cost: 11,000 gp
+:::

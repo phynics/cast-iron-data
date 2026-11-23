@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 10,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 10,000 gp
+Weight: 4 lbs.
+:::
 
 This cunningly designed bundle of wooden slats unfolds and interlocks to form a 3-foot-by-3-foot
 frame. Once per day you may place the unfolded frame upon a solid surface to form a passage up to 10
@@ -36,5 +41,7 @@ planning is required when using it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[passwall](ref/spell/passwall); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [passwall](ref/spell/passwall)
+Cost: 5,000 gp
+:::

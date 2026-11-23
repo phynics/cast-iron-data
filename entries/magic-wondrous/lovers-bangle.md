@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** wrists; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: wrists
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 This thick copper bracelet bears rows of lightly engraved hearts. Once per week, when the bracelet
 is worn and touched to another worn lover's bangle, the two become attuned and remain attuned until
@@ -32,5 +37,7 @@ about the event that broke the attunement.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status);
-**Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status)
+Cost: 375 gp
+:::

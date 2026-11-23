@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** neck; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: neck
+Price: 8,000 gp
+Weight: -
+:::
 
 This choker consists of a thin gold chain with a small scorpion charm that presses snugly against
 the neck when worn. Once per day as an immediate action, the wearer of this item can forgo her
@@ -38,6 +43,7 @@ attempt a Fortitude save as normal (using the poison's original DC) to resist th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[absorb toxicity](ref/spell/absorb-toxicity),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [absorb toxicity](ref/spell/absorb-toxicity), [greater magic weapon](ref/spell/magic-weapon-greater)
+Cost: 4,000 gp
+:::

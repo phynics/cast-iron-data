@@ -20,13 +20,20 @@ aura = "strong transmutation"
 caster_level = "11th"
 +++
 
-**Aura** strong transmutation; **CL** 11th\
-**Slot** neck; **Price** 22,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 11th
+Slot: neck
+Price: 22,000 gp
+Weight: 1 lb.
+:::
 
 This platinum locket only has power when used as a wizard's bonded object. It allows the
 [wizard](ref/class/wizard) to prepare an additional 6 levels of spells per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 11,000 gp
+:::

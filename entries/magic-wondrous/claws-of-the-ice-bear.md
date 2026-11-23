@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 1,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 1,300 gp
+Weight: 1 lb.
+:::
 
 Strapped to the hands, these spiked climbing claws grant a +2 competence bonus on
 [Climb](ref/skill/climb) checks and [Acrobatics](ref/skill/acrobatics) checks made when using both
@@ -36,5 +41,7 @@ weapon, claws of the ice bear function as [spiked gauntlets](ref/eq-weapon/spike
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spider climb](ref/spell/spider-climb); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spider climb](ref/spell/spider-climb)
+Cost: 750 gp
+:::

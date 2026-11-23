@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 10th\
-**Slot** eyes; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 10th
+Slot: eyes
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 These wire spectacles are fitted with several ground-crystal filters on hinged arms, any combination
 of which can be moved in front of or away from the lenses as a standard action (one, two, or all
@@ -42,6 +47,7 @@ uses these filters.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane sight](ref/spell/arcane-sight), [darkvision](ref/spell/darkvision),
-[see invisibility](ref/spell/see-invisibility); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane sight](ref/spell/arcane-sight), [darkvision](ref/spell/darkvision), [see invisibility](ref/spell/see-invisibility)
+Cost: 2,500 gp
+:::

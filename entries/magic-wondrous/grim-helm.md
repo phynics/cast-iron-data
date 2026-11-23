@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** head; **Price** 48,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: head
+Price: 48,000 gp
+Weight: 4 lbs.
+:::
 
 The matte surface of this pitted gray helm seems to absorb light, rather than reflect it. The skull
 mask that serves as its visor is a constant reminder of the fate that awaits all mortals. The wearer
@@ -33,5 +38,7 @@ throw is immune to this ability for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions)
+Cost: 24,000 gp
+:::

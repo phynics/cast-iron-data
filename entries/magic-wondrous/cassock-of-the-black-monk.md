@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** body; **Price** 34,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: body
+Price: 34,000 gp
+Weight: 1 lb.
+:::
 
 This ankle-length black robe, cut in the style favored by Orthodox priests, bears little outward
 ornamentation beyond its gold buttons, though subtle occult symbols embroidered in black thread
@@ -36,6 +41,7 @@ level of the spell. This ability has no effect if the wearer is a non-oracle.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [ghostbane dirge](ref/spell/ghostbane-dirge); **Cost**
-17,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [ghostbane dirge](ref/spell/ghostbane-dirge)
+Cost: 17,000 gp
+:::

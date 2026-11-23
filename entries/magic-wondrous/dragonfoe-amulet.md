@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** neck; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: neck
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This amulet consists of a cracked dragon scale set in a disk of gold. Most are slightly damaged,
 bearing the scars of draconic breath weapons. The dragonfoe amulet is a powerful, specialized tool
@@ -37,6 +42,7 @@ dragon's breath weapon (as the [evasion](ref/ability/evasion) ability).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Spell Penetration](ref/feat/spell-penetration), [magic weapon](ref/spell/magic-weapon),
-[jump](ref/spell/jump); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Spell Penetration](ref/feat/spell-penetration), [magic weapon](ref/spell/magic-weapon), [jump](ref/spell/jump)
+Cost: 10,000 gp
+:::

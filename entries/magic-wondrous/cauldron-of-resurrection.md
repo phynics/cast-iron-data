@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 33,000 gp; **Weight** 35 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 33,000 gp
+Weight: 35 lbs.
+:::
 
 The mouth of this heavy, dark iron cauldron is shaped like a monstrous maw and is large enough to
 accommodate a single Medium creature. When the cauldron is filled with pure water and certain rare
@@ -36,5 +41,7 @@ materials. The cauldron is usable once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resurrection](ref/spell/resurrection); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resurrection](ref/spell/resurrection)
+Cost: 16,500 gp
+:::

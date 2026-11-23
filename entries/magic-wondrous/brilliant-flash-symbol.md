@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 1,600 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 1,600 gp
+Weight: 1/2 lb.
+:::
 
 This holy (or unholy) symbol is crafted from brilliantly polished clear quartz with a facet that
 contains a small sapphire. When brandished, the symbol catches and amplifies the surrounding light
@@ -42,5 +47,7 @@ its powers in areas of total darkness.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flare](ref/spell/flare),
-channel energy class feature; **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flare](ref/spell/flare), channel energy class feature
+Cost: 800 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 15,000 gp
+Weight: -
+:::
 
 These supple gloves grant the wearer a +4 bonus to her CMD against [disarm](ref/rule/disarm)
 attacks, attempts to sunder her wielded weapons, and effects that cause her to lose her grip on her
@@ -34,5 +39,7 @@ class feature and is using an appropriate weapon, her weapon training bonus incr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic weapon](ref/spell/magic-weapon-greater)
+Cost: 7,500 gp
+:::

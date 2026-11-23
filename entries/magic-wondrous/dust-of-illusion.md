@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate illusion; **CL** 6th\
-**Slot** none; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 6th
+Slot: none
+Price: 1,200 gp
+Weight: -
+:::
 
 This unremarkable powder resembles chalk dust or powdered graphite. When stared at, however, the
 dust changes color and form. A creature covered in dust of illusion is affected as if by a
@@ -34,5 +39,7 @@ dust. The glamer lasts for 2 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 600 gp
+:::

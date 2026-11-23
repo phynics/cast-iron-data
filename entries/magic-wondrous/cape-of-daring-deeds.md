@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shoulders; **Price** 9,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shoulders
+Price: 9,000 gp
+Weight: 2 lbs.
+:::
 
 The wearer can spend a full-round action concentrating to change the color of this short, silken
 cape to match any attire or mood. When using the [derring-do](ref/swashdeed/derring-do) 1st-level
@@ -32,6 +37,7 @@ bonus increases to +4 for 1 round each time the wearer uses the charmed life
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [prestidigitation](ref/spell/prestidigitation),
-[resistance](ref/spell/resistance); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [prestidigitation](ref/spell/prestidigitation), [resistance](ref/spell/resistance)
+Cost: 4,500 gp
+:::

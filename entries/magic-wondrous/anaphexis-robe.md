@@ -20,8 +20,13 @@ aura = "moderate divination and necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination and necromancy; **CL** 10th\
-**Slot** body; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination and necromancy
+CL: 10th
+Slot: body
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 Sewn from deep purple fabric, an Anaphexis robe appears to be a plain version of
 [Pharasmin](ref/faith/pharasma) holy vestments. A creature wearing this robe can speak directly into
@@ -34,5 +39,7 @@ rounds required to study a target for a death attack by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message),
-[slay living](ref/spell/slay-living); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message), [slay living](ref/spell/slay-living)
+Cost: 8,000 gp
+:::

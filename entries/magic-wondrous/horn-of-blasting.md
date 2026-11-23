@@ -23,8 +23,13 @@ aura = "moderate (normal) or string (greater) evocation"
 caster_level = "7th (normal), 16th (greater)"
 +++
 
-**Aura** moderate (normal) or string (greater) evocation; **CL** 7th (normal), 16th (greater)\
-**Slot** none; **Price** 20,000 gp (normal), 70,000 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate (normal) or string (greater) evocation
+CL: 7th (normal), 16th (greater)
+Slot: none
+Price: 20,000 gp (normal), 70,000 gp (greater)
+Weight: 1 lb.
+:::
 
 This spiraling animal horn can be sounded as a normal horn, but if the command word is spoken and
 the instrument is then played, it deals 5d6 points of sonic damage to creatures within a 40-foot
@@ -45,6 +50,7 @@ blasting also has a 20% cumulative chance of exploding for each usage beyond the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout)
-(normal only), [greater shout](ref/spell/shout-greater) (greater only); **Cost** 10,000 gp (normal),
-35,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout) (normal only), [greater shout](ref/spell/shout-greater) (greater only)
+Cost: 10,000 gp (normal), 35,000 gp (greater)
+:::

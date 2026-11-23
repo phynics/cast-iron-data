@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** body; **Price** 5,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: body
+Price: 5,500 gp
+Weight: 1 lb.
+:::
 
 This sleeveless cotton tabard has a large but innocuous image such as a checkered field or mailed
 fist emblazoned on its front panel. As a swift action, a wearer devoted to a particular deity or
@@ -36,5 +41,7 @@ this is a profane bonus rather than a sacred bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield of faith](ref/spell/shield-of-faith); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield of faith](ref/spell/shield-of-faith)
+Cost: 2,750 gp
+:::

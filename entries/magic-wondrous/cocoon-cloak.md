@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This ruffled silk cloak is incredibly durable despite its soft, delicate construction. Anytime the
 wearer falls asleep (whether the sleep is natural or brought on by a magical effect), the cloak
@@ -33,5 +38,7 @@ on a critical hit). The cocoon opens and transforms back into a cloak once the w
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vermin shape I](ref/spell/vermin-shape-1); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vermin shape I](ref/spell/vermin-shape-1)
+Cost: 5,000 gp
+:::

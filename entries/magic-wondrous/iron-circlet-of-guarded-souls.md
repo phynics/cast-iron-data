@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** head; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: head
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 This simple [cold iron](ref/eq-material/cold-iron) circle has no markings or ornamentation upon it,
 and is always slightly cool to the touch. The circle shields both the wearer's soul and his identity
@@ -35,5 +40,7 @@ removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nondetection](ref/spell/nondetection), [trap the soul](ref/spell/trap-the-soul); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nondetection](ref/spell/nondetection), [trap the soul](ref/spell/trap-the-soul)
+Cost: 15,000 gp
+:::

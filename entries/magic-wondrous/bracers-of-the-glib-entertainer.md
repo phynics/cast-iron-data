@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** wrists; **Price** 7,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: wrists
+Price: 7,900 gp
+Weight: 1 lb.
+:::
 
 These decorative bracers are stippled with vibrant colors and have various tiny bells sewn onto
 their surface. While wearing them, the wearer gains a +5 competence bonus on
@@ -30,5 +35,7 @@ the _[glibness](ref/spell/glibness)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glibness](ref/spell/glibness); **Cost** 3,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glibness](ref/spell/glibness)
+Cost: 3,950 gp
+:::

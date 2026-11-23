@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation [air]"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and evocation \[air\]; **CL** 10th\
-**Slot** wrists; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and evocation \[air\]
+CL: 10th
+Slot: wrists
+Price: 9,000 gp
+Weight: -
+:::
 
 These azure-and-white marbled bracelets feel smooth and perpetually cool to the touch. When worn,
 they activate once per day as an immediate action to safeguard against sudden airborne attacks and
@@ -33,6 +38,7 @@ Once activated, the effect lasts for 10 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble), [contingency](ref/spell/contingency),
-[wind wall](ref/spell/wind-wall); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble), [contingency](ref/spell/contingency), [wind wall](ref/spell/wind-wall)
+Cost: 4,500 gp
+:::

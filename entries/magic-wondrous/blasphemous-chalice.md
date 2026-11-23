@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 12,000 gp
+Weight: 3 lbs.
+:::
 
 Contrary to the name, a blasphemous chalice takes the form of an enchanted box, usually sumptuously
 decorated, with a lump of unidentifiable tissue inside. This tissue seems to somehow be alive and
@@ -35,5 +40,7 @@ normally. A blasphemous chalice produces enough blood for a single use per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield of fortification](ref/spell/shield-of-fortification); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield of fortification](ref/spell/shield-of-fortification)
+Cost: 6,000 gp
+:::

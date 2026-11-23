@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** wrists; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: wrists
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 Each of these crimson leather bracers is emblazoned with the image of a soaring golden falcon
 scanning the ground for easy prey. Once per day, on command, the wearer gains the benefits of
@@ -30,5 +35,7 @@ bracers continuously for 24 hours before activating this ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[aspect of the falcon](ref/spell/aspect-of-the-falcon); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aspect of the falcon](ref/spell/aspect-of-the-falcon)
+Cost: 2,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** head; **Price** 17,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: head
+Price: 17,000 gp
+Weight: 2 lbs.
+:::
 
 A frontovik's gas mask has the appearance of a typical Zelinsky-Kummant gas mask used by the Russian
 army: a rubberized cloth bag worn over the face, with two thick glass eyepieces and a rectangular
@@ -37,6 +42,7 @@ mask imposes a -2 penalty on hearing- and sight-based [Perception](ref/skill/per
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [fog cloud](ref/spell/fog-cloud),
-[life bubble](ref/spell/life-bubble); **Cost** 8,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [fog cloud](ref/spell/fog-cloud), [life bubble](ref/spell/life-bubble)
+Cost: 8,500 gp
+:::

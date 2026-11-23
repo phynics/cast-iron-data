@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This amulet shines brightly when brought within 60 feet of an outsider with the elemental subtype,
 shedding light as a torch. The amulet glows a different color depending on the subtype of the
@@ -37,5 +42,7 @@ against attacks from elementals. The amulet also allows any attacks made by the 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resist energy](ref/spell/resist-energy), creator must be at least 8th level; **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resist energy](ref/spell/resist-energy), creator must be at least 8th level
+Cost: 2,000 gp
+:::

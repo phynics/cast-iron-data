@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** chest; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: chest
+Price: 2,000 gp
+Weight: -
+:::
 
 This tight-fitting garment of fine silk has thin bone ribbing sewn into it. Once per day as a move
 action, the wearer can take an additional swift action. This swift action can't be used to cast a
@@ -30,5 +35,7 @@ before this ability can be used.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste)
+Cost: 1,000 gp
+:::

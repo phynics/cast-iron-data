@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 2,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 2,800 gp
+Weight: 1 lb.
+:::
 
 While a block of this sweet-scented incense burns, creatures inhaling its fumes become unusually
 receptive to thought. In still air, the incense's smoke permeates a 40-foot-by-40-foot area to a
@@ -40,5 +45,7 @@ duration.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[telepathic bond](ref/spell/telepathic-bond); **Cost** 1,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [telepathic bond](ref/spell/telepathic-bond)
+Cost: 1,400 gp
+:::

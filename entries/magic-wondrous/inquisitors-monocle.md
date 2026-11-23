@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** eyes; **Price** 6,800 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: eyes
+Price: 6,800 gp
+Weight: -
+:::
 
 The thick glass lens of this golden-framed monocle is attached to the wearer by a weighty chain.
 This monocle helps draw out the truth of things, and was originally created to aid in the
@@ -32,5 +37,7 @@ only one of the wearer's eyes, the item takes up the entire eyes slot.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 3,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [zone of truth](ref/spell/zone-of-truth)
+Cost: 3,400 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 17,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 17,000 gp
+Weight: 3 lbs.
+:::
 
 This broom is able to fly through the air as if affected by an
 _[overland flight](ref/spell/overland-flight)_ spell (+4 on [Fly](ref/skill/fly) skill checks) for
@@ -36,5 +41,7 @@ word. The broom of flying has a speed of 40 feet when it has no rider.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight), [permanency](ref/spell/permanency); **Cost** 8,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight), [permanency](ref/spell/permanency)
+Cost: 8,500 gp
+:::

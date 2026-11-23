@@ -20,8 +20,13 @@ aura = "faint conjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and conjuration; **CL** 5th\
-**Slot** head; **Price** 4,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration and conjuration
+CL: 5th
+Slot: head
+Price: 4,500 gp
+Weight: 2 lbs.
+:::
 
 Often worn by paranoid rulers, this simple iron crown is thick and heavy. The wearer is immune to
 ninja, rogue, and slayer talents that add effects to a [sneak attack](ref/ability/sneak-attack),
@@ -34,6 +39,7 @@ of the item for any caster level check required.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward), [neutralize poison](ref/spell/neutralize-poison),
-[stoneskin](ref/spell/stoneskin); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward), [neutralize poison](ref/spell/neutralize-poison), [stoneskin](ref/spell/stoneskin)
+Cost: 2,250 gp
+:::

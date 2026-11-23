@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** head; **Price** 12,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: head
+Price: 12,000 gp
+Weight: 3 lbs.
+:::
 
 This [Gray Maiden](ref/rule/aff-scarred-ladies)-style helm has an ornate crown-like pattern sculpted
 into its brow. The first such helms were created in the final days of Queen Ileosa's reign for use
@@ -36,5 +41,7 @@ hours or until the helm is removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [heroism](ref/spell/heroism); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [heroism](ref/spell/heroism)
+Cost: 6,000 gp
+:::

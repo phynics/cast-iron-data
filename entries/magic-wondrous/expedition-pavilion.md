@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 6,400 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 6,400 gp
+Weight: 10 lbs.
+:::
 
 This ordinary-looking, windowless tent appears to cover only a 10-foot-by-10-foot area, but, inside,
 it measures a full 30 feet by 30 feet, with a large central area and three small "bedrooms"
@@ -41,5 +46,7 @@ any creatures and objects inside immediately spill out.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hide from animals](ref/spell/hide-from-animals), [tiny hut](ref/spell/tiny-hut); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hide from animals](ref/spell/hide-from-animals), [tiny hut](ref/spell/tiny-hut)
+Cost: 3,200 gp
+:::

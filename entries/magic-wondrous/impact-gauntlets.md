@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 4,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 4,500 gp
+Weight: 1 lb.
+:::
 
 These gauntlets are made of worn leather; the palms are smooth, but the wrists and backs of the
 gauntlets are covered in rough pebbles of various shapes and colors. The wearer can catch Small,
@@ -32,5 +37,7 @@ possesses the rock catching ability can catch rocks twice per round instead of o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item)
+Cost: 2,250 gp
+:::

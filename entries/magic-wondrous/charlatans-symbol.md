@@ -20,8 +20,13 @@ aura = "faint illusion (see text)"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion (see text); **CL** 5th\
-**Slot** neck; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion (see text)
+CL: 5th
+Slot: neck
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This small relic is designed to resemble a holy symbol of a genuine or fictional deity and can be
 worn about the neck. A charlatan's symbol contains an extradimensional compartment that can hold one
@@ -40,6 +45,7 @@ nonmagical (as _[magic aura](ref/spell/magic-aura)_), as if it were a standard h
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [magic aura](ref/spell/magic-aura), creator must have
-5 ranks in both Bluff and Use Magic Device; **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [magic aura](ref/spell/magic-aura), creator must have 5 ranks in both Bluff and Use Magic Device
+Cost: 1,000 gp
+:::

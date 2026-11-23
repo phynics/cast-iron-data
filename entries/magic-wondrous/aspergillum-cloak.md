@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This drab brown, hooded cloak acts as a
 [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1) but also quickly absorbs any
@@ -35,5 +40,7 @@ special abilities from absorbing any other liquid.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bless water](ref/spell/bless-water); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless water](ref/spell/bless-water)
+Cost: 4,000 gp
+:::

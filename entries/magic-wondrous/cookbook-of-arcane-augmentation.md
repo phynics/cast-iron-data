@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 21,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 21,500 gp
+Weight: 5 lbs.
+:::
 
 This book is bound in dyed goatskin, and its coarse, thick pages are stained in a variety of colors
 and covered in wavering script; rough sketches; and diagrams of various plants, mystic symbols, and
@@ -47,6 +52,7 @@ only the ability to use the given feat when spells are prepared.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [Persistent Spell](ref/feat/persistent-spell),
-[Rime Spell](ref/feat/rime-spell), [Sickening Spell](ref/feat/sickening-spell); **Cost** 10,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Ectoplasmic Spell](ref/feat/ectoplasmic-spell), [Persistent Spell](ref/feat/persistent-spell), [Rime Spell](ref/feat/rime-spell), [Sickening Spell](ref/feat/sickening-spell)
+Cost: 10,750 gp
+:::

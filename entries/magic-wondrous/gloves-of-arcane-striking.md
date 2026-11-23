@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** hands; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: hands
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 These soft leather gloves are decorated with even rows of [mithral](ref/eq-material/mithral) rivets.
 Only a spellcaster with the [Arcane Strike](ref/feat/arcane-strike) feat can activate their
@@ -37,5 +42,7 @@ abilities. These abilities are as follows.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Arcane Strike,
-[magic weapon](ref/spell/magic-weapon); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Arcane Strike, [magic weapon](ref/spell/magic-weapon)
+Cost: 2,500 gp
+:::

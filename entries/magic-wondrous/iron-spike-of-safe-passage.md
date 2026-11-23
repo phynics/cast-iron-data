@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 When hammered into place this 9-inch iron spike creates an illusion up to 15 feet high and in a
 15-foot diameter centered on the spike. The illusion can be of one of the following: a small hillock
@@ -35,5 +40,7 @@ number of times and its effects last until removed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[silent image](ref/spell/silent-image); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silent image](ref/spell/silent-image)
+Cost: 1,000 gp
+:::

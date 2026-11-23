@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 This torch is made of pale yellow wood and inscribed with holy runes. When lit, it burns as a
 regular [torch](ref/eq-misc/torch), but only lasts for 5 minutes. When held by a lawful good
@@ -31,5 +36,7 @@ holds it again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[archon's aura](ref/spell/archons-aura); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [archon's aura](ref/spell/archons-aura)
+Cost: 375 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** neck; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: neck
+Price: 9,000 gp
+Weight: -
+:::
 
 This glass teardrop hangs on a platinum chain and can be used once per day to grant a surge of
 power. This surge can be used in one of two ways. As a swift action, the wearer of the amulet can
@@ -31,5 +36,7 @@ regain two ki points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool;
-**Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool
+Cost: 4,500 gp
+:::

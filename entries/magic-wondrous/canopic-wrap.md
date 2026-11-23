@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** belt; **Price** 10,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: belt
+Price: 10,500 gp
+Weight: 1 lb.
+:::
 
 Tattered and yellowed, this belt is made up of dozens of interwoven linen wraps bound together by a
 simple stone buckle at the front. Crafted from mummified wrappings, these belts are commonly used by
@@ -37,6 +42,7 @@ by 5.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance),
-[greater infernal healing](ref/spell/infernal-healing-greater); **Cost** 5,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [greater infernal healing](ref/spell/infernal-healing-greater)
+Cost: 5,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 80,000 gp; **Weight** 100 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 80,000 gp
+Weight: 100 lbs.
+:::
 
 A flying sled is a small vehicle akin to a rowboat, and is covered in metallic veins. The sled can
 hold one occupant. A psychic pilot can the control the craft. Without a psychic pilot, a flying sled
@@ -46,6 +51,7 @@ gains the following additional ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overland flight](ref/spell/overland-flight), [plane shift](ref/spell/plane-shift); **Cost** 40,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overland flight](ref/spell/overland-flight), [plane shift](ref/spell/plane-shift)
+Cost: 40,000 gp
+:::

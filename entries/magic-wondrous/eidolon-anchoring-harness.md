@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** body; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: body
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 Loadstone studs line the straps of this ornate leather harness. When worn by an
 [eidolon](ref/sidekick/eidolon), the bindings act as a dimensional safety harness, anchoring the
@@ -40,5 +45,7 @@ otherwise it immediately returns to its home plane.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 3,000 gp
+:::

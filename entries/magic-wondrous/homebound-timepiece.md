@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 1/2 lb.
+:::
 
 This complicated brass chronometer can be wound only while on the Material Plane. Attempts to wind a
 homebound timepiece on any other plane simply fail, with the winding pin spinning and turning
@@ -36,5 +41,7 @@ the timeless trait, it is immediately but harmlessly unwound.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination)
+Cost: 2,000 gp
+:::

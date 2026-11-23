@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 9,800 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 9,800 gp
+Weight: -
+:::
 
 This 1-inch steel cube bears a variety of unique, intricate carvings upon each face. On command, the
 cube sprouts wings and arms and becomes a Diminutive-sized, cube-shaped mechanical construct (treat
@@ -36,6 +41,7 @@ either form, it is forever ruined.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [fly](ref/spell/fly),
-[make whole](ref/spell/make-whole); **Cost** 4,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [fly](ref/spell/fly), [make whole](ref/spell/make-whole)
+Cost: 4,900 gp
+:::

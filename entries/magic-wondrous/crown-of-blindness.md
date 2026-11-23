@@ -23,8 +23,12 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** headband; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: headband
+Weight: 1 lb.
+:::
 
 This fine silver circlet is often set with a milky moonstone. When a wearer places it on his head,
 the stone quickly goes dark like the waning moon, and the wearer must make a DC 14 Fortitude saving
@@ -36,9 +40,7 @@ curse long enough to remove the item.
 
 ### Construction
 
-**Requirements** [headband of alluring charisma](ref/magic-wondrous/headband-of-alluring-charisma),
-[headband of inspired wisdom](ref/magic-wondrous/headband-of-inspired-wisdom),
-[headband of mental prowess](ref/magic-wondrous/headband-of-mental-prowess),
-[headband of mental superiority](ref/magic-wondrous/headband-of-mental-superiority),
-[headband of vast intelligence](ref/magic-wondrous/headband-of-vast-intelligence),
-[moon circlet](ref/magic-wondrous/moon-circlet); **Cost** -
+::: statblock
+Requirements: [headband of alluring charisma](ref/magic-wondrous/headband-of-alluring-charisma), [headband of inspired wisdom](ref/magic-wondrous/headband-of-inspired-wisdom), [headband of mental prowess](ref/magic-wondrous/headband-of-mental-prowess), [headband of mental superiority](ref/magic-wondrous/headband-of-mental-superiority), [headband of vast intelligence](ref/magic-wondrous/headband-of-vast-intelligence), [moon circlet](ref/magic-wondrous/moon-circlet)
+Cost: -
+:::

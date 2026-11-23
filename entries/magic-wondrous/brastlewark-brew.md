@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 150 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 150 gp
+Weight: 1 lb.
+:::
 
 This magical alcoholic beverage was invented by brewers of Brastlewark engaged in a contest to
 produce the most inventive heady ale. It is most often drunk willingly, though some bartenders
@@ -35,5 +40,7 @@ future jokes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hideous laughter](ref/spell/hideous-laughter); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hideous laughter](ref/spell/hideous-laughter)
+Cost: 75 gp
+:::

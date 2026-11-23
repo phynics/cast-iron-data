@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 18,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 18,000 gp
+Weight: 2 lbs.
+:::
 
 When a block of incense is placed inside this censer and ignited, the bearer gains the benefits of a
 heightened 2nd-level _[sanctuary](ref/spell/sanctuary)_ spell for as long as the incense burns (1
@@ -38,6 +43,7 @@ extinguishes 1 round after the bearer ceases to use. If incense of meditation is
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [Mythic Crafter](ref/feat/mythic-crafter),
-[sanctuary](ref/spell/sanctuary); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [Mythic Crafter](ref/feat/mythic-crafter), [sanctuary](ref/spell/sanctuary)
+Cost: 9,000 gp
+:::

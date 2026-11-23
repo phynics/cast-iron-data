@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This set of fine, [masterwork thieves' tools](ref/eq-misc/thieves-tools-masterwork) glimmer when
 exposed to light. When held in hand, they glow with light visible only to the individual holding
@@ -34,5 +39,7 @@ within a device. These guiding lights grant a +5 circumstance bonus on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock)
+Cost: 3,000 gp
+:::

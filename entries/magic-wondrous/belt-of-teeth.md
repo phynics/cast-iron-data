@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** belt; **Price** 4,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: belt
+Price: 4,000 gp
+Weight: 3 lbs.
+:::
 
 The brass buckle on this stout leather belt is fashioned to resemble three demonic faces. Once each
 round, this belt's buckle can animate, lashing out at a creature that provokes an attack of
@@ -33,5 +38,7 @@ can make in a round; it offers another way in which to make attacks of opportuni
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic fang](ref/spell/magic-fang); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic fang](ref/spell/magic-fang)
+Cost: 2,000 gp
+:::

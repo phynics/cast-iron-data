@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** none; **Price** 6,500 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: none
+Price: 6,500 gp
+Weight: -
+:::
 
 This plume always bears ink, as though freshly drawn from an inkwell. Once per day, a character
 holding the quill can enter a trance-like state, automatically writing possible upcoming events.
@@ -33,5 +38,7 @@ take the less favorable result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[borrow fortune](ref/spell/borrow-fortune); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [borrow fortune](ref/spell/borrow-fortune)
+Cost: 3,250 gp
+:::

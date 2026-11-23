@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 6,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 6,000 gp
+Weight: 1/2 lb.
+:::
 
 These sand-worn leather sandals are designed to lace around the calf and are favored by pit fighters
 and those who make careers out of performing in the ring. When the wearer acts during a surprise
@@ -32,5 +37,7 @@ crowd's attitude.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [haste](ref/spell/haste); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [haste](ref/spell/haste)
+Cost: 3,000 gp
+:::

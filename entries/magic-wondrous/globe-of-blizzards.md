@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 4,550 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 4,550 gp
+Weight: 1 lb.
+:::
 
 Tiny white crystals hang suspended in a clear fluid inside this fist-sized glass ball, which
 contains a miniature scene of leafless trees in a snow-covered landscape. Shaking the globe (a move
@@ -36,5 +41,7 @@ the area return. Once shattered, a globe of blizzards is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control weather](ref/spell/control-weather); **Cost** 2,275 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control weather](ref/spell/control-weather)
+Cost: 2,275 gp
+:::

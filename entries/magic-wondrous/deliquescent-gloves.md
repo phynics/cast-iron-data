@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: hands
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 These heavy leather gloves ripple and flows at the wearer's command, reshaping to fit any hand,
 claw, tentacle, or alien limb. The wearer's melee touch attacks with that hand deal 1d6 points of
@@ -35,6 +40,7 @@ ooze. These unarmed strikes and natural attacks never cause an ooze to split.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[acid arrow](ref/spell/acid-arrow), [summon monster V](ref/spell/summon-monster-5); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [acid arrow](ref/spell/acid-arrow), [summon monster V](ref/spell/summon-monster-5)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** wrists; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: wrists
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These tight-fitting [mithral](ref/eq-material/mithral) bracers are used throughout the Inner Sea
 region in nations where dueling is prominent. The wearer of dueling cuffs gains a +1 deflection
@@ -34,5 +39,7 @@ ranged attacks from firearms with a dueling parry, but takes a -5 penalty on suc
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bullet shield](ref/spell/bullet-shield), [cat's grace](ref/spell/cats-grace); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bullet shield](ref/spell/bullet-shield), [cat's grace](ref/spell/cats-grace)
+Cost: 5,000 gp
+:::

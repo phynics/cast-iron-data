@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** neck; **Price** 24,200 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: neck
+Price: 24,200 gp
+Weight: -
+:::
 
 The dark green orb on this silver necklace is covered in what looks like thorns, but it's not sharp
 or painful to the touch. While wearing this amulet, whenever you cast a spell that triggers a
@@ -32,5 +37,7 @@ magic events.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [miracle](ref/spell/miracle),
-crafter must be an oracle with the [spellscar](ref/mystery/spellscar) mystery; **Cost** 12,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [miracle](ref/spell/miracle), crafter must be an oracle with the [spellscar](ref/mystery/spellscar) mystery
+Cost: 12,100 gp
+:::

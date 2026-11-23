@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "2nd"
 +++
 
-**Aura** faint conjuration; **CL** 2nd\
-**Slot** feet; **Price** 1,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 2nd
+Slot: feet
+Price: 1,500 gp
+Weight: 2 lbs.
+:::
 
 These travel-stained boots of stout brown leather enable the wearer to traverse great distances
 without tiring. When making a [forced march](ref/rule/overland-movement), for each hour of marching
@@ -32,5 +37,7 @@ nonlethal damage in this way.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Endurance](ref/feat/endurance); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Endurance](ref/feat/endurance)
+Cost: 750 gp
+:::

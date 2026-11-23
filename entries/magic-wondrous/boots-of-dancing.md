@@ -23,8 +23,12 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Aura** strong enchantment; **CL** 16th\
-**Slot** feet; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 16th
+Slot: feet
+Weight: 1 lb.
+:::
 
 These boots appear and initially function as one of the other kinds of magic boots. When the wearer
 is in (or fleeing from) melee combat, boots of dancing impede movement, making him behave as if
@@ -34,10 +38,7 @@ true nature is revealed.
 
 ### Construction
 
-**Requirements** [boots of elvenkind](ref/magic-wondrous/boots-of-elvenkind),
-[boots of levitation](ref/magic-wondrous/boots-of-levitation),
-[boots of speed](ref/magic-wondrous/boots-of-speed),
-[boots of striding and springing](ref/magic-wondrous/boots-of-striding-and-springing),
-[boots of teleportation](ref/magic-wondrous/boots-of-teleportation),
-[boots of the winterlands](ref/magic-wondrous/boots-of-the-winterlands),
-[winged boots](ref/magic-wondrous/winged-boots); **Cost** -
+::: statblock
+Requirements: [boots of elvenkind](ref/magic-wondrous/boots-of-elvenkind), [boots of levitation](ref/magic-wondrous/boots-of-levitation), [boots of speed](ref/magic-wondrous/boots-of-speed), [boots of striding and springing](ref/magic-wondrous/boots-of-striding-and-springing), [boots of teleportation](ref/magic-wondrous/boots-of-teleportation), [boots of the winterlands](ref/magic-wondrous/boots-of-the-winterlands), [winged boots](ref/magic-wondrous/winged-boots)
+Cost: -
+:::

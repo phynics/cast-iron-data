@@ -20,8 +20,13 @@ aura = "faint divination (evil) and enchantment (evil)"
 caster_level = "5th"
 +++
 
-**Aura** faint divination (evil) and enchantment (evil); **CL** 5th\
-**Slot** none; **Price** 6,500 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint divination (evil) and enchantment (evil)
+CL: 5th
+Slot: none
+Price: 6,500 gp
+Weight: 10 lbs.
+:::
 
 A brazen head is an object sacred to the cult of [Baphomet](ref/faith/baphomet). Most brazen heads
 appear to be the head of a minotaur, but others in the shape of humans, animals, or multi-faced
@@ -38,5 +43,7 @@ more powerful brazen heads capable of casting [divination](ref/spell/divination)
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[augury](ref/spell/augury), must worship [Baphomet](ref/faith/baphomet); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [augury](ref/spell/augury), must worship [Baphomet](ref/faith/baphomet)
+Cost: 3,250 gp
+:::

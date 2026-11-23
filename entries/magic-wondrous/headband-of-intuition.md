@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** headband; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: headband
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 This headband gives its wearer the gift of foresight, effectively allowing her to determine whether
 or not a particular course of action will grant weal and/or woe. Three times per day the wearer of
@@ -30,5 +35,7 @@ using the _[augury](ref/spell/augury)_ spell, except that the wearer always gets
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury);
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury)
+Cost: 3,500 gp
+:::

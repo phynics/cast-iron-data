@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 1,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 1,600 gp
+Weight: 2 lbs.
+:::
 
 A courier's secure pouch appears as a typical soft-sided leather satchel with a shoulder strap and a
 fold-over flap with a buckle that can be fastened to seal documents inside. The pouch allows for the
@@ -41,5 +46,7 @@ not subject to the pouch's magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase);
-**Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase)
+Cost: 800 gp
+:::

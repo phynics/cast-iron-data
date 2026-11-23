@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 2,000 gp
+Weight: -
+:::
 
 Occasionally, half-elves find it socially advantageous to blend in fully with either elves or
 humans. As a standard action, the wearer of this brooch can transform his features to appear either
@@ -36,6 +41,7 @@ for [half-orcs](ref/race/half-orc) as well.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), creator must be a [half-elf](ref/race/half-elf); **Cost** 1,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), creator must be a [half-elf](ref/race/half-elf)
+Cost: 1,000 gp
+:::

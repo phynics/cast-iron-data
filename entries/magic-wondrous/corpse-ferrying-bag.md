@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 9th\
-**Slot** none; **Price** 4,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 9th
+Slot: none
+Price: 4,000 gp
+Weight: 3 lbs.
+:::
 
 This large black leather bag has a wide mouth and laces to help keep it shut. It weighs 20 pounds
 and can carry up to 300 pounds or 10 cubic feet of material (easily able to hold a single Medium
@@ -30,5 +35,7 @@ _[gentle repose](ref/spell/gentle-repose)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [secret chest](ref/spell/secret-chest); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [secret chest](ref/spell/secret-chest)
+Cost: 2,000 gp
+:::

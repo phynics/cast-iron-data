@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 9th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 9th
+Slot: hands
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Used by the drow smiths of house Caldrana, these worked black leather gloves are stitched with red
 symbols dedicated to [Flauros](ref/faith/flauros), the demon lord of fire and volcanoes. Whenever
@@ -37,5 +42,7 @@ in the name of the demon lord.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [fireball](ref/spell/fireball); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [fireball](ref/spell/fireball)
+Cost: 4,000 gp
+:::

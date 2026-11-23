@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** none; **Price** 150 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: none
+Price: 150 gp
+Weight: -
+:::
 
 This coin-sized black disk is engraved with a spiral on one side and a whippoorwill on the other.
 When the bearer of the disk succeeds at a Constitution check to [stabilize](ref/misc/stable), the
@@ -31,5 +36,7 @@ at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds)
+Cost: 75 gp
+:::

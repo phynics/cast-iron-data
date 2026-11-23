@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 3 lbs.
+:::
 
 Once the command word is spoken, this steel disc burrows 3 inches into the ground. To find it, a
 character with the [trapfinding](ref/ability/trapfinding) ability must succeed at a DC 25
@@ -39,5 +44,7 @@ is destroyed when the effect ends.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hostile levitation](ref/spell/hostile-levitation), [snare](ref/spell/snare); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hostile levitation](ref/spell/hostile-levitation), [snare](ref/spell/snare)
+Cost: 375 gp
+:::

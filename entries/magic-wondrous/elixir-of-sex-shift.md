@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 Upon drinking this elixir, a character permanently transforms their biology to take on a different
 set of sexual characteristics of their choice. While the imbiber's physiology changes dramatically
@@ -39,5 +44,7 @@ transforms them. An unwilling imbiber can choose not to change at all.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 1,125 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** head; **Price** 9,100 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: head
+Price: 9,100 gp
+Weight: 2 lbs.
+:::
 
 This plain mask is made of a reflective, dark gray ceramic. When worn, the mask transforms to look
 like the wearer's skull, and it gradually becomes eerier and more fearsome the closer a viewer gets
@@ -35,5 +40,7 @@ the creature's shaken condition as normal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare);
-**Cost** 4,550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare)
+Cost: 4,550 gp
+:::

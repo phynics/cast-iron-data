@@ -20,8 +20,13 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 19th\
-**Slot** none; **Price** 90,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 19th
+Slot: none
+Price: 90,000 gp
+Weight: 500 lbs.
+:::
 
 Built by a group of forgotten arcanists and researchers in a secret outpost deep within the Osirian
 desert, the bronze sentinel is a magical vehicle shaped as a 15-foot-tall bronze humanoid statue,
@@ -57,6 +62,7 @@ natural); **[hardness](ref/umr/hardness)** 15; **hp** 150; **Speed** 20 ft.; **M
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator
-must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [continual flame](ref/spell/continual-flame), creator must have 8 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering)
+Cost: 45,000 gp
+:::

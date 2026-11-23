@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** belt; **Price** 8,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: belt
+Price: 8,500 gp
+Weight: 3 lbs.
+:::
 
 This scabbard of vigor prominently bears the symbol of [Iomedae](ref/faith/iomedae). Three times per
 day, the scabbard can cast _[bless weapon](ref/spell/bless-weapon)_ on any weapon sheathed within,
@@ -34,9 +39,10 @@ dishonesty.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bless weapon](ref/spell/bless-weapon), [greater magic weapon](ref/spell/magic-weapon-greater);
-**Price** 4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless weapon](ref/spell/bless-weapon), [greater magic weapon](ref/spell/magic-weapon-greater)
+Price: 4,250 gp
+:::
 
 ### Statistics
 

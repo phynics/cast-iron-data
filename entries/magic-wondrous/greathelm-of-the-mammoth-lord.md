@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** head; **Price** 24,700 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: head
+Price: 24,700 gp
+Weight: 5 lbs.
+:::
 
 This hide helm is a powerful variant of the more common
 [helm of the Mammoth Lord](ref/magic-wondrous/helm-of-the-mammoth-lord). Like its lesser
@@ -41,8 +46,7 @@ creatures. Once per day, the wearer can transform into a mammoth (treat as an
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape III](ref/spell/beast-shape-3), [charm animal](ref/spell/charm-animal),
-[detect animals or plants](ref/spell/detect-animals-or-plants),
-[endure elements](ref/spell/endure-elements), [speak with animals](ref/spell/speak-with-animals),
-creator must have 5 ranks in Handle Animal and Ride; **Cost** 12,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape III](ref/spell/beast-shape-3), [charm animal](ref/spell/charm-animal), [detect animals or plants](ref/spell/detect-animals-or-plants), [endure elements](ref/spell/endure-elements), [speak with animals](ref/spell/speak-with-animals), creator must have 5 ranks in Handle Animal and Ride
+Cost: 12,350 gp
+:::

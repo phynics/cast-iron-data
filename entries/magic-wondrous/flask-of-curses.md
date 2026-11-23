@@ -23,8 +23,12 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Weight: 2 lbs.
+:::
 
 This item looks like an ordinary beaker, bottle, container, decanter, flask, or jug. It may contain
 a liquid, or it may emit smoke. When the flask is first unstoppered, all creatures within 30 feet
@@ -33,7 +37,7 @@ skill checks until a [remove curse](ref/spell/remove-curse) spell is cast upon t
 
 ### Construction
 
-**Requirements** [decanter of endless water](ref/magic-wondrous/decanter-of-endless-water),
-[efreeti bottle](ref/magic-wondrous/efreeti-bottle),
-[eversmoking bottle](ref/magic-wondrous/eversmoking-bottle),
-[iron flask](ref/magic-wondrous/iron-flask); **Cost** -
+::: statblock
+Requirements: [decanter of endless water](ref/magic-wondrous/decanter-of-endless-water), [efreeti bottle](ref/magic-wondrous/efreeti-bottle), [eversmoking bottle](ref/magic-wondrous/eversmoking-bottle), [iron flask](ref/magic-wondrous/iron-flask)
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This 10-foot long rope ladder unrolls itself on command, extending upward into the air and magically
 holding itself in place. The ends of each rope have small loops for tying to another rope, a
@@ -40,6 +45,7 @@ The third command word may be used once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [dimension door](ref/spell/dimension-door),
-[rope trick](ref/spell/rope-trick); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [dimension door](ref/spell/dimension-door), [rope trick](ref/spell/rope-trick)
+Cost: 2,000 gp
+:::

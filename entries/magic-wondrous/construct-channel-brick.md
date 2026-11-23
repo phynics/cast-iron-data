@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This solid red brick changes its shape to match its bearer's holy symbol. If the bearer has the
 [channel energy](ref/ability/channel-energy) class feature, she can focus her power on the brick,
@@ -35,5 +40,7 @@ constructs and objects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[make whole](ref/spell/make-whole); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [make whole](ref/spell/make-whole)
+Cost: 5,000 gp
+:::

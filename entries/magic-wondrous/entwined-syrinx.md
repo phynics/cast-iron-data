@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 15,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 15,300 gp
+Weight: 2 lbs.
+:::
 
 This complex wind instrument is made of interwoven, gilded pipes. It is considered a
 [masterwork musical instrument](ref/eq-misc/musical-instrument-masterwork), granting a +2 bonus on
@@ -39,5 +44,7 @@ musician continues to play for 1 hour, or until the performance is interrupted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hypnotic pattern](ref/spell/hypnotic-pattern); **Cost** 7,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hypnotic pattern](ref/spell/hypnotic-pattern)
+Cost: 7,150 gp
+:::

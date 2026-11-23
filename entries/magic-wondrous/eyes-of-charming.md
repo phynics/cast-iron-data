@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** eyes; **Price** 56,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: eyes
+Price: 56,000 gp
+Weight: -
+:::
 
 These two crystal lenses fit over the user's eyes. The wearer is able to use
 _[charm person](ref/spell/charm-person)_ (one target per round) merely by meeting a target's gaze.
@@ -33,6 +38,7 @@ the magic item to take effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [charm person](ref/spell/charm-person); **Cost** 28,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [charm person](ref/spell/charm-person)
+Cost: 28,000 gp
+:::

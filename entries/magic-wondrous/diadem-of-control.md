@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** headband; **Price** 189,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: headband
+Price: 189,000 gp
+Weight: -
+:::
 
 This elegant headband has an intricately carved crystal located in its center. The crystal shimmers
 with arcane energy. The wearer can remove or replace this crystal as a swift action. As a standard
@@ -38,6 +43,7 @@ is destroyed along with the construct.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate monster](ref/spell/dominate-monster), [possession](ref/spell/possession); **Cost** 94,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate monster](ref/spell/dominate-monster), [possession](ref/spell/possession)
+Cost: 94,500 gp
+:::

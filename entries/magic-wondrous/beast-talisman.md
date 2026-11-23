@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** neck; **Price** 18,900 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: neck
+Price: 18,900 gp
+Weight: -
+:::
 
 Carved to resemble a predatory animal, this small charm hangs from a leather cord. While assuming
 the form of an animal (such as when using the wild shape class feature or when under the effects of
@@ -34,5 +39,7 @@ natural weapons to bypass [damage reduction](ref/rule/damage-reduction), except 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic fang](ref/spell/magic-fang-greater); **Cost** 9,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic fang](ref/spell/magic-fang-greater)
+Cost: 9,450 gp
+:::

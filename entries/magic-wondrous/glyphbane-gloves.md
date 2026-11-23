@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** hands; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: hands
+Price: 9,000 gp
+Weight: -
+:::
 
 These dark-brown, leather gloves are etched over their entire surface with arcane insignia. The
 wearer gains a +5 competence bonus on [Disable Device](ref/skill/disable-device) checks made to
@@ -33,5 +38,7 @@ level, even when manipulated by the gloves.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[find traps](ref/spell/find-traps), [dispel magic](ref/spell/dispel-magic); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [find traps](ref/spell/find-traps), [dispel magic](ref/spell/dispel-magic)
+Cost: 4,500 gp
+:::

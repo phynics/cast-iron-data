@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** head; **Price** 29,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: head
+Price: 29,000 gp
+Weight: 6 lbs.
+:::
 
 Many seasoned military commanders in Molthune wear this style of silver helmet adorned with a single
 oversized red plume. If the wearer of an Imperial Army greathelm has the
@@ -33,6 +38,7 @@ If the wearer possesses the tactician class feature, the range of that ability i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Leadership,
-[eagle's splendor](ref/spell/eagles-splendor), [greater command](ref/spell/command-greater);
-**Cost** 14,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Leadership, [eagle's splendor](ref/spell/eagles-splendor), [greater command](ref/spell/command-greater)
+Cost: 14,500 gp
+:::

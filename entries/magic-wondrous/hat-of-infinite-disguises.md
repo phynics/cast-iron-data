@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** head; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: head
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This large, elaborate, and colorful hat is festooned with trinkets from at least a dozen different
 cultures. The wearer can disguise herself (but not other creatures) at will with a command word, as
@@ -30,5 +35,7 @@ the hat can be changed to appear as any appropriate accessory.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [veil](ref/spell/veil);
-**Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [veil](ref/spell/veil)
+Cost: 12,500 gp
+:::

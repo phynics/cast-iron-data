@@ -20,8 +20,13 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and transmutation; **CL** 5th\
-**Slot** headband; **Price** 40,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment and transmutation
+CL: 5th
+Slot: headband
+Price: 40,000 gp
+Weight: 1 lb.
+:::
 
 This plain white band makes the wearer seem more attractive. The wearer gains a +2 competence bonus
 on Charisma-based checks with other members of his creature type. If the wearer is of the humanoid
@@ -31,5 +36,7 @@ a duration of 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[unnatural lust](ref/spell/unnatural-lust); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [unnatural lust](ref/spell/unnatural-lust)
+Cost: 20,000 gp
+:::

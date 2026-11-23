@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 900 gp
+Weight: 1/2 lb.
+:::
 
 This small stone appears to be a normal river rock shot through with veins of white marble. At the
 beginning of each day, an elemental storing stone activates and can begin storing elemental energy.
@@ -34,5 +39,7 @@ beginning of the next day, the charge is wasted and the stone must be charged ag
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[elemental touch](ref/spell/elemental-touch); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [elemental touch](ref/spell/elemental-touch)
+Cost: 450 gp
+:::

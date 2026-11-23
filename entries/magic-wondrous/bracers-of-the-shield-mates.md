@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** wrists; **Price** 40,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: wrists
+Price: 40,000 gp
+Weight: 2 lbs.
+:::
 
 These heavy, bronze bracers depict scenes of epic battle and heroic sacrifice. When worn together,
 they provide no benefit. When two individuals each wear a single bracer, each wearer gains a +2
@@ -35,6 +40,7 @@ to her destination block this ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [dimension door](ref/spell/dimension-door),
-[shield](ref/spell/shield); **Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [dimension door](ref/spell/dimension-door), [shield](ref/spell/shield)
+Cost: 20,000 gp
+:::

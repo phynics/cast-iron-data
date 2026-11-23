@@ -23,8 +23,13 @@ aura = "faint divination and enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and enchantment; **CL** 5th\
-**Slot** head; **Price** 27,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination and enchantment
+CL: 5th
+Slot: head
+Price: 27,000 gp
+Weight: 3 lbs.
+:::
 
 This pale metal or ivory helm covers much of the head when worn. The wearer can use
 _[detect thoughts](ref/spell/detect-thoughts)_ at will. Furthermore, he can send a telepathic
@@ -34,5 +39,7 @@ DC 14 negates) along with his telepathic message.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts), [suggestion](ref/spell/suggestion); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts), [suggestion](ref/spell/suggestion)
+Cost: 13,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** shoulders; **Price** 2,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: shoulders
+Price: 2,400 gp
+Weight: 1 lb.
+:::
 
 When this plain green cloak is worn with the hood drawn up around the head, the wearer can assume
 the form of a Large tree or shrub, as per the _[tree shape](ref/spell/tree-shape)_ spell. The cloak
@@ -30,5 +35,7 @@ return to her normal form as a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[tree shape](ref/spell/tree-shape); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tree shape](ref/spell/tree-shape)
+Cost: 1,200 gp
+:::

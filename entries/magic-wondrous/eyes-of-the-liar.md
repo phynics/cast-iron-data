@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** eyes; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: eyes
+Price: 16,000 gp
+Weight: -
+:::
 
 These smoked crystal lenses hide the wearer's thoughts and intents from the prying minds of others.
 They grant the wearer a +5 competence bonus on [Bluff](ref/skill/bluff) checks and immunity to
@@ -30,6 +35,7 @@ function.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [nondetection](ref/spell/nondetection); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [nondetection](ref/spell/nondetection)
+Cost: 8,000 gp
+:::

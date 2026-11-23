@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shoulders
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This dark hooded cloak is decorated with embroidered comets, moons, and stars along its edge. If the
 wearer sleeps while wearing the cloak, it protects him from hot and cold environments, as
@@ -40,8 +45,7 @@ allow them to travel from shadow to shadow when under a starry night sky.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [endure elements](ref/spell/endure-elements),
-[flare](ref/spell/flare), [know direction](ref/spell/know-direction),
-[lesser restoration](ref/spell/restoration-lesser), [longstrider](ref/spell/longstrider); **Cost**
-1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [endure elements](ref/spell/endure-elements), [flare](ref/spell/flare), [know direction](ref/spell/know-direction), [lesser restoration](ref/spell/restoration-lesser), [longstrider](ref/spell/longstrider)
+Cost: 1,250 gp
+:::

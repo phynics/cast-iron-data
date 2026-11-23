@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 12,150 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 12,150 gp
+Weight: -
+:::
 
 This set of 54 cards is adorned with designs reminiscent of doors and gates. As a standard action,
 the user can press a card from the deck against a 5-foot section of a wall. The wall must be
@@ -37,5 +42,7 @@ if two cards are used).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation), [passwall](ref/spell/passwall); **Cost** 6,075 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation), [passwall](ref/spell/passwall)
+Cost: 6,075 gp
+:::

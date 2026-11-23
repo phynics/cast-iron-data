@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** head; **Price** 48,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: head
+Price: 48,000 gp
+Weight: 2 lbs.
+:::
 
 When this bridle of crystal-studded white leather is placed on a horse or similar mount, the
 animal's eyes emit a bright azure glow and its hair glistens with magical frost. A frostwild bridle
@@ -31,5 +36,7 @@ damage to all creatures in the area. A successful DC 17 Reflex save halves the d
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cone of cold](ref/spell/cone-of-cold), [resist energy](ref/spell/resist-energy); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cone of cold](ref/spell/cone-of-cold), [resist energy](ref/spell/resist-energy)
+Cost: 24,000 gp
+:::

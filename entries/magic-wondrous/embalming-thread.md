@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 10,000 gp
+Weight: -
+:::
 
 This coarse, acrid-smelling thread is more akin to wire than fabric. When carefully sewn into the
 body of a [flesh golem](ref/monster/golem-flesh-golem) or [zombie](ref/template/zombie) (requiring 1
@@ -37,5 +42,7 @@ unknotted, requiring 1 hour per stitch. Once used successfully, the stitches can
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [stoneskin](ref/spell/stoneskin); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [stoneskin](ref/spell/stoneskin)
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: shoulders
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 The abjurations woven into this woolen poncho not only defend against gunfire, but also insulate the
 wearer from dangerous magic. The wearer gains a +2 luck bonus to touch AC. Once per day as an
@@ -31,5 +36,7 @@ must fall [prone](ref/rule/prone).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bullet shield](ref/spell/bullet-shield); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bullet shield](ref/spell/bullet-shield)
+Cost: 7,000 gp
+:::

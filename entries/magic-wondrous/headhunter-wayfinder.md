@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 56,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 56,000 gp
+Weight: 1 lb.
+:::
 
 The forms of numerous animals, magical beast, and other famous creatures appear in relief on every
 inch of this iron [wayfinder's](ref/magic-wondrous/wayfinder) surface, creating a maze of lions,
@@ -40,5 +45,7 @@ hold an [ioun stone](ref/magic-wondrous/ioun-stone) and doesn't provide resonant
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[locate creature](ref/spell/locate-creature); **Cost** 28,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [locate creature](ref/spell/locate-creature)
+Cost: 28,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** head; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: head
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 Four sunstone-embedded sunflowers adorn this golden diadem. The first daylight diadems were created
 far to the east by Keleshite worshipers of [Sarenrae](ref/faith/sarenrae), but their usefulness in
@@ -51,5 +56,7 @@ sunflowers) blooms on the diadem.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [sunbeam](ref/spell/sunbeam); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [sunbeam](ref/spell/sunbeam)
+Cost: 10,000 gp
+:::

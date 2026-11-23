@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 A golden ribbon winds around this smooth, ring-shaped piece of basalt, which was created to emulate
 the pit of the Starstone. The stone can be thrown as a ranged attack with a range increment of 20
@@ -37,5 +42,7 @@ rounds. The stone is consumed upon being thrown or dropped.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create pit](ref/spell/create-pit); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create pit](ref/spell/create-pit)
+Cost: 300 gp
+:::

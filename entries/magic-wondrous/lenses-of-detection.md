@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** eyes; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: eyes
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 These circular prisms let their wearer detect minute details, gaining a +5 competence bonus on
 [Perception](ref/skill/perception) checks. It also aids in tracking, adding a +5 competence bonus on
@@ -29,5 +34,7 @@ These circular prisms let their wearer detect minute details, gaining a +5 compe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 1,750 gp
+:::

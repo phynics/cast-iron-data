@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** neck; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: neck
+Price: 900 gp
+Weight: -
+:::
 
 This leather collar is studded with red and black heliotropes and fastened with an iron clasp. It
 functions only when worn by a spellcaster's familiar or spirit animal. If a
@@ -34,5 +39,7 @@ triggered by death effects or other damaging effects that do not deal hit point 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[life pact](ref/spell/life-pact); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [life pact](ref/spell/life-pact)
+Cost: 450 gp
+:::

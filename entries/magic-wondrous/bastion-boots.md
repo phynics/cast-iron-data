@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** feet; **Price** 10,500 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: feet
+Price: 10,500 gp
+Weight: 4 lbs.
+:::
 
 These metal boots are engraved with the imagery of [The Keep](ref/eq-misc/harrow-deck), and evoke
 the unwavering determination represented by that card. The boots can be used as an
@@ -31,5 +36,7 @@ against combat maneuvers to move her.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[levitate](ref/spell/levitate); **Cost** 5,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [levitate](ref/spell/levitate)
+Cost: 5,250 gp
+:::

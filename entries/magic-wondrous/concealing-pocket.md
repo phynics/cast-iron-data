@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This 4-inch-square cloth pocket has no powers unless it is sewn onto a garment (which takes 1d4
 minutes). Once sewn, it changes its appearance to match the garment. Any magic item inside it cannot
@@ -34,5 +39,7 @@ or more gives the pocket the [broken](ref/misc/broken) condition.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura)
+Cost: 500 gp
+:::

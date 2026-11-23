@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 5,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 5,400 gp
+Weight: 1 lb.
+:::
 
 This thick, intricate lens piece is covered in alchemical wiring. A small aperture on the side of
 the lens connects to a mundane glass [vial](ref/eq-misc/vial), such as a vial used for potions. When
@@ -55,6 +60,7 @@ time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blinding ray](ref/spell/blinding-ray), [light](ref/spell/light),
-[protective penumbra](ref/spell/protective-penumbra); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blinding ray](ref/spell/blinding-ray), [light](ref/spell/light), [protective penumbra](ref/spell/protective-penumbra)
+Cost: 2,700 gp
+:::

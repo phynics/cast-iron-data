@@ -20,8 +20,13 @@ aura = "faint evocation [light]"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation \[light\]; **CL** 3rd\
-**Slot** none; **Price** 850 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation \[light\]
+CL: 3rd
+Slot: none
+Price: 850 gp
+Weight: 3 lbs.
+:::
 
 This glass cone is welded to a brass base and contains a faint crimson and violet fire that burns in
 the shape of a blooming flower, but sheds no discernible light.
@@ -39,6 +44,7 @@ The flat base of a luminous facet makes it easy to attach to walls or ceilings u
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[continual flame](ref/spell/continual-flame), [prestidigitation](ref/spell/prestidigitation);
-**Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [continual flame](ref/spell/continual-flame), [prestidigitation](ref/spell/prestidigitation)
+Cost: 450 gp
+:::

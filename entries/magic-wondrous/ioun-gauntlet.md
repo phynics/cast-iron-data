@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and evocation; **CL** 5th\
-**Slot** hands; **Price** 1,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint divination and evocation
+CL: 5th
+Slot: hands
+Price: 1,600 gp
+Weight: 5 lbs.
+:::
 
 Much like [wayfinders](ref/magic-wondrous/wayfinder), an ioun gauntlet grants enhanced or altogether
 new abilities depending on the type of [ioun stone](ref/magic-wondrous/ioun-stone) inserted into its
@@ -63,5 +68,7 @@ additional benefit from only one inserted ioun stone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [light](ref/spell/light); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [light](ref/spell/light)
+Cost: 800 gp
+:::

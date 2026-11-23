@@ -20,13 +20,20 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** hands; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: hands
+Price: 2,500 gp
+Weight: -
+:::
 
 These pure-white leather gloves bear symbols of healing and faith on the back of the hands. The
 wearer gains a +5 competence bonus on [Heal](ref/skill/heal) checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in
-Heal; **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in Heal
+Cost: 1,250 gp
+:::

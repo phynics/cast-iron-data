@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "2nd"
 +++
 
-**Aura** faint conjuration; **CL** 2nd\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 2nd
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Cast in the image of the sun and often ornamented with an open eye, this amulet defends the wearer
 against the need for sleep. The wearer of this amulet does not need to sleep, but must remain at
@@ -34,5 +39,7 @@ sleep skipped.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 4,000 gp
+:::

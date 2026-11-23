@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 10,000 gp
+Weight: 1/2 lb.
+:::
 
 Favored by half-elves seeking to distill their heritage into a combat edge, an ancestral clasp
 resembles a metal tube, open on both sides and covered in delicate elven calligraphy. Whenever a
@@ -38,5 +43,7 @@ Affixing and removing an ancestral clasp is a standard action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[paragon surge](ref/spell/paragon-surge), creator must be a half-elf; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [paragon surge](ref/spell/paragon-surge), creator must be a half-elf
+Cost: 5,000 gp
+:::

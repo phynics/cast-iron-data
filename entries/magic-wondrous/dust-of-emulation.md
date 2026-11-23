@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion; **CL** 1st\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 1st
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 A creature coated with this glittering golden dust can interact with any one item or object as if
 she had successfully used the [Use Magic Device](ref/skill/use-magic-device) skill to emulate a
@@ -36,5 +41,7 @@ after exposure to the dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 400 gp
+:::

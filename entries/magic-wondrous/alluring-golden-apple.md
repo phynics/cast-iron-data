@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Aura** faint enchantment; **CL** 4th\
-**Slot** none; **Price** 400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 4th
+Slot: none
+Price: 400 gp
+Weight: 1 lb.
+:::
 
 This enchanted apple appears to be made of solid gold. When dropped or thrown, it draws the
 attention of the nearest hostile creature within 20 feet. The creature must make a DC 13 Will save
@@ -33,5 +38,7 @@ consumed upon being dropped or thrown.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [hold person](ref/spell/hold-person); **Cost** 200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [hold person](ref/spell/hold-person)
+Cost: 200 gp
+:::

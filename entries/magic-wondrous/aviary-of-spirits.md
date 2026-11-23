@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 16,000 gp
+Weight: 5 lbs.
+:::
 
 This reinforced wicker box is decorated with images of owls, ravens, or other cunning birds. It has
 enough room for up to three Tiny birds to perch inside. Any bird of the animal type stored in the
@@ -37,7 +42,7 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animal messenger](ref/spell/animal-messenger),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), crafter must have 5 ranks in
-Handle Animal; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animal messenger](ref/spell/animal-messenger), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), crafter must have 5 ranks in Handle Animal
+Cost: 8,000 gp
+:::

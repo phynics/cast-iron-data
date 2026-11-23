@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "5th"
 +++
 
-**Aura** strong divination; **CL** 5th\
-**Slot** none; **Price** 11,250 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 5th
+Slot: none
+Price: 11,250 gp
+Weight: -
+:::
 
 Fate-reader's lenses consist of two specially crafted [harrow decks](ref/eq-misc/harrow-deck). The
 decks sport a stylized image of an eye on the back of each card - one deck's eyes are red, and the
@@ -46,5 +51,7 @@ opposite deck loses its magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[enter image](ref/spell/enter-image); **Cost** 5,625 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [enter image](ref/spell/enter-image)
+Cost: 5,625 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 400 gp
+Weight: 3 lbs.
+:::
 
 Once per day as a standard action, the holder of this ordinary-looking leather-bound book can erase
 the writing contained within it. However, the holder cannot erase any writing that required a
@@ -33,5 +38,7 @@ minor water damage, but it doesn't recover text lost to serious damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase);
-**Cost** 200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase)
+Cost: 200 gp
+:::

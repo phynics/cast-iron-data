@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This simple ceramic flask looks like any other normal container for serving sake, or rice wine. If
 the flask's silver stopper is removed and the command word spoken, up to 1 gallon of sake can be
@@ -43,8 +48,7 @@ take place immediately.
 
 ### Construction
 
-**Requirements** [Brew Potion](ref/feat/brew-potion),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [enlarge person](ref/spell/enlarge-person),
-[heroism](ref/spell/heroism), [lesser restoration](ref/spell/restoration-lesser),
-[rage](ref/spell/rage), [reduce person](ref/spell/reduce-person); **Cost** 2,000 gp
+::: statblock
+Requirements: [Brew Potion](ref/feat/brew-potion), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [cure moderate wounds](ref/spell/cure-moderate-wounds), [enlarge person](ref/spell/enlarge-person), [heroism](ref/spell/heroism), [lesser restoration](ref/spell/restoration-lesser), [rage](ref/spell/rage), [reduce person](ref/spell/reduce-person)
+Cost: 2,000 gp
+:::

@@ -19,8 +19,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** see text; **Price** 10,800 gp; **Weight** 300 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: see text
+Price: 10,800 gp
+Weight: 300 lbs.
+:::
 
 Named for the goddess of piracy, strife, and sea monsters, this figurehead must be mounted on the
 prow of a ship to function. Once per day, a ship carrying Besmara's Bones can inflict a curse on an
@@ -37,5 +42,7 @@ ship may not have more than one figurehead, magical or otherwise, mounted on it 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [false life](ref/spell/false-life); **Cost** 5,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [false life](ref/spell/false-life)
+Cost: 5,400 gp
+:::

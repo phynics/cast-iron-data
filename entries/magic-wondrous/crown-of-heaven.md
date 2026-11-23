@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** head; **Price** 150,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: head
+Price: 150,000 gp
+Weight: 5 lbs.
+:::
 
 This slim golden diadem, bejeweled with diamonds and sapphires, grants its wearer fluency in
 Celestial and allows her to _[detect evil](ref/spell/detect-evil)_ at will and use
@@ -57,8 +62,7 @@ character can attempt a DC 17 Fortitude save to avoid gaining these negative lev
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[aura of doom](ref/spell/aura-of-doom), [detect evil](ref/spell/detect-evil),
-[dispel evil](ref/spell/dispel-evil),
-[magic circle against evil](ref/spell/magic-circle-against-evil), [tongues](ref/spell/tongues);
-**Cost** 75,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aura of doom](ref/spell/aura-of-doom), [detect evil](ref/spell/detect-evil), [dispel evil](ref/spell/dispel-evil), [magic circle against evil](ref/spell/magic-circle-against-evil), [tongues](ref/spell/tongues)
+Cost: 75,000 gp
+:::

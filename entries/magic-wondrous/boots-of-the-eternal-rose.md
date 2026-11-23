@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 These leather boots are found in a variety of styles but always have a prominent engraving of a
 rose. The wearer gains a +2 competence bonus on [Perform (dance)](ref/skill/perform-any) and
@@ -42,6 +47,7 @@ pansy, rose, sunflower, or the like) that lasts for 1 day before crumbling into 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daze monster](ref/spell/daze-monster), [pass without trace](ref/spell/pass-without-trace), creator
-must have 5 ranks in Perform (dance) and Stealth; **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daze monster](ref/spell/daze-monster), [pass without trace](ref/spell/pass-without-trace), creator must have 5 ranks in Perform (dance) and Stealth
+Cost: 2,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 8th\
-**Slot** feet; **Price** 88,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 8th
+Slot: feet
+Price: 88,000 gp
+Weight: 12 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -42,6 +47,7 @@ their turn in the area of the sand must succeed at a DC 16 Fortitude save or be
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flame blade](ref/spell/flame-blade), [magic fang](ref/spell/magic-fang),
-[solid fog](ref/spell/solid-fog), creator must be a Keleshite; **Cost** 44,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flame blade](ref/spell/flame-blade), [magic fang](ref/spell/magic-fang), [solid fog](ref/spell/solid-fog), creator must be a Keleshite
+Cost: 44,000 gp
+:::

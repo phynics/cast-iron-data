@@ -20,8 +20,13 @@ aura = "strong abjuration and enchantment"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration and enchantment; **CL** 14th\
-**Slot** none; **Price** 500,000 gp; **Weight** 600 tons
+::: statblock
+Aura: strong abjuration and enchantment
+CL: 14th
+Slot: none
+Price: 500,000 gp
+Weight: 600 tons
+:::
 
 Individually, the component pieces of the Champion of the Gilded Host have the same strong magic
 aura as the intact construct, but possess no noteworthy abilities of their own. Any piece with a
@@ -32,8 +37,7 @@ keyed to each piece are able to shrink it to a fraction of its full size.
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Mythic Crafter](ref/feat/mythic-crafter), [antimagic field](ref/spell/antimagic-field),
-[good hope](ref/spell/good-hope), [remove fear](ref/spell/remove-fear),
-[vengeful outrage](ref/spell/vengeful-outrage), [wish](ref/spell/wish), creator must be at least
-mythic rank or tier 7th; **Cost** 250,000 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Mythic Crafter](ref/feat/mythic-crafter), [antimagic field](ref/spell/antimagic-field), [good hope](ref/spell/good-hope), [remove fear](ref/spell/remove-fear), [vengeful outrage](ref/spell/vengeful-outrage), [wish](ref/spell/wish), creator must be at least mythic rank or tier 7th
+Cost: 250,000 gp
+:::

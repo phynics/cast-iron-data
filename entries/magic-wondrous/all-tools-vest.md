@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** chest; **Price** 1,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: chest
+Price: 1,800 gp
+Weight: 5 lbs.
+:::
 
 This well-made leather vest bears numerous shiny metal buttons, which stud a number of bulging
 pockets. Once per day, as a standard action, the wearer can speak the vest's command word and order
@@ -36,5 +41,7 @@ comes first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon instrument](ref/spell/summon-instrument); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon instrument](ref/spell/summon-instrument)
+Cost: 900 gp
+:::

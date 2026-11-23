@@ -20,8 +20,13 @@ aura = "moderate evocation, necromancy, and universal"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation, necromancy, and universal; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation, necromancy, and universal
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: -
+:::
 
 A permanent globe of shimmering force encloses one corpse, provided the corpse is small enough to
 fit within the 10-foot diameter of the sphere, which functions as a
@@ -34,6 +39,7 @@ from within. The corpse within a force casket is also preserved so that it does 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [resilient sphere](ref/spell/resilient-sphere); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [resilient sphere](ref/spell/resilient-sphere)
+Cost: 4,000 gp
+:::

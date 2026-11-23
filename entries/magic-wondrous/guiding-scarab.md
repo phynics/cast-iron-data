@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** neck; **Price** 13,000 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: neck
+Price: 13,000 gp
+Weight: -
+:::
 
 This golden scarab beetle is a boon to wilderness travelers and those seeking long-lost places. The
 wearer gains a +5 competence bonus on [Knowledge (geography)](ref/skill/knowledge-geography) checks
@@ -40,7 +45,7 @@ _[find the path](ref/spell/find-the-path)_ effect ends, the guiding scarab crumb
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in
-Knowledge (geography), [find the path](ref/spell/find-the-path),
-[know direction](ref/spell/know-direction), [tireless pursuers](ref/spell/tireless-pursuers);
-**Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in Knowledge (geography), [find the path](ref/spell/find-the-path), [know direction](ref/spell/know-direction), [tireless pursuers](ref/spell/tireless-pursuers)
+Cost: 6,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** eyes; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: eyes
+Price: 6,000 gp
+Weight: -
+:::
 
 These clear crystals fit over the wearer's eyes. They grant the wearer a +2 competence bonus on
 [Perception](ref/skill/perception) checks, and the wearer gains
@@ -30,5 +35,7 @@ lenses double the distance the wearer can see with this vision.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen senses](ref/spell/keen-senses); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen senses](ref/spell/keen-senses)
+Cost: 3,000 gp
+:::

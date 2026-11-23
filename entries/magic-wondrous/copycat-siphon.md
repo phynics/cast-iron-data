@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 1,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 1,800 gp
+Weight: 1 lb.
+:::
 
 A copycat siphon is a simple-looking metal tube that can be connected to two flasks, bottles,
 beakers, or vials of standard size. Three times per day while two containers are connected to a
@@ -35,6 +40,7 @@ liquid (as the _[magic aura](ref/spell/magic-aura)_ spell, Will DC 14).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [magic aura](ref/spell/magic-aura),
-[major image](ref/spell/major-image); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [magic aura](ref/spell/magic-aura), [major image](ref/spell/major-image)
+Cost: 900 gp
+:::

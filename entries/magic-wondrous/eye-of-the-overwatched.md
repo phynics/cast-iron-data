@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 The eye of the overwatched is a 6-inch-wide stone ring inset with the symbol of a partly lidded eye.
 The flawless marble of onyx that's set as the eye's pupil contains glittering points of light that
@@ -46,5 +51,7 @@ overwatched as an implement can use the following focus power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 5th-level
-occultist who has learned the abjuration implement school; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 5th-level occultist who has learned the abjuration implement school
+Cost: 5,000 gp
+:::
