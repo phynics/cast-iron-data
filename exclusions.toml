@@ -57212,3 +57212,11 @@ reason = "duplicate of ref/spell/shared-wrath"
 [[rejected]]
 path = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
 reason = "duplicate of ref/spell/tireless-pursuers"
+
+[[rejected]]
+path = "ref/eq-reagent/dragons-gut"
+reason = "duplicate of ref/eq-misc/dragons-gut"
+
+[[rejected]]
+path = "ref/eq-reagent/odor-stalk"
+reason = "duplicate of ref/eq-misc/odor-stalk"

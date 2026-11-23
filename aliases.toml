@@ -32471,6 +32471,16 @@ target = "ref/eq-misc/dilettantes-outfit"
 basis = "shared"
 
 [[entries]]
+old = "ref/eq-reagent/dragons-gut"
+target = "ref/eq-misc/dragons-gut"
+basis = "shared"
+
+[[entries]]
+old = "ref/eq-reagent/odor-stalk"
+target = "ref/eq-misc/odor-stalk"
+basis = "shared"
+
+[[entries]]
 old = "ref/eq-weapon/alchemical-coal-blinding-cinders"
 target = "ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/alchemical-coal"
 basis = "shared"
