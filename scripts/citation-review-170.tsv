@@ -142,11 +142,9 @@ ref/domain/weather	class_option	divine-anthology	marker		paragraph agrees; it en
 ref/eidolon/aberrant	class_option	horror-realms	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/deepwater	class_option	blood-of-the-sea	unconfirmed	23	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/twinned	class_option	legacy-of-the-first-world	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/hex/cackle	class_option	magical-marketplace	book-differs		the reference lists the entry only in other books
 ref/hex/cackle	class_option	monster-summoners-handbook	book-differs		the reference lists the entry only in other books
 ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lists the entry only in other books
-ref/hex/mothers-eye	class_option	legacy-of-the-first-world	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/hex/soothsayer	class_option	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
 ref/invtalent/domino-effect	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/invtalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
@@ -157,8 +155,6 @@ ref/invtalent/slowing-strike	class_option	advanced-class-origins	unconfirmed	15	
 ref/invtalent/timed-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/ninjatrick/breath-of-the-ancestors	class_option	legacy-of-dragons	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/oraclecurse/acursed	class_option	horror-realms	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/oraclecurse/pranked	class_option	legacy-of-the-first-world	unconfirmed	10	only a short title is on the proposed page, which proves little
-ref/oraclecurse/reclusive	class_option	legacy-of-the-first-world	unconfirmed	22	only a short title is on the proposed page, which proves little
 ref/patron/aurora	class_option	paths-of-the-righteous	unconfirmed	31	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/patron/nightmares	class_option	horror-adventures	book-differs		the reference lists the entry only in other books
 ref/performance/distraction	class_option	core-rulebook	book-differs		the reference lists the entry only in other books
@@ -174,7 +170,6 @@ ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed
 ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book

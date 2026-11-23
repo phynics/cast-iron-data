@@ -3306,9 +3306,9 @@ ref/discovery/splitting-mutagen	monster-hunters-handbook	17	print
 ref/discovery/subsumed-spirit	inner-sea-monster-codex	23	print		
 ref/discovery/sunlight-acclimation	inner-sea-monster-codex	23	print		
 ref/eidolon/aberrant	horror-realms		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/twinned	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/twinned	legacy-of-the-first-world	18	print		the Twinned Eidolon (Eidolon Subtype) heading is at the foot of this page; the description continues on page 19
 ref/hex/disrupt-connection	monster-summoners-handbook	9	print		
-ref/hex/mothers-eye	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/hex/mothers-eye	legacy-of-the-first-world	17	print		the witch hex is printed on this page as Mother's Eyes (Su); the entry title reads Mother's Eye
 ref/hex/seduction	legacy-of-the-first-world	17	print		
 ref/hex/witchs-bottle	heroes-of-the-wild	11	print		
 ref/hkdiscipline/brand	inner-sea-world-guide	278	print		
@@ -3374,9 +3374,9 @@ ref/oraclecurse/lycanthropy	horror-realms	14	print
 ref/oraclecurse/plagued	horror-realms	15	print		
 ref/oraclecurse/possessed	horror-realms	15	print		
 ref/oraclecurse/powerless-prophecy	inner-sea-monster-codex	17	print		
-ref/oraclecurse/pranked	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/pranked	legacy-of-the-first-world	10	print		the oracle curse is printed under its name (Pranked, Oracle Curse) on this page
 ref/oraclecurse/promethean	horror-realms	15	print		
-ref/oraclecurse/reclusive	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/reclusive	legacy-of-the-first-world	22	print		the oracle curse is printed under its name (Reclusive, Oracle Curse) on this page
 ref/oraclecurse/shadowbound	horror-realms	15	print		
 ref/oraclecurse/site-bound	inner-sea-monster-codex	35	print		
 ref/oraclecurse/vampirism	horror-realms	15	print		
@@ -3426,7 +3426,7 @@ ref/ragepower/daemon-totem	horror-adventures	46	print
 ref/ragepower/flight-response	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-cult-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-daemon-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-suffocating-grip	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-suffocating-grip	legacy-of-the-first-world	29	print		the rage power is printed as Suffocating Grip, Greater (Ex) on this page
 ref/ragepower/lesser-cult-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
 ref/ragepower/lesser-daemon-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
 ref/ragepower/master-of-the-deep	legacy-of-the-first-world	29	print		
