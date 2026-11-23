@@ -28,7 +28,11 @@ Usage: -
 
 ### Construction
 
-**Craft DC** 20; **Cost** 250 gp\
+::: statblock
+Craft DC: 20
+Cost: 250 gp
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [production lab](ref/rule/crafting-laboratories)
 
