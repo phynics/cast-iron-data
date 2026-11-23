@@ -1,17 +1,4 @@
 path	pass	reason	detail
-entries/eq-armor/heavy-steel-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/heavy-wooden-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/klar.md	item	variant-paragraphs	Damage
-entries/eq-armor/light-steel-quickdraw-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/light-steel-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/light-wooden-quickdraw-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/light-wooden-shield.md	item	variant-paragraphs	Damage
-entries/eq-armor/madu-shield-leather.md	item	variant-paragraphs	Damage
-entries/eq-armor/madu-shield-steel.md	item	variant-paragraphs	Damage
-entries/eq-armor/snarlshield-steel.md	item	variant-paragraphs	Damage
-entries/eq-armor/snarlshield-wooden.md	item	variant-paragraphs	Damage
-entries/eq-armor/war-shield-dwarven.md	item	variant-paragraphs	Damage
-entries/eq-armorenh/shield-spikes.md	item	variant-paragraphs	Light shield; Heavy shield
 entries/eq-misc/amp.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/angelstep.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/antitoxin.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
