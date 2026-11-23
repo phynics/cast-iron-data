@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "monster-codex"
+page = "128"
 
 [fields]
 kind = "none"

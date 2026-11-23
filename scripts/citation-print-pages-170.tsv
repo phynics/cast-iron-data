@@ -2523,6 +2523,7 @@ ref/affliction/tobongo-mwangi-treant/curse-of-barkflesh	heart-of-the-jungle	61	p
 ref/affliction/trollhound/bloodfire-fever	bestiary-3	274	print	
 ref/affliction/ubashki-ubashki-swarm/ubashki-fever	lost-kingdoms	19	print	
 ref/affliction/urhag/red-plague	bestiary-6	269	print	
+ref/affliction/vampire-vampire-warrior/vishkanya-venom	monster-codex	240	print		the poison is printed as Poison (Ex) Vishkanya venom in the Vampire Warrior block on this page (the proposal 240 was a coarse page; page footer read)
 ref/affliction/vishkanya/vishkanya-venom	bestiary-3	281	print	
 ref/affliction/vrykolakas/bubonic-plague	bestiary-6	273	print	
 ref/affliction/wendigo/wendigo-psychosis-su	bestiary-2	281	print	
@@ -4435,3 +4436,10 @@ ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/mania-
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/multiple-personality-disorder	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/paranoia	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
 ref/carried/game-mastery-guide/rules/sanity-and-madness/types-of-insanity/psychosis	game-mastery-guide	251	print		the insanity is printed under its name in the Types of Insanity list on this page
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragon-dung-pit-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragonfire-trap	monster-codex	128	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/ensnaring-dirt-trap	monster-codex	128	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/falling-log-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/rotting-badger-under-a-falling-rock-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
+ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/snake-spear-trap	monster-codex	129	print		the trap is printed under its name (with its CR) in the Kobold Traps list on this page; page footer read
