@@ -15,28 +15,41 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [wizard](ref/class/wizard) 1\
-N Medium humanoid (human)\
-**Init** +5; **Senses** Perception +4
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +5
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)\
-**hp** 9 (1d6+3)\
-**Fort** +2, **Ref** +1, **Will** +3
+::: statblock
+AC: 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
+hp: 9 (1d6+3)
+Fort: +2
+Ref: +1
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** quarterstaff +0 (1d6)\
-**Special Attacks** hand of the apprentice (6/day)\
-**Wizard Spells Prepared** (CL 1st; concentration +4)\
-_1st_-[burning hands](ref/spell/burning-hands) (DC 14), [mage armor](ref/spell/mage-armor)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 13), [detect magic](ref/spell/detect-magic),
-[resistance](ref/spell/resistance)
+::: statblock
+Speed: 30 ft.
+Melee: quarterstaff +0 (1d6)
+Special Attacks: hand of the apprentice (6/day)
+:::
+
+::: statblock
+title = "Wizard Spells Prepared"
+CL: 1st
+concentration: +4
+1st: [burning hands](ref/spell/burning-hands) (DC 14), [mage armor](ref/spell/mage-armor)
+0 (at will): [bleed](ref/spell/bleed) (DC 13), [detect magic](ref/spell/detect-magic), [resistance](ref/spell/resistance)
+:::
 
 ### Tactics
 
@@ -48,22 +61,23 @@ flat-footed 10.
 
 ### Statistics
 
-**Str** 10, **Dex** 13, **Con** 14, **Int** 17, **Wis** 12, **Cha** 8\
-**Base Atk** +0; **CMB** +0; **CMD** 11\
-**Feats** [Alertness](ref/feat/alertness), [Combat Casting](ref/feat/combat-casting),
-[Improved Initiative](ref/feat/improved-initiative), [Scribe Scroll](ref/feat/scribe-scroll)\
-**Skills** Knowledge (arcana, history, planes) +7, Linguistics +7, Perception +4, Sense Motive +3,
-Spellcraft +7\
-**Languages** Common, Draconic, Dwarven, Elven, Infernal\
-**SQ** arcane bond (raven)\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[shield of faith](ref/spell/shield-of-faith), scrolls of
-[comprehend languages](ref/spell/comprehend-languages) (2), scroll of
-[endure elements](ref/spell/endure-elements), scroll of [enlarge person](ref/spell/enlarge-person),
-scroll of [grease](ref/spell/grease), scroll of [mount](ref/spell/mount), scrolls of
-[shield](ref/spell/shield) (2), [smokesticks](ref/eq-misc/smokestick) (2); **Other Gear**
-[quarterstaff](ref/eq-weapon/quarterstaff), [antitoxin](ref/eq-misc/antitoxin),
-[spellbook](ref/eq-misc/spellbook), [sunrods](ref/eq-misc/sunrod) (5), 40 gp
+::: statblock
+Str: 10
+Dex: 13
+Con: 14
+Int: 17
+Wis: 12
+Cha: 8
+Base Atk: +0
+CMB: +0
+CMD: 11
+Feats: [Alertness](ref/feat/alertness), [Combat Casting](ref/feat/combat-casting), [Improved Initiative](ref/feat/improved-initiative), [Scribe Scroll](ref/feat/scribe-scroll)
+Skills: Knowledge (arcana, history, planes) +7, Linguistics +7, Perception +4, Sense Motive +3, Spellcraft +7
+Languages: Common, Draconic, Dwarven, Elven, Infernal
+SQ: arcane bond (raven)
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [shield of faith](ref/spell/shield-of-faith), scrolls of [comprehend languages](ref/spell/comprehend-languages) (2), scroll of [endure elements](ref/spell/endure-elements), scroll of [enlarge person](ref/spell/enlarge-person), scroll of [grease](ref/spell/grease), scroll of [mount](ref/spell/mount), scrolls of [shield](ref/spell/shield) (2), [smokesticks](ref/eq-misc/smokestick) (2)
+Other Gear: [quarterstaff](ref/eq-weapon/quarterstaff), [antitoxin](ref/eq-misc/antitoxin), [spellbook](ref/eq-misc/spellbook), [sunrods](ref/eq-misc/sunrod) (5), 40 gp
+:::
 
 ### Description
 

@@ -17,43 +17,60 @@ cr = "3"
 
 _This howling berserker has milky white eyes and an enormous axe wielded by muscular arms._
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [barbarian](ref/class/barbarian) 4\
-CE Medium humanoid\
-**Init** +1; **Senses** Perception +11
+CE Medium humanoid
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: Perception +11
+:::
 
 ### Defense
 
-**AC** 13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)\
-**hp** 55 (4d12+24)\
-**Fort** +10, **Ref** +2, **Will** +6\
-**Defensive Abilities** [trap sense](ref/ability/trap-sense) +1,
-[uncanny dodge](ref/ability/uncanny-dodge)
+::: statblock
+AC: 13, touch 9, flat-footed 12 (+4 armor, +1 Dex, -2 rage)
+hp: 55 (4d12+24)
+Fort: +10
+Ref: +2
+Will: +6
+Defensive Abilities: [trap sense](ref/ability/trap-sense) +1, [uncanny dodge](ref/ability/uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 greataxe +9 (1d12+7/×3)\
-**Special Attacks** rage (13 rounds/day), rage powers (animal fury, scent)
+::: statblock
+Speed: 30 ft.
+Melee: +1 greataxe +9 (1d12+7/×3)
+Special Attacks: rage (13 rounds/day), rage powers (animal fury, scent)
+:::
 
 ### Statistics
 
-**Str** 18, **Dex** 13, **Con** 22, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +4; **CMB** +8; **CMD** 17\
-**Feats** [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack),
-[Skill Focus](ref/feat/skill-focus) (Perception)\
-**Skills** Climb +9, Intimidate +6, Perception +11, Stealth +3, Survival +8, Swim +9\
-**Languages** Skald\
-**SQ** fast movement
+::: statblock
+Str: 18
+Dex: 13
+Con: 22
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +4
+CMB: +8
+CMD: 17
+Feats: [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Skill Focus](ref/feat/skill-focus) (Perception)
+Skills: Climb +9, Intimidate +6, Perception +11, Stealth +3, Survival +8, Swim +9
+Languages: Skald
+SQ: fast movement
+:::
 
 ### Ecology
 
-**Environment** any (Kalva)\
-**Organization** solitary, pair, or raid (3-12)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[hide armor](ref/eq-armor/hide), +1 [greataxe](ref/eq-weapon/greataxe))
+::: statblock
+Environment: any (Kalva)
+Organization: solitary, pair, or raid (3-12)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [hide armor](ref/eq-armor/hide), +1 [greataxe](ref/eq-weapon/greataxe))
+:::
 
 ### Description
 

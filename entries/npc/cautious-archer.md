@@ -15,26 +15,36 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Elf [fighter](ref/class/fighter) 5\
-CN Medium humanoid (elf)\
-**Init** +4; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +6
+CN Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +4
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +6
+:::
 
 ### Defense
 
-**AC** 20, touch 14, flat-footed 16 (+6 armor, +4 Dex)\
-**hp** 47 (5d10+15)\
-**Fort** +7, **Ref** +6, **Will** +1; +2 vs. enchantments, +1 vs. fear\
-**Defensive Abilities** bravery +1; **Immune** sleep
+::: statblock
+AC: 20, touch 14, flat-footed 16 (+6 armor, +4 Dex)
+hp: 47 (5d10+15)
+Fort: +7
+Ref: +6
+Will: +1; +2 vs. enchantments, +1 vs. fear
+Defensive Abilities: bravery +1
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk elven curve blade +8 (1d10+3/18-20)\
-**Ranged** mwk composite longbow +10/+10 (1d8+5/×3)\
-**Special Attacks** weapon training (bows +1)
+::: statblock
+Speed: 30 ft.
+Melee: mwk elven curve blade +8 (1d10+3/18-20)
+Ranged: mwk composite longbow +10/+10 (1d8+5/×3)
+Special Attacks: weapon training (bows +1)
+:::
 
 ### Tactics
 
@@ -47,27 +57,23 @@ that approach.\
 
 ### Statistics
 
-**Str** 14, **Dex** 18, **Con** 14, **Int** 15, **Wis** 8, **Cha** 10\
-**Base Atk** +5; **CMB** +7; **CMD** 21\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot),
-[Weapon Focus](ref/feat/weapon-focus) (composite longbow),
-[Weapon Specialization](ref/feat/weapon-specialization) (composite longbow)\
-**Skills** Climb +5, Craft (bows) +8, Handle Animal +8, Perception +6, Stealth +6, Survival +3, Swim
-+5\
-**Languages** Common, Elven, Gnome, Orc\
-**SQ** armor training 1, elven magic, weapon familiarity\
-**Combat Gear** +1 [arrows](ref/eq-weapon/arrow) (5), potion of
-[bear's endurance](ref/spell/bears-endurance), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[alchemical silver](ref/eq-material/alchemical-silver) arrows (5),
-[cold iron](ref/eq-material/cold-iron) arrows (5); **Other Gear** masterwork
-[breastplate](ref/eq-armor/breastplate), masterwork
-[composite longbow](ref/eq-weapon/composite-longbow) (+2 Str) with 35 arrows, masterwork
-[elven curve blade](ref/eq-weapon/elven-curve-blade),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), masterwork
-[artisan's tools](ref/eq-misc/artisans-tools-masterwork), [riding dog](ref/eq-misc/dog-riding), 67
-gp
+::: statblock
+Str: 14
+Dex: 18
+Con: 14
+Int: 15
+Wis: 8
+Cha: 10
+Base Atk: +5
+CMB: +7
+CMD: 21
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Weapon Focus](ref/feat/weapon-focus) (composite longbow), [Weapon Specialization](ref/feat/weapon-specialization) (composite longbow)
+Skills: Climb +5, Craft (bows) +8, Handle Animal +8, Perception +6, Stealth +6, Survival +3, Swim +5
+Languages: Common, Elven, Gnome, Orc
+SQ: armor training 1, elven magic, weapon familiarity
+Combat Gear: +1 [arrows](ref/eq-weapon/arrow) (5), potion of [bear's endurance](ref/spell/bears-endurance), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), [alchemical silver](ref/eq-material/alchemical-silver) arrows (5), [cold iron](ref/eq-material/cold-iron) arrows (5)
+Other Gear: masterwork [breastplate](ref/eq-armor/breastplate), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+2 Str) with 35 arrows, masterwork [elven curve blade](ref/eq-weapon/elven-curve-blade), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork), [riding dog](ref/eq-misc/dog-riding), 67 gp
+:::
 
 ### Description
 

@@ -15,47 +15,55 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [ranger](ref/class/ranger) 2/[rogue](ref/class/rogue) ([sniper](ref/arc-rogue/sniper)) 2\
-CG Medium humanoid (human)\
-**Init** +4; **Senses** Perception +8
+CG Medium humanoid (human)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +4
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 16, touch 14, flat-footed 12 (+2 armor, +4 Dex)\
-**hp** 32 (4 HD; 2d10+2d8+8)\
-**Fort** +5, **Ref** +10, **Will** +1\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 16, touch 14, flat-footed 12 (+2 armor, +4 Dex)
+hp: 32 (4 HD; 2d10+2d8+8)
+Fort: +5
+Ref: +10
+Will: +1
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk handaxe +5 (1d6+1/×3)\
-**Ranged** mwk composite longbow +8 (1d8+1/×3)\
-**Special Attacks** favored enemy (humans +2), [sneak attack](ref/ability/sneak-attack) +1d6,
-accuracy
+::: statblock
+Speed: 30 ft.
+Melee: mwk handaxe +5 (1d6+1/×3)
+Ranged: mwk composite longbow +8 (1d8+1/×3)
+Special Attacks: favored enemy (humans +2), [sneak attack](ref/ability/sneak-attack) +1d6, accuracy
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 18, **Con** 14, **Int** 10, **Wis** 13, **Cha** 8\
-**Base Atk** +3; **CMB** +4; **CMD** 18\
-**Feats** [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot),
-[Rapid Shot](ref/feat/rapid-shot), [Skill Focus](ref/feat/skill-focus) (Stealth)\
-**Skills** Acrobatics +11, Climb +8, Disguise +6, Knowledge (geography) +7, Knowledge (nature) +7,
-Perception +8, Stealth +14, Survival +8, Swim +6\
-**Languages** Common\
-**SQ** rogue talents ([fast stealth](ref/talent/fast-stealth)), track +1,
-[wild empathy](ref/ability/wild-empathy) +1\
-**Combat Gear** +1 [seeking](ref/magic-enh/seeking) [arrows](ref/eq-weapon/arrow) (2),
-[sleep arrows](ref/magic-weapon/sleep-arrow) (4),
-[elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of
-[cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds)
-(2), potion of [pass without trace](ref/spell/pass-without-trace), [acid](ref/eq-weapon/acid) (2);
-**Other Gear** [leather armor](ref/eq-armor/leather), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows, mwk
-[handaxe](ref/eq-weapon/handaxe), 3 gp
+::: statblock
+Str: 12
+Dex: 18
+Con: 14
+Int: 10
+Wis: 13
+Cha: 8
+Base Atk: +3
+CMB: +4
+CMD: 18
+Feats: [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Skill Focus](ref/feat/skill-focus) (Stealth)
+Skills: Acrobatics +11, Climb +8, Disguise +6, Knowledge (geography) +7, Knowledge (nature) +7, Perception +8, Stealth +14, Survival +8, Swim +6
+Languages: Common
+SQ: rogue talents ([fast stealth](ref/talent/fast-stealth)), track +1, [wild empathy](ref/ability/wild-empathy) +1
+Combat Gear: +1 [seeking](ref/magic-enh/seeking) [arrows](ref/eq-weapon/arrow) (2), [sleep arrows](ref/magic-weapon/sleep-arrow) (4), [elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of [cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [pass without trace](ref/spell/pass-without-trace), [acid](ref/eq-weapon/acid) (2)
+Other Gear: [leather armor](ref/eq-armor/leather), mwk [composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows, mwk [handaxe](ref/eq-weapon/handaxe), 3 gp
+:::
 
 ### Description
 

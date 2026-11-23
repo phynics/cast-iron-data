@@ -15,38 +15,44 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Half-elf [bard](ref/class/bard) 6\
-NE Medium humanoid (elf, human)\
-**Init** +1; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +3
+NE Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +1
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +3
+:::
 
 ### Defense
 
-**AC** 15, touch 12, flat-footed 14 (+3 armor, +1 deflection, +1 Dex)\
-**hp** 30 (6d8)\
-**Fort** +1, **Ref** +6, **Will** +6; +2 vs. enchantments, +4 vs. bardic performance,
-language-dependent, and sonic\
-**Immune** sleep
+::: statblock
+AC: 15, touch 12, flat-footed 14 (+3 armor, +1 deflection, +1 Dex)
+hp: 30 (6d8)
+Fort: +1
+Ref: +6
+Will: +6; +2 vs. enchantments, +4 vs. bardic performance, language-dependent, and sonic
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk rapier +6 (1d6/18-20)\
-**Ranged** dagger +5 (1d4/19-20)\
-**Special Attacks** bardic performance 18 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))\
-**Bard Spells Known** (CL 6th; concentration +10)\
-_2nd (4/day)_-[alter self](ref/spell/alter-self), [detect thoughts](ref/spell/detect-thoughts) (DC
-16), [minor image](ref/spell/minor-image) (DC 17), [suggestion](ref/spell/suggestion) (DC 16)\
-_1st (5/day)_-[comprehend languages](ref/spell/comprehend-languages),
-[disguise self](ref/spell/disguise-self), [silent image](ref/spell/silent-image) (DC 16),
-[ventriloquism](ref/spell/ventriloquism) (DC 16)\
-_0 (at will)_-[dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic),
-[ghost sound](ref/spell/ghost-sound) (DC 15), [message](ref/spell/message)
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +6 (1d6/18-20)
+Ranged: dagger +5 (1d4/19-20)
+Special Attacks: bardic performance 18 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))
+:::
+
+::: statblock
+title = "Bard Spells Known"
+CL: 6th
+concentration: +10
+2nd (4/day): [alter self](ref/spell/alter-self), [detect thoughts](ref/spell/detect-thoughts) (DC 16), [minor image](ref/spell/minor-image) (DC 17), [suggestion](ref/spell/suggestion) (DC 16)
+1st (5/day): [comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self), [silent image](ref/spell/silent-image) (DC 16), [ventriloquism](ref/spell/ventriloquism) (DC 16)
+0 (at will): [dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 15), [message](ref/spell/message)
+:::
 
 ### Tactics
 
@@ -55,21 +61,23 @@ combatants. If pressed, she uses suggestion to make her enemies leave the fight.
 
 ### Statistics
 
-**Str** 10, **Dex** 13, **Con** 8, **Int** 14, **Wis** 12, **Cha** 18\
-**Base Atk** +4; **CMB** +4; **CMD** 16\
-**Feats** [Skill Focus](ref/feat/skill-focus) (Perform \[act, oratory\]),
-[Spell Focus](ref/feat/spell-focus) (illusion), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +6, Escape Artist +10, Knowledge (arcana) +10, Knowledge (local) +14,
-Knowledge (nobility) +13, Perception +3, Perform (act, oratory) +16, Perform (string) +13, Sense
-Motive +10, Spellcraft +8, Stealth +10\
-**Languages** Common, Draconic, Elven\
-**SQ** bardic knowledge +3, elf blood, lore master 1/day, versatile performance (act, oratory)\
-**Combat Gear** [elixir of truth](ref/magic-wondrous/elixir-of-truth), potion of
-[cure light wounds](ref/spell/cure-light-wounds), potions of [invisibility](ref/spell/invisibility)
-(2); **Other Gear** +1 [leather armor](ref/eq-armor/leather), masterwork
-[rapier](ref/eq-weapon/rapier), [dagger](ref/eq-weapon/dagger),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[violin](ref/eq-misc/musical-instrument-common), 13 gp
+::: statblock
+Str: 10
+Dex: 13
+Con: 8
+Int: 14
+Wis: 12
+Cha: 18
+Base Atk: +4
+CMB: +4
+CMD: 16
+Feats: [Skill Focus](ref/feat/skill-focus) (Perform \[act, oratory\]), [Spell Focus](ref/feat/spell-focus) (illusion), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +6, Escape Artist +10, Knowledge (arcana) +10, Knowledge (local) +14, Knowledge (nobility) +13, Perception +3, Perform (act, oratory) +16, Perform (string) +13, Sense Motive +10, Spellcraft +8, Stealth +10
+Languages: Common, Draconic, Elven
+SQ: bardic knowledge +3, elf blood, lore master 1/day, versatile performance (act, oratory)
+Combat Gear: [elixir of truth](ref/magic-wondrous/elixir-of-truth), potion of [cure light wounds](ref/spell/cure-light-wounds), potions of [invisibility](ref/spell/invisibility) (2)
+Other Gear: +1 [leather armor](ref/eq-armor/leather), masterwork [rapier](ref/eq-weapon/rapier), [dagger](ref/eq-weapon/dagger), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [violin](ref/eq-misc/musical-instrument-common), 13 gp
+:::
 
 ### Description
 

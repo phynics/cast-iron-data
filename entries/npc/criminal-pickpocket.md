@@ -15,41 +15,55 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [rogue](ref/class/rogue) 1\
-N Medium humanoid\
-**Init** +3; **Senses** Perception +3
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +3
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 14, touch 12, flat-footed 12 (+1 armor, +3 Dex)\
-**hp** 5 (1d8+1)\
-**Fort** +1, **Ref** +5, **Will** -1
+::: statblock
+AC: 14, touch 12, flat-footed 12 (+1 armor, +3 Dex)
+hp: 5 (1d8+1)
+Fort: +1
+Ref: +5
+Will: -1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** sap +0 (1d6 nonlethal)\
-**Ranged** dart +3 (1d4)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft.
+Melee: sap +0 (1d6 nonlethal)
+Ranged: dart +3 (1d4)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 17, **Con** 12, **Int** 13, **Wis** 8, **Cha** 14\
-**Base Atk** +0; **CMB** +0; **CMD** 13\
-**Feats** [Deft Hands](ref/feat/deft-hands), [Skill Focus](ref/feat/skill-focus) (Sleight of Hand)\
-**Skills** Acrobatics +7, Appraise +5, Bluff +6, Disable Device +9, Disguise +8, Escape Artist +7,
-Knowledge (local) +5, Perception +3 (+4 to find traps), Sense Motive +3, Sleight of Hand +12,
-Stealth +7\
-**Languages** Common, Halfling\
-**SQ** [trapfinding](ref/ability/trapfinding) +1\
-**Combat Gear** bag of [caltrops](ref/eq-misc/caltrops); **Other Gear**
-[padded armor](ref/eq-armor/padded), [darts](ref/eq-weapon/dart) (4), [sap](ref/eq-weapon/sap),
-[disguise kit](ref/eq-misc/disguise-kit), [thieves' tools](ref/eq-misc/thieves-tools)\
-**Boon** A pickpocket can attempt to steal a small item for the PCs or plant a small item on a
-target.
+::: statblock
+Str: 10
+Dex: 17
+Con: 12
+Int: 13
+Wis: 8
+Cha: 14
+Base Atk: +0
+CMB: +0
+CMD: 13
+Feats: [Deft Hands](ref/feat/deft-hands), [Skill Focus](ref/feat/skill-focus) (Sleight of Hand)
+Skills: Acrobatics +7, Appraise +5, Bluff +6, Disable Device +9, Disguise +8, Escape Artist +7, Knowledge (local) +5, Perception +3 (+4 to find traps), Sense Motive +3, Sleight of Hand +12, Stealth +7
+Languages: Common, Halfling
+SQ: [trapfinding](ref/ability/trapfinding) +1
+Combat Gear: bag of [caltrops](ref/eq-misc/caltrops)
+Other Gear: [padded armor](ref/eq-armor/padded), [darts](ref/eq-weapon/dart) (4), [sap](ref/eq-weapon/sap), [disguise kit](ref/eq-misc/disguise-kit), [thieves' tools](ref/eq-misc/thieves-tools)
+Boon: A pickpocket can attempt to steal a small item for the PCs or plant a small item on a target.
+:::
 
 ### Description
 

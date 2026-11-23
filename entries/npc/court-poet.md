@@ -15,37 +15,43 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [bard](ref/class/bard) 5\
-LE Medium humanoid (human)\
-**Init** +0; **Senses** Perception +5
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +0
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 12, touch 11, flat-footed 12 (+1 armor, +1 deflection)\
-**hp** 31 (5d8+5)\
-**Fort** +4, **Ref** +4, **Will** +5; +4 vs. bardic performance, language-dependent, and sonic
+::: statblock
+AC: 12, touch 11, flat-footed 12 (+1 armor, +1 deflection)
+hp: 31 (5d8+5)
+Fort: +4
+Ref: +4
+Will: +5; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +3 (1d4-1/19-20)\
-**Ranged** mwk dagger +4 (1d4-1/19-20)\
-**Special Attacks** bardic performance 16 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +2)\
-**Bard Spells Known** (CL 5th; concentration +9)\
-_2nd (3/day)_-[detect thoughts](ref/spell/detect-thoughts) (DC 16),
-[invisibility](ref/spell/invisibility), [misdirection](ref/spell/misdirection)\
-_1st (5/day)_-[alarm](ref/spell/alarm), [charm person](ref/spell/charm-person) (DC 16),
-[comprehend languages](ref/spell/comprehend-languages),
-[undetectable alignment](ref/spell/undetectable-alignment)\
-_0 (at will)_-[detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 14),
-[light](ref/spell/light), [mage hand](ref/spell/mage-hand), [open/close](ref/spell/open-close),
-[resistance](ref/spell/resistance)
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +3 (1d4-1/19-20)
+Ranged: mwk dagger +4 (1d4-1/19-20)
+Special Attacks: bardic performance 16 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +2)
+:::
+
+::: statblock
+title = "Bard Spells Known"
+CL: 5th
+concentration: +9
+2nd (3/day): [detect thoughts](ref/spell/detect-thoughts) (DC 16), [invisibility](ref/spell/invisibility), [misdirection](ref/spell/misdirection)
+1st (5/day): [alarm](ref/spell/alarm), [charm person](ref/spell/charm-person) (DC 16), [comprehend languages](ref/spell/comprehend-languages), [undetectable alignment](ref/spell/undetectable-alignment)
+0 (at will): [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 14), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [open/close](ref/spell/open-close), [resistance](ref/spell/resistance)
+:::
 
 ### Tactics
 
@@ -55,19 +61,23 @@ person to draw opponents to her side.
 
 ### Statistics
 
-**Str** 8, **Dex** 10, **Con** 12, **Int** 14, **Wis** 13, **Cha** 18\
-**Base Atk** +3; **CMB** +2; **CMD** 13\
-**Feats** [Arcane Strike](ref/feat/arcane-strike), [Great Fortitude](ref/feat/great-fortitude),
-[Skill Focus](ref/feat/skill-focus) (Bluff), [Spell Focus](ref/feat/spell-focus) (enchantment)\
-**Skills** Bluff +15, Diplomacy +12, Knowledge (arcana) +10, Knowledge (history, local, nobility)
-+12, Knowledge (planes) +8, Knowledge (religion) +9, Perception +5, Perform (oratory) +12, Sense
-Motive +9, Spellcraft +10, Stealth +6\
-**Languages** Common, Dwarven, Elven\
-**SQ** bardic knowledge +2, lore master 1/day, versatile performance (oratory)\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[eagle's splendor](ref/spell/eagles-splendor); **Other Gear** masterwork
-[dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 50 gp
+::: statblock
+Str: 8
+Dex: 10
+Con: 12
+Int: 14
+Wis: 13
+Cha: 18
+Base Atk: +3
+CMB: +2
+CMD: 13
+Feats: [Arcane Strike](ref/feat/arcane-strike), [Great Fortitude](ref/feat/great-fortitude), [Skill Focus](ref/feat/skill-focus) (Bluff), [Spell Focus](ref/feat/spell-focus) (enchantment)
+Skills: Bluff +15, Diplomacy +12, Knowledge (arcana) +10, Knowledge (history, local, nobility) +12, Knowledge (planes) +8, Knowledge (religion) +9, Perception +5, Perform (oratory) +12, Sense Motive +9, Spellcraft +10, Stealth +6
+Languages: Common, Dwarven, Elven
+SQ: bardic knowledge +2, lore master 1/day, versatile performance (oratory)
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [eagle's splendor](ref/spell/eagles-splendor)
+Other Gear: masterwork [dagger](ref/eq-weapon/dagger), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 50 gp
+:::
 
 ### Description
 

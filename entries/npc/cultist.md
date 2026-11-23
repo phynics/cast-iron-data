@@ -15,33 +15,43 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [adept](ref/npcclass/adept) 10\
-CE Medium humanoid (human)\
-**Init** +7; **Senses** Perception +3
+CE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +7
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 19, touch 13, flat-footed 16 (+4 armor, +3 Dex, +2 natural)\
-**hp** 45 (10d6+10)\
-**Fort** +5, **Ref** +6, **Will** +12
+::: statblock
+AC: 19, touch 13, flat-footed 16 (+4 armor, +3 Dex, +2 natural)
+hp: 45 (10d6+10)
+Fort: +5
+Ref: +6
+Will: +12
+:::
 
 ### Offense
 
-**Speed** 30 ft., fly 60 ft. (good)\
-**Melee** mwk silver dagger +5 (1d4-1/19-20)\
-**Ranged** mwk silver dagger +9 (1d4-1/19-20)\
-**Adept Spells Prepared** (CL 10th; concentration +13)\
-_3rd_-[bestow curse](ref/spell/bestow-curse) (DC 16),
-[cure serious wounds](ref/spell/cure-serious-wounds)\
-_2nd_-[invisibility](ref/spell/invisibility), [mirror image](ref/spell/mirror-image),
-[web](ref/spell/web) (DC 15)\
-_1st_-[command](ref/spell/command) (DC 14), cure light wounds,
-[obscuring mist](ref/spell/obscuring-mist), [protection from law](ref/spell/protection-from-law)\
-_0 (at will)_-[detect magic](ref/spell/detect-magic), [light](ref/spell/light),
-[read magic](ref/spell/read-magic)
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: mwk silver dagger +5 (1d4-1/19-20)
+Ranged: mwk silver dagger +9 (1d4-1/19-20)
+:::
+
+::: statblock
+title = "Adept Spells Prepared"
+CL: 10th
+concentration: +13
+3rd: [bestow curse](ref/spell/bestow-curse) (DC 16), [cure serious wounds](ref/spell/cure-serious-wounds)
+2nd: [invisibility](ref/spell/invisibility), [mirror image](ref/spell/mirror-image), [web](ref/spell/web) (DC 15)
+1st: [command](ref/spell/command) (DC 14), cure light wounds, [obscuring mist](ref/spell/obscuring-mist), [protection from law](ref/spell/protection-from-law)
+0 (at will): [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [read magic](ref/spell/read-magic)
+:::
 
 ### Tactics
 
@@ -55,24 +65,23 @@ silver dagger +7 (1d4-1/19-20); **Dex** 12; **CMD** 15; **Skills** Fly +1.
 
 ### Statistics
 
-**Str** 8, **Dex** 16, **Con** 10, **Int** 9, **Wis** 16, **Cha** 12\
-**Base Atk** +5; **CMB** +4; **CMD** 17\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Great Fortitude](ref/feat/great-fortitude),
-[Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will),
-[Skill Focus](ref/feat/skill-focus) (Bluff), [Toughness](ref/feat/toughness)\
-**Skills** Appraise +2, Bluff +17, Fly +7, Knowledge (arcana) +6, Knowledge (planes) +9, Knowledge
-(religion) +5, Linguistics +0, Spellcraft +7\
-**Languages** Common, Aklo\
-**SQ** summon familiar (raven, speaks Aklo)\
-**Combat Gear** [necklace of fireballs](ref/magic-wondrous/necklace-of-fireballs) (type IV), potion
-of [barkskin](ref/spell/barkskin), potion of [cat's grace](ref/spell/cats-grace), potion of
-[fly](ref/spell/fly), potion of [mage armor](ref/spell/mage-armor), scrolls of
-[lightning bolt](ref/spell/lightning-bolt) (2, CL 8th), wand of
-[burning hands](ref/spell/burning-hands) (CL 5th, 16 charges), wand of
-[cure light wounds](ref/spell/cure-light-wounds) (31 charges); **Other Gear** masterwork
-[silver](ref/eq-material/alchemical-silver) [dagger](ref/eq-weapon/dagger),
-[scroll case](ref/eq-misc/scroll-case), [silver unholy symbol](ref/eq-misc/holy-symbol-silver), 37
-gp
+::: statblock
+Str: 8
+Dex: 16
+Con: 10
+Int: 9
+Wis: 16
+Cha: 12
+Base Atk: +5
+CMB: +4
+CMD: 17
+Feats: [Combat Casting](ref/feat/combat-casting), [Great Fortitude](ref/feat/great-fortitude), [Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will), [Skill Focus](ref/feat/skill-focus) (Bluff), [Toughness](ref/feat/toughness)
+Skills: Appraise +2, Bluff +17, Fly +7, Knowledge (arcana) +6, Knowledge (planes) +9, Knowledge (religion) +5, Linguistics +0, Spellcraft +7
+Languages: Common, Aklo
+SQ: summon familiar (raven, speaks Aklo)
+Combat Gear: [necklace of fireballs](ref/magic-wondrous/necklace-of-fireballs) (type IV), potion of [barkskin](ref/spell/barkskin), potion of [cat's grace](ref/spell/cats-grace), potion of [fly](ref/spell/fly), potion of [mage armor](ref/spell/mage-armor), scrolls of [lightning bolt](ref/spell/lightning-bolt) (2, CL 8th), wand of [burning hands](ref/spell/burning-hands) (CL 5th, 16 charges), wand of [cure light wounds](ref/spell/cure-light-wounds) (31 charges)
+Other Gear: masterwork [silver](ref/eq-material/alchemical-silver) [dagger](ref/eq-weapon/dagger), [scroll case](ref/eq-misc/scroll-case), [silver unholy symbol](ref/eq-misc/holy-symbol-silver), 37 gp
+:::
 
 ### Description
 

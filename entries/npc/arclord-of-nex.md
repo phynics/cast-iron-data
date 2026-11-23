@@ -15,89 +15,69 @@ kind = "creature"
 cr = "14"
 +++
 
-**Challenge rating:** 14
-
-**XP** 38,400\
 Human [wizard](ref/class/wizard) 10/archlord of Nex 5\
-N Medium humanoid (human)\
-**Init** +0; **Senses** Perception +24
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 14
+XP: 38,400
+Init: +0
+Senses: Perception +24
+:::
 
 ### Defense
 
-**AC** 14, touch 12, flat-footed 14 (+2 deflection, +2 natural)\
-**hp** 109 (15d6+55)\
-**Fort** +10, **Ref** +8, **Will** +15\
-**Defensive Abilities** protective ward
+::: statblock
+AC: 14, touch 12, flat-footed 14 (+2 deflection, +2 natural)
+hp: 109 (15d6+55)
+Fort: +10
+Ref: +8
+Will: +15
+Defensive Abilities: protective ward
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** staff of fire +6/+1 (1d6-1)\
-**Special Attacks** artificer's touch, hand of the apprentice (10/day), metamagic mastery (2/day)\
-**Wizard Spells Prepared** (CL 15th; concentration +22)\
-_8th_-[mind blank](ref/spell/mind-blank)\
-_7th_-[greater scrying](ref/spell/scrying-greater) (DC 24), [limited wish](ref/spell/limited-wish),
-[spell turning](ref/spell/spell-turning)\
-_6th_-[widened](ref/feat/widen-spell) [black tentacles](ref/spell/black-tentacles),
-[disintegrate](ref/spell/disintegrate) (DC 23),
-[greater dispel magic](ref/spell/dispel-magic-greater), [repulsion](ref/spell/repulsion) (DC 23)\
-_5th_-[dismissal](ref/spell/dismissal) (DC 22), [feeblemind](ref/spell/feeblemind) (DC 22),
-[overland flight](ref/spell/overland-flight), [teleport](ref/spell/teleport),
-[wall of stone](ref/spell/wall-of-stone)\
-_4th_-[extended](ref/feat/extend-spell) black tentacles, [confusion](ref/spell/confusion) (DC 21),
-[dimension door](ref/spell/dimension-door), [greater invisibility](ref/spell/invisibility-greater),
-[phantasmal killer](ref/spell/phantasmal-killer) (DC 21)\
-_3rd_-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[dispel magic](ref/spell/dispel-magic), [halt undead](ref/spell/halt-undead) (DC 20),
-[slow](ref/spell/slow) (DC 20), extended [stinking cloud](ref/spell/stinking-cloud),
-[suggestion](ref/spell/suggestion) (DC 20)\
-_2nd_-[detect thoughts](ref/spell/detect-thoughts) (DC 19), extended
-[glitterdust](ref/spell/glitterdust), [protection from arrows](ref/spell/protection-from-arrows),
-[resist energy](ref/spell/resist-energy), [scorching ray](ref/spell/scorching-ray),
-[whispering wind](ref/spell/whispering-wind)\
-_1st_-[charm person](ref/spell/charm-person) (DC 18),
-[comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self),
-extended [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile),
-[protection from evil](ref/spell/protection-from-evil)\
-_0 (at will)_-[detect magic](ref/spell/detect-magic), [light](ref/spell/light),
-[message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)
+::: statblock
+Speed: 30 ft.
+Melee: staff of fire +6/+1 (1d6-1)
+Special Attacks: artificer's touch, hand of the apprentice (10/day), metamagic mastery (2/day)
+:::
+
+::: statblock
+title = "Wizard Spells Prepared"
+CL: 15th
+concentration: +22
+8th: [mind blank](ref/spell/mind-blank)
+7th: [greater scrying](ref/spell/scrying-greater) (DC 24), [limited wish](ref/spell/limited-wish), [spell turning](ref/spell/spell-turning)
+6th: [widened](ref/feat/widen-spell) [black tentacles](ref/spell/black-tentacles), [disintegrate](ref/spell/disintegrate) (DC 23), [greater dispel magic](ref/spell/dispel-magic-greater), [repulsion](ref/spell/repulsion) (DC 23)
+5th: [dismissal](ref/spell/dismissal) (DC 22), [feeblemind](ref/spell/feeblemind) (DC 22), [overland flight](ref/spell/overland-flight), [teleport](ref/spell/teleport), [wall of stone](ref/spell/wall-of-stone)
+4th: [extended](ref/feat/extend-spell) black tentacles, [confusion](ref/spell/confusion) (DC 21), [dimension door](ref/spell/dimension-door), [greater invisibility](ref/spell/invisibility-greater), [phantasmal killer](ref/spell/phantasmal-killer) (DC 21)
+3rd: [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [dispel magic](ref/spell/dispel-magic), [halt undead](ref/spell/halt-undead) (DC 20), [slow](ref/spell/slow) (DC 20), extended [stinking cloud](ref/spell/stinking-cloud), [suggestion](ref/spell/suggestion) (DC 20)
+2nd: [detect thoughts](ref/spell/detect-thoughts) (DC 19), extended [glitterdust](ref/spell/glitterdust), [protection from arrows](ref/spell/protection-from-arrows), [resist energy](ref/spell/resist-energy), [scorching ray](ref/spell/scorching-ray), [whispering wind](ref/spell/whispering-wind)
+1st: [charm person](ref/spell/charm-person) (DC 18), [comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self), extended [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile), [protection from evil](ref/spell/protection-from-evil)
+0 (at will): [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 10, **Con** 14, **Int** 24, **Wis** 14, **Cha** 13\
-**Base Atk** +7; **CMB** +6; **CMD** 18\
-**Feats** [Alertness](ref/feat/alertness), [Craft Construct](ref/feat/craft-construct),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell),
-[Eye of the Arclord](ref/feat/eye-of-the-arclord), [Persuasive](ref/feat/persuasive),
-[Quicken Spell](ref/feat/quicken-spell), [Scribe Scroll](ref/feat/scribe-scroll),
-[Spell Focus](ref/feat/spell-focus) (conjuration), [Toughness](ref/feat/toughness),
-[Widen Spell](ref/feat/widen-spell)\
-**Skills** Appraise +15, Diplomacy +23, Fly +8, Intimidate +10, Knowledge (arcana) +25, Knowledge
-(dungeoneering, geography, history, local, nature, nobility, religion) +15, Knowledge (engineering,
-planes) +20, Linguistics +16, Perception +24, Sense Motive +24, Spellcraft +25\
-**Languages** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Elven, Gnome, Ignan,
-Infernal, Kelish, Osiriani, Terran\
-**SQ** arcane architect, arcane bond (staff), improved third eye, mystic pedagogue, scholiast\
-**Combat Gear** potion of [cure serious wounds](ref/spell/cure-serious-wounds), scroll of
-[haste](ref/spell/haste), scroll of [major image](ref/spell/major-image), scroll of
-[stoneskin](ref/spell/stoneskin), scroll of [tongues](ref/spell/tongues), wand of
-[alarm](ref/spell/alarm) (35 charges); **Other Gear**
-[amulet of natural armor +2](ref/magic-wondrous/amulet-of-natural-armor-2),
-[belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2),
-[cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3),
-[headband of vast intelligence +4](ref/magic-wondrous/headband-of-vast-intelligence-4),
-[pearl of power](ref/magic-wondrous/pearl-of-power) (3rd),
-[ring of protection +2](ref/magic-ring/ring-of-protection-2),
-[staff of fire](ref/magic-staff/staff-of-fire),
-[spell component pouch](ref/eq-misc/spell-component-pouch), spellbooks (3; contain all 0-level
-spells and all prepared spells as well as the following:
-8th-[mass charm monster](ref/spell/charm-monster-mass); 7th-[simulacrum](ref/spell/simulacrum),
-[summon monster VII](ref/spell/summon-monster-7); 6th-[acid fog](ref/spell/acid-fog),
-[veil](ref/spell/veil), [wall of iron](ref/spell/wall-of-iron);
-5th-[contact other plane](ref/spell/contact-other-plane); 4th-[solid fog](ref/spell/solid-fog);
-1st-[burning hands](ref/spell/burning-hands), [feather fall](ref/spell/feather-fall),
-[grease](ref/spell/grease), [shield](ref/spell/shield)), diamonds worth 1,500 gp (2), 455 gp
+::: statblock
+Str: 8
+Dex: 10
+Con: 14
+Int: 24
+Wis: 14
+Cha: 13
+Base Atk: +7
+CMB: +6
+CMD: 18
+Feats: [Alertness](ref/feat/alertness), [Craft Construct](ref/feat/craft-construct), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [Eye of the Arclord](ref/feat/eye-of-the-arclord), [Persuasive](ref/feat/persuasive), [Quicken Spell](ref/feat/quicken-spell), [Scribe Scroll](ref/feat/scribe-scroll), [Spell Focus](ref/feat/spell-focus) (conjuration), [Toughness](ref/feat/toughness), [Widen Spell](ref/feat/widen-spell)
+Skills: Appraise +15, Diplomacy +23, Fly +8, Intimidate +10, Knowledge (arcana) +25, Knowledge (dungeoneering, geography, history, local, nature, nobility, religion) +15, Knowledge (engineering, planes) +20, Linguistics +16, Perception +24, Sense Motive +24, Spellcraft +25
+Languages: Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Elven, Gnome, Ignan, Infernal, Kelish, Osiriani, Terran
+SQ: arcane architect, arcane bond (staff), improved third eye, mystic pedagogue, scholiast
+Combat Gear: potion of [cure serious wounds](ref/spell/cure-serious-wounds), scroll of [haste](ref/spell/haste), scroll of [major image](ref/spell/major-image), scroll of [stoneskin](ref/spell/stoneskin), scroll of [tongues](ref/spell/tongues), wand of [alarm](ref/spell/alarm) (35 charges)
+Other Gear: [amulet of natural armor +2](ref/magic-wondrous/amulet-of-natural-armor-2), [belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2), [cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3), [headband of vast intelligence +4](ref/magic-wondrous/headband-of-vast-intelligence-4), [pearl of power](ref/magic-wondrous/pearl-of-power) (3rd), [ring of protection +2](ref/magic-ring/ring-of-protection-2), [staff of fire](ref/magic-staff/staff-of-fire), [spell component pouch](ref/eq-misc/spell-component-pouch), spellbooks (3; contain all 0-level spells and all prepared spells as well as the following: 8th-[mass charm monster](ref/spell/charm-monster-mass); 7th-[simulacrum](ref/spell/simulacrum), [summon monster VII](ref/spell/summon-monster-7); 6th-[acid fog](ref/spell/acid-fog), [veil](ref/spell/veil), [wall of iron](ref/spell/wall-of-iron); 5th-[contact other plane](ref/spell/contact-other-plane); 4th-[solid fog](ref/spell/solid-fog); 1st-[burning hands](ref/spell/burning-hands), [feather fall](ref/spell/feather-fall), [grease](ref/spell/grease), [shield](ref/spell/shield)), diamonds worth 1,500 gp (2), 455 gp
+:::
 
 ### Special Abilities
 

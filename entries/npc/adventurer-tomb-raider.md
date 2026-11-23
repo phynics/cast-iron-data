@@ -15,49 +15,56 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Human [rogue](ref/class/rogue) 6\
-N Medium humanoid\
-**Init** +3; **Senses** Perception +14
+N Medium humanoid
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +3
+Senses: Perception +14
+:::
 
 ### Defense
 
-**AC** 17, touch 13, flat-footed 14 (+3 armor, +3 Dex, +1 shield)\
-**hp** 45 (6d8+18)\
-**Fort** +6, **Ref** +8, **Will** +2\
-**Defensive Abilities** [evasion](ref/ability/evasion), [trap sense](ref/ability/trap-sense) +2,
-[uncanny dodge](ref/ability/uncanny-dodge)
+::: statblock
+AC: 17, touch 13, flat-footed 14 (+3 armor, +3 Dex, +1 shield)
+hp: 45 (6d8+18)
+Fort: +6
+Ref: +8
+Will: +2
+Defensive Abilities: [evasion](ref/ability/evasion), [trap sense](ref/ability/trap-sense) +2, [uncanny dodge](ref/ability/uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** short sword +7 (1d6+1/19-20)\
-**Ranged** mwk shortbow +8 (1d6/×3)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +3d6
+::: statblock
+Speed: 30 ft.
+Melee: short sword +7 (1d6+1/19-20)
+Ranged: mwk shortbow +8 (1d6/×3)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +3d6
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 17, **Con** 14, **Int** 14, **Wis** 10, **Cha** 8\
-**Base Atk** +4; **CMB** +5; **CMD** 18\
-**Feats** [Great Fortitude](ref/feat/great-fortitude), [Skill Focus](ref/feat/skill-focus) (Disable
-Device), [Stealthy](ref/feat/stealthy), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +12, Appraise +11, Bluff +5, Climb +10, Disable Device +20, Escape Artist +14,
-Knowledge (dungeoneering) +11, Knowledge (local) +6, Linguistics +6, Perception +14 (+17 to find
-traps), Sleight of Hand +12, Stealth +14, Swim +5, Use Magic Device +8\
-**Languages** Aklo, Common, Terran, Undercommon\
-**SQ** rogue talents ([fast stealth](ref/talent/fast-stealth),
-[rogue crawl](ref/talent/rogue-crawl), [trap spotter](ref/talent/trap-spotter)),
-[trapfinding](ref/ability/trapfinding) +3\
-**Combat Gear** [antitoxin](ref/eq-misc/antitoxin); **Other Gear** masterwork
-[studded leather](ref/eq-armor/studded-leather), masterwork [buckler](ref/eq-armor/buckler),
-masterwork [shortbow](ref/eq-weapon/shortbow) with 20 arrows,
-[short sword](ref/eq-weapon/short-sword), [eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle),
-[magnifying glass](ref/eq-misc/magnifying-glass), masterwork
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), [sunrod](ref/eq-misc/sunrod), 18 gp\
-**Boon** A tomb raider could agree to appraise the PCs' goods or to travel with them and disable a
-trap.
+::: statblock
+Str: 12
+Dex: 17
+Con: 14
+Int: 14
+Wis: 10
+Cha: 8
+Base Atk: +4
+CMB: +5
+CMD: 18
+Feats: [Great Fortitude](ref/feat/great-fortitude), [Skill Focus](ref/feat/skill-focus) (Disable Device), [Stealthy](ref/feat/stealthy), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +12, Appraise +11, Bluff +5, Climb +10, Disable Device +20, Escape Artist +14, Knowledge (dungeoneering) +11, Knowledge (local) +6, Linguistics +6, Perception +14 (+17 to find traps), Sleight of Hand +12, Stealth +14, Swim +5, Use Magic Device +8
+Languages: Aklo, Common, Terran, Undercommon
+SQ: rogue talents ([fast stealth](ref/talent/fast-stealth), [rogue crawl](ref/talent/rogue-crawl), [trap spotter](ref/talent/trap-spotter)), [trapfinding](ref/ability/trapfinding) +3
+Combat Gear: [antitoxin](ref/eq-misc/antitoxin)
+Other Gear: masterwork [studded leather](ref/eq-armor/studded-leather), masterwork [buckler](ref/eq-armor/buckler), masterwork [shortbow](ref/eq-weapon/shortbow) with 20 arrows, [short sword](ref/eq-weapon/short-sword), [eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle), [magnifying glass](ref/eq-misc/magnifying-glass), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), [sunrod](ref/eq-misc/sunrod), 18 gp
+Boon: A tomb raider could agree to appraise the PCs' goods or to travel with them and disable a trap.
+:::
 
 ### Description
 

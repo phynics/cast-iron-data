@@ -15,24 +15,33 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Human [commoner](ref/npcclass/commoner) 9\
-NE Medium humanoid (human)\
-**Init** +0; **Senses** Perception +14
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +0
+Senses: Perception +14
+:::
 
 ### Defense
 
-**AC** 14, touch 10, flat-footed 14 (+4 armor)\
-**hp** 49 (9d6+18)\
-**Fort** +5, **Ref** +4, **Will** +6
+::: statblock
+AC: 14, touch 10, flat-footed 14 (+4 armor)
+hp: 49 (9d6+18)
+Fort: +5
+Ref: +4
+Will: +6
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 spear +8 (1d8+4/×3) or mwk sap +7 (1d6+2 nonlethal)\
-**Ranged** mwk light crossbow +5 (1d8/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: +1 spear +8 (1d8+4/×3) or mwk sap +7 (1d6+2 nonlethal)
+Ranged: mwk light crossbow +5 (1d8/19-20)
+:::
 
 ### Tactics
 
@@ -41,24 +50,22 @@ defensively against one who stays to fight it out.
 
 ### Statistics
 
-**Str** 14, **Dex** 11, **Con** 13, **Int** 10, **Wis** 10, **Cha** 9\
-**Base Atk** +4; **CMB** +6; **CMD** 16\
-**Feats** [Alertness](ref/feat/alertness), [Iron Will](ref/feat/iron-will), Light Armor Proficiency,
-[Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (sap),
-[Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (spear)\
-**Skills** Climb +6, Handle Animal +4, Intimidate +3, Knowledge (local) +6, Perception +14, Ride +5,
-Sense Motive +11, Swim +5\
-**Languages** Common\
-**Combat Gear** potion of [bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2),
-[tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (4); **Other Gear** masterwork
-[chain shirt](ref/eq-armor/chain-shirt), +1 [spear](ref/eq-weapon/spear), masterwork
-[light crossbow](ref/eq-weapon/light-crossbow) with 10 bolts, masterwork [sap](ref/eq-weapon/sap),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[everburning torch](ref/eq-misc/everburning-torch), [sunrods](ref/eq-misc/sunrod) (5),
-[bit and bridle](ref/eq-misc/bit-and-bridle),
-[heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained),
-[military saddle](ref/eq-misc/military-saddle), 2,568 gp
+::: statblock
+Str: 14
+Dex: 11
+Con: 13
+Int: 10
+Wis: 10
+Cha: 9
+Base Atk: +4
+CMB: +6
+CMD: 16
+Feats: [Alertness](ref/feat/alertness), [Iron Will](ref/feat/iron-will), Light Armor Proficiency, [Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (sap), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (spear)
+Skills: Climb +6, Handle Animal +4, Intimidate +3, Knowledge (local) +6, Perception +14, Ride +5, Sense Motive +11, Swim +5
+Languages: Common
+Combat Gear: potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (4)
+Other Gear: masterwork [chain shirt](ref/eq-armor/chain-shirt), +1 [spear](ref/eq-weapon/spear), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 10 bolts, masterwork [sap](ref/eq-weapon/sap), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [everburning torch](ref/eq-misc/everburning-torch), [sunrods](ref/eq-misc/sunrod) (5), [bit and bridle](ref/eq-misc/bit-and-bridle), [heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained), [military saddle](ref/eq-misc/military-saddle), 2,568 gp
+:::
 
 ### Description
 

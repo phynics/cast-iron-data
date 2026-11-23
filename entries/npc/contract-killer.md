@@ -15,28 +15,36 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Elf [rogue](ref/class/rogue) 11\
-NE Medium humanoid (elf)\
-**Init** +5; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +17
+NE Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +5
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +17
+:::
 
 ### Defense
 
-**AC** 21, touch 16, flat-footed 16 (+5 armor, +1 deflection, +5 Dex)\
-**hp** 86 (11d8+33)\
-**Fort** +5, **Ref** +13, **Will** +5; +2 vs. enchantments\
-**Defensive Abilities** [evasion](ref/ability/evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+3; **Immune** sleep
+::: statblock
+AC: 21, touch 16, flat-footed 16 (+5 armor, +1 deflection, +5 Dex)
+hp: 86 (11d8+33)
+Fort: +5
+Ref: +13
+Will: +5; +2 vs. enchantments
+Defensive Abilities: [evasion](ref/ability/evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +3
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 rapier +15/+10 (1d6+3/15-20 plus poison)\
-**Ranged** mwk dagger +14/+9 (1d4+2/19-20 plus poison)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +6d6
+::: statblock
+Speed: 30 ft.
+Melee: +1 rapier +15/+10 (1d6+3/15-20 plus poison)
+Ranged: mwk dagger +14/+9 (1d4+2/19-20 plus poison)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +6d6
+:::
 
 ### Tactics
 
@@ -48,29 +56,23 @@ escape, or throws his poisoned dagger.
 
 ### Statistics
 
-**Str** 14, **Dex** 20, **Con** 12, **Int** 12, **Wis** 12, **Cha** 8\
-**Base Atk** +8; **CMB** +10; **CMD** 26\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes),
-[Improved Critical](ref/feat/improved-critical) (rapier), [Power Attack](ref/feat/power-attack),
-[Stand Still](ref/feat/stand-still), [Toughness](ref/feat/toughness),
-[Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier)\
-**Skills** Acrobatics +19, Bluff +13, Climb +16, Disable Device +21, Disguise +13, Intimidate +13,
-Knowledge (local) +15, Perception +17, Stealth +19\
-**Languages** Common, Dwarven, Elven\
-**SQ** elven magic, rogue talents ([bleeding attack](ref/talent/bleeding-attack) +6,
-[combat trick](ref/talent/combat-trick), [crippling strike](ref/talent/crippling-strike),
-[fast stealth](ref/talent/fast-stealth), [surprise attack](ref/talent/surprise-attack)),
-[trapfinding](ref/ability/trapfinding) +5, weapon familiarity\
-**Combat Gear** [elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of
-[cure serious wounds](ref/spell/cure-serious-wounds), potion of
-[invisibility](ref/spell/invisibility), [antitoxin](ref/eq-misc/antitoxin),
-[blue whinnis](ref/eq-poison/blue-whinnis) poison (4); **Other Gear** +2
-[studded leather](ref/eq-armor/studded-leather), +1 [rapier](ref/eq-weapon/rapier), masterwork
-[dagger](ref/eq-weapon/dagger),
-[belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), [sunrods](ref/eq-misc/sunrod) (3), 617 gp
+::: statblock
+Str: 14
+Dex: 20
+Con: 12
+Int: 12
+Wis: 12
+Cha: 8
+Base Atk: +8
+CMB: +10
+CMD: 26
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Improved Critical](ref/feat/improved-critical) (rapier), [Power Attack](ref/feat/power-attack), [Stand Still](ref/feat/stand-still), [Toughness](ref/feat/toughness), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier)
+Skills: Acrobatics +19, Bluff +13, Climb +16, Disable Device +21, Disguise +13, Intimidate +13, Knowledge (local) +15, Perception +17, Stealth +19
+Languages: Common, Dwarven, Elven
+SQ: elven magic, rogue talents ([bleeding attack](ref/talent/bleeding-attack) +6, [combat trick](ref/talent/combat-trick), [crippling strike](ref/talent/crippling-strike), [fast stealth](ref/talent/fast-stealth), [surprise attack](ref/talent/surprise-attack)), [trapfinding](ref/ability/trapfinding) +5, weapon familiarity
+Combat Gear: [elixir of hiding](ref/magic-wondrous/elixir-of-hiding), potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [invisibility](ref/spell/invisibility), [antitoxin](ref/eq-misc/antitoxin), [blue whinnis](ref/eq-poison/blue-whinnis) poison (4)
+Other Gear: +2 [studded leather](ref/eq-armor/studded-leather), +1 [rapier](ref/eq-weapon/rapier), masterwork [dagger](ref/eq-weapon/dagger), [belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), [sunrods](ref/eq-misc/sunrod) (3), 617 gp
+:::
 
 ### Description
 

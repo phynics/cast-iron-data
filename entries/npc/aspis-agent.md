@@ -18,58 +18,68 @@ cr = "4"
 _Richly attired in noble's garbs, this savvy man boasts a colorful cloak, a bulging coin purse, and
 a fine rapier at his side._
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Male human [bard](ref/class/bard) 5\
-LE Medium humanoid (human)\
-**Init** +2; **Senses** Perception +10
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +2
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)\
-**hp** 26 (5d8)\
-**Fort** +0, **Ref** +6, **Will** +5; +4 vs. bardic performance, language-dependent, and sonic
+::: statblock
+AC: 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)
+hp: 26 (5d8)
+Fort: +0
+Ref: +6
+Will: +5; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 rapier +6 (1d6+2/18-20)\
-**Special Attacks** bardic performance 15 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +2,
-[inspire courage](ref/performance/inspire-courage) +2)\
-**Bard Spells Known** (CL 5th; concentration +8)\
-_2nd (3/day)_-[alter self](ref/spell/alter-self), [invisibility](ref/spell/invisibility),
-[mirror image](ref/spell/mirror-image)\
-_1st (5/day)_-[charm person](ref/spell/charm-person) (DC 14),
-[comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self),
-[sleep](ref/spell/sleep) (DC 14)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 13), [detect magic](ref/spell/detect-magic),
-[ghost sound](ref/spell/ghost-sound) (DC 13), [lullaby](ref/spell/lullaby) (DC 13),
-[prestidigitation](ref/spell/prestidigitation), [read magic](ref/spell/read-magic)
+::: statblock
+Speed: 30 ft.
+Melee: +1 rapier +6 (1d6+2/18-20)
+Special Attacks: bardic performance 15 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +2, [inspire courage](ref/performance/inspire-courage) +2)
+:::
+
+::: statblock
+title = "Bard Spells Known"
+CL: 5th
+concentration: +8
+2nd (3/day): [alter self](ref/spell/alter-self), [invisibility](ref/spell/invisibility), [mirror image](ref/spell/mirror-image)
+1st (5/day): [charm person](ref/spell/charm-person) (DC 14), [comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self), [sleep](ref/spell/sleep) (DC 14)
+0 (at will): [daze](ref/spell/daze) (DC 13), [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 13), [lullaby](ref/spell/lullaby) (DC 13), [prestidigitation](ref/spell/prestidigitation), [read magic](ref/spell/read-magic)
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 14, **Con** 8, **Int** 12, **Wis** 13, **Cha** 16\
-**Base Atk** +3; **CMB** +4; **CMD** 16\
-**Feats** [Alertness](ref/feat/alertness), [Arcane Strike](ref/feat/arcane-strike),
-[Deceitful](ref/feat/deceitful), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +7, Bluff +5, Diplomacy +11, Disguise +12, Intimidate +10, Knowledge (local)
-+7, Knowledge (nobility) +7, Perception +10, Perform (oratory) +11, Sense Motive +10, Sleight of
-Hand +9, Stealth +7\
-**Languages** Common, Varisian\
-**SQ** bardic knowledge +2, lore master 1/day, versatile performance (oratory)
+::: statblock
+Str: 12
+Dex: 14
+Con: 8
+Int: 12
+Wis: 13
+Cha: 16
+Base Atk: +3
+CMB: +4
+CMD: 16
+Feats: [Alertness](ref/feat/alertness), [Arcane Strike](ref/feat/arcane-strike), [Deceitful](ref/feat/deceitful), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +7, Bluff +5, Diplomacy +11, Disguise +12, Intimidate +10, Knowledge (local) +7, Knowledge (nobility) +7, Perception +10, Perform (oratory) +11, Sense Motive +10, Sleight of Hand +9, Stealth +7
+Languages: Common, Varisian
+SQ: bardic knowledge +2, lore master 1/day, versatile performance (oratory)
+:::
 
 ### Ecology
 
-**Environment** any (Vista)\
-**Organization** solitary, pair, or\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget)
-([chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), [antitoxin](ref/eq-misc/antitoxin),
-[oil of taggit](ref/eq-poison/oil-of-taggit) (2),
-[sassone leaf residue](ref/eq-poison/sassone-leaf-residue) (2), other treasure)
+::: statblock
+Environment: any (Vista)
+Organization: solitary, pair, or
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) ([chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), [antitoxin](ref/eq-misc/antitoxin), [oil of taggit](ref/eq-poison/oil-of-taggit) (2), [sassone leaf residue](ref/eq-poison/sassone-leaf-residue) (2), other treasure)
+:::
 
 ### Description
 

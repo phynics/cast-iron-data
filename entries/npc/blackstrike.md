@@ -15,27 +15,35 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [fighter](ref/class/fighter) 7/shadowdancer 2\
-CN Medium humanoid (human)\
-**Init** +2; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +12
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +2
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +12
+:::
 
 ### Defense
 
-**AC** 20, touch 14, flat-footed 17 (+5 armor, +1 deflection, +2 Dex, +1 dodge, +1 natural)\
-**hp** 86 (7d10+2d8+34)\
-**Fort** +9, **Ref** +8, **Will** +4; +2 vs. fear\
-**Defensive Abilities** bravery +2, [evasion](ref/ability/evasion),
-[uncanny dodge](ref/ability/uncanny-dodge)
+::: statblock
+AC: 20, touch 14, flat-footed 17 (+5 armor, +1 deflection, +2 Dex, +1 dodge, +1 natural)
+hp: 86 (7d10+2d8+34)
+Fort: +9
+Ref: +8
+Will: +4; +2 vs. fear
+Defensive Abilities: bravery +2, [evasion](ref/ability/evasion), [uncanny dodge](ref/ability/uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 greatsword +17/+12 (2d6+13/19-20)\
-**Ranged** mwk shortbow +11/+6 (1d6/×3)\
-**Special Attacks** weapon training (heavy blades +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 greatsword +17/+12 (2d6+13/19-20)
+Ranged: mwk shortbow +11/+6 (1d6/×3)
+Special Attacks: weapon training (heavy blades +1)
+:::
 
 ### Tactics
 
@@ -48,25 +56,22 @@ greatsword +15/+10 (2d6+10/19-20); **Str** 18; **CMB** +12; **CMD** 26.
 
 ### Statistics
 
-**Str** 22, **Dex** 14, **Con** 14, **Int** 12, **Wis** 10, **Cha** 8\
-**Base Atk** +8; **CMB** +14; **CMD** 28\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes), [Disruptive](ref/feat/disruptive),
-[Dodge](ref/feat/dodge), [Lightning Reflexes](ref/feat/lightning-reflexes),
-[Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack),
-[Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike),
-[Weapon Focus](ref/feat/weapon-focus) (greatsword),
-[Weapon Specialization](ref/feat/weapon-specialization) (greatsword)\
-**Skills** Acrobatics +14, Climb +10, Handle Animal +3, Heal +1, Knowledge (arcana) +4, Knowledge
-(geography, local, religion) +2, Perception +12, Perform (dance) +4, Ride +6, Stealth +14, Swim +10\
-**SQ** armor training 2, hide in plain sight\
-**Combat Gear** potion of [blur](ref/spell/blur), potion of
-[bull's strength](ref/spell/bulls-strength), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds); **Other Gear** +1
-[chain shirt](ref/eq-armor/chain-shirt), +1 [greatsword](ref/eq-weapon/greatsword), masterwork
-[shortbow](ref/eq-weapon/shortbow) with 20 arrows,
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 219 gp
+::: statblock
+Str: 22
+Dex: 14
+Con: 14
+Int: 12
+Wis: 10
+Cha: 8
+Base Atk: +8
+CMB: +14
+CMD: 28
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Disruptive](ref/feat/disruptive), [Dodge](ref/feat/dodge), [Lightning Reflexes](ref/feat/lightning-reflexes), [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (greatsword), [Weapon Specialization](ref/feat/weapon-specialization) (greatsword)
+Skills: Acrobatics +14, Climb +10, Handle Animal +3, Heal +1, Knowledge (arcana) +4, Knowledge (geography, local, religion) +2, Perception +12, Perform (dance) +4, Ride +6, Stealth +14, Swim +10
+SQ: armor training 2, hide in plain sight
+Combat Gear: potion of [blur](ref/spell/blur), potion of [bull's strength](ref/spell/bulls-strength), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds)
+Other Gear: +1 [chain shirt](ref/eq-armor/chain-shirt), +1 [greatsword](ref/eq-weapon/greatsword), masterwork [shortbow](ref/eq-weapon/shortbow) with 20 arrows, [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 219 gp
+:::
 
 ### Description
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write creature statistics as stat blocks (cast-iron-data #166, with cast-iron #254).
+"""Write creature and NPC statistics as stat blocks (cast-iron-data #166, with cast-iron #254).
 
 A Pf Data monster prints its statistics as one bold-label paragraph per row, with the section
 names as bold paragraphs:
@@ -36,8 +36,8 @@ Usage (DIR defaults to the repository root):
     --only a-d                   entry files whose name starts with a letter of the range(s)
     --only eq-misc,magic-ring    or the entries of the named folders (both kinds can be mixed)
 
-Passes. `creature` (the folder `entries/monster`) is implemented. `npc` (`entries/npc`) and `item`
-arrive with their own slices; this version refuses them rather than guess at their rules.
+Passes. `creature` (the folder `entries/monster`) and `npc` (`entries/npc`) are implemented. `item`
+arrives with its own slices; this version refuses it rather than guess at its rules.
 
 `--check` without `--pass` or `--only` checks the slices listed in `APPLIED` below. Each slice
 PR adds its slice to that list, so the check on a PR head covers exactly what has been written.
@@ -87,6 +87,53 @@ C15 Rows joined by a break. A paragraph whose lines end in a hard break (`\\`) b
     escape. The breaks are dropped. If any segment fails, the whole file is queued. Two labels in
     one paragraph without a break between them are always queued.
 
+Rules for the NPC pass (owner rulings of 2026-11-23)
+----------------------------------------------------
+
+An NPC prints its statistics as run-on lines under headings that already exist:
+
+    **Challenge rating:** 5                           ### Defense
+    **XP** 1,600\\
+    Human evoker 6\\                                  **AC** 16, touch 12, flat-footed 14 (+2 Dex)\\
+    N Medium humanoid\\                               **hp** 33 (6d6+12)\\
+    **Init** +6; **Senses** Perception +6             **Fort** +3, **Ref** +4, **Will** +5
+
+N1  Scope. A file of `entries/npc` with `kind = "creature"` and exactly one
+    `**Challenge rating:**` paragraph. The statistics are the lead (everything before the first
+    heading) and the sections `### Defense`, `### Offense`, `### Statistics` and `### Ecology`,
+    each at most once. Every other section (`### Tactics`, `### Special Abilities`,
+    `### Description`, a footnote) is copied unchanged, and no heading is added, removed or
+    changed. An entry that prints a second set of statistics (a mount in a quote) is queued.
+N2  Paragraphs before `**Challenge rating:**` (the read-aloud line) stay where they are.
+N3  Unlabelled lead lines. The lines without a label that follow one another in the lead (the
+    class line, then the alignment, size and type line) stay unchanged, break included, as one
+    paragraph directly above the lead block. They get no `Alignment`, `Size` or `Type` rows.
+N4  Rows. A line `**Label** value` becomes the row `Label: value`. A line with several labels
+    becomes one row per label, in order, and the `;` before a label is dropped
+    (`**Base Atk** +3; **CMB** +2; **CMD** 17`). A `,` before a label is dropped only before
+    `Ref`, `Will`, `Dex`, `Con`, `Int`, `Wis`, `Cha` and `Reach` (`**Fort** +3, **Ref** +4`; the
+    `Str` to `Cha` line becomes six rows). Text after the last label of a line stays in its value
+    (`Will: +5; +2 vs. enchantments`). The lead block is `Challenge rating` and the lead rows; each
+    section gets one untitled block.
+N5  Spell lists. A line `**Title** (CL 6th; concentration +9)` followed by level lines opens a
+    stat block with that title, as the monster spell blocks have. Its first rows are `CL: 6th` and
+    `concentration: +9`: the parentheses and the `;` go. Each level line `_3rd_-fly, haste` becomes
+    the row `3rd: fly, haste`: the emphasis markers and the dash go. The rows after the level lines
+    (`Bloodline`, `Domains`, `Opposition Schools`) stay in that block, as in monsters (C8). A
+    header with any other part (`arcane spell failure 10%`, `conc. +5`) is queued.
+N6  The linked label `[Spell-Like Abilities](ref/umr/spell-like-abilities)` becomes the plain title
+    `Spell-Like Abilities`; the link is dropped. Any other label with markup is queued.
+N7  Queue. Anything else queues the whole file, unchanged: an unlabelled line outside N3 (an
+    `Aura …` line after `Init`), two labels with no `;` between them, a `,` before another label,
+    a level line outside a spell list, prose, a quote or a list in a statistics section, a
+    section printed twice, a value with an edge escape.
+
+The NPC word proof allows exactly the separators N4 to N6 drop, and only inside the statistics:
+the `;` or `,` before a label, the parentheses and `;` of a spell list header, the `_ _-` of a
+level label, and the one link of N6. A row adds the colon after its label. Every other word,
+spell name, count and number must be found again, in order; the unlabelled lead lines are checked
+as moved. `npc_proof_words` does this reading on its own, apart from the converter.
+
 Proofs, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -119,9 +166,9 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", None)]
+APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", "a-c")]
 
-PASS_FOLDERS = {"creature": ("monster",), "fixes": ()}
+PASS_FOLDERS = {"creature": ("monster",), "npc": ("npc",), "fixes": ()}
 KNOWN_PASSES = ("creature", "npc", "item", "fixes")
 
 SECTIONS = ("Defense", "Offense", "Statistics", "Ecology")
@@ -623,6 +670,236 @@ def print_254_rows(body: str) -> list[str]:
     return found
 
 
+# ---- the NPC pass --------------------------------------------------------------------------------
+
+NPC_SECTIONS = ("### Defense", "### Offense", "### Statistics", "### Ecology")
+NPC_LABEL = re.compile(r"\*\*([^*]+)\*\*")
+NPC_LEVEL = re.compile(r"_([^_]+)_-(.+)", re.S)
+NPC_HEADER = re.compile(r"\*\*([^*]+)\*\* \(([^()]*)\)")
+NPC_HEADER_PART = re.compile(r"(CL|concentration) (\S+)")
+# The labels that print after a comma, not a semicolon: `**Fort** +3, **Ref** +4, **Will** +5`.
+NPC_COMMA_LABELS = ("Ref", "Will", "Dex", "Con", "Int", "Wis", "Cha", "Reach")
+NPC_LINKED_LABELS = {"[Spell-Like Abilities](ref/umr/spell-like-abilities)": "Spell-Like Abilities"}
+NPC_CR = re.compile(r"\*\*Challenge rating:\*\* (\S.*)")
+
+
+def npc_segments(chunk: list[str]) -> list[str]:
+    """The lines of a paragraph that its hard breaks end, each as written (wraps kept)."""
+    return "\n".join(chunk).split("\\\n")
+
+
+def npc_label(raw: str) -> str:
+    label = NPC_LINKED_LABELS.get(raw, raw)
+    if re.search(r"[\\:\[\]_*^~{}<>|#]", label) or label != label.strip() or '"' in label:
+        raise Queue("label-needs-escape", raw)
+    return label
+
+
+def npc_value(label: str, value: str) -> str:
+    value = value.strip()
+    if value.endswith("\\") or GUARDED.match(value):
+        raise Queue("escaped-edge", label)
+    return value
+
+
+def npc_rows(segment: str) -> list[tuple[str, str]]:
+    """The rows of one labelled line: `**A** x; **B** y` gives (A, x), (B, y)."""
+    flat = join_wrapped(segment.split("\n"))
+    found = list(NPC_LABEL.finditer(flat))
+    rows = []
+    for position, match in enumerate(found):
+        label = npc_label(match.group(1))
+        if position + 1 == len(found):
+            rows.append((label, npc_value(label, flat[match.end():])))
+            continue
+        following = found[position + 1]
+        value = flat[match.end():following.start()]
+        separator = re.search(r"([;,])\s*$", value)
+        if separator is None:
+            raise Queue("label-without-separator", following.group(1))
+        if separator.group(1) == "," and following.group(1) not in NPC_COMMA_LABELS:
+            raise Queue("comma-before-label", following.group(1))
+        rows.append((label, npc_value(label, value[: separator.start()])))
+    return rows
+
+
+def classify_npc(body: str) -> str:
+    count = len(re.findall(r"^\*\*Challenge rating:\*\*", body, re.M))
+    if count == 1:
+        return "paragraphs"
+    if count == 0 and re.search(r"^::: statblock\nChallenge rating:", body, re.M):
+        return "already"
+    raise Queue("challenge-rating-lines", str(count))
+
+
+def convert_npc(body: str) -> str:
+    """The converted body of an NPC. Raises Queue when a rule does not cover the file."""
+    lines = body.split("\n")
+    if any(line.startswith(":::") for line in lines):
+        raise Queue("fence-in-body")
+    parts: list[str] = []
+    zone = "lead"
+    seen: set[str] = set()
+    block: list | None = None  # [title, rows]
+    spell_rows = False  # the open block is a spell list that still takes level rows
+    lead_state = "before"  # before | rating | done
+    unlabelled: list[str] = []
+    moved: str | None = None
+
+    def close() -> None:
+        nonlocal block, spell_rows
+        if block is not None:
+            if not block[1]:
+                raise Queue("empty-spell-list", block[0] or "")
+            parts.append(render_block(block[0], block[1]))
+        block = None
+        spell_rows = False
+
+    def add(label: str, value: str) -> None:
+        nonlocal block
+        if block is None:
+            block = [None, []]
+        block[1].append((label, [value]))
+
+    for chunk in chunks(lines):
+        text = "\n".join(chunk)
+        if HEADING.match(chunk[0]):
+            close()
+            if zone == "lead" and lead_state != "done":
+                raise Queue("no-lead-paragraph")
+            if chunk[0] in NPC_SECTIONS:
+                if chunk[0] in seen:
+                    raise Queue("section-twice", chunk[0][4:])
+                seen.add(chunk[0])
+                zone = "section"
+            else:
+                zone = "other"
+            parts.append(text)
+            continue
+        if zone == "other":
+            parts.append(text)
+            continue
+        if zone == "lead" and lead_state == "before":
+            rating = NPC_CR.fullmatch(text)
+            if rating:
+                add("Challenge rating", npc_value("Challenge rating", rating.group(1)))
+                lead_state = "rating"
+            elif text.startswith(("**", "- ", ">", "|")):
+                raise Queue("lead-shape", " ".join(text.split())[:40])
+            else:
+                parts.append(text)  # N2: the read-aloud line stays
+            continue
+        if zone == "lead" and lead_state == "done":
+            raise Queue("extra-lead-paragraph", " ".join(text.split())[:40])
+        if not text.startswith("**"):
+            reason = "quote-in-section" if text.startswith(">") else "prose-in-section"
+            raise Queue(reason, " ".join(text.split())[:40])
+        segments = npc_segments(chunk)
+        for position, segment in enumerate(segments):
+            flat = join_wrapped(segment.split("\n"))
+            if flat.startswith("**"):
+                header = NPC_HEADER.fullmatch(flat)
+                levels_follow = position + 1 < len(segments) and segments[position + 1].startswith("_")
+                if levels_follow:
+                    # N5: a spell list opens a titled block.
+                    if header is None or zone == "lead":
+                        raise Queue("spell-header", flat[:60])
+                    close()
+                    block = [npc_label(header.group(1)), []]
+                    for piece in header.group(2).split("; "):
+                        named = NPC_HEADER_PART.fullmatch(piece)
+                        if named is None:
+                            raise Queue("spell-header", flat[:60])
+                        add(named.group(1), npc_value(named.group(1), named.group(2)))
+                    if [label for label, _ in block[1]][:1] != ["CL"] or len(block[1]) > 2:
+                        raise Queue("spell-header", flat[:60])
+                    spell_rows = True
+                    continue
+                spell_rows = False
+                for label, value in npc_rows(segment):
+                    add(label, value)
+                continue
+            level = NPC_LEVEL.fullmatch(flat)
+            if flat.startswith("_") and level:
+                if not spell_rows:
+                    raise Queue("spell-header", flat[:40])
+                label = npc_label(level.group(1))
+                add(label, npc_value(label, level.group(2)))
+                continue
+            contiguous = not unlabelled or segments[position - 1] is unlabelled[-1]
+            if zone == "lead" and contiguous and flat and not flat.startswith(("_", "- ", ">")):
+                unlabelled.append(segment)  # N3
+                continue
+            raise Queue("unlabelled-line", flat[:40])
+        if zone == "lead":
+            lead_state = "done"
+            if unlabelled:
+                if len(unlabelled) > 3 or unlabelled[-1].endswith("\\"):
+                    raise Queue("lead-shape", "unlabelled lines")
+                moved = "\\\n".join(unlabelled)
+                parts.append(moved)
+            close()
+    close()
+    if lead_state != "done" or "### Defense" not in seen or "### Statistics" not in seen:
+        raise Queue("no-lead-or-defense")
+    new_body = "\n" + "\n\n".join(parts) + "\n"
+    prove_npc(body, new_body, moved)
+    return new_body
+
+
+def npc_proof_words(body: str) -> list[str]:
+    """The words of an unconverted NPC body, with exactly the separators the NPC rules drop taken
+    out of its statistics. Written apart from `convert_npc` so that it checks it.
+
+    In the lead and in the Defense, Offense, Statistics and Ecology sections only:
+    - a bold label loses the `;` or `,` before it and gains the colon of a row;
+    - a spell list header `**Title** (CL 6th; concentration +9)` loses its parentheses and the `;`,
+      and `CL` and `concentration` gain the colon of a row;
+    - a spell level label `_3rd_-` loses its emphasis markers and its dash for the colon of a row;
+    - the linked label `[Spell-Like Abilities](…)` loses its link.
+    Nothing else is touched: every other character of every word must be found again.
+    """
+    out: list[str] = []
+    zone = True
+    for chunk in chunks(body.split("\n")):
+        text = "\n".join(chunk)
+        if HEADING.match(chunk[0]):
+            zone = chunk[0] in NPC_SECTIONS
+            out.extend(words(text))
+            continue
+        if not zone or not text.startswith("**"):
+            out.extend(words(text))
+            continue
+        segments = text.split("\\\n")
+        for position, segment in enumerate(segments):
+            flat = " ".join(segment.split("\n"))
+            for linked, plain in NPC_LINKED_LABELS.items():
+                flat = flat.replace("**" + linked + "**", "**" + plain + "**")
+            header = re.fullmatch(r"\*\*([^*]+)\*\* \(([^()]*)\)", flat)
+            if header and position + 1 < len(segments) and segments[position + 1].startswith("_"):
+                pieces = [re.sub(r"^(\S+) ", r"\1: ", piece) for piece in header.group(2).split("; ")]
+                flat = header.group(1) + " " + " ".join(pieces)
+            elif flat.startswith("_"):
+                flat = re.sub(r"^_([^_]+)_-", r"\1: ", flat).replace("**", "")  # bold in a value stays
+            else:
+                flat = re.sub(r"[;,]?\s*\*\*([^*]+?):?\*\*", r" \1:", flat)
+            out.extend(flat.split())
+    return out
+
+
+def prove_npc(body: str, new_body: str, moved: str | None) -> None:
+    expected = npc_proof_words(body)
+    if moved is not None:
+        expected = move_run(expected, words(moved), ["Challenge", "rating:"])
+    actual = words(new_body)
+    if expected != actual:
+        at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
+        raise ProofFailed(f"words differ at {at}: {expected[at:at + 6]} / {actual[at:at + 6]}")
+    old = heading_lines(body)
+    if heading_lines(new_body) != old:
+        raise ProofFailed("a heading changed")
+
+
 # ---- running -------------------------------------------------------------------------------------
 
 
@@ -659,15 +936,16 @@ def pass_files(root: Path, name: str) -> list[Path]:
     return out
 
 
-def plan_file(text: str) -> tuple[str, str, str]:
+def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
     """(status, detail, new text). Status: converted, already, skipped or a queue reason."""
     front, body = split_front(text)
     if not re.search(r'^kind = "creature"$', front, re.M):
         return "skipped", "", text
     try:
-        if classify_monster(body) == "already":
+        classify, convert = (classify_npc, convert_npc) if name == "npc" else (classify_monster, convert_monster)
+        if classify(body) == "already":
             return "already", "", text
-        new_body = convert_monster(body)
+        new_body = convert(body)
     except Queue as queued:
         return "queue:" + queued.reason, queued.detail, text
     new_text = front + new_body
@@ -711,7 +989,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
         for path in pass_files(root, name):
             rel = path.relative_to(root).as_posix()
             text = path.read_text(encoding="utf-8")
-            status, detail, _ = plan_file(text)
+            status, detail, _ = plan_file(text, name)
             if status.startswith("queue:"):
                 rows.append((rel, name, status[6:], detail))
             for row in print_254_rows(split_front(text)[1]):
@@ -746,13 +1024,13 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
                 continue
             only_shown = True
             text = path.read_text(encoding="utf-8")
-            status, detail, new_text = plan_file(text)
+            status, detail, new_text = plan_file(text, name)
             counts[(name, status)] += 1
             if status == "converted":
                 changed += 1
                 if mode == "write":
                     write_atomic(path, new_text)
-                    if plan_file(new_text)[0] != "already":
+                    if plan_file(new_text, name)[0] != "already":
                         raise ProofFailed(f"{path}: the written file does not read as converted")
                 elif mode == "check":
                     print(f"would change: {path.relative_to(root).as_posix()}", file=out)
@@ -786,7 +1064,9 @@ def implemented_passes() -> list[str]:
 def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
-        suite = unittest.defaultTestLoader.loadTestsFromTestCase(SelfTest)
+        suite = unittest.TestSuite(
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest)
+        )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
     passes = implemented_passes()
@@ -1088,6 +1368,197 @@ class SelfTest(unittest.TestCase):
                         path.write_text(path.read_text(encoding="utf-8").replace(pair[1], later), encoding="utf-8")
                 self.assertEqual(fix_state(root, fix)[0], "applied")
 
+
+
+NPC_SAMPLE = r"""
+_A read-aloud line._
+
+**Challenge rating:** 5
+
+**XP** 1,600\
+Human [evoker](ref/class/wizard) 6 with a class line that is long enough for the writer to wrap it
+onto a second line\
+N Medium humanoid (human)\
+**Init** +6; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +6
+
+### Defense
+
+**AC** 16, touch 12, flat-footed 14 (+4 mage armor, +2 Dex)\
+**hp** 33 (6d6+12)\
+**Fort** +3, **Ref** +4, **Will** +5; +2 vs. enchantments\
+**Defensive Abilities** evasion; **DR** 10/magic
+
+### Offense
+
+**Speed** 30 ft.\
+**Space** 5 ft., **Reach** 5 ft. (10 ft. with lance)\
+**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 6th; concentration +9)\
+_6/day_-dehydrating touch\
+**Wizard Spells Prepared** (CL 6th; concentration +9)\
+_3rd_-[dispel magic](ref/spell/dispel-magic), fly, **[haste](ref/spell/haste)**,
+[fireball](ref/spell/fireball) (2) (DC 17)\
+_0 (at will)_-light^D^\
+**D** Domain spell; **Domains** Fire
+
+### Tactics
+
+**Before Combat** The mage casts _mage armor_.\
+**Base Statistics** Without it, **AC** 12, touch 12.
+
+### Statistics
+
+**Str** 9, **Dex** 14, **Con** 12, **Int** 17, **Wis** 10, **Cha** 13\
+**Base Atk** +3; **CMB** +2; **CMD** 17
+
+### Description
+
+Prose with **Bold** words; and _3rd_-level slots.
+"""
+
+NPC_EXPECTED = r"""
+_A read-aloud line._
+
+Human [evoker](ref/class/wizard) 6 with a class line that is long enough for the writer to wrap it
+onto a second line\
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +6
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +6
+:::
+
+### Defense
+
+::: statblock
+AC: 16, touch 12, flat-footed 14 (+4 mage armor, +2 Dex)
+hp: 33 (6d6+12)
+Fort: +3
+Ref: +4
+Will: +5; +2 vs. enchantments
+Defensive Abilities: evasion
+DR: 10/magic
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft.
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+CL: 6th
+concentration: +9
+6/day: dehydrating touch
+:::
+
+::: statblock
+title = "Wizard Spells Prepared"
+CL: 6th
+concentration: +9
+3rd: [dispel magic](ref/spell/dispel-magic), fly, **[haste](ref/spell/haste)**, [fireball](ref/spell/fireball) (2) (DC 17)
+0 (at will): light^D^
+D: Domain spell
+Domains: Fire
+:::
+
+### Tactics
+
+**Before Combat** The mage casts _mage armor_.\
+**Base Statistics** Without it, **AC** 12, touch 12.
+
+### Statistics
+
+::: statblock
+Str: 9
+Dex: 14
+Con: 12
+Int: 17
+Wis: 10
+Cha: 13
+Base Atk: +3
+CMB: +2
+CMD: 17
+:::
+
+### Description
+
+Prose with **Bold** words; and _3rd_-level slots.
+"""
+
+
+class NpcSelfTest(unittest.TestCase):
+    def queued(self, body: str) -> str:
+        with self.assertRaises(Queue) as caught:
+            classify_npc(body)
+            convert_npc(body)
+        return caught.exception.reason
+
+    def test_an_npc_converts_by_the_rules(self):
+        self.assertEqual(convert_npc(NPC_SAMPLE), NPC_EXPECTED)
+
+    def test_a_converted_npc_reads_as_already(self):
+        status, _, text = plan_file(FRONT + NPC_SAMPLE, "npc")
+        self.assertEqual((status, text), ("converted", FRONT + NPC_EXPECTED))
+        self.assertEqual(plan_file(text, "npc"), ("already", "", text))
+
+    def test_what_the_npc_rules_do_not_cover_is_queued(self):
+        cases = [
+            ("unlabelled-line", NPC_SAMPLE.replace("Perception +6\n", "Perception +6\\\nAura courage (10 ft.)\n", 1)),
+            ("unlabelled-line", NPC_SAMPLE.replace("**hp** 33", "hp 33")),
+            ("unlabelled-line", NPC_SAMPLE.replace("**D** Domain spell", "D Domain spell")),
+            ("spell-header", NPC_SAMPLE.replace("concentration +9)\\\n_3rd_", "concentration +9; arcane spell failure 10%)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(CL 6th, concentration +9)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("(CL 6th; concentration +9)\\\n_3rd_", "(CL 6th; conc. +9)\\\n_3rd_")),
+            ("spell-header", NPC_SAMPLE.replace("**Speed** 30 ft.\\\n", "**Speed** 30 ft.\\\n_3rd_-fly\\\n")),
+            ("spell-header", NPC_SAMPLE.replace("**D** Domain spell; **Domains** Fire", "**Domains** Fire\\\n_1st_-bless")),
+            ("unlabelled-line", NPC_SAMPLE.replace("_0 (at will)_-light^D^", "_0 (at will)_ light^D^")),
+            ("label-without-separator", NPC_SAMPLE.replace("**Speed** 30 ft.\\\n", "**Speed** 30 ft. **Melee** bite +1\\\n")),
+            ("comma-before-label", NPC_SAMPLE.replace("evasion; **DR**", "evasion, **DR**")),
+            ("label-needs-escape", NPC_SAMPLE.replace("**Speed**", "**[Speed](ref/rule/speed)**")),
+            ("label-needs-escape", NPC_SAMPLE.replace("_6/day_-", "_6/day: x_-")),
+            ("section-twice", NPC_SAMPLE + "\n### Defense\n\n**AC** 10\n"),
+            ("quote-in-section", NPC_SAMPLE.replace("**Str** 9", "> **Str** 9")),
+            ("prose-in-section", NPC_SAMPLE.replace("**Str** 9", "Str 9")),
+            ("extra-lead-paragraph", NPC_SAMPLE.replace("### Defense\n\n", "**Aura** fear\n\n### Defense\n\n", 1)),
+            ("lead-shape", NPC_SAMPLE.replace("_A read-aloud line._", "**Name**")),
+            ("challenge-rating-lines", NPC_SAMPLE.replace("**Challenge rating:** 5\n\n", "")),
+            ("no-lead-or-defense", NPC_SAMPLE.replace("### Defense", "### Defenses")),
+            ("escaped-edge", NPC_SAMPLE.replace("**hp** 33", "**hp** \\- 33")),
+            ("fence-in-body", NPC_SAMPLE + "\n::: statblock\nA: b\n:::\n"),
+        ]
+        for reason, body in cases:
+            with self.subTest(reason=reason, body=body[-60:]):
+                self.assertNotEqual(body, NPC_SAMPLE)
+                self.assertEqual(self.queued(body), reason)
+
+    def test_the_npc_word_proof_allows_only_the_dropped_separators(self):
+        moved = NPC_EXPECTED.split("\n\n")[1]
+        prove_npc(NPC_SAMPLE, NPC_EXPECTED, moved)
+        broken = [
+            NPC_EXPECTED.replace("fly, ", ""),  # a spell name lost
+            NPC_EXPECTED.replace("(2) (DC 17)", "(DC 17)"),  # a count lost
+            NPC_EXPECTED.replace("CL: 6th\nconcentration: +9\n3rd", "CL: 6th\nconcentration: +8\n3rd"),  # a number changed
+            NPC_EXPECTED.replace("6/day: dehydrating", "5/day: dehydrating"),
+            NPC_EXPECTED.replace("Will: +5; +2 vs. enchantments", "Will: +5"),
+            NPC_EXPECTED.replace("Fort: +3", "Fort: +3,"),  # a separator kept inside a value
+            NPC_EXPECTED.replace("Senses: [low-light vision](ref/rule/low-light-vision); Perception", "Senses: low-light vision; Perception"),
+            NPC_EXPECTED.replace("3rd_-level slots", "3rd: level slots"),  # prose is not covered by the allowance
+            NPC_EXPECTED.replace("**Base Statistics** Without it, **AC** 12", "Base Statistics: Without it AC: 12"),
+            NPC_EXPECTED.replace("N Medium humanoid (human)", "N Medium humanoid"),
+            NPC_EXPECTED.replace("### Tactics", "### Tactic"),
+        ]
+        for text in broken:
+            with self.subTest(text=text[:0] + str(broken.index(text))):
+                self.assertNotEqual(text, NPC_EXPECTED)
+                with self.assertRaises(ProofFailed):
+                    prove_npc(NPC_SAMPLE, text, moved)
+        with self.assertRaises(ProofFailed):  # the unlabelled lines left where they were
+            prove_npc(NPC_SAMPLE, NPC_EXPECTED, None)
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))

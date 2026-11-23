@@ -15,23 +15,32 @@ kind = "creature"
 cr = "1/3"
 +++
 
-**Challenge rating:** 1/3
-
-**XP** 135\
 Human [expert](ref/npcclass/expert) 1\
-N Medium humanoid (human)\
-**Init** +2; **Senses** Perception +4
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/3
+XP: 135
+Init: +2
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)\
-**hp** 4 (1d8)\
-**Fort** +0, **Ref** +2, **Will** +2
+::: statblock
+AC: 13, touch 12, flat-footed 11 (+1 armor, +2 Dex)
+hp: 4 (1d8)
+Fort: +0
+Ref: +2
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** dagger -1 (1d4-1/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: dagger -1 (1d4-1/19-20)
+:::
 
 ### Tactics
 
@@ -39,15 +48,22 @@ N Medium humanoid (human)\
 
 ### Statistics
 
-**Str** 8, **Dex** 15, **Con** 11, **Int** 12, **Wis** 10, **Cha** 9\
-**Base Atk** +0; **CMB** -1; **CMD** 11\
-**Feats** [Run](ref/feat/run), [Skill Focus](ref/feat/skill-focus) (Craft \[jewelry\])\
-**Skills** Appraise +5, Craft (jewelry) +8, Diplomacy +3, Disable Device +6, Knowledge (history,
-local, nobility) +5, Perception +4, Use Magic Device +3\
-**Languages** Common\
-**Combat Gear** [acid](ref/eq-weapon/acid); **Other Gear** [padded armor](ref/eq-armor/padded),
-[dagger](ref/eq-weapon/dagger), masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork),
-188 gp
+::: statblock
+Str: 8
+Dex: 15
+Con: 11
+Int: 12
+Wis: 10
+Cha: 9
+Base Atk: +0
+CMB: -1
+CMD: 11
+Feats: [Run](ref/feat/run), [Skill Focus](ref/feat/skill-focus) (Craft \[jewelry\])
+Skills: Appraise +5, Craft (jewelry) +8, Diplomacy +3, Disable Device +6, Knowledge (history, local, nobility) +5, Perception +4, Use Magic Device +3
+Languages: Common
+Combat Gear: [acid](ref/eq-weapon/acid)
+Other Gear: [padded armor](ref/eq-armor/padded), [dagger](ref/eq-weapon/dagger), masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork), 188 gp
+:::
 
 ### Description
 

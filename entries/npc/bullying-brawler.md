@@ -15,27 +15,35 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [monk](ref/class/monk) 2\
-LE Medium humanoid (human)\
-**Init** +5; **Senses** Perception +7
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +5
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 14, touch 14, flat-footed 12 (+1 Dex, +1 dodge, +2 Wis)\
-**hp** 17 (2d8+5)\
-**Fort** +5, **Ref** +4, **Will** +5\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 14, touch 14, flat-footed 12 (+1 Dex, +1 dodge, +2 Wis)
+hp: 17 (2d8+5)
+Fort: +5
+Ref: +4
+Will: +5
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** unarmed strike +5 (1d6+4) or mwk nunchaku +6 (1d6+4) or mwk nunchaku flurry of blows +4/+4
-(1d6+4)\
-**Ranged** light crossbow +2 (1d8/19-20)\
-**Special Attacks** flurry of blows, stunning fist (2/day, DC 13)
+::: statblock
+Speed: 30 ft.
+Melee: unarmed strike +5 (1d6+4) or mwk nunchaku +6 (1d6+4) or mwk nunchaku flurry of blows +4/+4 (1d6+4)
+Ranged: light crossbow +2 (1d8/19-20)
+Special Attacks: flurry of blows, stunning fist (2/day, DC 13)
+:::
 
 ### Tactics
 
@@ -49,18 +57,22 @@ drink one of his potions of cure light wounds before returning to the fray.\
 
 ### Statistics
 
-**Str** 19, **Dex** 12, **Con** 15, **Int** 8, **Wis** 14, **Cha** 10\
-**Base Atk** +1; **CMB** +5; **CMD** 19\
-**Feats** [Blind-Fight](ref/feat/blind-fight), [Dodge](ref/feat/dodge),
-[Improved Initiative](ref/feat/improved-initiative),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist)\
-**Skills** Acrobatics +5, Bluff +1, Intimidate +5, Perception +7, Sense Motive +7, Stealth +5\
-**Languages** Common\
-**Combat Gear** potion of [bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), [acid](ref/eq-weapon/acid) (2); **Other Gear**
-[light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, masterwork
-[nunchaku](ref/eq-weapon/nunchaku), 23 gp
+::: statblock
+Str: 19
+Dex: 12
+Con: 15
+Int: 8
+Wis: 14
+Cha: 10
+Base Atk: +1
+CMB: +5
+CMD: 19
+Feats: [Blind-Fight](ref/feat/blind-fight), [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist)
+Skills: Acrobatics +5, Bluff +1, Intimidate +5, Perception +7, Sense Motive +7, Stealth +5
+Languages: Common
+Combat Gear: potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), [acid](ref/eq-weapon/acid) (2)
+Other Gear: [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, masterwork [nunchaku](ref/eq-weapon/nunchaku), 23 gp
+:::
 
 ### Description
 

@@ -15,62 +15,55 @@ kind = "creature"
 cr = "13"
 +++
 
-**Challenge rating:** 13
-
-**XP** 25,600\
 Human [rogue](ref/class/rogue) 9/Aspis agent 4\
-LE Medium humanoid (human)\
-**Init** +5; **Senses** Perception +15
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 13
+XP: 25,600
+Init: +5
+Senses: Perception +15
+:::
 
 ### Defense
 
-**AC** 21, touch 16, flat-footed 16 (+5 armor, +1 deflection, +5 Dex)\
-**hp** 110 (13d8+48)\
-**Fort** +8, **Ref** +15, **Will** +7\
-**Defensive Abilities** [evasion](ref/ability/evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+5
+::: statblock
+AC: 21, touch 16, flat-footed 16 (+5 armor, +1 deflection, +5 Dex)
+hp: 110 (13d8+48)
+Fort: +8
+Ref: +15
+Will: +7
+Defensive Abilities: [evasion](ref/ability/evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 rapier +15/+10 (1d6+1/18-20), mwk whip +16/+11 (1d3 nonlethal)\
-**Ranged** mwk light crossbow +15 (1d8/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +6d6
+::: statblock
+Speed: 30 ft.
+Melee: +1 rapier +15/+10 (1d6+1/18-20), mwk whip +16/+11 (1d3 nonlethal)
+Ranged: mwk light crossbow +15 (1d8/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +6d6
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 20, **Con** 14, **Int** 13, **Wis** 8, **Cha** 14\
-**Base Atk** +9; **CMB** +9 (+13 disarm); **CMD** 25 (27 vs. disarm)\
-**Feats** [Combat Expertise](ref/feat/combat-expertise),
-[Dazzling Display](ref/feat/dazzling-display),
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (whip),
-[Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm),
-[Iron Will](ref/feat/iron-will), [Skill Focus](ref/feat/skill-focus) (Intimidate),
-[Toughness](ref/feat/toughness), [Weapon Finesse](ref/feat/weapon-finesse),
-[Weapon Focus](ref/feat/weapon-focus) (whip)\
-**Skills** Acrobatics +21, Appraise +14, Bluff +15, Climb +10, Craft (traps) +10, Diplomacy +11,
-Disable Device +21, Intimidate +24, Knowledge (arcana) +5, Knowledge (history) +12, Knowledge
-(local) +5, Perception +15, Sense Motive +7, Sleight of Hand +11, Stealth +13\
-**Languages** Common, Polyglot\
-**SQ** agency secrets (bonus feat, shrunken smuggle), ambush trap, mask alignment, rogue talents
-([finesse rogue](ref/talent/finesse-rogue), [minor magic](ref/talent/minor-magic),
-[quick disable](ref/talent/quick-disable), [trap spotter](ref/talent/trap-spotter)),
-[trapfinding](ref/ability/trapfinding) +6\
-**Combat Gear** [feather token (whip)](ref/magic-wondrous/feather-token-whip), potion of
-[barkskin](ref/spell/barkskin) +3, potion of [cure serious wounds](ref/spell/cure-serious-wounds),
-potion of [fly](ref/spell/fly); **Other Gear** +1 [mithral](ref/eq-material/mithral)
-[chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier), mwk
-[light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, mwk [whip](ref/eq-weapon/whip),
-[belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power) (silver raven),
-[handy haversack](ref/magic-wondrous/handy-haversack),
-[ring of feather falling](ref/magic-ring/ring-of-feather-falling),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[everburning torch](ref/eq-misc/everburning-torch), [sunrods](ref/eq-misc/sunrod) (2), mwk
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), silver Aspis Consortium badge (worth 25 gp),
-pearls (4, worth 100 gp each), 553 gp
+::: statblock
+Str: 10
+Dex: 20
+Con: 14
+Int: 13
+Wis: 8
+Cha: 14
+Base Atk: +9
+CMB: +9 (+13 disarm)
+CMD: 25 (27 vs. disarm)
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Dazzling Display](ref/feat/dazzling-display), [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (whip), [Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm), [Iron Will](ref/feat/iron-will), [Skill Focus](ref/feat/skill-focus) (Intimidate), [Toughness](ref/feat/toughness), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (whip)
+Skills: Acrobatics +21, Appraise +14, Bluff +15, Climb +10, Craft (traps) +10, Diplomacy +11, Disable Device +21, Intimidate +24, Knowledge (arcana) +5, Knowledge (history) +12, Knowledge (local) +5, Perception +15, Sense Motive +7, Sleight of Hand +11, Stealth +13
+Languages: Common, Polyglot
+SQ: agency secrets (bonus feat, shrunken smuggle), ambush trap, mask alignment, rogue talents ([finesse rogue](ref/talent/finesse-rogue), [minor magic](ref/talent/minor-magic), [quick disable](ref/talent/quick-disable), [trap spotter](ref/talent/trap-spotter)), [trapfinding](ref/ability/trapfinding) +6
+Combat Gear: [feather token (whip)](ref/magic-wondrous/feather-token-whip), potion of [barkskin](ref/spell/barkskin) +3, potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [fly](ref/spell/fly)
+Other Gear: +1 [mithral](ref/eq-material/mithral) [chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier), mwk [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, mwk [whip](ref/eq-weapon/whip), [belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power) (silver raven), [handy haversack](ref/magic-wondrous/handy-haversack), [ring of feather falling](ref/magic-ring/ring-of-feather-falling), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [everburning torch](ref/eq-misc/everburning-torch), [sunrods](ref/eq-misc/sunrod) (2), mwk [thieves' tools](ref/eq-misc/thieves-tools-masterwork), silver Aspis Consortium badge (worth 25 gp), pearls (4, worth 100 gp each), 553 gp
+:::
 
 ### Special Abilities
 
