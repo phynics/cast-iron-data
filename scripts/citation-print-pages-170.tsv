@@ -3473,14 +3473,14 @@ ref/talent/acrobatic-stunt	inner-sea-combat	16	print
 ref/talent/ambuscading-grapple	monster-hunters-handbook	9	print		
 ref/talent/armor-piercer	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
 ref/talent/claimed-turf	inner-sea-intrigue	32	print		
-ref/talent/climbing-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/climbing-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/dampen-presence	magic-tactics-toolbox	27	print		
 ref/talent/developed-poison-immunity	heroes-of-the-wild	21	print		
-ref/talent/disabling-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/disabling-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/eldritch-conduit	magic-tactics-toolbox	7	print		
-ref/talent/escaping-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/escaping-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/favored-terrain	heroes-of-the-wild	21	print		
-ref/talent/flying-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/flying-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/glib-facade	magic-tactics-toolbox	27	print		
 ref/talent/green-tongue	heroes-of-the-wild	21	print		
 ref/talent/innocent-facade	magic-tactics-toolbox	27	print		
@@ -3489,15 +3489,15 @@ ref/talent/just-a-face-in-the-crowd	magic-tactics-toolbox	7	print
 ref/talent/maneuvering-dodge	inner-sea-intrigue	32	print		
 ref/talent/occult-dungeoneer	magic-tactics-toolbox	7	print		
 ref/talent/rapid-perception	magic-tactics-toolbox	27	print		
-ref/talent/riding-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/riding-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/scry-slip	magic-tactics-toolbox	27	print		
 ref/talent/sczarni-smuggler	inner-sea-intrigue	32	print		
-ref/talent/sleight-of-hand-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/sleight-of-hand-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/spell-storing	magic-tactics-toolbox	7	print		
 ref/talent/stealth-stunt	inner-sea-combat	16	print		
 ref/talent/superior-sniper	magic-tactics-toolbox	27	print		
 ref/talent/swift-tracker	heroes-of-the-wild	21	print		
-ref/talent/swimming-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/swimming-stunt	inner-sea-combat	16	print		the rogue talent (a skill stunt) is printed under its name on this page
 ref/talent/the-whole-time	magic-tactics-toolbox	7	print		
 ref/talent/thrill-of-the-chase	inner-sea-intrigue	32	print		
 ref/talent/unlock-ki	magic-tactics-toolbox	27	print		

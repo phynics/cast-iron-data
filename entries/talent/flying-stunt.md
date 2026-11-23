@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "inner-sea-combat"
+page = "16"
 
 [fields]
 kind = "class_option"
