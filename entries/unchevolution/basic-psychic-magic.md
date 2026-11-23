@@ -6,6 +6,9 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basic_psychic_magic", path = "json/class_ability_unchained_evolutions.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "18"
 
 [fields]
 kind = "class_option"

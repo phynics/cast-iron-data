@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swift_tracker", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "21"
 
 [fields]
 kind = "class_option"

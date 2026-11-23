@@ -6,6 +6,9 @@ source_ids = ["inner-sea-monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hunger", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "inner-sea-monster-codex"
+page = "17"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,8 @@ source_ids = ["occult-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "complex_countermeasures", path = "json/class_ability_phrenic_amplifications.json" },
 ]
+[[sources]]
+publication = "occult-adventures"
 
 [fields]
 kind = "class_option"

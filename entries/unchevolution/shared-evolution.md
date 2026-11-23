@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shared_evolution", path = "json/class_ability_unchained_evolutions.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "19"
 
 [fields]
 kind = "class_option"

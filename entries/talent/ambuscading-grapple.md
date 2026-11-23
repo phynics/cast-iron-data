@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ambuscading_grapple", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "9"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["pathfinder-98-turn-of-the-torrent"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seek_the_taken", path = "json/class_ability_hellknight_disciplines.json" },
 ]
+[[sources]]
+publication = "pathfinder-98-turn-of-the-torrent"
+page = "67"
 
 [fields]
 kind = "class_option"

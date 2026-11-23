@@ -6,6 +6,8 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "breath_of_the_ancestors", path = "json/class_ability_ninja_tricks.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alien_consciousness", path = "json/class_ability_unchained_evolutions.json" },
 ]
+[[sources]]
+publication = "horror-realms"
+page = "19"
 
 [fields]
 kind = "class_option"

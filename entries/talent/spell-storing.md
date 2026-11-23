@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_storing", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "7"
 
 [fields]
 kind = "class_option"

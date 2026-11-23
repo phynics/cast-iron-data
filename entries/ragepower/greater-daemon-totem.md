@@ -6,6 +6,8 @@ source_ids = ["horror-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_daemon_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "horror-adventures"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wounding_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "12"
 
 [fields]
 kind = "class_option"

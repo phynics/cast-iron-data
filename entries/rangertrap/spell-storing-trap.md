@@ -6,6 +6,9 @@ source_ids = ["kobolds-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spell_storing_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "kobolds-of-golarion"
+page = "21"
 
 [fields]
 kind = "class_option"

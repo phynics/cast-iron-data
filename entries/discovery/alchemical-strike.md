@@ -6,6 +6,8 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_strike", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
 
 [fields]
 kind = "class_option"

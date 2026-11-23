@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "suffocating_grip", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "29"
 
 [fields]
 kind = "class_option"
