@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "44"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "46"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
 
 [fields]
 kind = "item"
@@ -46,14 +52,12 @@ Cost: 5,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 6,000 gp\
 This stone grants a +1 resistance bonus on saving throws per stone, stacking up to +3 total with
 other amber spindle ioun stones (flawed or otherwise).
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 3,400 gp\
 This stone grants a +1 resistance bonus on Fortitude, Reflex, or Will saves. The bonuses from
 multiple amber spindles (cracked or otherwise) stack, up to a maximum of a +5 resistance bonus.

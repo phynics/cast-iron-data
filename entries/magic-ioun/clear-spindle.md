@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "48"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "46"
 
 [fields]
 kind = "item"
@@ -56,12 +62,10 @@ Cost: 2,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 2,000 gp\
 This stone sustains the wearer without food but he must consume twice the normal amount of water.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 1,000 gp\
 This stone sustains the wearer on half the normal amount of food.

@@ -12,6 +12,12 @@ page = "149"
 [[sources]]
 publication = "seekers-of-secrets"
 page = "44"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "46"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
 
 [fields]
 kind = "item"
@@ -51,12 +57,10 @@ Cost: 12 gp, 5 sp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 25 gp\
 This stone has no powers.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 25 gp\
 This stone has no powers.

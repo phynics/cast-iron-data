@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "48"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "46"
 
 [fields]
 kind = "item"
@@ -53,12 +59,10 @@ Cost: 2,500 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 4,000 gp\
 This stone grants a +1 insight bonus to AC and a -2 penalty to Strength.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 500 gp\
 This stone grants a +1 competence bonus on initiative checks.

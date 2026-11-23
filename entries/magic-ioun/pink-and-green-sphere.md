@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -53,12 +59,10 @@ Cost: 4,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 6,000 gp\
 This stone grants a +2 enhancement bonus to Charisma and a -2 penalty to Constitution.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 200 gp\
 This stone grants a +1 bonus on one Charisma-based skill.

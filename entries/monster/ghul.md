@@ -13,6 +13,9 @@ page = "125"
 [[sources]]
 publication = "dark-markets-a-guide-to-katapesh"
 page = "62"
+[[sources]]
+publication = "dark-markets-a-guide-to-katapesh"
+page = "63"
 
 [fields]
 kind = "creature"
@@ -133,8 +136,6 @@ with fleeing combat, even when it is obviously outmatched.
 Ghuls stand 6 feet tall and weigh 90 pounds.
 
 ### Great Ghuls
-
-**Sources:** Dark Markets - A Guide to Katapesh pg 63
 
 Jann are not the only victim's of Ahriman's curse; djinn, efreet, marids, and shaitains may rise as
 great ghuls, though this is much rarer than with jann. Stripped of most of their elemental powers,

@@ -41,17 +41,24 @@ entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignmen
 entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
 entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj
 entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/amber-spindle.md	item	sources-page-conflict	seekers-of-secrets: 44 / 47
+entries/magic-ioun/amber-spindle.md	item	print-fix	rows: the stone prints on p. 44, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 44) (Seekers of Secrets pp. 44, 46, 47)
+entries/magic-ioun/amber-spindle.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/amethyst-pyramid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/azure-briolette.md	item	variant-paragraphs	Aura; Price; Price
 entries/magic-ioun/brown-thorny.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/clear-spindle.md	item	sources-page-conflict	seekers-of-secrets: 47 / 46
-entries/magic-ioun/crimson-sphere.md	item	sources-page-conflict	seekers-of-secrets: 44 / 47
+entries/magic-ioun/clear-spindle.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 47) (Seekers of Secrets pp. 48, 46, 47)
+entries/magic-ioun/clear-spindle.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/crimson-sphere.md	item	print-fix	rows: the stone prints on p. 44, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 44) (Seekers of Secrets pp. 44, 46, 47)
+entries/magic-ioun/crimson-sphere.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/crimson-thorny.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/dark-blue-rhomboid.md	item	sources-page-conflict	seekers-of-secrets: 46 / 47
-entries/magic-ioun/deep-red-sphere.md	item	sources-page-conflict	seekers-of-secrets: 47 / 46
-entries/magic-ioun/dull-gray-stone.md	item	sources-page-conflict	seekers-of-secrets: 44 / 47
-entries/magic-ioun/dusty-rose-prism.md	item	sources-page-conflict	seekers-of-secrets: 47 / 46
+entries/magic-ioun/dark-blue-rhomboid.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 46) (Seekers of Secrets pp. 48, 46, 47)
+entries/magic-ioun/dark-blue-rhomboid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/deep-red-sphere.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 47) (Seekers of Secrets pp. 48, 46, 47)
+entries/magic-ioun/deep-red-sphere.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/dull-gray-stone.md	item	print-fix	rows: the stone prints on p. 44, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 44) (Seekers of Secrets pp. 44, 46, 47)
+entries/magic-ioun/dull-gray-stone.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/dusty-rose-prism.md	item	print-fix	rows: the stone prints on p. 48, its cracked variant on p. 46 and its flawed variant on p. 47 (the row said 47) (Seekers of Secrets pp. 48, 46, 47)
+entries/magic-ioun/dusty-rose-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/emerald-ellipsoid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/emerald-wedge.md	ioun	sentences-in-variant	Requirements
 entries/magic-ioun/emerald-wedge.md	item	variant-paragraphs	Aura
@@ -62,30 +69,46 @@ entries/magic-ioun/iridescent-spindle.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/lavender-and-green-ellipsoid.md	item	sources-page-conflict	seekers-of-secrets: 48 / 47
 entries/magic-ioun/magenta-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/mossy-disk.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/mulberry-pentacle.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
-entries/magic-ioun/nacreous-gray-sphere.md	item	sources-page-conflict	seekers-of-secrets: 45 / 47
-entries/magic-ioun/onyx-rhomboid.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
-entries/magic-ioun/opalescent-white-pyramid.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
-entries/magic-ioun/orange-prism.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
+entries/magic-ioun/mulberry-pentacle.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/mulberry-pentacle.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/nacreous-gray-sphere.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/nacreous-gray-sphere.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/onyx-rhomboid.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/onyx-rhomboid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/opalescent-white-pyramid.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/opalescent-white-pyramid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/orange-prism.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/orange-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/orange-thorny.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/pale-blue-rhomboid.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
-entries/magic-ioun/pale-green-prism.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
+entries/magic-ioun/pale-blue-rhomboid.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/pale-blue-rhomboid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/pale-green-prism.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/pale-green-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-lavender-ellipsoid.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
 entries/magic-ioun/pale-orange-rhomboid.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/pale-ruby-trillian.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
+entries/magic-ioun/pale-ruby-trillian.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/pale-ruby-trillian.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pearlescent-pyramid.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/pearly-white-spindle.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
-entries/magic-ioun/pink-and-green-sphere.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
-entries/magic-ioun/pink-rhomboid.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
-entries/magic-ioun/scarlet-and-blue-sphere.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
-entries/magic-ioun/scarlet-and-green-cabochon.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
+entries/magic-ioun/pearly-white-spindle.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/pearly-white-spindle.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/pink-and-green-sphere.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/pink-and-green-sphere.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/pink-rhomboid.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/pink-rhomboid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/scarlet-and-blue-sphere.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/scarlet-and-blue-sphere.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/scarlet-and-green-cabochon.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/scarlet-and-green-cabochon.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/silver-spindle.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/silver-thorny.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/teal-thorny.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/tourmaline-sphere.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/turquoise-sphere.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
-entries/magic-ioun/vermilion-rhomboid.md	item	sources-page-conflict	seekers-of-secrets: 45 / 48
-entries/magic-ioun/vibrant-purple-prism.md	item	sources-page-conflict	seekers-of-secrets: 47 / 50
+entries/magic-ioun/turquoise-sphere.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/turquoise-sphere.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/vermilion-rhomboid.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
+entries/magic-ioun/vermilion-rhomboid.md	item	variant-paragraphs	Price; Price
+entries/magic-ioun/vibrant-purple-prism.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
+entries/magic-ioun/vibrant-purple-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/violet-thorny.md	item	variant-paragraphs	Price; Price
 entries/magic-legacy/bracers-of-antiquity.md	item	variant-paragraphs	9th Level; 12th Level
 entries/magic-necrotoxin/entropic-dust.md	item	variant-paragraphs	Type
@@ -146,7 +169,7 @@ entries/monster/elemental-lord-ymeri.md	creature	print-fix	melee: `flaming burst
 entries/monster/ettercap.md	creature	section-after-heading	4 Challenge rating lines
 entries/monster/fire-elemental.md	creature	section-after-heading	6 Challenge rating lines
 entries/monster/fire-elemental.md	creature	sources-page-conflict	bestiary: 124 / 125
-entries/monster/ghul.md	creature	sources-page-conflict	dark-markets-a-guide-to-katapesh: 62 / 63
+entries/monster/ghul.md	creature	print-fix	rows: the Ghul on p. 62 and the Great Ghuls on p. 63 (Dark Markets, a Guide to Katapesh pp. 62-63)
 entries/monster/goblin-goblin-vulture-pilot.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/hag-annis-hag.md	creature	sources-unparsed	Blood of the Coven
 entries/monster/hag-ash-hag.md	creature	sources-unparsed	Blood of the Coven
@@ -172,13 +195,13 @@ entries/monster/moit-of-shub-niggurath-spawning-canker.md	creature	section-after
 entries/monster/mud-elemental.md	creature	section-after-heading	6 Challenge rating lines
 entries/monster/mud-elemental.md	creature	sources-page-conflict	bestiary-2: 120 / 121
 entries/monster/oni-yamabushi-tengu.md	creature	print-254	othersubs: Tengu
-entries/monster/shadow.md	creature	sources-page-conflict	undead-revisited: 46 / 49
+entries/monster/shadow.md	creature	print-fix	rows: the Shadow on p. 46 (the contents page) and its Variants on p. 49 (Undead Revisited pp. 46, 49)
 entries/monster/ship-in-a-bottle.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/stygira.md	creature	print-254	blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
 entries/monster/triaxian.md	creature	print-254	othersubs: Triaxian
 entries/monster/water-elemental.md	creature	section-after-heading	6 Challenge rating lines
 entries/monster/water-elemental.md	creature	sources-page-conflict	bestiary: 126 / 127
-entries/monster/wight.md	creature	sources-page-conflict	undead-revisited: 58 / 62
+entries/monster/wight.md	creature	print-fix	rows: the Wight on p. 58, Accursed Treasure on p. 61 and its Variants on p. 62 (Undead Revisited pp. 58, 61-62)
 entries/npc/axe-lord.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
 entries/npc/celestial-theurge.md	npc	spell-header	**Sorcerer Spells Known** (CL 6th; concentration +7; 25% spe
 entries/npc/crusader-holy-warrior.md	npc	unlabelled-line	Aura courage (10 ft.)

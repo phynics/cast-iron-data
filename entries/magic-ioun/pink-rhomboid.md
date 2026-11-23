@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -53,13 +59,11 @@ Cost: 4,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 6,000 gp\
 This stone grants a +2 enhancement bonus to Constitution and -2 penalty to Dexterity.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 1,400 gp\
 This stone grants a +4 competence bonus on one type of check affected by the
 [Endurance](ref/feat/endurance) feat.
