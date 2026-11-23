@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** neck; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: neck
+Price: 4,000 gp
+Weight: -
+:::
 
 This talisman is worn lashed around the neck and is made of flexible bark woven into a mesmerizing
 pattern. While wearing a talisman of beast training, a wearer finds that animals become much more
@@ -33,5 +38,7 @@ apart and becomes useless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal)
+Cost: 2,000 gp
+:::

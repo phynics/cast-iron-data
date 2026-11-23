@@ -23,8 +23,12 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** neck; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: neck
+Weight: -
+:::
 
 This engraved gem appears to be of little value. If any character keeps the periapt in her
 possession for more than 24 hours, she contracts a terrible rotting affliction that permanently
@@ -39,6 +43,7 @@ crumbles to dust.
 
 ### Construction
 
-**Requirements** [periapt of health](ref/magic-wondrous/periapt-of-health),
-[periapt of proof against poison](ref/magic-wondrous/periapt-of-proof-against-poison),
-[periapt of wound closure](ref/magic-wondrous/periapt-of-wound-closure); **Cost** -
+::: statblock
+Requirements: [periapt of health](ref/magic-wondrous/periapt-of-health), [periapt of proof against poison](ref/magic-wondrous/periapt-of-proof-against-poison), [periapt of wound closure](ref/magic-wondrous/periapt-of-wound-closure)
+Cost: -
+:::

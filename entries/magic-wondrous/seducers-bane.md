@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** wrists; **Price** 9,900 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: wrists
+Price: 9,900 gp
+Weight: -
+:::
 
 This slender silver bracelet is worked in an intertwined design of three flowers. A DC 20
 [Knowledge (nature)](ref/skill/knowledge-nature) check identifies the flowers as acacia, apocynum,
@@ -39,6 +44,7 @@ effect, the caster of that spell immediately realizes the enchantment was ineffe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [magic aura](ref/spell/magic-aura),
-[resistance](ref/spell/resistance), creator must have 3 ranks in Sense Motive; **Cost** 4,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [magic aura](ref/spell/magic-aura), [resistance](ref/spell/resistance), creator must have 3 ranks in Sense Motive
+Cost: 4,950 gp
+:::

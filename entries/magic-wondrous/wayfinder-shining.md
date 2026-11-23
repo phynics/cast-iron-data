@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 A shining wayfinder appears as a polished silver compass. In addition to the usual functions of a
 [wayfinder](ref/magic-wondrous/wayfinder) (including the ability to create light) a shining
@@ -38,6 +43,7 @@ even to the north).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect evil](ref/spell/detect-evil), [light](ref/spell/light),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect evil](ref/spell/detect-evil), [light](ref/spell/light), [protection from evil](ref/spell/protection-from-evil)
+Cost: 1,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** neck; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: neck
+Price: 3,500 gp
+Weight: -
+:::
 
 This medallion hangs on a leather cord, a silver disc inscribed with the Sihedron. These medallions
 were given to favored agents of the runelords; the medallions granted some minor benefits to the
@@ -40,6 +45,7 @@ medallion preserves the body indefinitely via a _[gentle repose](ref/spell/gentl
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[false life](ref/spell/false-life), [gentle repose](ref/spell/gentle-repose),
-[resistance](ref/spell/resistance); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [false life](ref/spell/false-life), [gentle repose](ref/spell/gentle-repose), [resistance](ref/spell/resistance)
+Cost: 1,750 gp
+:::

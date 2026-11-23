@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** neck; **Price** 9,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: neck
+Price: 9,500 gp
+Weight: 5 lbs.
+:::
 
 This large neck ring is made of twisted bronze, capped at each end with tiny skulls facing each
 other. Each torc of enmity is attuned to a designated creature type (or subtype) as the
@@ -41,6 +46,7 @@ hatred subsides.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage),
-[righteous vigor](ref/spell/righteous-vigor), [summon monster I](ref/spell/summon-monster-1);
-**Cost** 4,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage), [righteous vigor](ref/spell/righteous-vigor), [summon monster I](ref/spell/summon-monster-1)
+Cost: 4,750 gp
+:::

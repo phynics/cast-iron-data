@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** body; **Price** 27,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: body
+Price: 27,000 gp
+Weight: 5 lbs.
+:::
 
 This priestly garment can be commanded to alter its appearance as a standard action, able to reshape
 itself into ceremonial garb or the everyday habit of a religious functionary of any faith. Vestments
@@ -52,5 +57,7 @@ alignment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[disguise self](ref/spell/disguise-self), [misdirection](ref/spell/misdirection); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [disguise self](ref/spell/disguise-self), [misdirection](ref/spell/misdirection)
+Cost: 13,500 gp
+:::

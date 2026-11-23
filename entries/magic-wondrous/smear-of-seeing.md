@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This oily black paste is kept in a glass jar about the size of a human's fist. When rubbed onto an
 opaque surface as a standard action, an application of smear of seeing allows others to see through
@@ -41,6 +46,7 @@ for five applications.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane eye](ref/spell/arcane-eye), [see through stone](ref/spell/see-through-stone); **Cost** 2,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane eye](ref/spell/arcane-eye), [see through stone](ref/spell/see-through-stone)
+Cost: 2,000 gp
+:::

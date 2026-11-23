@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** body; **Price** 2,400 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: body
+Price: 2,400 gp
+Weight: 4 lbs.
+:::
 
 Dirt and grime from city streets cling to these dirty brown robes, covering them in an ever-present
 film of filth. A set of pauper's robes surrounds its wearer in mystery, making it difficult for
@@ -42,5 +47,7 @@ leaves the wearer's possession.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [memory lapse](ref/spell/memory-lapse); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [memory lapse](ref/spell/memory-lapse)
+Cost: 1,200 gp
+:::

@@ -21,8 +21,12 @@ caster_level = "20th"
 
 ## Monkey's Paw
 
-**Aura** strong universal; **CL** 20th\
-**Slot** none; **Weight** 1/2 lb.
+::: statblock
+Aura: strong universal
+CL: 20th
+Slot: none
+Weight: 1/2 lb.
+:::
 
 This mummified monkey's hand bears the power to grant three [wishes](ref/spell/wish), but at a
 terrible cost. The paw can grant any request within the power of a _[wish](ref/spell/wish)_ spell,
@@ -38,4 +42,7 @@ and their acquaintances, but regains its power once passed on to a stranger.
 
 ### Construction
 
-**Requirements** none; this is a unique cursed item; **Cost** -
+::: statblock
+Requirements: none; this is a unique cursed item
+Cost: -
+:::

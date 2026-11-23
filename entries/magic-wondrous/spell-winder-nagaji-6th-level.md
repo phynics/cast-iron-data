@@ -22,9 +22,13 @@ caster_level = "11th (2nd level), 12th (4th level), 18th (6th level)"
 
 ## Spell Winder (Nagaji)
 
-**Aura** moderate or strong evocation; **CL** 11th (2nd level), 12th (4th level), 18th (6th level)\
-**Slot** none; **Price** 18,000 gp (2nd level), 39,000 gp (4th level), 58,000 gp (6th level);
-**Weight** 1/2 lb.
+::: statblock
+Aura: moderate or strong evocation
+CL: 11th (2nd level), 12th (4th level), 18th (6th level)
+Slot: none
+Price: 18,000 gp (2nd level), 39,000 gp (4th level), 58,000 gp (6th level)
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -49,6 +53,7 @@ casting is wasted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contingency](ref/spell/contingency), creator must be a [nagaji](ref/race/nagaji); **Cost** 9,000 gp
-(2nd level), 19,500 gp (4th level), 29,000 gp (6th level)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contingency](ref/spell/contingency), creator must be a [nagaji](ref/race/nagaji)
+Cost: 9,000 gp (2nd level), 19,500 gp (4th level), 29,000 gp (6th level)
+:::

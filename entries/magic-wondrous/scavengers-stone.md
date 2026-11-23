@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This jagged, egg-shaped stone emits a faint red glow when not in direct sunlight. By rubbing a
 scavenger's stone against a damaged (but not destroyed) construct or object as a full-round action,
@@ -36,5 +41,7 @@ charges.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[make whole](ref/spell/make-whole); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [make whole](ref/spell/make-whole)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 650 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 650 gp
+Weight: 1/2 lb.
+:::
 
 This hopelessly knotted ball of golden twine defies any efforts to untangle it, forming new snarls
 out of nowhere just when it appears to be nearly unraveled.
@@ -47,5 +52,7 @@ Once used, the knot loses its magic and becomes 50 feet of tangled, mundane twin
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[open/close](ref/spell/open-close), [pilfering hand](ref/spell/pilfering-hand); **Cost** 325 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [open/close](ref/spell/open-close), [pilfering hand](ref/spell/pilfering-hand)
+Cost: 325 gp
+:::

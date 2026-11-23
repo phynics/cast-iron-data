@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** chest; **Price** 4,300 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: chest
+Price: 4,300 gp
+Weight: -
+:::
 
 This dapper, halfling-sized gray vest has dull black buttons and several hidden pockets. Concealed
 under the vest's lapel is a symbol of a black dagger with a white circle on the blade near the hilt.
@@ -32,6 +37,7 @@ allegiance to other members of the Silent Blade's church. The wearer gains a +5 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), creator must have 5 ranks in Sleight of Hand; **Cost** 2,150
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), creator must have 5 ranks in Sleight of Hand
+Cost: 2,150 gp
+:::

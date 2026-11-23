@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 This tiny sphere of marble can be used to strengthen an existing link between the user and a
 creature bound to him. When activated by a creature and then swallowed by that creature's animal
@@ -45,5 +50,7 @@ dismisses the companion, at which point it crumbles into a worthless powder and 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other), [status](ref/spell/status); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other), [status](ref/spell/status)
+Cost: 2,500 gp
+:::

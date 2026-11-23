@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** neck; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: neck
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 Slave collars are popular items among drow, duergar, and other Darklands societies that require
 obedience and servitude from slave castes. As these collars are relatively costly, they are
@@ -41,5 +46,7 @@ collar it wears.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status),
-[telepathic bond](ref/spell/telepathic-bond); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status), [telepathic bond](ref/spell/telepathic-bond)
+Cost: 12,500 gp
+:::

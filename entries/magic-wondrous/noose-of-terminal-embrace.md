@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 15th\
-**Slot** neck; **Price** 20,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 15th
+Slot: neck
+Price: 20,000 gp
+Weight: 5 lbs.
+:::
 
 When the necromancer Osmyrd Glavis was lynched in southern Taldor, his final utterance of hatred
 infused the very rope that was cutting into his flesh, resulting in the first noose of terminal
@@ -42,6 +47,7 @@ on the attacker rather than the other way around, and the attacker's attempt aut
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [black tentacles](ref/spell/black-tentacles); **Cost**
-10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [black tentacles](ref/spell/black-tentacles)
+Cost: 10,000 gp
+:::

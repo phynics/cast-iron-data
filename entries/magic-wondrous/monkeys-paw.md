@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** neck; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: neck
+Price: 12,000 gp
+Weight: -
+:::
 
 This tiny, shrunken, mummified monkey hand is worn around the neck on a leather strap. Once per day
 as a free action, the wearer of a monkey's paw may reroll one attack roll, skill check, or saving
@@ -32,7 +37,9 @@ worse than the original, the wearer suffers a sense of impending doom, causing h
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom),
-[prayer](ref/spell/prayer); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [doom](ref/spell/doom), [prayer](ref/spell/prayer)
+Cost: 6,000 gp
+:::
 
 > **Also see:** [Monkey's Paw](ref/magic-artifact/monkeys-paw), a far more sinister artifact.

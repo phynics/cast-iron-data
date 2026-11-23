@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion; **CL** 9th\
-**Slot** neck; **Price** 1,800 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 9th
+Slot: neck
+Price: 1,800 gp
+Weight: -
+:::
 
 This simple platinum necklace has five sockets for gems. An
 [ioun stone](ref/magic-wondrous/ioun-stone) placed in a socket registers as nonmagical, as per
@@ -31,5 +36,7 @@ head and gaining their full benefits.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura)
+Cost: 900 gp
+:::

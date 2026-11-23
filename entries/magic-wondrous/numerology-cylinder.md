@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This cylindrical puzzle has eight faces and a dozen rings along its length that can be spun
 individually, each with different numbers on each face. The user of a numerology cylinder can twist
@@ -34,5 +39,7 @@ the cylinder can't be used again for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** neck; **Price** 6,550 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: neck
+Price: 6,550 gp
+Weight: -
+:::
 
 This palm-sized wooden badge is covered in intricate Druidic script that bears the hallmark of the
 Oakstewards of Sevenarches. Occasionally given as a gift to those who aid the druids, an
@@ -38,7 +43,7 @@ against fear.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal), [heroes' feast](ref/spell/heroes-feast),
-[neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease);
-**Cost** 3,275 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal), [heroes' feast](ref/spell/heroes-feast), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease)
+Cost: 3,275 gp
+:::

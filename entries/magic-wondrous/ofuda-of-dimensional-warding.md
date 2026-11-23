@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 80,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 80,000 gp
+Weight: -
+:::
 
 These talismans are 6-inch-long strips of paper bearing mystic words of sealing written in
 traditional calligraphy. Hailing from the province of Tianjing, they are one of several methods the
@@ -35,5 +40,7 @@ dimensional warding is attached to ends the effect until the ritual is performed
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional lock](ref/spell/dimensional-lock); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional lock](ref/spell/dimensional-lock)
+Cost: 40,000 gp
+:::

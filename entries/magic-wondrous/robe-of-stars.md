@@ -23,8 +23,13 @@ aura = "strong varied"
 caster_level = "15th"
 +++
 
-**Aura** strong varied; **CL** 15th\
-**Slot** body; **Price** 58,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong varied
+CL: 15th
+Slot: body
+Price: 58,000 gp
+Weight: 1 lb.
+:::
 
 This garment is typically black or dark blue and embroidered with small white or silver stars. The
 robe has three magical powers.
@@ -41,6 +46,7 @@ Each shuriken disappears after it is used. The stars are replenished once per mo
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic missile](ref/spell/magic-missile), [astral projection](ref/spell/astral-projection) or
-[plane shift](ref/spell/plane-shift); **Cost** 29,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic missile](ref/spell/magic-missile), [astral projection](ref/spell/astral-projection) or [plane shift](ref/spell/plane-shift)
+Cost: 29,000 gp
+:::

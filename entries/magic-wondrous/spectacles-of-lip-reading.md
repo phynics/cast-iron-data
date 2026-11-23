@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** eyes; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: eyes
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 These eyeglasses are engraved with owl's feathers. The wearer can understand the words of anyone she
 can see speaking a language she understands if she succeeds at a DC 0
@@ -29,5 +34,7 @@ can see speaking a language she understands if she succeeds at a DC 0
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages)
+Cost: 1,500 gp
+:::

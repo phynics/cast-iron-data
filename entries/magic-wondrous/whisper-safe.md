@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration; **CL** 4th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 4th
+Slot: none
+Price: 8,000 gp
+Weight: 1/2 lb.
+:::
 
 A mirrored mask emblem adorns this black-lacquered jewelry box. When a user speaks a fact into the
 open box and closes it (a full-round action that provokes attacks of opportunities), the whisper
@@ -37,5 +42,7 @@ used to store another fact as described.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[rumormonger](ref/spell/rumormonger); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rumormonger](ref/spell/rumormonger)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** shoulders; **Price** 6,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: shoulders
+Price: 6,500 gp
+Weight: 2 lbs.
+:::
 
 Snowborn frequently fight off hostile enemies of both the intelligent and animalistic varieties. The
 smart [half-elf](ref/race/half-elf) knows that he can't lose a fight that never begins and makes
@@ -36,5 +41,7 @@ _[calm animals](ref/spell/calm-animals)_ or _[calm emotions](ref/spell/calm-emot
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm animals](ref/spell/calm-animals), [calm emotions](ref/spell/calm-emotions); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm animals](ref/spell/calm-animals), [calm emotions](ref/spell/calm-emotions)
+Cost: 3,250 gp
+:::

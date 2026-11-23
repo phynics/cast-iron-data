@@ -23,8 +23,13 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 3rd\
-**Slot** none; **Price** 2,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 3rd
+Slot: none
+Price: 2,700 gp
+Weight: 1 lb.
+:::
 
 This dagger is usually made of chiseled stone, though some varieties are made of sharpened mammoth
 bone. Its hilt is especially long, as if created for a Large creature, and the blade is carved with
@@ -38,6 +43,7 @@ goddess.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell),
-[detect animals or plants](ref/spell/detect-animals-or-plants); **Cost** 1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [detect animals or plants](ref/spell/detect-animals-or-plants)
+Cost: 1,350 gp
+:::

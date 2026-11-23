@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 Twigs sprout from these tall brown boots. On command, while the wearer is on the ground, ghostly
 roots grow from the boots' soles into the ground, granting their wearer
@@ -37,5 +42,7 @@ slip bonds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entangle](ref/spell/entangle); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entangle](ref/spell/entangle)
+Cost: 4,500 gp
+:::

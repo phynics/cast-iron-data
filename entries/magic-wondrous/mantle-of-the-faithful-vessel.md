@@ -20,8 +20,13 @@ aura = "faint enchantment and necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment and necromancy; **CL** 3rd\
-**Slot** chest; **Price** 10,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment and necromancy
+CL: 3rd
+Slot: chest
+Price: 10,000 gp
+Weight: 2 lbs.
+:::
 
 This simple robe automatically shifts color and style to match the signature colors, fabrics, and
 symbols of the wearer's faith (if any) when she dons it.
@@ -33,6 +38,7 @@ mythic tier to the damage dealt or healed when she channels energy.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [bestow curse](ref/spell/bestow-curse),
-[bless](ref/spell/bless), channel energy class feature; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [bestow curse](ref/spell/bestow-curse), [bless](ref/spell/bless), channel energy class feature
+Cost: 5,000 gp
+:::

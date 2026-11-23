@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** belt; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: belt
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 As a free action, the wearer of this brown leather belt can compress himself to fit through tight
 spaces as though affected by a _squeeze spell_ for up to 10 rounds per day. When using the belt's
@@ -32,5 +37,7 @@ These effects can be used simultaneously.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease),
-[reduce person](ref/spell/reduce-person), [squeeze](ref/spell/squeeze); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease), [reduce person](ref/spell/reduce-person), [squeeze](ref/spell/squeeze)
+Cost: 2,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** body; **Price** 25,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: body
+Price: 25,200 gp
+Weight: 2 lbs.
+:::
 
 This iridescent kilt seems stitched together from thousands of tiny scales. When an aquatic creature
 with a tail dons the shimmering kilt, her tail transforms into legs and feet, allowing her to walk
@@ -36,5 +41,7 @@ when it is disguised.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [fins to feet](ref/spell/fins-to-feet); **Cost** 12,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [fins to feet](ref/spell/fins-to-feet)
+Cost: 12,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 7th\
-**Slot** feet; **Price** 9,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 7th
+Slot: feet
+Price: 9,000 gp
+Weight: 12 lbs.
+:::
 
 These horseshoes are made of blackened steel and are typically stamped with infernal symbols or,
 less subtly, horrific images of terrified and tortured steeds of the darkest hues. They typically
@@ -41,6 +46,7 @@ fire damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands), [obscuring mist](ref/spell/obscuring-mist),
-[stinking cloud](ref/spell/stinking-cloud); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands), [obscuring mist](ref/spell/obscuring-mist), [stinking cloud](ref/spell/stinking-cloud)
+Cost: 4,500 gp
+:::

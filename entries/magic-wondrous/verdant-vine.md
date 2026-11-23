@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** wrists; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: wrists
+Price: 6,000 gp
+Weight: -
+:::
 
 Consisting of a vine with five green berries, a verdant vine is worn tied around the wrist. Once per
 day on command, the wearer can pinch a berry off the vine, and throw it up to 30 feet away, like a
@@ -37,5 +42,7 @@ the effect. Failing the check causes the vines to constrict, dealing 1d4 points 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entangle](ref/spell/entangle), [plant growth](ref/spell/plant-growth); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entangle](ref/spell/entangle), [plant growth](ref/spell/plant-growth)
+Cost: 3,000 gp
+:::

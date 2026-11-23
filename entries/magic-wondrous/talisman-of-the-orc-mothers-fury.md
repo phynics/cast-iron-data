@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration; **CL** 4th\
-**Slot** neck; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 4th
+Slot: neck
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 This small statuette - carved from the tusk of a dire boar, chunks of twisted metal, or some manner
 of dark stone - is a simplistic depiction of a pregnant deity, fiend, or orc. Dark stains mark the
@@ -39,5 +44,7 @@ blood. Should the wearer be slain, the talisman screams and shatters.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be female and
-possess orc blood, [cure moderate wounds](ref/spell/cure-moderate-wounds); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be female and possess orc blood, [cure moderate wounds](ref/spell/cure-moderate-wounds)
+Cost: 6,000 gp
+:::

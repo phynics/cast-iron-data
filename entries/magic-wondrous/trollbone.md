@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 2,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 2,400 gp
+Weight: 1 lb.
+:::
 
 Runic engravings adorn this charred rib bone pulled from a slain troll. When the bone is tossed up
 to 20 feet away, it can grow into a full-sized [troll](ref/monster/troll) under the user's control
@@ -32,5 +37,7 @@ dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster IV](ref/spell/summon-monster-4); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster IV](ref/spell/summon-monster-4)
+Cost: 1,200 gp
+:::

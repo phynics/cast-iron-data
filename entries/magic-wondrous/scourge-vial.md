@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,200 gp
+Weight: -
+:::
 
 Hurling this crystalline, ember-filled vial at an enemy causes the vessel to erupt in a burst of
 green smoke and burning ash that coalesces into a fire-blackened skull with burning eyes. Wreathed
@@ -47,5 +52,7 @@ before dissipating.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pyrotechnics](ref/spell/pyrotechnics); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 600 gp
+:::

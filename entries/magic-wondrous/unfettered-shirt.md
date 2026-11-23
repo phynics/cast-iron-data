@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 7th\
-**Slot** chest; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 7th
+Slot: chest
+Price: 10,000 gp
+Weight: -
+:::
 
 This loose, often ruffled, shirt is cut in a style designed to avoid hindering its wearer's
 movement.
@@ -31,6 +36,7 @@ _[freedom of movement](ref/spell/freedom-of-movement)_ for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [freedom of movement](ref/spell/freedom-of-movement); **Cost**
-5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [freedom of movement](ref/spell/freedom-of-movement)
+Cost: 5,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Each end of this heavy copper neckwear bears the image of a snarling lion. The wearer gains a +2
 morale bonus on saving throws against fear. If the wearer is a [barbarian](ref/class/barbarian) of
@@ -35,5 +40,7 @@ to regain 1 round of rage up to once per round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove fear](ref/spell/remove-fear); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove fear](ref/spell/remove-fear)
+Cost: 4,000 gp
+:::

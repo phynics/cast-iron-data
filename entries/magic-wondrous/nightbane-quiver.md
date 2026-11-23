@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 16,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 16,000 gp
+Weight: 3 lbs.
+:::
 
 This black silk quiver bears a silver star-and-moon motif. It can transform up to 20 arrows per day
 into tangible beams of light. When drawn from the quiver, these arrows produce light as the
@@ -34,5 +39,7 @@ placed on them.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight)
+Cost: 8,000 gp
+:::

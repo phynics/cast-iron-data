@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 45,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 45,000 gp
+Weight: -
+:::
 
 This bronze [wayfinder](ref/magic-wondrous/wayfinder) is decorated with garnets and emeralds, and
 even without its magical properties would be worth a small fortune. A wayfinder of infinite doorways
@@ -46,6 +51,7 @@ variable number of charges.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect secret doors](ref/spell/detect-secret-doors), [dimension door](ref/spell/dimension-door),
-[knock](ref/spell/knock), [word of recall](ref/spell/word-of-recall); **Cost** 27,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect secret doors](ref/spell/detect-secret-doors), [dimension door](ref/spell/dimension-door), [knock](ref/spell/knock), [word of recall](ref/spell/word-of-recall)
+Cost: 27,500 gp
+:::

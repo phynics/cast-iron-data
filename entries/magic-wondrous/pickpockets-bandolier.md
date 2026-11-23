@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** chest; **Price** 12,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: chest
+Price: 12,500 gp
+Weight: 2 lbs.
+:::
 
 Carefully embroidered black leather makes up this stylish bandolier, which can hold as many as 12
 [daggers](ref/eq-weapon/dagger), [vials](ref/eq-misc/vial), or similarly shaped items. The wearer of
@@ -34,5 +39,7 @@ concealed in this manner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item)
+Cost: 6,250 gp
+:::

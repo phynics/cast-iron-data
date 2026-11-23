@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,500 gp
+Weight: 3 lbs.
+:::
 
 In its inert state, a metalseeker swarm is a heavy, 2-inch-square cube of textured Numerian steel.
 Once per day on command, the cube disintegrates into a cloud of countless Fine flying constructs
@@ -41,6 +46,7 @@ fireflies' code to glean any useful information from it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect metal](ref/spell/detect-metal), [faerie fire](ref/spell/faerie-fire),
-[summon swarm](ref/spell/summon-swarm); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect metal](ref/spell/detect-metal), [faerie fire](ref/spell/faerie-fire), [summon swarm](ref/spell/summon-swarm)
+Cost: 2,750 gp
+:::

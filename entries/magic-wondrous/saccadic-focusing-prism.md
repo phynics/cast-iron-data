@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 2,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 2,400 gp
+Weight: 1 lb.
+:::
 
 When this large, clear prism is held between the user and a text, it allows the user to read that
 text quickly and still obtain a complete understanding. The time needed to read any nonmagical text
@@ -33,5 +38,7 @@ required to learn spells or extracts from written sources.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), [haste](ref/spell/haste); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [haste](ref/spell/haste)
+Cost: 1,200 gp
+:::

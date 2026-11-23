@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** moderate transmutation; **CL** 3rd\
-**Slot** none; **Price** 8,301 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 3rd
+Slot: none
+Price: 8,301 gp
+Weight: 3 lbs.
+:::
 
 A razored rope is a +1 [lasso](ref/eq-weapon/lasso) made out of tightly braided lengths of fine
 chain, used to help restrain cowards attempting to flee a battle. It can be used to entangle an
@@ -37,5 +42,7 @@ points of damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope); **Cost** 4,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope)
+Cost: 4,150 gp
+:::

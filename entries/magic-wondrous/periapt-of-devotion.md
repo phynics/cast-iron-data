@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** neck; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: neck
+Price: 3,300 gp
+Weight: -
+:::
 
 This simple-looking amulet bears the symbol of a group or cult and resembles the jewelry its members
 normally wear. When the bearer presents the necklace to a current or prospective group member
@@ -33,6 +38,7 @@ her whenever the occasion arises.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [charm person](ref/spell/charm-person); **Cost** 1,650
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [charm person](ref/spell/charm-person)
+Cost: 1,650 gp
+:::

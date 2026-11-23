@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** headband; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: headband
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 Three times per day on command, the phylactery's wearer can determine the current health and overall
 well-being of any one ally within 30 feet. This effect acts as the _[status](ref/spell/status)_
@@ -32,5 +37,7 @@ him, but doing so ends the effect of the phylactery's _[status](ref/spell/status
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status);
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [status](ref/spell/status)
+Cost: 3,500 gp
+:::

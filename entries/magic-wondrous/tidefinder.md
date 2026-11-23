@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: 1/2 lb.
+:::
 
 This delicate spherical blood coral compass has a longer outer needle and a shorter inner needle.
 When the holder activates it, the outer needle points in the direction of the nearest tide or
@@ -33,5 +38,7 @@ round).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate object](ref/spell/locate-object), [slipstream](ref/spell/slipstream); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate object](ref/spell/locate-object), [slipstream](ref/spell/slipstream)
+Cost: 1,000 gp
+:::

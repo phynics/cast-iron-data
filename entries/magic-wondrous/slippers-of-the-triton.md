@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** feet; **Price** 56,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: feet
+Price: 56,000 gp
+Weight: 1 lb.
+:::
 
 These slippers allow the wearer to breathe water. Additionally, if the wearer has no swim speed, she
 gains a 30 foot swim speed. If the wearer has a swim speed, she gains a +10 foot enhancement bonus
@@ -32,5 +37,7 @@ to her swim speed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ride the waves](ref/spell/ride-the-waves); **Cost** 28,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ride the waves](ref/spell/ride-the-waves)
+Cost: 28,000 gp
+:::

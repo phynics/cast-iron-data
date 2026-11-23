@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "5th"
 +++
 
-**Aura** moderate divination; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate divination
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1/2 lb.
+:::
 
 This disc of thick green glass is 12 inches in diameter and has a small, stylized image of a boat
 acid - etched into its center. When set against the deck of a waterborne vessel, the plate warns of
@@ -36,6 +41,7 @@ the vessel, presenting them on the plate's surface as glowing red dots.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect animals or plants](ref/spell/detect-animals-or-plants), [riversight](ref/spell/riversight);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect animals or plants](ref/spell/detect-animals-or-plants), [riversight](ref/spell/riversight)
+Cost: 2,500 gp
+:::

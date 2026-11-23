@@ -20,8 +20,13 @@ aura = "moderate enchantment and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment and necromancy; **CL** 9th\
-**Slot** none; **Price** 16,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment and necromancy
+CL: 9th
+Slot: none
+Price: 16,500 gp
+Weight: 5 lbs.
+:::
 
 This small harp is made from a [sprite's](ref/monster/sprite) twisted, leathery corpse, its arms and
 legs arching up to hold the crossbar along the instrument's top. The strings are made from thin
@@ -38,6 +43,7 @@ corpse freeing one hand from the crossbar in order to strum its flesh strings.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[command undead](ref/spell/command-undead), [dominate person](ref/spell/dominate-person); **Cost**
-8,550 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command undead](ref/spell/command-undead), [dominate person](ref/spell/dominate-person)
+Cost: 8,550 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "4th"
 +++
 
-**Aura** moderate illusion; **CL** 4th\
-**Slot** body; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 4th
+Slot: body
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 This black bodysuit is of the type typically worn by ninjas and assassins, but it grants its wearer
 a +2 armor bonus and a +5 competence bonus on [Stealth](ref/skill/stealth) checks. In addition, if
@@ -32,5 +37,7 @@ points and regardless of the surrounding light level.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility)
+Cost: 6,000 gp
+:::

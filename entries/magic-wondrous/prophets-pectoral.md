@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** chest; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: chest
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 The sacred stones, graven star-patterns, and wisdom-writings of the ancients on this chestplate
 increase the wearer's chance of success with [augury](ref/spell/augury),
@@ -32,5 +37,7 @@ ask one additional question or gain one additional piece of information.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination), [guidance](ref/spell/guidance); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination), [guidance](ref/spell/guidance)
+Cost: 3,000 gp
+:::

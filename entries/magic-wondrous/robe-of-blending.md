@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** body; **Price** 8,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: body
+Price: 8,400 gp
+Weight: 1 lb.
+:::
 
 Once per day this simple woolen robe allows you to assume the form of another humanoid creature, as
 if using _[alter self](ref/spell/alter-self)._ This change lasts for 1 hour, although you can end it
@@ -34,5 +39,7 @@ speak and understand Orc.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [tongues](ref/spell/tongues); **Cost** 4,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [tongues](ref/spell/tongues)
+Cost: 4,200 gp
+:::

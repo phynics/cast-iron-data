@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 66,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 66,000 gp
+Weight: 3 lbs.
+:::
 
 This intricate silver [bullseye lantern](ref/eq-misc/bullseye-lantern) filters its light through a
 stained-glass image of a howling wolf silhouetted by the moon. The pale blue light it casts does
@@ -47,6 +52,7 @@ target must remain in the chosen form for at least 1 minute before it can shift 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [greater polymorph](ref/spell/polymorph-greater),
-[true seeing](ref/spell/true-seeing); **Cost** 33,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [greater polymorph](ref/spell/polymorph-greater), [true seeing](ref/spell/true-seeing)
+Cost: 33,000 gp
+:::

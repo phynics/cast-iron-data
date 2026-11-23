@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 This set of [cold iron](ref/eq-material/cold-iron) gauntlets has pistons, gears, and hinges
 connecting all the joints and plates. As a swift action, the wearer can command one or both of the
@@ -35,6 +40,7 @@ position without having to attempt a Climb check or becoming [fatigued](ref/misc
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength)
+Cost: 6,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 350 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 350 gp
+Weight: 1 lb.
+:::
 
 This naturally occurring, glowing purple crystal can be thrown as a ranged attack with a range
 increment of 20 feet. When it strikes a target or hard surface (or is struck hard), the crystal
@@ -31,5 +36,7 @@ Fortitude save or be [stunned](ref/misc/stunned) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Craft (alchemy) 5 ranks,
-[faerie fire](ref/spell/faerie-fire), [sound burst](ref/spell/sound-burst); **Cost** 175 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Craft (alchemy) 5 ranks, [faerie fire](ref/spell/faerie-fire), [sound burst](ref/spell/sound-burst)
+Cost: 175 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1,000 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 1,000 lbs.
+:::
 
 This altar takes the form of a throne sized for a Large humanoid. It's carved from mountain stone,
 and its surface is inscribed with prayers to [Gozreh](ref/faith/gozreh) in Thassilonian and to
@@ -36,8 +41,7 @@ the actions of the worshiper). The altar can provide its blessing only once per 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control winds](ref/spell/control-winds), [guidance](ref/spell/guidance),
-[magic circle against law](ref/spell/magic-circle-against-law),
-[stone shape](ref/spell/stone-shape), creator must worship [Gozreh](ref/faith/gozreh); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control winds](ref/spell/control-winds), [guidance](ref/spell/guidance), [magic circle against law](ref/spell/magic-circle-against-law), [stone shape](ref/spell/stone-shape), creator must worship [Gozreh](ref/faith/gozreh)
+Cost: 4,000 gp
+:::

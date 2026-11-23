@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** shoulders; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: shoulders
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 One side of this reversible gray hooded cape is exquisitely embroidered and richly decorated, while
 the other appears shabby and worn. On command, by passing the edge of the cloak over her face, the
@@ -33,6 +38,7 @@ and any wearer of the cloak can discard any number of disguises within the cloak
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation), creator must have at least 5 ranks in Disguise;
-**Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation), creator must have at least 5 ranks in Disguise
+Cost: 750 gp
+:::

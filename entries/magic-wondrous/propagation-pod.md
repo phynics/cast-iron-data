@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 48,000 gp; **Weight** 250 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 48,000 gp
+Weight: 250 lbs.
+:::
 
 This urn-shaped object is large enough for a full-grown human to crouch inside. The bottom half of
 the pod is ringed in Druidic glyphs and layered with ever-fertile soil, while the top is crafted
@@ -41,5 +46,7 @@ feat should he die and subsequently inhabit his clone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clone](ref/spell/clone),
-[plant growth](ref/spell/plant-growth); **Cost** 15,660 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clone](ref/spell/clone), [plant growth](ref/spell/plant-growth)
+Cost: 15,660 gp
+:::

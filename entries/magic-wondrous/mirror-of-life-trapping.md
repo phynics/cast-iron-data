@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration; **CL** 17th\
-**Slot** none; **Price** 200,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 17th
+Slot: none
+Price: 200,000 gp
+Weight: 50 lbs.
+:::
 
 This crystal device is usually about 4 feet square and framed in metal or wood. The frame typically
 depicts dragons, demons, devils, genies, coiling nagas, or other powerful creatures that are well
@@ -50,5 +55,7 @@ points), all victims currently trapped in it are freed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imprisonment](ref/spell/imprisonment); **Cost** 100,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imprisonment](ref/spell/imprisonment)
+Cost: 100,000 gp
+:::

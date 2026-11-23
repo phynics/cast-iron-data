@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 Nightmare tears are a toxic alchemical solution that, when applied to the eyes, allows the
 individual to see past certain supernatural effects, as the spell
@@ -37,5 +42,7 @@ both effects become permanent.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness](ref/spell/blindness-deafness), [true seeing](ref/spell/true-seeing); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness](ref/spell/blindness-deafness), [true seeing](ref/spell/true-seeing)
+Cost: 125 gp
+:::

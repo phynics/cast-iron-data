@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 1,700 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 1,700 gp
+Weight: 1/2 lb.
+:::
 
 This vial of foul-smelling unguent is a great boon for trackers and hunters. Each vial of oil is
 keyed to a particular kind of creature and functions only against such creatures. The kind of
@@ -44,5 +49,7 @@ denatures the oil. Bonuses from multiple oils of attraction don't stack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 850 gp
+:::

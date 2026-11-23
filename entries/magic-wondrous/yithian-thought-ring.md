@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** head; **Price** 35,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: head
+Price: 35,000 gp
+Weight: 1 lb.
+:::
 
 Each yithian thought ring is attuned to a particular type or category of creature, and this decision
 is made at the item's creation. This can go beyond simple creature types - a yithian thought ring
@@ -38,5 +43,7 @@ A yithian thought ring can be used only by yithians.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[telepathic bond](ref/spell/telepathic-bond), creator must be a yithian; **Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [telepathic bond](ref/spell/telepathic-bond), creator must be a yithian
+Cost: 17,500 gp
+:::

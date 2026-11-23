@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 2,700 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 2,700 gp
+Weight: 2 lbs.
+:::
 
 This stone cube, when given the command word, affixes itself to any object. If that object is
 touched thereafter by anyone who does not first speak that same command word, the stone emits a
@@ -33,5 +38,7 @@ barriers).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm);
-**Cost** 1,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm)
+Cost: 1,350 gp
+:::

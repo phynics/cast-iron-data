@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1/2 lb.
+:::
 
 This pungent, tar-black armor polish comes in a small, circular tin. The 1 dose contained in the tin
 is enough to apply to a single Medium suit of armor or two Small suits of armor. Applying the polish
@@ -37,5 +42,7 @@ bonus. This effect remains for 24 hours before wearing off.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 375 gp
+:::

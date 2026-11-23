@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** headband; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: headband
+Price: 11,000 gp
+Weight: -
+:::
 
 This item allows [channelers of positive energy](ref/ability/channel-energy) to increase the amount
 of damage dealt to undead creatures by +2d6. This also increases the amount of damage healed by
@@ -32,5 +37,7 @@ living creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level
-cleric; **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level cleric
+Cost: 5,500 gp
+:::

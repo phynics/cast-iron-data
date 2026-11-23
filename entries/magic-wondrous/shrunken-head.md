@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none or neck; **Price** 90,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none or neck
+Price: 90,000 gp
+Weight: 1 lb.
+:::
 
 The mouth of this shriveled, distorted head is stitched shut with coarse thread. A shrunken head can
 be used if it's held in one hand or worn in the neck slot by suspending it from a thong. Once per
@@ -38,6 +43,7 @@ not need to have absorbed a spell to be used in this manner.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[break enchantment](ref/spell/break-enchantment), [enervation](ref/spell/enervation),
-[fear](ref/spell/fear); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [break enchantment](ref/spell/break-enchantment), [enervation](ref/spell/enervation), [fear](ref/spell/fear)
+Cost: 45,000 gp
+:::

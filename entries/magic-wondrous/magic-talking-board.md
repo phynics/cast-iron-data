@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 This rectangular wooden board displays an arch of alphabetical letters, numbers, and short
 affirmative and negative messages, and comes with a small, heart-shaped, three-legged pointer.
@@ -43,5 +48,7 @@ penalty on its saving throw equal to the number of users beyond the first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call spirit](ref/spell/call-spirit); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call spirit](ref/spell/call-spirit)
+Cost: 10,000 gp
+:::

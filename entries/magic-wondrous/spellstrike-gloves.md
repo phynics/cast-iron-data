@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** hands; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: hands
+Price: 8,000 gp
+Weight: -
+:::
 
 These black leather gloves are lined with soft black velveteen and have silver buckles that run from
 the wrist to the elbow. Three times per day, the gloves allow the wearer to treat a ranged magus
@@ -33,5 +38,7 @@ are lost).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a
-[magus](ref/class/magus); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a [magus](ref/class/magus)
+Cost: 4,000 gp
+:::

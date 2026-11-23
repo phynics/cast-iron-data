@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 This ruby is cut like a droplet of blood and suspended on an elaborate golden necklace. Once per day
 as a swift action, the wearer can envenom a wielded weapon with her saliva or blood as though she
@@ -34,5 +39,7 @@ the DC of saving throws against her venom increases by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison)
+Cost: 5,000 gp
+:::

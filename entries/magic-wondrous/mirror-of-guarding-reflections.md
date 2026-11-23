@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 7,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 7,000 gp
+Weight: 4 lbs.
+:::
 
 Reflections visible in this palm-sized hand mirror always seem ghostly and insubstantial. When a
 creature holding the mirror is targeted by an attack, he can spend an immediate action to summon his
@@ -34,5 +39,7 @@ mirror bearer's next turn. The mirror can be used three times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mirror image](ref/spell/mirror-image); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mirror image](ref/spell/mirror-image)
+Cost: 3,500 gp
+:::

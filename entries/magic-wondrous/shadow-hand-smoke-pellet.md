@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 This delicate metallic shell contains two sets of volatile alchemical substances, similar to those
 used in [smoke pellets](ref/eq-misc/smoke-pellet). When the sphere is broken, the substances mingle
@@ -33,6 +38,7 @@ the grapple every round until the smoke dissipates.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[black tentacles](ref/spell/black-tentacles), [obscuring mist](ref/spell/obscuring-mist); **Cost**
-400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [black tentacles](ref/spell/black-tentacles), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 400 gp
+:::

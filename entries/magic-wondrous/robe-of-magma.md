@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** body; **Price** 112,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: body
+Price: 112,000 gp
+Weight: 1 lb.
+:::
 
 These striking black robes are lined with glowing cracks, and resemble flows of partially cooled
 magma. They allow the wearer not only to survive within areas of lava and magma, but also to conjure
@@ -49,6 +54,7 @@ conjuration.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from energy](ref/spell/protection-from-energy), [wall of lava](ref/spell/wall-of-lava);
-**Cost** 56,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from energy](ref/spell/protection-from-energy), [wall of lava](ref/spell/wall-of-lava)
+Cost: 56,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration and illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and illusion; **CL** 5th\
-**Slot** head; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration and illusion
+CL: 5th
+Slot: head
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 A muzzle of suppression hardly resembles the long-snouted devices often equipped to dogs or other
 dangerous creatures. More mask than anything, this leather garment sports an orange metallic ball
@@ -37,5 +42,7 @@ or [knock](ref/spell/knock) spell can also unlock a muzzle of suppression.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [silence](ref/spell/silence); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [silence](ref/spell/silence)
+Cost: 4,000 gp
+:::

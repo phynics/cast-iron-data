@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** shoulders; **Price** 55,000 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: shoulders
+Price: 55,000 gp
+Weight: 7 lbs.
+:::
 
 This cloak is made of tough leather, and is decorated with brilliant red and orange feathers. As a
 free action, the wearer can rub her hands together, setting them alight - thus granting her natural
@@ -38,6 +43,7 @@ as a +4 bonus on [Fly](ref/skill/fly) skill checks due to this maneuverability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [breath of life](ref/spell/breath-of-life),
-[elemental body II](ref/spell/elemental-body-2); **Cost** 27,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [breath of life](ref/spell/breath-of-life), [elemental body II](ref/spell/elemental-body-2)
+Cost: 27,500 gp
+:::

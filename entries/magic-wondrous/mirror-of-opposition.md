@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Price** 92,000 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Price: 92,000 gp
+Weight: 45 lbs.
+:::
 
 This item resembles a normal mirror about 4 feet long and 3 feet wide. It can be hung or placed on a
 surface and then activated by speaking a command word. The same command word deactivates the mirror.
@@ -37,5 +42,7 @@ the duplicates to immediately vanish.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clone](ref/spell/clone);
-**Cost** 46,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clone](ref/spell/clone)
+Cost: 46,000 gp
+:::

@@ -22,8 +22,13 @@ caster_level = "8th"
 
 ## Monkey Belt
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 9,400 gp (normal), 18,000 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 9,400 gp (normal), 18,000 gp (greater)
+Weight: 1 lb.
+:::
 
 This furry brown belt resembles the tail of a monkey. The belt grants the wearer a +2 enhancement
 bonus to Dexterity. Treat this as a [temporary ability bonus](ref/rule/ability-score-bonuses) for
@@ -45,7 +50,7 @@ monkey belt also gives the wearer a +5 circumstance bonus on Climb checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [cat's grace](ref/spell/cats-grace),
-[bull's strength](ref/spell/bulls-strength) (greater monkey belt only); **Cost** 4,700 gp (normal),
-9,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [cat's grace](ref/spell/cats-grace), [bull's strength](ref/spell/bulls-strength) (greater monkey belt only)
+Cost: 4,700 gp (normal), 9,000 gp (greater)
+:::

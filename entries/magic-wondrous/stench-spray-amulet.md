@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** neck; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: neck
+Price: 1,600 gp
+Weight: -
+:::
 
 This fetish of bone, shed reptilian skin, and small stones can be worn around the neck to convert a
 creature's stench into a breath weapon. It has no benefits for a creature that doesn't have the
@@ -38,5 +43,7 @@ they move through the area.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease);
-**Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease)
+Cost: 800 gp
+:::

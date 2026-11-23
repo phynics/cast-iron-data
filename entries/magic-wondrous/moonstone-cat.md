@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This fist-sized statue of a curled-up cat is crafted from gleaming moonstone. When the statue is
 placed upon the chest of a [helpless](ref/misc/helpless) creature, it briefly animates and stretches
@@ -41,6 +46,7 @@ normally while in this magical sleep. A [wish](ref/spell/wish), [miracle](ref/sp
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [mythic deep slumber](ref/spell/deep-slumber); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [mythic deep slumber](ref/spell/deep-slumber)
+Cost: 6,000 gp
+:::

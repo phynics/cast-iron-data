@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** feet; **Price** 21,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: feet
+Price: 21,000 gp
+Weight: 1 lb.
+:::
 
 These low-cut shoes of polished red leather feature golden eyelets and stitching in a fiery pattern.
 They grant the wearer fire resistance 10 and allow the wearer to walk atop lava and magma as if
@@ -29,5 +34,7 @@ subject to the _[water walk](ref/spell/water-walk)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resist energy](ref/spell/resist-energy), [water walk](ref/spell/water-walk); **Cost** 10,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resist energy](ref/spell/resist-energy), [water walk](ref/spell/water-walk)
+Cost: 10,500 gp
+:::

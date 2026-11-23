@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** chest; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: chest
+Price: 9,000 gp
+Weight: -
+:::
 
 Made to enhance the most seductive Varisian dances, this collection of silken scarves is patterned
 in yellow and black. Varisian worshipers of [Calistria](ref/faith/calistria) weave these scarves in
@@ -51,5 +56,7 @@ the +2 bonus on Perform (dance) checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic missile](ref/spell/magic-missile), creator must worship Calistria; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic missile](ref/spell/magic-missile), creator must worship Calistria
+Cost: 4,500 gp
+:::

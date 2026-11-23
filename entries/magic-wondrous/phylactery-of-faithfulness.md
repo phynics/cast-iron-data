@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** headband; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: headband
+Price: 1,000 gp
+Weight: -
+:::
 
 This item is a tiny box containing religious scripture. The box is affixed to a leather cord and
 tied around the forehead, worn so that the box sits upon the wearer's brow. There is no mundane way
@@ -36,6 +41,7 @@ contemplate the act.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil),
-[detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law)
+Cost: 500 gp
+:::

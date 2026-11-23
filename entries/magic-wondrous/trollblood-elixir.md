@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 4,550 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 4,550 gp
+Weight: -
+:::
 
 This rancid, bubbling tonic is mud-colored and reeks of sweat, gore, and decay. Upon drinking a dose
 of trollblood elixir, the imbiber gains [fast healing](ref/umr/fast-healing) 5. This fast healing is
@@ -34,5 +39,7 @@ creatures such as constructs and undead.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[regenerate](ref/spell/regenerate); **Cost** 5,060 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [regenerate](ref/spell/regenerate)
+Cost: 5,060 gp
+:::

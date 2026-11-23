@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 2,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 2,400 gp
+Weight: 3 lbs.
+:::
 
 A sashimono of comfort is a purple Tian silk banner, typically 3 feet tall and 1 foot wide,
 decorated with three stylized orchid flowers. The banner is attached to a lance, polearm, staff, or
@@ -41,5 +46,7 @@ _[endure elements](ref/spell/endure-elements)_ to work normally.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements)
+Cost: 1,200 gp
+:::

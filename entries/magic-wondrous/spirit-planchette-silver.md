@@ -22,9 +22,13 @@ caster_level = "9th"
 
 ## Spirit Planchette
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 4,000 gp (Brass), 10,000 gp (Cold Iron), 18,000 gp (Silver); **Weight** 5
-lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 4,000 gp (Brass), 10,000 gp (Cold Iron), 18,000 gp (Silver)
+Weight: 5 lbs.
+:::
 
 A spirit planchette is typically found in a wooden case along with a thin wooden board printed with
 numerous letters and numbers. [Nonmagical versions](ref/eq-misc/spirit-planchette-set) of these
@@ -71,7 +75,7 @@ they lie.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contact other plane](ref/spell/contact-other-plane), [speak with dead](ref/spell/speak-with-dead);
-**Cost** 2,000 gp (brass spirit planchette), 5,000 gp (cold iron spirit planchette), 9,000 gp
-(silver spirit planchette)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contact other plane](ref/spell/contact-other-plane), [speak with dead](ref/spell/speak-with-dead)
+Cost: 2,000 gp (brass spirit planchette), 5,000 gp (cold iron spirit planchette), 9,000 gp (silver spirit planchette)
+:::

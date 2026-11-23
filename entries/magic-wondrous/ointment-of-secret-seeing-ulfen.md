@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -35,5 +40,7 @@ not learn their true nature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing), creator must be an Ulfen; **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing), creator must be an Ulfen
+Cost: 1,000 gp
+:::

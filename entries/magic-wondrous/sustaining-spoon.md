@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,400 gp
+Weight: -
+:::
 
 If this seemingly unremarkable utensil is placed in an empty container, the vessel fills with a
 thick, pasty gruel. Although the gruel tastes like warm, wet cardboard, it is highly nourishing and
@@ -33,5 +38,7 @@ spoon can produce sufficient gruel each day to feed up to four humans.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create food and water](ref/spell/create-food-and-water); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create food and water](ref/spell/create-food-and-water)
+Cost: 2,700 gp
+:::

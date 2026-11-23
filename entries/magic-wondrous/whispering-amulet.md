@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** neck; **Price** 70,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: neck
+Price: 70,000 gp
+Weight: -
+:::
 
 A whispering amulet looks like a bejeweled [glabrezu](ref/monster/demon-glabrezu) head to the person
 who owns it, but to anyone else appears to be a relatively unremarkable necklace. As long as it is
@@ -41,6 +46,7 @@ sure if the glabrezu's _[wish](ref/spell/wish)_ is available.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending),
-[undetectable alignment](ref/spell/undetectable-alignment), [wish](ref/spell/wish); **Cost** 35,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending), [undetectable alignment](ref/spell/undetectable-alignment), [wish](ref/spell/wish)
+Cost: 35,000 gp
+:::

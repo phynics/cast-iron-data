@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** neck; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: neck
+Weight: -
+:::
 
 A necklace of strangulation appears to be a wondrous piece of magical jewelry. When placed on the
 neck, the necklace immediately tightens, dealing 6 points of damage per round. It cannot be removed
@@ -35,8 +39,7 @@ ready for another victim.
 
 ### Construction
 
-**Requirements** [necklace of adaptation](ref/magic-wondrous/necklace-of-adaptation),
-[necklace of fireballs](ref/magic-wondrous/necklace-of-fireballs),
-[periapt of health](ref/magic-wondrous/periapt-of-health),
-[periapt of proof against poison](ref/magic-wondrous/periapt-of-proof-against-poison),
-[periapt of wound closure](ref/magic-wondrous/periapt-of-wound-closure); **Cost** -
+::: statblock
+Requirements: [necklace of adaptation](ref/magic-wondrous/necklace-of-adaptation), [necklace of fireballs](ref/magic-wondrous/necklace-of-fireballs), [periapt of health](ref/magic-wondrous/periapt-of-health), [periapt of proof against poison](ref/magic-wondrous/periapt-of-proof-against-poison), [periapt of wound closure](ref/magic-wondrous/periapt-of-wound-closure)
+Cost: -
+:::

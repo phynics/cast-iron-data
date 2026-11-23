@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** wrists; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: wrists
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 These tight iron cuffs can fit over the wrists of any Large or smaller humanoid. When placed on a
 [helpless](ref/misc/helpless) humanoid, they make the captive more docile and compliant. The
@@ -33,5 +38,7 @@ succeeds at a DC 11 Will saving throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person)
+Cost: 1,000 gp
+:::

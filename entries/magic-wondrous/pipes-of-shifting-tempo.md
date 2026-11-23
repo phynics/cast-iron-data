@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 18,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 18,000 gp
+Weight: 2 lbs.
+:::
 
 In outer construction and manner of play, pipes of shifting tempo resemble a typical set of
 unremarkable pan pipes, but the complex chambers within the pipes are modeled after
@@ -34,5 +39,7 @@ spell functions as normal for the item's caster level, affecting five creatures 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[slow](ref/spell/slow), Perform (wind) 5 ranks; **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [slow](ref/spell/slow), Perform (wind) 5 ranks
+Cost: 9,000 gp
+:::

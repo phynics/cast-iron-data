@@ -20,8 +20,13 @@ aura = "moderate conjuration and illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and illusion; **CL** 10th\
-**Slot** none; **Price** 15,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and illusion
+CL: 10th
+Slot: none
+Price: 15,200 gp
+Weight: 1 lb.
+:::
 
 The plainly lacquered exterior of this wooden puzzle box cunningly hides the devious clockwork
 mechanism inside. To those unversed in its abilities, Sun Wukong's puzzle box seems to be little
@@ -41,6 +46,7 @@ effect and the monkey swarm last for 10 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door), [invisibility](ref/spell/invisibility),
-[mad monkeys](ref/spell/mad-monkeys), creator must be chaotic; **Cost** 7,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), [invisibility](ref/spell/invisibility), [mad monkeys](ref/spell/mad-monkeys), creator must be chaotic
+Cost: 7,600 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint abjuration [evil]"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration \[evil\]; **CL** 3rd\
-**Slot** neck; **Price** 3,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration \[evil\]
+CL: 3rd
+Slot: neck
+Price: 3,300 gp
+Weight: 2 lbs.
+:::
 
 This black rock, usually worn on a heavy chain, looks pitted and partially charred and melted. It
 gives the impression of reckless evil - more a dangerous scent than any other kind of feeling. The
@@ -38,6 +43,7 @@ rock to glow; true dragons immediately recognize the symbol as an icon of Dahak.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane mark](ref/spell/arcane-mark), [remove fear](ref/spell/remove-fear),
-[resist energy](ref/spell/resist-energy), [shatter](ref/spell/shatter); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane mark](ref/spell/arcane-mark), [remove fear](ref/spell/remove-fear), [resist energy](ref/spell/resist-energy), [shatter](ref/spell/shatter)
+Cost: 1,650 gp
+:::

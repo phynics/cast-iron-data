@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This leather pouch is usually decorated with a druidic motif. Within is an extradimensional space
 that can hold 4 cubic feet or 40 pounds worth of items and otherwise functions as a small
@@ -33,5 +38,7 @@ while she is transformed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph), [secret chest](ref/spell/secret-chest); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp
+:::

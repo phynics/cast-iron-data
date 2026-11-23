@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 100 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 100 gp
+Weight: -
+:::
 
 Scheming nobles like to use raucous canards to spread gossip about their enemies. An inactive
 raucous canard appears to be a small, nondescript piece of rolled-up parchment. Unrolling the
@@ -37,5 +42,7 @@ destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [magic mouth](ref/spell/magic-mouth); **Cost** 50 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [magic mouth](ref/spell/magic-mouth)
+Cost: 50 gp
+:::

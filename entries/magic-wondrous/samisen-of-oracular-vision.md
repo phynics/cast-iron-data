@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 46,575 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 46,575 gp
+Weight: 3 lbs.
+:::
 
 This elegant, long-necked samisen is crafted of cat skin stretched over a wooden frame. The
 samisen's three silken strings are magically keyed to the past, present, and future. A user must
@@ -38,7 +43,7 @@ checks to use its abilities).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divination](ref/spell/divination), [legend lore](ref/spell/legend-lore),
-[scrying](ref/spell/scrying), creator must have 10 ranks in the Perform (string) skill; **Cost**
-24,075 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divination](ref/spell/divination), [legend lore](ref/spell/legend-lore), [scrying](ref/spell/scrying), creator must have 10 ranks in the Perform (string) skill
+Cost: 24,075 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 90,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 90,000 gp
+Weight: 1 lb.
+:::
 
 This piece of technology is fashioned from the eye of a [robot](ref/family/robot). Once per hour as
 a standard action, a creature holding an oculus of magnetic fury can target a single robot within 60
@@ -32,6 +37,7 @@ receives a new Will save each round at the end of its turn to shake off the effe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disable construct](ref/spell/disable-construct), [lightning bolt](ref/spell/lightning-bolt);
-**Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disable construct](ref/spell/disable-construct), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 45,000 gp
+:::

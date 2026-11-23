@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: -
+:::
 
 This squarish jar holds dead insects suspended in bright pink liquid. When the imbiber drinks this
 concoction, his body dissolves into a swarm of stinging wasps, causing his equipment to fall to the
@@ -33,5 +38,7 @@ back to his original form. This effect otherwise lasts 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon swarm](ref/spell/summon-swarm); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon swarm](ref/spell/summon-swarm)
+Cost: 1,650 gp
+:::

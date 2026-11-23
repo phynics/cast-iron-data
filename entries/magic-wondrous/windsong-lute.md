@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 4,250 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 4,250 gp
+Weight: 3 lbs.
+:::
 
 The haunting strains of any music played on this unusually light, gold-inlaid oak lute travel
 farther than that of any mundane instrument, as if carried by the wind. If a bard uses this lute to
@@ -31,6 +36,7 @@ feet. If the bard is a [sylph](ref/race/sylph), the range increases by 20 feet i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[whispering wind](ref/spell/whispering-wind), creator must be a sylph with the bardic performance
-class feature; **Cost** 2,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [whispering wind](ref/spell/whispering-wind), creator must be a sylph with the bardic performance class feature
+Cost: 2,125 gp
+:::

@@ -23,9 +23,13 @@ aura = "strong universal"
 caster_level = "17th"
 +++
 
-**Aura** strong universal; **CL** 17th\
-**Slot** none; **Price** 27,500 gp (+1), 55,000 gp (+2), 82,500 gp (+3), 110,000 gp (+4), 137,500 gp
-(+5); **Weight** 5 lbs.
+::: statblock
+Aura: strong universal
+CL: 17th
+Slot: none
+Price: 27,500 gp (+1), 55,000 gp (+2), 82,500 gp (+3), 110,000 gp (+4), 137,500 gp (+5)
+Weight: 5 lbs.
+:::
 
 This thick tome contains tips on coordination exercises and balance, but entwined within the words
 is a powerful magical effect. If anyone reads this book, which takes a total of 48 hours over a
@@ -35,6 +39,7 @@ book.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wish](ref/spell/wish) or
-[miracle](ref/spell/miracle); **Cost** 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp
-(+4), 131,250 gp (+5)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wish](ref/spell/wish) or [miracle](ref/spell/miracle)
+Cost: 26,250 gp (+1), 52,500 gp (+2), 78,750 gp (+3), 105,000 gp (+4), 131,250 gp (+5)
+:::

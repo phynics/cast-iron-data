@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** shoulders; **Price** 7,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: shoulders
+Price: 7,200 gp
+Weight: 1 lb.
+:::
 
 Made from the preserved skins of plague victims, this cloak functions as a
 [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1). If the wearer is infected with a
@@ -32,6 +37,7 @@ the target must succeed at a DC 15 Fortitude save or contract one disease the we
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion), [resistance](ref/spell/resistance),
-[virulent miasma](ref/spell/virulent-miasma); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion), [resistance](ref/spell/resistance), [virulent miasma](ref/spell/virulent-miasma)
+Cost: 3,600 gp
+:::

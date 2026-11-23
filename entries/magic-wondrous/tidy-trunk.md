@@ -20,8 +20,13 @@ aura = "faint universal"
 caster_level = "1st"
 +++
 
-**Aura** faint universal; **CL** 1st\
-**Slot** none; **Price** 1,000 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint universal
+CL: 1st
+Slot: none
+Price: 1,000 gp
+Weight: 25 lbs.
+:::
 
 This small-sized trunk is bound in polished metal and lined with velvet fabric. While the trunk is
 latched, items contained within are kept free of mold, moths, water damage, and other undesirable
@@ -32,5 +37,7 @@ not repaired of any preexisting damage; they're simply kept clean and organized.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation)
+Cost: 500 gp
+:::

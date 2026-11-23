@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 1,125 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 1,125 gp
+Weight: -
+:::
 
 This rough, ridged sponge is chalky black in color, and is used to absorb poisonous gases from the
 surrounding air. When the command word is spoken, a toxin sponge can absorb a 10-foot cube of
@@ -40,5 +45,7 @@ the poison when it was initially absorbed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[absorb toxicity](ref/spell/absorb-toxicity); **Cost** 563 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [absorb toxicity](ref/spell/absorb-toxicity)
+Cost: 563 gp
+:::

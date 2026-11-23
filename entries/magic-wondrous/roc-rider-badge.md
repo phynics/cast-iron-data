@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** neck; **Price** 17,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: neck
+Price: 17,000 gp
+Weight: 5 lbs.
+:::
 
 This giant-sized silver brooch is fashioned in the shape of a [roc's](ref/monster/roc) head
 inscribed inside a circle. A roc rider badge automatically neutralizes the energy field around
@@ -36,6 +41,7 @@ Large or Huge creatures, but a Medium creature can wear the badge as a pectoral 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), [charm animal](ref/spell/charm-animal); **Cost** 8,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), [charm animal](ref/spell/charm-animal)
+Cost: 8,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion; **CL** 9th\
-**Slot** hands; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 9th
+Slot: hands
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 When the wearer of these jet-black leather gloves reaches for an item carried by another creature,
 inky strands of gloom swirl around the gloves, making the wearer's hand movements difficult to
@@ -40,5 +45,7 @@ and is gone. The illusory duplicate is a shadow effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [invisibility](ref/spell/invisibility); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [invisibility](ref/spell/invisibility)
+Cost: 4,500 gp
+:::

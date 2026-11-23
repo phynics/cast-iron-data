@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 72,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 72,000 gp
+Weight: 3 lbs.
+:::
 
 These cloth shoulder straps have many pebbles stitched into them. The wearer of the straps can
 command them to unfurl a pair of wings made from a hard gray stone. These wings grant her a fly
@@ -32,5 +37,7 @@ not be continuous, but it must be used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly),
-[stoneskin](ref/spell/stoneskin); **Cost** 36,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly), [stoneskin](ref/spell/stoneskin)
+Cost: 36,000 gp
+:::

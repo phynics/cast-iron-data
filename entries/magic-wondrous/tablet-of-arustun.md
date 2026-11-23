@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 25,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 25,000 gp
+Weight: 3 lbs.
+:::
 
 This ornate stone tablet measures 10 inches on each side and is approximately 1 inch thick. It can
 store up to 3 levels of spells, per a
@@ -34,5 +39,7 @@ caster level is lower than that of the spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 12,500 gp
+:::

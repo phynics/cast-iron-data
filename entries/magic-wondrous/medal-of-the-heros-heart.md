@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** neck; **Price** 3,400 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: neck
+Price: 3,400 gp
+Weight: -
+:::
 
 The medal of the hero's heart is an honorary pendant frequently bestowed upon noble crusaders and
 warriors of goodly churches. The church of [Iomedae](ref/faith/iomedae) frequently award these
@@ -37,5 +42,7 @@ destroying it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[restoration](ref/spell/restoration); **Cost** 1,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [restoration](ref/spell/restoration)
+Cost: 1,700 gp
+:::

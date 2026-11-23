@@ -26,8 +26,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** head; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: head
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 Preserved sections harvested from several different human faces cover this mask. When worn, the mask
 desaturates the wearer's color, making him appear shadowy and granting a +5 competence bonus on
@@ -41,5 +46,7 @@ appearance.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [rage](ref/spell/rage); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [rage](ref/spell/rage)
+Cost: 1,750 gp
+:::

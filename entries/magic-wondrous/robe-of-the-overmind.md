@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 14th\
-**Slot** body; **Price** 75,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 14th
+Slot: body
+Price: 75,000 gp
+Weight: 1 lb.
+:::
 
 This regal-looking robe is trimmed with softly glowing sigils and attuned to one of three types of
 alignment. It can have geometric sigils (1-45 on d%, lawful alignment), smooth sigils (46-75 on d%,
@@ -45,6 +50,7 @@ immediately removed if the robe is removed from the wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), [mage armor](ref/spell/mage-armor), creator must be of
-same alignment as robe; **Cost** 37,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), [mage armor](ref/spell/mage-armor), creator must be of same alignment as robe
+Cost: 37,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** chest; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: chest
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 A vest of the deep creates a constant shell of magical energy that protects the wearer from extreme
 environmental pressure, such as that [inflicted by water](ref/rule/water-dangers) at a depth of over
@@ -30,5 +35,7 @@ damage, nor does it grant water breathing.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[life bubble](ref/spell/life-bubble); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [life bubble](ref/spell/life-bubble)
+Cost: 1,000 gp
+:::

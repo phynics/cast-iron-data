@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,800 gp
+Weight: 3 lbs.
+:::
 
 Once per day, as part of the action of drawing forth the weapon held by a scabbard of vigor, the
 wearer can order it to endow the weapon with an enhancement bonus on attack and damage rolls. The
@@ -39,5 +44,7 @@ duration of the effect depends on the desired enhancement bonus for the weapon.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic weapon](ref/spell/magic-weapon-greater)
+Cost: 900 gp
+:::

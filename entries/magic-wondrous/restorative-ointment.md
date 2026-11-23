@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 1/2 lb.
+:::
 
 A jar of this unguent is 3 inches in diameter and 1 inch deep, and contains 5 applications. Placed
 upon a poisoned wound or swallowed, the ointment detoxifies any poison (as
@@ -35,6 +40,7 @@ _[cure light wounds](ref/spell/cure-light-wounds)_).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [neutralize poison](ref/spell/neutralize-poison),
-[remove disease](ref/spell/remove-disease); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease)
+Cost: 2,000 gp
+:::

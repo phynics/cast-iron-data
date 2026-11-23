@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 32,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 32,000 gp
+Weight: 2 lbs.
+:::
 
 Whenever an [assassin](ref/pclass/assassin) draws a weapon from the scabbard of true death and makes
 a successful death attack against her target, the DC of her true death ability increases by 4. In
@@ -33,6 +38,7 @@ bleed damage caused by that talent is increased by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), creator must have the bleeding attack rogue talent; **Cost**
-16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), creator must have the bleeding attack rogue talent
+Cost: 16,000 gp
+:::

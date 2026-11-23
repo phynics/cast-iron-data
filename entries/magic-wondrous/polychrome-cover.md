@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 2,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 2,000 gp
+Weight: 4 lbs.
+:::
 
 This multicolored tarp is made from intricately woven cloth that gives its exterior the texture of
 stonework. It covers a 10-foot by 10-foot area and can be placed vertically, magically supporting
@@ -37,5 +42,7 @@ race from the item's illusion. Most polychrome covers are set to exclude
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hallucinatory terrain](ref/spell/hallucinatory-terrain); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallucinatory terrain](ref/spell/hallucinatory-terrain)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** headband; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: headband
+Price: 12,000 gp
+Weight: -
+:::
 
 This banded agate attaches itself to its wearer's forehead and then, blinking and focusing, begins
 to act as an additional eye. When worn, the veiled eye has the same vision as the wearer (such as
@@ -35,5 +40,7 @@ insight bonus on saves against [gaze](ref/umr/gaze) attacks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove blindness/deafness](ref/spell/remove-blindness-deafness)
+Cost: 6,000 gp
+:::

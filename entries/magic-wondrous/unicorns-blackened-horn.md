@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 11th\
-**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 11th
+Slot: none
+Price: 50,000 gp
+Weight: 5 lbs.
+:::
 
 This long ivory horn is twisted, elegant, and shining, but marring its beautiful length are black,
 diseased lines of corruption. This item is an intact [unicorn's](ref/monster/unicorn) horn that has
@@ -55,5 +60,7 @@ held.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [harm](ref/spell/harm), [heal](ref/spell/heal),
-creator must be evil-aligned and able to channel energy; **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [harm](ref/spell/harm), [heal](ref/spell/heal), creator must be evil-aligned and able to channel energy
+Cost: 25,000 gp
+:::

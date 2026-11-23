@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint abjuration; **CL** 4th\
-**Slot** shoulders; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 4th
+Slot: shoulders
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of this rough, gray cloak can, as a move action, grasp the garment's edge and cause it to
 harden. The wearer can use the hardened edge it as if it were a
@@ -33,6 +38,7 @@ shield.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield)
+Cost: 500 gp
+:::

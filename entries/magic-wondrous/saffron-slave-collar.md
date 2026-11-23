@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** neck; **Price** 16,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: neck
+Price: 16,000 gp
+Weight: 2 lbs.
+:::
 
 This magical slave collar (which uses the same statistics as masterwork manacles) is reserved for
 particularly strong-willed slaves. When shackled around a creature's neck, the collar targets the
@@ -36,5 +41,7 @@ effect of the collar, in which case it receives no saving throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [suggestion](ref/spell/suggestion); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [suggestion](ref/spell/suggestion)
+Cost: 8,000 gp
+:::

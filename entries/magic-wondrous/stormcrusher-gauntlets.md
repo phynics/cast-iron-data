@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 10th\
-**Slot** hands; **Price** 45,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 10th
+Slot: hands
+Price: 45,000 gp
+Weight: 5 lbs.
+:::
 
 These speckled metal gauntlets provide a noticeable prickling sensation when donned. Three times per
 day when the wearer would take electricity damage, she can attempt a Strength check as an immediate
@@ -41,6 +46,7 @@ with no save granted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [lightning bolt](ref/spell/lightning-bolt),
-[shock shield](ref/spell/shock-shield); **Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [lightning bolt](ref/spell/lightning-bolt), [shock shield](ref/spell/shock-shield)
+Cost: 22,500 gp
+:::

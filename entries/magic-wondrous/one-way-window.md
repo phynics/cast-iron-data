@@ -21,8 +21,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 When not in use, this magical device appears to be a simple wooden picture frame about 3 inches by 5
 inches in size. However, when set against a solid surface, it becomes a window, allowing the user to
@@ -38,5 +43,7 @@ it can only show open spaces beyond the barrier it is placed against.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 2,000 gp
+:::

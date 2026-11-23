@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** head; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: head
+Price: 8,000 gp
+Weight: -
+:::
 
 These small black feathers appear to have been stripped off an arrow and crafted into a token. By
 braiding a shadow fletching into her hair, a character can imbue herself with the magic of the
@@ -35,6 +40,7 @@ that allows them to see invisible creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gloomblind bolts](ref/spell/gloomblind-bolts), creator must be a [fetchling](ref/race/fetchling);
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gloomblind bolts](ref/spell/gloomblind-bolts), creator must be a [fetchling](ref/race/fetchling)
+Cost: 4,000 gp
+:::

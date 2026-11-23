@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "2nd"
 +++
 
-**Aura** faint evocation; **CL** 2nd\
-**Slot** none; **Price** 1,440 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 2nd
+Slot: none
+Price: 1,440 gp
+Weight: -
+:::
 
 This tiny glass bead transforms itself into a 10-foot-by-10-foot pile of logs and kindling whenever
 its command word is spoken. A sturdy, 8-foot-tall post juts out of the center of the log heap. This
@@ -33,5 +38,7 @@ long as the fire burned before she can order the bead to become a pile of logs a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[produce flame](ref/spell/produce-flame); **Cost** 720 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [produce flame](ref/spell/produce-flame)
+Cost: 720 gp
+:::

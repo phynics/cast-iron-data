@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** shoulders; **Price** 39,550 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: shoulders
+Price: 39,550 gp
+Weight: -
+:::
 
 This simple woolen cloak is trimmed across the shoulders with the feathers of eagles and other
 raptors, and permits the user to _[fly](ref/spell/fly)_ (as the spell) for a total of 30 minutes
@@ -39,6 +44,7 @@ bonus on [Perception](ref/skill/perception) checks involving vision or sight.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather fall](ref/spell/feather-fall), [fly](ref/spell/fly), [minor image](ref/spell/minor-image);
-**Cost** 19,775 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather fall](ref/spell/feather-fall), [fly](ref/spell/fly), [minor image](ref/spell/minor-image)
+Cost: 19,775 gp
+:::

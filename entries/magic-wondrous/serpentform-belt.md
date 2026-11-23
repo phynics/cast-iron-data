@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 20,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 20,000 gp
+Weight: 1/2 lb.
+:::
 
 This snakeskin belt is crafted from the hides of brightly hued serpents. When buckled, it
 immediately binds tightly to the wearer's waist. Once per day, the wearer can command the
@@ -34,5 +39,7 @@ maximum of 10 minutes, whichever is shorter.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 10,000 gp
+:::

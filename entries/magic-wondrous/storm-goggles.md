@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** eyes; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: eyes
+Price: 6,000 gp
+Weight: -
+:::
 
 These goggles, made from a pair of smoky crystal lenses set in an adjustable leather strap, help the
 wearer see through storms of rain, snow, or even dust. A pair of storm goggles fully negates any
@@ -33,6 +38,7 @@ results.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Skill Focus](ref/feat/skill-focus) (Perception), [acute senses](ref/spell/acute-senses); **Cost**
-3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Skill Focus](ref/feat/skill-focus) (Perception), [acute senses](ref/spell/acute-senses)
+Cost: 3,000 gp
+:::

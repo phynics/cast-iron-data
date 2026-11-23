@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 A recondite holy symbol is a silver amulet depicting an old or obscure religious symbol that has
 long fallen out of common use within the religion in question. Each religion has its own unique
@@ -37,6 +42,7 @@ bonus on Knowledge (religion) checks related to her deity or religion for 1 minu
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), creator must have at least 5 ranks in Knowledge (religion); **Cost**
-250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), creator must have at least 5 ranks in Knowledge (religion)
+Cost: 250 gp
+:::

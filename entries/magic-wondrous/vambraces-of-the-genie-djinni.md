@@ -22,9 +22,13 @@ caster_level = "5th"
 
 ## Vambraces of the Genie
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** wrists; **Price** 14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp
-(Shaitan); **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: wrists
+Price: 14,400 gp (Efreeti), 18,900 gp (Djinni), 18,900 gp (Marid), 18,900 gp (Shaitan)
+Weight: 3 lbs.
+:::
 
 These bracers are decorated with icons representing air, earth, fire, or water, and depictions of
 genies appropriate to that element. The item protects the wearer against hot and cold environments
@@ -49,6 +53,7 @@ associated genie type.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), and the three spells the wearer can use; **Cost**
-7,200 gp (Efreeti), 9,450 gp (Djinni), 9,450 gp (Marid), 9,450 gp (Shaitan)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), and the three spells the wearer can use
+Cost: 7,200 gp (Efreeti), 9,450 gp (Djinni), 9,450 gp (Marid), 9,450 gp (Shaitan)
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 This leather scabbard resizes itself to fit any axe, sword, dagger, or similar item normally stored
 in a scabbard. Sheathing a nonmagical weapon in the scabbard for 1 minute hones its edge as if it
@@ -29,5 +34,7 @@ had been sharpened with a [whetstone](ref/eq-misc/whetstone).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending);
-**Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending)
+Cost: 250 gp
+:::

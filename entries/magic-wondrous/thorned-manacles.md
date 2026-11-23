@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 7th\
-**Slot** wrists; **Price** 35,600 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 7th
+Slot: wrists
+Price: 35,600 gp
+Weight: 2 lbs.
+:::
 
 When placed on a [helpless](ref/misc/helpless), two-armed creature of size Tiny to Huge, these
 barbed manacles transform to match the creature's size and prevent the captive from utilizing any
@@ -33,6 +38,7 @@ manacles have [hardness](ref/umr/hardness) 12 and 20 hit points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor), [thorn body](ref/spell/thorn-body); **Cost**
-17,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor), [thorn body](ref/spell/thorn-body)
+Cost: 17,800 gp
+:::

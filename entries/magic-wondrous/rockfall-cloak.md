@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** shoulders; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: shoulders
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 A rockfall cloak is fashioned from rigid fabric with a stony texture, and it grants a +2
 circumstance bonus on [Stealth](ref/skill/stealth) checks in underground terrain. The wearer can
@@ -35,5 +40,7 @@ is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stone shield](ref/spell/stone-shield); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stone shield](ref/spell/stone-shield)
+Cost: 1,250 gp
+:::

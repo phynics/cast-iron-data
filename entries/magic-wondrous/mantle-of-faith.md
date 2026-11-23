@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** chest; **Price** 76,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: chest
+Price: 76,000 gp
+Weight: -
+:::
 
 This holy garment bears the varied religious icons and favored colors of a specific faith. When worn
 over normal clothing, grants [damage reduction](ref/rule/damage-reduction) 5/evil to the character
@@ -32,5 +37,7 @@ wearing it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stoneskin](ref/spell/stoneskin); **Cost** 38,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stoneskin](ref/spell/stoneskin)
+Cost: 38,000 gp
+:::

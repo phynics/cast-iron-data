@@ -20,8 +20,12 @@ aura = "strong conjuration and illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and illusion; **CL** 13th\
-**Slot** none; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration and illusion
+CL: 13th
+Slot: none
+Weight: 1 lb.
+:::
 
 When a humanoid creature picks up this ugly old doll, he triggers a horrible curse. Thereafter, the
 cursed doll considers that creature its owner. If the owner leaves the doll, it appears next to him
@@ -50,5 +54,7 @@ though if the previous owner returns from the dead before that time, the doll re
 
 ### Construction
 
-**Requirements** [anatomy doll](ref/magic-wondrous/anatomy-doll),
-[ganji doll](ref/magic-fetish/ganji-doll), [hexing doll](ref/magic-wondrous/hexing-doll); **Cost** -
+::: statblock
+Requirements: [anatomy doll](ref/magic-wondrous/anatomy-doll), [ganji doll](ref/magic-fetish/ganji-doll), [hexing doll](ref/magic-wondrous/hexing-doll)
+Cost: -
+:::

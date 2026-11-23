@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "2nd"
 +++
 
-**Aura** faint conjuration; **CL** 2nd\
-**Slot** none; **Price** 1,150 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 2nd
+Slot: none
+Price: 1,150 gp
+Weight: 3 lbs.
+:::
 
 If the possessor learns the proper tune, he can use these pipes to attract 1d3
 [rat swarms](ref/monster/rat-rat-swarm) if any rats are within 400 feet. For each 50-foot distance
@@ -41,6 +46,7 @@ creature is actively seeking to reassert its control.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal), [summon nature's ally I](ref/spell/summon-natures-ally-1),
-[wild empathy](ref/ability/wild-empathy) ability; **Cost** 575 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal), [summon nature's ally I](ref/spell/summon-natures-ally-1), [wild empathy](ref/ability/wild-empathy) ability
+Cost: 575 gp
+:::

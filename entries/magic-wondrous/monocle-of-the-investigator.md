@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** eyes; **Price** 66,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: eyes
+Price: 66,000 gp
+Weight: -
+:::
 
 This crystal lens fits over a single eye but takes up the entire eyes slot. Once per day, the wearer
 is able to gaze at a 10-foot-by-10-foot area and see exactly what occurred in that area during the
@@ -33,5 +38,7 @@ events besides what can be visually seen. Observed conversations cannot be heard
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[legend lore](ref/spell/legend-lore), [vision](ref/spell/vision); **Cost** 33,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [legend lore](ref/spell/legend-lore), [vision](ref/spell/vision)
+Cost: 33,000 gp
+:::

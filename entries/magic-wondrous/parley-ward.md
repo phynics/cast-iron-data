@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** none; **Price** 52,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: none
+Price: 52,000 gp
+Weight: 2 lbs.
+:::
 
 This hemispherical dome of jet-black crystal has no discernible markings on its curved surface, but
 faint runes (including the command word) are visible on the flat side. Three times per week,
@@ -40,6 +45,7 @@ deactivates it, consuming one of its 3 weekly charges.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage's private sanctum](ref/spell/mages-private-sanctum), [serenity](ref/spell/serenity); **Cost**
-26,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage's private sanctum](ref/spell/mages-private-sanctum), [serenity](ref/spell/serenity)
+Cost: 26,000 gp
+:::

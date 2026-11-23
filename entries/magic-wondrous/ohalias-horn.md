@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** none; **Price** 55,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: none
+Price: 55,000 gp
+Weight: 2 lbs.
+:::
 
 The bell of this slightly curved horn resembles the head of a roaring lioness. The horn functions in
 many ways like a [horn of valhalla](ref/magic-wondrous/horn-of-valhalla), but while held in one
@@ -31,6 +36,7 @@ hour in place of summoning the barbarians. The sleipnir willingly serves as a mo
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deathwatch](ref/spell/deathwatch), [summon monster VIII](ref/spell/summon-monster-8); **Cost**
-22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deathwatch](ref/spell/deathwatch), [summon monster VIII](ref/spell/summon-monster-8)
+Cost: 22,500 gp
+:::

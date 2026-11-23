@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 30 lbs.
+:::
 
 A paradox box resembles a small stone chest of ornate design that measures approximately 1-1/2 feet
 by 1-1/2 feet by 1 foot. Closer inspection reveals the paradox box to be a solid piece of stone
@@ -53,5 +58,7 @@ though the command word might have been lost millennia ago.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [secret chest](ref/spell/secret-chest); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 16th\
-**Slot** body; **Price** 164,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 16th
+Slot: body
+Price: 164,000 gp
+Weight: 1 lb.
+:::
 
 The robes of Xin-Edasseril grant a +5 armor bonus to AC and
 [spell resistance](ref/rule/spell-resistance) 20, and they cause the wearer to cast all abjuration
@@ -32,6 +37,7 @@ changed once per day as a standard action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage armor](ref/spell/mage-armor), [protection from spells](ref/spell/protection-from-spells),
-[resist energy](ref/spell/resist-energy), [secret chest](ref/spell/secret-chest); **Cost** 82,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage armor](ref/spell/mage-armor), [protection from spells](ref/spell/protection-from-spells), [resist energy](ref/spell/resist-energy), [secret chest](ref/spell/secret-chest)
+Cost: 82,000 gp
+:::

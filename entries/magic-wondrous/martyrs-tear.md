@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** none; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: none
+Price: 6,000 gp
+Weight: -
+:::
 
 This imperfect, rose-tinted gemstone resembles a teardrop or a broken heart depending on its
 orientation. Its pale facets are typically marred by a single crack or chip near the gem's middle.
@@ -35,5 +40,7 @@ amount stored in the gem. This returns the gem to its normal color.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vampiric touch](ref/spell/vampiric-touch); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 3,000 gp
+:::

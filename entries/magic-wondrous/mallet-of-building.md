@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This heavy builder's mallet has a wooden shaft and a head made from shiny black iron that turns
 slightly red when held close to metal. The wielder of the mallet can, as a full-round action, swing
@@ -33,5 +38,7 @@ items per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 2,500 gp
+:::

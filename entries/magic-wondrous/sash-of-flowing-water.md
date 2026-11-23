@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: belt
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 If this belt's wearer has at least one hand free (holding nothing), he can attempt to deflect a
 successful melee attack with an immediate action. To do so, he rolls an unarmed strike against the
@@ -34,6 +39,7 @@ takes a -4 penalty on attack rolls until the end of his next turn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Combat Expertise](ref/feat/combat-expertise),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Combat Expertise](ref/feat/combat-expertise), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike)
+Cost: 12,500 gp
+:::

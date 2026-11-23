@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 This heavy leather bag bulges only slightly but upon closer inspection appears to be chocked full of
 knives, gears, picks, shovels, and arrows. Once per day as a full-round action, the bearer can
@@ -34,5 +39,7 @@ and wood to accommodate the trap without altering nearby terrain (including door
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), creator must have 5 ranks in Craft (traps); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), creator must have 5 ranks in Craft (traps)
+Cost: 10,000 gp
+:::

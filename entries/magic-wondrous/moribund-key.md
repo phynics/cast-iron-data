@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong necromancy; **CL** 12th\
-**Slot** none; **Price** 40,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong necromancy
+CL: 12th
+Slot: none
+Price: 40,000 gp
+Weight: 1/2 lb.
+:::
 
 Greater agents of the [Whispering Way](ref/rule/f-gravepath) use these silver medallions as keys to
 their sanctuaries. Each moribund key bears an engraved skull with two
@@ -41,7 +46,7 @@ the medallion is in that creature's possession.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead), [knock](ref/spell/knock), [message](ref/spell/message),
-[spectral hand](ref/spell/spectral-hand), [vampiric touch](ref/spell/vampiric-touch); **Cost**
-20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead), [knock](ref/spell/knock), [message](ref/spell/message), [spectral hand](ref/spell/spectral-hand), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 20,000 gp
+:::

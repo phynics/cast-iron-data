@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** wrists; **Price** 3,280 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: wrists
+Price: 3,280 gp
+Weight: 2 lbs.
+:::
 
 These battered iron manacles are typically found with a small spiked iron key in one of the locks.
 The shackles magically adjust themselves to fit around the wrists of any creature from Small to
@@ -42,5 +47,7 @@ Device check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command](ref/spell/command);
-**Cost** 1,930 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command](ref/spell/command)
+Cost: 1,930 gp
+:::

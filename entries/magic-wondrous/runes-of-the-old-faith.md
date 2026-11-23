@@ -20,8 +20,13 @@ aura = "strong universal"
 caster_level = "12th"
 +++
 
-**Aura** strong universal; **CL** 12th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong universal
+CL: 12th
+Slot: none
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This velvet pouch contains a number of stones gathered from the creator's local area that bear runes
 with a single druidic symbol each. Runes of the old faith work as
@@ -31,6 +36,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be able to cast
-6th-level druid spells; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be able to cast 6th-level druid spells
+Cost: 8,000 gp
+:::

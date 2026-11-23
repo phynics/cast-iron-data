@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 5,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 5,500 gp
+Weight: -
+:::
 
 This potent elixir has the consistency and color of pomegranate juice, and a tart taste with a faint
 aroma of fresh fruit. Usually found in bamboo containers decorated with images of carp, the sacred
@@ -38,6 +43,7 @@ of the elixir's other effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[breath of life](ref/spell/breath-of-life),
-[brilliant inspiration](ref/spell/brilliant-inspiration); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [breath of life](ref/spell/breath-of-life), [brilliant inspiration](ref/spell/brilliant-inspiration)
+Cost: 2,750 gp
+:::

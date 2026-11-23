@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 1,200 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 1,200 gp
+Weight: -
+:::
 
 This waxy amber substance is typically stored in a lidded container that holds 10 applications. One
 application is enough to plug both of a creature's ears - applying the wax is a standard action.
@@ -36,5 +41,7 @@ targeted by such an effect). A single dose of wax of defiance lasts for 1 hour o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[break enchantment](ref/spell/break-enchantment), [silence](ref/spell/silence); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [break enchantment](ref/spell/break-enchantment), [silence](ref/spell/silence)
+Cost: 600 gp
+:::

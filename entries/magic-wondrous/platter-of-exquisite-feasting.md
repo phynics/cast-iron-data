@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 250 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 250 gp
+Weight: 1 lb.
+:::
 
 This silver, oval-shaped platter can hold up to 1 cubic foot worth of food. Once per day, the
 platter's user can activate the item to transform its contents into another type or quality of food
@@ -31,5 +36,7 @@ food remains so and is detectable as such under magical or supernatural scrutiny
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[purify food and drink](ref/spell/purify-food-and-drink); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 125 gp
+:::

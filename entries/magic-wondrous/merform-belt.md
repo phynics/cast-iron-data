@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** belt; **Price** 32,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: belt
+Price: 32,000 gp
+Weight: 2 lbs.
+:::
 
 Once per day, the wearer of this belt can command it to transform her into the form of a merfolk.
 While in this form, the wearer can breathe water and transform her lower body into a merfolk
@@ -31,5 +36,7 @@ to 12 hours, and can end the effect at any time with a command.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [water breathing](ref/spell/water-breathing); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [water breathing](ref/spell/water-breathing)
+Cost: 16,000 gp
+:::

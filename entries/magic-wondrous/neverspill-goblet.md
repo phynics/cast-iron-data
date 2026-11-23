@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 The neverspill goblet was designed for one very simple purpose: to never have to worry about wasting
 [Cayden Cailean's](ref/faith/cayden-cailean) gifts. A goblet holds up to 1 cup of liquid (or 1 dose
@@ -38,5 +43,7 @@ than one adventurer has taken advantage of on journeys.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose)
+Cost: 500 gp
+:::

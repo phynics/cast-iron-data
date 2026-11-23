@@ -22,8 +22,12 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Weight: 1 lb.
+:::
 
 This small, 6-inch-square glass tablet grows to a 6-foot by 3-foot window if placed on any
 sufficiently large vertical surface and returns to its original size if removed. The window melds
@@ -53,5 +57,7 @@ it.
 
 ### Construction
 
-**Requirements** [mirror of life trapping](ref/magic-wondrous/mirror-of-life-trapping),
-[mirror of opposition](ref/magic-wondrous/mirror-of-opposition); **Cost** -
+::: statblock
+Requirements: [mirror of life trapping](ref/magic-wondrous/mirror-of-life-trapping), [mirror of opposition](ref/magic-wondrous/mirror-of-opposition)
+Cost: -
+:::

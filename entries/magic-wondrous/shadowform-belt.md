@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** belt; **Price** 110,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: belt
+Price: 110,000 gp
+Weight: -
+:::
 
 When wrapped around a wearer's waist, this belt grants a +6 enhancement bonus to Dexterity. Treat
 this as a [temporary ability bonus](ref/rule/ability-score-bonuses) for the first 24 hours the belt
@@ -32,5 +37,7 @@ rounds need not be consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [etherealness](ref/spell/etherealness); **Cost** 55,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [etherealness](ref/spell/etherealness)
+Cost: 55,000 gp
+:::

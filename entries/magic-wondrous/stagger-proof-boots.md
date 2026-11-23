@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** feet; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: feet
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 These calf-high leather boots are inscribed with [Cayden Cailean's](ref/faith/cayden-cailean) holy
 symbol. The wearer can stand up from [prone](ref/rule/prone) without provoking attacks of
@@ -31,5 +36,7 @@ to 30 feet; this movement provokes attacks of opportunity as normal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste)
+Cost: 1,000 gp
+:::

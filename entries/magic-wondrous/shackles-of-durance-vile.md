@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** wrists; **Price** 16,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: wrists
+Price: 16,200 gp
+Weight: 2 lbs.
+:::
 
 These masterwork iron manacles sap the will of their wearer. When they are attached to a humanoid
 creature as their command word is spoken, they affect their prisoner with a
@@ -39,5 +44,7 @@ They have a break DC of 30 and an [Escape Artist](ref/skill/escape-artist) DC of
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate person](ref/spell/dominate-person); **Cost** 8,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate person](ref/spell/dominate-person)
+Cost: 8,200 gp
+:::

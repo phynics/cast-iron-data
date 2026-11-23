@@ -20,8 +20,13 @@ aura = "strong conjuration and divination"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration and divination; **CL** 17th\
-**Slot** none; **Price** 70,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration and divination
+CL: 17th
+Slot: none
+Price: 70,200 gp
+Weight: 2 lbs.
+:::
 
 About half again the size of a standard [wayfinder](ref/magic-wondrous/wayfinder), a wayfinder of
 the stars features an extra outer ring around the normal directional compass in the center. Embedded
@@ -39,6 +44,7 @@ _[interplanetary teleport](ref/spell/interplanetary-teleport)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[interplanetary teleport](ref/spell/interplanetary-teleport), [light](ref/spell/light),
-[locate object](ref/spell/locate-object); **Cost** 35,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [interplanetary teleport](ref/spell/interplanetary-teleport), [light](ref/spell/light), [locate object](ref/spell/locate-object)
+Cost: 35,100 gp
+:::

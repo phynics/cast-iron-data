@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This mask is white on one side and black on the other, with glittering gem lenses covering the eyes.
 Up to three times per day, the wearer can change the energy damage of a fire spell she casts to
@@ -32,5 +37,7 @@ checks). The mask affects only spells up to 3rd level.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Elemental Spell](ref/feat/elemental-spell); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Elemental Spell](ref/feat/elemental-spell)
+Cost: 2,000 gp
+:::

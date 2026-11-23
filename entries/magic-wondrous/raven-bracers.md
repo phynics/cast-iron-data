@@ -20,8 +20,13 @@ aura = "moderate divination and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination and transmutation; **CL** 9th\
-**Slot** hands; **Price** 16,600 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination and transmutation
+CL: 9th
+Slot: hands
+Price: 16,600 gp
+Weight: 4 lbs.
+:::
 
 This pair of magnificent dark metal bracers is forged to depict the shape of a raven stretched over
 the wearer's forearm. Once prized by the last king of Zolurket, several additional raven bracers
@@ -48,7 +53,7 @@ own use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animal messenger](ref/spell/animal-messenger), [animate objects](ref/spell/animate-objects),
-[teleport object](ref/spell/teleport-object), [telekinesis](ref/spell/telekinesis); **Cost** 8,300
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animal messenger](ref/spell/animal-messenger), [animate objects](ref/spell/animate-objects), [teleport object](ref/spell/teleport-object), [telekinesis](ref/spell/telekinesis)
+Cost: 8,300 gp
+:::

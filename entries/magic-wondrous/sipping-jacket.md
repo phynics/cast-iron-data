@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** chest; **Price** 5,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: chest
+Price: 5,000 gp
+Weight: 5 lbs.
+:::
 
 Absorbent fibers line this heavy canvas coat. Once per day as a standard action, the wearer can pour
 a potion onto this lining, suffusing it into the coat. If the potion has an instantaneous duration,
@@ -35,5 +40,7 @@ described above. The absorbed potion loses its powers after 24 hours, even if un
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[amplify elixir](ref/spell/amplify-elixir); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [amplify elixir](ref/spell/amplify-elixir)
+Cost: 2,500 gp
+:::

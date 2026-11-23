@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 5,500 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 5,500 gp
+Weight: -
+:::
 
 A wind fan appears to be nothing more than a wood and papyrus or cloth instrument with which to
 create a cooling breeze. By uttering the command word, its possessor causes the fan to duplicate a
@@ -34,5 +39,7 @@ tears into useless, nonmagical tatters.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 2,750 gp
+:::

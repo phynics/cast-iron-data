@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 12,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 12,000 gp
+Weight: 1/2 lb.
+:::
 
 This colorful mask evokes the image of the Rabbit Prince from the Harrowed Realm. It covers the top
 half of the wearer's face and depicts the countenance of a resolute rabbit complete with large,
@@ -33,5 +38,7 @@ addition, the wearer always counts as having a running start when attempting
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump),
-[remove fear](ref/spell/remove-fear); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump), [remove fear](ref/spell/remove-fear)
+Cost: 6,000 gp
+:::

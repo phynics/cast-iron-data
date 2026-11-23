@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** none; **Price** 3,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: none
+Price: 3,000 gp
+Weight: 5 lbs.
+:::
 
 This book-sized stone tablet is a recreation of the famous Laws of Man from the nation of Rahadoum.
 The tablet lists the anti-religious teachings of the First Law, along with several related verses
@@ -37,6 +42,7 @@ chooses the better roll when determining the amount of healing granted by Godles
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Godless Healing](ref/feat/godless-healing), [dispel magic](ref/spell/dispel-magic), creator must be
-an atheist; **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Godless Healing](ref/feat/godless-healing), [dispel magic](ref/spell/dispel-magic), creator must be an atheist
+Cost: 1,500 gp
+:::

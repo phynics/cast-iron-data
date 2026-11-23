@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 5,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 5,400 gp
+Weight: 1/2 lb.
+:::
 
 This small brass device is shaped like a compass or clock, and is designed for travel on planes
 without magnetic poles or set geography. When activated via a mechanical trigger, its geared arms
@@ -41,6 +46,7 @@ travelers by locals - these last generally direct the user to a specific hazard 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate portal](ref/spell/locate-portal), [planar orientation](ref/spell/planar-orientation);
-**Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate portal](ref/spell/locate-portal), [planar orientation](ref/spell/planar-orientation)
+Cost: 2,700 gp
+:::

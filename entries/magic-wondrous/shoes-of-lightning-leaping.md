@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** feet; **Price** 10,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: feet
+Price: 10,500 gp
+Weight: 1 lb.
+:::
 
 These short black shoes fit tightly around the wearer's feet and bear designs of leaping arcs of
 lightning and wild winds. Once per day on command, a creature wearing these boots can transform into
@@ -34,6 +39,7 @@ lightning form does not provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat), [lightning bolt](ref/spell/lightning-bolt);
-**Cost** 5,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 5,250 gp
+:::

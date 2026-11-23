@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** feet; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: feet
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 These simple wooden sandals allow their wearer to step in the way of danger to protect her allies.
 Three times per day as an immediate action, the wearer can take a 5-foot step to move into the path
@@ -35,5 +40,7 @@ using this ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Deflect Arrows,
-[deflection](ref/spell/deflection); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Deflect Arrows, [deflection](ref/spell/deflection)
+Cost: 4,000 gp
+:::

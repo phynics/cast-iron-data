@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 A simple clasp dangles from this fine brass chain. As a standard action, the wearer can attach a
 single holy symbol to the clasp. The wearer gains a +2 sacred bonus on saving throws against spells
@@ -30,5 +35,7 @@ attached holy symbol.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[corruption resistance](ref/spell/corruption-resistance); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [corruption resistance](ref/spell/corruption-resistance)
+Cost: 1,500 gp
+:::

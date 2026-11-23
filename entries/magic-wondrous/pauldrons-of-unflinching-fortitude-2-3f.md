@@ -22,9 +22,13 @@ caster_level = "7th"
 
 ## Pauldrons of Unflinching Fortitude
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** shoulders; **Price** 1,500 gp (+1, +2F), 6,000 gp (+2, +3F), 13,500 gp (+3, +4F), 24,000 gp
-(+4, +5F), 37,500 gp (+5/+6 Fortitude); **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: shoulders
+Price: 1,500 gp (+1, +2F), 6,000 gp (+2, +3F), 13,500 gp (+3, +4F), 24,000 gp (+4, +5F), 37,500 gp (+5/+6 Fortitude)
+Weight: 1 lb.
+:::
 
 The wearer of these elegant, polished steel pauldrons gains a bonus on all saving throws, as with a
 [cloak of resistance](ref/magic-wondrous/cloak-of-resistance), but the resistance bonus on Fortitude
@@ -34,7 +38,7 @@ saving throw on the reroll, he can't use this ability again for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance), the creator must have
-the mythic saves ability; **Cost** 750 gp (+1, +2F), 3,000 gp (+2, +3F), 6,750 gp (+3, +4F), 12,000
-gp (+4, +5F), 18,750 gp (+5/+6 Fortitude)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance), the creator must have the mythic saves ability
+Cost: 750 gp (+1, +2F), 3,000 gp (+2, +3F), 6,750 gp (+3, +4F), 12,000 gp (+4, +5F), 18,750 gp (+5/+6 Fortitude)
+:::

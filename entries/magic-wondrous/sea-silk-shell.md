@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 4,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 4,500 gp
+Weight: 1/2 lb.
+:::
 
 This small clamshell magically contains a 300-square-foot sheet of sea silk, which is an extremely
 fine, valuable, and strong fabric woven from the filaments of pen shells. The sea silk has
@@ -47,5 +52,7 @@ be used again as normal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 2,250 gp
+:::

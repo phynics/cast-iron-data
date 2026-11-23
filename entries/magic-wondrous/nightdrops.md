@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This narrow vial holds 5 doses of viscous liquid. When dripped onto a willing creature's eyes, it
 gives the creature [low-light vision](ref/rule/low-light-vision) for 1 hour. The affected creature
@@ -31,5 +36,7 @@ how many eyes it has.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1)
+Cost: 125 gp
+:::

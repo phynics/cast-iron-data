@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 78,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 78,600 gp
+Weight: 1 lb.
+:::
 
 This heavy cloak is made of blue scaled leather and has a pointed hem that hangs near the ground.
 The cloak provides the wearer a +4 resistance bonus on Will saves, a continuous
@@ -32,6 +37,7 @@ stinger, granting her a sting natural weapon. This sting deals 1d6 points of dam
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather fall](ref/spell/feather-fall), [fly](ref/spell/fly), [poison](ref/spell/poison),
-[resistance](ref/spell/resistance), creator must be at least caster level 12; **Cost** 39,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather fall](ref/spell/feather-fall), [fly](ref/spell/fly), [poison](ref/spell/poison), [resistance](ref/spell/resistance), creator must be at least caster level 12
+Cost: 39,300 gp
+:::

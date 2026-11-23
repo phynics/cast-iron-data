@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** body; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: body
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 The pockets of this simple blue robe always seem to carry just what the wearer needs whenever she
 casts a spell. The robe functions as a [spell component pouch](ref/eq-misc/spell-component-pouch),
@@ -33,5 +38,7 @@ them is cast.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 2,500 gp
+:::

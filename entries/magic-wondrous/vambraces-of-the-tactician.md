@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** wrists; **Price** 8,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: wrists
+Price: 8,000 gp
+Weight: 3 lbs.
+:::
 
 These vambraces change their appearance depending on who wears them. If the wearer is a
 [cavalier](ref/class/cavalier), these vambraces display the symbol of his order. When unworn or in
@@ -34,5 +39,7 @@ within 60 feet, though they must still be able to see and hear him.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism);
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism)
+Cost: 4,000 gp
+:::

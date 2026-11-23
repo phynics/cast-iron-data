@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This vellum map depicts the Crown of the World, and delineates a path across the High Ice. Studying
 the map provides a +2 competence bonus on [Survival](ref/skill/survival) checks to avoid getting
@@ -31,5 +36,7 @@ checks made to avoid the effects of altitude, extreme cold, or severe weather).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in
-Survival, [find the path](ref/spell/find-the-path); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have 5 ranks in Survival, [find the path](ref/spell/find-the-path)
+Cost: 1,500 gp
+:::

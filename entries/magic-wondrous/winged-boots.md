@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** feet; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: feet
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 These boots appear to be ordinary footgear. On command, they sprout wings at the heel and let the
 wearer fly, without having to maintain concentration, as if affected by a _[fly](ref/spell/fly)_
@@ -33,5 +38,7 @@ per day for up to 5 minutes per flight.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly)
+Cost: 8,000 gp
+:::

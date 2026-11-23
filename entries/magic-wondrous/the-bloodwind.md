@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 126,900 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 126,900 gp
+Weight: 4 lbs.
+:::
 
 This [folding boat](ref/magic-wondrous/folding-boat) is made of rich, dark wood and a sail of
 blood-red cloth. In its ship form, it is the size of a [longship](ref/eq-misc/longship), with 20
@@ -47,10 +52,10 @@ again - preferably bloodying a finger or toe in the process.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), [gust of wind](ref/spell/gust-of-wind),
-[overland flight](ref/spell/overland-flight), creator must have 5 ranks in the
-[Craft](ref/skill/craft-any) (ships) skill; **Price** 63,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), [gust of wind](ref/spell/gust-of-wind), [overland flight](ref/spell/overland-flight), creator must have 5 ranks in the [Craft](ref/skill/craft-any) (ships) skill
+Price: 63,450 gp
+:::
 
 ### Statistics
 

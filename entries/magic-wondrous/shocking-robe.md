@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 10th\
-**Slot** body; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 10th
+Slot: body
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 This violet and yellow silk robe gives the impression of electricity crackling over its surface. The
 robe grants the wearer electricity resistance 5 and increases the wearer's caster level for all
@@ -31,6 +36,7 @@ the area take 2d6 points of electricity damage (Reflex DC 16 half).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [resist energy](ref/spell/resist-energy),
-[lightning bolt](ref/spell/lightning-bolt); **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [resist energy](ref/spell/resist-energy), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 5,500 gp
+:::

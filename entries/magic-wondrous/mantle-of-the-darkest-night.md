@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** shoulders; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: shoulders
+Price: 6,000 gp
+Weight: -
+:::
 
 This cloak is woven from a fabric of solid darkness held together by magic alone. When the wearer
 takes the [total defense](ref/misc/total-defense) action, the mantle quickly dissolves into a globe
@@ -38,5 +43,7 @@ materializes in the square into which the wearer threw it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deeper darkness](ref/spell/deeper-darkness); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deeper darkness](ref/spell/deeper-darkness)
+Cost: 3,000 gp
+:::

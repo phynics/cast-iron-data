@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 10,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 10,800 gp
+Weight: 3 lbs.
+:::
 
 This red-and-black naval ensign displays the grinning skull and crossed manacles of the Shackles.
 While the flag feels as sleek as silk, the material is stronger than the toughest sail canvas.
@@ -39,5 +44,7 @@ checks for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer);
-**Cost** 5,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer)
+Cost: 5,400 gp
+:::

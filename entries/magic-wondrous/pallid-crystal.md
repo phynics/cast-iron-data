@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** neck; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: neck
+Price: 3,300 gp
+Weight: -
+:::
 
 This finger-length crystal is a pale, opaque pink color when worn by a living creature, but slowly
 changes to a deep, translucent violet when carried by an undead. The wearer can consume spoiled food
@@ -42,7 +47,7 @@ duplicate those spells).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [death knell](ref/spell/death-knell),
-[inflict light wounds](ref/spell/inflict-light-wounds),
-[purify food and drink](ref/spell/purify-food-and-drink); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [death knell](ref/spell/death-knell), [inflict light wounds](ref/spell/inflict-light-wounds), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 1,650 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration and divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and divination; **CL** 3rd\
-**Slot** eyes; **Price** 4,900 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and divination
+CL: 3rd
+Slot: eyes
+Price: 4,900 gp
+Weight: -
+:::
 
 These nondescript, brass-rimmed spectacles have green-tinted lenses and are favored by practicing
 doctors and adventurers alike. When worn, they grant the wearer a constant awareness of poisons and
@@ -31,6 +36,7 @@ can touch a single creature to use _[delay poison](ref/spell/delay-poison)_ on t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[delay poison](ref/spell/delay-poison), [detect poison](ref/spell/detect-poison),
-[diagnose disease](ref/spell/diagnose-disease); **Cost** 2,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [delay poison](ref/spell/delay-poison), [detect poison](ref/spell/detect-poison), [diagnose disease](ref/spell/diagnose-disease)
+Cost: 2,450 gp
+:::

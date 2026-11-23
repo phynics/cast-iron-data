@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 11th\
-**Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 11th
+Slot: none
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 Resembling ordinary paper, planar parchment is used when negotiating with outsiders via spells like
 [planar ally](ref/spell/planar-ally) or _[planar binding](ref/spell/planar-binding)._ Using the
@@ -52,5 +57,7 @@ parchment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar binding](ref/spell/planar-binding), [sending](ref/spell/sending); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar binding](ref/spell/planar-binding), [sending](ref/spell/sending)
+Cost: 9,000 gp
+:::

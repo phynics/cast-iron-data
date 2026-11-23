@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This shawl of delicate lace can be activated once per day to grant the benefits of the
 _[fins to feet](ref/spell/fins-to-feet)_ spell, transforming the wearer's lower fins or appendages
@@ -32,5 +37,7 @@ into feet whenever he is on dry land - unless dismissed, this effect lasts for 5
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fins to feet](ref/spell/fins-to-feet); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fins to feet](ref/spell/fins-to-feet)
+Cost: 3,000 gp
+:::

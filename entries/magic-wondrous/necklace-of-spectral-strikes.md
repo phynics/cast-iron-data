@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** neck; **Price** 35,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: neck
+Price: 35,500 gp
+Weight: -
+:::
 
 When worn, this silver-and-turquoise necklace melds with the skin, turning into an intricately
 patterned tattoo on the wearer's chest. It ignores any wearer with an Intelligence score lower than
@@ -43,6 +48,7 @@ the object and instantly dies.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [magic weapon](ref/spell/magic-weapon),
-[plane shift](ref/spell/plane-shift); **Cost** 17,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [magic weapon](ref/spell/magic-weapon), [plane shift](ref/spell/plane-shift)
+Cost: 17,750 gp
+:::

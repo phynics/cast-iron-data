@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 9,000 gp
+Weight: 3 lbs.
+:::
 
 A sniper's helmet looks like the simple steel soldier's helmet common to the European trenches of
 the First World War, with the addition of a steel eye shield. Once per day, the wearer of a sniper's
@@ -41,5 +46,7 @@ is unaffected by foliage and the like.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle eye](ref/spell/eagle-eye), [hunter's eye](ref/spell/hunters-eye); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle eye](ref/spell/eagle-eye), [hunter's eye](ref/spell/hunters-eye)
+Cost: 4,500 gp
+:::

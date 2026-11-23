@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 Killers use smoke bombs of forgetfulness to conceal their identities and cover their escapes in the
 event of failed assassination attempts. The smoke bomb can be thrown to the ground as a standard
@@ -42,5 +47,7 @@ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory)
+Cost: 450 gp
+:::

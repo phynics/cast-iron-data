@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** head; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: head
+Price: 750 gp
+Weight: -
+:::
 
 This gauzy veil sharpens the wearer's hearing, enhances her ability to interpret others' words, and
 improves her ability to perceive multiple conversations simultaneously. Veils of attentiveness have
@@ -37,5 +42,7 @@ were listening only to that voice.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen senses](ref/spell/keen-senses); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen senses](ref/spell/keen-senses)
+Cost: 375 gp
+:::

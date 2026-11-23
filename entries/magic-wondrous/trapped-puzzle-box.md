@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1/2 lb.
+:::
 
 Solving this simple kinetic puzzle involves removing several pegs from a handheld wooden cube.
 However, removing the final peg triggers the magical trap. The box explodes in the victim's hands,
@@ -32,5 +37,7 @@ requires a successful DC 30 [Perception](ref/skill/perception) check made by a c
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[explosive runes](ref/spell/explosive-runes); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [explosive runes](ref/spell/explosive-runes)
+Cost: 375 gp
+:::

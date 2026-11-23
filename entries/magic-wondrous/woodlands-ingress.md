@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: 18,000 gp
+Weight: -
+:::
 
 This small, smooth stone is made of a delicate, light blue larimar polished to a sheen. It glows
 very faintly, and its edges are rimmed with delicate Sylvan script of couplets that exalt life in a
@@ -33,5 +38,7 @@ _[tree stride](ref/spell/tree-stride)_ until targeted by a woodlands' ingress ag
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[tree stride](ref/spell/tree-stride); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tree stride](ref/spell/tree-stride)
+Cost: 9,000 gp
+:::

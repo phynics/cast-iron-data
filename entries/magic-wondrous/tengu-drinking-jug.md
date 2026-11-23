@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: 2 lbs.
+:::
 
 This looks like a one-gallon stoneware jug with white glaze, black birds painted around the middle,
 and a cork stopper tied about the neck with a hemp cord. Any liquid placed within the jug becomes
@@ -33,6 +38,7 @@ tengu jug holds up to 1 gallon of any liquid.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation),
-[purify food and drink](ref/spell/purify-food-and-drink); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 500 gp
+:::

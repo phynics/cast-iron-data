@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 When applied to a creature's skin, scales, or carapace, this greasy unguent causes that creature to
 sweat poison from its pores. During this time, a creature that strikes the user with a natural
@@ -44,5 +49,7 @@ evaporate after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison);
-**Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison)
+Cost: 1,250 gp
+:::

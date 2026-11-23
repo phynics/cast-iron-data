@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** neck; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: neck
+Price: 8,000 gp
+Weight: -
+:::
 
 This pewter chain necklace is formed from alternating sizes of metal links, creating a delicate but
 imposing look. Short enough to be a choker, it is set in the middle with a brilliant jasper stone
@@ -34,5 +39,7 @@ Characters with the exhausted condition gain no benefits from a periapt of proof
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove paralysis](ref/spell/remove-paralysis); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove paralysis](ref/spell/remove-paralysis)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 1,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 1,000 gp
+Weight: 4 lbs.
+:::
 
 This is a hand-sized replica of a wasp's nest, crafted out of paper. It is extremely fragile and
 comes in a snug rigid case. If the nest is placed on the floor or ground, each time a creature
@@ -35,5 +40,7 @@ minutes after being released.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[insect plague](ref/spell/insect-plague); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [insect plague](ref/spell/insect-plague)
+Cost: 500 gp
+:::

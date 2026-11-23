@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy; **CL** 4th\
-**Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 4th
+Slot: none
+Price: 2,500 gp
+Weight: 2 lbs.
+:::
 
 This smoked glass sphere contains a roiling, bone-white mist. The sphere counts as a thrown weapon
 with a range increment of 10 feet. It shatters on impact, releasing the contained vapors in a
@@ -31,5 +36,7 @@ fast-acting strain of [bubonic plague](ref/disease/bubonic-plague) with an immed
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion), [fog cloud](ref/spell/fog-cloud); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion), [fog cloud](ref/spell/fog-cloud)
+Cost: 1,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination and transmutation; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint divination and transmutation
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 Often used by the [halflings](ref/race/halfling) of Segada looking to escape their insular home city
 and satisfy their wanderlust, these maps appear as ordinary parchment. A user of a wanderlust map
@@ -33,6 +38,7 @@ into a detailed map, it cannot be used to map a different region.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[commune with nature](ref/spell/commune-with-nature), [secret page](ref/spell/secret-page); **Cost**
-300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune with nature](ref/spell/commune-with-nature), [secret page](ref/spell/secret-page)
+Cost: 300 gp
+:::

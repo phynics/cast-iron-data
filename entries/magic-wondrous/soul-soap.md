@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 200 gp
+Weight: 2 lbs.
+:::
 
 This small bar of coarse gray soap has tiny pieces of ash, coal, or hard earth embedded in it,
 leaving anyone washed with it as dirty as before. Washing a creature with the soap requires water
@@ -35,5 +40,7 @@ is sufficient to wash one creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance); **Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance)
+Cost: 100 gp
+:::

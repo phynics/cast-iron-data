@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 When burned, this firework produces smoke as a [smokestick](ref/eq-misc/smokestick). It also expands
 into a tube of ash that, after 1 round, takes the form of a [thoqqua](ref/monster/thoqqua). The
@@ -32,5 +37,7 @@ pile of nonmagical ash.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster III](ref/spell/summon-monster-3); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster III](ref/spell/summon-monster-3)
+Cost: 375 gp
+:::

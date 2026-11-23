@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** eyes; **Price** 8,750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: eyes
+Price: 8,750 gp
+Weight: -
+:::
 
 With a monocle of flawlessness placed over her eye, an artist or artisan is able to achieve
 consistent excellence, as its faceted lenses magnify and reveal imperfections that she can correct.
@@ -36,5 +41,7 @@ to detail.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[crafter's fortune](ref/spell/crafters-fortune); **Cost** 4,375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [crafter's fortune](ref/spell/crafters-fortune)
+Cost: 4,375 gp
+:::

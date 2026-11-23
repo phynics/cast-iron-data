@@ -20,8 +20,13 @@ aura = "moderate conjuration (teleportation)"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration (teleportation); **CL** 7th\
-**Slot** none; **Price** 7,600 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate conjuration (teleportation)
+CL: 7th
+Slot: none
+Price: 7,600 gp
+Weight: 7 lbs.
+:::
 
 This [mithral](ref/eq-material/mithral) [grappling hook](ref/eq-misc/grappling-hook) is decorated
 with runic engravings and attached to 50 feet of [silk rope](ref/eq-misc/silk-rope-50-ft), with the
@@ -34,5 +39,7 @@ falls to the ground after teleporting.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door); **Cost** 3,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door)
+Cost: 3,800 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination and necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong divination and necromancy; **CL** 12th\
-**Slot** none; **Price** 3,600 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong divination and necromancy
+CL: 12th
+Slot: none
+Price: 3,600 gp
+Weight: 1/2 lb.
+:::
 
 After standing above the remains of a creature for many years, a headstone or grave marker often
 develops a psychic resonance for the spirit of the creature as it was in life. When this aromatic
@@ -39,5 +44,7 @@ transmit comprehensible information.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead), [stone tell](ref/spell/stone-tell); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead), [stone tell](ref/spell/stone-tell)
+Cost: 1,800 gp
+:::

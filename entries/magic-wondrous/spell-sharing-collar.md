@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** neck; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: neck
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 This thick leather collar is studded with onyx gems and fastened with a simple metal clasp.
 Spell-sharing collars come in a variety of sizes and can be secured around the neck of any creature
@@ -37,5 +42,7 @@ attuned to it at once. The granted ability otherwise functions as a familiar's s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 3,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 The user can sound this ornate silver horn as a normal signal horn. Once per day as a standard
 action, the user can make the horn emit an eerie, canine howl. The sound entices up to four
@@ -40,5 +45,7 @@ bonus on the saving throw while in humanoid form.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mass daze](ref/spell/daze-mass), [mass suggestion](ref/spell/suggestion-mass); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mass daze](ref/spell/daze-mass), [mass suggestion](ref/spell/suggestion-mass)
+Cost: 2,000 gp
+:::

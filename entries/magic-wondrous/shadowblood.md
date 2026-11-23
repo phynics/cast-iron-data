@@ -20,8 +20,13 @@ aura = "moderate evocation [evil]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[evil\]; **CL** 9th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation \[evil\]
+CL: 9th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 Shadowblood is among the most notorious of drugs - a fluid infused with a
 [shadow demon's](ref/monster/demon-shadow-demon) essence. Anyone who drinks this substance must
@@ -41,6 +46,7 @@ possession type effects made by demons, and can never gain the benefits of
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate), [shadow evocation](ref/spell/shadow-evocation), creator must be a
-shadow demon or must have the cooperation of a shadow demon; **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate), [shadow evocation](ref/spell/shadow-evocation), creator must be a shadow demon or must have the cooperation of a shadow demon
+Cost: 750 gp
+:::

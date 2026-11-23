@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 7,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 7,000 gp
+Weight: -
+:::
 
 This bulbous bottle is crafted of smoked glass and causes any liquid contained within to take on a
 significantly darker cast and twinkle with motes of beautiful white light. A vial of efficacious
@@ -34,6 +39,7 @@ of efficacious medicine can be used up to three times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds),
-[polypurpose panacea](ref/spell/polypurpose-panacea); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [polypurpose panacea](ref/spell/polypurpose-panacea)
+Cost: 4,500 gp
+:::

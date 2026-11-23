@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This swan-feather quill helps its wielder verify signatures. The wielder can store a signature in
 the quill by pressing the quill into the signature and speaking a command word. She can then tap the
@@ -34,5 +39,7 @@ signature any number of times between uses of the verification ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[identify](ref/spell/identify); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify)
+Cost: 500 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** shoulders; **Price** 18,700 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: shoulders
+Price: 18,700 gp
+Weight: 5 lbs.
+:::
 
 A tangled layer of green moss grown on a thin, damp sheet of sod, this heavy cloak can be wrapped
 around the wearer to provide a measure of camouflage. When donned in forest or jungle terrain, a
@@ -35,6 +40,7 @@ wearer's body, negating the Stealth bonus until the cloak heals itself 24 hours 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), [neutralize poison](ref/spell/neutralize-poison),
-[restoration](ref/spell/restoration); **Cost** 9,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), [neutralize poison](ref/spell/neutralize-poison), [restoration](ref/spell/restoration)
+Cost: 9,350 gp
+:::

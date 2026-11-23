@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 7,800 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 7,800 gp
+Weight: -
+:::
 
 This small, blue figurine is fashioned in the likeness of a
 [scarab beetle](ref/monster/beetle-scarab-beetle), the sacred animal of [Khepri](ref/faith/khepri),
@@ -38,6 +43,7 @@ the bearer can cast _[summon swarm](ref/spell/summon-swarm)_ to summon a swarm o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Vermin Heart](ref/feat/vermin-heart), [speak with animals](ref/spell/speak-with-animals),
-[summon swarm](ref/spell/summon-swarm); **Cost** 3,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Vermin Heart](ref/feat/vermin-heart), [speak with animals](ref/spell/speak-with-animals), [summon swarm](ref/spell/summon-swarm)
+Cost: 3,900 gp
+:::

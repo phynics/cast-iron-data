@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "9th"
 +++
 
-**Aura** strong abjuration; **CL** 9th\
-**Slot** neck; **Price** 40,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 9th
+Slot: neck
+Price: 40,000 gp
+Weight: -
+:::
 
 These talismans are crafted by evil spellcasters on the first steps of the path of the
 [wendigo](ref/monster/wendigo). The amulet, a tiny human figure formed from unmelting ice, rests on
@@ -37,6 +42,7 @@ up.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [endure elements](ref/spell/endure-elements),
-[frigid touch](ref/spell/frigid-touch); **Cost** 21,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [endure elements](ref/spell/endure-elements), [frigid touch](ref/spell/frigid-touch)
+Cost: 21,600 gp
+:::

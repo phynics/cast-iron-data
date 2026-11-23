@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 4,500 gp
+Weight: -
+:::
 
 This elaborate red and black quill contains an endless reservoir of red ink that resembles fresh
 blood. Once per day, when within 5 feet of a living creature with -1 or fewer hit points, the bearer
@@ -34,5 +39,7 @@ minutes per Hit Die of the victim.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [honeyed tongue](ref/spell/honeyed-tongue); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [honeyed tongue](ref/spell/honeyed-tongue)
+Cost: 2,250 gp
+:::

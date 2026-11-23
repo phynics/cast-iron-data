@@ -23,8 +23,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 13th\
-**Slot** head; **Price** 22,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 13th
+Slot: head
+Price: 22,000 gp
+Weight: 3 lbs.
+:::
 
 This fearsome-looking mask of ivory, beaten copper, or pale wood is typically fashioned into the
 likeness of a human skull with a missing lower jaw, allowing the bottom half of the wearer's face to
@@ -41,6 +46,7 @@ target succeeds at its saving throw, it nevertheless takes 3d6+13 points of dama
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [finger of death](ref/spell/finger-of-death),
-[fly](ref/spell/fly); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [finger of death](ref/spell/finger-of-death), [fly](ref/spell/fly)
+Cost: 11,000 gp
+:::

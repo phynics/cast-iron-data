@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 26,250 gp; **Weight** 2 lbs. a piece
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 26,250 gp
+Weight: 2 lbs. a piece
+:::
 
 Typically found in sets of three, these clay jars are decorated with the heads of animals and
 monsters. Though they once likely contained the preserved viscera of ancient Osirian scholars,
@@ -48,5 +53,7 @@ one is in range, or dies if one is not.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [magic jar](ref/spell/magic-jar); **Cost** 13,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [magic jar](ref/spell/magic-jar)
+Cost: 13,125 gp
+:::

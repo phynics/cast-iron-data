@@ -22,8 +22,13 @@ caster_level = "4th"
 
 ## Volatile Vaporizer
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** none; **Price** 2,200 gp (1st), 3,000 gp (2nd), 3,800 gp (3rd); **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: none
+Price: 2,200 gp (1st), 3,000 gp (2nd), 3,800 gp (3rd)
+Weight: -
+:::
 
 This lime green pill is inedible but turns a potion into a cloud of mist that can be shared by
 multiple creatures. When placed inside a potion flask, the potion bubbles and froths itself into a
@@ -37,6 +42,7 @@ not mutagens, extracts, or magical oils.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alchemical allocation](ref/spell/alchemical-allocation); **Cost** 1,100 gp (1st), 1,500 gp (2nd),
-1,900 gp (3rd)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alchemical allocation](ref/spell/alchemical-allocation)
+Cost: 1,100 gp (1st), 1,500 gp (2nd), 1,900 gp (3rd)
+:::

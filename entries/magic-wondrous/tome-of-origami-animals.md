@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 13,500 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 13,500 gp
+Weight: 15 lbs.
+:::
 
 This massive, metal-bound tome is filled with thin pages of beaten copper, each of which is indented
 with arcane sigils indicating precise folding points for the creation of various origami creatures.
@@ -51,5 +56,7 @@ into useless copper shards. Tomes of origami animals have 50 pages when created,
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects); **Cost** 6,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects)
+Cost: 6,750 gp
+:::

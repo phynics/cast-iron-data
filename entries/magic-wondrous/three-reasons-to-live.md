@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 9,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 9,000 gp
+Weight: 2 lbs.
+:::
 
 The horns of three disparate creatures (chimera, dire ram, and satyr) make up this magical
 instrument, interlocking into one shofar about 2 feet long. Once per day the horn can be blown to
@@ -34,5 +39,7 @@ which the bard already has access.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout);
-**Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shout](ref/spell/shout)
+Cost: 4,500 gp
+:::

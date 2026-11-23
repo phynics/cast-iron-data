@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** shoulders; **Price** 9,750 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: shoulders
+Price: 9,750 gp
+Weight: 1 lb.
+:::
 
 Even after cleaning and mending, this traveler's cloak appears worn and weathered. For wearers with
 the bardic performance class feature, it grants the use of [raging song](ref/ability/raging-song) as
@@ -36,6 +41,7 @@ usable by a 4th-level skald, and can't have any prerequisites other than level.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[good hope](ref/spell/good-hope), [rage](ref/spell/rage), creator must have the bardic performance
-or raging song class feature; **Cost** 4,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [good hope](ref/spell/good-hope), [rage](ref/spell/rage), creator must have the bardic performance or raging song class feature
+Cost: 4,875 gp
+:::

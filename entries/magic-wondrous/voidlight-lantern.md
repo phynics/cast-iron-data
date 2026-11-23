@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 2 lbs.
+:::
 
 This ornately designed lantern is crafted from volcanic glass. When lit, the lantern's magic creates
 an area of darkness in a 20-foot radius and lowers the
@@ -32,5 +37,7 @@ darkness (as per _[deeper darkness](ref/spell/deeper-darkness)_) in a 20-foot ra
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deeper darkness](ref/spell/deeper-darkness); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deeper darkness](ref/spell/deeper-darkness)
+Cost: 15,000 gp
+:::

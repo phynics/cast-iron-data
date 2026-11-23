@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "14th"
 +++
 
-**Aura** strong necromancy; **CL** 14th\
-**Slot** body; **Price** 70,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 14th
+Slot: body
+Price: 70,000 gp
+Weight: 8 lbs.
+:::
 
 This skin has been removed from a specific humanoid creature and magically preserved. Any creature
 no more than one size category different from the skinned creature can don the skin with 1 minute of
@@ -33,5 +38,7 @@ _[recorporeal incarnation](ref/spell/recorporeal-incarnation)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[recorporeal incarnation](ref/spell/recorporeal-incarnation); **Cost** 35,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [recorporeal incarnation](ref/spell/recorporeal-incarnation)
+Cost: 35,000 gp
+:::

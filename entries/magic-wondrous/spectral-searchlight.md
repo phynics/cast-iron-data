@@ -20,8 +20,13 @@ aura = "faint divination and evocation [light]"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination and evocation \[light\]; **CL** 3rd\
-**Slot** none; **Price** 24,050 gp; **Weight** 200 lbs.
+::: statblock
+Aura: faint divination and evocation \[light\]
+CL: 3rd
+Slot: none
+Price: 24,050 gp
+Weight: 200 lbs.
+:::
 
 Created by Rasputin and the Russian inventor Viktor Miloslav, this carbon-arc spotlight provides
 normal light in a 360-foot line and increases the [light level](ref/rule/vision-and-light) by one
@@ -32,6 +37,7 @@ two-wheeled carts for easier transport.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[continual flame](ref/spell/continual-flame), [see invisibility](ref/spell/see-invisibility);
-**Cost** 12,050 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [continual flame](ref/spell/continual-flame), [see invisibility](ref/spell/see-invisibility)
+Cost: 12,050 gp
+:::

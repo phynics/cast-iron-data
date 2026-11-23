@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 900 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 900 gp
+Weight: 1/2 lb.
+:::
 
 The putrid concoction in this glass bottle smells foul and tastes worse. Anyone who drinks a dose of
 saline purge must succeed at a DC 14 Fortitude save or become [nauseated](ref/misc/nauseated) for
@@ -30,6 +35,7 @@ affecting him as his body purges the ill effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison), [remove curse](ref/spell/remove-curse); **Cost**
-450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison), [remove curse](ref/spell/remove-curse)
+Cost: 450 gp
+:::

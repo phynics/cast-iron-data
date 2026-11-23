@@ -20,8 +20,13 @@ aura = "strong abjuration and enchantment"
 caster_level = "11th"
 +++
 
-**Aura** strong abjuration and enchantment; **CL** 11th\
-**Slot** chest; **Price** 64,200 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration and enchantment
+CL: 11th
+Slot: chest
+Price: 64,200 gp
+Weight: 4 lbs.
+:::
 
 The Praenomen is a two-part amulet, comprising an oval plate that covers the wearer's chest and a
 counterweight that hangs down the wearer's back, joined by chains. The front plate is inscribed with
@@ -45,6 +50,7 @@ of its new master on the cartouche, requiring a successful DC 21
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [geas/quest](ref/spell/geas-quest),
-[heroism](ref/spell/heroism), [shield of faith](ref/spell/shield-of-faith); **Cost** 32,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [geas/quest](ref/spell/geas-quest), [heroism](ref/spell/heroism), [shield of faith](ref/spell/shield-of-faith)
+Cost: 32,100 gp
+:::

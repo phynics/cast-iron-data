@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 3,350 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 3,350 gp
+Weight: 1 lb.
+:::
 
 These slightly discolored leather boots come up to the wearer's knees and are covered with small
 barnacles. When they are worn, the boots grant their wearer a +2 competence bonus on
@@ -32,5 +37,7 @@ free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump),
-[spider climb](ref/spell/spider-climb); **Cost** 1,675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [jump](ref/spell/jump), [spider climb](ref/spell/spider-climb)
+Cost: 1,675 gp
+:::

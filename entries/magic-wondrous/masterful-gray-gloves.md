@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** hands; **Price** 5,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: hands
+Price: 5,400 gp
+Weight: 1/2 lb.
+:::
 
 These dark-gray leather gloves are extremely supple and are popular among the worshipers of
 [Norgorber](ref/faith/norgorber). They grant a +10 bonus on
@@ -33,5 +38,7 @@ allowing the wearer to disavow the theft.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility)
+Cost: 2,700 gp
+:::

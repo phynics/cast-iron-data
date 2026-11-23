@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 9th\
-**Slot** chest; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 9th
+Slot: chest
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This sturdy vest stays dry and spotless in the worst of conditions. You can secure up to six objects
 (weighing up to 1 pound each) to the vest by holding them to it and speaking a command word. You can
@@ -37,7 +42,7 @@ empty for 3 days.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create food and water](ref/spell/create-food-and-water),
-[prestidigitation](ref/spell/prestidigitation), [secret chest](ref/spell/secret-chest); **Cost**
-1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create food and water](ref/spell/create-food-and-water), [prestidigitation](ref/spell/prestidigitation), [secret chest](ref/spell/secret-chest)
+Cost: 1,000 gp
+:::

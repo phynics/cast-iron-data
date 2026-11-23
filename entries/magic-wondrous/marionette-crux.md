@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "9th"
 +++
 
-**Aura** strong enchantment; **CL** 9th\
-**Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 9th
+Slot: none
+Price: 36,000 gp
+Weight: 5 lbs.
+:::
 
 Short lengths of twine dangle sharp metal needles from each end of this cross-shaped wooden bar. To
 use a marionette crux, the wielder points the item at any humanoid within 25 feet and makes a ranged
@@ -45,5 +50,7 @@ A marionette crux can be activated up to two times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate person](ref/spell/dominate-person); **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate person](ref/spell/dominate-person)
+Cost: 18,000 gp
+:::

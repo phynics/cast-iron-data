@@ -23,8 +23,13 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 5th\
-**Slot** neck; **Price** 5,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 5th
+Slot: neck
+Price: 5,400 gp
+Weight: 3 lbs.
+:::
 
 This carved [cacodaemon](ref/monster/daemon-cacodaemon) skull bears dozens of sharp teeth and is
 strung on a thin iron chain adorned with vertebrae. Once per day as a full-round action, the wearer
@@ -37,5 +42,7 @@ is an evil act.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create soul gem](ref/spell/create-soul-gem); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create soul gem](ref/spell/create-soul-gem)
+Cost: 2,700 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 These pigments enable their possessor to create actual, permanent objects simply by depicting their
 form in two dimensions. The pigments are applied by a stick tipped with bristles, hair, or fur. The
@@ -42,5 +47,7 @@ value does not exceed 2,000 gp. The effect is instantaneous.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major creation](ref/spell/major-creation); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major creation](ref/spell/major-creation)
+Cost: 2,000 gp
+:::

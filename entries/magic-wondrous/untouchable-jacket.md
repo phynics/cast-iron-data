@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** body; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: body
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 This black jacket is marked with the insignia of the
 [Blackjackets](ref/arc-fighter/druman-blackjacket). Once per day, the wearer can speak a command
@@ -35,6 +40,7 @@ with no effect if unused for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [spell resistance](ref/spell/spell-resistance); **Cost**
-9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [spell resistance](ref/spell/spell-resistance)
+Cost: 9,000 gp
+:::

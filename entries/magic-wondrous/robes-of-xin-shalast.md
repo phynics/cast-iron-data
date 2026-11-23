@@ -23,8 +23,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 16th\
-**Slot** body; **Price** 198,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 16th
+Slot: body
+Price: 198,000 gp
+Weight: 1 lb.
+:::
 
 The traditional robes of the runelord of greed are known as the robes of Xin-Shalast. Rarely, a
 runelord would grant a favored apprentice a set of these robes. Woven of the finest of silks and
@@ -39,7 +44,7 @@ in all [high altitudes](ref/rule/mountain-travel), including within the death zo
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [mage armor](ref/spell/mage-armor),
-[protection from spells](ref/spell/protection-from-spells), [secret chest](ref/spell/secret-chest);
-**Cost** 99,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [mage armor](ref/spell/mage-armor), [protection from spells](ref/spell/protection-from-spells), [secret chest](ref/spell/secret-chest)
+Cost: 99,000 gp
+:::

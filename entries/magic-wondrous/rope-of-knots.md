@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 6,000 gp
+Weight: -
+:::
 
 This rope is 100 feet long and can perform all the functions of a
 [rope of climbing](ref/magic-wondrous/rope-of-climbing). Furthermore, upon command the rope of knots
@@ -34,5 +39,7 @@ damage to itself at a rate of 2 hit points every 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope)
+Cost: 3,000 gp
+:::

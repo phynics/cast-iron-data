@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** belt; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: belt
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 This belt grants its wearer a +2 enhancement bonus to Strength, and the ability to ignore difficult
 terrain while charging or making an [overrun](ref/rule/overrun), [bull rush](ref/rule/bull-rush), or
@@ -30,6 +35,7 @@ terrain while charging or making an [overrun](ref/rule/overrun), [bull rush](ref
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [feather step](ref/spell/feather-step); **Cost** 5,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [feather step](ref/spell/feather-step)
+Cost: 5,500 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 21,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 21,000 gp
+Weight: 5 lbs.
+:::
 
 A rope of entanglement looks just like any other hempen rope about 30 feet long. Upon command, the
 rope lashes forward 20 feet or upward 10 feet to entangle a victim. An
@@ -38,6 +43,7 @@ damage), it is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [animate rope](ref/spell/animate-rope) or
-[entangle](ref/spell/entangle); **Cost** 10,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [animate rope](ref/spell/animate-rope) or [entangle](ref/spell/entangle)
+Cost: 10,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 1,850 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 1,850 gp
+Weight: -
+:::
 
 This thin iron chain holds up to 10 extracted teeth of common predatory animals strung along it. As
 a move action, the wearer can place up to three teeth into a
@@ -34,5 +39,7 @@ extracted teeth.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic fang](ref/spell/magic-fang-greater); **Cost** 925 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic fang](ref/spell/magic-fang-greater)
+Cost: 925 gp
+:::

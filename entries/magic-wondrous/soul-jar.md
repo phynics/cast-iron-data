@@ -29,8 +29,13 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 An empty soul jar can be used to contain a soul that has been successfully trapped in a black
 sapphire via _[soul bind](ref/spell/soul-bind)._ Holding the gemstone against the soul jar's lid for
@@ -46,5 +51,7 @@ soul jar is broken, the soul held within immediately escapes to the Boneyard.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[soul bind](ref/spell/soul-bind); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [soul bind](ref/spell/soul-bind)
+Cost: 2,500 gp
+:::

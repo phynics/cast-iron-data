@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This telescope is adjustable as a full-round action, allowing magnifications anywhere from ×2 to
 ×250. The user gains a +5 competence bonus on [Knowledge (geography)](ref/skill/knowledge-geography)
@@ -39,6 +44,7 @@ his [favored enemies](ref/ability/favored-enemy).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[true seeing](ref/spell/true-seeing); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [true seeing](ref/spell/true-seeing)
+Cost: 10,000 gp
+:::

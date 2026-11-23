@@ -20,8 +20,13 @@ aura = "faint divination [mind-affecting]"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination \[mind-affecting\]; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination \[mind-affecting\]
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This device looks like a clear, fist-sized crystal with an internal lattice made up of nearly
 invisible strands of silver-white metal. By holding the crystal in both hands and concentrating, the
@@ -41,5 +46,7 @@ remove [negative levels](ref/rule/energy-drain-and-negative-levels) imposed by a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mindlink](ref/spell/mindlink); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mindlink](ref/spell/mindlink)
+Cost: 1,500 gp
+:::

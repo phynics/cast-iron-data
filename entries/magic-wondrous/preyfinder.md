@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 85,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 85,000 gp
+Weight: -
+:::
 
 These sturdy brass [compasses](ref/eq-misc/compass) are often painted blood red and etched with
 images of wolves, lions, crocodiles, or sharks stalking their prey. Though preyfinders function as
@@ -58,6 +63,7 @@ hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blood biography](ref/spell/blood-biography), [heroism](ref/spell/heroism),
-[locate creature](ref/spell/locate-creature); **Cost** 42,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blood biography](ref/spell/blood-biography), [heroism](ref/spell/heroism), [locate creature](ref/spell/locate-creature)
+Cost: 42,500 gp
+:::

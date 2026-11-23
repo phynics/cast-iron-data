@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 On the borderlands between the Plane of Air and the Plane of Water, vast sheets of glacial ice tip
 from one realm to the other, storms of boulder-sized hail pulverize extant structures, and entire
@@ -47,6 +52,7 @@ round. If the target takes 3 or more points of Dexterity damage in this way, the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chill metal](ref/spell/chill-metal), [control weather](ref/spell/control-weather),
-[snowball](ref/spell/snowball); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chill metal](ref/spell/chill-metal), [control weather](ref/spell/control-weather), [snowball](ref/spell/snowball)
+Cost: 7,000 gp
+:::

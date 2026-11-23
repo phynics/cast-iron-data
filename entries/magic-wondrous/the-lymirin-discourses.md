@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 15,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 15,000 gp
+Weight: 3 lbs.
+:::
 
 This tome contains an extensive series of moral instructions based on the 11 heroic deeds performed
 by [Iomedae](ref/faith/iomedae) before her ascension to divinity, known as the 11 Acts of Iomedae.
@@ -75,6 +80,7 @@ start.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine power](ref/spell/divine-power), creator must have 12 ranks in
-[Knowledge (religion)](ref/skill/knowledge-religion); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine power](ref/spell/divine-power), creator must have 12 ranks in [Knowledge (religion)](ref/skill/knowledge-religion)
+Cost: 7,500 gp
+:::

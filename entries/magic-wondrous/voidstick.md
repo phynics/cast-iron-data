@@ -19,8 +19,13 @@ aura = "faint necromancy [evil]"
 caster_level = "5"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 5\
-**Slot** special; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 5
+Slot: special
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 Each voidstick is 6 to 10 inches long, with a diameter of about an inch. Carved from single pieces
 of polished [darkwood](ref/eq-material/darkwood), they often display markings or symbols sacred to
@@ -58,6 +63,7 @@ created in the area of an enhanced _[desecrate](ref/spell/desecrate)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [desecrate](ref/spell/desecrate), Creator must have 5 ranks
-in Knowledge (religion); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [desecrate](ref/spell/desecrate), Creator must have 5 ranks in Knowledge (religion)
+Cost: 1,750 gp
+:::

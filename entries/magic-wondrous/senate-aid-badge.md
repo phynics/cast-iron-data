@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This brooch features the heraldry of a Taldan noble family, marking the wearer as an aide to the
 associated senator. All senate aide badges are part of a set, attuned to a single master senator
@@ -40,5 +45,7 @@ construction cost.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending),
-[status](ref/spell/status); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending), [status](ref/spell/status)
+Cost: 750 gp
+:::

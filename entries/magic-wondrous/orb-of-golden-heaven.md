@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 22,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 22,000 gp
+Weight: 1 lb.
+:::
 
 This alabaster sphere, overlaid with golden bands set with diamonds in rune-like patterns, sheds
 light like a [continual flame](ref/spell/continual-flame) spell. Making a melee touch attack with
@@ -41,6 +46,7 @@ _[consecrate](ref/spell/consecrate)_ acts as if the orb were a shrine to the bea
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bless water](ref/spell/bless-water), [consecrate](ref/spell/consecrate),
-[daylight](ref/spell/daylight), [searing light](ref/spell/searing-light); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless water](ref/spell/bless-water), [consecrate](ref/spell/consecrate), [daylight](ref/spell/daylight), [searing light](ref/spell/searing-light)
+Cost: 11,000 gp
+:::

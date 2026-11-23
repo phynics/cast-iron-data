@@ -20,8 +20,13 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment, illusion, and necromancy; **CL** 12th\
-**Slot** neck; **Price** 28,800 gp; **Weight** -
+::: statblock
+Aura: strong enchantment, illusion, and necromancy
+CL: 12th
+Slot: neck
+Price: 28,800 gp
+Weight: -
+:::
 
 Mothmen sometimes create these tokens when they know their powers won't be needed for a long period
 of time or they are close to death and wish to preserve their legacies. A mothman memento can be any
@@ -43,6 +48,7 @@ _[nightmare](ref/spell/nightmare)_ effect rises as a mothman the next morning.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory), [nightmare](ref/spell/nightmare),
-[soul bind](ref/spell/soul-bind); **Cost** 14,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory), [nightmare](ref/spell/nightmare), [soul bind](ref/spell/soul-bind)
+Cost: 14,400 gp
+:::

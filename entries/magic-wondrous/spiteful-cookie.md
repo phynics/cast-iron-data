@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 These appealing treats usually come wrapped in wax paper, sealed with a drop of red wax embossed
 with the face of a smiling child. Made from sugar and bone meal, spiteful cookies can be made in a
@@ -33,6 +38,7 @@ _[feast of ashes](ref/spell/feast-of-ashes)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [feast of ashes](ref/spell/feast-of-ashes); **Cost** 375
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [feast of ashes](ref/spell/feast-of-ashes)
+Cost: 375 gp
+:::

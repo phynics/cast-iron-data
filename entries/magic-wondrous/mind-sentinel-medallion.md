@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** neck; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: neck
+Price: 3,500 gp
+Weight: -
+:::
 
 The surface of this silver medallion is covered in angular geometric shapes that refract light
 randomly. The medallion grants a continuous +2 resistance bonus on saves versus mind-affecting
@@ -33,5 +38,7 @@ jewelry.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from evil](ref/spell/protection-from-evil)
+Cost: 1,750 gp
+:::

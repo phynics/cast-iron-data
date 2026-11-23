@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** none; **Price** 7,800 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: none
+Price: 7,800 gp
+Weight: -
+:::
 
 When inactive, this item looks like a simple roll of tanned leather sized to fit in a map case. A
 close inspection reveals six faint runes in one corner, and anyone who knows the correct sequence
@@ -54,5 +59,7 @@ A found magnificent map usually includes a map of a region left by its previous 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[permanent image](ref/spell/permanent-image); **Cost** 3,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [permanent image](ref/spell/permanent-image)
+Cost: 3,900 gp
+:::

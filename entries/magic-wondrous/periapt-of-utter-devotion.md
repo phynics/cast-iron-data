@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** neck; **Price** 33,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: neck
+Price: 33,000 gp
+Weight: -
+:::
 
 This amulet functions as a [periapt of devotion](ref/magic-wondrous/periapt-of-devotion) but has a
 Will save DC of 16 and can affect non-humanoids (as per _[charm monster](ref/spell/charm-monster)_).
@@ -32,6 +37,7 @@ also breaks the periapt's charm effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [charm monster](ref/spell/charm-monster),
-[triggered suggestion](ref/spell/triggered-suggestion); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [charm monster](ref/spell/charm-monster), [triggered suggestion](ref/spell/triggered-suggestion)
+Cost: 16,500 gp
+:::

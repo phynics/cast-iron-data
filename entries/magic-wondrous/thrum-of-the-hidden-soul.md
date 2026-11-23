@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "13th"
 +++
 
-**Aura** moderate necromancy; **CL** 13th\
-**Slot** none; **Price** 32,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 13th
+Slot: none
+Price: 32,000 gp
+Weight: -
+:::
 
 A thrum of the hidden soul appears as a single, unbreakable crimson thread. To use the thrum, you
 tie the thread around any Fine or smaller nonmagical object and will your soul into the marked
@@ -42,5 +47,7 @@ including [detect magic](ref/spell/detect-magic), [identify](ref/spell/identify)
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic jar](ref/spell/magic-jar), [permanency](ref/spell/permanency); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic jar](ref/spell/magic-jar), [permanency](ref/spell/permanency)
+Cost: 16,000 gp
+:::

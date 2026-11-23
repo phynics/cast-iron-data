@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate abjuration; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 A spellcaster binds herself to a witching doll through an hour-long ritual in which the owner
 stitches some of her hair and fingernails into the rag doll's mouth. Thereafter, the owner can
@@ -38,5 +43,7 @@ herself. Many hags use this ability to make a witching doll seem mundane by cast
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[enter image](ref/spell/enter-image) or scare hex; **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [enter image](ref/spell/enter-image) or scare hex
+Cost: 15,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 5,150 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 5,150 gp
+Weight: 1/2 lb.
+:::
 
 This intricate padlock ([hardness](ref/umr/hardness) 10, hp 10, break DC 28,
 [Disable Device](ref/skill/disable-device) DC 35) is crafted from pure gold and etched with
@@ -38,5 +43,7 @@ but it reduces the lock's Disable Device DC by 5 for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [hold portal](ref/spell/hold-portal); **Cost** 2,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [hold portal](ref/spell/hold-portal)
+Cost: 2,650 gp
+:::

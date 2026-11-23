@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** body; **Price** 64,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: body
+Price: 64,000 gp
+Weight: 1 lb.
+:::
 
 Silver circles and conjuring runes decorate this black robe. Three times per day when the wearer
 uses a summoning spell or [spell-like ability](ref/umr/spell-like-abilities) to summon a variable
@@ -35,6 +40,7 @@ as a standard action once per day. It must appear adjacent to the summoner when 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Maximize Spell](ref/feat/maximize-spell), [gate](ref/spell/gate),
-[summon eidolon](ref/spell/summon-eidolon); **Cost** 32,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Maximize Spell](ref/feat/maximize-spell), [gate](ref/spell/gate), [summon eidolon](ref/spell/summon-eidolon)
+Cost: 32,000 gp
+:::

@@ -22,10 +22,13 @@ caster_level = "5th (lesser), 15th (greater)"
 
 ## Poisoner's Jacket (Lesser)
 
-**Aura** faint conjuration and necromancy (lesser), strong conjuration and necromancy (greater);
-**CL** 5th (lesser), 15th (greater)\
-**Slot** chest; **Price** 12,000 gp (lesser), 58,000 gp (greater); **Weight** 3 lbs. (lesser) 4 lbs.
-(greater)
+::: statblock
+Aura: faint conjuration and necromancy (lesser), strong conjuration and necromancy (greater)
+CL: 5th (lesser), 15th (greater)
+Slot: chest
+Price: 12,000 gp (lesser), 58,000 gp (greater)
+Weight: 3 lbs. (lesser) 4 lbs. (greater)
+:::
 
 **Lesser:** Three times per day, the wearer of this dark jacket can create a vial containing one
 dose of any poison from the Core Rulebook that costs 300 gp or less. The jacket's poison always
@@ -38,6 +41,7 @@ inert after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison),
-[minor creation](ref/spell/minor-creation) (lesser) or [major creation](ref/spell/major-creation)
-(greater); **Cost** 6,000 gp (lesser), 29,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison), [minor creation](ref/spell/minor-creation) (lesser) or [major creation](ref/spell/major-creation) (greater)
+Cost: 6,000 gp (lesser), 29,000 gp (greater)
+:::

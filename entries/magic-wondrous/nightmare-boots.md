@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 6th\
-**Slot** feet; **Price** 8,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 6th
+Slot: feet
+Price: 8,500 gp
+Weight: 3 lbs.
+:::
 
 Prized by evil warriors, these boots are made of inky black leather trimmed with a crimson mane of
 fiendish horsehair. Some bear the hair of actual [nightmares](ref/monster/nightmare) along their
@@ -36,5 +41,7 @@ Reflex saving throw halves the damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands), [pyrotechnics](ref/spell/pyrotechnics); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 3,750 gp
+:::

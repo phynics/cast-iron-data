@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** head; **Price** 650 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: head
+Price: 650 gp
+Weight: -
+:::
 
 A wearer can remove this mask as a move action to change his appearance as if using
 _[disguise self](ref/spell/disguise-self)._ The effect persists for 10 minutes. A
@@ -34,6 +39,7 @@ The mask dissolves when used.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 325 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor), [prestidigitation](ref/spell/prestidigitation)
+Cost: 325 gp
+:::

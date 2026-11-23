@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy; **CL** 18th\
-**Slot** neck; **Price** 120,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 18th
+Slot: neck
+Price: 120,000 gp
+Weight: 1 lb.
+:::
 
 This lavish necklace is crafted from gold and interwoven bands of silver. The coils of precious
 metal end in a receptacle bearing a pristine opal gemstone. The necklace does not radiate a magic
@@ -44,6 +49,7 @@ lead and becomes worthless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nondetection](ref/spell/nondetection), [trap the soul](ref/spell/trap-the-soul),
-[true resurrection](ref/spell/true-resurrection); **Cost** 60,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nondetection](ref/spell/nondetection), [trap the soul](ref/spell/trap-the-soul), [true resurrection](ref/spell/true-resurrection)
+Cost: 60,000 gp
+:::

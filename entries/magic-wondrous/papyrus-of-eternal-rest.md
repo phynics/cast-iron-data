@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 This 12-inch-long scroll is scribed on papyrus that has been anointed with
 [holy water](ref/eq-weapon/holy-water). Written on the scroll's face in Minkaian are three to four
@@ -41,5 +46,7 @@ swashbuckler's [precise strike](ref/swashdeed/precise-strike) deed, and similar 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane),
-[disrupt undead](ref/spell/disrupt-undead); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bane](ref/spell/bane), [disrupt undead](ref/spell/disrupt-undead)
+Cost: 2,000 gp
+:::

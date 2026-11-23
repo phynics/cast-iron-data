@@ -23,8 +23,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 4th\
-**Slot** chest; **Price** 5,200 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 4th
+Slot: chest
+Price: 5,200 gp
+Weight: -
+:::
 
 This simple silk vest looks nondescript, but is actually studded with numerous secret pockets sewn
 into its lining. Hidden inside these are magic lockpicks that provide a +4 competence bonus on
@@ -33,5 +38,7 @@ bonus on [Escape Artist](ref/skill/escape-artist) checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock),
-[grease](ref/spell/grease); **Cost** 2,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock), [grease](ref/spell/grease)
+Cost: 2,600 gp
+:::

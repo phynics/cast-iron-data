@@ -20,8 +20,12 @@ aura = "strong varied"
 caster_level = "15th"
 +++
 
-**Aura** strong varied; **CL** 15th\
-**Slot** body; **Weight** 1 lb.
+::: statblock
+Aura: strong varied
+CL: 15th
+Slot: body
+Weight: 1 lb.
+:::
 
 This robe functions much as a robe of stars, granting its wearer the luck bonus on saving throws,
 astral travel, and ability to create shuriken made of magically hardened gold. In addition, the
@@ -39,4 +43,7 @@ with a [remove curse](ref/spell/remove-curse) spell.
 
 ### Construction
 
-**Requirements** [robe of stars](ref/magic-wondrous/robe-of-stars); **Cost** -
+::: statblock
+Requirements: [robe of stars](ref/magic-wondrous/robe-of-stars)
+Cost: -
+:::

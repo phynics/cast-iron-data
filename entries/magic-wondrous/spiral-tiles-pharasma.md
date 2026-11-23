@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 These 10 ebony, pearl, and ivory tiles, when arranged in a spiral pattern on the ground, provide you
 with the effects of a _[guidance](ref/spell/guidance)_ spell once per day. The spell's effect lasts
@@ -34,5 +39,7 @@ this manner, the result is either random or purposefully misleading.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[guidance](ref/spell/guidance); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [guidance](ref/spell/guidance)
+Cost: 3,000 gp
+:::

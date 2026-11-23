@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 10,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 10,000 gp
+Weight: 3 lbs.
+:::
 
 Sacred or profane mantras cover the outer face of this cylindrical wooden block, which rotates
 around a decorative brass spindle. By holding the spindle in one hand while meditating or resting to
@@ -34,5 +39,7 @@ time. Only creatures who can make lawfully-aligned ki strikes can use a prayer w
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[align weapon](ref/spell/align-weapon); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [align weapon](ref/spell/align-weapon)
+Cost: 5,000 gp
+:::

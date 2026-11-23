@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 A sinner's wage is a round golden coin with two blank faces. When placed among nonmagical currency,
 it adopts the size, shape, and any embellishments (such as an engraving or stamp) of the majority of
@@ -45,5 +50,7 @@ magic from the coin, rendering it unusable for any purpose for a period of 1 wee
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm monster](ref/spell/charm-monster); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm monster](ref/spell/charm-monster)
+Cost: 250 gp
+:::

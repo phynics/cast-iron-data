@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 9,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 9,000 gp
+Weight: 1/2 lb.
+:::
 
 This soothing holy symbol is carved from a single chunk of soapstone, and its graceful curves draw
 the eye. When used to [channel positive energy](ref/ability/channel-energy) to heal living
@@ -34,5 +39,7 @@ concentration or until anyone takes an aggressive action against a calmed creatu
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), ability to channel positive energy; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), ability to channel positive energy
+Cost: 4,500 gp
+:::

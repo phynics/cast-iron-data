@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** shoulders; **Price** 3,350 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: shoulders
+Price: 3,350 gp
+Weight: 5 lbs.
+:::
 
 This snow-white fur pelt of a [winter wolf](ref/monster/worg-winter-wolf) can be worn over the
 shoulders as a cloak. The pelt functions as furs, granting its wearer a +2 bonus on Fortitude saves
@@ -43,5 +48,7 @@ results in the pelt being utterly ruined for any use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape IV](ref/spell/beast-shape-4); **Cost** 1,675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape IV](ref/spell/beast-shape-4)
+Cost: 1,675 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "16th"
 +++
 
-**Aura** strong varied; **CL** 16th\
-**Slot** body; **Price** 75,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong varied
+CL: 16th
+Slot: body
+Price: 75,000 gp
+Weight: 1 lb.
+:::
 
 These magnificent vestments disguise the presence of armor as normal clothing (as the
 [glamered](ref/magic-enh/glamered) armor property). When worn by a [bard](ref/class/bard), the robe
@@ -37,6 +42,7 @@ only the finest fabric.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), [break enchantment](ref/spell/break-enchantment),
-[greater heroism](ref/spell/heroism-greater), [veil](ref/spell/veil); **Cost** 37,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), [break enchantment](ref/spell/break-enchantment), [greater heroism](ref/spell/heroism-greater), [veil](ref/spell/veil)
+Cost: 37,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This silky red dust is pleasantly warm to the touch. When sprinkled on a partially decomposed corpse
 or skeleton, it causes the dead flesh and bones to mend and reform, allowing the corpse to be
@@ -33,5 +38,7 @@ to restore a single Medium or smaller corpse. Larger corpses can be restored by 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[make whole](ref/spell/make-whole); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [make whole](ref/spell/make-whole)
+Cost: 1,000 gp
+:::

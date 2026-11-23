@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 26,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 26,000 gp
+Weight: 10 lbs.
+:::
 
 A prized item among Ulfen berserkers and vikings, a pelt of primal power is a large bearskin worn as
 a cloak, with the bear's head sitting atop the wearer's head. When donned, a pelt of primal power
@@ -31,5 +36,7 @@ up to 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [mage armor](ref/spell/mage-armor); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [mage armor](ref/spell/mage-armor)
+Cost: 13,000 gp
+:::

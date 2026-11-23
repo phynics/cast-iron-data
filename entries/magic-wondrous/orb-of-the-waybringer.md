@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** neck; **Price** 3,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: neck
+Price: 3,900 gp
+Weight: 1 lb.
+:::
 
 This giant pearl is carved with entwined flying dragons and strung on a fine silver chain; the pearl
 changes size according to the size of the wearer so that its diameter is no greater than the
@@ -37,6 +42,7 @@ _[light](ref/spell/light)_ spell or darkens again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [light](ref/spell/light),
-[shocking grasp](ref/spell/shocking-grasp); **Cost** 1,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [light](ref/spell/light), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 1,950 gp
+:::

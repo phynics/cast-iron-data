@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 18,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 18,000 gp
+Weight: 12 lbs.
+:::
 
 This sight can be attached to a single direct-fire siege engine. When this is done, the sight
 becomes part of the siege engine, but can be removed from that siege engine with a full-round
@@ -33,5 +38,7 @@ ignores the invisibility of a creature that she knows is in the area.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hunter's eye](ref/spell/hunters-eye); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hunter's eye](ref/spell/hunters-eye)
+Cost: 9,000 gp
+:::

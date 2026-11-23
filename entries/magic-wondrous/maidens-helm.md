@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: head
+Price: 3,500 gp
+Weight: 3 lbs.
+:::
 
 A maiden's helm appears as the distinctive plate and plumed helm worn by the
 [Gray Maidens](ref/rule/aff-scarred-ladies). The helm imparts enhanced power and gravitas to the
@@ -34,5 +39,7 @@ wearer of a maiden's helm can use _[command](ref/spell/command)_ three times per
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear), [command](ref/spell/command); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear), [command](ref/spell/command)
+Cost: 1,750 gp
+:::

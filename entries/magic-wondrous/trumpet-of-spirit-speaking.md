@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** none; **Price** 6,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: none
+Price: 6,500 gp
+Weight: 1 lb.
+:::
 
 This long, segmented cone is made of a lightweight metal and collapses into three sections. Although
 nonmagical spirit trumpets are most often used by fraudulent mediums and manipulated with sleight of
@@ -36,5 +41,7 @@ forth from the horn in quiet, ghostly whispers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead); **Cost** 3,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead)
+Cost: 3,250 gp
+:::

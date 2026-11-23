@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** chest; **Price** 3,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: chest
+Price: 3,000 gp
+Weight: 4 lbs.
+:::
 
 This emerald vest has four prominent and bulging pockets along its front. The wearer is always
 treated as if using a [healer's kit](ref/eq-misc/healers-kit) when making [Heal](ref/skill/heal)
@@ -31,6 +36,7 @@ wounds. If the check is successful, it cures 1d4 points of
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser), creator must have 5 ranks in Heal; **Cost**
-1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), creator must have 5 ranks in Heal
+Cost: 1,500 gp
+:::

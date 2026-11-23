@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 48,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 48,000 gp
+Weight: 1 lb.
+:::
 
 This gruesome lantern is made from bone and emerald-tinted glass. When lit, it shines a disgusting
 green dim light in a 60-foot radius. This light makes living creatures uncomfortable, but does them
@@ -42,5 +47,7 @@ the lantern's compulsion.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control undead](ref/spell/control-undead); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control undead](ref/spell/control-undead)
+Cost: 24,000 gp
+:::

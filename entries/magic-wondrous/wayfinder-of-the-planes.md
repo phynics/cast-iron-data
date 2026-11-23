@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: none
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) is made of magically hardened glass, through which
 the complex inner matrix of the compass can be seen. Once per day, the wielder of a wayfinder of the
@@ -33,8 +38,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[magic circle against good](ref/spell/magic-circle-against-good),
-[magic circle against law](ref/spell/magic-circle-against-law); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [magic circle against evil](ref/spell/magic-circle-against-evil), [magic circle against good](ref/spell/magic-circle-against-good), [magic circle against law](ref/spell/magic-circle-against-law)
+Cost: 9,000 gp
+:::

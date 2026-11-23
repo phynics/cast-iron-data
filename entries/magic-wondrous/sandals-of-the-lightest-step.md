@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** feet; **Price** 5,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: feet
+Price: 5,000 gp
+Weight: 1/2 lb.
+:::
 
 These soft leather sandals have soles that consist of a layer of purple velvet decorated with
 intricate gold stitching. When slipped onto the feet, they feel as weightless as air. In any round
@@ -37,5 +42,7 @@ to 5 times per day, but no more often than once per minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air walk](ref/spell/air-walk); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air walk](ref/spell/air-walk)
+Cost: 2,500 gp
+:::

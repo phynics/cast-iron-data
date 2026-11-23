@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: -
+:::
 
 These finely crafted yellow-ivory pipes are bound in bronze and decorated with bits of amber. If the
 possessor learns the proper tune, once per day he can use these pipes to summon 1d4+1
@@ -32,5 +37,7 @@ racial trait.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster III](ref/spell/summon-monster-3); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster III](ref/spell/summon-monster-3)
+Cost: 3,000 gp
+:::

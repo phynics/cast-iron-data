@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** shoulders; **Price** 54,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: shoulders
+Price: 54,000 gp
+Weight: 2 lbs.
+:::
 
 A pair of these wings might appear to be nothing more than a plain cloak of old, black cloth, or
 they could be as elegant as a long cape of blue feathers. When the wearer speaks the command word,
@@ -33,5 +38,7 @@ the cloak turns into a pair of bat or bird wings that empower her to fly with a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly); **Cost**
-27,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly)
+Cost: 27,000 gp
+:::

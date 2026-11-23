@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This long green cloak's back features an embroidered image of an ancient oak. Once per day on
 command, the wearer can assume the shape of a tree, as the _[tree shape](ref/spell/tree-shape)_
@@ -30,5 +35,7 @@ form while in direct sunlight, he heals 1d6 hit points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[goodberry](ref/spell/goodberry), [tree shape](ref/spell/tree-shape); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [goodberry](ref/spell/goodberry), [tree shape](ref/spell/tree-shape)
+Cost: 3,000 gp
+:::

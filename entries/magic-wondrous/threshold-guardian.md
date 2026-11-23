@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** none; **Price** 66,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: none
+Price: 66,000 gp
+Weight: 2 lbs.
+:::
 
 This wreath weaves garlic, wolfsbane, silver, and mandrake together to create a fetish capable of
 blocking nearly any type of creature.
@@ -47,5 +52,7 @@ threshold guardian to cease functioning immediately.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antilife shell](ref/spell/antilife-shell), [forbiddance](ref/spell/forbiddance); **Cost** 33,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antilife shell](ref/spell/antilife-shell), [forbiddance](ref/spell/forbiddance)
+Cost: 33,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** feet; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: feet
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 These sandals are made of cloth and animal hide stitched to wood blocks that elevate them an inch
 off the ground. [Monks](ref/class/monk) often wear them as they roam across the deserts of northern
@@ -36,5 +41,7 @@ damage. While the storm is active, the sandals' wearer gains [concealment](ref/r
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gust of wind](ref/spell/gust-of-wind); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gust of wind](ref/spell/gust-of-wind)
+Cost: 7,500 gp
+:::

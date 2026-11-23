@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 11th\
-**Slot** none; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 11th
+Slot: none
+Price: 6,000 gp
+Weight: -
+:::
 
 These ornate military medals are awarded to crusaders and adventurers who excel and deserve
 commendation in the war against the Worldwound. A medal must be affixed to a worn article of
@@ -69,7 +74,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); [bless](ref/spell/bless);
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength),
-[cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor),
-[fox's cunning](ref/spell/foxs-cunning), or [owl's wisdom](ref/spell/owls-wisdom); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); [bless](ref/spell/bless); [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), or [owl's wisdom](ref/spell/owls-wisdom)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 Breaking open this magically enhanced spider egg sac (a standard action) conjures a massive spider
 web in a square adjacent to the user. The web is 5 feet thick and up to 20 feet wide and high. The
@@ -34,5 +39,7 @@ the Reflex and [grapple](ref/rule/grapple) DCs by 2 (maximum increase of +10).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), [web](ref/spell/web); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), [web](ref/spell/web)
+Cost: 250 gp
+:::

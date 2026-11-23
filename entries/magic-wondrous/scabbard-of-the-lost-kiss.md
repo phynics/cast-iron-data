@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "4th"
 +++
 
-**Aura** faint evocation; **CL** 4th\
-**Slot** none; **Price** 8,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 4th
+Slot: none
+Price: 8,600 gp
+Weight: 1 lb.
+:::
 
 This aged and worn scabbard is believed to have once held one of a dozen legendary scimitar relics
 named [Dawnflower's Kiss](ref/magic-artifact/dawnflowers-kiss). From its prolonged proximity to such
@@ -36,5 +41,7 @@ reduced by resistance to fire.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike); **Cost** 4,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike)
+Cost: 4,300 gp
+:::

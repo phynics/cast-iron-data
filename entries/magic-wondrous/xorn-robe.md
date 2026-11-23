@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** body; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: body
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This brown and gray robe is always dirty, and the chest and the back of each shoulder is decorated
 with a gem-like eye pattern. The wearer gains a +5 bonus on Perception checks, and can use
@@ -35,6 +40,7 @@ negates this penalty.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[passwall](ref/spell/passwall), [purify food and drink](ref/spell/purify-food-and-drink); **Cost**
-10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [passwall](ref/spell/passwall), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 10,000 gp
+:::

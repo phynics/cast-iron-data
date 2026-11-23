@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 82,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 82,000 gp
+Weight: -
+:::
 
 This strange, interdimensional device looks just like a
 [portable hole](ref/magic-wondrous/portable-hole). Anything placed within it is immediately cast to
@@ -35,5 +40,7 @@ opening just as easily; it is a two-way portal.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 41,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This rag doll, created in the likeness of a specific creature chosen at the time of crafting, must
 be loved to activate its powers. This love takes the form of time spent caring for the doll, keeping
@@ -43,5 +48,7 @@ to a normal rag doll with no magical powers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[atonement](ref/spell/atonement), [eagle's splendor](ref/spell/eagles-splendor); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [atonement](ref/spell/atonement), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 3,750 gp
+:::

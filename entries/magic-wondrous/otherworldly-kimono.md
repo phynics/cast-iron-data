@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** body; **Price** 67,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: body
+Price: 67,000 gp
+Weight: 1 lb.
+:::
 
 Embroidered images of cherry blossoms and cranes in flight adorn this blue silk kimono. The wearer
 can move and reposition these images on the kimono at will. The kimono grants its wearer a +4
@@ -46,6 +51,7 @@ bonuses return to normal when the victim is freed or released.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [maze](ref/spell/maze),
-[resistance](ref/spell/resistance); **Cost** 33,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [maze](ref/spell/maze), [resistance](ref/spell/resistance)
+Cost: 33,500 gp
+:::

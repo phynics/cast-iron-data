@@ -23,8 +23,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 8th\
-**Slot** none; **Price** 15,300 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 8th
+Slot: none
+Price: 15,300 gp
+Weight: -
+:::
 
 This pearl is worth at least 1,000 gp for its beauty alone, yet if it is clasped firmly in hand or
 held to the breast while the possessor attempts actions related to the pearl's powers, she
@@ -35,6 +40,7 @@ speed is 60 feet, and she can cast spells and act underwater without hindrance.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[freedom of movement](ref/spell/freedom-of-movement), [water breathing](ref/spell/water-breathing);
-**Cost** 8,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [freedom of movement](ref/spell/freedom-of-movement), [water breathing](ref/spell/water-breathing)
+Cost: 8,150 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 Six inches in diameter, one side of this porcelain seal shows a many-keyholed padlock, while the
 other displays a lightning bolt superimposed on an open hand. The padlock side is used to _lock_ and
@@ -40,5 +45,7 @@ it on a fourth item automatically negates the oldest effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[arcane lock](ref/spell/arcane-lock), [fire trap](ref/spell/fire-trap); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [arcane lock](ref/spell/arcane-lock), [fire trap](ref/spell/fire-trap)
+Cost: 5,000 gp
+:::

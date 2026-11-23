@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** none; **Price** 70,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: none
+Price: 70,000 gp
+Weight: 1 lb.
+:::
 
 This exquisitely crafted [wayfinder](ref/magic-wondrous/wayfinder) bears the design of a half-closed
 eye in platinum and [mithral](ref/eq-material/mithral). The eye is a socket for an
@@ -48,6 +53,7 @@ powers granted by an ioun stone, though they do not function while the slotted s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane eye](ref/spell/arcane-eye), [shadow conjuration](ref/spell/shadow-conjuration); **Cost**
-35,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane eye](ref/spell/arcane-eye), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 35,000 gp
+:::

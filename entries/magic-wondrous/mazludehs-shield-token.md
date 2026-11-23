@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 22,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 22,000 gp
+Weight: -
+:::
 
 This small bronze token is shaped like a heavy shield. Emblazoned clearly on the token is an image
 of a snake eating its own tail encircling seven eggs - the holy symbol of
@@ -34,5 +39,7 @@ dismiss this benefit early as a free action, but the item's use is still expende
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[battlemind link](ref/spell/battlemind-link), [bless](ref/spell/bless); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [battlemind link](ref/spell/battlemind-link), [bless](ref/spell/bless)
+Cost: 11,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** hands; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: hands
+Price: 2,500 gp
+Weight: -
+:::
 
 This thin disk of woven material is 2-1/2 inches in diameter. From its edges protrude fine,
 hair-like fibers about half an inch long. A touch of avolition is in fact an example of
@@ -47,5 +52,7 @@ multiple touches of avolition do not stack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [hold person](ref/spell/hold-person); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [hold person](ref/spell/hold-person)
+Cost: 1,250 gp
+:::

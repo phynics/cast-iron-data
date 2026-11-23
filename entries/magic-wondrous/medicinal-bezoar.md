@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 1,600 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 1,600 gp
+Weight: 1/2 lb.
+:::
 
 Anyone who swallows this finger-sized stony mass is subject to
 _[neutralize poison](ref/spell/neutralize-poison)_ and gains a +4 bonus on savings throws against
@@ -30,5 +35,7 @@ spent.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 800 gp
+:::

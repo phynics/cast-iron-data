@@ -23,9 +23,13 @@ aura = "moderate transmutation (lesser), strong transmutation (greater)"
 caster_level = "6th (lesser), 13th (greater)"
 +++
 
-**Aura** moderate transmutation (lesser), strong transmutation (greater); **CL** 6th (lesser), 13th
-(greater)\
-**Slot** head; **Price** 30,000 gp (lesser), 90,000 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation (lesser), strong transmutation (greater)
+CL: 6th (lesser), 13th (greater)
+Slot: head
+Price: 30,000 gp (lesser), 90,000 gp (greater)
+Weight: 1 lb.
+:::
 
 This wooden mask depicts a leering humanoid with an oversized nose and ears. If the wearer has the
 wild shape class feature, the mask allows her to use wild shape to take the form of a humanoid with
@@ -51,5 +55,7 @@ natural armor bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[giant form I](ref/spell/giant-form-1); **Cost** 15,000 gp (lesser), 45,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [giant form I](ref/spell/giant-form-1)
+Cost: 15,000 gp (lesser), 45,000 gp (greater)
+:::

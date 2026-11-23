@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 22,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 22,000 gp
+Weight: 3 lbs.
+:::
 
 Crafted of overlaid bronze, steel, and chain, each Vudran Ashak helmet is a work of art. These
 exotic helmets possess three stylized faces, each serene visage staring in a different direction
@@ -40,5 +45,7 @@ properties at will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 11,000 gp
+:::

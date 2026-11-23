@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This shimmering paste-like substance can be applied to a weapon as a standard action. It gives the
 weapon the properties of [alchemical silver](ref/eq-material/alchemical-silver) for 1 hour,
@@ -33,4 +38,7 @@ weapon or 20 units of ammunition.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item)
+Cost: 125 gp
+:::

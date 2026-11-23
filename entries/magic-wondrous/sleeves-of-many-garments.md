@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion; **CL** 1st\
-**Slot** wrists; **Price** 200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 1st
+Slot: wrists
+Price: 200 gp
+Weight: 1 lb.
+:::
 
 These translucent cloth tubes easily fit over their wearer's arms. The wearer of these sleeves can,
 when she slips them on, choose to transform the appearance of her current garments into any other
@@ -31,5 +36,7 @@ their original form.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Cost: 100 gp
+:::

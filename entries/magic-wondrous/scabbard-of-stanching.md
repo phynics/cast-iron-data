@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This fine, red leather sheath is decorated with gold filigree. It fits any bladed slashing weapon.
 While worn, a scabbard of stanching protects against [bleed](ref/rule/bleed) damage. Anytime the
@@ -33,5 +38,7 @@ damage from effects that require a DC 16 or higher caster level or [Heal](ref/sk
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds)
+Cost: 2,500 gp
+:::

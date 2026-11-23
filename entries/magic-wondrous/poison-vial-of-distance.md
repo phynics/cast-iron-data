@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 Favored by assassins, this magical vial allows the application of poisons at a range of up to 30
 feet. The poison must be supplied, and must be a contact or ingested poison. The user adds the
@@ -32,5 +37,7 @@ intended.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand)
+Cost: 1,500 gp
+:::

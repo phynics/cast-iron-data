@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** head; **Price** 18,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: head
+Price: 18,000 gp
+Weight: 2 lbs.
+:::
 
 This ostentatious hat functions only for a wearer who can cast divine spells. The wearer gains a +5
 competence bonus on [Diplomacy](ref/skill/diplomacy) and
@@ -32,6 +37,7 @@ _[atonement](ref/spell/atonement)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[atonement](ref/spell/atonement), [commune](ref/spell/commune), [guidance](ref/spell/guidance);
-**Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [atonement](ref/spell/atonement), [commune](ref/spell/commune), [guidance](ref/spell/guidance)
+Cost: 9,000 gp
+:::

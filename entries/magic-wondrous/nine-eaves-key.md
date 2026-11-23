@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This small iron key has the number 9 and a right triangle engraved upon it. While the Nine-Eaves key
 is held, the bearer can use _[open/close](ref/spell/open-close)_ at will, but only to open, not to
@@ -31,5 +36,7 @@ or activate the touched magic item gain a +4 insight bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[identify](ref/spell/identify), [open/close](ref/spell/open-close); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify), [open/close](ref/spell/open-close)
+Cost: 750 gp
+:::

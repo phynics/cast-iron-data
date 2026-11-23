@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** feet; **Price** 24,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: feet
+Price: 24,000 gp
+Weight: 1/2 lb.
+:::
 
 These fine, supple slippers are made from giant cowslip petals. The wearer cannot be tracked or
 otherwise detected by [scent](ref/umr/scent). When standing with one foot in one terrain and the
@@ -31,5 +36,7 @@ or the First World, as per _[plane shift](ref/spell/plane-shift),_ twice per day
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 12,000 gp
+:::

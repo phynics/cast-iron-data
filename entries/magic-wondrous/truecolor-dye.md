@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** none; **Price** 50 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: none
+Price: 50 gp
+Weight: -
+:::
 
 Horticulturists harvest this magical dye from the pulp of rare plants found only in the lushest
 regions of Tian Xia. Bisby first encountered this dye while visiting the royal courts of the Miracle
@@ -42,5 +47,7 @@ text. Once applied, truecolor dye is permanent, although it can be washed off wi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect good](ref/spell/detect-good) or [detect evil](ref/spell/detect-evil); **Cost** 25 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect good](ref/spell/detect-good) or [detect evil](ref/spell/detect-evil)
+Cost: 25 gp
+:::

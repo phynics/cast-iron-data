@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 45,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 45,000 gp
+Weight: 10 lbs.
+:::
 
 Dried, lacquered, and stuffed with fragrant herbs, this mummified [medusa](ref/monster/medusa) head
 still contains a measure of the power the medusa possessed in life. While held, a meduseion radiates
@@ -33,5 +38,7 @@ or be permanently transformed into stone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[flesh to stone](ref/spell/flesh-to-stone); **Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [flesh to stone](ref/spell/flesh-to-stone)
+Cost: 22,500 gp
+:::

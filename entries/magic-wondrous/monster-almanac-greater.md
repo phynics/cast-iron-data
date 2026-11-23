@@ -22,9 +22,13 @@ caster_level = "3rd (normal), 11th (greater)"
 
 ## Monster Almanac
 
-**Aura** faint (normal) or moderate (greater) divination; **CL** 3rd (normal), 11th (greater)\
-**Slot** none; **Price** 4,000 gp (normal), 20,000 gp (greater); **Weight** 1/2 lb. (normal), 4 lbs.
-(greater)
+::: statblock
+Aura: faint (normal) or moderate (greater) divination
+CL: 3rd (normal), 11th (greater)
+Slot: none
+Price: 4,000 gp (normal), 20,000 gp (greater)
+Weight: 1/2 lb. (normal), 4 lbs. (greater)
+:::
 
 This sketchbook has up to 100 pages full of scribbled notes and hasty sketches about monsters. When
 the user focuses on a particular page, the text and pictures start moving, revealing more details
@@ -55,7 +59,7 @@ trained in the relevant Knowledge skill.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury)
-(normal only), [silent image](ref/spell/silent-image) (normal only),
-[legend lore](ref/spell/legend-lore) (greater only), [major image](ref/spell/major-image) (greater
-only); **Cost** 2,000 gp (normal), 10,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury) (normal only), [silent image](ref/spell/silent-image) (normal only), [legend lore](ref/spell/legend-lore) (greater only), [major image](ref/spell/major-image) (greater only)
+Cost: 2,000 gp (normal), 10,000 gp (greater)
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** eyes; **Price** 6,250 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: eyes
+Price: 6,250 gp
+Weight: -
+:::
 
 Crafted from brass and polished quartz, these expensive bifocals grant the wearer a +5 bonus on
 [Appraise](ref/skill/appraise) checks, and on [Linguistics](ref/skill/linguistics) or
@@ -35,6 +40,7 @@ with other equipment if not.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [bestow curse](ref/spell/bestow-curse); **Cost** 3,125
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [bestow curse](ref/spell/bestow-curse)
+Cost: 3,125 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** none; **Price** 46,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: none
+Price: 46,000 gp
+Weight: 10 lbs.
+:::
 
 This elaborately tapered lattice of [adamantine](ref/eq-material/adamantine) and copper channels the
 essence of one plane to which it has been attuned. Whenever it leaves a plane of existence, it
@@ -35,5 +40,7 @@ she becomes immune to any negative effects of the funnel when it's activated.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 23,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 23,000 gp
+:::

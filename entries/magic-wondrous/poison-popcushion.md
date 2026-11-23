@@ -20,8 +20,13 @@ aura = "faint conjuration (creation)"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration (creation); **CL** 3rd\
-**Slot** none; **Price** 700 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration (creation)
+CL: 3rd
+Slot: none
+Price: 700 gp
+Weight: 2 lbs.
+:::
 
 This squishy, gel-filled sack is the size of a fist, and its exterior is covered with countless tiny
 metal studs. When set on the ground or somewhere else within line of sight, a poison popcushion can
@@ -36,5 +41,7 @@ though the Fortitude save DC to save against this poison is 4 lower than the poi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arrow eruption](ref/spell/arrow-eruption); **Cost** 350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arrow eruption](ref/spell/arrow-eruption)
+Cost: 350 gp
+:::

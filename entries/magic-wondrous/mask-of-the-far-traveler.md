@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 38,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 38,000 gp
+Weight: 1/2 lb.
+:::
 
 This leather half-mask covers the wearer's nose and mouth, obscuring her lip movements but not her
 voice. Creatures that are on their native plane and have a language understand all words spoken by
@@ -32,5 +37,7 @@ to tell a lie. A mask of the far traveler does not function on the Material Plan
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues);
-**Cost** 19,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues)
+Cost: 19,000 gp
+:::

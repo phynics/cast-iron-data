@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 36,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 36,000 gp
+Weight: 1 lb.
+:::
 
 This globe of varicolored material constantly shifts hue and texture, from steel-hard to spongy or
 even gelatinous. The bearer of the orb is constantly protected by
@@ -41,6 +46,7 @@ has the orb.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid),
-[dispel magic](ref/spell/dispel-magic), [entropic shield](ref/spell/entropic-shield); **Cost**
-18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid), [dispel magic](ref/spell/dispel-magic), [entropic shield](ref/spell/entropic-shield)
+Cost: 18,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 48,000 gp; **Weight** 150 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 48,000 gp
+Weight: 150 lbs.
+:::
 
 This [cold-iron](ref/eq-material/cold-iron)-lined wooden cabinet is the size of a large upright
 chest, with just enough room inside for a Medium-sized creature to sit comfortably on a small wooden
@@ -55,7 +60,7 @@ regains 1 ki point.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness),
-[restoration](ref/spell/restoration); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), [remove blindness/deafness](ref/spell/remove-blindness-deafness), [restoration](ref/spell/restoration)
+Cost: 24,000 gp
+:::

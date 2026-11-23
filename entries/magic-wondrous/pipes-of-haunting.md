@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy; **CL** 4th\
-**Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 4th
+Slot: none
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This magic item appears to be a small set of pan pipes. When played by a person who succeeds on a DC
 15 [Perform (wind)](ref/skill/perform-any) check, the pipes create an eerie, spellbinding tune.
@@ -34,5 +39,7 @@ Pipes of haunting can be sounded twice a day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare);
-**Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare)
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This palm-sized holy symbol is composed of tiny pieces of stained glass held in a gold frame. The
 exact symbol is determined upon the item's creation. As a free action, the creature holding the
@@ -33,5 +38,7 @@ creature touched by the symbol's light (effectively increasing her lay on hands 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sacred bond](ref/spell/sacred-bond); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sacred bond](ref/spell/sacred-bond)
+Cost: 5,000 gp
+:::

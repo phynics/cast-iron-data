@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** chest; **Price** 26,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: chest
+Price: 26,000 gp
+Weight: -
+:::
 
 This thin, bleached cloth covers the wearer's entire torso. Some also cover the wearer's face, but
 don't interfere with the wearer's vision. The morbid burial shroud grants the wearer some affinity
@@ -32,6 +37,7 @@ wearer can't attack while incorporeal, but can dismiss the effect as a move acti
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hide from undead](ref/spell/hide-from-undead), [see invisibility](ref/spell/see-invisibility);
-**Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hide from undead](ref/spell/hide-from-undead), [see invisibility](ref/spell/see-invisibility)
+Cost: 13,000 gp
+:::

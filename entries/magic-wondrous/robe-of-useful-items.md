@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** body; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: body
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 A character who dons this battered robe notes that its patches rearrange into the shapes of various
 helpful but mundane items. Only the wearer of the robe can see the true shapes of these patches,
@@ -62,5 +67,7 @@ Multiple items of the same kind are permissible. Once removed, a patch cannot be
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 3,500 gp
+:::

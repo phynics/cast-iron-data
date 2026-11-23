@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 Swirling green and blue patterns bedeck the surface of this fine oak
 [wayfinder](ref/magic-wondrous/wayfinder), whose compass and needle are made of light polished steel
@@ -36,5 +41,7 @@ than indicating the direction they are traveling.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter winds](ref/spell/alter-winds), [control winds](ref/spell/control-winds); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter winds](ref/spell/alter-winds), [control winds](ref/spell/control-winds)
+Cost: 7,500 gp
+:::

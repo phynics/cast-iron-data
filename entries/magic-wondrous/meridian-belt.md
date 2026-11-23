@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** belt; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: belt
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 This narrow cloth belt has a silver buckle in the shape of four rings. The belt allows a creature to
 wear a magic ring on each foot in addition to the ring on each hand, though only two rings function
@@ -42,5 +47,7 @@ ring active during that attunement period.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 500 gp
+:::

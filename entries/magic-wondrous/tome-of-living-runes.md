@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 36,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 36,000 gp
+Weight: 15 lbs.
+:::
 
 This massive, metal-bound tome is filled with 20 thin pages of beaten copper, each indented with
 arcane sigils and Thassilonian runes. These runes seem to shimmer and twist and writhe when read,
@@ -40,5 +45,7 @@ goes blank. Only one rune can be active at any one time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster VIII](ref/spell/summon-monster-8), symbol (any); **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VIII](ref/spell/summon-monster-8), symbol (any)
+Cost: 18,000 gp
+:::

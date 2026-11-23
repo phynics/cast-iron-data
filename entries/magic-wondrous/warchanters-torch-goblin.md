@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** none; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: none
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -41,6 +46,7 @@ allowing the torch to be used again. If the creature who last lit the torch was 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadowbard](ref/spell/shadowbard), creator must have the bardic performance class ability, creator
-must be a goblin; **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadowbard](ref/spell/shadowbard), creator must have the bardic performance class ability, creator must be a goblin
+Cost: 15,000 gp
+:::

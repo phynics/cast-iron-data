@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 500 gp
+Weight: -
+:::
 
 Each pair of these lockets is made from a piece of jewelry from Castle Korvosa's treasury that was
 split into two parts, each of which was fashioned into a necklace. When worn by two individuals, the
@@ -38,5 +43,7 @@ minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance), [status](ref/spell/status); **Cost** 250 gp (pair)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance), [status](ref/spell/status)
+Cost: 250 gp (pair)
+:::

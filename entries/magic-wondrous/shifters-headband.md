@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** headband; **Price** 4,500 gp (+2), 17,500 gp (+4), 39,000 gp (+6); **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: headband
+Price: 4,500 gp (+2), 17,500 gp (+4), 39,000 gp (+6)
+Weight: -
+:::
 
 This band of reddish fox fur is marked on the front with a distinctive symbol that constantly shifts
 into a different character. The headband grants the wearer an enhancement bonus to one mental
@@ -49,5 +54,7 @@ normal for polymorph spells and extracts.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 2,250 gp (+2), 8,750 gp (+4), 19,500 gp (+6)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 2,250 gp (+2), 8,750 gp (+4), 19,500 gp (+6)
+:::

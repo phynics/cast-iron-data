@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 45,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 45,000 gp
+Weight: 1 lb.
+:::
 
 Root-like filaments of [cold iron](ref/eq-material/cold-iron) wind their way around this
 [adamantine](ref/eq-material/adamantine) spike, tapering as they approach its point. When driven
@@ -35,5 +40,7 @@ opportunity. If wielded in combat, a null spike functions as a +1 adamantine
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field); **Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field)
+Cost: 22,500 gp
+:::

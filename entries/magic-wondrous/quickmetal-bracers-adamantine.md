@@ -22,9 +22,13 @@ caster_level = "9th"
 
 ## Quickmetal Bracers
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** wrists; **Price** 1,000 gp (Silver), 2,000 gp (Cold Iron), 5,000 gp (Adamantine);
-**Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: wrists
+Price: 1,000 gp (Silver), 2,000 gp (Cold Iron), 5,000 gp (Adamantine)
+Weight: 1 lb.
+:::
 
 Once per day when a user wearing both these bracers speaks a command word, the metal turns entirely
 liquid and swims over the wearer's hands to cover her weapons. The user can cover a two-handed melee
@@ -41,6 +45,7 @@ therefore affect thrown weapons or ranged weapon ammunition.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major creation](ref/spell/major-creation); **Cost** 500 gp (Silver), 1,000 gp (Cold Iron), 2,500 gp
-(Adamantine)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major creation](ref/spell/major-creation)
+Cost: 500 gp (Silver), 1,000 gp (Cold Iron), 2,500 gp (Adamantine)
+:::

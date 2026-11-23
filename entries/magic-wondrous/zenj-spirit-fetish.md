@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 4,500 gp
+Weight: -
+:::
 
 The bearer of this shrunken monkey head can use it to cast _[dispel evil](ref/spell/dispel-evil)._
 While the spell is in effect, the bearer can make a melee touch attack with the head to
@@ -32,5 +37,7 @@ monkey head.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel evil](ref/spell/dispel-evil); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel evil](ref/spell/dispel-evil)
+Cost: 2,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "16th"
 +++
 
-**Aura** strong evocation; **CL** 16th\
-**Slot** none; **Price** 48,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 16th
+Slot: none
+Price: 48,000 gp
+Weight: -
+:::
 
 This talisman is made from the bloody tip of a harpy's wing, its end capped in gold and its stringy
 black feathers still spackled with dried gore. No larger than a human hand, it served as a good luck
@@ -46,5 +51,7 @@ whose level is higher than that of the highest-level spell he knows.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 16th-level
-occultist who has learned the evocation implement school; **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 16th-level occultist who has learned the evocation implement school
+Cost: 24,000 gp
+:::

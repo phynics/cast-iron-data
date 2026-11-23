@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and evocation; **CL** 5th\
-**Slot** none; **Price** 16,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination and evocation
+CL: 5th
+Slot: none
+Price: 16,000 gp
+Weight: 2 lbs.
+:::
 
 This collection of gruesome anatomical diagrams is bound in leather that shifts slightly under the
 reader's fingertips. The book's many illustrations provide information about how to best wound a
@@ -35,6 +40,7 @@ _[discovery torch](ref/spell/discovery-torch)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[discovery torch](ref/spell/discovery-torch), [know the enemy](ref/spell/know-the-enemy); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [discovery torch](ref/spell/discovery-torch), [know the enemy](ref/spell/know-the-enemy)
+Cost: 8,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate illusion; **CL** 6th\
-**Slot** belt; **Price** 36,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 6th
+Slot: belt
+Price: 36,000 gp
+Weight: 2 lbs.
+:::
 
 This broad belt is constructed of steel plates polished to a gleaming finish. The belt grants its
 wearer a +2 enhancement bonus to Dexterity. Treat this as a
@@ -41,6 +46,7 @@ create new images for the effect's full duration.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [cat's grace](ref/spell/cats-grace),
-[mirror image](ref/spell/mirror-image); **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [cat's grace](ref/spell/cats-grace), [mirror image](ref/spell/mirror-image)
+Cost: 18,000 gp
+:::

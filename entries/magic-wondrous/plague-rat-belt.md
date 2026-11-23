@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 5,200 gp (normal), 11,200 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 5,200 gp (normal), 11,200 gp (greater)
+Weight: 1 lb.
+:::
 
 This belt grants its wearer a +2 enhancement bonus to Constitution. Treat this as a
 [temporary ability bonus](ref/rule/ability-score-bonuses) for the first 24 hours the belt is worn.
@@ -35,7 +40,7 @@ a +2 enhancement bonus to Dexterity and Constitution. Treat this as a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [neutralize poison](ref/spell/neutralize-poison),
-[remove disease](ref/spell/remove-disease), [cat's grace](ref/spell/cats-grace) (greater plague rat
-belt only); **Cost** 2,600 gp (normal), 5,600 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [neutralize poison](ref/spell/neutralize-poison), [remove disease](ref/spell/remove-disease), [cat's grace](ref/spell/cats-grace) (greater plague rat belt only)
+Cost: 2,600 gp (normal), 5,600 gp (greater)
+:::

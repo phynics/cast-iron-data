@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 5,000 gp; **Weight** 9 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 5,000 gp
+Weight: 9 lbs.
+:::
 
 This iron grappling hook is attached to a 50-foot length of
 [silk rope](ref/eq-misc/silk-rope-50-ft). When a steadfast grapple is thrown, it automatically hits
@@ -32,5 +37,7 @@ with a DC 30 Strength check, the command word, or magic such as
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [true strike](ref/spell/true-strike); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [true strike](ref/spell/true-strike)
+Cost: 2,500 gp
+:::

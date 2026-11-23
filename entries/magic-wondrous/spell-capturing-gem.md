@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 A spell-capturing gem appears as a small chunk of azurite, lapis lazuli, or turquoise. This small
 blue gem is imbued with the power to capture a spell and make it available for later use. Once
@@ -41,5 +46,7 @@ pebble.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spell turning](ref/spell/spell-turning); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spell turning](ref/spell/spell-turning)
+Cost: 2,500 gp
+:::

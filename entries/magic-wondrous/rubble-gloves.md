@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 These gloves are made of a fine metal mesh. If a creature wearing rubble gloves touches a 5-foot
 square of stone or earth floor, rubble roils to the surface, making the square
@@ -31,5 +36,7 @@ difficult terrain per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious excavation](ref/spell/expeditious-excavation); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious excavation](ref/spell/expeditious-excavation)
+Cost: 4,000 gp
+:::

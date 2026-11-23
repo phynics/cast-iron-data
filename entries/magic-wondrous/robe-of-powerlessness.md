@@ -23,8 +23,12 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** body; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: body
+Weight: 1 lb.
+:::
 
 A robe of powerlessness appears to be a magic robe of another sort. As soon as a character dons this
 garment, she takes a -10 penalty to Strength, as well as to Intelligence, Wisdom, or Charisma,
@@ -35,9 +39,7 @@ be removed easily, but in order to restore mind and body, the character must rec
 
 ### Construction
 
-**Requirements** [robe of blending](ref/magic-wondrous/robe-of-blending),
-[robe of bones](ref/magic-wondrous/robe-of-bones), [robe of eyes](ref/magic-wondrous/robe-of-eyes),
-[robe of scintillating colors](ref/magic-wondrous/robe-of-scintillating-colors),
-[robe of stars](ref/magic-wondrous/robe-of-stars),
-[robe of the archmagi](ref/magic-wondrous/robe-of-the-archmagi),
-[robe of useful items](ref/magic-wondrous/robe-of-useful-items); **Cost** -
+::: statblock
+Requirements: [robe of blending](ref/magic-wondrous/robe-of-blending), [robe of bones](ref/magic-wondrous/robe-of-bones), [robe of eyes](ref/magic-wondrous/robe-of-eyes), [robe of scintillating colors](ref/magic-wondrous/robe-of-scintillating-colors), [robe of stars](ref/magic-wondrous/robe-of-stars), [robe of the archmagi](ref/magic-wondrous/robe-of-the-archmagi), [robe of useful items](ref/magic-wondrous/robe-of-useful-items)
+Cost: -
+:::

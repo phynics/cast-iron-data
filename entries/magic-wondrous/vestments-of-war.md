@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** body; **Price** 14,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: body
+Price: 14,000 gp
+Weight: -
+:::
 
 These sturdy leather robes are edged in fine linen embroidered with runes and holy symbols. If worn
 by a creature capable of casting divination spells who worships a specific deity, the embroidery
@@ -35,6 +40,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [righteous might](ref/spell/righteous-might); **Cost** 7,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [righteous might](ref/spell/righteous-might)
+Cost: 7,000 gp
+:::

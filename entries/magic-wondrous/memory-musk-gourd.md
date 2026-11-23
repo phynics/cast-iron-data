@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Aura** strong enchantment; **CL** 16th\
-**Slot** none; **Price** 4,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 16th
+Slot: none
+Price: 4,800 gp
+Weight: 1 lb.
+:::
 
 This delicious-looking gourd is infused with a pungent musk derived from plants gathered in the
 southern jungles of the Mwangi Expanse. The gourd can be
@@ -34,6 +39,7 @@ to use the ability's DC instead.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory), [waves of ecstasy](ref/spell/waves-of-ecstasy); **Cost**
-2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory), [waves of ecstasy](ref/spell/waves-of-ecstasy)
+Cost: 2,400 gp
+:::

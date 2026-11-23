@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** feet; **Price** 27,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: feet
+Price: 27,000 gp
+Weight: -
+:::
 
 These fur-lined boots grant the wearer the ability to glide easily across icy surfaces. While doing
 so, the wearer adds 15 feet to her speed, and she does not need to make
@@ -36,6 +41,7 @@ while failure by 5 or more means it falls. A creature using Acrobatics in this w
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace), [sleet storm](ref/spell/sleet-storm); **Cost**
-13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace), [sleet storm](ref/spell/sleet-storm)
+Cost: 13,500 gp
+:::

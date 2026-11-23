@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 The snake-like mouthpiece of the Dominion has a fanged mouth for a "head" and a trachea for a
 "tail." Though not mobile, the mouthpiece periodically thrashes and bites. As a full-round action
@@ -45,5 +50,7 @@ itself. These effects have their DC increased by the mouthpiece.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [magic mouth](ref/spell/magic-mouth); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [magic mouth](ref/spell/magic-mouth)
+Cost: 4,000 gp
+:::

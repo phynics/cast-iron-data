@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: -
+:::
 
 This stiff folded paper vaguely resembles a hand-sized pest such as a beetle, spider, or cockroach.
 Completing two key folds in the paper causes it to multiply into hundreds of similar-sized
@@ -33,5 +38,7 @@ inert. Once activated, an origami swarm loses all magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects)
+Cost: 150 gp
+:::

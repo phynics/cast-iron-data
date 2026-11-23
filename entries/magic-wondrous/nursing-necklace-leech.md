@@ -22,9 +22,13 @@ caster_level = "3rd"
 
 ## Nursing Necklace
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 8,000 gp (Ant), 8,000 gp (Centipede), 8,000 gp (Spider), 10,000 gp (Leech),
-10,000 gp (Mosquito); **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 8,000 gp (Ant), 8,000 gp (Centipede), 8,000 gp (Spider), 10,000 gp (Leech), 10,000 gp (Mosquito)
+Weight: -
+:::
 
 This large, vermin-shaped medallion can crawl free from its setting to heal the wearer's ills. On
 command, the vermin can animate to perform any function allowable by the [Heal](ref/skill/heal)
@@ -61,8 +65,7 @@ stop [bleed](ref/rule/bleed) damage at range.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [delay poison](ref/spell/delay-poison) (leech
-only), [remove sickness](ref/spell/remove-sickness) (mosquito only),
-[summon swarm](ref/spell/summon-swarm); **Cost** 4,000 gp (Ant), 4,000 gp (Centipede), 4,000 gp
-(Spider), 5,000 gp (Leech), 5,000 gp (Mosquito)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [delay poison](ref/spell/delay-poison) (leech only), [remove sickness](ref/spell/remove-sickness) (mosquito only), [summon swarm](ref/spell/summon-swarm)
+Cost: 4,000 gp (Ant), 4,000 gp (Centipede), 4,000 gp (Spider), 5,000 gp (Leech), 5,000 gp (Mosquito)
+:::

@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment; **CL** 18th\
-**Slot** head; **Price** 90,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 18th
+Slot: head
+Price: 90,000 gp
+Weight: 1 lb.
+:::
 
 This alabaster headdress is studded with lines of delicate rubies and represents the height of
 Kersite fashion mixed with Kalistocratic needs. These austere headdresses come with an imbued soul -
@@ -39,6 +44,7 @@ other ability is active.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divide mind](ref/spell/divide-mind), [possession](ref/spell/possession),
-[tower of iron will V](ref/spell/tower-of-iron-will-5); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divide mind](ref/spell/divide-mind), [possession](ref/spell/possession), [tower of iron will V](ref/spell/tower-of-iron-will-5)
+Cost: 45,000 gp
+:::

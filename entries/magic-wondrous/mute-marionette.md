@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 16,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 16,500 gp
+Weight: 2 lbs.
+:::
 
 Every mute marionette appears as a [hag](ref/family/hag) with its lips sewn shut. The creator of a
 mute marionette chooses a creature type or subtype from the ranger's list of
@@ -37,5 +42,7 @@ the attuned type in a 15-foot-radius [burst](ref/misc/burst).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion), [fumbletongue](ref/spell/fumbletongue); **Cost** 8,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion), [fumbletongue](ref/spell/fumbletongue)
+Cost: 8,250 gp
+:::

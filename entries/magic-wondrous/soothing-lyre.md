@@ -20,8 +20,13 @@ aura = "strong conjuration and enchantment"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and enchantment; **CL** 13th\
-**Slot** none; **Price** 45,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration and enchantment
+CL: 13th
+Slot: none
+Price: 45,000 gp
+Weight: 3 lbs.
+:::
 
 This ornate string instrument looks as if it were crafted from gold and silver but is as light as
 hollow wood. It grants a +2 circumstance bonus on [Perform (string)](ref/skill/perform-any) checks.
@@ -40,6 +45,7 @@ for that ability by 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lullaby](ref/spell/lullaby),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass), creator must be a bard of at least 12th
-level with the bardic performance class ability; **Cost** 22,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lullaby](ref/spell/lullaby), [mass cure light wounds](ref/spell/cure-light-wounds-mass), creator must be a bard of at least 12th level with the bardic performance class ability
+Cost: 22,500 gp
+:::

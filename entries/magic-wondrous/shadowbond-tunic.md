@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** chest; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: chest
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 This black linen tunic has simple brass buttons. Once per day, the wielder can attune the garment to
 one ally by standing for 1 minute in a position in which both the wielder's and his ally's shadows
@@ -34,5 +39,7 @@ until 24 hours have passed since its last attunement.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other)
+Cost: 6,000 gp
+:::

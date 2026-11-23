@@ -20,8 +20,13 @@ aura = "strong universal"
 caster_level = "12th"
 +++
 
-**Aura** strong universal; **CL** 12th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong universal
+CL: 12th
+Slot: none
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This leather pouch contains a set of black stones, each engraved with a different rune of ill
 fortune. When used as part of [spell kenning](ref/class/skald), they allow the user to cast spells
@@ -32,6 +37,7 @@ instead of doubling casting time. The tiles can be used once per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be able to cast
-6th-level witch spells; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be able to cast 6th-level witch spells
+Cost: 8,000 gp
+:::

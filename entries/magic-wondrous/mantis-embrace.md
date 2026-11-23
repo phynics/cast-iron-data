@@ -23,8 +23,13 @@ aura = "strong evocation and necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 13th\
-**Slot** hands; **Price** 50,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 13th
+Slot: hands
+Price: 50,000 gp
+Weight: 1 lb.
+:::
 
 These stylized red gloves are often employed by agents of the [Red Mantis](ref/rule/aff-assassins)
 for stealthy assassinations. If the wearer successfully [pins](ref/rule/grapple-conditions) an
@@ -38,5 +43,7 @@ subsequent attempts from any mantis embrace for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[explode head](ref/spell/explode-head), [suffocation](ref/spell/suffocation); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [explode head](ref/spell/explode-head), [suffocation](ref/spell/suffocation)
+Cost: 25,000 gp
+:::

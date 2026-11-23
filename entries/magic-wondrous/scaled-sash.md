@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** chest; **Price** 73,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: chest
+Price: 73,000 gp
+Weight: 1 lb.
+:::
 
 Glittering with every movement, this sash is associated with a specific type of chromatic dragon.
 Three times per day, the wearer may convert all the damage dealt by a single attack with a melee,
@@ -43,5 +48,7 @@ property.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[form of the dragon I](ref/spell/form-of-the-dragon-1); **Cost** 36,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [form of the dragon I](ref/spell/form-of-the-dragon-1)
+Cost: 36,500 gp
+:::

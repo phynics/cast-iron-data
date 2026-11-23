@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: 2 lbs.
+:::
 
 This brightly labeled bottle or waterskin could appear to contain any number of different beverages,
 from absinthe to wine. However, it's actually a magical trap, and when the bottle is opened, a
@@ -33,5 +38,7 @@ the trapped beverage remains a mundane bottle or wineskin.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon swarm](ref/spell/summon-swarm); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon swarm](ref/spell/summon-swarm)
+Cost: 150 gp
+:::

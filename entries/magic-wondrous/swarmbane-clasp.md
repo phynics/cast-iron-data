@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** neck; **Price** 3,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: neck
+Price: 3,000 gp
+Weight: 1/2 lb.
+:::
 
 An ancient fossilized insect lies trapped within this ornate amber clasp, impaled by the long golden
 pin that fastens the wearer's cloak. The wearer's weapons, unarmed attacks, and natural attacks deal
@@ -32,5 +37,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[repel vermin](ref/spell/repel-vermin); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [repel vermin](ref/spell/repel-vermin)
+Cost: 1,500 gp
+:::

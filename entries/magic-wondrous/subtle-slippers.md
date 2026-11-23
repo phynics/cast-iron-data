@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 5,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 5,500 gp
+Weight: 2 lbs.
+:::
 
 These worn, shapeless leather slippers magically shrink or enlarge to fit any foot placed within,
 and are as comfortable as a well-broken-in pair of boots. When worn by a
@@ -41,5 +46,7 @@ if the wearer of the slippers removes the footwear, is knocked unconscious, or i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pass without trace](ref/spell/pass-without-trace); **Cost** 2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pass without trace](ref/spell/pass-without-trace)
+Cost: 2,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** chest; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: chest
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This tunic is crafted from golden thread, and has silver-hemmed sleeves. The wearer gains a +2 bonus
 to Combat Maneuver Defense against [disarm](ref/rule/disarm) and [sunder](ref/rule/sunder) combat
@@ -31,6 +36,7 @@ successful critical hit against the target of his challenge.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness), [mage armor](ref/spell/mage-armor); **Cost**
-3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness), [mage armor](ref/spell/mage-armor)
+Cost: 3,000 gp
+:::

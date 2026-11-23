@@ -20,8 +20,13 @@ aura = "strong enchantment and evocation [evil]"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment and evocation \[evil\]; **CL** 12th\
-**Slot** none; **Price** 10,000 gp; **Weight** 2,000 lbs.
+::: statblock
+Aura: strong enchantment and evocation \[evil\]
+CL: 12th
+Slot: none
+Price: 10,000 gp
+Weight: 2,000 lbs.
+:::
 
 This statue takes the form of a bull or a bull-headed humanoid. A hatch in the idol's chest or side
 allows access to a hollow inside the statue - this hatch can be opened only from the outside. This
@@ -38,6 +43,7 @@ for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless),
-[produce flame](ref/spell/produce-flame), [unholy blight](ref/spell/unholy-blight); **Cost** 5,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless](ref/spell/bless), [produce flame](ref/spell/produce-flame), [unholy blight](ref/spell/unholy-blight)
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "5th"
 +++
 
-**Aura** moderate divination; **CL** 5th\
-**Slot** none; **Price** 7,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate divination
+CL: 5th
+Slot: none
+Price: 7,000 gp
+Weight: 6 lbs.
+:::
 
 Made of a glassy, translucent substance, this orb swirls with the eldritch energy of spellcasters
 long departed. When the bearer researches a spell to
@@ -38,5 +43,7 @@ mundane glass.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Scribe Scroll](ref/feat/scribe-scroll), [read magic](ref/spell/read-magic); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Scribe Scroll](ref/feat/scribe-scroll), [read magic](ref/spell/read-magic)
+Cost: 3,500 gp
+:::

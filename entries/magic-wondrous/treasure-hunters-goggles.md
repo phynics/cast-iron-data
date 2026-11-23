@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 6,400 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 6,400 gp
+Weight: -
+:::
 
 These sturdy but plain goggles help the wearer locate secret doors and coins and identify treasure.
 While wearing these goggles, the wearer can use
@@ -36,6 +41,7 @@ Three times per day, the wearer may use _[identify](ref/spell/identify)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect secret doors](ref/spell/detect-secret-doors), [identify](ref/spell/identify),
-[locate object](ref/spell/locate-object); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect secret doors](ref/spell/detect-secret-doors), [identify](ref/spell/identify), [locate object](ref/spell/locate-object)
+Cost: 3,200 gp
+:::

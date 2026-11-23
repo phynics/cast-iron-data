@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "9th"
 +++
 
-**Aura** faint abjuration; **CL** 9th\
-**Slot** none; **Price** 3,000 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 9th
+Slot: none
+Price: 3,000 gp
+Weight: 25 lbs.
+:::
 
 Ointment of void sealing comes in a 4-gallon tub, typically made out of brass or some other durable
 metal. When a Medium or smaller character dunks his head into the tub of sticky, viscous goo as a
@@ -36,5 +41,7 @@ share a single dose between them.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planetary adaptation](ref/spell/planetary-adaptation); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planetary adaptation](ref/spell/planetary-adaptation)
+Cost: 1,500 gp
+:::

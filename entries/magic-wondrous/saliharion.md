@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 15 lbs.
+:::
 
 Named for Nashina aj-Salihar, the Sarenite monk who penned the original work, this hefty tome
 contains inspiring parables, simple folk remedies for widespread illnesses and injuries, and helpful
@@ -37,5 +42,7 @@ bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know the enemy](ref/spell/know-the-enemy), [owl's wisdom](ref/spell/owls-wisdom); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know the enemy](ref/spell/know-the-enemy), [owl's wisdom](ref/spell/owls-wisdom)
+Cost: 1,500 gp
+:::

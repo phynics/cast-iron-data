@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate conjuration; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 5 lbs.
+:::
 
 This [concertina](ref/eq-misc/musical-instrument-common) was created by the notorious Chelish bard
 Vidlian the Reveler. It can be used like a masterwork concertina, providing a +2 bonus on
@@ -35,5 +40,7 @@ gains no protection from [suffocation](ref/rule/suffocation).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cushioning bands](ref/spell/cushioning-bands), [grease](ref/spell/grease); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cushioning bands](ref/spell/cushioning-bands), [grease](ref/spell/grease)
+Cost: 3,000 gp
+:::

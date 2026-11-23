@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 A creature that drinks this elixir becomes particularly pliable mentally and emotionally for 10
 minutes (Will DC 16 negates). [Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy), and
@@ -37,5 +42,7 @@ to identify it succeeds by 10 or more.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [zone of truth](ref/spell/zone-of-truth); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [zone of truth](ref/spell/zone-of-truth)
+Cost: 250 gp
+:::

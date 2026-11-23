@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** head; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: head
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This striped pink conch shell has thin leathery straps to keep it attached to the wearer's face,
 with a clear mask attached to the top that the wearer can see through. Prized by shoreborn pirates
@@ -34,5 +39,7 @@ had cast _[detect magic](ref/spell/detect-magic)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air bubble](ref/spell/air-bubble), [detect magic](ref/spell/detect-magic); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air bubble](ref/spell/air-bubble), [detect magic](ref/spell/detect-magic)
+Cost: 3,000 gp
+:::

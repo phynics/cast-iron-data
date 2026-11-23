@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** none (see below); **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: none (see below)
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 This sight can be attached to a single two-handed firearm. When this is done, the sight becomes part
 of the weapon, but can be removed from that weapon with a full-round action. A firearm wielder using
@@ -31,5 +36,7 @@ she knows is in the area.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 6,000 gp
+:::

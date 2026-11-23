@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** neck; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: neck
+Price: 3,500 gp
+Weight: -
+:::
 
 Usually fashioned from brightly colored silk, a mummer's ruff is a favored accoutrement of
 performers and con artists alike. The wearer of a mummer's ruff gains a +10 bonus on
@@ -31,5 +36,7 @@ _[ventriloquism](ref/spell/ventriloquism)_ for up to 5 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sculpt sound](ref/spell/sculpt-sound), [ventriloquism](ref/spell/ventriloquism); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sculpt sound](ref/spell/sculpt-sound), [ventriloquism](ref/spell/ventriloquism)
+Cost: 1,750 gp
+:::

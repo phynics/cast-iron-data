@@ -20,8 +20,13 @@ aura = "moderate enchantment and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment and necromancy; **CL** 11th\
-**Slot** neck; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment and necromancy
+CL: 11th
+Slot: neck
+Price: 16,000 gp
+Weight: -
+:::
 
 This finely wrought iron slave collar is embedded with flecks of pyrite and resembles a stylized
 rendering of a snake eating its own tail. To function, it must be placed around the neck of a
@@ -38,5 +43,7 @@ while touching the collar, or as if it were a cursed item.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[geas/quest](ref/spell/geas-quest), [suffocation](ref/spell/suffocation); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [geas/quest](ref/spell/geas-quest), [suffocation](ref/spell/suffocation)
+Cost: 8,000 gp
+:::

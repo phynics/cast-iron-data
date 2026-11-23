@@ -23,8 +23,13 @@ aura = "faint evocation and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and transmutation; **CL** 5th\
-**Slot** none; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation and transmutation
+CL: 5th
+Slot: none
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 Favored by [Pathfinders](ref/rule/aff-scholars) exploring dark and dangerous locales, the exterior
 of this [wayfinder](ref/magic-wondrous/wayfinder) is constructed of panels of
@@ -39,5 +44,7 @@ second stone is placed in it, the [darkvision](ref/rule/darkvision) ability no l
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision)
+Cost: 9,000 gp
+:::

@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** shoulders; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: shoulders
+Weight: 1 lb.
+:::
 
 This gray magical cloak seems to be a protective cloak, but when it is donned, the wearer must
 succeed at a DC 20 Fortitude save or be instantly [petrified](ref/rule/petrified). If the initial
@@ -32,4 +36,7 @@ wearer back, at least long enough for someone to take the cloak off the wearer.
 
 ### Construction
 
-**Requirements** any cloak; **Cost** -
+::: statblock
+Requirements: any cloak
+Cost: -
+:::

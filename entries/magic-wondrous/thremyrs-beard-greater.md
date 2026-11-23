@@ -22,8 +22,13 @@ caster_level = "13th"
 
 ## Thremyr's Beard
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** head; **Price** 32,250 gp (Lesser), 42,250 gp (Greater); **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: head
+Price: 32,250 gp (Lesser), 42,250 gp (Greater)
+Weight: 2 lbs.
+:::
 
 This [mithral](ref/eq-material/mithral) helm has a faceplate resembling a
 [frost giant's](ref/monster/giant-frost-frost-giant) face, complete with a beard formed from
@@ -47,6 +52,7 @@ confirmation roll and take the worse result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[grasping hand](ref/spell/grasping-hand) (lesser and greater), [ill omen](ref/spell/ill-omen)
-(greater); **Cost** 17,625 gp (Lesser), 21,125 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grasping hand](ref/spell/grasping-hand) (lesser and greater), [ill omen](ref/spell/ill-omen) (greater)
+Cost: 17,625 gp (Lesser), 21,125 gp (Greater)
+:::

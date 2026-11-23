@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** body; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: body
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This dapper robe enables a sorcerer to add the effects of her 1st-level
 [bloodline](ref/ability/sorcerer-bloodlines) power to spells she casts. As a swift action before
@@ -32,6 +37,7 @@ hit point damage) or is negated (if it does not). The robe can be used up to thr
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Quicken Spell-Like Ability](ref/feat/quicken-spell-like-ability), creator must be a sorcerer;
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Quicken Spell-Like Ability](ref/feat/quicken-spell-like-ability), creator must be a sorcerer
+Cost: 2,500 gp
+:::

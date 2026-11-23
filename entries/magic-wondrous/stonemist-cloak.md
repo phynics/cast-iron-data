@@ -23,8 +23,13 @@ aura = "faint conjuration and illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and illusion; **CL** 3rd\
-**Slot** shoulders; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration and illusion
+CL: 3rd
+Slot: shoulders
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 In rocky or mountainous areas, when this stone-gray cloak is worn with the hood drawn up around the
 head, the wearer gains a +5 competence bonus on [Stealth](ref/skill/stealth) checks. Once per day,
@@ -32,6 +37,7 @@ the wearer can create an area of fog equivalent to _[obscuring mist](ref/spell/o
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), [obscuring mist](ref/spell/obscuring-mist); **Cost** 1,750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), [obscuring mist](ref/spell/obscuring-mist)
+Cost: 1,750 gp
+:::

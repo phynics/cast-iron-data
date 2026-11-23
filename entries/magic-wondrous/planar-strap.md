@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 When this worn leather strap is tied around the grip of a weapon, the weapon becomes immune to the
 harmful environmental effects of a plane, such as heat or acidity. This does not protect the weapon
@@ -33,5 +38,7 @@ a weapon at a time.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[planar adaptation](ref/spell/planar-adaptation); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [planar adaptation](ref/spell/planar-adaptation)
+Cost: 250 gp
+:::

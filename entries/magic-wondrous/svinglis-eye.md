@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 28,800 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 28,800 gp
+Weight: 6 lbs.
+:::
 
 Unlike the heavy cast-brass mariner's astrolabes normally used at sea, this
 [astrolabe](ref/eq-misc/astrolabe) is of the more common type found on land, made of flat discs of
@@ -41,5 +46,7 @@ Perception checks to spot hidden or disguised creatures or objects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[know direction](ref/spell/know-direction), [true seeing](ref/spell/true-seeing); **Cost** 14,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [know direction](ref/spell/know-direction), [true seeing](ref/spell/true-seeing)
+Cost: 14,600 gp
+:::

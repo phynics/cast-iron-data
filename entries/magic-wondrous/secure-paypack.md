@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 4,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 4,000 gp
+Weight: 5 lbs.
+:::
 
 This rugged backpack is identical to a [handy haversack](ref/magic-wondrous/handy-haversack) in most
 regards, with numerous compartments for storing items. Any effort to identify it with a
@@ -40,6 +45,7 @@ at least 5 ranks in Craft (locks). Each secure paypack is normally created with 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [knock](ref/spell/knock),
-[secret chest](ref/spell/secret-chest); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [knock](ref/spell/knock), [secret chest](ref/spell/secret-chest)
+Cost: 2,000 gp
+:::

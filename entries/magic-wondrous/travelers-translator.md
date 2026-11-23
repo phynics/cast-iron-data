@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,550 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,550 gp
+Weight: -
+:::
 
 This single earring consists of a prismatic crystal set into a platinum bezel. A traveler's
 translator provides its owner a basic and limited ability to communicate with intelligent creatures
@@ -46,5 +51,7 @@ language.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[share language](ref/spell/share-language); **Cost** 775 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [share language](ref/spell/share-language)
+Cost: 775 gp
+:::

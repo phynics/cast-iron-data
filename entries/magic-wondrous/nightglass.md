@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 126,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 126,000 gp
+Weight: 5 lbs.
+:::
 
 This thin sheet of opaque black stone is polished to a reflective sheen, but the center of the
 material drinks all light, becoming a pool of total darkness.
@@ -56,7 +61,7 @@ nightglass hazily shows the creature being contacted.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadow conjuration](ref/spell/shadow-conjuration), [summon monster IV](ref/spell/summon-monster-4),
-[trap the soul](ref/spell/trap-the-soul), creator must be 10th level or higher and must be a
-worshiper of [Zon-Kuthon](ref/faith/zon-kuthon); **Cost** 63,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadow conjuration](ref/spell/shadow-conjuration), [summon monster IV](ref/spell/summon-monster-4), [trap the soul](ref/spell/trap-the-soul), creator must be 10th level or higher and must be a worshiper of [Zon-Kuthon](ref/faith/zon-kuthon)
+Cost: 63,000 gp
+:::

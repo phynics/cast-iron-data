@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "1st"
 +++
 
-**Aura** faint evocation; **CL** 1st\
-**Slot** none; **Price** 850 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 1st
+Slot: none
+Price: 850 gp
+Weight: 4 lbs.
+:::
 
 This [longsword](ref/eq-weapon/longsword) glows and has an aura, making it appear valuable. Its grip
 is hollow and can be filled with a dose of poison (bought separately, and requiring a full-round
@@ -33,6 +38,7 @@ in the grip deliver the poison. Detecting the trap requires a successful DC 30
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Learn Ranger Trap](ref/feat/learn-ranger-trap), [light](ref/spell/light),
-[magic aura](ref/spell/magic-aura); **Cost** 175 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Learn Ranger Trap](ref/feat/learn-ranger-trap), [light](ref/spell/light), [magic aura](ref/spell/magic-aura)
+Cost: 175 gp
+:::

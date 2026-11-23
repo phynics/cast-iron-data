@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate illusion; **CL** 6th\
-**Slot** shoulders; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 6th
+Slot: shoulders
+Price: 9,000 gp
+Weight: -
+:::
 
 This fashionable silken shawl is incredibly light. Once per day on command, a phantom entourage
 surrounds its wearer with 1d4+2 illusions of attractive socialites. These illusions cluster closely
@@ -35,5 +40,7 @@ on [Bluff](ref/skill/bluff), [Diplomacy](ref/skill/diplomacy), and
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [mirror image](ref/spell/mirror-image); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [mirror image](ref/spell/mirror-image)
+Cost: 4,500 gp
+:::

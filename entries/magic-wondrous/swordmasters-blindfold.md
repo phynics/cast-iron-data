@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** eyes; **Price** 80,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: eyes
+Price: 80,000 gp
+Weight: -
+:::
 
 This black band of silk grants its wearer spectacular senses within a limited range. Some believe
 these items were made to grant lesser swordmasters the illusion of skill. When the wearer places the
@@ -32,6 +37,7 @@ _[locate weakness](ref/spell/locate-weakness)_ spell, but only when making melee
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness](ref/spell/blindness-deafness), [locate weakness](ref/spell/locate-weakness); **Cost**
-40,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness](ref/spell/blindness-deafness), [locate weakness](ref/spell/locate-weakness)
+Cost: 40,000 gp
+:::

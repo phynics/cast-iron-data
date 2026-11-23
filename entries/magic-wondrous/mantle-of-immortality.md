@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** chest; **Price** 50,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: chest
+Price: 50,000 gp
+Weight: 1 lb.
+:::
 
 This elegant cape, trimmed in gold in a pattern resembling an ancient maze, forestalls the negative
 effects of aging. The wearer no longer suffers penalties to Strength, Dexterity, and Constitution
@@ -33,5 +38,7 @@ remedied with magic.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater age resistance](ref/spell/age-resistance-greater); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater age resistance](ref/spell/age-resistance-greater)
+Cost: 25,000 gp
+:::

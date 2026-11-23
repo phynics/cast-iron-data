@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 9th\
-**Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 9th
+Slot: belt
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This shimmering metallic belt is composed of dozens of looped silver cords tied together in
 elaborate braids and knots. As a standard action, the wearer can touch his
@@ -44,6 +49,7 @@ and can't sacrifice hit points if doing so would reduce him to 0 hit points or f
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other), [vampiric touch](ref/spell/vampiric-touch); **Cost** 12,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 12,500 gp
+:::

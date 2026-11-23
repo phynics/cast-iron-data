@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 These garish tokens usually take the form of a colorful clothing accessories. So long as a token is
 grasped in the user's off hand, she can spend 1 panache point to gain the use of a specific ability
@@ -49,6 +54,7 @@ types of tokens, each offering a different benefit.
 
 ### Construction
 
-**Requirements** Blind Fight, [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Improved Trip](ref/feat/improved-trip), [Lunge](ref/feat/lunge),
-[Nimble Moves](ref/feat/nimble-moves), [good hope](ref/spell/good-hope); **Cost** 1,250 gp
+::: statblock
+Requirements: Blind Fight, [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Improved Trip](ref/feat/improved-trip), [Lunge](ref/feat/lunge), [Nimble Moves](ref/feat/nimble-moves), [good hope](ref/spell/good-hope)
+Cost: 1,250 gp
+:::

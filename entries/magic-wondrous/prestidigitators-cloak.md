@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 17,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion and transmutation
+CL: 5th
+Slot: shoulders
+Price: 17,200 gp
+Weight: 1 lb.
+:::
 
 This short black cloak grants its wearer a +8 competence bonus on
 [Sleight of Hand](ref/skill/sleight-of-hand) checks. Furthermore, as a full-round action, the cloak
@@ -33,5 +38,7 @@ the cloak to dispel the object into an adjacent square.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), [rope trick](ref/spell/rope-trick); **Cost** 8,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), [rope trick](ref/spell/rope-trick)
+Cost: 8,600 gp
+:::

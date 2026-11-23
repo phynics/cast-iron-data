@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** feet; **Price** 1,200 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: feet
+Price: 1,200 gp
+Weight: 1/2 lb.
+:::
 
 Slippers of scampering function in almost every way like
 [slippers of spider climbing](ref/magic-wondrous/slippers-of-spider-climbing), except the slippers
@@ -29,5 +34,7 @@ can be used for 10 rounds per day, split up as the wearer chooses (minimum 1 rou
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spider climb](ref/spell/spider-climb); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spider climb](ref/spell/spider-climb)
+Cost: 600 gp
+:::

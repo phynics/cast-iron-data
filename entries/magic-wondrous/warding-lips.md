@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 7th\
-**Slot** none; **Price** 1,900 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 7th
+Slot: none
+Price: 1,900 gp
+Weight: -
+:::
 
 When placed upon the lips, these thin, translucent sheets of wax melt invisibly onto the user's
 mouth. The user is aware of - but unaffected by - any magical attacks or effects that might harm him
@@ -32,6 +37,7 @@ of warding lips loses its magic and becomes useless.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward), [neutralize poison](ref/spell/neutralize-poison); **Cost** 950
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 950 gp
+:::

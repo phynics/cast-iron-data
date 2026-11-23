@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 32,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 32,000 gp
+Weight: 3 lbs.
+:::
 
 This unpolished pearlescent stone, roughly 6 inches in diameter, contains an airless cyst of
 seawater with the preserved, pink-and-yellow body of a tropical fish, eyes agape, in the center. The
@@ -47,5 +52,7 @@ an implement can use the following focus power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 7th-level
-occultist who has learned the transmutation implement school; **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 7th-level occultist who has learned the transmutation implement school
+Cost: 16,000 gp
+:::

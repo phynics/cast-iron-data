@@ -20,8 +20,12 @@ aura = "moderate necromancy [evil]"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy \[evil\]; **CL** 11th\
-**Slot** headband; **Price** 135,000 gp
+::: statblock
+Aura: moderate necromancy \[evil\]
+CL: 11th
+Slot: headband
+Price: 135,000 gp
+:::
 
 This item is a receptacle for a lich's soul. It was broken into five pieces. Individually, each
 piece can do no more than whisper "Jadis-Vel," the name of the [lich](ref/template/lich) whose
@@ -42,8 +46,10 @@ returned to the world intact, albeit in a different body.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have at least 10
-ranks in Knowledge (religion) and a caster level of 11th or higher; **Price** 127,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have at least 10 ranks in Knowledge (religion) and a caster level of 11th or higher
+Price: 127,500 gp
+:::
 
 ### Statistics
 

@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 33,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 33,000 gp
+Weight: 3 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -40,6 +45,7 @@ that standard for 1 day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[archon's aura](ref/spell/archons-aura), [bless](ref/spell/bless), creator must be an aasimar;
-**Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [archon's aura](ref/spell/archons-aura), [bless](ref/spell/bless), creator must be an aasimar
+Cost: 16,500 gp
+:::

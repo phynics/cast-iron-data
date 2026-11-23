@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 When hung above a door or other portal, this smooth, scarab-shaped stone prevents undead creatures
 from entering. An intelligent undead creature attempting to move through the warded portal or touch
@@ -31,5 +36,7 @@ hours. Nonintelligent undead creatures don't get a saving throw against the effe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[command undead](ref/spell/command-undead); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command undead](ref/spell/command-undead)
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** head; **Price** 9,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: head
+Price: 9,000 gp
+Weight: 3 lbs.
+:::
 
 Shamans and warriors of many of the indigenous tribes of western Garund add to their fierceness and
 mystique by wearing wooden masks that bear terrifying visages of demonic spirits. A war mask is
@@ -39,5 +44,7 @@ can cast [bull's strength](ref/spell/bulls-strength), [fear](ref/spell/fear), or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare),
-[shield](ref/spell/shield); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scare](ref/spell/scare), [shield](ref/spell/shield)
+Cost: 4,500 gp
+:::

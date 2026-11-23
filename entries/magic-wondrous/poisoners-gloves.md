@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 5,000 gp
+Weight: -
+:::
 
 These black, rubbery gloves have sharpened digits. Fine channels lead to the tip of each finger,
 which are often stained with foul chemicals. The gloves are used primarily by
@@ -39,5 +44,7 @@ once per day. Filling a glove is a full-round action that provokes attacks of op
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch injection](ref/spell/touch-injection); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch injection](ref/spell/touch-injection)
+Cost: 2,500 gp
+:::

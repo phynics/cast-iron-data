@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** feet; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: feet
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 The wearer of a pair of stonemeld boots gains a +4 bonus to CMD against
 [bull rush](ref/rule/bull-rush), [drag](ref/rule/drag), [reposition](ref/rule/reposition), and
@@ -35,5 +40,7 @@ were made.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[transmute rock to mud](ref/spell/transmute-rock-to-mud); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [transmute rock to mud](ref/spell/transmute-rock-to-mud)
+Cost: 1,750 gp
+:::

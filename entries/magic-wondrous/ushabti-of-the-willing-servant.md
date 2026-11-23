@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 3,900 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 3,900 gp
+Weight: 1 lb.
+:::
 
 This small stone figurine depicts a mummiform servant holding carved tools in its crossed arms. It
 appears similar to the funerary figurines called ushabti frequently found buried with the deceased
@@ -43,6 +48,7 @@ the ushabti loses all of its magic, becoming only a mundane figurine.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spiritual ally](ref/spell/spiritual-ally), [unseen servant](ref/spell/unseen-servant); **Cost**
-1,950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spiritual ally](ref/spell/spiritual-ally), [unseen servant](ref/spell/unseen-servant)
+Cost: 1,950 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 1,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 1,000 gp
+Weight: 1/2 lb.
+:::
 
 This lace collar fits snugly around the wearer's neck. When an effect would damage an item worn in
 any of the wearer's item slots, up to 10 points of damage are redirected to the ruff. (Damaging
@@ -33,5 +38,7 @@ point per hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending)
+Cost: 500 gp
+:::

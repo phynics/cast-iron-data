@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: 3 lbs.
+:::
 
 This roll of tanned horsehide contains pockets that hold ceremonial gear such as incense, candles,
 and tiny bells as well as a small, carved stone idol in the shape of a totem spirit such as a dragon
@@ -37,5 +42,7 @@ stone idol crumbles into powder.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune);
-**Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune](ref/spell/commune)
+Cost: 1,250 gp
+:::

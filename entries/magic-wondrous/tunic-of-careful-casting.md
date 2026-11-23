@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** chest; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: chest
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This woolen garment is decorated with a pattern of linked chains embroidered in silver and black
 thread. It assists the wearer with maintaining focus during spellcasting, granting a +2 bonus on
@@ -29,5 +34,7 @@ thread. It assists the wearer with maintaining focus during spellcasting, granti
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Combat Casting](ref/feat/combat-casting); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Combat Casting](ref/feat/combat-casting)
+Cost: 2,500 gp
+:::

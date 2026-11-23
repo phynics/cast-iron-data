@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 4,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: shoulders
+Price: 4,500 gp
+Weight: 3 lbs.
+:::
 
 This green leather cloak has blue hues and flows gently in the wind when worn, giving the wearer the
 appearance of donning a cresting wave on her shoulders. This cloak causes any liquid poisons poured
@@ -36,6 +41,7 @@ Doing this does not put the wearer at risk for being poisoned.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[delay poison](ref/spell/delay-poison), [obscure poison](ref/spell/obscure-poison); **Cost** 2,250
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [delay poison](ref/spell/delay-poison), [obscure poison](ref/spell/obscure-poison)
+Cost: 2,250 gp
+:::

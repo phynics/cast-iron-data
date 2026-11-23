@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: wrists
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This small sheath attaches to the wrist with a leather strap. The sheath can accommodate any single
 light weapon, wand, or piece of ammunition weighing no more than 5 pounds. While sheathed, the
@@ -36,5 +41,7 @@ eject either or both weapons with a single swift action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp
+:::

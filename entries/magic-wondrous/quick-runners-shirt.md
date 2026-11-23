@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** chest; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: chest
+Price: 1,000 gp
+Weight: -
+:::
 
 This shirt is made of light, gossamer-thin fabric embroidered with arrangements of winged feet. Once
 per day as a swift action, the wearer can take an additional move action to move and then
@@ -30,5 +35,7 @@ for 24 hours before he can activate this ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste)
+Cost: 500 gp
+:::

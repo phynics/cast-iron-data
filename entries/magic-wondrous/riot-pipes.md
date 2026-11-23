@@ -23,8 +23,12 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Weight: 3 lbs.
+:::
 
 This simple musical instrument seems and behaves in all ways like any other kind of magical pipes
 until its owner plays it in an urban setting. Once he does, it requires all people within hearing
@@ -37,6 +41,7 @@ each subsequent day. The pipes remain with the player until the curse is broken.
 
 ### Construction
 
-**Requirements** [pipes of haunting](ref/magic-wondrous/pipes-of-haunting),
-[pipes of the sewers](ref/magic-wondrous/pipes-of-the-sewers),
-[pipes of sounding](ref/magic-wondrous/pipes-of-sounding); **Cost** -
+::: statblock
+Requirements: [pipes of haunting](ref/magic-wondrous/pipes-of-haunting), [pipes of the sewers](ref/magic-wondrous/pipes-of-the-sewers), [pipes of sounding](ref/magic-wondrous/pipes-of-sounding)
+Cost: -
+:::

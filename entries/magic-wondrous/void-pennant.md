@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 This long tapering pennant resembles a stylized serpentine figure wearing a shimmering crown. The
 figure's claws function as clasps, attaching it to a lance, polearm, frame, or staff. The pennant
@@ -35,5 +40,7 @@ creature may end the effect by uprooting the pennant as a standard action. The p
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 7,000 gp
+:::

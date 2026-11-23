@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 19,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 19,000 gp
+Weight: 1 lb.
+:::
 
 This small decorative object can take almost any form but is always small and seemingly valuable.
 The item seems so intriguing and delightful that any creature holding it - including while examining
@@ -38,6 +43,7 @@ wearing the talisman's ring can use scry upon the talisman. This functions as
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beguiling gift](ref/spell/beguiling-gift), [bestow curse](ref/spell/bestow-curse),
-[status](ref/spell/status); **Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beguiling gift](ref/spell/beguiling-gift), [bestow curse](ref/spell/bestow-curse), [status](ref/spell/status)
+Cost: 9,500 gp
+:::

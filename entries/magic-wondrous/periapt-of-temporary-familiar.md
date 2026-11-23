@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This clear blue crystal amulet contains a pearl figurine depicting a miniature animal on the
 familiar list, such as a bat, monkey, or raven. Three times per day, the wearer can call forth the
@@ -34,5 +39,7 @@ familiar.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster V](ref/spell/summon-monster-5), creator must have a familiar; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster V](ref/spell/summon-monster-5), creator must have a familiar
+Cost: 4,000 gp
+:::

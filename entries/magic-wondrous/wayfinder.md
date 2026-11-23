@@ -39,8 +39,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 A small magical device patterned on the design of ancient Azlanti relics, a wayfinder is a compact
 compass typically made from silver and bearing gold accents. While it serves as a badge of office
@@ -56,5 +61,7 @@ stones can grant additional powers once they are fitted into a wayfinder, at the
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light);
-**Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light)
+Cost: 250 gp
+:::

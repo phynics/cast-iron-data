@@ -20,8 +20,13 @@ aura = "faint enchantment (compulsion)"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment (compulsion); **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment (compulsion)
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 A single dose of these dried tea leaves is enough to brew a cup of savory tea for one creature, who
 then becomes susceptible to suggestion for 1 hour after drinking the tea. During this time, anyone
@@ -31,5 +36,7 @@ drinking the tea has no recollection of the time spent carrying out the compulsi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory), [suggestion](ref/spell/suggestion); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory), [suggestion](ref/spell/suggestion)
+Cost: 750 gp
+:::

@@ -23,8 +23,12 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Weight: -
+:::
 
 This potion has lost its beneficial abilities and become a potent poison. This poison deals 1d3
 [Constitution damage](ref/rule/ability-damage-drain) per round for 6 rounds. A poisoned creature can
@@ -32,4 +36,7 @@ make a DC 14 Fortitude save each round to negate the damage and end the afflicti
 
 ### Construction
 
-**Requirements** any potion; **Cost** -
+::: statblock
+Requirements: any potion
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** feet; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: feet
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These brown leather boots have a reinforced toe of steel with grooves along the soles, crafted to
 help the wearer pick up vibrations from the surrounding environment. These boots grant the wearer
@@ -29,5 +34,7 @@ help the wearer pick up vibrations from the surrounding environment. These boots
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[see invisibility](ref/spell/see-invisibility); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [see invisibility](ref/spell/see-invisibility)
+Cost: 5,000 gp
+:::

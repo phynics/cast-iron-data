@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** head; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: head
+Price: 9,000 gp
+Weight: -
+:::
 
 In addition to hiding the face, this fine lace veil protects the wearer against [gaze](ref/umr/gaze)
 attacks. The wearer has a 50% chance to avoid making a saving throw against a gaze attack even when
@@ -34,6 +39,7 @@ not otherwise impede the wearer's vision in any way.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness), [true strike](ref/spell/true-strike); **Cost**
-4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness), [true strike](ref/spell/true-strike)
+Cost: 4,500 gp
+:::

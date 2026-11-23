@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** body; **Price** 13,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: body
+Price: 13,000 gp
+Weight: 1 lb.
+:::
 
 When worn, this simple brown robe confers great ability in unarmed combat. If the wearer has levels
 in monk, her AC and unarmed damage are treated as a monk of 5 levels higher. If donned by a
@@ -35,6 +40,7 @@ This AC bonus functions just like the monk's AC bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[righteous might](ref/spell/righteous-might) or [transformation](ref/spell/transformation); **Cost**
-6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [righteous might](ref/spell/righteous-might) or [transformation](ref/spell/transformation)
+Cost: 6,500 gp
+:::

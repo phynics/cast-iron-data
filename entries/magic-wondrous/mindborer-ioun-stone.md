@@ -21,8 +21,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** varies; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: varies
+Weight: -
+:::
 
 This cursed item looks like any normal [ioun stone](ref/magic-wondrous/ioun-stone), and has powers
 according to its color and shape. However, whenever you are in combat, the orbiting stone batters at
@@ -38,5 +43,7 @@ stone (by using [dispel magic](ref/spell/dispel-magic), entering an
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-12th level; **Cost** varies
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be 12th level
+Cost: varies
+:::

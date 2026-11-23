@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This featureless mask is little more than a white disk with eyeholes and a pair of short leather
 straps for tying. After donning the mask, the wearer can meditate for 1 minute in order to assume a
@@ -41,5 +46,7 @@ identity is separate from his actual vigilante identity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [nondetection](ref/spell/nondetection); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [nondetection](ref/spell/nondetection)
+Cost: 12,500 gp
+:::

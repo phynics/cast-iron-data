@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** feet; **Price** 80,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: feet
+Price: 80,000 gp
+Weight: 1 lb.
+:::
 
 These well-worn boots act as [boots of speed](ref/magic-wondrous/boots-of-speed) combined with
 [boots of striding and springing](ref/magic-wondrous/boots-of-striding-and-springing). The wearer
@@ -36,6 +41,7 @@ beyond 21 miles of where she started.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [expeditious retreat](ref/spell/expeditious-retreat),
-[haste](ref/spell/haste); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [expeditious retreat](ref/spell/expeditious-retreat), [haste](ref/spell/haste)
+Cost: 40,000 gp
+:::

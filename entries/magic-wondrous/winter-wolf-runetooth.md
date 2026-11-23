@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 When this canine fang is crushed or broken as a full-round action, it summons a
 [winter wolf](ref/monster/worg-winter-wolf). The wolf is under the control of the creature that
@@ -29,5 +34,7 @@ broke the fang. The wolf remains for 1 minute or until slain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon nature's ally V](ref/spell/summon-natures-ally-5); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon nature's ally V](ref/spell/summon-natures-ally-5)
+Cost: 1,250 gp
+:::

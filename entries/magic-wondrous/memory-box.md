@@ -20,8 +20,13 @@ aura = "strong conjuration and enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and enchantment; **CL** 12th\
-**Slot** none; **Price** 28,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration and enchantment
+CL: 12th
+Slot: none
+Price: 28,000 gp
+Weight: -
+:::
 
 This 3-inch cubic puzzle box is coated in dark lacquer and elegantly decorated with gold leaf,
 mother-of-pearl, and precious stones. Opening the box requires 1 minute and a successful DC 22
@@ -48,6 +53,7 @@ memory to be erased, regardless of whose memory it is.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[repress memory](ref/spell/repress-memory), [secret chest](ref/spell/secret-chest); **Cost** 14,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [repress memory](ref/spell/repress-memory), [secret chest](ref/spell/secret-chest)
+Cost: 14,000 gp
+:::

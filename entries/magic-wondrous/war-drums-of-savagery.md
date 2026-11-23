@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 35,000 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 35,000 gp
+Weight: 20 lbs.
+:::
 
 Orcs turn the bodies of their slain enemies into these kettle-like drums, using the foes' skins for
 the drumheads and the femurs as the drumsticks. The drums come with a harness that is worn across
@@ -40,5 +45,7 @@ the rage effect don't take the penalty to AC as long as the drummer's bardic per
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage);
-**Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage)
+Cost: 17,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** shoulders; **Price** 14,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: shoulders
+Price: 14,800 gp
+Weight: 3 lbs.
+:::
 
 This pelt of a large northern wolf is fashioned into a cloak. It can be activated up to five times
 per day. When struck in combat, the wearer can spend one use as a swift action to animate a ghostly
@@ -40,6 +45,7 @@ can attempt a new save at the beginning of the turn to reduce the severity of th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove fear](ref/spell/remove-fear), [spiritual weapon](ref/spell/spiritual-weapon); **Cost** 7,400
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove fear](ref/spell/remove-fear), [spiritual weapon](ref/spell/spiritual-weapon)
+Cost: 7,400 gp
+:::

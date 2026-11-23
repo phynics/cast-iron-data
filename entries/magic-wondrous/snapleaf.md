@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: -
+:::
 
 This crystalline carving looks like a hand-sized tree leaf. It is usually worn around the neck on a
 strap so it is within easy reach, but can be affixed to a belt or clothing just like a badge. While
@@ -32,5 +37,7 @@ just one of these two effects; they are always activated simultaneously.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather fall](ref/spell/feather-fall), [invisibility](ref/spell/invisibility); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather fall](ref/spell/feather-fall), [invisibility](ref/spell/invisibility)
+Cost: 375 gp
+:::

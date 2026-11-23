@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** none; **Price** 20,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: none
+Price: 20,000 gp
+Weight: 2 lbs.
+:::
 
 This pallid length of sharpened thighbone is carved into the shape of a dagger, but with tiny holes
 bored into it at equal intervals, almost like a flute. A [necromancer](ref/arcaneschool/necromancy)
@@ -34,5 +39,7 @@ same level or lower than the prepared spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create undead](ref/spell/create-undead), creator must be a necromancer; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create undead](ref/spell/create-undead), creator must be a necromancer
+Cost: 10,000 gp
+:::

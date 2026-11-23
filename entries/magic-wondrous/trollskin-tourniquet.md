@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 3,850 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 3,850 gp
+Weight: -
+:::
 
 This roll of flexible green leather can be easily wrapped around the stump of a severed limb (a
 finger, toe, hand, foot, arm, leg, tail, or even neck - though the last works only in the case of
@@ -43,5 +48,7 @@ day for the purposes of resurrection magic. Each trollskin tourniquet is usable 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[regenerate](ref/spell/regenerate), [restore corpse](ref/spell/restore-corpse); **Cost** 1,925 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [regenerate](ref/spell/regenerate), [restore corpse](ref/spell/restore-corpse)
+Cost: 1,925 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 2,500 gp
+Weight: -
+:::
 
 These dark-colored, skin-tight gloves are typically made of either supple calfskin or silk. A wearer
 of these gloves with at least 1 rank in [Sleight of Hand](ref/skill/sleight-of-hand) can perform
@@ -30,5 +35,7 @@ gloves must be worn for the magic to be effective.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [haste](ref/spell/haste)
+Cost: 1,250 gp
+:::

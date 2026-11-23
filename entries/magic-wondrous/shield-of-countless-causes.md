@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** shield; **Price** 11,157 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: shield
+Price: 11,157 gp
+Weight: 10 lbs.
+:::
 
 Dozens of pages of scripture cover the face of this +2
 [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), each detailing in word or illustration the
@@ -36,5 +41,7 @@ remains a +2 heavy wooden shield.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[atonement](ref/spell/atonement); **Cost** 5,657 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [atonement](ref/spell/atonement)
+Cost: 5,657 gp
+:::

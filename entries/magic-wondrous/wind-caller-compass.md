@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 4,400 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 4,400 gp
+Weight: -
+:::
 
 This light gray [compass](ref/eq-misc/compass) made of fine metal, and is engraved with various
 depictions of the sun, moon, and clouds. It allows a creature to increase or decrease the intensity
@@ -29,5 +34,7 @@ of the wind four times per day as if using _[alter winds](ref/spell/alter-winds)
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter winds](ref/spell/alter-winds); **Cost** 2,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter winds](ref/spell/alter-winds)
+Cost: 2,200 gp
+:::

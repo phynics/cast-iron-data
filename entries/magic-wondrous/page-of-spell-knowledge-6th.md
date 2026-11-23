@@ -22,9 +22,13 @@ caster_level = "17th"
 
 ## Page of Spell Knowledge
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
-(5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th)
+Weight: -
+:::
 
 This page is covered in densely-worded arcane or divine magical runes. It contains the knowledge of
 a single arcane or divine spell (chosen by the creator when the item is crafted). If the bearer is a
@@ -37,6 +41,7 @@ list is priced as a 4th-level spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to cast
-the spell contained in the page; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp
-(4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to cast the spell contained in the page
+Cost: 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)
+:::

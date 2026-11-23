@@ -20,8 +20,13 @@ aura = "faint divination and evocation"
 caster_level = "6th"
 +++
 
-**Aura** faint divination and evocation; **CL** 6th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination and evocation
+CL: 6th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Wayfinders of revelation show a more ornate design than ordinary
 [wayfinders](ref/magic-wondrous/wayfinder), and are crafted of gold-accented silver. A wayfinder of
@@ -36,6 +41,7 @@ rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect secret doors](ref/spell/detect-secret-doors),
-[invisibility purge](ref/spell/invisibility-purge), [light](ref/spell/light); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect secret doors](ref/spell/detect-secret-doors), [invisibility purge](ref/spell/invisibility-purge), [light](ref/spell/light)
+Cost: 4,000 gp
+:::

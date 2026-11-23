@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** head; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: head
+Weight: 1 lb.
+:::
 
 This strange, featureless mask seems to have the powers of a _headband of alluring charisma +4,_ but
 instead of granting a bonus to Charisma, the mask melds to the wearer's face, making him seem uglier
@@ -31,5 +35,7 @@ and his words come off as crude and insulting. The wearer takes a -4 penalty to
 
 ### Construction
 
-**Requirements** any magical mask or a
-[headband of alluring charisma](ref/magic-wondrous/headband-of-alluring-charisma); **Cost** -
+::: statblock
+Requirements: any magical mask or a [headband of alluring charisma](ref/magic-wondrous/headband-of-alluring-charisma)
+Cost: -
+:::

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 50 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 50 gp
+Weight: -
+:::
 
 This substance has the unique property of being able to dissolve
 [sovereign glue](ref/magic-wondrous/sovereign-glue),
@@ -33,5 +38,7 @@ standard action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[acid arrow](ref/spell/acid-arrow); **Cost** 25 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [acid arrow](ref/spell/acid-arrow)
+Cost: 25 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This small token is a thumb-sized cylinder of unbreakable greenish glass. A Spire transport token
 allows the bearer to use the Emerald Spire's transport function. The bearer can teleport to a level
@@ -29,6 +34,7 @@ only if she knows and speaks its identifying rune.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door), a small shard chipped from the Emerald Spire; **Cost**
-300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), a small shard chipped from the Emerald Spire
+Cost: 300 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate varied"
 caster_level = "10th"
 +++
 
-**Aura** moderate varied; **CL** 10th\
-**Slot** none; **Price** 136,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate varied
+CL: 10th
+Slot: none
+Price: 136,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) is an artistic treasure, crafted in gold and set with
 tiny opals, rubies, diamonds, and sapphires. Three slots on the inner side of the lid can each hold
@@ -41,7 +46,7 @@ _[daylight](ref/spell/daylight)_ and _[knock](ref/spell/knock)_ no longer functi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [dimension door](ref/spell/dimension-door),
-[feather fall](ref/spell/feather-fall), [knock](ref/spell/knock),
-[resist energy](ref/spell/resist-energy); **Cost** 68,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [dimension door](ref/spell/dimension-door), [feather fall](ref/spell/feather-fall), [knock](ref/spell/knock), [resist energy](ref/spell/resist-energy)
+Cost: 68,000 gp
+:::

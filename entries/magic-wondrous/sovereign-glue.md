@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** 2,400 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: 2,400 gp
+Weight: -
+:::
 
 This pale amber substance is thick and viscous. Because of its particular powers, it can be
 contained only in a flask whose inside has been coated with 1 ounce of
@@ -44,5 +49,7 @@ The price and creation cost given are per ounce.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[make whole](ref/spell/make-whole); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [make whole](ref/spell/make-whole)
+Cost: 1,200 gp
+:::

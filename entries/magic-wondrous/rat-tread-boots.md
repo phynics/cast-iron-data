@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** feet; **Price** 8,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: feet
+Price: 8,500 gp
+Weight: 1 lb.
+:::
 
 On command, these rat-fur boots summon a [rat swarm](ref/monster/rat-rat-swarm) underneath the
 wearer that moves with her and acts as a living carpet. As a move action, the wearer can travel on
@@ -42,5 +47,7 @@ swarms, including their special attacks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm animal](ref/spell/charm-animal), [summon swarm](ref/spell/summon-swarm); **Cost** 4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm animal](ref/spell/charm-animal), [summon swarm](ref/spell/summon-swarm)
+Cost: 4,250 gp
+:::

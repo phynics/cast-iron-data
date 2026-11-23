@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** feet; **Price** 4,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: feet
+Price: 4,400 gp
+Weight: 1 lb.
+:::
 
 The wearer of these slippers may walk on air (as the spell [air walk](ref/spell/air-walk)) for up to
 10 minutes per day, which may be used in 1-minute increments and requires no action to activate.
@@ -33,5 +38,7 @@ wearer, but walking through the cloud has its normal effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wind walk](ref/spell/wind-walk); **Cost** 2,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wind walk](ref/spell/wind-walk)
+Cost: 2,200 gp
+:::

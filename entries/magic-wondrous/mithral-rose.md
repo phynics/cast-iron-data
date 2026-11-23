@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 9,000 gp
+Weight: -
+:::
 
 This seemingly delicate silver rose is rigid and nearly unbreakable. When wearing the rose openly on
 his chest, the wearer treats all of his natural attacks, unarmed attacks, and weapon attacks as if
@@ -31,5 +36,7 @@ equal to the wearer's mythic tier.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [magic weapon](ref/spell/magic-weapon); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [magic weapon](ref/spell/magic-weapon)
+Cost: 4,500 gp
+:::

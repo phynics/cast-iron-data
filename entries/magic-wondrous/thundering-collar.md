@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** neck; **Price** 4,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: neck
+Price: 4,800 gp
+Weight: 1 lb.
+:::
 
 Made of twisted copper wire braided into a torc with red-stained dog paws at its ends, a thundering
 collar is so named after [Cayden Cailean's](ref/faith/cayden-cailean) faithful red mastiff, Thunder.
@@ -32,5 +37,7 @@ ally as well. This effect lasts for 3 rounds or until the wearer or its ally att
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound), [sanctuary](ref/spell/sanctuary); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound), [sanctuary](ref/spell/sanctuary)
+Cost: 2,400 gp
+:::

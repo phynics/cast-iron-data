@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** 10,000 gp; **Weight** 9 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: 10,000 gp
+Weight: 9 lbs.
+:::
 
 This cruel Thassilonian device could not seem less intimidating - it appears as nothing more
 frightening than a hollow sphere of pink glass the size of a halfling's head. When it is held in
@@ -40,6 +45,7 @@ increase the duration of the effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [eagle's splendor](ref/spell/eagles-splendor); **Cost**
-5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 5,000 gp
+:::

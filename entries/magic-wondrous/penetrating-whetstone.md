@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This whetstone is made from finely worked [obsidian](ref/eq-material/obsidian). Sharpening a blade
 with this whetstone requires 15 minutes of work and grants the weapon the ability to ignore up to 3
@@ -33,5 +38,7 @@ afterward.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen edge](ref/spell/keen-edge); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen edge](ref/spell/keen-edge)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 1,500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 1,500 gp
+Weight: 1/2 lb.
+:::
 
 Even though this translucent, 1-foot-long candle resembles an icicle, it refuses to melt when
 exposed to any normal heat source. When lit, the candle transmutes its material composition from wax
@@ -47,5 +52,7 @@ continue burning, as if it were hit by holy water (no saving throw).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Elemental Spell](ref/feat/elemental-spell) (cold), [holy ice](ref/spell/holy-ice); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Elemental Spell](ref/feat/elemental-spell) (cold), [holy ice](ref/spell/holy-ice)
+Cost: 750 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 3,600 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 3,600 gp
+Weight: -
+:::
 
 This heart-shaped charm is set with three pearls: one white, one silver, and one black. Inside, a
 tiny compartment usually contains [smelling salts](ref/eq-misc/smelling-salts) or
@@ -45,7 +50,7 @@ gp, a silver pearl is worth 1,150 gp, and black pearl is worth 1,700 gp.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[delay poison](ref/spell/delay-poison), [detect poison](ref/spell/detect-poison),
-[remove disease](ref/spell/remove-disease), [see invisibility](ref/spell/see-invisibility); **Cost**
-1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [delay poison](ref/spell/delay-poison), [detect poison](ref/spell/detect-poison), [remove disease](ref/spell/remove-disease), [see invisibility](ref/spell/see-invisibility)
+Cost: 1,800 gp
+:::

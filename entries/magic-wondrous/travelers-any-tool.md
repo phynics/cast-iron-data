@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 250 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 250 gp
+Weight: 2 lbs.
+:::
 
 This implement at first seems to be nothing but a 12-inch iron bar lined with small plates and
 spikes. It can be folded, twisted, hinged, and bent, to form almost any known tool. Hammers,
@@ -38,5 +43,7 @@ rolls.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[major creation](ref/spell/major-creation); **Cost** 125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [major creation](ref/spell/major-creation)
+Cost: 125 gp
+:::

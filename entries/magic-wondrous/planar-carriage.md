@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 9th\
-**Slot** none; **Price** 121,500 gp; **Weight** 1,500 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 9th
+Slot: none
+Price: 121,500 gp
+Weight: 1,500 lbs.
+:::
 
 Planar carriages are large metal-and-wood vehicles painted or styled to reflect the appearance of a
 certain plane. When not being used to travel to another plane, a planar carriage functions as a
@@ -52,6 +57,7 @@ _[planar adaptation](ref/spell/planar-adaptation)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[haste](ref/spell/haste), [planar adaptation](ref/spell/planar-adaptation), creator must have at
-least 5 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering); **Cost** 60,850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [haste](ref/spell/haste), [planar adaptation](ref/spell/planar-adaptation), creator must have at least 5 ranks in [Knowledge (engineering)](ref/skill/knowledge-engineering)
+Cost: 60,850 gp
+:::

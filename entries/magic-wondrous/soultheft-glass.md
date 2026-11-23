@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 33,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 33,000 gp
+Weight: 1 lb.
+:::
 
 The wielder of this hand-sized, fine glass mirror can view another's reflection in the mirror to
 capture a portion of that creature's soul. Doing so requires the wielder to avert his eyes as if
@@ -53,5 +58,7 @@ negative levels.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call spirit](ref/spell/call-spirit), [enervation](ref/spell/enervation); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call spirit](ref/spell/call-spirit), [enervation](ref/spell/enervation)
+Cost: 16,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** head; **Price** 18,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: head
+Price: 18,000 gp
+Weight: 3 lbs.
+:::
 
 This fearsome helm, wrought into the shape of a roaring dragon's maw, has dozens of glittering
 dragon scales across its surface. The helm's wearer gains a +4 competence bonus on
@@ -35,5 +40,7 @@ helm is modeled after (7d6 points of damage, Reflex DC 16 half).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dragon's breath](ref/spell/dragons-breath); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dragon's breath](ref/spell/dragons-breath)
+Cost: 9,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 This simple iron key looks like something a castellan or majordomo would carry on her key ring. When
 held in hand, the bearer can use _[open/close](ref/spell/open-close)_ at will. Once per day the
@@ -32,6 +37,7 @@ followers are nondescript items such as this one.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [knock](ref/spell/knock), [open/close](ref/spell/open-close);
-**Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [knock](ref/spell/knock), [open/close](ref/spell/open-close)
+Cost: 1,500 gp
+:::

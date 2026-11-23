@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** body; **Price** 8,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: body
+Price: 8,000 gp
+Weight: 4 lbs.
+:::
 
 This long, double-breasted jacket is sewn from durable, dun-colored canvas with a removable liner to
 keep its wearer comfortable in a wide range of temperatures. Anyone wearing the coat notes many
@@ -62,5 +67,7 @@ following patches (unless noted otherwise, the coat has only one of each patch):
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 4,000 gp
+:::

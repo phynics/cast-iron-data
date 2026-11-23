@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** hands; **Price** 10,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: hands
+Price: 10,000 gp
+Weight: 3 lbs.
+:::
 
 These heavy, stone gloves feel surprisingly supple to anyone who puts them on. While a creature
 wears stonefist gloves, his [unarmed strike damage](ref/rule/melee-and-ranged-attacks) is treated as
@@ -32,5 +37,7 @@ check.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [stoneskin](ref/spell/stoneskin); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [stoneskin](ref/spell/stoneskin)
+Cost: 5,000 gp
+:::
