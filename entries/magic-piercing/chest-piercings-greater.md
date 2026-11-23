@@ -8,20 +8,22 @@ provenance = [
 ]
 [[sources]]
 publication = "champions-of-corruption"
-page = "28"
+page = "29"
 
 [fields]
 kind = "item"
 category = "Piercings"
 price = "2,200 gp (Minor), 3,750 gp (Major), 5,750 gp (Greater)"
 slot = "body"
-aura = "faint transmutation CL 3rd"
+aura = "faint transmutation"
+caster_level = "3rd"
 +++
 
 ## Chest Piercings
 
 ::: statblock
-Aura: faint transmutation CL 3rd
+Aura: faint transmutation
+CL: 3rd
 Slot: body
 Price: 2,200 gp (Minor), 3,750 gp (Major), 5,750 gp (Greater)
 Weight: —
