@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
-page = "184"
+page = "186"
 [[sources]]
 publication = "ultimate-equipment"
 page = "77"
