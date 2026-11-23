@@ -295,6 +295,13 @@ W2  Queue (whole file, unchanged): a line without a label, a label twice, a sent
     and a block that carries `Price`, `Weight`, `Slot`, `Aura` or `CL` while no block before it has
     that label (`no-lead-row`): the drift check reads the first row of each, so a variant must
     never become the first one.
+W2b Hardening (Muse review of #240). A label `Sources` anywhere in a variant line, or inside the
+    tail kept below a block, queues the file (`sources-line-in-variant`): a citation never becomes a
+    row. A linked label must be exactly its link text; words outside the link queue (`linked-label`)
+    unless the kind lists the whole label (`partial_labels`; only the recipe label does). A variant
+    paragraph with a `Price` or `Slot` row equal to the entry's own first row of that label stays
+    prose, unchanged (ruling 2). `scripts/stat-blocks-replay-166.py` runs the converters again on the
+    pre-image of every merged variant PR and compares with what was merged.
 W3  The proof, read apart from the converter: the new body is the old body with exactly the swapped
     paragraphs; for each swap the words are the same (links reduced to their text, a bold label read
     as `Label:`, the title read as a bold name) and the multiset of link targets is the same; a
@@ -1764,10 +1771,18 @@ LINK_MARKUP = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
 SECTION_HEADING = re.compile(r"#{1,6} ")
 
 
-def vrows(segment: str, commas: tuple[str, ...] = (), link_labels: bool = False) -> list[tuple[str, str]]:
+def vrows(
+    segment: str,
+    commas: tuple[str, ...] = (),
+    link_labels: bool = False,
+    partial_labels: tuple[str, ...] = (),
+) -> list[tuple[str, str]]:
     """The rows of one line of a variant paragraph (item rules I3 to I5, plus two cases the
-    variant kinds need: a `,` before the labels in `commas`, and with `link_labels` a label with
-    one link in it, whose link moves onto the value)."""
+    variant kinds need: a `,` before the labels in `commas`, and with `link_labels` a label that
+    is exactly one link, whose link moves onto the value). A label with words outside its link
+    (`[Spontaneous Alchemy](…) Recipe`) queues unless the kind lists it in `partial_labels`. A
+    label `Sources`, at the start of the line or anywhere inside it, queues the file: a citation
+    never becomes a row (ruling 1)."""
     flat = join_wrapped(segment.split("\n"))
     found = list(ITEM_LABEL.finditer(flat))
     if not found or found[0].start() != 0:
@@ -1775,6 +1790,8 @@ def vrows(segment: str, commas: tuple[str, ...] = (), link_labels: bool = False)
     rows = []
     for position, match in enumerate(found):
         raw = match.group(1)
+        if LINK_MARKUP.sub(r"\1", raw).strip().rstrip(":").strip().lower() == "sources":
+            raise Queue("sources-line-in-variant", flat[:40])
         following = found[position + 1].group(1) if position + 1 < len(found) else None
         end = found[position + 1].start() if following is not None else len(flat)
         value = flat[match.end():end]
@@ -1791,7 +1808,8 @@ def vrows(segment: str, commas: tuple[str, ...] = (), link_labels: bool = False)
             continue
         if "](" in raw:
             links = LINK_MARKUP.findall(raw)
-            if not link_labels or len(links) != 1 or not value or "[" in value or "](" in value:
+            exact = LINK_MARKUP.fullmatch(raw) is not None
+            if not link_labels or len(links) != 1 or not (exact or raw in partial_labels) or not value or "[" in value or "](" in value:
                 raise Queue("linked-label", raw[:60])
             raw = LINK_MARKUP.sub(r"\1", raw)
             value = f"[{value}]({links[0][1]})"  # the link moves onto the value
@@ -1811,6 +1829,7 @@ def variant_block(
     link_labels: bool = False,
     sentences: bool = False,
     allowed: tuple[str, ...] = (),
+    partial_labels: tuple[str, ...] = (),
 ) -> tuple[str, list[str]]:
     """(the stat block, its labels) for the lines of a statistics paragraph. `title` is the printed
     variant name. A `**Sources:**` line or a sentence value (unless `sentences`) queues the file, and
@@ -1819,7 +1838,7 @@ def variant_block(
     for segment in "\n".join(chunk).split("\\\n"):
         if segment.startswith("**Sources:**"):
             raise Queue("sources-line-in-variant")
-        found = vrows(segment, commas, link_labels)
+        found = vrows(segment, commas, link_labels, partial_labels)
         if not sentences and any(is_sentences(value) for _, value in found):
             raise Queue("sentences-in-variant", found[0][0])
         rows.extend((label, [value]) for label, value in found)
@@ -1923,6 +1942,29 @@ def lead_first(chunks_out: list[str], index: int, labels: list[str], extra: tupl
             raise Queue("no-lead-row", label)
 
 
+RESTATED_LABELS = ("Price", "Slot")
+
+
+def own_rows(chunks_out: list[str], label: str) -> str | None:
+    """The value of the first `label:` row of the blocks before: the entry's own row."""
+    for chunk in chunks_out:
+        if chunk.startswith("::: statblock"):
+            found = re.search(rf"^{re.escape(label)}: (.*)$", chunk, re.M)
+            if found:
+                return found.group(1)
+    return None
+
+
+def restates_own_row(chunks_out: list[str], block: str) -> bool:
+    """Ruling 2: a variant row labelled `Price` or `Slot` whose value is the entry's own row
+    restates it. Such a paragraph stays prose, so the drift check reads the entry's own value."""
+    for label in RESTATED_LABELS:
+        found = re.search(rf"^{label}: (.*)$", block, re.M)
+        if found and found.group(1) == own_rows(chunks_out, label):
+            return True
+    return False
+
+
 def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
     """The driver of a variant pass. `plan(cs)` returns {paragraph index: (title, block options)} for
     the paragraphs the kind converts, or raises Queue; the block is made by `variant_block`."""
@@ -1951,7 +1993,12 @@ def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
                 raise Queue("unlabelled-line", segments[0][:40])
             lines = "\\\n".join(segments[:keep]).split("\n")
             tail = "\\\n".join(segments[keep:]) if keep < len(segments) else None
-        block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()))
+        block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()), spec.get("partial_labels", ()))
+        if tail and "Sources:**" in tail:
+            raise Queue("sources-line-in-variant", tail[:40])
+        if restates_own_row(out, block):
+            out.append(texts[index])  # ruling 2: the paragraph stays prose
+            continue
         lead_first(out, len(out), labels, spec.get("lead_labels", ()))
         swaps[index] = [block] + ([tail] if tail else [])
         if spec.get("printed_before"):
@@ -1993,7 +2040,7 @@ def plan_recipe(cs: list[list[str]]) -> dict[int, dict]:
     (alchemical items, weapons and poisons): one untitled block where it stands. The link moves
     onto the value, which is the recipe itself (`(6 quicksilver + 10 realgar)/distillation`)."""
     return {
-        index: {"link_labels": True}
+        index: {"link_labels": True, "partial_labels": (RECIPE_LABEL[2:-2],)}
         for index, chunk in enumerate(cs)
         if chunk[0].startswith((RECIPE_LABEL + " ", "**Spontaneous Alchemy Recipe** "))
     }
@@ -3706,7 +3753,8 @@ class VariantSelfTest(unittest.TestCase):
         self.assertEqual(caught.exception.reason, "no-lead-row")
 
     def test_a_label_link_moves_onto_the_value_and_a_comma_before_a_listed_label_goes(self):
-        rows = vrows("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 realgar)/distillation; **Craft DC** 20", (), True)
+        partial = ("[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe",)
+        rows = vrows("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 realgar)/distillation; **Craft DC** 20", (), True, partial)
         self.assertEqual(rows, [("Spontaneous Alchemy Recipe", "[(6 realgar)/distillation](ref/rule/spontaneous-alchemy)"), ("Craft DC", "20")])
         with self.assertRaises(Queue):
             vrows("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** 1", (), False)
@@ -3715,6 +3763,45 @@ class VariantSelfTest(unittest.TestCase):
         self.assertEqual(vrows("**Int** 14, **Wis** 16, **Cha** 14", ("Wis", "Cha")), [("Int", "14"), ("Wis", "16"), ("Cha", "14")])
         with self.assertRaises(Queue):
             vrows("**Int** 14, **Wis** 16", ())
+
+
+    def test_the_driver_hardening(self):
+        # (a) `Sources` as any label of a line queues, in the middle of a line too, with a colon or without.
+        for line in (
+            "**Cost** 1 gp; **Sources:** Ultimate Equipment pg 5",
+            "**Cost** 1 gp; **Sources** Ultimate Equipment pg 5",
+            "**Sources:** Ultimate Equipment pg 5",
+            "**Cost** 1 gp; **[Sources](ref/x/y)** Ultimate Equipment pg 5",
+        ):
+            with self.subTest(line=line):
+                with self.assertRaises(Queue) as caught:
+                    vrows(line)
+                self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+        # (b) a linked label is exactly its link text, unless the kind lists the label.
+        for raw in ("**[Special Purpose](ref/x/sp)** slay all", ):
+            self.assertEqual(vrows(raw, (), True), [("Special Purpose", "[slay all](ref/x/sp)")])
+        for raw in (
+            "**[Special](ref/x/sp) Purpose** slay all",
+            "**The [Special Purpose](ref/x/sp)** slay all",
+            "**[Special Purpose](ref/x/sp) item** slay all",
+        ):
+            with self.subTest(raw=raw):
+                with self.assertRaises(Queue) as caught:
+                    vrows(raw, (), True)
+                self.assertEqual(caught.exception.reason, "linked-label")
+        # (c) a variant `Price` or `Slot` row that equals the entry's own stays prose; a different one converts.
+        lead = "\n::: statblock\nPrice: 30 gp\nSlot: none\n:::\n\n"
+        plan = lambda cs: {i: {} for i, chunk in enumerate(cs) if chunk[0].startswith(("**Price**", "**Slot**"))}  # noqa: E731
+        same = lead + "**Price** 30 gp; **Category** Tools\n"
+        self.assertEqual(convert_variants(same, plan), same)
+        self.assertEqual(convert_variants(lead + "**Slot** none\n", plan), lead + "**Slot** none\n")
+        other = convert_variants(lead + "**Price** 35 gp; **Category** Tools\n", plan)
+        self.assertTrue(other.endswith("::: statblock\nPrice: 35 gp\nCategory: Tools\n:::\n"), other)
+        # A `Sources` mention in the tail of a split paragraph queues too.
+        tail_plan = lambda cs: {i: {"tail": True} for i, chunk in enumerate(cs) if chunk[0].startswith("**Cost**")}  # noqa: E731
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n**Cost** 1 gp\\\nA line; **Sources:** Ultimate Equipment pg 5\n", tail_plan)
+        self.assertEqual(caught.exception.reason, "sources-line-in-variant")
 
 
 class RecipeSelfTest(unittest.TestCase):
