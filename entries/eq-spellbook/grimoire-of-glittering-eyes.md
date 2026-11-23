@@ -20,10 +20,11 @@ category = "Spellbooks"
 _The title of this book is embossed into the scaly cover. Inside, the pages sparkle and gleam in
 even the faintest light, and the handwriting looks preternaturally clean._
 
-**Opposition** Evocation, necromancy\
-**Protection** The entire book is warded with illusory script (Will DC 16; on failure, the
-suggestion is for the reader to "Close the book and leave").\
-**Value** 1,055 gp (1,755 gp with the preparation ritual)
+::: statblock
+Opposition: Evocation, necromancy
+Protection: The entire book is warded with illusory script (Will DC 16; on failure, the suggestion is for the reader to "Close the book and leave").
+Value: 1,055 gp (1,755 gp with the preparation ritual)
+:::
 
 #### Spells
 

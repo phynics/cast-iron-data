@@ -20,7 +20,9 @@ category = "Spellbooks"
 _The cover of this thick tome a patchwork of sections of different hides, whose colors and textures
 form a stylized depiction of an animal face._
 
-**Value** 13,415 gp (38,415 gp with the preparation ritual)
+::: statblock
+Value: 13,415 gp (38,415 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -21,10 +21,11 @@ _This simple book is bound in white leather with a silver clasp. Careful notes o
 a crisp and precise hand occupy the last few written pages, after which there is a page stained with
 a dark reddish-brown smear. The rest of the pages are blank._
 
-**Opposition** Illusion, necromancy\
-**Protection** [Good lock](ref/eq-misc/lock-good) (DC 30),
-[explosive runes](ref/spell/explosive-runes) (Reflex DC 16)\
-**Value** 1,835 gp (2,635 gp with the preparation ritual)
+::: statblock
+Opposition: Illusion, necromancy
+Protection: [Good lock](ref/eq-misc/lock-good) (DC 30), [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)
+Value: 1,835 gp (2,635 gp with the preparation ritual)
+:::
 
 #### Spells
 

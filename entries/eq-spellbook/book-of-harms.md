@@ -22,9 +22,11 @@ scent, as of charred meat. The writing inside is in a jagged hand, and many note
 pages indicate its previous owner sought ever more damaging magic. A glittering rune in the cover's
 center is shaped vaguely like a lightning bolt._
 
-**Opposition** Divination, transmutation\
-**Protection** [Average lock](ref/eq-misc/lock-average) (DC 25)\
-**Value** 535 gp (900 gp with the preparation ritual)
+::: statblock
+Opposition: Divination, transmutation
+Protection: [Average lock](ref/eq-misc/lock-average) (DC 25)
+Value: 535 gp (900 gp with the preparation ritual)
+:::
 
 #### Spells
 

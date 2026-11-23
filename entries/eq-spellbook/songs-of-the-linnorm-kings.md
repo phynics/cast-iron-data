@@ -19,7 +19,9 @@ category = "Spellbooks"
 
 _This book's cover is made of scales that are warm to the touch._
 
-**Value** 180 gp (440 gp with the preparation ritual)
+::: statblock
+Value: 180 gp (440 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -20,7 +20,9 @@ category = "Spellbooks"
 _This book's worn leather cover is emblazoned with a simplified winged eye superimposed on a map of
 Avistan._
 
-**Value** 690 gp (990 gp with the preparation ritual)
+::: statblock
+Value: 690 gp (990 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -22,7 +22,9 @@ spots show where the journal was subjected to intense working conditions. Equati
 chemical notations mark the margins of the pages - with some formulae, it is difficult to tell where
 the notes end and the formula begins._
 
-**Value** 395 gp (770 gp with the preparation ritual)
+::: statblock
+Value: 395 gp (770 gp with the preparation ritual)
+:::
 
 #### Spells
 

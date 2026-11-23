@@ -21,8 +21,10 @@ _Stuffed between the pages of these two well-worn volumes are all manner of ridd
 lore, and fragments of maps. One of the covers is missing a corner, as if hacked off with a blade,
 and the text inside is tiny and cramped, as if the author were afraid of running out of room._
 
-**Opposition** Conjuration, transmutation\
-**Value** 6,475 gp (8,395 gp with the preparation ritual)
+::: statblock
+Opposition: Conjuration, transmutation
+Value: 6,475 gp (8,395 gp with the preparation ritual)
+:::
 
 #### Spells
 

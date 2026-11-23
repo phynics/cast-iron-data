@@ -20,7 +20,9 @@ category = "Spellbooks"
 _Two gold-plated bronze covers bind this gaudy tome. Several synonyms for "wealth" are neatly
 chiseled in different languages on the cover._
 
-**Value** 1,565 gp
+::: statblock
+Value: 1,565 gp
+:::
 
 #### Spells
 

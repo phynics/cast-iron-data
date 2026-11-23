@@ -20,9 +20,11 @@ category = "Spellbooks"
 _These three well-made books are covered with [runes of warding](ref/spell/rune-of-warding) against
 outsiders and undead. The pages inside show water damage along the edges._
 
-**Opposition** Illusion, necromancy\
-**Protection** Explosive runes (Reflex DC 16) and fire trap (Reflex DC 17)\
-**Value** 10,055 gp (13,055 gp with the preparation ritual)
+::: statblock
+Opposition: Illusion, necromancy
+Protection: Explosive runes (Reflex DC 16) and fire trap (Reflex DC 17)
+Value: 10,055 gp (13,055 gp with the preparation ritual)
+:::
 
 #### Spells
 

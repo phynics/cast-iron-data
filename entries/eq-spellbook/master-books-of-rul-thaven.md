@@ -21,11 +21,11 @@ _This trio of books is bound in leather as black as a starless night, clasped to
 silver. The pages are filled with notes and errata. The handwriting becomes more hurried toward the
 end of the trilogy, and the final page says, "I have found her!"_
 
-**Opposition** Illusion, transmutation\
-**Protection** Each book features a [superior lock](ref/eq-misc/lock-superior) (DC 40); secret page
-hides the 9th- and 7th-level spells, and the first book is warded with explosive runes (Reflex DC
-17).\
-**Value** 12,725 gp (16,550 gp with the preparation ritual)
+::: statblock
+Opposition: Illusion, transmutation
+Protection: Each book features a [superior lock](ref/eq-misc/lock-superior) (DC 40); secret page hides the 9th- and 7th-level spells, and the first book is warded with explosive runes (Reflex DC 17).
+Value: 12,725 gp (16,550 gp with the preparation ritual)
+:::
 
 #### Spells
 

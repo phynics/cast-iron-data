@@ -21,8 +21,10 @@ _The pages of this formula book are carefully varnished. Sprinkled among the for
 and diagrams of alchemical devices, many of which seem to defy the normal conventions of alchemy and
 physics. The last page contains incomplete notes on the preparation of experimental mutagens._
 
-**Protection** [Good lock](ref/eq-misc/lock-good) (DC 30)\
-**Value** 2,545 gp
+::: statblock
+Protection: [Good lock](ref/eq-misc/lock-good) (DC 30)
+Value: 2,545 gp
+:::
 
 #### Spells
 
