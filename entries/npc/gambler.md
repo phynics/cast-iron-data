@@ -15,42 +15,45 @@ kind = "creature"
 cr = "6"
 +++
 
-**Challenge rating:** 6
-
-**XP** 2,400\
 Dwarf [bard](ref/class/bard) 7\
-N Medium humanoid (dwarf)\
-**Init** +1; **Senses** Perception +10
+N Medium humanoid (dwarf)
+
+::: statblock
+Challenge rating: 6
+XP: 2,400
+Init: +1
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 16, touch 11, flat-footed 15 (+5 armor, +1 Dex)\
-**hp** 49 (7d8+14)\
-**Fort** +3, **Ref** +6, **Will** +5; +2 vs. poison, spells, and
-[spell-like abilities](ref/umr/spell-like-abilities), +4 vs. bardic performance, language-dependent,
-and sonic\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants)
+::: statblock
+AC: 16, touch 11, flat-footed 15 (+5 armor, +1 Dex)
+hp: 49 (7d8+14)
+Fort: +3
+Ref: +6
+Will: +5; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities), +4 vs. bardic performance, language-dependent, and sonic
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants)
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** unarmed strike +10 (1d3+4) or mwk dagger +10 (1d4+4/19-20)\
-**Ranged** dagger +6 (1d4+4/19-20)\
-**Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, bardic performance 20
-rounds/day (move action; [countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire competence](ref/performance/inspire-competence) +3,
-[inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))\
-**Bard Spells Known** (CL 7th; concentration +11)\
-_3rd (1/day)_-[confusion](ref/spell/confusion) (DC 17), [glibness](ref/spell/glibness)\
-_2nd (4/day)_-[cure moderate wounds](ref/spell/cure-moderate-wounds) (DC 16),
-[detect thoughts](ref/spell/detect-thoughts) (DC 16), [eagle's splendor](ref/spell/eagles-splendor),
-[invisibility](ref/spell/invisibility)\
-_1st (5/day)_-[charm person](ref/spell/charm-person) (DC 15),
-[comprehend languages](ref/spell/comprehend-languages),
-[expeditious retreat](ref/spell/expeditious-retreat), [unseen servant](ref/spell/unseen-servant)\
-_0 (at will)_-[daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic),
-[mage hand](ref/spell/mage-hand), [prestidigitation](ref/spell/prestidigitation)
+::: statblock
+Speed: 20 ft.
+Melee: unarmed strike +10 (1d3+4) or mwk dagger +10 (1d4+4/19-20)
+Ranged: dagger +6 (1d4+4/19-20)
+Special Attacks: +1 on attack rolls against goblinoid and orc humanoids, bardic performance 20 rounds/day (move action; [countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire competence](ref/performance/inspire-competence) +3, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion))
+:::
+
+::: statblock
+title = "Bard Spells Known"
+Caster level: 7th
+Concentration: +11
+3rd (1/day): [confusion](ref/spell/confusion) (DC 17), [glibness](ref/spell/glibness)
+2nd (4/day): [cure moderate wounds](ref/spell/cure-moderate-wounds) (DC 16), [detect thoughts](ref/spell/detect-thoughts) (DC 16), [eagle's splendor](ref/spell/eagles-splendor), [invisibility](ref/spell/invisibility)
+1st (5/day): [charm person](ref/spell/charm-person) (DC 15), [comprehend languages](ref/spell/comprehend-languages), [expeditious retreat](ref/spell/expeditious-retreat), [unseen servant](ref/spell/unseen-servant)
+0 (at will): [daze](ref/spell/daze) (DC 14), [detect magic](ref/spell/detect-magic), [mage hand](ref/spell/mage-hand), [prestidigitation](ref/spell/prestidigitation)
+:::
 
 ### Tactics
 
@@ -64,19 +67,23 @@ spell DCs by 2; **Cha** 14; **Skills** Bluff +12, Diplomacy +4, Intimidate +14, 
 
 ### Statistics
 
-**Str** 18, **Dex** 13, **Con** 12, **Int** 12, **Wis** 10, **Cha** 18\
-**Base Atk** +5; **CMB** +9; **CMD** 20 (24 vs. bull rush or trip)\
-**Feats** [Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Persuasive](ref/feat/persuasive), [Skill Focus](ref/feat/skill-focus) (Perform \[comedy\]),
-[Weapon Focus](ref/feat/weapon-focus) (unarmed strike)\
-**Skills** Bluff +14, Diplomacy +6, Intimidate +16, Knowledge (arcane, dungeoneering, geography,
-history, local, nature, religion) +8, Perception +10 (+12 to notice unusual stonework), Perform
-(comedy) +17, Perform (oratory) +14, Sense Motive +10\
-**Languages** Common, Dwarven\
-**SQ** bardic knowledge +3, lore master 1/day, versatile performance (comedy, oratory)\
-**Combat Gear** [elixir of vision](ref/magic-wondrous/elixir-of-vision); **Other Gear** +1
-[chain shirt](ref/eq-armor/chain-shirt), masterwork [dagger](ref/eq-weapon/dagger),
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), 198 gp
+::: statblock
+Str: 18
+Dex: 13
+Con: 12
+Int: 12
+Wis: 10
+Cha: 18
+Base Atk: +5
+CMB: +9
+CMD: 20 (24 vs. bull rush or trip)
+Feats: [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Persuasive](ref/feat/persuasive), [Skill Focus](ref/feat/skill-focus) (Perform \[comedy\]), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)
+Skills: Bluff +14, Diplomacy +6, Intimidate +16, Knowledge (arcane, dungeoneering, geography, history, local, nature, religion) +8, Perception +10 (+12 to notice unusual stonework), Perform (comedy) +17, Perform (oratory) +14, Sense Motive +10
+Languages: Common, Dwarven
+SQ: bardic knowledge +3, lore master 1/day, versatile performance (comedy, oratory)
+Combat Gear: [elixir of vision](ref/magic-wondrous/elixir-of-vision)
+Other Gear: +1 [chain shirt](ref/eq-armor/chain-shirt), masterwork [dagger](ref/eq-weapon/dagger), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), 198 gp
+:::
 
 ### Description
 

@@ -15,31 +15,36 @@ kind = "creature"
 cr = "11"
 +++
 
-**Challenge rating:** 11
-
-**XP** 12,800\
 Dwarf [barbarian](ref/class/barbarian) 12\
-N Medium humanoid (dwarf)\
-**Init** +1; **Senses** Perception +17
+N Medium humanoid (dwarf)
+
+::: statblock
+Challenge rating: 11
+XP: 12,800
+Init: +1
+Senses: Perception +17
+:::
 
 ### Defense
 
-**AC** 23, touch 11, flat-footed 21 (+10 armor, +1 deflection, +1 Dex, +1 dodge, -2 rage, +2 shield)\
-**hp** 191 (12d12+108)\
-**Fort** +17, **Ref** +6, **Will** +10; +2 vs. poison, spells, and
-[spell-like abilities](ref/umr/spell-like-abilities)\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+4; **DR** 2/-
+::: statblock
+AC: 23, touch 11, flat-footed 21 (+10 armor, +1 deflection, +1 Dex, +1 dodge, -2 rage, +2 shield)
+hp: 191 (12d12+108)
+Fort: +17
+Ref: +6
+Will: +10; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +4
+DR: 2/-
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 giant-bane dwarven waraxe +19/+14/+9 (1d10+7/×3)\
-**Ranged** mwk composite longbow +14/+9/+4 (1d8+6/×3)\
-**Special Attacks** +1 on attack rolls against goblinoid and orc humanoids, greater rage (31
-rounds/day), rage powers (guarded stance +3, mighty swing, no escape, roused anger, strength surge
-+12, unexpected strike)
+::: statblock
+Speed: 20 ft.
+Melee: +1 giant-bane dwarven waraxe +19/+14/+9 (1d10+7/×3)
+Ranged: mwk composite longbow +14/+9/+4 (1d8+6/×3)
+Special Attacks: +1 on attack rolls against goblinoid and orc humanoids, greater rage (31 rounds/day), rage powers (guarded stance +3, mighty swing, no escape, roused anger, strength surge +12, unexpected strike)
+:::
 
 ### Tactics
 
@@ -55,24 +60,23 @@ close to his enemies, following it up with full attacks.\
 
 ### Statistics
 
-**Str** 22, **Dex** 13, **Con** 26, **Int** 8, **Wis** 14, **Cha** 8\
-**Base Atk** +12; **CMB** +18; **CMD** 29 (33 vs. bull rush or trip)\
-**Feats** [Dodge](ref/feat/dodge), Heavy Armor Proficiency, [Mobility](ref/feat/mobility),
-[Power Attack](ref/feat/power-attack), [Spring Attack](ref/feat/spring-attack),
-[Vital Strike](ref/feat/vital-strike)\
-**Skills** Climb +10, Heal +5, Knowledge (nature) +5, Linguistics +0, Perception +17 (+19 to notice
-unusual stonework), Survival +10, Swim +10\
-**Languages** Common, Dwarven, Giant\
-**SQ** fast movement\
-**Combat Gear** potions of [blur](ref/spell/blur) (2), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2),
-[tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (3); **Other Gear** +1
-[full plate](ref/eq-armor/full-plate), +1 [buckler](ref/eq-armor/buckler), +1
-giant-[bane](ref/magic-enh/bane) [dwarven waraxe](ref/eq-weapon/dwarven-waraxe), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) (+6 Str) with 20 arrows,
-[belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 5 gp
+::: statblock
+Str: 22
+Dex: 13
+Con: 26
+Int: 8
+Wis: 14
+Cha: 8
+Base Atk: +12
+CMB: +18
+CMD: 29 (33 vs. bull rush or trip)
+Feats: [Dodge](ref/feat/dodge), Heavy Armor Proficiency, [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack), [Spring Attack](ref/feat/spring-attack), [Vital Strike](ref/feat/vital-strike)
+Skills: Climb +10, Heal +5, Knowledge (nature) +5, Linguistics +0, Perception +17 (+19 to notice unusual stonework), Survival +10, Swim +10
+Languages: Common, Dwarven, Giant
+SQ: fast movement
+Combat Gear: potions of [blur](ref/spell/blur) (2), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (3)
+Other Gear: +1 [full plate](ref/eq-armor/full-plate), +1 [buckler](ref/eq-armor/buckler), +1 giant-[bane](ref/magic-enh/bane) [dwarven waraxe](ref/eq-weapon/dwarven-waraxe), mwk [composite longbow](ref/eq-weapon/composite-longbow) (+6 Str) with 20 arrows, [belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 5 gp
+:::
 
 ### Description
 

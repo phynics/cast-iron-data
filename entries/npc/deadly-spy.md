@@ -15,28 +15,36 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Elf [rogue](ref/class/rogue) 9\
-CN Medium humanoid (elf)\
-**Init** +4; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +13
+CN Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +4
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +13
+:::
 
 ### Defense
 
-**AC** 19, touch 14, flat-footed 15 (+5 armor, +4 Dex)\
-**hp** 53 (9d8+9)\
-**Fort** +4, **Ref** +10, **Will** +2; +2 vs. enchantments\
-**Defensive Abilities** [evasion](ref/ability/evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+3; **Immune** sleep
+::: statblock
+AC: 19, touch 14, flat-footed 15 (+5 armor, +4 Dex)
+hp: 53 (9d8+9)
+Fort: +4
+Ref: +10
+Will: +2; +2 vs. enchantments
+Defensive Abilities: [evasion](ref/ability/evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +3
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 rapier +11/+6 (1d6+1/18-20)\
-**Ranged** dagger +10/+5 (1d4/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +5d6
+::: statblock
+Speed: 30 ft.
+Melee: +1 rapier +11/+6 (1d6+1/18-20)
+Ranged: dagger +10/+5 (1d4/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +5d6
+:::
 
 ### Tactics
 
@@ -49,24 +57,23 @@ kill.
 
 ### Statistics
 
-**Str** 10, **Dex** 18, **Con** 12, **Int** 14, **Wis** 8, **Cha** 14\
-**Base Atk** +6; **CMB** +10 (+14 disarm); **CMD** 20 (22 vs. disarm)\
-**Feats** [Agile Maneuvers](ref/feat/agile-maneuvers),
-[Combat Expertise](ref/feat/combat-expertise), [Deceitful](ref/feat/deceitful),
-[Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm),
-[Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +16, Bluff +16, Diplomacy +14, Disable Device +16, Disguise +16, Escape Artist
-+16, Knowledge (local) +14, Perception +13, Sense Motive +11, Sleight of Hand +16, Stealth +16\
-**Languages** Common, Draconic, Dwarven, Elven\
-**SQ** elven magic, rogue talents ([bleeding attack](ref/talent/bleeding-attack) +5,
-[finesse rogue](ref/talent/finesse-rogue), [quick disable](ref/talent/quick-disable),
-[surprise attack](ref/talent/surprise-attack)), [trapfinding](ref/ability/trapfinding) +4, weapon
-familiarity\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[invisibility](ref/spell/invisibility), potion of [tongues](ref/spell/tongues); **Other Gear** +2
-[studded leather](ref/eq-armor/studded-leather), +1 [rapier](ref/eq-weapon/rapier),
-[hat of disguise](ref/magic-wondrous/hat-of-disguise), [dagger](ref/eq-weapon/dagger),
-[thieves' tools](ref/eq-misc/thieves-tools), 373 gp
+::: statblock
+Str: 10
+Dex: 18
+Con: 12
+Int: 14
+Wis: 8
+Cha: 14
+Base Atk: +6
+CMB: +10 (+14 disarm)
+CMD: 20 (22 vs. disarm)
+Feats: [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Expertise](ref/feat/combat-expertise), [Deceitful](ref/feat/deceitful), [Greater Disarm](ref/feat/greater-disarm), [Improved Disarm](ref/feat/improved-disarm), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +16, Bluff +16, Diplomacy +14, Disable Device +16, Disguise +16, Escape Artist +16, Knowledge (local) +14, Perception +13, Sense Motive +11, Sleight of Hand +16, Stealth +16
+Languages: Common, Draconic, Dwarven, Elven
+SQ: elven magic, rogue talents ([bleeding attack](ref/talent/bleeding-attack) +5, [finesse rogue](ref/talent/finesse-rogue), [quick disable](ref/talent/quick-disable), [surprise attack](ref/talent/surprise-attack)), [trapfinding](ref/ability/trapfinding) +4, weapon familiarity
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [invisibility](ref/spell/invisibility), potion of [tongues](ref/spell/tongues)
+Other Gear: +2 [studded leather](ref/eq-armor/studded-leather), +1 [rapier](ref/eq-weapon/rapier), [hat of disguise](ref/magic-wondrous/hat-of-disguise), [dagger](ref/eq-weapon/dagger), [thieves' tools](ref/eq-misc/thieves-tools), 373 gp
+:::
 
 ### Description
 

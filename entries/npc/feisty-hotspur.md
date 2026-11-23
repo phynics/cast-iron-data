@@ -15,27 +15,34 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Halfling [rogue](ref/class/rogue) 9/duelist 4\
-NE Small humanoid (halfling)\
-**Init** +7; **Senses** Perception +19
+NE Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +7
+Senses: Perception +19
+:::
 
 ### Defense
 
-**AC** 26, touch 19, flat-footed 19 (+6 armor, +1 deflection, +6 Dex, +1 dodge, +1 natural, +1 size)\
-**hp** 101 (9d8+4d10+35)\
-**Fort** +9, **Ref** +18, **Will** +10; +2 vs. fear\
-**Defensive Abilities** canny defense +2, enhanced mobility, [evasion](ref/ability/evasion), grace
-+2, [improved uncanny dodge](ref/ability/improved-uncanny-dodge), parry,
-[trap sense](ref/ability/trap-sense) +3
+::: statblock
+AC: 26, touch 19, flat-footed 19 (+6 armor, +1 deflection, +6 Dex, +1 dodge, +1 natural, +1 size)
+hp: 101 (9d8+4d10+35)
+Fort: +9
+Ref: +18
+Will: +10; +2 vs. fear
+Defensive Abilities: canny defense +2, enhanced mobility, [evasion](ref/ability/evasion), grace +2, [improved uncanny dodge](ref/ability/improved-uncanny-dodge), parry, [trap sense](ref/ability/trap-sense) +3
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 rapier +18/+13 (1d4/18-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +5d6, precise strike +4
+::: statblock
+Speed: 20 ft.
+Melee: +1 rapier +18/+13 (1d4/18-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +5d6, precise strike +4
+:::
 
 ### Tactics
 
@@ -44,28 +51,23 @@ makes sneak attacks even if she must feint to do so.
 
 ### Statistics
 
-**Str** 8, **Dex** 20, **Con** 15, **Int** 14, **Wis** 12, **Cha** 12\
-**Base Atk** +10; **CMB** +14 (+16 to disarm); **CMD** 25 (27 vs. disarm)\
-**Feats** [Agile Maneuvers](ref/feat/agile-maneuvers),
-[Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes),
-[Dodge](ref/feat/dodge), [Greater Feint](ref/feat/greater-feint),
-[Improved Disarm](ref/feat/improved-disarm), [Improved Feint](ref/feat/improved-feint),
-[Iron Will](ref/feat/iron-will), [Mobility](ref/feat/mobility),
-[Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier)\
-**Skills** Acrobatics +23 (+19 when jumping), Bluff +17, Climb +1, Diplomacy +17, Disguise +17,
-Intimidate +17, Knowledge (dungeoneering, local) +10, Knowledge (nobility) +7, Perception +19,
-Perform (comedy) +5, Perform (sing) +6, Sleight of Hand +13, Stealth +25\
-**Languages** Common, Halfling\
-**SQ** improved reaction +2, rogue talents ([combat trick](ref/talent/combat-trick),
-[finesse rogue](ref/talent/finesse-rogue), [surprise attack](ref/talent/surprise-attack),
-[weapon training](ref/talent/weapon-training)), [trapfinding](ref/ability/trapfinding) +4\
-**Combat Gear** potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2), potion of
-[haste](ref/spell/haste); **Other Gear** +2 [mithral](ref/eq-material/mithral)
-[chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Str, Con),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 180 gp
+::: statblock
+Str: 8
+Dex: 20
+Con: 15
+Int: 14
+Wis: 12
+Cha: 12
+Base Atk: +10
+CMB: +14 (+16 to disarm)
+CMD: 25 (27 vs. disarm)
+Feats: [Agile Maneuvers](ref/feat/agile-maneuvers), [Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge), [Greater Feint](ref/feat/greater-feint), [Improved Disarm](ref/feat/improved-disarm), [Improved Feint](ref/feat/improved-feint), [Iron Will](ref/feat/iron-will), [Mobility](ref/feat/mobility), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier)
+Skills: Acrobatics +23 (+19 when jumping), Bluff +17, Climb +1, Diplomacy +17, Disguise +17, Intimidate +17, Knowledge (dungeoneering, local) +10, Knowledge (nobility) +7, Perception +19, Perform (comedy) +5, Perform (sing) +6, Sleight of Hand +13, Stealth +25
+Languages: Common, Halfling
+SQ: improved reaction +2, rogue talents ([combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue), [surprise attack](ref/talent/surprise-attack), [weapon training](ref/talent/weapon-training)), [trapfinding](ref/ability/trapfinding) +4
+Combat Gear: potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2), potion of [haste](ref/spell/haste)
+Other Gear: +2 [mithral](ref/eq-material/mithral) [chain shirt](ref/eq-armor/chain-shirt), +1 [rapier](ref/eq-weapon/rapier), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Str, Con), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 180 gp
+:::
 
 ### Description
 

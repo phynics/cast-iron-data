@@ -15,24 +15,33 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Human [warrior](ref/npcclass/warrior) 7\
-N Medium humanoid (human)\
-**Init** +3; **Senses** Perception +8
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +3
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 17, touch 9, flat-footed 17 (+7 armor, -1 Dex, +1 shield)\
-**hp** 59 (7d10+21)\
-**Fort** +7, **Ref** +1, **Will** +5
+::: statblock
+AC: 17, touch 9, flat-footed 17 (+7 armor, -1 Dex, +1 shield)
+hp: 59 (7d10+21)
+Fort: +7
+Ref: +1
+Will: +5
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 longsword +10/+5 (1d8+2/19-20) or kukri +8/+3 (1d4+1/18-20)\
-**Ranged** mwk light crossbow +7 (1d8/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: +1 longsword +10/+5 (1d8+2/19-20) or kukri +8/+3 (1d4+1/18-20)
+Ranged: mwk light crossbow +7 (1d8/19-20)
+:::
 
 ### Tactics
 
@@ -42,21 +51,22 @@ employer time to escape.
 
 ### Statistics
 
-**Str** 13, **Dex** 9, **Con** 14, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +7; **CMB** +8; **CMD** 17\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes),
-[Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will),
-[Stand Still](ref/feat/stand-still), [Weapon Focus](ref/feat/weapon-focus) (longsword)\
-**Skills** Intimidate +9, Perception +8, Sense Motive +8\
-**Languages** Common\
-**Combat Gear** potion of [barkskin](ref/spell/barkskin), potion of
-[bear's endurance](ref/spell/bears-endurance), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[screaming bolt](ref/magic-weapon/screaming-bolt), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag)
-(2); **Other Gear** masterwork [banded mail](ref/eq-armor/banded-mail), masterwork
-[light steel shield](ref/eq-armor/light-steel-shield), +1 [longsword](ref/eq-weapon/longsword),
-[kukri](ref/eq-weapon/kukri), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 20
-bolts, masterwork [manacles](ref/eq-misc/manacles-masterwork), 114 gp
+::: statblock
+Str: 13
+Dex: 9
+Con: 14
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +7
+CMB: +8
+CMD: 17
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Improved Initiative](ref/feat/improved-initiative), [Iron Will](ref/feat/iron-will), [Stand Still](ref/feat/stand-still), [Weapon Focus](ref/feat/weapon-focus) (longsword)
+Skills: Intimidate +9, Perception +8, Sense Motive +8
+Languages: Common
+Combat Gear: potion of [barkskin](ref/spell/barkskin), potion of [bear's endurance](ref/spell/bears-endurance), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), [screaming bolt](ref/magic-weapon/screaming-bolt), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (2)
+Other Gear: masterwork [banded mail](ref/eq-armor/banded-mail), masterwork [light steel shield](ref/eq-armor/light-steel-shield), +1 [longsword](ref/eq-weapon/longsword), [kukri](ref/eq-weapon/kukri), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, masterwork [manacles](ref/eq-misc/manacles-masterwork), 114 gp
+:::
 
 ### Description
 

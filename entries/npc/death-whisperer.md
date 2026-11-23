@@ -15,29 +15,35 @@ kind = "creature"
 cr = "18"
 +++
 
-**Challenge rating:** 18
-
-**XP** 153,600\
 Human [rogue](ref/class/rogue) 19\
-LE Medium humanoid (human)\
-**Init** +10; **Senses** Perception +23
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 18
+XP: 153,600
+Init: +10
+Senses: Perception +23
+:::
 
 ### Defense
 
-**AC** 28, touch 18, flat-footed 22 (+6 armor, +2 deflection, +5 Dex, +1 dodge, +2 natural, +2
-shield)\
-**hp** 184 (19d8+95)\
-**Fort** +12, **Ref** +20, **Will** +12\
-**Defensive Abilities** [improved evasion](ref/ability/improved-evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+6
+::: statblock
+AC: 28, touch 18, flat-footed 22 (+6 armor, +2 deflection, +5 Dex, +1 dodge, +2 natural, +2 shield)
+hp: 184 (19d8+95)
+Fort: +12
+Ref: +20
+Will: +12
+Defensive Abilities: [improved evasion](ref/ability/improved-evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +6
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** rapier of puncturing +23/+18/+13 (1d6+4/15-20 plus 1 bleed)\
-**Ranged** mwk dagger +21 (1d4+2/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +10d6
+::: statblock
+Speed: 30 ft.
+Melee: rapier of puncturing +23/+18/+13 (1d6+4/15-20 plus 1 bleed)
+Ranged: mwk dagger +21 (1d4+2/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +10d6
+:::
 
 ### Tactics
 
@@ -46,39 +52,23 @@ rapier of puncturing to make sneak attacks.
 
 ### Statistics
 
-**Str** 14, **Dex** 22, **Con** 16, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +14; **CMB** +16; **CMD** 35\
-**Feats** [Critical Focus](ref/feat/critical-focus), [Dodge](ref/feat/dodge),
-[Improved Critical](ref/feat/improved-critical) (rapier),
-[Improved Initiative](ref/feat/improved-initiative),
-[Improved Vital Strike](ref/feat/improved-vital-strike), [Iron Will](ref/feat/iron-will),
-[Lightning Stance](ref/feat/lightning-stance), [Mobility](ref/feat/mobility),
-[Spring Attack](ref/feat/spring-attack), [Staggering Critical](ref/feat/staggering-critical),
-[Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike),
-[Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier),
-[Wind Stance](ref/feat/wind-stance)\
-**Skills** Acrobatics +28, Bluff +21, Climb +24, Disable Device +39, Escape Artist +28, Perception
-+23, Sense Motive +23, Stealth +28, Swim +24\
-**Languages** Common\
-**SQ** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +10,
-[combat trick](ref/talent/combat-trick), [defensive roll](ref/talent/defensive-roll),
-[feat](ref/talent/feat), [finesse rogue](ref/talent/finesse-rogue),
-[improved evasion](ref/talent/improved-evasion), [rogue crawl](ref/talent/rogue-crawl),
-[slippery mind](ref/talent/slippery-mind), [weapon training](ref/talent/weapon-training)),
-[trapfinding](ref/ability/trapfinding) +9\
-**Combat Gear** potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2), potion of
-[fly](ref/spell/fly), potions of [haste](ref/spell/haste) (2), potions of
-[invisibility](ref/spell/invisibility) (3); **Other Gear** +3 [shadow](ref/magic-enh/shadow)
-[studded leather](ref/eq-armor/studded-leather),
-[rapier of puncturing](ref/magic-weapon/rapier-of-puncturing), masterwork
-[dagger](ref/eq-weapon/dagger),
-[amulet of natural armor +2](ref/magic-wondrous/amulet-of-natural-armor-2),
-[belt of incredible dexterity +4](ref/magic-wondrous/belt-of-incredible-dexterity-4),
-[cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3),
-[ring of force shield](ref/magic-ring/ring-of-force-shield),
-[ring of protection +2](ref/magic-ring/ring-of-protection-2), masterwork dagger (4), masterwork
-[rapier](ref/eq-weapon/rapier), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork),
-3,977 gp
+::: statblock
+Str: 14
+Dex: 22
+Con: 16
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +14
+CMB: +16
+CMD: 35
+Feats: [Critical Focus](ref/feat/critical-focus), [Dodge](ref/feat/dodge), [Improved Critical](ref/feat/improved-critical) (rapier), [Improved Initiative](ref/feat/improved-initiative), [Improved Vital Strike](ref/feat/improved-vital-strike), [Iron Will](ref/feat/iron-will), [Lightning Stance](ref/feat/lightning-stance), [Mobility](ref/feat/mobility), [Spring Attack](ref/feat/spring-attack), [Staggering Critical](ref/feat/staggering-critical), [Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier), [Wind Stance](ref/feat/wind-stance)
+Skills: Acrobatics +28, Bluff +21, Climb +24, Disable Device +39, Escape Artist +28, Perception +23, Sense Motive +23, Stealth +28, Swim +24
+Languages: Common
+SQ: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +10, [combat trick](ref/talent/combat-trick), [defensive roll](ref/talent/defensive-roll), [feat](ref/talent/feat), [finesse rogue](ref/talent/finesse-rogue), [improved evasion](ref/talent/improved-evasion), [rogue crawl](ref/talent/rogue-crawl), [slippery mind](ref/talent/slippery-mind), [weapon training](ref/talent/weapon-training)), [trapfinding](ref/ability/trapfinding) +9
+Combat Gear: potions of [cure serious wounds](ref/spell/cure-serious-wounds) (2), potion of [fly](ref/spell/fly), potions of [haste](ref/spell/haste) (2), potions of [invisibility](ref/spell/invisibility) (3)
+Other Gear: +3 [shadow](ref/magic-enh/shadow) [studded leather](ref/eq-armor/studded-leather), [rapier of puncturing](ref/magic-weapon/rapier-of-puncturing), masterwork [dagger](ref/eq-weapon/dagger), [amulet of natural armor +2](ref/magic-wondrous/amulet-of-natural-armor-2), [belt of incredible dexterity +4](ref/magic-wondrous/belt-of-incredible-dexterity-4), [cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3), [ring of force shield](ref/magic-ring/ring-of-force-shield), [ring of protection +2](ref/magic-ring/ring-of-protection-2), masterwork dagger (4), masterwork [rapier](ref/eq-weapon/rapier), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), 3,977 gp
+:::
 
 ### Description
 

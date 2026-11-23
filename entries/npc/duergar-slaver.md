@@ -15,51 +15,62 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Duergar [ranger](ref/class/ranger) 3\
-LE Medium humanoid (dwarf)\
-**Init** +1; **Senses** [darkvision](ref/rule/darkvision) 120 ft.; Perception +8
+LE Medium humanoid (dwarf)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +1
+Senses: [darkvision](ref/rule/darkvision) 120 ft.; Perception +8
+:::
 
 ### Defense
 
-**AC** 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)\
-**hp** 21 (3d10)\
-**Fort** +3, **Ref** +4, **Will** +3; +2 vs. spells and
-[spell-like abilities](ref/umr/spell-like-abilities)\
-**Immune** paralysis, phantasms, poison\
-**Weaknesses** [light sensitivity](ref/umr/light-sensitivity)
+::: statblock
+AC: 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)
+hp: 21 (3d10)
+Fort: +3
+Ref: +4
+Will: +3; +2 vs. spells and [spell-like abilities](ref/umr/spell-like-abilities)
+Immune: paralysis, phantasms, poison
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk light hammer +6 (1d4+2) or scourge +5 (1d4+2)\
-**Ranged** mwk light crossbow +5 (1d8/19-20)\
-**Special Attacks** favored enemy (dwarves +2)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 3rd)\
-_1/day_-[enlarge person](ref/spell/enlarge-person) (self only),
-[invisibility](ref/spell/invisibility) (self only)
+::: statblock
+Speed: 20 ft.
+Melee: mwk light hammer +6 (1d4+2) or scourge +5 (1d4+2)
+Ranged: mwk light crossbow +5 (1d8/19-20)
+Special Attacks: favored enemy (dwarves +2)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3rd
+1/day: [enlarge person](ref/spell/enlarge-person) (self only), [invisibility](ref/spell/invisibility) (self only)
+:::
 
 ### Statistics
 
-**Str** 15, **Dex** 12, **Con** 10, **Int** 10, **Wis** 15, **Cha** 10\
-**Base Atk** +3; **CMB** +5; **CMD** 16 (20 vs. bull rush, 20 vs. trip)\
-**Feats** [Endurance](ref/feat/endurance), [Rapid Reload](ref/feat/rapid-reload) (light crossbow),
-[Skill Focus](ref/feat/skill-focus) (Intimidate), [Stealthy](ref/feat/stealthy)\
-**Skills** Escape Artist +3, Intimidate +9, Knowledge (dungeoneering) +6, Knowledge (local) +3,
-Perception +8, Stealth +6, Survival +8\
-**Languages** Common, Dwarven, Undercommon\
-**SQ** [favored terrain](ref/ability/favored-terrain) (underground +2), track +1,
-[wild empathy](ref/ability/wild-empathy) +3\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potion of
-[cure light wounds](ref/spell/cure-light-wounds), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag)
-(2); **Other Gear** mwk [breastplate](ref/eq-armor/breastplate), mwk
-[light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, mwk
-[light hammer](ref/eq-weapon/light-hammer), scourge (as
-[cat-o'-nine-tails](ref/eq-weapon/cat-o-nine-tails) that deals lethal damage),
-[average locks](ref/eq-misc/lock-average) (3), [chain (50 ft.)](ref/eq-misc/chain-10-ft), mwk
-[manacles](ref/eq-misc/manacles-masterwork) (3), 41 gp
+::: statblock
+Str: 15
+Dex: 12
+Con: 10
+Int: 10
+Wis: 15
+Cha: 10
+Base Atk: +3
+CMB: +5
+CMD: 16 (20 vs. bull rush, 20 vs. trip)
+Feats: [Endurance](ref/feat/endurance), [Rapid Reload](ref/feat/rapid-reload) (light crossbow), [Skill Focus](ref/feat/skill-focus) (Intimidate), [Stealthy](ref/feat/stealthy)
+Skills: Escape Artist +3, Intimidate +9, Knowledge (dungeoneering) +6, Knowledge (local) +3, Perception +8, Stealth +6, Survival +8
+Languages: Common, Dwarven, Undercommon
+SQ: [favored terrain](ref/ability/favored-terrain) (underground +2), track +1, [wild empathy](ref/ability/wild-empathy) +3
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potion of [cure light wounds](ref/spell/cure-light-wounds), [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (2)
+Other Gear: mwk [breastplate](ref/eq-armor/breastplate), mwk [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, mwk [light hammer](ref/eq-weapon/light-hammer), scourge (as [cat-o'-nine-tails](ref/eq-weapon/cat-o-nine-tails) that deals lethal damage), [average locks](ref/eq-misc/lock-average) (3), [chain (50 ft.)](ref/eq-misc/chain-10-ft), mwk [manacles](ref/eq-misc/manacles-masterwork) (3), 41 gp
+:::
 
 ### Description
 

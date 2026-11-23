@@ -15,35 +15,42 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Dwarf [rogue](ref/class/rogue) 13\
-LE Medium humanoid (dwarf)\
-**Init** +4; **Senses** [darkvision](ref/rule/darkvision) 60 ft.; Perception +18
+LE Medium humanoid (dwarf)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +4
+Senses: [darkvision](ref/rule/darkvision) 60 ft.; Perception +18
+:::
 
 ### Defense
 
-**AC** 23, touch 16, flat-footed 18 (+5 armor, +1 deflection, +4 Dex, +1 dodge, +1 natural, +1
-shield)\
-**hp** 114 (13d8+52)\
-**Fort** +7, **Ref** +13, **Will** +9; +2 vs. poison, spells, and
-[spell-like abilities](ref/umr/spell-like-abilities)\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants),
-[improved evasion](ref/ability/improved-evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+4
+::: statblock
+AC: 23, touch 16, flat-footed 18 (+5 armor, +1 deflection, +4 Dex, +1 dodge, +1 natural, +1 shield)
+hp: 114 (13d8+52)
+Fort: +7
+Ref: +13
+Will: +9; +2 vs. poison, spells, and [spell-like abilities](ref/umr/spell-like-abilities)
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants), [improved evasion](ref/ability/improved-evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +4
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 short sword +12/+7 (1d6+1/17-20), +1 short sword +12/+7 (1d6+1/17-20) or +1 short sword
-+14/+9 (1d6+1/17-20)\
-**Ranged** dagger +13/+8 (1d4/19-20)\
-**Special Attacks** +1 on attack rolls against goblinoid and orc humanoids,
-[sneak attack](ref/ability/sneak-attack) +7d6\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 13th; concentration +14)\
-_3/day_-[detect magic](ref/spell/detect-magic)
+::: statblock
+Speed: 20 ft.
+Melee: +1 short sword +12/+7 (1d6+1/17-20), +1 short sword +12/+7 (1d6+1/17-20) or +1 short sword +14/+9 (1d6+1/17-20)
+Ranged: dagger +13/+8 (1d4/19-20)
+Special Attacks: +1 on attack rolls against goblinoid and orc humanoids, [sneak attack](ref/ability/sneak-attack) +7d6
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13th
+Concentration: +14
+3/day: [detect magic](ref/spell/detect-magic)
+:::
 
 ### Tactics
 
@@ -52,30 +59,22 @@ resiliency and defensive roll rogue talents to stay alive against dangerous oppo
 
 ### Statistics
 
-**Str** 10, **Dex** 18, **Con** 14, **Int** 13, **Wis** 14, **Cha** 12\
-**Base Atk** +9; **CMB** +9; **CMD** 25 (29 vs. bull rush or trip)\
-**Feats** [Dodge](ref/feat/dodge), [Improved Critical](ref/feat/improved-critical) (short sword),
-[Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting),
-[Iron Will](ref/feat/iron-will), [Toughness](ref/feat/toughness),
-[Two-Weapon Defense](ref/feat/two-weapon-defense),
-[Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +20 (+16 when jumping), Bluff +17, Climb +8, Disable Device +19, Disguise +9,
-Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +2, Knowledge (local) +14,
-Perception +18 (+20 to notice unusual stonework), Sense Motive +18, Sleight of Hand +12, Stealth
-+20, Swim +8, Use Magic Device +9\
-**SQ** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +7,
-[combat trick](ref/talent/combat-trick), [defensive roll](ref/talent/defensive-roll),
-[improved evasion](ref/talent/improved-evasion), [minor magic](ref/talent/minor-magic),
-[resiliency](ref/talent/resiliency)), [trapfinding](ref/ability/trapfinding) +6\
-**Combat Gear** potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of
-[invisibility](ref/spell/invisibility), [antitoxin](ref/eq-misc/antitoxin) (2); **Other Gear** +2
-[studded leather](ref/eq-armor/studded-leather), +1 [short swords](ref/eq-weapon/short-sword) (2),
-[daggers](ref/eq-weapon/dagger) (4),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Dex, Con),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), 2,047 gp
+::: statblock
+Str: 10
+Dex: 18
+Con: 14
+Int: 13
+Wis: 14
+Cha: 12
+Base Atk: +9
+CMB: +9
+CMD: 25 (29 vs. bull rush or trip)
+Feats: [Dodge](ref/feat/dodge), [Improved Critical](ref/feat/improved-critical) (short sword), [Improved Two-Weapon Fighting](ref/feat/improved-two-weapon-fighting), [Iron Will](ref/feat/iron-will), [Toughness](ref/feat/toughness), [Two-Weapon Defense](ref/feat/two-weapon-defense), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +20 (+16 when jumping), Bluff +17, Climb +8, Disable Device +19, Disguise +9, Knowledge (arcana) +6, Knowledge (dungeoneering) +5, Knowledge (history) +2, Knowledge (local) +14, Perception +18 (+20 to notice unusual stonework), Sense Motive +18, Sleight of Hand +12, Stealth +20, Swim +8, Use Magic Device +9
+SQ: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +7, [combat trick](ref/talent/combat-trick), [defensive roll](ref/talent/defensive-roll), [improved evasion](ref/talent/improved-evasion), [minor magic](ref/talent/minor-magic), [resiliency](ref/talent/resiliency)), [trapfinding](ref/ability/trapfinding) +6
+Combat Gear: potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [invisibility](ref/spell/invisibility), [antitoxin](ref/eq-misc/antitoxin) (2)
+Other Gear: +2 [studded leather](ref/eq-armor/studded-leather), +1 [short swords](ref/eq-weapon/short-sword) (2), [daggers](ref/eq-weapon/dagger) (4), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [belt of physical might +2](ref/magic-wondrous/belt-of-physical-might-2) (Dex, Con), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), 2,047 gp
+:::
 
 ### Description
 

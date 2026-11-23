@@ -17,46 +17,60 @@ cr = "2"
 
 _Golden eagles shine proudly on the steel armor of this blue-uniformed soldier._
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [fighter](ref/class/fighter) 3\
-LG Medium humanoid (human)\
-**Init** +3; **Senses** Perception +2
+LG Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +3
+Senses: Perception +2
+:::
 
 ### Defense
 
-**AC** 19, touch 13, flat-footed 16 (+6 armor, +3 Dex)\
-**hp** 24 (3d10+3)\
-**Fort** +4, **Ref** +4, **Will** +2 (+1 vs. fear)\
-**Defensive Abilities** bravery +1
+::: statblock
+AC: 19, touch 13, flat-footed 16 (+6 armor, +3 Dex)
+hp: 24 (3d10+3)
+Fort: +4
+Ref: +4
+Will: +2 (+1 vs. fear)
+Defensive Abilities: bravery +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk greatsword +6 (2d6+1/19-20)\
-**Ranged** mwk composite longbow +7 (1d8+1/×3)
+::: statblock
+Speed: 30 ft.
+Melee: mwk greatsword +6 (2d6+1/19-20)
+Ranged: mwk composite longbow +7 (1d8+1/×3)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 17, **Con** 12, **Int** 10, **Wis** 8, **Cha** 14\
-**Base Atk** +3; **CMB** +4; **CMD** 17\
-**Feats** [Cleave](ref/feat/cleave), [Deadly Aim](ref/feat/deadly-aim),
-[Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack),
-[Weapon Focus](ref/feat/weapon-focus) (greatsword), [Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Knowledge (history) +1, Knowledge (local) +1, Perception +2, Sense Motive +2, Stealth +4,
-Survival +3\
-**Languages** Common\
-**SQ** armor training 1
+::: statblock
+Str: 13
+Dex: 17
+Con: 12
+Int: 10
+Wis: 8
+Cha: 14
+Base Atk: +3
+CMB: +4
+CMD: 17
+Feats: [Cleave](ref/feat/cleave), [Deadly Aim](ref/feat/deadly-aim), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Weapon Focus](ref/feat/weapon-focus) (greatsword), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Knowledge (history) +1, Knowledge (local) +1, Perception +2, Sense Motive +2, Stealth +4, Survival +3
+Languages: Common
+SQ: armor training 1
+:::
 
 ### Ecology
 
-**Environment** any land (Andoran and surrounding nations)\
-**Organization** solitary, pair, or team (3-6)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (mwk
-[breastplate](ref/eq-armor/breastplate), mwk [greatsword](ref/eq-weapon/greatsword), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows,
-[wooden holy symbol](ref/eq-misc/wooden-holy-symbol), [backpack](ref/eq-misc/backpack))
+::: statblock
+Environment: any land (Andoran and surrounding nations)
+Organization: solitary, pair, or team (3-6)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (mwk [breastplate](ref/eq-armor/breastplate), mwk [greatsword](ref/eq-weapon/greatsword), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, [wooden holy symbol](ref/eq-misc/wooden-holy-symbol), [backpack](ref/eq-misc/backpack))
+:::
 
 ### Description
 

@@ -15,27 +15,38 @@ kind = "creature"
 cr = "9"
 +++
 
-**Challenge rating:** 9
-
-**XP** 6,400\
 Elf [fighter](ref/class/fighter) 10\
-LN Medium humanoid (elf)\
-**Init** +2; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +15
+LN Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 9
+XP: 6,400
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +15
+:::
 
 ### Defense
 
-**AC** 22, touch 12, flat-footed 20 (+7 armor, +2 Dex, +3 shield)\
-**hp** 94 (10d10+35)\
-**Fort** +11, **Ref** +7, **Will** +6; +2 vs. enchantments, +3 vs. fear\
-**Defensive Abilities** bravery +3; **Immune** sleep
+::: statblock
+AC: 22, touch 12, flat-footed 20 (+7 armor, +2 Dex, +3 shield)
+hp: 94 (10d10+35)
+Fort: +11
+Ref: +7
+Will: +6; +2 vs. enchantments, +3 vs. fear
+Defensive Abilities: bravery +3
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk lance +18/+13 (1d8+4/×3) or flail +14/+9 (1d8+2)\
-**Ranged** mwk composite longbow +16/+11 (1d8+3/×3)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with lance)\
-**Special Attacks** weapon training (spears +2, bows +1)
+::: statblock
+Speed: 30 ft.
+Melee: mwk lance +18/+13 (1d8+4/×3) or flail +14/+9 (1d8+2)
+Ranged: mwk composite longbow +16/+11 (1d8+3/×3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+Special Attacks: weapon training (spears +2, bows +1)
+:::
 
 ### Tactics
 
@@ -54,26 +65,23 @@ themselves.\
 
 ### Statistics
 
-**Str** 15, **Dex** 14, **Con** 14, **Int** 10, **Wis** 13, **Cha** 10\
-**Base Atk** +10; **CMB** +14; **CMD** 24\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes),
-[Improved Bull Rush](ref/feat/improved-bull-rush), [Mounted Combat](ref/feat/mounted-combat),
-[Power Attack](ref/feat/power-attack), [Ride-By Attack](ref/feat/ride-by-attack),
-[Shield Focus](ref/feat/shield-focus), [Skill Focus](ref/feat/skill-focus) (Ride),
-[Spirited Charge](ref/feat/spirited-charge), [Toughness](ref/feat/toughness),
-[Unseat](ref/feat/unseat), [Weapon Focus](ref/feat/weapon-focus) (lance)\
-**Skills** Handle Animal +10, Perception +15, Ride +19\
-**Languages** Common, Elven\
-**SQ** armor training 2, elven magic, weapon familiarity\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[heroism](ref/spell/heroism), [alchemist's fire](ref/eq-weapon/alchemists-fire) (5); **Other Gear**
-masterwork [banded mail](ref/eq-armor/banded-mail), masterwork
-[heavy steel shield](ref/eq-armor/heavy-steel-shield), masterwork [lance](ref/eq-weapon/lance),
-masterwork [composite longbow](ref/eq-weapon/composite-longbow) (Str +2) with 20 arrows,
-[figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power) (bronze griffon),
-[bit and bridle](ref/eq-misc/bit-and-bridle),
-[exotic military saddle](ref/eq-misc/saddle-exotic-military), masterwork
-[studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding), 47 gp
+::: statblock
+Str: 15
+Dex: 14
+Con: 14
+Int: 10
+Wis: 13
+Cha: 10
+Base Atk: +10
+CMB: +14
+CMD: 24
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Improved Bull Rush](ref/feat/improved-bull-rush), [Mounted Combat](ref/feat/mounted-combat), [Power Attack](ref/feat/power-attack), [Ride-By Attack](ref/feat/ride-by-attack), [Shield Focus](ref/feat/shield-focus), [Skill Focus](ref/feat/skill-focus) (Ride), [Spirited Charge](ref/feat/spirited-charge), [Toughness](ref/feat/toughness), [Unseat](ref/feat/unseat), [Weapon Focus](ref/feat/weapon-focus) (lance)
+Skills: Handle Animal +10, Perception +15, Ride +19
+Languages: Common, Elven
+SQ: armor training 2, elven magic, weapon familiarity
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [heroism](ref/spell/heroism), [alchemist's fire](ref/eq-weapon/alchemists-fire) (5)
+Other Gear: masterwork [banded mail](ref/eq-armor/banded-mail), masterwork [heavy steel shield](ref/eq-armor/heavy-steel-shield), masterwork [lance](ref/eq-weapon/lance), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (Str +2) with 20 arrows, [figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power) (bronze griffon), [bit and bridle](ref/eq-misc/bit-and-bridle), [exotic military saddle](ref/eq-misc/saddle-exotic-military), masterwork [studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding), 47 gp
+:::
 
 ### Description
 

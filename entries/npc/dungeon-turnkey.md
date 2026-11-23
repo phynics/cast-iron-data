@@ -15,38 +15,54 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [warrior](ref/npcclass/warrior) 5\
-N Medium humanoid\
-**Init** +0; **Senses** Perception +4
+N Medium humanoid
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +0
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 19, touch 10, flat-footed 19 (+9 armor)\
-**hp** 37 (5d10+10)\
-**Fort** +5, **Ref** +1, **Will** +0
+::: statblock
+AC: 19, touch 10, flat-footed 19 (+9 armor)
+hp: 37 (5d10+10)
+Fort: +5
+Ref: +1
+Will: +0
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk guisarme +9 (2d4+4/×3) or spiked gauntlet +8 (1d4+3) or sap +8 (1d6+3 nonlethal)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with guisarme)
+::: statblock
+Speed: 20 ft.
+Melee: mwk guisarme +9 (2d4+4/×3) or spiked gauntlet +8 (1d4+3) or sap +8 (1d6+3 nonlethal)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with guisarme)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 11, **Con** 12, **Int** 8, **Wis** 9, **Cha** 10\
-**Base Atk** +5; **CMB** +8 (+10 bull rush); **CMD** 18 (20 vs. bull rush)\
-**Feats** [Alertness](ref/feat/alertness), [Improved Bull Rush](ref/feat/improved-bull-rush),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack)\
-**Skills** Intimidate +10, Perception +4, Sense Motive +4\
-**Languages** Common\
-**Combat Gear** [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (2); **Other Gear** +1
-[half-plate](ref/eq-armor/half-plate), masterwork [guisarme](ref/eq-weapon/guisarme),
-[sap](ref/eq-weapon/sap), [spiked gauntlet](ref/eq-weapon/spiked-gauntlet)\
-**Boon** A turnkey can allow the PCs to locate and speak to prisoners, and potentially even release
-them. Like prisoners, turnkeys possess detailed knowledge of specific prisons.
+::: statblock
+Str: 16
+Dex: 11
+Con: 12
+Int: 8
+Wis: 9
+Cha: 10
+Base Atk: +5
+CMB: +8 (+10 bull rush)
+CMD: 18 (20 vs. bull rush)
+Feats: [Alertness](ref/feat/alertness), [Improved Bull Rush](ref/feat/improved-bull-rush), [Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack)
+Skills: Intimidate +10, Perception +4, Sense Motive +4
+Languages: Common
+Combat Gear: [tanglefoot bags](ref/eq-weapon/tanglefoot-bag) (2)
+Other Gear: +1 [half-plate](ref/eq-armor/half-plate), masterwork [guisarme](ref/eq-weapon/guisarme), [sap](ref/eq-weapon/sap), [spiked gauntlet](ref/eq-weapon/spiked-gauntlet)
+Boon: A turnkey can allow the PCs to locate and speak to prisoners, and potentially even release them. Like prisoners, turnkeys possess detailed knowledge of specific prisons.
+:::
 
 ### Description
 

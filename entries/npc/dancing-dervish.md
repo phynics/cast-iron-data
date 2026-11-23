@@ -15,28 +15,35 @@ kind = "creature"
 cr = "9"
 +++
 
-**Challenge rating:** 9
-
-**XP** 6,400\
 Human [rogue](ref/class/rogue) 10\
-N Medium humanoid (human)\
-**Init** +8; **Senses** Perception +12
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 9
+XP: 6,400
+Init: +8
+Senses: Perception +12
+:::
 
 ### Defense
 
-**AC** 20, touch 16, flat-footed 15 (+4 armor, +1 deflection, +4 Dex, +1 dodge)\
-**hp** 68 (10d8+20)\
-**Fort** +4, **Ref** +11, **Will** +2\
-**Defensive Abilities** [evasion](ref/ability/evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+3
+::: statblock
+AC: 20, touch 16, flat-footed 15 (+4 armor, +1 deflection, +4 Dex, +1 dodge)
+hp: 68 (10d8+20)
+Fort: +4
+Ref: +11
+Will: +2
+Defensive Abilities: [evasion](ref/ability/evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 keen rapier +13/+8 (1d6+3/15-20)\
-**Ranged** light crossbow +11 (1d8/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +5d6
+::: statblock
+Speed: 30 ft.
+Melee: +1 keen rapier +13/+8 (1d6+3/15-20)
+Ranged: light crossbow +11 (1d8/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +5d6
+:::
 
 ### Tactics
 
@@ -49,26 +56,23 @@ enemies.
 
 ### Statistics
 
-**Str** 14, **Dex** 19, **Con** 12, **Int** 13, **Wis** 8, **Cha** 10\
-**Base Atk** +7; **CMB** +9; **CMD** 25\
-**Feats** [Combat Expertise](ref/feat/combat-expertise), [Dodge](ref/feat/dodge),
-[Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility),
-[Nimble Moves](ref/feat/nimble-moves), [Spring Attack](ref/feat/spring-attack),
-[Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier),
-[Whirlwind Attack](ref/feat/whirlwind-attack)\
-**Skills** Acrobatics +17, Climb +15, Disable Device +19, Escape Artist +17, Intimidate +13,
-Perception +12, Perform (dance) +13, Sleight of Hand +17, Stealth +17, Swim +15\
-**Languages** Common, Elven\
-**SQ** rogue talents ([combat trick](ref/talent/combat-trick),
-[finesse rogue](ref/talent/finesse-rogue), [opportunist](ref/talent/opportunist),
-[surprise attack](ref/talent/surprise-attack), [weapon training](ref/talent/weapon-training)),
-[trapfinding](ref/ability/trapfinding) +5\
-**Combat Gear** potion of [blur](ref/spell/blur), potion of [cat's grace](ref/spell/cats-grace),
-[alchemist's fire](ref/eq-weapon/alchemists-fire) (2); **Other Gear** +1
-[studded leather](ref/eq-armor/studded-leather), +1 [keen](ref/magic-enh/keen)
-[rapier](ref/eq-weapon/rapier), [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts,
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork
-[thieves' tools](ref/eq-misc/thieves-tools-masterwork), 480 gp
+::: statblock
+Str: 14
+Dex: 19
+Con: 12
+Int: 13
+Wis: 8
+Cha: 10
+Base Atk: +7
+CMB: +9
+CMD: 25
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility), [Nimble Moves](ref/feat/nimble-moves), [Spring Attack](ref/feat/spring-attack), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (rapier), [Whirlwind Attack](ref/feat/whirlwind-attack)
+Skills: Acrobatics +17, Climb +15, Disable Device +19, Escape Artist +17, Intimidate +13, Perception +12, Perform (dance) +13, Sleight of Hand +17, Stealth +17, Swim +15
+Languages: Common, Elven
+SQ: rogue talents ([combat trick](ref/talent/combat-trick), [finesse rogue](ref/talent/finesse-rogue), [opportunist](ref/talent/opportunist), [surprise attack](ref/talent/surprise-attack), [weapon training](ref/talent/weapon-training)), [trapfinding](ref/ability/trapfinding) +5
+Combat Gear: potion of [blur](ref/spell/blur), potion of [cat's grace](ref/spell/cats-grace), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2)
+Other Gear: +1 [studded leather](ref/eq-armor/studded-leather), +1 [keen](ref/magic-enh/keen) [rapier](ref/eq-weapon/rapier), [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, [ring of protection +1](ref/magic-ring/ring-of-protection-1), masterwork [thieves' tools](ref/eq-misc/thieves-tools-masterwork), 480 gp
+:::
 
 ### Description
 

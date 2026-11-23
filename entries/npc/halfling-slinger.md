@@ -15,26 +15,35 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Halfling [fighter](ref/class/fighter) 9\
-N Small humanoid (halfling)\
-**Init** +5; **Senses** Perception +5
+N Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +5
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 22, touch 16, flat-footed 17 (+6 armor, +5 Dex, +1 size)\
-**hp** 72 (9d10+18)\
-**Fort** +11, **Ref** +11, **Will** +9; +4 vs. fear\
-**Defensive Abilities** bravery +2
+::: statblock
+AC: 22, touch 16, flat-footed 17 (+6 armor, +5 Dex, +1 size)
+hp: 72 (9d10+18)
+Fort: +11
+Ref: +11
+Will: +9; +4 vs. fear
+Defensive Abilities: bravery +2
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 halfling sling staff +18/+13 (1d4+9/19-20) or short sword +14/+9 (1d4+4/19-20)\
-**Ranged** +1 halfling sling staff +22 (1d6+8/19-20/×3)\
-**Special Attacks** weapon training (thrown +2, light blades +1)
+::: statblock
+Speed: 20 ft.
+Melee: +1 halfling sling staff +18/+13 (1d4+9/19-20) or short sword +14/+9 (1d4+4/19-20)
+Ranged: +1 halfling sling staff +22 (1d6+8/19-20/×3)
+Special Attacks: weapon training (thrown +2, light blades +1)
+:::
 
 ### Tactics
 
@@ -50,30 +59,23 @@ Climb +1, Perception +3, Ride +15, Survival +13.
 
 ### Statistics
 
-**Str** 16, **Dex** 20, **Con** 14, **Int** 8, **Wis** 12, **Cha** 12\
-**Base Atk** +9; **CMB** +13; **CMD** 26\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Greater Weapon Focus](ref/feat/greater-weapon-focus)
-(halfling sling staff), [Improved Critical](ref/feat/improved-critical) (halfling sling staff),
-[Iron Will](ref/feat/iron-will), [Mounted Combat](ref/feat/mounted-combat),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot),
-[Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (halfling sling staff),
-[Weapon Specialization](ref/feat/weapon-specialization) (halfling sling staff)\
-**Skills** Acrobatics +7 (+3 when jumping), Climb +5, Perception +5, Ride +17, Survival +15\
-**Languages** Common, Halfling\
-**SQ** armor training 2\
-**Combat Gear** +1 elf-[bane](ref/magic-enh/bane) bullets (5), potion of
-[bull's strength](ref/spell/bulls-strength), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism),
-potion of [invisibility](ref/spell/invisibility); **Other Gear**
-[breastplate](ref/eq-armor/breastplate), +1
-[halfling sling staff](ref/eq-weapon/halfling-sling-staff) with 20 bullets,
-[short sword](ref/eq-weapon/short-sword),
-[belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2),
-[brooch of shielding](ref/magic-wondrous/brooch-of-shielding) (35 points of damage remaining),
-[bit and bridle](ref/eq-misc/bit-and-bridle), masterwork
-[studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding),
-[military saddle](ref/eq-misc/military-saddle), [riding dog](ref/eq-misc/dog-riding),
-[saddlebags](ref/eq-misc/saddlebags), 161 gp
+::: statblock
+Str: 16
+Dex: 20
+Con: 14
+Int: 8
+Wis: 12
+Cha: 12
+Base Atk: +9
+CMB: +13
+CMD: 26
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Greater Weapon Focus](ref/feat/greater-weapon-focus) (halfling sling staff), [Improved Critical](ref/feat/improved-critical) (halfling sling staff), [Iron Will](ref/feat/iron-will), [Mounted Combat](ref/feat/mounted-combat), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (halfling sling staff), [Weapon Specialization](ref/feat/weapon-specialization) (halfling sling staff)
+Skills: Acrobatics +7 (+3 when jumping), Climb +5, Perception +5, Ride +17, Survival +15
+Languages: Common, Halfling
+SQ: armor training 2
+Combat Gear: +1 elf-[bane](ref/magic-enh/bane) bullets (5), potion of [bull's strength](ref/spell/bulls-strength), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [heroism](ref/spell/heroism), potion of [invisibility](ref/spell/invisibility)
+Other Gear: [breastplate](ref/eq-armor/breastplate), +1 [halfling sling staff](ref/eq-weapon/halfling-sling-staff) with 20 bullets, [short sword](ref/eq-weapon/short-sword), [belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2), [brooch of shielding](ref/magic-wondrous/brooch-of-shielding) (35 points of damage remaining), [bit and bridle](ref/eq-misc/bit-and-bridle), masterwork [studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding), [military saddle](ref/eq-misc/military-saddle), [riding dog](ref/eq-misc/dog-riding), [saddlebags](ref/eq-misc/saddlebags), 161 gp
+:::
 
 ### Description
 
