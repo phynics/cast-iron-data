@@ -7,6 +7,12 @@ source_ids = ["dragon-empires-primer", "inner-sea-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cosmopolitan", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "11"
+[[sources]]
+publication = "inner-sea-primer"
+page = "4"
 
 [fields]
 kind = "trait"

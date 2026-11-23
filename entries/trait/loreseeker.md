@@ -7,6 +7,9 @@ source_ids = ["faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "loreseeker", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "faiths-of-corruption"
+page = "21"
 
 [fields]
 kind = "trait"
