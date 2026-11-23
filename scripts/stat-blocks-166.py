@@ -171,8 +171,10 @@ I2  Lead. The lead is the first statistics paragraph of the body: a paragraph th
 I3  Rows. A line `**Label** value` becomes the row `Label: value`; a line with several labels
     becomes one row per label, in order, and the `;` before a label is dropped. Labels and values
     are not edited. A label printed twice in one block queues the file.
-I4  `**Cost** 15 gp **Weight** 4 lbs.` is the one pair that splits without a `;`. Any other label
-    that follows a value without a `;` queues the file.
+I4  `**Cost** 15 gp **Weight** 4 lbs.` splits without a `;`, and so does `**Price** +1,500 gp
+    **Weight** +1 lb.` (the print gives both as two lines); owner ruling 9 of 2026-11-23 adds a
+    `**Category**` after any value (manacles, wagons). Any other label that follows a value without
+    a `;` queues the file.
 I5  Weapon Group. The linked label `[Weapon Group](ref/ability/weapon-groups)` becomes the plain
     label, and each group of the value becomes a link to the section of that group in the weapon
     groups entry: `Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades);
@@ -1508,6 +1510,12 @@ def weapon_group_value(value: str) -> str:
     return "; ".join(f"[{group}]({WEAPON_GROUPS_ENTRY}#{WEAPON_GROUPS[group]})" for group in groups)
 
 
+def no_separator_ok(label: str, following: str) -> bool:
+    """I4 with owner ruling 9: a label may follow a value with no `;` when it is `Weight` after `Cost`
+    or `Price` (the print gives them as two lines), or `Category` after any value."""
+    return following == "Category" or (label in ("Cost", "Price") and following == "Weight")
+
+
 def item_rows(segment: str, construction: bool) -> list[tuple[str, str]]:
     """The rows of one line of a statistics paragraph."""
     flat = join_wrapped(segment.split("\n"))
@@ -1523,7 +1531,7 @@ def item_rows(segment: str, construction: bool) -> list[tuple[str, str]]:
             separator = re.search(r";\s*$", value)
             if separator:
                 value = value[: separator.start()]
-            elif not (raw == "Cost" and found[position + 1].group(1) == "Weight"):
+            elif not no_separator_ok(raw, found[position + 1].group(1)):
                 raise Queue("label-without-separator", found[position + 1].group(1)[:40])  # I4
         value = value.strip()
         if raw == WEAPON_GROUP_LABEL and not construction:
@@ -1846,7 +1854,7 @@ def vrows(
                 value = value[: re.search(r";\s*$", value).start()]
             elif following in commas and re.search(r",\s*$", value):
                 value = value[: re.search(r",\s*$", value).start()]
-            elif not (raw == "Cost" and following == "Weight"):
+            elif not no_separator_ok(raw, following):
                 raise Queue("label-without-separator", following[:40])
         value = value.strip()
         if raw == WEAPON_GROUP_LABEL:
@@ -3499,9 +3507,14 @@ class ItemSelfTest(unittest.TestCase):
         self.assertEqual(item_leftovers(under_heading), ["Cost"])
         self.assertEqual(item_leftovers(prose), [])
 
-    def test_only_the_cost_weight_pair_splits_without_a_separator(self):
+    def test_only_the_cost_weight_pair_and_a_category_split_without_a_separator(self):
         self.assertEqual(self.queued(ITEM_SAMPLE.replace("**Critical** ×2; **Range**", "**Critical** ×2 **Range**")), "label-without-separator")
-        self.assertEqual(self.queued(ITEM_SAMPLE.replace("**Cost** 12 gp **Weight**", "**Price** 12 gp **Weight**")), "label-without-separator")
+        self.assertEqual(self.queued(ITEM_SAMPLE.replace("**Cost** 12 gp **Weight**", "**Slot** 12 gp **Weight**")), "label-without-separator")
+        self.assertIn("Price: 12 gp\nWeight: 6 lbs.\n", convert_item(ITEM_SAMPLE.replace("**Cost** 12 gp **Weight**", "**Price** 12 gp **Weight**")))
+        self.assertEqual(item_rows("**Price** 15 gp (common) **Category** Adventuring Gear", False), [("Price", "15 gp (common)"), ("Category", "Adventuring Gear")])
+        self.assertEqual(item_rows("**Price** 100 gp; **Price of Passage** 3 cp **Category** Transport, Land", False)[1:], [("Price of Passage", "3 cp"), ("Category", "Transport, Land")])
+        with self.assertRaises(Queue):
+            item_rows("**Price** 15 gp **Slot** none", False)
 
     def test_weapon_groups_come_from_the_closed_list(self):
         self.assertEqual(

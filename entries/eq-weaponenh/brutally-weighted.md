@@ -17,8 +17,12 @@ price = "+1,500 gp"
 weight = "+1 lb."
 +++
 
-**Price** +1,500 gp **Weight** +1 lb.\
-**Category** Modification; **Proficiency** Modification
+::: statblock
+Price: +1,500 gp
+Weight: +1 lb.
+Category: Modification
+Proficiency: Modification
+:::
 
 A brutally weighted weapon is balanced to put more weight on the striking surface, knocking targets
 off balance with every blow. Only bludgeoning melee weapons can be brutally weighted. This

@@ -22,9 +22,6 @@ entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
 entries/eq-misc/hobgoblin-war-draught.md	item	variant-paragraphs	Craft DC
 entries/eq-misc/leechwort.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/love-in-idleness.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/manacles-common.md	item	label-without-separator	Category
-entries/eq-misc/manacles-masterwork.md	item	label-without-separator	Category
-entries/eq-misc/manacles-mithral.md	item	label-without-separator	Category
 entries/eq-misc/merfolks-comb.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
@@ -37,24 +34,17 @@ entries/eq-misc/perfume-common-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-exotic-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
-entries/eq-misc/wagon-heavy-travel-per-mile.md	item	label-without-separator	Category
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
-entries/eq-misc/wagon-heavy.md	item	label-without-separator	Category
 entries/eq-misc/wagon-heavy.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
-entries/eq-misc/wagon-light-or-medium-travel-per-mile.md	item	label-without-separator	Category
 entries/eq-misc/wagon-light-or-medium-travel-per-mile.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
-entries/eq-misc/wagon-light.md	item	label-without-separator	Category
 entries/eq-misc/wagon-light.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
-entries/eq-misc/wagon-medium.md	item	label-without-separator	Category
 entries/eq-misc/wagon-medium.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
-entries/eq-misc/wagon.md	item	label-without-separator	Category
 entries/eq-misc/wagon.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
 entries/eq-weapon/composite-longbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
-entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
 entries/magic-artifact/briar.md	intelligent	unlabelled-line	1/month - [true resurrection](ref/spell/

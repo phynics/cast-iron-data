@@ -28,8 +28,11 @@ weight = "2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)"
 
 ## Manacles
 
-**Price** 15 gp (common), 50 gp (masterwork), 1,000 gp (mithral); **Weight** 2 lbs. (common), 2 lbs.
-(masterwork), 2 lbs. (mithral) **Category** Adventuring Gear
+::: statblock
+Price: 15 gp (common), 50 gp (masterwork), 1,000 gp (mithral)
+Weight: 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)
+Category: Adventuring Gear
+:::
 
 Manacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip
 free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC

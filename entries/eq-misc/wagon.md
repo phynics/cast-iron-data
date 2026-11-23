@@ -17,8 +17,11 @@ price = "100 gp (heavy), 50 gp (light), 75 gp (medium)"
 weight = "400 lbs."
 +++
 
-**Price** 100 gp (heavy), 50 gp (light), 75 gp (medium); **Price of Passage** 3 cp (heavy), 2 cp
-(light), 2 cp (medium) **Category** Transport, Land
+::: statblock
+Price: 100 gp (heavy), 50 gp (light), 75 gp (medium)
+Price of Passage: 3 cp (heavy), 2 cp (light), 2 cp (medium)
+Category: Transport, Land
+:::
 
 This four-wheeled open vehicle is used for transporting heavy loads. It includes the
 [harness](ref/eq-misc/animal-harness) needed to pull it. There are three common varieties of wagon.
