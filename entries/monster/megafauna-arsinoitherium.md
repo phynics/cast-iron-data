@@ -28,73 +28,59 @@ abilities = ["28", "10", "21", "2", "13", "3"]
 _This creature is much like a rhino, some six feet tall and ten feet long, with a pair of massive,
 knife-like horns curving up from its nose._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 20
+AC modifiers: +11 natural, -1 size
+Hit points: 85 (9d8+45)
+Fort: +13
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +14 (4d8+13)
+Pow Ch: 4d8+13
+Reach: 5
+Space: 10
+Trample: 2d8+13, DC 23
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 28, Dex 10, Con 21, Int 2, Wis 13, Cha 3
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Diehard, Endurance, Great Fortitude, Improved Overrun, Power Attack
+Skills: Perception +13
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +11 natural, -1 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +14 (4d8+13)
-
-**Pow Ch:** 4d8+13
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 2d8+13, DC 23
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 10, Con 21, Int 2, Wis 13, Cha 3
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Diehard, Endurance, Great Fortitude, Improved Overrun, Power Attack
-
-**Skills:** Perception +13
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

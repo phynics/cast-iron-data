@@ -29,73 +29,59 @@ abilities = ["28", "10", "21", "2", "13", "3"]
 _This large rhinoceros has a shaggy pelt of long, brown fur and a row of immense horns on its snout
 and brow._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +15
+Senses: Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 76 (8d8+40)
+Fort: +13
+Ref: +6
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +14 (2d8+13)
+Pow Ch: gore, 4d8+18
+Reach: 5
+Space: 10
+Trample: 2d6+13, DC 23
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 28, Dex 10, Con 21, Int 2, Wis 13, Cha 3
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Diehard, Endurance, Great Fortitude, Skill Focus (Perception)
+Skills: Perception +15
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 76 (8d8+40)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +14 (2d8+13)
-
-**Pow Ch:** gore, 4d8+18
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 2d6+13, DC 23
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 10, Con 21, Int 2, Wis 13, Cha 3
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Diehard, Endurance, Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Perception +15
-
-**Ecology**
-
-**Environment:** cold plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

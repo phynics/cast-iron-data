@@ -32,100 +32,71 @@ abilities = ["38", "27", "32", "3", "27", "20"]
 _This serpentine creature chews at its own tail. Its body consists of a multitude of entangled
 serpents with countless hissing jaws._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: hypnotic coils (100 ft., DC 27)
+blindsense: 120
+Size: colossal
+Initiative: +12
+Type: Magical beast
+Alignment: Neutral
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 409,600
+:::
 
-**aura:** hypnotic coils (100 ft., DC 27)
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 38
+Touch: 11
+Flat-footed: 29
+AC modifiers: +8 Dex, +1 dodge, +27 natural, -8 size
+Hit points: 396 (24d10+264)
+Fort: +25
+Ref: +22
+Will: +18
+Defensive abilities: perpetual renewal
+Dr: 15/magic and slashing
+Immune: acid, aging, mind-affecting effects, negative energy, paralysis
+Regen: 50 (mythic weapons or spells)
+Sr: 32
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 60 ft., fly 60 ft. (perfect)
+F Swallow: present
+Melee: 8 bites +30 (1d6+14/19-20) or 8 bites +25 (1d6+7/19-20), maw +30 (4d8+21 plus [grab](ref/umr/grab))
+Reach: 30
+Reach P: 60 ft. with maw
+Space: 30
+Spec Att: body of serpents, ruinous blood
+Swallow: 6d8 bludgeoning plus 6d8 acid damage, AC 23, 39 hp
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 38, Dex 27, Con 32, Int 3, Wis 27, Cha 20
+Base attack bonus: +24
+Combat maneuver bonus: +46 (+48 bull rush)
+Combat maneuver defense: 65 (67 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Mobility, Power Attack, Staggering Critical
+Skills: Fly +23, Perception +23
+Languages: Aklo (can't speak)
+Special qualities: [no breath](ref/umr/no-breath), self consumption
+:::
 
-**Perception:** +23
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Extraplanar
-
-**Experience points:** 409,600
-
-**Armor class:** 38
-
-**Touch:** 11
-
-**Flat-footed:** 29
-
-**AC modifiers:** +8 Dex, +1 dodge, +27 natural, -8 size
-
-**Hit points:** 396 (24d10+264)
-
-**Fort:** +25
-
-**Ref:** +22
-
-**Will:** +18
-
-**Defensive abilities:** perpetual renewal
-
-**Dr:** 15/magic and slashing
-
-**Immune:** acid, aging, mind-affecting effects, negative energy, paralysis
-
-**Regen:** 50 (mythic weapons or spells)
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft., fly 60 ft. (perfect)
-
-**F Swallow:** present
-
-**Melee:** 8 bites +30 (1d6+14/19-20) or 8 bites +25 (1d6+7/19-20), maw +30 (4d8+21 plus
-[grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Reach P:** 60 ft. with maw
-
-**Space:** 30
-
-**Spec Att:** body of serpents, ruinous blood
-
-**Swallow:** 6d8 bludgeoning plus 6d8 acid damage, AC 23, 39 hp
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 27, Con 32, Int 3, Wis 27, Cha 20
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +46 (+48 bull rush)
-
-**Combat maneuver defense:** 65 (67 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved Bull Rush,
-Improved Critical (bite), Improved Initiative, Iron Will, Mobility, Power Attack, Staggering
-Critical
-
-**Skills:** Fly +23, Perception +23
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** [no breath](ref/umr/no-breath), self consumption
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary or knot (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary or knot (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,147 +34,87 @@ abilities = ["27", "28", "30", "25", "22", "29"]
 _Impeccably dressed and bedecked in exotic jewelry, this fiend holds an ornate saber in its
 backward-facing hands._
 
-**Challenge rating:** 20
-
-**Initiative:** +13
-
-**Alignment:** Lawful evil
-
-**Size:** medium
-
-**Type:** outsider
-
-**Perception:** +31
-
-**Senses:** All-around vision, Darkvision 60 ft.
-
-**Subtype:** Native, Rakshasa, Shapechanger
-
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 24
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 deflection, +9 Dex, +1 dodge, +13 natural
-
-**Hit points:** 310 (20d10+200)
-
-**Fort:** +16
-
-**Ref:** +21
-
-**Will:** +18
-
-**Dr:** 20/good and piercing
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 40 ft., fly 30 ft. (good)
-
-**Melee:** +3 falchion +31/+26/+21/+16 (2d4+15/15-20), 4 bites +23 (1d6+4)
-
-**Spec Att:** detect thoughts (DC 29), extra initiative
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +27
-
-**Constant:**
-
-- comprehend languages, tongues
-
-**At will:**
-
-- clairaudience/clairvoyance
-
-**Per day:**
-
-- 1/day: dominate monster (DC 28)
-
-**Spells Known**
-
-**Caster level:** 18
-
-**Concentration:** +27
-
-**9th-level spells:**
-
-- 4/day: weird (DC 28)
-
-**8th-level spells:**
-
-- 6/day: greater shadow evocation, mind blank
-
-**7th-level spells:**
-
-- 7/day: greater shadow conjuration, mass invisibility, spell turning
-
-**6th-level spells:**
-
-- 7/day: greater dispel magic, mass suggestion (DC 25), true seeing
-
-**5th-level spells:**
-
-- 8/day: baleful polymorph (DC 24), feeblemind (DC 24), mind fog (DC 24), teleport
-
-**4th-level spells:**
-
-- 8/day: charm monster (DC 23), dimension door, lesser globe of invulnerability, scrying
-
-**3rd-level spells:**
-
-- 8/day: dispel magic, nondetection, suggestion (DC 22), vampiric touch (DC 22)
-
-**2nd-level spells:**
-
-- 8/day: darkness, knock, misdirection (DC 21), resist energy, see invisibility
-
-**1st-level spells:**
-
-- 9/day: charm person (DC 20), identify, mage armor, magic missile, ventriloquism (DC 20)
-
-**Cantrips:**
-
-- At will: arcane mark, bleed (DC 19), daze (DC 19), detect magic, ghost sound, mage hand, message,
-  prestidigitation, read magic
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 28, Con 30, Int 25, Wis 22, Cha 29
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 52
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Hover, Improved Critical (falchion), Improved
-Initiative, Mobility, Quicken Spell, Silent Spell, Still Spell
-
-**Skills:** Acrobatics +27 (+31 when jumping), Appraise +25, Bluff +35, Diplomacy +30, Disguise +30,
-Sense Motive +27, Spellcraft +25, Stealth +30
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise, +4 Perception
-
-**Languages:** Abyssal, Common, Infernal, Undercommon; _comprehend languages, tongues_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double (+3 falchion); other treasure
+::: statblock
+Challenge rating: 20
+Initiative: +13
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +31
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 37
+Touch: 24
+Flat-footed: 27
+AC modifiers: +4 deflection, +9 Dex, +1 dodge, +13 natural
+Hit points: 310 (20d10+200)
+Fort: +16
+Ref: +21
+Will: +18
+Dr: 20/good and piercing
+Sr: 35
+:::
+
+### Offense
+
+::: statblock
+Speed: 40 ft., fly 30 ft. (good)
+Melee: +3 falchion +31/+26/+21/+16 (2d4+15/15-20), 4 bites +23 (1d6+4)
+Spec Att: detect thoughts (DC 29), extra initiative
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +27
+Constant: comprehend languages, tongues
+At will: clairaudience/clairvoyance
+Per day: 1/day: dominate monster (DC 28)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 18
+Concentration: +27
+9th-level spells: 4/day: weird (DC 28)
+8th-level spells: 6/day: greater shadow evocation, mind blank
+7th-level spells: 7/day: greater shadow conjuration, mass invisibility, spell turning
+6th-level spells: 7/day: greater dispel magic, mass suggestion (DC 25), true seeing
+5th-level spells: 8/day: baleful polymorph (DC 24), feeblemind (DC 24), mind fog (DC 24), teleport
+4th-level spells: 8/day: charm monster (DC 23), dimension door, lesser globe of invulnerability, scrying
+3rd-level spells: 8/day: dispel magic, nondetection, suggestion (DC 22), vampiric touch (DC 22)
+2nd-level spells: 8/day: darkness, knock, misdirection (DC 21), resist energy, see invisibility
+1st-level spells: 9/day: charm person (DC 20), identify, mage armor, magic missile, ventriloquism (DC 20)
+Cantrips: At will: arcane mark, bleed (DC 19), daze (DC 19), detect magic, ghost sound, mage hand, message, prestidigitation, read magic
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 27, Dex 28, Con 30, Int 25, Wis 22, Cha 29
+Base attack bonus: +20
+Combat maneuver bonus: +28
+Combat maneuver defense: 52
+Feats: Combat Casting, Combat Reflexes, Dodge, Hover, Improved Critical (falchion), Improved Initiative, Mobility, Quicken Spell, Silent Spell, Still Spell
+Skills: Acrobatics +27 (+31 when jumping), Appraise +25, Bluff +35, Diplomacy +30, Disguise +30, Sense Motive +27, Spellcraft +25, Stealth +30
+Racial Modifiers: +4 Bluff, +8 Disguise, +4 Perception
+Languages: Abyssal, Common, Infernal, Undercommon; _comprehend languages, tongues_
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double (+3 falchion); other treasure
+:::
 
 ### Special Abilities
 

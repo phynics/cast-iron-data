@@ -29,73 +29,59 @@ abilities = ["3", "15", "10", "2", "12", "7"]
 
 _This sleek, furred creature has flaps of skin stretching between its limbs and its body._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 40 ft. (poor)
+Melee: bite +4 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +4, Perception +5, Stealth +14
+Racial Modifiers: +4 Stealth
+Special qualities: cloaked, gliding flight, luminous
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 40 ft. (poor)
-
-**Melee:** bite +4 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 10, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +4, Perception +5, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Special qualities:** cloaked, gliding flight, luminous
-
-**Ecology**
-
-**Environment:** any deserts
-
-**Organization:** solitary, pair, or gathering (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any deserts
+Organization: solitary, pair, or gathering (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

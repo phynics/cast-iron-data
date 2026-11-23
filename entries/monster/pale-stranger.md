@@ -31,86 +31,67 @@ abilities = ["17", "21", "-", "11", "18", "18"]
 _This nearly skeletal figure wields a pistol in each hand. Its garb is dusty and weathered, and
 smells of old decay._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: fear (10 ft., DC 21)
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +22
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 9,600
+:::
 
-**aura:** fear (10 ft., DC 21)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 25
+Touch: 19
+Flat-footed: 19
+AC modifiers: +2 armor, +5 Dex, +1 dodge, +3 luck, +4 natural
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +10
+Will: +13
+Chan Res: +4
+Dr: 10/bludgeoning and magic
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Ranged: +1 pistols +15/+15/+10/+10/+5 (1d8+1/19-20/×4)
+Spec Att: pistols, stranger's shot
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 19
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 armor, +5 Dex, +1 dodge, +3 luck, +4 natural
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Dr:** 10/bludgeoning and magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ranged:** +1 pistols +15/+15/+10/+10/+5 (1d8+1/19-20/×4)
-
-**Spec Att:** pistols, stranger's shot
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 21, Con -, Int 11, Wis 18, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 33
-
-**Feats:** Deadly Aim, Dodge, Improved Critical (pistol), Improved Initiative, Improved Two-Weapon
-Fighting, Point-Blank Shot, Precise Shot, Quick Draw^B^, Two-Weapon Fighting
-
-**Skills:** Acrobatics +10, Climb +11, Intimidate +22, Perception +22, Ride +15
-
-**Languages:** Common
-
-**Special qualities:** stranger's luck
+::: statblock
+Ability scores: Str 17, Dex 21, Con -, Int 11, Wis 18, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +14
+Combat maneuver defense: 33
+Feats: Deadly Aim, Dodge, Improved Critical (pistol), Improved Initiative, Improved Two-Weapon Fighting, Point-Blank Shot, Precise Shot, Quick Draw^B^, Two-Weapon Fighting
+Skills: Acrobatics +10, Climb +11, Intimidate +22, Perception +22, Ride +15
+Languages: Common
+Special qualities: stranger's luck
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (leather armor); 2 [pistols](ref/eq-weapon/pistol), other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (leather armor); 2 [pistols](ref/eq-weapon/pistol), other treasure
+:::
 
 ### Special Abilities
 

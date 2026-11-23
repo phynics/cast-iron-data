@@ -32,98 +32,72 @@ _This gigantic creature's stony body is laced with veins of deep red and black m
 with dark energy. Its face is a mask of rage with glowing red eyes and a pit of pitch blackness for
 a mouth._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Size: huge
+Initiative: +6
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 60
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 10
+Flat-footed: 28
+AC modifiers: +2 Dex, +20 natural, -2 size
+Hit points: 231 (22d10+110)
+Fort: +18
+Ref: +11
+Will: +15
+Dr: 10/-
+Immune: death effects, elemental traits, energy drain, negative energy
+:::
 
-**Initiative:** +6
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Ch N En: 8d6, DC 19, 4/day
+Melee: 2 slams +32 (2d12+12/19-20 plus 3d6 negative energy)
+Reach: 15
+Sp Extra: earth glide
+Space: 15
+Spec Att: entropic strikes, negative energy capacitance
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +17
+Per day: 3/day: waves of exhaustion (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Earth, Elemental, Extraplanar
+::: statblock
+Ability scores: Str 34, Dex 14, Con 21, Int 12, Wis 15, Cha 13
+Base attack bonus: +22
+Combat maneuver bonus: +36 (+40 bull rush, +38 sunder)
+Combat maneuver defense: 48 (50 vs. bull rush or sunder)
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical (slam), Improved Initiative, Improved Sunder, Intimidating Prowess, Lightning Reflexes, Power Attack, Sundering Strike
+Skills: Appraise +26, Climb +37, Intimidate +38, Knowledge (dungeoneering, planes) +26, Perception +27, Stealth +19
+Languages: Terran
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +20 natural, -2 size
-
-**Hit points:** 231 (22d10+110)
-
-**Fort:** +18
-
-**Ref:** +11
-
-**Will:** +15
-
-**Dr:** 10/-
-
-**Immune:** death effects, elemental traits, energy drain, negative energy
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Ch N En:** 8d6, DC 19, 4/day
-
-**Melee:** 2 slams +32 (2d12+12/19-20 plus 3d6 negative energy)
-
-**Reach:** 15
-
-**Sp Extra:** earth glide
-
-**Space:** 15
-
-**Spec Att:** entropic strikes, negative energy capacitance
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +17
-
-**Per day:**
-
-- 3/day: waves of exhaustion (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 14, Con 21, Int 12, Wis 15, Cha 13
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +36 (+40 bull rush, +38 sunder)
-
-**Combat maneuver defense:** 48 (50 vs. bull rush or sunder)
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical (slam),
-Improved Initiative, Improved Sunder, Intimidating Prowess, Lightning Reflexes, Power Attack,
-Sundering Strike
-
-**Skills:** Appraise +26, Climb +37, Intimidate +38, Knowledge (dungeoneering, planes) +26,
-Perception +27, Stealth +19
-
-**Languages:** Terran
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

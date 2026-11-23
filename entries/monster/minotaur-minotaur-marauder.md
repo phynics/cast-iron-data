@@ -32,88 +32,67 @@ abilities = ["19", "14", "13", "11", "12", "10"]
 _The battle-worn axe and scarred leather armor born by this sunbleached minotaur woman mark her as a
 seasoned combatant._
 
-**Challenge rating:** 6
-
 **Minotaur [ranger](ref/class/ranger) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Type: Monstrous humanoid
+Perception: +16
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +3 armor, +2 Dex, +5 natural, -1 size
+Hit points: 62 (6d10+2d10+18\~8)
+Fort: +6
+Ref: +10
+Will: +6
+Defensive abilities: natural cunning
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft.
+Fav En: monstrous humanoids +2
+Melee: +1 greataxe +12/+7 (3d6+7/×3), gore +11 (1d6+2)
+Pow Ch: gore, 1d6+17
+Ranged: mwk composite longbow +11/+6 (2d6+6/×3)
+Reach: 10
+Space: 10
+Spec Att: combat style (two-handed weapon)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 19, Dex 14, Con 13, Int 11, Wis 12, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 25
+Feats: Point-Blank Shot, Power Attack, Rapid Shot, Toughness, Weapon Focus (composite longbow)
+Skills: Acrobatics +7, Climb +11, Handle Animal +5, Heal +6
+Racial Modifiers: +4 Perception, +4 Survival
+Languages: Giant
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +2
+Combat gear: potion of cure moderate wounds, potion of delay poison, potion of magic fang, potion of resist energy, Dentangle/12 charges, 3 sss, tanglefoot bag
+Other gear: mwk studded leather armor, +1 greataxe, mwk cl40+6, at, bp, hk, rope (50 ft), 10 tts
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 armor, +2 Dex, +5 natural, -1 size
-
-**Hit points:** 62 (6d10+2d10+18\~8)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +6
-
-**Defensive abilities:** natural cunning
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** monstrous humanoids +2
-
-**Melee:** +1 greataxe +12/+7 (3d6+7/×3), gore +11 (1d6+2)
-
-**Pow Ch:** gore, 1d6+17
-
-**Ranged:** mwk composite longbow +11/+6 (2d6+6/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** combat style (two-handed weapon)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 13, Int 11, Wis 12, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 25
-
-**Feats:** Point-Blank Shot, Power Attack, Rapid Shot, Toughness, Weapon Focus (composite longbow)
-
-**Skills:** Acrobatics +7, Climb +11, Handle Animal +5, Heal +6
-
-**Racial Modifiers:** +4 Perception, +4 Survival
-
-**Languages:** Giant
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +2
-
-**Combat gear:** potion of cure moderate wounds, potion of delay poison, potion of magic fang,
-potion of resist energy, Dentangle/12 charges, 3 sss, tanglefoot bag
-
-**Other gear:** mwk studded leather armor, +1 greataxe, mwk cl40+6, at, bp, hk, rope (50 ft), 10 tts
-
-**Ecology**
-
-**Environment:** temperate ruins or underground
+::: statblock
+Environment: temperate ruins or underground
+:::
 
 ### Description
 

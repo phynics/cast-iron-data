@@ -30,96 +30,68 @@ abilities = ["42", "9", "29", "18", "28", "29"]
 _Tentacles and eyes cover this floating, fungoid monster, and its vast mouth opens like a toothy
 cavern._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+blindsight: 240
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +3
+Perception: +43
+Senses: Low-light vision
+Type: plant
+Experience points: 409,600
+:::
 
-**blindsight:** 240
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 37
+Touch: 1
+Flat-footed: 37
+AC modifiers: -1 Dex, +36 natural, -8 size
+Hit points: 418 (31d8+279)
+Fort: +26
+Ref: +11
+Will: +19
+Defensive abilities: grasping tendrils
+Dr: 10/epic
+Fh: 10
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 30
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 40 ft., fly 30 ft. (perfect)
+Constrict: 3d8+16
+Melee: bite +32 (6d6+16/19-20 plus [grab](ref/umr/grab)), 4 tentacles +27 (3d8+8/19-20 plus grab)
+Reach: 30
+Reach P: 60 ft. with tentacle
+Space: 30
+Spec Att: spore cough
+Swallow: 20d8 acid, AC 28, 41 hp
+:::
 
-**Perception:** +43
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 42, Dex 9, Con 29, Int 18, Wis 28, Cha 29
+Base attack bonus: +23
+Combat maneuver bonus: +47 (+51 grapple)
+Combat maneuver defense: 56 (can't be tripped)
+Feats: Awesome Blow, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (tentacles), Improved Initiative, Improved Lightning Reflexes, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite), Weapon Focus (tentacles)
+Skills: Fly +33, Knowledge (dungeoneering, geography, nature) +35, Perception +43, Sense Motive +40
+Languages: Aklo, Common, Terran, Undercommon
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 409,600
-
-**Armor class:** 37
-
-**Touch:** 1
-
-**Flat-footed:** 37
-
-**AC modifiers:** -1 Dex, +36 natural, -8 size
-
-**Hit points:** 418 (31d8+279)
-
-**Fort:** +26
-
-**Ref:** +11
-
-**Will:** +19
-
-**Defensive abilities:** grasping tendrils
-
-**Dr:** 10/epic
-
-**Fh:** 10
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 30
-
-**Offense**
-
-**Speed:** 40 ft., fly 30 ft. (perfect)
-
-**Constrict:** 3d8+16
-
-**Melee:** bite +32 (6d6+16/19-20 plus [grab](ref/umr/grab)), 4 tentacles +27 (3d8+8/19-20 plus
-grab)
-
-**Reach:** 30
-
-**Reach P:** 60 ft. with tentacle
-
-**Space:** 30
-
-**Spec Att:** spore cough
-
-**Swallow:** 20d8 acid, AC 28, 41 hp
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 9, Con 29, Int 18, Wis 28, Cha 29
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +47 (+51 grapple)
-
-**Combat maneuver defense:** 56 (can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull
-Rush, Improved Critical (bite), Improved Critical (tentacles), Improved Initiative, Improved
-Lightning Reflexes, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical,
-Vital Strike, Weapon Focus (bite), Weapon Focus (tentacles)
-
-**Skills:** Fly +33, Knowledge (dungeoneering, geography, nature) +35, Perception +43, Sense Motive
-+40
-
-**Languages:** Aklo, Common, Terran, Undercommon
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

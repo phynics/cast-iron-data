@@ -33,86 +33,60 @@ abilities = ["23", "16", "21", "10", "11", "10"]
 _Attired in various hides and with pauldrons made from the tusks of a mammoth, this towering,
 one-eyed humanoid wields an equally massive flat club._
 
-**Challenge rating:** 15
-
 **Male cyclops [fighter](ref/class/fighter) 10**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 15
+Type: humanoid
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +15
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 51,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 25
+AC modifiers: +6 armor, +1 deflection, +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 210 (10d8+10d10+110\~20)
+Fort: +19
+Ref: +11
+Will: +8; +3 vs. fear
+Defensive abilities: bravery +3
+Ferocity: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 50 ft.
+Melee: +1 defending greatclub +26/+21/+16/+11 (2d8+14/19-20)
+Ranged: +1 heavy crossbow +20 (2d8+1/19-20)
+Reach: 10
+Space: 10
+Spec Att: weapon training (hammers +2, flails +1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
-
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 armor, +1 deflection, +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 210 (10d8+10d10+110\~20)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +8; +3 vs. fear
-
-**Defensive abilities:** bravery +3
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 defending greatclub +26/+21/+16/+11 (2d8+14/19-20)
-
-**Ranged:** +1 heavy crossbow +20 (2d8+1/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** weapon training (hammers +2, flails +1)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 16, Con 21, Int 10, Wis 11, Cha 10
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +24 (+26 bull rush, overrun, sunder)
-
-**Combat maneuver defense:** 39 (41 vs. bull rush, overrun, sunder)
-
-**Feats:** Alertness, Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Critical
-(greatclub), Improved Initiative, Improved Overrun, Improved Sunder, Intimidating Prowess, Iron
-Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (greatclub), Weapon
-Specialization (greatclub)
-
-**Skills:** Climb +18, Intimidate +24, Perception +15
-
-**Languages:** Common, Cyclops, Giant
-
-**Special qualities:** armor training 2, flash of insight
-
-**Combat gear:** 2 potion of cure serious wounds, 2 potion of bull's strength
-
-**Other gear:** [mammoth hide](ref/magic-armor/mammoth-hide) (+2 [hide](ref/eq-armor/hide), as rhino
-hide), +1 heavy crossbow with 10 bolts, +1 defending greatclub, Iamu2, Ibopm2dc, I-boots of striding
-and springing, 2 [feather tokens](ref/magic-wondrous/feather-token) (tree, whip), ring of prot1
+::: statblock
+Ability scores: Str 23, Dex 16, Con 21, Int 10, Wis 11, Cha 10
+Base attack bonus: +17
+Combat maneuver bonus: +24 (+26 bull rush, overrun, sunder)
+Combat maneuver defense: 39 (41 vs. bull rush, overrun, sunder)
+Feats: Alertness, Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Critical (greatclub), Improved Initiative, Improved Overrun, Improved Sunder, Intimidating Prowess, Iron Will, Lightning Reflexes, Power Attack, Vital Strike, Weapon Focus (greatclub), Weapon Specialization (greatclub)
+Skills: Climb +18, Intimidate +24, Perception +15
+Languages: Common, Cyclops, Giant
+Special qualities: armor training 2, flash of insight
+Combat gear: 2 potion of cure serious wounds, 2 potion of bull's strength
+Other gear: [mammoth hide](ref/magic-armor/mammoth-hide) (+2 [hide](ref/eq-armor/hide), as rhino hide), +1 heavy crossbow with 10 bolts, +1 defending greatclub, Iamu2, Ibopm2dc, I-boots of striding and springing, 2 [feather tokens](ref/magic-wondrous/feather-token) (tree, whip), ring of prot1
+:::
 
 ### Description
 

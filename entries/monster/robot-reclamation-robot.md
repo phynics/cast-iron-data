@@ -33,96 +33,72 @@ abilities = ["22", "25", "-", "14", "15", "1"]
 _This complex-looking automaton's multiple arms end in gripping talons. It moves about on a set of
 four legs and has a strange bell-shaped head._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Initiative: +11
+Size: large
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 27
+Touch: 16
+Flat-footed: 20
+AC modifiers: +7 Dex, +11 natural, -1 size
+Hit points: 168 (16d10+30\~\~50)
+Fort: +7
+Ref: +12
+Will: +7
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 15, fire 15
+Vulner: critical hits and electricity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Constrict: 1d6+6
+Melee: 5 claws +21 (1d6+6/19-20 plus [grab](ref/umr/grab))
+Ranged: integrated laser rifle +22 touch (2d6 fire)
+Reach: 15
+Space: 10
+Spec Att: combined arms, efficient grappler
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Robot
-
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +11 natural, -1 size
-
-**Hit points:** 168 (16d10+30\~\~50)
-
-**Fort:** +7
-
-**Ref:** +12
-
-**Will:** +7
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 15, fire 15
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Constrict:** 1d6+6
-
-**Melee:** 5 claws +21 (1d6+6/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** integrated laser rifle +22 touch (2d6 fire)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** combined arms, efficient grappler
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 25, Con -, Int 14, Wis 15, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23 (+31 grapple, +27 sunder)
-
-**Combat maneuver defense:** 40 (48 vs. grapple, 42 vs. sunder, 44 vs. trip)
-
-**Feats:** Blinding Critical, Critical Focus, Great Fortitude, Greater Sunder, Improved Critical
-(claws), Improved Initiative, Improved Sunder, Power Attack, Technologist^B^
-
-**Skills:** Climb +34, Disable Device +23, Knowledge (engineering) +22, Perception +18
-
-**Racial Modifiers:** +4 Climb, +4 Knowledge (engineering)
-
-**Languages:** Androffan, Common
-
-**Special qualities:** item creation, salvage, scaling
+::: statblock
+Ability scores: Str 22, Dex 25, Con -, Int 14, Wis 15, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +23 (+31 grapple, +27 sunder)
+Combat maneuver defense: 40 (48 vs. grapple, 42 vs. sunder, 44 vs. trip)
+Feats: Blinding Critical, Critical Focus, Great Fortitude, Greater Sunder, Improved Critical (claws), Improved Initiative, Improved Sunder, Power Attack, Technologist^B^
+Skills: Climb +34, Disable Device +23, Knowledge (engineering) +22, Perception +18
+Racial Modifiers: +4 Climb, +4 Knowledge (engineering)
+Languages: Androffan, Common
+Special qualities: item creation, salvage, scaling
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, duo, or work gang (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, duo, or work gang (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

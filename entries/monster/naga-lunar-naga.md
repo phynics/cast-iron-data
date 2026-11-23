@@ -30,97 +30,73 @@ abilities = ["14", "19", "18", "13", "16", "17"]
 _Stark white hair frames the fair face of this snake-bodied woman, and its black scales sparkle
 hypnotically._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Alignment: Chaotic neutral
+Initiative: +4
+Size: large
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 68 (8d8+32)
+Fort: +6
+Ref: +8
+Will: +9
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: bite +7 (2d6+3 plus poison)
+Reach: 5
+Sneak: +3d6
+Space: 10
+Spec Att: hypnosis
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +8
+2nd-level spells: 5/day: invisibility, scorching ray
+1st-level spells: 7/day: charm person (DC 14), expeditious retreat, magic missile, ray of enfeeblement (DC 14)
+Cantrips: At will: detect magic, disrupt undead, mage hand, open/close, prestidigitation, ray of frost
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +7 (2d6+3 plus poison)
-
-**Reach:** 5
-
-**Sneak:** +3d6
-
-**Space:** 10
-
-**Spec Att:** hypnosis
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- 5/day: invisibility, scorching ray
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 14), expeditious retreat, magic missile, ray of enfeeblement (DC 14)
-
-**Cantrips:**
-
-- At will: detect magic, disrupt undead, mage hand, open/close, prestidigitation, ray of frost
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 18, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Combat Casting, Dodge, Eschew Materials^B^, Lightning Reflexes, Skill Focus (Stealth)
-
-**Skills:** Bluff +7, Diplomacy +7, Spellcraft +8, Stealth +14
-
-**Languages:** Aklo, Common
+::: statblock
+Ability scores: Str 14, Dex 19, Con 18, Int 13, Wis 16, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Combat Casting, Dodge, Eschew Materials^B^, Lightning Reflexes, Skill Focus (Stealth)
+Skills: Bluff +7, Diplomacy +7, Spellcraft +8, Stealth +14
+Languages: Aklo, Common
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary or nest (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or nest (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

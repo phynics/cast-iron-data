@@ -31,92 +31,70 @@ abilities = ["-", "19", "14", "15", "18", "17"]
 _This incorporeal field shimmers with a constant flux of colors and shapes that coalesce into
 distorted, ephemeral images and reflections._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: [mental static](ref/umr/mental-static-aura) (30 ft., DC 18)
+Initiative: +8
+Alignment: Neutral
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Extraplanar, Incorporeal
+thoughtsense: 60
+Experience points: 4,800
+:::
 
-**aura:** [mental static](ref/umr/mental-static-aura) (30 ft., DC 18)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 14
+AC modifiers: +3 deflection, +4 Dex, +1 dodge, +1 size
+Hit points: 82 (11d10+22)
+Fort: +7
+Ref: +11
+Will: +11
+Incorporeal: present
+Sr: 19
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: incorporeal touch +16 (mindwipe)
+Spec Att: mass erasure (DC 19), mindwipe (DC 18)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Psychic Magic"
+Caster level: 8
+Concentration: +11
+Power points: 20
+Psychoactive powers: cognitive block, 3 PE, DC 16, ego whip I, 3 PE, DC 16, mind probe, 4 PE, DC 17, mind thrust III, 3 PE, DC 16, possession, 5 PE, DC 18, synaptic pulse, 3 PE, DC 16, thought shield III, 4 PE, DC 17
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str -, Dex 19, Con 14, Int 15, Wis 18, Cha 17
+Base attack bonus: +11
+Combat maneuver bonus: +14
+Combat maneuver defense: 28
+Feats: Combat Casting, Dodge, Great Fortitude, Improved Initiative, Mobility, Spring Attack
+Skills: Bluff +17, Diplomacy +17, Sense Motive +18, Stealth +8
+Languages: telepathy 100 ft.
+:::
 
-**Subtype:** Extraplanar, Incorporeal
+### Ecology
 
-**thoughtsense:** 60
-
-**Experience points:** 4,800
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge, +1 size
-
-**Hit points:** 82 (11d10+22)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +11
-
-**Incorporeal:** present
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** incorporeal touch +16 (mindwipe)
-
-**Spec Att:** mass erasure (DC 19), mindwipe (DC 18)
-
-**Psychic Magic**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- cognitive block, 3 PE, DC 16, ego whip I, 3 PE, DC 16, mind probe, 4 PE, DC 17, mind thrust III, 3
-  PE, DC 16, possession, 5 PE, DC 18, synaptic pulse, 3 PE, DC 16, thought shield III, 4 PE, DC 17
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con 14, Int 15, Wis 18, Cha 17
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Casting, Dodge, Great Fortitude, Improved Initiative, Mobility, Spring Attack
-
-**Skills:** Bluff +17, Diplomacy +17, Sense Motive +18, Stealth +8
-
-**Languages:** telepathy 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary, pair, or quorum (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary, pair, or quorum (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

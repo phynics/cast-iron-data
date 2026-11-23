@@ -31,90 +31,69 @@ abilities = ["16", "18", "19", "15", "9", "8"]
 _Toadstools, puff balls, and other bizarre fungal growths sprout from this small, hunchbacked man's
 mold-streaked body. His beady eyes burn with paranoia and malice._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: putrefying aura (30 ft., DC 18)
+Type: fey
+Initiative: +4
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 1,600
+:::
 
-**aura:** putrefying aura (30 ft., DC 18)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 60 (8d6+32)
+Fort: +6
+Ref: +10
+Will: +7
+Dr: 5/cold iron
+Immune: disease, nausea, poison, sickened condition
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft.
+Melee: bite +8 (1d6+3)
+Ranged: puffballs +9 (1d6 plus disease)
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: speak with plants, fungi and mold only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 16, Dex 18, Con 19, Int 15, Wis 9, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Alertness, Iron Will, Point-Blank Shot, Precise Shot
+Skills: Acrobatics +8 (+4 when jumping), Craft (alchemy) +17, Heal +7
+Racial Modifiers: +4 Craft (alchemy), +4 Stealth in caves or swamps, +4 Survival in caves or swamps
+Languages: Aklo, Common, Sylvan, Undercommon
+Special qualities: fungal alchemy
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 60 (8d6+32)
-
-**Fort:** +6
-
-**Ref:** +10
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Immune:** disease, nausea, poison, sickened condition
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +8 (1d6+3)
-
-**Ranged:** puffballs +9 (1d6 plus disease)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- speak with plants, fungi and mold only
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 18, Con 19, Int 15, Wis 9, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Alertness, Iron Will, Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +8 (+4 when jumping), Craft (alchemy) +17, Heal +7
-
-**Racial Modifiers:** +4 Craft (alchemy), +4 Stealth in caves or swamps, +4 Survival in caves or
-swamps
-
-**Languages:** Aklo, Common, Sylvan, Undercommon
-
-**Special qualities:** fungal alchemy
-
-**Ecology**
-
-**Environment:** any swamp or underground
-
-**Organization:** solitary
-
-**Treasure:** Standard; alchemical items, other treasure
+::: statblock
+Environment: any swamp or underground
+Organization: solitary
+Treasure: Standard; alchemical items, other treasure
+:::
 
 ### Special Abilities
 

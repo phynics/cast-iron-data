@@ -30,99 +30,72 @@ abilities = ["12", "12", "11", "11", "8", "7"]
 _This six-legged horror has a spider's face and a fibrous stalk growing out of its back - a stalk
 ending in a snapping mouth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +1
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft., Detect law, Detect magic
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 13
+AC modifiers: +1 Dex, +1 natural, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +6
+Will: +2
+Dr: 5/cold iron or lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: bite +6 (1d6+1 plus spores)
+Reach: 0
+Space: 2-1/2
+Spec Att: horrific appearance (10 feet, DC 9)
+:::
 
-**Senses:** Darkvision 60 ft., Detect law, Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +4
+Constant: detect law, detect magic, fly
+Per day: 1/day: soften earth and stone, warp wood
+Per week: commune, six questions
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 12, Dex 12, Con 11, Int 11, Wis 8, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (21 vs. trip)
+Feats: Lightning Reflexes, Weapon Finesse
+Skills: Acrobatics +7 (+11 jump), Fly +15, Knowledge (nature) +6, Perception +5, Stealth +15
+Languages: Abyssal; [telepathy](ref/umr/telepathy) (touch)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +1 natural, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/cold iron or lawful
-
-**Immune:** cold, poison, mind-affecting effects
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** bite +6 (1d6+1 plus spores)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** horrific appearance (10 feet, DC 9)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +4
-
-**Constant:**
-
-- detect law, detect magic, fly
-
-**Per day:**
-
-- 1/day: soften earth and stone, warp wood
-
-**Per week:**
-
-- commune, six questions
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 12, Con 11, Int 11, Wis 8, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (21 vs. trip)
-
-**Feats:** Lightning Reflexes, Weapon Finesse
-
-**Skills:** Acrobatics +7 (+11 jump), Fly +15, Knowledge (nature) +6, Perception +5, Stealth +15
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) (touch)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or bloom (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or bloom (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

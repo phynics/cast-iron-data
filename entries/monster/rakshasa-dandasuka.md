@@ -31,107 +31,78 @@ abilities = ["13", "18", "16", "13", "12", "15"]
 _This small creature looks like a well-dressed and jewelry-bedecked fiendish gnome, its face mostly
 mouth and fangs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +4
+Alignment: Lawful evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 1,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +3 natural, +1 size
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +9
+Will: +6
+Dr: 5/good or piercing
+Sr: 20
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +8 (1d6+1 plus bleed), 2 claws +8 (1d4+1)
+Sneak: +1d6
+Spec Att: bleed 1d4, detect thoughts (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Per day: 1/day: clairaudience/clairvoyance
+:::
 
-**Size:** small
+::: statblock
+title = "Spells Known"
+Caster level: 2
+Concentration: +4
+1st-level spells: 5/day: charm person (DC 13), ventriloquism (DC 13)
+Cantrips: At will: bleed (DC 12), daze (DC 12), detect magic, ghost sound (DC 12), mage hand
+:::
 
-**Subtype:** Native, Rakshasa, Shapechanger
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 13, Dex 18, Con 16, Int 13, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Dodge, Mobility, Spring Attack
+Skills: Acrobatics +10, Bluff +15, Climb +10, Disguise +19, Sense Motive +10, Sleight of Hand +10, Stealth +17
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +3 natural, +1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 5/good or piercing
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +8 (1d6+1 plus bleed), 2 claws +8 (1d4+1)
-
-**Sneak:** +1d6
-
-**Spec Att:** bleed 1d4, detect thoughts (DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Per day:**
-
-- 1/day: clairaudience/clairvoyance
-
-**Spells Known**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 5/day: charm person (DC 13), ventriloquism (DC 13)
-
-**Cantrips:**
-
-- At will: bleed (DC 12), daze (DC 12), detect magic, ghost sound (DC 12), mage hand
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 18, Con 16, Int 13, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Mobility, Spring Attack
-
-**Skills:** Acrobatics +10, Bluff +15, Climb +10, Disguise +19, Sense Motive +10, Sleight of Hand
-+10, Stealth +17
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or murder (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or murder (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

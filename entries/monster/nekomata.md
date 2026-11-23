@@ -31,93 +31,69 @@ abilities = ["18", "19", "16", "19", "16", "19"]
 
 _This oversized house cat has two twitching tails and a malevolent gleam in its eyes._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Shapechanger
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 15
+AC modifiers: +4 Dex, +5 natural
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +10
+Will: +7
+Fh: 5
+Immune: ability damage, ability drain, death effects, disease, energy drain, fear, negative energy
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft.
+Melee: bite +12 (1d8+4 plus disease), 2 claws +12 (1d6+4)
+Spec Att: create undead
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+At will: command undead (DC 16), ghost sound (DC 14), mage hand, open/close
+Per day: 3/day: charm person (DC 15), halt undead (DC 17), telekinesis (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 19, Con 16, Int 19, Wis 16, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Combat Casting, Combat Expertise, Improved Initiative, Iron Will
+Skills: Acrobatics +15, Bluff +12, Disguise +12, Stealth +15
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (cat and humanoid; [polymorph](ref/spell/polymorph)), perfect copy
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +5 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +7
-
-**Fh:** 5
-
-**Immune:** ability damage, ability drain, death effects, disease, energy drain, fear, negative
-energy
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +12 (1d8+4 plus disease), 2 claws +12 (1d6+4)
-
-**Spec Att:** create undead
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**At will:**
-
-- command undead (DC 16), ghost sound (DC 14), mage hand, open/close
-
-**Per day:**
-
-- 3/day: charm person (DC 15), halt undead (DC 17), telekinesis (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 16, Int 19, Wis 16, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Casting, Combat Expertise, Improved Initiative, Iron Will
-
-**Skills:** Acrobatics +15, Bluff +12, Disguise +12, Stealth +15
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (cat and humanoid;
-[polymorph](ref/spell/polymorph)), perfect copy
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or pride (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or pride (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

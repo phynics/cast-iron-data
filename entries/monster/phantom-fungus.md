@@ -29,75 +29,60 @@ abilities = ["15", "10", "16", "2", "11", "9"]
 _Portions of this three-stalked fungoid monster's body seem to fade in and out of sight. A large maw
 gapes along its entire front._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsight: 30
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +5 natural
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +1
+Will: +1
+Defensive abilities: phantom flesh
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +5 (2d6+3)
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 10, Con 16, Int 2, Wis 11, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 15 (17 vs. trip)
+Feats: Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Climb +10, Perception +10, Stealth +7
+Racial Modifiers: +4 Stealth
+:::
 
-**Type:** plant
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +1
-
-**Defensive abilities:** phantom flesh
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +5 (2d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con 16, Int 2, Wis 11, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15 (17 vs. trip)
-
-**Feats:** Skill Focus (Perception), Skill Focus (Stealth)
-
-**Skills:** Climb +10, Perception +10, Stealth +7
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or grove (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary or grove (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

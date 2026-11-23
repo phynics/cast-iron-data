@@ -31,73 +31,59 @@ abilities = ["10", "15", "18", "12", "13", "15"]
 _This slender, attractive woman has strangely glowing eyes and a full head of hissing snakes for
 hair._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +16
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 3,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 76 (8d10+32)
+Fort: +6
+Ref: +8
+Will: +7
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: dagger +10/+5 (1d4/19-20), snake bite +5 (1d4 plus poison)
+Ranged: mwk longbow +11/+6 (1d8/×3)
+Spec Att: petrifying gaze
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 15, Con 18, Int 12, Wis 13, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Improved Initiative, Point-Blank Shot, Precise Shot, Weapon Finesse
+Skills: Bluff +10, Disguise +10, Stealth +13
+Racial Modifiers: +4 Perception
+Languages: Common
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +10/+5 (1d4/19-20), snake bite +5 (1d4 plus poison)
-
-**Ranged:** mwk longbow +11/+6 (1d8/×3)
-
-**Spec Att:** petrifying gaze
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 18, Int 12, Wis 13, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Improved Initiative, Point-Blank Shot, Precise Shot, Weapon Finesse
-
-**Skills:** Bluff +10, Disguise +10, Stealth +13
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate marshes and underground
-
-**Organization:** solitary
-
-**Treasure:** Double (dagger, mwk lb20); other treasure
+::: statblock
+Environment: temperate marshes and underground
+Organization: solitary
+Treasure: Double (dagger, mwk lb20); other treasure
+:::
 
 ### Special Abilities
 

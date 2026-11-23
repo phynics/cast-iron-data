@@ -31,77 +31,61 @@ abilities = ["4", "16", "10", "3", "11", "9"]
 _This tiny, skittering creature looks like an insect made of fish bones, with a head full of glowing
 red eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +3
+Type: Magical beast
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +6
+Will: +0
+Immune: cold
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: bite +7 (1d2 plus 1d6 acid)
+Reach: 0
+Space: 2-1/2
+Spec Att: bone chariot
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 4, Dex 16, Con 10, Int 3, Wis 11, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 10
+Feats: Weapon Finesse
+Skills: Perception +4, Stealth +15
+Languages: Abyssal (can't speak)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +0
-
-**Immune:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +7 (1d2 plus 1d6 acid)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** bone chariot
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 16, Con 10, Int 3, Wis 11, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 10
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +4, Stealth +15
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or nest (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

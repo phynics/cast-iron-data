@@ -32,83 +32,64 @@ abilities = ["14", "19", "15", "12", "14", "13"]
 _This small, gaunt humanoid has flesh tight around its oversized skull. Sharp spurs of bone protrude
 from its hands and arms._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +8
+Perception: +11
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Halfling, Mortic
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 14
+AC modifiers: +2 armor, +4 Dex, +1 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +6
+Will: +4; +4 vs. mind-affecting effects
+Defensive abilities: death gasp, negative energy affinity
+Dr: 5/piercing or slashing
+Vulner: _consecration_
+:::
 
-**Initiative:** +8
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft.
+Melee: 2 bone spikes +9 (1d8+2 plus skeleton scraper)
+Ranged: mwk sling +10 (1d3+2)
+Spec Att: skeleton scraper
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 19, Con 15, Int 12, Wis 14, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Improved Initiative, Step Up, Weapon Finesse
+Skills: Acrobatics +7, Escape Artist +15, Perception +11, Stealth +17
+Racial Modifiers: +8 Escape Artist
+Languages: Common, Halfling
+Special qualities: loose bones, unliving nature
+:::
 
-**Subtype:** Halfling, Mortic
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +4 Dex, +1 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +4; +4 vs. mind-affecting effects
-
-**Defensive abilities:** death gasp, negative energy affinity
-
-**Dr:** 5/piercing or slashing
-
-**Vulner:** _consecration_
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 bone spikes +9 (1d8+2 plus skeleton scraper)
-
-**Ranged:** mwk sling +10 (1d3+2)
-
-**Spec Att:** skeleton scraper
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 15, Int 12, Wis 14, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Step Up, Weapon Finesse
-
-**Skills:** Acrobatics +7, Escape Artist +15, Perception +11, Stealth +17
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Languages:** Common, Halfling
-
-**Special qualities:** loose bones, unliving nature
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or band (2-6)
-
-**Treasure:** Standard (leather armor, mwk sng10); other treasure
+::: statblock
+Environment: any
+Organization: solitary or band (2-6)
+Treasure: Standard (leather armor, mwk sng10); other treasure
+:::
 
 ### Special Abilities
 

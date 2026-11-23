@@ -28,71 +28,58 @@ abilities = ["22", "10", "19", "2", "13", "5"]
 
 _This rhinoceros has a low-slung head with twisted ears that lie back along its neck._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +10
+Ref: +4
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +8 (2d6+9)
+Pow Ch: gore, 4d6+12
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 22, Dex 10, Con 19, Int 2, Wis 13, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Endurance, Great Fortitude, Skill Focus (Perception)
+Skills: Perception +12
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +8 (2d6+9)
-
-**Pow Ch:** gore, 4d6+12
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 10, Con 19, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Endurance, Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Perception +12
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

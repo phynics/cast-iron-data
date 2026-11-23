@@ -33,83 +33,64 @@ abilities = ["17", "17", "-", "12", "14", "1"]
 _A soft whirring noise accompanies this flying mechanical creature. Its arms and hands end in
 spindly, multi-jointed fingers, and four circular rotors hold the creature aloft._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 31 (2d10+20)
+Fort: +0
+Ref: +6
+Will: +2
+Defensive abilities: all-around vision, [hardness](ref/umr/hardness) 10, reactive gyros
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: critical hits and electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee: 2 slams +5 (1d4+3 plus [grab](ref/umr/grab))
+Ranged: integrated stun gun +5 (1d8 nonlethal)
+Spec Att: integrated stun gun, integrated tracking
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 17, Con -, Int 12, Wis 14, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Improved Initiative
+Skills: Fly +11, Perception +8
+Racial Modifiers: +4 Perception, +4 Survival to follow or identify tracks
+Languages: Androffan
+Special qualities: adaptive tracker
+:::
 
-**Subtype:** Robot
+### Ecology {#stat-ecology}
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 31 (2d10+20)
-
-**Fort:** +0
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** all-around vision, [hardness](ref/umr/hardness) 10, reactive gyros
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slams +5 (1d4+3 plus [grab](ref/umr/grab))
-
-**Ranged:** integrated stun gun +5 (1d8 nonlethal)
-
-**Spec Att:** integrated stun gun, integrated tracking
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 17, Con -, Int 12, Wis 14, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly +11, Perception +8
-
-**Racial Modifiers:** +4 Perception, +4 Survival to follow or identify tracks
-
-**Languages:** Androffan
-
-**Special qualities:** adaptive tracker
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, pair, or unit (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, pair, or unit (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,69 +30,57 @@ abilities = ["13", "16", "13", "2", "12", "13"]
 _The horns of this goat-like deer grow up and curve around into a pair of massive, spiraling rings
 atop its head._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +6
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 hooves +2 (1d4+1)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 13, Dex 16, Con 13, Int 2, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Nimble Moves, Skill Focus (Perception)
+Skills: Acrobatics +7 (+11 when jumping), Climb +5, Perception +8
+Racial Modifiers: +4 Climb
+Special qualities: surefooted
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 hooves +2 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 13, Int 2, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Nimble Moves, Skill Focus (Perception)
-
-**Skills:** Acrobatics +7 (+11 when jumping), Climb +5, Perception +8
-
-**Racial Modifiers:** +4 Climb
-
-**Special qualities:** surefooted
-
-**Ecology**
-
-**Environment:** temperate hills and plains
-
-**Organization:** solitary, pair, or herd (10-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills and plains
+Organization: solitary, pair, or herd (10-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

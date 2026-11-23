@@ -29,71 +29,58 @@ abilities = ["10", "13", "15", "1", "13", "2"]
 
 _A long tail fitted with a barbed stinger trails from this flat, triangular fish's body._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+blindsense: 30
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +4
+Will: +1
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: swim 40 ft.
+Melee: sting +1 (1d4 plus poison)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 10, Dex 13, Con 15, Int 1, Wis 13, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Skill Focus (Perception)
+Skills: Perception +8, Stealth +5 (+13 in sand or mud), Swim +8
+Racial Modifiers: +8 Stealth in sand or mud
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Melee:** sting +1 (1d4 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 15, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8, Stealth +5 (+13 in sand or mud), Swim +8
-
-**Racial Modifiers:** +8 Stealth in sand or mud
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or flight (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or flight (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

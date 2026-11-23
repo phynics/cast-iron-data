@@ -32,89 +32,66 @@ abilities = ["36", "11", "-", "12", "13", "1"]
 _This towering mechanical humanoid stares down from a soulless violet eye. Its metallic fists
 crackle with electricity._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Targeting array
+Subtype: Robot
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 26
+Touch: 6
+Flat-footed: 26
+AC modifiers: +20 natural, -4 size
+Hit points: 245 (20d10+60\~\~75)
+Fort: +6
+Ref: +6
+Will: +7
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 20, electricity 20, fire 20
+Vulner: critical hits and electricity
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: 2 slams +29 (2d6+13/19-20 plus 1d6 electricity)
+Ranged: 2 integrated heavy laser rifles +16 touch (4d10 fire)
+Reach: 20
+Space: 20
+Spec Att: atomizer, charge fist, combined arms, electromagnetic pulse, vicious
+Trample: 6d6+19, DC 33
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Targeting array
+::: statblock
+Ability scores: Str 36, Dex 11, Con -, Int 12, Wis 13, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: +37 (+41 bull rush, +39 sunder)
+Combat maneuver defense: 47 (49 vs. bull rush, 49 vs. sunder)
+Feats: Awesome Blow, Deadly Aim, Greater Bull Rush, Improved Bull Rush, Improved Critical (slam), Improved Sunder, Point-Blank Shot, Power Attack, Precise Shot, Stunning Assault
+Skills: Climb +17, Disable Device +13, Knowledge (engineering) +24, Perception +24, Sense Motive +13
+Languages: Androffan, Common
+:::
 
-**Subtype:** Robot
+### Ecology {#stat-ecology}
 
-**Experience points:** 51,200
-
-**Armor class:** 26
-
-**Touch:** 6
-
-**Flat-footed:** 26
-
-**AC modifiers:** +20 natural, -4 size
-
-**Hit points:** 245 (20d10+60\~\~75)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +7
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 20, electricity 20, fire 20
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 slams +29 (2d6+13/19-20 plus 1d6 electricity)
-
-**Ranged:** 2 integrated heavy laser rifles +16 touch (4d10 fire)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** atomizer, charge fist, combined arms, electromagnetic pulse, vicious
-
-**Trample:** 6d6+19, DC 33
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 11, Con -, Int 12, Wis 13, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +37 (+41 bull rush, +39 sunder)
-
-**Combat maneuver defense:** 47 (49 vs. bull rush, 49 vs. sunder)
-
-**Feats:** Awesome Blow, Deadly Aim, Greater Bull Rush, Improved Bull Rush, Improved Critical
-(slam), Improved Sunder, Point-Blank Shot, Power Attack, Precise Shot, Stunning Assault
-
-**Skills:** Climb +17, Disable Device +13, Knowledge (engineering) +24, Perception +24, Sense Motive
-+13
-
-**Languages:** Androffan, Common
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

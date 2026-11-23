@@ -29,81 +29,63 @@ abilities = ["7", "15", "13", "10", "12", "10"]
 _This housecat-sized miniature dragon has fine scales, sharp horns, wicked little teeth, and a tail
 tipped with a barbed stinger._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsense: 60
+Type: dragon
+Initiative: +2
+Alignment: Neutral good
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 15 (2d12+2)
+Fort: +4
+Ref: +5
+Will: +4
+Immune: paralysis, sleep
+Sr: 12
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 15 ft., fly 60 ft. (good)
+Melee: sting +6 (1d3-2 plus poison), bite +6 (1d2-2)
+Reach: 0
+Reach P: 5 ft. with tail
+Space: 2-1/2
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 7, Dex 15, Con 13, Int 10, Wis 12, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 10 (14 vs. trip)
+Feats: Weapon Finesse
+Skills: Diplomacy +5, Fly +15, Perception +6
+Racial Modifiers: +4 Stealth (improves to +8 in forests)
+Languages: Draconic; [telepathy](ref/umr/telepathy) (60 ft.)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 15 (2d12+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +4
-
-**Immune:** paralysis, sleep
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 15 ft., fly 60 ft. (good)
-
-**Melee:** sting +6 (1d3-2 plus poison), bite +6 (1d2-2)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tail
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 13, Int 10, Wis 12, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 10 (14 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Diplomacy +5, Fly +15, Perception +6
-
-**Racial Modifiers:** +4 Stealth (improves to +8 in forests)
-
-**Languages:** Draconic; [telepathy](ref/umr/telepathy) (60 ft.)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or clutch (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or clutch (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

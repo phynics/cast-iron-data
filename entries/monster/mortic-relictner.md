@@ -31,99 +31,73 @@ abilities = ["19", "14", "19", "15", "16", "17"]
 _This withered, decrepit dwarf has crumbling skin and wears ancient leather armor but moves with
 eerie agility._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: weathering aura (60 ft.)
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +23
+Senses: Darkvision 60 ft., Ruin sense
+Subtype: Dwarf, Mortic
+Experience points: 19,200
+:::
 
-**aura:** weathering aura (60 ft.)
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 26
+Touch: 13
+Flat-footed: 23
+AC modifiers: +3 armor, +2 Dex, +1 dodge, +10 natural
+Hit points: 162 (17d8+85)
+Fort: +14
+Ref: +9
+Will: +10; +10 vs. environmental effects and traps within bonded ruin
+Defensive abilities: death gasp, negative energy affinity
+Dr: 5/-
+Immune: curses
+Vulner: _consecration_
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 20 ft.
+Melee: adamantine warhammer +16/+11/+6 (1d8+6/×3)
+Spec Att: fatal accident (1/day, 12d6 or 6d6 plus maneuver, DC 21 half)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +20
+At will: meld into stone
+Per day: 3/day: spike stones (DC 17), stone shape\
+1/day: wall of stone
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Ruin sense
+::: statblock
+Ability scores: Str 19, Dex 14, Con 19, Int 15, Wis 16, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +16 (+20 bull rush, +20 sunder)
+Combat maneuver defense: 29 (31 vs. bull rush, 31 vs. sunder)
+Feats: Dodge, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved Sunder, Iron Will, Lightning Reflexes, Power Attack, Toughness
+Skills: Craft (traps) +20, Knowledge (engineering) +19, Perception +23, Stealth +21
+Languages: Common, Dwarven
+Special qualities: ruin bond, unliving nature
+:::
 
-**Subtype:** Dwarf, Mortic
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +3 armor, +2 Dex, +1 dodge, +10 natural
-
-**Hit points:** 162 (17d8+85)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +10; +10 vs. environmental effects and traps within bonded ruin
-
-**Defensive abilities:** death gasp, negative energy affinity
-
-**Dr:** 5/-
-
-**Immune:** curses
-
-**Vulner:** _consecration_
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** adamantine warhammer +16/+11/+6 (1d8+6/×3)
-
-**Spec Att:** fatal accident (1/day, 12d6 or 6d6 plus maneuver, DC 21 half)
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +20
-
-**At will:**
-
-- meld into stone
-
-**Per day:**
-
-- 3/day: spike stones (DC 17), stone shape
-- 1/day: wall of stone
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 19, Int 15, Wis 16, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16 (+20 bull rush, +20 sunder)
-
-**Combat maneuver defense:** 29 (31 vs. bull rush, 31 vs. sunder)
-
-**Feats:** Dodge, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved Sunder, Iron Will,
-Lightning Reflexes, Power Attack, Toughness
-
-**Skills:** Craft (traps) +20, Knowledge (engineering) +19, Perception +23, Stealth +21
-
-**Languages:** Common, Dwarven
-
-**Special qualities:** ruin bond, unliving nature
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary, family (2-6), or clan (7-12)
-
-**Treasure:** Standard (studded leather armor, MA warhammer); other treasure
+::: statblock
+Environment: any ruins
+Organization: solitary, family (2-6), or clan (7-12)
+Treasure: Standard (studded leather armor, MA warhammer); other treasure
+:::
 
 ### Special Abilities
 

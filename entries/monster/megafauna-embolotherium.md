@@ -28,69 +28,57 @@ abilities = ["26", "11", "18", "2", "13", "3"]
 _This creature is reminiscent of a rhinoceros, but instead of pointed horns on its nose, this
 creature possesses a blunt, bony protrusion._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +11
+Ref: +5
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +12 (2d6+12)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 11, Con 18, Int 2, Wis 13, Cha 3
+Base attack bonus: +5
+Combat maneuver bonus: +14
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Diehard, Endurance, Great Fortitude, Power Attack
+Skills: Perception +10, Swim +12
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +12 (2d6+12)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con 18, Int 2, Wis 13, Cha 3
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Diehard, Endurance, Great Fortitude, Power Attack
-
-**Skills:** Perception +10, Swim +12
-
-**Ecology**
-
-**Environment:** any plains
-
-**Organization:** solitary, pair, or herd (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: any plains
+Organization: solitary, pair, or herd (3-9)
+Treasure: None
+:::
 
 ### Description
 

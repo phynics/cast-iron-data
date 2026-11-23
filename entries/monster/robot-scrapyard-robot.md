@@ -31,79 +31,62 @@ abilities = ["17", "8", "-", "5", "10", "1"]
 _Frayed wires and broken-off protrusions sprout from mechanical construct, and one of its salvaged
 arms ends in a spinning blade._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: -1 Dex, +5 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +0
+Will: +1
+Defensive abilities: [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: fall to pieces, vulnerable to critical hits
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +7 (1d4+4) or rotary saw +8 (2d4+4/×3)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 8, Con -, Int 5, Wis 10, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Power Attack, Weapon Focus (rotary saw)
+Skills: Knowledge (engineering) +2, Perception +5
+Languages: Common, Hallit
+Special qualities: repair, staggered
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** -1 Dex, +5 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +1
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** fall to pieces, vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +7 (1d4+4) or rotary saw +8 (2d4+4/×3)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 8, Con -, Int 5, Wis 10, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Power Attack, Weapon Focus (rotary saw)
-
-**Skills:** Knowledge (engineering) +2, Perception +5
-
-**Languages:** Common, Hallit
-
-**Special qualities:** repair, staggered
-
-**Ecology**
-
-**Environment:** any ruin (Numeria)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ruin (Numeria)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

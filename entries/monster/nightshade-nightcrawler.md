@@ -29,118 +29,79 @@ abilities = ["41", "10", "-", "20", "21", "23"]
 _This immense worm is covered with plates of dead-black, chitinous armor. Its toothy maw yawns like
 a cave._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: desecrating aura (30 ft.)
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Perception: +33
+Senses: Darksense, Darkvision 120 ft., Detect magic, Low-light vision
+Subtype: Extraplanar, Nightshade
+tremorsense: 120
+Type: undead
+Experience points: 153,600
+:::
 
-**aura:** desecrating aura (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 33
+Touch: 6
+Flat-footed: 33
+AC modifiers: +27 natural, -4 size
+Hit points: 312 (25d8+200)
+Fort: +16
+Ref: +10
+Will: +23
+Dr: 15/good and silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 29
+Weaknesses: light aversion
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft., burrow 60 ft.
+Ch N En: 9d6, DC 31, 9/day
+E Drain: 1 level, DC 28
+Melee: bite +32 (4d10+18/19-20 plus 4d6 cold and [grab](ref/umr/grab)), sting +32 (4d6+18/19-20 plus 4d6 cold and poison)
+Reach: 20
+Space: 20
+Swallow: 4d10+22 bludgeoning plus energy drain, AC 23, 31 hp
+:::
 
-**Perception:** +33
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: air walk, detect magic, magic fang
+At will: contagion (DC 20), deeper darkness, greater dispel magic, invisibility, unholy blight (DC 20)
+Per day: 3/day: quickened cone of cold (DC 21), confusion (DC 20), haste, hold monster (DC 21)\
+1/day: finger of death (DC 23), mass hold monster (DC 25), plane shift (DC 23), summon (level 8, 6 greater shadows)
+:::
 
-**Senses:** Darksense, Darkvision 120 ft., Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Nightshade
+::: statblock
+Ability scores: Str 41, Dex 10, Con -, Int 20, Wis 21, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +37 (+41 grapple)
+Combat maneuver defense: 47 (can't be tripped)
+Feats: Combat Expertise, Command Undead, Critical Focus, Greater Vital Strike, Improved Critical (bite), Improved Critical (sting), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Staggering Critical, Vital Strike
+Skills: Intimidate +34, Knowledge (arcana) +33, Knowledge (planes) +30, Perception +33, Sense Motive +33, Spellcraft +33, Stealth +16 (+24 in darkness), Swim +40
+Racial Modifiers: +8 Stealth in dim light and darkness
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 6
-
-**Flat-footed:** 33
-
-**AC modifiers:** +27 natural, -4 size
-
-**Hit points:** 312 (25d8+200)
-
-**Fort:** +16
-
-**Ref:** +10
-
-**Will:** +23
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 29
-
-**Weaknesses:** light aversion
-
-**Offense**
-
-**Speed:** 30 ft., burrow 60 ft.
-
-**Ch N En:** 9d6, DC 31, 9/day
-
-**E Drain:** 1 level, DC 28
-
-**Melee:** bite +32 (4d10+18/19-20 plus 4d6 cold and [grab](ref/umr/grab)), sting +32 (4d6+18/19-20
-plus 4d6 cold and poison)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 4d10+22 bludgeoning plus energy drain, AC 23, 31 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- air walk, detect magic, magic fang
-
-**At will:**
-
-- contagion (DC 20), deeper darkness, greater dispel magic, invisibility, unholy blight (DC 20)
-
-**Per day:**
-
-- 3/day: quickened cone of cold (DC 21), confusion (DC 20), haste, hold monster (DC 21)
-- 1/day: finger of death (DC 23), mass hold monster (DC 25), plane shift (DC 23), summon (level 8, 6
-  greater shadows)
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 10, Con -, Int 20, Wis 21, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +37 (+41 grapple)
-
-**Combat maneuver defense:** 47 (can't be tripped)
-
-**Feats:** Combat Expertise, Command Undead, Critical Focus, Greater Vital Strike, Improved Critical
-(bite), Improved Critical (sting), Improved Initiative, Improved Vital Strike, Iron Will, Power
-Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Staggering
-Critical, Vital Strike
-
-**Skills:** Intimidate +34, Knowledge (arcana) +33, Knowledge (planes) +30, Perception +33, Sense
-Motive +33, Spellcraft +33, Stealth +16 (+24 in darkness), Swim +40
-
-**Racial Modifiers:** +8 Stealth in dim light and darkness
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

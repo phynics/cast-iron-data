@@ -35,81 +35,63 @@ abilities = ["20", "13", "-", "10", "13", "1"]
 _Made of what appears to be burnished brass, this construct resembles a suit of armor with a glowing
 glass orb for an eye._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +7 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +2
+Will: +2
+Defensive abilities: [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: slam +9 (1d4+7) or mwk spear +10 (1d8+7/×3 plus 1d6 electricity)
+Ranged: mwk spear +6 (1d8+5/×3)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 13, Con -, Int 10, Wis 13, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Power Attack
+Skills: Craft (any one) +7, Sense Motive +8
+Languages: Common
+Special qualities: adaptive learning, charge weapon, nanite repair
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +7 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +2
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +9 (1d4+7) or mwk spear +10 (1d8+7/×3 plus 1d6 electricity)
-
-**Ranged:** mwk spear +6 (1d8+5/×3)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con -, Int 10, Wis 13, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Power Attack
-
-**Skills:** Craft (any one) +7, Sense Motive +8
-
-**Languages:** Common
-
-**Special qualities:** adaptive learning, charge weapon, nanite repair
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or squad (3-12)
-
-**Treasure:** Standard (mwk spear); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or squad (3-12)
+Treasure: Standard (mwk spear); other treasure
+:::
 
 ### Special Abilities
 

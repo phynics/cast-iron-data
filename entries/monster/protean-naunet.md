@@ -34,111 +34,77 @@ abilities = ["20", "17", "20", "11", "16", "15"]
 _Tentacles tipped with snapping jaws emerge from this serpentine creature's back, complementing the
 vicious maw in its reptilian face._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 3,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +11
+Will: +6
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 5/lawful
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 18
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d6+5
+Melee: bite +14 (1d8+5), tail slap +11 (1d6+2 plus [grab](ref/umr/grab)), 2 tentacles +11 (1d6+2 plus confusion)
+Reach: 10
+Space: 10
+Spec Att: adaptive strike, coalesce chaos
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: detect law
+At will: acid arrow, fog cloud, dimension door, self plus 50 lbs. of objects only, shatter (DC 14)
+Per day: 1/day: chaos hammer (DC 16)
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect law
+::: statblock
+Ability scores: Str 20, Dex 17, Con 20, Int 11, Wis 16, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 28
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Weapon Focus (bite)
+Skills: Acrobatics +15, Fly +9
+Languages: Abyssal, Protean
+Special qualities: [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +6
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 5/lawful
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d6+5
-
-**Melee:** bite +14 (1d8+5), tail slap +11 (1d6+2 plus [grab](ref/umr/grab)), 2 tentacles +11 (1d6+2
-plus confusion)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** adaptive strike, coalesce chaos
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- acid arrow, fog cloud, dimension door, self plus 50 lbs. of objects only, shatter (DC 14)
-
-**Per day:**
-
-- 1/day: chaos hammer (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 20, Int 11, Wis 16, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Weapon Focus
-(bite)
-
-**Skills:** Acrobatics +15, Fly +9
-
-**Languages:** Abyssal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([Limbo](ref/rule/limbo))
-
-**Organization:** solitary, pair, or cacophony (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Limbo](ref/rule/limbo))
+Organization: solitary, pair, or cacophony (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

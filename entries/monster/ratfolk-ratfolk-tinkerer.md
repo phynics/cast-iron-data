@@ -33,55 +33,43 @@ abilities = ["10", "17", "13", "16", "8", "10"]
 _This small, rat-like humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery
 tail._
 
-**Challenge rating:** 1
-
 **Ratfolk [rogue](ref/class/rogue) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +7
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Ratfolk
+Experience points: 400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 size
+Hit points: 16 (2d8+4)
+Fort: +1
+Ref: +6
+Will: -1
+Evasion: present
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Size:** small
-
-**Subtype:** Ratfolk
-
-**Experience points:** 400
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 size
-
-**Hit points:** 16 (2d8+4)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** -1
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk dagger +6 (1d3/19-20)
-
-**Ranged:** light crossbow +5 (1d6/19-20)
-
-**Sneak:** +1d6
-
-**Spec Att:** swarming
+::: statblock
+Speed: 20 ft.
+Melee: mwk dagger +6 (1d3/19-20)
+Ranged: light crossbow +5 (1d6/19-20)
+Sneak: +1d6
+Spec Att: swarming
+:::
 
 ### Tactics
 
@@ -91,33 +79,26 @@ exits.
 **During Combat** The tinkerer shares his space with allies to make sneak attacks. If he needs to
 escape, the tinkerer uses his potion of pass without trace.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 17, Con 13, Int 16, Wis 8, Cha 10
+::: statblock
+Ability scores: Str 10, Dex 17, Con 13, Int 16, Wis 8, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 13
+Feats: Improved Initiative, Weapon Finesse
+Skills: Acrobatics +8 (+4 when jumping), Appraise +8, Climb +5, Use Magic Device +7
+Languages: Common, Gm, Goblin, Undercommon
+Special qualities: rogue talents ([finesse rogue](ref/talent/finesse-rogue)), [trapfinding](ref/ability/trapfinding) +1
+Combat gear: potion of cure light wounds, potion of pass without trace, acid, alchemist's fire, tanglefoot bag, 5 mwk bolts
+Other gear: leather armor, light crossbow with 10 bolts, mwk dagger, mtt, 121 gp
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+4 when jumping), Appraise +8, Climb +5, Use Magic Device +7
-
-**Languages:** Common, Gm, Goblin, Undercommon
-
-**Special qualities:** rogue talents ([finesse rogue](ref/talent/finesse-rogue)),
-[trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** potion of cure light wounds, potion of pass without trace, acid, alchemist's fire,
-tanglefoot bag, 5 mwk bolts
-
-**Other gear:** leather armor, light crossbow with 10 bolts, mwk dagger, mtt, 121 gp
-
-**Ecology**
-
-**Environment:** warm deserts or urban
+::: statblock
+Environment: warm deserts or urban
+:::
 
 ### Description
 

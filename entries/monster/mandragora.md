@@ -33,85 +33,65 @@ abilities = ["15", "18", "17", "8", "13", "10"]
 _This filthy creature resembles a small, wide-mouthed fat child made from leaves, vines, tree bark,
 dirt, and pallid tubers._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +4
+Perception: +9
+Senses: Low-light vision
+Type: plant
+Size: small
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +7
+Will: +2
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 5, cold 5, electricity 10
+Weaknesses: vulnerable to supernatural darkness
+:::
 
-**Perception:** +9
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 40 ft., burrow 10 ft., climb 40 ft.
+B Drain: 1d2 Constitution
+Melee: bite +8 (1d6+2 plus [grab](ref/umr/grab)), 2 slam +8 (1d4+2 plus poison)
+Reach: 5
+Reach P: 10 ft. with slam
+Space: 5
+Spec Att: shriek
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 15, Dex 18, Con 17, Int 8, Wis 13, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 18
+Feats: Lightning Reflexes, Skill Focus (Perception), Weapon Finesse
+Skills: Climb +10, Perception +9, Stealth +14 (+22 in vegetation)
+Racial Modifiers: +8 Stealth in vegetation
+Languages: Abyssal, Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +2
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 5, cold 5, electricity 10
-
-**Weaknesses:** vulnerable to supernatural darkness
-
-**Offense**
-
-**Speed:** 40 ft., burrow 10 ft., climb 40 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +8 (1d6+2 plus [grab](ref/umr/grab)), 2 slam +8 (1d4+2 plus poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with slam
-
-**Space:** 5
-
-**Spec Att:** shriek
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 17, Int 8, Wis 13, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 18
-
-**Feats:** Lightning Reflexes, Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Climb +10, Perception +9, Stealth +14 (+22 in vegetation)
-
-**Racial Modifiers:** +8 Stealth in vegetation
-
-**Languages:** Abyssal, Common
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, pair, or grove (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, pair, or grove (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

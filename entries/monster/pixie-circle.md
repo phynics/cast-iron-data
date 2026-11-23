@@ -30,81 +30,63 @@ abilities = ["21", "7", "18", "6", "15", "10"]
 _Heart-shaped leaves and drooping clusters of purple and pink flowers emitting a faint scent of
 honey and fruit drape over the bone-white trees of a dead grove buried under heavy vines._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Size: huge
+Initiative: -2
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 6
+Flat-footed: 21
+AC modifiers: -2 Dex, +15 natural, -2 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +1
+Will: +7
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: cold 10, fire 10
+:::
 
-**Initiative:** -2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Ranged: 4 vines +11 touch (1d6+5 plus withering)
+Reach: 15
+Space: 15
+Spec Att: hostile teleport
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 7, Con 18, Int 6, Wis 15, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Diehard, Endurance, Iron Will, Skill Focus (Stealth), Weapon Focus (vine)
+Skills: Perception +10, Stealth +1 (+21 in forests and jungles)
+Racial Modifiers: +20 Stealth in forests and jungles
+Languages: Sylvan (can't speak)
+:::
 
-**Type:** plant
+### Ecology {#stat-ecology}
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 6
-
-**Flat-footed:** 21
-
-**AC modifiers:** -2 Dex, +15 natural, -2 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +1
-
-**Will:** +7
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Ranged:** 4 vines +11 touch (1d6+5 plus withering)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** hostile teleport
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 7, Con 18, Int 6, Wis 15, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Diehard, Endurance, Iron Will, Skill Focus (Stealth), Weapon Focus (vine)
-
-**Skills:** Perception +10, Stealth +1 (+21 in forests and jungles)
-
-**Racial Modifiers:** +20 Stealth in forests and jungles
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** temperate forests and jungles
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests and jungles
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

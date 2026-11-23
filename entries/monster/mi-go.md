@@ -34,85 +34,65 @@ abilities = ["16", "20", "21", "25", "14", "15"]
 _This unnaturally graceful creature has a bulbous fungoid lump for a head, spiny insectoid wings,
 and a tangle of spiky, clawed legs._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 30
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Low-light vision
+Type: plant
+Experience points: 2,400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +4 natural
+Hit points: 66 (7d8+35)
+Fort: +10
+Ref: +7
+Will: +4
+Dr: 5/slashing
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Resist: electricity 10, fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Grab: present
+Melee: 4 claws +10 (1d4+3 plus grab)
+Sneak: +2d6
+Spec Att: evisceration
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 20, Con 21, Int 25, Wis 14, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 24 (32 vs. trip)
+Feats: Combat Reflexes, Deceitful, Dodge, Weapon Finesse
+Skills: Bluff +18, Disable Device +12, Disguise +18, Spellcraft +14, Stealth +15
+Racial Modifiers: +4 Bluff, +4 Disguise
+Languages: Aklo, Common, Mi-Go
+Special qualities: deceptive, item creation, [no breath](ref/umr/no-breath), starflight
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +4 natural
-
-**Hit points:** 66 (7d8+35)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +4
-
-**Dr:** 5/slashing
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Grab:** present
-
-**Melee:** 4 claws +10 (1d4+3 plus grab)
-
-**Sneak:** +2d6
-
-**Spec Att:** evisceration
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 20, Con 21, Int 25, Wis 14, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 24 (32 vs. trip)
-
-**Feats:** Combat Reflexes, Deceitful, Dodge, Weapon Finesse
-
-**Skills:** Bluff +18, Disable Device +12, Disguise +18, Spellcraft +14, Stealth +15
-
-**Racial Modifiers:** +4 Bluff, +4 Disguise
-
-**Languages:** Aklo, Common, Mi-Go
-
-**Special qualities:** deceptive, item creation, [no breath](ref/umr/no-breath), starflight
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, scouting party (3-9), or invasion (9-16)
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, scouting party (3-9), or invasion (9-16)
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -34,118 +34,79 @@ abilities = ["28", "35", "27", "24", "28", "31"]
 _The head of this winged, dragon-like beast is crowned with long spines. Sooty feathers cover its
 body._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: fear (30 ft., DC 32)
+Size: huge
+Initiative: +16
+Alignment: Neutral
+Type: outsider
+Perception: +37
+Senses: Darkvision 60 ft., Detect thoughts, Low-light vision, Spiritsense, True seeing
+Subtype: Extraplanar, Psychopomp
+Experience points: 307,200
+:::
 
-**aura:** fear (30 ft., DC 32)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 40
+Touch: 21
+Flat-footed: 27
+AC modifiers: +4 armor, +12 Dex, +1 dodge, +15 natural, -2 size
+Hit points: 337 (25d10+200)
+Fort: +22
+Ref: +20
+Will: +25
+Defensive abilities: lightning drinker
+Dr: 15/adamantine
+Fh: 10
+Immune: cold, electricity, death effects, disease, poison
+Sr: 31
+:::
 
-**Initiative:** +16
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 60 ft. (good)
+Br Weap: 60-ft. cone, 20d6 cold, Reflex DC 30 half, usable every 1d4 rounds; or beetles
+Melee: bite +32 (2d6+9/19-20 plus [grab](ref/umr/grab) and poison), 2 claws +32 (2d6+9), tail slap +30 (2d6+4), 2 wings +30 (1d8+4)
+Reach: 15
+Space: 15
+Spec Att: poison
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: detect thoughts (DC 22), mage armor, true seeing
+At will: greater dispel magic, greater teleport, self plus 50 lbs. of objects only, reincarnate, rest eternal, scrying, share language, telekinesis (DC 25), tongues
+Per day: 3/day: circle of death (DC 26), forcecage (DC 27), miracle (DC 29) (see final judgment), quickened lightning bolt (DC 23), undeath to death (DC 26)\
+1/day: soul bind, summon (level 9, any one CR 19 or lower psychopomp 100%), wail of the banshee (DC 29)
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect thoughts, Low-light vision, Spiritsense, True seeing
+::: statblock
+Ability scores: Str 28, Dex 35, Con 27, Int 24, Wis 28, Cha 31
+Base attack bonus: +25
+Combat maneuver bonus: +36 (+38 bull rush, +40 grapple)
+Combat maneuver defense: 59 (61 vs. bull rush, 63 vs. trip)
+Feats: Combat Reflexes, Dodge, Hover, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Mobility, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (lightning bolt), Spell Penetration, Wind Stance
+Skills: Acrobatics +37 (+41 when jumping), Bluff +38, Diplomacy +35, Fly +40
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Abyssal, Aklo, Celestial, Common, Draconic, Infernal
+Special qualities: final judgment, spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 40
-
-**Touch:** 21
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 armor, +12 Dex, +1 dodge, +15 natural, -2 size
-
-**Hit points:** 337 (25d10+200)
-
-**Fort:** +22
-
-**Ref:** +20
-
-**Will:** +25
-
-**Defensive abilities:** lightning drinker
-
-**Dr:** 15/adamantine
-
-**Fh:** 10
-
-**Immune:** cold, electricity, death effects, disease, poison
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 60 ft. (good)
-
-**Br Weap:** 60-ft. cone, 20d6 cold, Reflex DC 30 half, usable every 1d4 rounds; or beetles
-
-**Melee:** bite +32 (2d6+9/19-20 plus [grab](ref/umr/grab) and poison), 2 claws +32 (2d6+9), tail
-slap +30 (2d6+4), 2 wings +30 (1d8+4)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- detect thoughts (DC 22), mage armor, true seeing
-
-**At will:**
-
-- greater dispel magic, greater teleport, self plus 50 lbs. of objects only, reincarnate, rest
-  eternal, scrying, share language, telekinesis (DC 25), tongues
-
-**Per day:**
-
-- 3/day: circle of death (DC 26), forcecage (DC 27), miracle (DC 29) (see final judgment), quickened
-  lightning bolt (DC 23), undeath to death (DC 26)
-- 1/day: soul bind, summon (level 9, any one CR 19 or lower psychopomp 100%), wail of the banshee
-  (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 35, Con 27, Int 24, Wis 28, Cha 31
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +36 (+38 bull rush, +40 grapple)
-
-**Combat maneuver defense:** 59 (61 vs. bull rush, 63 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Hover, Improved Bull Rush, Improved Critical (bite), Improved
-Initiative, Iron Will, Mobility, Multiattack, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (lightning bolt), Spell Penetration, Wind Stance
-
-**Skills:** Acrobatics +37 (+41 when jumping), Bluff +38, Diplomacy +35, Fly +40
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** final judgment, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Purgatory](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Purgatory](ref/rule/purgatory))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

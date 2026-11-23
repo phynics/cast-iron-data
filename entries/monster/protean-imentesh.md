@@ -34,117 +34,80 @@ abilities = ["24", "17", "18", "23", "18", "21"]
 _This serpentine creature has the lower body of a snake, a humanoid torso, and a bird-like head and
 claws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 9,600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 22
+AC modifiers: +3 Dex, +13 natural, -1 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +7
+Will: +14
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Fh: 5
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 21
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d8+7
+Melee: bite +19 (2d6+7), 2 claws +19 (1d8+7), tail +17 (1d8+3 plus [grab](ref/umr/grab))
+Reach: 10
+Sneak: +4d6
+Space: 10
+Spec Att: inflict warpwave
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: detect law, tongues
+At will: dimension door, self plus 50 lbs. of objects only, make whole, major creation, shatter (DC 17), shrink item
+Per day: 3/day: chaos hammer (DC 19), dispel magic, slow (DC 18)\
+1/day: break enchantment, dispel law (DC 20), haste, polymorph any object (DC 23)
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 17, Con 18, Int 23, Wis 18, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 34 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Improved Feint, Improved Initiative, Iron Will, Multiattack, Persuasive
+Skills: Acrobatics +19, Bluff +21, Diplomacy +25, Disable Device +16, Fly +9
+Languages: Abyssal, Protean; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +13 natural, -1 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +14
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Fh:** 5
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d8+7
-
-**Melee:** bite +19 (2d6+7), 2 claws +19 (1d8+7), tail +17 (1d8+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Sneak:** +4d6
-
-**Space:** 10
-
-**Spec Att:** inflict warpwave
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect law, tongues
-
-**At will:**
-
-- dimension door, self plus 50 lbs. of objects only, make whole, major creation, shatter (DC 17),
-  shrink item
-
-**Per day:**
-
-- 3/day: chaos hammer (DC 19), dispel magic, slow (DC 18)
-- 1/day: break enchantment, dispel law (DC 20), haste, polymorph any object (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 18, Int 23, Wis 18, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 34 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Feint, Improved Initiative, Iron Will,
-Multiattack, Persuasive
-
-**Skills:** Acrobatics +19, Bluff +21, Diplomacy +25, Disable Device +16, Fly +9
-
-**Languages:** Abyssal, Protean; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Limbo](ref/rule/limbo))
-
-**Organization:** solitary, pair, or envoy (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Limbo](ref/rule/limbo))
+Organization: solitary, pair, or envoy (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

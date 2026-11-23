@@ -34,98 +34,72 @@ abilities = ["22", "24", "22", "13", "17", "21"]
 _This skinless creature resembles a horse and its humanoid rider, fused into a single hideous being
 of rage and sickness._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20)
+Type: fey
+Initiative: +7
+Size: large
+Alignment: Neutral evil
+Perception: +17
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 20)
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 15
+AC modifiers: +7 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 104 (11d6+66)
+Fort: +9
+Ref: +16
+Will: +10
+Dr: 10/cold iron
+Immune: disease, poison
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft., swim 50 ft.
+Br Weap: 30-ft. cone, 10d6 damage plus disease, Reflex DC 21 for half, usable every 1d4 rounds
+Melee: mwk longsword +11 (1d8+9/19-20), bite +10 (1d8+6 plus disease), 2 hooves +5 (1d6+3 plus disease)
+Reach: 5
+Space: 10
+Trample: 1d6+9, DC 21
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Per day: 3/day: control water, diminish plants, obscuring mist
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 24, Con 22, Int 13, Wis 17, Cha 21
+Base attack bonus: +5
+Combat maneuver bonus: +12
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Dodge, Lightning Reflexes, Lightning Stance, Mobility, Spring Attack, Wind Stance
+Skills: Acrobatics +21 (+29 when jumping), Escape Artist +21, Intimidate +16, Knowledge (nature) +15, Perception +17, Stealth +17, Swim +28
+Languages: Aklo, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +7 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 104 (11d6+66)
-
-**Fort:** +9
-
-**Ref:** +16
-
-**Will:** +10
-
-**Dr:** 10/cold iron
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 50 ft., swim 50 ft.
-
-**Br Weap:** 30-ft. cone, 10d6 damage plus disease, Reflex DC 21 for half, usable every 1d4 rounds
-
-**Melee:** mwk longsword +11 (1d8+9/19-20), bite +10 (1d8+6 plus disease), 2 hooves +5 (1d6+3 plus
-disease)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 1d6+9, DC 21
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: control water, diminish plants, obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 24, Con 22, Int 13, Wis 17, Cha 21
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Dodge, Lightning Reflexes, Lightning Stance, Mobility, Spring Attack, Wind Stance
-
-**Skills:** Acrobatics +21 (+29 when jumping), Escape Artist +21, Intimidate +16, Knowledge (nature)
-+15, Perception +17, Stealth +17, Swim +28
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious),
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** cold swamps or coastlines
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk longsword); other treasure
+::: statblock
+Environment: cold swamps or coastlines
+Organization: solitary
+Treasure: Standard (mwk longsword); other treasure
+:::
 
 ### Special Abilities
 

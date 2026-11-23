@@ -32,83 +32,66 @@ abilities = ["8", "16", "13", "7", "12", "13"]
 
 _This tiny avian has the head of a humanoid and the body of a brilliantly colored parrot._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Perception: +7
+Senses: Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 13 (3d6+3)
+Fort: +2
+Ref: +6
+Will: +4
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: 2 talons +6 (1d4-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: daze (DC 11)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 8, Dex 16, Con 13, Int 7, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Flyby Attack, Weapon Finesse
+Skills: Acrobatics +9, Disguise +7, Stealth +16
+Languages: Sylvan (prefers to speak gibberish)
+Special qualities: mock
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 13 (3d6+3)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** 2 talons +6 (1d4-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- daze (DC 11)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 13, Int 7, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Flyby Attack, Weapon Finesse
-
-**Skills:** Acrobatics +9, Disguise +7, Stealth +16
-
-**Languages:** Sylvan (prefers to speak gibberish)
-
-**Special qualities:** mock
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, or jape (3-20)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary, pair, or jape (3-20)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

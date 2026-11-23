@@ -32,84 +32,64 @@ abilities = ["12", "23", "23", "14", "14", "13"]
 _A miasmal form roils as barbed tentacles emerge from the central mass, coalescing into razor-sharp
 talons and claws._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 17
+Flat-footed: 15
+AC modifiers: +6 Dex, +1 dodge, +5 natural
+Hit points: 92 (8d10+48)
+Fort: +12
+Ref: +12
+Will: +4
+Defensive abilities: wind defense
+Dr: 10/magic
+Immune: electricity, [elemental](ref/subtype/elemental) traits
+Sr: 19
+Weaknesses: susceptible to cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 20 ft. (good)
+Melee: 4 tentacles +14 (1d4+1 plus [grab](ref/umr/grab))
+Spec Att: deadly embrace
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 12, Dex 23, Con 23, Int 14, Wis 14, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Dodge, Improved Initiative, Mobility, Weapon Finesse
+Skills: Acrobatics +17, Bluff +12, Escape Artist +17, Fly +21, Knowledge (planes) +13, Perception +13, Sense Motive +13, Stealth +17
+Languages: Auran
+Special qualities: gaseous
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 Dex, +1 dodge, +5 natural
-
-**Hit points:** 92 (8d10+48)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +4
-
-**Defensive abilities:** wind defense
-
-**Dr:** 10/magic
-
-**Immune:** electricity, [elemental](ref/subtype/elemental) traits
-
-**Sr:** 19
-
-**Weaknesses:** susceptible to cold
-
-**Offense**
-
-**Speed:** 20 ft., fly 20 ft. (good)
-
-**Melee:** 4 tentacles +14 (1d4+1 plus [grab](ref/umr/grab))
-
-**Spec Att:** deadly embrace
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 23, Con 23, Int 14, Wis 14, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Finesse
-
-**Skills:** Acrobatics +17, Bluff +12, Escape Artist +17, Fly +21, Knowledge (planes) +13,
-Perception +13, Sense Motive +13, Stealth +17
-
-**Languages:** Auran
-
-**Special qualities:** gaseous
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

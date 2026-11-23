@@ -29,65 +29,55 @@ abilities = ["10", "17", "13", "2", "13", "8"]
 _This insectile monster has four legs, a strange propeller-shaped protrusion at the end of its tail,
 and two long, feathery antennae._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Scent metals 90 ft.
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +5 natural
+Hit points: 27 (5d8+5)
+Fort: +2
+Ref: +4
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 10 ft.
+Melee: bite +6 (1d3), antennae +6 touch (rust)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent metals 90 ft.
+::: statblock
+Ability scores: Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Ability Focus (rust), Skill Focus (Perception), Weapon Finesse
+Skills: Climb +8, Perception +12
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +5 natural
-
-**Hit points:** 27 (5d8+5)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 40 ft., climb 10 ft.
-
-**Melee:** bite +6 (1d3), antennae +6 touch (rust)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Ability Focus (rust), Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Climb +8, Perception +12
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or nest (3-10)
-
-**Treasure:** Incidental; no metal treasure
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or nest (3-10)
+Treasure: Incidental; no metal treasure
+:::
 
 ### Special Abilities
 

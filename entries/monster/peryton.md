@@ -33,71 +33,58 @@ abilities = ["17", "16", "17", "11", "14", "12"]
 _This creature has a stag's body, a hawk's wings and talons, and the head of a slavering wolf with a
 rack of sharp antlers on its brow._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +7
+Type: Magical beast
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +7
+Will: +3
+Dr: 5/magic
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: gore +9 (1d6+3/18-20), 2 hooves +3 (1d4+1)
+Spec Att: horrific critical, shadow mark
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 16, Con 17, Int 11, Wis 14, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Weapon Focus (gore)
+Skills: Fly +12, Perception +10, Stealth +9
+Languages: Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +3
-
-**Dr:** 5/magic
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** gore +9 (1d6+3/18-20), 2 hooves +3 (1d4+1)
-
-**Spec Att:** horrific critical, shadow mark
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 17, Int 11, Wis 14, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Weapon Focus (gore)
-
-**Skills:** Fly +12, Perception +10, Stealth +9
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or flock (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or flock (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

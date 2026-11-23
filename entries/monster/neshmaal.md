@@ -32,107 +32,77 @@ abilities = ["-", "25", "22", "9", "15", "24"]
 _This semi-transparent mass of convulsively roiling tentacles and whip-like tendrils hovers in the
 air, giving off an aura of dark, alien menace._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: alien dread (20 ft., DC 23)
+Alignment: Chaotic evil
+Initiative: +11
+Size: large
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Experience points: 19,200
+:::
 
-**aura:** alien dread (20 ft., DC 23)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 16
+AC modifiers: +7 deflection, +7 Dex, +1 dodge, -1 size
+Hit points: 149 (13d10+78)
+Fort: +14
+Ref: +11
+Will: +12
+Immune: cold
+Incorporeal: present
+Resist: electricity 10, fire 10
+Sr: 23
+Vulner: sonic
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** large
+::: statblock
+Speed: fly 50 ft. (perfect)
+E Drain: 1 level, DC 23
+Melee: 3 tendrils +20 (2d8/19-20 plus energy drain)
+Reach: 10
+Space: 10
+Spec Att: kiss of the void
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +21
+Constant: endure elements
+Per day: 3/day: confusion (DC 21), control summoned creature (DC 21)\
+1/day: dominate person (DC 22)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 25, Con 22, Int 9, Wis 15, Cha 24
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 39
+Feats: Dodge, Flyby Attack, Hover, Improved Critical (tendrils), Improved Initiative, Iron Will, Weapon Focus (tendrils)
+Skills: Fly +20, Intimidate +20, Knowledge (planes) +10, Perception +18
+Languages: Aklo; [telepathy](ref/umr/telepathy) 20 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Extraplanar, Incorporeal
+### Ecology {#stat-ecology}
 
-**Experience points:** 19,200
-
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 deflection, +7 Dex, +1 dodge, -1 size
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +12
-
-**Immune:** cold
-
-**Incorporeal:** present
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 23
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**E Drain:** 1 level, DC 23
-
-**Melee:** 3 tendrils +20 (2d8/19-20 plus energy drain)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** kiss of the void
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +21
-
-**Constant:**
-
-- endure elements
-
-**Per day:**
-
-- 3/day: confusion (DC 21), control summoned creature (DC 21)
-- 1/day: dominate person (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 25, Con 22, Int 9, Wis 15, Cha 24
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 39
-
-**Feats:** Dodge, Flyby Attack, Hover, Improved Critical (tendrils), Improved Initiative, Iron Will,
-Weapon Focus (tendrils)
-
-**Skills:** Fly +20, Intimidate +20, Knowledge (planes) +10, Perception +18
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 20 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or congregation (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or congregation (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

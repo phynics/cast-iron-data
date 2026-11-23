@@ -35,108 +35,75 @@ abilities = ["28", "15", "21", "6", "15", "16"]
 _This grotesque creature looks like a gigantic toad with leathery wings, fangs, horns, and three
 bulbous eyes._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Size: huge
+Initiative: +2
+Type: Magical beast
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 22
+AC modifiers: +2 Dex, +14 natural, -2 size
+Hit points: 136 (13d10+65)
+Fort: +13
+Ref: +10
+Will: +8
+Regen: 5 (acid, cold, or fire)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 40 ft., fly 30 ft. (poor)
+Melee: bite +20 (2d6+9), 2 slams +20 (1d8+9) or tongue +20 (1d6+9 plus [grab](ref/umr/grab) and pull)
+Pull: tongue, 5 ft.
+Reach: 15
+Reach P: 45 ft. with tongue
+Space: 15
+Spec Att: crush (DC 21, 2d8+13), vile croak
+Swallow: 2d6+13 bludgeoning damage, AC 17, 13 hp
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: pass without trace, speak with animals
+At will: charm animal (DC 14), create water, sound burst (DC 15)
+Per day: 3/day: control water, fog cloud, gust of wind (DC 15), plant growth, quench (DC 16), soften earth and stone (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 28, Dex 15, Con 21, Int 6, Wis 15, Cha 16
+Base attack bonus: +13
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Awesome Blow, Cleave, Combat Reflexes, Improved Bull Rush, Improved Overrun, Iron Will, Power Attack
+Skills: Acrobatics +9 (+17 when jumping), Fly -6
+Racial Modifiers: +8 Acrobatics when jumping, +8 Perception, +8 Stealth in swamps
+Languages: Boggard; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: [amphibious](ref/umr/amphibious), swamp stride
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +14 natural, -2 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +8
-
-**Regen:** 5 (acid, cold, or fire)
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft., fly 30 ft. (poor)
-
-**Melee:** bite +20 (2d6+9), 2 slams +20 (1d8+9) or tongue +20 (1d6+9 plus [grab](ref/umr/grab) and
-pull)
-
-**Pull:** tongue, 5 ft.
-
-**Reach:** 15
-
-**Reach P:** 45 ft. with tongue
-
-**Space:** 15
-
-**Spec Att:** crush (DC 21, 2d8+13), vile croak
-
-**Swallow:** 2d6+13 bludgeoning damage, AC 17, 13 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- pass without trace, speak with animals
-
-**At will:**
-
-- charm animal (DC 14), create water, sound burst (DC 15)
-
-**Per day:**
-
-- 3/day: control water, fog cloud, gust of wind (DC 15), plant growth, quench (DC 16), soften earth
-  and stone (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con 21, Int 6, Wis 15, Cha 16
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Improved Bull Rush, Improved Overrun, Iron Will,
-Power Attack
-
-**Skills:** Acrobatics +9 (+17 when jumping), Fly -6
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +8 Perception, +8 Stealth in swamps
-
-**Languages:** Boggard; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** [amphibious](ref/umr/amphibious), swamp stride
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate swamps
+Organization: solitary or gang (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

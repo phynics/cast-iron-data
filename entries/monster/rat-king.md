@@ -31,73 +31,59 @@ abilities = ["12", "19", "18", "5", "14", "11"]
 _Squeaks and chittering cries rise from a tangle of diseased rats with their tails knotted
 together._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 1,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +9
+Will: +4
+Immune: critical hits, flanking, effects that target a specific number of creatures
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft., climb 15 ft., swim 15 ft.
+Melee: 5 bites +11 (1d4+1 plus disease)
+Spec Att: disease, plaguebringer
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 19, Con 18, Int 5, Wis 14, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Dodge, Skill Focus (Perception), Weapon Finesse
+Skills: Climb +9
+Racial Modifiers: +4 Diplomacy when influencing rats
+Special qualities: [compression](ref/umr/compression), speak with rats
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +4
-
-**Immune:** critical hits, flanking, effects that target a specific number of creatures
-
-**Offense**
-
-**Speed:** 30 ft., climb 15 ft., swim 15 ft.
-
-**Melee:** 5 bites +11 (1d4+1 plus disease)
-
-**Spec Att:** disease, plaguebringer
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 18, Int 5, Wis 14, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Dodge, Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Climb +9
-
-**Racial Modifiers:** +4 Diplomacy when influencing rats
-
-**Special qualities:** [compression](ref/umr/compression), speak with rats
-
-**Ecology**
-
-**Environment:** any urban or underground
-
-**Organization:** solitary, pack (2-4), or infestation (5-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban or underground
+Organization: solitary, pack (2-4), or infestation (5-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

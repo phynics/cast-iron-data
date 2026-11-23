@@ -30,85 +30,67 @@ abilities = ["29", "26", "25", "10", "15", "10"]
 _This one-eyed, wolf-headed creature walks upright on two hoofed feet. It bares metal fangs while a
 thin, rat-like tail twitches behind it._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +20
+Senses: Scent, See in darkness
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 28
+Touch: 19
+Flat-footed: 19
+AC modifiers: +8 Dex, +1 dodge, +9 natural
+Hit points: 187 (15d10+105)
+Fort: +12
+Ref: +17
+Will: +11
+Dr: 10/cold iron and piercing
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: bite +24 (1d8+13/17-20 plus curse), 2 claws +24 (1d6+9)
+Rend: 2 claws, 1d6+13
+Spec Att: consume prey, cursed bite
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +11
+Per day: 3/day: quickened blur, darkness, slow (DC 13)\
+1/day: air walk, fear (DC 14), haste
+:::
 
-**Senses:** Scent, See in darkness
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 29, Dex 26, Con 25, Int 10, Wis 15, Cha 10
+Base attack bonus: +15
+Combat maneuver bonus: +24 (+28 sunder)
+Combat maneuver defense: 43 (45 vs. sunder)
+Feats: Combat Reflexes, Dodge, Greater Sunder, Improved Critical (bite), Improved Sunder, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blur)
+Skills: Acrobatics +23, Perception +20
+Languages: Common, Undercommon
+:::
 
-**Armor class:** 28
+### Ecology
 
-**Touch:** 19
-
-**Flat-footed:** 19
-
-**AC modifiers:** +8 Dex, +1 dodge, +9 natural
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +12
-
-**Ref:** +17
-
-**Will:** +11
-
-**Dr:** 10/cold iron and piercing
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +24 (1d8+13/17-20 plus curse), 2 claws +24 (1d6+9)
-
-**Rend:** 2 claws, 1d6+13
-
-**Spec Att:** consume prey, cursed bite
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: quickened blur, darkness, slow (DC 13)
-- 1/day: air walk, fear (DC 14), haste
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 26, Con 25, Int 10, Wis 15, Cha 10
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24 (+28 sunder)
-
-**Combat maneuver defense:** 43 (45 vs. sunder)
-
-**Feats:** Combat Reflexes, Dodge, Greater Sunder, Improved Critical (bite), Improved Sunder,
-Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blur)
-
-**Skills:** Acrobatics +23, Perception +20
-
-**Languages:** Common, Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** Double; mostly gems
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or pack (3-6)
+Treasure: Double; mostly gems
+:::
 
 ### Special Abilities
 

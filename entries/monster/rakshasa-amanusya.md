@@ -31,96 +31,71 @@ abilities = ["15", "19", "18", "12", "13", "18"]
 _This lithe dancer would be beautiful were it not for her clawed hands, backward-facing head, and
 long, lolling tongue._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +4
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 2,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 66 (7d10+28)
+Fort: +6
+Ref: +9
+Will: +6
+Dr: 5/good or piercing
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +11 (1d4+2)
+Sneak: +3d6
+Spec Att: detect thoughts (DC 17)
+:::
 
-**Perception:** +11
+::: statblock
+title = "Psychic Magic"
+Caster level: 4
+Concentration: +8
+Power points: 5
+Psychoactive powers: babble, 2 PE, DC 16, blur, 2 PE, deja vu, 1 PE, DC 15, hideous laughter, 1 PE, DC 15, hold person, 2 PE, DC 16, hypnotism, 1 PE, DC 15, id insinuation I, 2 PE, DC 16, paranoia, 1 PE, DC 15
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Rakshasa, Shapechanger
+::: statblock
+Ability scores: Str 15, Dex 19, Con 18, Int 12, Wis 13, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Nimble Moves, Skill Focus (Perform \[dance\]), Step Up, Weapon Finesse
+Skills: Acrobatics +14 (+18 when jumping), Bluff +18, Disguise +22, Perform (dance) +17, Stealth +14
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: beguiling dance, [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), swift change
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +6
-
-**Dr:** 5/good or piercing
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +11 (1d4+2)
-
-**Sneak:** +3d6
-
-**Spec Att:** detect thoughts (DC 17)
-
-**Psychic Magic**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- babble, 2 PE, DC 16, blur, 2 PE, deja vu, 1 PE, DC 15, hideous laughter, 1 PE, DC 15, hold person,
-  2 PE, DC 16, hypnotism, 1 PE, DC 15, id insinuation I, 2 PE, DC 16, paranoia, 1 PE, DC 15
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 19, Con 18, Int 12, Wis 13, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Nimble Moves, Skill Focus (Perform \[dance\]), Step Up, Weapon Finesse
-
-**Skills:** Acrobatics +14 (+18 when jumping), Bluff +18, Disguise +22, Perform (dance) +17, Stealth
-+14
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** beguiling dance, [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), swift change
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or troupe (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or troupe (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

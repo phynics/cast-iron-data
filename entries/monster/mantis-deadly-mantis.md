@@ -30,75 +30,60 @@ abilities = ["36", "18", "21", "-", "11", "5"]
 _This terrifying monstrosity towers taller than the mightiest jungle trees, its forelimbs raised in
 a meditative, deadly stance._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: colossal
+Initiative: +4
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 12,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 25
+Touch: 6
+Flat-footed: 21
+AC modifiers: +4 Dex, +19 natural, -8 size
+Hit points: 152 (16d8+80)
+Fort: +15
+Ref: +9
+Will: +5
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 60 ft.
+Melee: bite +17 (4d6+13), 2 claws +17 (2d8+13 plus [grab](ref/umr/grab))
+Reach: 30
+Reach P: 10 ft. with bite
+Space: 30
+Spec Att: fling, rending mandibles
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 36, Dex 18, Con 21, Int -, Wis 11, Cha 5
+Base attack bonus: +12
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 47 (51 vs. trip)
+Skills: Climb +17, Perception +4
+Racial Modifiers: +4 Climb, +4 Perception
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 6
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +19 natural, -8 size
-
-**Hit points:** 152 (16d8+80)
-
-**Fort:** +15
-
-**Ref:** +9
-
-**Will:** +5
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +17 (4d6+13), 2 claws +17 (2d8+13 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 30
-
-**Spec Att:** fling, rending mandibles
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 18, Con 21, Int -, Wis 11, Cha 5
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 47 (51 vs. trip)
-
-**Skills:** Climb +17, Perception +4
-
-**Racial Modifiers:** +4 Climb, +4 Perception
-
-**Ecology**
-
-**Environment:** tropical jungles (Mediogalti Island)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: tropical jungles (Mediogalti Island)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

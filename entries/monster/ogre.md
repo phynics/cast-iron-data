@@ -31,75 +31,60 @@ abilities = ["21", "8", "15", "6", "10", "7"]
 _This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide
 mouth with ill-fitting teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: large
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 8
+Flat-footed: 17
+AC modifiers: +4 armor, -1 Dex, +5 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +6
+Ref: +0
+Will: +3
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., (40 ft. base)
+Melee: greatclub +7 (2d8+7)
+Ranged: javelin +1 (1d8+5)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 8, Con 15, Int 6, Wis 10, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 18
+Feats: Iron Will, Toughness
+Skills: Climb +7, Perception +5
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 8
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, -1 Dex, +5 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. base)
-
-**Melee:** greatclub +7 (2d8+7)
-
-**Ranged:** javelin +1 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 8, Con 15, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18
-
-**Feats:** Iron Will, Toughness
-
-**Skills:** Climb +7, Perception +5
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** temperate or cold hills
-
-**Organization:** solitary, pair, gang (3-4), or family (5-16)
-
-**Treasure:** Standard (Ah, greatclub, 4 javelins); other treasure
+::: statblock
+Environment: temperate or cold hills
+Organization: solitary, pair, gang (3-4), or family (5-16)
+Treasure: Standard (Ah, greatclub, 4 javelins); other treasure
+:::
 
 ### Description
 

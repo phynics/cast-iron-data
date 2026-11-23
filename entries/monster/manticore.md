@@ -30,75 +30,60 @@ abilities = ["20", "15", "18", "7", "12", "9"]
 _This creature has a vaguely humanoid head, the body of a lion, and the wings of a dragon. Its tail
 ends in long, sharp spikes._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Alignment: Lawful evil
+Type: Magical beast
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +7
+Will: +3
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 50 ft. (clumsy)
+Melee: bite +10 (1d8+5), 2 claws +10 (2d4+5)
+Ranged: 4 spikes +8 (1d6+5)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 7, Wis 12, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Flyby Attack, Hover, Weapon Focus (spikes)
+Skills: Fly -3, Perception +9
+Racial Modifiers: +4 Perception, +4 Survival when tracking
+Languages: Common
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (clumsy)
-
-**Melee:** bite +10 (1d8+5), 2 claws +10 (2d4+5)
-
-**Ranged:** 4 spikes +8 (1d6+5)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Flyby Attack, Hover, Weapon Focus (spikes)
-
-**Skills:** Fly -3, Perception +9
-
-**Racial Modifiers:** +4 Perception, +4 Survival when tracking
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** warm hills and marshes
-
-**Organization:** solitary, pair, or pride (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm hills and marshes
+Organization: solitary, pair, or pride (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

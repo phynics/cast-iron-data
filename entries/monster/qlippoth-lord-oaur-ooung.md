@@ -31,126 +31,85 @@ abilities = ["44", "27", "36", "21", "23", "22"]
 _The sides of this tentacled monstrosity-part jellyfish, part mushroom forest-swell with opaque,
 pulsing blisters._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+aura: cloak of chaos (DC 24)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +12
+Type: outsider
+Perception: +35
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 819,200
+:::
 
-**aura:** cloak of chaos (DC 24)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 40
+Touch: 14
+Flat-footed: 32
+AC modifiers: +4 deflection, +8 Dex, +26 natural, -8 size
+Hit points: 481 (26d10+338)
+Fort: +32
+Ref: +27
+Will: +18
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, reactive swarms
+Dr: 15/cold iron and lawful
+Immune: cold, death effects, mind-affecting effects, poison
+Regen: 15 (lawful)
+Resist: cid 30, electricity 30, fire 30
+Sr: 34
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 20 ft., swim 80 ft., fly 60 ft. (good)
+Constrict: 2d8+17 plus poison
+Melee: slam +35 (6d6+17/19-20 plus poison), 6 tentacles +30 (2d8+8/19-20 plus [grab](ref/umr/grab) and poison)
+Reach: 60
+Reach P: plus prodigious reach
+Space: 60
+Spec Att: blisterwomb, create spawn, horrific appearance (DC 29)
+:::
 
-**Type:** outsider
-
-**Perception:** +35
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
-
-**Experience points:** 819,200
-
-**Armor class:** 40
-
-**Touch:** 14
-
-**Flat-footed:** 32
-
-**AC modifiers:** +4 deflection, +8 Dex, +26 natural, -8 size
-
-**Hit points:** 481 (26d10+338)
-
-**Fort:** +32
-
-**Ref:** +27
-
-**Will:** +18
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, reactive swarms
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** cold, death effects, mind-affecting effects, poison
-
-**Regen:** 15 (lawful)
-
-**Resist:** cid 30, electricity 30, fire 30
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 20 ft., swim 80 ft., fly 60 ft. (good)
-
-**Constrict:** 2d8+17 plus poison
-
-**Melee:** slam +35 (6d6+17/19-20 plus poison), 6 tentacles +30 (2d8+8/19-20 plus
-[grab](ref/umr/grab) and poison)
-
-**Reach:** 60
-
-**Reach P:** plus prodigious reach
-
-**Space:** 60
-
-**Spec Att:** blisterwomb, create spawn, horrific appearance (DC 29)
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +29
-
-**Constant:**
-
-- cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
-
-**At will:**
-
-- black tentacles^M^, cloudkill^M^ (DC 21), control water, desecrate^M^, greater dispel magic,
-  greater teleport
-
-**Per day:**
-
-- 3/day: control plants (DC 24), quickened heal^M^, horrid wilting^M^ (DC 24), plundered power (DC
-  23), vortex (DC 23)
-- 1/day: tsunami^M^ (DC 25), summon qlippoth
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +29
+Constant: cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
+At will: black tentacles^M^, cloudkill^M^ (DC 21), control water, desecrate^M^, greater dispel magic, greater teleport
+Per day: 3/day: control plants (DC 24), quickened heal^M^, horrid wilting^M^ (DC 24), plundered power (DC 23), vortex (DC 23)\
+1/day: tsunami^M^ (DC 25), summon qlippoth
+:::
 
 ###### M {#footnote-m}
 
 Oaur-Ooung can use the mythic version of this ability within her sanctum.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 44, Dex 27, Con 36, Int 21, Wis 23, Cha 22
+::: statblock
+Ability scores: Str 44, Dex 27, Con 36, Int 21, Wis 23, Cha 22
+Base attack bonus: +26
+Combat maneuver bonus: +51 (+53 bull rush)
+Combat maneuver defense: 73 (75 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (slam, tentacle), Improved Initiative, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal), Staggering Critical, Vital Strike
+Skills: Fly +44
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), massive, swarm mastery
+Faith: Oaur-Ooung
+:::
 
-**Base attack bonus:** +26
+### Ecology
 
-**Combat maneuver bonus:** +51 (+53 bull rush)
-
-**Combat maneuver defense:** 73 (75 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Bull Rush,
-Improved Critical (slam, tentacle), Improved Initiative, Improved Vital Strike, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal), Staggering Critical, Vital Strike
-
-**Skills:** Fly +44
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression),
-massive, swarm mastery
-
-**Faith:** Oaur-Ooung
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

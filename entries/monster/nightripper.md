@@ -32,127 +32,84 @@ abilities = ["29", "32", "39", "18", "23", "24"]
 _Twin talons attached to grotesque back-appendages drip blood from this hideously emaciated,
 jackal-legged albino demon._
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+aura: unholy aura (DC 25)
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +36
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,228,800
+:::
 
-**aura:** unholy aura (DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 42
+Touch: 25
+Flat-footed: 31
+AC modifiers: +4 deflection, +11 Dex, +17 natural
+Hit points: 526 (27d10+378)
+Fort: +27
+Ref: +30
+Will: +25
+Dr: 15/cold iron and good
+Immune: charm and compulsion effects, death effects, electricity, poison
+Regen: 15 (good weapons or spells)
+Resist: acid 30, cold 30, fire 30
+Sr: 35
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft.
+Melee: +5 vorpal bastard sword +43/+38/+33/+28 (1d10+18/17-20), claw +31 (2d6+4/19-20 plus 2d6 bleed), 2 talons +31 (1d6+4/19-20 plus 2d6 bleed)
+Reach: 5
+Reach P: 15 ft. with talons
+Sneak: +3d6
+Space: 5
+Spec Att: curse of living death, slowing gaze,, swift cuts, sword mastery
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 25)
+At will: greater dispel magic, greater teleport, phantasmal killer (DC 21), spiked pit (DC 20), telekinesis (DC 22)
+Per day: 3/day: acid pit (DC 21), quickened blade barrier (DC 23), harm (DC 23), hungry pit (DC 22)\
+1/day: reverse gravity, summon (level 9, any demon or combination of demons whose total combined CR is 20 or lower 100%), time stop, weird (DC 26)
+:::
 
-**Perception:** +36
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 1,228,800
-
-**Armor class:** 42
-
-**Touch:** 25
-
-**Flat-footed:** 31
-
-**AC modifiers:** +4 deflection, +11 Dex, +17 natural
-
-**Hit points:** 526 (27d10+378)
-
-**Fort:** +27
-
-**Ref:** +30
-
-**Will:** +25
-
-**Dr:** 15/cold iron and good
-
-**Immune:** charm and compulsion effects, death effects, electricity, poison
-
-**Regen:** 15 (good weapons or spells)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** +5 vorpal bastard sword +43/+38/+33/+28 (1d10+18/17-20), claw +31 (2d6+4/19-20 plus 2d6
-bleed), 2 talons +31 (1d6+4/19-20 plus 2d6 bleed)
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with talons
-
-**Sneak:** +3d6
-
-**Space:** 5
-
-**Spec Att:** curse of living death, slowing gaze,, swift cuts, sword mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- air walk, detect good, detect law, freedom of movement, true seeing, unholy aura (DC 25)
-
-**At will:**
-
-- greater dispel magic, greater teleport, phantasmal killer (DC 21), spiked pit (DC 20), telekinesis
-  (DC 22)
-
-**Per day:**
-
-- 3/day: acid pit (DC 21), quickened blade barrier (DC 23), harm (DC 23), hungry pit (DC 22)
-- 1/day: reverse gravity, summon (level 9, any demon or combination of demons whose total combined
-  CR is 20 or lower 100%), time stop, weird (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 32, Con 39, Int 18, Wis 23, Cha 24
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 61
-
-**Feats:** Combat Expertise, Combat Reflexes, Dazzling Display, Deadly Stroke, Exotic Weapon
-Proficiency (bastard sword)^B^, Greater Feint, Greater Weapon Focus (bastard sword)^B^, Greater
-Weapon Specialization (bastard sword)^B^, Improved Critical (bastard sword, claw, talon), Improved
-Disarm, Improved Feint, Power Attack, Quick Draw, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (blade barrier), Shatter Defenses, Weapon Focus
-(bastard sword)^B^, Weapon Specialization (bastard sword)^B^
-
-**Skills:** Acrobatics +41, Intimidate +37, Knowledge (history, local, religion) +31, Perception
-+36, Sense Motive +36, Stealth +41, Use Magic Device +37
-
-**Languages:** Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** nascent demon lord traits
-
-**Faith:** Nightripper
+::: statblock
+Ability scores: Str 29, Dex 32, Con 39, Int 18, Wis 23, Cha 24
+Base attack bonus: +27
+Combat maneuver bonus: +36
+Combat maneuver defense: 61
+Feats: Combat Expertise, Combat Reflexes, Dazzling Display, Deadly Stroke, Exotic Weapon Proficiency (bastard sword)^B^, Greater Feint, Greater Weapon Focus (bastard sword)^B^, Greater Weapon Specialization (bastard sword)^B^, Improved Critical (bastard sword, claw, talon), Improved Disarm, Improved Feint, Power Attack, Quick Draw, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blade barrier), Shatter Defenses, Weapon Focus (bastard sword)^B^, Weapon Specialization (bastard sword)^B^
+Skills: Acrobatics +41, Intimidate +37, Knowledge (history, local, religion) +31, Perception +36, Sense Motive +36, Stealth +41, Use Magic Device +37
+Languages: Abyssal, Celestial, Common, Draconic; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: nascent demon lord traits
+Faith: Nightripper
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any (Kurnugia)
-
-**Organization:** solitary
-
-**Treasure:** Triple (+5 keen vorpal bastard sword); other treasure
+::: statblock
+Environment: any (Kurnugia)
+Organization: solitary
+Treasure: Triple (+5 keen vorpal bastard sword); other treasure
+:::
 
 ### Special Abilities
 

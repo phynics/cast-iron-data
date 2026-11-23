@@ -30,85 +30,67 @@ abilities = ["10", "15", "10", "3", "13", "11"]
 _This long, serpent-bodied weasel has tusks and a snout similar to that of a boar and a body covered
 with soft, green fur._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., burrow 10 ft., climb 20 ft.
+B Drain: 1 Constitution
+Constrict: 1d6
+Melee: bite +4 (1d6 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Per day: 1/day: create pit (DC 12)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 10, Dex 15, Con 10, Int 3, Wis 13, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2 (+6 grapple)
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Climb +8, Escape Artist +8, Perception +6, Stealth +8
+Racial Modifiers: +6 Escape Artist, +6 Stealth
+Languages: Sylvan (can't speak)
+Special qualities: [compression](ref/umr/compression), pit digger, smell gold
+:::
 
-**Armor class:** 12
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., burrow 10 ft., climb 20 ft.
-
-**B Drain:** 1 Constitution
-
-**Constrict:** 1d6
-
-**Melee:** bite +4 (1d6 plus [grab](ref/umr/grab))
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: create pit (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 10, Int 3, Wis 13, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2 (+6 grapple)
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +8, Escape Artist +8, Perception +6, Stealth +8
-
-**Racial Modifiers:** +6 Escape Artist, +6 Stealth
-
-**Languages:** Sylvan (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression), pit digger, smell gold
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Triple; gold items
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Triple; gold items
+:::
 
 ### Special Abilities
 

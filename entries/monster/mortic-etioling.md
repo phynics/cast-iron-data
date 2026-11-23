@@ -31,105 +31,72 @@ abilities = ["8", "21", "17", "13", "14", "24"]
 _Glowing veins of green creep across the flesh of this pale, spasming gnome. Stifled giggles escape
 her rictus grin._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +9
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Gnome, Mortic
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 27
+Touch: 23
+Flat-footed: 22
+AC modifiers: +4 armor, +7 deflection, +4 Dex, +1 dodge, +1 size
+Hit points: 112 (15d8+45)
+Fort: +12
+Ref: +10
+Will: +9
+Defensive abilities: ectoplasmic shield, negative energy affinity
+:::
 
-**Initiative:** +9
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: 20 ft.
+Melee: corrupting touch +11 (10d6)
+Spec Att: corrupting touch
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 10
+Concentration: +17
+4th-level spells: 2/day: dimension door, greater invisibility
+3rd-level spells: 5/day: confusion (DC 20), crushing despair (DC 20), fear (DC 20), see invisibility
+2nd-level spells: 6/day: darkness, glitterdust (DC 19), hold person (DC 19), minor image (DC 19), silence (DC 19)
+1st-level spells: 7/day: disguise self, feather fall, hideous laughter (DC 18), silent image (DC 18), vanish (DC 18)
+Cantrips: At will: dancing lights, detect magic, ghost sound (DC 17), mage hand, open/close (DC 17), prestidigitation
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Gnome, Mortic
+::: statblock
+Ability scores: Str 8, Dex 21, Con 17, Int 13, Wis 14, Cha 24
+Base attack bonus: +11
+Combat maneuver bonus: +15
+Combat maneuver defense: 32
+Feats: Agile Maneuvers, Combat Casting, Combat Expertise, Dodge, Ectoplasmic Spell, Improved Initiative, Iron Will, Mobility
+Skills: Bluff +17, Intimidate +17, Perception +17, Sense Motive +12, Stealth +21
+Racial Modifiers: +2 Intimidate, +2 Perception
+Languages: Common, Gm, Sylvan
+Special qualities: ghostly gasp, mortic traits, spells
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 23
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 armor, +7 deflection, +4 Dex, +1 dodge, +1 size
-
-**Hit points:** 112 (15d8+45)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +9
-
-**Defensive abilities:** ectoplasmic shield, negative energy affinity
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** corrupting touch +11 (10d6)
-
-**Spec Att:** corrupting touch
-
-**Spells Known**
-
-**Caster level:** 10
-
-**Concentration:** +17
-
-**4th-level spells:**
-
-- 2/day: dimension door, greater invisibility
-
-**3rd-level spells:**
-
-- 5/day: confusion (DC 20), crushing despair (DC 20), fear (DC 20), see invisibility
-
-**2nd-level spells:**
-
-- 6/day: darkness, glitterdust (DC 19), hold person (DC 19), minor image (DC 19), silence (DC 19)
-
-**1st-level spells:**
-
-- 7/day: disguise self, feather fall, hideous laughter (DC 18), silent image (DC 18), vanish (DC 18)
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, ghost sound (DC 17), mage hand, open/close (DC 17),
-  prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 21, Con 17, Int 13, Wis 14, Cha 24
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 32
-
-**Feats:** Agile Maneuvers, Combat Casting, Combat Expertise, Dodge, Ectoplasmic Spell, Improved
-Initiative, Iron Will, Mobility
-
-**Skills:** Bluff +17, Intimidate +17, Perception +17, Sense Motive +12, Stealth +21
-
-**Racial Modifiers:** +2 Intimidate, +2 Perception
-
-**Languages:** Common, Gm, Sylvan
-
-**Special qualities:** ghostly gasp, mortic traits, spells
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or support group (3-5)
-
-**Treasure:** Standard (mwk chain shirt)
+::: statblock
+Environment: any
+Organization: solitary, pair, or support group (3-5)
+Treasure: Standard (mwk chain shirt)
+:::
 
 ### Special Abilities
 

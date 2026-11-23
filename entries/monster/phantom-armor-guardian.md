@@ -32,73 +32,59 @@ abilities = ["14", "13", "-", "7", "11", "10"]
 
 _This suit of armor moves with a warrior's deadly skill despite obviously being empty._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 20
+AC modifiers: +9 armor, +1 Dex, +1 shield
+Hit points: 13 (3d8)
+Fort: +1
+Ref: +2
+Will: +3
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: mwk longsword +5 (1d8+2/19-20) or 2 slams +4 (1d4+2)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 14, Dex 13, Con -, Int 7, Wis 11, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Improved Initiative, Power Attack
+Skills: Perception +6, Stealth +7
+Languages: Common (can't speak)
+Special qualities: [freeze](ref/umr/freeze) (suit of armor)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +9 armor, +1 Dex, +1 shield
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +3
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk longsword +5 (1d8+2/19-20) or 2 slams +4 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con -, Int 7, Wis 11, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Perception +6, Stealth +7
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [freeze](ref/umr/freeze) (suit of armor)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

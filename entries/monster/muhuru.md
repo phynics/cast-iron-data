@@ -30,88 +30,68 @@ abilities = ["25", "20", "21", "4", "19", "10"]
 _This reptilian beast has large fangs, a club-tipped tail, and a large, fin-like sail on its back
 that shimmers radiantly in the light._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 19
+AC modifiers: +5 Dex, +10 natural, -1 size
+Hit points: 136 (13d10+65)
+Fort: +13
+Ref: +13
+Will: +10
+Dr: 15/slashing or piercing
+Immune: blindness
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +19 (4d8+7/19-20), slam +19 (2d8+7 plus overwhelm)
+Reach: 10
+Space: 10
+Spec Att: blinding blast, earth strike
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +13
+Constant: nondetection, pass without trace
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 25, Dex 20, Con 21, Int 4, Wis 19, Cha 10
+Base attack bonus: +13
+Combat maneuver bonus: +21 (+25 bull rush)
+Combat maneuver defense: 36 (38 vs. bull rush, 40 vs. trip)
+Feats: Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite), Iron Will, Power Attack, Vital Strike
+Skills: Perception +20, Swim +15
+Languages: Aklo (can't speak)
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +10 natural, -1 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 15/slashing or piercing
-
-**Immune:** blindness
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +19 (4d8+7/19-20), slam +19 (2d8+7 plus overwhelm)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blinding blast, earth strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +13
-
-**Constant:**
-
-- nondetection, pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con 21, Int 4, Wis 19, Cha 10
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21 (+25 bull rush)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush, 40 vs. trip)
-
-**Feats:** Combat Reflexes, Greater Bull Rush, Improved Bull Rush, Improved Critical (bite), Iron
-Will, Power Attack, Vital Strike
-
-**Skills:** Perception +20, Swim +15
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or pack (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

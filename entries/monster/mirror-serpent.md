@@ -32,87 +32,66 @@ abilities = ["24", "17", "18", "7", "14", "15"]
 _The body of this enormous serpent is covered in mirror-like scales, and a pair of luminous blue
 eyes gazes from a horned head that ends in an elongated, toothy snout._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +8
+Will: +4
+Defensive abilities: natural invisibility, reflective skin
+Dr: 5/magic
+Resist: cold 5, electricity 5
+Sr: 16
+Vulner: sonic
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 40 ft., fly 60 ft. (good)
+Melee: bite +12 (1d8+10 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: thrash (1d8+10, 20 ft.)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 17, Con 18, Int 7, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+18 when grappling)
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Flyby Attack, Power Attack, Vital Strike
+Skills: Acrobatics +6, Fly +10
+Languages: Azlanti (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +4
-
-**Defensive abilities:** natural invisibility, reflective skin
-
-**Dr:** 5/magic
-
-**Resist:** cold 5, electricity 5
-
-**Sr:** 16
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft., swim 40 ft., fly 60 ft. (good)
-
-**Melee:** bite +12 (1d8+10 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** thrash (1d8+10, 20 ft.)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 18, Int 7, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+18 when grappling)
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Flyby Attack, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +6, Fly +10
-
-**Languages:** Azlanti (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastlines
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

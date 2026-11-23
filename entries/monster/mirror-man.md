@@ -31,97 +31,72 @@ abilities = ["16", "23", "-", "15", "15", "12"]
 _Tall and lean, this hooded figure resembles a human until the terrible face beneath the cowl is
 revealed - nothing but a featureless mirror, reflecting a hard, cold world._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsight: 60
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 11
+AC modifiers: +6 Dex, +1 dodge, +1 natural
+Hit points: 53 (6d10+20)
+Fort: +2
+Ref: +8
+Will: +4
+Dr: 5/bludgeoning
+Fh: 2
+Immune: blindness, gaze attacks, illusions of the pattern subschool, [construct traits](ref/umr/construct-traits)
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: +1 longsword +10/+5 (1d8+4/19-20)
+Ranged: dagger +12/+7 (1d4+3/19-20)
+Sneak: +2d6
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+At will: detect magic, light
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 23, Con -, Int 15, Wis 15, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 26
+Feats: Alertness, Dodge, Quick Draw
+Skills: Knowledge (local) +8, Linguistics +7, Perception +12
+Racial Modifiers: +4 Linguistics, +4 Perception, +4 Sense Motive, +4 Stealth
+Languages: Common (can't speak), Giant (can't speak), Hallit (can't speak), Skald (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: alert master, mirror sight, scrying focus, soul mirror
+:::
 
-**Experience points:** 1,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 18
-
-**Touch:** 17
-
-**Flat-footed:** 11
-
-**AC modifiers:** +6 Dex, +1 dodge, +1 natural
-
-**Hit points:** 53 (6d10+20)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +4
-
-**Dr:** 5/bludgeoning
-
-**Fh:** 2
-
-**Immune:** blindness, gaze attacks, illusions of the pattern subschool,
-[construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 longsword +10/+5 (1d8+4/19-20)
-
-**Ranged:** dagger +12/+7 (1d4+3/19-20)
-
-**Sneak:** +2d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**At will:**
-
-- detect magic, light
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 23, Con -, Int 15, Wis 15, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 26
-
-**Feats:** Alertness, Dodge, Quick Draw
-
-**Skills:** Knowledge (local) +8, Linguistics +7, Perception +12
-
-**Racial Modifiers:** +4 Linguistics, +4 Perception, +4 Sense Motive, +4 Stealth
-
-**Languages:** Common (can't speak), Giant (can't speak), Hallit (can't speak), Skald (can't speak);
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** alert master, mirror sight, scrying focus, soul mirror
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cell (3-7)
-
-**Treasure:** Standard (+1 longsword, 4 daggers); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cell (3-7)
+Treasure: Standard (+1 longsword, 4 daggers); other treasure
+:::
 
 ### Special Abilities
 

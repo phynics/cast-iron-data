@@ -32,89 +32,67 @@ abilities = ["17", "16", "14", "10", "13", "7"]
 _This fluid creature's roughly humanoid form is composed entirely of thick gobbets of soggy, brown
 mud._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Water
+tremorsense: 30
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 67 (9d10+18)
+Fort: +8
+Ref: +9
+Will: +4
+Amorph: present
+Dr: 10/magic
+Immune: [elemental](ref/subtype/elemental) traits
+Sr: 17
+Weaknesses: vulnerable to magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Engulf: DC 17, 1d6+3 bludgeoning and smother
+Melee: 2 slams +13 (2d6+3 plus [grab](ref/umr/grab))
+Ranged: mudball +12 touch (blindness)
+Smother: present
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 16, Con 14, Int 10, Wis 13, Cha 7
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Lunge, Skill Focus (Stealth), Weapon Focus (slam)
+Skills: Acrobatics +15, Climb +9
+Languages: Terran
+Special qualities: [compression](ref/umr/compression), [freeze](ref/umr/freeze) (mud puddle)
+:::
 
-**Subtype:** Earth, Elemental, Water
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 67 (9d10+18)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +4
-
-**Amorph:** present
-
-**Dr:** 10/magic
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Sr:** 17
-
-**Weaknesses:** vulnerable to magic
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Engulf:** DC 17, 1d6+3 bludgeoning and smother
-
-**Melee:** 2 slams +13 (2d6+3 plus [grab](ref/umr/grab))
-
-**Ranged:** mudball +12 touch (blindness)
-
-**Smother:** present
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 14, Int 10, Wis 13, Cha 7
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Lunge, Skill Focus (Stealth), Weapon Focus (slam)
-
-**Skills:** Acrobatics +15, Climb +9
-
-**Languages:** Terran
-
-**Special qualities:** [compression](ref/umr/compression), [freeze](ref/umr/freeze) (mud puddle)
-
-**Ecology**
-
-**Environment:** temperate or warm marshes or underground
-
-**Organization:** solitary, pair, or gang (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm marshes or underground
+Organization: solitary, pair, or gang (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

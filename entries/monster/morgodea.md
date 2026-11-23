@@ -31,79 +31,62 @@ abilities = ["10", "21", "15", "8", "12", "15"]
 _Amid this hissing cloud of glistening cockroaches is a disheveled vagrant with wasp-like stingers
 extending from its palms._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: cockroach cloud (5 ft.)
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**aura:** cockroach cloud (5 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +5 Dex, +4 natural
+Hit points: 33 (6d6+12)
+Fort: +4
+Ref: +10
+Will: +6
+Immune: mind-affecting effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft.
+Melee: claw +8 (1d6 plus [grab](ref/umr/grab)), 2 stings +7 (1d4 plus morgod jelly)
+Spec Att: morgod jelly, sickening impulse (60 ft, DC 15)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +8
+::: statblock
+Ability scores: Str 10, Dex 21, Con 15, Int 8, Wis 12, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+7 to grapple)
+Combat maneuver defense: 18
+Feats: Multiattack, Weapon Finesse, Weapon Focus (stings)
+Skills: Bluff +11, Disguise +15, Sense Motive +8, Stealth +12
+Racial Modifiers: +4 Disguise
+Languages: Aklo, Common
+Special qualities: cockroach empathy +8
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +4 natural
-
-**Hit points:** 33 (6d6+12)
-
-**Fort:** +4
-
-**Ref:** +10
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** claw +8 (1d6 plus [grab](ref/umr/grab)), 2 stings +7 (1d4 plus morgod jelly)
-
-**Spec Att:** morgod jelly, sickening impulse (60 ft, DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 21, Con 15, Int 8, Wis 12, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+7 to grapple)
-
-**Combat maneuver defense:** 18
-
-**Feats:** Multiattack, Weapon Finesse, Weapon Focus (stings)
-
-**Skills:** Bluff +11, Disguise +15, Sense Motive +8, Stealth +12
-
-**Racial Modifiers:** +4 Disguise
-
-**Languages:** Aklo, Common
-
-**Special qualities:** cockroach empathy +8
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or infestation (3-6)
-
-**Treasure:** Double
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or infestation (3-6)
+Treasure: Double
+:::
 
 ### Special Abilities
 

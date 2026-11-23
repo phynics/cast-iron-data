@@ -31,69 +31,57 @@ abilities = ["26", "11", "18", "2", "11", "5"]
 _This huge, rather slow-moving and sloth-like creature has long, clawed forelimbs and short rear
 legs._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: +9 natural, -1 size
+Hit points: 68 (8d8+32)
+Fort: +10
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d8+8)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 26, Dex 11, Con 18, Int 2, Wis 11, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +15 (+17 bull rush)
+Combat maneuver defense: 25 (27 vs. bull rush, 29 vs. trip)
+Feats: Endurance, Improved Bull Rush, Iron Will, Power Attack
+Skills: Climb +11, Perception +10
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 natural, -1 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d8+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con 18, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15 (+17 bull rush)
-
-**Combat maneuver defense:** 25 (27 vs. bull rush, 29 vs. trip)
-
-**Feats:** Endurance, Improved Bull Rush, Iron Will, Power Attack
-
-**Skills:** Climb +11, Perception +10
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

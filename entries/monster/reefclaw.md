@@ -35,79 +35,62 @@ abilities = ["10", "13", "14", "5", "12", "13"]
 _Blood-red spines run the length of this frightening creature, which resembles a lobster in the
 front and an eel in the back._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Alignment: Chaotic neutral
+Initiative: +5
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +1
+Will: +4
+Ferocity: present
+Resist: cold 5
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 5 ft., swim 40 ft.
+Constrict: 1d4
+Melee: 2 claws +2 (1d4 plus [grab](ref/umr/grab) and poison)
+Spec Att: death frenzy
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 13, Con 14, Int 5, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +0 (+8 grapple)
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Improved Initiative
+Skills: Perception +6, Swim +8
+Languages: Common (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +1
-
-**Will:** +4
-
-**Ferocity:** present
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 5 ft., swim 40 ft.
-
-**Constrict:** 1d4
-
-**Melee:** 2 claws +2 (1d4 plus [grab](ref/umr/grab) and poison)
-
-**Spec Att:** death frenzy
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 14, Int 5, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0 (+8 grapple)
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +6, Swim +8
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any water (coastal)
-
-**Organization:** solitary, school (2-5), or harem (6-11)
-
-**Treasure:** None
+::: statblock
+Environment: any water (coastal)
+Organization: solitary, school (2-5), or harem (6-11)
+Treasure: None
+:::
 
 ### Special Abilities
 

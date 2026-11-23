@@ -30,93 +30,70 @@ abilities = ["8", "24", "13", "15", "15", "14"]
 _This creature resembles a short and slight elf wearing drab clothes and a wicked grin. In a blink,
 the thing darts from sight._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: fey
+Initiative: +7
+Perception: +9
+Senses: Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 20
+Touch: 19
+Flat-footed: 12
+AC modifiers: +7 Dex, +1 dodge, +1 natural, +1 size
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +11
+Will: +6
+Defensive abilities: natural invisibility, supernatural speed
+Dr: 5/cold iron
+Evasion: present
+Uncanny dodge: present
+Weaknesses: slow susceptibility
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 120 ft.
+Melee: short sword +10 (1d4-1/19-20)
+Sneak: +1d6
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 1/day: dancing lights, flare (DC 12), levitate, shatter (DC 14), ventriloquism (DC 13)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 8, Dex 24, Con 13, Int 15, Wis 15, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +0
+Combat maneuver defense: 18
+Feats: Dodge, Mobility, Spring Attack, Weapon Finesse
+Skills: Acrobatics +14 (+50 jump), Bluff +9, Craft (any one) +9, Escape Artist +14, Perception +9, Use Magic Device +7
+Languages: Aklo, Common, Sylvan
+Special qualities: [poison use](ref/ability/poison-use)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 19
-
-**Flat-footed:** 12
-
-**AC modifiers:** +7 Dex, +1 dodge, +1 natural, +1 size
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +11
-
-**Will:** +6
-
-**Defensive abilities:** natural invisibility, supernatural speed
-
-**Dr:** 5/cold iron
-
-**Evasion:** present
-
-**Uncanny dodge:** present
-
-**Weaknesses:** slow susceptibility
-
-**Offense**
-
-**Speed:** 120 ft.
-
-**Melee:** short sword +10 (1d4-1/19-20)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 1/day: dancing lights, flare (DC 12), levitate, shatter (DC 14), ventriloquism (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 24, Con 13, Int 15, Wis 15, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Mobility, Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +14 (+50 jump), Bluff +9, Craft (any one) +9, Escape Artist +14, Perception
-+9, Use Magic Device +7
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** [poison use](ref/ability/poison-use)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, gang (2-5), or band (4-11 plus one advanced leader)
-
-**Treasure:** NPC gear (S short sword); [blue whinnis poison](ref/eq-poison/blue-whinnis) \[4
-doses\], other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, gang (2-5), or band (4-11 plus one advanced leader)
+Treasure: NPC gear (S short sword); [blue whinnis poison](ref/eq-poison/blue-whinnis) \[4 doses\], other treasure
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,61 @@ abilities = ["14", "15", "11", "10", "10", "7"]
 
 _This eerie creature resembles a human with oddly segmented limbs, waxen skin, and doll-like eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 60
+Type: fey
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +7
+Experience points: 400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 14 (4d6)
+Fort: +1
+Ref: +6
+Will: +4
+Dr: 2/cold iron
+Weaknesses: blind
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: dagger +5 (1d4+2/19-20)
+Ranged: dagger +5 (1d4+2/19-20)
+Sneak: +1d6
+Spec Att: improvised weaponry,, steal eyesight
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +7
+::: statblock
+Ability scores: Str 14, Dex 15, Con 11, Int 10, Wis 10, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Skill Focus (Stealth), Weapon Focus (dagger)
+Skills: Bluff +5, Disable Device +6, Disguise +5, Sleight of Hand +9, Stealth +12
+Languages: Common, Sylvan
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 14 (4d6)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 2/cold iron
-
-**Weaknesses:** blind
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +5 (1d4+2/19-20)
-
-**Ranged:** dagger +5 (1d4+2/19-20)
-
-**Sneak:** +1d6
-
-**Spec Att:** improvised weaponry,, steal eyesight
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 11, Int 10, Wis 10, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Skill Focus (Stealth), Weapon Focus (dagger)
-
-**Skills:** Bluff +5, Disable Device +6, Disguise +5, Sleight of Hand +9, Stealth +12
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or family (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or family (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

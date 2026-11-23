@@ -28,71 +28,58 @@ abilities = ["5", "12", "12", "1", "10", "5"]
 
 _The stony-looking hide of this fat reptile ends in a studded, heavy club of a tail._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 120 ft., Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +3
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +3 (1d3-3), tail slap -2 (1d3-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 12, Con 12, Int 1, Wis 10, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +9, Perception +4
+Racial Modifiers: +4 Stealth in rocky areas, +4 Survival
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +3 (1d3-3), tail slap -2 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 12, Con 12, Int 1, Wis 10, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +9, Perception +4
-
-**Racial Modifiers:** +4 Stealth in rocky areas, +4 Survival
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or nest (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or nest (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

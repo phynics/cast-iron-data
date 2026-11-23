@@ -31,101 +31,72 @@ abilities = ["19", "21", "18", "18", "21", "18"]
 _This slim, glowing figure is draped with voluminous gossamer shawls and veils that obscure its
 shape._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: eerie radiance (300 ft., DC 19)
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense 60 ft.
+Subtype: Psychopomp, Extraplanar
+Experience points: 4,800
+:::
 
-**aura:** eerie radiance (300 ft., DC 19)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 16
+AC modifiers: +5 Dex, +1 dodge, +6 natural
+Hit points: 104 (11d8+55)
+Fort: +11
+Ref: +8
+Will: +12
+Dr: 10/adamantine
+Immune: charm, death effects, disease, fire, poison, spells with the light descriptor
+Resist: cold 10, electricity 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 touches +15 (4d6 fire)
+Spec Att: rush of souls
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: continual flame, dancing lights (DC 14), searing light, suggestion (DC 19), whispering wind
+Per day: 1/day: dispel magic, freedom of movement, fly, locate creature, plane shift, slay living (DC 19)
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 21, Con 18, Int 18, Wis 21, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +15
+Combat maneuver defense: 30
+Feats: Ability Focus (suggestion), Dodge, Flyby Attack, Mobility, Toughness
+Skills: Acrobatics +19, Fly +23, Knowledge (geography, planes) +18, Perception +19
+Languages: Abyssal, Celestial, Infernal
+Special qualities: spirit touch
+:::
 
-**Subtype:** Psychopomp, Extraplanar
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +1 dodge, +6 natural
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +12
-
-**Dr:** 10/adamantine
-
-**Immune:** charm, death effects, disease, fire, poison, spells with the light descriptor
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 touches +15 (4d6 fire)
-
-**Spec Att:** rush of souls
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- continual flame, dancing lights (DC 14), searing light, suggestion (DC 19), whispering wind
-
-**Per day:**
-
-- 1/day: dispel magic, freedom of movement, fly, locate creature, plane shift, slay living (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 21, Con 18, Int 18, Wis 21, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 30
-
-**Feats:** Ability Focus (suggestion), Dodge, Flyby Attack, Mobility, Toughness
-
-**Skills:** Acrobatics +19, Fly +23, Knowledge (geography, planes) +18, Perception +19
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** spirit touch
-
-**Ecology**
-
-**Environment:** any ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary, pair, escort (1 ember weaver and 1
-[shoki](ref/monster/psychopomp-shoki)), troupe (1 ember weaver plus 3-10
-[ahmuuths](ref/monster/psychopomp-ahmuuth), [catrinas](ref/monster/psychopomp-catrina),
-[esoboks](ref/monster/psychopomp-esobok), or [nosois](ref/monster/psychopomp-nosoi)), or procession
-(3-12 ember weavers)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary, pair, escort (1 ember weaver and 1 [shoki](ref/monster/psychopomp-shoki)), troupe (1 ember weaver plus 3-10 [ahmuuths](ref/monster/psychopomp-ahmuuth), [catrinas](ref/monster/psychopomp-catrina), [esoboks](ref/monster/psychopomp-esobok), or [nosois](ref/monster/psychopomp-nosoi)), or procession (3-12 ember weavers)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

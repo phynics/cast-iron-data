@@ -33,84 +33,67 @@ _The air around this strange, pale animal sparks with erratic flashes of static 
 body constantly twitching as if filled to capacity with the energy. It suddenly perks up, alert and
 seemingly ready to bolt._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Initiative: +8
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Air, Extraplanar, Shapechanger
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +4 natural, +1 size
+Hit points: 51 (6d10+18)
+Fort: +8
+Ref: +11
+Will: +2
+Immune: electricity
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: 2 claw +8 (1d3+1 plus 1d6 electricity), tail slap +3 (1d4 plus 1d6 electricity)
+Spec Att: shocking burst
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Per day: 3/day: call lightning\
+1/day: control weather, thunderstorm only
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Air, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 12, Dex 19, Con 16, Int 5, Wis 11, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes
+Skills: Acrobatics +10 (+14 when jumping), Fly +19, Perception +9
+Languages: Auran
+Special qualities: change shape, electric body
+:::
 
-**Experience points:** 1,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +4 natural, +1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +2
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** 2 claw +8 (1d3+1 plus 1d6 electricity), tail slap +3 (1d4 plus 1d6 electricity)
-
-**Spec Att:** shocking burst
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Per day:**
-
-- 3/day: call lightning
-- 1/day: control weather, thunderstorm only
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 16, Int 5, Wis 11, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes
-
-**Skills:** Acrobatics +10 (+14 when jumping), Fly +19, Perception +9
-
-**Languages:** Auran
-
-**Special qualities:** change shape, electric body
-
-**Ecology**
-
-**Environment:** any land or sky (lightning storms)
-
-**Organization:** solitary, pair, or group (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land or sky (lightning storms)
+Organization: solitary, pair, or group (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

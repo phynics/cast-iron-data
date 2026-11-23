@@ -30,54 +30,40 @@ abilities = ["18", "14", "-", "11", "13", "17"]
 
 _This desiccated corpse wields a greatsword, its eyes blazing with eerie red light._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 16
+AC modifiers: +2 Dex, +8 natural, -2 rage
+Hit points: 82 (11d8+33)
+Fort: +6
+Ref: +5
+Will: +10; +4 morale bonus vs. spells, supernatural abilities, and [spell-like abilities](ref/umr/spell-like-abilities)
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
-
-**Senses:** Darkvision 60 ft.
-
-**Type:** undead
-
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +8 natural, -2 rage
-
-**Hit points:** 82 (11d8+33)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +10; +4 morale bonus vs. spells, supernatural abilities, and
-[spell-like abilities](ref/umr/spell-like-abilities)
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**E Drain:** 1 level, DC 17
-
-**Melee:** greatsword +12/+7 (2d6+6/17-20 plus energy drain), bite +7 (1d4+2 plus energy drain)
-
-**Ranged:** javelin +10 (1d6+4)
-
-**Spec Att:** create spawn, rage powers ([animal fury](ref/ragepower/animal-fury),
-[intimidating glare](ref/ragepower/intimidating-glare), [knockback](ref/ragepower/knockback),
-[superstition](ref/ragepower/superstition), [unexpected strike](ref/ragepower/unexpected-strike))
+::: statblock
+Speed: 40 ft.
+E Drain: 1 level, DC 17
+Melee: greatsword +12/+7 (2d6+6/17-20 plus energy drain), bite +7 (1d4+2 plus energy drain)
+Ranged: javelin +10 (1d6+4)
+Spec Att: create spawn, rage powers ([animal fury](ref/ragepower/animal-fury), [intimidating glare](ref/ragepower/intimidating-glare), [knockback](ref/ragepower/knockback), [superstition](ref/ragepower/superstition), [unexpected strike](ref/ragepower/unexpected-strike))
+:::
 
 ### Tactics
 
@@ -86,34 +72,27 @@ flat-footed 18 (+1 Dex, +8 natural); hp 49 (11d8); Fort +3, Will +8; Melee mwk g
 (2d6+1/17-20 plus energy drain); Ranged javelin +9 (1d6+4); Str 12, Cha 11; CMB +9; CMD 21; Skills
 Climb +15, Intimidate +11
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 14, Con -, Int 11, Wis 13, Cha 17
+::: statblock
+Ability scores: Str 18, Dex 14, Con -, Int 11, Wis 13, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 24
+Feats: Cleave, Furious Focus, Great Cleave, Improved Critical (greatsword), Lunge, Power Attack
+Skills: Climb +18, Intimidate +16, Knowledge (religion) +7, Perception +15, Stealth +20
+Racial Modifiers: +8 Stealth
+Languages: Common
+Gear: greatsword, javelin
+:::
 
-**Base attack bonus:** +8
+### Ecology
 
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24
-
-**Feats:** Cleave, Furious Focus, Great Cleave, Improved Critical (greatsword), Lunge, Power Attack
-
-**Skills:** Climb +18, Intimidate +16, Knowledge (religion) +7, Perception +15, Stealth +20
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Common
-
-**Gear:** greatsword, javelin
-
-**Ecology**
-
-**Environment:** temperate hills (necropolis of Nogortha)
-
-**Organization:** solitary, war band (1 ragewight plus 2-5 [cairn wights](ref/monster/wight)), or
-war clan (2-5 ragewights plus 3-10 cairn wights)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills (necropolis of Nogortha)
+Organization: solitary, war band (1 ragewight plus 2-5 [cairn wights](ref/monster/wight)), or war clan (2-5 ragewights plus 3-10 cairn wights)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,76 +29,60 @@ abilities = ["20", "15", "18", "14", "17", "9"]
 
 _This enormous owl has a silent gracefulness and wisdom about it despite its considerable size._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Size: huge
+Initiative: +5
+Alignment: Lawful neutral
+Type: Magical beast
+Perception: +17
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 16
+AC modifiers: +2 Dex, +8 natural, -2 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +7
+Will: +5
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: 2 claws +9 (2d6+5)
+Reach: 10
+Space: 15
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 14, Wis 17, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +13 (+15 disarm)
+Combat maneuver defense: 25 (27 disarm)
+Feats: Alertness, Combat Expertise, Improved Disarm
+Skills: Fly +11, Knowledge (geography, history) +11, Perception +17, Sense Motive +15, Stealth +9
+Racial Modifiers: +4 Fly, +8 on all Knowledge skills, +8 Perception, +4 Sense Motive, +8 Stealth
+Languages: Sylvan (can't speak); animal [telepathy](ref/umr/telepathy) (30 ft.)
+Special qualities: insightful senses, piercing stare
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +8 natural, -2 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +9 (2d6+5)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 14, Wis 17, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13 (+15 disarm)
-
-**Combat maneuver defense:** 25 (27 disarm)
-
-**Feats:** Alertness, Combat Expertise, Improved Disarm
-
-**Skills:** Fly +11, Knowledge (geography, history) +11, Perception +17, Sense Motive +15, Stealth
-+9
-
-**Racial Modifiers:** +4 Fly, +8 on all Knowledge skills, +8 Perception, +4 Sense Motive, +8 Stealth
-
-**Languages:** Sylvan (can't speak); animal [telepathy](ref/umr/telepathy) (30 ft.)
-
-**Special qualities:** insightful senses, piercing stare
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or roost (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or roost (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

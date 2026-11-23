@@ -32,101 +32,68 @@ abilities = ["26", "18", "26", "16", "13", "14"]
 _This leering, single-horned demon seems emaciated even clad in black dragonhide armor. A viscous
 layer of crimson slime glistens on its flesh, dripping over its armor in red rivulets._
 
-**Challenge rating:** 16
-
 **Male babau assassin 10**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 27
+AC modifiers: +8 armor, +3 Dex, +1 dodge, +1 insight, +8 natural
+Hit points: 236 (7d10+10d8+153\~17)
+Fort: +16
+Ref: +14
+Will: +8; +5 vs. poison
+Defensive abilities: protective slime
+Dr: 10/cold iron or good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 17
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: 20 ft.
+Melee: +2 [corrosive](ref/magic-enh/corrosive) bastard sword +24/+19/+14 (1d10+10/17-20 plus 1d6 acid), bite +22 (1d6+8), claw +22 (1d6+8)
+Sneak: +5d6
+Spec Att: angel of death 1/day, death attack (DC 23), quiet death, rogue talent ([bleeding attack](ref/talent/bleeding-attack)), swift death 1/day, true death (DC 25)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: see invisibility
+At will: darkness, dispel magic, greater teleport, self plus 50 lbs. of objects only
+Per day: 1/day: summon (level 3, 1 babau 40%)
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
+### Statistics
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 27
-
-**AC modifiers:** +8 armor, +3 Dex, +1 dodge, +1 insight, +8 natural
-
-**Hit points:** 236 (7d10+10d8+153\~17)
-
-**Fort:** +16
-
-**Ref:** +14
-
-**Will:** +8; +5 vs. poison
-
-**Defensive abilities:** protective slime
-
-**Dr:** 10/cold iron or good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +2 [corrosive](ref/magic-enh/corrosive) bastard sword +24/+19/+14 (1d10+10/17-20 plus 1d6
-acid), bite +22 (1d6+8), claw +22 (1d6+8)
-
-**Sneak:** +5d6
-
-**Spec Att:** angel of death 1/day, death attack (DC 23), quiet death, rogue talent
-([bleeding attack](ref/talent/bleeding-attack)), swift death 1/day, true death (DC 25)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- darkness, dispel magic, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: summon (level 3, 1 babau 40%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 18, Con 26, Int 16, Wis 13, Cha 14
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 39
-
-**Feats:** Babau Rogue Talent, Combat Reflexes, Dodge, Exotic Weapon Proficiency (bastard sword),
-Flensing Strike, Improved Critical (bastard sword), Improved Initiative, Iron Will, Toughness
-
-**Skills:** Acrobatics +24, Bluff +22, Disguise +16, Sense Motive +21, Stealth +32
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** hidden weapons, hide in plain sight, improved uncanny dodge,
-[poison use](ref/ability/poison-use)
+::: statblock
+Ability scores: Str 26, Dex 18, Con 26, Int 16, Wis 13, Cha 14
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 39
+Feats: Babau Rogue Talent, Combat Reflexes, Dodge, Exotic Weapon Proficiency (bastard sword), Flensing Strike, Improved Critical (bastard sword), Improved Initiative, Iron Will, Toughness
+Skills: Acrobatics +24, Bluff +22, Disguise +16, Sense Motive +21, Stealth +32
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: hidden weapons, hide in plain sight, improved uncanny dodge, [poison use](ref/ability/poison-use)
+:::
 
 ### Description
 

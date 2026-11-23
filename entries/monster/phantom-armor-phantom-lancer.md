@@ -27,73 +27,55 @@ special_qualities = "armor rider, freeze"
 abilities = ["17", "15", "-", "7", "11", "18"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +9 armor, +1 Dex, +2 shield, -1 size
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +5
+Will: +6
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 40 ft., fly 40 ft. (perfect)
+Melee: mwk lance +9/+4 (1d8+4/×3)
+Ranged: longbow +7/+2 (1d8/×3)
+Reach: 10
+Space: 10
+Trample: 1d6+4, DC 17
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 2,400
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +9 armor, +1 Dex, +2 shield, -1 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +6
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (perfect)
-
-**Melee:** mwk lance +9/+4 (1d8+4/×3)
-
-**Ranged:** longbow +7/+2 (1d8/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Trample:** 1d6+4, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con -, Int 7, Wis 11, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Power Attack, Mobility
-
-**Skills:** Perception +12, Stealth +10
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** armor rider, [freeze](ref/umr/freeze)
+::: statblock
+Ability scores: Str 17, Dex 15, Con -, Int 7, Wis 11, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Dodge, Flyby Attack, Improved Initiative, Power Attack, Mobility
+Skills: Perception +12, Stealth +10
+Languages: Common (can't speak)
+Special qualities: armor rider, [freeze](ref/umr/freeze)
+:::
 
 ### Special Abilities
 

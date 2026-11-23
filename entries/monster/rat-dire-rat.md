@@ -30,69 +30,57 @@ abilities = ["10", "17", "13", "2", "13", "4"]
 _This filthy rat is the size of a small dog. It has a coat of coarse fur, a long and scabby tail,
 and two glittering eyes._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 20 ft.
+Melee: bite +1 (1d4 plus disease)
+Spec Att: disease
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 4
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Climb +11
+Racial Modifiers: uses Dex to modify Climb and Swim
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +1 (1d4 plus disease)
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 13, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Climb +11
-
-**Racial Modifiers:** uses Dex to modify Climb and Swim
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or pack (2-20)
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary or pack (2-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

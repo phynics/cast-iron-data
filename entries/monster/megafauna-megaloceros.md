@@ -31,75 +31,62 @@ abilities = ["20", "15", "18", "2", "15", "5"]
 _The massive and majestic elk stands fully the height of a human at its shoulder, and its antlers
 stretch over ten feet across._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 14
+AC modifiers: +2 Dex, +5 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +8
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +7 (2d6+5), 2 hooves +2 (1d4+2)
+Pow Ch: 4d6+7
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +5 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +7 (2d6+5), 2 hooves +2 (1d4+2)
-
-**Pow Ch:** 4d6+7
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 2, Wis 15, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Endurance, Lightning Reflexes, Run^B^
-
-**Skills:** Perception +9
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 2, Wis 15, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Endurance, Lightning Reflexes, Run^B^
+Skills: Perception +9
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold or temperate forest and plains
-
-**Organization:** solitary, pair, or herd (3-50)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate forest and plains
+Organization: solitary, pair, or herd (3-50)
+Treasure: None
+:::
 
 ### Description
 

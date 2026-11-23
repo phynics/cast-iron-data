@@ -33,82 +33,63 @@ abilities = ["14", "16", "14", "12", "12", "8"]
 _This small, rat-like humanoid has a twitching, whiskered snout, pointed ears, and a long, leathery
 tail._
 
-**Challenge rating:** 7
-
 **Ratfolk [ranger](ref/class/ranger) 8**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +3
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision
+Size: small
+Subtype: Ratfolk
+Experience points: 3,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 armor, +3 Dex, +1 dodge, +1 shield, +1 size
+Hit points: 72 (8d10+24)
+Fort: +9
+Ref: +10
+Will: +4
+:::
 
-**Perception:** +14
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft.
+Fav En: animals +2, humans +4
+Melee: +1 two-bladed sword +9/+4 (1d3+4/19-20), mwk two-bladed sword +9/+4 (1d6+1/19-20)
+Ranged: +1 composite longbow +13/+8 (1d6+3/×3)
+Spec Att: combat style (two-weapon), swarming
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Ratfolk
+::: statblock
+Ability scores: Str 14, Dex 16, Con 14, Int 12, Wis 12, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Dodge, Endurance, Exotic Weapon Proficiency (two-bladed sword), Improved Two-Weapon Fighting, Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (two-bladed sword)
+Skills: Climb +9, Knowledge (dungeoneering, geography, nature) +8, Perception +14, Ride +10
+Languages: Common, Gnoll
+Special qualities: [favored terrain](ref/ability/favored-terrain) (desert +4, urban +2), hunter's bond (companions), surface sprinter, swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)
+Combat gear: oil of magic weapon, potion of cure serious wounds
+Other gear: MM chain shirt, +1 cl20+2, +1 mwk -two-bladed sword, Iclk1, 149 gp
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 armor, +3 Dex, +1 dodge, +1 shield, +1 size
-
-**Hit points:** 72 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** animals +2, humans +4
-
-**Melee:** +1 two-bladed sword +9/+4 (1d3+4/19-20), mwk two-bladed sword +9/+4 (1d6+1/19-20)
-
-**Ranged:** +1 composite longbow +13/+8 (1d6+3/×3)
-
-**Spec Att:** combat style (two-weapon), swarming
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 16, Con 14, Int 12, Wis 12, Cha 8
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Endurance, Exotic Weapon Proficiency (two-bladed sword), Improved Two-Weapon
-Fighting, Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (two-bladed sword)
-
-**Skills:** Climb +9, Knowledge (dungeoneering, geography, nature) +8, Perception +14, Ride +10
-
-**Languages:** Common, Gnoll
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (desert +4, urban +2),
-hunter's bond (companions), surface sprinter, swift tracker, track +4,
-[wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** oil of magic weapon, potion of cure serious wounds
-
-**Other gear:** MM chain shirt, +1 cl20+2, +1 mwk -two-bladed sword, Iclk1, 149 gp
-
-**Ecology**
-
-**Environment:** warm deserts or urban
+::: statblock
+Environment: warm deserts or urban
+:::
 
 ### Description
 

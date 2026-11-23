@@ -31,99 +31,72 @@ abilities = ["16", "19", "18", "13", "14", "21"]
 _This emaciated humanoid is barely visible in a swirl of engulfing shadow. Its eyes and mouth reveal
 a burning void within its head._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Evil, Extraplanar
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 26
+Touch: 20
+Flat-footed: 21
+AC modifiers: +5 deflection, +4 Dex, +1 dodge, +6 natural
+Hit points: 133 (14d10+56)
+Fort: +8
+Ref: +15
+Will: +13
+Defensive abilities: dark nimbus
+Immune: blindness, cold, poison
+Resist: acid 10, electricity 10, fire 10
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 2 claws +18 (2d8+3 plus 4d6 cold)
+Spec Att: breath of the void (30-ft. cone, 10d6 cold damage plus slowed, Reflex DC 21 for half, usable every 1d4 rounds), penumbral
+Web: +18 ranged, DC 21, 14 hp
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+At will: deeper darkness, greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: shadow conjuration (DC 19), shadow evocation (DC 20), shadow walk (DC 21), spell turning\
+1/day: greater shadow evocation (DC 23), power word blind
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Evil, Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 19, Con 18, Int 13, Wis 14, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +17
+Combat maneuver defense: 37
+Feats: Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Weapon Finesse
+Skills: Bluff +22, Climb +11, Intimidate +22, Knowledge (planes) +18, Perception +19, Spellcraft +18, Stealth +21, Use Magic Device +22
+Languages: telepathy 120 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 20
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 deflection, +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 133 (14d10+56)
-
-**Fort:** +8
-
-**Ref:** +15
-
-**Will:** +13
-
-**Defensive abilities:** dark nimbus
-
-**Immune:** blindness, cold, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 2 claws +18 (2d8+3 plus 4d6 cold)
-
-**Spec Att:** breath of the void (30-ft. cone, 10d6 cold damage plus slowed, Reflex DC 21 for half,
-usable every 1d4 rounds), penumbral
-
-**Web:** +18 ranged, DC 21, 14 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**At will:**
-
-- deeper darkness, greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: shadow conjuration (DC 19), shadow evocation (DC 20), shadow walk (DC 21), spell turning
-- 1/day: greater shadow evocation (DC 23), power word blind
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 18, Int 13, Wis 14, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 37
-
-**Feats:** Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Spring Attack,
-Weapon Finesse
-
-**Skills:** Bluff +22, Climb +11, Intimidate +22, Knowledge (planes) +18, Perception +19, Spellcraft
-+18, Stealth +21, Use Magic Device +22
-
-**Languages:** telepathy 120 ft.
-
-**Ecology**
-
-**Environment:** any land ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary or gloaming (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary or gloaming (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

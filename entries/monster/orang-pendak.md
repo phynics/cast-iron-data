@@ -32,84 +32,63 @@ abilities = ["17", "14", "13", "6", "12", "10"]
 
 _This hairy humanoid has orange-brown hair, a broad chest, and muscular arms._
 
-**Challenge rating:** 1/2
-
 **Orang-pendak [fighter](ref/class/fighter) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: small
+Subtype: Sasquatch
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 11 (1d10+1)
+Fort: +3
+Ref: +2
+Will: +1
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft.
+Melee: spear +5 (1d6+3/×3)
+Ranged: spear +4 (1d6+3/×3) or bolas +4 (1d3)
+Spec Att: tear apart
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Sasquatch
+::: statblock
+Ability scores: Str 17, Dex 14, Con 13, Int 6, Wis 12, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Power Attack, Skill Focus (Stealth)
+Skills: Climb +7 (+11 in forests), Handle Animal +4 (+8 with apes and monkeys), Stealth +9 (+13 in forests)
+Racial Modifiers: +4 Climb in forests, +4 Handle Animal with apes and monkeys, +4 Stealth in forests
+Languages: Sasquatch
+Special qualities: forest walker, own two feet, simian empathy
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 11 (1d10+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +5 (1d6+3/×3)
-
-**Ranged:** spear +4 (1d6+3/×3) or bolas +4 (1d3)
-
-**Spec Att:** tear apart
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 13, Int 6, Wis 12, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Power Attack, Skill Focus (Stealth)
-
-**Skills:** Climb +7 (+11 in forests), Handle Animal +4 (+8 with apes and monkeys), Stealth +9 (+13
-in forests)
-
-**Racial Modifiers:** +4 Climb in forests, +4 Handle Animal with apes and monkeys, +4 Stealth in
-forests
-
-**Languages:** Sasquatch
-
-**Special qualities:** forest walker, own two feet, simian empathy
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, family (3-7), or tribe (8-30 plus 8-30 noncombatants, 1 chieftain
-\[3rd- to 5th-level hunter or ranger\], 1 shaman \[3rd- to 5th-level druid or shaman\], and 1d4
-[gorillas](ref/monster/ape-gorilla) or 1
-[monkey swarm](ref/carried/bestiary-2/monsters/swarm/primate/monkey))
-
-**Treasure:** NPC gear (spear, 2 -bolas); other treasure
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, family (3-7), or tribe (8-30 plus 8-30 noncombatants, 1 chieftain \[3rd- to 5th-level hunter or ranger\], 1 shaman \[3rd- to 5th-level druid or shaman\], and 1d4 [gorillas](ref/monster/ape-gorilla) or 1 [monkey swarm](ref/carried/bestiary-2/monsters/swarm/primate/monkey))
+Treasure: NPC gear (spear, 2 -bolas); other treasure
+:::
 
 ### Special Abilities
 

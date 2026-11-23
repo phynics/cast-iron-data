@@ -34,84 +34,64 @@ abilities = ["28", "6", "23", "3", "13", "12"]
 _Its stooped stance evoking a gorilla-like frame, this massive beast has six tiny eyes and atrophied
 wings._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: -2 Dex, +22 natural, -1 size
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +8
+Will: +8
+Immune: sleep
+Weaknesses: distracted by beauty
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 20 ft. (clumsy)
+Melee: bite +24 (2d6+9/19-20), 2 claws +24 (1d8+9)
+Reach: 10
+Rend: 2 claws, 1d8+13
+Space: 10
+Spec Att: roar
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 6, Con 23, Int 3, Wis 13, Cha 12
+Base attack bonus: +16
+Combat maneuver bonus: +26 (+28 bull rush)
+Combat maneuver defense: 34 (36 vs. bull rush)
+Feats: Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Iron Will, Iron Will, Power Attack, Skill Focus (Survival), Vital Strike
+Skills: Fly -1, Perception +8 (+16 in territory)
+Racial Modifiers: +8 Perception in territory, +8 Survival in territory
+Languages: Giant (can't speak)
+Special qualities: flight, territorial
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** -2 Dex, +22 natural, -1 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** sleep
-
-**Weaknesses:** distracted by beauty
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (clumsy)
-
-**Melee:** bite +24 (2d6+9/19-20), 2 claws +24 (1d8+9)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+13
-
-**Space:** 10
-
-**Spec Att:** roar
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 6, Con 23, Int 3, Wis 13, Cha 12
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26 (+28 bull rush)
-
-**Combat maneuver defense:** 34 (36 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Improved Critical (bite), Improved Initiative, Improved Iron Will,
-Iron Will, Power Attack, Skill Focus (Survival), Vital Strike
-
-**Skills:** Fly -1, Perception +8 (+16 in territory)
-
-**Racial Modifiers:** +8 Perception in territory, +8 Survival in territory
-
-**Languages:** Giant (can't speak)
-
-**Special qualities:** flight, territorial
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

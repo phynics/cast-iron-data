@@ -29,77 +29,61 @@ abilities = ["19", "10", "15", "7", "10", "8"]
 _With the body of a powerfully built man and the head of a snarling bull, this creature stomps its
 hooves as if preparing to charge._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +0
+Size: large
+Type: Monstrous humanoid
+Perception: +10
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: +5 natural, -1 size
+Hit points: 45 (6d10+12)
+Fort: +6
+Ref: +5
+Will: +5
+Defensive abilities: natural cunning
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: greataxe +9/+4 (3d6+6/×3) and gore +4 (1d6+2)
+Pow Ch: gore +11, 2d6+6
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 10, Con 15, Int 7, Wis 10, Cha 8
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 21
+Feats: Great Fortitude, Improved Bull Rush, Power Attack
+Skills: Intimidate +5, Perception +10
+Racial Modifiers: +4 Perception, +4 Survival
+Languages: Giant
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 natural, -1 size
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +5
-
-**Defensive abilities:** natural cunning
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** greataxe +9/+4 (3d6+6/×3) and gore +4 (1d6+2)
-
-**Pow Ch:** gore +11, 2d6+6
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 15, Int 7, Wis 10, Cha 8
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 21
-
-**Feats:** Great Fortitude, Improved Bull Rush, Power Attack
-
-**Skills:** Intimidate +5, Perception +10
-
-**Racial Modifiers:** +4 Perception, +4 Survival
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** temperate ruins or underground
-
-**Organization:** solitary, pair, or gang (3-4)
-
-**Treasure:** Standard (greataxe); other treasure
+::: statblock
+Environment: temperate ruins or underground
+Organization: solitary, pair, or gang (3-4)
+Treasure: Standard (greataxe); other treasure
+:::
 
 ### Special Abilities
 

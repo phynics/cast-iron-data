@@ -28,75 +28,60 @@ abilities = ["8", "14", "13", "7", "12", "9"]
 
 _The sinuous tail of this cat-sized winged, armless dragon is tipped with a scorpion-like stinger._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: dragon
+Initiative: +2
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 15
+AC modifiers: +2 Dex, +3 Natural, +2 Size
+Hit points: 22 (3d12+3)
+Fort: +4
+Ref: +5
+Will: +4
+Immune: paralysis, sleep
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: sting +7 (1d2-1 plus poison), bite +7 (1d3-1)
+Reach: 0
+Reach P: 5 ft. with sting
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 14, Con 13, Int 7, Wis 12, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 12
+Feats: Flyby Attack, Weapon Finesse
+Skills: Fly +16, Perception +7, Sense Motive +7, Stealth +16
+Languages: Draconic
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +3 Natural, +2 Size
-
-**Hit points:** 22 (3d12+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +4
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** sting +7 (1d2-1 plus poison), bite +7 (1d3-1)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with sting
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 13, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12
-
-**Feats:** Flyby Attack, Weapon Finesse
-
-**Skills:** Fly +16, Perception +7, Sense Motive +7, Stealth +16
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate or warm forests or hills
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm forests or hills
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

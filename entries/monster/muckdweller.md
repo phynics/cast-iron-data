@@ -31,73 +31,59 @@ abilities = ["8", "14", "11", "9", "12", "7"]
 _This bipedal lizard has mottled gray-and-brown flesh. A short dorsal fin runs the length of its
 body and its forelimbs look like hands._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Melee: bite +4 (1d6-1)
+Spec Att: blinding spray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 8, Dex 14, Con 11, Int 9, Wis 12, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Feats: Weapon Finesse
+Skills: Acrobatics +6, Perception +5, Swim +14
+Racial Modifiers: +4 Acrobatics, +4 Swim
+Languages: Draconic
+Special qualities: dextrous swimmer
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Melee:** bite +4 (1d6-1)
-
-**Spec Att:** blinding spray
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 11, Int 9, Wis 12, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +6, Perception +5, Swim +14
-
-**Racial Modifiers:** +4 Acrobatics, +4 Swim
-
-**Languages:** Draconic
-
-**Special qualities:** dextrous swimmer
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary, pack (3-7), or swarm (8-17)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate marshes
+Organization: solitary, pack (3-7), or swarm (8-17)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

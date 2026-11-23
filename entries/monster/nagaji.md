@@ -31,81 +31,64 @@ abilities = ["17", "14", "8", "10", "13", "12"]
 _This dark-scaled reptilian humanoid has lidless eyes, and a serpentine tongue that flickers from a
 fanged, lipless mouth._
 
-**Challenge rating:** 1/2
-
 **Male nagaji [fighter](ref/class/fighter) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful neutral
+Size: medium
+Perception: +4
+Senses: Low-light vision
+Subtype: Reptilian
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 natural
+Hit points: 10 (1d10)
+Fort: +1
+Ref: +2
+Will: +1; +2 vs. mind-affecting effects and poison
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: naginata +5 (1d8+4/×4) or claw +4 (1d4+4)
+Ranged: longbow +3 (1d8/×3)
+Reach: 5
+Reach P: 10 ft. with naginata
+Space: 5
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 17, Dex 14, Con 8, Int 10, Wis 13, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Power Attack, Weapon Focus (naginata)
+Skills: Handle Animal +3, Perception +4
+Racial Modifiers: +2 Handle Animal, +2 Perception
+Languages: Common, Draconic
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 natural
-
-**Hit points:** 10 (1d10)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +1; +2 vs. mind-affecting effects and poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** naginata +5 (1d8+4/×4) or claw +4 (1d4+4)
-
-**Ranged:** longbow +3 (1d8/×3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with naginata
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 8, Int 10, Wis 13, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Power Attack, Weapon Focus (naginata)
-
-**Skills:** Handle Animal +3, Perception +4
-
-**Racial Modifiers:** +2 Handle Animal, +2 Perception
-
-**Languages:** Common, Draconic
-
-**Ecology**
-
-**Environment:** warm forests or hills
-
-**Organization:** solitary, war band (2-12), or clan (12-24)
-
-**Treasure:** NPC gear (leather armor, lb20, -naginata); other treasure
+::: statblock
+Environment: warm forests or hills
+Organization: solitary, war band (2-12), or clan (12-24)
+Treasure: NPC gear (leather armor, lb20, -naginata); other treasure
+:::
 
 ### Description
 

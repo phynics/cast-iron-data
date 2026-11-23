@@ -30,100 +30,71 @@ abilities = ["30", "7", "24", "16", "15", "21"]
 _Its slime-drenched length coiled upon itself in a shuddering mountain, this huge worm's tentacled
 head rises like a snake's._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+blindsight: 100
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +2
+Perception: +25
+Senses: Trace teleport 60 ft.
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 100
+::: statblock
+Armor class: 30
+Touch: 4
+Flat-footed: 30
+AC modifiers: -2 Dex, +26 natural, -4 size
+Hit points: 230 (20d8+140)
+Fort: +15
+Ref: +4
+Will: +16
+Dr: 10/cold iron
+Sr: 26
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Br Weap: 50-ft. cone, 14d10 acid, Reflex DC 27 half, once every 1d4 rounds
+Melee: 4 tongues +21 (3d6+10/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: mind thrust, psychic crush
+Swallow: 2d6+10 plus 2d6 acid, AC 23, hp 23
+:::
 
-**Initiative:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Constant: fly
+At will: detect thoughts (DC 17), charm monster (DC 19), clairvoyance/clairaudience, suggestion (DC 18), telekinesis (DC 20), teleport, poison (DC 19)
+Per day: 3/day: quickened suggestion (DC 18)
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Trace teleport 60 ft.
+::: statblock
+Ability scores: Str 30, Dex 7, Con 24, Int 16, Wis 15, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +29 (+33 grapple)
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Improved Overrun, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
+Languages: Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 4
-
-**Flat-footed:** 30
-
-**AC modifiers:** -2 Dex, +26 natural, -4 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +15
-
-**Ref:** +4
-
-**Will:** +16
-
-**Dr:** 10/cold iron
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Br Weap:** 50-ft. cone, 14d10 acid, Reflex DC 27 half, once every 1d4 rounds
-
-**Melee:** 4 tongues +21 (3d6+10/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** mind thrust, psychic crush
-
-**Swallow:** 2d6+10 plus 2d6 acid, AC 23, hp 23
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- detect thoughts (DC 17), charm monster (DC 19), clairvoyance/clairaudience, suggestion (DC 18),
-  telekinesis (DC 20), teleport, poison (DC 19)
-
-**Per day:**
-
-- 3/day: quickened suggestion (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 7, Con 24, Int 16, Wis 15, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +29 (+33 grapple)
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue),
-Improved Initiative, Improved Overrun, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
-
-**Languages:** Aklo, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or cult (3-5 plus 4-12 charmed slaves of various races)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or cult (3-5 plus 4-12 charmed slaves of various races)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,93 +34,71 @@ abilities = ["-", "26", "-", "23", "25", "25"]
 
 _A cloud of translucent humanoid spirits whirls around this ghostly desiccated corpse._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +12
+Size: medium
+Alignment: Neutral evil
+Perception: +28
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 51,200
+:::
 
-**Initiative:** +12
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 26
+Flat-footed: 17
+AC modifiers: +7 deflection, +8 Dex, +1 dodge
+Hit points: 225 (18d8+144); profane regeneration 5 (electricity or good)
+Fort: +13
+Ref: +16
+Will: +20
+Chan Res: +4
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Resist: acid 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +28
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: incorporeal touch +21 (3d8 plus 1d6 Con drain)
+Spec Att: bound spirits
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+Per day: 3/day: harm (DC 23), slay living (DC 22), telekinesis (DC 22)\
+1/day: antilife shell, wall of force
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 26, Con -, Int 23, Wis 25, Cha 25
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 39
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes, Lunge, Mobility, Toughness
+Skills: Bluff +25, Diplomacy +25, Sense Motive +28, Spellcraft +27, Stealth +29
+Languages: Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: rejuvenation
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 26
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +8 Dex, +1 dodge
-
-**Hit points:** 225 (18d8+144); profane regeneration 5 (electricity or good)
-
-**Fort:** +13
-
-**Ref:** +16
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** incorporeal touch +21 (3d8 plus 1d6 Con drain)
-
-**Spec Att:** bound spirits
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**Per day:**
-
-- 3/day: harm (DC 23), slay living (DC 22), telekinesis (DC 22)
-- 1/day: antilife shell, wall of force
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 26, Con -, Int 23, Wis 25, Cha 25
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 39
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Lightning Reflexes,
-Lunge, Mobility, Toughness
-
-**Skills:** Bluff +25, Diplomacy +25, Sense Motive +28, Spellcraft +27, Stealth +29
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** rejuvenation
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,105 +32,75 @@ abilities = ["18", "15", "19", "15", "16", "16"]
 _This sleek, white-furred hound stands three feet tall at the shoulder. It paws resemble hands and
 its face seems preternaturally wise._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +2
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +26
+Senses: Darkvision 120 ft., Detect evil, Detect magic, Keen senses, Scent, See invisibility
+Subtype: Extraplanar, Good
+Experience points: 6,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +10 natural
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +10
+Will: +9
+Dr: 10/evil
+Immune: fear
+Sr: 20
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Melee: bite +17 (1d6+6 plus [trip](ref/umr/trip))
+Sneak: +6d6
+Sp Extra: 30 ft. while on two legs
+Spec Att: bay (DC 19), lunar light
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+Constant: detect evil, detect magic, see invisibility
+At will: dancing lights
+Per day: 3/day: alter self, mirror image\
+1/day: darkness, dispel magic, greater invisibility, greater shadow conjuration (DC 20), nondetection, obscuring mist
+:::
 
-**Senses:** Darkvision 120 ft., Detect evil, Detect magic, Keen senses, Scent, See invisibility
+### Statistics
 
-**Subtype:** Extraplanar, Good
+::: statblock
+Ability scores: Str 18, Dex 15, Con 19, Int 15, Wis 16, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +16
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Alertness, Dodge, Iron Will, Mobility, Spring Attack, Weapon Focus (bite)
+Skills: Acrobatics +17, Bluff +17, Diplomacy +18, Knowledge (arcana) +13, Perception +26
+Racial Modifiers: +4 Perception, +4 Survival when tracking by scent
+Languages: Celestial (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: lick, plane shift
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +10 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +9
-
-**Dr:** 10/evil
-
-**Immune:** fear
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +17 (1d6+6 plus [trip](ref/umr/trip))
-
-**Sneak:** +6d6
-
-**Sp Extra:** 30 ft. while on two legs
-
-**Spec Att:** bay (DC 19), lunar light
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect evil, detect magic, see invisibility
-
-**At will:**
-
-- dancing lights
-
-**Per day:**
-
-- 3/day: alter self, mirror image
-- 1/day: darkness, dispel magic, greater invisibility, greater shadow conjuration (DC 20),
-  nondetection, obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 19, Int 15, Wis 16, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Alertness, Dodge, Iron Will, Mobility, Spring Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +17, Bluff +17, Diplomacy +18, Knowledge (arcana) +13, Perception +26
-
-**Racial Modifiers:** +4 Perception, +4 Survival when tracking by scent
-
-**Languages:** Celestial (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** lick, plane shift
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or pack (3-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or pack (3-11)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

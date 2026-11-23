@@ -31,77 +31,61 @@ abilities = ["19", "12", "17", "10", "13", "10"]
 _What appeared to be a chest filled with treasure comes to life as it grows long, glistening
 tentacles and a number of sharp teeth._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +5
+Will: +6
+Immune: acid
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: slam, 1d8+6
+Melee: slam +10 (1d8+6 plus adhesive)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 19, Dex 12, Con 17, Int 10, Wis 13, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 20 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (slam)
+Skills: Climb +14, Disguise +10 (+30 when mimicking objects)
+Racial Modifiers: +20 Disguise when mimicking objects
+Languages: Common
+Special qualities: mimic object
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +6
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** slam, 1d8+6
-
-**Melee:** slam +10 (1d8+6 plus adhesive)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 17, Int 10, Wis 13, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (slam)
-
-**Skills:** Climb +14, Disguise +10 (+30 when mimicking objects)
-
-**Racial Modifiers:** +20 Disguise when mimicking objects
-
-**Languages:** Common
-
-**Special qualities:** mimic object
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

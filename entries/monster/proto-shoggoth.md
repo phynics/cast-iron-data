@@ -31,88 +31,68 @@ abilities = ["26", "24", "25", "-", "16", "1"]
 _Half-formed eyes, toothless mouths, gaping throats, and countless other malformed organs constantly
 form and dissolve over this monster's surface._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: +3
+Senses: All-around vision, Low-light vision
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 17
+Flat-footed: 18
+AC modifiers: +7 Dex, +8 natural
+Hit points: 138 (12d8+84)
+Fort: +13
+Ref: +11
+Will: +9
+Dr: 5/-
+Fh: 5
+Immune: blindness, cold, deafness, disease, infestation, mind-affecting effects, [ooze traits](ref/umr/ooze-traits), sonic
+Resist: acid 10, electricity 10, fire 10
+Sr: 22
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 30 ft.
+Constrict: 1d6+8
+Melee: 4 slams +17 (1d6+8 plus [grab](ref/umr/grab))
+Spec Att: create spawn, infect flesh
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** All-around vision, Low-light vision
-
-**tremorsense:** 60
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 Dex, +8 natural
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 5/-
-
-**Fh:** 5
-
-**Immune:** blindness, cold, deafness, disease, infestation, mind-affecting effects,
-[ooze traits](ref/umr/ooze-traits), sonic
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 30 ft.
-
-**Constrict:** 1d6+8
-
-**Melee:** 4 slams +17 (1d6+8 plus [grab](ref/umr/grab))
-
-**Spec Att:** create spawn, infect flesh
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 24, Con 25, Int -, Wis 16, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 34
-
-**Feats:** Great Fortitude^B^, Iron Will^B^
-
-**Skills:** Climb +16
-
-**Special qualities:** [compression](ref/umr/compression), merge
+::: statblock
+Ability scores: Str 26, Dex 24, Con 25, Int -, Wis 16, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 34
+Feats: Great Fortitude^B^, Iron Will^B^
+Skills: Climb +16
+Special qualities: [compression](ref/umr/compression), merge
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology {#stat-ecology}
 
-**Environment:** any
-
-**Organization:** solitary or mass (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or mass (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

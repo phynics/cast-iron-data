@@ -31,104 +31,74 @@ abilities = ["14", "17", "15", "15", "14", "14"]
 _This cackling protean's serpentine body is surrounded by flowing, illuminated script pulled from
 nearby tomes and pages._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +7
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Detect law
+Size: small
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 natural, +1 size
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +7
+Will: +6
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 5/lawful
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d6+2
+Melee: bite +8 (1d6+2 plus 1d2 Wisdom damage), tail +7 (1d6+1 plus [grab](ref/umr/grab))
+Spec Att: garbled thoughts and twisted tongues
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Constant: detect law
+At will: arcane mark, erase (DC 13), dimension door
+Per day: 1/day: explosive runes (DC 15), sepia snake sigil (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Detect law
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 17, Con 15, Int 15, Wis 14, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Improved Initiative, Weapon Focus (bite)
+Skills: Acrobatics +10, Disguise +9, Fly +20
+Languages: Abyssal, Protean
+Special qualities: [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph)), text immersion
+:::
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 natural, +1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +6
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 5/lawful
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d6+2
-
-**Melee:** bite +8 (1d6+2 plus 1d2 Wisdom damage), tail +7 (1d6+1 plus [grab](ref/umr/grab))
-
-**Spec Att:** garbled thoughts and twisted tongues
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- arcane mark, erase (DC 13), dimension door
-
-**Per day:**
-
-- 1/day: explosive runes (DC 15), sepia snake sigil (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 15, Int 15, Wis 14, Cha 14
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Focus (bite)
-
-**Skills:** Acrobatics +10, Disguise +9, Fly +20
-
-**Languages:** Abyssal, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph)), text
-immersion
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or garble (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or garble (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

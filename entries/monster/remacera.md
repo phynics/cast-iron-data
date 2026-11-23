@@ -29,88 +29,68 @@ abilities = ["26", "13", "20", "10", "13", "13"]
 
 _This enormous, fleshy green caterpillar has the face of a serene human woman._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +5
+Size: large
+Perception: +14
+Senses: Low-light vision
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 85 (10d6+50)
+Fort: +8
+Ref: +8
+Will: +8
+Dr: 10/cold iron
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: bite +13 (1d8+12 plus 2d6 sonic)
+Reach: 10
+Space: 10
+Spec Att: new growth, reincarnation
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 3/day: plant growth
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 26, Dex 13, Con 20, Int 10, Wis 13, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +14
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (Bite)
+Skills: Acrobatics +14 (+18 when jumping), Climb +21, Diplomacy +9, Perform (sing) +7, Stealth +10
+Languages: Common, First Speech, Gm
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 85 (10d6+50)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 10/cold iron
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +13 (1d8+12 plus 2d6 sonic)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** new growth, reincarnation
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: plant growth
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 20, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (Bite)
-
-**Skills:** Acrobatics +14 (+18 when jumping), Climb +21, Diplomacy +9, Perform (sing) +7, Stealth
-+10
-
-**Languages:** Common, First Speech, Gm
-
-**Ecology**
-
-**Environment:** any forests and hills (First World)
-
-**Organization:** solitary, pair, or nest (3-4)
-
-**Treasure:** None
+::: statblock
+Environment: any forests and hills (First World)
+Organization: solitary, pair, or nest (3-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

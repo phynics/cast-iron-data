@@ -31,95 +31,70 @@ abilities = ["18", "15", "16", "13", "14", "17"]
 _Covered with mossy growths and creeping vines, this towering creature glides effortlessly across
 the ground. A hood of damp moss and crusty bark conceals the monster's face._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Type: plant
+Senses: All-around vision, Low-light vision, See invisibility
+Subtype: Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 19
+AC modifiers: +2 Dex, +9 natural
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +7
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits), poison
+Regen: 5 (acid)
+Resist: electricity 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 slam +10 (1d6+4)
+Spec Att: envelop, poison cloud
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Constant: see invisibility
+At will: scare (DC 15), scorching ray
+Per day: 3/day: blur, nondetection
+:::
 
-**Senses:** All-around vision, Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 13, Wis 14, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Alertness, Flyby Attack, Improved Initiative, Lightning Reflexes, Point-Blank Shot
+Skills: Fly +14, Knowledge (planes) +3, Perception +16, Sense Motive +10, Stealth +14
+Languages: Infernal, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 2,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +9 natural
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits), poison
-
-**Regen:** 5 (acid)
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slam +10 (1d6+4)
-
-**Spec Att:** envelop, poison cloud
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- scare (DC 15), scorching ray
-
-**Per day:**
-
-- 3/day: blur, nondetection
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 16, Int 13, Wis 14, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative, Lightning Reflexes, Point-Blank Shot
-
-**Skills:** Fly +14, Knowledge (planes) +3, Perception +16, Sense Motive +10, Stealth +14
-
-**Languages:** Infernal, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (Varisia)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Varisia)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,87 +29,68 @@ abilities = ["6", "16", "13", "13", "13", "14"]
 
 _A spiral pattern adorns the hood of this cobra-like serpent. Its gaze betrays a keen intellect._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +6
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 40 ft.
+Melee: bite +8 (1d3-2 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 6
+Concentration: +8
+Power points: 5
+Psychoactive powers: charm person, 1 PE, DC 13, detect thoughts, 2 PE, DC 13, invisibility, 2 PE, self only
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 6, Dex 16, Con 13, Int 13, Wis 13, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 12
+Feats: Skill Focus (Diplomacy), Weapon Finesse
+Skills: Diplomacy +12, Sense Motive +4
+Racial Modifiers: +4 Diplomacy
+Languages: Common
+Special qualities: hypnotic hood, painless bite
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +8 (1d3-2 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Psychic Magic**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- charm person, 1 PE, DC 13, detect thoughts, 2 PE, DC 13, invisibility, 2 PE, self only
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 16, Con 13, Int 13, Wis 13, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12
-
-**Feats:** Skill Focus (Diplomacy), Weapon Finesse
-
-**Skills:** Diplomacy +12, Sense Motive +4
-
-**Racial Modifiers:** +4 Diplomacy
-
-**Languages:** Common
-
-**Special qualities:** hypnotic hood, painless bite
-
-**Ecology**
-
-**Environment:** any temperate or warm
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any temperate or warm
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,108 +30,72 @@ abilities = ["29", "23", "24", "23", "20", "24"]
 _This giant ebon bird is streaked in lines of fiery embers and red lightning, clouds of black smoke
 billowing behind it._
 
-**Challenge rating:** 18
-
 **Female unique phoenix**
 
-**aura:** shroud of flame (20 ft., DC 28)
+::: statblock
+Challenge rating: 18
+aura: shroud of flame (20 ft., DC 28)
+Size: gargantuan
+Initiative: +10
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +39
+Senses: Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+Subtype: Fire
+Experience points: 153,600
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 26
+AC modifiers: +6 Dex, +1 dodge, +20 natural, -4 size
+Hit points: 287 (23d10+161)
+Fort: +20
+Ref: +19
+Will: +14
+Defensive abilities: self-resurrection
+Dr: 15/good
+Immune: fire
+Regen: 10 (cold or good)
+Sr: 29
+Vulner: cold
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Melee: bite +28 (2d8+9 plus 4d6 fire and 4d6 electricity), 2 talons +28 (2d6+9/19-20 plus 4d6 fire)
+Reach: 20
+Space: 20
+:::
 
-**Perception:** +39
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: detect good, detect magic, see invisibility
+At will: bestow curse (DC 21), chain lightning (DC 23), continual flame, greater dispel magic, wall of fire
+Per day: 3/day: fire storm (DC 25), mass inflict critical wounds (DC 25), quickened wall of fire\
+1/day: destruction (DC 24), meteor swarm (DC 26)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Fire
-
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 Dex, +1 dodge, +20 natural, -4 size
-
-**Hit points:** 287 (23d10+161)
-
-**Fort:** +20
-
-**Ref:** +19
-
-**Will:** +14
-
-**Defensive abilities:** self-resurrection
-
-**Dr:** 15/good
-
-**Immune:** fire
-
-**Regen:** 10 (cold or good)
-
-**Sr:** 29
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Melee:** bite +28 (2d8+9 plus 4d6 fire and 4d6 electricity), 2 talons +28 (2d6+9/19-20 plus 4d6
-fire)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- bestow curse (DC 21), chain lightning (DC 23), continual flame, greater dispel magic, wall of fire
-
-**Per day:**
-
-- 3/day: fire storm (DC 25), mass inflict critical wounds (DC 25), quickened wall of fire
-- 1/day: destruction (DC 24), meteor swarm (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 23, Con 24, Int 23, Wis 20, Cha 24
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 53
-
-**Feats:** Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved
-Critical (talon), Improved Initiative, Iron Will, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (wall of fire), Vital Strike
-
-**Skills:** Bluff +30, Fly +30, Intimidate +30, Knowledge (arcana) +29, Perception +39, Sense Motive
-+28, Stealth +20
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Auran, Celestial, Common, Ignan
-
-**Special qualities:** corrupted flames (DC 28)
+::: statblock
+Ability scores: Str 29, Dex 23, Con 24, Int 23, Wis 20, Cha 24
+Base attack bonus: +23
+Combat maneuver bonus: +36
+Combat maneuver defense: 53
+Feats: Blinding Critical, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Improved Critical (talon), Improved Initiative, Iron Will, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (wall of fire), Vital Strike
+Skills: Bluff +30, Fly +30, Intimidate +30, Knowledge (arcana) +29, Perception +39, Sense Motive +28, Stealth +20
+Racial Modifiers: +8 Perception
+Languages: Auran, Celestial, Common, Ignan
+Special qualities: corrupted flames (DC 28)
+:::
 
 ### Description
 

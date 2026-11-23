@@ -35,89 +35,69 @@ abilities = ["7", "16", "13", "12", "13", "18"]
 _This green-skinned fey has webbed hands and feet. Its hair is the color of seaweed, and is
 decorated with shells._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +3
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 9 (2d6+2)
+Fort: +1
+Ref: +6
+Will: +4
+Dr: 5/cold iron
+Sr: 12
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: short sword +5 (1d4-2/19-20)
+Ranged: light crossbow +5 (1d6/19-20)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Per day: 3/day: charm person (DC 15)\
+1/day: water breathing, CL 12th
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 7, Dex 16, Con 13, Int 12, Wis 13, Cha 18
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 11
+Feats: Weapon Finesse
+Skills: Bluff +9, Craft (any one) +5, Sense Motive +5, Stealth +12, Swim +10
+Languages: Aquan, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), [wild empathy](ref/ability/wild-empathy) +14
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 9 (2d6+2)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** short sword +5 (1d4-2/19-20)
-
-**Ranged:** light crossbow +5 (1d6/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Per day:**
-
-- 3/day: charm person (DC 15)
-- 1/day: water breathing, CL 12th
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 16, Con 13, Int 12, Wis 13, Cha 18
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Finesse
-
-**Skills:** Bluff +9, Craft (any one) +5, Sense Motive +5, Stealth +12, Swim +10
-
-**Languages:** Aquan, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [wild empathy](ref/ability/wild-empathy)
-+14
-
-**Ecology**
-
-**Environment:** temperate water
-
-**Organization:** gang (2-4), band (6-11), or tribe (20-80)
-
-**Treasure:** Standard (light crossbow with 20 bolts, short sword); other treasure
+::: statblock
+Environment: temperate water
+Organization: gang (2-4), band (6-11), or tribe (20-80)
+Treasure: Standard (light crossbow with 20 bolts, short sword); other treasure
+:::
 
 ### Special Abilities
 

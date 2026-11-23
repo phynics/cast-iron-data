@@ -32,86 +32,61 @@ abilities = ["24", "14", "17", "9", "16", "8"]
 _This furry hominid's orange eyes blaze not with fury but with wisdom, and the white hair around its
 face is streaked with gray._
 
-**Challenge rating:** 7
-
 **Yeti [monk](ref/class/monk) 5**
 
-**Initiative:** +2
+::: statblock
+Challenge rating: 7
+Initiative: +2
+Size: large
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +12
+Senses: Darkvision 60 ft., Scent
+Subtype: Cold
+Experience points: 3,200
+:::
 
-**Size:** large
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 monk, +3 Wis, +7 natural, -1 size
+Hit points: 93 (6d10+5d8+38\~11)
+Fort: +11
+Ref: +11
+Will: +12; +2 vs. enchantments
+Evasion: present
+Immune: cold, disease
+Vulner: fire
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: 2 +1 claws +17 (1d6+8/19-20 plus 1d6 cold) or +1 flurry of blows +16/+16/+11/+6 (1d6+8/19-20 plus 1d6 cold)
+Reach: 10
+Rend: 2 claws, 1d6+10
+Space: 10
+Spec Att: flurry of blows, frightful gaze (DC 14), stunning fist (6/day, DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Cold
-
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 monk, +3 Wis, +7 natural, -1 size
-
-**Hit points:** 93 (6d10+5d8+38\~11)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +12; +2 vs. enchantments
-
-**Evasion:** present
-
-**Immune:** cold, disease
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** 2 +1 claws +17 (1d6+8/19-20 plus 1d6 cold) or +1 flurry of blows +16/+16/+11/+6
-(1d6+8/19-20 plus 1d6 cold)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+10
-
-**Space:** 10
-
-**Spec Att:** flurry of blows, frightful gaze (DC 14), stunning fist (6/day, DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 14, Con 17, Int 9, Wis 16, Cha 8
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 33
-
-**Feats:** Cleave, Combat Reflexes, Deflect Arrows, Feral Combat Training, Great Fortitude, Improved
-Critical (claw), Improved Unarmed Strike, Power Attack, Stunning Fist, Weapon Focus (claw)
-
-**Skills:** Acrobatics +10 (+23 when jumping), Climb +24, Intimidate +8, Perception +12
-
-**Racial Modifiers:** +13 Acrobatics when jumping, +4 Stealth (+12 in snow)
-
-**Languages:** Aklo
-
-**Special qualities:** fast movement, high jump, ki pool (5 points, magic), maneuver training,
-purity of body, slow fall 20 ft.
-
-**Gear:** Ifist1
+::: statblock
+Ability scores: Str 24, Dex 14, Con 17, Int 9, Wis 16, Cha 8
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 33
+Feats: Cleave, Combat Reflexes, Deflect Arrows, Feral Combat Training, Great Fortitude, Improved Critical (claw), Improved Unarmed Strike, Power Attack, Stunning Fist, Weapon Focus (claw)
+Skills: Acrobatics +10 (+23 when jumping), Climb +24, Intimidate +8, Perception +12
+Racial Modifiers: +13 Acrobatics when jumping, +4 Stealth (+12 in snow)
+Languages: Aklo
+Special qualities: fast movement, high jump, ki pool (5 points, magic), maneuver training, purity of body, slow fall 20 ft.
+Gear: Ifist1
+:::
 
 ### Special Abilities
 

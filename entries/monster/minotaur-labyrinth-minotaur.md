@@ -32,86 +32,65 @@ abilities = ["33", "19", "30", "17", "26", "14"]
 _This hulking minotaur's hooves are clad in imposing steel. The massive beast wears a heavy bronze
 mask that covers most of its face._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 29
+Touch: 13
+Flat-footed: 29
+AC modifiers: +4 Dex, +16 natural, -1 size
+Hit points: 232 (15d10+150)
+Fort: +19
+Ref: +9
+Will: +17
+Defensive abilities: natural cunning
+Resist: fire 20
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 greataxe +26/+21/+16 (3d6+17/19-20/×3), gore +20 (1d8+5) or gore +25 (1d8+16)
+Pow Ch: gore, 2d8+16
+Reach: 10
+Space: 10
+Spec Att: bronze mask, steel-shod hooves
+Trample: 2d6+16, DC 28
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 33, Dex 19, Con 30, Int 17, Wis 26, Cha 14
+Base attack bonus: +15
+Combat maneuver bonus: +27 (+31 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush)
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical (greataxe), Intimidating Prowess, Power Attack, Quick Bull Rush
+Skills: Climb +24, Intimidate +31, Knowledge (engineering) +21, Perception +26
+Languages: Abyssal, Common, Giant
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 76,800
-
-**Armor class:** 29
-
-**Touch:** 13
-
-**Flat-footed:** 29
-
-**AC modifiers:** +4 Dex, +16 natural, -1 size
-
-**Hit points:** 232 (15d10+150)
-
-**Fort:** +19
-
-**Ref:** +9
-
-**Will:** +17
-
-**Defensive abilities:** natural cunning
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 greataxe +26/+21/+16 (3d6+17/19-20/×3), gore +20 (1d8+5) or gore +25 (1d8+16)
-
-**Pow Ch:** gore, 2d8+16
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bronze mask, steel-shod hooves
-
-**Trample:** 2d6+16, DC 28
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 19, Con 30, Int 17, Wis 26, Cha 14
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27 (+31 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical
-(greataxe), Intimidating Prowess, Power Attack, Quick Bull Rush
-
-**Skills:** Climb +24, Intimidate +31, Knowledge (engineering) +21, Perception +26
-
-**Languages:** Abyssal, Common, Giant
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any (Ivory Labyrinth)
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard (+1 greataxe); other treasure
+::: statblock
+Environment: any (Ivory Labyrinth)
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard (+1 greataxe); other treasure
+:::
 
 ### Special Abilities
 

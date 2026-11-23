@@ -31,96 +31,72 @@ abilities = ["16", "21", "24", "9", "19", "16"]
 _This appears to be a mass of floating intestines tangled around a fanged mouth - the tips of its
 coils also end in toothy maws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 19
+AC modifiers: +5 Dex, +9 natural
+Hit points: 125 (10d10+70)
+Fort: +14
+Ref: +12
+Will: +7
+Defensive abilities: acid spray
+Dr: 10/lawful
+Immune: acid, cold, poison, mind-affecting effects
+Resist: electricity 10, fire 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., fly 30 ft. (good)
+Melee: 4 bites +15 (1d6+3/19-20 plus 1d4 acid), bite +15 (2d6+3/19-20 plus 1d4 acid)
+Spec Att: horrific appearance (DC 18)
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: acid arrow
+Per day: 7/day: fear (DC 17), protection from law\
+1/day: acid fog, dimension door
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 16, Dex 21, Con 24, Int 9, Wis 19, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Reflexes, Improved Critical (bite), Power Attack, Vital Strike, Weapon Finesse
+Skills: Fly +22, Intimidate +16, Knowledge (planes) +12, Perception +17, Stealth +18
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: flight
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +9 natural
-
-**Hit points:** 125 (10d10+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +7
-
-**Defensive abilities:** acid spray
-
-**Dr:** 10/lawful
-
-**Immune:** acid, cold, poison, mind-affecting effects
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (good)
-
-**Melee:** 4 bites +15 (1d6+3/19-20 plus 1d4 acid), bite +15 (2d6+3/19-20 plus 1d4 acid)
-
-**Spec Att:** horrific appearance (DC 18)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- acid arrow
-
-**Per day:**
-
-- 7/day: fear (DC 17), protection from law
-- 1/day: acid fog, dimension door
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con 24, Int 9, Wis 19, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Power Attack, Vital Strike, Weapon Finesse
-
-**Skills:** Fly +22, Intimidate +16, Knowledge (planes) +12, Perception +17, Stealth +18
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** flight
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or brood (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or brood (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

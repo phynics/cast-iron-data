@@ -30,111 +30,77 @@ abilities = ["26", "18", "24", "13", "17", "19"]
 _This slippery, writhing mass of tentacles and stalked mouths has one huge hideous eye and a fanged
 maw for a belly._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: misfortune (30 ft.)
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Scent
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 19,200
+:::
 
-**aura:** misfortune (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 23
+AC modifiers: +4 Dex, +14 natural, -1 size
+Hit points: 150 (12d10+84)
+Fort: +15
+Ref: +10
+Will: +11
+Dr: 10/lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+Sr: 23
+Weaknesses: light vulnerability
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19 (2d6+8 plus poison), 2 tentacles +14 (1d6+4)
+Reach: 5
+Reach P: 10 ft. with slams and tentacles
+Space: 10
+Spec Att: horrific appearance (DC 20)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: air walk, arcane sight
+At will: chaos hammer (DC 18), darkness
+Per day: 3/day: confusion (DC 18), quickened darkness, dispel magic, protection from law\
+1/day: plane shift (DC 21)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 26, Dex 18, Con 24, Int 13, Wis 17, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +21
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Blind-Fight, Improved Critical (slam), Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (darkness), Vital Strike
+Skills: Acrobatics +19 (+23 jump), Escape Artist +19, Intimidate +19, Knowledge (planes) +16, Perception +18, Sense Motive +18, Stealth +15
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +14 natural, -1 size
-
-**Hit points:** 150 (12d10+84)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +11
-
-**Dr:** 10/lawful
-
-**Immune:** cold, poison, mind-affecting effects
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 23
-
-**Weaknesses:** light vulnerability
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +19 (1d6+8/19-20 plus 1 Con damage), bite +19 (2d6+8 plus poison), 2 tentacles
-+14 (1d6+4)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with slams and tentacles
-
-**Space:** 10
-
-**Spec Att:** horrific appearance (DC 20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk, arcane sight
-
-**At will:**
-
-- chaos hammer (DC 18), darkness
-
-**Per day:**
-
-- 3/day: confusion (DC 18), quickened darkness, dispel magic, protection from law
-- 1/day: plane shift (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 18, Con 24, Int 13, Wis 17, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Blind-Fight, Improved Critical (slam), Lightning Reflexes, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (darkness), Vital Strike
-
-**Skills:** Acrobatics +19 (+23 jump), Escape Artist +19, Intimidate +19, Knowledge (planes) +16,
-Perception +18, Sense Motive +18, Stealth +15
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

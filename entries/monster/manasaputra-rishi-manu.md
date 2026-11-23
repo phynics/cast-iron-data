@@ -32,106 +32,78 @@ abilities = ["19", "23", "20", "16", "21", "18"]
 _This regal, apparently human figure has glowing purple eyes and the grace and fluidity of water
 given form._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +10
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Good, Lawful, Manasaputra
+Experience points: 38,400
+:::
 
-**Initiative:** +10
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 31
+Touch: 31
+Flat-footed: 24
+AC modifiers: +4 deflection, +6 Dex, +1 dodge, +10 soul armor
+Hit points: 189 (18d10+90)
+Fort: +11
+Ref: +17
+Will: +16; +2 vs. enchantment
+Immune: calling, disease, poison
+Resist: adaptive 10
+Sr: 25
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: rishi scepter +27/+27/+22/+17/+12 (2d6+10/18-20) or 4 slams +22 (2d6+4)
+Ranged: cosmic fire +24 touch (10d6 fire and 10d6 positive energy)
+Spec Att: cosmic fire, rishi scepter
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19; Wisdom-based
+At will: greater teleport, self only, plane shift, self only
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 14
+Concentration: +19; Wisdom-based
+Power points: 19
+Psychoactive powers: anticipate thoughts, 2 PE, burst of insight, 1 PE, dream council, 6 PE, DC 21, synapse overload, 5 PE, DC 20, remote viewing, 5 PE
+:::
 
-**Subtype:** Extraplanar, Good, Lawful, Manasaputra
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 19, Dex 23, Con 20, Int 16, Wis 21, Cha 18
+Base attack bonus: +18
+Combat maneuver bonus: +22
+Combat maneuver defense: 53
+Feats: Blind-Fight, Combat Reflexes, Dazzling Display, Dodge, Improved Initiative, Mobility, Shatter Defenses, Weapon Focus (rishi scepter), Wind Stance
+Skills: Acrobatics +24, Diplomacy +25, Sense Motive +26
+Languages: Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: formless, [no breath](ref/umr/no-breath), planetary bond, positive energy affinity, subjective appearance
+:::
 
-**Armor class:** 31
+### Ecology
 
-**Touch:** 31
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 deflection, +6 Dex, +1 dodge, +10 soul armor
-
-**Hit points:** 189 (18d10+90)
-
-**Fort:** +11
-
-**Ref:** +17
-
-**Will:** +16; +2 vs. enchantment
-
-**Immune:** calling, disease, poison
-
-**Resist:** adaptive 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** rishi scepter +27/+27/+22/+17/+12 (2d6+10/18-20) or 4 slams +22 (2d6+4)
-
-**Ranged:** cosmic fire +24 touch (10d6 fire and 10d6 positive energy)
-
-**Spec Att:** cosmic fire, rishi scepter
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19; Wisdom-based
-
-**At will:**
-
-- greater teleport, self only, plane shift, self only
-
-**Psychic Magic**
-
-**Caster level:** 14
-
-**Concentration:** +19; Wisdom-based
-
-**Power points:** 19
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, burst of insight, 1 PE, dream council, 6 PE, DC 21, synapse overload, 5
-  PE, DC 20, remote viewing, 5 PE
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 23, Con 20, Int 16, Wis 21, Cha 18
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 53
-
-**Feats:** Blind-Fight, Combat Reflexes, Dazzling Display, Dodge, Improved Initiative, Mobility,
-Shatter Defenses, Weapon Focus (rishi scepter), Wind Stance
-
-**Skills:** Acrobatics +24, Diplomacy +25, Sense Motive +26
-
-**Languages:** Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** formless, [no breath](ref/umr/no-breath), planetary bond, positive energy
-affinity, subjective appearance
-
-**Ecology**
-
-**Environment:** any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary or council (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Material Plane or [Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary or council (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

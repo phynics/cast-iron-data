@@ -30,117 +30,78 @@ abilities = ["30", "17", "32", "15", "24", "25"]
 _This strange, four-armed fiend appears to be constructed completely out of stone. Dried blood
 stains its body._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: hopedrinker (60 ft.)
+blindsense: 60
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +3
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**aura:** hopedrinker (60 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 34
+Touch: 9
+Flat-footed: 31
+AC modifiers: +3 Dex, +25 natural, -4 size
+Hit points: 379 (23d10+253)
+Fort: +24
+Ref: +10
+Will: +22
+Defensive abilities: gush
+Dr: 15/adamantine and good
+Immune: electricity, poison
+Resist: acid 20, cold 20, fire 20
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 40 ft.
+Br Weap: 60-ft. cone, 16d6 acid damage plus disease, Reflex DC 32 halves, usable every 1d4 rounds
+Constrict: 2d6+10
+Melee: bite +29 (2d8+10/19-20), gore +29 (2d8+10), 4 slams +29 (2d6+10/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Rend: 2 slams, 2d6+15
+Space: 20
+:::
 
-**Initiative:** +3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +30
+Constant: mind blank, see invisibility
+At will: crushing despair (DC 21), detect magic, dispel magic, eyebite (DC 23), protection from good, stone shape
+Per day: 3/day: create undead, feeblemind (DC 22), insanity (DC 24), quickened mind fog (DC 22), phantasmal killer (DC 21), song of discord (DC 22), symbol of pain (DC 22)\
+1/day: desecrate, greater teleport, self plus 50 lbs. of objects only, summon (level 9, any 1 CR 19 or lower demon 100%), symbol of insanity (DC 25), weird (DC 26)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +33
+::: statblock
+Ability scores: Str 30, Dex 17, Con 32, Int 15, Wis 24, Cha 25
+Base attack bonus: +23
+Combat maneuver bonus: +37 (+41 grapple)
+Combat maneuver defense: 50
+Feats: Bleeding Critical, Blind-Fight, Cleave, Combat Reflexes, Critical Focus, Dazing Assault, Improved Critical (bite), Improved Critical (slam), Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mind fog), Vital Strike
+Skills: Bluff +33, Climb +28, Diplomacy +25, Sense Motive +33, Spellcraft +25
+Languages: Abyssal, Aklo, Common; [telepathy](ref/umr/telepathy) 300 ft.
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Ecology
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 307,200
-
-**Armor class:** 34
-
-**Touch:** 9
-
-**Flat-footed:** 31
-
-**AC modifiers:** +3 Dex, +25 natural, -4 size
-
-**Hit points:** 379 (23d10+253)
-
-**Fort:** +24
-
-**Ref:** +10
-
-**Will:** +22
-
-**Defensive abilities:** gush
-
-**Dr:** 15/adamantine and good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 20, cold 20, fire 20
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 60-ft. cone, 16d6 acid damage plus disease, Reflex DC 32 halves, usable every 1d4
-rounds
-
-**Constrict:** 2d6+10
-
-**Melee:** bite +29 (2d8+10/19-20), gore +29 (2d8+10), 4 slams +29 (2d6+10/19-20 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Rend:** 2 slams, 2d6+15
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +30
-
-**Constant:**
-
-- mind blank, see invisibility
-
-**At will:**
-
-- crushing despair (DC 21), detect magic, dispel magic, eyebite (DC 23), protection from good, stone
-  shape
-
-**Per day:**
-
-- 3/day: create undead, feeblemind (DC 22), insanity (DC 24), quickened mind fog (DC 22), phantasmal
-  killer (DC 21), song of discord (DC 22), symbol of pain (DC 22)
-- 1/day: desecrate, greater teleport, self plus 50 lbs. of objects only, summon (level 9, any 1 CR
-  19 or lower demon 100%), symbol of insanity (DC 25), weird (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 17, Con 32, Int 15, Wis 24, Cha 25
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +37 (+41 grapple)
-
-**Combat maneuver defense:** 50
-
-**Feats:** Bleeding Critical, Blind-Fight, Cleave, Combat Reflexes, Critical Focus, Dazing Assault,
-Improved Critical (bite), Improved Critical (slam), Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mind fog), Vital Strike
-
-**Skills:** Bluff +33, Climb +28, Diplomacy +25, Sense Motive +33, Spellcraft +25
-
-**Languages:** Abyssal, Aklo, Common; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Ecology**
-
-**Environment:** warm jungles (Yoha's Graveyard)
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: warm jungles (Yoha's Graveyard)
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

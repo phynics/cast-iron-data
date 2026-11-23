@@ -30,91 +30,67 @@ abilities = ["20", "16", "-", "15", "11", "5"]
 
 _This large robot's arms end in an assortment of drills, torches, hammers, and vices._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 12
+Flat-footed: 19
+AC modifiers: +3 Dex, +10 natural, -1 size
+Hit points: 85 (10d10+30)
+Fort: +5
+Ref: +6
+Will: +3
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 5, cold 5, fire 15
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 20 ft., climb 30 ft., swim 20 ft., fly 10 ft. (clumsy)
+Br Weap: 30-ft. cone, 3d6 acid plus poison, Reflex DC 15 half, usable every 1d4 rounds
+Melee: integrated drill +15 (1d6+5), slam +14 (1d6+5 plus [grab](ref/umr/grab)), integrated laser torch +14 touch (1d6 fire)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 16, Con -, Int 15, Wis 11, Cha 5
+Base attack bonus: +10
+Combat maneuver bonus: +16
+Combat maneuver defense: 29
+Feats: Acrobatic Steps, Great Fortitude, Improved Great Fortitude, Nimble Moves, Weapon Focus (drill)
+Skills: Acrobatics +6, Climb +13, Fly +3
+Racial Modifiers: +4 Knowledge (engineering), +4 Knowledge (nature)
+Languages: Common
+Special qualities: reprogram terrain, technological wonders, terraform
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +3 Dex, +10 natural, -1 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 5, cold 5, fire 15
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft., climb 30 ft., swim 20 ft., fly 10 ft. (clumsy)
-
-**Br Weap:** 30-ft. cone, 3d6 acid plus poison, Reflex DC 15 half, usable every 1d4 rounds
-
-**Melee:** integrated drill +15 (1d6+5), slam +14 (1d6+5 plus [grab](ref/umr/grab)), integrated
-laser torch +14 touch (1d6 fire)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con -, Int 15, Wis 11, Cha 5
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 29
-
-**Feats:** Acrobatic Steps, Great Fortitude, Improved Great Fortitude, Nimble Moves, Weapon Focus
-(drill)
-
-**Skills:** Acrobatics +6, Climb +13, Fly +3
-
-**Racial Modifiers:** +4 Knowledge (engineering), +4 Knowledge (nature)
-
-**Languages:** Common
-
-**Special qualities:** reprogram terrain, technological wonders, terraform
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or team (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or team (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

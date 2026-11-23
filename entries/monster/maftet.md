@@ -34,89 +34,68 @@ abilities = ["16", "17", "16", "10", "15", "11"]
 _Broad hawk wings support this creature with the torso of a bronze-skinned human and the lower body
 of a tawny, bipedal lion._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +4 armor, +3 Dex, +3 natural
+Hit points: 68 (8d10+24)
+Fort: +5
+Ref: +9
+Will: +8
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: mwk scimitar +11/+11/+6/+6 (1d6+3/18-20)
+Spec Att: paired weapons, raptor dive
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +8
+Constant: mage armor
+Per day: 3/day: magic weapon\
+1/day: cat's grace, protection from evil
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 16, Dex 17, Con 16, Int 10, Wis 15, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Combat Reflexes, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, Weapon Focus (scimitar)
+Skills: Fly +10, Knowledge (history) +8, Perception +13, Stealth +18
+Racial Modifiers: +4 Stealth
+Languages: Common, Sphinx
+Special qualities: runic tattoos
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +3 Dex, +3 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** mwk scimitar +11/+11/+6/+6 (1d6+3/18-20)
-
-**Spec Att:** paired weapons, raptor dive
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +8
-
-**Constant:**
-
-- mage armor
-
-**Per day:**
-
-- 3/day: magic weapon
-- 1/day: cat's grace, protection from evil
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con 16, Int 10, Wis 15, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Reflexes, Double Slice, Improved Two-Weapon Fighting, Two-Weapon Fighting, Weapon
-Focus (scimitar)
-
-**Skills:** Fly +10, Knowledge (history) +8, Perception +13, Stealth +18
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Sphinx
-
-**Special qualities:** runic tattoos
-
-**Ecology**
-
-**Environment:** temperate and warm deserts and mountains
-
-**Organization:** solitary, pair, or pride (6-10)
-
-**Treasure:** Standard (2 mwk scimitars); other treasure
+::: statblock
+Environment: temperate and warm deserts and mountains
+Organization: solitary, pair, or pride (6-10)
+Treasure: Standard (2 mwk scimitars); other treasure
+:::
 
 ### Special Abilities
 

@@ -34,98 +34,71 @@ abilities = ["7", "16", "15", "12", "13", "14"]
 _What at first appears to be a bejeweled blade shimmers and writhes, transforming into a hideous,
 red-eyed serpent._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Native, Rakshasa, Shapechanger
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 22 (3d10+6)
+Fort: +3
+Ref: +6
+Will: +4
+Dr: 5/good or piercing
+Sr: 17
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +8 (1d4-2 plus poison)
+Spec Att: detect thoughts (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Constant: comprehend languages
+Per day: 1/day: charm person (DC 13), suggestion (DC 15)
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Subtype:** Native, Rakshasa, Shapechanger
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 7, Dex 16, Con 15, Int 12, Wis 13, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 12 (can't be tripped)
+Feats: Alertness, Weapon Finesse
+Skills: Bluff +12, Climb +14
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon; _[comprehend languages](ref/spell/comprehend-languages)_
+Special qualities: [change shape](ref/umr/change-shape) (Tiny living object), master's eyes
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/good or piercing
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +8 (1d4-2 plus poison)
-
-**Spec Att:** detect thoughts (DC 13)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Constant:**
-
-- comprehend languages
-
-**Per day:**
-
-- 1/day: charm person (DC 13), suggestion (DC 15)
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 16, Con 15, Int 12, Wis 13, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Feats:** Alertness, Weapon Finesse
-
-**Skills:** Bluff +12, Climb +14
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon;
-_[comprehend languages](ref/spell/comprehend-languages)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Tiny living object), master's eyes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or rack (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or rack (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

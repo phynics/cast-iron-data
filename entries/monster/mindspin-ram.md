@@ -29,73 +29,58 @@ abilities = ["12", "17", "13", "2", "14", "7"]
 _This stark white ram's curved horns appear to have sharp thorns studding every inch of their
 surface._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 natural
+Hit points: 22 (4d8+4)
+Fort: +5
+Ref: +7
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Bleed: 1
+Melee: gore +4 (1d6+1 plus bleed), 2 hooves +2 (1d4)
+Pow Ch: gore, 1d8+1
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 17, Con 13, Int 2, Wis 14, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Multiattack, Nimble Moves
+Skills: Acrobatics +7 (+11 to cross narrow surfaces), Climb +9, Perception +6, Stealth +7 (+11 in snowy conditions)
+Racial Modifiers: +4 Acrobatics to cross narrow surfaces, +4 Climb, +4 Stealth in snowy conditions
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 natural
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 1
-
-**Melee:** gore +4 (1d6+1 plus bleed), 2 hooves +2 (1d4)
-
-**Pow Ch:** gore, 1d8+1
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 13, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Multiattack, Nimble Moves
-
-**Skills:** Acrobatics +7 (+11 to cross narrow surfaces), Climb +9, Perception +6, Stealth +7 (+11
-in snowy conditions)
-
-**Racial Modifiers:** +4 Acrobatics to cross narrow surfaces, +4 Climb, +4 Stealth in snowy
-conditions
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

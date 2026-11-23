@@ -30,74 +30,59 @@ abilities = ["18", "12", "-", "9", "11", "16"]
 _Fresh blood seeps from the cracks of this weathered but exquisitely detailed stone sculpture of a
 warrior woman._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 20
+AC modifiers: +1 Dex, +10 natural
+Hit points: 67 (9d8+27)
+Fort: +6
+Ref: +4
+Will: +6
+Chan Res: +2
+Defensive abilities: petrified body
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft.
+Melee: +1 scimitar +13/+8 (1d6+6/18-20), slam +5 (1d6+2 plus curse of stone) or slam +10 (1d6+6 plus curse of stone)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 18, Dex 12, Con -, Int 9, Wis 11, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (cannot be disarmed)
+Feats: Cleave, Improved Initiative, Power Attack, Vital Strike, Weapon Focus (scimitar)
+Skills: Intimidate +15, Perception +12, Stealth +13
+Languages: Common (can't speak)
+Special qualities: weapon expertise
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +10 natural
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +6
-
-**Chan Res:** +2
-
-**Defensive abilities:** petrified body
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 scimitar +13/+8 (1d6+6/18-20), slam +5 (1d6+2 plus curse of stone) or slam +10 (1d6+6
-plus curse of stone)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con -, Int 9, Wis 11, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (cannot be disarmed)
-
-**Feats:** Cleave, Improved Initiative, Power Attack, Vital Strike, Weapon Focus (scimitar)
-
-**Skills:** Intimidate +15, Perception +12, Stealth +13
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** weapon expertise
-
-**Ecology**
-
-**Environment:** any land (Field of Maidens)
-
-**Organization:** solitary, gang (2-4), or crew (5-20)
-
-**Treasure:** Standard (+1 scimitar); other treasure
+::: statblock
+Environment: any land (Field of Maidens)
+Organization: solitary, gang (2-4), or crew (5-20)
+Treasure: Standard (+1 scimitar); other treasure
+:::
 
 ### Special Abilities
 

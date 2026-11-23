@@ -31,98 +31,67 @@ abilities = ["17", "20", "18", "17", "21", "20"]
 _Two colorful membranous wings rise behind this large insect-like humanoid, forming and reforming
 into complex patterns._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: warp elements (120 ft., DC 22)
+Alignment: Chaotic neutral
+Initiative: +9
+Size: large
+Type: Monstrous humanoid
+Perception: +23
+Senses: Darkvision 60 ft., See invisibility
+Experience points: 19,200
+:::
 
-**aura:** warp elements (120 ft., DC 22)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 21
+AC modifiers: +5 Dex, +12 natural, -1 size
+Hit points: 142 (15d10+60)
+Fort: +9
+Ref: +14
+Will: +16
+Defensive abilities: blur
+Dr: 10/magic
+Resist: cold 20, fire 20
+Sr: 23
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 claws +20 (2d6+3/19-20)
+Ranged: obliteration ray +19 touch (8d6 energy)
+Reach: 10
+Space: 10
+Spec Att: mind-warping gaze (DC 22)
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: blur, see invisibility
+At will: control weather, greater dispel magic
+Per day: 3/day: cloudkill (DC 20), hold monster (DC 20), phantasmal killer (DC 19), scrying (DC 19)\
+1/day: earthquake (DC 23), incendiary cloud (DC 23)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility
-
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 Dex, +12 natural, -1 size
-
-**Hit points:** 142 (15d10+60)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +16
-
-**Defensive abilities:** blur
-
-**Dr:** 10/magic
-
-**Resist:** cold 20, fire 20
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +20 (2d6+3/19-20)
-
-**Ranged:** obliteration ray +19 touch (8d6 energy)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** mind-warping gaze (DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- blur, see invisibility
-
-**At will:**
-
-- control weather, greater dispel magic
-
-**Per day:**
-
-- 3/day: cloudkill (DC 20), hold monster (DC 20), phantasmal killer (DC 19), scrying (DC 19)
-- 1/day: earthquake (DC 23), incendiary cloud (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 18, Int 17, Wis 21, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 34
-
-**Feats:** Agile Maneuvers, Blind-Fight, Improved Critical (claw), Improved Initiative, Improved
-Iron Will, Iron Will, Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Fly +25, Knowledge (arcana) +21, Perception +23, Sense Motive +20, Spellcraft +18,
-Stealth +19
-
-**Languages:** Common, Sylvan, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 17, Dex 20, Con 18, Int 17, Wis 21, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +21
+Combat maneuver defense: 34
+Feats: Agile Maneuvers, Blind-Fight, Improved Critical (claw), Improved Initiative, Improved Iron Will, Iron Will, Weapon Finesse, Weapon Focus (claw)
+Skills: Fly +25, Knowledge (arcana) +21, Perception +23, Sense Motive +20, Spellcraft +18, Stealth +19
+Languages: Common, Sylvan, Undercommon (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ### Special Abilities
 

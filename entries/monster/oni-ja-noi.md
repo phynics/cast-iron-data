@@ -31,89 +31,68 @@ abilities = ["19", "15", "18", "12", "13", "14"]
 _This hunchbacked, fiery-skinned humanoid possesses black eyes beneath the bony ridges of its brow,
 wears elaborate heavy armor, and wields an ornate metal club._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid, Native, Oni, Shapechanger
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 armor, +2 Dex, +4 natural
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +7
+Will: +3
+Regen: 3 (acid or fire)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk tetsubo +11/+6 (1d10+6/×4)
+Ranged: longbow +8/+3 (1d8/×3)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 3/day: command (DC 13), doom (DC 13), fly, magic weapon\
+1/day: bull's strength
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Goblinoid, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 19, Dex 15, Con 18, Int 12, Wis 13, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Cleave, Outflank, Power Attack
+Skills: Bluff +11, Disguise +11, Sense Motive +10, Stealth +11
+Languages: Common, Goblin
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), serene fighter
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +2 Dex, +4 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +3
-
-**Regen:** 3 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk tetsubo +11/+6 (1d10+6/×4)
-
-**Ranged:** longbow +8/+3 (1d8/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: command (DC 13), doom (DC 13), fly, magic weapon
-- 1/day: bull's strength
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 18, Int 12, Wis 13, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Cleave, Outflank, Power Attack
-
-**Skills:** Bluff +11, Disguise +11, Sense Motive +10, Stealth +11
-
-**Languages:** Common, Goblin
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), serene fighter
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary, patrol (2-4), warband (5-7 plus 8-15
-[hobgoblins](ref/monster/hobgoblin)), or company (8-12 plus 20-50 hobgoblins, 1-2 lieutenants of
-4th-5th level, and 1 general of 7th-10th level)
-
-**Treasure:** Standard (mwk leather armor, mwk handaxe, lb20); other treasure
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary, patrol (2-4), warband (5-7 plus 8-15 [hobgoblins](ref/monster/hobgoblin)), or company (8-12 plus 20-50 hobgoblins, 1-2 lieutenants of 4th-5th level, and 1 general of 7th-10th level)
+Treasure: Standard (mwk leather armor, mwk handaxe, lb20); other treasure
+:::
 
 ### Special Abilities
 

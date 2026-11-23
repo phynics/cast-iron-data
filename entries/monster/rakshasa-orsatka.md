@@ -31,102 +31,74 @@ abilities = ["28", "22", "26", "15", "21", "19"]
 _This hulking bear-headed fiend has a mouth full of fangs and clawed, six-fingered hands with too
 many knuckles._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 25,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 22
+AC modifiers: +6 Dex, +12 natural
+Hit points: 189 (14d10+112)
+Fort: +17
+Ref: +15
+Will: +11
+Dr: 15/good and piercing
+Sr: 28
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +23 (4d6+9/19-20 plus stagger), 2 claws +23 (2d4+9 plus stagger)
+Reach: 5
+Reach P: 10 ft. with trip
+Space: 5
+Spec Att: detect thoughts (DC 23), wicked reach
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: magic missile
+Per day: 3/day: dispel magic, magic circle against good\
+1/day: true form (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Rakshasa, Shapechanger
+::: statblock
+Ability scores: Str 28, Dex 22, Con 26, Int 15, Wis 21, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +23 (+27 trip)
+Combat maneuver defense: 39 (41 vs. trip)
+Feats: Alertness, Combat Expertise, Greater Trip, Improved Critical (bite), Improved Trip, Iron Will, Power Attack
+Skills: Bluff +25, Climb +34, Disguise +29, Sense Motive +26, Stealth +23
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 Dex, +12 natural
-
-**Hit points:** 189 (14d10+112)
-
-**Fort:** +17
-
-**Ref:** +15
-
-**Will:** +11
-
-**Dr:** 15/good and piercing
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +23 (4d6+9/19-20 plus stagger), 2 claws +23 (2d4+9 plus stagger)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with trip
-
-**Space:** 5
-
-**Spec Att:** detect thoughts (DC 23), wicked reach
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- magic missile
-
-**Per day:**
-
-- 3/day: dispel magic, magic circle against good
-- 1/day: true form (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 22, Con 26, Int 15, Wis 21, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23 (+27 trip)
-
-**Combat maneuver defense:** 39 (41 vs. trip)
-
-**Feats:** Alertness, Combat Expertise, Greater Trip, Improved Critical (bite), Improved Trip, Iron
-Will, Power Attack
-
-**Skills:** Bluff +25, Climb +34, Disguise +29, Sense Motive +26, Stealth +23
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or guard (1 plus 1 other [rakshasa](ref/family/rakshasa))
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary or guard (1 plus 1 other [rakshasa](ref/family/rakshasa))
+Treasure: Double
+:::
 
 ### Special Abilities
 

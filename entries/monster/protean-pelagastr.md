@@ -34,115 +34,79 @@ abilities = ["-", "23", "21", "16", "16", "19"]
 _This glittering serpent's body ends in a looping length of tail. Its scales glow softly in
 ever-changing patterns._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+blindsight: 30
+Alignment: Chaotic neutral
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Incorporeal, Protean, Shapechanger
+Experience points: 4,800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 14
+AC modifiers: +4 deflection, +6 Dex
+Hit points: 105 (10d10+50)
+Fort: +10
+Ref: +13
+Will: +10
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 5/lawful
+Fh: 5
+Immune: acid, polymorph
+Incorporeal: present
+Resist: electricity 10, sonic 10
+Sr: 19
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (perfect)
+Constrict: 1d6+4
+Melee: bite +16 touch (1d6), 2 claws +16 touch (1d4), tail slap +12 (1d6+6)
+Spec Att: overshadowing ego, spirit coils, warpwave
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: comprehend languages, detect law
+At will: dispel magic, greater teleport, self plus 50 lbs. of objects only, mage hand
+Per day: 3/day: hypnotic pattern (DC 16), pilfering hand\
+1/day: chaos hammer (DC 18)
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect law
+::: statblock
+Ability scores: Str -, Dex 23, Con 21, Int 16, Wis 16, Cha 19
+Base attack bonus: +10
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Combat Reflexes, Great Fortitude, Improved Initiative, Skill Focus (Bluff), Weapon Focus (tail slap)
+Skills: Acrobatics +19, Bluff +23, Diplomacy +17, Perform (sing) +17, Sense Motive +16, Stealth +19 (+39 when motionless)
+Racial Modifiers: +20 Stealth when motionless
+Languages: Common, Protean; _[comprehend languages](ref/spell/comprehend-languages)_
+Special qualities: blending scales, [change shape](ref/umr/change-shape) ([polymorph](ref/spell/polymorph))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Incorporeal, Protean, Shapechanger
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +6 Dex
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +10
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 5/lawful
-
-**Fh:** 5
-
-**Immune:** acid, polymorph
-
-**Incorporeal:** present
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Constrict:** 1d6+4
-
-**Melee:** bite +16 touch (1d6), 2 claws +16 touch (1d4), tail slap +12 (1d6+6)
-
-**Spec Att:** overshadowing ego, spirit coils, warpwave
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- comprehend languages, detect law
-
-**At will:**
-
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, mage hand
-
-**Per day:**
-
-- 3/day: hypnotic pattern (DC 16), pilfering hand
-- 1/day: chaos hammer (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 23, Con 21, Int 16, Wis 16, Cha 19
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Initiative, Skill Focus (Bluff), Weapon Focus
-(tail slap)
-
-**Skills:** Acrobatics +19, Bluff +23, Diplomacy +17, Perform (sing) +17, Sense Motive +16, Stealth
-+19 (+39 when motionless)
-
-**Racial Modifiers:** +20 Stealth when motionless
-
-**Languages:** Common, Protean; _[comprehend languages](ref/spell/comprehend-languages)_
-
-**Special qualities:** blending scales, [change shape](ref/umr/change-shape)
-([polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary, pair, or convocation (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary, pair, or convocation (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

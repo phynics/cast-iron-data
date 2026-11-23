@@ -30,119 +30,81 @@ abilities = ["-", "35", "38", "31", "28", "29"]
 _A cloud of smoke the size of a human condenses, forming a clot of tentacles and eyes surrounding a
 fanged mouth._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: cloak of chaos (DC 27)
+Alignment: Chaotic evil
+Initiative: +16
+Size: medium
+Type: outsider
+Perception: +40
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Evil, Extraplanar, Incorporeal, Qlippoth
+Experience points: 1,638,400
+:::
 
-**aura:** cloak of chaos (DC 27)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 44
+Touch: 32
+Flat-footed: 31
+AC modifiers: +12 armor, +9 deflection, +12 Dex, +1 dodge
+Hit points: 546 (28d10+392)
+Fort: +34
+Ref: +27
+Will: +31
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, reflect compulsion, soul shell
+Dr: 15/cold iron and lawful
+Immune: cold, death effects, mind-affecting effects, poison
+Incorporeal: present
+Regen: 15 (lawful)
+Resist: acid 30, electricity 30, fire 30
+Sr: 36
+:::
 
-**Initiative:** +16
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: bite +40 touch (destruction)
+Spec Att: destructive commands, horrific appearance (DC 33), insidious possession, toxic storm
+:::
 
-**Type:** outsider
-
-**Perception:** +40
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Evil, Extraplanar, Incorporeal, Qlippoth
-
-**Experience points:** 1,638,400
-
-**Armor class:** 44
-
-**Touch:** 32
-
-**Flat-footed:** 31
-
-**AC modifiers:** +12 armor, +9 deflection, +12 Dex, +1 dodge
-
-**Hit points:** 546 (28d10+392)
-
-**Fort:** +34
-
-**Ref:** +27
-
-**Will:** +31
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, reflect compulsion,
-soul shell
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** cold, death effects, mind-affecting effects, poison
-
-**Incorporeal:** present
-
-**Regen:** 15 (lawful)
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** bite +40 touch (destruction)
-
-**Spec Att:** destructive commands, horrific appearance (DC 33), insidious possession, toxic storm
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +34
-
-**Constant:**
-
-- cloak of chaos (DC 27), detect good, detect law, freedom of movement, tongues, true seeing
-
-**At will:**
-
-- charm monster (DC 23), desecrate^M^, greater command (DC 25), greater dispel magic, greater object
-  possession (DC 26), greater teleport
-
-**Per day:**
-
-- 3/day: dominate monster (DC 28), greater possession (DC 27), quickened mass suggestion (DC 25),
-  whirlwind^M^ (DC 27)
-- 1/day: summon qlippoth, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +34
+Constant: cloak of chaos (DC 27), detect good, detect law, freedom of movement, tongues, true seeing
+At will: charm monster (DC 23), desecrate^M^, greater command (DC 25), greater dispel magic, greater object possession (DC 26), greater teleport
+Per day: 3/day: dominate monster (DC 28), greater possession (DC 27), quickened mass suggestion (DC 25), whirlwind^M^ (DC 27)\
+1/day: summon qlippoth, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Isph-Aun-Vuln can use the mythic version of this ability within her sanctum
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str -, Dex 35, Con 38, Int 31, Wis 28, Cha 29
+::: statblock
+Ability scores: Str -, Dex 35, Con 38, Int 31, Wis 28, Cha 29
+Base attack bonus: +28
+Combat maneuver bonus: +40
+Combat maneuver defense: 60 (can't be tripped)
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion, mind fog), Skill Focus (Bluff)
+Skills: Acrobatics +40, Bluff +46, Diplomacy +37, Sense Motive +40, Spellcraft +38, Stealth +43, Use Magic Device +37
+Languages: xA; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
+Faith: Isph-Aun-Vuln
+:::
 
-**Base attack bonus:** +28
+### Ecology
 
-**Combat maneuver bonus:** +40
-
-**Combat maneuver defense:** 60 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Flyby Attack, Improved
-Initiative, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes,
-Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion, mind fog),
-Skill Focus (Bluff)
-
-**Skills:** Acrobatics +40, Bluff +46, Diplomacy +37, Sense Motive +40, Spellcraft +38, Stealth +43,
-Use Magic Device +37
-
-**Languages:** xA; [telepathy](ref/umr/telepathy) 300 ft., _[tongues](ref/spell/tongues)_
-
-**Faith:** Isph-Aun-Vuln
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -31,119 +31,77 @@ abilities = ["19", "22", "21", "16", "18", "15"]
 _This sinewy humanoid with putrid green skin and a grotesque, shrew-like snout wears little more
 than a colorful silk sarong and a thin, flexible blade worn as a belt._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +10
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 25,600
+:::
 
-**Initiative:** +10
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 28
+Touch: 17
+Flat-footed: 21
+AC modifiers: +6 Dex, +1 dodge, +11 natural
+Hit points: 178 (17d10+85)
+Fort: +15
+Ref: +16
+Will: +11
+Dr: 15/good and piercing
+Sr: 28
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: +2 urumi +24/+19/+14/+9 (1d8+6/15-20)
+Reach: 5
+Reach P: 10 ft. with urumi
+Space: 5
+Spec Att: detect thoughts (DC 20), urumi forms
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spells Known"
+Caster level: 10
+Concentration: +12
+5th-level spells: 3/day: wall of stone (DC 17)
+4th-level spells: 5/day: dimension door, ice storm
+3rd-level spells: 6/day: dispel magic, lightning bolt (DC 15), protection from energy
+2nd-level spells: 7/day: blur, darkness, knock, see invisibility
+1st-level spells: 7/day: expeditious retreat, identify, mage armor, magic aura, ray of enfeeblement (DC 13)
+Cantrips: At will: acid splash, bleed (DC 12), detect magic, ghost sound (DC 12), mage hand, mending, message, open/close, read magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Rakshasa, Shapechanger
+::: statblock
+Ability scores: Str 19, Dex 22, Con 21, Int 16, Wis 18, Cha 15
+Base attack bonus: +17
+Combat maneuver bonus: +21
+Combat maneuver defense: 38
+Feats: Acrobatic Steps, Combat Reflexes, Dodge, Improved Critical (urumi), Improved Initiative, Iron Will, Nimble Moves, Quick Draw, Weapon Focus (urumi)
+Skills: Acrobatics +26 (+30 when jumping), Bluff +26, Disguise +30, Sense Motive +24, Spellcraft +20, Stealth +26
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), inconspicuous urumi, urumi affinity
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 17
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 Dex, +1 dodge, +11 natural
-
-**Hit points:** 178 (17d10+85)
-
-**Fort:** +15
-
-**Ref:** +16
-
-**Will:** +11
-
-**Dr:** 15/good and piercing
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +2 urumi +24/+19/+14/+9 (1d8+6/15-20)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with urumi
-
-**Space:** 5
-
-**Spec Att:** detect thoughts (DC 20), urumi forms
-
-**Spells Known**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**5th-level spells:**
-
-- 3/day: wall of stone (DC 17)
-
-**4th-level spells:**
-
-- 5/day: dimension door, ice storm
-
-**3rd-level spells:**
-
-- 6/day: dispel magic, lightning bolt (DC 15), protection from energy
-
-**2nd-level spells:**
-
-- 7/day: blur, darkness, knock, see invisibility
-
-**1st-level spells:**
-
-- 7/day: expeditious retreat, identify, mage armor, magic aura, ray of enfeeblement (DC 13)
-
-**Cantrips:**
-
-- At will: acid splash, bleed (DC 12), detect magic, ghost sound (DC 12), mage hand, mending,
-  message, open/close, read magic
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 22, Con 21, Int 16, Wis 18, Cha 15
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 38
-
-**Feats:** Acrobatic Steps, Combat Reflexes, Dodge, Improved Critical (urumi), Improved Initiative,
-Iron Will, Nimble Moves, Quick Draw, Weapon Focus (urumi)
-
-**Skills:** Acrobatics +26 (+30 when jumping), Bluff +26, Disguise +30, Sense Motive +24, Spellcraft
-+20, Stealth +26
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), inconspicuous urumi, urumi affinity
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or muster (3-6)
-
-**Treasure:** Standard (+2 -urumi); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or muster (3-6)
+Treasure: Standard (+2 -urumi); other treasure
+:::
 
 ### Special Abilities
 

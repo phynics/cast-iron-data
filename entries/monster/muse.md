@@ -31,121 +31,76 @@ abilities = ["14", "27", "20", "23", "14", "29"]
 
 _This beautiful, woman moves with impossible grace, a knowing smile on her lips._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsight: 120
+Alignment: Chaotic good
+Type: fey
+Initiative: +12
+Size: medium
+Perception: +22
+Senses: Low-light vision
+Experience points: 76,800
+:::
 
-**blindsight:** 120
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 32
+Touch: 28
+Flat-footed: 23
+AC modifiers: +4 armor, +9 deflection, +8 Dex
+Hit points: 229 (17d6+170)
+Fort: +19
+Ref: +27
+Will: +21
+Defensive abilities: muse's ward, unearthly grace
+Dr: 15/cold iron
+Immune: sonic
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 60 ft.
+Melee: slam +16 (1d4+3 plus 1d6 sonic)
+Ranged: 5 sound strikes +16 ranged touch (4d6 sonic)
+Spec Att: bardic performance 49 rounds/day (swift action; as a 16th-level bard)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spells Known"
+Caster level: 16
+Concentration: +25
+6th-level spells: 2/day: brilliant inspiration, irresistible dance (DC 25)
+5th-level spells: 5/day: greater dispel magic, greater heroism, frozen note (DC 25), shadowbard
+4th-level spells: 6/day: break enchantment, heroic finale, legend lore, modify memory (DC 23), virtuoso performance
+3rd-level spells: 7/day: exquisite accompaniment, glibness, good hope, haste, purging finale
+2nd-level spells: 7/day: calm emotions (DC 21), eagle's splendor, gallant inspiration, honeyed tongue, share memory (DC 21), tactical acumen
+1st-level spells: 8/day: hideous laughter (DC 20), identify, liberating command, saving finale, solid note, timely inspiration
+Cantrips: At will: detect magic, ghost sound (DC 19), lullaby (DC 19), message, prestidigitation, summon instrument
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 27, Con 20, Int 23, Wis 14, Cha 29
+Base attack bonus: +8
+Combat maneuver bonus: +10
+Combat maneuver defense: 46
+Feats: Defensive Combat Training, Discordant Voice, Extra Performance, Improved Initiative, Lingering Performance, Skill Focus (Perform \[all\] and Craft \[all\]), Toughness, Weapon Finesse
+Skills: Craft (all) +34, Spellcraft +23, Stealth +28, Use Magic Device +27
+Languages: Celestial, Common, Dwarven, Elven, Gm, Halfling, Sylvan; [telepathy](ref/umr/telepathy) 100 ft., _truespeech_
+Special qualities: art is life, [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), inspiration
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 28
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +9 deflection, +8 Dex
-
-**Hit points:** 229 (17d6+170)
-
-**Fort:** +19
-
-**Ref:** +27
-
-**Will:** +21
-
-**Defensive abilities:** muse's ward, unearthly grace
-
-**Dr:** 15/cold iron
-
-**Immune:** sonic
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** slam +16 (1d4+3 plus 1d6 sonic)
-
-**Ranged:** 5 sound strikes +16 ranged touch (4d6 sonic)
-
-**Spec Att:** bardic performance 49 rounds/day (swift action; as a 16th-level bard)
-
-**Spells Known**
-
-**Caster level:** 16
-
-**Concentration:** +25
-
-**6th-level spells:**
-
-- 2/day: brilliant inspiration, irresistible dance (DC 25)
-
-**5th-level spells:**
-
-- 5/day: greater dispel magic, greater heroism, frozen note (DC 25), shadowbard
-
-**4th-level spells:**
-
-- 6/day: break enchantment, heroic finale, legend lore, modify memory (DC 23), virtuoso performance
-
-**3rd-level spells:**
-
-- 7/day: exquisite accompaniment, glibness, good hope, haste, purging finale
-
-**2nd-level spells:**
-
-- 7/day: calm emotions (DC 21), eagle's splendor, gallant inspiration, honeyed tongue, share memory
-  (DC 21), tactical acumen
-
-**1st-level spells:**
-
-- 8/day: hideous laughter (DC 20), identify, liberating command, saving finale, solid note, timely
-  inspiration
-
-**Cantrips:**
-
-- At will: detect magic, ghost sound (DC 19), lullaby (DC 19), message, prestidigitation, summon
-  instrument
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 27, Con 20, Int 23, Wis 14, Cha 29
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 46
-
-**Feats:** Defensive Combat Training, Discordant Voice, Extra Performance, Improved Initiative,
-Lingering Performance, Skill Focus (Perform \[all\] and Craft \[all\]), Toughness, Weapon Finesse
-
-**Skills:** Craft (all) +34, Spellcraft +23, Stealth +28, Use Magic Device +27
-
-**Languages:** Celestial, Common, Dwarven, Elven, Gm, Halfling, Sylvan;
-[telepathy](ref/umr/telepathy) 100 ft., _truespeech_
-
-**Special qualities:** art is life, [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), inspiration
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gathering (2-9)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary or gathering (2-9)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

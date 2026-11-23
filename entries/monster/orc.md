@@ -31,79 +31,62 @@ abilities = ["17", "11", "12", "7", "8", "6"]
 _This savage creature looks like a bestial version of a savage human, with green-gray skin and
 greasy black hair._
 
-**Challenge rating:** 1/3
-
 **Orc [warrior](ref/npcclass/warrior) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1/3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: -1
+Senses: Darkvision 60 ft.
+Experience points: 135
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 13
+AC modifiers: +3 armor
+Hit points: 6 (1d10+1)
+Fort: +3
+Ref: +0
+Will: -1
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 30 ft.
+Melee: falchion +5 (2d4+4/18-20)
+Ranged: javelin +1 (1d6+3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 135
+::: statblock
+Ability scores: Str 17, Dex 11, Con 12, Int 7, Wis 8, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 14
+Feats: Weapon Focus (falchion)
+Skills: Intimidate +2
+Languages: Common, Orc
+Special qualities: weapon familiarity
+:::
 
-**Armor class:** 13
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor
-
-**Hit points:** 6 (1d10+1)
-
-**Fort:** +3
-
-**Ref:** +0
-
-**Will:** -1
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** falchion +5 (2d4+4/18-20)
-
-**Ranged:** javelin +1 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 11, Con 12, Int 7, Wis 8, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Focus (falchion)
-
-**Skills:** Intimidate +2
-
-**Languages:** Common, Orc
-
-**Special qualities:** weapon familiarity
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
-
-**Organization:** solitary, gang (2-4), squad (11-20 plus 2 sergeants of 3rd level and 1 leader of
-3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 sergeant of 3rd level per 10 adults,
-1 lieutenant of 5th level per 20 adults, and 1 leader of 7th level per 30 adults)
-
-**Treasure:** NPC gear (studded leather armor, falchion, 4 javelins); other treasure
+::: statblock
+Environment: temperate hills, mountains, or underground
+Organization: solitary, gang (2-4), squad (11-20 plus 2 sergeants of 3rd level and 1 leader of 3rd-6th level), or band (30-100 plus 150% noncombatants plus 1 sergeant of 3rd level per 10 adults, 1 lieutenant of 5th level per 20 adults, and 1 leader of 7th level per 30 adults)
+Treasure: NPC gear (studded leather armor, falchion, 4 javelins); other treasure
+:::
 
 ### Description
 

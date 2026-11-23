@@ -29,69 +29,57 @@ abilities = ["19", "12", "18", "2", "12", "10"]
 _An amalgam of fur and feathers, this bizarre half-bear, half-owl monstrosity raises its huge,
 ursine claws in anger._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 47 (5d10+20)
+Fort: +10
+Ref: +5
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +8 (1d6+4 plus [grab](ref/umr/grab)), bite +8 (1d6+4)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 12, Con 18, Int 2, Wis 12, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Improved Initiative, Great Fortitude, Skill Focus (Perception)
+Skills: Perception +12
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +8 (1d6+4 plus [grab](ref/umr/grab)), bite +8 (1d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 18, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Improved Initiative, Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Perception +12
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or pack (3-8)
+Treasure: Incidental
+:::
 
 ### Description
 

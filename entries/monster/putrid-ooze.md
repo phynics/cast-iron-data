@@ -33,79 +33,62 @@ abilities = ["32", "9", "24", "-", "1", "1"]
 
 _Masses of carrion and debris break the inky surface of this enormous, undulating sludge._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+blindsight: 60
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 12,800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -1 Dex, -2 size
+Hit points: 172 (15d8+105)
+Fort: +12
+Ref: +14
+Will: +0
+Dr: 10/-
+Immune: [ooze traits](ref/umr/ooze-traits)
+Resist: electricity 20, fire 20
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 30 ft.
+Constrict: 6d6+16 plus 2d6 acid
+Melee: slam +20 (6d6+16 plus 2d6 acid and [grab](ref/umr/grab))
+Ranged: splatter +8 (10d6 acid)
+Reach: 10
+Space: 15
+Spec Att: putrid acid, splatter
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 32, Dex 9, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +11
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 33 (can't be tripped)
+Skills: Climb +19
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -1 Dex, -2 size
-
-**Hit points:** 172 (15d8+105)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +0
-
-**Dr:** 10/-
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** electricity 20, fire 20
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 30 ft.
-
-**Constrict:** 6d6+16 plus 2d6 acid
-
-**Melee:** slam +20 (6d6+16 plus 2d6 acid and [grab](ref/umr/grab))
-
-**Ranged:** splatter +8 (10d6 acid)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** putrid acid, splatter
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Skills:** Climb +19
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

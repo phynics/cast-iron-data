@@ -31,108 +31,75 @@ abilities = ["39", "17", "27", "16", "20", "22"]
 _This towering woman has blue skin, small fangs, and a third eye glaring from her forehead. Her
 robes are soaking wet._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Alignment: Chaotic evil
+Size: huge
+Initiative: +7
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Giant, Native, Oni, Shapechanger, Water
+Experience points: 153,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 11
+Flat-footed: 29
+AC modifiers: +6 armor, +3 Dex, +15 natural, -2 size
+Hit points: 297 (22d10+176)
+Fort: +21
+Ref: +10
+Will: +18
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Immune: acid
+Regen: 10 (fire or good spells)
+Sr: 29
+:::
 
-**Initiative:** +7
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., swim 60 ft., fly 60 ft. (good)
+Melee: mwk spear +35/+30/+25/+20 (3d6+21/19-20/×3) or 2 slams +34 (2d6+14)
+Ranged: acidic missile +23 touch (4d6 acid plus nausea)
+Reach: 15
+Reach P: 20 ft. with spear
+Space: 15
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: fly, freedom of movement, water walk
+At will: invisibility, self only, liquid form, water breathing
+Per day: 3/day: charm monster (DC 20), cone of cold (DC 21), control water, polar ray
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic, Giant, Native, Oni, Shapechanger, Water
+::: statblock
+Ability scores: Str 39, Dex 17, Con 27, Int 16, Wis 20, Cha 22
+Base attack bonus: +22
+Combat maneuver bonus: +38 (+40 bull rush, disarm)
+Combat maneuver defense: 51 (53 vs. bull rush, disarm)
+Feats: Awesome Blow, Blind-Fight, Cleave, Combat Expertise, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (spear), Improved Disarm, Improved Initiative, Power Attack
+Skills: Acrobatics +21 (+29 when jumping), Bluff +30, Disguise +30, Fly +24
+Languages: Common, Giant
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (Medium, Large, or Huge humanoid; [alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2))
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 11
-
-**Flat-footed:** 29
-
-**AC modifiers:** +6 armor, +3 Dex, +15 natural, -2 size
-
-**Hit points:** 297 (22d10+176)
-
-**Fort:** +21
-
-**Ref:** +10
-
-**Will:** +18
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Immune:** acid
-
-**Regen:** 10 (fire or good spells)
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 50 ft., swim 60 ft., fly 60 ft. (good)
-
-**Melee:** mwk spear +35/+30/+25/+20 (3d6+21/19-20/×3) or 2 slams +34 (2d6+14)
-
-**Ranged:** acidic missile +23 touch (4d6 acid plus nausea)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with spear
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- fly, freedom of movement, water walk
-
-**At will:**
-
-- invisibility, self only, liquid form, water breathing
-
-**Per day:**
-
-- 3/day: charm monster (DC 20), cone of cold (DC 21), control water, polar ray
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 17, Con 27, Int 16, Wis 20, Cha 22
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +38 (+40 bull rush, disarm)
-
-**Combat maneuver defense:** 51 (53 vs. bull rush, disarm)
-
-**Feats:** Awesome Blow, Blind-Fight, Cleave, Combat Expertise, Combat Reflexes, Critical Focus,
-Improved Bull Rush, Improved Critical (spear), Improved Disarm, Improved Initiative, Power Attack
-
-**Skills:** Acrobatics +21 (+29 when jumping), Bluff +30, Disguise +30, Fly +24
-
-**Languages:** Common, Giant
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape)
-(Medium, Large, or Huge humanoid; [alter self](ref/spell/alter-self) or
-[giant form II](ref/spell/giant-form-2))
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk spear); other treasure
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Standard (mwk spear); other treasure
+:::
 
 ### Special Abilities
 

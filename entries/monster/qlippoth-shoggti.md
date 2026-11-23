@@ -30,108 +30,76 @@ abilities = ["22", "16", "23", "12", "19", "15"]
 _This pale creature has four suckered arms that end in pincers. A gnashing maw gapes in its head
 between two staring eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 18
+AC modifiers: +3 Dex, +9 natural, -1 size
+Hit points: 80 (7d10+42)
+Fort: +11
+Ref: +5
+Will: +9
+Dr: 10/cold iron or lawful
+Immune: cold, poison, mind-affecting effects
+Resist: acid 10, electricity 10, fire 10
+Uncanny dodge: present
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Constrict: 1d4+6
+Melee: bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: braincloud, horrific appearance (DC 15)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: tongues
+At will: command (DC 13)
+Per day: 3/day: charm person (DC 13), protection from law\
+1/day: charm monster (DC 16), dimension door
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 22, Dex 16, Con 23, Int 12, Wis 19, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Skill Focus (Use Magic Device), Weapon Focus (tentacles)
+Skills: Escape Artist +13, Intimidate +16, Knowledge (planes) +11, Perception +18, Sense Motive +14, Stealth +9, Use Magic Device +19
+Racial Modifiers: +4 Intimidate, +4 Perception, +4 Use Magic Device
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +9 natural, -1 size
-
-**Hit points:** 80 (7d10+42)
-
-**Fort:** +11
-
-**Ref:** +5
-
-**Will:** +9
-
-**Dr:** 10/cold iron or lawful
-
-**Immune:** cold, poison, mind-affecting effects
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d4+6
-
-**Melee:** bite +12 (1d8+6), 4 tentacles +8 (1d4+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** braincloud, horrific appearance (DC 15)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- command (DC 13)
-
-**Per day:**
-
-- 3/day: charm person (DC 13), protection from law
-- 1/day: charm monster (DC 16), dimension door
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 16, Con 23, Int 12, Wis 19, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Skill Focus (Use Magic Device), Weapon Focus
-(tentacles)
-
-**Skills:** Escape Artist +13, Intimidate +16, Knowledge (planes) +11, Perception +18, Sense Motive
-+14, Stealth +9, Use Magic Device +19
-
-**Racial Modifiers:** +4 Intimidate, +4 Perception, +4 Use Magic Device
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or slaver band (3-10 plus 6-12 slaves of various races)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or slaver band (3-10 plus 6-12 slaves of various races)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

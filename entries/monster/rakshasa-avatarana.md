@@ -31,99 +31,71 @@ abilities = ["22", "19", "20", "13", "14", "19"]
 _Instead of legs, this bald, emaciated humanoid has a second set of long, muscular arms and a
 leathery flap covering its face._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Native, Rakshasa, Shapechanger
+Experience points: 19,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 26
+Touch: 15
+Flat-footed: 21
+AC modifiers: +4 Dex, +1 dodge, +11 natural
+Hit points: 157 (15d10+75)
+Fort: +14
+Ref: +11
+Will: +11
+Defensive abilities: absolute independence
+Dr: 15/good and piercing
+Sr: 27
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 4 claws +21 (1d6+6 plus [grab](ref/umr/grab))
+Spec Att: corporeal possession, detect thoughts (DC 21)
+:::
 
-**Perception:** +20
+::: statblock
+title = "Psychic Magic"
+Caster level: 12
+Concentration: +16
+Power points: 20
+Psychoactive powers: detect magic, 0 PE, dimension door, 4 PE, dispel magic, 3 PE, displacement, 3 PE, dominate person, 5 PE, DC 19, ego whip III, 5 PE, DC 19, expeditious retreat, 1 PE, greater invisibility, 4 PE, mage hand, 0 PE, mind thrust V, 5 PE, DC 19, misdirection, 2 PE, DC 16, psychic crush I, 5 PE, DC 19, ray of enfeeblement, 1 PE, DC 15, see invisibility, 2 PE, spider climb, 2 PE, telekinesis, 5 PE, DC 19
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Rakshasa, Shapechanger
+::: statblock
+Ability scores: Str 22, Dex 19, Con 20, Int 13, Wis 14, Cha 19
+Base attack bonus: +15
+Combat maneuver bonus: +21 (+29 grapple)
+Combat maneuver defense: 36 (38 vs. grapple)
+Feats: Dodge, Greater Grapple, Heighten Spell, Improved Grapple, Improved Initiative, Improved Unarmed Strike, Lightning Reflexes, Step Up
+Skills: Bluff +26, Diplomacy +22, Disguise +30, Sense Motive +20, Stealth +22
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 15
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +1 dodge, +11 natural
-
-**Hit points:** 157 (15d10+75)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +11
-
-**Defensive abilities:** absolute independence
-
-**Dr:** 15/good and piercing
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 claws +21 (1d6+6 plus [grab](ref/umr/grab))
-
-**Spec Att:** corporeal possession, detect thoughts (DC 21)
-
-**Psychic Magic**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Power points:** 20
-
-**Psychoactive powers:**
-
-- detect magic, 0 PE, dimension door, 4 PE, dispel magic, 3 PE, displacement, 3 PE, dominate person,
-  5 PE, DC 19, ego whip III, 5 PE, DC 19, expeditious retreat, 1 PE, greater invisibility, 4 PE,
-  mage hand, 0 PE, mind thrust V, 5 PE, DC 19, misdirection, 2 PE, DC 16, psychic crush I, 5 PE, DC
-  19, ray of enfeeblement, 1 PE, DC 15, see invisibility, 2 PE, spider climb, 2 PE, telekinesis, 5
-  PE, DC 19
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 20, Int 13, Wis 14, Cha 19
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +21 (+29 grapple)
-
-**Combat maneuver defense:** 36 (38 vs. grapple)
-
-**Feats:** Dodge, Greater Grapple, Heighten Spell, Improved Grapple, Improved Initiative, Improved
-Unarmed Strike, Lightning Reflexes, Step Up
-
-**Skills:** Bluff +26, Diplomacy +22, Disguise +30, Sense Motive +20, Stealth +22
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, cult (1 plus 6-36 humanoid followers)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, cult (1 plus 6-36 humanoid followers)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

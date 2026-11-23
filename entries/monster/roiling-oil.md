@@ -30,73 +30,59 @@ abilities = ["30", "1", "24", "-", "1", "1"]
 _This viscous heap slides like an inky spill. It's the color of a starless night sky, and a thick
 odor permeates the air around it._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 103 (9d8+63)
+Fort: +10
+Ref: -2
+Will: -2
+Dr: 10/slashing
+Immune: electricity, fire, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: slam +15 (3d6+15 plus nauseating film)
+Reach: 10
+Space: 10
+Spec Att: nauseating film, rolling inferno
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 30, Dex 1, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +17
+Combat maneuver defense: 22 (can't be tripped)
+Skills: Climb +18
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 103 (9d8+63)
-
-**Fort:** +10
-
-**Ref:** -2
-
-**Will:** -2
-
-**Dr:** 10/slashing
-
-**Immune:** electricity, fire, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** slam +15 (3d6+15 plus nauseating film)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** nauseating film, rolling inferno
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 1, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Skills:** Climb +18
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

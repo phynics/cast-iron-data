@@ -31,130 +31,84 @@ abilities = ["31", "12", "23", "20", "17", "20"]
 _This spined dragon has black scales that pulse with green light. Her tattered wings show a
 starscape that whirls in mad patterns._
 
-**Challenge rating:** 16
-
-**Mythic rank:** 6
-
 **Female adult [void dragon](ref/monster/dragon-outer-void-adult-void-dragon)**
 
-**aura:** alien presence (180 ft., DC 23, sickened or nauseated 5d6 rounds)
+::: statblock
+Challenge rating: 16
+Mythic rank: 6
+aura: alien presence (180 ft., DC 23, sickened or nauseated 5d6 rounds)
+Alignment: Chaotic evil
+Type: dragon
+Size: huge
+Initiative: +11
+Perception: +22
+Senses: Dragon senses, See in darkness
+Subtype: Mythic
+Experience points: 76,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 35
+Touch: 9
+Flat-footed: 34
+AC modifiers: +1 Dex, +26 natural, -2 size
+Hit points: 260 (16d12+156)
+Fort: +16
+Ref: +11
+Will: +15
+Defensive abilities: dragon blood (1d8 cold)
+Dr: 10/epic and magic
+Immune: cold, confusion, dragon traits, insanity effects, paralysis, sleep
+Sr: 30
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 40 ft., fly 200 ft. (good)
+Br Weap: 50-ft. cone, 12d8 cold, Reflex DC 24 half, usable every 1d4 rounds
+F Swallow: present
+M Power: 6/day, surge +1d8
+Melee: bite +26 (2d8+15/19-20 plus 2d6 [obliteration](ref/family/dragon-outer-void) plus [grab](ref/umr/grab)), 2 claws +24 (2d6+10), tail slap +22 (2d6+15), 2 wings +22 (1d8+5)
+Reach: 10
+Reach P: 15 ft. with bite
+Sp Extra: starflight
+Space: 15
+Spec Att: crush, dual breath, dragon fury (1d8 cold), gaze of the void (DC 23), obliteration (DC 23), suffocating breath (DC 23)
+Swallow: 2d8 cold damage plus suffocating void, AC 23, 26 hp
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+At will: astral gloom, blur, ray of enfeeblement (DC 16), ray of exhaustion (DC 18)
+:::
 
-**Senses:** Dragon senses, See in darkness
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +12
+3rd-level spells: 5/day: dispel magic, rage
+2nd-level spells: 7/day: darkness, shatter, touch of idiocy
+1st-level spells: 8/day: cause fear (DC 16), hypnotism (DC 16), mage armor, obscuring mist, true strike
+:::
 
-**Subtype:** Mythic
+### Statistics
 
-**Experience points:** 76,800
-
-**Armor class:** 35
-
-**Touch:** 9
-
-**Flat-footed:** 34
-
-**AC modifiers:** +1 Dex, +26 natural, -2 size
-
-**Hit points:** 260 (16d12+156)
-
-**Fort:** +16
-
-**Ref:** +11
-
-**Will:** +15
-
-**Defensive abilities:** dragon blood (1d8 cold)
-
-**Dr:** 10/epic and magic
-
-**Immune:** cold, confusion, dragon traits, insanity effects, paralysis, sleep
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft., fly 200 ft. (good)
-
-**Br Weap:** 50-ft. cone, 12d8 cold, Reflex DC 24 half, usable every 1d4 rounds
-
-**F Swallow:** present
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** bite +26 (2d8+15/19-20 plus 2d6 [obliteration](ref/family/dragon-outer-void) plus
-[grab](ref/umr/grab)), 2 claws +24 (2d6+10), tail slap +22 (2d6+15), 2 wings +22 (1d8+5)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Sp Extra:** starflight
-
-**Space:** 15
-
-**Spec Att:** crush, dual breath, dragon fury (1d8 cold), gaze of the void (DC 23), obliteration (DC
-23), suffocating breath (DC 23)
-
-**Swallow:** 2d8 cold damage plus suffocating void, AC 23, 26 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**At will:**
-
-- astral gloom, blur, ray of enfeeblement (DC 16), ray of exhaustion (DC 18)
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**3rd-level spells:**
-
-- 5/day: dispel magic, rage
-
-**2nd-level spells:**
-
-- 7/day: darkness, shatter, touch of idiocy
-
-**1st-level spells:**
-
-- 8/day: cause fear (DC 16), hypnotism (DC 16), mage armor, obscuring mist, true strike
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 12, Con 23, Int 20, Wis 17, Cha 20
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 37 (41 vs. grapple or trip)
-
-**Feats:** Flyby Attack, Hover, Improved Critical (bite), Improved Initiative, Iron Will,
-Multiattack, Weapon Focus (bite), Wingover
-
-**Skills:** Acrobatics +17 (+21 when jumping), Bluff +24, Fly +20, Intimidate +24, Knowledge
-(arcana, planes) +24, Perception +22, Sense Motive +22, Spellcraft +24, Stealth +20, Use Magic
-Device +24
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +8 Stealth
-
-**Languages:** Abyssal, Aklo, Celestial, Draconic, Infernal
-
-**Special qualities:** agile, breathless
+::: statblock
+Ability scores: Str 31, Dex 12, Con 23, Int 20, Wis 17, Cha 20
+Base attack bonus: +16
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 37 (41 vs. grapple or trip)
+Feats: Flyby Attack, Hover, Improved Critical (bite), Improved Initiative, Iron Will, Multiattack, Weapon Focus (bite), Wingover
+Skills: Acrobatics +17 (+21 when jumping), Bluff +24, Fly +20, Intimidate +24, Knowledge (arcana, planes) +24, Perception +22, Sense Motive +22, Spellcraft +24, Stealth +20, Use Magic Device +24
+Racial Modifiers: +4 Acrobatics when jumping, +8 Stealth
+Languages: Abyssal, Aklo, Celestial, Draconic, Infernal
+Special qualities: agile, breathless
+:::
 
 ### Special Abilities
 

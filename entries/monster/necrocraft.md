@@ -30,71 +30,60 @@ abilities = ["15", "13", "-", "-", "10", "13"]
 _Thick muscle and jutting bone from multiple corpses fused together form a winged, human-like
 predator._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: medium
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 26 (4d8+8)
+Fort: +2
+Ref: +2
+Will: +4
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., fly 30 ft. (clumsy)
+Melee: 2 claws +5 (1d4+2), bite +5 (1d6+2)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (clumsy)
-
-**Melee:** 2 claws +5 (1d4+2), bite +5 (1d6+2)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con -, Int -, Wis 10, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16
-
-**Feats:** Toughness^B^
-
-**Special qualities:** Construction Points (additional movement \[fly\], extra attack \[bite\])
+::: statblock
+Ability scores: Str 15, Dex 13, Con -, Int -, Wis 10, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 16
+Feats: Toughness^B^
+Special qualities: Construction Points (additional movement \[fly\], extra attack \[bite\])
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

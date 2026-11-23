@@ -31,107 +31,76 @@ abilities = ["10", "21", "18", "16", "17", "25"]
 _A delicate figure rises from the water, her long ears tapering to points above her head, her beauty
 painful in its perfection._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: blinding beauty (30 ft., DC 21)
+Alignment: Chaotic good
+Type: fey
+Initiative: +5
+Size: medium
+Perception: +14
+Senses: Low-light vision
+Experience points: 3,200
+:::
 
-**aura:** blinding beauty (30 ft., DC 21)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 23
+Touch: 23
+Flat-footed: 17
+AC modifiers: +7 deflection, +5 Dex, +1 dodge
+Hit points: 60 (8d6+32)
+Fort: +13
+Ref: +18
+Will: +16
+Dr: 10/cold iron
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Melee: mwk dagger +10 (1d4/19-20)
+Spec Att: stunning glance
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Per day: 1/day: dimension door
+:::
 
-**Perception:** +14
+::: statblock
+title = "Prepared Spells"
+Caster level: 7
+4th-level spells: summon nature's ally IV
+3rd-level spells: call lightning (DC 16), cure moderate wounds, water breathing
+2nd-level spells: barkskin, flame blade, resist energy, tree shape
+1st-level spells: charm animal (DC 14), endure elements, entangle (DC 14), obscuring mist, produce flame
+Cantrips: detect magic, guidance, light, stabilize
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 10, Dex 21, Con 18, Int 16, Wis 17, Cha 25
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 27
+Feats: Agile Maneuvers, Combat Casting, Dodge, Weapon Finesse
+Skills: Diplomacy +18, Heal +11
+Languages: Common, Sylvan
+Special qualities: inspiration, unearthly grace, [wild empathy](ref/ability/wild-empathy) +21
+:::
 
-**Armor class:** 23
+### Ecology
 
-**Touch:** 23
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 60 (8d6+32)
-
-**Fort:** +13
-
-**Ref:** +18
-
-**Will:** +16
-
-**Dr:** 10/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Melee:** mwk dagger +10 (1d4/19-20)
-
-**Spec Att:** stunning glance
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Per day:**
-
-- 1/day: dimension door
-
-**Prepared Spells**
-
-**Caster level:** 7
-
-**4th-level spells:**
-
-- summon nature's ally IV
-
-**3rd-level spells:**
-
-- call lightning (DC 16), cure moderate wounds, water breathing
-
-**2nd-level spells:**
-
-- barkskin, flame blade, resist energy, tree shape
-
-**1st-level spells:**
-
-- charm animal (DC 14), endure elements, entangle (DC 14), obscuring mist, produce flame
-
-**Cantrips:**
-
-- detect magic, guidance, light, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 21, Con 18, Int 16, Wis 17, Cha 25
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 27
-
-**Feats:** Agile Maneuvers, Combat Casting, Dodge, Weapon Finesse
-
-**Skills:** Diplomacy +18, Heal +11
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** inspiration, unearthly grace, [wild empathy](ref/ability/wild-empathy) +21
-
-**Ecology**
-
-**Environment:** temperate forest
-
-**Organization:** solitary
-
-**Treasure:** Standard (dagger); other treasure
+::: statblock
+Environment: temperate forest
+Organization: solitary
+Treasure: Standard (dagger); other treasure
+:::
 
 ### Special Abilities
 

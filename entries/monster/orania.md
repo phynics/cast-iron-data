@@ -32,138 +32,81 @@ abilities = ["34", "17", "23", "14", "18", "22"]
 _This blue-skinned giant is outfitted in elegant jewelry and white robes, and wields a
 lightning-infused spear._
 
-**Challenge rating:** 18
-
 **Female cloud giant [oracle](ref/class/oracle) 12**
 
-**Size:** huge
+::: statblock
+Challenge rating: 18
+Size: huge
+Type: humanoid
+Initiative: +3
+Alignment: Neutral evil
+Perception: +31
+Senses: Low-light vision, Scent
+Subtype: Giant
+Experience points: 153,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 29
+AC modifiers: +7 armor, +1 deflection, +3 Dex, +1 dodge, +13 natural, -2 size
+Hit points: 294 (16d8+12d8+168\~28)
+Fort: +23
+Ref: +17
+Will: +22
+Rock Ct: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +31
+::: statblock
+Speed: 50 ft.
+Melee: +1 shocking burst longspear +32/+27/+22/+17 (3d6+19/19-20/×3 plus 1d6 electricity)
+Ranged: rock +22 (2d6+12)
+Reach: 15
+Rock Th: 140 ft.
+Space: 15
+:::
 
-**Senses:** Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+At will: levitate, self plus 2,000 lbs., obscuring mist
+Per day: 1/day: fog cloud
+:::
 
-**Subtype:** Giant
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +18
+6th-level spells: 4/day: mass inflict moderate wounds, sirocco, wind walk
+5th-level spells: 6/day: breath of life, control winds, greater command, mass inflict light wounds
+4th-level spells: 7/day: air walk, death ward, discern lies, inflict critical wounds, river of wind
+3rd-level spells: 7/day: cloak of winds, dispel magic, guiding star, inflict serious wounds, magic vestment, wind wall
+2nd-level spells: 8/day: darkness, gust of wind, inflict moderate wounds, oracle's burden (DC 18), share language, shatter, silence
+1st-level spells: 8/day: alter winds, bane, comprehend languages, divine favor, endure elements, inflict light wounds, shield of faith
+Cantrips: At will: bleed, create water, detect magic, detect poison, guidance, light, mending, purify food and drink, read magic
+Mystery: [wind](ref/mystery/wind)
+:::
 
-**Experience points:** 153,600
+### Statistics
 
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 29
-
-**AC modifiers:** +7 armor, +1 deflection, +3 Dex, +1 dodge, +13 natural, -2 size
-
-**Hit points:** 294 (16d8+12d8+168\~28)
-
-**Fort:** +23
-
-**Ref:** +17
-
-**Will:** +22
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 shocking burst longspear +32/+27/+22/+17 (3d6+19/19-20/×3 plus 1d6 electricity)
-
-**Ranged:** rock +22 (2d6+12)
-
-**Reach:** 15
-
-**Rock Th:** 140 ft.
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**At will:**
-
-- levitate, self plus 2,000 lbs., obscuring mist
-
-**Per day:**
-
-- 1/day: fog cloud
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**6th-level spells:**
-
-- 4/day: mass inflict moderate wounds, sirocco, wind walk
-
-**5th-level spells:**
-
-- 6/day: breath of life, control winds, greater command, mass inflict light wounds
-
-**4th-level spells:**
-
-- 7/day: air walk, death ward, discern lies, inflict critical wounds, river of wind
-
-**3rd-level spells:**
-
-- 7/day: cloak of winds, dispel magic, guiding star, inflict serious wounds, magic vestment, wind
-  wall
-
-**2nd-level spells:**
-
-- 8/day: darkness, gust of wind, inflict moderate wounds, oracle's burden (DC 18), share language,
-  shatter, silence
-
-**1st-level spells:**
-
-- 8/day: alter winds, bane, comprehend languages, divine favor, endure elements, inflict light
-  wounds, shield of faith
-
-**Cantrips:**
-
-- At will: bleed, create water, detect magic, detect poison, guidance, light, mending, purify food
-  and drink, read magic
-
-**Mystery:** [wind](ref/mystery/wind)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 23, Int 14, Wis 18, Cha 22
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 50
-
-**Feats:** Awesome Blow, Cleave, Combat Expertise, Dodge, Great Cleave, Improved Bull Rush, Improved
-Critical (longspear), Iron Will, Lightning Reflexes, Mobility, Power Attack, Silent Spell, Spring
-Attack, Whirlwind Attack
-
-**Skills:** Climb +28, Intimidate +25, Knowledge (history) +17, Perception +31, Perform (string)
-+22, Sense Motive +19, Spellcraft +17
-
-**Languages:** Auran, Common, Draconic, Giant; _[tongues](ref/spell/tongues)_ (understand only)
-
-**Special qualities:** oracle's curse ([tongues](ref/oraclecurse/tongues)), oversized weapon,
-revelations (air barrier, thunderburst, wind sight, wings of air)
-
-**Combat gear:** potion of bear's endurance, 2 potion of cure serious wounds
-
-**Other gear:** +1 MF breastplate, +1 shocking burst longspear, Iamu1, Iclk3, Ihbac4, I-necklace of
-adaptation, ring of prot1
+::: statblock
+Ability scores: Str 34, Dex 17, Con 23, Int 14, Wis 18, Cha 22
+Base attack bonus: +21
+Combat maneuver bonus: +35
+Combat maneuver defense: 50
+Feats: Awesome Blow, Cleave, Combat Expertise, Dodge, Great Cleave, Improved Bull Rush, Improved Critical (longspear), Iron Will, Lightning Reflexes, Mobility, Power Attack, Silent Spell, Spring Attack, Whirlwind Attack
+Skills: Climb +28, Intimidate +25, Knowledge (history) +17, Perception +31, Perform (string) +22, Sense Motive +19, Spellcraft +17
+Languages: Auran, Common, Draconic, Giant; _[tongues](ref/spell/tongues)_ (understand only)
+Special qualities: oracle's curse ([tongues](ref/oraclecurse/tongues)), oversized weapon, revelations (air barrier, thunderburst, wind sight, wings of air)
+Combat gear: potion of bear's endurance, 2 potion of cure serious wounds
+Other gear: +1 MF breastplate, +1 shocking burst longspear, Iamu1, Iclk3, Ihbac4, I-necklace of adaptation, ring of prot1
+:::
 
 ### Description
 

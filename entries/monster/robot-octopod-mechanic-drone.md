@@ -32,93 +32,68 @@ abilities = ["22", "16", "-", "15", "5", "5"]
 
 _This octopus-like robot has eight tentacles that it uses to repair multiple machines at a time._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: crew boss (30 ft.)
+Type: construct
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 25,600
+:::
 
-**aura:** crew boss (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +3 Dex, +1 dodge, +10 natural
+Hit points: 124 (16d10+36); force field (65 hp, [fast healing](ref/umr/fast-healing) 13)
+Fort: +5
+Ref: +10
+Will: +2
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Constrict: 1d6+6
+Melee: 8 slams +22 (1d4+6/19-20 plus [grab](ref/umr/grab))
+Ranged: 2 integrated laser pistols +19 touch (2d6 fire)
+Reach: 10
+Space: 5
+Spec Att: combined arms
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +13
+::: statblock
+Ability scores: Str 22, Dex 16, Con -, Int 15, Wis 5, Cha 5
+Base attack bonus: +16
+Combat maneuver bonus: +22
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Critical (slams), Improved Initiative, Lightning Reflexes, Power Attack, Toughness
+Skills: Climb +30, Disable Device +19, Knowledge (engineering) +18, Perception +13
+Languages: Common
+Special qualities: integrated weaponry, mass repair, mechanical expertise, reboot system, repair station
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Robot
-
-**Experience points:** 25,600
-
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +1 dodge, +10 natural
-
-**Hit points:** 124 (16d10+36); force field (65 hp, [fast healing](ref/umr/fast-healing) 13)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +2
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Constrict:** 1d6+6
-
-**Melee:** 8 slams +22 (1d4+6/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** 2 integrated laser pistols +19 touch (2d6 fire)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** combined arms
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 16, Con -, Int 15, Wis 5, Cha 5
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Critical (slams), Improved Initiative,
-Lightning Reflexes, Power Attack, Toughness
-
-**Skills:** Climb +30, Disable Device +19, Knowledge (engineering) +18, Perception +13
-
-**Languages:** Common
-
-**Special qualities:** integrated weaponry, mass repair, mechanical expertise, reboot system, repair
-station
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

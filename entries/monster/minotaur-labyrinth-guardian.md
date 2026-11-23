@@ -32,103 +32,76 @@ abilities = ["25", "12", "-", "14", "18", "16"]
 _A cold chill trails this ironclad minotaur skeleton, yet flames pour from the undead abomination's
 enormous blade._
 
-**Challenge rating:** 8
-
 **Minotaur graveknight [fighter](ref/class/fighter) 1**
 
-**aura:** sacrilegious aura (30 ft., DC 16)
+::: statblock
+Challenge rating: 8
+aura: sacrilegious aura (30 ft., DC 16)
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Augmented monstrous humanoid
+Type: undead
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 29
+Touch: 10
+Flat-footed: 28
+AC modifiers: +10 armor, +1 Dex, +9 natural, -1 size
+Hit points: 60 (6d8+1d10+28\~7)
+Fort: +4
+Ref: +8
+Will: +9
+Chan Res: +4
+Defensive abilities: natural cunning, rejuvenation
+Dr: 10/magic
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 19
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 20 ft.
+Melee: +1 bastard sword +15/+10 (2d8+8/19-20 plus 1d6 fire), slam +8 (1d6+3), gore +8 (1d6+3)
+Pow Ch: gore, 2d6+10
+Ranged: mwk heavy crossbow +8 (2d8/19-20 plus 1d6 fire)
+Reach: 10
+Space: 10
+Spec Att: channel destruction, devastating blast (4d6 fire, DC 16), undead mastery (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Augmented monstrous humanoid
-
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 29
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +10 armor, +1 Dex, +9 natural, -1 size
-
-**Hit points:** 60 (6d8+1d10+28\~7)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +9
-
-**Chan Res:** +4
-
-**Defensive abilities:** natural cunning, rejuvenation
-
-**Dr:** 10/magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 bastard sword +15/+10 (2d8+8/19-20 plus 1d6 fire), slam +8 (1d6+3), gore +8 (1d6+3)
-
-**Pow Ch:** gore, 2d6+10
-
-**Ranged:** mwk heavy crossbow +8 (2d8/19-20 plus 1d6 fire)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** channel destruction, devastating blast (4d6 fire, DC 16), undead mastery (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con -, Int 14, Wis 18, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26
-
-**Feats:** Exotic Weapon Proficiency (bastard sword), Improved Initiative^B^, Lightning Reflexes,
-Mounted Combat^B^, Power Attack, Ride-By Attack^B^, Toughness^B^, Vital Strike, Weapon Focus
-(bastard sword)
-
-**Skills:** Climb +12, Survival +13
-
-**Racial Modifiers:** +8 Intimidate, +12 Perception, +8 Ride, +4 Survival
-
-**Languages:** Common, Giant
-
-**Special qualities:** phantom mount, ruinous revivification
-
-**Combat gear:** 2 potion of inflict moderate wounds
-
-**Other gear:** +1 full plate, +1 bastard sword, mwk heavy crossbow
+::: statblock
+Ability scores: Str 25, Dex 12, Con -, Int 14, Wis 18, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 26
+Feats: Exotic Weapon Proficiency (bastard sword), Improved Initiative^B^, Lightning Reflexes, Mounted Combat^B^, Power Attack, Ride-By Attack^B^, Toughness^B^, Vital Strike, Weapon Focus (bastard sword)
+Skills: Climb +12, Survival +13
+Racial Modifiers: +8 Intimidate, +12 Perception, +8 Ride, +4 Survival
+Languages: Common, Giant
+Special qualities: phantom mount, ruinous revivification
+Combat gear: 2 potion of inflict moderate wounds
+Other gear: +1 full plate, +1 bastard sword, mwk heavy crossbow
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate ruins or underground
+::: statblock
+Environment: temperate ruins or underground
+:::
 
 ### Description
 

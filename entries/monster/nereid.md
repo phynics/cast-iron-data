@@ -33,111 +33,78 @@ abilities = ["11", "29", "24", "14", "22", "21"]
 _This beautiful woman has pearlescent skin and long, dark hair. Her nudity is barely hidden by a
 diaphanous, wet shawl._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: beguiling aura (30-ft., DC 23)
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +9
+Size: medium
+Perception: +21
+Senses: Low-light vision
+Subtype: Water
+Experience points: 9,600
+:::
 
-**aura:** beguiling aura (30-ft., DC 23)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 25
+Touch: 25
+Flat-footed: 15
+AC modifiers: +5 deflection, +9 Dex, +1 dodge
+Hit points: 126 (12d6+84)
+Fort: +11
+Ref: +17
+Will: +14
+Defensive abilities: transparency
+Dr: 10/cold iron
+Immune: cold, poison
+Sr: 21
+Weaknesses: shawl
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: touch +10 (poison)
+Ranged: spray +15 touch (poison)
+Spec Att: drowning kiss
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: control water, suggestion (DC 18; only against creatures that are currently fascinated by her beguiling aura)
+Per day: 1/day: summon monster VI, water elementals only
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Low-light vision
-
-**Subtype:** Water
-
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 25
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 deflection, +9 Dex, +1 dodge
-
-**Hit points:** 126 (12d6+84)
-
-**Fort:** +11
-
-**Ref:** +17
-
-**Will:** +14
-
-**Defensive abilities:** transparency
-
-**Dr:** 10/cold iron
-
-**Immune:** cold, poison
-
-**Sr:** 21
-
-**Weaknesses:** shawl
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** touch +10 (poison)
-
-**Ranged:** spray +15 touch (poison)
-
-**Spec Att:** drowning kiss
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- control water, suggestion (DC 18; only against creatures that are currently fascinated by her
-  beguiling aura)
-
-**Per day:**
-
-- 1/day: summon monster VI, water elementals only
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 29, Con 24, Int 14, Wis 22, Cha 21
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 37
-
-**Feats:** Ability Focus (beguiling aura), Agile Maneuvers, Defensive Combat Training, Dodge,
-Mobility^B^, Weapon Finesse
-
-**Skills:** Bluff +20, Escape Artist +24, Knowledge (nature) +17, Perception +21, Perform (sing)
-+20, Sense Motive +21, Stealth +24, Swim +23
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (medium water elemental;
-[elemental body II](ref/spell/elemental-body-2)), unearthly grace
+::: statblock
+Ability scores: Str 11, Dex 29, Con 24, Int 14, Wis 22, Cha 21
+Base attack bonus: +6
+Combat maneuver bonus: +15
+Combat maneuver defense: 37
+Feats: Ability Focus (beguiling aura), Agile Maneuvers, Defensive Combat Training, Dodge, Mobility^B^, Weapon Finesse
+Skills: Bluff +20, Escape Artist +24, Knowledge (nature) +17, Perception +21, Perform (sing) +20, Sense Motive +21, Stealth +24, Swim +23
+Languages: Aquan, Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (medium water elemental; [elemental body II](ref/spell/elemental-body-2)), unearthly grace
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any aquatic
-
-**Organization:** solitary or troupe (1 nereid plus 1 [giant squid](ref/monster/squid-giant-squid),
-1 [giant octopus](ref/monster/octopus-giant-octopus), 1
-[giant moray eel](ref/monster/eel-giant-moray-eel), or an [orca](ref/monster/dolphin-orca))
-
-**Treasure:** Standard
+::: statblock
+Environment: any aquatic
+Organization: solitary or troupe (1 nereid plus 1 [giant squid](ref/monster/squid-giant-squid), 1 [giant octopus](ref/monster/octopus-giant-octopus), 1 [giant moray eel](ref/monster/eel-giant-moray-eel), or an [orca](ref/monster/dolphin-orca))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

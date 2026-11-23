@@ -32,87 +32,64 @@ abilities = ["18", "17", "18", "17", "14", "7"]
 _This woman's clothing is a jumbled quilt of fine fabrics and elegant stitching, topped with a
 magnificent mask of painted wood and feathers. Bruises and sores cover her skin._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: humanoid
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Human, Mortic
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 armor, +3 Dex, +3 natural
+Hit points: 76 (9d8+36)
+Fort: +10
+Ref: +6
+Will: +5
+Defensive abilities: death gasp, negative energy affinity
+Fh: 5
+Immune: pain
+Weaknesses: rotting flesh, vulnerable to _consecration_
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: mwk dagger +10/+5 (1d4+4/19-20), mwk dagger +10/+5 (1d4+2/19-20) or mwk dagger +12/+7 (1d4+4/19-20)
+Ranged: mwk longbow +10/+5 (1d8/×3)
+Spec Att: ferocious rush, [sneak attack](ref/ability/sneak-attack) +3d6
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 17, Con 18, Int 17, Wis 14, Cha 7
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Improved Initiative, Improved Two-Weapon Fighting, Quick Draw, Skill Focus (Craft \[leatherworking\]), Signature Skill (Craft \[leatherworking\]), Two-Weapon Fighting, Weapon Focus (dagger)
+Skills: Craft (leatherworking) +18, Disguise +7
+Languages: Common
+Special qualities: obsession skill, unliving nature
+:::
 
-**Subtype:** Human, Mortic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 armor, +3 Dex, +3 natural
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** death gasp, negative energy affinity
-
-**Fh:** 5
-
-**Immune:** pain
-
-**Weaknesses:** rotting flesh, vulnerable to _consecration_
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk dagger +10/+5 (1d4+4/19-20), mwk dagger +10/+5 (1d4+2/19-20) or mwk dagger +12/+7
-(1d4+4/19-20)
-
-**Ranged:** mwk longbow +10/+5 (1d8/×3)
-
-**Spec Att:** ferocious rush, [sneak attack](ref/ability/sneak-attack) +3d6
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 18, Int 17, Wis 14, Cha 7
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Improved Initiative, Improved Two-Weapon Fighting, Quick Draw, Skill Focus (Craft
-\[leatherworking\]), Signature Skill (Craft \[leatherworking\]), Two-Weapon Fighting, Weapon Focus
-(dagger)
-
-**Skills:** Craft (leatherworking) +18, Disguise +7
-
-**Languages:** Common
-
-**Special qualities:** obsession skill, unliving nature
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, hunting party (3-5) or patrol (7-9 gurgists with 1-2 trained
-animals or magical beasts such as [ankhegs](ref/monster/ankheg) or [griffons](ref/monster/griffon))
-
-**Treasure:** Standard (studded leather armor, 2 mwk daggers, mwk longbow); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, hunting party (3-5) or patrol (7-9 gurgists with 1-2 trained animals or magical beasts such as [ankhegs](ref/monster/ankheg) or [griffons](ref/monster/griffon))
+Treasure: Standard (studded leather armor, 2 mwk daggers, mwk longbow); other treasure
+:::
 
 ### Special Abilities
 

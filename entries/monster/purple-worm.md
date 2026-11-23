@@ -29,74 +29,59 @@ abilities = ["35", "6", "25", "1", "8", "8"]
 _This enormous worm is covered with dark purple plates of chitinous armor. Its giant, tooth-filled
 mouth is the size of an ox._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: gargantuan
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 19,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 26
+Touch: 4
+Flat-footed: 26
+AC modifiers: -2 Dex, +22 natural, -4 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +8
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 20 ft., swim 10 ft.
+Melee: bite +25 (4d8+12/19-20 plus [grab](ref/umr/grab)), sting +25 (2d8+12 plus poison)
+Reach: 15
+Space: 20
+Swallow: 4d8+18 bludgeoning damage, AC 21, 20 hp
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 35, Dex 6, Con 25, Int 1, Wis 8, Cha 8
+Base attack bonus: +16
+Combat maneuver bonus: +32 (+36 grapple)
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Power Attack, Staggering Critical, Weapon Focus (bite, sting)
+Skills: Perception +18, Swim +20
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 4
-
-**Flat-footed:** 26
-
-**AC modifiers:** -2 Dex, +22 natural, -4 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft., swim 10 ft.
-
-**Melee:** bite +25 (4d8+12/19-20 plus [grab](ref/umr/grab)), sting +25 (2d8+12 plus poison)
-
-**Reach:** 15
-
-**Space:** 20
-
-**Swallow:** 4d8+18 bludgeoning damage, AC 21, 20 hp
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 6, Con 25, Int 1, Wis 8, Cha 8
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +32 (+36 grapple)
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Power Attack,
-Staggering Critical, Weapon Focus (bite, sting)
-
-**Skills:** Perception +18, Swim +20
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

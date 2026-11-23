@@ -29,85 +29,65 @@ abilities = ["29", "8", "21", "12", "15", "12"]
 _Were it not for the image of a sinister face peeking out from its dark gray bark, this would look
 like any other ragged oak tree._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: fear aura (variable distance, DC 20)
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +21
+Type: plant
+Senses: Darkvision 120 ft., Low-light vision, Oaksight
+Experience points: 4,800
+:::
 
-**aura:** fear aura (variable distance, DC 20)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 95 (10d8+50)
+Fort: +12
+Ref: +2
+Will: +5
+Defensive abilities: spell absorption
+Immune: electricity, fire, [plant traits](ref/umr/plant-traits)
+Sr: 19 (see spell absorption)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: bite +14 (2d6+9), 3 roots +12 (1d6+4 plus pull)
+Pull: root, 10 ft.
+Reach: 15
+Reach P: 60 ft. with root
+Space: 5
+:::
 
-**Perception:** +21
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 29, Dex 8, Con 21, Int 12, Wis 15, Cha 12
+Base attack bonus: +7
+Combat maneuver bonus: +18
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Improved Initiative, Lunge, Multiattack, Power Attack, Skill Focus (Perception)
+Skills: Knowledge (nature) +11, Perception +21, Stealth +4 (+8 in forests)
+Racial Modifiers: +4 Stealth in forests
+Languages: Common, Sylvan
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Oaksight
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +12
-
-**Ref:** +2
-
-**Will:** +5
-
-**Defensive abilities:** spell absorption
-
-**Immune:** electricity, fire, [plant traits](ref/umr/plant-traits)
-
-**Sr:** 19 (see spell absorption)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +14 (2d6+9), 3 roots +12 (1d6+4 plus pull)
-
-**Pull:** root, 10 ft.
-
-**Reach:** 15
-
-**Reach P:** 60 ft. with root
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 8, Con 21, Int 12, Wis 15, Cha 12
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Improved Initiative, Lunge, Multiattack, Power Attack, Skill Focus (Perception)
-
-**Skills:** Knowledge (nature) +11, Perception +21, Stealth +4 (+8 in forests)
-
-**Racial Modifiers:** +4 Stealth in forests
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

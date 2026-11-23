@@ -32,111 +32,77 @@ abilities = ["29", "14", "25", "12", "15", "18"]
 _This blue-skinned giant has three eyes, fangs, and claws. Its hair seems to be formed of delicate
 strands of ice._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold, Oni, Giant, Native, Shapechanger
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 24
+AC modifiers: +4 armor, +2 Dex, +1 dodge, +11 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +7
+Will: +12
+Immune: cold
+Regen: 5 (fire or acid)
+Sr: 25
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 60 ft. (good)
+Melee: 4 slams +24 (2d8+9)
+Ranged: icy missile +17 touch (4d6 cold)
+Reach: 10
+Space: 10
+Spec Att: staggering strikes
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +22
+Constant: fly, mage armor
+At will: darkness, invisibility, self only
+Per day: 3/day: charm monster (DC 18), cone of cold (DC 19), deep slumber (DC 17), gaseous form, self only\
+1/day: polar ray, solid fog
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Cold, Oni, Giant, Native, Shapechanger
+::: statblock
+Ability scores: Str 29, Dex 14, Con 25, Int 12, Wis 15, Cha 18
+Base attack bonus: +16
+Combat maneuver bonus: +26
+Combat maneuver defense: 39
+Feats: Cleave, Combat Reflexes, Dodge, Great Cleave, Mobility, Power Attack, Spring Attack, Vital Strike
+Skills: Bluff +23, Disguise +14, Sense Motive +13, Spellcraft +8, Stealth +17 (+21 in snow), Use Magic Device +14
+Racial Modifiers: +4 Stealth in snow
+Languages: Common, Giant
+Special qualities: [change shape](ref/umr/change-shape) (Medium or Large humanoid; [alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +2 Dex, +1 dodge, +11 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +7
-
-**Will:** +12
-
-**Immune:** cold
-
-**Regen:** 5 (fire or acid)
-
-**Sr:** 25
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (good)
-
-**Melee:** 4 slams +24 (2d8+9)
-
-**Ranged:** icy missile +17 touch (4d6 cold)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** staggering strikes
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +22
-
-**Constant:**
-
-- fly, mage armor
-
-**At will:**
-
-- darkness, invisibility, self only
-
-**Per day:**
-
-- 3/day: charm monster (DC 18), cone of cold (DC 19), deep slumber (DC 17), gaseous form, self only
-- 1/day: polar ray, solid fog
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 14, Con 25, Int 12, Wis 15, Cha 18
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 39
-
-**Feats:** Cleave, Combat Reflexes, Dodge, Great Cleave, Mobility, Power Attack, Spring Attack,
-Vital Strike
-
-**Skills:** Bluff +23, Disguise +14, Sense Motive +13, Spellcraft +8, Stealth +17 (+21 in snow), Use
-Magic Device +14
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Common, Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium or Large humanoid;
-[alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary or gang (1 plus 4-16 [frost giants](ref/monster/giant-frost-frost-giant))
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary or gang (1 plus 4-16 [frost giants](ref/monster/giant-frost-frost-giant))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

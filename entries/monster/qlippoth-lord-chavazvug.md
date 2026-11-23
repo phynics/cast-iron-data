@@ -31,130 +31,86 @@ abilities = ["36", "25", "34", "23", "23", "22"]
 _This towering, steaming mass of slithering entrails drags ropes of mouthed intestines below his
 five spidery legs._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+aura: cloak of chaos (DC 24)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +11
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+tremorsense: 60
+Experience points: 614,400
+:::
 
-**aura:** cloak of chaos (DC 24)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 39
+Touch: 14
+Flat-footed: 31
+AC modifiers: +4 deflection, +7 Dex, +1 dodge, +25 natural, -8 size
+Hit points: 437 (25d10+300)
+Fort: +24
+Ref: +25
+Will: +24
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, rejuvenation, searing flesh
+Dr: 15/cold iron and lawful
+Immune: cold, death effects, fire, mind-affecting effects, poison
+Regen: 15 (lawful)
+Resist: acid 30, electricity 30, fire 30
+Sr: 33
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 60 ft., fly 60 ft. (good)
+F Swallow: present
+Melee: bites +30 (2d6+13/19-20 plus 2d6 fire and [grab](ref/umr/grab)), 2 talons +30 (2d8+13/19-20 plus 2d6 fire)
+Reach: 30
+Space: 30
+Spec Att: boiling spray, horrific appearance (DC 28), slaughter demon
+Swallow: 10d6 bludgeoning plus 10d6 fire damage, AC 22, 43 hp
+:::
 
-**Type:** outsider
-
-**Perception:** +34
-
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
-
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
-
-**tremorsense:** 60
-
-**Experience points:** 614,400
-
-**Armor class:** 39
-
-**Touch:** 14
-
-**Flat-footed:** 31
-
-**AC modifiers:** +4 deflection, +7 Dex, +1 dodge, +25 natural, -8 size
-
-**Hit points:** 437 (25d10+300)
-
-**Fort:** +24
-
-**Ref:** +25
-
-**Will:** +24
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, rejuvenation,
-searing flesh
-
-**Dr:** 15/cold iron and lawful
-
-**Immune:** cold, death effects, fire, mind-affecting effects, poison
-
-**Regen:** 15 (lawful)
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 60 ft., fly 60 ft. (good)
-
-**F Swallow:** present
-
-**Melee:** bites +30 (2d6+13/19-20 plus 2d6 fire and [grab](ref/umr/grab)), 2 talons +30
-(2d8+13/19-20 plus 2d6 fire)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** boiling spray, horrific appearance (DC 28), slaughter demon
-
-**Swallow:** 10d6 bludgeoning plus 10d6 fire damage, AC 22, 43 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 22
-
-**Concentration:** +28
-
-**Constant:**
-
-- cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
-
-**At will:**
-
-- contagious flame, desecrate^M^, fireball^M^ (DC 19), greater dispel magic, greater teleport, wall
-  of fire^M^
-
-**Per day:**
-
-- 3/day: quickened contagious flame, delayed blast fireball (DC 23), harm^M^ (DC 22), resurrection,
-  see tainted resurrection, wall of lava
-- 1/day: meteor swarm^M^ (DC 25), summon qlippoth
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 22
+Concentration: +28
+Constant: cloak of chaos (DC 24), detect good, detect law, fly, freedom of movement, true seeing
+At will: contagious flame, desecrate^M^, fireball^M^ (DC 19), greater dispel magic, greater teleport, wall of fire^M^
+Per day: 3/day: quickened contagious flame, delayed blast fireball (DC 23), harm^M^ (DC 22), resurrection, see tainted resurrection, wall of lava\
+1/day: meteor swarm^M^ (DC 25), summon qlippoth
+:::
 
 ###### M {#footnote-m}
 
 Chavazvug can use the mythic version of this ability within his sanctum.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 36, Dex 25, Con 34, Int 23, Wis 23, Cha 22
+::: statblock
+Ability scores: Str 36, Dex 25, Con 34, Int 23, Wis 23, Cha 22
+Base attack bonus: +25
+Combat maneuver bonus: +46
+Combat maneuver defense: 68 (74 vs. trip)
+Feats: Combat Reflexes, Critical Focus, Dodge, Greater Spell Penetration, Improved Critical (bite, talon), Improved Initiative, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (contagious flame), Spell Penetration, Staggering Critical, Vital Strike
+Skills: Acrobatics +35, Fly +42, Intimidate +34, Knowledge (arcana, religion) +31, Perception +34, Use Magic Device +34
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: tainted resurrection
+Faith: Chavazvug
+:::
 
-**Base attack bonus:** +25
+### Ecology
 
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 68 (74 vs. trip)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Greater Spell Penetration, Improved Critical
-(bite, talon), Improved Initiative, Improved Vital Strike, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (contagious flame), Spell Penetration, Staggering
-Critical, Vital Strike
-
-**Skills:** Acrobatics +35, Fly +42, Intimidate +34, Knowledge (arcana, religion) +31, Perception
-+34, Use Magic Device +34
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** tainted resurrection
-
-**Faith:** Chavazvug
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

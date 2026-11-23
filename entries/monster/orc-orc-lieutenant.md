@@ -30,84 +30,65 @@ special_qualities = "armor training 1, weapon familiarity"
 abilities = ["17", "16", "12", "8", "6", "12"]
 +++
 
-**Challenge rating:** 4
-
 **Orc [fighter](ref/class/fighter) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: -2
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex
+Hit points: 42 (5d10+10)
+Fort: +8
+Ref: +5
+Will: +0 (+1 vs. fear)
+Defensive abilities: bravery +1
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** -2
+::: statblock
+Speed: 30 ft.
+Melee: falchion +8 (2d4+4/18-20)
+Ranged: composite longbow +9/+9 (1d8+4/×3)
+Spec Att: weapon training (bows +1)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Orc
+::: statblock
+Ability scores: Str 17, Dex 16, Con 12, Int 8, Wis 6, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Deadly Aim, Great Fortitude, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (composite longbow)
+Skills: Intimidate +9
+Languages: Common, Orc
+Special qualities: armor training 1, weapon familiarity
+Combat gear: 2 +1 BANE-dwarf arrows, potion of cure moderate wounds
+Other gear: mwk Ah, cl20+3, falchion, Iclk1, 127 gp
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex
-
-**Hit points:** 42 (5d10+10)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +0 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** falchion +8 (2d4+4/18-20)
-
-**Ranged:** composite longbow +9/+9 (1d8+4/×3)
-
-**Spec Att:** weapon training (bows +1)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 12, Int 8, Wis 6, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Deadly Aim, Great Fortitude, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus
-(composite longbow)
-
-**Skills:** Intimidate +9
-
-**Languages:** Common, Orc
-
-**Special qualities:** armor training 1, weapon familiarity
-
-**Combat gear:** 2 +1 BANE-dwarf arrows, potion of cure moderate wounds
-
-**Other gear:** mwk Ah, cl20+3, falchion, Iclk1, 127 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

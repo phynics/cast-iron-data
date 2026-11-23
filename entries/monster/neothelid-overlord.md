@@ -31,128 +31,84 @@ abilities = ["34", "11", "26", "24", "19", "25"]
 _Two disgusting heads rise above this enormous mass of slime-drenched coils and slithering
 tentacles._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Type: aberration
+aura: madness (60 ft., DC 33)
+blindsight: 100
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +4
+Perception: +43
+Senses: Trace teleport 60 ft.
+Experience points: 307,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** madness (60 ft., DC 33)
+::: statblock
+Armor class: 34
+Touch: 6
+Flat-footed: 34
+AC modifiers: +28 natural, -4 size
+Hit points: 400 (32d8+256)
+Fort: +20
+Ref: +12
+Will: +24; +4 vs. psychic spells
+Defensive abilities: psychic resilience
+Dr: 15/cold iron
+Sr: 31
+:::
 
-**blindsight:** 100
+### Offense
 
-**Alignment:** Chaotic evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Br Weap: 50-ft. cone, 18d10 acid, Reflex DC 34 half, once every 1d4 rounds
+Melee: 6 tongues +32 (3d6+12/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: coordinated attacks
+Swallow: 2d6+12 plus 2d6 acid, AC 24, hp 40
+:::
 
-**Size:** gargantuan
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: fly
+At will: clairvoyance/clairaudience, detect thoughts (DC 19), mass charm monster (DC 25), mass suggestion (DC 23), poison (DC 20), telekinesis, teleport
+Per day: 3/day: quickened mass suggestion (DC 23)
+:::
 
-**Initiative:** +4
+::: statblock
+title = "Psychic Magic"
+Caster level: 20
+Concentration: +27
+Power points: 27
+Psychoactive powers: demand offering, 2 PE, DC 19, ego whip V, 6 PE, DC 23, id insinuation IV, 5 PE, DC 22, mass inflict pain, 6 PE, DC 23, mind thrust VI, 6 PE, DC 23, psychic crush V, 9 PE, DC 26, telekinetic storm, 9 PE, DC 26
+:::
 
-**Perception:** +43
+### Statistics
 
-**Senses:** Trace teleport 60 ft.
+::: statblock
+Ability scores: Str 34, Dex 11, Con 26, Int 24, Wis 19, Cha 25
+Base attack bonus: +24
+Combat maneuver bonus: +40 (+44 bull rush, +44 grapple, +44 overrun)
+Combat maneuver defense: 50 (52 vs. bull rush, 52 vs. overrun)
+Feats: Alertness, Cleave, Great Cleave, Great Fortitude, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Improved Lightning Reflexes, Improved Overrun, Iron Will, Lightning Reflexes, Persuasive, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion)
+Skills: Bluff +39, Climb +47, Intimidate +46, Knowledge (arcana) +42, Perception +43, Sense Motive +40, Spellcraft +42
+Languages: Aboleth, Abyssal, Aklo, Elder Thing, Infernal, Orvian, Terran, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: divided consciousness
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 6
-
-**Flat-footed:** 34
-
-**AC modifiers:** +28 natural, -4 size
-
-**Hit points:** 400 (32d8+256)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +24; +4 vs. psychic spells
-
-**Defensive abilities:** psychic resilience
-
-**Dr:** 15/cold iron
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Br Weap:** 50-ft. cone, 18d10 acid, Reflex DC 34 half, once every 1d4 rounds
-
-**Melee:** 6 tongues +32 (3d6+12/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** coordinated attacks
-
-**Swallow:** 2d6+12 plus 2d6 acid, AC 24, hp 40
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- clairvoyance/clairaudience, detect thoughts (DC 19), mass charm monster (DC 25), mass suggestion
-  (DC 23), poison (DC 20), telekinesis, teleport
-
-**Per day:**
-
-- 3/day: quickened mass suggestion (DC 23)
-
-**Psychic Magic**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Power points:** 27
-
-**Psychoactive powers:**
-
-- demand offering, 2 PE, DC 19, ego whip V, 6 PE, DC 23, id insinuation IV, 5 PE, DC 22, mass
-  inflict pain, 6 PE, DC 23, mind thrust VI, 6 PE, DC 23, psychic crush V, 9 PE, DC 26, telekinetic
-  storm, 9 PE, DC 26
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 11, Con 26, Int 24, Wis 19, Cha 25
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +40 (+44 bull rush, +44 grapple, +44 overrun)
-
-**Combat maneuver defense:** 50 (52 vs. bull rush, 52 vs. overrun)
-
-**Feats:** Alertness, Cleave, Great Cleave, Great Fortitude, Greater Bull Rush, Greater Overrun,
-Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Improved Lightning Reflexes,
-Improved Overrun, Iron Will, Lightning Reflexes, Persuasive, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (mass suggestion)
-
-**Skills:** Bluff +39, Climb +47, Intimidate +46, Knowledge (arcana) +42, Perception +43, Sense
-Motive +40, Spellcraft +42
-
-**Languages:** Aboleth, Abyssal, Aklo, Elder Thing, Infernal, Orvian, Terran, Undercommon;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** divided consciousness
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or conclave (3-5 served by a cult of
-[neothelids](ref/monster/neothelid) and 9-24 [seugathi](ref/monster/seugathi))
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or conclave (3-5 served by a cult of [neothelids](ref/monster/neothelid) and 9-24 [seugathi](ref/monster/seugathi))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

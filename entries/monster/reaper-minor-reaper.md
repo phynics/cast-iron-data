@@ -29,78 +29,61 @@ special_qualities = "sole target"
 abilities = ["14", "19", "-", "8", "11", "17"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +4 Dex, +8 natural
+Hit points: 127 (15d8+60)
+Fort: +8
+Ref: +11
+Will: +9
+Dr: 5/cold iron or good
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 21
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 30 ft.
+Melee: scythe +14/+9/+4 (2d4+3/×4 plus death touch)
+Spec Att: fear cone (30 ft., DC 20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 19, Con -, Int 8, Wis 11, Cha 17
+Base attack bonus: +11
+Combat maneuver bonus: +15
+Combat maneuver defense: 27
+Feats: Agile Maneuvers, Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack, Toughness, Weapon Focus (scythe)
+Skills: Climb +10, Intimidate +16, Perception +18, Stealth +22
+Special qualities: sole target
+:::
 
-**Type:** undead
+### Ecology {#stat-ecology}
 
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +8 natural
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +9
-
-**Dr:** 5/cold iron or good
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** scythe +14/+9/+4 (2d4+3/×4 plus death touch)
-
-**Spec Att:** fear cone (30 ft., DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con -, Int 8, Wis 11, Cha 17
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27
-
-**Feats:** Agile Maneuvers, Cleave, Combat Reflexes, Improved Initiative, Lightning Reflexes, Power
-Attack, Toughness, Weapon Focus (scythe)
-
-**Skills:** Climb +10, Intimidate +16, Perception +18, Stealth +22
-
-**Special qualities:** sole target
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or omen (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or omen (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

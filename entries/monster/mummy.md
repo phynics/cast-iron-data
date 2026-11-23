@@ -32,75 +32,60 @@ abilities = ["24", "10", "-", "6", "15", "15"]
 _Wrapped from head to toe in ancient strips of moldering linen, this humanoid moves with a shuffling
 gait._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** despair (30 ft., paralyzed for 1d4 rounds, Will DC 16 negates)
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 20
+AC modifiers: +10 natural
+Hit points: 60 (8d8+24)
+Fort: +4
+Ref: +2
+Will: +8
+Dr: 5/-
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: fire
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: slam +14 (1d8+10 plus mummy rot)
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 10, Con -, Int 6, Wis 15, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 23
+Feats: Power Attack, Toughness, Skill Focus (Perception), Weapon Focus (slam)
+Skills: Perception +16, Stealth +11
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +10 natural
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +8
-
-**Dr:** 5/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +14 (1d8+10 plus mummy rot)
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 10, Con -, Int 6, Wis 15, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23
-
-**Feats:** Power Attack, Toughness, Skill Focus (Perception), Weapon Focus (slam)
-
-**Skills:** Perception +16, Stealth +11
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, warden squad (2-6), or guardian detail (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, warden squad (2-6), or guardian detail (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

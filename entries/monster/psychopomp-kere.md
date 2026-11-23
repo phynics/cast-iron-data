@@ -31,106 +31,75 @@ abilities = ["16", "21", "18", "13", "20", "19"]
 _This unnaturally pale woman is dressed in the somber garb of a mourner, her countenance covered by
 a lengthy black veil._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Psychopomp, Extraplanar
+Experience points: 9,600
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 17
+AC modifiers: +5 Dex, +7 natural
+Hit points: 114 (12d10+48)
+Fort: +8
+Ref: +15
+Will: +13
+Dr: 10/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+Sr: 21
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee: 2 claws +17 (1d4+3 plus 1d6 cold), shroud +17 (infectious fear)
+Reach: 5
+Reach P: 15 ft. with shroud
+Space: 5
+Spec Att: infectious fear (DC 20), veil of tears
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: ghost sound (DC 14), grave tell, greater invisibility, hide from undead (DC 15), minor image (DC 16), searing light, whispering wind
+Per day: 3/day: fog cloud, mage's faithful hound, mirage arcana (DC 19), speak with dead (DC 17), waves of fatigue\
+1/day: gate, to the Boneyard or Material Plane only; planar travel only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+### Statistics
 
-**Subtype:** Psychopomp, Extraplanar
+::: statblock
+Ability scores: Str 16, Dex 21, Con 18, Int 13, Wis 20, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +15
+Combat maneuver defense: 30
+Feats: Alertness, Combat Reflexes, Improved Initiative, Lightning Reflexes, Stealthy, Weapon Finesse
+Skills: Escape Artist +7, Fly +28, Intimidate +19, Knowledge (history) +16, Perception +24, Sense Motive +24, Stealth +24
+Languages: Abyssal, Celestial, Common, Infernal
+Special qualities: grave dependent, grave meld
+:::
 
-**Experience points:** 9,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 Dex, +7 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +8
-
-**Ref:** +15
-
-**Will:** +13
-
-**Dr:** 10/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect)
-
-**Melee:** 2 claws +17 (1d4+3 plus 1d6 cold), shroud +17 (infectious fear)
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with shroud
-
-**Space:** 5
-
-**Spec Att:** infectious fear (DC 20), veil of tears
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- ghost sound (DC 14), grave tell, greater invisibility, hide from undead (DC 15), minor image (DC
-  16), searing light, whispering wind
-
-**Per day:**
-
-- 3/day: fog cloud, mage's faithful hound, mirage arcana (DC 19), speak with dead (DC 17), waves of
-  fatigue
-- 1/day: gate, to the Boneyard or Material Plane only; planar travel only
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 21, Con 18, Int 13, Wis 20, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 30
-
-**Feats:** Alertness, Combat Reflexes, Improved Initiative, Lightning Reflexes, Stealthy, Weapon
-Finesse
-
-**Skills:** Escape Artist +7, Fly +28, Intimidate +19, Knowledge (history) +16, Perception +24,
-Sense Motive +24, Stealth +24
-
-**Languages:** Abyssal, Celestial, Common, Infernal
-
-**Special qualities:** grave dependent, grave meld
-
-**Ecology**
-
-**Environment:** any (graveyards or the [Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any (graveyards or the [Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

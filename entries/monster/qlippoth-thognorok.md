@@ -31,98 +31,74 @@ abilities = ["13", "8", "15", "8", "13", "12"]
 _This obscene mass looks like a melted blob crossed with a spider, ceaselessly lashing out with its
 hairy, wriggling legs._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: -1
+Size: medium
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: -1 Dex, +7 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +0
+Will: +5
+Amorph: present
+Defensive abilities: all-around vision
+Dr: 5/cold iron or lawful
+Immune: cold, mind-affecting effects, poison
+Resist: acid 10, electricity 10, fire 10
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: 3 bites +7 (1d6+1 plus poison)
+Spec Att: acid, horrific appearance, poison
+Web: +4 ranged, DC 16, 5 hp
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 3/day: acid arrow, protection from law, vomit swarm\
+1/day: excruciating deformation (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 13, Dex 8, Con 15, Int 8, Wis 13, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Ability Focus (acid web), Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Climb +9
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** -1 Dex, +7 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +0
-
-**Will:** +5
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/cold iron or lawful
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** 3 bites +7 (1d6+1 plus poison)
-
-**Spec Att:** acid, horrific appearance, poison
-
-**Web:** +4 ranged, DC 16, 5 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: acid arrow, protection from law, vomit swarm
-- 1/day: excruciating deformation (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 8, Con 15, Int 8, Wis 13, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Ability Focus (acid web), Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Climb +9
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or gang (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,90 +32,69 @@ abilities = ["12", "10", "8", "14", "13", "17"]
 _This gaunt, scaled humanoid has reptilian eyes, a barely perceptible nose, and a wide, lipless
 mouth filled with sharp teeth._
 
-**Challenge rating:** 1/2
-
 **Reptoid [mesmerist](ref/class/mesmerist) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Perception: +5
+Senses: Low-light vision
+Subtype: Reptilian, Shapechanger
+Experience points: 200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 11
+Touch: 10
+Flat-footed: 11
+AC modifiers: +1 natural
+Hit points: 7 (1d8-1)
+Fort: +1
+Ref: +2
+Will: +3; +2 vs. mind-affecting effects and poison
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +1 (1d3+1), 2 claws +1 (1d3+1)
+Spec Att: hypnotic stare, mesmerist tricks (4/day, [psychosomatic surge](ref/trick/psychosomatic-surge)), painful stare
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: hypnotism (DC 14), innocence
+Cantrips: At will: daze (DC 13), detect magic, message, prestidigitation
+:::
 
-**Subtype:** Reptilian, Shapechanger
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 12, Dex 10, Con 8, Int 14, Wis 13, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 11
+Feats: Great Fortitude
+Skills: Bluff +8, Diplomacy +7, Sense Motive +5, Use Magic Device +7
+Languages: Common, Elven, Reptoid
+Special qualities: change shape, consummate liar, mental potency
+:::
 
-**Armor class:** 11
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 natural
-
-**Hit points:** 7 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +3; +2 vs. mind-affecting effects and poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +1 (1d3+1), 2 claws +1 (1d3+1)
-
-**Spec Att:** hypnotic stare, mesmerist tricks (4/day,
-[psychosomatic surge](ref/trick/psychosomatic-surge)), painful stare
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: hypnotism (DC 14), innocence
-
-**Cantrips:**
-
-- At will: daze (DC 13), detect magic, message, prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 10, Con 8, Int 14, Wis 13, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Great Fortitude
-
-**Skills:** Bluff +8, Diplomacy +7, Sense Motive +5, Use Magic Device +7
-
-**Languages:** Common, Elven, Reptoid
-
-**Special qualities:** change shape, consummate liar, mental potency
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cabal (3-8)
-
-**Treasure:** NPC gear
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cabal (3-8)
+Treasure: NPC gear
+:::
 
 ### Special Abilities
 

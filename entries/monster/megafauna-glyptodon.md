@@ -28,69 +28,57 @@ abilities = ["25", "10", "17", "2", "13", "6"]
 _This armored creature has a bony, turtle-like shell from which protrude short limbs, a blunt head,
 and a short spiky tail._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +16
+Senses: Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 21
+AC modifiers: +12 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +11
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 claws +12 (1d10+7)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 10, Con 17, Int 2, Wis 13, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +14
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Endurance, Great Fortitude, Improved Bull Rush, Power Attack, Skill Focus (Perception)
+Skills: Perception +16
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +12 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 claws +12 (1d10+7)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 10, Con 17, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Endurance, Great Fortitude, Improved Bull Rush, Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +16
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

@@ -32,73 +32,59 @@ abilities = ["29", "9", "22", "2", "13", "4"]
 _This creature resembles an elephant, though it has a shorter, thicker trunk and sharp,
 downward-curving tusks._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 84 (8d8+48)
+Fort: +12
+Ref: +5
+Will: +5
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: gore +13 (2d6+9), slam +13 (1d8+9)
+Reach: 15
+Space: 15
+Spec Att: sweep
+Trample: 2d8+13, DC 23
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 29, Dex 9, Con 22, Int 2, Wis 13, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +17
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Diehard, Endurance, Iron Will, Power Attack
+Skills: Perception +11, Swim +13
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +13 (2d6+9), slam +13 (1d8+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sweep
-
-**Trample:** 2d8+13, DC 23
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 9, Con 22, Int 2, Wis 13, Cha 4
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Diehard, Endurance, Iron Will, Power Attack
-
-**Skills:** Perception +11, Swim +13
-
-**Ecology**
-
-**Environment:** any forests or plains
-
-**Organization:** solitary, pair, or family (2 adults and 1 calf)
-
-**Treasure:** None
+::: statblock
+Environment: any forests or plains
+Organization: solitary, pair, or family (2 adults and 1 calf)
+Treasure: None
+:::
 
 ### Special Abilities
 

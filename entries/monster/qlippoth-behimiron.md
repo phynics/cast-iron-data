@@ -30,103 +30,75 @@ abilities = ["32", "21", "26", "7", "22", "17"]
 _This monstrous fiend resembles a titan beetle with a sagging, elephantine hide stretched over its
 spiny carapace._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Size: huge
+Initiative: +9
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 23
+AC modifiers: +5 Dex, +15 natural, -2 size
+Hit points: 189 (14d10+112)
+Fort: +17
+Ref: +11
+Will: +15
+Defensive abilities: spines
+Dr: 10/lawful
+Immune: cold, mind-affecting effects, negative energy, poison
+Resist: acid 10, electricity 10, fire 10
+Sr: 24
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +23 (4d6+11), slam +23 (2d8+16), 4 antennae +18 touch (rot)
+Reach: 15
+Reach P: 20 ft. with slam
+Space: 15
+Spec Att: create spawn, horrific appearance (DC 20), rot
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+At will: ray of exhaustion (DC 16)
+Per day: 3/day: enervation, hold monster (DC 18)\
+1/day: power word stun
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 32, Dex 21, Con 26, Int 7, Wis 22, Cha 17
+Base attack bonus: +14
+Combat maneuver bonus: +27
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Blind-Fight, Combat Casting, Combat Reflexes, Improved Initiative, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Climb +28, Knowledge (planes) +15, Perception +23, Stealth +14
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 Dex, +15 natural, -2 size
-
-**Hit points:** 189 (14d10+112)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +15
-
-**Defensive abilities:** spines
-
-**Dr:** 10/lawful
-
-**Immune:** cold, mind-affecting effects, negative energy, poison
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +23 (4d6+11), slam +23 (2d8+16), 4 antennae +18 touch (rot)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with slam
-
-**Space:** 15
-
-**Spec Att:** create spawn, horrific appearance (DC 20), rot
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**At will:**
-
-- ray of exhaustion (DC 16)
-
-**Per day:**
-
-- 3/day: enervation, hold monster (DC 18)
-- 1/day: power word stun
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 21, Con 26, Int 7, Wis 22, Cha 17
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Casting, Combat Reflexes, Improved Initiative, Lightning Reflexes,
-Power Attack, Vital Strike
-
-**Skills:** Climb +28, Knowledge (planes) +15, Perception +23, Stealth +14
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or cluster (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

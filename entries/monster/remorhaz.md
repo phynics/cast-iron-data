@@ -30,79 +30,62 @@ abilities = ["22", "13", "21", "5", "12", "10"]
 _An immense centipede-like beast erupts from the snow, rows of chitinous plates on its back glowing
 red-hot._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 9
+Flat-footed: 19
+AC modifiers: +1 Dex, +11 natural, -2 size
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +7
+Will: +4
+Immune: fire, cold
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Melee: bite +13 (3d6+9 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: heat
+Swallow: 2d6+9 plus 8d6 fire, AC 15, hp 9
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 13, Con 21, Int 5, Wis 12, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Power Attack, Skill Focus (Perception)
+Skills: Perception +16
+Languages: Giant (can't speak)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +11 natural, -2 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +4
-
-**Immune:** fire, cold
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Melee:** bite +13 (3d6+9 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** heat
-
-**Swallow:** 2d6+9 plus 8d6 fire, AC 15, hp 9
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 21, Int 5, Wis 12, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Power Attack, Skill Focus (Perception)
-
-**Skills:** Perception +16
-
-**Languages:** Giant (can't speak)
-
-**Ecology**
-
-**Environment:** cold deserts and glaciers
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold deserts and glaciers
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

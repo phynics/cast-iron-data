@@ -37,79 +37,62 @@ abilities = ["14", "19", "15", "5", "14", "6"]
 _Skin pale as a slug's belly, eyes huge and bulging, this thing crawls down the wall like a spider,
 but its shape is hideously humanoid._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +2
+Senses: Darkvision 120 ft., Scent
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 22 (3d10+6)
+Fort: +3
+Ref: +9
+Will: +5
+Immune: disease, poison
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: club +5 (1d6+2), bite +0 (1d4+1)
+Sneak: +1d6
+Spec Att: leap attack,, swarming
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 120 ft., Scent
+::: statblock
+Ability scores: Str 14, Dex 19, Con 15, Int 5, Wis 14, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Acrobatics +13, Climb +22, Stealth +8 (+12 in caverns)
+Racial Modifiers: +4 Stealth in caverns, +8 Acrobatics, +16 Climb
+Languages: Undercommon
+Special qualities: expert climber
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +5
-
-**Immune:** disease, poison
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** club +5 (1d6+2), bite +0 (1d4+1)
-
-**Sneak:** +1d6
-
-**Spec Att:** leap attack,, swarming
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 15, Int 5, Wis 14, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Acrobatics +13, Climb +22, Stealth +8 (+12 in caverns)
-
-**Racial Modifiers:** +4 Stealth in caverns, +8 Acrobatics, +16 Climb
-
-**Languages:** Undercommon
-
-**Special qualities:** expert climber
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, band (3-6), or tribe (7-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, band (3-6), or tribe (7-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

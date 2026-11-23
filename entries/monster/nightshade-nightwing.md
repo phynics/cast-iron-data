@@ -29,108 +29,76 @@ abilities = ["31", "18", "-", "18", "21", "21"]
 _This enormous, bat-like creature is shaped from utter darkness, its eyes tiny red stars in the
 blackest night._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: desecrating aura (30 ft.)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +8
+Perception: +25
+Senses: Darksense, Darkvision 60 ft., Detect magic, Low-light vision
+Subtype: Extraplanar, Nightshade
+Type: undead
+Experience points: 38,400
+:::
 
-**aura:** desecrating aura (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 12
+Flat-footed: 25
+AC modifiers: +4 Dex, +17 natural, -2 size
+Hit points: 195 (17d8+119)
+Fort: +12
+Ref: +11
+Will: +17
+Dr: 15/good and silver
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 25
+Weaknesses: light aversion
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Ch En: 7d6, DC 28, 8/day
+Melee: bite +23 (4d10+18/19-20 plus 4d6 cold and magic drain)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: detect magic, magic fang
+At will: contagion (DC 19), deeper darkness, unholy blight (DC 19)
+Per day: 3/day: confusion (DC 19), greater dispel magic, haste, hold monster (DC 20), invisibility\
+1/day: cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22), summon (level 6, 2 greater shadows)
+:::
 
-**Senses:** Darksense, Darkvision 60 ft., Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Nightshade
+::: statblock
+Ability scores: Str 31, Dex 18, Con -, Int 18, Wis 21, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +24
+Combat maneuver defense: 38
+Feats: Cleave, Combat Reflexes, Command Undead, Great Cleave, Improved Critical (bite), Improved Initiative, Improved Sunder, Power Attack, Snatch
+Skills: Fly +24
+Racial Modifiers: +8 Stealth in dim light and darkness
+Languages: Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +17 natural, -2 size
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +17
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 25
-
-**Weaknesses:** light aversion
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Ch En:** 7d6, DC 28, 8/day
-
-**Melee:** bite +23 (4d10+18/19-20 plus 4d6 cold and magic drain)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- detect magic, magic fang
-
-**At will:**
-
-- contagion (DC 19), deeper darkness, unholy blight (DC 19)
-
-**Per day:**
-
-- 3/day: confusion (DC 19), greater dispel magic, haste, hold monster (DC 20), invisibility
-- 1/day: cone of cold (DC 20), finger of death (DC 22), plane shift (DC 22), summon (level 6, 2
-  greater shadows)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 18, Con -, Int 18, Wis 21, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 38
-
-**Feats:** Cleave, Combat Reflexes, Command Undead, Great Cleave, Improved Critical (bite), Improved
-Initiative, Improved Sunder, Power Attack, Snatch
-
-**Skills:** Fly +24
-
-**Racial Modifiers:** +8 Stealth in dim light and darkness
-
-**Languages:** Abyssal, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,85 +32,64 @@ abilities = ["22", "15", "-", "12", "15", "1"]
 _Rows of crystal spheres line the back of this four-legged robot. A single glowing eye sits in the
 middle of its head._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +10 natural
+Hit points: 131 (13d10+20\~\~40)
+Fort: +4
+Ref: +6
+Will: +8
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 10, cold 10, fire 10
+Vulner: critical hits and electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Constrict: 1d6+9
+Melee: claw +19 (1d6+6 plus [grab](ref/umr/grab)), 2 integrated nanite injectors +19 (1d4+6 plus harvest thoughts)
+Ranged: integrated sonic rifle +15 ranged touch (3d6 sonic)
+Spec Att: harvest thoughts, integrated nanite injectors, integrated sonic rifle
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 15, Con -, Int 12, Wis 15, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +19
+Combat maneuver defense: 32 (36 vs. trip)
+Feats: Alertness, Dodge, Improved Initiative, Iron Will, Mobility, Point-Blank Shot, Power Attack
+Skills: Knowledge (local) +10, Perception +19, Sense Motive +19, Stealth +6
+Languages: Androffan, Common
+:::
 
-**Subtype:** Robot
+### Ecology {#stat-ecology}
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +10 natural
-
-**Hit points:** 131 (13d10+20\~\~40)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +8
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d6+9
-
-**Melee:** claw +19 (1d6+6 plus [grab](ref/umr/grab)), 2 integrated nanite injectors +19 (1d4+6 plus
-harvest thoughts)
-
-**Ranged:** integrated sonic rifle +15 ranged touch (3d6 sonic)
-
-**Spec Att:** harvest thoughts, integrated nanite injectors, integrated sonic rifle
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con -, Int 12, Wis 15, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 32 (36 vs. trip)
-
-**Feats:** Alertness, Dodge, Improved Initiative, Iron Will, Mobility, Point-Blank Shot, Power
-Attack
-
-**Skills:** Knowledge (local) +10, Perception +19, Sense Motive +19, Stealth +6
-
-**Languages:** Androffan, Common
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary or squad (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary or squad (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

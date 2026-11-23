@@ -36,83 +36,64 @@ composed of twisted strands of pallid flesh and veiny musculature. The tentacle-
 with the awkward, alien speed of a hunting insect, unnaturally still one moment and darting forth
 with incredible speed the next._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Size: huge
+Initiative: +2
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 16
+AC modifiers: +2 Dex, +8 natural, -2 size
+Hit points: 76 (9d8+36)
+Fort: +9
+Ref: +5
+Will: +7
+Vulner: acid
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Constrict: 2d8+7
+Melee: bite +11 (2d6+7 plus [grab](ref/umr/grab)), tail slap +6 (2d6+3 plus grab)
+Ranged: gob +6 (1d6 plus stuck)
+Reach: 15
+Space: 15
+Spec Att: gob
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 14, Con 18, Int 9, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +15
+Combat maneuver defense: 27
+Feats: Blind-Fight, Great Fortitude, Greater Grapple, Improved Grapple, Stealthy
+Skills: Escape Artist +11, Perception +13, Stealth +8, Swim +23
+Languages: Common (can't speak), Goblin (can't speak)
+Special qualities: deathwatch, squeeze
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +8 natural, -2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +7
-
-**Vulner:** acid
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Constrict:** 2d8+7
-
-**Melee:** bite +11 (2d6+7 plus [grab](ref/umr/grab)), tail slap +6 (2d6+3 plus grab)
-
-**Ranged:** gob +6 (1d6 plus stuck)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** gob
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 18, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27
-
-**Feats:** Blind-Fight, Great Fortitude, Greater Grapple, Improved Grapple, Stealthy
-
-**Skills:** Escape Artist +11, Perception +13, Stealth +8, Swim +23
-
-**Languages:** Common (can't speak), Goblin (can't speak)
-
-**Special qualities:** deathwatch, squeeze
-
-**Ecology**
-
-**Environment:** temperate marshes and underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate marshes and underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

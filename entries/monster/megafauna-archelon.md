@@ -29,73 +29,59 @@ abilities = ["22", "13", "19", "2", "12", "6"]
 _The shell of this immense sea turtle easily spans 12 feet in length. Its narrow head ends in a
 hooked beak._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 18
+AC modifiers: +10 armor, +1 Dex, -2 size
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +6
+Will: +5
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft., swim 50 ft.
+Capsize: 25
+Melee: bite +10 (2d8+9)
+Reach: 10
+Space: 15
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 13, Con 19, Int 2, Wis 12, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: +13
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Improved Initiative, Iron Will, Lunge, Weapon Focus (bite)
+Skills: Perception +10, Swim +18
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +10 armor, +1 Dex, -2 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 15 ft., swim 50 ft.
-
-**Capsize:** 25
-
-**Melee:** bite +10 (2d8+9)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 19, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Improved Initiative, Iron Will, Lunge, Weapon Focus (bite)
-
-**Skills:** Perception +10, Swim +18
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm or temperate water or coastlines
-
-**Organization:** solitary or bale (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate water or coastlines
+Organization: solitary or bale (2-6)
+Treasure: None
+:::
 
 ### Description
 

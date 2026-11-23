@@ -32,75 +32,56 @@ abilities = ["22", "19", "18", "11", "14", "9"]
 _A wicked scar runs the length of this blue-eyed, apish humanoid's face, and he wields a dislodged
 tree trunk as a club._
 
-**Challenge rating:** 5
-
 **Male sasquatch [ranger](ref/class/ranger) ([warden](ref/arc-ranger/warden)) 3**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +4
+Alignment: Lawful neutral
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Sasquatch
+Experience points: 1,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 natural
+Hit points: 56 (3d8+3d10+27\~6)
+Fort: +8
+Ref: +10
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 40 ft.
+Melee: +1 greatclub +13 (1d10+10) or slam +11 (1d4+9)
+Ranged: rock +10 (1d6+6)
+Rock Th: 120 ft.
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Sasquatch
-
-**Experience points:** 1,600
-
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 natural
-
-**Hit points:** 56 (3d8+3d10+27\~6)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 greatclub +13 (1d10+10) or slam +11 (1d4+9)
-
-**Ranged:** rock +10 (1d6+6)
-
-**Rock Th:** 120 ft.
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 18, Int 11, Wis 14, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Endurance, Self-Sufficient, Skill Focus (Stealth), Weapon Focus (greatclub)
-
-**Skills:** Heal +10, Knowledge (nature) +6, Perception +15
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+8 in forests), +4 Survival
-
-**Languages:** Sasquatch
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (forest +4, mountain +2), live
-in comfort, pungency, track +1, [wild empathy](ref/ability/wild-empathy) +2,
-[woodland stride](ref/ability/woodland-stride)
-
-**Gear:** +1 greatclub
+::: statblock
+Ability scores: Str 22, Dex 19, Con 18, Int 11, Wis 14, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Endurance, Self-Sufficient, Skill Focus (Stealth), Weapon Focus (greatclub)
+Skills: Heal +10, Knowledge (nature) +6, Perception +15
+Racial Modifiers: +4 Perception, +4 Stealth (+8 in forests), +4 Survival
+Languages: Sasquatch
+Special qualities: [favored terrain](ref/ability/favored-terrain) (forest +4, mountain +2), live in comfort, pungency, track +1, [wild empathy](ref/ability/wild-empathy) +2, [woodland stride](ref/ability/woodland-stride)
+Gear: +1 greatclub
+:::
 
 ### Special Abilities
 

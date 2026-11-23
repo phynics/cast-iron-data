@@ -31,78 +31,61 @@ abilities = ["22", "21", "-", "12", "17", "1"]
 
 _With wings and an unearthly glow, this mechanical being could easily be mistaken for an angel._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Superior optics
+Subtype: Robot
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 22
+AC modifiers: +5 Dex, +12 natural
+Hit points: 158 (16d10+20\~\~50)
+Fort: +5
+Ref: +10
+Will: +10
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., fly 120 ft. (perfect)
+Melee: bastard sword +22/+17/+12/+7 (1d10+6/19-20 plus stun) or 2 slams +22 (1d4+6 plus stun)
+Ranged: integrated laser rifle +21 ranged touch (4d6 fire)
+Spec Att: memory wipe, stun (DC 19, 1d4 rounds)
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
+::: statblock
+Ability scores: Str 22, Dex 21, Con -, Int 12, Wis 17, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +22
+Combat maneuver defense: 37
+Feats: Blind-Fight, Cleave, Flyby Attack, Improved Initiative, Iron Will, Power Attack, Skill Focus (Sense Motive), Vital Strike
+Skills: Fly +17, Knowledge (local) +12, Perception +18, Sense Motive +25, Stealth +10
+Languages: Androffan, Common; process languages
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +5 Dex, +12 natural
-
-**Hit points:** 158 (16d10+20\~\~50)
-
-**Fort:** +5
-
-**Ref:** +10
-
-**Will:** +10
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 50 ft., fly 120 ft. (perfect)
-
-**Melee:** bastard sword +22/+17/+12/+7 (1d10+6/19-20 plus stun) or 2 slams +22 (1d4+6 plus stun)
-
-**Ranged:** integrated laser rifle +21 ranged touch (4d6 fire)
-
-**Spec Att:** memory wipe, stun (DC 19, 1d4 rounds)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 21, Con -, Int 12, Wis 17, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 37
-
-**Feats:** Blind-Fight, Cleave, Flyby Attack, Improved Initiative, Iron Will, Power Attack, Skill
-Focus (Sense Motive), Vital Strike
-
-**Skills:** Fly +17, Knowledge (local) +12, Perception +18, Sense Motive +25, Stealth +10
-
-**Languages:** Androffan, Common; process languages
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

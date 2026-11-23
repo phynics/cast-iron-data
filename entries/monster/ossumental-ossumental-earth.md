@@ -30,85 +30,64 @@ abilities = ["30", "17", "-", "9", "14", "21"]
 
 _This towering collection of sun-bleached bones is assembled in a humanoid form._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Earth
+tremorsense: 100
+Type: undead
+Experience points: 19,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 24
+AC modifiers: +3 Dex, +15 natural, -1 size
+Hit points: 161 (17d8+85)
+Fort: +10
+Ref: +8
+Will: +12
+Dr: 10/magic
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +26
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Br Weap: 40-ft. cone, 6d6 bludgeoning and acid, Reflex DC 18 half, usable every 1d4 rounds
+Melee: 4 slams +21 (1d8+10/19-20)
+Reach: 10
+Space: 10
+Spec Att: discorporate
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth
+::: statblock
+Ability scores: Str 30, Dex 17, Con -, Int 9, Wis 14, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +23 (+27 bull rush, +25 overrun)
+Combat maneuver defense: 36 (38 vs. bull rush, 38 vs. overrun)
+Feats: Alertness, Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical (slams), Improved Overrun, Power Attack, Vital Strike
+Skills: Climb +14, Intimidate +16, Knowledge (planes) +16, Perception +26, Sense Motive +4, Stealth +10
+Languages: Ancient Osiriani, Terran
+:::
 
-**tremorsense:** 100
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +15 natural, -1 size
-
-**Hit points:** 161 (17d8+85)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +12
-
-**Dr:** 10/magic
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Br Weap:** 40-ft. cone, 6d6 bludgeoning and acid, Reflex DC 18 half, usable every 1d4 rounds
-
-**Melee:** 4 slams +21 (1d8+10/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** discorporate
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 17, Con -, Int 9, Wis 14, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23 (+27 bull rush, +25 overrun)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush, 38 vs. overrun)
-
-**Feats:** Alertness, Awesome Blow, Cleave, Greater Bull Rush, Improved Bull Rush, Improved Critical
-(slams), Improved Overrun, Power Attack, Vital Strike
-
-**Skills:** Climb +14, Intimidate +16, Knowledge (planes) +16, Perception +26, Sense Motive +4,
-Stealth +10
-
-**Languages:** Ancient Osiriani, Terran
-
-**Ecology**
-
-**Environment:** warm deserts (Osirion)
-
-**Organization:** solitary or gang (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts (Osirion)
+Organization: solitary or gang (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

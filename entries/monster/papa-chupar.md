@@ -30,67 +30,53 @@ abilities = ["17", "14", "16", "3", "16", "6"]
 _Black spines run down the length of this lanky, reptilian creature's back, and short wings protrude
 from its hunched shoulders._
 
-**Challenge rating:** 7
-
 **Male unique winged chupacabra**
 
-**Initiative:** +6
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** Magical beast
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 93 (11d10+33)
+Fort: +10
+Ref: +9
+Will: +6
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: bite +15 (1d6+3 plus [grab](ref/umr/grab)), 2 claws +14 (1d4+3)
+Pounce: present
+Spec Att: chupar
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 93 (11d10+33)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +15 (1d6+3 plus [grab](ref/umr/grab)), 2 claws +14 (1d4+3)
-
-**Pounce:** present
-
-**Spec Att:** chupar
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 16, Int 3, Wis 16, Cha 6
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +7, Fly +7, Perception +9, Stealth +13 (+17 in undergrowth or rocky areas)
-
-**Racial Modifiers:** +4 Stealth (+8 in undergrowth or rocky areas)
-
-**Languages:** Aklo
+::: statblock
+Ability scores: Str 17, Dex 14, Con 16, Int 3, Wis 16, Cha 6
+Base attack bonus: +11
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 27
+Feats: Combat Reflexes, Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (bite)
+Skills: Acrobatics +7, Fly +7, Perception +9, Stealth +13 (+17 in undergrowth or rocky areas)
+Racial Modifiers: +4 Stealth (+8 in undergrowth or rocky areas)
+Languages: Aklo
+:::
 
 ### Description
 

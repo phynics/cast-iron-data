@@ -31,111 +31,83 @@ abilities = ["25", "6", "19", "8", "12", "7"]
 _This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide
 mouth with ill-fitting teeth._
 
-**Challenge rating:** 4
-
 **Ogre [cleric](ref/class/cleric) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -2
+Size: large
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: +6 armor, -2 Dex, +6 natural, -1 size
+Hit points: 51 (6d8+24)
+Fort: +11
+Ref: -1
+Will: +7
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Ch N En: 1/day, DC 9, 1d6
+Melee: mwk greatsword +11 (3d6+10/19-20)
+Ranged: javelin +1 (1d8+7)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +3
+Per day: 4/day: strength surge, +1, vision of madness, +/-1
+:::
 
-**Subtype:** Giant
-
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** +6 armor, -2 Dex, +6 natural, -1 size
-
-**Hit points:** 51 (6d8+24)
-
-**Fort:** +11
-
-**Ref:** -1
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 1/day, DC 9, 1d6
-
-**Melee:** mwk greatsword +11 (3d6+10/19-20)
-
-**Ranged:** javelin +1 (1d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**Per day:**
-
-- 4/day: strength surge, +1, vision of madness, +/-1
-
-**Prepared Spells**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- bless, cure light wounds, divine favor, enlarge person^D^
-
-**Cantrips:**
-
-- create water, detect magic, mending, stabilize
-
-**Domains:** [Madness](ref/domain/madness), Strength
+::: statblock
+title = "Prepared Spells"
+Caster level: 2
+Concentration: +3
+1st-level spells: bless, cure light wounds, divine favor, enlarge person^D^
+Cantrips: create water, detect magic, mending, stabilize
+Domains: [Madness](ref/domain/madness), Strength
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 25, Dex 6, Con 19, Int 8, Wis 12, Cha 7
+::: statblock
+Ability scores: Str 25, Dex 6, Con 19, Int 8, Wis 12, Cha 7
+Base attack bonus: +4
+Combat maneuver bonus: +12
+Combat maneuver defense: 20
+Feats: Combat Casting, Iron Will, Power Attack
+Skills: Perception +7, Spellcraft +4
+Languages: Giant
+Combat gear: potion of cure light wounds, potion of invisibility, scroll of cure moderate wounds, 2 alchemist's fire
+Other gear: mwk breastplate, 3 javelins, mwk greatsword, Iamu1, [unholy symbol](ref/eq-misc/wooden-holy-symbol), 157 gp
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Casting, Iron Will, Power Attack
-
-**Skills:** Perception +7, Spellcraft +4
-
-**Languages:** Giant
-
-**Combat gear:** potion of cure light wounds, potion of invisibility, scroll of cure moderate
-wounds, 2 alchemist's fire
-
-**Other gear:** mwk breastplate, 3 javelins, mwk greatsword, Iamu1,
-[unholy symbol](ref/eq-misc/wooden-holy-symbol), 157 gp
-
-**Ecology**
-
-**Environment:** temperate or cold hills
+::: statblock
+Environment: temperate or cold hills
+:::
 
 ### Description
 

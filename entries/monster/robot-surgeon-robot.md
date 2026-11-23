@@ -34,91 +34,66 @@ _This robot has the general appearance of a skeletal preying mantis fashioned en
 metal. An array of limbs fitted with laser scalpels, syringes, and other surgical devices spring
 from its body._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: construct
+Initiative: +11
+Size: medium
+Alignment: Neutral
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision, Superior optics
+Subtype: Robot
+Experience points: 38,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 20
+AC modifiers: +7 Dex, +10 natural
+Hit points: 254 (18d10+80\~\~75)
+Fort: +6
+Ref: +13
+Will: +7
+Defensive abilities: [hardness](ref/umr/hardness) 10
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: critical hits and electricity
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Constrict: 1d6+9
+Melee: 2 claws +25 (1d6+6 plus [grab](ref/umr/grab)), 4 scalpels +25 (1d6+6/19-20), syringe +25 (1d4+6/19-20 plus poison)
+Ranged: integrated surgical laser +25 touch (1d6 fire/19-20)
+Sneak: +3d6
+Spec Att: syringe
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
+::: statblock
+Ability scores: Str 22, Dex 25, Con -, Int 14, Wis 13, Cha 1
+Base attack bonus: +18
+Combat maneuver bonus: +24
+Combat maneuver defense: 41 (45 vs. trip)
+Feats: Bleeding Critical, Blinding Critical, Critical Focus, Improved Critical (integrated surgical laser), Improved Critical (scalpel), Improved Critical (syringe), Improved Initiative, Vital Strike, Weapon Finesse
+Skills: Disable Device +11, Heal +27, Knowledge (engineering, local) +15, Perception +22, Sense Motive +9
+Racial Modifiers: +8 Heal
+Languages: Androffan, Common, Hallit
+Special qualities: master surgeon, specialized programming
+:::
 
-**Subtype:** Robot
+### Ecology {#stat-ecology}
 
-**Experience points:** 38,400
-
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +7 Dex, +10 natural
-
-**Hit points:** 254 (18d10+80\~\~75)
-
-**Fort:** +6
-
-**Ref:** +13
-
-**Will:** +7
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** critical hits and electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Constrict:** 1d6+9
-
-**Melee:** 2 claws +25 (1d6+6 plus [grab](ref/umr/grab)), 4 scalpels +25 (1d6+6/19-20), syringe +25
-(1d4+6/19-20 plus poison)
-
-**Ranged:** integrated surgical laser +25 touch (1d6 fire/19-20)
-
-**Sneak:** +3d6
-
-**Spec Att:** syringe
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 25, Con -, Int 14, Wis 13, Cha 1
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 41 (45 vs. trip)
-
-**Feats:** Bleeding Critical, Blinding Critical, Critical Focus, Improved Critical (integrated
-surgical laser), Improved Critical (scalpel), Improved Critical (syringe), Improved Initiative,
-Vital Strike, Weapon Finesse
-
-**Skills:** Disable Device +11, Heal +27, Knowledge (engineering, local) +15, Perception +22, Sense
-Motive +9
-
-**Racial Modifiers:** +8 Heal
-
-**Languages:** Androffan, Common, Hallit
-
-**Special qualities:** master surgeon, specialized programming
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary or team (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary or team (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

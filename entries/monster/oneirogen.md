@@ -29,75 +29,60 @@ abilities = ["14", "15", "16", "9", "12", "13"]
 
 _This vague, humanoid figure seems to be the source of a bank of unnaturally colored fog._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: obscuring fog (10 ft.), veil of mists (5 ft., DC 12)
+Alignment: Chaotic neutral
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 600
+:::
 
-**aura:** obscuring fog (10 ft.), veil of mists (5 ft., DC 12)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 25 (3d10+9)
+Fort: +8
+Ref: +5
+Will: +2
+Immune: mind-affecting effects
+Weaknesses: planar split
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +5 (1d4+2)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +7
+::: statblock
+Ability scores: Str 14, Dex 15, Con 16, Int 9, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 17
+Feats: Blind-Fight, Great Fortitude
+Skills: Acrobatics +8, Knowledge (planes) +5, Perception +7, Sense Motive +7, Stealth +8
+Languages: Common (can't speak)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Native
-
-**Experience points:** 600
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 25 (3d10+9)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** planar split
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +5 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 16, Int 9, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17
-
-**Feats:** Blind-Fight, Great Fortitude
-
-**Skills:** Acrobatics +8, Knowledge (planes) +5, Perception +7, Sense Motive +7, Stealth +8
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

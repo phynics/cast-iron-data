@@ -28,71 +28,58 @@ abilities = ["18", "25", "17", "-", "13", "6"]
 
 _A bloated, red belly dangles beneath the furiously beating wings of this massive mosquito._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Type: vermin
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 12
+AC modifiers: +7 Dex, +2 natural
+Hit points: 60 (8d8+24)
+Fort: +9
+Ref: +9
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+B Drain: 1d2 Constitution
+Bleed: 2d4
+Melee: bite +10 (1d8+6 plus bleed, disease, and [grab](ref/umr/grab))
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 18, Dex 25, Con 17, Int -, Wis 13, Cha 6
+Base attack bonus: +6
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 27 (35 vs. trip)
+Skills: Fly +11, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +7 Dex, +2 natural
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Bleed:** 2d4
-
-**Melee:** bite +10 (1d8+6 plus bleed, disease, and [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 17, Int -, Wis 13, Cha 6
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 27 (35 vs. trip)
-
-**Skills:** Fly +11, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate or tropical swamps
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical swamps
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

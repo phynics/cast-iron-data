@@ -31,91 +31,69 @@ abilities = ["19", "18", "20", "13", "16", "21"]
 _This wild-looking woman is covered in spattered blood. Her wicked smile reveals sharp teeth and her
 eyes suggest insanity._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +1 dodge, +5 natural
+Hit points: 94 (9d10+45)
+Fort: +8
+Ref: +10
+Will: +9; +4 vs. mind-affecting effects
+Immune: calm emotions
+Resist: fire 10
+Sr: 19
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: bite +13 (1d6+4 plus poison), 2 claws +13 (1d4+4/19-20 plus poison)
+Spec Att: infectious dance, poison
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: murderous command (DC 16), polypurpose panacea, rage
+Per day: 3/day: bull's strength, charm monster (DC 19), mad hallucination (DC 17), vampiric touch
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 19, Dex 18, Con 20, Int 13, Wis 16, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 28
+Feats: Dodge, Improved Critical (claw), Improved Initiative, Persuasive, Power Attack
+Skills: Bluff +14, Diplomacy +13, Disguise +11, Sense Motive +9
+Languages: Common, Sylvan
+Special qualities: mad feast
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +1 dodge, +5 natural
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +9; +4 vs. mind-affecting effects
-
-**Immune:** calm emotions
-
-**Resist:** fire 10
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +13 (1d6+4 plus poison), 2 claws +13 (1d4+4/19-20 plus poison)
-
-**Spec Att:** infectious dance, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- murderous command (DC 16), polypurpose panacea, rage
-
-**Per day:**
-
-- 3/day: bull's strength, charm monster (DC 19), mad hallucination (DC 17), vampiric touch
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 20, Int 13, Wis 16, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28
-
-**Feats:** Dodge, Improved Critical (claw), Improved Initiative, Persuasive, Power Attack
-
-**Skills:** Bluff +14, Diplomacy +13, Disguise +11, Sense Motive +9
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** mad feast
-
-**Ecology**
-
-**Environment:** temperate forests or plains
-
-**Organization:** solitary, pair, or revel (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests or plains
+Organization: solitary, pair, or revel (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

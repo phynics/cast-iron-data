@@ -32,117 +32,82 @@ its head independently._
 
 **Mythic Portunus**
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Mythic rank: 6
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +26
+Senses: Arcane sight, Darkvision 60 ft., Mistsight
+Subtype: Elemental, Extraplanar, Mythic, Water
+Experience points: 76,800
+:::
 
-**Mythic rank:** 6
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 14
+Flat-footed: 26
+AC modifiers: +6 Dex, +18 natural, -2 size
+Hit points: 238 (17d10+145)
+Fort: +12
+Ref: +18
+Will: +18
+Defensive abilities: transparency
+Dr: 10/epic
+Fh: 5
+Immune: elemental traits
+Resist: acid 20, cold 20
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 60 ft.
+Capsize: present
+M Power: 6/day, surge +1d8
+Melee: 4 slams +24 (2d6+9)
+Reach: 15
+Space: 15
+:::
 
-**Type:** outsider
-
-**Perception:** +26
-
-**Senses:** Arcane sight, Darkvision 60 ft., Mistsight
-
-**Subtype:** Elemental, Extraplanar, Mythic, Water
-
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 Dex, +18 natural, -2 size
-
-**Hit points:** 238 (17d10+145)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +18
-
-**Defensive abilities:** transparency
-
-**Dr:** 10/epic
-
-**Fh:** 5
-
-**Immune:** elemental traits
-
-**Resist:** acid 20, cold 20
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft.
-
-**Capsize:** present
-
-**M Power:** 6/day, surge +1d8
-
-**Melee:** 4 slams +24 (2d6+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +20
-
-**Constant:**
-
-- arcane sight
-
-**At will:**
-
-- crushing despair, fog cloud^M^, good hope, hydraulic torrent^M^, water walk
-
-**Per day:**
-
-- 3/day: control water (DC 21), dispel magic^M^, quickened rusting grasp, warp wood (DC 19)
-- 1/day: control weather, as druid, vortex (DC 24)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +20
+Constant: arcane sight
+At will: crushing despair, fog cloud^M^, good hope, hydraulic torrent^M^, water walk
+Per day: 3/day: control water (DC 21), dispel magic^M^, quickened rusting grasp, warp wood (DC 19)\
+1/day: control weather, as druid, vortex (DC 24)
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 28, Dex 23, Con 20, Int 19, Wis 22, Cha 25
+::: statblock
+Ability scores: Str 28, Dex 23, Con 20, Int 19, Wis 22, Cha 25
+Base attack bonus: +17
+Combat maneuver bonus: +28
+Combat maneuver defense: 44
+Feats: Mythic Combat Reflexes, Great Fortitude, Greater Vital Strike, Improved Vital Strike, Mythic Iron Will, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (rusting grasp), Stand Still, Mythic Vital Strike
+Skills: Diplomacy +27, Sense Motive +26, Spellcraft +24, Stealth +18, Swim +37
+Languages: Aquan, Common
+Special qualities: alter luck, bonded harbor, boon, liquid form
+:::
 
-**Base attack bonus:** +17
+### Ecology
 
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 44
-
-**Feats:** Mythic Combat Reflexes, Great Fortitude, Greater Vital Strike, Improved Vital Strike,
-Mythic Iron Will, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(rusting grasp), Stand Still, Mythic Vital Strike
-
-**Skills:** Diplomacy +27, Sense Motive +26, Spellcraft +24, Stealth +18, Swim +37
-
-**Languages:** Aquan, Common
-
-**Special qualities:** alter luck, bonded harbor, boon, liquid form
-
-**Ecology**
-
-**Environment:** any aquatic ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary or court (1 plus 2-5
-[elder water elementals](ref/monster/water-elemental)
-
-**Treasure:** Standard
+::: statblock
+Environment: any aquatic ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary or court (1 plus 2-5 [elder water elementals](ref/monster/water-elemental)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,71 +29,58 @@ melee = "2 bites +7 (1d8+2), 2 talons +6 (1d6+2)"
 abilities = ["14", "15", "14", "2", "13", "11"]
 +++
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +6
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 40 ft. (poor)
+Melee: 2 bites +7 (1d8+2), 2 talons +6 (1d6+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 2, Wis 13, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Flyby Attack, Snatch, Weapon Focus (bite)
+Skills: Fly -4, Perception +17
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (poor)
-
-**Melee:** 2 bites +7 (1d8+2), 2 talons +6 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Flyby Attack, Snatch, Weapon Focus (bite)
-
-**Skills:** Fly -4, Perception +17
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** warm mountains or deserts
-
-**Organization:** pair or flock (3d4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm mountains or deserts
+Organization: pair or flock (3d4)
+Treasure: Incidental
+:::
 
 ### Description
 

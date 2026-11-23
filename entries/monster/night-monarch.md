@@ -32,106 +32,76 @@ abilities = ["25", "22", "23", "20", "18", "24"]
 _This moth-like creature has a long, three-pronged tail akin to peacock feathers. Sparkling dust
 drifts from its gigantic wings._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsense: 60
+Alignment: Chaotic good
+Size: huge
+Initiative: +10
+Type: outsider
+Perception: +29
+Senses: Darkvision 120 ft.
+Subtype: Chaotic, Extraplanar, Good, Herald
+Experience points: 51,200
+:::
 
-**blindsense:** 60
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 24
+AC modifiers: +6 Dex, +1 dodge, +16 natural, -2 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +14
+Will: +15
+Defensive abilities: poison flesh
+Dr: 15/evil
+Immune: cold (itself and riders), electricity, sleep
+Sr: 26
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., fly 120 ft. (average)
+Br Weap: 30-ft. cone, web, Reflex DC 25 negates, usable every 1d4 rounds
+Melee: 2 claws +23 (2d6+7), 2 wings +21 (2d6+3)
+Reach: 15
+Space: 15
+Spec Att: dream dust, poison
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +22
+At will: cure serious wounds, dream, freedom of movement, hypnotic pattern (DC 19)
+Per day: 3/day: break enchantment, greater dispel magic, plane shift, self and willing targets only, remove curse, remove fear, remove paralysis\
+1/day: hallow, regenerate
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 25, Dex 22, Con 23, Int 20, Wis 18, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +27
+Combat maneuver defense: 44 (52 vs. trip)
+Feats: alertness, Dodge, Flyby Attack, Hover, Improved Initiative, Lightning Reflexes, Multiattack, Snatch, Wind Stance
+Skills: Diplomacy +28, Fly +2, Knowledge (geography, religion) +23, Perception +29
+Languages: Auran, Celestial, Common (can't speak); [telepathy](ref/umr/telepathy) touch
+Special qualities: [no breath](ref/umr/no-breath) (itself and riders)
+:::
 
-**Subtype:** Chaotic, Extraplanar, Good, Herald
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 Dex, +1 dodge, +16 natural, -2 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +15
-
-**Defensive abilities:** poison flesh
-
-**Dr:** 15/evil
-
-**Immune:** cold (itself and riders), electricity, sleep
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (average)
-
-**Br Weap:** 30-ft. cone, web, Reflex DC 25 negates, usable every 1d4 rounds
-
-**Melee:** 2 claws +23 (2d6+7), 2 wings +21 (2d6+3)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** dream dust, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +22
-
-**At will:**
-
-- cure serious wounds, dream, freedom of movement, hypnotic pattern (DC 19)
-
-**Per day:**
-
-- 3/day: break enchantment, greater dispel magic, plane shift, self and willing targets only, remove
-  curse, remove fear, remove paralysis
-- 1/day: hallow, regenerate
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 22, Con 23, Int 20, Wis 18, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 44 (52 vs. trip)
-
-**Feats:** alertness, Dodge, Flyby Attack, Hover, Improved Initiative, Lightning Reflexes,
-Multiattack, Snatch, Wind Stance
-
-**Skills:** Diplomacy +28, Fly +2, Knowledge (geography, religion) +23, Perception +29
-
-**Languages:** Auran, Celestial, Common (can't speak); [telepathy](ref/umr/telepathy) touch
-
-**Special qualities:** [no breath](ref/umr/no-breath) (itself and riders)
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,97 +32,72 @@ abilities = ["19", "15", "18", "12", "13", "14"]
 _This humanoid has the lower body of a giant seahorse and a round, colorful face dominated by wide,
 staring eyes and hideous fangs._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Native, Oni, Shapechanger
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 66 (7d10+28)
+Fort: +6
+Ref: +7
+Will: +6
+Immune: cold
+Regen: 5 (electricity or good spells)
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 5 ft., swim 50 ft.
+Melee: mwk trident +13/+8 (1d8+4)
+Ranged: mwk triden +11 (1d8+4)
+Spec Att: grasping eddy
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+At will: invisibility, self only
+Per day: 3/day: charm person (DC 13), enthrall (DC 14), hydraulic push\
+1/day: freedom of movement, self only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 19, Dex 15, Con 18, Int 12, Wis 13, Cha 14
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (trident)
+Skills: Bluff +12, Intimidate +12, Perception +11, Swim +22
+Languages: Aquan, Infernal
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), trident mastery, underwater grappler
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** cold
-
-**Regen:** 5 (electricity or good spells)
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 5 ft., swim 50 ft.
-
-**Melee:** mwk trident +13/+8 (1d8+4)
-
-**Ranged:** mwk triden +11 (1d8+4)
-
-**Spec Att:** grasping eddy
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**At will:**
-
-- invisibility, self only
-
-**Per day:**
-
-- 3/day: charm person (DC 13), enthrall (DC 14), hydraulic push
-- 1/day: freedom of movement, self only
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 18, Int 12, Wis 13, Cha 14
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Spring Attack, Weapon Focus (trident)
-
-**Skills:** Bluff +12, Intimidate +12, Perception +11, Swim +22
-
-**Languages:** Aquan, Infernal
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (Small
-or Medium humanoid; [alter self](ref/spell/alter-self)), trident mastery, underwater grappler
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or band (3-12)
-
-**Treasure:** Standard (mwk trident)
+::: statblock
+Environment: any water
+Organization: solitary, pair, or band (3-12)
+Treasure: Standard (mwk trident)
+:::
 
 ### Special Abilities
 

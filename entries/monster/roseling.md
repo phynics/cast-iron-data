@@ -33,95 +33,70 @@ abilities = ["13", "20", "18", "20", "19", "21"]
 _This small plant is shaped vaguely like a human with a rose blossom for a head and soft, petal-like
 wings fluttering from its shoulders._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +9
+Alignment: Neutral good
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Extraplanar, Shapechanger
+Experience points: 3,200
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Neutral good
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 15
+AC modifiers: +5 Dex, +4 natural, +1 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +8
+Will: +7
+Immune: electricity, petrification, [plant traits](ref/umr/plant-traits)
+Resist: cold 10, sonic 10
+:::
 
-**Perception:** +17
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: 2 claws +9 (1d3+1)
+Ranged: 4 thorns +13 (1d4+5 plus euphoria)
+Spec Att: euphoria
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+Constant: pass without trace, speak with plants
+At will: remove fear
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 13, Dex 20, Con 18, Int 20, Wis 19, Cha 21
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 22
+Feats: Combat Expertise, Deadly Aim, Improved Initiative, Point-Blank Shot, Precise Shot
+Skills: Acrobatics +15, Craft (any one, typically alchemy) +15, Fly +24, Knowledge (nature) +10, Perception +17
+Languages: Celestial, Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
+Special qualities: [change shape](ref/umr/change-shape) (Small rose bush; [tree shape](ref/spell/tree-shape))
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +4 natural, +1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +7
-
-**Immune:** electricity, petrification, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +9 (1d3+1)
-
-**Ranged:** 4 thorns +13 (1d4+5 plus euphoria)
-
-**Spec Att:** euphoria
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**Constant:**
-
-- pass without trace, speak with plants
-
-**At will:**
-
-- remove fear
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 20, Con 18, Int 20, Wis 19, Cha 21
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Expertise, Deadly Aim, Improved Initiative, Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +15, Craft (any one, typically alchemy) +15, Fly +24, Knowledge (nature) +10,
-Perception +17
-
-**Languages:** Celestial, Common, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small rose bush;
-[tree shape](ref/spell/tree-shape))
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary, pair, or bed (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary, pair, or bed (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

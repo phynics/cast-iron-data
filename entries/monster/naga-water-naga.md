@@ -34,102 +34,74 @@ abilities = ["20", "23", "20", "11", "17", "18"]
 _Slender spines and brightly colored frills stretch back from the human-like face of this massive
 aquatic snake._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 14
+AC modifiers: +6 Dex, +5 natural, -1 size
+Hit points: 76 (8d8+40)
+Fort: +7
+Ref: +10
+Will: +9
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Melee: bite +10 (2d6+5 plus poison), tail slap +5 (1d8+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +11
+3rd-level spells: 5/day: protection from energy, suggestion (DC 17)
+2nd-level spells: 7/day: acid arrow, invisibility, mirror image
+1st-level spells: 7/day: expeditious retreat, magic missile, obscuring mist, shield, true strike
+Cantrips: At will: acid splash, daze (DC 14), detect magic, light, mage hand, open/close, read magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 Dex, +5 natural, -1 size
-
-**Hit points:** 76 (8d8+40)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Melee:** bite +10 (2d6+5 plus poison), tail slap +5 (1d8+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 5/day: protection from energy, suggestion (DC 17)
-
-**2nd-level spells:**
-
-- 7/day: acid arrow, invisibility, mirror image
-
-**1st-level spells:**
-
-- 7/day: expeditious retreat, magic missile, obscuring mist, shield, true strike
-
-**Cantrips:**
-
-- At will: acid splash, daze (DC 14), detect magic, light, mage hand, open/close, read magic
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 23, Con 20, Int 11, Wis 17, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Casting, Eschew Materials^B^, Lightning Reflexes, Skill Focus (Perception), Skill
-Focus (Stealth)
-
-**Skills:** Bluff +8, Knowledge (local) +4, Perception +17, Spellcraft +11, Stealth +16, Swim +13
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 20, Dex 23, Con 20, Int 11, Wis 17, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Casting, Eschew Materials^B^, Lightning Reflexes, Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Bluff +8, Knowledge (local) +4, Perception +17, Spellcraft +11, Stealth +16, Swim +13
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate water
-
-**Organization:** solitary, pair, or nest (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate water
+Organization: solitary, pair, or nest (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -29,99 +29,72 @@ abilities = ["18", "20", "21", "12", "17", "17"]
 
 _Yellowed, venom-dripping fangs fill the human-like mouth of this sinister serpentine monstrosity._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Perception: +22
+Senses: Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 18
+AC modifiers: +5 Dex, +9 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +8
+Ref: +10
+Will: +10
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: bite +10 (2d6+6 plus poison)
+Reach: 5
+Space: 10
+Spec Att: charming gaze
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spells Known"
+Caster level: 7
+3rd-level spells: 5/day: displacement, fireball (DC 16)
+2nd-level spells: 7/day: cat's grace, invisibility, summon swarm
+1st-level spells: 7/day: charm person (DC 14), cure light wounds, divine favor, magic missile, shield of faith
+Cantrips: At will: bleed, daze (DC 13), detect magic, mage hand, open/close, ray of frost, read magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +9 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** bite +10 (2d6+6 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** charming gaze
-
-**Spells Known**
-
-**Caster level:** 7
-
-**3rd-level spells:**
-
-- 5/day: displacement, fireball (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: cat's grace, invisibility, summon swarm
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 14), cure light wounds, divine favor, magic missile, shield of faith
-
-**Cantrips:**
-
-- At will: bleed, daze (DC 13), detect magic, mage hand, open/close, ray of frost, read magic
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 20, Con 21, Int 12, Wis 17, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Feats:** Ability Focus (charming gaze), Combat Casting, Eschew Materials^B^, Lightning Reflexes,
-Skill Focus (Perception), Stealthy
-
-**Skills:** Bluff +13, Escape Artist +13, Intimidate +9, Knowledge (arcana) +14, Perception +22,
-Spellcraft +11, Stealth +15, Swim +12
-
-**Languages:** Abyssal, Common
+::: statblock
+Ability scores: Str 18, Dex 20, Con 21, Int 12, Wis 17, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 27 (can't be tripped)
+Feats: Ability Focus (charming gaze), Combat Casting, Eschew Materials^B^, Lightning Reflexes, Skill Focus (Perception), Stealthy
+Skills: Bluff +13, Escape Artist +13, Intimidate +9, Knowledge (arcana) +14, Perception +22, Spellcraft +11, Stealth +15, Swim +12
+Languages: Abyssal, Common
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate marshes
-
-**Organization:** solitary or nest (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate marshes
+Organization: solitary or nest (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

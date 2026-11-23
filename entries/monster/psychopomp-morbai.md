@@ -30,100 +30,73 @@ abilities = ["12", "18", "21", "14", "17", "13"]
 _This hunched, barefoot old woman leans heavily on her gnarled staff. She wears two plague masks on
 opposite sides of her head._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +4
+Alignment: Neutral
+Type: outsider
+Perception: +14 (+18 on sight-based checks)
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Size: small
+Subtype: Extraplanar, Psychopomp
+Experience points: 2,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +5 natural, +1 size
+Hit points: 68 (8d10+40)
+Fort: +13
+Ref: +6
+Will: +9
+Defensive abilities: all-around vision
+Dr: 5/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+Sr: 17
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +14 (+18 on sight-based checks)
+::: statblock
+Speed: 30 ft., fly 20 ft. (perfect)
+Ch En: 4/day, DC 17, 4d6
+Melee: cane +10/+5 (1d4+1)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +9
+At will: bleed (DC 11), delay poison, detect poison, disrupt undead, resistance, stabilize
+Per day: 1/day: accelerate poison (DC 13), contagion (DC 14), neutralize poison, poison (DC 14), remove disease
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Extraplanar, Psychopomp
+::: statblock
+Ability scores: Str 12, Dex 18, Con 21, Int 14, Wis 17, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Great Fortitude, Improved Channel, Selective Channeling, Skill Focus (Heal)
+Skills: Craft (alchemy, poison) +13, Sense Motive +14
+Racial Modifiers: +4 on sight-based Perception checks
+Languages: Abyssal, Celestial, Infernal
+Special qualities: healer's muse, spirit touch, who lives and who dies
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +5 natural, +1 size
-
-**Hit points:** 68 (8d10+40)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +9
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (perfect)
-
-**Ch En:** 4/day, DC 17, 4d6
-
-**Melee:** cane +10/+5 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +9
-
-**At will:**
-
-- bleed (DC 11), delay poison, detect poison, disrupt undead, resistance, stabilize
-
-**Per day:**
-
-- 1/day: accelerate poison (DC 13), contagion (DC 14), neutralize poison, poison (DC 14), remove
-  disease
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 18, Con 21, Int 14, Wis 17, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Improved Channel, Selective Channeling, Skill Focus (Heal)
-
-**Skills:** Craft (alchemy, poison) +13, Sense Motive +14
-
-**Racial Modifiers:** +4 on sight-based Perception checks
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** healer's muse, spirit touch, who lives and who dies
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or team (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary, pair, or team (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,91 +34,67 @@ abilities = ["27", "15", "-", "12", "14", "1"]
 
 _This metallic creature has pincer-tipped arms, a single red eye, and an array of deadly armaments._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision, Superior optics
+Subtype: Robot
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 23
+AC modifiers: +2 Dex, +14 natural, -1 size
+Hit points: 112 (15d10+30); force field (55 hp, [fast healing](ref/umr/fast-healing) 11)
+Fort: +10
+Ref: +12
+Will: +10
+Defensive abilities: [hardness](ref/umr/hardness) 10, resilient
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 90 ft. (perfect)
+Constrict: 1d6+8
+Melee: 2 claws +22 (1d6+8 plus [grab](ref/umr/grab)), 2 quantum lashes +22 touch (1d10 force/19-20)
+Ranged: integrated laser rifle +16 touch (2d10 fire)
+Reach: 5
+Reach P: 20 ft. with quantum lash
+Space: 10
+Spec Att: combined arms, rockets
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Superior optics
+::: statblock
+Ability scores: Str 27, Dex 15, Con -, Int 12, Wis 14, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 36 (can't be tripped)
+Feats: Combat Reflexes, Flyby Attack, Great Fortitude, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Precise Shot
+Skills: Fly +26, Knowledge (engineering) +19, Perception +20
+Languages: Common
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +14 natural, -1 size
-
-**Hit points:** 112 (15d10+30); force field (55 hp, [fast healing](ref/umr/fast-healing) 11)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +10
-
-**Defensive abilities:** [hardness](ref/umr/hardness) 10, resilient
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 20 ft., fly 90 ft. (perfect)
-
-**Constrict:** 1d6+8
-
-**Melee:** 2 claws +22 (1d6+8 plus [grab](ref/umr/grab)), 2 quantum lashes +22 touch (1d10
-force/19-20)
-
-**Ranged:** integrated laser rifle +16 touch (2d10 fire)
-
-**Reach:** 5
-
-**Reach P:** 20 ft. with quantum lash
-
-**Space:** 10
-
-**Spec Att:** combined arms, rockets
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 15, Con -, Int 12, Wis 14, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 36 (can't be tripped)
-
-**Feats:** Combat Reflexes, Flyby Attack, Great Fortitude, Improved Initiative, Lightning Reflexes,
-Point-Blank Shot, Precise Shot
-
-**Skills:** Fly +26, Knowledge (engineering) +19, Perception +20
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or unit (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or unit (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

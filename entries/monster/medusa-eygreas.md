@@ -31,96 +31,68 @@ abilities = ["15", "19", "20", "10", "13", "17"]
 _This monstrous, snaked-haired creature has the upper body of a bronze-skinned woman and the lower
 body of an enormous serpent._
 
-**Challenge rating:** 13
-
 **Female brazen medusa [ranger](ref/class/ranger) 5**
 
-**Initiative:** +8
+::: statblock
+Challenge rating: 13
+Initiative: +8
+Size: large
+Alignment: Lawful evil
+Type: Monstrous humanoid
+Perception: +21
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 25,600
+:::
 
-**Size:** large
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 29
+Touch: 14
+Flat-footed: 24
+AC modifiers: +6 armor, +4 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 141 (8d10+5d10+70\~13)
+Fort: +11
+Ref: +16
+Will: +8
+Dr: 5/adamantine and magic
+Immune: poison
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +21
+::: statblock
+Speed: 30 ft.
+Constrict: 1d8+1
+Fav En: humans +2, monstrous humanoids +4
+Melee: 2 claws +16 (1d6+2), snake bite +16 (1d6+2 plus poison), tail slap +11 (1d8+1 plus [grab](ref/umr/grab)) or mwk scimitar +15/+10/+5 (1d8+2/18-20)
+Ranged: +2 seeking composite longbow +18/+13/+8 (2d6+4/×3)
+Reach: 10
+Space: 10
+Spec Att: petrifying gaze
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+title = "Prepared Spells"
+Caster level: 2
+Concentration: +3
+1st-level spells: entangle (DC 12), pass without trace
+:::
 
-**Experience points:** 25,600
+### Statistics
 
-**Armor class:** 29
-
-**Touch:** 14
-
-**Flat-footed:** 24
-
-**AC modifiers:** +6 armor, +4 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 141 (8d10+5d10+70\~13)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +8
-
-**Dr:** 5/adamantine and magic
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 1d8+1
-
-**Fav En:** humans +2, monstrous humanoids +4
-
-**Melee:** 2 claws +16 (1d6+2), snake bite +16 (1d6+2 plus poison), tail slap +11 (1d8+1 plus
-[grab](ref/umr/grab)) or mwk scimitar +15/+10/+5 (1d8+2/18-20)
-
-**Ranged:** +2 seeking composite longbow +18/+13/+8 (2d6+4/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** petrifying gaze
-
-**Prepared Spells**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- entangle (DC 12), pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 19, Con 20, Int 10, Wis 13, Cha 17
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dodge, Endurance, Far Shot, Improved Initiative, Lightning Reflexes, Point-Blank Shot,
-Precise Shot, Rapid Shot, Weapon Finesse
-
-**Skills:** Bluff +16, Intimidate +16, Perception +21
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common, Draconic
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (jungle +2), hunter's bond
-(constrictor snake), track +2, [wild empathy](ref/ability/wild-empathy) +8
-
-**Gear:** +2 chain shirt, +2 SK cl40+2, mwk scimitar, Iamu1, Iboa1
+::: statblock
+Ability scores: Str 15, Dex 19, Con 20, Int 10, Wis 13, Cha 17
+Base attack bonus: +13
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 31
+Feats: Dodge, Endurance, Far Shot, Improved Initiative, Lightning Reflexes, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Finesse
+Skills: Bluff +16, Intimidate +16, Perception +21
+Racial Modifiers: +4 Perception
+Languages: Common, Draconic
+Special qualities: [favored terrain](ref/ability/favored-terrain) (jungle +2), hunter's bond (constrictor snake), track +2, [wild empathy](ref/ability/wild-empathy) +8
+Gear: +2 chain shirt, +2 SK cl40+2, mwk scimitar, Iamu1, Iboa1
+:::
 
 ### Special Abilities
 

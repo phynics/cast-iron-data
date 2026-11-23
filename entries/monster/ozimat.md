@@ -30,79 +30,61 @@ abilities = ["-", "20", "19", "14", "19", "23"]
 
 _Chunks of rock spin about a humanoid form of vibrant green light._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+blindsight: 30
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Incorporeal
+Experience points: 12,800
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 22
+Touch: 22
+Flat-footed: 16
+AC modifiers: +6 deflection, +5 Dex, +1 dodge
+Hit points: 168 (16d10+80)
+Fort: +16
+Ref: +17
+Will: +9
+Immune: [elemental](ref/subtype/elemental) traits
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: calcifying touch +21 (1d8 Dex)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str -, Dex 20, Con 19, Int 14, Wis 19, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +21
+Combat maneuver defense: 38
+Feats: Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Hover, Lightning Reflexes, Toughness, Vital Strike
+Skills: Acrobatics +21, Appraise +18, Fly +28, Intimidate +22, Knowledge (dungeoneering) +18, Perception +23, Stealth +24
+Languages: Common, Terran
+Special qualities: earthen host
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Earth, Elemental, Extraplanar, Incorporeal
-
-**Experience points:** 12,800
-
-**Armor class:** 22
-
-**Touch:** 22
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +16
-
-**Ref:** +17
-
-**Will:** +9
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** calcifying touch +21 (1d8 Dex)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con 19, Int 14, Wis 19, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 38
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Great Fortitude, Hover, Lightning Reflexes,
-Toughness, Vital Strike
-
-**Skills:** Acrobatics +21, Appraise +18, Fly +28, Intimidate +22, Knowledge (dungeoneering) +18,
-Perception +23, Stealth +24
-
-**Languages:** Common, Terran
-
-**Special qualities:** earthen host
-
-**Ecology**
-
-**Environment:** any ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

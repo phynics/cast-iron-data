@@ -31,104 +31,75 @@ abilities = ["-", "23", "-", "17", "21", "24"]
 _A malevolent face emerges from within this roiling mass of ghostly fire. Several smaller faces
 writhe within the flames._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Initiative: +10
+Size: large
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 9,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 23
+Touch: 23
+Flat-footed: 16
+AC modifiers: +7 deflection, +6 Dex, +1 dodge, -1 size
+Hit points: 126 (11d8+77)
+Fort: +10
+Ref: +9
+Will: +12
+Chan Res: +4
+Defensive abilities: rejuvenation
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +23
+::: statblock
+Speed: fly 50 ft. (perfect)
+Br Weap: 30-ft. cone, 10d6 negative energy damage, Reflex DC 22 half, usable every 1d4 rounds
+Melee: incorporeal touch +13 (10d6)
+Reach: 10
+Space: 10
+Spec Att: pyrokinetic soul consumption
+Whirlwind: 3/day, 10-30 ft. high, 10d6 negative energy damage, DC 15
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +18
+At will: ghost sound (DC 17), hold portal, mage hand
+Per day: 3/day: major image (DC 20)\
+1/day: nightmare (DC 22)
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 23, Con -, Int 17, Wis 21, Cha 24
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Alertness, Combat Reflexes, Dodge, Improved Initiative, Mobility, Skill Focus (Intimidate)
+Skills: Bluff +18, Fly +26, Intimidate +27, Knowledge (engineering) +14, Perception +23, Sense Motive +23, Stealth +16
+Languages: Common
+:::
 
-**Experience points:** 9,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 23
-
-**Touch:** 23
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 deflection, +6 Dex, +1 dodge, -1 size
-
-**Hit points:** 126 (11d8+77)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Br Weap:** 30-ft. cone, 10d6 negative energy damage, Reflex DC 22 half, usable every 1d4 rounds
-
-**Melee:** incorporeal touch +13 (10d6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** pyrokinetic soul consumption
-
-**Whirlwind:** 3/day, 10-30 ft. high, 10d6 negative energy damage, DC 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +18
-
-**At will:**
-
-- ghost sound (DC 17), hold portal, mage hand
-
-**Per day:**
-
-- 3/day: major image (DC 20)
-- 1/day: nightmare (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 23, Con -, Int 17, Wis 21, Cha 24
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Alertness, Combat Reflexes, Dodge, Improved Initiative, Mobility, Skill Focus
-(Intimidate)
-
-**Skills:** Bluff +18, Fly +26, Intimidate +27, Knowledge (engineering) +14, Perception +23, Sense
-Motive +23, Stealth +16
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

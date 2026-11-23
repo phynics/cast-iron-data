@@ -29,55 +29,43 @@ special_qualities = "armor training 1, weapon familiarity"
 abilities = ["23", "8", "14", "8", "11", "10"]
 +++
 
-**Challenge rating:** 2
-
 **Orc [fighter](ref/class/fighter) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Orc
+Experience points: 600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 13
+Touch: 9
+Flat-footed: 13
+AC modifiers: +4 armor, -1 Dex
+Hit points: 30 (3d10+9)
+Fort: +5
+Ref: +0
+Will: +1 (+1 vs. fear)
+Defensive abilities: bravery +1
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Orc
-
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 9
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 armor, -1 Dex
-
-**Hit points:** 30 (3d10+9)
-
-**Fort:** +5
-
-**Ref:** +0
-
-**Will:** +1 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk spear +10 (1d8+9/×3) or falchion +9 (2d4+9/18-20)
-
-**Ranged:** javelin +2 (1d6+6)
+::: statblock
+Speed: 30 ft.
+Melee: mwk spear +10 (1d8+9/×3) or falchion +9 (2d4+9/18-20)
+Ranged: javelin +2 (1d6+6)
+:::
 
 ### Tactics
 
@@ -87,31 +75,26 @@ abilities = ["23", "8", "14", "8", "11", "10"]
 (1d8+6/×3), or falchion +7 (2d4+6/18-20); Ranged javelin +2 (1d6+4); Str 19; CMB +7; CMD 16; Skills
 Intimidate +10.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 8, Con 14, Int 8, Wis 11, Cha 10
+::: statblock
+Ability scores: Str 23, Dex 8, Con 14, Int 8, Wis 11, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 18
+Feats: Bullying Blow, Intimidating Prowess, Power Attack, Scarred Legion
+Skills: Intimidate +12
+Languages: Common, Orc
+Special qualities: armor training 1, weapon familiarity
+Combat gear: potion of bull's strength, potion of cure moderate wounds
+Other gear: mwk Ah, falchion, 5 javelins, mwk spear, 203 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18
-
-**Feats:** Bullying Blow, Intimidating Prowess, Power Attack, Scarred Legion
-
-**Skills:** Intimidate +12
-
-**Languages:** Common, Orc
-
-**Special qualities:** armor training 1, weapon familiarity
-
-**Combat gear:** potion of bull's strength, potion of cure moderate wounds
-
-**Other gear:** mwk Ah, falchion, 5 javelins, mwk spear, 203 gp
-
-**Ecology**
-
-**Environment:** temperate hills, mountains, or underground
+::: statblock
+Environment: temperate hills, mountains, or underground
+:::
 
 ### Description
 

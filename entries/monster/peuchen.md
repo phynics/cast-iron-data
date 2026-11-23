@@ -30,99 +30,72 @@ abilities = ["22", "23", "20", "13", "16", "21"]
 
 _This enormous snake has glowing green eyes, large fangs, and wide, membranous wings._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Shapechanger
+Experience points: 9,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 18
+AC modifiers: +6 Dex, +8 natural
+Hit points: 136 (13d10+65)
+Fort: +13
+Ref: +14
+Will: +9
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+B Drain: 1d2 Constitution
+Bleed: 1d6
+Constrict: 2d6+9
+Melee: bite +19 (2d6+9 plus 1d6 bleed, [grab](ref/umr/grab), and poison)
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+At will: vampiric touch
+Per day: 3/day: hold person (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 22, Dex 23, Con 20, Int 13, Wis 16, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +19
+Combat maneuver defense: 35 (can't be tripped)
+Feats: Combat Reflexes, Deceitful, Flyby Attack, Improved Vital Strike, Iron Will, Power Attack, Vital Strike
+Skills: Bluff +13, Disguise +7, Fly +19, Perception +16
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (Small, Medium, or Large herd animal; [beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 Dex, +8 natural
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +14
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Bleed:** 1d6
-
-**Constrict:** 2d6+9
-
-**Melee:** bite +19 (2d6+9 plus 1d6 bleed, [grab](ref/umr/grab), and poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**At will:**
-
-- vampiric touch
-
-**Per day:**
-
-- 3/day: hold person (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 23, Con 20, Int 13, Wis 16, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Feats:** Combat Reflexes, Deceitful, Flyby Attack, Improved Vital Strike, Iron Will, Power Attack,
-Vital Strike
-
-**Skills:** Bluff +13, Disguise +7, Fly +19, Perception +16
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small, Medium, or Large herd animal;
-[beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** any warm or temperate land
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any warm or temperate land
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,78 +30,61 @@ abilities = ["28", "15", "21", "2", "15", "6"]
 _Dense, bony growths line the back of this bipedal predator. Between its gnashing, toothy underbite,
 scythe-like claws, and spiked tail, no part of this beast offers mercy._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +20
+Senses: Low-light vision, Scent
+Experience points: 12,800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 23
+AC modifiers: +2 Dex, +14 natural, -1 size
+Hit points: 152 (16d8+80)
+Fort: +17
+Ref: +12
+Will: +7; +2 vs. poison
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +20 (2d6+9/19-20), 2 talons +20 (1d8+9), tail barbs +18 (1d6+4 plus poison)
+Pounce: present
+Reach: 10
+Reach P: 5 ft. with talons
+Space: 10
+Spec Att: poison
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 28, Dex 15, Con 21, Int 2, Wis 15, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +22
+Combat maneuver defense: 34
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Endurance, Great Fortitude, Improved Critical (bite), Improved Initiative, Multiattack
+Skills: Perception +20, Stealth +10
+Racial Modifiers: +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +14 natural, -1 size
-
-**Hit points:** 152 (16d8+80)
-
-**Fort:** +17
-
-**Ref:** +12
-
-**Will:** +7; +2 vs. poison
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +20 (2d6+9/19-20), 2 talons +20 (1d8+9), tail barbs +18 (1d6+4 plus poison)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with talons
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con 21, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 34
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Endurance, Great Fortitude, Improved
-Critical (bite), Improved Initiative, Multiattack
-
-**Skills:** Perception +20, Stealth +10
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

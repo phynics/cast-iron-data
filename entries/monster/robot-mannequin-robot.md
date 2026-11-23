@@ -30,81 +30,63 @@ abilities = ["15", "12", "-", "10", "11", "1"]
 
 _This impassive humanoid has shiny, pale skin and an eerily expressionless face._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: construct
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Robot
+Experience points: 600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 31 (2d10+20)
+Fort: +0
+Ref: +1
+Will: +0
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: electricity 5, fire 5
+Vulner: electricity
+Weaknesses: vulnerable to critical hits
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +4 (1d4+2)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 12, Con -, Int 10, Wis 11, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Alertness
+Skills: Disguise -4 (+4 to appear human), Sense Motive +6
+Racial Modifiers: +8 Disguise to appear human
+Languages: Common, Hallit
+Special qualities: false flesh
+:::
 
-**Subtype:** Robot
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 31 (2d10+20)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +0
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** electricity 5, fire 5
-
-**Vulner:** electricity
-
-**Weaknesses:** vulnerable to critical hits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +4 (1d4+2)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 12, Con -, Int 10, Wis 11, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Alertness
-
-**Skills:** Disguise -4 (+4 to appear human), Sense Motive +6
-
-**Racial Modifiers:** +8 Disguise to appear human
-
-**Languages:** Common, Hallit
-
-**Special qualities:** false flesh
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, pair, or band (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, pair, or band (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,104 +34,78 @@ abilities = ["12", "12", "14", "12", "15", "17"]
 
 _Jade armor covers this lean albino humanoid, and her pale eyes have an eerie gleam._
 
-**Challenge rating:** 1
-
 **Female munavri [mesmerist](ref/class/mesmerist)**
 
-**Alignment:** Chaotic good
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic good
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +6
+Senses: Darkvision 120 ft.
+Subtype: Munavri
+Experience points: 400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +6 armor, +1 Dex
+Hit points: 11 (1d8+3)
+Fort: +2
+Ref: +3
+Will: +4
+Sr: 9
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft.
+Melee: rapier +1 (1d6+1/18-20)
+Spec Att: hypnotic stare (-2), mesmerist trick 4/day ([mesmeric mirror](ref/trick/mesmeric-mirror)), painful stare (+1)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+At will: object reading
+:::
 
-**Subtype:** Munavri
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: demand offering (DC 14), thought echo
+Cantrips: At will: detect magic, mage hand, prestidigitation (DC 13), unwitting ally (DC 13)
+:::
 
-**Experience points:** 400
+### Statistics
 
-**Armor class:** 17
+::: statblock
+Ability scores: Str 12, Dex 12, Con 14, Int 12, Wis 15, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Intimidating Glance
+Skills: Bluff +7, Diplomacy +7, Sense Motive +6, Spellcraft +5
+Languages: Munavri, Undercommon; [telepathy](ref/umr/telepathy) 60 ft. (other munavris only)
+Special qualities: advanced object reading, consummate liar (+1)
+:::
 
-**Touch:** 11
+### Ecology
 
-**Flat-footed:** 16
-
-**AC modifiers:** +6 armor, +1 Dex
-
-**Hit points:** 11 (1d8+3)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +4
-
-**Sr:** 9
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** rapier +1 (1d6+1/18-20)
-
-**Spec Att:** hypnotic stare (-2), mesmerist trick 4/day
-([mesmeric mirror](ref/trick/mesmeric-mirror)), painful stare (+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**At will:**
-
-- object reading
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: demand offering (DC 14), thought echo
-
-**Cantrips:**
-
-- At will: detect magic, mage hand, prestidigitation (DC 13), unwitting ally (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 12, Con 14, Int 12, Wis 15, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Intimidating Glance
-
-**Skills:** Bluff +7, Diplomacy +7, Sense Motive +6, Spellcraft +5
-
-**Languages:** Munavri, Undercommon; [telepathy](ref/umr/telepathy) 60 ft. (other munavris only)
-
-**Special qualities:** advanced object reading, consummate liar (+1)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, squad (3-7), or crew (10-40)
-
-**Treasure:** NPC gear (breastplate, rapier); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, pair, squad (3-7), or crew (10-40)
+Treasure: NPC gear (breastplate, rapier); other treasure
+:::
 
 ### Special Abilities
 

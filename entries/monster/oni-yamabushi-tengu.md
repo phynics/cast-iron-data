@@ -32,103 +32,75 @@ abilities = ["15", "19", "18", "12", "15", "16"]
 _This humanoid creature has a fearsome mien, with a cruel red face, glaring yellow eyes, a
 prodigious nose, and large raven-like wings._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+othersubs: Tengu
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Native, Oni, Shapechanger
+Experience points: 1,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 armor, +4 Dex, +2 natural
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +9
+Will: +4; -2 vs. illusion (pattern) spells
+Regen: 2 (fire or acid)
+Sr: 16
+Weaknesses: susceptible to patterns
+:::
 
-**Size:** medium
+### Offense
 
-**othersubs:** Tengu
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Melee: +1 kusarigama +10/+5 (1d6+4/×3), bite +3 (1d4+1)
+Ranged: composite longbow +10/+5 (1d8+2/×3)
+Spec Att: steal voice
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Constant: see invisibility, ventriloquism (DC 14)
+Per day: 3/day: dimension door, hideous laughter (DC 15), ray of enfeeblement (DC 14), scorching ray\
+1/day: blur, glitterdust (DC 15)
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+::: statblock
+Ability scores: Str 15, Dex 19, Con 18, Int 12, Wis 15, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Combat Casting, Combat Reflexes, Improved Initiative
+Skills: Acrobatics +13, Bluff +12, Disguise +12, Stealth +13
+Racial Modifiers: +4 Perception
+Languages: Common, Tengu, Tien
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self)), yamabushi weapons
+Gear: leather armor
+:::
 
-**Subtype:** Native, Oni, Shapechanger
+### Ecology {#stat-ecology}
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +4 Dex, +2 natural
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +9
-
-**Will:** +4; -2 vs. illusion (pattern) spells
-
-**Regen:** 2 (fire or acid)
-
-**Sr:** 16
-
-**Weaknesses:** susceptible to patterns
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Melee:** +1 kusarigama +10/+5 (1d6+4/×3), bite +3 (1d4+1)
-
-**Ranged:** composite longbow +10/+5 (1d8+2/×3)
-
-**Spec Att:** steal voice
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Constant:**
-
-- see invisibility, ventriloquism (DC 14)
-
-**Per day:**
-
-- 3/day: dimension door, hideous laughter (DC 15), ray of enfeeblement (DC 14), scorching ray
-- 1/day: blur, glitterdust (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 19, Con 18, Int 12, Wis 15, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Casting, Combat Reflexes, Improved Initiative
-
-**Skills:** Acrobatics +13, Bluff +12, Disguise +12, Stealth +13
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Common, Tengu, Tien
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self)), yamabushi weapons
-
-**Gear:** leather armor
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or patrol (1-2 plus 3-8 tengus or dire corbies)
-
-**Treasure:** Double (leather armor, +1 -kusarigama, cl20+2); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or patrol (1-2 plus 3-8 tengus or dire corbies)
+Treasure: Double (leather armor, +1 -kusarigama, cl20+2); other treasure
+:::
 
 ### Special Abilities
 

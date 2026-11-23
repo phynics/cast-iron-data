@@ -32,109 +32,77 @@ abilities = ["34", "23", "24", "19", "22", "25"]
 _An invisible presence suggests the shape of a giant-sized person, surrounded by a rhythm of subtle
 noises from the natural world._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: positive energy (10 ft.)
+Size: huge
+Initiative: +10
+Alignment: Neutral good
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., Detect evil, True seeing
+Subtype: Native
+Experience points: 51,200
+:::
 
-**aura:** positive energy (10 ft.)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 18
+Flat-footed: 22
+AC modifiers: +3 deflection, +6 Dex, +1 dodge, +11 natural, -2 size
+Hit points: 237 (19d10+133)
+Fort: +18
+Ref: +12
+Will: +17
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, greater invisibility
+Dr: 10/cold iron and evil
+Fh: 5
+Immune: acid, cold
+Resist: electricity 30, fire 30
+Sr: 26
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +30 (4d10+12)
+Reach: 15
+Space: 15
+Spec Att: spirit stampede
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +26
+Constant: detect evil, freedom of movement, greater invisibility, pass without trace, speak with animals, true seeing
+Per day: 3/day: heal, neutralize poison, restoration, summon nature's ally VIII\
+1/day: earthquake
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect evil, True seeing
+::: statblock
+Ability scores: Str 34, Dex 23, Con 24, Int 19, Wis 22, Cha 25
+Base attack bonus: +19
+Combat maneuver bonus: +33 (+35 bull rush)
+Combat maneuver defense: 53 (55 vs. bull rush)
+Feats: Awesome Blow, Cleave, Combat Reflexes, Dodge, Improved Bull Rush, Improved Initiative, Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (slam)
+Skills: Climb +22, Diplomacy +20, Heal +16
+Languages: Celestial, Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: token of fortune
+:::
 
-**Subtype:** Native
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 18
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 deflection, +6 Dex, +1 dodge, +11 natural, -2 size
-
-**Hit points:** 237 (19d10+133)
-
-**Fort:** +18
-
-**Ref:** +12
-
-**Will:** +17
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, greater
-invisibility
-
-**Dr:** 10/cold iron and evil
-
-**Fh:** 5
-
-**Immune:** acid, cold
-
-**Resist:** electricity 30, fire 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +30 (4d10+12)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** spirit stampede
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +26
-
-**Constant:**
-
-- detect evil, freedom of movement, greater invisibility, pass without trace, speak with animals,
-  true seeing
-
-**Per day:**
-
-- 3/day: heal, neutralize poison, restoration, summon nature's ally VIII
-- 1/day: earthquake
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 23, Con 24, Int 19, Wis 22, Cha 25
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +33 (+35 bull rush)
-
-**Combat maneuver defense:** 53 (55 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Dodge, Improved Bull Rush, Improved Initiative,
-Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (slam)
-
-**Skills:** Climb +22, Diplomacy +20, Heal +16
-
-**Languages:** Celestial, Common, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** token of fortune
-
-**Ecology**
-
-**Environment:** any plains or forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any plains or forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

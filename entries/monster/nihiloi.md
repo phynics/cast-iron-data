@@ -33,101 +33,73 @@ Inky skin covers the creature, and ebon claws curve long and thin from the tips 
 Numerous tendrils of wispy shadow hold the creature aloft while others rise above its shoulders in
 strange, wriggling wings._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: tendrils
+Alignment: Chaotic neutral
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 90 ft., See in darkness
+Subtype: Extraplanar
+Experience points: 12,800
+:::
 
-**aura:** tendrils
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 23
+Touch: 18
+Flat-footed: 15
+AC modifiers: +7 Dex, +1 dodge, +5 natural
+Hit points: 135 (10d10+80)
+Fort: +11
+Ref: +16
+Will: +12
+Defensive abilities: malleable
+Fh: 5 (only in shadows)
+Immune: cold
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: 2 claws +13 (2d8+3), 2 slams +13 (1d8+3 plus [grab](ref/umr/grab))
+Reach: 20
+Reach P: with slam
+Space: 5
+Spec Att: shadow crafting
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+At will: detect thoughts (DC 16)
+Per day: 3/day: deeper darkness
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 90 ft., See in darkness
+::: statblock
+Ability scores: Str 17, Dex 24, Con 27, Int 15, Wis 20, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Agile Maneuvers, Dodge, Improved Initiative, Lightning Reflexes, Mobility
+Skills: Acrobatics +20 (+24 to jump), Bluff +17, Diplomacy +17 (+21 against Plane of Shadow natives), Stealth +20 (+30 in dim light)
+Racial Modifiers: +10 Stealth in areas of dim light, +4 Diplomacy when dealing with other Plane of Shadow natives
+Languages: Abyssal, Common, Infernal; _broadcast_
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +7 Dex, +1 dodge, +5 natural
-
-**Hit points:** 135 (10d10+80)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +12
-
-**Defensive abilities:** malleable
-
-**Fh:** 5 (only in shadows)
-
-**Immune:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** 2 claws +13 (2d8+3), 2 slams +13 (1d8+3 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Reach P:** with slam
-
-**Space:** 5
-
-**Spec Att:** shadow crafting
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**At will:**
-
-- detect thoughts (DC 16)
-
-**Per day:**
-
-- 3/day: deeper darkness
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 24, Con 27, Int 15, Wis 20, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Agile Maneuvers, Dodge, Improved Initiative, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +20 (+24 to jump), Bluff +17, Diplomacy +17 (+21 against Plane of Shadow
-natives), Stealth +20 (+30 in dim light)
-
-**Racial Modifiers:** +10 Stealth in areas of dim light, +4 Diplomacy when dealing with other Plane
-of Shadow natives
-
-**Languages:** Abyssal, Common, Infernal; _broadcast_
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, cell (2-8), or cabal (9-26)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, cell (2-8), or cabal (9-26)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

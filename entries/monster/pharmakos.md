@@ -32,101 +32,74 @@ abilities = ["43", "8", "30", "5", "7", "6"]
 _The body of this monstrous creature is a foul mass of sore-covered flesh, a blubbery worm with the
 upper torso of a deformed man._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+Size: gargantuan
+Initiative: +3
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft., See invisibility
+Subtype: Aquatic
+tremorsense: 120
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 30
+Touch: 5
+Flat-footed: 30
+AC modifiers: -1 Dex, +25 natural, -4 size
+Hit points: 232 (16d8+160)
+Fort: +15
+Ref: +6
+Will: +10
+Dr: 10/magic and slashing
+Immune: acid, death effects, mind-affecting effects, pain, paralysis, poison
+Resist: cold 10
+Sr: 26
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: 2 claws +24 (3d6+16/19-20 plus pain), bite +24 (2d6+16 plus pain)
+Reach: 20
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+Spec Att: breath weapon, pain
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +13
+Constant: air walk, see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 43, Dex 8, Con 30, Int 5, Wis 7, Cha 6
+Base attack bonus: +12
+Combat maneuver bonus: +32 (+34 bull rush)
+Combat maneuver defense: 41 (43 vs. bull rush)
+Feats: Ability Focus (pain), Awesome Blow, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
+Skills: Perception +9, Swim +35
+Languages: Common
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), curse of eternal torment, [no breath](ref/umr/no-breath)
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 5
-
-**Flat-footed:** 30
-
-**AC modifiers:** -1 Dex, +25 natural, -4 size
-
-**Hit points:** 232 (16d8+160)
-
-**Fort:** +15
-
-**Ref:** +6
-
-**Will:** +10
-
-**Dr:** 10/magic and slashing
-
-**Immune:** acid, death effects, mind-affecting effects, pain, paralysis, poison
-
-**Resist:** cold 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** 2 claws +24 (3d6+16/19-20 plus pain), bite +24 (2d6+16 plus pain)
-
-**Reach:** 20
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spec Att:** breath weapon, pain
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +13
-
-**Constant:**
-
-- air walk, see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 8, Con 30, Int 5, Wis 7, Cha 6
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +32 (+34 bull rush)
-
-**Combat maneuver defense:** 41 (43 vs. bull rush)
-
-**Feats:** Ability Focus (pain), Awesome Blow, Improved Bull Rush, Improved Critical (claw),
-Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
-
-**Skills:** Perception +9, Swim +35
-
-**Languages:** Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), curse
-of eternal torment, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

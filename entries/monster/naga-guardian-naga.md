@@ -30,99 +30,69 @@ abilities = ["21", "23", "20", "16", "19", "18"]
 _A contemplative humanoid face framed by a cobra-like hood adorns the body of this long, brightly
 colored serpent._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Initiative: +6
+Size: large
+Alignment: Lawful good
+Perception: +23
+Senses: Darkvision 60 ft.
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 18
+AC modifiers: +6 Dex, +9 natural, -1 size
+Hit points: 114 (12d8+60)
+Fort: +9
+Ref: +12
+Will: +12
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 40 ft.
+Melee: bite +13 (2d6+7 plus poison)
+Ranged: spit +14 touch (poison)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spells Known"
+Caster level: 9
+4th-level spells: 5/day: divine power, greater invisibility
+3rd-level spells: 7/day: cure serious wounds, dispel magic, lightning bolt (DC 17)
+2nd-level spells: 7/day: detect thoughts (DC 16), lesser restoration, see invisibility, scorching ray
+1st-level spells: 7/day: cure light wounds, divine favor, expeditious retreat, mage armor, magic missile
+Cantrips: At will: daze (DC 14), detect magic, light, mage hand, open/close, ray of frost, read magic, stabilize
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 21, Dex 23, Con 20, Int 16, Wis 19, Cha 18
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 31 (can't be tripped)
+Feats: Alertness, Blind-Fight, Combat Casting, Combat Expertise, Eschew Materials, Improved Trip, Lightning Reflexes
+Skills: Bluff +16, Diplomacy +16, Sense Motive +20, Spellcraft +18, Stealth +17
+Languages: Celestial, Common
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 Dex, +9 natural, -1 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +12
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +13 (2d6+7 plus poison)
-
-**Ranged:** spit +14 touch (poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 9
-
-**4th-level spells:**
-
-- 5/day: divine power, greater invisibility
-
-**3rd-level spells:**
-
-- 7/day: cure serious wounds, dispel magic, lightning bolt (DC 17)
-
-**2nd-level spells:**
-
-- 7/day: detect thoughts (DC 16), lesser restoration, see invisibility, scorching ray
-
-**1st-level spells:**
-
-- 7/day: cure light wounds, divine favor, expeditious retreat, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: daze (DC 14), detect magic, light, mage hand, open/close, ray of frost, read magic,
-  stabilize
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 23, Con 20, Int 16, Wis 19, Cha 18
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 31 (can't be tripped)
-
-**Feats:** Alertness, Blind-Fight, Combat Casting, Combat Expertise, Eschew Materials, Improved
-Trip, Lightning Reflexes
-
-**Skills:** Bluff +16, Diplomacy +16, Sense Motive +20, Spellcraft +18, Stealth +17
-
-**Languages:** Celestial, Common
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or nest (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

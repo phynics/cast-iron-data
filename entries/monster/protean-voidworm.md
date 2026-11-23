@@ -30,109 +30,75 @@ abilities = ["7", "17", "10", "8", "8", "13"]
 _This tiny, iridescent serpent slithers through empty space, the air around it distorting as if from
 heat._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsense: 30
+Alignment: Chaotic neutral
+Initiative: +3
+Type: outsider
+Perception: +8
+Senses: Darkvision 30 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Size: tiny
+Experience points: 600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +6
+Will: +2
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Fh: 2
+Immune: acid
+Resist: electricity 10, sonic 10
+:::
 
-**Initiative:** +3
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee: bite +8 (1d3-2), tail slap +3 (1d3-2 plus confusion)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Constant: detect law
+At will: dancing lights, ghost sound (DC 11), prestidigitation
+Per day: 3/day: blur, self only, obscuring mist
+Per week: commune, CL 12th; 6 questions
+:::
 
-**Senses:** Darkvision 30 ft., Detect law
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
+::: statblock
+Ability scores: Str 7, Dex 17, Con 10, Int 8, Wis 8, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 12 (can't be tripped)
+Feats: Skill Focus (Perception), Weapon Finesse
+Skills: Acrobatics +9 (+5 jump), Bluff +7, Escape Artist +7, Fly +19, Knowledge (arcana) +5, Perception +8, Stealth +15
+Languages: Common, Protean
+Special qualities: [change shape](ref/umr/change-shape) (2 forms, both of which must be Tiny animals; [beast shape II](ref/spell/beast-shape-2))
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +2
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Fh:** 2
-
-**Immune:** acid
-
-**Resist:** electricity 10, sonic 10
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +8 (1d3-2), tail slap +3 (1d3-2 plus confusion)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- dancing lights, ghost sound (DC 11), prestidigitation
-
-**Per day:**
-
-- 3/day: blur, self only, obscuring mist
-
-**Per week:**
-
-- commune, CL 12th; 6 questions
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 17, Con 10, Int 8, Wis 8, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Feats:** Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Acrobatics +9 (+5 jump), Bluff +7, Escape Artist +7, Fly +19, Knowledge (arcana) +5,
-Perception +8, Stealth +15
-
-**Languages:** Common, Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape) (2 forms, both of which must be Tiny
-animals; [beast shape II](ref/spell/beast-shape-2))
-
-**Ecology**
-
-**Environment:** any ([Limbo](ref/rule/limbo))
-
-**Organization:** solitary, pair, or school (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Limbo](ref/rule/limbo))
+Organization: solitary, pair, or school (3-18)
+Treasure: None
+:::
 
 ### Special Abilities
 

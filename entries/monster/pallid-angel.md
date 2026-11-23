@@ -32,110 +32,76 @@ abilities = ["22", "17", "25", "14", "16", "21"]
 _This macabre beauty holds her ebon-feathered wings spread behind her. Her skin and clothing are
 soaked and splattered with blood, wine, and other fluids._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 21)
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Detect good, Detect magic, Low-light vision
+Subtype: Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 21)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 22
+AC modifiers: +3 Dex, +12 natural
+Hit points: 150 (12d10+84)
+Fort: +15
+Ref: +7
+Will: +11; +4 vs. poison
+Defensive abilities: profane ward
+Dr: 10/adamantine or good
+Immune: acid, cold, death effects, disease, energy drain, mind-affecting effects, petrification
+Resist: electricity 10, fire 10
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +1 unholy scythe +19/+14/+9 (2d4+10/×4 plus 2d6 vs. good creatures)
+Spec Att: bloodbath
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Constant: detect good, detect magic
+At will: acid arrow, contagion (DC 18), dispel magic, greater teleport, self plus 50 lbs. of gear only, rage
+Per day: 3/day: fireball (DC 18), magic missile, vampiric touch\
+1/day: cleanse, mass inflict moderate wounds (DC 21), plane shift, self plus 50 lbs. of gear only, wall of thorns
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 17, Con 25, Int 14, Wis 16, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 31
+Feats: Bloody Assault, Dreadful Carnage, Flyby Attack, Furious Focus, Improved Initiative, Power Attack
+Skills: Bluff +20, Diplomacy +20, Profession (soldier) +18, Sense Motive +18, Spellcraft +12
+Racial Modifiers: +4 Intimidate
+Languages: Abyssal, Celestial, Infernal; _truespeech_
+Special qualities: hunger for life and death
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +3 Dex, +12 natural
-
-**Hit points:** 150 (12d10+84)
-
-**Fort:** +15
-
-**Ref:** +7
-
-**Will:** +11; +4 vs. poison
-
-**Defensive abilities:** profane ward
-
-**Dr:** 10/adamantine or good
-
-**Immune:** acid, cold, death effects, disease, energy drain, mind-affecting effects, petrification
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +1 unholy scythe +19/+14/+9 (2d4+10/×4 plus 2d6 vs. good creatures)
-
-**Spec Att:** bloodbath
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- acid arrow, contagion (DC 18), dispel magic, greater teleport, self plus 50 lbs. of gear only,
-  rage
-
-**Per day:**
-
-- 3/day: fireball (DC 18), magic missile, vampiric touch
-- 1/day: cleanse, mass inflict moderate wounds (DC 21), plane shift, self plus 50 lbs. of gear only,
-  wall of thorns
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 25, Int 14, Wis 16, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31
-
-**Feats:** Bloody Assault, Dreadful Carnage, Flyby Attack, Furious Focus, Improved Initiative, Power
-Attack
-
-**Skills:** Bluff +20, Diplomacy +20, Profession (soldier) +18, Sense Motive +18, Spellcraft +12
-
-**Racial Modifiers:** +4 Intimidate
-
-**Languages:** Abyssal, Celestial, Infernal; _truespeech_
-
-**Special qualities:** hunger for life and death
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or warband (1 plus 1 9th-level cleric of Urgathoa and 3-12 6th-level
-fighters)
-
-**Treasure:** Double (+1 unholy scythe); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or warband (1 plus 1 9th-level cleric of Urgathoa and 3-12 6th-level fighters)
+Treasure: Double (+1 unholy scythe); other treasure
+:::
 
 ### Special Abilities
 

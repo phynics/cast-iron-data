@@ -31,112 +31,60 @@ abilities = ["14", "16", "18", "41", "24", "22"]
 _This gray-haired man with a short, wiry beard wears a nondescript robe festooned with satchels and
 decorations._
 
-**Challenge rating:** 24
-
-**Mythic rank:** 6
-
 **Male old human [wizard](ref/class/wizard) 20/archmage 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 24
+Mythic rank: 6
+Type: humanoid
+Initiative: +13
+Size: medium
+Alignment: Neutral good
+Perception: +28
+Senses: Arcane sight, Darkvision 60 ft., See invisibility
+Subtype: Human
+Experience points: 1,228,800
+:::
 
-**Initiative:** +13
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 32
+Touch: 19
+Flat-footed: 29
+AC modifiers: +8 armor, +5 deflection, +3 Dex, +1 insight, +5 natural
+Hit points: 210 (20d6+138)
+Fort: +16
+Ref: +15
+Will: +25; +8 vs. mind-affecting
+Defensive abilities: hard to kill, _[mind blank](ref/spell/mind-blank)_, mythic saving throws
+Dr: 10/epic
+Regen: 1
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +28
+::: statblock
+Speed: 30 ft.
+Melee: staff of the planes +13/+8 (1d6+3)
+Spec Att: abundant casting, archmage arcana (wild arcana), hand of the apprentice (18/day), metamagic mastery (7/day), mythic spellpower, permanent shapechange, rapid preparation
+:::
 
-**Senses:** Arcane sight, Darkvision 60 ft., See invisibility
-
-**Subtype:** Human
-
-**Experience points:** 1,228,800
-
-**Armor class:** 32
-
-**Touch:** 19
-
-**Flat-footed:** 29
-
-**AC modifiers:** +8 armor, +5 deflection, +3 Dex, +1 insight, +5 natural
-
-**Hit points:** 210 (20d6+138)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +25; +8 vs. mind-affecting
-
-**Defensive abilities:** hard to kill, _[mind blank](ref/spell/mind-blank)_, mythic saving throws
-
-**Dr:** 10/epic
-
-**Regen:** 1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** staff of the planes +13/+8 (1d6+3)
-
-**Spec Att:** abundant casting, archmage arcana (wild arcana), hand of the apprentice (18/day),
-metamagic mastery (7/day), mythic spellpower, permanent shapechange, rapid preparation
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +35
-
-**9th-level spells:**
-
-- ascension^M^, gate, mage's disjunction, meteor swarm, time stop^M^, =empty slot^F^
-
-**8th-level spells:**
-
-- maximized cone of cold, maze^M^, polymorph any object (DC 33), power word stun, summon monster
-  VIII, =empty slot^F^
-
-**7th-level spells:**
-
-- quickened fireball^M^ (2, DC 32), forcecage (DC 33), mage's sword, mass invisibility, summon
-  monster VII, =empty slot^F^
-
-**6th-level spells:**
-
-- chain lightning^M^ (DC 32), globe of invulnerability^M^, mislead^M^ (DC 31), quickened scorching
-  ray^M^, summon monster VI, true seeing, =empty slot^F^
-
-**5th-level spells:**
-
-- baleful polymorph (DC 30), cloudkill (DC 31), communal stoneskin, quickened entangle^M^ (DC 30),
-  mage's faithful hound, overland flight, =empty slot^F^
-
-**4th-level spells:**
-
-- communal protection from energy (DC 29), dimension door, enervation, mass enlarge person (DC 29),
-  maximized magic missile^M^, wall of fire, =empty slot^F^
-
-**3rd-level spells:**
-
-- call lightning^M^ (2, DC 29), communal resist energy (DC 28), fireball^M^ (DC 29), haste^M^, 2,
-  lightning bolt (DC 29), =empty slot^F^
-
-**2nd-level spells:**
-
-- barkskin, blur, communal protection from evil, forest friend, glitterdust (DC 28), mirror image,
-  2, =empty slot^F^
-
-**1st-level spells:**
-
-- entangle^M^ (2, DC 26), expeditious retreat, feather fall, magic missile^M^, obscuring mist^M^,
-  true strike, =empty slot^F^
-
-**Cantrips:**
-
-- ghost sound (DC 25), light, mage hand, prestidigitation
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +35
+9th-level spells: ascension^M^, gate, mage's disjunction, meteor swarm, time stop^M^, =empty slot^F^
+8th-level spells: maximized cone of cold, maze^M^, polymorph any object (DC 33), power word stun, summon monster VIII, =empty slot^F^
+7th-level spells: quickened fireball^M^ (2, DC 32), forcecage (DC 33), mage's sword, mass invisibility, summon monster VII, =empty slot^F^
+6th-level spells: chain lightning^M^ (DC 32), globe of invulnerability^M^, mislead^M^ (DC 31), quickened scorching ray^M^, summon monster VI, true seeing, =empty slot^F^
+5th-level spells: baleful polymorph (DC 30), cloudkill (DC 31), communal stoneskin, quickened entangle^M^ (DC 30), mage's faithful hound, overland flight, =empty slot^F^
+4th-level spells: communal protection from energy (DC 29), dimension door, enervation, mass enlarge person (DC 29), maximized magic missile^M^, wall of fire, =empty slot^F^
+3rd-level spells: call lightning^M^ (2, DC 29), communal resist energy (DC 28), fireball^M^ (DC 29), haste^M^, 2, lightning bolt (DC 29), =empty slot^F^
+2nd-level spells: barkskin, blur, communal protection from evil, forest friend, glitterdust (DC 28), mirror image, 2, =empty slot^F^
+1st-level spells: entangle^M^ (2, DC 26), expeditious retreat, feather fall, magic missile^M^, obscuring mist^M^, true strike, =empty slot^F^
+Cantrips: ghost sound (DC 25), light, mage hand, prestidigitation
+:::
 
 ###### F {#footnote-f}
 
@@ -146,40 +94,20 @@ Jatembe has one unprepared slot at each level for his rapid preparation archmage
 
 mythic spells
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 16, Con 18, Int 41, Wis 24, Cha 22
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 31
-
-**Feats:** Augment Summoning, Extend Spell, Fast Learner, Greater Spell Penetration, Heighten Spell,
-Improved Initiative, Maximize Spell, Mythic Spell Lore (2), Quicken Spell, Scribe Scroll, Silent
-Spell, Spell Focus (conjuration), Spell Focus (evocation), Spell Penetration, Still Spell, Toughness
-
-**Skills:** Bluff +30, Diplomacy +30, Fly +27, Intimidate +30, Knowledge (arcana, dungeoneering,
-geography, history, nature, planes, religion) +39, Perception +28, Use Magic Device +30
-
-**Languages:** Abyssal, Aklo, Ancient Osiriani, Azlanti, Celestial, Common, Cyclops, Draconic,
-Druidic, Elven, Infernal, Polyglot, Protean, Sylvan, Treant, Undercommon
-
-**Special qualities:** amazing initiative, arcane bond (ring of continuation), crafting mastery,
-exceptional wealth, gifts of the teachers, [immortality](ref/arcanedisc/immortality) arcane
-discovery, Jatembe's divine knowledge, perfect preparation, permanent spells, recuperation
-
-**Combat gear:** I-bag of tricks (tan), beacon of true faith, I-cloak of etherealness, I-dryad
-sandals, I-greater book of extended summoning/good, I-robe of gates, scroll of TFstaff of the
-planes, Dcure critical wounds/CL 20th, 50 charges, Drestoration/50 charges
-
-**Other gear:** Ibopp6, Iboa8, Iclk5, Ihbms6, ring of prot5, I-amulet of the planes, I-circlet of
-persuasion, IOdusty rose prism, I-gloves of shaping, Ihh, I-polymorphic pouch, ring of ring of
-regeneration, I-stone of good luck, eye ointment for true seeing (worth 1,000 gp), granite and
-diamond dust for communal stoneskin (worth 10,000 gp), miniature platinum sword for mage's sword
-(worth 250 gp), rare herbs and gems for ascension (worth 10,000 gp), ruby dust for forcecage (worth
-1,500 gp)
+::: statblock
+Ability scores: Str 14, Dex 16, Con 18, Int 41, Wis 24, Cha 22
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 31
+Feats: Augment Summoning, Extend Spell, Fast Learner, Greater Spell Penetration, Heighten Spell, Improved Initiative, Maximize Spell, Mythic Spell Lore (2), Quicken Spell, Scribe Scroll, Silent Spell, Spell Focus (conjuration), Spell Focus (evocation), Spell Penetration, Still Spell, Toughness
+Skills: Bluff +30, Diplomacy +30, Fly +27, Intimidate +30, Knowledge (arcana, dungeoneering, geography, history, nature, planes, religion) +39, Perception +28, Use Magic Device +30
+Languages: Abyssal, Aklo, Ancient Osiriani, Azlanti, Celestial, Common, Cyclops, Draconic, Druidic, Elven, Infernal, Polyglot, Protean, Sylvan, Treant, Undercommon
+Special qualities: amazing initiative, arcane bond (ring of continuation), crafting mastery, exceptional wealth, gifts of the teachers, [immortality](ref/arcanedisc/immortality) arcane discovery, Jatembe's divine knowledge, perfect preparation, permanent spells, recuperation
+Combat gear: I-bag of tricks (tan), beacon of true faith, I-cloak of etherealness, I-dryad sandals, I-greater book of extended summoning/good, I-robe of gates, scroll of TFstaff of the planes, Dcure critical wounds/CL 20th, 50 charges, Drestoration/50 charges
+Other gear: Ibopp6, Iboa8, Iclk5, Ihbms6, ring of prot5, I-amulet of the planes, I-circlet of persuasion, IOdusty rose prism, I-gloves of shaping, Ihh, I-polymorphic pouch, ring of ring of regeneration, I-stone of good luck, eye ointment for true seeing (worth 1,000 gp), granite and diamond dust for communal stoneskin (worth 10,000 gp), miniature platinum sword for mage's sword (worth 250 gp), rare herbs and gems for ascension (worth 10,000 gp), ruby dust for forcecage (worth 1,500 gp)
+:::
 
 ### Special Abilities
 

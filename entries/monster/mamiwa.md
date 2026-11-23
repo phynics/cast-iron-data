@@ -32,87 +32,66 @@ abilities = ["7", "15", "12", "10", "12", "13"]
 
 _The tail of this shimmering, salamander-like creature is composed entirely of water._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Native, Water
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +2
+Immune: elemental traits
+Resist: cold or electricity 5
+Vulner: fire
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., swim 50 ft., fly 50 ft. (perfect)
+Melee: bite +7 (1d3-2)
+Ranged: elemental blast +7 (2d6 cold or electricity)
+Reach: 0
+Space: 2-1/2
+Spec Att: elemental blast, elemental infusion
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Air, Elemental, Native, Water
+::: statblock
+Ability scores: Str 7, Dex 15, Con 12, Int 10, Wis 12, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 12 (can't be tripped)
+Feats: Dodge, Weapon Finesse
+Skills: Acrobatics +8 (+0 when jumping), Fly +20
+Racial Modifiers: -8 Acrobatics when jumping, +4 Survival to predict the weather
+Languages: Common; _rain speaker, speak with animals_
+Special qualities: elemental alignment
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** elemental traits
-
-**Resist:** cold or electricity 5
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft., fly 50 ft. (perfect)
-
-**Melee:** bite +7 (1d3-2)
-
-**Ranged:** elemental blast +7 (2d6 cold or electricity)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** elemental blast, elemental infusion
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 12, Int 10, Wis 12, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Feats:** Dodge, Weapon Finesse
-
-**Skills:** Acrobatics +8 (+0 when jumping), Fly +20
-
-**Racial Modifiers:** -8 Acrobatics when jumping, +4 Survival to predict the weather
-
-**Languages:** Common; _rain speaker, speak with animals_
-
-**Special qualities:** elemental alignment
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or stormfront (2-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary or stormfront (2-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

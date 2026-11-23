@@ -30,111 +30,77 @@ abilities = ["24", "16", "23", "19", "18", "17"]
 _This crab-like nightmare has a lamprey mouth, twitching eyes on its legs, and several blisters
 along its back that hold human brains._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +17
+Senses: Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 21
+Touch: 19
+Flat-footed: 18
+AC modifiers: +3 Dex, +2 natural, +7 insight, -1 size
+Hit points: 105 (10d8+60)
+Fort: +9
+Ref: +6
+Will: +11
+Dr: 10/magic
+Immune: confusion effects
+Sr: 19
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft., fly 40 ft. (perfect)
+Melee: bite +13 (1d8+7 plus poison), 2 claws +13 (1d6+7)
+Reach: 5
+Rend: 2 claws, 2d6+7
+Space: 10
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +17
+3rd-level spells: 5/day: lightning bolt (DC 16), hold person (DC 16)
+2nd-level spells: 7/day: acid arrow, alter self, invisibility
+1st-level spells: 7/day: grease (DC 14), magic missile, ray of enfeeblement (DC 14), shield, unseen servant
+Cantrips: At will: acid splash, dancing lights, detect magic, mage hand, open/close, prestidigitation, read magic
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 19
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +2 natural, +7 insight, -1 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +11
-
-**Dr:** 10/magic
-
-**Immune:** confusion effects
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (perfect)
-
-**Melee:** bite +13 (1d8+7 plus poison), 2 claws +13 (1d6+7)
-
-**Reach:** 5
-
-**Rend:** 2 claws, 2d6+7
-
-**Space:** 10
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +17
-
-**3rd-level spells:**
-
-- 5/day: lightning bolt (DC 16), hold person (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: acid arrow, alter self, invisibility
-
-**1st-level spells:**
-
-- 7/day: grease (DC 14), magic missile, ray of enfeeblement (DC 14), shield, unseen servant
-
-**Cantrips:**
-
-- At will: acid splash, dancing lights, detect magic, mage hand, open/close, prestidigitation, read
-  magic
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 16, Con 23, Int 19, Wis 18, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 35 (cannot be tripped)
-
-**Feats:** Arcane Strike, Extend Spell, Combat Reflexes, Eschew Materials^B^, Improved Initiative,
-Power Attack
-
-**Skills:** Fly +15, Knowledge (arcana, dungeoneering, planes) +23, Perception +17, Sense Motive
-+17, Spellcraft +17, Stealth +12, Use Magic Device +16
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Protean, Undercommon; [telepathy](ref/umr/telepathy)
-(100 feet)
-
-**Special qualities:** brain collection, strange knowledge
+::: statblock
+Ability scores: Str 24, Dex 16, Con 23, Int 19, Wis 18, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 35 (cannot be tripped)
+Feats: Arcane Strike, Extend Spell, Combat Reflexes, Eschew Materials^B^, Improved Initiative, Power Attack
+Skills: Fly +15, Knowledge (arcana, dungeoneering, planes) +23, Perception +17, Sense Motive +17, Spellcraft +17, Stealth +12, Use Magic Device +16
+Languages: Abyssal, Aklo, Common, Draconic, Protean, Undercommon; [telepathy](ref/umr/telepathy) (100 feet)
+Special qualities: brain collection, strange knowledge
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -30,73 +30,59 @@ abilities = ["16", "13", "15", "1", "13", "2"]
 _Gliding gracefully through the water on wing-like fins, this large ray scoops up tiny morsels in
 its wide mouth._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+blindsense: 30
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 12
+AC modifiers: +1 Dex, +3 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +4
+Will: +2
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: swim 60 ft.
+Melee: tail slap +4 (1d6+4)
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 16, Dex 13, Con 15, Int 1, Wis 13, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Improved Bull Rush, Power Attack
+Skills: Perception +6, Swim +15
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +3 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** tail slap +4 (1d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 15, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Bull Rush, Power Attack
-
-**Skills:** Perception +6, Swim +15
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or flight (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or flight (3-12)
+Treasure: None
+:::
 
 ### Description
 

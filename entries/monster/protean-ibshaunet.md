@@ -31,120 +31,81 @@ abilities = ["27", "22", "22", "13", "16", "17"]
 _This nightmarish serpentine creature bears crackling wings of chaotic energy and bristling fins of
 insubstantial fire._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: corrosive aura (30 ft., DC 19)
+blindsense: 30
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +7
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Detect law
+Subtype: Chaotic, Extraplanar, Protean, Shapechanger
+Experience points: 12,800
+:::
 
-**aura:** corrosive aura (30 ft., DC 19)
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 20
+AC modifiers: +6 Dex, +1 dodge, +12 natural, -2 size
+Hit points: 149 (13d10+78)
+Fort: +14
+Ref: +14
+Will: +7
+Defensive abilities: amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Fh: 5
+Immune: acid, polymorph
+Resist: electricity 10, sonic 10
+Sr: 22
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (perfect)
+Constrict: 1d8+12
+F Swallow: present
+Melee: bite +20 (1d8+8/19-20 plus [grab](ref/umr/grab)), 2 claws +19 (1d6+8), tail slap +14 (1d8+4 plus grab)
+Reach: 15
+Space: 15
+Spec Att: warpwave breath (50-ft. cone, 10d6 acid damage plus warpwave, Reflex DC 22 half)
+Swallow: 2d8 acid damage plus warpwave, AC 16, hp 14
+:::
 
-**Initiative:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Constant: detect law
+At will: dimension door, self plus 50 lbs. of objects only
+Per day: 1/day: plane shift (DC 20), resilient sphere (DC 19)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +19
+::: statblock
+Ability scores: Str 27, Dex 22, Con 22, Int 13, Wis 16, Cha 17
+Base attack bonus: +13
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Mobility, Power Attack, Weapon Focus (bite)
+Skills: Acrobatics +22, Fly +26
+Languages: Protean
+Special qualities: [change shape](ref/umr/change-shape) ([greater polymorph](ref/spell/polymorph-greater))
+:::
 
-**Senses:** Darkvision 60 ft., Detect law
+### Ecology
 
-**Subtype:** Chaotic, Extraplanar, Protean, Shapechanger
-
-**Experience points:** 12,800
-
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural, -2 size
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +14
-
-**Ref:** +14
-
-**Will:** +7
-
-**Defensive abilities:** amorphous anatomy, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Fh:** 5
-
-**Immune:** acid, polymorph
-
-**Resist:** electricity 10, sonic 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 1d8+12
-
-**F Swallow:** present
-
-**Melee:** bite +20 (1d8+8/19-20 plus [grab](ref/umr/grab)), 2 claws +19 (1d6+8), tail slap +14
-(1d8+4 plus grab)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** warpwave breath (50-ft. cone, 10d6 acid damage plus warpwave, Reflex DC 22 half)
-
-**Swallow:** 2d8 acid damage plus warpwave, AC 16, hp 14
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Constant:**
-
-- detect law
-
-**At will:**
-
-- dimension door, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 1/day: plane shift (DC 20), resilient sphere (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 22, Con 22, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Mobility, Power
-Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +22, Fly +26
-
-**Languages:** Protean
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([greater polymorph](ref/spell/polymorph-greater))
-
-**Ecology**
-
-**Environment:** any ([Maelstrom](ref/rule/limbo))
-
-**Organization:** solitary or devouring (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Maelstrom](ref/rule/limbo))
+Organization: solitary or devouring (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

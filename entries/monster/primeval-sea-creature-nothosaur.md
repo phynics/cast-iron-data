@@ -29,71 +29,58 @@ abilities = ["23", "12", "18", "2", "15", "7"]
 _This long-necked reptile swims through the water propelled by four paddle-like feet, whipping a
 long and slender tail behind it as it gnashes its sharp, needle-like teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 57 (6d8+30)
+Fort: +9
+Ref: +6
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: bite +10 (1d8+6), tail slap +7 (1d8+3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 12, Con 18, Int 2, Wis 15, Cha 7
+Base attack bonus: +4
+Combat maneuver bonus: +11
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Multiattack, Toughness, Weapon Focus (bite)
+Skills: Perception +11, Swim +14
+Special qualities: sprint
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** bite +10 (1d8+6), tail slap +7 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 18, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Multiattack, Toughness, Weapon Focus (bite)
-
-**Skills:** Perception +11, Swim +14
-
-**Special qualities:** sprint
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

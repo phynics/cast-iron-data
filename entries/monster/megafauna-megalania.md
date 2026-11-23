@@ -28,73 +28,59 @@ abilities = ["27", "13", "19", "2", "14", "6"]
 _This gigantic lizard has short but powerful limbs, a muscular tail, and a spiny crest that runs the
 length of its body._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 20
+AC modifiers: +1 Dex, +12 natural, -2 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +8
+Will: +7
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +14 (2d8+12 plus [grab](ref/umr/grab) and poison)
+Reach: 10
+Space: 15
+Swallow: 2d8+12 bludgeoning damage, AC 16, 8 hp
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 27, Dex 13, Con 19, Int 2, Wis 14, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +17
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Iron Will, Lunge, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Climb +12
+Racial Modifiers: +4 Stealth (+8 in rocks or undergrowth)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +12 natural, -2 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +14 (2d8+12 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Swallow:** 2d8+12 bludgeoning damage, AC 16, 8 hp
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 13, Con 19, Int 2, Wis 14, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Iron Will, Lunge, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Climb +12
-
-**Racial Modifiers:** +4 Stealth (+8 in rocks or undergrowth)
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

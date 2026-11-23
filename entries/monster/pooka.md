@@ -31,97 +31,72 @@ abilities = ["10", "16", "13", "11", "12", "13"]
 _This creature combines the features of a sprightly girl and a black rabbit. A wicked, whimsical
 grin gleams on her face._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +7
+Will: +5
+Dr: 5/cold iron or silver
+Fh: 2
+Sr: 13
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: dagger +7 (1d2/19-20)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+At will: detect magic, invisibility, self only
+Per day: 3/day: minor image (DC 13), sleep (DC 12)\
+1/day: suggestion (DC 13)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 10, Dex 16, Con 13, Int 11, Wis 12, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +8, Diplomacy +8, Sense Motive +6, Stealth +18, Use Magic Device +6
+Languages: Common, Sylvan; [telepathy](ref/umr/telepathy) (by touch only)
+Special qualities: [change shape](ref/umr/change-shape) (2 of the following forms: cat, goat, rabbit \[use stats for raccoon\], or raven; [polymorph](ref/spell/polymorph))
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/cold iron or silver
-
-**Fh:** 2
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** dagger +7 (1d2/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**At will:**
-
-- detect magic, invisibility, self only
-
-**Per day:**
-
-- 3/day: minor image (DC 13), sleep (DC 12)
-- 1/day: suggestion (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 13, Int 11, Wis 12, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +8, Diplomacy +8, Sense Motive +6, Stealth +18, Use Magic Device +6
-
-**Languages:** Common, Sylvan; [telepathy](ref/umr/telepathy) (by touch only)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (2 of the following forms: cat, goat,
-rabbit \[use stats for raccoon\], or raven; [polymorph](ref/spell/polymorph))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or ruse (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or ruse (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

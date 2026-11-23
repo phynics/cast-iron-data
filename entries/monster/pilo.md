@@ -30,69 +30,57 @@ abilities = ["13", "13", "14", "2", "14", "7"]
 _Sharp quills cover this bright yellow, six-legged animal, and its long, twitching snout probes the
 air around it._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +4
+Will: +3
+Defensive abilities: roll up
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: gore +4 (1d6+1 plus poison), tail slap -1 (1d4)
+Spec Att: poison, quills
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 13, Con 14, Int 2, Wis 14, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +2 (+4 bull rush)
+Combat maneuver defense: 13 (15 vs. bull rush, 21 vs. trip)
+Feats: Improved Bull Rush, Power Attack
+Skills: Perception +8
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +3
-
-**Defensive abilities:** roll up
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +4 (1d6+1 plus poison), tail slap -1 (1d4)
-
-**Spec Att:** poison, quills
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 14, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2 (+4 bull rush)
-
-**Combat maneuver defense:** 13 (15 vs. bull rush, 21 vs. trip)
-
-**Feats:** Improved Bull Rush, Power Attack
-
-**Skills:** Perception +8
-
-**Ecology**
-
-**Environment:** any deserts
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any deserts
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

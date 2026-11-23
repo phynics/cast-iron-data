@@ -31,107 +31,75 @@ abilities = ["24", "23", "24", "18", "21", "21"]
 _This slim figure's proportions are wrong, and its disturbingly long arms end in claws, save for an
 oversized, boneless index finger._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 23)
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +24
+Senses: Darkvision 60 ft., See in darkness
+Experience points: 38,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 23)
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 22
+AC modifiers: +4 armor, +6 Dex, +1 dodge, +8 natural
+Hit points: 200 (16d10+112)
+Fort: +12
+Ref: +16
+Will: +15
+Defensive abilities: _[blur](ref/spell/blur)_, _[freedom of movement](ref/spell/freedom-of-movement)_, negative energy affinity
+Dr: 15/good and silver
+Immune: bleed, fear
+Sr: 25
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: bite +23 (1d6+7), 2 claws +23 (1d4+7 plus 1d4 Cha damage)
+Sneak: +3d6
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Spec Att: create bloody bones
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: air walk, blur, freedom of movement
+At will: command undead (DC 17), suggestion (DC 18)
+Per day: 3/day: clairaudience/clairvoyance, deeper darkness, hold person (DC 19), phantasmal killer (DC 19)\
+1/day: gaseous form, greater scrying (DC 22), shadow walk
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., See in darkness
+::: statblock
+Ability scores: Str 24, Dex 23, Con 24, Int 18, Wis 21, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 40
+Feats: Combat Expertise, Combat Reflexes, Dodge, Greater Feint, Improved Feint, Improved Initiative, Mobility, Skill Focus (Stealth)
+Skills: Acrobatics +22, Bluff +21, Intimidate +24, Knowledge (local, religion) +12, Perception +24
+Languages: Abyssal, Aklo, Common, Infernal
+Special qualities: bloody bones mastery, hidden terror
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 armor, +6 Dex, +1 dodge, +8 natural
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +12
-
-**Ref:** +16
-
-**Will:** +15
-
-**Defensive abilities:** _[blur](ref/spell/blur)_,
-_[freedom of movement](ref/spell/freedom-of-movement)_, negative energy affinity
-
-**Dr:** 15/good and silver
-
-**Immune:** bleed, fear
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +23 (1d6+7), 2 claws +23 (1d4+7 plus 1d4 Cha damage)
-
-**Sneak:** +3d6
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spec Att:** create bloody bones
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- air walk, blur, freedom of movement
-
-**At will:**
-
-- command undead (DC 17), suggestion (DC 18)
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance, deeper darkness, hold person (DC 19), phantasmal killer (DC 19)
-- 1/day: gaseous form, greater scrying (DC 22), shadow walk
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 23, Con 24, Int 18, Wis 21, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 40
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Greater Feint, Improved Feint, Improved
-Initiative, Mobility, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +22, Bluff +21, Intimidate +24, Knowledge (local, religion) +12, Perception
-+24
-
-**Languages:** Abyssal, Aklo, Common, Infernal
-
-**Special qualities:** bloody bones mastery, hidden terror
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or terror (1 rawhead plus 3-6 bloody bones)
-
-**Treasure:** Double (+2 leather armor); other treasure
+::: statblock
+Environment: any land
+Organization: solitary or terror (1 rawhead plus 3-6 bloody bones)
+Treasure: Double (+2 leather armor); other treasure
+:::
 
 ### Special Abilities
 

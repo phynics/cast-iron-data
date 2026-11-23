@@ -31,91 +31,69 @@ abilities = ["42", "18", "27", "17", "18", "15"]
 _This imposing one-eyed giant wears fragments of crude armor and a breechcloth adorned with skulls.
 Its breath reeks of pestilence._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: huge
+Type: humanoid
+Initiative: +8
+Alignment: Neutral evil
+Perception: +4
+Senses: Darkvision 120 ft., Low-light vision, Sense decay
+Subtype: Giant
+Experience points: 25,600
+:::
 
-**Size:** huge
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 28
+Touch: 11
+Flat-footed: 25
+AC modifiers: +8 armor, +3 Dex, +9 natural, -2 size
+Hit points: 187 (15d8+120)
+Fort: +17
+Ref: +11
+Will: +11
+Immune: disease, poison
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., fly 60 ft. (average)
+Melee: club +25/+20/+15 (2d6+24) or 2 slams +25 (2d6+16)
+Reach: 15
+Sp Extra: shooting star
+Space: 15
+Spec Att: devour disease
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Per day: 3/day: invisibility
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, Sense decay
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 42, Dex 18, Con 27, Int 17, Wis 18, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +29 (+31 bull rush)
+Combat maneuver defense: 43 (45 vs. bull rush)
+Feats: Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Power Attack
+Skills: Climb +31, Intimidate +20, Knowledge (planes) +18
+Languages: Auran, Common, Giant
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 11
-
-**Flat-footed:** 25
-
-**AC modifiers:** +8 armor, +3 Dex, +9 natural, -2 size
-
-**Hit points:** 187 (15d8+120)
-
-**Fort:** +17
-
-**Ref:** +11
-
-**Will:** +11
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (average)
-
-**Melee:** club +25/+20/+15 (2d6+24) or 2 slams +25 (2d6+16)
-
-**Reach:** 15
-
-**Sp Extra:** shooting star
-
-**Space:** 15
-
-**Spec Att:** devour disease
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Per day:**
-
-- 3/day: invisibility
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 18, Con 27, Int 17, Wis 18, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +29 (+31 bull rush)
-
-**Combat maneuver defense:** 43 (45 vs. bull rush)
-
-**Feats:** Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Improved Iron Will,
-Iron Will, Lightning Reflexes, Power Attack
-
-**Skills:** Climb +31, Intimidate +20, Knowledge (planes) +18
-
-**Languages:** Auran, Common, Giant
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** single, pair, or tribe (6-20 warriors, plus 30 noncombatants, 2 druids, 6 elders,
-and 1 chieftain)
-
-**Treasure:** Double (+2 breastplate); other treasure
+::: statblock
+Environment: warm plains
+Organization: single, pair, or tribe (6-20 warriors, plus 30 noncombatants, 2 druids, 6 elders, and 1 chieftain)
+Treasure: Double (+2 breastplate); other treasure
+:::
 
 ### Special Abilities
 

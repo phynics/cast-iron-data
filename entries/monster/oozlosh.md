@@ -32,147 +32,93 @@ abilities = ["25", "19", "21", "12", "23", "14"]
 _This creature has the bulbous eyes of a fish, and his mottled green skin glistens with slime where
 it isn't bedecked in gaudy jewelry._
 
-**Challenge rating:** 14
-
 **Male marsh giant [cleric](ref/class/cleric) of [Dagon](ref/faith/dagon) 10**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +8
+Size: large
+Perception: +24
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 38,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 28
+Touch: 15
+Flat-footed: 24
+AC modifiers: +3 armor, +2 deflection, +4 Dex, +10 natural, -1 size
+Hit points: 209 (12d8+10d8+110\~22)
+Fort: +21
+Ref: +12
+Will: +18
+Resist: cold 10
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +24
+::: statblock
+Speed: 40 ft.
+Ch N En: 7/day, DC 19, 5d6
+Melee: +1 trident +23/+18/+13/+8 (2d6+8) or 2 slams +22 (1d6+7)
+Ranged: rock +19 (1d8+7)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: scythe of evil (5 rounds, 1/day)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +14
+Per day: 3/day: augury, bestow curse (DC 16), fog cloud
+:::
 
-**Subtype:** Giant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +16
+Per day: 9/day: icicle, 1d6+5 cold damage
+:::
 
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 armor, +2 deflection, +4 Dex, +10 natural, -1 size
-
-**Hit points:** 209 (12d8+10d8+110\~22)
-
-**Fort:** +21
-
-**Ref:** +12
-
-**Will:** +18
-
-**Resist:** cold 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Ch N En:** 7/day, DC 19, 5d6
-
-**Melee:** +1 trident +23/+18/+13/+8 (2d6+8) or 2 slams +22 (1d6+7)
-
-**Ranged:** rock +19 (1d8+7)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** scythe of evil (5 rounds, 1/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: augury, bestow curse (DC 16), fog cloud
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**Per day:**
-
-- 9/day: icicle, 1d6+5 cold damage
-
-**Prepared Spells**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**5th-level spells:**
-
-- ice storm^D^, insect plague, snake staff, summon monster V
-
-**4th-level spells:**
-
-- chaos hammer (DC 20), control water^D^, plague carrier (DC 20), spit venom (DC 20), unholy blight
-  (DC 20)
-
-**3rd-level spells:**
-
-- badger's ferocity, deeper darkness, dispel magic, prayer, water breathing^D^
-
-**2nd-level spells:**
-
-- align weapon^D^, evil only, death knell (DC 18), dread bolt (DC 18), grace, hold person (DC 18),
-  silence (DC 18), spiritual weapon
-
-**1st-level spells:**
-
-- cause fear (DC 17), doom (DC 17), entropic shield, magic stone, murderous command (DC 17),
-  protection from good^D^, ray of sickening (DC 17)
-
-**Cantrips:**
-
-- bleed (DC 16), guidance, read magic, resistance
-
-**Domains:** Evil, [Water](ref/domain/water)
+::: statblock
+title = "Prepared Spells"
+Caster level: 10
+Concentration: +16
+5th-level spells: ice storm^D^, insect plague, snake staff, summon monster V
+4th-level spells: chaos hammer (DC 20), control water^D^, plague carrier (DC 20), spit venom (DC 20), unholy blight (DC 20)
+3rd-level spells: badger's ferocity, deeper darkness, dispel magic, prayer, water breathing^D^
+2nd-level spells: align weapon^D^, evil only, death knell (DC 18), dread bolt (DC 18), grace, hold person (DC 18), silence (DC 18), spiritual weapon
+1st-level spells: cause fear (DC 17), doom (DC 17), entropic shield, magic stone, murderous command (DC 17), protection from good^D^, ray of sickening (DC 17)
+Cantrips: bleed (DC 16), guidance, read magic, resistance
+Domains: Evil, [Water](ref/domain/water)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 25, Dex 19, Con 21, Int 12, Wis 23, Cha 14
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +24 (+26 sunder)
-
-**Combat maneuver defense:** 40
-
-**Feats:** Channel Smite, Cleave, Combat Reflexes, Extra Channel, Improved Channel, Improved
-Initiative, Improved Sunder, Power Attack, Quicken Spell, Selective Channeling, Vital Strike
-
-**Skills:** Knowledge (religion) +19, Perception +24, Spellcraft +19, Stealth +16 (+24 in swamps),
-Swim +30
-
-**Racial Modifiers:** +8 Stealth in swamps
-
-**Languages:** Boggard, Common, Giant
-
-**Combat gear:** I-necklace of fireballs/type II, 2 potion of cure serious wounds
-
-**Other gear:** +1 trident, Iamu1, Iboa3, Iboid2, Iclk1, Ihbw2, ring of prot2,
-[wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) of Dagon
+::: statblock
+Ability scores: Str 25, Dex 19, Con 21, Int 12, Wis 23, Cha 14
+Base attack bonus: +16
+Combat maneuver bonus: +24 (+26 sunder)
+Combat maneuver defense: 40
+Feats: Channel Smite, Cleave, Combat Reflexes, Extra Channel, Improved Channel, Improved Initiative, Improved Sunder, Power Attack, Quicken Spell, Selective Channeling, Vital Strike
+Skills: Knowledge (religion) +19, Perception +24, Spellcraft +19, Stealth +16 (+24 in swamps), Swim +30
+Racial Modifiers: +8 Stealth in swamps
+Languages: Boggard, Common, Giant
+Combat gear: I-necklace of fireballs/type II, 2 potion of cure serious wounds
+Other gear: +1 trident, Iamu1, Iboa3, Iboid2, Iclk1, Ihbw2, ring of prot2, [wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) of Dagon
+:::
 
 ### Description
 

@@ -32,116 +32,80 @@ _This towering, muscular, female figure wears an iron, ram-headed mask. Four sto
 primal energies, while four additional arms emerge from her hips, supporting her bulk in place of
 legs._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: calamity (300 ft.)
+Size: colossal
+Initiative: +7
+Alignment: Neutral
+Type: outsider
+Perception: +32
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense, True seeing
+Subtype: Extraplanar, Psychopomp
+Experience points: 153,600
+:::
 
-**aura:** calamity (300 ft.)
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 32
+Touch: 5
+Flat-footed: 29
+AC modifiers: +3 Dex, +27 natural, -8 size
+Hit points: 312 (25d10+175)
+Fort: +21
+Ref: +11
+Will: +20
+Defensive abilities: poisonous blood
+Dr: 10/adamantine
+Immune: cold, death effects, disease, electricity, poison
+Regen: 10 (artifacts, epic, or mythic)
+Resist: fire 15, sonic 15
+Sr: 29
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., burrow 20 ft., climb 50 ft.
+Melee: gore +31 (3d6+14/19-20), 4 slams +31 (2d6+14)
+Ranged: rock +29 (4d6+14)
+Reach: 20
+Rend: 2 slams, 2d8+21
+Rock Th: 240 ft.
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 30
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +28
+Constant: air walk, mind blank, true seeing
+Per day: 3/day: align weapon, self only, chain lightning (DC 21), greater shout (DC 20), plane shift (DC 21), undeath to death (DC 19)\
+1/day: control water, control weather, creeping doom (DC 20), earthquake, epidemic, incendiary cloud (DC 22)
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense, True seeing
+::: statblock
+Ability scores: Str 39, Dex 16, Con 24, Int 7, Wis 19, Cha 16
+Base attack bonus: +25
+Combat maneuver bonus: +47 (+51 bull rush, sunder)
+Combat maneuver defense: 60 (62 vs. bull rush or sunder, 64 vs. trip)
+Feats: Awesome Blow, Cleave, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved Critical (gore), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Spell Focus (conjuration), Spell Focus (evocation), Sundering Strike
+Skills: Acrobatics +3 (+11 when jumping), Climb +22, Intimidate +31, Perception +32
+Languages: Abyssal, Celestial, Infernal
+Special qualities: paramnesia, spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 32
-
-**Touch:** 5
-
-**Flat-footed:** 29
-
-**AC modifiers:** +3 Dex, +27 natural, -8 size
-
-**Hit points:** 312 (25d10+175)
-
-**Fort:** +21
-
-**Ref:** +11
-
-**Will:** +20
-
-**Defensive abilities:** poisonous blood
-
-**Dr:** 10/adamantine
-
-**Immune:** cold, death effects, disease, electricity, poison
-
-**Regen:** 10 (artifacts, epic, or mythic)
-
-**Resist:** fire 15, sonic 15
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 50 ft., burrow 20 ft., climb 50 ft.
-
-**Melee:** gore +31 (3d6+14/19-20), 4 slams +31 (2d6+14)
-
-**Ranged:** rock +29 (4d6+14)
-
-**Reach:** 20
-
-**Rend:** 2 slams, 2d8+21
-
-**Rock Th:** 240 ft.
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +28
-
-**Constant:**
-
-- air walk, mind blank, true seeing
-
-**Per day:**
-
-- 3/day: align weapon, self only, chain lightning (DC 21), greater shout (DC 20), plane shift (DC
-  21), undeath to death (DC 19)
-- 1/day: control water, control weather, creeping doom (DC 20), earthquake, epidemic, incendiary
-  cloud (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 16, Con 24, Int 7, Wis 19, Cha 16
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +47 (+51 bull rush, sunder)
-
-**Combat maneuver defense:** 60 (62 vs. bull rush or sunder, 64 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Greater Bull Rush, Greater Sunder, Improved Bull Rush, Improved
-Critical (gore), Improved Initiative, Improved Sunder, Iron Will, Power Attack, Spell Focus
-(conjuration), Spell Focus (evocation), Sundering Strike
-
-**Skills:** Acrobatics +3 (+11 when jumping), Climb +22, Intimidate +31, Perception +32
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** paramnesia, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

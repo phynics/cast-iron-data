@@ -28,61 +28,49 @@ abilities = ["8", "14", "-", "-", "5", "1"]
 
 **Poppet, Tiny**
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: construct
+Initiative: +2
+Alignment: Neutral
+Perception: -3
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 5 (1d10)
+Fort: +0
+Ref: +2
+Will: -3
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -3
+::: statblock
+Speed: 20 ft.
+Melee: slam +2 (1d2-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 135
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** -3
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam +2 (1d2-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con -, Int -, Wis 5, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 10
+::: statblock
+Ability scores: Str 8, Dex 14, Con -, Int -, Wis 5, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 10
+:::
 
 ### Description
 

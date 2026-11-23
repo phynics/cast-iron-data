@@ -28,75 +28,60 @@ abilities = ["32", "9", "21", "2", "10", "5"]
 _This massive quadruped has a thick, wrinkled hide, curving horns, and shaggy hair that frames its
 leonine face._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 85 (9d8+45)
+Fort: +13
+Ref: +5
+Will: +3
+Dr: 5/-
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +16 (2d6+16)
+Pow Ch: gore, 4d6+22
+Reach: 5
+Space: 10
+Trample: 2d6+16, DC 25
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 32, Dex 9, Con 21, Int 2, Wis 10, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +18 (+20 bull rush or sunder)
+Combat maneuver defense: 27 (29 vs. bull rush or sunder, 31 vs. trip)
+Feats: Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Sunder, Power Attack
+Skills: Perception +12
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +13
-
-**Ref:** +5
-
-**Will:** +3
-
-**Dr:** 5/-
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +16 (2d6+16)
-
-**Pow Ch:** gore, 4d6+22
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 2d6+16, DC 25
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con 21, Int 2, Wis 10, Cha 5
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +18 (+20 bull rush or sunder)
-
-**Combat maneuver defense:** 27 (29 vs. bull rush or sunder, 31 vs. trip)
-
-**Feats:** Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Sunder, Power Attack
-
-**Skills:** Perception +12
-
-**Ecology**
-
-**Environment:** temperate hills and plains
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills and plains
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Description
 

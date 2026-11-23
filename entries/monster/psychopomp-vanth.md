@@ -33,96 +33,71 @@ abilities = ["18", "16", "17", "13", "19", "17"]
 _This humanoid skeleton has black raven wings, a long tail, and a polished vulture-like mask where
 its face should be._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: fear (30 ft., DC 17)
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Spiritsense
+Subtype: Extraplanar, Psychopomp
+Experience points: 3,200
+:::
 
-**aura:** fear (30 ft., DC 17)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 76 (9d10+27)
+Fort: +11
+Ref: +6
+Will: +10
+Dr: 10/adamantine
+Immune: death effects, disease, poison
+Resist: cold 10, electricity 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: +1 adamantine scythe +14/+9 (2d4+7/×4) or 2 claws +13 (1d6+4)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility, self only
+Per day: 3/day: bestow curse (DC 17), locate creature, searing light
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Spiritsense
+::: statblock
+Ability scores: Str 18, Dex 16, Con 17, Int 13, Wis 19, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Cleave, Great Fortitude, Hover, Power Attack, Vital Strike
+Skills: Acrobatics +9, Fly +11, Intimidate +11, Knowledge (history) +9, Knowledge (planes) +13, Perception +16, Sense Motive +16, Stealth +15
+Languages: Abyssal, Celestial, Infernal
+Special qualities: reaper's scythe, spirit touch
+:::
 
-**Subtype:** Extraplanar, Psychopomp
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +10
-
-**Dr:** 10/adamantine
-
-**Immune:** death effects, disease, poison
-
-**Resist:** cold 10, electricity 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** +1 adamantine scythe +14/+9 (2d4+7/×4) or 2 claws +13 (1d6+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- deathwatch, greater teleport, self plus 50 lbs. of objects only, invisibility, self only
-
-**Per day:**
-
-- 3/day: bestow curse (DC 17), locate creature, searing light
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 17, Int 13, Wis 19, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Cleave, Great Fortitude, Hover, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +9, Fly +11, Intimidate +11, Knowledge (history) +9, Knowledge (planes) +13,
-Perception +16, Sense Motive +16, Stealth +15
-
-**Languages:** Abyssal, Celestial, Infernal
-
-**Special qualities:** reaper's scythe, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Purgatory](ref/rule/purgatory))
-
-**Organization:** solitary, pair, or flock (2-12)
-
-**Treasure:** Double (MA scythe)
+::: statblock
+Environment: any ([Purgatory](ref/rule/purgatory))
+Organization: solitary, pair, or flock (2-12)
+Treasure: Double (MA scythe)
+:::
 
 ### Special Abilities
 

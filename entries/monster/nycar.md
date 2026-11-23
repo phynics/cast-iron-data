@@ -32,89 +32,67 @@ abilities = ["13", "16", "12", "5", "10", "9"]
 _This cruel-looking serpent is about the size of a housecat, with two forearms and dangerous-looking
 fangs._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: dragon
+Initiative: +3
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 22 (3d12+3)
+Fort: +4
+Ref: +6
+Will: +3
+Dr: 5/cold iron
+Ferocity: present
+Immune: paralysis, sleep
+Regen: 1 (cold iron)
+Resist: acid 5
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +8 (1d4+1 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 13, Dex 16, Con 12, Int 5, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Skill Focus (Stealth), Weapon Finesse
+Skills: Escape Artist +13, Fly +11
+Racial Modifiers: +8 Escape Artist
+Languages: Draconic (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious), elusive
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 22 (3d12+3)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +3
-
-**Dr:** 5/cold iron
-
-**Ferocity:** present
-
-**Immune:** paralysis, sleep
-
-**Regen:** 1 (cold iron)
-
-**Resist:** acid 5
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +8 (1d4+1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 12, Int 5, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse
-
-**Skills:** Escape Artist +13, Fly +11
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Languages:** Draconic (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), elusive
-
-**Ecology**
-
-**Environment:** cold marshes
-
-**Organization:** solitary, pair, or clutch (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold marshes
+Organization: solitary, pair, or clutch (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

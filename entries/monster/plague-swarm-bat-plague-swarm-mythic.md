@@ -37,89 +37,62 @@ deities._
 
 **Mythic Bat Plague Swarm**
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Mythic rank: 8
+blindsense: 100
+Size: diminutive
+Initiative: +19/-1, [dual initiative](ref/umr/dual-initiative)
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +34
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Mythic, Swarm
+Experience points: 102,400
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**blindsense:** 100
+::: statblock
+Armor class: 32
+Touch: 24
+Flat-footed: 24
+AC modifiers: +7 Dex, +1 dodge, +8 natural, +2 profane, +4 size
+Hit points: 279 (21d10+164)
+Fort: +18
+Ref: +21
+Will: +13; second save
+Defensive abilities: profane protection, swarm traits
+Dr: 10/epic
+Fh: 10
+Immune: weapon damage
+Unstop: present
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +19/-1, [dual initiative](ref/umr/dual-initiative)
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Distraction: 26
+M Power: 8/day, surge +1d10
+Melee: swarm (5d6 plus 5d6 blight, distraction, and soul bleed)
+Reach: 0
+Space: 20
+Spec Att: create spawn, soul bleed
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Alignment:** Neutral evil
-
-**Perception:** +34
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Mythic, Swarm
-
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 24
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +1 dodge, +8 natural, +2 profane, +4 size
-
-**Hit points:** 279 (21d10+164)
-
-**Fort:** +18
-
-**Ref:** +21
-
-**Will:** +13; second save
-
-**Defensive abilities:** profane protection, swarm traits
-
-**Dr:** 10/epic
-
-**Fh:** 10
-
-**Immune:** weapon damage
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Distraction:** 26
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** swarm (5d6 plus 5d6 blight, distraction, and soul bleed)
-
-**Reach:** 0
-
-**Space:** 20
-
-**Spec Att:** create spawn, soul bleed
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 25, Con 18, Int 11, Wis 18, Cha 9
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (distraction), Ability Focus (soul bleed), Mythic Dodge, Extra Mythic
-Power, Great Fortitude, Mythic Improved Initiative, Mythic Iron Will, Mythic Lightning Reflexes,
-Lightning Stance, Skill Focus (Fly), Skill Focus (Perception), Wind Stance
-
-**Skills:** Fly +37, Perception +34, Stealth +32
-
-**Languages:** Common
-
-**Special qualities:** multiply (bat swarm with soul bleed \[Fort DC 11\])
+::: statblock
+Ability scores: Str 6, Dex 25, Con 18, Int 11, Wis 18, Cha 9
+Base attack bonus: +21
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (distraction), Ability Focus (soul bleed), Mythic Dodge, Extra Mythic Power, Great Fortitude, Mythic Improved Initiative, Mythic Iron Will, Mythic Lightning Reflexes, Lightning Stance, Skill Focus (Fly), Skill Focus (Perception), Wind Stance
+Skills: Fly +37, Perception +34, Stealth +32
+Languages: Common
+Special qualities: multiply (bat swarm with soul bleed \[Fort DC 11\])
+:::
 
 ### Special Abilities
 

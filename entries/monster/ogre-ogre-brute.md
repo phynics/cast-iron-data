@@ -33,59 +33,45 @@ abilities = ["29", "10", "23", "6", "12", "5"]
 _This lumbering giant's beady eyes are devoid of wit or kindness, and its puffy face features a wide
 mouth with ill-fitting teeth._
 
-**Challenge rating:** 6
-
 **Ogre [barbarian](ref/class/barbarian) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: large
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 8
+Flat-footed: 17
+AC modifiers: +4 armor, +1 deflection, +5 natural, -2 rage, -1 size
+Hit points: 88 (4d8+3d12+45\~7)
+Fort: +14
+Ref: +3
+Will: +8
+Trap S: +1
+Uncanny dodge: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Giant
-
-**Experience points:** 2,400
-
-**Armor class:** 17
-
-**Touch:** 8
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +1 deflection, +5 natural, -2 rage, -1 size
-
-**Hit points:** 88 (4d8+3d12+45\~7)
-
-**Fort:** +14
-
-**Ref:** +3
-
-**Will:** +8
-
-**Trap S:** +1
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 greataxe +15/+10 (3d6+14/×3)
-
-**Ranged:** javelin +5/+0 (1d8+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rage (12 rounds/day), rage powers ([scent](ref/ragepower/scent))
+::: statblock
+Speed: 50 ft.
+Melee: +1 greataxe +15/+10 (3d6+14/×3)
+Ranged: javelin +5/+0 (1d8+9)
+Reach: 10
+Space: 10
+Spec Att: rage (12 rounds/day), rage powers ([scent](ref/ragepower/scent))
+:::
 
 ### Tactics
 
@@ -93,31 +79,26 @@ mouth with ill-fitting teeth._
 19; hp 74; Fort +12, Will +6; Melee +1 greataxe +13/+8 (3d6+11/×3); Str 25, Con 19; CMB +14, CMD 25;
 Skills Climb +10.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 10, Con 23, Int 6, Wis 12, Cha 5
+::: statblock
+Ability scores: Str 29, Dex 10, Con 23, Int 6, Wis 12, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 25
+Feats: Cleave, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Climb +12, Perception +13
+Languages: Giant
+Special qualities: fast movement
+Combat gear: 4 potion of cure light wounds, potion of cure moderate wounds
+Other gear: chain shirt, +1 greataxe, 3 javelins, Iclk1, ring of prot1, 77 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 25
-
-**Feats:** Cleave, Iron Will, Power Attack, Skill Focus (Perception)
-
-**Skills:** Climb +12, Perception +13
-
-**Languages:** Giant
-
-**Special qualities:** fast movement
-
-**Combat gear:** 4 potion of cure light wounds, potion of cure moderate wounds
-
-**Other gear:** chain shirt, +1 greataxe, 3 javelins, Iclk1, ring of prot1, 77 gp
-
-**Ecology**
-
-**Environment:** temperate or cold hills
+::: statblock
+Environment: temperate or cold hills
+:::
 
 ### Description
 

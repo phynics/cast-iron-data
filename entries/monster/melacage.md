@@ -31,80 +31,62 @@ abilities = ["- (20 while corporeal)", "20", "-", "11", "13", "16"]
 _This ethereal ball of faces hovers in the middle of the air. Tears stream from every one of the
 faces' eyes, but the drops fade to nothing before they reach the ground._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: life-draining aura (30 ft.)
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** life-draining aura (30 ft.)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 13
+AC modifiers: +3 deflection, +5 Dex
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +7
+Will: +6
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect), (while corporeal)
+Melee: incorporeal touch +10 (4d6 plus despair) or 2 bites +10 (1d10+5 plus despair) (while corporeal)
+Spec Att: despair
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str - (20 while corporeal), Dex 20, Con -, Int 11, Wis 13, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 23 (25 while corporeal)
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Step Up
+Skills: Fly +23, Intimidate +13, Perception +11, Stealth +15
+Languages: Common
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +5 Dex
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect), (while corporeal)
-
-**Melee:** incorporeal touch +10 (4d6 plus despair) or 2 bites +10 (1d10+5 plus despair) (while
-corporeal)
-
-**Spec Att:** despair
-
-**Statistics**
-
-**Ability scores:** Str - (20 while corporeal), Dex 20, Con -, Int 11, Wis 13, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23 (25 while corporeal)
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Step Up
-
-**Skills:** Fly +23, Intimidate +13, Perception +11, Stealth +15
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, village (2-5), or city (10-20)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, village (2-5), or city (10-20)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

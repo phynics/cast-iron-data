@@ -31,115 +31,80 @@ abilities = ["43", "36", "31", "7", "28", "21"]
 _A single sinister eye glares from the heart of this roiling cloud of darkness as tentacles of smoke
 coil and writhe beneath it._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: dubiety (60 ft.)
+blindsight: 120
+Size: colossal
+Initiative: +17
+Alignment: Neutral evil
+Type: ooze
+Perception: +17
+Senses: See in darkness
+Experience points: 307,200
+:::
 
-**aura:** dubiety (60 ft.)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 36
+Touch: 15
+Flat-footed: 23
+AC modifiers: +13 Dex, +21 natural, -8 size
+Hit points: 377 (26d8+260)
+Fort: +20
+Ref: +23
+Will: +19
+Defensive abilities: all-around vision, negative energy affinity
+Dr: 15/epic and good
+Immune: annihilation, banishment, electricity, [ooze traits](ref/umr/ooze-traits)
+Regen: 15 (positive energy or inspiration)
+Resist: fire 30
+Sr: 31
+Weaknesses: susceptible to creation, talisman of the sphere
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +17
+::: statblock
+Speed: 30 ft., burrow 30 ft., fly 30 ft. (perfect)
+Constrict: 4d8+24
+Melee: 4 slams +27 (2d8+16/19-20 plus 2d6 negative energy and [grab](ref/umr/grab))
+Reach: 60
+Space: 30
+Spec Att: annihilation, servants of entropy
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+At will: deeper darkness, disintegrate (DC 21)
+Per day: 3/day: quickened disintegrate (DC 21)\
+1/day: time stop
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 43, Dex 36, Con 31, Int 7, Wis 28, Cha 21
+Base attack bonus: +19
+Combat maneuver bonus: +43
+Combat maneuver defense: 66
+Feats: Blinding Critical, Combat Reflexes, Critical Focus, Flyby Attack, Great Fortitude, Improved Critical (slam), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate), Vital Strike
+Skills: Fly +21, Knowledge (planes) +3, Perception +17, Stealth +21
+Racial Modifiers: +16 Stealth
+Languages: Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [compression](ref/umr/compression), master of annihilation
+:::
 
-**Senses:** See in darkness
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +13 Dex, +21 natural, -8 size
-
-**Hit points:** 377 (26d8+260)
-
-**Fort:** +20
-
-**Ref:** +23
-
-**Will:** +19
-
-**Defensive abilities:** all-around vision, negative energy affinity
-
-**Dr:** 15/epic and good
-
-**Immune:** annihilation, banishment, electricity, [ooze traits](ref/umr/ooze-traits)
-
-**Regen:** 15 (positive energy or inspiration)
-
-**Resist:** fire 30
-
-**Sr:** 31
-
-**Weaknesses:** susceptible to creation, talisman of the sphere
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., fly 30 ft. (perfect)
-
-**Constrict:** 4d8+24
-
-**Melee:** 4 slams +27 (2d8+16/19-20 plus 2d6 negative energy and [grab](ref/umr/grab))
-
-**Reach:** 60
-
-**Space:** 30
-
-**Spec Att:** annihilation, servants of entropy
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**At will:**
-
-- deeper darkness, disintegrate (DC 21)
-
-**Per day:**
-
-- 3/day: quickened disintegrate (DC 21)
-- 1/day: time stop
-
-**Statistics**
-
-**Ability scores:** Str 43, Dex 36, Con 31, Int 7, Wis 28, Cha 21
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +43
-
-**Combat maneuver defense:** 66
-
-**Feats:** Blinding Critical, Combat Reflexes, Critical Focus, Flyby Attack, Great Fortitude,
-Improved Critical (slam), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate), Vital
-Strike
-
-**Skills:** Fly +21, Knowledge (planes) +3, Perception +17, Stealth +21
-
-**Racial Modifiers:** +16 Stealth
-
-**Languages:** Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [compression](ref/umr/compression), master of annihilation
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

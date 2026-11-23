@@ -32,115 +32,77 @@ abilities = ["44", "15", "32", "18", "23", "25"]
 _This towering, three-eyed horned giant carries himself with the self-assurance of an undefeated
 champion of countless wars._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Size: huge
+Initiative: +6
+Alignment: Lawful evil
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Giant, Native, Oni, Shapechanger
+Experience points: 307,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 36
+Touch: 9
+Flat-footed: 35
+AC modifiers: +9 armor, +1 Dex, +18 natural, -2 size
+Hit points: 379 (23d10+253)
+Fort: +24
+Ref: +9
+Will: +21
+Immune: cold
+Regen: 15 (fire or good spells)
+Sr: 31
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 40 ft. (good)
+E Drain: 2 levels, DC 28
+Melee: mwk greatclub +39/+34/+29/+24 (3d8+25/19-20) or 2 slams +28 (2d6+17)
+Ranged: void missile +23 touch (6d6 plus energy drain)
+Reach: 15
+Sp Extra: 60 ft., fly 60 ft. without armor
+Space: 15
+Spec Att: commanding voice, void trap
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: fire shield, chill shield, fly, true seeing
+At will: deeper darkness, gaseous form, self only, greater dispel magic, greater teleport, self plus 50 lbs. of objects only, invisibility, self only, minor creation, vision
+Per day: 3/day: cone of cold (DC 22), demand (DC 25), dominate person (DC 22), major creation, mass charm monster (DC 25), polar ray, teleport object (DC 24)\
+1/day: implosion (DC 26), plane shift (DC 24)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Giant, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 44, Dex 15, Con 32, Int 18, Wis 23, Cha 25
+Base attack bonus: +23
+Combat maneuver bonus: +42
+Combat maneuver defense: 54
+Feats: Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (greatclub), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike
+Skills: Acrobatics +17 (+25 when jumping), Bluff +30, Fly +20, Intimidate +30, Knowledge (arcana) +27, Knowledge (nobility) +24, Perception +29, Sense Motive +29, Spellcraft +24, Use Magic Device +30
+Languages: Common, Giant
+Special qualities: [change shape](ref/umr/change-shape) (Large, Huge, or Gargantuan humanoid; [giant form II](ref/spell/giant-form-2)), void form
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 36
-
-**Touch:** 9
-
-**Flat-footed:** 35
-
-**AC modifiers:** +9 armor, +1 Dex, +18 natural, -2 size
-
-**Hit points:** 379 (23d10+253)
-
-**Fort:** +24
-
-**Ref:** +9
-
-**Will:** +21
-
-**Immune:** cold
-
-**Regen:** 15 (fire or good spells)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (good)
-
-**E Drain:** 2 levels, DC 28
-
-**Melee:** mwk greatclub +39/+34/+29/+24 (3d8+25/19-20) or 2 slams +28 (2d6+17)
-
-**Ranged:** void missile +23 touch (6d6 plus energy drain)
-
-**Reach:** 15
-
-**Sp Extra:** 60 ft., fly 60 ft. without armor
-
-**Space:** 15
-
-**Spec Att:** commanding voice, void trap
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- fire shield, chill shield, fly, true seeing
-
-**At will:**
-
-- deeper darkness, gaseous form, self only, greater dispel magic, greater teleport, self plus 50
-  lbs. of objects only, invisibility, self only, minor creation, vision
-
-**Per day:**
-
-- 3/day: cone of cold (DC 22), demand (DC 25), dominate person (DC 22), major creation, mass charm
-  monster (DC 25), polar ray, teleport object (DC 24)
-- 1/day: implosion (DC 26), plane shift (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 15, Con 32, Int 18, Wis 23, Cha 25
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +42
-
-**Combat maneuver defense:** 54
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved
-Critical (greatclub), Improved Initiative, Improved Vital Strike, Iron Will, Power Attack,
-Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +17 (+25 when jumping), Bluff +30, Fly +20, Intimidate +30, Knowledge
-(arcana) +27, Knowledge (nobility) +24, Perception +29, Sense Motive +29, Spellcraft +24, Use Magic
-Device +30
-
-**Languages:** Common, Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Large, Huge, or Gargantuan humanoid;
-[giant form II](ref/spell/giant-form-2)), void form
-
-**Ecology**
-
-**Environment:** cold or temperate mountains
-
-**Organization:** solitary
-
-**Treasure:** Double (mwk full plate, mwk greatclub); other treasure
+::: statblock
+Environment: cold or temperate mountains
+Organization: solitary
+Treasure: Double (mwk full plate, mwk greatclub); other treasure
+:::
 
 ### Special Abilities
 

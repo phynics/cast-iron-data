@@ -32,107 +32,75 @@ abilities = ["35", "16", "22", "15", "20", "21"]
 _A third eye rests on the forehead of this ornately robed giantess, her figure half-shrouded in the
 darkness of a starry night that swirls continuously about her._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: huge
+Initiative: +3
+Alignment: Lawful evil
+Type: outsider
+Perception: +28
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Air, Giant, Native, Oni, Shapechanger
+Experience points: 76,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 28
+AC modifiers: +4 armor, +3 Dex, +16 natural, -2 size
+Hit points: 230 (20d10+120)
+Fort: +20
+Ref: +9
+Will: +17
+Regen: 5 (acid or fire)
+Resist: sonic 5
+Sr: 27
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: mwk morningstar +32/+27/+22/+17 (3d6+12) or 2 slams +30 (2d6+12)
+Ranged: shocking missile +21 touch (4d6 electricity plus deafen)
+Reach: 15
+Space: 15
+Spec Att: roaring gale
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: cloak of winds, fly
+At will: darkness, gaseous form, invisibility, self only, levitate
+Per day: 3/day: control weather, quickened shout (DC 19), wind wall\
+1/day: chain lightning (DC 21), whirlwind (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Air, Giant, Native, Oni, Shapechanger
+::: statblock
+Ability scores: Str 35, Dex 16, Con 22, Int 15, Wis 20, Cha 21
+Base attack bonus: +20
+Combat maneuver bonus: +34
+Combat maneuver defense: 47
+Feats: Awesome Blow, Cleave, Combat Casting, Combat Reflexes, Great Cleave, Great Fortitude, Improved Bull Rush, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (shout), Weapon Focus (morningstar)
+Skills: Bluff +28, Disguise +28, Perform (string) +28, Sense Motive +28, Stealth +17
+Languages: Common, Giant
+Special qualities: [change shape](ref/umr/change-shape) (Medium, Large, or Huge humanoid; [alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2))
+:::
 
-**Experience points:** 76,800
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 armor, +3 Dex, +16 natural, -2 size
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +20
-
-**Ref:** +9
-
-**Will:** +17
-
-**Regen:** 5 (acid or fire)
-
-**Resist:** sonic 5
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** mwk morningstar +32/+27/+22/+17 (3d6+12) or 2 slams +30 (2d6+12)
-
-**Ranged:** shocking missile +21 touch (4d6 electricity plus deafen)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** roaring gale
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- cloak of winds, fly
-
-**At will:**
-
-- darkness, gaseous form, invisibility, self only, levitate
-
-**Per day:**
-
-- 3/day: control weather, quickened shout (DC 19), wind wall
-- 1/day: chain lightning (DC 21), whirlwind (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 16, Con 22, Int 15, Wis 20, Cha 21
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 47
-
-**Feats:** Awesome Blow, Cleave, Combat Casting, Combat Reflexes, Great Cleave, Great Fortitude,
-Improved Bull Rush, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(shout), Weapon Focus (morningstar)
-
-**Skills:** Bluff +28, Disguise +28, Perform (string) +28, Sense Motive +28, Stealth +17
-
-**Languages:** Common, Giant
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium, Large, or Huge humanoid;
-[alter self](ref/spell/alter-self) or [giant form II](ref/spell/giant-form-2))
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, gang (2-4), or storm (5-8)
-
-**Treasure:** Standard (mwk chain shirt, mwk morningstar); other treasure
+::: statblock
+Environment: temperate mountains
+Organization: solitary, gang (2-4), or storm (5-8)
+Treasure: Standard (mwk chain shirt, mwk morningstar); other treasure
+:::
 
 ### Special Abilities
 

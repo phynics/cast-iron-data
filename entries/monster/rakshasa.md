@@ -32,101 +32,71 @@ abilities = ["16", "20", "22", "13", "13", "17"]
 _This figure's backward-bending fingers and its bestial, snarling visage leave little doubt as to
 its fiendish nature._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +9
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Native, Shapechanger
+Experience points: 9,600
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 16
+Flat-footed: 19
+AC modifiers: +5 Dex, +1 dodge, +9 natural
+Hit points: 115 (10d10+60)
+Fort: +9
+Ref: +12
+Will: +8
+Dr: 15/good and piercing
+Sr: 25
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: +1 kukri +16/+11 (1d4+4/15-20), claw +10 (1d4+1), bite +10 (1d6+1)
+Spec Att: detect thoughts
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spells Known"
+Caster level: 7
+3rd-level spells: 5/day: lightning bolt (DC 16), suggestion (DC 16)
+2nd-level spells: 7/day: acid arrow, invisibility, minor image
+1st-level spells: 7/day: charm person (DC 14), mage armor, magic missile, shield, silent image
+Cantrips: At will: dancing lights, detect magic, ghost sound (DC 13), mage hand, mending, message, prestidigitation
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native, Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 20, Con 22, Int 13, Wis 13, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 29
+Feats: Combat Expertise, Dodge, Improved Critical (kukri), Improved Initiative, Weapon Finesse
+Skills: Bluff +20, Diplomacy +16, Disguise +24, Perform () +16, Sense Motive +14, Stealth +18
+Racial Modifiers: +4 Bluff, +8 Disguise
+Languages: Common, Infernal, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 16
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +1 dodge, +9 natural
-
-**Hit points:** 115 (10d10+60)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +8
-
-**Dr:** 15/good and piercing
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 kukri +16/+11 (1d4+4/15-20), claw +10 (1d4+1), bite +10 (1d6+1)
-
-**Spec Att:** detect thoughts
-
-**Spells Known**
-
-**Caster level:** 7
-
-**3rd-level spells:**
-
-- 5/day: lightning bolt (DC 16), suggestion (DC 16)
-
-**2nd-level spells:**
-
-- 7/day: acid arrow, invisibility, minor image
-
-**1st-level spells:**
-
-- 7/day: charm person (DC 14), mage armor, magic missile, shield, silent image
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, ghost sound (DC 13), mage hand, mending, message,
-  prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 20, Con 22, Int 13, Wis 13, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 29
-
-**Feats:** Combat Expertise, Dodge, Improved Critical (kukri), Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +20, Diplomacy +16, Disguise +24, Perform () +16, Sense Motive +14, Stealth +18
-
-**Racial Modifiers:** +4 Bluff, +8 Disguise
-
-**Languages:** Common, Infernal, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cult (3-12)
-
-**Treasure:** Double (+1 kukri); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or cult (3-12)
+Treasure: Double (+1 kukri); other treasure
+:::
 
 ### Special Abilities
 

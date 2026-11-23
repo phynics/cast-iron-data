@@ -31,117 +31,79 @@ abilities = ["26", "34", "29", "24", "27", "25"]
 _This monster has ten spidery legs, a head writhing with dripping tentacles above a clutch of red
 eyes, and three whipping stingers._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: cloak of chaos (DC 25)
+Alignment: Chaotic evil
+Initiative: +12
+Size: large
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 153,600
+:::
 
-**aura:** cloak of chaos (DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 33
+Touch: 25
+Flat-footed: 21
+AC modifiers: +4 deflection, +12 Dex, +8 natural, -1 size
+Hit points: 290 (20d10+180)
+Fort: +25
+Ref: +30
+Will: +18
+Defensive abilities: displacement, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron and lawful
+Evasion: present
+Fh: 10
+Immune: acid, cold, poison, mind-affecting effects
+Resist: electricity 10, fire 10
+Sr: 25 vs. lawful spells and creatures
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., climb 40 ft., fly 60 ft. (good)
+Melee: 3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)
+Reach: 10
+Space: 10
+Spec Att: horrific appearance (DC 27), savage stingers
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Constant: cloak of chaos (DC 25), displacement, freedom of movement, true seeing
+At will: dimension door, greater dispel magic, telekinesis (DC 22)
+Per day: 3/day: quickened dimension door, flesh to stone (DC 23), word of chaos (DC 24)\
+1/day: binding (DC 25), plane shift (DC 24), telekinetic sphere (DC 25), temporal stasis (DC 25)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 26, Dex 34, Con 29, Int 24, Wis 27, Cha 25
+Base attack bonus: +20
+Combat maneuver bonus: +29
+Combat maneuver defense: 55 (71 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Critical (sting), Improved Vital Strike, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dimension door), Staggering Critical, Vital Strike
+Skills: Acrobatics +35 (+39 jump), Bluff +30, Climb +36, Intimidate +27, Knowledge (arcana) +27, Knowledge (history) +30, Perception +31, Sense Motive +31, Spellcraft +27, Stealth +31, Use Magic Device +30
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: demon hunter
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 25
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 deflection, +12 Dex, +8 natural, -1 size
-
-**Hit points:** 290 (20d10+180)
-
-**Fort:** +25
-
-**Ref:** +30
-
-**Will:** +18
-
-**Defensive abilities:** displacement, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron and lawful
-
-**Evasion:** present
-
-**Fh:** 10
-
-**Immune:** acid, cold, poison, mind-affecting effects
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 25 vs. lawful spells and creatures
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., fly 60 ft. (good)
-
-**Melee:** 3 stings +27 (1d6+8/19-20 plus ability drain), 5 tentacles +22 (1d6+4 plus 2d6 acid)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** horrific appearance (DC 27), savage stingers
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Constant:**
-
-- cloak of chaos (DC 25), displacement, freedom of movement, true seeing
-
-**At will:**
-
-- dimension door, greater dispel magic, telekinesis (DC 22)
-
-**Per day:**
-
-- 3/day: quickened dimension door, flesh to stone (DC 23), word of chaos (DC 24)
-- 1/day: binding (DC 25), plane shift (DC 24), telekinetic sphere (DC 25), temporal stasis (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 34, Con 29, Int 24, Wis 27, Cha 25
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 55 (71 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved
-Critical (sting), Improved Vital Strike, Lightning Reflexes, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dimension door), Staggering Critical, Vital
-Strike
-
-**Skills:** Acrobatics +35 (+39 jump), Bluff +30, Climb +36, Intimidate +27, Knowledge (arcana) +27,
-Knowledge (history) +30, Perception +31, Sense Motive +31, Spellcraft +27, Stealth +31, Use Magic
-Device +30
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** demon hunter
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or patrol (3-4)
-
-**Treasure:** Double
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or patrol (3-4)
+Treasure: Double
+:::
 
 ### Special Abilities
 

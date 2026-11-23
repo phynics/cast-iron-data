@@ -33,112 +33,78 @@ abilities = ["23", "23", "24", "13", "18", "20"]
 _This human-sized, crab-like creature scuttles on six stumpy legs, and each of its four arms sports
 a different method of inflicting pain._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Qlippoth
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 20
+AC modifiers: +6 Dex, +1 dodge, +10 natural
+Hit points: 137 (11d10+77)
+Fort: +14
+Ref: +13
+Will: +7
+Defensive abilities: all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/lawful
+Immune: acid, cold, mind-affecting effects, polymorph effects
+Resist: electricity 10, fire 10
+Sr: 22
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Bleed: 1d6
+Constrict: 1d6+7
+Melee: +1 scimitar +18/+13/+8 (1d6+7/15-20), claw +15 (1d8+3 plus bleed), pincer +15 (1d6+3 plus [grab](ref/umr/grab)), sting +15 (1d4+3 plus poison)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Spec Att: horrific appearance (DC 20), oviposition
+Web: +17 ranged, DC 22, 11 hp
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+Constant: air walk, freedom of movement
+At will: statue
+Per day: 3/day: baleful polymorph (DC 20), protection from law\
+1/day: dimension door, mass reduce person (DC 19), polymorph any object (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar, Qlippoth
+::: statblock
+Ability scores: Str 23, Dex 23, Con 24, Int 13, Wis 18, Cha 20
+Base attack bonus: +11
+Combat maneuver bonus: +17
+Combat maneuver defense: 34 (42 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Critical (scimitar), Improved Initiative, Multiattack, Power Attack
+Skills: Acrobatics +20, Climb +28
+Racial Modifiers: +8 Disguise as a boulder while in statue form, +8 Stealth among rocks
+Languages: Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 Dex, +1 dodge, +10 natural
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +7
-
-**Defensive abilities:** all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/lawful
-
-**Immune:** acid, cold, mind-affecting effects, polymorph effects
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Bleed:** 1d6
-
-**Constrict:** 1d6+7
-
-**Melee:** +1 scimitar +18/+13/+8 (1d6+7/15-20), claw +15 (1d8+3 plus bleed), pincer +15 (1d6+3 plus
-[grab](ref/umr/grab)), sting +15 (1d4+3 plus poison)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spec Att:** horrific appearance (DC 20), oviposition
-
-**Web:** +17 ranged, DC 22, 11 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk, freedom of movement
-
-**At will:**
-
-- statue
-
-**Per day:**
-
-- 3/day: baleful polymorph (DC 20), protection from law
-- 1/day: dimension door, mass reduce person (DC 19), polymorph any object (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 23, Con 24, Int 13, Wis 18, Cha 20
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 34 (42 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (scimitar), Improved Initiative, Multiattack,
-Power Attack
-
-**Skills:** Acrobatics +20, Climb +28
-
-**Racial Modifiers:** +8 Disguise as a boulder while in statue form, +8 Stealth among rocks
-
-**Languages:** Abyssal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any underground ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or cast (3-10)
-
-**Treasure:** Standard (+1 scimitar); other treasure
+::: statblock
+Environment: any underground ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or cast (3-10)
+Treasure: Standard (+1 scimitar); other treasure
+:::
 
 ### Special Abilities
 

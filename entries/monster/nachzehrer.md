@@ -31,84 +31,64 @@ abilities = ["28", "19", "-", "16", "15", "25"]
 _This spindly-limbed horror has pale eyes, bony fingers that end in dirty claws, papery skin, and
 long, sharp fangs protruding from a breathless mouth._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +23
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +12 natural
+Hit points: 161 (14d8+98)
+Fort: +13
+Ref: +10
+Will: +13
+Chan Res: +4
+Dr: 15/cold iron and magic
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 10, electricity 10
+Weaknesses: bound to the grave
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +23
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +19 (2d6+9), slam +19 (1d8+9 plus horrifying vision)
+Spec Att: blood drain, call the fallen, horrifying vision
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 28, Dex 19, Con -, Int 16, Wis 15, Cha 25
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 34
+Feats: Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Bluff +21, Intimidate +24, Knowledge (nature) +17, Perception +23
+Languages: Common, Elven, Sylvan
+Special qualities: fey disguise
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +12 natural
-
-**Hit points:** 161 (14d8+98)
-
-**Fort:** +13
-
-**Ref:** +10
-
-**Will:** +13
-
-**Chan Res:** +4
-
-**Dr:** 15/cold iron and magic
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 10, electricity 10
-
-**Weaknesses:** bound to the grave
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +19 (2d6+9), slam +19 (1d8+9 plus horrifying vision)
-
-**Spec Att:** blood drain, call the fallen, horrifying vision
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 19, Con -, Int 16, Wis 15, Cha 25
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34
-
-**Feats:** Alertness, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative, Iron Will,
-Lightning Reflexes
-
-**Skills:** Bluff +21, Intimidate +24, Knowledge (nature) +17, Perception +23
-
-**Languages:** Common, Elven, Sylvan
-
-**Special qualities:** fey disguise
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

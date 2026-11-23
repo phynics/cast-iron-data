@@ -31,92 +31,70 @@ abilities = ["19", "12", "13", "12", "13", "12"]
 _This pale yellow humanoid has blank, bulging white eyes and gangly arms and legs. It clutches a
 pickaxe in its knobby hands._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: fey
+Initiative: +1
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Earth
+Experience points: 800
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 15
+AC modifiers: +1 Dex, +4 natural, +1 size
+Hit points: 27 (6d6+6)
+Fort: +5
+Ref: +6
+Will: +6
+Dr: 5/cold iron
+Immune: petrification
+Sr: 14
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft.
+Melee: mwk heavy pick +9 (1d4+6/×4)
+Spec Att: earth mastery, pech magic, stone knowledge
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+Per day: 3/day: stone shape, stone tell
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Earth
+::: statblock
+Ability scores: Str 19, Dex 12, Con 13, Int 12, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Cleave, Great Fortitude, Power Attack
+Skills: Climb +13, Craft (stonemasonry) +14, Stealth +14
+Racial Modifiers: +4 Craft (stonemasonry), +4 Profession (miner)
+Languages: Terran, Undercommon
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +4 natural, +1 size
-
-**Hit points:** 27 (6d6+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Immune:** petrification
-
-**Sr:** 14
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk heavy pick +9 (1d4+6/×4)
-
-**Spec Att:** earth mastery, pech magic, stone knowledge
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: stone shape, stone tell
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 13, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Cleave, Great Fortitude, Power Attack
-
-**Skills:** Climb +13, Craft (stonemasonry) +14, Stealth +14
-
-**Racial Modifiers:** +4 Craft (stonemasonry), +4 Profession (miner)
-
-**Languages:** Terran, Undercommon
-
-**Ecology**
-
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, pair, gang (3-4), pack (5-10), or tribe (11-40 plus 50% noncombatants,
-1-4 fighters of 2nd-4th level, and 1-2 druids of 2nd-4th level)
-
-**Treasure:** Standard (mwk heavy pick); other treasure
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, pair, gang (3-4), pack (5-10), or tribe (11-40 plus 50% noncombatants, 1-4 fighters of 2nd-4th level, and 1-2 druids of 2nd-4th level)
+Treasure: Standard (mwk heavy pick); other treasure
+:::
 
 ### Special Abilities
 
