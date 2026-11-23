@@ -7,6 +7,12 @@ source_ids = ["bastards-of-golarion", "humans-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_inheritor", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "bastards-of-golarion"
+page = "29"
+[[sources]]
+publication = "humans-of-golarion"
+page = "30"
 
 [fields]
 kind = "trait"

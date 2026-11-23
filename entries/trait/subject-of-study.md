@@ -7,6 +7,9 @@ source_ids = ["carrion-crown-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "subject_of_study", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "carrion-crown-players-guide"
+page = "12"
 
 [fields]
 kind = "trait"

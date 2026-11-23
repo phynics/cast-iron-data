@@ -9,6 +9,9 @@ tags = ["campaign"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Players Guide/Rules/New Rules/Traits/Campaign Traits/Favored Son_Daughter", path = "advanced_players_guide/trait/campaign/favored_sondaughter.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "330"
 
 [fields]
 kind = "trait"

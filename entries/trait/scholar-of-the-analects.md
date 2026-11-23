@@ -7,6 +7,9 @@ source_ids = ["arcane-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_the_analects", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "arcane-anthology"
+page = "10"
 
 [fields]
 kind = "trait"

@@ -6,6 +6,8 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "favored_son_or_daughter", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "trait"
