@@ -10,6 +10,7 @@ provenance = [
 publication = "inner-sea-primer"
 [[sources]]
 publication = "elves-of-golarion"
+page = "15"
 
 [fields]
 kind = "trait"

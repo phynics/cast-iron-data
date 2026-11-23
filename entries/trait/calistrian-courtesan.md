@@ -15,6 +15,7 @@ publication = "advanced-players-guide"
 page = "333"
 [[sources]]
 publication = "elves-of-golarion"
+page = "15"
 
 [fields]
 kind = "trait"
