@@ -84,12 +84,9 @@ ref/affliction/xacarba/vile-disjunction	affliction	pathfinder-18-descent-into-mi
 ref/discovery/alchemical-strike	class_option	magic-tactics-toolbox	coarse	12	the proposal is a section or parent page
 ref/discovery/confusion-bomb	class_option	ultimate-magic	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/discovery/cursed-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
-ref/discovery/greater-change-alignment	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/discovery/grounding-goo	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
-ref/discovery/holy-bombs	class_option	champions-of-purity	unconfirmed	24	only a short title is on the proposed page, which proves little
 ref/discovery/ooze-blight	class_option	monster-hunters-handbook	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/discovery/profane-bomb	class_option	champions-of-corruption	unconfirmed	26	only a short title is on the proposed page, which proves little
-ref/discovery/ranged-baptism	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/discovery/remedy-extract	class_option	healers-handbook	no-page		
 ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a short title is on the proposed page, which proves little
 ref/discovery/solid-ground	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
@@ -168,7 +165,6 @@ ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lis
 ref/hex/mothers-eye	class_option	legacy-of-the-first-world	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/hex/soothsayer	class_option	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
 ref/hex/verdant-familiar	class_option	wilderness-origins	no-page		
-ref/hex/witchs-charge	class_option	champions-of-purity	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/invtalent/domino-effect	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/invtalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
 ref/invtalent/greater-numerical-alchemy	class_option	disciples-doctrine	unconfirmed	17	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -190,7 +186,6 @@ ref/ragepower/flight-response	class_option	horror-adventures	unconfirmed	46	titl
 ref/ragepower/greater-air-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ancestor-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-celestial-totem	class_option	champions-of-purity	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-cult-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-daemon-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -205,7 +200,6 @@ ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirme
 ref/ragepower/greater-tyrant-totem	class_option	ultimate-wilderness	unconfirmed	36	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/lesser-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/lesser-celestial-totem	class_option	champions-of-purity	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/rangertrap/acid-trap	class_option	kobolds-of-golarion	unconfirmed	20	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/rangertrap/anchoring-trap	class_option	demon-hunters-handbook	unconfirmed	11	only a short title is on the proposed page, which proves little
 ref/rangertrap/cleansing-trap	class_option	people-of-the-wastes	unconfirmed	17	only a short title is on the proposed page, which proves little
@@ -899,7 +893,6 @@ ref/trait/affinity-for-the-elements	trait	faiths-of-corruption	unconfirmed	19	ti
 ref/trait/best-customer	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/blessed-mutt	trait	wilderness-origins	no-page		
 ref/trait/calistrian-courtesan	trait	elves-of-golarion	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/trait/chosen-of-iomedae	trait	champions-of-purity	unconfirmed	13	title not found on the proposed page or the two pages around it
 ref/trait/clamber	trait	wilderness-origins	no-page		
 ref/trait/daring-doomsayer	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books

@@ -1125,7 +1125,7 @@ ref/trait/bouncy	we-be-goblins	15	print
 ref/trait/brastlewark-businessman-ceod	cheliax-empire-of-devils	19	print	
 ref/trait/brastlewark-businessman-gog	gnomes-of-golarion	15	print	
 ref/trait/centaur-vengeance	dragonslayers-handbook	13	print	
-ref/trait/chosen-of-iomedae	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it
+ref/trait/chosen-of-iomedae	champions-of-purity	13	print		the faith trait is printed under its name on this page; the book's trait list gives it as 13
 ref/trait/draconic-vigil	dragonslayers-handbook	13	print	
 ref/trait/elven-polytheist	faiths-of-purity		unconfirmed	title not found on the proposed page or the two pages around it
 ref/trait/flotsam	dragonslayers-handbook	12	print	
@@ -2955,11 +2955,11 @@ ref/discovery/dread-bomb	distant-realms	52	print
 ref/discovery/elemental-destabilizers	elemental-masters-handbook	30	print		proposal 31, print 30: heading on exactly one page within two pages of the proposal
 ref/discovery/explosive-calligraphy	heroes-of-golarion	25	print	
 ref/discovery/grand-rasugen	distant-realms	52	print	
-ref/discovery/greater-change-alignment	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/greater-change-alignment	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/greater-constructive-dyes	heroes-of-golarion	25	print	
 ref/discovery/greater-divine-inks	heroes-of-golarion	25	print	
 ref/discovery/greater-rasugen	distant-realms	52	print	
-ref/discovery/holy-bombs	champions-of-purity		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/holy-bombs	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/improved-divine-inks	heroes-of-golarion	25	print	
 ref/discovery/living-pigment	heroes-of-golarion	25	print	
 ref/discovery/material-mastery	cohorts-and-companions	13	print	
@@ -2972,7 +2972,7 @@ ref/discovery/poisoned-explosive	dirty-tactics-toolbox	7	print		title text only 
 ref/discovery/profane-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
 ref/discovery/psychoactive-bomb	blood-of-the-moon	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
 ref/discovery/purging-mutagen	healers-handbook	11	print	
-ref/discovery/ranged-baptism	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/discovery/ranged-baptism	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
 ref/discovery/spell-knowledge	cohorts-and-companions	13	print	
 ref/discovery/substantiating-bomb	distant-realms	53	print		title text only (no heading form): the name is on page 53 and on none of the two pages each side
 ref/discovery/syringe-stirge	cohorts-and-companions	13	print	
@@ -3014,7 +3014,7 @@ ref/hex/steal-voice	dirty-tactics-toolbox	23	print
 ref/hex/swamps-grasp	blood-of-the-moon	15	print	
 ref/hex/swine	heroes-of-golarion	15	print	
 ref/hex/witchs-bounty	champions-of-purity	27	print	
-ref/hex/witchs-charge	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/hex/witchs-charge	champions-of-purity	27	print		the witch hex is printed under its name on this page
 ref/invtalent/castling	elemental-masters-handbook	9	print	
 ref/invtalent/extra-earthcraft	elemental-masters-handbook	9	print	
 ref/invtalent/fortified-position	elemental-masters-handbook	9	print	
@@ -3101,7 +3101,7 @@ ref/ragepower/fire-totem	blood-of-the-elements	11	print
 ref/ragepower/fueled-by-vengeance	blood-of-the-moon	13	print	
 ref/ragepower/greater-air-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-animal-fury	champions-of-corruption	27	print	
-ref/ragepower/greater-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-celestial-totem	champions-of-purity	22	print		the rage power is printed as Celestial Totem, Greater / Lesser (Su) on this page
 ref/ragepower/greater-earth-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	blood-of-the-elements		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -3110,7 +3110,7 @@ ref/ragepower/increased-damage-reduction	core-rulebook	33	print
 ref/ragepower/internal-fortitude	core-rulebook	33	print	
 ref/ragepower/intimidating-glare	core-rulebook	33	print	
 ref/ragepower/knockback	core-rulebook	33	print	
-ref/ragepower/lesser-celestial-totem	champions-of-purity		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-celestial-totem	champions-of-purity	22	print		the rage power is printed as Celestial Totem, Greater / Lesser (Su) on this page
 ref/ragepower/lesser-elemental-totem	blood-of-the-elements	10	print		title text only (no heading form): the name is on page 10 and on none of the two pages each side
 ref/ragepower/low-light-vision	core-rulebook	33	print	
 ref/ragepower/mighty-swing	core-rulebook	33	print	

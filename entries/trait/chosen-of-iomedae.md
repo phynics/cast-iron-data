@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "champions-of-purity"
+page = "13"
 
 [fields]
 kind = "trait"

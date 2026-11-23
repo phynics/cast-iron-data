@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "champions-of-purity"
+page = "24"
 
 [fields]
 kind = "class_option"
