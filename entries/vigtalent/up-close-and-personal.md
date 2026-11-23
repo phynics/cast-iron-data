@@ -6,6 +6,9 @@ source_ids = ["ultimate-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "up_close_and_personal", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-intrigue"
+page = "17"
 
 [fields]
 kind = "class_option"

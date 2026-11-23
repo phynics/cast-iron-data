@@ -6,6 +6,9 @@ source_ids = ["ultimate-wilderness"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sticks_and_stones", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "ultimate-wilderness"
+page = "86"
 
 [fields]
 kind = "class_option"

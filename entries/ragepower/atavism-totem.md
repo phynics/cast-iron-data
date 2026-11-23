@@ -6,6 +6,9 @@ source_ids = ["villain-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "atavism_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "villain-codex"
+page = "140"
 
 [fields]
 kind = "class_option"

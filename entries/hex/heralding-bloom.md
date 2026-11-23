@@ -6,6 +6,9 @@ source_ids = ["wilderness-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "heralding_bloom", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "wilderness-origins"
+page = "16"
 
 [fields]
 kind = "class_option"

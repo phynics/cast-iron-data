@@ -6,6 +6,9 @@ source_ids = ["ultimate-magic"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "see_in_darkness", path = "json/class_ability_evolutions.json" },
 ]
+[[sources]]
+publication = "ultimate-magic"
+page = "78"
 
 [fields]
 kind = "class_option"
