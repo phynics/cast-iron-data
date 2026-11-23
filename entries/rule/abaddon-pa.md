@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/abaddon-pa"
 kind = "rule"
-title = "Abaddon_pa"
+title = "Abaddon"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "abaddon_pa", path = "json/rules_campaign_types09.json" },

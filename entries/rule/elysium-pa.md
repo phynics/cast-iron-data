@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/elysium-pa"
 kind = "rule"
-title = "Elysium_pa"
+title = "Elysium"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "elysium_pa", path = "json/rules_campaign_types09.json" },

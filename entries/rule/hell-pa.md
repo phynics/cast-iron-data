@@ -1,7 +1,7 @@
 +++
 id = "ref/rule/hell-pa"
 kind = "rule"
-title = "Hell_pa"
+title = "Hell"
 source_ids = ["planar-adventures"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hell_pa", path = "json/rules_campaign_types09.json" },
