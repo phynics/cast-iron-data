@@ -39,9 +39,10 @@ Each stone of this type is keyed to a particular kind of weapon
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[transformation](ref/spell/transformation) or proficiency in the appropriate weapon, creator must be
-12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [transformation](ref/spell/transformation) or proficiency in the appropriate weapon, creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Flawed Ioun Stone
 

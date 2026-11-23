@@ -327,6 +327,12 @@ the drift check reads first.
 and the link moves onto the value. A line without a label (the lists of a `Powers` or `Spell-Like
 Abilities` line) queues the file, which stays prose for a hand review.
 
+`ioun` (every item folder, 51 entries, all `magic-ioun`): the Construction of an ioun stone prints
+under `#### Construction`, one level below the `### Construction` that item rule I8 reads. The
+paragraph `**Requirements** …; **Cost** …` directly under it becomes an untitled block under that
+heading, which stays. The `Flawed Ioun Stone` and `Cracked Ioun Stone` paragraphs (`**Price** 800 gp`
+and a sentence) restate the entry's own `Price` and stay prose.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -1963,8 +1969,21 @@ def plan_intelligent(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+def plan_ioun(cs: list[list[str]]) -> dict[int, dict]:
+    """K-ioun. The paragraph directly under a `#### Construction` heading that opens with
+    `**Requirements**` (the ioun stones print it one level below the `###` Construction of the
+    other items): one untitled block under that heading, which stays. The rows are `Requirements`
+    and `Cost`, as under `### Construction` (item rule I8)."""
+    return {
+        index: {}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["#### Construction"] and chunk[0].startswith("**Requirements** ")
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "ioun": (("*",), plan_ioun, ()),
     "intelligent": (("*",), plan_intelligent, ("Wis", "Cha")),
     "tearaway": (("eq-misc",), plan_tearaway, ()),
     "recipe": (("*",), plan_recipe, ()),
@@ -2608,7 +2627,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3638,6 +3657,26 @@ class IntelligentSelfTest(unittest.TestCase):
             convert_variants(self.BODY.replace("defeat dwarves", "defeat dwarves\\\n3/day-fly"), plan_intelligent, ("Wis", "Cha"))
         self.assertEqual(caught.exception.reason, "unlabelled-line")
         self.assertEqual(classify_variant(plan_intelligent, self.BODY.replace("### Statistics", "### Details")), "already")
+
+
+class IounSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: moderate abjuration\nCL: 12th\nPrice: 10,000 gp\n:::\n\n#### Description\n\nA stone.\n\n"
+        "#### Construction\n\n**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),\n"
+        "[resistance](ref/spell/resistance), creator must be 12th level; **Cost** 5,000 gp\n\n"
+        "### Flawed Ioun Stone\n\n**Price** 6,000 gp\\\nThis stone grants a bonus.\n"
+    )
+
+    def test_the_construction_under_four_hashes_becomes_a_block_and_the_flawed_price_stays(self):
+        new = convert_variants(self.BODY, plan_ioun)
+        self.assertIn(
+            "#### Construction\n\n::: statblock\nRequirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), "
+            "[resistance](ref/spell/resistance), creator must be 12th level\nCost: 5,000 gp\n:::\n\n### Flawed Ioun Stone\n\n"
+            "**Price** 6,000 gp\\\nThis stone grants a bonus.\n",
+            new,
+        )
+        self.assertEqual(classify_variant(plan_ioun, new), "already")
+        self.assertEqual(classify_variant(plan_ioun, self.BODY.replace("#### Construction", "#### Making")), "already")
 
 
 class SourcesSelfTest(unittest.TestCase):

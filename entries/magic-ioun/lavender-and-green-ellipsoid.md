@@ -54,8 +54,10 @@ action instead of a readied action.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 10,000 gp (pale lavender), 20,000 gp (lavender and green)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 10,000 gp (pale lavender), 20,000 gp (lavender and green)
+:::
 
 ### Flawed Pale Lavender Ellipsoid Ioun Stone
 

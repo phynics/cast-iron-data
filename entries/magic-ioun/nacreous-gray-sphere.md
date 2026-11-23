@@ -40,8 +40,10 @@ Miss chance against incorporeal creatures decreases to 25%.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), creator must be 12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Cracked Ioun Stone
 
