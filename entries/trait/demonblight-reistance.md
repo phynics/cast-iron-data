@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/demonblight-reistance"
 kind = "trait"
-title = "Demonblight Reistance"
+title = "Demonblight Resistance"
 aon = "TraitDisplay.aspx?ItemName=Demonblight%20Reistance"
 source_ids = ["people-of-the-wastes"]
 provenance = [

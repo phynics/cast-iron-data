@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/sodden-chld"
 kind = "trait"
-title = "Sodden Chld"
+title = "Sodden Child"
 aon = "TraitDisplay.aspx?ItemName=Sodden%20Chld"
 source_ids = ["people-of-the-wastes"]
 provenance = [
