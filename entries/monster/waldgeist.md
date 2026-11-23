@@ -30,94 +30,73 @@ abilities = ["-", "20", "-", "13", "13", "21"]
 _An expression of intense malevolence crosses the face of this small, insubstantial spirit, which
 looks unsettlingly like that of a gnome._
 
-**Challenge rating:** 8
+## Waldgeist {#stat-waldgeist}
 
-**greensight:** 60
+::: statblock
+Challenge rating: 8
+greensight: 60
+Initiative: +9
+Alignment: Neutral evil
+Perception: +19
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 21
+Touch: 21
+Flat-footed: 16
+AC modifiers: +5 deflection, +5 Dex, +1 size
+Hit points: 104 (11d8+55)
+Fort: +8
+Ref: +8
+Will: +10
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Sr: 19
+Weaknesses: compelling knock, nature dependent
+:::
 
-**Perception:** +19
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: incorporeal touch +15 (6d8 negative energy plus lignify)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+Per day: 3/day: entangle (DC 16)\
+1/day: plant growth
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 20, Con -, Int 13, Wis 13, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Alertness, Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will, Weapon Focus (touch)
+Skills: Fly +21, Intimidate +19, Knowledge (nature) +12, Perception +19, Sense Motive +12, Stealth +17
+Languages: Common, Gm, Sylvan
+Special qualities: possess tree
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 21
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 deflection, +5 Dex, +1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +10
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Sr:** 19
-
-**Weaknesses:** compelling knock, nature dependent
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** incorporeal touch +15 (6d8 negative energy plus lignify)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: entangle (DC 16)
-- 1/day: plant growth
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con -, Int 13, Wis 13, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Alertness, Combat Reflexes, Flyby Attack, Improved Initiative, Iron Will, Weapon Focus
-(touch)
-
-**Skills:** Fly +21, Intimidate +19, Knowledge (nature) +12, Perception +19, Sense Motive +12,
-Stealth +17
-
-**Languages:** Common, Gm, Sylvan
-
-**Special qualities:** possess tree
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 
@@ -211,29 +190,50 @@ of waldgeist encounters.
 The following is an example of a possessed tree under the control of a waldgeist. For more
 information, see the text of the [animate objects](ref/spell/animate-objects) spell.
 
-**Possessed Tree**
+## Possessed Tree {#stat-possessed-tree}
 
-**Challenge rating:** 5
+N Large [construct](ref/type/construct)
 
-> N Large [construct](ref/type/construct)\
-> **Init** -1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-> [low-light vision](ref/rule/low-light-vision); Perception -5
->
-> _Defense_\
-> **AC** 14, touch 8, flat-footed 14 (-1 Dex, +6 natural, -1 size)\
-> **hp** 52 (4d10+30)\
-> **Fort** +1, **Ref** +0, **Will** -4\
-> **Defensive Abilities** [hardness](ref/umr/hardness) 5; **Immune**
-> [construct traits](ref/umr/construct-traits)\
-> **Weaknesses** [vulnerable](ref/umr/vulnerabilities) to fire
->
-> _Offense_\
-> **Speed** 0 ft.\
-> **Melee** 2 slams +9 (2d6+6 plus [grab](ref/umr/grab))\
-> **Space** 10 ft.; **Reach** 15 ft.\
-> **Special Attacks** [constrict](ref/umr/constrict) (2d6+6)
->
-> _Statistics_\
-> **Str** 22, **Dex** 8, **Con** -, **Int** -, **Wis** 1, **Cha** 1\
-> **Base Atk** +4; **CMB** +11; **CMD** 20\
-> **SQ** construction points (additional attack, grab, constrict)
+::: statblock
+Challenge rating: 5
+Init: -1
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception -5
+:::
+
+### Defense
+
+::: statblock
+AC: 14, touch 8, flat-footed 14 (-1 Dex, +6 natural, -1 size)
+hp: 52 (4d10+30)
+Fort: +1
+Ref: +0
+Will: -4
+Defensive Abilities: [hardness](ref/umr/hardness) 5
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: [vulnerable](ref/umr/vulnerabilities) to fire
+:::
+
+### Offense
+
+::: statblock
+Speed: 0 ft.
+Melee: 2 slams +9 (2d6+6 plus [grab](ref/umr/grab))
+Space: 10 ft.
+Reach: 15 ft.
+Special Attacks: [constrict](ref/umr/constrict) (2d6+6)
+:::
+
+### Statistics
+
+::: statblock
+Str: 22
+Dex: 8
+Con: -
+Int: -
+Wis: 1
+Cha: 1
+Base Atk: +4
+CMB: +11
+CMD: 20
+SQ: construction points (additional attack, grab, constrict)
+:::
