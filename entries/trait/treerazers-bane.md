@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "inner-sea-primer"
+page = "10"
 [[sources]]
 publication = "elves-of-golarion"
 page = "15"
