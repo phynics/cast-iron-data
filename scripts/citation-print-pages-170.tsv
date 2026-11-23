@@ -2468,6 +2468,7 @@ ref/affliction/cerberi/cerberuss-jaws-su	bestiary-3	51	print
 ref/affliction/chickcharney/curse-of-ill-luck	isles-of-the-shackles	46	print	
 ref/affliction/colossus-iron-colossus-mythic/deadly-fumes	bestiary-4	36	print	
 ref/affliction/curse/curse-name-su	bestiary-5	291	print	
+ref/affliction/daemon-lacridaemon/lacridaemon-poison	bestiary-6	71	print		the poison is printed as a line in the monster's special abilities on this page
 ref/affliction/daughter-of-urgathoa/bubonic-plague	inner-sea-world-guide	309	print	
 ref/affliction/death-dog/wormpox	bestiary-4	44	print	
 ref/affliction/dorvae/dorvae-poison-su	bestiary-4	62	print	
@@ -2484,11 +2485,13 @@ ref/affliction/ghole/bubonic-plague	bestiary-6	132	print
 ref/affliction/ghoul-leng-ghoul/leng-ghoul-fever	bestiary-5	120	print	
 ref/affliction/giant-ash-giant/ash-leprosy	bestiary-3	126	print	
 ref/affliction/giant-plague-giant/atrophic-plague	bestiary-6	134	print	
+ref/affliction/golem-gold-golem/prismatic-poison	bestiary-6	140	print		the poison is the Poison row of the gold golem's prismatic ray table on this page (the proposal 140 was a coarse page)
 ref/affliction/golem-lead-golem/poison-cloud	bestiary-5	127	print	
 ref/affliction/golem-viridium-golem/viridium-leprosy	bestiary-6	143	print	
 ref/affliction/gravebound/false-death	bestiary-5	128	print	
 ref/affliction/hag-moon-hag/dreadful-ravings	planar-adventures	242	print	
 ref/affliction/hag-sea-hag/evil-eye-curse	bestiary	243	print	
+ref/affliction/horsemen-of-the-apocalypse-apollyon/soul-plague	bestiary-6	160	print		the disease is printed as a line in the monster's special abilities on this page
 ref/affliction/howler/howler-howl	bestiary-2	159	print	
 ref/affliction/hypnalis/hypnalis-venom	bestiary-4	154	print	
 ref/affliction/iku-turso/tursas	bestiary-3	153	print	
@@ -2508,8 +2511,10 @@ ref/affliction/nuckelavee/mortasheen	bestiary-3	203	print
 ref/affliction/phycomid/phycomid-spores	bestiary-2	210	print	
 ref/affliction/poison/poison-name-ex	bestiary-5	297	print	
 ref/affliction/pooka/pooka-dust-su	bestiary-4	216	print	
+ref/affliction/qlippoth-lord-isph-aun-vuln/winds-of-isph-aun-vuln	bestiary-6	235	print		the poison is printed as a line in the monster's special abilities on this page
 ref/affliction/rat-king/bubonic-plague	bestiary-4	225	print	
 ref/affliction/rokurokubi/rokurokubis-curse-su	bestiary-4	227	print	
+ref/affliction/sahkil-ximtal/forsaken-agony	bestiary-6	244	print		the disease is printed as a line in the monster's special abilities on this page
 ref/affliction/sangoi/curse-of-misery	bestiary-5	219	print	
 ref/affliction/sha/touch-of-madness	bestiary-5	226	print	
 ref/affliction/slime-mold/fungal-rot	bestiary-2	249	print	
