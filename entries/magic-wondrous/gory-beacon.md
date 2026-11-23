@@ -37,5 +37,7 @@ heat functions only when a creature of the user's type within 30 feet (including
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[burning hands](ref/spell/burning-hands), creator cannot be good; **Cost** 2,900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [burning hands](ref/spell/burning-hands), creator cannot be good
+Cost: 2,900 gp
+:::

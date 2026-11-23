@@ -39,5 +39,7 @@ consumed at least 1 pound of humanoid flesh within the past week.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove disease](ref/spell/remove-disease); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove disease](ref/spell/remove-disease)
+Cost: 3,750 gp
+:::
