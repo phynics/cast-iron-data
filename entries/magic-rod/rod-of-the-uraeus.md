@@ -18,7 +18,7 @@ kind = "item"
 category = "Rods"
 price = "14,400 gp"
 weight = "4 lbs."
-slot = "rod"
+slot = "none"
 aura = "moderate necromancy"
 caster_level = "8th"
 +++

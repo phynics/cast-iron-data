@@ -15,7 +15,7 @@ kind = "item"
 category = "Rods"
 price = "20,000 gp"
 weight = "10 lbs."
-slot = "rod"
+slot = "none"
 aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
