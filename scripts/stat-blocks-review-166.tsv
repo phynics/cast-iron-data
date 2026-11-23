@@ -201,29 +201,6 @@ entries/magic-set/urgathoas-gluttony.md	item	linked-label	[Haunted Shoes:](ref/m
 entries/magic-wondrous/cube-of-force.md	item	print-fix	row `11`, the base item's own text; `13` and `14` stay as rows for the variant paragraphs of the body (Classic Treasures Revisited p. 11)
 entries/magic-wondrous/cube-of-varied-force-walls.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
 entries/magic-wondrous/discriminating-cube.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
-entries/magic-wondrous/figurine-of-wondrous-power-basalt-dragon.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-black-jade-raven.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-bronze-griffon.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-coral-hippocampus.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-ebony-fly.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-emerald-frog.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-glass-walrus.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-golden-lions.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-hematite-courgar.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-ivory-goats.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-lapis-camel.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-marble-elephant.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-obsidian-raven.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-obsidian-steed.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-onyx-dog.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-pearl-dolphin.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-ruby-butterfly.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-serpentine-eagle.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-serpentine-owl.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-silver-raven.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-slate-spider.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power-tin-imp.md	item	variant-paragraphs	CL
-entries/magic-wondrous/figurine-of-wondrous-power.md	item	variant-paragraphs	CL
 entries/magic-wondrous/helm-of-brilliance-lesser.md	item	variant-paragraphs	Aura; Requirements
 entries/magic-wondrous/helm-of-brilliance.md	item	variant-paragraphs	Aura; Requirements
 entries/magic-wondrous/independent-cube-of-force.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)

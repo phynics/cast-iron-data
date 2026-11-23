@@ -191,7 +191,9 @@ from the others, and each has a different function:
   the goat of terror radiates [fear](ref/spell/fear) as the spell in a 30-foot radius (Will DC 16
   partial). It can be used once every 2 weeks for up to 3 hours per use.
 
-**CL** 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._
+::: statblock
+CL: 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._
+:::
 
 **Lapis Camel:** This palm-sized camel figurine is sculpted of lapis lazuli. When you throw the
 lapis camel to the ground and speak the command word, it turns into a dromedary camel. The camel

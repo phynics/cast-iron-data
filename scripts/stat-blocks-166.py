@@ -339,6 +339,11 @@ of a spellbook. One untitled block where it stands. No other label is read, and 
 `Protection` may be a sentence (the books print their wards in prose), which the sentence rule
 would otherwise refuse (`sentences`).
 
+`figurine` (`magic-wondrous`, 23 entries, the figurines of wondrous power): after the list of the
+Ivory Goats the book prints `**CL** 11th; Craft Wondrous Item, _animate objects_.` One untitled
+block with the one row `CL`, whose value is kept as printed with its requirements tail; the label
+is not renamed. The entry's own block (`CL: varies`) comes first, so the drift check keeps reading it.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -2005,8 +2010,18 @@ def plan_spellbook(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+def plan_figurine(cs: list[list[str]]) -> dict[int, dict]:
+    """K-figurine. The paragraph that opens with `**CL**` and goes on as prose (the figurines of
+    wondrous power print the caster level and the requirements of the Ivory Goats after their list,
+    `**CL** 11th; Craft Wondrous Item, _animate objects_.`): one untitled block with the row `CL`.
+    The value is kept as printed, the requirements tail included; the label is not renamed. The
+    block carries `CL`, so the entry's own block must come first."""
+    return {index: {} for index, chunk in enumerate(cs) if chunk[0].startswith("**CL** ")}
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "figurine": (("magic-wondrous",), plan_figurine, ()),
     "spellbook": (("eq-spellbook",), plan_spellbook, ()),
     "ioun": (("*",), plan_ioun, ()),
     "intelligent": (("*",), plan_intelligent, ("Wis", "Cha")),
@@ -2652,7 +2667,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3725,6 +3740,26 @@ class SpellbookSelfTest(unittest.TestCase):
         with self.assertRaises(Queue) as caught:
             convert_variants(self.BODY.replace("**Value**", "**Worth**"), plan_spellbook)
         self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Worth"))
+
+
+class FigurineSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: varies\nCL: varies\n:::\n\n**Ivory Goats:** These come in threes.\n\n"
+        "- **The Goat of Travail:** A mount.\n\n"
+        "**CL** 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._\n"
+    )
+
+    def test_the_cl_tail_becomes_a_one_row_block_as_printed(self):
+        new = convert_variants(self.BODY, plan_figurine)
+        self.assertTrue(new.endswith(
+            "::: statblock\nCL: 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_figurine, new), "already")
+
+    def test_without_the_entrys_own_cl_row_before_it_the_file_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n" + self.BODY.split("\n\n", 2)[2], plan_figurine)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "CL"))
 
 
 class SourcesSelfTest(unittest.TestCase):
