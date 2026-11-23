@@ -6,6 +6,9 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "splitting_mutagen", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
+page = "17"
 
 [fields]
 kind = "class_option"

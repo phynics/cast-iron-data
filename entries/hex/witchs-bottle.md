@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "witchs_bottle", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "11"
 
 [fields]
 kind = "class_option"

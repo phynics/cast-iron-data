@@ -6,6 +6,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seduction", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "17"
 
 [fields]
 kind = "class_option"

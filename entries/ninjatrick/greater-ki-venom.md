@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "greater_ki_venom", path = "json/class_ability_ninja_tricks.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "21"
 
 [fields]
 kind = "class_option"

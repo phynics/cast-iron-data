@@ -6,6 +6,8 @@ source_ids = ["monster-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "armor_piercer", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "monster-hunters-handbook"
 
 [fields]
 kind = "class_option"

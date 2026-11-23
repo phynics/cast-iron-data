@@ -6,6 +6,9 @@ source_ids = ["magic-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "faith_magic", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "magic-tactics-toolbox"
+page = "3"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["occult-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "transfer_fear", path = "json/class_ability_phrenic_amplifications.json" },
 ]
+[[sources]]
+publication = "occult-origins"
+page = "16"
 
 [fields]
 kind = "class_option"

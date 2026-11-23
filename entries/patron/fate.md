@@ -6,6 +6,9 @@ source_ids = ["pathfinder-72-the-witch-queens-revenge"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fate", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "pathfinder-72-the-witch-queens-revenge"
+page = "75"
 
 [fields]
 kind = "class_option"

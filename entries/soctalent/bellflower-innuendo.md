@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_innuendo", path = "json/class_ability_social_talents.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "33"
 
 [fields]
 kind = "class_option"

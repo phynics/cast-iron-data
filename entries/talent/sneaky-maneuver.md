@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneaky_maneuver", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "26"
 
 [fields]
 kind = "class_option"

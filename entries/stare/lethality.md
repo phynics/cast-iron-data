@@ -6,6 +6,9 @@ source_ids = ["occult-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lethality", path = "json/class_ability_stares.json" },
 ]
+[[sources]]
+publication = "occult-realms"
+page = "16"
 
 [fields]
 kind = "class_option"

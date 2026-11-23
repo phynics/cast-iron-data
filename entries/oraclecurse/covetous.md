@@ -6,6 +6,9 @@ source_ids = ["legacy-of-dragons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "covetous", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "legacy-of-dragons"
+page = "8"
 
 [fields]
 kind = "class_option"

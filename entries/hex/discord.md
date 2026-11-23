@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "discord", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "28"
 
 [fields]
 kind = "class_option"
