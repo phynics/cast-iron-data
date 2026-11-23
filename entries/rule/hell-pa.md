@@ -14,8 +14,6 @@ page = "190"
 kind = "none"
 +++
 
-**Hell**
-
 **Cat:** Outer Plane (lawful evil)
 
 **Desc:** The regimented realm of Asmodeus and devilkind, Hell is formed of nine layers, each

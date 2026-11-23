@@ -14,8 +14,6 @@ page = "184"
 kind = "none"
 +++
 
-**The Maelstrom**
-
 **Cat:** Outer Plane (chaotic neutral)
 
 **Desc:** The Maelstrom is a realm of boundless chaos, a churning void of land, sea, and everything

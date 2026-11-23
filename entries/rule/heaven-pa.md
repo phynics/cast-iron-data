@@ -14,8 +14,6 @@ page = "154"
 kind = "none"
 +++
 
-**Heaven**
-
 **Cat:** Outer Plane (lawful good)
 
 **Desc:** Heaven is a plane of goodness and purity as expressed through law and order, from which
