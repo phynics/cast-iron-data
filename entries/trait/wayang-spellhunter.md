@@ -7,6 +7,9 @@ source_ids = ["dragon-empires-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wayang_spellhunter", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "dragon-empires-primer"
+page = "14"
 
 [fields]
 kind = "trait"

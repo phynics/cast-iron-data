@@ -7,6 +7,9 @@ source_ids = ["gnomes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "naturally_gifted", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "gnomes-of-golarion"
+page = "15"
 
 [fields]
 kind = "trait"

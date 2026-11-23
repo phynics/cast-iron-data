@@ -7,6 +7,9 @@ source_ids = ["council-of-thieves-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_pathfinders_exile", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "council-of-thieves-players-guide"
+page = "9"
 
 [fields]
 kind = "trait"
