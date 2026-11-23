@@ -47,8 +47,10 @@ level granted by the normal power of the ioun stone) to his caster level.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 15,000 gp
+:::
 
 ### Flawed Ioun Stone
 

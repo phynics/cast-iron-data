@@ -50,10 +50,13 @@ If Runelord Belimarius issues a command as a standard action, Tannaris is destro
 
 ### Statistics
 
-**Alignment** LE; **Ego** 25\
-**Senses** sight 30 ft., hearing\
-**Int** 18, **Wis** 10, **Cha** 10\
-**Communication** read languages, speech, telepathy (Thassilonian)\
-**Powers** [create food and water](ref/spell/create-food-and-water) 3/day,
-[endure elements](ref/spell/endure-elements) 3/day,
-[cure serious wounds](ref/spell/cure-serious-wounds) 3/day
+::: statblock
+Alignment: LE
+Ego: 25
+Senses: sight 30 ft., hearing
+Int: 18
+Wis: 10
+Cha: 10
+Communication: read languages, speech, telepathy (Thassilonian)
+Powers: [create food and water](ref/spell/create-food-and-water) 3/day, [endure elements](ref/spell/endure-elements) 3/day, [cure serious wounds](ref/spell/cure-serious-wounds) 3/day
+:::

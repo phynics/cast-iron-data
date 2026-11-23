@@ -32,6 +32,10 @@ deafness). The bang also causes unintelligent animals within 20 feet of it to be
 successful DC 11 Will save or if an adjacent ally calms the animal with a successful DC 11 Handle
 Animal check (an immediate action).
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 black powder + 1
-saltpeter)/calcination; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(1 black powder + 1 saltpeter)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

@@ -44,7 +44,12 @@ Price: 17,500 gp
 
 ### Statistics
 
-**Alignment** neutral good; **Ego** 10\
-**Senses** 120 ft.\
-**Int** 10, **Wis** 16, **Cha** 14\
-**Communication** speech (Common, Halfling)
+::: statblock
+Alignment: neutral good
+Ego: 10
+Senses: 120 ft.
+Int: 10
+Wis: 16
+Cha: 14
+Communication: speech (Common, Halfling)
+:::

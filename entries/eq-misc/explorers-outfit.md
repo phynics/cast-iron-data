@@ -35,9 +35,12 @@ than a leather skirt, a leather overtunic may be worn over a cloth skirt. The cl
 pockets (especially the cloak). The outfit also includes any extra accessories you might need, such
 as a scarf or a wide-brimmed hat.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

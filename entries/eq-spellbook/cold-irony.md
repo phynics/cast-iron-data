@@ -22,7 +22,9 @@ information gathering, and rhetoric. The thoughts and notes are so complete as t
 spellbook for the spells listed, despite the fact the author was a bard with no need for a
 spellbook._
 
-**Value** 2,420 gp (2,795 gp with the preparation ritual)
+::: statblock
+Value: 2,420 gp (2,795 gp with the preparation ritual)
+:::
 
 #### Spells
 

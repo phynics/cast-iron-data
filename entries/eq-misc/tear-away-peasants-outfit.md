@@ -36,9 +36,12 @@ many times over. A peasant's outfit consists of a loose shirt and baggy breeches
 and skirt or overdress. Cloth wrappings are used for shoes, causing significantly more wear on the
 feet.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

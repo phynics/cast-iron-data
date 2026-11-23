@@ -30,6 +30,10 @@ closed book or unraveling a scroll) must save against the contact poison. Once a
 in contact with the vector ink, the ink is expended. A single vial of vector ink is enough to write
 a single page of text on standard-sized parchment.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (7 dew of lunary + 7 gold + 6
-urea)/digestion; **Craft DC** 20\
-**Time** 1 day; **Tools** heat source; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(7 dew of lunary + 7 gold + 6 urea)/digestion](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 day
+Tools: heat source
+Type: alchemical tool
+:::

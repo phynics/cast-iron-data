@@ -33,5 +33,8 @@ bulbous appendages. The subject gains [darkvision](ref/rule/darkvision) with a r
 
 ### Creation Requirements
 
-**Cost** 3,000 gp\
+::: statblock
+Cost: 3,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 150 gp

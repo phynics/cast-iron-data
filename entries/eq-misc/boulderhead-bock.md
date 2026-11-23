@@ -30,6 +30,10 @@ descriptor for 1 hour. In addition, a dose of boulderhead bock grants the drinke
 points that apply exclusively against nonlethal damage. Multiple doses of boulderhead bock stack, to
 a maximum alchemical bonus of +5 and a maximum of 20 temporary hit points.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (4 gold + 15 spirit of
-wine)/fermentation; **Craft DC** 19\
-**Time** 1 week; **Tools** [brewer's kit](ref/eq-misc/brewers-kit); **Type** alcohol
+::: statblock
+Spontaneous Alchemy Recipe: [(4 gold + 15 spirit of wine)/fermentation](ref/rule/spontaneous-alchemy)
+Craft DC: 19
+Time: 1 week
+Tools: [brewer's kit](ref/eq-misc/brewers-kit)
+Type: alcohol
+:::

@@ -41,8 +41,10 @@ Increases the caster level of divination spells by 1.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-creator must be 12th level; **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), creator must be 12th level
+Cost: 500 gp
+:::
 
 ### Flawed Ioun Stone
 

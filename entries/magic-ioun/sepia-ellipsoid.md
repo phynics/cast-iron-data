@@ -50,6 +50,7 @@ stored ioun stones.
 
 #### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mage's disjunction](ref/spell/mages-disjunction), [regenerate](ref/spell/regenerate),
-[water breathing](ref/spell/water-breathing), creator must be 12th level; **Cost** 34,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mage's disjunction](ref/spell/mages-disjunction), [regenerate](ref/spell/regenerate), [water breathing](ref/spell/water-breathing), creator must be 12th level
+Cost: 34,000 gp
+:::

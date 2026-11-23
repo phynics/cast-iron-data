@@ -20,7 +20,9 @@ category = "Spellbooks"
 _The front cover of this tome is as black as night, while the back cover is ivory white. An
 eye-shaped symbol graces both covers._
 
-**Value** 1,940 gp (2,200 gp with the preparation ritual)
+::: statblock
+Value: 1,940 gp (2,200 gp with the preparation ritual)
+:::
 
 #### Spells
 

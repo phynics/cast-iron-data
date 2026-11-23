@@ -171,10 +171,11 @@ drowned sailor for the water spirit and running it as a haunt.
 This lost soul has never accepted the sinking of its ship in life. It uses models of ships in
 bottles to make up for the failure that betrayed its ship, its fellow crew members, and its captain.
 
+#### Bottled Shipyard
+
 LE persistent haunt (35-ft.-radius cabin on a vessel or room near docks)
 
 ::: statblock
-title = "Bottled Shipyard"
 Challenge rating: 7
 XP: 3,600
 Caster Level: 10th

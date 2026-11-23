@@ -53,7 +53,12 @@ Price: 500 gp
 
 ### Statistics
 
-**Alignment** chaotic good; **Ego** 17\
-**Senses** 30 ft.\
-**Int** 14, **Wis** 12, **Cha** 18\
-**Communication** speech (Common and four other languages)
+::: statblock
+Alignment: chaotic good
+Ego: 17
+Senses: 30 ft.
+Int: 14
+Wis: 12
+Cha: 18
+Communication: speech (Common and four other languages)
+:::

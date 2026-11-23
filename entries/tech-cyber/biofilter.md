@@ -28,7 +28,11 @@ Implantation: 3
 
 ### Construction
 
-**Craft DC** 25; **Cost** 8,000 gp\
+::: statblock
+Craft DC: 25
+Cost: 8,000 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A nanite matrix is installed in the kidneys and liver to help purge the body of toxins. A biofilter

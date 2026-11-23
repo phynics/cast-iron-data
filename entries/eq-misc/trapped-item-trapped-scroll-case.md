@@ -30,22 +30,32 @@ series of small and easy-to-use trapped items. These replica items have traps bu
 can be armed in a standard action. They're self-contained, single-use, and as easily transportable
 as the items they mimic.
 
-**Trapped Disguise Kit**\
-**Type** mechanical; **Perception** DC 25; **Disable Device** DC 25\
-**Effects**\
-**Trigger** touch; **Reset** repair\
-**Effect** scent mark; never miss; onset delay (1 round)
+::: statblock
+title = "Trapped Disguise Kit"
+Type: mechanical
+Perception: DC 25
+Disable Device: DC 25
+Effects:
+Trigger: touch
+Reset: repair
+Effect: scent mark; never miss; onset delay (1 round)
+:::
 
 This appears to be a normal disguise kit, except that if any of the makeup or false facial hair is
 applied, the victim is marked with a strong scent. This scent mark decreases the DC of tracking the
 victim by scent by 4. The mark can be washed off with vigorous scrubbing, but otherwise fades on its
 own over several days.
 
-**Trapped Scroll Case**\
-**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20\
-**Effects**\
-**Trigger** touch; **Reset** none\
-**Effect** poison gas (Ungol dust)
+::: statblock
+title = "Trapped Scroll Case"
+Type: mechanical
+Perception: DC 20
+Disable Device: DC 20
+Effects:
+Trigger: touch
+Reset: none
+Effect: poison gas (Ungol dust)
+:::
 
 This seemingly innocuous scroll case contains a glass pellet filled with gaseous poison. This pellet
 breaks when the case is opened, filling a 5-foot square with toxic gas. This poisonous cloud

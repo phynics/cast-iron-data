@@ -47,7 +47,12 @@ Price: 27,262 gp
 
 ### Statistics
 
-**Alignment** chaotic neutral; **Ego** 14\
-**Senses** 30 ft., [darkvision](ref/rule/darkvision)\
-**Int** 10, **Wis** 16, **Cha** 14\
-**Communication** speech (Common)
+::: statblock
+Alignment: chaotic neutral
+Ego: 14
+Senses: 30 ft., [darkvision](ref/rule/darkvision)
+Int: 10
+Wis: 16
+Cha: 14
+Communication: speech (Common)
+:::

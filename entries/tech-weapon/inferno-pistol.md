@@ -32,7 +32,11 @@ Special: [Touch](ref/misc/touch)
 
 ### Construction
 
-**Craft DC** 21; **Cost** 2,500 gp\
+::: statblock
+Craft DC: 21
+Cost: 2,500 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [nanotech lab](ref/rule/crafting-laboratories)
 

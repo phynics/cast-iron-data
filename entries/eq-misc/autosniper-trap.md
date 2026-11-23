@@ -35,8 +35,13 @@ work.
 
 This can be crafted with a DC 25 Craft (traps) check.
 
-**Autosniper Trap**\
-**Type** mechanical; **Perception** DC 15; **Disable Device** DC 15\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** Atk +5 ranged (damage varies by crossbow)
+::: statblock
+title = "Autosniper Trap"
+Type: mechanical
+Perception: DC 15
+Disable Device: DC 15
+Effects:
+Trigger: touch
+Reset: manual
+Effect: Atk +5 ranged (damage varies by crossbow)
+:::

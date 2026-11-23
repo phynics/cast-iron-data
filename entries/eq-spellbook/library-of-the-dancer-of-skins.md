@@ -22,7 +22,9 @@ tied in an intricate knot. Inside, the writing is expansive and sloppy, filled w
 author's notes indicate clear excitement about her discoveries, and while the thinker is obviously
 brilliant, she is also apparently undisciplined._
 
-**Value** 16,435 gp (20,710 gp with the preparation ritual)
+::: statblock
+Value: 16,435 gp (20,710 gp with the preparation ritual)
+:::
 
 #### Spells
 

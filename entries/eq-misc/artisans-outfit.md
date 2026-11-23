@@ -34,9 +34,12 @@ in various specialized and often manual trades, such as baking, carpentry, and o
 professions. This outfit includes a shirt with buttons, a skirt or pants with a drawstring, shoes,
 and perhaps a cap or hat. It may also include a belt or a leather or cloth apron for carrying tools.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

@@ -29,7 +29,10 @@ later (a result of 0 rounds takes place at the end of your turn), the shriek bom
 half). A shriek bomb can be thrown as a [splash weapon](ref/rule/throw-splash-weapon) with a range
 of 10 feet.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 magnesium + 30 myrrh + 5
-saltpeter)/congelation; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(20 magnesium + 30 myrrh + 5 saltpeter)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

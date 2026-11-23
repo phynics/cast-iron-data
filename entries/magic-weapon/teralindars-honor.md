@@ -46,7 +46,12 @@ Price: 24,435 gp
 
 ### Statistics
 
-**Alignment** chaotic neutral; **Ego** 17\
-**Senses** 60 ft., [darkvision](ref/rule/darkvision), read magic\
-**Int** 20, **Wis** 13, **Cha** 14\
-**Communication** not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)
+::: statblock
+Alignment: chaotic neutral
+Ego: 17
+Senses: 60 ft., [darkvision](ref/rule/darkvision), read magic
+Int: 20
+Wis: 13
+Cha: 14
+Communication: not listed (Aklo, Azlanti, Common, Draconic, Kelish, Vudrani)
+:::

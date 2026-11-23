@@ -33,6 +33,10 @@ things. Its attitude toward its master might change drastically during this time
 the master has treated it in the past. As soon as the duration of this effect ends, the creature
 becomes bound to its master's will again.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (8 dew of lunary + 10 gold + 22
-spirit of wine)/sublimation; **Craft DC** 25\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(8 dew of lunary + 10 gold + 22 spirit of wine)/sublimation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical remedy
+:::

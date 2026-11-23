@@ -35,5 +35,7 @@ _[detect poison](ref/spell/detect-poison)_ spell.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect poison](ref/spell/detect-poison), creator must be 12th level; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect poison](ref/spell/detect-poison), creator must be 12th level
+Cost: 4,000 gp
+:::

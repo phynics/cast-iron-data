@@ -38,8 +38,10 @@ this distance, such as making [Acrobatics](ref/skill/acrobatics) checks or falli
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), creator must be 12th level; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), creator must be 12th level
+Cost: 2,500 gp
+:::
 
 ### Flawed Ioun Stone
 

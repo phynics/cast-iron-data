@@ -33,9 +33,13 @@ target wearing metal armor or a target made of metal, but the magnetized arrow d
 damage on a successful hit. The increased magnetism fades 1 round after you activate a lodestone
 arrow, after which it becomes a normal arrow.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (8 myrrh + 6 salt + 4
-silver)/exposure; **Craft DC** 25\
-**Time** 1 hour; **Tools** -; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(8 myrrh + 6 salt + 4 silver)/exposure](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: -
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds and
 assuming these "heavy iron" arrows weight double that. The source material lists weight as —.

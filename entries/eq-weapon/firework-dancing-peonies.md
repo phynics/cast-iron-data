@@ -27,6 +27,10 @@ This dinner-plate-sized packet contains three
 [jumping jennies](ref/eq-weapon/firework-jumping-jenny), each of which moves independently of the
 others for 1d6 rounds after the packet detonates.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (3 black powder + 20 magnesium + 3
-saltpeter)/calcination; **Craft DC** 18\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(3 black powder + 20 magnesium + 3 saltpeter)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 18
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

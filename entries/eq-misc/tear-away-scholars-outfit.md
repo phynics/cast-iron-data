@@ -33,9 +33,12 @@ Category: Clothing
 
 Perfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

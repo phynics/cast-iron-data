@@ -33,6 +33,10 @@ the area are [deafened](ref/misc/deafened) and sickened for 1 round (Fortitude D
 drinker must wait 1d4 rounds before belching again, but can belch as often as desired for up to 10
 minutes after drinking a wyrm's breath bitter.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (2 black powder + 10 brimstone + 20
-spirit of wine)/digestion; **Craft DC** 21\
-**Time** 1 week; **Tools** [brewer's kit](ref/eq-misc/brewers-kit); **Type** alcohol
+::: statblock
+Spontaneous Alchemy Recipe: [(2 black powder + 10 brimstone + 20 spirit of wine)/digestion](ref/rule/spontaneous-alchemy)
+Craft DC: 21
+Time: 1 week
+Tools: [brewer's kit](ref/eq-misc/brewers-kit)
+Type: alcohol
+:::

@@ -27,7 +27,11 @@ Implantation: 2
 
 ### Construction
 
-**Craft DC** 34; **Cost** 2,500 gp\
+::: statblock
+Craft DC: 34
+Cost: 2,500 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 An implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those

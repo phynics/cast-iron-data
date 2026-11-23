@@ -42,10 +42,13 @@ once-mortal god.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 10, **Cha** 12\
-**Communication** empathy\
-**Powers** 3/day - [alter self](ref/spell/alter-self), [dominate person](ref/spell/dominate-person)
-(DC 17), [major image](ref/spell/major-image) (DC 17), [mirror image](ref/spell/mirror-image),
-[mislead](ref/spell/mislead) (DC 19)
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 10
+Cha: 12
+Communication: empathy
+Powers: 3/day - [alter self](ref/spell/alter-self), [dominate person](ref/spell/dominate-person) (DC 17), [major image](ref/spell/major-image) (DC 17), [mirror image](ref/spell/mirror-image), [mislead](ref/spell/mislead) (DC 19)
+:::

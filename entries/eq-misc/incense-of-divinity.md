@@ -29,6 +29,10 @@ augmented mythic spell), even if you're normally unable to cast the mythic versi
 Incense of divinity burns for 1 hour; you can prepare as many mythic spells as you are able to
 during this time, but you must expend two uses of mythic power for each mythic spell so prepared.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (50 dew of lunary + 150
-phosphorus)/exposure; **Craft DC** 30\
-**Time** 1 hour; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(50 dew of lunary + 150 phosphorus)/exposure](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 hour
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical tool
+:::

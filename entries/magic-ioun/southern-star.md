@@ -39,6 +39,7 @@ Can breathe water for 10 minutes a day (in 1-minute increments)
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch of the sea](ref/spell/touch-of-the-sea), creator must be at least 12th level; **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch of the sea](ref/spell/touch-of-the-sea), creator must be at least 12th level
+Cost: 4,000 gp
+:::

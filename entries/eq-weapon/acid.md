@@ -34,6 +34,10 @@ as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1
 damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage
 from the splash.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (10 brimstone + 8 salt + 1
-saltpeter)/distilation; **Craft DC** 15\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(10 brimstone + 8 salt + 1 saltpeter)/distilation](ref/rule/spontaneous-alchemy)
+Craft DC: 15
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical weapon
+:::

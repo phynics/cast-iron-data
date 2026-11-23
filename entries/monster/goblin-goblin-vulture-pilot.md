@@ -172,8 +172,6 @@ Combat maneuver bonus: +5
 Combat maneuver defense: 18
 Feats: Flyby Attack, Power Attack
 Skills: Fly +10, Perception +7
-Racial Modifiers: +4 Ride, +4 Stealth
-Languages: Common, Giant, Gnoll, Goblin
 Special qualities: tricks (attack, come, defend, down, guard, stay)
 Gear: flying straps
 :::

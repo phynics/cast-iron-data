@@ -50,8 +50,10 @@ spell levels per day using this ability.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 18,000 gp
+:::
 
 ### Flawed Ioun Stone
 

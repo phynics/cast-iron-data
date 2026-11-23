@@ -30,8 +30,11 @@ Implantation: 2 (Mark I), 4 (Mark II), 8 (Mark III)
 
 ### Construction
 
-**Craft DC** 24 (Mark I), DC 28 (Mark II), DC 32 (Mark III); **Cost** 4,000 gp (Mark I), 16,000 gp
-(Mark II), 36,000 gp (Mark III)\
+::: statblock
+Craft DC: 24 (Mark I), DC 28 (Mark II), DC 32 (Mark III)
+Cost: 4,000 gp (Mark I), 16,000 gp (Mark II), 36,000 gp (Mark III)
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 Wirejack tendons not only strengthen and enhance existing reflexes, but also enhance the

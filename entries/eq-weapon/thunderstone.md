@@ -39,6 +39,10 @@ verbal component that it tries to cast.
 Since you don't need to hit a specific target, you can simply aim at a particular 5-foot square.
 Treat the target square as AC 5. Crafting this item is a DC 25 Craft (alchemy) check.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (7 saltpeter + 15 silver)/digestion;
-**Craft DC** 25\
-**Time** 1 day; **Tools** heat source; **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(7 saltpeter + 15 silver)/digestion](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: heat source
+Type: alchemical weapon
+:::

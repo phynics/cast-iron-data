@@ -32,6 +32,10 @@ slot at least 2 levels lower than the highest-level spell you can cast. You must
 class feature and the class feature you want to regain uses of in order to benefit from tea of
 transference.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (5 gold + 5 realgar + 15 spirit of
-wine)/sublimation; **Craft DC** 20\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(5 gold + 5 realgar + 15 spirit of wine)/sublimation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical remedy
+:::

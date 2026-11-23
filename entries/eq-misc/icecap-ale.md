@@ -35,6 +35,10 @@ Additional doses of icecap ale imbibed during the hour following an initial dose
 to become [sickened](ref/misc/sickened) for 1 minute (instead of gaining a bonus to Strength and
 Constitution) and to suffer all the negative effects of icecap ale.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (50 spirit of wine + 40
-urea)/distillation; **Craft DC** 20\
-**Time** 1 week; **Tools** [brewer's kit](ref/eq-misc/brewers-kit); **Type** alcohol
+::: statblock
+Spontaneous Alchemy Recipe: [(50 spirit of wine + 40 urea)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 week
+Tools: [brewer's kit](ref/eq-misc/brewers-kit)
+Type: alcohol
+:::

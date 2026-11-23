@@ -22,7 +22,11 @@ Price: 500 gp
 
 ### Construction
 
-**Craft DC** 25; **Cost** 250 gp\
+::: statblock
+Craft DC: 25
+Cost: 250 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 The glass receptacle of this injector contains 1 dose of a bright-yellow serum. When injected into a

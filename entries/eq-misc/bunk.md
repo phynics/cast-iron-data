@@ -34,6 +34,10 @@ dose of a drug containing bunk, the creature must attempt a Fortitude save (DC 1
 causes the creature to become [sickened](ref/misc/sickened) for 1d4 hours and take 1d2 points of
 ability damage to a random ability score.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 salt + 1 urea)/filtration; **Craft
-DC** 15\
-**Time** 10 minutes; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(1 salt + 1 urea)/filtration](ref/rule/spontaneous-alchemy)
+Craft DC: 15
+Time: 10 minutes
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical tool
+:::

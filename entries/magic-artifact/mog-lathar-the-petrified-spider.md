@@ -53,7 +53,12 @@ hammer will turn the idol to dust.
 
 ### Statistics
 
-**Alignment** CE; **Ego** 20\
-**Senses** 120 ft., [darkvision](ref/rule/darkvision)\
-**Int** 14, **Wis** 16, **Cha** 18\
-**Communication** speech (Abyssal, Aklo, Common)
+::: statblock
+Alignment: CE
+Ego: 20
+Senses: 120 ft., [darkvision](ref/rule/darkvision)
+Int: 14
+Wis: 16
+Cha: 18
+Communication: speech (Abyssal, Aklo, Common)
+:::

@@ -48,8 +48,10 @@ environment, though he is still helpless against undetected threats until he act
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Cracked Ioun Stone
 

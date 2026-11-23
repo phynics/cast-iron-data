@@ -31,7 +31,7 @@ Usage (DIR defaults to the repository root):
                                                              fix is not applied, or the TSV is stale
     python3 scripts/stat-blocks-166.py --self-test           run the built-in tests
 
-    --pass sources[,creature,npc,item,siege]
+    --pass sources[,creature,npc,item,siege,shield]
                                  which passes run (default: every pass this version implements;
                                  `sources` runs first, so one `--write` moves the citation and then
                                  converts what it unblocked)
@@ -284,6 +284,99 @@ V3  Queue. A paragraph with a line without a label, a sentence value, a label tw
     The proof (`prove_siege`) reads the words of the body before and after, with the title read as
     the bold size name, and finds every other paragraph again byte for byte, in order.
 
+The other variant kinds share one driver (`convert_variants`) and one proof (`prove_variants`):
+
+W1  A kind says which paragraphs it converts and with what title (`plan_*`); the driver makes one
+    stat block for each, where the paragraph stands. Rows are read as in the item rules I3 to I5
+    (`vrows`); a label with one link keeps its text and the link moves onto the value (`link_labels`);
+    a `,` before the labels a kind lists (`Wis`, `Cha`) goes like a `;`.
+W2  Queue (whole file, unchanged): a line without a label, a label twice, a sentence value, a
+    `**Sources:**` line, a label that needs escaping, blank lines the reader would not write back,
+    and a block that carries `Price`, `Weight`, `Slot`, `Aura` or `CL` while no block before it has
+    that label (`no-lead-row`): the drift check reads the first row of each, so a variant must
+    never become the first one.
+W2b Hardening (Muse review of #240). A label `Sources` anywhere in a variant line, or inside the
+    tail kept below a block, queues the file (`sources-line-in-variant`): a citation never becomes a
+    row. A linked label must be exactly its link text; words outside the link queue (`linked-label`)
+    unless the kind lists the whole label (`partial_labels`; only the recipe label does). A variant
+    paragraph with a `Price` or `Slot` row equal to the entry's own first row of that label stays
+    prose, unchanged (ruling 2). `scripts/stat-blocks-replay-166.py` runs the converters again on the
+    pre-image of every merged variant PR and compares with what was merged.
+W3  The proof, read apart from the converter: the new body is the old body with exactly the swapped
+    paragraphs; for each swap the words are the same (links reduced to their text, a bold label read
+    as `Label:`, the title read as a bold name) and the multiset of link targets is the same; a
+    Weapon Group row is one link per group, each to its own section; no heading changes. A title
+    that is the label of the paragraph above (`printed_before`) must be that label.
+
+`shield` (`eq-armor`, `eq-armorenh`, 13 entries): the statistics of a shield bash. Twelve shields
+print them as a paragraph directly under `**Shield Bash Attacks:**`, with no heading of their own;
+the block is titled `Shield Bash Attacks`, the printed name of that paragraph, and the paragraph
+above must open with it. The shield spikes print two paragraphs, `Light shield` and `Heavy shield`:
+each becomes a block with its printed name as the title.
+
+`recipe` (every item folder, 73 entries): the alchemical recipe paragraph, `**[Spontaneous
+Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 quicksilver + 10 realgar)/distillation; **Craft
+DC** 20` and the line of `Time`, `Tools` and `Type`. It is not a variant with a printed name, so
+the block is untitled and stands where the paragraph stands. The label is plain and the link moves
+onto the value (the recipe), as for the weapon groups; one entry (`poison-diffuser`) prints the
+label without the link. The poison recipes print `**Craft** DC 13`,
+with `DC` outside the bold; the row is kept as printed (`Craft: DC 13`).
+
+`tearaway` (`eq-misc`, 37 entries): the outfits that print a `Tear-away clothing` variant, its name
+alone on the first line and then `Price +5 gp; Weight -` and `Category`. The block takes the
+printed name as its title. Its `Price` and `Weight` rows follow the entry's own block, which
+the drift check reads first.
+
+`intelligent` (every item folder, 65 entries): the statistics of an intelligent item, the paragraph
+`**Alignment** …; **Ego** …`, `Senses`, `Int, Wis, Cha`, `Communication` and the lines after them, directly under
+`### Statistics`. One untitled block under that heading, which stays. The `,` before `Wis` and
+`Cha` goes (three rows, as the NPC `Str`…`Cha` line); a linked label (`Special Purpose`) is plain
+and the link moves onto the value. A line without a label (the lists of a `Powers` or `Spell-Like
+Abilities` line) queues the file, which stays prose for a hand review.
+
+`ioun` (every item folder, 51 entries, all `magic-ioun`): the Construction of an ioun stone prints
+under `#### Construction`, one level below the `### Construction` that item rule I8 reads. The
+paragraph `**Requirements** …; **Cost** …` directly under it becomes an untitled block under that
+heading, which stays. The `Flawed Ioun Stone` and `Cracked Ioun Stone` paragraphs (`**Price** 800 gp`
+and a sentence) restate the entry's own `Price` and stay prose.
+
+`spellbook` (`eq-spellbook`, 41 entries): the paragraph that opens with `**Opposition**`,
+`**Protection**` or `**Value**` (any of them, in that order) under the `### Level N …` heading
+of a spellbook. One untitled block where it stands. No other label is read, and the value of a
+`Protection` may be a sentence (the books print their wards in prose), which the sentence rule
+would otherwise refuse (`sentences`).
+
+`figurine` (`magic-wondrous`, 23 entries, the figurines of wondrous power): after the list of the
+Ivory Goats the book prints `**CL** 11th; Craft Wondrous Item, _animate objects_.` One untitled
+block with the one row `CL`, whose value is kept as printed with its requirements tail; the label
+is not renamed. The entry's own block (`CL: varies`) comes first, so the drift check keeps reading it.
+
+`cost` (`eq-weapon`, `magic-fleshcraft`, 22 entries expected): a paragraph that opens with
+`**Cost**`. The bows print `**Cost** 225 gp (+1), 325 gp (+2), …` under `### Composite Bows`: one
+untitled block where the paragraph stands. The `Composite longbow +N` headings of the composite
+bows print `**Cost** 200gp` and, at +0, the whole weapon: a file whose first block with `Cost` or
+`Weight` would be one of those queues (`no-lead-row`), so a variant never becomes the first row. The
+fleshcraft items print `**Cost** 1,000 gp` and then a line without a label (`Fleshwarper, Craft
+(alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp`) under `### Creation Requirements`: the
+labelled lines become the block, and the line without a label stays a paragraph below it, unchanged,
+as for the technological Construction (ruling 3). No label is invented.
+
+`trap` (`eq-misc`, 11 entries): the statistics of a trap, printed as lines that open with
+`**Type**` and run through `**Trigger**`, `**Reset**` and `**Effect**`, with the name of the trap
+alone on the first line when there is one (`**Bear Trap - CR 1**`). The block takes the printed
+name, `CR` included, as its title, or none when none is printed. Only the labels `Type`,
+`Perception`, `Disable Device`, `Effects`, `Trigger`, `Reset` and `Effect` are read (the `Effect` of a
+trap is prose, so the sentence rule is off for it), and the empty `Effects` row stays as printed.
+Where the import dropped the bold of a label (`Type** mechanical; Perception DC 20`), the label stays
+inside the value as printed.
+
+`techcons` (`tech-*`, 250 entries; it was applied one folder at a time, `VARIANT_ONLY`, and now covers all): the
+Construction of a technological item prints `**Craft DC** 21; **Cost** 4,000 gp` and then a line
+with no label (`Craft Technological Item, …`, and the lab). Owner ruling 3 (amending item ruling
+10): `Craft DC` and `Cost` become one untitled block under `### Construction`, which stays, and the
+line without a label stays a paragraph below it, unchanged. No `Requirements` label is added.
+The block carries no drift label.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -324,7 +417,7 @@ APPLIED: list[tuple[str, str | None]] = [
     ("npc", None),
     ("item", None),
     ("siege", None),
-]
+]  # the variant kinds join it below
 
 PASS_FOLDERS = {
     "sources": ("monster", "npc", "*"),
@@ -336,7 +429,7 @@ PASS_FOLDERS = {
 }
 PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item", "siege": "item"}
 NOT_ITEM_FOLDERS = ("carried", "monster", "npc")
-KNOWN_PASSES = ("sources", "creature", "npc", "item", "siege", "fixes")
+KNOWN_PASSES = ("sources", "creature", "npc", "item", "siege", "fixes")  # the variant kinds join it below
 
 # Rule S: the zones of a body whose raw `**Sources:**` lines the pass handles now, and the label.
 SOURCES_LABEL = "**Sources:**"
@@ -477,6 +570,15 @@ PRINT_FIXES = (
         ((
             "page = \"13\"\n\n[fields]",
             "page = \"13-14\"\n\n[fields]",
+        ),),
+    ),
+    (
+        "entries/magic-wondrous/remote-activation-cube.md",
+        "Classic Treasures Revisited p. 14",
+        "row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body",
+        ((
+            "page = \"14\"\n\n[fields]",
+            "page = \"14\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"13\"\n\n[fields]",
         ),),
     ),
 )
@@ -1662,6 +1764,422 @@ def prove_siege(body: str, new_body: str) -> None:
         raise ProofFailed("a heading changed")
 
 
+# ---- the variant passes, shared part (owner ruling 2 of 2026-11-23) ---------------------------------
+
+DRIFT_LABELS = ("Price", "Weight", "Slot", "Aura", "CL")  # the labels `drift.rs` reads from the first block that has them
+LINK_MARKUP = re.compile(r"\[([^\]]+)\]\(([^)]+)\)")
+SECTION_HEADING = re.compile(r"#{1,6} ")
+
+
+def vrows(
+    segment: str,
+    commas: tuple[str, ...] = (),
+    link_labels: bool = False,
+    partial_labels: tuple[str, ...] = (),
+) -> list[tuple[str, str]]:
+    """The rows of one line of a variant paragraph (item rules I3 to I5, plus two cases the
+    variant kinds need: a `,` before the labels in `commas`, and with `link_labels` a label that
+    is exactly one link, whose link moves onto the value). A label with words outside its link
+    (`[Spontaneous Alchemy](…) Recipe`) queues unless the kind lists it in `partial_labels`. A
+    label `Sources`, at the start of the line or anywhere inside it, queues the file: a citation
+    never becomes a row (ruling 1)."""
+    flat = join_wrapped(segment.split("\n"))
+    found = list(ITEM_LABEL.finditer(flat))
+    if not found or found[0].start() != 0:
+        raise Queue("unlabelled-line", flat[:40])
+    rows = []
+    for position, match in enumerate(found):
+        raw = match.group(1)
+        if LINK_MARKUP.sub(r"\1", raw).strip().rstrip(":").strip().lower() == "sources":
+            raise Queue("sources-line-in-variant", flat[:40])
+        following = found[position + 1].group(1) if position + 1 < len(found) else None
+        end = found[position + 1].start() if following is not None else len(flat)
+        value = flat[match.end():end]
+        if following is not None:
+            if re.search(r";\s*$", value):
+                value = value[: re.search(r";\s*$", value).start()]
+            elif following in commas and re.search(r",\s*$", value):
+                value = value[: re.search(r",\s*$", value).start()]
+            elif not (raw == "Cost" and following == "Weight"):
+                raise Queue("label-without-separator", following[:40])
+        value = value.strip()
+        if raw == WEAPON_GROUP_LABEL:
+            rows.append(("Weapon Group", weapon_group_value(value)))
+            continue
+        if "](" in raw:
+            links = LINK_MARKUP.findall(raw)
+            exact = LINK_MARKUP.fullmatch(raw) is not None
+            if not link_labels or len(links) != 1 or not (exact or raw in partial_labels) or not value or "[" in value or "](" in value:
+                raise Queue("linked-label", raw[:60])
+            raw = LINK_MARKUP.sub(r"\1", raw)
+            value = f"[{value}]({links[0][1]})"  # the link moves onto the value
+        if raw.endswith(":"):
+            raise Queue("colon-label", raw)
+        label = npc_label(raw)
+        if value.endswith("\\") or GUARDED.match(value):
+            raise Queue("escaped-edge", label)
+        rows.append((label, value))
+    return rows
+
+
+def variant_block(
+    chunk: list[str],
+    title: str | None = None,
+    commas: tuple[str, ...] = (),
+    link_labels: bool = False,
+    sentences: bool = False,
+    allowed: tuple[str, ...] = (),
+    partial_labels: tuple[str, ...] = (),
+) -> tuple[str, list[str]]:
+    """(the stat block, its labels) for the lines of a statistics paragraph. `title` is the printed
+    variant name. A `**Sources:**` line or a sentence value (unless `sentences`) queues the file, and
+    so does a label outside `allowed` when that list is given."""
+    rows: list[tuple[str, list[str]]] = []
+    for segment in "\n".join(chunk).split("\\\n"):
+        if segment.startswith("**Sources:**"):
+            raise Queue("sources-line-in-variant")
+        found = vrows(segment, commas, link_labels, partial_labels)
+        if not sentences and any(is_sentences(value) for _, value in found):
+            raise Queue("sentences-in-variant", found[0][0])
+        rows.extend((label, [value]) for label, value in found)
+    labels = [label for label, _ in rows]
+    if not rows or len(set(labels)) != len(labels):
+        raise Queue("label-twice" if rows else "prose-variant", labels[0] if labels else "")
+    if allowed and any(label not in allowed for label in labels):
+        raise Queue("unexpected-label", next(label for label in labels if label not in allowed))
+    return render_block(title, rows), labels
+
+
+def bold_title(line: str) -> str | None:
+    """`**Name**` with a trailing break: the printed name of a variant alone on its line."""
+    found = re.fullmatch(r"\*\*([^*:\[\]]+)\*\*\\", line)
+    return found.group(1) if found else None
+
+
+def variant_tokens(text: str, commas: tuple[str, ...] = ()) -> list[str]:
+    """The words of a statistics paragraph or of stat blocks, in one form: links reduced to their
+    text, a bold label read as `Label:`, the `;` (and the `,` of `commas`) before a label dropped,
+    and the title line of a block read as the bold name of a variant."""
+    text = LINK_MARKUP.sub(r"\1", text).replace("\\\n", "\n")
+    text = re.sub(r"^::: statblock$|^:::$", "", text, flags=re.M)
+    text = re.sub(r'^title = "([^"]+)"$', r"\1:", text, flags=re.M)
+    for label in commas:
+        text = re.sub(r",(\s*\*\*" + re.escape(label) + r"\*\*)", r"\1", text)
+    text = re.sub(r";?\s*\*\*([^*]*?):?\*\*", r" \1:", text)
+    return text.split()
+
+
+def link_targets(text: str) -> list[str]:
+    return sorted(target for _, target in LINK_MARKUP.findall(text))
+
+
+def prove_variants(
+    body: str,
+    new_body: str,
+    cs: list[list[str]],
+    swaps: dict[int, list[str]],
+    commas: tuple[str, ...],
+    printed_before: dict[int, str] | None = None,
+) -> None:
+    """Every changed paragraph is one of `swaps` (old index -> the new paragraphs), the new body is
+    the old one with exactly those swaps, the words and the link targets of each swap are the same
+    before and after, and no heading changes. `printed_before` names the swaps whose title is the
+    label of the paragraph above them (`**Shield Bash Attacks:**`): the title is then the one added
+    word group, and the paragraph above must open with it."""
+    printed_before = printed_before or {}
+    texts = ["\n".join(chunk) for chunk in cs]
+    rebuilt = "\n" + "\n\n".join("\n\n".join(swaps[i]) if i in swaps else text for i, text in enumerate(texts)) + "\n"
+    if rebuilt != new_body:
+        raise ProofFailed("the new body is not the old body with the swaps")
+    for index, new in swaps.items():
+        old_text, new_text = texts[index], "\n\n".join(new)
+        added = []
+        if index in printed_before:
+            if not texts[index - 1].startswith(f"**{printed_before[index]}:**"):
+                raise ProofFailed("the title is not the label of the paragraph above: " + printed_before[index])
+            added = (printed_before[index] + ":").split()
+        if added + variant_tokens(old_text, commas) != variant_tokens(new_text, commas):
+            expected, actual = added + variant_tokens(old_text, commas), variant_tokens(new_text, commas)
+            at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
+            raise ProofFailed(f"words differ at {at}: {expected[at:at + 6]} / {actual[at:at + 6]}")
+        check_weapon_group_rows(new_text)
+        if link_targets(old_text) != link_targets(new_text) and not weapon_group_swap(old_text, new_text):
+            raise ProofFailed("the link targets changed in: " + old_text[:60])
+    if heading_lines(new_body) != heading_lines(body):
+        raise ProofFailed("a heading changed")
+
+
+def check_weapon_group_rows(text: str) -> None:
+    """Item rule I5 read again: a `Weapon Group:` row is one link per group, each to the section of
+    its own group, and nothing else."""
+    link = r"\[([^\]]+)\]\(" + re.escape(WEAPON_GROUPS_ENTRY) + r"#([^)]+)\)"
+    for line in text.split("\n"):
+        if not line.startswith("Weapon Group: "):
+            continue
+        if not re.fullmatch(f"{link}(?:; {link})*", line[len("Weapon Group: "):]):
+            raise ProofFailed("a weapon group row is not one link per group: " + line)
+        for name, target in re.findall(link, line):
+            if WEAPON_GROUPS.get(name) != target:
+                raise ProofFailed("a weapon group links to another section: " + name)
+
+
+def weapon_group_swap(old: str, new: str) -> bool:
+    """The Weapon Group label link (`ref/ability/weapon-groups`) becomes one link per group, each to
+    a section of the same entry (item rule I5): the only change of link targets that is allowed
+    apart from a label link moving onto its value."""
+    drop = lambda text: [t for t in link_targets(text) if not t.startswith(WEAPON_GROUPS_ENTRY)]  # noqa: E731
+    return drop(old) == drop(new) and WEAPON_GROUP_LABEL in old and "Weapon Group:" in new
+
+
+def lead_first(chunks_out: list[str], index: int, labels: list[str], extra: tuple[str, ...] = ()) -> None:
+    """Drift reads the first row of each of `DRIFT_LABELS` in the body: a variant block that
+    carries one needs a block with it before it, or the file queues. A kind can name `extra`
+    labels that need the same."""
+    for label in labels:
+        if label in DRIFT_LABELS + extra and not any(
+            re.search(rf"^{re.escape(label)}:", chunk, re.M) for chunk in chunks_out[:index] if chunk.startswith("::: statblock")
+        ):
+            raise Queue("no-lead-row", label)
+
+
+RESTATED_LABELS = ("Price", "Slot")
+
+
+def own_rows(chunks_out: list[str], label: str) -> str | None:
+    """The value of the first `label:` row of the blocks before: the entry's own row."""
+    for chunk in chunks_out:
+        if chunk.startswith("::: statblock"):
+            found = re.search(rf"^{re.escape(label)}: (.*)$", chunk, re.M)
+            if found:
+                return found.group(1)
+    return None
+
+
+def restates_own_row(chunks_out: list[str], block: str) -> bool:
+    """Ruling 2: a variant row labelled `Price` or `Slot` whose value is the entry's own row
+    restates it. Such a paragraph stays prose, so the drift check reads the entry's own value."""
+    for label in RESTATED_LABELS:
+        found = re.search(rf"^{label}: (.*)$", block, re.M)
+        if found and found.group(1) == own_rows(chunks_out, label):
+            return True
+    return False
+
+
+def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
+    """The driver of a variant pass. `plan(cs)` returns {paragraph index: (title, block options)} for
+    the paragraphs the kind converts, or raises Queue; the block is made by `variant_block`."""
+    cs = chunks(body.split("\n"))
+    texts = ["\n".join(chunk) for chunk in cs]
+    if body != "\n" + "\n\n".join(texts) + "\n":
+        raise Queue("blank-lines")
+    chosen = plan(cs)
+    if not chosen:
+        return body
+    swaps: dict[int, list[str]] = {}
+    printed_before: dict[int, str] = {}
+    out: list[str] = []
+    for index, chunk in enumerate(cs):
+        if index not in chosen:
+            out.append(texts[index])
+            continue
+        spec = chosen[index]
+        lines = chunk[1:] if spec.get("drop_first") else chunk
+        tail = None
+        if spec.get("tail"):
+            # The lines up to the first one without a label are the block; the rest stays a paragraph below it.
+            segments = "\n".join(lines).split("\\\n")
+            keep = next((i for i, seg in enumerate(segments) if not ITEM_LABEL.match(join_wrapped(seg.split("\n")))), len(segments))
+            if keep == 0:
+                raise Queue("unlabelled-line", segments[0][:40])
+            lines = "\\\n".join(segments[:keep]).split("\n")
+            tail = "\\\n".join(segments[keep:]) if keep < len(segments) else None
+        block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()), spec.get("partial_labels", ()))
+        if tail and "Sources:**" in tail:
+            raise Queue("sources-line-in-variant", tail[:40])
+        if restates_own_row(out, block):
+            out.append(texts[index])  # ruling 2: the paragraph stays prose
+            continue
+        lead_first(out, len(out), labels, spec.get("lead_labels", ()))
+        swaps[index] = [block] + ([tail] if tail else [])
+        if spec.get("printed_before"):
+            printed_before[index] = spec["title"]
+        out.append(block)
+        if tail:
+            out.append(tail)
+    new_body = "\n" + "\n\n".join(out) + "\n"
+    prove_variants(body, new_body, cs, swaps, commas, printed_before)
+    return new_body
+
+
+# ---- variant kind: shield bash (13) ---------------------------------------------------------------
+
+def plan_shield(cs: list[list[str]]) -> dict[int, dict]:
+    """K-shield. The statistics of a shield bash: the paragraph of `**Damage** ...` lines directly
+    under the paragraph `**Shield Bash Attacks:**` (title `Shield Bash Attacks`, the printed name of
+    the paragraph; no heading is printed there), and the two `**Light shield**` and `**Heavy
+    shield**` paragraphs of the shield spikes (the printed names). A weapon group label is split as
+    in item rule I5."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        if bold_title(chunk[0]) in ("Light shield", "Heavy shield") and len(chunk) > 1:
+            chosen[index] = {"title": bold_title(chunk[0]), "drop_first": True}
+        elif chunk[0].startswith("**Damage** ") and index and cs[index - 1][0].startswith("**Shield Bash Attacks:**"):
+            chosen[index] = {"title": "Shield Bash Attacks", "printed_before": True}
+    return chosen
+
+
+def classify_variant(plan, body: str) -> str:
+    return "paragraphs" if plan(chunks(body.split("\n"))) else "already"
+
+
+RECIPE_LABEL = "**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe**"
+
+
+def plan_recipe(cs: list[list[str]]) -> dict[int, dict]:
+    """K-recipe. The paragraph that opens with the linked label `Spontaneous Alchemy Recipe`
+    (alchemical items, weapons and poisons): one untitled block where it stands. The link moves
+    onto the value, which is the recipe itself (`(6 quicksilver + 10 realgar)/distillation`)."""
+    return {
+        index: {"link_labels": True, "partial_labels": (RECIPE_LABEL[2:-2],)}
+        for index, chunk in enumerate(cs)
+        if chunk[0].startswith((RECIPE_LABEL + " ", "**Spontaneous Alchemy Recipe** "))
+    }
+
+
+def plan_tearaway(cs: list[list[str]]) -> dict[int, dict]:
+    """K-tearaway. The paragraph `**Tear-away clothing**` alone on its first line, then the lines
+    `Price`, `Weight` and `Category`: a block titled with the printed name. The block carries
+    `Price` and `Weight`, so the entry's own block must come first (`no-lead-row` otherwise)."""
+    return {
+        index: {"title": "Tear-away clothing", "drop_first": True}
+        for index, chunk in enumerate(cs)
+        if bold_title(chunk[0]) == "Tear-away clothing" and len(chunk) > 1
+    }
+
+
+def plan_intelligent(cs: list[list[str]]) -> dict[int, dict]:
+    """K-intelligent. The paragraph directly under `### Statistics` that opens with `**Alignment**`
+    (the statistics of an intelligent item): one untitled block under the existing heading. The
+    `,` before `Wis` and `Cha` goes; a linked label (`Special Purpose`) keeps its text and the link
+    moves onto the value."""
+    return {
+        index: {"link_labels": True, "commas": ("Wis", "Cha")}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["### Statistics"] and chunk[0].startswith("**Alignment** ")
+    }
+
+
+def plan_ioun(cs: list[list[str]]) -> dict[int, dict]:
+    """K-ioun. The paragraph directly under a `#### Construction` heading that opens with
+    `**Requirements**` (the ioun stones print it one level below the `###` Construction of the
+    other items): one untitled block under that heading, which stays. The rows are `Requirements`
+    and `Cost`, as under `### Construction` (item rule I8)."""
+    return {
+        index: {}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["#### Construction"] and chunk[0].startswith("**Requirements** ")
+    }
+
+
+SPELLBOOK_LABELS = ("Opposition", "Protection", "Value")
+
+
+def plan_spellbook(cs: list[list[str]]) -> dict[int, dict]:
+    """K-spellbook. The paragraph of a spellbook that opens with `**Opposition**`, `**Protection**`
+    or `**Value**`: one untitled block where it stands, under the `### Level N …` heading. Only
+    those three labels are read; the `Protection` of some books is a sentence, and that is expected."""
+    return {
+        index: {"sentences": True, "allowed": SPELLBOOK_LABELS}
+        for index, chunk in enumerate(cs)
+        if any(chunk[0].startswith(f"**{label}** ") for label in SPELLBOOK_LABELS)
+    }
+
+
+def plan_figurine(cs: list[list[str]]) -> dict[int, dict]:
+    """K-figurine. The paragraph that opens with `**CL**` and goes on as prose (the figurines of
+    wondrous power print the caster level and the requirements of the Ivory Goats after their list,
+    `**CL** 11th; Craft Wondrous Item, _animate objects_.`): one untitled block with the row `CL`.
+    The value is kept as printed, the requirements tail included; the label is not renamed. The
+    block carries `CL`, so the entry's own block must come first."""
+    return {index: {} for index, chunk in enumerate(cs) if chunk[0].startswith("**CL** ")}
+
+
+def plan_cost(cs: list[list[str]]) -> dict[int, dict]:
+    """K-cost. A paragraph that opens with `**Cost**`. Under `### Creation Requirements` (the
+    fleshcraft items) the lines with a label are the block and the line without one stays a
+    paragraph below it, unchanged (the same shape as the technological Construction of ruling 3).
+    Anywhere else (the bows: `**Cost** 225 gp (+1), 325 gp (+2), …` under `### Composite Bows`, and
+    the `Composite longbow +N` headings) the paragraph is one untitled block where it stands, and
+    the entry needs a block with a `Cost` row before it, so a variant is never the first `Cost`."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        if not chunk[0].startswith("**Cost** "):
+            continue
+        if index and cs[index - 1] == ["### Creation Requirements"]:
+            chosen[index] = {"tail": True}
+        else:
+            chosen[index] = {"lead_labels": ("Cost",)}
+    return chosen
+
+
+TRAP_LABELS = ("Type", "Perception", "Disable Device", "Effects", "Trigger", "Reset", "Effect")
+
+
+def plan_trap(cs: list[list[str]]) -> dict[int, dict]:
+    """K-trap. The statistics of a trap: lines that open with `**Type**` and go on with a
+    `**Trigger**` line, with the name of the trap alone on the first line (`**Bear Trap - CR 1**`)
+    or without a name. The block takes the printed name as its title, and the name stays exactly as
+    printed, `CR` included. The values keep the labels the import left unbold (`mechanical;
+    Perception DC 20`). Only the labels in `TRAP_LABELS` are read; an `Effect` is prose."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        title = bold_title(chunk[0])
+        body = chunk[1:] if title else chunk
+        if body and body[0].startswith("**Type** ") and any(line.startswith("**Trigger** ") for line in body):
+            spec: dict = {"sentences": True, "allowed": TRAP_LABELS}
+            if title:
+                spec.update(title=title, drop_first=True)
+            chosen[index] = spec
+    return chosen
+
+
+def plan_techcons(cs: list[list[str]]) -> dict[int, dict]:
+    """K-techcons (owner ruling 3 of 2026-11-23). The paragraph directly under `### Construction`
+    of a technological item that opens with `**Craft DC**`: its labelled lines (`Craft DC` and
+    `Cost`) become one untitled block under the heading, which stays; the line without a label
+    (`Craft Technological Item, …` and the lab) stays a paragraph below the block, unchanged. No
+    `Requirements` label is added."""
+    return {
+        index: {"tail": True}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["### Construction"] and chunk[0].startswith("**Craft DC**")
+    }
+
+
+# name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
+VARIANT_KINDS = {
+    "techcons": (("tech-armor", "tech-artifact", "tech-cyber", "tech-misc", "tech-pharma", "tech-weapon"), plan_techcons, ()),
+    "trap": (("eq-misc",), plan_trap, ()),
+    "cost": (("eq-weapon", "magic-fleshcraft"), plan_cost, ()),
+    "figurine": (("magic-wondrous",), plan_figurine, ()),
+    "spellbook": (("eq-spellbook",), plan_spellbook, ()),
+    "ioun": (("*",), plan_ioun, ()),
+    "intelligent": (("*",), plan_intelligent, ("Wis", "Cha")),
+    "tearaway": (("eq-misc",), plan_tearaway, ()),
+    "recipe": (("*",), plan_recipe, ()),
+    "shield": (("eq-armor", "eq-armorenh"), plan_shield, ()),
+}
+VARIANT_PLANS = {name: plan for name, (_, plan, _) in VARIANT_KINDS.items()}
+VARIANT_COMMAS = {name: commas for name, (_, _, commas) in VARIANT_KINDS.items()}
+# The kinds applied to one slice of their folders so far: name -> the `--only` value of the slice (none at present: `techcons` now covers every folder).
+VARIANT_ONLY: dict[str, str] = {}
+for _name, (_folders, _, _) in VARIANT_KINDS.items():
+    PASS_FOLDERS[_name] = _folders
+    PASS_KIND[_name] = "item"
+    APPLIED.append((_name, VARIANT_ONLY.get(_name)))
+KNOWN_PASSES = KNOWN_PASSES[:-1] + tuple(VARIANT_KINDS) + ("fixes",)
+
+
 # ---- the sources pass ------------------------------------------------------------------------------
 
 
@@ -2107,6 +2625,13 @@ def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
             "npc": (classify_npc, convert_npc),
             "item": (classify_item, convert_item),
             "siege": (classify_siege, convert_siege),
+            **{
+                kind: (
+                    lambda body, plan=plan: classify_variant(plan, body),
+                    lambda body, plan=plan, kind=kind: convert_variants(body, plan, VARIANT_COMMAS.get(kind, ())),
+                )
+                for kind, plan in VARIANT_PLANS.items()
+            },
         }[name]
         state = classify(body)
         if state == "already":
@@ -2167,6 +2692,8 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
     for name in passes:
         for path in pass_files(root, name):
+            if name in VARIANT_ONLY and not selected(path, parse_only(VARIANT_ONLY[name])):
+                continue  # the kind is applied to one slice; the other folders are not in its queue yet
             rel = path.relative_to(root).as_posix()
             text = path.read_text(encoding="utf-8")
             if name == "sources":
@@ -2199,7 +2726,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
                     rows.append((rel, name, "block-ended-at-sentences", cut))
                 if construction_unlabelled(chunks(body.split("\n"))):
                     rows.append((rel, name, "construction-unlabelled", ""))
-            if name in ("item", "siege"):
+            if PASS_KIND.get(name) == "item":
                 continue
             for row in print_254_rows(split_front(text)[1]):
                 rows.append((rel, name, "print-254", row))
@@ -2284,7 +2811,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3162,6 +3689,356 @@ class SiegeSelfTest(unittest.TestCase):
             with self.subTest(name=name):
                 with self.assertRaises(ProofFailed):
                     prove_siege(self.BODY, bad)
+
+
+class VariantSelfTest(unittest.TestCase):
+    """The shared part of the variant passes and the kinds, one test group for each kind."""
+
+    SHIELD = (
+        "\n::: statblock\nCost: 20 gp\nWeight: 15 lbs.\n:::\n\nA shield.\n\n"
+        "**Shield Bash Attacks:** You can bash an opponent.\n\n"
+        "**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**\n"
+        "[performance](ref/misc/performance)\\\n"
+        "**Category** One-Handed; **Proficiency** Martial\\\n"
+        "**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Close\n"
+    )
+
+    def test_a_shield_bash_becomes_a_block_titled_with_the_printed_paragraph_name(self):
+        self.assertEqual(classify_variant(plan_shield, self.SHIELD), "paragraphs")
+        new = convert_variants(self.SHIELD, plan_shield)
+        self.assertIn(
+            '::: statblock\ntitle = "Shield Bash Attacks"\nDamage: 1d3 (small), 1d4 (medium)\nCritical: ×2\nRange: -\nType: B\n'
+            "Special: [performance](ref/misc/performance)\nCategory: One-Handed\nProficiency: Martial\n"
+            "Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Close](ref/ability/weapon-groups#sec-close)\n:::\n",
+            new,
+        )
+        self.assertTrue(new.startswith(self.SHIELD.split("**Damage**")[0]))
+        self.assertEqual(classify_variant(plan_shield, new), "already")
+
+    def test_the_shield_cases_the_rules_do_not_cover(self):
+        # No `Shield Bash Attacks:` paragraph above: nothing to convert.
+        self.assertEqual(classify_variant(plan_shield, self.SHIELD.replace("**Shield Bash Attacks:**", "**Bash:**")), "already")
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.SHIELD.replace("Blades, Light; Close", "Varies"), plan_shield)
+        self.assertEqual(caught.exception.reason, "weapon-group")
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.SHIELD.replace("**Category**", "A plain line\\\n**Category**"), plan_shield)
+        self.assertEqual(caught.exception.reason, "unlabelled-line")
+
+    def test_the_proof_catches_a_changed_value_a_wrong_group_and_a_title_without_its_paragraph(self):
+        cs = chunks(self.SHIELD.split("\n"))
+        swap = {3: [convert_variants(self.SHIELD, plan_shield).split("\n\n")[-1].rstrip("\n")]}
+        good = convert_variants(self.SHIELD, plan_shield)
+        for name, bad in {
+            "value": good.replace("Type: B", "Type: P"),
+            "group": good.replace("sec-close", "sec-heavy-blades"),
+            "extra link": good.replace("Special: [performance](ref/misc/performance)", "Special: [performance](ref/misc/other)"),
+        }.items():
+            with self.subTest(name=name):
+                with self.assertRaisesRegex(ProofFailed, "words differ|links to another|link targets"):
+                    prove_variants(self.SHIELD, bad, cs, {3: [bad.split("\n\n")[-1].rstrip("\n")]}, (), {3: "Shield Bash Attacks"})
+        with self.assertRaisesRegex(ProofFailed, "label of the paragraph above"):  # the paragraph above does not print the title
+            prove_variants(self.SHIELD, good, cs, swap, (), {3: "Shield Bash"})
+
+    def test_a_block_that_carries_a_drift_label_needs_a_block_with_it_before(self):
+        lead = "\n::: statblock\nPrice: 1 gp\n:::\n\n"
+        paragraph = "**Price** 5 gp; **Weight** -\n"
+        plan = lambda cs: {i: {} for i, chunk in enumerate(cs) if chunk[0].startswith("**Price**")}  # noqa: E731
+        with self.assertRaises(Queue) as caught:
+            convert_variants(lead + paragraph, plan)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Weight"))
+        convert_variants(lead.replace("Price: 1 gp", "Price: 1 gp\nWeight: 2 lbs.") + paragraph, plan)
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\nA line.\n\n" + paragraph, plan)
+        self.assertEqual(caught.exception.reason, "no-lead-row")
+
+    def test_a_label_link_moves_onto_the_value_and_a_comma_before_a_listed_label_goes(self):
+        partial = ("[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe",)
+        rows = vrows("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 realgar)/distillation; **Craft DC** 20", (), True, partial)
+        self.assertEqual(rows, [("Spontaneous Alchemy Recipe", "[(6 realgar)/distillation](ref/rule/spontaneous-alchemy)"), ("Craft DC", "20")])
+        with self.assertRaises(Queue):
+            vrows("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** 1", (), False)
+        with self.assertRaises(Queue):  # a value that has a link already cannot take a second one
+            vrows("**[A](ref/x/a) B** see [c](ref/x/c)", (), True)
+        self.assertEqual(vrows("**Int** 14, **Wis** 16, **Cha** 14", ("Wis", "Cha")), [("Int", "14"), ("Wis", "16"), ("Cha", "14")])
+        with self.assertRaises(Queue):
+            vrows("**Int** 14, **Wis** 16", ())
+
+
+    def test_the_driver_hardening(self):
+        # (a) `Sources` as any label of a line queues, in the middle of a line too, with a colon or without.
+        for line in (
+            "**Cost** 1 gp; **Sources:** Ultimate Equipment pg 5",
+            "**Cost** 1 gp; **Sources** Ultimate Equipment pg 5",
+            "**Sources:** Ultimate Equipment pg 5",
+            "**Cost** 1 gp; **[Sources](ref/x/y)** Ultimate Equipment pg 5",
+        ):
+            with self.subTest(line=line):
+                with self.assertRaises(Queue) as caught:
+                    vrows(line)
+                self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+        # (b) a linked label is exactly its link text, unless the kind lists the label.
+        for raw in ("**[Special Purpose](ref/x/sp)** slay all", ):
+            self.assertEqual(vrows(raw, (), True), [("Special Purpose", "[slay all](ref/x/sp)")])
+        for raw in (
+            "**[Special](ref/x/sp) Purpose** slay all",
+            "**The [Special Purpose](ref/x/sp)** slay all",
+            "**[Special Purpose](ref/x/sp) item** slay all",
+        ):
+            with self.subTest(raw=raw):
+                with self.assertRaises(Queue) as caught:
+                    vrows(raw, (), True)
+                self.assertEqual(caught.exception.reason, "linked-label")
+        # (c) a variant `Price` or `Slot` row that equals the entry's own stays prose; a different one converts.
+        lead = "\n::: statblock\nPrice: 30 gp\nSlot: none\n:::\n\n"
+        plan = lambda cs: {i: {} for i, chunk in enumerate(cs) if chunk[0].startswith(("**Price**", "**Slot**"))}  # noqa: E731
+        same = lead + "**Price** 30 gp; **Category** Tools\n"
+        self.assertEqual(convert_variants(same, plan), same)
+        self.assertEqual(convert_variants(lead + "**Slot** none\n", plan), lead + "**Slot** none\n")
+        other = convert_variants(lead + "**Price** 35 gp; **Category** Tools\n", plan)
+        self.assertTrue(other.endswith("::: statblock\nPrice: 35 gp\nCategory: Tools\n:::\n"), other)
+        # A `Sources` mention in the tail of a split paragraph queues too.
+        tail_plan = lambda cs: {i: {"tail": True} for i, chunk in enumerate(cs) if chunk[0].startswith("**Cost**")}  # noqa: E731
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n**Cost** 1 gp\\\nA line; **Sources:** Ultimate Equipment pg 5\n", tail_plan)
+        self.assertEqual(caught.exception.reason, "sources-line-in-variant")
+
+
+class RecipeSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 30 gp\nWeight: -\n:::\n\nThe liquid.\n\n"
+        "**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 quicksilver + 10\n"
+        "realgar)/distillation; **Craft DC** 20\\\n"
+        "**Time** 10 minutes; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical tool\n"
+    )
+
+    def test_a_recipe_becomes_an_untitled_block_and_the_link_moves_onto_the_recipe(self):
+        new = convert_variants(self.BODY, plan_recipe)
+        self.assertTrue(new.endswith(
+            "::: statblock\nSpontaneous Alchemy Recipe: [(6 quicksilver + 10 realgar)/distillation](ref/rule/spontaneous-alchemy)\n"
+            "Craft DC: 20\nTime: 10 minutes\nTools: [retort](ref/eq-misc/retort)\nType: alchemical tool\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_recipe, new), "already")
+
+    def test_a_wrapped_label_and_the_craft_dc_split_read_as_printed(self):
+        wrapped = self.BODY.replace("**Craft DC**", "**Craft\nDC**")
+        self.assertIn("Craft DC: 20\n", convert_variants(wrapped, plan_recipe))
+        unlinked = self.BODY.replace("**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe**", "**Spontaneous Alchemy Recipe**")
+        self.assertIn("Spontaneous Alchemy Recipe: (6 quicksilver + 10 realgar)/distillation\n", convert_variants(unlinked, plan_recipe))
+        poison = self.BODY.replace("**Craft DC** 20", "**Craft** DC 13")
+        self.assertIn("Craft: DC 13\n", convert_variants(poison, plan_recipe))
+
+    def test_what_the_rule_does_not_cover_queues(self):
+        for reason, body in {
+            "label-twice": self.BODY.replace("**Time** 10 minutes", "**Craft DC** 9"),
+            "linked-label": self.BODY.replace("realgar)/distillation;", "[realgar](ref/eq-misc/realgar))/distillation;"),
+            "unlabelled-line": self.BODY.replace("**Time**", "Time"),
+        }.items():
+            with self.subTest(reason=reason):
+                with self.assertRaises(Queue) as caught:
+                    convert_variants(body, plan_recipe)
+                self.assertEqual(caught.exception.reason, reason)
+
+
+class TearawaySelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 1 gp\nWeight: 4 lbs.\nCategory: Clothing\n:::\n\nAn outfit.\n\n"
+        "**Tear-away clothing**\\\n**Price** +5 gp; **Weight** -\\\n**Category** Clothing\n\nSneaks know it.\n"
+    )
+
+    def test_the_variant_becomes_a_titled_block_after_the_entrys_own(self):
+        new = convert_variants(self.BODY, plan_tearaway)
+        self.assertIn(
+            '::: statblock\ntitle = "Tear-away clothing"\nPrice: +5 gp\nWeight: -\nCategory: Clothing\n:::\n\nSneaks know it.\n', new
+        )
+        self.assertEqual(classify_variant(plan_tearaway, new), "already")
+
+    def test_without_a_block_before_it_the_file_queues_because_the_variant_would_be_the_first_price(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\nAn outfit.\n\n" + self.BODY.split("An outfit.\n\n")[1], plan_tearaway)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Price"))
+
+
+class IntelligentSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: strong\nCL: 8th\n:::\n\nAn item.\n\n### Statistics\n\n"
+        "**Alignment** neutral; **Ego** 14\\\n**Senses** 120 ft., [darkvision](ref/rule/darkvision)\\\n"
+        "**Int** 14, **Wis** 16, **Cha** 14\\\n**Communication** telepathy (Aklo, Common)\\\n"
+        "**[Special Purpose](ref/rule/special-purpose-items)** defeat dwarves\n"
+    )
+
+    def test_the_statistics_become_one_untitled_block_under_the_heading(self):
+        new = convert_variants(self.BODY, plan_intelligent, ("Wis", "Cha"))
+        self.assertTrue(new.endswith(
+            "### Statistics\n\n::: statblock\nAlignment: neutral\nEgo: 14\nSenses: 120 ft., [darkvision](ref/rule/darkvision)\n"
+            "Int: 14\nWis: 16\nCha: 14\nCommunication: telepathy (Aklo, Common)\n"
+            "Special Purpose: [defeat dwarves](ref/rule/special-purpose-items)\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_intelligent, new), "already")
+
+    def test_a_list_line_without_a_label_queues_and_a_paragraph_elsewhere_is_not_touched(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("defeat dwarves", "defeat dwarves\\\n3/day-fly"), plan_intelligent, ("Wis", "Cha"))
+        self.assertEqual(caught.exception.reason, "unlabelled-line")
+        self.assertEqual(classify_variant(plan_intelligent, self.BODY.replace("### Statistics", "### Details")), "already")
+
+
+class IounSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: moderate abjuration\nCL: 12th\nPrice: 10,000 gp\n:::\n\n#### Description\n\nA stone.\n\n"
+        "#### Construction\n\n**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),\n"
+        "[resistance](ref/spell/resistance), creator must be 12th level; **Cost** 5,000 gp\n\n"
+        "### Flawed Ioun Stone\n\n**Price** 6,000 gp\\\nThis stone grants a bonus.\n"
+    )
+
+    def test_the_construction_under_four_hashes_becomes_a_block_and_the_flawed_price_stays(self):
+        new = convert_variants(self.BODY, plan_ioun)
+        self.assertIn(
+            "#### Construction\n\n::: statblock\nRequirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), "
+            "[resistance](ref/spell/resistance), creator must be 12th level\nCost: 5,000 gp\n:::\n\n### Flawed Ioun Stone\n\n"
+            "**Price** 6,000 gp\\\nThis stone grants a bonus.\n",
+            new,
+        )
+        self.assertEqual(classify_variant(plan_ioun, new), "already")
+        self.assertEqual(classify_variant(plan_ioun, self.BODY.replace("#### Construction", "#### Making")), "already")
+
+
+class SpellbookSelfTest(unittest.TestCase):
+    BODY = (
+        "\n### Level 11 Evoker\n\n_A white cover._\n\n"
+        "**Opposition** Illusion, necromancy\\\n**Protection** [Fire trap](ref/spell/fire-trap) (DC 19). The edges are warded.\\\n"
+        "**Value** 2,300 gp (3,300 gp with the preparation ritual)\n\n#### Spells\n\n- 1st-[shield](ref/spell/shield)\n"
+    )
+
+    def test_the_three_rows_become_one_block_and_a_sentence_protection_is_kept(self):
+        new = convert_variants(self.BODY, plan_spellbook)
+        self.assertIn(
+            "_A white cover._\n\n::: statblock\nOpposition: Illusion, necromancy\n"
+            "Protection: [Fire trap](ref/spell/fire-trap) (DC 19). The edges are warded.\n"
+            "Value: 2,300 gp (3,300 gp with the preparation ritual)\n:::\n\n#### Spells\n",
+            new,
+        )
+        self.assertEqual(classify_variant(plan_spellbook, new), "already")
+
+    def test_another_label_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Value**", "**Worth**"), plan_spellbook)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Worth"))
+
+
+class FigurineSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: varies\nCL: varies\n:::\n\n**Ivory Goats:** These come in threes.\n\n"
+        "- **The Goat of Travail:** A mount.\n\n"
+        "**CL** 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._\n"
+    )
+
+    def test_the_cl_tail_becomes_a_one_row_block_as_printed(self):
+        new = convert_variants(self.BODY, plan_figurine)
+        self.assertTrue(new.endswith(
+            "::: statblock\nCL: 11th; Craft Wondrous Item, _[animate objects](ref/spell/animate-objects)._\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_figurine, new), "already")
+
+    def test_without_the_entrys_own_cl_row_before_it_the_file_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n" + self.BODY.split("\n\n", 2)[2], plan_figurine)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "CL"))
+
+
+class CostSelfTest(unittest.TestCase):
+    BOW = (
+        "\n::: statblock\nCost: 125 gp (+0)\nWeight: 2 lbs.\n:::\n\n### Composite Bows\n\nAll composite bows have a rating.\n\n"
+        "**Cost** 225 gp (+1), 325 gp (+2)\n"
+    )
+    FLESH = (
+        "\n::: statblock\nPrice: gp\n:::\n\n### Creation Requirements\n\n**Cost** 1,000 gp\\\n"
+        "[Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp\n"
+    )
+
+    def test_a_bow_cost_list_becomes_a_one_row_block_after_the_entrys_own_cost(self):
+        new = convert_variants(self.BOW, plan_cost)
+        self.assertTrue(new.endswith("::: statblock\nCost: 225 gp (+1), 325 gp (+2)\n:::\n"), new)
+        with self.assertRaises(Queue) as caught:  # a file whose own block has no Cost row
+            convert_variants(self.BOW.replace("Cost: 125 gp (+0)\n", ""), plan_cost)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Cost"))
+
+    def test_a_composite_bow_without_an_own_block_queues_because_the_variant_would_be_first(self):
+        body = (
+            "\n### Composite longbow +0\n\n**Cost** 100 gp **Weight** 3 lbs.\\\n**Damage** 1d6\n\n"
+            "### Composite longbow +1\n\n**Cost** 200gp\n"
+        )
+        with self.assertRaises(Queue) as caught:
+            convert_variants(body, plan_cost)
+        self.assertEqual(caught.exception.reason, "no-lead-row")
+
+    def test_the_fleshcraft_cost_is_the_block_and_the_line_without_a_label_stays_below(self):
+        new = convert_variants(self.FLESH, plan_cost)
+        self.assertTrue(new.endswith(
+            "### Creation Requirements\n\n::: statblock\nCost: 1,000 gp\n:::\n\n"
+            "[Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_cost, new), "already")
+
+
+class TrapSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 2 gp\nWeight: 10 lbs.\n:::\n\nA bear trap.\n\n"
+        "**Bear Trap - CR 1**\\\n**Type** mechanical; **Perception** DC 15; **Disable Device** DC 20\\\n**Effects**\\\n"
+        "**Trigger** location; **Reset** manual\\\n**Effect** Atk +10 melee (2d6+3); jaws spring shut. The creature can escape.\n\n"
+        "**Type** mechanical; Perception DC 15; Disable Device DC 15\\\n**Trigger** touch; Reset none\\\n**Effect** explosion (2d6)\n"
+    )
+
+    def test_a_named_trap_gets_its_title_and_an_unnamed_one_none(self):
+        new = convert_variants(self.BODY, plan_trap)
+        self.assertIn(
+            '::: statblock\ntitle = "Bear Trap - CR 1"\nType: mechanical\nPerception: DC 15\nDisable Device: DC 20\nEffects:\n'
+            "Trigger: location\nReset: manual\nEffect: Atk +10 melee (2d6+3); jaws spring shut. The creature can escape.\n:::\n",
+            new,
+        )
+        self.assertTrue(new.endswith(
+            "::: statblock\nType: mechanical; Perception DC 15; Disable Device DC 15\nTrigger: touch; Reset none\nEffect: explosion (2d6)\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_trap, new), "already")
+
+    def test_another_label_is_not_a_trap_and_queues_when_it_sits_inside_one(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Reset** manual", "**Save** DC 14"), plan_trap)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Save"))
+        poison = "\n**Type** poison, injury; **Save** Fortitude DC 14\\\n**Onset** 1 minute\n"
+        self.assertEqual(classify_variant(plan_trap, poison), "already")
+
+
+class TechconsSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 2,000 gp\n:::\n\nA gadget.\n\n### Construction\n\n**Craft DC** 21; **Cost** 1,000 gp\\\n"
+        "[Craft Technological Item](ref/feat/craft-technological-item),\n[Technologist](ref/feat/technologist)\n"
+    )
+
+    def test_craft_dc_and_cost_become_the_block_and_the_unlabelled_line_stays_below_unchanged(self):
+        new = convert_variants(self.BODY, plan_techcons)
+        self.assertTrue(new.endswith(
+            "### Construction\n\n::: statblock\nCraft DC: 21\nCost: 1,000 gp\n:::\n\n"
+            "[Craft Technological Item](ref/feat/craft-technological-item),\n[Technologist](ref/feat/technologist)\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_techcons, new), "already")
+
+    def test_values_that_list_variants_and_a_second_labelled_line_read_as_printed(self):
+        body = self.BODY.replace(
+            "**Craft DC** 21; **Cost** 1,000 gp\\\n",
+            "**Craft DC**\nDC 21 (red), DC 23 (white)\\\n**Cost**\n1,000 gp (red), 1,200 gp (white)\\\n",
+        )
+        new = convert_variants(body, plan_techcons)
+        self.assertIn("Craft DC: DC 21 (red), DC 23 (white)\nCost: 1,000 gp (red), 1,200 gp (white)\n:::\n\n[Craft", new)
+
+    def test_a_paragraph_with_no_unlabelled_line_is_the_whole_block(self):
+        only = "\n### Construction\n\n**Craft DC** 21; **Cost** 1 gp\n"
+        self.assertEqual(convert_variants(only, plan_techcons), "\n### Construction\n\n::: statblock\nCraft DC: 21\nCost: 1 gp\n:::\n")
+
+    def test_a_value_that_reads_as_sentences_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Cost** 1,000 gp", "**Cost** Paid in full. It is cheap"), plan_techcons)
+        self.assertEqual(caught.exception.reason, "sentences-in-variant")
 
 
 class SourcesSelfTest(unittest.TestCase):

@@ -138,7 +138,12 @@ over 14 days.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 35\
-**Senses** [darkvision](ref/rule/darkvision) 120 ft., hearing\
-**Int** 26, **Wis** 20, **Cha** 23\
-**Communication** speech, telepathy
+::: statblock
+Alignment: LE
+Ego: 35
+Senses: [darkvision](ref/rule/darkvision) 120 ft., hearing
+Int: 26
+Wis: 20
+Cha: 23
+Communication: speech, telepathy
+:::

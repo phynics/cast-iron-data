@@ -54,8 +54,12 @@ requirement for destruction).
 
 ### Statistics
 
-**Alignment** NE; **Ego** 37\
-**Senses** [darkvision](ref/rule/darkvision) 120 ft., hearing\
-**Int** 18, **Wis** 14, **Cha** 20\
-**Communication** read languages, [read magic](ref/spell/read-magic), speech, telepathy (Abyssal,
-Aklo, Azlanti, Thassilonian)
+::: statblock
+Alignment: NE
+Ego: 37
+Senses: [darkvision](ref/rule/darkvision) 120 ft., hearing
+Int: 18
+Wis: 14
+Cha: 20
+Communication: read languages, [read magic](ref/spell/read-magic), speech, telepathy (Abyssal, Aklo, Azlanti, Thassilonian)
+:::

@@ -27,7 +27,10 @@ Category: Alchemical Remedies
 surge roll. Every round after you consume surge syrup that you don't use your surge ability, the
 bonus provided by this item decreases by 1 (minimum 0).
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (12 dew of lunary + 40 spirit of
-wine + 40 urea)/congelation; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(12 dew of lunary + 40 spirit of wine + 40 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical remedy
+:::

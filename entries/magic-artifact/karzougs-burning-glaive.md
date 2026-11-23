@@ -49,11 +49,15 @@ runelord of greed lives in the world.
 
 ### Statistics
 
-**Alignment** NE; **Ego** 22\
-**Senses** [darkvision](ref/rule/darkvision) 120 ft., hearing\
-**Int** 17, **Wis** 10, **Cha** 17\
-**Communication** read languages, speak, telepathy (Ignan, Thassilonian)\
-**Powers** [cure moderate wounds](ref/spell/cure-moderate-wounds) on wielder 3/day,
-[faerie fire](ref/spell/faerie-fire) 3/day, [major image](ref/spell/major-image) (DC 16) 1/day\
-**Dedicated Powers** [fireball](ref/spell/fireball) (CL 17th; DC 16)\
-**[Special Purpose](ref/rule/special-purpose-items)** defeat non-spellcasters
+::: statblock
+Alignment: NE
+Ego: 22
+Senses: [darkvision](ref/rule/darkvision) 120 ft., hearing
+Int: 17
+Wis: 10
+Cha: 17
+Communication: read languages, speak, telepathy (Ignan, Thassilonian)
+Powers: [cure moderate wounds](ref/spell/cure-moderate-wounds) on wielder 3/day, [faerie fire](ref/spell/faerie-fire) 3/day, [major image](ref/spell/major-image) (DC 16) 1/day
+Dedicated Powers: [fireball](ref/spell/fireball) (CL 17th; DC 16)
+Special Purpose: [defeat non-spellcasters](ref/rule/special-purpose-items)
+:::

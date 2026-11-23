@@ -42,11 +42,10 @@ hands.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength),
-[cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor),
-[fox's cunning](ref/spell/foxs-cunning), [owl's wisdom](ref/spell/owls-wisdom), creator must be 12th
-level; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), [eagle's splendor](ref/spell/eagles-splendor), [fox's cunning](ref/spell/foxs-cunning), [owl's wisdom](ref/spell/owls-wisdom), creator must be 12th level
+Cost: 8,000 gp
+:::
 
 ### Flawed Ioun Stone
 

@@ -22,9 +22,11 @@ each spell, many with a distinctly arctic theme. Though the pages and their wint
 of high quality, the protective leather case that encloses both books smells and feels greasy, as if
 the hide has been crudely waterproofed with animal fat._
 
-**Opposition** Illusion, necromancy\
-**Protection** fire trap modified to inflict cold damage (Reflex DC 17)\
-**Value** 4,335 gp (5,985 gp with the preparation ritual)
+::: statblock
+Opposition: Illusion, necromancy
+Protection: fire trap modified to inflict cold damage (Reflex DC 17)
+Value: 4,335 gp (5,985 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -32,7 +32,11 @@ Special: [Grapple](ref/misc/grapple), [slow-firing](ref/misc/slow-firing)
 
 ### Construction
 
-**Craft DC** 20; **Cost** 2,000 gp\
+::: statblock
+Craft DC: 20
+Cost: 2,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

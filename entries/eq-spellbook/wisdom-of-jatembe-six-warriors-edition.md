@@ -23,7 +23,9 @@ the spine, each depicting the stylized face of a different beast. The spells and
 throughout the book are each written in a different handwriting, ranging from neat block script to
 wild looping letters that are difficult to read at first glance._
 
-**Value** 4,725 gp (6,025 gp with the preparation ritual)
+::: statblock
+Value: 4,725 gp (6,025 gp with the preparation ritual)
+:::
 
 #### Spells
 

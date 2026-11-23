@@ -37,6 +37,14 @@ as a one-handed weapon. If you use your shield as a weapon, you lose its AC bonu
 turn. An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with
 it, but the shield can be made into a magic weapon in its own right.
 
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+title = "Shield Bash Attacks"
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

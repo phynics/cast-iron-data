@@ -22,9 +22,10 @@ stamped into the cover in peeling gold, yet no more information about the author
 evident. Several of the pages contain careful diagrams and illustrations done by a competent but
 uninspiring artist._
 
-**Protection** [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock)
-(DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)\
-**Value** 2,835 gp
+::: statblock
+Protection: [Average lock](ref/eq-misc/lock-average) with [arcane lock](ref/spell/arcane-lock) (DC 35) and [explosive runes](ref/spell/explosive-runes) (Reflex DC 16)
+Value: 2,835 gp
+:::
 
 #### Spells
 

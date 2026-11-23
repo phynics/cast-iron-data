@@ -30,9 +30,11 @@ Implantation: 2 (Mark I), 4 (Mark II), 4 (Mark III), 8 (Mark IV), 10 (Mark V)
 
 ### Construction
 
-**Craft DC** 24 (Mark I), DC 25 (Mark II), DC 26 (Mark III), DC 27 (Mark IV), DC 28 (Mark V);
-**Cost** 2,000 gp (Mark I), 8,000 gp (Mark II), 18,000 gp (Mark III), 32,000 gp (Mark IV), 50,000 gp
-(Mark V)\
+::: statblock
+Craft DC: 24 (Mark I), DC 25 (Mark II), DC 26 (Mark III), DC 27 (Mark IV), DC 28 (Mark V)
+Cost: 2,000 gp (Mark I), 8,000 gp (Mark II), 18,000 gp (Mark III), 32,000 gp (Mark IV), 50,000 gp (Mark V)
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 Dermal plating consists of sheets of highly resistant bioplastics anchored directly onto the

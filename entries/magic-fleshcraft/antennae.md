@@ -35,5 +35,8 @@ creature gains [blindsight](ref/umr/blindsight) to a range of 30 feet.
 
 ### Creation Requirements
 
-**Cost** 35,000 gp\
+::: statblock
+Cost: 35,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 625 gp

@@ -46,7 +46,12 @@ Price: 52,408 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 13\
-**Senses** 60 ft., [darkvision](ref/rule/darkvision)\
-**Int** 12, **Wis** 16, **Cha** 10\
-**Communication** speech (Common, Orc, Skald)
+::: statblock
+Alignment: neutral
+Ego: 13
+Senses: 60 ft., [darkvision](ref/rule/darkvision)
+Int: 12
+Wis: 16
+Cha: 10
+Communication: speech (Common, Orc, Skald)
+:::

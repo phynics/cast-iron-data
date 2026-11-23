@@ -35,6 +35,10 @@ step for an additional 30 feet beyond that area (darkness becomes dim light and 
 normal light). A sunrod does not increase the light level in normal light or bright light. It glows
 for 6 hours, after which the gold tip is burned out and worthless.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (2 magnesium + 2
-phosphorus)/ceration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(2 magnesium + 2 phosphorus)/ceration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::
