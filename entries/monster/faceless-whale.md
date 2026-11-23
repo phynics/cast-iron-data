@@ -31,84 +31,64 @@ abilities = ["45", "6", "30", "4", "11", "5"]
 _A deep groan at the edge of hearing precedes the appearance of this sightless leviathan, whose
 pallid body breaks the surface of dark waters without as much as a ripple._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 150
+Size: colossal
+Initiative: -2
+Type: Magical beast
+Alignment: Neutral
+Perception: +19
+Experience points: 51,200
+:::
 
-**blindsight:** 150
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 30
+Touch: 0
+Flat-footed: 30
+AC modifiers: -2 Dex, +30 natural, -8 size
+Hit points: 248 (16d10+160)
+Fort: +22
+Ref: +8
+Will: +7
+Immune: sonic, gaze attacks, sight-based attacks, visual effects and illusions
+Weaknesses: blind
+:::
 
-**Initiative:** -2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 0 ft., swim 40 ft.
+Capsize: present
+Melee: bite +25 (6d6+17), tail slap +20 (4d6+8)
+Reach: 30
+Space: 30
+Spec Att: resonant song
+Swallow: 4d6 acid damage, AC 25, 24 hp
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +19
+::: statblock
+Ability scores: Str 45, Dex 6, Con 30, Int 4, Wis 11, Cha 5
+Base attack bonus: +16
+Combat maneuver bonus: +41
+Combat maneuver defense: 49
+Feats: Awesome Blow, Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Overrun, Iron Will, Power Attack
+Skills: Perception +19, Swim +25
+Languages: Aklo (can't speak)
+Special qualities: blind, [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 0
-
-**Flat-footed:** 30
-
-**AC modifiers:** -2 Dex, +30 natural, -8 size
-
-**Hit points:** 248 (16d10+160)
-
-**Fort:** +22
-
-**Ref:** +8
-
-**Will:** +7
-
-**Immune:** sonic, gaze attacks, sight-based attacks, visual effects and illusions
-
-**Weaknesses:** blind
-
-**Offense**
-
-**Speed:** 0 ft., swim 40 ft.
-
-**Capsize:** present
-
-**Melee:** bite +25 (6d6+17), tail slap +20 (4d6+8)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** resonant song
-
-**Swallow:** 4d6 acid damage, AC 25, 24 hp
-
-**Statistics**
-
-**Ability scores:** Str 45, Dex 6, Con 30, Int 4, Wis 11, Cha 5
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 49
-
-**Feats:** Awesome Blow, Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Overrun,
-Iron Will, Power Attack
-
-**Skills:** Perception +19, Swim +25
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** blind, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or pod (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or pod (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

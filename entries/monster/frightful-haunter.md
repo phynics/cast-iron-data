@@ -31,81 +31,63 @@ abilities = ["-", "17", "-", "15", "17", "16"]
 _The mist forms a roughly humanoid shape. Its features are indistinct, except for its clawed hands
 and hairy, fanged face._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: cowardice (30 ft.)
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** cowardice (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 deflection, +3 Dex
+Hit points: 60 (8d8+24)
+Fort: +5
+Ref: +5
+Will: +9
+Chan Res: +3
+Fh: 0 (see special abilities)
+Immune: haunts
+Incorporeal: present
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: terrifying touch +9 (3d8 plus Will DC 17 or shaken)
+Spec Att: create haunt, terrifying touch (DC 17)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 17, Con -, Int 15, Wis 17, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Blind-Fight, Skill Focus (Perception)
+Skills: Fly +11, Intimidate +13, Knowledge (history) +10, Perception +17
+Languages: Common, Goblin
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 deflection, +3 Dex
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +9
-
-**Chan Res:** +3
-
-**Fh:** 0 (see special abilities)
-
-**Immune:** haunts
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** terrifying touch +9 (3d8 plus Will DC 17 or shaken)
-
-**Spec Att:** create haunt, terrifying touch (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 17, Con -, Int 15, Wis 17, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Blind-Fight, Skill Focus (Perception)
-
-**Skills:** Fly +11, Intimidate +13, Knowledge (history) +10, Perception +17
-
-**Languages:** Common, Goblin
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

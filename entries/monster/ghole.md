@@ -31,98 +31,72 @@ abilities = ["25", "18", "21", "10", "17", "16"]
 _The hulking form has a long, vulture-like neck ending in a head with a disgusting, one-eyed
 visage._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +22
+Senses: Darkvision 60 ft., Scent sickness
+Experience points: 19,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +12 natural
+Hit points: 168 (16d10+80)
+Fort: +12
+Ref: +14
+Will: +13
+Immune: disease
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 10 ft.
+Melee: bite +23 (2d6+10/17-20 plus disease), 2 claws +23 (1d8+7/19-20 plus disease)
+Reach: 5
+Reach P: 10 ft. with bite
+Sneak: +2d6
+Space: 5
+Spec Att: bolster disease, powerful bite, savage the sick
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: gentle repose, restore corpse
+Per day: 3/day: ghoul touch (DC 15), hide from undead\
+1/day: haste
+:::
 
-**Senses:** Darkvision 60 ft., Scent sickness
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 25, Dex 18, Con 21, Int 10, Wis 17, Cha 16
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 37
+Feats: Cleave, Combat Reflexes, Great Cleave, Great Fortitude, Improved Critical (bite, claw), Improved Initiative, Power Attack
+Skills: Perception +22
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +12 natural
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +13
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 40 ft., burrow 10 ft.
-
-**Melee:** bite +23 (2d6+10/17-20 plus disease), 2 claws +23 (1d8+7/19-20 plus disease)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Sneak:** +2d6
-
-**Space:** 5
-
-**Spec Att:** bolster disease, powerful bite, savage the sick
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- gentle repose, restore corpse
-
-**Per day:**
-
-- 3/day: ghoul touch (DC 15), hide from undead
-- 1/day: haste
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 21, Int 10, Wis 17, Cha 16
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 37
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Great Fortitude, Improved Critical (bite, claw),
-Improved Initiative, Power Attack
-
-**Skills:** Perception +22
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

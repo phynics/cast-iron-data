@@ -31,97 +31,71 @@ abilities = ["20", "21", "17", "14", "15", "12"]
 _Standing tall and graceful, this sharp-eared giant's skin is pale. Its large brow gives it a
 somewhat primitive visage._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic good
+Type: humanoid
+Initiative: +5
+Size: large
+Perception: +11
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +2 armor, +5 Dex, +4 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +8
+Will: +7
+Rock Ct: present
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: longsword +10/+5 (2d6+5/19-20) or 2 slams +10 (1d6+5)
+Ranged: mwk composite longbow +9/+9/+4 (2d6+5/×3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +8
+Constant: pass without trace, speak with animals
+Per day: 3/day: charm animal (DC 12), quench, tree shape\
+1/day: enlarge person, self only, spike growth
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 20, Dex 21, Con 17, Int 14, Wis 15, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Deadly Aim, Iron Will, Point-Blank Shot, Precise Shot, Rapid Shot
+Skills: Acrobatics +11 (+15 when jumping), Climb +14, Knowledge (nature) +8, Perception +11
+Racial Modifiers: +4 Stealth in forests
+Languages: Common, Giant, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 armor, +5 Dex, +4 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +7
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** longsword +10/+5 (2d6+5/19-20) or 2 slams +10 (1d6+5)
-
-**Ranged:** mwk composite longbow +9/+9/+4 (2d6+5/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +8
-
-**Constant:**
-
-- pass without trace, speak with animals
-
-**Per day:**
-
-- 3/day: charm animal (DC 12), quench, tree shape
-- 1/day: enlarge person, self only, spike growth
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 21, Con 17, Int 14, Wis 15, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Deadly Aim, Iron Will, Point-Blank Shot, Precise Shot, Rapid Shot
-
-**Skills:** Acrobatics +11 (+15 when jumping), Climb +14, Knowledge (nature) +8, Perception +11
-
-**Racial Modifiers:** +4 Stealth in forests
-
-**Languages:** Common, Giant, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, gang (2-4), hunting party (5-9, plus 1-4
-[dire wolves](ref/monster/wolf-dire-wolf)), or clan (10-40, plus 35% noncombatants, 1-3 druids or
-witches of 2nd-4th level, 1 ranger chieftain of 3rd-7th level, 4-10 dire wolves, and 2-8
-[giant eagles](ref/monster/eagle-giant-eagle))
-
-**Treasure:** Standard (leather armor, longsword, mwk cl20); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, gang (2-4), hunting party (5-9, plus 1-4 [dire wolves](ref/monster/wolf-dire-wolf)), or clan (10-40, plus 35% noncombatants, 1-3 druids or witches of 2nd-4th level, 1 ranger chieftain of 3rd-7th level, 4-10 dire wolves, and 2-8 [giant eagles](ref/monster/eagle-giant-eagle))
+Treasure: Standard (leather armor, longsword, mwk cl20); other treasure
+:::
 
 ### Description
 

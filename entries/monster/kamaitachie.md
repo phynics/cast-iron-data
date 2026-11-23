@@ -30,101 +30,72 @@ abilities = ["12", "27", "28", "15", "24", "23"]
 _This weasel-like creature has sickles in place of feet. It moves incredibly swiftly, swirling in
 the air astride a vortex of dust._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+blindsight: 60
+Alignment: Chaotic evil
+Type: fey
+Initiative: +12
+Size: medium
+Perception: +24
+Senses: Low-light vision, Scent
+Subtype: Air
+Experience points: 25,600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 25
+Flat-footed: 20
+AC modifiers: +6 deflection, +8 Dex, +1 dodge, +4 natural
+Hit points: 175 (14d6+126)
+Fort: +13
+Ref: +17
+Will: +16
+Defensive abilities: dust devil
+Dr: 10/cold iron
+Sr: 24
+:::
 
-**Type:** fey
+### Offense
 
-**Initiative:** +12
+::: statblock
+Speed: 30 ft., fly 120 ft. (perfect)
+Bleed: 1d6
+Melee: 4 claws +19 (1d6+12/19-20/×3 plus bleed and pain)
+Spec Att: deadly claws, delayed doom, pain
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +18
+Constant: greater magic fang
+At will: status (DC 18), wind wall
+Per day: 3/day: control winds
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 12, Dex 27, Con 28, Int 15, Wis 24, Cha 23
+Base attack bonus: +7
+Combat maneuver bonus: +8
+Combat maneuver defense: 33 (37 vs. trip)
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +25, Bluff +23, Disable Device +22, Fly +33, Knowledge (nature) +19, Perception +24, Sense Motive +24, Stealth +25
+Languages: Auran, Common, Sylvan
+:::
 
-**Subtype:** Air
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 29
-
-**Touch:** 25
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 deflection, +8 Dex, +1 dodge, +4 natural
-
-**Hit points:** 175 (14d6+126)
-
-**Fort:** +13
-
-**Ref:** +17
-
-**Will:** +16
-
-**Defensive abilities:** dust devil
-
-**Dr:** 10/cold iron
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft., fly 120 ft. (perfect)
-
-**Bleed:** 1d6
-
-**Melee:** 4 claws +19 (1d6+12/19-20/×3 plus bleed and pain)
-
-**Spec Att:** deadly claws, delayed doom, pain
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +18
-
-**Constant:**
-
-- greater magic fang
-
-**At will:**
-
-- status (DC 18), wind wall
-
-**Per day:**
-
-- 3/day: control winds
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 27, Con 28, Int 15, Wis 24, Cha 23
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 33 (37 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility, Weapon Finesse,
-Weapon Focus (claw)
-
-**Skills:** Acrobatics +25, Bluff +23, Disable Device +22, Fly +33, Knowledge (nature) +19,
-Perception +24, Sense Motive +24, Stealth +25
-
-**Languages:** Auran, Common, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or storm (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or storm (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,107 +34,76 @@ abilities = ["24", "14", "25", "15", "12", "15"]
 _A massive, fire-filled maw splits the belly of this lumbering iron-skinned fiend, whose short arms
 end in razor-sharp claws._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +6
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +15
+Senses: See in darkness
+Subtype: Earth, Extraplanar
+Experience points: 9,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 23
+AC modifiers: +2 Dex, +14 natural, -1 size
+Hit points: 137 (11d10+77)
+Fort: +14
+Ref: +5
+Will: +10
+Immune: fire, poison
+Resist: acid 10, cold 10
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Melee: bite +17 (2d6+7 plus rend armor), bite +17 (1d6+7), 2 claws +17 (1d6+7)
+Reach: 10
+Sp Extra: earth glide
+Space: 10
+Spec Att: adamantine bite, searing spew
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +12
+Constant: pass without trace
+At will: major image (DC 15), passwall, shatter (DC 14), stone shape
+Per day: 3/day: deeper darkness, dimensional anchor, flesh to stone (DC 18), quickened produce flame, wall of fire, wall of stone
+:::
 
-**Senses:** See in darkness
+### Statistics
 
-**Subtype:** Earth, Extraplanar
-
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +14 natural, -1 size
-
-**Hit points:** 137 (11d10+77)
-
-**Fort:** +14
-
-**Ref:** +5
-
-**Will:** +10
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Melee:** bite +17 (2d6+7 plus rend armor), bite +17 (1d6+7), 2 claws +17 (1d6+7)
-
-**Reach:** 10
-
-**Sp Extra:** earth glide
-
-**Space:** 10
-
-**Spec Att:** adamantine bite, searing spew
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +12
-
-**Constant:**
-
-- pass without trace
-
-**At will:**
-
-- major image (DC 15), passwall, shatter (DC 14), stone shape
-
-**Per day:**
-
-- 3/day: deeper darkness, dimensional anchor, flesh to stone (DC 18), quickened produce flame, wall
-  of fire, wall of stone
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 14, Con 25, Int 15, Wis 12, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Greater Sunder^B^, Improved Initiative, Improved Iron Will, Improved
-Sunder^B^, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (produce flame),
-Vital Strike
-
-**Skills:** Acrobatics +16 (+12 when jumping), Climb +21, Craft (traps) +16, Disable Device +16,
-Knowledge (dungeoneering) +16, Perception +15, Sense Motive +15, Stealth +12
-
-**Languages:** Common, Dwarven, Infernal, Terran
+::: statblock
+Ability scores: Str 24, Dex 14, Con 25, Int 15, Wis 12, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Greater Sunder^B^, Improved Initiative, Improved Iron Will, Improved Sunder^B^, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (produce flame), Vital Strike
+Skills: Acrobatics +16 (+12 when jumping), Climb +21, Craft (traps) +16, Disable Device +16, Knowledge (dungeoneering) +16, Perception +15, Sense Motive +15, Stealth +12
+Languages: Common, Dwarven, Infernal, Terran
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary or team (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary or team (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

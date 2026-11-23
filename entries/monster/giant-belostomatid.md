@@ -31,77 +31,61 @@ abilities = ["15", "13", "16", "-", "11", "2"]
 _Six powerful legs, each ending in a hooked claw, jut from the shield-like body of this horse-sized
 insect._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 60
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., swim 40 ft., fly 20 ft. (poor)
+Melee: bite +4 (1d6+2 plus digestive enzyme), 2 claws +4 (1d4+2 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 13, Con 16, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 17 (25 vs. trip)
+Skills: Fly -5
+Racial Modifiers: +8 Stealth in water
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft., fly 20 ft. (poor)
-
-**Melee:** bite +4 (1d6+2 plus digestive enzyme), 2 claws +4 (1d4+2 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 16, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Skills:** Fly -5
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate lakes, rivers, or swamps
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate lakes, rivers, or swamps
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

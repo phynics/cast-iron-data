@@ -30,79 +30,62 @@ abilities = ["-", "4", "18", "-", "1", "1"]
 _Horrid shapes form within this cloying green mist, which pulses sporadically and with seeming
 voracity._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: bewitching brume (10 ft., DC 8)
+blindsight: 60
+Size: huge
+Initiative: -3
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 2,400
+:::
 
-**aura:** bewitching brume (10 ft., DC 8)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 5
+Touch: 5
+Flat-footed: 5
+AC modifiers: -3 Dex, -2 size
+Hit points: 59 (7d8+28)
+Fort: +6
+Ref: -1
+Will: -3
+Defensive abilities: gaseous, negative energy affinity
+Dr: 10/magic
+Immune: acid, electricity, [ooze traits](ref/umr/ooze-traits), sonic
+Resist: cold 10
+Weaknesses: vulnerable to wind
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** -3
+::: statblock
+Speed: fly 15 ft. (perfect)
+Melee: +5 touch (6d6 negative energy)
+Reach: 15
+Space: 15
+Spec Att: enveloping mists (DC 17, 3d6 negative energy and staggered)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str -, Dex 4, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 12 (can't be tripped)
+:::
 
-**Perception:** -5
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 5
-
-**Touch:** 5
-
-**Flat-footed:** 5
-
-**AC modifiers:** -3 Dex, -2 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +6
-
-**Ref:** -1
-
-**Will:** -3
-
-**Defensive abilities:** gaseous, negative energy affinity
-
-**Dr:** 10/magic
-
-**Immune:** acid, electricity, [ooze traits](ref/umr/ooze-traits), sonic
-
-**Resist:** cold 10
-
-**Weaknesses:** vulnerable to wind
-
-**Offense**
-
-**Speed:** fly 15 ft. (perfect)
-
-**Melee:** +5 touch (6d6 negative energy)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** enveloping mists (DC 17, 3d6 negative energy and staggered)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 4, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary, pair, or bank (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, or bank (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

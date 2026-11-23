@@ -33,94 +33,70 @@ abilities = ["10", "18", "12", "13", "13", "11"]
 
 _This silent bat-like humanoid has a long, rat-like tail and four narrow eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+blindsight: 20
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Type: Monstrous humanoid
+Perception: +6 (+10 in darkness)
+Senses: See in darkness
+Experience points: 400
+:::
 
-**blindsight:** 20
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +4 Dex
+Hit points: 13 (2d10+2)
+Fort: +1
+Ref: +7
+Will: +6
+Immune: cold
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 40 ft. (average)
+Melee: mwk kukri +3 (1d4+1/18-20 plus 1d4 nonlethal), bite -3 (1d6 plus poison)
+Spec Att: mindshock, psychic weapons
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Psychic Magic"
+Caster level: 1
+Concentration: +2
+Power points: 6
+Psychoactive powers: daze monster, 2 PE, DC 13, detect magic, 0 PE, id insinuation I, 2 PE, DC 13, mage hand, 0 PE, open/close, 0 PE
+:::
 
-**Perception:** +6 (+10 in darkness)
+### Statistics
 
-**Senses:** See in darkness
+::: statblock
+Ability scores: Str 10, Dex 18, Con 12, Int 13, Wis 13, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 16
+Feats: Iron Will
+Skills: Fly +9, Knowledge (geography) +3, Perception +6 (+10 in darkness), Sense Motive +3, Stealth +9
+Racial Modifiers: +4 Perception in darkness
+Languages: Aklo, Grioth; [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +4 Dex
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +1
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** cold
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (average)
-
-**Melee:** mwk kukri +3 (1d4+1/18-20 plus 1d4 nonlethal), bite -3 (1d6 plus poison)
-
-**Spec Att:** mindshock, psychic weapons
-
-**Psychic Magic**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**Power points:** 6
-
-**Psychoactive powers:**
-
-- daze monster, 2 PE, DC 13, detect magic, 0 PE, id insinuation I, 2 PE, DC 13, mage hand, 0 PE,
-  open/close, 0 PE
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 18, Con 12, Int 13, Wis 13, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16
-
-**Feats:** Iron Will
-
-**Skills:** Fly +9, Knowledge (geography) +3, Perception +6 (+10 in darkness), Sense Motive +3,
-Stealth +9
-
-**Racial Modifiers:** +4 Perception in darkness
-
-**Languages:** Aklo, Grioth; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, gathering (3-6 plus 1 cleric of 3rd level), or cult (7-20 plus 2-6
-clerics of 3rd level, 2-4 barbarians of 3rd level, and 1 cleric of 7th level)
-
-**Treasure:** NPC gear (mwk kukri); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, gathering (3-6 plus 1 cleric of 3rd level), or cult (7-20 plus 2-6 clerics of 3rd level, 2-4 barbarians of 3rd level, and 1 cleric of 7th level)
+Treasure: NPC gear (mwk kukri); other treasure
+:::
 
 ### Special Abilities
 

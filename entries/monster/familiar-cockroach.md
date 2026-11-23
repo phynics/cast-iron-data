@@ -28,73 +28,59 @@ abilities = ["1", "15", "14", "-", "11", "2"]
 
 _This swift brown insect scampers up walls, its antennae flailing._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Type: vermin
+Experience points: 50
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 30 ft. (poor)
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 1, Dex 15, Con 14, Int -, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 3 (11 vs. trip)
+Skills: Climb +3
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 30 ft. (poor)
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 14, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 3 (11 vs. trip)
-
-**Skills:** Climb +3
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or swarm (3-60)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or swarm (3-60)
+Treasure: None
+:::
 
 ### Description
 

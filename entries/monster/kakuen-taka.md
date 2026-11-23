@@ -30,89 +30,66 @@ abilities = ["10", "23", "16", "6", "13", "13"]
 
 _Within a towering structure of bone and rotting flesh lurk hundreds of flittering fiends._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: huge
+Initiative: +10
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Swarm
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 9
+AC modifiers: +6 Dex, +1 dodge, +1 natural, -2 size
+Hit points: 199 (21d10+84)
+Fort: +17
+Ref: +20
+Will: +10
+Defensive abilities: fleshy shield
+Immune: poison
+Resist: acid 10, cold 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Initiative:** +10
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: swarm (5d6 plus dimensional snare and distraction), 2 slams +19 (5d6)
+Reach: 0
+Reach P: 10 ft. with slam
+Space: 15
+Spec Att: consume flesh
+Trample: 5d6, DC 20
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 23, Con 16, Int 6, Wis 13, Cha 13
+Base attack bonus: +21
+Combat maneuver bonus: +23
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Ability Focus (consume flesh), Dodge, Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Run, Skill Focus (Perception), Step Up, Toughness
+Skills: Acrobatics +30, Intimidate +25, Perception +31
+Languages: Abyssal
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Swarm
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 9
-
-**AC modifiers:** +6 Dex, +1 dodge, +1 natural, -2 size
-
-**Hit points:** 199 (21d10+84)
-
-**Fort:** +17
-
-**Ref:** +20
-
-**Will:** +10
-
-**Defensive abilities:** fleshy shield
-
-**Immune:** poison
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** swarm (5d6 plus dimensional snare and distraction), 2 slams +19 (5d6)
-
-**Reach:** 0
-
-**Reach P:** 10 ft. with slam
-
-**Space:** 15
-
-**Spec Att:** consume flesh
-
-**Trample:** 5d6, DC 20
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 23, Con 16, Int 6, Wis 13, Cha 13
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Ability Focus (consume flesh), Dodge, Great Fortitude, Improved Initiative, Improved Iron
-Will, Iron Will, Lightning Reflexes, Run, Skill Focus (Perception), Step Up, Toughness
-
-**Skills:** Acrobatics +30, Intimidate +25, Perception +31
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any (the Worldwound)
-
-**Organization:** solitary, patrol (1 swarm with 1 flesh mansion and 1d4
-[carrionstorms](ref/monster/carrionstorm)), or gang (1d3 patrols)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any (the Worldwound)
+Organization: solitary, patrol (1 swarm with 1 flesh mansion and 1d4 [carrionstorms](ref/monster/carrionstorm)), or gang (1d3 patrols)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

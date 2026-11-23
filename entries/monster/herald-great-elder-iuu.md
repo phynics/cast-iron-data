@@ -32,111 +32,78 @@ _This ancient stone giant towers over others of his kind and has a crown of crys
 sprouting from his head. He holds a warhammer made of meteoric stone pierced by natural deposits of
 glinting metallic ore._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: courage (20 ft.)
+Initiative: +3
+Size: large
+Alignment: Lawful evil
+othersubs: Herald
+Type: outsider
+Perception: +21
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Evil, Giant, Lawful
+Experience points: 51,200
+:::
 
-**aura:** courage (20 ft.)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 26
+AC modifiers: +3 Dex, +1 dodge, +17 natural, -1 size
+Hit points: 216 (16d10+128)
+Fort: +18
+Ref: +8
+Will: +15
+Defensive abilities: improved rock catching
+Dr: 10/adamantine
+Immune: fear
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Melee: +3 adamantine corrosive warhammer +27/+22/+17/+12 (2d6+12/×3 plus 1d6 acid)
+Ranged: adamantine rock +19/+14/+9/+4 (1d8+9)
+Reach: 10
+Rock Th: 200 ft.
+Space: 10
+:::
 
-**othersubs:** Herald
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+At will: meld into stone, stone shape
+Per day: 5/day: bull's strength, cure serious wounds (DC 16), invisibility purge, levitate\
+3/day: dimension door, dispel magic, fly, gravel vortex, neutralize poison, order's wrath (DC 17), spike stones (DC 17)\
+1/day: breath of life, fabricate, stone tell, stoneskin, wall of stone
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +21
+::: statblock
+Ability scores: Str 29, Dex 17, Con 27, Int 14, Wis 16, Cha 16
+Base attack bonus: +16
+Combat maneuver bonus: +26
+Combat maneuver defense: 40
+Feats: Blind-Fight, Cleave, Dodge, Iron Will, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw
+Skills: Climb +15, Craft (stonemasonry, weapons) +15, Sense Motive +16, Stealth +17 (+25 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Common, Giant, Infernal
+Special qualities: stone giant blood, summon boulders
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Ecology
 
-**Subtype:** Evil, Giant, Lawful
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +1 dodge, +17 natural, -1 size
-
-**Hit points:** 216 (16d10+128)
-
-**Fort:** +18
-
-**Ref:** +8
-
-**Will:** +15
-
-**Defensive abilities:** improved rock catching
-
-**Dr:** 10/adamantine
-
-**Immune:** fear
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +3 adamantine corrosive warhammer +27/+22/+17/+12 (2d6+12/×3 plus 1d6 acid)
-
-**Ranged:** adamantine rock +19/+14/+9/+4 (1d8+9)
-
-**Reach:** 10
-
-**Rock Th:** 200 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**At will:**
-
-- meld into stone, stone shape
-
-**Per day:**
-
-- 5/day: bull's strength, cure serious wounds (DC 16), invisibility purge, levitate
-- 3/day: dimension door, dispel magic, fly, gravel vortex, neutralize poison, order's wrath (DC 17),
-  spike stones (DC 17)
-- 1/day: breath of life, fabricate, stone tell, stoneskin, wall of stone
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 17, Con 27, Int 14, Wis 16, Cha 16
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 40
-
-**Feats:** Blind-Fight, Cleave, Dodge, Iron Will, Point-Blank Shot, Power Attack, Precise Shot,
-Quick Draw
-
-**Skills:** Climb +15, Craft (stonemasonry, weapons) +15, Sense Motive +16, Stealth +17 (+25 in
-rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Common, Giant, Infernal
-
-**Special qualities:** stone giant blood, summon boulders
-
-**Ecology**
-
-**Environment:** temperate mountains ([Hell](ref/rule/hell))
-
-**Organization:** solitary or council (Great Elder Iuu plus 3d6
-[stone giants](ref/monster/giant-stone-giant) or [fiendish](ref/template/fiendish) stone giants)
-
-**Treasure:** Standard (+3 MA corrosive warhammer); other treasure
+::: statblock
+Environment: temperate mountains ([Hell](ref/rule/hell))
+Organization: solitary or council (Great Elder Iuu plus 3d6 [stone giants](ref/monster/giant-stone-giant) or [fiendish](ref/template/fiendish) stone giants)
+Treasure: Standard (+3 MA corrosive warhammer); other treasure
+:::
 
 ### Special Abilities
 

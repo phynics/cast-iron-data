@@ -27,76 +27,60 @@ abilities = ["18", "15", "-", "2", "14", "14"]
 _This canine creature has sallow, dead skin stretched tight across its bones. Its teeth are long and
 yellowed._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +6
+Senses: Darkvision 60 ft.
+source: Monster Codex/88;Pathfinder Comics \#3/33
+Type: undead
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +2
+Will: +5
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 50 ft.
+Melee: bite +5 (1d6+6 plus disease, paralysis, and trip)
+Paralysis: 1d4+1 rounds, DC 13, elves are immune to this effect
+Spec Att: disease (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**source:** Monster Codex/88;Pathfinder Comics \#3/33
+::: statblock
+Ability scores: Str 18, Dex 15, Con -, Int 2, Wis 14, Cha 14
+Base attack bonus: +1
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Improved Initiative
+Skills: Perception +6, Stealth +6
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +5
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +5 (1d6+6 plus disease, paralysis, and trip)
-
-**Paralysis:** 1d4+1 rounds, DC 13, elves are immune to this effect
-
-**Spec Att:** disease (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con -, Int 2, Wis 14, Cha 14
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +6, Stealth +6
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, guard (2-4 plus 2-4 [ghouls](ref/monster/ghoul)), or pack (4-6 plus 2-4
-ghouls)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, guard (2-4 plus 2-4 [ghouls](ref/monster/ghoul)), or pack (4-6 plus 2-4 ghouls)
+Treasure: None
+:::
 
 ### Special Abilities
 

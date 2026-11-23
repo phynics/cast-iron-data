@@ -31,77 +31,61 @@ abilities = ["28", "10", "-", "-", "11", "1"]
 _This statue resembles a lean human cut from blackened glass stone. Numerous razor-sharp
 protuberances jut from its body._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 27
+AC modifiers: +18 natural, -1 size
+Hit points: 123 (17d10+30)
+Fort: +5
+Ref: +5
+Will: +5
+Defensive abilities: jagged body
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Bleed: 2d6
+Melee: 2 claws +25 (2d12+9 plus bleed)
+Reach: 10
+Space: 10
+Spec Att: obsidian spray
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 10, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +17
+Combat maneuver bonus: +27
+Combat maneuver defense: 37
+Special qualities: death throes
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +18 natural, -1 size
-
-**Hit points:** 123 (17d10+30)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Defensive abilities:** jagged body
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Bleed:** 2d6
-
-**Melee:** 2 claws +25 (2d12+9 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** obsidian spray
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 10, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 37
-
-**Special qualities:** death throes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or eruption (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or eruption (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

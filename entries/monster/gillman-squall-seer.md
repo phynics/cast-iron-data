@@ -31,114 +31,74 @@ abilities = ["10", "16", "14", "8", "12", "16"]
 
 _The tricorne hat this gillwoman wears is encrusted with salt, suggesting years spent at sea._
 
-**Challenge rating:** 9
-
 **Gillman [bard](ref/class/bard) ([sea singer](ref/arc-bard/sea-singer)) 10**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +10
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 16
+AC modifiers: +5 armor, +1 deflection, +3 Dex
+Hit points: 75 (10d8+30)
+Fort: +7
+Ref: +12
+Will: +10; +4 vs. bardic performance, language-dependent, and sonic, +4 vs. air and water effects, +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
+Defensive abilities: enchantment resistance
+Weaknesses: water dependent
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk quarterstaff +8/+3 (1d6)
+Ranged: mwk light crossbow +11 (1d8/19-20)
+Spec Att: bardic performance 31 rounds/day (move action; [dirge of doom](ref/performance/dirge-of-doom) \[DC 18\], [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 18\], [inspire courage](ref/performance/inspire-courage) +2, [inspire greatness](ref/performance/inspire-greatness), sea shanty, still water, whistle the wind)
+:::
 
-**Subtype:** Aquatic
+::: statblock
+title = "Spells Known"
+Caster level: 10
+Concentration: +13
+4th-level spells: 1/day: legend lore, shadow conjuration (DC 17)
+3rd-level spells: 4/day: charm monster (DC 16), elemental speech, seek thoughts (DC 16), summon monster III
+2nd-level spells: 5/day: create treasure map, enthrall (DC 15), heroism, suggestion (DC 15), whispering wind
+1st-level spells: 6/day: animate rope, comprehend languages, invigorate, remove fear, sleep (DC 14)
+Cantrips: At will: dancing lights, daze (DC 13), know direction, mage hand, message, resistance
+:::
 
-**Experience points:** 6,400
+### Statistics
 
-**Armor class:** 19
+::: statblock
+Ability scores: Str 10, Dex 16, Con 14, Int 8, Wis 12, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 21 (23 vs. grapple, overrun, and trip)
+Feats: Arcane Strike, Extra Performance, Lingering Performance, Skill Focus (Survival), Two-Weapon Fighting
+Skills: Acrobatics +11, Climb +8
+Languages: Aboleth, Common
+Special qualities: [amphibious](ref/umr/amphibious), familiar (parrot), jack-of-all-trades (use any skill), lore master 1/day, sea legs, world traveler
+Combat gear: 2 potion of cure moderate wounds, 2 potion of endure elements, potion of shield of faith
+Other gear: +2 studded leather armor, mwk quarterstaff, mwk light crossbow with 20 bolts, Iclk2, ring of prot1, I-seer's tea/3 doses
+:::
 
-**Touch:** 14
+### Ecology
 
-**Flat-footed:** 16
-
-**AC modifiers:** +5 armor, +1 deflection, +3 Dex
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +7
-
-**Ref:** +12
-
-**Will:** +10; +4 vs. bardic performance, language-dependent, and sonic, +4 vs. air and water
-effects, +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
-
-**Defensive abilities:** enchantment resistance
-
-**Weaknesses:** water dependent
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk quarterstaff +8/+3 (1d6)
-
-**Ranged:** mwk light crossbow +11 (1d8/19-20)
-
-**Spec Att:** bardic performance 31 rounds/day (move action;
-[dirge of doom](ref/performance/dirge-of-doom) \[DC 18\],
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 18\],
-[inspire courage](ref/performance/inspire-courage) +2,
-[inspire greatness](ref/performance/inspire-greatness), sea shanty, still water, whistle the wind)
-
-**Spells Known**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**4th-level spells:**
-
-- 1/day: legend lore, shadow conjuration (DC 17)
-
-**3rd-level spells:**
-
-- 4/day: charm monster (DC 16), elemental speech, seek thoughts (DC 16), summon monster III
-
-**2nd-level spells:**
-
-- 5/day: create treasure map, enthrall (DC 15), heroism, suggestion (DC 15), whispering wind
-
-**1st-level spells:**
-
-- 6/day: animate rope, comprehend languages, invigorate, remove fear, sleep (DC 14)
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 13), know direction, mage hand, message, resistance
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 14, Int 8, Wis 12, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21 (23 vs. grapple, overrun, and trip)
-
-**Feats:** Arcane Strike, Extra Performance, Lingering Performance, Skill Focus (Survival),
-Two-Weapon Fighting
-
-**Skills:** Acrobatics +11, Climb +8
-
-**Languages:** Aboleth, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), familiar (parrot), jack-of-all-trades (use
-any skill), lore master 1/day, sea legs, world traveler
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 potion of endure elements, potion of shield of
-faith
-
-**Other gear:** +2 studded leather armor, mwk quarterstaff, mwk light crossbow with 20 bolts, Iclk2,
-ring of prot1, I-seer's tea/3 doses
-
-**Ecology**
-
-**Environment:** temperate ocean
+::: statblock
+Environment: temperate ocean
+:::
 
 ### Description
 

@@ -30,90 +30,68 @@ abilities = ["7", "14", "11", "15", "10", "12"]
 _This curious-looking creature has the body and plumage of a rooster but sports the cunning features
 of a fox from the neck up._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 16 (3d10)
+Fort: +3
+Ref: +5
+Will: +1
+Defensive abilities: drift
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., fly 20 ft. (clumsy)
+Melee: bite +3 (1d6-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: ghost sound (DC 11), mage hand, open/close (DC 11)
+Per day: 3/day: blurred movement, calm animals (DC 12), sonic scream (DC 13)
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 7, Dex 14, Con 11, Int 15, Wis 10, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 11
+Feats: Deceitful, Stealthy
+Skills: Bluff +6, Disguise +6, Stealth +18
+Languages: Common, Sylvan, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (chicken or fox; [beast shape II](ref/spell/beast-shape-2)), trickster's egg, unlikely form
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +1
-
-**Defensive abilities:** drift
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (clumsy)
-
-**Melee:** bite +3 (1d6-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- ghost sound (DC 11), mage hand, open/close (DC 11)
-
-**Per day:**
-
-- 3/day: blurred movement, calm animals (DC 12), sonic scream (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 14, Con 11, Int 15, Wis 10, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 11
-
-**Feats:** Deceitful, Stealthy
-
-**Skills:** Bluff +6, Disguise +6, Stealth +18
-
-**Languages:** Common, Sylvan, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (chicken or fox;
-[beast shape II](ref/spell/beast-shape-2)), trickster's egg, unlikely form
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or skulk (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or skulk (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

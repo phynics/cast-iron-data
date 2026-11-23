@@ -31,88 +31,66 @@ abilities = ["37", "15", "22", "2", "16", "13"]
 _This enormous bird has a lizard-like tail and bright purple feathers on its back and wings; the
 rest of its body is bare and scaly._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: huge
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 51,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 28
+AC modifiers: +2 Dex, +1 dodge, +20 natural, -2 size
+Hit points: 230 (20d10+120)
+Fort: +18
+Ref: +14
+Will: +11
+Defensive abilities: adaptive defense
+Fh: 10
+Immune: acid
+Sr: 26
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., fly 20 ft. (poor)
+Melee: bite +31 (3d6+19/19-20/×3 plus [grab](ref/umr/grab)), 2 talons +31 (1d8+13)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 15
+Spec Att: deadly bite, shriek
+Swallow: 3d6+19 bludgeoning plus 2d6 acid damage, AC 20, 23 hp
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 37, Dex 15, Con 22, Int 2, Wis 16, Cha 13
+Base attack bonus: +20
+Combat maneuver bonus: +35 (+39 grapple)
+Combat maneuver defense: 48
+Feats: Blind-Fight, Cleave, Combat Reflexes, Dodge, Improved Critical (bite), Iron Will, Mobility, Power Attack, Run, Spring Attack
+Skills: Acrobatics +14 (+22 when jumping), Fly +7, Perception +24
+Racial Modifiers: +12 Acrobatics, +8 Perception
+Special qualities: planar acclimation
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 28
-
-**AC modifiers:** +2 Dex, +1 dodge, +20 natural, -2 size
-
-**Hit points:** 230 (20d10+120)
-
-**Fort:** +18
-
-**Ref:** +14
-
-**Will:** +11
-
-**Defensive abilities:** adaptive defense
-
-**Fh:** 10
-
-**Immune:** acid
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., fly 20 ft. (poor)
-
-**Melee:** bite +31 (3d6+19/19-20/×3 plus [grab](ref/umr/grab)), 2 talons +31 (1d8+13)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** deadly bite, shriek
-
-**Swallow:** 3d6+19 bludgeoning plus 2d6 acid damage, AC 20, 23 hp
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 15, Con 22, Int 2, Wis 16, Cha 13
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +35 (+39 grapple)
-
-**Combat maneuver defense:** 48
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Dodge, Improved Critical (bite), Iron Will,
-Mobility, Power Attack, Run, Spring Attack
-
-**Skills:** Acrobatics +14 (+22 when jumping), Fly +7, Perception +24
-
-**Racial Modifiers:** +12 Acrobatics, +8 Perception
-
-**Special qualities:** planar acclimation
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

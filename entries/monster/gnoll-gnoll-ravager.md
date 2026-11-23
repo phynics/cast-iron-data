@@ -29,78 +29,58 @@ special_qualities = "cruelties (fatigued, nauseated, staggered), fiendish boon (
 abilities = ["23", "10", "18", "6", "12", "13"]
 +++
 
-**Challenge rating:** 11
-
 **Gnoll [antipaladin](ref/class/antipaladin) of [Lamashtu](ref/faith/lamashtu) 10**
 
-**aura:** cowardice (10 ft.), despair (10 ft.)
+::: statblock
+Challenge rating: 11
+aura: cowardice (10 ft.), despair (10 ft.)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 21
+AC modifiers: +10 armor, +1 natural
+Hit points: 122 (2d8+10d10+46\~12)
+Fort: +16
+Ref: +5
+Will: +12
+Immune: disease
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Ch N En: DC 16, 5d6
+Melee: +1 human-bane falchion +19/+14/+9 (2d4+10/15-20)
+Spec Att: smite good 4/day (+1 attack and AC, +10 damage)
+:::
 
-**Perception:** +1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+At will: detect good
+:::
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Gnoll\
-**Experience points:** 12,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +10 armor, +1 natural
-
-**Hit points:** 122 (2d8+10d10+46\~12)
-
-**Fort:** +16
-
-**Ref:** +5
-
-**Will:** +12
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Ch N En:** DC 16, 5d6
-
-**Melee:** +1 human-bane falchion +19/+14/+9 (2d4+10/15-20)
-
-**Spec Att:** smite good 4/day (+1 attack and AC, +10 damage)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**At will:**
-
-- detect good
-
-**Prepared Spells**
-
-**Caster level:** 7
-
-**Concentration:** +8
-
-**2nd-level spells:**
-
-- bull's strength
-
-**1st-level spells:**
-
-- doom (DC 12), litany of sloth, protection from good
+::: statblock
+title = "Prepared Spells"
+Caster level: 7
+Concentration: +8
+2nd-level spells: bull's strength
+1st-level spells: doom (DC 12), litany of sloth, protection from good
+:::
 
 ### Tactics
 
@@ -109,33 +89,26 @@ abilities = ["23", "10", "18", "6", "12", "13"]
 **Base Statistics** Without bull's strength, the ravager's base statistics are Melee +1 human-bane
 falchion +17/+12/+7 (2d4+7/15-20); Str 19; CMB +15; CMD 25.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 10, Con 18, Int 6, Wis 12, Cha 13
+::: statblock
+Ability scores: Str 23, Dex 10, Con 18, Int 6, Wis 12, Cha 13
+Base attack bonus: +11
+Combat maneuver bonus: +17
+Combat maneuver defense: 27
+Feats: Cleave, Great Cleave, Improved Critical (falchion), Iron Will, Power Attack, Weapon Focus (falchion)
+Skills: Intimidate +16
+Languages: Gnoll
+Special qualities: cruelties (fatigued, nauseated, staggered), fiendish boon (weapon +2, 2/day), touch of corruption (6/day, 5d6)
+Combat gear: potion of cure moderate wounds
+Other gear: +1 full plate, +1 BANE-human falchion, Ibomc2, Iclk1, 125 gp
+:::
 
-**Base attack bonus:** +11
+### Ecology
 
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Great Cleave, Improved Critical (falchion), Iron Will, Power Attack, Weapon Focus
-(falchion)
-
-**Skills:** Intimidate +16
-
-**Languages:** Gnoll
-
-**Special qualities:** cruelties (fatigued, nauseated, staggered), fiendish boon (weapon +2, 2/day),
-touch of corruption (6/day, 5d6)
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** +1 full plate, +1 BANE-human falchion, Ibomc2, Iclk1, 125 gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

@@ -30,79 +30,62 @@ abilities = ["14", "19", "-", "-", "14", "1"]
 _A tower of blood in humanoid form sloshes within the clotted surface that holds it in a stable
 form._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Type: construct
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +6
+Will: +4
+Amorph: present
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+Weaknesses: vulnerable to bleed
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft.
+B Drain: 1d2 Con
+Bleed: 1d6
+Constrict: 2d6+2 plus bleed
+Melee: 2 slams +10 (2d6+2 plus bleed and [grab](ref/umr/grab))
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 14, Dex 19, Con -, Int -, Wis 14, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +10 (+14 grapple)
+Combat maneuver defense: 24
+Special qualities: clotted skin, [compression](ref/umr/compression)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +4
-
-**Amorph:** present
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Weaknesses:** vulnerable to bleed
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**B Drain:** 1d2 Con
-
-**Bleed:** 1d6
-
-**Constrict:** 2d6+2 plus bleed
-
-**Melee:** 2 slams +10 (2d6+2 plus bleed and [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con -, Int -, Wis 14, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +10 (+14 grapple)
-
-**Combat maneuver defense:** 24
-
-**Special qualities:** clotted skin, [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

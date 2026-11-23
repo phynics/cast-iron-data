@@ -30,77 +30,61 @@ abilities = ["4", "13", "-", "7", "14", "11"]
 
 _This bloodshot eyeball trails strands of bloody nerves that fan out like flapping wings._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Size: diminutive
+Initiative: +1
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 200
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +1
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 5 ft., fly 60 ft. (perfect)
+Melee: slam +6 (1d2-3), 2 wings +6 (1d1-3 plus daze)
+Reach: 0
+Space: 1
+Spec Att: daze, tears of anguish
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 4, Dex 13, Con -, Int 7, Wis 14, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 5 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Fly +15, Perception +7, Stealth +18
+Languages: Common (can't speak)
+Special qualities: visual sensor
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 5 ft., fly 60 ft. (perfect)
-
-**Melee:** slam +6 (1d2-3), 2 wings +6 (1d1-3 plus daze)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** daze, tears of anguish
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 13, Con -, Int 7, Wis 14, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 5 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +15, Perception +7, Stealth +18
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** visual sensor
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

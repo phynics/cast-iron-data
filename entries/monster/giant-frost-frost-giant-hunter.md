@@ -30,91 +30,68 @@ special_qualities = "track +1, wild empathy +1"
 abilities = ["32", "15", "23", "10", "16", "8"]
 +++
 
-**Challenge rating:** 11
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Size: large
+Perception: +22
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 12,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 25
+AC modifiers: +5 armor, +1 deflection, +2 Dex, +10 natural, -1 size
+Hit points: 170 (14d8+2d10+96\~16)
+Fort: +18
+Ref: +9
+Will: +9
+Immune: cold
+Rock Ct: present
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +22
+::: statblock
+Speed: 40 ft.
+Fav En: animals +2
+Melee: +1 spear +23/+18/+13 (2d6+17/×3)
+Ranged: rock +13 (1d8+16.5)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: combat style (archery)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Cold, Giant
+::: statblock
+Ability scores: Str 32, Dex 15, Con 23, Int 10, Wis 16, Cha 8
+Base attack bonus: +12
+Combat maneuver bonus: +24
+Combat maneuver defense: 37
+Feats: Deadly Aim, Far Shot, Iron Will, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Skill Focus (Stealth)
+Skills: Perception +22
+Languages: Common, Giant
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +1
+Gear: +1 chain shirt, +1 spear, Iamu1, Iboid2, I-boots of the winterlands, ring of prot1, 2,298 gp
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 armor, +1 deflection, +2 Dex, +10 natural, -1 size
-
-**Hit points:** 170 (14d8+2d10+96\~16)
-
-**Fort:** +18
-
-**Ref:** +9
-
-**Will:** +9
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Fav En:** animals +2
-
-**Melee:** +1 spear +23/+18/+13 (2d6+17/×3)
-
-**Ranged:** rock +13 (1d8+16.5)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** combat style (archery)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 15, Con 23, Int 10, Wis 16, Cha 8
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 37
-
-**Feats:** Deadly Aim, Far Shot, Iron Will, Point-Blank Shot, Power Attack, Precise Shot, Quick
-Draw, Skill Focus (Stealth)
-
-**Skills:** Perception +22
-
-**Languages:** Common, Giant
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +1
-
-**Gear:** +1 chain shirt, +1 spear, Iamu1, Iboid2, I-boots of the winterlands, ring of prot1, 2,298
-gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

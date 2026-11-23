@@ -31,75 +31,60 @@ abilities = ["11", "12", "10", "-", "11", "1"]
 _These tall, bloodstained blades of bright green grass sway and bend regardless of the presence of
 wind._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Type: plant
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 natural
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +1
+Will: +0
+Defensive abilities: blood healing
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft.
+Melee: 3 fronds +1 (1d4 plus bleed)
+Spec Att: bleed 1
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 11, Dex 12, Con 10, Int -, Wis 11, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12 (can't be tripped)
+Skills: Stealth +1 (+9 among vegetation)
+Racial Modifiers: +8 Stealth among vegetation
+Special qualities: take root
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 natural
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +0
-
-**Defensive abilities:** blood healing
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 3 fronds +1 (1d4 plus bleed)
-
-**Spec Att:** bleed 1
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 12, Con 10, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12 (can't be tripped)
-
-**Skills:** Stealth +1 (+9 among vegetation)
-
-**Racial Modifiers:** +8 Stealth among vegetation
-
-**Special qualities:** take root
-
-**Ecology**
-
-**Environment:** any plains
-
-**Organization:** solitary, pair, swath (3-11), or field (see below)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any plains
+Organization: solitary, pair, swath (3-11), or field (see below)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

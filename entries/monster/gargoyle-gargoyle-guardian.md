@@ -31,77 +31,61 @@ abilities = ["22", "14", "-", "-", "10", "1"]
 _The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour
 innocent passers-by. Then it moves - to do just that._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 20
+AC modifiers: +2 Dex, +11 natural, -1 size
+Hit points: 90 (11d10+30)
+Fort: +3
+Ref: +5
+Will: +3
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (poor)
+Melee: 1 bite +16 (1d8+6), 2 claw +16 (1d6+6)
+Reach: 10
+Space: 10
+Spec Att: snatch
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 14, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 30
+Skills: Stealth +2
+Racial Modifiers: +6 Stealth in stony environs
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +11 natural, -1 size
-
-**Hit points:** 90 (11d10+30)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +3
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (poor)
-
-**Melee:** 1 bite +16 (1d8+6), 2 claw +16 (1d6+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** snatch
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 14, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 30
-
-**Skills:** Stealth +2
-
-**Racial Modifiers:** +6 Stealth in stony environs
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or wing (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or wing (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

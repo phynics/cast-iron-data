@@ -30,87 +30,66 @@ abilities = ["21", "21", "19", "10", "14", "10"]
 _This eerie beast appears to be the animated skeleton of a huge fanged cat, its bones glowing with
 fire and seething with smoke._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +9
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 3,200
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 15
+AC modifiers: +5 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +13
+Will: +5
+Defensive abilities: invisible in light
+Dr: 5/good
+Resist: fire 10
+Sr: 18
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: bite +13 (1d8+5), 2 claws +13 (1d6+5/19-20 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: 2 claws +13, 1d6+5/19-20
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 21, Dex 21, Con 19, Int 10, Wis 14, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
+Skills: Acrobatics +17 (+21 jump), Climb +17
+Racial Modifiers: +4 Perception, +4 Stealth
+Languages: Infernal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +5
-
-**Defensive abilities:** invisible in light
-
-**Dr:** 5/good
-
-**Resist:** fire 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +13 (1d8+5), 2 claws +13 (1d6+5/19-20 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** 2 claws +13, 1d6+5/19-20
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 21, Con 19, Int 10, Wis 14, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
-
-**Skills:** Acrobatics +17 (+21 jump), Climb +17
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Languages:** Infernal (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any land ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([Hell](ref/rule/hell))
+Organization: solitary, pair, or pack (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

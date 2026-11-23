@@ -30,73 +30,59 @@ abilities = ["15", "6", "18", "1", "8", "5"]
 _Pale and glistening with moisture, this slug-like creature stares vacantly as a droning moan
 escapes its slobbering lips._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+aura: piteous moan (30 ft.)
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: -1
+Senses: Darkvision 60 ft.
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** piteous moan (30 ft.)
+::: statblock
+Armor class: 13
+Touch: 8
+Flat-footed: 13
+AC modifiers: -2 Dex, +5 natural
+Hit points: 42 (5d8+20)
+Fort: +7
+Ref: -1
+Will: +3
+Immune: acid, mind-affecting effects
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +6 (1d6+3)
+Spec Att: digestive spew, disgusting demise, piteous moan
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** -1
+::: statblock
+Ability scores: Str 15, Dex 6, Con 18, Int 1, Wis 8, Cha 5
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Great Fortitude, Improved Initiative, Weapon Focus (slam)
+Skills: Climb +10
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 13
-
-**Touch:** 8
-
-**Flat-footed:** 13
-
-**AC modifiers:** -2 Dex, +5 natural
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +7
-
-**Ref:** -1
-
-**Will:** +3
-
-**Immune:** acid, mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +6 (1d6+3)
-
-**Spec Att:** digestive spew, disgusting demise, piteous moan
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 6, Con 18, Int 1, Wis 8, Cha 5
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Great Fortitude, Improved Initiative, Weapon Focus (slam)
-
-**Skills:** Climb +10
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or rout (2-10)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or rout (2-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

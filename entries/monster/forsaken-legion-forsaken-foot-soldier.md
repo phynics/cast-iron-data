@@ -30,77 +30,60 @@ abilities = ["14", "11", "-", "11", "12", "11"]
 _This withered corpse carries a sharpened spear and has a small shield strapped to its emaciated
 arm._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +0
+Alignment: Lawful evil
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: +5 armor, +1 shield
+Hit points: 18 (4d8)
+Fort: +1
+Ref: +1
+Will: +5
+Dr: 5/bludgeoning and slashing
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Melee: spear +5 (1d8+3/×3)
+Ranged: javelin +3 (1d6+2)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 14, Dex 11, Con -, Int 11, Wis 12, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Precise Strike, Shield Wall
+Skills: Diplomacy +4, Profession (soldier) +5
+Languages: Common, Jistka
+Special qualities: undying loyalty
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 armor, +1 shield
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +5
-
-**Dr:** 5/bludgeoning and slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** spear +5 (1d8+3/×3)
-
-**Ranged:** javelin +3 (1d6+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 11, Con -, Int 11, Wis 12, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Precise Strike, Shield Wall
-
-**Skills:** Diplomacy +4, Profession (soldier) +5
-
-**Languages:** Common, Jistka
-
-**Special qualities:** undying loyalty
-
-**Ecology**
-
-**Environment:** any ruins (Cheliax or Rahadoum)
-
-**Organization:** solitary, squad (2-10), or company (12-24
-[forsaken arbalesters](ref/monster/forsaken-legion-forsaken-arbalester),
-[defenders](ref/monster/forsaken-legion-forsaken-defender), and foot soldiers)
-
-**Treasure:** Standard (buckler, scale mail, javelin, spear)
+::: statblock
+Environment: any ruins (Cheliax or Rahadoum)
+Organization: solitary, squad (2-10), or company (12-24 [forsaken arbalesters](ref/monster/forsaken-legion-forsaken-arbalester), [defenders](ref/monster/forsaken-legion-forsaken-defender), and foot soldiers)
+Treasure: Standard (buckler, scale mail, javelin, spear)
+:::
 
 ### Special Abilities
 

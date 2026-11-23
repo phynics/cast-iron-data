@@ -30,77 +30,63 @@ abilities = ["18", "15", "-", "-", "10", "1"]
 _This horrific humanoid figure is a mass of bones and skulls tied together with slick ropes of
 sinew._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 19
+AC modifiers: +2 Dex, +10 natural, -1 size
+Hit points: 90 (11d10+30)
+Fort: +3
+Ref: +5
+Will: +3
+Dr: 5/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +14 (1d8+4), 2 slams +14 (2d6+4)
+Reach: 10
+Space: 10
+Spec Att: bone prison (ranged touch +12)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +10 natural, -1 size
-
-**Hit points:** 90 (11d10+30)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +3
-
-**Dr:** 5/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +14 (1d8+4), 2 slams +14 (2d6+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bone prison (ranged touch +12)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +16 (+20 disarm or grapple)
-
-**Combat maneuver defense:** 28
-
-**Feats:** Improved Initiative^B^
+::: statblock
+Ability scores: Str 18, Dex 15, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +11
+Combat maneuver bonus: +16 (+20 disarm or grapple)
+Combat maneuver defense: 28
+Feats: Improved Initiative^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

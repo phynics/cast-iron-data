@@ -30,73 +30,59 @@ abilities = ["27", "9", "-", "-", "12", "1"]
 _This vaguely humanoid mass of polished black metal lumbers forward, with all manner of metallic
 objects clinging to its body._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: magnetic field (30 ft.)
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**aura:** magnetic field (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: -1 Dex, +16 natural, -1 size
+Hit points: 101 (13d10+30)
+Fort: +4
+Ref: +3
+Will: +5
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)
+Reach: 10
+Space: 10
+Spec Att: inescapable grip, magnetic disarm
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +1
+::: statblock
+Ability scores: Str 27, Dex 9, Con -, Int -, Wis 12, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 31
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** -1 Dex, +16 natural, -1 size
-
-**Hit points:** 101 (13d10+30)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +20 (2d10+8 plus inescapable grip and magnetic disarm)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** inescapable grip, magnetic disarm
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 9, Con -, Int -, Wis 12, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 31
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Incidental; metal objects stuck to the golem
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: Incidental; metal objects stuck to the golem
+:::
 
 ### Special Abilities
 

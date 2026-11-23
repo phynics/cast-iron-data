@@ -32,101 +32,73 @@ abilities = ["14", "19", "20", "17", "16", "17"]
 _Cracked skin stretches across the body of this gangly humanoid creature. A crown of bone floats
 above its grotesque, misshapen head and its mouth is open in a silent scream._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+blindsense: 120
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +22
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 120
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +12 natural
+Hit points: 152 (16d8+80)
+Fort: +10
+Ref: +9
+Will: +15; +9 vs. mind-affecting effects
+Defensive abilities: _[mind blank](ref/spell/mind-blank)_
+Dr: 15/magic
+Immune: sonic
+Sr: 23
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Melee: subsonic touch +14 (1d8 plus 12d6 sonic)
+Spec Att: word of sundering
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+Constant: mind blank
+Per day: 3/day: shatter (DC 15)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 19, Con 20, Int 17, Wis 16, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Blind-Fight, Dodge, Improved Initiative, Iron Will, Lunge, Mobility, Nimble Moves, Spring Attack
+Skills: Climb +21, Knowledge (arcana) +22, Perception +22
+Racial Modifiers: +8 Stealth
+Languages: Common, Kasthezvi, Thassilonian (can't speak)
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), death throes, soundless
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +12 natural
-
-**Hit points:** 152 (16d8+80)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +15; +9 vs. mind-affecting effects
-
-**Defensive abilities:** _[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 15/magic
-
-**Immune:** sonic
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** subsonic touch +14 (1d8 plus 12d6 sonic)
-
-**Spec Att:** word of sundering
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**Constant:**
-
-- mind blank
-
-**Per day:**
-
-- 3/day: shatter (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 20, Int 17, Wis 16, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Blind-Fight, Dodge, Improved Initiative, Iron Will, Lunge, Mobility, Nimble Moves, Spring
-Attack
-
-**Skills:** Climb +21, Knowledge (arcana) +22, Perception +22
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Common, Kasthezvi, Thassilonian (can't speak)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), death throes, soundless
-
-**Ecology**
-
-**Environment:** any underground (Kaer Maga)
-
-**Organization:** solitary, pair, or cabal (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground (Kaer Maga)
+Organization: solitary, pair, or cabal (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

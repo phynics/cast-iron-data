@@ -32,87 +32,68 @@ abilities = ["25", "12", "18", "13", "13", "10"]
 _This repulsive, hunchbacked crone has skin the color of a fresh bruise. Despite her hunch, she
 looms taller than a human._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +1
+Size: large
+Type: Monstrous humanoid
+Perception: +13
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 66 (7d10+28)
+Fort: +8
+Ref: +6
+Will: +6
+Dr: 5/bludgeoning
+Sr: 17
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: bite +13 (1d6+7), 2 claws +13 (1d6+7 plus [grab](ref/umr/grab))
+Reach: 10
+Rend: 2 claws, 2d6+10
+Space: 10
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +7
+Per day: 3/day: alter self, fog cloud
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 25, Dex 12, Con 18, Int 13, Wis 13, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 26
+Feats: Alertness, Blind-Fight, Great Fortitude, Intimidating Prowess
+Skills: Bluff +7, Diplomacy +7, Sense Motive +3, Stealth +7
+Languages: Common, Giant
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 5/bludgeoning
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +13 (1d6+7), 2 claws +13 (1d6+7 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Rend:** 2 claws, 2d6+10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +7
-
-**Per day:**
-
-- 3/day: alter self, fog cloud
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 18, Int 13, Wis 13, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Alertness, Blind-Fight, Great Fortitude, Intimidating Prowess
-
-**Skills:** Bluff +7, Diplomacy +7, Sense Motive +3, Stealth +7
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** cold marshes
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold marshes
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Description
 

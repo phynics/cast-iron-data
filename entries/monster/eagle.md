@@ -28,67 +28,56 @@ abilities = ["10", "15", "12", "2", "15", "7"]
 
 _This magnificent bird of prey has dark feathers save for those on its head, which are pure white._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 10 ft., fly 80 ft. (average)
+Melee: 2 talons +3 (1d4), bite +3 (1d4)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 15, Con 12, Int 2, Wis 15, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Feats: Weapon Finesse
+Skills: Fly +8, Perception +10
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 80 ft. (average)
-
-**Melee:** 2 talons +3 (1d4), bite +3 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 12, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +8, Perception +10
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate mountains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

@@ -30,75 +30,60 @@ abilities = ["3", "9", "11", "-", "12", "4"]
 _This collection of insects is composed of a variety of centipedes, beetles, and other bugs, each of
 which bears humanoid arms, legs, eyes, or even faces._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Size: diminutive
+Initiative: -1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Type: vermin
+Experience points: 200
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 13
+AC modifiers: -1 Dex, +4 size
+Hit points: 9 (2d8)
+Fort: +3
+Ref: -1
+Will: +1
+Defensive abilities: sickening crunch, swarm traits
+Immune: mind-affecting effects, weapon damage
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Distraction: 11
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 3, Dex 9, Con 11, Int -, Wis 12, Cha 4
+Base attack bonus: +1
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Special qualities: indescribable swarm (DC 11)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** -1 Dex, +4 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** -1
-
-**Will:** +1
-
-**Defensive abilities:** sickening crunch, swarm traits
-
-**Immune:** mind-affecting effects, weapon damage
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Distraction:** 11
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 9, Con 11, Int -, Wis 12, Cha 4
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Special qualities:** indescribable swarm (DC 11)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, cluster (2-8), or epidemic (9-20)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, cluster (2-8), or epidemic (9-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

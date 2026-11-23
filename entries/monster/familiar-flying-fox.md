@@ -25,69 +25,57 @@ melee = "bite +1 (1d3-1)"
 abilities = ["9", "13", "12", "2", "14", "5"]
 +++
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8)
+Fort: +3
+Ref: +3
+Will: +2; +4 vs. disease
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Melee: bite +1 (1d3-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 9, Dex 13, Con 12, Int 2, Wis 14, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 8
+Feats: Skill Focus (Perception)
+Skills: Fly +5, Perception +9
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +2; +4 vs. disease
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Melee:** bite +1 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 13, Con 12, Int 2, Wis 14, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 8
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Fly +5, Perception +9
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, pair, or colony (10-100)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, or colony (10-100)
+Treasure: None
+:::
 
 ### Description
 

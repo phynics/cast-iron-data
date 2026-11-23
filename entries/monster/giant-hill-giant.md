@@ -31,83 +31,62 @@ abilities = ["25", "8", "19", "6", "10", "7"]
 _This hunched giant exudes power and a crude, stupid anger, its filthy fur clothing bespeaking a
 brutish and backwoods lifestyle._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: large
+Perception: +6
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +4 armor, -1 Dex, +9 natural, -1 size
+Hit points: 85 (10d8+40)
+Fort: +11
+Ref: +2
+Will: +3
+Rock Ct: present
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: greatclub +14/+9 (2d8+10) or 2 slams +13 (1d8+7)
+Ranged: rock +6 (1d8+10)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 8, Con 19, Int 6, Wis 10, Cha 7
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 24
+Feats: Cleave, Intimidating Prowess, Martial Weapon Proficiency (greatclub), Power Attack, Weapon Focus (greatclub)
+Skills: Climb +10, Intimidate +12, Perception +6
+Languages: Giant
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, -1 Dex, +9 natural, -1 size
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +11
-
-**Ref:** +2
-
-**Will:** +3
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** greatclub +14/+9 (2d8+10) or 2 slams +13 (1d8+7)
-
-**Ranged:** rock +6 (1d8+10)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 8, Con 19, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 24
-
-**Feats:** Cleave, Intimidating Prowess, Martial Weapon Proficiency (greatclub), Power Attack,
-Weapon Focus (greatclub)
-
-**Skills:** Climb +10, Intimidate +12, Perception +6
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, gang (2-5), band (6-8), raiding party (9-12 plus 1d4
-[dire wolves](ref/monster/wolf-dire-wolf)), or tribe (13-30 plus 35% noncombatants plus 1 barbarian
-or fighter chief of 4th-6th level, 11-16 dire wolves, 1-4 [ogres](ref/monster/ogre), and 13-20
-[orc](ref/monster/orc) slaves)
-
-**Treasure:** Standard (Ah, greatclub); other treasure
+::: statblock
+Environment: temperate hills
+Organization: solitary, gang (2-5), band (6-8), raiding party (9-12 plus 1d4 [dire wolves](ref/monster/wolf-dire-wolf)), or tribe (13-30 plus 35% noncombatants plus 1 barbarian or fighter chief of 4th-6th level, 11-16 dire wolves, 1-4 [ogres](ref/monster/ogre), and 13-20 [orc](ref/monster/orc) slaves)
+Treasure: Standard (Ah, greatclub); other treasure
+:::
 
 ### Description
 

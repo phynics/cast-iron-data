@@ -32,107 +32,75 @@ _This slender humanoid is clad in a severe black leather harness and long skirt 
 curling twists of wire. Her eyes are colorless orbs, and tears of blood course down her cheeks.
 Slender surgical lancets pierce her body in numerous locations, yet these wounds do not bleed._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: truth (30 ft., DC 14)
+Initiative: +9
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 3,200
+:::
 
-**aura:** truth (30 ft., DC 14)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +3 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +8
+Will: +6
+Dr: 5/silver or good
+Immune: cold, poison
+Regen: 3 (good spells, good weapons, silver weapons)
+Sr: 18
+Vulner: electricity
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: lancet +14/+9 (1d4+7/19-20/×3), lancet +14 (1d4+5/19-20/×3)
+Spec Att: unnerving gaze (30 ft., DC 16)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: aura of truth (DC 14)
+At will: mage hand, open/close, stabilize
+Per day: 3/day: cure moderate wounds, poison (DC 16), sending, tongues\
+1/day: order's wrath (DC 16), plane shift, self only; to or from the Material Plane or the Plane of Shadow
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 20, Con 18, Int 17, Wis 10, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Dodge, Improved Initiative, Two-Weapon Fighting, Weapon Finesse, Weapon Focus (lancet)
+Skills: Bluff +14, Diplomacy +14, Heal +12, Intimidate +14, Knowledge (arcana, nobility) +6, Linguistics +15, Sense Motive +12, Sleight of Hand +14
+Languages: Abyssal, Aklo, Aquan, Auran, Celestial, Common, Ignan, Infernal, Necril, Shadowtongue, Terran, Undercommon
+Special qualities: lancet mastery, truthspeaker
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology {#stat-ecology}
 
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +3 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +6
-
-**Dr:** 5/silver or good
-
-**Immune:** cold, poison
-
-**Regen:** 3 (good spells, good weapons, silver weapons)
-
-**Sr:** 18
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** lancet +14/+9 (1d4+7/19-20/×3), lancet +14 (1d4+5/19-20/×3)
-
-**Spec Att:** unnerving gaze (30 ft., DC 16)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- aura of truth (DC 14)
-
-**At will:**
-
-- mage hand, open/close, stabilize
-
-**Per day:**
-
-- 3/day: cure moderate wounds, poison (DC 16), sending, tongues
-- 1/day: order's wrath (DC 16), plane shift, self only; to or from the Material Plane or the Plane
-  of Shadow
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 18, Int 17, Wis 10, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Dodge, Improved Initiative, Two-Weapon Fighting, Weapon Finesse, Weapon Focus (lancet)
-
-**Skills:** Bluff +14, Diplomacy +14, Heal +12, Intimidate +14, Knowledge (arcana, nobility) +6,
-Linguistics +15, Sense Motive +12, Sleight of Hand +14
-
-**Languages:** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Ignan, Infernal, Necril,
-Shadowtongue, Terran, Undercommon
-
-**Special qualities:** lancet mastery, truthspeaker
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or company (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or company (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

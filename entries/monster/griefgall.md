@@ -30,99 +30,73 @@ abilities = ["4", "19", "14", "4", "15", "15"]
 
 _Thorn-tipped tendrils and flowering filaments sprout from this tiny, squirming grub-like plant._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Alignment: Neutral evil
+Perception: +16
+Senses: All-around vision, Low-light vision
+Type: plant
+Size: tiny
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 dodge, +2 size
+Hit points: 58 (9d8+18)
+Fort: +8
+Ref: +7
+Will: +5
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Weaknesses: cold lethargy
+:::
 
-**Perception:** +16
+### Offense
 
-**Senses:** All-around vision, Low-light vision
+::: statblock
+Speed: 5 ft., burrow 5 ft., climb 5 ft.
+Melee: tendrils +12 (1d2-3 plus paralysis)
+Paralysis: 1d3 minutes, DC 16
+Reach: 0
+Reach P: 5 ft. with tendrils
+Space: 2-1/2
+Spec Att: parasitize
+:::
 
-**Type:** plant
+::: statblock
+title = "Psychic Magic"
+Caster level: 9
+Concentration: +11
+Power points: 12
+Psychoactive powers: crushing despair, 4 PE, DC 16, feast on fear, 5 PE, DC 17, miserable pity, affects host and self; 2 PE, DC 14, overwhelming grief, 4 PE, DC 16, terrible remorse, 4 PE, DC 16
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 4, Dex 19, Con 14, Int 4, Wis 15, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 16 (can't be tripped)
+Feats: Dodge, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth), Weapon Finesse
+Skills: Climb +5, Perception +16, Stealth +19
+Languages: Aklo (speaks through host only)
+Special qualities: [freeze](ref/umr/freeze), germinate
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 size
-
-**Hit points:** 58 (9d8+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** cold lethargy
-
-**Offense**
-
-**Speed:** 5 ft., burrow 5 ft., climb 5 ft.
-
-**Melee:** tendrils +12 (1d2-3 plus paralysis)
-
-**Paralysis:** 1d3 minutes, DC 16
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tendrils
-
-**Space:** 2-1/2
-
-**Spec Att:** parasitize
-
-**Psychic Magic**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- crushing despair, 4 PE, DC 16, feast on fear, 5 PE, DC 17, miserable pity, affects host and self;
-  2 PE, DC 14, overwhelming grief, 4 PE, DC 16, terrible remorse, 4 PE, DC 16
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 19, Con 14, Int 4, Wis 15, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 16 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth), Weapon
-Finesse
-
-**Skills:** Climb +5, Perception +16, Stealth +19
-
-**Languages:** Aklo (speaks through host only)
-
-**Special qualities:** [freeze](ref/umr/freeze), germinate
-
-**Ecology**
-
-**Environment:** temperate or warm forests or urban
-
-**Organization:** solitary or infestation (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests or urban
+Organization: solitary or infestation (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

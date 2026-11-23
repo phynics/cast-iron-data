@@ -32,116 +32,83 @@ abilities = ["23", "12", "21", "16", "17", "14"]
 _This majestic creature has the body of a lion, the wings of an eagle, and the face of a wise human
 man._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: magic circle against evil (20 ft.)
+Initiative: +5
+Size: large
+Alignment: Lawful good
+Type: Magical beast
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**aura:** magic circle against evil (20 ft.)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +9
+Will: +8
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful good
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: 2 claws +14 (1d8+6), 2 wings +9 (1d6+3)
+Pounce: present
+Rake: 2 claws +14; 1d8+6
+Reach: 5
+Space: 10
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+Per day: 3/day: greater invisibility\
+1/day: dimension door
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +9
+3rd-level spells: 4/day: cure serious wounds, searing light
+2nd-level spells: 7/day: cure moderate wounds, lesser restoration, resist energy
+1st-level spells: 7/day: bless, command (DC 13), cure light wounds, detect evil, divine favor
+Cantrips: At will: detect magic, detect poison, guidance, mending, purify food and drink, resistance, stabilize
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** 2 claws +14 (1d8+6), 2 wings +9 (1d6+3)
-
-**Pounce:** present
-
-**Rake:** 2 claws +14; 1d8+6
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: greater invisibility
-- 1/day: dimension door
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- 4/day: cure serious wounds, searing light
-
-**2nd-level spells:**
-
-- 7/day: cure moderate wounds, lesser restoration, resist energy
-
-**1st-level spells:**
-
-- 7/day: bless, command (DC 13), cure light wounds, detect evil, divine favor
-
-**Cantrips:**
-
-- At will: detect magic, detect poison, guidance, mending, purify food and drink, resistance,
-  stabilize
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 21, Int 16, Wis 17, Cha 14
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27 (31 vs. trip)
-
-**Feats:** Blind-Fight, Eschew Materials^B^, Improved Initiative, Iron Will, Lightning Reflexes,
-Power Attack
-
-**Skills:** Diplomacy +11, Sense Motive +12
-
-**Languages:** Celestial, Common
+::: statblock
+Ability scores: Str 23, Dex 12, Con 21, Int 16, Wis 17, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 27 (31 vs. trip)
+Feats: Blind-Fight, Eschew Materials^B^, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack
+Skills: Diplomacy +11, Sense Motive +12
+Languages: Celestial, Common
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate deserts
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate deserts
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

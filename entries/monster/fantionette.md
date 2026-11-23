@@ -32,99 +32,73 @@ _What appears at first glance to be a child or halfling has skin more akin to cr
 barely covering a black, insectile carapace, and it has spider-like legs where one would expect
 arms._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: revelation (10 ft.)
+Alignment: Chaotic evil
+Initiative: +8
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 1,200
+:::
 
-**aura:** revelation (10 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +2 natural, +1 size
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +8
+Will: +6
+Dr: 5/good
+Immune: poison
+Sr: 15
+:::
 
-**Initiative:** +8
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +7 (1d4+1), 2 claws +7 (1d3+1)
+Rend: 2 claws, 1d4+1
+Sneak: +1d6
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+At will: bleed (DC 14), charm person (DC 14), dancing lights, ghost sound (DC 14)
+Per day: 3/day: darkness, dimension door, spiritual weapon\
+1/day: glitterdust (DC 15), scare (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 19, Con 14, Int 13, Wis 15, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Following Step, Improved Initiative, Step Up
+Skills: Acrobatics +12, Bluff +11, Climb +9, Knowledge (local) +9, Perception +10, Sense Motive +10, Stealth +16
+Languages: Abyssal, Common, Halfling, Undercommon
+Special qualities: puppet strings
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +2 natural, +1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +6
-
-**Dr:** 5/good
-
-**Immune:** poison
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d4+1), 2 claws +7 (1d3+1)
-
-**Rend:** 2 claws, 1d4+1
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**At will:**
-
-- bleed (DC 14), charm person (DC 14), dancing lights, ghost sound (DC 14)
-
-**Per day:**
-
-- 3/day: darkness, dimension door, spiritual weapon
-- 1/day: glitterdust (DC 15), scare (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 19, Con 14, Int 13, Wis 15, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Following Step, Improved Initiative, Step Up
-
-**Skills:** Acrobatics +12, Bluff +11, Climb +9, Knowledge (local) +9, Perception +10, Sense Motive
-+10, Stealth +16
-
-**Languages:** Abyssal, Common, Halfling, Undercommon
-
-**Special qualities:** puppet strings
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss) or [Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or cast (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss) or [Axis](ref/rule/utopia))
+Organization: solitary, pair, or cast (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

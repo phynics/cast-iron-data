@@ -33,100 +33,71 @@ with blood._
 
 **Mythic Grendel**
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Mythic rank: 7
+aura: frightful presence (60 ft.; DC 20, DC 16 against mythic creatures)
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Mythic
+Experience points: 204,800
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**aura:** frightful presence (60 ft.; DC 20, DC 16 against mythic creatures)
+::: statblock
+Armor class: 34
+Touch: 13
+Flat-footed: 30
+AC modifiers: +4 Dex, +25 natural, -1 size
+Hit points: 340 (20d10+230)
+Fort: +16
+Ref: +16
+Will: +16
+Dr: 10/epic
+Ferocity: present
+Regen: 10 (unarmed strikes or natural weapons)
+Resist: acid 10, cold 10, fire 10
+Unstop: present
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 40 ft.
+Blood Rage: present
+M Power: 7/day, surge +1d10
+Melee: 2 claws +32 (3d10+13/19-20 plus [grab](ref/umr/grab)), bite +27 (4d8+6)
+Reach: 10
+Space: 10
+Spec Att: brutal surge, gruesome dismemberment
+:::
 
-**Size:** large
+### Statistics
 
-**Type:** Monstrous humanoid
+::: statblock
+Ability scores: Str 36, Dex 19, Con 26, Int 9, Wis 15, Cha 8
+Base attack bonus: +20
+Combat maneuver bonus: +34 (+38 grapple)
+Combat maneuver defense: 48
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Exhausting Critical, Mythic Great Fortitude, Improved Critical (claw), Mythic Iron Will, Mythic Power Attack, Mythic Skill Focus (Stealth), Tiring Critical
+Skills: Acrobatics +19 (+23 when jumping), Intimidate +12, Perception +15 (+23 sound-based checks), Stealth +24, Swim +31
+Racial Modifiers: +4 Acrobatics when jumping, +8 Perception (sound-based checks)
+Languages: Common
+Special qualities: display of strength
+:::
 
-**Perception:** +15
+### Ecology
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Mythic
-
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 13
-
-**Flat-footed:** 30
-
-**AC modifiers:** +4 Dex, +25 natural, -1 size
-
-**Hit points:** 340 (20d10+230)
-
-**Fort:** +16
-
-**Ref:** +16
-
-**Will:** +16
-
-**Dr:** 10/epic
-
-**Ferocity:** present
-
-**Regen:** 10 (unarmed strikes or natural weapons)
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Blood Rage:** present
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** 2 claws +32 (3d10+13/19-20 plus [grab](ref/umr/grab)), bite +27 (4d8+6)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** brutal surge, gruesome dismemberment
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 19, Con 26, Int 9, Wis 15, Cha 8
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +34 (+38 grapple)
-
-**Combat maneuver defense:** 48
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Exhausting Critical, Mythic Great
-Fortitude, Improved Critical (claw), Mythic Iron Will, Mythic Power Attack, Mythic Skill Focus
-(Stealth), Tiring Critical
-
-**Skills:** Acrobatics +19 (+23 when jumping), Intimidate +12, Perception +15 (+23 sound-based
-checks), Stealth +24, Swim +31
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +8 Perception (sound-based checks)
-
-**Languages:** Common
-
-**Special qualities:** display of strength
-
-**Ecology**
-
-**Environment:** cold swamps
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: cold swamps
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,105 +33,68 @@ abilities = ["14", "14", "18", "6", "13", "11"]
 _Wielding a net of woven moss and a stone javelin, this humanoid reptile wears armor of swamp reeds
 and bone and the skull of a larger reptile as a menacing mask._
 
-**Challenge rating:** 8
-
 **Female troglodyte [hunter](ref/class/hunter) ([feral hunter](ref/arc-hunter/feral-hunter)) 7**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 15, 10 rounds)
+::: statblock
+Challenge rating: 8
+aura: [stench](ref/umr/stench) (30 ft., DC 15, 10 rounds)
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 21
+AC modifiers: +5 armor, +2 Dex, +6 natural
+Hit points: 83 (9d8+43)
+Fort: +14
+Ref: +7
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., (in armor)
+Melee: mwk net +9/+4 or bite +3 (1d4+1), 2 claws +3 (1d4+1)
+Ranged: mwk javelin +9 (1d6+2)
+Spec Att: wild shape 2/day Hunter
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +8
+3rd-level spells: 1/day: poison (DC 14), stone shape, summon nature's ally III
+2nd-level spells: 3/day: chill metal (DC 13), protection from energy, spider climb, summon nature's ally II, summon swarm
+1st-level spells: 5/day: entangle (DC 12), magic fang, obscuring mist, speak with animals, summon nature's ally I, thorn javelin
+Cantrips: At will: create water, detect poison, guidance, purify food and drink (DC 11), resistance, spark (DC 11)
+:::
 
-**Senses:** Darkvision 90 ft.
+### Statistics
 
-**Subtype:** Reptilian
-
-**Experience points:** 4,800
-
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 armor, +2 Dex, +6 natural
-
-**Hit points:** 83 (9d8+43)
-
-**Fort:** +14
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., (in armor)
-
-**Melee:** mwk net +9/+4 or bite +3 (1d4+1), 2 claws +3 (1d4+1)
-
-**Ranged:** mwk javelin +9 (1d6+2)
-
-**Spec Att:** wild shape 2/day Hunter
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +8
-
-**3rd-level spells:**
-
-- 1/day: poison (DC 14), stone shape, summon nature's ally III
-
-**2nd-level spells:**
-
-- 3/day: chill metal (DC 13), protection from energy, spider climb, summon nature's ally II, summon
-  swarm
-
-**1st-level spells:**
-
-- 5/day: entangle (DC 12), magic fang, obscuring mist, speak with animals, summon nature's ally I,
-  thorn javelin
-
-**Cantrips:**
-
-- At will: create water, detect poison, guidance, purify food and drink (DC 11), resistance, spark
-  (DC 11)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 14, Con 18, Int 6, Wis 13, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Exotic Weapon Proficiency (net), Great Fortitude, Net Adept, Net Maneuvering, Point-Blank
-Shot, Precise Shot, Stealth Synergy
-
-**Skills:** Knowledge (dungeoneering) +4, Perception +12
-
-**Racial Modifiers:** +4 Stealth, +4 Stealth in rocky areas
-
-**Languages:** Draconic
-
-**Special qualities:** animal focus (7 minutes/day), feral focus, nature training, summon pack,
-track +3, [wild empathy](ref/ability/wild-empathy) +7,
-[woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** 2 potion of cure moderate wounds, scroll of neutralize poison
-
-**Other gear:** +1 MN scale mail, 5 mwk javelins, mwk net, I-aspect mask/snake
+::: statblock
+Ability scores: Str 14, Dex 14, Con 18, Int 6, Wis 13, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Exotic Weapon Proficiency (net), Great Fortitude, Net Adept, Net Maneuvering, Point-Blank Shot, Precise Shot, Stealth Synergy
+Skills: Knowledge (dungeoneering) +4, Perception +12
+Racial Modifiers: +4 Stealth, +4 Stealth in rocky areas
+Languages: Draconic
+Special qualities: animal focus (7 minutes/day), feral focus, nature training, summon pack, track +3, [wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)
+Combat gear: 2 potion of cure moderate wounds, scroll of neutralize poison
+Other gear: +1 MN scale mail, 5 mwk javelins, mwk net, I-aspect mask/snake
+:::
 
 ### Description
 

@@ -33,94 +33,70 @@ abilities = ["27", "8", "22", "7", "12", "15"]
 _A low hum surrounds this huge, gnarled tree. The rotten fruits that hang from its sickly branches
 look vaguely like human heads._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: unsettling drone (30 ft., DC 18)
+blindsense: 60
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +17
+Senses: All-around vision, Low-light vision
+Type: plant
+Experience points: 12,800
+:::
 
-**aura:** unsettling drone (30 ft., DC 18)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 25
+Touch: 7
+Flat-footed: 25
+AC modifiers: -1 Dex, +18 natural, -2 size
+Hit points: 149 (13d8+91)
+Fort: +14
+Ref: +5
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits), poison
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 10 ft.
+Melee: bite +15 (2d6+8/19-20), 2 slams +16 (1d8+8)
+Reach: 15
+Space: 15
+Spec Att: enticing head-fruits, intoxicating stench
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +15
+At will: share memory (with a range of 55 feet, targeting the jinmenju and 1 creature in range, DC 14)
+Per day: 3/day: sculpt sound (DC 15), shout (DC 16)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** All-around vision, Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 8, Con 22, Int 7, Wis 12, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 28
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Lunge, Toughness, Weapon Focus (slam)
+Skills: Perception +17
+Languages: Common
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 7
-
-**Flat-footed:** 25
-
-**AC modifiers:** -1 Dex, +18 natural, -2 size
-
-**Hit points:** 149 (13d8+91)
-
-**Fort:** +14
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits), poison
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +15 (2d6+8/19-20), 2 slams +16 (1d8+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** enticing head-fruits, intoxicating stench
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +15
-
-**At will:**
-
-- share memory (with a range of 55 feet, targeting the jinmenju and 1 creature in range, DC 14)
-
-**Per day:**
-
-- 3/day: sculpt sound (DC 15), shout (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 8, Con 22, Int 7, Wis 12, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes,
-Lunge, Toughness, Weapon Focus (slam)
-
-**Skills:** Perception +17
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate hills or mountains
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate hills or mountains
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

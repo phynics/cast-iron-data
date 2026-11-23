@@ -31,84 +31,64 @@ _Dangling chains cover the riveted iron body of this massive rhinoceros like thi
 hollow eyes glow - windows into a mighty furnace - and smoke that smells suspiciously like burning
 flesh billows from its smokestack horns._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 24
+AC modifiers: +1 Dex, +16 natural, -2 size
+Hit points: 131 (14d10+54)
+Fort: +6
+Ref: +7
+Will: +4
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), fire
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus [grab](ref/umr/grab))
+Pow Ch: gore, 6d8+16 or scooping charge
+Reach: 10
+Reach P: 20 ft. with chains
+Space: 15
+Spec Att: grasping chains, powerful drag
+Swallow: 2d6 fire damage, AC 18, 13 hp
+Trample: 2d6+8 plus grasping chains, DC 26
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 28, Dex 12, Con -, Int 1, Wis 11, Cha 5
+Base attack bonus: +14
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Great Fortitude, Improved Critical (gore), Intimidating Prowess, Lightning Reflexes, Multiattack, Power Attack, Toughness
+Skills: Intimidate +4, Perception +14
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +16 natural, -2 size
-
-**Hit points:** 131 (14d10+54)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +21 (3d8+9/19-20), 2 chains +19 (2d6+4 plus [grab](ref/umr/grab))
-
-**Pow Ch:** gore, 6d8+16 or scooping charge
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with chains
-
-**Space:** 15
-
-**Spec Att:** grasping chains, powerful drag
-
-**Swallow:** 2d6 fire damage, AC 18, 13 hp
-
-**Trample:** 2d6+8 plus grasping chains, DC 26
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 12, Con -, Int 1, Wis 11, Cha 5
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Great Fortitude, Improved Critical (gore), Intimidating Prowess, Lightning Reflexes,
-Multiattack, Power Attack, Toughness
-
-**Skills:** Intimidate +4, Perception +14
-
-**Ecology**
-
-**Environment:** warm mountains or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm mountains or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

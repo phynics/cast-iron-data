@@ -26,75 +26,60 @@ special_attacks = "poison"
 abilities = ["1", "17", "10", "-", "10", "2"]
 +++
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Initiative: +3
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: vermin
+Experience points: 50
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 14
+AC modifiers: +3 Dex, +2 natural, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +3
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +5 (1d3-5 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 1, Dex 17, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 6 (can't be tripped)
+Feats: Weapon Finesse
+Skills: Climb +11, Perception +4, Stealth +19
+Racial Modifiers: +4 Perception, +8 Stealth
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +2 natural, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +5 (1d3-5 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 17, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 6 (can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +11, Perception +4, Stealth +19
-
-**Racial Modifiers:** +4 Perception, +8 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm forest or underground
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forest or underground
+Organization: solitary, pair, or colony (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

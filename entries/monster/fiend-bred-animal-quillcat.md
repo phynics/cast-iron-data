@@ -28,73 +28,59 @@ abilities = ["12", "15", "13", "2", "12", "9"]
 
 _Dozens of long, sharp spines line the back and tail of this dark-gray cat._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 14 (2d8+5)
+Fort: +4
+Ref: +5
+Will: +1
+Defensive abilities: quill defense
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft.
+Melee: bite +3 (1d4+1), tail slap +3 (1d4+1)
+Pounce: present
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +1 (+5 grapple)
+Combat maneuver defense: 13 (17 vs. trip)
+Feats: Toughness
+Skills: Acrobatics +10 (+14 when jumping), Perception +5, Stealth +10
+Racial Modifiers: +4 Acrobatics (+8 when jumping), +4 Stealth
+Special qualities: spiny tail
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 14 (2d8+5)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Defensive abilities:** quill defense
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +3 (1d4+1), tail slap +3 (1d4+1)
-
-**Pounce:** present
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 13, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1 (+5 grapple)
-
-**Combat maneuver defense:** 13 (17 vs. trip)
-
-**Feats:** Toughness
-
-**Skills:** Acrobatics +10 (+14 when jumping), Perception +5, Stealth +10
-
-**Racial Modifiers:** +4 Acrobatics (+8 when jumping), +4 Stealth
-
-**Special qualities:** spiny tail
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

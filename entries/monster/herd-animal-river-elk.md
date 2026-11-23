@@ -28,73 +28,61 @@ abilities = ["17", "15", "18", "2", "15", "6"]
 _This majestic beast stands the height of a man at its shoulders, a many-tipped rack of proud
 antlers crowning its head._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 11
+AC modifiers: +2 Dex, +2 natural, -1 size
+Hit points: 25 (3d8+12)
+Fort: +7
+Ref: +7
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., swim 30 ft.
+Melee: gore +4 (1d8+3) or 2 hooves -1 (1d6+1)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +2 natural, -1 size
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 50 ft., swim 30 ft.
-
-**Melee:** gore +4 (1d8+3) or 2 hooves -1 (1d6+1)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 18, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Endurance, Lightning Reflexes, Run^B^
-
-**Skills:** Perception +8, Swim +11
+::: statblock
+Ability scores: Str 17, Dex 15, Con 18, Int 2, Wis 15, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Endurance, Lightning Reflexes, Run^B^
+Skills: Perception +8, Swim +11
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold or temperate plains
-
-**Organization:** solitary, pair, or herd (3-50)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate plains
+Organization: solitary, pair, or herd (3-50)
+Treasure: None
+:::
 
 ### Description
 

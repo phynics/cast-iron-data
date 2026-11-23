@@ -31,69 +31,57 @@ abilities = ["16", "1", "26", "-", "1", "1"]
 _A seemingly mundane puddle, patch of moist stone, or glistening rock is suddenly revealed to be
 more as a terrible pseudopod lashes out._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsight: 60
+Initiative: -5
+Size: medium
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 1,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 5
+Touch: 5
+Flat-footed: 5
+AC modifiers: -5 Dex
+Hit points: 50 (4d8+32)
+Fort: +9
+Ref: -4
+Will: -4
+Immune: cold, fire, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Constrict: 1d6+1 plus 1d6 acid
+Melee: slam +6 (1d6+4 plus 1d6 acid and [grab](ref/umr/grab))
+Spec Att: acid
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 16, Dex 1, Con 26, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 11 (can't be tripped)
+Special qualities: transparent
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 5
-
-**Touch:** 5
-
-**Flat-footed:** 5
-
-**AC modifiers:** -5 Dex
-
-**Hit points:** 50 (4d8+32)
-
-**Fort:** +9
-
-**Ref:** -4
-
-**Will:** -4
-
-**Immune:** cold, fire, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d6+1 plus 1d6 acid
-
-**Melee:** slam +6 (1d6+4 plus 1d6 acid and [grab](ref/umr/grab))
-
-**Spec Att:** acid
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 26, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Special qualities:** transparent
-
-**Ecology**
-
-**Environment:** cold marshes and underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold marshes and underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

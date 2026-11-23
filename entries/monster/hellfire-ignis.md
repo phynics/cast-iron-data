@@ -32,96 +32,71 @@ abilities = ["14", "20", "15", "8", "11", "11"]
 _The acrid smell of brimstone wafts from this small creature, which has mottled red skin and a
 wicked grin on its foul, warped face._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: fey
+Initiative: +5
+Alignment: Neutral evil
+Perception: +8
+Senses: Low-light vision
+Size: small
+Subtype: Fire
+Experience points: 800
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +9
+Will: +4
+Dr: 5/cold iron
+Immune: fire
+Vulner: cold
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Burn: 1d3, DC 14
+Melee: bite +8 (1d4+2), 2 claws +8 (1d3+2 plus burn)
+Spec Att: molten flesh
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+At will: flare (DC 10), spark (DC 10)
+Per day: 3/day: pyrotechnics (DC 12)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 14, Dex 20, Con 15, Int 8, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 18
+Feats: Combat Reflexes, Step Up, Weapon Finesse
+Skills: Acrobatics +13, Escape Artist +10, Intimidate +5, Perception +8
+Languages: Common, Sylvan
+Special qualities: brimstone essence
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Burn:** 1d3, DC 14
-
-**Melee:** bite +8 (1d4+2), 2 claws +8 (1d3+2 plus burn)
-
-**Spec Att:** molten flesh
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**At will:**
-
-- flare (DC 10), spark (DC 10)
-
-**Per day:**
-
-- 3/day: pyrotechnics (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 15, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 18
-
-**Feats:** Combat Reflexes, Step Up, Weapon Finesse
-
-**Skills:** Acrobatics +13, Escape Artist +10, Intimidate +5, Perception +8
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** brimstone essence
-
-**Ecology**
-
-**Environment:** any forests or plains
-
-**Organization:** solitary, gang (2-5), or crew (4-8 plus 1 [advanced](ref/template/advanced)
-leader)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests or plains
+Organization: solitary, gang (2-5), or crew (4-8 plus 1 [advanced](ref/template/advanced) leader)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

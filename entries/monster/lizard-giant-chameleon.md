@@ -29,77 +29,61 @@ abilities = ["16", "15", "18", "2", "11", "7"]
 _Nearly invisible in its surroundings, this scaly lizard's eyes dart about independently of each
 other._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +5 (2d6+4) or tongue +5 touch ([grab](ref/umr/grab))
+Pull: tongue, 5 ft.
+Reach: 10
+Reach P: 15 ft. with tongue
+Space: 10
+Spec Att: tongue
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 15, Con 18, Int 2, Wis 11, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +15, Perception +4, Stealth +18 (+28 when still)
+Racial Modifiers: +12 Stealth (+22 when still)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +5 (2d6+4) or tongue +5 touch ([grab](ref/umr/grab))
-
-**Pull:** tongue, 5 ft.
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tongue
-
-**Space:** 10
-
-**Spec Att:** tongue
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 18, Int 2, Wis 11, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +15, Perception +4, Stealth +18 (+28 when still)
-
-**Racial Modifiers:** +12 Stealth (+22 when still)
-
-**Ecology**
-
-**Environment:** warm forests and mountains
-
-**Organization:** solitary, pair, or blend (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests and mountains
+Organization: solitary, pair, or blend (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

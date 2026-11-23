@@ -34,76 +34,62 @@ abilities = ["14", "15", "14", "9", "12", "13"]
 _A gray, lipless goblin head with serpent's fangs sits atop the sinuous black body of this
 greasy-scaled snake._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Perception: +5
+Senses: Darkvision 60 ft., Scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +2
+Will: +4
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., burrow 5 ft., swim 20 ft.
+Melee: bite +4 (1d4+3)
+Spec Att: goblin breath
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Size:** small
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., burrow 5 ft., swim 20 ft.
-
-**Melee:** bite +4 (1d4+3)
-
-**Spec Att:** goblin breath
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 9, Wis 12, Cha 13
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Lunge^B^, Skill Focus (Bluff)
-
-**Skills:** Bluff +6, Intimidate +5, Knowledge (local) +3, Perception +5, Stealth +10
-
-**Languages:** Common, Goblin
-
-**Special qualities:** snake empathy +7
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 9, Wis 12, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Lunge^B^, Skill Focus (Bluff)
+Skills: Bluff +6, Intimidate +5, Knowledge (local) +3, Perception +5, Stealth +10
+Languages: Common, Goblin
+Special qualities: snake empathy +7
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground or swamps
-
-**Organization:** solitary, pair, or nest (3-12 plus 1-6
-[venomous snakes](ref/monster/snake-venomous-snake))
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground or swamps
+Organization: solitary, pair, or nest (3-12 plus 1-6 [venomous snakes](ref/monster/snake-venomous-snake))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

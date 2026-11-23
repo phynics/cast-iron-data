@@ -31,83 +31,64 @@ abilities = ["12", "12", "12", "12", "13", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 6
-
 **Kobold [cavalier](ref/class/cavalier) 7**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 6
+Type: humanoid
+Initiative: +5
+Alignment: Lawful evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 2,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 22
+AC modifiers: +8 armor, +1 Dex, +1 natural, +2 shield, +1 size
+Hit points: 57 (7d10+14)
+Fort: +7
+Ref: +4
+Will: +4; +2 bonus vs. paralysis and sleep
+Resist: electricity 5
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +13
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Br Weap: 30-ft. line, 2d6 electricity damage, Reflex DC 14 half, usable every 1d4 rounds
+Melee: +1 lance +11/+6 (1d6+2/×3), mwk short sword +10/+5 (1d4+1/19-20)
+Spec Att: banner +2/+1, cavalier's charge, challenge (+7, +2, 3/day)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 12, Dex 12, Con 12, Int 12, Wis 13, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Draconic Aspect (blue), Draconic Breath, Improved Initiative, Mounted Combat, Shield Wall, Weapon Focus (lance)
+Skills: Craft (trapmaking) +3, Ride +5
+Languages: Common, Draconic
+Special qualities: crafty, expert trainer +3, mount (cave salamander), order of the dragon (aid allies), tactician (2/day, 6 rounds, standard action)
+Combat gear: I-dust of dryness
+Other gear: +1 banded mail, mwk heavy steel shield, +1 lance, mwk short sword, Iclk1
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +8 armor, +1 Dex, +1 natural, +2 shield, +1 size
-
-**Hit points:** 57 (7d10+14)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +4; +2 bonus vs. paralysis and sleep
-
-**Resist:** electricity 5
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Br Weap:** 30-ft. line, 2d6 electricity damage, Reflex DC 14 half, usable every 1d4 rounds
-
-**Melee:** +1 lance +11/+6 (1d6+2/×3), mwk short sword +10/+5 (1d4+1/19-20)
-
-**Spec Att:** banner +2/+1, cavalier's charge, challenge (+7, +2, 3/day)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 12, Con 12, Int 12, Wis 13, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Draconic Aspect (blue), Draconic Breath, Improved Initiative, Mounted Combat, Shield
-Wall, Weapon Focus (lance)
-
-**Skills:** Craft (trapmaking) +3, Ride +5
-
-**Languages:** Common, Draconic
-
-**Special qualities:** crafty, expert trainer +3, mount (cave salamander), order of the dragon (aid
-allies), tactician (2/day, 6 rounds, standard action)
-
-**Combat gear:** I-dust of dryness
-
-**Other gear:** +1 banded mail, mwk heavy steel shield, +1 lance, mwk short sword, Iclk1
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

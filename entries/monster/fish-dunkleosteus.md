@@ -33,78 +33,61 @@ abilities = ["30", "14", "17", "1", "13", "6"]
 _This gigantic, prehistoric fish has a head like a snapping turtle, complete with sharp, tooth-like
 plates._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +15
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 17
+AC modifiers: +2 Dex, +9 natural, -2 size
+Hit points: 75 (10d8+30)
+Fort: +10
+Ref: +9
+Will: +6
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +16 (3d8+15/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: gulp
+Swallow: 1d10 bludgeoning damage, AC 14, 7 hp
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 14, Con 17, Int 1, Wis 13, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +19 (+23 grab)
+Combat maneuver defense: 31
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception, Swim), Weapon Focus (bite)
+Skills: Perception +15, Swim +30
+Racial Modifiers: +4 Perception
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +9 natural, -2 size
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +16 (3d8+15/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** gulp
-
-**Swallow:** 1d10 bludgeoning damage, AC 14, 7 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 14, Con 17, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +19 (+23 grab)
-
-**Combat maneuver defense:** 31
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception, Swim),
-Weapon Focus (bite)
-
-**Skills:** Perception +15, Swim +30
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

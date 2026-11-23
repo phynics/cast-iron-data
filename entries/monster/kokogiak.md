@@ -33,98 +33,72 @@ ten legs, each ending in massive, jet-black claws. Its head, with slavering jaws
 dripping silvery foam, sits at the end of a long yet thickly muscled neck. Its dead black eyes are
 small but infinite pits of malice._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 24
+AC modifiers: +1 Dex, +16 natural, -2 size
+Hit points: 172 (15d10+90)
+Fort: +15
+Ref: +10
+Will: +9
+Immune: cold, illusions
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., burrow 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +23 (2d6+10 plus pull), 6 claws +24 (2d6+10/19-20)
+Pull: bite, 10 ft.
+Reach: 10
+Reach P: 20 ft. with bite
+Space: 15
+Spec Att: blizzard breath, forlorn gaze
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +18
+At will: fog cloud, ventriloquism (DC 14)
+Per day: 3/day: major image (DC 16), solid fog
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 31, Dex 13, Con 22, Int 13, Wis 14, Cha 16
+Base attack bonus: +15
+Combat maneuver bonus: +27
+Combat maneuver defense: 38 (54 vs. trip)
+Feats: Critical Focus, Improved Critical (claws), Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (claws)
+Skills: Bluff +18, Climb +22
+Racial Modifiers: +8 Stealth in ice or snow
+Languages: Aquan, Common
+Special qualities: ice walker, penetrating sight, sound imitation
+:::
 
-**Armor class:** 25
+### Ecology {#stat-ecology}
 
-**Touch:** 9
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +16 natural, -2 size
-
-**Hit points:** 172 (15d10+90)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +9
-
-**Immune:** cold, illusions
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +23 (2d6+10 plus pull), 6 claws +24 (2d6+10/19-20)
-
-**Pull:** bite, 10 ft.
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** blizzard breath, forlorn gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +18
-
-**At will:**
-
-- fog cloud, ventriloquism (DC 14)
-
-**Per day:**
-
-- 3/day: major image (DC 16), solid fog
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 13, Con 22, Int 13, Wis 14, Cha 16
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 38 (54 vs. trip)
-
-**Feats:** Critical Focus, Improved Critical (claws), Improved Vital Strike, Iron Will, Power
-Attack, Staggering Critical, Vital Strike, Weapon Focus (claws)
-
-**Skills:** Bluff +18, Climb +22
-
-**Racial Modifiers:** +8 Stealth in ice or snow
-
-**Languages:** Aquan, Common
-
-**Special qualities:** ice walker, penetrating sight, sound imitation
-
-**Ecology**
-
-**Environment:** cold coastlines, hills, or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines, hills, or plains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

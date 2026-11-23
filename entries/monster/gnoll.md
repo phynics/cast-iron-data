@@ -31,74 +31,58 @@ abilities = ["15", "10", "13", "8", "11", "8"]
 _Hunched and feral, this furred, hyena-headed humanoid stands slightly taller than the average
 human._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 15
+AC modifiers: +2 armor, +1 natural, +2 shield
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +0
+Will: +0
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: spear +3 (1d8+3/×3)
+Ranged: spear +1 (1d8+2/×3)
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 10, Con 13, Int 8, Wis 11, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Power Attack
+Skills: Perception +2
+Languages: Gnoll
+:::
 
-**Subtype:** Gnoll\
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 armor, +1 natural, +2 shield
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +0
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +3 (1d8+3/×3)
-
-**Ranged:** spear +1 (1d8+2/×3)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 10, Con 13, Int 8, Wis 11, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Power Attack
-
-**Skills:** Perception +2
-
-**Languages:** Gnoll
-
-**Ecology**
-
-**Environment:** warm plains or desert
-
-**Organization:** solitary, pair, hunting party (2-5 gnolls and 1-2 [hyenas](ref/monster/hyena)),
-band (10-100 adults plus 50% noncombatant children, 1 sergeant of 3rd level per 20 adults, 1 leader
-of 4th-6th level, and 5-8 hyenas), or tribe (20-200 plus 1 sergeant of 3rd level per 20 adults, 1 or
-2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7
-[hyaenodons](ref/monster/hyena-dire-hyena-hyaenodon))
-
-**Treasure:** NPC gear (leather armor, heavy wooden shield, battleaxe, lb20); other treasure
+::: statblock
+Environment: warm plains or desert
+Organization: solitary, pair, hunting party (2-5 gnolls and 1-2 [hyenas](ref/monster/hyena)), band (10-100 adults plus 50% noncombatant children, 1 sergeant of 3rd level per 20 adults, 1 leader of 4th-6th level, and 5-8 hyenas), or tribe (20-200 plus 1 sergeant of 3rd level per 20 adults, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7 [hyaenodons](ref/monster/hyena-dire-hyena-hyaenodon))
+Treasure: NPC gear (leather armor, heavy wooden shield, battleaxe, lb20); other treasure
+:::
 
 ### Description
 

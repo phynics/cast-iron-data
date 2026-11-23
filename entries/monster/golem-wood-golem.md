@@ -29,69 +29,57 @@ abilities = ["18", "17", "-", "-", "17", "1"]
 
 _This human-sized automaton resembles a crude humanoid figure made of cast-off pieces of wood._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +5
+Will: +5
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +12 (2d6+4)
+Spec Att: splintering
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 17, Con -, Int -, Wis 17, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 25
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +12 (2d6+4)
-
-**Spec Att:** splintering
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con -, Int -, Wis 17, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

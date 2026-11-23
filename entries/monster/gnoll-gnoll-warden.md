@@ -30,84 +30,64 @@ special_qualities = "favored terrain (desert +4, jungle +2), hunter's bond (comp
 abilities = ["18", "17", "15", "10", "13", "6"]
 +++
 
-**Challenge rating:** 10
-
 **Gnoll [ranger](ref/class/ranger) ([skirmisher](ref/arc-ranger/skirmisher)) 9**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 10
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 9,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 18
+AC modifiers: +6 armor, +3 Dex, +1 dodge, +2 natural
+Hit points: 89 (2d8+9d10+31\~11)
+Fort: +13
+Ref: +11
+Will: +6
+Evasion: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 20 ft.
+Fav En: dwarves +2, humans +4
+Melee: +1 scimitar +15/+10 (1d6+5/18-20)
+Ranged: +1 composite longbow +15/+10 (1d8+5/×3)
+Spec Att: combat style (archery), hunter's tricks 5/day (aiding attack, hateful attack, trick shot)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Gnoll\
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 18, Dex 17, Con 15, Int 10, Wis 13, Cha 6
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 28
+Feats: Dodge, Endurance, Manyshot, Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Shot on the Run, Weapon Focus (longbow)
+Skills: Acrobatics +11 (+7 when jumping), Climb +15, Perception +15
+Languages: Gnoll
+Special qualities: [favored terrain](ref/ability/favored-terrain) (desert +4, jungle +2), hunter's bond (companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +7, [woodland stride](ref/ability/woodland-stride)
+Combat gear: potion of invisibility, 2 alchemist's fire
+Other gear: +1 scale mail, +1 cl20+4, +1 scimitar, Iamu1, Iclk2, 94 gp
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +3 Dex, +1 dodge, +2 natural
-
-**Hit points:** 89 (2d8+9d10+31\~11)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +6
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Fav En:** dwarves +2, humans +4
-
-**Melee:** +1 scimitar +15/+10 (1d6+5/18-20)
-
-**Ranged:** +1 composite longbow +15/+10 (1d8+5/×3)
-
-**Spec Att:** combat style (archery), hunter's tricks 5/day (aiding attack, hateful attack, trick
-shot)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 15, Int 10, Wis 13, Cha 6
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 28
-
-**Feats:** Dodge, Endurance, Manyshot, Mobility, Point-Blank Shot, Precise Shot, Rapid Shot, Shot on
-the Run, Weapon Focus (longbow)
-
-**Skills:** Acrobatics +11 (+7 when jumping), Climb +15, Perception +15
-
-**Languages:** Gnoll
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (desert +4, jungle +2),
-hunter's bond (companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +7,
-[woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** potion of invisibility, 2 alchemist's fire
-
-**Other gear:** +1 scale mail, +1 cl20+4, +1 scimitar, Iamu1, Iclk2, 94 gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

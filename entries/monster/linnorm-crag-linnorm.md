@@ -30,87 +30,65 @@ abilities = ["34", "18", "25", "5", "18", "21"]
 _This immense, wingless dragon rears up on a serpentine body. Its triple tail and powerful talons
 swipe at the air._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Type: dragon
+Size: gargantuan
+Initiative: +8
+Perception: +22
+Senses: Darkvision 120 ft., Low-light vision, Scent, True seeing
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 29
+Touch: 10
+Flat-footed: 25
+AC modifiers: +4 Dex, +19 natural, -4 size
+Hit points: 202 (15d12+105)
+Fort: +16
+Ref: +15
+Will: +13
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron
+Immune: curse effects, fire, mind-affecting effects, paralysis, poison, sleep
+Regen: 10 (cold iron)
+Sr: 25
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 40 ft., swim 60 ft., fly 100 ft. (average)
+Constrict: tail, 2d6+18
+Melee: bite +23 (2d8+12/19-20 plus poison), 2 claws +23 (1d8+12), tail +18 (2d6+6 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: breath weapon, death curse
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 34, Dex 18, Con 25, Int 5, Wis 18, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +31 (+35 grapple)
+Combat maneuver defense: 45 (can't be tripped)
+Feats: Blind-Fight, Cleave, Combat Reflexes, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack
+Skills: Fly +16
+Languages: Aklo, Draconic, Sylvan
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +19 natural, -4 size
-
-**Hit points:** 202 (15d12+105)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +13
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron
-
-**Immune:** curse effects, fire, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 10 (cold iron)
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft., fly 100 ft. (average)
-
-**Constrict:** tail, 2d6+18
-
-**Melee:** bite +23 (2d8+12/19-20 plus poison), 2 claws +23 (1d8+12), tail +18 (2d6+6 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** breath weapon, death curse
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 18, Con 25, Int 5, Wis 18, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +31 (+35 grapple)
-
-**Combat maneuver defense:** 45 (can't be tripped)
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Improved Bull Rush, Improved Critical (bite),
-Improved Initiative, Lightning Reflexes, Power Attack
-
-**Skills:** Fly +16
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Ecology**
-
-**Environment:** cold hills
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold hills
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

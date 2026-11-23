@@ -30,143 +30,93 @@ abilities = ["6", "23", "18", "19", "22", "17"]
 _This gaunt, two-foot-tall humanoid figure appears made of corn husks, and carries an oversized
 basket filled with corn._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: fey
+Initiative: +10
+Alignment: Neutral good
+Perception: +27
+Senses: Low-light vision, Plant projection
+Size: tiny
+Experience points: 12,800
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 26
+Touch: 18
+Flat-footed: 20
+AC modifiers: +6 Dex, +8 natural, +2 size
+Hit points: 153 (18d6+90)
+Fort: +12
+Ref: +17
+Will: +17
+Dr: 10/cold iron
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +27
+::: statblock
+Speed: 30 ft.
+Melee: 2 vines +18 (1d8-2)
+Reach: 0
+Reach P: 30 ft. with vines
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Plant projection
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: plant growth, speak with plants, thorny entanglement (DC 16), transport via plants
+:::
 
-**Size:** tiny
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +17
+Per day: 9/day: rebuke death, 1d4+5
+:::
 
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 Dex, +8 natural, +2 size
-
-**Hit points:** 153 (18d6+90)
-
-**Fort:** +12
-
-**Ref:** +17
-
-**Will:** +17
-
-**Dr:** 10/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 vines +18 (1d8-2)
-
-**Reach:** 0
-
-**Reach P:** 30 ft. with vines
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- plant growth, speak with plants, thorny entanglement (DC 16), transport via plants
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +17
-
-**Per day:**
-
-- 9/day: rebuke death, 1d4+5
-
-**Prepared Spells**
-
-**Caster level:** 11
-
-**Concentration:** +17
-
-**6th-level spells:**
-
-- greater dispel magic, heal^D^, mass bear's endurance
-
-**5th-level spells:**
-
-- baleful polymorph (DC 21), breath of life^D^, commune with nature, wall of thorns
-
-**4th-level spells:**
-
-- command plants (DC 20), cure critical wounds^D^, flame strike (DC 20), freedom of movement, spike
-  stones (DC 20)
-
-**3rd-level spells:**
-
-- aqueous orb (DC 20), call lightning (DC 19), cure serious wounds^D^, protection from energy,
-  remove disease, spike growth (DC 19)
-
-**2nd-level spells:**
-
-- barkskin, cat's grace, cure moderate wounds^D^, flaming sphere (DC 18), lesser restoration, soften
-  earth and stone, tree shape
-
-**1st-level spells:**
-
-- ant haul, cure light wounds^D^, endure elements, faerie fire, goodberry, longstrider, obscuring
-  mist
-
-**Cantrips:**
-
-- create water, detect magic, purify food and drink, stabilize
-
-**Domain:** [Healing](ref/domain/healing)
+::: statblock
+title = "Prepared Spells"
+Caster level: 11
+Concentration: +17
+6th-level spells: greater dispel magic, heal^D^, mass bear's endurance
+5th-level spells: baleful polymorph (DC 21), breath of life^D^, commune with nature, wall of thorns
+4th-level spells: command plants (DC 20), cure critical wounds^D^, flame strike (DC 20), freedom of movement, spike stones (DC 20)
+3rd-level spells: aqueous orb (DC 20), call lightning (DC 19), cure serious wounds^D^, protection from energy, remove disease, spike growth (DC 19)
+2nd-level spells: barkskin, cat's grace, cure moderate wounds^D^, flaming sphere (DC 18), lesser restoration, soften earth and stone, tree shape
+1st-level spells: ant haul, cure light wounds^D^, endure elements, faerie fire, goodberry, longstrider, obscuring mist
+Cantrips: create water, detect magic, purify food and drink, stabilize
+Domain: [Healing](ref/domain/healing)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 6, Dex 23, Con 18, Int 19, Wis 22, Cha 17
+::: statblock
+Ability scores: Str 6, Dex 23, Con 18, Int 19, Wis 22, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 21
+Feats: Augment Summoning, Combat Casting, Great Fortitude, Improved Initiative, Skill Focus (Heal), Spell Focus (conjuration), Toughness, Weapon Finesse, Weapon Focus (vines)
+Skills: Acrobatics +27, Craft (alchemy) +25, Escape Artist +27, Heal +30, Knowledge (arcana) +22, Perception +27
+Languages: Common, Sylvan
+Special qualities: bountiful basket, healer's blessing, sow corn
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 21
-
-**Feats:** Augment Summoning, Combat Casting, Great Fortitude, Improved Initiative, Skill Focus
-(Heal), Spell Focus (conjuration), Toughness, Weapon Finesse, Weapon Focus (vines)
-
-**Skills:** Acrobatics +27, Craft (alchemy) +25, Escape Artist +27, Heal +30, Knowledge (arcana)
-+22, Perception +27
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** bountiful basket, healer's blessing, sow corn
-
-**Ecology**
-
-**Environment:** any temperate land
-
-**Organization:** solitary or court (1 plus 2-26 other good-aligned fey)
-
-**Treasure:** Double
+::: statblock
+Environment: any temperate land
+Organization: solitary or court (1 plus 2-26 other good-aligned fey)
+Treasure: Double
+:::
 
 ### Special Abilities
 

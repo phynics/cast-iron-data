@@ -30,98 +30,72 @@ abilities = ["20", "15", "18", "15", "18", "21"]
 
 _Dressed in noble regalia, this humanoid creature of metal and wood has a piercing gaze._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +2
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 9,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 24
+Touch: 12
+Flat-footed: 22
+AC modifiers: +2 Dex, +12 natural
+Hit points: 134 (12d10+68)
+Fort: +12
+Ref: +8
+Will: +12
+Defensive abilities: constructed
+Dr: 10/chaotic
+Regen: 5 (chaotic)
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +1 mithral longsword +18/+13/+8 (1d8+6/19-20), slam +12 (1d8+2) or 2 slams +17 (1d8+5)
+Spec Att: dethrone, kingslayer
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: arcane mark, discern lies (DC 19), dispel magic
+Per day: 3/day: dimension door, hold monster (DC 20), invisibility, magic missile, mark of justice\
+1/day: plane shift, willing targets only, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 20, Dex 15, Con 18, Int 15, Wis 18, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +17 (+19 reposition, steal)
+Combat maneuver defense: 29 (31 vs. reposition or steal)
+Feats: Alertness, Combat Expertise, Improved Reposition, Improved Steal, Lightning Reflexes, Power Attack
+Skills: Diplomacy +20, Disguise +17, Sense Motive +23, Stealth +8
+Languages: truespeech
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), royal gift
+:::
 
-**Experience points:** 9,600
+### Ecology {#stat-ecology}
 
-**Armor class:** 24
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +12 natural
-
-**Hit points:** 134 (12d10+68)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +12
-
-**Defensive abilities:** constructed
-
-**Dr:** 10/chaotic
-
-**Regen:** 5 (chaotic)
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 mithral longsword +18/+13/+8 (1d8+6/19-20), slam +12 (1d8+2) or 2 slams +17 (1d8+5)
-
-**Spec Att:** dethrone, kingslayer
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- arcane mark, discern lies (DC 19), dispel magic
-
-**Per day:**
-
-- 3/day: dimension door, hold monster (DC 20), invisibility, magic missile, mark of justice
-- 1/day: plane shift, willing targets only, true seeing
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 18, Int 15, Wis 18, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17 (+19 reposition, steal)
-
-**Combat maneuver defense:** 29 (31 vs. reposition or steal)
-
-**Feats:** Alertness, Combat Expertise, Improved Reposition, Improved Steal, Lightning Reflexes,
-Power Attack
-
-**Skills:** Diplomacy +20, Disguise +17, Sense Motive +23, Stealth +8
-
-**Languages:** truespeech
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), royal gift
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or intervention (3-5)
-
-**Treasure:** Standard (+1 MM longsword); other treasure
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or intervention (3-5)
+Treasure: Standard (+1 MM longsword); other treasure
+:::
 
 ### Special Abilities
 

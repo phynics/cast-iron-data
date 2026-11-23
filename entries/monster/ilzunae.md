@@ -32,177 +32,106 @@ abilities = ["-", "22", "22", "14", "20", "26"]
 _This lithe, shadowy creature is obviously feminine, yet the talons and horns leave no doubt as to
 her fiendish nature._
 
-**Challenge rating:** 19
-
 **Female shadow demon [cleric](ref/class/cleric) of [Nocticula](ref/faith/nocticula) 15**
 
-**Alignment:** Chaotic evil
-
-**Initiative:** +6
-
-**Size:** medium
-
-**Type:** outsider
-
-**Perception:** +31
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Chaotic, Demon, Evil, Extraplanar, Incorporeal
-
-**Experience points:** 204,800
-
-**Armor class:** 33
-
-**Touch:** 25
-
-**Flat-footed:** 27
-
-**AC modifiers:** +8 armor, +8 deflection, +5 Dex, +1 dodge, +1 insight
-
-**Hit points:** 274 (7d10+15d8+169\~22)
-
-**Fort:** +17
-
-**Ref:** +16
-
-**Will:** +19; +4 vs. blindness and charm
-
-**Dr:** 10/cold iron or good
-
-**Immune:** cold, electricity, poison
-
-**Incorporeal:** present
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Ch N En:** 11/day, DC 25, 8d6
-
-**Melee:** bite +24 (1d6 plus 1d6 cold), 2 claws +24 (1d4 plus 1d6 cold)
-
-**Pounce:** present
-
-**Spec Att:** shadow blend, sprint
-
-**Spell-Like Abilities**
-
-**Caster level:** 22
-
-**Concentration:** +30
-
-**Per day:**
-
-- 3/day: quickened blindness/deafness (DC 20), charm person (DC 19)
-- 1/day: !_dominate thrall_
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**At will:**
-
-- (15 rounds, DC 17)
-
-**Per day:**
-
-- 8/day: !dazing touch, touch of darkness (7 rounds)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +18
-
-**At will:**
-
-- deeper darkness, fear (DC 22), greater teleport, self only, telekinesis (DC 23)
-
-**Per day:**
-
-- 3/day: shadow conjuration (DC 22), shadow evocation (DC 23)
-- 1/day: magic jar (DC 23), summon (level 3, 1 [shadow demon](ref/monster/demon-shadow-demon) 50%)
-
-**Prepared Spells**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**8th-level spells:**
-
-- demand^D^, 23, rift of ruin (DC 23)
-
-**7th-level spells:**
-
-- quickened cure critical wounds, desctruction (DC 22), power word blind^D^
-
-**6th-level spells:**
-
-- blade barrier (DC 21), quickened death knell (DC 17), geas/quest^D^, heal
-
-**5th-level spells:**
-
-- breath of life, quickened command (DC 16), flame strike (DC 20), greater command (DC 20), slay
-  living (DC 20), summon monster V^D^, summons 1d3 shadows
-
-**4th-level spells:**
-
-- cure critical wounds, discern lies (DC 19), poison (DC 19), sending, shadow conjuration^D^ (DC
-  19), unholy blight (DC 19)
-
-**3rd-level spells:**
-
-- bestow curse (DC 18), cure serious wounds, 2, dispel magic, speak with dead (DC 18), suggestion^D^
-  (DC 18)
-
-**2nd-level spells:**
-
-- blindness/deafness^D^ (DC 17, only to cause blindness), cure moderate wounds, 2, hold person (DC
-  17), silence (DC 17), undetectable alignment
-
-**1st-level spells:**
-
-- charm person^D^ (DC 16), command (DC 16), cure light wounds, 5, divine favor
-
-**Cantrips:**
-
-- bleed (DC 15), detect magic, guidance, read magic
-
-**Domains:** [Charm](ref/domain/charm), Darkness
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Demon, Evil, Extraplanar, Incorporeal
+Experience points: 204,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 33
+Touch: 25
+Flat-footed: 27
+AC modifiers: +8 armor, +8 deflection, +5 Dex, +1 dodge, +1 insight
+Hit points: 274 (7d10+15d8+169\~22)
+Fort: +17
+Ref: +16
+Will: +19; +4 vs. blindness and charm
+Dr: 10/cold iron or good
+Immune: cold, electricity, poison
+Incorporeal: present
+Resist: acid 10, fire 10
+Sr: 17
+:::
+
+### Offense
+
+::: statblock
+Speed: fly 40 ft. (perfect)
+Ch N En: 11/day, DC 25, 8d6
+Melee: bite +24 (1d6 plus 1d6 cold), 2 claws +24 (1d4 plus 1d6 cold)
+Pounce: present
+Spec Att: shadow blend, sprint
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 22
+Concentration: +30
+Per day: 3/day: quickened blindness/deafness (DC 20), charm person (DC 19)\
+1/day: !_dominate thrall_
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+At will: (15 rounds, DC 17)
+Per day: 8/day: !dazing touch, touch of darkness (7 rounds)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +18
+At will: deeper darkness, fear (DC 22), greater teleport, self only, telekinesis (DC 23)
+Per day: 3/day: shadow conjuration (DC 22), shadow evocation (DC 23)\
+1/day: magic jar (DC 23), summon (level 3, 1 [shadow demon](ref/monster/demon-shadow-demon) 50%)
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 15
+Concentration: +20
+8th-level spells: demand^D^, 23, rift of ruin (DC 23)
+7th-level spells: quickened cure critical wounds, desctruction (DC 22), power word blind^D^
+6th-level spells: blade barrier (DC 21), quickened death knell (DC 17), geas/quest^D^, heal
+5th-level spells: breath of life, quickened command (DC 16), flame strike (DC 20), greater command (DC 20), slay living (DC 20), summon monster V^D^, summons 1d3 shadows
+4th-level spells: cure critical wounds, discern lies (DC 19), poison (DC 19), sending, shadow conjuration^D^ (DC 19), unholy blight (DC 19)
+3rd-level spells: bestow curse (DC 18), cure serious wounds, 2, dispel magic, speak with dead (DC 18), suggestion^D^ (DC 18)
+2nd-level spells: blindness/deafness^D^ (DC 17, only to cause blindness), cure moderate wounds, 2, hold person (DC 17), silence (DC 17), undetectable alignment
+1st-level spells: charm person^D^ (DC 16), command (DC 16), cure light wounds, 5, divine favor
+Cantrips: bleed (DC 15), detect magic, guidance, read magic
+Domains: [Charm](ref/domain/charm), Darkness
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str -, Dex 22, Con 22, Int 14, Wis 20, Cha 26
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 44
-
-**Feats:** Blind-Fight, Combat Expertise, Demonic Obedience, Dodge, Eschew Materials, Improved
-Possession, Lightning Stance, Mobility, Quicken Spell, Spring Attack, Toughness, Wind Stance
-
-**Skills:** Bluff +33, Diplomacy +33, Sense Motive +23
-
-**Languages:** Abyssal, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** eyes of darkness (7 rounds/day)
-
-**Gear:** +5 GL GA studded leather armor, IOdeep red sphere, IOdusty rose prism, IOpink and green
-sphere, IOpink rhomboid, I-manual of bodily health +1/used
+::: statblock
+Ability scores: Str -, Dex 22, Con 22, Int 14, Wis 20, Cha 26
+Base attack bonus: +18
+Combat maneuver bonus: +24
+Combat maneuver defense: 44
+Feats: Blind-Fight, Combat Expertise, Demonic Obedience, Dodge, Eschew Materials, Improved Possession, Lightning Stance, Mobility, Quicken Spell, Spring Attack, Toughness, Wind Stance
+Skills: Bluff +33, Diplomacy +33, Sense Motive +23
+Languages: Abyssal, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: eyes of darkness (7 rounds/day)
+Gear: +5 GL GA studded leather armor, IOdeep red sphere, IOdusty rose prism, IOpink and green sphere, IOpink rhomboid, I-manual of bodily health +1/used
+:::
 
 ### Special Abilities
 

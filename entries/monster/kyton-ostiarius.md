@@ -34,99 +34,72 @@ abilities = ["10", "15", "14", "19", "18", "19"]
 _Cloaked in shadows, every curve and sculpted muscle of this creature suggests some new gasping
 pleasure or titillating torture._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +2 natural, +4 shield
+Hit points: 52 (7d10+14)
+Fort: +7
+Ref: +4
+Will: +11
+Immune: cold, magic missile
+Regen: 2 (good weapons and spells)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Bleed: 1d6
+Melee: 2 touches +2 (1 plus bleed)
+Spec Att: compel courage, unnerving gaze (30 ft., DC 19)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Constant: shield
+At will: calm emotions (DC 16), darkness, enthrall (DC 16), major image (DC 17)
+Per day: 3/day: crushing despair (DC 17), shadow walk, silence (DC 16)\
+1/day: plane shift (DC 21; to the Material Plane and the Plane of Shadow only, lawful evil creatures only), shout (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 10, Dex 15, Con 14, Int 19, Wis 18, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Alertness, Blind-Fight, Improved Initiative, Iron Will
+Skills: Bluff +14, Diplomacy +14, Perform (oratory) +14, Sense Motive +16, Stealth +12
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: shadow traveler
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +2 natural, +4 shield
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +11
-
-**Immune:** cold, magic missile
-
-**Regen:** 2 (good weapons and spells)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 2 touches +2 (1 plus bleed)
-
-**Spec Att:** compel courage, unnerving gaze (30 ft., DC 19)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Constant:**
-
-- shield
-
-**At will:**
-
-- calm emotions (DC 16), darkness, enthrall (DC 16), major image (DC 17)
-
-**Per day:**
-
-- 3/day: crushing despair (DC 17), shadow walk, silence (DC 16)
-- 1/day: plane shift (DC 21; to the Material Plane and the Plane of Shadow only, lawful evil
-  creatures only), shout (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 14, Int 19, Wis 18, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Blind-Fight, Improved Initiative, Iron Will
-
-**Skills:** Bluff +14, Diplomacy +14, Perform (oratory) +14, Sense Motive +16, Stealth +12
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** shadow traveler
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or synod (5-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or synod (5-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

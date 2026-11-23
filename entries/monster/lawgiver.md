@@ -30,98 +30,71 @@ abilities = ["28", "12", "-", "14", "24", "20"]
 
 _This titanic golden statue of a great knight moves of its own accord and hefts a mighty warhammer._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Size: gargantuan
+Initiative: +1
+Alignment: Lawful neutral
+Perception: +29
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
+Subtype: Extraplanar, Herald, Lawful
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 34
+Touch: 7
+Flat-footed: 33
+AC modifiers: +1 Dex, +27 natural, -4 size
+Hit points: 177 (18d10+78)
+Fort: +8
+Ref: +7
+Will: +13
+Dr: 15/chaotic
+Immune: acid, [construct traits](ref/umr/construct-traits), critical hits, electricity, rust
+Resist: cold 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft., fly 60 ft. (perfect)
+Melee: +1 axiomatic warhammer +24/+19/+14/+9 (4d6+10/×3) or 2 slams +23 (2d6+9)
+Reach: 20
+Space: 20
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Per day: 3/day: cure serious wounds, neutralize poison, remove blindness/deafness, remove curse, remove disease, remove paralysis
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See in darkness
+### Statistics
 
-**Subtype:** Extraplanar, Herald, Lawful
+::: statblock
+Ability scores: Str 28, Dex 12, Con -, Int 14, Wis 24, Cha 20
+Base attack bonus: +18
+Combat maneuver bonus: +31 (+33 bull rush or overrun)
+Combat maneuver defense: 42 (44 vs. bull run or overrun)
+Feats: Alertness, Awesome Blow, Cleave, Great Fortitude, Improved Bull Rush, Improved Great Fortitude, Improved Overrun, Power Attack, Toughness
+Skills: Appraise +11, Fly +3, Knowledge (engineering, local, religion) +11, Perception +29, Sense Motive +29
+Languages: Celestial, Common, Draconic, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (giant eagle or two-headed golden eagle \[same stats as an eagle, but with two bite attacks\]; [beast shape IV](ref/spell/beast-shape-4)), [freeze](ref/umr/freeze) (metal statue)
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 7
-
-**Flat-footed:** 33
-
-**AC modifiers:** +1 Dex, +27 natural, -4 size
-
-**Hit points:** 177 (18d10+78)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +13
-
-**Dr:** 15/chaotic
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits), critical hits, electricity, rust
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (perfect)
-
-**Melee:** +1 axiomatic warhammer +24/+19/+14/+9 (4d6+10/×3) or 2 slams +23 (2d6+9)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Per day:**
-
-- 3/day: cure serious wounds, neutralize poison, remove blindness/deafness, remove curse, remove
-  disease, remove paralysis
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 12, Con -, Int 14, Wis 24, Cha 20
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +31 (+33 bull rush or overrun)
-
-**Combat maneuver defense:** 42 (44 vs. bull run or overrun)
-
-**Feats:** Alertness, Awesome Blow, Cleave, Great Fortitude, Improved Bull Rush, Improved Great
-Fortitude, Improved Overrun, Power Attack, Toughness
-
-**Skills:** Appraise +11, Fly +3, Knowledge (engineering, local, religion) +11, Perception +29,
-Sense Motive +29
-
-**Languages:** Celestial, Common, Draconic, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (giant eagle or two-headed golden eagle
-\[same stats as an eagle, but with two bite attacks\]; [beast shape IV](ref/spell/beast-shape-4)),
-[freeze](ref/umr/freeze) (metal statue)
-
-**Ecology**
-
-**Environment:** any land ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** Standard (G +1 axiomatic warhammer)
+::: statblock
+Environment: any land ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: Standard (G +1 axiomatic warhammer)
+:::
 
 ### Description
 

@@ -31,79 +31,62 @@ abilities = ["27", "19", "21", "-", "16", "2"]
 _This long, orange, segmented worm's colorful head unfolds like a horrific flower to reveal five
 large, black, hook-like teeth._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +8
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 16
+AC modifiers: +4 Dex, +8 natural, -2 size
+Hit points: 85 (9d8+45)
+Fort: +11
+Ref: +7
+Will: +6
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Constrict: 2d8+12
+Melee: bite +12 (2d8+12 plus [grab](ref/umr/grab) and poison)
+Reach: 15
+Space: 15
+Spec Att: sudden bite
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 27, Dex 19, Con 21, Int -, Wis 16, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Improved Initiative
+Skills: Swim +16
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +8 natural, -2 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +11
-
-**Ref:** +7
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Constrict:** 2d8+12
-
-**Melee:** bite +12 (2d8+12 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sudden bite
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 19, Con 21, Int -, Wis 16, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Swim +16
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or shoal (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or shoal (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

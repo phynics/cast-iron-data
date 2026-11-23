@@ -32,95 +32,72 @@ abilities = ["4", "16", "10", "10", "13", "15"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 1/2
-
 **Kobold [sorcerer](ref/class/sorcerer) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +7
+Alignment: Lawful neutral
+Perception: +3
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 12
+AC modifiers: +3 Dex, +1 natural, +1 size
+Hit points: 7 (1d6+1)
+Fort: +0
+Ref: +3
+Will: +3
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +3
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 60 ft.
+Melee: 2 claws -2 (1d3-3)
+Ranged: light crossbow +4 (1d6/19-20)
+Spec Att: claws (1d3-3, 5 rounds/day)
+:::
 
-**Size:** small
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +3
+1st-level spells: 4/day: burning hands (DC 13), charm person (DC 13)
+Cantrips: At will: dancing lights, detect magic, flare (DC 12), ray of frost
+Bloodline: [draconic](ref/sorcbloodline/draconic) (gold)
+:::
 
-**Subtype:** Reptilian
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 4, Dex 16, Con 10, Int 10, Wis 13, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: -4
+Combat maneuver defense: 9
+Feats: Eschew Materials, Improved Initiative
+Skills: Craft (trapmaking) +2, Stealth +11, Use Magic Device +6
+Languages: Draconic
+Special qualities: bloodline arcana (fire spells deal +1 damage per die), crafty
+Combat gear: scroll of mage armor, scroll of vanish, caltrops, I-silversheen
+Other gear: light crossbow, 54 gp
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +1 natural, +1 size
-
-**Hit points:** 7 (1d6+1)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +3
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** 2 claws -2 (1d3-3)
-
-**Ranged:** light crossbow +4 (1d6/19-20)
-
-**Spec Att:** claws (1d3-3, 5 rounds/day)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- 4/day: burning hands (DC 13), charm person (DC 13)
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, flare (DC 12), ray of frost
-
-**Bloodline:** [draconic](ref/sorcbloodline/draconic) (gold)
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 16, Con 10, Int 10, Wis 13, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -4
-
-**Combat maneuver defense:** 9
-
-**Feats:** Eschew Materials, Improved Initiative
-
-**Skills:** Craft (trapmaking) +2, Stealth +11, Use Magic Device +6
-
-**Languages:** Draconic
-
-**Special qualities:** bloodline arcana (fire spells deal +1 damage per die), crafty
-
-**Combat gear:** scroll of mage armor, scroll of vanish, caltrops, I-silversheen
-
-**Other gear:** light crossbow, 54 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

@@ -32,85 +32,65 @@ flesh together._
 
 **Mythic Flesh Golem**
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Mythic rank: 3
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Mythic
+Experience points: 6,400
+:::
 
-**Mythic rank:** 3
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 23
+AC modifiers: -1 Dex, +15 natural, -1 size
+Hit points: 145 (10d10+90)
+Fort: +3
+Ref: +2
+Will: +3
+Dr: 5/adamantine and epic
+Fh: 5
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+M Power: 3/day, surge +1d6
+Melee: 2 slams +16 (2d8+6 plus 1d10 electricity plus sparking slams)
+Reach: 10
+Space: 10
+Spec Att: berserk, greater rage (10 rounds/day), mythic brawler
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 22, Dex 9, Con -, Int 6, Wis 11, Cha 1
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 26
+Feats: Blind-Fight, Cleave, Mythic Power Attack, Mythic Toughness, Weapon Focus (slam)
+Skills: Perception +10
+Languages: none
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Mythic
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** -1 Dex, +15 natural, -1 size
-
-**Hit points:** 145 (10d10+90)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +3
-
-**Dr:** 5/adamantine and epic
-
-**Fh:** 5
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**M Power:** 3/day, surge +1d6
-
-**Melee:** 2 slams +16 (2d8+6 plus 1d10 electricity plus sparking slams)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** berserk, greater rage (10 rounds/day), mythic brawler
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 9, Con -, Int 6, Wis 11, Cha 1
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 26
-
-**Feats:** Blind-Fight, Cleave, Mythic Power Attack, Mythic Toughness, Weapon Focus (slam)
-
-**Skills:** Perception +10
-
-**Languages:** none
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

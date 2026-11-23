@@ -33,112 +33,77 @@ abilities = ["42", "19", "25", "15", "22", "22"]
 _This lurching mass of spiked iron armor, rotting translucent flesh, and twisted black thorns
 resembles a dead giant with the head of an oversized boar._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Size: gargantuan
+Type: humanoid
+Initiative: +8
+Alignment: Neutral evil
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar, Giant
+Experience points: 102,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 33
+Touch: 9
+Flat-footed: 30
+AC modifiers: +11 armor, +3 Dex, +13 natural, -4 size
+Hit points: 241 (21d8+147)
+Fort: +19
+Ref: +11
+Will: +15
+Dr: 10/good
+Immune: acid, death effects
+Resist: cold 10, electricity 10, fire 10, sonic 10
+Rock Ct: present
+:::
 
-**Initiative:** +8
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 45 ft., (60 ft. without armor)
+E Drain: 2 levels, DC 26
+Melee: +3 [wounding](ref/magic-enh/wounding) [adamantine](ref/eq-material/adamantine) greatsword +30/+25/+20 (6d6+27 plus energy drain/19-20) or +5 [nullifying](ref/magic-enh/nullifying) adamantine spiked gauntlet +32/+27/+22 (2d6+21 plus energy drain) or +5 [unholy](ref/magic-enh/unholy) adamantine quarterstaff +32/+27/+22 (3d6+29 plus energy drain) or +3 [cruel](ref/magic-enh/cruel) [keen](ref/magic-enh/keen) scythe +30/+25/+20 (4d6+27 plus energy drain/19-20/×4)
+Ranged: rock +15 (4d6+24)
+Reach: 20
+Rock Th: 160 ft.
+Space: 20
+Spec Att: devour souls, vile weapon
+:::
 
-**Perception:** +30
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +23
+At will: fear (DC 20)
+Per day: 3/day: chain lightning (DC 22), cone of cold (DC 21), dimensional anchor, flame strike (DC 21), greater dispel magic, horrid wilting (DC 24), unholy blight (DC 20)\
+1/day: destruction (DC 23), energy drain (DC 25)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Giant
+::: statblock
+Ability scores: Str 42, Dex 19, Con 25, Int 15, Wis 22, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +35 (+37 bull rush, +39 overrun)
+Combat maneuver defense: 49 (51 vs. bull rush and overrun)
+Feats: Awesome Blow, Cleave, Combat Reflexes, Great Cleave, Greater Overrun, Improved Bull Rush, Improved Initiative, Improved Overrun, Iron Will, Power Attack, Stand Still
+Skills: Climb +37, Intimidate +30, Knowledge (planes) +12, Perception +30, Sense Motive +17
+Languages: Abyssal, Giant, Infernal
+Special qualities: planar empowerment
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 9
-
-**Flat-footed:** 30
-
-**AC modifiers:** +11 armor, +3 Dex, +13 natural, -4 size
-
-**Hit points:** 241 (21d8+147)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +15
-
-**Dr:** 10/good
-
-**Immune:** acid, death effects
-
-**Resist:** cold 10, electricity 10, fire 10, sonic 10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 45 ft., (60 ft. without armor)
-
-**E Drain:** 2 levels, DC 26
-
-**Melee:** +3 [wounding](ref/magic-enh/wounding) [adamantine](ref/eq-material/adamantine) greatsword
-+30/+25/+20 (6d6+27 plus energy drain/19-20) or +5 [nullifying](ref/magic-enh/nullifying) adamantine
-spiked gauntlet +32/+27/+22 (2d6+21 plus energy drain) or +5 [unholy](ref/magic-enh/unholy)
-adamantine quarterstaff +32/+27/+22 (3d6+29 plus energy drain) or +3 [cruel](ref/magic-enh/cruel)
-[keen](ref/magic-enh/keen) scythe +30/+25/+20 (4d6+27 plus energy drain/19-20/×4)
-
-**Ranged:** rock +15 (4d6+24)
-
-**Reach:** 20
-
-**Rock Th:** 160 ft.
-
-**Space:** 20
-
-**Spec Att:** devour souls, vile weapon
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +23
-
-**At will:**
-
-- fear (DC 20)
-
-**Per day:**
-
-- 3/day: chain lightning (DC 22), cone of cold (DC 21), dimensional anchor, flame strike (DC 21),
-  greater dispel magic, horrid wilting (DC 24), unholy blight (DC 20)
-- 1/day: destruction (DC 23), energy drain (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 19, Con 25, Int 15, Wis 22, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +35 (+37 bull rush, +39 overrun)
-
-**Combat maneuver defense:** 49 (51 vs. bull rush and overrun)
-
-**Feats:** Awesome Blow, Cleave, Combat Reflexes, Great Cleave, Greater Overrun, Improved Bull Rush,
-Improved Initiative, Improved Overrun, Iron Will, Power Attack, Stand Still
-
-**Skills:** Climb +37, Intimidate +30, Knowledge (planes) +12, Perception +30, Sense Motive +17
-
-**Languages:** Abyssal, Giant, Infernal
-
-**Special qualities:** planar empowerment
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+2 MM full plate); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary
+Treasure: Standard (+2 MM full plate); other treasure
+:::
 
 ### Special Abilities
 

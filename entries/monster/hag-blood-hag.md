@@ -32,99 +32,72 @@ abilities = ["18", "22", "15", "14", "17", "19"]
 _This woman would be pretty if it were not for her sharp teeth and nails, and her ghastly pale
 skin._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft., Detect good, Detect magic
+Subtype: Shapechanger
+Experience points: 4,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +6 Dex, +1 dodge, +6 natural
+Hit points: 90 (12d10+24)
+Fort: +6
+Ref: +14
+Will: +11
+Dr: 5/cold iron and magic
+Immune: charm, disease, fear, fire, sleep
+Sr: 19
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect; in fiery form only)
+B Drain: 1d2 Con
+Melee: bite +18 (2d4+4), 2 claws +18 (1d6+4 plus [grab](ref/umr/grab))
+Spec Att: detonate
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: detect good, detect magic
+At will: inflict moderate wounds (DC 16), scorching ray, spider climb, self only
+Per day: 3/day: deep slumber (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 22, Con 15, Int 14, Wis 17, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 33
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Mobility, Weapon Finesse
+Skills: Acrobatics +18, Bluff +16, Disguise +16, Stealth +21
+Languages: Abyssal, Common, Giant, Infernal
+Special qualities: fiery form (DC 20), mask evil
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +1 dodge, +6 natural
-
-**Hit points:** 90 (12d10+24)
-
-**Fort:** +6
-
-**Ref:** +14
-
-**Will:** +11
-
-**Dr:** 5/cold iron and magic
-
-**Immune:** charm, disease, fear, fire, sleep
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect; in fiery form only)
-
-**B Drain:** 1d2 Con
-
-**Melee:** bite +18 (2d4+4), 2 claws +18 (1d6+4 plus [grab](ref/umr/grab))
-
-**Spec Att:** detonate
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect good, detect magic
-
-**At will:**
-
-- inflict moderate wounds (DC 16), scorching ray, spider climb, self only
-
-**Per day:**
-
-- 3/day: deep slumber (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 15, Int 14, Wis 17, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 33
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Improved Initiative, Mobility, Weapon Finesse
-
-**Skills:** Acrobatics +18, Bluff +16, Disguise +16, Stealth +21
-
-**Languages:** Abyssal, Common, Giant, Infernal
-
-**Special qualities:** fiery form (DC 20), mask evil
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

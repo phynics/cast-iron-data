@@ -31,77 +31,61 @@ abilities = ["18", "15", "15", "6", "14", "11"]
 _This vile predator has a hide as thick and tough as leather. Wicked ebony quills run from its head,
 tail, and back._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +6
+Will: +3
+Defensive abilities: quill defense
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft.
+Melee: bite +8 (1d8+4), quills +3 (1d4+2 plus pain)
+Reach: 5
+Space: 10
+Spec Att: howl
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 15, Con 15, Int 6, Wis 14, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Improved Initiative, Skill Focus (Perception)
+Skills: Acrobatics +10 (+22 jump), Climb +12, Perception +13, Stealth +6
+Languages: Abyssal (can't speak)
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +3
-
-**Defensive abilities:** quill defense
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +8 (1d8+4), quills +3 (1d4+2 plus pain)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** howl
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 15, Int 6, Wis 14, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Acrobatics +10 (+22 jump), Climb +12, Perception +13, Stealth +6
-
-**Languages:** Abyssal (can't speak)
-
-**Ecology**
-
-**Environment:** any land ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or pack (2-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or pack (2-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

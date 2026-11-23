@@ -25,71 +25,58 @@ melee = "bite +4 (1d3-4)"
 abilities = ["2", "15", "11", "2", "13", "2"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 15 ft., climb 15 ft., swim 15 ft.
+Melee: bite +4 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 15, Con 11, Int 2, Wis 13, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Weapon Finesse
+Skills: Climb +10
+Racial Modifiers: +4 Stealth
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft., swim 15 ft.
-
-**Melee:** bite +4 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 15, Con 11, Int 2, Wis 13, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary, pair, nest (3-12), or plague (13-100)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, nest (3-12), or plague (13-100)
+Treasure: None
+:::
 
 ### Description
 

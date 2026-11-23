@@ -30,81 +30,63 @@ abilities = ["3", "15", "11", "2", "14", "4"]
 _These writhing, many-winged worms have no heads other than pairs of large nostrils that make a
 constant, droning snorting._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+blindsense: 30
+Size: diminutive
+Initiative: +2
+Alignment: Neutral evil
+Perception: +11
+Senses: Scent
+Subtype: Swarm
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +3
+Will: +5
+Defensive abilities: swarm traits
+Immune: weapon damage
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 10 ft., burrow 10 ft., fly 40 ft. (good)
+Distraction: 13
+Melee: swarm (1d6)
+Reach: 0
+Space: 10
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 3, Dex 15, Con 11, Int 2, Wis 14, Cha 4
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Great Fortitude, Skill Focus (Perception)
+Skills: Fly +12, Perception +11
+Special qualities: indescribable swarm (DC 13), snort
+:::
 
-**Senses:** Scent
+### Ecology
 
-**Subtype:** Swarm
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +5
-
-**Defensive abilities:** swarm traits
-
-**Immune:** weapon damage
-
-**Offense**
-
-**Speed:** 10 ft., burrow 10 ft., fly 40 ft. (good)
-
-**Distraction:** 13
-
-**Melee:** swarm (1d6)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 11, Int 2, Wis 14, Cha 4
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Fly +12, Perception +11
-
-**Special qualities:** indescribable swarm (DC 13), snort
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or cloud (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or cloud (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

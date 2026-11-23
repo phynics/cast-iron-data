@@ -30,94 +30,69 @@ special_qualities = "armor training 1"
 abilities = ["35", "13", "19", "12", "16", "10"]
 +++
 
-**Challenge rating:** 13
-
 **[Fire giant](ref/monster/giant-fire-fire-giant) [fighter](ref/class/fighter) 3**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 13
+Type: humanoid
+Initiative: +1
+Size: large
+Alignment: Lawful evil
+Perception: +24
+Senses: Low-light vision
+Subtype: Fire, Giant
+Experience points: 25,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 31
+Touch: 11
+Flat-footed: 30
+AC modifiers: +9 armor, +1 deflection, +1 Dex, +8 natural, +3 shield, -1 size
+Hit points: 158 (15d8+3d10+75\~18)
+Fort: +16
+Ref: +7
+Will: +11 (+1 vs. fear)
+Defensive abilities: bravery +1
+Immune: fire
+Rock Ct: present
+Vulner: cold
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +24
+::: statblock
+Speed: 30 ft.
+Melee: +1 flaming warhammer +27/+22/+17 (2d6+13/×3)
+Ranged: rock +15/+10/+5 (1d8+18 plus 1d6 fire)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: heated rock
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Fire, Giant
+::: statblock
+Ability scores: Str 35, Dex 13, Con 19, Int 12, Wis 16, Cha 10
+Base attack bonus: +14
+Combat maneuver bonus: +27 (+29 overrun, +29 sunder)
+Combat maneuver defense: 39 (41 vs. overrun, 41 vs. sunder)
+Feats: Improved Overrun, Impact Critical Shot, Improved Sunder, Iron Will, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Smoking Boulder, Target of Opportunity, Weapon Focus (warhammer)
+Skills: Climb +22, Craft (weapons) +9, Intimidate +21, Perception +24
+Languages: Common, Giant
+Special qualities: armor training 1
+Combat gear: 2 potion of cure serious wounds, 3 [fuse grenades](ref/eq-weapon/fuse-grenade)
+Other gear: +1 arrow catching half-plate, +1 arrow catching heavy steel shield, +1 flaming warhammer, ring of prot1, 98 gp
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 11
-
-**Flat-footed:** 30
-
-**AC modifiers:** +9 armor, +1 deflection, +1 Dex, +8 natural, +3 shield, -1 size
-
-**Hit points:** 158 (15d8+3d10+75\~18)
-
-**Fort:** +16
-
-**Ref:** +7
-
-**Will:** +11 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Immune:** fire
-
-**Rock Ct:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 flaming warhammer +27/+22/+17 (2d6+13/×3)
-
-**Ranged:** rock +15/+10/+5 (1d8+18 plus 1d6 fire)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** heated rock
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 13, Con 19, Int 12, Wis 16, Cha 10
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +27 (+29 overrun, +29 sunder)
-
-**Combat maneuver defense:** 39 (41 vs. overrun, 41 vs. sunder)
-
-**Feats:** Improved Overrun, Impact Critical Shot, Improved Sunder, Iron Will, Point-Blank Shot,
-Power Attack, Precise Shot, Quick Draw, Smoking Boulder, Target of Opportunity, Weapon Focus
-(warhammer)
-
-**Skills:** Climb +22, Craft (weapons) +9, Intimidate +21, Perception +24
-
-**Languages:** Common, Giant
-
-**Special qualities:** armor training 1
-
-**Combat gear:** 2 potion of cure serious wounds, 3 [fuse grenades](ref/eq-weapon/fuse-grenade)
-
-**Other gear:** +1 arrow catching half-plate, +1 arrow catching heavy steel shield, +1 flaming
-warhammer, ring of prot1, 98 gp
-
-**Ecology**
-
-**Environment:** warm mountains
+::: statblock
+Environment: warm mountains
+:::
 
 ### Description
 

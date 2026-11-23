@@ -29,95 +29,74 @@ abilities = ["25", "12", "-", "-", "17", "1"]
 
 _This burly humanoid figure is cut from blue crystal that shines with an inner light._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+thoughtsense: 60
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 26
+Touch: 10
+Flat-footed: 25
+AC modifiers: +1 Dex, +16 natural, -1 size
+Hit points: 112 (15d10+30)
+Fort: +5
+Ref: +6
+Will: +8
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +21 (2d8+7)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +17
+Constant: ethereal fists
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Psychic Magic"
+Caster level: 14
+Concentration: +17
+Power points: 12
+Psychoactive powers: explode head, 5 PE, DC 18, mind thrust II, 2 PE, DC 15
+:::
 
-**thoughtsense:** 60
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 25, Dex 12, Con -, Int -, Wis 17, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +23
+Combat maneuver defense: 34
+Special qualities: psychic amplification
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 25
-
-**AC modifiers:** +1 Dex, +16 natural, -1 size
-
-**Hit points:** 112 (15d10+30)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +8
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +21 (2d8+7)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +17
-
-**Constant:**
-
-- ethereal fists
-
-**Psychic Magic**
-
-**Caster level:** 14
-
-**Concentration:** +17
-
-**Power points:** 12
-
-**Psychoactive powers:**
-
-- explode head, 5 PE, DC 18, mind thrust II, 2 PE, DC 15
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con -, Int -, Wis 17, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 34
-
-**Special qualities:** psychic amplification
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or expatiation (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or expatiation (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

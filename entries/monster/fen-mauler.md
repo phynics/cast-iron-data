@@ -30,88 +30,66 @@ abilities = ["27", "18", "20", "7", "17", "8"]
 _This figure looms within the shadows. The bones and teeth of countless creatures clatter from
 tangles within its matted, reeking fur._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: [stench](ref/umr/stench) (DC 15, 10 rounds)
+Initiative: +8
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 15, 10 rounds)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 19
+AC modifiers: +4 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 136 (13d10+65)
+Fort: +11
+Ref: +12
+Will: +11
+Defensive abilities: shadowy pelt
+Immune: disease
+Resist: cold 10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: bite +20 (1d8+8), 2 claws +20 (1d8+8)
+Pounce: present
+Reach: 10
+Rend: 2 claws, 1d8+12
+Space: 10
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 27, Dex 18, Con 20, Int 7, Wis 17, Cha 8
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 37
+Feats: Dodge, Great Fortitude, Improved Initiative, Intimidating Prowess, Mobility, Power Attack, Skill Focus (Stealth)
+Skills: Intimidate +16, Perception +17
+Racial Modifiers: +4 Perception, +8 Stealth in swamps, +4 Survival
+Languages: Sasquatch
+Special qualities: swamp stride, trophy hunter
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +11
-
-**Defensive abilities:** shadowy pelt
-
-**Immune:** disease
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +20 (1d8+8), 2 claws +20 (1d8+8)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+12
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 18, Con 20, Int 7, Wis 17, Cha 8
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 37
-
-**Feats:** Dodge, Great Fortitude, Improved Initiative, Intimidating Prowess, Mobility, Power
-Attack, Skill Focus (Stealth)
-
-**Skills:** Intimidate +16, Perception +17
-
-**Racial Modifiers:** +4 Perception, +8 Stealth in swamps, +4 Survival
-
-**Languages:** Sasquatch
-
-**Special qualities:** swamp stride, trophy hunter
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary, pair, or party (3-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate swamps
+Organization: solitary, pair, or party (3-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

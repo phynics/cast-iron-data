@@ -33,91 +33,67 @@ _An enormous draconic head rises up atop a massive serpentine neck wider than a 
 Seemingly endless coils break the water's surface around it, only hinting at the monster's
 terrifying size, as it opens its steam-shrouded maw with a hiss._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Type: dragon
+Size: gargantuan
+Initiative: +9
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision, Scent, True seeing
+Subtype: Aquatic
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 30
+Touch: 30
+Flat-footed: 25
+AC modifiers: +5 Dex, +19 natural, -4 size
+Hit points: 229 (17d12+119)
+Fort: +17
+Ref: +15
+Will: +14
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Immune: curse effects, dragon traits, fire, mind-affecting effects, paralysis, poison, sleep
+Regen: 10 (cold iron)
+Sr: 26
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 40 ft., swim 100 ft.
+Br Weap: 60-ft. cone, 17d8 fire damage, Reflex DC 25 half, usable every 1d4 rounds
+Constrict: tail, 2d8+19
+Melee: bite +26 (2d8+13/19-20 plus poison), 2 claws +26 (2d6+13), tail slap +21 (2d8+6 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Spec Att: death curse, poison
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, True seeing
+::: statblock
+Ability scores: Str 36, Dex 20, Con 25, Int 5, Wis 18, Cha 21
+Base attack bonus: +17
+Combat maneuver bonus: +34 (+38 grapple)
+Combat maneuver defense: 68 (can't be tripped)
+Feats: Critical Focus, Greater Vital Strike, Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Snatch, Staggering Critical, Vital Strike
+Skills: Climb +27
+Languages: Aklo, Draconic, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 30
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 Dex, +19 natural, -4 size
-
-**Hit points:** 229 (17d12+119)
-
-**Fort:** +17
-
-**Ref:** +15
-
-**Will:** +14
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Immune:** curse effects, dragon traits, fire, mind-affecting effects, paralysis, poison, sleep
-
-**Regen:** 10 (cold iron)
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., swim 100 ft.
-
-**Br Weap:** 60-ft. cone, 17d8 fire damage, Reflex DC 25 half, usable every 1d4 rounds
-
-**Constrict:** tail, 2d8+19
-
-**Melee:** bite +26 (2d8+13/19-20 plus poison), 2 claws +26 (2d6+13), tail slap +21 (2d8+6 plus
-[grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** death curse, poison
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 20, Con 25, Int 5, Wis 18, Cha 21
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +34 (+38 grapple)
-
-**Combat maneuver defense:** 68 (can't be tripped)
-
-**Feats:** Critical Focus, Greater Vital Strike, Improved Critical (bite), Improved Initiative,
-Improved Vital Strike, Power Attack, Snatch, Staggering Critical, Vital Strike
-
-**Skills:** Climb +27
-
-**Languages:** Aklo, Draconic, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** cold rivers
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: cold rivers
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

@@ -29,76 +29,60 @@ abilities = ["19", "14", "17", "6", "11", "8"]
 _This small, plant-like creature is a bulging mass of vise-like muscle with sunken eyes that
 constantly drip viscous, black tears._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Perception: +19
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 17
+AC modifiers: +2 Dex, +6 natural, +1 size
+Hit points: 75 (10d8+30)
+Fort: +6
+Ref: +5
+Will: +9
+Dr: 5/bludgeoning or slashing
+Immune: acid, disease
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +13 (1d8+4 plus spores)
+Sneak: +2d6
+Spec Att: acidic tears,, spores
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 19, Dex 14, Con 17, Int 6, Wis 11, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (claw)
+Skills: Perception +19, Stealth +25
+Languages: Undercommon (can't speak), Vegepygmy (can't speak)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +6 natural, +1 size
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +9
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** acid, disease
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +13 (1d8+4 plus spores)
-
-**Sneak:** +2d6
-
-**Spec Att:** acidic tears,, spores
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 17, Int 6, Wis 11, Cha 8
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus
-(claw)
-
-**Skills:** Perception +19, Stealth +25
-
-**Languages:** Undercommon (can't speak), Vegepygmy (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or gang (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or gang (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,136 +31,89 @@ abilities = ["46", "30", "43", "29", "32", "29"]
 _This six-legged, spider-like monstrosity has a bloated abdomen and a hideous face from which three
 bulbous eyes glare._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+Type: aberration
+aura: unspeakable presence (300 ft., DC 35)
+Alignment: Chaotic evil
+Initiative: +24
+Size: large
+Perception: +47
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Aquatic, Chaotic, Evil, Great Old One
+tremorsense: 120 ft. (640 ft. when in statue form)
+Experience points: 4,915,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 35)
+::: statblock
+Armor class: 46
+Touch: 30
+Flat-footed: 35
+AC modifiers: +10 Dex, +1 dodge, +10 insight, +16 natural, -1 size
+Hit points: 676 (33d8+528)
+Fort: +29
+Ref: +23
+Will: +31
+Defensive abilities: immortality, insanity (DC 35)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison
+Resist: fire 30, sonic 30
+Sr: 39
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +24
+::: statblock
+Speed: 60 ft., swim 60 ft.
+Constrict: 2d8+18
+Grab: Huge
+M Power: 10/day, surge +1d12
+Melee: bite +41 (4d6+18/19-20 plus grab), 6 claws +41 (2d8+18/19-20 plus grab)
+Pounce: present
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: apocalyptic dreams, feed
+:::
 
-**Size:** large
-
-**Perception:** +47
-
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
-
-**Subtype:** Aquatic, Chaotic, Evil, Great Old One
-
-**tremorsense:** 120 ft. (640 ft. when in statue form)
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 30
-
-**Flat-footed:** 35
-
-**AC modifiers:** +10 Dex, +1 dodge, +10 insight, +16 natural, -1 size
-
-**Hit points:** 676 (33d8+528)
-
-**Fort:** +29
-
-**Ref:** +23
-
-**Will:** +31
-
-**Defensive abilities:** immortality, insanity (DC 35)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, poison
-
-**Resist:** fire 30, sonic 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft.
-
-**Constrict:** 2d8+18
-
-**Grab:** Huge
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** bite +41 (4d6+18/19-20 plus grab), 6 claws +41 (2d8+18/19-20 plus grab)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** apocalyptic dreams, feed
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +37
-
-**Constant:**
-
-- air walk, true seeing
-
-**At will:**
-
-- clairaudience/clairvoyance, dimension door^M^, dream^M^, greater dispel magic, nightmare^M^,
-  statue (DC 26), sympathetic vibration
-
-**Per day:**
-
-- 3/day: demand (DC 27), quickened feeblemind (DC 24), quickened flesh to stone^M^ (DC 25), stone to
-  flesh
-- 1/day: earthquake^M^, imprisonment (DC 28), symbol of strife (DC 28)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +37
+Constant: air walk, true seeing
+At will: clairaudience/clairvoyance, dimension door^M^, dream^M^, greater dispel magic, nightmare^M^, statue (DC 26), sympathetic vibration
+Per day: 3/day: demand (DC 27), quickened feeblemind (DC 24), quickened flesh to stone^M^ (DC 25), stone to flesh\
+1/day: earthquake^M^, imprisonment (DC 28), symbol of strife (DC 28)
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 46, Dex 30, Con 43, Int 29, Wis 32, Cha 29
+::: statblock
+Ability scores: Str 46, Dex 30, Con 43, Int 29, Wis 32, Cha 29
+Base attack bonus: +24
+Combat maneuver bonus: +43 (+47 grapple)
+Combat maneuver defense: 74 (82 vs. trip)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Dodge, Great Fortitude, Greater Vital Strike, Improved Critical (bite, claw), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Mobility, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, flesh to stone), Vital Strike
+Skills: Acrobatics +46, Knowledge (arcana, dungeoneering, geography, history, nature, religion) +42, Perception +47, Sense Motive +44, Spellcraft +45, Stealth +42, Swim +62, Use Magic Device +42
+Languages: Aklo; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: always watching, [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), eternal statue, otherworldly insight
+Faith: Rhan-Tegoth
+:::
 
-**Base attack bonus:** +24
+### Ecology
 
-**Combat maneuver bonus:** +43 (+47 grapple)
-
-**Combat maneuver defense:** 74 (82 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Dodge, Great Fortitude, Greater Vital
-Strike, Improved Critical (bite, claw), Improved Initiative, Improved Vital Strike, Iron Will,
-Lightning Reflexes, Mobility, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, flesh to stone), Vital Strike
-
-**Skills:** Acrobatics +46, Knowledge (arcana, dungeoneering, geography, history, nature, religion)
-+42, Perception +47, Sense Motive +44, Spellcraft +45, Stealth +42, Swim +62, Use Magic Device +42
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** always watching, [amphibious](ref/umr/amphibious),
-[compression](ref/umr/compression), eternal statue, otherworldly insight
-
-**Faith:** Rhan-Tegoth
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

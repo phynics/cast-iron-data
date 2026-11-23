@@ -31,106 +31,75 @@ abilities = ["28", "20", "26", "18", "18", "20"]
 _This gangly black wasp has delicate wings, articulate hands on its front legs, and a pair of jagged
 stingers the length of a human arm._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: alluring scent (30 ft., DC 25, 1 hour)
+Alignment: Chaotic neutral
+Initiative: +9
+Size: large
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Chaotic, Extraplanar, Herald, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** alluring scent (30 ft., DC 25, 1 hour)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 31
+Touch: 14
+Flat-footed: 26
+AC modifiers: +5 Dex, +17 natural, -1 size
+Hit points: 202 (15d10+120)
+Fort: +17
+Ref: +16
+Will: +9
+Dr: 15/lawful
+Immune: disease, poison
+Resist: electricity 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft., climb 20 ft., fly 50 ft. (poor)
+Melee: bite +24 (1d8+9), 2 claws +23 (1d6+9), sting +24 (2d8+9 plus poison)
+Reach: 5
+Space: 10
+Spec Att: implant, mind control, poison
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+At will: dimension door, dispel magic, lover's vengeance, message, neutralize poison, rage, secret speech
+Per day: 5/day: crushing despair (DC 19), cat's grace, cure moderate wounds, remove disease, suggestion (DC 18), summon swarm, telekinesis, teleport, wall of thorns\
+1/day: heal, insect plague, scrying (DC 19)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 28, Dex 20, Con 26, Int 18, Wis 18, Cha 20
+Base attack bonus: +15
+Combat maneuver bonus: +25
+Combat maneuver defense: 40 (48 vs. trip)
+Feats: Combat Reflexes, Hover, Improved Initiative, Lightning Reflexes, Power Attack, Step Up, Weapon Focus (bite), Weapon Focus (sting)
+Skills: Acrobatics +20, Bluff +23, Climb +17, Diplomacy +23, Perform (dance) +12, Sense Motive +22, Spellcraft +14, Stealth +19
+Languages: Abyssal, Common, Elven; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (elf, wasp, or giant wasp; [alter self](ref/spell/alter-self) or [vermin shape II](ref/spell/vermin-shape-2))
+:::
 
-**Subtype:** Chaotic, Extraplanar, Herald, Shapechanger
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 Dex, +17 natural, -1 size
-
-**Hit points:** 202 (15d10+120)
-
-**Fort:** +17
-
-**Ref:** +16
-
-**Will:** +9
-
-**Dr:** 15/lawful
-
-**Immune:** disease, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft., fly 50 ft. (poor)
-
-**Melee:** bite +24 (1d8+9), 2 claws +23 (1d6+9), sting +24 (2d8+9 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** implant, mind control, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**At will:**
-
-- dimension door, dispel magic, lover's vengeance, message, neutralize poison, rage, secret speech
-
-**Per day:**
-
-- 5/day: crushing despair (DC 19), cat's grace, cure moderate wounds, remove disease, suggestion (DC
-  18), summon swarm, telekinesis, teleport, wall of thorns
-- 1/day: heal, insect plague, scrying (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 20, Con 26, Int 18, Wis 18, Cha 20
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 40 (48 vs. trip)
-
-**Feats:** Combat Reflexes, Hover, Improved Initiative, Lightning Reflexes, Power Attack, Step Up,
-Weapon Focus (bite), Weapon Focus (sting)
-
-**Skills:** Acrobatics +20, Bluff +23, Climb +17, Diplomacy +23, Perform (dance) +12, Sense Motive
-+22, Spellcraft +14, Stealth +19
-
-**Languages:** Abyssal, Common, Elven; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (elf, wasp, or giant wasp;
-[alter self](ref/spell/alter-self) or [vermin shape II](ref/spell/vermin-shape-2))
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

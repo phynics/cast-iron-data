@@ -33,83 +33,64 @@ abilities = ["27", "7", "28", "4", "7", "8"]
 _Even hunched and creeping upon all fours, this reptilian behemoth towers over its prey, its
 protruding teeth snapping wildly._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+aura: powerful [stench](ref/umr/stench) (10 ft., DC 24, 1d4 rounds)
+Alignment: Chaotic evil
+Initiative: -2
+Size: large
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** powerful [stench](ref/umr/stench) (10 ft., DC 24, 1d4 rounds)
+::: statblock
+Armor class: 24
+Touch: 7
+Flat-footed: 24
+AC modifiers: -2 Dex, +17 natural, -1 size
+Hit points: 162 (12d8+108)
+Fort: +13
+Ref: +2
+Will: +6
+Immune: acid, critical hits, disease, poison
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** -2
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +16 (1d6+8), bite +16 (2d6+8), tail slap +14 (1d8+4)
+Ranged: regurgitate +6 (2d6 acid plus filth fever)
+Reach: 10
+Reach P: 15 ft. with tail
+Space: 10
+Spec Att: feed, filth fever
+:::
 
-**Size:** large
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 27, Dex 7, Con 28, Int 4, Wis 7, Cha 8
+Base attack bonus: +9
+Combat maneuver bonus: +18 (+20 bull rush)
+Combat maneuver defense: 26 (28 vs. bull rush)
+Feats: Awesome Blow, Cleave, Improved Bull Rush, Multiattack, Power Attack, Vital Strike
+Skills: Climb +12, Perception +9, Stealth +0 (+4 when underground)
+Racial Modifiers: +4 Stealth when underground
+Languages: Draconic
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 7
-
-**Flat-footed:** 24
-
-**AC modifiers:** -2 Dex, +17 natural, -1 size
-
-**Hit points:** 162 (12d8+108)
-
-**Fort:** +13
-
-**Ref:** +2
-
-**Will:** +6
-
-**Immune:** acid, critical hits, disease, poison
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +16 (1d6+8), bite +16 (2d6+8), tail slap +14 (1d8+4)
-
-**Ranged:** regurgitate +6 (2d6 acid plus filth fever)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tail
-
-**Space:** 10
-
-**Spec Att:** feed, filth fever
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 7, Con 28, Int 4, Wis 7, Cha 8
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18 (+20 bull rush)
-
-**Combat maneuver defense:** 26 (28 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Improved Bull Rush, Multiattack, Power Attack, Vital Strike
-
-**Skills:** Climb +12, Perception +9, Stealth +0 (+4 when underground)
-
-**Racial Modifiers:** +4 Stealth when underground
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or squad (2-8)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or squad (2-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,101 +33,73 @@ abilities = ["46", "11", "27", "13", "24", "18"]
 _Symbolic representations of the occultation of heavenly bodies decorate the dark gray skin of this
 massive giant._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: gargantuan
+Type: humanoid
+Initiative: +0
+Alignment: Neutral
+Perception: +41
+Senses: Low-light vision, See in darkness
+Subtype: Giant
+Experience points: 204,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 32
+Touch: 6
+Flat-footed: 32
+AC modifiers: +26 natural, -4 size
+Hit points: 312 (25d8+200)
+Fort: +16
+Ref: +15
+Will: +21
+Immune: death effects
+Rock Ct: present
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: mwk longsword +34/+29/+24/+19 (4d6+27/19-20)
+Ranged: rock +15 (3d6+27 plus imbue rock)
+Reach: 20
+Space: 20
+Spec Att: imbue rock, [rock throwing](ref/umr/rock-throwing)
+:::
 
-**Perception:** +41
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+At will: daylight, deeper darkness, harm (DC 20), heal
+Per day: 3/day: quickened harm (DC 20), quickened heal\
+1/day: lunar veil, polar midnight
+:::
 
-**Senses:** Low-light vision, See in darkness
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 46, Dex 11, Con 27, Int 13, Wis 24, Cha 18
+Base attack bonus: +18
+Combat maneuver bonus: +40 (+44 bull rush)
+Combat maneuver defense: 50 (52 vs. bull rush)
+Feats: Awesome Blow, Combat Casting, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Vital Strike, Martial Weapon Proficiency (longsword), Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (harm, heal), Skill Focus (Perception), Vital Strike, Weapon Focus (longsword)
+Skills: Intimidate +32, Knowledge (arcana) +16, Perception +41
+Languages: Aklo, Common, Giant
+Special qualities: eclipse empowered
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 6
-
-**Flat-footed:** 32
-
-**AC modifiers:** +26 natural, -4 size
-
-**Hit points:** 312 (25d8+200)
-
-**Fort:** +16
-
-**Ref:** +15
-
-**Will:** +21
-
-**Immune:** death effects
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** mwk longsword +34/+29/+24/+19 (4d6+27/19-20)
-
-**Ranged:** rock +15 (3d6+27 plus imbue rock)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** imbue rock, [rock throwing](ref/umr/rock-throwing)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**At will:**
-
-- daylight, deeper darkness, harm (DC 20), heal
-
-**Per day:**
-
-- 3/day: quickened harm (DC 20), quickened heal
-- 1/day: lunar veil, polar midnight
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 11, Con 27, Int 13, Wis 24, Cha 18
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +40 (+44 bull rush)
-
-**Combat maneuver defense:** 50 (52 vs. bull rush)
-
-**Feats:** Awesome Blow, Combat Casting, Greater Bull Rush, Greater Vital Strike, Improved Bull
-Rush, Improved Vital Strike, Martial Weapon Proficiency (longsword), Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (harm, heal), Skill Focus (Perception), Vital
-Strike, Weapon Focus (longsword)
-
-**Skills:** Intimidate +32, Knowledge (arcana) +16, Perception +41
-
-**Languages:** Aklo, Common, Giant
-
-**Special qualities:** eclipse empowered
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or family (3-5 plus 2-3 noncombatants)
-
-**Treasure:** Standard (mwk longsword); other treasure
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or family (3-5 plus 2-3 noncombatants)
+Treasure: Standard (mwk longsword); other treasure
+:::
 
 ### Special Abilities
 

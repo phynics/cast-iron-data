@@ -32,96 +32,71 @@ abilities = ["30", "10", "29", "21", "20", "21"]
 _This tremendous leviathan resembles a vast squid, yet the markings on its body are strangely
 unsettling to look upon._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Size: gargantuan
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +28
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 153,600
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 32
+Touch: 6
+Flat-footed: 32
+AC modifiers: +26 natural, -4 size
+Hit points: 290 (20d10+180)
+Fort: +21
+Ref: +12
+Will: +11
+Immune: cold, mind-affecting effects, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Constrict: tentacles, 1d8+10
+Jet: 280
+Melee: 2 arms +26 (2d6+10/19-20 plus [grab](ref/umr/grab)), 8 tentacles +24 (1d8+5 plus grab), bite +26 (2d8+10)
+Reach: 20
+Reach P: 60 ft. with arm, 40 ft. with tentacle
+Space: 20
+Spec Att: ink cloud, rend ship
+:::
 
-**Perception:** +28
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Per day: 1/day: control weather, control winds, dominate monster (DC 24, animal only), resist energy
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 30, Dex 10, Con 29, Int 21, Wis 20, Cha 21
+Base attack bonus: +20
+Combat maneuver bonus: +34 (+38 grappling)
+Combat maneuver defense: 44 (can't be tripped)
+Feats: Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Critical Focus, Improved Critical (arm), Improved Initiative, Improved Trip, Multiattack, Power Attack
+Skills: Intimidate +25, Knowledge (geography) +25, Perception +28, Stealth +11, Swim +41, Use Magic Device +25
+Languages: Aquan, Common
+Special qualities: tenacious grapple
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 6
-
-**Flat-footed:** 32
-
-**AC modifiers:** +26 natural, -4 size
-
-**Hit points:** 290 (20d10+180)
-
-**Fort:** +21
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Constrict:** tentacles, 1d8+10
-
-**Jet:** 280
-
-**Melee:** 2 arms +26 (2d6+10/19-20 plus [grab](ref/umr/grab)), 8 tentacles +24 (1d8+5 plus grab),
-bite +26 (2d8+10)
-
-**Reach:** 20
-
-**Reach P:** 60 ft. with arm, 40 ft. with tentacle
-
-**Space:** 20
-
-**Spec Att:** ink cloud, rend ship
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Per day:**
-
-- 1/day: control weather, control winds, dominate monster (DC 24, animal only), resist energy
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 10, Con 29, Int 21, Wis 20, Cha 21
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +34 (+38 grappling)
-
-**Combat maneuver defense:** 44 (can't be tripped)
-
-**Feats:** Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Critical Focus, Improved
-Critical (arm), Improved Initiative, Improved Trip, Multiattack, Power Attack
-
-**Skills:** Intimidate +25, Knowledge (geography) +25, Perception +28, Stealth +11, Swim +41, Use
-Magic Device +25
-
-**Languages:** Aquan, Common
-
-**Special qualities:** tenacious grapple
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any ocean
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

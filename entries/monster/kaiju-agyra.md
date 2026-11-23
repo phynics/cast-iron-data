@@ -30,103 +30,72 @@ abilities = ["44", "25", "41", "3", "29", "25"]
 
 _This two-headed monstrosity has vast wings and a long tail covered in a forest of blades._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+blindsense: 30
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +11
+Type: Magical beast
+Perception: +38
+Senses: Darkvision 600 ft., Low-light vision
+Subtype: Air, Kaiju
+Experience points: 3,276,800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 45
+Touch: 9
+Flat-footed: 38
+AC modifiers: +7 Dex, +36 natural, -8 size
+Hit points: 656 (32d10+480)
+Fort: +33
+Ref: +25
+Will: +21
+Defensive abilities: electrified corpse, rebirth, recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, death effects, disease, electricity, energy drain, fear
+Resist: acid 30, cold 30, fire 30, negative energy 30, sonic 30
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 80 ft., fly 200 ft. (average)
+Bleed: 5d6
+Melee: 2 bites +41 (6d6+17/19-20), 2 talons +41 (3d8+17), tail slap +36 (10d6+8/19-20 plus bleed)
+Reach: 50
+Reach P: 75 ft. with tail
+Sp Extra: swift flight
+Space: 50
+Spec Att: blinding flash, breath weapon, hurl foe, hurricane, thunderous blast
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +38
+::: statblock
+Ability scores: Str 44, Dex 25, Con 41, Int 3, Wis 29, Cha 25
+Base attack bonus: +32
+Combat maneuver bonus: +57 (+61 bull rush)
+Combat maneuver defense: 74 (76 vs. bull rush)
+Feats: Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Hover, Improved Bull Rush, Improved Critical (tail slap), Improved Critical (bite), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike, Wingover
+Skills: Fly +24, Perception +38
+Racial Modifiers: +16 Perception
+Languages: Auran (can't speak)
+Special qualities: massive, storm flier
+:::
 
-**Senses:** Darkvision 600 ft., Low-light vision
+### Ecology
 
-**Subtype:** Air, Kaiju
-
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 9
-
-**Flat-footed:** 38
-
-**AC modifiers:** +7 Dex, +36 natural, -8 size
-
-**Hit points:** 656 (32d10+480)
-
-**Fort:** +33
-
-**Ref:** +25
-
-**Will:** +21
-
-**Defensive abilities:** electrified corpse, rebirth, recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, death effects, disease, electricity, energy drain, fear
-
-**Resist:** acid 30, cold 30, fire 30, negative energy 30, sonic 30
-
-**Offense**
-
-**Speed:** 80 ft., fly 200 ft. (average)
-
-**Bleed:** 5d6
-
-**Melee:** 2 bites +41 (6d6+17/19-20), 2 talons +41 (3d8+17), tail slap +36 (10d6+8/19-20 plus
-bleed)
-
-**Reach:** 50
-
-**Reach P:** 75 ft. with tail
-
-**Sp Extra:** swift flight
-
-**Space:** 50
-
-**Spec Att:** blinding flash, breath weapon, hurl foe, hurricane, thunderous blast
-
-**Statistics**
-
-**Ability scores:** Str 44, Dex 25, Con 41, Int 3, Wis 29, Cha 25
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +57 (+61 bull rush)
-
-**Combat maneuver defense:** 74 (76 vs. bull rush)
-
-**Feats:** Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Hover, Improved
-Bull Rush, Improved Critical (tail slap), Improved Critical (bite), Improved Initiative, Improved
-Iron Will, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike,
-Wingover
-
-**Skills:** Fly +24, Perception +38
-
-**Racial Modifiers:** +16 Perception
-
-**Languages:** Auran (can't speak)
-
-**Special qualities:** massive, storm flier
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm mountains
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

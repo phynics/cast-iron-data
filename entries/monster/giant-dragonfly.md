@@ -29,67 +29,56 @@ abilities = ["19", "15", "14", "-", "12", "9"]
 _This glittering blue dragonfly is about the size of a horse and is large enough to carry off small
 farm animals or people._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 45 (7d8+14)
+Fort: +7
+Ref: +4
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., fly 80 ft. (perfect)
+Melee: bite +9 (2d8+6 plus [grab](ref/umr/grab))
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 19, Dex 15, Con 14, Int -, Wis 12, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +9 (+13 grappling, or +17 grappling on a charge)
+Combat maneuver defense: 21 (29 vs. trip)
+Feats: Flyby Attack
+Skills: Fly +10
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 80 ft. (perfect)
-
-**Melee:** bite +9 (2d8+6 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 14, Int -, Wis 12, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9 (+13 grappling, or +17 grappling on a charge)
-
-**Combat maneuver defense:** 21 (29 vs. trip)
-
-**Feats:** Flyby Attack
-
-**Skills:** Fly +10
-
-**Ecology**
-
-**Environment:** temperate or warm land
-
-**Organization:** solitary or flight (2-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm land
+Organization: solitary or flight (2-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

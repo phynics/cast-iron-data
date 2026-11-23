@@ -28,73 +28,59 @@ abilities = ["4", "14", "14", "1", "12", "2"]
 
 _This serpentine fish has a horrific circular mouth filled with hook-like teeth._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: swim 30 ft.
+B Drain: 1 Str damage
+Melee: bite +4 (1d4-3 plus attach)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 4, Dex 14, Con 14, Int 1, Wis 12, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7
+Feats: Weapon Finesse
+Skills: Stealth +14, Swim +5
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 135
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**B Drain:** 1 Str damage
-
-**Melee:** bite +4 (1d4-3 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 14, Con 14, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7
-
-**Feats:** Weapon Finesse
-
-**Skills:** Stealth +14, Swim +5
-
-**Ecology**
-
-**Environment:** temperate oceans
-
-**Organization:** solitary, pair, or school (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate oceans
+Organization: solitary, pair, or school (3-12)
+Treasure: None
+:::
 
 ### Description
 

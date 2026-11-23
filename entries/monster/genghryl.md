@@ -31,90 +31,67 @@ abilities = ["20", "15", "19", "6", "14", "15"]
 _A mix of burly and slender tentacles extend from the body of this large, worm-like creature. Rows
 of frightful fangs line the maw beneath its sharp beak._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +6
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 12,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +12
+Will: +9
+Dr: 5/piercing or slashing
+Resist: acid 10, cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., burrow 20 ft.
+Constrict: 1d8+2
+Melee: bite +20 (2d8+5), 4 tentacles +19 (1d8+2 plus [grab](ref/umr/grab) or pull)
+Pull: tentacle, 5 ft.
+Reach: 5
+Reach P: 10 ft. with tentacle
+Space: 10
+Spec Att: disturbing vocalizations, sinkhole
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 20, Dex 15, Con 19, Int 6, Wis 14, Cha 15
+Base attack bonus: +16
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 34 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Multiattack, Power Attack, Skill Focus (Disguise, Perception), Weapon Focus (tentacle)
+Skills: Disguise +9 (+17 as burrowing animals), Stealth +5 (+10 underground)
+Racial Modifiers: +8 Disguise as burrowing animals, +5 Stealth underground
+Languages: Terran (can't speak)
+Special qualities: [compression](ref/umr/compression), lure tentacles
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +9
-
-**Dr:** 5/piercing or slashing
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 20 ft., burrow 20 ft.
-
-**Constrict:** 1d8+2
-
-**Melee:** bite +20 (2d8+5), 4 tentacles +19 (1d8+2 plus [grab](ref/umr/grab) or pull)
-
-**Pull:** tentacle, 5 ft.
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tentacle
-
-**Space:** 10
-
-**Spec Att:** disturbing vocalizations, sinkhole
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 15, Con 19, Int 6, Wis 14, Cha 15
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 34 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Multiattack, Power Attack, Skill Focus
-(Disguise, Perception), Weapon Focus (tentacle)
-
-**Skills:** Disguise +9 (+17 as burrowing animals), Stealth +5 (+10 underground)
-
-**Racial Modifiers:** +8 Disguise as burrowing animals, +5 Stealth underground
-
-**Languages:** Terran (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression), lure tentacles
-
-**Ecology**
-
-**Environment:** any plains
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: any plains
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

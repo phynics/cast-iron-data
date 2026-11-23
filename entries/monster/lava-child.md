@@ -32,82 +32,63 @@ abilities = ["15", "12", "14", "10", "13", "13"]
 _This squat, clawed humanoid is hunched and pink-skinned, with an oversized head. Its face is that
 of a fanged and insane human baby, and its mouth opens far wider than it should._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Earth, Fire
+tremorsense: 30
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 30 (4d10+8)
+Fort: +5
+Ref: +5
+Will: +5
+Immune: earth magic, fire, and metal
+Weaknesses: vulnerability to cold and water
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: 2 claws +6 (1d4+2), bite +6 (1d4+2 plus 1d6 fire)
+Rend: 2 claws, 1d4+3
+Spec Att: magma throwing
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 12, Con 14, Int 10, Wis 13, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Great Fortitude, Power Attack
+Skills: Bluff +5, Intimidate +8, Knowledge (dungeoneering) +1, Knowledge (nature) +2, Perception +8
+Languages: Common, Draconic, Ignan, Terran
+Special qualities: earth glide
+:::
 
-**Subtype:** Earth, Fire
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** earth magic, fire, and metal
-
-**Weaknesses:** vulnerability to cold and water
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** 2 claws +6 (1d4+2), bite +6 (1d4+2 plus 1d6 fire)
-
-**Rend:** 2 claws, 1d4+3
-
-**Spec Att:** magma throwing
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 12, Con 14, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Great Fortitude, Power Attack
-
-**Skills:** Bluff +5, Intimidate +8, Knowledge (dungeoneering) +1, Knowledge (nature) +2, Perception
-+8
-
-**Languages:** Common, Draconic, Ignan, Terran
-
-**Special qualities:** earth glide
-
-**Ecology**
-
-**Environment:** volcanic underground
-
-**Organization:** solitary or cyst (2-40)
-
-**Treasure:** Standard; no metal, double gems
+::: statblock
+Environment: volcanic underground
+Organization: solitary or cyst (2-40)
+Treasure: Standard; no metal, double gems
+:::
 
 ### Special Abilities
 

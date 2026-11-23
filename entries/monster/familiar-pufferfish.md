@@ -31,71 +31,58 @@ abilities = ["4", "14", "15", "1", "12", "9"]
 _This spotted fish has pronounced eyes, a wide mouth, and tiny, brightly colored spikes protruding
 from its body._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +4
+Will: +1
+Defensive abilities: spines
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: swim 20 ft.
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 14, Con 15, Int 1, Wis 12, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7
+Feats: Improved Initiative
+Skills: Perception +5, Swim +5
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Defensive abilities:** spines
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 14, Con 15, Int 1, Wis 12, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +5, Swim +5
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or school (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or school (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

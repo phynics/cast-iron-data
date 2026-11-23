@@ -32,71 +32,58 @@ abilities = ["12", "13", "15", "6", "11", "12"]
 _Composed of half-formed body parts, this creature stands on two bizarre legs. Its mouth is full of
 jagged teeth and a slavering tongue._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Initiative: +1
+Alignment: Neutral evil
+Perception: +4
+Senses: Darkvision 60 ft., Sin-scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +2
+Ref: +3
+Will: +3
+Immune: mind-affecting effects
+Sr: 12
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft.
+Melee: bite +3 (1d6+1 plus sinful bite)
+:::
 
-**Senses:** Darkvision 60 ft., Sin-scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 13, Con 15, Int 6, Wis 11, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Lightning Reflexes
+Skills: Acrobatics +5, Escape Artist +5, Perception +4, Stealth +9
+Languages: Aklo
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +3 (1d6+1 plus sinful bite)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 15, Int 6, Wis 11, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Acrobatics +5, Escape Artist +5, Perception +4, Stealth +9
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary, pair, or batch (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ruins
+Organization: solitary, pair, or batch (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

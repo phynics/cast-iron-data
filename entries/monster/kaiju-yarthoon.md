@@ -31,101 +31,71 @@ abilities = ["46", "29", "38", "3", "26", "21"]
 _This immense pale blue worm raises one end of its body like a serpent, its many-toothed maw opening
 amid a ring of glowing eyes._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +13
+Type: Magical beast
+Perception: +28
+Senses: Low-light vision, Mistsight, See in darkness
+Subtype: Air, Kaiju
+tremorsense: 300
+Experience points: 1,638,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 44
+Touch: 12
+Flat-footed: 34
+AC modifiers: +9 Dex, +1 dodge, +32 natural, -8 size
+Hit points: 565 (29d10+406)
+Fort: +30
+Ref: +25
+Will: +19
+Defensive abilities: recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, cold, death effects, disease, energy drain, fear
+Resist: acid 30, electricity 30, fire 30, negative energy 30, sonic 30
+:::
 
-**Initiative:** +13
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., burrow 100 ft., swim 100 ft., fly 100 ft. (average)
+F Swallow: present
+Melee: 2 bites +39 (4d6+27/19-20 plus 4d6 cold and [grab](ref/umr/grab)), slam +39 (4d8+27/19-20 plus 4d6 cold and staggering strike)
+Reach: 30
+Space: 30
+Spec Att: clinging frost, eye beams, freezing mist, hurl foe, penetrating cold, swift bite
+Swallow: 6d6 bludgeoning and 6d6 cold damage, AC 26, 56 hp
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Low-light vision, Mistsight, See in darkness
+::: statblock
+Ability scores: Str 46, Dex 29, Con 38, Int 3, Wis 26, Cha 21
+Base attack bonus: +29
+Combat maneuver bonus: +55 (+59 overrun)
+Combat maneuver defense: 75 (77 vs. overrun, can't be tripped)
+Feats: Critical Focus, Dodge, Flyby Attack, Greater Overrun, Improved Critical (bite, slam), Improved Initiative, Improved Iron Will, Improved Overrun, Improved Vital Strike, Iron Will, Power Attack, Staggering Critical, Vital Strike, Wingover
+Skills: Fly +32
+Racial Modifiers: +16 Perception
+Languages: Auran (can't speak)
+Special qualities: massive, [no breath](ref/umr/no-breath), powerful blows (bite, slam), starflight
+:::
 
-**Subtype:** Air, Kaiju
+### Ecology
 
-**tremorsense:** 300
-
-**Experience points:** 1,638,400
-
-**Armor class:** 44
-
-**Touch:** 12
-
-**Flat-footed:** 34
-
-**AC modifiers:** +9 Dex, +1 dodge, +32 natural, -8 size
-
-**Hit points:** 565 (29d10+406)
-
-**Fort:** +30
-
-**Ref:** +25
-
-**Will:** +19
-
-**Defensive abilities:** recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, cold, death effects, disease, energy drain, fear
-
-**Resist:** acid 30, electricity 30, fire 30, negative energy 30, sonic 30
-
-**Offense**
-
-**Speed:** 60 ft., burrow 100 ft., swim 100 ft., fly 100 ft. (average)
-
-**F Swallow:** present
-
-**Melee:** 2 bites +39 (4d6+27/19-20 plus 4d6 cold and [grab](ref/umr/grab)), slam +39 (4d8+27/19-20
-plus 4d6 cold and staggering strike)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** clinging frost, eye beams, freezing mist, hurl foe, penetrating cold, swift bite
-
-**Swallow:** 6d6 bludgeoning and 6d6 cold damage, AC 26, 56 hp
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 29, Con 38, Int 3, Wis 26, Cha 21
-
-**Base attack bonus:** +29
-
-**Combat maneuver bonus:** +55 (+59 overrun)
-
-**Combat maneuver defense:** 75 (77 vs. overrun, can't be tripped)
-
-**Feats:** Critical Focus, Dodge, Flyby Attack, Greater Overrun, Improved Critical (bite, slam),
-Improved Initiative, Improved Iron Will, Improved Overrun, Improved Vital Strike, Iron Will, Power
-Attack, Staggering Critical, Vital Strike, Wingover
-
-**Skills:** Fly +32
-
-**Racial Modifiers:** +16 Perception
-
-**Languages:** Auran (can't speak)
-
-**Special qualities:** massive, [no breath](ref/umr/no-breath), powerful blows (bite, slam),
-starflight
-
-**Ecology**
-
-**Environment:** any cold (the world's moon or outer space)
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any cold (the world's moon or outer space)
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

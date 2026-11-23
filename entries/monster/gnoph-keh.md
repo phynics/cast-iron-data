@@ -32,90 +32,67 @@ abilities = ["24", "13", "20", "13", "20", "21"]
 _A vortex of freezing wind swirls around this six-legged, bear-like monstrosity. A single horn
 protrudes from its snarling face._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: cold (30 ft.)
+Alignment: Chaotic evil
+Initiative: +1
+Size: large
+Type: Magical beast
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision, Snow vision
+Subtype: Cold
+Experience points: 12,800
+:::
 
-**aura:** cold (30 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 25
+Touch: 10
+Flat-footed: 24
+AC modifiers: +1 Dex, +15 natural, -1 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +12
+Will: +11
+Immune: cold
+Vulner: fire
+Weaknesses: heat susceptible
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: 4 claws +20 (1d6+7), gore +20 (1d8+7/19-20/×3)
+Pow Ch: gore, 2d8+14/19-20/×3
+Reach: 10
+Space: 10
+Spec Att: blizzard
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +22
+::: statblock
+Ability scores: Str 24, Dex 13, Con 20, Int 13, Wis 20, Cha 21
+Base attack bonus: +14
+Combat maneuver bonus: +22
+Combat maneuver defense: 33 (41 vs. trip)
+Feats: Bleeding Critical, Critical Focus, Improved Bull Rush, Improved Critical (gore), Iron Will, Lightning Reflexes, Power Attack
+Skills: Climb +24, Perception +22, Stealth +14 (+22 in snow or on ice)
+Racial Modifiers: +8 Stealth in snow or on ice
+Languages: Aklo
+Special qualities: icewalking
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Snow vision
+### Ecology
 
-**Subtype:** Cold
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +15 natural, -1 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Weaknesses:** heat susceptible
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 claws +20 (1d6+7), gore +20 (1d8+7/19-20/×3)
-
-**Pow Ch:** gore, 2d8+14/19-20/×3
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blizzard
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 20, Int 13, Wis 20, Cha 21
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33 (41 vs. trip)
-
-**Feats:** Bleeding Critical, Critical Focus, Improved Bull Rush, Improved Critical (gore), Iron
-Will, Lightning Reflexes, Power Attack
-
-**Skills:** Climb +24, Perception +22, Stealth +14 (+22 in snow or on ice)
-
-**Racial Modifiers:** +8 Stealth in snow or on ice
-
-**Languages:** Aklo
-
-**Special qualities:** icewalking
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary, pair, or gathering (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold
+Organization: solitary, pair, or gathering (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

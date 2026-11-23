@@ -31,97 +31,71 @@ abilities = ["14", "20", "21", "13", "18", "19"]
 _Depression and ennui accompany a barely perceptible sensation of something cold and smooth brushing
 against the skin._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +9
+Perception: +18
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 13
+AC modifiers: +5 Dex, +2 natural, +1 size
+Hit points: 104 (11d8+55)
+Fort: +8
+Ref: +8
+Will: +11
+Dr: 5/magic and slashing
+Immune: fear, fire, poison, sleep
+:::
 
-**Initiative:** +9
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: fly 30 ft. (good)
+Melee: 3 tentacles +15 (1d4+2)
+Sneak: +2d6
+Spec Att: command somnambulist, ennui
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +12
+Constant: greater invisibility
+At will: detect thoughts (DC 16), suggestion (DC 17)
+Per day: 3/day: crushing despair (DC 18)\
+1/day: charm monster (DC 18), deep slumber (DC 17), dominate person (DC 19), status (DC 16)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 20, Con 21, Int 13, Wis 18, Cha 19
+Base attack bonus: +8
+Combat maneuver bonus: +12 (+14 disarm)
+Combat maneuver defense: 24 (26 vs. disarm)
+Feats: Agile Maneuvers, Combat Expertise, Improved Disarm, Improved Initiative, Weapon Finesse, Weapon Focus (tentacle)
+Skills: Bluff +15, Fly +25, Perception +18, Sense Motive +15, Use Magic Device +15
+Languages: Aklo; _absorb language,_ [telepathy](ref/umr/telepathy) 200 ft.
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +2 natural, +1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +11
-
-**Dr:** 5/magic and slashing
-
-**Immune:** fear, fire, poison, sleep
-
-**Offense**
-
-**Speed:** fly 30 ft. (good)
-
-**Melee:** 3 tentacles +15 (1d4+2)
-
-**Sneak:** +2d6
-
-**Spec Att:** command somnambulist, ennui
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +12
-
-**Constant:**
-
-- greater invisibility
-
-**At will:**
-
-- detect thoughts (DC 16), suggestion (DC 17)
-
-**Per day:**
-
-- 3/day: crushing despair (DC 18)
-- 1/day: charm monster (DC 18), deep slumber (DC 17), dominate person (DC 19), status (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 21, Int 13, Wis 18, Cha 19
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12 (+14 disarm)
-
-**Combat maneuver defense:** 24 (26 vs. disarm)
-
-**Feats:** Agile Maneuvers, Combat Expertise, Improved Disarm, Improved Initiative, Weapon Finesse,
-Weapon Focus (tentacle)
-
-**Skills:** Bluff +15, Fly +25, Perception +18, Sense Motive +15, Use Magic Device +15
-
-**Languages:** Aklo; _absorb language,_ [telepathy](ref/umr/telepathy) 200 ft.
-
-**Ecology**
-
-**Environment:** any ([Ethereal plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or invasion (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or invasion (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,81 +31,63 @@ abilities = ["20", "13", "20", "-", "11", "3"]
 _This bright orange creature has seven arms radiating from its core and is covered with thick,
 ridged hide._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 4,800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 104 (11d8+55)
+Fort: +12
+Ref: +4
+Will: +3
+Defensive abilities: slow regeneration
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: 3 slams +12 (1d8+5 plus [grab](ref/umr/grab)), stomach +12 (1d6+5 plus grab)
+Reach: 10
+Reach P: 20 ft. with stomach
+Space: 10
+Spec Att: firm grip, stomach
+Swallow: 2d6+7 bludgeoning, AC 15, 10 hp
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 20, Dex 13, Con 20, Int -, Wis 11, Cha 3
+Base attack bonus: +8
+Combat maneuver bonus: +14 (+22 grapple)
+Combat maneuver defense: 25 (can't be tripped)
+Skills: Climb +13
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +12
-
-**Ref:** +4
-
-**Will:** +3
-
-**Defensive abilities:** slow regeneration
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** 3 slams +12 (1d8+5 plus [grab](ref/umr/grab)), stomach +12 (1d6+5 plus grab)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with stomach
-
-**Space:** 10
-
-**Spec Att:** firm grip, stomach
-
-**Swallow:** 2d6+7 bludgeoning, AC 15, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 20, Int -, Wis 11, Cha 3
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14 (+22 grapple)
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Skills:** Climb +13
-
-**Ecology**
-
-**Environment:** any coastlines or oceans
-
-**Organization:** solitary, pair, or cluster (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any coastlines or oceans
+Organization: solitary, pair, or cluster (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

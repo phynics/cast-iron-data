@@ -29,77 +29,61 @@ abilities = ["17", "12", "18", "2", "11", "9"]
 
 _Multiple angry snake-like heads rise from the sleek, serpentine body of this terrifying monster._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Size: huge
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 14
+AC modifiers: +1 Dex, +6 natural, -2 size
+Hit points: 47 (5d10+20)
+Fort: +8
+Ref: +7
+Will: +3
+Fh: 5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Melee: 5 bites +6 (1d8+3)
+Pounce: present
+Reach: 10
+Space: 15
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 12, Con 18, Int 2, Wis 11, Cha 9
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Combat Reflexes, Iron Will, Lightning Reflexes
+Skills: Perception +10, Swim +11
+Racial Modifiers: +2 Perception
+Special qualities: hydra traits, regenerate head
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +6 natural, -2 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Fh:** 5
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Melee:** 5 bites +6 (1d8+3)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 18, Int 2, Wis 11, Cha 9
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Combat Reflexes, Iron Will, Lightning Reflexes
-
-**Skills:** Perception +10, Swim +11
-
-**Racial Modifiers:** +2 Perception
-
-**Special qualities:** hydra traits, regenerate head
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate marshes
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

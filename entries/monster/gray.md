@@ -30,94 +30,73 @@ abilities = ["9", "16", "15", "18", "14", "17"]
 
 _This gray-skinned humanoid has long, willowy limbs and a bulbous head with oversized black eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: humanoid
+Initiative: +3
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 30 ft.
+Size: small
+Subtype: Gray
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +4
+Will: +9
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft.
+Melee: touch +2 (sensory overload)
+Spec Att: probe, sleep paralysis (DC 16)
+:::
 
-**Senses:** Darkvision 30 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9
+Constant: blink
+:::
 
-**Size:** small
+::: statblock
+title = "Psychic Magic"
+Caster level: 5
+Concentration: +9
+Power points: 7
+Psychoactive powers: anticipate thoughts, 2 PE, DC 16, mind thrust II, 2 PE, DC 16, sleep, 1 PE, DC 15
+:::
 
-**Subtype:** Gray
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 9, Dex 16, Con 15, Int 18, Wis 14, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Combat Casting, Improved Iron Will, Iron Will
+Skills: Heal +8, Knowledge (any one) +10, Knowledge (arcana) +7, Perception +8, Sense Motive +8, Spellcraft +10
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** touch +2 (sensory overload)
-
-**Spec Att:** probe, sleep paralysis (DC 16)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Constant:**
-
-- blink
-
-**Psychic Magic**
-
-**Caster level:** 5
-
-**Concentration:** +9
-
-**Power points:** 7
-
-**Psychoactive powers:**
-
-- anticipate thoughts, 2 PE, DC 16, mind thrust II, 2 PE, DC 16, sleep, 1 PE, DC 15
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 16, Con 15, Int 18, Wis 14, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Combat Casting, Improved Iron Will, Iron Will
-
-**Skills:** Heal +8, Knowledge (any one) +10, Knowledge (arcana) +7, Perception +8, Sense Motive +8,
-Spellcraft +10
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or invasion (6-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or invasion (6-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

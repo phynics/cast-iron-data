@@ -33,119 +33,74 @@ abilities = ["40", "23", "40", "26", "24", "29"]
 _This towering, burning demon wears black, spiky armor and carries two weapons - a jagged sword and
 a whip of flames._
 
-**Challenge rating:** 25
-
 **Male balor lord [fighter](ref/class/fighter) 5**
 
-**aura:** flaming body, unholy aura (DC 27)
+::: statblock
+Challenge rating: 25
+aura: flaming body, unholy aura (DC 27)
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: outsider
+Perception: +43
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 1,638,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 44
+Touch: 17
+Flat-footed: 40
+AC modifiers: +11 armor, +4 deflection, +4 Dex, +16 natural, -1 size
+Hit points: 542 (25d10+405\~25)
+Fort: +35
+Ref: +19
+Will: +24 (+1 vs. fear)
+Defensive abilities: bravery +1
+Dr: 15/epic, cold iron, and good
+Immune: electricity, fire, poison
+Resist: acid 10, cold 10
+Sr: 31
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+Melee: +5 [vorpal](ref/magic-enh/vorpal) good outsider-bane flaming burst unholy longsword +44/+39/+34/+29 (2d6+23/19-20 plus 1d6 fire), +5 vorpal good outsider-bane flaming burst unholy whip +42/+37/+32 (1d4+12 plus 1d6 fire and entangle)
+Ranged: +5 unholy good outsider-bane flaming burst composite longbow +35/+30/+25/+20 (2d6+20/×3)
+Reach: 10
+Reach P: 20 ft. with whip
+Space: 10
+Spec Att: Abyssal rift, angelslayer, weapon training (heavy blades +1)
+:::
 
-**Perception:** +43
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: true seeing, unholy aura (DC 27)
+At will: dominate monster (DC 28), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, power word stun, telekinesis (DC 24)
+Per day: 3/day: quickened telekinesis (DC 24)\
+1/day: blasphemy (DC 26), fire storm (DC 27), implosion (DC 28), summon (level 9, any one CR 19 or lower demon 100%)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 1,638,400
-
-**Armor class:** 44
-
-**Touch:** 17
-
-**Flat-footed:** 40
-
-**AC modifiers:** +11 armor, +4 deflection, +4 Dex, +16 natural, -1 size
-
-**Hit points:** 542 (25d10+405\~25)
-
-**Fort:** +35
-
-**Ref:** +19
-
-**Will:** +24 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Dr:** 15/epic, cold iron, and good
-
-**Immune:** electricity, fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**Melee:** +5 [vorpal](ref/magic-enh/vorpal) good outsider-bane flaming burst unholy longsword
-+44/+39/+34/+29 (2d6+23/19-20 plus 1d6 fire), +5 vorpal good outsider-bane flaming burst unholy whip
-+42/+37/+32 (1d4+12 plus 1d6 fire and entangle)
-
-**Ranged:** +5 unholy good outsider-bane flaming burst composite longbow +35/+30/+25/+20 (2d6+20/×3)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with whip
-
-**Space:** 10
-
-**Spec Att:** Abyssal rift, angelslayer, weapon training (heavy blades +1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- true seeing, unholy aura (DC 27)
-
-**At will:**
-
-- dominate monster (DC 28), greater dispel magic, greater teleport, self plus 50 lbs. of objects
-  only, power word stun, telekinesis (DC 24)
-
-**Per day:**
-
-- 3/day: quickened telekinesis (DC 24)
-- 1/day: blasphemy (DC 26), fire storm (DC 27), implosion (DC 28), summon (level 9, any one CR 19 or
-  lower demon 100%)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 23, Con 40, Int 26, Wis 24, Cha 29
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 61
-
-**Feats:** Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Greater Two-Weapon
-Fighting, Improved Two-Weapon Fighting, Improved Vital Strike, Lightning Reflexes, Master Craftsman,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Staggering
-Critical, Toughness, Two-Weapon Fighting, Vital Strike, Weapon Focus (longsword), Weapon
-Specialization (longsword)
-
-**Skills:** Acrobatics +32 (+36 when jumping), Bluff +37, Craft (weaponsmith) +38, Diplomacy +37,
-Sense Motive +35, Stealth +28, Use Magic Device +37
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** armor training 1, death throes, vorpal strike, whip mastery
-
-**Gear:** +5 MA AS HF breastplate, +3 BANE-good-outsider flaming burst unholy longsword, +4
-BANE-good-outsider flaming burst unholy whip, +5 BANE-good-outsider flaming burst unholy cl, 20
-MWgslay-good-outsider, 10 MWgslay-human, 30 MC arrows, I-efficient quiver, ring of fom, ring of st
+::: statblock
+Ability scores: Str 40, Dex 23, Con 40, Int 26, Wis 24, Cha 29
+Base attack bonus: +25
+Combat maneuver bonus: +41
+Combat maneuver defense: 61
+Feats: Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Greater Two-Weapon Fighting, Improved Two-Weapon Fighting, Improved Vital Strike, Lightning Reflexes, Master Craftsman, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Staggering Critical, Toughness, Two-Weapon Fighting, Vital Strike, Weapon Focus (longsword), Weapon Specialization (longsword)
+Skills: Acrobatics +32 (+36 when jumping), Bluff +37, Craft (weaponsmith) +38, Diplomacy +37, Sense Motive +35, Stealth +28, Use Magic Device +37
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: armor training 1, death throes, vorpal strike, whip mastery
+Gear: +5 MA AS HF breastplate, +3 BANE-good-outsider flaming burst unholy longsword, +4 BANE-good-outsider flaming burst unholy whip, +5 BANE-good-outsider flaming burst unholy cl, 20 MWgslay-good-outsider, 10 MWgslay-human, 30 MC arrows, I-efficient quiver, ring of fom, ring of st
+:::
 
 ### Special Abilities
 

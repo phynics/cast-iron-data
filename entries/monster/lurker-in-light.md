@@ -34,93 +34,70 @@ abilities = ["13", "18", "15", "14", "16", "17"]
 _This large-eyed humanoid looks like a glowing, emaciated elven child save for its small,
 transparent wings._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: fey
+Initiative: +8
+Alignment: Neutral evil
+Perception: +16
+Senses: Low-light vision
+Size: small
+Subtype: Extraplanar
+Experience points: 1,600
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 Dex, +3 natural, +1 size
+Hit points: 44 (8d6+16)
+Fort: +4
+Ref: +10
+Will: +9
+Defensive abilities: blend with light
+Dr: 5/cold iron
+Immune: blindness
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+Melee: 2 claws +9 (1d3+1) or dagger +9 (1d3+1/19-20 plus poison)
+Sneak: +3d6
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+At will: dancing lights, flare (DC 13), ghost sound (DC 13), light, mage hand
+Per day: 3/day: daylight, blindness/deafness (DC 16)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 13, Dex 18, Con 15, Int 14, Wis 16, Cha 17
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 18
+Feats: Alertness, Flyby Attack, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +15, Escape Artist +15, Fly +17, Knowledge (arcana) +10, Perception +16
+Languages: Aklo, Common, Sylvan
+Special qualities: daylight door, [poison use](ref/ability/poison-use), ritual gate
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +3 natural, +1 size
-
-**Hit points:** 44 (8d6+16)
-
-**Fort:** +4
-
-**Ref:** +10
-
-**Will:** +9
-
-**Defensive abilities:** blend with light
-
-**Dr:** 5/cold iron
-
-**Immune:** blindness
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**Melee:** 2 claws +9 (1d3+1) or dagger +9 (1d3+1/19-20 plus poison)
-
-**Sneak:** +3d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**At will:**
-
-- dancing lights, flare (DC 13), ghost sound (DC 13), light, mage hand
-
-**Per day:**
-
-- 3/day: daylight, blindness/deafness (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 18, Con 15, Int 14, Wis 16, Cha 17
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative, Weapon Finesse
-
-**Skills:** Acrobatics +15, Escape Artist +15, Fly +17, Knowledge (arcana) +10, Perception +16
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** daylight door, [poison use](ref/ability/poison-use), ritual gate
-
-**Ecology**
-
-**Environment:** any land (extraplanar)
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard (dagger); other treasure
+::: statblock
+Environment: any land (extraplanar)
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard (dagger); other treasure
+:::
 
 ### Special Abilities
 

@@ -30,69 +30,57 @@ abilities = ["1", "15", "6", "2", "15", "6"]
 
 _This squat, black-and-white bird has a bright red-and-black beak._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +4
+Will: +2
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 30 ft., fly 30 ft. (average)
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 15, Con 6, Int 2, Wis 15, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 3
+Feats: Skill Focus (Swim)
+Skills: Fly +8
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft., fly 30 ft. (average)
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 6, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 3
-
-**Feats:** Skill Focus (Swim)
-
-**Skills:** Fly +8
-
-**Ecology**
-
-**Environment:** cold coastlines
-
-**Organization:** solitary, pair, or colony (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines
+Organization: solitary, pair, or colony (3-20)
+Treasure: None
+:::
 
 ### Description
 

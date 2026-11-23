@@ -30,105 +30,74 @@ abilities = ["20", "7", "-", "13", "16", "17"]
 
 _Carved from gray stone, this enormous figure is shaped like the head of some primordial giant._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Size: huge
+Initiative: -2
+Alignment: Neutral
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 6
+Flat-footed: 20
+AC modifiers: -2 Dex, +14 natural, -2 size
+Hit points: 95 (10d10+40)
+Fort: +3
+Ref: +1
+Will: +6
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Initiative:** -2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 0 ft., fly 10 ft. (perfect)
+Melee: slam +13 (2d8+7/19-20)
+Reach: 5
+Space: 15
+Spec Att: charming gaze
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+At will: detect thoughts (DC 15), obscuring mist, sound burst (DC 15)
+Per day: 3/day: calm emotions (DC 15), crushing despair (DC 17), good hope, empowered sound burst (DC 15), stone shape, thundering drums (DC 16)\
+1/day: arcane concordance, fear (DC 17), witness (DC 16)
+Per week: dream, nightmare (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 20, Dex 7, Con -, Int 13, Wis 16, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (sound burst), Hover, Improved Critical (slam), Skill Focus (Intimidate), Skill Focus (Perception)
+Skills: Fly +2, Intimidate +12, Knowledge (history) +10, Perception +19, Sense Motive +8, Spellcraft +6
+Racial Modifiers: +4 Knowledge (history), +4 Knowledge (religion)
+Languages: Common, Giant
+Special qualities: preserved mind, silent watcher, statue
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 6
-
-**Flat-footed:** 20
-
-**AC modifiers:** -2 Dex, +14 natural, -2 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +6
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 0 ft., fly 10 ft. (perfect)
-
-**Melee:** slam +13 (2d8+7/19-20)
-
-**Reach:** 5
-
-**Space:** 15
-
-**Spec Att:** charming gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**At will:**
-
-- detect thoughts (DC 15), obscuring mist, sound burst (DC 15)
-
-**Per day:**
-
-- 3/day: calm emotions (DC 15), crushing despair (DC 17), good hope, empowered sound burst (DC 15),
-  stone shape, thundering drums (DC 16)
-- 1/day: arcane concordance, fear (DC 17), witness (DC 16)
-
-**Per week:**
-
-- dream, nightmare (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 7, Con -, Int 13, Wis 16, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (sound burst), Hover, Improved
-Critical (slam), Skill Focus (Intimidate), Skill Focus (Perception)
-
-**Skills:** Fly +2, Intimidate +12, Knowledge (history) +10, Perception +19, Sense Motive +8,
-Spellcraft +6
-
-**Racial Modifiers:** +4 Knowledge (history), +4 Knowledge (religion)
-
-**Languages:** Common, Giant
-
-**Special qualities:** preserved mind, silent watcher, statue
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental; offerings, 2 eye gems worth 500 gp each
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental; offerings, 2 eye gems worth 500 gp each
+:::
 
 ### Special Abilities
 

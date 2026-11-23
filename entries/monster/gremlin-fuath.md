@@ -31,106 +31,78 @@ abilities = ["7", "13", "12", "10", "13", "8"]
 
 _This waterlogged gremlin has lobster claws for hands and an almost canine face with webbed ears._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Perception: +5
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 7 (1d6+4)
+Fort: +1
+Ref: +3
+Will: +3
+Dr: 5/cold iron
+Resist: cold 10
+Sr: 12
+Vulner: fire
+Weaknesses: vulnerable to sunlight
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 10 ft., swim 30 ft.
+Melee: 2 claws +3 (1d3-2)
+Ranged: dart +3 (1d2-2)
+Spec Att: congeal water
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +0
+At will: create water, prestidigitation
+Per day: 1/day: sleep (DC 10)
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 7 (1d6+4)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +3
-
-**Dr:** 5/cold iron
-
-**Resist:** cold 10
-
-**Sr:** 12
-
-**Vulner:** fire
-
-**Weaknesses:** vulnerable to sunlight
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft., swim 30 ft.
-
-**Melee:** 2 claws +3 (1d3-2)
-
-**Ranged:** dart +3 (1d2-2)
-
-**Spec Att:** congeal water
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +0
-
-**At will:**
-
-- create water, prestidigitation
-
-**Per day:**
-
-- 1/day: sleep (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 13, Con 12, Int 10, Wis 13, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 7
-
-**Feats:** Improved Initiative, Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Climb +9, Use Magic Device +3
-
-**Racial Modifiers:** +4 Handle Animal
-
-**Languages:** Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 7, Dex 13, Con 12, Int 10, Wis 13, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 7
+Feats: Improved Initiative, Toughness^B^, Weapon Finesse^B^
+Skills: Climb +9, Use Magic Device +3
+Racial Modifiers: +4 Handle Animal
+Languages: Aquan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any water
-
-**Organization:** solitary, pair, mob (3-12), or school (13-20 with 1-3 druids of 1st-3rd level, 1
-druid leader of 4th-6th level, and 2-5 [reefclaws](ref/monster/reefclaw))
-
-**Treasure:** Standard (6 dart); other treasure
+::: statblock
+Environment: any water
+Organization: solitary, pair, mob (3-12), or school (13-20 with 1-3 druids of 1st-3rd level, 1 druid leader of 4th-6th level, and 2-5 [reefclaws](ref/monster/reefclaw))
+Treasure: Standard (6 dart); other treasure
+:::
 
 ### Special Abilities
 

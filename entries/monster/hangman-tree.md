@@ -30,87 +30,66 @@ abilities = ["25", "8", "23", "7", "12", "10"]
 _This sinister tree looms above a field strewn with bones. Numerous leafy vines, their tips looped
 into nooses, hang from its branches._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 60
+Size: huge
+Initiative: +3
+Alignment: Neutral evil
+Perception: +11
+Type: plant
+Experience points: 3,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 7
+Flat-footed: 20
+AC modifiers: -1 Dex, +13 natural, -2 size
+Hit points: 84 (8d8+48)
+Fort: +12
+Ref: +3
+Will: +5
+Immune: [plant traits](ref/umr/plant-traits)
+Sr: 18
+Vulner: electricity
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 10 ft.
+Constrict: 1d6+7
+Melee: 3 vines +11 (1d6+7 plus [grab](ref/umr/grab) and pull)
+Pull: vine, 5 feet
+Reach: 15
+Space: 15
+Spec Att: hallucinatory spores, vines
+Strangle: present
+Swallow: 2d6+7 bludgeoning damage, AC 16, 8 hp
+:::
 
-**Perception:** +11
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 25, Dex 8, Con 23, Int 7, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 24
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
+Skills: Perception +11, Stealth -2
+Languages: Sylvan
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 7
-
-**Flat-footed:** 20
-
-**AC modifiers:** -1 Dex, +13 natural, -2 size
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +5
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Sr:** 18
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d6+7
-
-**Melee:** 3 vines +11 (1d6+7 plus [grab](ref/umr/grab) and pull)
-
-**Pull:** vine, 5 feet
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** hallucinatory spores, vines
-
-**Strangle:** present
-
-**Swallow:** 2d6+7 bludgeoning damage, AC 16, 8 hp
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 8, Con 23, Int 7, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 24
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Perception +11, Stealth -2
-
-**Languages:** Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

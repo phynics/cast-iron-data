@@ -34,103 +34,77 @@ abilities = ["8", "13", "16", "8", "12", "17"]
 _The humanoid creature's taut green shell extends like a cowl from chin to brow, wreathing a face of
 brilliant flower petals._
 
-**Challenge rating:** 1
-
 **Ghoran [bard](ref/class/bard) 1**
 
-**Initiative:** +1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Type: plant
+Experience points: 400
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 12 (1d8+4)
+Fort: +3
+Ref: +3
+Will: +3
+Immune: [plant traits](ref/umr/plant-traits)
+Weaknesses: delicious, light dependent
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft.
+Melee: rapier +1 (1d6-1/18-20)
+Spec Att: bardic performance 7 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire courage](ref/performance/inspire-courage) +1)
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 1/day: detect poison, goodberry, purify food and drink
+:::
 
-**Experience points:** 400
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 2/day: charm person (DC 14), sleep (DC 14)
+Cantrips: At will: daze (DC 13), light, mending, message
+:::
 
-**Armor class:** 13
+### Statistics
 
-**Touch:** 11
+::: statblock
+Ability scores: Str 8, Dex 13, Con 16, Int 8, Wis 12, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 10
+Feats: Weapon Finesse
+Skills: Bluff +7, Knowledge (history) +4, Perception +5, Perform (sing) +7
+Languages: Common, Sylvan
+Special qualities: bardic knowledge +1, ghorus seed, past-life knowledge
+:::
 
-**Flat-footed:** 12
+### Ecology
 
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 12 (1d8+4)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +3
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** delicious, light dependent
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** rapier +1 (1d6-1/18-20)
-
-**Spec Att:** bardic performance 7 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate),
-[inspire courage](ref/performance/inspire-courage) +1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 1/day: detect poison, goodberry, purify food and drink
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 2/day: charm person (DC 14), sleep (DC 14)
-
-**Cantrips:**
-
-- At will: daze (DC 13), light, mending, message
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 16, Int 8, Wis 12, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 10
-
-**Feats:** Weapon Finesse
-
-**Skills:** Bluff +7, Knowledge (history) +4, Perception +5, Perform (sing) +7
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** bardic knowledge +1, ghorus seed, past-life knowledge
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or plot (3-12)
-
-**Treasure:** NPC gear (rapier); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or plot (3-12)
+Treasure: NPC gear (rapier); other treasure
+:::
 
 ### Special Abilities
 

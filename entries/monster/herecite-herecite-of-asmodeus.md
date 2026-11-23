@@ -34,105 +34,74 @@ abilities = ["22", "19", "-", "14", "9", "21"]
 _A palpable sense of despair clings to the rotting frame of this decaying man. Tears of blood run
 from his eye sockets, yet his expression is one of unquenched rage._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: desecration (30 ft.)
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +20
+Senses: Darkvision 60 ft., Detect good, See invisibility
+Type: undead
+Experience points: 6,400
+:::
 
-**aura:** desecration (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 24
+Touch: 19
+Flat-footed: 20
+AC modifiers: +4 Dex, +5 natural, +5 profane
+Hit points: 138 (12d8+84)
+Fort: +11
+Ref: +10
+Will: +11
+Chan Res: +6
+Defensive abilities: profane insight
+Dr: 10/good
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 20 (24 vs. divine spells)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: +2 [unholy](ref/magic-enh/unholy) heavy mace +19/+14 (1d8+10/19-20 plus faith-stealing strike), slam +12 (1d8+5 plus faith-stealing strike) or 2 slams +17 (1d8+8 plus faith-stealing strike)
+Spec Att: faith-stealing strike
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: detect good, see invisibility
+At will: burning hands (DC 16), disguise self
+Per day: 3/day: invisibility, produce flame, unholy blight (DC 19)\
+1/day: confusion (DC 19), fireball (DC 18), nondetection, wall of fire
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, See invisibility
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 22, Dex 19, Con -, Int 14, Wis 9, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 34
+Feats: Combat Casting, Improved Initiative, Improved Iron Will, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Bluff +17, Intimidate +20, Knowledge (planes) +14, Perception +20, Sense Motive +14
+Languages: Common, Infernal
+Special qualities: cabal, herecite domains (Fire, Trickery), profane insight, unleash heresy
+:::
 
-**Experience points:** 6,400
+### Ecology {#stat-ecology}
 
-**Armor class:** 24
-
-**Touch:** 19
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +5 natural, +5 profane
-
-**Hit points:** 138 (12d8+84)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +11
-
-**Chan Res:** +6
-
-**Defensive abilities:** profane insight
-
-**Dr:** 10/good
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 20 (24 vs. divine spells)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +2 [unholy](ref/magic-enh/unholy) heavy mace +19/+14 (1d8+10/19-20 plus faith-stealing
-strike), slam +12 (1d8+5 plus faith-stealing strike) or 2 slams +17 (1d8+8 plus faith-stealing
-strike)
-
-**Spec Att:** faith-stealing strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect good, see invisibility
-
-**At will:**
-
-- burning hands (DC 16), disguise self
-
-**Per day:**
-
-- 3/day: invisibility, produce flame, unholy blight (DC 19)
-- 1/day: confusion (DC 19), fireball (DC 18), nondetection, wall of fire
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con -, Int 14, Wis 9, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Casting, Improved Initiative, Improved Iron Will, Iron Will, Power Attack, Skill
-Focus (Perception)
-
-**Skills:** Bluff +17, Intimidate +20, Knowledge (planes) +14, Perception +20, Sense Motive +14
-
-**Languages:** Common, Infernal
-
-**Special qualities:** cabal, herecite domains (Fire, Trickery), profane insight, unleash heresy
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or cabal (2-5)
-
-**Treasure:** Double (+2 heavy mace); other treasure
+::: statblock
+Environment: any
+Organization: solitary or cabal (2-5)
+Treasure: Double (+2 heavy mace); other treasure
+:::
 
 ### Special Abilities
 

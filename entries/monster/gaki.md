@@ -30,101 +30,73 @@ abilities = ["16", "15", "-", "9", "12", "18"]
 _This skeletal creature with a long, thin neck seems to float above the ground. Its jaw is
 elongated, showing sharp, worn teeth._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Detect evil
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +2 Dex, +1 dodge, +7 natural
+Hit points: 74 (9d8+32)
+Fort: +5
+Ref: +7
+Will: +9
+Immune: [undead traits](ref/umr/undead-traits)
+Vulner: cold and fire
+Weaknesses: aversion to sun and moon, compulsive hunger
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+B Drain: 1d2 Constitution
+Melee: 2 claws +9 (2d6+3), bite +9 (2d6+3 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+Spec Att: fear cone (30 ft., DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+Constant: detect evil
+At will: invisibility
+Per day: 1/day: disguise self
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 16, Dex 15, Con -, Int 9, Wis 12, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Intimidate +14, Perception +13, Stealth +14
+Languages: Common
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +1 dodge, +7 natural
-
-**Hit points:** 74 (9d8+32)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +9
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Vulner:** cold and fire
-
-**Weaknesses:** aversion to sun and moon, compulsive hunger
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** 2 claws +9 (2d6+3), bite +9 (2d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** fear cone (30 ft., DC 16)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**Constant:**
-
-- detect evil
-
-**At will:**
-
-- invisibility
-
-**Per day:**
-
-- 1/day: disguise self
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con -, Int 9, Wis 12, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes
-
-**Skills:** Intimidate +14, Perception +13, Stealth +14
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-4)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

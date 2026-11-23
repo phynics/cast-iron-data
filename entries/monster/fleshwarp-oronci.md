@@ -30,81 +30,63 @@ abilities = ["23", "17", "18", "7", "10", "16"]
 _A cruel face and orc features dominate this creature's upper half, while its lower quarters bear
 the sinewy shape of a centipede._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Perception: +5
+Senses: Darkvision 120 ft.
+tremorsense: 60
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +6 natural, +2 shield, -1 size
+Hit points: 59 (7d8+28)
+Fort: +6
+Ref: +5
+Will: +5
+Ferocity: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: mwk battleaxe +11 (1d8+6/×3), bite +10 (1d6+9 plus poison)
+Ranged: mwk longbow +8 (1d8/×3)
+Reach: 5
+Space: 10
+Spec Att: frenzy, spit
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 23, Dex 17, Con 18, Int 7, Wis 10, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +12 (+14 overrun)
+Combat maneuver defense: 25 (27 vs. overrun)
+Feats: Acrobatic Steps, Improved Overrun, Nimble Moves, Power Attack
+Skills: Acrobatics +8 (+12 when jumping), Climb +16
+Languages: Orc
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +6 natural, +2 shield, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +5
-
-**Ferocity:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** mwk battleaxe +11 (1d8+6/×3), bite +10 (1d6+9 plus poison)
-
-**Ranged:** mwk longbow +8 (1d8/×3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** frenzy, spit
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 17, Con 18, Int 7, Wis 10, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12 (+14 overrun)
-
-**Combat maneuver defense:** 25 (27 vs. overrun)
-
-**Feats:** Acrobatic Steps, Improved Overrun, Nimble Moves, Power Attack
-
-**Skills:** Acrobatics +8 (+12 when jumping), Climb +16
-
-**Languages:** Orc
-
-**Ecology**
-
-**Environment:** any underground (Darklands)
-
-**Organization:** solitary, pair, or nest (3-9)
-
-**Treasure:** Standard (heavy wooden shield, mwk battleaxe)
+::: statblock
+Environment: any underground (Darklands)
+Organization: solitary, pair, or nest (3-9)
+Treasure: Standard (heavy wooden shield, mwk battleaxe)
+:::
 
 ### Special Abilities
 

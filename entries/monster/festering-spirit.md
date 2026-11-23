@@ -31,81 +31,63 @@ abilities = ["-", "20", "-", "6", "12", "15"]
 
 _This ghost-like creature reeks of the grave and drips with putrescent goo._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: [stench](ref/umr/stench) (DC 14, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +9
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 14, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 12
+AC modifiers: +2 deflection, +5 Dex, +1 dodge
+Hit points: 58 (9d8+18)
+Fort: +5
+Ref: +8
+Will: +7
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 40 ft. (good)
+Melee: incorporeal touch +11 (1d4 [Con damage](ref/rule/ability-damage-drain) plus slime)
+Spec Att: create spawn, slime
+Trample: 1 Con plus slime, DC 16
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 20, Con -, Int 6, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility
+Skills: Fly +9, Perception +13, Stealth +17
+Special qualities: ghost touch
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 58 (9d8+18)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Melee:** incorporeal touch +11 (1d4 [Con damage](ref/rule/ability-damage-drain) plus slime)
-
-**Spec Att:** create spawn, slime
-
-**Trample:** 1 Con plus slime, DC 16
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con -, Int 6, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility
-
-**Skills:** Fly +9, Perception +13, Stealth +17
-
-**Special qualities:** ghost touch
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or gang (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

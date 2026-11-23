@@ -33,71 +33,58 @@ abilities = ["20", "13", "15", "6", "12", "15"]
 _This half-bodied monstrosity with a toothy mouth and stringy hair hops about on its single leg with
 unusual grace._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+aura: fear (30 ft., DC 15)
+Initiative: +1
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** fear (30 ft., DC 15)
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +1 Dex, +3 dodge, +4 natural
+Hit points: 45 (7d8+14)
+Fort: +4
+Ref: +3
+Will: +8
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +10 (1d8+5/×3), bite +5 (1d6+2)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 20, Dex 13, Con 15, Int 6, Wis 12, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 24 (28 vs. trip)
+Feats: Acrobatic, Cleave, Iron Will, Power Attack
+Skills: Acrobatics +13, Perception +9, Stealth +6
+Languages: Common
+Special qualities: incredible balance
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +3 dodge, +4 natural
-
-**Hit points:** 45 (7d8+14)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** battleaxe +10 (1d8+5/×3), bite +5 (1d6+2)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 15, Int 6, Wis 12, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24 (28 vs. trip)
-
-**Feats:** Acrobatic, Cleave, Iron Will, Power Attack
-
-**Skills:** Acrobatics +13, Perception +9, Stealth +6
-
-**Languages:** Common
-
-**Special qualities:** incredible balance
-
-**Ecology**
-
-**Environment:** temperate hills or plains
-
-**Organization:** solitary
-
-**Treasure:** Standard (battleaxe); other treasure
+::: statblock
+Environment: temperate hills or plains
+Organization: solitary
+Treasure: Standard (battleaxe); other treasure
+:::
 
 ### Special Abilities
 

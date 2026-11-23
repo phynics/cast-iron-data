@@ -30,99 +30,73 @@ special_qualities = "favored terrain (cold +2), hunter's bond (companions), trac
 abilities = ["31", "16", "22", "14", "16", "8"]
 +++
 
-**Challenge rating:** 13
-
 **[Frost giant](ref/monster/giant-frost-frost-giant) [ranger](ref/class/ranger) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +30
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 25,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 26
+AC modifiers: +6 armor, +1 deflection, +3 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 197 (14d8+4d10+112\~18)
+Fort: +19
+Ref: +11
+Will: +10
+Rock Ct: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +30
+::: statblock
+Speed: 40 ft.
+Fav En: humans +2
+Melee: +1 spear +24/+19/+14 (2d6+16/×3)
+Ranged: rock +16 (1d8+15)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: combat style (archery)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +4
+1st-level spells: longstrider
+:::
 
-**Subtype:** Cold, Giant
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 31, Dex 16, Con 22, Int 14, Wis 16, Cha 8
+Base attack bonus: +14
+Combat maneuver bonus: +25
+Combat maneuver defense: 40
+Feats: Dodge, Endurance, Iron Will, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Skill Focus (Perception), Skill Focus (Stealth), Spring Attack
+Skills: Acrobatics +11 (+15 when jumping), Climb +21, Handle Animal +11, Knowledge (local) +9, Perception +30
+Languages: Common, Giant
+Special qualities: [favored terrain](ref/ability/favored-terrain) (cold +2), hunter's bond (companions), track +2, [wild empathy](ref/ability/wild-empathy) +3
+Gear: +2 chain shirt, +1 spear, Iamu1, Ibopm2dc, I-boots of the winterlands, ring of prot1, 3,773 gp
+:::
 
-**Armor class:** 30
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 armor, +1 deflection, +3 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 197 (14d8+4d10+112\~18)
-
-**Fort:** +19
-
-**Ref:** +11
-
-**Will:** +10
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Fav En:** humans +2
-
-**Melee:** +1 spear +24/+19/+14 (2d6+16/×3)
-
-**Ranged:** rock +16 (1d8+15)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** combat style (archery)
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- longstrider
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 16, Con 22, Int 14, Wis 16, Cha 8
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 40
-
-**Feats:** Dodge, Endurance, Iron Will, Mobility, Point-Blank Shot, Power Attack, Precise Shot,
-Quick Draw, Skill Focus (Perception), Skill Focus (Stealth), Spring Attack
-
-**Skills:** Acrobatics +11 (+15 when jumping), Climb +21, Handle Animal +11, Knowledge (local) +9,
-Perception +30
-
-**Languages:** Common, Giant
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (cold +2), hunter's bond
-(companions), track +2, [wild empathy](ref/ability/wild-empathy) +3
-
-**Gear:** +2 chain shirt, +1 spear, Iamu1, Ibopm2dc, I-boots of the winterlands, ring of prot1,
-3,773 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

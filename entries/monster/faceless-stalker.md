@@ -33,95 +33,71 @@ abilities = ["18", "17", "18", "13", "15", "16"]
 _This hairless, leathery biped has a face dominated by grotesque and unsettling whorls and slits
 instead of actual features._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 42 (5d8+20)
+Fort: +5
+Ref: +4
+Will: +6
+Dr: 5/piercing or slashing
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+B Drain: 1 Constitution
+Melee: mwk longsword +8 (1d8+4/19-20), slam +2 (1d6+2 plus [grab](ref/umr/grab))
+Reach: 10
+Sneak: +2d6
+Space: 5
+:::
 
-**Perception:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Constant: tongues
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 18, Dex 17, Con 18, Int 13, Wis 15, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Deceitful, Improved Initiative
+Skills: Bluff +10, Disguise +14 (+24 when using change shape), Escape Artist +19, Sleight of Hand +8, Stealth +11
+Racial Modifiers: +4 Disguise, +8 Escape Artist
+Languages: Aquan, Common; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self)), [compression](ref/umr/compression), faceless
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +6
-
-**Dr:** 5/piercing or slashing
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1 Constitution
-
-**Melee:** mwk longsword +8 (1d8+4/19-20), slam +2 (1d6+2 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Sneak:** +2d6
-
-**Space:** 5
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Constant:**
-
-- tongues
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 18, Int 13, Wis 15, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Deceitful, Improved Initiative
-
-**Skills:** Bluff +10, Disguise +14 (+24 when using change shape), Escape Artist +19, Sleight of
-Hand +8, Stealth +11
-
-**Racial Modifiers:** +4 Disguise, +8 Escape Artist
-
-**Languages:** Aquan, Common; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self)), [compression](ref/umr/compression), faceless
-
-**Ecology**
-
-**Environment:** any swamps or underground
-
-**Organization:** solitary, pair, or gang (3-9)
-
-**Treasure:** Standard (mwk longsword); other treasure
+::: statblock
+Environment: any swamps or underground
+Organization: solitary, pair, or gang (3-9)
+Treasure: Standard (mwk longsword); other treasure
+:::
 
 ### Special Abilities
 

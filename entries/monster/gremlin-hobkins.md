@@ -29,90 +29,69 @@ abilities = ["8", "15", "12", "13", "12", "15"]
 
 _This small, blue-gray humanoid has glowing eyes and huge ears on its round, oversized head._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: fey
+Initiative: +2
+Alignment: Neutral evil
+Perception: +6
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 9 (2d6+2)
+Fort: +1
+Ref: +5
+Will: +4
+Defensive abilities: out of phase
+Dr: 5/cold iron
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d4-1)
+Sp Extra: minor levitation
+Spec Att: collateral damage
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +4
+At will: dancing lights, ghost sound (DC 12), silent image (DC 13)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 8, Dex 15, Con 12, Int 13, Wis 12, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Feats: Weapon Finesse
+Skills: Acrobatics +7, Bluff +7, Intimidate +11, Knowledge (local) +6, Perception +6, Sense Motive +6, Stealth +11
+Racial Modifiers: +4 Intimidate
+Languages: Aklo, Common
+Special qualities: frightener
+:::
 
-**Armor class:** 13
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 9 (2d6+2)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +4
-
-**Defensive abilities:** out of phase
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d4-1)
-
-**Sp Extra:** minor levitation
-
-**Spec Att:** collateral damage
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**At will:**
-
-- dancing lights, ghost sound (DC 12), silent image (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 12, Int 13, Wis 12, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +7, Bluff +7, Intimidate +11, Knowledge (local) +6, Perception +6, Sense
-Motive +6, Stealth +11
-
-**Racial Modifiers:** +4 Intimidate
-
-**Languages:** Aklo, Common
-
-**Special qualities:** frightener
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, gang (2-5), or infestation (6-30 plus 1 hobkins malefactor)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, gang (2-5), or infestation (6-30 plus 1 hobkins malefactor)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

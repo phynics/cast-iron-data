@@ -34,78 +34,61 @@ abilities = ["15", "14", "19", "20", "16", "17"]
 _This strange being has a star-shaped head and numerous writhing appendages arranged radially around
 its barrel-shaped body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+Initiative: +2
+Alignment: Lawful neutral
+Size: medium
+Perception: +13
+Senses: All-around vision, Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +6 natural
+Hit points: 59 (7d8+28)
+Fort: +8
+Ref: +4
+Will: +8
+Immune: cold
+Resist: fire 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 40 ft., fly 20 ft. (clumsy)
+Constrict: 1d4+2
+Melee: 5 tentacles +7 (1d4+2 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 14, Con 19, Int 20, Wis 16, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Endurance, Great Fortitude
+Skills: Disable Device +9, Fly +4, Heal +10, Use Magic Device +10
+Languages: Elder Thing
+Special qualities: [amphibious](ref/umr/amphibious), hibernation, limited starflight, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +6 natural
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +8
-
-**Immune:** cold
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft., fly 20 ft. (clumsy)
-
-**Constrict:** 1d4+2
-
-**Melee:** 5 tentacles +7 (1d4+2 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 19, Int 20, Wis 16, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Endurance, Great Fortitude
-
-**Skills:** Disable Device +9, Fly +4, Heal +10, Use Magic Device +10
-
-**Languages:** Elder Thing
-
-**Special qualities:** [amphibious](ref/umr/amphibious), hibernation, limited starflight,
-[no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, pod (3-8), or expedition (9-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, pod (3-8), or expedition (9-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

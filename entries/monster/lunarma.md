@@ -31,88 +31,66 @@ abilities = ["16", "12", "19", "5", "12", "10"]
 _This monstrous crab-like creature hovers in midair, its three clawed tentacles snapping
 aggressively._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 76 (9d8+36)
+Fort: +9
+Ref: +4
+Will: +9
+Defensive abilities: barbed carapace
+Immune: cold, poison
+Resist: electricity 5, fire 5
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 0 ft., fly 60 ft. (good)
+Br Weap: 30-ft. line, 2d6 acid damage plus recurring damage, Reflex DC 18 half, usable every 1d4 rounds
+Constrict: 1d8+3
+Melee: 3 claws +9 (1d8+3 plus [grab](ref/umr/grab)), bite +10 (1d6+3)
+Reach: 5
+Reach P: 10 ft. with claws
+Space: 5
+Spec Att: implant eggs
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 16, Dex 12, Con 19, Int 5, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 20
+Feats: Great Fortitude, Hover, Improved Initiative, Iron Will, Weapon Focus (bite)
+Skills: Fly +5, Perception +10, Stealth +7
+Languages: Common (can't speak); [telepathy](ref/umr/telepathy) 120 ft. (other lunarma only)
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +9
-
-**Defensive abilities:** barbed carapace
-
-**Immune:** cold, poison
-
-**Resist:** electricity 5, fire 5
-
-**Offense**
-
-**Speed:** 0 ft., fly 60 ft. (good)
-
-**Br Weap:** 30-ft. line, 2d6 acid damage plus recurring damage, Reflex DC 18 half, usable every 1d4
-rounds
-
-**Constrict:** 1d8+3
-
-**Melee:** 3 claws +9 (1d8+3 plus [grab](ref/umr/grab)), bite +10 (1d6+3)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws
-
-**Space:** 5
-
-**Spec Att:** implant eggs
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 12, Con 19, Int 5, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 20
-
-**Feats:** Great Fortitude, Hover, Improved Initiative, Iron Will, Weapon Focus (bite)
-
-**Skills:** Fly +5, Perception +10, Stealth +7
-
-**Languages:** Common (can't speak); [telepathy](ref/umr/telepathy) 120 ft. (other lunarma only)
-
-**Special qualities:** [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or hive (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or hive (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

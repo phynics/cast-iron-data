@@ -31,107 +31,81 @@ abilities = ["14", "14", "15", "8", "15", "10"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 2
-
 **Hobgoblin [cleric](ref/class/cleric) 2/[fighter](ref/class/fighter) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 2
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 armor, +2 Dex, +1 shield
+Hit points: 25 (2d8+1d10+6\~3)
+Fort: +7
+Ref: +2
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft.
+Ch N En: 3/day, DC 13, 1d6
+Melee: bastard sword +4 (1d10+2/19-20)
+Ranged: light crossbow +4 (1d8/19-20)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +4
+Per day: 5/day: battle rage, +1, strength surge, +1
+:::
 
-**Subtype:** Goblinoid
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 armor, +2 Dex, +1 shield
-
-**Hit points:** 25 (2d8+1d10+6\~3)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 3/day, DC 13, 1d6
-
-**Melee:** bastard sword +4 (1d10+2/19-20)
-
-**Ranged:** light crossbow +4 (1d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**Per day:**
-
-- 5/day: battle rage, +1, strength surge, +1
-
-**Prepared Spells**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- cure light wounds, magic weapon^D^, sanctuary (DC 13), shield of faith
-
-**Cantrips:**
-
-- guidance, light, stabilize, virtue
-
-**Domains:** Strength, [War](ref/domain/war)
+::: statblock
+title = "Prepared Spells"
+Caster level: 2
+Concentration: +4
+1st-level spells: cure light wounds, magic weapon^D^, sanctuary (DC 13), shield of faith
+Cantrips: guidance, light, stabilize, virtue
+Domains: Strength, [War](ref/domain/war)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 14, Dex 14, Con 15, Int 8, Wis 15, Cha 10
+::: statblock
+Ability scores: Str 14, Dex 14, Con 15, Int 8, Wis 15, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Combat Casting, Improved Channel, Power Attack
+Skills: Craft (alchemy) +3, Heal +10, Spellcraft +3, Stealth +5
+Languages: Common, Goblin
+Combat gear: potion of cure moderate wounds, 3 scroll of cause fear, Dcure light wounds/35 charges, 4 alchemist's fire, 2 tanglefoot bags
+Other gear: mwk studded leather armor, buckler, bastard sword, light crossbow with 20 bolts, hk, silver unholy symbol, scp, 228 gp
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Combat Casting, Improved Channel, Power Attack
-
-**Skills:** Craft (alchemy) +3, Heal +10, Spellcraft +3, Stealth +5
-
-**Languages:** Common, Goblin
-
-**Combat gear:** potion of cure moderate wounds, 3 scroll of cause fear, Dcure light wounds/35
-charges, 4 alchemist's fire, 2 tanglefoot bags
-
-**Other gear:** mwk studded leather armor, buckler, bastard sword, light crossbow with 20 bolts, hk,
-silver unholy symbol, scp, 228 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Description
 

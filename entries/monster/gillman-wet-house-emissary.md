@@ -31,105 +31,73 @@ abilities = ["12", "8", "12", "16", "14", "14"]
 
 _Swathed in striking turquoise robes, this gillwoman has a cold, appraising stare._
 
-**Challenge rating:** 7
-
 **Gillman [aristocrat](ref/npcclass/aristocrat) 2/[investigator](ref/class/investigator)
 (mastermind) 7**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +12
+Subtype: Aquatic
+Experience points: 3,200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 12
+Touch: 9
+Flat-footed: 12
+AC modifiers: +3 armor, -1 Dex
+Hit points: 56 (9d8+16)
+Fort: +4
+Ref: +5
+Will: +11; +4 bonus vs. poison, +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
+Defensive abilities: enchantment resistance, poison resistance
+Weaknesses: water dependent
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: +1 sword cane +8/+3 (1d6+2)
+Ranged: mwk light crossbow +6 (1d8/19-20)
+Spec Att: studied combat (+3, 3 rounds), studied strike +2d6
+:::
 
-**Subtype:** Aquatic
+::: statblock
+title = "Spellcasting"
+Caster level: 7
+Concentration: +10
+3rd-level spells: nondetection, tongues
+2nd-level spells: barkskin, eagle's splendor, focused scrutiny, investigative mind
+1st-level spells: blurred movement, cure light wounds, disguise self, heightened awareness, shield
+:::
 
-**Experience points:** 3,200
+### Statistics
 
-**Armor class:** 12
+::: statblock
+Ability scores: Str 12, Dex 8, Con 12, Int 16, Wis 14, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 16
+Feats: Deceitful, Deft Hands, Extra Investigator Talent, Focused Inspiration, Persuasive
+Skills: Bluff +16, Diplomacy +16, Disable Device +13, Disguise +11, Sense Motive +12, Sleight of Hand +13, Stealth +7, Swim +13
+Languages: Aboleth, Aklo, Aquan, Common, Draconic
+Special qualities: a quiet word, alchemy (alchemy crafting +7), [amphibious](ref/umr/amphibious), inspiration (6/day), investigator talents ([charmer](ref/talent/charmer), [coax information](ref/talent/coax-information), [empathy](ref/invtalent/empathy), [underworld inspiration](ref/invtalent/underworld-inspiration)), keen recollection, mastermind defense, poison lore, servitor
+Combat gear: 2 potion of cure moderate wounds, potion of invisibility, potion of shield of faith
+Other gear: +1 leather armor, +1 -sword cane, mwk light crossbow, Iclk1, disguise kit, formula book/contains all prepared extracts, plus an additional three 1st-level and two 2nd-level extracts of the GM's choice, mtt
+:::
 
-**Touch:** 9
+### Ecology
 
-**Flat-footed:** 12
-
-**AC modifiers:** +3 armor, -1 Dex
-
-**Hit points:** 56 (9d8+16)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +11; +4 bonus vs. poison, +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
-
-**Defensive abilities:** enchantment resistance, poison resistance
-
-**Weaknesses:** water dependent
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** +1 sword cane +8/+3 (1d6+2)
-
-**Ranged:** mwk light crossbow +6 (1d8/19-20)
-
-**Spec Att:** studied combat (+3, 3 rounds), studied strike +2d6
-
-**Spellcasting**
-
-**Caster level:** 7
-
-**Concentration:** +10
-
-**3rd-level spells:**
-
-- nondetection, tongues
-
-**2nd-level spells:**
-
-- barkskin, eagle's splendor, focused scrutiny, investigative mind
-
-**1st-level spells:**
-
-- blurred movement, cure light wounds, disguise self, heightened awareness, shield
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 8, Con 12, Int 16, Wis 14, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 16
-
-**Feats:** Deceitful, Deft Hands, Extra Investigator Talent, Focused Inspiration, Persuasive
-
-**Skills:** Bluff +16, Diplomacy +16, Disable Device +13, Disguise +11, Sense Motive +12, Sleight of
-Hand +13, Stealth +7, Swim +13
-
-**Languages:** Aboleth, Aklo, Aquan, Common, Draconic
-
-**Special qualities:** a quiet word, alchemy (alchemy crafting +7),
-[amphibious](ref/umr/amphibious), inspiration (6/day), investigator talents
-([charmer](ref/talent/charmer), [coax information](ref/talent/coax-information),
-[empathy](ref/invtalent/empathy), [underworld inspiration](ref/invtalent/underworld-inspiration)),
-keen recollection, mastermind defense, poison lore, servitor
-
-**Combat gear:** 2 potion of cure moderate wounds, potion of invisibility, potion of shield of faith
-
-**Other gear:** +1 leather armor, +1 -sword cane, mwk light crossbow, Iclk1, disguise kit, formula
-book/contains all prepared extracts, plus an additional three 1st-level and two 2nd-level extracts
-of the GM's choice, mtt
-
-**Ecology**
-
-**Environment:** temperate ocean
+::: statblock
+Environment: temperate ocean
+:::
 
 ### Description
 

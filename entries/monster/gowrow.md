@@ -32,81 +32,63 @@ abilities = ["18", "16", "15", "9", "14", "11"]
 _This reptilian beast has a pair of long tusks jutting from its oversized jaws. Its long, draconic
 tail ends in a razor-sharp blade._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: dragon
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 59 (7d12+14)
+Fort: +7
+Ref: +8
+Will: +9
+Immune: paralysis, sleep, sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft., fly 30 ft. (clumsy)
+Br Weap: 30-ft. cone, 6d6 sonic damage, Reflex DC 15 half, usable every 1d4 rounds
+Melee: bite +10 (2d6+4), tail +10 (1d8+4/19-20)
+Reach: 10
+Space: 10
+Spec Att: aquatic combatant, swim-by attack
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 16, Con 15, Int 9, Wis 14, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Power Attack
+Skills: Fly +3
+Languages: Draconic
+Special qualities: [amphibious](ref/umr/amphibious), hibernate
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 59 (7d12+14)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +9
-
-**Immune:** paralysis, sleep, sonic
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., fly 30 ft. (clumsy)
-
-**Br Weap:** 30-ft. cone, 6d6 sonic damage, Reflex DC 15 half, usable every 1d4 rounds
-
-**Melee:** bite +10 (2d6+4), tail +10 (1d8+4/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** aquatic combatant, swim-by attack
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 15, Int 9, Wis 14, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Power Attack
-
-**Skills:** Fly +3
-
-**Languages:** Draconic
-
-**Special qualities:** [amphibious](ref/umr/amphibious), hibernate
-
-**Ecology**
-
-**Environment:** temperate lakes or rivers
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate lakes or rivers
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

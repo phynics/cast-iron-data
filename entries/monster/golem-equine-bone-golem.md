@@ -29,69 +29,54 @@ abilities = ["22", "15", "-", "-", "10", "1"]
 
 _This mass of bones is shaped like a horse, with bizarre limbs._
 
-**Challenge rating:** 10
-
 **Advanced variant bone golem**
 
-**Type:** construct
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 118 (16d10+30)
+Fort: +5
+Ref: +7
+Will: +5
+Dr: 5/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 40 ft.
+Melee: bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)
+Reach: 5
+Space: 10
+Spec Att: bone prison (ranged touch +17), staggering stomp
+Trample: 2d6+9, DC 24
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 9,600
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 118 (16d10+30)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +21 (1d8+6), 2 hooves +16 (2d6+3 plus staggered)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** bone prison (ranged touch +17), staggering stomp
-
-**Trample:** 2d6+9, DC 24
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Improved Initiative^B^
+::: statblock
+Ability scores: Str 22, Dex 15, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Improved Initiative^B^
+:::
 
 ###### B {#footnote-b}
 

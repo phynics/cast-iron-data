@@ -32,91 +32,69 @@ abilities = ["17", "14", "19", "6", "10", "9"]
 
 _This lumbering topiary has the rough shape of an elephant, complete with brambly limbs and tusks._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 natural
+Hit points: 42 (5d8+20)
+Fort: +10
+Ref: +3
+Will: +1
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +6 (1d6+4)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +4
+Constant: pass without trace
+Per day: 3/day: hedge stride
+:::
 
-**Type:** plant
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 17, Dex 14, Con 19, Int 6, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Great Fortitude, Improved Initiative, Power Attack
+Skills: Escape Artist +10, Perception +6, Stealth +9 (+15 in undergrowth)
+Racial Modifiers: +8 Escape Artist, +2 Stealth (+8 in undergrowth)
+Languages: Common (can't speak), Sylvan (can't speak)
+Special qualities: assimilate, move through hedges, sculpt shape
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 natural
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +10
-
-**Ref:** +3
-
-**Will:** +1
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +6 (1d6+4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +4
-
-**Constant:**
-
-- pass without trace
-
-**Per day:**
-
-- 3/day: hedge stride
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 19, Int 6, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Power Attack
-
-**Skills:** Escape Artist +10, Perception +6, Stealth +9 (+15 in undergrowth)
-
-**Racial Modifiers:** +8 Escape Artist, +2 Stealth (+8 in undergrowth)
-
-**Languages:** Common (can't speak), Sylvan (can't speak)
-
-**Special qualities:** assimilate, move through hedges, sculpt shape
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, garden (2-4), or boscage (5-7)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, garden (2-4), or boscage (5-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

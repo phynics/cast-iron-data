@@ -31,116 +31,78 @@ abilities = ["36", "28", "33", "21", "23", "30"]
 _This hairy humanoid has the face of a demonic goat with legs to match. A long tongue hangs out of
 its fanged mouth._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 32)
+Initiative: +13
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +33
+Senses: Scent, See in darkness, See invisibility, Storm sight
+Experience points: 409,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 32)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 37
+Touch: 19
+Flat-footed: 27
+AC modifiers: +9 Dex, +1 dodge, +18 natural, -1 size
+Hit points: 396 (24d10+264)
+Fort: +19
+Ref: +23
+Will: +20
+Defensive abilities: limited immortality
+Dr: 15/epic and good
+Fh: 15
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, fear effects, paralysis
+Sr: 32
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 60 ft.
+Melee: +3 spiked chain +39/+34/+29/+24 (2d6+16/19-20 plus [grab](ref/umr/grab)), claw +31 (1d10+6 plus grab), gore +31 (2d8+6) or 2 claws +36 (1d10+13), gore +36 (2d8+13)
+Reach: 10
+Reach P: 20 ft. with chain
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: capture, punish the naughty, regression
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: air walk, see invisibility, tongues
+At will: bestow curse (DC 24), control weather, dimension door, discern location, ice storm, sleet storm
+Per day: 3/day: animate objects, baleful polymorph (DC 25), phantasmal killer (DC 24)\
+1/day: polymorph any object (DC 28), sympathy (DC 28), weird (DC 29), wish, to other creatures only
+:::
 
-**Perception:** +33
+### Statistics
 
-**Senses:** Scent, See in darkness, See invisibility, Storm sight
+::: statblock
+Ability scores: Str 36, Dex 28, Con 33, Int 21, Wis 23, Cha 30
+Base attack bonus: +24
+Combat maneuver bonus: +38 (+42 drag or grapple)
+Combat maneuver defense: 58 (60 vs. drag)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Greater Drag, Greater Vital Strike, Improved Critical (chain), Improved Drag, Improved Initiative, Improved Vital Strike, Mobility, Power Attack, Vital Strike
+Skills: Acrobatics +33, Intimidate +37, Knowledge (geography, nobility) +17, Perception +33, Use Magic Device +34
+Languages: Common; _[tongues](ref/spell/tongues)_
+Special qualities: mystical chains, snowstep
+:::
 
-**Experience points:** 409,600
+### Ecology
 
-**Armor class:** 37
-
-**Touch:** 19
-
-**Flat-footed:** 27
-
-**AC modifiers:** +9 Dex, +1 dodge, +18 natural, -1 size
-
-**Hit points:** 396 (24d10+264)
-
-**Fort:** +19
-
-**Ref:** +23
-
-**Will:** +20
-
-**Defensive abilities:** limited immortality
-
-**Dr:** 15/epic and good
-
-**Fh:** 15
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain, fear
-effects, paralysis
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** +3 spiked chain +39/+34/+29/+24 (2d6+16/19-20 plus [grab](ref/umr/grab)), claw +31
-(1d10+6 plus grab), gore +31 (2d8+6) or 2 claws +36 (1d10+13), gore +36 (2d8+13)
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with chain
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** capture, punish the naughty, regression
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- air walk, see invisibility, tongues
-
-**At will:**
-
-- bestow curse (DC 24), control weather, dimension door, discern location, ice storm, sleet storm
-
-**Per day:**
-
-- 3/day: animate objects, baleful polymorph (DC 25), phantasmal killer (DC 24)
-- 1/day: polymorph any object (DC 28), sympathy (DC 28), weird (DC 29), wish, to other creatures
-  only
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 28, Con 33, Int 21, Wis 23, Cha 30
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +38 (+42 drag or grapple)
-
-**Combat maneuver defense:** 58 (60 vs. drag)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Greater Drag, Greater Vital Strike, Improved
-Critical (chain), Improved Drag, Improved Initiative, Improved Vital Strike, Mobility, Power Attack,
-Vital Strike
-
-**Skills:** Acrobatics +33, Intimidate +37, Knowledge (geography, nobility) +17, Perception +33, Use
-Magic Device +34
-
-**Languages:** Common; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** mystical chains, snowstep
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

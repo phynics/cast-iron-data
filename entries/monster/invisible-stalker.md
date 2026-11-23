@@ -31,75 +31,60 @@ abilities = ["18", "19", "22", "14", "15", "11"]
 _No true form can be detected, yet a sense of force and hulking malevolence is undeniable in this
 creature's presence._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 80 (7d10+42)
+Fort: +11
+Ref: +11
+Will: +4
+Defensive abilities: natural invisibility
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect)
+Melee: 2 slams +12 (2d6+4)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 19, Con 22, Int 14, Wis 15, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Weapon Focus (slam)
+Skills: Acrobatics +14, Bluff +10, Fly +22, Knowledge (planes) +12, Perception +12
+Languages: Auran, Common
+Special qualities: improved tracking
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 80 (7d10+42)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +4
-
-**Defensive abilities:** natural invisibility
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect)
-
-**Melee:** 2 slams +12 (2d6+4)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 22, Int 14, Wis 15, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Weapon Focus (slam)
-
-**Skills:** Acrobatics +14, Bluff +10, Fly +22, Knowledge (planes) +12, Perception +12
-
-**Languages:** Auran, Common
-
-**Special qualities:** improved tracking
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

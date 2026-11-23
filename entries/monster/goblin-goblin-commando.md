@@ -29,79 +29,63 @@ special_qualities = "armor training 1"
 abilities = ["13", "18", "13", "10", "8", "10"]
 +++
 
-**Challenge rating:** 2
-
 **Goblin [fighter](ref/class/fighter) 3**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 2
+Type: humanoid
+Initiative: +8
+Alignment: Neutral evil
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 17
+AC modifiers: +6 armor, +3 Dex, +1 size
+Hit points: 24 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +0 (+1 vs. fear)
+Defensive abilities: bravery +1
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: mwk horsechopper +7 (1d8+1/×3)
+Ranged: mwk composite shortbow +9 (1d4+1/×3)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 13, Dex 18, Con 13, Int 10, Wis 8, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Combat Reflexes, Improved Initiative, Power Attack, Weapon Focus (horsechopper)
+Skills: Intimidate +6, Perception +2, Ride +4, Stealth +11
+Racial Modifiers: +4 Ride, +4 Stealth
+Languages: Goblin
+Special qualities: armor training 1
+Combat gear: 2 +1 flaming arrows, potion of cure moderate wounds
+Other gear: chainmail, mwk csb20, mwk horsechopper, 80 gp
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 armor, +3 Dex, +1 size
-
-**Hit points:** 24 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +0 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk horsechopper +7 (1d8+1/×3)
-
-**Ranged:** mwk composite shortbow +9 (1d4+1/×3)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 18, Con 13, Int 10, Wis 8, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack, Weapon Focus (horsechopper)
-
-**Skills:** Intimidate +6, Perception +2, Ride +4, Stealth +11
-
-**Racial Modifiers:** +4 Ride, +4 Stealth
-
-**Languages:** Goblin
-
-**Special qualities:** armor training 1
-
-**Combat gear:** 2 +1 flaming arrows, potion of cure moderate wounds
-
-**Other gear:** chainmail, mwk csb20, mwk horsechopper, 80 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

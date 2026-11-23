@@ -30,73 +30,59 @@ abilities = ["1", "12", "8", "1", "10", "3"]
 _The blunt snout of this lizard bears bony horns, and its flat, round body is adorned with many
 spines._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision, Scent
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 15
+AC modifiers: +1 Dex, +1 natural, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +3
+Will: +0
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: bite -1 (1d2-5)
+Ranged: blood squirt +5 touch (special)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 1, Dex 12, Con 8, Int 1, Wis 10, Cha 3
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2 (6 vs. trip)
+Feats: Run
+Skills: Stealth +17
+Special qualities: camouflage, puff up
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +1 natural, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite -1 (1d2-5)
-
-**Ranged:** blood squirt +5 touch (special)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 12, Con 8, Int 1, Wis 10, Cha 3
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2 (6 vs. trip)
-
-**Feats:** Run
-
-**Skills:** Stealth +17
-
-**Special qualities:** camouflage, puff up
-
-**Ecology**
-
-**Environment:** warm desert
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm desert
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

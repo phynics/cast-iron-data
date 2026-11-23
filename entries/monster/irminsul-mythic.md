@@ -32,107 +32,75 @@ destination._
 
 **Mythic Irminsul**
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Mythic rank: 7
+blindsight: 120
+Alignment: Chaotic neutral
+Size: gargantuan
+Initiative: -2
+Perception: +32
+Type: plant
+Subtype: Extraplanar, Mythic
+tremorsense: 100
+Experience points: 102,400
+:::
 
-**Mythic rank:** 7
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 33
+Touch: 4
+Flat-footed: 33
+AC modifiers: -2 Dex, +29 natural, -4 size
+Hit points: 301 (14d8+238)
+Fort: +22
+Ref: +2
+Will: +15
+Dr: 10/epic
+Immune: cold, sonic, [plant traits](ref/umr/plant-traits)
+Regen: 10 (cold iron)
+Sr: 25
+:::
 
-**Alignment:** Chaotic neutral
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 10 ft.
+M Power: 7/day, surge +1d10
+Melee: 4 slams +14 (5d6+12)
+Reach: 20
+Space: 20
+:::
 
-**Initiative:** -2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Constant: see alignment, its own alignment only
+At will: telekinesis (DC 21)
+:::
 
-**Perception:** +32
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 27, Dex 6, Con 32, Int 23, Wis 28, Cha 23
+Base attack bonus: +10
+Combat maneuver bonus: +22
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Mythic Alertness, Combat Casting, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Mythic Great Fortitude, Mythic Iron Will, Quicken Spell-Like Ability (telekinesis), Mythic Toughness
+Skills: Bluff +12, Diplomacy +14, Intimidate +18, Knowledge (arcana, history) +9, Knowledge (planes) +18, Perception +32
+Languages: Common (can't speak), Druidic (can't speak), Elven (can't speak), Sylvan (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: planar portal
+:::
 
-**Subtype:** Extraplanar, Mythic
+### Ecology
 
-**tremorsense:** 100
-
-**Experience points:** 102,400
-
-**Armor class:** 33
-
-**Touch:** 4
-
-**Flat-footed:** 33
-
-**AC modifiers:** -2 Dex, +29 natural, -4 size
-
-**Hit points:** 301 (14d8+238)
-
-**Fort:** +22
-
-**Ref:** +2
-
-**Will:** +15
-
-**Dr:** 10/epic
-
-**Immune:** cold, sonic, [plant traits](ref/umr/plant-traits)
-
-**Regen:** 10 (cold iron)
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**M Power:** 7/day, surge +1d10
-
-**Melee:** 4 slams +14 (5d6+12)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Constant:**
-
-- see alignment, its own alignment only
-
-**At will:**
-
-- telekinesis (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 6, Con 32, Int 23, Wis 28, Cha 23
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Mythic Alertness, Combat Casting, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Mythic Great Fortitude, Mythic
-Iron Will, Quicken Spell-Like Ability (telekinesis), Mythic Toughness
-
-**Skills:** Bluff +12, Diplomacy +14, Intimidate +18, Knowledge (arcana, history) +9, Knowledge
-(planes) +18, Perception +32
-
-**Languages:** Common (can't speak), Druidic (can't speak), Elven (can't speak), Sylvan (can't
-speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** planar portal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

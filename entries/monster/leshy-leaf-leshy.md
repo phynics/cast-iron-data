@@ -32,90 +32,69 @@ abilities = ["6", "13", "12", "5", "12", "13"]
 _This little plant person is clad in a wing-like leaf cloak and pinecone armor, wielding a twig as a
 makeshift spear._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 armor, +1 Dex, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +1
+Will: +1
+Immune: electricity, sonic, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft., climb 10 ft., fly 10 ft. (clumsy)
+Melee: shortspear +2 (1d4-2/19-20)
+Ranged: seedpods +2 touch (1 plus deafen)
+Sp Extra: glide
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +3
+Constant: pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 6, Dex 13, Con 12, Int 5, Wis 12, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 8
+Feats: Weapon Finesse
+Skills: Fly -1, Stealth +5 (+9 in forests and jungles), Survival +1 (+5 in forests and jungles)
+Racial Modifiers: +4 Stealth and Survival in forests and jungles
+Languages: Druidic, Sylvan; _plantspeech_ (trees)
+Special qualities: [change shape](ref/umr/change-shape) (Small tree; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 armor, +1 Dex, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** electricity, sonic, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft., fly 10 ft. (clumsy)
-
-**Melee:** shortspear +2 (1d4-2/19-20)
-
-**Ranged:** seedpods +2 touch (1 plus deafen)
-
-**Sp Extra:** glide
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 13, Con 12, Int 5, Wis 12, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 8
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly -1, Stealth +5 (+9 in forests and jungles), Survival +1 (+5 in forests and jungles)
-
-**Racial Modifiers:** +4 Stealth and Survival in forests and jungles
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (trees)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small tree;
-[tree shape](ref/spell/tree-shape)), verdant burst
-
-**Ecology**
-
-**Environment:** any forest or hill
-
-**Organization:** solitary or grove (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest or hill
+Organization: solitary or grove (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,73 +31,60 @@ abilities = ["13", "17", "12", "10", "16", "8"]
 
 _This strange, four-armed humanoid is sleek and muscled, with two spiked blades raised to strike._
 
-**Challenge rating:** 1/2
-
 **Male kasatha [monk](ref/class/monk) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Alignment: Lawful neutral
+Size: medium
+Perception: +3
+Subtype: Kasatha
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 13
+AC modifiers: +3 Dex, +2 dodge, +3 Wis
+Hit points: 10 (1d8+2)
+Fort: +3
+Ref: +5
+Will: +5
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: sai +3 (1d4+1) or unarmed strike +3 (1d6+1) or flurry of blows +2/+2 (1d6+1)
+Spec Att: flurry of blows, stunning fist (1/day, DC 13)
+:::
 
-**Subtype:** Kasatha
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 13, Dex 17, Con 12, Int 10, Wis 16, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 19
+Feats: Combat Reflexes, Improved Unarmed Strike, Stunning Fist, Weapon Finesse
+Skills: Acrobatics +7, Climb +5, Escape Artist +7, Survival +4
+Languages: Common, Kasatha
+Special qualities: desert runner, desert stride, jumper, multi-armed, stalker
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +2 dodge, +3 Wis
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** sai +3 (1d4+1) or unarmed strike +3 (1d6+1) or flurry of blows +2/+2 (1d6+1)
-
-**Spec Att:** flurry of blows, stunning fist (1/day, DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 12, Int 10, Wis 16, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Reflexes, Improved Unarmed Strike, Stunning Fist, Weapon Finesse
-
-**Skills:** Acrobatics +7, Climb +5, Escape Artist +7, Survival +4
-
-**Languages:** Common, Kasatha
-
-**Special qualities:** desert runner, desert stride, jumper, multi-armed, stalker
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, band (2-6), sect (2-20), or tribe (20-60)
-
-**Treasure:** NPC gear; 2 [sais](ref/eq-weapon/sai), other treasure
+::: statblock
+Environment: warm deserts
+Organization: solitary, band (2-6), sect (2-20), or tribe (20-60)
+Treasure: NPC gear; 2 [sais](ref/eq-weapon/sai), other treasure
+:::
 
 ### Special Abilities
 

@@ -33,85 +33,67 @@ abilities = ["32", "11", "-", "-", "13", "1"]
 _This towering brass statue, built to resemble an evil horned humanoid, carries a gigantic curved
 sword in its metal fists._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: construct
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Experience points: 38,400
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 8
+Flat-footed: 30
+AC modifiers: +22 natural, -2 size
+Hit points: 150 (20d10+40)
+Fort: +6
+Ref: +6
+Will: +7
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), fire, magic
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Br Weap: DC 20
+Heat: 2d6 fire
+Melee: brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +12
+Constant: see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 32, Dex 11, Con -, Int -, Wis 13, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: +33
+Combat maneuver defense: 43
+Special qualities: death throes, brass falchion
+:::
 
-**Armor class:** 30
+### Ecology
 
-**Touch:** 8
-
-**Flat-footed:** 30
-
-**AC modifiers:** +22 natural, -2 size
-
-**Hit points:** 150 (20d10+40)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire, magic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** DC 20
-
-**Heat:** 2d6 fire
-
-**Melee:** brass falchion +29 (3d6+11/18-20 plus 2d6 fire), slam +29 (2d6+11 plus 2d6 fire)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +12
-
-**Constant:**
-
-- see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 11, Con -, Int -, Wis 13, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 43
-
-**Special qualities:** death throes, brass falchion
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or watch (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or watch (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

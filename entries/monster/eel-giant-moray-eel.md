@@ -31,75 +31,60 @@ abilities = ["22", "14", "16", "1", "12", "8"]
 _This sixteen-foot-long eel slithers through the water with uncanny grace, mouth open to display
 large teeth and a second set of jaws._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +9
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 30 ft.
+Melee: bite +11 (2d6+9 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: gnaw
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 14, Con 16, Int 1, Wis 12, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Escape Artist +10, Perception +7, Stealth +8, Swim +14
+Racial Modifiers: +8 Escape Artist
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**Melee:** bite +11 (2d6+9 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** gnaw
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 14, Con 16, Int 1, Wis 12, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Escape Artist +10, Perception +7, Stealth +8, Swim +14
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or nest (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

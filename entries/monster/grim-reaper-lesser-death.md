@@ -28,99 +28,72 @@ abilities = ["27", "30", "-", "15", "23", "24"]
 
 _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved scythe._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: misfortune (10 ft.), [unnatural aura](ref/umr/unnatural-aura)
+Initiative: +14
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft., See invisibility, Status sight
+Subtype: Extraplanar
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** misfortune (10 ft.), [unnatural aura](ref/umr/unnatural-aura)
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 31
+Touch: 21
+Flat-footed: 20
+AC modifiers: +10 Dex, +1 dodge, +10 natural
+Hit points: 276 (24d8+168)
+Fort: +17
+Ref: +19
+Will: +20
+Chan Res: +4
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 27
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 60 ft.
+E Drain: 2 levels, DC 29
+Melee: +2 keen scythe +30/+30/+25/+20/+15 (2d4+14/19-20/×4 plus energy drain)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+Constant: air walk, haste, see invisibility
+Per day: 3/day: call spirit (DC 22), slay living (DC 22)\
+1/day: finger of death (DC 25), plane shift (DC 22)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility, Status sight
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 27, Dex 30, Con -, Int 15, Wis 23, Cha 24
+Base attack bonus: +18
+Combat maneuver bonus: +27
+Combat maneuver defense: 47
+Feats: Combat Casting, Critical Focus, Dazing Assault, Furious Focus, Great Fortitude, Improved Initiative, Power Attack, Staggering Critical, Step Up, Stunning Critical, Tiring Critical, Weapon Focus (scythe)
+Skills: Acrobatics +34, Disguise +34, Intimidate +34, Knowledge (planes) +14, Ride +34, Stealth +37
+Languages: Celestial, Common, Infernal
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 21
-
-**Flat-footed:** 20
-
-**AC modifiers:** +10 Dex, +1 dodge, +10 natural
-
-**Hit points:** 276 (24d8+168)
-
-**Fort:** +17
-
-**Ref:** +19
-
-**Will:** +20
-
-**Chan Res:** +4
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**E Drain:** 2 levels, DC 29
-
-**Melee:** +2 keen scythe +30/+30/+25/+20/+15 (2d4+14/19-20/×4 plus energy drain)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**Constant:**
-
-- air walk, haste, see invisibility
-
-**Per day:**
-
-- 3/day: call spirit (DC 22), slay living (DC 22)
-- 1/day: finger of death (DC 25), plane shift (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 30, Con -, Int 15, Wis 23, Cha 24
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 47
-
-**Feats:** Combat Casting, Critical Focus, Dazing Assault, Furious Focus, Great Fortitude, Improved
-Initiative, Power Attack, Staggering Critical, Step Up, Stunning Critical, Tiring Critical, Weapon
-Focus (scythe)
-
-**Skills:** Acrobatics +34, Disguise +34, Intimidate +34, Knowledge (planes) +14, Ride +34, Stealth
-+37
-
-**Languages:** Celestial, Common, Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or murder (2-4)
-
-**Treasure:** Standard (+2 keen scythe); other treasure
+::: statblock
+Environment: any
+Organization: solitary or murder (2-4)
+Treasure: Standard (+2 keen scythe); other treasure
+:::
 
 ### Special Abilities
 

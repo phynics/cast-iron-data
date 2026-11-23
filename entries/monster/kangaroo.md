@@ -29,67 +29,56 @@ abilities = ["12", "16", "15", "2", "11", "7"]
 _As tall as a grown human, this mouse-faced creature stands on powerful hind legs and has a stout
 tail trailing behind._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision, Scent
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +5
+Will: +0
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: kick +1 (1d6+1 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 12, Dex 16, Con 15, Int 2, Wis 11, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Skill Focus (Acrobatics)
+Skills: Acrobatics +10 (+18 when jumping), Perception +4
+Racial Modifiers: +4 Acrobatics
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** kick +1 (1d6+1 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 15, Int 2, Wis 11, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +10 (+18 when jumping), Perception +4
-
-**Racial Modifiers:** +4 Acrobatics
-
-**Ecology**
-
-**Environment:** temperate hills or plains
-
-**Organization:** solitary, pair, or mob (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or plains
+Organization: solitary, pair, or mob (3-10)
+Treasure: None
+:::
 
 ### Description
 

@@ -32,91 +32,65 @@ abilities = ["31", "9", "21", "10", "14", "10"]
 _This lumbering giant has short stumpy legs and powerful, muscular arms. Its hair and beard seem to
 be made of fire._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: -1
+Size: large
+Alignment: Lawful evil
+Perception: +14
+Senses: Low-light vision
+Subtype: Fire, Giant
+Experience points: 9,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: +8 armor, -1 Dex, +8 natural, -1 size
+Hit points: 142 (15d8+75)
+Fort: +14
+Ref: +4
+Will: +9
+Immune: fire
+Rock Ct: present
+Vulner: cold
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: greatsword +21/+16/+11 (3d6+15) or 2 slams +20 (1d8+10)
+Ranged: rock +10 (1d8+15 plus 1d6 fire)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: heated rock
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 9, Con 21, Int 10, Wis 14, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +22
+Combat maneuver defense: 31
+Feats: Cleave, Great Cleave, Improved Overrun, Improved Sunder, Iron Will, Martial Weapon Proficiency (greatsword), Power Attack, Weapon Focus (greatsword)
+Skills: Climb +14, Craft (any one) +8, Intimidate +11, Perception +14
+Languages: Common, Giant
+:::
 
-**Subtype:** Fire, Giant
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** +8 armor, -1 Dex, +8 natural, -1 size
-
-**Hit points:** 142 (15d8+75)
-
-**Fort:** +14
-
-**Ref:** +4
-
-**Will:** +9
-
-**Immune:** fire
-
-**Rock Ct:** present
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** greatsword +21/+16/+11 (3d6+15) or 2 slams +20 (1d8+10)
-
-**Ranged:** rock +10 (1d8+15 plus 1d6 fire)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** heated rock
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 9, Con 21, Int 10, Wis 14, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 31
-
-**Feats:** Cleave, Great Cleave, Improved Overrun, Improved Sunder, Iron Will, Martial Weapon
-Proficiency (greatsword), Power Attack, Weapon Focus (greatsword)
-
-**Skills:** Climb +14, Craft (any one) +8, Intimidate +11, Perception +14
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary, gang (2-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of
-1st-2nd level), raiding party (6-12 plus 1 adept or sorcerer of 3rd-5th level, 2-5
-[hell hounds](ref/monster/hell-hound), and 2-3 [trolls](ref/monster/troll) or
-[ettins](ref/monster/ettin)), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1
-fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and
-1-2 [young red dragons](ref/carried/bestiary/monsters/dragon/chromatic/red/young))
-
-**Treasure:** Standard (half-plate, greatsword); other treasure
+::: statblock
+Environment: warm mountains
+Organization: solitary, gang (2-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of 1st-2nd level), raiding party (6-12 plus 1 adept or sorcerer of 3rd-5th level, 2-5 [hell hounds](ref/monster/hell-hound), and 2-3 [trolls](ref/monster/troll) or [ettins](ref/monster/ettin)), or tribe (20-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 fighter or ranger of 8th-9th level as king; and 17-38 hell hounds, 12-22 trolls, 7-12 ettins, and 1-2 [young red dragons](ref/carried/bestiary/monsters/dragon/chromatic/red/young))
+Treasure: Standard (half-plate, greatsword); other treasure
+:::
 
 ### Special Abilities
 

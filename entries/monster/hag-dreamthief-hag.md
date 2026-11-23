@@ -32,108 +32,78 @@ abilities = ["23", "23", "22", "20", "18", "21"]
 _This hideously gaunt woman has tangled white hair, goat-like horns, and menacing eyes that blaze
 with green light._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., See alignment
+Subtype: Evil, Extraplanar
+Experience points: 12,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 16
+Flat-footed: 21
+AC modifiers: +6 Dex, +11 natural
+Hit points: 149 (13d10+78)
+Fort: +14
+Ref: +10
+Will: +12
+Dr: 10/cold iron and magic
+Immune: cold, fire, mind-affecting effects
+Sr: 26
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 20 ft. (clumsy)
+Melee: bite +20 (2d10+6/19-20 plus mind block), 2 claws +14 (2d6+6)
+Spec Att: dream theft, mind block
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +15
+Constant: detect magic, see alignment
+At will: deep slumber (DC 18), etherealness, invisibility, magic missile
+:::
 
-**Senses:** Darkvision 60 ft., See alignment
+::: statblock
+title = "Psychic Magic"
+Caster level: 10
+Concentration: +15
+Power points: 15
+Psychoactive powers: dream council, 5 PE, DC 20, dream scan, 5 PE, DC 20, dream travel, 6 PE
+:::
 
-**Subtype:** Evil, Extraplanar
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 23, Dex 23, Con 22, Int 20, Wis 18, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +19
+Combat maneuver defense: 35
+Feats: Combat Casting, Deceitful, Flyby Attack, Improved Critical (bite), Mounted Combat, Trample, Weapon Focus (bite)
+Skills: Bluff +25, Diplomacy +21, Fly -2, Sense Motive +20, Spellcraft +18, Stealth +22
+Languages: Abyssal, Aklo, Celestial, Common, Infernal
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid or cat; [alter self](ref/spell/alter-self) or [beast shape II](ref/spell/beast-shape-2)), dreamstone
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 Dex, +11 natural
-
-**Hit points:** 149 (13d10+78)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +12
-
-**Dr:** 10/cold iron and magic
-
-**Immune:** cold, fire, mind-affecting effects
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (clumsy)
-
-**Melee:** bite +20 (2d10+6/19-20 plus mind block), 2 claws +14 (2d6+6)
-
-**Spec Att:** dream theft, mind block
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Constant:**
-
-- detect magic, see alignment
-
-**At will:**
-
-- deep slumber (DC 18), etherealness, invisibility, magic missile
-
-**Psychic Magic**
-
-**Caster level:** 10
-
-**Concentration:** +15
-
-**Power points:** 15
-
-**Psychoactive powers:**
-
-- dream council, 5 PE, DC 20, dream scan, 5 PE, DC 20, dream travel, 6 PE
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 23, Con 22, Int 20, Wis 18, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 35
-
-**Feats:** Combat Casting, Deceitful, Flyby Attack, Improved Critical (bite), Mounted Combat,
-Trample, Weapon Focus (bite)
-
-**Skills:** Bluff +25, Diplomacy +21, Fly -2, Sense Motive +20, Spellcraft +18, Stealth +22
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Infernal
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid or cat;
-[alter self](ref/spell/alter-self) or [beast shape II](ref/spell/beast-shape-2)), dreamstone
-
-**Ecology**
-
-**Environment:** any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
-
-**Organization:** solitary, mounted (1 plus 1 [advanced](ref/template/advanced)
-[nightmare](ref/monster/nightmare)), or coven (1 plus 2 hags of any type)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Dimension of Dreams](ref/rule/dimension-of-dreams))
+Organization: solitary, mounted (1 plus 1 [advanced](ref/template/advanced) [nightmare](ref/monster/nightmare)), or coven (1 plus 2 hags of any type)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

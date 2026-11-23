@@ -29,83 +29,64 @@ special_attacks = "engulfing drop"
 abilities = ["10", "12", "12", "3", "13", "9"]
 +++
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+blindsense: 10
+Initiative: +1
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 10
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 15
+AC modifiers: +1 Dex, +3 natural, +2 size
+Hit points: 11 (2d8+2)
+Fort: +1
+Ref: +1
+Will: +4
+Amorph: present
+Immune: sleep effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity), susceptible to alcohol
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 5 ft.
+Constrict: 1d4
+Melee: slam +3 (1d4 plus [grab](ref/umr/grab))
+Reach: 0
+Space: 2-1/2
+Spec Att: engulfing drop
+Strangle: present
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 10, Dex 12, Con 12, Int 3, Wis 13, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +0 (+4 grapple)
+Combat maneuver defense: 10 (can't be tripped)
+Feats: Skill Focus (Perception)
+Skills: Climb +8, Perception +8, Stealth +13
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +3 natural, +2 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +4
-
-**Amorph:** present
-
-**Immune:** sleep effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity), susceptible to alcohol
-
-**Offense**
-
-**Speed:** 10 ft., climb 5 ft.
-
-**Constrict:** 1d4
-
-**Melee:** slam +3 (1d4 plus [grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** engulfing drop
-
-**Strangle:** present
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 12, Int 3, Wis 13, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0 (+4 grapple)
-
-**Combat maneuver defense:** 10 (can't be tripped)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Climb +8, Perception +8, Stealth +13
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -27,69 +27,59 @@ abilities = ["13", "17", "16", "2", "15", "8"]
 
 _Majestic and graceful, this powerful animal has branching antlers atop it head._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +3 Dex
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +6
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +2 (1d6+1), 2 hooves -3 (1d4)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +2 (1d6+1), 2 hooves -3 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 16, Int 2, Wis 15, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Run^B^, Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +10, Perception +6
+::: statblock
+Ability scores: Str 13, Dex 17, Con 16, Int 2, Wis 15, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Run^B^, Skill Focus (Acrobatics)
+Skills: Acrobatics +10, Perception +6
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary, pair, or herd (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or herd (3-20)
+Treasure: None
+:::
 
 ### Description
 

@@ -30,73 +30,59 @@ abilities = ["21", "13", "19", "2", "14", "10"]
 _This bright-eyed lizard is larger than a horse. As it hisses in anger, a brightly colored frill
 extends around its neck._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +11
+Ref: +8
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +9 (2d6+5), tail +4 (1d8+2)
+Reach: 5
+Space: 10
+Spec Att: intimidating charge
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 13, Con 19, Int 2, Wis 14, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
+Skills: Climb +13, Perception +11, Stealth +8
+Racial Modifiers: +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +9 (2d6+5), tail +4 (1d8+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** intimidating charge
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 19, Int 2, Wis 14, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Climb +13, Perception +11, Stealth +8
-
-**Racial Modifiers:** +4 Stealth
-
-**Ecology**
-
-**Environment:** warm forest, plains, or hills
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm forest, plains, or hills
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

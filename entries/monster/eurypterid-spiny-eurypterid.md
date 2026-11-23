@@ -31,87 +31,68 @@ special_qualities = "amphibious"
 abilities = ["26", "9", "20", "-", "13", "2"]
 +++
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 22
+Touch: 7
+Flat-footed: 22
+AC modifiers: -1 Dex, +15 natural, -2 size
+Hit points: 114 (12d8+60)
+Fort: +13
+Ref: +3
+Will: +5
+Defensive abilities: spiny carapace
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: 2 claws +15 (1d8+8/19-20), sting +15 (1d6+8 plus poison)
+Reach: 15
+Reach P: 20 ft. with sting
+Rend: 2 claws, 1d6+12
+Space: 15
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
-
-**tremorsense:** 30
-
-**Type:** vermin
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 7
-
-**Flat-footed:** 22
-
-**AC modifiers:** -1 Dex, +15 natural, -2 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +13
-
-**Ref:** +3
-
-**Will:** +5
-
-**Defensive abilities:** spiny carapace
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** 2 claws +15 (1d8+8/19-20), sting +15 (1d6+8 plus poison)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with sting
-
-**Rend:** 2 claws, 1d6+12
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 9, Con 20, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 28
-
-**Feats:** Improved Critical^B\|claw^, Improved Initiative^B^
-
-**Skills:** Swim +16
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
+::: statblock
+Ability scores: Str 26, Dex 9, Con 20, Int -, Wis 13, Cha 2
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 28
+Feats: Improved Critical^B\|claw^, Improved Initiative^B^
+Skills: Swim +16
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm ocean
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm ocean
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

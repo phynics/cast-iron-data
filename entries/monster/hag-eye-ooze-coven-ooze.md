@@ -30,82 +30,63 @@ abilities = ["16", "1", "22", "2", "3", "1"]
 _This eerily disturbing gelatinous blob lumbers forward. Three disembodied eyes float within its
 mass, seemingly scanning back and forth with each surge of movement._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: +7
+Experience points: 6,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 115 (11d8+66)
+Fort: +9
+Ref: -2
+Will: -1
+Defensive abilities: split
+Immune: acid, cold, [ooze traits](ref/umr/ooze-traits)
+Resist: fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Engulf: DC 18, 1d4 Con drain
+Melee: slam +11 (1d8+4/19-20)
+Reach: 10
+Space: 10
+Spec Att: absorb flesh, hag eye ray
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +7
+::: statblock
+Ability scores: Str 16, Dex 1, Con 22, Int 2, Wis 3, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Cleave, Great Cleave, Improved Critical (slam), Power Attack, Skill Focus (Perception), Weapon Focus (slam)
+Skills: Climb +12
+Special qualities: suction
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +9
-
-**Ref:** -2
-
-**Will:** -1
-
-**Defensive abilities:** split
-
-**Immune:** acid, cold, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Engulf:** DC 18, 1d4 Con drain
-
-**Melee:** slam +11 (1d8+4/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** absorb flesh, hag eye ray
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 1, Con 22, Int 2, Wis 3, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Cleave, Great Cleave, Improved Critical (slam), Power Attack, Skill Focus (Perception),
-Weapon Focus (slam)
-
-**Skills:** Climb +12
-
-**Special qualities:** suction
-
-**Ecology**
-
-**Environment:** temperate marshes or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate marshes or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

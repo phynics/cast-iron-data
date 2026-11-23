@@ -34,77 +34,61 @@ abilities = ["28", "11", "24", "-", "1", "1"]
 _This lurching mass of slime and gunpowder leaves a trail of shiny black residue in its wake, and
 shudders with concussive energy._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +0
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 38,400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 9
+Touch: 9
+Flat-footed: 9
+AC modifiers: -1 size
+Hit points: 230 (20d8+140)
+Fort: +13
+Ref: +6
+Will: +1
+Immune: cold, [ooze traits](ref/umr/ooze-traits)
+Split: slashing or fire, 46 hp
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Constrict: 2d6+13
+Melee: slam +23 (2d6+13 plus [grab](ref/umr/grab) and gunpowder residue)
+Ranged: blast +14 touch (4d6+7 plus gunpowder residue)
+Reach: 10
+Space: 10
+Spec Att: blast, combust, gunpowder residue
+:::
 
-**Perception:** -5
+### Statistics
 
-**Experience points:** 38,400
+::: statblock
+Ability scores: Str 28, Dex 11, Con 24, Int -, Wis 1, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 35 (can't be tripped)
+Skills: Climb +17
+:::
 
-**Armor class:** 9
+### Ecology
 
-**Touch:** 9
-
-**Flat-footed:** 9
-
-**AC modifiers:** -1 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +1
-
-**Immune:** cold, [ooze traits](ref/umr/ooze-traits)
-
-**Split:** slashing or fire, 46 hp
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Constrict:** 2d6+13
-
-**Melee:** slam +23 (2d6+13 plus [grab](ref/umr/grab) and gunpowder residue)
-
-**Ranged:** blast +14 touch (4d6+7 plus gunpowder residue)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blast, combust, gunpowder residue
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 11, Con 24, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 35 (can't be tripped)
-
-**Skills:** Climb +17
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

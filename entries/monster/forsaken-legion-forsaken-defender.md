@@ -28,75 +28,59 @@ abilities = ["18", "15", "-", "13", "10", "11"]
 
 _This undead soldier carries a heavy-looking pickaxe in one hand and a short sword in the other._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 12
+Flat-footed: 14
+AC modifiers: +4 armor, +2 Dex
+Hit points: 31 (7d8)
+Fort: +2
+Ref: +6
+Will: +7
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft.
+Melee: heavy pick +9 (1d6+4/×4), short sword +9 (1d6+6/19-20)
+Spec Att: phantom trench, phantom wall
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 18, Dex 15, Con -, Int 13, Wis 10, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 21
+Feats: Combat Expertise, Iron Will, Lightning Reflexes, Two-Weapon Fighting
+Skills: Climb +11, Disable Device +6, Knowledge (engineering) +8, Perception +10, Stealth +9
+Languages: Common, Jistka
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +2 Dex
-
-**Hit points:** 31 (7d8)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** heavy pick +9 (1d6+4/×4), short sword +9 (1d6+6/19-20)
-
-**Spec Att:** phantom trench, phantom wall
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con -, Int 13, Wis 10, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21
-
-**Feats:** Combat Expertise, Iron Will, Lightning Reflexes, Two-Weapon Fighting
-
-**Skills:** Climb +11, Disable Device +6, Knowledge (engineering) +8, Perception +10, Stealth +9
-
-**Languages:** Common, Jistka
-
-**Ecology**
-
-**Environment:** any ruins (Cheliax or Rahadoum)
-
-**Organization:** solitary, squad (2-10), or company (12-24
-[forsaken arbalesters](ref/monster/forsaken-legion-forsaken-arbalester), defenders, and
-[foot soldiers](ref/monster/forsaken-legion-forsaken-foot-soldier))
-
-**Treasure:** Standard (Ah, heavy pick, short sword)
+::: statblock
+Environment: any ruins (Cheliax or Rahadoum)
+Organization: solitary, squad (2-10), or company (12-24 [forsaken arbalesters](ref/monster/forsaken-legion-forsaken-arbalester), defenders, and [foot soldiers](ref/monster/forsaken-legion-forsaken-foot-soldier))
+Treasure: Standard (Ah, heavy pick, short sword)
+:::
 
 ### Special Abilities
 

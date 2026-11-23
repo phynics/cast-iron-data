@@ -30,69 +30,57 @@ abilities = ["12", "15", "10", "7", "12", "17"]
 _Save for the tattered wings and taloned feet, this creature resembles a feral woman with a wild
 look about her._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Type: Monstrous humanoid
+Perception: +7
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 armor, +2 Dex, +1 dodge, +1 natural
+Hit points: 38 (7d10)
+Fort: +4
+Ref: +7
+Will: +6
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 20 ft., fly 80 ft. (average)
+Melee: morningstar +8/+3 (1d8+1), 2 talons +3 (1d6)
+Spec Att: captivating song
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 12, Dex 15, Con 10, Int 7, Wis 12, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Dodge, Flyby Attack, Great Fortitude, Skill Focus (Bluff)
+Skills: Bluff +7, Fly +12, Intimidate +7, Perception +7, Perform (sing) +5
+Languages: Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +2 Dex, +1 dodge, +1 natural
-
-**Hit points:** 38 (7d10)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 20 ft., fly 80 ft. (average)
-
-**Melee:** morningstar +8/+3 (1d8+1), 2 talons +3 (1d6)
-
-**Spec Att:** captivating song
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 10, Int 7, Wis 12, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Flyby Attack, Great Fortitude, Skill Focus (Bluff)
-
-**Skills:** Bluff +7, Fly +12, Intimidate +7, Perception +7, Perform (sing) +5
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary, pair, or flight (3-12)
-
-**Treasure:** Standard (leather armor, morningstar); other treasure
+::: statblock
+Environment: temperate marshes
+Organization: solitary, pair, or flight (3-12)
+Treasure: Standard (leather armor, morningstar); other treasure
+:::
 
 ### Special Abilities
 

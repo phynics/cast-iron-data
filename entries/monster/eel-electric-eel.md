@@ -29,69 +29,57 @@ abilities = ["13", "14", "19", "1", "10", "6"]
 _This six-foot-long, snake-like fish moves slowly. A strange popping and snapping sound occasionally
 emits from the creature's body._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 17 (2d8+8)
+Fort: +7
+Ref: +5
+Will: +0
+Resist: electricity 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 5 ft., swim 30 ft.
+Melee: bite +3 (1d6+1) and tail -2 touch (1d6 electricity)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 14, Con 19, Int 1, Wis 10, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative
+Skills: Escape Artist +10, Perception +4, Stealth +10, Swim +9
+Racial Modifiers: +8 Escape Artist
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 17 (2d8+8)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +0
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** 5 ft., swim 30 ft.
-
-**Melee:** bite +3 (1d6+1) and tail -2 touch (1d6 electricity)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 14, Con 19, Int 1, Wis 10, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative
-
-**Skills:** Escape Artist +10, Perception +4, Stealth +10, Swim +9
-
-**Racial Modifiers:** +8 Escape Artist
-
-**Ecology**
-
-**Environment:** warm fresh water
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm fresh water
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

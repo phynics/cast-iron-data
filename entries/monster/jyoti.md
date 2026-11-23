@@ -32,104 +32,75 @@ abilities = ["14", "20", "19", "12", "15", "15"]
 _This phoenix-like humanoid is surrounded by a halo of radiant energy. Its spear is tipped with a
 carved crystal blade._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 6,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 18
+AC modifiers: +4 armor, +5 Dex, +1 dodge, +4 natural
+Hit points: 104 (11d10+44)
+Fort: +11
+Ref: +8
+Will: +11; +2 vs. divine
+Defensive abilities: divine aversion, positive energy affinity
+Fh: 10
+Immune: death attacks, disease, energy drain, poison
+Resist: acid 10, cold 10, electricity 10, fire 10, sonic 10
+Sr: 20
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 90 ft. (good)
+Br Weap: 60-ft. cone, 11d6 fire, Reflex DC 19 half, usable once every 1d4 rounds
+Melee: +1 [ghost touch](ref/magic-enh/ghost-touch-weapon) spear +14/+9/+4 (1d8+4/×3 plus 1d6 fire), bite +8 (1d6+1 plus 1d6 fire)
+Ranged: ray +16 ranged touch (by spell)
+Spec Att: positive energy
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +13
+Constant: mage armor
+Per day: 3/day: aid, cure serious wounds, daylight, dimension door, lesser restoration, searing light\
+1/day: breath of life, disrupting weapon
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 14, Dex 20, Con 19, Int 12, Wis 15, Cha 15
+Base attack bonus: +11
+Combat maneuver bonus: +13
+Combat maneuver defense: 29
+Feats: Combat Casting, Dodge, Flyby Attack, Iron Will, Mobility, Wind Stance
+Skills: Fly +9, Intimidate +16, Knowledge (planes) +19, Perception +20, Sense Motive +16, Stealth +19
+Racial Modifiers: +4 Knowledge (planes), +4 Knowledge (religion), +4 Perception
+Languages: Aquan, Auran, Common, Ignan, Terran
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +5 Dex, +1 dodge, +4 natural
-
-**Hit points:** 104 (11d10+44)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +11; +2 vs. divine
-
-**Defensive abilities:** divine aversion, positive energy affinity
-
-**Fh:** 10
-
-**Immune:** death attacks, disease, energy drain, poison
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10, sonic 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 90 ft. (good)
-
-**Br Weap:** 60-ft. cone, 11d6 fire, Reflex DC 19 half, usable once every 1d4 rounds
-
-**Melee:** +1 [ghost touch](ref/magic-enh/ghost-touch-weapon) spear +14/+9/+4 (1d8+4/×3 plus 1d6
-fire), bite +8 (1d6+1 plus 1d6 fire)
-
-**Ranged:** ray +16 ranged touch (by spell)
-
-**Spec Att:** positive energy
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +13
-
-**Constant:**
-
-- mage armor
-
-**Per day:**
-
-- 3/day: aid, cure serious wounds, daylight, dimension door, lesser restoration, searing light
-- 1/day: breath of life, disrupting weapon
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 19, Int 12, Wis 15, Cha 15
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 29
-
-**Feats:** Combat Casting, Dodge, Flyby Attack, Iron Will, Mobility, Wind Stance
-
-**Skills:** Fly +9, Intimidate +16, Knowledge (planes) +19, Perception +20, Sense Motive +16,
-Stealth +19
-
-**Racial Modifiers:** +4 Knowledge (planes), +4 Knowledge (religion), +4 Perception
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran
-
-**Ecology**
-
-**Environment:** any ([Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary, pair, or flight (3-8)
-
-**Treasure:** Double (+1 ghost touch spear); other treasure
+::: statblock
+Environment: any ([Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary, pair, or flight (3-8)
+Treasure: Double (+1 ghost touch spear); other treasure
+:::
 
 ### Special Abilities
 

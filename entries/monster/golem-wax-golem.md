@@ -33,67 +33,56 @@ abilities = ["14", "9", "-", "-", "11", "1"]
 _This eerily expressionless woman has a glistening quality about her, as though she's covered in an
 oily sheen._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: -1 Dex, +6 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +0
+Will: +1
+Immune: cold, [construct traits](ref/umr/construct-traits), magic
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (1d6+3)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Special qualities: conditional sentience
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +6 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +1
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Special qualities:** conditional sentience
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

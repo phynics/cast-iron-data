@@ -30,109 +30,75 @@ abilities = ["35", "16", "23", "12", "17", "24"]
 _This humanoid is mostly hidden behind plates of elaborate golden armor, the spaces in between
 revealing flesh of black stone._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +3
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 51,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 26
+AC modifiers: +3 Dex, +1 dodge, +17 natural, -1 size
+Hit points: 214 (16d10+126)
+Fort: +16
+Ref: +8
+Will: +13
+Defensive abilities: constructed
+Dr: 15/chaotic
+Regen: 10 (chaotic)
+Sr: 26
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +27 (2d6+12 plus 3d6 electricity or sonic and blindness or deafness)
+Reach: 10
+Space: 10
+Spec Att: fists of lightning and thunder
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+Constant: air walk, true seeing
+At will: dimension door, fear (DC 21), greater command (DC 22), greater dispel magic, mass inflict light wounds (DC 22), locate creature
+Per day: 1/day: chain lightning (DC 23), circle of death (DC 23), mark of justice, wall of force
+Per week: earthquake (DC 25), geas/quest, plane shift (DC 22)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 35, Dex 16, Con 23, Int 12, Wis 17, Cha 24
+Base attack bonus: +16
+Combat maneuver bonus: +29
+Combat maneuver defense: 43
+Feats: Ability Focus (fists of lightning and thunder), Awesome Blow, Combat Casting, Dodge, Improved Bull Rush, Improved Vital Strike, Power Attack, Vital Strike
+Skills: Diplomacy +26, Intimidate +26, Knowledge (planes) +20, Perception +26
+Racial Modifiers: +4 Perception
+Languages: truespeech
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +1 dodge, +17 natural, -1 size
-
-**Hit points:** 214 (16d10+126)
-
-**Fort:** +16
-
-**Ref:** +8
-
-**Will:** +13
-
-**Defensive abilities:** constructed
-
-**Dr:** 15/chaotic
-
-**Regen:** 10 (chaotic)
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +27 (2d6+12 plus 3d6 electricity or sonic and blindness or deafness)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** fists of lightning and thunder
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**Constant:**
-
-- air walk, true seeing
-
-**At will:**
-
-- dimension door, fear (DC 21), greater command (DC 22), greater dispel magic, mass inflict light
-  wounds (DC 22), locate creature
-
-**Per day:**
-
-- 1/day: chain lightning (DC 23), circle of death (DC 23), mark of justice, wall of force
-
-**Per week:**
-
-- earthquake (DC 25), geas/quest, plane shift (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 16, Con 23, Int 12, Wis 17, Cha 24
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 43
-
-**Feats:** Ability Focus (fists of lightning and thunder), Awesome Blow, Combat Casting, Dodge,
-Improved Bull Rush, Improved Vital Strike, Power Attack, Vital Strike
-
-**Skills:** Diplomacy +26, Intimidate +26, Knowledge (planes) +20, Perception +26
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** truespeech
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or patrol (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or patrol (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

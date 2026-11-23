@@ -31,102 +31,75 @@ abilities = ["46", "14", "25", "6", "27", "13"]
 
 _Waves of searing heat ripple from the stony, gem-encrusted hide of this enormous whale-like beast._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+blindsense: 60
+Size: colossal
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 76,800
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 31
+Touch: 4
+Flat-footed: 29
+AC modifiers: +2 Dex, +27 natural, -8 size
+Hit points: 250 (20d10+140)
+Fort: +19
+Ref: +14
+Will: +16
+Defensive abilities: flaming body
+Dr: 15/adamantine and piercing
+Immune: fire, paralysis, poison, sleep
+Resist: cold 15
+Vulner: sonic
+:::
 
-**Initiative:** +6
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: burrow 20 ft., swim 60 ft., fly 20 ft. (clumsy)
+Capsize: present
+Melee: bite +30 (4d10+18/19-20 plus 2d6 fire), tail slap +25 (6d6+9 plus 2d6 fire)
+Reach: 30
+Space: 30
+Spec Att: magma spray
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +21
+Per day: 1/day: plane shift, Elemental Planes or Material Plane only
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 46, Dex 14, Con 25, Int 6, Wis 27, Cha 13
+Base attack bonus: +20
+Combat maneuver bonus: +46 (+48 bull rush)
+Combat maneuver defense: 58 (60 vs. bull rush)
+Feats: Awesome Blow, Critical Focus, Diehard, Endurance, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Staggering Critical
+Skills: Fly -1
+Languages: Aquan, Auran, Ignan, Terran (can't speak)
+Special qualities: elemental heart, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 4
-
-**Flat-footed:** 29
-
-**AC modifiers:** +2 Dex, +27 natural, -8 size
-
-**Hit points:** 250 (20d10+140)
-
-**Fort:** +19
-
-**Ref:** +14
-
-**Will:** +16
-
-**Defensive abilities:** flaming body
-
-**Dr:** 15/adamantine and piercing
-
-**Immune:** fire, paralysis, poison, sleep
-
-**Resist:** cold 15
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** burrow 20 ft., swim 60 ft., fly 20 ft. (clumsy)
-
-**Capsize:** present
-
-**Melee:** bite +30 (4d10+18/19-20 plus 2d6 fire), tail slap +25 (6d6+9 plus 2d6 fire)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** magma spray
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +21
-
-**Per day:**
-
-- 1/day: plane shift, Elemental Planes or Material Plane only
-
-**Statistics**
-
-**Ability scores:** Str 46, Dex 14, Con 25, Int 6, Wis 27, Cha 13
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +46 (+48 bull rush)
-
-**Combat maneuver defense:** 58 (60 vs. bull rush)
-
-**Feats:** Awesome Blow, Critical Focus, Diehard, Endurance, Improved Bull Rush, Improved Critical
-(bite), Improved Initiative, Iron Will, Power Attack, Staggering Critical
-
-**Skills:** Fly -1
-
-**Languages:** Aquan, Auran, Ignan, Terran (can't speak)
-
-**Special qualities:** elemental heart, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, or pod (3-8)
-
-**Treasure:** Standard; gems only
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, or pod (3-8)
+Treasure: Standard; gems only
+:::
 
 ### Special Abilities
 

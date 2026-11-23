@@ -37,110 +37,78 @@ behind the intact eye lenses as the head starts to rise. The same glow behind th
 illuminates a gaping mouth and bony fangs. Then a terrifying, painful hiss assaults your mind as the
 serpent slithers forward with a silent, unearthly grace._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: desiccation (30 ft., 1d4 Cha damage, Fort DC 26 negates)
+Initiative: +9
+Size: large
+Lifesense: present
+Alignment: Neutral evil
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Reptilian
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** desiccation (30 ft., 1d4 Cha damage, Fort DC 26 negates)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 31
+Touch: 19
+Flat-footed: 21
+AC modifiers: +9 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 230 (20d8+140)
+Fort: +14
+Ref: +17
+Will: +18
+Chan Res: +4
+Dr: 10/magic and silver
+Fh: 10
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 27
+:::
 
-**Size:** large
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Ch N En: 8d6, DC 24, 9/day
+Constrict: 4d10+10 plus energy drain
+E Drain: 1 level, DC 26
+Melee: bite +23 (4d10+10 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: dissonant hiss, life-stealing coils
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+Constant: deathwatch, freedom of movement
+Per day: 1/day: horrid wilting (DC 24), waves of exhaustion
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 25, Dex 29, Con -, Int 6, Wis 19, Cha 22
+Base attack bonus: +15
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Agile Maneuvers, Channel Smite, Dodge, Great Fortitude, Iron Will, Lightning Reflexes, Lunge, Toughness, Vital Strike, Weapon Finesse
+Skills: Climb +28, Escape Artist +19, Perception +17, Stealth +18
+Languages: Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Reptilian
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 76,800
-
-**Armor class:** 31
-
-**Touch:** 19
-
-**Flat-footed:** 21
-
-**AC modifiers:** +9 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 230 (20d8+140)
-
-**Fort:** +14
-
-**Ref:** +17
-
-**Will:** +18
-
-**Chan Res:** +4
-
-**Dr:** 10/magic and silver
-
-**Fh:** 10
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Ch N En:** 8d6, DC 24, 9/day
-
-**Constrict:** 4d10+10 plus energy drain
-
-**E Drain:** 1 level, DC 26
-
-**Melee:** bite +23 (4d10+10 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** dissonant hiss, life-stealing coils
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**Constant:**
-
-- deathwatch, freedom of movement
-
-**Per day:**
-
-- 1/day: horrid wilting (DC 24), waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 29, Con -, Int 6, Wis 19, Cha 22
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Agile Maneuvers, Channel Smite, Dodge, Great Fortitude, Iron Will, Lightning Reflexes,
-Lunge, Toughness, Vital Strike, Weapon Finesse
-
-**Skills:** Climb +28, Escape Artist +19, Perception +17, Stealth +18
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** Double
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or nest (3-8)
+Treasure: Double
+:::
 
 ### Special Abilities
 

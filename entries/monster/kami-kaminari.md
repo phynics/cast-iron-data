@@ -30,107 +30,76 @@ abilities = ["28", "21", "22", "16", "17", "25"]
 _This enormous humanoid possesses vibrant green skin and equally loud hair, and is surrounded by a
 ring of huge drums and storm clouds._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +9
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft.
+Subtype: Air, Kami, Native
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 13
+Flat-footed: 27
+AC modifiers: +5 Dex, +19 natural, -2 size
+Hit points: 264 (23d10+138)
+Fort: +19
+Ref: +12
+Will: +18
+Dr: 15/cold iron
+Fh: 15
+Immune: bleed, electricity, mind-affecting effects, petrification, polymorph, sonic
+Resist: acid 10, fire 10
+Sr: 28
+Weaknesses: vulnerable to silence
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 slams +30 (2d8+9 plus cacophonous blow)
+Reach: 15
+Space: 15
+Trample: 2d8+13 plus cacophonous blow, DC 30
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+At will: invisibility, self only, shatter (DC 19), sound burst (DC 19)
+Per day: 3/day: control weather, deafening song bolt, discordant blast, greater dispel magic, mass cacophonous call (DC 22)\
+1/day: empowered chain lightning (DC 23), greater shout (DC 25), storm of vengeance (DC 26)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Air, Kami, Native
+::: statblock
+Ability scores: Str 28, Dex 21, Con 22, Int 16, Wis 17, Cha 25
+Base attack bonus: +23
+Combat maneuver bonus: +34
+Combat maneuver defense: 49
+Feats: Blind-Fight, Cleave, Combat Reflexes, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (chain lightning), Great Cleave, Improved Initiative, Improved Vital Strike, Iron Will, Power Attack, Stand Still, Trample, Vital Strike
+Skills: Bluff +33, Diplomacy +33, Perform (percussion) +30, Sense Motive +29
+Languages: Auran, Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, storm ward
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 32
-
-**Touch:** 13
-
-**Flat-footed:** 27
-
-**AC modifiers:** +5 Dex, +19 natural, -2 size
-
-**Hit points:** 264 (23d10+138)
-
-**Fort:** +19
-
-**Ref:** +12
-
-**Will:** +18
-
-**Dr:** 15/cold iron
-
-**Fh:** 15
-
-**Immune:** bleed, electricity, mind-affecting effects, petrification, polymorph, sonic
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 28
-
-**Weaknesses:** vulnerable to silence
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slams +30 (2d8+9 plus cacophonous blow)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 2d8+13 plus cacophonous blow, DC 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**At will:**
-
-- invisibility, self only, shatter (DC 19), sound burst (DC 19)
-
-**Per day:**
-
-- 3/day: control weather, deafening song bolt, discordant blast, greater dispel magic, mass
-  cacophonous call (DC 22)
-- 1/day: empowered chain lightning (DC 23), greater shout (DC 25), storm of vengeance (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 21, Con 22, Int 16, Wis 17, Cha 25
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 49
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (chain lightning), Great Cleave, Improved
-Initiative, Improved Vital Strike, Iron Will, Power Attack, Stand Still, Trample, Vital Strike
-
-**Skills:** Bluff +33, Diplomacy +33, Perform (percussion) +30, Sense Motive +29
-
-**Languages:** Auran, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, storm ward
-
-**Ecology**
-
-**Environment:** temperate skies, hills, and mountains
-
-**Organization:** solitary, duet, or symphony (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate skies, hills, and mountains
+Organization: solitary, duet, or symphony (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

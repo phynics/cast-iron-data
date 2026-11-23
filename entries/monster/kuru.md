@@ -32,50 +32,41 @@ abilities = ["19", "10", "16", "10", "14", "13"]
 _Disturbing tribal tattoos cover this red-eyed humanoid's face, and his jagged teeth appear to have
 been filed down to points._
 
-**Challenge rating:** 1/2
-
 **Male [barbarian](ref/class/barbarian) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: +6
+Senses: Low-light vision
+Subtype: Kuru
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 12
+Touch: 8
+Flat-footed: 12
+AC modifiers: +4 armor, -2 rage
+Hit points: 16 (1d12+4)
+Fort: +5
+Ref: +2
+Will: +4
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +6
-
-**Senses:** Low-light vision
-
-**Subtype:** Kuru\
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 8
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 armor, -2 rage
-
-**Hit points:** 16 (1d12+4)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +4
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** club +5 (1d6+6), bite +0 (1d6+2 plus cannibalistic vitality)
-
-**Spec Att:** rage (5 rounds/day)
+::: statblock
+Speed: 40 ft.
+Melee: club +5 (1d6+6), bite +0 (1d6+2 plus cannibalistic vitality)
+Spec Att: rage (5 rounds/day)
+:::
 
 ### Tactics
 
@@ -83,30 +74,25 @@ been filed down to points._
 hp 14; Fort +3, Will +2; Melee club +3 (1d6+4), bite -2 (1d6+1 plus cannibalistic vitality); Str 15,
 Con 12; CMB 3, CMD 13; Climb +3
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 19, Dex 10, Con 16, Int 10, Wis 14, Cha 13
+::: statblock
+Ability scores: Str 19, Dex 10, Con 16, Int 10, Wis 14, Cha 13
+Base attack bonus: +1
+Combat maneuver bonus: +5
+Combat maneuver defense: 13
+Feats: Lightning Reflexes
+Skills: Climb +5, Intimidate +5, Perception +6
+Special qualities: fast movement, kuru courage
+:::
 
-**Base attack bonus:** +1
+### Ecology
 
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 13
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Climb +5, Intimidate +5, Perception +6
-
-**Special qualities:** fast movement, kuru courage
-
-**Ecology**
-
-**Environment:** any coastal
-
-**Organization:** pair, gang (3-6), raid (7-15), or tribe (16+ plus 33% noncombatants, 1 shaman of
-3rd level per 20 adults, and 1 leader of 5th-7th level)
-
-**Treasure:** NPC gear (Ah); other treasure
+::: statblock
+Environment: any coastal
+Organization: pair, gang (3-6), raid (7-15), or tribe (16+ plus 33% noncombatants, 1 shaman of 3rd level per 20 adults, and 1 leader of 5th-7th level)
+Treasure: NPC gear (Ah); other treasure
+:::
 
 ### Special Abilities
 

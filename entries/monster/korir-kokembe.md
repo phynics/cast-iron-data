@@ -30,108 +30,76 @@ abilities = ["25", "15", "18", "10", "14", "15"]
 _This green-tined dragon has multiple sets of legs down its long, sinuous body. An oversized gullet
 bulges in its throat._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 18)
+Type: dragon
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 9,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 18)
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 22
+AC modifiers: +2 Dex, +14 natural, -2 size
+Hit points: 136 (13d12+52)
+Fort: +12
+Ref: +12
+Will: +10
+Immune: disease, dragon traits, magic paralysis and sleep
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 40 ft., fly 80 ft. (good)
+Constrict: 2d6+7
+Grab: Gargantuan
+Melee: bite +18 (2d6+10 plus disease and grab), 2 claws +18 (2d6+7/19-20 plus grab), tail slap +13 (2d6+3 plus grab)
+Rake: 2 claws +18, 2d6+7/19-20
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 15
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +15
+Constant: freedom of movement
+At will: repel vermin (DC 16), vomit swarm, must wait 1d4 rounds before using this ability again
+Per day: 3/day: entangle (DC 13)\
+1/day: creeping doom (DC 19), insect plague
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 15, Con 18, Int 10, Wis 14, Cha 15
+Base attack bonus: +13
+Combat maneuver bonus: +22 (+26 grapple)
+Combat maneuver defense: 34 (46 vs. trip)
+Feats: Critical Focus, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Power Attack, Sickening Critical, Wingover
+Skills: Climb +21, Fly +15
+Racial Modifiers: +8 Stealth in jungles
+Languages: Draconic
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +14 natural, -2 size
-
-**Hit points:** 136 (13d12+52)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +10
-
-**Immune:** disease, dragon traits, magic paralysis and sleep
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 40 ft., fly 80 ft. (good)
-
-**Constrict:** 2d6+7
-
-**Grab:** Gargantuan
-
-**Melee:** bite +18 (2d6+10 plus disease and grab), 2 claws +18 (2d6+7/19-20 plus grab), tail slap
-+13 (2d6+3 plus grab)
-
-**Rake:** 2 claws +18, 2d6+7/19-20
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +15
-
-**Constant:**
-
-- freedom of movement
-
-**At will:**
-
-- repel vermin (DC 16), vomit swarm, must wait 1d4 rounds before using this ability again
-
-**Per day:**
-
-- 3/day: entangle (DC 13)
-- 1/day: creeping doom (DC 19), insect plague
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 15, Con 18, Int 10, Wis 14, Cha 15
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22 (+26 grapple)
-
-**Combat maneuver defense:** 34 (46 vs. trip)
-
-**Feats:** Critical Focus, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Power
-Attack, Sickening Critical, Wingover
-
-**Skills:** Climb +21, Fly +15
-
-**Racial Modifiers:** +8 Stealth in jungles
-
-**Languages:** Draconic
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** warm jungles (Mwangi Expanse)
-
-**Organization:** solitary or nest (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm jungles (Mwangi Expanse)
+Organization: solitary or nest (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

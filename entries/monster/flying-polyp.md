@@ -34,108 +34,77 @@ abilities = ["28", "15", "24", "19", "20", "21"]
 _This nauseating, tapered tower of flesh, eyes, and tendrils writhes midair, surrounded by a strange
 vortex of sucking wind._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (90 ft., DC 24)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +6
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Air
+Experience points: 38,400
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (90 ft., DC 24)
+::: statblock
+Armor class: 29
+Touch: 16
+Flat-footed: 26
+AC modifiers: +5 deflection, +2 Dex, +1 dodge, +13 natural, -2 size
+Hit points: 207 (18d8+126)
+Fort: +13
+Ref: +12
+Will: +16
+Amorph: present
+Defensive abilities: deflecting winds, partial invisibility
+Dr: 10/magic and slashing
+Immune: acid, cold, sonic
+Sr: 25
+Vulner: electricity
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Constrict: 1d8+9
+Melee: 4 tentacles +21 (1d8+9/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: sucking wind, wind blast
+:::
 
-**Initiative:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+At will: alter winds, gust of wind (DC 17), whispering wind, wind walk
+Per day: 3/day: control winds (DC 20), river of wind (DC 19), wind wall\
+1/day: control weather, whirlwind (DC 23)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 28, Dex 15, Con 24, Int 19, Wis 20, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 42 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Critical (tentacle), Improved Initiative, Mobility, Power Attack, Vital Strike, Weapon Focus (tentacle)
+Skills: Fly +27, Knowledge (engineering, history) +22, Perception +26, Spellcraft +25, Stealth +15, Use Magic Device +23
+Languages: Aklo
+:::
 
-**Subtype:** Air
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 16
-
-**Flat-footed:** 26
-
-**AC modifiers:** +5 deflection, +2 Dex, +1 dodge, +13 natural, -2 size
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +13
-
-**Ref:** +12
-
-**Will:** +16
-
-**Amorph:** present
-
-**Defensive abilities:** deflecting winds, partial invisibility
-
-**Dr:** 10/magic and slashing
-
-**Immune:** acid, cold, sonic
-
-**Sr:** 25
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Constrict:** 1d8+9
-
-**Melee:** 4 tentacles +21 (1d8+9/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** sucking wind, wind blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**At will:**
-
-- alter winds, gust of wind (DC 17), whispering wind, wind walk
-
-**Per day:**
-
-- 3/day: control winds (DC 20), river of wind (DC 19), wind wall
-- 1/day: control weather, whirlwind (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 15, Con 24, Int 19, Wis 20, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Critical (tentacle), Improved Initiative,
-Mobility, Power Attack, Vital Strike, Weapon Focus (tentacle)
-
-**Skills:** Fly +27, Knowledge (engineering, history) +22, Perception +26, Spellcraft +25, Stealth
-+15, Use Magic Device +23
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or storm (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or storm (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,71 +31,58 @@ abilities = ["10", "1", "26", "-", "1", "1"]
 _Bits of broken weapons, coins, and a partially digested skeleton are visible inside this quivering
 cube of slime._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsight: 60
+Initiative: -5
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Experience points: 800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 4
+Touch: 4
+Flat-footed: 4
+AC modifiers: -5 Dex, -1 size
+Hit points: 50 (4d8+32)
+Fort: +9
+Ref: -4
+Will: -4
+Immune: electricity, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft.
+Melee: slam +2 (1d6 plus 1d6 acid)
+Reach: 5
+Space: 10
+Spec Att: engulf, paralysis
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 10, Dex 1, Con 26, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 9 (can't be tripped)
+Special qualities: transparent
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 4
-
-**Touch:** 4
-
-**Flat-footed:** 4
-
-**AC modifiers:** -5 Dex, -1 size
-
-**Hit points:** 50 (4d8+32)
-
-**Fort:** +9
-
-**Ref:** -4
-
-**Will:** -4
-
-**Immune:** electricity, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Melee:** slam +2 (1d6 plus 1d6 acid)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** engulf, paralysis
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 1, Con 26, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Special qualities:** transparent
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

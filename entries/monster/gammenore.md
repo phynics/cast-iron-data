@@ -32,84 +32,64 @@ _Spikes of ice jut from the carapace of this stocky crustacean. It scuttles side
 legs with surprising speed, while its two pincers - one small and sharp, the other monstrously
 large - flex in anticipation of combat._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Experience points: 4,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 21
+AC modifiers: +1 Dex, +12 natural, -1 size
+Hit points: 102 (12d10+36)
+Fort: +11
+Ref: +11
+Will: +7
+Defensive abilities: shell of ice
+Immune: cold
+Vulner: fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Constrict: 2d6+9
+Melee: claw +17 (1d6+6/19-20), pincer +17 (2d6+9 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: ice spikes, oversized pincer
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 12, Con 16, Int 3, Wis 16, Cha 7
+Base attack bonus: +12
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 30 (42 vs. trip)
+Feats: Combat Reflexes, Improved Critical (claw), Improved Initiative, Lightning Reflexes, Lunge, Power Attack
+Skills: Climb +14, Perception +10, Stealth +8 (+16 in icy or snowy terrain)
+Racial Modifiers: +8 Stealth in icy or snowy terrain
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +12 natural, -1 size
-
-**Hit points:** 102 (12d10+36)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +7
-
-**Defensive abilities:** shell of ice
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Constrict:** 2d6+9
-
-**Melee:** claw +17 (1d6+6/19-20), pincer +17 (2d6+9 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ice spikes, oversized pincer
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 12, Con 16, Int 3, Wis 16, Cha 7
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 30 (42 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Critical (claw), Improved Initiative, Lightning Reflexes,
-Lunge, Power Attack
-
-**Skills:** Climb +14, Perception +10, Stealth +8 (+16 in icy or snowy terrain)
-
-**Racial Modifiers:** +8 Stealth in icy or snowy terrain
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary, pair, or cluster (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: any cold
+Organization: solitary, pair, or cluster (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

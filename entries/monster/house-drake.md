@@ -30,94 +30,71 @@ abilities = ["11", "15", "17", "12", "14", "14"]
 _The eyes of this purple-scaled dragon glint with a mischievous intelligence and the sting of its
 tail has a silvery sheen._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic good
+Type: dragon
+Initiative: +2
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent, See invisibility
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** dragon
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 19 (2d12+6)
+Fort: +6
+Ref: +5
+Will: +7
+Defensive abilities: ferocious will
+Immune: paralysis, sleep
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: bite +6 (1d4), sting +6 (1d4)
+Reach: 0
+Reach P: 5 ft. with tail
+Space: 0
+Spec Att: breath weapon, silver strike
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, See invisibility
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+Constant: see invisibility
+Per day: 3/day: cure light wounds\
+1/day: alarm, CL 12th, obscuring mist
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 11, Dex 15, Con 17, Int 12, Wis 14, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 12
+Feats: Weapon Finesse
+Skills: Acrobatics +4, Fly +15, Knowledge (local) +6, Perception +7
+Languages: Common, Draconic, Infernal
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 19 (2d12+6)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +7
-
-**Defensive abilities:** ferocious will
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** bite +6 (1d4), sting +6 (1d4)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tail
-
-**Space:** 0
-
-**Spec Att:** breath weapon, silver strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**Constant:**
-
-- see invisibility
-
-**Per day:**
-
-- 3/day: cure light wounds
-- 1/day: alarm, CL 12th, obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 17, Int 12, Wis 14, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +4, Fly +15, Knowledge (local) +6, Perception +7
-
-**Languages:** Common, Draconic, Infernal
-
-**Ecology**
-
-**Environment:** urban (Korvosa)
-
-**Organization:** solitary, pair, or clutch (3-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: urban (Korvosa)
+Organization: solitary, pair, or clutch (3-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

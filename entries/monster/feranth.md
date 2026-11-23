@@ -30,84 +30,64 @@ abilities = ["26", "7", "20", "4", "17", "7"]
 _A droning hum announces the presence of this enormous horned beast. Powerful muscles ripple just
 beneath its mottled black hide._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: huge
+Initiative: -2
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 120
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 6
+Flat-footed: 29
+AC modifiers: -2 Dex, +23 natural, -2 size
+Hit points: 218 (19d10+114)
+Fort: +16
+Ref: +9
+Will: +11
+Defensive abilities: hardened body
+Dr: 5/adamantine
+Ferocity: present
+:::
 
-**Initiative:** -2
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 50 ft., burrow 30 ft.
+Melee: bite +25 (2d6+8), 2 claws +25 (1d8+8), gore +25 (2d6+8 plus push)
+Push: gore, 10 ft.
+Reach: 15
+Space: 15
+Spec Att: ambush, burrowing charge, quick strike, skull-splitting roar
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 7, Con 20, Int 4, Wis 17, Cha 7
+Base attack bonus: +19
+Combat maneuver bonus: +29 (+31 bull rush)
+Combat maneuver defense: 37 (39 vs. bull rush, 41 vs. trip)
+Feats: Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Iron Will, Iron Will, Power Attack, Run, Stunning Assault, Toughness
+Skills: Acrobatics +10 (+18 when jumping), Climb +15, Perception +16
+Racial Modifiers: +8 Acrobatics when jumping, +4 Perception
+:::
 
-**tremorsense:** 120
+### Ecology {#stat-ecology}
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 6
-
-**Flat-footed:** 29
-
-**AC modifiers:** -2 Dex, +23 natural, -2 size
-
-**Hit points:** 218 (19d10+114)
-
-**Fort:** +16
-
-**Ref:** +9
-
-**Will:** +11
-
-**Defensive abilities:** hardened body
-
-**Dr:** 5/adamantine
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 50 ft., burrow 30 ft.
-
-**Melee:** bite +25 (2d6+8), 2 claws +25 (1d8+8), gore +25 (2d6+8 plus push)
-
-**Push:** gore, 10 ft.
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** ambush, burrowing charge, quick strike, skull-splitting roar
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 7, Con 20, Int 4, Wis 17, Cha 7
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +29 (+31 bull rush)
-
-**Combat maneuver defense:** 37 (39 vs. bull rush, 41 vs. trip)
-
-**Feats:** Awesome Blow, Cleave, Great Cleave, Improved Bull Rush, Improved Iron Will, Iron Will,
-Power Attack, Run, Stunning Assault, Toughness
-
-**Skills:** Acrobatics +10 (+18 when jumping), Climb +15, Perception +16
-
-**Racial Modifiers:** +8 Acrobatics when jumping, +4 Perception
-
-**Ecology**
-
-**Environment:** warm deserts or mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts or mountains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

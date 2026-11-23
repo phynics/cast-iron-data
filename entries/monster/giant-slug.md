@@ -31,75 +31,60 @@ abilities = ["27", "2", "18", "-", "10", "1"]
 _This massive, gray-brown slug leaves a viscous trail of slime in its wake as a long rasping tongue
 tastes the air for prey._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+blindsight: 60
+Size: huge
+Initiative: -4
+Alignment: Neutral
+Perception: +0
+Type: vermin
+Experience points: 4,800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 4
+Flat-footed: 20
+AC modifiers: -4 Dex, +16 natural, -2 size
+Hit points: 102 (12d8+48)
+Fort: +12
+Ref: +0
+Will: +4
+Dr: 10/slashing or piercing
+Immune: acid, mind-affecting effects
+Weaknesses: susceptible to salt
+:::
 
-**Initiative:** -4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: tongue +15 (2d10+12 plus 2d8 acid)
+Ranged: spit acid +3 (10d6 acid)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +0
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 27, Dex 2, Con 18, Int -, Wis 10, Cha 1
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 25 (can't be tripped)
+Special qualities: malleable
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 4
-
-**Flat-footed:** 20
-
-**AC modifiers:** -4 Dex, +16 natural, -2 size
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +12
-
-**Ref:** +0
-
-**Will:** +4
-
-**Dr:** 10/slashing or piercing
-
-**Immune:** acid, mind-affecting effects
-
-**Weaknesses:** susceptible to salt
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** tongue +15 (2d10+12 plus 2d8 acid)
-
-**Ranged:** spit acid +3 (10d6 acid)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 2, Con 18, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Special qualities:** malleable
-
-**Ecology**
-
-**Environment:** temperate and warm marshes and underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate and warm marshes and underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

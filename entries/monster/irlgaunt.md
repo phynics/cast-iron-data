@@ -35,92 +35,70 @@ a thing of angry red flesh and soft pink tendrils. Two gaping orifices full of t
 lower body - a mouth-like slit surrounded by numerous narrow red eyes and, above that, an oozing
 alien aperture._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+Initiative: +13
+Size: large
+Alignment: Neutral evil
+Perception: +21
+Senses: Darkvision 60 ft.
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 29
+Touch: 18
+Flat-footed: 20
+AC modifiers: +9 Dex, +11 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +15
+Will: +13
+Dr: 10/bludgeoning
+Immune: acid, cold
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 2 slams +17 (1d8+8 plus 1d6 acid), bite +17 (1d8+8)
+Ranged: 1 gastrolith +18 (2d6+8 plus 2d6 acid)
+Reach: 5
+Space: 10
+Spec Att: gastrolith
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+At will: stone shape
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 27, Dex 29, Con 20, Int 16, Wis 18, Cha 19
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 38 (42 vs. trip)
+Feats: Blind-Fight, Combat Reflexes, Deadly Aim, Improved Initiative, Improved Lightning Reflexes, Lightning Reflexes, Run
+Skills: Acrobatics +26 (+30 jump), Climb +33, Disguise +18, Fly +0
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Aklo, Common, Giant, Terran
+Special qualities: stone step
+:::
 
-**Armor class:** 29
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +9 Dex, +11 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +15
-
-**Will:** +13
-
-**Dr:** 10/bludgeoning
-
-**Immune:** acid, cold
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 2 slams +17 (1d8+8 plus 1d6 acid), bite +17 (1d8+8)
-
-**Ranged:** 1 gastrolith +18 (2d6+8 plus 2d6 acid)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** gastrolith
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**At will:**
-
-- stone shape
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 29, Con 20, Int 16, Wis 18, Cha 19
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 38 (42 vs. trip)
-
-**Feats:** Blind-Fight, Combat Reflexes, Deadly Aim, Improved Initiative, Improved Lightning
-Reflexes, Lightning Reflexes, Run
-
-**Skills:** Acrobatics +26 (+30 jump), Climb +33, Disguise +18, Fly +0
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Aklo, Common, Giant, Terran
-
-**Special qualities:** stone step
-
-**Ecology**
-
-**Environment:** any mountains or underground
-
-**Organization:** solitary, pair, swarm (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any mountains or underground
+Organization: solitary, pair, swarm (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

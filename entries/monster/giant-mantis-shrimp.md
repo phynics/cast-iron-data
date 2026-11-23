@@ -30,72 +30,58 @@ abilities = ["18", "25", "16", "-", "13", "16"]
 
 _This brightly colored crustacean looks like a large lobster with cruel pincers poised at its fore._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Incredible sight
+Subtype: Aquatic
+Type: vermin
+Experience points: 6,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 17
+Flat-footed: 19
+AC modifiers: +7 Dex, +9 natural
+Hit points: 105 (14d8+42)
+Fort: +12
+Ref: +11
+Will: +5
+Immune: mind-affecting effects
+Resist: sonic 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 40 ft., swim 30 ft.
+Melee: pincer +17/+12 (2d6+4 plus [grab](ref/umr/grab) and sonic burst), pincer +17 (2d6+4 plus grab and sonic burst)
+Spec Att: sonic burst, speedy pincers
+:::
 
-**Senses:** Darkvision 60 ft., Incredible sight
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 18, Dex 25, Con 16, Int -, Wis 13, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 31 (43 vs. trip)
+Feats: Weapon Finesse
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 26
-
-**Touch:** 17
-
-**Flat-footed:** 19
-
-**AC modifiers:** +7 Dex, +9 natural
-
-**Hit points:** 105 (14d8+42)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +5
-
-**Immune:** mind-affecting effects
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 40 ft., swim 30 ft.
-
-**Melee:** pincer +17/+12 (2d6+4 plus [grab](ref/umr/grab) and sonic burst), pincer +17 (2d6+4 plus
-grab and sonic burst)
-
-**Spec Att:** sonic burst, speedy pincers
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 16, Int -, Wis 13, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 31 (43 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Ecology**
-
-**Environment:** warm coastlines
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

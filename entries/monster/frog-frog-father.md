@@ -29,81 +29,63 @@ abilities = ["23", "13", "20", "1", "10", "6"]
 
 _This elephantine amphibian has a grotesquely long tongue and beady eyes._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 17
+AC modifiers: +1 Dex, +9 natural, -2 size
+Hit points: 57 (6d8+30)
+Fort: +10
+Ref: +8
+Will: +4
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+F Swallow: present
+Melee: bite +8 (3d6+9 plus [grab](ref/umr/grab)), tongue +8 (grab)
+Pull: tongue, 10 ft.
+Reach: 10
+Reach P: 30 ft. with tongue
+Space: 15
+Spec Att: tongue
+Swallow: 2d6 bludgeoning damage, AC 14, 5 hp
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 13, Con 20, Int 1, Wis 10, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +12
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Iron Will, Lightning Reflexes, Skill Focus (Acrobatics)
+Skills: Acrobatics +12 (+20 jumping), Perception +10, Stealth +2, Swim +14
+Racial Modifiers: +4 Acrobatics (+12 jumping), +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +9 natural, -2 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +8 (3d6+9 plus [grab](ref/umr/grab)), tongue +8 (grab)
-
-**Pull:** tongue, 10 ft.
-
-**Reach:** 10
-
-**Reach P:** 30 ft. with tongue
-
-**Space:** 15
-
-**Spec Att:** tongue
-
-**Swallow:** 2d6 bludgeoning damage, AC 14, 5 hp
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 13, Con 20, Int 1, Wis 10, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Iron Will, Lightning Reflexes, Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +12 (+20 jumping), Perception +10, Stealth +2, Swim +14
-
-**Racial Modifiers:** +4 Acrobatics (+12 jumping), +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm marshes or water
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm marshes or water
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

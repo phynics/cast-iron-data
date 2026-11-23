@@ -31,136 +31,88 @@ abilities = ["38", "33", "41", "30", "33", "30"]
 _This green-scaled humanoid has a long, serpentine neck and head, and its brow is marked by a
 distinctive crescent shape._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: unspeakable presence (300 ft., DC 35)
+Alignment: Chaotic neutral
+Initiative: +25
+Size: large
+Type: Monstrous humanoid
+Perception: +45
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Chaotic, Great Old One, Shapechanger
+Experience points: 3,276,800
+:::
 
-**aura:** unspeakable presence (300 ft., DC 35)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 45
+Touch: 30
+Flat-footed: 34
+AC modifiers: +11 Dex, +10 insight, +15 natural, -1 size
+Hit points: 635 (31d10+465)
+Fort: +27
+Ref: +28
+Will: +28
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 35)
+Dr: 15/epic and lawful
+Fh: 20
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, poison
+Resist: acid 30, fire 30
+Sr: 38
+:::
 
-**Initiative:** +25
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., climb 60 ft., swim 60 ft.
+Constrict: 4d10+21
+M Power: 10/day, surge +1d12
+Melee: bite +44 (6d10+21/19-20 plus poison), 2 claws +44 (4d8+21/19-20), tail slap +44 (4d10+21/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 20 ft. with tail slap
+Rend: 2 claws, 4d8+21
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: curse of Yig, serpentine dreams
+:::
 
-**Type:** Monstrous humanoid
-
-**Perception:** +45
-
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Subtype:** Chaotic, Great Old One, Shapechanger
-
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 30
-
-**Flat-footed:** 34
-
-**AC modifiers:** +11 Dex, +10 insight, +15 natural, -1 size
-
-**Hit points:** 635 (31d10+465)
-
-**Fort:** +27
-
-**Ref:** +28
-
-**Will:** +28
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 35)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 20
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, poison
-
-**Resist:** acid 30, fire 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 60 ft., climb 60 ft., swim 60 ft.
-
-**Constrict:** 4d10+21
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** bite +44 (6d10+21/19-20 plus poison), 2 claws +44 (4d8+21/19-20), tail slap +44
-(4d10+21/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with tail slap
-
-**Rend:** 2 claws, 4d8+21
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** curse of Yig, serpentine dreams
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +37
-
-**Constant:**
-
-- air walk, freedom of movement, speak with animals, reptiles only
-
-**At will:**
-
-- awaken, snakes only, baleful polymorph^M^ (DC 25, into harmless snakes only), commune with nature,
-  dimension door^M^, dream^M^, greater dispel magic, nightmare^M^ (DC 25), transport via plants
-
-**Per day:**
-
-- 3/day: demand, quickened feeblemind (DC 25)
-- 1/day: control weather^M^, symbol of persuasion (DC 26), true resurrection
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +37
+Constant: air walk, freedom of movement, speak with animals, reptiles only
+At will: awaken, snakes only, baleful polymorph^M^ (DC 25, into harmless snakes only), commune with nature, dimension door^M^, dream^M^, greater dispel magic, nightmare^M^ (DC 25), transport via plants
+Per day: 3/day: demand, quickened feeblemind (DC 25)\
+1/day: control weather^M^, symbol of persuasion (DC 26), true resurrection
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 38, Dex 33, Con 41, Int 30, Wis 33, Cha 30
+::: statblock
+Ability scores: Str 38, Dex 33, Con 41, Int 30, Wis 33, Cha 30
+Base attack bonus: +31
+Combat maneuver bonus: +46 (+50 sunder)
+Combat maneuver defense: 77 (79 vs. sunder)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Great Fortitude, Greater Sunder, Greater Vital Strike, Improved Critical (bite, claw, tail slap), Improved Initiative, Improved Sunder, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, poison), Vital Strike
+Skills: Acrobatics +42, Climb +56, Handle Animal +41, Heal +42, Use Magic Device +41
+Languages: Aklo, Common, Draconic, Undercommon; _[speak with animals](ref/spell/speak-with-animals)_ (reptiles only), [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any serpentine form; [shapechange](ref/spell/shapechange)), devastating, otherworldly insight
+Faith: Yig
+:::
 
-**Base attack bonus:** +31
+### Ecology
 
-**Combat maneuver bonus:** +46 (+50 sunder)
-
-**Combat maneuver defense:** 77 (79 vs. sunder)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Great Fortitude, Greater Sunder,
-Greater Vital Strike, Improved Critical (bite, claw, tail slap), Improved Initiative, Improved
-Sunder, Improved Vital Strike, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind, poison), Vital Strike
-
-**Skills:** Acrobatics +42, Climb +56, Handle Animal +41, Heal +42, Use Magic Device +41
-
-**Languages:** Aklo, Common, Draconic, Undercommon;
-_[speak with animals](ref/spell/speak-with-animals)_ (reptiles only), [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any serpentine form;
-[shapechange](ref/spell/shapechange)), devastating, otherworldly insight
-
-**Faith:** Yig
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

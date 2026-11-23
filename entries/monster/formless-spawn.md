@@ -30,97 +30,70 @@ abilities = ["23", "29", "22", "15", "12", "15"]
 _This shuddering blot of living tar is surrounded by a mass of writhing tendrils, and its maw opens
 into a dark gullet._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: tendrils (20 ft.)
+blindsight: 120
+Alignment: Chaotic evil
+Size: huge
+Initiative: +9
+Type: ooze
+Perception: +13
+Senses: All-around vision
+tremorsense: 240
+Experience points: 9,600
+:::
 
-**aura:** tendrils (20 ft.)
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 22
+Touch: 22
+Flat-footed: 13
+AC modifiers: +5 deflection, +9 Dex, -2 size
+Hit points: 126 (12d8+72)
+Fort: +10
+Ref: +13
+Will: +5
+Dr: 10/-
+Fh: 10
+Immune: acid, aging effects, [ooze traits](ref/umr/ooze-traits), piercing damage
+Resist: electricity 10
+Sr: 21
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 40 ft.
+F Swallow: present
+Melee: bite +17 (2d6+6 plus [grab](ref/umr/grab)), 4 tentacles +17 (1d6+6)
+Reach: 15
+Reach P: 20 ft. with tentacle
+Space: 15
+Swallow: 2d6+6 damage, AC 12, 12 hp
+:::
 
-**Initiative:** +9
+### Statistics
 
-**Type:** ooze
+::: statblock
+Ability scores: Str 23, Dex 29, Con 22, Int 15, Wis 12, Cha 15
+Base attack bonus: +9
+Combat maneuver bonus: +17
+Combat maneuver defense: 36
+Feats: Combat Expertise, Combat Reflexes, Power Attack, Weapon Finesse, Weapon Focus (bite), Weapon Focus (tentacle)
+Skills: Climb +20
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression), [freeze](ref/umr/freeze), improved swallow whole, tentacles
+:::
 
-**Perception:** +13
+### Ecology
 
-**Senses:** All-around vision
-
-**tremorsense:** 240
-
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 22
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 deflection, +9 Dex, -2 size
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +5
-
-**Dr:** 10/-
-
-**Fh:** 10
-
-**Immune:** acid, aging effects, [ooze traits](ref/umr/ooze-traits), piercing damage
-
-**Resist:** electricity 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 40 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +17 (2d6+6 plus [grab](ref/umr/grab)), 4 tentacles +17 (1d6+6)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with tentacle
-
-**Space:** 15
-
-**Swallow:** 2d6+6 damage, AC 12, 12 hp
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 29, Con 22, Int 15, Wis 12, Cha 15
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 36
-
-**Feats:** Combat Expertise, Combat Reflexes, Power Attack, Weapon Finesse, Weapon Focus (bite),
-Weapon Focus (tentacle)
-
-**Skills:** Climb +20
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression), [freeze](ref/umr/freeze), improved
-swallow whole, tentacles
-
-**Ecology**
-
-**Environment:** temperate ruins
-
-**Organization:** solitary or flood (2-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate ruins
+Organization: solitary or flood (2-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

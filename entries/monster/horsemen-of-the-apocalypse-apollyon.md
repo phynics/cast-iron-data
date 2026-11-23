@@ -31,126 +31,83 @@ abilities = ["42", "27", "40", "31", "32", "33"]
 
 _This muscular figure has a skeletal ram's head and a cloud of flies spews from his mouth._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), plague shadow (10 ft.), unholy aura (DC 29)
+Initiative: +12
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +49
+Senses: Darkvision 60 ft., Detect good, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 6,553,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 38), plague shadow (10 ft.),
-unholy aura (DC 29)
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 47
+Touch: 35
+Flat-footed: 38
+AC modifiers: +4 deflection, +8 Dex, +1 dodge, +12 natural, +12 profane
+Hit points: 717 (35d10+525)
+Fort: +38
+Ref: +23
+Will: +34
+Defensive abilities: apocalyptic resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, acid, charm effects, compulsion effects, death effects, disease, energy drain, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: cold 30, electricity 30, fire 30
+Sr: 40
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., fly 30 ft. (good)
+E Drain: 1d4 levels, DC 38
+Melee: Usher of the Black Rain (scythe) +56/+51/+46/+41 (2d4+29/19-20/×4), bite +46 (6d6+8 plus energy drain and disease), gore +46 (4d6+8)
+Ranged: Usher of the Black Rain (longbow) +48/+43/+38/+33 (1d8+21/×3)
+Spec Att: breath of flies, disease, father of plagues
+:::
 
-**Type:** outsider
-
-**Perception:** +49
-
-**Senses:** Darkvision 60 ft., Detect good, True seeing
-
-**Subtype:** Daemon, Evil, Extraplanar
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 35
-
-**Flat-footed:** 38
-
-**AC modifiers:** +4 deflection, +8 Dex, +1 dodge, +12 natural, +12 profane
-
-**Hit points:** 717 (35d10+525)
-
-**Fort:** +38
-
-**Ref:** +23
-
-**Will:** +34
-
-**Defensive abilities:** apocalyptic resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, acid, charm effects, compulsion effects, death effects,
-disease, energy drain, petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 50 ft., fly 30 ft. (good)
-
-**E Drain:** 1d4 levels, DC 38
-
-**Melee:** Usher of the Black Rain (scythe) +56/+51/+46/+41 (2d4+29/19-20/×4), bite +46 (6d6+8 plus
-energy drain and disease), gore +46 (4d6+8)
-
-**Ranged:** Usher of the Black Rain (longbow) +48/+43/+38/+33 (1d8+21/×3)
-
-**Spec Att:** breath of flies, disease, father of plagues
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +40
-
-**Constant:**
-
-- detect good, freedom of movement, true seeing, unholy aura (DC 29)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 28), creeping doom (DC 28), desecrate^M^, contagion^M^ (DC
-  24), greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 26), unhallow, unholy
-  blight^M^ (DC 25)
-
-**Per day:**
-
-- 3/day: quickened epidemic (DC 27), soul bind (DC 30), summon daemon
-- 1/day: cursed earth (DC 30), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +40
+Constant: detect good, freedom of movement, true seeing, unholy aura (DC 29)
+At will: astral projection, blasphemy^M^ (DC 28), creeping doom (DC 28), desecrate^M^, contagion^M^ (DC 24), greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 26), unhallow, unholy blight^M^ (DC 25)
+Per day: 3/day: quickened epidemic (DC 27), soul bind (DC 30), summon daemon\
+1/day: cursed earth (DC 30), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Apollyon can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 42, Dex 27, Con 40, Int 31, Wis 32, Cha 33
+::: statblock
+Ability scores: Str 42, Dex 27, Con 40, Int 31, Wis 32, Cha 33
+Base attack bonus: +35
+Combat maneuver bonus: +51
+Combat maneuver defense: 86
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Deadly Aim, Dodge, Flyby Attack, Improved Critical (scythe), Improved Initiative, Mobility, Mounted Archery, Mounted Combat, Point-Blank Shot, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (epidemic, plague storm), Ride-By Attack, Sickening Critical, Spirited Charge
+Skills: Acrobatics +43, Bluff +49, Diplomacy +46, Fly +50, Sense Motive +49, Spellcraft +48, Stealth +46, Use Magic Device +49
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: Horseman traits
+Faith: Apollyon
+:::
 
-**Base attack bonus:** +35
+### Ecology
 
-**Combat maneuver bonus:** +51
-
-**Combat maneuver defense:** 86
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Deadly Aim, Dodge, Flyby Attack,
-Improved Critical (scythe), Improved Initiative, Mobility, Mounted Archery, Mounted Combat,
-Point-Blank Shot, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(epidemic, plague storm), Ride-By Attack, Sickening Critical, Spirited Charge
-
-**Skills:** Acrobatics +43, Bluff +49, Diplomacy +46, Fly +50, Sense Motive +49, Spellcraft +48,
-Stealth +46, Use Magic Device +49
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** Horseman traits
-
-**Faith:** Apollyon
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or mounted (Apollyon and the White Horse)
-
-**Treasure:** Triple (Usher of the Black Rain); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or mounted (Apollyon and the White Horse)
+Treasure: Triple (Usher of the Black Rain); other treasure
+:::
 
 ### Special Abilities
 

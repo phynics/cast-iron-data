@@ -31,140 +31,88 @@ abilities = ["52", "33", "43", "29", "32", "30"]
 _An insane tangle of eyes and mouths, arms and legs, tentacles and worse rises up upon itself, a
 mountain of madness come to life._
 
-**Challenge rating:** 29
+::: statblock
+Challenge rating: 29
+Type: aberration
+aura: unspeakable presence (300 ft., DC 39)
+blindsight: 60
+Size: colossal
+Initiative: +25
+Alignment: Neutral evil
+Perception: +49
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Evil, Great Old One
+Experience points: 6,553,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 39)
+::: statblock
+Armor class: 47
+Touch: 24
+Flat-footed: 35
+AC modifiers: +11 Dex, +1 dodge, +10 insight, +23 natural, -8 size
+Hit points: 717 (35d8+560)
+Fort: +29
+Ref: +24
+Will: +30
+Amorph: present
+Defensive abilities: all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 37)
+Dr: 15/epic and lawful
+Fh: 25
+Immune: ability damage, ability drain, aging, cold, death effects, disease, electricity, energy drain, mind-affecting effects, negative energy, paralysis, and petrification
+Resist: fire 30
+Sr: 40
+:::
 
-**blindsight:** 60
+### Offense
 
-**Size:** colossal
+::: statblock
+Speed: 90 ft., swim 90 ft.
+Constrict: 2d8+31
+F Swallow: present
+M Power: 10/day, surge +1d12
+Melee: 3 bites +40 (4d6+21/19-20 plus [grab](ref/umr/grab)), 6 tentacles +38 (2d8+10/19-20 plus grab)
+Pounce: present
+Reach: 30
+Reach P: 60 ft. with tentacles
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 30
+Spec Att: apocalyptic dreams, create mummified creature, overwhelming devastation
+Swallow: 10d6+31 bludgeoning plus 10d6 negative energy damage, AC 21, 71 hp
+:::
 
-**Initiative:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +39
+Constant: air walk, freedom of movement, true seeing
+At will: black tentacles, control weather, create undead, mummies only, dream, greater dispel magic, insanity (DC 27), nightmare (DC 25), project image (DC 27), sending
+Per day: 3/day: demand (DC 28), earthquake, quickened feeblemind (DC 25), vortex (DC 27), weird (DC 29)\
+1/day: imprisonment (DC 29), storm of vengeance (DC 29), symbol of insanity (DC 28), tsunami (DC 29)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +49
+::: statblock
+Ability scores: Str 52, Dex 33, Con 43, Int 29, Wis 32, Cha 30
+Base attack bonus: +26
+Combat maneuver bonus: +55 (+57 bull rush, +57 sunder)
+Combat maneuver defense: 87 (89 vs. bull rush, 89 vs. sunder, can't be tripped)
+Feats: Ability Focus (unspeakable presence), Awesome Blow, Combat Reflexes, Critical Focus, Dodge, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Critical (tentacle), Improved Initiative, Improved Sunder, Lightning Reflexes, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Staggering Critical, Weapon Focus (bite), Weapon Focus (tentacle)
+Skills: Climb +59, Use Magic Device +45
+Languages: Aklo, Aquan, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), Great Old One traits, otherworldly insight
+Faith: Ghatanothoa
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Ecology
 
-**Subtype:** Chaotic, Evil, Great Old One
-
-**Experience points:** 6,553,600
-
-**Armor class:** 47
-
-**Touch:** 24
-
-**Flat-footed:** 35
-
-**AC modifiers:** +11 Dex, +1 dodge, +10 insight, +23 natural, -8 size
-
-**Hit points:** 717 (35d8+560)
-
-**Fort:** +29
-
-**Ref:** +24
-
-**Will:** +30
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision, _[freedom of movement](ref/spell/freedom-of-movement)_,
-immortality, insanity (DC 37)
-
-**Dr:** 15/epic and lawful
-
-**Fh:** 25
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, electricity, energy
-drain, mind-affecting effects, negative energy, paralysis, and petrification
-
-**Resist:** fire 30
-
-**Sr:** 40
-
-**Offense**
-
-**Speed:** 90 ft., swim 90 ft.
-
-**Constrict:** 2d8+31
-
-**F Swallow:** present
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 3 bites +40 (4d6+21/19-20 plus [grab](ref/umr/grab)), 6 tentacles +38 (2d8+10/19-20 plus
-grab)
-
-**Pounce:** present
-
-**Reach:** 30
-
-**Reach P:** 60 ft. with tentacles
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 30
-
-**Spec Att:** apocalyptic dreams, create mummified creature, overwhelming devastation
-
-**Swallow:** 10d6+31 bludgeoning plus 10d6 negative energy damage, AC 21, 71 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +39
-
-**Constant:**
-
-- air walk, freedom of movement, true seeing
-
-**At will:**
-
-- black tentacles, control weather, create undead, mummies only, dream, greater dispel magic,
-  insanity (DC 27), nightmare (DC 25), project image (DC 27), sending
-
-**Per day:**
-
-- 3/day: demand (DC 28), earthquake, quickened feeblemind (DC 25), vortex (DC 27), weird (DC 29)
-- 1/day: imprisonment (DC 29), storm of vengeance (DC 29), symbol of insanity (DC 28), tsunami (DC
-  29)
-
-**Statistics**
-
-**Ability scores:** Str 52, Dex 33, Con 43, Int 29, Wis 32, Cha 30
-
-**Base attack bonus:** +26
-
-**Combat maneuver bonus:** +55 (+57 bull rush, +57 sunder)
-
-**Combat maneuver defense:** 87 (89 vs. bull rush, 89 vs. sunder, can't be tripped)
-
-**Feats:** Ability Focus (unspeakable presence), Awesome Blow, Combat Reflexes, Critical Focus,
-Dodge, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Critical (tentacle),
-Improved Initiative, Improved Sunder, Lightning Reflexes, Multiattack, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Staggering Critical, Weapon Focus
-(bite), Weapon Focus (tentacle)
-
-**Skills:** Climb +59, Use Magic Device +45
-
-**Languages:** Aklo, Aquan, Undercommon; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), Great Old One traits, otherworldly
-insight
-
-**Faith:** Ghatanothoa
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

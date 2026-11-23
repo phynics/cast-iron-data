@@ -32,163 +32,93 @@ abilities = ["28", "32", "35", "29", "26", "31"]
 _This creature has the upper body of a woman, the lower body of a snake, and a mass of undulating
 cobras for hair._
 
-**Challenge rating:** 20
-
-**blindsight:** 60
-
-**Alignment:** Chaotic evil
-
-**Initiative:** +15
-
-**Size:** medium
-
-**Type:** Monstrous humanoid
-
-**Perception:** +38
-
-**Senses:** Darkvision 120 ft., True seeing
-
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 32
-
-**Flat-footed:** 25
-
-**AC modifiers:** +11 Dex, +1 dodge, +5 natural, +10 profane
-
-**Hit points:** 367 (21d10+252)
-
-**Fort:** +19
-
-**Ref:** +23
-
-**Will:** +20; +4 vs. death effects, +8 vs. mind-affecting effects
-
-**Defensive abilities:** absorb essence, all-around vision, _[death ward](ref/spell/death-ward)_,
-_[mind blank](ref/spell/mind-blank)_, profane visions
-
-**Dr:** 15/good and slashing
-
-**Immune:** blindness, daze, petrification, poison, sonic
-
-**Offense**
-
-**Speed:** 60 ft., burrow 30 ft.
-
-**Melee:** viper rod +35/+30/+25/+20 (1d8+14 plus poison), 6 snake bites +28 (1d6+4 plus poison)
-
-**Ranged:** viper fangs +37/+32/+27/+22 (1d8+5/×3 plus poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with snake bites
-
-**Sp Extra:** earth glide
-
-**Space:** 5
-
-**Spec Att:** gaze, irresistible poison, poison, shattering shriek, snake independence, statue
-control, viper rod
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +30
-
-**Constant:**
-
-- death ward, mind blank, true seeing
-
-**At will:**
-
-- divination, flesh to stone (DC 26), greater shout (DC 28), stone shape
-
-**Per day:**
-
-- 3/day: delayed blast fireball (sonic damage) (DC 27), quickened flesh to stone (DC 26), sonic
-  thrust (DC 25)
-- 1/day: commune, wail of the banshee (DC 29)
-
-**Spells Known**
-
-**Caster level:** 18
-
-**Concentration:** +28
-
-**9th-level spells:**
-
-- 4/day: clashing rocks (DC 29)
-
-**8th-level spells:**
-
-- 6/day: greater spell immunity, unholy aura (DC 28)
-
-**7th-level spells:**
-
-- 7/day: ethereal jaunt, greater scrying (DC 27), statue
-
-**6th-level spells:**
-
-- 8/day: greater dispel magic, heal, stone tell
-
-**5th-level spells:**
-
-- 8/day: life bubble, plane shift (DC 25), righteous might, slay living (DC 25)
-
-**4th-level spells:**
-
-- 8/day: air walk, cure serious wounds, divine power, freedom of movement
-
-**3rd-level spells:**
-
-- 8/day: dispel magic, invisibility purge, magic vestment, meld into stone
-
-**2nd-level spells:**
-
-- 9/day: cure moderate wounds, eagle's splendor, resist energy, sound burst (DC 22), stone call
-
-**1st-level spells:**
-
-- 9/day: command (DC 21), cure light wounds, endure elements, sanctuary (DC 21), shield of faith
-
-**Cantrips:**
-
-- At will: bleed (DC 20), create water, detect magic, guidance, light, purify food and drink,
-  resistance, stabilize, virtue
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 32, Con 35, Int 29, Wis 26, Cha 31
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 62 (can't be tripped)
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Extend Spell, Improved
-Initiative, Multiattack, Power Attack, Quicken Spell, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (flesh to stone), Skill Focus (Perception)
-
-**Skills:** Bluff +31, Diplomacy +31, Disguise +31, Perform (sing) +31, Sense Motive +29, Spellcraft
-+30, Stealth +35, Use Magic Device +31
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal, Terran, Undercommon
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Medium humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, triumvirate (3), or cult (1 plus 4-17
-[medusas](ref/monster/medusa))
-
-**Treasure:** Standard
+::: statblock
+Challenge rating: 20
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +15
+Size: medium
+Type: Monstrous humanoid
+Perception: +38
+Senses: Darkvision 120 ft., True seeing
+Experience points: 307,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 37
+Touch: 32
+Flat-footed: 25
+AC modifiers: +11 Dex, +1 dodge, +5 natural, +10 profane
+Hit points: 367 (21d10+252)
+Fort: +19
+Ref: +23
+Will: +20; +4 vs. death effects, +8 vs. mind-affecting effects
+Defensive abilities: absorb essence, all-around vision, _[death ward](ref/spell/death-ward)_, _[mind blank](ref/spell/mind-blank)_, profane visions
+Dr: 15/good and slashing
+Immune: blindness, daze, petrification, poison, sonic
+:::
+
+### Offense
+
+::: statblock
+Speed: 60 ft., burrow 30 ft.
+Melee: viper rod +35/+30/+25/+20 (1d8+14 plus poison), 6 snake bites +28 (1d6+4 plus poison)
+Ranged: viper fangs +37/+32/+27/+22 (1d8+5/×3 plus poison)
+Reach: 5
+Reach P: 10 ft. with snake bites
+Sp Extra: earth glide
+Space: 5
+Spec Att: gaze, irresistible poison, poison, shattering shriek, snake independence, statue control, viper rod
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +30
+Constant: death ward, mind blank, true seeing
+At will: divination, flesh to stone (DC 26), greater shout (DC 28), stone shape
+Per day: 3/day: delayed blast fireball (sonic damage) (DC 27), quickened flesh to stone (DC 26), sonic thrust (DC 25)\
+1/day: commune, wail of the banshee (DC 29)
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 18
+Concentration: +28
+9th-level spells: 4/day: clashing rocks (DC 29)
+8th-level spells: 6/day: greater spell immunity, unholy aura (DC 28)
+7th-level spells: 7/day: ethereal jaunt, greater scrying (DC 27), statue
+6th-level spells: 8/day: greater dispel magic, heal, stone tell
+5th-level spells: 8/day: life bubble, plane shift (DC 25), righteous might, slay living (DC 25)
+4th-level spells: 8/day: air walk, cure serious wounds, divine power, freedom of movement
+3rd-level spells: 8/day: dispel magic, invisibility purge, magic vestment, meld into stone
+2nd-level spells: 9/day: cure moderate wounds, eagle's splendor, resist energy, sound burst (DC 22), stone call
+1st-level spells: 9/day: command (DC 21), cure light wounds, endure elements, sanctuary (DC 21), shield of faith
+Cantrips: At will: bleed (DC 20), create water, detect magic, guidance, light, purify food and drink, resistance, stabilize, virtue
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 28, Dex 32, Con 35, Int 29, Wis 26, Cha 31
+Base attack bonus: +21
+Combat maneuver bonus: +30
+Combat maneuver defense: 62 (can't be tripped)
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Extend Spell, Improved Initiative, Multiattack, Power Attack, Quicken Spell, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (flesh to stone), Skill Focus (Perception)
+Skills: Bluff +31, Diplomacy +31, Disguise +31, Perform (sing) +31, Sense Motive +29, Spellcraft +30, Stealth +35, Use Magic Device +31
+Languages: Abyssal, Celestial, Common, Draconic, Infernal, Terran, Undercommon
+Special qualities: [change shape](ref/umr/change-shape) (Medium humanoid; [alter self](ref/spell/alter-self))
+:::
+
+### Ecology
+
+::: statblock
+Environment: any
+Organization: solitary, pair, triumvirate (3), or cult (1 plus 4-17 [medusas](ref/monster/medusa))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -35,77 +35,61 @@ abilities = ["15", "15", "11", "12", "13", "8"]
 _This strange nautilus drags itself forward on oversized tentacles, its crimson-streaked flesh
 textured like the surface a brain._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +6
+Alignment: Lawful evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 15
+AC modifiers: +2 Dex, +3 natural, +2 size
+Hit points: 18 (4d8)
+Fort: +1
+Ref: +3
+Will: +5
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 5 ft., climb 5 ft., swim 60 ft.
+Melee: 2 tentacles +2 (1d4+2 plus [grab](ref/umr/grab))
+Reach: 0
+Space: 2-1/2
+Spec Att: puppetmaster
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 15, Dex 15, Con 11, Int 12, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Improved Initiative, Step Up
+Skills: Bluff +3, Climb +10
+Languages: Aklo, Aquan; [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +3 natural, +2 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft., swim 60 ft.
-
-**Melee:** 2 tentacles +2 (1d4+2 plus [grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** puppetmaster
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 11, Int 12, Wis 13, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Improved Initiative, Step Up
-
-**Skills:** Bluff +3, Climb +10
-
-**Languages:** Aklo, Aquan; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or colony (3-12 plus enslaved puppets)
-
-**Treasure:** Standard
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or colony (3-12 plus enslaved puppets)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

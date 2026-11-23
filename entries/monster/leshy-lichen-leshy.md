@@ -32,90 +32,69 @@ abilities = ["11", "12", "15", "10", "15", "10"]
 _This miniature plant person has a body composed of lichens and a rain cape woven from leafy
 growths._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 armor, +1 Dex, +1 natural, +1 size
+Hit points: 37 (5d8+15)
+Fort: +6
+Ref: +2
+Will: +3
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Constrict: 2d4 acid
+Melee: slam +4 (1d4 plus degradation)
+Ranged: filaments +5 (1 plus degradation)
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +10
+Constant: endure elements, pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 11, Dex 12, Con 15, Int 10, Wis 15, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13
+Feats: Endurance, Skill Focus (Knowledge \[geography\]), Toughness
+Skills: Climb +8, Knowledge (geography) +5, Perception +10
+Racial Modifiers: +4 Stealth and Survival in hills and mountains
+Languages: Druidic, Sylvan; _plantspeech_ (lichens)
+Special qualities: [change shape](ref/umr/change-shape) (Small lichen; [tree shape](ref/spell/tree-shape)), expert climber, verdant burst, weathering
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 armor, +1 Dex, +1 natural, +1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +6
-
-**Ref:** +2
-
-**Will:** +3
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Constrict:** 2d4 acid
-
-**Melee:** slam +4 (1d4 plus degradation)
-
-**Ranged:** filaments +5 (1 plus degradation)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +10
-
-**Constant:**
-
-- endure elements, pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 12, Con 15, Int 10, Wis 15, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13
-
-**Feats:** Endurance, Skill Focus (Knowledge \[geography\]), Toughness
-
-**Skills:** Climb +8, Knowledge (geography) +5, Perception +10
-
-**Racial Modifiers:** +4 Stealth and Survival in hills and mountains
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (lichens)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small lichen;
-[tree shape](ref/spell/tree-shape)), expert climber, verdant burst, weathering
-
-**Ecology**
-
-**Environment:** any hills or mountains
-
-**Organization:** solitary or patch (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any hills or mountains
+Organization: solitary or patch (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

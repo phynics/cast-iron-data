@@ -30,92 +30,70 @@ abilities = ["-", "17", "14", "11", "17", "16"]
 _This spectral woman holds a silver urn and floats in midair with an unearthly grace and demanding
 presence._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: fate (20 ft., DC 15)
+Initiative: +7
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal, Kami, Native
+Experience points: 1,200
+:::
 
-**aura:** fate (20 ft., DC 15)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 13
+AC modifiers: +3 deflection, +3 Dex
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +7
+Will: +7
+Fh: 2
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Incorporeal: present
+Resist: acid 10, cold 10, electricity 10, fire 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: incorporeal touch +8 (2d6 cold plus dunagh's curse)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+At will: mage hand
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 17, Con 14, Int 11, Wis 17, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Alertness, Flyby Attack, Improved Initiative
+Skills: Fly +19, Intimidate +11, Knowledge (local) +8, Perception +13, Sense Motive +13, Stealth +11
+Languages: Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (house)
+:::
 
-**Subtype:** Incorporeal, Kami, Native
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +3 Dex
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +7
-
-**Fh:** 2
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Incorporeal:** present
-
-**Resist:** acid 10, cold 10, electricity 10, fire 10
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** incorporeal touch +8 (2d6 cold plus dunagh's curse)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**At will:**
-
-- mage hand
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 17, Con 14, Int 11, Wis 17, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Alertness, Flyby Attack, Improved Initiative
-
-**Skills:** Fly +19, Intimidate +11, Knowledge (local) +8, Perception +13, Sense Motive +13, Stealth
-+11
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (house)
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

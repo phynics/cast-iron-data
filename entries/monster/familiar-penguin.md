@@ -35,69 +35,57 @@ abilities = ["9", "8", "13", "2", "12", "7"]
 _This three-foot-tall, thick-set bird has black and white coloration, a long beak, and black
 flippers that lie flat against its sides instead of wings._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: -1
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 11
+Touch: 10
+Flat-footed: 11
+AC modifiers: -1 Dex, +1 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +1
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: bite +0 (1d3-1)
+Sp Other: toboggan 30 ft.
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 9, Dex 8, Con 13, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 7
+Feats: Skill Focus (Perception)
+Skills: Perception +8, Swim +7
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 10
-
-**Flat-footed:** 11
-
-**AC modifiers:** -1 Dex, +1 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** bite +0 (1d3-1)
-
-**Sp Other:** toboggan 30 ft.
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 8, Con 13, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 7
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8, Swim +7
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold plains
-
-**Organization:** solitary, pair, or colony (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: cold plains
+Organization: solitary, pair, or colony (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

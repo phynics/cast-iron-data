@@ -33,82 +33,63 @@ abilities = ["30", "19", "20", "2", "15", "11"]
 
 _A long, spiny fin runs down the length of the dolphin-like body of this eel-headed predator._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 25
+Touch: 12
+Flat-footed: 21
+AC modifiers: +4 Dex, +13 natural, -2 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +13
+Will: +8
+Dr: 10/nonmagical weapons
+Sr: 27
+Weaknesses: eldritch encrustation
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 40 ft.
+Capsize: 25
+Melee: bite +22 (4d10+15/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: digest magic, dispelling bite
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 30, Dex 19, Con 20, Int 2, Wis 15, Cha 11
+Base attack bonus: +14
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 40
+Feats: Awesome Blow, Bleeding Critical, Critical Focus, Improved Bull Rush, Improved Critical (bite), Iron Will, Power Attack
+Skills: Perception +9, Stealth +0, Swim +30
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 12
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +13 natural, -2 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +8
-
-**Dr:** 10/nonmagical weapons
-
-**Sr:** 27
-
-**Weaknesses:** eldritch encrustation
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Capsize:** 25
-
-**Melee:** bite +22 (4d10+15/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** digest magic, dispelling bite
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 19, Con 20, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 40
-
-**Feats:** Awesome Blow, Bleeding Critical, Critical Focus, Improved Bull Rush, Improved Critical
-(bite), Iron Will, Power Attack
-
-**Skills:** Perception +9, Stealth +0, Swim +30
-
-**Ecology**
-
-**Environment:** warm rivers, lakes, and swamps
-
-**Organization:** solitary, pair, or school (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm rivers, lakes, and swamps
+Organization: solitary, pair, or school (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

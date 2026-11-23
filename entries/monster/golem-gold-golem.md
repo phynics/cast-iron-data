@@ -30,71 +30,58 @@ abilities = ["34", "18", "-", "-", "11", "1"]
 _This golden statue stands proud, bearing a regal scepter in one hand. Its other arm is stretched
 out, ending in an upraised fist._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 30
+Touch: 13
+Flat-footed: 26
+AC modifiers: +4 Dex, +17 natural, -1 size
+Hit points: 156 (23d10+30)
+Fort: +7
+Ref: +11
+Will: +7
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +34 (4d8+12 plus prismatic surge)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 18, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +23
+Combat maneuver bonus: +36
+Combat maneuver defense: 50
+Special qualities: death throes
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 13
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +17 natural, -1 size
-
-**Hit points:** 156 (23d10+30)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +7
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +34 (4d8+12 plus prismatic surge)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 18, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 50
-
-**Special qualities:** death throes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or procession (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or procession (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -27,71 +27,58 @@ abilities = ["6", "14", "10", "-", "12", "9"]
 
 _This sizable insect has a slender body and two pairs of long, elegant, iridescent wings._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Perception:** +1
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 10 ft., fly 60 ft. (perfect)
+Melee: claw +0 (1d2-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 6, Dex 14, Con 10, Int -, Wis 12, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 8 (16 vs. trip)
+Feats: Flyby Attack
+Skills: Fly +14
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (perfect)
-
-**Melee:** claw +0 (1d2-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 14, Con 10, Int -, Wis 12, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 8 (16 vs. trip)
-
-**Feats:** Flyby Attack
-
-**Skills:** Fly +14
-
-**Ecology**
-
-**Environment:** temperate or warm swamps
-
-**Organization:** solitary, pair, or flight (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm swamps
+Organization: solitary, pair, or flight (3-8)
+Treasure: None
+:::
 
 ### Description
 

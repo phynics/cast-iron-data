@@ -31,127 +31,82 @@ abilities = ["56", "21", "45", "31", "36", "34"]
 _This towering impossibility, neither quite octopus nor dragon nor giant but something far worse,
 must surely herald the end of times._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+Type: aberration
+aura: unspeakable presence (300 ft., DC 40)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +15
+Perception: +52
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Evil, Great Old One
+Experience points: 9,830,400
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** unspeakable presence (300 ft., DC 40)
+::: statblock
+Armor class: 49
+Touch: 29
+Flat-footed: 44
+AC modifiers: +12 deflection, +5 Dex, +10 insight, +20 natural, -8 size
+Hit points: 774 (36d8+612)
+Fort: +29
+Ref: +29
+Will: +33
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 40), non-euclidean
+Dr: 20/epic and lawful
+Fh: 30
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, and petrification
+Resist: acid 30, electricity 30, fire 30, sonic 30
+Sr: 41
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** colossal
+::: statblock
+Speed: 60 ft., swim 60 ft., fly 200 ft. (average)
+Constrict: 3d6+23
+M Power: 10/day, surge +1d12
+Melee: 2 claws +42 (4d6+23/19-20 plus [grab](ref/umr/grab)), 4 tentacles +42 (2d10+34/19-20 plus grab)
+Reach: 40
+Space: 40
+Spec Att: cleaving claws, dreams of madness, powerful blows (tentacle), tentacles
+Trample: 2d8+30, DC 51
+:::
 
-**Initiative:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +42
+Constant: freedom of movement, true seeing
+At will: astral projection, control weather, dream, greater dispel magic, greater teleport, insanity (DC 29), nightmare (DC 29), sending
+Per day: 3/day: antipathy (DC 30), demand (DC 30), quickened feeblemind, gate, weird (DC 31)\
+1/day: implosion (DC 31), summon (level 9, 2d4 star-spawn of Cthulhu 100%), symbol of insanity (DC 30), wish
+:::
 
-**Perception:** +52
+### Statistics
 
-**Senses:** Darkvision 60 ft., True seeing
+::: statblock
+Ability scores: Str 56, Dex 21, Con 45, Int 31, Wis 36, Cha 34
+Base attack bonus: +27
+Combat maneuver bonus: +58 (+60 bull rush, +62 grapple or sunder)
+Combat maneuver defense: 97 (99 vs. bull rush or sunder)
+Feats: Ability Focus (nightmare), Awesome Blow, Combat Reflexes, Craft Wondrous Item, Critical Focus, Flyby Attack, Greater Sunder, Greater Vital Strike, Hover, Improved Bull Rush, Improved Critical (claw), Improved Critical (tentacle), Improved Sunder, Improved Vital Strike, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Staggering Critical, Vital Strike
+Skills: Fly +36, Use Magic Device +48
+Languages: Aklo; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [compression](ref/umr/compression), greater starflight, otherworldly insight
+Faith: Cthulhu
+:::
 
-**Subtype:** Chaotic, Evil, Great Old One
+### Ecology
 
-**Experience points:** 9,830,400
-
-**Armor class:** 49
-
-**Touch:** 29
-
-**Flat-footed:** 44
-
-**AC modifiers:** +12 deflection, +5 Dex, +10 insight, +20 natural, -8 size
-
-**Hit points:** 774 (36d8+612)
-
-**Fort:** +29
-
-**Ref:** +29
-
-**Will:** +33
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_, immortality,
-insanity (DC 40), non-euclidean
-
-**Dr:** 20/epic and lawful
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, and petrification
-
-**Resist:** acid 30, electricity 30, fire 30, sonic 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 60 ft., swim 60 ft., fly 200 ft. (average)
-
-**Constrict:** 3d6+23
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 2 claws +42 (4d6+23/19-20 plus [grab](ref/umr/grab)), 4 tentacles +42 (2d10+34/19-20 plus
-grab)
-
-**Reach:** 40
-
-**Space:** 40
-
-**Spec Att:** cleaving claws, dreams of madness, powerful blows (tentacle), tentacles
-
-**Trample:** 2d8+30, DC 51
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +42
-
-**Constant:**
-
-- freedom of movement, true seeing
-
-**At will:**
-
-- astral projection, control weather, dream, greater dispel magic, greater teleport, insanity (DC
-  29), nightmare (DC 29), sending
-
-**Per day:**
-
-- 3/day: antipathy (DC 30), demand (DC 30), quickened feeblemind, gate, weird (DC 31)
-- 1/day: implosion (DC 31), summon (level 9, 2d4 star-spawn of Cthulhu 100%), symbol of insanity (DC
-  30), wish
-
-**Statistics**
-
-**Ability scores:** Str 56, Dex 21, Con 45, Int 31, Wis 36, Cha 34
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +58 (+60 bull rush, +62 grapple or sunder)
-
-**Combat maneuver defense:** 97 (99 vs. bull rush or sunder)
-
-**Feats:** Ability Focus (nightmare), Awesome Blow, Combat Reflexes, Craft Wondrous Item, Critical
-Focus, Flyby Attack, Greater Sunder, Greater Vital Strike, Hover, Improved Bull Rush, Improved
-Critical (claw), Improved Critical (tentacle), Improved Sunder, Improved Vital Strike, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (feeblemind), Staggering Critical, Vital
-Strike
-
-**Skills:** Fly +36, Use Magic Device +48
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [compression](ref/umr/compression), greater starflight, otherworldly insight
-
-**Faith:** Cthulhu
-
-**Ecology**
-
-**Environment:** any (R-lyeh)
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any (R-lyeh)
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

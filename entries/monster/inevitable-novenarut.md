@@ -30,98 +30,72 @@ abilities = ["18", "11", "14", "11", "16", "15"]
 _Fashioned of jade and steel and wielding a gleaming katana, this mechanical samurai has six green
 gemstone eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +0
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft., Deathwatch, Detect chaos, Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 17
+AC modifiers: +7 natural
+Hit points: 45 (6d10+12)
+Fort: +7
+Ref: +2
+Will: +8
+Defensive abilities: constructed, parry
+Regen: 3 (chaotic)
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: mwk katana +12/+7 (1d8+4/18-20)
+Spec Att: smite dishonorable foe
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: deathwatch, detect chaos
+At will: command (DC 13), stabilize
+Per day: 3/day: cure moderate wounds\
+1/day: keen edge
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, Detect chaos, Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 18, Dex 11, Con 14, Int 11, Wis 16, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 20
+Feats: Alertness, Dazzling Display, Weapon Focus (katana)
+Skills: Diplomacy +11, Intimidate +11, Knowledge (planes) +9, Perception +18
+Racial Modifiers: +4 Perception
+Languages: truespeech
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 natural
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +7
-
-**Ref:** +2
-
-**Will:** +8
-
-**Defensive abilities:** constructed, parry
-
-**Regen:** 3 (chaotic)
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk katana +12/+7 (1d8+4/18-20)
-
-**Spec Att:** smite dishonorable foe
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- deathwatch, detect chaos
-
-**At will:**
-
-- command (DC 13), stabilize
-
-**Per day:**
-
-- 3/day: cure moderate wounds
-- 1/day: keen edge
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 11, Con 14, Int 11, Wis 16, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20
-
-**Feats:** Alertness, Dazzling Display, Weapon Focus (katana)
-
-**Skills:** Diplomacy +11, Intimidate +11, Knowledge (planes) +9, Perception +18
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** truespeech
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or skirmish (3-10)
-
-**Treasure:** Standard (mwk katana); other treasure
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or skirmish (3-10)
+Treasure: Standard (mwk katana); other treasure
+:::
 
 ### Special Abilities
 

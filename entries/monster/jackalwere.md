@@ -32,79 +32,61 @@ abilities = ["15", "17", "15", "12", "12", "12"]
 _This armored humanoid has a jackal's head, bulging muscles, and a gaze that makes the world drift
 away._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Initiative: +3
+Type: Magical beast
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Shapechanger
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 dodge, +1 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +6
+Will: +2
+Dr: 5/cold iron
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk battleaxe +6 (1d8+2/×3), bite +0 (1d6+1) or bite +5 (1d6+3)
+Spec Att: sleep gaze, weapon intuition
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 17, Con 15, Int 12, Wis 12, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Alertness, Dodge
+Skills: Acrobatics +7, Bluff +6, Perception +7
+Racial Modifiers: +2 Bluff, +2 Survival
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (human, hybrid, and jackal; [polymorph](ref/spell/polymorph)), jackal empathy
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 dodge, +1 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk battleaxe +6 (1d8+2/×3), bite +0 (1d6+1) or bite +5 (1d6+3)
-
-**Spec Att:** sleep gaze, weapon intuition
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 15, Int 12, Wis 12, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Dodge
-
-**Skills:** Acrobatics +7, Bluff +6, Perception +7
-
-**Racial Modifiers:** +2 Bluff, +2 Survival
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (human, hybrid, and jackal;
-[polymorph](ref/spell/polymorph)), jackal empathy
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, hunt (1-2 jackalweres and 3-8 [jackals](ref/monster/jackal)), or
-pack (2-5 plus 3-12 jackals)
-
-**Treasure:** Standard (leather armor, mwk battleaxe); other treasure
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, hunt (1-2 jackalweres and 3-8 [jackals](ref/monster/jackal)), or pack (2-5 plus 3-12 jackals)
+Treasure: Standard (leather armor, mwk battleaxe); other treasure
+:::
 
 ### Special Abilities
 

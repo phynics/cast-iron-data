@@ -31,107 +31,75 @@ abilities = ["18", "21", "18", "11", "18", "21"]
 
 _Within this elaborate suit of armor can be seen the partial form of a determined warrior._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +9
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Detect evil, See invisibility
+Subtype: Kami, Native
+Experience points: 9,600
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +6 armor, +3 Dex, +4 natural
+Hit points: 123 (13d10+52)
+Fort: +8
+Ref: +13
+Will: +14
+Dr: 10/cold iron
+Fh: 5
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+Sr: 21
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 30 ft. (perfect, 40 ft. without armor)
+Melee: +1 [holy](ref/magic-enh/holy) halberd +18/+13/+8 (1d10+7/×3)
+Ranged: +1 holy composite longbow +20/+15/+10 (1d8+5/×3)
+Spec Att: healing arrow, holy weapons
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +18
+Constant: detect evil, see invisibility
+At will: cure light wounds, dimension door
+Per day: 3/day: alarm, breath of life, dispel magic, neutralize poison, remove curse, remove disease, restoration\
+1/day: dispel evil (DC 20), heal, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, See invisibility
+### Statistics
 
-**Subtype:** Kami, Native
+::: statblock
+Ability scores: Str 18, Dex 21, Con 18, Int 11, Wis 18, Cha 21
+Base attack bonus: +13
+Combat maneuver bonus: +17
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Improved Initiative, Improved Precise Shot, Iron Will, Point-Blank Shot, Precise Shot, Rapid Shot, Weapon Focus (longbow)
+Skills: Fly +10, Intimidate +18, Knowledge (nature) +16, Perception +20, Sense Motive +20, Stealth +18
+Languages: Common; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (gate, doorway, or shrine)
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +6 armor, +3 Dex, +4 natural
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +14
-
-**Dr:** 10/cold iron
-
-**Fh:** 5
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect, 40 ft. without armor)
-
-**Melee:** +1 [holy](ref/magic-enh/holy) halberd +18/+13/+8 (1d10+7/×3)
-
-**Ranged:** +1 holy composite longbow +20/+15/+10 (1d8+5/×3)
-
-**Spec Att:** healing arrow, holy weapons
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect evil, see invisibility
-
-**At will:**
-
-- cure light wounds, dimension door
-
-**Per day:**
-
-- 3/day: alarm, breath of life, dispel magic, neutralize poison, remove curse, remove disease,
-  restoration
-- 1/day: dispel evil (DC 20), heal, true seeing
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 21, Con 18, Int 11, Wis 18, Cha 21
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Improved Initiative, Improved Precise Shot, Iron Will, Point-Blank Shot, Precise Shot,
-Rapid Shot, Weapon Focus (longbow)
-
-**Skills:** Fly +10, Intimidate +18, Knowledge (nature) +16, Perception +20, Sense Motive +20,
-Stealth +18
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (gate, doorway, or shrine)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or warband (3-8)
-
-**Treasure:** Double (+1 cl+4, +1 halberd, mwk breastplate); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or warband (3-8)
+Treasure: Double (+1 cl+4, +1 halberd, mwk breastplate); other treasure
+:::
 
 ### Special Abilities
 

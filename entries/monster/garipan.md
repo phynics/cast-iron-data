@@ -30,98 +30,73 @@ abilities = ["16", "15", "18", "13", "14", "13"]
 _Bat-like wings stretch behind this stone-faced creature with a wide, wild grin and fierce red eyes.
 The molten core in the creature's torso glows through rugged cracks in its dark stone skin._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 9,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 20
+AC modifiers: +2 Dex, +1 dodge, +10 natural
+Hit points: 133 (14d10+56)
+Fort: +13
+Ref: +8
+Will: +11
+Dr: 5/-
+Immune: poison
+Resist: acid 5, cold 5, fire 5
+Vulner: sonic
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Br Weap: 30 ft. cone, 8d6 fire damage, Reflex DC 21 half, usable every 1d4 rounds
+Burn: 3d6, DC 21
+Melee: bite +17 (1d6+3 plus burn), 2 claws +17 (1d8+3)
+Rend: 2 claws, 1d8+4
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+At will: statue
+Per day: 3/day: meld into stone, scorching ray\
+1/day: fireball (DC 14), flesh to stone (DC 17), wall of fire
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 16, Dex 15, Con 18, Int 13, Wis 14, Cha 13
+Base attack bonus: +14
+Combat maneuver bonus: +17
+Combat maneuver defense: 30
+Feats: Dodge, Flyby Attack, Great Fortitude, Hover, Mobility, Skill Focus (Stealth), Wingover
+Skills: Acrobatics +16 (+12 jump), Fly +23, Intimidate +18, Perception +19, Stealth +25
+Languages: Common, Infernal
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +1 dodge, +10 natural
-
-**Hit points:** 133 (14d10+56)
-
-**Fort:** +13
-
-**Ref:** +8
-
-**Will:** +11
-
-**Dr:** 5/-
-
-**Immune:** poison
-
-**Resist:** acid 5, cold 5, fire 5
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Br Weap:** 30 ft. cone, 8d6 fire damage, Reflex DC 21 half, usable every 1d4 rounds
-
-**Burn:** 3d6, DC 21
-
-**Melee:** bite +17 (1d6+3 plus burn), 2 claws +17 (1d8+3)
-
-**Rend:** 2 claws, 1d8+4
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**At will:**
-
-- statue
-
-**Per day:**
-
-- 3/day: meld into stone, scorching ray
-- 1/day: fireball (DC 14), flesh to stone (DC 17), wall of fire
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 18, Int 13, Wis 14, Cha 13
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 30
-
-**Feats:** Dodge, Flyby Attack, Great Fortitude, Hover, Mobility, Skill Focus (Stealth), Wingover
-
-**Skills:** Acrobatics +16 (+12 jump), Fly +23, Intimidate +18, Perception +19, Stealth +25
-
-**Languages:** Common, Infernal
-
-**Ecology**
-
-**Environment:** any (Material Plane only)
-
-**Organization:** solitary or brood (4-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Material Plane only)
+Organization: solitary or brood (4-12)
+Treasure: Standard
+:::
 
 ### Description
 

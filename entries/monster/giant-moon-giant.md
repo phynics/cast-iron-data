@@ -32,109 +32,76 @@ abilities = ["42", "19", "22", "16", "19", "17"]
 _This giant's gray skin sparkles as if with reflected light and is pocked with what look like impact
 craters on its rock-like surface._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: lunar (60 ft., DC 23)
+Size: huge
+Type: humanoid
+Initiative: +8
+Alignment: Lawful neutral
+Perception: +28
+Senses: Low-light vision, True seeing
+Subtype: Giant
+Experience points: 51,200
+:::
 
-**aura:** lunar (60 ft., DC 23)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 12
+Flat-footed: 28
+AC modifiers: +4 Dex, +20 natural, -2 size
+Hit points: 220 (21d8+126)
+Fort: +15
+Ref: +13
+Will: +18
+Defensive abilities: improved rock catching
+Resist: cold 30, fire 30
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +8
+::: statblock
+Speed: 50 ft.
+Melee: 2 slams +29 (3d6+16)
+Ranged: rock +19/+14/+9 (2d6+24 plus impact crater)
+Reach: 15
+Rock Th: 180 ft.
+Space: 15
+Spec Att: impact crater
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +23
+Constant: true seeing
+At will: dancing lights, detect magic, message
+Per day: 3/day: clairaudience/clairvoyance, control water, divination\
+1/day: commune, dream, scrying (DC 18)
+:::
 
-**Perception:** +28
+### Statistics
 
-**Senses:** Low-light vision, True seeing
+::: statblock
+Ability scores: Str 42, Dex 19, Con 22, Int 16, Wis 19, Cha 17
+Base attack bonus: +15
+Combat maneuver bonus: +33
+Combat maneuver defense: 47
+Feats: Combat Reflexes, Far Shot, Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Weapon Focus (rock)
+Skills: Knowledge (arcana, nature) +24, Perception +28, Sense Motive +25, Stealth +17 (+25 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Common, Giant, Terran
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 32
-
-**Touch:** 12
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 Dex, +20 natural, -2 size
-
-**Hit points:** 220 (21d8+126)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +18
-
-**Defensive abilities:** improved rock catching
-
-**Resist:** cold 30, fire 30
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 slams +29 (3d6+16)
-
-**Ranged:** rock +19/+14/+9 (2d6+24 plus impact crater)
-
-**Reach:** 15
-
-**Rock Th:** 180 ft.
-
-**Space:** 15
-
-**Spec Att:** impact crater
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +23
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- dancing lights, detect magic, message
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance, control water, divination
-- 1/day: commune, dream, scrying (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 19, Con 22, Int 16, Wis 19, Cha 17
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 47
-
-**Feats:** Combat Reflexes, Far Shot, Great Fortitude, Improved Initiative, Iron Will, Lightning
-Reflexes, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Weapon Focus (rock)
-
-**Skills:** Knowledge (arcana, nature) +24, Perception +28, Sense Motive +25, Stealth +17 (+25 in
-rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Common, Giant, Terran
-
-**Ecology**
-
-**Environment:** warm hills or mountains
-
-**Organization:** solitary, pair, or cult (2-5 plus 35% noncombatants and one oracle of 4th-7th
-level)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm hills or mountains
+Organization: solitary, pair, or cult (2-5 plus 35% noncombatants and one oracle of 4th-7th level)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

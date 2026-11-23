@@ -34,71 +34,58 @@ abilities = ["3", "11", "12", "2", "12", "13"]
 _This fowl has a compact body, a short beak flanked by red wattles, and a crimson comb on the crown
 of its head._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: +4
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft., fly 20 ft. (clumsy)
+Melee: bite -2 (1d3-4)
+Reach: 0
+Sp Extra: drift
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 11, Con 12, Int 2, Wis 12, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 4
+Feats: Improved Initiative
+Skills: Fly -4, Perception +5
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (clumsy)
-
-**Melee:** bite -2 (1d3-4)
-
-**Reach:** 0
-
-**Sp Extra:** drift
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 11, Con 12, Int 2, Wis 12, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 4
-
-**Feats:** Improved Initiative
-
-**Skills:** Fly -4, Perception +5
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary, pair, or flock (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, or flock (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

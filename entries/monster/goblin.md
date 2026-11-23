@@ -31,78 +31,61 @@ abilities = ["11", "15", "12", "10", "9", "6"]
 _This creature stands barely three feet tall, its scrawny, humanoid body dwarfed by its wide,
 ungainly head._
 
-**Challenge rating:** 1/3
-
 **Goblin [warrior](ref/npcclass/warrior) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: +6
+Alignment: Neutral evil
+Perception: -1
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 135
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 armor, +2 Dex, +1 shield, +1 size
+Hit points: 6 (1d10+1)
+Fort: +3
+Ref: +2
+Will: -1
+:::
 
-**Perception:** -1
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: short sword +2 (1d4/19-20)
+Ranged: short bow +4 (1d4/×3)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 11, Dex 15, Con 12, Int 10, Wis 9, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 12
+Feats: Improved Initiative
+Skills: Ride +10
+Racial Modifiers: +4 Ride, +4 Stealth
+Languages: Goblin
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +2 Dex, +1 shield, +1 size
-
-**Hit points:** 6 (1d10+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** -1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +2 (1d4/19-20)
-
-**Ranged:** short bow +4 (1d4/×3)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 12, Int 10, Wis 9, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative
-
-**Skills:** Ride +10
-
-**Racial Modifiers:** +4 Ride, +4 Stealth
-
-**Languages:** Goblin
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
-
-**Organization:** gang (4-9), warband (10-16 with [goblin dog](ref/monster/goblin-dog) mounts), or
-tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th
-or 5th level; 1 leader of 6th-8th level; and 10-40 goblin dogs, [wolves](ref/monster/wolf), or
-[worgs](ref/monster/worg))
-
-**Treasure:** NPC gear (leather armor, light wooden shield, short sword, sb20); other treasure
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+Organization: gang (4-9), warband (10-16 with [goblin dog](ref/monster/goblin-dog) mounts), or tribe (17+ plus 100% noncombatants; 1 sergeant of 3rd level per 20 adults; 1 or 2 lieutenants of 4th or 5th level; 1 leader of 6th-8th level; and 10-40 goblin dogs, [wolves](ref/monster/wolf), or [worgs](ref/monster/worg))
+Treasure: NPC gear (leather armor, light wooden shield, short sword, sb20); other treasure
+:::
 
 ### Description
 

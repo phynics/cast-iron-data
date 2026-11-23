@@ -32,112 +32,77 @@ abilities = ["17", "26", "29", "18", "22", "23"]
 _This beautiful woman has red antennae, gossamer insectile wings, a wasp's legs, and a serpentine
 whip._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic neutral
+Initiative: +8
+Size: medium
+Type: outsider
+Perception: +21
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Chaotic, Extraplanar, Shapechanger
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 28
+Touch: 18
+Flat-footed: 20
+AC modifiers: +8 Dex, +10 natural
+Hit points: 174 (12d10+108)
+Fort: +17
+Ref: +16
+Will: +10
+Dr: 10/lawful
+Fh: 5
+Immune: disease, electricity, poison
+Sr: 24
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: lash +22/+17/+12 (1d6+5/×2 plus poison)
+Reach: 5
+Reach P: 10 ft. with lash
+Sneak: +3d6
+Space: 5
+Spec Att: lash
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +19
+Constant: tongues
+At will: invisibility, major image (DC 20), modify memory (DC 20), suggestion (DC 19)
+Per day: 3/day: charm monster (DC 20), phantasmal vengeance (DC 20), teleport, self plus 50 lbs. of gear only\
+1/day: mislead (DC 22), true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 17, Dex 26, Con 29, Int 18, Wis 22, Cha 23
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 33
+Feats: Agile Maneuvers, Combat Expertise, Combat Reflexes, Deceitful, Improved Feint, Weapon Finesse
+Skills: Acrobatics +23, Bluff +25, Disguise +25, Fly +27, Sense Motive +21, Sleight of Hand +23, Stealth +23
+Languages: Common, Elven; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (elf; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 18
-
-**Flat-footed:** 20
-
-**AC modifiers:** +8 Dex, +10 natural
-
-**Hit points:** 174 (12d10+108)
-
-**Fort:** +17
-
-**Ref:** +16
-
-**Will:** +10
-
-**Dr:** 10/lawful
-
-**Fh:** 5
-
-**Immune:** disease, electricity, poison
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** lash +22/+17/+12 (1d6+5/×2 plus poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with lash
-
-**Sneak:** +3d6
-
-**Space:** 5
-
-**Spec Att:** lash
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +19
-
-**Constant:**
-
-- tongues
-
-**At will:**
-
-- invisibility, major image (DC 20), modify memory (DC 20), suggestion (DC 19)
-
-**Per day:**
-
-- 3/day: charm monster (DC 20), phantasmal vengeance (DC 20), teleport, self plus 50 lbs. of gear
-  only
-- 1/day: mislead (DC 22), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 26, Con 29, Int 18, Wis 22, Cha 23
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 33
-
-**Feats:** Agile Maneuvers, Combat Expertise, Combat Reflexes, Deceitful, Improved Feint, Weapon
-Finesse
-
-**Skills:** Acrobatics +23, Bluff +25, Disguise +25, Fly +27, Sense Motive +21, Sleight of Hand +23,
-Stealth +23
-
-**Languages:** Common, Elven; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (elf;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or vengeance (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or vengeance (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

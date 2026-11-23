@@ -31,99 +31,72 @@ abilities = ["22", "19", "22", "15", "17", "24"]
 _Eight spindly spider legs, flocked with coarse black hairs, stretch from the back of this otherwise
 beautiful black-haired woman._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +4
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Shapechanger
+Experience points: 19,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 15
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +12 natural
+Hit points: 161 (14d10+84)
+Fort: +10
+Ref: +13
+Will: +14
+Dr: 10/cold iron and magic
+Immune: poison
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 50 ft., swim 40 ft.
+Melee: bite +20 (1d4+6/19-20 plus poison), 2 claws +20 (1d6+6)
+Sneak: +3d6
+Web: +18 ranged, DC 23, 14 hp
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +19
+At will: charm person (DC 18), detect thoughts (DC 19)
+Per day: 3/day: bestow curse (DC 21), suggestion (DC 20)\
+1/day: hold monster (DC 22), summon nature's ally V, 1 ogre spider or 1d3 giant black widow spiders or 1d4+1 giant spiders
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 22, Dex 19, Con 22, Int 15, Wis 17, Cha 24
+Base attack bonus: +14
+Combat maneuver bonus: +20
+Combat maneuver defense: 35
+Feats: Dodge, Improved Critical (bite), Improved Iron Will, Iron Will, Mobility, Power Attack, Spring Attack
+Skills: Acrobatics +14, Bluff +19, Climb +29 (+37 with spider legs)
+Racial Modifiers: +8 Climb with spider legs
+Languages: Aklo, Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (giant spider; [vermin shape I](ref/spell/vermin-shape-1)), spider empathy +21, swift shapechanger.
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 15
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +12 natural
-
-**Hit points:** 161 (14d10+84)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +14
-
-**Dr:** 10/cold iron and magic
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft., climb 50 ft., swim 40 ft.
-
-**Melee:** bite +20 (1d4+6/19-20 plus poison), 2 claws +20 (1d6+6)
-
-**Sneak:** +3d6
-
-**Web:** +18 ranged, DC 23, 14 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +19
-
-**At will:**
-
-- charm person (DC 18), detect thoughts (DC 19)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 21), suggestion (DC 20)
-- 1/day: hold monster (DC 22), summon nature's ally V, 1 ogre spider or 1d3 giant black widow
-  spiders or 1d4+1 giant spiders
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 22, Int 15, Wis 17, Cha 24
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 35
-
-**Feats:** Dodge, Improved Critical (bite), Improved Iron Will, Iron Will, Mobility, Power Attack,
-Spring Attack
-
-**Skills:** Acrobatics +14, Bluff +19, Climb +29 (+37 with spider legs)
-
-**Racial Modifiers:** +8 Climb with spider legs
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (giant spider;
-[vermin shape I](ref/spell/vermin-shape-1)), spider empathy +21, swift shapechanger.
-
-**Ecology**
-
-**Environment:** temperate mountain valleys
-
-**Organization:** solitary or cult (2-6 plus 2-8 spiders of various sizes)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate mountain valleys
+Organization: solitary or cult (2-6 plus 2-8 spiders of various sizes)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

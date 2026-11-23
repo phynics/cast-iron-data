@@ -32,81 +32,63 @@ abilities = ["22", "10", "16", "6", "10", "7"]
 _This hulking mix of ogre and crab has one huge pincer that snaps menacingly, while its other arm is
 a twisted, human-like hand._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +0
+Size: large
+Type: Monstrous humanoid
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 76 (8d10+32)
+Fort: +6
+Ref: +6
+Will: +6
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Constrict: present
+Melee: claw +13 (1d10+9/19-20 plus [grab](ref/umr/grab)), slam +13 (1d6+6)
+Reach: 10
+Sp Extra: sideways scuttle
+Space: 10
+Spec Att: 1d10+6
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 10, Con 16, Int 6, Wis 10, Cha 7
+Base attack bonus: +8
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 25
+Feats: Combat Reflexes, Improved Critical (claw), Power Attack, Vital Strike
+Skills: Intimidate +9, Perception +11, Swim +21
+Languages: Aquan
+Special qualities: water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Constrict:** present
-
-**Melee:** claw +13 (1d10+9/19-20 plus [grab](ref/umr/grab)), slam +13 (1d6+6)
-
-**Reach:** 10
-
-**Sp Extra:** sideways scuttle
-
-**Space:** 10
-
-**Spec Att:** 1d10+6
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 10, Con 16, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Reflexes, Improved Critical (claw), Power Attack, Vital Strike
-
-**Skills:** Intimidate +9, Perception +11, Swim +21
-
-**Languages:** Aquan
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, gang (2-6), or tribe (3-18)
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary, gang (2-6), or tribe (3-18)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

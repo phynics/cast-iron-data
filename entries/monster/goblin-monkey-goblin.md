@@ -36,81 +36,63 @@ abilities = ["15", "18", "13", "10", "10", "6"]
 _This creature has the wide head and toothy mouth of a goblin, dappled green skin, simian hands and
 feet, and a rat-like tail._
 
-**Challenge rating:** 1/2
-
 **Monkey goblin [barbarian](ref/class/barbarian) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +4
+Alignment: Neutral evil
+Perception: +4
+Senses: Low-light vision
+Size: small
+Subtype: Goblinoid
+Experience points: 200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +2 armor, +4 Dex, +1 size
+Hit points: 13 (1d12+1)
+Fort: +3
+Ref: +4
+Will: +0; +2 vs. fear
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: kukri +4 (1d3+2/18-20)
+Ranged: shortbow +6 (1d4/×3) or net +6 (entangle)
+Spec Att: rage (5 rounds/day)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 15, Dex 18, Con 13, Int 10, Wis 10, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 16
+Feats: Exotic Weapon Proficiency (net)
+Skills: Acrobatics +10, Climb +14, Perception +4
+Racial Modifiers: +2 Acrobatics, +2 Stealth
+Languages: Goblin
+Special qualities: fast movement, prehensile tail
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +4 Dex, +1 size
-
-**Hit points:** 13 (1d12+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +0; +2 vs. fear
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** kukri +4 (1d3+2/18-20)
-
-**Ranged:** shortbow +6 (1d4/×3) or net +6 (entangle)
-
-**Spec Att:** rage (5 rounds/day)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 13, Int 10, Wis 10, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16
-
-**Feats:** Exotic Weapon Proficiency (net)
-
-**Skills:** Acrobatics +10, Climb +14, Perception +4
-
-**Racial Modifiers:** +2 Acrobatics, +2 Stealth
-
-**Languages:** Goblin
-
-**Special qualities:** fast movement, prehensile tail
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary, raiding party (4-9), warband (10-16), or tribe (17+ plus 100%
-noncombatants; 1 tribal scout of 3rd level per 20 adults, 1 or 2 war chiefs of 4th or 5th level, and
-1 chieftain of 6th-8th level)
-
-**Treasure:** NPC gear (leather armor, kukri, net, sb10); other treasure
+::: statblock
+Environment: warm forests
+Organization: solitary, raiding party (4-9), warband (10-16), or tribe (17+ plus 100% noncombatants; 1 tribal scout of 3rd level per 20 adults, 1 or 2 war chiefs of 4th or 5th level, and 1 chieftain of 6th-8th level)
+Treasure: NPC gear (leather armor, kukri, net, sb10); other treasure
+:::
 
 ### Special Abilities
 

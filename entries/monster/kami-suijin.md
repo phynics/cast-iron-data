@@ -31,116 +31,79 @@ abilities = ["24", "15", "23", "18", "22", "19"]
 _This massive, serpentine carp explodes forth from the water, its rainbow-colored scales gleaming in
 the sunlight and glossy eyes bright with good-natured intelligence._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +2
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Kami, Native, Water
+Experience points: 38,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 27
+AC modifiers: +2 Dex, +1 dodge, +18 natural, -1 size
+Hit points: 207 (18d10+108)
+Fort: +17
+Ref: +15
+Will: +12
+Dr: 10/cold iron and evil
+Fh: 7
+Immune: bleed, mind-affecting effects, petrification, polymorph effects
+Resist: acid 10, electricity 10, fire 10
+Sr: 25
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 60 ft., fly 60 ft. (perfect)
+Br Weap: 80-ft. line, 9d6 bludgeoning damage plus push, Reflex DC 25 for half, usable every 1d4 rounds
+Constrict: 1d8+3
+Melee: bite +24 (2d8+7/19-20), tail slap +19 (1d8+3 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 10
+Spec Att: whitewater barrier
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +22
+Constant: freedom of movement, speak with animals
+At will: control water, create water, greater dispel magic, modify memory (DC 18), slipstream
+Per day: 3/day: aqueous orb (DC 17), quickened telekinesis (DC 19)\
+1/day: break enchantment
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Kami, Native, Water
+::: statblock
+Ability scores: Str 24, Dex 15, Con 23, Int 18, Wis 22, Cha 19
+Base attack bonus: +18
+Combat maneuver bonus: +26 (+30 grapple)
+Combat maneuver defense: 39
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Critical (bite), Improved Lightning Reflexes, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Stand Still
+Skills: Bluff +25, Diplomacy +22, Fly +29
+Languages: Aquan, Common; _[speak with animals](ref/spell/speak-with-animals),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (small body of water)
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +2 Dex, +1 dodge, +18 natural, -1 size
-
-**Hit points:** 207 (18d10+108)
-
-**Fort:** +17
-
-**Ref:** +15
-
-**Will:** +12
-
-**Dr:** 10/cold iron and evil
-
-**Fh:** 7
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph effects
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft., fly 60 ft. (perfect)
-
-**Br Weap:** 80-ft. line, 9d6 bludgeoning damage plus push, Reflex DC 25 for half, usable every 1d4
-rounds
-
-**Constrict:** 1d8+3
-
-**Melee:** bite +24 (2d8+7/19-20), tail slap +19 (1d8+3 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** whitewater barrier
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +22
-
-**Constant:**
-
-- freedom of movement, speak with animals
-
-**At will:**
-
-- control water, create water, greater dispel magic, modify memory (DC 18), slipstream
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 17), quickened telekinesis (DC 19)
-- 1/day: break enchantment
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con 23, Int 18, Wis 22, Cha 19
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +26 (+30 grapple)
-
-**Combat maneuver defense:** 39
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Critical (bite), Improved Lightning
-Reflexes, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(telekinesis), Stand Still
-
-**Skills:** Bluff +25, Diplomacy +22, Fly +29
-
-**Languages:** Aquan, Common; _[speak with animals](ref/spell/speak-with-animals),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (small body of water)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

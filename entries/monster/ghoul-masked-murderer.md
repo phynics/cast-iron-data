@@ -28,84 +28,53 @@ special_qualities = "bardic knowledge +4, haunting refrain (+4 to demoralize, -2
 abilities = ["15", "17", "-", "17", "14", "22"]
 +++
 
-**Challenge rating:** 8
-
 **Ghoul [bard](ref/class/bard) ([dirge bard](ref/arc-bard/dirge-bard)) 8**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 4,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +5 armor, +3 Dex, +2 natural
+Hit points: 113 (10d8+68)
+Fort: +8
+Ref: +9
+Will: +11; +4 vs. necromantic effects
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +15
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: bite +10 (1d6+2 plus disease and paralysis), 2 claws +11 (1d6+2 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 19, elves are immune to this effect
+Ranged: mwk composite shortbow +11/+6 (1d6+2/×3)
+Spec Att: bardic performance 24 rounds/day (move action; [countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom) \[DC 20\], [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 20\], [inspire competence](ref/performance/inspire-competence) +3, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion) \[DC 20\]), disease (DC 17)
+:::
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 armor, +3 Dex, +2 natural
-
-**Hit points:** 113 (10d8+68)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +11; +4 vs. necromantic effects
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +10 (1d6+2 plus disease and paralysis), 2 claws +11 (1d6+2 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 19, elves are immune to this effect
-
-**Ranged:** mwk composite shortbow +11/+6 (1d6+2/×3)
-
-**Spec Att:** bardic performance 24 rounds/day (move action;
-[countersong](ref/performance/countersong), [dirge of doom](ref/performance/dirge-of-doom) \[DC
-20\], [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 20\],
-[inspire competence](ref/performance/inspire-competence) +3,
-[inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion) \[DC
-20\]), disease (DC 17)
-
-**Spells Known**
-
-**Caster level:** 8
-
-**Concentration:** +14
-
-**3rd-level spells:**
-
-- 3/day: confusion (DC 19), crushing despair (DC 19), glibness
-
-**2nd-level spells:**
-
-- 6/day: allegro, fleshy facade (DC 18), inflict moderate wounds (DC 18), mirror image
-
-**1st-level spells:**
-
-- 6/day: disguise self, expeditious retreat, hideous laughter (DC 17), ray of enfeeblement (DC 17),
-  silent image (DC 17)
-
-**Cantrips:**
-
-- At will: detect magic, ghost sound (DC 16), mage hand, message, prestidigitation (DC 16), summon
-  instrument
+::: statblock
+title = "Spells Known"
+Caster level: 8
+Concentration: +14
+3rd-level spells: 3/day: confusion (DC 19), crushing despair (DC 19), glibness
+2nd-level spells: 6/day: allegro, fleshy facade (DC 18), inflict moderate wounds (DC 18), mirror image
+1st-level spells: 6/day: disguise self, expeditious retreat, hideous laughter (DC 17), ray of enfeeblement (DC 17), silent image (DC 17)
+Cantrips: At will: detect magic, ghost sound (DC 16), mage hand, message, prestidigitation (DC 16), summon instrument
+:::
 
 ### Tactics
 
@@ -116,36 +85,27 @@ all possible, she avoids conflict, though her hunger sometimes gets the best of 
 then starts a bardic performance (typically dirge of doom). Before she actually enters melee, she
 casts allegro to gain additional attacks.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 15, Dex 17, Con -, Int 17, Wis 14, Cha 22
+::: statblock
+Ability scores: Str 15, Dex 17, Con -, Int 17, Wis 14, Cha 22
+Base attack bonus: +7
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Ability Focus (paralysis), Combat Casting, Improved Initiative, Weapon Finesse, Weapon Focus (claw)
+Skills: Bluff +19, Diplomacy +19, Disguise +19, Perform (oratory) +14
+Racial Modifiers: +4 Knowledge (religion) to identify undead creatures and their abilities
+Languages: Common, Dwarven, Elven, Undercommon
+Special qualities: bardic knowledge +4, haunting refrain (+4 to demoralize, -2 penalty on saves against bard's fear effects), secrets of the grave
+Combat gear: 4 +1 thundering arrows, potion of invisibility, scroll of hold person, Dinflict light wounds/50 charges
+Other gear: +1 chain shirt, mwk csb10, Ihbac2, disguise kit, 10 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Ability Focus (paralysis), Combat Casting, Improved Initiative, Weapon Finesse, Weapon
-Focus (claw)
-
-**Skills:** Bluff +19, Diplomacy +19, Disguise +19, Perform (oratory) +14
-
-**Racial Modifiers:** +4 Knowledge (religion) to identify undead creatures and their abilities
-
-**Languages:** Common, Dwarven, Elven, Undercommon
-
-**Special qualities:** bardic knowledge +4, haunting refrain (+4 to demoralize, -2 penalty on saves
-against bard's fear effects), secrets of the grave
-
-**Combat gear:** 4 +1 thundering arrows, potion of invisibility, scroll of hold person, Dinflict
-light wounds/50 charges
-
-**Other gear:** +1 chain shirt, mwk csb10, Ihbac2, disguise kit, 10 gp
-
-**Ecology**
-
-**Environment:** any land
+::: statblock
+Environment: any land
+:::
 
 ### Description
 

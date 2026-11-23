@@ -30,70 +30,57 @@ abilities = ["18", "13", "17", "2", "10", "7"]
 _A greasy sheen coats the scarred, rippling hide of this dog-shaped beast. Beady eyes, wide ears,
 and jagged teeth lend rodent-like qualities to the imposing war beast._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 13
+AC modifiers: +1 Dex, +3 natural
+Hit points: 25 (3d8+12)
+Fort: +6
+Ref: +4
+Will: +1
+Resist: fire 3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +6 (1d6+6 plus allergic reaction)
+Spec Att: allergic reaction (DC 14), flammable
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 13, Con 17, Int 2, Wis 10, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Skill Focus (Perception), Toughness
+Skills: Perception +8, Stealth +5
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +3 natural
-
-**Hit points:** 25 (3d8+12)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +1
-
-**Resist:** fire 3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +6 (1d6+6 plus allergic reaction)
-
-**Spec Att:** allergic reaction (DC 14), flammable
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 17, Int 2, Wis 10, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Skill Focus (Perception), Toughness
-
-**Skills:** Perception +8, Stealth +5
-
-**Ecology**
-
-**Environment:** temperate hills or underground
-
-**Organization:** solitary, pair, pack (3-6), or warband (2-4 with 2-12
-[hobgoblins](ref/monster/hobgoblin))
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or underground
+Organization: solitary, pair, pack (3-6), or warband (2-4 with 2-12 [hobgoblins](ref/monster/hobgoblin))
+Treasure: None
+:::
 
 ### Special Abilities
 

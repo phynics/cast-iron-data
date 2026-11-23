@@ -33,110 +33,76 @@ abilities = ["26", "22", "25", "26", "19", "25"]
 
 _This comely man is clad in fine silken robes. His eyes smolder with infernal flames._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +10
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision, See in darkness
+Subtype: Devil, Evil, Extraplanar, Herald, Lawful
+Experience points: 51,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 22
+AC modifiers: +6 Dex, +12 natural
+Hit points: 200 (16d10+112)
+Fort: +12
+Ref: +18
+Will: +16
+Dr: 10/good
+Immune: fire, poison
+Resist: acid 10, cold 10
+Sr: 26
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: touch +19 (1d8+8) or 5 slams +24 (1d8+8 plus [grab](ref/umr/grab))
+Reach: 5
+Reach P: 15 ft. with slam
+Space: 5
+Spec Att: terror, terror shape
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+At will: cloudkill (DC 22), false vision, greater teleport, self plus 50 lbs. of objects only, mirage arcana (DC 22), persistent image (DC 22), scorching ray
+Per day: 3/day: crushing despair (DC 21), dimensional anchor (DC 21), ethereal jaunt, greater dispel magic, greater invisibility, legend lore, nightmare (DC 22), phantasmal killer (DC 21), true seeing\
+1/day: geas/quest, !grant 1 [wish](ref/spell/wish) (to mortals only), summon (level 5, 2 bone devils 75%)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
+### Statistics
 
-**Subtype:** Devil, Evil, Extraplanar, Herald, Lawful
+::: statblock
+Ability scores: Str 26, Dex 22, Con 25, Int 26, Wis 19, Cha 25
+Base attack bonus: +16
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 40
+Feats: Blind-Fight, Combat Reflexes, Deceitful, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Persuasive
+Skills: Acrobatics +22, Bluff +30, Diplomacy +38, Disguise +30, Perform (oratory) +23, Sense Motive +23, Sleight of Hand +22, Spellcraft +27, Stealth +25
+Racial Modifiers: +8 Diplomacy, +8 Intimidate
+Languages: xA, Aklo, Aquan, Celestial, Common, Draconic, Elven, Giant, Infernal, Undercommon; _[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: veil of forms
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 Dex, +12 natural
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +16
-
-**Dr:** 10/good
-
-**Immune:** fire, poison
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** touch +19 (1d8+8) or 5 slams +24 (1d8+8 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with slam
-
-**Space:** 5
-
-**Spec Att:** terror, terror shape
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**At will:**
-
-- cloudkill (DC 22), false vision, greater teleport, self plus 50 lbs. of objects only, mirage
-  arcana (DC 22), persistent image (DC 22), scorching ray
-
-**Per day:**
-
-- 3/day: crushing despair (DC 21), dimensional anchor (DC 21), ethereal jaunt, greater dispel magic,
-  greater invisibility, legend lore, nightmare (DC 22), phantasmal killer (DC 21), true seeing
-- 1/day: geas/quest, !grant 1 [wish](ref/spell/wish) (to mortals only), summon (level 5, 2 bone
-  devils 75%)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 22, Con 25, Int 26, Wis 19, Cha 25
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 40
-
-**Feats:** Blind-Fight, Combat Reflexes, Deceitful, Improved Initiative, Improved Iron Will, Iron
-Will, Lightning Reflexes, Persuasive
-
-**Skills:** Acrobatics +22, Bluff +30, Diplomacy +38, Disguise +30, Perform (oratory) +23, Sense
-Motive +23, Sleight of Hand +22, Spellcraft +27, Stealth +25
-
-**Racial Modifiers:** +8 Diplomacy, +8 Intimidate
-
-**Languages:** xA, Aklo, Aquan, Celestial, Common, Draconic, Elven, Giant, Infernal, Undercommon;
-_[tongues](ref/spell/tongues),_ [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** veil of forms
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

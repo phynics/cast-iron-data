@@ -33,82 +33,63 @@ abilities = ["25", "10", "-", "10", "13", "19"]
 _A single milky eye stares from the forehead of this towering giant wrapped in filthy, rune-covered
 strips of bloody linen._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +0
+Size: large
+Alignment: Neutral evil
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Type: undead
+Experience points: 9,600
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 9
+Flat-footed: 25
+AC modifiers: +16 natural, -1 size
+Hit points: 127 (15d8+60)
+Fort: +9
+Ref: +5
+Will: +10
+Chan Res: +3
+Dr: 5/good
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 10, fire 10
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 30 ft.
+Melee: bite +17 (1d8+7), 2 claws +18 (2d8+7/19-20 plus disease)
+Reach: 10
+Space: 10
+Spec Att: blinding breath, disease
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 25, Dex 10, Con -, Int 10, Wis 13, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+21 bull rush)
+Combat maneuver defense: 29 (31 vs. bull rush)
+Feats: Awesome Blow, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Improved Critical (claw), Power Attack, Weapon Focus (claw)
+Skills: Intimidate +22, Knowledge (history) +8, Perception +19, Sense Motive +11, Stealth +14
+Languages: Giant
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 9
-
-**Flat-footed:** 25
-
-**AC modifiers:** +16 natural, -1 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +10
-
-**Chan Res:** +3
-
-**Dr:** 5/good
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +17 (1d8+7), 2 claws +18 (2d8+7/19-20 plus disease)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** blinding breath, disease
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 10, Con -, Int 10, Wis 13, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+21 bull rush)
-
-**Combat maneuver defense:** 29 (31 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Great Cleave, Improved Bull Rush, Improved Critical
-(claw), Power Attack, Weapon Focus (claw)
-
-**Skills:** Intimidate +22, Knowledge (history) +8, Perception +19, Sense Motive +11, Stealth +14
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** warm coasts
-
-**Organization:** solitary or guard (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm coasts
+Organization: solitary or guard (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

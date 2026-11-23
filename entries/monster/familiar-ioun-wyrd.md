@@ -32,75 +32,60 @@ abilities = ["4", "15", "-", "3", "14", "5"]
 _This strange creature appears as a floating swarm of gemstones surrounding a larger stone that
 pulses with dim light._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+blindsight: 30
+Type: construct
+Initiative: +2
+Alignment: Neutral
+Perception: +2
+Size: tiny
+Experience points: 135
+:::
 
-**blindsight:** 30
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 size
+Hit points: 5 (1d10)
+Fort: +0
+Ref: +2
+Will: +2
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 0 ft., fly 30 ft. (average)
+Melee: slam +0 (1d4-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +2
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 15, Con -, Int 3, Wis 14, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 9
+Feats: Dodge
+Skills: Fly +10
+Languages: Common (can't speak)
+Special qualities: ioun affinity, share iouns
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 0 ft., fly 30 ft. (average)
-
-**Melee:** slam +0 (1d4-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 15, Con -, Int 3, Wis 14, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 9
-
-**Feats:** Dodge
-
-**Skills:** Fly +10
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** ioun affinity, share iouns
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

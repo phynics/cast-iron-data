@@ -31,79 +31,62 @@ abilities = ["24", "15", "-", "-", "10", "1"]
 _This towering creature appears to be made entirely of sand, with pockets of soft earth and rock
 reinforcing its tall, humanoid form._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +2 Dex, +12 natural, -1 size
+Hit points: 96 (12d10+30)
+Fort: +4
+Ref: +6
+Will: +4
+Amorph: present
+Dr: 10/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+Vulner: electricity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Constrict: 2d6+10
+Melee: 2 slams +18 (2d6+7 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: clutching sands, sand blast
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 15, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +20 (+24 grapple)
+Combat maneuver defense: 32
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +12 natural, -1 size
-
-**Hit points:** 96 (12d10+30)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +4
-
-**Amorph:** present
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** electricity
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 2d6+10
-
-**Melee:** 2 slams +18 (2d6+7 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** clutching sands, sand blast
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 15, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20 (+24 grapple)
-
-**Combat maneuver defense:** 32
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

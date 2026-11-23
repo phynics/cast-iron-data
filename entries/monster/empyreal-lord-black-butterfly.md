@@ -32,132 +32,85 @@ abilities = ["28", "40", "40", "27", "30", "33"]
 _This living silhouette of a graceful woman has white hair and eyes. Her butterfly wings shimmer
 with twinkling stars._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: primal aura (30 ft.)
+blindsense: 60
+Alignment: Chaotic good
+Initiative: +19
+Size: large
+Type: outsider
+Perception: +50
+Senses: Darkvision 60 ft., Detect aberration, Detect evil, Detect law, Low-light vision, See in darkness, True seeing
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 4,915,200
+:::
 
-**aura:** primal aura (30 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 46
+Touch: 34
+Flat-footed: 31
+AC modifiers: +4 armor, +15 Dex, +10 insight, +8 natural, -1 size
+Hit points: 676 (33d10+495)
+Fort: +26
+Ref: +33
+Will: +28; +8 vs. mind-affecting effects
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, _[mind blank](ref/spell/mind-blank)_
+Dr: 20/epic and evil
+Immune: ability damage, ability drain, charm effects, cold, compulsion effects, death effects, electricity, energy drain, petrification
+Regen: 30 (deific or mythic)
+Resist: fire 30, sonic 30
+Sr: 39
+:::
 
-**Alignment:** Chaotic good
+### Offense
 
-**Initiative:** +19
+::: statblock
+Speed: 40 ft., fly 150 ft. (perfect)
+Melee: Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold), touch +42 touch (10d6 cold plus steal breath)
+Ranged: Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold)
+Reach: 10
+Space: 10
+Spec Att: Voidsedge bond
+:::
 
-**Size:** large
-
-**Type:** outsider
-
-**Perception:** +50
-
-**Senses:** Darkvision 60 ft., Detect aberration, Detect evil, Detect law, Low-light vision, See in
-darkness, True seeing
-
-**Subtype:** Azata, Chaotic, Extraplanar, Good
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 34
-
-**Flat-footed:** 31
-
-**AC modifiers:** +4 armor, +15 Dex, +10 insight, +8 natural, -1 size
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +26
-
-**Ref:** +33
-
-**Will:** +28; +8 vs. mind-affecting effects
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_,
-_[mind blank](ref/spell/mind-blank)_
-
-**Dr:** 20/epic and evil
-
-**Immune:** ability damage, ability drain, charm effects, cold, compulsion effects, death effects,
-electricity, energy drain, petrification
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** fire 30, sonic 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 40 ft., fly 150 ft. (perfect)
-
-**Melee:** Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold), touch +42 touch
-(10d6 cold plus steal breath)
-
-**Ranged:** Voidsedge +52/+47/+42/+37 (1d6+20/19-20/×3 plus 2d6 fire and 2d6 cold)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** Voidsedge bond
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +39
-
-**Constant:**
-
-- detect aberration, detect evil, detect law, freedom of movement, mind blank, true seeing
-
-**At will:**
-
-- break enchantment, deeper darkness, dimensional anchor, greater dispel magic, haste^M^, holy
-  smite^M^ (DC 25), holy word^M^ (DC 28), interplanetary teleport, wandering star motes (DC 25)
-
-**Per day:**
-
-- 3/day: antimagic field^M^, quickened heal^M^, reverse gravity^M^, quickened wandering star motes
-  (DC 25)
-- 1/day: gate, implosion (DC 30), mage's disjunction^M^, moment of prescience, time stop^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +39
+Constant: detect aberration, detect evil, detect law, freedom of movement, mind blank, true seeing
+At will: break enchantment, deeper darkness, dimensional anchor, greater dispel magic, haste^M^, holy smite^M^ (DC 25), holy word^M^ (DC 28), interplanetary teleport, wandering star motes (DC 25)
+Per day: 3/day: antimagic field^M^, quickened heal^M^, reverse gravity^M^, quickened wandering star motes (DC 25)\
+1/day: gate, implosion (DC 30), mage's disjunction^M^, moment of prescience, time stop^M^
+:::
 
 ###### M {#footnote-m}
 
 Black Butterfly can use this ability's mythic version in her realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 28, Dex 40, Con 40, Int 27, Wis 30, Cha 33
+::: statblock
+Ability scores: Str 28, Dex 40, Con 40, Int 27, Wis 30, Cha 33
+Base attack bonus: +33
+Combat maneuver bonus: +43
+Combat maneuver defense: 78
+Feats: Alertness, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Deadly Aim, Flyby Attack, Improved Critical (starknife), Improved Initiative, Improved Precise Shot, Point-Blank Shot, Power Attack, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (heal, wandering star motes), Skill Focus (Stealth), Weapon Finesse
+Skills: Acrobatics +51, Bluff +47, Diplomacy +44, Sense Motive +50, Spellcraft +44, Stealth +53, Use Magic Device +47
+Languages: Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
+Special qualities: celestial grace, interstellar mastery, [no breath](ref/umr/no-breath), seed of life, silence between, starflight, [empyreal lord traits](ref/umr/empyreal-lord-traits)
+Faith: Black Butterfly
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +43
-
-**Combat maneuver defense:** 78
-
-**Feats:** Alertness, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Deadly
-Aim, Flyby Attack, Improved Critical (starknife), Improved Initiative, Improved Precise Shot,
-Point-Blank Shot, Power Attack, Precise Shot, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (heal, wandering star motes), Skill Focus
-(Stealth), Weapon Finesse
-
-**Skills:** Acrobatics +51, Bluff +47, Diplomacy +44, Sense Motive +50, Spellcraft +44, Stealth +53,
-Use Magic Device +47
-
-**Languages:** Aklo, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
-
-**Special qualities:** celestial grace, interstellar mastery, [no breath](ref/umr/no-breath), seed
-of life, silence between, starflight, [empyreal lord traits](ref/umr/empyreal-lord-traits)
-
-**Faith:** Black Butterfly
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple; Voidsedge, other treasure
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary (unique)
+Treasure: Triple; Voidsedge, other treasure
+:::
 
 ### Special Abilities
 

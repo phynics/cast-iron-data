@@ -30,89 +30,66 @@ abilities = ["32", "20", "-", "9", "11", "21"]
 _This brawny creature has had its skin completely flensed from its form, revealing the violent
 pulsing of its massive, exposed muscles._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 26)
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Perception: +25
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 14
+Flat-footed: 25
+AC modifiers: +5 Dex, +16 natural, -1 size
+Hit points: 209 (22d8+110)
+Fort: +12
+Ref: +12
+Will: +15
+Chan Res: +2
+Dr: 15/good and silver
+Fh: 5
+Immune: acid, [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Bleed: 1 Con drain
+Melee: 2 claws +27 (3d6+11/19-20)
+Reach: 10
+Rend: 2 claws, 3d6+11 plus bleed and seize skin
+Space: 10
+:::
 
-**Perception:** +25
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 32, Dex 20, Con -, Int 9, Wis 11, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +28
+Combat maneuver defense: 43
+Feats: Awesome Blow, Blinding Critical, Combat Reflexes, Critical Focus, Improved Bull Rush, Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Stand Still, Weapon Focus (claw)
+Skills: Disguise +30, Stealth +26
+Languages: Common
+Special qualities: wear skin
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 14
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 Dex, +16 natural, -1 size
-
-**Hit points:** 209 (22d8+110)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +15
-
-**Chan Res:** +2
-
-**Dr:** 15/good and silver
-
-**Fh:** 5
-
-**Immune:** acid, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1 Con drain
-
-**Melee:** 2 claws +27 (3d6+11/19-20)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 3d6+11 plus bleed and seize skin
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 20, Con -, Int 9, Wis 11, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 43
-
-**Feats:** Awesome Blow, Blinding Critical, Combat Reflexes, Critical Focus, Improved Bull Rush,
-Improved Critical (claw), Improved Initiative, Iron Will, Power Attack, Stand Still, Weapon Focus
-(claw)
-
-**Skills:** Disguise +30, Stealth +26
-
-**Languages:** Common
-
-**Special qualities:** wear skin
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

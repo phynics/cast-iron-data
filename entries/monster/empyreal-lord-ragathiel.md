@@ -31,127 +31,84 @@ abilities = ["32", "28", "39", "23", "22", "29"]
 _This towering angelic general has five wings of fire, a flaming bastard sword, and resplendent
 golden armor._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+aura: holy aura (DC 27), primal aura (30 ft.), protective aura
+blindsense: 60
+Size: huge
+Initiative: +13
+Alignment: Lawful good
+Type: outsider
+Perception: +40
+Senses: Darkvision 60 ft., Detect evil, Low-light vision, True seeing
+Subtype: Angel, Extraplanar, Good, Lawful
+Experience points: 2,457,600
+:::
 
-**aura:** holy aura (DC 27), primal aura (30 ft.), protective aura
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 44
+Touch: 30
+Flat-footed: 35
+AC modifiers: +14 armor, +4 deflection, +9 Dex, +9 sacred, -2 size
+Hit points: 604 (31d10+434)
+Fort: +35
+Ref: +23
+Will: +27; +4 vs. poison
+Defensive abilities: golden armor, righteous mantle
+Dr: 20/epic and evil
+Immune: ability damage, ability drain, acid, charm effects, cold, compulsion effects, death effects, energy drain, fire, petrification
+Regen: 20 (deific or mythic)
+Resist: electricity 30
+Sr: 37
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +13
+::: statblock
+Speed: 50 ft., fly 90 ft. (good)
+Melee: +5 evil-outsider-bane flaming burst holy bastard sword +46/+41/+36/+31 (3d8+21/17-20), 5 wings +35 (1d8+5 plus 1d6 fire)
+Reach: 15
+Space: 15
+Spec Att: burning wings, devil's end, smite evil (7/day)
+:::
 
-**Alignment:** Lawful good
-
-**Type:** outsider
-
-**Perception:** +40
-
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, True seeing
-
-**Subtype:** Angel, Extraplanar, Good, Lawful
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 30
-
-**Flat-footed:** 35
-
-**AC modifiers:** +14 armor, +4 deflection, +9 Dex, +9 sacred, -2 size
-
-**Hit points:** 604 (31d10+434)
-
-**Fort:** +35
-
-**Ref:** +23
-
-**Will:** +27; +4 vs. poison
-
-**Defensive abilities:** golden armor, righteous mantle
-
-**Dr:** 20/epic and evil
-
-**Immune:** ability damage, ability drain, acid, charm effects, cold, compulsion effects, death
-effects, energy drain, fire, petrification
-
-**Regen:** 20 (deific or mythic)
-
-**Resist:** electricity 30
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 50 ft., fly 90 ft. (good)
-
-**Melee:** +5 evil-outsider-bane flaming burst holy bastard sword +46/+41/+36/+31 (3d8+21/17-20), 5
-wings +35 (1d8+5 plus 1d6 fire)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** burning wings, devil's end, smite evil (7/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +35
-
-**Constant:**
-
-- detect evil, holy aura (DC 27), true seeing
-
-**At will:**
-
-- bestow grace, fire of judgment (DC 22), greater dispel magic, greater teleport, holy word^M^ (DC
-  26), geas/quest, mark of justice, shield other^M^
-
-**Per day:**
-
-- 3/day: banishment (DC 26), quickened blade barrier^M^ (DC 25), blessing of fervor, discern
-  location, heal^M^
-- 1/day: gate, meteor swarm^M^ (DC 28), time stop^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +35
+Constant: detect evil, holy aura (DC 27), true seeing
+At will: bestow grace, fire of judgment (DC 22), greater dispel magic, greater teleport, holy word^M^ (DC 26), geas/quest, mark of justice, shield other^M^
+Per day: 3/day: banishment (DC 26), quickened blade barrier^M^ (DC 25), blessing of fervor, discern location, heal^M^\
+1/day: gate, meteor swarm^M^ (DC 28), time stop^M^
+:::
 
 ###### M {#footnote-m}
 
 Ragathiel can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 32, Dex 28, Con 39, Int 23, Wis 22, Cha 29
+::: statblock
+Ability scores: Str 32, Dex 28, Con 39, Int 23, Wis 22, Cha 29
+Base attack bonus: +31
+Combat maneuver bonus: +44 (+48 sunder)
+Combat maneuver defense: 76 (78 vs. sunder)
+Feats: Combat Reflexes, Critical Focus, Dazzling Display, Greater Spell Penetration, Greater Sunder, Improved Critical (bastard sword), Improved Initiative, Improved Sunder, Intimidating Prowess, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blade barrier), Shatter Defenses, Stand Still, Spell Penetration, Staggering Critical, Weapon Focus (bastard sword)
+Skills: Acrobatics +40, Bluff +43, Fly +43, Sense Motive +40, Stealth +35, Survival +40
+Languages: Celestial, Infernal; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
+Special qualities: [lay on hands](ref/ability/lay-on-hands) (17d6, 10/day), seed of life, [empyreal lord traits](ref/umr/empyreal-lord-traits)
+Faith: Ragathiel
+:::
 
-**Base attack bonus:** +31
+### Ecology
 
-**Combat maneuver bonus:** +44 (+48 sunder)
-
-**Combat maneuver defense:** 76 (78 vs. sunder)
-
-**Feats:** Combat Reflexes, Critical Focus, Dazzling Display, Greater Spell Penetration, Greater
-Sunder, Improved Critical (bastard sword), Improved Initiative, Improved Sunder, Intimidating
-Prowess, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (blade barrier),
-Shatter Defenses, Stand Still, Spell Penetration, Staggering Critical, Weapon Focus (bastard sword)
-
-**Skills:** Acrobatics +40, Bluff +43, Fly +43, Sense Motive +40, Stealth +35, Survival +40
-
-**Languages:** Celestial, Infernal; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
-
-**Special qualities:** [lay on hands](ref/ability/lay-on-hands) (17d6, 10/day), seed of life,
-[empyreal lord traits](ref/umr/empyreal-lord-traits)
-
-**Faith:** Ragathiel
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple (+5 BANE-evil-outsider flaming burst holy bastard sword, +5 full plate); other
-treasure
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary (unique)
+Treasure: Triple (+5 BANE-evil-outsider flaming burst holy bastard sword, +5 full plate); other treasure
+:::
 
 ### Special Abilities
 

@@ -33,76 +33,60 @@ _At first glance, this creature appears to be a mischievously smiling young chil
 hair clad only in a grass skirt. A closer look reveals goblinoid ears and a mouth full of pointed
 teeth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +3
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 dodge, +1 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +6
+Will: +1
+:::
 
-**Initiative:** +3
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft.
+Melee: spear +4 (1d6+1/×3)
+Ranged: net +6 (special)
+Spec Att: steal fire
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 17, Con 15, Int 12, Wis 10, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 16
+Feats: Dodge, Stealthy
+Skills: Escape Artist +5, Profession (fisherman) +9, Sleight of Hand +5, Stealth +14, Survival +4, Swim +10
+Racial Modifiers: +4 Profession (fisherman), +4 Swim
+Languages: Common, Goblin
+:::
 
-**Subtype:** Goblinoid
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +4 (1d6+1/×3)
-
-**Ranged:** net +6 (special)
-
-**Spec Att:** steal fire
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 15, Int 12, Wis 10, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16
-
-**Feats:** Dodge, Stealthy
-
-**Skills:** Escape Artist +5, Profession (fisherman) +9, Sleight of Hand +5, Stealth +14, Survival
-+4, Swim +10
-
-**Racial Modifiers:** +4 Profession (fisherman), +4 Swim
-
-**Languages:** Common, Goblin
-
-**Ecology**
-
-**Environment:** temperate or warm forests or coasts
-
-**Organization:** solitary, family (2-7), or tribe (8-28)
-
-**Treasure:** Standard (net, 3 spears); other small treasures
+::: statblock
+Environment: temperate or warm forests or coasts
+Organization: solitary, family (2-7), or tribe (8-28)
+Treasure: Standard (net, 3 spears); other small treasures
+:::
 
 ### Special Abilities
 

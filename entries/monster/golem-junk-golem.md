@@ -31,69 +31,57 @@ abilities = ["18", "9", "-", "-", "11", "1"]
 _A walking rubbish heap, this roughly man-shaped creature seems to be barely holding itself
 together._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: -1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: -1 Dex, +10 natural
+Hit points: 42 (4d10+20); junk repair
+Fort: +1
+Ref: +0
+Will: +1
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slam +8 (1d6+4 plus [tetanus](ref/disease/tetanus), DC 12 \[Con-based DC\])
+Spec Att: tetanus
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 17
+Special qualities: discorporate
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +10 natural
-
-**Hit points:** 42 (4d10+20); junk repair
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +1
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slam +8 (1d6+4 plus [tetanus](ref/disease/tetanus), DC 12 \[Con-based DC\])
-
-**Spec Att:** tetanus
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 17
-
-**Special qualities:** discorporate
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

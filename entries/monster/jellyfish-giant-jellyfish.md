@@ -31,77 +31,61 @@ abilities = ["18", "15", "22", "-", "11", "1"]
 _The bell of this enormous amber jellyfish is as large as a carriage. A sinister bloom of tentacles
 dangles and writhes below._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 3,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 9
+AC modifiers: +2 Dex, -1 size
+Hit points: 94 (9d8+54)
+Fort: +12
+Ref: +5
+Will: +3
+Amorph: present
+Dr: 10/piercing or slashing
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: swim 20 ft.
+Melee: 4 tentacles +9 (1d6+4 plus poison)
+Reach: 15
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 18, Dex 15, Con 22, Int -, Wis 11, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 23 (can't be tripped)
+Skills: Swim +12
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 9
-
-**AC modifiers:** +2 Dex, -1 size
-
-**Hit points:** 94 (9d8+54)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +3
-
-**Amorph:** present
-
-**Dr:** 10/piercing or slashing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Melee:** 4 tentacles +9 (1d6+4 plus poison)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 22, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Skills:** Swim +12
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pack (2-5), or bloom (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pack (2-5), or bloom (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,83 +33,64 @@ abilities = ["16", "8", "14", "5", "12", "8"]
 _This enormous snail has a brightly colored shell and four tentacles on its head, each tipped with a
 mace-like club._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 30
+Initiative: -1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+tremorsense: 60
+Experience points: 1,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +3
+Will: +2
+Defensive abilities: retraction, warp magic
+Immune: poison
+Resist: fire 10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Melee: 4 slams +7 (1d4+3)
+Reach: 10
+Space: 10
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +5
+::: statblock
+Ability scores: Str 16, Dex 8, Con 14, Int 5, Wis 12, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Power Attack, Weapon Focus (slam)
+Skills: Climb +15, Perception +5, Stealth +0
+Languages: Flail Snail (sign language, slime writing, can't speak)
+Special qualities: mucus, slime rope, suction
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +2
-
-**Defensive abilities:** retraction, warp magic
-
-**Immune:** poison
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Melee:** 4 slams +7 (1d4+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 8, Con 14, Int 5, Wis 12, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Power Attack, Weapon Focus (slam)
-
-**Skills:** Climb +15, Perception +5, Stealth +0
-
-**Languages:** Flail Snail (sign language, slime writing, can't speak)
-
-**Special qualities:** mucus, slime rope, suction
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pair, or rout (3-30)
-
-**Treasure:** Standard; shell worth 800 gp, other treasure
+::: statblock
+Environment: underground
+Organization: solitary, pair, or rout (3-30)
+Treasure: Standard; shell worth 800 gp, other treasure
+:::
 
 ### Special Abilities
 

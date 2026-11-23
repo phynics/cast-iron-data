@@ -25,69 +25,57 @@ melee = "bite +5 (1d3-4)"
 abilities = ["3", "16", "10", "2", "13", "5"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: bite +5 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 16, Con 10, Int 2, Wis 13, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Weapon Finesse
+Skills: Escape Artist +4, Swim +11
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** bite +5 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 16, Con 10, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Escape Artist +4, Swim +11
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or family (2-16)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary or family (2-16)
+Treasure: None
+:::
 
 ### Description
 

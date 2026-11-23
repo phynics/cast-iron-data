@@ -33,84 +33,64 @@ abilities = ["1", "30", "-", "5", "10", "1"]
 
 _Droplets of a silvery gray, slightly grainy goo gleam dully as they hang in the air._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: construct
+Size: fine
+Initiative: +10
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+Experience points: 38,400
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 29
+Touch: 29
+Flat-footed: 18
+AC modifiers: +10 Dex, +1 dodge, +8 size
+Hit points: 123 (19d10+19)
+Fort: +8
+Ref: +18
+Will: +8
+Defensive abilities: dispersion, swarm traits
+Immune: [construct traits](ref/umr/construct-traits), weapon damage
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 50 ft. (perfect)
+Distraction: DC 21
+Melee: swarm (6d6 plus dismantle and distraction)
+Reach: 0
+Space: 10
+Spec Att: dismantle, infest
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 30, Con -, Int 5, Wis 10, Cha 1
+Base attack bonus: +19
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Ability Focus (distraction), Dodge, Great Fortitude, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Lightning Stance, Mobility, Toughness, Wind Stance
+Skills: Fly +26, Perception +13, Stealth +32 (+42 when dispersed)
+Racial Modifiers: +10 Stealth when dispersed
+Languages: Common (can't speak)
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 29
-
-**Flat-footed:** 18
-
-**AC modifiers:** +10 Dex, +1 dodge, +8 size
-
-**Hit points:** 123 (19d10+19)
-
-**Fort:** +8
-
-**Ref:** +18
-
-**Will:** +8
-
-**Defensive abilities:** dispersion, swarm traits
-
-**Immune:** [construct traits](ref/umr/construct-traits), weapon damage
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Distraction:** DC 21
-
-**Melee:** swarm (6d6 plus dismantle and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** dismantle, infest
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 30, Con -, Int 5, Wis 10, Cha 1
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Ability Focus (distraction), Dodge, Great Fortitude, Improved Lightning Reflexes, Iron
-Will, Lightning Reflexes, Lightning Stance, Mobility, Toughness, Wind Stance
-
-**Skills:** Fly +26, Perception +13, Stealth +32 (+42 when dispersed)
-
-**Racial Modifiers:** +10 Stealth when dispersed
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or storm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or storm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

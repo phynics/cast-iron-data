@@ -31,79 +31,62 @@ abilities = ["18", "13", "18", "9", "14", "7"]
 
 _The carapace of this large crab resembles a scowling face, its eyes seething with an ancient fury._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft., DC 14)
+Initiative: +1
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft., DC 14)
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 17
+AC modifiers: +1 Dex, +6 natural, +1 size
+Hit points: 42 (5d8+20)
+Fort: +5
+Ref: +2
+Will: +6
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Constrict: 1d3+4
+Grab: Medium
+Melee: 2 claws +9 (1d3+4 plus grab) or dagger +8 (1d3+4/19-20), claw +4 (1d3+2 plus grab)
+Ranged: dagger +5 (1d3+4/19-20)
+Spec Att: challenge (2/day), intimidating glare
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 13, Con 18, Int 9, Wis 14, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 17 (25 vs. trip)
+Feats: Power Attack, Skill Focus (Intimidate), Weapon Focus (claw)
+Skills: Intimidate +9, Knowledge (nobility) +4, Perception +10, Swim +18
+Languages: Common (can't speak)
+:::
 
-**Size:** small
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +6 natural, +1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Constrict:** 1d3+4
-
-**Grab:** Medium
-
-**Melee:** 2 claws +9 (1d3+4 plus grab) or dagger +8 (1d3+4/19-20), claw +4 (1d3+2 plus grab)
-
-**Ranged:** dagger +5 (1d3+4/19-20)
-
-**Spec Att:** challenge (2/day), intimidating glare
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 18, Int 9, Wis 14, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Feats:** Power Attack, Skill Focus (Intimidate), Weapon Focus (claw)
-
-**Skills:** Intimidate +9, Knowledge (nobility) +4, Perception +10, Swim +18
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary or guard (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any coastlines
+Organization: solitary or guard (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

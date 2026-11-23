@@ -30,77 +30,61 @@ abilities = ["25", "13", "24", "3", "14", "8"]
 _This hulking beast has slick, gray, hairless skin. Its numerous yellow eyes and wide toothy maw are
 its only facial features._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 10
+Flat-footed: 20
+AC modifiers: +1 Dex, +11 natural, -1 size
+Hit points: 100 (8d10+56)
+Fort: +13
+Ref: +7
+Will: +4
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +14 (2d6+7), 2 claws +15 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 10
+Rend: 2 claws, 1d8+10
+Space: 10
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 13, Con 24, Int 3, Wis 14, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 27
+Feats: Awesome Blow, Improved Bull Rush, Power Attack, Weapon Focus (claw)
+Skills: Perception +13
+Racial Modifiers: +4 Perception
+Languages: Giant
+Special qualities: double damage against objects
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +11 natural, -1 size
-
-**Hit points:** 100 (8d10+56)
-
-**Fort:** +13
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +14 (2d6+7), 2 claws +15 (1d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d8+10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 13, Con 24, Int 3, Wis 14, Cha 8
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 27
-
-**Feats:** Awesome Blow, Improved Bull Rush, Power Attack, Weapon Focus (claw)
-
-**Skills:** Perception +13
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Giant
-
-**Special qualities:** double damage against objects
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary (plus bonded creatures if any)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate marshes
+Organization: solitary (plus bonded creatures if any)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

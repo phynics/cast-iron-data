@@ -32,80 +32,61 @@ abilities = ["12", "14", "13", "9", "10", "9"]
 _With a large head and numerous teeth, this unsightly creature resembles a goblin from the waist up
 and a greasy octopus below._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Experience points: 200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +2 natural, +1 size
+Hit points: 5 (1d8+1)
+Fort: +1
+Ref: +2
+Will: +2
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 15 ft., swim 30 ft.
+Jet: 200
+Melee: spear +2 (1d6+1/×3), bite -2 (1d3)
+Ranged: spear +3 (1d6+1/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 14, Con 13, Int 9, Wis 10, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 12 (18 vs. trip)
+Feats: Weapon Finesse
+Skills: Perception +4, Stealth +14, Swim +13
+Racial Modifiers: +4 Stealth
+Languages: Aquan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +2 natural, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 15 ft., swim 30 ft.
-
-**Jet:** 200
-
-**Melee:** spear +2 (1d6+1/×3), bite -2 (1d3)
-
-**Ranged:** spear +3 (1d6+1/×3)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 13, Int 9, Wis 10, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12 (18 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +4, Stealth +14, Swim +13
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, gang (3-9), warband (10-16 with 1-2 [octopus](ref/monster/octopus)
-minions), or tribe (17-40 plus 1 ranger sergeant of 1st-3rd level per 20 members, 1 cleric or
-barbarian leader of 4th-8th level, 2-8 octopus pets, and 1-2 [devilfish](ref/monster/devilfish)
-guardians)
-
-**Treasure:** NPC gear (spear); other treasure
+::: statblock
+Environment: any water
+Organization: solitary, pair, gang (3-9), warband (10-16 with 1-2 [octopus](ref/monster/octopus) minions), or tribe (17-40 plus 1 ranger sergeant of 1st-3rd level per 20 members, 1 cleric or barbarian leader of 4th-8th level, 2-8 octopus pets, and 1-2 [devilfish](ref/monster/devilfish) guardians)
+Treasure: NPC gear (spear); other treasure
+:::
 
 ### Special Abilities
 

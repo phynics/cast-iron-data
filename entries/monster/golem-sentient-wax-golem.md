@@ -27,78 +27,62 @@ special_qualities = "conditional sentience"
 abilities = ["14", "9", "-", "10", "11", "1"]
 +++
 
-**Challenge rating:** 4
-
 **Commoner 1**
 
-**Type:** construct
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: -1 Dex, +6 natural
+Hit points: 47 (4d10+1d6+21\~5)
+Fort: +3
+Ref: +2
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits), magic
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Melee: slam +6 (1d6+3)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 14, Dex 9, Con -, Int 10, Wis 11, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 15
+Feats: Great Fortitude, Improved Initiative, Lightning Reflexes
+Skills: Appraise +6, Craft (carpentry) +7, Disguise +7 (+17 to appear as the individual it was crafted to resemble)
+Racial Modifiers: +12 Disguise
+Languages: Common
+Special qualities: conditional sentience
+:::
 
-**Armor class:** 15
+### Ecology {#stat-ecology}
 
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +6 natural
-
-**Hit points:** 47 (4d10+1d6+21\~5)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +6 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 9, Con -, Int 10, Wis 11, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 15
-
-**Feats:** Great Fortitude, Improved Initiative, Lightning Reflexes
-
-**Skills:** Appraise +6, Craft (carpentry) +7, Disguise +7 (+17 to appear as the individual it was
-crafted to resemble)
-
-**Racial Modifiers:** +12 Disguise
-
-**Languages:** Common
-
-**Special qualities:** conditional sentience
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

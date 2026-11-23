@@ -31,130 +31,85 @@ abilities = ["38", "29", "40", "31", "32", "31"]
 _This starving-thin man has a trio of jackal's heads with jagged, crystalline teeth. His oily black
 flesh ripples disturbingly._
 
-**Challenge rating:** 27
+::: statblock
+Challenge rating: 27
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 36), unholy aura (DC 28)
+Initiative: +13
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect good, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 3,276,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 36), unholy aura (DC 28)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 45
+Touch: 35
+Flat-footed: 36
+AC modifiers: +4 deflection, +9 Dex, +10 natural, +12 profane
+Hit points: 656 (32d10+480)
+Fort: +29
+Ref: +31
+Will: +33
+Amorph: present
+Defensive abilities: apocalyptic resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, acid, charm effects, compulsion effects, death effects, disease, energy drain, petrification, poison
+Regen: 20 (deific or mythic)
+Resist: cold 30, electricity 30, fire 30
+Sr: 38
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 30 ft. (average)
+E Drain: 1 level, DC 36
+F Swallow: present
+Melee: 3 bites +46 (4d6+21/19-20 plus energy drain), 2 claws +46 (3d8+14/19-20 plus [grab](ref/umr/grab))
+Spec Att: predecessor's rage, ravenous devourer, wail of the consumed
+Swallow: 10d6 acid damage and 1d6 Wisdom drain, AC 15, 65 hp
+:::
 
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect good, True seeing
-
-**Subtype:** Daemon, Evil, Extraplanar
-
-**Experience points:** 3,276,800
-
-**Armor class:** 45
-
-**Touch:** 35
-
-**Flat-footed:** 36
-
-**AC modifiers:** +4 deflection, +9 Dex, +10 natural, +12 profane
-
-**Hit points:** 656 (32d10+480)
-
-**Fort:** +29
-
-**Ref:** +31
-
-**Will:** +33
-
-**Amorph:** present
-
-**Defensive abilities:** apocalyptic resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, acid, charm effects, compulsion effects, death effects,
-disease, energy drain, petrification, poison
-
-**Regen:** 20 (deific or mythic)
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 38
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (average)
-
-**E Drain:** 1 level, DC 36
-
-**F Swallow:** present
-
-**Melee:** 3 bites +46 (4d6+21/19-20 plus energy drain), 2 claws +46 (3d8+14/19-20 plus
-[grab](ref/umr/grab))
-
-**Spec Att:** predecessor's rage, ravenous devourer, wail of the consumed
-
-**Swallow:** 10d6 acid damage and 1d6 Wisdom drain, AC 15, 65 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +37
-
-**Constant:**
-
-- detect good, freedom of movement, true seeing, unholy aura (DC 28)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 27), desecrate^M^, greater dispel magic, greater teleport,
-  shapechange, telekinesis^M^ (DC 25), unhallow, unholy blight^M^ (DC 24)
-
-**Per day:**
-
-- 3/day: control weather^M^, horrid wilting (DC 28), quickened hunger for flesh (DC 24), insanity
-  (DC 27), mass hunger for flesh (DC 27), plane shift (DC 27), soul bind (DC 29), summon daemon,
-  waves of fatigue
-- 1/day: imprisonment (DC 29), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +37
+Constant: detect good, freedom of movement, true seeing, unholy aura (DC 28)
+At will: astral projection, blasphemy^M^ (DC 27), desecrate^M^, greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 25), unhallow, unholy blight^M^ (DC 24)
+Per day: 3/day: control weather^M^, horrid wilting (DC 28), quickened hunger for flesh (DC 24), insanity (DC 27), mass hunger for flesh (DC 27), plane shift (DC 27), soul bind (DC 29), summon daemon, waves of fatigue\
+1/day: imprisonment (DC 29), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Trelmarixian can use this ability's mythic version in his realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 38, Dex 29, Con 40, Int 31, Wis 32, Cha 31
+::: statblock
+Ability scores: Str 38, Dex 29, Con 40, Int 31, Wis 32, Cha 31
+Base attack bonus: +32
+Combat maneuver bonus: +46 (+48 trip)
+Combat maneuver defense: 81 (83 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Critical (bite, claw), Improved Initiative, Improved Trip, Improved Vital Strike, Mounted Combat, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hunger for flesh), Ride-By Attack, Spirited Charge, Tiring Critical, Vital Strike
+Skills: Acrobatics +41, Bluff +45, Fly +44, Sense Motive +46, Spellcraft +45, Stealth +44, Use Magic Device +45
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: Horseman traits
+Faith: Trelmarixian
+:::
 
-**Base attack bonus:** +32
+### Ecology
 
-**Combat maneuver bonus:** +46 (+48 trip)
-
-**Combat maneuver defense:** 81 (83 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved
-Critical (bite, claw), Improved Initiative, Improved Trip, Improved Vital Strike, Mounted Combat,
-Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (hunger for flesh), Ride-By
-Attack, Spirited Charge, Tiring Critical, Vital Strike
-
-**Skills:** Acrobatics +41, Bluff +45, Fly +44, Sense Motive +46, Spellcraft +45, Stealth +44, Use
-Magic Device +45
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** Horseman traits
-
-**Faith:** Trelmarixian
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or mounted (Trelmarixian and the Black Horse)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or mounted (Trelmarixian and the Black Horse)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

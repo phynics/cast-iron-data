@@ -33,160 +33,96 @@ abilities = ["40", "31", "36", "25", "32", "29"]
 _This man is formed entirely of green leafy plants and bark. His fingers extend into lengths of
 vine._
 
-**Challenge rating:** 26
-
-**aura:** green caress (60 ft., DC 36)
-
-**greensight:** 60
-
-**Initiative:** +14
-
-**Lifesense:** present
-
-**Size:** medium
-
-**Alignment:** Neutral
-
-**Perception:** +11
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Type:** plant
-
-**Subtype:** Shapechanger
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 32
-
-**Flat-footed:** 33
-
-**AC modifiers:** +10 Dex, +1 dodge, +11 insight, +12 natural
-
-**Hit points:** 595 (34d8+442)
-
-**Fort:** +32
-
-**Ref:** +23
-
-**Will:** +22
-
-**Defensive abilities:** wilderness insight
-
-**Dr:** 15/epic and slashing
-
-**Immune:** ability damage, ability drain, daze, electricity, petrification,
-[plant traits](ref/umr/plant-traits), stagger
-
-**Regen:** 20 (deific or mythic)
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Constrict:** 2d6+15
-
-**Grab:** Colossal
-
-**Melee:** 2 slams +40 (1d8+15/19-20 plus absorb magic), 6 vines +40 (2d6+15/19-20 plus grab)
-
-**Ranged:** 6 thorns +35 (2d6+15)
-
-**Reach:** 5
-
-**Reach P:** 30 ft. with vines
-
-**Space:** 5
-
-**Spec Att:** absorb magic
-
-**Spell-Like Abilities**
-
-**Caster level:** 26
-
-**Concentration:** +35
-
-**Constant:**
-
-- pass without trace, speak with plants
-
-**At will:**
-
-- plant growth, transport via plants
-
-**Per day:**
-
-- 3/day: summon plants
-- 1/day: awaken
-
-**Prepared Spells**
-
-**Caster level:** 20
-
-**Concentration:** +31
-
-**9th-level spells:**
-
-- antipathy (DC 30), quickened cure serious wounds
-
-**8th-level spells:**
-
-- control plants (DC 29), quickened dispel magic, heal, 2, greater scrying, quickened quench (DC
-  24), death ward, tree stride, wall of thorns
-
-**4th-level spells:**
-
-- arboreal hammer, command plants (2, DC 25), dispel magic, freedom of movement, grove of respite
-
-**3rd-level spells:**
-
-- call lightning (DC 24), cure moderate wounds, 3, quench (2, DC 24), spike growth (DC 24)
-
-**2nd-level spells:**
-
-- barkskin, fog cloud, 2, resist energy, 2, warp wood, wilderness soldiers
-
-**1st-level spells:**
-
-- cure light wounds, 3, entangle (3, DC 22), faerie fire
-
-**Cantrips:**
-
-- create water, detect magic, guidance, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 31, Con 36, Int 25, Wis 32, Cha 29
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +40 (+44 grapple, +42 sunder)
-
-**Combat maneuver defense:** 81 (83 vs. sunder)
-
-**Feats:** Combat Reflexes, Craft Staff, Craft Wondrous Item, Defensive Combat Training, Diehard,
-Dodge, Endurance, Greater Spell Penetration, Improved Critical (slam, vine), Improved Initiative,
-Improved Sunder, Lightning Reflexes, Power Attack, Quicken Spell, Spell Penetration, Stand Still
-
-**Skills:** Acrobatics +44, Climb +40, Disguise +43, Knowledge (geography, history, religion) +24,
-Perception +11
-
-**Languages:** Druidic, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Colossal or smaller tree;
-[tree shape](ref/spell/tree-shape)), deific, green empathy +43
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Challenge rating: 26
+aura: green caress (60 ft., DC 36)
+greensight: 60
+Initiative: +14
+Lifesense: present
+Size: medium
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Subtype: Shapechanger
+Experience points: 2,457,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 44
+Touch: 32
+Flat-footed: 33
+AC modifiers: +10 Dex, +1 dodge, +11 insight, +12 natural
+Hit points: 595 (34d8+442)
+Fort: +32
+Ref: +23
+Will: +22
+Defensive abilities: wilderness insight
+Dr: 15/epic and slashing
+Immune: ability damage, ability drain, daze, electricity, petrification, [plant traits](ref/umr/plant-traits), stagger
+Regen: 20 (deific or mythic)
+Sr: 37
+:::
+
+### Offense
+
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Constrict: 2d6+15
+Grab: Colossal
+Melee: 2 slams +40 (1d8+15/19-20 plus absorb magic), 6 vines +40 (2d6+15/19-20 plus grab)
+Ranged: 6 thorns +35 (2d6+15)
+Reach: 5
+Reach P: 30 ft. with vines
+Space: 5
+Spec Att: absorb magic
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 26
+Concentration: +35
+Constant: pass without trace, speak with plants
+At will: plant growth, transport via plants
+Per day: 3/day: summon plants\
+1/day: awaken
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 20
+Concentration: +31
+9th-level spells: antipathy (DC 30), quickened cure serious wounds
+8th-level spells: control plants (DC 29), quickened dispel magic, heal, 2, greater scrying, quickened quench (DC 24), death ward, tree stride, wall of thorns
+4th-level spells: arboreal hammer, command plants (2, DC 25), dispel magic, freedom of movement, grove of respite
+3rd-level spells: call lightning (DC 24), cure moderate wounds, 3, quench (2, DC 24), spike growth (DC 24)
+2nd-level spells: barkskin, fog cloud, 2, resist energy, 2, warp wood, wilderness soldiers
+1st-level spells: cure light wounds, 3, entangle (3, DC 22), faerie fire
+Cantrips: create water, detect magic, guidance, stabilize
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 40, Dex 31, Con 36, Int 25, Wis 32, Cha 29
+Base attack bonus: +25
+Combat maneuver bonus: +40 (+44 grapple, +42 sunder)
+Combat maneuver defense: 81 (83 vs. sunder)
+Feats: Combat Reflexes, Craft Staff, Craft Wondrous Item, Defensive Combat Training, Diehard, Dodge, Endurance, Greater Spell Penetration, Improved Critical (slam, vine), Improved Initiative, Improved Sunder, Lightning Reflexes, Power Attack, Quicken Spell, Spell Penetration, Stand Still
+Skills: Acrobatics +44, Climb +40, Disguise +43, Knowledge (geography, history, religion) +24, Perception +11
+Languages: Druidic, Sylvan; _[speak with plants](ref/spell/speak-with-plants)_
+Special qualities: [change shape](ref/umr/change-shape) (Colossal or smaller tree; [tree shape](ref/spell/tree-shape)), deific, green empathy +43
+:::
+
+### Ecology
+
+::: statblock
+Environment: temperate forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

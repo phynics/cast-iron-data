@@ -30,111 +30,84 @@ abilities = ["8", "15", "8", "12", "14", "17"]
 
 _This elegantly dressed woman has the head and bushy tail of well-groomed fox._
 
-**Challenge rating:** 1/2
-
 **Female kitsune [sorcerer](ref/class/sorcerer) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Subtype: Kitsune, Shapechanger
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 10
+AC modifiers: +2 Dex, +1 dodge
+Hit points: 5 (1d6-1)
+Fort: -1
+Ref: +2
+Will: +4
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: bite -1 (1d4-1), mwk quarterstaff -5 (1d6-1)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 3/day: dancing lights
+:::
 
-**Subtype:** Kitsune, Shapechanger
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 6/day: laughing touch
+:::
 
-**Experience points:** 200
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: charm person (DC 15), sleep (DC 17)
+Cantrips: At will: daze, detect magic, prestidigitation, read magic
+Bloodline: [fey](ref/sorcbloodline/fey)
+:::
 
-**Armor class:** 13
+### Statistics
 
-**Touch:** 13
+::: statblock
+Ability scores: Str 8, Dex 15, Con 8, Int 12, Wis 14, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Dodge, Eschew Materials
+Skills: Acrobatics +4, Bluff +7, Perception +3, Spellcraft +5, Stealth +3
+Racial Modifiers: +2 Acrobatics
+Languages: Common, Elven, Sylvan
+Special qualities: bloodline arcana (+2 DC for compulsion spells), change shape, kitsune magic
+:::
 
-**Flat-footed:** 10
+### Ecology
 
-**AC modifiers:** +2 Dex, +1 dodge
-
-**Hit points:** 5 (1d6-1)
-
-**Fort:** -1
-
-**Ref:** +2
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite -1 (1d4-1), mwk quarterstaff -5 (1d6-1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 3/day: dancing lights
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 6/day: laughing touch
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: charm person (DC 15), sleep (DC 17)
-
-**Cantrips:**
-
-- At will: daze, detect magic, prestidigitation, read magic
-
-**Bloodline:** [fey](ref/sorcbloodline/fey)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 8, Int 12, Wis 14, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Dodge, Eschew Materials
-
-**Skills:** Acrobatics +4, Bluff +7, Perception +3, Spellcraft +5, Stealth +3
-
-**Racial Modifiers:** +2 Acrobatics
-
-**Languages:** Common, Elven, Sylvan
-
-**Special qualities:** bloodline arcana (+2 DC for compulsion spells), change shape, kitsune magic
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or mountains
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** NPC gear (potion of cure light wounds, mwk quarterstaff); other treasure
+::: statblock
+Environment: temperate forests, hills, or mountains
+Organization: solitary, pair, or gang (3-8)
+Treasure: NPC gear (potion of cure light wounds, mwk quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

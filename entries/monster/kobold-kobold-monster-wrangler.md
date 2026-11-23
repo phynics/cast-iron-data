@@ -31,78 +31,62 @@ abilities = ["11", "16", "10", "8", "10", "13"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 1
-
 **Kobold [cavalier](ref/class/cavalier) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +3
+Alignment: Lawful evil
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 14
+Flat-footed: 19
+AC modifiers: +5 armor, +3 Dex, +1 natural, +2 shield, +1 size
+Hit points: 17 (2d10+2)
+Fort: +3
+Ref: +3
+Will: +0
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Melee: mwk lance +4 (1d6/×3)
+Spec Att: challenge (+2, +1, 1/day)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 11, Dex 16, Con 10, Int 8, Wis 10, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Paired Opportunists, Slurk Rider
+Skills: Craft (trapmaking) +1, Ride +4
+Languages: Common, Draconic
+Special qualities: crafty, mount (cave salamander or slurk), order of the lion (lion's call), tactician (1/day, 4 rounds, standard action)
+Combat gear: -liquid ice, potion of cure light wounds
+Other gear: mwk scale mail, mwk heavy steel shield, mwk lance, 10 gp
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 14
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +3 Dex, +1 natural, +2 shield, +1 size
-
-**Hit points:** 17 (2d10+2)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +0
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** mwk lance +4 (1d6/×3)
-
-**Spec Att:** challenge (+2, +1, 1/day)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 16, Con 10, Int 8, Wis 10, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Paired Opportunists, Slurk Rider
-
-**Skills:** Craft (trapmaking) +1, Ride +4
-
-**Languages:** Common, Draconic
-
-**Special qualities:** crafty, mount (cave salamander or slurk), order of the lion (lion's call),
-tactician (1/day, 4 rounds, standard action)
-
-**Combat gear:** -liquid ice, potion of cure light wounds
-
-**Other gear:** mwk scale mail, mwk heavy steel shield, mwk lance, 10 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

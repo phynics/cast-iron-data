@@ -34,85 +34,65 @@ abilities = ["20", "8", "-", "-", "17", "15"]
 _This tangle of rotten, seemingly lifeless roots twitches slightly, moving the damp, bloody ground
 beneath it._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: -1
+Size: large
+Alignment: Neutral evil
+Perception: +3
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 8
+Flat-footed: 18
+AC modifiers: -1 Dex, +10 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +3
+Ref: +0
+Will: +7
+Chan Res: +2
+Defensive abilities: bloodthirst
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 5 ft., burrow 5 ft.
+Bleed: 2
+Melee: 2 roots +7 (1d6+5 plus 2 bleed and [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: bloody sap, drag under
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 20, Dex 8, Con -, Int -, Wis 17, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 18 (can't be tripped)
+Skills: Stealth +11
+Racial Modifiers: +16 Stealth
+Special qualities: earth barrier
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 8
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +10 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +3
-
-**Ref:** +0
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Defensive abilities:** bloodthirst
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 5 ft., burrow 5 ft.
-
-**Bleed:** 2
-
-**Melee:** 2 roots +7 (1d6+5 plus 2 bleed and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bloody sap, drag under
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 8, Con -, Int -, Wis 17, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Skills:** Stealth +11
-
-**Racial Modifiers:** +16 Stealth
-
-**Special qualities:** earth barrier
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, garden (2-5), or hivemind (4-10)
-
-**Treasure:** None
+::: statblock
+Environment: any forests
+Organization: solitary, garden (2-5), or hivemind (4-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

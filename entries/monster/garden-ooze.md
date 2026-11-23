@@ -31,69 +31,57 @@ abilities = ["11", "16", "15", "-", "1", "2"]
 _What seems to be a mass of diseased fibers growing on a plant suddenly moves and slithers
 independently from its sickly host._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 60
+Initiative: +3
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Size: small
+Experience points: 600
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +4
+Will: -4
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: slam +3 (1d4 plus 1d8 acid)
+Spec Att: acid, stink
+:::
 
-**Perception:** -5
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 11, Dex 16, Con 15, Int -, Wis 1, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 14 (can't be tripped)
+Skills: Climb +8
+Special qualities: camouflage
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** -4
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** slam +3 (1d4 plus 1d8 acid)
-
-**Spec Att:** acid, stink
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 16, Con 15, Int -, Wis 1, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Skills:** Climb +8
-
-**Special qualities:** camouflage
-
-**Ecology**
-
-**Environment:** temperate forests, marshes, and urban
-
-**Organization:** solitary, pair, or patch (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, marshes, and urban
+Organization: solitary, pair, or patch (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -27,77 +27,61 @@ special_qualities = "water dependency"
 abilities = ["7", "15", "12", "-", "10", "2"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Size: tiny
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 Dex, +4 natural, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., swim 20 ft.
+Constrict: 1d2-2
+Melee: 2 claws +0 (1d2-2 plus [grab](ref/umr/grab))
+Reach: 0
+Space: 2-1/2
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 7, Dex 15, Con 12, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0 (+4 grapple)
+Combat maneuver defense: 8 (20 vs. trip)
+Skills: Perception +4, Swim +10
+Racial Modifiers: +4 Perception
+Special qualities: water dependency
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 100
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +4 natural, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., swim 20 ft.
-
-**Constrict:** 1d2-2
-
-**Melee:** 2 claws +0 (1d2-2 plus [grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 12, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0 (+4 grapple)
-
-**Combat maneuver defense:** 8 (20 vs. trip)
-
-**Skills:** Perception +4, Swim +10
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** water dependency
-
-**Ecology**
-
-**Environment:** any aquatic
-
-**Organization:** solitary or cast (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any aquatic
+Organization: solitary or cast (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

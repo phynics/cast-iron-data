@@ -28,99 +28,71 @@ abilities = ["22", "19", "23", "10", "17", "16"]
 
 _Beneath its cloak, this man-shaped creature appears to be part statue and part metallic machine._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +8
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 19,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +12 natural
+Hit points: 158 (12d10+92)
+Fort: +14
+Ref: +10
+Will: +11
+Defensive abilities: constructed
+Dr: 10/chaotic
+Regen: 5 (chaotic)
+Sr: 23
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: +2 bastard sword +20/+15/+10 (1d10+8/19-20), slam +13 (2d6+3) or 2 slams +18 (2d6+6)
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +15
+At will: discern lies (DC 17), disguise self, enervation, fear (DC 17), hold person (DC 16), invisibility, self only, locate creature, suggestion (DC 16), vampiric touch
+Per day: 3/day: hold monster (DC 18), mark of justice, quickened suggestion (DC 16)
+Per week: geas/quest
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 22, Dex 19, Con 23, Int 10, Wis 17, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 32
+Feats: Alertness, Combat Casting, Combat Reflexes, Improved Initiative, Lightning Reflexes, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
+Skills: Diplomacy +22, Knowledge (planes) +15, Perception +22
+Racial Modifiers: +4 Diplomacy, +4 Disguise
+Languages: truespeech
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +12 natural
-
-**Hit points:** 158 (12d10+92)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +11
-
-**Defensive abilities:** constructed
-
-**Dr:** 10/chaotic
-
-**Regen:** 5 (chaotic)
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +2 bastard sword +20/+15/+10 (1d10+8/19-20), slam +13 (2d6+3) or 2 slams +18 (2d6+6)
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**At will:**
-
-- discern lies (DC 17), disguise self, enervation, fear (DC 17), hold person (DC 16), invisibility,
-  self only, locate creature, suggestion (DC 16), vampiric touch
-
-**Per day:**
-
-- 3/day: hold monster (DC 18), mark of justice, quickened suggestion (DC 16)
-
-**Per week:**
-
-- geas/quest
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 23, Int 10, Wis 17, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 32
-
-**Feats:** Alertness, Combat Casting, Combat Reflexes, Improved Initiative, Lightning Reflexes,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
-
-**Skills:** Diplomacy +22, Knowledge (planes) +15, Perception +22
-
-**Racial Modifiers:** +4 Diplomacy, +4 Disguise
-
-**Languages:** truespeech
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or inquisition (3-6)
-
-**Treasure:** Standard (+2 bastard sword); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or inquisition (3-6)
+Treasure: Standard (+2 bastard sword); other treasure
+:::
 
 ### Description
 

@@ -31,97 +31,71 @@ abilities = ["29", "14", "-", "12", "19", "19"]
 _This lumbering whale skeleton has a set of bony legs affixed to its frame. Its bones bear complex
 scrimshaw patterns._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 24, 2d4 rounds)
+Type: construct
+Size: huge
+Initiative: +6
+Alignment: Neutral evil
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 25,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 24, 2d4 rounds)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 28
+Touch: 14
+Flat-footed: 26
+AC modifiers: +2 Dex, +14 natural, +4 profane, -2 size
+Hit points: 170 (20d10+60)
+Fort: +12
+Ref: +14
+Will: +14
+Immune: acid, [construct traits](ref/umr/construct-traits)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: 40 ft., swim 60 ft.
+Melee: bite +27 (4d6+18), 2 claws +27 (1d6+9)
+Reach: 15
+Space: 15
+Spec Att: shearing jaws
+Trample: 2d6+13, DC 29
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+At will: dimension door, enervation (DC 18), invisibility
+Per day: 3/day: quickened invisibility
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 14, Con -, Int 12, Wis 19, Cha 19
+Base attack bonus: +20
+Combat maneuver bonus: +31 (+35 sunder)
+Combat maneuver defense: 47 (49 vs. sunder)
+Feats: Great Fortitude, Greater Sunder, Improved Initiative, Improved Lightning Reflexes, Improved Sunder, Lightning Reflexes, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Toughness, Vital Strike
+Skills: Intimidate +14, Perception +24, Stealth +14, Swim +27
+Languages: Common
+Special qualities: scrimshaw magic
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 14
-
-**Flat-footed:** 26
-
-**AC modifiers:** +2 Dex, +14 natural, +4 profane, -2 size
-
-**Hit points:** 170 (20d10+60)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +14
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft.
-
-**Melee:** bite +27 (4d6+18), 2 claws +27 (1d6+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** shearing jaws
-
-**Trample:** 2d6+13, DC 29
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**At will:**
-
-- dimension door, enervation (DC 18), invisibility
-
-**Per day:**
-
-- 3/day: quickened invisibility
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 14, Con -, Int 12, Wis 19, Cha 19
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31 (+35 sunder)
-
-**Combat maneuver defense:** 47 (49 vs. sunder)
-
-**Feats:** Great Fortitude, Greater Sunder, Improved Initiative, Improved Lightning Reflexes,
-Improved Sunder, Lightning Reflexes, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (invisibility), Toughness, Vital Strike
-
-**Skills:** Intimidate +14, Perception +24, Stealth +14, Swim +27
-
-**Languages:** Common
-
-**Special qualities:** scrimshaw magic
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

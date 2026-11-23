@@ -30,79 +30,62 @@ abilities = ["18", "15", "17", "5", "12", "8"]
 
 _This sleek, weasel-like rodent has exaggerated whiskers and six short but stout legs._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 10
+Initiative: +6
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 800
+:::
 
-**blindsense:** 10
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 34 (4d10+12)
+Fort: +7
+Ref: +6
+Will: +2
+Immune: disease
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 20 ft.
+Melee: bite +7 (1d8+6)
+Reach: 5
+Space: 10
+Spec Att: expel pathogens
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 18, Dex 15, Con 17, Int 5, Wis 12, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 21 (29 vs. trip)
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Climb +12, Perception +9, Stealth +3
+Languages: Common (can't speak)
+Special qualities: [compression](ref/umr/compression), harbor pathogens
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 20 ft.
-
-**Melee:** bite +7 (1d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** expel pathogens
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 17, Int 5, Wis 12, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21 (29 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Climb +12, Perception +9, Stealth +3
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression), harbor pathogens
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or pack (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or pack (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

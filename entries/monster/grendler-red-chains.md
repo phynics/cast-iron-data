@@ -31,75 +31,56 @@ _Shards of broken manacles, links of chain, and iron flails are imbedded in this
 human-sized man's ruddy flesh. Rivulets of congealing blood run from its soaked cap down its mangled
 face and neck, soaking its tangled white beard; in its arms looms a rusty but clearly sharp scythe._
 
-**Challenge rating:** 11
-
 **Male advanced redcap**
 
-**Type:** fey
+::: statblock
+Challenge rating: 11
+Type: fey
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +17
+Senses: Low-light vision
+Experience points: 12,800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 26
+Touch: 14
+Flat-footed: 22
+AC modifiers: +2 armor, +4 Dex, +10 natural
+Hit points: 147 (14d6+98)
+Fort: +10
+Ref: +13
+Will: +9
+Dr: 10/cold iron
+Fh: 5
+Weaknesses: irreligious
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: 60 ft.
+Melee: mwk scythe +15/+10 (2d4+13/×4), kick +8 (1d6+7)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 12,800
-
-**Armor class:** 26
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 armor, +4 Dex, +10 natural
-
-**Hit points:** 147 (14d6+98)
-
-**Fort:** +10
-
-**Ref:** +13
-
-**Will:** +9
-
-**Dr:** 10/cold iron
-
-**Fh:** 5
-
-**Weaknesses:** irreligious
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** mwk scythe +15/+10 (2d4+13/×4), kick +8 (1d6+7)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 22, Int 16, Wis 11, Cha 13
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Improved Initiative, Power Attack, Step Up, Toughness, Vital Strike, Weapon Focus
-(scythe)
-
-**Skills:** Acrobatics +21 (+33 when jumping), Bluff +18, Climb +23, Escape Artist +21, Intimidate
-+15, Knowledge (nature) +20, Perception +17, Sense Motive +17, Stealth +21
-
-**Racial Modifiers:** +12 Acrobatics when jumping
-
-**Languages:** Aklo, Common, Giant, Sylvan
-
-**Special qualities:** boot stomp, heavy weapons, red cap
-
-**Gear:** mwk leather armor, mwk scythe
+::: statblock
+Ability scores: Str 22, Dex 19, Con 22, Int 16, Wis 11, Cha 13
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 27
+Feats: Cleave, Improved Initiative, Power Attack, Step Up, Toughness, Vital Strike, Weapon Focus (scythe)
+Skills: Acrobatics +21 (+33 when jumping), Bluff +18, Climb +23, Escape Artist +21, Intimidate +15, Knowledge (nature) +20, Perception +17, Sense Motive +17, Stealth +21
+Racial Modifiers: +12 Acrobatics when jumping
+Languages: Aklo, Common, Giant, Sylvan
+Special qualities: boot stomp, heavy weapons, red cap
+Gear: mwk leather armor, mwk scythe
+:::
 
 ### Description
 

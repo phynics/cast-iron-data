@@ -29,81 +29,63 @@ abilities = ["19", "13", "18", "1", "10", "6"]
 
 _This massive, mottled amphibian glistens with slime, and its tongue drips with saliva._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +7
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 30 ft.
+F Swallow: present
+Melee: bite +6 (2d6+6 plus [grab](ref/umr/grab)) or tongue +6 (grab)
+Pull: tongue, 5 ft.
+Reach: 5
+Reach P: 15 ft. with tongue
+Space: 10
+Spec Att: tongue
+Swallow: 1d6 bludgeoning damage, AC 12, 3 hp
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 13, Con 18, Int 1, Wis 10, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Lightning Reflexes, Skill Focus (Acrobatics)
+Skills: Acrobatics +12 (+20 when jumping), Climb +16
+Racial Modifiers: +4 Acrobatics (+12 when jumping), +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 30 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +6 (2d6+6 plus [grab](ref/umr/grab)) or tongue +6 (grab)
-
-**Pull:** tongue, 5 ft.
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tongue
-
-**Space:** 10
-
-**Spec Att:** tongue
-
-**Swallow:** 1d6 bludgeoning damage, AC 12, 3 hp
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 18, Int 1, Wis 10, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Lightning Reflexes, Skill Focus (Acrobatics)
-
-**Skills:** Acrobatics +12 (+20 when jumping), Climb +16
-
-**Racial Modifiers:** +4 Acrobatics (+12 when jumping), +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm marshes or water
-
-**Organization:** solitary, pair, or army (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm marshes or water
+Organization: solitary, pair, or army (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

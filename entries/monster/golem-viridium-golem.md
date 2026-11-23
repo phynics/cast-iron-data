@@ -29,74 +29,59 @@ abilities = ["35", "20", "-", "-", "11", "1"]
 _This green glass statue has four arms, one of which forms a jagged sword and another that ends in a
 formidable shield._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Type: construct
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 153,600
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 33
+Touch: 13
+Flat-footed: 28
+AC modifiers: +5 Dex, +20 natural, -2 size
+Hit points: 222 (28d10+68)
+Fort: +9
+Ref: +14
+Will: +9
+Dr: 20/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Bleed: 4d6
+Melee: sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/×3 plus disease and stun), 2 slams +38 (2d6+12 plus disease)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 35, Dex 20, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +28
+Combat maneuver bonus: +42
+Combat maneuver defense: 57
+Feats: Toughness
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 13
-
-**Flat-footed:** 28
-
-**AC modifiers:** +5 Dex, +20 natural, -2 size
-
-**Hit points:** 222 (28d10+68)
-
-**Fort:** +9
-
-**Ref:** +14
-
-**Will:** +9
-
-**Dr:** 20/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 4d6
-
-**Melee:** sword +38 (4d6+12/19-20 plus bleed and disease), shield +38 (4d6+12/×3 plus disease and
-stun), 2 slams +38 (2d6+12 plus disease)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 20, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +42
-
-**Combat maneuver defense:** 57
-
-**Feats:** Toughness
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or plague (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or plague (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

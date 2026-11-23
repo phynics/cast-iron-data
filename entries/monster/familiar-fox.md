@@ -28,71 +28,58 @@ melee = "bite +1 (1d3-1)"
 abilities = ["9", "15", "13", "2", "12", "6"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 40 ft.
+Melee: bite +1 (1d3-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 9, Dex 15, Con 13, Int 2, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9 (13 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Acrobatics +2 (+10 when jumping), Perception +8
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival when tracking by scent
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +1 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 15, Con 13, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9 (13 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Acrobatics +2 (+10 when jumping), Perception +8
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or skulk (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or skulk (3-12)
+Treasure: None
+:::
 
 ### Description
 

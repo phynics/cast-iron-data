@@ -32,127 +32,76 @@ abilities = ["37", "24", "34", "12", "18", "18"]
 _Clad in mithral and furs and armed with a glowing sword made of ice, this towering, blue-skinned
 humanoid has a regal presence._
 
-**Challenge rating:** 25
-
-**Mythic rank:** 8
-
 **Male frost giant [ranger](ref/class/ranger) 12/marshal 8**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 25
+Mythic rank: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +19
+Size: large
+Perception: +33
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 1,638,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +19
+::: statblock
+Armor class: 43
+Touch: 19
+Flat-footed: 38
+AC modifiers: +10 armor, +5 deflection, +5 Dex, +14 natural, -1 size
+Hit points: 485 (14d8+12d10+356\~26)
+Fort: +34
+Ref: +26
+Will: +19; +2 vs. fire-based effects
+Defensive abilities: hard to kill, mythic saving throws
+Evasion: present
+Resist: electricity 20, fire 30
+Rock Ct: present
+Unstop: present
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 30 ft.
+Fav En: animals +4, evil outsiders +2, humans +4
+Melee: Winter's Heart +41/+36/+31/+26 (2d8+25/17-20 plus 1d6 cold)
+Ranged: +5 seeking composite longbow +33/+28/+23/+18 (2d6+18/19-20/×3) or rock +28 (1d8+19)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: fight on, inspiring assault, marshal's order (advance, decisive strike), menacing presence, mythic bond, mythic presence, press the advantage
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +13
+3rd-level spells: fickle winds, water walk
+2nd-level spells: barkskin, already cast, versatile weapon, wind wall
+1st-level spells: horn of pursuit, pass without trace, resist energy, already cast
+:::
 
-**Subtype:** Cold, Giant
+### Statistics
 
-**Experience points:** 1,638,400
-
-**Armor class:** 43
-
-**Touch:** 19
-
-**Flat-footed:** 38
-
-**AC modifiers:** +10 armor, +5 deflection, +5 Dex, +14 natural, -1 size
-
-**Hit points:** 485 (14d8+12d10+356\~26)
-
-**Fort:** +34
-
-**Ref:** +26
-
-**Will:** +19; +2 vs. fire-based effects
-
-**Defensive abilities:** hard to kill, mythic saving throws
-
-**Evasion:** present
-
-**Resist:** electricity 20, fire 30
-
-**Rock Ct:** present
-
-**Unstop:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** animals +4, evil outsiders +2, humans +4
-
-**Melee:** Winter's Heart +41/+36/+31/+26 (2d8+25/17-20 plus 1d6 cold)
-
-**Ranged:** +5 seeking composite longbow +33/+28/+23/+18 (2d6+18/19-20/×3) or rock +28 (1d8+19)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** fight on, inspiring assault, marshal's order (advance, decisive strike), menacing
-presence, mythic bond, mythic presence, press the advantage
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**3rd-level spells:**
-
-- fickle winds, water walk
-
-**2nd-level spells:**
-
-- barkskin, already cast, versatile weapon, wind wall
-
-**1st-level spells:**
-
-- horn of pursuit, pass without trace, resist energy, already cast
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 24, Con 34, Int 12, Wis 18, Cha 18
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +36 (+38 bull rush)
-
-**Combat maneuver defense:** 58 (60 vs. bull rush)
-
-**Feats:** Awesome Blow, Deadly Aim, Endurance, Exotic Weapon Proficiency (bastard sword), Improved
-Bull Rush, Improved Critical (bastard sword), Improved Critical (composite longbow), Improved
-Initiative, Improved Precise Shot, Iron Will, Leadership, Lightning Reflexes, Pinpoint Targeting,
-Point-Blank Shot, Power Attack, Precise Shot, Rapid Shot
-
-**Skills:** Intimidate +33, Knowledge (geography, nature) +13, Perception +33
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Common, Giant, Hallit
-
-**Special qualities:** additional order, amazing initiative, camouflage, evasion, exceptional
-wealth, [favored terrain](ref/ability/favored-terrain) (cold +4, mountain +2), hunter's bond
-(companions), pierce the darkness, quarry, recuperation, swift tracker, track +6,
-[wild empathy](ref/ability/wild-empathy) +16, [woodland stride](ref/ability/woodland-stride)
-
-**Combat gear:** I-boots of speed, 10 +1 BE arrows, 4 potion of cure serious wounds, 10 +1
-BANE-demon arrows, 10 +1 BANE-dragon arrows, 10 +1 flaming burst arrows, 20 +1 BANE-human arrows,
-I-efficient quiver, I-glove of storing, I-greater horn of blasting, scroll of TFstaff of journeys/50
-charges
-
-**Other gear:** +4 improved shadow MM breastplate, +5 SK cl30+14, Winter's Heart (see below), Iamu5,
-Ibopp6, Iclk5, I-greater bracers of archery, ring of greater ring of fire resistance, Ihbmp4wc,
-I-portable hole, ring of prot5, I-stormlord's helm, scp, platinum and sapphire necklace (worth
-12,500 gp), platinum [symbol](ref/eq-misc/holy-symbol-platinum) of Thremyr (worth 500 gp), sapphires
-(10, worth 5,000 gp each)
+::: statblock
+Ability scores: Str 37, Dex 24, Con 34, Int 12, Wis 18, Cha 18
+Base attack bonus: +22
+Combat maneuver bonus: +36 (+38 bull rush)
+Combat maneuver defense: 58 (60 vs. bull rush)
+Feats: Awesome Blow, Deadly Aim, Endurance, Exotic Weapon Proficiency (bastard sword), Improved Bull Rush, Improved Critical (bastard sword), Improved Critical (composite longbow), Improved Initiative, Improved Precise Shot, Iron Will, Leadership, Lightning Reflexes, Pinpoint Targeting, Point-Blank Shot, Power Attack, Precise Shot, Rapid Shot
+Skills: Intimidate +33, Knowledge (geography, nature) +13, Perception +33
+Racial Modifiers: +4 Stealth in snow
+Languages: Common, Giant, Hallit
+Special qualities: additional order, amazing initiative, camouflage, evasion, exceptional wealth, [favored terrain](ref/ability/favored-terrain) (cold +4, mountain +2), hunter's bond (companions), pierce the darkness, quarry, recuperation, swift tracker, track +6, [wild empathy](ref/ability/wild-empathy) +16, [woodland stride](ref/ability/woodland-stride)
+Combat gear: I-boots of speed, 10 +1 BE arrows, 4 potion of cure serious wounds, 10 +1 BANE-demon arrows, 10 +1 BANE-dragon arrows, 10 +1 flaming burst arrows, 20 +1 BANE-human arrows, I-efficient quiver, I-glove of storing, I-greater horn of blasting, scroll of TFstaff of journeys/50 charges
+Other gear: +4 improved shadow MM breastplate, +5 SK cl30+14, Winter's Heart (see below), Iamu5, Ibopp6, Iclk5, I-greater bracers of archery, ring of greater ring of fire resistance, Ihbmp4wc, I-portable hole, ring of prot5, I-stormlord's helm, scp, platinum and sapphire necklace (worth 12,500 gp), platinum [symbol](ref/eq-misc/holy-symbol-platinum) of Thremyr (worth 500 gp), sapphires (10, worth 5,000 gp each)
+:::
 
 ### Special Abilities
 

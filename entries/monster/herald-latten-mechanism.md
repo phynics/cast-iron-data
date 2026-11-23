@@ -32,116 +32,78 @@ _This clockwork termite is the size of a rhinoceros and has an oversized head wi
 on it. Multiple apertures along its body sprout tool-wielding limbs, and a human-sized hatch on its
 abdomen chitters and clicks like a menacing maw._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Initiative: +8
+Size: large
+Alignment: Neutral
+othersubs: Herald
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 31
+Touch: 13
+Flat-footed: 27
+AC modifiers: +4 Dex, +18 natural, -1 size
+Hit points: 147 (18d10+48)
+Fort: +8
+Ref: +12
+Will: +12
+Dr: 10/adamantine and magic
+Fh: 10
+Immune: acid, [construct traits](ref/umr/construct-traits)
+Resist: cold 30, fire 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., burrow 20 ft., climb 20 ft.
+Br Weap: 120-ft. line, 12d8 acid or electricity damage, Reflex DC 19 half, usable every 1d4 rounds
+Constrict: 6d8 plus 6d8 acid or electricity
+Entrap: DC 19, 1d10 rounds, [hardness](ref/umr/hardness) 8, hp 20
+Melee: bite +27 (6d8+13 plus [grab](ref/umr/grab) and 6d8 acid or electricity)
+Reach: 10
+Space: 10
+Spec Att: lyre of building
+:::
 
-**othersubs:** Herald
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23; save DCs are Intelligence-based
+At will: dimension door, make whole, move earth, rapid repair, soothe construct
+Per day: 3/day: control construct, fabricate, haste, lightning bolt (DC 18), major creation, slow (DC 18), unbreakable construct, wall of iron
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 19, Con -, Int 21, Wis 18, Cha 16
+Base attack bonus: +18
+Combat maneuver bonus: +28
+Combat maneuver defense: 42 (50 vs. trip)
+Feats: Cleave, Combat Expertise, Combat Reflexes, Great Fortitude, Gunsmithing, Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Stand Still, Toughness, Weapon Focus (bite)
+Skills: Climb +18, Craft (any one) +23, Disable Device +22, Knowledge (engineering) +23, Perception +22, Sense Motive +13, Spellcraft +22, Use Magic Device +12
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: always armed, change size, create soldiers, double damage against objects, emissary, integrated masterwork tools, master of crafting
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 13
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 Dex, +18 natural, -1 size
-
-**Hit points:** 147 (18d10+48)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +12
-
-**Dr:** 10/adamantine and magic
-
-**Fh:** 10
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., climb 20 ft.
-
-**Br Weap:** 120-ft. line, 12d8 acid or electricity damage, Reflex DC 19 half, usable every 1d4
-rounds
-
-**Constrict:** 6d8 plus 6d8 acid or electricity
-
-**Entrap:** DC 19, 1d10 rounds, [hardness](ref/umr/hardness) 8, hp 20
-
-**Melee:** bite +27 (6d8+13 plus [grab](ref/umr/grab) and 6d8 acid or electricity)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** lyre of building
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23; save DCs are Intelligence-based
-
-**At will:**
-
-- dimension door, make whole, move earth, rapid repair, soothe construct
-
-**Per day:**
-
-- 3/day: control construct, fabricate, haste, lightning bolt (DC 18), major creation, slow (DC 18),
-  unbreakable construct, wall of iron
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 19, Con -, Int 21, Wis 18, Cha 16
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 42 (50 vs. trip)
-
-**Feats:** Cleave, Combat Expertise, Combat Reflexes, Great Fortitude, Gunsmithing, Improved
-Initiative, Iron Will, Lightning Reflexes, Power Attack, Stand Still, Toughness, Weapon Focus (bite)
-
-**Skills:** Climb +18, Craft (any one) +23, Disable Device +22, Knowledge (engineering) +23,
-Perception +22, Sense Motive +13, Spellcraft +22, Use Magic Device +12
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** always armed, change size, create soldiers, double damage against objects,
-emissary, integrated masterwork tools, master of crafting
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary or team (herald plus 1d6
-[clockwork soldiers](ref/monster/clockwork-clockwork-soldier) and 1d6
-[clockwork servants](ref/monster/clockwork-clockwork-servant))
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary or team (herald plus 1d6 [clockwork soldiers](ref/monster/clockwork-clockwork-soldier) and 1d6 [clockwork servants](ref/monster/clockwork-clockwork-servant))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

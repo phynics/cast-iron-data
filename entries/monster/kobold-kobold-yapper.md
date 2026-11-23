@@ -32,106 +32,72 @@ abilities = ["8", "18", "6", "13", "10", "15"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 7
-
 **Kobold [bard](ref/class/bard) ([dragon yapper](ref/arc-bard/dragon-yapper)) 8**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +4
+Alignment: Lawful evil
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 3,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 17
+AC modifiers: +5 armor, +4 Dex, +1 dodge, +1 natural, +1 size
+Hit points: 31 (8d8-8)
+Fort: +0
+Ref: +10
+Will: +6; +4 vs. bardic performance, language-dependent, and sonic
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: +1 short sword +7/+2 (1d4/19-20)
+Ranged: +1 shortbow +13/+8 (1d4+1/×3)
+Spec Att: bardic performance 20 rounds/day (move action; [countersong](ref/performance/countersong), frightful song \[DC 16\], [distraction](ref/performance/distraction), [inspire competence](ref/performance/inspire-competence) +3, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion) \[DC 16\], yapping song \[DC 16\])
+:::
 
-**Size:** small
+::: statblock
+title = "Spells Known"
+Caster level: 8
+Concentration: +10
+3rd-level spells: 2/day: confusion (DC 15), deep slumber (DC 15), haste
+2nd-level spells: 5/day: blur, heroism, hold person (DC 14), mirror image
+1st-level spells: 5/day: alarm, charm person (DC 13), grease (DC 13), silent image (DC 13), ventriloquism (DC 13)
+Cantrips: At will: dancing lights, detect magic, ghost sound (DC 12), mage hand, prestidigitation (DC 12), resistance
+:::
 
-**Subtype:** Reptilian
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 8, Dex 18, Con 6, Int 13, Wis 10, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +4
+Combat maneuver defense: 19
+Feats: Dodge, Point-Blank Shot, Precise Shot, Weapon Focus (shortbow)
+Skills: Acrobatics +14, Bluff +13, Craft (trapmaking) +3, Perception +2, Perform (oratory, sing) +13, Sleight of Hand +14, Spellcraft +12, Stealth +18
+Languages: Common, Draconic, Sylvan
+Special qualities: bardic knowledge +4, crafty, lore master 1/day, versatile performance (sing, oratory)
+Gear: +1 chain shirt, +1 short sword, +1 shortbow, 410 gp
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 armor, +4 Dex, +1 dodge, +1 natural, +1 size
-
-**Hit points:** 31 (8d8-8)
-
-**Fort:** +0
-
-**Ref:** +10
-
-**Will:** +6; +4 vs. bardic performance, language-dependent, and sonic
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 short sword +7/+2 (1d4/19-20)
-
-**Ranged:** +1 shortbow +13/+8 (1d4+1/×3)
-
-**Spec Att:** bardic performance 20 rounds/day (move action;
-[countersong](ref/performance/countersong), frightful song \[DC 16\],
-[distraction](ref/performance/distraction), [inspire competence](ref/performance/inspire-competence)
-+3, [inspire courage](ref/performance/inspire-courage) +2, [suggestion](ref/performance/suggestion)
-\[DC 16\], yapping song \[DC 16\])
-
-**Spells Known**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**3rd-level spells:**
-
-- 2/day: confusion (DC 15), deep slumber (DC 15), haste
-
-**2nd-level spells:**
-
-- 5/day: blur, heroism, hold person (DC 14), mirror image
-
-**1st-level spells:**
-
-- 5/day: alarm, charm person (DC 13), grease (DC 13), silent image (DC 13), ventriloquism (DC 13)
-
-**Cantrips:**
-
-- At will: dancing lights, detect magic, ghost sound (DC 12), mage hand, prestidigitation (DC 12),
-  resistance
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 18, Con 6, Int 13, Wis 10, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Point-Blank Shot, Precise Shot, Weapon Focus (shortbow)
-
-**Skills:** Acrobatics +14, Bluff +13, Craft (trapmaking) +3, Perception +2, Perform (oratory, sing)
-+13, Sleight of Hand +14, Spellcraft +12, Stealth +18
-
-**Languages:** Common, Draconic, Sylvan
-
-**Special qualities:** bardic knowledge +4, crafty, lore master 1/day, versatile performance (sing,
-oratory)
-
-**Gear:** +1 chain shirt, +1 short sword, +1 shortbow, 410 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

@@ -29,77 +29,63 @@ abilities = ["10", "21", "13", "2", "17", "10"]
 
 _This regal fox's coat shifts subtly between silver, red, and dull brown as it walks._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +5
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 12
+AC modifiers: +5 Dex, +2 size
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +8
+Will: +4
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 40 ft.
+Melee: bite +4 (1d3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +2 size
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +4 (1d3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 21, Con 13, Int 2, Wis 17, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15 (19 vs. trip)
-
-**Feats:** Go Unnoticed, Mobility^B^, Skill Focus (Perception), Stealthy^B^
-
-**Skills:** Acrobatics +5 (+17 when jumping), Climb +9, Escape Artist +7, Perception +10
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Survival when tracking by scent
-
-**Special qualities:** fade away
+::: statblock
+Ability scores: Str 10, Dex 21, Con 13, Int 2, Wis 17, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 15 (19 vs. trip)
+Feats: Go Unnoticed, Mobility^B^, Skill Focus (Perception), Stealthy^B^
+Skills: Acrobatics +5 (+17 when jumping), Climb +9, Escape Artist +7, Perception +10
+Racial Modifiers: +4 Acrobatics when jumping, +4 Survival when tracking by scent
+Special qualities: fade away
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any temperate land
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any temperate land
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,109 +32,75 @@ abilities = ["2", "15", "14", "17", "13", "10"]
 _A swarm of rats groups around a barrel, every pair of red eyes staring intently at one rat in the
 center of the mass._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Swarm
+thoughtsense: 60
+Size: tiny
+Experience points: 4,800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +6 insight, +2 size
+Hit points: 76 (9d10+27)
+Fort: +8
+Ref: +10
+Will: +4
+Defensive abilities: swarm traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 15 ft., climb 15 ft., swim 15 ft.
+Distraction: 16
+Melee: swarm (2d6 plus disease and distraction)
+Reach: 0
+Space: 10
+Spec Att: disease, psychic spellcasting
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +9
+3rd-level spells: 4/day: synaptic pulse (DC 16)
+2nd-level spells: 6/day: paranoia (DC 15), spontaneous immolation (DC 16)
+1st-level spells: 7/day: charm animal (DC 14), charm person (DC 14), mind thrust I (DC 14), unseen servant
+Cantrips: At will: bleed (DC 13), daze (DC 13), ghost sound (DC 13), haunted fey aspect (DC 13), mage hand, open/close, telekinetic projectile (DC 13)
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**thoughtsense:** 60
+::: statblock
+Ability scores: Str 2, Dex 15, Con 14, Int 17, Wis 13, Cha 10
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Combat Casting, Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Toughness
+Skills: Acrobatics +14, Climb +14
+Racial Modifiers: +10 Stealth when hiding the nexus
+Languages: Aklo, Common, Goblin, Halfling; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: hivemind nexus
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +6 insight, +2 size
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +4
-
-**Defensive abilities:** swarm traits
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft., swim 15 ft.
-
-**Distraction:** 16
-
-**Melee:** swarm (2d6 plus disease and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** disease, psychic spellcasting
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- 4/day: synaptic pulse (DC 16)
-
-**2nd-level spells:**
-
-- 6/day: paranoia (DC 15), spontaneous immolation (DC 16)
-
-**1st-level spells:**
-
-- 7/day: charm animal (DC 14), charm person (DC 14), mind thrust I (DC 14), unseen servant
-
-**Cantrips:**
-
-- At will: bleed (DC 13), daze (DC 13), ghost sound (DC 13), haunted fey aspect (DC 13), mage hand,
-  open/close, telekinetic projectile (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 15, Con 14, Int 17, Wis 13, Cha 10
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Combat Casting, Improved Initiative, Lightning Reflexes, Skill Focus (Perception),
-Toughness
-
-**Skills:** Acrobatics +14, Climb +14
-
-**Racial Modifiers:** +10 Stealth when hiding the nexus
-
-**Languages:** Aklo, Common, Goblin, Halfling; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** hivemind nexus
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or infestation (2-5 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or infestation (2-5 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,145 +32,91 @@ abilities = ["25", "23", "34", "20", "20", "30"]
 _This serpent-bodied, six-armed woman is painfully thin, haggard, and gaunt. Bloody sores dot her
 flesh, and the skulladorned flails she wields drip black liquid._
 
-**Challenge rating:** 21
-
 **Female marilith [sorcerer](ref/class/sorcerer) 7**
 
-**aura:** unholy aura (DC 28)
-
-**Alignment:** Chaotic evil
-
-**Initiative:** +6
-
-**Size:** large
-
-**Type:** outsider
-
-**Perception:** +39
-
-**Senses:** Darkvision 60 ft., True seeing
-
-**Subtype:** Chaotic, Demon, Evil, Extraplanar
-
-**Experience points:** 409,600
-
-**Armor class:** 38
-
-**Touch:** 19
-
-**Flat-footed:** 32
-
-**AC modifiers:** +4 armor, +4 deflection, +6 Dex, +15 natural, -1 size
-
-**Hit points:** 430 (16d10+7d6+318\~23)
-
-**Fort:** +28
-
-**Ref:** +22
-
-**Will:** +19
-
-**Dr:** 10/cold iron and good
-
-**Evasion:** present
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** tail slap, 2d6+10 plus crushing coils
-
-**Melee:** +4 [ghost touch](ref/magic-enh/ghost-touch-weapon) unholy heavy flail +31/+26/+21/+16
-(2d8+14/17-20), 4 +3 ghost touch flails +29 (2d6+6/19-20), tail slap +20 (2d6+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** crushing coils, infuse weapon, multiweapon mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +26
-
-**Constant:**
-
-- true seeing, unholy aura (DC 28)
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, project image (DC 27), telekinesis (DC 25)
-
-**Per day:**
-
-- 3/day: blade barrier (DC 26), fly
-- 1/day: summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +17
-
-**Per day:**
-
-- 13/day: grave touch, 3 rounds
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +17
-
-**3rd-level spells:**
-
-- 6/day: haste, major image (DC 23), vampiric touch
-
-**2nd-level spells:**
-
-- 9/day: alter self, command undead (DC 22), false life, invisibility
-
-**1st-level spells:**
-
-- 9/day: chill touch (DC 21), mage armor, magic missile, shield, silent image (DC 21), unseen
-  servant
-
-**Cantrips:**
-
-- At will: bleed (DC 20), detect magic, disrupt undead, ghost sound (DC 20), message, read magic,
-  touch of fatigue (DC 20)
-
-**Bloodline:** [undead](ref/sorcbloodline/undead)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 23, Con 34, Int 20, Wis 20, Cha 30
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +27 (+31 disarm, +31 trip)
-
-**Combat maneuver defense:** 49 (51 vs. disarm, can't be tripped)
-
-**Feats:** Combat Expertise, Critical Focus, Eschew Materials, Greater Disarm, Greater Trip,
-Improved Critical (heavy flail), Improved Disarm, Improved Trip, Multiweapon Defense, Power Attack,
-Staggering Critical, Toughness, Weapon Focus (heavy flail), Weapon Focus (flail)
-
-**Skills:** Acrobatics +32, Bluff +36, Diplomacy +36, Sense Motive +31, Stealth +28
-
-**Languages:** Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** bloodline arcana (corporeal undead affected by humanoid-affecting spells)
-
-**Gear:** +4 ghost touch unholy heavy flail, 4 +3 ghost touch lfxs, ring of eva
+::: statblock
+Challenge rating: 21
+aura: unholy aura (DC 28)
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Type: outsider
+Perception: +39
+Senses: Darkvision 60 ft., True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar
+Experience points: 409,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 38
+Touch: 19
+Flat-footed: 32
+AC modifiers: +4 armor, +4 deflection, +6 Dex, +15 natural, -1 size
+Hit points: 430 (16d10+7d6+318\~23)
+Fort: +28
+Ref: +22
+Will: +19
+Dr: 10/cold iron and good
+Evasion: present
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 28
+:::
+
+### Offense
+
+::: statblock
+Speed: 30 ft.
+Constrict: tail slap, 2d6+10 plus crushing coils
+Melee: +4 [ghost touch](ref/magic-enh/ghost-touch-weapon) unholy heavy flail +31/+26/+21/+16 (2d8+14/17-20), 4 +3 ghost touch flails +29 (2d6+6/19-20), tail slap +20 (2d6+3)
+Reach: 10
+Space: 10
+Spec Att: crushing coils, infuse weapon, multiweapon mastery
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +26
+Constant: true seeing, unholy aura (DC 28)
+At will: greater teleport, self plus 50 lbs. of objects only, project image (DC 27), telekinesis (DC 25)
+Per day: 3/day: blade barrier (DC 26), fly\
+1/day: summon (level 5, 1 marilith 20%, 1 nalfeshnee 35%, or 1d4 hezrous 60%)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +17
+Per day: 13/day: grave touch, 3 rounds
+:::
+
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +17
+3rd-level spells: 6/day: haste, major image (DC 23), vampiric touch
+2nd-level spells: 9/day: alter self, command undead (DC 22), false life, invisibility
+1st-level spells: 9/day: chill touch (DC 21), mage armor, magic missile, shield, silent image (DC 21), unseen servant
+Cantrips: At will: bleed (DC 20), detect magic, disrupt undead, ghost sound (DC 20), message, read magic, touch of fatigue (DC 20)
+Bloodline: [undead](ref/sorcbloodline/undead)
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 25, Dex 23, Con 34, Int 20, Wis 20, Cha 30
+Base attack bonus: +19
+Combat maneuver bonus: +27 (+31 disarm, +31 trip)
+Combat maneuver defense: 49 (51 vs. disarm, can't be tripped)
+Feats: Combat Expertise, Critical Focus, Eschew Materials, Greater Disarm, Greater Trip, Improved Critical (heavy flail), Improved Disarm, Improved Trip, Multiweapon Defense, Power Attack, Staggering Critical, Toughness, Weapon Focus (heavy flail), Weapon Focus (flail)
+Skills: Acrobatics +32, Bluff +36, Diplomacy +36, Sense Motive +31, Stealth +28
+Languages: Abyssal, Celestial, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: bloodline arcana (corporeal undead affected by humanoid-affecting spells)
+Gear: +4 ghost touch unholy heavy flail, 4 +3 ghost touch lfxs, ring of eva
+:::
 
 ### Description
 

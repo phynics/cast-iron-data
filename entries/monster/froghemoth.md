@@ -29,87 +29,65 @@ abilities = ["30", "13", "24", "2", "13", "11"]
 _This immense, three-eyed frog-like creature rears up on powerful hind legs. In place of arms, four
 huge tentacles thrash and writhe._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+blindsight: 30
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +16
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 28
+Touch: 9
+Flat-footed: 27
+AC modifiers: +1 Dex, +19 natural, -2 size
+Hit points: 184 (16d8+112)
+Fort: +12
+Ref: +8
+Will: +11
+Immune: electricity (partial)
+Resist: fire 10
+Weaknesses: slowed by electricity
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Constrict: tentacle, 1d6+10
+Melee: bite +20 (2d6+10/19-20 plus [grab](ref/umr/grab)), 4 tentacles +18 (1d8+5 plus grab), tongue +18 (1d4+5 plus grab)
+Reach: 15
+Reach P: 30 ft. with tongue
+Space: 15
+Swallow: 3d6+10 damage, AC 19, hp 18
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +16
+::: statblock
+Ability scores: Str 30, Dex 13, Con 24, Int 2, Wis 13, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 35
+Feats: Cleave, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Lunge, Multiattack, Power Attack, Skill Focus (Stealth)
+Skills: Perception +16, Stealth +14 (+22 in marshes), Swim +18
+Racial Modifiers: +8 Perception, +8 Stealth in marshes
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +1 Dex, +19 natural, -2 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +11
-
-**Immune:** electricity (partial)
-
-**Resist:** fire 10
-
-**Weaknesses:** slowed by electricity
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Constrict:** tentacle, 1d6+10
-
-**Melee:** bite +20 (2d6+10/19-20 plus [grab](ref/umr/grab)), 4 tentacles +18 (1d8+5 plus grab),
-tongue +18 (1d4+5 plus grab)
-
-**Reach:** 15
-
-**Reach P:** 30 ft. with tongue
-
-**Space:** 15
-
-**Swallow:** 3d6+10 damage, AC 19, hp 18
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 13, Con 24, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 35
-
-**Feats:** Cleave, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Lunge,
-Multiattack, Power Attack, Skill Focus (Stealth)
-
-**Skills:** Perception +16, Stealth +14 (+22 in marshes), Swim +18
-
-**Racial Modifiers:** +8 Perception, +8 Stealth in marshes
-
-**Ecology**
-
-**Environment:** temperate marsh
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate marsh
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

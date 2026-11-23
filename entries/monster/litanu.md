@@ -32,85 +32,64 @@ abilities = ["27", "17", "-", "15", "16", "21"]
 _This hulking merfolk has rotting skin, dull black eyes, and four thick tentacles ending in toothy
 maws protruding from its back._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: undead
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +4 Dex, +1 dodge, +10 natural
+Hit points: 147 (14d8+84)
+Fort: +11
+Ref: +8
+Will: +12
+Chan Res: +4
+Defensive abilities: deep dweller
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 20
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +20
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: mwk trident +19/+14 (1d8+8), 4 tentacles +16 (1d4+4 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 19
+Spec Att: seclusion empowerment, sequestering paralysis
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 27, Dex 17, Con -, Int 15, Wis 16, Cha 21
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 33
+Feats: Combat Reflexes, Dodge, Great Fortitude, Multiattack, Power Attack, Skill Focus (Stealth), Toughness
+Skills: Acrobatics +18 (+10 when jumping), Craft (traps) +16, Intimidate +22, Perception +20, Sense Motive +13, Stealth +27, Swim +26
+Languages: Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +1 dodge, +10 natural
-
-**Hit points:** 147 (14d8+84)
-
-**Fort:** +11
-
-**Ref:** +8
-
-**Will:** +12
-
-**Chan Res:** +4
-
-**Defensive abilities:** deep dweller
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 20
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** mwk trident +19/+14 (1d8+8), 4 tentacles +16 (1d4+4 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 19
-
-**Spec Att:** seclusion empowerment, sequestering paralysis
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 17, Con -, Int 15, Wis 16, Cha 21
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 33
-
-**Feats:** Combat Reflexes, Dodge, Great Fortitude, Multiattack, Power Attack, Skill Focus
-(Stealth), Toughness
-
-**Skills:** Acrobatics +18 (+10 when jumping), Craft (traps) +16, Intimidate +22, Perception +20,
-Sense Motive +13, Stealth +27, Swim +26
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or school (3-8)
-
-**Treasure:** Standard (mwk trident); other treasure
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or school (3-8)
+Treasure: Standard (mwk trident); other treasure
+:::
 
 ### Special Abilities
 

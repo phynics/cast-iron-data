@@ -32,75 +32,60 @@ _This four-armed metal construct has a roughly humanoid shape, with the obvious 
 missing head. Veins of brass overlay a body of meshed platinum and silver, with intricate circular
 grooves visible above, below, and between its twin sets of arms._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: ioun attraction (60 ft.)
+Type: construct
+Initiative: +9
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 102,400
+:::
 
-**aura:** ioun attraction (60 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 33
+Touch: 18
+Flat-footed: 24
+AC modifiers: +9 Dex, +15 natural, -1 size
+Hit points: 156 (23d10+30)
+Fort: +7
+Ref: +16
+Will: +7
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: 4 slams +32 (3d10+10)
+Reach: 10
+Space: 10
+Spec Att: ioun surge
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +0
+::: statblock
+Ability scores: Str 30, Dex 28, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +23
+Combat maneuver bonus: +34
+Combat maneuver defense: 53
+Special qualities: gem receptacle
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology {#stat-ecology}
 
-**Experience points:** 102,400
-
-**Armor class:** 33
-
-**Touch:** 18
-
-**Flat-footed:** 24
-
-**AC modifiers:** +9 Dex, +15 natural, -1 size
-
-**Hit points:** 156 (23d10+30)
-
-**Fort:** +7
-
-**Ref:** +16
-
-**Will:** +7
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 4 slams +32 (3d10+10)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** ioun surge
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 28, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 53
-
-**Special qualities:** gem receptacle
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard; [ioun stones](ref/magic-wondrous/ioun-stone) \[up to 6\]
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard; [ioun stones](ref/magic-wondrous/ioun-stone) \[up to 6\]
+:::
 
 ### Special Abilities
 

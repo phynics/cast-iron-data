@@ -32,73 +32,59 @@ abilities = ["14", "20", "15", "2", "13", "7"]
 
 _This giant fanged cricket is caked in pungent fungal growths and topped with a mushroom-like cap._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: aberration
+Initiative: +9
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Experience points: 800
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 size
+Hit points: 26 (4d8+8)
+Fort: +3
+Ref: +6
+Will: +5
+Defensive abilities: plant defenses
+Immune: mind-affecting effects, paralysis, poison, polymorph effects, sleep, stunning
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., climb 40 ft.
+Melee: bite +6 (1d6+2 plus poison), 2 claws +6 (1d4+2)
+Spec Att: leap
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 20, Con 15, Int 2, Wis 13, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 19 (27 vs. trip)
+Feats: Improved Initiative, Step Up
+Skills: Acrobatics +10 (+14 jumping), Climb +10, Perception +6
+Racial Modifiers: +14 on Acrobatics checks made to jump
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +5
-
-**Defensive abilities:** plant defenses
-
-**Immune:** mind-affecting effects, paralysis, poison, polymorph effects, sleep, stunning
-
-**Offense**
-
-**Speed:** 20 ft., climb 40 ft.
-
-**Melee:** bite +6 (1d6+2 plus poison), 2 claws +6 (1d4+2)
-
-**Spec Att:** leap
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 15, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 19 (27 vs. trip)
-
-**Feats:** Improved Initiative, Step Up
-
-**Skills:** Acrobatics +10 (+14 jumping), Climb +10, Perception +6
-
-**Racial Modifiers:** +14 on Acrobatics checks made to jump
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

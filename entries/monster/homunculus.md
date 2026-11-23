@@ -29,73 +29,59 @@ abilities = ["8", "15", "-", "10", "12", "7"]
 _This vaguely humanoid creature is about the size of a cat but looks more like a toothy, winged
 devil._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Any alignment (same as creator)
+Type: construct
+Initiative: +2
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Any alignment (same as creator)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 11 (2d10)
+Fort: +0
+Ref: +4
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +2
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: 1 bite +3 (1d4-1 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con -, Int 10, Wis 12, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Lightning Reflexes
+Skills: Fly +10, Perception +3, Stealth +12
+Languages: Common (can't speak); telepathic link
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** 1 bite +3 (1d4-1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con -, Int 10, Wis 12, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Fly +10, Perception +3, Stealth +12
-
-**Languages:** Common (can't speak); telepathic link
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

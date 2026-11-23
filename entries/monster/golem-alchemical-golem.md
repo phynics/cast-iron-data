@@ -31,73 +31,59 @@ abilities = ["27", "18", "-", "-", "11", "1"]
 _A rickety construction of glass tubing, metal, and wood convey the brain and two eyes afloat in
 this figure's glass skull._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 96 (12d10+30)
+Fort: +4
+Ref: +8
+Will: +4
+Dr: 10/adamantine or bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +19 (2d8+8 plus alchemy)
+Ranged: bomb +15 (8d6 energy damage)
+Reach: 10
+Space: 10
+Spec Att: alchemy, bombs, splash
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 27, Dex 18, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +21
+Combat maneuver defense: 35
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 96 (12d10+30)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +4
-
-**Dr:** 10/adamantine or bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +19 (2d8+8 plus alchemy)
-
-**Ranged:** bomb +15 (8d6 energy damage)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** alchemy, bombs, splash
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 18, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,94 +31,72 @@ abilities = ["8", "18", "12", "10", "13", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 4
-
 **Kobold [rogue](ref/class/rogue) 5**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 4
+Type: humanoid
+Initiative: +8
+Alignment: Lawful evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 1,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 17
+AC modifiers: +5 armor, +4 Dex, +1 natural, +1 size
+Hit points: 31 (5d8+5)
+Fort: +2
+Ref: +10
+Will: +2
+Evasion: present
+Trap S: +1
+Uncanny dodge: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +11
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Size:** small
-
-**Subtype:** Reptilian
-
-**Experience points:** 1,200
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 armor, +4 Dex, +1 natural, +1 size
-
-**Hit points:** 31 (5d8+5)
-
-**Fort:** +2
-
-**Ref:** +10
-
-**Will:** +2
-
-**Evasion:** present
-
-**Trap S:** +1
-
-**Uncanny dodge:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d3-1/19-20)
-
-**Ranged:** mwk shortbow +9 (1d4/×3)
-
-**Sneak:** +3d6
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d3-1/19-20)
+Ranged: mwk shortbow +9 (1d4/×3)
+Sneak: +3d6
+:::
 
 ### Tactics
 
 **During Combat** If the master trapper's enemies aren't near her traps, she fires arrows or uses
 her necklace of fireballs.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 8, Dex 18, Con 12, Int 10, Wis 13, Cha 8
+::: statblock
+Ability scores: Str 8, Dex 18, Con 12, Int 10, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +1
+Combat maneuver defense: 15
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Craft \[trapmaking\])
+Skills: Acrobatics +11, Appraise +8, Climb +6, Craft (trapmaking) +13, Sleight of Hand +11, Stealth +15
+Racial Modifiers: +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
+Languages: Draconic
+Special qualities: crafty, rogue talents ([trap spotter](ref/talent/trap-spotter), [cunning trigger](ref/talent/cunning-trigger)), [trapfinding](ref/ability/trapfinding) +2
+Combat gear: I-necklace of fireballs/type I
+Other gear: +1 chain shirt, dagger, mwk sb20, artisan's tools (mwk), mtt, 62 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Craft \[trapmaking\])
-
-**Skills:** Acrobatics +11, Appraise +8, Climb +6, Craft (trapmaking) +13, Sleight of Hand +11,
-Stealth +15
-
-**Racial Modifiers:** +2 Craft (trapmaking), +2 Perception, +2 Profession (miner)
-
-**Languages:** Draconic
-
-**Special qualities:** crafty, rogue talents ([trap spotter](ref/talent/trap-spotter),
-[cunning trigger](ref/talent/cunning-trigger)), [trapfinding](ref/ability/trapfinding) +2
-
-**Combat gear:** I-necklace of fireballs/type I
-
-**Other gear:** +1 chain shirt, dagger, mwk sb20, artisan's tools (mwk), mtt, 62 gp
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

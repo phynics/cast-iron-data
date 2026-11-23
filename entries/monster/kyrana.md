@@ -30,75 +30,60 @@ abilities = ["16", "15", "12", "3", "9", "6"]
 _Long spines jut from the head and neck of this red-scaled iguana, and fire trickles from its open
 mouth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: dragon
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Experience points: 800
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 30 (4d12+4); fiery regeneration
+Fort: +5
+Ref: +6
+Will: +3
+Immune: dragon traits, fire, paralysis, sleep
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Br Weap: 20-ft. line, 3d6 fire damage, Reflex DC 13 half, usable every 1d4 rounds
+Melee: bite +8 (1d4+3), 2 claws +7 (1d3+3)
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 15, Con 12, Int 3, Wis 9, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Skill Focus (Perception), Weapon Focus (bite)
+Skills: Climb +10, Perception +9
+Languages: Draconic
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 30 (4d12+4); fiery regeneration
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** dragon traits, fire, paralysis, sleep
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 20-ft. line, 3d6 fire damage, Reflex DC 13 half, usable every 1d4 rounds
-
-**Melee:** bite +8 (1d4+3), 2 claws +7 (1d3+3)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 12, Int 3, Wis 9, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Climb +10, Perception +9
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any underground or warm deserts
-
-**Organization:** solitary, pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground or warm deserts
+Organization: solitary, pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

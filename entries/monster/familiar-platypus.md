@@ -35,73 +35,59 @@ abilities = ["2", "14", "8", "2", "13", "11"]
 _This creature is plump, brown, and covered in sleek fur, but it has a duck's bill, a flat tail, and
 webbed feet._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Electrolocation 30 ft., Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: spur +4 (1d3-4 plus poison)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Electrolocation 30 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 2, Dex 14, Con 8, Int 2, Wis 13, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Weapon Finesse
+Skills: Perception +0 (+4 underwater), Swim +14
+Racial Modifiers: +4 Perception underwater
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** spur +4 (1d3-4 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 14, Con 8, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +0 (+4 underwater), Swim +14
-
-**Racial Modifiers:** +4 Perception underwater
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate or tropical rivers
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical rivers
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

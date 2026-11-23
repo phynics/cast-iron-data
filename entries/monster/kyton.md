@@ -31,88 +31,66 @@ abilities = ["15", "17", "14", "11", "12", "12"]
 _Wickedly barbed chains adorn this lean figure, and gaps in the bindings reveal deathly pale flesh
 etched with jagged scars._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +4 armor, +3 Dex, +4 natural
+Hit points: 60 (8d10+16)
+Fort: +8
+Ref: +9
+Will: +3
+Dr: 5/silver or good
+Immune: cold
+Regen: 2 (good weapons and spells, silver weapons)
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 4 chains +11 (2d4+2)
+Reach: 5
+Reach P: 10 ft. with chains
+Space: 5
+Spec Att: dancing chains, unnerving gaze
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 15, Dex 17, Con 14, Int 11, Wis 12, Cha 12
+Base attack bonus: +8
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Alertness, Blind-Fight, Improved Initiative, Weapon Focus (chain)
+Skills: Acrobatics +14, Climb +13, Craft (blacksmithing) +11, Escape Artist +14, Intimidate +12, Perception +14
+Languages: Common, Infernal
+Special qualities: chain armor
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +3 Dex, +4 natural
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +3
-
-**Dr:** 5/silver or good
-
-**Immune:** cold
-
-**Regen:** 2 (good weapons and spells, silver weapons)
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 4 chains +11 (2d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with chains
-
-**Space:** 5
-
-**Spec Att:** dancing chains, unnerving gaze
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 14, Int 11, Wis 12, Cha 12
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Alertness, Blind-Fight, Improved Initiative, Weapon Focus (chain)
-
-**Skills:** Acrobatics +14, Climb +13, Craft (blacksmithing) +11, Escape Artist +14, Intimidate +12,
-Perception +14
-
-**Languages:** Common, Infernal
-
-**Special qualities:** chain armor
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, link (3-6), or chain (7-20)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, link (3-6), or chain (7-20)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

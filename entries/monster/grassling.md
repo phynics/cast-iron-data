@@ -30,73 +30,59 @@ abilities = ["12", "18", "15", "10", "13", "17"]
 _This child-sized creature is made of long green stalks of loosely woven grass. It has four arms,
 each with fingers like long blades, and leaves circle its head like a crown._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +4
+Perception: +14
+Senses: Low-light vision
+Size: small
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +4 natural, +1 size
+Hit points: 65 (10d6+30)
+Fort: +5
+Ref: +11
+Will: +8
+Defensive abilities: plant form
+:::
 
-**greensight:** 60
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft.
+Bleed: 1d6
+Melee: 4 claws +11 (1d6+1 plus bleed)
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 18, Con 15, Int 10, Wis 13, Cha 17
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Combat Reflexes, Stealthy, Toughness, Weapon Finesse, Weapon Focus (claw)
+Skills: Acrobatics +17, Climb +14, Escape Artist +21, Perception +14
+Special qualities: thicket stride
+:::
 
-**Size:** small
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +4 natural, +1 size
-
-**Hit points:** 65 (10d6+30)
-
-**Fort:** +5
-
-**Ref:** +11
-
-**Will:** +8
-
-**Defensive abilities:** plant form
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 4 claws +11 (1d6+1 plus bleed)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 18, Con 15, Int 10, Wis 13, Cha 17
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Combat Reflexes, Stealthy, Toughness, Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Acrobatics +17, Climb +14, Escape Artist +21, Perception +14
-
-**Special qualities:** thicket stride
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or tuft (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or tuft (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,79 +31,62 @@ abilities = ["-", "17", "-", "7", "14", "19"]
 _Gray and black shadows and mist coalesce into a humanoid figure, its face a distorted mask of rage
 and hatred._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 deflection, +3 Dex, +1 dodge
+Hit points: 68 (8d8+32)
+Fort: +6
+Ref: +5
+Will: +8
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: exiled
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal touch +10 (1d6 Intelligence damage)
+Spec Att: rage thrall
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 17, Con -, Int 7, Wis 14, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Dodge, Improved Initiative, Mobility, Weapon Focus (incorporeal touch)
+Skills: Fly +18, Perception +9, Sense Motive +9, Stealth +10
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +3 Dex, +1 dodge
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** exiled
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal touch +10 (1d6 Intelligence damage)
-
-**Spec Att:** rage thrall
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 17, Con -, Int 7, Wis 14, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Focus (incorporeal touch)
-
-**Skills:** Fly +18, Perception +9, Sense Motive +9, Stealth +10
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or banishment (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or banishment (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

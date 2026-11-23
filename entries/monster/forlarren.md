@@ -29,81 +29,65 @@ abilities = ["12", "15", "12", "4", "13", "9"]
 _This humanoid creature has the legs of a bald goat, a completely hairless body, and a horned head
 with a sinister expression._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: fey
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +6
+Will: +5
+Dr: 5/cold iron
+Weaknesses: remorse
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +4 (1d6+1)
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +3
+Per day: 3/day: heat metal (DC 11)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 12, Dex 15, Con 12, Int 4, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Skill Focus (Perception), Weapon Finesse
+Skills: Acrobatics +9, Perception +11, Stealth +9
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Weaknesses:** remorse
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +4 (1d6+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +3
-
-**Per day:**
-
-- 3/day: heat metal (DC 11)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 12, Int 4, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Acrobatics +9, Perception +11, Stealth +9
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate plains or forests
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate plains or forests
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,106 +31,73 @@ _Dressed entirely in gray worn robes, a tiny, otherworldly man stands cloaked in
 his head crowned by a mane of wild, fiery-orange hair and his green eyes gleaming with madness and
 delight._
 
-**Challenge rating:** 7
-
 **Male leprechaun [sorcerer](ref/class/sorcerer) 5**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +8
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 natural, +1 size
+Hit points: 54 (9d6+23)
+Fort: +5
+Ref: +9
+Will: +11
+Dr: 5/cold iron
+Sr: 13
+:::
 
-**Perception:** +20
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 40 ft.
+Melee: +1 club +6 (1d8+1)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +10
+Per day: 8/day: shadowstrike, 1d4+2 nonlethal and dazed 1 minute
+:::
 
-**Experience points:** 3,200
+::: statblock
+title = "Spells Known"
+Caster level: 5
+Concentration: +10
+2nd-level spells: 5/day: [darkvision](ref/rule/darkvision), dust of twilight (DC 17), haunting mists (DC 17)
+1st-level spells: 8/day: bungle (DC 16), lock gaze (DC 16), mage armor, ray of enfeeblement (DC 16), shadow weapon (DC 16)
+Cantrips: At will: arcane mark, daze (DC 15), detect magic, haunted fey aspect, message, read magic
+Bloodline: [shadow](ref/sorcbloodline/shadow)
+:::
 
-**Armor class:** 16
+### Statistics
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 natural, +1 size
-
-**Hit points:** 54 (9d6+23)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +11
-
-**Dr:** 5/cold iron
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 club +6 (1d8+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +10
-
-**Per day:**
-
-- 8/day: shadowstrike, 1d4+2 nonlethal and dazed 1 minute
-
-**Spells Known**
-
-**Caster level:** 5
-
-**Concentration:** +10
-
-**2nd-level spells:**
-
-- 5/day: [darkvision](ref/rule/darkvision), dust of twilight (DC 17), haunting mists (DC 17)
-
-**1st-level spells:**
-
-- 8/day: bungle (DC 16), lock gaze (DC 16), mage armor, ray of enfeeblement (DC 16), shadow weapon
-  (DC 16)
-
-**Cantrips:**
-
-- At will: arcane mark, daze (DC 15), detect magic, haunted fey aspect, message, read magic
-
-**Bloodline:** [shadow](ref/sorcbloodline/shadow)
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 18, Con 12, Int 14, Wis 17, Cha 20
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Casting, Eschew Materials, Great Fortitude, Improved Initiative, Toughness, Weapon
-Finesse
-
-**Skills:** Bluff +16, Escape Artist +11, Knowledge (nature) +9, Perception +20, Perform (comedy)
-+11, Sense Motive +11, Sleight of Hand +14, Spellcraft +10, Stealth +20
-
-**Racial Modifiers:** +8 Perception, +4 Sleight of Hand
-
-**Languages:** Aklo, Common, Elven, Halfling, Shadowtongue, Sylvan
-
-**Special qualities:** bloodline arcana, leprechaun magic, nighteye
-
-**Combat gear:** Dmemory lapse/30 charges, 5 thunderstones
-
-**Other gear:** club, Iamu1, I-bag of tricks (gray)
+::: statblock
+Ability scores: Str 11, Dex 18, Con 12, Int 14, Wis 17, Cha 20
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 17
+Feats: Combat Casting, Eschew Materials, Great Fortitude, Improved Initiative, Toughness, Weapon Finesse
+Skills: Bluff +16, Escape Artist +11, Knowledge (nature) +9, Perception +20, Perform (comedy) +11, Sense Motive +11, Sleight of Hand +14, Spellcraft +10, Stealth +20
+Racial Modifiers: +8 Perception, +4 Sleight of Hand
+Languages: Aklo, Common, Elven, Halfling, Shadowtongue, Sylvan
+Special qualities: bloodline arcana, leprechaun magic, nighteye
+Combat gear: Dmemory lapse/30 charges, 5 thunderstones
+Other gear: club, Iamu1, I-bag of tricks (gray)
+:::
 
 ### Description
 

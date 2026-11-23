@@ -32,107 +32,74 @@ abilities = ["50", "21", "41", "3", "30", "26"]
 _This towering saurian lumbers on its hind legs, its twin tails thrashing and the spines on its back
 glowing with red energy._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +9
+Type: Magical beast
+Perception: +45
+Senses: Darkvision 600 ft., Low-light vision, See invisibility, Sense kaiju
+Subtype: Kaiju, Water
+Experience points: 4,915,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 47
+Touch: 7
+Flat-footed: 42
+AC modifiers: +5 Dex, +40 natural, -8 size
+Hit points: 697 (34d10+510)
+Fort: +34
+Ref: +24
+Will: +23
+Defensive abilities: absorb energy, recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, death effects, disease, energy drain, fire, and fear
+Resist: acid 30, cold 30, electricity 30, negative energy 30, sonic 30
+Weaknesses: susceptible to song
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 100 ft., swim 100 ft.
+F Swallow: present
+Ferocity: present
+Melee: bite +46 (8d6+20/19-20 plus [grab](ref/umr/grab)), 2 claws +46 (4d8+20/19-20), 2 tail slaps +44 (6d6+10/19-20)
+Ranged: firebolts +31 touch (damage variable; see below)
+Reach: 60
+Space: 60
+Spec Att: breath weapon, hurl foe, reflexive breath
+Swallow: 10d6 bludgeoning and 10d6 fire damage, AC 30, 69 hp
+Trample: 4d8+30, DC 47
+:::
 
-**Perception:** +45
+### Statistics
 
-**Senses:** Darkvision 600 ft., Low-light vision, See invisibility, Sense kaiju
+::: statblock
+Ability scores: Str 50, Dex 21, Con 41, Int 3, Wis 30, Cha 26
+Base attack bonus: +34
+Combat maneuver bonus: +62 (+66 bull rush, +66 grapple, +66 sunder)
+Combat maneuver defense: 79 (81 vs. bull rush, 81 vs. sunder)
+Feats: Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Sunder, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Initiative, Improved Iron Will, Improved Sunder, Improved Vital Strike, Iron Will, Multiattack, Power Attack, Staggering Critical, Vital Strike
+Skills: Perception +45, Swim +49
+Racial Modifiers: +16 Perception
+Languages: Aquan (can't speak)
+Special qualities: massive
+:::
 
-**Subtype:** Kaiju, Water
+### Ecology
 
-**Experience points:** 4,915,200
-
-**Armor class:** 47
-
-**Touch:** 7
-
-**Flat-footed:** 42
-
-**AC modifiers:** +5 Dex, +40 natural, -8 size
-
-**Hit points:** 697 (34d10+510)
-
-**Fort:** +34
-
-**Ref:** +24
-
-**Will:** +23
-
-**Defensive abilities:** absorb energy, recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, death effects, disease, energy drain, fire, and fear
-
-**Resist:** acid 30, cold 30, electricity 30, negative energy 30, sonic 30
-
-**Weaknesses:** susceptible to song
-
-**Offense**
-
-**Speed:** 100 ft., swim 100 ft.
-
-**F Swallow:** present
-
-**Ferocity:** present
-
-**Melee:** bite +46 (8d6+20/19-20 plus [grab](ref/umr/grab)), 2 claws +46 (4d8+20/19-20), 2 tail
-slaps +44 (6d6+10/19-20)
-
-**Ranged:** firebolts +31 touch (damage variable; see below)
-
-**Reach:** 60
-
-**Space:** 60
-
-**Spec Att:** breath weapon, hurl foe, reflexive breath
-
-**Swallow:** 10d6 bludgeoning and 10d6 fire damage, AC 30, 69 hp
-
-**Trample:** 4d8+30, DC 47
-
-**Statistics**
-
-**Ability scores:** Str 50, Dex 21, Con 41, Int 3, Wis 30, Cha 26
-
-**Base attack bonus:** +34
-
-**Combat maneuver bonus:** +62 (+66 bull rush, +66 grapple, +66 sunder)
-
-**Combat maneuver defense:** 79 (81 vs. bull rush, 81 vs. sunder)
-
-**Feats:** Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Sunder, Greater Vital Strike,
-Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Initiative,
-Improved Iron Will, Improved Sunder, Improved Vital Strike, Iron Will, Multiattack, Power Attack,
-Staggering Critical, Vital Strike
-
-**Skills:** Perception +45, Swim +49
-
-**Racial Modifiers:** +16 Perception
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** massive
-
-**Ecology**
-
-**Environment:** warm forests or water
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm forests or water
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

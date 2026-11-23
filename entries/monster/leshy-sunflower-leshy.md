@@ -31,90 +31,69 @@ abilities = ["7", "16", "12", "5", "11", "15"]
 
 _The petals of this small plant's large, flat, flowering head reflect light in unnatural ways._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+aura: heliotrope (20 ft., DC 13)
+Initiative: +3
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy
+Experience points: 400
+:::
 
-**aura:** heliotrope (20 ft., DC 13)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +3
+Will: +0
+Immune: electricity, [plant traits](ref/umr/plant-traits), sonic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft.
+Melee: head butt +0 (1d4-2)
+Spec Att: seed spray (1d4, 15-ft. cone, DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+Constant: pass without trace
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 7, Dex 16, Con 12, Int 5, Wis 11, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: -2
+Combat maneuver defense: 11
+Feats: Voice of the Sibyl
+Skills: Acrobatics +3 (-1 to jump), Diplomacy +3
+Racial Modifiers: +4 Stealth and Survival in plains and hills
+Languages: Druidic, Sylvan; _plantspeech_ (flowers)
+Special qualities: [change shape](ref/umr/change-shape) (Small flower; [tree shape](ref/spell/tree-shape)), verdant burst
+:::
 
-**Subtype:** Leshy
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +0
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits), sonic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** head butt +0 (1d4-2)
-
-**Spec Att:** seed spray (1d4, 15-ft. cone, DC 16)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 16, Con 12, Int 5, Wis 11, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Voice of the Sibyl
-
-**Skills:** Acrobatics +3 (-1 to jump), Diplomacy +3
-
-**Racial Modifiers:** +4 Stealth and Survival in plains and hills
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (flowers)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small flower;
-[tree shape](ref/spell/tree-shape)), verdant burst
-
-**Ecology**
-
-**Environment:** any warm plains or hills
-
-**Organization:** solitary, pair, bunch (3-8), or field (9+)
-
-**Treasure:** None
+::: statblock
+Environment: any warm plains or hills
+Organization: solitary, pair, bunch (3-8), or field (9+)
+Treasure: None
+:::
 
 ### Special Abilities
 

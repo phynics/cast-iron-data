@@ -32,77 +32,61 @@ abilities = ["11", "12", "14", "-", "10", "1"]
 _A parasite ballooned to monstrous proportions undulates in the muck, its circular maw a spiral of
 teeth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Scent
+Subtype: Aquatic
+Type: vermin
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 10
+AC modifiers: +1 Dex
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+Weaknesses: susceptible to salt
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 20 ft.
+Melee: bite +2 (1d6 plus attach)
+Spec Att: blood drain
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 11, Dex 12, Con 14, Int -, Wis 10, Cha 1
+Base attack bonus: +2
+Combat maneuver bonus: +2 (+10 when attached)
+Combat maneuver defense: 13 (can't be tripped)
+Skills: Stealth +1 (+9 in swamps), Swim +8
+Racial Modifiers: +8 Stealth in swamps
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 600
-
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** susceptible to salt
-
-**Offense**
-
-**Speed:** 5 ft., swim 20 ft.
-
-**Melee:** bite +2 (1d6 plus attach)
-
-**Spec Att:** blood drain
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 12, Con 14, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2 (+10 when attached)
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Skills:** Stealth +1 (+9 in swamps), Swim +8
-
-**Racial Modifiers:** +8 Stealth in swamps
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm marshes
-
-**Organization:** cluster, pair, or brood (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm marshes
+Organization: cluster, pair, or brood (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

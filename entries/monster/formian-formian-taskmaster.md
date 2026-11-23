@@ -31,112 +31,78 @@ abilities = ["17", "14", "16", "13", "16", "19"]
 
 _This centaur-like creature is equipped with an ant's mandibles and antennae._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 30
+Initiative: +2 (+6 with hive mind)
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +16 (+20 with hive mind)
+Senses: Darkvision 60 ft., Hive mind
+Experience points: 3,200
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +2 (+6 with hive mind)
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 natural
+Hit points: 85 (10d10+30)
+Fort: +6
+Ref: +9
+Will: +10
+Resist: sonic 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: sting +13 (1d4+3 plus poison), 2 claws +13 (1d4+3)
+Ranged: dart +12/+7 (1d4+3)
+Spec Att: poison
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Per day: 3/day: detect thoughts (DC 16), sending, to the hive queen only
+:::
 
-**Perception:** +16 (+20 with hive mind)
+::: statblock
+title = "Spells Known"
+Caster level: 7
+Concentration: +11
+3rd-level spells: 2/day: confusion (DC 18), good hope
+2nd-level spells: 4/day: heroism, invisibility, sound burst (DC 16), suggestion (DC 17)
+1st-level spells: 5/day: charm person (DC 16), comprehend languages, cure light wounds, hideous laughter (DC 16), silent image (DC 15)
+Cantrips: At will: dancing lights, daze (DC 15), detect magic, mending, message, prestidigitation
+:::
 
-**Senses:** Darkvision 60 ft., Hive mind
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 17, Dex 14, Con 16, Int 13, Wis 16, Cha 19
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Combat Casting, Point-Blank Shot, Quick Draw, Rapid Shot, Spell Focus (enchantment)
+Skills: Appraise +6, Bluff +9, Climb +11, Craft (armor) +9, Diplomacy +14, Sense Motive +8, Spellcraft +6
+Languages: Common; [telepathy](ref/umr/telepathy) 120 ft.
+Special qualities: formian traits, mental motivator (20 rounds/day)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +10
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** sting +13 (1d4+3 plus poison), 2 claws +13 (1d4+3)
-
-**Ranged:** dart +12/+7 (1d4+3)
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 16), sending, to the hive queen only
-
-**Spells Known**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 2/day: confusion (DC 18), good hope
-
-**2nd-level spells:**
-
-- 4/day: heroism, invisibility, sound burst (DC 16), suggestion (DC 17)
-
-**1st-level spells:**
-
-- 5/day: charm person (DC 16), comprehend languages, cure light wounds, hideous laughter (DC 16),
-  silent image (DC 15)
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 15), detect magic, mending, message, prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 16, Int 13, Wis 16, Cha 19
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Combat Casting, Point-Blank Shot, Quick Draw, Rapid Shot, Spell Focus (enchantment)
-
-**Skills:** Appraise +6, Bluff +9, Climb +11, Craft (armor) +9, Diplomacy +14, Sense Motive +8,
-Spellcraft +6
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 120 ft.
-
-**Special qualities:** formian traits, mental motivator (20 rounds/day)
-
-**Ecology**
-
-**Environment:** warm or temperate land or underground
-
-**Organization:** solitary, work crew (1 plus 6-12 [workers](ref/monster/formian-formian-worker)),
-band (1 plus 3-15 workers and 5-8 [warriors](ref/monster/formian-formian-warrior)), embassy (2-6)
-
-**Treasure:** Standard (10 dart); other treasure
+::: statblock
+Environment: warm or temperate land or underground
+Organization: solitary, work crew (1 plus 6-12 [workers](ref/monster/formian-formian-worker)), band (1 plus 3-15 workers and 5-8 [warriors](ref/monster/formian-formian-warrior)), embassy (2-6)
+Treasure: Standard (10 dart); other treasure
+:::
 
 ### Special Abilities
 

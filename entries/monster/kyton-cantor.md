@@ -30,89 +30,69 @@ abilities = ["14", "21", "20", "13", "21", "16"]
 _All the skin has been scraped from this childlike humanoid's frame, revealing cords of gray
 musculature. Its eyes burn with a red glow._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +9
+Alignment: Lawful evil
+Type: outsider
+Perception: +18
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 6,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 19
+AC modifiers: +5 Dex, +8 natural, +1 size
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +10
+Will: +12
+Dr: 10/silver
+Immune: cold
+Regen: 5 (good spells and weapons, silver weapons)
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +16 (1d3+2 plus [grab](ref/umr/grab) and lingering touch), bite +16 (1d4+2)
+Spec Att: lingering touch, oneiric invasion, unnerving gaze (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Per day: 3/day: ego whip I (DC 16), nightmare (DC 18), paranoia (DC 15)\
+1/day: shadow body
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 14, Dex 21, Con 20, Int 13, Wis 21, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Run, Weapon Finesse
+Skills: Acrobatics +18, Bluff +16, Climb +15, Intimidate +16, Knowledge (arcana) +14, Perception +18, Stealth +22
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 16
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +8 natural, +1 size
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +10
-
-**Will:** +12
-
-**Dr:** 10/silver
-
-**Immune:** cold
-
-**Regen:** 5 (good spells and weapons, silver weapons)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +16 (1d3+2 plus [grab](ref/umr/grab) and lingering touch), bite +16 (1d4+2)
-
-**Spec Att:** lingering touch, oneiric invasion, unnerving gaze (DC 18)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Per day:**
-
-- 3/day: ego whip I (DC 16), nightmare (DC 18), paranoia (DC 15)
-- 1/day: shadow body
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 20, Int 13, Wis 21, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Run, Weapon Finesse
-
-**Skills:** Acrobatics +18, Bluff +16, Climb +15, Intimidate +16, Knowledge (arcana) +14, Perception
-+18, Stealth +22
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or expedition (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or expedition (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

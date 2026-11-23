@@ -30,107 +30,75 @@ abilities = ["29", "30", "-", "15", "23", "26"]
 
 _One bleached-bone hand of this robed, skeletal figure grasps a massive, curved scythe._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+aura: misfortune (20 ft.), [unnatural aura](ref/umr/unnatural-aura)
+Initiative: +14
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft., See invisibility, Status sight, True seeing
+Subtype: Extraplanar
+Type: undead
+Experience points: 614,400
+:::
 
-**aura:** misfortune (20 ft.), [unnatural aura](ref/umr/unnatural-aura)
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 39
+Touch: 29
+Flat-footed: 28
+AC modifiers: +10 Dex, +1 dodge, +10 natural, +8 profane
+Hit points: 400 (32d8+256)
+Fort: +26
+Ref: +29
+Will: +32
+Chan Res: +4
+Defensive abilities: death's grace
+Dr: 10/-
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 33
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 60 ft., fly 90 ft. (perfect)
+E Drain: 2 levels, DC 34
+Melee: +5 keen adamantine scythe +40/+40/+35/+30/+25 (2d4+18/19-20/×4 plus death strike and energy drain)
+Spec Att: death strike (DC 34), final death
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: haste, see invisibility, true seeing
+At will: call spirit (DC 23)
+Per day: 3/day: finger of death (DC 26), power word kill\
+1/day: plane shift (DC 23)
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility, Status sight, True seeing
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 29, Dex 30, Con -, Int 15, Wis 23, Cha 26
+Base attack bonus: +24
+Combat maneuver bonus: +34
+Combat maneuver defense: 62
+Feats: Cleave, Cleaving Finish, Combat Casting, Combat Reflexes, Critical Focus, Dazing Assault, Furious Focus, Great Cleave, Improved Cleaving Finish, Improved Initiative, Power Attack, Staggering Critical, Step Up, Stunning Critical, Tiring Critical, Weapon Focus (scythe)
+Skills: Acrobatics +42, Disguise +43, Fly +18, Stealth +45
+Languages: Celestial, Common, Infernal
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 614,400
-
-**Armor class:** 39
-
-**Touch:** 29
-
-**Flat-footed:** 28
-
-**AC modifiers:** +10 Dex, +1 dodge, +10 natural, +8 profane
-
-**Hit points:** 400 (32d8+256)
-
-**Fort:** +26
-
-**Ref:** +29
-
-**Will:** +32
-
-**Chan Res:** +4
-
-**Defensive abilities:** death's grace
-
-**Dr:** 10/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 60 ft., fly 90 ft. (perfect)
-
-**E Drain:** 2 levels, DC 34
-
-**Melee:** +5 keen adamantine scythe +40/+40/+35/+30/+25 (2d4+18/19-20/×4 plus death strike and
-energy drain)
-
-**Spec Att:** death strike (DC 34), final death
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- haste, see invisibility, true seeing
-
-**At will:**
-
-- call spirit (DC 23)
-
-**Per day:**
-
-- 3/day: finger of death (DC 26), power word kill
-- 1/day: plane shift (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 30, Con -, Int 15, Wis 23, Cha 26
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 62
-
-**Feats:** Cleave, Cleaving Finish, Combat Casting, Combat Reflexes, Critical Focus, Dazing Assault,
-Furious Focus, Great Cleave, Improved Cleaving Finish, Improved Initiative, Power Attack, Staggering
-Critical, Step Up, Stunning Critical, Tiring Critical, Weapon Focus (scythe)
-
-**Skills:** Acrobatics +42, Disguise +43, Fly +18, Stealth +45
-
-**Languages:** Celestial, Common, Infernal
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard (+5 keen MA scythe); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard (+5 keen MA scythe); other treasure
+:::
 
 ### Special Abilities
 

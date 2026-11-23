@@ -31,75 +31,60 @@ abilities = ["4", "15", "11", "2", "12", "9"]
 
 _This round, dust-colored creature's snout pokes out of its bony armor shell._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +8 (+0 on sight-based Perception checks)
+Senses: Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 Dex, +2 natural, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +1
+Defensive abilities: protective ball
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8 (+0 on sight-based Perception checks)
+::: statblock
+Speed: 30 ft., burrow 5 ft.
+Melee: claw -1 (1d2-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 15, Con 11, Int 2, Wis 12, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +8 (+0 on sight-based checks), Swim +1
+Racial Modifiers: +4 Swim, -8 on sight-based Perception checks
+Special qualities: natural diver
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +2 natural, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +1
-
-**Defensive abilities:** protective ball
-
-**Offense**
-
-**Speed:** 30 ft., burrow 5 ft.
-
-**Melee:** claw -1 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 15, Con 11, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +8 (+0 on sight-based checks), Swim +1
-
-**Racial Modifiers:** +4 Swim, -8 on sight-based Perception checks
-
-**Special qualities:** natural diver
-
-**Ecology**
-
-**Environment:** temperate or warm plains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

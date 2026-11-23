@@ -31,128 +31,83 @@ abilities = ["27", "41", "40", "28", "31", "40"]
 
 _This graceful humanoid woman wears a flowing gown of sparkling starlight and a circlet of moss._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: primal aura (30 ft.)
+blindsense: 60
+Alignment: Chaotic good
+Initiative: +34
+Size: medium
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect evil, Detect law, Low-light vision, See in darkness, True seeing
+Subtype: Azata, Chaotic, Extraplanar, Good
+Experience points: 4,915,200
+:::
 
-**aura:** primal aura (30 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 49
+Touch: 41
+Flat-footed: 33
+AC modifiers: +15 Dex, +1 dodge, +8 natural, +15 sacred
+Hit points: 676 (33d10+495)
+Fort: +26
+Ref: +33
+Will: +30
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_, _[mind blank](ref/spell/mind-blank)_, never surprised
+Dr: 20/epic and evil
+Immune: ability damage, ability drain, acid, charm effects, compulsion effects, death effects, electricity, energy drain, petrification
+Regen: 30 (deific or mythic)
+Resist: cold 30, fire 30
+Sr: 39
+:::
 
-**Alignment:** Chaotic good
+### Offense
 
-**Initiative:** +34
+::: statblock
+Speed: 50 ft., fly 150 ft. (perfect)
+Melee: moonlight javelin +46/+41/+36/+31 (4d6+28/19-20 plus dazzled)
+Ranged: moonlight javelin +53/+48/+43/+38 (4d6+28/19-20 plus dazzled)
+Spec Att: bardic performance (unlimited rounds per day), hypnotize undead
+:::
 
-**Size:** medium
-
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect evil, Detect law, Low-light vision, See in darkness, True
-seeing
-
-**Subtype:** Azata, Chaotic, Extraplanar, Good
-
-**Experience points:** 4,915,200
-
-**Armor class:** 49
-
-**Touch:** 41
-
-**Flat-footed:** 33
-
-**AC modifiers:** +15 Dex, +1 dodge, +8 natural, +15 sacred
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +26
-
-**Ref:** +33
-
-**Will:** +30
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_,
-_[mind blank](ref/spell/mind-blank)_, never surprised
-
-**Dr:** 20/epic and evil
-
-**Immune:** ability damage, ability drain, acid, charm effects, compulsion effects, death effects,
-electricity, energy drain, petrification
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 50 ft., fly 150 ft. (perfect)
-
-**Melee:** moonlight javelin +46/+41/+36/+31 (4d6+28/19-20 plus dazzled)
-
-**Ranged:** moonlight javelin +53/+48/+43/+38 (4d6+28/19-20 plus dazzled)
-
-**Spec Att:** bardic performance (unlimited rounds per day), hypnotize undead
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +43
-
-**Constant:**
-
-- detect evil, detect law, freedom of movement, mind blank, true seeing
-
-**At will:**
-
-- break enchantment, calm spirit (DC 27), faerie fire^M^, find the path, flare burst (DC 26),
-  greater dispel magic, greater teleport, haste^M^, hide from undead, holy word^M^ (DC 32),
-  moonstruck (DC 29)
-
-**Per day:**
-
-- 3/day: chaos hammer^M^ (DC 29), halt undead (DC 28), irresistible dance (DC 33), lunar veil (DC
-  32), mass cat's grace, quickened moonstruck (DC 29)
-- 1/day: freedom, time stop, undeath to death (DC 31)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +43
+Constant: detect evil, detect law, freedom of movement, mind blank, true seeing
+At will: break enchantment, calm spirit (DC 27), faerie fire^M^, find the path, flare burst (DC 26), greater dispel magic, greater teleport, haste^M^, hide from undead, holy word^M^ (DC 32), moonstruck (DC 29)
+Per day: 3/day: chaos hammer^M^ (DC 29), halt undead (DC 28), irresistible dance (DC 33), lunar veil (DC 32), mass cat's grace, quickened moonstruck (DC 29)\
+1/day: freedom, time stop, undeath to death (DC 31)
+:::
 
 ###### M {#footnote-m}
 
 Ashava can use this ability's mythic version in her realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 27, Dex 41, Con 40, Int 28, Wis 31, Cha 40
+::: statblock
+Ability scores: Str 27, Dex 41, Con 40, Int 28, Wis 31, Cha 40
+Base attack bonus: +33
+Combat maneuver bonus: +48
+Combat maneuver defense: 82
+Feats: Acrobatic, Agile Maneuvers, Combat Expertise, Dodge, Flyby Attack, Greater Feint, Improved Critical (javelin), Improved Feint, Improved Initiative, Iron Will, Lightning Stance, Mobility, Point-Blank Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (moonstruck), Sidestep, Skill Focus (Perform \[dance\]), Wind Stance
+Skills: Acrobatics +55, Bluff +51, Diplomacy +48, Perform (dance) +54, Sense Motive +46, Stealth +51
+Languages: Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 300 ft., _truespeech_
+Special qualities: luminescent form, lyrical grace, seed of life, [empyreal lord traits](ref/umr/empyreal-lord-traits)
+Faith: Ashava
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +48
-
-**Combat maneuver defense:** 82
-
-**Feats:** Acrobatic, Agile Maneuvers, Combat Expertise, Dodge, Flyby Attack, Greater Feint,
-Improved Critical (javelin), Improved Feint, Improved Initiative, Iron Will, Lightning Stance,
-Mobility, Point-Blank Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (moonstruck),
-Sidestep, Skill Focus (Perform \[dance\]), Wind Stance
-
-**Skills:** Acrobatics +55, Bluff +51, Diplomacy +48, Perform (dance) +54, Sense Motive +46, Stealth
-+51
-
-**Languages:** Celestial, Common, Draconic, Infernal; [telepathy](ref/umr/telepathy) 300 ft.,
-_truespeech_
-
-**Special qualities:** luminescent form, lyrical grace, seed of life,
-[empyreal lord traits](ref/umr/empyreal-lord-traits)
-
-**Faith:** Ashava
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

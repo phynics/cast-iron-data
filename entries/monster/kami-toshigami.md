@@ -30,105 +30,73 @@ abilities = ["15", "22", "20", "15", "14", "25"]
 _This strangely beautiful old woman is composed completely of blossoms, bark, and antler-like
 branches._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +10
+Size: medium
+Alignment: Neutral good
+Type: outsider
+Perception: +25
+Senses: Darkvision 60 ft., Deathwatch, True seeing
+Subtype: Kami, Native
+Experience points: 51,200
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 30
+Touch: 20
+Flat-footed: 22
+AC modifiers: +6 Dex, +2 dodge, +2 insight, +10 natural
+Hit points: 210 (20d10+100)
+Fort: +11
+Ref: +23
+Will: +16
+Dr: 10/cold iron and evil
+Fh: 10
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+Sr: 26
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft., fly 90 ft. (good, 60 ft. without _[haste](ref/spell/haste)_), (30 ft. without _[haste](ref/spell/haste)_)
+Melee: +2 quarterstaff +24/+24/+19/+14/+9 (1d6+4 plus touch of ages), +2 quarterstaff +24/+19/+14 (1d6+3 plus touch of ages) or touch +23 (touch of ages)
+:::
 
-**Perception:** +25
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: deathwatch, fly, foresight, haste, speak with plants, true seeing
+At will: cure moderate wounds, tree shape, cherry tree only, tree stride, self plus 50 lbs. of objects only
+Per day: 3/day: greater restoration, slow (DC 20)\
+1/day: finger of death (DC 24), time stop, waves of exhaustion
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, True seeing
+### Statistics
 
-**Subtype:** Kami, Native
+::: statblock
+Ability scores: Str 15, Dex 22, Con 20, Int 15, Wis 14, Cha 25
+Base attack bonus: +20
+Combat maneuver bonus: +26
+Combat maneuver defense: 42
+Feats: Agile Maneuvers, Combat Reflexes, Dodge, Greater Two-Weapon Fighting, Improved Initiative, Improved Two-Weapon Fighting, Iron Will, Lightning Reflexes, Two-Weapon Fighting, Weapon Focus (quarterstaff)
+Skills: Bluff +30, Diplomacy +30, Fly +20, Knowledge (nature) +25, Perception +25
+Languages: Common; _[speak with plants](ref/spell/speak-with-plants),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (cherry tree)
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 20
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 Dex, +2 dodge, +2 insight, +10 natural
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +11
-
-**Ref:** +23
-
-**Will:** +16
-
-**Dr:** 10/cold iron and evil
-
-**Fh:** 10
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 60 ft., fly 90 ft. (good, 60 ft. without _[haste](ref/spell/haste)_), (30 ft. without
-_[haste](ref/spell/haste)_)
-
-**Melee:** +2 quarterstaff +24/+24/+19/+14/+9 (1d6+4 plus touch of ages), +2 quarterstaff
-+24/+19/+14 (1d6+3 plus touch of ages) or touch +23 (touch of ages)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- deathwatch, fly, foresight, haste, speak with plants, true seeing
-
-**At will:**
-
-- cure moderate wounds, tree shape, cherry tree only, tree stride, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: greater restoration, slow (DC 20)
-- 1/day: finger of death (DC 24), time stop, waves of exhaustion
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 22, Con 20, Int 15, Wis 14, Cha 25
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 42
-
-**Feats:** Agile Maneuvers, Combat Reflexes, Dodge, Greater Two-Weapon Fighting, Improved
-Initiative, Improved Two-Weapon Fighting, Iron Will, Lightning Reflexes, Two-Weapon Fighting, Weapon
-Focus (quarterstaff)
-
-**Skills:** Bluff +30, Diplomacy +30, Fly +20, Knowledge (nature) +25, Perception +25
-
-**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (cherry tree)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard (+2 quarterstaff); other treasure
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard (+2 quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

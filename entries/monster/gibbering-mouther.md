@@ -30,77 +30,61 @@ abilities = ["10", "17", "24", "4", "13", "12"]
 _This horrid mass of eyes, mouths, and formless flesh stares in all directions, its countless maws
 yammering ceaselessly._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: aberration
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 1,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 46 (4d8+28)
+Fort: +8
+Ref: +4
+Will: +5
+Amorph: present
+Dr: 5/bludgeoning
+Immune: critical hits, precision damage
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Engulf: 6d4 damage plus 2 Con damage, AC 13, hp 4
+Melee: 6 bites +7 (1d4 plus [grab](ref/umr/grab))
+Spec Att: blood drain, gibbering, ground manipulation, spittle (+6 ranged touch)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 17, Con 24, Int 4, Wis 13, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+7 grapple)
+Combat maneuver defense: 16 (can't be tripped)
+Feats: Weapon Finesse, Weapon Focus (bite)
+Skills: Perception +12, Swim +8
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 46 (4d8+28)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +5
-
-**Amorph:** present
-
-**Dr:** 5/bludgeoning
-
-**Immune:** critical hits, precision damage
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Engulf:** 6d4 damage plus 2 Con damage, AC 13, hp 4
-
-**Melee:** 6 bites +7 (1d4 plus [grab](ref/umr/grab))
-
-**Spec Att:** blood drain, gibbering, ground manipulation, spittle (+6 ranged touch)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 24, Int 4, Wis 13, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+7 grapple)
-
-**Combat maneuver defense:** 16 (can't be tripped)
-
-**Feats:** Weapon Finesse, Weapon Focus (bite)
-
-**Skills:** Perception +12, Swim +8
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

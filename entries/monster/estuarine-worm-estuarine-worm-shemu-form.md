@@ -28,84 +28,64 @@ special_qualities = "amphibious, seasonal transformation"
 abilities = ["24", "8", "23", "1", "13", "8"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 8
+Flat-footed: 27
+AC modifiers: -1 Dex, +19 natural, -1 size
+Hit points: 126 (11d10+66)
+Fort: +13
+Ref: +6
+Will: +6
+Dr: 15/bludgeoning
+Resist: acid 10, fire 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft., swim 10 ft.
+Constrict: 2d6+7
+Melee: bite +17 (2d6+7/19-20 plus [grab](ref/umr/grab)), tail slap +12 (2d6+3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 8, Con 23, Int 1, Wis 13, Cha 8
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth)
+Skills: Perception +11, Stealth +8 (+16 in water), Swim +15
+Racial Modifiers: +8 Stealth in water
+Special qualities: [amphibious](ref/umr/amphibious), seasonal transformation
+:::
 
-**Subtype:** Aquatic
+### Ecology {#stat-ecology}
 
-**tremorsense:** 30
-
-**Experience points:** 9,600
-
-**Armor class:** 27
-
-**Touch:** 8
-
-**Flat-footed:** 27
-
-**AC modifiers:** -1 Dex, +19 natural, -1 size
-
-**Hit points:** 126 (11d10+66)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 15/bludgeoning
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., swim 10 ft.
-
-**Constrict:** 2d6+7
-
-**Melee:** bite +17 (2d6+7/19-20 plus [grab](ref/umr/grab)), tail slap +12 (2d6+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 8, Con 23, Int 1, Wis 13, Cha 8
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus
-(Perception), Skill Focus (Stealth)
-
-**Skills:** Perception +11, Stealth +8 (+16 in water), Swim +15
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Special qualities:** [amphibious](ref/umr/amphibious), seasonal transformation
-
-**Ecology**
-
-**Environment:** warm marshes and rivers
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm marshes and rivers
+Organization: solitary, pair, or nest (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

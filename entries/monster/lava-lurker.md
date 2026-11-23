@@ -32,86 +32,65 @@ abilities = ["26", "13", "18", "5", "10", "11"]
 _Spatters of magma sear everything that comes near this vaguely humanoid mass of endlessly melting
 and reforming rock._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Fire
+tremorsense: 60
+Experience points: 6,400
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 21
+AC modifiers: +1 Dex, +11 natural
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +9
+Will: +4
+Immune: electricity, elemental traits, fire
+Vulner: water
+Weaknesses: vulnerable to cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 30 ft., swim (in molten rock only)
+Burn: 1d6 fire, DC 20
+Melee: 2 slams +20 (1d6+8 plus burn)
+Ranged: magma ball +14 (1d6+8 plus burn)
+Spec Att: death throes
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 13, Con 18, Int 5, Wis 10, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Deadly Aim, Improved Initiative, Power Attack, Stand Still, Weapon Focus (magma ball)
+Skills: Perception +15, Stealth +16 (+20 in magma), Swim +31
+Racial Modifiers: +4 Stealth in magma
+Languages: Ignan
+:::
 
-**Subtype:** Elemental, Extraplanar, Fire
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +11 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +4
-
-**Immune:** electricity, elemental traits, fire
-
-**Vulner:** water
-
-**Weaknesses:** vulnerable to cold
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft., swim (in molten rock only)
-
-**Burn:** 1d6 fire, DC 20
-
-**Melee:** 2 slams +20 (1d6+8 plus burn)
-
-**Ranged:** magma ball +14 (1d6+8 plus burn)
-
-**Spec Att:** death throes
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 13, Con 18, Int 5, Wis 10, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Deadly Aim, Improved Initiative, Power Attack, Stand Still, Weapon Focus
-(magma ball)
-
-**Skills:** Perception +15, Stealth +16 (+20 in magma), Swim +31
-
-**Racial Modifiers:** +4 Stealth in magma
-
-**Languages:** Ignan
-
-**Ecology**
-
-**Environment:** any volcano or underground
-
-**Organization:** solitary, pair, or flow (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any volcano or underground
+Organization: solitary, pair, or flow (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

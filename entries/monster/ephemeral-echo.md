@@ -32,84 +32,64 @@ abilities = ["- (22 while corporeal)", "16", "-", "11", "13", "22"]
 _This ghostly image of a sad-eyed young woman hovers suspended in the air. Her face never loses its
 mournful expression._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 16
+AC modifiers: +6 deflection, +3 Dex, +1 dodge
+Hit points: 84 (8d8+48)
+Fort: +8
+Ref: +5
+Will: +7
+Chan Res: +4
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft., fly 30 ft. (perfect), (while corporeal)
+Melee: incorporeal touch +9 (1d6 cold plus 1d4 Charisma damage) or 2 slams +13 (1d6+6) (while corporeal)
+Spec Att: bewitching gaze
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str - (22 while corporeal), Dex 16, Con -, Int 11, Wis 13, Cha 22
+Base attack bonus: +6
+Combat maneuver bonus: +9 (+12 while corporeal)
+Combat maneuver defense: 26 (32 while corporeal)
+Feats: Dodge, Improved Initiative, Mobility, Weapon Focus (slam)
+Skills: Fly +20, Intimidate +14, Perception +12, Sense Motive +10, Stealth +21
+Racial Modifiers: +8 Stealth
+Languages: Common
+Special qualities: corporeal form, stolen power
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +3 Dex, +1 dodge
-
-**Hit points:** 84 (8d8+48)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +7
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (perfect), (while corporeal)
-
-**Melee:** incorporeal touch +9 (1d6 cold plus 1d4 Charisma damage) or 2 slams +13 (1d6+6) (while
-corporeal)
-
-**Spec Att:** bewitching gaze
-
-**Statistics**
-
-**Ability scores:** Str - (22 while corporeal), Dex 16, Con -, Int 11, Wis 13, Cha 22
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9 (+12 while corporeal)
-
-**Combat maneuver defense:** 26 (32 while corporeal)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Focus (slam)
-
-**Skills:** Fly +20, Intimidate +14, Perception +12, Sense Motive +10, Stealth +21
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Common
-
-**Special qualities:** corporeal form, stolen power
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** NPC gear
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: NPC gear
+:::
 
 ### Special Abilities
 

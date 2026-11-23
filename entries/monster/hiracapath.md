@@ -32,97 +32,72 @@ abilities = ["22", "12", "21", "3", "16", "17"]
 _Silvery armor in the shape of a powerful ram barely contains the brilliant radiance shining from
 within it, and curling, steel horns emerge from its helm._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +1
+Size: large
+Alignment: Lawful good
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Scent
+Subtype: Extraplanar, Good, Lawful
+Experience points: 3,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 94 (9d10+45)
+Fort: +11
+Ref: +6
+Will: +9
+Dr: 5/evil
+Resist: electricity 5, fire 5
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: gore +14 (1d8+6), 2 hooves +12 (1d6+3)
+Pow Ch: gore, 2d8+9
+Reach: 5
+Space: 10
+Spec Att: nonlethal mastery
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Constant: air walk
+Per day: 1/day: plane shift, self only
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Extraplanar, Good, Lawful
+::: statblock
+Ability scores: Str 22, Dex 12, Con 21, Int 3, Wis 16, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +16 (+20 bull rush)
+Combat maneuver defense: 27 (29 vs. bull rush, 31 vs. trip)
+Feats: Greater Bull Rush, Improved Bull Rush, Lightning Reflexes, Multiattack, Power Attack
+Skills: Intimidate +12, Perception +12
+Languages: Celestial (can't speak)
+Special qualities: glorious nimbus
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 94 (9d10+45)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +9
-
-**Dr:** 5/evil
-
-**Resist:** electricity 5, fire 5
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +14 (1d8+6), 2 hooves +12 (1d6+3)
-
-**Pow Ch:** gore, 2d8+9
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** nonlethal mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Constant:**
-
-- air walk
-
-**Per day:**
-
-- 1/day: plane shift, self only
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 12, Con 21, Int 3, Wis 16, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +16 (+20 bull rush)
-
-**Combat maneuver defense:** 27 (29 vs. bull rush, 31 vs. trip)
-
-**Feats:** Greater Bull Rush, Improved Bull Rush, Lightning Reflexes, Multiattack, Power Attack
-
-**Skills:** Intimidate +12, Perception +12
-
-**Languages:** Celestial (can't speak)
-
-**Special qualities:** glorious nimbus
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary or herd (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary or herd (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

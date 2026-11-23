@@ -28,73 +28,59 @@ abilities = ["5", "14", "13", "2", "13", "13"]
 
 _This curious, sand-colored, weasel-like creature has dark bands around its inquisitive eyes._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +4
+Will: +1
+Immune: scorpion venom
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., burrow 5 ft.
+Melee: bite +4 (1d3-3)
+Reach: 0
+Space: 2-1/2
+Spec Att: mob
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 14, Con 13, Int 2, Wis 13, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Weapon Finesse
+Skills: Stealth +14
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +1
-
-**Immune:** scorpion venom
-
-**Offense**
-
-**Speed:** 30 ft., burrow 5 ft.
-
-**Melee:** bite +4 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** mob
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 14, Con 13, Int 2, Wis 13, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Stealth +14
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, mob (3-16), or clan (17-30)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, mob (3-16), or clan (17-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,91 +30,70 @@ abilities = ["36", "11", "-", "-", "18", "1"]
 
 _This oppressive construct rumbles forth on deadly rollers, crushing everything in its path._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Size: gargantuan
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 26
+Touch: 6
+Flat-footed: 26
+AC modifiers: +20 natural, -4 size
+Hit points: 142 (15d10+60)
+Fort: +5
+Ref: +5
+Will: +9
+Dr: 10/adamantine
+Fh: 5
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 22
+Weaknesses: faith-bound
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: slam +24 (4d6+19 plus wounding)
+Reach: 5
+Space: 20
+Spec Att: soul-powered, vicious
+Trample: 8d6+38 plus wounding, DC 30
+:::
 
-**Perception:** +4
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +10
+Per day: 3/day: enervation
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 36, Dex 11, Con -, Int -, Wis 18, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +32
+Combat maneuver defense: 42 (can't be tripped)
+Special qualities: keyed domains (Death, War), shrine
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 6
-
-**Flat-footed:** 26
-
-**AC modifiers:** +20 natural, -4 size
-
-**Hit points:** 142 (15d10+60)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +9
-
-**Dr:** 10/adamantine
-
-**Fh:** 5
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 22
-
-**Weaknesses:** faith-bound
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +24 (4d6+19 plus wounding)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** soul-powered, vicious
-
-**Trample:** 8d6+38 plus wounding, DC 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +10
-
-**Per day:**
-
-- 3/day: enervation
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 11, Con -, Int -, Wis 18, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +32
-
-**Combat maneuver defense:** 42 (can't be tripped)
-
-**Special qualities:** keyed domains (Death, War), shrine
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

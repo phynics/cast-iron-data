@@ -33,89 +33,65 @@ abilities = ["33", "14", "23", "9", "12", "10"]
 _Towering above a typical human, this misshapen giant's pale flesh is covered in purulent sores and
 bulbous tumors._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +2
+Size: large
+Perception: +8
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 25
+Touch: 11
+Flat-footed: 23
+AC modifiers: +4 armor, +2 Dex, +10 natural, -1 size
+Hit points: 147 (14d8+84)
+Fort: +15
+Ref: +6
+Will: +5
+Immune: disease, poison
+Rock Ct: present
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20 (1d8+11 plus disease)
+Ranged: rock +12 (1d8+16 plus disease)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+Spec Att: disease
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 33, Dex 14, Con 23, Int 9, Wis 12, Cha 10
+Base attack bonus: +10
+Combat maneuver bonus: +22
+Combat maneuver defense: 34
+Feats: Catch Off-Guard, Cleave, Great Cleave, Point-Blank Shot, Power Attack, Precise Shot, Self-Sufficient
+Skills: Climb +14, Intimidate +6, Perception +8
+Languages: Common, Giant
+Special qualities: oversized weapon, vermin empathy +14
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 11
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +2 Dex, +10 natural, -1 size
-
-**Hit points:** 147 (14d8+84)
-
-**Fort:** +15
-
-**Ref:** +6
-
-**Will:** +5
-
-**Immune:** disease, poison
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** Huge club +20/+15 (2d6+11 plus disease), slam +15 (1d8+5 plus disease) or 2 slams +20
-(1d8+11 plus disease)
-
-**Ranged:** rock +12 (1d8+16 plus disease)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** disease
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 14, Con 23, Int 9, Wis 12, Cha 10
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 34
-
-**Feats:** Catch Off-Guard, Cleave, Great Cleave, Point-Blank Shot, Power Attack, Precise Shot,
-Self-Sufficient
-
-**Skills:** Climb +14, Intimidate +6, Perception +8
-
-**Languages:** Common, Giant
-
-**Special qualities:** oversized weapon, vermin empathy +14
-
-**Ecology**
-
-**Environment:** any wastelands
-
-**Organization:** solitary, gang (2-5), band (6-9), raid (9-12 plus 1d4 giant vermin), or tribe
-(13-30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th-8th level and 6-8 giant
-vermin)
-
-**Treasure:** Standard (Ah, H club); other treasure
+::: statblock
+Environment: any wastelands
+Organization: solitary, gang (2-5), band (6-9), raid (9-12 plus 1d4 giant vermin), or tribe (13-30 plus 35% noncombatants, plus 1 barbarian or fighter chief of 6th-8th level and 6-8 giant vermin)
+Treasure: Standard (Ah, H club); other treasure
+:::
 
 ### Special Abilities
 

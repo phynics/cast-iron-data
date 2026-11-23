@@ -34,106 +34,73 @@ abilities = ["41", "11", "28", "14", "23", "18"]
 
 _This giant's skin is black and pitted, like roughly cast iron, and etched with glowing red runes._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Size: gargantuan
+Type: humanoid
+Initiative: +0
+Alignment: Lawful evil
+Perception: +29
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 102,400
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +9 armor, +15 natural, -4 size
+Hit points: 270 (20d8+180)
+Fort: +15
+Ref: +6
+Will: +20
+Immune: cold, electricity, fire
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 35 ft., (50 ft. without armor)
+Melee: mwk longsword +27/+22/+17 (4d6+22/17-20) or 2 slams +26 (2d6+15)
+Ranged: mwk spear +12/+7/+2 (4d6+15/×3)
+Reach: 20
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 20
+Spec Att: command giants, runes, spark shower
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +24
+Constant: air walk
+At will: charm person (DC 15), suggestion (DC 17)
+Per day: 3/day: mass charm monster (DC 22), dominate person (DC 19)\
+1/day: demand (DC 22), true seeing
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 41, Dex 11, Con 28, Int 14, Wis 23, Cha 18
+Base attack bonus: +15
+Combat maneuver bonus: +34
+Combat maneuver defense: 44
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (longsword), Improved Vital Strike, Iron Will, Power Attack, Quick Draw, Staggering Critical, Vital Strike
+Skills: Acrobatics +15 (+23 jump), Craft (any one) +25, Knowledge (history) +12, Perception +29
+Languages: Common, Giant, Terran
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +9 armor, +15 natural, -4 size
-
-**Hit points:** 270 (20d8+180)
-
-**Fort:** +15
-
-**Ref:** +6
-
-**Will:** +20
-
-**Immune:** cold, electricity, fire
-
-**Offense**
-
-**Speed:** 35 ft., (50 ft. without armor)
-
-**Melee:** mwk longsword +27/+22/+17 (4d6+22/17-20) or 2 slams +26 (2d6+15)
-
-**Ranged:** mwk spear +12/+7/+2 (4d6+15/×3)
-
-**Reach:** 20
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 20
-
-**Spec Att:** command giants, runes, spark shower
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +24
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- charm person (DC 15), suggestion (DC 17)
-
-**Per day:**
-
-- 3/day: mass charm monster (DC 22), dominate person (DC 19)
-- 1/day: demand (DC 22), true seeing
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 11, Con 28, Int 14, Wis 23, Cha 18
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +34
-
-**Combat maneuver defense:** 44
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (longsword), Improved
-Vital Strike, Iron Will, Power Attack, Quick Draw, Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +15 (+23 jump), Craft (any one) +25, Knowledge (history) +12, Perception +29
-
-**Languages:** Common, Giant, Terran
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, patrol (3-6), squad (7-12), or company (13-30 plus 2-4 fighters or
-rogues of 2nd-4th level, 1 oracle or sorcerer of 5th-8th level, 1 ranger or monk commander of
-5th-6th level, 10-20 [yetis](ref/monster/yeti), 1-4 [cloud giants](ref/monster/giant-cloud-giant),
-8-12 [frost giants](ref/monster/giant-frost-frost-giant), 10-16
-[stone giants](ref/monster/giant-stone-giant), 4-8 [lamia matriarchs](ref/monster/lamia-matriarch),
-and 1-2 [adult blue dragons](ref/carried/bestiary/monsters/dragon/chromatic/blue/adult))
-
-**Treasure:** Standard (mwk full plate, mwk longsword, 3 mwk spears); other treasure
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, patrol (3-6), squad (7-12), or company (13-30 plus 2-4 fighters or rogues of 2nd-4th level, 1 oracle or sorcerer of 5th-8th level, 1 ranger or monk commander of 5th-6th level, 10-20 [yetis](ref/monster/yeti), 1-4 [cloud giants](ref/monster/giant-cloud-giant), 8-12 [frost giants](ref/monster/giant-frost-frost-giant), 10-16 [stone giants](ref/monster/giant-stone-giant), 4-8 [lamia matriarchs](ref/monster/lamia-matriarch), and 1-2 [adult blue dragons](ref/carried/bestiary/monsters/dragon/chromatic/blue/adult))
+Treasure: Standard (mwk full plate, mwk longsword, 3 mwk spears); other treasure
+:::
 
 ### Special Abilities
 

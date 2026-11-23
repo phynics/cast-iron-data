@@ -35,99 +35,70 @@ abilities = ["41", "16", "34", "3", "15", "14"]
 _This immense reptilian beast towers over its surroundings, all teeth and horns and claws and
 thrashing spiked tail._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 27)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +7
+Type: Magical beast
+Perception: +43
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Spawn of Rovagug
+Experience points: 1,638,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 27)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 40
+Touch: 5
+Flat-footed: 37
+AC modifiers: +3 Dex, +35 natural, -8 size
+Hit points: 525 (30d10+360)
+Fort: +31
+Ref: +22
+Will: +12
+Dr: 15/epic
+Immune: ability damage, ability drain, acid, bleed, disease, energy drain, fire, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 40
+Sr: 36
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 40 ft.
+Melee: bite +37 (4d8+15/15-20/×3 plus [grab](ref/umr/grab)), 2 claws +37 (1d12+15), 2 gores +37 (1d10+15), tail slap +32 (3d8+7)
+Ranged: 6 spines +25 (2d10+15/×3)
+Reach: 30
+Reach P: 60 ft. with tail slap
+Space: 30
+Spec Att: rush, spines
+Swallow: 6d6+22 plus 6d6 acid, AC 27, hp 52
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +43
+::: statblock
+Ability scores: Str 41, Dex 16, Con 34, Int 3, Wis 15, Cha 14
+Base attack bonus: +30
+Combat maneuver bonus: +53 (+57 grapple)
+Combat maneuver defense: 66
+Feats: Awesome Blow, Blind-Fight, Bleeding Critical, Cleave, Combat Reflexes, Critical Focus, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Power Attack, Run, Staggering Critical
+Skills: Acrobatics +3 (+43 when jumping), Perception +43
+Racial Modifiers: +8 Perception
+Languages: Aklo (can't speak)
+Special qualities: carapace, hibernation, powerful leaper, unstoppable force
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Subtype:** Spawn of Rovagug
-
-**Experience points:** 1,638,400
-
-**Armor class:** 40
-
-**Touch:** 5
-
-**Flat-footed:** 37
-
-**AC modifiers:** +3 Dex, +35 natural, -8 size
-
-**Hit points:** 525 (30d10+360)
-
-**Fort:** +31
-
-**Ref:** +22
-
-**Will:** +12
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, ability drain, acid, bleed, disease, energy drain, fire, mind-affecting
-effects, paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 40
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +37 (4d8+15/15-20/×3 plus [grab](ref/umr/grab)), 2 claws +37 (1d12+15), 2 gores +37
-(1d10+15), tail slap +32 (3d8+7)
-
-**Ranged:** 6 spines +25 (2d10+15/×3)
-
-**Reach:** 30
-
-**Reach P:** 60 ft. with tail slap
-
-**Space:** 30
-
-**Spec Att:** rush, spines
-
-**Swallow:** 6d6+22 plus 6d6 acid, AC 27, hp 52
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 16, Con 34, Int 3, Wis 15, Cha 14
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +53 (+57 grapple)
-
-**Combat maneuver defense:** 66
-
-**Feats:** Awesome Blow, Blind-Fight, Bleeding Critical, Cleave, Combat Reflexes, Critical Focus,
-Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Initiative,
-Lightning Reflexes, Power Attack, Run, Staggering Critical
-
-**Skills:** Acrobatics +3 (+43 when jumping), Perception +43
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** carapace, hibernation, powerful leaper, unstoppable force
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

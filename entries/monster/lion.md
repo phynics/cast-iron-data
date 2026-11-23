@@ -29,75 +29,60 @@ abilities = ["21", "17", "15", "2", "12", "6"]
 _This great cat's muscles flex visibly under its skin as it bares its fangs and shakes its thick
 mane of hair._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +7
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +7 (1d8+5 plus [grab](ref/umr/grab)), 2 claws +7 (1d4+5)
+Pounce: present
+Rake: 2 claws +7, 1d4+5
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 17, Con 15, Int 2, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Improved Initiative, Run, Skill Focus (Perception)
+Skills: Acrobatics +11, Perception +9, Stealth +8 (+12 in undergrowth)
+Racial Modifiers: +4 Acrobatics, +4 Stealth (+8 in undergrowth)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +7 (1d8+5 plus [grab](ref/umr/grab)), 2 claws +7 (1d4+5)
-
-**Pounce:** present
-
-**Rake:** 2 claws +7, 1d4+5
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 15, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Improved Initiative, Run, Skill Focus (Perception)
-
-**Skills:** Acrobatics +11, Perception +9, Stealth +8 (+12 in undergrowth)
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth (+8 in undergrowth)
-
-**Ecology**
-
-**Environment:** warm plains
-
-**Organization:** solitary, pair, or pride (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains
+Organization: solitary, pair, or pride (3-10)
+Treasure: None
+:::
 
 ### Description
 

@@ -34,73 +34,59 @@ abilities = ["12", "1", "18", "-", "1", "1"]
 _A single eye stares unblinking from an amorphous blob. A transparent pseudopod extends from the
 mass, ready to strike._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsight: 60
+Initiative: -5
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Size: small
+Experience points: 800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -5
+::: statblock
+Armor class: 6
+Touch: 6
+Flat-footed: 6
+AC modifiers: -5 Dex, +1 size
+Hit points: 34 (4d8+16)
+Fort: +5
+Ref: -4
+Will: -4
+Immune: acid, cold, [ooze traits](ref/umr/ooze-traits)
+Resist: fire 5
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: slam +6 (1d4+3 plus paralysis)
+Paralysis: 1d4 rounds, DC 16
+Spec Att: spell channel
+:::
 
-**Perception:** -5
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 1, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 9 (can't be tripped)
+Skills: Climb +10
+Special qualities: suction, transparent
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 6
-
-**Touch:** 6
-
-**Flat-footed:** 6
-
-**AC modifiers:** -5 Dex, +1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +5
-
-**Ref:** -4
-
-**Will:** -4
-
-**Immune:** acid, cold, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** slam +6 (1d4+3 plus paralysis)
-
-**Paralysis:** 1d4 rounds, DC 16
-
-**Spec Att:** spell channel
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 1, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Skills:** Climb +10
-
-**Special qualities:** suction, transparent
-
-**Ecology**
-
-**Environment:** temperate marshes or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate marshes or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

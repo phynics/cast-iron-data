@@ -31,91 +31,65 @@ abilities = ["29", "9", "20", "10", "14", "11"]
 _This giant looks like a thick, muscular human. It has frost-white skin and long, light blue hair
 that it wears braided._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: large
+Perception: +10
+Senses: Low-light vision
+Subtype: Cold, Giant
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 21
+Touch: 8
+Flat-footed: 21
+AC modifiers: +4 armor, -1 Dex, +9 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +14
+Ref: +3
+Will: +6
+Immune: cold
+Rock Ct: present
+Vulner: fire
+:::
 
-**Initiative:** -1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: greataxe +18/+13 (3d6+13) or 2 slams +18 (1d8+9)
+Ranged: rock +9 (1d8+13)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 9, Con 20, Int 10, Wis 14, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +20
+Combat maneuver defense: 29
+Feats: Cleave, Great Cleave, Improved Overrun, Improved Sunder, Martial Weapon Proficiency (greataxe), Power Attack, Skill Focus (Stealth)
+Skills: Climb +13, Craft (any one) +7, Intimidate +7, Perception +10, Stealth +2 (+6 in snow)
+Racial Modifiers: +4 Stealth in snow
+Languages: Common, Giant
+:::
 
-**Subtype:** Cold, Giant
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 21
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, -1 Dex, +9 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +14
-
-**Ref:** +3
-
-**Will:** +6
-
-**Immune:** cold
-
-**Rock Ct:** present
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** greataxe +18/+13 (3d6+13) or 2 slams +18 (1d8+9)
-
-**Ranged:** rock +9 (1d8+13)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 9, Con 20, Int 10, Wis 14, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 29
-
-**Feats:** Cleave, Great Cleave, Improved Overrun, Improved Sunder, Martial Weapon Proficiency
-(greataxe), Power Attack, Skill Focus (Stealth)
-
-**Skills:** Climb +13, Craft (any one) +7, Intimidate +7, Perception +10, Stealth +2 (+6 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, gang (3-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of
-1st-2nd level), raiding party (6-12 plus 35% noncombatants, 1 adept or sorcerer of 3rd-5th level,
-1-4 [winter wolves](ref/monster/worg-winter-wolf), and 2-3 [ogres](ref/monster/ogre)), or tribe
-(21-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 barbarian or ranger jarl of 7th-9th
-level; and 15-36 winter wolves, 13-22 ogres, and 1-2
-[young white dragons](ref/carried/bestiary/monsters/dragon/chromatic/white/young))
-
-**Treasure:** Standard (chain shirt, greataxe); other treasure
+::: statblock
+Environment: cold mountains
+Organization: solitary, gang (3-5), band (6-12 plus 35% noncombatants and 1 adept or cleric of 1st-2nd level), raiding party (6-12 plus 35% noncombatants, 1 adept or sorcerer of 3rd-5th level, 1-4 [winter wolves](ref/monster/worg-winter-wolf), and 2-3 [ogres](ref/monster/ogre)), or tribe (21-30 plus 1 adept, cleric, or sorcerer of 6th-7th level; 1 barbarian or ranger jarl of 7th-9th level; and 15-36 winter wolves, 13-22 ogres, and 1-2 [young white dragons](ref/carried/bestiary/monsters/dragon/chromatic/white/young))
+Treasure: Standard (chain shirt, greataxe); other treasure
+:::
 
 ### Description
 

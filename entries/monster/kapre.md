@@ -34,98 +34,72 @@ abilities = ["26", "15", "17", "12", "15", "18"]
 _Roots and branches twist across this oddly proportioned creature to form knots of muscle. Its eyes
 burn like embers._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+aura: confounding (100 ft., DC 21)
+Alignment: Chaotic neutral
+Size: huge
+Initiative: +2
+Perception: +22
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 9,600
+:::
 
-**aura:** confounding (100 ft., DC 21)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 22
+AC modifiers: +2 Dex, +14 natural, -2 size
+Hit points: 127 (15d8+60)
+Fort: +12
+Ref: +9
+Will: +9
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +2
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: 2 slams +17 (2d6+12)
+Reach: 15
+Space: 15
+Spec Att: blow smoke
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: speak with plants
+At will: invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 26, Dex 15, Con 17, Int 12, Wis 15, Cha 18
+Base attack bonus: +11
+Combat maneuver bonus: +21
+Combat maneuver defense: 33
+Feats: Alertness, Combat Reflexes, Diehard, Endurance, Iron Will, Lightning Reflexes, Power Attack, Toughness
+Skills: Climb +20, Disable Device +11, Perception +22
+Racial Modifiers: +8 Perception, +8 Stealth
+Languages: Common; _[speak with plants](ref/spell/speak-with-plants)_
+Special qualities: tree meld
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +14 natural, -2 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +12
-
-**Ref:** +9
-
-**Will:** +9
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** 2 slams +17 (2d6+12)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** blow smoke
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- speak with plants
-
-**At will:**
-
-- invisibility
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 17, Int 12, Wis 15, Cha 18
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 33
-
-**Feats:** Alertness, Combat Reflexes, Diehard, Endurance, Iron Will, Lightning Reflexes, Power
-Attack, Toughness
-
-**Skills:** Climb +20, Disable Device +11, Perception +22
-
-**Racial Modifiers:** +8 Perception, +8 Stealth
-
-**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants)_
-
-**Special qualities:** tree meld
-
-**Ecology**
-
-**Environment:** warm or temperate forests
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate forests
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -32,75 +32,60 @@ abilities = ["22", "15", "16", "7", "13", "10"]
 _Seeming to phase in and out of existence, this ophidian creature has a great striped hood like a
 cobra._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 59 (7d10+21)
+Fort: +5
+Ref: +7
+Will: +6
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Constrict: 1d6+9
+Melee: bite +13 (1d6+9 plus [grab](ref/umr/grab) and poison)
+Spec Att: poison, [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 15, Con 16, Int 7, Wis 13, Cha 10
+Base attack bonus: +7
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Blind-Fight, Improved Initiative, Skill Focus (Stealth), Shadow Strike
+Skills: Bluff +10, Fly +10, Perception +11, Sense Motive +10, Stealth +15
+Languages: Aklo
+Special qualities: ghost touch fangs, phasing
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Constrict:** 1d6+9
-
-**Melee:** bite +13 (1d6+9 plus [grab](ref/umr/grab) and poison)
-
-**Spec Att:** poison, [sneak attack](ref/ability/sneak-attack) +2d6
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 16, Int 7, Wis 13, Cha 10
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Blind-Fight, Improved Initiative, Skill Focus (Stealth), Shadow Strike
-
-**Skills:** Bluff +10, Fly +10, Perception +11, Sense Motive +10, Stealth +15
-
-**Languages:** Aklo
-
-**Special qualities:** ghost touch fangs, phasing
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or nest (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or nest (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

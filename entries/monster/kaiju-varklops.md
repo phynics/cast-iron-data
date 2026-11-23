@@ -31,105 +31,73 @@ abilities = ["48", "37", "42", "3", "30", "29"]
 _This immense, fiery-orange serpent has three horned heads, a pair of draconic wings, and a long
 tail tipped with four bony spikes._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +17
+Type: Magical beast
+Perception: +34
+Senses: Darkvision 600 ft., Low-light vision, Mistsight
+Subtype: Fire, Kaiju
+tremorsense: 300
+Experience points: 9,830,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 48
+Touch: 16
+Flat-footed: 34
+AC modifiers: +13 Dex, +1 dodge, +32 natural, -8 size
+Hit points: 752 (35d10+560)
+Fort: +35
+Ref: +32
+Will: +23
+Defensive abilities: deflect cold, recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, death effects, disease, energy drain, fear, fire
+Resist: acid 30, cold 30, electricity 30, negative energy 30, sonic 30
+Vulner: cold
+Weaknesses: distracted when outnumbered
+:::
 
-**Initiative:** +17
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 80 ft., burrow 60 ft., fly 150 ft. (poor)
+Burn: 2d6 fire, DC 43
+Melee: 3 bites +46 (6d6+26/19-20 plus burn), 2 wings +44 (3d8+16/19-20 plus burn), tail slap +46 (4d8+35/19-20/×3 plus burn)
+Reach: 60
+Rend: 2 bites, 6d6+28; or 3 bites, 12d6+28
+Space: 60
+Spec Att: breath weapon, eruption, fire monsoon, improved hurl foe, kaijuslayer
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Darkvision 600 ft., Low-light vision, Mistsight
+::: statblock
+Ability scores: Str 48, Dex 37, Con 42, Int 3, Wis 30, Cha 29
+Base attack bonus: +35
+Combat maneuver bonus: +62 (+66 bull rush)
+Combat maneuver defense: 86 (88 vs. bull rush, can't be tripped)
+Feats: Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (bite, tail slap, wing), Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lunge, Multiattack, Power Attack, Staggering Critical, Vital Strike
+Skills: Fly +34, Perception +34
+Racial Modifiers: +16 Perception
+Languages: Ignan (can't speak)
+Special qualities: devastating, massive, powerful blows (tail slap)
+:::
 
-**Subtype:** Fire, Kaiju
+### Ecology
 
-**tremorsense:** 300
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 16
-
-**Flat-footed:** 34
-
-**AC modifiers:** +13 Dex, +1 dodge, +32 natural, -8 size
-
-**Hit points:** 752 (35d10+560)
-
-**Fort:** +35
-
-**Ref:** +32
-
-**Will:** +23
-
-**Defensive abilities:** deflect cold, recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, death effects, disease, energy drain, fear, fire
-
-**Resist:** acid 30, cold 30, electricity 30, negative energy 30, sonic 30
-
-**Vulner:** cold
-
-**Weaknesses:** distracted when outnumbered
-
-**Offense**
-
-**Speed:** 80 ft., burrow 60 ft., fly 150 ft. (poor)
-
-**Burn:** 2d6 fire, DC 43
-
-**Melee:** 3 bites +46 (6d6+26/19-20 plus burn), 2 wings +44 (3d8+16/19-20 plus burn), tail slap +46
-(4d8+35/19-20/×3 plus burn)
-
-**Reach:** 60
-
-**Rend:** 2 bites, 6d6+28; or 3 bites, 12d6+28
-
-**Space:** 60
-
-**Spec Att:** breath weapon, eruption, fire monsoon, improved hurl foe, kaijuslayer
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 37, Con 42, Int 3, Wis 30, Cha 29
-
-**Base attack bonus:** +35
-
-**Combat maneuver bonus:** +62 (+66 bull rush)
-
-**Combat maneuver defense:** 86 (88 vs. bull rush, can't be tripped)
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Greater Bull Rush, Greater Vital Strike, Improved
-Bull Rush, Improved Critical (bite, tail slap, wing), Improved Initiative, Improved Iron Will,
-Improved Vital Strike, Iron Will, Lunge, Multiattack, Power Attack, Staggering Critical, Vital
-Strike
-
-**Skills:** Fly +34, Perception +34
-
-**Racial Modifiers:** +16 Perception
-
-**Languages:** Ignan (can't speak)
-
-**Special qualities:** devastating, massive, powerful blows (tail slap)
-
-**Ecology**
-
-**Environment:** warm mountains
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm mountains
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

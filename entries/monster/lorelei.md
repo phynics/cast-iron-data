@@ -35,98 +35,72 @@ abilities = ["28", "13", "29", "11", "16", "20"]
 _This strange creature appears to be a gigantic human head carved from stone, with thick tentacles
 sprouting from its scalp._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+Initiative: +5
+Size: large
+Alignment: Neutral evil
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 162 (12d8+108)
+Fort: +13
+Ref: +5
+Will: +13
+Immune: sonic
+Resist: cold 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: 4 tentacles +18 (1d8+9 plus poison)
+Reach: 15
+Space: 10
+Spec Att: murmur, poison, vortex
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: ghost sound (DC 15), speak with dead (DC 18), ventriloquism (DC 16), whispering wind
+Per day: 3/day: command undead (DC 17), control water, fog cloud
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 28, Dex 13, Con 29, Int 11, Wis 16, Cha 20
+Base attack bonus: +9
+Combat maneuver bonus: +19
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (tentacle)
+Skills: Bluff +15, Climb +21
+Racial Modifiers: +8 Stealth in rocky areas
+Languages: Aquan, Common
+Special qualities: [freeze](ref/umr/freeze), water dependency
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 162 (12d8+108)
-
-**Fort:** +13
-
-**Ref:** +5
-
-**Will:** +13
-
-**Immune:** sonic
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 4 tentacles +18 (1d8+9 plus poison)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** murmur, poison, vortex
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- ghost sound (DC 15), speak with dead (DC 18), ventriloquism (DC 16), whispering wind
-
-**Per day:**
-
-- 3/day: command undead (DC 17), control water, fog cloud
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 13, Con 29, Int 11, Wis 16, Cha 20
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Skill Focus
-(Stealth), Weapon Focus (tentacle)
-
-**Skills:** Bluff +15, Climb +21
-
-**Racial Modifiers:** +8 Stealth in rocky areas
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [freeze](ref/umr/freeze), water dependency
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any coastlines
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

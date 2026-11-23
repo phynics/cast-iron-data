@@ -30,77 +30,61 @@ abilities = ["13", "13", "15", "6", "10", "6"]
 _This creature resembles a thin, lanky wolf with reddish-brown fur, white claws, and burning, fiery
 red eyes._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar, Fire, Lawful
+Experience points: 800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +5
+Will: +1
+Immune: fire
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Br Weap: 10-ft. cone, once every 2d4 rounds, 2d6 fire damage, Reflex DC 14 for half
+Melee: bite +5 (1d8+1 plus 1d6 fire)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 13, Dex 13, Con 15, Int 6, Wis 10, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Improved Initiative, Run
+Skills: Acrobatics +8, Perception +7
+Racial Modifiers: +5 Stealth
+Languages: Infernal (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar, Fire, Lawful
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 10-ft. cone, once every 2d4 rounds, 2d6 fire damage, Reflex DC 14 for half
-
-**Melee:** bite +5 (1d8+1 plus 1d6 fire)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 15, Int 6, Wis 10, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Improved Initiative, Run
-
-**Skills:** Acrobatics +8, Perception +7
-
-**Racial Modifiers:** +5 Stealth
-
-**Languages:** Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or pack (3-12)
+Treasure: Incidental
+:::
 
 ### Description
 

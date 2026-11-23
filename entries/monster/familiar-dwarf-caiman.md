@@ -30,69 +30,57 @@ abilities = ["10", "11", "15", "1", "11", "2"]
 
 _This lithe, green-scaled reptile looks like a miniature crocodile with a stunted muzzle._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Size: small
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: +3 natural, +1 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +2
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 10 ft., swim 30 ft.
+Melee: bite +1 (1d4)
+Sp Extra: sprint
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 11, Con 15, Int 1, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 9 (13 vs. trip)
+Feats: Skill Focus (Stealth)
+Skills: Stealth +11 (+19 in water), Swim +8
+Racial Modifiers: +8 Stealth in water
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 natural, +1 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft.
-
-**Melee:** bite +1 (1d4)
-
-**Sp Extra:** sprint
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 11, Con 15, Int 1, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 9 (13 vs. trip)
-
-**Feats:** Skill Focus (Stealth)
-
-**Skills:** Stealth +11 (+19 in water), Swim +8
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Ecology**
-
-**Environment:** warm swamps and rivers
-
-**Organization:** solitary, pair, or bask (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm swamps and rivers
+Organization: solitary, pair, or bask (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

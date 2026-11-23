@@ -32,77 +32,61 @@ abilities = ["24", "17", "23", "8", "14", "18"]
 _A mad-eyed mess of deformed limbs, misplaced features, and bone shards pulls itself along amid a
 cacophony of slapping flesh._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: large
+Perception: +15
+Senses: Darkvision 60 ft.
+Experience points: 6,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 23
+Touch: 12
+Flat-footed: 20
+AC modifiers: +3 Dex, +11 natural, -1 size
+Hit points: 105 (10d8+60)
+Fort: +9
+Ref: +8
+Will: +9
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 10 ft.
+Melee: bite +8 14 (1d8+7), 4 tentacles +8 (1d6+3 plus mind lash)
+Reach: 10
+Reach P: 15 ft. with tentacles
+Rend: 2 tentacles 2d6+10; 3 tentacles 3d6+10; 4 tentacles 4d6+10
+Space: 10
+Spec Att: soul scream
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 17, Con 23, Int 8, Wis 14, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Combat Reflexes, Deflect Arrows, Improved Initiative
+Skills: Climb +20, Perception +15, Stealth +12
+Languages: Elven (can't speak)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 12
-
-**Flat-footed:** 20
-
-**AC modifiers:** +3 Dex, +11 natural, -1 size
-
-**Hit points:** 105 (10d8+60)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +8 14 (1d8+7), 4 tentacles +8 (1d6+3 plus mind lash)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with tentacles
-
-**Rend:** 2 tentacles 2d6+10; 3 tentacles 3d6+10; 4 tentacles 4d6+10
-
-**Space:** 10
-
-**Spec Att:** soul scream
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 23, Int 8, Wis 14, Cha 18
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Combat Reflexes, Deflect Arrows, Improved Initiative
-
-**Skills:** Climb +20, Perception +15, Stealth +12
-
-**Languages:** Elven (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

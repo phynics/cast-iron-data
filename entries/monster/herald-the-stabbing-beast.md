@@ -34,114 +34,76 @@ abilities = ["16", "35", "24", "13", "15", "14"]
 
 _This towering, scorpion-tailed man stalks with a soundless grace and murderous intent._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Initiative: +16
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft., Low-light vision, See in darkness, See invisibility
+Subtype: Evil, Extraplanar, Herald, Shapechanger
+Experience points: 51,200
+:::
 
-**Initiative:** +16
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 31
+Touch: 23
+Flat-footed: 18
+AC modifiers: +12 Dex, +1 dodge, +8 natural
+Hit points: 212 (17d10+119)
+Fort: +17
+Ref: +17
+Will: +14; +4 vs. mind-affecting
+Defensive abilities: all-around vision
+Dr: 10/good and magic
+Immune: poison
+Resist: acid 30, cold 10, electricity 10, fire 10
+Sr: 26
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft.
+Bleed: 2d6
+Melee: +1 [keen](ref/magic-enh/keen) short swords +28/+28/+23/+18/+13 (1d6+4/17-20 plus bleed), sting +24 (1d6+4 plus bleed and poison)
+Ranged: poison stream +29 touch (blindness 1d4+1 rounds)
+Spec Att: poison, sudden strike
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +19
+Constant: see invisibility
+At will: absorbing touch, alchemical allocation, charm person (DC 13), keen edge, poison (DC 16), true strike
+Per day: 3/day: false alibi (DC 15), greater teleport, self plus 50 lbs. of objects only, invisibility, modify memory (DC 16), suggestion (DC 15), summon (level 6, 1 fiendish deadfall scorpion 100%)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See in darkness, See invisibility
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Herald, Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 35, Con 24, Int 13, Wis 15, Cha 14
+Base attack bonus: +17
+Combat maneuver bonus: +20
+Combat maneuver defense: 43
+Feats: Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Greater Feint, Improved Feint, Improved Initiative, Improved Iron Will, Iron Will, Mobility, Scorpion Style, Spring Attack, Two-Weapon Fighting, Weapon Finesse
+Skills: Appraise +12, Bluff +22, Climb +11, Craft (alchemy) +13, Knowledge (arcana, nature) +10, Knowledge (planes) +12, Perception +26, Sense Motive +13, Stealth +32
+Racial Modifiers: +8 Bluff, +4 Perception
+Languages: Abyssal, Celestial, Common, Infernal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (Huge scorpion or scorpion-tailed human; [shapechange](ref/spell/shapechange)), murderer's reward
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 23
-
-**Flat-footed:** 18
-
-**AC modifiers:** +12 Dex, +1 dodge, +8 natural
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +17
-
-**Ref:** +17
-
-**Will:** +14; +4 vs. mind-affecting
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 10/good and magic
-
-**Immune:** poison
-
-**Resist:** acid 30, cold 10, electricity 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Bleed:** 2d6
-
-**Melee:** +1 [keen](ref/magic-enh/keen) short swords +28/+28/+23/+18/+13 (1d6+4/17-20 plus bleed),
-sting +24 (1d6+4 plus bleed and poison)
-
-**Ranged:** poison stream +29 touch (blindness 1d4+1 rounds)
-
-**Spec Att:** poison, sudden strike
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +19
-
-**Constant:**
-
-- see invisibility
-
-**At will:**
-
-- absorbing touch, alchemical allocation, charm person (DC 13), keen edge, poison (DC 16), true
-  strike
-
-**Per day:**
-
-- 3/day: false alibi (DC 15), greater teleport, self plus 50 lbs. of objects only, invisibility,
-  modify memory (DC 16), suggestion (DC 15), summon (level 6, 1 fiendish deadfall scorpion 100%)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 35, Con 24, Int 13, Wis 15, Cha 14
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 43
-
-**Feats:** Combat Expertise, Combat Reflexes, Deflect Arrows, Dodge, Greater Feint, Improved Feint,
-Improved Initiative, Improved Iron Will, Iron Will, Mobility, Scorpion Style, Spring Attack,
-Two-Weapon Fighting, Weapon Finesse
-
-**Skills:** Appraise +12, Bluff +22, Climb +11, Craft (alchemy) +13, Knowledge (arcana, nature) +10,
-Knowledge (planes) +12, Perception +26, Sense Motive +13, Stealth +32
-
-**Racial Modifiers:** +8 Bluff, +4 Perception
-
-**Languages:** Abyssal, Celestial, Common, Infernal, Protean; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Huge scorpion or scorpion-tailed human;
-[shapechange](ref/spell/shapechange)), murderer's reward
-
-**Ecology**
-
-**Environment:** any land ([Axis](ref/rule/utopia))
-
-**Organization:** solitary
-
-**Treasure:** Standard (2 +1 short swords)
+::: statblock
+Environment: any land ([Axis](ref/rule/utopia))
+Organization: solitary
+Treasure: Standard (2 +1 short swords)
+:::
 
 ### Special Abilities
 

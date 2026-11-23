@@ -32,73 +32,59 @@ abilities = ["5", "9", "14", "-", "11", "2"]
 _This many-legged crustacean is the size of a sewer rat, its body protected by several thick
 shell-like plates._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Initiative: -1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Size: tiny
+Type: vermin
+Experience points: 50
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 14
+AC modifiers: -1 Dex, +3 natural, +2 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: -1
+Will: +0
+Defensive abilities: curl
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft., swim 10 ft.
+Melee: bite -1 (1d3-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 9, Con 14, Int -, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 4 (can't be tripped)
+Skills: Swim +5
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 50
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** -1 Dex, +3 natural, +2 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** -1
-
-**Will:** +0
-
-**Defensive abilities:** curl
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 10 ft.
-
-**Melee:** bite -1 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 9, Con 14, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 4 (can't be tripped)
-
-**Skills:** Swim +5
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or scuttle (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or scuttle (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

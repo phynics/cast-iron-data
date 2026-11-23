@@ -31,77 +31,61 @@ abilities = ["2", "12", "13", "1", "12", "5"]
 
 _Two sharp ridges of bone run along the back of this foot-long, black-and-white speckled newt._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Subtype: Aquatic
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +3
+Will: +1; +2 vs. disease and poison
+Defensive abilities: paralyzing mucus
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 15 ft., swim 20 ft.
+Melee: slam -2 (1d2-4 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 2, Dex 12, Con 13, Int 1, Wis 12, Cha 5
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5 (9 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +4, Stealth +13, Swim +9
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 100
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +1; +2 vs. disease and poison
-
-**Defensive abilities:** paralyzing mucus
-
-**Offense**
-
-**Speed:** 15 ft., swim 20 ft.
-
-**Melee:** slam -2 (1d2-4 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 12, Con 13, Int 1, Wis 12, Cha 5
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5 (9 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +4, Stealth +13, Swim +9
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate marshes or plains
-
-**Organization:** solitary, pair, or ning (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate marshes or plains
+Organization: solitary, pair, or ning (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

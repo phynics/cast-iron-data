@@ -30,86 +30,68 @@ special_qualities = "armor training 1"
 abilities = ["20", "12", "15", "6", "10", "12"]
 +++
 
-**Challenge rating:** 6
-
 **Gnoll [fighter](ref/class/fighter) 5**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +7 armor, +1 Dex, +1 natural, +1 shield
+Hit points: 55 (2d8+5d10+19\~7)
+Fort: +10
+Ref: +3
+Will: +2 (+1 vs. fear)
+Defensive abilities: bravery +1
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Gnoll\
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +7 armor, +1 Dex, +1 natural, +1 shield
-
-**Hit points:** 55 (2d8+5d10+19\~7)
-
-**Fort:** +10
-
-**Ref:** +3
-
-**Will:** +2 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 scorpion whip +14/+9 (1d4 +9)
-
-**Ranged:** mwk javelin +8/+3 (1d6+5)
-
-**Spec Att:** weapon training (flails +1)
+::: statblock
+Speed: 20 ft.
+Melee: +1 scorpion whip +14/+9 (1d4 +9)
+Ranged: mwk javelin +8/+3 (1d6+5)
+Spec Att: weapon training (flails +1)
+:::
 
 ### Tactics
 
 **During Combat** The gnoll lieutenant demoralizes foes and lashes out with his scorpion whip from a
 distance.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 12, Con 15, Int 6, Wis 10, Cha 12
+::: statblock
+Ability scores: Str 20, Dex 12, Con 15, Int 6, Wis 10, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 22
+Feats: Dazzling Display, Exotic Weapon Proficiency (whip), Improved Whip Mastery, Intimidating Prowess, Power Attack, Weapon Focus (whip), Whip Mastery
+Skills: Intimidate +16
+Languages: Gnoll
+Special qualities: armor training 1
+Combat gear: 2 potion of cure light wounds, potion of cure moderate wounds, 3 alchemist's fire, 2 thunderstones
+Other gear: mwk Asplint mail, mwk light steel shield, +1 -scorpion whip, mwk javelin, Iclk1, 15 gp
+:::
 
-**Base attack bonus:** +6
+### Ecology
 
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dazzling Display, Exotic Weapon Proficiency (whip), Improved Whip Mastery, Intimidating
-Prowess, Power Attack, Weapon Focus (whip), Whip Mastery
-
-**Skills:** Intimidate +16
-
-**Languages:** Gnoll
-
-**Special qualities:** armor training 1
-
-**Combat gear:** 2 potion of cure light wounds, potion of cure moderate wounds, 3 alchemist's fire,
-2 thunderstones
-
-**Other gear:** mwk Asplint mail, mwk light steel shield, +1 -scorpion whip, mwk javelin, Iclk1, 15
-gp
-
-**Ecology**
-
-**Environment:** warm plains or desert
+::: statblock
+Environment: warm plains or desert
+:::
 
 ### Description
 

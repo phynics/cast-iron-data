@@ -30,77 +30,61 @@ abilities = ["12", "17", "16", "-", "10", "1"]
 
 _This long-tentacled jellyfish has a wide bell with a vaguely skull-shaped pattern on it._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Aquatic
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +3
+Will: +0
+Amorph: present
+Dr: 5/piercing or slashing
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: swim 20 ft.
+Melee: 2 tentacles +3 (1d3+1 plus poison)
+Reach: 10
+Space: 5
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 12, Dex 17, Con 16, Int -, Wis 10, Cha 1
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 14 (can't be tripped)
+Skills: Swim +9
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +0
-
-**Amorph:** present
-
-**Dr:** 5/piercing or slashing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 20 ft.
-
-**Melee:** 2 tentacles +3 (1d3+1 plus poison)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 16, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Skills:** Swim +9
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pack (2-5), or bloom (6-13)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pack (2-5), or bloom (6-13)
+Treasure: None
+:::
 
 ### Special Abilities
 

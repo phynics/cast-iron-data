@@ -29,84 +29,65 @@ abilities = ["19", "12", "12", "15", "13", "14"]
 
 _Knots of dark, moldering hair spill over the features of this sickly, thin, green-skinned crone._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 90 ft.
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 18
+AC modifiers: +1 Dex, +8 natural
+Hit points: 58 (9d10+9)
+Fort: +6
+Ref: +7
+Will: +7
+Sr: 16
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: 2 claws +13 (1d4+4 plus weakness)
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Constant: pass without trace, tongues, water breathing
+At will: alter self, dancing lights, ghost sound (DC 12), invisibility, pyrotechnics (DC 14), tree shape, whispering wind
+:::
 
-**Senses:** Darkvision 90 ft.
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 19, Dex 12, Con 12, Int 15, Wis 13, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude
+Skills: Bluff +13, Disguise +13, Sense Motive +9, Stealth +13, Swim +18
+Languages: Aklo, Common, Giant
+Special qualities: mimicry
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +8 natural
-
-**Hit points:** 58 (9d10+9)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +7
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** 2 claws +13 (1d4+4 plus weakness)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Constant:**
-
-- pass without trace, tongues, water breathing
-
-**At will:**
-
-- alter self, dancing lights, ghost sound (DC 12), invisibility, pyrotechnics (DC 14), tree shape,
-  whispering wind
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 12, Int 15, Wis 13, Cha 14
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude
-
-**Skills:** Bluff +13, Disguise +13, Sense Motive +9, Stealth +13, Swim +18
-
-**Languages:** Aklo, Common, Giant
-
-**Special qualities:** mimicry
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate marshes
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

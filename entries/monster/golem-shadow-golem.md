@@ -30,89 +30,69 @@ abilities = ["34", "19", "-", "-", "11", "1"]
 _This towering humanoid figure seems to be made of solidified shadows. Two pale orbs glare from its
 otherwise blank visage._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: shadow (60 ft.)
+Type: construct
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision, See in darkness
+Experience points: 38,400
+:::
 
-**aura:** shadow (60 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 29
+Touch: 19
+Flat-footed: 25
+AC modifiers: +6 deflection, +4 Dex, +10 Natural, -1 Size
+Hit points: 151 (22d10+30)
+Fort: +7
+Ref: +11
+Will: +7
+Defensive abilities: immunity to magic
+Dr: 15/adamantine and slashing
+Immune: cold, [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft.
+Melee: 2 claws +33 (3d10+12)
+Reach: 10
+Space: 10
+Spec Att: breath weapon
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +15
+Constant: air walk
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, See in darkness
+::: statblock
+Ability scores: Str 34, Dex 19, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +22
+Combat maneuver bonus: +35
+Combat maneuver defense: 55
+Skills: Stealth +0 (+16 in dim light)
+Racial Modifiers: +16 Stealth in dim light
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 19
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 deflection, +4 Dex, +10 Natural, -1 Size
-
-**Hit points:** 151 (22d10+30)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +7
-
-**Defensive abilities:** immunity to magic
-
-**Dr:** 15/adamantine and slashing
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 claws +33 (3d10+12)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** breath weapon
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +15
-
-**Constant:**
-
-- air walk
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 19, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 55
-
-**Skills:** Stealth +0 (+16 in dim light)
-
-**Racial Modifiers:** +16 Stealth in dim light
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

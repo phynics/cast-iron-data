@@ -33,81 +33,63 @@ abilities = ["16", "14", "15", "10", "8", "14"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 6
-
 **Hobgoblin [fighter](ref/class/fighter) 7**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 6
+Type: humanoid
+Initiative: +2
+Alignment: Lawful evil
+Size: medium
+Perception: -1
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 19
+Touch: 12
+Flat-footed: 17
+AC modifiers: +7 armor, +2 Dex
+Hit points: 71 (7d10+28)
+Fort: +8
+Ref: +5
+Will: +4 (+2 vs. fear)
+Defensive abilities: bravery +2
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 30 ft.
+Melee: +1 bastard sword +13/+8 (1d10+5/19-20) or spear +10/+5 (1d8+4/×3)
+Ranged: shortbow +9/+4 (1d6/×3)
+Spec Att: weapon training (heavy blades +1)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 16, Dex 14, Con 15, Int 10, Wis 8, Cha 14
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Exotic Weapon Proficiency (bastard sword), Iron Will, Mounted Archery, Mounted Combat, Ride-By Attack, Skill Focus (Ride), Toughness, Weapon Focus (bastard sword)
+Skills: Handle Animal +12, Ride +13, Stealth +4
+Languages: Common, Goblin
+Special qualities: armor training 2
+Combat gear: potion of cure serious wounds
+Other gear: +1 chainmail, +1 bastard sword, sb20, spear, Iclk1, heavy horse (combat trained), military saddle, scale mail Abb, 62 gp
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 armor, +2 Dex
-
-**Hit points:** 71 (7d10+28)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +4 (+2 vs. fear)
-
-**Defensive abilities:** bravery +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 bastard sword +13/+8 (1d10+5/19-20) or spear +10/+5 (1d8+4/×3)
-
-**Ranged:** shortbow +9/+4 (1d6/×3)
-
-**Spec Att:** weapon training (heavy blades +1)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 15, Int 10, Wis 8, Cha 14
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Exotic Weapon Proficiency (bastard sword), Iron Will, Mounted Archery, Mounted Combat,
-Ride-By Attack, Skill Focus (Ride), Toughness, Weapon Focus (bastard sword)
-
-**Skills:** Handle Animal +12, Ride +13, Stealth +4
-
-**Languages:** Common, Goblin
-
-**Special qualities:** armor training 2
-
-**Combat gear:** potion of cure serious wounds
-
-**Other gear:** +1 chainmail, +1 bastard sword, sb20, spear, Iclk1, heavy horse (combat trained),
-military saddle, scale mail Abb, 62 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Description
 

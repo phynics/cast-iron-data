@@ -30,96 +30,70 @@ abilities = ["7", "16", "13", "14", "15", "16"]
 _This small humanoid has pointed ears, green eyes, and a wicked grin. He carries a bottle in one
 hand and a club in the other._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Perception: +17
+Senses: Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +7
+Will: +6
+Dr: 5/cold iron
+Sr: 13
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: 40 ft.
+Melee: +1 club +7 (1d8-1)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+Constant: shillelagh
+At will: dancing lights, ghost sound (DC 13), invisibility, self only, mage hand, major image (visual and auditory elements only, DC 16), prestidigitation, ventriloquism (DC 14)
+Per day: 3/day: color spray (DC 14), fabricate, 1 cubic foot of material only\
+1/day: major creation
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 7, Dex 16, Con 13, Int 14, Wis 15, Cha 16
+Base attack bonus: +2
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +10, Escape Artist +10, Knowledge (nature) +9, Perception +17, Perform (comedy) +8, Sense Motive +9, Sleight of Hand +14, Stealth +14
+Racial Modifiers: +8 Perception, +4 Sleight of Hand
+Languages: Common, Elven, Halfling, Sylvan
+Special qualities: leprechaun magic
+:::
 
-**Armor class:** 14
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 club +7 (1d8-1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**Constant:**
-
-- shillelagh
-
-**At will:**
-
-- dancing lights, ghost sound (DC 13), invisibility, self only, mage hand, major image (visual and
-  auditory elements only, DC 16), prestidigitation, ventriloquism (DC 14)
-
-**Per day:**
-
-- 3/day: color spray (DC 14), fabricate, 1 cubic foot of material only
-- 1/day: major creation
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 16, Con 13, Int 14, Wis 15, Cha 16
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +10, Escape Artist +10, Knowledge (nature) +9, Perception +17, Perform (comedy)
-+8, Sense Motive +9, Sleight of Hand +14, Stealth +14
-
-**Racial Modifiers:** +8 Perception, +4 Sleight of Hand
-
-**Languages:** Common, Elven, Halfling, Sylvan
-
-**Special qualities:** leprechaun magic
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, band (3-6), or family (7-10)
-
-**Treasure:** Standard (club); other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, band (3-6), or family (7-10)
+Treasure: Standard (club); other treasure
+:::
 
 ### Special Abilities
 

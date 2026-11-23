@@ -30,77 +30,52 @@ special_qualities = "witch's familiar (frog)"
 abilities = ["6", "17", "14", "16", "12", "8"]
 +++
 
-**Challenge rating:** 5
-
 **Goblin [witch](ref/class/witch) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +3
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 armor, +1 deflection, +3 Dex, +1 size
+Hit points: 47 (6d6+24)
+Fort: +5
+Ref: +6
+Will: +7
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: dagger +2 (1d3-2/19-20)
+Ranged: javelin +7 (1d4-2)
+Spec Att: hexes ([evil eye](ref/hex/evil-eye) \[-2, 6 rounds\], [misfortune](ref/hex/misfortune) \[1 round\], [mud witch](ref/hex/mud-witch), [poison steep](ref/hex/poison-steep), [swamp hag](ref/hex/swamp-hag))
+:::
 
-**Size:** small
-
-**Subtype:** Goblinoid
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 armor, +1 deflection, +3 Dex, +1 size
-
-**Hit points:** 47 (6d6+24)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +2 (1d3-2/19-20)
-
-**Ranged:** javelin +7 (1d4-2)
-
-**Spec Att:** hexes ([evil eye](ref/hex/evil-eye) \[-2, 6 rounds\], [misfortune](ref/hex/misfortune)
-\[1 round\], [mud witch](ref/hex/mud-witch), [poison steep](ref/hex/poison-steep),
-[swamp hag](ref/hex/swamp-hag))
-
-**Prepared Spells**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**3rd-level spells:**
-
-- blink, lightning bolt (DC 16), spit venom (DC 16)
-
-**2nd-level spells:**
-
-- feast of ashes (DC 15), frost fall (DC 15), invisibility, vomit swarm
-
-**1st-level spells:**
-
-- command (DC 14), mage armor, obscuring mist, sleep (DC 14)
-
-**Cantrips:**
-
-- dancing lights, daze (DC 13), detect magic, touch of fatigue (DC 13)
-
-**Patron:** [deception](ref/patron/deception)
+::: statblock
+title = "Prepared Spells"
+Caster level: 6
+Concentration: +9
+3rd-level spells: blink, lightning bolt (DC 16), spit venom (DC 16)
+2nd-level spells: feast of ashes (DC 15), frost fall (DC 15), invisibility, vomit swarm
+1st-level spells: command (DC 14), mage armor, obscuring mist, sleep (DC 14)
+Cantrips: dancing lights, daze (DC 13), detect magic, touch of fatigue (DC 13)
+Patron: [deception](ref/patron/deception)
+:::
 
 ### Tactics
 
@@ -112,35 +87,27 @@ with hexes and ranged spells.
 **Base Statistics** Without mage armor, the frog-talker's statistics are AC 15, touch 15,
 flat-footed 12.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 6, Dex 17, Con 14, Int 16, Wis 12, Cha 8
+::: statblock
+Ability scores: Str 6, Dex 17, Con 14, Int 16, Wis 12, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Brew Potion, Extra Hex, Toughness
+Skills: Craft (alchemy) +9, Intimidate +8, Perception +7, Ride +7
+Racial Modifiers: +4 Ride, +4 Stealth
+Languages: Common, Giant, Goblin, Orc
+Special qualities: witch's familiar (frog)
+Combat gear: potion of air bubble, 2 potion of alter self, 3 potion of cure moderate wounds, potion of fly, 2 potion of ghostly disguise, potion of hex ward, 2 alchemist's fire, 2 at, 2 sss, 2 tanglefoot bags
+Other gear: dagger, javelin, Iclk1, ring of prot1, delicious poisoned food (1 lb.), 79 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Brew Potion, Extra Hex, Toughness
-
-**Skills:** Craft (alchemy) +9, Intimidate +8, Perception +7, Ride +7
-
-**Racial Modifiers:** +4 Ride, +4 Stealth
-
-**Languages:** Common, Giant, Goblin, Orc
-
-**Special qualities:** witch's familiar (frog)
-
-**Combat gear:** potion of air bubble, 2 potion of alter self, 3 potion of cure moderate wounds,
-potion of fly, 2 potion of ghostly disguise, potion of hex ward, 2 alchemist's fire, 2 at, 2 sss, 2
-tanglefoot bags
-
-**Other gear:** dagger, javelin, Iclk1, ring of prot1, delicious poisoned food (1 lb.), 79 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

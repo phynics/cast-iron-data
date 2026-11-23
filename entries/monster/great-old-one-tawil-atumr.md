@@ -31,128 +31,85 @@ abilities = ["44", "36", "43", "35", "32", "35"]
 _A gray robe and veil obscure this humanoid's form, save for a foaming mass of bubbles and tentacles
 extending from below._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: cloak of chaos (DC 30), unspeakable presence (300 ft., DC 39)
+Alignment: Chaotic neutral
+Initiative: +27
+Size: large
+Type: outsider
+Perception: +49
+Senses: Darkvision 60 ft., See in darkness, True seeing
+Subtype: Chaotic, Extraplanar, Great Old One
+Experience points: 9,830,400
+:::
 
-**aura:** cloak of chaos (DC 30), unspeakable presence (300 ft., DC 39)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 49
+Touch: 37
+Flat-footed: 35
+AC modifiers: +4 deflection, +13 Dex, +1 dodge, +10 insight, +12 natural, -1 size
+Hit points: 752 (35d10+560)
+Fort: +31
+Ref: +36
+Will: +34
+Amorph: present
+Defensive abilities: dimensional fortification, _[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 39)
+Fh: 30
+Immune: ability damage, ability drain, aging, cold, death effects, disease, energy drain, mind-affecting effects, paralysis, petrification, sonic
+Resist: acid 30, electricity 30, fire 30
+Sr: 41
+:::
 
-**Initiative:** +27
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., fly 120 ft. (perfect)
+Constrict: 6d6+25
+M Power: 10/day, surge +1d12
+Melee: 2 slams +51 (2d8+17 plus temporal displacement), 4 tentacles +49 (6d6+8/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 30 ft. with tentacles
+Space: 10
+Spec Att: command the ancient ones, dimensional dreams, merge lives, portal mastery
+:::
 
-**Type:** outsider
-
-**Perception:** +49
-
-**Senses:** Darkvision 60 ft., See in darkness, True seeing
-
-**Subtype:** Chaotic, Extraplanar, Great Old One
-
-**Experience points:** 9,830,400
-
-**Armor class:** 49
-
-**Touch:** 37
-
-**Flat-footed:** 35
-
-**AC modifiers:** +4 deflection, +13 Dex, +1 dodge, +10 insight, +12 natural, -1 size
-
-**Hit points:** 752 (35d10+560)
-
-**Fort:** +31
-
-**Ref:** +36
-
-**Will:** +34
-
-**Amorph:** present
-
-**Defensive abilities:** dimensional fortification,
-_[freedom of movement](ref/spell/freedom-of-movement)_, immortality, insanity (DC 39)
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, aging, cold, death effects, disease, energy drain,
-mind-affecting effects, paralysis, petrification, sonic
-
-**Resist:** acid 30, electricity 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 60 ft., fly 120 ft. (perfect)
-
-**Constrict:** 6d6+25
-
-**M Power:** 10/day, surge +1d12
-
-**Melee:** 2 slams +51 (2d8+17 plus temporal displacement), 4 tentacles +49 (6d6+8/19-20 plus
-[grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 30 ft. with tentacles
-
-**Space:** 10
-
-**Spec Att:** command the ancient ones, dimensional dreams, merge lives, portal mastery
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +42
-
-**Constant:**
-
-- cloak of chaos (DC 30), freedom of movement, tongues, true seeing
-
-**At will:**
-
-- astral projection, dimensional lock^M^, dream^M^, greater dispel magic, interplanetary teleport,
-  nightmare^M^, plane shift^M^ (DC 29), sending^M^, teleport object (DC 29)
-
-**Per day:**
-
-- 3/day: demand (DC 30), quickened disintegrate^M^ (DC 28)
-- 1/day: gate, microcosm (DC 31), summon (level 9, 2 ancient ones 100%), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +42
+Constant: cloak of chaos (DC 30), freedom of movement, tongues, true seeing
+At will: astral projection, dimensional lock^M^, dream^M^, greater dispel magic, interplanetary teleport, nightmare^M^, plane shift^M^ (DC 29), sending^M^, teleport object (DC 29)
+Per day: 3/day: demand (DC 30), quickened disintegrate^M^ (DC 28)\
+1/day: gate, microcosm (DC 31), summon (level 9, 2 ancient ones 100%), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 44, Dex 36, Con 43, Int 35, Wis 32, Cha 35
+::: statblock
+Ability scores: Str 44, Dex 36, Con 43, Int 35, Wis 32, Cha 35
+Base attack bonus: +35
+Combat maneuver bonus: +53
+Combat maneuver defense: 91 (can't be tripped)
+Feats: Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Greater Disarm, Greater Sunder, Improved Critical (tentacle), Improved Disarm, Improved Initiative, Improved Sunder, Mobility, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (disintegrate, feeblemind, mislead), Staggering Critical
+Skills: Acrobatics +48, Bluff +50, Diplomacy +47, Disguise +47, Sense Motive +49, Spellcraft +47, Stealth +47, Use Magic Device +47
+Languages: Aklo; [telepathy](ref/umr/telepathy) 1 mile, _[tongues](ref/spell/tongues)_
+Special qualities: otherworldly insight
+:::
 
-**Base attack bonus:** +35
+### Ecology
 
-**Combat maneuver bonus:** +53
-
-**Combat maneuver defense:** 91 (can't be tripped)
-
-**Feats:** Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Greater Disarm,
-Greater Sunder, Improved Critical (tentacle), Improved Disarm, Improved Initiative, Improved Sunder,
-Mobility, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities)
-(disintegrate, feeblemind, mislead), Staggering Critical
-
-**Skills:** Acrobatics +48, Bluff +50, Diplomacy +47, Disguise +47, Sense Motive +49, Spellcraft
-+47, Stealth +47, Use Magic Device +47
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 1 mile, _[tongues](ref/spell/tongues)_
-
-**Special qualities:** otherworldly insight
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

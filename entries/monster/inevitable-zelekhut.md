@@ -30,108 +30,75 @@ abilities = ["25", "20", "16", "10", "17", "17"]
 _This creature looks like a mechanical centaur. Golden, clockwork wings sprout from its back, and
 its arms end in barbed chains._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +9
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 6,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 18
+AC modifiers: +5 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 115 (10d10+60)
+Fort: +10
+Ref: +8
+Will: +10
+Defensive abilities: constructed
+Dr: 10/chaotic
+Regen: 5 (chaotic)
+Sr: 20
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 60 ft. (average)
+Melee: 2 chains +17 (2d6+7 plus 1d6 electricity and trip)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +13
+Constant: true seeing
+At will: clairaudience/clairvoyance, dimensional anchor, dispel magic, fear (DC 17), hold person (DC 16), locate creature
+Per day: 3/day: hold monster (DC 18), mark of justice
+Per week: lesser geas (DC 17)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+::: statblock
+Ability scores: Str 25, Dex 20, Con 16, Int 10, Wis 17, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Dodge, Improved Initiative, Mobility, Weapon Focus (chain), Vital Strike
+Skills: Acrobatics +18 (+26 jump), Diplomacy +16, Fly +16, Perception +20
+Racial Modifiers: +4 Perception, +4 Sense Motive
+Languages: truespeech
+Special qualities: chains
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 115 (10d10+60)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +10
-
-**Defensive abilities:** constructed
-
-**Dr:** 10/chaotic
-
-**Regen:** 5 (chaotic)
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (average)
-
-**Melee:** 2 chains +17 (2d6+7 plus 1d6 electricity and trip)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +13
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- clairaudience/clairvoyance, dimensional anchor, dispel magic, fear (DC 17), hold person (DC 16),
-  locate creature
-
-**Per day:**
-
-- 3/day: hold monster (DC 18), mark of justice
-
-**Per week:**
-
-- lesser geas (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con 16, Int 10, Wis 17, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Dodge, Improved Initiative, Mobility, Weapon Focus (chain), Vital Strike
-
-**Skills:** Acrobatics +18 (+26 jump), Diplomacy +16, Fly +16, Perception +20
-
-**Racial Modifiers:** +4 Perception, +4 Sense Motive
-
-**Languages:** truespeech
-
-**Special qualities:** chains
-
-**Ecology**
-
-**Environment:** any land (lawful plane)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land (lawful plane)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

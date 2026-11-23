@@ -31,99 +31,74 @@ abilities = ["30", "25", "24", "5", "16", "11"]
 
 _This enormous wolf-headed sea serpent's maw leads into what seems to be an endless expanse within._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: gargantuan
+Initiative: +11
+Alignment: Lawful evil
+Type: Magical beast
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 25,600
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +11
+::: statblock
+Armor class: 28
+Touch: 13
+Flat-footed: 24
+AC modifiers: +7 Dex, +15 natural, -4 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +17
+Will: +10
+Regen: 10 (fire or acid)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., swim 40 ft.
+F Swallow: present
+Grab: Gargantuan
+Melee: bite +22 (4d8+10/19-20 plus grab), 2 claws +22 (2d6+10/19-20)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 20
+Spec Att: bigger inside
+Swallow: see text
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +13
+Per day: 3/day: gust of wind, obscuring mist\
+1/day: control weather
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 30, Dex 25, Con 24, Int 5, Wis 16, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 47
+Feats: Critical Focus, Improved Critical (bite Improved Critical (claws)), Improved Initiative, Iron Will, Lunge, Power Attack, Staggering Critical
+Skills: Perception +14, Swim +29
+Languages: Common (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 13
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +15 natural, -4 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +17
-
-**Will:** +10
-
-**Regen:** 10 (fire or acid)
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**F Swallow:** present
-
-**Grab:** Gargantuan
-
-**Melee:** bite +22 (4d8+10/19-20 plus grab), 2 claws +22 (2d6+10/19-20)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** bigger inside
-
-**Swallow:** see text
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: gust of wind, obscuring mist
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 25, Con 24, Int 5, Wis 16, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 47
-
-**Feats:** Critical Focus, Improved Critical (bite Improved Critical (claws)), Improved Initiative,
-Iron Will, Lunge, Power Attack, Staggering Critical
-
-**Skills:** Perception +14, Swim +29
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

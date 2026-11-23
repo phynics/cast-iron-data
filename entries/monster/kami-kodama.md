@@ -31,100 +31,73 @@ abilities = ["14", "13", "16", "11", "14", "17"]
 _This little green humanoid figure stands only three feet tall. Its head is faceless save for two
 hollow pits for eyes._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +1
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Kami, Native
+Experience points: 1,600
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +1 Dex, +2 dodge, +4 natural, +1 size
+Hit points: 51 (6d10+18)
+Fort: +10
+Ref: +6
+Will: +4
+Dr: 5/cold iron
+Fh: 3
+Immune: bleed, mind-affecting effects, petrification, polymorph
+Resist: acid 10, electricity 10, fire 10
+Sr: 16
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +9 (1d3+2)
+Sneak: +2d6
+Spec Att: distracting gaze
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +9
+At will: speak with plants, trees only, tree shape
+Per day: 3/day: charm animal (DC 14), entangle (DC 14), tree stride, self plus 50 lbs. of objects only
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Kami, Native
+::: statblock
+Ability scores: Str 14, Dex 13, Con 16, Int 11, Wis 14, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Great Fortitude, Nimble Moves, Power Attack
+Skills: Climb +11, Escape Artist +10, Perception +11
+Languages: Common; _[speak with plants](ref/spell/speak-with-plants),_ [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: merge with ward, ward (wild trees)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +2 dodge, +4 natural, +1 size
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +4
-
-**Dr:** 5/cold iron
-
-**Fh:** 3
-
-**Immune:** bleed, mind-affecting effects, petrification, polymorph
-
-**Resist:** acid 10, electricity 10, fire 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +9 (1d3+2)
-
-**Sneak:** +2d6
-
-**Spec Att:** distracting gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**At will:**
-
-- speak with plants, trees only, tree shape
-
-**Per day:**
-
-- 3/day: charm animal (DC 14), entangle (DC 14), tree stride, self plus 50 lbs. of objects only
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 16, Int 11, Wis 14, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Great Fortitude, Nimble Moves, Power Attack
-
-**Skills:** Climb +11, Escape Artist +10, Perception +11
-
-**Languages:** Common; _[speak with plants](ref/spell/speak-with-plants),_
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** merge with ward, ward (wild trees)
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary, pair, group (3-7), or grove (8-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary, pair, group (3-7), or grove (8-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

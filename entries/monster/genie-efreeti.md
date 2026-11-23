@@ -31,105 +31,75 @@ abilities = ["23", "17", "18", "12", "14", "15"]
 _This muscular giant has crimson skin, smoldering eyes, and small black horns. Smoke rises in curls
 from its flesh._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +7
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect magic
+Subtype: Extraplanar, Fire
+Experience points: 4,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 95 (10d10+40)
+Fort: +7
+Ref: +10
+Will: +9
+Immune: fire
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee: 2 slams +15 (1d8+6 plus 1d6 fire) or mwk falchion +16/+11 (2d6+9/18-20)
+Reach: 10
+Space: 10
+Spec Att: change size, heat
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Constant: detect magic
+At will: plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, produce flame, pyrotechnics (DC 14), scorching ray
+Per day: 3/day: invisibility, quickened scorching ray, wall of fire (DC 16)\
+1/day: !grant up to 3 [wishes](ref/spell/wish) (to non-genies only), gaseous form, permanent image (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic
+### Statistics
 
-**Subtype:** Extraplanar, Fire
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +7
-
-**Ref:** +10
-
-**Will:** +9
-
-**Immune:** fire
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**Melee:** 2 slams +15 (1d8+6 plus 1d6 fire) or mwk falchion +16/+11 (2d6+9/18-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** change size, heat
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, produce
-  flame, pyrotechnics (DC 14), scorching ray
-
-**Per day:**
-
-- 3/day: invisibility, quickened scorching ray, wall of fire (DC 16)
-- 1/day: !grant up to 3 [wishes](ref/spell/wish) (to non-genies only), gaseous form, permanent image
-  (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 17, Con 18, Int 12, Wis 14, Cha 15
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Casting, Combat Reflexes, Deceitful, Dodge, Improved Initiative^B^, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (scorching ray)
-
-**Skills:** Bluff +19, Craft (any one) +14, Disguise +10, Sense Motive +15, Spellcraft +14, Stealth
-+8
-
-**Languages:** Auran, Aquan, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (humanoid or giant;
-[alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+::: statblock
+Ability scores: Str 23, Dex 17, Con 18, Int 12, Wis 14, Cha 15
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 31
+Feats: Combat Casting, Combat Reflexes, Deceitful, Dodge, Improved Initiative^B^, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (scorching ray)
+Skills: Bluff +19, Craft (any one) +14, Disguise +10, Sense Motive +15, Spellcraft +14, Stealth +8
+Languages: Auran, Aquan, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (humanoid or giant; [alter self](ref/spell/alter-self) or [giant form I](ref/spell/giant-form-1))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, company (3-6), or band (7-12)
-
-**Treasure:** Standard (mwk falchion); other gear
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, company (3-6), or band (7-12)
+Treasure: Standard (mwk falchion); other gear
+:::
 
 ### Special Abilities
 

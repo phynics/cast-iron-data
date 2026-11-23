@@ -35,123 +35,82 @@ abilities = ["20", "19", "17", "16", "16", "21"]
 _This creature looks like a beautiful human woman from the waist up, but below is the body and tail
 of an immense snake._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +4
+Size: large
+Type: Monstrous humanoid
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Shapechanger
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 17
+AC modifiers: +4 Dex, +8 natural, -1 size
+Hit points: 102 (12d10+36)
+Fort: +7
+Ref: +12
+Will: +11
+Immune: mind-affecting effects
+Sr: 19
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., climb 40 ft., swim 40 ft.
+Melee: +1 scimitars +14/+14/+9/+9/+4 (1d6+6/15-20 plus 1 Wisdom drain on first hit each round) or touch +16 (1d4 Wisdom drain)
+Reach: 5
+Space: 10
+Spec Att: Wisdom drain
+:::
 
-**Perception:** +3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+At will: charm monster (DC 19), ventriloquism (DC 16)
+Per day: 3/day: deep slumber (DC 18), dream, major image (DC 18), mirror image, suggestion (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +11
+3rd-level spells: 4/day: haste
+2nd-level spells: 6/day: death knell (DC 17), invisibility
+1st-level spells: 8/day: cure light wounds, divine favor, mage armor, magic missile
+Cantrips: At will: dancing lights, daze (DC 15), detect magic, ghost sound (DC 15), mage hand, mending, prestidigitation
+:::
 
-**Subtype:** Shapechanger
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 20, Dex 19, Con 17, Int 16, Wis 16, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Double Slice, Extend Spell, Improved Critical (scimitar), Improved Two-Weapon Fighting, Two-Weapon Fighting, Weapon Focus (scimitar)
+Skills: Acrobatics +8 (+12 jump), Bluff +21, Climb +13, Use Magic Device +21
+Racial Modifiers: +4 Acrobatics, +4 Bluff, +4 Use Magic Device
+Languages: Abyssal, Common, Draconic
+Special qualities: [change shape](ref/umr/change-shape) (fixed Medium humanoid form; [alter self](ref/spell/alter-self)), [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +8 natural, -1 size
-
-**Hit points:** 102 (12d10+36)
-
-**Fort:** +7
-
-**Ref:** +12
-
-**Will:** +11
-
-**Immune:** mind-affecting effects
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., swim 40 ft.
-
-**Melee:** +1 scimitars +14/+14/+9/+9/+4 (1d6+6/15-20 plus 1 Wisdom drain on first hit each round)
-or touch +16 (1d4 Wisdom drain)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** Wisdom drain
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**At will:**
-
-- charm monster (DC 19), ventriloquism (DC 16)
-
-**Per day:**
-
-- 3/day: deep slumber (DC 18), dream, major image (DC 18), mirror image, suggestion (DC 18)
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +11
-
-**3rd-level spells:**
-
-- 4/day: haste
-
-**2nd-level spells:**
-
-- 6/day: death knell (DC 17), invisibility
-
-**1st-level spells:**
-
-- 8/day: cure light wounds, divine favor, mage armor, magic missile
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 15), detect magic, ghost sound (DC 15), mage hand, mending,
-  prestidigitation
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 19, Con 17, Int 16, Wis 16, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Double Slice, Extend Spell, Improved Critical (scimitar), Improved Two-Weapon Fighting,
-Two-Weapon Fighting, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +8 (+12 jump), Bluff +21, Climb +13, Use Magic Device +21
-
-**Racial Modifiers:** +4 Acrobatics, +4 Bluff, +4 Use Magic Device
-
-**Languages:** Abyssal, Common, Draconic
-
-**Special qualities:** [change shape](ref/umr/change-shape) (fixed Medium humanoid form;
-[alter self](ref/spell/alter-self)), [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Double (2 +1 scimitars); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cult (3-6)
+Treasure: Double (2 +1 scimitars); other treasure
+:::
 
 ### Special Abilities
 

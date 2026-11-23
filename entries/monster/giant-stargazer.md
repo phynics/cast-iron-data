@@ -31,85 +31,65 @@ abilities = ["14", "19", "17", "2", "12", "3"]
 _This fish lies beneath the sand with only its bulbous eyes and upturned maw full of jagged teeth
 protruding._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 13
+AC modifiers: +4 Dex, +3 natural
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +8
+Will: +2
+Defensive abilities: venomous spines
+Resist: electricity 10
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 30 ft.
+F Swallow: present
+Melee: bite +8 (1d6+3 plus 1d6 electricity and [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with gulp
+Space: 5
+Spec Att: gulp, poison, shock
+Swallow: 1d8 bludgeoning damage, AC 11, 3 hp
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 19, Con 17, Int 2, Wis 12, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse, Weapon Focus (bite)
+Skills: Perception +5, Stealth +9 (+19 when buried), Swim +15
+Racial Modifiers: +10 Stealth when buried
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +3 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +2
-
-**Defensive abilities:** venomous spines
-
-**Resist:** electricity 10
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**F Swallow:** present
-
-**Melee:** bite +8 (1d6+3 plus 1d6 electricity and [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with gulp
-
-**Space:** 5
-
-**Spec Att:** gulp, poison, shock
-
-**Swallow:** 1d8 bludgeoning damage, AC 11, 3 hp
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 17, Int 2, Wis 12, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse, Weapon Focus (bite)
-
-**Skills:** Perception +5, Stealth +9 (+19 when buried), Swim +15
-
-**Racial Modifiers:** +10 Stealth when buried
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or school (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or school (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

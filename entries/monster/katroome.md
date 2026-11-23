@@ -28,83 +28,66 @@ abilities = ["6", "15", "10", "14", "11", "13"]
 
 _This large, plump caterpillar is brilliantly colored and has a strangely self-important bearing._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic neutral
+Initiative: +2
+Type: Magical beast
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +5
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: slam +1 (1d3-2)
+Web: +5 ranged, DC 11, 2 hp
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Per day: 3/day: command (DC 12), detect magic\
+1/day: invisibility, suggestion (DC 14)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 6, Dex 15, Con 10, Int 14, Wis 11, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: -1
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Iron Will
+Skills: Acrobatics +5, Bluff +2, Climb +10, Knowledge (arcana) +3, Perception +5, Sense Motive +6, Spellcraft +4, Stealth +10 (+14 in forested environments)
+Racial Modifiers: +4 Sense Motive, +4 Stealth in forested environments
+Languages: Common, Goblin, Sylvan
+:::
 
-**Armor class:** 13
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** slam +1 (1d3-2)
-
-**Web:** +5 ranged, DC 11, 2 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: command (DC 12), detect magic
-- 1/day: invisibility, suggestion (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 10, Int 14, Wis 11, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Iron Will
-
-**Skills:** Acrobatics +5, Bluff +2, Climb +10, Knowledge (arcana) +3, Perception +5, Sense Motive
-+6, Spellcraft +4, Stealth +10 (+14 in forested environments)
-
-**Racial Modifiers:** +4 Sense Motive, +4 Stealth in forested environments
-
-**Languages:** Common, Goblin, Sylvan
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Description
 

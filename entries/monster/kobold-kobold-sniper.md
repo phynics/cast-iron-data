@@ -31,77 +31,62 @@ abilities = ["9", "17", "12", "10", "12", "8"]
 
 _This short, reptilian humanoid has scaled skin, a snout filled with tiny teeth, and a long tail._
 
-**Challenge rating:** 1/2
-
 **Kobold [fighter](ref/class/fighter) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Alignment: Lawful evil
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Reptilian
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 15
+AC modifiers: +3 armor, +3 Dex, +1 natural, +1 size
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +3
+Will: +1
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: short sword +1 (1d4-1/19-20)
+Ranged: mwk light crossbow +6 (1d6/19-20)
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 9, Dex 17, Con 12, Int 10, Wis 12, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: -1
+Combat maneuver defense: 12
+Feats: Point-Blank Shot, Precise Shot
+Skills: Acrobatics +3, Craft (trapmaking) +2
+Languages: Common, Draconic
+Special qualities: crafty
+Combat gear: alchemist's fire
+Other gear: studded leather armor, mwk light crossbow, short sword
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +3 Dex, +1 natural, +1 size
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +1
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +1 (1d4-1/19-20)
-
-**Ranged:** mwk light crossbow +6 (1d6/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 17, Con 12, Int 10, Wis 12, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +3, Craft (trapmaking) +2
-
-**Languages:** Common, Draconic
-
-**Special qualities:** crafty
-
-**Combat gear:** alchemist's fire
-
-**Other gear:** studded leather armor, mwk light crossbow, short sword
-
-**Ecology**
-
-**Environment:** temperate underground or deep forest
+::: statblock
+Environment: temperate underground or deep forest
+:::
 
 ### Description
 

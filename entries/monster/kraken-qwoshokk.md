@@ -31,99 +31,69 @@ abilities = ["32", "10", "29", "21", "20", "21"]
 _This massive scarlet squid has dark blue stripes and wears various gold ornaments, its tentacles
 glistening with blue energy._
 
-**Challenge rating:** 20
-
 **Male unique elder kraken**
 
-**Size:** gargantuan
+::: statblock
+Challenge rating: 20
+Size: gargantuan
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +32
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 307,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 36
+Touch: 6
+Flat-footed: 36
+AC modifiers: +30 natural, -4 size
+Hit points: 348 (24d10+216)
+Fort: +23
+Ref: +14
+Will: +13
+Immune: cold, mind-affecting effects, poison
+Resist: electricity 30
+Sr: 31
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +32
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Constrict: tentacles, 1d8+10
+Jet: 280
+Melee: 2 arms +31 (3d6+11/19-20 plus 1d6 electricity), bite +31 (2d8+11), 8 tentacles +29 (1d8+5)
+Reach: 20
+Reach P: 60 ft. with arm, 40 ft. with tentacle
+Space: 20
+Spec Att: ink cloud, rend ship
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +24
+Per day: 3/day: chain lightning (DC 21), dominate person (DC 20), summon monster IX, 1d4+1 dire sharks only\
+1/day: call lightning storm (DC 20), control weather, control winds, dominate monster (DC 24, animal only), greater teleport, resist energy
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 6
-
-**Flat-footed:** 36
-
-**AC modifiers:** +30 natural, -4 size
-
-**Hit points:** 348 (24d10+216)
-
-**Fort:** +23
-
-**Ref:** +14
-
-**Will:** +13
-
-**Immune:** cold, mind-affecting effects, poison
-
-**Resist:** electricity 30
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Constrict:** tentacles, 1d8+10
-
-**Jet:** 280
-
-**Melee:** 2 arms +31 (3d6+11/19-20 plus 1d6 electricity), bite +31 (2d8+11), 8 tentacles +29
-(1d8+5)
-
-**Reach:** 20
-
-**Reach P:** 60 ft. with arm, 40 ft. with tentacle
-
-**Space:** 20
-
-**Spec Att:** ink cloud, rend ship
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +24
-
-**Per day:**
-
-- 3/day: chain lightning (DC 21), dominate person (DC 20), summon monster IX, 1d4+1 dire sharks only
-- 1/day: call lightning storm (DC 20), control weather, control winds, dominate monster (DC 24,
-  animal only), greater teleport, resist energy
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 10, Con 29, Int 21, Wis 20, Cha 21
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +39
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Critical Focus, Improved
-Critical (arm), Improved Initiative, Improved Natural Attack (arm), Improved Trip, Multiattack,
-Power Attack, Vital Strike
-
-**Skills:** Intimidate +29, Knowledge (geography) +29, Perception +32, Stealth +15, Swim +46, Use
-Magic Device +29
-
-**Languages:** Aquan, Common
-
-**Special qualities:** tenacious grapple
+::: statblock
+Ability scores: Str 32, Dex 10, Con 29, Int 21, Wis 20, Cha 21
+Base attack bonus: +24
+Combat maneuver bonus: +39
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Critical Focus, Improved Critical (arm), Improved Initiative, Improved Natural Attack (arm), Improved Trip, Multiattack, Power Attack, Vital Strike
+Skills: Intimidate +29, Knowledge (geography) +29, Perception +32, Stealth +15, Swim +46, Use Magic Device +29
+Languages: Aquan, Common
+Special qualities: tenacious grapple
+:::
 
 ### Description
 

@@ -31,107 +31,74 @@ abilities = ["17", "13", "16", "16", "13", "18"]
 _This woman has black, frostbitten skin, white hair, and a black ice staff decorated with bones and
 gems._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Type: Monstrous humanoid
+Perception: +18
+Senses: Darkvision 60 ft., See invisibility, Snow vision
+Subtype: Cold
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +1 Dex, +9 natural
+Hit points: 85 (10d10+30)
+Fort: +8
+Ref: +8
+Will: +8
+Dr: 10/magic
+Immune: cold
+Sr: 18
+Vulner: fire
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Br Weap: 30-ft. cone, 4d6 cold and blinded for 1d6 rounds, Reflex DC 18 partial, usable every 1d4 round
+Melee: +2 [frost](ref/magic-enh/frost) quarterstaff +15/+10 (1d6+6 plus 1d6 cold) or 2 claws +13 (1d4+3)
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: pass without trace, see invisibility
+At will: chill metal (DC 16), detect magic, fog cloud, frostbite, whispering wind
+Per day: 3/day: alter self, charm monster (DC 18), invisibility, self only, major image (DC 17)\
+1/day: cone of cold (DC 19; see ice staff), control weather, windy or cold weather only, wall of ice (DC 18), waves of fatigue
+:::
 
-**Senses:** Darkvision 60 ft., See invisibility, Snow vision
+### Statistics
 
-**Subtype:** Cold
+::: statblock
+Ability scores: Str 17, Dex 13, Con 16, Int 16, Wis 13, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude
+Skills: Bluff +18, Craft (alchemy) +11, Diplomacy +9, Disguise +11, Ride +9, Sense Motive +8, Spellcraft +8, Stealth +9 (+13 in snow)
+Racial Modifiers: +4 Stealth in snow
+Languages: Aklo, Common, Giant
+Special qualities: ice staff, icewalking
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +9 natural
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +8
-
-**Dr:** 10/magic
-
-**Immune:** cold
-
-**Sr:** 18
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 30-ft. cone, 4d6 cold and blinded for 1d6 rounds, Reflex DC 18 partial, usable every
-1d4 round
-
-**Melee:** +2 [frost](ref/magic-enh/frost) quarterstaff +15/+10 (1d6+6 plus 1d6 cold) or 2 claws +13
-(1d4+3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- pass without trace, see invisibility
-
-**At will:**
-
-- chill metal (DC 16), detect magic, fog cloud, frostbite, whispering wind
-
-**Per day:**
-
-- 3/day: alter self, charm monster (DC 18), invisibility, self only, major image (DC 17)
-- 1/day: cone of cold (DC 19; see ice staff), control weather, windy or cold weather only, wall of
-  ice (DC 18), waves of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 13, Con 16, Int 16, Wis 13, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Blind-Fight, Combat Casting, Deceitful, Great Fortitude
-
-**Skills:** Bluff +18, Craft (alchemy) +11, Diplomacy +9, Disguise +11, Ride +9, Sense Motive +8,
-Spellcraft +8, Stealth +9 (+13 in snow)
-
-**Racial Modifiers:** +4 Stealth in snow
-
-**Languages:** Aklo, Common, Giant
-
-**Special qualities:** ice staff, icewalking
-
-**Ecology**
-
-**Environment:** cold forests or plains
-
-**Organization:** solitary, patrol (1 plus 1 [winter wolf](ref/monster/worg-winter-wolf)), or coven
-(3 hags of any type)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold forests or plains
+Organization: solitary, patrol (1 plus 1 [winter wolf](ref/monster/worg-winter-wolf)), or coven (3 hags of any type)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

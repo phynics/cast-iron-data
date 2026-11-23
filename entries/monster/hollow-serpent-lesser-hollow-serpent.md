@@ -28,75 +28,56 @@ special_attacks = "negatively charged cells"
 abilities = ["17", "19", "-", "2", "11", "12"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +4
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Reptilian
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +4 natural
+Hit points: 71 (11d8+22)
+Fort: +6
+Ref: +9
+Will: +9
+Chan Res: +2
+Dr: 5/magic and silver
+Fh: 5
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Constrict: 2d8+4 plus 2d6 negative energy
+Melee: bite +12 (2d8+4 plus [grab](ref/umr/grab))
+Spec Att: negatively charged cells
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Reptilian
-
-**Type:** undead
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +4 natural
-
-**Hit points:** 71 (11d8+22)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Dr:** 5/magic and silver
-
-**Fh:** 5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Constrict:** 2d8+4 plus 2d6 negative energy
-
-**Melee:** bite +12 (2d8+4 plus [grab](ref/umr/grab))
-
-**Spec Att:** negatively charged cells
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con -, Int 2, Wis 11, Cha 12
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Dodge, Great Fortitude, Iron Will, Lightning Reflexes, Toughness, Weapon Finesse
-
-**Skills:** Climb +16, Escape Artist +7, Perception +6, Stealth +10
+::: statblock
+Ability scores: Str 17, Dex 19, Con -, Int 2, Wis 11, Cha 12
+Base attack bonus: +8
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Dodge, Great Fortitude, Iron Will, Lightning Reflexes, Toughness, Weapon Finesse
+Skills: Climb +16, Escape Artist +7, Perception +6, Stealth +10
+:::
 
 ### Special Abilities
 

@@ -35,89 +35,66 @@ abilities = ["17", "19", "16", "7", "12", "8"]
 _This creature is composed of dozens of electric eels tightly knotted into a slithering, humanoid
 shape, crackling with energy._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+blindsense: 60
+Initiative: +4
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**blindsense:** 60
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 23
+Touch: 15
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +8 natural
+Hit points: 127 (15d10+45)
+Fort: +12
+Ref: +13
+Will: +6
+Defensive abilities: swarmlike
+Dr: 10/slashing
+Immune: electricity
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +19 (1d6+3 plus 2d6 electricity), 2 slams +19 (1d6+3 plus 2d6 electricity)
+Ranged: eel dart +19 touch (1d6+3 plus 1d6 electricity)
+Reach: 5
+Reach P: 10 ft. with slam
+Space: 5
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 17, Dex 19, Con 16, Int 7, Wis 12, Cha 8
+Base attack bonus: +15
+Combat maneuver bonus: +18
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Dodge, Point-Blank Shot, Power Attack, Precise Shot, Vital Strike, Weapon Finesse
+Skills: Perception +10, Stealth +15, Swim +15
+Languages: Aquan (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), varied attack
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 15
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural
-
-**Hit points:** 127 (15d10+45)
-
-**Fort:** +12
-
-**Ref:** +13
-
-**Will:** +6
-
-**Defensive abilities:** swarmlike
-
-**Dr:** 10/slashing
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +19 (1d6+3 plus 2d6 electricity), 2 slams +19 (1d6+3 plus 2d6 electricity)
-
-**Ranged:** eel dart +19 touch (1d6+3 plus 1d6 electricity)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with slam
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con 16, Int 7, Wis 12, Cha 8
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Point-Blank Shot, Power Attack, Precise Shot, Vital
-Strike, Weapon Finesse
-
-**Skills:** Perception +10, Stealth +15, Swim +15
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression), varied
-attack
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or tangle (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or tangle (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

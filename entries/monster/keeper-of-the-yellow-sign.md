@@ -30,93 +30,71 @@ abilities = ["22", "15", "-", "13", "10", "19"]
 _This black-clad figure has a pale, puffy face from which its yellow-irised eyes glare with equal
 parts intensity and insanity._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: disquieting aura (30 ft., DC 17)
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**aura:** disquieting aura (30 ft., DC 17)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +5 natural
+Hit points: 66 (7d8+35)
+Fort: +8
+Ref: +4
+Will: +5
+Chan Res: +2
+Dr: 5/magic or silver
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: sunlight powerlessness
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+E Drain: 1 level, DC 17
+Melee: 2 slams +12 (1d6+6) or entropic drain +11 touch (energy drain)
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Per day: 3/day: darkness, invisibility, self only\
+1/day: bestow curse (DC 17), dream (DC 19), rusting grasp, warp wood
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 22, Dex 15, Con -, Int 13, Wis 10, Cha 19
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 23
+Feats: Great Fortitude, Improved Initiative, Toughness, Weapon Focus (slams)
+Skills: Climb +11, Intimidate +14, Knowledge (arcana) +8, Perception +10, Sense Motive +7, Stealth +12
+Languages: Aklo, Common
+Special qualities: Yellow Sign affinity
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +5 natural
-
-**Hit points:** 66 (7d8+35)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +5
-
-**Chan Res:** +2
-
-**Dr:** 5/magic or silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 1 level, DC 17
-
-**Melee:** 2 slams +12 (1d6+6) or entropic drain +11 touch (energy drain)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: darkness, invisibility, self only
-- 1/day: bestow curse (DC 17), dream (DC 19), rusting grasp, warp wood
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con -, Int 13, Wis 10, Cha 19
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23
-
-**Feats:** Great Fortitude, Improved Initiative, Toughness, Weapon Focus (slams)
-
-**Skills:** Climb +11, Intimidate +14, Knowledge (arcana) +8, Perception +10, Sense Motive +7,
-Stealth +12
-
-**Languages:** Aklo, Common
-
-**Special qualities:** Yellow Sign affinity
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or cult (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or cult (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

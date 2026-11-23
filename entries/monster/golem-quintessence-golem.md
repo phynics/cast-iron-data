@@ -31,83 +31,64 @@ abilities = ["40", "31", "-", "-", "11", "21"]
 _This partially humanoid creature appears to be carved of smoky glass. Ghostly, screaming faces
 swirl within its immense body._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: soul siphon (100 ft.)
+Type: construct
+Size: huge
+Initiative: +10
+Lifesense: present
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 307,200
+:::
 
-**aura:** soul siphon (100 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 36
+Touch: 18
+Flat-footed: 26
+AC modifiers: +10 Dex, +18 natural, -2 size
+Hit points: 376 (32d10+200)
+Fort: +10
+Ref: +20
+Will: +10
+Dr: 15/epic
+Fh: 20
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+E Drain: 2 levels, DC 26
+Melee: 2 slams +45 (5d10+22 plus energy drain)
+Reach: 15
+Space: 15
+:::
 
-**Lifesense:** present
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 40, Dex 31, Con -, Int -, Wis 11, Cha 21
+Base attack bonus: +32
+Combat maneuver bonus: +49
+Combat maneuver defense: 69
+Skills: Fly +14
+Special qualities: powerful blows (slam), soul infused
+:::
 
-**Perception:** +0
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Extraplanar
-
-**Experience points:** 307,200
-
-**Armor class:** 36
-
-**Touch:** 18
-
-**Flat-footed:** 26
-
-**AC modifiers:** +10 Dex, +18 natural, -2 size
-
-**Hit points:** 376 (32d10+200)
-
-**Fort:** +10
-
-**Ref:** +20
-
-**Will:** +10
-
-**Dr:** 15/epic
-
-**Fh:** 20
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**E Drain:** 2 levels, DC 26
-
-**Melee:** 2 slams +45 (5d10+22 plus energy drain)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 31, Con -, Int -, Wis 11, Cha 21
-
-**Base attack bonus:** +32
-
-**Combat maneuver bonus:** +49
-
-**Combat maneuver defense:** 69
-
-**Skills:** Fly +14
-
-**Special qualities:** powerful blows (slam), soul infused
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

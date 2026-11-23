@@ -24,67 +24,56 @@ will = "+1"
 abilities = ["1", "16", "6", "2", "12", "7"]
 +++
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+Size: diminutive
+Initiative: +3
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 18
+Touch: 17
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 natural, +4 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 16, Con 6, Int 2, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 4 (8 vs. trip)
+Feats: Athletic
+Skills: Climb +5
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 natural, +4 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 16, Con 6, Int 2, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 4 (8 vs. trip)
-
-**Feats:** Athletic
-
-**Skills:** Climb +5
-
-**Ecology**
-
-**Environment:** tropical or temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: tropical or temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

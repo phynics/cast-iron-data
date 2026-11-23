@@ -32,90 +32,69 @@ abilities = ["6", "15", "14", "6", "11", "15"]
 _This little plant man walks on legs like tangled vines and has a pumpkin carved with eyes and a
 mouth for a head._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Subtype: Leshy, Shapechanger
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 9 (1d8+5)
+Fort: +4
+Ref: +2
+Will: +0
+Immune: electricity, sonic, [plant traits](ref/umr/plant-traits)
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 20 ft.
+Melee: slam -1 (1d3-2 plus ensnare)
+Ranged: seed +3 (1 plus ensnare)
+Sneak: +1d6
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +4
+Constant: pass without trace
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Leshy, Shapechanger
+::: statblock
+Ability scores: Str 6, Dex 15, Con 14, Int 6, Wis 11, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 9
+Feats: Toughness
+Skills: Perception +4
+Racial Modifiers: +4 Stealth
+Languages: Druidic, Sylvan; _plantspeech_ (gourds)
+Special qualities: [change shape](ref/umr/change-shape) (Small gourd; [tree shape](ref/spell/tree-shape)), keepsake, verdant burst
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** electricity, sonic, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** slam -1 (1d3-2 plus ensnare)
-
-**Ranged:** seed +3 (1 plus ensnare)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**Constant:**
-
-- pass without trace
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 15, Con 14, Int 6, Wis 11, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 9
-
-**Feats:** Toughness
-
-**Skills:** Perception +4
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Druidic, Sylvan; _plantspeech_ (gourds)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small gourd;
-[tree shape](ref/spell/tree-shape)), keepsake, verdant burst
-
-**Ecology**
-
-**Environment:** any hills or plains
-
-**Organization:** solitary or patch (2-16)
-
-**Treasure:** Standard
+::: statblock
+Environment: any hills or plains
+Organization: solitary or patch (2-16)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -34,109 +34,75 @@ abilities = ["25", "16", "20", "18", "21", "23"]
 _Skulls adorn the armor of this winged woman. Her helm reveals nothing of her features but a pair of
 glowing eyes._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: fate (20 ft.)
+blindsense: 30
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., Detect chaos/evil/good/law, Spiritsense
+Subtype: Extraplanar, Herald, Psychopomp, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** fate (20 ft.)
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 31
+Touch: 23
+Flat-footed: 27
+AC modifiers: +4 deflection, +3 Dex, +1 dodge, +5 insight, +8 natural
+Hit points: 199 (19d10+95)
+Fort: +15
+Ref: +20
+Will: +22
+Dr: 10/adamantine
+Fh: 5
+Immune: death effects, disease, electricity, mental control, poison, possession
+Resist: cold 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., fly 150 ft. (average)
+Melee: 2 slams +26 (2d10+7 plus gaze)
+Spec Att: gaze, tugging strands ([Fate](ref/domain/luck) subdomain, 3/day)
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +25
+Constant: detect chaos/evil/good/law
+At will: augury, cure light wounds, dancing lights, death ward, detect thoughts (DC 18), disguise self, major image (DC 19), greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: breath of life, chain lightning (DC 22), globe of invulnerability, greater dispel magic, greater invisibility, self only, heal, hold monster (DC 21), limited wish (DC 23), plane shift, undeath to death (DC 22), wall of force
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +27
+::: statblock
+Ability scores: Str 25, Dex 16, Con 20, Int 18, Wis 21, Cha 23
+Base attack bonus: +19
+Combat maneuver bonus: +26 (+28 disarm)
+Combat maneuver defense: 49 (51 vs. disarm)
+Feats: Combat Casting, Combat Expertise, Dodge, Improved Disarm, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Mobility, Spell Penetration
+Skills: Bluff +19, Diplomacy +16, Sense Motive +27, Stealth +15
+Languages: Abyssal, Celestial, Common, Draconic, Infernal
+Special qualities: change shape (incorporeal form), spirit touch
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos/evil/good/law, Spiritsense
+### Ecology
 
-**Subtype:** Extraplanar, Herald, Psychopomp, Shapechanger
-
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 23
-
-**Flat-footed:** 27
-
-**AC modifiers:** +4 deflection, +3 Dex, +1 dodge, +5 insight, +8 natural
-
-**Hit points:** 199 (19d10+95)
-
-**Fort:** +15
-
-**Ref:** +20
-
-**Will:** +22
-
-**Dr:** 10/adamantine
-
-**Fh:** 5
-
-**Immune:** death effects, disease, electricity, mental control, poison, possession
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., fly 150 ft. (average)
-
-**Melee:** 2 slams +26 (2d10+7 plus gaze)
-
-**Spec Att:** gaze, tugging strands ([Fate](ref/domain/luck) subdomain, 3/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +25
-
-**Constant:**
-
-- detect chaos/evil/good/law
-
-**At will:**
-
-- augury, cure light wounds, dancing lights, death ward, detect thoughts (DC 18), disguise self,
-  major image (DC 19), greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: breath of life, chain lightning (DC 22), globe of invulnerability, greater dispel magic,
-  greater invisibility, self only, heal, hold monster (DC 21), limited wish (DC 23), plane shift,
-  undeath to death (DC 22), wall of force
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 20, Int 18, Wis 21, Cha 23
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +26 (+28 disarm)
-
-**Combat maneuver defense:** 49 (51 vs. disarm)
-
-**Feats:** Combat Casting, Combat Expertise, Dodge, Improved Disarm, Improved Initiative, Improved
-Iron Will, Iron Will, Lightning Reflexes, Mobility, Spell Penetration
-
-**Skills:** Bluff +19, Diplomacy +16, Sense Motive +27, Stealth +15
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Infernal
-
-**Special qualities:** change shape (incorporeal form), spirit touch
-
-**Ecology**
-
-**Environment:** any ([Boneyard](ref/rule/purgatory))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Boneyard](ref/rule/purgatory))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

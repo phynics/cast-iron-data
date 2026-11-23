@@ -32,95 +32,71 @@ abilities = ["14", "15", "14", "10", "12", "10"]
 _This gillman's lean, athletic frame speaks to a life of hard work, but his keen eyes and appraising
 smirk suggest a sharp mind and daring nature._
 
-**Challenge rating:** 5
-
 **Gillman [ranger](ref/class/ranger) 6**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 5
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +9
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +4 armor, +2 Dex, +1 shield
+Hit points: 51 (6d10+18)
+Fort: +7
+Ref: +7
+Will: +3; +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
+Defensive abilities: enchantment resistance
+Weaknesses: water dependent
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Fav En: animals +2, aquatic humanoids +4
+Melee: +1 shortspear +8/+3 (1d6+3), mwk short sword +7 (1d6+2/19-20)
+Ranged: shortspear +9/+4 (1d6+2)
+Spec Att: combat style (two-weapon)
+:::
 
-**Subtype:** Aquatic
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +4
+1st-level spells: resist energy, summon nature's ally I
+:::
 
-**Experience points:** 1,600
+### Statistics
 
-**Armor class:** 17
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 10, Wis 12, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 20
+Feats: Athletic, Endurance, Quick Draw, Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (shortspear)
+Skills: Climb +8
+Languages: Aboleth, Common
+Special qualities: [amphibious](ref/umr/amphibious), [favored terrain](ref/ability/favored-terrain) (water +2), hunter's bond (companions), track +3, [wild empathy](ref/ability/wild-empathy) +6
+Combat gear: potion of barkskin, potion of bull's strength, 2 potion of cure light wounds
+Other gear: +1 wooden, +1 shortspear, mwk short sword, 5 shortspears, block and tackle, crowbar, mwk backpack, 4 sks, [silk rope](ref/eq-misc/silk-rope-50-ft) (100 feet), whetstone
+:::
 
-**Touch:** 12
+### Ecology
 
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +2 Dex, +1 shield
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +3; +2 vs. non-aboleth enchantments, -2 vs. aboleth enchantments
-
-**Defensive abilities:** enchantment resistance
-
-**Weaknesses:** water dependent
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Fav En:** animals +2, aquatic humanoids +4
-
-**Melee:** +1 shortspear +8/+3 (1d6+3), mwk short sword +7 (1d6+2/19-20)
-
-**Ranged:** shortspear +9/+4 (1d6+2)
-
-**Spec Att:** combat style (two-weapon)
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- resist energy, summon nature's ally I
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 10, Wis 12, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20
-
-**Feats:** Athletic, Endurance, Quick Draw, Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus
-(shortspear)
-
-**Skills:** Climb +8
-
-**Languages:** Aboleth, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious),
-[favored terrain](ref/ability/favored-terrain) (water +2), hunter's bond (companions), track +3,
-[wild empathy](ref/ability/wild-empathy) +6
-
-**Combat gear:** potion of barkskin, potion of bull's strength, 2 potion of cure light wounds
-
-**Other gear:** +1 wooden, +1 shortspear, mwk short sword, 5 shortspears, block and tackle, crowbar,
-mwk backpack, 4 sks, [silk rope](ref/eq-misc/silk-rope-50-ft) (100 feet), whetstone
-
-**Ecology**
-
-**Environment:** temperate ocean
+::: statblock
+Environment: temperate ocean
+:::
 
 ### Description
 

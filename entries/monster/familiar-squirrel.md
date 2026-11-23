@@ -31,69 +31,57 @@ abilities = ["2", "19", "9", "2", "12", "9"]
 _A small, bright-eyed bundle of fur, this woodland creature has a bushy tail as big as the rest of
 its body._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Type: animal
+Size: diminutive
+Initiative: +4
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Experience points: 50
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +6
+Will: +1
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite +8 (1d2-4)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 2, Dex 19, Con 9, Int 2, Wis 12, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +8, Climb +12
+:::
 
-**Experience points:** 50
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite +8 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 19, Con 9, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +8, Climb +12
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or scurry (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or scurry (3-8)
+Treasure: None
+:::
 
 ### Description
 

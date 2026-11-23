@@ -34,113 +34,80 @@ abilities = ["28", "35", "22", "15", "15", "18"]
 
 _Jagged bolts of lightning crackle within this massive and vaguely humanoid storm cloud._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: huge
+Initiative: +16
+Alignment: Neutral
+Type: outsider
+Perception: +22
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar, Herald, Water
+Experience points: 51,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +16
+::: statblock
+Armor class: 30
+Touch: 21
+Flat-footed: 17
+AC modifiers: +12 Dex, +1 dodge, +9 natural, -2 size
+Hit points: 195 (17d10+102)
+Fort: +16
+Ref: +22
+Will: +9
+Defensive abilities: air mastery
+Dr: 15/-
+Fh: 10
+Immune: cold, electricity, [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: swim 90 ft., fly 100 ft. (perfect)
+Melee: 2 slams +27 (2d10+9/19-20 plus 2d6 cold or electricity)
+Ranged: 2 energy rays +27/+22/+17/+12 touch (2d6 cold or electricity/18-20)
+Reach: 15
+Space: 15
+Spec Att: drench, vortex (10-60 ft. high, DC 27), water mastery
+Whirlwind: 10-60 ft. high, DC 27
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +21
+At will: create water, invisibility, self only, summon monster II, air or water elemental only
+Per day: 5/day: !_[air breathing](ref/spell/air-breathing)_, as _[water breathing](ref/spell/water-breathing)_ but allows water-breathing creatures to breathe air or water, control water, control weather, as a druid, water breathing\
+1/day: beast shape IV, possess object, summon monster IX, air or water elementals only
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Air, Elemental, Extraplanar, Herald, Water
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 21
-
-**Flat-footed:** 17
-
-**AC modifiers:** +12 Dex, +1 dodge, +9 natural, -2 size
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +16
-
-**Ref:** +22
-
-**Will:** +9
-
-**Defensive abilities:** air mastery
-
-**Dr:** 15/-
-
-**Fh:** 10
-
-**Immune:** cold, electricity, [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** swim 90 ft., fly 100 ft. (perfect)
-
-**Melee:** 2 slams +27 (2d10+9/19-20 plus 2d6 cold or electricity)
-
-**Ranged:** 2 energy rays +27/+22/+17/+12 touch (2d6 cold or electricity/18-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** drench, vortex (10-60 ft. high, DC 27), water mastery
-
-**Whirlwind:** 10-60 ft. high, DC 27
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +21
-
-**At will:**
-
-- create water, invisibility, self only, summon monster II, air or water elemental only
-
-**Per day:**
-
-- 5/day: !_[air breathing](ref/spell/air-breathing)_, as
-  _[water breathing](ref/spell/water-breathing)_ but allows water-breathing creatures to breathe air
-  or water, control water, control weather, as a druid, water breathing
-- 1/day: beast shape IV, possess object, summon monster IX, air or water elementals only
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 35, Con 22, Int 15, Wis 15, Cha 18
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +28 (+30 bull rush)
-
-**Combat maneuver defense:** 51 (53 vs. bull rush)
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Bull Rush, Improved Critical
-(slam), Improved Initiative^B^, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
-
-**Skills:** Acrobatics +29, Escape Artist +32, Fly +27
-
-**Languages:** Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran
-
-**Special qualities:** [change shape](ref/umr/change-shape) (air or water elemental;
-[elemental body IV](ref/spell/elemental-body-4))
+::: statblock
+Ability scores: Str 28, Dex 35, Con 22, Int 15, Wis 15, Cha 18
+Base attack bonus: +17
+Combat maneuver bonus: +28 (+30 bull rush)
+Combat maneuver defense: 51 (53 vs. bull rush)
+Feats: Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Bull Rush, Improved Critical (slam), Improved Initiative^B^, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
+Skills: Acrobatics +29, Escape Artist +32, Fly +27
+Languages: Aquan, Auran, Common, Druidic, Ignan, Sylvan, Terran
+Special qualities: [change shape](ref/umr/change-shape) (air or water elemental; [elemental body IV](ref/spell/elemental-body-4))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any air or water ([Plane of Air](ref/rule/plane-of-air) or
-[Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any air or water ([Plane of Air](ref/rule/plane-of-air) or [Plane of Water](ref/rule/plane-of-water))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

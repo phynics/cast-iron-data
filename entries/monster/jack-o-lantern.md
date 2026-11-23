@@ -31,85 +31,65 @@ abilities = ["15", "7", "12", "2", "14", "7"]
 _A carved pumpkin sits atop a writhing mass of thick ropey vines. Sinister flames dance within its
 leering, crudely carved face._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+aura: fear (20 ft., DC 13)
+Initiative: -2
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Low-light vision
+Type: plant
+tremorsense: 30
+Experience points: 400
+:::
 
-**aura:** fear (20 ft., DC 13)
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 11
+Touch: 8
+Flat-footed: 11
+AC modifiers: -2 Dex, +3 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: -2
+Will: +2
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: fire 15
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 15 ft.
+Br Weap: 20-ft. cone, 1d10 fire, Reflex DC 12 half, usable every 1d4 rounds
+Melee: bite +3 (1d6+2), slam +3 (1d4+2 plus strangling entangle)
+Reach: 5
+Reach P: 10 ft. with slam
+Space: 5
+Spec Att: explode, strangling ensnare (DC 14)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 7, Con 12, Int 2, Wis 14, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Ability Focus (strangling ensnare)
+Skills: Perception +7
+Special qualities: pumpkin form
+:::
 
-**Type:** plant
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 400
-
-**Armor class:** 11
-
-**Touch:** 8
-
-**Flat-footed:** 11
-
-**AC modifiers:** -2 Dex, +3 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** -2
-
-**Will:** +2
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 15
-
-**Offense**
-
-**Speed:** 15 ft.
-
-**Br Weap:** 20-ft. cone, 1d10 fire, Reflex DC 12 half, usable every 1d4 rounds
-
-**Melee:** bite +3 (1d6+2), slam +3 (1d4+2 plus strangling entangle)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with slam
-
-**Space:** 5
-
-**Spec Att:** explode, strangling ensnare (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 7, Con 12, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Ability Focus (strangling ensnare)
-
-**Skills:** Perception +7
-
-**Special qualities:** pumpkin form
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or plains (pumpkin patches)
-
-**Organization:** solitary or patch (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, hills, or plains (pumpkin patches)
+Organization: solitary or patch (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

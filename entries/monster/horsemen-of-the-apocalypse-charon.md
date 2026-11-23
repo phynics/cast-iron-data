@@ -32,134 +32,86 @@ abilities = ["40", "27", "42", "35", "32", "35"]
 _This ancient figure is dressed in black, and its eyes are sunken pits that glint with malevolent
 cunning._
 
-**Challenge rating:** 30
+::: statblock
+Challenge rating: 30
+aura: [frightful presence](ref/umr/frightful-presence) (120 ft., DC 40), unholy aura (DC 30)
+Initiative: +12
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +50
+Senses: Darkvision 60 ft., Detect good, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 9,830,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (120 ft., DC 40), unholy aura (DC 30)
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 48
+Touch: 38
+Flat-footed: 40
+AC modifiers: +4 deflection, +8 Dex, +10 natural, +16 profane
+Hit points: 774 (36d10+576)
+Fort: +32
+Ref: +32
+Will: +35
+Defensive abilities: apocalyptic resurrection, _[freedom of movement](ref/spell/freedom-of-movement)_, negative energy affinity, Stygian bond
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, acid, death effects, disease, energy drain, mind-affecting effects, petrification, poison
+Regen: 20 (deific or mythic)
+Resist: cold 30, electricity 30, fire 30
+Sr: 41
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft., swim 30 ft.
+Melee: +5 spellstealing unholy quarterstaff +52/+47/+42/+37 (1d6+20/19-20 plus curse of ages), +5 spellstealing unholy quarterstaff +52/+47/+42 (1d6+20/19-20 plus curse of ages) or touch +51 (curse of ages)
+Ranged: 4 Stygian bolts +44 (10d6 plus memory loss)
+Reach: 5
+Sp Extra: _air walk, water walk_
+Space: 5
+Spec Att: curse of the ages, memory loss, Stygian bolt
+:::
 
-**Alignment:** Neutral evil
-
-**Type:** outsider
-
-**Perception:** +50
-
-**Senses:** Darkvision 60 ft., Detect good, True seeing
-
-**Subtype:** Daemon, Evil, Extraplanar
-
-**Experience points:** 9,830,400
-
-**Armor class:** 48
-
-**Touch:** 38
-
-**Flat-footed:** 40
-
-**AC modifiers:** +4 deflection, +8 Dex, +10 natural, +16 profane
-
-**Hit points:** 774 (36d10+576)
-
-**Fort:** +32
-
-**Ref:** +32
-
-**Will:** +35
-
-**Defensive abilities:** apocalyptic resurrection,
-_[freedom of movement](ref/spell/freedom-of-movement)_, negative energy affinity, Stygian bond
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, acid, death effects, disease, energy drain,
-mind-affecting effects, petrification, poison
-
-**Regen:** 20 (deific or mythic)
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 41
-
-**Offense**
-
-**Speed:** 50 ft., swim 30 ft.
-
-**Melee:** +5 spellstealing unholy quarterstaff +52/+47/+42/+37 (1d6+20/19-20 plus curse of ages),
-+5 spellstealing unholy quarterstaff +52/+47/+42 (1d6+20/19-20 plus curse of ages) or touch +51
-(curse of ages)
-
-**Ranged:** 4 Stygian bolts +44 (10d6 plus memory loss)
-
-**Reach:** 5
-
-**Sp Extra:** _air walk, water walk_
-
-**Space:** 5
-
-**Spec Att:** curse of the ages, memory loss, Stygian bolt
-
-**Spell-Like Abilities**
-
-**Caster level:** 30
-
-**Concentration:** +42
-
-**Constant:**
-
-- air walk, detect good, freedom of movement, true seeing, unholy aura (DC 30), water walk
-
-**At will:**
-
-- animate dead^M^, astral projection, blasphemy^M^ (DC 29), circle of death^M^ (DC 28), control
-  undead (DC 29), create greater undead, create undead, desecrate^M^, greater dispel magic, greater
-  teleport, shapechange, telekinesis^M^ (DC 27), unhallow, unholy blight^M^ (DC 26)
-
-**Per day:**
-
-- 3/day: quickened circle of death^M^ (DC 28), plane shift^M^ (DC 29), soul bind (DC 31), summon
-  daemon, symbol of death (DC 30), quickened telekinesis^M^ (DC 27), wail of the banshee (DC 31)
-- 1/day: time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 30
+Concentration: +42
+Constant: air walk, detect good, freedom of movement, true seeing, unholy aura (DC 30), water walk
+At will: animate dead^M^, astral projection, blasphemy^M^ (DC 29), circle of death^M^ (DC 28), control undead (DC 29), create greater undead, create undead, desecrate^M^, greater dispel magic, greater teleport, shapechange, telekinesis^M^ (DC 27), unhallow, unholy blight^M^ (DC 26)
+Per day: 3/day: quickened circle of death^M^ (DC 28), plane shift^M^ (DC 29), soul bind (DC 31), summon daemon, symbol of death (DC 30), quickened telekinesis^M^ (DC 27), wail of the banshee (DC 31)\
+1/day: time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Charon can use this ability's mythic version in his realm
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 40, Dex 27, Con 42, Int 35, Wis 32, Cha 35
+::: statblock
+Ability scores: Str 40, Dex 27, Con 42, Int 35, Wis 32, Cha 35
+Base attack bonus: +36
+Combat maneuver bonus: +51 (+55 bull rush)
+Combat maneuver defense: 89 (91 vs. bull rush)
+Feats: Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Double Slice, Greater Bull Rush, Greater Two-Weapon Fighting, Improved Bull Rush, Improved Critical (quarterstaff), Improved Initiative, Improved Two-Weapon Fighting, Mounted Combat, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (circle of death, telekinesis), Ride-By Attack, Spirited Charge, Two-Weapon Fighting
+Skills: Acrobatics +44, Bluff +51, Diplomacy +48, Profession (sailor) +50, Ride +47, Use Magic Device +51
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: craft item, Horseman traits, reach of the Styx, transform mount
+Faith: Charon
+:::
 
-**Base attack bonus:** +36
+### Ecology
 
-**Combat maneuver bonus:** +51 (+55 bull rush)
-
-**Combat maneuver defense:** 89 (91 vs. bull rush)
-
-**Feats:** Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Double Slice,
-Greater Bull Rush, Greater Two-Weapon Fighting, Improved Bull Rush, Improved Critical
-(quarterstaff), Improved Initiative, Improved Two-Weapon Fighting, Mounted Combat, Power Attack,
-Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (circle of death, telekinesis), Ride-By
-Attack, Spirited Charge, Two-Weapon Fighting
-
-**Skills:** Acrobatics +44, Bluff +51, Diplomacy +48, Profession (sailor) +50, Ride +47, Use Magic
-Device +51
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** craft item, Horseman traits, reach of the Styx, transform mount
-
-**Faith:** Charon
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or mounted (Charon and the Pale Horse)
-
-**Treasure:** Triple (+5 spellstealing unholy quarterstaff); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or mounted (Charon and the Pale Horse)
+Treasure: Triple (+5 spellstealing unholy quarterstaff); other treasure
+:::
 
 ### Special Abilities
 

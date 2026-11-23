@@ -33,98 +33,76 @@ together. The thing's misshapen head leers forward, carved with a demonic, ape-l
 
 **Bone**
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: feverish fortitude (30 ft.)
+Type: construct
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**aura:** feverish fortitude (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 15
+AC modifiers: +1 armor, +1 Dex, +4 size
+Hit points: 16 (3d10)
+Fort: +1
+Ref: +2
+Will: +2
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: cold 5, electricity 5, fire 5
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 10 ft.
+Melee: bite +3 (1d2-4 plus mad rage)
+Reach: 0
+Space: 1
+Spec Att: mad rage
+:::
 
-**Alignment:** Neutral
-
-**Perception:** +4
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 armor, +1 Dex, +4 size
-
-**Hit points:** 16 (3d10)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** cold 5, electricity 5, fire 5
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +3 (1d2-4 plus mad rage)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** mad rage
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Per day:**
-
-- 3/day: bane (DC 12), cause fear (DC 12), deathwatch^S^, hide from undead (DC 12)
-- 1/day: animate dead, death knell^S^ (DC 14)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Per day: 3/day: bane (DC 12), cause fear (DC 12), deathwatch^S^, hide from undead (DC 12)\
+1/day: animate dead, death knell^S^ (DC 14)
+:::
 
 ###### S {#footnote-s}
 
 See "Share Abilities" below
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 3, Dex 12, Con -, Int 7, Wis 12, Cha 12
+::: statblock
+Ability scores: Str 3, Dex 12, Con -, Int 7, Wis 12, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Run, Step Up
+Skills: Perception +4, Stealth +13
+Racial Modifiers: +4 Stealth amid bones
+Languages: understands creator's language (can't speak)
+Special qualities: inanimate, share abilities, zombie fetish
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Run, Step Up
-
-**Skills:** Perception +4, Stealth +13
-
-**Racial Modifiers:** +4 Stealth amid bones
-
-**Languages:** understands creator's language (can't speak)
-
-**Special qualities:** inanimate, share abilities, zombie fetish
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

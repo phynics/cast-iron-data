@@ -32,107 +32,76 @@ abilities = ["41", "21", "29", "16", "24", "16"]
 _This giant wears bloodstained leather clothes, including a ragged leather mask. His flesh, where
 visible, is gray and warty._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 24, 10 rounds)
+Alignment: Chaotic evil
+Size: gargantuan
+Type: humanoid
+Initiative: +5
+Perception: +29
+Senses: Low-light vision, See in darkness
+Subtype: Giant
+Experience points: 153,600
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 24, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 33
+Touch: 11
+Flat-footed: 28
+AC modifiers: +4 armor, +5 Dex, +17 natural, +1 shield, -4 size
+Hit points: 297 (22d8+198)
+Fort: +18
+Ref: +12
+Will: +20
+Immune: cold, fear, mind-affecting effects, poison
+Rock Ct: present
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Type:** humanoid
+::: statblock
+Speed: 50 ft.
+Melee: +2 warhammer +27/+22/+17/+12 (4d6+17/19-20/×3), +1 dagger +26 (2d6+16/19-20) or 2 slams +27 (2d6+15)
+Ranged: rock +18 (4d6+15)
+Reach: 20
+Rock Th: 160 ft.
+Space: 20
+Spec Att: devour, impale
+Swallow: 3d6+11 bludgeoning, AC 18, 29 hp
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +21
+At will: deeper darkness, invisibility
+Per day: 3/day: dimension door\
+1/day: mislead (DC 19)
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Low-light vision, See in darkness
+::: statblock
+Ability scores: Str 41, Dex 21, Con 29, Int 16, Wis 24, Cha 16
+Base attack bonus: +16
+Combat maneuver bonus: +35
+Combat maneuver defense: 50
+Feats: Critical Focus, Double Slice, Great Fortitude, Improved Critical (warhammer), Improved Vital Strike, Power Attack, Skill Focus (Stealth), Staggering Critical, Two-Weapon Defense, Two-Weapon Fighting, Vital Strike
+Skills: Intimidate +25, Knowledge (nature) +25, Perception +29
+Racial Modifiers: +8 Stealth in mountains or underground
+Languages: Common, Giant, Terran
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 33
-
-**Touch:** 11
-
-**Flat-footed:** 28
-
-**AC modifiers:** +4 armor, +5 Dex, +17 natural, +1 shield, -4 size
-
-**Hit points:** 297 (22d8+198)
-
-**Fort:** +18
-
-**Ref:** +12
-
-**Will:** +20
-
-**Immune:** cold, fear, mind-affecting effects, poison
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +2 warhammer +27/+22/+17/+12 (4d6+17/19-20/×3), +1 dagger +26 (2d6+16/19-20) or 2 slams
-+27 (2d6+15)
-
-**Ranged:** rock +18 (4d6+15)
-
-**Reach:** 20
-
-**Rock Th:** 160 ft.
-
-**Space:** 20
-
-**Spec Att:** devour, impale
-
-**Swallow:** 3d6+11 bludgeoning, AC 18, 29 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +21
-
-**At will:**
-
-- deeper darkness, invisibility
-
-**Per day:**
-
-- 3/day: dimension door
-- 1/day: mislead (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 21, Con 29, Int 16, Wis 24, Cha 16
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 50
-
-**Feats:** Critical Focus, Double Slice, Great Fortitude, Improved Critical (warhammer), Improved
-Vital Strike, Power Attack, Skill Focus (Stealth), Staggering Critical, Two-Weapon Defense,
-Two-Weapon Fighting, Vital Strike
-
-**Skills:** Intimidate +25, Knowledge (nature) +25, Perception +29
-
-**Racial Modifiers:** +8 Stealth in mountains or underground
-
-**Languages:** Common, Giant, Terran
-
-**Ecology**
-
-**Environment:** any mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard (+2 leather armor, +1 dagger, +2 warhammer); other treasure
+::: statblock
+Environment: any mountains
+Organization: solitary or pair
+Treasure: Standard (+2 leather armor, +1 dagger, +2 warhammer); other treasure
+:::
 
 ### Special Abilities
 

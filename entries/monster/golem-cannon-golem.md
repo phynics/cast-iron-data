@@ -32,81 +32,65 @@ abilities = ["30", "24", "-", "-", "15", "2"]
 _This collection of jagged metal rears up into a humanoid form, its enormous cannon tracking
 movement with mechanical precision._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: construct
+Initiative: +7
+Size: large
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 51,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 31
+Touch: 16
+Flat-footed: 24
+AC modifiers: +7 Dex, +15 natural, -1 size
+Hit points: 140 (20d10+30)
+Fort: +6
+Ref: +13
+Will: +8
+Dr: 15/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +29 (2d10+10)
+Ranged: cannon +26/+21 (6d6+7/19-20/×4)
+Reach: 10
+Space: 10
+Spec Att: cannon
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 16
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +15 natural, -1 size
-
-**Hit points:** 140 (20d10+30)
-
-**Fort:** +6
-
-**Ref:** +13
-
-**Will:** +8
-
-**Dr:** 15/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +29 (2d10+10)
-
-**Ranged:** cannon +26/+21 (6d6+7/19-20/×4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** cannon
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 24, Con -, Int -, Wis 15, Cha 2
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +31
-
-**Combat maneuver defense:** 48
-
-**Feats:** Improved Critical (cannon)^B^
-
-**Special qualities:** alloyed, blasting critical, gun training
+::: statblock
+Ability scores: Str 30, Dex 24, Con -, Int -, Wis 15, Cha 2
+Base attack bonus: +20
+Combat maneuver bonus: +31
+Combat maneuver defense: 48
+Feats: Improved Critical (cannon)^B^
+Special qualities: alloyed, blasting critical, gun training
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

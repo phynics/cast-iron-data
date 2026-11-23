@@ -31,77 +31,59 @@ abilities = ["18", "15", "16", "12", "15", "13"]
 _This powerfully built, hyena-like humanoid is larger than the average gnoll and has a cunning,
 cruel gaze._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: humanoid
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Gnoll
+Experience points: 800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 armor, +2 Dex, +2 natural
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +3
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: flindbar +6 (1d8+6/×2 plus disarm, trip)
+Ranged: composite longbow +5 (1d8+4/×3)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 12, Wis 15, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Improved Initiative, Power Attack
+Skills: Handle Animal +8
+Languages: Common, Gnoll
+Special qualities: weapon familiarity
+:::
 
-**Subtype:** Gnoll\
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +2 Dex, +2 natural
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** flindbar +6 (1d8+6/×2 plus disarm, trip)
-
-**Ranged:** composite longbow +5 (1d8+4/×3)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 16, Int 12, Wis 15, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Power Attack
-
-**Skills:** Handle Animal +8
-
-**Languages:** Common, Gnoll
-
-**Special qualities:** weapon familiarity
-
-**Ecology**
-
-**Environment:** warm plains or deserts
-
-**Organization:** solitary, pair, hunting party (1 flind, 1-4 [gnolls](ref/monster/gnoll) and 1-2
-[hyenas](ref/monster/hyena)), band (10-100 gnolls \[30% flinds and 50% noncombatant children\], 1
-sergeant of 3rd level per 20 adults, 1 leader of 4th-6th level, and 5-8 hyenas), or tribe (20-200
-gnolls \[30% flinds and 50% noncombatant children\] plus 1 sergeant of 3rd level per 20 gnolls, 1 or
-2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7
-[hyaenodons](ref/monster/hyena-dire-hyena-hyaenodon))
-
-**Treasure:** Standard (studded leather armor, cl20+4, -flindbar); other treasure
+::: statblock
+Environment: warm plains or deserts
+Organization: solitary, pair, hunting party (1 flind, 1-4 [gnolls](ref/monster/gnoll) and 1-2 [hyenas](ref/monster/hyena)), band (10-100 gnolls \[30% flinds and 50% noncombatant children\], 1 sergeant of 3rd level per 20 adults, 1 leader of 4th-6th level, and 5-8 hyenas), or tribe (20-200 gnolls \[30% flinds and 50% noncombatant children\] plus 1 sergeant of 3rd level per 20 gnolls, 1 or 2 lieutenants of 4th or 5th level, 1 leader of 6th-8th level, 7-12 hyenas, and 4-7 [hyaenodons](ref/monster/hyena-dire-hyena-hyaenodon))
+Treasure: Standard (studded leather armor, cl20+4, -flindbar); other treasure
+:::
 
 ### Special Abilities
 

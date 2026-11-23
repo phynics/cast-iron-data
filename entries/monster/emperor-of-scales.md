@@ -35,118 +35,79 @@ forked tongue constantly tests the air for fresh scents. Below the head, where a
 numerous hissing serpents thrash like tendrils of torn flesh. Blood drips from the severed head,
 sizzling as it burns like acid through anything it touches._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 25), maddening hiss (100 ft., DC 25)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +11
+Type: outsider
+Perception: +26
+Senses: All-around vision, Darkvision 60 ft., Scent
+Subtype: Chaotic, Evil, Native
+Experience points: 51,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 25), maddening hiss (100 ft.,
-DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 15
+Flat-footed: 23
+AC modifiers: +7 Dex, +15 natural, -2 size
+Hit points: 225 (18d10+126)
+Fort: +19
+Ref: +13
+Will: +15
+Dr: 15/good and silver
+Immune: acid, fire, mind-affecting effects, paralysis, poison, vorpal weapons
+Regen: 5 (electricity)
+Sr: 26
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +11
+::: statblock
+Speed: 30 ft., climb 30 ft., fly 60 ft. (good)
+Melee: bite +24 (2d8+8/19-20 plus poison and [grab](ref/umr/grab)), 8 snakebites +22 (1d6+4 plus poison)
+Reach: 10
+Reach P: 15 ft. with snakebites
+Space: 15
+Spec Att: acidic gore, poison
+Swallow: 2d8+12 plus poison, AC 17, 22 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: fly
+At will: poison (DC 20), teleport
+Per day: 3/day: accelerate poison (DC 18), blindness/deafness (DC 18), blur, dominate person (DC 21), major image (DC 19), mirror image, suggestion (DC 19)\
+1/day: chaos hammer (DC 20), dream, mass suggestion (DC 22), nightmare (DC 21), unholy blight (DC 20)
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** All-around vision, Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 26, Dex 24, Con 23, Int 13, Wis 19, Cha 22
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+32 grapple)
+Combat maneuver defense: 45 (can't be tripped)
+Feats: Combat Reflexes, Great Fortitude, Hover, Improved Critical (bite), Improved Initiative, Multiattack, Power Attack, Snatch, Toughness
+Skills: Bluff +27, Climb +16, Knowledge (history, planes) +12, Perception +26, Sense Motive +22, Spellcraft +19, Stealth +16, Use Magic Device +21
+Racial Modifiers: +4 Escape Artist, +4 Perception, +4 Stealth, +4 Use Magic Device
+Languages: Abyssal (can't speak), Aklo (can't speak), Azlanti (can't speak), telepathy 100 ft.
+Special qualities: command snakes
+:::
 
-**Subtype:** Chaotic, Evil, Native
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 Dex, +15 natural, -2 size
-
-**Hit points:** 225 (18d10+126)
-
-**Fort:** +19
-
-**Ref:** +13
-
-**Will:** +15
-
-**Dr:** 15/good and silver
-
-**Immune:** acid, fire, mind-affecting effects, paralysis, poison, vorpal weapons
-
-**Regen:** 5 (electricity)
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., fly 60 ft. (good)
-
-**Melee:** bite +24 (2d8+8/19-20 plus poison and [grab](ref/umr/grab)), 8 snakebites +22 (1d6+4 plus
-poison)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with snakebites
-
-**Space:** 15
-
-**Spec Att:** acidic gore, poison
-
-**Swallow:** 2d8+12 plus poison, AC 17, 22 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- fly
-
-**At will:**
-
-- poison (DC 20), teleport
-
-**Per day:**
-
-- 3/day: accelerate poison (DC 18), blindness/deafness (DC 18), blur, dominate person (DC 21), major
-  image (DC 19), mirror image, suggestion (DC 19)
-- 1/day: chaos hammer (DC 20), dream, mass suggestion (DC 22), nightmare (DC 21), unholy blight (DC
-  20)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 24, Con 23, Int 13, Wis 19, Cha 22
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+32 grapple)
-
-**Combat maneuver defense:** 45 (can't be tripped)
-
-**Feats:** Combat Reflexes, Great Fortitude, Hover, Improved Critical (bite), Improved Initiative,
-Multiattack, Power Attack, Snatch, Toughness
-
-**Skills:** Bluff +27, Climb +16, Knowledge (history, planes) +12, Perception +26, Sense Motive +22,
-Spellcraft +19, Stealth +16, Use Magic Device +21
-
-**Racial Modifiers:** +4 Escape Artist, +4 Perception, +4 Stealth, +4 Use Magic Device
-
-**Languages:** Abyssal (can't speak), Aklo (can't speak), Azlanti (can't speak), telepathy 100 ft.
-
-**Special qualities:** command snakes
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

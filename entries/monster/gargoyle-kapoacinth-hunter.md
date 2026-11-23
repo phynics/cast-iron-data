@@ -31,75 +31,56 @@ abilities = ["19", "18", "18", "6", "9", "9"]
 _The stone statue of a menacing fiend crouches here, as though ready to spring to life and devour
 innocent passers-by. Then it moves - to do just that._
 
-**Challenge rating:** 7
-
 **Gargoyle [fighter](ref/class/fighter) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: -1
+Senses: Darkvision 60 ft.
+Subtype: Aquatic, Earth
+Experience points: 3,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 66 (5d10+2d10+28\~7)
+Fort: +8
+Ref: +10
+Will: +3; +1 vs. fear,
+Defensive abilities: bravery +1
+Dr: 10/magic
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 40 ft., swim 60 ft.
+Melee: spear +12/+7 (1d8+4/×3), bite +11 (1d4+4), gore +11 (1d4+4) or bite +11 (1d4+4), 2 claws +11 (1d6+4), gore +11 (1d4+4)
+Ranged: 1 spear +12/+7 (1d8+4/×3)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic, Earth
-
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 66 (5d10+2d10+28\~7)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +3; +1 vs. fear,
-
-**Defensive abilities:** bravery +1
-
-**Dr:** 10/magic
-
-**Offense**
-
-**Speed:** 40 ft., swim 60 ft.
-
-**Melee:** spear +12/+7 (1d8+4/×3), bite +11 (1d4+4), gore +11 (1d4+4) or bite +11 (1d4+4), 2 claws
-+11 (1d6+4), gore +11 (1d4+4)
-
-**Ranged:** 1 spear +12/+7 (1d8+4/×3)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 18, Int 6, Wis 9, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Improved Initiative, Lightning Reflexes, Point-Blank Shot, Skill Focus (Swim), Weapon
-Focus (spear)
-
-**Skills:** Stealth +14, Swim +17
-
-**Racial Modifiers:** +2 Stealth (+6 in stony environs)
-
-**Languages:** Common, Terran
-
-**Special qualities:** [freeze](ref/umr/freeze)
+::: statblock
+Ability scores: Str 19, Dex 18, Con 18, Int 6, Wis 9, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Improved Initiative, Lightning Reflexes, Point-Blank Shot, Skill Focus (Swim), Weapon Focus (spear)
+Skills: Stealth +14, Swim +17
+Racial Modifiers: +2 Stealth (+6 in stony environs)
+Languages: Common, Terran
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
 ### Special Abilities
 

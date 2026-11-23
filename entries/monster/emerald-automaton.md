@@ -29,83 +29,66 @@ abilities = ["20", "13", "-", "-", "11", "1"]
 
 _An eerie green glow shines through the seams of this mechanical creature's armor._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: electricity (5 ft., DC 12)
+Type: construct
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**aura:** electricity (5 ft., DC 12)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 47 (5d10+20)
+Fort: +1
+Ref: +2
+Will: +1
+Dr: 5/adamantine
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: magic dependent
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: guisarme +10 (2d4+7/×3) or longsword +10 (1d8+5/19-20), slam +5 (1d4+2)
+Reach: 5
+Reach P: 10 ft. with guisarme
+Space: 5
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +1
-
-**Ref:** +2
-
-**Will:** +1
-
-**Dr:** 5/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** magic dependent
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** guisarme +10 (2d4+7/×3) or longsword +10 (1d8+5/19-20), slam +5 (1d4+2)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with guisarme
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+12 sunder)
-
-**Combat maneuver defense:** 21 (23 vs. sunder)
-
-**Feats:** Improved Sunder^B^, Power Attack^B^
-
-**Special qualities:** proficient
+::: statblock
+Ability scores: Str 20, Dex 13, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+12 sunder)
+Combat maneuver defense: 21 (23 vs. sunder)
+Feats: Improved Sunder^B^, Power Attack^B^
+Special qualities: proficient
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or squad (3-8)
-
-**Treasure:** Incidental (-guisarme); other treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or squad (3-8)
+Treasure: Incidental (-guisarme); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,106 +31,76 @@ abilities = ["-", "13", "24", "9", "24", "24"]
 _The air here is eerily still, and the normal sound of the wind is replaced by a barely audible
 hum._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+aura: stagnant (240 ft.)
+Size: gargantuan
+Initiative: +5
+Alignment: Neutral evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 19,200
+:::
 
-**aura:** stagnant (240 ft.)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 8
+Touch: 8
+Flat-footed: 6
+AC modifiers: +1 Dex, +1 dodge, -4 size
+Hit points: 162 (13d10+91)
+Fort: +11
+Ref: +9
+Will: +15
+Defensive abilities: gaseous, natural invisibility
+Dr: 10/magic
+Immune: acid, [elemental](ref/subtype/elemental) traits
+Resist: cold 10, electricity 10, fire 10
+Vulner: sonic
+Weaknesses: vulnerability to magic wind
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: fly 60 ft. (perfect)
+Melee: 2 hypoxic touches +9 touch (6d6 and slowed)
+Reach: 20
+Space: 20
+Spec Att: hypoxic heart (DC 23, 6d6 and slowed)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +20
+At will: detect thoughts (DC 19)
+Per day: 3/day: crushing despair (DC 21), quickened murderous command (DC 18), quickened oppressive boredom (DC 19)\
+1/day: envious urge (DC 23), malicious spite (DC 21), song of discord (DC 22)
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 13, Con 24, Int 9, Wis 24, Cha 24
+Base attack bonus: +13
+Combat maneuver bonus: +17
+Combat maneuver defense: 29
+Feats: Alertness, Dodge, Improved Initiative, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (murderous command, oppressive boredom, paranoia)
+Skills: Fly +19, Knowledge (planes) +15, Perception +27, Sense Motive +27, Stealth +5
+Languages: Auran (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Air, Elemental, Extraplanar
+### Ecology {#stat-ecology}
 
-**Experience points:** 19,200
-
-**Armor class:** 8
-
-**Touch:** 8
-
-**Flat-footed:** 6
-
-**AC modifiers:** +1 Dex, +1 dodge, -4 size
-
-**Hit points:** 162 (13d10+91)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +15
-
-**Defensive abilities:** gaseous, natural invisibility
-
-**Dr:** 10/magic
-
-**Immune:** acid, [elemental](ref/subtype/elemental) traits
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Vulner:** sonic
-
-**Weaknesses:** vulnerability to magic wind
-
-**Offense**
-
-**Speed:** fly 60 ft. (perfect)
-
-**Melee:** 2 hypoxic touches +9 touch (6d6 and slowed)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** hypoxic heart (DC 23, 6d6 and slowed)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +20
-
-**At will:**
-
-- detect thoughts (DC 19)
-
-**Per day:**
-
-- 3/day: crushing despair (DC 21), quickened murderous command (DC 18), quickened oppressive boredom
-  (DC 19)
-- 1/day: envious urge (DC 23), malicious spite (DC 21), song of discord (DC 22)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 13, Con 24, Int 9, Wis 24, Cha 24
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 29
-
-**Feats:** Alertness, Dodge, Improved Initiative, Mobility, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (murderous command, oppressive boredom, paranoia)
-
-**Skills:** Fly +19, Knowledge (planes) +15, Perception +27, Sense Motive +27, Stealth +5
-
-**Languages:** Auran (can't speak), Common (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** any air ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any air ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

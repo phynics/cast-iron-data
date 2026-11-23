@@ -30,77 +30,61 @@ abilities = ["2", "12", "17", "-", "10", "2"]
 _This strange eight-legged creature looks vaguely like an insectile bear as it swims through the
 water._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Type: vermin
+Experience points: 50
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 15
+AC modifiers: +1 Dex, +1 natural, +4 size
+Hit points: 7 (1d8+3)
+Fort: +5
+Ref: +1
+Will: +0
+Defensive abilities: hardy
+Immune: mind-affecting effects
+Resist: acid 2, cold 2, fire 2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +0 (1d2-4)
+Reach: 0
+Space: 1
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 2, Dex 12, Con 17, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 3 (15 vs. trip)
+Skills: Climb +9
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 50
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +1 natural, +4 size
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +5
-
-**Ref:** +1
-
-**Will:** +0
-
-**Defensive abilities:** hardy
-
-**Immune:** mind-affecting effects
-
-**Resist:** acid 2, cold 2, fire 2
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +0 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 2, Dex 12, Con 17, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 3 (15 vs. trip)
-
-**Skills:** Climb +9
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

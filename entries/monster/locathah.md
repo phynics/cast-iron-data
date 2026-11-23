@@ -32,74 +32,59 @@ abilities = ["10", "12", "10", "13", "13", "11"]
 _This lean humanoid bears crested fins on its head and back, and has the wide-eyed and wide-lipped
 face of a fish._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +3
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 natural
+Hit points: 9 (2d8)
+Fort: +3
+Ref: +1
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 60 ft.
+Melee: longspear +2 (1d8/×3)
+Ranged: light crossbow +2 (1d8/19-20)
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 10, Dex 12, Con 10, Int 13, Wis 13, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Weapon Focus (longspear)
+Skills: Craft (any one) +6, Perception +3, Swim +8
+Languages: Aquan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 natural
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft.
-
-**Melee:** longspear +2 (1d8/×3)
-
-**Ranged:** light crossbow +2 (1d8/19-20)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 10, Int 13, Wis 13, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Weapon Focus (longspear)
-
-**Skills:** Craft (any one) +6, Perception +3, Swim +8
-
-**Languages:** Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm aquatic
-
-**Organization:** solitary, band (2-10), or tribe (11-30 plus 2 fighter sergeants of 1st-3rd level
-and 1 cleric leader of 3rd-6th level)
-
-**Treasure:** Standard (longspear, light crossbow with 10 bolts); other treasure
+::: statblock
+Environment: temperate or warm aquatic
+Organization: solitary, band (2-10), or tribe (11-30 plus 2 fighter sergeants of 1st-3rd level and 1 cleric leader of 3rd-6th level)
+Treasure: Standard (longspear, light crossbow with 10 bolts); other treasure
+:::
 
 ### Description
 

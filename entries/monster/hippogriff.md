@@ -28,71 +28,58 @@ abilities = ["15", "15", "14", "2", "12", "9"]
 
 _This large, brown, horse-like creature has a hawk's wings, talons, and hooked beak._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 dodge, +2 natural, -1 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 100 ft. (average)
+Melee: bite +4 (1d6+2), 2 claws +4 (1d4+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 15, Con 14, Int 2, Wis 12, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Dodge, Wingover
+Skills: Fly +5, Perception +9
+Racial Modifiers: +4 Perception
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 natural, -1 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft., fly 100 ft. (average)
-
-**Melee:** bite +4 (1d6+2), 2 claws +4 (1d4+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 14, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Dodge, Wingover
-
-**Skills:** Fly +5, Perception +9
-
-**Racial Modifiers:** +4 Perception
-
-**Ecology**
-
-**Environment:** temperate hills or plains
-
-**Organization:** solitary, pair, or flight (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or plains
+Organization: solitary, pair, or flight (7-12)
+Treasure: None
+:::
 
 ### Description
 

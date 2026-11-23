@@ -34,102 +34,77 @@ miniature._
 
 **Jade**
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: tainted air (30 ft.)
+Type: construct
+Size: diminutive
+Initiative: +7
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**aura:** tainted air (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 20
+Touch: 17
+Flat-footed: 16
+AC modifiers: +2 armor, +3 Dex, +4 size
+Hit points: 22 (4d10)
+Fort: +1
+Ref: +6
+Will: +2
+Dr: 5/bludgeoning and magic
+Immune: cold, [construct traits](ref/umr/construct-traits), electricity, fire
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 10 ft.
+Melee: 2 slams +5 (1d2-3)
+Ranged: sliver +10 (1d2-3)
+Reach: 0
+Space: 1
+Spec Att: jade breath, venom affinity
+:::
 
-**Alignment:** Neutral
-
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 1,200
-
-**Armor class:** 20
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +3 Dex, +4 size
-
-**Hit points:** 22 (4d10)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning and magic
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits), electricity, fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 2 slams +5 (1d2-3)
-
-**Ranged:** sliver +10 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** jade breath, venom affinity
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**At will:**
-
-- delay poison, detect poison^S^
-
-**Per day:**
-
-- 3/day: pass without trace, summon monster I, viper only
-- 1/day: neutralize poison, poison (DC 16), true strike
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+At will: delay poison, detect poison^S^
+Per day: 3/day: pass without trace, summon monster I, viper only\
+1/day: neutralize poison, poison (DC 16), true strike
+:::
 
 ###### S {#footnote-s}
 
 See "Share Abilities" below
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 4, Dex 17, Con -, Int 11, Wis 13, Cha 14
+::: statblock
+Ability scores: Str 4, Dex 17, Con -, Int 11, Wis 13, Cha 14
+Base attack bonus: +4
+Combat maneuver bonus: +3
+Combat maneuver defense: 10
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Perception +5, Stealth +19
+Racial Modifiers: +4 Stealth amid jade objects
+Languages: understands creator's language (can't speak)
+Special qualities: inanimate, share abilities
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 10
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +5, Stealth +19
-
-**Racial Modifiers:** +4 Stealth amid jade objects
-
-**Languages:** understands creator's language (can't speak)
-
-**Special qualities:** inanimate, share abilities
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

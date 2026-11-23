@@ -31,92 +31,69 @@ abilities = ["22", "21", "-", "10", "15", "19"]
 _Dressed in filthy rags, this undead woman lacks any facial features. Ragged talons grow from her
 dirty fingers._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +9
+Size: medium
+Alignment: Neutral evil
+Perception: +14
+Senses: Darkvision 60 ft., Fear sense
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 13
+AC modifiers: +5 Dex, +1 dodge, +3 natural
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +8
+Will: +10
+Chan Res: +4
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Melee: 2 slams +12 (1d8+6 plus Charisma drain)
+Spec Att: Charisma drain
+:::
 
-**Senses:** Darkvision 60 ft., Fear sense
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+At will: detect thoughts (DC 16), fear (single target only) (DC 18)
+Per day: 1/day: gaseous form
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 22, Dex 21, Con -, Int 10, Wis 15, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 28
+Feats: Combat Reflexes, Dodge, Improved Initiative, Iron Will, Mobility
+Skills: Disguise +16, Stealth +17
+Languages: Common
+Special qualities: [change shape](ref/umr/change-shape) (bat; [beast shape III](ref/spell/beast-shape-3)), misdirected appearance
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +1 dodge, +3 natural
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +10
-
-**Chan Res:** +4
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Melee:** 2 slams +12 (1d8+6 plus Charisma drain)
-
-**Spec Att:** Charisma drain
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**At will:**
-
-- detect thoughts (DC 16), fear (single target only) (DC 18)
-
-**Per day:**
-
-- 1/day: gaseous form
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 21, Con -, Int 10, Wis 15, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Iron Will, Mobility
-
-**Skills:** Disguise +16, Stealth +17
-
-**Languages:** Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (bat;
-[beast shape III](ref/spell/beast-shape-3)), misdirected appearance
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gathering (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gathering (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

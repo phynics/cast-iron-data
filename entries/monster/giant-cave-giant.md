@@ -32,90 +32,65 @@ abilities = ["23", "10", "17", "6", "10", "7"]
 _Bestial tusks jut from the jaw of this hunched-over giant. It is clad in armor patched together
 from the bones of past victims._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: large
+Perception: +5
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +4 armor, +6 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +3
+Will: +3
+Ferocity: present
+Rock Ct: present
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Initiative:** +0
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., (30 ft. in armor)
+Melee: battleaxe +12/+7 (2d6+9/×3) or 2 slams +11 (1d8+6)
+Ranged: rock +6 (1d8+9)
+Reach: 10
+Rock Th: 100 ft.
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 10, Con 17, Int 6, Wis 10, Cha 7
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 23
+Feats: Cleave, Improved Sunder, Power Attack, Vital Strike, Weapon Focus (battleaxe)
+Skills: Climb +7, Intimidate +7, Perception +5
+Languages: Giant
+Special qualities: axe wielder
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +4 armor, +6 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +3
-
-**Will:** +3
-
-**Ferocity:** present
-
-**Rock Ct:** present
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 40 ft., (30 ft. in armor)
-
-**Melee:** battleaxe +12/+7 (2d6+9/×3) or 2 slams +11 (1d8+6)
-
-**Ranged:** rock +6 (1d8+9)
-
-**Reach:** 10
-
-**Rock Th:** 100 ft.
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 17, Int 6, Wis 10, Cha 7
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23
-
-**Feats:** Cleave, Improved Sunder, Power Attack, Vital Strike, Weapon Focus (battleaxe)
-
-**Skills:** Climb +7, Intimidate +7, Perception +5
-
-**Languages:** Giant
-
-**Special qualities:** axe wielder
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, gang (2-5), band (6-8 plus 1-2
-[monitor lizards](ref/monster/lizard-monitor-lizard)), raiding party (9-12 plus 1-4 monitor
-lizards), or tribe (13-20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of
-3rd-5th level; 2-9 monitor lizards; 1-4
-[giant frilled lizards](ref/monster/lizard-giant-frilled-lizard); and 10-15 dwarf, orc, or
-[troglodyte](ref/monster/troglodyte) slaves)
-
-**Treasure:** Standard (battleaxe, Ah); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, gang (2-5), band (6-8 plus 1-2 [monitor lizards](ref/monster/lizard-monitor-lizard)), raiding party (9-12 plus 1-4 monitor lizards), or tribe (13-20 plus 30% noncombatants, plus 1 barbarian, fighter, or ranger chief of 3rd-5th level; 2-9 monitor lizards; 1-4 [giant frilled lizards](ref/monster/lizard-giant-frilled-lizard); and 10-15 dwarf, orc, or [troglodyte](ref/monster/troglodyte) slaves)
+Treasure: Standard (battleaxe, Ah); other treasure
+:::
 
 ### Special Abilities
 

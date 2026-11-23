@@ -28,73 +28,59 @@ abilities = ["4", "14", "10", "2", "11", "9"]
 
 _Black rosettes and streaks mark the brown fur of this slender feline._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +4
+Will: +0
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: bite -1 (1d3-3), 2 claws -1 (1d2-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 14, Con 10, Int 2, Wis 11, Cha 9
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7 (11 vs. trip)
+Feats: Skill Focus (Climb)
+Skills: Bluff +0 (+4 when mimicking animal sounds), Climb +8, Stealth +14
+Racial Modifiers: +4 Bluff to mimic animal sounds
+Special qualities: sound mimicry (animals)
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** bite -1 (1d3-3), 2 claws -1 (1d2-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 14, Con 10, Int 2, Wis 11, Cha 9
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7 (11 vs. trip)
-
-**Feats:** Skill Focus (Climb)
-
-**Skills:** Bluff +0 (+4 when mimicking animal sounds), Climb +8, Stealth +14
-
-**Racial Modifiers:** +4 Bluff to mimic animal sounds
-
-**Special qualities:** sound mimicry (animals)
-
-**Ecology**
-
-**Environment:** warm forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

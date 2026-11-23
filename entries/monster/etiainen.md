@@ -31,94 +31,73 @@ abilities = ["-", "14", "12", "5", "11", "14"]
 
 _This vaguely humanoid-shaped roil of mist appears to be improbably solid._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic neutral
+Initiative: +2
+Size: medium
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal, Native
+Experience points: 400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 deflection, +2 Dex
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +2
+Will: +3
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: incorporeal touch +4 (1d6 plus memory drain)
+Spec Att: memory drain
+:::
 
-**Perception:** +5
+::: statblock
+title = "Psychic Magic"
+Caster level: 2
+Concentration: +4
+Power points: 15
+Psychoactive powers: deja vu, 1 PE, ghost sound, 0 PE, disguise self, 1 PE, mage hand, 0 PE, mindlink, 1 PE, DC 13, open/close, 0 PE, teleport, self only, 5 PE
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal, Native
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +2 Dex
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +3
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** incorporeal touch +4 (1d6 plus memory drain)
-
-**Spec Att:** memory drain
-
-**Psychic Magic**
-
-**Caster level:** 2
-
-**Concentration:** +4
-
-**Power points:** 15
-
-**Psychoactive powers:**
-
-- deja vu, 1 PE, ghost sound, 0 PE, disguise self, 1 PE, mage hand, 0 PE, mindlink, 1 PE, DC 13,
-  open/close, 0 PE, teleport, self only, 5 PE
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 14, Con 12, Int 5, Wis 11, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse^B^
-
-**Skills:** Disguise +7, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** assume visage, ephemeral existence
+::: statblock
+Ability scores: Str -, Dex 14, Con 12, Int 5, Wis 11, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +6
+Combat maneuver defense: 18
+Feats: Skill Focus (Stealth), Weapon Finesse^B^
+Skills: Disguise +7, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: Common (can't speak)
+Special qualities: assume visage, ephemeral existence
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any urban
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

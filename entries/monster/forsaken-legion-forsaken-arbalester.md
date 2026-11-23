@@ -30,78 +30,60 @@ abilities = ["10", "13", "-", "11", "12", "13"]
 _An eerie green glow emanates from this decayed soldier's bony eye sockets. It wears a rotted
 uniform and carries a massive crossbow._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +5 armor, +1 Dex
+Hit points: 27 (6d8)
+Fort: +2
+Ref: +3
+Will: +6
+Dr: 5/bludgeoning or slashing
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: short sword +4 (1d6/19-20)
+Ranged: mwk repeating heavy crossbow +6 (1d10/19-20)
+Spec Att: rapid fire
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 10, Dex 13, Con -, Int 11, Wis 12, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Improved Initiative, Point-Blank Shot, Precise Shot
+Skills: Knowledge (engineering) +3, Perception +7, Profession (soldier) +7
+Languages: Common, Jistka
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 armor, +1 Dex
-
-**Hit points:** 27 (6d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +6
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** short sword +4 (1d6/19-20)
-
-**Ranged:** mwk repeating heavy crossbow +6 (1d10/19-20)
-
-**Spec Att:** rapid fire
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con -, Int 11, Wis 12, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Point-Blank Shot, Precise Shot
-
-**Skills:** Knowledge (engineering) +3, Perception +7, Profession (soldier) +7
-
-**Languages:** Common, Jistka
-
-**Ecology**
-
-**Environment:** any ruins (Cheliax or Rahadoum)
-
-**Organization:** solitary, squad (2-10), or company (12-24 forsaken arbalesters,
-[defenders](ref/monster/forsaken-legion-forsaken-defender), and
-[foot soldiers](ref/monster/forsaken-legion-forsaken-foot-soldier))
-
-**Treasure:** Standard (scale mail, short sword); mwk
-[repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) with 20 bolts
+::: statblock
+Environment: any ruins (Cheliax or Rahadoum)
+Organization: solitary, squad (2-10), or company (12-24 forsaken arbalesters, [defenders](ref/monster/forsaken-legion-forsaken-defender), and [foot soldiers](ref/monster/forsaken-legion-forsaken-foot-soldier))
+Treasure: Standard (scale mail, short sword); mwk [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) with 20 bolts
+:::
 
 ### Special Abilities
 

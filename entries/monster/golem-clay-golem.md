@@ -30,71 +30,58 @@ abilities = ["24", "9", "-", "-", "11", "1"]
 _This lumbering figure is sculpted from soft clay. It wears filthy rags and crude jewelry, and its
 face is only vaguely humanoid._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: -1 Dex, +16 natural, -1 size
+Hit points: 101 (13d10+30)
+Fort: +4
+Ref: +3
+Will: +4
+Dr: 10/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +19 (2d10+7 plus cursed wound)
+Reach: 10
+Space: 10
+Spec Att: berserk, haste
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 30
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** -1 Dex, +16 natural, -1 size
-
-**Hit points:** 101 (13d10+30)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +4
-
-**Dr:** 10/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +19 (2d10+7 plus cursed wound)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** berserk, haste
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 30
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

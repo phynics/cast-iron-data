@@ -30,121 +30,83 @@ abilities = ["38", "23", "31", "23", "30", "28"]
 _This majestic tree of strange, twisted bark has countless pale fruits and an intensely pleasant
 scent._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+aura: hallucination (60 ft., DC 30, 4d6 hours)
+Size: gargantuan
+Initiative: +10
+Alignment: Neutral
+Perception: +40
+Type: plant
+Senses: Detect thoughts, Low-light vision
+thoughtsense: 60
+tremorsense: 120
+Experience points: 307,200
+:::
 
-**aura:** hallucination (60 ft., DC 30, 4d6 hours)
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 39
+Touch: 12
+Flat-footed: 33
+AC modifiers: +6 Dex, +27 natural, -4 size
+Hit points: 356 (23d8+253)
+Fort: +23
+Ref: +15
+Will: +19
+Dr: 15/cold iron and slashing
+Fh: 15
+Immune: daze, [plant traits](ref/umr/plant-traits)
+Resist: cold 30, electricity 30, fire 30
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: 4 slams +28 (5d6+14)
+Reach: 20
+Space: 20
+Spec Att: hope theft
+:::
 
-**Perception:** +40
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +32
+Constant: detect thoughts (DC 23)
+At will: mass suggestion (DC 25), mind thrust VI (DC 27)
+Per day: 1/day: animate plants (DC 26; self unaffected), weird (DC 28)
+:::
 
-**Type:** plant
+::: statblock
+title = "Psychic Magic"
+Caster level: 23
+Concentration: +32
+Power points: 40
+Psychoactive powers: greater create mindscape, 7 PE, DC 26, dream council, 7 PE, DC 26, dream scan, 6 PE, DC 25, dream voyage, 9 PE, DC 28, greater dispel magic, 6 PE, id insinuation IV, 5 PE, DC 24, microcosm, 9 PE, DC 28, mind probe, 5 PE, DC 26, nightmare, 5 PE, DC 24, psychic image, 9 PE, DC 28
+:::
 
-**Senses:** Detect thoughts, Low-light vision
+### Statistics
 
-**thoughtsense:** 60
+::: statblock
+Ability scores: Str 38, Dex 23, Con 31, Int 23, Wis 30, Cha 28
+Base attack bonus: +17
+Combat maneuver bonus: +35
+Combat maneuver defense: 51 (can't be tripped)
+Feats: Ability Focus (hope theft), Alertness, Combat Reflexes, Greater Spell Focus (divination), Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Quicken Spell, Spell Focus (divination), Toughness, Weapon Focus (slam)
+Skills: Bluff +32, Diplomacy +32, Sense Motive +37, Spellcraft +29
+Languages: Aklo, Common, Elven, Giant, Gm, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 307,200
-
-**Armor class:** 39
-
-**Touch:** 12
-
-**Flat-footed:** 33
-
-**AC modifiers:** +6 Dex, +27 natural, -4 size
-
-**Hit points:** 356 (23d8+253)
-
-**Fort:** +23
-
-**Ref:** +15
-
-**Will:** +19
-
-**Dr:** 15/cold iron and slashing
-
-**Fh:** 15
-
-**Immune:** daze, [plant traits](ref/umr/plant-traits)
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 4 slams +28 (5d6+14)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** hope theft
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +32
-
-**Constant:**
-
-- detect thoughts (DC 23)
-
-**At will:**
-
-- mass suggestion (DC 25), mind thrust VI (DC 27)
-
-**Per day:**
-
-- 1/day: animate plants (DC 26; self unaffected), weird (DC 28)
-
-**Psychic Magic**
-
-**Caster level:** 23
-
-**Concentration:** +32
-
-**Power points:** 40
-
-**Psychoactive powers:**
-
-- greater create mindscape, 7 PE, DC 26, dream council, 7 PE, DC 26, dream scan, 6 PE, DC 25, dream
-  voyage, 9 PE, DC 28, greater dispel magic, 6 PE, id insinuation IV, 5 PE, DC 24, microcosm, 9 PE,
-  DC 28, mind probe, 5 PE, DC 26, nightmare, 5 PE, DC 24, psychic image, 9 PE, DC 28
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 23, Con 31, Int 23, Wis 30, Cha 28
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +35
-
-**Combat maneuver defense:** 51 (can't be tripped)
-
-**Feats:** Ability Focus (hope theft), Alertness, Combat Reflexes, Greater Spell Focus (divination),
-Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Quicken Spell, Spell Focus
-(divination), Toughness, Weapon Focus (slam)
-
-**Skills:** Bluff +32, Diplomacy +32, Sense Motive +37, Spellcraft +29
-
-**Languages:** Aklo, Common, Elven, Giant, Gm, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Ecology**
-
-**Environment:** any coastlines or forests
-
-**Organization:** solitary or grove (1-3 plus 2-7 charmed allies)
-
-**Treasure:** Double
+::: statblock
+Environment: any coastlines or forests
+Organization: solitary or grove (1-3 plus 2-7 charmed allies)
+Treasure: Double
+:::
 
 ### Special Abilities
 

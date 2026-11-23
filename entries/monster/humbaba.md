@@ -30,102 +30,74 @@ abilities = ["41", "16", "30", "11", "24", "21"]
 _This towering, horned, lion-faced giant has long, braided hair and is outfitted in various pieces
 of plate armor._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+aura: prismatic aura (30 ft., DC 26)
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +7
+Type: Monstrous humanoid
+Perception: +32
+Senses: Darkvision 120 ft., True seeing
+Experience points: 204,800
+:::
 
-**aura:** prismatic aura (30 ft., DC 26)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 34
+Touch: 2
+Flat-footed: 34
+AC modifiers: +8 armor, +24 natural, -8 size
+Hit points: 341 (22d10+220)
+Fort: +17
+Ref: +16
+Will: +22
+Fh: 10
+Immune: blindness, death effects, fire, sonic
+Sr: 30
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 60 ft., (40 ft. in armor)
+Br Weap: 60-ft. cone, 20d6 fire, DC 31, usable every 1d4 rounds
+Melee: longsword +29/+24/+19/+14 (6d6+22/17-20) or 2 slams +29 (2d8+15)
+Ranged: rock +18 (2d8+22)
+Reach: 30
+Rock Th: 180 ft.
+Space: 30
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: true seeing
+Per day: 3/day: greater shout (DC 23)\
+1/day: destruction (DC 22), earthquake (DC 23), power word stun
+:::
 
-**Perception:** +32
+### Statistics
 
-**Senses:** Darkvision 120 ft., True seeing
+::: statblock
+Ability scores: Str 41, Dex 16, Con 30, Int 11, Wis 24, Cha 21
+Base attack bonus: +22
+Combat maneuver bonus: +45
+Combat maneuver defense: 58
+Feats: Awesome Blow, Cleave, Critical Focus, Improved Bull Rush, Improved Critical (longsword), Improved Initiative, Intimidating Prowess, Iron Will, Power Attack, Staggering Critical, Vital Strike
+Skills: Climb +34, Intimidate +45, Perception +32
+Languages: Abyssal, Common, Giant
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 2
-
-**Flat-footed:** 34
-
-**AC modifiers:** +8 armor, +24 natural, -8 size
-
-**Hit points:** 341 (22d10+220)
-
-**Fort:** +17
-
-**Ref:** +16
-
-**Will:** +22
-
-**Fh:** 10
-
-**Immune:** blindness, death effects, fire, sonic
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 60 ft., (40 ft. in armor)
-
-**Br Weap:** 60-ft. cone, 20d6 fire, DC 31, usable every 1d4 rounds
-
-**Melee:** longsword +29/+24/+19/+14 (6d6+22/17-20) or 2 slams +29 (2d8+15)
-
-**Ranged:** rock +18 (2d8+22)
-
-**Reach:** 30
-
-**Rock Th:** 180 ft.
-
-**Space:** 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- true seeing
-
-**Per day:**
-
-- 3/day: greater shout (DC 23)
-- 1/day: destruction (DC 22), earthquake (DC 23), power word stun
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 16, Con 30, Int 11, Wis 24, Cha 21
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +45
-
-**Combat maneuver defense:** 58
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Improved Bull Rush, Improved Critical (longsword),
-Improved Initiative, Intimidating Prowess, Iron Will, Power Attack, Staggering Critical, Vital
-Strike
-
-**Skills:** Climb +34, Intimidate +45, Perception +32
-
-**Languages:** Abyssal, Common, Giant
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** Standard (mwk half-plate, longsword); other treasure
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: Standard (mwk half-plate, longsword); other treasure
+:::
 
 ### Special Abilities
 

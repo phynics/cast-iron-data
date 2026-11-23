@@ -31,85 +31,67 @@ abilities = ["18", "3", "-", "-", "11", "1"]
 _This gruesome wall is made stacked corpses mortared together into an unyielding mass of grasping
 limbs, topped with a dragon skull._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: -4
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** -4
+::: statblock
+Armor class: 12
+Touch: 5
+Flat-footed: 12
+AC modifiers: -4 Dex, +7 natural, -1 size
+Hit points: 46 (3d10+30)
+Fort: +1
+Ref: -3
+Will: +1
+Dr: 5/slashing
+Fh: 1
+Immune: [construct traits](ref/umr/construct-traits)
+Resist: acid 5, cold 5, fire 5
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft.
+Melee: 2 slams +6 (1d8+4 plus [grab](ref/umr/grab))
+Push: slam, 5 ft.
+Reach: 5
+Space: 10
+Spec Att: crushing push
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 1,200
-
-**Armor class:** 12
-
-**Touch:** 5
-
-**Flat-footed:** 12
-
-**AC modifiers:** -4 Dex, +7 natural, -1 size
-
-**Hit points:** 46 (3d10+30)
-
-**Fort:** +1
-
-**Ref:** -3
-
-**Will:** +1
-
-**Dr:** 5/slashing
-
-**Fh:** 1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Resist:** acid 5, cold 5, fire 5
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 2 slams +6 (1d8+4 plus [grab](ref/umr/grab))
-
-**Push:** slam, 5 ft.
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** crushing push
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 3, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+10 bull rush, +12 grapple)
-
-**Combat maneuver defense:** 14 (16 vs. bull rush)
-
-**Feats:** Improved Bull Rush^B^
-
-**Special qualities:** fleshy link
+::: statblock
+Ability scores: Str 18, Dex 3, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+10 bull rush, +12 grapple)
+Combat maneuver defense: 14 (16 vs. bull rush)
+Feats: Improved Bull Rush^B^
+Special qualities: fleshy link
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ruins or underground
-
-**Organization:** solitary or pack (2-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ruins or underground
+Organization: solitary or pack (2-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

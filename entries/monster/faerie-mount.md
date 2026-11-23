@@ -29,75 +29,62 @@ abilities = ["13", "10", "17", "2", "13", "12"]
 
 _Short legs and overlarge ears make this broad-chested canine seem almost comical._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +0
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 11
+Touch: 10
+Flat-footed: 11
+AC modifiers: +1 natural
+Hit points: 15 (2d8+6)
+Fort: +6
+Ref: +3
+Will: +1
+Defensive abilities: stability
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: bite +2 (1d6+1)
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 400
-
-**Armor class:** 11
-
-**Touch:** 10
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 natural
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Defensive abilities:** stability
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +2 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 10, Con 17, Int 2, Wis 13, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 12 (16 vs. bull rush, 20 vs. trip)
-
-**Feats:** Endurance, Nimble Moves^B^
-
-**Skills:** Perception +5
-
-**Racial Modifiers:** +4 Survival when tracking by scent
-
-**Special qualities:** sure-footed
+::: statblock
+Ability scores: Str 13, Dex 10, Con 17, Int 2, Wis 13, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 12 (16 vs. bull rush, 20 vs. trip)
+Feats: Endurance, Nimble Moves^B^
+Skills: Perception +5
+Racial Modifiers: +4 Survival when tracking by scent
+Special qualities: sure-footed
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate forests, hills, or plains (First World)
-
-**Organization:** solitary, pair, or wiggle (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, hills, or plains (First World)
+Organization: solitary, pair, or wiggle (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

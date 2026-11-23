@@ -28,69 +28,59 @@ abilities = ["10", "17", "14", "2", "13", "7"]
 _This graceful animal has long slender legs and a pair of sharp, sturdy horns arching back from its
 head._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 6 (1d8+2)
+Fort: +4
+Ref: +7
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 60 ft.
+Melee: gore +1 (1d4)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
-
-**Experience points:** 200
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** gore +1 (1d4)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 14, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 12 (16 vs. trip)
-
-**Feats:** Lightning Reflexes, Run^B^
-
-**Skills:** Perception +5
+::: statblock
+Ability scores: Str 10, Dex 17, Con 14, Int 2, Wis 13, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 12 (16 vs. trip)
+Feats: Lightning Reflexes, Run^B^
+Skills: Perception +5
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm plains
-
-**Organization:** solitary, pair, or herd (3-50)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm plains
+Organization: solitary, pair, or herd (3-50)
+Treasure: None
+:::
 
 ### Description
 

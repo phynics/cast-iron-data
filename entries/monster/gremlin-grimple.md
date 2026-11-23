@@ -34,98 +34,74 @@ abilities = ["3", "13", "12", "10", "11", "6"]
 _This putrid-looking humanoid bears a disquieting resemblance to a half-starved, mange-ridden
 opossum._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +1
+Perception: +4
+Senses: Low-light vision
+Size: tiny
+Experience points: 135
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d6+1)
+Fort: +1
+Ref: +3
+Will: +2
+Dr: 2/cold iron
+:::
 
-**Initiative:** +1
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 20 ft. (clumsy)
+Melee: bite +3 (1d3-4)
+Ranged: rock +3 (1d2-4)
+Reach: 0
+Space: 2-1/2
+Spec Att: putrid vomit
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: -1
+At will: prestidigitation
+Per day: 3/day: grease (DC 9), mage hand, open/close
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 135
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d6+1)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +2
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 20 ft. (clumsy)
-
-**Melee:** bite +3 (1d3-4)
-
-**Ranged:** rock +3 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** putrid vomit
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** -1
-
-**At will:**
-
-- prestidigitation
-
-**Per day:**
-
-- 3/day: grease (DC 9), mage hand, open/close
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 13, Con 12, Int 10, Wis 11, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 5
-
-**Feats:** Skill Focus (Stealth), Weapon Finesse^B^
-
-**Skills:** Climb +13, Fly +1
-
-**Languages:** Undercommon
-
-**Special qualities:** gremlin lice
+::: statblock
+Ability scores: Str 3, Dex 13, Con 12, Int 10, Wis 11, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 5
+Feats: Skill Focus (Stealth), Weapon Finesse^B^
+Skills: Climb +13, Fly +1
+Languages: Undercommon
+Special qualities: gremlin lice
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any urban
-
-**Organization:** solitary, pair, mob (3-8), or infestation (9-16 plus 2-6 trained
-[dire rats](ref/monster/rat-dire-rat) and 1-4 [spider swarms](ref/monster/spider-spider-swarm))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, pair, mob (3-8), or infestation (9-16 plus 2-6 trained [dire rats](ref/monster/rat-dire-rat) and 1-4 [spider swarms](ref/monster/spider-spider-swarm))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

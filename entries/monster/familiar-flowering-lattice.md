@@ -28,71 +28,58 @@ abilities = ["1", "13", "9", "-", "12", "8"]
 
 _This scuttling patchwork plant features flowers of many different shapes and colors._
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +1
+Senses: Low-light vision
+Type: plant
+Experience points: 65
+:::
 
-**Size:** diminutive
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +1
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Reach: 0
+Space: 1
+Spec Att: pollen
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 1, Dex 13, Con 9, Int -, Wis 12, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2
+Skills: Climb +3
+Special qualities: bountiful fruits
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** pollen
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 9, Int -, Wis 12, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2
-
-**Skills:** Climb +3
-
-**Special qualities:** bountiful fruits
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary, pair, or bloom (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary, pair, or bloom (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

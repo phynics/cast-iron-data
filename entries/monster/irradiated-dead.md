@@ -30,73 +30,59 @@ abilities = ["20", "16", "-", "7", "15", "17"]
 _This humanoid creature's pale orange, withered skin peels from its flesh in patches. Its yellow
 eyes stare, unblinking but seething with rage._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +15
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +5 natural
+Hit points: 85 (10d8+40)
+Fort: +6
+Ref: +6
+Will: +9
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +12 (1d6+5 plus radiation)
+Spec Att: create spawn, radioactive, radioactive spew
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 20, Dex 16, Con -, Int 7, Wis 15, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Dodge, Improved Initiative, Power Attack, Toughness
+Skills: Climb +9
+Languages: Common
+:::
 
-**Experience points:** 3,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +5 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +12 (1d6+5 plus radiation)
-
-**Spec Att:** create spawn, radioactive, radioactive spew
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con -, Int 7, Wis 15, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Power Attack, Toughness
-
-**Skills:** Climb +9
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary, pair, or gang (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

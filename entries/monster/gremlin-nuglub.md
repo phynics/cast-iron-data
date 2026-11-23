@@ -29,93 +29,72 @@ abilities = ["13", "18", "15", "8", "9", "12"]
 _This hideous, hunchbacked creature has three glowing blue eyes. Oily hair grows from its head and
 back, covering it like a cloak._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: fey
+Initiative: +4
+Perception: +9
+Senses: Darkvision 120 ft., Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 Dex, +3 natural, +1 size
+Hit points: 19 (3d6+9)
+Fort: +3
+Ref: +7
+Will: +2
+Dr: 5/cold iron
+Sr: 13
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +3 (1d4+1 plus [grab](ref/umr/grab)), 2 claws +4 (1d3+1 plus [trip](ref/umr/trip))
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: prestidigitation
+Per hour: heat metal (DC 13), shocking grasp, snare
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 600
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +3 natural, +1 size
-
-**Hit points:** 19 (3d6+9)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +2
-
-**Dr:** 5/cold iron
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +3 (1d4+1 plus [grab](ref/umr/grab)), 2 claws +4 (1d3+1 plus [trip](ref/umr/trip))
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- prestidigitation
-
-**Per hour:**
-
-- heat metal (DC 13), shocking grasp, snare
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 18, Con 15, Int 8, Wis 9, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1 (+5 grapple and trip)
-
-**Combat maneuver defense:** 15
-
-**Feats:** Step Up, Toughness^B^, Weapon Focus (claw)
-
-**Skills:** Acrobatics +10, Climb +9, Craft (traps) +9, Intimidate +8, Perception +9, Stealth +14
-
-**Racial Modifiers:** +4 Craft (traps), +4 Intimidate, +4 Perception
-
-**Languages:** Undercommon
-
-**Special qualities:** kneecapper
+::: statblock
+Ability scores: Str 13, Dex 18, Con 15, Int 8, Wis 9, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: +1 (+5 grapple and trip)
+Combat maneuver defense: 15
+Feats: Step Up, Toughness^B^, Weapon Focus (claw)
+Skills: Acrobatics +10, Climb +9, Craft (traps) +9, Intimidate +8, Perception +9, Stealth +14
+Racial Modifiers: +4 Craft (traps), +4 Intimidate, +4 Perception
+Languages: Undercommon
+Special qualities: kneecapper
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground or urban
-
-**Organization:** solitary, pair, or mob (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground or urban
+Organization: solitary, pair, or mob (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

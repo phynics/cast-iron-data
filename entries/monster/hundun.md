@@ -31,120 +31,79 @@ abilities = ["34", "22", "29", "18", "23", "27"]
 
 _The wrinkled, blotchy skin of this giant hangs from its body like hooded robes, masking its face._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Type: aberration
+blindsense: 300
+Alignment: Chaotic evil
+Initiative: +10
+Size: large
+Perception: +36
+Senses: Detect law
+Subtype: Chaotic, Extraplanar
+Experience points: 409,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 300
+::: statblock
+Armor class: 37
+Touch: 23
+Flat-footed: 31
+AC modifiers: +8 deflection, +6 Dex, +14 natural, -1 size
+Hit points: 364 (27d8+243)
+Fort: +18
+Ref: +23
+Will: +21
+Defensive abilities: entropic mind, negative energy affinity, spacetime shifting
+Dr: 15/lawful and piercing
+Evasion: present
+Immune: aging effects, cold, disease, mind-affecting effects, petrification, poison
+Resist: fire 30
+Sr: 32
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 60 ft.
+Melee: unarmed strike +32/+32/+27/+27/+22/+22/+17 (4d8+12/19-20 plus 1d6 negative energy)
+Reach: 10
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: befuddling strike (6/day, DC 29), punishing kick (6/day, DC 29), strange attractor
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +29
+Constant: air walk, detect law
+At will: chaos hammer (DC 22), dimension door, enervation, greater dispel magic, mass inflict moderate wounds (DC 24), plane shift (DC 23)
+Per day: 3/day: quickened dimension door, disintegrate (DC 24), quickened mass inflict moderate wounds (DC 24), word of chaos (DC 25)\
+1/day: orb of the void (DC 26)
+:::
 
-**Perception:** +36
+### Statistics
 
-**Senses:** Detect law
+::: statblock
+Ability scores: Str 34, Dex 22, Con 29, Int 18, Wis 23, Cha 27
+Base attack bonus: +20
+Combat maneuver bonus: +33
+Combat maneuver defense: 57
+Feats: Befuddling Strike, Blind-Fight, Combat Reflexes, Dimensional Agility, Dimensional Assault, Dimensional Dervish, Greater Blind-Fight, Improved Blind-Fight, Improved Critical (unarmed strike), Improved Initiative, Improved Unarmed Strike, Punishing Kick, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (dimension door), Quicken Spell-Like Ability (mass inflict moderate wounds), Weapon Focus (unarmed strike)
+Skills: Acrobatics +36, Climb +30
+Languages: Abyssal (can't speak), Aklo (can't speak), Protean (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: faceless, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Chaotic, Extraplanar
+### Ecology
 
-**Experience points:** 409,600
-
-**Armor class:** 37
-
-**Touch:** 23
-
-**Flat-footed:** 31
-
-**AC modifiers:** +8 deflection, +6 Dex, +14 natural, -1 size
-
-**Hit points:** 364 (27d8+243)
-
-**Fort:** +18
-
-**Ref:** +23
-
-**Will:** +21
-
-**Defensive abilities:** entropic mind, negative energy affinity, spacetime shifting
-
-**Dr:** 15/lawful and piercing
-
-**Evasion:** present
-
-**Immune:** aging effects, cold, disease, mind-affecting effects, petrification, poison
-
-**Resist:** fire 30
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** unarmed strike +32/+32/+27/+27/+22/+22/+17 (4d8+12/19-20 plus 1d6 negative energy)
-
-**Reach:** 10
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** befuddling strike (6/day, DC 29), punishing kick (6/day, DC 29), strange attractor
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +29
-
-**Constant:**
-
-- air walk, detect law
-
-**At will:**
-
-- chaos hammer (DC 22), dimension door, enervation, greater dispel magic, mass inflict moderate
-  wounds (DC 24), plane shift (DC 23)
-
-**Per day:**
-
-- 3/day: quickened dimension door, disintegrate (DC 24), quickened mass inflict moderate wounds (DC
-  24), word of chaos (DC 25)
-- 1/day: orb of the void (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 22, Con 29, Int 18, Wis 23, Cha 27
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 57
-
-**Feats:** Befuddling Strike, Blind-Fight, Combat Reflexes, Dimensional Agility, Dimensional
-Assault, Dimensional Dervish, Greater Blind-Fight, Improved Blind-Fight, Improved Critical (unarmed
-strike), Improved Initiative, Improved Unarmed Strike, Punishing Kick, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (dimension door), Quicken Spell-Like Ability
-(mass inflict moderate wounds), Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +36, Climb +30
-
-**Languages:** Abyssal (can't speak), Aklo (can't speak), Protean (can't speak);
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** faceless, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss), [Limbo](ref/rule/limbo), or
-[Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary, pair, or mob (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss), [Limbo](ref/rule/limbo), or [Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary, pair, or mob (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

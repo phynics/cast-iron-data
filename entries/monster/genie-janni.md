@@ -32,95 +32,73 @@ abilities = ["16", "15", "12", "14", "15", "13"]
 _This regal figure looks like a tall, well-proportioned human, save that its eyes sparkle with
 strange light._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +6 armor, +2 Dex, +1 dodge, +1 natural
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +7
+Will: +4
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 20 ft. (perfect)
+Melee: scimitar +9/+4 (1d6+4/18-20)
+Ranged: composite longbow +8/+3 (1d8+3/×3)
+Sp Extra: 20 ft., fly 15 ft. (perfect) in chainmail
+Spec Att: change size
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Per day: 3/day: invisibility, self only, plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, speak with animals\
+1/day: create food and water, ethereal jaunt, for 1 hour
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Native
-
-**Experience points:** 1,200
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 armor, +2 Dex, +1 dodge, +1 natural
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +4
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (perfect)
-
-**Melee:** scimitar +9/+4 (1d6+4/18-20)
-
-**Ranged:** composite longbow +8/+3 (1d8+3/×3)
-
-**Sp Extra:** 20 ft., fly 15 ft. (perfect) in chainmail
-
-**Spec Att:** change size
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Per day:**
-
-- 3/day: invisibility, self only, plane shift, willing targets to elemental planes, Astral Plane, or
-  Material Plane only, speak with animals
-- 1/day: create food and water, ethereal jaunt, for 1 hour
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 12, Int 14, Wis 15, Cha 13
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative^B^, Mobility
-
-**Skills:** Appraise +11, Craft (any one - usually weaponsmith) +11, Fly +14, Sense Motive +11,
-Spellcraft +11, Stealth +6
-
-**Languages:** Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language
-(Abyssal, Celestial, or Infernal); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** elemental endurance
+::: statblock
+Ability scores: Str 16, Dex 15, Con 12, Int 14, Wis 15, Cha 13
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Dodge, Improved Initiative^B^, Mobility
+Skills: Appraise +11, Craft (any one - usually weaponsmith) +11, Fly +14, Sense Motive +11, Spellcraft +11, Stealth +6
+Languages: Common, one elemental language (Aquan, Auran, Ignan, or Terran), one planar language (Abyssal, Celestial, or Infernal); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: elemental endurance
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, company (3-6), or band (7-12)
-
-**Treasure:** Standard (chainmail, cl+3, scimitar); other gear
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, company (3-6), or band (7-12)
+Treasure: Standard (chainmail, cl+3, scimitar); other gear
+:::
 
 ### Special Abilities
 

@@ -33,113 +33,79 @@ abilities = ["40", "8", "32", "9", "15", "17"]
 _The skull of some many-fanged sea monster adorns the bow of this ominous pirate vessel, a grim ship
 made all the more disturbing by its apparent lack of a crew._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +3
+Keen Scent: present
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Extraplanar, Water
+tremorsense: 60
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 30
+Touch: 6
+Flat-footed: 30
+AC modifiers: +5 deflection, -1 Dex, +24 natural, -8 size
+Hit points: 297 (18d10+198)
+Fort: +22
+Ref: +5
+Will: +13
+Dr: 10/lawful
+Fh: 10
+Resist: acid 30, cold 30, electricity 30, fire 10
+Sr: 26
+:::
 
-**Initiative:** +3
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Melee: 3 incorporeal touch +25 (3d6 plus 3d6 electricity and 3d6 fire)
+Ranged: telekinesis +21 (varies)
+Reach: 30
+Sp Extra: rush
+Space: 40
+Spec Att: keelhaul
+Swallow: 1d10+7 damage, AC 22, 29 hp
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +21
+At will: commune with nature, dancing lights, know direction, telekinesis (DC 18)
+Per day: 3/day: charm person (DC 14), cloudkill (DC 18), control winds, invisibility sphere, major image, DC 16; within its reach only, plane shift (DC 18), seeming, DC 18; other creatures only, teleport, water breathing, widened fog cloud\
+1/day: summon (level 7, 11-20 draugr 100%)
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 40, Dex 8, Con 32, Int 9, Wis 15, Cha 17
+Base attack bonus: +18
+Combat maneuver bonus: +41
+Combat maneuver defense: 55
+Feats: Combat Casting, Combat Reflexes, Disruptive, Greater Overrun, Improved Initiative, Improved Overrun, Power Attack, Spellbreaker, Stand Still
+Skills: Knowledge (engineering, nature) +11, Perception +23, Swim +44
+Languages: Common; [telepathy](ref/umr/telepathy) 200 ft.
+Special qualities: fighter training, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Chaotic, Extraplanar, Water
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 6
-
-**Flat-footed:** 30
-
-**AC modifiers:** +5 deflection, -1 Dex, +24 natural, -8 size
-
-**Hit points:** 297 (18d10+198)
-
-**Fort:** +22
-
-**Ref:** +5
-
-**Will:** +13
-
-**Dr:** 10/lawful
-
-**Fh:** 10
-
-**Resist:** acid 30, cold 30, electricity 30, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** 3 incorporeal touch +25 (3d6 plus 3d6 electricity and 3d6 fire)
-
-**Ranged:** telekinesis +21 (varies)
-
-**Reach:** 30
-
-**Sp Extra:** rush
-
-**Space:** 40
-
-**Spec Att:** keelhaul
-
-**Swallow:** 1d10+7 damage, AC 22, 29 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +21
-
-**At will:**
-
-- commune with nature, dancing lights, know direction, telekinesis (DC 18)
-
-**Per day:**
-
-- 3/day: charm person (DC 14), cloudkill (DC 18), control winds, invisibility sphere, major image,
-  DC 16; within its reach only, plane shift (DC 18), seeming, DC 18; other creatures only, teleport,
-  water breathing, widened fog cloud
-- 1/day: summon (level 7, 11-20 draugr 100%)
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 8, Con 32, Int 9, Wis 15, Cha 17
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 55
-
-**Feats:** Combat Casting, Combat Reflexes, Disruptive, Greater Overrun, Improved Initiative,
-Improved Overrun, Power Attack, Spellbreaker, Stand Still
-
-**Skills:** Knowledge (engineering, nature) +11, Perception +23, Swim +44
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 200 ft.
-
-**Special qualities:** fighter training, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

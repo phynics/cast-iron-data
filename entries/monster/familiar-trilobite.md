@@ -27,81 +27,65 @@ special_qualities = "curl, water dependency"
 abilities = ["7", "15", "12", "-", "11", "2"]
 +++
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 30 ft.
+Subtype: Aquatic
+Size: tiny
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 30 ft.
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Melee: bite +4 (1d3-2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Size:** tiny
-
-**Type:** vermin
-
-**Experience points:** 100
-
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Melee:** bite +4 (1d3-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 15, Con 12, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 8
-
-**Feats:** Weapon Finesse^B^
-
-**Skills:** Perception +4, Swim +10
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** curl, water dependency
+::: statblock
+Ability scores: Str 7, Dex 15, Con 12, Int -, Wis 11, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 8
+Feats: Weapon Finesse^B^
+Skills: Perception +4, Swim +10
+Racial Modifiers: +4 Perception
+Special qualities: curl, water dependency
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any oceans
-
-**Organization:** solitary, pair, group (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, group (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

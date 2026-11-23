@@ -31,109 +31,76 @@ abilities = ["23", "19", "18", "14", "15", "16"]
 _This being resembles a powerful giant with hairless blue-green skin, deep blue eyes, flamboyant
 eyebrows, and pearlescent teeth._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Initiative: +8
+Size: large
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Water
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +10
+Ref: +12
+Will: +10
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Melee: 2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)
+Reach: 10
+Space: 10
+Spec Att: vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 22), water mastery, water's fury
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Constant: detect evil, detect good, detect magic, water walk
+At will: create water, invisibility, plane shift, willing targets to elemental planes, Astral Plane, or Material Plane only, purify food and drink, liquids only, quench
+Per day: 5/day: control water, gaseous form, obscuring mist, water breathing\
+3/day: see invisibility\
+1/day: persistent image (DC 18)
+Per year: !grant 1 [wish](ref/spell/wish) (to non-genies only)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Water
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Melee:** 2 slams +17 (2d6+6) or mwk trident +18/+13/+8 (2d6+9)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** vortex (1/10 minutes, 10-50 ft. tall, 1d8+4 damage, DC 22), water mastery, water's
-fury
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Constant:**
-
-- detect evil, detect good, detect magic, water walk
-
-**At will:**
-
-- create water, invisibility, plane shift, willing targets to elemental planes, Astral Plane, or
-  Material Plane only, purify food and drink, liquids only, quench
-
-**Per day:**
-
-- 5/day: control water, gaseous form, obscuring mist, water breathing
-- 3/day: see invisibility
-- 1/day: persistent image (DC 18)
-
-**Per year:**
-
-- !grant 1 [wish](ref/spell/wish) (to non-genies only)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 19, Con 18, Int 14, Wis 15, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34
-
-**Feats:** Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative^B^, Improved
-Natural Attack, Power Attack
-
-**Skills:** Craft (any one) +17, Diplomacy +18, Sense Motive +17, Spellcraft +17, Stealth +15, Swim
-+29
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (water elemental, humanoid or giant;
-[alter self](ref/spell/alter-self), [elemental body III](ref/spell/elemental-body-3), or
-[giant form I](ref/spell/giant-form-1))
+::: statblock
+Ability scores: Str 23, Dex 19, Con 18, Int 14, Wis 15, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 34
+Feats: Combat Casting, Combat Reflexes, Dodge, Great Fortitude, Improved Initiative^B^, Improved Natural Attack, Power Attack
+Skills: Craft (any one) +17, Diplomacy +18, Sense Motive +17, Spellcraft +17, Stealth +15, Swim +29
+Languages: Aquan, Auran, Common, Ignan, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (water elemental, humanoid or giant; [alter self](ref/spell/alter-self), [elemental body III](ref/spell/elemental-body-3), or [giant form I](ref/spell/giant-form-1))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pair, company (3-6), or band (7-12)
-
-**Treasure:** Standard (mwk trident); other gear
+::: statblock
+Environment: any ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pair, company (3-6), or band (7-12)
+Treasure: Standard (mwk trident); other gear
+:::
 
 ### Special Abilities
 

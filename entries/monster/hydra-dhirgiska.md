@@ -29,78 +29,58 @@ abilities = ["19", "14", "20", "2", "13", "11"]
 _This massive hydra has black and green scales, and caustic purple venom drips from its numerous
 sets of fangs._
 
-**Challenge rating:** 13
-
 **Miasma hydra**
 
-**Size:** huge
+::: statblock
+Challenge rating: 13
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 25,600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 22
+Touch: 10
+Flat-footed: 20
+AC modifiers: +2 Dex, +12 natural, -2 size
+Hit points: 138 (12d10+72)
+Fort: +15
+Ref: +12
+Will: +7
+Dr: 10/cold iron
+Fh: 12
+Immune: disease, poison
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Br Weap: 15-ft. cone, cloudkill, Fort DC 21 partial, usable every 1d4 rounds
+Melee: 12 bites +14 (1d8+4 plus poison)
+Pounce: present
+Reach: 15
+Space: 20
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 25,600
-
-**Armor class:** 22
-
-**Touch:** 10
-
-**Flat-footed:** 20
-
-**AC modifiers:** +2 Dex, +12 natural, -2 size
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +15
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 10/cold iron
-
-**Fh:** 12
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Br Weap:** 15-ft. cone, cloudkill, Fort DC 21 partial, usable every 1d4 rounds
-
-**Melee:** 12 bites +14 (1d8+4 plus poison)
-
-**Pounce:** present
-
-**Reach:** 15
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 20, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 30 (34 vs. trip)
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Initiative, Improved Natural Attack (bite),
-Iron Will, Lightning Reflexes, Toughness^B^, Snatch^B^
-
-**Skills:** Perception +12, Swim +21
-
-**Racial Modifiers:** +2 Perception
-
-**Special qualities:** bloodspray, hydra traits, regenerate head
+::: statblock
+Ability scores: Str 19, Dex 14, Con 20, Int 2, Wis 13, Cha 11
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 30 (34 vs. trip)
+Feats: Combat Reflexes, Great Fortitude, Improved Initiative, Improved Natural Attack (bite), Iron Will, Lightning Reflexes, Toughness^B^, Snatch^B^
+Skills: Perception +12, Swim +21
+Racial Modifiers: +2 Perception
+Special qualities: bloodspray, hydra traits, regenerate head
+:::
 
 ###### B {#footnote-b}
 

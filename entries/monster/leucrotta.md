@@ -34,77 +34,61 @@ abilities = ["21", "12", "18", "11", "14", "17"]
 _This freakish beast has the head of a badger, the hooves of a stag, and a wide mouth with sharp
 ridges of bone instead of teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Type: Magical beast
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +6
+Will: +4
+Immune: disease, poison
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 60 ft., climb 30 ft.
+Melee: bite +10 (2d6+7/19-20), 2 hooves +5 (1d6+2)
+Reach: 5
+Space: 10
+Spec Att: lure, powerful bite
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 12, Con 18, Int 11, Wis 14, Cha 17
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Improved Initiative, Skill Focus (Bluff), Skill Focus (Stealth)
+Skills: Bluff +12, Climb +13, Stealth +9
+Languages: Common
+Special qualities: sound mimicry (voices)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +4
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 60 ft., climb 30 ft.
-
-**Melee:** bite +10 (2d6+7/19-20), 2 hooves +5 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** lure, powerful bite
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 12, Con 18, Int 11, Wis 14, Cha 17
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Bluff), Skill Focus (Stealth)
-
-**Skills:** Bluff +12, Climb +13, Stealth +9
-
-**Languages:** Common
-
-**Special qualities:** sound mimicry (voices)
-
-**Ecology**
-
-**Environment:** temperate or tropical forests or hills
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or tropical forests or hills
+Organization: solitary, pair, or pack (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

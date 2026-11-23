@@ -31,106 +31,73 @@ abilities = ["30", "27", "30", "22", "21", "33"]
 _This blood-soaked humanoid is festooned with razored shards of metal. Skeletal wings protrude from
 its bleeding shoulders._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Initiative: +12
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +34
+Senses: Darkvision 60 ft., True seeing
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 307,200
+:::
 
-**Initiative:** +12
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 38
+Touch: 19
+Flat-footed: 29
+AC modifiers: +8 Dex, +1 dodge, +19 natural
+Hit points: 310 (20d10+200)
+Fort: +22
+Ref: +16
+Will: +19
+Dr: 15/good and silver
+Immune: cold, fear effects, nonlethal damage, pain
+Regen: 15 (good weapons and spells, silver weapons)
+Sr: 31
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: bite +30 (2d6+10 plus pain), 2 claws +30 (2d6+10/19-20 plus [grab](ref/umr/grab) and pain), 2 wings +25 (1d8+5 plus pain)
+Spec Att: evisceration, unnerving gaze (30 ft., DC 31)
+:::
 
-**Perception:** +34
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +31
+Constant: true seeing
+At will: greater teleport, self plus 50 lbs. of objects only, inflict critical wounds (DC 25), shadow walk, telekinesis (DC 26)
+Per day: 3/day: blade barrier (DC 27), dimensional lock, forcecage (DC 28), greater shadow evocation (DC 29), heal, self only, insanity (DC 28), mass inflict critical wounds (DC 29), plane shift (DC 28), shades (DC 30), symbol of pain (DC 26), wall of force\
+1/day: binding (DC 29), trap the soul (DC 29)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 30, Dex 27, Con 30, Int 22, Wis 21, Cha 33
+Base attack bonus: +20
+Combat maneuver bonus: +30 (+34 grapple)
+Combat maneuver defense: 49
+Feats: Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Improved Critical (claws), Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception), Spell Penetration
+Skills: Bluff +34, Diplomacy +34, Sense Motive +28, Spellcraft +29, Stealth +31, Use Magic Device +31
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: graft flesh, shadow traveler
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 38
-
-**Touch:** 19
-
-**Flat-footed:** 29
-
-**AC modifiers:** +8 Dex, +1 dodge, +19 natural
-
-**Hit points:** 310 (20d10+200)
-
-**Fort:** +22
-
-**Ref:** +16
-
-**Will:** +19
-
-**Dr:** 15/good and silver
-
-**Immune:** cold, fear effects, nonlethal damage, pain
-
-**Regen:** 15 (good weapons and spells, silver weapons)
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** bite +30 (2d6+10 plus pain), 2 claws +30 (2d6+10/19-20 plus [grab](ref/umr/grab) and
-pain), 2 wings +25 (1d8+5 plus pain)
-
-**Spec Att:** evisceration, unnerving gaze (30 ft., DC 31)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +31
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, inflict critical wounds (DC 25), shadow walk,
-  telekinesis (DC 26)
-
-**Per day:**
-
-- 3/day: blade barrier (DC 27), dimensional lock, forcecage (DC 28), greater shadow evocation (DC
-  29), heal, self only, insanity (DC 28), mass inflict critical wounds (DC 29), plane shift (DC 28),
-  shades (DC 30), symbol of pain (DC 26), wall of force
-- 1/day: binding (DC 29), trap the soul (DC 29)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 27, Con 30, Int 22, Wis 21, Cha 33
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +30 (+34 grapple)
-
-**Combat maneuver defense:** 49
-
-**Feats:** Combat Casting, Combat Expertise, Combat Reflexes, Dodge, Improved Critical (claws),
-Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception), Spell Penetration
-
-**Skills:** Bluff +34, Diplomacy +34, Sense Motive +28, Spellcraft +29, Stealth +31, Use Magic
-Device +31
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** graft flesh, shadow traveler
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary, pair, or cell (3-5)
-
-**Treasure:** Double
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary, pair, or cell (3-5)
+Treasure: Double
+:::
 
 ### Special Abilities
 

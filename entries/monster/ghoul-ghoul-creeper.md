@@ -29,87 +29,66 @@ special_qualities = "rogue talents (bleeding attack +2), trapfinding +1"
 abilities = ["17", "19", "-", "13", "16", "16"]
 +++
 
-**Challenge rating:** 3
-
 **Ghoul [rogue](ref/class/rogue) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +2 armor, +4 Dex, +2 natural
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +7
+Will: +7
+Chan Res: +2
+Evasion: present
+Immune: [undead traits](ref/umr/undead-traits)
+Trap S: +1
+:::
 
-**Perception:** +11
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: bite +7 (1d6+3 plus disease and paralysis), 2 claws +7 (1d6+3 plus paralysis)
+Paralysis: 1d4+1 rounds, DC 14, elves are immune to this effect
+Ranged: mwk light crossbow +8 (1d8/19-20)
+Spec Att: disease (DC 14), [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 17, Dex 19, Con -, Int 13, Wis 16, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Bag of Bones, Power Attack, Weapon Finesse
+Skills: Acrobatics +12, Bluff +11, Climb +11, Disable Device +5, Escape Artist +17, Intimidate +11, Perception +11, Sleight of Hand +12, Stealth +12
+Languages: Common, Undercommon
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +2), [trapfinding](ref/ability/trapfinding) +1
+Combat gear: potion of greater magic fang, potion of inflict moderate wounds, tanglefoot bag
+Other gear: leather armor, mwk light crossbow with 20 bolts, 204 gp
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 armor, +4 Dex, +2 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Evasion:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Trap S:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +7 (1d6+3 plus disease and paralysis), 2 claws +7 (1d6+3 plus paralysis)
-
-**Paralysis:** 1d4+1 rounds, DC 14, elves are immune to this effect
-
-**Ranged:** mwk light crossbow +8 (1d8/19-20)
-
-**Spec Att:** disease (DC 14), [sneak attack](ref/ability/sneak-attack) +2d6
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con -, Int 13, Wis 16, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Bag of Bones, Power Attack, Weapon Finesse
-
-**Skills:** Acrobatics +12, Bluff +11, Climb +11, Disable Device +5, Escape Artist +17, Intimidate
-+11, Perception +11, Sleight of Hand +12, Stealth +12
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +2),
-[trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** potion of greater magic fang, potion of inflict moderate wounds, tanglefoot bag
-
-**Other gear:** leather armor, mwk light crossbow with 20 bolts, 204 gp
-
-**Ecology**
-
-**Environment:** any land
+::: statblock
+Environment: any land
+:::
 
 ### Description
 

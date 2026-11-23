@@ -31,90 +31,69 @@ abilities = ["18", "16", "14", "13", "17", "13"]
 _This creature's upper torso is that of a comely woman with cat's eyes and sharp fangs, while her
 lower body is that of a lion._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +7 natural, -1 size
+Hit points: 67 (9d10+18)
+Fort: +7
+Ref: +9
+Will: +11
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 60 ft.
+Melee: +1 dagger +13/+8 (1d4+4/19-20), touch +7 (1d4 Wisdom drain), 2 claws +7 (1d4+2)
+Reach: 5
+Space: 10
+Spec Att: Wisdom drain
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+At will: disguise self, ventriloquism
+Per day: 3/day: charm monster (DC 15), major image (DC 14), mirror image, suggestion (DC 14)\
+1/day: deep slumber (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 18, Dex 16, Con 14, Int 13, Wis 17, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +14
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Dodge, Great Fortitude, Iron Will, Mobility, Spring Attack
+Skills: Bluff +9, Diplomacy +4, Intimidate +10, Knowledge (religion) +4, Perception +15
+Racial Modifiers: +4 Bluff, +4 Stealth
+Languages: Abyssal, Common
+Special qualities: [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +7 natural, -1 size
-
-**Hit points:** 67 (9d10+18)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +11
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** +1 dagger +13/+8 (1d4+4/19-20), touch +7 (1d4 Wisdom drain), 2 claws +7 (1d4+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** Wisdom drain
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**At will:**
-
-- disguise self, ventriloquism
-
-**Per day:**
-
-- 3/day: charm monster (DC 15), major image (DC 14), mirror image, suggestion (DC 14)
-- 1/day: deep slumber (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 16, Con 14, Int 13, Wis 17, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Dodge, Great Fortitude, Iron Will, Mobility, Spring Attack
-
-**Skills:** Bluff +9, Diplomacy +4, Intimidate +10, Knowledge (religion) +4, Perception +15
-
-**Racial Modifiers:** +4 Bluff, +4 Stealth
-
-**Languages:** Abyssal, Common
-
-**Special qualities:** [undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** temperate deserts
-
-**Organization:** solitary, pair, or cult (3-12)
-
-**Treasure:** Double (+1 dagger); other treasure
+::: statblock
+Environment: temperate deserts
+Organization: solitary, pair, or cult (3-12)
+Treasure: Double (+1 dagger); other treasure
+:::
 
 ### Special Abilities
 

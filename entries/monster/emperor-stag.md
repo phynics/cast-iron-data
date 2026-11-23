@@ -28,69 +28,57 @@ abilities = ["15", "18", "20", "2", "15", "11"]
 
 _A wide rack of ivory-white antlers crowns the head of this majestic tawny stag._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 natural
+Hit points: 38 (4d8+20)
+Fort: +9
+Ref: +8
+Will: +3
+Defensive abilities: wary reaction
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +5 (1d6+2), 2 hooves +0 (1d4+1)
+Sp Extra: nimble footing
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 18, Con 20, Int 2, Wis 15, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Endurance, Run, Skill Focus (Acrobatics, Perception)
+Skills: Acrobatics +12 (+20 when jumping), Perception +10
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 natural
-
-**Hit points:** 38 (4d8+20)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +3
-
-**Defensive abilities:** wary reaction
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +5 (1d6+2), 2 hooves +0 (1d4+1)
-
-**Sp Extra:** nimble footing
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 20, Int 2, Wis 15, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Endurance, Run, Skill Focus (Acrobatics, Perception)
-
-**Skills:** Acrobatics +12 (+20 when jumping), Perception +10
-
-**Ecology**
-
-**Environment:** temperate hills or forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills or forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

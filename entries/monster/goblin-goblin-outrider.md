@@ -30,88 +30,69 @@ special_qualities = "track +1, wild empathy +0"
 abilities = ["13", "18", "13", "10", "12", "6"]
 +++
 
-**Challenge rating:** 1
-
 **Goblin [ranger](ref/class/ranger) 2**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1
+Type: humanoid
+Initiative: +4
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 16
+AC modifiers: +3 armor, +4 Dex, +2 shield, +1 size
+Hit points: 19 (2d10+4)
+Fort: +4
+Ref: +7
+Will: +1
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
-
-**Size:** small
-
-**Subtype:** Goblinoid
-
-**Experience points:** 400
-
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 armor, +4 Dex, +2 shield, +1 size
-
-**Hit points:** 19 (2d10+4)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** mwk dogslicer +5 (1d4+1/19-20)
-
-**Ranged:** shortbow +7 (1d4/×3)
-
-**Spec Att:** combat style (mounted combat)
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: mwk dogslicer +5 (1d4+1/19-20)
+Ranged: shortbow +7 (1d4/×3)
+Spec Att: combat style (mounted combat)
+:::
 
 ### Tactics
 
 **During Combat** The goblin outrider uses its bow or alchemist's fire, then switches to Power
 Attack to increase its damage and Ride-By Attack to keep away from melee opponents.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 13, Dex 18, Con 13, Int 10, Wis 12, Cha 6
+::: statblock
+Ability scores: Str 13, Dex 18, Con 13, Int 10, Wis 12, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 16
+Feats: Power Attack, Ride-By Attack
+Skills: Acrobatics +3, Handle Animal +3, Ride +10
+Racial Modifiers: +4 Ride, +4 Stealth
+Languages: Goblin
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +0
+Combat gear: potion of bull's strength, 2 potion of cure light wounds, 4 alchemist's fire, 2 tanglefoot bags
+Other gear: studded leather armor, heavy wooden shield, mwk dogslicer, shortbow, 20 mwk arrows, 7 tts, [giant gecko](ref/monster/lizard-giant-gecko) mount, 2 gp
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 16
-
-**Feats:** Power Attack, Ride-By Attack
-
-**Skills:** Acrobatics +3, Handle Animal +3, Ride +10
-
-**Racial Modifiers:** +4 Ride, +4 Stealth
-
-**Languages:** Goblin
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +0
-
-**Combat gear:** potion of bull's strength, 2 potion of cure light wounds, 4 alchemist's fire, 2
-tanglefoot bags
-
-**Other gear:** studded leather armor, heavy wooden shield, mwk dogslicer, shortbow, 20 mwk arrows,
-7 tts, [giant gecko](ref/monster/lizard-giant-gecko) mount, 2 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

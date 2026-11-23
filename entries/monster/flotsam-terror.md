@@ -31,79 +31,62 @@ abilities = ["14", "11", "-", "7", "12", "15"]
 _This mass of detritus, sea foam, and seaweed undulates and quivers as it moves. The mass has a
 humanoid shape roughly the size of a child._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +4
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Size: small
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 16
+AC modifiers: +5 natural, +1 size
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +2
+Will: +9
+Defensive abilities: flotsam repair
+Dr: 5/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: 2 slams +8 (1d8+2)
+Ranged: flotsam missile +5 (1d8+2)
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 14, Dex 11, Con -, Int 7, Wis 12, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Improved Initiative, Iron Will, Weapon Focus (slam)
+Skills: Perception +10, Stealth +13 (+17 in water), Swim +10
+Racial Modifiers: +4 Stealth in water
+Languages: Common (can't speak)
+Special qualities: discorporate
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 natural, +1 size
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +9
-
-**Defensive abilities:** flotsam repair
-
-**Dr:** 5/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** 2 slams +8 (1d8+2)
-
-**Ranged:** flotsam missile +5 (1d8+2)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 11, Con -, Int 7, Wis 12, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative, Iron Will, Weapon Focus (slam)
-
-**Skills:** Perception +10, Stealth +13 (+17 in water), Swim +10
-
-**Racial Modifiers:** +4 Stealth in water
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** discorporate
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or float (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or float (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

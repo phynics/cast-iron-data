@@ -29,73 +29,59 @@ abilities = ["23", "10", "17", "2", "11", "4"]
 _This large, horned bull has a dirty black hide and an aggressive temper. Its horns are wide and
 sharp._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 13
+Touch: 9
+Flat-footed: 13
+AC modifiers: +4 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +3
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +7 (1d8+9)
+Reach: 5
+Space: 10
+Spec Att: stampede
+Trample: 2d6+9, DC 17
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 10, Con 17, Int 2, Wis 11, Cha 4
+Base attack bonus: +2
+Combat maneuver bonus: +9
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Endurance, Skill Focus (Perception)
+Skills: Perception +9
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 9
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +7 (1d8+9)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** stampede
-
-**Trample:** 2d6+9, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 10, Con 17, Int 2, Wis 11, Cha 4
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Endurance, Skill Focus (Perception)
-
-**Skills:** Perception +9
-
-**Ecology**
-
-**Environment:** temperate plains
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate plains
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

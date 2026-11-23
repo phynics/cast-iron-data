@@ -31,75 +31,60 @@ abilities = ["40", "7", "-", "-", "11", "1"]
 _This towering metal construct crackles with eldritch energy and wields an immense sword in its
 hands._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Type: construct
+Size: gargantuan
+Initiative: -2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Link, Low-light vision
+Experience points: 307,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 37
+Touch: 4
+Flat-footed: 37
+AC modifiers: -2 Dex, +33 natural, -4 size
+Hit points: 375 (30d10+210)
+Fort: +10
+Ref: +8
+Will: +10
+Dr: 20/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** -2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: +5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)
+Reach: 20
+Space: 20
+Spec Att: eldritch surge
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Link, Low-light vision
+::: statblock
+Ability scores: Str 40, Dex 7, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +30
+Combat maneuver bonus: +49
+Combat maneuver defense: 57
+Feats: Whirlwind Attack
+Special qualities: urban defender
+:::
 
-**Experience points:** 307,200
+### Ecology
 
-**Armor class:** 37
-
-**Touch:** 4
-
-**Flat-footed:** 37
-
-**AC modifiers:** -2 Dex, +33 natural, -4 size
-
-**Hit points:** 375 (30d10+210)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +10
-
-**Dr:** 20/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +5 bastard sword +46/+41/+36/+31 (4d8+20/19-20)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** eldritch surge
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 7, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +49
-
-**Combat maneuver defense:** 57
-
-**Feats:** Whirlwind Attack
-
-**Special qualities:** urban defender
-
-**Ecology**
-
-**Environment:** any (Quantium)
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard (+5 bastard sword); other treasure
+::: statblock
+Environment: any (Quantium)
+Organization: solitary or pair
+Treasure: Standard (+5 bastard sword); other treasure
+:::
 
 ### Special Abilities
 

@@ -29,67 +29,56 @@ abilities = ["17", "15", "17", "2", "12", "6"]
 _This immense lizard moves with a slow but relentless gait. Its feet end in large talons, and ropes
 of drool hang from its toothy maw._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 22 (3d8+9)
+Fort: +8
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +5 (1d8+4 plus [grab](ref/umr/grab) and poison)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 15, Con 17, Int 2, Wis 12, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Great Fortitude, Skill Focus (Perception)
+Skills: Climb +7
+Racial Modifiers: +4 Stealth (+8 in undergrowth)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +8
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +5 (1d8+4 plus [grab](ref/umr/grab) and poison)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 17, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Great Fortitude, Skill Focus (Perception)
-
-**Skills:** Climb +7
-
-**Racial Modifiers:** +4 Stealth (+8 in undergrowth)
-
-**Ecology**
-
-**Environment:** warm forests or plains
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests or plains
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

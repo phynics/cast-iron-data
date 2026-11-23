@@ -33,79 +33,62 @@ abilities = ["19", "10", "16", "2", "13", "5"]
 _This fleshy behemoth wallows forward on four stumpy legs. Its jaws spread wide in a roar of
 challenge, exposing massive, tusk-like teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 59 (7d8+28)
+Fort: +8 (+10 vs. nonmagical disease)
+Ref: +5
+Will: +3
+Defensive abilities: blood sweat
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Capsize: present
+Melee: bite +8 (2d8+12)
+Reach: 5
+Space: 10
+Trample: 1d8+6, DC 17
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 10, Con 16, Int 2, Wis 13, Cha 5
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 20
+Feats: Endurance, Improved Initiative, Power Attack, Skill Focus (bite)
+Skills: Perception +8, Stealth +1 (+11 underwater), Swim +11
+Racial Modifiers: +10 Stealth underwater
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +8 (+10 vs. nonmagical disease)
-
-**Ref:** +5
-
-**Will:** +3
-
-**Defensive abilities:** blood sweat
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Capsize:** present
-
-**Melee:** bite +8 (2d8+12)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 1d8+6, DC 17
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 16, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20
-
-**Feats:** Endurance, Improved Initiative, Power Attack, Skill Focus (bite)
-
-**Skills:** Perception +8, Stealth +1 (+11 underwater), Swim +11
-
-**Racial Modifiers:** +10 Stealth underwater
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm rivers
-
-**Organization:** solitary, pair, or bloat (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: warm rivers
+Organization: solitary, pair, or bloat (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

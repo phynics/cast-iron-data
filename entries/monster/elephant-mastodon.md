@@ -28,72 +28,58 @@ abilities = ["34", "12", "21", "2", "13", "7"]
 _This creature is larger than a normal elephant, with enormous sweeping tusks and shaggy brown fur
 on its body._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +24
+Senses: Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 20
+AC modifiers: +1 Dex, +12 natural, -2 size
+Hit points: 133 (14d8+70)
+Fort: +14
+Ref: +10
+Will: +7
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: gore +21 (2d8+12), slam +20 (2d6+12)
+Reach: 15
+Space: 15
+Trample: 2d8+18, DC 29
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 34, Dex 12, Con 21, Int 2, Wis 13, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +24
+Combat maneuver defense: 35 (39 vs. trip)
+Feats: Endurance, Improved Bull Rush, Improved Iron Will, Iron Will, Power Attack, Skill Focus (Perception), Weapon Focus (gore)
+Skills: Perception +24
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +12 natural, -2 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +21 (2d8+12), slam +20 (2d6+12)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Trample:** 2d8+18, DC 29
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 12, Con 21, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 35 (39 vs. trip)
-
-**Feats:** Endurance, Improved Bull Rush, Improved Iron Will, Iron Will, Power Attack, Skill Focus
-(Perception), Weapon Focus (gore)
-
-**Skills:** Perception +24
-
-**Ecology**
-
-**Environment:** cold or temperate forests and plains
-
-**Organization:** solitary or herd (6-30)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate forests and plains
+Organization: solitary or herd (6-30)
+Treasure: None
+:::
 
 ### Description
 

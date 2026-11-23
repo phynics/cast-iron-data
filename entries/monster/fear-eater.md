@@ -29,90 +29,69 @@ abilities = ["14", "22", "17", "11", "12", "15"]
 
 _A distressingly humanoid face and stubby arms grow from this maggot-like creature's body._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: fey
+Initiative: +10
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 12
+AC modifiers: +6 Dex, +2 natural
+Hit points: 52 (8d6+24)
+Fort: +5
+Ref: +12
+Will: +7
+Dr: 5/cold iron
+Immune: disease, fear
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 2 claws +10 (1d6+2 plus anxiety spores)
+Spec Att: anxiety spores, dread burst, fungal snare
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: cause fear (DC 13), dancing lights
+Per day: 3/day: faerie fire, paranoia (DC 14)\
+1/day: fear, feather fall
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 14, Dex 22, Con 17, Int 11, Wis 12, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Power Attack, Weapon Finesse
+Skills: Acrobatics +17, Climb +21, Intimidate +10, Perception +12, Sense Motive +12, Stealth +17
+Racial Modifiers: +8 Climb
+Languages: Aklo, Undercommon
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +6 Dex, +2 natural
-
-**Hit points:** 52 (8d6+24)
-
-**Fort:** +5
-
-**Ref:** +12
-
-**Will:** +7
-
-**Dr:** 5/cold iron
-
-**Immune:** disease, fear
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 2 claws +10 (1d6+2 plus anxiety spores)
-
-**Spec Att:** anxiety spores, dread burst, fungal snare
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- cause fear (DC 13), dancing lights
-
-**Per day:**
-
-- 3/day: faerie fire, paranoia (DC 14)
-- 1/day: fear, feather fall
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 22, Con 17, Int 11, Wis 12, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Power Attack, Weapon Finesse
-
-**Skills:** Acrobatics +17, Climb +21, Intimidate +10, Perception +12, Sense Motive +12, Stealth +17
-
-**Racial Modifiers:** +8 Climb
-
-**Languages:** Aklo, Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or band (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or band (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

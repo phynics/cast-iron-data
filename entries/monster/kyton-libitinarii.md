@@ -31,105 +31,75 @@ abilities = ["23", "24", "22", "15", "22", "17"]
 _This willowy, blue-skinned figure wears robes of draped chains. Its exposed skin is pierced with
 lengths of razor-sharp, bloodstained icicles._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +11
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +29
+Senses: Darkvision 60 ft.
+Subtype: Cold, Evil, Extraplanar, Kyton, Lawful
+Experience points: 25,600
+:::
 
-**Initiative:** +11
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 28
+Touch: 17
+Flat-footed: 21
+AC modifiers: +7 Dex, +11 natural
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +17
+Will: +13
+Defensive abilities: icy fiend
+Dr: 10/good or silver
+Immune: cold
+Regen: 5 (good weapons and spells, silver weapons)
+Sr: 24
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +22 (2d6+6 plus 2d6 cold), 2 chains +22 (1d8+6)
+Ranged: 4 icicles +23 (1d8+6/19-20/×3 plus 2d6 cold)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Spec Att: perfect freeze, unnerving gaze (30 ft., DC 21)
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +16
+Constant: air walk
+At will: plane shift, from Material Plane to Shadow Plane only, self only
+Per day: 3/day: cone of cold (DC 18), dimension door, ice storm\
+1/day: polar ray
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Cold, Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 23, Dex 24, Con 22, Int 15, Wis 22, Cha 17
+Base attack bonus: +16
+Combat maneuver bonus: +22
+Combat maneuver defense: 39
+Feats: Alertness, Combat Reflexes, Deadly Aim, Improved Critical (icicles), Improved Initiative, Iron Will, Point-Blank Shot, Precise Shot
+Skills: Intimidate +22, Knowledge (local, planes) +21, Perception +29
+Languages: Common, Infernal, Shadowtongue
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 17
-
-**Flat-footed:** 21
-
-**AC modifiers:** +7 Dex, +11 natural
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +17
-
-**Will:** +13
-
-**Defensive abilities:** icy fiend
-
-**Dr:** 10/good or silver
-
-**Immune:** cold
-
-**Regen:** 5 (good weapons and spells, silver weapons)
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +22 (2d6+6 plus 2d6 cold), 2 chains +22 (1d8+6)
-
-**Ranged:** 4 icicles +23 (1d8+6/19-20/×3 plus 2d6 cold)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spec Att:** perfect freeze, unnerving gaze (30 ft., DC 21)
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- plane shift, from Material Plane to Shadow Plane only, self only
-
-**Per day:**
-
-- 3/day: cone of cold (DC 18), dimension door, ice storm
-- 1/day: polar ray
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 24, Con 22, Int 15, Wis 22, Cha 17
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 39
-
-**Feats:** Alertness, Combat Reflexes, Deadly Aim, Improved Critical (icicles), Improved Initiative,
-Iron Will, Point-Blank Shot, Precise Shot
-
-**Skills:** Intimidate +22, Knowledge (local, planes) +21, Perception +29
-
-**Languages:** Common, Infernal, Shadowtongue
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, or shiver (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary, pair, or shiver (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

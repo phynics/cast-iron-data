@@ -30,102 +30,74 @@ abilities = ["11", "15", "14", "11", "10", "12"]
 _Ragged wounds on one side of this leather-clad humanoid's face and body mark the transition between
 flesh and shifting shadowstuff._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., See in darkness
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 dodge, +3 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +3
+Will: +6
+Defensive abilities: semi-incorporeal
+Dr: 5/good or silver
+Immune: cold
+Regen: 2 (good weapons and spells, silver weapons)
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: slam +5 (1d6), incorporeal touch +5 (1d6 Strength damage)
+Spec Att: unnerving gaze (30 ft., DC 13)
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +6
+Constant: blur
+At will: bleed (DC 11), dancing lights, detect magic
+Per day: 3/day: darkness, invisibility, self only, levitate, self only\
+1/day: deeper darkness, shadowstep
+:::
 
-**Senses:** Darkvision 60 ft., See in darkness
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 11, Dex 15, Con 14, Int 11, Wis 10, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Dodge, Improved Initiative, Iron Will
+Skills: Heal +8, Intimidate +9, Knowledge (arcana) +8, Perception +8, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: Common, Infernal, Shadowtongue
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 dodge, +3 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +6
-
-**Defensive abilities:** semi-incorporeal
-
-**Dr:** 5/good or silver
-
-**Immune:** cold
-
-**Regen:** 2 (good weapons and spells, silver weapons)
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** slam +5 (1d6), incorporeal touch +5 (1d6 Strength damage)
-
-**Spec Att:** unnerving gaze (30 ft., DC 13)
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +6
-
-**Constant:**
-
-- blur
-
-**At will:**
-
-- bleed (DC 11), dancing lights, detect magic
-
-**Per day:**
-
-- 3/day: darkness, invisibility, self only, levitate, self only
-- 1/day: deeper darkness, shadowstep
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 14, Int 11, Wis 10, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Dodge, Improved Initiative, Iron Will
-
-**Skills:** Heal +8, Intimidate +9, Knowledge (arcana) +8, Perception +8, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Infernal, Shadowtongue
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary, pair, or choir (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary, pair, or choir (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

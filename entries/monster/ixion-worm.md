@@ -31,108 +31,76 @@ abilities = ["22", "19", "24", "15", "20", "21"]
 
 _A cyclopean face stretches grotesquely across the hub of a tall, knobby wheel of bone._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +4
+Size: large
+Alignment: Lawful evil
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Subtype: Evil, Extraplanar, Lawful
+Experience points: 25,600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +13 natural, -1 size
+Hit points: 187 (15d10+105)
+Fort: +16
+Ref: +9
+Will: +14
+Resist: fire 10, sonic 10
+Sr: 24
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Constrict: 2d6+9; serpentine form only
+E Drain: 2 levels, DC 22
+Melee: bite +20 (2d6+6 plus energy drain and [grab](ref/umr/grab)), slam +20 (1d8+6)
+Pow Ch: slam, 2d8+9; wheel form only
+Reach: 5
+Space: 10
+Spec Att: euphoric gaze (3/day; wheel form only), hypnotic wheel (DC 22; wheel form only)
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+Constant: true seeing
+At will: castigate (DC 17), enthrall (DC 17), hypnotism (DC 17), lock gaze (DC 16), mage hand
+Per day: 3/day: mass suggestion (DC 20), miserable pity (DC 18), persistent image (DC 19), telekinesis (DC 20)\
+1/day: synapse overload (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Lawful
+::: statblock
+Ability scores: Str 22, Dex 19, Con 24, Int 15, Wis 20, Cha 21
+Base attack bonus: +15
+Combat maneuver bonus: +22 (+26 bull rush, +26 grapple, +26 overrun)
+Combat maneuver defense: 37 (39 vs. bull rush, 39 vs. overrun)
+Feats: Dodge, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Overrun, Mobility, Power Attack, Spring Attack
+Skills: Bluff +23, Diplomacy +23, Sense Motive +23, Spellcraft +20, Stealth +18
+Languages: Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: dual form
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +13 natural, -1 size
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +16
-
-**Ref:** +9
-
-**Will:** +14
-
-**Resist:** fire 10, sonic 10
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Constrict:** 2d6+9; serpentine form only
-
-**E Drain:** 2 levels, DC 22
-
-**Melee:** bite +20 (2d6+6 plus energy drain and [grab](ref/umr/grab)), slam +20 (1d8+6)
-
-**Pow Ch:** slam, 2d8+9; wheel form only
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** euphoric gaze (3/day; wheel form only), hypnotic wheel (DC 22; wheel form only)
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- castigate (DC 17), enthrall (DC 17), hypnotism (DC 17), lock gaze (DC 16), mage hand
-
-**Per day:**
-
-- 3/day: mass suggestion (DC 20), miserable pity (DC 18), persistent image (DC 19), telekinesis (DC
-  20)
-- 1/day: synapse overload (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 24, Int 15, Wis 20, Cha 21
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +22 (+26 bull rush, +26 grapple, +26 overrun)
-
-**Combat maneuver defense:** 37 (39 vs. bull rush, 39 vs. overrun)
-
-**Feats:** Dodge, Greater Bull Rush, Greater Overrun, Improved Bull Rush, Improved Overrun,
-Mobility, Power Attack, Spring Attack
-
-**Skills:** Bluff +23, Diplomacy +23, Sense Motive +23, Spellcraft +20, Stealth +18
-
-**Languages:** Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** dual form
-
-**Ecology**
-
-**Environment:** any ([Hell](ref/rule/hell))
-
-**Organization:** solitary, pair, or caravan (4-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Hell](ref/rule/hell))
+Organization: solitary, pair, or caravan (4-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

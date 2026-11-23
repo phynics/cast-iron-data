@@ -30,106 +30,76 @@ special_qualities = "alchemy (alchemy crafting +7, identify potions), discoverie
 abilities = ["6", "22", "13", "16", "10", "8"]
 +++
 
-**Challenge rating:** 6
-
 **Goblin [alchemist](ref/class/alchemist) 7**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 6
+Type: humanoid
+Initiative: +6
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Goblinoid
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 24
+Touch: 17
+Flat-footed: 18
+AC modifiers: +5 armor, +6 Dex, +2 natural, +1 size
+Hit points: 49 (7d8+14)
+Fort: +7
+Ref: +12
+Will: +3; +2 vs. fire, +4 vs. poison
+Resist: fire 5
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: heavy mace +4 (1d6-2)
+Ranged: light crossbow +12 (1d6/19-20)
+Spec Att: bomb 10/day (4d6+3 fire, DC 16)
+:::
 
-**Size:** small
-
-**Subtype:** Goblinoid
-
-**Experience points:** 2,400
-
-**Armor class:** 24
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 armor, +6 Dex, +2 natural, +1 size
-
-**Hit points:** 49 (7d8+14)
-
-**Fort:** +7
-
-**Ref:** +12
-
-**Will:** +3; +2 vs. fire, +4 vs. poison
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** heavy mace +4 (1d6-2)
-
-**Ranged:** light crossbow +12 (1d6/19-20)
-
-**Spec Att:** bomb 10/day (4d6+3 fire, DC 16)
-
-**Spellcasting**
-
-**Caster level:** 7
-
-**3rd-level spells:**
-
-- heroism, resinous skin, DC 16
-
-**2nd-level spells:**
-
-- alchemical allocation, 2, barkskin, see invisibility
-
-**1st-level spells:**
-
-- disguise self, expeditious retreat, reduce person, DC 14, shield, targeted bomb admixture
+::: statblock
+title = "Spellcasting"
+Caster level: 7
+3rd-level spells: heroism, resinous skin, DC 16
+2nd-level spells: alchemical allocation, 2, barkskin, see invisibility
+1st-level spells: disguise self, expeditious retreat, reduce person, DC 14, shield, targeted bomb admixture
+:::
 
 ### Tactics
 
 **During Combat** The goblin patiently quaffs his mutagen, casts buff spells on himself, and then
 proceeds to bomb his enemies.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 6, Dex 22, Con 13, Int 16, Wis 10, Cha 8
+::: statblock
+Ability scores: Str 6, Dex 22, Con 13, Int 16, Wis 10, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +2
+Combat maneuver defense: 18
+Feats: Brew Potion, Fire Tamer, Flame Heart, Point-Blank Shot, Precise Shot, Throw Anything
+Skills: Craft (alchemy) +13, Disable Device +16, Heal +4, Sleight of Hand +11, Spellcraft +11, Stealth +21, Survival +4, Use Magic Device +5
+Languages: Aklo, Aquan, Goblin, Undercommon
+Special qualities: alchemy (alchemy crafting +7, identify potions), discoveries ([precise bombs](ref/discovery/precise-bombs) \[3 squares\], [tanglefoot bomb](ref/discovery/tanglefoot-bomb), [wings](ref/discovery/wings)), mutagen (+4/-2, +2 natural, 70 minutes), [poison use](ref/ability/poison-use), swift alchemy, swift poisoning
+Combat gear: potion of fly, potion of fox's cunning, potion of invisibility, Dfreedom of movement/2 charges, 8 tanglefoot bags
+Other gear: +1 MM chain shirt, heavy mace, light crossbow with 20 bolts, Iclk1, 2 I-universal solvent, 11 gp
+:::
 
-**Base attack bonus:** +5
+### Ecology
 
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 18
-
-**Feats:** Brew Potion, Fire Tamer, Flame Heart, Point-Blank Shot, Precise Shot, Throw Anything
-
-**Skills:** Craft (alchemy) +13, Disable Device +16, Heal +4, Sleight of Hand +11, Spellcraft +11,
-Stealth +21, Survival +4, Use Magic Device +5
-
-**Languages:** Aklo, Aquan, Goblin, Undercommon
-
-**Special qualities:** alchemy (alchemy crafting +7, identify potions), discoveries
-([precise bombs](ref/discovery/precise-bombs) \[3 squares\],
-[tanglefoot bomb](ref/discovery/tanglefoot-bomb), [wings](ref/discovery/wings)), mutagen (+4/-2, +2
-natural, 70 minutes), [poison use](ref/ability/poison-use), swift alchemy, swift poisoning
-
-**Combat gear:** potion of fly, potion of fox's cunning, potion of invisibility, Dfreedom of
-movement/2 charges, 8 tanglefoot bags
-
-**Other gear:** +1 MM chain shirt, heavy mace, light crossbow with 20 bolts, Iclk1, 2 I-universal
-solvent, 11 gp
-
-**Ecology**
-
-**Environment:** temperate forest and plains (usually coastal regions)
+::: statblock
+Environment: temperate forest and plains (usually coastal regions)
+:::
 
 ### Description
 

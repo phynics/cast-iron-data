@@ -31,89 +31,69 @@ abilities = ["-", "16", "-", "11", "13", "19"]
 _The curious ears and flabby lips of this sickly green human-shaped ghostly creature frame its
 frog-like face, yet only empty sockets stare from where its eyes should be._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +4 deflection, +3 Dex
+Hit points: 42 (5d8+20)
+Fort: +5
+Ref: +4
+Will: +7
+Defensive abilities:
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: fly 30 ft. (good)
+Melee: 2 wracking touches +6 touch (2d6 plus doom)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +8
+At will: doom (DC 15)
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 11, Wis 13, Cha 19
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Improved Initiative, Iron Will
+Skills: Fly +15, Perception +9, Sense Motive +9, Stealth +15
+Racial Modifiers: +4 Stealth
+Languages: Ib
+Special qualities: ghost touch, voiceless
+:::
 
-**Experience points:** 1,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 deflection, +3 Dex
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +7
-
-**Defensive abilities:**
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 30 ft. (good)
-
-**Melee:** 2 wracking touches +6 touch (2d6 plus doom)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**At will:**
-
-- doom (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 11, Wis 13, Cha 19
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will
-
-**Skills:** Fly +15, Perception +9, Sense Motive +9, Stealth +15
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Ib
-
-**Special qualities:** ghost touch, voiceless
-
-**Ecology**
-
-**Environment:** temperate swamp
-
-**Organization:** solitary, pair, or haunting (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate swamp
+Organization: solitary, pair, or haunting (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,100 +31,74 @@ abilities = ["19", "18", "-", "7", "15", "16"]
 _Eight legs of shattered bone emerge from this sickly, pulsating heart, holding it aloft like a
 spider. Blood oozes from the glistening organ._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+blindsense: 30
+Alignment: Chaotic evil
+Initiative: +8
+Perception: +8
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 1,200
+:::
 
-**blindsense:** 30
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 14
+AC modifiers: +4 Dex, +2 natural, +2 size
+Hit points: 37 (5d8+15)
+Fort: +4
+Ref: +7
+Will: +6
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Initiative:** +8
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Bleed: 1d6
+Melee: bite +9 (1d6+6/19-20 plus bleed and curse)
+Reach: 0
+Space: 2-1/2
+Spec Att: cynic's bite, jagged maw
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+At will: ghost sound (DC 13), open/close, silent image (DC 14)
+Per day: 3/day: crushing despair (DC 16), entangle (DC 14), memory lapse (DC 14), vanish\
+1/day: animate dead
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 19, Dex 18, Con -, Int 7, Wis 15, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 19 (31 vs. trip)
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Stealth)
+Skills: Climb +12, Perception +8, Sense Motive +14, Stealth +20
+Racial Modifiers: +4 Sense Motive
+Languages: Common (can't speak)
+Special qualities: gloom
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +2 natural, +2 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +6
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +9 (1d6+6/19-20 plus bleed and curse)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** cynic's bite, jagged maw
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**At will:**
-
-- ghost sound (DC 13), open/close, silent image (DC 14)
-
-**Per day:**
-
-- 3/day: crushing despair (DC 16), entangle (DC 14), memory lapse (DC 14), vanish
-- 1/day: animate dead
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con -, Int 7, Wis 15, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19 (31 vs. trip)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Stealth)
-
-**Skills:** Climb +12, Perception +8, Sense Motive +14, Stealth +20
-
-**Racial Modifiers:** +4 Sense Motive
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** gloom
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or tragedy (3-6 plus 2-12 [zombies](ref/template/zombie))
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or tragedy (3-6 plus 2-12 [zombies](ref/template/zombie))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

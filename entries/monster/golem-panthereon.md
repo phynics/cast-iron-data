@@ -30,85 +30,67 @@ abilities = ["24", "9", "-", "-", "15", "1"]
 _This finely sculpted statue is formed of hardened clay. Its muscular body is topped with the head
 of a feline predator._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: -1 Dex, +16 natural, -1 size
+Hit points: 118 (16d10+30)
+Fort: +5
+Ref: +4
+Will: +7
+Dr: 10/adamantine and bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)
+Reach: 10
+Reach P: 5 ft. with bite
+Space: 10
+Spec Att: cursed wound, eye beam, haste
+:::
 
-**Perception:** +2
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +6
+Constant: true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 24, Dex 9, Con -, Int -, Wis 15, Cha 1
+Base attack bonus: +16
+Combat maneuver bonus: +24
+Combat maneuver defense: 33
+Feats: Improved Initiative
+:::
 
-**Armor class:** 24
+### Ecology {#stat-ecology}
 
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** -1 Dex, +16 natural, -1 size
-
-**Hit points:** 118 (16d10+30)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +7
-
-**Dr:** 10/adamantine and bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +22 (4d6+7 plus cursed wound), 2 slams +22 (1d10+7)
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** cursed wound, eye beam, haste
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +6
-
-**Constant:**
-
-- true seeing
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 9, Con -, Int -, Wis 15, Cha 1
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 33
-
-**Feats:** Improved Initiative
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pride (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pride (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

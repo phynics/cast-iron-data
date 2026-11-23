@@ -32,81 +32,65 @@ The masks are mostly iron, but some - such as the hands, knees, and feet - are m
 with gold. The mask that makes up its head is made of porcelain with gold trim and has a large
 sapphire set into its brow. At the creature moves, the masks seem to shift and stare._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 42 (4d10+20)
+Fort: +1
+Ref: +6
+Will: +2
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), magic
+Vulner: sonic
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +8 (1d8+4)
+Spec Att: masks of control, swarm form
+:::
 
-**Perception:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Constant: see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 18, Dex 17, Con -, Int 7, Wis 12, Cha 13
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Perception +5
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 42 (4d10+20)
-
-**Fort:** +1
-
-**Ref:** +6
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +8 (1d8+4)
-
-**Spec Att:** masks of control, swarm form
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Constant:**
-
-- see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con -, Int 7, Wis 12, Cha 13
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +5
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

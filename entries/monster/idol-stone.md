@@ -32,100 +32,76 @@ sneering lord. Flecks of onyx glisten within its eyes, gazing across the gulf in
 
 **Stone**
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: stony mind (30 ft.)
+Type: construct
+Size: diminutive
+Initiative: -1
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 800
+:::
 
-**aura:** stony mind (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 17
+AC modifiers: -1 Dex, +4 natural, +4 size
+Hit points: 19 (3d10+3)
+Fort: +1
+Ref: +0
+Will: +3
+Dr: 5/-
+Immune: cold, electricity, fire, sonic
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** -1
+::: statblock
+Speed: 10 ft.
+Melee: bite +8 (1d4+1)
+Reach: 0
+Space: 1
+Spec Att: suggestive
+:::
 
-**Alignment:** Neutral
-
-**Perception:** +7
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** -1 Dex, +4 natural, +4 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +3
-
-**Dr:** 5/-
-
-**Immune:** cold, electricity, fire, sonic
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +8 (1d4+1)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** suggestive
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**At will:**
-
-- animal trance^S^ (DC 14), detect snares and pits^S^, magic stone
-
-**Per day:**
-
-- 3/day: doom (DC 13), hypnotic pattern^S^ (DC 14), reduce person (DC 13)
-- 1/day: bear's endurance, hold person (DC 14)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+At will: animal trance^S^ (DC 14), detect snares and pits^S^, magic stone
+Per day: 3/day: doom (DC 13), hypnotic pattern^S^ (DC 14), reduce person (DC 13)\
+1/day: bear's endurance, hold person (DC 14)
+:::
 
 ###### S {#footnote-s}
 
 See "Share Abilities" below
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 12, Dex 8, Con -, Int 7, Wis 14, Cha 14
+::: statblock
+Ability scores: Str 12, Dex 8, Con -, Int 7, Wis 14, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: -2
+Combat maneuver defense: 9
+Feats: Alertness, Toughness
+Skills: Perception +7, Stealth +11
+Racial Modifiers: +4 Stealth amid stone
+Languages: understands creator's language (can't speak)
+Special qualities: inanimate, share abilities
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 9
-
-**Feats:** Alertness, Toughness
-
-**Skills:** Perception +7, Stealth +11
-
-**Racial Modifiers:** +4 Stealth amid stone
-
-**Languages:** understands creator's language (can't speak)
-
-**Special qualities:** inanimate, share abilities
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

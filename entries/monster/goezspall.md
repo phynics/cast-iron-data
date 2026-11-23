@@ -34,81 +34,63 @@ abilities = ["26", "15", "25", "6", "20", "21"]
 _This strange, alien-looking monstrosity has thickly armored hide and several sharp talons at the
 end of each of its stumpy legs._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 38,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 30
+Touch: 12
+Flat-footed: 27
+AC modifiers: +2 Dex, +1 dodge, +18 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +12
+Will: +10
+Immune: cold, disease, fire, poison, pressure damage
+Resist: acid 15, electricity 15, sonic 15
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 10 ft., swim 20 ft.
+Melee: 4 claws +23 (1d8+8)
+Reach: 5
+Rend: 2 claws, 1d8+12
+Space: 10
+Spec Att: scalding spray
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 15, Con 25, Int 6, Wis 20, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +25
+Combat maneuver defense: 38
+Feats: Combat Reflexes, Diehard, Dodge, Endurance, Lunge, Mobility, Power Attack, Vital Strike
+Skills: Climb +20
+Languages: Aklo
+Special qualities: [compression](ref/umr/compression), hibernate, [no breath](ref/umr/no-breath)
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +2 Dex, +1 dodge, +18 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +12
-
-**Will:** +10
-
-**Immune:** cold, disease, fire, poison, pressure damage
-
-**Resist:** acid 15, electricity 15, sonic 15
-
-**Offense**
-
-**Speed:** 40 ft., climb 10 ft., swim 20 ft.
-
-**Melee:** 4 claws +23 (1d8+8)
-
-**Reach:** 5
-
-**Rend:** 2 claws, 1d8+12
-
-**Space:** 10
-
-**Spec Att:** scalding spray
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 25, Int 6, Wis 20, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +25
-
-**Combat maneuver defense:** 38
-
-**Feats:** Combat Reflexes, Diehard, Dodge, Endurance, Lunge, Mobility, Power Attack, Vital Strike
-
-**Skills:** Climb +20
-
-**Languages:** Aklo
-
-**Special qualities:** [compression](ref/umr/compression), hibernate, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

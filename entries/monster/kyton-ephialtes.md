@@ -32,111 +32,78 @@ immense size. An infernal, gasping hiss draws the darkness back, revealing a tor
 fiend of exposed bone and ragged flesh draped in chains. Barbs and hooks hang from these wrought
 iron bands, matching the fiend's tail as they writhe like snakes in search of prey._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22)
+Size: huge
+Initiative: +6
+Alignment: Lawful evil
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22)
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 30
+Touch: 10
+Flat-footed: 28
+AC modifiers: +8 armor, +2 Dex, +12 natural, -2 size
+Hit points: 243 (18d10+144)
+Fort: +14
+Ref: +13
+Will: +14
+Defensive abilities: chain armor
+Dr: 10/silver or good
+Immune: cold, fear, poison
+Regen: 5 (good weapons and spells, silver weapons)
+Resist: acid 10, fire 10
+Sr: 27
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Br Weap: 50-ft. cone, 2d8+8 piercing damage plus [grab](ref/umr/grab), Reflex DC 27 for half, usable every 1d4 rounds
+Melee: bite +24 (2d6+8), 2 chains +25 (2d8+8/19-20), 2 claws +24 (1d8+8), tail +19 (1d8+4)
+Pull: breath weapon, 10 feet
+Reach: 15
+Rend: 2 chains, 2d8+12
+Space: 15
+Spec Att: dancing chains, entrapping chains
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+At will: blur, self only, dimensional anchor
+Per day: 3/day: deeper darkness, shadow walk (DC 19), silence (DC 15)\
+1/day: discern location
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 26, Dex 14, Con 26, Int 10, Wis 12, Cha 16
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+32 grapple or pull)
+Combat maneuver defense: 40 (44 vs. trip)
+Feats: Alertness, Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (chains), Improved Initiative, Iron Will, Stand Still, Weapon Focus (chains)
+Skills: Bluff +12, Climb +15, Escape Artist +13, Intimidate +24, Knowledge (planes) +13, Perception +24
+Languages: Infernal
+:::
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 30
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +8 armor, +2 Dex, +12 natural, -2 size
-
-**Hit points:** 243 (18d10+144)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +14
-
-**Defensive abilities:** chain armor
-
-**Dr:** 10/silver or good
-
-**Immune:** cold, fear, poison
-
-**Regen:** 5 (good weapons and spells, silver weapons)
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Br Weap:** 50-ft. cone, 2d8+8 piercing damage plus [grab](ref/umr/grab), Reflex DC 27 for half,
-usable every 1d4 rounds
-
-**Melee:** bite +24 (2d6+8), 2 chains +25 (2d8+8/19-20), 2 claws +24 (1d8+8), tail +19 (1d8+4)
-
-**Pull:** breath weapon, 10 feet
-
-**Reach:** 15
-
-**Rend:** 2 chains, 2d8+12
-
-**Space:** 15
-
-**Spec Att:** dancing chains, entrapping chains
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**At will:**
-
-- blur, self only, dimensional anchor
-
-**Per day:**
-
-- 3/day: deeper darkness, shadow walk (DC 19), silence (DC 15)
-- 1/day: discern location
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 14, Con 26, Int 10, Wis 12, Cha 16
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+32 grapple or pull)
-
-**Combat maneuver defense:** 40 (44 vs. trip)
-
-**Feats:** Alertness, Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical
-(chains), Improved Initiative, Iron Will, Stand Still, Weapon Focus (chains)
-
-**Skills:** Bluff +12, Climb +15, Escape Artist +13, Intimidate +24, Knowledge (planes) +13,
-Perception +24
-
-**Languages:** Infernal
-
-**Ecology**
-
-**Environment:** any ([Shadow Plane](ref/rule/shadow-plane))
-
-**Organization:** solitary or team (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Shadow Plane](ref/rule/shadow-plane))
+Organization: solitary or team (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

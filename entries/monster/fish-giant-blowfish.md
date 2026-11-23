@@ -29,73 +29,59 @@ abilities = ["18", "13", "17", "1", "14", "12"]
 
 _A blowfish the size of a horse drifts through the water, its quills the size of spears._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +8 armor, +1 Dex, -1 size
+Hit points: 52 (7d8+21)
+Fort: +10
+Ref: +6
+Will: +4
+Defensive abilities: quills
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: 1 slam +9 (1d8+4 plus poison)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 13, Con 17, Int 1, Wis 14, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Great Fortitude, Improved Initiative, Skill Focus (Perception), Weapon Focus (slam)
+Skills: Perception +5, Swim +14
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 armor, +1 Dex, -1 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +4
-
-**Defensive abilities:** quills
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** 1 slam +9 (1d8+4 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 17, Int 1, Wis 14, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Great Fortitude, Improved Initiative, Skill Focus (Perception), Weapon Focus (slam)
-
-**Skills:** Perception +5, Swim +14
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or school (3-9)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or school (3-9)
+Treasure: None
+:::
 
 ### Special Abilities
 

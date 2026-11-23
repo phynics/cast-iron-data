@@ -33,131 +33,85 @@ crown its head._
 
 **Mythic Julunggali**
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+Mythic rank: 8
+aura: fascination (DC 26, 100 feet)
+blindsense: 60
+Size: colossal
+Initiative: +21, Mythic Improved Initiative
+Type: Magical beast
+Alignment: Neutral
+Perception: +30
+Senses: Darkvision 60 ft., Low-light vision, Scent, See in darkness
+Subtype: Aquatic, Extraplanar, Mythic, Shapechanger
+Experience points: 409,600
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**aura:** fascination (DC 26, 100 feet)
+::: statblock
+Armor class: 38
+Touch: 5
+Flat-footed: 37
+AC modifiers: +1 Dex, +2 insight, +33 natural, -8 size
+Hit points: 399 (22d10+278)
+Fort: +22
+Ref: +18
+Will: +14
+Defensive abilities: mythic saving throws
+Dr: 10/epic and magic
+Fh: 10
+Immune: acid, cold, electricity, poison
+Resist: fire 10
+Sr: 32
+:::
 
-**blindsense:** 60
+### Offense
 
-**Size:** colossal
+::: statblock
+Speed: 40 ft., burrow 40 ft., swim 90 ft., fly 20 ft. (average)
+Constrict: 4d8+21
+F Swallow: present
+M Power: 8/day, surge +1d10
+Melee: bite +29 (4d8+14 plus [grab](ref/umr/grab) and poison and pull or push), slam +29 (4d6+14)
+Pull: bite, 30 ft.
+Push: bite, 30 ft.
+Reach: 30
+Space: 30
+Spec Att: amazing initiative
+Swallow: 4d8 acid damage, AC 26, 39 hp
+:::
 
-**Initiative:** +21, Mythic Improved Initiative
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 24
+Concentration: +29
+Constant: foresight, self only
+At will: bestow curse (DC 18), bless, control water, create water, move earth, neutralize poison, prayer, water breathing
+Per day: 3/day: antipathy (DC 24), baleful polymorph (DC 20), control weather, rain only, greater teleport, self only, haste, heal, polymorph, prismatic wall (DC 23), raise dead, slow (DC 18)
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 38, Dex 13, Con 28, Int 19, Wis 20, Cha 21
+Base attack bonus: +22
+Combat maneuver bonus: +44 (+48 grapple)
+Combat maneuver defense: 57 (can't be tripped)
+Feats: Cleave, Mythic Combat Reflexes, Great Cleave, Mythic Improved Initiative, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Mythic Lightning Reflexes, Mythic Power Attack, Weapon Focus (bite), Weapon Focus (gore)
+Skills: Fly -7, Handle Animal +16, Heal +27
+Languages: Celestial, Druidic, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (any snake; [polymorph](ref/spell/polymorph)), [compression](ref/umr/compression)
+:::
 
-**Perception:** +30
+### Ecology
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent, See in darkness
-
-**Subtype:** Aquatic, Extraplanar, Mythic, Shapechanger
-
-**Experience points:** 409,600
-
-**Armor class:** 38
-
-**Touch:** 5
-
-**Flat-footed:** 37
-
-**AC modifiers:** +1 Dex, +2 insight, +33 natural, -8 size
-
-**Hit points:** 399 (22d10+278)
-
-**Fort:** +22
-
-**Ref:** +18
-
-**Will:** +14
-
-**Defensive abilities:** mythic saving throws
-
-**Dr:** 10/epic and magic
-
-**Fh:** 10
-
-**Immune:** acid, cold, electricity, poison
-
-**Resist:** fire 10
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 40 ft., burrow 40 ft., swim 90 ft., fly 20 ft. (average)
-
-**Constrict:** 4d8+21
-
-**F Swallow:** present
-
-**M Power:** 8/day, surge +1d10
-
-**Melee:** bite +29 (4d8+14 plus [grab](ref/umr/grab) and poison and pull or push), slam +29
-(4d6+14)
-
-**Pull:** bite, 30 ft.
-
-**Push:** bite, 30 ft.
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** amazing initiative
-
-**Swallow:** 4d8 acid damage, AC 26, 39 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 24
-
-**Concentration:** +29
-
-**Constant:**
-
-- foresight, self only
-
-**At will:**
-
-- bestow curse (DC 18), bless, control water, create water, move earth, neutralize poison, prayer,
-  water breathing
-
-**Per day:**
-
-- 3/day: antipathy (DC 24), baleful polymorph (DC 20), control weather, rain only, greater teleport,
-  self only, haste, heal, polymorph, prismatic wall (DC 23), raise dead, slow (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 38, Dex 13, Con 28, Int 19, Wis 20, Cha 21
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +44 (+48 grapple)
-
-**Combat maneuver defense:** 57 (can't be tripped)
-
-**Feats:** Cleave, Mythic Combat Reflexes, Great Cleave, Mythic Improved Initiative, Improved Iron
-Will, Improved Lightning Reflexes, Iron Will, Mythic Lightning Reflexes, Mythic Power Attack, Weapon
-Focus (bite), Weapon Focus (gore)
-
-**Skills:** Fly -7, Handle Animal +16, Heal +27
-
-**Languages:** Celestial, Druidic, Sylvan; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [change shape](ref/umr/change-shape) (any
-snake; [polymorph](ref/spell/polymorph)), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land or water
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or water
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,106 +30,74 @@ abilities = ["21", "22", "22", "11", "20", "21"]
 _This four-armed faceless woman has flesh that appears to be made of pale marble veined with
 traceries of blue lines._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+aura: inviolate aura (60 ft.)
+Initiative: +10
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +20
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Inevitable, Lawful
+Experience points: 12,800
+:::
 
-**aura:** inviolate aura (60 ft.)
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 25
+Touch: 16
+Flat-footed: 19
+AC modifiers: +6 Dex, +9 natural
+Hit points: 138 (12d10+72)
+Fort: +14
+Ref: +10
+Will: +13
+Defensive abilities: constructed
+Dr: 10/chaotic
+Immune: transmutation effects
+Regen: 5 (chaotic)
+Sr: 22
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 50 ft.
+Melee: +1 valharut hook +17/+12/+7 (1d8+6/19-20/×3), +1 valharut hook +16 (1d8+3/19-20/×3), +1 dagger +16 (1d4+3/19-20), slam +12 (1d4+2)
+Sp Extra: _[air walk](ref/spell/air-walk)_
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +16
+Constant: air walk
+At will: greater teleport, self plus 50 lbs. of objects only, order's wrath (DC 19)
+Per day: 1/day: dispel chaos
+:::
 
-**Perception:** +20
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 22, Con 22, Int 11, Wis 20, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 33
+Feats: Combat Reflexes, Improved Critical (valharut hook), Improved Initiative, Power Attack, Two-Weapon Fighting, Weapon Focus (valharut hook)
+Skills: Acrobatics +21, Intimidate +20, Knowledge (planes) +15, Perception +20, Sense Motive +20, Swim +17
+Languages: truespeech
+Special qualities: dimension slide
+:::
 
-**Subtype:** Extraplanar, Inevitable, Lawful
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 16
-
-**Flat-footed:** 19
-
-**AC modifiers:** +6 Dex, +9 natural
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +13
-
-**Defensive abilities:** constructed
-
-**Dr:** 10/chaotic
-
-**Immune:** transmutation effects
-
-**Regen:** 5 (chaotic)
-
-**Sr:** 22
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** +1 valharut hook +17/+12/+7 (1d8+6/19-20/×3), +1 valharut hook +16 (1d8+3/19-20/×3), +1
-dagger +16 (1d4+3/19-20), slam +12 (1d4+2)
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only, order's wrath (DC 19)
-
-**Per day:**
-
-- 1/day: dispel chaos
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 22, Con 22, Int 11, Wis 20, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33
-
-**Feats:** Combat Reflexes, Improved Critical (valharut hook), Improved Initiative, Power Attack,
-Two-Weapon Fighting, Weapon Focus (valharut hook)
-
-**Skills:** Acrobatics +21, Intimidate +20, Knowledge (planes) +15, Perception +20, Sense Motive
-+20, Swim +17
-
-**Languages:** truespeech
-
-**Special qualities:** dimension slide
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or barrage (3-8)
-
-**Treasure:** Standard (+1 dagger); +1/+1 valharut hook, other treasure
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or barrage (3-8)
+Treasure: Standard (+1 dagger); +1/+1 valharut hook, other treasure
+:::
 
 ### Special Abilities
 

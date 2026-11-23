@@ -33,56 +33,43 @@ abilities = ["18", "18", "18", "10", "14", "8"]
 _Standing as tall as a human, this muscular, gray-skinned creature peers about with tiny, observant
 eyes._
 
-**Challenge rating:** 10
-
 **Hobgoblin [monk](ref/class/monk) 11**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +2
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 22
+Touch: 20
+Flat-footed: 17
+AC modifiers: +2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +2 Wis
+Hit points: 119 (11d8+66)
+Fort: +13
+Ref: +13
+Will: +11; +2 vs. enchantments
+Immune: disease, poison
+Improved evasion: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +2
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Goblinoid
-
-**Experience points:** 9,600
-
-**Armor class:** 22
-
-**Touch:** 20
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 armor, +1 deflection, +4 Dex, +1 dodge, +2 monk, +2 Wis
-
-**Hit points:** 119 (11d8+66)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +11; +2 vs. enchantments
-
-**Immune:** disease, poison
-
-**Improved evasion:** present
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** +1 unarmed strike +14/+9 (1d10+5) or +1 unarmed strike flurry of blows +14/+14/+9/+9/+4
-(1d10+5)
-
-**Ranged:** mwk javelin +13 (1d6+4)
-
-**Spec Att:** flurry of blows, stunning fist (11/day, DC 17)
+::: statblock
+Speed: 60 ft.
+Melee: +1 unarmed strike +14/+9 (1d10+5) or +1 unarmed strike flurry of blows +14/+14/+9/+9/+4 (1d10+5)
+Ranged: mwk javelin +13 (1d6+4)
+Spec Att: flurry of blows, stunning fist (11/day, DC 17)
+:::
 
 ### Tactics
 
@@ -98,34 +85,26 @@ attention and draw them to her.
 97; Fort +11; Melee +1 unarmed strike +14/+9 (1d10+3) or +1 flurry of blows +14/+14/+9/+9/+4
 (1d10+3); Ranged mwk javelin +13 (1d6+2); Str 14, Con 14; CMB +13; CMD 30.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 18, Con 18, Int 10, Wis 14, Cha 8
+::: statblock
+Ability scores: Str 18, Dex 18, Con 18, Int 10, Wis 14, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +15
+Combat maneuver defense: 32
+Feats: Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike, Mobility, Spring Attack, Stunning Fist, Toughness, Vital Strike, Weapon Finesse, Weapon Focus (unarmed strike)
+Skills: Acrobatics +18 (+41 when jumping), Escape Artist +18, Intimidate +13, Stealth +22
+Languages: Common, Goblin
+Special qualities: fast movement, high jump, maneuver training, ki pool (7 points, cold iron/lawful/magic), slow fall 50 ft., wholeness of body (11 hit points)
+Combat gear: potion of bear's endurance, potion of bull's strength, potion of cure serious wounds, 2 alchemist's fire, fervor juice
+Other gear: 3 mwk javelins, Iboa2, Iclk2, ring of prot1, Ifist1, 7 gp
+:::
 
-**Base attack bonus:** +8
+### Ecology
 
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Improved Unarmed Strike, Mobility, Spring
-Attack, Stunning Fist, Toughness, Vital Strike, Weapon Finesse, Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +18 (+41 when jumping), Escape Artist +18, Intimidate +13, Stealth +22
-
-**Languages:** Common, Goblin
-
-**Special qualities:** fast movement, high jump, maneuver training, ki pool (7 points, cold
-iron/lawful/magic), slow fall 50 ft., wholeness of body (11 hit points)
-
-**Combat gear:** potion of bear's endurance, potion of bull's strength, potion of cure serious
-wounds, 2 alchemist's fire, fervor juice
-
-**Other gear:** 3 mwk javelins, Iboa2, Iclk2, ring of prot1, Ifist1, 7 gp
-
-**Ecology**
-
-**Environment:** temperate hills
+::: statblock
+Environment: temperate hills
+:::
 
 ### Description
 

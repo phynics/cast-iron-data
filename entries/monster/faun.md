@@ -31,88 +31,67 @@ abilities = ["14", "16", "13", "11", "14", "17"]
 _This capricious figure has the upper torso, arms, and head of a man, but goat-like legs, a tail,
 and curling horns on his head._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic good
+Type: fey
+Initiative: +3
+Size: medium
+Perception: +8
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Alignment:** Chaotic good
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 13 (3d6+3)
+Fort: +2
+Ref: +6
+Will: +5
+Dr: 2/cold iron
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: dagger +4 (1d4+2/19-20)
+Ranged: shortbow +4 (1d6/×3)
+Spec Att: panpipes
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+At will: ghost sound (DC 13)
+Per day: 1/day: hideous laughter (DC 15), sleep (DC 14)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 400
+::: statblock
+Ability scores: Str 14, Dex 16, Con 13, Int 11, Wis 14, Cha 17
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Point-Blank Shot, Weapon Finesse
+Skills: Acrobatics +8, Bluff +9, Perception +8
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 13 (3d6+3)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +5
-
-**Dr:** 2/cold iron
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +4 (1d4+2/19-20)
-
-**Ranged:** shortbow +4 (1d6/×3)
-
-**Spec Att:** panpipes
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**At will:**
-
-- ghost sound (DC 13)
-
-**Per day:**
-
-- 1/day: hideous laughter (DC 15), sleep (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 16, Con 13, Int 11, Wis 14, Cha 17
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Point-Blank Shot, Weapon Finesse
-
-**Skills:** Acrobatics +8, Bluff +9, Perception +8
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or band (3-8)
-
-**Treasure:** Standard (dagger, sb20);
-[masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or band (3-8)
+Treasure: Standard (dagger, sb20); [masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

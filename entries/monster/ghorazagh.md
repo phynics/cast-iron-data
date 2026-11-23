@@ -33,79 +33,61 @@ abilities = ["22", "17", "26", "15", "17", "16"]
 _With an armored spherical body, numerous tentacular legs, and a multi-eyed visage, this creature is
 truly hideous._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+Initiative: +3
+Size: large
+Alignment: Neutral evil
+Perception: +21
+Senses: Bloodsense, Darkvision 30 ft.
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 26
+Touch: 12
+Flat-footed: 23
+AC modifiers: +3 Dex, +14 natural, -1 size
+Hit points: 187 (15d8+120)
+Fort: +15
+Ref: +10
+Will: +12
+Vulner: sonic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., climb 40 ft., fly 40 ft. (perfect)
+B Drain: 1d4 Con
+Melee: bite +16 (2d6+6), 2 claws +16 (1d8+6), 4 tentacles +14 (1d6+3 and [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: bloodspray
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Bloodsense, Darkvision 30 ft.
+::: statblock
+Ability scores: Str 22, Dex 17, Con 26, Int 15, Wis 17, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 31
+Feats: Bleeding Critical, Critical Focus, Flyby Attack, Great Fortitude, Improved Bull Rush, Lightning Reflexes, Multiattack, Power Attack
+Skills: Bluff +18, Climb +14, Knowledge (dungeoneering) +17, Perception +21
+Languages: Aklo; chemical communication
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 12
-
-**Flat-footed:** 23
-
-**AC modifiers:** +3 Dex, +14 natural, -1 size
-
-**Hit points:** 187 (15d8+120)
-
-**Fort:** +15
-
-**Ref:** +10
-
-**Will:** +12
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., fly 40 ft. (perfect)
-
-**B Drain:** 1d4 Con
-
-**Melee:** bite +16 (2d6+6), 2 claws +16 (1d8+6), 4 tentacles +14 (1d6+3 and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bloodspray
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 17, Con 26, Int 15, Wis 17, Cha 16
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31
-
-**Feats:** Bleeding Critical, Critical Focus, Flyby Attack, Great Fortitude, Improved Bull Rush,
-Lightning Reflexes, Multiattack, Power Attack
-
-**Skills:** Bluff +18, Climb +14, Knowledge (dungeoneering) +17, Perception +21
-
-**Languages:** Aklo; chemical communication
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, colony (3-9), or hive (10-40, including 6 brood guards of 17 HD
-and 1 hive lord of 21 HD)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, colony (3-9), or hive (10-40, including 6 brood guards of 17 HD and 1 hive lord of 21 HD)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

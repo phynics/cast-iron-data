@@ -31,72 +31,58 @@ abilities = ["12", "11", "13", "2", "10", "13"]
 _This thin, colorful fish has a broad, segmented sucker above its narrow mouth. A line of spines
 runs down its back._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 13
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 natural, +1 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 5 ft., swim 20 ft.
+Attach: present
+Melee: bite +5 (1d4+1 plus attach), tail slap +0 (1d4) or sucker +5 touch (attach), tail slap +0 (1d4)
+Spec Att: sap speed
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 11, Con 13, Int 2, Wis 10, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+11 grapple while attached)
+Combat maneuver defense: 13 (17 vs. grapple while attached)
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Perception +5, Stealth +8, Swim +9
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 natural, +1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 5 ft., swim 20 ft.
-
-**Attach:** present
-
-**Melee:** bite +5 (1d4+1 plus attach), tail slap +0 (1d4) or sucker +5 touch (attach), tail slap +0
-(1d4)
-
-**Spec Att:** sap speed
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 11, Con 13, Int 2, Wis 10, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+11 grapple while attached)
-
-**Combat maneuver defense:** 13 (17 vs. grapple while attached)
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +5, Stealth +8, Swim +9
-
-**Ecology**
-
-**Environment:** warm or temperate water
-
-**Organization:** solitary, pair, or school (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate water
+Organization: solitary, pair, or school (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

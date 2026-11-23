@@ -32,81 +32,62 @@ abilities = ["18", "17", "16", "13", "16", "15"]
 _This creature has an athletic human torso from the waist up, but its lower body consists of two
 hoofed forelegs trailing into a finned tail._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Size: large
+Type: Monstrous humanoid
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 59 (7d10+21)
+Fort: +5
+Ref: +8
+Will: +8
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 60 ft.
+Melee: mwk harpoon +12/+7 (1d8+6/×3), 2 hooves +5 (1d6+2)
+Pounce: present
+Ranged: mwk harpoon +11 (1d8+4/×3) or javelin +9/+4 (1d6+4)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 13, Wis 16, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 26
+Feats: Dodge, Mobility, Quick Draw, Weapon Focus (harpoon)
+Skills: Diplomacy +7, Intimidate +10, Knowledge (nature) +6, Perception +11, Swim +20
+Languages: Aquan, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), [undersized weapons](ref/umr/undersized-weapons)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 59 (7d10+21)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** 5 ft., swim 60 ft.
-
-**Melee:** mwk harpoon +12/+7 (1d8+6/×3), 2 hooves +5 (1d6+2)
-
-**Pounce:** present
-
-**Ranged:** mwk harpoon +11 (1d8+4/×3) or javelin +9/+4 (1d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 13, Wis 16, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 26
-
-**Feats:** Dodge, Mobility, Quick Draw, Weapon Focus (harpoon)
-
-**Skills:** Diplomacy +7, Intimidate +10, Knowledge (nature) +6, Perception +11, Swim +20
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious),
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Ecology**
-
-**Environment:** temperate oceans or coastlines
-
-**Organization:** solitary, pair, band (3-6), or school (7-20 plus 3 hunters of 2nd level and 1
-spellcaster mentor of 7th level)
-
-**Treasure:** Standard (mwk -harpoon, 6 javelins); other treasure
+::: statblock
+Environment: temperate oceans or coastlines
+Organization: solitary, pair, band (3-6), or school (7-20 plus 3 hunters of 2nd level and 1 spellcaster mentor of 7th level)
+Treasure: Standard (mwk -harpoon, 6 javelins); other treasure
+:::
 
 ### Special Abilities
 

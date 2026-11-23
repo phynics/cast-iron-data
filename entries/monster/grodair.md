@@ -36,87 +36,68 @@ abilities = ["18", "8", "19", "12", "13", "15"]
 _Several water-dripping tentacles sprout from this four-eyed fish's belly, while long fins protrude
 from its back._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Initiative: -1
+Type: Magical beast
+Size: medium
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic, Extraplanar
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: -1 Dex, +7 natural
+Hit points: 66 (7d10+28)
+Fort: +11
+Ref: +4
+Will: +5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: bite +11 (1d8+4), 2 tentacles +6 (1d4+2 plus [trip](ref/umr/trip))
+Push: water blast, 5 ft.
+Ranged: water blast +7 touch (1d8 plus push)
+Spec Att: death flood
+:::
 
-**Perception:** +1
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +9
+At will: control water
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic, Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 8, Con 19, Int 12, Wis 13, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Combat Reflexes, Great Fortitude, Iron Will, Weapon Focus (water blast)
+Skills: Knowledge (nature) +8, Survival +8, Swim +22
+Languages: Aquan, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), muddy field
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** -1 Dex, +7 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +11
-
-**Ref:** +4
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** bite +11 (1d8+4), 2 tentacles +6 (1d4+2 plus [trip](ref/umr/trip))
-
-**Push:** water blast, 5 ft.
-
-**Ranged:** water blast +7 touch (1d8 plus push)
-
-**Spec Att:** death flood
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +9
-
-**At will:**
-
-- control water
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 8, Con 19, Int 12, Wis 13, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Combat Reflexes, Great Fortitude, Iron Will, Weapon Focus (water blast)
-
-**Skills:** Knowledge (nature) +8, Survival +8, Swim +22
-
-**Languages:** Aquan, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), muddy field
-
-**Ecology**
-
-**Environment:** any water or coastlines
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any water or coastlines
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

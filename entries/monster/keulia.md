@@ -29,71 +29,58 @@ abilities = ["5", "12", "11", "1", "12", "7"]
 
 _This small, frilled reptile has a squat body with smooth scales._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +3
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., burrow 5 ft.
+Melee: gore -1 (1d3-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 12, Con 11, Int 1, Wis 12, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 6 (10 vs. trip)
+Feats: Stealthy
+Skills: Escape Artist +3, Perception +5, Stealth +11
+Special qualities: custom camouflage
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., burrow 5 ft.
-
-**Melee:** gore -1 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 12, Con 11, Int 1, Wis 12, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 6 (10 vs. trip)
-
-**Feats:** Stealthy
-
-**Skills:** Escape Artist +3, Perception +5, Stealth +11
-
-**Special qualities:** custom camouflage
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or masquerade (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or masquerade (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

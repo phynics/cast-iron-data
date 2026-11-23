@@ -29,98 +29,76 @@ abilities = ["12", "16", "11", "10", "8", "17"]
 
 _Wings composed of wood and vines grow out of the body of this lithesome fey._
 
-**Challenge rating:** 1/2
-
 **Gathlain [sorcerer](ref/class/sorcerer) 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +3
+Perception: -1
+Senses: Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 7 (1d6+1)
+Fort: +0
+Ref: +3
+Will: +1
+:::
 
-**Perception:** -1
+### Offense
 
-**Senses:** Low-light vision
+::: statblock
+Speed: 30 ft., fly 40 ft. (poor)
+Melee: spear +2 (1d6+1/×3)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 1/day: entangle, feather step\
+6/day: laughing touch
+:::
 
-**Experience points:** 200
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: color spray (DC 14), magic missile
+Cantrips: At will: dancing lights, daze (DC 15), ghost sound (DC 13), ray of frost
+Bloodline: [fey](ref/sorcbloodline/fey)
+:::
 
-**Armor class:** 17
+### Statistics
 
-**Touch:** 15
+::: statblock
+Ability scores: Str 12, Dex 16, Con 11, Int 10, Wis 8, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 14
+Feats: Dodge, Eschew Materials
+Skills: Fly +1, Knowledge (arcana) +4, Spellcraft +4
+Languages: Common, Sylvan
+Special qualities: bloodline arcana (+2 DC for compulsion spells)
+:::
 
-**Flat-footed:** 13
+### Ecology
 
-**AC modifiers:** +3 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 7 (1d6+1)
-
-**Fort:** +0
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (poor)
-
-**Melee:** spear +2 (1d6+1/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 1/day: entangle, feather step
-- 6/day: laughing touch
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: color spray (DC 14), magic missile
-
-**Cantrips:**
-
-- At will: dancing lights, daze (DC 15), ghost sound (DC 13), ray of frost
-
-**Bloodline:** [fey](ref/sorcbloodline/fey)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 16, Con 11, Int 10, Wis 8, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 14
-
-**Feats:** Dodge, Eschew Materials
-
-**Skills:** Fly +1, Knowledge (arcana) +4, Spellcraft +4
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** bloodline arcana (+2 DC for compulsion spells)
-
-**Ecology**
-
-**Environment:** temperate forests or jungles
-
-**Organization:** solitary, flight (2-6), or grove (2-12)
-
-**Treasure:** NPC gear (spear); other treasure
+::: statblock
+Environment: temperate forests or jungles
+Organization: solitary, flight (2-6), or grove (2-12)
+Treasure: NPC gear (spear); other treasure
+:::
 
 ### Description
 

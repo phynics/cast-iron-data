@@ -34,104 +34,78 @@ primeval scowl._
 
 **Wood**
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+aura: incombustible aura (30 ft.)
+Type: construct
+Size: diminutive
+Initiative: +0
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 400
+:::
 
-**aura:** incombustible aura (30 ft.)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 size
+Hit points: 11 (2d10)
+Fort: +0
+Ref: +0
+Will: +1
+Regen: 5 (on natural ground)
+Resist: cold 5, electricity 5
+Vulner: fire
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +0
+::: statblock
+Speed: 10 ft.
+Melee: bite +2 (1d2-4)
+Ranged: splinter +6 (1d2-4)
+Reach: 0
+Space: 1
+Spec Att: primeval curse
+:::
 
-**Alignment:** Neutral
-
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +0
-
-**Ref:** +0
-
-**Will:** +1
-
-**Regen:** 5 (on natural ground)
-
-**Resist:** cold 5, electricity 5
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +2 (1d2-4)
-
-**Ranged:** splinter +6 (1d2-4)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Spec Att:** primeval curse
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**At will:**
-
-- detect animals or plants^S^, warp wood (DC 13)
-
-**Per day:**
-
-- 3/day: create water, goodberry, tree shape^S^
-- 1/day: barkskin, entangle (DC 12)
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+At will: detect animals or plants^S^, warp wood (DC 13)
+Per day: 3/day: create water, goodberry, tree shape^S^\
+1/day: barkskin, entangle (DC 12)
+:::
 
 ###### S {#footnote-s}
 
 See "Share Abilities" below
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 3, Dex 11, Con 10, Int 5, Wis 13, Cha 13
+::: statblock
+Ability scores: Str 3, Dex 11, Con 10, Int 5, Wis 13, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: -2
+Combat maneuver defense: 4
+Feats: Alertness
+Skills: Perception +5, Stealth +12
+Racial Modifiers: +4 Stealth amid wood
+Languages: understands creator's language (can't speak)
+Special qualities: inanimate, share abilities
+:::
 
-**Base attack bonus:** +2
+### Ecology
 
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 4
-
-**Feats:** Alertness
-
-**Skills:** Perception +5, Stealth +12
-
-**Racial Modifiers:** +4 Stealth amid wood
-
-**Languages:** understands creator's language (can't speak)
-
-**Special qualities:** inanimate, share abilities
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -32,79 +32,61 @@ abilities = ["14", "17", "15", "11", "10", "12"]
 _Armored from head to toe in gleaming black-and-red chitin, this insectile warrior's tail ends in a
 wickedly barbed stinger._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Initiative: +3 (+7 with hive mind)
+Alignment: Lawful neutral
+Size: medium
+Type: Monstrous humanoid
+Perception: +7 (+11 with hive mind)
+Senses: Darkvision 60 ft., Hive mind
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +3 (+7 with hive mind)
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +7
+Will: +4
+Resist: sonic 10
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: sting +6 (1d4+2 plus poison), 2 claws +6 (1d4+2 plus [grab](ref/umr/grab))
+Ranged: javelin +7 (1d6+2 plus poison)
+Spec Att: deadly grasp, poison
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +7 (+11 with hive mind)
+::: statblock
+Ability scores: Str 14, Dex 17, Con 15, Int 11, Wis 10, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +6 (+10 grapple)
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Skill Focus (Acrobatics), Step Up
+Skills: Acrobatics +10 (+14 when jumping), Climb +8, Intimidate +8, Perception +7 (+11 with hive mind), Stealth +7
+Languages: Common; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: coordinate, formian traits
+:::
 
-**Senses:** Darkvision 60 ft., Hive mind
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +4
-
-**Resist:** sonic 10
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** sting +6 (1d4+2 plus poison), 2 claws +6 (1d4+2 plus [grab](ref/umr/grab))
-
-**Ranged:** javelin +7 (1d6+2 plus poison)
-
-**Spec Att:** deadly grasp, poison
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 15, Int 11, Wis 10, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6 (+10 grapple)
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Skill Focus (Acrobatics), Step Up
-
-**Skills:** Acrobatics +10 (+14 when jumping), Climb +8, Intimidate +8, Perception +7 (+11 with hive
-mind), Stealth +7
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** coordinate, formian traits
-
-**Ecology**
-
-**Environment:** warm or temperate land or underground
-
-**Organization:** solitary, pair, band (5-8 plus 3-15 [workers](ref/monster/formian-formian-worker)
-and 1 [taskmaster](ref/monster/formian-formian-taskmaster)), or patrol (3-12)
-
-**Treasure:** Standard (6 javelins); other treasure
+::: statblock
+Environment: warm or temperate land or underground
+Organization: solitary, pair, band (5-8 plus 3-15 [workers](ref/monster/formian-formian-worker) and 1 [taskmaster](ref/monster/formian-formian-taskmaster)), or patrol (3-12)
+Treasure: Standard (6 javelins); other treasure
+:::
 
 ### Special Abilities
 

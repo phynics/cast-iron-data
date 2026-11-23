@@ -32,119 +32,80 @@ abilities = ["34", "37", "36", "27", "20", "23"]
 _This impeccably formed man has ice-blue skin. Bleeding icicles pierce his lips and form a jagged
 cloak around his waist and legs._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+Size: colossal
+Initiative: +17
+Alignment: Lawful evil
+Type: outsider
+Perception: +41
+Senses: Darkvision 60 ft., Discern lies, Low-light vision, See in darkness, True seeing
+Subtype: Evil, Extraplanar, Kyton, Lawful
+Experience points: 2,457,600
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +17
+::: statblock
+Armor class: 46
+Touch: 24
+Flat-footed: 32
+AC modifiers: +13 Dex, +1 dodge, +22 natural, +8 profane, -8 size
+Hit points: 610 (33d10+429)
+Fort: +31
+Ref: +24
+Will: +23
+Defensive abilities: cloak of ice, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic, good, and silver
+Immune: charm effects, cold, compulsion effects, fear effects, nonlethal damage, pain, petrification, poison
+Regen: 30 (deific or mythic)
+Resist: acid 30, electricity 30
+Sr: 37
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: +5 [wounding](ref/magic-enh/wounding) rapier +43/+38/+33/+28 (4d6+17/15-20)
+Ranged: +3 dagger +42/+37/+32/+27 (3d6+15/17-20)
+Reach: 30
+Space: 30
+Spec Att: bloody icicles, freezing blast, unnerving gaze (120 ft., DC 32)
+:::
 
-**Perception:** +41
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: discern lies, freedom of movement, true seeing
+At will: chill metal, plane shift, self only, water breathing
+Per day: 7/day: dimension door\
+5/day: cone of cold (DC 23), freezing sphere (DC 24), ice storm, wall of ice (DC 22)\
+3/day: imprisonment (DC 27), polar ray, soul bind (DC 27), summon (level 5, 3 [evangelist kytons](ref/monster/kyton) 85%)
+:::
 
-**Senses:** Darkvision 60 ft., Discern lies, Low-light vision, See in darkness, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Kyton, Lawful
+::: statblock
+Ability scores: Str 34, Dex 37, Con 36, Int 27, Wis 20, Cha 23
+Base attack bonus: +33
+Combat maneuver bonus: +53
+Combat maneuver defense: 85
+Feats: Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Improved Critical (dagger, rapier), Improved Feint, Improved Initiative, Point-Blank Shot, Power Attack, Precise Shot, Quick Draw, Weapon Focus (dagger, rapier)
+Skills: Bluff +42, Diplomacy +42, Fly +45, Use Magic Device +39
+Languages: Abyssal, Aklo, Celestial, Common, Infernal, Shadowtongue; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) ([libitinarii](ref/monster/kyton-libitinarii); [polymorph](ref/spell/polymorph)), icy logic
+Faith: Inkariax
+:::
 
-**Experience points:** 2,457,600
+### Ecology
 
-**Armor class:** 46
-
-**Touch:** 24
-
-**Flat-footed:** 32
-
-**AC modifiers:** +13 Dex, +1 dodge, +22 natural, +8 profane, -8 size
-
-**Hit points:** 610 (33d10+429)
-
-**Fort:** +31
-
-**Ref:** +24
-
-**Will:** +23
-
-**Defensive abilities:** cloak of ice, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** charm effects, cold, compulsion effects, fear effects, nonlethal damage, pain,
-petrification, poison
-
-**Regen:** 30 (deific or mythic)
-
-**Resist:** acid 30, electricity 30
-
-**Sr:** 37
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** +5 [wounding](ref/magic-enh/wounding) rapier +43/+38/+33/+28 (4d6+17/15-20)
-
-**Ranged:** +3 dagger +42/+37/+32/+27 (3d6+15/17-20)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** bloody icicles, freezing blast, unnerving gaze (120 ft., DC 32)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- discern lies, freedom of movement, true seeing
-
-**At will:**
-
-- chill metal, plane shift, self only, water breathing
-
-**Per day:**
-
-- 7/day: dimension door
-- 5/day: cone of cold (DC 23), freezing sphere (DC 24), ice storm, wall of ice (DC 22)
-- 3/day: imprisonment (DC 27), polar ray, soul bind (DC 27), summon (level 5, 3
-  [evangelist kytons](ref/monster/kyton) 85%)
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 37, Con 36, Int 27, Wis 20, Cha 23
-
-**Base attack bonus:** +33
-
-**Combat maneuver bonus:** +53
-
-**Combat maneuver defense:** 85
-
-**Feats:** Bleeding Critical, Blind-Fight, Cleave, Combat Expertise, Combat Reflexes, Critical
-Focus, Dodge, Improved Critical (dagger, rapier), Improved Feint, Improved Initiative, Point-Blank
-Shot, Power Attack, Precise Shot, Quick Draw, Weapon Focus (dagger, rapier)
-
-**Skills:** Bluff +42, Diplomacy +42, Fly +45, Use Magic Device +39
-
-**Languages:** Abyssal, Aklo, Celestial, Common, Infernal, Shadowtongue;
-[telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape)
-([libitinarii](ref/monster/kyton-libitinarii); [polymorph](ref/spell/polymorph)), icy logic
-
-**Faith:** Inkariax
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

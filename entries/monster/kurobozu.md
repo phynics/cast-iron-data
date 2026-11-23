@@ -30,77 +30,60 @@ abilities = ["21", "18", "-", "10", "18", "12"]
 
 _The mouth of this gray-skinned, emaciated monk is a distended, hollow pit of darkness._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 16
+AC modifiers: +4 Dex, +2 monk, +4 Wis
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +9
+Will: +10
+Evasion: present
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: 50 ft.
+Melee: unarmed strike +12/+7 (1d8+5 plus sage's bane) or flurry of blows +13/+13/+8 (1d8+5 plus sage's bane)
+Spec Att: disease, sage's bane, steal breath
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 18, Con -, Int 10, Wis 18, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Defensive Combat Training, Power Attack, Improved Initiative, Improved Unarmed Strike, Lightning Reflexes, Stunning Fist, Weapon Focus (unarmed strike)
+Skills: Acrobatics +13, Climb +12, Perception +16, Sense Motive +12, Stealth +16
+Languages: Common
+Special qualities: echo of life, sage's bane
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +2 monk, +4 Wis
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +10
-
-**Evasion:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** unarmed strike +12/+7 (1d8+5 plus sage's bane) or flurry of blows +13/+13/+8 (1d8+5 plus
-sage's bane)
-
-**Spec Att:** disease, sage's bane, steal breath
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 18, Con -, Int 10, Wis 18, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Defensive Combat Training, Power Attack, Improved Initiative, Improved Unarmed Strike,
-Lightning Reflexes, Stunning Fist, Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +13, Climb +12, Perception +16, Sense Motive +12, Stealth +16
-
-**Languages:** Common
-
-**Special qualities:** echo of life, sage's bane
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or guard (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or guard (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

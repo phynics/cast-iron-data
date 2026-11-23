@@ -30,77 +30,63 @@ abilities = ["33", "24", "-", "-", "11", "1"]
 _Made of polished silvery metal, this immense humanoid construct moves with shocking grace and
 speed._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: construct
+Size: huge
+Initiative: +7
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 76,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 32
+Touch: 16
+Flat-footed: 24
+AC modifiers: +7 Dex, +1 dodge, +16 natural, -2 size
+Hit points: 172 (24d10+40)
+Fort: +8
+Ref: +15
+Will: +8
+Dr: 15/adamantine, evasion
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: 2 slams +33 (4d10+11)
+Reach: 15
+Space: 15
+Spec Att: fluid form, quickness
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 76,800
-
-**Armor class:** 32
-
-**Touch:** 16
-
-**Flat-footed:** 24
-
-**AC modifiers:** +7 Dex, +1 dodge, +16 natural, -2 size
-
-**Hit points:** 172 (24d10+40)
-
-**Fort:** +8
-
-**Ref:** +15
-
-**Will:** +8
-
-**Dr:** 15/adamantine, evasion
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** 2 slams +33 (4d10+11)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** fluid form, quickness
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 24, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +37
-
-**Combat maneuver defense:** 55
-
-**Feats:** Dodge^B^, Mobility^B^, Run^B^, Spring Attack^B^
+::: statblock
+Ability scores: Str 33, Dex 24, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +24
+Combat maneuver bonus: +37
+Combat maneuver defense: 55
+Feats: Dodge^B^, Mobility^B^, Run^B^, Spring Attack^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

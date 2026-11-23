@@ -33,79 +33,64 @@ abilities = ["24", "11", "-", "-", "11", "1"]
 _This tall creature appears to be made of wrinkled stone and coral, bits of plant life clinging to
 its creased body and claw-like hands._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 21
+AC modifiers: +12 natural, -1 size
+Hit points: 96 (12d10+30)
+Fort: +4
+Ref: +4
+Will: +4
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Bleed: 1d6
+Melee: 2 claws +18 (1d6+10/19-20 plus bleed)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Experience points:** 6,400
-
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +12 natural, -1 size
-
-**Hit points:** 96 (12d10+30)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Bleed:** 1d6
-
-**Melee:** 2 claws +18 (1d6+10/19-20 plus bleed)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 11, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 30
-
-**Feats:** Improved Critical^B^ (claw)
-
-**Special qualities:** aquatic reconstruction, powerful blows (slam)
+::: statblock
+Ability scores: Str 24, Dex 11, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +12
+Combat maneuver bonus: +20
+Combat maneuver defense: 30
+Feats: Improved Critical^B^ (claw)
+Special qualities: aquatic reconstruction, powerful blows (slam)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm oceans or coastlines
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans or coastlines
+Organization: solitary or gang (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

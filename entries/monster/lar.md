@@ -32,94 +32,70 @@ abilities = ["10", "17", "13", "12", "15", "14"]
 _A stirring in the air and rustle through the room reveals a presence - a subtle aura both cautious
 and curious._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Good, Incorporeal, Lawful, Native
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful good
+::: statblock
+Armor class: 17
+Touch: 17
+Flat-footed: 14
+AC modifiers: +2 deflection, +3 Dex, +2 size
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +7
+Will: +4
+Regen: 1 (in statua)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 0 ft., fly 30 ft. (perfect)
+Melee: ---
+Reach: 0
+Space: 2-1/2
+Spec Att: suggestion
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+At will: create water, detect evil, ghost sound, guidance, lullaby, mage hand, mending, message, open/close, prestidigitation, purify food and drink
+Per day: 3/day: bless, bless water, dancing lights, produce flame, protection from evil, sanctuary (DC 13), unseen servant\
+1/day: calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Good, Incorporeal, Lawful, Native
+::: statblock
+Ability scores: Str 10, Dex 17, Con 13, Int 12, Wis 15, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Alertness, Improved Lightning Reflexes, Lightning Reflexes
+Skills: Craft (any two) +10, Heal +11, Knowledge (local) +10, Perception +13, Sense Motive +13
+Languages: telepathy (100 ft.)
+Special qualities: genius loci, naturally invisible, statua
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 17
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 deflection, +3 Dex, +2 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +4
-
-**Regen:** 1 (in statua)
-
-**Offense**
-
-**Speed:** 0 ft., fly 30 ft. (perfect)
-
-**Melee:** ---
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** suggestion
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**At will:**
-
-- create water, detect evil, ghost sound, guidance, lullaby, mage hand, mending, message,
-  open/close, prestidigitation, purify food and drink
-
-**Per day:**
-
-- 3/day: bless, bless water, dancing lights, produce flame, protection from evil, sanctuary (DC 13),
-  unseen servant
-- 1/day: calm emotions, continual flame, gust of wind, pyrotechnics, whispering wind
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 13, Int 12, Wis 15, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Alertness, Improved Lightning Reflexes, Lightning Reflexes
-
-**Skills:** Craft (any two) +10, Heal +11, Knowledge (local) +10, Perception +13, Sense Motive +13
-
-**Languages:** telepathy (100 ft.)
-
-**Special qualities:** genius loci, naturally invisible, statua
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

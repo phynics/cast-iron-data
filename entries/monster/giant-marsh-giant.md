@@ -34,94 +34,70 @@ abilities = ["27", "17", "19", "8", "15", "12"]
 _Cold, black eyes stare out from the fish-like face of this hideous green-skinned, web-fingered, and
 obese giant._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +11
+Senses: Low-light vision
+Subtype: Giant
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 18
+AC modifiers: +3 Dex, +9 natural, -1 size
+Hit points: 102 (12d8+48)
+Fort: +12
+Ref: +7
+Will: +8
+Rock Ct: present
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Melee: gaff +16/+11 (2d6+12) or 2 slams +16 (1d6+8)
+Ranged: rock +12 (2d6+9)
+Reach: 10
+Rock Th: 120 ft.
+Space: 10
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +13
+Per day: 3/day: augury, bestow curse (DC 15), fog cloud
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 27, Dex 17, Con 19, Int 8, Wis 15, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +18
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Improved Iron Will, Improved Sunder, Iron Will, Power Attack, Vital Strike
+Skills: Perception +11, Stealth +5 (+13 in swamps), Swim +16
+Racial Modifiers: +8 Stealth in swamps
+Languages: Boggard, Giant
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +9 natural, -1 size
-
-**Hit points:** 102 (12d8+48)
-
-**Fort:** +12
-
-**Ref:** +7
-
-**Will:** +8
-
-**Rock Ct:** present
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Melee:** gaff +16/+11 (2d6+12) or 2 slams +16 (1d6+8)
-
-**Ranged:** rock +12 (2d6+9)
-
-**Reach:** 10
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +13
-
-**Per day:**
-
-- 3/day: augury, bestow curse (DC 15), fog cloud
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 17, Con 19, Int 8, Wis 15, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Improved Iron Will, Improved Sunder, Iron Will, Power Attack, Vital
-Strike
-
-**Skills:** Perception +11, Stealth +5 (+13 in swamps), Swim +16
-
-**Racial Modifiers:** +8 Stealth in swamps
-
-**Languages:** Boggard, Giant
-
-**Ecology**
-
-**Environment:** temperate marshes
-
-**Organization:** solitary, gang (2-6), or tribe (7-22, plus 20% noncombatants plus 1 cleric or
-witch leader of 4th-8th level, 1-3 barbarian or fighter champions of 2nd-5th level, 2-12 merrows,
-10-20 [boggards](ref/monster/boggard), and 6-12 [giant frogs](ref/monster/frog-giant-frog))
-
-**Treasure:** Standard; [gaff](ref/eq-weapon/boarding-gaff), other treasure
+::: statblock
+Environment: temperate marshes
+Organization: solitary, gang (2-6), or tribe (7-22, plus 20% noncombatants plus 1 cleric or witch leader of 4th-8th level, 1-3 barbarian or fighter champions of 2nd-5th level, 2-12 merrows, 10-20 [boggards](ref/monster/boggard), and 6-12 [giant frogs](ref/monster/frog-giant-frog))
+Treasure: Standard; [gaff](ref/eq-weapon/boarding-gaff), other treasure
+:::
 
 ### Description
 

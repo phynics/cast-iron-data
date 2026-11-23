@@ -31,103 +31,72 @@ abilities = ["47", "20", "40", "3", "26", "23"]
 _The armored plates of this immense, three-tailed scorpion are fiery red, and its stingers glow with
 molten heat._
 
-**Challenge rating:** 26
+::: statblock
+Challenge rating: 26
+Alignment: Chaotic neutral
+Size: colossal
+Initiative: +9
+Type: Magical beast
+Perception: +37
+Senses: Darkvision 600 ft., Low-light vision
+Subtype: Earth, Kaiju
+tremorsense: 600
+Experience points: 2,457,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 44
+Touch: 7
+Flat-footed: 39
+AC modifiers: +5 Dex, +37 natural, -8 size
+Hit points: 615 (30d10+450)
+Fort: +32
+Ref: +24
+Will: +20
+Defensive abilities: recovery
+Dr: 20/epic
+Ferocity: present
+Fh: 30
+Immune: ability damage, ability drain, death effects, disease, energy drain, fear, fire
+Resist: acid 30, cold 30, electricity 30, negative energy 30, sonic 30
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 100 ft., burrow 100 ft.
+Constrict: 4d6+27
+Melee: 2 claws +40 (4d6+18/19-20 plus [grab](ref/umr/grab)), 3 stings +40 (3d6+18/19-20 plus 2d6 fire and poison)
+Reach: 50
+Space: 50
+Spec Att: burrowing charge, heat beam, hurl foe, poison
+Trample: 2d8+27, DC 43
+Web: +27 ranged, DC 40, 30 hp
+:::
 
-**Perception:** +37
+### Statistics
 
-**Senses:** Darkvision 600 ft., Low-light vision
+::: statblock
+Ability scores: Str 47, Dex 20, Con 40, Int 3, Wis 26, Cha 23
+Base attack bonus: +30
+Combat maneuver bonus: +56 (+60 bull rush, +60 grapple)
+Combat maneuver defense: 71 (73 vs. bull rush, 83 vs. trip)
+Feats: Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull Rush, Improved Critical (claw), Improved Critical (sting), Improved Initiative, Improved Lightning Reflexes, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
+Skills: Climb +31, Perception +37, Stealth +2 (+32 when burrowing)
+Racial Modifiers: +16 Perception, +30 Stealth when burrowing
+Languages: Terran (can't speak)
+Special qualities: massive, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Earth, Kaiju
+### Ecology
 
-**tremorsense:** 600
-
-**Experience points:** 2,457,600
-
-**Armor class:** 44
-
-**Touch:** 7
-
-**Flat-footed:** 39
-
-**AC modifiers:** +5 Dex, +37 natural, -8 size
-
-**Hit points:** 615 (30d10+450)
-
-**Fort:** +32
-
-**Ref:** +24
-
-**Will:** +20
-
-**Defensive abilities:** recovery
-
-**Dr:** 20/epic
-
-**Ferocity:** present
-
-**Fh:** 30
-
-**Immune:** ability damage, ability drain, death effects, disease, energy drain, fear, fire
-
-**Resist:** acid 30, cold 30, electricity 30, negative energy 30, sonic 30
-
-**Offense**
-
-**Speed:** 100 ft., burrow 100 ft.
-
-**Constrict:** 4d6+27
-
-**Melee:** 2 claws +40 (4d6+18/19-20 plus [grab](ref/umr/grab)), 3 stings +40 (3d6+18/19-20 plus 2d6
-fire and poison)
-
-**Reach:** 50
-
-**Space:** 50
-
-**Spec Att:** burrowing charge, heat beam, hurl foe, poison
-
-**Trample:** 2d8+27, DC 43
-
-**Web:** +27 ranged, DC 40, 30 hp
-
-**Statistics**
-
-**Ability scores:** Str 47, Dex 20, Con 40, Int 3, Wis 26, Cha 23
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +56 (+60 bull rush, +60 grapple)
-
-**Combat maneuver defense:** 71 (73 vs. bull rush, 83 vs. trip)
-
-**Feats:** Combat Reflexes, Critical Focus, Greater Bull Rush, Greater Vital Strike, Improved Bull
-Rush, Improved Critical (claw), Improved Critical (sting), Improved Initiative, Improved Lightning
-Reflexes, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical,
-Vital Strike
-
-**Skills:** Climb +31, Perception +37, Stealth +2 (+32 when burrowing)
-
-**Racial Modifiers:** +16 Perception, +30 Stealth when burrowing
-
-**Languages:** Terran (can't speak)
-
-**Special qualities:** massive, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary (unique)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm deserts
+Organization: solitary (unique)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

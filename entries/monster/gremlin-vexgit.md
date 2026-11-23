@@ -32,101 +32,74 @@ abilities = ["6", "13", "14", "12", "13", "11"]
 _With a head like an angry crustacean, this fierce little insectoid creature clacks and rattles with
 a tiny but solid-looking hammer._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +1
+Alignment: Lawful evil
+Perception: +5
+Senses: Darkvision 120 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 8 (1d6+5)
+Fort: +2
+Ref: +3
+Will: +3
+Dr: 5/cold iron
+Sr: 12
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Melee: warhammer +0 (1d4-2/×3), bite -2 (1d3-2)
+Reach: 0
+Space: 2-1/2
+Spec Att: speedy sabotage, wrecking crew
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +1
+At will: prestidigitation
+Per hour: rusting grasp, snare
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 8 (1d6+5)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +3
-
-**Dr:** 5/cold iron
-
-**Sr:** 12
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Melee:** warhammer +0 (1d4-2/×3), bite -2 (1d3-2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** speedy sabotage, wrecking crew
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +1
-
-**At will:**
-
-- prestidigitation
-
-**Per hour:**
-
-- rusting grasp, snare
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 13, Con 14, Int 12, Wis 13, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 7
-
-**Feats:** Skill Focus (Disable Device), Toughness^B^, Weapon Finesse^B^
-
-**Skills:** Appraise +2, Climb +13, Craft (traps) +5, Disable Device +9, Knowledge (engineering) +2,
-Perception +5, Stealth +13 (+17 in metal or stony areas, +9 when moving)
-
-**Racial Modifiers:** +4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving
-
-**Languages:** Undercommon
+::: statblock
+Ability scores: Str 6, Dex 13, Con 14, Int 12, Wis 13, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 7
+Feats: Skill Focus (Disable Device), Toughness^B^, Weapon Finesse^B^
+Skills: Appraise +2, Climb +13, Craft (traps) +5, Disable Device +9, Knowledge (engineering) +2, Perception +5, Stealth +13 (+17 in metal or stony areas, +9 when moving)
+Racial Modifiers: +4 Disable Device, +4 Stealth in metal or stony areas, -4 Stealth when moving
+Languages: Undercommon
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any underground or urban
-
-**Organization:** solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd
-level, 1 rogue leader of 2nd-4th level, 2-14 trained [dire rats](ref/monster/rat-dire-rat), 2-5
-trained [venomous snakes](ref/monster/snake-venomous-snake), and 1-3
-[rat swarms](ref/monster/rat-rat-swarm))
-
-**Treasure:** Standard (warhammer); other treasure
+::: statblock
+Environment: any underground or urban
+Organization: solitary, pair, mob (3-12), or infestation (13-20 with 1-3 sorcerers of 1st-3rd level, 1 rogue leader of 2nd-4th level, 2-14 trained [dire rats](ref/monster/rat-dire-rat), 2-5 trained [venomous snakes](ref/monster/snake-venomous-snake), and 1-3 [rat swarms](ref/monster/rat-rat-swarm))
+Treasure: Standard (warhammer); other treasure
+:::
 
 ### Special Abilities
 

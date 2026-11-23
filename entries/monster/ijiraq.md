@@ -33,91 +33,67 @@ abilities = ["16", "15", "18", "15", "19", "22"]
 _Its head the skull of a caribou, this humanoid has wicked claws, and wears wrappings of ragged fur
 adorned with scrimshaw talismans._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +2
+Size: medium
+Perception: +21
+Senses: Low-light vision
+Subtype: Shapechanger
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 22
+AC modifiers: +2 Dex, +1 dodge, +12 natural
+Hit points: 105 (14d6+56)
+Fort: +8
+Ref: +13
+Will: +13
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +10 (2d4+3), bite +10 (2d6+3), gore +10 (2d6+3)
+Ranged: javelin +9 (1d6+3)
+Spec Att: disorienting gaze
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+At will: dimension door, fly, hallucinatory terrain (DC 20)
+Per day: 3/day: baleful polymorph (DC 21), control winds, cure critical wounds (DC 20), ice storm (DC 20), sleet storm (DC 19), summon nature's ally IV
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 16, Dex 15, Con 18, Int 15, Wis 19, Cha 22
+Base attack bonus: +7
+Combat maneuver bonus: +10
+Combat maneuver defense: 23
+Feats: Acrobatic Steps, Blind-Fight, Combat Reflexes, Dodge, Lightning Reflexes, Mobility, Nimble Moves
+Skills: Escape Artist +19, Handle Animal +20, Intimidate +20, Knowledge (arcana) +16, Perception +21
+Special qualities: [change shape](ref/umr/change-shape) (elk; [beast shape II](ref/spell/beast-shape-2)), hide in plain sight
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +1 dodge, +12 natural
-
-**Hit points:** 105 (14d6+56)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +13
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +10 (2d4+3), bite +10 (2d6+3), gore +10 (2d6+3)
-
-**Ranged:** javelin +9 (1d6+3)
-
-**Spec Att:** disorienting gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**At will:**
-
-- dimension door, fly, hallucinatory terrain (DC 20)
-
-**Per day:**
-
-- 3/day: baleful polymorph (DC 21), control winds, cure critical wounds (DC 20), ice storm (DC 20),
-  sleet storm (DC 19), summon nature's ally IV
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 15, Con 18, Int 15, Wis 19, Cha 22
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23
-
-**Feats:** Acrobatic Steps, Blind-Fight, Combat Reflexes, Dodge, Lightning Reflexes, Mobility,
-Nimble Moves
-
-**Skills:** Escape Artist +19, Handle Animal +20, Intimidate +20, Knowledge (arcana) +16, Perception
-+21
-
-**Special qualities:** [change shape](ref/umr/change-shape) (elk;
-[beast shape II](ref/spell/beast-shape-2)), hide in plain sight
-
-**Ecology**
-
-**Environment:** cold forests or plains
-
-**Organization:** solitary
-
-**Treasure:** Standard; mostly valuable scrimshaw carvings
+::: statblock
+Environment: cold forests or plains
+Organization: solitary
+Treasure: Standard; mostly valuable scrimshaw carvings
+:::
 
 ### Special Abilities
 

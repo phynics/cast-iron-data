@@ -32,108 +32,74 @@ abilities = ["23", "21", "22", "20", "19", "18"]
 _Empty eye sockets and jagged teeth punctuate the palpable hate that roils off this twisted,
 gray-skinned crone._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+blindsight: 60
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: Monstrous humanoid
+Perception: +21
+Senses: Scent
+Subtype: Cold
+Experience points: 12,800
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 19
+AC modifiers: +5 Dex, +9 natural
+Hit points: 175 (14d10+84)
+Fort: +12
+Ref: +14
+Will: +13
+Dr: 10/cold iron and magic
+Immune: cold, acid, charm, fear, gaze attacks, sleep
+Sr: 22
+Vulner: fire
+:::
 
-**Initiative:** +5
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)
+Spec Att: shaping touch
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +18
+Constant: detect good, detect magic, detect thoughts (DC 16)
+At will: contagion (DC 17), cure light wounds, diminish plants, inflict light wounds (DC 15), invisibility, self only, minor creation, poison (DC 17)
+Per day: 3/day: bestow curse (DC 17), blindness/deafness (DC 16), empowered cone of cold (DC 19), crushing despair (DC 17), silence (DC 16)\
+1/day: control weather
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 23, Dex 21, Con 22, Int 20, Wis 19, Cha 18
+Base attack bonus: +14
+Combat maneuver bonus: +20
+Combat maneuver defense: 35
+Feats: Alertness, Blind-Fight, Combat Casting, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Great Fortitude, Persuasive, Toughness
+Skills: Bluff +14, Craft (leather) +16, Diplomacy +18, Sense Motive +18, Sleight of Hand +12, Spellcraft +16, Stealth +18
+Languages: Aklo, Common, Draconic, Giant, Goblin, Sylvan (can't speak)
+Special qualities: blind and mute, [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 Dex, +9 natural
-
-**Hit points:** 175 (14d10+84)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +13
-
-**Dr:** 10/cold iron and magic
-
-**Immune:** cold, acid, charm, fear, gaze attacks, sleep
-
-**Sr:** 22
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +20 (1d6+6 plus 1d4 bleed), bite +20 (1d6+6)
-
-**Spec Att:** shaping touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +18
-
-**Constant:**
-
-- detect good, detect magic, detect thoughts (DC 16)
-
-**At will:**
-
-- contagion (DC 17), cure light wounds, diminish plants, inflict light wounds (DC 15), invisibility,
-  self only, minor creation, poison (DC 17)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 17), blindness/deafness (DC 16), empowered cone of cold (DC 19), crushing
-  despair (DC 17), silence (DC 16)
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 21, Con 22, Int 20, Wis 19, Cha 18
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 35
-
-**Feats:** Alertness, Blind-Fight, Combat Casting, Empower
-[Spell-Like Ability](ref/umr/spell-like-abilities) (cone of cold), Great Fortitude, Persuasive,
-Toughness
-
-**Skills:** Bluff +14, Craft (leather) +16, Diplomacy +18, Sense Motive +18, Sleight of Hand +12,
-Spellcraft +16, Stealth +18
-
-**Languages:** Aklo, Common, Draconic, Giant, Goblin, Sylvan (can't speak)
-
-**Special qualities:** blind and mute, [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** cold plains, forests, and marshes
-
-**Organization:** solitary or coven (3 hags of any kind)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold plains, forests, and marshes
+Organization: solitary or coven (3 hags of any kind)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

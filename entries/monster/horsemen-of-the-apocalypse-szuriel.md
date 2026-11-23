@@ -31,124 +31,82 @@ abilities = ["46", "29", "40", "29", "30", "31"]
 _This blond woman's pitch-black eyes weep tears of blood, and a massive pair of raven's wings
 spreads from her shoulders._
 
-**Challenge rating:** 28
+::: statblock
+Challenge rating: 28
+aura: [frightful presence](ref/umr/frightful-presence), (120 ft., DC 36), unholy aura (DC 28)
+Initiative: +13
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +46
+Senses: Darkvision 60 ft., Detect good, True seeing
+Subtype: Daemon, Evil, Extraplanar
+Experience points: 4,915,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence), (120 ft., DC 36), unholy aura (DC 28)
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 46
+Touch: 35
+Flat-footed: 37
+AC modifiers: +4 deflection, +9 Dex, +11 natural, +12 profane
+Hit points: 676 (33d10+495)
+Fort: +30
+Ref: +31
+Will: +32
+Defensive abilities: apocalyptic resurrection, fire shield (warm shield), _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 20/epic, good, and silver
+Immune: ability damage, ability drain, acid, charm effects, compulsion effects, death effects, disease, energy drain, petrification, poison
+Regen: 20 (deific or mythic)
+Resist: cold 30, electricity 30, fire 30
+Sr: 39
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+E Drain: 1 level, DC 36
+Melee: Lamentation of the Faithless +58/+58/+53/+48/+43 (2d6+36/17-20), 2 wings +46 (1d6+9 plus energy drain)
+Spec Att: eruptive arrival, fury of the forsaken
+:::
 
-**Type:** outsider
-
-**Perception:** +46
-
-**Senses:** Darkvision 60 ft., Detect good, True seeing
-
-**Subtype:** Daemon, Evil, Extraplanar
-
-**Experience points:** 4,915,200
-
-**Armor class:** 46
-
-**Touch:** 35
-
-**Flat-footed:** 37
-
-**AC modifiers:** +4 deflection, +9 Dex, +11 natural, +12 profane
-
-**Hit points:** 676 (33d10+495)
-
-**Fort:** +30
-
-**Ref:** +31
-
-**Will:** +32
-
-**Defensive abilities:** apocalyptic resurrection, fire shield (warm shield),
-_[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 20/epic, good, and silver
-
-**Immune:** ability damage, ability drain, acid, charm effects, compulsion effects, death effects,
-disease, energy drain, petrification, poison
-
-**Regen:** 20 (deific or mythic)
-
-**Resist:** cold 30, electricity 30, fire 30
-
-**Sr:** 39
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**E Drain:** 1 level, DC 36
-
-**Melee:** Lamentation of the Faithless +58/+58/+53/+48/+43 (2d6+36/17-20), 2 wings +46 (1d6+9 plus
-energy drain)
-
-**Spec Att:** eruptive arrival, fury of the forsaken
-
-**Spell-Like Abilities**
-
-**Caster level:** 28
-
-**Concentration:** +38
-
-**Constant:**
-
-- detect good, fire shield, warm shield, freedom of movement, true seeing, unholy aura (DC 28)
-
-**At will:**
-
-- astral projection, blasphemy^M^ (DC 27), desecrate^M^, greater dispel magic, greater teleport,
-  shapechange, spiritual weapon^M^, telekinesis^M^ (DC 25), unhallow, unholy blight^M^ (DC 24)
-
-**Per day:**
-
-- 3/day: blade barrier^M^ (DC 26), fire storm^M^ (DC 28), incendiary cloud (DC 28), plane shift (DC
-  27), summon daemon, quickened telekinesis^M^ (DC 25)
-- 1/day: meteor swarm^M^ (DC 29), time stop^M^, wish^M^
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 28
+Concentration: +38
+Constant: detect good, fire shield, warm shield, freedom of movement, true seeing, unholy aura (DC 28)
+At will: astral projection, blasphemy^M^ (DC 27), desecrate^M^, greater dispel magic, greater teleport, shapechange, spiritual weapon^M^, telekinesis^M^ (DC 25), unhallow, unholy blight^M^ (DC 24)
+Per day: 3/day: blade barrier^M^ (DC 26), fire storm^M^ (DC 28), incendiary cloud (DC 28), plane shift (DC 27), summon daemon, quickened telekinesis^M^ (DC 25)\
+1/day: meteor swarm^M^ (DC 29), time stop^M^, wish^M^
+:::
 
 ###### M {#footnote-m}
 
 Szuriel can use this ability's mythic version in her realm.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 46, Dex 29, Con 40, Int 29, Wis 30, Cha 31
+::: statblock
+Ability scores: Str 46, Dex 29, Con 40, Int 29, Wis 30, Cha 31
+Base attack bonus: +33
+Combat maneuver bonus: +51
+Combat maneuver defense: 86
+Feats: Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Critical Mastery, Flyby Attack, Greater Weapon Focus (greatsword), Greater Weapon Specialization (greatsword), Improved Critical (greatsword), Improved Initiative, Mounted Combat, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Ride-By Attack, Spirited Charge, Staggering Critical, Weapon Focus (greatsword), Weapon Specialization (greatsword)
+Skills: Acrobatics +45, Bluff +46, Fly +49, Sense Motive +46, Spellcraft +42, Stealth +45, Use Magic Device +46
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: corrupted flames, Horseman traits, warmonger
+Faith: Szuriel
+:::
 
-**Base attack bonus:** +33
+### Ecology
 
-**Combat maneuver bonus:** +51
-
-**Combat maneuver defense:** 86
-
-**Feats:** Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Critical Mastery,
-Flyby Attack, Greater Weapon Focus (greatsword), Greater Weapon Specialization (greatsword),
-Improved Critical (greatsword), Improved Initiative, Mounted Combat, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (telekinesis), Ride-By Attack, Spirited Charge,
-Staggering Critical, Weapon Focus (greatsword), Weapon Specialization (greatsword)
-
-**Skills:** Acrobatics +45, Bluff +46, Fly +49, Sense Motive +46, Spellcraft +42, Stealth +45, Use
-Magic Device +46
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** corrupted flames, Horseman traits, warmonger
-
-**Faith:** Szuriel
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary or mounted (Szuriel and the Red Horse)
-
-**Treasure:** Triple (Lamentation of the Faithless); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary or mounted (Szuriel and the Red Horse)
+Treasure: Triple (Lamentation of the Faithless); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,110 +32,79 @@ abilities = ["18", "19", "22", "19", "22", "23"]
 _This heavenly warrior appears to be a work of art come to life. She grips a fearsome glaive that
 trails brilliant colors._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: charming (30 ft., DC 24, 1 day)
+Initiative: +4
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar, Good, Herald, Shapechanger
+Experience points: 51,200
+:::
 
-**aura:** charming (30 ft., DC 24, 1 day)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 30
+Touch: 20
+Flat-footed: 25
+AC modifiers: +6 deflection, +4 Dex, +1 dodge, +10 natural, -1 size
+Hit points: 184 (16d10+96)
+Fort: +17
+Ref: +20
+Will: +24
+Dr: 10/evil
+Fh: 5
+Immune: fire, sonic
+Resist: acid 30, electricity 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: +2 dancing glaive +22/+17/+12/+7 (2d8+8/×3)
+Ranged: stunning ray +19 (1d8 plus stun)
+Reach: 10
+Space: 10
+Spec Att: bardic magic, bardic performance 40 rounds/day (swift action; [countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate), [inspire courage](ref/performance/inspire-courage) +4)
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +22
+At will: calm emotions (DC 18), good hope, cure moderate wounds, teleport, self plus 50 lbs. only
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Extraplanar, Good, Herald, Shapechanger
-
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 20
-
-**Flat-footed:** 25
-
-**AC modifiers:** +6 deflection, +4 Dex, +1 dodge, +10 natural, -1 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +17
-
-**Ref:** +20
-
-**Will:** +24
-
-**Dr:** 10/evil
-
-**Fh:** 5
-
-**Immune:** fire, sonic
-
-**Resist:** acid 30, electricity 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** +2 dancing glaive +22/+17/+12/+7 (2d8+8/×3)
-
-**Ranged:** stunning ray +19 (1d8 plus stun)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bardic magic, bardic performance 40 rounds/day (swift action;
-[countersong](ref/performance/countersong), [distraction](ref/performance/distraction),
-[fascinate](ref/performance/fascinate), [inspire courage](ref/performance/inspire-courage) +4)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +22
-
-**At will:**
-
-- calm emotions (DC 18), good hope, cure moderate wounds, teleport, self plus 50 lbs. only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 22, Int 19, Wis 22, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +21 (+23 sunder)
-
-**Combat maneuver defense:** 42 (44 vs. sunder)
-
-**Feats:** Blind-Fight, Dodge, Improved Iron Will, Improved Sunder^B^, Iron Will^B^, Mobility, Skill
-Focus (Perception), Step Up, Weapon Focus (glaive), Wind Stance
-
-**Skills:** Acrobatics +12, Bluff +17, Diplomacy +17, Disguise +14, Perform (dance) +22, Sense
-Motive +25, Spellcraft +20, Stealth +19, Use Magic Device +14
-
-**Languages:** Auran, Celestial, Common, Ignan, Shadowtongue
-
-**Special qualities:** inspiration, unearthly grace, [change shape](ref/umr/change-shape) (Small or
-Medium humanoid; [alter self](ref/spell/alter-self))
+::: statblock
+Ability scores: Str 18, Dex 19, Con 22, Int 19, Wis 22, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +21 (+23 sunder)
+Combat maneuver defense: 42 (44 vs. sunder)
+Feats: Blind-Fight, Dodge, Improved Iron Will, Improved Sunder^B^, Iron Will^B^, Mobility, Skill Focus (Perception), Step Up, Weapon Focus (glaive), Wind Stance
+Skills: Acrobatics +12, Bluff +17, Diplomacy +17, Disguise +14, Perform (dance) +22, Sense Motive +25, Spellcraft +20, Stealth +19, Use Magic Device +14
+Languages: Auran, Celestial, Common, Ignan, Shadowtongue
+Special qualities: inspiration, unearthly grace, [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self))
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary
-
-**Treasure:** Triple (+2 D glaive)
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary
+Treasure: Triple (+2 D glaive)
+:::
 
 ### Special Abilities
 

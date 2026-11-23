@@ -29,73 +29,59 @@ abilities = ["14", "10", "13", "2", "11", "5"]
 
 _This giant turtle has a large, thin membrane of scaly skin extending from its shell to its legs._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 14
+Touch: 9
+Flat-footed: 14
+AC modifiers: +5 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +4
+Ref: +3
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 20 ft., fly 30 ft. (clumsy)
+Melee: bite +3 (1d8+3)
+Reach: 10
+Space: 10
+Spec Att: gliding charge
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 10, Con 13, Int 2, Wis 11, Cha 5
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 15
+Feats: Flyby Attack, Toughness
+Skills: Fly -54
+Special qualities: glide, shell
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 9
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft., fly 30 ft. (clumsy)
-
-**Melee:** bite +3 (1d8+3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** gliding charge
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 10, Con 13, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15
-
-**Feats:** Flyby Attack, Toughness
-
-**Skills:** Fly -54
-
-**Special qualities:** glide, shell
-
-**Ecology**
-
-**Environment:** temperate forests and coasts
-
-**Organization:** solitary, pair, or den (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests and coasts
+Organization: solitary, pair, or den (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

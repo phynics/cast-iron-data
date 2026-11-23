@@ -30,77 +30,61 @@ abilities = ["36", "9", "-", "-", "11", "1"]
 _This huge construct of black metal is all spikes and armor, save for several forge-like stacks that
 burn atop its crown and back._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Type: construct
+Size: huge
+Initiative: -1
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 204,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 33
+Touch: 7
+Flat-footed: 33
+AC modifiers: -1 Dex, +26 natural, -2 size
+Hit points: 205 (30d10+40)
+Fort: +10
+Ref: +9
+Will: +10
+Defensive abilities: indestructible
+Dr: 15/epic
+Fh: 10
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** -1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +41 (6d10+13/19-20)
+Reach: 15
+Space: 15
+Spec Att: destructive strike
+Trample: 6d10+19, DC 38
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 9, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +30
+Combat maneuver bonus: +45
+Combat maneuver defense: 54
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 7
-
-**Flat-footed:** 33
-
-**AC modifiers:** -1 Dex, +26 natural, -2 size
-
-**Hit points:** 205 (30d10+40)
-
-**Fort:** +10
-
-**Ref:** +9
-
-**Will:** +10
-
-**Defensive abilities:** indestructible
-
-**Dr:** 15/epic
-
-**Fh:** 10
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +41 (6d10+13/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** destructive strike
-
-**Trample:** 6d10+19, DC 38
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 9, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +30
-
-**Combat maneuver bonus:** +45
-
-**Combat maneuver defense:** 54
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -29,94 +29,71 @@ abilities = ["18", "15", "16", "11", "17", "20"]
 
 _A single wicked horn grows from the forehead of this stocky, oryx-like creature._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +6
+Will: +6
+Immune: disease, poison
+Resist: fire 5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +8 (1d8+4), 2 hooves +6 (1d6+2)
+Pow Ch: gore, 2d8+8
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: detect evil, detect good
+Per day: 3/day: cause fear (DC 16)\
+1/day: dimension door, neutralize poison (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect good, Low-light vision, Scent
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 11, Wis 17, Cha 20
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Iron Will, Multiattack, Power Attack
+Skills: Acrobatics +9, Perception +10
+Languages: Common
+Special qualities: magical strike, sure-footed
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +6
-
-**Immune:** disease, poison
-
-**Resist:** fire 5
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +8 (1d8+4), 2 hooves +6 (1d6+2)
-
-**Pow Ch:** gore, 2d8+8
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect evil, detect good
-
-**Per day:**
-
-- 3/day: cause fear (DC 16)
-- 1/day: dimension door, neutralize poison (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 16, Int 11, Wis 17, Cha 20
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Iron Will, Multiattack, Power Attack
-
-**Skills:** Acrobatics +9, Perception +10
-
-**Languages:** Common
-
-**Special qualities:** magical strike, sure-footed
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or bristle (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or bristle (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

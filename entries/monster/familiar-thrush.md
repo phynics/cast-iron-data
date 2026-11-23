@@ -25,69 +25,57 @@ melee = "bite -1 (1d2-5)"
 abilities = ["1", "15", "6", "2", "15", "6"]
 +++
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 2 (1d8-2)
+Fort: +0
+Ref: +4
+Will: +2
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: bite -1 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 15, Con 6, Int 2, Wis 15, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 3
+Feats: Skill Focus (Perception)
+Skills: Fly +12, Perception +5
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 2 (1d8-2)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** bite -1 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 6, Int 2, Wis 15, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 3
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Fly +12, Perception +5
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or flock (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or flock (3-12)
+Treasure: None
+:::
 
 ### Description
 

@@ -31,89 +31,69 @@ abilities = ["18", "23", "20", "15", "18", "15"]
 _This leafy bush bears flowers of a variety of shapes and colors, one of which resembles a toothy
 mouth at the end of a long stalk._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: large
+Alignment: Neutral
+Perception: +17
+Type: plant
+Senses: Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 15
+AC modifiers: +6 Dex, +6 natural, -1 size
+Hit points: 95 (10d8+50)
+Fort: +12
+Ref: +11
+Will: +7
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +17
+::: statblock
+Speed: 20 ft.
+Melee: bite +12 (1d8+4 plus incite emotion), 6 tentacles +10 (1d4+2 plus [trip](ref/umr/trip))
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 10
+:::
 
-**Type:** plant
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Constant: analyze aura, emotion only, see invisibility
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 18, Dex 23, Con 20, Int 15, Wis 18, Cha 15
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Weapon Finesse
+Skills: Knowledge (planes) +12, Perception +17, Sense Motive +14, Spellcraft +12
+Languages: telepathy 100 ft.
+Special qualities: ethereal portal
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 Dex, +6 natural, -1 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +12
-
-**Ref:** +11
-
-**Will:** +7
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +12 (1d8+4 plus incite emotion), 6 tentacles +10 (1d4+2 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Constant:**
-
-- analyze aura, emotion only, see invisibility
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 23, Con 20, Int 15, Wis 18, Cha 15
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Combat Reflexes, Improved Initiative, Lightning Reflexes, Multiattack, Weapon Finesse
-
-**Skills:** Knowledge (planes) +12, Perception +17, Sense Motive +14, Spellcraft +12
-
-**Languages:** telepathy 100 ft.
-
-**Special qualities:** ethereal portal
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

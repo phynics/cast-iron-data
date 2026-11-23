@@ -32,116 +32,80 @@ abilities = ["20", "19", "22", "17", "16", "19"]
 _This creature's body rises from the ground in an amorphous mass of grave dirt and eroded bone. Its
 upper half is humanoid-shaped and wields an enormous pick made from a giant's rib and skull._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22), unluck (30 ft.)
+Initiative: +8
+Size: large
+Alignment: Neutral evil
+othersubs: Herald
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Scent, See in darkness
+Subtype: Evil
+Experience points: 51,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 22), unluck (30 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 29
+Touch: 17
+Flat-footed: 25
+AC modifiers: +4 Dex, +4 luck, +12 natural, -1 size
+Hit points: 195 (17d10+102)
+Fort: +15
+Ref: +18
+Will: +17
+Defensive abilities: unearthly luck
+Dr: 10/cold iron and magic
+Fh: 5
+Immune: fear
+Resist: cold 30, fire 30
+Sr: 26
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., fly 30 ft. (average)
+Melee: +2 heavy pick +24/+19/+14/+9 (1d8+7/19-20/×4)
+Pull: heavy pick, 5 ft.
+Ranged: +2 heavy pick +23/+18/+13/+8 (1d8+2/19-20/×4)
+Reach: 10
+Space: 10
+Spec Att: bury alive, long arm of the reaper
+:::
 
-**othersubs:** Herald
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +21
+At will: dimension door, self only, invisibility, self only
+Per day: 3/day: bestow curse (DC 18), greater invisibility, self only, gust of wind (DC 16), ice storm, slay living (DC 19)\
+1/day: animate dead, chain lightning (DC 20), telekinesis (DC 19)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str 20, Dex 19, Con 22, Int 17, Wis 16, Cha 19
+Base attack bonus: +17
+Combat maneuver bonus: +23 (+25 dirty trick, +25 drag)
+Combat maneuver defense: 37 (39 vs. dirty trick, 39 vs. drag)
+Feats: Combat Expertise, Combat Reflexes, Improved Critical (heavy pick), Improved Dirty Trick, Improved Drag, Improved Initiative, Power Attack, Vital Strike, Weapon Focus (heavy pick)
+Skills: Acrobatics +21, Bluff +24, Fly +2, Handle Animal +15, Perform (dance) +12, Sleight of Hand +24, Stealth +20
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: [change shape](ref/umr/change-shape) (human; [alter self](ref/spell/alter-self))
+:::
 
-**Senses:** Darkvision 60 ft., Scent, See in darkness
+### Ecology
 
-**Subtype:** Evil
-
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 17
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 Dex, +4 luck, +12 natural, -1 size
-
-**Hit points:** 195 (17d10+102)
-
-**Fort:** +15
-
-**Ref:** +18
-
-**Will:** +17
-
-**Defensive abilities:** unearthly luck
-
-**Dr:** 10/cold iron and magic
-
-**Fh:** 5
-
-**Immune:** fear
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 50 ft., fly 30 ft. (average)
-
-**Melee:** +2 heavy pick +24/+19/+14/+9 (1d8+7/19-20/×4)
-
-**Pull:** heavy pick, 5 ft.
-
-**Ranged:** +2 heavy pick +23/+18/+13/+8 (1d8+2/19-20/×4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** bury alive, long arm of the reaper
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +21
-
-**At will:**
-
-- dimension door, self only, invisibility, self only
-
-**Per day:**
-
-- 3/day: bestow curse (DC 18), greater invisibility, self only, gust of wind (DC 16), ice storm,
-  slay living (DC 19)
-- 1/day: animate dead, chain lightning (DC 20), telekinesis (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 19, Con 22, Int 17, Wis 16, Cha 19
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +23 (+25 dirty trick, +25 drag)
-
-**Combat maneuver defense:** 37 (39 vs. dirty trick, 39 vs. drag)
-
-**Feats:** Combat Expertise, Combat Reflexes, Improved Critical (heavy pick), Improved Dirty Trick,
-Improved Drag, Improved Initiative, Power Attack, Vital Strike, Weapon Focus (heavy pick)
-
-**Skills:** Acrobatics +21, Bluff +24, Fly +2, Handle Animal +15, Perform (dance) +12, Sleight of
-Hand +24, Stealth +20
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (human;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon) or [Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary
-
-**Treasure:** Standard (+2 heavy pick); other treasure
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon) or [Astral Plane](ref/rule/astral-plane))
+Organization: solitary
+Treasure: Standard (+2 heavy pick); other treasure
+:::
 
 ### Special Abilities
 

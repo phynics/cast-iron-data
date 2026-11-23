@@ -31,95 +31,70 @@ abilities = ["10", "17", "15", "12", "14", "21"]
 
 _This striking, blue-eyed man with luminous skin and flowing white hair holds an ethereal harp._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: fey
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 41 (9d6+19)
+Fort: +5
+Ref: +9
+Will: +8
+Dr: 5/cold iron
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., swim 40 ft.
+Melee: 2 slams +8 (2d6)
+Sp Extra: _[water walk](ref/spell/water-walk)_
+Spec Att: drowning touch (DC 14)
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: water walk
+Per day: 3/day: hydraulic torrent
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 10, Dex 17, Con 15, Int 12, Wis 14, Cha 21
+Base attack bonus: +4
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Alertness, Dodge, Improved Initiative, Weapon Finesse, Weapon Focus (slam)
+Skills: Bluff +17, Diplomacy +9, Perform (sing) +10, Sense Motive +16, Sleight of Hand +10, Stealth +15, Swim +18
+Racial Modifiers: +4 Perform (string), +4 Swim
+Languages: Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious), transparency, treasure form
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 41 (9d6+19)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**Melee:** 2 slams +8 (2d6)
-
-**Sp Extra:** _[water walk](ref/spell/water-walk)_
-
-**Spec Att:** drowning touch (DC 14)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- water walk
-
-**Per day:**
-
-- 3/day: hydraulic torrent
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 15, Int 12, Wis 14, Cha 21
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Alertness, Dodge, Improved Initiative, Weapon Finesse, Weapon Focus (slam)
-
-**Skills:** Bluff +17, Diplomacy +9, Perform (sing) +10, Sense Motive +16, Sleight of Hand +10,
-Stealth +15, Swim +18
-
-**Racial Modifiers:** +4 Perform (string), +4 Swim
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious), transparency, treasure form
-
-**Ecology**
-
-**Environment:** cold or temperate water (waterfalls)
-
-**Organization:** solitary
-
-**Treasure:** Standard; [masterwork harp or violin](ref/eq-misc/musical-instrument-masterwork),
-other treasure
+::: statblock
+Environment: cold or temperate water (waterfalls)
+Organization: solitary
+Treasure: Standard; [masterwork harp or violin](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

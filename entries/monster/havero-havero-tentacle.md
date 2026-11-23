@@ -27,67 +27,52 @@ special_qualities = "no breath"
 abilities = ["28", "12", "20", "-", "20", "10"]
 +++
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+blindsense: 60
+Initiative: +1
+Size: large
+Alignment: Neutral evil
+Perception: +5
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 66 (7d8+35)
+Fort: +7
+Ref: +3
+Will: +10
+Dr: 5/slashing
+Immune: cold, mind-affecting effects, poison, vision-based effects
+Resist: acid 10, fire 10
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 0 ft.
+Constrict: 2d6+9
+Melee: tentacle +13 (2d6+13 plus [grab](ref/umr/grab))
+Reach: 60
+Space: 5
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +5
-
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 66 (7d8+35)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +10
-
-**Dr:** 5/slashing
-
-**Immune:** cold, mind-affecting effects, poison, vision-based effects
-
-**Resist:** acid 10, fire 10
-
-**Offense**
-
-**Speed:** 0 ft.
-
-**Constrict:** 2d6+9
-
-**Melee:** tentacle +13 (2d6+13 plus [grab](ref/umr/grab))
-
-**Reach:** 60
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 12, Con 20, Int -, Wis 20, Cha 10
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26
-
-**Special qualities:** [no breath](ref/umr/no-breath)
+::: statblock
+Ability scores: Str 28, Dex 12, Con 20, Int -, Wis 20, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +15
+Combat maneuver defense: 26
+Special qualities: [no breath](ref/umr/no-breath)
+:::
 
 ### Description
 

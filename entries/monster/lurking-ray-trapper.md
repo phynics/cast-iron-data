@@ -29,89 +29,66 @@ special_attacks = "smother (see lurker above)"
 abilities = ["30", "12", "19", "14", "17", "13"]
 +++
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+blindsense: 10
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Perception: +25
+Senses: Darkvision 60 ft., Scent
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 10
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 20
+AC modifiers: +1 Dex, +12 natural, -2 size
+Hit points: 123 (13d8+65)
+Fort: +10
+Ref: +5
+Will: +11
+Amorph: present
+Dr: 10/piercing or slashing
+Resist: cold 10, fire 10
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 10 ft., climb 5 ft.
+Constrict: 3d6+15
+Melee: slam +17 (3d6+15 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 15
+Spec Att: [smother](ref/umr/smother) (see [lurker above](ref/monster/lurking-ray-lurker-above))
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str 30, Dex 12, Con 19, Int 14, Wis 17, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +21 (+25 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Great Fortitude, Improved Initiative, Skill Focus (Perception), Skill Focus (Stealth), Toughness
+Skills: Climb +18, Knowledge (dungeoneering) +15, Perception +25
+Racial Modifiers: +4 Stealth (+12 in rocky areas)
+Languages: Aklo, Common, Undercommon
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 20
-
-**AC modifiers:** +1 Dex, +12 natural, -2 size
-
-**Hit points:** 123 (13d8+65)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +11
-
-**Amorph:** present
-
-**Dr:** 10/piercing or slashing
-
-**Resist:** cold 10, fire 10
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 10 ft., climb 5 ft.
-
-**Constrict:** 3d6+15
-
-**Melee:** slam +17 (3d6+15 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** [smother](ref/umr/smother) (see [lurker above](ref/monster/lurking-ray-lurker-above))
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 12, Con 19, Int 14, Wis 17, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +21 (+25 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Great Fortitude, Improved Initiative, Skill Focus
-(Perception), Skill Focus (Stealth), Toughness
-
-**Skills:** Climb +18, Knowledge (dungeoneering) +15, Perception +25
-
-**Racial Modifiers:** +4 Stealth (+12 in rocky areas)
-
-**Languages:** Aklo, Common, Undercommon
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or batch (1 plus 20-30
-[executioner's hoods](ref/monster/lurking-ray-executioners-hood))
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or batch (1 plus 20-30 [executioner's hoods](ref/monster/lurking-ray-executioners-hood))
+Treasure: Standard
+:::
 
 ### Description
 

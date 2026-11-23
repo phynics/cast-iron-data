@@ -30,100 +30,74 @@ abilities = ["22", "18", "-", "13", "18", "21"]
 _A skeletal carcass pulls itself from the ground, its body formed as much from earth and soil as
 from bones and rotting flesh._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: broken ground (30 ft., DC 20)
+Alignment: Chaotic evil
+Initiative: +8
+Size: medium
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Earth
+tremorsense: 60
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** broken ground (30 ft., DC 20)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 104 (11d8+55)
+Fort: +8
+Ref: +7
+Will: +11
+Chan Res: +2
+Dr: 5/bludgeoning
+Fh: 5
+Immune: electricity, [undead traits](ref/umr/undead-traits)
+Resist: cold 10
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., burrow 15 ft.
+Melee: bite +14 (1d8+6 plus misfortune), 2 slams +14 (1d6+6 plus misfortune)
+Sp Extra: earth glide
+:::
 
-**Perception:** +18
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +13
+At will: stone shape
+Per day: 3/day: soften earth and stone, spike growth (DC 18)\
+1/day: spike stones (DC 19), transmute mud to rock (DC 20), transmute rock to mud (DC 20)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth
+::: statblock
+Ability scores: Str 22, Dex 18, Con -, Int 13, Wis 18, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 29
+Feats: Combat Expertise, Dodge, Improved Initiative, Mobility, Spring Attack, Whirlwind Attack
+Skills: Acrobatics +15, Knowledge (nature) +12, Perception +18, Sense Motive +18, Stealth +18
+Languages: Abyssal, Common
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 104 (11d8+55)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +11
-
-**Chan Res:** +2
-
-**Dr:** 5/bludgeoning
-
-**Fh:** 5
-
-**Immune:** electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 30 ft., burrow 15 ft.
-
-**Melee:** bite +14 (1d8+6 plus misfortune), 2 slams +14 (1d6+6 plus misfortune)
-
-**Sp Extra:** earth glide
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +13
-
-**At will:**
-
-- stone shape
-
-**Per day:**
-
-- 3/day: soften earth and stone, spike growth (DC 18)
-- 1/day: spike stones (DC 19), transmute mud to rock (DC 20), transmute rock to mud (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con -, Int 13, Wis 18, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 29
-
-**Feats:** Combat Expertise, Dodge, Improved Initiative, Mobility, Spring Attack, Whirlwind Attack
-
-**Skills:** Acrobatics +15, Knowledge (nature) +12, Perception +18, Sense Motive +18, Stealth +18
-
-**Languages:** Abyssal, Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

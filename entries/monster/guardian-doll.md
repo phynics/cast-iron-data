@@ -31,96 +31,72 @@ abilities = ["8", "17", "-", "13", "12", "10"]
 _This strange doll is clad in traditional Irriseni peasant clothing, and its eyes glisten with a
 disturbing curiosity._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: construct
+Initiative: +7
+Alignment: Neutral evil
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold
+Size: tiny
+Experience points: 800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 22 (4d10)
+Fort: +1
+Ref: +4
+Will: +2
+Dr: 5/magic
+Immune: cold, [construct traits](ref/umr/construct-traits)
+Sr: 14
+Vulner: fire
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: doll's dagger +10 (1d2-1/19-20 plus 1d6 cold and paralysis)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +4
+At will: ray of frost
+Per day: 3/day: alarm, charm person (DC 11), light, mage hand, open/close, prestidigitation\
+1/day: frost fall (DC 12), levitate
+:::
 
-**Subtype:** Cold
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 17, Con -, Int 13, Wis 12, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 11
+Feats: Improved Initiative, Weapon Finesse
+Skills: Escape Artist +5, Linguistics +3, Perception +5, Stealth +15
+Languages: Common, Hallit, Skald
+Special qualities: soul focus
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 22 (4d10)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +2
-
-**Dr:** 5/magic
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits)
-
-**Sr:** 14
-
-**Vulner:** fire
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** doll's dagger +10 (1d2-1/19-20 plus 1d6 cold and paralysis)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +4
-
-**At will:**
-
-- ray of frost
-
-**Per day:**
-
-- 3/day: alarm, charm person (DC 11), light, mage hand, open/close, prestidigitation
-- 1/day: frost fall (DC 12), levitate
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 17, Con -, Int 13, Wis 12, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 11
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Escape Artist +5, Linguistics +3, Perception +5, Stealth +15
-
-**Languages:** Common, Hallit, Skald
-
-**Special qualities:** soul focus
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary, pair, or coven (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold
+Organization: solitary, pair, or coven (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

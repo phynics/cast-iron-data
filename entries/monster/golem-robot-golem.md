@@ -30,72 +30,58 @@ abilities = ["26", "11", "-", "-", "11", "1"]
 _Though corroded and damaged, this bipedal metallic construct moves silently, as though powered by
 some force other than its own rattling gears._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Type: construct
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 27
+Touch: 9
+Flat-footed: 27
+AC modifiers: +18 natural, -1 size
+Hit points: 112 (15d10+30)
+Fort: +5
+Ref: +5
+Will: +5
+Dr: 10/adamantine
+Immune: [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +22 (2d10+8)
+Reach: 10
+Space: 10
+Spec Att: rend construct (2 slams, 2d10+12), shockwave (30-ft.-radius spread, 8d6 electricity, Reflex DC 19 for half, usable every 1d4 rounds)
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 11, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +24
+Combat maneuver defense: 34
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 9
-
-**Flat-footed:** 27
-
-**AC modifiers:** +18 natural, -1 size
-
-**Hit points:** 112 (15d10+30)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 10/adamantine
-
-**Immune:** [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +22 (2d10+8)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** rend construct (2 slams, 2d10+12), shockwave (30-ft.-radius spread, 8d6 electricity,
-Reflex DC 19 for half, usable every 1d4 rounds)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 34
-
-**Ecology**
-
-**Environment:** any (Numeria)
-
-**Organization:** solitary or gang (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any (Numeria)
+Organization: solitary or gang (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

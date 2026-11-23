@@ -33,67 +33,56 @@ abilities = ["14", "15", "14", "2", "15", "9"]
 _This glossy, jet-black bird stands as tall as a dwarf. Its eerily intelligent black eyes are quick
 to take in everything around it._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +2; +4 vs. ingested disease
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 50 ft. (average)
+Melee: bite +3 (1d6+3)
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 2, Wis 15, Cha 9
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Skill Focus (Perception)
+Skills: Fly +6, Perception +9
+Special qualities: scavenger
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2; +4 vs. ingested disease
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (average)
-
-**Melee:** bite +3 (1d6+3)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 2, Wis 15, Cha 9
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Fly +6, Perception +9
-
-**Special qualities:** scavenger
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary, pair, or conspiracy (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any temperate
+Organization: solitary, pair, or conspiracy (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 
