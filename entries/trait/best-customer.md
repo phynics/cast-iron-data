@@ -7,6 +7,9 @@ source_ids = ["varisia-birthplace-of-legends", "jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "best_customer", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "29"
 
 [fields]
 kind = "trait"

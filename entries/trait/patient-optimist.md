@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "advanced-players-guide", "cheliax-empire-of-
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "patient_optimist", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "64"
+[[sources]]
+publication = "advanced-players-guide"
+page = "333"
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "19"
 
 [fields]
 kind = "trait"

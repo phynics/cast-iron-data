@@ -7,6 +7,9 @@ source_ids = ["varisia-birthplace-of-legends", "curse-of-the-crimson-throne-play
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dockside_avenger", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "28"
 
 [fields]
 kind = "trait"
