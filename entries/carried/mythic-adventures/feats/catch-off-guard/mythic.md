@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/catch-off-guard", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "60"
 
 [fields]
 kind = "feat"

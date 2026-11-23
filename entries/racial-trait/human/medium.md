@@ -17,30 +17,7 @@ publication = "advanced-race-guide"
 page = "70"
 [[sources]]
 publication = "core-rulebook"
-[[sources]]
-publication = "legacy-of-dragons"
-[[sources]]
-publication = "advanced-players-guide"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "heroes-of-the-high-court"
-[[sources]]
-publication = "blood-of-shadows"
-[[sources]]
-publication = "heroes-of-the-wild"
-[[sources]]
-publication = "legacy-of-the-first-world"
-[[sources]]
-publication = "heroes-of-the-streets"
-[[sources]]
-publication = "advanced-class-guide"
-[[sources]]
-publication = "occult-adventures"
-[[sources]]
-publication = "ultimate-wilderness"
-[[sources]]
-publication = "ultimate-intrigue"
+page = "27"
 
 [fields]
 kind = "racial_trait"

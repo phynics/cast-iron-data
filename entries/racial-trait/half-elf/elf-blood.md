@@ -12,19 +12,12 @@ relations = [
 ]
 [[sources]]
 publication = "inner-sea-races"
-page = "237"
 [[sources]]
 publication = "advanced-race-guide"
 page = "40"
 [[sources]]
 publication = "core-rulebook"
 page = "24"
-[[sources]]
-publication = "bastards-of-golarion"
-[[sources]]
-publication = "advanced-players-guide"
-[[sources]]
-publication = "legacy-of-dragons"
 
 [fields]
 kind = "racial_trait"

@@ -8,6 +8,9 @@ tags = ["metamagic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Ascendant Spell/Mythic", path = "mythic_adventures/feat/ascendant_spell_mythic.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "55"
 
 [fields]
 kind = "feat"

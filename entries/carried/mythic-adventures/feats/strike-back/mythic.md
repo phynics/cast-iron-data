@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/strike-back", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "75"
 
 [fields]
 kind = "feat"

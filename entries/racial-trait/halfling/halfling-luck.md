@@ -18,10 +18,6 @@ page = "26"
 [[sources]]
 publication = "advanced-race-guide"
 page = "60"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "halflings-of-golarion"
 
 [fields]
 kind = "racial_trait"

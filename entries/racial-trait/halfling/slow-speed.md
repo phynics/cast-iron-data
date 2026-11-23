@@ -14,13 +14,10 @@ relations = [
 publication = "inner-sea-races"
 [[sources]]
 publication = "core-rulebook"
+page = "26"
 [[sources]]
 publication = "advanced-race-guide"
 page = "60"
-[[sources]]
-publication = "halflings-of-golarion"
-[[sources]]
-publication = "ultimate-wilderness"
 
 [fields]
 kind = "racial_trait"

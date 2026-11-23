@@ -14,11 +14,10 @@ relations = [
 publication = "inner-sea-races"
 [[sources]]
 publication = "core-rulebook"
+page = "23"
 [[sources]]
 publication = "advanced-race-guide"
 page = "30"
-[[sources]]
-publication = "ultimate-wilderness"
 
 [fields]
 kind = "racial_trait"

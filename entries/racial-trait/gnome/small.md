@@ -14,35 +14,10 @@ relations = [
 publication = "inner-sea-races"
 [[sources]]
 publication = "core-rulebook"
+page = "23"
 [[sources]]
 publication = "advanced-race-guide"
 page = "30"
-[[sources]]
-publication = "heroes-from-the-fringe"
-[[sources]]
-publication = "blood-of-shadows"
-[[sources]]
-publication = "advanced-players-guide"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "legacy-of-dragons"
-[[sources]]
-publication = "legacy-of-the-first-world"
-[[sources]]
-publication = "heroes-of-the-high-court"
-[[sources]]
-publication = "heroes-of-the-wild"
-[[sources]]
-publication = "heroes-of-the-streets"
-[[sources]]
-publication = "advanced-class-guide"
-[[sources]]
-publication = "occult-adventures"
-[[sources]]
-publication = "ultimate-wilderness"
-[[sources]]
-publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

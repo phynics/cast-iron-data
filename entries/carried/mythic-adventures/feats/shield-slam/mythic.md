@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/shield-slam", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "73"
 
 [fields]
 kind = "feat"

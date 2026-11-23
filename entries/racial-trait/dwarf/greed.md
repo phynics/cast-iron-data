@@ -12,28 +12,11 @@ relations = [
 ]
 [[sources]]
 publication = "inner-sea-races"
-page = "236"
 [[sources]]
 publication = "core-rulebook"
 page = "21"
 [[sources]]
 publication = "advanced-race-guide"
-[[sources]]
-publication = "heroes-from-the-fringe"
-[[sources]]
-publication = "heroes-of-the-wild"
-[[sources]]
-publication = "blood-of-shadows"
-[[sources]]
-publication = "advanced-players-guide"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "legacy-of-dragons"
-[[sources]]
-publication = "occult-adventures"
-[[sources]]
-publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

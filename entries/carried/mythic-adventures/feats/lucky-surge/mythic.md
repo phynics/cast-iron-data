@@ -8,6 +8,9 @@ tags = ["mythic"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Mythic Adventures/Feats/Lucky Surge/Mythic", path = "mythic_adventures/feat/lucky_surge_mythic.json" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "68"
 
 [fields]
 kind = "feat"

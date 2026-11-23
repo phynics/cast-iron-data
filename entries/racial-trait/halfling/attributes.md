@@ -16,20 +16,6 @@ publication = "inner-sea-races"
 publication = "core-rulebook"
 [[sources]]
 publication = "advanced-race-guide"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "legacy-of-dragons"
-[[sources]]
-publication = "halflings-of-golarion"
-[[sources]]
-publication = "advanced-class-guide"
-[[sources]]
-publication = "occult-adventures"
-[[sources]]
-publication = "ultimate-wilderness"
-[[sources]]
-publication = "ultimate-intrigue"
 
 [fields]
 kind = "racial_trait"

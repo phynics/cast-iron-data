@@ -17,20 +17,7 @@ publication = "advanced-race-guide"
 page = "40"
 [[sources]]
 publication = "core-rulebook"
-[[sources]]
-publication = "heroes-from-the-fringe"
-[[sources]]
-publication = "bastards-of-golarion"
-[[sources]]
-publication = "legacy-of-the-first-world"
-[[sources]]
-publication = "advanced-players-guide"
-[[sources]]
-publication = "blood-of-shadows"
-[[sources]]
-publication = "horror-adventures"
-[[sources]]
-publication = "legacy-of-dragons"
+page = "24"
 
 [fields]
 kind = "racial_trait"
