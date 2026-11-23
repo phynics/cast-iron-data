@@ -1,9 +1,5 @@
 path	pass	reason	detail
 entries/eq-misc/angelstep.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/autosniper-trap.md	item	variant-paragraphs	Autosniper Trap
-entries/eq-misc/balloon-trap.md	item	variant-paragraphs	Sirocco Balloon Trap - CR 14
-entries/eq-misc/bear-trap.md	item	variant-paragraphs	Bear Trap - CR 1
-entries/eq-misc/bell-tripwire-trap.md	item	variant-paragraphs	Bell Tripwire Trap
 entries/eq-misc/black-amaranth.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/bloody-mandrake.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/bone-reed.md	item	block-ended-at-sentences	Preparation
@@ -20,7 +16,6 @@ entries/eq-misc/flag-ensign-or-courtesy-small.md	item	variant-paragraphs	Price
 entries/eq-misc/flag-personal-signal-large.md	item	variant-paragraphs	Price
 entries/eq-misc/flag-personal-signal-small.md	item	variant-paragraphs	Price
 entries/eq-misc/flag.md	item	variant-paragraphs	Price
-entries/eq-misc/flask-launcher.md	item	variant-paragraphs	Flash Launcher Trap
 entries/eq-misc/gas-mask.md	item	variant-paragraphs	Price
 entries/eq-misc/goblinvine.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
@@ -35,19 +30,13 @@ entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/nepenthe.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/net-rigging.md	item	variant-paragraphs	Falling Net Trap
+entries/eq-misc/net-rigging.md	trap	label-twice	Type
 entries/eq-misc/nightsage.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/perfume-cologne.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-common-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-exotic-per-dose.md	item	variant-paragraphs	Price
-entries/eq-misc/poison-latch-needle.md	item	variant-paragraphs	Poison Latch Needle Trap
-entries/eq-misc/portable-bolt-trap.md	item	variant-paragraphs	Portable Bolt Trap - CR 1/2
-entries/eq-misc/pull-cord-grenade.md	item	variant-paragraphs	Type
 entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
-entries/eq-misc/trapped-item-trapped-disguise-kit.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
-entries/eq-misc/trapped-item-trapped-scroll-case.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
-entries/eq-misc/trespassers-boot.md	item	variant-paragraphs	Trespasser's Boot - CR 1/2
-entries/eq-misc/venom-trap.md	item	variant-paragraphs	Venom Trap - CR varies
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	label-without-separator	Category
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/wagon-heavy.md	item	label-without-separator	Category
@@ -61,7 +50,6 @@ entries/eq-misc/wagon-medium.md	item	sources-unparsed	PRPG Core Rulebook pg. 159
 entries/eq-misc/wagon.md	item	label-without-separator	Category
 entries/eq-misc/wagon.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/wire.md	item	variant-paragraphs	Tripwire Trap - CR 1/3
 entries/eq-weapon/composite-longbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost

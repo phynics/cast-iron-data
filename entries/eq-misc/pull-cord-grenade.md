@@ -32,7 +32,8 @@ reused.
 
 This can be crafted with a DC 25 Craft (traps) check.
 
-**Type** mechanical; Perception DC 15; Disable Device DC 15\
-**Trigger** touch; Reset none\
-**Effect** explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple
-targets (all targets within 10 feet)
+::: statblock
+Type: mechanical; Perception DC 15; Disable Device DC 15
+Trigger: touch; Reset none
+Effect: explosion (2d6 bludgeoning damage and 1d6 fire damage); Reflex DC 15 half; multiple targets (all targets within 10 feet)
+:::

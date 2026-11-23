@@ -27,8 +27,13 @@ This 6-foot length of copper wire is strong and flexible. By attaching it to two
 [pitons](ref/eq-misc/piton) or [iron spikes](ref/eq-misc/iron-spike) across an area, you can create
 a simple tripwire trap.
 
-**Tripwire Trap - CR 1/3**\
-**Type** mechanical; **Perception** DC 15; **Disable Device** DC 10\
-**Effects**\
-**Trigger** location; **Reset** automatic\
-**Effect** trip combat maneuver +5 (+10 if the target is running)
+::: statblock
+title = "Tripwire Trap - CR 1/3"
+Type: mechanical
+Perception: DC 15
+Disable Device: DC 10
+Effects:
+Trigger: location
+Reset: automatic
+Effect: trip combat maneuver +5 (+10 if the target is running)
+:::

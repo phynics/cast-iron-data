@@ -36,8 +36,13 @@ launcher is a full-round action that requires two hands and provokes an attack o
 
 This can be crafted with a DC 25 Craft (traps) check.
 
-**Flash Launcher Trap**\
-**Type** mechanical; **Perception** DC 15; **Disable Device** DC 15\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** Atk +5 ranged touch (effects vary by payload)
+::: statblock
+title = "Flash Launcher Trap"
+Type: mechanical
+Perception: DC 15
+Disable Device: DC 15
+Effects:
+Trigger: touch
+Reset: manual
+Effect: Atk +5 ranged touch (effects vary by payload)
+:::

@@ -32,8 +32,13 @@ properly calibrate the shot and conceal the line and crossbow. The trap can be p
 as 1 minute, but doing so imposes a -4 penalty on the crossbow's attack roll, and the DC of the
 Perception check to notice the trap is reduced by 4. The trap has the following statistics.
 
-**Portable Bolt Trap - CR 1/2**\
-**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** Atk +10 ranged (1d10/19-20); Craft (traps) DC 20
+::: statblock
+title = "Portable Bolt Trap - CR 1/2"
+Type: mechanical
+Perception: DC 20
+Disable Device: DC 20
+Effects:
+Trigger: touch
+Reset: manual
+Effect: Atk +10 ranged (1d10/19-20); Craft (traps) DC 20
+:::

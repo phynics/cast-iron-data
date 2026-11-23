@@ -31,8 +31,13 @@ install the trap exposes its installer to the poison. A poison latch needle cann
 
 This can be crafted with a DC 20 Craft (traps) check.
 
-**Poison Latch Needle Trap**\
-**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20\
-**Effects**\
-**Trigger** touch; **Reset** none\
-**Effect** Atk +5 melee (1 damage plus poison)
+::: statblock
+title = "Poison Latch Needle Trap"
+Type: mechanical
+Perception: DC 20
+Disable Device: DC 20
+Effects:
+Trigger: touch
+Reset: none
+Effect: Atk +5 melee (1 damage plus poison)
+:::

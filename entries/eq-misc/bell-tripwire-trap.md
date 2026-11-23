@@ -28,8 +28,13 @@ place. The trap can be set across doorways, hallways, or narrow passes or betwee
 Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so
 reduces the DC to notice and disarm the trap by 5. The trap has the following statistics.
 
-**Bell Tripwire Trap**\
-**Type** mechanical; **Perception** DC 20; **Disable Device** DC 20\
-**Effects**\
-**Trigger** touch; **Reset** manual\
-**Effect** bell rings (Perception DC 0 to hear); Craft (traps) DC 15
+::: statblock
+title = "Bell Tripwire Trap"
+Type: mechanical
+Perception: DC 20
+Disable Device: DC 20
+Effects:
+Trigger: touch
+Reset: manual
+Effect: bell rings (Perception DC 0 to hear); Craft (traps) DC 15
+:::

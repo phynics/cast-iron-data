@@ -354,6 +354,15 @@ fleshcraft items print `**Cost** 1,000 gp` and then a line without a label (`Fle
 labelled lines become the block, and the line without a label stays a paragraph below it, unchanged,
 as for the technological Construction (ruling 3). No label is invented.
 
+`trap` (`eq-misc`, 11 entries): the statistics of a trap, printed as lines that open with
+`**Type**` and run through `**Trigger**`, `**Reset**` and `**Effect**`, with the name of the trap
+alone on the first line when there is one (`**Bear Trap - CR 1**`). The block takes the printed
+name, `CR` included, as its title, or none when none is printed. Only the labels `Type`,
+`Perception`, `Disable Device`, `Effects`, `Trigger`, `Reset` and `Effect` are read (the `Effect` of a
+trap is prose, so the sentence rule is off for it), and the empty `Effects` row stays as printed.
+Where the import dropped the bold of a label (`Type** mechanical; Perception DC 20`), the label stays
+inside the value as printed.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -2059,8 +2068,30 @@ def plan_cost(cs: list[list[str]]) -> dict[int, dict]:
     return chosen
 
 
+TRAP_LABELS = ("Type", "Perception", "Disable Device", "Effects", "Trigger", "Reset", "Effect")
+
+
+def plan_trap(cs: list[list[str]]) -> dict[int, dict]:
+    """K-trap. The statistics of a trap: lines that open with `**Type**` and go on with a
+    `**Trigger**` line, with the name of the trap alone on the first line (`**Bear Trap - CR 1**`)
+    or without a name. The block takes the printed name as its title, and the name stays exactly as
+    printed, `CR` included. The values keep the labels the import left unbold (`mechanical;
+    Perception DC 20`). Only the labels in `TRAP_LABELS` are read; an `Effect` is prose."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        title = bold_title(chunk[0])
+        body = chunk[1:] if title else chunk
+        if body and body[0].startswith("**Type** ") and any(line.startswith("**Trigger** ") for line in body):
+            spec: dict = {"sentences": True, "allowed": TRAP_LABELS}
+            if title:
+                spec.update(title=title, drop_first=True)
+            chosen[index] = spec
+    return chosen
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "trap": (("eq-misc",), plan_trap, ()),
     "cost": (("eq-weapon", "magic-fleshcraft"), plan_cost, ()),
     "figurine": (("magic-wondrous",), plan_figurine, ()),
     "spellbook": (("eq-spellbook",), plan_spellbook, ()),
@@ -2708,7 +2739,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3836,6 +3867,34 @@ class CostSelfTest(unittest.TestCase):
             "[Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp\n"
         ), new)
         self.assertEqual(classify_variant(plan_cost, new), "already")
+
+
+class TrapSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 2 gp\nWeight: 10 lbs.\n:::\n\nA bear trap.\n\n"
+        "**Bear Trap - CR 1**\\\n**Type** mechanical; **Perception** DC 15; **Disable Device** DC 20\\\n**Effects**\\\n"
+        "**Trigger** location; **Reset** manual\\\n**Effect** Atk +10 melee (2d6+3); jaws spring shut. The creature can escape.\n\n"
+        "**Type** mechanical; Perception DC 15; Disable Device DC 15\\\n**Trigger** touch; Reset none\\\n**Effect** explosion (2d6)\n"
+    )
+
+    def test_a_named_trap_gets_its_title_and_an_unnamed_one_none(self):
+        new = convert_variants(self.BODY, plan_trap)
+        self.assertIn(
+            '::: statblock\ntitle = "Bear Trap - CR 1"\nType: mechanical\nPerception: DC 15\nDisable Device: DC 20\nEffects:\n'
+            "Trigger: location\nReset: manual\nEffect: Atk +10 melee (2d6+3); jaws spring shut. The creature can escape.\n:::\n",
+            new,
+        )
+        self.assertTrue(new.endswith(
+            "::: statblock\nType: mechanical; Perception DC 15; Disable Device DC 15\nTrigger: touch; Reset none\nEffect: explosion (2d6)\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_trap, new), "already")
+
+    def test_another_label_is_not_a_trap_and_queues_when_it_sits_inside_one(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Reset** manual", "**Save** DC 14"), plan_trap)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Save"))
+        poison = "\n**Type** poison, injury; **Save** Fortitude DC 14\\\n**Onset** 1 minute\n"
+        self.assertEqual(classify_variant(plan_trap, poison), "already")
 
 
 class SourcesSelfTest(unittest.TestCase):
