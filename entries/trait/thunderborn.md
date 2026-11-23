@@ -7,6 +7,9 @@ source_ids = ["blood-of-the-elements"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thunderborn", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "blood-of-the-elements"
+page = "13"
 
 [fields]
 kind = "trait"

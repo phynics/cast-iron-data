@@ -7,6 +7,9 @@ source_ids = ["black-markets"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nightstalls_navigator", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "black-markets"
+page = "8"
 
 [fields]
 kind = "trait"
