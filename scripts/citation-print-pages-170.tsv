@@ -1590,7 +1590,7 @@ ref/trait/fury-of-the-red	legacy-of-dragons	6	print
 ref/trait/fury	orcs-of-golarion	23	print	
 ref/trait/generous	inner-sea-races	196	print	
 ref/trait/genie-heir	inner-sea-races	197	print	
-ref/trait/godclaw-disciple	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/godclaw-disciple	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/golden-scales	kobolds-of-golarion	19	print	
 ref/trait/gravelwalker	kobolds-of-golarion	9	print	
 ref/trait/grit-goggles	kobolds-of-golarion	9	print	
@@ -1600,7 +1600,7 @@ ref/trait/gunworker	inner-sea-races	194	print
 ref/trait/hard-to-pin-down	inner-sea-races	198	print	
 ref/trait/heat-fortitude	kobolds-of-golarion	19	print	
 ref/trait/hellknight-initiate	monster-summoners-handbook	10	print	
-ref/trait/hellknight-inquisitor	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/hellknight-inquisitor	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/honored-provider	inner-sea-races	198	print	
 ref/trait/hot-headed	inner-sea-races	197	print	
 ref/trait/icy-mementos	kobolds-of-golarion	19	print	
@@ -1650,7 +1650,7 @@ ref/trait/planetary-traveler	inner-sea-races	194	print
 ref/trait/practiced-gambler	inner-sea-races	196	print	
 ref/trait/promising-peacemaker	inner-sea-races	194	print	
 ref/trait/purple-scales	kobolds-of-golarion	19	print	
-ref/trait/questing-hellknight	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/questing-hellknight	path-of-the-hellknight	56	print		the trait is printed under its name, with its type in brackets, on this page
 ref/trait/rage-of-storms	orcs-of-golarion	23	print	
 ref/trait/ratfolk-avenger	inner-sea-races	199	print	
 ref/trait/relic-proof	pathfinder-society-primer	11	print	
@@ -3301,22 +3301,22 @@ ref/hex/mothers-eye	legacy-of-the-first-world		unconfirmed	only a short title is
 ref/hex/seduction	legacy-of-the-first-world	17	print		
 ref/hex/witchs-bottle	heroes-of-the-wild	11	print		
 ref/hkdiscipline/brand	inner-sea-world-guide	278	print		
-ref/hkdiscipline/call-armor	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/call-armor	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/censor	inner-sea-world-guide	278	print		
-ref/hkdiscipline/command	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/dispel-chaos	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/favored-quarry	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/command	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/dispel-chaos	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/favored-quarry	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/fearsomeness	inner-sea-world-guide	279	print		
-ref/hkdiscipline/mental-intrusion	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/mental-intrusion	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/onslaught	inner-sea-world-guide	279	print		
 ref/hkdiscipline/pentamic-faith	inner-sea-world-guide	279	print		
 ref/hkdiscipline/shackle	inner-sea-world-guide	279	print		
-ref/hkdiscipline/shadow-step	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/shadow-step	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/summon-devil	inner-sea-world-guide	279	print		
-ref/hkdiscipline/summon-servant-of-law	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/hkdiscipline/trace	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/summon-servant-of-law	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
+ref/hkdiscipline/trace	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/tracker	inner-sea-world-guide	279	print		
-ref/hkdiscipline/versatile-intimidation	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/versatile-intimidation	path-of-the-hellknight	59	print		the Hellknight discipline is printed under its name, with its ability type in brackets, on this page
 ref/hkdiscipline/vigilance	inner-sea-world-guide	279	print		
 ref/hkdiscipline/wrack	inner-sea-world-guide	279	print		
 ref/invtalent/atheist-inspiration	inner-sea-intrigue	31	print		

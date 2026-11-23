@@ -9,6 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "path-of-the-hellknight"
+page = "56"
 
 [fields]
 kind = "trait"
