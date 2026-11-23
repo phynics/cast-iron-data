@@ -7,6 +7,9 @@ source_ids = ["ironfang-invasion-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blight_burned", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "ironfang-invasion-players-guide"
+page = "7"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scouting_for_fiends", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "second-darkness-players-guide"
+page = "15"
 
 [fields]
 kind = "trait"

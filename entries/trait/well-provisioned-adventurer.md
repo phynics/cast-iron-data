@@ -7,6 +7,12 @@ source_ids = ["plane-hoppers-handbook", "adventurers-armory-2"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "well_provisioned_adventurer", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "10"
+[[sources]]
+publication = "adventurers-armory-2"
+page = "4"
 
 [fields]
 kind = "trait"

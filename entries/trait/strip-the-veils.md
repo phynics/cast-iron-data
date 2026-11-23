@@ -7,6 +7,12 @@ source_ids = ["inner-sea-gods", "faiths-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "strip_the_veils", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "222"
+[[sources]]
+publication = "faiths-of-balance"
+page = "21"
 
 [fields]
 kind = "trait"

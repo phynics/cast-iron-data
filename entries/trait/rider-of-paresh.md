@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rider_of_paresh", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "17"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "9"
 
 [fields]
 kind = "trait"

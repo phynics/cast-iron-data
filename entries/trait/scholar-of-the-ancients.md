@@ -7,6 +7,9 @@ source_ids = ["rise-of-the-runelords-anniversary-edition-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scholar_of_the_ancients", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition-players-guide"
+page = "4"
 
 [fields]
 kind = "trait"

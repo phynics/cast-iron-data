@@ -7,6 +7,18 @@ source_ids = ["inner-sea-gods", "faiths-of-balance", "ultimate-campaign", "advan
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "child_of_nature", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "218"
+[[sources]]
+publication = "faiths-of-balance"
+page = "11"
+[[sources]]
+publication = "ultimate-campaign"
+page = "63"
+[[sources]]
+publication = "advanced-players-guide"
+page = "333"
 
 [fields]
 kind = "trait"

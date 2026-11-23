@@ -7,6 +7,9 @@ source_ids = ["skull-and-shackles-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "buccaneers_blood", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "skull-and-shackles-players-guide"
+page = "5"
 
 [fields]
 kind = "trait"

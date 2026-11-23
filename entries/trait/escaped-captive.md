@@ -7,6 +7,9 @@ source_ids = ["heroes-of-the-darklands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "escaped_captive", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-darklands"
+page = "14"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["return-of-the-runelords-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scion_of_legend", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "return-of-the-runelords-players-guide"
+page = "11"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,8 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "emberkin_imposter", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cleansing_the_twisted", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "9"
 
 [fields]
 kind = "trait"

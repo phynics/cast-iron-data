@@ -7,6 +7,12 @@ source_ids = ["people-of-the-sands", "qadira-gateway-to-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_prodigy", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "people-of-the-sands"
+page = "23"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "25"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,12 @@ source_ids = ["mummys-mask-players-guide", "people-of-the-sands"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_riddler", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "mummys-mask-players-guide"
+page = "10"
+[[sources]]
+publication = "people-of-the-sands"
+page = "31"
 
 [fields]
 kind = "trait"

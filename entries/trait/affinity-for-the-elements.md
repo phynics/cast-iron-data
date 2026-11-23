@@ -7,6 +7,11 @@ source_ids = ["inner-sea-gods", "faiths-of-corruption"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "affinity_for_the_elements", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "inner-sea-gods"
+page = "218"
+[[sources]]
+publication = "faiths-of-corruption"
 
 [fields]
 kind = "trait"
