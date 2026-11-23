@@ -22,7 +22,7 @@ kind = "none"
 Weapon groups are defined as follows (GMs may add other weapons to these groups, or add entirely new
 groups):
 
-### Axes
+### Axes {#sec-axes}
 
 - [axe-gauntlet, dwarven heavy](ref/eq-weapon/axe-gauntlet-dwarven-heavy)
 - [axe-gauntlet, dwarven light](ref/eq-weapon/axe-gauntlet-dwarven-light)
@@ -46,7 +46,7 @@ groups):
 - [throwing axe](ref/eq-weapon/throwing-axe)
 - [tongi](ref/eq-weapon/tongi)
 
-### Heavy Blades
+### Heavy Blades {#sec-heavy-blades}
 
 - [aldori dueling sword](ref/eq-weapon/aldori-dueling-sword)
 - [ankus](ref/eq-weapon/ankus)
@@ -81,7 +81,7 @@ groups):
 - [terbutje](ref/eq-weapon/terbutje)
 - [two-bladed sword](ref/eq-weapon/two-bladed-sword)
 
-### Light Blades
+### Light Blades {#sec-light-blades}
 
 - [bayonet](ref/eq-weapon/bayonet)
 - [broken-back seax](ref/eq-weapon/broken-back-seax)
@@ -118,7 +118,7 @@ groups):
 - [wakizashi](ref/eq-weapon/wakizashi)
 - [war razor](ref/eq-weapon/war-razor)
 
-### Bows
+### Bows {#sec-bows}
 
 - [composite longbow](ref/eq-weapon/composite-longbow)
 - [composite shortbow](ref/eq-weapon/composite-shortbow)
@@ -126,7 +126,7 @@ groups):
 - [longbow](ref/eq-weapon/longbow)
 - [shortbow](ref/eq-weapon/shortbow)
 
-### Close
+### Close {#sec-close}
 
 - [axe-gauntlet, dwarven heavy](ref/eq-weapon/axe-gauntlet-dwarven-heavy)
 - [axe-gauntlet, dwarven light](ref/eq-weapon/axe-gauntlet-dwarven-light)
@@ -160,7 +160,7 @@ groups):
 - [wooden stake](ref/eq-weapon/wooden-stake)
 - [wushu dart](ref/eq-weapon/wushu-dart)
 
-### Crossbows
+### Crossbows {#sec-crossbows}
 
 - [double crossbow](ref/eq-weapon/double-crossbow)
 - [hand crossbow](ref/eq-weapon/hand-crossbow)
@@ -176,7 +176,7 @@ groups):
 - [underwater heavy crossbow](ref/eq-weapon/underwater-heavy-crossbow)
 - [underwater light crossbow](ref/eq-weapon/underwater-light-crossbow)
 
-### Double
+### Double {#sec-double}
 
 - [battle ladder, gnome](ref/eq-weapon/battle-ladder-gnome)
 - [bo staff](ref/eq-weapon/bo-staff)
@@ -196,11 +196,11 @@ groups):
 - [two-bladed sword](ref/eq-weapon/two-bladed-sword)
 - [weighted spear](ref/eq-weapon/weighted-spear)
 
-### Firearms
+### Firearms {#sec-firearms}
 
 - all one-handed, two-handed, and siege firearms
 
-### Flails
+### Flails {#sec-flails}
 
 - [battle poi](ref/eq-weapon/battle-poi)
 - [bladed scarf](ref/eq-weapon/bladed-scarf)
@@ -227,7 +227,7 @@ groups):
 - [urumi](ref/eq-weapon/urumi)
 - [whip](ref/eq-weapon/whip)
 
-### Hammers
+### Hammers {#sec-hammers}
 
 - [aklys](ref/eq-weapon/aklys)
 - [battle aspergillum](ref/eq-weapon/battle-aspergillum)
@@ -249,7 +249,7 @@ groups):
 - [wahaika](ref/eq-weapon/wahaika)
 - [warhammer](ref/eq-weapon/warhammer)
 
-### Monk
+### Monk {#sec-monk}
 
 - [bo staff](ref/eq-weapon/bo-staff)
 - [brass knuckles](ref/eq-weapon/brass-knuckles)
@@ -289,12 +289,12 @@ groups):
 - [urumi](ref/eq-weapon/urumi)
 - [wushu dart](ref/eq-weapon/wushu-dart)
 
-### Natural
+### Natural {#sec-natural}
 
 - [unarmed strike](ref/rule/melee-and-ranged-attacks)
 - all natural attacks (claw, bite, gore, etc.)
 
-### Polearms
+### Polearms {#sec-polearms}
 
 - [bardiche](ref/eq-weapon/bardiche)
 - [bec de corbin](ref/eq-weapon/bec-de-corbin)
@@ -319,11 +319,11 @@ groups):
 - [ripsaw glaive, gnome](ref/eq-weapon/ripsaw-glaive-gnome)
 - [tiger fork](ref/eq-weapon/tiger-fork)
 
-### Siege Engines
+### Siege Engines {#sec-siege-engines}
 
 - All siege engines
 
-### Spears
+### Spears {#sec-spears}
 
 - [amentum](ref/eq-weapon/amentum)
 - [boar spear](ref/eq-weapon/boar-spear)
@@ -345,7 +345,7 @@ groups):
 - [trident](ref/eq-weapon/trident)
 - [weighted spear](ref/eq-weapon/weighted-spear)
 
-### Thrown
+### Thrown {#sec-thrown}
 
 - [aklys](ref/eq-weapon/aklys)
 - [amentum](ref/eq-weapon/amentum)
@@ -389,7 +389,7 @@ groups):
 - [trident](ref/eq-weapon/trident)
 - [wushu dart](ref/eq-weapon/wushu-dart)
 
-### Tribal
+### Tribal {#sec-tribal}
 
 **Sources:** Ultimate Wilderness pg 51
 

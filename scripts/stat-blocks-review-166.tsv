@@ -1,5 +1,408 @@
 path	pass	reason	detail
+entries/eq-armor/heavy-steel-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/heavy-wooden-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/klar.md	item	variant-paragraphs	Damage
+entries/eq-armor/light-steel-quickdraw-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/light-steel-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/light-wooden-quickdraw-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/light-wooden-shield.md	item	variant-paragraphs	Damage
+entries/eq-armor/madu-shield-leather.md	item	variant-paragraphs	Damage
+entries/eq-armor/madu-shield-steel.md	item	variant-paragraphs	Damage
+entries/eq-armor/snarlshield-steel.md	item	variant-paragraphs	Damage
+entries/eq-armor/snarlshield-wooden.md	item	variant-paragraphs	Damage
+entries/eq-armor/war-shield-dwarven.md	item	variant-paragraphs	Damage
+entries/eq-armorenh/shield-spikes.md	item	variant-paragraphs	Light shield; Heavy shield
+entries/eq-misc/amp.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/antitoxin.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/autosniper-trap.md	item	variant-paragraphs	Autosniper Trap
+entries/eq-misc/balloon-trap.md	item	variant-paragraphs	Sirocco Balloon Trap - CR 14
+entries/eq-misc/bear-trap.md	item	variant-paragraphs	Bear Trap - CR 1
+entries/eq-misc/bell-tripwire-trap.md	item	variant-paragraphs	Bell Tripwire Trap
+entries/eq-misc/blood-boiling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/blood-chilling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/bloodgorge.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/boulderhead-bock.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/bunk.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/chameleon-ointment.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/courtiers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/dilettantes-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/doctors-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/essence-of-independence.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/eye-drops-of-the-unseen-master.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/flask-launcher.md	item	variant-paragraphs	Flash Launcher Trap
+entries/eq-misc/frightful-war-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/gas-mask.md	item	variant-paragraphs	Price
+entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
+entries/eq-misc/hobgoblin-war-draught.md	item	variant-paragraphs	Craft DC
+entries/eq-misc/homunculus-clay.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/hot-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/icecap-ale.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/imposing-war-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/incense-of-divinity.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/insight-leaves.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/instant-fertilizer.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/longbeard-lambic.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/loyalty-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/manacles-common.md	item	label-without-separator	Category
+entries/eq-misc/manacles-masterwork.md	item	label-without-separator	Category
+entries/eq-misc/manacles-mithral.md	item	label-without-separator	Category
+entries/eq-misc/mimic-fibers.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/monks-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/net-rigging.md	item	variant-paragraphs	Falling Net Trap
+entries/eq-misc/nobles-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/peasants-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/pesh.md	item	variant-paragraphs	False Pesh
+entries/eq-misc/pickpockets-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/poison-diffuser.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/poison-latch-needle.md	item	variant-paragraphs	Poison Latch Needle Trap
+entries/eq-misc/portable-bolt-trap.md	item	variant-paragraphs	Portable Bolt Trap - CR 1/2
+entries/eq-misc/pull-cord-grenade.md	item	variant-paragraphs	Type
+entries/eq-misc/royal-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/semblance-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/shamans-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/silence-dust.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/smokestick.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
+entries/eq-misc/spirit-of-glass.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/squires-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/sunrod.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/surge-syrup.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/tea-of-transference.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/tear-away-artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-courtiers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-doctors-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-hot-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-monks-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-nobles-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-peasants-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-pickpockets-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-royal-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-squires-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tear-away-travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/tindertwig.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/trapped-item-trapped-disguise-kit.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
+entries/eq-misc/trapped-item-trapped-scroll-case.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
+entries/eq-misc/travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/trespassers-boot.md	item	variant-paragraphs	Trespasser's Boot - CR 1/2
+entries/eq-misc/tunnel-creeper.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/vapors-of-easy-breath.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/vector-ink.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/venom-trap.md	item	variant-paragraphs	Venom Trap - CR varies
+entries/eq-misc/vivifying-moxibustion-needles.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/wagon-heavy-travel-per-mile.md	item	label-without-separator	Category
+entries/eq-misc/wagon-heavy.md	item	label-without-separator	Category
+entries/eq-misc/wagon-light-or-medium-travel-per-mile.md	item	label-without-separator	Category
+entries/eq-misc/wagon-light.md	item	label-without-separator	Category
+entries/eq-misc/wagon-medium.md	item	label-without-separator	Category
+entries/eq-misc/wagon.md	item	label-without-separator	Category
+entries/eq-misc/wire.md	item	variant-paragraphs	Tripwire Trap - CR 1/3
+entries/eq-misc/wyrms-breath-bitter.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/alchemical-isolation.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/confabulation-powder.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/count-ambrass-punishment.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/cytillesh-extract.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/flaming-doom.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/fury-gas.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/liquid-persuasion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/smell-of-fear.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-poison/vampires-kiss.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-siegeengine/bridge-assault-colossal.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/bridge-assault-gargantuan.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/bridge-assault-huge.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/bridge-assault-large.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/gallery-colossal.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/gallery-gargantuan.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/gallery-huge.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/gallery-large.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ladder-escalade-colossal.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ladder-escalade-gargantuan.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ladder-escalade-huge.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ladder-escalade-large.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ram-colossal.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ram-gargantuan.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ram-huge.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/ram-large.md	item	variant-paragraphs	Huge; Gargantuan; Colossal
+entries/eq-siegeengine/siege-tower-colossal.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/siege-tower-gargantuan.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/siege-tower-huge.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-siegeengine/siege-tower-large.md	item	variant-paragraphs	Large; Huge; Gargantuan; Colossal
+entries/eq-spellbook/apprentice-chapbook-of-rul-thaven.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/arctic-call.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/arrowsongs-sorrow.md	item	variant-paragraphs	Value
+entries/eq-spellbook/book-of-harms.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/book-of-the-grave.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/calamaes-fragment.md	item	variant-paragraphs	Value
+entries/eq-spellbook/chymists-guidebook.md	item	variant-paragraphs	Protection
+entries/eq-spellbook/cold-irony.md	item	variant-paragraphs	Value
+entries/eq-spellbook/cyrusian-codex.md	item	variant-paragraphs	Protection
+entries/eq-spellbook/defensive-primer.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/erages-journeymans-manual.md	item	variant-paragraphs	Value
+entries/eq-spellbook/galtan-cookbook.md	item	variant-paragraphs	Value
+entries/eq-spellbook/grandfathers-legacy.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/grimoire-of-glittering-eyes.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/guardian-grimoire.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/insights-of-far-seeing-taernis.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/journal-of-the-beast-within.md	item	variant-paragraphs	Value
+entries/eq-spellbook/journeyman-book-of-rul-thaven.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/lab-journal-of-constance-inflix.md	item	variant-paragraphs	Value
+entries/eq-spellbook/library-of-the-dancer-of-skins.md	item	variant-paragraphs	Value
+entries/eq-spellbook/manual-of-binding.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/manuscript-of-jack-were-son.md	item	variant-paragraphs	Protection
+entries/eq-spellbook/master-books-of-rul-thaven.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/mastery-of-word-and-thought.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/mysteries-of-shadow.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/nyzams-remedies.md	item	variant-paragraphs	Value
+entries/eq-spellbook/quest-eternal.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/runes-of-wealth.md	item	variant-paragraphs	Protection
+entries/eq-spellbook/sarinis-workbook.md	item	variant-paragraphs	Value
+entries/eq-spellbook/songs-of-the-linnorm-kings.md	item	variant-paragraphs	Value
+entries/eq-spellbook/the-guides-analects.md	item	variant-paragraphs	Value
+entries/eq-spellbook/the-last-azlantis-analects.md	item	variant-paragraphs	Protection
+entries/eq-spellbook/the-prying-eye.md	item	variant-paragraphs	Value
+entries/eq-spellbook/the-swordsmans-analects.md	item	variant-paragraphs	Value
+entries/eq-spellbook/tome-of-stone-wards.md	item	variant-paragraphs	Value
+entries/eq-spellbook/tome-of-the-transmuter.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/travelers-tome.md	item	variant-paragraphs	Opposition
+entries/eq-spellbook/unnamed-journal.md	item	variant-paragraphs	Value
+entries/eq-spellbook/wisdom-of-jatembe-nine-warriors-edition.md	item	variant-paragraphs	Value
+entries/eq-spellbook/wisdom-of-jatembe-six-warriors-edition.md	item	variant-paragraphs	Value
+entries/eq-spellbook/wisdom-of-jatembe-three-warriors-edition.md	item	variant-paragraphs	Value
+entries/eq-weapon/acid-neutralizer.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/acid.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/alchemists-fire.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-bleeding.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-durable.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-dye.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-lodestone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-pheromone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-slow-burn.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-splintercloud.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-tangleshot.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/arrow-trip.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/artokuss-fire.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/bloating-solution.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
+entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
+entries/eq-weapon/congealer-spray.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/desiccating-lubricant.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-dancing-peonies.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-firecracker-spirit.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-firecracker.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-jumping-jenny.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-skydragon.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/firework-sparking-pinwheel.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/hornbow-orc.md	item	variant-paragraphs	Cost
+entries/eq-weapon/lyddric-essence.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/reflex-bow.md	item	variant-paragraphs	Cost
+entries/eq-weapon/shriek-bomb.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/slime-grenade.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/spear-sling.md	item	variant-paragraphs	Cost
+entries/eq-weapon/stormstone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/suffocating-powder.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/tanglefoot-bag.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weapon/thunderstone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
+entries/magic-armor/armor-of-the-shadow-lord.md	item	variant-paragraphs	Alignment
+entries/magic-armor/gossamer-shrouds-of-the-clairvoyant.md	item	variant-paragraphs	Alignment
+entries/magic-armor/planar-invasion-shield.md	item	label-without-separator	Cost
+entries/magic-armor/shield-of-the-mage.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/alaznists-hateful-ranseur.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/belimariuss-invidious-halberd.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/briar.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/crown-of-fangs.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/infensus-mucro.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/karzougs-burning-glaive.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/mantis-blade.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/mog-lathar-the-petrified-spider.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/ovinrbaane-enemy-of-all-enemies.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/plaguebringer.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-armor-of-skulls.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-bound-blade.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-crown-of-fangs.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-howling-horn.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-shredskin.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-staff-of-the-slain.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-throne-of-nalt.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/serithtial.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/shelana-the-mother-deck.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sorshens-sinuous-guisarme.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/spherical-boat-of-zutha.md	item	variant-paragraphs	AC; Maximum Speed; Propulsion
+entries/magic-artifact/suishen-guardian-of-the-amatatsu.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-gluttony-ungarato.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-greed-chellan.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-lust-asheia.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-pride-baraket.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-sloth-shin-tari.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/tannaris-sword-of-envy.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/the-gluttonous-tome.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/totem-of-angazhan.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/winters-heart.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/zellaras-harrow-deck.md	item	variant-paragraphs	Alignment
+entries/magic-enh/runeforged.md	item	variant-paragraphs	Requirements
+entries/magic-fleshcraft/adhesive-slime.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/antennae.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/blinding-spittle-glands.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/burrowing-claws.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/camouflage-flesh.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/carapace.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/cerebral-husk.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/claw-gauntlet.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/darksight-eyes.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/grasping-tendril.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/poison-fangs.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/retractable-spines.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/ring-of-eyes.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/shark-gills.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/stinging-tail.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/webbed-appendages.md	item	variant-paragraphs	Cost
+entries/magic-fleshcraft/wings-of-darkness.md	item	variant-paragraphs	Cost
+entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
+entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj
+entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/amber-spindle.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/amethyst-pyramid.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/azure-briolette.md	item	unlabelled-line	Price 15,000 gp; Weight —
+entries/magic-ioun/brown-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/clear-spindle.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/crimson-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/crimson-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/dark-blue-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/dark-green-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/deep-brown-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/deep-red-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/dull-gray-stone.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/dusty-rose-prism.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/eastern-star.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/emerald-ellipsoid.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/emerald-wedge.md	item	variant-paragraphs	Aura
+entries/magic-ioun/gamboge-nodule.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/gold-nodule.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/incandescent-blue-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/iridescent-spindle.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/lavender-and-green-ellipsoid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/magenta-prism.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/mossy-disk.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/mulberry-pentacle.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/nacreous-gray-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/northern-star.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/onyx-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/opalescent-white-pyramid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/orange-prism.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/orange-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/pale-blue-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pale-green-prism.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pale-lavender-ellipsoid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pale-orange-rhomboid.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/pale-ruby-trillian.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pearlescent-pyramid.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/pearly-white-spindle.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pink-and-green-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/pink-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/scarlet-and-blue-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/scarlet-and-green-cabochon.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/sepia-ellipsoid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/silver-spindle.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/silver-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/southern-star.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/teal-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/tourmaline-sphere.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/turquoise-sphere.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/vermilion-rhomboid.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/vibrant-purple-prism.md	item	variant-paragraphs	Requirements
+entries/magic-ioun/violet-thorny.md	item	variant-paragraphs	Requirements; Price; Price
+entries/magic-ioun/western-star.md	item	variant-paragraphs	Requirements
+entries/magic-legacy/bracers-of-antiquity.md	item	variant-paragraphs	9th Level; 12th Level
+entries/magic-necrotoxin/entropic-dust.md	item	variant-paragraphs	Type
+entries/magic-necrotoxin/ghost-syrup.md	item	variant-paragraphs	Type
+entries/magic-necrotoxin/lazurite-flakes.md	item	variant-paragraphs	Type
+entries/magic-necrotoxin/memento-mori.md	item	variant-paragraphs	Type
+entries/magic-necrotoxin/quick-rot.md	item	variant-paragraphs	Type
+entries/magic-necrotoxin/xensh-spores.md	item	variant-paragraphs	Type
+entries/magic-poison/abyssal-arsenic.md	item	variant-paragraphs	Type; Requirements
+entries/magic-poison/burning-heart.md	item	variant-paragraphs	Type; Requirements
+entries/magic-poison/dust-of-eox.md	item	variant-paragraphs	Type; Requirements
+entries/magic-poison/liquid-influence.md	item	variant-paragraphs	Type; Requirements
+entries/magic-relic/belt-of-the-last-wall.md	item	variant-paragraphs	Task
+entries/magic-ring/obsession-ring.md	item	variant-paragraphs	Alignment
+entries/magic-ring/ring-of-the-weary-sky.md	item	variant-paragraphs	Alignment
+entries/magic-ring/wary-ring.md	item	variant-paragraphs	Alignment
+entries/magic-rod/harbinger-rod.md	item	variant-paragraphs	Alignment
+entries/magic-rod/metamagicians-apprentice.md	item	variant-paragraphs	Alignment
+entries/magic-rod/rod-that-should-not-be-greater.md	item	variant-paragraphs	Alignment
+entries/magic-rod/rod-that-should-not-be-lesser.md	item	variant-paragraphs	Alignment
+entries/magic-set/archmages-vestments.md	item	linked-label	[Caster's Shield, Greater:](ref/magic-armor/casters-shield-g
+entries/magic-set/arodens-array.md	item	linked-label	[Belt of Fallen Heroes:](ref/magic-wondrous/belt-of-fallen-h
+entries/magic-set/beastmasters-will.md	item	linked-label	[Boots of the Cat:](ref/magic-wondrous/boots-of-the-cat)
+entries/magic-set/besmaras-bounty.md	item	linked-label	[Bracelet of Bargaining:](ref/magic-wondrous/bracelet-of-bar
+entries/magic-set/dread-demonic-armor.md	item	linked-label	[Deliquescent Gloves:](ref/magic-wondrous/deliquescent-glove
+entries/magic-set/pharasmas-command.md	item	linked-label	[Cassock of the Clergy:](ref/magic-wondrous/cassock-of-the-c
+entries/magic-set/urgathoas-gluttony.md	item	linked-label	[Haunted Shoes:](ref/magic-wondrous/haunted-shoes)
+entries/magic-weapon/abat-ne-the-blackstone-mace.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/clarity.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/draddeth-edge.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/fiendsplitter.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/hammer-of-enemies.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/lightning-bow.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/norgirs-ruin.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/singing-sword.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/skullduster.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/soulshear.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/teralindars-honor.md	item	variant-paragraphs	Alignment
+entries/magic-weapon/ukwar.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/bloody-mantis.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/chomper.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/crusaders-scabbard.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/figurine-of-wondrous-power-basalt-dragon.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-black-jade-raven.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-bronze-griffon.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-coral-hippocampus.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-ebony-fly.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-emerald-frog.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-glass-walrus.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-golden-lions.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-hematite-courgar.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-ivory-goats.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-lapis-camel.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-marble-elephant.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-obsidian-raven.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-obsidian-steed.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-onyx-dog.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-pearl-dolphin.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-ruby-butterfly.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-serpentine-eagle.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-serpentine-owl.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-silver-raven.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-slate-spider.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power-tin-imp.md	item	variant-paragraphs	CL
+entries/magic-wondrous/figurine-of-wondrous-power.md	item	variant-paragraphs	CL
+entries/magic-wondrous/headband-of-the-sage.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/helm-of-brilliance-lesser.md	item	variant-paragraphs	Requirements
+entries/magic-wondrous/helm-of-brilliance.md	item	variant-paragraphs	Requirements
+entries/magic-wondrous/helmet-of-the-golden-general.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/holliss-lucky-rock.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/lady-ninahus-doll.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/lute-of-discord.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/maniac-hand.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/phylactery-of-jadis-vel.md	item	variant-paragraphs	Alignment
+entries/magic-wondrous/slashing-cloak.md	item	label-twice	Cost
+entries/magic-wondrous/the-bloodwind.md	item	variant-paragraphs	Alignment
 entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines
 entries/monster/air-elemental.md	creature	section-after-heading	7 Challenge rating lines
 entries/monster/akata.md	creature	section-after-heading	2 Challenge rating lines
@@ -77,3 +480,258 @@ entries/npc/vaultbreaker.md	npc	spell-header	**Transmuter Spells Prepared** (CL 
 entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Water
 entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/winter-witch-baroness.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
+entries/tech-armor/chameleon-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/deep-diving-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/gravity-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/hard-light-shield.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/heavy-weapon-harness.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/hev-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/inssuit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/nanite-ablative-armor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/neraplast-armor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/panic-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-black.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-blue.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-brown.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-gray.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-green.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-orange.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-prismatic.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-red.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/scatterlight-suit-white.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/smart-armor-compact-form.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/smart-armor-expanded-form.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/spacesuit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-artifact/fission-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
+entries/tech-artifact/fusion-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
+entries/tech-artifact/geothermal-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
+entries/tech-artifact/graviton-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
+entries/tech-artifact/solar-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
+entries/tech-cyber/biofilter.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cranial-bomb.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cyberart.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cyberfiber-muscles-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cyberfiber-muscles-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cyberfiber-muscles-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cybernetic-arm.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cybernetic-ears.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cybernetic-eyes.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/cybernetic-legs.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/dermal-plating-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/dermal-plating-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/dermal-plating-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/dermal-plating-mark-iv.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/dermal-plating-mark-v.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/frenzychip.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/implant-mesh.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/implanted-weaponry.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/optical-turrets.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/skillslot.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/thoracic-nanite-chamber-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/thoracic-nanite-chamber-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/thoracic-nanite-chamber-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/wirejack-tendons-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/wirejack-tendons-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-cyber/wirejack-tendons-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
+entries/tech-misc/access-card-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/access-card-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/battery.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/camera.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chemalyzer.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/chipfinder-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/clonepod.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/commset.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cortex-gun-mark-i.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cortex-gun-mark-ii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cortex-gun-mark-iii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cortex-gun-mark-iv.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cortex-gun-mark-v.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/cylex.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-misc/detonator.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-misc/e-pick-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/e-pick.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/emergency-beacon.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/emergency-raft.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/emergency-shelter.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/envoys-mouthpiece.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/filter-mask.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/fire-extinguisher.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/flashlight.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/force-field.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/goo-tube.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/gravity-clip.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/grip-of-death.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/grippers.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/hologram-generator-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/inertial-dampening-belt.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/ion-tape.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/jetpack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/laser-sight.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lighter.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/lock-coder-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/magboots.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/medlance.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/mindmelder.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/motion-tracker.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-canister.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nanite-hypogun-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/neurocam.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/nutrient-training-node.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/power-cable.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/power-receiver.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/proximity-helmet.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/quantum-box.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/radiation-detector.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/robojack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/signal-booster.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/signal-jammer.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/skillchip-mark-i.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/skillchip-mark-ii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/skillchip-mark-iii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/skillchip-mark-iv.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/skillchip-mark-v.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/tracker-chip.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/trauma-pack-plus.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/trauma-pack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-goggles.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/veemod-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-misc/zipstick.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
+entries/tech-pharma/azonite-pellets.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/baseline.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/cardioamp.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/cureall.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hemochem-grade-i.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hemochem-grade-ii.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hemochem-grade-iii.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hemochem-grade-iv.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hemochem-grave-v.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/hype.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/soothe.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/torpinal.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/universal-serum.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/vitality-serum.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/vive.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-pharma/zortaphen.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
+entries/tech-weapon/arc-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/arc-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/arc-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/atom-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/atom-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/autograpnel.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/bang-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/beam-cannon-emp-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/beam-cannon-laser-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/beam-cannon-sonic-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/beam-cannon-zero-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/beam-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/bio-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/chainsaw.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/concussion-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/dart-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/death-ray.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/emp-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/emp-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/emp-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/flare-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/flash-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/flechette-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/fleshnet-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/fragmentation-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/gas-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/gravity-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/gravity-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/gravity-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/grenade-launcher.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/id-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/inferno-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/inferno-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/laser-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/laser-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/laser-torch.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/mind-burner.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/mindrender.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/monowhip.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/neural-inhibitor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/nuclear-resonator.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/null-blade.md	item	unlabelled-line	[Craft Magic Arms and Armor](ref/feat/cr
+entries/tech-weapon/plasma-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/plasmathrower.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/rail-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/rocket-launcher.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/soft-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/sonic-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/sonic-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/sonic-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/starfall-spade.md	item	unlabelled-line	[Craft Magic Arms and Armor](ref/feat/cr
+entries/tech-weapon/stun-baton.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/stun-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/vortex-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/x-laser.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/zero-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/zero-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-weapon/zero-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
