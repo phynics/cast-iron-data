@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
+page = "330"
 
 [fields]
 kind = "trait"

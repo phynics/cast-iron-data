@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "advanced-players-guide"
+page = "250"
 
 [fields]
 kind = "none"
