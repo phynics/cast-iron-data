@@ -94,7 +94,7 @@ Base attack bonus: +3
 Combat maneuver bonus: +1
 Combat maneuver defense: 15
 Feats: Brew Potion, Mounted Archery, Mounted Combat, Throw Anything
-Skills: Acrobatics +8, Climb +3, Stealth +16
+Skills: Acrobatics +8, Climb +3, Craft (alchemy) +10, Handle Animal +2, Perception +8, Ride +12, Stealth +16
 Racial Modifiers: +4 Ride, +4 Stealth
 Languages: Common, Giant, Gnoll, Goblin
 Special qualities: alchemy (alchemy crafting +4, identify potions), discoveries ([explosive bomb](ref/discovery/explosive-bomb), sipping pet), [poison use](ref/ability/poison-use), swift alchemy
@@ -127,14 +127,14 @@ headdresses or paint themselves with guano as marks of status.
 [animal companion](ref/sidekick/animal-companion)**
 
 ::: statblock
-Challenge rating: 3
+Challenge rating: -
 Type: animal
 Initiative: +3
 Size: medium
 Alignment: Neutral
 Perception: +7
 Senses: Low-light vision
-Experience points: none given
+Experience points: -
 :::
 
 ### Defense
