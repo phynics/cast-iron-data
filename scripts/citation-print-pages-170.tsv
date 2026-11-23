@@ -1,4 +1,4 @@
-entry_id	publication	page	basis	note
+entry_id	publication	page	basis	note	evidence
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-deadfall	bestiary	129	print	
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-noose	bestiary	129	print	
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-spear-trap	bestiary	129	print	
@@ -1261,15 +1261,15 @@ ref/trait/ease-of-faith	ultimate-campaign	54	print
 ref/trait/ease-of-faith	advanced-players-guide	328	print	
 ref/trait/easy-way-or-the-hard-way	ultimate-campaign	52	print	
 ref/trait/eldritch-delver	ultimate-campaign	57	print	
-ref/trait/elven-reflexes	ultimate-campaign	62	print	
-ref/trait/elven-reflexes	advanced-players-guide	331	print	
+ref/trait/elven-reflexes	ultimate-campaign	62	print		title text only (no heading form): on page 62 and on none of the two pages each side
+ref/trait/elven-reflexes	advanced-players-guide	331	print		title text only (no heading form): on page 331 and on none of the two pages each side
 ref/trait/emissary	varisia-birthplace-of-legends	25	print	
 ref/trait/empyreal-cultist	varisia-birthplace-of-legends	21	print	
 ref/trait/enduring-mutagen	ultimate-campaign	57	print	
 ref/trait/evasive-sting	ultimate-campaign	53	print	
 ref/trait/ex-sczarni	varisia-birthplace-of-legends	30	print	
 ref/trait/exchange-agent	varisia-birthplace-of-legends	31	print	
-ref/trait/exposed-to-awfulness	demon-hunters-handbook	31	print	
+ref/trait/exposed-to-awfulness	demon-hunters-handbook	31	print		title text only (no heading form): on page 31 and on none of the two pages each side
 ref/trait/eyes-and-ears-of-the-city	ultimate-campaign	64	print	
 ref/trait/eyes-and-ears-of-the-city	advanced-players-guide	333	print	
 ref/trait/failed-apprentice	ultimate-campaign	62	print	
@@ -1278,16 +1278,16 @@ ref/trait/failed-apprentice	taldor-echoes-of-glory	14	print
 ref/trait/faiths-hunter	ultimate-campaign	53	print	
 ref/trait/family-ties-drawback	ultimate-campaign	65	print	
 ref/trait/fast-talker	ultimate-campaign	60	print	
-ref/trait/fast-talker	advanced-players-guide	330	print	
+ref/trait/fast-talker	advanced-players-guide	330	print		title text only (no heading form): on page 330 and on none of the two pages each side
 ref/trait/fates-favored	ultimate-campaign	55	print	
 ref/trait/fearless-defiance	ultimate-campaign	55	print	
 ref/trait/fencer	ultimate-campaign	53	print	
 ref/trait/fencer	advanced-players-guide	328	print	
 ref/trait/fiend-blood	ultimate-campaign	62	print	
 ref/trait/fixer-of-odds	varisia-birthplace-of-legends	29	print	
-ref/trait/flame-of-the-dawnflower	ultimate-campaign	64	print	
+ref/trait/flame-of-the-dawnflower	ultimate-campaign	64	print		title text only (no heading form): on page 64 and on none of the two pages each side
 ref/trait/flame-of-the-dawnflower	qadira-gateway-to-the-east	23	print	
-ref/trait/flame-of-the-dawnflower	advanced-players-guide	333	print	
+ref/trait/flame-of-the-dawnflower	advanced-players-guide	333	print		title text only (no heading form): on page 333 and on none of the two pages each side
 ref/trait/flame-touched	ultimate-campaign	57	print	
 ref/trait/focused-burn	ultimate-campaign	57	print	
 ref/trait/focused-disciple	ultimate-campaign	55	print	
@@ -1306,7 +1306,7 @@ ref/trait/frontier-forged	ultimate-campaign	63	print
 ref/trait/fruit-merchant	wilderness-origins	3	print	
 ref/trait/gifted-adept	ultimate-campaign	57	print	
 ref/trait/gifted-adept	advanced-players-guide	329	print	
-ref/trait/goblin-bravery	we-be-goblins	14	print	
+ref/trait/goblin-bravery	we-be-goblins	14	print		title text only (no heading form): on page 14 and on none of the two pages each side
 ref/trait/goldsniffer	ultimate-campaign	61	print	
 ref/trait/goldsniffer	dwarves-of-golarion	10	print	
 ref/trait/goldsniffer	advanced-players-guide	331	print	
@@ -1541,11 +1541,11 @@ ref/trait/wrecking-wrath	ultimate-campaign	64	print
 ref/trait/xenophobic	ultimate-campaign	65	print	
 ref/trait/zealous-drawback	ultimate-campaign	65	print	
 ref/trait/zealous-striker	ultimate-campaign	56	print	
-ref/trait/child-of-wati	undead-slayers-handbook	15	print	
-ref/trait/corpse-dodger	undead-slayers-handbook	15	print	
-ref/trait/exiled-scholar	undead-slayers-handbook	9	print	
-ref/trait/forbidden-knowledge	undead-slayers-handbook	11	print	
-ref/trait/ghost-survivor	undead-slayers-handbook	13	print	
-ref/trait/ghoulish-affinity	undead-slayers-handbook	11	print	
-ref/trait/holy-tattoo	undead-slayers-handbook	9	print	
-ref/trait/unflinching-faith	undead-slayers-handbook	13	print	
+ref/trait/child-of-wati	undead-slayers-handbook	15	print		rendered PDF p. 17, printed p. 15, seen (the trait heading is on the rendered page)
+ref/trait/corpse-dodger	undead-slayers-handbook	15	print		rendered PDF p. 17, printed p. 15, seen (the trait heading is on the rendered page)
+ref/trait/exiled-scholar	undead-slayers-handbook	9	print		rendered PDF p. 11, printed p. 9, seen (the trait heading is on the rendered page)
+ref/trait/forbidden-knowledge	undead-slayers-handbook	11	print		rendered PDF p. 13, printed p. 11, seen (the trait heading is on the rendered page)
+ref/trait/ghost-survivor	undead-slayers-handbook	13	print		rendered PDF p. 15, printed p. 13, seen (the trait heading is on the rendered page)
+ref/trait/ghoulish-affinity	undead-slayers-handbook	11	print		rendered PDF p. 13, printed p. 11, seen (the trait heading is on the rendered page)
+ref/trait/holy-tattoo	undead-slayers-handbook	9	print		rendered PDF p. 11, printed p. 9, seen (the trait heading is on the rendered page)
+ref/trait/unflinching-faith	undead-slayers-handbook	13	print		rendered PDF p. 15, printed p. 13, seen (the trait heading is on the rendered page)
