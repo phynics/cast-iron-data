@@ -33,6 +33,10 @@ charge the item with mythic power. Non-mythic creatures do not receive saving th
 suffocation effect. Affected creatures suffocate for an additional number of rounds equal to your
 mythic tier.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (50 brimstone + 50 phosphorus + 5
-realgar)/sublimation; **Craft DC** 20\
-**Time** 1 hour; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(50 brimstone + 50 phosphorus + 5 realgar)/sublimation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 hour
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical weapon
+:::

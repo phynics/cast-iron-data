@@ -37,9 +37,10 @@ This stone grants you the [Endurance](ref/feat/endurance) feat.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), creator must be
-12th level; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), creator must be 12th level
+Cost: 5,000 gp
+:::
 
 ### Flawed Ioun Stone
 

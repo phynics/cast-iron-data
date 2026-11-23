@@ -44,5 +44,8 @@ for the entire duration, even though it does not gain the use of the spines.
 
 ### Creation Requirements
 
-**Cost** 12,000 gp\
+::: statblock
+Cost: 12,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 10 ranks; Heal DC 20; **Elixir Cost** 325 gp

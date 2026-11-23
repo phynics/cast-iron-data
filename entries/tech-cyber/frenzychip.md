@@ -27,7 +27,11 @@ Implantation: 1
 
 ### Construction
 
-**Craft DC** 30; **Cost** 18,200 gp\
+::: statblock
+Craft DC: 30
+Cost: 18,200 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A frenzychip is installed into a creature's brain. Successful implantation leaves no trace of the

@@ -22,7 +22,11 @@ Price: 250 gp
 
 ### Construction
 
-**Craft DC** 24; **Cost** 125 gp\
+::: statblock
+Craft DC: 24
+Cost: 125 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 A synthetic adrenaline derivative once used by soldiers, hype boosts perception and reaction time

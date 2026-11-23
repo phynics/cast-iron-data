@@ -85,7 +85,12 @@ worshiper of Zon-Kuthon uses its breath weapon on the blade while Serithtial is 
 
 ### Statistics
 
-**Alignment** LG; **Ego** 16\
-**Senses** 60 ft.\
-**Int** 13, **Wis** 10, **Cha** 13\
-**Communication** empathy
+::: statblock
+Alignment: LG
+Ego: 16
+Senses: 60 ft.
+Int: 13
+Wis: 10
+Cha: 13
+Communication: empathy
+:::

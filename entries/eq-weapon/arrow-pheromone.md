@@ -32,10 +32,13 @@ creatures perceive as merely unpleasant. Any creature with the [scent](ref/umr/s
 a +2 circumstance bonus on attack and damage rolls against a target marked with a pheromone arrow.
 This effect lasts for 1 hour or until the target spends 1 minute washing it off.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (10 myrrh + 10 salt + 14
-urea)/congelation; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(10 myrrh + 10 salt + 14 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::
 
 **Note:** Weight is based on 20 normal [arrows](ref/eq-weapon/arrow) weighing three pounds. The
 source material lists weight as —.

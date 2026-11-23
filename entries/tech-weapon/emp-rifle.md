@@ -32,7 +32,11 @@ Special: [Automatic](ref/misc/automatic), [touch](ref/misc/touch)
 
 ### Construction
 
-**Craft DC** 29; **Cost** 12,000 gp\
+::: statblock
+Craft DC: 29
+Cost: 12,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

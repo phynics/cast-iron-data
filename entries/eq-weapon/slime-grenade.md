@@ -35,7 +35,10 @@ Creatures in the splash radius of a slime grenade take no damage, but any wooden
 shields they are wearing take 1d6 points of acid damage (ignoring hardness). Affected creatures can
 attempt DC 15 Reflex saves to halve the damage dealt to their equipment.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (50 phosphorus + 75 quicksilver + 50
-urea)/congelation; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(50 phosphorus + 75 quicksilver + 50 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

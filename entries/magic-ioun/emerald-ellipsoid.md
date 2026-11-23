@@ -39,8 +39,10 @@ bonuses from multiple emerald ellipsoids stack, with no known limit.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[false life](ref/spell/false-life), creator must be 12th level; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [false life](ref/spell/false-life), creator must be 12th level
+Cost: 10,000 gp
+:::
 
 ### Flawed Ioun Stone
 

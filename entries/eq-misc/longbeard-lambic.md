@@ -35,6 +35,10 @@ lambic within 1 minute of the previous dose, you must succeed at a DC 15 Fortitu
 [nauseated](ref/misc/nauseated) for 1d4 rounds. The DC increases by 5 for each dose imbibed within
 the same time span. Dwarves gain a +5 racial bonus on this saving throw.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (3 gold + 5 quicksilver + 4 spirit of
-wine)/fermentation; **Craft DC** 18\
-**Time** 1 week; **Tools** [brewer's kit](ref/eq-misc/brewers-kit); **Type** alcohol
+::: statblock
+Spontaneous Alchemy Recipe: [(3 gold + 5 quicksilver + 4 spirit of wine)/fermentation](ref/rule/spontaneous-alchemy)
+Craft DC: 18
+Time: 1 week
+Tools: [brewer's kit](ref/eq-misc/brewers-kit)
+Type: alcohol
+:::

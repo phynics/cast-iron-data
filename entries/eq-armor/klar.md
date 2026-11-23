@@ -49,9 +49,17 @@ as a light weapon. If you use your shield as a weapon, you lose its AC bonus unt
 An enhancement bonus on a shield does not improve the effectiveness of a shield bash made with it,
 but the shield can be made into a magic weapon in its own right.
 
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special** see text\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Close
+::: statblock
+title = "Shield Bash Attacks"
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: see text
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Close](ref/ability/weapon-groups#sec-close)
+:::
 
 The traditional form of this tribal weapon is a short blade bound to the skull of a large horned
 lizard, but a skilled smith can craft one entirely out of metal. A traditional klar counts as a

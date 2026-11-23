@@ -30,9 +30,11 @@ Usage: disposable
 
 ### Construction
 
-**Craft DC** 27 (mark I), DC 29 (mark II), DC 31 (mark III), DC 33 (mark IV), DC 35 (mark V)\
-**Cost** 15,125 gp (mark I), 30,250 gp (mark II), 45,375 gp (mark III), 60,500 gp (mark IV), 75,625
-gp (mark V)\
+::: statblock
+Craft DC: 27 (mark I), DC 29 (mark II), DC 31 (mark III), DC 33 (mark IV), DC 35 (mark V)
+Cost: 15,125 gp (mark I), 30,250 gp (mark II), 45,375 gp (mark III), 60,500 gp (mark IV), 75,625 gp (mark V)
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [nanotech lab](ref/rule/crafting-laboratories)
 

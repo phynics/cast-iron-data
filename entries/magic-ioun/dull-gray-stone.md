@@ -44,8 +44,10 @@ disk, ellipsoid, and so on).
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level;
-**Cost** 12 gp, 5 sp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be 12th level
+Cost: 12 gp, 5 sp
+:::
 
 ### Flawed Ioun Stone
 

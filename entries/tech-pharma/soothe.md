@@ -22,7 +22,11 @@ Price: 200 gp
 
 ### Construction
 
-**Craft DC** 20; **Cost** 100 gp\
+::: statblock
+Craft DC: 20
+Cost: 100 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1

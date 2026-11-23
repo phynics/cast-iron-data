@@ -28,6 +28,10 @@ minor wounds. Anytime you take [bleed](ref/rule/bleed) damage, any creatures adj
 succeed at a Fortitude save (DC 10 + the amount of bleed damage taken) or be
 [nauseated](ref/misc/nauseated) for 1 round. A dose of bloodgorge lasts for 1 hour.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (5 cold iron + 10 dew of
-lunary)/filtration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(5 cold iron + 10 dew of lunary)/filtration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical remedy
+:::

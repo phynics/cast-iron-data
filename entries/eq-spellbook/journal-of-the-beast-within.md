@@ -21,7 +21,9 @@ _This ragged collection of scorched and stained notes is tied with cheap twine b
 covers. A few formulae appear to have been deliberately obliterated, scratched through so thoroughly
 that the paper is torn in places._
 
-**Value** 915 gp (2,165 gp with the preparation ritual)
+::: statblock
+Value: 915 gp (2,165 gp with the preparation ritual)
+:::
 
 #### Spells
 

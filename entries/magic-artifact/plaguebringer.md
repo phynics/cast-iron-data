@@ -89,7 +89,12 @@ star.
 
 ### Statistics
 
-**Alignment** NE; **Ego** 30\
-**Senses** 120 ft., [blindsense](ref/umr/blindsense) and [darkvision](ref/rule/darkvision)\
-**Int** 15, **Wis** 10, **Cha** 20\
-**Communication** empathy
+::: statblock
+Alignment: NE
+Ego: 30
+Senses: 120 ft., [blindsense](ref/umr/blindsense) and [darkvision](ref/rule/darkvision)
+Int: 15
+Wis: 10
+Cha: 20
+Communication: empathy
+:::

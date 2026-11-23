@@ -33,6 +33,10 @@ becomes frightened instead
 
 **Cure:** 2 saves
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (170 quicksilver + 170
-realgar)/fermentation; **Craft** DC 17\
-**Time** 1 day; **Tools** heat source; **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(170 quicksilver + 170 realgar)/fermentation](ref/rule/spontaneous-alchemy)
+Craft: DC 17
+Time: 1 day
+Tools: heat source
+Type: poison
+:::

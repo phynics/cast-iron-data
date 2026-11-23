@@ -53,7 +53,12 @@ Price: 22,908 gp
 
 ### Statistics
 
-**Alignment** chaotic evil; **Ego** 14\
-**Senses** 60 ft. (vision and hearing)\
-**Int** 16, **Wis** 12, **Cha** 14\
-**Communication** speech (Abyssal, Common, Giant)
+::: statblock
+Alignment: chaotic evil
+Ego: 14
+Senses: 60 ft. (vision and hearing)
+Int: 16
+Wis: 12
+Cha: 14
+Communication: speech (Abyssal, Common, Giant)
+:::

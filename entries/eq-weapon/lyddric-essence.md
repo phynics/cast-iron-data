@@ -29,6 +29,10 @@ flask of [acid](ref/eq-weapon/acid), dealing normal acid damage to creatures not
 However, plant creatures, plants, and fungi targeted with lyddric essence take 2d6 points of acid
 damage on a direct hit, or 2 points of acid splash damage if within 5 feet of where it hits.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (15 brimstone + 3 cytillesh
-spores)/distillation; **Craft DC** 20\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(15 brimstone + 3 cytillesh spores)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical weapon
+:::

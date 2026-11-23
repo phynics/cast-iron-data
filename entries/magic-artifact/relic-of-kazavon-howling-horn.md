@@ -49,9 +49,13 @@ good-aligned deity.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 10\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 10, **Cha** 12\
-**Communication** empathy\
-**Powers** 3/day - [circle of death](ref/spell/circle-of-death) (DC 19),
-[repulsion](ref/spell/repulsion) (DC 19), [waves of exhaustion](ref/spell/waves-of-exhaustion)
+::: statblock
+Alignment: LE
+Ego: 10
+Senses: 30 ft.
+Int: 10
+Wis: 10
+Cha: 12
+Communication: empathy
+Powers: 3/day - [circle of death](ref/spell/circle-of-death) (DC 19), [repulsion](ref/spell/repulsion) (DC 19), [waves of exhaustion](ref/spell/waves-of-exhaustion)
+:::

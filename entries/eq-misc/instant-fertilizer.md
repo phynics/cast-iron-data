@@ -30,6 +30,10 @@ creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex s
 [entangled](ref/rule/entangled) by the surging plants. Any plant creature in the affected square is
 healed of 1d6 points of damage.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (15 magnesium + 20 phosphorus + 10
-salt)/calcination; **Craft DC** 20\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(15 magnesium + 20 phosphorus + 10 salt)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::

@@ -41,7 +41,10 @@ requires a DC 15 Reflex save. Rolling on the ground provides the target a +2 bon
 Leaping into a large body of water or magically extinguishing the flames automatically smothers the
 fire. Crafting this item is a DC 20 Craft (alchemy) check.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (12 magnesium + 22 spirit of
-wine)/congelation; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(12 magnesium + 22 spirit of wine)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

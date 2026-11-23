@@ -32,6 +32,10 @@ purpose of determining when the ooze can make attacks of opportunity (to a minim
 The effects of bloating solution last 1 minute. An affected intelligent ooze creature can attempt a
 DC 15 Fortitude save as a full-round action to end the effect early.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (15 phosphorus + 30 salt + 20
-urea)/distillation; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(15 phosphorus + 30 salt + 20 urea)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical weapon
+:::

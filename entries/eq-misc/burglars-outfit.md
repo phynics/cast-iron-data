@@ -34,9 +34,12 @@ face mask, all in dark or neutral colors. The outfit's few buttons and rivets ar
 dark cloth to avoid jingling or reflecting light. A number of loops and shallow pockets are also
 worked into the outfit, providing ample spaces for stashing small tools or weapons.
 
-**Tear-away clothing**\
-**Price** +5 gp; **Weight** -\
-**Category** Clothing
+::: statblock
+title = "Tear-away clothing"
+Price: +5 gp
+Weight: -
+Category: Clothing
+:::
 
 Sneaks and thieves know the value of a good disguise. The ability to remove that disguise in a
 hurry, thus revealing the next layer of disguise, is nearly as valuable. Tear-away clothing is

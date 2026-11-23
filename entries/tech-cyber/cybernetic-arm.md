@@ -28,7 +28,11 @@ Implantation: 2
 
 ### Construction
 
-**Craft DC** 25; **Cost** 2,375 gp\
+::: statblock
+Craft DC: 25
+Cost: 2,375 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the

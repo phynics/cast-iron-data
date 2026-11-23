@@ -41,8 +41,10 @@ This stone grants a +1 competence bonus on [Appraise](ref/skill/appraise) checks
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), creator must be 12th level; **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), creator must be 12th level
+Cost: 2,500 gp
+:::
 
 ### Flawed Ioun Stone
 

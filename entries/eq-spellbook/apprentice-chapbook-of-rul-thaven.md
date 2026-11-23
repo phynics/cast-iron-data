@@ -22,8 +22,10 @@ boards. The writing inside is fussy and crammed together, with words that are oc
 illegible. Eight of its pages contain spells; the final 10 pages are blank. A portrait of a plain
 woman, unsmiling, has been bound into the inside front cover._
 
-**Opposition** Illusion, transmutation\
-**Value** 195 gp
+::: statblock
+Opposition: Illusion, transmutation
+Value: 195 gp
+:::
 
 #### Spells
 

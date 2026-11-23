@@ -47,11 +47,14 @@ Price: 46,012 gp
 
 ### Statistics
 
-**Alignment** lawful evil; **Ego** 13 (17 with restored wisdom)\
-**Senses** 60 ft., [darkvision](ref/rule/darkvision) 60 ft.\
-**Int** 12, **Wis** 5 (originally 14), **Cha** 16\
-**Communication** speech (Dwarven, Undercommon)\
-**Powers** Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day\
-**[Special Purpose](ref/rule/special-purpose-items)** defeat dwarves (Norgir's Ruin can detect
-dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures
-built by dwarves)
+::: statblock
+Alignment: lawful evil
+Ego: 13 (17 with restored wisdom)
+Senses: 60 ft., [darkvision](ref/rule/darkvision) 60 ft.
+Int: 12
+Wis: 5 (originally 14)
+Cha: 16
+Communication: speech (Dwarven, Undercommon)
+Powers: Knowledge (dungeoneering) +14 (10 ranks), dispel magic 1/day, invisibility purge 1/day
+Special Purpose: [defeat dwarves (Norgir's Ruin can detect dwarves within 60 ft., and can cast earthquake once per day in any area that includes structures built by dwarves)](ref/rule/special-purpose-items)
+:::

@@ -32,7 +32,11 @@ Usage: 1 charge
 
 ### Construction
 
-**Craft DC** 22; **Cost** 600 gp\
+::: statblock
+Craft DC: 22
+Cost: 600 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [production lab](ref/rule/crafting-laboratories)
 

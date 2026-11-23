@@ -28,7 +28,11 @@ Implantation: 1
 
 ### Construction
 
-**Craft DC** 28; **Cost** 2,000 gp\
+::: statblock
+Craft DC: 28
+Cost: 2,000 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A cybernetic ear can be enhanced by [cyberart](ref/tech-cyber/cyberart) at no additional cost,

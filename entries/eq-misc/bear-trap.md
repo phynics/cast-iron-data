@@ -34,11 +34,13 @@ monsters. The hinged jaws of the trap are attached to a chain, which in turn is 
 driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or
 pulling the spike from the ground requires a DC 20 Strength check.
 
-**Bear Trap - CR 1**\
-**Type** mechanical; **Perception** DC 15; **Disable Device** DC 20\
-**Effects**\
-**Trigger** location; **Reset** manual\
-**Effect** Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the
-creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the
-creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength
-check.
+::: statblock
+title = "Bear Trap - CR 1"
+Type: mechanical
+Perception: DC 15
+Disable Device: DC 20
+Effects:
+Trigger: location
+Reset: manual
+Effect: Atk +10 melee (2d6+3); sharp jaws spring shut around the creature's ankle and halve the creature's base speed (or hold the creature immobile if the trap is attached to a solid object); the creature can escape with a DC 20 Disable Device check, DC 22 Escape Artist check, or DC 26 Strength check.
+:::

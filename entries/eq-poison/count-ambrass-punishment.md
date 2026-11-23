@@ -35,6 +35,10 @@ Weight: —
 
 **Cure:** 1 save
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (70 dew of lunary + 35 realgar + 70
-urea)/digestion; **Craft** DC 16\
-**Time** 1 day; **Tools** heat source; **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(70 dew of lunary + 35 realgar + 70 urea)/digestion](ref/rule/spontaneous-alchemy)
+Craft: DC 16
+Time: 1 day
+Tools: heat source
+Type: poison
+:::

@@ -20,8 +20,10 @@ category = "Spellbooks"
 _This heavy tome bears a handsome leather cover over thick metal plates. The front cover displays a
 dozen tiny dials arranged in a semi-circle around the locking mechanism._
 
-**Protection** [Good lock](ref/eq-misc/lock-good) with [arcane lock](ref/spell/arcane-lock) (DC 40)\
-**Value** 4,425 gp (9,125 gp with the preparation ritual)
+::: statblock
+Protection: [Good lock](ref/eq-misc/lock-good) with [arcane lock](ref/spell/arcane-lock) (DC 40)
+Value: 4,425 gp (9,125 gp with the preparation ritual)
+:::
 
 #### Spells
 

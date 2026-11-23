@@ -80,7 +80,12 @@ Cost: -
 
 ### Statistics
 
-**Alignment** chaotic evil (assumed; consult your GM); **Ego** 5 (see above)\
-**Senses** 30 ft. (assumed; consult your GM)\
-**Int** 8, **Wis** 12, **Cha** 10\
-**Communication** empathy (see above)
+::: statblock
+Alignment: chaotic evil (assumed; consult your GM)
+Ego: 5 (see above)
+Senses: 30 ft. (assumed; consult your GM)
+Int: 8
+Wis: 12
+Cha: 10
+Communication: empathy (see above)
+:::

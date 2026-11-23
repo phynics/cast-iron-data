@@ -42,9 +42,10 @@ level higher.
 
 #### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be 12th level; **Cost**
-12,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), creator must be 12th level
+Cost: 12,000 gp
+:::
 
 ### Flawed Ioun Stone
 

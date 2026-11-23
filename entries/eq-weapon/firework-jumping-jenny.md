@@ -29,6 +29,10 @@ a jumping jenny, it fills its square with sparks, dealing 1 point of fire damage
 that square and [dazzling](ref/misc/dazzled) them for 1d2 rounds (Reflex DC 12 negates). Each round
 for 1d4 rounds after detonation, the jumping jenny moves into a random adjacent square.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (1 black powder + 5 magnesium + 1
-saltpeter)/calcination; **Craft DC** 16\
-**Time** 10 minutes; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(1 black powder + 5 magnesium + 1 saltpeter)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 16
+Time: 10 minutes
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical weapon
+:::

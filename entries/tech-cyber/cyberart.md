@@ -28,7 +28,11 @@ Implantation: 0
 
 ### Construction
 
-**Craft DC** 20; **Cost** 50 gp\
+::: statblock
+Craft DC: 20
+Cost: 50 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 Cyberart is the least invasive of all cybertech. This implant is similar in appearance to a tattoo,

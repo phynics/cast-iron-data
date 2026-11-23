@@ -19,7 +19,9 @@ category = "Spellbooks"
 
 _This book's worn leather cover is emblazoned with a winged sword with an eye at its hilt._
 
-**Value** 250 gp (400 gp with the preparation ritual)
+::: statblock
+Value: 250 gp (400 gp with the preparation ritual)
+:::
 
 #### Spells
 

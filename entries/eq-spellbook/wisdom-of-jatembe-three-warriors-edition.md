@@ -24,7 +24,9 @@ consequences of using spells without careful consideration. The rest of the book
 each proceeded and followed by one or more stories discussing situations with thematic links to the
 spell._
 
-**Value** 375 gp (875 gp with the preparation ritual)
+::: statblock
+Value: 375 gp (875 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -30,6 +30,10 @@ round. The character whose blood is used is treated as the homunculus's master. 
 homunculus withers and dies, rapidly decaying into a viscous slime. The listed price is for a jar
 containing 3 doses of homunculus clay.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (450 darkwood + 350 dew of lunary +
-400 myrrh)/fermentation; **Craft DC** 30\
-**Time** 1 day; **Tools** heat source; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(450 darkwood + 350 dew of lunary + 400 myrrh)/fermentation](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 day
+Tools: heat source
+Type: alchemical tool
+:::

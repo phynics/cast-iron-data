@@ -43,6 +43,10 @@ integrity beyond the damage the laser blast deals as part of the attack.
 
 ### Construction
 
-**Craft DC** 33; **Cost** 20,000 gp\
+::: statblock
+Craft DC: 33
+Cost: 20,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)

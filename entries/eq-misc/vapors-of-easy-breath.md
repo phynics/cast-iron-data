@@ -31,7 +31,10 @@ against such effects for the next 10 minutes. If already affected by an airborne
 affected creature can immediately attempt another saving throw against the effect (with the +5
 bonus); a creature can attempt only one such additional saving throw in a 24-hour period.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (60 myrrh + 50 salt + 60 ginger
-extract)/congelation; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(60 myrrh + 50 salt + 60 ginger extract)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical remedy
+:::

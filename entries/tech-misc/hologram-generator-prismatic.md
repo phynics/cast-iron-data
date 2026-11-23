@@ -30,10 +30,11 @@ Usage: 1 charge/round
 
 ### Construction
 
-**Craft DC** 27 (black), DC 32 (blue), DC 26 (brown), DC 29 (gray), DC 30 (green), DC 33 (orange),
-DC 34 (prismatic), DC 31 (red), DC 28 (white)\
-**Cost** 500 gp (black), 25,000 gp (blue), 250 gp (brown), 2,000 gp (gray), 15,000 gp (green),
-30,000 gp (orange), 45,000 gp (prismatic), 20,000 gp (red), 1,000 gp (white)\
+::: statblock
+Craft DC: 27 (black), DC 32 (blue), DC 26 (brown), DC 29 (gray), DC 30 (green), DC 33 (orange), DC 34 (prismatic), DC 31 (red), DC 28 (white)
+Cost: 500 gp (black), 25,000 gp (blue), 250 gp (brown), 2,000 gp (gray), 15,000 gp (green), 30,000 gp (orange), 45,000 gp (prismatic), 20,000 gp (red), 1,000 gp (white)
+:::
+
 [Craft Technological Item](ref/feat/craft-technological-item),
 [production lab](ref/rule/crafting-laboratories) (prismatic hologram generator requires a graviton
 lab)

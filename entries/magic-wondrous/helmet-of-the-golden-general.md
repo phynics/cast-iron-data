@@ -53,7 +53,12 @@ Price: 31,000 gp
 
 ### Statistics
 
-**Alignment** neutral good; **Ego** 14\
-**Senses** 30 ft.\
-**Int** 14, **Wis** 16, **Cha** 14\
-**Communication** speech (Common and four other languages)
+::: statblock
+Alignment: neutral good
+Ego: 14
+Senses: 30 ft.
+Int: 14
+Wis: 16
+Cha: 14
+Communication: speech (Common and four other languages)
+:::

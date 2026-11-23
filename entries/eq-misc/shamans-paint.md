@@ -31,6 +31,10 @@ harmful to living creatures. If you wear shaman's paint for more than 1 minute p
 point of [Wisdom damage](ref/rule/ability-damage-drain), plus 1 point of Wisdom damage for every
 minute you wear the paint that day after the first.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (30 quicksilver + 25
-saltpeter)/earth; **Craft DC** 20\
-**Time** 10 minutes; **Tools** -; **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(30 quicksilver + 25 saltpeter)/earth](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: -
+Type: alchemical tool
+:::

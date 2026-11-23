@@ -20,10 +20,11 @@ category = "Spellbooks"
 _Each volume of this three-book set is written in gold ink on jetblack paper. Illusory script hides
 descriptions of the geography and denizens of the Shadow Plane._
 
-**Opposition** Divination, evocation\
-**Protection** illusory script (Will DC 16; on failure the suggestion is "Forget the existence of
-the descriptions and notes"), phantom trap (opening any of the books seems to set off a trap)\
-**Value** 11,865 gp (15,065 gp with the preparation ritual)
+::: statblock
+Opposition: Divination, evocation
+Protection: illusory script (Will DC 16; on failure the suggestion is "Forget the existence of the descriptions and notes"), phantom trap (opening any of the books seems to set off a trap)
+Value: 11,865 gp (15,065 gp with the preparation ritual)
+:::
 
 #### Spells
 

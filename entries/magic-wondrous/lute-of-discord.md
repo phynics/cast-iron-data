@@ -53,7 +53,12 @@ Price: 18,950 gp
 
 ### Statistics
 
-**Alignment** chaotic neutral; **Ego** 14\
-**Senses** 120 ft., [darkvision](ref/rule/darkvision)\
-**Int** 14, **Wis** 14, **Cha** 18\
-**Communication** telepathy (Common and four other languages)
+::: statblock
+Alignment: chaotic neutral
+Ego: 14
+Senses: 120 ft., [darkvision](ref/rule/darkvision)
+Int: 14
+Wis: 14
+Cha: 18
+Communication: telepathy (Common and four other languages)
+:::

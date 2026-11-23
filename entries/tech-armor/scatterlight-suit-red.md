@@ -34,7 +34,11 @@ Usage: 1 charge/hour
 
 ### Construction
 
-**Craft DC** (see below); **Cost** (see below)\
+::: statblock
+Craft DC: (see below)
+Cost: (see below)
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 
