@@ -7,6 +7,9 @@ source_ids = ["serpents-skull-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mwangi_scholar", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "serpents-skull-players-guide"
+page = "11"
 
 [fields]
 kind = "trait"

@@ -6,6 +6,9 @@ source_ids = ["ruins-of-azlant-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_scholar_roapg", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "ruins-of-azlant-players-guide"
+page = "9"
 
 [fields]
 kind = "trait"

@@ -46,7 +46,9 @@ the print-pages file) or `source_ids` drops it. The review queue keeps a `book-d
 for it while the book stays in `source_ids` without a row.
 
 Every other row without a page is book-only and gets a review-queue line that says why (coarse,
-ambiguous, no-page, sibling-differs, no-proposal, page-format). Page proposals come from a
+ambiguous, no-page, sibling-differs, no-proposal, page-format, unconfirmed). A print-pages line with an
+empty page marks a proposal that print was searched for and did not confirm (`unconfirmed`); the row
+is book-only and the proposal is kept in the review line only. A page of 0 is no page (page-format). Page proposals come from a
 local reference (`--candidates`, the TSV its lookup writes: entry_id, publication, page,
 confidence, notes). The reference is not part of the corpus and is not committed, so a rerun
 without `--candidates` and with rows in place changes nothing. Each page a write adds still needs
@@ -88,6 +90,12 @@ KIND_OF_SLICE = {
 MYTHIC_PREFIX = "ref/carried/mythic-adventures/feats/"
 
 PAGE_FORM = re.compile(r"^\d+(?:-\d+)?(?:, \d+(?:-\d+)?)*$")
+
+
+def page_ok(page: str) -> bool:
+    """A page value in a known form whose numbers are all at least 1 (page 0 is no page)."""
+    numbers = page_set(page)
+    return bool(PAGE_FORM.match(page)) and numbers is not None and 0 not in numbers
 SOURCES_LINE = re.compile(r"^\*\*Sources?:\*\*")
 TITLE_PREFIX = re.compile(r"^(pathfinder rpg|pathfinder roleplaying game|prpg) ")
 
@@ -445,6 +453,7 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
 BASIS: Counter[str] = Counter()
 PRINT: dict[tuple[str, str], str] = {}
 PRINT_NOTES: dict[tuple[str, str], str] = {}
+PRINT_WITHHELD: dict[tuple[str, str], str] = {}  # print looked and did not confirm the proposal
 QUEUED_DIFFERS: set[tuple[str, str]] = set()  # books the review queue already holds as book-differs
 PROPOSAL_ONLY: list[tuple[str, str, str]] = []
 
@@ -458,12 +467,14 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
     printed = PRINT.get((entry.id, pub))
     if printed:
         # A page read in print beats every proposal.
-        if not PAGE_FORM.match(printed):
+        if not page_ok(printed):
             return None, "page-format", printed, "the print-pages file gives a page in no known form"
         BASIS["print"] += 1
         if confident and not covers(printed, cpage):
             BASIS["print differs from proposal"] += 1
         return printed, None, "", ""
+    if (entry.id, pub) in PRINT_WITHHELD:
+        return None, "unconfirmed", cpage, PRINT_WITHHELD[(entry.id, pub)]
     if sib:
         if confident and not covers(sib, cpage) and not covers(cpage, sib):
             BASIS["sibling differs"] += 1
@@ -476,7 +487,7 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
             return None, "book-differs", "", "the reference lists the entry only in other books"
         return None, "no-proposal", "", ""
     if confident:
-        if not PAGE_FORM.match(cpage):
+        if not page_ok(cpage):
             return None, "page-format", cpage, ""
         BASIS["proposal only"] += 1
         PROPOSAL_ONLY.append((entry.id, pub, cpage))
@@ -586,6 +597,21 @@ def self_test() -> int:
         expect(("ref/trait/t1", "b", "book-differs") not in review_of(root), "the review line goes with the row")
         expect(run(root, *slice_args, "--check") == 0, "stable after the fill")
 
+        # A print line with no page withholds a proposal; page 0 is no page.
+        entry("t6", ["a", "b"])
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\nref/trait/t6\ta\t\tunconfirmed\tnot on the page\n",
+            encoding="utf-8",
+        )
+        cand6 = candidates([
+            ("ref/trait/t6", "a", "8", "confident", ""),
+            ("ref/trait/t6", "b", "0", "confident", ""),
+        ])
+        run(root, "--slice", "trait", "--candidates", str(cand6), "--write")
+        expect(rows_of(root, "t6") == [("a", None), ("b", None)], "a withheld proposal and page 0 give book-only rows")
+        expect(("ref/trait/t6", "a", "unconfirmed") in review_of(root), "unconfirmed is queued")
+        expect(("ref/trait/t6", "b", "page-format") in review_of(root), "page 0 is page-format")
+
         # An entry whose books are all book-differs keeps no rows, and a rerun without the
         # proposals file leaves it alone.
         entry("t5", ["a", "b"])
@@ -689,6 +715,7 @@ def reset_state() -> None:
     BASIS.clear()
     PRINT.clear()
     PRINT_NOTES.clear()
+    PRINT_WITHHELD.clear()
     QUEUED_DIFFERS.clear()
     PROPOSAL_ONLY.clear()
 
@@ -729,6 +756,10 @@ def main(argv: list[str] | None = None) -> int:
     print_path = opts.print_pages or root / PRINT_DEFAULT
     if print_path.exists():
         for key, row in load_candidates(print_path).items():
+            if not row["page"]:
+                # An empty page: print was searched and does not confirm the proposal.
+                PRINT_WITHHELD[key] = row.get("note") or "print does not confirm the proposed page"
+                continue
             PRINT[key] = row["page"]
             if row.get("note"):
                 PRINT_NOTES[key] = row["note"]
