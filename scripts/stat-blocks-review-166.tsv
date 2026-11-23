@@ -30,3 +30,50 @@ entries/monster/stygira.md	creature	print-254	blindsightParens: 120 ft. with gre
 entries/monster/triaxian.md	creature	print-254	othersubs: Triaxian
 entries/monster/waldgeist.md	creature	section-after-heading	2 Challenge rating lines
 entries/monster/water-elemental.md	creature	section-after-heading	6 Challenge rating lines
+entries/npc/arcanothief.md	npc	spell-header	**Sorcerer Spells Known** (CL 9th; concentration +12; arcane
+entries/npc/axe-lord.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/celestial-theurge.md	npc	spell-header	**Sorcerer Spells Known** (CL 6th; concentration +7; 25% spe
+entries/npc/champion-of-magic.md	npc	spell-header	**Sorcerer Spells Known** (CL 10th; concentration +13; arcan
+entries/npc/chaos-arrow.md	npc	spell-header	**Sorcerer Spells Known** (CL 11th; concentration +15; arcan
+entries/npc/crusader-holy-warrior.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/crusader-saint.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
+entries/npc/death-master.md	npc	spell-header	**Evoker Spells Prepared** (CL 12th; concentration +15; 15% 
+entries/npc/demon-hunter.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/desert-protector.md	npc	unlabelled-line	Aura courage (10 ft.), resolve (10 ft.)
+entries/npc/dog-rider-knight.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/dragon-smiter.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
+entries/npc/duergar-strandrider.md	npc	section-twice	Defense
+entries/npc/elven-honorblade.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
+entries/npc/forge-rider.md	npc	unlabelled-line	Aura courage (10 ft.), justice (10 ft.),
+entries/npc/furious-crusader.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/geb-blood-lord.md	npc	unlabelled-line	Aura fear aura (60 ft., DC 21)
+entries/npc/gem-sorcerer.md	npc	spell-header	**Sorcerer Spells Known** (CL 2nd; concentration +3; arcane 
+entries/npc/giant-hunter.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/god-caller.md	npc	section-twice	Defense
+entries/npc/green-warden.md	npc	spell-header	**Conjurer Spells Prepared** (CL 3rd; concentration +4; arca
+entries/npc/hammer-of-justice.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/haughty-avenger.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/holy-archer.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/holy-battle-mage.md	npc	spell-header	**Wizard Spells Prepared** (CL 15th; concentration +21; arca
+entries/npc/ice-mage.md	npc	spell-header	**Sorcerer Spells Known** (CL 14th, concentration +20)
+entries/npc/knight-of-ozem.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/mammoth-rider.md	npc	section-twice	Defense
+entries/npc/mithral-master.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/mithral-wizard.md	npc	spell-header	**Evoker Spells Prepared** (CL 17th; concentration +25, arca
+entries/npc/molthuni-commander.md	npc	section-twice	Defense
+entries/npc/mounted-paragon.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/noble-knight.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/pious-guard.md	npc	unlabelled-line	Aura courage (10 ft.), resolve (10 ft.)
+entries/npc/rider-of-the-steppe.md	npc	unlabelled-line	Aura courage (10 ft.), faith (10 ft.), j
+entries/npc/saintly-knight.md	npc	unlabelled-line	Aura courage (10 ft.), resolve (10 ft.)
+entries/npc/savage-plant-sage.md	npc	spell-header	**Druid Spells Prepared** (CL 4th; conc. +5)
+entries/npc/signifer-of-the-nail.md	npc	unlabelled-line	Aura aura of law
+entries/npc/skirmishing-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/temple-priest.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
+entries/npc/tournament-champion.md	npc	spell-header	**Sorcerer Spells Known** (CL 2nd; concentration +5; arcane 
+entries/npc/undead-bane.md	npc	spell-header	**Sorcerer Spells Known** (CL 6th; concentration +8; arcane 
+entries/npc/uskwood-druid.md	npc	section-twice	Defense
+entries/npc/vaultbreaker.md	npc	spell-header	**Transmuter Spells Prepared** (CL 11th; concentration +16; 
+entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Water
+entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
+entries/npc/winter-witch-baroness.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
