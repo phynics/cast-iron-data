@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vigilantes_reflexes", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "17"
 
 [fields]
 kind = "class_option"

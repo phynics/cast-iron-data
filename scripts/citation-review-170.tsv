@@ -1,4 +1,17 @@
 entry_id	kind	publication	reason	candidate_page	note
+ref/discovery/acid-bomb	class_option	advanced-players-guide	unconfirmed	29	only a short title is on the proposed page, which proves little
+ref/discovery/darkness-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
+ref/discovery/defoliant-bomb	class_option	advanced-race-guide	unconfirmed	44	only a short title is on the proposed page, which proves little
+ref/discovery/explosive-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
+ref/discovery/force-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
+ref/discovery/frost-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
+ref/discovery/glassfoot-bomb	class_option	advanced-race-guide	unconfirmed	205	only a short title is on the proposed page, which proves little
+ref/discovery/inferno-bomb	class_option	advanced-players-guide	unconfirmed	30	only a short title is on the proposed page, which proves little
+ref/discovery/poison-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
+ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a short title is on the proposed page, which proves little
+ref/discovery/shock-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
+ref/discovery/smoke-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
+ref/discovery/stink-bomb	class_option	advanced-players-guide	unconfirmed	31	only a short title is on the proposed page, which proves little
 ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/animal	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
 ref/domain/artifice	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
@@ -56,6 +69,50 @@ ref/domain/water	class_option	goblins-of-golarion	marker		paragraph agrees; it e
 ref/domain/water	class_option	inner-sea-gods	conflict		paragraph 226, row 225
 ref/domain/water	class_option	inner-sea-gods	marker		paragraph agrees; it ends the normal part
 ref/domain/weather	class_option	divine-anthology	marker		paragraph agrees; it ends the normal part
+ref/hex/cackle	class_option	magical-marketplace	book-differs		the reference lists the entry only in other books
+ref/hex/cackle	class_option	monster-summoners-handbook	book-differs		the reference lists the entry only in other books
+ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lists the entry only in other books
+ref/invtalent/domino-effect	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
+ref/invtalent/repositioning-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/sapping-offensive	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/sickening-offensive	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/slowing-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
+ref/invtalent/stealing-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/invtalent/timed-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
+ref/invtalent/toppling-strike	class_option	advanced-class-guide	unconfirmed	32	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/cairn-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/crag-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/fjord-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/greater-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-beast-totem	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-brawler	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-chaos-totem	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-elemental-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-elemental-rage	class_option	advanced-players-guide	unconfirmed	74	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-mount	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-ferocious-trample	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fey-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-fiend-totem	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-hurling	class_option	advanced-players-guide	unconfirmed	76	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-infernal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-spirit-totem	class_option	advanced-players-guide	unconfirmed	77	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/greater-undead-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/ice-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/lesser-abyssal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-celestial-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-draconic-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-elemental-rage	class_option	advanced-players-guide	unconfirmed	75	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-fey-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-hurling	class_option	advanced-players-guide	unconfirmed	76	only a short title is on the proposed page, which proves little
+ref/ragepower/lesser-infernal-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/lesser-undead-blood	class_option	advanced-class-guide	unconfirmed	80	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/ragepower/taiga-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/tarn-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/ragepower/tor-linnorm-death-curse	class_option	advanced-class-guide	no-page		
+ref/slayertalent/slowing-strike	class_option	advanced-class-guide	unconfirmed	53	only a short title is on the proposed page, which proves little
 ref/sorcbloodline/aberrant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/abyssal	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/aquatic	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
@@ -78,6 +135,14 @@ ref/sorcbloodline/starsoul	class_option	ultimate-magic	marker		paragraph agrees;
 ref/sorcbloodline/stormborn	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
+ref/talent/befuddling-strike	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/camouflage	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/deadly-sneak	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/entanglement-of-blades	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/master-of-disguise	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/offensive-defense	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/powerful-sneak	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/talent/survivalist	class_option	advanced-players-guide	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/carried/mythic-adventures/feats/ascendant-spell/mythic	feat	mythic-adventures	heading-form	55	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/marked-for-glory/mythic	feat	mythic-adventures	heading-form	69	base feat title on the cited page; the X, Mythic heading was not matched by the text scan
 ref/carried/mythic-adventures/feats/mythic-companion/mythic	feat	mythic-adventures	heading-form	70	base feat title on the cited page; the X, Mythic heading was not matched by the text scan

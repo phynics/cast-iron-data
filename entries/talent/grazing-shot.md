@@ -6,6 +6,9 @@ source_ids = ["agents-of-evil"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "grazing_shot", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "agents-of-evil"
+page = "24"
 
 [fields]
 kind = "class_option"

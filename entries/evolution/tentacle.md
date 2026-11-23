@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tentacle", path = "json/class_ability_evolutions.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "61"
 
 [fields]
 kind = "class_option"

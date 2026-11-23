@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "didactic_strike", path = "json/class_ability_investigator_talents.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "147"
 
 [fields]
 kind = "class_option"

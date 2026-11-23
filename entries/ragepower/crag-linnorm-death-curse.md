@@ -6,6 +6,8 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "crag_linnorm_death_curse", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
 
 [fields]
 kind = "class_option"
