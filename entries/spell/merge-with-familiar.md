@@ -9,7 +9,7 @@ provenance = [
 ]
 [[sources]]
 publication = "ultimate-wilderness"
-page = "231"
+page = "232"
 [[sources]]
 publication = "familiar-folio"
 page = "23"
