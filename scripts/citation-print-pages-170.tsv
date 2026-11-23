@@ -2491,6 +2491,7 @@ ref/affliction/empusa/lash-venom	planar-adventures	232	print
 ref/affliction/energized/miasma	construct-handbook	38	print		the poison is printed in the energized template's Caustic Mist ability on this page
 ref/affliction/fafnheir/curse-of-fafnheir	lands-of-the-linnorm-kings	56	print	
 ref/affliction/festrog/necrotic-boils	bestiary-3	115	print	
+ref/affliction/festrog/necrotic-boils	hungry-are-the-dead	30	print		the disease (necrotic boils) is described in the festrog's Squirt ability on this page, with its DC and incubation
 ref/affliction/fungal-creature/fungal-blood-or-flesh	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
 ref/affliction/fungal-creature/fungal-spores	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
 ref/affliction/gholdako/seaside-rot	bestiary-4	125	print	

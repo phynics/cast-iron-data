@@ -13,6 +13,7 @@ publication = "bestiary-3"
 page = "115"
 [[sources]]
 publication = "hungry-are-the-dead"
+page = "30"
 
 [fields]
 kind = "none"
