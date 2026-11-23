@@ -6,6 +6,12 @@ source_ids = ["spymasters-handbook", "adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "team_player", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "27"
+[[sources]]
+publication = "adventurers-guide"
+page = "42"
 
 [fields]
 kind = "class_option"

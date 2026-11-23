@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blighted_mark_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "17"
 
 [fields]
 kind = "class_option"

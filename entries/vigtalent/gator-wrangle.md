@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gator_wrangle", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "20"
 
 [fields]
 kind = "class_option"

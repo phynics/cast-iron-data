@@ -6,6 +6,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "one_of_those_faces", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "21"
 
 [fields]
 kind = "class_option"

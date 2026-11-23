@@ -6,6 +6,9 @@ source_ids = ["ranged-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "dirty_trick_trap", path = "json/class_ability_ranger_traps.json" },
 ]
+[[sources]]
+publication = "ranged-tactics-toolbox"
+page = "15"
 
 [fields]
 kind = "class_option"

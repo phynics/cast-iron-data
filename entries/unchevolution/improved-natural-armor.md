@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "improved_natural_armor", path = "json/class_ability_unchained_evolutions.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "35"
 
 [fields]
 kind = "class_option"

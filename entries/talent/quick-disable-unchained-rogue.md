@@ -6,6 +6,9 @@ source_ids = ["pathfinder-unchained"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "quick_disable_unchained_rogue", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
+page = "22"
 
 [fields]
 kind = "class_option"

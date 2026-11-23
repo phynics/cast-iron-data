@@ -6,6 +6,8 @@ source_ids = ["paths-of-the-righteous"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aurora", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "paths-of-the-righteous"
 
 [fields]
 kind = "class_option"

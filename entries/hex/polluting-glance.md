@@ -6,6 +6,9 @@ source_ids = ["people-of-the-wastes"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polluting_glance", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "people-of-the-wastes"
+page = "21"
 
 [fields]
 kind = "class_option"

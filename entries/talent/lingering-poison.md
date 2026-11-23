@@ -6,6 +6,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "lingering_poison", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "13"
 
 [fields]
 kind = "class_option"

@@ -3572,3 +3572,341 @@ ref/talent/sneaky-maneuver	magical-marketplace	26	print-offset		offset +2: the t
 ref/discovery/blackstar-bomb	monster-codex	32	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)
 ref/discovery/void-bomb	monster-codex	32	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)
 ref/oraclecurse/infested	monster-codex	104	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)
+ref/arcanedisc/observant-illusion	spymasters-handbook	23	print		
+ref/deed/bleeding-wound	ultimate-combat	12	print		
+ref/deed/cheat-death	ultimate-combat	12	print		
+ref/deed/dead-shot	ultimate-combat	11	print		
+ref/deed/deadeye	ultimate-combat	10	print		
+ref/deed/deaths-shot	ultimate-combat	12	print		
+ref/deed/evasive	ultimate-combat	12	print		
+ref/deed/expert-loading	ultimate-combat	12	print		
+ref/deed/gunslinger-initiative	ultimate-combat	10	print		
+ref/deed/gunslingers-dodge	ultimate-combat	10	print		
+ref/deed/lightning-reload	ultimate-combat	12	print		
+ref/deed/menacing-shot	ultimate-combat	12	print		
+ref/deed/pistol-whip	ultimate-combat	11	print		
+ref/deed/quick-clear	ultimate-combat	10	print		
+ref/deed/slingers-luck	ultimate-combat	12	print		
+ref/deed/startling-shot	ultimate-combat	11	print		
+ref/deed/stunning-shot	ultimate-combat	12	print		
+ref/deed/utility-shot	ultimate-combat	11	print		
+ref/discovery/breath-weapon-bomb	ultimate-combat	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/discovery/designer-poison	potions-and-poisons	9	print		
+ref/discovery/enduring-toxin	potions-and-poisons	9	print		
+ref/discovery/explosive-missile	ultimate-combat	24	print		
+ref/discovery/glimmering-infusion	spymasters-handbook	21	print		
+ref/discovery/immolation-bomb	ultimate-combat	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/discovery/lasting-tinctures	potions-and-poisons	9	print		
+ref/discovery/nauseating-flesh	ultimate-combat	24	print		
+ref/discovery/poison-conversion	ultimate-combat	24	print		
+ref/discovery/siege-bomb	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/aeon	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/agathion	pathfinder-unchained		unconfirmed	the name is a heading only on page 214, far from the proposed page 29; which one prints the option is not settled	
+ref/eidolon/angel	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/archon	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/astral	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/azata	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/daemon	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/demon	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 31; which one prints the option is not settled	
+ref/eidolon/devil	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/div	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 32; which one prints the option is not settled	
+ref/eidolon/elemental	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/inevitable	pathfinder-unchained		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/protean	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 33; which one prints the option is not settled	
+ref/eidolon/psychopomp	pathfinder-unchained		unconfirmed	the name is a heading only on page 215, far from the proposed page 34; which one prints the option is not settled	
+ref/eidolon/radiant	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/storykin	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/void	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/hex/congeal	people-of-the-wastes	21	print		
+ref/hex/deathcall	qadira-jewel-of-the-east	15	print		
+ref/hex/gift-of-consumption	potions-and-poisons	10	print		
+ref/hex/greater-gift-of-consumption	potions-and-poisons	10	print		
+ref/hex/murksight	people-of-the-wastes	21	print		
+ref/hex/pollute-water	people-of-the-wastes	21	print		
+ref/hex/polluting-glance	people-of-the-wastes	21	print		
+ref/hex/restless-slumber	potions-and-poisons	10	print		
+ref/hex/sink	people-of-the-wastes	21	print		
+ref/hex/withering	potions-and-poisons	11	print		proposal 10, print 11: heading on exactly one page within two pages of the proposal
+ref/invtalent/anathema	potions-and-poisons	15	print		
+ref/invtalent/greater-anathema	potions-and-poisons	15	print		
+ref/invtalent/lingering-venom	potions-and-poisons	15	print		
+ref/invtalent/one-of-those-faces	spymasters-handbook	21	print		
+ref/invtalent/scrying-familiarity	spymasters-handbook	23	print		
+ref/kipower/abundant-step	pathfinder-unchained	16	print		
+ref/kipower/cobra-breath	pathfinder-unchained	16	print		
+ref/kipower/diamond-body	pathfinder-unchained	16	print		
+ref/kipower/diamond-mind	pathfinder-unchained	16	print		
+ref/kipower/diamond-resilience	pathfinder-unchained	16	print		
+ref/kipower/diamond-soul	pathfinder-unchained	16	print		
+ref/kipower/elemental-burst	pathfinder-unchained	16	print		
+ref/kipower/elemental-fury	pathfinder-unchained	16	print		
+ref/kipower/empty-body	pathfinder-unchained	16	print		
+ref/kipower/feather-balance	pathfinder-unchained	17	print		
+ref/kipower/formless-mastery	pathfinder-unchained	17	print		
+ref/kipower/furious-defense	pathfinder-unchained	17	print		
+ref/kipower/high-jump	pathfinder-unchained	17	print		
+ref/kipower/insightful-wisdom	pathfinder-unchained	17	print		
+ref/kipower/ki-blocker	pathfinder-unchained	17	print		
+ref/kipower/ki-guardian	pathfinder-unchained	17	print		
+ref/kipower/ki-hurricane	pathfinder-unchained	17	print		
+ref/kipower/ki-metabolism	pathfinder-unchained	17	print		
+ref/kipower/ki-mount	pathfinder-unchained	17	print		
+ref/kipower/ki-range	pathfinder-unchained	17	print		
+ref/kipower/ki-visions	pathfinder-unchained	17	print		
+ref/kipower/ki-volley	pathfinder-unchained	18	print		
+ref/kipower/light-steps	pathfinder-unchained	18	print		
+ref/kipower/one-touch	pathfinder-unchained	18	print		
+ref/kipower/qinggong-power	pathfinder-unchained	18	print		
+ref/kipower/quivering-palm	pathfinder-unchained	18	print		
+ref/kipower/slow-fall	pathfinder-unchained	18	print		
+ref/kipower/sudden-speed	pathfinder-unchained	18	print		
+ref/kipower/water-sprint	pathfinder-unchained	18	print		
+ref/kipower/wholeness-of-body	pathfinder-unchained	18	print		
+ref/kipower/wind-jump	pathfinder-unchained	18	print		
+ref/ninjatrick/acrobatic-master	ultimate-combat	14	print		
+ref/ninjatrick/advanced-talent	ultimate-combat		unconfirmed	the name is a heading only on page 32, far from the proposed page 16; which one prints the option is not settled	
+ref/ninjatrick/assassinate	ultimate-combat	16	print		
+ref/ninjatrick/bleeding-attack	ultimate-combat	14	print		title text only (no heading form): the name is on page 14 and on none of the two pages each side
+ref/ninjatrick/blinding-bomb	ultimate-combat	17	print		
+ref/ninjatrick/choking-bomb	ultimate-combat	15	print		
+ref/ninjatrick/combat-trick	ultimate-combat	15	print		
+ref/ninjatrick/darkvision	ultimate-combat	15	print		
+ref/ninjatrick/deadly-range	ultimate-combat	15	print		
+ref/ninjatrick/deadly-shuriken	ultimate-combat	17	print		
+ref/ninjatrick/deflect-arrows	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/evasion	ultimate-combat	17	print		
+ref/ninjatrick/fast-stealth	ultimate-combat	15	print		
+ref/ninjatrick/feat	ultimate-combat	17	print		
+ref/ninjatrick/feather-fall	ultimate-combat	15	print		
+ref/ninjatrick/flurry-of-stars	ultimate-combat	15	print		
+ref/ninjatrick/forgotten-trick	ultimate-combat	15	print		
+ref/ninjatrick/ghost-step	ultimate-combat	17	print		
+ref/ninjatrick/hidden-weapons	ultimate-combat	15	print		
+ref/ninjatrick/high-jumper	ultimate-combat	15	print		
+ref/ninjatrick/invisible-blade	ultimate-combat	17	print		
+ref/ninjatrick/ki-block	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/ki-charge	ultimate-combat	15	print		
+ref/ninjatrick/master-disguise	ultimate-combat	17	print		
+ref/ninjatrick/poison-bomb	ultimate-combat	15	print		
+ref/ninjatrick/pressure-points	ultimate-combat	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
+ref/ninjatrick/rogue-talent	ultimate-combat	15	print		
+ref/ninjatrick/see-the-unseen	ultimate-combat	17	print		
+ref/ninjatrick/shadow-clone	ultimate-combat	15	print		
+ref/ninjatrick/shadow-split	ultimate-combat	17	print		
+ref/ninjatrick/slow-metabolism	ultimate-combat	15	print		
+ref/ninjatrick/slow-reactions	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/smoke-bomb	ultimate-combat	16	print		
+ref/ninjatrick/snatch-arrows	ultimate-combat	16	print		
+ref/ninjatrick/style-master	ultimate-combat	16	print		
+ref/ninjatrick/sudden-disguise	ultimate-combat	16	print		
+ref/ninjatrick/unarmed-combat-mastery	ultimate-combat	17	print		
+ref/ninjatrick/unarmed-combat-training	ultimate-combat	16	print		
+ref/ninjatrick/unbound-steps	ultimate-combat	17	print		
+ref/ninjatrick/undetected-sabotage	ultimate-combat	16	print		
+ref/ninjatrick/vanishing-trick	ultimate-combat	16	print		
+ref/ninjatrick/ventriloquism	ultimate-combat	16	print		
+ref/ninjatrick/wall-climber	ultimate-combat	16	print		
+ref/ninjatrick/weapon-training	ultimate-combat	16	print		
+ref/patron/aurora	paths-of-the-righteous		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/accurate-stance	pathfinder-unchained	9	print		
+ref/ragepower/auspicious-mark	ultimate-combat	26	print		
+ref/ragepower/bestial-climber	ultimate-combat	26	print		
+ref/ragepower/bestial-leaper	ultimate-combat	26	print		
+ref/ragepower/bestial-swimmer	ultimate-combat	26	print		
+ref/ragepower/bleeding-blow	ultimate-combat	26	print		
+ref/ragepower/body-bludgeon	ultimate-combat	26	print		
+ref/ragepower/calm-stance	pathfinder-unchained	9	print		
+ref/ragepower/crippling-blow	ultimate-combat	26	print		
+ref/ragepower/deadly-accuracy	ultimate-combat	26	print		
+ref/ragepower/dragon-totem-resilience	ultimate-combat	27	print		
+ref/ragepower/dragon-totem-wings	ultimate-combat	27	print		
+ref/ragepower/dragon-totem	ultimate-combat	26	print		
+ref/ragepower/eater-of-magic	ultimate-combat	27	print		
+ref/ragepower/elemental-stance	pathfinder-unchained	10	print		
+ref/ragepower/ghost-rager	ultimate-combat	27	print		
+ref/ragepower/greater-ground-breaker	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-guarded-life	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-sun-totem	qadira-jewel-of-the-east		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/guarded-stance-stance	pathfinder-unchained	11	print		
+ref/ragepower/hive-totem-resilience	ultimate-combat	27	print		
+ref/ragepower/hive-totem-toxicity	ultimate-combat	27	print		
+ref/ragepower/hive-totem	ultimate-combat	27	print		
+ref/ragepower/knockdown-stance	pathfinder-unchained	11	print		
+ref/ragepower/lesser-sun-totem	qadira-jewel-of-the-east	29	print		title text only (no heading form): the name is on page 29 and on none of the two pages each side
+ref/ragepower/lethal-accuracy	ultimate-combat	27	print		
+ref/ragepower/perfect-clarity	ultimate-combat	27	print		proposal 28, print 27: heading on exactly one page within two pages of the proposal
+ref/ragepower/powerful-stance	pathfinder-unchained	11	print		
+ref/ragepower/primal-scent	ultimate-combat	27	print		proposal 28, print 27: heading on exactly one page within two pages of the proposal
+ref/ragepower/reckless-stance	pathfinder-unchained	12	print		
+ref/ragepower/reflexive-dodge	ultimate-combat	27	print		title text only (no heading form): the name is on the proposed page (27) and on 27,29; the row keeps the proposal
+ref/ragepower/regenerative-stance	pathfinder-unchained	12	print		
+ref/ragepower/regenerative-vigor	ultimate-combat	28	print		
+ref/ragepower/renewed-life	ultimate-combat	28	print		
+ref/ragepower/renewed-vitality	ultimate-combat	28	print		
+ref/ragepower/sharpened-accuracy	ultimate-combat	28	print		
+ref/ragepower/spell-sunder	ultimate-combat	28	print		
+ref/ragepower/sprint	ultimate-combat	28	print		
+ref/ragepower/strength-stance	pathfinder-unchained	12	print		
+ref/ragepower/sun-totem	qadira-jewel-of-the-east	29	print		
+ref/ragepower/sunder-enchantment	ultimate-combat	28	print		
+ref/ragepower/taunting-stance	pathfinder-unchained	12	print		
+ref/ragepower/world-serpent-spirit	ultimate-combat	28	print		
+ref/ragepower/world-serpent-totem-unity	ultimate-combat	28	print		
+ref/ragepower/world-serpent-totem	ultimate-combat	28	print		
+ref/rangertrap/blighted-mark-trap	people-of-the-wastes	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
+ref/rangertrap/cleansing-trap	people-of-the-wastes		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/infected-snare-trap	people-of-the-wastes	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
+ref/slayertalent/focused-poison	potions-and-poisons	13	print		
+ref/slayertalent/one-of-those-faces	spymasters-handbook	21	print		
+ref/slayertalent/redirect-poison	potions-and-poisons	13	print		
+ref/slayertalent/scrying-familiarity	spymasters-handbook	23	print		
+ref/soctalent/entrepreneur	spymasters-handbook	26	print		
+ref/soctalent/guise-of-life	spymasters-handbook	26	print		
+ref/soctalent/guise-of-unlife	spymasters-handbook	26	print		
+ref/soctalent/intrigue-feats	spymasters-handbook	27	print		
+ref/soctalent/well-known-expert	spymasters-handbook	27	print		
+ref/stylestrike/defensive-spin	pathfinder-unchained	18	print		
+ref/stylestrike/elbow-smash	pathfinder-unchained	18	print		
+ref/stylestrike/flying-kick	pathfinder-unchained	19	print		
+ref/stylestrike/foot-stomp	pathfinder-unchained	19	print		
+ref/stylestrike/hammerblow	pathfinder-unchained	19	print		
+ref/stylestrike/head-butt	pathfinder-unchained	19	print		
+ref/stylestrike/knockback-kick	pathfinder-unchained	19	print		
+ref/stylestrike/leg-sweep	pathfinder-unchained	19	print		
+ref/stylestrike/shattering-punch	pathfinder-unchained	19	print		
+ref/stylestrike/spin-kick	pathfinder-unchained	19	print		
+ref/talent/accurate-poisoner	potions-and-poisons	13	print		
+ref/talent/black-market-connections	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/certainty	pathfinder-unchained	21	print		
+ref/talent/coax-information-unchained-rogue	pathfinder-unchained	21	print		
+ref/talent/confounding-blades	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/convincing-lie	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/cutting-edge	pathfinder-unchained	23	print		
+ref/talent/deadly-sneak-unchained-rogue	pathfinder-unchained	23	print		title text only (no heading form): the name is on page 23 and on none of the two pages each side
+ref/talent/deft-palm	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/double-debilitation	pathfinder-unchained	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
+ref/talent/esoteric-scholar	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/expert-leaper-unchained-rogue	pathfinder-unchained	21	print		
+ref/talent/familiar	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/firearm-training	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/getaway-artist	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/getaway-master	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/greater-multitalented	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/greater-terrain-mastery	pathfinder-unchained		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/grit	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/hard-minded	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/hide-in-plain-sight	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
+ref/talent/hold-breath	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/iron-guts	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
+ref/talent/ki-pool	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/lasting-poison-unchained-rogue	pathfinder-unchained	21	print		
+ref/talent/ledge-walker-unchained-rogue	pathfinder-unchained	22	print		
+ref/talent/light-walker	pathfinder-unchained	24	print		
+ref/talent/lingering-poison	potions-and-poisons	13	print		
+ref/talent/master-tricks	ultimate-combat	71	print		
+ref/talent/multitalented	pathfinder-unchained	22	print		
+ref/talent/nimble-climber	pathfinder-unchained	22	print		
+ref/talent/ninja-trick	ultimate-combat	70	print		
+ref/talent/one-of-those-faces	spymasters-handbook	21	print		
+ref/talent/powerful-sneak-unchained-rogue	pathfinder-unchained	22	print		title text only (no heading form): the name is on the proposed page (22) and on 22,23; the row keeps the proposal
+ref/talent/quick-disable-unchained-rogue	pathfinder-unchained	22	print		
+ref/talent/quick-shot	pathfinder-unchained	24	print		
+ref/talent/rogue-crawl-unchained-rogue	pathfinder-unchained	22	print		
+ref/talent/rope-master	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/rumormonger	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
+ref/talent/scrying-familiarity	spymasters-handbook	23	print		
+ref/talent/signature-poison	potions-and-poisons	13	print		
+ref/talent/skill-mastery-unchained-rogue	pathfinder-unchained	24	print		
+ref/talent/stand-up-unchained-rogue	pathfinder-unchained	22	print		
+ref/talent/strong-stroke	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/suppress-poison	potions-and-poisons	13	print		
+ref/talent/surprise-attack-unchained-rogue	pathfinder-unchained	22	print		
+ref/talent/terrain-mastery	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/toxic-regurgitation	potions-and-poisons	13	print		
+ref/talent/underhanded	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/unwitting-ally	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
+ref/talent/wall-scramble	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
+ref/talent/weapon-snatcher	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
+ref/unchevolution/ability-increase	pathfinder-unchained	36	print		
+ref/unchevolution/bite	pathfinder-unchained	35	print		
+ref/unchevolution/blindsense	pathfinder-unchained	38	print		
+ref/unchevolution/blindsight	pathfinder-unchained	38	print		
+ref/unchevolution/breath-weapon	pathfinder-unchained	38	print		
+ref/unchevolution/burrow	pathfinder-unchained	38	print		
+ref/unchevolution/claws	pathfinder-unchained	35	print		
+ref/unchevolution/climb	pathfinder-unchained	35	print		
+ref/unchevolution/constrict	pathfinder-unchained	36	print		
+ref/unchevolution/damage-reduction	pathfinder-unchained	38	print		
+ref/unchevolution/energy-attacks	pathfinder-unchained	36	print		
+ref/unchevolution/fast-healing	pathfinder-unchained	38	print		
+ref/unchevolution/flight	pathfinder-unchained	37	print		
+ref/unchevolution/frightful-presence	pathfinder-unchained	38	print		
+ref/unchevolution/gills	pathfinder-unchained	35	print		
+ref/unchevolution/gore	pathfinder-unchained	37	print		
+ref/unchevolution/grab	pathfinder-unchained	37	print		
+ref/unchevolution/immunity	pathfinder-unchained	37	print		
+ref/unchevolution/improved-damage	pathfinder-unchained	35	print		
+ref/unchevolution/improved-natural-armor	pathfinder-unchained	35	print		
+ref/unchevolution/large	pathfinder-unchained	39	print		
+ref/unchevolution/limbs	pathfinder-unchained	37	print		
+ref/unchevolution/magic-attacks	pathfinder-unchained	35	print		
+ref/unchevolution/mount	pathfinder-unchained	35	print		
+ref/unchevolution/pincers	pathfinder-unchained	35	print		
+ref/unchevolution/poison	pathfinder-unchained	37	print		
+ref/unchevolution/pounce	pathfinder-unchained	38	print		
+ref/unchevolution/pull	pathfinder-unchained	35	print		
+ref/unchevolution/push	pathfinder-unchained	35	print		
+ref/unchevolution/rake	pathfinder-unchained	37	print		
+ref/unchevolution/reach	pathfinder-unchained	36	print		
+ref/unchevolution/rend	pathfinder-unchained	37	print		
+ref/unchevolution/resistance	pathfinder-unchained	36	print		
+ref/unchevolution/scent	pathfinder-unchained	36	print		
+ref/unchevolution/skilled	pathfinder-unchained	36	print		
+ref/unchevolution/slam	pathfinder-unchained	36	print		
+ref/unchevolution/spell-resistance	pathfinder-unchained	39	print		
+ref/unchevolution/sting	pathfinder-unchained	36	print		
+ref/unchevolution/swallow-whole	pathfinder-unchained	38	print		
+ref/unchevolution/swim	pathfinder-unchained	36	print		
+ref/unchevolution/tail-slap	pathfinder-unchained	36	print		
+ref/unchevolution/tail	pathfinder-unchained	36	print		
+ref/unchevolution/tentacle	pathfinder-unchained	36	print		
+ref/unchevolution/trample	pathfinder-unchained	37	print		
+ref/unchevolution/tremorsense	pathfinder-unchained	37	print		
+ref/unchevolution/trip	pathfinder-unchained	37	print		
+ref/unchevolution/weapon-training	pathfinder-unchained	37	print		
+ref/unchevolution/web	pathfinder-unchained	38	print		
+ref/unchevolution/wing-buffet	pathfinder-unchained	36	print		
+ref/vigtalent/aquatic-action	people-of-the-wastes	20	print		
+ref/vigtalent/concealed-strike	spymasters-handbook	27	print		
+ref/vigtalent/fantastic-stride	spymasters-handbook	27	print		
+ref/vigtalent/gator-wrangle	people-of-the-wastes	20	print		
+ref/vigtalent/major-magic	spymasters-handbook	27	print		
+ref/vigtalent/minor-magic	spymasters-handbook	27	print		
+ref/vigtalent/mockery	spymasters-handbook	27	print		
+ref/vigtalent/swamp-concoctions	people-of-the-wastes	21	print		
+ref/vigtalent/take-em-alive	spymasters-handbook	27	print		
+ref/vigtalent/team-player	spymasters-handbook	27	print		
+ref/vigtalent/team-player	adventurers-guide	42	print		
+ref/vigtalent/vortex-splash	people-of-the-wastes	21	print		
+ref/arcanedisc/ioun-bond	people-of-the-river	9	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/arcanedisc/knowledge-is-power	people-of-the-river	9	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/arcanedisc/time-stutter	people-of-the-river	9	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/ragepower/breathtaker	people-of-the-river	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/ragepower/gearbreaker	people-of-the-river	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/ragepower/raging-grappler	people-of-the-river	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/ragepower/water-sense	people-of-the-river	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 10 = printed p. 8 (The Vessel Between)
+ref/hex/harrowing-curse	the-harrow-handbook	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/hex/soothsayer	the-harrow-handbook	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/card-sharp	the-harrow-handbook	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/demon-lantern	the-harrow-handbook	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/grig-jig	the-harrow-handbook	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/harrow-strike	the-harrow-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/papercraft-tools	the-harrow-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/talent/rapid-boost	the-harrow-handbook	21	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 17 = printed p. 15 (Harrowing Curse)
+ref/rangertrap/bludgeoning-trap	ranged-tactics-toolbox	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/rangertrap/decoy-trap	ranged-tactics-toolbox	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/rangertrap/dirty-trick-trap	ranged-tactics-toolbox	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/rangertrap/summoned-ally-trap	ranged-tactics-toolbox	15	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/talent/bomber	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/talent/bombers-discovery	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
+ref/talent/without-a-trace	ranged-tactics-toolbox	7	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 9 = printed p. 7 (Bomber)
