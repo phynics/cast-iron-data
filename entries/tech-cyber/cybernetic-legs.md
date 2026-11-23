@@ -28,7 +28,11 @@ Implantation: 4
 
 ### Construction
 
-**Craft DC** 25; **Cost** 4,250 gp\
+::: statblock
+Craft DC: 25
+Cost: 4,250 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place
