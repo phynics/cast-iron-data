@@ -32,77 +32,61 @@ abilities = ["12", "15", "16", "3", "12", "11"]
 _This hairless blue lion has twin tentacular tails. Dozens more thick tentacles quiver and twitch
 where its mane should be._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: aberration
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 120 ft., Scent
+Experience points: 400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 15 (2d8+6)
+Fort: +3
+Ref: +2
+Will: +4
+Defensive abilities: no breath
+Immune: cold, disease, poison
+Resist: fire 30
+Weaknesses: [deaf](ref/misc/deafened), vulnerable to salt water
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +2 (1d6+1 plus void bite), 2 tentacles -3 (1d3)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 120 ft., Scent
+::: statblock
+Ability scores: Str 12, Dex 15, Con 16, Int 3, Wis 12, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Improved Initiative
+Skills: Acrobatics +6 (+10 jump), Climb +9, Stealth +10
+Racial Modifiers: +4 Stealth
+Special qualities: hibernation
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 15 (2d8+6)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +4
-
-**Defensive abilities:** no breath
-
-**Immune:** cold, disease, poison
-
-**Resist:** fire 30
-
-**Weaknesses:** [deaf](ref/misc/deafened), vulnerable to salt water
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +2 (1d6+1 plus void bite), 2 tentacles -3 (1d3)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 16, Int 3, Wis 12, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Improved Initiative
-
-**Skills:** Acrobatics +6 (+10 jump), Climb +9, Stealth +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Special qualities:** hibernation
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (3-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (3-30)
+Treasure: Standard
+:::
 
 ### Special Abilities
 
@@ -139,13 +123,11 @@ soon awoke to seek out suitable hosts to spawn their young. Left untended, an ak
 quickly grow into a significant threat. A typical akata stands 3-1/2 feet tall and weighs 400
 pounds.
 
-**Void Zombie**
-
-**Acquired:** present
-
-**Challenge rating:** +1
-
-**Source:** Bestiary 2/22;Pathfinder \#14: Children of the Void/80
+::: statblock
+title = "Void Zombie"
+Acquired: present
+Challenge rating: +1
+:::
 
 A humanoid killed by void death becomes a void zombie. A void zombie is a
 [fast zombie](ref/template/zombie) that gains a secondary "tongue" attack (actually the larval
