@@ -363,6 +363,13 @@ trap is prose, so the sentence rule is off for it), and the empty `Effects` row 
 Where the import dropped the bold of a label (`Type** mechanical; Perception DC 20`), the label stays
 inside the value as printed.
 
+`techcons` (`tech-*`, 250 entries; applied to one folder at a time, `VARIANT_ONLY`): the
+Construction of a technological item prints `**Craft DC** 21; **Cost** 4,000 gp` and then a line
+with no label (`Craft Technological Item, …`, and the lab). Owner ruling 3 (amending item ruling
+10): `Craft DC` and `Cost` become one untitled block under `### Construction`, which stays, and the
+line without a label stays a paragraph below it, unchanged. No `Requirements` label is added.
+The block carries no drift label.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -2089,8 +2096,22 @@ def plan_trap(cs: list[list[str]]) -> dict[int, dict]:
     return chosen
 
 
+def plan_techcons(cs: list[list[str]]) -> dict[int, dict]:
+    """K-techcons (owner ruling 3 of 2026-11-23). The paragraph directly under `### Construction`
+    of a technological item that opens with `**Craft DC**`: its labelled lines (`Craft DC` and
+    `Cost`) become one untitled block under the heading, which stays; the line without a label
+    (`Craft Technological Item, …` and the lab) stays a paragraph below the block, unchanged. No
+    `Requirements` label is added."""
+    return {
+        index: {"tail": True}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["### Construction"] and chunk[0].startswith("**Craft DC**")
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "techcons": (("tech-armor", "tech-artifact", "tech-cyber", "tech-misc", "tech-pharma", "tech-weapon"), plan_techcons, ()),
     "trap": (("eq-misc",), plan_trap, ()),
     "cost": (("eq-weapon", "magic-fleshcraft"), plan_cost, ()),
     "figurine": (("magic-wondrous",), plan_figurine, ()),
@@ -2103,10 +2124,12 @@ VARIANT_KINDS = {
 }
 VARIANT_PLANS = {name: plan for name, (_, plan, _) in VARIANT_KINDS.items()}
 VARIANT_COMMAS = {name: commas for name, (_, _, commas) in VARIANT_KINDS.items()}
+# The kinds applied to one slice of their folders so far: name -> the `--only` value of the slice.
+VARIANT_ONLY: dict[str, str] = {"techcons": "tech-pharma"}
 for _name, (_folders, _, _) in VARIANT_KINDS.items():
     PASS_FOLDERS[_name] = _folders
     PASS_KIND[_name] = "item"
-    APPLIED.append((_name, None))
+    APPLIED.append((_name, VARIANT_ONLY.get(_name)))
 KNOWN_PASSES = KNOWN_PASSES[:-1] + tuple(VARIANT_KINDS) + ("fixes",)
 
 
@@ -2622,6 +2645,8 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
     for name in passes:
         for path in pass_files(root, name):
+            if name in VARIANT_ONLY and not selected(path, parse_only(VARIANT_ONLY[name])):
+                continue  # the kind is applied to one slice; the other folders are not in its queue yet
             rel = path.relative_to(root).as_posix()
             text = path.read_text(encoding="utf-8")
             if name == "sources":
@@ -2739,7 +2764,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3895,6 +3920,38 @@ class TrapSelfTest(unittest.TestCase):
         self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Save"))
         poison = "\n**Type** poison, injury; **Save** Fortitude DC 14\\\n**Onset** 1 minute\n"
         self.assertEqual(classify_variant(plan_trap, poison), "already")
+
+
+class TechconsSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nPrice: 2,000 gp\n:::\n\nA gadget.\n\n### Construction\n\n**Craft DC** 21; **Cost** 1,000 gp\\\n"
+        "[Craft Technological Item](ref/feat/craft-technological-item),\n[Technologist](ref/feat/technologist)\n"
+    )
+
+    def test_craft_dc_and_cost_become_the_block_and_the_unlabelled_line_stays_below_unchanged(self):
+        new = convert_variants(self.BODY, plan_techcons)
+        self.assertTrue(new.endswith(
+            "### Construction\n\n::: statblock\nCraft DC: 21\nCost: 1,000 gp\n:::\n\n"
+            "[Craft Technological Item](ref/feat/craft-technological-item),\n[Technologist](ref/feat/technologist)\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_techcons, new), "already")
+
+    def test_values_that_list_variants_and_a_second_labelled_line_read_as_printed(self):
+        body = self.BODY.replace(
+            "**Craft DC** 21; **Cost** 1,000 gp\\\n",
+            "**Craft DC**\nDC 21 (red), DC 23 (white)\\\n**Cost**\n1,000 gp (red), 1,200 gp (white)\\\n",
+        )
+        new = convert_variants(body, plan_techcons)
+        self.assertIn("Craft DC: DC 21 (red), DC 23 (white)\nCost: 1,000 gp (red), 1,200 gp (white)\n:::\n\n[Craft", new)
+
+    def test_a_paragraph_with_no_unlabelled_line_is_the_whole_block(self):
+        only = "\n### Construction\n\n**Craft DC** 21; **Cost** 1 gp\n"
+        self.assertEqual(convert_variants(only, plan_techcons), "\n### Construction\n\n::: statblock\nCraft DC: 21\nCost: 1 gp\n:::\n")
+
+    def test_a_value_that_reads_as_sentences_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Cost** 1,000 gp", "**Cost** Paid in full. It is cheap"), plan_techcons)
+        self.assertEqual(caught.exception.reason, "sentences-in-variant")
 
 
 class SourcesSelfTest(unittest.TestCase):

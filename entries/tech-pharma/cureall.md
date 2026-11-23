@@ -22,7 +22,11 @@ Price: 1,400 gp
 
 ### Construction
 
-**Craft DC** 25; **Cost** 700 gp\
+::: statblock
+Craft DC: 25
+Cost: 700 gp
+:::
+
 [Craft Pharmaceutical](ref/feat/craft-pharmaceutical), [medical lab](ref/rule/crafting-laboratories)
 
 A dose of cureall allows the target to attempt an additional saving throw against a single disease
