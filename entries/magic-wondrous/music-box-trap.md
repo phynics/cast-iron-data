@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 20,160 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 20,160 gp
+Weight: 2 lbs.
+:::
 
 A silhouette of a miniature Varisian dancer graces the center of this simple music box. When opened,
 the music box plays a delicate tune only a few notes long. Although worth 200 gp as a work of art,
@@ -45,5 +50,7 @@ the next creature to open the box.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[permanency](ref/spell/permanency), [spite](ref/spell/spite); **Cost** 10,180 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [permanency](ref/spell/permanency), [spite](ref/spell/spite)
+Cost: 10,180 gp
+:::

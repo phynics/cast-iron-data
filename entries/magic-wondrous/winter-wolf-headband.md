@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** headband; **Price** 32,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: headband
+Price: 32,000 gp
+Weight: 1 lb.
+:::
 
 Crafted of pale bone or silver, this headband features a snarling wolf's head centered on the
 wearer's forehead. The wearer gains cold resistance 10. Once per day, the wearer may transform into
@@ -31,6 +36,7 @@ wearer may use this breath weapon even when transformed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape II](ref/spell/beast-shape-2), [dragon's breath](ref/spell/dragons-breath),
-[resist energy](ref/spell/resist-energy); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape II](ref/spell/beast-shape-2), [dragon's breath](ref/spell/dragons-breath), [resist energy](ref/spell/resist-energy)
+Cost: 16,000 gp
+:::

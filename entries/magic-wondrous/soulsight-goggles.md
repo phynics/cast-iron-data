@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: eyes
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 This set of goggles is engraved with geometric patterns and arcane runes. The wearer can immediately
 see and discern magical auras within 60 feet, as _[arcane sight](ref/spell/arcane-sight)._ In
@@ -39,5 +44,7 @@ ability to discern magical auras while amplified.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane sight](ref/spell/arcane-sight), [true seeing](ref/spell/true-seeing); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane sight](ref/spell/arcane-sight), [true seeing](ref/spell/true-seeing)
+Cost: 7,500 gp
+:::

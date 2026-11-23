@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 6,300 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 6,300 gp
+Weight: -
+:::
 
 This whistle emits a loud, shrill note. Once per day when the user blows this whistle his mount or
 animal companion is instantly teleported to a safe space of the user's choice that's within 30 feet
@@ -32,5 +37,7 @@ mount or animal companion at will.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[teleport](ref/spell/teleport); **Cost** 3,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [teleport](ref/spell/teleport)
+Cost: 3,150 gp
+:::

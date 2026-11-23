@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** neck; **Price** 34,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: neck
+Price: 34,000 gp
+Weight: -
+:::
 
 Platinum filigree wraps around this small, spiral-shell amulet, which hangs on an ornate chain that
 resembles entwined tentacles. Enchantment spells and effects created by the wearer of a masters'
@@ -38,6 +43,7 @@ negates).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate person](ref/spell/dominate-person), [modify memory](ref/spell/modify-memory); **Cost**
-17,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate person](ref/spell/dominate-person), [modify memory](ref/spell/modify-memory)
+Cost: 17,000 gp
+:::

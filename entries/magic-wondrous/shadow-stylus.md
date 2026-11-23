@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion; **CL** 12th\
-**Slot** none; **Price** 48,000 gp; **Weight** -
+::: statblock
+Aura: strong illusion
+CL: 12th
+Slot: none
+Price: 48,000 gp
+Weight: -
+:::
 
 A shadow stylus can create a doorway between the Material Plane and the
 [Shadow Plane](ref/rule/shadow-plane). To do so, the user must prick a bit of skin with the stylus's
@@ -43,5 +48,7 @@ protective qualities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadow walk](ref/spell/shadow-walk); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadow walk](ref/spell/shadow-walk)
+Cost: 24,000 gp
+:::

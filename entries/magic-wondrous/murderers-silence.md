@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 900 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 900 gp
+Weight: 1 lb.
+:::
 
 In areas where divine magic is readily available, [speak with dead](ref/spell/speak-with-dead) has
 captured many a murderer; this serum was invented by assassins to silence their victims. Murderer's
@@ -39,5 +44,7 @@ of the body other than those listed. The listed is for a single dose.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion)
+Cost: 450 gp
+:::

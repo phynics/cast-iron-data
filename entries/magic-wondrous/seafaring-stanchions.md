@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** wrists; **Price** 2,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: wrists
+Price: 2,400 gp
+Weight: 2 lbs.
+:::
 
 These unmarked bracers of oxidized steel slip easily onto the wrists. As a swift action while
 submerged underwater, the wearer can tap the bracers together, causing the bracers and any armor he
@@ -31,5 +36,7 @@ and sink.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[water walk](ref/spell/water-walk); **Cost** 2,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [water walk](ref/spell/water-walk)
+Cost: 2,400 gp
+:::

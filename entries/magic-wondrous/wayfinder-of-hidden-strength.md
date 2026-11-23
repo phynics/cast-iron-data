@@ -20,8 +20,13 @@ aura = "faint evocation and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and transmutation; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation and transmutation
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) is made of heat-treated bronze that seems to warp and
 shimmer in the light. It contains a single slot to store an
@@ -55,5 +60,7 @@ stone costs more than 15,000 gp, she instead restores 1d6 points of ability dama
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gallant inspiration](ref/spell/gallant-inspiration), [light](ref/spell/light); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gallant inspiration](ref/spell/gallant-inspiration), [light](ref/spell/light)
+Cost: 2,500 gp
+:::

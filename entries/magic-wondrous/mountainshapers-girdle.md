@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** belt; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: belt
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This wide belt grants the wearer a +4 enhancement bonus to Strength. In addition, the wearer can
 spend 1 ki point to use _[stone shape](ref/spell/stone-shape)._ When he uses this ability, he can
@@ -31,6 +36,7 @@ check. Items created in this way can never be of masterwork quality.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bear's endurance](ref/spell/bears-endurance), [stone shape](ref/spell/stone-shape); **Cost** 12,500
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bear's endurance](ref/spell/bears-endurance), [stone shape](ref/spell/stone-shape)
+Cost: 12,500 gp
+:::

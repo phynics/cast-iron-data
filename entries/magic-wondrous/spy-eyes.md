@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 15,000 gp; **Weight** 1 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 15,000 gp
+Weight: 1 lbs.
+:::
 
 At first glance, spy eyes appear to be cat's-eye marbles. When activated, each comes to life and
 blinks, transforming into an eyeball. When pressed against an inanimate surface (such as a wall or
@@ -36,5 +41,7 @@ time). Spy eyes in sensor form can be detected via the normal means for detectin
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 7,500 gp
+:::

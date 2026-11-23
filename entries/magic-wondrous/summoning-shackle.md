@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This small silver shackle is carved with conjuration runes. When used as a focus as part of a
 summoning spell of 3rd level or less, it creates a faintly-glowing intangible magical chain from the
@@ -36,6 +41,7 @@ duration would already have ended by then, the spell ends immediately.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Extend Spell,
-[dimensional anchor](ref/spell/dimensional-anchor), [summon monster I](ref/spell/summon-monster-1);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Extend Spell, [dimensional anchor](ref/spell/dimensional-anchor), [summon monster I](ref/spell/summon-monster-1)
+Cost: 2,500 gp
+:::

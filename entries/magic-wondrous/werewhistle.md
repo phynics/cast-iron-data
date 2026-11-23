@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 8,000 gp
+Weight: -
+:::
 
 This whistle is shaped like a wolf's head and is crafted out of silver. Once per day the bearer may
 blow the whistle to cause one [lycanthrope](ref/template/lycanthrope) within 30 feet to make a DC 17
@@ -29,5 +34,7 @@ Will save or be forced back into its humanoid form for the next 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[baleful polymorph](ref/spell/baleful-polymorph); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [baleful polymorph](ref/spell/baleful-polymorph)
+Cost: 4,000 gp
+:::

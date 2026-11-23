@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 2,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 2,500 gp
+Weight: 2 lbs.
+:::
 
 When this iron medallion is placed between the palms of two persons willingly entering into an
 agreement via handshake, the accord is enforced by the brand's enchantment. If either person breaks
@@ -35,5 +40,7 @@ whichever comes first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mark of justice](ref/spell/mark-of-justice); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mark of justice](ref/spell/mark-of-justice)
+Cost: 1,250 gp
+:::

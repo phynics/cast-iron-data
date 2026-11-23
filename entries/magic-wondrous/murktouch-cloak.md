@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** shoulders; **Price** 20,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: shoulders
+Price: 20,000 gp
+Weight: 1 lb.
+:::
 
 This lustrous crimson cloak has an ethereal quality to it, and is unnaturally light. When the wearer
 speaks the item's command word, a murktouch cloak dissolves into a vortex of red fog that churns
@@ -42,6 +47,7 @@ Its magic can be dismissed as a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[echolocation](ref/spell/echolocation), [fog cloud](ref/spell/fog-cloud),
-[mage hand](ref/spell/mage-hand); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [echolocation](ref/spell/echolocation), [fog cloud](ref/spell/fog-cloud), [mage hand](ref/spell/mage-hand)
+Cost: 10,000 gp
+:::

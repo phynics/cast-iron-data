@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** eyes; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: eyes
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 Crafted by the Arclords of Nex, these golden-white lenses rest in crystal frames that fit
 comfortably over the eyes. Any creatures conjured by _[summon monster](ref/spell/summon-monster)_ or
@@ -39,5 +44,7 @@ Will save or be sent back to its home plane.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dismissal](ref/spell/dismissal), [summon monster I](ref/spell/summon-monster-1); **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dismissal](ref/spell/dismissal), [summon monster I](ref/spell/summon-monster-1)
+Cost: 5,500 gp
+:::

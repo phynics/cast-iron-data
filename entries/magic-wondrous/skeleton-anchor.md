@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 14,450 gp; **Weight** 100 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 14,450 gp
+Weight: 100 lbs.
+:::
 
 This ship's anchor is crafted of fused bones and skulls, but it has the strength and
 [hardness](ref/umr/hardness) of iron. When attached to a ship by a rope or chain and dropped into
@@ -45,6 +50,7 @@ At the end of the week, the skeletons abandon the ship.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[desecrate](ref/spell/desecrate), [levitate](ref/spell/levitate),
-[skeleton crew](ref/spell/skeleton-crew); **Cost** 7,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [desecrate](ref/spell/desecrate), [levitate](ref/spell/levitate), [skeleton crew](ref/spell/skeleton-crew)
+Cost: 7,250 gp
+:::

@@ -20,8 +20,12 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Weight** 45 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Weight: 45 lbs.
+:::
 
 This normal mirror is roughly 4 feet long and 3 feet wide. It is similar to a _mirror of opposition_
 or _mirror of life trapping,_ but it lacks a command word. A _mirror of soul snaring_ has 15
@@ -49,5 +53,7 @@ can restore the trapped creature's spirit to its body.
 
 ### Construction
 
-**Requirements** [mirror of life trapping](ref/magic-wondrous/mirror-of-life-trapping),
-[mirror of opposition](ref/magic-wondrous/mirror-of-opposition); **Cost** -
+::: statblock
+Requirements: [mirror of life trapping](ref/magic-wondrous/mirror-of-life-trapping), [mirror of opposition](ref/magic-wondrous/mirror-of-opposition)
+Cost: -
+:::

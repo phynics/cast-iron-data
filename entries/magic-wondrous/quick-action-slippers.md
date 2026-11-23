@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of a pair of quick action slippers may stand up from [prone](ref/rule/prone) as a free
 action. Such movement still provokes attacks of opportunity as normal. If the wearer has the
@@ -30,5 +35,7 @@ attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-creator must have the stand up rogue talent; **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), creator must have the stand up rogue talent
+Cost: 5,000 gp
+:::

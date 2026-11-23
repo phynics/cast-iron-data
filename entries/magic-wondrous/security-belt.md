@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 12,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 12,500 gp
+Weight: 1 lb.
+:::
 
 A security belt increases the DC of [Sleight of Hand](ref/skill/sleight-of-hand) checks made against
 the wearer and checks to locate items or weapons hidden on the wearer's person by 5. The wearer also
@@ -34,5 +39,7 @@ _[magic aura](ref/spell/magic-aura)_ spell were making them appear nonmagical.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura), [shrink item](ref/spell/shrink-item); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura), [shrink item](ref/spell/shrink-item)
+Cost: 6,250 gp
+:::

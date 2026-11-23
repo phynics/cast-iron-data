@@ -20,8 +20,12 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** wrists; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: wrists
+Weight: 1 lb.
+:::
 
 These wristbands appear to be bracers of archery until they are worn. The wearer takes a -2 penalty
 on all ranged attack rolls. A successful [remove curse](ref/spell/remove-curse) spell is required
@@ -29,5 +33,7 @@ before these bracers can be removed.
 
 ### Construction
 
-**Requirements** [bracers of archery](ref/magic-wondrous/bracers-of-archery-greater), either greater
-or lesser; **Cost** -
+::: statblock
+Requirements: [bracers of archery](ref/magic-wondrous/bracers-of-archery-greater), either greater or lesser
+Cost: -
+:::

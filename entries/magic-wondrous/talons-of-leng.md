@@ -26,8 +26,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** hands; **Price** 67,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: hands
+Price: 67,000 gp
+Weight: 1 lb.
+:::
 
 Finely laid gold filigree lines these ornately worked talons. Once donned, the talons of Leng grant
 the wearer a natural claw attack with each hand that deal 1d4 points of damage for a Medium wearer,
@@ -43,7 +48,7 @@ of handheld items, or wielding weapons.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic fang](ref/spell/magic-fang-greater), [insanity](ref/spell/insanity); **Cost** 33,500
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic fang](ref/spell/magic-fang-greater), [insanity](ref/spell/insanity)
+Cost: 33,500 gp
+:::

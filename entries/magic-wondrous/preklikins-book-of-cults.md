@@ -23,8 +23,13 @@ aura = "faint conjuration [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[evil\]; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration \[evil\]
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: 5 lbs.
+:::
 
 This strange leather-bound book contains erratic handwriting; the words within it appear to have
 been translated from Gnome into Common (and perhaps some other language before Gnome). It contains
@@ -39,5 +44,7 @@ conjuration spells that summon or call an evil outsider.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [resistance](ref/spell/resistance); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [resistance](ref/spell/resistance)
+Cost: 750 gp
+:::

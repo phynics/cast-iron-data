@@ -22,8 +22,13 @@ caster_level = "6th"
 
 ## Terra-Cotta Talisman
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 13,000 gp (Horse), 16,000 gp (Warrior), 22,000 gp (Hound); **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 13,000 gp (Horse), 16,000 gp (Warrior), 22,000 gp (Hound)
+Weight: 1 lb.
+:::
 
 These ceramic statuettes are molded in the likenesses of armored soldiers, horses, or dogs, and are
 considered symbols of good fortune in battle. Once per day, the possessor of a terra-cotta talisman
@@ -38,8 +43,7 @@ itself as a spiritual force. The powers of the talismans are as follows:
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[borrow fortune](ref/spell/borrow-fortune), [mage's faithful hound](ref/spell/mages-faithful-hound)
-(hound), [phantom steed](ref/spell/phantom-steed) (horse), or
-[spiritual ally](ref/spell/spiritual-ally) (warrior); **Cost** 6,500 gp (Horse), 8,000 gp (Warrior),
-11,000 gp (Hound)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [borrow fortune](ref/spell/borrow-fortune), [mage's faithful hound](ref/spell/mages-faithful-hound) (hound), [phantom steed](ref/spell/phantom-steed) (horse), or [spiritual ally](ref/spell/spiritual-ally) (warrior)
+Cost: 6,500 gp (Horse), 8,000 gp (Warrior), 11,000 gp (Hound)
+:::

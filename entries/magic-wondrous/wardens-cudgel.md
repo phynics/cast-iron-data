@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 12,150 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 12,150 gp
+Weight: 3 lbs.
+:::
 
 Commonly created by members of the [Green Faith](ref/faith/green-faith), this type of +1
 [greenwood](ref/eq-material/greenwood) [club](ref/eq-weapon/club) is made from knotted wood, is
@@ -35,5 +40,7 @@ _[plant growth](ref/spell/plant-growth)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth); **Cost** 6,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth)
+Cost: 6,150 gp
+:::

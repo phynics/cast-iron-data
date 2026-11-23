@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 A talisman of pure faith looks like a set of six of black and red hexagons nested within each other.
 When worn about the neck, a talisman of pure faith physically transforms into a holy symbol that
@@ -35,6 +40,7 @@ cast spells impeded by [planar traits](ref/rule/magic-traits).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil),
-[detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law)
+Cost: 1,500 gp
+:::

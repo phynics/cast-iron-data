@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** wrists; **Price** 27,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: wrists
+Price: 27,000 gp
+Weight: 1 lb.
+:::
 
 These delicate sliver bracers are decorated with blue butterflies. While worn, swallowtail bracers
 grant the wearer a +1 luck bonus on all saving throws, ability checks, and skill checks. If the
@@ -32,6 +37,7 @@ when the wearer is targeted by that spell, the effects reflect back upon the cas
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), [dream](ref/spell/dream), creator must worship
-[Desna](ref/faith/desna); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), [dream](ref/spell/dream), creator must worship [Desna](ref/faith/desna)
+Cost: 13,500 gp
+:::

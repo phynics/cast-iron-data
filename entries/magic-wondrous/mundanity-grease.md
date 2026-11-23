@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 This slippery, jet-black goo has a consistency comparable to warm lard. A bottle of mundanity grease
 can be [thrown as a splash weapon](ref/rule/throw-splash-weapon) with a range increment of 10 feet.
@@ -38,5 +43,7 @@ by magical means.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater dispel magic](ref/spell/dispel-magic-greater); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater dispel magic](ref/spell/dispel-magic-greater)
+Cost: 250 gp
+:::

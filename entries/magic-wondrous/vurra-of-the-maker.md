@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck; **Price** 3,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck
+Price: 3,300 gp
+Weight: 5 lbs.
+:::
 
 A vurra is a carving of a giant's head, usually a god but sometimes a hero, loved one, or historical
 figure. This hand-sized gray stone is carved to resemble a bearded, wise-looking man with a squarish
@@ -40,6 +45,7 @@ may use _[owl's wisdom](ref/spell/owls-wisdom)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic stone](ref/spell/magic-stone), [owl's wisdom](ref/spell/owls-wisdom), creator must have 5
-ranks in Craft (sculpting); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic stone](ref/spell/magic-stone), [owl's wisdom](ref/spell/owls-wisdom), creator must have 5 ranks in Craft (sculpting)
+Cost: 1,650 gp
+:::

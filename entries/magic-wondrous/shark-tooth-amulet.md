@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 9,000 gp
+Weight: -
+:::
 
 This amulet is crafted of a single massive petrified shark tooth suspended on kelp twine and grants
 its wearer combat potency while [underwater](ref/rule/physical-attacks-underwater). While wearing
@@ -32,6 +37,7 @@ halved.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch of the sea](ref/spell/touch-of-the-sea), the crafter must be an undine or have the water
-subtype; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch of the sea](ref/spell/touch-of-the-sea), the crafter must be an undine or have the water subtype
+Cost: 4,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,800 gp
+Weight: 1 lb.
+:::
 
 This triangular-shaped rod is made from metal tubes and is small enough to fit into a pocket or a
 pouch. One tube on the item is inlaid with a line of small emeralds, and the other is inlaid with a
@@ -33,5 +38,7 @@ but it must be used in 1-minute intervals.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic)
+Cost: 900 gp
+:::

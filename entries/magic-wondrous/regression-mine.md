@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 1,500 gp
+Weight: 2 lbs.
+:::
 
 A regression mine is a nondescript plate of metal that can be armed to deliver a terrible,
 mind-affecting curse. Arming the mine requires a move action, and deploying it in an adjacent square
@@ -51,5 +56,7 @@ regression mine must succeed at a DC 15 Reflex saving throw, or the mine immedia
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion)
+Cost: 750 gp
+:::

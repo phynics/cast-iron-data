@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 3,150 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 3,150 gp
+Weight: -
+:::
 
 This small silver cylinder is no bigger than a pinhead and is engraved with an Elven aphorism that
 roughly translates to "unhindered flight." A silver nocking point can be attached to the string of
@@ -33,5 +38,7 @@ as [fickle winds](ref/spell/fickle-winds)) instead impose only a -8 penalty on t
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true strike](ref/spell/true-strike); **Cost** 1,575 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true strike](ref/spell/true-strike)
+Cost: 1,575 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This mundane-looking but serviceable sheath fits any bladed slashing weapon, from a dagger to a
 greatsword. When a weapon is placed into the sheath of bladestealth, both it and the weapon become
@@ -36,5 +41,7 @@ work normally on the sheathed weapon.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility)
+Cost: 2,500 gp
+:::

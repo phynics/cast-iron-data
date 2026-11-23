@@ -25,9 +25,13 @@ caster_level = "7th"
 
 ## Shoanti War Paint
 
-**Aura** moderate (school varies); **CL** 7th\
-**Slot** none; **Price** 900 gp (Blue, Green, Orange, Red, Silver, and Yellow), 1,800 gp (Black and
-White); **Weight** -
+::: statblock
+Aura: moderate (school varies)
+CL: 7th
+Slot: none
+Price: 900 gp (Blue, Green, Orange, Red, Silver, and Yellow), 1,800 gp (Black and White)
+Weight: -
+:::
 
 The Shoanti have developed numerous types of magical war paint, each providing a specific benefit to
 aid their hunters, warriors, and heroes in a variety of tasks. Shoanti war paint can be applied to
@@ -58,9 +62,7 @@ their effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); [blur](ref/spell/blur)
-(black), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance) (yellow),
-[death ward](ref/spell/death-ward) (white), [expeditious retreat](ref/spell/expeditious-retreat)
-(blue), [heroism](ref/spell/heroism) (green), [resist energy](ref/spell/resist-energy) (red),
-[shield of faith](ref/spell/shield-of-faith) (silver), [stoneskin](ref/spell/stoneskin) (orange);
-**Cost** 900 gp (black and white paint), 450 gp (all other paints)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); [blur](ref/spell/blur) (black), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance) (yellow), [death ward](ref/spell/death-ward) (white), [expeditious retreat](ref/spell/expeditious-retreat) (blue), [heroism](ref/spell/heroism) (green), [resist energy](ref/spell/resist-energy) (red), [shield of faith](ref/spell/shield-of-faith) (silver), [stoneskin](ref/spell/stoneskin) (orange)
+Cost: 900 gp (black and white paint), 450 gp (all other paints)
+:::

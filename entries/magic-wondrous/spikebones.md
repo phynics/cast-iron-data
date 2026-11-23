@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 22,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 22,000 gp
+Weight: 2 lbs.
+:::
 
 Spikebones are a collection of bleached humanoid bones - typically the ribs, vertebrae, and finger
 bones - carried in a crude pouch made of the humanoid's skin and connective tissue. Three times per
@@ -33,5 +38,7 @@ after which they vanish and the spikebones magically reappearing in their pouch.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [spike growth](ref/spell/spike-growth); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [spike growth](ref/spell/spike-growth)
+Cost: 11,000 gp
+:::

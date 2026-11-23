@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** shoulders; **Price** 1,000 gp; **Weight** 1/4 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: shoulders
+Price: 1,000 gp
+Weight: 1/4 lb.
+:::
 
 These thick leather cords wrap around the wearer's biceps and shoulders. When worn, they make the
 wearer's muscles appear larger than normal. The wearer treats his Strength score as 8 higher than
@@ -34,5 +39,7 @@ amount of equipment or material the wearer can carry.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength)
+Cost: 500 gp
+:::

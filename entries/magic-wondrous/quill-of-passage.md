@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 This black-feathered quill has a glowing nib with a small amount of glowing ink inside it. Three
 times per day, the bearer can place the quill's nib against a wall and say a command word to cause
@@ -35,5 +40,7 @@ of this item is not expended.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock),
-[open and shut](ref/spell/open-and-shut); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock), [open and shut](ref/spell/open-and-shut)
+Cost: 2,500 gp
+:::

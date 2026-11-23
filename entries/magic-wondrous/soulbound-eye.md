@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "16th"
 +++
 
-**Aura** strong necromancy; **CL** 16th\
-**Slot** headband; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 16th
+Slot: headband
+Price: 30,000 gp
+Weight: -
+:::
 
 Appearing at first like an expensive, masochistic adornment, this almond-sized star ruby is set in a
 gold clasp, one side of which is festooned with several long spikes. A soulbound eye is not an item
@@ -53,5 +58,7 @@ fragments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying);
-**Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [scrying](ref/spell/scrying)
+Cost: 15,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** shoulders; **Price** 48,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: shoulders
+Price: 48,000 gp
+Weight: 4 lbs.
+:::
 
 This short cape shimmers faintly under light. The wearer is immune to the
 [energy drain](ref/umr/energy-drain) attacks made by undead creatures. She still suffers any other
@@ -31,5 +36,7 @@ from using abilities like rejuvenation to return to unlife.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward)
+Cost: 24,000 gp
+:::

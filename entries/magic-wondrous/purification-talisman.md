@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 1,800 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 1,800 gp
+Weight: -
+:::
 
 A hand-sized clay rebus of the [Master of Masters](ref/faith/irori), sometimes inlaid with copper or
 tiny gemstones, hangs from this braided hair necklace. It is normally worn under clothing against
@@ -31,6 +36,7 @@ cleansing 1 cubic foot of food and water.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[purify food and drink](ref/spell/purify-food-and-drink), [resistance](ref/spell/resistance);
-**Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [purify food and drink](ref/spell/purify-food-and-drink), [resistance](ref/spell/resistance)
+Cost: 900 gp
+:::

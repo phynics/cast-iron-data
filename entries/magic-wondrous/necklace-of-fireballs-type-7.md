@@ -25,10 +25,13 @@ caster_level = "10th"
 
 ## Necklace of Fireballs
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** neck or none (see text); **Price** 1,650 gp (Type I), 2,700 gp (Type II), 4,350 gp (Type
-III), 5,400 gp (Type IV), 5,850 gp (Type V), 8,100 gp (Type VI), 8,700 gp (Type VII); **Weight** 1
-lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: neck or none (see text)
+Price: 1,650 gp (Type I), 2,700 gp (Type II), 4,350 gp (Type III), 5,400 gp (Type IV), 5,850 gp (Type V), 8,100 gp (Type VI), 8,700 gp (Type VII)
+Weight: 1 lb.
+:::
 
 This item appears to be a string or cluster of spherical beads, sometimes with the ends tied
 together to form a necklace. (It does not count as an item worn around the neck for the purpose of
@@ -61,6 +64,7 @@ consequences for the wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fireball](ref/spell/fireball); **Cost** 825 gp (Type I), 1,350 gp (Type II), 2,175 gp (Type III),
-2,700 gp (Type IV), 2,925 gp (Type V), 4,050 gp (Type VI), 4,350 gp (Type VII)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fireball](ref/spell/fireball)
+Cost: 825 gp (Type I), 1,350 gp (Type II), 2,175 gp (Type III), 2,700 gp (Type IV), 2,925 gp (Type V), 4,050 gp (Type VI), 4,350 gp (Type VII)
+:::

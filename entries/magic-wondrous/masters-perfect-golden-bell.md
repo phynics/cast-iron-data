@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 20,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 20,000 gp
+Weight: 10 lbs.
+:::
 
 This lustrous golden bell produces a deep and resonant ring which vibrates in perfect harmony with
 the Material Plane and destructively interferes with otherworldly beings. These vibrations reduce
@@ -34,5 +39,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[banishment](ref/spell/banishment); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [banishment](ref/spell/banishment)
+Cost: 10,000 gp
+:::

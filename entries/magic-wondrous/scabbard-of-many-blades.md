@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 3 lbs.
+:::
 
 This scabbard can hold multiple melee weapons in an extradimensional space, including weapons that
 would not normally fit in any kind of scabbard or sheath. It can hold up to four two-handed weapons.
@@ -41,5 +46,7 @@ again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp
+:::

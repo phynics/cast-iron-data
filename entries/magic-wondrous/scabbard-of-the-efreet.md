@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** 41,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: 41,000 gp
+Weight: 2 lbs.
+:::
 
 These black-and-red leather scabbards are produced in the distant Padishah Empire of Kelesh; in the
 Inner Sea region, they are predominantly found in Qadira. Each scabbard fits any bladed weapon, and
@@ -37,6 +42,7 @@ her.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fireball](ref/spell/fireball), [giant form I](ref/spell/giant-form-1),
-[scorching ray](ref/spell/scorching-ray); **Cost** 20,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fireball](ref/spell/fireball), [giant form I](ref/spell/giant-form-1), [scorching ray](ref/spell/scorching-ray)
+Cost: 20,500 gp
+:::

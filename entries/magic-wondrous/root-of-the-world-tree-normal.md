@@ -22,8 +22,13 @@ caster_level = "17th"
 
 ## Root of the World Tree
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 300 gp (Lesser), 1,000 gp (Normal), 2,500 gp (Greater); **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 300 gp (Lesser), 1,000 gp (Normal), 2,500 gp (Greater)
+Weight: -
+:::
 
 This fibrous powder is ground from bark harvested from the roots of trees growing across planar
 boundaries. When thrown in the air as part of casting a conjuration (summoning) spell, it grants the
@@ -34,6 +39,7 @@ one use of mythic power, the summoned creatures gain DR 5/epic, or DR 10/epic if
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [Augment Summoning](ref/feat/augment-summoning),
-[heroism](ref/spell/heroism); **Cost** 150 gp (Lesser), 500 gp (Normal), 1,250 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [Augment Summoning](ref/feat/augment-summoning), [heroism](ref/spell/heroism)
+Cost: 150 gp (Lesser), 500 gp (Normal), 1,250 gp (Greater)
+:::

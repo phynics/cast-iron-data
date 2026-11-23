@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 82,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 82,000 gp
+Weight: -
+:::
 
 Rather than opening to random locations across the planes, this version of the
 [well of many worlds](ref/magic-wondrous/well-of-many-worlds) opens only to random locations on the
@@ -31,5 +36,7 @@ the Ethereal Plane, given its nature as a natural buffer between the two realiti
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[shadow walk](ref/spell/shadow-walk); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [shadow walk](ref/spell/shadow-walk)
+Cost: 41,000 gp
+:::

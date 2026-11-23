@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 16,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 16,000 gp
+Weight: 2 lbs.
+:::
 
 Carved from a mammoth tusk, this ivory flute is covered with delicate carvings of wind blowing over
 waves, which are inlaid with silver. It functions as a
@@ -41,5 +46,7 @@ Sleepers under this effect can be awakened normally.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fog cloud](ref/spell/fog-cloud), [restoration](ref/spell/restoration); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fog cloud](ref/spell/fog-cloud), [restoration](ref/spell/restoration)
+Cost: 8,000 gp
+:::

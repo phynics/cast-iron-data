@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 4,000 gp
+Weight: -
+:::
 
 This golden pendant is of Qadiran make. Crafted from gold beaten into the image of a lanner falcon
 and suspended upon a gold chain, it's the traditional badge of office for the Prince or Princess of
@@ -36,5 +41,7 @@ effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[identify](ref/spell/identify); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify)
+Cost: 2,000 gp
+:::

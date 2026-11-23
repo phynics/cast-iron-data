@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This fragrant mead is made from the purest honey gathered from sunny meadows, mixed with rare herbs
 in the moonlight, and fermented in earthen jars. Consuming nectar of the gods is a standard action
@@ -31,5 +36,7 @@ lasting for 1 day. A jar contains only a single draft of this potent beverage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [heroism](ref/spell/heroism); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [heroism](ref/spell/heroism)
+Cost: 2,500 gp
+:::

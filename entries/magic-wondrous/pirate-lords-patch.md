@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 8,500 gp
+Weight: -
+:::
 
 This eye patch is woven entirely from gold cloth and features a skull and crossbones embroidered in
 black stitching. A pair of small sapphires is sewn into the cloth within the skull's eye sockets,
@@ -36,6 +41,7 @@ activate the patch in order to see through solid objects for 1 minute, as though
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate object](ref/spell/locate-object), [see invisibility](ref/spell/see-invisibility); **Cost**
-4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate object](ref/spell/locate-object), [see invisibility](ref/spell/see-invisibility)
+Cost: 4,250 gp
+:::

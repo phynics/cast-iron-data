@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 13,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 13,000 gp
+Weight: -
+:::
 
 This crystal retort was meticulously crafted from the hides of a dozen shattered crysmals. When
 light is shone through the retort, the concoction within glows like a golden torch. A retort of
@@ -35,5 +40,7 @@ splash damage, alchemical remedies do not work on such creatures, and so on.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[mark of justice](ref/spell/mark-of-justice); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [mark of justice](ref/spell/mark-of-justice)
+Cost: 7,500 gp
+:::

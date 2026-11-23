@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This black scabbard is engraved with intricate silver runes that depict all manner of bladed
 weapons. A scabbard of keen edges can shrink or enlarge to accommodate any knife, dagger, sword, or
@@ -35,5 +40,7 @@ _[keen edge](ref/spell/keen-edge)_ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[keen edge](ref/spell/keen-edge); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [keen edge](ref/spell/keen-edge)
+Cost: 8,000 gp
+:::

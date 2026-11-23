@@ -20,8 +20,13 @@ aura = "moderate divination and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination and evocation; **CL** 7th\
-**Slot** eyes; **Price** 11,200 gp; **Weight** -
+::: statblock
+Aura: moderate divination and evocation
+CL: 7th
+Slot: eyes
+Price: 11,200 gp
+Weight: -
+:::
 
 This pair of clear crystal lenses allows the wearer to see the indistinct shapes of living creatures
 moving below the surface of the earth. The wearer can see any Medium or larger creatures within 60
@@ -33,6 +38,7 @@ hour to adjust before he or she can wear the goggles again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[faerie fire](ref/spell/faerie-fire), [locate creature](ref/spell/locate-creature); **Cost** 5,600
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [faerie fire](ref/spell/faerie-fire), [locate creature](ref/spell/locate-creature)
+Cost: 5,600 gp
+:::

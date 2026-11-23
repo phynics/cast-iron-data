@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This tiny copper statue of a featureless, dancing humanoid is sometimes awarded to the winners of
 contests at Pitax's Academy of Grand Arts. The power of a player's prize comes not from possessing
@@ -43,5 +48,7 @@ character must be within 30 feet of the player's prize to activate this ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [telekinesis](ref/spell/telekinesis); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [telekinesis](ref/spell/telekinesis)
+Cost: 1,500 gp
+:::

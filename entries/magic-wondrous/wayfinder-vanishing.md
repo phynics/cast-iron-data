@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Vanishing wayfinders are crafted of ivory chased with gold and silver. In addition to the usual
 functions of a [wayfinder](ref/magic-wondrous/wayfinder) (including the ability to create light),
@@ -36,5 +41,7 @@ minute is up.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), [light](ref/spell/light); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), [light](ref/spell/light)
+Cost: 4,000 gp
+:::

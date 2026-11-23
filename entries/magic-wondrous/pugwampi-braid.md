@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 This braid, crafted from strips of [pugwampi](ref/monster/gremlin-pugwampi) pelts, is 1 inch in
 diameter and 12 inches long. It can be carried in the hand like a riding crop or worn as an
@@ -35,5 +40,7 @@ on humanoids with the [gnoll](ref/monster/gnoll) subtype, animals, or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 4,500 gp
+:::

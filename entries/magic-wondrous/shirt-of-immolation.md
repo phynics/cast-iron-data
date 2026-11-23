@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** chest; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: chest
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 Whenever the wearer is [grappling](ref/rule/grapple) (whether on the offense or defense), this shirt
 automatically bursts into flame, dealing 1d6+10 points of fire damage every round to anyone
@@ -31,5 +36,7 @@ per day. These rounds do not need to be consecutive.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fire shield](ref/spell/fire-shield); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fire shield](ref/spell/fire-shield)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This round metal container is just large enough to contain the wooden, coin-sized token inside. Each
 side of the token is inscribed with a different prayer. Once per day, a [cleric](ref/class/cleric)
@@ -34,5 +39,7 @@ only one domain.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prayer](ref/spell/prayer)
+Cost: 500 gp
+:::

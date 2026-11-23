@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 40,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 40,000 gp
+Weight: 1 lb.
+:::
 
 These always come in pairs - two iron rings, each about 18 inches in diameter. The rings must be on
 the same plane of existence and within 100 miles of each other to function. Whatever is put through
@@ -41,5 +46,7 @@ The weight listed is per ring.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 20,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 20,000 gp
+:::

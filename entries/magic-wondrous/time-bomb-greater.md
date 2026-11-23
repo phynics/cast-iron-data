@@ -22,8 +22,13 @@ caster_level = "5th (normal), 13th (greater)"
 
 ## Time Bomb
 
-**Aura** faint (normal) or strong (greater) evocation; **CL** 5th (normal), 13th (greater)\
-**Slot** none; **Price** 1,000 gp (normal), 6,000 gp (greater); **Weight** 1 lb.
+::: statblock
+Aura: faint (normal) or strong (greater) evocation
+CL: 5th (normal), 13th (greater)
+Slot: none
+Price: 1,000 gp (normal), 6,000 gp (greater)
+Weight: 1 lb.
+:::
 
 A **time bomb** consists of an 6-inch-tall [hourglass](ref/eq-misc/hourglass-1-hour) in an obsidian
 frame etched with tiny runes. To activate it, the user must uncap one end and place an amount of
@@ -41,7 +46,7 @@ half).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[fireball](ref/spell/fireball) (normal only),
-[delayed blast fireball](ref/spell/delayed-blast-fireball) (greater only); **Cost** 500 gp (normal),
-3,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [fireball](ref/spell/fireball) (normal only), [delayed blast fireball](ref/spell/delayed-blast-fireball) (greater only)
+Cost: 500 gp (normal), 3,000 gp (greater)
+:::

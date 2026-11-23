@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** shoulders; **Price** 10,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: shoulders
+Price: 10,800 gp
+Weight: 3 lbs.
+:::
 
 These steel and brass pauldrons feature two brass lion heads, one on each shoulder. Twice a day as
 an immediate action when a creature successfully makes an [Acrobatics](ref/skill/acrobatics) check
@@ -32,6 +37,7 @@ On a hit, the lion deals 2d6 points of piercing damage (×2 critical).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spectral hand](ref/spell/spectral-hand); **Cost** 5,400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spectral hand](ref/spell/spectral-hand)
+Cost: 5,400 gp
+:::

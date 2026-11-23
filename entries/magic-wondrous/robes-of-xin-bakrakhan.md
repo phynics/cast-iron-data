@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 16th\
-**Slot** body; **Price** 198,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 16th
+Slot: body
+Price: 198,000 gp
+Weight: 1 lb.
+:::
 
 The traditional robes of the Runelord of Wrath are known as the robes of Xin-Bakrakhan. Woven of the
 finest of crimson silks and accented with precious gold, the robes are surprisingly light and easy
@@ -35,7 +40,7 @@ similar effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions),
-[protection from spells](ref/spell/protection-from-spells), [shield](ref/spell/shield),
-[secret chest](ref/spell/secret-chest); **Cost** 99,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [protection from spells](ref/spell/protection-from-spells), [shield](ref/spell/shield), [secret chest](ref/spell/secret-chest)
+Cost: 99,000 gp
+:::

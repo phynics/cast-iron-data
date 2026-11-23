@@ -22,10 +22,13 @@ caster_level = "11th"
 
 ## Metamagic Gem
 
-**Aura** strong (no school); **CL** 11th\
-**Slot** none; **Price** 1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp
-(Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing
-Sapphire), 4,000 gp (Widening Emerald), 8,000 gp (Quickening Diamond); **Weight** -
+::: statblock
+Aura: strong (no school)
+CL: 11th
+Slot: none
+Price: 1,000 gp (Enlarging Amethyst), 1,000 gp (Extending Garnet), 1,000 gp (Silent Spinel), 1,000 gp (Still Amber), 2,000 gp (Empowering Topaz), 4,000 gp (Maximizing Sapphire), 4,000 gp (Widening Emerald), 8,000 gp (Quickening Diamond)
+Weight: -
+:::
 
 Metamagic gems can be used to enhance spells with various metamagic effects, similar to the way
 metamagic rods are used, save that metamagic gems are consumed when they are used. To apply the
@@ -51,7 +54,7 @@ gemstone type associated with it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), appropriate metamagic feat;
-**Cost** 1,000 gp (empowering topaz), 500 gp (enlarging amethyst), 500 gp (extending garnet), 2,000
-gp (maximizing sapphire), 4,000 gp (quickening diamond), 500 gp (silent spinel), 500 gp (still
-amber), 2,000 gp (widening emerald)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), appropriate metamagic feat
+Cost: 1,000 gp (empowering topaz), 500 gp (enlarging amethyst), 500 gp (extending garnet), 2,000 gp (maximizing sapphire), 4,000 gp (quickening diamond), 500 gp (silent spinel), 500 gp (still amber), 2,000 gp (widening emerald)
+:::

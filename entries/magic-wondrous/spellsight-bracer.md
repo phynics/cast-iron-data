@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** wrists; **Price** 2,100 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: wrists
+Price: 2,100 gp
+Weight: 1 lb.
+:::
 
 Dozens of variants of this bracer exist, but they are usually leather, always ornately patterned,
 and bear a single spherical polished stone or gem (typically a carbuncle, olivine, or sard) mounted
@@ -45,6 +50,7 @@ bracer to open.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Silent Spell](ref/feat/silent-spell), [detect magic](ref/spell/detect-magic),
-[mage hand](ref/spell/mage-hand), [resistance](ref/spell/resistance); **Cost** 1,050 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Silent Spell](ref/feat/silent-spell), [detect magic](ref/spell/detect-magic), [mage hand](ref/spell/mage-hand), [resistance](ref/spell/resistance)
+Cost: 1,050 gp
+:::

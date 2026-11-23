@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 14,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 14,000 gp
+Weight: 5 lbs.
+:::
 
 Several alterations along the edges of this well-maintained leather
 [saddle](ref/eq-misc/saddle-riding) allow for the movement of a mount's wings. A Sable Company elite
@@ -33,5 +38,7 @@ The mount additionally gains the benefits of any teamwork feats the rider posses
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly),
-[mount](ref/spell/mount), creator must have 5 ranks in Ride; **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly), [mount](ref/spell/mount), creator must have 5 ranks in Ride
+Cost: 7,000 gp
+:::

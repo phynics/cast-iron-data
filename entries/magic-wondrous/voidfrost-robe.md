@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 10th\
-**Slot** body; **Price** 11,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 10th
+Slot: body
+Price: 11,000 gp
+Weight: 1 lb.
+:::
 
 This blue and white silk robe gives the impression of ice and frozen fog forming over its surface.
 The robe grants the wearer cold resistance 5 and increases the wearer's caster level for all spells
@@ -31,6 +36,7 @@ with the cold descriptor by +1. Once per day on command, the wearer of the robe 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [resist energy](ref/spell/resist-energy),
-[cone of cold](ref/spell/cone-of-cold); **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [resist energy](ref/spell/resist-energy), [cone of cold](ref/spell/cone-of-cold)
+Cost: 5,500 gp
+:::

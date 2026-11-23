@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 This small, lidded jar contains a sizable deformed insect that twitches and wriggles as if
 constantly undergoing a particularly painful death. A swarmlord's jar has a lid, but the lid is
@@ -44,5 +49,7 @@ on a successful touch attack as it shatters (Will DC 15 half).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon swarm](ref/spell/summon-swarm); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon swarm](ref/spell/summon-swarm)
+Cost: 1,500 gp
+:::

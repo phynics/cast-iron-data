@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** wrists; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: wrists
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 This heavy silver bracelet is etched with icons of purity, fidelity, chastity, and honor, and glows
 with a soft white light whenever its owner prays. The wearer of this bracelet treats her
@@ -30,5 +35,7 @@ feature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[align weapon](ref/spell/align-weapon), creator must be a paladin; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [align weapon](ref/spell/align-weapon), creator must be a paladin
+Cost: 8,000 gp
+:::

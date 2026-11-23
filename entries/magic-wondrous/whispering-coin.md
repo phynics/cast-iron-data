@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 This ancient gold coin measures an inch in diameter and a quarter of an inch thick. One face bears
 one of the seven Thassilonian runes for magic and sin, while the opposite side bears the image of a
@@ -46,5 +51,7 @@ coin's one use for the day is still consumed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[resistance](ref/spell/resistance); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [resistance](ref/spell/resistance)
+Cost: 1,500 gp
+:::

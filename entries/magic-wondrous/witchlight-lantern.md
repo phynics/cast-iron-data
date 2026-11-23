@@ -20,8 +20,13 @@ aura = "moderate divination and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination and evocation; **CL** 7th\
-**Slot** none; **Price** 7,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination and evocation
+CL: 7th
+Slot: none
+Price: 7,500 gp
+Weight: 1 lb.
+:::
 
 This black, skull-shaped, wrought-iron lantern has no container for oil or space for a candle. When
 held in the user's hand, the lantern automatically glows with green light when it comes within 60
@@ -40,5 +45,7 @@ successful DC 16 Reflex save reduces this condition to [dazzled](ref/misc/dazzle
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane sight](ref/spell/arcane-sight), [daylight](ref/spell/daylight); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane sight](ref/spell/arcane-sight), [daylight](ref/spell/daylight)
+Cost: 3,750 gp
+:::

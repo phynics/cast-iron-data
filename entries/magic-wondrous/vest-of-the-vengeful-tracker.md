@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** chest; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: chest
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This green-and-brown vest has pockets sewn along its length, each with a tiny lodestone button. The
 wearer feels a surge of heroism when she tracks down prey. She gains a +1 morale bonus on the first
@@ -32,5 +37,7 @@ critical hit confirmation rolls against the target.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[commune with nature](ref/spell/commune-with-nature); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [commune with nature](ref/spell/commune-with-nature)
+Cost: 3,000 gp
+:::

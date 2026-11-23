@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 This ornate sack made of dyed leather contains a mixture of swirling atmospheric energies from the
 Plane of Air and gritty elemental dust from the Plane of Earth. As a standard action, the owner can
@@ -40,5 +45,7 @@ A newly created bag of sandstorm dust contains enough dust for three uses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sirocco](ref/spell/sirocco);
-**Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sirocco](ref/spell/sirocco)
+Cost: 4,500 gp
+:::

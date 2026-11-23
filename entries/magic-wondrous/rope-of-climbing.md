@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 3 lbs.
+:::
 
 A 60-foot-long rope of climbing is no thicker than a wand, but it is strong enough to support 3,000
 pounds. Upon command, the rope snakes forward, upward, downward, or in any other direction at 10
@@ -38,5 +43,7 @@ hold one end of the rope when its magic is invoked.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope)
+Cost: 1,500 gp
+:::

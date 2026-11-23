@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** head; **Price** 27,680 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: head
+Price: 27,680 gp
+Weight: -
+:::
 
 A gift from an enigmatic master of the First World, each token of the [Eldest](ref/rule/the-eldest)
 exemplifies the unique and specific relationship between its creator and its first recipient.
@@ -46,6 +51,7 @@ worse.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [charm monster](ref/spell/charm-monster),
-[commune with nature](ref/spell/commune-with-nature); **Cost** 13,840 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [charm monster](ref/spell/charm-monster), [commune with nature](ref/spell/commune-with-nature)
+Cost: 13,840 gp
+:::

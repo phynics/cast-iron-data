@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This small glass vial contains an effervescent blue liquid. When imbibed, a vial of reckless courage
 instills a sense of bravery in the drinker, granting a +4 enhancement bonus on saving throws against
@@ -32,5 +37,7 @@ normal speed in any given form of movement, for 5 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[remove fear](ref/spell/remove-fear); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [remove fear](ref/spell/remove-fear)
+Cost: 2,500 gp
+:::

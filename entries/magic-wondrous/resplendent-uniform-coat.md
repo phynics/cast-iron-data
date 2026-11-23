@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** chest; **Price** 7,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: chest
+Price: 7,000 gp
+Weight: 5 lbs.
+:::
 
 This woolen long coat is typically worn over light armor by military commanders. A
 [cavalier](ref/class/cavalier) with the tactician ability may use that ability one additional time
@@ -29,5 +34,7 @@ per day, and his tactician ability affects allies within 60 feet instead of 30 f
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism);
-**Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism)
+Cost: 3,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** head; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: head
+Price: 20,000 gp
+Weight: -
+:::
 
 Mystic symbols embroidered in gold thread decorate this conical hat. Three times per day as a free
 action when casting a spell, the wearer can shift metamagic feats on prepared spells. The wearer can
@@ -38,5 +43,7 @@ spontaneous casting or [spell-like abilities](ref/umr/spell-like-abilities).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 10,000 gp
+:::

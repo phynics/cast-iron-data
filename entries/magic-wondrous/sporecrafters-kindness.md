@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: 4 lbs.
+:::
 
 This brown hemp sack is filled with mold spores, soil, and chemical reagents. It can be
 [thrown as a splash weapon](ref/rule/throw-splash-weapon) with a range increment of 10 feet. Upon
@@ -32,5 +37,7 @@ nearest creatures for 5 rounds, after which they collapse into nonmagical plant 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison),
-[summon nature's ally III](ref/spell/summon-natures-ally-3); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison), [summon nature's ally III](ref/spell/summon-natures-ally-3)
+Cost: 750 gp
+:::

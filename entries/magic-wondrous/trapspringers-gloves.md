@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** hands; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: hands
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 These studded leather gloves look similar to workman's gloves, though they are reinforced with
 numerous metal strips that the user can extend or retract as she wills, turning the tip of each
@@ -35,5 +40,7 @@ traps.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[find traps](ref/spell/find-traps); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [find traps](ref/spell/find-traps)
+Cost: 2,000 gp
+:::

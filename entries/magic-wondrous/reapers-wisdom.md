@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** shoulders; **Price** 21,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: shoulders
+Price: 21,600 gp
+Weight: 1 lb.
+:::
 
 This single, jade-encrusted [ironwood](ref/spell/ironwood) pauldron glistens slightly, as if it were
 the reflective surface of a still pool, even in complete darkness. This pauldron increases the
@@ -33,5 +38,7 @@ magical effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overwhelming poison](ref/spell/overwhelming-poison); **Cost** 10,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overwhelming poison](ref/spell/overwhelming-poison)
+Cost: 10,800 gp
+:::

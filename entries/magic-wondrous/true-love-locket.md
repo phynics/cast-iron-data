@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 6,000 gp
+Weight: -
+:::
 
 These gold, heart-shaped pendants, which open to reveal small hollows inside, always come in pairs
 and must be on the same plane of existence to function. When two people with a strong emotional bond
@@ -40,5 +45,7 @@ another plane, both lockets cease to function until re-attuned after 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[borrow skill](ref/spell/borrow-skill), [status](ref/spell/status); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [borrow skill](ref/spell/borrow-skill), [status](ref/spell/status)
+Cost: 3,000 gp
+:::

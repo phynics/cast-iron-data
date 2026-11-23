@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** chest; **Price** 60,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: chest
+Price: 60,000 gp
+Weight: 2 lbs.
+:::
 
 This sash of white silk embroidered with golden suns never tears, fades, or soils. Once per day, a
 paladin wearing this baldric can select three extra mercies of her level or lower she does not
@@ -32,6 +37,7 @@ suppressing it for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extra Mercy](ref/feat/extra-mercy), [remove disease](ref/spell/remove-disease),
-[remove curse](ref/spell/remove-curse), creator must be lawful good; **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extra Mercy](ref/feat/extra-mercy), [remove disease](ref/spell/remove-disease), [remove curse](ref/spell/remove-curse), creator must be lawful good
+Cost: 30,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** neck; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: neck
+Price: 15,000 gp
+Weight: -
+:::
 
 This stone is bright blue and dangles on a silver chain meant to be worn on the neck. The wearer of
 this periapt automatically becomes [stable](ref/misc/stable) if his hit points drop below 0 (but not
@@ -35,5 +40,7 @@ damage from bleeding that causes [ability damage or drain](ref/rule/ability-dama
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heal](ref/spell/heal);
-**Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heal](ref/spell/heal)
+Cost: 7,500 gp
+:::

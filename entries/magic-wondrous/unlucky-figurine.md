@@ -20,8 +20,12 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** none; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: none
+Weight: 1 lb.
+:::
 
 This figurine appears to be a
 [figurine of wondrous power](ref/magic-wondrous/figurine-of-wondrous-power), but instead of having
@@ -31,4 +35,7 @@ skill checks, ability checks, and saving throws.
 
 ### Construction
 
-**Requirements** any figurine of wondrous power; **Cost** -
+::: statblock
+Requirements: any figurine of wondrous power
+Cost: -
+:::

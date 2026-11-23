@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "2nd"
 +++
 
-**Aura** faint transmutation; **CL** 2nd\
-**Slot** eyes; **Price** 2,600 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 2nd
+Slot: eyes
+Price: 2,600 gp
+Weight: -
+:::
 
 This black silk eye patch is adorned by a skull and crossbones worked in silver thread. The wearer
 of this patch gains a +2 competence bonus on [Swim](ref/skill/swim) and [Climb](ref/skill/climb)
@@ -31,6 +36,7 @@ _[expeditious retreat](ref/spell/expeditious-retreat)_ on command (wearer's choi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat),
-[touch of the sea](ref/spell/touch-of-the-sea); **Cost** 1,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat), [touch of the sea](ref/spell/touch-of-the-sea)
+Cost: 1,300 gp
+:::

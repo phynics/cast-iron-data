@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,980 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,980 gp
+Weight: 30 lbs.
+:::
 
 Fashioned from granite, this stone tablet is approximately 2 feet long, 1 foot wide, and just over
 an inch thick. Dating to the period of the Keleshite Interregnum in Osirion over 2,000 years ago,
@@ -50,6 +55,7 @@ other languages.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), creator must know all three languages
-displayed on the tablet or have 3 ranks in Linguistics; **Cost** 990 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), creator must know all three languages displayed on the tablet or have 3 ranks in Linguistics
+Cost: 990 gp
+:::

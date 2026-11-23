@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** body; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: body
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 The surface of this delicate-looking blue silk robe is adorned with tiny embossed runes across its
 entire surface. If the wearer is a spontaneous caster, once per day she may use a spell slot to cast
@@ -36,6 +41,7 @@ vestment must be worn for 24 consecutive hours before using its effects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mnemonic enhancer](ref/spell/mnemonic-enhancer), creator must be able to spontaneously cast spells;
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mnemonic enhancer](ref/spell/mnemonic-enhancer), creator must be able to spontaneously cast spells
+Cost: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** hands; **Price** 15,302 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: hands
+Price: 15,302 gp
+Weight: 6 lbs.
+:::
 
 These bloodstained gauntlets are made of a combination of blackened steel and polished white stone.
 They are slightly oversized and somewhat bulky, though still suitable for combat. They function as
@@ -40,5 +45,7 @@ brawler's knockout increases by 2.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deep slumber](ref/spell/deep-slumber), [stone fist](ref/spell/stone-fist); **Cost** 7,802 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deep slumber](ref/spell/deep-slumber), [stone fist](ref/spell/stone-fist)
+Cost: 7,802 gp
+:::

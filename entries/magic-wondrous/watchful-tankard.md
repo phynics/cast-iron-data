@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 10 lbs.
+:::
 
 Images of a dwarf and human drinking together decorate the sides of this 1-foot-tall granite stein,
 which is capped off with a rough-hewn orb of the same material. When the user speaks the command
@@ -38,5 +43,7 @@ from this location.
 
 ### Construction
 
-**Requirements** [Alertness](ref/feat/alertness),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm); **Cost** 15,000 gp
+::: statblock
+Requirements: [Alertness](ref/feat/alertness), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm)
+Cost: 15,000 gp
+:::

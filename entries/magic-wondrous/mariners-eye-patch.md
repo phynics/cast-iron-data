@@ -20,8 +20,13 @@ aura = "faint evocation and divination"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and divination; **CL** 5th\
-**Slot** eyes; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation and divination
+CL: 5th
+Slot: eyes
+Price: 12,000 gp
+Weight: -
+:::
 
 This pirate's eye patch typically features at least one jewel set into a leather patch. Upon
 uttering a command word as a standard action, the eye patch allows the wearer to use the following
@@ -32,6 +37,7 @@ The mariner's eye patch originally appeared on pg. 73 of Necromancer Games' Dead
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages), [scorching ray](ref/spell/scorching-ray),
-[see invisibility](ref/spell/see-invisibility); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages), [scorching ray](ref/spell/scorching-ray), [see invisibility](ref/spell/see-invisibility)
+Cost: 6,000 gp
+:::

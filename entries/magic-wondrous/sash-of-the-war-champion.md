@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** chest; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: chest
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This bright red strip of cloth, stitched with images of a cheering crowd throwing garlands toward a
 chariot, fits across the wearer's shoulders and then diagonally down his chest to reach his opposite
@@ -33,5 +38,7 @@ training and bravery class features.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace), [remove fear](ref/spell/remove-fear); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace), [remove fear](ref/spell/remove-fear)
+Cost: 2,000 gp
+:::

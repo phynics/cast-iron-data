@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 30,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 30,000 gp
+Weight: 3 lbs.
+:::
 
 A racing broom of flying functions like a [broom of flying](ref/magic-wondrous/broom-of-flying),
 except for 9 minutes per day it can fly faster than its standard counterpart. Activating this
@@ -34,5 +39,7 @@ chance that the broom gains the [broken](ref/misc/broken) condition and is power
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[overland flight](ref/spell/overland-flight), [permanency](ref/spell/permanency); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [overland flight](ref/spell/overland-flight), [permanency](ref/spell/permanency)
+Cost: 15,000 gp
+:::

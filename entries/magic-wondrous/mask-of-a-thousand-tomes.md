@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 The random snippets of script that write across the surface of this parchment-colored eyeless mask
 hint at the knowledge of the many tomes stored within. The mask grants its wearer a +10 competence
@@ -31,5 +36,7 @@ wearer gains its bonus.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Cost: 5,000 gp
+:::

@@ -25,19 +25,13 @@ caster_level = "varies"
 
 ## Talisman (Lesser)
 
-**Aura** varies; **CL** varies\
-**Slot** neck; **Price** 50 gp (Lesser, Beneficial Winds), 450 gp (Lesser, Akoben), 450 gp (Lesser,
-Sealed Summons), 450 gp (Lesser, Warrior's Courage), 600 gp (Lesser, Arrow Protection), 600 gp
-(Lesser, Pentacle), 600 gp (Lesser, Scarab), 600 gp (Lesser, Trickelion), 750 gp (Lesser, Danger
-Sense), 900 gp (Lesser, Freedom), 1,250 gp (Lesser, Ankh), 1,250 gp (Lesser, Protection from
-Flames), 1,680 gp (Lesser, Good Fortune), 2,400 gp (Lesser, Healing Power), 3,000 gp (Lesser,
-Hamsa), 3,500 gp (Lesser, Life's Breath), 500 gp (Greater, Beneficial Winds), 4,500 gp (Greater,
-Akoben), 4,500 gp (Greater, Sealed Summons), 4,500 gp (Greater, Warrior's Courage), 6,000 gp
-(Greater, Arrow Protection), 6,000 gp (Greater, Pentacle), 6,000 gp (Greater, Scarab), 6,000 gp
-(Greater, Triskelion), 7,500 gp (Greater, Danger Sense), 9,000 gp (Greater, Freedom), 12,500 gp
-(Greater, Ankh), 12,500 gp (Greater, Protection from Flames), 16,800 gp (Greater, Good Fortune),
-24,000 gp (Greater, Healing Power), 30,000 gp (Greater, Hamsa), 35,000 gp (Greater, Life's Breath);
-**Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: neck
+Price: 50 gp (Lesser, Beneficial Winds), 450 gp (Lesser, Akoben), 450 gp (Lesser, Sealed Summons), 450 gp (Lesser, Warrior's Courage), 600 gp (Lesser, Arrow Protection), 600 gp (Lesser, Pentacle), 600 gp (Lesser, Scarab), 600 gp (Lesser, Trickelion), 750 gp (Lesser, Danger Sense), 900 gp (Lesser, Freedom), 1,250 gp (Lesser, Ankh), 1,250 gp (Lesser, Protection from Flames), 1,680 gp (Lesser, Good Fortune), 2,400 gp (Lesser, Healing Power), 3,000 gp (Lesser, Hamsa), 3,500 gp (Lesser, Life's Breath), 500 gp (Greater, Beneficial Winds), 4,500 gp (Greater, Akoben), 4,500 gp (Greater, Sealed Summons), 4,500 gp (Greater, Warrior's Courage), 6,000 gp (Greater, Arrow Protection), 6,000 gp (Greater, Pentacle), 6,000 gp (Greater, Scarab), 6,000 gp (Greater, Triskelion), 7,500 gp (Greater, Danger Sense), 9,000 gp (Greater, Freedom), 12,500 gp (Greater, Ankh), 12,500 gp (Greater, Protection from Flames), 16,800 gp (Greater, Good Fortune), 24,000 gp (Greater, Healing Power), 30,000 gp (Greater, Hamsa), 35,000 gp (Greater, Life's Breath)
+Weight: 1 lb.
+:::
 
 These amulets are imbued with magic that allows them to protect their wearer against a very specific
 danger. A talisman triggers automatically as soon as the listed condition is fulfilled. Although
@@ -162,15 +156,7 @@ the benefits of _[longstrider](ref/spell/longstrider)_ for 5 rounds. Faint trans
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), additional spells (see text);
-**Cost** 225 gp (Lesser, Akoben), 625 gp (Lesser, Ankh), 300 gp (Lesser, Arrow Protection), 25 gp
-(Lesser, Beneficial Winds), 375 gp (Lesser, Danger Sense), 450 gp (Lesser, Freedom), 840 gp (Lesser,
-Good Fortune), 1,500 gp (Lesser, Hamsa), 1,200 gp (Lesser, Healing Power), 1,750 gp (Lesser, Life's
-Breath), 300 gp (Lesser, Pentacle), 625 gp (Lesser, Protection from Flames), 300 gp (Lesser,
-Scarab), 225 gp (Lesser, Sealed Summons), 300 gp (Lesser, Triskelion), 225 gp (Lesser, Warrior's
-Courage), Cost 2,250 gp (Greater, Akoben), 6,250 gp (Greater, Ankh), 3,000 gp (Greater, Arrow
-Protection), 250 gp (Greater, Beneficial Winds), 3,750 gp (Greater, Danger Sense), 4,500 gp
-(Greater, Freedom), 8,400 gp (Greater, Good Fortune), 15,000 (Greater, Hamsa), 12,000 gp (Greater,
-Healing Power), 17,500 gp (Greater, Life's Breath), 3,000 gp (Greater, Pentacle), 6,250 gp (Greater,
-Protection from Flames), 3,000 gp (Greater, Scarab), 2,250 gp (Greater, Sealed Summons), 3,000 gp
-(Greater, Triskelion), 2,250 gp (Greater, Warrior's Courage)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), additional spells (see text)
+Cost: 225 gp (Lesser, Akoben), 625 gp (Lesser, Ankh), 300 gp (Lesser, Arrow Protection), 25 gp (Lesser, Beneficial Winds), 375 gp (Lesser, Danger Sense), 450 gp (Lesser, Freedom), 840 gp (Lesser, Good Fortune), 1,500 gp (Lesser, Hamsa), 1,200 gp (Lesser, Healing Power), 1,750 gp (Lesser, Life's Breath), 300 gp (Lesser, Pentacle), 625 gp (Lesser, Protection from Flames), 300 gp (Lesser, Scarab), 225 gp (Lesser, Sealed Summons), 300 gp (Lesser, Triskelion), 225 gp (Lesser, Warrior's Courage), Cost 2,250 gp (Greater, Akoben), 6,250 gp (Greater, Ankh), 3,000 gp (Greater, Arrow Protection), 250 gp (Greater, Beneficial Winds), 3,750 gp (Greater, Danger Sense), 4,500 gp (Greater, Freedom), 8,400 gp (Greater, Good Fortune), 15,000 (Greater, Hamsa), 12,000 gp (Greater, Healing Power), 17,500 gp (Greater, Life's Breath), 3,000 gp (Greater, Pentacle), 6,250 gp (Greater, Protection from Flames), 3,000 gp (Greater, Scarab), 2,250 gp (Greater, Sealed Summons), 3,000 gp (Greater, Triskelion), 2,250 gp (Greater, Warrior's Courage)
+:::

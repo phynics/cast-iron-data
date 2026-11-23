@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: none
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 A retriever drone appears as a masterfully preserved spider the size of a house cat, whose eyes have
 been replaced by four glittering gemstones. These devices are created by spellcasters who wish to
@@ -48,7 +53,7 @@ in this manner, the user takes 1d4 points of [Constitution damage](ref/rule/abil
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater planar binding](ref/spell/planar-binding-greater), [scrying](ref/spell/scrying); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater planar binding](ref/spell/planar-binding-greater), [scrying](ref/spell/scrying)
+Cost: 4,000 gp
+:::

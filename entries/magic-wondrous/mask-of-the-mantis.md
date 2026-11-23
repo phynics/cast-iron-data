@@ -35,8 +35,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** head; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: head
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 A mask of the mantis is the traditional headgear of the [Red Mantis](ref/rule/aff-assassins)
 assassin - a magical helm that evokes the eerie visage of a praying mantis. Designed both to mask
@@ -51,6 +56,7 @@ hours.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [deathwatch](ref/spell/deathwatch),
-[see invisibility](ref/spell/see-invisibility); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [deathwatch](ref/spell/deathwatch), [see invisibility](ref/spell/see-invisibility)
+Cost: 3,000 gp
+:::

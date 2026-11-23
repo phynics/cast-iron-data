@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** shoulders; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: shoulders
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 This long stole of unrelenting black is marked on one end with golden scales and the other with the
 embroidered image of hooded justice. The wearer gains a +5 competence bonus on
@@ -37,6 +42,7 @@ information as if she had concentrated for 3 full rounds. Finally, if the wearer
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[zone of truth](ref/spell/zone-of-truth), creator must have 5 ranks of Sense Motive; **Cost** 9,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [zone of truth](ref/spell/zone-of-truth), creator must have 5 ranks of Sense Motive
+Cost: 9,000 gp
+:::

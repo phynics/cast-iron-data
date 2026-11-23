@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** none; **Price** 800 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: none
+Price: 800 gp
+Weight: -
+:::
 
 This stick of incense is coated in the ectoplasmic residue of slain spirits. A
 [spiritualist](ref/class/spiritualist) can burn the incense as part of her ritual to manifest her
@@ -31,5 +36,7 @@ incense can be used only once before being fully consumed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heal](ref/spell/heal);
-**Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heal](ref/spell/heal)
+Cost: 400 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 4,300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 4,300 gp
+Weight: 4 lbs.
+:::
 
 These masterwork snowshoes provide greater stability and weight distribution in snow. The snowshoes
 completely negate the effects of normal snow on movement, and reduce the movement penalties in
@@ -34,6 +39,7 @@ of tracks left in the snow in a 60-foot radius.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[feather step](ref/spell/feather-step), [longstrider](ref/spell/longstrider),
-[pass without trace](ref/spell/pass-without-trace); **Cost** 2,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [feather step](ref/spell/feather-step), [longstrider](ref/spell/longstrider), [pass without trace](ref/spell/pass-without-trace)
+Cost: 2,150 gp
+:::

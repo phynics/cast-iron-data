@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 2 lbs.
+:::
 
 Some of the manuals ascribed to [Irori](ref/faith/irori) deal with physical regimens, teaching the
 reader how to hone his body as a fighting weapon. Others teach mental exercises to hone the wits and
@@ -32,5 +37,7 @@ Irori is your patron, this bonus increases to +2.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid); **Cost**
-2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [aid](ref/spell/aid)
+Cost: 2,000 gp
+:::

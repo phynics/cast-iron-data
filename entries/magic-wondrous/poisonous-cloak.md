@@ -23,8 +23,12 @@ aura = "moderate transmutation"
 caster_level = "15th"
 +++
 
-**Aura** moderate transmutation; **CL** 15th\
-**Slot** shoulders; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 15th
+Slot: shoulders
+Weight: 1 lb.
+:::
 
 This cloak is usually made of wool, although it can be made of leather. A
 [detect poison](ref/spell/detect-poison) spell can reveal the presence of poison in the cloak's
@@ -39,8 +43,7 @@ victim with a [raise dead](ref/spell/raise-dead) or [resurrection](ref/spell/res
 
 ### Construction
 
-**Requirements** [cloak of arachnida](ref/magic-wondrous/cloak-of-arachnida),
-[cloak of the bat](ref/magic-wondrous/cloak-of-the-bat),
-[cloak of etherealness](ref/magic-wondrous/cloak-of-etherealness),
-[cloak of resistance +5](ref/magic-wondrous/cloak-of-resistance-5),
-[major cloak of displacement](ref/magic-wondrous/cloak-of-displacement-major); **Cost** -
+::: statblock
+Requirements: [cloak of arachnida](ref/magic-wondrous/cloak-of-arachnida), [cloak of the bat](ref/magic-wondrous/cloak-of-the-bat), [cloak of etherealness](ref/magic-wondrous/cloak-of-etherealness), [cloak of resistance +5](ref/magic-wondrous/cloak-of-resistance-5), [major cloak of displacement](ref/magic-wondrous/cloak-of-displacement-major)
+Cost: -
+:::

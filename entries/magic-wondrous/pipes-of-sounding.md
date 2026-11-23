@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "2nd"
 +++
 
-**Aura** faint illusion; **CL** 2nd\
-**Slot** none; **Price** 1,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint illusion
+CL: 2nd
+Slot: none
+Price: 1,800 gp
+Weight: 3 lbs.
+:::
 
 When played by a character who has the [Perform (wind)](ref/skill/perform-any) skill, these shiny
 metallic pan pipes create a variety of sounds that can imitate creatures, environmental sounds, or
@@ -32,5 +37,7 @@ most other sounds. The figment sounds are the equivalent of _[ghost sound](ref/s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound)
+Cost: 900 gp
+:::

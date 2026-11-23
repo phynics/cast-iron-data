@@ -22,9 +22,13 @@ caster_level = "7th"
 
 ## Replenishing Aquarium Ball
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 500 gp (Lesser), 2,000 gp (Standard), 4,000 gp (Greater); **Weight** 20
-lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 500 gp (Lesser), 2,000 gp (Standard), 4,000 gp (Greater)
+Weight: 20 lbs.
+:::
 
 Replenishing aquarium balls act as standard [aquarium balls](ref/eq-misc/aquarium-ball), but are
 endowed with magical effects beneficial to the creature held within. The power of the magic depends
@@ -41,8 +45,7 @@ greater replenishing aquarium ball is magically enhanced so that the glass is as
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water) (lesser only),
-[create food and water](ref/spell/create-food-and-water) (standard and greater only),
-[stoneskin](ref/spell/stoneskin) (greater only); **Cost** 250 gp (lesser), 1,000 gp (standard),
-2,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water) (lesser only), [create food and water](ref/spell/create-food-and-water) (standard and greater only), [stoneskin](ref/spell/stoneskin) (greater only)
+Cost: 250 gp (lesser), 1,000 gp (standard), 2,000 gp (greater)
+:::

@@ -26,8 +26,13 @@ aura = "moderate enchantment [evil]"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment \[evil\]; **CL** 7th\
-**Slot** head; **Price** 12,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment \[evil\]
+CL: 7th
+Slot: head
+Price: 12,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of a reaper's mask gains a +2 competence bonus on [Perception](ref/skill/perception)
 checks made against creatures that aren't immune to fear and a +1 profane bonus on damage with
@@ -38,5 +43,7 @@ advance of a mission so they have time to recover.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[confusion](ref/spell/confusion), [deathwatch](ref/spell/deathwatch); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [confusion](ref/spell/confusion), [deathwatch](ref/spell/deathwatch)
+Cost: 6,000 gp
+:::

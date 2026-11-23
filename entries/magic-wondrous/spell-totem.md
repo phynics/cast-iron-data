@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "13th"
 +++
 
-**Aura** moderate evocation; **CL** 13th\
-**Slot** none; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 13th
+Slot: none
+Price: 12,000 gp
+Weight: -
+:::
 
 Carved from a piece of bone from the kind of animal it depicts, this primitive charm can hold (but
 not cast) up to 3 levels of spells as a
@@ -36,6 +41,7 @@ totems can be crafted in the form of animals or magical beasts.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Quicken Spell](ref/feat/quicken-spell), [contingency](ref/spell/contingency),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Quicken Spell](ref/feat/quicken-spell), [contingency](ref/spell/contingency), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 6,000 gp
+:::

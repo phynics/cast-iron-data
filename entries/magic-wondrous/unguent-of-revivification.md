@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 300 gp
+Weight: 1 lb.
+:::
 
 This foul-smelling gray paste is typically stored in a bone container. When smeared upon a corpse,
 it preserves that corpse's state of decay for 5 days, as if via the
@@ -35,5 +40,7 @@ truths of their undead flesh.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose)
+Cost: 150 gp
+:::

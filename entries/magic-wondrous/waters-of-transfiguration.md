@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 12,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 12,500 gp
+Weight: 1 lb.
+:::
 
 This small lacquered box made from exotic and colorful woods contains five vials and a single
 dropper. The vials are labeled "glass," "iron," "paper," "stone," and "wood," and each contains a
@@ -37,5 +42,7 @@ objects may resist this transformation with a successful DC 17 Fortitude save.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate)
+Cost: 6,250 gp
+:::

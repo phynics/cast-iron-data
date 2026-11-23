@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 9,000 gp
+Weight: -
+:::
 
 This wooden disk bears the image of a mother-sphinx, a symbol of Absalom that epitomizes knowledge
 and arcane power, brought by Osirian families in the city's early years. Once per day, the user can
@@ -31,5 +36,7 @@ an _[arcane concordance](ref/spell/arcane-concordance)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane concordance](ref/spell/arcane-concordance); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane concordance](ref/spell/arcane-concordance)
+Cost: 4,500 gp
+:::

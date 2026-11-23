@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 This magic earring grows warm whenever a ship's crew begins muttering of mutiny, granting the wearer
 of a mutineer's bane earring a +5 bonus on all [Sense Motive](ref/skill/sense-motive) checks made
@@ -34,5 +39,7 @@ admiral's fleet gain a +1 bonus on morale checks in fleet battles.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect thoughts](ref/spell/detect-thoughts); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect thoughts](ref/spell/detect-thoughts)
+Cost: 2,000 gp
+:::

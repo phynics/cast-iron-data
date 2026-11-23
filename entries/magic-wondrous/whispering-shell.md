@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 This striped conch shell appears to be nothing more than a piece of flotsam idly picked up by a
 beachcomber. Once per day when held to the lips, the conch shell absorbs a whispered message of 25
@@ -32,5 +37,7 @@ can replay its message as often as a creature issues the command to do so.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[whispering wind](ref/spell/whispering-wind); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [whispering wind](ref/spell/whispering-wind)
+Cost: 1,500 gp
+:::

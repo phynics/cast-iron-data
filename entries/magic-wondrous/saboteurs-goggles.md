@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** eyes; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: eyes
+Price: 16,000 gp
+Weight: -
+:::
 
 These goggles are fitted with crimson lenses surrounded by thick, round brass frames and secured
 with a leather strap. Three times per day, the wearer can use
@@ -30,6 +35,7 @@ negates).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Heighten Spell](ref/feat/heighten-spell), [murderous command](ref/spell/murderous-command);
-**Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Heighten Spell](ref/feat/heighten-spell), [murderous command](ref/spell/murderous-command)
+Cost: 8,000 gp
+:::

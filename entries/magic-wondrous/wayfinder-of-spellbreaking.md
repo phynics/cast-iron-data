@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "7th"
 +++
 
-**Aura** faint abjuration; **CL** 7th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 7th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 With an exterior crafted of blackened iron, the wayfinder of spellbreaking has no ornamentation. In
 addition to the usual functions of a [wayfinder](ref/magic-wondrous/wayfinder) (including the
@@ -34,5 +39,7 @@ targets the effect with the highest caster level.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic), [light](ref/spell/light); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic), [light](ref/spell/light)
+Cost: 4,000 gp
+:::

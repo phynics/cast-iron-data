@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 17,200 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 17,200 gp
+Weight: 1/2 lb.
+:::
 
 This grotesque leather mask is sewn together from pieces of faces taken from many humanoids. When
 the user places the mask against the face of a willing, pinned, or helpless humanoid as a full-round
@@ -46,6 +51,7 @@ character's visage; however, the wearer can still remove and replace the mask du
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [misdirection](ref/spell/misdirection),
-[tongues](ref/spell/tongues); **Cost** 8,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [misdirection](ref/spell/misdirection), [tongues](ref/spell/tongues)
+Cost: 8,600 gp
+:::

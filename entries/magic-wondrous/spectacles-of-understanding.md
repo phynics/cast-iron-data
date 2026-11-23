@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "2nd"
 +++
 
-**Aura** faint divination; **CL** 2nd\
-**Slot** eyes; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 2nd
+Slot: eyes
+Price: 3,000 gp
+Weight: -
+:::
 
 When worn, these innocent-looking spectacles convert any written language to one known by the
 wearer, as the _[comprehend languages](ref/spell/comprehend-languages)_ spell. The glasses are also
@@ -31,5 +36,7 @@ untrained.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[comprehend languages](ref/spell/comprehend-languages); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [comprehend languages](ref/spell/comprehend-languages)
+Cost: 1,500 gp
+:::

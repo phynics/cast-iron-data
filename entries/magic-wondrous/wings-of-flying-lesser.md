@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** shoulders; **Price** 22,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: shoulders
+Price: 22,000 gp
+Weight: 10 lbs.
+:::
 
 This mechanical backpack is a mess of gears and cogs, with two large canvas wings extending out from
 it to rise over the wearer's shoulders. When the wearer touches the button on the pack's chest
@@ -32,5 +37,7 @@ Lesser wings of flying grant the wearer a fly speed of 30 feet (poor maneuverabi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly); **Cost**
-11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fly](ref/spell/fly)
+Cost: 11,000 gp
+:::

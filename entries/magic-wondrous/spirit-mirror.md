@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 18,900 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 18,900 gp
+Weight: 4 lbs.
+:::
 
 These unusual hand-mirrors allow the user to communicate with the spirits of the recently deceased,
 although such communication comes with great risk. On command, the user can look into the mirror and
@@ -44,5 +49,7 @@ mirror's user.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call spirit](ref/spell/call-spirit); **Cost** 9,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call spirit](ref/spell/call-spirit)
+Cost: 9,450 gp
+:::

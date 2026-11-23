@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** neck; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: neck
+Price: 5,400 gp
+Weight: -
+:::
 
 A stormlure is usually fashioned from pieces of creatures known for their affinity to air - the
 feathers of birds, the shells of flying insects, and the scales of a dragon. When activated,
@@ -34,5 +39,7 @@ of electricity damage to all creatures adjacent to her. A DC 14 Reflex save halv
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lightning bolt](ref/spell/lightning-bolt), [wind wall](ref/spell/wind-wall); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lightning bolt](ref/spell/lightning-bolt), [wind wall](ref/spell/wind-wall)
+Cost: 2,700 gp
+:::

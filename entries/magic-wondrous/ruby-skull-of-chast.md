@@ -20,8 +20,13 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 9th\
-**Slot** none; **Price** 65,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 9th
+Slot: none
+Price: 65,000 gp
+Weight: 5 lbs.
+:::
 
 This human skull covered in red lacquer bears a holy symbol of [Pharasma](ref/faith/pharasma). The
 area around the Ruby Skull of Chast is treated as though a _[hallow](ref/spell/hallow)_ spell had
@@ -33,5 +38,7 @@ spells unless the caster of the divination succeeds at a DC 20 caster level chec
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow),
-[nondetection](ref/spell/nondetection); **Cost** 32,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow), [nondetection](ref/spell/nondetection)
+Cost: 32,500 gp
+:::

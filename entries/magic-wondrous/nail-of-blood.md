@@ -19,8 +19,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** special (see below); **Price** 25,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: special (see below)
+Price: 25,000 gp
+Weight: -
+:::
 
 Inscribed along its length with wicked-looking runes, this 3-inch-long nail is made of black metal
 and gives off a faint, eerie blue glow. Powered by strange necromantic magic, the nail allows a
@@ -39,5 +44,7 @@ additional spells while she is exhausted, no matter what effect caused her exhau
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blood transcription](ref/spell/blood-transcription); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blood transcription](ref/spell/blood-transcription)
+Cost: 12,500 gp
+:::

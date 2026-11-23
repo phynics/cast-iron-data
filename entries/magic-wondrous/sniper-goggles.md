@@ -23,10 +23,13 @@ aura = "faint divination (normal), moderate divination (greater)"
 caster_level = "5th (normal), 8th (greater)"
 +++
 
-**Aura** faint divination (normal), moderate divination (greater); **CL** 5th (normal), 8th
-(greater)\
-**Slot** eyes; **Price** 20,000 gp (normal), 50,000 gp (greater); **Weight** 1 lb. (normal), —
-(greater)
+::: statblock
+Aura: faint divination (normal), moderate divination (greater)
+CL: 5th (normal), 8th (greater)
+Slot: eyes
+Price: 20,000 gp (normal), 50,000 gp (greater)
+Weight: 1 lb. (normal), — (greater)
+:::
 
 The leather strap attached to these bulbous lenses allows their wearer to fit them to his head. The
 wearer of these goggles can make ranged [sneak attacks](ref/ability/sneak-attack) from any distance
@@ -39,5 +42,7 @@ wearer gains the +2 circumstance bonus on each sneak attack when making a sneak 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true strike](ref/spell/true-strike); **Cost** 10,000 gp (normal), 25,000 gp (greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true strike](ref/spell/true-strike)
+Cost: 10,000 gp (normal), 25,000 gp (greater)
+:::

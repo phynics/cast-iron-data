@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** chest; **Price** 7,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: chest
+Price: 7,000 gp
+Weight: -
+:::
 
 This magical cloth vest is made from rich green cloth that is typically a blend of silk and cotton.
 It has a high collar that is stitched with gold thread forming elaborate, overlapping geometric
@@ -34,6 +39,7 @@ The vest contains 5 charges that recharge daily.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[delay poison](ref/spell/delay-poison), [neutralize poison](ref/spell/neutralize-poison); **Cost**
-3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [delay poison](ref/spell/delay-poison), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 3,500 gp
+:::

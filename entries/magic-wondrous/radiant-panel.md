@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: -
+:::
 
 This small glass cube bears shallow indents carved into each side. Pressing an indentation as a
 standard action creates a thin sheet of hard light that is 5 feet wide. The sheet covers one edge of
@@ -41,5 +46,7 @@ sheet can be dismissed as a standard action, expending the full use of that shee
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[floating disk](ref/spell/floating-disk); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [floating disk](ref/spell/floating-disk)
+Cost: 6,000 gp
+:::

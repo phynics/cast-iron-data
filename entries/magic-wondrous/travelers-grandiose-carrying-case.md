@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 5th\
-**Slot** none; **Price** 1,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 5th
+Slot: none
+Price: 1,200 gp
+Weight: 2 lbs.
+:::
 
 This masterwork harrow carrying case protects the [harrow deck](ref/eq-misc/harrow-deck) within from
 harm. When the case is used as part of a harrowing, the [light level](ref/rule/vision-and-light)
@@ -31,6 +36,7 @@ case, a harrow deck gains a +2 bonus on saves against effects that specifically 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkness](ref/spell/darkness), [endure elements](ref/spell/endure-elements),
-[major image](ref/spell/major-image); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkness](ref/spell/darkness), [endure elements](ref/spell/endure-elements), [major image](ref/spell/major-image)
+Cost: 600 gp
+:::

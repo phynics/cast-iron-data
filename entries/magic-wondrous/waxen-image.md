@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 500 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 500 gp
+Weight: 1/2 lb.
+:::
 
 This poorly formed wax figure resembles an unfinished sculpt of a humanoid. It can be bound to a
 living humanoid in a similar way to a [ganji doll](ref/magic-fetish/ganji-doll), but must be
@@ -35,5 +40,7 @@ from the waxen image. A waxen image can be used only once, and melts as soon as 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Cost: 250 gp
+:::

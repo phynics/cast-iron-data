@@ -26,8 +26,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** head; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: head
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This intricate mask is made of gold-plated iron. Writhing snake tails radiate from a gemstone upon
 the brow, almost as if they were medusa-like hair. The mask grants a +4 bonus on all saving throws
@@ -39,5 +44,7 @@ _[flesh to stone](ref/spell/flesh-to-stone)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flesh to stone](ref/spell/flesh-to-stone), [resistance](ref/spell/resistance); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flesh to stone](ref/spell/flesh-to-stone), [resistance](ref/spell/resistance)
+Cost: 5,000 gp
+:::

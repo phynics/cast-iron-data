@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shoulders; **Price** 10,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shoulders
+Price: 10,000 gp
+Weight: 3 lbs.
+:::
 
 These steel pauldrons are engraved with images of charging bulls. When their wearer makes a
 [bull rush](ref/rule/bull-rush) combat maneuver, she can make the check twice and take the better
@@ -29,5 +34,7 @@ result. Furthermore, they grant a +2 enhancement bonus to CMD against bull rushe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength)
+Cost: 5,000 gp
+:::

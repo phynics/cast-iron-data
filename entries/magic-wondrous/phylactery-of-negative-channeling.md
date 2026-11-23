@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** headband; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: headband
+Price: 11,000 gp
+Weight: -
+:::
 
 This item is a boon to any character able to [channel negative energy](ref/ability/channel-energy),
 increasing the amount of damage dealt to living creatures by +2d6. This also increases the amount of
@@ -32,5 +37,7 @@ damage healed by undead creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level
-cleric; **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 10th-level cleric
+Cost: 5,500 gp
+:::

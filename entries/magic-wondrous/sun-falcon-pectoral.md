@@ -20,8 +20,13 @@ aura = "faint evocation [light]"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation \[light\]; **CL** 5th\
-**Slot** neck; **Price** 5,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint evocation \[light\]
+CL: 5th
+Slot: neck
+Price: 5,400 gp
+Weight: 3 lbs.
+:::
 
 This ornate pectoral necklace is crafted out of articulated gold plates arranged in the shape of a
 falcon - the sacred animal of [Horus](ref/faith/horus), the Ancient Osirion god of the sun and the
@@ -41,5 +46,7 @@ _[daylight](ref/spell/daylight)_ or sunbeams, a sun falcon pectoral can only be 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight); **Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight)
+Cost: 2,700 gp
+:::

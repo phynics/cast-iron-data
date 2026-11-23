@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** body; **Price** 48,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: body
+Price: 48,000 gp
+Weight: 1 lb.
+:::
 
 Appearing to be nothing more than a ratty wool robe with a hood, this garment is an invaluable tool
 for spies, thieves, and smugglers. On command, the wearer and non-living objects up to her maximum
@@ -43,6 +48,7 @@ robe's space, and the wearer is [dazed](ref/misc/dazed) for one round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[secret chest](ref/spell/secret-chest), [magic aura](ref/spell/magic-aura),
-[arcane eye](ref/spell/arcane-eye); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest), [magic aura](ref/spell/magic-aura), [arcane eye](ref/spell/arcane-eye)
+Cost: 24,000 gp
+:::

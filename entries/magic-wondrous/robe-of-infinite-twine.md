@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** body; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: body
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 This coarse hempen robe seems made from a single strand of twine. The wearer can draw up to 30 feet
 of [twine](ref/eq-misc/string-or-twine-50-ft) or up to 10 feet of
@@ -33,5 +38,7 @@ material rather than part of a magic item. Pieces removed become normal twine or
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation)
+Cost: 500 gp
+:::

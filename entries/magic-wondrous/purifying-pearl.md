@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 19,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 10th
+Slot: none
+Price: 19,000 gp
+Weight: -
+:::
 
 A favored tool of diplomats and those tasked with protecting the lives of regents and other
 important people, this small luminescent white pearl purifies putridity and poison in two ways.
@@ -33,6 +38,7 @@ _[neutralize poison](ref/spell/neutralize-poison)_ spell cast on that creature (
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison),
-[purify food and drink](ref/spell/purify-food-and-drink); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 8,000 gp
+:::

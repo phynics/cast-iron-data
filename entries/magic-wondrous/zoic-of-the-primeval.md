@@ -20,8 +20,13 @@ aura = "strong enchantment (compulsion)"
 caster_level = "17th"
 +++
 
-**Aura** strong enchantment (compulsion); **CL** 17th\
-**Slot** neck; **Price** 50,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment (compulsion)
+CL: 17th
+Slot: neck
+Price: 50,000 gp
+Weight: 1 lb.
+:::
 
 This collection of twigs and dinosaur teeth can be strung through with a length of sinew to create a
 necklace that offers limited protection against dangerous animals. The bearer of the Zoic of the
@@ -34,5 +39,7 @@ negates).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate monster](ref/spell/dominate-monster); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate monster](ref/spell/dominate-monster)
+Cost: 25,000 gp
+:::

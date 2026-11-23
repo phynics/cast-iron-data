@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 This small vial is sealed with a fine metal cap engraved with the visage of a noble hound. When a
 few drops of a creature's blood are placed in the vial, it begins to fill on its own, replicating
@@ -34,5 +39,7 @@ activate another nest revealer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate creature](ref/spell/locate-creature); **Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate creature](ref/spell/locate-creature)
+Cost: 250 gp
+:::

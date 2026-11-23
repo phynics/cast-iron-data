@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** eyes; **Price** 20,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: eyes
+Price: 20,000 gp
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -43,6 +48,7 @@ DC 17 Will saving throw.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [detect thoughts](ref/spell/detect-thoughts), creator must be a
-gillman; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [detect thoughts](ref/spell/detect-thoughts), creator must be a gillman
+Cost: 10,000 gp
+:::

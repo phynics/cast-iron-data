@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** head; **Price** 27,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: head
+Price: 27,500 gp
+Weight: 5 lbs.
+:::
 
 This especially heavy leather [hoodwink cowl](ref/eq-misc/hoodwink-cowl) is designed to quiet the
 wearer's mundane senses, allowing him to focus on his supernatural senses. Donning or removing the
@@ -56,5 +61,7 @@ Intelligence check or a Charisma check to avoid the Intelligence and Charisma de
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contact other plane](ref/spell/contact-other-plane); **Cost** 13,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contact other plane](ref/spell/contact-other-plane)
+Cost: 13,750 gp
+:::

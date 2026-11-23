@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "10th"
 +++
 
-**Aura** strong transmutation; **CL** 10th\
-**Slot** chest; **Price** 12,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 10th
+Slot: chest
+Price: 12,500 gp
+Weight: 5 lbs.
+:::
 
 This soft fur vest comes in a variety of shades of brown, black, and white. Any creature larger than
 the wearer takes a -1, -2, -4, or -8 penalty on Perception checks to notice the wearer, depending on
@@ -31,5 +36,7 @@ transform into a [mouse](ref/monster/familiar-rat).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape III](ref/spell/beast-shape-3); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape III](ref/spell/beast-shape-3)
+Cost: 6,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "17th"
 +++
 
-**Aura** strong divination; **CL** 17th\
-**Slot** none; **Price** 87,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong divination
+CL: 17th
+Slot: none
+Price: 87,000 gp
+Weight: 1 lb.
+:::
 
 While most objects - such as ancient trinkets and jewelry - sold as purported belongings of a Lung
 Wa emperor have no actual magical value, some do have magical properties. Such items all function
@@ -34,6 +39,7 @@ Additionally, anyone in possession of a relic of a virtuous emperor gains a +1 i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[foresight](ref/spell/foresight), [summon nature's ally V](ref/spell/summon-natures-ally-5);
-**Cost** 43,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [foresight](ref/spell/foresight), [summon nature's ally V](ref/spell/summon-natures-ally-5)
+Cost: 43,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** eyes; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: eyes
+Price: 2,500 gp
+Weight: -
+:::
 
 These spectacles bear no markings or decoration, but they are obviously sturdy and of high quality.
 The wearer of these spectacles gains the ability to better understand written material and unravel
@@ -33,5 +38,7 @@ are.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[investigative mind](ref/spell/investigative-mind); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [investigative mind](ref/spell/investigative-mind)
+Cost: 1,250 gp
+:::

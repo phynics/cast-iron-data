@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** strong conjuration; **CL** 3rd\
-**Slot** none; **Price** 10,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 3rd
+Slot: none
+Price: 10,000 gp
+Weight: 10 lbs.
+:::
 
 This iron safe is only 6 inches wide by 6 inches tall, but it opens into an extrta-dimensional
 space - its inside is larger than its outside dimensions, as a type 1
@@ -35,5 +40,7 @@ is opened through any means during these 10 rounds, blasts of searing hot fire s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fire trap](ref/spell/fire-trap), [secret chest](ref/spell/secret-chest); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fire trap](ref/spell/fire-trap), [secret chest](ref/spell/secret-chest)
+Cost: 5,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 108,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 108,000 gp
+Weight: 2 lbs.
+:::
 
 The cover of this hefty, leather-bound volume has an ornate spine adorned with a stylized eye worked
 in metal and jewels hinges and is sealed shut by a strap with a brass scarab fastener. When first
@@ -34,5 +39,7 @@ held names vanish.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mind blank](ref/spell/mind-blank), [secret page](ref/spell/secret-page); **Cost** 54,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mind blank](ref/spell/mind-blank), [secret page](ref/spell/secret-page)
+Cost: 54,000 gp
+:::

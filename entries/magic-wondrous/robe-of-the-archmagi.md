@@ -23,8 +23,13 @@ aura = "strong varied"
 caster_level = "14th"
 +++
 
-**Aura** strong varied; **CL** 14th\
-**Slot** body; **Price** 75,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong varied
+CL: 14th
+Slot: body
+Price: 75,000 gp
+Weight: 1 lb.
+:::
 
 This normal-appearing garment is attuned to one of three types of alignment. It can be white (01-45
 on d%, good alignment), gray (46-75, neither good nor evil alignment), or black (76-100, evil
@@ -48,7 +53,7 @@ wearer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), [mage armor](ref/spell/mage-armor) or
-[shield of faith](ref/spell/shield-of-faith), creator must be of same alignment as robe; **Cost**
-37,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), [mage armor](ref/spell/mage-armor) or [shield of faith](ref/spell/shield-of-faith), creator must be of same alignment as robe
+Cost: 37,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 18,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 18,500 gp
+Weight: -
+:::
 
 This lacquered wooden tube is designed to protect a wand during transportation. When held in an off
 hand, the wielder can safely cast spells from her wand without chance of incurring a
@@ -31,5 +36,7 @@ prevented 10 primal magic events, it crumbles into dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic); **Cost** 9,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic)
+Cost: 9,250 gp
+:::

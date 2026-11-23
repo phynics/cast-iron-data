@@ -26,8 +26,13 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 3rd\
-**Slot** head; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 3rd
+Slot: head
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 The wearer of a skinsaw mask gains a +2 competence bonus on [Perception](ref/skill/perception)
 checks against creatures that aren't immune to fear and a +1 profane bonus on damage rolls with
@@ -37,5 +42,7 @@ advance of a mission.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[deathwatch](ref/spell/deathwatch); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [deathwatch](ref/spell/deathwatch)
+Cost: 750 gp
+:::

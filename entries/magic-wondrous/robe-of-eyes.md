@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** body; **Price** 120,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: body
+Price: 120,000 gp
+Weight: 1 lb.
+:::
 
 This valuable garment appears to be a normal robe until it is put on. Its wearer is able to see in
 all directions at the same moment due to scores of visible, magical eye-like patterns that adorn the
@@ -41,5 +46,7 @@ robe of eyes causes the wearer to be [blinded](ref/misc/blinded) for 1d3 minutes
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true seeing](ref/spell/true-seeing); **Cost** 60,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true seeing](ref/spell/true-seeing)
+Cost: 60,000 gp
+:::

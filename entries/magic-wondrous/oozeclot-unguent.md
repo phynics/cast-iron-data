@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 A single dose of oozeclot unguent can be applied to a 5-foot-square surface, whereupon it remains
 potent for 24 hours or until an ooze comes in contact with it. An ooze that crawls onto a surface
@@ -36,5 +41,7 @@ to the effects of oozeclot unguent entirely.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin)
+Cost: 450 gp
+:::

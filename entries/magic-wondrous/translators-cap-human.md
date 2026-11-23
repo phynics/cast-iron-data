@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,5 +42,7 @@ The price for the cap includes all seven feathers, and drops by 2,000 gp per mis
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues)
-or the ability to speak all seven languages, creator must be a human; **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [tongues](ref/spell/tongues) or the ability to speak all seven languages, creator must be a human
+Cost: 7,000 gp
+:::

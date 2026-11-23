@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** head; **Price** 2,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: head
+Price: 2,000 gp
+Weight: 2 lbs.
+:::
 
 Resembling the more common nonmagical doctor's mask, a plaguebringer's mask grants a +2 resistance
 bonus on saving throws against nauseating scents and immunity to one specific
@@ -34,6 +39,7 @@ the wearer's alignment, making her aura register as neutral to alignment-detecti
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[misdirection](ref/spell/misdirection), [remove disease](ref/spell/remove-disease); **Cost** 1,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [misdirection](ref/spell/misdirection), [remove disease](ref/spell/remove-disease)
+Cost: 1,000 gp
+:::

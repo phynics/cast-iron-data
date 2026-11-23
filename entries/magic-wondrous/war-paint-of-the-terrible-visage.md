@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** none; **Price** 100 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: none
+Price: 100 gp
+Weight: -
+:::
 
 This thimble-sized clay container of thick, moist face paint has enough material to paint streaks
 and whorls of any color on one creature's face. Once applied, the wearer can, as a swift action,
@@ -36,5 +41,7 @@ use the paint's magic; otherwise it fades away.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cause fear](ref/spell/cause-fear); **Cost** 50 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cause fear](ref/spell/cause-fear)
+Cost: 50 gp
+:::

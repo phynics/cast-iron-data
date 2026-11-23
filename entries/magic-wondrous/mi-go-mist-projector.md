@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 22,500 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 22,500 gp
+Weight: 8 lbs.
+:::
 
 This strange device appears to be a twisted rod crafted of some unknown alloy of metal and crystal.
 The device requires two hands to use. When activated, the mist projector discharges a 60-foot cone
@@ -33,6 +38,7 @@ projector is impossible to recharge without mi-go technology.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cone of cold](ref/spell/cone-of-cold), [fog cloud](ref/spell/fog-cloud), 7 ranks in Spellcraft;
-**Cost** 11,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cone of cold](ref/spell/cone-of-cold), [fog cloud](ref/spell/fog-cloud), 7 ranks in Spellcraft
+Cost: 11,250 gp
+:::

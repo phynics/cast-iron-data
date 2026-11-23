@@ -23,13 +23,20 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** neck; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: neck
+Price: 7,500 gp
+Weight: -
+:::
 
 This simple periapt usually appears as a blue gemstone fastened to a silver chain designed to be
 worn about the neck. The wearer is immune to all disease, including supernatural diseases.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove disease](ref/spell/remove-disease); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove disease](ref/spell/remove-disease)
+Cost: 3,750 gp
+:::

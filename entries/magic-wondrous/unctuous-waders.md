@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** feet; **Price** 67,200 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: feet
+Price: 67,200 gp
+Weight: 6 lbs.
+:::
 
 Created by a race of unknown undersea creatures only passingly familiar with humanoid physiology,
 these tall, uncomfortable boots are made of slimy skin that wriggles slightly. The boots function as
@@ -40,5 +45,7 @@ to propel the user, as the _[slipstream](ref/spell/slipstream)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ride the waves](ref/spell/ride-the-waves), [slipstream](ref/spell/slipstream); **Cost** 36,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ride the waves](ref/spell/ride-the-waves), [slipstream](ref/spell/slipstream)
+Cost: 36,600 gp
+:::

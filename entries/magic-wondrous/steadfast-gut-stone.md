@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 800 gp
+Weight: 2 lbs.
+:::
 
 This fist sized chunk of off-white stone seems too large to fit inside a human's mouth, but may be
 swallowed with ease as a standard action. Once ingested, the gut-stone remains active for up to a
@@ -45,5 +50,7 @@ swallowed or is destroyed it crumbles apart and is passed harmlessly out of the 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic stone](ref/spell/magic-stone), [shield other](ref/spell/shield-other); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic stone](ref/spell/magic-stone), [shield other](ref/spell/shield-other)
+Cost: 400 gp
+:::

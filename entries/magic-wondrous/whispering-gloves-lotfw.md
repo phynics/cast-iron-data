@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** hands; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: hands
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 These supple silk gloves are skintight. As a standard action, the wearer can deliver a complex
 secret message to a single target that can see the wearer as if she had succeeded at a DC 20
@@ -32,5 +37,7 @@ a secret message and decipher it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message)
+Cost: 500 gp
+:::

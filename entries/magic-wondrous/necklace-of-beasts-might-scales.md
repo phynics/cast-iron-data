@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Necklace of Beast's Might
 
-**Aura** varies; **CL** varies\
-**Slot** neck; **Price** 6,000 gp (Eyes), 8,000 gp (Hair), 8,000 gp (Horn), 9,000 gp (Claws), 9,000
-gp (Scales), 12,000 gp (Bones), 12,000 gp (Teeth); **Weight** -
+::: statblock
+Aura: varies
+CL: varies
+Slot: neck
+Price: 6,000 gp (Eyes), 8,000 gp (Hair), 8,000 gp (Horn), 9,000 gp (Claws), 9,000 gp (Scales), 12,000 gp (Bones), 12,000 gp (Teeth)
+Weight: -
+:::
 
 A necklace of beast's might is a crude necklace made from a particular part (or close analog) of a
 creature of a specific type: aberrations, animals, dragons, fey, magical beasts, oozes (often made
@@ -61,7 +65,7 @@ transmutation; **CL** 8th; [magic weapon](ref/spell/magic-weapon).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate creature](ref/spell/locate-creature), additional spells (see text); **Cost** 3,000 gp
-(Eyes), 4,000 gp (Hair), 4,000 gp (Horn), 4,500 gp (Claws), 4,500 gp (Scales), 6,000 gp (Bones),
-6,000 gp (Teeth)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate creature](ref/spell/locate-creature), additional spells (see text)
+Cost: 3,000 gp (Eyes), 4,000 gp (Hair), 4,000 gp (Horn), 4,500 gp (Claws), 4,500 gp (Scales), 6,000 gp (Bones), 6,000 gp (Teeth)
+:::

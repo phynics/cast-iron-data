@@ -23,9 +23,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 2,000 gp (1st), 8,000 gp (2nd), 18,000 gp (3rd), 32,000 gp (4th), 50,000 gp
-(5th), 72,000 gp (6th), 98,000 gp (7th), 128,000 gp (8th), 162,000 gp (9th); **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 2,000 gp (1st), 8,000 gp (2nd), 18,000 gp (3rd), 32,000 gp (4th), 50,000 gp (5th), 72,000 gp (6th), 98,000 gp (7th), 128,000 gp (8th), 162,000 gp (9th)
+Weight: -
+:::
 
 A runestone of power is a small chip of polished stone etched with a rune. These objects are potent
 aids to all spellcasters who cast spontaneously (but not to spellcasters like clerics who have the
@@ -37,7 +41,7 @@ particular level, depending on the runestone.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to
-spontaneously cast spells of the appropriate spell level; **Cost** 1,000 gp (1st), 4,000 gp (2nd),
-9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th),
-81,000 gp (9th)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to spontaneously cast spells of the appropriate spell level
+Cost: 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th)
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration (teleportation)"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration (teleportation); **CL** 13th\
-**Slot** none; **Price** 70,000 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong conjuration (teleportation)
+CL: 13th
+Slot: none
+Price: 70,000 gp
+Weight: 12 lbs.
+:::
 
 A quasit key appears as a glass jar filled with preserving fluids in which a pickled
 [quasit](ref/monster/demon-quasit) floats. Each quasit key is attuned to a specific location in
@@ -36,5 +41,7 @@ only twice per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 35,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 35,000 gp
+:::

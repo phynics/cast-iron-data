@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Divination reveals this large humanoid skull to be that of a gorilla or giant, although it is
 actually an accursed [sasquatch](ref/monster/sasquatch) skull. The item seems to grant its bearer a
@@ -36,4 +41,7 @@ ownership has not been transferred through sale, gift, or theft.
 
 ### Construction
 
-**Requirements** [darkskull](ref/magic-wondrous/darkskull); **Cost** -
+::: statblock
+Requirements: [darkskull](ref/magic-wondrous/darkskull)
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** eyes; **Price** 70,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: eyes
+Price: 70,000 gp
+Weight: -
+:::
 
 This ornate silk eye patch is embroidered with gold thread and studded with pearls in a pattern
 representing a whirlpool. The wearer of this item, which is a favorite patch of ruthless or
@@ -32,6 +37,7 @@ _[mass charm monster](ref/spell/charm-monster-mass),_ as per the spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mass charm monster](ref/spell/charm-monster-mass), [touch of the sea](ref/spell/touch-of-the-sea),
-[water breathing](ref/spell/water-breathing); **Cost** 35,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mass charm monster](ref/spell/charm-monster-mass), [touch of the sea](ref/spell/touch-of-the-sea), [water breathing](ref/spell/water-breathing)
+Cost: 35,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation [water] and transmutation [air, water]"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation \[water\] and transmutation \[air, water\]; **CL** 7th\
-**Slot** chest; **Price** 16,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate evocation \[water\] and transmutation \[air, water\]
+CL: 7th
+Slot: chest
+Price: 16,000 gp
+Weight: 15 lbs.
+:::
 
 This nacreous saddle is carved from giant mollusk shells, lashed with braided kelp, and designed to
 be worn by aquatic mounts. On command, an arcing torrent of water rises up from an existing body of
@@ -38,6 +43,7 @@ sky-river's duration to produce a _[hydraulic torrent](ref/spell/hydraulic-torre
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air walk](ref/spell/air-walk), [hydraulic torrent](ref/spell/hydraulic-torrent),
-[water walk](ref/spell/water-walk); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air walk](ref/spell/air-walk), [hydraulic torrent](ref/spell/hydraulic-torrent), [water walk](ref/spell/water-walk)
+Cost: 8,000 gp
+:::

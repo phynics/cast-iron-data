@@ -20,8 +20,13 @@ aura = "moderate abjuration and divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and divination; **CL** 7th\
-**Slot** none; **Price** 70,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and divination
+CL: 7th
+Slot: none
+Price: 70,000 gp
+Weight: -
+:::
 
 This macabre pin attaches to one's cloak. [Tar-Baphon](ref/monster/the-whispering-tyrant) is said to
 have gifted these brooches to highly favored but still untrusted minions. When worn, a tyrant's mark
@@ -38,6 +43,7 @@ possession of a portion of the wearer's body.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance),
-[scrying](ref/spell/scrying), [shield of faith](ref/spell/shield-of-faith); **Cost** 35,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [resistance](ref/spell/resistance), [scrying](ref/spell/scrying), [shield of faith](ref/spell/shield-of-faith)
+Cost: 35,500 gp
+:::

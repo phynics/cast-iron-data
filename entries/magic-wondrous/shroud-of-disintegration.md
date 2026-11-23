@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: 10 lbs.
+:::
 
 These burial wrappings are made of fine, embroidered materials. When a body is placed inside,
 speaking a command word turns the body to dust. The magic of the shroud is usable only once, after
@@ -29,5 +34,7 @@ which the wrappings become ordinary, fine cloth.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disintegrate](ref/spell/disintegrate); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disintegrate](ref/spell/disintegrate)
+Cost: 1,650 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 3,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 3,500 gp
+Weight: 3 lbs.
+:::
 
 This striking helmet is crafted to resemble the skull of a mighty stag. Although made from bone, the
 antlers and helm are as strong as metal. When worn, the helm greatly enhances eyesight and hearing,
@@ -38,5 +43,7 @@ ability up to 3 times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have at least 5
-ranks in Perception, [true strike](ref/spell/true-strike); **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have at least 5 ranks in Perception, [true strike](ref/spell/true-strike)
+Cost: 1,750 gp
+:::

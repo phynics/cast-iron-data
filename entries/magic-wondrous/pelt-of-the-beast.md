@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 15,600 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 15,600 gp
+Weight: 8 lbs.
+:::
 
 These lustrous animal pelts are particularly treasured among Ulfen barbarians. While any humanoid
 creature can don and use such pelts, their powers are vastly enhanced for
@@ -60,6 +65,7 @@ Other pelts of the beast may be available at the GM's discretion.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beast shape I](ref/spell/beast-shape-1), [speak with animals](ref/spell/speak-with-animals);
-**Cost** 7,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beast shape I](ref/spell/beast-shape-1), [speak with animals](ref/spell/speak-with-animals)
+Cost: 7,800 gp
+:::

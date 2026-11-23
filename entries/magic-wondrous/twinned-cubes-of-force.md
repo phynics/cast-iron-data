@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 66,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 66,000 gp
+Weight: 1/2 lb.
+:::
 
 These cubes function as two [cubes of force](ref/magic-wondrous/cube-of-force), except that when a
 face on one cube is pressed, its counterpart creates the appropriate wall instead as long as the
@@ -30,5 +35,7 @@ set down on the ground and abandoned.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wall of force](ref/spell/wall-of-force); **Cost** 33,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wall of force](ref/spell/wall-of-force)
+Cost: 33,000 gp
+:::

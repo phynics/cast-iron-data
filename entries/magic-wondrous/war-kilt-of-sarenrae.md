@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** waist; **Price** 13,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: waist
+Price: 13,000 gp
+Weight: 5 lbs.
+:::
 
 A favored item among the dervishes of [Sarenrae](ref/faith/sarenrae), this skirt of overlapping,
 brightly colored silk is magically reinforced, granting you increased durability and mobility. You
@@ -35,6 +40,7 @@ next turn, subtract 5 feet from your total movement.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[expeditious retreat](ref/spell/expeditious-retreat), [barkskin](ref/spell/barkskin) or
-[stoneskin](ref/spell/stoneskin); **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [expeditious retreat](ref/spell/expeditious-retreat), [barkskin](ref/spell/barkskin) or [stoneskin](ref/spell/stoneskin)
+Cost: 6,500 gp
+:::

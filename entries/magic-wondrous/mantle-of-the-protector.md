@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 7th\
-**Slot** shoulders; **Price** 12,200 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 7th
+Slot: shoulders
+Price: 12,200 gp
+Weight: 10 lbs.
+:::
 
 This silvery cloak has steel pauldrons built into it, and always seems to fit a little too loosely,
 no matter who happens to be wearing it. At the start of each day, the owner of a mantle of the
@@ -33,5 +38,7 @@ loses any benefits they may provide for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other); **Cost** 6,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other)
+Cost: 6,100 gp
+:::

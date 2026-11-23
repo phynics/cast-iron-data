@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** neck; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: neck
+Price: 1,000 gp
+Weight: -
+:::
 
 A carved ruby in the shape of a scarab set in gold, this magic amulet grants its wearer insight on
 where to strike a creature so as to maximize pain and distress. This pendant must be worn against
@@ -33,5 +38,7 @@ digs into the wearer's body in apparent delight at the devastating blow inflicte
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true strike](ref/spell/true-strike); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true strike](ref/spell/true-strike)
+Cost: 500 gp
+:::

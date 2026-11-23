@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 4,500 gp
+Weight: -
+:::
 
 Infused with the essence of destruction, a pinch of void dust unmakes force effects. If sprinkled on
 or thrown at a force effect, it acts as a [dispel magic](ref/spell/dispel-magic), unless the force
@@ -32,5 +37,7 @@ A found container holds three pinches.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disintegrate](ref/spell/disintegrate); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disintegrate](ref/spell/disintegrate)
+Cost: 2,250 gp
+:::

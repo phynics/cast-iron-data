@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: none
+Price: 12,000 gp
+Weight: 3 lbs.
+:::
 
 By making a DC 15 [Perform (wind)](ref/skill/perform-any) check, the bearer can use these pipes to
 create a wondrous melody which [fascinates](ref/misc/fascinated) creatures within 30 feet for as
@@ -35,6 +40,7 @@ is a curse effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[sound burst](ref/spell/sound-burst), creator must have the bardic performance class ability;
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sound burst](ref/spell/sound-burst), creator must have the bardic performance class ability
+Cost: 6,000 gp
+:::

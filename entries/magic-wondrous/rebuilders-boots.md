@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** feet; **Price** 14,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: feet
+Price: 14,500 gp
+Weight: 2 lbs.
+:::
 
 Long ago, engineers in Anuli wore pairs of these sturdy brown leather boots to navigate the city
 after the Paroxsys tore apart the land. The wearer of these boots gains a +5 competence bonus on
@@ -34,6 +39,7 @@ must spend it in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[crafter's fortune](ref/spell/crafters-fortune), [feather step](ref/spell/feather-step); **Cost**
-7,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [crafter's fortune](ref/spell/crafters-fortune), [feather step](ref/spell/feather-step)
+Cost: 7,250 gp
+:::

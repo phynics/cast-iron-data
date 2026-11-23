@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 1,600 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 1,600 gp
+Weight: -
+:::
 
 Under tutelage from Embeth Forest sprites, Mother Nightmoss developed this potent salve from the
 distillation of nightmoss. When smeared on a body or body part from a recently deceased creature,
@@ -31,5 +36,7 @@ recipient player or NPC choose his preferred result.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[reincarnate](ref/spell/reincarnate); **Cost** 800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [reincarnate](ref/spell/reincarnate)
+Cost: 800 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 4,000 gp
+Weight: -
+:::
 
 This silver powder typically comes in a fist-sized leather bag. When poured on the ground, the dust
 animates over the course of 1 round to scribble silver thaumaturgic script and symbols in a circular
@@ -38,6 +43,7 @@ free from a [lesser planar binding](ref/spell/planar-binding-lesser) spell with 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Extend Spell](ref/feat/extend-spell), [dimensional anchor](ref/spell/dimensional-anchor),
-[magic circle against evil](ref/spell/magic-circle-against-evil); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Extend Spell](ref/feat/extend-spell), [dimensional anchor](ref/spell/dimensional-anchor), [magic circle against evil](ref/spell/magic-circle-against-evil)
+Cost: 2,000 gp
+:::

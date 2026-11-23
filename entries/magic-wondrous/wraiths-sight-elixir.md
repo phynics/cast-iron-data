@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This rectangular glass flask with a gemstone for a cork contains a pale blue liquid. When the
 imbiber drinks this elixir, her eyes glow with a golden energy and she gains
@@ -31,6 +36,7 @@ removed in any way, the effect of the elixir immediately ends.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness), [deathwatch](ref/spell/deathwatch); **Cost** 750
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness), [deathwatch](ref/spell/deathwatch)
+Cost: 750 gp
+:::

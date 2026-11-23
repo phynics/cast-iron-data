@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This short stick of grayish chalk is flecked with [mithral](ref/eq-material/mithral). When the
 chalk's bearer succeeds at a Knowledge check to identify a monster's special powers or
@@ -44,6 +49,7 @@ creature type.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gallant inspiration](ref/spell/gallant-inspiration), [true strike](ref/spell/true-strike); **Cost**
-1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gallant inspiration](ref/spell/gallant-inspiration), [true strike](ref/spell/true-strike)
+Cost: 1,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** belt; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: belt
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This thick leather belt is adorned with several oversized iron plates and disks depicting images of
 orc gladiators in battle. The wearer of a victor's belt gains a +2 morale bonus on all
@@ -34,5 +39,7 @@ Regardless of how the rage is activated, it lasts for 5 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [rage](ref/spell/rage); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [rage](ref/spell/rage)
+Cost: 2,500 gp
+:::

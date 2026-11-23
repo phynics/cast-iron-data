@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 8,100 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 8,100 gp
+Weight: -
+:::
 
 This magical silver coin opens a portal to the First World. Any time a character holds the coin in
 her hand while expressing a fervent desire or wish of any sort, the magical coin activates, whether
@@ -46,5 +51,7 @@ portal can still pass through portals created by other users.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 4,050 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 4,050 gp
+:::

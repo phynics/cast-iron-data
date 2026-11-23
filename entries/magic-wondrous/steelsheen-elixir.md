@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 900 gp
+Weight: -
+:::
 
 This round-bellied bottle contains a deep indigo liquid. Drinking this liquid causes the imbiber's
 skin and organs to harden as a metallic sheen encases her body. This imparts a +2 competence bonus
@@ -32,5 +37,7 @@ are halved for the remainder of the duration.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [false life](ref/spell/false-life); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [false life](ref/spell/false-life)
+Cost: 450 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 60,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 60,000 gp
+Weight: -
+:::
 
 This green ribbon is fashioned in the shape of [Magdh's](ref/faith/magdh) three-pointed knot. The
 wearer gains three faces that each represent a different aspect of her personality, as if constantly
@@ -29,5 +34,7 @@ under the effect of _[threefold face](ref/spell/threefold-face)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[threefold face](ref/spell/threefold-face); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [threefold face](ref/spell/threefold-face)
+Cost: 30,000 gp
+:::

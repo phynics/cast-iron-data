@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 100 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 100 gp
+Weight: 1/2 lb.
+:::
 
 This [adamantine](ref/eq-material/adamantine) [piton](ref/eq-misc/piton) is 6 inches long. As a
 standard action, the bearer may push the nail by hand into any non-living material, including metal,
@@ -35,5 +40,7 @@ removed, the nail loses all its powers and transforms into a nonmagical iron pit
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane lock](ref/spell/arcane-lock), [mending](ref/spell/mending); **Cost** 50 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane lock](ref/spell/arcane-lock), [mending](ref/spell/mending)
+Cost: 50 gp
+:::

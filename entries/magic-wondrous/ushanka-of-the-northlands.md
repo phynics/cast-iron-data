@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** head; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: head
+Price: 4,500 gp
+Weight: -
+:::
 
 This large, furry hat is sewn from the thick pelt of an animal native to the frozen north, and has
 earflaps that can be pulled down or folded up over the crown of the hat. When worn, an ushanka of
@@ -33,5 +38,7 @@ hear. Pulling the earflaps down is a move action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resistance](ref/spell/resistance), creator must have 5 ranks in Survival; **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resistance](ref/spell/resistance), creator must have 5 ranks in Survival
+Cost: 2,250 gp
+:::

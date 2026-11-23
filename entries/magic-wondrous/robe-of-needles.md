@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** body; **Price** 1,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: body
+Price: 1,000 gp
+Weight: 4 lbs.
+:::
 
 This dark, hooded robe has six long, silvery, razor-sharp needles protruding from the bottom of its
 loose sleeves, three on each side. The wearer can launch one needle as a ranged touch attack. The
@@ -33,5 +38,7 @@ from a creature it was embedded in. The robe regrows all spent needles each morn
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed)
+Cost: 500 gp
+:::

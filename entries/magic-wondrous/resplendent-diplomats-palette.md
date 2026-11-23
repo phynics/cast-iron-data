@@ -20,8 +20,13 @@ aura = "minor enchantment and illusion"
 caster_level = "3rd"
 +++
 
-**Aura** minor enchantment and illusion; **CL** 3rd\
-**Slot** none; **Price** 5,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: minor enchantment and illusion
+CL: 3rd
+Slot: none
+Price: 5,500 gp
+Weight: 2 lbs.
+:::
 
 This shallow box contains an assortment of beeswax, oils, pigments, brushes, and quills, and allows
 a user to blend seemlessly into new cultures and fashion scenes. By spending 5 minutes applying
@@ -39,6 +44,7 @@ bonus on [Disguise](ref/skill/disguise) checks. Using it as such does not consum
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor); **Cost**
-2,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [eagle's splendor](ref/spell/eagles-splendor)
+Cost: 2,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** neck; **Price** 50,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: neck
+Price: 50,000 gp
+Weight: 4 lbs.
+:::
 
 This tiny flake of dark, extraordinarily dense material is hung on a simple wire chain and seems to
 absorb the light around it. When activated, streaks of alien color play across its surface. Once per
@@ -37,6 +42,7 @@ _[dismissal](ref/spell/dismissal)_ spell). Even if the outsider succeeds at its 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[antimagic field](ref/spell/antimagic-field), [dismissal](ref/spell/dismissal),
-[resist energy](ref/spell/resist-energy); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [antimagic field](ref/spell/antimagic-field), [dismissal](ref/spell/dismissal), [resist energy](ref/spell/resist-energy)
+Cost: 25,000 gp
+:::

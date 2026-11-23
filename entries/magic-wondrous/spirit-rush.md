@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 2,400 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 2,400 gp
+Weight: -
+:::
 
 Inside this elegantly styled bottle is a purple liquid that sparkles. For 1 hour after the imbiber
 drinks this elixir, anytime she would be reduced to 0 hit points or below, the elixir immediately
@@ -34,6 +39,7 @@ damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure serious wounds](ref/spell/cure-serious-wounds), [ethereal jaunt](ref/spell/ethereal-jaunt);
-**Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure serious wounds](ref/spell/cure-serious-wounds), [ethereal jaunt](ref/spell/ethereal-jaunt)
+Cost: 1,200 gp
+:::

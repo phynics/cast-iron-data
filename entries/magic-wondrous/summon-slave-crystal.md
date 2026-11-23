@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 10,000 gp
+Weight: -
+:::
 
 This thumb-sized crystalline skull is carved with necromantic runes. Once per day, a spellcaster can
 grasp the stone while casting a summoning spell. When the spellcasting is finished, the caster may
@@ -34,5 +39,7 @@ disappears.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic jar](ref/spell/magic-jar); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic jar](ref/spell/magic-jar)
+Cost: 5,000 gp
+:::

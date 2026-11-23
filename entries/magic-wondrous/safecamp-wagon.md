@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 3,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 3,000 gp
+Weight: 2 lbs.
+:::
 
 [Abadar's](ref/faith/abadar) church created the first safecamp wagons to protect valuable cargo as
 it traveled between cities. When inactive, a safecamp wagon looks like an elaborately carved wooden
@@ -42,6 +47,7 @@ hardness 2, and the entire object has fire resistance 5.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fabricate](ref/spell/fabricate), creator must have 2 ranks in the
-[Craft (carpentry)](ref/skill/craft-any) skill; **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fabricate](ref/spell/fabricate), creator must have 2 ranks in the [Craft (carpentry)](ref/skill/craft-any) skill
+Cost: 1,500 gp
+:::

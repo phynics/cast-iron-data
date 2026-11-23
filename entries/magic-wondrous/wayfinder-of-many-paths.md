@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** none; **Price** 57,750 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: none
+Price: 57,750 gp
+Weight: 1 lb.
+:::
 
 The Wayfinder of Many Paths behaves like a normal [wayfinder](ref/magic-wondrous/wayfinder),
 allowing it to shine (as the _[light](ref/spell/light)_ spell) on command and granting its user a +2
@@ -53,5 +58,7 @@ location in which it was last used, allowing its user to make a return trip afte
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[know direction](ref/spell/know-direction), [light](ref/spell/light); **Cost** 28,875 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [know direction](ref/spell/know-direction), [light](ref/spell/light)
+Cost: 28,875 gp
+:::

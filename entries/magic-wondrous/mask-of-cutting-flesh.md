@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** head; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: head
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This black leather mask is studded with bits of bone and metal, with smooth-sewn holes for the
 wearer's eyes, mouth, and nostrils. It laces in the back with long straps and covers the entire
@@ -40,6 +45,7 @@ within the wearer's shirt or helm.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [magic missile](ref/spell/magic-missile),
-[resistance](ref/spell/resistance); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [magic missile](ref/spell/magic-missile), [resistance](ref/spell/resistance)
+Cost: 1,500 gp
+:::

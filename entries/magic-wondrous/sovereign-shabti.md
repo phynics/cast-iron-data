@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 130,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 130,000 gp
+Weight: 1 lb.
+:::
 
 During its creation, a sovereign shabti is bound to a single member of royalty who willingly donates
 3 drops of her blood and writes her own name upon a strip of parchment. These are placed within a
@@ -40,6 +45,7 @@ shabti - which does not travel with the bound soul - crumbles as soon as it crea
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[trap the soul](ref/spell/trap-the-soul), [true resurrection](ref/spell/true-resurrection), 3 drops
-of royal blood, a royal name; **Cost** 65,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [trap the soul](ref/spell/trap-the-soul), [true resurrection](ref/spell/true-resurrection), 3 drops of royal blood, a royal name
+Cost: 65,000 gp
+:::

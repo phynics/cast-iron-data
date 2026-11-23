@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 5,000 gp
+Weight: -
+:::
 
 This item is a flask of syrupy fluid with an eyeball floating in it. When a creature drinks the
 entire flask, 1d4 rounds later he is [stunned](ref/misc/stunned) for 1 round as 1d4+1 floating fish
@@ -36,5 +41,7 @@ hours pass from the time the flask was used.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prying eyes](ref/spell/prying-eyes); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prying eyes](ref/spell/prying-eyes)
+Cost: 2,500 gp
+:::

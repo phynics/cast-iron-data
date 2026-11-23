@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This glowing violet liquid is ice-cold regardless of the surrounding temperature. This elixir allows
 a character to bypass the cold immunity or cold resistance of creatures she attacks with her magic.
@@ -34,5 +39,7 @@ against creatures without immunity to cold or cold resistance.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polar midnight](ref/spell/polar-midnight); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polar midnight](ref/spell/polar-midnight)
+Cost: 750 gp
+:::

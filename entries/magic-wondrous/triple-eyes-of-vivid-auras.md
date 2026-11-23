@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** eyes; **Price** 15,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: eyes
+Price: 15,000 gp
+Weight: 1 lb.
+:::
 
 These three-eyed goggles allow the wearer to discern subtler auras that would normally be hidden by
 more powerful auras when using [detect evil](ref/spell/detect-evil),
@@ -38,6 +43,7 @@ _[greater detect magic](ref/spell/detect-magic-greater)_ with a command word.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arcane sight](ref/spell/arcane-sight), [greater detect magic](ref/spell/detect-magic-greater);
-**Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arcane sight](ref/spell/arcane-sight), [greater detect magic](ref/spell/detect-magic-greater)
+Cost: 7,500 gp
+:::

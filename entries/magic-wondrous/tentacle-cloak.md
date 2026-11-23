@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Price** 14,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Price: 14,000 gp
+Weight: 1 lb.
+:::
 
 Subtle, indefinable shapes ripple and flow when this deep blue cloak moves, seemingly devouring any
 light falling upon it. Once per day at the wearer's command, two large gray tentacles emerge from
@@ -34,5 +39,7 @@ minute.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph); **Cost** 7,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph)
+Cost: 7,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 1,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 1,800 gp
+Weight: 1 lb.
+:::
 
 The collected [vampire](ref/template/vampire) fangs that make up a necklace of fangs emit a strong
 warding aura against vampires. A creature wearing a necklace of fangs and brandishing a mirror, holy
@@ -31,5 +36,7 @@ subsequent rounds is DC 27, rather than DC 25.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from evil](ref/spell/protection-from-evil); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from evil](ref/spell/protection-from-evil)
+Cost: 900 gp
+:::

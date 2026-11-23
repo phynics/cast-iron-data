@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** body; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: body
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 These elegant, dark purple robes are usually decorated with gold stitching suggesting a particular
 [sorcerer bloodline](ref/ability/sorcerer-bloodlines), though some might indicate a family tree.
@@ -34,5 +39,7 @@ normal for the purpose of determining what bloodline powers she can use and thei
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead), creator must be a sorcerer; **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead), creator must be a sorcerer
+Cost: 8,000 gp
+:::

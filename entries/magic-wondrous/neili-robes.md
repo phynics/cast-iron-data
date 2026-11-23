@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** body; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: body
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This black-and-white robe is specially crafted to help the wearer regulate the flow of ki in his
 body, allowing for the generation of internal strength. Once per round when the wearer spends a ki
@@ -32,5 +37,7 @@ bonuses to AC and Strength last for only 1 round following the expenditure of th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must have a ki pool
+Cost: 5,000 gp
+:::

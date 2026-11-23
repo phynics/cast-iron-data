@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 16,000 gp
+Weight: 5 lbs.
+:::
 
 This stone urn is decorated with carvings of vaguely humanoid creatures, and contains ash and chunks
 of coal. While the lid is removed, faint weeping and cries of anguish echo from within the urn.
@@ -48,5 +53,7 @@ longer explode.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[wall of fire](ref/spell/wall-of-fire); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [wall of fire](ref/spell/wall-of-fire)
+Cost: 8,000 gp
+:::

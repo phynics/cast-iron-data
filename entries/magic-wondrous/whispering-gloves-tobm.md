@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 5th\
-**Slot** hands; **Price** 15,400 gp; **Weight** -
+::: statblock
+Aura: faint illusion and transmutation
+CL: 5th
+Slot: hands
+Price: 15,400 gp
+Weight: -
+:::
 
 These gloves constantly project a very short-range _[silence](ref/spell/silence)_ spell, so that
 anything touched or held by the wearer's hands makes no sound. Thus picking a locked door wouldn't
@@ -34,5 +39,7 @@ to anyone she chooses in her line of sight (as the _[message](ref/spell/message)
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message),
-[silence](ref/spell/silence); **Cost** 7,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [message](ref/spell/message), [silence](ref/spell/silence)
+Cost: 7,700 gp
+:::

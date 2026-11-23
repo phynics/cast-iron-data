@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 This simple chalkboard consists of a book-sized wooden frame surrounding a thin, rectangular slice
 of flat black slate. Though mediums typically use mundane slates to demonstrate automatic writing,
@@ -41,5 +46,7 @@ that or any language. The device can be used up to 3 times per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blood biography](ref/spell/blood-biography); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blood biography](ref/spell/blood-biography)
+Cost: 6,000 gp
+:::

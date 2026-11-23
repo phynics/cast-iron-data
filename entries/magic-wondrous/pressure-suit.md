@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** body and helm (see text); **Price** 4,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: body and helm (see text)
+Price: 4,000 gp
+Weight: 30 lbs.
+:::
 
 This magical full-body suit completely protects the wearer from temperature extremes (as if by
 _[endure elements](ref/spell/endure-elements)_) and pressure dangers of hard vacuum and all worlds
@@ -39,6 +44,7 @@ up both the body and helm slots, armor can be worn over a pressure suit, but rob
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements), [gust of wind](ref/spell/gust-of-wind); **Cost** 2,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements), [gust of wind](ref/spell/gust-of-wind)
+Cost: 2,000 gp
+:::

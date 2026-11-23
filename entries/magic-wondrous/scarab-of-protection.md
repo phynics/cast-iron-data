@@ -23,8 +23,13 @@ aura = "strong abjuration and necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong abjuration and necromancy; **CL** 18th\
-**Slot** neck; **Price** 38,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration and necromancy
+CL: 18th
+Slot: neck
+Price: 38,000 gp
+Weight: -
+:::
 
 This device appears to be a jade medallion in the shape of a beetle. If it is held for 1 round, an
 inscription appears on its surface letting the holder know that it is a protective device.
@@ -35,6 +40,7 @@ attacks, the scarab turns to powder and is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death ward](ref/spell/death-ward), [spell resistance](ref/spell/spell-resistance); **Cost** 19,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death ward](ref/spell/death-ward), [spell resistance](ref/spell/spell-resistance)
+Cost: 19,000 gp
+:::

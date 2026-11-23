@@ -20,8 +20,13 @@ aura = "strong abjuration and divination"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration and divination; **CL** 17th\
-**Slot** none; **Price** 175,000 gp; **Weight** 40 lbs.
+::: statblock
+Aura: strong abjuration and divination
+CL: 17th
+Slot: none
+Price: 175,000 gp
+Weight: 40 lbs.
+:::
 
 This mirror resembles an ordinary looking glass 5 feet tall by 2 feet wide. A creature who knows the
 proper commands can cause it to perform as follows.
@@ -45,7 +50,7 @@ proper commands can cause it to perform as follows.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[detect thoughts](ref/spell/detect-thoughts), [gate](ref/spell/gate),
-[legend lore](ref/spell/legend-lore); **Cost** 87,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [detect thoughts](ref/spell/detect-thoughts), [gate](ref/spell/gate), [legend lore](ref/spell/legend-lore)
+Cost: 87,500 gp
+:::

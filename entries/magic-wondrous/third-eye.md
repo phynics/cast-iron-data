@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 20,000 gp
+Weight: -
+:::
 
 As part of the process of crafting a third eye, the creator grafts an actual eye into the palm of
 the recipient's hand. Once an eye is grafted into a palm, it is undetectable while closed and
@@ -55,6 +60,7 @@ cast upon it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), access to obscure traditions and
-lore; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), access to obscure traditions and lore
+Cost: 10,000 gp
+:::

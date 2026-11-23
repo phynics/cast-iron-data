@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 10th\
-**Slot** none; **Price** 2,250 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 10th
+Slot: none
+Price: 2,250 gp
+Weight: -
+:::
 
 This small bone container is filled with a thick dye. Each container holds enough dye to cover one
 ornament created with the [Grisly Ornament](ref/feat/grisly-ornament) feat. When applied to an
@@ -36,6 +41,7 @@ requires two applications of monstrous dye to function properly.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose),
-[summon nature's ally IV](ref/spell/summon-natures-ally-4); **Cost** 1,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Cost: 1,125 gp
+:::

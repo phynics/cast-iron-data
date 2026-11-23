@@ -20,8 +20,12 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration; **CL** 17th\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 17th
+Slot: none
+Weight: 5 lbs.
+:::
 
 This thick book appears to be an educational treatise filled with philosophical insights. Anyone who
 reads from this cursed book and has a patron deity must make a DC 20 Will save or be overcome by a
@@ -34,7 +38,7 @@ minutes.
 
 ### Construction
 
-**Requirements** [manual of bodily health](ref/magic-wondrous/manual-of-bodily-health),
-[manual of gainful exercise](ref/magic-wondrous/manual-of-gainful-exercise),
-[tome of understanding](ref/magic-wondrous/tome-of-understanding),
-[tome of leadership and influence](ref/magic-wondrous/tome-of-leadership-and-influence); **Cost** -
+::: statblock
+Requirements: [manual of bodily health](ref/magic-wondrous/manual-of-bodily-health), [manual of gainful exercise](ref/magic-wondrous/manual-of-gainful-exercise), [tome of understanding](ref/magic-wondrous/tome-of-understanding), [tome of leadership and influence](ref/magic-wondrous/tome-of-leadership-and-influence)
+Cost: -
+:::

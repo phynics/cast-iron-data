@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 This substance provides a +20 competence bonus on all [Escape Artist](ref/skill/escape-artist)
 checks and combat maneuver checks made to escape from a [grapple](ref/rule/grapple). The salve also
@@ -39,5 +44,7 @@ Salve of slipperiness is needed to coat the inside of a container meant to hold
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease)
+Cost: 500 gp
+:::

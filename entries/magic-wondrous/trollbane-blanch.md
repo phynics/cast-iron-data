@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation; **CL** 1st\
-**Slot** none; **Price** 200 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 1st
+Slot: none
+Price: 200 gp
+Weight: -
+:::
 
 Originally developed by huldras for hunting trolls, this green-gray paste is stored in a tree bark
 jar in order to mask its pungent odor, for trolls recognize its scent immediately and often flee
@@ -33,5 +38,7 @@ successful attack.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[acid splash](ref/spell/acid-splash) (acid) or [spark](ref/spell/spark) (fire); **Cost** 100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [acid splash](ref/spell/acid-splash) (acid) or [spark](ref/spell/spark) (fire)
+Cost: 100 gp
+:::

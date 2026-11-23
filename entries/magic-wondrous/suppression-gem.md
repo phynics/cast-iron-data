@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "12th"
 +++
 
-**Aura** moderate enchantment; **CL** 12th\
-**Slot** none; **Price** 65,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 12th
+Slot: none
+Price: 65,000 gp
+Weight: -
+:::
 
 This small gem crackles and sparks with arcing electricity. As a standard action, a creature can
 attempt to place the gem on a construct with a touch attack that provokes an attack of opportunity.
@@ -34,5 +39,7 @@ fashion. A suppression gem has 30 hit points and [hardness](ref/umr/hardness) 10
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[suggestion](ref/spell/suggestion); **Cost** 32,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [suggestion](ref/spell/suggestion)
+Cost: 32,500 gp
+:::

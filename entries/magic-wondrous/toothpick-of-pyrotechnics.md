@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 400 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 400 gp
+Weight: -
+:::
 
 This simple wooden toothpick is useful for creating flashy diversions on stage or in a fight.
 Breaking the toothpick causes a blinding flash and a dark cloud of smoke to appear. Creatures other
@@ -31,5 +36,7 @@ obscures all sight (including [darkvision](ref/rule/darkvision)), and lasts for 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pyrotechnics](ref/spell/pyrotechnics); **Cost** 200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 200 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and enchantment; **CL** 9th\
-**Slot** none; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration and enchantment
+CL: 9th
+Slot: none
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 If the user opens this vial while chanting prayers to the [Master of Masters](ref/faith/irori), the
 sand inside this crystal vial pours out to form an elaborate, multicolored mandala in the symbol of
@@ -41,7 +46,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [owl's wisdom](ref/spell/owls-wisdom),
-[summon monster IV](ref/spell/summon-monster-4), creator must have the ki pool class feature;
-**Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [owl's wisdom](ref/spell/owls-wisdom), [summon monster IV](ref/spell/summon-monster-4), creator must have the ki pool class feature
+Cost: 12,500 gp
+:::

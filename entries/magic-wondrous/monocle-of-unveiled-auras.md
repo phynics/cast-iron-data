@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** eyes; **Price** 12,700 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: eyes
+Price: 12,700 gp
+Weight: -
+:::
 
 The wearer of this crystal monocle gains the ability to use _detect chaos, detect evil, detect good,
 detect magic,_ or _[detect law](ref/spell/detect-law),_ each at will for as long as he concentrates,
@@ -32,9 +37,7 @@ _[see invisibility](ref/spell/see-invisibility)_ for 1 hour, or until the monocl
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [arcane sight](ref/spell/arcane-sight),
-[see invisibility](ref/spell/see-invisibility), and any one of the following:
-[detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil),
-[detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law), or
-[detect magic](ref/spell/detect-magic); **Cost** 6,350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [arcane sight](ref/spell/arcane-sight), [see invisibility](ref/spell/see-invisibility), and any one of the following: [detect chaos](ref/spell/detect-chaos), [detect evil](ref/spell/detect-evil), [detect good](ref/spell/detect-good), [detect law](ref/spell/detect-law), or [detect magic](ref/spell/detect-magic)
+Cost: 6,350 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 This fragile glass flask encloses a single scrap of worn parchment held in place by a taut metal
 wire threaded through its cork stopper. As a full-round action, a spellcaster can cast a targeted
@@ -41,5 +46,7 @@ the splash radius may still make a Will save to negate it (with the +5 bonus).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 750 gp
+:::

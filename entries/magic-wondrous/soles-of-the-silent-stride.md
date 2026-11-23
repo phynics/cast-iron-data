@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** feet; **Price** 8,250 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: feet
+Price: 8,250 gp
+Weight: -
+:::
 
 These simple leather shoes are the color of a moonless night and instantly adjust to the wearer's
 foot shape, becoming skintight while providing magical cushioning and support. The wearer gains a +5
@@ -30,5 +35,7 @@ at a -20 penalty.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silence](ref/spell/silence);
-**Cost** 4,125 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [silence](ref/spell/silence)
+Cost: 4,125 gp
+:::

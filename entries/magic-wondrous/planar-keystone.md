@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 16,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 16,200 gp
+Weight: 2 lbs.
+:::
 
 A planar keystone is a small cube etched with runes. Each planar keystone is attuned to a specific
 site on a particular plane - this site must be determined when the planar keystone is created and
@@ -37,5 +42,7 @@ with the creatures - it is not left behind in the process.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 8,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 8,100 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "6th"
 +++
 
-**Aura** faint transmutation; **CL** 6th\
-**Slot** neck; **Price** 17,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 6th
+Slot: neck
+Price: 17,500 gp
+Weight: 1 lb.
+:::
 
 This silver holy symbol rests just over the wearer's heart, imbuing his blood with divine power.
 After wearing the amulet for 24 hours, the wearer can shed his own blood as a standard action,
@@ -36,5 +41,7 @@ the wearer's blood is negated due to the power of this symbol.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bless water](ref/spell/bless-water); **Cost** 8,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bless water](ref/spell/bless-water)
+Cost: 8,750 gp
+:::

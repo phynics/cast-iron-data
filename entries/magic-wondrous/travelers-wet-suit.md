@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** body; **Price** 2,750 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: body
+Price: 2,750 gp
+Weight: 3 lbs.
+:::
 
 This wet suit protects against [environmental cold damage and hypothermia](ref/rule/cold-dangers).
 Anything stored in its waterproof pockets is kept magically separate from any surrounding water,
@@ -30,5 +35,7 @@ even if the wearer opens the pocket underwater. Finally, the wearer gains a +2 c
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[endure elements](ref/spell/endure-elements); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [endure elements](ref/spell/endure-elements)
+Cost: 2,500 gp
+:::

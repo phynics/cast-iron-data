@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** head; **Price** 1,350 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: head
+Price: 1,350 gp
+Weight: 1 lb.
+:::
 
 This violet shawl twists and melds with the darkness, becoming as black as coal in even the faintest
 shadow. While worn, the wearer can hide her appearance as if with a
@@ -30,5 +35,7 @@ was wearing a shawl of shadowy disguise.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[penumbral disguise](ref/spell/penumbral-disguise); **Cost** 675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [penumbral disguise](ref/spell/penumbral-disguise)
+Cost: 675 gp
+:::

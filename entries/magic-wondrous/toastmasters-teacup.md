@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1/4 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1/4 lb.
+:::
 
 This porcelain teacup is used by poisoners to administer lethal doses to even the most suspicious of
 victims. When a dose of ingested poison is placed in the toastmaster's teacup and a command word is
@@ -31,5 +36,7 @@ cup.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[nondetection](ref/spell/nondetection), [poison](ref/spell/poison); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [nondetection](ref/spell/nondetection), [poison](ref/spell/poison)
+Cost: 2,500 gp
+:::

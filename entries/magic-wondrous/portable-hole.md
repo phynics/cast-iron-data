@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 20,000 gp
+Weight: -
+:::
 
 A portable hole is a circle of cloth spun from the webs of a
 [phase spider](ref/monster/phase-spider) interwoven with strands of ether and beams of starlight,
@@ -45,5 +50,7 @@ portable hole and bag of holding being destroyed in the process.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 10,000 gp
+:::

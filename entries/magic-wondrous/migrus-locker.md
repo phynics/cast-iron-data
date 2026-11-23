@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 10,000 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 10,000 gp
+Weight: 20 lbs.
+:::
 
 This small locker is carved from fossilized wood and it is usually found chained and sealed. When
 the locker is unsealed and opened, the migrus - a desiccated hairless cat with a humanoid face - is
@@ -42,6 +47,7 @@ be permanently destroyed by normal means. If the locker is destroyed ([hardness]
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[reincarnate](ref/spell/reincarnate) or [stone to flesh](ref/spell/stone-to-flesh); **Cost** 5,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [reincarnate](ref/spell/reincarnate) or [stone to flesh](ref/spell/stone-to-flesh)
+Cost: 5,000 gp
+:::

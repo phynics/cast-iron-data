@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 13,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 13,000 gp
+Weight: 2 lbs.
+:::
 
 Carved from sandstone, this small stone statuette depicts a female [sphinx](ref/family/sphinx) and
 is a powerful tool for divinations. Once per week, the possessor can ask the mythopoeic sphinx about
@@ -40,5 +45,7 @@ statuette, regardless of whether or not the called sphinx agrees to serve the po
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[legend lore](ref/spell/legend-lore), [planar ally](ref/spell/planar-ally); **Cost** 7,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [legend lore](ref/spell/legend-lore), [planar ally](ref/spell/planar-ally)
+Cost: 7,250 gp
+:::

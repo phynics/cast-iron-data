@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 60,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 60,000 gp
+Weight: -
+:::
 
 Rather than opening to locations on different planes, this well instead opens to worlds on the
 Material Plane. It does not, however, necessarily open to worlds with similar environments to that
@@ -31,5 +36,7 @@ environs of the destination and the alien beings that might step through from th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate);
-**Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate)
+Cost: 30,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** neck; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: neck
+Price: 9,000 gp
+Weight: -
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -36,5 +41,7 @@ Knowledge (history) check untrained.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); creator must have 5 ranks in
-Intimidate, Knowledge (history), and Perform (dance); creator must be a Varisian; **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item); creator must have 5 ranks in Intimidate, Knowledge (history), and Perform (dance); creator must be a Varisian
+Cost: 4,500 gp
+:::

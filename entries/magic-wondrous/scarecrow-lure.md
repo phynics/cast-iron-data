@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "1st"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 1st\
-**Slot** none; **Price** 850 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint illusion and transmutation
+CL: 1st
+Slot: none
+Price: 850 gp
+Weight: 40 lbs.
+:::
 
 This life-sized scarecrow is garbed in old clothing and armor. At its center is the real skeleton of
 a former adventurer. A scarecrow lure is enchanted to writhe and cry out for help as if wounded. The
@@ -32,5 +37,7 @@ provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage hand](ref/spell/mage-hand), [ventriloquism](ref/spell/ventriloquism); **Cost** 450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage hand](ref/spell/mage-hand), [ventriloquism](ref/spell/ventriloquism)
+Cost: 450 gp
+:::

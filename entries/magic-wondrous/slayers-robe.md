@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** body; **Price** 15,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: body
+Price: 15,000 gp
+Weight: 5 lbs.
+:::
 
 This ragged, brown robe could be mistaken for a monk's cassock, but the devotees who wear it are
 dedicated only to the art of killing. This robe grants the wearer a +5 competence bonus on
@@ -37,5 +42,7 @@ the bonus on Stealth checks increases to +10. The wearer can end this effect as 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gaseous form](ref/spell/gaseous-form), [guidance](ref/spell/guidance); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gaseous form](ref/spell/gaseous-form), [guidance](ref/spell/guidance)
+Cost: 7,500 gp
+:::

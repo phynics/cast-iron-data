@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** wrists; **Price** 18,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: wrists
+Price: 18,000 gp
+Weight: 1 lb.
+:::
 
 When worn by a [kineticist](ref/class/kineticist), these bracers develop finely inscribed patterns
 on their once-plain surfaces that reflect the wearer's elemental connection. As a full-round action,
@@ -36,5 +41,7 @@ Rift-rending bracers must be worn for 24 hours before a kineticist can activate 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift)
+Cost: 9,000 gp
+:::

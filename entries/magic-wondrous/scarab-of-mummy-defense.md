@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 12,000 gp
+Weight: -
+:::
 
 This gold amulet is fashioned in the shape of a winged scarab beetle holding a large ruby that
 represents the solar disk. The scarab grants its wearer a +4 bonus on saving throws against fear
@@ -35,6 +40,7 @@ considered a single effect for these purposes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect undead](ref/spell/detect-undead), [remove curse](ref/spell/remove-curse),
-[remove disease](ref/spell/remove-disease), [remove fear](ref/spell/remove-fear); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect undead](ref/spell/detect-undead), [remove curse](ref/spell/remove-curse), [remove disease](ref/spell/remove-disease), [remove fear](ref/spell/remove-fear)
+Cost: 6,000 gp
+:::

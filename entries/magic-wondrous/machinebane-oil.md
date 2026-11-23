@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 750 gp
+Weight: 1/2 lb.
+:::
 
 This vial of shimmering violet unguent is an effective weapon against constructs crafted from metal.
 A creature can throw the vial at a construct as a ranged touch attack with a range of 20 feet. On a
@@ -34,5 +39,7 @@ oil immediately loses the benefits of [energizing salve](ref/magic-wondrous/ener
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disable construct](ref/spell/disable-construct); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disable construct](ref/spell/disable-construct)
+Cost: 750 gp
+:::

@@ -20,9 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shoulders; **Price** 500 gp (+1 bonus), 2,000 gp (+2 bonus), 4,500 gp (+3 bonus), 8,000 gp
-(+4 bonus), 12,500 gp (+5 bonus); **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shoulders
+Price: 500 gp (+1 bonus), 2,000 gp (+2 bonus), 4,500 gp (+3 bonus), 8,000 gp (+4 bonus), 12,500 gp (+5 bonus)
+Weight: 1 lb.
+:::
 
 These multihued cloaks are as mutable as the [proteans](ref/family/protean) that inspired them. The
 typical protean cloak appears to be crafted from the hide of a [naunet](ref/monster/protean-naunet)
@@ -38,7 +42,7 @@ resistance bonus it applies automatically reverts back to Will saves.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[entropic shield](ref/spell/entropic-shield), [resistance](ref/spell/resistance), creator must be
-chaotic, creator's caster level must be at least three times the cloak's bonus; **Cost** 250 gp (+1
-bonus), 1,000 gp (+2 bonus), 2,250 gp (+3 bonus), 4,000 gp (+4 bonus), 6,250 gp (+5 bonus)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [entropic shield](ref/spell/entropic-shield), [resistance](ref/spell/resistance), creator must be chaotic, creator's caster level must be at least three times the cloak's bonus
+Cost: 250 gp (+1 bonus), 1,000 gp (+2 bonus), 2,250 gp (+3 bonus), 4,000 gp (+4 bonus), 6,250 gp (+5 bonus)
+:::

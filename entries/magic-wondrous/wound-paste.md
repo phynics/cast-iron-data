@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** none; **Price** 50 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: none
+Price: 50 gp
+Weight: 1/2 lb.
+:::
 
 Prized by slavers as an affordable way to stop a captive from bleeding to death, a dose of wound
 paste acts as a _[stabilize](ref/spell/stabilize)_ spell when slathered on a [dying](ref/misc/dying)
@@ -30,5 +35,7 @@ wound paste contains 5 doses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stabilize](ref/spell/stabilize); **Cost** 25 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stabilize](ref/spell/stabilize)
+Cost: 25 gp
+:::

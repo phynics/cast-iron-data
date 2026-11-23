@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** shoulders; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: shoulders
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 This magical shawl is woven from silken, diaphanous material. Once per day, the wearer can speak a
 command word to transfer some of her life energy into the shawl (up to 10 hit points). If she is
@@ -40,5 +45,7 @@ of the shawl.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [stabilize](ref/spell/stabilize); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [stabilize](ref/spell/stabilize)
+Cost: 500 gp
+:::

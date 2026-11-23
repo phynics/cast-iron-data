@@ -23,8 +23,12 @@ aura = "strong abjuration"
 caster_level = "19th"
 +++
 
-**Aura** strong abjuration; **CL** 19th\
-**Slot** neck; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 19th
+Slot: neck
+Weight: -
+:::
 
 If this small scarab brooch is held for more than 1 round or carried in a living creature's
 possessions for 1 minute, it changes into a horrible, burrowing, beetle-like creature. The thing
@@ -36,10 +40,7 @@ life and allows for long-term storage of the item.
 
 ### Construction
 
-**Requirements** [amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists),
-[amulet of natural armor](ref/magic-wondrous/amulet-of-natural-armor),
-[amulet of the planes](ref/magic-wondrous/amulet-of-the-planes),
-[amulet of proof against detection and location](ref/magic-wondrous/amulet-of-proof-against-detection-and-location),
-[brooch of shielding](ref/magic-wondrous/brooch-of-shielding),
-[golembane scarab](ref/magic-wondrous/golembane-scarab),
-[scarab of protection](ref/magic-wondrous/scarab-of-protection); **Cost** -
+::: statblock
+Requirements: [amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists), [amulet of natural armor](ref/magic-wondrous/amulet-of-natural-armor), [amulet of the planes](ref/magic-wondrous/amulet-of-the-planes), [amulet of proof against detection and location](ref/magic-wondrous/amulet-of-proof-against-detection-and-location), [brooch of shielding](ref/magic-wondrous/brooch-of-shielding), [golembane scarab](ref/magic-wondrous/golembane-scarab), [scarab of protection](ref/magic-wondrous/scarab-of-protection)
+Cost: -
+:::

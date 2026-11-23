@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** eyes; **Price** 5,600 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: eyes
+Price: 5,600 gp
+Weight: -
+:::
 
 A solid gold band encircles this intricate convex glass lens. Three times per day as a standard
 action, the wearer can attempt an [Appraise](ref/skill/appraise) check against a creature within 60
@@ -36,5 +41,7 @@ the wearer's allies had the [scent](ref/umr/scent) ability.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[locate object](ref/spell/locate-object), [scent trail](ref/spell/scent-trail); **Cost** 2,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [locate object](ref/spell/locate-object), [scent trail](ref/spell/scent-trail)
+Cost: 2,800 gp
+:::

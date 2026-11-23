@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: hands
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This elbow-length, heavy leather glove's fine embroidery is marred by dozens of claw marks. Once per
 day on command, its wearer can gesture toward a creature within 30 feet. When he does, a featureless
@@ -34,5 +39,7 @@ an unoccupied space adjacent to the wearer. The shadow falcon then disappears.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shadow conjuration](ref/spell/shadow-conjuration); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shadow conjuration](ref/spell/shadow-conjuration)
+Cost: 4,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 60,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 60,000 gp
+Weight: 1 lb.
+:::
 
 This featureless gray stone is perfectly smooth and flawlessly polished. The bearer of an orb of
 pure law gains a +4 deflection bonus to AC against attacks from chaotic creatures and a +4
@@ -41,6 +46,7 @@ has the orb.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[arrow of law](ref/spell/arrow-of-law), [detect chaos](ref/spell/detect-chaos),
-[detect law](ref/spell/detect-law), [dispel chaos](ref/spell/dispel-chaos); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [arrow of law](ref/spell/arrow-of-law), [detect chaos](ref/spell/detect-chaos), [detect law](ref/spell/detect-law), [dispel chaos](ref/spell/dispel-chaos)
+Cost: 30,000 gp
+:::

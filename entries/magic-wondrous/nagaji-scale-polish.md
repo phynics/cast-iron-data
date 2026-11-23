@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: 1/2 lb.
+:::
 
 This small clay urn contains a scintillating paste which works like
 _[imbue with spell ability](ref/spell/imbue-with-spell-ability),_ except the spell effect is not
@@ -32,6 +37,7 @@ humanoid with the reptilian subtype) can use the polish to cast spells.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability) or
-[mnemonic enhancer](ref/spell/mnemonic-enhancer); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability) or [mnemonic enhancer](ref/spell/mnemonic-enhancer)
+Cost: 700 gp
+:::

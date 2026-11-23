@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "16th"
 +++
 
-**Aura** strong varied; **CL** 16th\
-**Slot** body; **Price** 95,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong varied
+CL: 16th
+Slot: body
+Price: 95,000 gp
+Weight: 1 lb.
+:::
 
 This humble, threadbare robe grants a +1 resistance bonus on all saving throws. A mythic wearer can
 unlock additional powers by upholding vows. The wearer selects up to five vows, but no more than she
@@ -55,6 +60,7 @@ still kept. Broken vows can be regained only by way of an [atonement](ref/spell/
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [magic vestment](ref/spell/magic-vestment),
-[prayer](ref/spell/prayer), [resistance](ref/spell/resistance); **Cost** 47,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [magic vestment](ref/spell/magic-vestment), [prayer](ref/spell/prayer), [resistance](ref/spell/resistance)
+Cost: 47,500 gp
+:::

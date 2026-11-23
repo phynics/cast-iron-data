@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This time-weathered [wayfinder](ref/magic-wondrous/wayfinder) lacks any notable features. Despite
 its routine appearance, a smuggler's wayfinder has an additional ability generally known only to the
@@ -35,5 +40,7 @@ wayfinder emits an aura of faint evocation, as a standard wayfinder.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest)
+Cost: 1,000 gp
+:::

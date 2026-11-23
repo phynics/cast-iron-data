@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** head; **Price** 3,700 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: head
+Price: 3,700 gp
+Weight: 1 lb.
+:::
 
 This colorful, beaded mask bears floral patterns and attunes the wearer's senses to flora of all
 varieties. The wearer gains a +3 competence bonus on
@@ -36,5 +41,7 @@ each expended use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greensight](ref/spell/greensight); **Cost** 1,850 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greensight](ref/spell/greensight)
+Cost: 1,850 gp
+:::

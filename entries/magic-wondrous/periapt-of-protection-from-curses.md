@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** neck; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: neck
+Price: 12,000 gp
+Weight: -
+:::
 
 This amethyst stone strung on a coarse iron chain protects the wearer from curses. Three times per
 day, whenever the wearer rolls a saving throw against a curse (such as a witch's hex, or a
@@ -31,5 +36,7 @@ revealed. He must take the second roll, even if it is worse.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove curse](ref/spell/remove-curse); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove curse](ref/spell/remove-curse)
+Cost: 6,000 gp
+:::

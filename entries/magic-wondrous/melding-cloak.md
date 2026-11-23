@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** shoulders; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: shoulders
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 This cloak is lined with thin strings of varying colors that shift in color to match surrounding
 material such as dirt, grass, or stone. This grants the wearer a +2 competence bonus on
@@ -41,5 +46,7 @@ wearer is immediately shunted out of the material into the nearest open space.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[invisibility](ref/spell/invisibility), [passwall](ref/spell/passwall); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [invisibility](ref/spell/invisibility), [passwall](ref/spell/passwall)
+Cost: 12,500 gp
+:::

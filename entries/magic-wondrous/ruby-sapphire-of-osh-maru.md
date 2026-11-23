@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 96,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 96,000 gp
+Weight: 1 lb.
+:::
 
 This fist-sized uncut gem looks like a human heart. One half is ruby-red with blue flecks; the other
 is sapphire-blue with red flecks. Five times per day when the gem is held in one hand, a spellcaster
@@ -37,6 +42,7 @@ will as a free action, the bearer can command the Ruby Sapphire of Osh-Maru to g
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Elemental Spell](ref/feat/elemental-spell), [resist energy](ref/spell/resist-energy); **Cost**
-48,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Elemental Spell](ref/feat/elemental-spell), [resist energy](ref/spell/resist-energy)
+Cost: 48,000 gp
+:::

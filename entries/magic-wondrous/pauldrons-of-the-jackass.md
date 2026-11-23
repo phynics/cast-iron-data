@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** shoulders; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: shoulders
+Weight: 3 lbs.
+:::
 
 These steel pauldrons seem to be emblazoned with stampeding horses until they are worn, and then the
 horses change shape to that of dumfounded donkeys. The wearer of these pauldrons takes a -4 penalty
@@ -30,4 +34,7 @@ spell is required before this item can be removed.
 
 ### Construction
 
-**Requirements** any pauldrons; **Cost** -
+::: statblock
+Requirements: any pauldrons
+Cost: -
+:::

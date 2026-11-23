@@ -20,8 +20,13 @@ aura = "weak divination"
 caster_level = "1st"
 +++
 
-**Aura** weak divination; **CL** 1st\
-**Slot** none; **Price** 450 gp; **Weight** -
+::: statblock
+Aura: weak divination
+CL: 1st
+Slot: none
+Price: 450 gp
+Weight: -
+:::
 
 This simple copper coin establishes a connection with the most recent person to keep it under her
 tongue for 24 hours. Once established, this connection allows its owner to determine its current
@@ -31,5 +36,7 @@ instantly breaks if the coin travels to another plane or enters an
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic); **Cost** 225 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic)
+Cost: 225 gp
+:::

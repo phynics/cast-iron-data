@@ -20,8 +20,13 @@ aura = "strong conjuration and enchantment"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration and enchantment; **CL** 17th\
-**Slot** none; **Price** 26,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration and enchantment
+CL: 17th
+Slot: none
+Price: 26,000 gp
+Weight: 3 lbs.
+:::
 
 Two distinct songs are etched on the entwined pipes of this flute. Playing the first creates a
 soothing, rhythmic melody that lulls snakes and serpents into compliance. This tune grants a +5
@@ -39,6 +44,7 @@ tune, up to a maximum of 3 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate monster](ref/spell/dominate-monster),
-[summon nature's ally VIII](ref/spell/summon-natures-ally-8); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate monster](ref/spell/dominate-monster), [summon nature's ally VIII](ref/spell/summon-natures-ally-8)
+Cost: 13,000 gp
+:::

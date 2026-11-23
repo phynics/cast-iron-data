@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** feet; **Price** 12,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: feet
+Price: 12,000 gp
+Weight: 2 lbs.
+:::
 
 The wearer of these boots can, on command three times per day, cause her current square to sprout a
 thick canopy of fruit-bearing or otherwise edible plants. These plants count as
@@ -35,5 +40,7 @@ first.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plant growth](ref/spell/plant-growth); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plant growth](ref/spell/plant-growth)
+Cost: 6,000 gp
+:::

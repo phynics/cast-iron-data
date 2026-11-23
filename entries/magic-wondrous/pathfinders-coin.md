@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,500 gp
+Weight: -
+:::
 
 This apparently simple coin, usually styled to resemble ancient currency, hides intricate gold and
 platinum wires within. This matrix, carefully modeled after fragmentary Azlanti coins, causes the
@@ -33,6 +38,7 @@ triggered, the message is expended and a new one may be recorded.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[identify](ref/spell/identify), [levitate](ref/spell/levitate),
-[magic mouth](ref/spell/magic-mouth); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [identify](ref/spell/identify), [levitate](ref/spell/levitate), [magic mouth](ref/spell/magic-mouth)
+Cost: 750 gp
+:::

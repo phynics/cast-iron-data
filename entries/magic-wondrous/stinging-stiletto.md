@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** neck, ring, or none; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: neck, ring, or none
+Price: 4,500 gp
+Weight: -
+:::
 
 This tiny [dagger](ref/eq-weapon/dagger) has a black leather hilt and a gold-inlaid pattern of
 stripes and sharp angles on its steel blade. It can transform into a delicate necklace or ornate
@@ -41,6 +46,7 @@ wearer has achieved her vengeance.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), [ghost sound](ref/spell/ghost-sound),
-[guidance](ref/spell/guidance), creator must have 5 ranks in Perception; **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), [ghost sound](ref/spell/ghost-sound), [guidance](ref/spell/guidance), creator must have 5 ranks in Perception
+Cost: 2,250 gp
+:::

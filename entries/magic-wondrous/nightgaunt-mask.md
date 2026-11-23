@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** head; **Price** 30,000 gp; **Weight** 1 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: head
+Price: 30,000 gp
+Weight: 1 lbs.
+:::
 
 A black, horned nightgaunt mask has two eyeholes but no other facial features. When the mask is
 worn, even the eyeholes vanish, leaving the wearer with no visible face at all. The wearer gains the
@@ -41,6 +46,7 @@ before vanishing.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [blindness/deafness](ref/spell/blindness-deafness),
-[summon monster VI](ref/spell/summon-monster-6); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [blindness/deafness](ref/spell/blindness-deafness), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 15,000 gp
+:::

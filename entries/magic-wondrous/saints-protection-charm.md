@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** moderate conjuration; **CL** 3rd\
-**Slot** wrists; **Price** 1,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 3rd
+Slot: wrists
+Price: 1,500 gp
+Weight: -
+:::
 
 A copper disc attached to this bracelet bears the image of a figure in religious garb. The wearer
 gains a +1 deflection bonus to AC and a +1 resistance bonus on saves. These bonuses apply only
@@ -29,6 +34,7 @@ against attacks made or effects created by extraplanar creatures.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[protection from chaos, evil, good, or law](ref/spell/protection-from-chaos-evil-good-law); **Cost**
-750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [protection from chaos, evil, good, or law](ref/spell/protection-from-chaos-evil-good-law)
+Cost: 750 gp
+:::

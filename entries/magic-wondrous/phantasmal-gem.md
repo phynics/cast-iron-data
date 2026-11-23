@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This small cut crystal appears to be filled with hazy, indistinct images that constantly shift and
 vary. If a spellcaster holding the phantasmal gem casts an illusion spell with a duration of
@@ -36,5 +41,7 @@ phantasmal gem (up to a maximum of 10 rounds).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a gnome or a
-wizard specialized in the school of [illusion](ref/arcaneschool/illusion); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a gnome or a wizard specialized in the school of [illusion](ref/arcaneschool/illusion)
+Cost: 2,000 gp
+:::

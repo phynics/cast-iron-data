@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** eyes; **Price** 750 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: eyes
+Price: 750 gp
+Weight: 1 lb.
+:::
 
 These spectacles fit firmly over eyes and are held in place by two crystalline stems. The lenses are
 initially clear and don't hinder the wearer's vision. When the wearer is targeted with an illusion
@@ -34,5 +39,7 @@ effects affect the wearer as normal. Once the spectacles absorb an effect, they 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser)
+Cost: 375 gp
+:::

@@ -20,8 +20,12 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Weight** -
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Weight: -
+:::
 
 This scroll can seem to contain any spell. When the wielder attempts to cast the spell, the ink
 turns to blood and runs off the page, ruining the spell automatically. The scroll's edges turn sharp
@@ -32,4 +36,7 @@ save halves the bleed. The bleed can be stopped with any magical healing or a su
 
 ### Construction
 
-**Requirements** any scroll; **Cost** -
+::: statblock
+Requirements: any scroll
+Cost: -
+:::

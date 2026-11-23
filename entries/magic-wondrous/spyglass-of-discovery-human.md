@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** none; **Price** 17,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: none
+Price: 17,500 gp
+Weight: 1 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -36,7 +41,7 @@ point.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Enlarge Spell](ref/feat/enlarge-spell),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), creator must be a human;
-**Cost** 8,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Enlarge Spell](ref/feat/enlarge-spell), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), creator must be a human
+Cost: 8,750 gp
+:::

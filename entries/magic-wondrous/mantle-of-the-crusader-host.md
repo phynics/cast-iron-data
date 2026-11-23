@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** chest; **Price** 95,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: chest
+Price: 95,000 gp
+Weight: -
+:::
 
 This holy shroud is inscribed with hundreds of sacred passages in homage to the gods of good. It
 grants [damage reduction](ref/rule/damage-reduction) 5/evil to the character wearing it. Against the
@@ -31,5 +36,7 @@ class feature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stoneskin](ref/spell/stoneskin), creator must be good-aligned; **Cost** 47,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stoneskin](ref/spell/stoneskin), creator must be good-aligned
+Cost: 47,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate varied"
 caster_level = "9th"
 +++
 
-**Aura** moderate varied; **CL** 9th\
-**Slot** head; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate varied
+CL: 9th
+Slot: head
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 An undead wearing this golden mask is treated as both an undead and a creature of the type it was
 before becoming undead (including any associated subtypes) for the purposes of determining its
@@ -32,5 +37,7 @@ _[sanctify corpse](ref/spell/sanctify-corpse)._ A living creature wearing the ma
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[polymorph](ref/spell/polymorph), [sanctify corpse](ref/spell/sanctify-corpse); **Cost** 4,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [polymorph](ref/spell/polymorph), [sanctify corpse](ref/spell/sanctify-corpse)
+Cost: 4,500 gp
+:::

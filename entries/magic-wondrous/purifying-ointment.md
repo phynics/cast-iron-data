@@ -20,8 +20,13 @@ aura = "faint abjuration and conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and conjuration; **CL** 5th\
-**Slot** none; **Price** 4,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint abjuration and conjuration
+CL: 5th
+Slot: none
+Price: 4,000 gp
+Weight: 1/2 lb.
+:::
 
 Usually stored in a jar shaped like a scarab beetle, this unguent is pale green and smells like
 thistle with a hint of the scent of embalming fluids. A jar contains five applications, each of
@@ -38,6 +43,7 @@ that requires two successful caster level checks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser), [remove curse](ref/spell/remove-curse),
-[remove disease](ref/spell/remove-disease); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser), [remove curse](ref/spell/remove-curse), [remove disease](ref/spell/remove-disease)
+Cost: 2,000 gp
+:::

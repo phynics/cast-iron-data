@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 750 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 750 gp
+Weight: 1/2 lb.
+:::
 
 These dense pebbles are sometimes used by [drow](ref/race/drow) skirmishers for both offense and
 defense. If a stalagmite seed is thrown, it has a range increment of 20 feet. If it's slung, treat
@@ -35,5 +40,7 @@ Any creature that succeeds at a DC 14 Reflex save takes half damage and is not k
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic stone](ref/spell/magic-stone), [stone shape](ref/spell/stone-shape); **Cost** 375 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic stone](ref/spell/magic-stone), [stone shape](ref/spell/stone-shape)
+Cost: 375 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** head; **Price** 7,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: head
+Price: 7,500 gp
+Weight: 2 lbs.
+:::
 
 This stylized bird mask consists of a pair of goggles attached to a ceramic beak that covers the
 nose and mouth. The goggles are not magic and can be replaced with other goggles or eye slot items.
@@ -31,5 +36,7 @@ creature touched.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[remove disease](ref/spell/remove-disease); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [remove disease](ref/spell/remove-disease)
+Cost: 3,750 gp
+:::

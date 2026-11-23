@@ -20,8 +20,13 @@ aura = "faint evocation and illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and illusion; **CL** 5th\
-**Slot** head; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation and illusion
+CL: 5th
+Slot: head
+Price: 5,000 gp
+Weight: -
+:::
 
 This reversible silken mask is flat white on one side and a swirling mass of colors above a black
 background on the other. When worn with the white side out, it allows the wearer to use
@@ -33,6 +38,7 @@ the white side of the mask to cast _[disguise self](ref/spell/disguise-self)_ on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [disguise self](ref/spell/disguise-self),
-[magic missile](ref/spell/magic-missile), [read magic](ref/spell/read-magic); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [disguise self](ref/spell/disguise-self), [magic missile](ref/spell/magic-missile), [read magic](ref/spell/read-magic)
+Cost: 2,500 gp
+:::

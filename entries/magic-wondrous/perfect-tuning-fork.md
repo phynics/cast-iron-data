@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 [Shelyn's](ref/faith/shelyn) association with harmony and music inspires many composers to pen
 glorious songs in the Eternal Rose's honor, and numerous tools have been devised by her church to
@@ -34,5 +39,7 @@ tuning fork loses its magic after one use, but it can be used as an ordinary tun
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste);
-**Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste)
+Cost: 300 gp
+:::

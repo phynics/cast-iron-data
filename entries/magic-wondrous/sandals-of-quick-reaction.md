@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** feet; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: feet
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 These supple leather sandals grant a burst of speed during times of duress. When the wearer acts
 during a surprise round, he can take a standard and a move action during the surprise round. If the
@@ -30,5 +35,7 @@ instead gains a +10 circumstance bonus to speed when acting during a surprise ro
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[anticipate peril](ref/spell/anticipate-peril), [haste](ref/spell/haste); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [anticipate peril](ref/spell/anticipate-peril), [haste](ref/spell/haste)
+Cost: 2,000 gp
+:::

@@ -25,9 +25,13 @@ caster_level = "varies"
 
 ## Strand of Prayer Beads
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 9,600 gp (Lesser), 45,800 gp (Standard), 95,800 gp (Greater); **Weight**
-1/2 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 9,600 gp (Lesser), 45,800 gp (Standard), 95,800 gp (Greater)
+Weight: 1/2 lb.
+:::
 
 This item appears to be nothing more than a string of prayer beads until the owner casts a divine
 spell while the beads are carried. Once that occurs, the owner instantly knows the powers of the
@@ -61,12 +65,7 @@ gp, bead of healing -9,000 gp, bead of karma -20,000 gp, bead of smiting -16,800
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item) and one of the following spells
-per bead, as appropriate: [bless](ref/spell/bless) (blessing);
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness), or
-[remove disease](ref/spell/remove-disease) (healing); [righteous might](ref/spell/righteous-might)
-(karma); [gate](ref/spell/gate) (summons); [chaos hammer](ref/spell/chaos-hammer),
-[holy smite](ref/spell/holy-smite), [order's wrath](ref/spell/orders-wrath), or
-[unholy blight](ref/spell/unholy-blight) (smiting); [wind walk](ref/spell/wind-walk) (wind walking);
-**Cost** 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item) and one of the following spells per bead, as appropriate: [bless](ref/spell/bless) (blessing); [cure serious wounds](ref/spell/cure-serious-wounds), [remove blindness/deafness](ref/spell/remove-blindness-deafness), or [remove disease](ref/spell/remove-disease) (healing); [righteous might](ref/spell/righteous-might) (karma); [gate](ref/spell/gate) (summons); [chaos hammer](ref/spell/chaos-hammer), [holy smite](ref/spell/holy-smite), [order's wrath](ref/spell/orders-wrath), or [unholy blight](ref/spell/unholy-blight) (smiting); [wind walk](ref/spell/wind-walk) (wind walking)
+Cost: 4,800 gp (Lesser), 22,900 gp (Standard), 47,900 gp (Greater)
+:::

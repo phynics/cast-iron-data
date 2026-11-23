@@ -20,8 +20,13 @@ aura = "none"
 caster_level = "9th"
 +++
 
-**Aura** none; **CL** 9th\
-**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: none
+CL: 9th
+Slot: none
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 This nondescript belt pouch is quite popular among Pathfinders who need to smuggle items past
 snooping guards or government officials. Detect magic does not detect that it is magical (as per the
@@ -39,5 +44,7 @@ their nature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest)
+Cost: 1,000 gp
+:::

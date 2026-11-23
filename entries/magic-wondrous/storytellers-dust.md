@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "2nd"
 +++
 
-**Aura** faint illusion; **CL** 2nd\
-**Slot** none; **Price** 600 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 2nd
+Slot: none
+Price: 600 gp
+Weight: -
+:::
 
 This dust is kept in gaudy bags, but is a simple white powder. When thrown into a fire, it conjures
 a visible theater of the mind (as _[minor image](ref/spell/minor-image)_) within a 10-foot cube
@@ -31,5 +36,7 @@ a story using the image created by the dust.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor image](ref/spell/minor-image); **Cost** 300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor image](ref/spell/minor-image)
+Cost: 300 gp
+:::

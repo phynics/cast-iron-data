@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 6,600 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 6,600 gp
+Weight: -
+:::
 
 This shining, jewel-like scale is usually worn on the forehead between the eyebrows, though a
 creature can affix the scale to any part of her body by pressing it to her skin and speaking its
@@ -70,5 +75,7 @@ her normal form. The bindi can be used twice before it loses its luster and beco
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[monstrous physique IV](ref/spell/monstrous-physique-4); **Cost** 3,300 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [monstrous physique IV](ref/spell/monstrous-physique-4)
+Cost: 3,300 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This thick iron torc appears crudely made, and a few dents from the maker's hammer are visible. Once
 per day as a free action, the wearer can enter a _rage_ for 6 rounds as the spell, except that the
@@ -31,5 +36,7 @@ of rage instead.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage),
-creator must have the bloodrage or rage class feature; **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [rage](ref/spell/rage), creator must have the bloodrage or rage class feature
+Cost: 4,000 gp
+:::

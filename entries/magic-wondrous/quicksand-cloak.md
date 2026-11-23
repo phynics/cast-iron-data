@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shoulders; **Price** 15,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shoulders
+Price: 15,000 gp
+Weight: 4 lbs.
+:::
 
 The exterior of the cloak is an extradimensional space filled with water and sand. Each time a
 creature of the wearer's size or smaller attempts to [grapple](ref/rule/grapple) the wearer, it must
@@ -42,5 +47,7 @@ grapple the wearer while the cloak already contains a body is not affected by th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [shifting sand](ref/spell/shifting-sand); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [shifting sand](ref/spell/shifting-sand)
+Cost: 7,500 gp
+:::

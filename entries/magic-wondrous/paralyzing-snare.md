@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 2,250 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 2,250 gp
+Weight: 2 lbs.
+:::
 
 Once the command word is spoken, this 5-foot-diameter loop of wire blends with its surroundings. To
 find it, a character with the [trapfinding](ref/ability/trapfinding) ability must succeed at a DC 30
@@ -34,5 +39,7 @@ save. The snare is destroyed when the effect ends.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [snare](ref/spell/snare),
-[hold monster](ref/spell/hold-monster); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [snare](ref/spell/snare), [hold monster](ref/spell/hold-monster)
+Cost: 1,200 gp
+:::

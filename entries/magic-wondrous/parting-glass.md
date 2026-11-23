@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment; **CL** 12th\
-**Slot** none; **Price** 23,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 12th
+Slot: none
+Price: 23,000 gp
+Weight: 1 lb.
+:::
 
 Not every adventurer returns to the tavern, and Cayden's Hall has seen many a drink raised in
 remembrance of a fallen comrade. A parting glass, engraved with the names of adventuring companies
@@ -36,6 +41,7 @@ _[neutralize poison](ref/spell/neutralize-poison)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater heroism](ref/spell/heroism-greater), [neutralize poison](ref/spell/neutralize-poison);
-**Cost** 11,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater heroism](ref/spell/heroism-greater), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 11,500 gp
+:::

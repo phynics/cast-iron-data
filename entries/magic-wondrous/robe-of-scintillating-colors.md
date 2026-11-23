@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** body; **Price** 27,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: body
+Price: 27,000 gp
+Weight: 1 lb.
+:::
 
 The wearer of this robe can cause the garment to display a shifting pattern of incredible hues,
 color after color cascading from the upper part of the robe to the hem in sparkling rainbows of
@@ -42,5 +47,7 @@ per day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur),
-[rainbow pattern](ref/spell/rainbow-pattern); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur), [rainbow pattern](ref/spell/rainbow-pattern)
+Cost: 13,500 gp
+:::

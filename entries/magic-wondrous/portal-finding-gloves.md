@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 12,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 12,500 gp
+Weight: -
+:::
 
 These tight-fitting, black leather gloves have reinforced fingertips marked with arcane sigils. The
 gloves prickle slightly when in the presence of portals to other planes. The wearer gains a +5 bonus
@@ -31,5 +36,7 @@ touching the portal or a connected area (such as a wall) within 10 feet of it.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic), [divination](ref/spell/divination); **Cost** 6,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic), [divination](ref/spell/divination)
+Cost: 6,250 gp
+:::

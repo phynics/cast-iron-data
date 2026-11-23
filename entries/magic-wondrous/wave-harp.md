@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 7,500 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 7,500 gp
+Weight: 8 lbs.
+:::
 
 The wave harp is an unusual musical instrument that was popular in ancient Azlant. Three thin
 [mithral](ref/eq-material/mithral) rods extend from a thick plate, emitting invisible, short-range
@@ -49,5 +54,7 @@ additional round for every 5 points by which the Perform check result exceeds th
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor image](ref/spell/minor-image), [sound burst](ref/spell/sound-burst); **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor image](ref/spell/minor-image), [sound burst](ref/spell/sound-burst)
+Cost: 3,750 gp
+:::

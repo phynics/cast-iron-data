@@ -22,8 +22,13 @@ caster_level = "5th (minor), 8th (major)"
 
 ## Stone Cloak
 
-**Aura** faint (minor) or moderate (major) abjuration; **CL** 5th (minor), 8th (major)\
-**Slot** shoulders; **Price** 10,000 gp (minor), 20,000 gp (major); **Weight** 1 lb.
+::: statblock
+Aura: faint (minor) or moderate (major) abjuration
+CL: 5th (minor), 8th (major)
+Slot: shoulders
+Price: 10,000 gp (minor), 20,000 gp (major)
+Weight: 1 lb.
+:::
 
 **Minor:** This mottled gray cloak looks like granite or some other light gray stone. The wearer can
 pull a minor stone cloak tight around herself and freeze in place as a move action, which causes the
@@ -37,6 +42,7 @@ This effect can be dismissed as a free action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[stone shape](ref/spell/stone-shape) (minor) or [stoneskin](ref/spell/stoneskin) (major); **Cost**
-5,000 gp (minor), 10,000 gp (major)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [stone shape](ref/spell/stone-shape) (minor) or [stoneskin](ref/spell/stoneskin) (major)
+Cost: 5,000 gp (minor), 10,000 gp (major)
+:::

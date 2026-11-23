@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 700 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 700 gp
+Weight: -
+:::
 
 Said to be crafted from witches' tears and the ashes of burned heretics, pyre salt is composed of
 glistening black-and-white granules and smells of smoke. It typically comes in a narrow glass vial
@@ -39,5 +44,7 @@ also succeed at a DC 20 caster level check or the spell fails.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[death knell](ref/spell/death-knell), [pyrotechnics](ref/spell/pyrotechnics); **Cost** 350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [death knell](ref/spell/death-knell), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 350 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 4,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 4,500 gp
+Weight: 3 lbs.
+:::
 
 This cone has openings at both ends and a large mouthpiece on the small end, and is crafted from
 brass hoops and sheets of leather and painted garish colors. Anyone holding the mountebank's
@@ -35,6 +40,7 @@ ends, even if his new position is still within range.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ghost sound](ref/spell/ghost-sound), [exquisite accompaniment](ref/spell/exquisite-accompaniment);
-**Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ghost sound](ref/spell/ghost-sound), [exquisite accompaniment](ref/spell/exquisite-accompaniment)
+Cost: 2,250 gp
+:::

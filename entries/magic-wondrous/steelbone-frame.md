@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 6,000 gp; **Weight** 35 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 6,000 gp
+Weight: 35 lbs.
+:::
 
 Fashioned from the salvaged mechanical "bones" of the first
 [gearsmen](ref/monster/robot-gearsman-robot) that issued forth from Silver Mount, this gear-jointed,
@@ -32,5 +37,7 @@ attached to a steelbone frame can ignore the armor's reduction to his speed for 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bull's strength](ref/spell/bulls-strength), [longstrider](ref/spell/longstrider); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bull's strength](ref/spell/bulls-strength), [longstrider](ref/spell/longstrider)
+Cost: 3,000 gp
+:::

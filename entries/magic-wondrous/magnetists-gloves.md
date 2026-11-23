@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** hands; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: hands
+Price: 6,000 gp
+Weight: -
+:::
 
 These thin leather gloves have delicate steel wires running through them. Three times per day as a
 standard action, the wearer of these gloves may attempt a [disarm](ref/rule/disarm) combat maneuver
@@ -34,5 +39,7 @@ she has at least one hand free. If the wearer fails the combat maneuver check, s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[telekinesis](ref/spell/telekinesis); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [telekinesis](ref/spell/telekinesis)
+Cost: 3,000 gp
+:::

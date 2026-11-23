@@ -23,13 +23,20 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** chest; **Price** 90,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: chest
+Price: 90,000 gp
+Weight: -
+:::
 
 This light mantle bears a variety of mysterious symbols. When worn over normal clothing or armor,
 this magical garment grants the wearer [spell resistance](ref/rule/spell-resistance) 21.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spell resistance](ref/spell/spell-resistance); **Cost** 45,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spell resistance](ref/spell/spell-resistance)
+Cost: 45,000 gp
+:::

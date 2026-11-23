@@ -20,13 +20,20 @@ aura = "faint necromancy, strong evil"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy, strong evil; **CL** 3rd\
-**Slot** none; **Price** 4,410 gp; **Weight** -
+::: statblock
+Aura: faint necromancy, strong evil
+CL: 3rd
+Slot: none
+Price: 4,410 gp
+Weight: -
+:::
 
 This wand of _[death knell](ref/spell/death-knell)_ (49 charges) is made of wood but carved to
 appear as though it were tightly wrapped in several veils.
 
 ### Construction
 
-**Requirements** [Craft Wand](ref/feat/craft-wand), [death knell](ref/spell/death-knell); **Cost**
-2,250 gp
+::: statblock
+Requirements: [Craft Wand](ref/feat/craft-wand), [death knell](ref/spell/death-knell)
+Cost: 2,250 gp
+:::

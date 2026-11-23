@@ -23,8 +23,13 @@ aura = "strong varied"
 caster_level = "18th"
 +++
 
-**Aura** strong varied; **CL** 18th\
-**Slot** none; **Price** 48,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong varied
+CL: 18th
+Slot: none
+Price: 48,000 gp
+Weight: 6 lbs.
+:::
 
 This glass sphere is 8 inches in diameter. The possessor can call forth all manner of weather, even
 supernaturally destructive storms. Once per day, she can call upon the orb to use a
@@ -34,6 +39,7 @@ protected by an _[endure elements](ref/spell/endure-elements)_ effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control weather](ref/spell/control-weather), [endure elements](ref/spell/endure-elements),
-[storm of vengeance](ref/spell/storm-of-vengeance); **Cost** 24,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control weather](ref/spell/control-weather), [endure elements](ref/spell/endure-elements), [storm of vengeance](ref/spell/storm-of-vengeance)
+Cost: 24,000 gp
+:::

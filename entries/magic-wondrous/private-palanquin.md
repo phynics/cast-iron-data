@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 11th\
-**Slot** none; **Price** 63,000 gp; **Weight** 500 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 11th
+Slot: none
+Price: 63,000 gp
+Weight: 500 lbs.
+:::
 
 This versatile wooden conveyance provides a safe refuge for its passengers, free from the prying
 eyes of others. A private palanquin can be commanded to change its appearance, including not only
@@ -43,8 +48,7 @@ opened without speaking the command word, it triggers an audible _[alarm](ref/sp
 
 ### Construction
 
-**Requirements** [Craft Construct](ref/feat/craft-construct),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[animate objects](ref/spell/animate-objects), [arcane lock](ref/spell/arcane-lock),
-[mage's private sanctum](ref/spell/mages-private-sanctum), [veil](ref/spell/veil); **Cost** 31,500
-gp
+::: statblock
+Requirements: [Craft Construct](ref/feat/craft-construct), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [animate objects](ref/spell/animate-objects), [arcane lock](ref/spell/arcane-lock), [mage's private sanctum](ref/spell/mages-private-sanctum), [veil](ref/spell/veil)
+Cost: 31,500 gp
+:::

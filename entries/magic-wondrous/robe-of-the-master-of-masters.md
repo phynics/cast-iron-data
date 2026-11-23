@@ -23,8 +23,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 7th\
-**Slot** body; **Price** 2,300 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 7th
+Slot: body
+Price: 2,300 gp
+Weight: 3 lbs.
+:::
 
 This brightly colored robe is made of fine silk and cut in the Vudrani style. As a full-round
 action, the wearer can shift the original hue of the garment slightly (from red to pink or crimson,
@@ -39,6 +44,7 @@ she does so, up to 7 allies within 30 feet heal 1 hit point.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cure light wounds](ref/spell/cure-light-wounds), [disguise self](ref/spell/disguise-self),
-[haste](ref/spell/haste), creator must have 5 ranks in Perform (dance); **Cost** 1,150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cure light wounds](ref/spell/cure-light-wounds), [disguise self](ref/spell/disguise-self), [haste](ref/spell/haste), creator must have 5 ranks in Perform (dance)
+Cost: 1,150 gp
+:::

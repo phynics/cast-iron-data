@@ -20,9 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 2,000 gp (Type I), 4,000 gp (Type II), 7,500 gp (Type III), 15,000 gp (Type
-IV); **Weight** varies
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 2,000 gp (Type I), 4,000 gp (Type II), 7,500 gp (Type III), 15,000 gp (Type IV)
+Weight: varies
+:::
 
 This item appears to be an unremarkable mesh bag with many small openings, but it is stuffed to
 overflowing with hay. It can be hung from a line, post, or tree limb and used to feed horses and
@@ -38,6 +42,7 @@ shown in the table below.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create food and water](ref/spell/create-food-and-water); **Cost** 1,000 gp (Type I), 2,000 gp (Type
-II), 3,750 gp (Type III), 7,500 gp (Type IV)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create food and water](ref/spell/create-food-and-water)
+Cost: 1,000 gp (Type I), 2,000 gp (Type II), 3,750 gp (Type III), 7,500 gp (Type IV)
+:::

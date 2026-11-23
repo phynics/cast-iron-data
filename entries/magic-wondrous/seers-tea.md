@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 550 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 550 gp
+Weight: -
+:::
 
 This rich tea can be made from any number of herbs. When the tea is brewed without a filter and
 imbibed, the drinker can read the patterns in the leaves remaining at the bottom of her cup, gaining
@@ -33,5 +38,7 @@ reveals information as if she had cast _[divination](ref/spell/divination)_ inst
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury) or
-[divination](ref/spell/divination); **Cost** 275 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury) or [divination](ref/spell/divination)
+Cost: 275 gp
+:::

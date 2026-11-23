@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 26,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 26,000 gp
+Weight: 5 lbs.
+:::
 
 This heavy book contains a collection of epic tales of mighty Ulfen heroes and the wondrous deeds
 they performed, but entwined within the words is a powerful magical effect. If anyone reads this
@@ -32,6 +37,7 @@ book is read, the magic disappears from the pages and it becomes a normal book.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[eagle's splendor](ref/spell/eagles-splendor), [remove fear](ref/spell/remove-fear), creator must be
-a [bard](ref/class/bard); **Cost** 13,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [eagle's splendor](ref/spell/eagles-splendor), [remove fear](ref/spell/remove-fear), creator must be a [bard](ref/class/bard)
+Cost: 13,000 gp
+:::

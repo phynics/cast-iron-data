@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 This decorative [wayfinder](ref/magic-wondrous/wayfinder) appears to be made of gold, and its face
 is marked with white and silver motifs of roosters. Whenever the wielder of a noisemaker wayfinder
@@ -44,5 +49,7 @@ may disable its audible alarm function at will by pressing down on the compass n
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[light](ref/spell/light); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [light](ref/spell/light)
+Cost: 3,500 gp
+:::

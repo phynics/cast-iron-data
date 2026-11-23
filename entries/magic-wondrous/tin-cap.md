@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** head; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: head
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This simple tin headpiece is a lesser replica of the powerful
 [stannum crown](ref/magic-artifact/stannum-crown). A tin cap feeds on its wearer's paranoia,
@@ -33,5 +38,7 @@ and drawbacks until it is donned again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mind blank](ref/spell/mind-blank); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mind blank](ref/spell/mind-blank)
+Cost: 7,500 gp
+:::

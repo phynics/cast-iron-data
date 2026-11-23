@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 Brass latticework decorates the faces of this cubical mahogany puzzle box. While in its solved
 configuration, the puzzle box is safe to open and close, and the user can access an extradimensional
@@ -52,6 +57,7 @@ A found puzzle box has a 75% chance of having a touch spell stored within it, us
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability),
-[secret chest](ref/spell/secret-chest); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), [secret chest](ref/spell/secret-chest)
+Cost: 2,500 gp
+:::

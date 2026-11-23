@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 18,000 gp
+Weight: -
+:::
 
 This faintly glowing bowstring is twined from the hair of a [lillend](ref/monster/azata-lillend).
 When strung on a bow, a tuned bowstring also functions as a masterwork stringed instrument, granting
@@ -34,6 +39,7 @@ costs a round of bardic performance.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[exquisite accompaniment](ref/spell/exquisite-accompaniment), creator must have the bardic
-performance class feature; **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [exquisite accompaniment](ref/spell/exquisite-accompaniment), creator must have the bardic performance class feature
+Cost: 9,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration and divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and divination; **CL** 3rd\
-**Slot** none; **Price** 1,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration and divination
+CL: 3rd
+Slot: none
+Price: 1,200 gp
+Weight: 2 lbs.
+:::
 
 This sweet white wine contains notes of apple, lemon, and peach and is among the most
 citrus-flavored of the local wines produced in Caliphas. According to traditional legends, drinking
@@ -40,6 +45,7 @@ bottle of wine of concordance contains six glasses' worth of wine.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shield other](ref/spell/shield-other), [status](ref/spell/status), creator must have at least 4
-ranks in [Craft (alchemy)](ref/skill/craft-any); **Cost** 600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shield other](ref/spell/shield-other), [status](ref/spell/status), creator must have at least 4 ranks in [Craft (alchemy)](ref/skill/craft-any)
+Cost: 600 gp
+:::

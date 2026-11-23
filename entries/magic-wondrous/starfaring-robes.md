@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** body; **Price** 82,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: body
+Price: 82,000 gp
+Weight: 1 lb.
+:::
 
 This simple blue robe appears plain during the day but sparkles in starlight or moonlight. The
 wearer is constantly protected as if wearing a
@@ -37,7 +42,7 @@ year).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self), [fly](ref/spell/fly),
-[interplanetary teleport](ref/spell/interplanetary-teleport),
-[temporal stasis](ref/spell/temporal-stasis); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self), [fly](ref/spell/fly), [interplanetary teleport](ref/spell/interplanetary-teleport), [temporal stasis](ref/spell/temporal-stasis)
+Cost: 41,000 gp
+:::

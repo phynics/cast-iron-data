@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** neck; **Price** 4,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: neck
+Price: 4,200 gp
+Weight: 5 lbs.
+:::
 
 This impossibly hard, lumpy piece of unforged iron originates from metal that remained cool after
 smelting - ore that resisted all attempts to forge it into another shape. Worshipers of
@@ -40,6 +45,7 @@ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[chill metal](ref/spell/chill-metal), [mending](ref/spell/mending),
-[resist energy](ref/spell/resist-energy), [resistance](ref/spell/resistance); **Cost** 2,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [chill metal](ref/spell/chill-metal), [mending](ref/spell/mending), [resist energy](ref/spell/resist-energy), [resistance](ref/spell/resistance)
+Cost: 2,100 gp
+:::

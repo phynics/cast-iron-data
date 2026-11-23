@@ -22,10 +22,13 @@ caster_level = "17th"
 
 ## Shard of Psychic Power
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** none; **Price** 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp
-(4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp
-(8th-level), 81,000 gp (9th-level); **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: none
+Price: 1,000 gp (1st-level), 4,000 gp (2nd-level), 9,000 gp (3rd-level), 16,000 gp (4th-level), 25,000 gp (5th-level), 36,000 gp (6th-level), 49,000 gp (7th-level), 64,000 gp (8th-level), 81,000 gp (9th-level)
+Weight: -
+:::
 
 This shard of quartz is roughly the size of a human finger and covered in flowing sigils. It
 contains the knowledge of a psychic spell (chosen by the creator when the item is crafted). If the
@@ -37,7 +40,7 @@ on the 1st-level medium list and the 2nd-level spiritualist list is priced as a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to cast
-the spell contained in the shard; **Cost** 500 gp (1st-level), 2,000 gp (2nd-level), 4,500 gp
-(3rd-level), 8,000 gp (4th-level), 12,500 gp (5th-level), 18,000 gp (6th-level), 24,500 gp
-(7th-level), 32,000 gp (8th-level), 40,500 gp (9th-level)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be able to cast the spell contained in the shard
+Cost: 500 gp (1st-level), 2,000 gp (2nd-level), 4,500 gp (3rd-level), 8,000 gp (4th-level), 12,500 gp (5th-level), 18,000 gp (6th-level), 24,500 gp (7th-level), 32,000 gp (8th-level), 40,500 gp (9th-level)
+:::

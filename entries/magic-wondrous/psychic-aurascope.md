@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 8,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 8,000 gp
+Weight: 4 lbs.
+:::
 
 A magical version of a [haunt detector](ref/eq-misc/haunt-detector), a psychic aurascope is filled
 with a strange, swirling white vapor. A psychic aurascope acts in all ways as a haunt detector, but
@@ -48,6 +53,7 @@ result exceeds this DC, the user randomly determines another one of the haunt's 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[analyze aura](ref/spell/analyze-aura), [speak with haunt](ref/spell/speak-with-haunt); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [analyze aura](ref/spell/analyze-aura), [speak with haunt](ref/spell/speak-with-haunt)
+Cost: 4,000 gp
+:::

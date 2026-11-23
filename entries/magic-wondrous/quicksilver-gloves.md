@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** hands; **Price** 7,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: hands
+Price: 7,000 gp
+Weight: 1 lb.
+:::
 
 These tight-fitting gloves have silver tips at the end of each finger. When worn, the silver spreads
 to cover the gloves so they appear to be covered in liquid metal.
@@ -38,5 +43,7 @@ _[haste](ref/spell/haste)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[versatile weapon](ref/spell/versatile-weapon); **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [versatile weapon](ref/spell/versatile-weapon)
+Cost: 3,500 gp
+:::

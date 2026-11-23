@@ -20,8 +20,13 @@ aura = "faint universal"
 caster_level = "5th"
 +++
 
-**Aura** faint universal; **CL** 5th\
-**Slot** none; **Price** 3,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint universal
+CL: 5th
+Slot: none
+Price: 3,000 gp
+Weight: 8 lbs.
+:::
 
 Each of these rune-carved brass rings is keyed to a specific spell at creation. When using the
 [Use Magic Device](ref/skill/use-magic-device) skill to activate a scroll or
@@ -30,6 +35,7 @@ bonus on the skill check.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[guidance](ref/spell/guidance), creator must have 10 ranks in the Use Magic Device skill; **Cost**
-1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [guidance](ref/spell/guidance), creator must have 10 ranks in the Use Magic Device skill
+Cost: 1,500 gp
+:::

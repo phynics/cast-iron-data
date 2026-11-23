@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 1,000 gp
+Weight: -
+:::
 
 When smoked in any pipe, this pinch of magical tobacco produces a languid, milky-white smoke that
 the smoker can transform into useful objects. A [halfling](ref/race/halfling) who puffs on the pipe
@@ -47,5 +52,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[minor creation](ref/spell/minor-creation), creator must be a halfling; **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [minor creation](ref/spell/minor-creation), creator must be a halfling
+Cost: 500 gp
+:::

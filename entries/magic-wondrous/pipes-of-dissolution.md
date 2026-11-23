@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 3 lbs.
+:::
 
 Carvings of winter scenes decorate this set of pan pipes. Activating the pipes requires a DC 15
 [Perform (wind)](ref/skill/perform-any) check. Creatures within 30 feet gain a +2 competence bonus
@@ -33,5 +38,7 @@ after which the pipes cannot be used again for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dispel magic](ref/spell/dispel-magic); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dispel magic](ref/spell/dispel-magic)
+Cost: 6,000 gp
+:::

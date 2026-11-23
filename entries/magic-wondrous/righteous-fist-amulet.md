@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** neck; **Price** 4,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: neck
+Price: 4,000 gp
+Weight: 1/2 lb.
+:::
 
 This golden amulet is used by religious sects as a way to help the faithful capture fugitives or
 defend themselves without doing undue harm to potential converts. While the wearer is using her
@@ -31,5 +36,7 @@ she had the [Improved Unarmed Strike](ref/feat/improved-unarmed-strike) feat.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), Improved Unarmed Strike,
-[stone fist](ref/spell/stone-fist); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), Improved Unarmed Strike, [stone fist](ref/spell/stone-fist)
+Cost: 2,000 gp
+:::

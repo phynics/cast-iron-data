@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 A trophy box is a 1-foot-wide clay box used to trap and release beasts too dangerous to confront
 directly. As soon as the trophy box is placed and the first command word is spoken, the trap is
@@ -40,6 +45,7 @@ normal instincts take over.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[dominate animal](ref/spell/dominate-animal), [secret chest](ref/spell/secret-chest); **Cost** 9,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [dominate animal](ref/spell/dominate-animal), [secret chest](ref/spell/secret-chest)
+Cost: 9,000 gp
+:::

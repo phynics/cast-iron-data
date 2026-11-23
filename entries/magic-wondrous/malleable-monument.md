@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 8,000 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 8,000 gp
+Weight: 15 lbs.
+:::
 
 This stone statuette is shaped like a humanoid, but it lacks a face and fine detail. A character
 holding the statue can call upon her deity as a full-round action, imbuing the statue within divine
@@ -38,6 +43,7 @@ malleable monument has [hardness](ref/umr/hardness) 8 and 25 hit points.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow),
-[remove fear](ref/spell/remove-fear), [stone shape](ref/spell/stone-shape),
-[unhallow](ref/spell/unhallow); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hallow](ref/spell/hallow), [remove fear](ref/spell/remove-fear), [stone shape](ref/spell/stone-shape), [unhallow](ref/spell/unhallow)
+Cost: 4,000 gp
+:::

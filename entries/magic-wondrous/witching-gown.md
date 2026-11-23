@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** body; **Price** 35,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: body
+Price: 35,000 gp
+Weight: 1 lb.
+:::
 
 Spun from combed cotton, this simple, unassuming gown bears a strong aura of witchcraft. These
 magical garments are highly sought after by witches, for though anyone may wear a witching gown,
@@ -41,6 +46,7 @@ gown's spite spell counts as an active spite effect for the witch wearing the go
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm person](ref/spell/charm-person), [disguise self](ref/spell/disguise-self),
-[resistance](ref/spell/resistance), [spite](ref/spell/spite); **Cost** 17,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm person](ref/spell/charm-person), [disguise self](ref/spell/disguise-self), [resistance](ref/spell/resistance), [spite](ref/spell/spite)
+Cost: 17,750 gp
+:::

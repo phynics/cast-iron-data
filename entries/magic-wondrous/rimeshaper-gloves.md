@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** hands; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: hands
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 These sleek gloves bear a faint scaled pattern and shimmer slightly, as if they were covered in ice
 crystals. While in cold or colder weather, rimeshaper gloves allow the wearer to solidify nearby
@@ -37,6 +42,7 @@ dismissed as a standard action. Finally, the gloves grant the wearer cold resist
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[resist energy](ref/spell/resist-energy), [chill metal](ref/spell/chill-metal) or
-[icicle dagger](ref/spell/icicle-dagger); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [resist energy](ref/spell/resist-energy), [chill metal](ref/spell/chill-metal) or [icicle dagger](ref/spell/icicle-dagger)
+Cost: 1,500 gp
+:::

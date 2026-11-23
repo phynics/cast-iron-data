@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 70,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 70,000 gp
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -37,6 +42,7 @@ an earthquake on the spot where the crowbar lands.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[earthquake](ref/spell/earthquake), [stone shape](ref/spell/stone-shape), creator must be a kobold;
-**Cost** 35,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [earthquake](ref/spell/earthquake), [stone shape](ref/spell/stone-shape), creator must be a kobold
+Cost: 35,000 gp
+:::

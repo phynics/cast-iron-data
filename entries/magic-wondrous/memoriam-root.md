@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This sharp wooden root looks green and alive. When plunged into the earth over a buried humanoid
 corpse, the root grows into a young tree in 1 hour. The appearance of the plant and the fruit it
@@ -57,5 +62,7 @@ effects that would damage or otherwise harm it based on its alignment.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[goodberry](ref/spell/goodberry), [tree shape](ref/spell/tree-shape); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [goodberry](ref/spell/goodberry), [tree shape](ref/spell/tree-shape)
+Cost: 3,000 gp
+:::

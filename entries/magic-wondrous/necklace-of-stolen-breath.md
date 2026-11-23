@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** neck; **Price** 3,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: neck
+Price: 3,500 gp
+Weight: 1 lb.
+:::
 
 This necklace is a string of intricately carved bones that hold fragments of drowned souls. The
 wearer can mimic the voice of anyone whose spirit is stored in the necklace as if using
@@ -52,6 +57,7 @@ standard (2,250 gp, 8-HD sacrifice), and greater (3,300 gp, 10-HD sacrifice).
 
 ### Construction
 
-**Requirements** [Augment Summoning](ref/feat/augment-summoning),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VI](ref/spell/summon-monster-6)
-or [summon nature's ally V](ref/spell/summon-natures-ally-5); **Cost** 1,750 gp
+::: statblock
+Requirements: [Augment Summoning](ref/feat/augment-summoning), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster VI](ref/spell/summon-monster-6) or [summon nature's ally V](ref/spell/summon-natures-ally-5)
+Cost: 1,750 gp
+:::

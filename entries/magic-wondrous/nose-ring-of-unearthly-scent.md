@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** head; **Price** 11,475 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: head
+Price: 11,475 gp
+Weight: -
+:::
 
 This item allows its wearer to smell curses as an unearthly odor with traces of brimstone and iron.
 As a standard action, the wearer can bring its nose near an object or creature and sniff the target
@@ -35,5 +40,7 @@ The perceived smell of a favorite food indicates "weal" and the smell of death i
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury),
-[detect magic](ref/spell/detect-magic); **Cost** 6,675 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [augury](ref/spell/augury), [detect magic](ref/spell/detect-magic)
+Cost: 6,675 gp
+:::

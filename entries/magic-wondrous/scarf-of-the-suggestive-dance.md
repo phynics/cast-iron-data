@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment; **CL** 1st\
-**Slot** belt; **Price** 3,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint enchantment
+CL: 1st
+Slot: belt
+Price: 3,000 gp
+Weight: 1/2 lb.
+:::
 
 This silk scarf is embroidered with all the colors of a flame and tasseled in tiny beads. When
 wrapped around the hips, it grants the wearer a +5 competence bonus on
@@ -31,5 +36,7 @@ performances.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hypnotism](ref/spell/hypnotism); **Cost** 950 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hypnotism](ref/spell/hypnotism)
+Cost: 950 gp
+:::

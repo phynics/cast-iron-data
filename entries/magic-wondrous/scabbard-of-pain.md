@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This rugged black leather scabbard is wrapped in jet black chains that allow it to easily be hung
 from one's belt. A scabbard of pain grants it bearer knowledge of advanced torturing techniques used
@@ -35,5 +40,7 @@ so allows the bearer to reroll a failed saving throw against a mind-affecting ef
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[ray of sickening](ref/spell/ray-of-sickening); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [ray of sickening](ref/spell/ray-of-sickening)
+Cost: 1,250 gp
+:::

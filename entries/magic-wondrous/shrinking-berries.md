@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 300 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 300 gp
+Weight: -
+:::
 
 These berries cause animals that eat them to transform into smaller and far less dangerous versions
 of themselves, as per the spell _[pup shape](ref/spell/pup-shape)_ (Fortitude DC 14 negates), except
@@ -31,5 +36,7 @@ diet.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[pup shape](ref/spell/pup-shape); **Cost** 150 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [pup shape](ref/spell/pup-shape)
+Cost: 150 gp
+:::

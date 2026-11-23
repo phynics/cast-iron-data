@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 This undistinguished metal lump has no powers in its default state. By concentrating on it for 1
 minute, a creature who worships a deity may transform it into a masterwork holy symbol of that
@@ -37,6 +42,7 @@ The symbol reverts to its nondescript lump form after being away from its bearer
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass), creator must be able to channel energy;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mass cure light wounds](ref/spell/cure-light-wounds-mass), creator must be able to channel energy
+Cost: 5,000 gp
+:::

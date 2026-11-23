@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** neck; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: neck
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This polished talisman of [darkwood](ref/eq-material/darkwood) inscribed with the pictogram of a
 specific [wendo](ref/faith/wendo) hangs from a loop of twine. The wearer gains a +2 luck bonus on
@@ -38,5 +43,7 @@ source + the source's Charisma modifier.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[hex ward](ref/spell/hex-ward); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [hex ward](ref/spell/hex-ward)
+Cost: 4,000 gp
+:::

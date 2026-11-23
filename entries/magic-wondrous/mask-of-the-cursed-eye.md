@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** face; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: face
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This mask is decorated with a staring, bloodshot eye. Anyone other than an ally who observes the
 wearer using a scrying spell or pierces any of his magical disguise (including invisibility and
@@ -33,5 +38,7 @@ dormant until the next midnight.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[blindness/deafness](ref/spell/blindness-deafness); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blindness/deafness](ref/spell/blindness-deafness)
+Cost: 1,250 gp
+:::

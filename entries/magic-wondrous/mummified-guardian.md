@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 3,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 3,500 gp
+Weight: 3 lbs.
+:::
 
 This mummified house cat - dried, filled with sand, and bound in linen wrappings - appears to be
 nothing more than a family pet buried alongside its deceased master. Far more than a mere pet,
@@ -52,6 +57,7 @@ mummified remains of other small animals as well.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[sanctify corpse](ref/spell/sanctify-corpse), [scare](ref/spell/scare), creator must have 5 ranks in
-the Heal skill; **Cost** 1,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [sanctify corpse](ref/spell/sanctify-corpse), [scare](ref/spell/scare), creator must have 5 ranks in the Heal skill
+Cost: 1,750 gp
+:::

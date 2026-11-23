@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** shoulders; **Price** 13,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: shoulders
+Price: 13,400 gp
+Weight: 1 lb.
+:::
 
 This mantle grants the wearer a +4 resistance bonus on saving throws against disease. Once per day,
 the wearer can flourish the cape as a swift action to surround himself with a cloud of deadly
@@ -33,5 +38,7 @@ remove diseases. The spores are a disease effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[contagion](ref/spell/contagion); **Cost** 6,700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [contagion](ref/spell/contagion)
+Cost: 6,700 gp
+:::

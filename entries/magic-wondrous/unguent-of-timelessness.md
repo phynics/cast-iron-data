@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 150 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 150 gp
+Weight: -
+:::
 
 When applied to any matter that was once alive, such as wood, paper, or a dead body, this ointment
 allows that substance to resist the passage of time. Each year of actual time affects the substance
@@ -36,5 +41,7 @@ object counts as four Medium objects.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose); **Cost** 75 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose)
+Cost: 75 gp
+:::

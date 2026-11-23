@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This simple bowl-shaped bell made of either [cold iron](ref/eq-material/cold-iron) or silver is
 played by rubbing a leather mallet along its rim, creating a ringing sound. By playing the bell
@@ -35,5 +40,7 @@ act as magic weapons can use a singing bell of striking.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[versatile weapon](ref/spell/versatile-weapon); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [versatile weapon](ref/spell/versatile-weapon)
+Cost: 3,000 gp
+:::

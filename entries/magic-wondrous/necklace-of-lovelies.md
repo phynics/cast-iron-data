@@ -20,8 +20,13 @@ aura = "abjuration (evil)"
 caster_level = "17th"
 +++
 
-**Aura** abjuration (evil); **CL** 17th\
-**Slot** neck; **Price** 36,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: abjuration (evil)
+CL: 17th
+Slot: neck
+Price: 36,000 gp
+Weight: 4 lbs.
+:::
 
 This repugnant and cruel magic item consists of a chain of [cold iron](ref/eq-material/cold-iron) on
 which dangle six tiny, cold iron cages, each of which contains a living but miniaturized
@@ -46,6 +51,7 @@ the lucky soul to roll 2d20 and pick which result he wishes to accept.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imprisonment](ref/spell/imprisonment), [shield other](ref/spell/shield-other), 6 willing or
-helpless pixies; **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imprisonment](ref/spell/imprisonment), [shield other](ref/spell/shield-other), 6 willing or helpless pixies
+Cost: 18,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment, strong evil"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment, strong evil; **CL** 5th\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment, strong evil
+CL: 5th
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This rag and wicker haunted doll closely resembles Pilali in appearance - it even has diaphanous
 blue cloth wings. Nettle's Poppet appears to be a [hexing doll](ref/magic-wondrous/hexing-doll), but

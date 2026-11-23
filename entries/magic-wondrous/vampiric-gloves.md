@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** hands; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: hands
+Price: 18,000 gp
+Weight: -
+:::
 
 These pale, elegant-looking leather gloves have blood red stitching on the fingers - which bears a
 startling resemblance to blood-encrusted fingernails. Three times per day, the wearer can use
@@ -40,5 +45,7 @@ _[vampiric touch](ref/spell/vampiric-touch)_ to end the bleed effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[vampiric touch](ref/spell/vampiric-touch); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 9,000 gp
+:::

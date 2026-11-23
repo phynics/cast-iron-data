@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** belt; **Price** 7,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: belt
+Price: 7,000 gp
+Weight: 5 lbs.
+:::
 
 This kilt is made of thick woven strips of sea-green and sky-blue cloth decorated with tiny pearls
 and bits of coral along the beltline. The wearer gains a +3 competence bonus on Swim checks. When
@@ -38,7 +43,7 @@ a speed of 10 feet. The wearer can also drink salt water as if it were fresh wat
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create water](ref/spell/create-water), [gaseous form](ref/spell/gaseous-form),
-[levitate](ref/spell/levitate) or [water walk](ref/spell/water-walk), creator must have 5 ranks in
-Swim; **Cost** 3,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create water](ref/spell/create-water), [gaseous form](ref/spell/gaseous-form), [levitate](ref/spell/levitate) or [water walk](ref/spell/water-walk), creator must have 5 ranks in Swim
+Cost: 3,500 gp
+:::

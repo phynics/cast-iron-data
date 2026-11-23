@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** head; **Price** 3,200 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: head
+Price: 3,200 gp
+Weight: -
+:::
 
 This ghost-white shawl is partially transparent and flutters elegantly with every motion its wearer
 makes. If the wearer has the shared consciousness class feature, she gains the
@@ -32,6 +37,7 @@ she instead gains a +4 competence bonus on skill checks with those skills.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[borrow skill](ref/spell/borrow-skill), creator must be a spiritualist with the shared consciousness
-class feature.; **Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [borrow skill](ref/spell/borrow-skill), creator must be a spiritualist with the shared consciousness class feature.
+Cost: 1,600 gp
+:::

@@ -22,8 +22,13 @@ caster_level = "14th"
 
 ## Stone Horse
 
-**Aura** strong transmutation; **CL** 14th\
-**Slot** none; **Price** 10,000 gp (Courser), 14,800 gp (Destrier); **Weight** 6,000 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 14th
+Slot: none
+Price: 10,000 gp (Courser), 14,800 gp (Destrier)
+Weight: 6,000 lbs.
+:::
 
 This item is a roughly hewn statue of a horse, carved from some type of hard stone. A command word
 brings the steed to life, enabling it to carry a burden and even to attack as if it were a real
@@ -43,6 +48,7 @@ There are two sorts of stone horses.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate objects](ref/spell/animate-objects), [flesh to stone](ref/spell/flesh-to-stone); **Cost**
-5,000 gp (Courser), 7,400 gp (Destrier)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate objects](ref/spell/animate-objects), [flesh to stone](ref/spell/flesh-to-stone)
+Cost: 5,000 gp (Courser), 7,400 gp (Destrier)
+:::

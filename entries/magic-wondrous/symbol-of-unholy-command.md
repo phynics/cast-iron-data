@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This unholy symbol is carved entirely from human bone. When the wielder uses this unholy symbol as a
 focus for the Command Undead feat, he gains a +1 profane bonus to the DC of that feat.
@@ -32,6 +37,7 @@ act.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Command Undead](ref/feat/command-undead) or [command undead](ref/spell/command-undead); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Command Undead](ref/feat/command-undead) or [command undead](ref/spell/command-undead)
+Cost: 4,000 gp
+:::

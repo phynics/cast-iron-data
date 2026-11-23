@@ -23,8 +23,12 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** neck; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: neck
+Weight: -
+:::
 
 This device seems like a _medallion of thoughts,_ even down to the range at which it functions,
 except that the thoughts overheard are muffled and distorted, requiring a DC 15 Will save to sort
@@ -36,4 +40,7 @@ to her presence.
 
 ### Construction
 
-**Requirements** [medallion of thoughts](ref/magic-wondrous/medallion-of-thoughts); **Cost** -
+::: statblock
+Requirements: [medallion of thoughts](ref/magic-wondrous/medallion-of-thoughts)
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 2,100 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 2,100 gp
+Weight: -
+:::
 
 This silver nail is finely engraved with hundreds of tiny runes that flash faintly blue under the
 light of the moon. The nail can be used to trap evil outsiders and incorporeal undead creatures to
@@ -42,6 +47,7 @@ effect, but is still expended.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift); **Cost**
-1,050 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift)
+Cost: 1,050 gp
+:::

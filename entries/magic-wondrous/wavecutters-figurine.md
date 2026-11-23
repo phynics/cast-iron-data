@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This rune-carved wooden statuette of a fish feels very slippery. When placed at the helm of any
 Large [water vehicle](ref/rule/water-vehicles) (such as a rowboat or ship's boat), the friction
@@ -30,5 +35,7 @@ more smoothly and swiftly. The boat gains a +20-foot enhancement bonus to its ma
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[touch of the sea](ref/spell/touch-of-the-sea); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [touch of the sea](ref/spell/touch-of-the-sea)
+Cost: 3,000 gp
+:::

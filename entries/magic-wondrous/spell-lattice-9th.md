@@ -22,9 +22,13 @@ caster_level = "17th"
 
 ## Spell Lattice
 
-**Aura** varies (see text); **CL** 17th\
-**Slot** none; **Price** 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp
-(5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th); **Weight** 1 lb.
+::: statblock
+Aura: varies (see text)
+CL: 17th
+Slot: none
+Price: 1,000 gp (1st), 4,000 gp (2nd), 9,000 gp (3rd), 16,000 gp (4th), 25,000 gp (5th), 36,000 gp (6th), 49,000 gp (7th), 64,000 gp (8th), 81,000 gp (9th)
+Weight: 1 lb.
+:::
 
 A spell lattice is a block of transparent crystal, internally etched with a three-dimensional
 representation of a spell. This spell is chosen when the item is created (the contained spell
@@ -41,7 +45,7 @@ from the spell lattice.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Scribe Scroll](ref/feat/scribe-scroll), creator must be able to cast the spell placed in the spell
-lattice; **Cost** 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th),
-18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Scribe Scroll](ref/feat/scribe-scroll), creator must be able to cast the spell placed in the spell lattice
+Cost: 500 gp (1st), 2,000 gp (2nd), 4,500 gp (3rd), 8,000 gp (4th), 12,500 gp (5th), 18,000 gp (6th), 24,500 gp (7th), 32,000 gp (8th), 40,500 gp (9th)
+:::

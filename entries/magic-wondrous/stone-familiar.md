@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 2 lbs.
+:::
 
 This life-sized carving of a Tiny animal is crafted from dark, rough stone. It has a
 [hardness](ref/umr/hardness) of 8 and 20 hit points. A [witch](ref/class/witch) can use the stone
@@ -32,5 +37,7 @@ familiar is never found as randomly generated treasure with spells already store
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[share memory](ref/spell/share-memory), creator must be a witch; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [share memory](ref/spell/share-memory), creator must be a witch
+Cost: 3,000 gp
+:::

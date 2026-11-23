@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** 195,000 gp; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: 195,000 gp
+Weight: -
+:::
 
 The Silent Aviary is a unique [harrow deck](ref/eq-misc/harrow-deck) that features beautiful artwork
 of songbirds on each card. Anyone who counts the cards while looking at the illustrated fronts sees
@@ -54,5 +59,7 @@ impossible to escape except with a [miracle](ref/spell/miracle) or _[wish](ref/s
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[plane shift](ref/spell/plane-shift), [wish](ref/spell/wish); **Cost** 97,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [plane shift](ref/spell/plane-shift), [wish](ref/spell/wish)
+Cost: 97,500 gp
+:::

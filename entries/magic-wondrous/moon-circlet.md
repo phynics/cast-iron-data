@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** headband; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: headband
+Price: 20,000 gp
+Weight: -
+:::
 
 This fine silver circlet typically has a carved moonstone inset on the front or a crescent moon
 design. The wearer of a moon circlet gains [darkvision](ref/rule/darkvision) out to 60 feet (if she
@@ -42,5 +47,7 @@ These negative levels cannot be restored by any means short of a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[darkvision](ref/spell/darkvision), [light](ref/spell/light); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [darkvision](ref/spell/darkvision), [light](ref/spell/light)
+Cost: 10,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** shoulders; **Price** 4,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: shoulders
+Price: 4,500 gp
+Weight: 5 lbs.
+:::
 
 This thick hide cloak grants its wearer the divided mind of a [skeltercat](ref/monster/skeltercat).
 While worn, the cloak imparts a +1 resistance bonus on Fortitude and Reflex saves and a +2
@@ -38,6 +43,7 @@ once, but must be used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [resistance](ref/spell/resistance),
-[blindness/deafness](ref/spell/blindness-deafness); **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [resistance](ref/spell/resistance), [blindness/deafness](ref/spell/blindness-deafness)
+Cost: 2,250 gp
+:::

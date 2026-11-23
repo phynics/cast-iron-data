@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: 1/2 lb.
+:::
 
 This object was naturally struck by lightning and imbued with a spirit of the sky. Despite the name,
 this object does not have to be a stone, though small objects made into skyspirit stones are the
@@ -34,5 +39,7 @@ associated nonlethal damage from the point of burn). This effect does not stack 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[lesser restoration](ref/spell/restoration-lesser); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 1,000 gp
+:::

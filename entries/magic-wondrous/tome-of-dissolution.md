@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 2,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 2,000 gp
+Weight: 1 lb.
+:::
 
 This shadowy, waterproof tome is 12 inches tall, 8 inches wide, and 1 inch thick. When viewed in
 dim, normal, or bright light, the tome's 1,000 ebon pages are blank and any new writing immediately
@@ -36,5 +41,7 @@ or formula book.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase),
-[nondetection](ref/spell/nondetection), [secret page](ref/spell/secret-page); **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [erase](ref/spell/erase), [nondetection](ref/spell/nondetection), [secret page](ref/spell/secret-page)
+Cost: 1,000 gp
+:::

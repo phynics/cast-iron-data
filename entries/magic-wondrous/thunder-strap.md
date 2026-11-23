@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 60,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 60,000 gp
+Weight: -
+:::
 
 This sturdy leather strap seems worn and weathered, but is as strong as steel. When wrapped around
 the grip of a melee weapon for 24 hours, the strap's magic becomes active. Once per day, the wielder
@@ -33,6 +38,7 @@ is cast as if the local conditions are stormy.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[call lightning storm](ref/spell/call-lightning-storm),
-[control weather](ref/spell/control-weather); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [call lightning storm](ref/spell/call-lightning-storm), [control weather](ref/spell/control-weather)
+Cost: 30,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 This fan is made of copper fashioned into a dozen small feathers mounted on a ring-shaped bone
 handle. Once per day, the bearer can hold it and speak a command word to
@@ -32,5 +37,7 @@ darkness effects, the fan randomly counterspells one of them, leaving the other 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[daylight](ref/spell/daylight), [deeper darkness](ref/spell/deeper-darkness); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [daylight](ref/spell/daylight), [deeper darkness](ref/spell/deeper-darkness)
+Cost: 2,500 gp
+:::

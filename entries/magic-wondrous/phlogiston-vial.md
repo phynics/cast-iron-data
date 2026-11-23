@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** none; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: none
+Price: 3,300 gp
+Weight: -
+:::
 
 This 1-inch-long, clear glass vial is filled with a dark, amber-colored fluid that resembles the
 twisting, flickering form of a [fire elemental](ref/monster/fire-elemental). The vial is sealed with
@@ -45,5 +50,7 @@ open market. The listed price is for a phlogiston vial full of phlogiston oil.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[banishment](ref/spell/banishment), [planar ally](ref/spell/planar-ally); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [banishment](ref/spell/banishment), [planar ally](ref/spell/planar-ally)
+Cost: 1,650 gp
+:::

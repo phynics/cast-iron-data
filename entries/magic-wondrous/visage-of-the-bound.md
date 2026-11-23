@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 9th\
-**Slot** head; **Price** 22,900 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 9th
+Slot: head
+Price: 22,900 gp
+Weight: 2 lbs.
+:::
 
 Crafted from gold and lacquer, these elaborate masks resemble various outsiders. Once per day when
 the wearer casts a _[summon monster](ref/spell/summon-monster)_ spell, he may choose to house the
@@ -41,6 +46,7 @@ opposed to one or more axes of the wearer's alignment cannot be housed within a 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability),
-[summon monster V](ref/spell/summon-monster-5); **Cost** 11,450 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [imbue with spell ability](ref/spell/imbue-with-spell-ability), [summon monster V](ref/spell/summon-monster-5)
+Cost: 11,450 gp
+:::

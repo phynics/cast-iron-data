@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 6,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 6,000 gp
+Weight: 3 lbs.
+:::
 
 This small container features a stone base with a glass cover. The container can hold half a pound
 of flesh or similar organic matter, preserving it for up to 24 hours. On command, the container
@@ -31,5 +36,7 @@ the container. This cry can be clearly heard up to 150 feet from the container.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[gentle repose](ref/spell/gentle-repose), [major image](ref/spell/major-image); **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gentle repose](ref/spell/gentle-repose), [major image](ref/spell/major-image)
+Cost: 3,000 gp
+:::

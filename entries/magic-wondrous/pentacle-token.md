@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 6,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 6,000 gp
+Weight: 1/2 lb.
+:::
 
 Roughly the size of a saucer, this thin ceramic disc is painted red and marked with an inverted
 pentagram, the unholy symbol of [Asmodeus](ref/faith/asmodeus). A pentacle token must first be
@@ -44,5 +49,7 @@ magic and cannot be used again.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [refuge](ref/spell/refuge),
-creator must be a cleric of Asmodeus; **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [refuge](ref/spell/refuge), creator must be a cleric of Asmodeus
+Cost: 3,750 gp
+:::

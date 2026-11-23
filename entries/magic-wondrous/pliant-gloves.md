@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "9th"
 +++
 
-**Aura** strong transmutation; **CL** 9th\
-**Slot** hands; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 9th
+Slot: hands
+Price: 10,000 gp
+Weight: -
+:::
 
 Wearing these form-fitting fingerless black gloves makes the wearer's arms and body more flexible.
 As a swift action, the wearer can lengthen his arms for up to 10 rounds per day, gaining an
@@ -34,5 +39,7 @@ wearing the gloves.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fluid form](ref/spell/fluid-form); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fluid form](ref/spell/fluid-form)
+Cost: 5,000 gp
+:::

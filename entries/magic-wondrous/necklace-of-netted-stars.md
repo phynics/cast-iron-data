@@ -20,8 +20,13 @@ aura = "strong illusion and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion and transmutation; **CL** 12th\
-**Slot** neck; **Price** 42,000 gp; **Weight** -
+::: statblock
+Aura: strong illusion and transmutation
+CL: 12th
+Slot: neck
+Price: 42,000 gp
+Weight: -
+:::
 
 This marvelous [mithral](ref/eq-material/mithral) necklace forms a broad, draping lacework of
 thread-like chains set with a multitude of tiny jewels. Seven of these jewels are larger than the
@@ -42,7 +47,7 @@ exhausts the power of all of the necklace's jewels for that day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dancing lights](ref/spell/dancing-lights), [dispel magic](ref/spell/dispel-magic),
-[wandering star motes](ref/spell/wandering-star-motes), creator must be able to cast 7th-level
-spells; **Cost** 21,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dancing lights](ref/spell/dancing-lights), [dispel magic](ref/spell/dispel-magic), [wandering star motes](ref/spell/wandering-star-motes), creator must be able to cast 7th-level spells
+Cost: 21,000 gp
+:::

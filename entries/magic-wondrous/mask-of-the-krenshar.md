@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** head; **Price** 7,200 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: head
+Price: 7,200 gp
+Weight: 1 lb.
+:::
 
 This simple leather mask depicts an earless cat-like creature. When worn, it melds into its wearer's
 face and vanishes, leaving the wearer's face just as it looked before. Three times per day the
@@ -34,5 +39,7 @@ is a mind-affecting fear effect and a glamer. Anyone who can see through illusio
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [scare](ref/spell/scare); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [scare](ref/spell/scare)
+Cost: 3,600 gp
+:::

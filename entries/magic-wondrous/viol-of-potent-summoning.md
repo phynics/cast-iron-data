@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 24,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 24,400 gp
+Weight: 1 lb.
+:::
 
 Whenever the bearer casts a conjuration (summoning) spell, he can expend a number of rounds of
 bardic performance equal to the level of the spell. Creatures summoned with that spell are treated
@@ -29,7 +34,7 @@ as if the caster had the Augment Summoning feat.
 
 ### Construction
 
-**Requirements** [Augment Summoning](ref/feat/augment-summoning),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster III](ref/spell/summon-monster-3), [Perform (string)](ref/skill/perform-any) 5 ranks;
-**Cost** 12,200 gp
+::: statblock
+Requirements: [Augment Summoning](ref/feat/augment-summoning), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster III](ref/spell/summon-monster-3), [Perform (string)](ref/skill/perform-any) 5 ranks
+Cost: 12,200 gp
+:::

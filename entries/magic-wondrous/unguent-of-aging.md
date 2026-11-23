@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Weight: -
+:::
 
 This unguent appears at first to be _unguent of timelessness._ When it touches the skin of a living
 creature or matter that was once alive, however, it accelerates the aging of that creature or item.
@@ -33,4 +37,7 @@ objects.
 
 ### Construction
 
-**Requirements** [unguent of timelessness](ref/magic-wondrous/unguent-of-timelessness); **Cost** -
+::: statblock
+Requirements: [unguent of timelessness](ref/magic-wondrous/unguent-of-timelessness)
+Cost: -
+:::

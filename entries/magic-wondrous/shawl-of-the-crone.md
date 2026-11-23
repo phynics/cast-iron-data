@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** shoulders; **Price** 16,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: shoulders
+Price: 16,000 gp
+Weight: 1 lb.
+:::
 
 The yarn making up this knitted gray wrap is frayed and tattered. As soon as a creature puts on the
 shawl, she immediately takes the form of a venerable female of her race (regardless of the wearer's
@@ -36,5 +41,7 @@ this coven must always include at least one actual hag.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[alter self](ref/spell/alter-self); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alter self](ref/spell/alter-self)
+Cost: 8,000 gp
+:::

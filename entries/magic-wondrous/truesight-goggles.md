@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "11th"
 +++
 
-**Aura** strong divination; **CL** 11th\
-**Slot** eyes; **Price** 184,800 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 11th
+Slot: eyes
+Price: 184,800 gp
+Weight: -
+:::
 
 These goggles, constructed of a pair of perfect prisms held in place by golden frames and affixed to
 the head by a black leather strap, grants the wearer _[true seeing](ref/spell/true-seeing)_
@@ -30,6 +35,7 @@ _[analyze dweomer](ref/spell/analyze-dweomer)_ as the spell.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[analyze dweomer](ref/spell/analyze-dweomer), [true seeing](ref/spell/true-seeing); **Cost** 92,400
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [analyze dweomer](ref/spell/analyze-dweomer), [true seeing](ref/spell/true-seeing)
+Cost: 92,400 gp
+:::

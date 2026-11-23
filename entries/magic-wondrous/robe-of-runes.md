@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** body; **Price** 44,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: body
+Price: 44,000 gp
+Weight: 1 lb.
+:::
 
 This robe is made of crimson silk and emblazoned with dozens of spindly Thassilonian runes, each
 symbolizing a different type of magical effect or syllable of power. Though favored by wizards, this
@@ -36,5 +41,7 @@ a spell, the wearer's spell save DCs and attack rolls made with spells gain a +2
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[fox's cunning](ref/spell/foxs-cunning), [limited wish](ref/spell/limited-wish); **Cost** 22,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [fox's cunning](ref/spell/foxs-cunning), [limited wish](ref/spell/limited-wish)
+Cost: 22,000 gp
+:::

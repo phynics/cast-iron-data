@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "7th"
 +++
 
-**Aura** faint transmutation; **CL** 7th\
-**Slot** none; **Price** 1,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 7th
+Slot: none
+Price: 1,500 gp
+Weight: 1 lb.
+:::
 
 This coarse-grained salt is flecked with bands of silver running through each crystal. A spellcaster
 can include this salt as a material component when casting a spell, even if the spell does not
@@ -35,4 +40,7 @@ the effects of the spell (if a saving throw is allowed).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item); **Cost** 750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item)
+Cost: 750 gp
+:::

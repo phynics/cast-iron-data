@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 1,400 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 1,400 gp
+Weight: -
+:::
 
 This item takes the form of a half-dozen brown beans, usually contained in a simple burlap sack. Ten
 minutes after the beans are planted in the ground, they sprout into a 350-foot-tall beanstalk as if
@@ -30,5 +35,7 @@ process. The beanstalk lasts for 24 hours before collapsing into a pile of rotte
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[beanstalk](ref/spell/beanstalk); **Cost** 700 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [beanstalk](ref/spell/beanstalk)
+Cost: 700 gp
+:::

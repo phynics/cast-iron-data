@@ -20,8 +20,13 @@ aura = "faint transmutation and necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint transmutation and necromancy; **CL** 1st\
-**Slot** hands; **Price** 10,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation and necromancy
+CL: 1st
+Slot: hands
+Price: 10,000 gp
+Weight: 1 lb.
+:::
 
 These black gloves glow slightly during combat. Once per day, if the wearer's unarmed attack
 threatens a critical hit, the critical confirmation roll gains a +2 bonus. Regardless of whether the
@@ -29,6 +34,7 @@ critical is confirmed, the attack does an additional 1d8 points of damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[inflict light wounds](ref/spell/inflict-light-wounds),
-[unerring weapon](ref/spell/unerring-weapon); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [inflict light wounds](ref/spell/inflict-light-wounds), [unerring weapon](ref/spell/unerring-weapon)
+Cost: 2,500 gp
+:::

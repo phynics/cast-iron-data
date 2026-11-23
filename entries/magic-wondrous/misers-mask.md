@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "1st"
 +++
 
-**Aura** faint divination; **CL** 1st\
-**Slot** head; **Price** 3,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 1st
+Slot: head
+Price: 3,000 gp
+Weight: 1 lb.
+:::
 
 This wooden mask depicts the sunken face of a miser with an upturned nose. The mask grants the
 wearer the [scent](ref/umr/scent) ability, but she can use it only to sense coins and gems. Each
@@ -30,5 +35,7 @@ type and quality of gem has its own unique aura to the wearer, granting her a +5
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bloodhound](ref/spell/bloodhound), the creator must have 4 ranks in Appraise; **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bloodhound](ref/spell/bloodhound), the creator must have 4 ranks in Appraise
+Cost: 1,500 gp
+:::

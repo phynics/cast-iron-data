@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 22,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 22,000 gp
+Weight: -
+:::
 
 This gold-plated watch is divided into five pieces. The weirding watch keeps flawless time without
 ever needing to be wound or repaired. In addition, the bearer of any piece of the watch can activate
@@ -34,5 +39,7 @@ sold separately.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste),
-[lesser age resistance](ref/spell/age-resistance-lesser); **Cost** 11,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [haste](ref/spell/haste), [lesser age resistance](ref/spell/age-resistance-lesser)
+Cost: 11,000 gp
+:::

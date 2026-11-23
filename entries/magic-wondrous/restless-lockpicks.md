@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 This set of [mithral](ref/eq-material/mithral)
 [masterwork thieves' tools](ref/eq-misc/thieves-tools-masterwork) springs to life in the hands of a
@@ -37,5 +42,7 @@ tools left off as long as she is in the square with the tools when the animation
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock),
-[mage hand](ref/spell/mage-hand); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [knock](ref/spell/knock), [mage hand](ref/spell/mage-hand)
+Cost: 4,000 gp
+:::

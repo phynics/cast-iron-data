@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** body; **Price** 2,400 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: body
+Price: 2,400 gp
+Weight: 1 lb.
+:::
 
 This sinister item functions much like a
 [robe of useful items](ref/magic-wondrous/robe-of-useful-items), but specifically for the serious
@@ -45,5 +50,7 @@ embroidered figures of each of the following undead:
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead); **Cost** 1,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead)
+Cost: 1,200 gp
+:::

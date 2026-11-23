@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 7,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 7,500 gp
+Weight: 2 lbs.
+:::
 
 Bound in bloodstained leather, this heavy tome is scarred like the flesh of a seasoned warrior and
 contains many generations of martial knowledge. Once per day, after studying the manual for 1 hour,
@@ -33,5 +38,7 @@ its effects early.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[modify memory](ref/spell/modify-memory), creator must be a fighter; **Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [modify memory](ref/spell/modify-memory), creator must be a fighter
+Cost: 3,750 gp
+:::

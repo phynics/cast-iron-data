@@ -20,8 +20,12 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none (replaces hand); **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none (replaces hand)
+Weight: 2 lbs.
+:::
 
 This dried and withered hand ends in a jagged stump. When it is touched against the arm stump of a
 humanoid who has lost a hand, the maniac hand bonds instantly and returns to a lifelike appearance.
@@ -69,9 +73,10 @@ resisting amputation for 1 hour.
 
 ### Construction
 
-**Requirements** [hand of glory](ref/magic-wondrous/hand-of-glory),
-[hand of the mage](ref/magic-wondrous/hand-of-the-mage),
-[hand of stone](ref/magic-wondrous/hand-of-stone); **Cost** -
+::: statblock
+Requirements: [hand of glory](ref/magic-wondrous/hand-of-glory), [hand of the mage](ref/magic-wondrous/hand-of-the-mage), [hand of stone](ref/magic-wondrous/hand-of-stone)
+Cost: -
+:::
 
 ### Statistics
 

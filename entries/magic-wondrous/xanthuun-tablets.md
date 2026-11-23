@@ -20,8 +20,13 @@ aura = "moderate divination and enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination and enchantment; **CL** 11th\
-**Slot** none; **Price** 78,000 gp; **Weight** 85 lbs.
+::: statblock
+Aura: moderate divination and enchantment
+CL: 11th
+Slot: none
+Price: 78,000 gp
+Weight: 85 lbs.
+:::
 
 These striated greenstone tablets are marked with ancient writing in the Cyclops language and
 astronomical symbols dating from the cyclopes' ancient empire. One of the tablets emphasizes the
@@ -58,6 +63,7 @@ be confused (as the _[confusion](ref/spell/confusion)_ spell) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[borrow fortune](ref/spell/borrow-fortune), [confusion](ref/spell/confusion),
-[greater scrying](ref/spell/scrying-greater); **Cost** 39,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [borrow fortune](ref/spell/borrow-fortune), [confusion](ref/spell/confusion), [greater scrying](ref/spell/scrying-greater)
+Cost: 39,000 gp
+:::

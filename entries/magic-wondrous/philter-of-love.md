@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: 3,000 gp
+Weight: -
+:::
 
 This potent preparation causes a creature who drinks it to fall madly in love with the first
 creature he or she perceives after consuming it. The drinker's [attitude](ref/skill/diplomacy)
@@ -37,5 +42,7 @@ adoration. The effects of the philter are permanent unless removed by a
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[charm monster](ref/spell/charm-monster), [permanency](ref/spell/permanency); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [charm monster](ref/spell/charm-monster), [permanency](ref/spell/permanency)
+Cost: 1,500 gp
+:::

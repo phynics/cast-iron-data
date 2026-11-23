@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** weapon; **Price** 32,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: weapon
+Price: 32,000 gp
+Weight: 2 lbs.
+:::
 
 Infused with the power of Hell's courts, this blood-quenched steel gavel emits an ear-splitting din
 when struck against a hard surface. Once per day, as a standard action, you can use it to judge a
@@ -35,5 +40,7 @@ spells) while the weapon is wielded. If the creature is chaotic good, these nega
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dictum](ref/spell/dictum);
-**Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dictum](ref/spell/dictum)
+Cost: 16,000 gp
+:::

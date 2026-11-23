@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 2,500 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 2,500 gp
+Weight: 1 lb.
+:::
 
 This harrow mat allows a harrower to tap into the ancestral knowledge of nearby spirits. If a
 harrower uses this mat as an additional focus component while casting
@@ -32,5 +37,7 @@ related to the past, the harrower can draw from the deck twice and choose which 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[speak with dead](ref/spell/speak-with-dead); **Cost** 1,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [speak with dead](ref/spell/speak-with-dead)
+Cost: 1,250 gp
+:::

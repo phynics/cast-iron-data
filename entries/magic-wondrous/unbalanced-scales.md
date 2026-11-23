@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 1,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 1,000 gp
+Weight: 1 lb.
+:::
 
 A set of unbalanced scales permits an unscrupulous merchant to conduct transactions with inaccurate
 weight results, but still pass inspections by commerce officials when necessary. The unbalanced
@@ -31,5 +36,7 @@ by as much as 25%.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [prestidigitation](ref/spell/prestidigitation)
+Cost: 500 gp
+:::

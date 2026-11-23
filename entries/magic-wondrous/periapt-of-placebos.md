@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** neck; **Price** 3,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: neck
+Price: 3,600 gp
+Weight: 1 lb.
+:::
 
 What at first appears to be a fine gem dangling from a long, silver chain is in fact a cut and
 polished bezoar. This necklace - often mistaken for a
@@ -37,5 +42,7 @@ powerful protective necklace rather than discerning its true nature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[delusional pride](ref/spell/delusional-pride); **Cost** 1,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [delusional pride](ref/spell/delusional-pride)
+Cost: 1,800 gp
+:::

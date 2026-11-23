@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** chest; **Price** 16,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: chest
+Price: 16,000 gp
+Weight: 2 lbs.
+:::
 
 This padded and slightly bulky vest, made from red-brown cloth, causes its wearer to feel vaguely
 uncomfortable whenever she is lying [prone](ref/rule/prone). If the wearer is a rogue, she gains the
@@ -33,5 +38,7 @@ talent grants her 2 hit points per rogue level instead of 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[false life](ref/spell/false-life); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [false life](ref/spell/false-life)
+Cost: 8,000 gp
+:::

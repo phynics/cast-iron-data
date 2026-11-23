@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** head; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: head
+Price: 1,000 gp
+Weight: -
+:::
 
 This plume is oversized, chic, and extravagant. To gain its effects, the user must affix it to a
 nonmagical hat worth at least 10 gp. Once per day when the wearer performs a deed, the plume
@@ -30,5 +35,7 @@ wilted and bedraggled until its magic is replenished.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism);
-**Cost** 500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [heroism](ref/spell/heroism)
+Cost: 500 gp
+:::

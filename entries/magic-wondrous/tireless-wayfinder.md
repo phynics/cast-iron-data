@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 Tireless wayfinders have burnished copper cases and silver inner workings. In addition to the usual
 functions of a [wayfinder](ref/magic-wondrous/wayfinder) (including the ability to create light),
@@ -33,5 +38,7 @@ leaves the creature's possession for more than 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light),
-[lesser restoration](ref/spell/restoration-lesser); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [light](ref/spell/light), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 2,500 gp
+:::

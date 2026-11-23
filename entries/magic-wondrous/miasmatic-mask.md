@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 23,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 23,000 gp
+Weight: 1 lb.
+:::
 
 This dark purple mask is contorted and twisted, and it covers the top half of the wearer's face in
 swirls of thick brocade and lace. Dappled across the mask's swaths are dozens of twinkling
@@ -34,5 +39,7 @@ attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[miasmatic form](ref/spell/miasmatic-form); **Cost** 11,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [miasmatic form](ref/spell/miasmatic-form)
+Cost: 11,500 gp
+:::

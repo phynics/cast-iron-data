@@ -20,8 +20,13 @@ aura = "faint conjuration, strong evil"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration, strong evil; **CL** 5th\
-**Slot** neck; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: faint conjuration, strong evil
+CL: 5th
+Slot: neck
+Price: 7,500 gp
+Weight: -
+:::
 
 This [periapt of health](ref/magic-wondrous/periapt-of-health) functions only for a wearer who has
 consumed at least 1 pound of humanoid flesh within the past week.

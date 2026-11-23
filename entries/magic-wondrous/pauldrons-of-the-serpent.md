@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** shoulders; **Price** 3,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: shoulders
+Price: 3,000 gp
+Weight: 3 lbs.
+:::
 
 Constructed of [mithral](ref/eq-material/mithral), each of these pauldrons bears an embossed device
 of a viper coiled defensively. These pauldrons grant their wearer a +2 dodge bonus to AC against
@@ -31,5 +36,7 @@ maneuvers.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Cost** 1,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Cost: 1,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 500 gp
+Weight: -
+:::
 
 When this leather strap is tied around the grip of a broken weapon, the user can ignore the effects
 of the [broken](ref/misc/broken) condition on that weapon. If the weapon loses its remaining hit
@@ -29,5 +34,7 @@ points, it is destroyed as normal. Tying or untying the strap is a full-round ac
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending);
-**Cost** 250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mending](ref/spell/mending)
+Cost: 250 gp
+:::

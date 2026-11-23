@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 1,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 1,800 gp
+Weight: 1 lb.
+:::
 
 This 4-inch wooden wheel is small enough to fit into a pocket or a pouch. By rolling the wheel on
 the ground (this requires a standard action to activate the item), the wheel begins rolling toward
@@ -37,5 +42,7 @@ by variant magic regions.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[detect magic](ref/spell/detect-magic); **Cost** 900 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [detect magic](ref/spell/detect-magic)
+Cost: 900 gp
+:::

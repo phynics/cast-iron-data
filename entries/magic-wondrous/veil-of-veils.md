@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** head; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: head
+Price: 3,300 gp
+Weight: -
+:::
 
 This fine silken veil can change color or alter its appearance to a highwayman's mask or similar
 cloth face covering. Once per day, the wearer can use _[disguise self](ref/spell/disguise-self),_
@@ -36,5 +41,7 @@ _[blur](ref/spell/blur)._ In addition, the wearer gains a +2 competence bonus on
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur),
-[disguise self](ref/spell/disguise-self), creator must have 5 ranks in Bluff; **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [blur](ref/spell/blur), [disguise self](ref/spell/disguise-self), creator must have 5 ranks in Bluff
+Cost: 1,650 gp
+:::

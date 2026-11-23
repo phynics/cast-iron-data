@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 39,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 39,000 gp
+Weight: 1 lb.
+:::
 
 This [wayfinder](ref/magic-wondrous/wayfinder) is crafted from polished gold and when viewed in
 bright light is highly reflective, resembling a mirror more than it does simple metal. A truthseeker
@@ -36,6 +41,7 @@ enough to be perceptible to the wielder but no one else.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[discern lies](ref/spell/discern-lies), [light](ref/spell/light),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 19,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [discern lies](ref/spell/discern-lies), [light](ref/spell/light), [zone of truth](ref/spell/zone-of-truth)
+Cost: 19,500 gp
+:::

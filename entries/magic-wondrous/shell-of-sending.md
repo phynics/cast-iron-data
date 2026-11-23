@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 12,200 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 12,200 gp
+Weight: -
+:::
 
 This conch shell measures only a few inches long and shimmers with a delicate pink color. Shells of
 sending always come in pairs, with each shell attuned to the other. If pairs are mixed up or lost, a
@@ -39,5 +44,7 @@ more are [deafened](ref/misc/deafened) for 1d4 minutes.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending);
-**Cost** 6,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [sending](ref/spell/sending)
+Cost: 6,100 gp
+:::

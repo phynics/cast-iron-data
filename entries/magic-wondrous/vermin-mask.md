@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 10,080 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 10,080 gp
+Weight: 1 lb.
+:::
 
 These stylized wooden masks are carved to resemble a common type of wasteland vermin, such as a
 giant ant, scorpion, or spider. While using wild shape or a _vermin shape_ spell to assume the form
@@ -32,5 +37,7 @@ under the effects of a _vermin shape_ spell, the spell lasts for 7 additional mi
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), wild shape class feature,
-[vermin shape I](ref/spell/vermin-shape-1); **Cost** 5,040 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), wild shape class feature, [vermin shape I](ref/spell/vermin-shape-1)
+Cost: 5,040 gp
+:::

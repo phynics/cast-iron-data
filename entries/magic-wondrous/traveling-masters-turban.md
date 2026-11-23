@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** head; **Price** 4,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: head
+Price: 4,000 gp
+Weight: 1 lb.
+:::
 
 This turban consists of 30 feet of cloth held in place by a brooch. The owner can command the turban
 to tie or untie itself as a move action. When the turban is tied on the wearer's head, the wearer
@@ -32,6 +37,7 @@ to cast _[animate rope](ref/spell/animate-rope)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [endure elements](ref/spell/endure-elements),
-[rope trick](ref/spell/rope-trick); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [endure elements](ref/spell/endure-elements), [rope trick](ref/spell/rope-trick)
+Cost: 2,000 gp
+:::

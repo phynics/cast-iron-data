@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** neck; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: neck
+Price: 10,000 gp
+Weight: -
+:::
 
 This necklace grants an aquatic wearer the ability to breathe air, and renders it
 [amphibious](ref/umr/amphibious) as per the universal monster rule, allowing it to survive on land
@@ -30,6 +35,7 @@ to its base speed, if the wearer's speed is already at least 30 feet).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[air breathing](ref/spell/air-breathing), [expeditious retreat](ref/spell/expeditious-retreat);
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [air breathing](ref/spell/air-breathing), [expeditious retreat](ref/spell/expeditious-retreat)
+Cost: 5,000 gp
+:::

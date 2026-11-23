@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint abjuration; **CL** 4th\
-**Slot** wrists; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 4th
+Slot: wrists
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 Typically made of leather dyed blue and decorated with star-shaped studs, these bracers are used by
 spellcasters who practice their art in the heat of combat. The bracers grant the wearer a +2 bonus
@@ -31,6 +36,7 @@ result.
 
 ### Construction
 
-**Requirements** [Combat Casting](ref/feat/combat-casting),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [warding weapon](ref/spell/warding-weapon);
-**Cost** 2,500 gp
+::: statblock
+Requirements: [Combat Casting](ref/feat/combat-casting), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [warding weapon](ref/spell/warding-weapon)
+Cost: 2,500 gp
+:::

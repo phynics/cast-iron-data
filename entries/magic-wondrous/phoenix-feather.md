@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 9th\
-**Slot** none; **Price** 4,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 9th
+Slot: none
+Price: 4,500 gp
+Weight: -
+:::
 
 This vibrant red feather is surrounded by a faint, soothing golden glow that makes it appear
 preternaturally shiny and pristine. As an immediate action, the user can activate the phoenix
@@ -41,6 +46,7 @@ flash before being reduced to ash.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[breath of life](ref/spell/breath-of-life), [death ward](ref/spell/death-ward), creator must be
-good; **Cost** 2,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [breath of life](ref/spell/breath-of-life), [death ward](ref/spell/death-ward), creator must be good
+Cost: 2,250 gp
+:::

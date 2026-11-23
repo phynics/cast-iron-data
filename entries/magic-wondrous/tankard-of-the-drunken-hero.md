@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 5,300 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 5,300 gp
+Weight: 1 lb.
+:::
 
 This simple battered tankard is usually made of copper or tin. Its handle is not attached at the
 bottom so the bearer can hook it on his belt for easy carrying. The bearer gains a +1 resistance
@@ -46,6 +51,7 @@ lower, though more powerful tankards may exist.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate rope](ref/spell/animate-rope), [heroism](ref/spell/heroism), [knock](ref/spell/knock),
-[remove fear](ref/spell/remove-fear), [resistance](ref/spell/resistance); **Cost** 2,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate rope](ref/spell/animate-rope), [heroism](ref/spell/heroism), [knock](ref/spell/knock), [remove fear](ref/spell/remove-fear), [resistance](ref/spell/resistance)
+Cost: 2,650 gp
+:::

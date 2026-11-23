@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** wrists; **Price** 8,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: wrists
+Price: 8,000 gp
+Weight: 3 lbs.
+:::
 
 These vambraces are constructed of polished steel. When a [paladin](ref/class/paladin) wears these
 vambraces, engravings of the holy symbol of a paladin's deity and other religious iconography
@@ -32,5 +37,7 @@ that mercy.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cleanse](ref/spell/cleanse);
-**Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cleanse](ref/spell/cleanse)
+Cost: 4,000 gp
+:::

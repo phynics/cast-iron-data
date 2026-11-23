@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 800 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 800 gp
+Weight: 1 lb.
+:::
 
 This pointed metallic [piton](ref/eq-misc/piton) bears a ring the size of a gold piece. A ranged
 piton is sized and designed so that it can be launched as easily as an arrow. When fired from a bow
@@ -34,5 +39,7 @@ ring before it is fired to rapidly place rope lines.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spider climb](ref/spell/spider-climb); **Cost** 400 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spider climb](ref/spell/spider-climb)
+Cost: 400 gp
+:::

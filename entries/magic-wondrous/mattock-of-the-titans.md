@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** 23,348 gp; **Weight** 120 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: 23,348 gp
+Weight: 120 lbs.
+:::
 
 This digging tool is 10 feet long. Any creature of at least Huge size can use it to loosen or tumble
 earth or earthen ramparts (a 10-foot cube every 10 minutes). It also smashes rock (a 10-foot cube
@@ -34,6 +39,7 @@ base damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[move earth](ref/spell/move-earth); **Cost** 13,348 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [move earth](ref/spell/move-earth)
+Cost: 13,348 gp
+:::

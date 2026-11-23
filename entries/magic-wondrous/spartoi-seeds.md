@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "varies"
 +++
 
-**Aura** strong conjuration; **CL** varies\
-**Slot** none; **Price** 3,300 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: varies
+Slot: none
+Price: 3,300 gp
+Weight: -
+:::
 
 Spartoi seeds appear as teeth stained by ash. The teeth themselves typically take the form of tiny
 dragon teeth, though some appear to come from a serpent, wolf, or human. When a tooth is cast upon
@@ -34,5 +39,7 @@ six seeds can be sown by a single standard action.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[create undead](ref/spell/create-undead); **Cost** 1,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [create undead](ref/spell/create-undead)
+Cost: 1,650 gp
+:::

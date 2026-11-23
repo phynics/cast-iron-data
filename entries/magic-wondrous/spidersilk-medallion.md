@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** neck; **Price** 3,240 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: neck
+Price: 3,240 gp
+Weight: -
+:::
 
 This silvery ornament is shaped like a spider and worn on a thick strand of silk. The medallion is
 made from a tough but vaguely spongy and sticky substance, and it once belonged to the famed
@@ -48,5 +53,7 @@ implement has access to the following focus power.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 3rd-level
-occultist who has learned the conjuration implement school; **Cost** 1,620 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), creator must be a 3rd-level occultist who has learned the conjuration implement school
+Cost: 1,620 gp
+:::

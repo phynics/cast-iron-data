@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** neck; **Price** 32,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: neck
+Price: 32,000 gp
+Weight: 1 lb.
+:::
 
 Meant to be worn around the neck, this medallion made of braided, blue-tinged white gold hangs from
 a silver chain. When a creature with the demon subtype uses its summoning ability with 100 feet of
@@ -33,5 +38,7 @@ reduced to 1.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimensional anchor](ref/spell/dimensional-anchor); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimensional anchor](ref/spell/dimensional-anchor)
+Cost: 16,000 gp
+:::

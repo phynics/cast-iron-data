@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** chest; **Price** 4,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: chest
+Price: 4,000 gp
+Weight: 2 lbs.
+:::
 
 This pale leather vest's surface is decorated with a web of vein-like ridges. Once per day as an
 immediate action when you are struck by a critical hit or [sneak attack](ref/ability/sneak-attack),
@@ -34,5 +39,7 @@ you when it's destroyed.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[animate dead](ref/spell/animate-dead), [mirror image](ref/spell/mirror-image); **Cost** 2,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [animate dead](ref/spell/animate-dead), [mirror image](ref/spell/mirror-image)
+Cost: 2,000 gp
+:::

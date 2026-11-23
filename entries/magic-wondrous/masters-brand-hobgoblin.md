@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 18,200 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 18,200 gp
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -38,5 +43,7 @@ by the brand.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command](ref/spell/command),
-[greater brand](ref/spell/brand-greater), creator must be a hobgoblin; **Cost** 9,100 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [command](ref/spell/command), [greater brand](ref/spell/brand-greater), creator must be a hobgoblin
+Cost: 9,100 gp
+:::

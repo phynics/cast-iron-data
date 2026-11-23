@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "3rd"
 +++
 
-**Aura** moderate evocation; **CL** 3rd\
-**Slot** none; **Price** 1,620 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 3rd
+Slot: none
+Price: 1,620 gp
+Weight: 1 lb.
+:::
 
 This sky-blue glass bottle sports a sculpture of a silver eagle wrapped around the top of the glass.
 A winged bottle can be filled with the contents of an alchemical splash weapon as a standard action
@@ -34,5 +39,7 @@ rounds after being activated, a winged bottle loses the power of flight and drif
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[spiritual weapon](ref/spell/spiritual-weapon); **Cost** 810 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [spiritual weapon](ref/spell/spiritual-weapon)
+Cost: 810 gp
+:::

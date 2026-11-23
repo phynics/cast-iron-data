@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 7,500 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 7,500 gp
+Weight: -
+:::
 
 Originally invented by shamans of the Kellid tribes of the Realms of the Mammoth Lords, zoic
 fetishes have spread throughout the Inner Sea region and are much sought after in any area where
@@ -41,6 +46,7 @@ that creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dominate animal](ref/spell/dominate-animal), [hide from animals](ref/spell/hide-from-animals);
-**Cost** 3,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dominate animal](ref/spell/dominate-animal), [hide from animals](ref/spell/hide-from-animals)
+Cost: 3,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** neck; **Price** 60,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: neck
+Price: 60,000 gp
+Weight: 2 lbs.
+:::
 
 This heavy gold torc allows its wearer's words to be understood by any creature that speaks a
 language, as though his words were spoken in that creature's native tongue. Each creature listening
@@ -34,6 +39,7 @@ _[speak with plants](ref/spell/speak-with-plants)_).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [speak with animals](ref/spell/speak-with-animals),
-[speak with plants](ref/spell/speak-with-plants), [tongues](ref/spell/tongues); **Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [speak with animals](ref/spell/speak-with-animals), [speak with plants](ref/spell/speak-with-plants), [tongues](ref/spell/tongues)
+Cost: 30,000 gp
+:::

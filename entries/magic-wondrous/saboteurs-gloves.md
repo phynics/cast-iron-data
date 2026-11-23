@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** hands; **Price** 15,240 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: hands
+Price: 15,240 gp
+Weight: 1/2 lb.
+:::
 
 These gloves of thick leather do not impair delicate work and grant a +4 competence bonus on
 [Disable Device](ref/skill/disable-device) checks to disable magic traps. Once per day, a wearer
@@ -33,5 +38,7 @@ that lasts for up to 1 day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[glyph of warding](ref/spell/glyph-of-warding); **Cost** 7,620 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [glyph of warding](ref/spell/glyph-of-warding)
+Cost: 7,620 gp
+:::

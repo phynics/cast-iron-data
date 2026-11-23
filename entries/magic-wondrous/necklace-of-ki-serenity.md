@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** neck; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: neck
+Price: 16,000 gp
+Weight: -
+:::
 
 This simple leather cord is tightly knotted at even intervals and gives its wearer a sense of inner
 calmness and connection with the larger world. The wearer gains a +4 bonus to his effective level
@@ -33,5 +38,7 @@ bypassing [damage reduction](ref/rule/damage-reduction)).
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [owl's wisdom](ref/spell/owls-wisdom); **Cost** 8,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [owl's wisdom](ref/spell/owls-wisdom)
+Cost: 8,000 gp
+:::

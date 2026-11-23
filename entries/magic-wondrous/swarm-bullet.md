@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 700 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 700 gp
+Weight: -
+:::
 
 This small brass cylinder is inscribed with a symbol of a honeycomb, and a faint buzzing sound can
 be heard from within. A swarm bullet can be loaded into a weapon with the
@@ -34,5 +39,7 @@ bullet, the swarm instead angrily emerges from the weapon and pursues the wielde
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[vomit swarm](ref/spell/vomit-swarm); **Cost** 350 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [vomit swarm](ref/spell/vomit-swarm)
+Cost: 350 gp
+:::

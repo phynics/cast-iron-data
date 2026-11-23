@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** wrists; **Price** 15,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: wrists
+Price: 15,000 gp
+Weight: 2 lbs.
+:::
 
 This plain silver-and-steel bracelet grants the [keen](ref/magic-enh/keen) weapon special ability to
 any piercing or slashing weapon wielded by the wearer. Each time the wearer confirms a critical hit
@@ -43,6 +48,7 @@ hand is reattached.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse), [gentle repose](ref/spell/gentle-repose),
-[keen edge](ref/spell/keen-edge); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse), [gentle repose](ref/spell/gentle-repose), [keen edge](ref/spell/keen-edge)
+Cost: 7,500 gp
+:::

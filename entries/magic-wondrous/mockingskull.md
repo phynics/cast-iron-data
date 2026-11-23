@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: 2 lbs.
+:::
 
 The tools of juvenile necromancers and bitter witches, mockingskulls are immortal and sleepless
 guardians. Each is made from a humanoid skull inlaid with a precious gem "eye." Mockingskulls keep
@@ -37,5 +42,7 @@ mindless, especially old mockingskulls sometimes develop personality quirks.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm),
-[animate dead](ref/spell/animate-dead); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [alarm](ref/spell/alarm), [animate dead](ref/spell/animate-dead)
+Cost: 4,000 gp
+:::

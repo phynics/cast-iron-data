@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** head; **Price** 33,600 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: head
+Price: 33,600 gp
+Weight: 3 lbs.
+:::
 
 Ruined scraps of various constructs were repurposed and combined to form this ornate iron helmet.
 Though the helmet is not intelligent, it has a brute mechanical cunning that allows it to assert
@@ -37,5 +42,7 @@ cap's 5 rounds of duration are expended.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[surmount affliction](ref/spell/surmount-affliction); **Cost** 16,800 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [surmount affliction](ref/spell/surmount-affliction)
+Cost: 16,800 gp
+:::

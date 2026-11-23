@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 1,250 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 1,250 gp
+Weight: -
+:::
 
 Poison gum is often used by agents of [Norgorber](ref/faith/norgorber), particularly those
 alchemists and poisoners who venerate the insidious god as Blackfingers. Chewing a piece of poison
@@ -37,5 +42,7 @@ himself to the poison.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison),
-creator must have the poison use class feature; **Cost** 1,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [poison](ref/spell/poison), creator must have the poison use class feature
+Cost: 1,000 gp
+:::

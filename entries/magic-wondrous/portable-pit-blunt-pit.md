@@ -22,9 +22,13 @@ caster_level = "varies"
 
 ## Portable Pit
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 2,890 gp (Blunt pit), 5,410 gp (Spiked pit), 10,090 gp (Acid pit), 14,410
-gp (Persistent pit), 16,210 gp (Hungry pit); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 2,890 gp (Blunt pit), 5,410 gp (Spiked pit), 10,090 gp (Acid pit), 14,410 gp (Persistent pit), 16,210 gp (Hungry pit)
+Weight: 1 lb.
+:::
 
 This rolled cloth resembles a rug or sheet. If the cloth is unfurled on a flat horizontal surface
 and its command word spoken as a standard action, its 10-foot-by-10-foot surface changes to match
@@ -70,5 +74,7 @@ Item, [spiked pit](ref/spell/spiked-pit).
 
 ### Construction
 
-**Requirements** Varies; **Cost** 5,050 gp (Acid pit), 1,450 gp (Blunt pit), 8,110 gp (Hungry pit),
-7,210 gp (Persistent pit), 2,710 gp (Spiked pit)
+::: statblock
+Requirements: Varies
+Cost: 5,050 gp (Acid pit), 1,450 gp (Blunt pit), 8,110 gp (Hungry pit), 7,210 gp (Persistent pit), 2,710 gp (Spiked pit)
+:::

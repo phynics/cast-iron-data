@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 27,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 27,000 gp
+Weight: 2 lbs.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -41,6 +46,7 @@ DC 15 Perform (percussion) check each round.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[calm emotions](ref/spell/calm-emotions), [rage](ref/spell/rage), creator must be a Kellid; **Cost**
-13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [calm emotions](ref/spell/calm-emotions), [rage](ref/spell/rage), creator must be a Kellid
+Cost: 13,500 gp
+:::

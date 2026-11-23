@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** head; **Price** 37,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: head
+Price: 37,000 gp
+Weight: 1/2 lb.
+:::
 
 A green copper comb holds this pink-hued alabaster headpiece in its wearer's hair, subtly infusing
 her skin with strength. In addition to providing an air of loveliness to its wearer, a roseskin comb
@@ -31,5 +36,7 @@ _[thorn body](ref/spell/thorn-body),_ for 7 rounds.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[barkskin](ref/spell/barkskin), [thorn body](ref/spell/thorn-body); **Cost** 18,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [barkskin](ref/spell/barkskin), [thorn body](ref/spell/thorn-body)
+Cost: 18,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 6,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 6,000 gp
+Weight: 1 lb.
+:::
 
 This translucent sphere of iron-hard glass changes shape to match its bearer's holy symbol within an
 hour of coming into her possession. After that transformation is complete, when this symbol is used
@@ -32,5 +37,7 @@ energy.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[divine favor](ref/spell/divine-favor), the creator must be a halfling; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [divine favor](ref/spell/divine-favor), the creator must be a halfling
+Cost: 3,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** chest; **Price** 8,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: chest
+Price: 8,000 gp
+Weight: 1/2 lb.
+:::
 
 The following wondrous item is generally available only to members of the indicated race or
 ethnicity.
@@ -35,5 +40,7 @@ observer.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[overlook](ref/spell/overlook), creator must be a [halfling](ref/race/halfling); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [overlook](ref/spell/overlook), creator must be a [halfling](ref/race/halfling)
+Cost: 4,000 gp
+:::

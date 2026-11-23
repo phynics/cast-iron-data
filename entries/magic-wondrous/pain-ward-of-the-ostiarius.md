@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** neck; **Price** 6,000 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: neck
+Price: 6,000 gp
+Weight: 1/2 lb.
+:::
 
 This twisted and charred hunk of metal resembles a blacksmith apprentice's failed work. It bears
 numerous sharp hooks and barbs. Rather than being suspended from a cord or chain, it grips directly
@@ -41,6 +46,7 @@ successful DC 11 Fortitude saving throw halves the damage and negates the sicken
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[inflict light wounds](ref/spell/inflict-light-wounds), [resistance](ref/spell/resistance), creator
-must be an evil worshiper of an evil deity; **Cost** 3,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [inflict light wounds](ref/spell/inflict-light-wounds), [resistance](ref/spell/resistance), creator must be an evil worshiper of an evil deity
+Cost: 3,000 gp
+:::

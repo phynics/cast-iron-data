@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,400 gp; **Weight** -
+::: statblock
+Aura: faint illusion and transmutation
+CL: 3rd
+Slot: none
+Price: 6,400 gp
+Weight: -
+:::
 
 This cluster of emeralds attached to a delicate golden clasp is arranged in the likeness of a
 five-petaled blossom. Regardless of how it is worn, it does not take up an item slot. As long as the
@@ -33,5 +38,7 @@ meal and cure 1 point of damage when eaten, as per _[goodberry](ref/spell/goodbe
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self), [goodberry](ref/spell/goodberry); **Cost** 3,200 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self), [goodberry](ref/spell/goodberry)
+Cost: 3,200 gp
+:::

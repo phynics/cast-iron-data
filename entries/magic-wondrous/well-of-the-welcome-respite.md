@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** none; **Price** 122,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: none
+Price: 122,000 gp
+Weight: -
+:::
 
 While normally functioning as a standard
 [well of many worlds](ref/magic-wondrous/well-of-many-worlds), this well possesses a command word
@@ -33,5 +38,7 @@ secret destination, whatever it might be, may or may not still be occupied.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate),
-[mage's magnificent mansion](ref/spell/mages-magnificent-mansion); **Cost** 61,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [gate](ref/spell/gate), [mage's magnificent mansion](ref/spell/mages-magnificent-mansion)
+Cost: 61,000 gp
+:::

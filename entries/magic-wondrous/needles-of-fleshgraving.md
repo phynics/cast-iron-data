@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 8,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 8,000 gp
+Weight: 1 lb.
+:::
 
 These tattooing needles can grant a +5 competence bonus on [Craft (tattoos)](ref/skill/craft-any)
 checks. Once per day they can be used to transform an object into a tattoo on a willing creature.
@@ -34,6 +39,7 @@ the tattooed creature.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[shrink item](ref/spell/shrink-item), creator must have 5 ranks in Craft (tattoos); **Cost** 4,000
-gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [shrink item](ref/spell/shrink-item), creator must have 5 ranks in Craft (tattoos)
+Cost: 4,000 gp
+:::

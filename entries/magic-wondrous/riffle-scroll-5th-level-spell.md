@@ -22,10 +22,13 @@ caster_level = "varies"
 
 ## Riffle Scroll
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Price** 25 gp (Cantrip), 150 gp (1st-level Spell), 375 gp (2nd-Level Spell), 700 gp
-(3rd-Level Spell), 1,125 gp (4th-Level Spell), 1,650 gp (5th-Level Spell), 2,275 gp (6th-Level
-Spell), 3,000 gp (7th-Level Spell), 3,825 gp (8th-Level Spell); **Weight** 1 lb.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Price: 25 gp (Cantrip), 150 gp (1st-level Spell), 375 gp (2nd-Level Spell), 700 gp (3rd-Level Spell), 1,125 gp (4th-Level Spell), 1,650 gp (5th-Level Spell), 2,275 gp (6th-Level Spell), 3,000 gp (7th-Level Spell), 3,825 gp (8th-Level Spell)
+Weight: 1 lb.
+:::
 
 Although details of this antiquated method of crafting scrolls were once long buried in an obscure
 library in Ustalav, the secrets of crafting riffle scrolls were recently rediscovered by Chelish
@@ -76,7 +79,7 @@ as a separate effort, meaning that no more than 1 spell can be scribed in a day.
 
 ### Construction
 
-**Requirements** Scibe Scroll, Silent Spell, the spell to be scribed; **Cost** 12.5 gp (Cantrip), 75
-gp (1st-level spell), 187.5 gp (2nd-level spell), 350 gp (3rd-level spell), 562.5 gp (4th-level
-spell), 825 gp (5th-level spell), 1137.5 gp (6th-level spell), 1500 gp (7th-level spell), 1912.5 gp
-(8th-level spell)
+::: statblock
+Requirements: Scibe Scroll, Silent Spell, the spell to be scribed
+Cost: 12.5 gp (Cantrip), 75 gp (1st-level spell), 187.5 gp (2nd-level spell), 350 gp (3rd-level spell), 562.5 gp (4th-level spell), 825 gp (5th-level spell), 1137.5 gp (6th-level spell), 1500 gp (7th-level spell), 1912.5 gp (8th-level spell)
+:::

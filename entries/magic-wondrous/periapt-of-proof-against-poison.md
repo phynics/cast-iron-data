@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** neck; **Price** 27,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: neck
+Price: 27,000 gp
+Weight: -
+:::
 
 This item is a brilliant-cut black gem on a delicate silver chain meant to be worn about the neck.
 The wearer is immune to poison, although poisons active when the periapt is first donned still run
@@ -32,5 +37,7 @@ their course.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[neutralize poison](ref/spell/neutralize-poison); **Cost** 13,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [neutralize poison](ref/spell/neutralize-poison)
+Cost: 13,500 gp
+:::

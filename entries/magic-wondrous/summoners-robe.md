@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration; **CL** 17th\
-**Slot** body; **Price** 50,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 17th
+Slot: body
+Price: 50,000 gp
+Weight: 5 lbs.
+:::
 
 A summoner's robe is a finely crafted garment of silk the same color as the endless sky of the
 Astral Plane. Once per day when casting a _[summon monster](ref/spell/summon-monster)_ or
@@ -56,6 +61,7 @@ creature is of any other creature type, the wearer gains the abilities it posses
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[summon monster IX](ref/spell/summon-monster-9) or
-[summon nature's ally IX](ref/spell/summon-natures-ally-9); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [summon monster IX](ref/spell/summon-monster-9) or [summon nature's ally IX](ref/spell/summon-natures-ally-9)
+Cost: 25,000 gp
+:::
