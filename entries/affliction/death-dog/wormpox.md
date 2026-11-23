@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "death_dog|affliction:wormpox", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "44"
 
 [fields]
 kind = "none"

@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Dragon Bile", path = "core_rulebook/affliction/poison/dragon_bile.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "558"
 
 [fields]
 kind = "none"

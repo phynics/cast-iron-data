@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "phycomid|affliction:phycomid-spores", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "210"
 
 [fields]
 kind = "none"

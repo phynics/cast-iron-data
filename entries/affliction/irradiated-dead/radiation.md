@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "irradiated_dead|affliction:radiation", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "pathfinder-87-the-choking-tower"
 
 [fields]
 kind = "none"

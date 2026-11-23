@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "colossus_iron_colossus_mythic|affliction:deadly-fumes", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "36"
 
 [fields]
 kind = "none"

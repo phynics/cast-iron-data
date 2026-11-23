@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Fey Creature/Special Abilities/Poison Skin/Fey Giant Toad Venom", path = "bestiary_3/affliction/poison/fey_giant_toad_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

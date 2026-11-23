@@ -8,6 +8,11 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "adaro|affliction:nettlefin-toxin", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "7"
+[[sources]]
+publication = "pathfinder-38-racing-to-ruin"
 
 [fields]
 kind = "none"

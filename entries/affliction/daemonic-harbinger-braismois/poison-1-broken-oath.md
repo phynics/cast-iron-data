@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daemonic_harbinger_braismois|affliction:poison-1-broken-oath", path = "json/monsters_unique.json" },
 ]
+[[sources]]
+publication = "druma-profit-and-prophecy"
 
 [fields]
 kind = "none"

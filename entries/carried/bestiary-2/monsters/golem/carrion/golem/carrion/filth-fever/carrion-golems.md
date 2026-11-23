@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Golem/Carrion/Golem/Carrion/Filth Fever/Carrion Golems", path = "bestiary_2/affliction/disease/filth_fever_carrion_golems.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

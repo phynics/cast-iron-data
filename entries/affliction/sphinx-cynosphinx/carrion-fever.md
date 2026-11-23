@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sphinx_cynosphinx|affliction:carrion-fever", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "pathfinder-82-secrets-of-the-sphinx"
 
 [fields]
 kind = "none"

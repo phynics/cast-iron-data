@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Linnorm/Fjord/Special Abilities/Poison/Fjord Linnorm Venom", path = "bestiary_3/affliction/poison/fjord_linnorm_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

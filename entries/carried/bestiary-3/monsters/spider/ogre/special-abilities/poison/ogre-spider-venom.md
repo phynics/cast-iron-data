@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Spider/Ogre/Special Abilities/Poison/Ogre Spider Venom", path = "bestiary_3/affliction/poison/ogre_spider_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

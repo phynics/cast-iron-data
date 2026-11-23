@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mana_wastes_mutant|affliction:mana-fever", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"

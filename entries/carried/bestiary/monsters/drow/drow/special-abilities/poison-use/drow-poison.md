@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Drow/Drow/Special Abilities/Poison Use/Drow Poison", path = "bestiary/affliction/poison/drow_poison.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "114"
 
 [fields]
 kind = "none"

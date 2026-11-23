@@ -8,6 +8,11 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "xacarba|affliction:vile-disjunction", path = "json/monsters41.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "288"
+[[sources]]
+publication = "pathfinder-18-descent-into-midnight"
 
 [fields]
 kind = "none"

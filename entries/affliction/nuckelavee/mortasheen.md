@@ -8,6 +8,11 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nuckelavee|affliction:mortasheen", path = "json/monsters18.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "203"
+[[sources]]
+publication = "pathfinder-34-blood-for-blood"
 
 [fields]
 kind = "none"

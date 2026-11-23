@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hungry_flesh|affliction:tumor-infestation", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"

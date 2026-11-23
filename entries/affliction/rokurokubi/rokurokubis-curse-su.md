@@ -8,6 +8,11 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rokurokubi|affliction:rokurokubis-curse-su", path = "json/monsters20.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "227"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
 
 [fields]
 kind = "none"

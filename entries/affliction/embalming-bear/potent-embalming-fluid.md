@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "embalming_bear|affliction:potent-embalming-fluid", path = "json/monsters42.json" },
 ]
+[[sources]]
+publication = "tears-at-bitter-manor"
+page = "60"
 
 [fields]
 kind = "none"

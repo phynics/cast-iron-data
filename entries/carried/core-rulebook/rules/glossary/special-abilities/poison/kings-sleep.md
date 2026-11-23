@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Kings Sleep", path = "core_rulebook/affliction/poison/kings_sleep.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
 
 [fields]
 kind = "none"

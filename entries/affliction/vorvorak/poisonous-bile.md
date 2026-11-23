@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vorvorak|affliction:poisonous-bile", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
 
 [fields]
 kind = "none"

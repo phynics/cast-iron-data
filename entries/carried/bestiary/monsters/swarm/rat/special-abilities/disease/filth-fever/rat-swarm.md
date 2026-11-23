@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Swarm/Rat/Special Abilities/Disease/Filth Fever/Rat Swarm", path = "bestiary/affliction/disease/filth_fever_rat_swarm.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

@@ -8,6 +8,11 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sha|affliction:touch-of-madness", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "226"
+[[sources]]
+publication = "pathfinder-80-empty-graves"
 
 [fields]
 kind = "none"

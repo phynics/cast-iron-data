@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fungal_creature|affliction:fungal-spores", path = "json/monster_template2.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "117"
 
 [fields]
 kind = "none"

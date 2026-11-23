@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hypnalis|affliction:hypnalis-venom", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "154"
 
 [fields]
 kind = "none"

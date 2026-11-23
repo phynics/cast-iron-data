@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Kamadan/Dusk Kamadan (CR +1)/Dusk Kamadan Snake Venom", path = "bestiary_3/affliction/poison/dusk_kamadan_snake_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

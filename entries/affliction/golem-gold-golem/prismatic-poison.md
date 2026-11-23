@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_gold_golem|affliction:prismatic-poison", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"

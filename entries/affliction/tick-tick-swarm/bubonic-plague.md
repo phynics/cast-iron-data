@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_tick_swarm|affliction:bubonic-plague", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "265"
 
 [fields]
 kind = "none"

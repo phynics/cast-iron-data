@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "slime_mold|affliction:fungal-rot", path = "json/monsters22.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "249"
 
 [fields]
 kind = "none"

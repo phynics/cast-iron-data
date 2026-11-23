@@ -8,6 +8,12 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "khala|affliction:chillbane-fever", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "151"
+[[sources]]
+publication = "irrisen-land-of-eternal-winter"
+page = "48"
 
 [fields]
 kind = "none"

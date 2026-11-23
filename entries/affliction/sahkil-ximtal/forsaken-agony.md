@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sahkil_ximtal|affliction:forsaken-agony", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"

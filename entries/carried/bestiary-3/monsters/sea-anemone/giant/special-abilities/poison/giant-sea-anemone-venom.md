@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Sea Anemone/Giant/Special Abilities/Poison/Giant Sea Anemone Venom", path = "bestiary_3/affliction/poison/giant_sea_anemone_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

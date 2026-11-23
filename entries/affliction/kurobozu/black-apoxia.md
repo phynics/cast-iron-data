@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kurobozu|affliction:black-apoxia", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "153"
 
 [fields]
 kind = "none"

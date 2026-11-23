@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Violet Fungus/Violet Venom/Violet Venom", path = "bestiary/affliction/poison/violet_venom.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "274"
 
 [fields]
 kind = "none"

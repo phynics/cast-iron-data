@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vampire_vampire_warrior|affliction:vishkanya-venom", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "monster-codex"
 
 [fields]
 kind = "none"
