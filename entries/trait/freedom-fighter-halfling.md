@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "advanced-players-guide", "legacy-of-fire-pla
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freedom_fighter_halfling", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "62"
+[[sources]]
+publication = "advanced-players-guide"
+page = "332"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "8"
 
 [fields]
 kind = "trait"

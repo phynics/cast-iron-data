@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "eternal_slumber", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "69"
 
 [fields]
 kind = "class_option"

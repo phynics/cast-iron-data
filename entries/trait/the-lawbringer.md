@@ -7,6 +7,9 @@ source_ids = ["tyrants-grasp-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "the_lawbringer", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "tyrants-grasp-players-guide"
+page = "7"
 
 [fields]
 kind = "trait"

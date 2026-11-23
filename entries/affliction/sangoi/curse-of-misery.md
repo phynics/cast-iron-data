@@ -8,6 +8,11 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sangoi|affliction:curse-of-misery", path = "json/monsters37.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "219"
+[[sources]]
+publication = "pathfinder-69-maiden-mother-crone"
 
 [fields]
 kind = "none"

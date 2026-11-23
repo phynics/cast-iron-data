@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tick_giant_tick|affliction:red-ache", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "265"
 
 [fields]
 kind = "none"

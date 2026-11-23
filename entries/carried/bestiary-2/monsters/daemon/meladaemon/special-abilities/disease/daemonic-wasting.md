@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Daemon/Meladaemon/Special Abilities/Disease/Daemonic wasting", path = "bestiary_2/affliction/disease/daemonic_wasting.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

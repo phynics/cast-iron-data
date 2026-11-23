@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeslave|affliction:arcane-decay", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
 
 [fields]
 kind = "none"

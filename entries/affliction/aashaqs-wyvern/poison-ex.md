@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "aashaqs_wyvern|affliction:poison-ex", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "42"
 
 [fields]
 kind = "none"

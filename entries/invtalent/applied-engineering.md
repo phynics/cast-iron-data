@@ -6,6 +6,9 @@ source_ids = ["advanced-class-origins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "applied_engineering", path = "json/class_ability_investigator_talents.json" },
 ]
+[[sources]]
+publication = "advanced-class-origins"
+page = "15"
 
 [fields]
 kind = "class_option"

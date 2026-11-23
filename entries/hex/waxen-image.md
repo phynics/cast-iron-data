@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "waxen_image", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "68"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "automaton_familiar_automaton|affliction:arcane-fever", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "construct-handbook"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "vydrarch|affliction:vydrarch-poison", path = "json/monsters40.json" },
 ]
+[[sources]]
+publication = "magnimar-city-of-monuments"
 
 [fields]
 kind = "none"

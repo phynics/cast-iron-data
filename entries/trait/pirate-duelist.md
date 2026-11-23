@@ -7,6 +7,9 @@ source_ids = ["pirates-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pirate_duelist", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "pirates-of-the-inner-sea"
+page = "7"
 
 [fields]
 kind = "trait"

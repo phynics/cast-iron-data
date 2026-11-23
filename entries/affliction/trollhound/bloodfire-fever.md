@@ -8,6 +8,11 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "trollhound|affliction:bloodfire-fever", path = "json/monsters39.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "274"
+[[sources]]
+publication = "pathfinder-32-rivers-run-red"
 
 [fields]
 kind = "none"

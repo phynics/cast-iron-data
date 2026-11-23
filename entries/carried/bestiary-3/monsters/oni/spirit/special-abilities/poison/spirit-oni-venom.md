@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Oni/Spirit/Special Abilities/Poison/Spirit Oni Venom", path = "bestiary_3/affliction/poison/spirit_oni_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

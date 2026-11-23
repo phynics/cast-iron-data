@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Dark Reaver Powder", path = "core_rulebook/affliction/poison/dark_reaver_powder.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "558"
 
 [fields]
 kind = "none"

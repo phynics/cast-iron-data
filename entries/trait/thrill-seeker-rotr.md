@@ -6,6 +6,9 @@ source_ids = ["varisia-birthplace-of-legends", "rise-of-the-runelords-anniversar
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "thrill_seeker_rotr", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "28"
 
 [fields]
 kind = "trait"

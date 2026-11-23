@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "chickcharney|affliction:curse-of-ill-luck", path = "json/monsters05.json" },
 ]
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "46"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "devil_rust_devil_ferrugon|affliction:scarlet-tetanus", path = "json/monsters07.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
 
 [fields]
 kind = "none"

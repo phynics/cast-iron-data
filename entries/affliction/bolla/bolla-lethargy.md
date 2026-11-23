@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bolla|affliction:bolla-lethargy", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-136-temple-of-the-peacock-spirit"
 
 [fields]
 kind = "none"

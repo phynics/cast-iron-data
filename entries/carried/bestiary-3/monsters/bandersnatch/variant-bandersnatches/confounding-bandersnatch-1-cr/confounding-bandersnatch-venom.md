@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Bandersnatch/Variant Bandersnatches/Confounding Bandersnatch (+1 CR)/Confounding Bandersnatch Venom", path = "bestiary_3/affliction/poison/confounding_bandersnatch_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

@@ -8,6 +8,13 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tatzlwyrm|affliction:tatzlwyrm-poison", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "261"
+[[sources]]
+publication = "pathfinder-31-stolen-land"
+[[sources]]
+publication = "hollows-last-hope"
 
 [fields]
 kind = "none"

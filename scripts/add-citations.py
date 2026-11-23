@@ -496,7 +496,9 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
     if cand["confidence"] == "check":
         return None, "coarse", cpage, "the proposal is a section or parent page"
     if cand["confidence"] == "ambiguous":
-        return None, "ambiguous", cpage, "several pages proposed"
+        # The proposal lists the pages (`pages=62,306` in its notes): keep them for the reviewer.
+        listed = re.search(r"pages=([0-9,]+)", notes)
+        return None, "ambiguous", listed.group(1) if listed else cpage, "several pages proposed"
     if "no-aon-source-for-book" in notes:
         return None, "book-differs", "", "the reference lists the entry only in other books"
     return None, "no-page", "", ""
@@ -611,6 +613,14 @@ def self_test() -> int:
         expect(rows_of(root, "t6") == [("a", None), ("b", None)], "a withheld proposal and page 0 give book-only rows")
         expect(("ref/trait/t6", "a", "unconfirmed") in review_of(root), "unconfirmed is queued")
         expect(("ref/trait/t6", "b", "page-format") in review_of(root), "page 0 is page-format")
+
+        # An ambiguous proposal keeps its candidate pages in the review line.
+        entry("t7", ["a"])
+        cand7 = candidates([("ref/trait/t7", "a", "", "ambiguous", "monster;pages=62,306")])
+        run(root, "--slice", "trait", "--candidates", str(cand7), "--write")
+        with (root / REVIEW_DEFAULT).open(encoding="utf-8", newline="") as f:
+            got = [r for r in csv.DictReader(f, delimiter="\t") if r["entry_id"] == "ref/trait/t7"]
+        expect(bool(got) and got[0]["candidate_page"] == "62,306", "an ambiguous row keeps its candidate pages")
 
         # An entry whose books are all book-differs keeps no rows, and a rerun without the
         # proposals file leaves it alone.

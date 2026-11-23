@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "opportune_parry_and_riposte", path = "json/class_ability_swashbuckler_deeds.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "57"
 
 [fields]
 kind = "class_option"

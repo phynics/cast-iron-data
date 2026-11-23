@@ -6,6 +6,9 @@ source_ids = ["advanced-class-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fury", path = "json/class_ability_shaman_hexes.json" },
 ]
+[[sources]]
+publication = "advanced-class-guide"
+page = "36"
 
 [fields]
 kind = "class_option"

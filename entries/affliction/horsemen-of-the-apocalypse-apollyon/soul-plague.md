@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "horsemen_of_the_apocalypse_apollyon|affliction:soul-plague", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
 
 [fields]
 kind = "none"

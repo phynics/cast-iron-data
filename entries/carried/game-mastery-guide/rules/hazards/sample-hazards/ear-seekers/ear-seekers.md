@@ -8,6 +8,8 @@ tags = ["infestation"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Game Mastery Guide/Rules/Hazards/Sample Hazards/Ear Seekers/Ear Seekers", path = "game_mastery_guide/affliction/infestation/ear_seekers.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
 
 [fields]
 kind = "none"

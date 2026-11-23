@@ -7,6 +7,9 @@ source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "paraheen_weaponsmith", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "qadira-jewel-of-the-east"
+page = "29"
 
 [fields]
 kind = "trait"

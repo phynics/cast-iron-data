@@ -7,6 +7,9 @@ source_ids = ["plane-hoppers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "internal_compass", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "plane-hoppers-handbook"
+page = "3"
 
 [fields]
 kind = "trait"

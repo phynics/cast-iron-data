@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tobongo_mwangi_treant|affliction:curse-of-barkflesh", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "61"
 
 [fields]
 kind = "none"

@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "caustic_stalker|affliction:caustic-creep", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "the-emerald-spire-superdungeon"
+page = "153"
 
 [fields]
 kind = "none"

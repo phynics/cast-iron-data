@@ -8,6 +8,8 @@ tags = ["insanity"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Game Mastery Guide/Rules/Sanity and Madness/Types of Insanity/Psychosis", path = "game_mastery_guide/affliction/insanity/psychosis.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
 
 [fields]
 kind = "none"

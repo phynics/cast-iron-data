@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Drow Poison", path = "core_rulebook/affliction/poison/drow_poison.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Advanced Players Guide/Spells/Transmute Potion To Poison/Transmuted Poisons/1st-Level Potion Poison", path = "advanced_players_guide/affliction/poison/1st-level_potion_poison.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "none"

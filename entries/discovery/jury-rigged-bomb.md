@@ -6,6 +6,9 @@ source_ids = ["antiheros-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jury_rigged_bomb", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "antiheros-handbook"
+page = "29"
 
 [fields]
 kind = "class_option"

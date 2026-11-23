@@ -6,6 +6,9 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "spirit_steed", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
+page = "77"
 
 [fields]
 kind = "class_option"

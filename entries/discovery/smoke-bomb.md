@@ -6,6 +6,8 @@ source_ids = ["advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "smoke_bomb", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "advanced-players-guide"
 
 [fields]
 kind = "class_option"

@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "black_shuck|affliction:shucks-kiss", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "pathfinder-129-the-twilight-child"
 
 [fields]
 kind = "none"

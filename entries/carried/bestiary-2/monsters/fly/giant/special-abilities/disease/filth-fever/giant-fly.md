@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Fly/Giant/Special Abilities/Disease/Filth Fever/Giant Fly", path = "bestiary_2/affliction/disease/filth_fever_giant_fly.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

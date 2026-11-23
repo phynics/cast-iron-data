@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mummy_lord|affliction:insidious-mummy-rot-su", path = "json/monster_template3.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "177"
 
 [fields]
 kind = "none"

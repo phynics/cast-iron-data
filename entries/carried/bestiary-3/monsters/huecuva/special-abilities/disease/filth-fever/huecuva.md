@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Huecuva/Special Abilities/Disease/Filth Fever/Huecuva", path = "bestiary_3/affliction/disease/filth_fever_huecuva.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

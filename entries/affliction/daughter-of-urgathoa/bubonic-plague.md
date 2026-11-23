@@ -8,6 +8,11 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "daughter_of_urgathoa|affliction:bubonic-plague", path = "json/monsters08.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "309"
+[[sources]]
+publication = "pathfinder-8-seven-days-to-the-grave"
 
 [fields]
 kind = "none"

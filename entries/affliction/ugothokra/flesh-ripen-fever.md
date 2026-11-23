@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ugothokra|affliction:flesh-ripen-fever", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "pathfinder-88-valley-of-the-brain-collectors"
 
 [fields]
 kind = "none"

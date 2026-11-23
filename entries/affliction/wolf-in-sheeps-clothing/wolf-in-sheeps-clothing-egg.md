@@ -8,6 +8,12 @@ tags = ["infestation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wolf_in_sheeps_clothing|affliction:wolf-in-sheeps-clothing-egg", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "285"
+[[sources]]
+publication = "misfit-monsters-redeemed"
+page = "63"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Div/Ghawwas/Special Abilities/Poison/Ghawwas Venom", path = "bestiary_3/affliction/poison/ghawwas_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Kraken/Special Abilities/Ink Cloud/Kraken Ink Cloud", path = "bestiary/affliction/poison/kraken_ink_cloud.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

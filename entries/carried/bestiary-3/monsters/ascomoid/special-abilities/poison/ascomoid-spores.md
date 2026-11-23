@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Ascomoid/Special Abilities/Poison/Ascomoid Spores", path = "bestiary_3/affliction/poison/ascomoid_spores.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Centipede/Titan/Special Abilities/Poison/Titan Centipede Venom", path = "bestiary_2/affliction/poison/titan_centipede_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

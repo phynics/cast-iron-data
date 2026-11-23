@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ningyo_undead_ningyo|affliction:ningyo-flesh", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "pathfinder-37-souls-for-smugglers-shiv"
 
 [fields]
 kind = "none"

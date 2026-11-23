@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rat_king|affliction:bubonic-plague", path = "json/monsters36.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "225"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "asura_asurendra|affliction:curse-of-false-wisdom-su", path = "json/monsters02.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

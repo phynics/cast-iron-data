@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "runeslave|affliction:runeslave-poison", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "rise-of-the-runelords-anniversary-edition"
 
 [fields]
 kind = "none"

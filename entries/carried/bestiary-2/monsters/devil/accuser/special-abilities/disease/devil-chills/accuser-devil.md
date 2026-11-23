@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Devil/Accuser/Special Abilities/Disease/Devil Chills/Accuser Devil", path = "bestiary_2/affliction/disease/devil_chills_accuser_devil.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

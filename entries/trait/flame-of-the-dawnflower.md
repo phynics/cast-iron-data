@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "qadira-gateway-to-the-east", "advanced-playe
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "flame_of_the_dawnflower", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "64"
+[[sources]]
+publication = "qadira-gateway-to-the-east"
+page = "23"
+[[sources]]
+publication = "advanced-players-guide"
+page = "333"
 
 [fields]
 kind = "trait"

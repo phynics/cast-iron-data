@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Animate Dream/Special Abilities/Nightmare Curse/Animate Dreams Touch", path = "bestiary_2/affliction/curse/animate_dreams_touch.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

@@ -6,6 +6,9 @@ source_ids = ["adventurers-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hairpin_trick", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "adventurers-guide"
+page = "53"
 
 [fields]
 kind = "class_option"

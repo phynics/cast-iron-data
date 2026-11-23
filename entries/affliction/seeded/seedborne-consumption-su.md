@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "seeded|affliction:seedborne-consumption-su", path = "json/monster_template4.json" },
 ]
+[[sources]]
+publication = "pathfinder-113-what-grows-within"
 
 [fields]
 kind = "none"

@@ -8,6 +8,12 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "gholdako|affliction:seaside-rot", path = "json/monsters11.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "125"
+[[sources]]
+publication = "isles-of-the-shackles"
+page = "49"
 
 [fields]
 kind = "none"

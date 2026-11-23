@@ -7,6 +7,9 @@ source_ids = ["potions-and-poisons"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrotoxin_resistance", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "potions-and-poisons"
+page = "3"
 
 [fields]
 kind = "trait"

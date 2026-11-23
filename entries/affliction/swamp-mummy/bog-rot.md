@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "swamp_mummy|affliction:bog-rot", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "178"
 
 [fields]
 kind = "none"

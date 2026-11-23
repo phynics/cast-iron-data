@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Sea Hag/Special Abilities/Evil Eye/Evil Eye", path = "bestiary/affliction/curse/evil_eye.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

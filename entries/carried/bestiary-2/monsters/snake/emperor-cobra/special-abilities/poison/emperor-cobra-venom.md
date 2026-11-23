@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Snake/Emperor Cobra/Special Abilities/Poison/Emperor Cobra Venom", path = "bestiary_2/affliction/poison/emperor_cobra_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

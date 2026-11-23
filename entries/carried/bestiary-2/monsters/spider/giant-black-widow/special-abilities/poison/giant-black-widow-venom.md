@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Spider/Giant Black Widow/Special Abilities/Poison/Giant Black Widow Venom", path = "bestiary_2/affliction/poison/giant_black_widow_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

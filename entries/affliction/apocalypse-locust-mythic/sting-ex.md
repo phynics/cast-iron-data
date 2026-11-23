@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "apocalypse_locust_mythic|affliction:sting-ex", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "12"
 
 [fields]
 kind = "none"

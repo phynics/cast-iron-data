@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_ash_giant|affliction:ash-leprosy", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "126"
 
 [fields]
 kind = "none"

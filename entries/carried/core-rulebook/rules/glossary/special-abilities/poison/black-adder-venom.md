@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Black Adder Venom", path = "core_rulebook/affliction/poison/black_adder_venom.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "558"
 
 [fields]
 kind = "none"
