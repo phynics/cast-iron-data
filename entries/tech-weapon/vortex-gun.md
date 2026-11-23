@@ -45,6 +45,10 @@ remaining hit points.
 
 ### Construction
 
-**Craft DC** 33; **Cost** 91,000 gp\
+::: statblock
+Craft DC: 33
+Cost: 91,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [graviton lab](ref/rule/crafting-laboratories)

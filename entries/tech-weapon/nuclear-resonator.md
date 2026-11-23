@@ -55,6 +55,10 @@ sonic effect, and cannot pass through an area of magical silence or an area unde
 
 ### Construction
 
-**Craft DC** 35; **Cost** 45,000 gp\
+::: statblock
+Craft DC: 35
+Cost: 45,000 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)

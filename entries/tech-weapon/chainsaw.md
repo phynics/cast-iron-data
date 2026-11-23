@@ -32,7 +32,11 @@ Special: [Deadly](ref/misc/deadly), [distracting](ref/misc/distracting)
 
 ### Construction
 
-**Craft DC** 20; **Cost** 1,350 gp\
+::: statblock
+Craft DC: 20
+Cost: 1,350 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)
 

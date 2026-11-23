@@ -69,7 +69,10 @@ staggered for 1 round. A zero cannon costs 40,000 gp and has a Craft DC of 31.
 
 ### Construction
 
-**Craft DC** 31 (arc cannon, laser cannon, zero cannon), 33 (EMP cannon, sonic cannon); **Cost**
-20,000 gp (arc cannon, laser cannon, zero cannon), 29,000 gp (EMP cannon, sonic cannon)\
+::: statblock
+Craft DC: 31 (arc cannon, laser cannon, zero cannon), 33 (EMP cannon, sonic cannon)
+Cost: 20,000 gp (arc cannon, laser cannon, zero cannon), 29,000 gp (EMP cannon, sonic cannon)
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [military lab](ref/rule/crafting-laboratories)

@@ -56,6 +56,10 @@ DC 28 Strength check (also a full-round action).
 
 ### Construction
 
-**Craft DC** 30; **Cost** 1,500 gp\
+::: statblock
+Craft DC: 30
+Cost: 1,500 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [nanotech lab](ref/rule/crafting-laboratories)
