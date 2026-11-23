@@ -488,12 +488,12 @@ entries/magic-weapon/ukwar.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/bloody-mantis.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/chomper.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/crusaders-scabbard.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/cube-of-force.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
-entries/magic-wondrous/cube-of-varied-force-walls.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/cube-of-varied-force-walls.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
-entries/magic-wondrous/discriminating-cube.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/discriminating-cube.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
+entries/magic-wondrous/cube-of-force.md	item	print-fix	row `11`, the base item's own text; `13` and `14` stay as rows for the variant paragraphs of the body (Classic Treasures Revisited p. 11)
+entries/magic-wondrous/cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: movable)
+entries/magic-wondrous/cube-of-varied-force-walls.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
+entries/magic-wondrous/cube-of-varied-force-walls.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: movable)
+entries/magic-wondrous/discriminating-cube.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
+entries/magic-wondrous/discriminating-cube.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: movable)
 entries/magic-wondrous/figurine-of-wondrous-power-basalt-dragon.md	item	variant-paragraphs	CL
 entries/magic-wondrous/figurine-of-wondrous-power-black-jade-raven.md	item	variant-paragraphs	CL
 entries/magic-wondrous/figurine-of-wondrous-power-bronze-griffon.md	item	variant-paragraphs	CL
@@ -524,15 +524,15 @@ entries/magic-wondrous/helm-of-brilliance.md	item	raw-sources-line	1 in variant 
 entries/magic-wondrous/helm-of-brilliance.md	item	variant-paragraphs	Requirements
 entries/magic-wondrous/helmet-of-the-golden-general.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/holliss-lucky-rock.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/independent-cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/independent-cube-of-force.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
+entries/magic-wondrous/independent-cube-of-force.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
+entries/magic-wondrous/independent-cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: movable)
 entries/magic-wondrous/ioun-stone.md	item	raw-sources-line	2 in variant paragraphs: Pathfinder Society Primer; Seekers of Secrets pg 46 (rule S in every zone: sources-unparsed)
 entries/magic-wondrous/lady-ninahus-doll.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/lute-of-discord.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/maniac-hand.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/phylactery-of-jadis-vel.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/rechargeable-cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: sources-page-conflict)
-entries/magic-wondrous/rechargeable-cube-of-force.md	item	sources-page-conflict	classic-treasures-revisited: 13 / 14
+entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14 (Classic Treasures Revisited pp. 13-14)
+entries/magic-wondrous/rechargeable-cube-of-force.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13 (rule S in every zone: movable)
 entries/magic-wondrous/remote-activation-cube.md	item	raw-sources-line	5 in variant paragraphs: Classic Treasures Revisited pg 13; Classic Treasures Revisited pg 14 (rule S in every zone: sources-page-conflict)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
 entries/magic-wondrous/the-bloodwind.md	item	variant-paragraphs	Alignment

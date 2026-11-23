@@ -245,10 +245,13 @@ S4  Rows. A book cited in the zones gets one row, `publication` and `page`, afte
     entry has (and before any `[[expanded_in]]`), in the order the lines print. The same book
     on the same page twice gives one row. The book must be in the entry's `source_ids`, as
     `corpus-check` requires, or the file queues (`sources-book-not-in-source-ids`).
-S5  Existing rows. A row the entry already has for the book is kept, and every page the line
-    prints for that book must equal its `page`. A different page, or a row without a page, or two
-    pages for one new book, queues the file (`sources-page-conflict`, with the pages): the page
-    of a row is never edited by this rule.
+S5  Existing rows. A row the entry already has for the book is kept. Every page the line
+    prints for that book must be covered by the `page` of one of the rows the entry has for the
+    book: equal to it, or inside its range or its comma list (`14` is covered by `13-14`, or by a
+    second row `14`). A page no row covers, a row without a page, or two pages for one new book
+    queues the file (`sources-page-conflict`, with the pages): the page of a row is never edited
+    by this rule, and it never adds a row for a book that already has one. A print fix adds such
+    a row first, by hand.
 
 The proof of rule S, run on every file before it is written (`prove_sources`, read apart from the
 converter): the front matter differs from the old one by one inserted run of the added rows and
@@ -399,6 +402,51 @@ PRINT_FIXES = (
         "Irrisen, Land of Eternal Winter p. 62",
         "Spell-Like Abilities concentration: `+7`; the import left `+7s`",
         (("\nConcentration: +7s\n", "\nConcentration: +7\n"),),
+    ),
+    (
+        "entries/magic-wondrous/cube-of-force.md",
+        "Classic Treasures Revisited p. 11",
+        "row `11`, the base item's own text; `13` and `14` stay as rows for the variant paragraphs of the body",
+        ((
+            "page = \"13\"\n\n[fields]",
+            "page = \"11\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"13\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"14\"\n\n[fields]",
+        ),),
+    ),
+    (
+        "entries/magic-wondrous/cube-of-varied-force-walls.md",
+        "Classic Treasures Revisited p. 13",
+        "row `13` kept (its own text); row `14` added for the Construction paragraph of the body",
+        ((
+            "page = \"13\"\n\n[fields]",
+            "page = \"13\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"14\"\n\n[fields]",
+        ),),
+    ),
+    (
+        "entries/magic-wondrous/discriminating-cube.md",
+        "Classic Treasures Revisited p. 13",
+        "row `13` kept (its own text); row `14` added for the Construction paragraph of the body",
+        ((
+            "page = \"13\"\n\n[fields]",
+            "page = \"13\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"14\"\n\n[fields]",
+        ),),
+    ),
+    (
+        "entries/magic-wondrous/independent-cube-of-force.md",
+        "Classic Treasures Revisited p. 13",
+        "row `13` kept (its own text); row `14` added for the Construction paragraph of the body",
+        ((
+            "page = \"13\"\n\n[fields]",
+            "page = \"13\"\n[[sources]]\npublication = \"classic-treasures-revisited\"\npage = \"14\"\n\n[fields]",
+        ),),
+    ),
+    (
+        "entries/magic-wondrous/rechargeable-cube-of-force.md",
+        "Classic Treasures Revisited pp. 13-14",
+        "row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14",
+        ((
+            "page = \"13\"\n\n[fields]",
+            "page = \"13-14\"\n\n[fields]",
+        ),),
     ),
 )
 
@@ -1544,6 +1592,28 @@ def sources_zones(lines: list[str], kind: str) -> list[str]:
     return zone
 
 
+def page_ranges(page: str) -> list[tuple[int, int]] | None:
+    """`11`, `13-14`, `11, 13-14` as (first, last) pairs; None for any other text."""
+    ranges = []
+    for part in page.split(","):
+        found = re.fullmatch(r"\s*(\d+)(?:-(\d+))?\s*", part)
+        if not found:
+            return None
+        first = int(found.group(1))
+        ranges.append((first, int(found.group(2) or first)))
+    return ranges
+
+
+def page_covers(row_page: str | None, page: str) -> bool:
+    """S5: whether a row's `page` holds every page of a printed citation (`N` or `N-N`)."""
+    if row_page is None:
+        return False
+    held, wanted = page_ranges(row_page), page_ranges(page)
+    if held is None or wanted is None:
+        return row_page == page
+    return all(any(a <= first and last <= b for a, b in held) for first, last in wanted)
+
+
 def sources_front_rows(front: str) -> list[dict]:
     return tomllib.loads(front.replace("+++\n", "", 2)).get("sources", [])
 
@@ -1617,12 +1687,15 @@ def move_sources(text: str, kind: str, names: dict[str, str], zones: tuple[str, 
         for _, publication, page in cites:
             if publication not in source_ids:
                 raise Queue("sources-book-not-in-source-ids", publication)
-            pages = [row.get("page") for row in have if row["publication"] == publication]
-            pages += [row_page for row_publication, row_page in added if row_publication == publication]
-            if not pages:
+            held = [row.get("page") for row in have if row["publication"] == publication]
+            new_pages = [row_page for row_publication, row_page in added if row_publication == publication]
+            if held:
+                if not any(page_covers(row_page, page) for row_page in held):
+                    raise Queue("sources-page-conflict", f"{publication}: {', '.join(str(p) for p in held)} / {page}")
+            elif not new_pages:
                 added.append((publication, page))
-            elif set(pages) != {page}:
-                raise Queue("sources-page-conflict", f"{publication}: {', '.join(str(p) for p in pages)} / {page}")
+            elif set(new_pages) != {page}:
+                raise Queue("sources-page-conflict", f"{publication}: {', '.join(new_pages)} / {page}")
 
     # S3: the lines leave the body.
     drop: set[int] = set()
@@ -1730,14 +1803,14 @@ def prove_sources(
         raise ProofFailed(f"a citation line did not leave the body: {leftover[0]!r}")
     # Citations: reading the removed lines again gives rows that the front matter holds, with the
     # pages as printed, and every added row comes from a citation.
-    held = {(row["publication"], row.get("page")) for row in sources_front_rows(new_front)}
+    held = [(row["publication"], row.get("page")) for row in sources_front_rows(new_front)]
     seen: list[tuple[str, str]] = []
     for text in removed:
         if not text.startswith(SOURCES_LABEL):
             raise ProofFailed("a removed line does not open with the label")
         flat = " ".join(part.strip() for part in text.split("\n"))[len(SOURCES_LABEL) :].strip().rstrip("\\").rstrip()
         for _, publication, page in parse_sources_text(flat, names):
-            if (publication, page) not in held:
+            if not any(book == publication and page_covers(row_page, page) for book, row_page in held):
                 raise ProofFailed(f"a citation has no row: {publication} pg {page}")
             seen.append((publication, page))
     if any(row not in seen for row in added):
@@ -2984,6 +3057,21 @@ class SourcesSelfTest(unittest.TestCase):
         # The same book twice with other pages, and a row with no page.
         no_page = SOURCES_FRONT.replace('page = "10"\n', "")
         self.assertEqual(self.plan(no_page, "\n**Sources:** Bestiary pg 10\\\n**A:** 1\n")[0], "queue:sources-page-conflict")
+
+    def test_a_printed_page_is_covered_by_a_row_that_holds_it_and_never_adds_a_row_for_a_known_book(self):
+        self.assertTrue(page_covers("13-14", "14") and page_covers("11, 13-14", "13") and page_covers("10", "10"))
+        self.assertFalse(page_covers("13", "14") or page_covers("11, 13", "12") or page_covers(None, "1"))
+        self.assertFalse(page_covers("13-14", "14-15"))
+        rows = lambda *pages: SOURCES_FRONT.replace(  # noqa: E731
+            '[[sources]]\npublication = "bestiary"\npage = "10"\n',
+            "".join(f'[[sources]]\npublication = "bestiary"\npage = "{page}"\n' for page in pages),
+        )
+        body = "\n**Sources:** Bestiary pg 11\\\n**A:** 1\n"
+        converted = self.plan(rows("10-12"), body)
+        self.assertEqual(converted[0], "converted")
+        self.assertEqual(converted[2].count("[[sources]]"), SOURCES_FRONT.count("[[sources]]"))  # no row added
+        self.assertEqual(self.plan(rows("10", "11"), body)[0], "converted")  # a second row holds it
+        self.assertEqual(self.plan(rows("10", "12"), body)[0], "queue:sources-page-conflict")
 
     def test_a_page_range_and_an_escaped_hash_read(self):
         self.assertEqual(
