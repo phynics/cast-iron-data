@@ -13,32 +13,41 @@ entries/eq-armor/snarlshield-wooden.md	item	variant-paragraphs	Damage
 entries/eq-armor/war-shield-dwarven.md	item	variant-paragraphs	Damage
 entries/eq-armorenh/shield-spikes.md	item	variant-paragraphs	Light shield; Heavy shield
 entries/eq-misc/amp.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/angelstep.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/antitoxin.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/autosniper-trap.md	item	variant-paragraphs	Autosniper Trap
 entries/eq-misc/balloon-trap.md	item	variant-paragraphs	Sirocco Balloon Trap - CR 14
 entries/eq-misc/bear-trap.md	item	variant-paragraphs	Bear Trap - CR 1
 entries/eq-misc/bell-tripwire-trap.md	item	variant-paragraphs	Bell Tripwire Trap
+entries/eq-misc/black-amaranth.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/blood-boiling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/blood-chilling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/bloodgorge.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/bloody-mandrake.md	item	block-ended-at-sentences	Preparation
+entries/eq-misc/bone-reed.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/boulderhead-bock.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/bunk.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/chameleon-ointment.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/cloud-puff.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/courtiers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/dilettantes-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/doctors-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/dragon-rose.md	item	block-ended-at-sentences	Preparation
+entries/eq-misc/dream-lichen.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/essence-of-independence.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/eye-drops-of-the-unseen-master.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/fairy-cap.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/flask-launcher.md	item	variant-paragraphs	Flash Launcher Trap
 entries/eq-misc/frightful-war-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/gas-mask.md	item	variant-paragraphs	Price
+entries/eq-misc/goblinvine.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
 entries/eq-misc/hobgoblin-war-draught.md	item	variant-paragraphs	Craft DC
 entries/eq-misc/homunculus-clay.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
@@ -48,14 +57,21 @@ entries/eq-misc/imposing-war-paint.md	item	variant-paragraphs	Spontaneous Alchem
 entries/eq-misc/incense-of-divinity.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/insight-leaves.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/instant-fertilizer.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/leechwort.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/longbeard-lambic.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/love-in-idleness.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/loyalty-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/manacles-common.md	item	label-without-separator	Category
 entries/eq-misc/manacles-masterwork.md	item	label-without-separator	Category
 entries/eq-misc/manacles-mithral.md	item	label-without-separator	Category
+entries/eq-misc/merfolks-comb.md	item	block-ended-at-sentences	Preparation
+entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/mimic-fibers.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
+entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/monks-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/nepenthe.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/net-rigging.md	item	variant-paragraphs	Falling Net Trap
+entries/eq-misc/nightsage.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/nobles-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/peasants-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/pesh.md	item	variant-paragraphs	False Pesh
@@ -66,6 +82,7 @@ entries/eq-misc/portable-bolt-trap.md	item	variant-paragraphs	Portable Bolt Trap
 entries/eq-misc/pull-cord-grenade.md	item	variant-paragraphs	Type
 entries/eq-misc/royal-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
+entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/semblance-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/shamans-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/silence-dust.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
@@ -110,6 +127,7 @@ entries/eq-misc/wagon-light-or-medium-travel-per-mile.md	item	label-without-sepa
 entries/eq-misc/wagon-light.md	item	label-without-separator	Category
 entries/eq-misc/wagon-medium.md	item	label-without-separator	Category
 entries/eq-misc/wagon.md	item	label-without-separator	Category
+entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/wire.md	item	variant-paragraphs	Tripwire Trap - CR 1/3
 entries/eq-misc/wyrms-breath-bitter.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-poison/alchemical-isolation.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
@@ -481,258 +499,260 @@ entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Wat
 entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/winter-witch-baroness.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
 entries/npc/winter-witch-cold-sister.md	npc	print-fix	Spell-Like Abilities concentration: `+7`; the import left `+7s` (Irrisen, Land of Eternal Winter p. 62)
-entries/tech-armor/chameleon-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/deep-diving-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/gravity-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/hard-light-shield.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/heavy-weapon-harness.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/hev-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/inssuit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/nanite-ablative-armor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/neraplast-armor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/panic-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-black.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-blue.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-brown.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-gray.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-green.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-orange.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-prismatic.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-red.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/scatterlight-suit-white.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/smart-armor-compact-form.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/smart-armor-expanded-form.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-armor/spacesuit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-armor/chameleon-suit.md	item	construction-unlabelled	
+entries/tech-armor/deep-diving-suit.md	item	construction-unlabelled	
+entries/tech-armor/gravity-suit.md	item	construction-unlabelled	
+entries/tech-armor/hard-light-shield.md	item	construction-unlabelled	
+entries/tech-armor/heavy-weapon-harness.md	item	construction-unlabelled	
+entries/tech-armor/hev-suit.md	item	construction-unlabelled	
+entries/tech-armor/inssuit.md	item	construction-unlabelled	
+entries/tech-armor/nanite-ablative-armor.md	item	construction-unlabelled	
+entries/tech-armor/neraplast-armor.md	item	construction-unlabelled	
+entries/tech-armor/panic-suit.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-black.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-blue.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-brown.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-gray.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-green.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-orange.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-prismatic.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-red.md	item	construction-unlabelled	
+entries/tech-armor/scatterlight-suit-white.md	item	construction-unlabelled	
+entries/tech-armor/smart-armor-compact-form.md	item	construction-unlabelled	
+entries/tech-armor/smart-armor-expanded-form.md	item	construction-unlabelled	
+entries/tech-armor/spacesuit.md	item	construction-unlabelled	
 entries/tech-artifact/fission-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/fusion-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/geothermal-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/graviton-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/solar-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
-entries/tech-cyber/biofilter.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cranial-bomb.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cyberart.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cyberfiber-muscles-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cyberfiber-muscles-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cyberfiber-muscles-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cybernetic-arm.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cybernetic-ears.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cybernetic-eyes.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/cybernetic-legs.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/dermal-plating-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/dermal-plating-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/dermal-plating-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/dermal-plating-mark-iv.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/dermal-plating-mark-v.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/frenzychip.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/implant-mesh.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/implanted-weaponry.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/optical-turrets.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/skillslot.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/thoracic-nanite-chamber-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/thoracic-nanite-chamber-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/thoracic-nanite-chamber-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/wirejack-tendons-mark-i.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/wirejack-tendons-mark-ii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-cyber/wirejack-tendons-mark-iii.md	item	unlabelled-line	[Craft Cybernetics](ref/feat/craft-cyber
-entries/tech-misc/access-card-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/access-card-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/battery.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/camera.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chemalyzer.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/chipfinder-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/clonepod.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/commset.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cortex-gun-mark-i.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cortex-gun-mark-ii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cortex-gun-mark-iii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cortex-gun-mark-iv.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cortex-gun-mark-v.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/cylex.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-misc/detonator.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-misc/e-pick-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/e-pick.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/emergency-beacon.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/emergency-raft.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/emergency-shelter.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/envoys-mouthpiece.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/filter-mask.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/fire-extinguisher.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/flashlight.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/force-field.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/goo-tube.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/gravity-clip.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/grip-of-death.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/grippers.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/hologram-generator-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/inertial-dampening-belt.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/ion-tape.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/jetpack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/laser-sight.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lighter.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/lock-coder-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/magboots.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/medlance.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/mindmelder.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/motion-tracker.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-canister.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nanite-hypogun-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/neurocam.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/nutrient-training-node.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/power-cable.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/power-receiver.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/proximity-helmet.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/quantum-box.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/radiation-detector.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/robojack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/signal-booster.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/signal-jammer.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/skillchip-mark-i.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/skillchip-mark-ii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/skillchip-mark-iii.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/skillchip-mark-iv.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/skillchip-mark-v.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/tracker-chip.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/trauma-pack-plus.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/trauma-pack.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-black.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-blue.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-brown.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-goggles.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-gray.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-green.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-orange.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-prismatic.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-red.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/veemod-white.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-misc/zipstick.md	item	unlabelled-line	[Craft Technological Item](ref/feat/craf
-entries/tech-pharma/azonite-pellets.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/baseline.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/cardioamp.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/cureall.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hemochem-grade-i.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hemochem-grade-ii.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hemochem-grade-iii.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hemochem-grade-iv.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hemochem-grave-v.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/hype.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/soothe.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/torpinal.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/universal-serum.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/vitality-serum.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/vive.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-pharma/zortaphen.md	item	unlabelled-line	[Craft Pharmaceutical](ref/feat/craft-ph
-entries/tech-weapon/arc-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/arc-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/arc-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/atom-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/atom-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/autograpnel.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/bang-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/beam-cannon-emp-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/beam-cannon-laser-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/beam-cannon-sonic-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/beam-cannon-zero-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/beam-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/bio-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/chainsaw.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/concussion-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/dart-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/death-ray.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/emp-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/emp-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/emp-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/flare-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/flash-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/flechette-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/fleshnet-cannon.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/fragmentation-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/gas-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/gravity-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/gravity-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/gravity-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/grenade-launcher.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/id-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/inferno-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/inferno-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/laser-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/laser-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/laser-torch.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/mind-burner.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/mindrender.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/monowhip.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/neural-inhibitor.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/nuclear-resonator.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/null-blade.md	item	unlabelled-line	[Craft Magic Arms and Armor](ref/feat/cr
-entries/tech-weapon/plasma-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/plasmathrower.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/rail-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/rocket-launcher.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/soft-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/sonic-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/sonic-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/sonic-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/starfall-spade.md	item	unlabelled-line	[Craft Magic Arms and Armor](ref/feat/cr
-entries/tech-weapon/stun-baton.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/stun-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/vortex-gun.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/x-laser.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/zero-grenade.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/zero-pistol.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
-entries/tech-weapon/zero-rifle.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
+entries/tech-cyber/biofilter.md	item	construction-unlabelled	
+entries/tech-cyber/cranial-bomb.md	item	construction-unlabelled	
+entries/tech-cyber/cyberart.md	item	construction-unlabelled	
+entries/tech-cyber/cyberfiber-muscles-mark-i.md	item	construction-unlabelled	
+entries/tech-cyber/cyberfiber-muscles-mark-ii.md	item	construction-unlabelled	
+entries/tech-cyber/cyberfiber-muscles-mark-iii.md	item	construction-unlabelled	
+entries/tech-cyber/cybernetic-arm.md	item	construction-unlabelled	
+entries/tech-cyber/cybernetic-ears.md	item	construction-unlabelled	
+entries/tech-cyber/cybernetic-eyes.md	item	construction-unlabelled	
+entries/tech-cyber/cybernetic-legs.md	item	construction-unlabelled	
+entries/tech-cyber/dermal-plating-mark-i.md	item	construction-unlabelled	
+entries/tech-cyber/dermal-plating-mark-ii.md	item	construction-unlabelled	
+entries/tech-cyber/dermal-plating-mark-iii.md	item	construction-unlabelled	
+entries/tech-cyber/dermal-plating-mark-iv.md	item	construction-unlabelled	
+entries/tech-cyber/dermal-plating-mark-v.md	item	construction-unlabelled	
+entries/tech-cyber/frenzychip.md	item	construction-unlabelled	
+entries/tech-cyber/implant-mesh.md	item	construction-unlabelled	
+entries/tech-cyber/implanted-weaponry.md	item	construction-unlabelled	
+entries/tech-cyber/optical-turrets.md	item	construction-unlabelled	
+entries/tech-cyber/skillslot.md	item	construction-unlabelled	
+entries/tech-cyber/thoracic-nanite-chamber-mark-i.md	item	construction-unlabelled	
+entries/tech-cyber/thoracic-nanite-chamber-mark-ii.md	item	construction-unlabelled	
+entries/tech-cyber/thoracic-nanite-chamber-mark-iii.md	item	construction-unlabelled	
+entries/tech-cyber/wirejack-tendons-mark-i.md	item	construction-unlabelled	
+entries/tech-cyber/wirejack-tendons-mark-ii.md	item	construction-unlabelled	
+entries/tech-cyber/wirejack-tendons-mark-iii.md	item	construction-unlabelled	
+entries/tech-misc/access-card-black.md	item	construction-unlabelled	
+entries/tech-misc/access-card-blue.md	item	construction-unlabelled	
+entries/tech-misc/access-card-brown.md	item	construction-unlabelled	
+entries/tech-misc/access-card-gray.md	item	construction-unlabelled	
+entries/tech-misc/access-card-green.md	item	construction-unlabelled	
+entries/tech-misc/access-card-orange.md	item	construction-unlabelled	
+entries/tech-misc/access-card-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/access-card-red.md	item	construction-unlabelled	
+entries/tech-misc/access-card-white.md	item	construction-unlabelled	
+entries/tech-misc/battery.md	item	construction-unlabelled	
+entries/tech-misc/camera.md	item	construction-unlabelled	
+entries/tech-misc/chemalyzer.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-black.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-blue.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-brown.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-gray.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-green.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-orange.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-red.md	item	construction-unlabelled	
+entries/tech-misc/chipfinder-white.md	item	construction-unlabelled	
+entries/tech-misc/clonepod.md	item	construction-unlabelled	
+entries/tech-misc/commset.md	item	construction-unlabelled	
+entries/tech-misc/cortex-gun-mark-i.md	item	construction-unlabelled	
+entries/tech-misc/cortex-gun-mark-ii.md	item	construction-unlabelled	
+entries/tech-misc/cortex-gun-mark-iii.md	item	construction-unlabelled	
+entries/tech-misc/cortex-gun-mark-iv.md	item	construction-unlabelled	
+entries/tech-misc/cortex-gun-mark-v.md	item	construction-unlabelled	
+entries/tech-misc/cylex.md	item	construction-unlabelled	
+entries/tech-misc/detonator.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-black.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-blue.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-brown.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-gray.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-green.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-orange.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-red.md	item	construction-unlabelled	
+entries/tech-misc/e-pick-white.md	item	construction-unlabelled	
+entries/tech-misc/e-pick.md	item	construction-unlabelled	
+entries/tech-misc/emergency-beacon.md	item	construction-unlabelled	
+entries/tech-misc/emergency-raft.md	item	construction-unlabelled	
+entries/tech-misc/emergency-shelter.md	item	construction-unlabelled	
+entries/tech-misc/envoys-mouthpiece.md	item	construction-unlabelled	
+entries/tech-misc/filter-mask.md	item	construction-unlabelled	
+entries/tech-misc/fire-extinguisher.md	item	construction-unlabelled	
+entries/tech-misc/flashlight.md	item	construction-unlabelled	
+entries/tech-misc/force-field-black.md	item	construction-unlabelled	
+entries/tech-misc/force-field-blue.md	item	construction-unlabelled	
+entries/tech-misc/force-field-brown.md	item	construction-unlabelled	
+entries/tech-misc/force-field-gray.md	item	construction-unlabelled	
+entries/tech-misc/force-field-green.md	item	construction-unlabelled	
+entries/tech-misc/force-field-orange.md	item	construction-unlabelled	
+entries/tech-misc/force-field-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/force-field-red.md	item	construction-unlabelled	
+entries/tech-misc/force-field-white.md	item	construction-unlabelled	
+entries/tech-misc/force-field.md	item	construction-unlabelled	
+entries/tech-misc/goo-tube.md	item	construction-unlabelled	
+entries/tech-misc/gravity-clip.md	item	construction-unlabelled	
+entries/tech-misc/grip-of-death.md	item	construction-unlabelled	
+entries/tech-misc/grip-of-death.md	item	variant-paragraphs	Aura
+entries/tech-misc/grippers.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-black.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-blue.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-brown.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-gray.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-green.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-orange.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-red.md	item	construction-unlabelled	
+entries/tech-misc/hologram-generator-white.md	item	construction-unlabelled	
+entries/tech-misc/inertial-dampening-belt.md	item	construction-unlabelled	
+entries/tech-misc/ion-tape.md	item	construction-unlabelled	
+entries/tech-misc/jetpack.md	item	construction-unlabelled	
+entries/tech-misc/laser-sight.md	item	construction-unlabelled	
+entries/tech-misc/lighter.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-black.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-blue.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-brown.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-gray.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-green.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-orange.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-red.md	item	construction-unlabelled	
+entries/tech-misc/lock-coder-white.md	item	construction-unlabelled	
+entries/tech-misc/magboots.md	item	construction-unlabelled	
+entries/tech-misc/medlance.md	item	construction-unlabelled	
+entries/tech-misc/mindmelder.md	item	construction-unlabelled	
+entries/tech-misc/motion-tracker.md	item	construction-unlabelled	
+entries/tech-misc/nanite-canister.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-black.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-blue.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-brown.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-gray.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-green.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-orange.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-red.md	item	construction-unlabelled	
+entries/tech-misc/nanite-hypogun-white.md	item	construction-unlabelled	
+entries/tech-misc/neurocam.md	item	construction-unlabelled	
+entries/tech-misc/nutrient-training-node.md	item	construction-unlabelled	
+entries/tech-misc/power-cable.md	item	construction-unlabelled	
+entries/tech-misc/power-receiver.md	item	construction-unlabelled	
+entries/tech-misc/proximity-helmet.md	item	construction-unlabelled	
+entries/tech-misc/quantum-box.md	item	construction-unlabelled	
+entries/tech-misc/radiation-detector.md	item	construction-unlabelled	
+entries/tech-misc/robojack.md	item	construction-unlabelled	
+entries/tech-misc/signal-booster.md	item	construction-unlabelled	
+entries/tech-misc/signal-jammer.md	item	construction-unlabelled	
+entries/tech-misc/skillchip-mark-i.md	item	construction-unlabelled	
+entries/tech-misc/skillchip-mark-ii.md	item	construction-unlabelled	
+entries/tech-misc/skillchip-mark-iii.md	item	construction-unlabelled	
+entries/tech-misc/skillchip-mark-iv.md	item	construction-unlabelled	
+entries/tech-misc/skillchip-mark-v.md	item	construction-unlabelled	
+entries/tech-misc/tracker-chip.md	item	construction-unlabelled	
+entries/tech-misc/trauma-pack-plus.md	item	construction-unlabelled	
+entries/tech-misc/trauma-pack.md	item	construction-unlabelled	
+entries/tech-misc/veemod-black.md	item	construction-unlabelled	
+entries/tech-misc/veemod-blue.md	item	construction-unlabelled	
+entries/tech-misc/veemod-brown.md	item	construction-unlabelled	
+entries/tech-misc/veemod-goggles.md	item	construction-unlabelled	
+entries/tech-misc/veemod-gray.md	item	construction-unlabelled	
+entries/tech-misc/veemod-green.md	item	construction-unlabelled	
+entries/tech-misc/veemod-orange.md	item	construction-unlabelled	
+entries/tech-misc/veemod-prismatic.md	item	construction-unlabelled	
+entries/tech-misc/veemod-red.md	item	construction-unlabelled	
+entries/tech-misc/veemod-white.md	item	construction-unlabelled	
+entries/tech-misc/zipstick.md	item	construction-unlabelled	
+entries/tech-pharma/azonite-pellets.md	item	construction-unlabelled	
+entries/tech-pharma/baseline.md	item	construction-unlabelled	
+entries/tech-pharma/cardioamp.md	item	construction-unlabelled	
+entries/tech-pharma/cureall.md	item	construction-unlabelled	
+entries/tech-pharma/hemochem-grade-i.md	item	construction-unlabelled	
+entries/tech-pharma/hemochem-grade-ii.md	item	construction-unlabelled	
+entries/tech-pharma/hemochem-grade-iii.md	item	construction-unlabelled	
+entries/tech-pharma/hemochem-grade-iv.md	item	construction-unlabelled	
+entries/tech-pharma/hemochem-grave-v.md	item	construction-unlabelled	
+entries/tech-pharma/hype.md	item	construction-unlabelled	
+entries/tech-pharma/soothe.md	item	construction-unlabelled	
+entries/tech-pharma/torpinal.md	item	construction-unlabelled	
+entries/tech-pharma/universal-serum.md	item	construction-unlabelled	
+entries/tech-pharma/vitality-serum.md	item	construction-unlabelled	
+entries/tech-pharma/vive.md	item	construction-unlabelled	
+entries/tech-pharma/zortaphen.md	item	construction-unlabelled	
+entries/tech-weapon/arc-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/arc-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/arc-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/atom-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/atom-gun.md	item	construction-unlabelled	
+entries/tech-weapon/autograpnel.md	item	construction-unlabelled	
+entries/tech-weapon/bang-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/beam-cannon-emp-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/beam-cannon-laser-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/beam-cannon-sonic-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/beam-cannon-zero-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/beam-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/bio-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/chainsaw.md	item	construction-unlabelled	
+entries/tech-weapon/concussion-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/dart-gun.md	item	construction-unlabelled	
+entries/tech-weapon/death-ray.md	item	construction-unlabelled	
+entries/tech-weapon/emp-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/emp-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/emp-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/flare-gun.md	item	construction-unlabelled	
+entries/tech-weapon/flash-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/flechette-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/fleshnet-cannon.md	item	construction-unlabelled	
+entries/tech-weapon/fragmentation-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/gas-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/gravity-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/gravity-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/gravity-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/grenade-launcher.md	item	construction-unlabelled	
+entries/tech-weapon/grenade.md	item	construction-unlabelled	
+entries/tech-weapon/id-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/inferno-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/inferno-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/laser-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/laser-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/laser-torch.md	item	construction-unlabelled	
+entries/tech-weapon/mind-burner.md	item	construction-unlabelled	
+entries/tech-weapon/mindrender.md	item	construction-unlabelled	
+entries/tech-weapon/monowhip.md	item	construction-unlabelled	
+entries/tech-weapon/neural-inhibitor.md	item	construction-unlabelled	
+entries/tech-weapon/nuclear-resonator.md	item	construction-unlabelled	
+entries/tech-weapon/null-blade.md	item	construction-unlabelled	
+entries/tech-weapon/plasma-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/plasmathrower.md	item	construction-unlabelled	
+entries/tech-weapon/rail-gun.md	item	construction-unlabelled	
+entries/tech-weapon/rocket-launcher.md	item	construction-unlabelled	
+entries/tech-weapon/soft-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/sonic-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/sonic-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/sonic-rifle.md	item	construction-unlabelled	
+entries/tech-weapon/starfall-spade.md	item	construction-unlabelled	
+entries/tech-weapon/starfall-spade.md	item	variant-paragraphs	Aura
+entries/tech-weapon/stun-baton.md	item	construction-unlabelled	
+entries/tech-weapon/stun-gun.md	item	construction-unlabelled	
+entries/tech-weapon/vortex-gun.md	item	construction-unlabelled	
+entries/tech-weapon/x-laser.md	item	construction-unlabelled	
+entries/tech-weapon/zero-grenade.md	item	construction-unlabelled	
+entries/tech-weapon/zero-pistol.md	item	construction-unlabelled	
+entries/tech-weapon/zero-rifle.md	item	construction-unlabelled	
