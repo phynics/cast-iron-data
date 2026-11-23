@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Game Mastery Guide/Rules/Hazards/Sample Hazards/Poison Oak/Poison Oak", path = "game_mastery_guide/affliction/poison/poison_oak.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
 
 [fields]
 kind = "none"

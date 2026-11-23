@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "necrocraft|affliction:rotting-flesh", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "201"
 
 [fields]
 kind = "none"

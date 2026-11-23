@@ -7,6 +7,9 @@ source_ids = ["strange-aeons-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "true_devotion", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "strange-aeons-players-guide"
+page = "10"
 
 [fields]
 kind = "trait"

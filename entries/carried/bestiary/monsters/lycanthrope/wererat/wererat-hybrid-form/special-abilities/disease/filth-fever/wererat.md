@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Lycanthrope/Wererat/Wererat (Hybrid Form)/Special Abilities/Disease/Filth Fever/Wererat", path = "bestiary/affliction/disease/filth_fever_wererat.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

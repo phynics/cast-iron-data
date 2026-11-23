@@ -6,6 +6,9 @@ source_ids = ["ultimate-campaign"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "family_ties_drawback", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "65"
 
 [fields]
 kind = "trait"

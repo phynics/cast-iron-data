@@ -8,6 +8,11 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jinmenju|affliction:head-fruit-poison", path = "json/monsters34.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "161"
+[[sources]]
+publication = "pathfinder-54-the-empty-throne"
 
 [fields]
 kind = "none"

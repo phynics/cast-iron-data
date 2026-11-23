@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "monstrous|affliction:basic-disease", path = "json/rules_adv_gm03.json" },
 ]
+[[sources]]
+publication = "pathfinder-unchained"
 
 [fields]
 kind = "none"

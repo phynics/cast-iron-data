@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ammut|affliction:wasting-curse-su", path = "json/monsters26.json" },
 ]
+[[sources]]
+publication = "pathfinder-84-pyramid-of-the-sky-pharaoh"
 
 [fields]
 kind = "none"

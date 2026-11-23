@@ -7,6 +7,9 @@ source_ids = ["people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "divine_the_mystery", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "people-of-the-river"
+page = "18"
 
 [fields]
 kind = "trait"

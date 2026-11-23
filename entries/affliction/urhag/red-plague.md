@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "urhag|affliction:red-plague", path = "json/monsters24.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "269"
 
 [fields]
 kind = "none"

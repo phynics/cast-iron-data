@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Mummy/Special Abilities/Mummy Rot/Mummy Rot", path = "bestiary/affliction/disease/mummy_rot.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

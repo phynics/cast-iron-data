@@ -7,6 +7,12 @@ source_ids = ["varisia-birthplace-of-legends", "shattered-star-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "nontraditional_native", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "31"
+[[sources]]
+publication = "shattered-star-players-guide"
+page = "4"
 
 [fields]
 kind = "trait"

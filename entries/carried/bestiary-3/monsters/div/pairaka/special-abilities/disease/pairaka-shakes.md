@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Div/Pairaka/Special Abilities/Disease/Pairaka Shakes", path = "bestiary_3/affliction/disease/pairaka_shakes.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

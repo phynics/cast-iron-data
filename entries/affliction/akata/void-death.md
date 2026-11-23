@@ -8,6 +8,11 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "akata|affliction:void-death", path = "json/monsters01.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "23"
+[[sources]]
+publication = "pathfinder-14-children-of-the-void"
 
 [fields]
 kind = "none"

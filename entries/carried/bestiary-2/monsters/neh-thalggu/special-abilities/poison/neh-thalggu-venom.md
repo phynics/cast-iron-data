@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Neh-Thalggu/Special Abilities/Poison/Neh-thalggu Venom", path = "bestiary_2/affliction/poison/neh-thalggu_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

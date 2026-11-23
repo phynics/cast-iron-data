@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disease|affliction:disease-name-ex-or-su", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
 
 [fields]
 kind = "none"

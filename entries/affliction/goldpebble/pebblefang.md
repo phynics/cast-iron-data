@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "goldpebble|affliction:pebblefang", path = "json/monsters12.json" },
 ]
+[[sources]]
+publication = "pathfinder-128-songbird-scion-saboteur"
 
 [fields]
 kind = "none"

@@ -7,6 +7,9 @@ source_ids = ["varisia-birthplace-of-legends", "second-darkness-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fixer_of_odds", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "29"
 
 [fields]
 kind = "trait"

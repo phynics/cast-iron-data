@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton_termagant|affliction:flux-infusion", path = "json/monsters15.json" },
 ]
+[[sources]]
+publication = "inner-sea-bestiary"
 
 [fields]
 kind = "none"

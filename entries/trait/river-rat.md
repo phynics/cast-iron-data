@@ -7,6 +7,15 @@ source_ids = ["ultimate-campaign", "advanced-players-guide", "taldor-echoes-of-g
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "river_rat", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "63"
+[[sources]]
+publication = "advanced-players-guide"
+page = "332"
+[[sources]]
+publication = "taldor-echoes-of-glory"
+page = "13"
 
 [fields]
 kind = "trait"

@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "basidirond|affliction:basidirond-spores", path = "json/monsters03.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "28"
 
 [fields]
 kind = "none"

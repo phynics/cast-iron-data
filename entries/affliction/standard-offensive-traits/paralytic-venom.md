@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "standard_offensive_traits|affliction:paralytic-venom", path = "json/rules_gm07.json" },
 ]
+[[sources]]
+publication = "advanced-race-guide"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "polevik|affliction:pulsing-puffs", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "pathfinder-63-the-asylum-stone"
 
 [fields]
 kind = "none"

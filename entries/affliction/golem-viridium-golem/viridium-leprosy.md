@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "golem_viridium_golem|affliction:viridium-leprosy", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "143"
 
 [fields]
 kind = "none"

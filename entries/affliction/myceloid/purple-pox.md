@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "myceloid|affliction:purple-pox", path = "json/monsters17.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "196"
 
 [fields]
 kind = "none"

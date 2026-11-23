@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary/Monsters/Naga/Guardian/Special Abilities/Poison/Guardian Naga Venom", path = "bestiary/affliction/poison/guardian_naga_venom.json" },
 ]
+[[sources]]
+publication = "bestiary"
 
 [fields]
 kind = "none"

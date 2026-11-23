@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Medium Spider Venom", path = "core_rulebook/affliction/poison/medium_spider_venom.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
 
 [fields]
 kind = "none"

@@ -7,6 +7,9 @@ source_ids = ["inner-sea-races"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "azlanti_engineering", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "inner-sea-races"
+page = "195"
 
 [fields]
 kind = "trait"

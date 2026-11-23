@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "fafnheir|affliction:curse-of-fafnheir", path = "json/monsters_unique4.json" },
 ]
+[[sources]]
+publication = "lands-of-the-linnorm-kings"
+page = "56"
 
 [fields]
 kind = "none"

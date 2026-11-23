@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "iku_turso|affliction:tursas", path = "json/monsters14.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
+page = "153"
 
 [fields]
 kind = "none"

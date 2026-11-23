@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "cassomir_stray|affliction:cassomir-stray-poison", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "taldor-the-first-empire"
+page = "57"
 
 [fields]
 kind = "none"

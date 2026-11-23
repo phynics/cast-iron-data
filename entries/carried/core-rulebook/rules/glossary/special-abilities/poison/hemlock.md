@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Hemlock", path = "core_rulebook/affliction/poison/hemlock.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "559"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["infestation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merlucent|affliction:vitrify", path = "json/monsters35.json" },
 ]
+[[sources]]
+publication = "pathfinder-104-wrath-of-thrune"
 
 [fields]
 kind = "none"

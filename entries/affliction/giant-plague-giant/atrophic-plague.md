@@ -8,6 +8,9 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_plague_giant|affliction:atrophic-plague", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "bestiary-6"
+page = "134"
 
 [fields]
 kind = "none"

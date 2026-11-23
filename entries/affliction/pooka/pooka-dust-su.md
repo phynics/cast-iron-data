@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "pooka|affliction:pooka-dust-su", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
+page = "216"
 
 [fields]
 kind = "none"

@@ -7,6 +7,12 @@ source_ids = ["ultimate-campaign", "advanced-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "ear_for_music", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "ultimate-campaign"
+page = "64"
+[[sources]]
+publication = "advanced-players-guide"
+page = "333"
 
 [fields]
 kind = "trait"

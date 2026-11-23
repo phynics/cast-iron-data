@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "howler|affliction:howler-howl", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "159"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Bee/Giant Queen/Giant Queen Bee/Special Abilities/Poison/Giant Queen Bee Venom", path = "bestiary_2/affliction/poison/giant_queen_bee_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

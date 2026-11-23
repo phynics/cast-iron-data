@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Terinav Root", path = "core_rulebook/affliction/poison/terinav_root.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
 
 [fields]
 kind = "none"

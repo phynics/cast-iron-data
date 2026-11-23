@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 2/Monsters/Daemon/Cacodaemon/Special Abilities/Disease/Cacodaemonia", path = "bestiary_2/affliction/disease/cacodaemonia.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
 
 [fields]
 kind = "none"

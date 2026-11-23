@@ -7,6 +7,9 @@ source_ids = ["legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "freed_slave_katapesh", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "7"
 
 [fields]
 kind = "trait"

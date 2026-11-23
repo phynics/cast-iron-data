@@ -7,6 +7,9 @@ source_ids = ["people-of-the-stars"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sun_blessed", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "people-of-the-stars"
+page = "5"
 
 [fields]
 kind = "trait"

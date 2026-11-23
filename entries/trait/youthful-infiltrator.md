@@ -7,6 +7,9 @@ source_ids = ["spymasters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "youthful_infiltrator", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "spymasters-handbook"
+page = "6"
 
 [fields]
 kind = "trait"

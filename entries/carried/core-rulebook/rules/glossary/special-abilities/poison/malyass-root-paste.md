@@ -8,6 +8,9 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Core Rulebook/Rules/Glossary/Special Abilities/Poison/Malyass Root Paste", path = "core_rulebook/affliction/poison/malyass_root_paste.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
+page = "560"
 
 [fields]
 kind = "none"

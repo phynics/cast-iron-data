@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "tetrolimulus|affliction:trtodotoxin", path = "json/monsters23.json" },
 ]
+[[sources]]
+publication = "pathfinder-58-island-of-empty-eyes"
 
 [fields]
 kind = "none"

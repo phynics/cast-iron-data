@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "curse|affliction:curse-name-su", path = "json/umr.json" },
 ]
+[[sources]]
+publication = "bestiary-5"
+page = "291"
 
 [fields]
 kind = "none"

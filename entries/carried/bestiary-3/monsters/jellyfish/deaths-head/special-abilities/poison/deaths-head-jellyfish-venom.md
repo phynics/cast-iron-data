@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Jellyfish/Deaths Head/Special Abilities/Poison/Deaths Head Jellyfish Venom", path = "bestiary_3/affliction/poison/deaths_head_jellyfish_venom.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

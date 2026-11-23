@@ -8,6 +8,8 @@ tags = ["infestation"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Bestiary 3/Monsters/Wolf-in-Sheeps-Clothing/Special Abilities/Implant/Wold-in-Sheeps-Clothing Egg", path = "bestiary_3/affliction/infestation/wold-in-sheeps-clothing_egg.json" },
 ]
+[[sources]]
+publication = "bestiary-3"
 
 [fields]
 kind = "none"

@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drakainia|affliction:poison-glands-poison", path = "json/monsters_mythic.json" },
 ]
+[[sources]]
+publication = "bestiary-4"
 
 [fields]
 kind = "none"

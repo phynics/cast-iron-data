@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "scythe_glass_swarm|affliction:poison-su", path = "json/monsters21.json" },
 ]
+[[sources]]
+publication = "pathfinder-101-the-kintargo-contract"
 
 [fields]
 kind = "none"

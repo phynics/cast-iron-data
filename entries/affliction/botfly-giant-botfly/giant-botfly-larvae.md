@@ -8,6 +8,9 @@ tags = ["infestation"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "botfly_giant_botfly|affliction:giant-botfly-larvae", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "heart-of-the-jungle"
+page = "59"
 
 [fields]
 kind = "none"

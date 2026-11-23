@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "psrd-data", record = "pfsrd://Game Mastery Guide/Rules/Drugs and Addiction/Addiction/Severe Addiction", path = "game_mastery_guide/affliction/disease/severe_addiction.json" },
 ]
+[[sources]]
+publication = "game-mastery-guide"
 
 [fields]
 kind = "none"

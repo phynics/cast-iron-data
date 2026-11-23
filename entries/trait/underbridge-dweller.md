@@ -7,6 +7,9 @@ source_ids = ["varisia-birthplace-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "underbridge_dweller", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "varisia-birthplace-of-legends"
+page = "21"
 
 [fields]
 kind = "trait"

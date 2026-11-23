@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wamp|affliction:zombie-rot", path = "json/monsters32.json" },
 ]
+[[sources]]
+publication = "pathfinder-111-dreams-of-the-yellow-king"
 
 [fields]
 kind = "none"

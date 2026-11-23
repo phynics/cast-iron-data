@@ -7,6 +7,9 @@ source_ids = ["knights-of-the-inner-sea"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "searing_beacon", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "knights-of-the-inner-sea"
+page = "10"
 
 [fields]
 kind = "trait"

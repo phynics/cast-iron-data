@@ -8,6 +8,11 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wendigo|affliction:wendigo-psychosis-su", path = "json/monsters25.json" },
 ]
+[[sources]]
+publication = "bestiary-2"
+page = "281"
+[[sources]]
+publication = "pathfinder-6-spires-of-xin-shalast"
 
 [fields]
 kind = "none"

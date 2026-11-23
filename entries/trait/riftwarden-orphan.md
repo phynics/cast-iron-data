@@ -7,6 +7,12 @@ source_ids = ["wrath-of-the-righteous-players-guide", "demon-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "riftwarden_orphan", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "wrath-of-the-righteous-players-guide"
+page = "6"
+[[sources]]
+publication = "demon-hunters-handbook"
+page = "31"
 
 [fields]
 kind = "trait"

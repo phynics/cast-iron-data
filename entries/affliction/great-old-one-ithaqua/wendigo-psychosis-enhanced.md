@@ -8,6 +8,8 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "great_old_one_ithaqua|affliction:wendigo-psychosis-enhanced", path = "json/monsters_unique2.json" },
 ]
+[[sources]]
+publication = "pathfinder-109-in-search-of-sanity"
 
 [fields]
 kind = "none"

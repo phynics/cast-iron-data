@@ -8,6 +8,9 @@ tags = ["curse"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hag_sea_hag|affliction:evil-eye-curse", path = "json/monsters33.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "243"
 
 [fields]
 kind = "none"

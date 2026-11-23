@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bramblelash|affliction:tropical-bramblelash-poison", path = "json/monsters04.json" },
 ]
+[[sources]]
+publication = "pathfinder-115-trail-of-the-hunted"
 
 [fields]
 kind = "none"

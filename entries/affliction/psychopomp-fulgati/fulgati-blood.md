@@ -8,6 +8,8 @@ tags = ["poison"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_fulgati|affliction:fulgati-blood", path = "json/monsters19.json" },
 ]
+[[sources]]
+publication = "concordance-of-rivals"
 
 [fields]
 kind = "none"

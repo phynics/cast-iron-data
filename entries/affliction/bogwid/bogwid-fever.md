@@ -8,6 +8,8 @@ tags = ["disease"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bogwid|affliction:bogwid-fever", path = "json/monsters27.json" },
 ]
+[[sources]]
+publication = "pathfinder-62-curse-of-the-ladys-light"
 
 [fields]
 kind = "none"
