@@ -402,6 +402,16 @@ name of the variant, so no title is added (a `title` would repeat the heading). 
 `Price` and `Weight`, so the entry's own block comes first (`no-lead-row`); a `Price` or `Slot`
 equal to the entry's own leaves the paragraph prose.
 
+`singles` (two entries, by hand): the paragraphs the other kinds do not reach. `spherical-boat-of-zutha`
+prints its vehicle statistics under `#### Defense`, `#### Offense` and `#### Description`: each of the
+three paragraphs (`AC`, `Hardness`, `hp`, `Base Save`; `Maximum Speed` to `Ramming Damage`;
+`Propulsion` to `Weapons`) is an untitled block under its heading; the linked `Hardness` label is
+plain and its link moves onto the value; the `Weapons` value is prose, as printed. The two lines
+under `### Spherical Boat of Zutha` (`Colossal water vehicle`, then `Squares`) stay prose, because
+the first has no label. `runeforged` prints `**Requirements** see above; **Price** -` at the end of
+its Construction, after a list: one untitled block where the line stands, after the entry's own
+block (`Price: +2 bonus`), which the drift check reads first.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -2247,8 +2257,34 @@ def plan_pricevar(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+SINGLE_PARAGRAPHS = (
+    "**Requirements** see above; **Price** -",  # runeforged: its Construction line, after a list
+)
+
+
+def plan_singles(cs: list[list[str]]) -> dict[int, dict]:
+    """K-singles (hand blocks, two entries). `spherical-boat-of-zutha`: the statistics paragraphs
+    directly under `#### Defense` and `#### Offense` and the `**Propulsion**` paragraph of
+    `#### Description`, each an untitled block under its heading; the linked `Hardness` label is
+    plain and its link moves onto the value, and the `Weapons` value is prose, which is expected
+    there. `runeforged`: the one line `**Requirements** see above; **Price** -` at the end of its
+    Construction. The line `Colossal water vehicle` and `Squares` of the boat stay prose (the first
+    line has no label)."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        under = cs[index - 1] if index else None
+        if under in (["#### Defense"], ["#### Offense"]) and chunk[0].startswith(("**AC** ", "**Maximum Speed** ")):
+            chosen[index] = {"link_labels": True}
+        elif chunk[0].startswith("**Propulsion** ") and any(c == ["#### Description"] for c in cs[:index]):
+            chosen[index] = {"link_labels": True, "sentences": True}
+        elif chunk == [SINGLE_PARAGRAPHS[0]]:
+            chosen[index] = {}
+    return chosen
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "singles": (("magic-artifact", "magic-enh"), plan_singles, ()),
     "pricevar": (("eq-misc",), plan_pricevar, ()),
     "techcons": (("tech-armor", "tech-artifact", "tech-cyber", "tech-misc", "tech-pharma", "tech-weapon"), plan_techcons, ()),
     "trap": (("eq-misc",), plan_trap, ()),
@@ -2916,7 +2952,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, PricevarSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, PricevarSelfTest, SinglesSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -4205,6 +4241,30 @@ class PricevarSelfTest(unittest.TestCase):
         self.assertEqual(convert_variants(same, plan_pricevar), same)
         with self.assertRaises(Queue) as caught:
             convert_variants("\n## Gas mask\n\nA mask.\n\n" + self.BODY.split("### Gas mask cannister")[0].split("A mask.\n\n")[1] + "### Gas mask cannister\n\n**Price** 5 gp\n", plan_pricevar)
+        self.assertEqual(caught.exception.reason, "no-lead-row")
+
+
+class SinglesSelfTest(unittest.TestCase):
+    BOAT = (
+        "\n::: statblock\nPrice: -\n:::\n\n### Ship\n\nColossal water vehicle\\\n**Squares** 80\n\n#### Defense\n\n"
+        "**AC** 2; **[Hardness](ref/umr/hardness)** 20\\\n**hp** 1,200 (599)\\\n**Base Save** +0\n\n#### Offense\n\n"
+        "**Maximum Speed** 500 ft.; **Acceleration** 100 ft.\\\n**Ramming Damage** 8d8\n\n#### Description\n\nIt carries 50 tons.\n\n"
+        "**Propulsion** magic\\\n**Weapons** It has none. It can carry siege engines.\n"
+    )
+
+    def test_the_boat_gets_a_block_under_each_heading_and_the_hardness_link_moves(self):
+        new = convert_variants(self.BOAT, plan_singles)
+        self.assertIn("#### Defense\n\n::: statblock\nAC: 2\nHardness: [20](ref/umr/hardness)\nhp: 1,200 (599)\nBase Save: +0\n:::\n", new)
+        self.assertIn("#### Offense\n\n::: statblock\nMaximum Speed: 500 ft.\nAcceleration: 100 ft.\nRamming Damage: 8d8\n:::\n", new)
+        self.assertTrue(new.endswith("It carries 50 tons.\n\n::: statblock\nPropulsion: magic\nWeapons: It has none. It can carry siege engines.\n:::\n"), new)
+        self.assertIn("Colossal water vehicle\\\n**Squares** 80\n", new)  # stays prose
+        self.assertEqual(classify_variant(plan_singles, new), "already")
+
+    def test_runeforged_construction_line_needs_its_own_block_first(self):
+        body = "\n::: statblock\nPrice: +2 bonus\n:::\n\n### Construction\n\n- **Sloth:** Mixed humors\n\n**Requirements** see above; **Price** -\n"
+        self.assertTrue(convert_variants(body, plan_singles).endswith("::: statblock\nRequirements: see above\nPrice: -\n:::\n"))
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n### Construction\n\n- **Sloth:** Mixed humors\n\n**Requirements** see above; **Price** -\n", plan_singles)
         self.assertEqual(caught.exception.reason, "no-lead-row")
 
 

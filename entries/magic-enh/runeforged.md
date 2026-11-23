@@ -130,4 +130,7 @@ The runeforge components found in Runeforge are as follows:
 - **Wrath:** Ashes from wrathful fires (area K6)
 - **Gluttony:** Inib wine (area F3)
 
-**Requirements** see above; **Price** -
+::: statblock
+Requirements: see above
+Price: -
+:::
