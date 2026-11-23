@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -46,13 +52,11 @@ Cost: 5,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 3,000 gp\
 This stone grants proficiency with the keyed weapon and gives the wearer a -2 penalty to Dexterity.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 1,500 gp\
 The stone grants the wearer weapon familiarity with the keyed weapon (it is treated as a martial
 weapon for him).

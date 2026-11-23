@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -45,12 +51,10 @@ Cost: 3,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 5,000 gp\
 This stone grants a +5 competence bonus to Ride checks.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 200 gp\
 This stone grants a +1 competence bonus on Ride checks.

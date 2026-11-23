@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -55,12 +61,10 @@ Cost: 10,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 18,000 gp\
 As the normal stone, but the user regenerates 4 points of damage per hour.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 3,400 gp\
 As the normal stone, but the user regenerates 1 point of damage per hour.

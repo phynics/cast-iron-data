@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -57,13 +63,11 @@ Cost: 18,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 36,000 gp\
 This stone stores three levels of spells, as a _ring of spell storing (minor),_ except casting
 spells out of the stone requires at least a full-round action.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 2,000 gp\
 This stone stores one spell level, as a _ring of spell storing (minor)._

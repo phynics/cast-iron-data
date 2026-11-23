@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -45,14 +51,12 @@ Cost: 12,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 16,000 gp\
 This stone grants a +2 enhancement bonus to Constitution per stone, stacking up to +4 total. These
 stones do not stack with non-flawed onyx rhomboid ioun stones.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 12,000 gp\
 Individually has no effect; when used in pairs, each pair grants a +2 enhancement bonus to
 Constitution. The bonuses from multiple stones (cracked or otherwise) stack, up to a maximum of a +6

@@ -680,6 +680,88 @@ def piercing_fixes() -> tuple:
 PRINT_FIXES = PRINT_FIXES + piercing_fixes()
 
 
+# Ioun stones of Seekers of Secrets (print check, 2026-11-23). The printed pages are the PDF page minus
+# 2. The stone's own text prints on p. 44 or 45 (an entry of its own) or in the table of p. 48 or 49;
+# the cracked and flawed variants print in two lists. The body lines `Seekers of Secrets pg N` cite
+# the pages of the two lists; the import was right about the first group, and wrong about the flawed
+# list of the second group (it cites 48; the list is on p. 50).
+# (slug, row now, own page, cracked page, flawed page, the page the Flawed line cites now or None).
+IOUN_SEEKERS = (
+    ("amber-spindle", "44", "44", "46", "47", None),
+    ("crimson-sphere", "44", "44", "46", "47", None),
+    ("dull-gray-stone", "44", "44", "46", "47", None),
+    ("clear-spindle", "47", "48", "46", "47", None),
+    ("dark-blue-rhomboid", "46", "48", "46", "47", None),
+    ("deep-red-sphere", "47", "48", "46", "47", None),
+    ("dusty-rose-prism", "47", "48", "46", "47", None),
+    ("mulberry-pentacle", "45", "45", "47", "50", "48"),
+    ("nacreous-gray-sphere", "45", "45", "47", "50", "48"),
+    ("onyx-rhomboid", "45", "45", "47", "50", "48"),
+    ("opalescent-white-pyramid", "45", "45", "47", "50", "48"),
+    ("pale-ruby-trillian", "45", "45", "47", "50", "48"),
+    ("scarlet-and-green-cabochon", "45", "45", "47", "50", "48"),
+    ("turquoise-sphere", "45", "45", "47", "50", "48"),
+    ("vermilion-rhomboid", "45", "45", "47", "50", "48"),
+    ("orange-prism", "47", "49", "47", "50", None),
+    ("pale-blue-rhomboid", "47", "49", "47", "50", None),
+    ("pale-green-prism", "47", "49", "47", "50", None),
+    ("pearly-white-spindle", "47", "49", "47", "50", None),
+    ("pink-and-green-sphere", "47", "49", "47", "50", None),
+    ("pink-rhomboid", "47", "49", "47", "50", None),
+    ("scarlet-and-blue-sphere", "47", "49", "47", "50", None),
+    ("vibrant-purple-prism", "47", "49", "47", "50", None),
+)
+
+
+def ioun_seekers_fixes() -> tuple:
+    fixes = []
+    for slug, row, own, cracked, flawed, flawed_line in IOUN_SEEKERS:
+        pages = [own] + [page for page in (cracked, flawed) if page != own]
+        if len(pages) > 1 and pages[-1] == row:
+            pages[1:] = pages[:0:-1]  # the fix must not end in the text it replaces: the last row is not the old page
+        head = 'publication = "seekers-of-secrets"\n'
+        new_rows = head + "".join(f'page = "{page}"\n' if i == 0 else f'[[sources]]\n{head}page = "{page}"\n' for i, page in enumerate(pages))
+        pairs = [(head + f'page = "{row}"\n\n[fields]', new_rows + "\n[fields]")]
+        note = f"rows: the stone prints on p. {own}, its cracked variant on p. {cracked} and its flawed variant on p. {flawed} (the row said {row})"
+        if flawed_line is not None:
+            pairs.append(
+                (
+                    f"### Flawed Ioun Stone\n\n**Sources:** Seekers of Secrets pg {flawed_line}\\\n",
+                    f"### Flawed Ioun Stone\n\n**Sources:** Seekers of Secrets pg {flawed}\\\n",
+                    # The same paragraph once rule S has moved the line into a row.
+                    "### Flawed Ioun Stone\n\n**Price**",
+                )
+            )
+            note += f"; the Flawed line cited p. {flawed_line}, the list is on p. {flawed}"
+        fixes.append((f"entries/magic-ioun/{slug}.md", f"Seekers of Secrets pp. {own}, {cracked}, {flawed}", note, tuple(pairs)))
+    return tuple(fixes)
+
+
+PRINT_FIXES = PRINT_FIXES + ioun_seekers_fixes()
+
+
+# Monsters whose body prints a section of the creature on another page than its stat block (print
+# check, 2026-11-23): the row of the stat block stays first, and a row is added for each page the
+# body cites. (path, publication, the row now, the rows after the change, what the pages print).
+EXTRA_PAGE_ROWS = (
+    ("entries/monster/ghul.md", "dark-markets-a-guide-to-katapesh", "62", ("62", "63"), "the Ghul on p. 62 and the Great Ghuls on p. 63", "Dark Markets, a Guide to Katapesh pp. 62-63"),
+    ("entries/monster/shadow.md", "undead-revisited", "46", ("46", "49"), "the Shadow on p. 46 (the contents page) and its Variants on p. 49", "Undead Revisited pp. 46, 49"),
+    ("entries/monster/wight.md", "undead-revisited", "58", ("58", "61", "62"), "the Wight on p. 58, Accursed Treasure on p. 61 and its Variants on p. 62", "Undead Revisited pp. 58, 61-62"),
+)
+
+
+def extra_page_row_fixes() -> tuple:
+    fixes = []
+    for rel, publication, row, pages, note, citation in EXTRA_PAGE_ROWS:
+        head = f'publication = "{publication}"\n'
+        new = head + "".join(f'page = "{page}"\n' if i == 0 else f'[[sources]]\n{head}page = "{page}"\n' for i, page in enumerate(pages))
+        fixes.append((rel, citation, f"rows: {note}", ((head + f'page = "{row}"\n\n[fields]', new + "\n[fields]"),)))
+    return tuple(fixes)
+
+
+PRINT_FIXES = PRINT_FIXES + extra_page_row_fixes()
+
+
 class Queue(Exception):
     """The file stays unchanged; `reason` goes to the review TSV."""
 

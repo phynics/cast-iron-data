@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "49"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -54,14 +60,12 @@ Cost: 15,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 50\
 **Price** 25,000 gp\
 This stone grants a +1 caster level and a -2 penalty to the wearer's primary casting ability score
 (Wisdom for clerics, Intelligence for wizards, and so on).
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 1,000 gp\
 Wearer adds one cantrip or orison (determined when the stone is created) to his list of spells known
 or spells prepared.

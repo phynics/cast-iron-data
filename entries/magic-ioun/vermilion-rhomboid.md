@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -45,13 +51,11 @@ Cost: 5,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 8,000 gp\
 This stone grants a +5 competence bonus on Acrobatics and Swim checks and a -2 penalty to
 Constitution.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 400 gp\
 This stone grants a +1 competence bonus on Acrobatics and Swim checks.

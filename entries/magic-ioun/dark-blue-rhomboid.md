@@ -17,7 +17,13 @@ publication = "ultimate-equipment"
 page = "305"
 [[sources]]
 publication = "seekers-of-secrets"
+page = "48"
+[[sources]]
+publication = "seekers-of-secrets"
 page = "46"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
 
 [fields]
 kind = "item"
@@ -55,13 +61,11 @@ Cost: 5,000 gp
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 400 gp\
 This stone grants a +1 competence bonus on Perception and [Sense Motive](ref/skill/sense-motive)
 checks.
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 300 gp\
 This stone grants a +2 competence bonus on Perception checks and a -1 penalty to initiative checks.

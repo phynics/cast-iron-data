@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "44"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "46"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
 
 [fields]
 kind = "item"
@@ -46,14 +52,12 @@ Cost: 12,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 16,000 gp\
 This stone grants a +2 enhancement bonus to Intelligence per stone, stacking up to +4 total. These
 stones do not stack with non-flawed crimson sphere ioun stones.
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 46\
 **Price** 12,000 gp\
 Individually these have no effect; when used in pairs, each pair grants a +2 enhancement bonus to
 Intelligence. The bonuses from multiple crimson spheres (cracked or otherwise) stack, up to a

@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -47,7 +53,6 @@ Cost: 5,000 gp
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 3,400 gp\
 This stone protects the wearer from one type of ability damage (such as Strength or Constitution)
 caused by natural or magical aging. It otherwise functions as a normal nacreous gray sphere ioun
@@ -55,7 +60,6 @@ stone.
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 1,000 gp\
 Protects wearer from appearing older but does not protect against ability damage from aging. The
 stone remembers the wearer's age at the time he first wore it and always restores his appearance to

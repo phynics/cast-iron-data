@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "seekers-of-secrets"
 page = "45"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "47"
+[[sources]]
+publication = "seekers-of-secrets"
+page = "50"
 
 [fields]
 kind = "item"
@@ -44,7 +50,6 @@ Cost: 5,000 gp
 
 ### Flawed Ioun Stone
 
-**Sources:** Seekers of Secrets pg 48\
 **Price** 8,000 gp\
 This stone grants the wearer the [Endurance](ref/feat/endurance) feat. Anything that would make the
 wearer [fatigued](ref/misc/fatigued) instead makes him [sickened](ref/misc/sickened). Anything that
@@ -53,6 +58,5 @@ would make the wearer [exhausted](ref/misc/exhausted) instead makes him
 
 ### Cracked Ioun Stone
 
-**Sources:** Seekers of Secrets pg 47\
 **Price** 1,400 gp\
 This stone grants a +4 bonus on one type of check affected by the Endurance feat.
