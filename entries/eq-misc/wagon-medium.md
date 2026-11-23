@@ -9,6 +9,12 @@ provenance = [
 [[sources]]
 publication = "ultimate-equipment"
 page = "87"
+[[sources]]
+publication = "core-rulebook"
+page = "159"
+[[sources]]
+publication = "core-rulebook"
+page = "163"
 
 [fields]
 kind = "item"
@@ -40,7 +46,6 @@ and requires four Medium or two Large creatures to pull it.
 transport goods over long stretches of territory. A heavy wagon carries up to 4,000 pounds of cargo,
 and is pulled by either eight Medium creatures or four Large creatures.
 
-**Sources:** PRPG Core Rulebook pg. 159, 163\
 **Wagon:** A four-wheeled, open vehicle for transporting heavy loads. Two horses (or other beasts of
 burden) must draw it. A wagon comes with the harness needed to pull it. **Price** 35 gp; **Weight**
 400 lbs.
