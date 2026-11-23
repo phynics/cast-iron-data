@@ -14,8 +14,6 @@ page = "160"
 kind = "none"
 +++
 
-**Nirvana**
-
 **Cat:** Outer Plane (neutral good)
 
 **Desc:** Nirvana is a realm of pure good - an idyllic wilderness of enlightenment and redemption.

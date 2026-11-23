@@ -15,7 +15,7 @@ kind = "item"
 category = "Rods"
 price = "20,000 gp"
 weight = "10 lbs."
-slot = "rod"
+slot = "none"
 aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
@@ -23,7 +23,7 @@ caster_level = "10th"
 ::: statblock
 Aura: moderate illusion and transmutation
 CL: 10th
-Slot: rod
+Slot: none
 Price: 20,000 gp
 Weight: 10 lbs.
 :::
