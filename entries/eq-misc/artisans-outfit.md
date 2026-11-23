@@ -35,7 +35,6 @@ professions. This outfit includes a shirt with buttons, a skirt or pants with a 
 and perhaps a cap or hat. It may also include a belt or a leather or cloth apron for carrying tools.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

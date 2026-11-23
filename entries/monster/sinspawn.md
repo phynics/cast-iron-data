@@ -137,7 +137,6 @@ often become clerics.
 
 ### Advancements and Variants
 
-**Sources:** Pathfinder \#134: It Came from Hollow Mountain pg 246\
 Each runelord experimented with sinspawn, imbuing the sinspawn with the runelord's signature sin and
 developing other variants. Particularly cunning sinspawn often practice martial talents, advancing
 as [barbarians](ref/class/barbarian), [fighters](ref/class/fighter), or [rogues](ref/class/rogue).

@@ -132,7 +132,6 @@ cast while the spellcaster is located on one of the evil outer planes (tradition
 
 ### Variants
 
-**Sources:** Undead Revisited pg 7\
 Most bodaks begin as normal humanoids that fall prey to another bodak's gaze or a scene of
 mind-bending, incomprehensible planar evil, yet on extremely rare occasions, other creatures may
 fall prey to these effects as well. The unique natures of these transformations create bodaks with

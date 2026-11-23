@@ -34,8 +34,7 @@ and a -4 penalty to Dexterity and Wisdom for 1 day. [Pesh](ref/drug/pesh) is add
 10 to resist), and long-term users suffer
 [Dexterity and Wisdom damage](ref/rule/ability-damage-drain).
 
-**False Pesh**\
-**Sources:** Dark Markets - A Guide to Katapesh pg 14
+**False Pesh**
 
 False pesh looks much the same as real pesh, but the genuine plant is a spined cactus that grows in
 desert areas, while the imposter is a sticky, more bulbous plant that requires extra moisture to

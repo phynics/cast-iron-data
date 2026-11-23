@@ -35,7 +35,6 @@ whimsical, its practical design does nothing to inhibit your ability to tumble, 
 tightrope, or run (if the audience turns ugly).
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

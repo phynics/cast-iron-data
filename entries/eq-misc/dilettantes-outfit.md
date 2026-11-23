@@ -12,6 +12,9 @@ page = "36"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
 
 [fields]
 kind = "item"
@@ -34,7 +37,6 @@ clothing, and are rife with pockets and small hidey-holes. It the wearer a +2 ci
 Sleight of Hand checks made to conceal a small object on her body.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

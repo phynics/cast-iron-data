@@ -12,6 +12,9 @@ page = "19"
 [[sources]]
 publication = "pathfinder-8-seven-days-to-the-grave"
 page = "61"
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
 
 [fields]
 kind = "item"
@@ -32,7 +35,6 @@ Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude save
 contact diseases.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

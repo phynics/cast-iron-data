@@ -130,7 +130,6 @@ finishing the slaughter.
 
 ### Variants
 
-**Sources:** Undead Revisited pg 31\
 A mohrg is as much a product of the method of its execution as it is an undead manifestation of one
 who, in life, was a murderous criminal or warmonger. At times, unusual methods of execution can
 trigger equally unusual mohrgs. The extreme nature of these executions are such that these variant

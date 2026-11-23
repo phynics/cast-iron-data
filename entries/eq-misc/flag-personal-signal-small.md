@@ -34,7 +34,6 @@ combat bonuses to nearby allies. Carrying a flag in combat requires a free hand.
 
 ## Flag
 
-**Sources:** Pirates of the Inner Sea pg 21\
 **Price** 5 gp (ensign or courtesy, large), 2 gp (ensign or courtesy, small), 10 gp (personal
 signal, large), 4 gp (personal signal, small); **Weight** 1 lb. (ensign or courtesy, large), -
 (ensign or courtesy, small), 1 lb. (personal signal, large), - (personal signal, small)

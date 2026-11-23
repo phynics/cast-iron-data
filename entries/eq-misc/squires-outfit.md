@@ -12,6 +12,9 @@ page = "20"
 [[sources]]
 publication = "adventurers-armory"
 page = "19"
+[[sources]]
+publication = "ultimate-equipment"
+page = "89"
 
 [fields]
 kind = "item"
@@ -31,7 +34,6 @@ heavy tabard bearing the colors or sigil of a noble house or organization. Many 
 provide new squires this outfit for free, with the expectation they wear it during their duties.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

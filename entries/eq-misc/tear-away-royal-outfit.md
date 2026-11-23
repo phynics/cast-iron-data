@@ -38,7 +38,6 @@ need. This outfit includes only the clothing, not a royal scepter, crown, ring, 
 accoutrements.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

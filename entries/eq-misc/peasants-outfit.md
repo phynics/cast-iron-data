@@ -35,7 +35,6 @@ and skirt or overdress. Cloth wrappings are used for shoes, causing significantl
 feet.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 

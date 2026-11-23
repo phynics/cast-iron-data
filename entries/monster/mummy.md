@@ -134,8 +134,6 @@ afterlife.
 
 ### Variant Mummies
 
-**Sources:** Pathfinder \#81: Shifting Sands pg 71
-
 Not every preserved and animated corpse is a linen-wrapped tomb guardian. Some cultures preserve
 their dead in different ways, and the following suggestions can help GMs represent these variant
 mummies.
@@ -151,8 +149,6 @@ wrappings variant mummy special abilities (see below).
 mummy rot abilities, and instead has the infested variant mummy special ability (see below).
 
 ### Variant Mummy Special Abilities
-
-**Sources:** Pathfinder \#81: Shifting Sands pg 71
 
 The abilities of a mummy reflect the circumstances of its creation. Mummies that arise from
 traditionally embalmed corpses usually exhibit standard abilities; those arising from natural

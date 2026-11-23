@@ -34,7 +34,6 @@ among the most versatile and common farm animals.
 
 ### Specific Mounts
 
-**Sources:** Wilderness Origins pg 23\
 Each of the following listings details a specific breed of riding animal and provides a trait that
 grants an additional boon to the mount or its rider. The trait granted to a mount counts against a
 character's total maximum number of traits. If a knight replaces his mount, he effectively loses the

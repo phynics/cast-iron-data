@@ -129,7 +129,6 @@ a result intelligent flesh golems are rare indeed.
 
 ### Varient Flesh Golems
 
-**Sources:** Classic Horrors Revisited pg 12\
 The exact methods of creating a flesh golem frequently differ as a result of knowledge, geography,
 or culture. These variations in the creation process can sometimes result in flesh golems with
 previously unheard-of powers and abilities.

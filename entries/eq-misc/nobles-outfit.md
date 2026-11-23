@@ -37,7 +37,6 @@ also needs a [signet ring](ref/eq-misc/signet-ring) and [jewelry](ref/eq-misc/je
 least 100 gp) to accessorize this outfit.
 
 **Tear-away clothing**\
-**Sources:** Ultimate Equipment pg 89, Adventurer's Armory pg 19\
 **Price** +5 gp; **Weight** -\
 **Category** Clothing
 
