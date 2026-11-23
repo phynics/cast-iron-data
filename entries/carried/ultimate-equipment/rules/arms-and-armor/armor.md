@@ -1044,7 +1044,7 @@ title = "Locked Gauntlet"
 :::
 
 ::: entry-link
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 title = "Madu"
 :::
 

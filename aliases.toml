@@ -32186,6 +32186,11 @@ target = "ref/spell/water-walk-communal"
 basis = "shared"
 
 [[entries]]
+old = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
+basis = "shared"
+
+[[entries]]
 old = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/arrows"
 target = "ref/eq-weapon/arrow"
 basis = "shared"
@@ -38992,7 +38997,7 @@ basis = "shared"
 
 [[entries]]
 old = "ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
-target = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+target = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 basis = "carried"
 
 [[entries]]

@@ -154,7 +154,7 @@ entry = "ref/eq-armorenh/locked-gauntlet"
 
 [[books.chapters.children.children.children]]
 title = "Madu"
-entry = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+entry = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 
 [[books.chapters.children.children.children.children]]
 title = "Madu shield (leather)"
@@ -755,10 +755,6 @@ entry = "ref/eq-weapon/knuckle-axe"
 [[books.chapters.children.children.children]]
 title = "Kusarigama"
 entry = "ref/eq-weapon/kusarigama"
-
-[[books.chapters.children.children.children]]
-title = "Madu"
-entry = "ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
 
 [[books.chapters.children.children.children]]
 title = "Nine-Section Whip"

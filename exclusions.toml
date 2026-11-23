@@ -57066,6 +57066,26 @@ reason = "duplicate of ref/disease/rabies"
 path = "ref/carried/bestiary/monsters/ghoul/special-abilities/disease/ghoul-fever"
 reason = "duplicate of ref/disease/ghoul-fever"
 
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/shared-wrath"
+reason = "duplicate of ref/spell/shared-wrath"
+
+[[rejected]]
+path = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
+reason = "duplicate of ref/spell/tireless-pursuers"
+
+[[rejected]]
+path = "ref/eq-reagent/dragons-gut"
+reason = "duplicate of ref/eq-misc/dragons-gut"
+
+[[rejected]]
+path = "ref/eq-reagent/odor-stalk"
+reason = "duplicate of ref/eq-misc/odor-stalk"
+
+[[rejected]]
+path = "ref/carried/ultimate-equipment/rules/arms-and-armor/armor/armor-and-shields/madu"
+reason = "duplicate of ref/carried/ultimate-equipment/rules/arms-and-armor/weapons/weapon-descriptions/madu"
+
 [[resolved]]
 path = "json/prestige_classes.json#thought_thief_arcane_trickster"
 entries = ["ref/pclass/thought-thief-arcane-trickster"]
@@ -57204,19 +57224,3 @@ reason = "The Strength domain now ships as `ref/domain/strength`. The converter 
 path = "json/class_ability_domains3.json#trickery"
 entries = ["ref/domain/trickery"]
 reason = "The Trickery domain now ships as `ref/domain/trickery`. The converter rejected it because it failed on the inline `@list` directive and the `::clear` directive; the entry is now written in the corpus format. Refs phynics/cast-iron-data#103."
-
-[[rejected]]
-path = "ref/carried/advanced-players-guide/spells/shared-wrath"
-reason = "duplicate of ref/spell/shared-wrath"
-
-[[rejected]]
-path = "ref/carried/advanced-players-guide/spells/tireless-pursuers"
-reason = "duplicate of ref/spell/tireless-pursuers"
-
-[[rejected]]
-path = "ref/eq-reagent/dragons-gut"
-reason = "duplicate of ref/eq-misc/dragons-gut"
-
-[[rejected]]
-path = "ref/eq-reagent/odor-stalk"
-reason = "duplicate of ref/eq-misc/odor-stalk"
