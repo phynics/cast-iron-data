@@ -58,7 +58,12 @@ Cost: -
 
 ### Statistics
 
-**Alignment** chaotic evil; **Ego** 17\
-**Senses** 30 ft., [blindsense](ref/umr/blindsense)\
-**Int** 10, **Wis** 14, **Cha** 13\
-**Communication** speech (Abyssal)
+::: statblock
+Alignment: chaotic evil
+Ego: 17
+Senses: 30 ft., [blindsense](ref/umr/blindsense)
+Int: 10
+Wis: 14
+Cha: 13
+Communication: speech (Abyssal)
+:::

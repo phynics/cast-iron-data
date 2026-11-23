@@ -48,7 +48,12 @@ Price: 7,400 gp
 
 ### Statistics
 
-**Alignment** neutral; **Ego** 7\
-**Senses** 30 ft.\
-**Int** 12, **Wis** 10, **Cha** 11\
-**Communication** empathy
+::: statblock
+Alignment: neutral
+Ego: 7
+Senses: 30 ft.
+Int: 12
+Wis: 10
+Cha: 11
+Communication: empathy
+:::

@@ -110,43 +110,34 @@ entries/eq-weapon/reflex-bow.md	item	variant-paragraphs	Cost
 entries/eq-weapon/spear-sling.md	item	variant-paragraphs	Cost
 entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
-entries/magic-armor/armor-of-the-shadow-lord.md	item	variant-paragraphs	Alignment
-entries/magic-armor/gossamer-shrouds-of-the-clairvoyant.md	item	variant-paragraphs	Alignment
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
-entries/magic-armor/shield-of-the-mage.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/alaznists-hateful-ranseur.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/belimariuss-invidious-halberd.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/briar.md	intelligent	unlabelled-line	1/month - [true resurrection](ref/spell/
 entries/magic-artifact/briar.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/crown-of-fangs.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/infensus-mucro.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/karzougs-burning-glaive.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/mantis-blade.md	intelligent	unlabelled-line	3/day-[alter self](ref/spell/alter-self)
 entries/magic-artifact/mantis-blade.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/mog-lathar-the-petrified-spider.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/ovinrbaane-enemy-of-all-enemies.md	intelligent	unlabelled-line	3/day - [aid](ref/spell/aid)
 entries/magic-artifact/ovinrbaane-enemy-of-all-enemies.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/plaguebringer.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-armor-of-skulls.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-bound-blade.md	intelligent	unlabelled-line	3/day - [deeper darkness](ref/spell/deep
 entries/magic-artifact/relic-of-kazavon-bound-blade.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-crown-of-fangs.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-howling-horn.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/relic-of-kazavon-shredskin.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-staff-of-the-slain.md	intelligent	unlabelled-line	3/day - [create water](ref/spell/create-
 entries/magic-artifact/relic-of-kazavon-staff-of-the-slain.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/relic-of-kazavon-throne-of-nalt.md	intelligent	unlabelled-line	3/day - [dismissal](ref/spell/dismissal)
 entries/magic-artifact/relic-of-kazavon-throne-of-nalt.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/serithtial.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/shelana-the-mother-deck.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sorshens-sinuous-guisarme.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/spherical-boat-of-zutha.md	item	variant-paragraphs	AC; Maximum Speed; Propulsion
+entries/magic-artifact/suishen-guardian-of-the-amatatsu.md	intelligent	unlabelled-line	Constant - [endure elements](ref/spell/e
 entries/magic-artifact/suishen-guardian-of-the-amatatsu.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-gluttony-ungarato.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-gluttony-ungarato.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/sword-of-greed-chellan.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-lust-asheia.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-lust-asheia.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-pride-baraket.md	intelligent	sentences-in-variant	Dedicated Powers
 entries/magic-artifact/sword-of-pride-baraket.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-sloth-shin-tari.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-sloth-shin-tari.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/sword-of-wrath-garvok.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/tannaris-sword-of-envy.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/the-gluttonous-tome.md	item	variant-paragraphs	Alignment
+entries/magic-artifact/totem-of-angazhan.md	intelligent	unlabelled-line	_At will_-[weird](ref/spell/weird) (DC 2
 entries/magic-artifact/totem-of-angazhan.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/winters-heart.md	item	variant-paragraphs	Alignment
-entries/magic-artifact/zellaras-harrow-deck.md	item	variant-paragraphs	Alignment
 entries/magic-enh/runeforged.md	item	variant-paragraphs	Requirements
 entries/magic-fleshcraft/adhesive-slime.md	item	variant-paragraphs	Cost
 entries/magic-fleshcraft/antennae.md	item	variant-paragraphs	Cost
@@ -272,13 +263,6 @@ entries/magic-poison/burning-heart.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/dust-of-eox.md	item	variant-paragraphs	Type; Requirements
 entries/magic-poison/liquid-influence.md	item	variant-paragraphs	Type; Requirements
 entries/magic-relic/belt-of-the-last-wall.md	item	variant-paragraphs	Task
-entries/magic-ring/obsession-ring.md	item	variant-paragraphs	Alignment
-entries/magic-ring/ring-of-the-weary-sky.md	item	variant-paragraphs	Alignment
-entries/magic-ring/wary-ring.md	item	variant-paragraphs	Alignment
-entries/magic-rod/harbinger-rod.md	item	variant-paragraphs	Alignment
-entries/magic-rod/metamagicians-apprentice.md	item	variant-paragraphs	Alignment
-entries/magic-rod/rod-that-should-not-be-greater.md	item	variant-paragraphs	Alignment
-entries/magic-rod/rod-that-should-not-be-lesser.md	item	variant-paragraphs	Alignment
 entries/magic-set/archmages-vestments.md	item	linked-label	[Caster's Shield, Greater:](ref/magic-armor/casters-shield-g
 entries/magic-set/arodens-array.md	item	linked-label	[Belt of Fallen Heroes:](ref/magic-wondrous/belt-of-fallen-h
 entries/magic-set/beastmasters-will.md	item	linked-label	[Boots of the Cat:](ref/magic-wondrous/boots-of-the-cat)
@@ -286,21 +270,6 @@ entries/magic-set/besmaras-bounty.md	item	linked-label	[Bracelet of Bargaining:]
 entries/magic-set/dread-demonic-armor.md	item	linked-label	[Deliquescent Gloves:](ref/magic-wondrous/deliquescent-glove
 entries/magic-set/pharasmas-command.md	item	linked-label	[Cassock of the Clergy:](ref/magic-wondrous/cassock-of-the-c
 entries/magic-set/urgathoas-gluttony.md	item	linked-label	[Haunted Shoes:](ref/magic-wondrous/haunted-shoes)
-entries/magic-weapon/abat-ne-the-blackstone-mace.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/clarity.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/draddeth-edge.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/fiendsplitter.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/hammer-of-enemies.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/lightning-bow.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/norgirs-ruin.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/singing-sword.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/skullduster.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/soulshear.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/teralindars-honor.md	item	variant-paragraphs	Alignment
-entries/magic-weapon/ukwar.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/bloody-mantis.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/chomper.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/crusaders-scabbard.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/cube-of-force.md	item	print-fix	row `11`, the base item's own text; `13` and `14` stay as rows for the variant paragraphs of the body (Classic Treasures Revisited p. 11)
 entries/magic-wondrous/cube-of-varied-force-walls.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
 entries/magic-wondrous/discriminating-cube.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
@@ -327,21 +296,13 @@ entries/magic-wondrous/figurine-of-wondrous-power-silver-raven.md	item	variant-p
 entries/magic-wondrous/figurine-of-wondrous-power-slate-spider.md	item	variant-paragraphs	CL
 entries/magic-wondrous/figurine-of-wondrous-power-tin-imp.md	item	variant-paragraphs	CL
 entries/magic-wondrous/figurine-of-wondrous-power.md	item	variant-paragraphs	CL
-entries/magic-wondrous/headband-of-the-sage.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/helm-of-brilliance-lesser.md	item	variant-paragraphs	Aura; Requirements
 entries/magic-wondrous/helm-of-brilliance.md	item	variant-paragraphs	Aura; Requirements
-entries/magic-wondrous/helmet-of-the-golden-general.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/holliss-lucky-rock.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/independent-cube-of-force.md	item	print-fix	row `13` kept (its own text); row `14` added for the Construction paragraph of the body (Classic Treasures Revisited p. 13)
 entries/magic-wondrous/ioun-stone.md	item	sources-unparsed	Pathfinder Society Primer
-entries/magic-wondrous/lady-ninahus-doll.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/lute-of-discord.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/maniac-hand.md	item	variant-paragraphs	Alignment
-entries/magic-wondrous/phylactery-of-jadis-vel.md	item	variant-paragraphs	Alignment
 entries/magic-wondrous/rechargeable-cube-of-force.md	item	print-fix	row `13-14`: the item starts at the foot of p. 13 and its Construction is the first line of p. 14 (Classic Treasures Revisited pp. 13-14)
 entries/magic-wondrous/remote-activation-cube.md	item	print-fix	row `14` kept (its own text, the foot of the Rechargeable block to the Remote Activation block of p. 14); row `13` added for the variant paragraphs of the body (Classic Treasures Revisited p. 14)
 entries/magic-wondrous/slashing-cloak.md	item	print-fix	Construction: the cost printed once; the import left `; Cost 10,000 gp` twice (Ultimate Equipment p. 268)
-entries/magic-wondrous/the-bloodwind.md	item	variant-paragraphs	Alignment
 entries/monster/aether-elemental.md	creature	section-after-heading	6 Challenge rating lines
 entries/monster/aether-elemental.md	creature	sources-page-conflict	bestiary-5: 106 / 107
 entries/monster/air-elemental.md	creature	section-after-heading	7 Challenge rating lines

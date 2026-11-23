@@ -320,6 +320,13 @@ alone on the first line and then `Price +5 gp; Weight -` and `Category`. The blo
 printed name as its title. Its `Price` and `Weight` rows follow the entry's own block, which
 the drift check reads first.
 
+`intelligent` (every item folder, 65 entries): the statistics of an intelligent item, the paragraph
+`**Alignment** …; **Ego** …`, `Senses`, `Int, Wis, Cha`, `Communication` and the lines after them, directly under
+`### Statistics`. One untitled block under that heading, which stays. The `,` before `Wis` and
+`Cha` goes (three rows, as the NPC `Str`…`Cha` line); a linked label (`Special Purpose`) is plain
+and the link moves onto the value. A line without a label (the lists of a `Powers` or `Spell-Like
+Abilities` line) queues the file, which stays prose for a hand review.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -1944,8 +1951,21 @@ def plan_tearaway(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+def plan_intelligent(cs: list[list[str]]) -> dict[int, dict]:
+    """K-intelligent. The paragraph directly under `### Statistics` that opens with `**Alignment**`
+    (the statistics of an intelligent item): one untitled block under the existing heading. The
+    `,` before `Wis` and `Cha` goes; a linked label (`Special Purpose`) keeps its text and the link
+    moves onto the value."""
+    return {
+        index: {"link_labels": True, "commas": ("Wis", "Cha")}
+        for index, chunk in enumerate(cs)
+        if index and cs[index - 1] == ["### Statistics"] and chunk[0].startswith("**Alignment** ")
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "intelligent": (("*",), plan_intelligent, ("Wis", "Cha")),
     "tearaway": (("eq-misc",), plan_tearaway, ()),
     "recipe": (("*",), plan_recipe, ()),
     "shield": (("eq-armor", "eq-armorenh"), plan_shield, ()),
@@ -2588,7 +2608,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3594,6 +3614,30 @@ class TearawaySelfTest(unittest.TestCase):
         with self.assertRaises(Queue) as caught:
             convert_variants("\nAn outfit.\n\n" + self.BODY.split("An outfit.\n\n")[1], plan_tearaway)
         self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Price"))
+
+
+class IntelligentSelfTest(unittest.TestCase):
+    BODY = (
+        "\n::: statblock\nAura: strong\nCL: 8th\n:::\n\nAn item.\n\n### Statistics\n\n"
+        "**Alignment** neutral; **Ego** 14\\\n**Senses** 120 ft., [darkvision](ref/rule/darkvision)\\\n"
+        "**Int** 14, **Wis** 16, **Cha** 14\\\n**Communication** telepathy (Aklo, Common)\\\n"
+        "**[Special Purpose](ref/rule/special-purpose-items)** defeat dwarves\n"
+    )
+
+    def test_the_statistics_become_one_untitled_block_under_the_heading(self):
+        new = convert_variants(self.BODY, plan_intelligent, ("Wis", "Cha"))
+        self.assertTrue(new.endswith(
+            "### Statistics\n\n::: statblock\nAlignment: neutral\nEgo: 14\nSenses: 120 ft., [darkvision](ref/rule/darkvision)\n"
+            "Int: 14\nWis: 16\nCha: 14\nCommunication: telepathy (Aklo, Common)\n"
+            "Special Purpose: [defeat dwarves](ref/rule/special-purpose-items)\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_intelligent, new), "already")
+
+    def test_a_list_line_without_a_label_queues_and_a_paragraph_elsewhere_is_not_touched(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("defeat dwarves", "defeat dwarves\\\n3/day-fly"), plan_intelligent, ("Wis", "Cha"))
+        self.assertEqual(caught.exception.reason, "unlabelled-line")
+        self.assertEqual(classify_variant(plan_intelligent, self.BODY.replace("### Statistics", "### Details")), "already")
 
 
 class SourcesSelfTest(unittest.TestCase):

@@ -52,7 +52,12 @@ forged by a once-mortal god - the blade Serithtial is one such blade.
 
 ### Statistics
 
-**Alignment** LE; **Ego** 20\
-**Senses** 30 ft.\
-**Int** 10, **Wis** 10, **Cha** 12\
-**Communication** empathy
+::: statblock
+Alignment: LE
+Ego: 20
+Senses: 30 ft.
+Int: 10
+Wis: 10
+Cha: 12
+Communication: empathy
+:::

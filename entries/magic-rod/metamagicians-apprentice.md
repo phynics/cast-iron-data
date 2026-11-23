@@ -71,7 +71,12 @@ Price: 47,105 gp
 
 ### Statistics
 
-**Alignment** lawful neutral; **Ego** 20\
-**Senses** 120 ft.\
-**Int** 18, **Wis** 14, **Cha** 10\
-**Communication** telepathy (Common and eight other languages)
+::: statblock
+Alignment: lawful neutral
+Ego: 20
+Senses: 120 ft.
+Int: 18
+Wis: 14
+Cha: 10
+Communication: telepathy (Common and eight other languages)
+:::

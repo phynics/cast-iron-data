@@ -40,7 +40,12 @@ Shelana can only be destroyed by using her own Moon card to wish for her destruc
 
 ### Statistics
 
-**Alignment** CN; **Ego** 21\
-**Senses** 30 ft. senses\
-**Int** 19, **Wis** 10, **Cha** 20\
-**Communication** speech, telepathy
+::: statblock
+Alignment: CN
+Ego: 21
+Senses: 30 ft. senses
+Int: 19
+Wis: 10
+Cha: 20
+Communication: speech, telepathy
+:::

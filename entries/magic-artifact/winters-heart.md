@@ -62,7 +62,12 @@ merely solidifies the magma into rock.
 
 ### Statistics
 
-**Alignment** CN; **Ego** 28\
-**Senses** 120 ft., [blindsight](ref/rule/blindsight-and-blindsense)\
-**Int** 14, **Wis** 12, **Cha** 19\
-**Communication** telepathy (Common, Giant, Hallit, Skald, and Tien)
+::: statblock
+Alignment: CN
+Ego: 28
+Senses: 120 ft., [blindsight](ref/rule/blindsight-and-blindsense)
+Int: 14
+Wis: 12
+Cha: 19
+Communication: telepathy (Common, Giant, Hallit, Skald, and Tien)
+:::

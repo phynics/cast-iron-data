@@ -59,7 +59,12 @@ Price: 63,450 gp
 
 ### Statistics
 
-**Alignment** n/a; **Ego** 13\
-**Senses** n/a\
-**Int** 12, **Wis** 14, **Cha** 10\
-**Communication** speech (Aklo, Common)
+::: statblock
+Alignment: n/a
+Ego: 13
+Senses: n/a
+Int: 12
+Wis: 14
+Cha: 10
+Communication: speech (Aklo, Common)
+:::
