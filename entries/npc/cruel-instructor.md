@@ -46,8 +46,8 @@ Special Attacks: bardic performance 24 rounds/day (move action; [countersong](re
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 9th
-concentration: +13
+Caster level: 9th
+Concentration: +13
 3rd (4/day): [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [dispel magic](ref/spell/dispel-magic), [illusory script](ref/spell/illusory-script) (DC 19), [secret page](ref/spell/secret-page)
 2nd (5/day): [eagle's splendor](ref/spell/eagles-splendor), [enthrall](ref/spell/enthrall) (DC 18), [misdirection](ref/spell/misdirection), [tongues](ref/spell/tongues)
 1st (6/day): [cure light wounds](ref/spell/cure-light-wounds) (DC 17), [disguise self](ref/spell/disguise-self), [erase](ref/spell/erase), [hypnotism](ref/spell/hypnotism) (DC 17), [undetectable alignment](ref/spell/undetectable-alignment)

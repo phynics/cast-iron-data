@@ -47,8 +47,8 @@ Special Attacks: claws (2, 1d4+1 plus 1d6 electricity, treated as magic weapons,
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 13th
-concentration: +18
+Caster level: 13th
+Concentration: +18
 6th (4/day): [acid fog](ref/spell/acid-fog), [chain lightning](ref/spell/chain-lightning) (DC 23), [form of the dragon I](ref/spell/form-of-the-dragon-1)
 5th (7/day): [cone of cold](ref/spell/cone-of-cold) (DC 22), [feeblemind](ref/spell/feeblemind) (DC 20), [overland flight](ref/spell/overland-flight), [spell resistance](ref/spell/spell-resistance)
 4th (7/day): [black tentacles](ref/spell/black-tentacles), [charm monster](ref/spell/charm-monster) (DC 19), [dimension door](ref/spell/dimension-door), [fear](ref/spell/fear) (DC 19), [ice storm](ref/spell/ice-storm)

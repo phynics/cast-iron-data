@@ -46,8 +46,8 @@ Special Attacks: favored enemy (humanoid \[human\] +4, animal +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 4th
-concentration: +5
+Caster level: 4th
+Concentration: +5
 1st: [longstrider](ref/spell/longstrider), [speak with animals](ref/spell/speak-with-animals)
 :::
 

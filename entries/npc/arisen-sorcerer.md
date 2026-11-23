@@ -46,8 +46,8 @@ Melee: quarterstaff +9/+4 (1d6-1)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 20th
-concentration: +28
+Caster level: 20th
+Concentration: +28
 11/day: grave touch (10 rounds)
 3/day: grasp of the dead (20d6 slashing, DC 28)
 1/day: incorporeal form (20 rounds)
@@ -55,8 +55,8 @@ concentration: +28
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 20th
-concentration: +28
+Caster level: 20th
+Concentration: +28
 9th (6/day): [energy drain](ref/spell/energy-drain) (DC 29), [imprisonment](ref/spell/imprisonment) (DC 27), [power word kill](ref/spell/power-word-kill), [wail of the banshee](ref/spell/wail-of-the-banshee) (DC 29)
 8th (7/day): [create greater undead](ref/spell/create-greater-undead), [horrid wilting](ref/spell/horrid-wilting) (DC 28), [polar ray](ref/spell/polar-ray), [protection from spells](ref/spell/protection-from-spells)
 7th (7/day): [finger of death](ref/spell/finger-of-death) (DC 27), [mass hold person](ref/spell/hold-person-mass) (DC 25), [prismatic spray](ref/spell/prismatic-spray), [waves of exhaustion](ref/spell/waves-of-exhaustion)

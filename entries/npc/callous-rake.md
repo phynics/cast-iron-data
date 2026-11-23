@@ -46,8 +46,8 @@ Special Attacks: smite evil 1/day (+2 attack and AC, +1 damage)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 1st
-concentration: +3
+Caster level: 1st
+Concentration: +3
 At will: [detect evil](ref/spell/detect-evil)
 :::
 

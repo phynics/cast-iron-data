@@ -47,8 +47,8 @@ Special Attacks: hand of the apprentice (6/day)
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 3rd
-concentration: +6
+Caster level: 3rd
+Concentration: +6
 2nd: mirror image, scorching ray
 1st: [magic missile](ref/spell/magic-missile), [shield](ref/spell/shield), [shocking grasp](ref/spell/shocking-grasp)
 0 (at will): [daze](ref/spell/daze) (DC 13), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [resistance](ref/spell/resistance)

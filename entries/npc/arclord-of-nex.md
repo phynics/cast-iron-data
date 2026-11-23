@@ -46,8 +46,8 @@ Special Attacks: artificer's touch, hand of the apprentice (10/day), metamagic m
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 15th
-concentration: +22
+Caster level: 15th
+Concentration: +22
 8th: [mind blank](ref/spell/mind-blank)
 7th: [greater scrying](ref/spell/scrying-greater) (DC 24), [limited wish](ref/spell/limited-wish), [spell turning](ref/spell/spell-turning)
 6th: [widened](ref/feat/widen-spell) [black tentacles](ref/spell/black-tentacles), [disintegrate](ref/spell/disintegrate) (DC 23), [greater dispel magic](ref/spell/dispel-magic-greater), [repulsion](ref/spell/repulsion) (DC 23)

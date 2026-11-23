@@ -47,8 +47,8 @@ Special Attacks: favored enemy (giants +4, humans +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 5th
-concentration: +6
+Caster level: 5th
+Concentration: +6
 2nd: [barkskin](ref/spell/barkskin)
 1st: [entangle](ref/spell/entangle) (DC 12), [longstrider](ref/spell/longstrider)
 :::

@@ -47,8 +47,8 @@ Special Attacks: bardic performance 28 rounds/day ([countersong](ref/performance
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 4th
-concentration: +6
+Caster level: 4th
+Concentration: +6
 2nd (2/day): [mirror image](ref/spell/mirror-image), [rage](ref/spell/rage)
 1st (4/day): [expeditious retreat](ref/spell/expeditious-retreat), [feather fall](ref/spell/feather-fall), [remove fear](ref/spell/remove-fear), [unseen servant](ref/spell/unseen-servant)
 0 (at will): [dancing lights](ref/spell/dancing-lights), [know direction](ref/spell/know-direction), [mage hand](ref/spell/mage-hand), [mending](ref/spell/mending), [message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation)

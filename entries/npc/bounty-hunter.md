@@ -49,8 +49,8 @@ Special Attacks: favored enemy (animals +2, humans +6, orcs +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 9th
-concentration: +10
+Caster level: 9th
+Concentration: +10
 2nd: [barkskin](ref/spell/barkskin), [cat's grace](ref/spell/cats-grace), [wind wall](ref/spell/wind-wall)
 1st: [delay poison](ref/spell/delay-poison), [longstrider](ref/spell/longstrider), [resist energy](ref/spell/resist-energy)
 :::

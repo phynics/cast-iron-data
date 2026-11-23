@@ -46,8 +46,8 @@ Special Attacks: bardic performance 31 rounds/day (move action; [countersong](re
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 12th
-concentration: +17
+Caster level: 12th
+Concentration: +17
 4th (4/day): [freedom of movement](ref/spell/freedom-of-movement), [greater invisibility](ref/spell/invisibility-greater), [modify memory](ref/spell/modify-memory) (DC 20), [rainbow pattern](ref/spell/rainbow-pattern) (DC 19)
 3rd (5/day): [charm monster](ref/spell/charm-monster) (DC 19), [confusion](ref/spell/confusion) (DC 19), [glibness](ref/spell/glibness), [lesser geas](ref/spell/geas-lesser) (DC 19), [remove curse](ref/spell/remove-curse)
 2nd (6/day): [alter self](ref/spell/alter-self), [calm emotions](ref/spell/calm-emotions) (DC 18), [darkness](ref/spell/darkness), [heroism](ref/spell/heroism), [suggestion](ref/spell/suggestion) (DC 18)

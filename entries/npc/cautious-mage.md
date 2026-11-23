@@ -45,8 +45,8 @@ Special Attacks: hand of the apprentice (6/day)
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 1st
-concentration: +4
+Caster level: 1st
+Concentration: +4
 1st: [burning hands](ref/spell/burning-hands) (DC 14), [mage armor](ref/spell/mage-armor)
 0 (at will): [bleed](ref/spell/bleed) (DC 13), [detect magic](ref/spell/detect-magic), [resistance](ref/spell/resistance)
 :::

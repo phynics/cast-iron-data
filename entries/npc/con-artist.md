@@ -47,8 +47,8 @@ Special Attacks: bardic performance 18 rounds/day ([countersong](ref/performance
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 6th
-concentration: +10
+Caster level: 6th
+Concentration: +10
 2nd (4/day): [alter self](ref/spell/alter-self), [detect thoughts](ref/spell/detect-thoughts) (DC 16), [minor image](ref/spell/minor-image) (DC 17), [suggestion](ref/spell/suggestion) (DC 16)
 1st (5/day): [comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self), [silent image](ref/spell/silent-image) (DC 16), [ventriloquism](ref/spell/ventriloquism) (DC 16)
 0 (at will): [dancing lights](ref/spell/dancing-lights), [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 15), [message](ref/spell/message)

@@ -48,15 +48,15 @@ Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 2nd
-concentration: +5
+Caster level: 2nd
+Concentration: +5
 6/day: dehydrating touch
 :::
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 2nd
-concentration: +5
+Caster level: 2nd
+Concentration: +5
 1st (5/day): [hydraulic push](ref/spell/hydraulic-push), [mage armor](ref/spell/mage-armor)
 0 (at will): [daze](ref/spell/daze) (DC 13), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)
 Bloodline: [aquatic](ref/sorcbloodline/aquatic)

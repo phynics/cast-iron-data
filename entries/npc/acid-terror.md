@@ -46,8 +46,8 @@ Special Attacks: breath weapon (30-foot cone, 13d6 acid, DC 22, 2/day), claws (2
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 12th
-concentration: +18
+Caster level: 12th
+Concentration: +18
 6th (4/day): [acid fog](ref/spell/acid-fog), [form of the dragon I](ref/spell/form-of-the-dragon-1)
 5th (6/day): [cloudkill](ref/spell/cloudkill) (DC 23), [feeblemind](ref/spell/feeblemind) (DC 22), [spell resistance](ref/spell/spell-resistance)
 4th (7/day): [black tentacles](ref/spell/black-tentacles), [confusion](ref/spell/confusion) (DC 21), [dimension door](ref/spell/dimension-door), [fear](ref/spell/fear) (DC 20)

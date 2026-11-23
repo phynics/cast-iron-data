@@ -48,8 +48,8 @@ Special Attacks: +1 on attack rolls against goblinoid and orc humanoids
 
 ::: statblock
 title = "Abjurer Spells Prepared"
-CL: 7th
-concentration: +11
+Caster level: 7th
+Concentration: +11
 4th: [black tentacles](ref/spell/black-tentacles) (2), [stoneskin](ref/spell/stoneskin)
 3rd: dispel magic, [displacement](ref/spell/displacement), [gaseous form](ref/spell/gaseous-form), [stinking cloud](ref/spell/stinking-cloud) (DC 17)
 2nd: [glitterdust](ref/spell/glitterdust) (DC 16), [levitate](ref/spell/levitate), [resist energy](ref/spell/resist-energy), [see invisibility](ref/spell/see-invisibility), [web](ref/spell/web) (DC 16)

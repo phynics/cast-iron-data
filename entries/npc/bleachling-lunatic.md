@@ -47,14 +47,14 @@ Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids, b
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 4th
+Caster level: 4th
 At will: [speak with animals](ref/spell/speak-with-animals)
 1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound) (DC 11), [prestidigitation](ref/spell/prestidigitation)
 :::
 
 ::: statblock
 title = "Alchemist Extracts Prepared"
-CL: 4th
+Caster level: 4th
 2nd: [fox's cunning](ref/spell/foxs-cunning), [resist energy](ref/spell/resist-energy)
 1st: [comprehend languages](ref/spell/comprehend-languages), [disguise self](ref/spell/disguise-self), [shield](ref/spell/shield), [true strike](ref/spell/true-strike)
 :::

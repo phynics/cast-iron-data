@@ -48,15 +48,15 @@ Special Attacks: wild shape 6/day
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 15th
-concentration: +20
+Caster level: 15th
+Concentration: +20
 8/day: wooden fist
 :::
 
 ::: statblock
 title = "Druid Spells Prepared"
-CL: 15th
-concentration: +20
+Caster level: 15th
+Concentration: +20
 8th: [control plants](ref/spell/control-plants)^[1](ref/npc/creeping-death#footnote-d)^ (DC 23), [word of recall](ref/spell/word-of-recall)
 7th: [animate plants](ref/spell/animate-plants)^[1](ref/npc/creeping-death#footnote-d)^, [creeping doom](ref/spell/creeping-doom) (DC 22), [true seeing](ref/spell/true-seeing)
 6th: [antilife shell](ref/spell/antilife-shell), [mass cure light wounds](ref/spell/cure-light-wounds-mass), [repel wood](ref/spell/repel-wood)^[1](ref/npc/creeping-death#footnote-d)^, [wall of stone](ref/spell/wall-of-stone)

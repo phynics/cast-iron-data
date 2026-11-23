@@ -47,31 +47,31 @@ Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 17th
-concentration: +19
+Caster level: 17th
+Concentration: +19
 1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound), [prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)
 :::
 
 ::: statblock
 title = "Arcane School Spell-Like Abilities"
-CL: 10th
-concentration: +15
+Caster level: 10th
+Concentration: +15
 At will: invisibility field (10 rounds/day)
 8/day: blinding ray
 :::
 
 ::: statblock
 title = "Shadowdancer Spell-Like Abilities"
-CL: 7th
-concentration: +9
+Caster level: 7th
+Concentration: +9
 3/day: shadow illusion (DC 13)
 2/day: shadow call (DC 16)
 :::
 
 ::: statblock
 title = "Illusionist Spells Prepared"
-CL: 10th
-concentration: +15
+Caster level: 10th
+Concentration: +15
 5th: [feeblemind](ref/spell/feeblemind) (DC 20), [nightmare](ref/spell/nightmare) (DC 23), [shadow evocation](ref/spell/shadow-evocation) (DC 23), [teleport](ref/spell/teleport)
 4th: [charm monster](ref/spell/charm-monster) (DC 19), [greater invisibility](ref/spell/invisibility-greater), [phantasmal killer](ref/spell/phantasmal-killer) (DC 22), [solid fog](ref/spell/solid-fog), [stoneskin](ref/spell/stoneskin)
 3rd: [blink](ref/spell/blink), [displacement](ref/spell/displacement), [fly](ref/spell/fly), [major image](ref/spell/major-image) (DC 21), [slow](ref/spell/slow) (DC 18)

@@ -47,15 +47,15 @@ Ranged: mwk heavy crossbow +5 (1d10/19-20)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 7th
-concentration: +10
+Caster level: 7th
+Concentration: +10
 6/day: elemental ray (1d6+3 fire)
 :::
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 7th
-concentration: +10
+Caster level: 7th
+Concentration: +10
 3rd (5/day): [fireball](ref/spell/fireball) (DC 17), [haste](ref/spell/haste), [protection from energy](ref/spell/protection-from-energy)
 2nd (7/day): [blur](ref/spell/blur), [false life](ref/spell/false-life), [glitterdust](ref/spell/glitterdust) (DC 15), [scorching ray](ref/spell/scorching-ray)
 1st (7/day): [burning hands](ref/spell/burning-hands) (DC 15), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile), [magic weapon](ref/spell/magic-weapon), [ray of enfeeblement](ref/spell/ray-of-enfeeblement) (DC 14), [shield](ref/spell/shield)

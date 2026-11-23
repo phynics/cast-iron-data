@@ -47,8 +47,8 @@ Special Attacks: claws (2, 1d4, treated as magic, 7 rounds/day)
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 5th
-concentration: +9
+Caster level: 5th
+Concentration: +9
 2nd (5/day): [acid arrow](ref/spell/acid-arrow), [mirror image](ref/spell/mirror-image), [resist energy](ref/spell/resist-energy)
 1st (7/day): [cause fear](ref/spell/cause-fear) (DC 15), [charm person](ref/spell/charm-person) (DC 15), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile), [ray of enfeeblement](ref/spell/ray-of-enfeeblement) (DC 15)
 0 (at will): [acid splash](ref/spell/acid-splash), [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 14), [mage hand](ref/spell/mage-hand), [message](ref/spell/message), [read magic](ref/spell/read-magic)

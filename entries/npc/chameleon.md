@@ -47,8 +47,8 @@ Special Attacks: bardic performance 29 rounds/day (move action; [countersong](re
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 11th
-concentration: +16
+Caster level: 11th
+Concentration: +16
 4th (2/day): [dimension door](ref/spell/dimension-door), [freedom of movement](ref/spell/freedom-of-movement), [greater invisibility](ref/spell/invisibility-greater)
 3rd (5/day): [gaseous form](ref/spell/gaseous-form), [haste](ref/spell/haste) (DC 18), [see invisibility](ref/spell/see-invisibility), [slow](ref/spell/slow) (DC 18)
 2nd (5/day): [alter self](ref/spell/alter-self), [blindness/deafness](ref/spell/blindness-deafness) (DC 17), [cure moderate wounds](ref/spell/cure-moderate-wounds) (DC 17), [detect thoughts](ref/spell/detect-thoughts) (DC 17), [mirror image](ref/spell/mirror-image)

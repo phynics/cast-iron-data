@@ -47,16 +47,16 @@ Special Attacks: +1 on attack rolls against goblinoid and orc humanoids, intense
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 9th
-concentration: +13
+Caster level: 9th
+Concentration: +13
 At will: elemental wall (9 rounds/day)
 7/day: force missile (1d4+4)
 :::
 
 ::: statblock
 title = "Evoker Spells Prepared"
-CL: 9th
-concentration: +13
+Caster level: 9th
+Concentration: +13
 5th: [cone of cold](ref/spell/cone-of-cold) (DC 20), [transmute rock to mud](ref/spell/transmute-rock-to-mud)
 4th: [empowered](ref/feat/empower-spell) [acid arrow](ref/spell/acid-arrow), [greater invisibility](ref/spell/invisibility-greater), [resilient sphere](ref/spell/resilient-sphere) (DC 19), stone shape
 3rd: [dispel magic](ref/spell/dispel-magic), [fireball](ref/spell/fireball) (DC 18), [gaseous form](ref/spell/gaseous-form), [ray of exhaustion](ref/spell/ray-of-exhaustion) (DC 17), stinking cloud (DC 17)

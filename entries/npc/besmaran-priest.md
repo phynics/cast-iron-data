@@ -48,8 +48,8 @@ Special Attacks: channel positive energy 5/day (DC 14, 3d6)
 
 ::: statblock
 title = "Cleric Spells Prepared"
-CL: 5th
-concentration: +8
+Caster level: 5th
+Concentration: +8
 3rd: [remove disease](ref/spell/remove-disease), [water breathing](ref/spell/water-breathing)^[1](ref/npc/besmaran-priest#footnote-d)^
 2nd: [aid](ref/spell/aid), cure moderate wounds, [fog cloud](ref/spell/fog-cloud)^[1](ref/npc/besmaran-priest#footnote-d)^
 1st: [bless](ref/spell/bless), cure light wounds, [deathwatch](ref/spell/deathwatch), [obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/besmaran-priest#footnote-d)^, [remove fear](ref/spell/remove-fear)

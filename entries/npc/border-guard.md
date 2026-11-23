@@ -48,8 +48,8 @@ Special Attacks: favored enemy (elves +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 1st
-concentration: +2
+Caster level: 1st
+Concentration: +2
 1st: [resist energy](ref/spell/resist-energy)
 :::
 

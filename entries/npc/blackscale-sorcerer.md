@@ -48,8 +48,8 @@ Special Attacks: breath weapon (60-foot line, 10d6 acid, DC 20, 1/day), claws (2
 
 ::: statblock
 title = "Sorcerer Spells Known"
-CL: 10th
-concentration: +15
+Caster level: 10th
+Concentration: +15
 5th (4/day): [cloudkill](ref/spell/cloudkill) (DC 20)
 4th (6/day): [fear](ref/spell/fear) (DC 19), [shout](ref/spell/shout) (DC 21), [stoneskin](ref/spell/stoneskin)
 3rd (7/day): [fireball](ref/spell/fireball) (DC 20), [fly](ref/spell/fly), [rage](ref/spell/rage), [stinking cloud](ref/spell/stinking-cloud) (DC 18)

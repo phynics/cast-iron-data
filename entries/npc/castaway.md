@@ -48,16 +48,16 @@ Special Attacks: wild shape 5/day
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 12th
-concentration: +16
+Caster level: 12th
+Concentration: +16
 12/day: lightning lord
 7/day: storm burst
 :::
 
 ::: statblock
 title = "Druid Spells Prepared"
-CL: 12th
-concentration: +16
+Caster level: 12th
+Concentration: +16
 6th: [control winds](ref/spell/control-winds)^[1](ref/npc/castaway#footnote-d)^ (DC 20), [greater dispel magic](ref/spell/dispel-magic-greater), [repel wood](ref/spell/repel-wood)
 5th: [call lightning storm](ref/spell/call-lightning-storm) (DC 19), [cure critical wounds](ref/spell/cure-critical-wounds), [ice storm](ref/spell/ice-storm)^[1](ref/npc/castaway#footnote-d)^, [tree stride](ref/spell/tree-stride)
 4th: [cure serious wounds](ref/spell/cure-serious-wounds), [dispel magic](ref/spell/dispel-magic), [flame strike](ref/spell/flame-strike) (DC 18), [freedom of movement](ref/spell/freedom-of-movement), [sleet storm](ref/spell/sleet-storm)^[1](ref/npc/castaway#footnote-d)^
