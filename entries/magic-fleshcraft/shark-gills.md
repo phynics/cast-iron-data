@@ -33,5 +33,8 @@ the subject can breathe water.
 
 ### Creation Requirements
 
-**Cost** 4,500 gp\
+::: statblock
+Cost: 4,500 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 15 ranks; Heal DC 25; **Elixir Cost** 250 gp
