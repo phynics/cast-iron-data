@@ -54,6 +54,12 @@ confidence, notes). The reference is not part of the corpus and is not committed
 without `--candidates` and with rows in place changes nothing. Each page a write adds still needs
 a check against print, on a sample per slice (`--sample`).
 
+On `--write` the script itself records each page that follows print instead of the proposal: the
+`evidence` column of its print-pages line gets `proposal N, print M` (`proposal 1 (placeholder)`
+when the reference gives page 1), unless the line already has evidence. The print check that
+produces the print-pages lines writes the other evidence (ties, title-only matches, rendered
+pages, offset anchors) into the same column.
+
 The print-pages file may carry a fifth column `note`; a row with a note also gets a
 `heading-form` review line (the page is read in print, but the heading does not look as expected).
 
@@ -453,6 +459,7 @@ def sibling_page(entry: Entry, pub: str, by_id: dict[str, Entry]) -> str | None:
 BASIS: Counter[str] = Counter()
 PRINT: dict[tuple[str, str], str] = {}
 PRINT_NOTES: dict[tuple[str, str], str] = {}
+PRINT_MOVES: dict[tuple[str, str], tuple[str, str]] = {}  # print page differs from the proposal
 PRINT_WITHHELD: dict[tuple[str, str], str] = {}  # print looked and did not confirm the proposal
 QUEUED_DIFFERS: set[tuple[str, str]] = set()  # books the review queue already holds as book-differs
 PROPOSAL_ONLY: list[tuple[str, str, str]] = []
@@ -472,6 +479,7 @@ def decide(entry: Entry, pub: str, cands: dict, by_id: dict[str, Entry]):
         BASIS["print"] += 1
         if confident and not covers(printed, cpage):
             BASIS["print differs from proposal"] += 1
+            PRINT_MOVES[(entry.id, pub)] = (cpage, printed)
         return printed, None, "", ""
     if (entry.id, pub) in PRINT_WITHHELD:
         return None, "unconfirmed", cpage, PRINT_WITHHELD[(entry.id, pub)]
@@ -614,6 +622,23 @@ def self_test() -> int:
         expect(("ref/trait/t6", "a", "unconfirmed") in review_of(root), "unconfirmed is queued")
         expect(("ref/trait/t6", "b", "page-format") in review_of(root), "page 0 is page-format")
 
+        # A print page that differs from the proposal gets a `proposal N, print M` note.
+        entry("t8", ["a", "b"])
+        (root / PRINT_DEFAULT).write_text(
+            "entry_id\tpublication\tpage\tbasis\tnote\n"
+            "ref/trait/t8\ta\t9\tprint\t\nref/trait/t8\tb\t40\tprint\t\n",
+            encoding="utf-8",
+        )
+        cand8 = candidates([
+            ("ref/trait/t8", "a", "8", "confident", ""),
+            ("ref/trait/t8", "b", "1", "confident", ""),
+        ])
+        run(root, "--slice", "trait", "--candidates", str(cand8), "--write")
+        notes = (root / PRINT_DEFAULT).read_text(encoding="utf-8")
+        expect("ref/trait/t8\ta\t9\tprint\t\tproposal 8, print 9" in notes, "a moved page is noted in the print-pages file")
+        expect("proposal 1 (placeholder), print 40" in notes, "a placeholder proposal is marked")
+        expect(run(root, "--slice", "trait", "--candidates", str(cand8), "--check") == 0, "the notes are stable")
+
         # An ambiguous proposal keeps its candidate pages in the review line.
         entry("t7", ["a"])
         cand7 = candidates([("ref/trait/t7", "a", "", "ambiguous", "monster;pages=62,306")])
@@ -709,6 +734,31 @@ def selected(
     return None
 
 
+def with_move_notes(text: str) -> str:
+    """The print-pages text with `proposal N, print M` in the `evidence` column of every line whose
+    page differs from the proposal and whose evidence is still empty. A proposal of 1 is a
+    placeholder in the reference and is marked as one."""
+    lines = text.split("\n")
+    out = []
+    for i, line in enumerate(lines):
+        cols = line.split("\t")
+        if i == 0:
+            if len(cols) == 5:
+                cols.append("evidence")
+            out.append("\t".join(cols))
+            continue
+        key = (cols[0], cols[1]) if len(cols) > 1 else None
+        if key in PRINT_MOVES:
+            cols = (cols + [""] * 6)[:6]
+            if not cols[5]:
+                proposal, printed = PRINT_MOVES[key]
+                mark = " (placeholder)" if proposal == "1" else ""
+                cols[5] = f"proposal {proposal}{mark}, print {printed}"
+                line = "\t".join(cols)
+        out.append(line)
+    return "\n".join(out)
+
+
 def parse_range(text: str) -> tuple[str, str]:
     """`FROM:TO` as a pair; a typo must not select nothing and pass `--check`."""
     if text.count(":") != 1:
@@ -726,6 +776,7 @@ def reset_state() -> None:
     PRINT.clear()
     PRINT_NOTES.clear()
     PRINT_WITHHELD.clear()
+    PRINT_MOVES.clear()
     QUEUED_DIFFERS.clear()
     PROPOSAL_ONLY.clear()
 
@@ -902,15 +953,23 @@ def main(argv: list[str] | None = None) -> int:
         for eid, pub, page in sorted(sample):
             print(f"  {eid}\t{pub}\t{page}")
 
+    # A print page that differs from the proposal gets its `proposal N, print M` note.
+    print_changed = False
+    if PRINT_MOVES and print_path.exists():
+        old_print = print_path.read_text(encoding="utf-8")
+        new_print = with_move_notes(old_print)
+        print_changed = new_print != old_print
     if opts.write:
         for entry, text in changed:
             entry.path.write_text(text, encoding="utf-8")
+        if print_changed:
+            print_path.write_text(new_print, encoding="utf-8")
         if review_changed:
             write_review(review_path, merged, order)
         print("written; run `cargo xtask corpus-fmt` next")
         return 0
     if opts.check:
-        if changed or review_changed:
+        if changed or review_changed or print_changed:
             print("STALE: a write would change files", file=sys.stderr)
             return 1
         print("ok")

@@ -6,6 +6,8 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "versatile_intimidation", path = "json/class_ability_hellknight_disciplines.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
 
 [fields]
 kind = "class_option"

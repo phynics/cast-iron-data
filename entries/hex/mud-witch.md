@@ -6,6 +6,9 @@ source_ids = ["monster-codex"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "mud_witch", path = "json/class_ability_hexes.json" },
 ]
+[[sources]]
+publication = "monster-codex"
+page = "105"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "rabbit_punch", path = "json/class_ability_style_strikes.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "6"
 
 [fields]
 kind = "class_option"

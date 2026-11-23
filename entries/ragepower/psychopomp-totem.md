@@ -6,6 +6,9 @@ source_ids = ["pathfinder-139-the-dead-road"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "psychopomp_totem", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "pathfinder-139-the-dead-road"
+page = "67"
 
 [fields]
 kind = "class_option"
