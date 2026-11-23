@@ -34,7 +34,7 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-## Pale Lavender Ellipsoid; Lavender and Green Ellipsoid
+## Pale Lavender Ellipsoid
 
 ::: statblock
 Aura: strong varied
@@ -46,12 +46,10 @@ Weight: —
 
 #### Description
 
-These stones work somewhat like a [rod of absorption](ref/magic-rod/rod-of-absorption). The **pale
-lavender ioun stone** absorbs spells of 4th level or lower, but only as a
-[readied action](ref/rule/ready). After absorbing 20 spell levels, the stone burns out and turns to
-[dull gray](ref/magic-ioun/dull-gray-stone), forever useless. The **lavender and green ioun stone**
-behaves the same way, but can absorb spells 8th level or lower, and burns out after 50 spell levels
-are absorbed. Neither stone can be used to empower spells.
+This stone works somewhat like a [rod of absorption](ref/magic-rod/rod-of-absorption). It absorbs
+spells of 4th level or lower, but only as a [readied action](ref/rule/ready). After absorbing 20
+spell levels, the stone burns out and turns to [dull gray](ref/magic-ioun/dull-gray-stone), forever
+useless. It cannot be used to empower spells.
 
 #### Resonance
 
@@ -76,17 +74,4 @@ out and turns dull gray.
 
 **Price** 2,500 gp\
 This stone absorbs spells of 1st level or lower (as a readied action). After absorbing 5 spell
-levels, the stone burns out and turns dull gray.
-
-### Flawed Lavender and Green Ellipsoid Ioun Stone
-
-**Price** 36,000 gp\
-This stone absorbs spells of 6th level or lower (as a readied action), which deals 2 hit points of
-damage to the wearer for each spell level absorbed. After absorbing 50 spell levels, the stone burns
-out and turns dull gray.
-
-### Cracked Lavender and Green Ellipsoid Ioun Stone
-
-**Price** 10,000 gp\
-This stone absorbs spells of 2nd level or lower (as a readied action). After absorbing 10 spell
 levels, the stone burns out and turns dull gray.

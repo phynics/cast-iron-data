@@ -186,49 +186,55 @@ completely depleted of prey. If a brambleblight uproots itself and moves on to a
 region it blighted soon returns to its previous state. Likewise, when a brambleblight is killed, its
 tended patch withers and dies within days, eventually giving way once again to native vegetation.
 
-## Animated Bramble {#stat-animated-bramble}
+**Animated Bramble**
 
 _The following is an example of the animated vegetation that a brambleblight uses to help protect
 its rotting and thorny domain._
 
-N Large construct
+N Large construct\
+**Init** -1; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
+[low-light vision](ref/rule/low-light-vision); Perception -5
 
-::: statblock
-Init: -1
-Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception -5
-:::
+**Armor class:** 15
 
-### Defense
+**Touch:** 8
 
-::: statblock
-Armor class: 15
-Touch: 8
-Flat-footed: 15
-AC modifiers: -1 Dex, +7 natural, -1 size
-Hit points: 52 (4d10+30)
-Fort: +1
-Ref: +0
-Will: -4
-Defensive abilities: [hardness](ref/umr/hardness) 5
-Immune: [construct traits](ref/umr/construct-traits)
-:::
+**Flat-footed:** 15
 
-### Offense
+**AC modifiers:** -1 Dex, +7 natural, -1 size
 
-::: statblock
-Speed: 20 ft.
-Constrict: 1d6+9
-Melee: slam +9 (1d6+9 plus [grab](ref/umr/grab))
-Pull: slam, 5 ft.
-Reach: 10
-Space: 10
-:::
+**Hit points:** 52 (4d10+30)
 
-### Statistics
+**Fort:** +1
 
-::: statblock
-Ability scores: Str 22, Dex 8, Con -, Int -, Wis 1, Cha 1
-Base attack bonus: +4
-Combat maneuver bonus: +11
-Combat maneuver defense: 20 (can't be tripped)
-:::
+**Ref:** +0
+
+**Will:** -4
+
+**Defensive abilities:** [hardness](ref/umr/hardness) 5
+
+**Immune:** [construct traits](ref/umr/construct-traits)
+
+**Offense**
+
+**Speed:** 20 ft.
+
+**Constrict:** 1d6+9
+
+**Melee:** slam +9 (1d6+9 plus [grab](ref/umr/grab))
+
+**Pull:** slam, 5 ft.
+
+**Reach:** 10
+
+**Space:** 10
+
+**Statistics**
+
+**Ability scores:** Str 22, Dex 8, Con -, Int -, Wis 1, Cha 1
+
+**Base attack bonus:** +4
+
+**Combat maneuver bonus:** +11
+
+**Combat maneuver defense:** 20 (can't be tripped)
