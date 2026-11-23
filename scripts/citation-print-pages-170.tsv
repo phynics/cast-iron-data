@@ -568,6 +568,7 @@ ref/trait/betrayed-ex-noble	blood-of-the-elements	27	print
 ref/trait/big-boned	blood-of-fiends	22	print	
 ref/trait/bitter-heart	agents-of-evil	25	print	
 ref/trait/bitter	antiheros-handbook	6	print	
+ref/trait/blessed-mutt	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/blessed-of-the-norns	blood-of-the-coven	3	print	
 ref/trait/blessing-of-darkness	blood-of-fiends	30	print	
 ref/trait/blood-stalker	blood-of-fiends	21	print	
@@ -585,6 +586,7 @@ ref/trait/carpenden-roof-runner	andoran-spirit-of-liberty	19	print
 ref/trait/chain-master	blood-of-fiends	22	print	
 ref/trait/channel-the-earth	blood-of-the-elements	21	print	
 ref/trait/child-of-the-moon	blood-of-the-moon	33	print	
+ref/trait/clamber	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/clockwork-surgeon	blood-of-the-ancients	13	print	
 ref/trait/contemptuous	antiheros-handbook	7	print	
 ref/trait/coven-casting	blood-of-the-coven	3	print	
@@ -670,6 +672,7 @@ ref/trait/mechanical-aptitude	blood-of-the-ancients	19	print
 ref/trait/merabian-mentorship	blood-of-the-elements	11	print	
 ref/trait/motherless	blood-of-fiends	30	print	
 ref/trait/naturalist	blood-of-the-ancients	11	print	
+ref/trait/nauseating-spit	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/nexian-corpse-hunter	advanced-class-origins	7	print	
 ref/trait/nightstalls-escapee	blood-of-the-elements	7	print	
 ref/trait/nightstalls-navigator	black-markets	8	print	
@@ -704,6 +707,7 @@ ref/trait/repel-sin	blood-of-fiends	23	print
 ref/trait/repulsive	blood-of-fiends	20	print	
 ref/trait/reviving-rest	blood-of-the-moon	11	print	
 ref/trait/rough-and-ready	adventurers-armory	31	print	
+ref/trait/running-pig	wilderness-origins	23	print		the mount trait is printed under its name in the Mount Traits section on this page
 ref/trait/sacred-orienteer	blood-of-the-ancients	13	print	
 ref/trait/scarred	antiheros-handbook	6	print	
 ref/trait/scholar-of-the-analects	arcane-anthology	10	print	
@@ -2697,6 +2701,7 @@ ref/hex/nightmares	advanced-players-guide	68	print
 ref/hex/retribution	advanced-players-guide	68	print	
 ref/hex/slumber	advanced-players-guide	66	print	
 ref/hex/tongues	advanced-players-guide	67	print	
+ref/hex/verdant-familiar	wilderness-origins	17	print		the witch hex is printed under its name on this page
 ref/hex/vision	advanced-players-guide	68	print	
 ref/hex/ward	advanced-players-guide	67	print	
 ref/hex/waxen-image	advanced-players-guide	68	print	
@@ -3953,7 +3958,7 @@ ref/discovery/tumor-familiar	ultimate-magic	17	print
 ref/discovery/vestigial-arm	ultimate-magic	18	print		
 ref/discovery/volumizer	ultimate-wilderness	34	print		
 ref/discovery/wings	ultimate-magic	18	print		
-ref/eidolon/kami	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/kami	wilderness-origins	18	print		the Kami (Eidolon Subtype) heading is on this page; the description starts here
 ref/eidolon/plant	ultimate-wilderness	95	print		the Plant Eidolon Subtype heading is on this page; the description starts here
 ref/evolution/basic-magic	ultimate-magic	76	print		
 ref/evolution/channel-resistance	ultimate-magic	77	print		
@@ -4033,12 +4038,12 @@ ref/ragepower/eclipsing-rage	ultimate-wilderness	36	print
 ref/ragepower/erratic-charge	villain-codex	176	print		
 ref/ragepower/furious-barrage	villain-codex	176	print		
 ref/ragepower/furious-draw	villain-codex	176	print		
-ref/ragepower/greater-ancestor-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-ancestor-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
 ref/ragepower/greater-atavism-totem	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/greater-eclipsing-rage	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
 ref/ragepower/greater-erratic-charge	villain-codex		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-moon-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-spire-totem	wilderness-origins		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-moon-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
+ref/ragepower/greater-spire-totem	wilderness-origins	24	print		the rage power is printed as Name Totem, Greater (Su) in the Totems of the Quahs list on this page
 ref/ragepower/greater-tyrant-totem	ultimate-wilderness	36	print		the rage power is printed as Name, Greater (Su) on this page
 ref/ragepower/hissing-rage	ultimate-wilderness	36	print		
 ref/ragepower/lesser-ancestor-totem	wilderness-origins	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side

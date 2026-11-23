@@ -150,7 +150,6 @@ ref/eidolon/aeon	class_option	plane-hoppers-handbook	unconfirmed	24	only a short
 ref/eidolon/astral	class_option	plane-hoppers-handbook	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/deepwater	class_option	blood-of-the-sea	unconfirmed	23	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/genie	class_option	elemental-masters-handbook	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/eidolon/kami	class_option	wilderness-origins	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/radiant	class_option	plane-hoppers-handbook	unconfirmed	25	only a short title is on the proposed page, which proves little
 ref/eidolon/storykin	class_option	plane-hoppers-handbook	unconfirmed	26	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/eidolon/twinned	class_option	legacy-of-the-first-world	unconfirmed	18	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -160,7 +159,6 @@ ref/hex/cackle	class_option	monster-summoners-handbook	book-differs		the referen
 ref/hex/cackle	class_option	people-of-the-wastes	book-differs		the reference lists the entry only in other books
 ref/hex/mothers-eye	class_option	legacy-of-the-first-world	unconfirmed	17	only a short title is on the proposed page, which proves little
 ref/hex/soothsayer	class_option	heroes-of-the-high-court	book-differs		the reference lists the entry only in other books
-ref/hex/verdant-familiar	class_option	wilderness-origins	no-page		
 ref/invtalent/domino-effect	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/invtalent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
 ref/invtalent/greater-numerical-alchemy	class_option	disciples-doctrine	unconfirmed	17	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -180,7 +178,6 @@ ref/phrenicamp/dragons-breath	class_option	occult-origins	unconfirmed	16	only a 
 ref/ragepower/armor-ripper	class_option	blood-of-the-moon	unconfirmed	13	only a short title is on the proposed page, which proves little
 ref/ragepower/flight-response	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-air-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-ancestor-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-atavism-totem	class_option	villain-codex	unconfirmed	140	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-cult-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-daemon-totem	class_option	horror-adventures	unconfirmed	46	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -188,8 +185,6 @@ ref/ragepower/greater-earth-totem	class_option	blood-of-the-elements	unconfirmed
 ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-moon-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-spire-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-sun-totem	class_option	qadira-jewel-of-the-east	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-water-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -872,9 +867,7 @@ ref/racial-trait/human/skilled	racial_trait	ultimate-wilderness	book-differs		th
 ref/trait/absolute-loyalty	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/affinity-for-the-elements	trait	faiths-of-corruption	unconfirmed	19	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/best-customer	trait	jade-regent-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/blessed-mutt	trait	wilderness-origins	no-page		
 ref/trait/calistrian-courtesan	trait	elves-of-golarion	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/trait/clamber	trait	wilderness-origins	no-page		
 ref/trait/daring-doomsayer	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books
@@ -890,9 +883,7 @@ ref/trait/goblin-bravery	trait	goblins-of-golarion	book-differs		the reference l
 ref/trait/influence	trait	ultimate-campaign	unconfirmed	60	title is a common word: it is on the proposed page and the one before, and as a heading on another page, so the page is not settled
 ref/trait/inspiring-rush	trait	knights-of-the-inner-sea	page-format	0	
 ref/trait/mischievous-smile	trait	divine-anthology	no-page		
-ref/trait/nauseating-spit	trait	wilderness-origins	no-page		
 ref/trait/portentous-perception	trait	second-darkness-players-guide	book-differs		the reference lists the entry only in other books
-ref/trait/running-pig	trait	wilderness-origins	no-page		
 ref/trait/sandpoint-faithful	trait	rise-of-the-runelords-anniversary-edition-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/savage-breaker	trait	ultimate-equipment	book-differs		the reference lists the entry only in other books
 ref/trait/savanna-child	trait	legacy-of-fire-players-guide	book-differs		the reference lists the entry only in other books
