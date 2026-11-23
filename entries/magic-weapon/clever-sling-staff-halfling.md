@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "12th"
 +++
 
-**Aura** moderate divination; **CL** 12th\
-**Slot** none; **Price** 60,320 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 12th
+Slot: none
+Price: 60,320 gp
+Weight: 3 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -32,6 +37,7 @@ reload a clever sling staff as if it were a sling.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste), [true seeing](ref/spell/true-seeing), creator must be a halfling;
-**Price** 30,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste), [true seeing](ref/spell/true-seeing), creator must be a halfling
+Price: 30,320 gp
+:::

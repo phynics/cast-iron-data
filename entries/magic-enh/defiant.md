@@ -22,8 +22,13 @@ caster_level = "8th"
 
 ## Defiant
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: armor/shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 Armor and shields with this special ability excel at blocking the attacks of certain types of
 creatures, similar to a [bane](ref/magic-enh/bane) weapon's excelling against certain foes. Against
@@ -35,7 +40,9 @@ designated foe, use the table for the _[bane](ref/spell/bane)_ weapon special ab
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: +1 bonus
+:::
 
 > _See also: [defiant weapon enhancement](ref/magic-enh/defiant-weapon)_

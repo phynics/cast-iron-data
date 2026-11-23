@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** shield; **Price** 19,912 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: shield
+Price: 19,912 gp
+Weight: 6 lbs.
+:::
 
 Considered the greatest archers among the Shoanti people, the folk of the Lyrune-Quah tribe treasure
 this +2 [klar](ref/eq-armor/klar) shaped from the skull of a lion. The specific shape of the skull
@@ -36,6 +41,7 @@ it were holding a [sunrod](ref/eq-misc/sunrod).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wandering star motes](ref/spell/wandering-star-motes), creator must be proficient with shortbow;
-**Price** 10,037 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wandering star motes](ref/spell/wandering-star-motes), creator must be proficient with shortbow
+Price: 10,037 gp
+:::

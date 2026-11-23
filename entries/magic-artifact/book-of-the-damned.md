@@ -23,8 +23,13 @@ aura = "overwhelming all schools [chaotic, evil, lawful]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming all schools \[chaotic, evil, lawful\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 40 lbs.
+::: statblock
+Aura: overwhelming all schools \[chaotic, evil, lawful\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 40 lbs.
+:::
 
 The Book of the Damned contains the greatest collection of profane lore in the multiverse. This
 blasphemous book consists of numerous scattered chapters divided into three volumes:

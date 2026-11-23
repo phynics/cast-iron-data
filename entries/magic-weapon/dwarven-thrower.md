@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 60,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 60,312 gp
+Weight: 5 lbs.
+:::
 
 This weapon functions as a +2 [warhammer](ref/eq-weapon/warhammer) in the hands of most users. Yet
 in the hands of a dwarf, the warhammer gains an additional +1 enhancement bonus (for a total
@@ -35,5 +40,7 @@ target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a dwarf of at least 10th level; **Price** 30,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a dwarf of at least 10th level
+Price: 30,312 gp
+:::

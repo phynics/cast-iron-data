@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Aura** moderate evocation; **CL** 5th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 5th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A glorious weapon glows with a dazzling light equal to a _[daylight](ref/spell/daylight)_ spell when
 drawn. The wielder cannot suppress this light, though it can be temporarily suppressed by any effect
@@ -34,6 +39,7 @@ multiple over ×2. Only a melee weapon can have the glorious ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [daylight](ref/spell/daylight),
-[flare](ref/spell/flare); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [daylight](ref/spell/daylight), [flare](ref/spell/flare)
+Price: -
+:::

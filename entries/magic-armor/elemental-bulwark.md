@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** armor; **Price** 12,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: armor
+Price: 12,300 gp
+Weight: 40 lbs.
+:::
 
 This +2 [chainmail](ref/eq-armor/chainmail) is attuned to a specific kind of element when created
 (acid, cold, electricity, or fire) and takes on a colored sheen based on the elemental type (green
@@ -33,5 +38,7 @@ effect is a free action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fire shield](ref/spell/fire-shield); **Price** 6,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fire shield](ref/spell/fire-shield)
+Price: 6,300 gp
+:::

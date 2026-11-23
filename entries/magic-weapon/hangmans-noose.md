@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 18,301 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 18,301 gp
+Weight: 2 lbs.
+:::
 
 This +1 [whip](ref/eq-weapon/whip) is made from a hemp rope that once served as the noose in a
 gallows. The countless executions committed with the rope have left an indelible mark on the weapon.
@@ -42,5 +47,7 @@ used as a +1 whip and repairs itself after 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope), [suffocation](ref/spell/suffocation); **Price** 9,301 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope), [suffocation](ref/spell/suffocation)
+Price: 9,301 gp
+:::

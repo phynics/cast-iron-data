@@ -20,8 +20,13 @@ aura = "moderate necromancy and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy and transmutation; **CL** 9th\
-**Slot** none; **Price** 13,850 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate necromancy and transmutation
+CL: 9th
+Slot: none
+Price: 13,850 gp
+Weight: 8 lbs.
+:::
 
 This scalpel-sharp [greatsword](ref/eq-weapon/greatsword) has a simple black handle and crosspiece,
 and is made of unusually dark steel etched with an organic wave pattern. Once per day, the wielder
@@ -35,5 +40,7 @@ is successful, the target is decapitated instead of merely slain.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [slay living](ref/spell/slay-living); **Price** 7,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [slay living](ref/spell/slay-living)
+Price: 7,100 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on one-handed or light piercing melee weapons. A flamboyant
 weapon has its own magical reservoir of panache that its wielder can spend to use her deeds. Usually
@@ -34,5 +39,7 @@ natural 1. When the wielder does so, she must take the second result, even if it
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism), creator must be a panache user; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism), creator must be a panache user
+Price: -
+:::

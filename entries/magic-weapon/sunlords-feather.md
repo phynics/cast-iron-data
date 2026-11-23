@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 1,100 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 1,100 gp
+Weight: -
+:::
 
 Named after [Sarenrae's](ref/faith/sarenrae) herald,
 [Sunlord Thalachos](ref/monster/herald-sunlord-thalachos), this +1 [flaming](ref/magic-enh/flaming)
@@ -34,6 +39,7 @@ duration expires, the remaining doves fly off into the horizon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flame strike](ref/spell/flame-strike), [holy smite](ref/spell/holy-smite),
-[summon swarm](ref/spell/summon-swarm), creator must be good; **Cost** 550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flame strike](ref/spell/flame-strike), [holy smite](ref/spell/holy-smite), [summon swarm](ref/spell/summon-swarm), creator must be good
+Cost: 550 gp
+:::

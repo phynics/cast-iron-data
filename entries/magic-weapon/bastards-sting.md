@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy; **CL** 18th\
-**Slot** none; **Price** 123,035 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 18th
+Slot: none
+Price: 123,035 gp
+Weight: 6 lbs.
+:::
 
 This +2 [adamantine](ref/eq-material/adamantine) [bastard sword](ref/eq-weapon/bastard-sword)
 becomes a +5 [unholy](ref/magic-enh/unholy) adamantine bastard sword in the hands of an antipaladin.
@@ -36,6 +41,7 @@ effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[unholy aura](ref/spell/unholy-aura), [unholy blight](ref/spell/unholy-blight), creator must be
-evil; **Price** 63,035 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [unholy aura](ref/spell/unholy-aura), [unholy blight](ref/spell/unholy-blight), creator must be evil
+Price: 63,035 gp
+:::

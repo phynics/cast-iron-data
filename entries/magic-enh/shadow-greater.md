@@ -23,12 +23,19 @@ aura = "strong illusion"
 caster_level = "15th"
 +++
 
-**Aura** strong illusion; **CL** 15th\
-**Slot** armor quality; **Price** +33,750 gp; **Weight** -
+::: statblock
+Aura: strong illusion
+CL: 15th
+Slot: armor quality
+Price: +33,750 gp
+Weight: -
+:::
 
 As [shadow](ref/magic-enh/shadow), except it grants a +15 competence bonus on Stealth checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence); **Price** +16,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence)
+Price: +16,875 gp
+:::

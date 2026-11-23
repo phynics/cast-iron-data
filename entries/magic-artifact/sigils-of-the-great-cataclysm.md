@@ -20,8 +20,13 @@ aura = "strong enchantment, evocation, necromancy, and transmutation [evil]"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment, evocation, necromancy, and transmutation \[evil\]; **CL** 18th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong enchantment, evocation, necromancy, and transmutation \[evil\]
+CL: 18th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Sigils of the great cataclysm are collections of items designed to bring about doom and suffering,
 usually to a city or large town. A set of sigils consists of seven seals of stone, clay, or black

@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 The members of the [Pathfinder Society's](ref/rule/aff-scholars) administrative body, the
 Decemvirate, retain their anonymity by wearing closefaced, magically empowered helmets while

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 15,180 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 15,180 gp
+Weight: -
+:::
 
 Gale armor is a suit of +3 [silken ceremonial](ref/eq-armor/silken-ceremonial) armor that floats
 weightlessly when not worn. Gale armor has no weight of its own and confers limited weightlessness
@@ -33,5 +38,7 @@ by one category.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[air walk](ref/spell/air-walk), [glide](ref/spell/glide); **Price** 7,680 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [air walk](ref/spell/air-walk), [glide](ref/spell/glide)
+Price: 7,680 gp
+:::

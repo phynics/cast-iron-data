@@ -20,8 +20,13 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and necromancy \[lawful\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs. each
+::: statblock
+Aura: strong abjuration and necromancy \[lawful\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs. each
+:::
 
 Each of these distinctive jars contains an organ associated with both a trait of the valiant knight
 Arazni and an aspect of the lingering power of the god Aroden. Any [cleric](ref/class/cleric) who

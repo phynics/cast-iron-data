@@ -20,8 +20,13 @@ aura = "strong transmutation and necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation and necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong transmutation and necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This tarnished gold scepter's ends are shaped into sickly, withered-looking leaves. The scepter's
 rod has four slots, into which four large rings can be placed. Each ring is engraved with a phrase

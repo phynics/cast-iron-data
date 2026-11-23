@@ -20,8 +20,13 @@ aura = "overwhelming conjuration [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming conjuration \[evil, lawful\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: overwhelming conjuration \[evil, lawful\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 Within a wheel of worlds lie all possibilities and none, and while those who use them touch
 countless worlds, their journeys end the same way. A wheel of worlds appears as a spherical

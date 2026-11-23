@@ -20,8 +20,13 @@ aura = "overwhelming conjuration"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming conjuration; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming conjuration
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Sloth is made of blue-green glowing [abysium](ref/eq-material/abysium). As long as the
 Shard of Sloth is carried, its owner can use [summon monster III](ref/spell/summon-monster-3) as a

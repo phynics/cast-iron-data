@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** armor; **Price** 2,865 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: armor
+Price: 2,865 gp
+Weight: 25 lbs.
+:::
 
 Typically crafted in the nation of Geb, this morbid +1 [hide](ref/eq-armor/hide) armor is stitched
 from the flesh torn from the bodies of [ghoul](ref/monster/ghoul) servants as a punishment for
@@ -33,5 +38,7 @@ DC 13 Fortitude save or contract [ghoul fever](ref/disease/ghoul-fever).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ghoul touch](ref/spell/ghoul-touch); **Price** 1,515 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ghoul touch](ref/spell/ghoul-touch)
+Price: 1,515 gp
+:::

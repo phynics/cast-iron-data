@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Cocooning armor protects the wearer against planar hazards when she is defenseless, enveloping her
 in a thin, protective membrane. If the wearer falls unconscious on a plane other than her native
@@ -31,5 +36,7 @@ she remains unconscious.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[planar adaptation](ref/spell/planar-adaptation); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [planar adaptation](ref/spell/planar-adaptation)
+Price: +1 bonus
+:::

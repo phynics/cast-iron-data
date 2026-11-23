@@ -20,8 +20,13 @@ aura = "overwhelming illusion (chaotic, evil)"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming illusion (chaotic, evil); **CL** 25th\
-**Slot** none; **Price** -; **Weight** 80 lbs.
+::: statblock
+Aura: overwhelming illusion (chaotic, evil)
+CL: 25th
+Slot: none
+Price: -
+Weight: 80 lbs.
+:::
 
 The imago lens appears as a 3-foot-diameter semi-transparent disc of amber gripped in the jaws of a
 metal demonic frame. This device functions as a

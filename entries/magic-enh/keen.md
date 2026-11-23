@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This ability doubles the threat range of a weapon. Only piercing or slashing melee weapons can be
 keen. If you roll this special ability randomly for an inappropriate weapon, reroll. This benefit
@@ -34,5 +39,7 @@ feat).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge)
+Price: -
+:::

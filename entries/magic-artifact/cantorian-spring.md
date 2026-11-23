@@ -20,8 +20,13 @@ aura = "powerful transmutation"
 caster_level = "20th"
 +++
 
-**Aura** powerful transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: powerful transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This long, straight staff bears a rough crystal at the top, wrapped in wire extending to the base.
 When the staff moves, something liquid shifts within the crystal. The staff tends to right itself if

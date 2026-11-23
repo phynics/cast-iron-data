@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This sphere originates within the Negative Energy Plane as either a naturally occurring phenomenon
 or a normal [sphere of annihilation](ref/magic-artifact/sphere-of-annihilation) empowered or even

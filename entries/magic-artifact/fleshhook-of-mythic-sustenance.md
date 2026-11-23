@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 The fleshhook is an ancient ceremonial artifact used by high priests to serve the sacred feast-meat
 from their cooking pots. This 4-foot-long wooden pole is wrapped with three metal bands etched with

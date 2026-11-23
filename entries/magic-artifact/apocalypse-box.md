@@ -20,8 +20,13 @@ aura = "overwhelming conjuration and necromancy"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming conjuration and necromancy; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming conjuration and necromancy
+CL: 25th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This small, innocuous, black wooden box appears randomly throughout the multiverse, drawn to great
 heroes, greedy rulers, and desperate (and often morally ambiguous) mortals. The Apocalypse Box

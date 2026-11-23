@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 39,305 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 39,305 gp
+Weight: 3 lbs.
+:::
 
 This +1 [unholy](ref/magic-enh/unholy) [scorpion whip](ref/eq-weapon/scorpion-whip) is fashioned
 from skin flayed from a [barbed devil's](ref/monster/devil-barbed-devil-hamatula) back. It grants
@@ -39,6 +44,7 @@ flames until the next day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear), [scorching ray](ref/spell/scorching-ray),
-[unholy blight](ref/spell/unholy-blight); **Price** 19,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear), [scorching ray](ref/spell/scorching-ray), [unholy blight](ref/spell/unholy-blight)
+Price: 19,805 gp
+:::

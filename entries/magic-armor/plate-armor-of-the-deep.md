@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** armor; **Price** 24,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: armor
+Price: 24,650 gp
+Weight: 50 lbs.
+:::
 
 This +1 [full plate](ref/eq-armor/full-plate) is decorated with a wave and fish motif and often has
 tiny fins and scales worked into the design. Although the armor remains as heavy and bulky as normal
@@ -34,6 +39,7 @@ language.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement), [tongues](ref/spell/tongues),
-[water breathing](ref/spell/water-breathing); **Price** 13,150 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement), [tongues](ref/spell/tongues), [water breathing](ref/spell/water-breathing)
+Price: 13,150 gp
+:::

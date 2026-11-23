@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 28,165 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 28,165 gp
+Weight: 25 lbs.
+:::
 
 Cut from the colorful flesh of an enormous frog, this +1 [hide](ref/eq-armor/hide) armor squishes
 thickly and tightly around the body as it is donned. Light sheens brightly off the slippery skin,
@@ -45,5 +50,7 @@ attack (including any attacks of opportunity).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape II](ref/spell/beast-shape-2), [poison](ref/spell/poison); **Price** 14,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape II](ref/spell/beast-shape-2), [poison](ref/spell/poison)
+Price: 14,000 gp
+:::

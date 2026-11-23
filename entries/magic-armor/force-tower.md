@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shield; **Price** 46,030 gp; **Weight** 22 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shield
+Price: 46,030 gp
+Weight: 22 lbs.
+:::
 
 This +1 [arrow deflection](ref/magic-enh/arrow-deflection)
 [ghost touch](ref/magic-enh/ghost-touch-armor) [mithral](ref/eq-material/mithral)
@@ -35,6 +40,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[etherealness](ref/spell/etherealness), [resilient sphere](ref/spell/resilient-sphere),
-[shield](ref/spell/shield); **Price** 23,530 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [etherealness](ref/spell/etherealness), [resilient sphere](ref/spell/resilient-sphere), [shield](ref/spell/shield)
+Price: 23,530 gp
+:::

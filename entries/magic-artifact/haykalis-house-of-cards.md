@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This item operates as a standard 22-card
 [deck of many things](ref/magic-artifact/deck-of-many-things), save that if its wielder takes 5

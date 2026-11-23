@@ -20,8 +20,13 @@ aura = "moderate divination and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination and evocation; **CL** 8th\
-**Slot** none; **Price** 40,310 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate divination and evocation
+CL: 8th
+Slot: none
+Price: 40,310 gp
+Weight: 12 lbs.
+:::
 
 This polearm's axe blade is shaped like a snarling dragon, its maw stretched wide as it closes for
 the killing blow. The haft is engraved with the circling image of a dragon in flight. The head of
@@ -31,6 +36,7 @@ dragon, the wielder can have that attack ignore the dragon's DR as a free action
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[discern location](ref/spell/discern-location), [light](ref/spell/light),
-[summon monster I](ref/spell/summon-monster-1); **Price** 20,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [discern location](ref/spell/discern-location), [light](ref/spell/light), [summon monster I](ref/spell/summon-monster-1)
+Price: 20,310 gp
+:::

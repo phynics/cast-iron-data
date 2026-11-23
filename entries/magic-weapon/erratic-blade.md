@@ -20,8 +20,13 @@ aura = "moderate abjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and transmutation; **CL** 11th\
-**Slot** weapon; **Price** 22,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate abjuration and transmutation
+CL: 11th
+Slot: weapon
+Price: 22,315 gp
+Weight: 4 lbs.
+:::
 
 The blade of this +1 [transformative](ref/magic-enh/transformative)
 [scimitar](ref/eq-weapon/scimitar) is adorned with gemstones that shift in size and coloration. An
@@ -37,6 +42,7 @@ wild magic trait. The effects of multiple hits from an erratic blade don't stack
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[antimagic field](ref/spell/antimagic-field), [major creation](ref/spell/major-creation); **Price**
-11,315 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [antimagic field](ref/spell/antimagic-field), [major creation](ref/spell/major-creation)
+Price: 11,315 gp
+:::

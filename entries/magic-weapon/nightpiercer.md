@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** wrists; **Price** 12,700 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: wrists
+Price: 12,700 gp
+Weight: 12 lbs.
+:::
 
 This +1 [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) is carved in the shape of
 a stylized whippoorwill; the stirrup resembles the head, the limbs look like the wings, and the
@@ -33,6 +38,7 @@ creature, reducing all of the target's speeds by half (to a minimum of 5 feet) f
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift); **Price**
-6,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift)
+Price: 6,700 gp
+:::

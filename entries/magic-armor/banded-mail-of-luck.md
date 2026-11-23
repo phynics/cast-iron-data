@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment; **CL** 12th\
-**Slot** armor; **Price** 18,900 gp; **Weight** 35 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 12th
+Slot: armor
+Price: 18,900 gp
+Weight: 35 lbs.
+:::
 
 Ten 100-gp gems adorn this +3 [banded mail](ref/eq-armor/banded-mail). Once per week, the armor
 allows its wearer to require that an attack roll made against him be rerolled. He must take whatever
@@ -33,5 +38,7 @@ roll rerolled before damage is rolled.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bless](ref/spell/bless); **Price** 9,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bless](ref/spell/bless)
+Price: 9,650 gp
+:::

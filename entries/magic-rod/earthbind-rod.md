@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 26,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 26,500 gp
+Weight: 5 lbs.
+:::
 
 This rod looks like nothing more than a large, strange sliver of rough granite. This rod's magic
 interacts with stone or earth to both steady its wielder and anchor creatures the rod touches. An
@@ -39,5 +44,7 @@ wielder can attempt to [entangle](ref/rule/entangled) that creature (Fortitude D
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [stone shape](ref/spell/stone-shape); **Cost**
-13,250 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [stone shape](ref/spell/stone-shape)
+Cost: 13,250 gp
+:::

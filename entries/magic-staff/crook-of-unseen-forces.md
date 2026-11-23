@@ -21,8 +21,13 @@ aura = "strong conjuration and evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and evocation; **CL** 12th\
-**Slot** none; **Price** 56,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration and evocation
+CL: 12th
+Slot: none
+Price: 56,300 gp
+Weight: 5 lbs.
+:::
 
 This iron staff, silvered and inlaid with diamonds, curves at one end like a shepherd's crook. It
 functions as a +1/+1 [quarterstaff](ref/eq-weapon/quarterstaff) and grants an additional +2 bonus on
@@ -50,7 +55,7 @@ modifier to his CMB.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [spiritual ally](ref/spell/spiritual-ally),
-[spiritual weapon](ref/spell/spiritual-weapon), [summon monster VI](ref/spell/summon-monster-6),
-[telekinesis](ref/spell/telekinesis); **Cost** 28,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [spiritual ally](ref/spell/spiritual-ally), [spiritual weapon](ref/spell/spiritual-weapon), [summon monster VI](ref/spell/summon-monster-6), [telekinesis](ref/spell/telekinesis)
+Cost: 28,300 gp
+:::

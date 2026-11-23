@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 26,500 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 26,500 gp
+Weight: 25 lbs.
+:::
 
 As a free action, the wearer of this fine set of +1 [mithral](ref/eq-material/mithral)
 [full plate](ref/eq-armor/full-plate) can activate it, enabling him to act as though affected by a
@@ -36,5 +41,7 @@ nonproficiency penalties.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste); **Price** 18,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste)
+Price: 18,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 24,524 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 24,524 gp
+Weight: 10 lbs.
+:::
 
 This oversized +2 [warhammer](ref/eq-weapon/warhammer) is forged from blue steel and engraved with
 Abyssal runes that read, _There are no screams for those who die the frozen death._ A frost-thunder
@@ -39,5 +44,7 @@ successful DC 24 Strength check.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[icy prison](ref/spell/icy-prison); **Price** 12,424 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [icy prison](ref/spell/icy-prison)
+Price: 12,424 gp
+:::

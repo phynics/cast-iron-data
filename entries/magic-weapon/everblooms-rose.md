@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 3,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 3,000 gp
+Weight: 6 lbs.
+:::
 
 Often created by evangelistic clerics of Milani, an Everbloom's rose is a +1
 [morningstar](ref/eq-weapon/morningstar). Once per day, the wielder of an Everbloom's rose can cast
@@ -32,5 +37,7 @@ subject is immune to fear effects, she gains no bonuses from this effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bless](ref/spell/bless), [remove fear](ref/spell/remove-fear); **Price** 1,654 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bless](ref/spell/bless), [remove fear](ref/spell/remove-fear)
+Price: 1,654 gp
+:::

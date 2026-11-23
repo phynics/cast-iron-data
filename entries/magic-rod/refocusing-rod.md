@@ -20,8 +20,13 @@ aura = "moderate (no school)"
 caster_level = "10th"
 +++
 
-**Aura** moderate (no school); **CL** 10th\
-**Slot** none; **Price** 5,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate (no school)
+CL: 10th
+Slot: none
+Price: 5,000 gp
+Weight: 1 lb.
+:::
 
 Once per day, a refocusing rod allows an [occultist](ref/class/occultist) to transfer mental focus
 using the shift focus class feature without losing any points of focus. He can move focus from one
@@ -41,5 +46,7 @@ can't be used to transfer mental focus between two users.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level occultist; **Cost**
-2,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level occultist
+Cost: 2,500 gp
+:::

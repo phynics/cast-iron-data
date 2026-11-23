@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 9,345 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 9,345 gp
+Weight: 4 lbs.
+:::
 
 The blade of this +1 [sword cane](ref/eq-weapon/sword-cane) is sheathed within a polished oaken cane
 bearing a brass head in the shape of clasped hands. When sheathed, the diplomat's traveling stick
@@ -31,5 +36,7 @@ all foes within 30 feet who can see or hear him.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[eagle's splendor](ref/spell/eagles-splendor); **Price** 4,845 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [eagle's splendor](ref/spell/eagles-splendor)
+Price: 4,845 gp
+:::

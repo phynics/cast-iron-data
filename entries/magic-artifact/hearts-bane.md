@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This sword of twisted black silver has a burst of dark flames adorning the hilt and a pommel shaped
 like a pair of clawed hands. Its blade continually sheds an aura of shadow equivalent to the

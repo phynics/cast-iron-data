@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration and enchantment; **CL** 6th\
-**Slot** armor; **Price** 21,600 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment
+CL: 6th
+Slot: armor
+Price: 21,600 gp
+Weight: 50 lbs.
+:::
 
 This immaculate +2 [champion](ref/magic-enh/champion) [field plate](ref/eq-armor/field-plate) is
 commonly used by military commanders in Lastwall, Mendev, and Taldor. A sturdy metal bracket is
@@ -36,6 +41,7 @@ commander.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism), [protection from evil](ref/spell/protection-from-evil); **Price**
-11,475 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism), [protection from evil](ref/spell/protection-from-evil)
+Price: 11,475 gp
+:::

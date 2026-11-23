@@ -20,8 +20,13 @@ aura = "faint conjuration [cold]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[cold\]; **CL** 5th\
-**Slot** none; **Price** 12,250 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration \[cold\]
+CL: 5th
+Slot: none
+Price: 12,250 gp
+Weight: 1 lb.
+:::
 
 This fragile-looking wand appears to be nothing more than a sharpened icicle nearly a foot in
 length, though it is as sturdy as any wand and the ice never melts. A combination of arcane tool and
@@ -35,6 +40,7 @@ level of 7th or higher functions as a +1 [frost](ref/magic-enh/frost) dagger ins
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wand](ref/feat/craft-wand), [ice spears](ref/spell/ice-spears),
-[icicle dagger](ref/spell/icicle-dagger); **Price** 6,125 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wand](ref/feat/craft-wand), [ice spears](ref/spell/ice-spears), [icicle dagger](ref/spell/icicle-dagger)
+Price: 6,125 gp
+:::

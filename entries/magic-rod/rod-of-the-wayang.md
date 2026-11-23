@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 This rod is lacquered jet black, covered with bright white runes, and capped with crown of jagged
 smoky quartz. When the rod's wielder casts a spell of the shadow subschool, she increases the DC of
@@ -32,6 +37,7 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[greater shadow conjuration](ref/spell/shadow-conjuration-greater),
-[greater shadow evocation](ref/spell/shadow-evocation-greater); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [greater shadow conjuration](ref/spell/shadow-conjuration-greater), [greater shadow evocation](ref/spell/shadow-evocation-greater)
+Cost: 6,000 gp
+:::

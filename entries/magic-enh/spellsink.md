@@ -19,8 +19,12 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Price: +1 bonus
+Weight: -
+:::
 
 A suit of armor or a shield with this ability can absorb and neutralize magical effects, albeit on a
 limited basis. Once per day as an immediate action, the bearer can command the armor or shield to
@@ -32,5 +36,7 @@ the effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic)
+Price: +1 bonus
+:::

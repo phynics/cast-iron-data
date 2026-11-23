@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A quenching weapon thrust into a
 nonmagical fire of Medium size or smaller extinguishes it. When used against a creature of the fire
@@ -31,5 +36,7 @@ fire damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal)
+Price: -
+:::

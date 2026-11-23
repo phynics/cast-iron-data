@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** armor; **Price** 8,575 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: armor
+Price: 8,575 gp
+Weight: 20 lbs.
+:::
 
 This +2 [studded leather](ref/eq-armor/studded-leather) armor comes in a number of varieties, each
 corresponding to a specific type of terrain from the ranger's
@@ -33,6 +38,7 @@ on Stealth and Perception checks attempted while in that specific terrain.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chameleon stride](ref/spell/chameleon-stride), [perceive cues](ref/spell/perceive-cues); **Price**
-4,375 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chameleon stride](ref/spell/chameleon-stride), [perceive cues](ref/spell/perceive-cues)
+Price: 4,375 gp
+:::

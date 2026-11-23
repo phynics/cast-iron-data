@@ -20,8 +20,13 @@ aura = "powerful (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** powerful (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4,000 lbs.
+::: statblock
+Aura: powerful (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 4,000 lbs.
+:::
 
 Believed to be cut from the same mountain as the Stone Egg of Jayalakshmi, this polished cube is 3
 feet across and bears countless symbols, patterns, lines, and tiny holes that pierce it no deeper

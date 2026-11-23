@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 10,320 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 10,320 gp
+Weight: 6 lbs.
+:::
 
 The threads of this +1 [ghost touch](ref/magic-enh/ghost-touch-weapon) [net](ref/eq-weapon/net) are
 made of silver and magical force. The net has 15 hit points and can be burst with a successful DC 30
@@ -32,5 +37,7 @@ physical host unless it escapes or bursts the net.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[forcecage](ref/spell/forcecage); **Price** 5,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [forcecage](ref/spell/forcecage)
+Price: 5,320 gp
+:::

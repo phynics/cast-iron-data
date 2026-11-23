@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 15,065 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 15,065 gp
+Weight: 4 lbs.
+:::
 
 This curve-tined +1 monstrous humanoid [bane](ref/magic-enh/bane) [trident](ref/eq-weapon/trident)
 is etched with a pattern of alternating scales and shells. A triton's trident can unleash a
@@ -31,6 +36,7 @@ _[hydraulic torrent](ref/spell/hydraulic-torrent)_ once per day. The CMB for eit
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hydraulic push](ref/spell/hydraulic-push), [hydraulic torrent](ref/spell/hydraulic-torrent),
-[summon monster I](ref/spell/summon-monster-1); **Price** 7,690 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hydraulic push](ref/spell/hydraulic-push), [hydraulic torrent](ref/spell/hydraulic-torrent), [summon monster I](ref/spell/summon-monster-1)
+Price: 7,690 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 54,000 gp
+Weight: 5 lbs.
+:::
 
 Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex),
 she can use this rod's power to double the damage dealt or healed by the hex. To be augmented in
@@ -30,5 +35,7 @@ attack or aura that deals damage.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Maximize Spell](ref/feat/maximize-spell), creator
-must possess the hex class feature; **Cost** 27,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Maximize Spell](ref/feat/maximize-spell), creator must possess the hex class feature
+Cost: 27,000 gp
+:::

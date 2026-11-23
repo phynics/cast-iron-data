@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 10,330 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 10,330 gp
+Weight: 2 lbs.
+:::
 
 This +2 [shortbow](ref/eq-weapon/shortbow) is etched with equine imagery. Whenever the bow is fired
 from a mount, the wielder's mount gains a +2 deflection bonus to its AC until the start of the
@@ -29,5 +34,7 @@ wielder's next turn.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield of faith](ref/spell/shield-of-faith), [warp wood](ref/spell/warp-wood); **Price** 5,330 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield of faith](ref/spell/shield-of-faith), [warp wood](ref/spell/warp-wood)
+Price: 5,330 gp
+:::

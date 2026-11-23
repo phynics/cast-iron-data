@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Price** 63,312 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Price: 63,312 gp
+Weight: 25 lbs.
+:::
 
 This Large +4 [adamantine](ref/eq-material/adamantine) [heavy pick](ref/eq-weapon/heavy-pick) has a
 haft of petrified bone and a head of crudely formed adamantine. Blancher is unusually heavy and must
@@ -33,5 +38,7 @@ flesh, hair, and eyes are blanched and whitened.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), [bleed](ref/spell/bleed); **Price** 33,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), [bleed](ref/spell/bleed)
+Price: 33,312 gp
+:::

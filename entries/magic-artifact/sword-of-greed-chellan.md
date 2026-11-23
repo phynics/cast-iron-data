@@ -26,8 +26,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 25 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: -
+Weight: 25 lbs.
+:::
 
 Of the Seven Blades of Conviction wielded by the runelords' champions, weapons known as the
 Alara-hai to the Thassilonians, the sword of greed was the most extravagant - for it was made of

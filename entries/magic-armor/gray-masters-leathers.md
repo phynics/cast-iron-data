@@ -20,8 +20,13 @@ aura = "faint conjuration, evocation, illusion, and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration, evocation, illusion, and transmutation; **CL** 5th\
-**Slot** armor; **Price** 5,720 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint conjuration, evocation, illusion, and transmutation
+CL: 5th
+Slot: armor
+Price: 5,720 gp
+Weight: 15 lbs.
+:::
 
 This +1 [shadow](ref/magic-enh/shadow) [leather](ref/eq-armor/leather) armor is usually a neutral
 brown or gray color and is tight-fitting so it can be worn under bulky clothing or a disguise. The
@@ -30,7 +35,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid splash](ref/spell/acid-splash), [dancing lights](ref/spell/dancing-lights),
-[invisibility](ref/spell/invisibility), [mage hand](ref/spell/mage-hand),
-[silence](ref/spell/silence); **Price** 2,940 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid splash](ref/spell/acid-splash), [dancing lights](ref/spell/dancing-lights), [invisibility](ref/spell/invisibility), [mage hand](ref/spell/mage-hand), [silence](ref/spell/silence)
+Price: 2,940 gp
+:::

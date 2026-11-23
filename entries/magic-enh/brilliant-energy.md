@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** weapon quality; **Price** +4 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: weapon quality
+Price: +4 bonus
+Weight: -
+:::
 
 A brilliant energy weapon has its significant portion transformed into light, although this does not
 modify the item's weight. It always gives off light as a [torch](ref/eq-misc/torch) (20-foot
@@ -35,5 +40,7 @@ brilliant energy weapon cannot harm undead, constructs, or objects.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[gaseous form](ref/spell/gaseous-form), [continual flame](ref/spell/continual-flame); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [gaseous form](ref/spell/gaseous-form), [continual flame](ref/spell/continual-flame)
+Price: -
+:::

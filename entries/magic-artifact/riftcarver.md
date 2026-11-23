@@ -20,8 +20,13 @@ aura = "strong conjuration and evocation [earth]"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and evocation \[earth\]; **CL** 20th\
-**Slot** weapon; **Price** -; **Weight** 80 lbs.
+::: statblock
+Aura: strong conjuration and evocation \[earth\]
+CL: 20th
+Slot: weapon
+Price: -
+Weight: 80 lbs.
+:::
 
 Riftcarver is an immense weapon carved from exoskeleton plates pried from the body of the
 now-long-forgotten monstrosity that birthed [Deskari](ref/faith/deskari) into the Abyss. The demon

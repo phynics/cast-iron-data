@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 38,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 38,300 gp
+Weight: 2 lbs.
+:::
 
 This slender silver cane feels more unwieldy than its low weight might suggest, as if a hidden force
 fights its wielder for control. The staff functions as a +1/+1 [anchoring](ref/magic-enh/anchoring)
@@ -53,7 +58,7 @@ rather than 1d4 points of force damage per caster level. An anchored opponent is
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [force hook charge](ref/spell/force-hook-charge),
-[force punch](ref/spell/force-punch), [kinetic reverberation](ref/spell/kinetic-reverberation),
-[levitate](ref/spell/levitate); **Cost** 20,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [force hook charge](ref/spell/force-hook-charge), [force punch](ref/spell/force-punch), [kinetic reverberation](ref/spell/kinetic-reverberation), [levitate](ref/spell/levitate)
+Cost: 20,300 gp
+:::

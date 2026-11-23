@@ -25,8 +25,13 @@ caster_level = "7th"
 
 ## Anarchic, Axiomatic, Holy, Unholy
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 An anarchic weapon is infused with the power of chaos. It makes the weapon chaotically aligned and
 thus bypasses the corresponding [damage reduction](ref/rule/damage-reduction). It deals an extra 2d6
@@ -47,8 +52,7 @@ to - or bestows a negative level on - good creatures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and one of the
-following: [chaos hammer](ref/spell/chaos-hammer) and the creator must be chaotic (anarchic only),
-[order's wrath](ref/spell/orders-wrath) and the creator must be lawful (axiomatic only),
-[holy smite](ref/spell/holy-smite) and the creator must be good (holy only), or
-[unholy blight](ref/spell/unholy-blight) and the creator must be evil (unholy only); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and one of the following: [chaos hammer](ref/spell/chaos-hammer) and the creator must be chaotic (anarchic only), [order's wrath](ref/spell/orders-wrath) and the creator must be lawful (axiomatic only), [holy smite](ref/spell/holy-smite) and the creator must be good (holy only), or [unholy blight](ref/spell/unholy-blight) and the creator must be evil (unholy only)
+Price: -
+:::

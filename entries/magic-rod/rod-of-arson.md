@@ -23,8 +23,12 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Weight: 5 lbs.
+:::
 
 All tests indicate that this hollow metal tube is a
 [rod of flame extinguishing](ref/magic-rod/rod-of-flame-extinguishing) until its owner uses it to
@@ -46,4 +50,7 @@ action of the rod.
 
 ### Construction
 
-**Requirements** [rod of flame extinguishing](ref/magic-rod/rod-of-flame-extinguishing); **Cost** -
+::: statblock
+Requirements: [rod of flame extinguishing](ref/magic-rod/rod-of-flame-extinguishing)
+Cost: -
+:::

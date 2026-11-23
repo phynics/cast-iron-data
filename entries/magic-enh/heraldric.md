@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "13th"
 +++
 
-**Aura** strong enchantment; **CL** 13th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 13th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield with the heraldic special ability counts as a banner for the purposes of a
 [cavalier's](ref/class/cavalier) banner class feature, and as a holy symbol for any creature that
@@ -30,5 +35,7 @@ worships a deity. This special ability can be applied only to heavy shields and
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism)
+Price: +1 bonus
+:::

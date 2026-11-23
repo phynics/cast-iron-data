@@ -20,8 +20,13 @@ aura = "overwhelming abjuration and transmutation"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming abjuration and transmutation; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 500 tons
+::: statblock
+Aura: overwhelming abjuration and transmutation
+CL: 30th
+Slot: none
+Price: -
+Weight: 500 tons
+:::
 
 With its shimmering, luminous silver-gray sails and tendency to briefly shift in and out of phase
 with the Material Plane, this star-faring sailing ship is often mistaken for a ghost ship. Though

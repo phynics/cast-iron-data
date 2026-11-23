@@ -20,8 +20,13 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 15th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 The life lantern appears as a large ankh made of gold with a polished sphere of sapphire fitted into
 its center. Held in one hand by a living bearer, the life lantern glows with a radiance equal to

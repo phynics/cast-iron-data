@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. A flying creature hit with a plummeting
 weapon must immediately attempt a DC 20 [Fly](ref/skill/fly) check with a penalty equal to twice the
@@ -32,5 +37,7 @@ solid surface, it takes [falling](ref/rule/falling) damage as appropriate and is
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), [fly](ref/spell/fly); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), [fly](ref/spell/fly)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 95,318 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 95,318 gp
+Weight: 10 lbs.
+:::
 
 Instead of a blade, a swathe of absolute darkness inimical to life tips this scythe. It functions as
 a +1 [brilliant energy](ref/magic-enh/brilliant-energy) [scythe](ref/eq-weapon/scythe), except the
@@ -40,5 +45,7 @@ but leaving the creature's equipment unharmed. A victim of the void scythe can b
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disintegrate](ref/spell/disintegrate), [enervation](ref/spell/enervation); **Price** 47,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disintegrate](ref/spell/disintegrate), [enervation](ref/spell/enervation)
+Price: 47,815 gp
+:::

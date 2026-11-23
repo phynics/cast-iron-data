@@ -23,8 +23,13 @@ aura = "overwhelming (all schools)"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming (all schools); **CL** 25th\
-**Slot** none; **Price** -; **Weight** 7 lbs.
+::: statblock
+Aura: overwhelming (all schools)
+CL: 25th
+Slot: none
+Price: -
+Weight: 7 lbs.
+:::
 
 This seven-pointed star is about two feet in diameter. Each of its seven arms is composed of metal
 of a distinctive hue, but the joining of the metals is so skillfully performed that it's impossible

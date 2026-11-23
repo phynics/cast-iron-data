@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** none; **Price** 9,305 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: none
+Price: 9,305 gp
+Weight: 1 lb.
+:::
 
 This +1 [spiked gauntlet](ref/eq-weapon/spiked-gauntlet) is shaped like a skull studded with metal
 spikes. Once per day as a standard action, the wearer can strike the ground with the gauntlet,
@@ -38,5 +43,7 @@ do not affect the pit's spikes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spiked pit](ref/spell/spiked-pit); **Price** 4,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spiked pit](ref/spell/spiked-pit)
+Price: 4,805 gp
+:::

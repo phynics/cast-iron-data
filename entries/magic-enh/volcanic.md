@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "14th"
 +++
 
-**Aura** strong evocation; **CL** 14th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 14th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on heavy armor. Volcanic armor is often stony in appearance
 and gives off a soft red glow. Once per day, the wearer can command the armor to erupt, causing a
@@ -34,5 +39,7 @@ this armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[incendiary cloud](ref/spell/incendiary-cloud); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [incendiary cloud](ref/spell/incendiary-cloud)
+Price: +2 bonus
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** none; **Price** 10,453 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: none
+Price: 10,453 gp
+Weight: 3 lbs.
+:::
 
 Adorned with bone fetishes, feathers, leaves, and gnarled branches, each of which carries its own
 significance, this +1 [shortspear](ref/eq-weapon/shortspear) is often found in the hands of the
@@ -40,6 +45,7 @@ After the onyx shatters, the weapon is treated as a +1 shortspear.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate dead](ref/spell/animate-dead), [death knell](ref/spell/death-knell), onyx worth at least
-1,000 gp, creator must be an evil oracle; **Price** 5,877 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate dead](ref/spell/animate-dead), [death knell](ref/spell/death-knell), onyx worth at least 1,000 gp, creator must be an evil oracle
+Price: 5,877 gp
+:::

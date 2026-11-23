@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** none; **Price** 5,248 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: none
+Price: 5,248 gp
+Weight: 10 lbs.
+:::
 
 Three colorful silk ribbons tied at the base of this elegant, ornately chased +1
 [glaive](ref/eq-weapon/glaive) flutter gracefully with every movement and never seem to get dirty.
@@ -32,6 +37,7 @@ _[color spray](ref/spell/color-spray)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[color spray](ref/spell/color-spray), [eagle's splendor](ref/spell/eagles-splendor); **Price** 2,778
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [color spray](ref/spell/color-spray), [eagle's splendor](ref/spell/eagles-splendor)
+Price: 2,778 gp
+:::

@@ -21,8 +21,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 8th\
-**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 8th
+Slot: none
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 This gleaming staff is made of polished silver and capped with a simple gemstone. It is frequently
 given as a gift to apprentice spellcasters upon completing their tutelage. The staff allows use of
@@ -33,5 +38,7 @@ the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [magic missile](ref/spell/magic-missile),
-[shield](ref/spell/shield); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [magic missile](ref/spell/magic-missile), [shield](ref/spell/shield)
+Cost: 4,000 gp
+:::

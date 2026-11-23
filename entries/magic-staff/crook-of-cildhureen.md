@@ -21,8 +21,13 @@ aura = "moderate illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion; **CL** 9th\
-**Slot** none; **Price** 16,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 9th
+Slot: none
+Price: 16,800 gp
+Weight: 4 lbs.
+:::
 
 This twisted and gnarled black oak staff draws upon the formless magic of the Shadow Plane to allow
 use of the following spells:
@@ -40,6 +45,7 @@ these spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [major image](ref/spell/major-image),
-[shadow conjuration](ref/spell/shadow-conjuration), [shadow evocation](ref/spell/shadow-evocation);
-**Cost** 8,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [major image](ref/spell/major-image), [shadow conjuration](ref/spell/shadow-conjuration), [shadow evocation](ref/spell/shadow-evocation)
+Cost: 8,400 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "20th"
 +++
 
-**Aura** strong varied; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong varied
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Similar to the [staff of the magi](ref/magic-artifact/staff-of-the-magi), this long ivory staff is
 inlaid with platinum sigils and burns with eldritch fire when its powers are called upon. Unlike a

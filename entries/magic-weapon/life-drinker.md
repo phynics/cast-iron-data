@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 40,320 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 40,320 gp
+Weight: 12 lbs.
+:::
 
 This +1 [greataxe](ref/eq-weapon/greataxe) is favored by undead and constructs, who do not suffer
 its drawbacks. A life-drinker bestows two
@@ -38,5 +43,7 @@ Any negative levels gained by the wielder in this fashion lasts for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation); **Price** 20,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation)
+Price: 20,320 gp
+:::

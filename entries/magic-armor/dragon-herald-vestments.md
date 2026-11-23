@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** body; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: body
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 A set of dragon herald vestments is covered in scales of one of five different colors, and grants
 resist energy 5 of one type (as the _[resist energy](ref/spell/resist-energy)_ spell) to the wearer:
@@ -33,5 +38,7 @@ opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy); **Price** 15,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy)
+Price: 15,000 gp
+:::

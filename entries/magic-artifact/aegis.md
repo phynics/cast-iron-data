@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** shield; **Price** -; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: shield
+Price: -
+Weight: 15 lbs.
+:::
 
 This +4 [determination](ref/magic-enh/determination)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) has the preserved head of a

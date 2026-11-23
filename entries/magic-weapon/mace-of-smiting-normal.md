@@ -25,8 +25,13 @@ caster_level = "7th (lesser), 11th (normal)"
 
 ## Mace of Smiting
 
-**Aura** moderate transmutation; **CL** 7th (lesser), 11th (normal)\
-**Slot** none; **Price** lesser (16,012 gp), normal (75,312 gp); **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th (lesser), 11th (normal)
+Slot: none
+Price: lesser (16,012 gp), normal (75,312 gp)
+Weight: 8 lbs.
+:::
 
 A lesser mace of smiting is a +1 [adamantine](ref/eq-material/adamantine)
 [heavy mace](ref/eq-weapon/heavy-mace) with a +3 enhancement bonus against constructs. When it deals
@@ -39,5 +44,7 @@ throw). A critical hit dealt to an outsider deals ×4 damage rather than ×2.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disintegrate](ref/spell/disintegrate); **Price** 9,512 gp (lesser), 39,312 gp (normal)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disintegrate](ref/spell/disintegrate)
+Price: 9,512 gp (lesser), 39,312 gp (normal)
+:::

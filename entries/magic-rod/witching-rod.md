@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 31,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 31,000 gp
+Weight: 1 lb.
+:::
 
 This especially powerful [dowsing rod](ref/eq-misc/dowsing-rod) is typically made of a branch from
 an ancient tree or shafts forged of rare metals. When used for the dowsing skill unlock in place of
@@ -38,6 +43,7 @@ creature can produce extra uses of the witching rod in this way each day.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[control water](ref/spell/control-water), [speak with dead](ref/spell/speak-with-dead),
-[stone shape](ref/spell/stone-shape); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [control water](ref/spell/control-water), [speak with dead](ref/spell/speak-with-dead), [stone shape](ref/spell/stone-shape)
+Cost: 16,500 gp
+:::

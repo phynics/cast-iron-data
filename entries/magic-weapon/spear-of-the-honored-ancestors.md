@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 15,302 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 15,302 gp
+Weight: 6 lbs.
+:::
 
 When the wielder of this glimmering +1 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 [spear](ref/eq-weapon/spear) enters a rage, she can drum the spear against a shield or the ground as
@@ -33,6 +38,7 @@ the rage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[guidance](ref/spell/guidance), [faerie fire](ref/spell/faerie-fire),
-[plane shift](ref/spell/plane-shift); **Price** 7,802 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [guidance](ref/spell/guidance), [faerie fire](ref/spell/faerie-fire), [plane shift](ref/spell/plane-shift)
+Price: 7,802 gp
+:::

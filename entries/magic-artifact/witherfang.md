@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 While in the hands of a non-mythic creature, a witherfang functions as a +3
 [kukri](ref/eq-weapon/kukri). However, over time it begins to consume the life essence of its

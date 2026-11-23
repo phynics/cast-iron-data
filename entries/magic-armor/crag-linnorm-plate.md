@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** armor; **Price** 41,300 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: armor
+Price: 41,300 gp
+Weight: 50 lbs.
+:::
 
 This specialized suit of full plate is made from the tanned hide of a linnorm and acts as +4
 [dragonhide plate](ref/eq-armor/dragonhide-plate). If a creature is slain while wearing such armor,
@@ -38,7 +43,7 @@ minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[form of the dragon I](ref/spell/form-of-the-dragon-1),
-[freedom of movement](ref/spell/freedom-of-movement), [major curse](ref/spell/curse-major);
-**Price** 22,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [form of the dragon I](ref/spell/form-of-the-dragon-1), [freedom of movement](ref/spell/freedom-of-movement), [major curse](ref/spell/curse-major)
+Price: 22,300 gp
+:::

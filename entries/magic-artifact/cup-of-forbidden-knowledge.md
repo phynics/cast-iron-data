@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Aura** strong divination; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong divination
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This ivory goblet is decorated with carvings of impossibly tall towers rising above modest abodes.
 The goblet is always filled to the brim with wine. Any drops spilling from the cup vanish into

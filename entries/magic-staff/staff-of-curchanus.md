@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 26,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 26,600 gp
+Weight: 5 lbs.
+:::
 
 This stout staff is made of wood and capped with steel. Elongated carvings of smiling beasts adorn
 its length. The staff of Curchanus functions as a +1/+1 [quarterstaff](ref/eq-weapon/quarterstaff)
@@ -43,8 +48,7 @@ extended, as the Extend Spell feat. This does not increase the spells' level or 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [charm animal](ref/spell/charm-animal),
-[greater longstrider](ref/spell/longstrider-greater), [longstrider](ref/spell/longstrider),
-[monkey fish](ref/spell/monkey-fish), [speak with animals](ref/spell/speak-with-animals); **Cost**
-13,600 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [charm animal](ref/spell/charm-animal), [greater longstrider](ref/spell/longstrider-greater), [longstrider](ref/spell/longstrider), [monkey fish](ref/spell/monkey-fish), [speak with animals](ref/spell/speak-with-animals)
+Cost: 13,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 64,000 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 64,000 lbs.
+:::
 
 Runes adorn this massive ring of iron. Each gate of a portal network is bound to at least one other
 such gate and instantly transports any creature who steps through it to its mate, anywhere on the

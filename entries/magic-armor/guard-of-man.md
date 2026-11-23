@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** shield; **Price** 17,180 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: shield
+Price: 17,180 gp
+Weight: 45 lbs.
+:::
 
 This massive, imposing +2 [spell resistance (13)](ref/magic-enh/spell-resistance-13)
 [tower shield](ref/eq-armor/tower-shield) is a metal bulwark engraved with the main edicts of the
@@ -40,5 +45,7 @@ reduced with a successful Will saving throw, as normal.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell resistance](ref/spell/spell-resistance), creator must be an atheist; **Price** 8,680 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell resistance](ref/spell/spell-resistance), creator must be an atheist
+Price: 8,680 gp
+:::

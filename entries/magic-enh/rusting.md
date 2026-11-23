@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A weapon with the rusting special ability is so badly tarnished that no amount of cleaning can
 restore it. Although the weapon constantly sheds flecks of rust and corroded metal, it remains
@@ -33,5 +38,7 @@ including the attack of a [rust monster](ref/monster/rust-monster).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rusting grasp](ref/spell/rusting-grasp); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rusting grasp](ref/spell/rusting-grasp)
+Price: -
+:::

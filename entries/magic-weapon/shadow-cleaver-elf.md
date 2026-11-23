@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 8,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 8,310 gp
+Weight: 2 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -34,6 +39,7 @@ does not affect the miss chance resulting from total concealment or any other so
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision), creator must be an elf;
-**Price** 4,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision), creator must be an elf
+Price: 4,310 gp
+:::

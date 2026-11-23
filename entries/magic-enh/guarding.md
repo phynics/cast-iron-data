@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A guarding shield allows the wearer to transfer some or all of the shield's enhancement bonus to an
 adjacent creature's AC (this bonus stacks with all others). As a free action at the start of her
@@ -34,5 +39,7 @@ enhancement bonus on attack rolls (if any) or any other shield abilities.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield other](ref/spell/shield-other); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield other](ref/spell/shield-other)
+Price: +1 bonus
+:::

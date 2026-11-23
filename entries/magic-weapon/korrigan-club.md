@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 13,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 13,400 gp
+Weight: 3 lbs.
+:::
 
 Etchings of small, hairy folk adorn this knotty +1 [thundering](ref/magic-enh/thundering)
 [club](ref/eq-weapon/club). Once per day as a standard action, a wielder can animate his own hair to
@@ -33,6 +38,7 @@ activate this special ability until the lost length regrows.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [blindness/deafness](ref/spell/blindness-deafness);
-**Price** 6,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [blindness/deafness](ref/spell/blindness-deafness)
+Price: 6,700 gp
+:::

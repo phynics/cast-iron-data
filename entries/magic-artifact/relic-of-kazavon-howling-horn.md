@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 Shaped from Kazavon's horns into a deadly musical instrument, the Howling Horn grants the bearer a
 +4 enhancement bonus to Dexterity and Charisma. Sounding the Howling Horn forces all nonevil

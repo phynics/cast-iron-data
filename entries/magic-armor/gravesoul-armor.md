@@ -23,8 +23,12 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** armor; **Weight** 20 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: armor
+Weight: 20 lbs.
+:::
 
 This armor behaves in all ways as if it were +1
 [undead controlling](ref/magic-enh/undead-controlling)
@@ -52,4 +56,7 @@ discarded without any magical assistance.
 
 ### Construction
 
-**Requirements** +1 undead controlling studded leather; **Cost** -
+::: statblock
+Requirements: +1 undead controlling studded leather
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Calming armor is dyed or stained a soothing color, usually blue. As a swift action, the wearer can
 create a 5-foot aura around her that quiets the emotions of any agitated opponent threatening her. A
@@ -32,5 +37,7 @@ swift action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[calm emotions](ref/spell/calm-emotions); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [calm emotions](ref/spell/calm-emotions)
+Price: +1 bonus
+:::

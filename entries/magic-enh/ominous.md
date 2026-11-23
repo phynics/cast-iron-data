@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. An ominous weapon trails a shadowy haze
 behind every stroke, and moans a menacing dirge in battle. An ominous weapon adds its enhancement
@@ -33,5 +38,7 @@ condition again from the same weapon for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[doom](ref/spell/doom) or [scare](ref/spell/scare); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [doom](ref/spell/doom) or [scare](ref/spell/scare)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** shield; **Price** 20,273 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: shield
+Price: 20,273 gp
+Weight: 5 lbs.
+:::
 
 Found with disturbing frequency amid treasure caches in the wilderness of Loric Fells, this +1
 [light wooden shield](ref/eq-armor/light-wooden-shield) has what appears to be a human face
@@ -36,5 +41,7 @@ per day on command, the open mouth of the face can emit one of the two following
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear), [tongues](ref/spell/tongues); **Price** 10,713 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear), [tongues](ref/spell/tongues)
+Price: 10,713 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate abjuration; **CL** 5th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 5th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A negating weapon briefly nullifies some forms of [damage reduction](ref/rule/damage-reduction) when
 it damages a creature. Whenever a negating weapon damages a foe with DR/chaotic, DR/evil, DR/good,
@@ -35,5 +40,7 @@ the same weapon) do not stack. This ability can only be placed on melee weapons.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel chaos, evil, good, or law](ref/spell/dispel-evil); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel chaos, evil, good, or law](ref/spell/dispel-evil)
+Price: -
+:::

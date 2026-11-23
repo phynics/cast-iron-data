@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 15,000 gp
+Weight: 5 lbs.
+:::
 
 This rod can extinguish Medium or smaller nonmagical fires with simply a touch (a standard action).
 For the rod to be effective against other sorts of fires, the wielder must expend 1 or more of the
@@ -50,5 +55,7 @@ a wielder can expend up to 10 charges in any 24-hour period.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [pyrotechnics](ref/spell/pyrotechnics); **Cost**
-7,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [pyrotechnics](ref/spell/pyrotechnics)
+Cost: 7,500 gp
+:::

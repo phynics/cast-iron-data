@@ -23,8 +23,12 @@ aura = "strong necromancy"
 caster_level = "16th"
 +++
 
-**Aura** strong necromancy; **CL** 16th\
-**Slot** armor; **Weight** 50 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 16th
+Slot: armor
+Weight: 50 lbs.
+:::
 
 This armor is similar in appearance to armor of command and functions as a suit of +1
 [full plate](ref/eq-armor/full-plate). However, when it is worn, the armor causes the character to
@@ -35,5 +39,7 @@ nor do foes understand the reason for the depth of their enmity.
 
 ### Construction
 
-**Requirements** [breastplate of command](ref/magic-armor/breastplate-of-command), +1 full plate;
-**Cost** -
+::: statblock
+Requirements: [breastplate of command](ref/magic-armor/breastplate-of-command), +1 full plate
+Cost: -
+:::

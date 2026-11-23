@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 Hand-painted images decorate this [harrow deck](ref/eq-misc/harrow-deck), and the cards frames are
 gilded in silver so that they sparkle and flash under lighting. Despite the worn condition of the

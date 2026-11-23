@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 11th\
-**Slot** armor quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 11th
+Slot: armor quality
+Price: +3 bonus
+Weight: -
+:::
 
 Armor with the arrow-collecting special ability grants the wearer a 20% miss chance against ranged
 projectile attacks (but not thrown weapon attacks, ranged spell effects such as rays, or massive
@@ -37,6 +42,7 @@ become useless. The arrow-collecting special ability can be applied only to medi
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[entropic shield](ref/spell/entropic-shield), [telekinesis](ref/spell/telekinesis); **Price** +3
-bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [entropic shield](ref/spell/entropic-shield), [telekinesis](ref/spell/telekinesis)
+Price: +3 bonus
+:::

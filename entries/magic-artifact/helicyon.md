@@ -20,8 +20,13 @@ aura = "overwhelming varied"
 caster_level = "28"
 +++
 
-**Aura** overwhelming varied; **CL** 28\
-**Slot** none; **Price** -; **Weight** 4
+::: statblock
+Aura: overwhelming varied
+CL: 28
+Slot: none
+Price: -
+Weight: 4
+:::
 
 Helicyon is a +5 [anchoring](ref/magic-enh/anchoring)
 [ghost touch](ref/magic-enh/ghost-touch-weapon) [holy](ref/magic-enh/holy)

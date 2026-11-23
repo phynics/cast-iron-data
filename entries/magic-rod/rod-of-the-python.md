@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 13,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 13,000 gp
+Weight: 10 lbs.
+:::
 
 Unlike with most rods, one end of this rod curls and twists back on itself in a crook - the tip of
 this crook sometimes looks like the head of a snake. The rod itself is about 4 feet long and weighs
@@ -39,6 +44,7 @@ functions if the possessor is good.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [baleful polymorph](ref/spell/baleful-polymorph), creator must be
-good; **Cost** 6,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [baleful polymorph](ref/spell/baleful-polymorph), creator must be good
+Cost: 6,500 gp
+:::

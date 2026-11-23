@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: +5 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. A spell siphon weapon allows the wielder
 to siphon a single combat spell from a target. When the wielder rolls a critical threat against the
@@ -41,6 +46,7 @@ and so on).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater arcane sight](ref/spell/arcane-sight-greater), [limited wish](ref/spell/limited-wish);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater arcane sight](ref/spell/arcane-sight-greater), [limited wish](ref/spell/limited-wish)
+Price: -
+:::

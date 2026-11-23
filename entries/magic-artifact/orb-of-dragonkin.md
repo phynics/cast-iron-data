@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "19th"
 +++
 
-**Aura** strong enchantment; **CL** 19th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 19th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 Each of the Orbs of Dragonkin holds power over a specific race of lesser draconic creatures with the
 dragon type (except for [true dragons](ref/family/dragon-true)). The bearer of an Orb of Dragonkin

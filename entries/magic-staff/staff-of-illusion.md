@@ -24,8 +24,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is made from ebony or other dark wood and carved into an intricately twisted, fluted, or
 spiral shape. It allows use of the following spells:
@@ -39,7 +44,7 @@ spiral shape. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [disguise self](ref/spell/disguise-self),
-[major image](ref/spell/major-image), [mirror image](ref/spell/mirror-image),
-[mislead](ref/spell/mislead), [persistent image](ref/spell/persistent-image),
-[rainbow pattern](ref/spell/rainbow-pattern); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [disguise self](ref/spell/disguise-self), [major image](ref/spell/major-image), [mirror image](ref/spell/mirror-image), [mislead](ref/spell/mislead), [persistent image](ref/spell/persistent-image), [rainbow pattern](ref/spell/rainbow-pattern)
+Cost: 41,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and transmutation; **CL** 5th\
-**Slot** none; **Price** 12,305 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint enchantment and transmutation
+CL: 5th
+Slot: none
+Price: 12,305 gp
+Weight: 5 lbs.
+:::
 
 This crude shaft of blackened steel functions as a +1 [light mace](ref/eq-weapon/light-mace). Those
 who can see the wielder of the rod feel a vague sense of being in danger. This ominous aura is faint
@@ -32,5 +37,7 @@ Intimidate checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bane](ref/spell/bane); **Cost** 6,152 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bane](ref/spell/bane)
+Cost: 6,152 gp
+:::

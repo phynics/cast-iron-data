@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 13,100 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 13,100 gp
+Weight: 3 lbs.
+:::
 
 The reddish brown bark of this charred manzanita branch shows only in patches. The staff is a mere 3
 feet long and balanced for use as a [masterwork](ref/rule/masterwork-weapons)
@@ -38,6 +43,7 @@ staff, and the spell's damage is added to any melee attacks made with the staff.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [fireball](ref/spell/fireball),
-[produce flame](ref/spell/produce-flame), [scorching ray](ref/spell/scorching-ray); **Cost** 6,700
-gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [fireball](ref/spell/fireball), [produce flame](ref/spell/produce-flame), [scorching ray](ref/spell/scorching-ray)
+Cost: 6,700 gp
+:::

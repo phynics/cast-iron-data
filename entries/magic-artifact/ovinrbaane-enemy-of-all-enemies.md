@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 Ovinrbaane (literally translated as "enemy of all enemies") is a cursed, intelligent +3
 [wounding](ref/magic-enh/wounding) [greatsword](ref/eq-weapon/greatsword). When Ovinrbaane succeeds

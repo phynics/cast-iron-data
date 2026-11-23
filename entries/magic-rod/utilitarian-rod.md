@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 5,000 gp
+Weight: 5 lbs.
+:::
 
 Created by the Arcanamirium, this plain wooden rod is capped with steel, with 10 buttons along its
 length; it looks rugged and is usually scratched and stained. Pushing any of the buttons is an
@@ -61,5 +66,7 @@ stone (normally a hammer or mallet is used with it for this task).
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [fabricate](ref/spell/fabricate),
-[polymorph any object](ref/spell/polymorph-any-object); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [fabricate](ref/spell/fabricate), [polymorph any object](ref/spell/polymorph-any-object)
+Cost: 2,500 gp
+:::

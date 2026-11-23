@@ -20,8 +20,13 @@ aura = "moderate abjuration [good]"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration \[good\]; **CL** 9th\
-**Slot** armor; **Price** 23,300 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate abjuration \[good\]
+CL: 9th
+Slot: armor
+Price: 23,300 gp
+Weight: 25 lbs.
+:::
 
 This gold-plated +1 [mithral](ref/eq-material/mithral) [full plate](ref/eq-armor/full-plate) armor
 has images of [Iomedae's](ref/faith/iomedae) symbol etched into its immaculately gleaming surface.
@@ -39,5 +44,7 @@ they never become permanent but can't be overcome in any way as long as the armo
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[prayer](ref/spell/prayer), [sanctify armor](ref/spell/sanctify-armor); **Price** 16,900 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [prayer](ref/spell/prayer), [sanctify armor](ref/spell/sanctify-armor)
+Price: 16,900 gp
+:::

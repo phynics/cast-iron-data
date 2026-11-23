@@ -21,8 +21,13 @@ aura = "evocation (moderate)"
 caster_level = "9th"
 +++
 
-**Aura** evocation (moderate); **CL** 9th\
-**Slot** none; **Price** 44,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: evocation (moderate)
+CL: 9th
+Slot: none
+Price: 44,400 gp
+Weight: 3 lbs.
+:::
 
 This staff is made of ivory and gold and is topped by a large, flawless piece of quartz. It allows
 the use of the following spells.
@@ -32,5 +37,7 @@ the use of the following spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [heroic fortune](ref/spell/heroic-fortune),
-[mass heroic fortune](ref/spell/heroic-fortune-mass); **Cost** 37,200 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [heroic fortune](ref/spell/heroic-fortune), [mass heroic fortune](ref/spell/heroic-fortune-mass)
+Cost: 37,200 gp
+:::

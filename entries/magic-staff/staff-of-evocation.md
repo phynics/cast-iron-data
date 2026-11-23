@@ -24,8 +24,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 This smooth staff carved from hickory or yew allows use of the following spells:
 
@@ -38,7 +43,7 @@ This smooth staff carved from hickory or yew allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [chain lightning](ref/spell/chain-lightning),
-[fireball](ref/spell/fireball), [ice storm](ref/spell/ice-storm),
-[magic missile](ref/spell/magic-missile), [shatter](ref/spell/shatter),
-[wall of force](ref/spell/wall-of-force); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [chain lightning](ref/spell/chain-lightning), [fireball](ref/spell/fireball), [ice storm](ref/spell/ice-storm), [magic missile](ref/spell/magic-missile), [shatter](ref/spell/shatter), [wall of force](ref/spell/wall-of-force)
+Cost: 41,000 gp
+:::

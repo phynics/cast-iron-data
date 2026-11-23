@@ -20,8 +20,13 @@ aura = "strong abjuration [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration \[evil\]; **CL** 15th\
-**Slot** armor; **Price** 141,240 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration \[evil\]
+CL: 15th
+Slot: armor
+Price: 141,240 gp
+Weight: 50 lbs.
+:::
 
 This jet-black +3 [unrighteous](ref/magic-enh/unrighteous) [full plate](ref/eq-armor/full-plate) is
 made in the image of the armor worn by [thanatotic titans](ref/monster/titan-thanatotic) and grants
@@ -41,8 +46,7 @@ or ignored, but they disappear when the armor is removed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[air walk](ref/spell/air-walk), [break enchantment](ref/spell/break-enchantment),
-[breath of life](ref/spell/breath-of-life), [greater planar ally](ref/spell/planar-ally-greater),
-[heal](ref/spell/heal), [spell turning](ref/spell/spell-turning),
-[unholy aura](ref/spell/unholy-aura); **Price** 71,445 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [air walk](ref/spell/air-walk), [break enchantment](ref/spell/break-enchantment), [breath of life](ref/spell/breath-of-life), [greater planar ally](ref/spell/planar-ally-greater), [heal](ref/spell/heal), [spell turning](ref/spell/spell-turning), [unholy aura](ref/spell/unholy-aura)
+Price: 71,445 gp
+:::

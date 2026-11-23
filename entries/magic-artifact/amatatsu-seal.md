@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This stone statuette of a dragon is one of five royal seals of Minkai, and represents the Amatatsu
 family's divine right to rule the empire of Minkai. Should no Amatatsus of pure blood be able to

@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** shield; **Price** 52,620 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: shield
+Price: 52,620 gp
+Weight: 45 lbs.
+:::
 
 This +2 [ghost touch](ref/magic-enh/ghost-touch-armor) [tower shield](ref/eq-armor/tower-shield) is
 engraved with funerary runes depicting the peaceful rest of the contented dead. The wielder of an
@@ -36,6 +41,7 @@ addition, once per day as a standard action, the wielder can release a wave of p
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Turn Undead](ref/feat/turn-undead), [death ward](ref/spell/death-ward),
-[etherealness](ref/spell/etherealness); **Price** 26,390 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Turn Undead](ref/feat/turn-undead), [death ward](ref/spell/death-ward), [etherealness](ref/spell/etherealness)
+Price: 26,390 gp
+:::

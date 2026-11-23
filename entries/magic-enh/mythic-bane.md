@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A mythic bane weapon works exactly like a bane weapon, except it has a higher bonus and deals extra
 damage against any creature with the mythic subtype. This ability stacks with the
@@ -29,5 +34,7 @@ damage against any creature with the mythic subtype. This ability stacks with th
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [divine favor](ref/spell/divine-favor); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [divine favor](ref/spell/divine-favor)
+Price: -
+:::

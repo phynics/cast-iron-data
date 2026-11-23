@@ -24,8 +24,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 86,666 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 86,666 gp
+Weight: 5 lbs.
+:::
 
 A clear crystal orb is affixed to the top of this length of brass and scaled skin, and a smaller,
 crimson orb is set into a spherical ornament near the base of the shaft. The staff allows use of the
@@ -40,7 +45,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [arcane eye](ref/spell/arcane-eye),
-[arcane sight](ref/spell/arcane-sight), [prying eyes](ref/spell/prying-eyes),
-[scrying](ref/spell/scrying), [see invisibility](ref/spell/see-invisibility),
-[true seeing](ref/spell/true-seeing); **Cost** 45,416 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [arcane eye](ref/spell/arcane-eye), [arcane sight](ref/spell/arcane-sight), [prying eyes](ref/spell/prying-eyes), [scrying](ref/spell/scrying), [see invisibility](ref/spell/see-invisibility), [true seeing](ref/spell/true-seeing)
+Cost: 45,416 gp
+:::

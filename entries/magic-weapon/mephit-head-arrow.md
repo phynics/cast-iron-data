@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** weapon; **Price** 200 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: weapon
+Price: 200 gp
+Weight: 4 lbs.
+:::
 
 The steel head of this masterwork arrow is sculpted to look like a leering
 [mephit](ref/monster/mephit). If a mephit-head arrow hits, it sprays elemental energy in a 15-foot
@@ -52,5 +57,7 @@ for 3 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[elemental touch](ref/spell/elemental-touch); **Price** 100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [elemental touch](ref/spell/elemental-touch)
+Price: 100 gp
+:::

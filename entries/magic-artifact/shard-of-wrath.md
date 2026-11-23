@@ -20,8 +20,13 @@ aura = "overwhelming evocation"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming evocation; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming evocation
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Wrath is made of sparkling silver [siccatite](ref/eq-material/siccatite) that feels hot
 one day, but cold the next. As long as the Shard of Wrath is carried, its owner can use

@@ -23,8 +23,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 8th\
-**Slot** none; **Price** 23,530 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 8th
+Slot: none
+Price: 23,530 gp
+Weight: 3 lbs.
+:::
 
 This +1 [ki focus](ref/magic-enh/ki-focus) [temple sword](ref/eq-weapon/temple-sword) is often
 gifted to select students. A character making an attack with this blade can spend 1 ki point as a
@@ -40,5 +45,7 @@ and negates the daze effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[arrow of law](ref/spell/arrow-of-law); **Price** 11,930 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [arrow of law](ref/spell/arrow-of-law)
+Price: 11,930 gp
+:::

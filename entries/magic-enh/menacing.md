@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A menacing weapon helps allies deal with
 flanked foes. When the wielder is adjacent to a creature that is being flanked by an ally, the
@@ -33,5 +38,7 @@ ability works even if the wielder is not one of the characters flanking the crea
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[phantasmal killer](ref/spell/phantasmal-killer); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [phantasmal killer](ref/spell/phantasmal-killer)
+Price: -
+:::

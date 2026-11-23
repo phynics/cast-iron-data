@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 17,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 17,312 gp
+Weight: 5 lbs.
+:::
 
 This iron rod is crowned with a metallic sphere and functions as a +1
 [heavy mace](ref/eq-weapon/heavy-mace). In the hands of a divine spellcaster, the rod also counts as
@@ -33,5 +38,7 @@ further expand the burst radius, to a maximum of 30 additional feet.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Widen Spell](ref/feat/widen-spell), creator must
-have the channel energy class feature; **Cost** 8,812 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Widen Spell](ref/feat/widen-spell), creator must have the channel energy class feature
+Cost: 8,812 gp
+:::

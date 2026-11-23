@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** armor; **Price** 18,910 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: armor
+Price: 18,910 gp
+Weight: 15 lbs.
+:::
 
 Rather than the hide of a cat, this extremely supple suit of jet-black +1
 [shadow](ref/magic-enh/shadow) [leather](ref/eq-armor/leather) armor grants a portion of the grace
@@ -33,7 +38,7 @@ damage from the attack or spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [feather fall](ref/spell/feather-fall), and
-[limited wish](ref/spell/limited-wish), [wish](ref/spell/wish), or [miracle](ref/spell/miracle);
-**Price** 9,535 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [feather fall](ref/spell/feather-fall), and [limited wish](ref/spell/limited-wish), [wish](ref/spell/wish), or [miracle](ref/spell/miracle)
+Price: 9,535 gp
+:::

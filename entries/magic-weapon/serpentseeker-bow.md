@@ -20,8 +20,13 @@ aura = "moderate conjuration and divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and divination; **CL** 7th\
-**Slot** none; **Price** 15,330 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration and divination
+CL: 7th
+Slot: none
+Price: 15,330 gp
+Weight: 2 lbs.
+:::
 
 This +1 [shortbow](ref/eq-weapon/shortbow) is crafted from one of the long spines that bristle along
 the body of a sea serpent. When used against a magical beast with the aquatic subtype, a
@@ -36,6 +41,7 @@ days.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[locate creature](ref/spell/locate-creature), [summon monster I](ref/spell/summon-monster-1);
-**Price** 7,830 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [locate creature](ref/spell/locate-creature), [summon monster I](ref/spell/summon-monster-1)
+Price: 7,830 gp
+:::

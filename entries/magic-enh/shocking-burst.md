@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A shocking burst weapon functions as a [shock](ref/magic-enh/shock) weapon that explodes with
 electricity upon striking a successful critical hit. The electricity does not harm the wielder. In
@@ -38,6 +43,7 @@ successful critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt)
+Price: -
+:::

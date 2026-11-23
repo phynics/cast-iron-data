@@ -21,8 +21,13 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Aura** strong varies; **CL** 15th\
-**Slot** none; **Price** 240,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 15th
+Slot: none
+Price: 240,000 gp
+Weight: 5 lbs.
+:::
 
 Lasirro's staff is a variant [staff of power](ref/magic-staff/staff-of-power) that allows the
 wielder to cast a wide range of spells.
@@ -51,10 +56,7 @@ The retributive strike destroys the staff, although it reforms on the anniversar
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [Heighten Spell](ref/feat/heighten-spell),
-[Widen Spell](ref/feat/widen-spell), [break enchantment](ref/spell/break-enchantment),
-[fireball](ref/spell/fireball), [flame arrow](ref/spell/flame-arrow),
-[greater dispel magic](ref/spell/dispel-magic-greater), [invisibility](ref/spell/invisibility),
-[knock](ref/spell/knock), [nondetection](ref/spell/nondetection), [repulsion](ref/spell/repulsion),
-[wall of force](ref/spell/wall-of-force); **Cost** 120,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [Heighten Spell](ref/feat/heighten-spell), [Widen Spell](ref/feat/widen-spell), [break enchantment](ref/spell/break-enchantment), [fireball](ref/spell/fireball), [flame arrow](ref/spell/flame-arrow), [greater dispel magic](ref/spell/dispel-magic-greater), [invisibility](ref/spell/invisibility), [knock](ref/spell/knock), [nondetection](ref/spell/nondetection), [repulsion](ref/spell/repulsion), [wall of force](ref/spell/wall-of-force)
+Cost: 120,000 gp
+:::

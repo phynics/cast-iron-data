@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 10,115 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 10,115 gp
+Weight: 4 lbs.
+:::
 
 A weapon of this type enables its wielder to determine the location, depth, kind, and number of
 aquatic predators within 680 feet. A trident of warning must be grasped and pointed in order for the
@@ -33,5 +38,7 @@ takes 1 round. The weapon is otherwise a +2 [trident](ref/eq-weapon/trident).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[locate creature](ref/spell/locate-creature); **Price** 5,215 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [locate creature](ref/spell/locate-creature)
+Price: 5,215 gp
+:::

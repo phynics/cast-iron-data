@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Aura** strong divination; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This tiny, clear crystal is part of a great otherworldy device that shattered long ago. Alone, the
 splinter - hardly longer than a fingernail - has no power. If brought into contact with another

@@ -20,8 +20,13 @@ aura = "overwhelming conjuration"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: overwhelming conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The Lotus Stone of Namrut is a sizable limestone tablet over an inch thick and slightly smaller than
 a human head. It is carved into the shape of a highly stylized, blossoming lotus. The stone's

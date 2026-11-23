@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on ranged weapons or ammunition. Each time a ranged weapon
 or ammunition with this ability hits a creature, its magic designates the target. Allies gain a +2
@@ -30,5 +35,7 @@ Multiple successful shots fired at the same target do not increase the bonuses o
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[instant enemy](ref/spell/instant-enemy); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [instant enemy](ref/spell/instant-enemy)
+Price: -
+:::

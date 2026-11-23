@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 8,320 gp; **Weight** 12 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 8,320 gp
+Weight: 12 lbs.
+:::
 
 This +1 [greataxe](ref/eq-weapon/greataxe) has a corroded edge that constantly sheds metal shards
 and rusty powder, though the blade never gets any smaller and this doesn't weaken the weapon in any
@@ -35,5 +40,7 @@ target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [ray of sickening](ref/spell/ray-of-sickening); **Price** 4,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [ray of sickening](ref/spell/ray-of-sickening)
+Price: 4,320 gp
+:::

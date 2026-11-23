@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A Harrow Deck of Many Things is usually found wrapped in cloth or velvet and hidden away within a
 simple wooden case, but nothing marks it as being anything other than an oft-used and treasured

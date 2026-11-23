@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 These shields are sturdily built and often bear the device of a ram or bull. When the wielder of a
 ramming shield makes a [shield bash](ref/misc/shield-bash) attack as part of a
@@ -33,5 +38,7 @@ maneuver check. Only shields that can make a shield bash attack can have the ram
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[force punch](ref/spell/force-punch); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [force punch](ref/spell/force-punch)
+Price: +1 bonus
+:::

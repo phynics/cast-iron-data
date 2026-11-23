@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration; **CL** 17th\
-**Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 17th
+Slot: none
+Price: 11,000 gp
+Weight: 5 lbs.
+:::
 
 This dreaded rod is a bane to magic items, for its touch drains an item of all magical properties.
 The item touched must make a successful DC 23 Will save to prevent the rod from draining it. If a
@@ -37,5 +42,7 @@ each other, nothing can restore either of them.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [mage's disjunction](ref/spell/mages-disjunction);
-**Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [mage's disjunction](ref/spell/mages-disjunction)
+Cost: 5,500 gp
+:::

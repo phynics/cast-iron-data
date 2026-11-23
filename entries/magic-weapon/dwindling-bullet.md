@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 166 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 166 gp
+Weight: -
+:::
 
 This +1 [sling bullet](ref/eq-weapon/sling-bullets) is slightly smaller than an average steel
 bullet, but incredibly dense. It's usually used by kobolds to shrink down foes or prey, weakening
@@ -31,5 +36,7 @@ _[reduce person](ref/spell/reduce-person)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[reduce person](ref/spell/reduce-person); **Price** 86 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [reduce person](ref/spell/reduce-person)
+Price: 86 gp
+:::

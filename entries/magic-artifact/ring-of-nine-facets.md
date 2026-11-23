@@ -20,8 +20,13 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong abjuration, conjuration, and transmutation; **CL** 19th\
-**Slot** ring; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration, conjuration, and transmutation
+CL: 19th
+Slot: ring
+Price: -
+Weight: -
+:::
 
 The gem set within this remarkably ancient ring is distinctly cut to exhibit nine perfect facets,
 each of a different hue. Each day at sunrise, the gem rotates to display a different facet. The

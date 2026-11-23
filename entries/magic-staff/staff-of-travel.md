@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 54,400 gp
+Weight: 3 lbs.
+:::
 
 This staff appears to be nothing more than a finely made walking stick, but closer inspection
 reveals that it is inlaid with a fine copper tracery that makes up an intricate and incomprehensible
@@ -37,6 +42,7 @@ bonus to his base speed.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [dimension door](ref/spell/dimension-door),
-[expeditious retreat](ref/spell/expeditious-retreat), [fly](ref/spell/fly),
-[teleport](ref/spell/teleport); **Cost** 27,200 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [dimension door](ref/spell/dimension-door), [expeditious retreat](ref/spell/expeditious-retreat), [fly](ref/spell/fly), [teleport](ref/spell/teleport)
+Cost: 27,200 gp
+:::

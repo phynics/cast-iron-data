@@ -26,8 +26,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** armor; **Price** 14,665 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: armor
+Price: 14,665 gp
+Weight: 25 lbs.
+:::
 
 Made of tattered mammoth hide and bone, this +3 [hide](ref/eq-armor/hide) armor is similar to
 [rhino hide](ref/magic-armor/rhino-hide), but is fashioned in the harsh lands of the Realm of the
@@ -37,5 +42,7 @@ first successful [charge](ref/rule/charge) attack she makes in a round, includin
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength); **Price** 7,415 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength)
+Price: 7,415 gp
+:::

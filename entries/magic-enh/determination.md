@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** armor/shield quality; **Price** +30,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: armor/shield quality
+Price: +30,000 gp
+Weight: -
+:::
 
 A shield or armor with the determination special ability provides the ability to fight on even in
 the face of seemingly impossible odds. Once per day, when the owner reaches 0 or fewer hit points,
@@ -32,5 +37,7 @@ the item automatically provides a _[breath of life](ref/spell/breath-of-life)_ s
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[breath of life](ref/spell/breath-of-life); **Price** +15,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [breath of life](ref/spell/breath-of-life)
+Price: +15,000 gp
+:::

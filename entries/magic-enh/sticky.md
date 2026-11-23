@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on reach weapons, piercing melee weapons, and weapons from
 the flail fighter [weapon training group](ref/ability/weapon-groups). When a sticky weapon scores a
@@ -32,5 +37,7 @@ the attack. This combat maneuver doesn't provoke an attack of opportunity, and t
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Improved Steal](ref/feat/improved-steal), [spider climb](ref/spell/spider-climb); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Improved Steal](ref/feat/improved-steal), [spider climb](ref/spell/spider-climb)
+Price: -
+:::

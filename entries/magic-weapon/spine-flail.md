@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "4th"
 +++
 
-**Aura** faint necromancy; **CL** 4th\
-**Slot** none; **Price** 13,308 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 4th
+Slot: none
+Price: 13,308 gp
+Weight: 10 lbs.
+:::
 
 This weapon looks like the barbed spine of a humanoid. A spine flail functions as a +2
 [flail](ref/eq-weapon/heavy-flail) that deals slashing damage and has [reach](ref/misc/reach).
@@ -36,5 +41,7 @@ will.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness); **Price** 6,808 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness)
+Price: 6,808 gp
+:::

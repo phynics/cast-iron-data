@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** none; **Price** 3,875 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: none
+Price: 3,875 gp
+Weight: 3 lbs.
+:::
 
 This stout +1 [longbow](ref/eq-weapon/longbow) is engraved with images of leaping deer. Designed to
 prevent inaccuracy while hunting in a group, the bow is imbued with magic that allows the wielder to
@@ -31,5 +36,7 @@ with the kinbonded bow. Only one ally can be attuned to the bow at a time.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true strike](ref/spell/true-strike); **Price** 2,125 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true strike](ref/spell/true-strike)
+Price: 2,125 gp
+:::

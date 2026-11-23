@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 4,310 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 4,310 gp
+Weight: 10 lbs.
+:::
 
 This ornately designed +1 [lance](ref/eq-weapon/lance), decorated with ribbons and small favors,
 allows its wielder to more effectively knock an opponent from his mount. A successful hit with a
@@ -35,5 +40,7 @@ dishonorable form of cheating.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength); **Price** 2,105 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength)
+Price: 2,105 gp
+:::

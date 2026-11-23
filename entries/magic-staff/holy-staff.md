@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 29,600 gp
+Weight: 5 lbs.
+:::
 
 This staff is made from polished birch, inlaid with ivory, and topped with a pristine white
 gemstone. The staff allows use of the following spells:
@@ -34,6 +39,7 @@ gemstone. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon),
-[detect evil](ref/spell/detect-evil), [holy smite](ref/spell/holy-smite),
-[magic circle against evil](ref/spell/magic-circle-against-evil); **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon), [detect evil](ref/spell/detect-evil), [holy smite](ref/spell/holy-smite), [magic circle against evil](ref/spell/magic-circle-against-evil)
+Cost: 14,800 gp
+:::

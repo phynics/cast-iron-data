@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** armor; **Price** 6,950 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: armor
+Price: 6,950 gp
+Weight: 1 lb.
+:::
 
 Worn by enforcers and acolytes of the living god Razmir, this +1
 [chain shirt](ref/eq-armor/chain-shirt) appears as a fine hooded robe made of silk of a color
@@ -35,5 +40,7 @@ and can see the armor's true form with a successful DC 16 Will save.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[disguise self](ref/spell/disguise-self); **Price** 3,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [disguise self](ref/spell/disguise-self)
+Price: 3,600 gp
+:::

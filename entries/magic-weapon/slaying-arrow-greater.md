@@ -25,8 +25,13 @@ caster_level = "13th"
 
 ## Slaying Arrow
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** normal (2,282 gp), greater (4,057 gp); **Weight** 1/10 lb.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: normal (2,282 gp), greater (4,057 gp)
+Weight: 1/10 lb.
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) is keyed to a particular type or subtype of creature. If it
 strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of
@@ -73,7 +78,7 @@ effect is 23 and the arrow deals 100 points of damage if the saving throw is fai
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[finger of death](ref/spell/finger-of-death) (slaying arrow) or
-[heightened](ref/feat/heighten-spell) finger of death (greater slaying arrow); **Price** 1,144 gp
-(normal), 2,032 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [finger of death](ref/spell/finger-of-death) (slaying arrow) or [heightened](ref/feat/heighten-spell) finger of death (greater slaying arrow)
+Price: 1,144 gp (normal), 2,032 gp (greater)
+:::

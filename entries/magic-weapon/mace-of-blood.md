@@ -23,8 +23,12 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Weight** 8 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Weight: 8 lbs.
+:::
 
 This +3 [heavy mace](ref/eq-weapon/heavy-mace) must be coated in blood every day, or else its bonus
 fades away until the mace is coated again. The character using this mace must make a DC 13 Will save
@@ -32,4 +36,7 @@ every day it is within her possession or become chaotic evil.
 
 ### Construction
 
-**Requirements** +3 heavy mace; **Cost** -
+::: statblock
+Requirements: +3 heavy mace
+Cost: -
+:::

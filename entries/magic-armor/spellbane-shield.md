@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** shield; **Price** 79,180 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: shield
+Price: 79,180 gp
+Weight: 45 lbs.
+:::
 
 This massive iron-covered +2 [tower shield](ref/eq-armor/tower-shield) grants the wielder a +3
 resistance bonus on saving throws against spells,
@@ -30,5 +35,7 @@ point damage taken from such sources by 10 points.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell resistance](ref/spell/spell-resistance); **Price** 39,680 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell resistance](ref/spell/spell-resistance)
+Price: 39,680 gp
+:::

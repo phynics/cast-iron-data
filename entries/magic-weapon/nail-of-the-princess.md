@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 5,318 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 5,318 gp
+Weight: 10 lbs.
+:::
 
 This +1 [scythe](ref/eq-weapon/scythe) has five onyx gems set into its blade. A creature with the
 ability to [channel negative energy](ref/ability/channel-energy) can expend one use of that ability
@@ -35,5 +40,7 @@ stored charges, each of which heals the target for 1d6 points of damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-able to channel negative energy; **Price** 2,818 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be able to channel negative energy
+Price: 2,818 gp
+:::

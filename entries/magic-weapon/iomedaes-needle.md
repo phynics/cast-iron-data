@@ -20,8 +20,13 @@ aura = "strong divination and necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong divination and necromancy; **CL** 18th\
-**Slot** weapon; **Price** 8,016 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong divination and necromancy
+CL: 18th
+Slot: weapon
+Price: 8,016 gp
+Weight: 10 lbs.
+:::
 
 This brilliant [mithral](ref/eq-material/mithral) ballista bolt radiates a blinding sheen. Its
 fletching is made of white and gold feathers.
@@ -34,6 +39,7 @@ _[true strike](ref/spell/true-strike)_ on the attack roll.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true strike](ref/spell/true-strike), [undeath to death](ref/spell/undeath-to-death); **Price**
-4,016 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true strike](ref/spell/true-strike), [undeath to death](ref/spell/undeath-to-death)
+Price: 4,016 gp
+:::

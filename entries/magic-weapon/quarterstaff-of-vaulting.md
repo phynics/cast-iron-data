@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 19,100 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 19,100 gp
+Weight: 4 lbs.
+:::
 
 This +1/+1 [darkwood](ref/eq-material/darkwood) [quarterstaff](ref/eq-weapon/quarterstaff) grants
 superior balance and acrobatic skill. It glows with a faint green-yellow radiance when in use and
@@ -39,5 +44,7 @@ ability. This movement does not provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[jump](ref/spell/jump); **Price** 9,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [jump](ref/spell/jump)
+Price: 9,850 gp
+:::

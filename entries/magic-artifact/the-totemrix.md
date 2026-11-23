@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The Totemrix is the dark half of the Aohl, an artifact gifted to the lost Jaytirian Society of the
 Mwangi Expanse following a sacred truce between their two feuding gods. The Totemrix is a

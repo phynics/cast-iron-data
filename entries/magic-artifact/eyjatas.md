@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "26th"
 +++
 
-**Aura** overwhelming all; **CL** 26th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 26th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 [Barbatos](ref/faith/barbatos) wields a potent weapon named Eyjatas, a +4
 [speed](ref/magic-enh/speed) [unholy](ref/magic-enh/unholy)

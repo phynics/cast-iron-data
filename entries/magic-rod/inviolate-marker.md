@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 10,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 10,000 gp
+Weight: 5 lbs.
+:::
 
 This unusual type of [immovable rod](ref/magic-rod/immovable-rod) has a button near each end, and it
 can be activated only by two separate creatures, each one pressing a button while speaking a
@@ -37,5 +42,7 @@ formed terrain in order to maintain its position relative to the new terrain.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse),
-[levitate](ref/spell/levitate), [silent image](ref/spell/silent-image); **Cost** 5,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse), [levitate](ref/spell/levitate), [silent image](ref/spell/silent-image)
+Cost: 5,000 gp
+:::

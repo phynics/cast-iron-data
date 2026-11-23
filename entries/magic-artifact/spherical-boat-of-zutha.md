@@ -20,8 +20,13 @@ aura = "overwhelming necromancy and transmutation"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming necromancy and transmutation; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming necromancy and transmutation
+CL: 25th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This sphere of wood and metal about 3 inches in diameter is engraved with waves, a boat, sails, and
 clouds.

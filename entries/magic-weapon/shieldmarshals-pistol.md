@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 20,050 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 20,050 gp
+Weight: 5 lbs.
+:::
 
 This +1 [double-barreled pistol](ref/eq-weapon/double-barreled-pistol) contains a single grit feat
 from the following list: [Deft Shootist](ref/feat/deft-shootist), [Fabulist](ref/feat/fabulist),
@@ -32,5 +37,7 @@ benefit. The wielder can't use the pistol's feat to meet prerequisites.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), chosen grit
-feat, [share memory](ref/spell/share-memory); **Price** 11,050 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), chosen grit feat, [share memory](ref/spell/share-memory)
+Price: 11,050 gp
+:::

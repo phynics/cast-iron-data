@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 12th\
-**Slot** weapon; **Price** 70,338 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 12th
+Slot: weapon
+Price: 70,338 gp
+Weight: 3 lbs.
+:::
 
 This elegant, short-hafted spear has a razor-sharp head carved from a single piece of ivory. A
 twisting ring of ivory and jade tentacles hovers and slowly rotates just beneath the spearhead.
@@ -41,6 +46,7 @@ Third, Seaspike is treated as a light weapon for purposes of the
 
 ### Construction
 
-**Requirements** Craft Weapon, [fire shield](ref/spell/fire-shield),
-[magic weapon](ref/spell/magic-weapon), creator must have the Weapon Finesse feat, creator must have
-5 ranks in Swim; **Price** 35,169 gp
+::: statblock
+Requirements: Craft Weapon, [fire shield](ref/spell/fire-shield), [magic weapon](ref/spell/magic-weapon), creator must have the Weapon Finesse feat, creator must have 5 ranks in Swim
+Price: 35,169 gp
+:::

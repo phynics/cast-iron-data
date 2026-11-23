@@ -19,8 +19,12 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Price: +1 bonus
+Weight: -
+:::
 
 A miserable weapon cuts through the energy resistance of certain foes. Miserable weapons must be
 crafted with a designated creature type (just like [bane](ref/magic-enh/bane) weapons), and each
@@ -29,5 +33,7 @@ resistances for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: -
+:::

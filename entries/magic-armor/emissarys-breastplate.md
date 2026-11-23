@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 11,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 11,350 gp
+Weight: 30 lbs.
+:::
 
 When not being worn, this simple steel +1 [breastplate](ref/eq-armor/breastplate) appears to be
 typical magic armor. When worn by a [cavalier](ref/class/cavalier) with the banner class feature, an
@@ -34,6 +39,7 @@ _[tongues](ref/spell/tongues)_ (as per the spell) and issue a single _[command](
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[arcane mark](ref/spell/arcane-mark), [command](ref/spell/command), [tongues](ref/spell/tongues),
-creator must have 5 ranks in Knowledge (nobility); **Price** 5,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [arcane mark](ref/spell/arcane-mark), [command](ref/spell/command), [tongues](ref/spell/tongues), creator must have 5 ranks in Knowledge (nobility)
+Price: 5,850 gp
+:::

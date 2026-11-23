@@ -19,8 +19,12 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Price: +3 bonus
+Weight: -
+:::
 
 A gory weapon functions as a [wounding](ref/magic-enh/wounding) weapon, except it deals 1d2 points
 of [bleed](ref/rule/bleed) damage when it strikes. Additionally, when the wielder confirms a
@@ -29,5 +33,7 @@ demoralize the target as an immediate action with a circumstance bonus equal to 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [inflict serious wounds](ref/spell/inflict-serious-wounds); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [inflict serious wounds](ref/spell/inflict-serious-wounds)
+Price: -
+:::

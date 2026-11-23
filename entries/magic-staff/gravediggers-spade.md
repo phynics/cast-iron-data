@@ -21,8 +21,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 8th\
-**Slot** none; **Price** 12,150 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 8th
+Slot: none
+Price: 12,150 gp
+Weight: 4 lbs.
+:::
 
 The sturdy, well-polished oaken shaft and the sharp blade attached to its tip allow this magical
 staff to be used as a masterwork [shovel](ref/eq-misc/shovel-common) when not employed in
@@ -34,6 +39,7 @@ spellcasting.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[expeditious excavation](ref/spell/expeditious-excavation), [create pit](ref/spell/create-pit),
-[spiked pit](ref/spell/spiked-pit); **Cost** 6,100 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [expeditious excavation](ref/spell/expeditious-excavation), [create pit](ref/spell/create-pit), [spiked pit](ref/spell/spiked-pit)
+Cost: 6,100 gp
+:::

@@ -24,8 +24,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 109,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 109,400 gp
+Weight: 5 lbs.
+:::
 
 A staff of life is made of thick polished oak shod in gold and decorated with sinuous runes of
 silver or ivory, which depict various cycles of life and death according to different cultures. This
@@ -36,5 +41,7 @@ staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [heal](ref/spell/heal),
-[raise dead](ref/spell/raise-dead); **Cost** 79,700 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [heal](ref/spell/heal), [raise dead](ref/spell/raise-dead)
+Cost: 79,700 gp
+:::

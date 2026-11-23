@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Whether they were invented by the Azlanti or merely discovered by them,
 [ioun stones](ref/magic-wondrous/ioun-stone) were an important part of Azlanti society - and by

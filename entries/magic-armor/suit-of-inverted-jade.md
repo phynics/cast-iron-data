@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "14th"
 +++
 
-**Aura** strong necromancy; **CL** 14th\
-**Slot** armor; **Price** 25,000 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 14th
+Slot: armor
+Price: 25,000 gp
+Weight: 50 lbs.
+:::
 
 Originating in ancient Minkai, the typical jade burial suit consists of several hundred jade plaques
 joined with gold wire, carefully inscribed with prayers to [Tsukiyo](ref/faith/tsukiyo), the
@@ -40,5 +45,7 @@ to effects that target or deal additional damage to undead (such as
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[undead anatomy II](ref/spell/undead-anatomy-2); **Price** 12,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [undead anatomy II](ref/spell/undead-anatomy-2)
+Price: 12,500 gp
+:::

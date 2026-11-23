@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 20th\
-**Slot** head; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 20th
+Slot: head
+Price: -
+Weight: -
+:::
 
 This engraved and filigreed silver diadem is fashioned with three tines rising from the front of the
 circlet, the central one of which bears the encircled cross emblem of Cheliax. The Crown of Infernal

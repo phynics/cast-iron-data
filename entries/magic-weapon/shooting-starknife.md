@@ -20,8 +20,13 @@ aura = "faint illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion and transmutation; **CL** 5th\
-**Slot** none; **Price** 7,724 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint illusion and transmutation
+CL: 5th
+Slot: none
+Price: 7,724 gp
+Weight: 3 lbs.
+:::
 
 This bright +1 [starknife](ref/eq-weapon/starknife) is engraved with a beautiful moth icon. When
 wielded, it leaves a trail of harmless starry motes that shed light as a
@@ -33,5 +38,7 @@ with the same effect as _[color spray](ref/spell/color-spray)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[color spray](ref/spell/color-spray), [jump](ref/spell/jump); **Price** 4,024 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [color spray](ref/spell/color-spray), [jump](ref/spell/jump)
+Price: 4,024 gp
+:::

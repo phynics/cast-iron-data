@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "11th"
 +++
 
-**Aura** strong transmutation; **CL** 11th\
-**Slot** none; **Price** 23,302 gp; **Weight** 9 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 11th
+Slot: none
+Price: 23,302 gp
+Weight: 9 lbs.
+:::
 
 This +1 [keen](ref/magic-enh/keen) [spear](ref/eq-weapon/spear) has a crimson haft made of petrified
 redwood, and its blackened stone head sports numerous vicious barbs on each side. Once per day when
@@ -36,5 +41,7 @@ bloodstone impaler from a petrified victim instantly changes the creature back t
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flesh to stone](ref/spell/flesh-to-stone), [keen edge](ref/spell/keen-edge); **Price** 18,802 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flesh to stone](ref/spell/flesh-to-stone), [keen edge](ref/spell/keen-edge)
+Price: 18,802 gp
+:::

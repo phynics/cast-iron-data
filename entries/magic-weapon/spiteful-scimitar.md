@@ -20,8 +20,13 @@ aura = "moderate abjuration, transmutation, and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration, transmutation, and necromancy; **CL** 11th\
-**Slot** none; **Price** 75,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate abjuration, transmutation, and necromancy
+CL: 11th
+Slot: none
+Price: 75,315 gp
+Weight: 4 lbs.
+:::
 
 This +2 [cruel](ref/magic-enh/cruel) [furyborn](ref/magic-enh/furyborn)
 [scimitar](ref/eq-weapon/scimitar) was created accidentally by [Treerazer](ref/monster/treerazer)
@@ -35,6 +40,7 @@ cause the creature to become [entangled](ref/rule/entangled) for 1d4 rounds, and
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell), [rage](ref/spell/rage),
-[sickening entanglement](ref/spell/sickening-entanglement); **Price** 37,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell), [rage](ref/spell/rage), [sickening entanglement](ref/spell/sickening-entanglement)
+Price: 37,815 gp
+:::

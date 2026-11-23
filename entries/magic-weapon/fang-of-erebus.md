@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 9,501 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 9,501 gp
+Weight: 2 lbs.
+:::
 
 This +1 [shortspear](ref/eq-weapon/shortspear) gleams as if newly polished and shimmers with threads
 of inlaid gold dust. Strangely light for its size, the shortspear has a range increment of 30 feet.
@@ -38,5 +43,7 @@ most valuable object within 30 feet.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deeper darkness](ref/spell/deeper-darkness), [identify](ref/spell/identify); **Price** 4,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deeper darkness](ref/spell/deeper-darkness), [identify](ref/spell/identify)
+Price: 4,750 gp
+:::

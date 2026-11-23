@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 22,307 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 22,307 gp
+Weight: 1 lb.
+:::
 
 The blade of this unassuming longsword is permanently broken, snapped at an angle halfway along the
 blade. In spite of this, the sword can be wielded as a +2 [short sword](ref/eq-weapon/short-sword)
@@ -33,6 +38,7 @@ level in order to count toward this weapon's ability.
 
 ### Construction
 
-**Requirements** [Cleave](ref/feat/cleave),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Great Cleave](ref/feat/great-cleave), [divine power](ref/spell/divine-power); **Price** 11,307 gp
+::: statblock
+Requirements: [Cleave](ref/feat/cleave), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Great Cleave](ref/feat/great-cleave), [divine power](ref/spell/divine-power)
+Price: 11,307 gp
+:::

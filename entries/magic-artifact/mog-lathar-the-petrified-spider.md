@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6,000 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 6,000 lbs.
+:::
 
 Mog-Lathar is a well-preserved fossil of a gigantic [Leng spider](ref/monster/leng-spider) that has
 achieved sentience. Since its discovery in the Mindspin Mountains and subsequent arrival in

@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 14,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 14,350 gp
+Weight: 8 lbs.
+:::
 
 This +1 [greatsword](ref/eq-weapon/greatsword) is made of blackened steel and embodies the Lambreth
 ideal that all crimes must be punished twice. Once per day after the wielder slays a creature with
@@ -32,5 +37,7 @@ for 8 rounds or until the wielder kills a second creature with the weapon, which
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** 7,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: 7,350 gp
+:::

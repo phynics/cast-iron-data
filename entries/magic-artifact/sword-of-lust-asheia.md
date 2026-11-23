@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Aura** strong enchantment; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 16th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 This beautiful blade is a +5 [flaming](ref/magic-enh/flaming) [longsword](ref/eq-weapon/longsword).
 While bearing the weapon, the wielder is immune to all enchantment effects. Any creature that casts

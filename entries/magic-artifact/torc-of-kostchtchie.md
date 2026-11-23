@@ -23,8 +23,13 @@ aura = "overwhelming conjuration and enchantment [evil]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming conjuration and enchantment \[evil\]; **CL** 25th\
-**Slot** neck; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming conjuration and enchantment \[evil\]
+CL: 25th
+Slot: neck
+Price: -
+Weight: 2 lbs.
+:::
 
 This golden collar contains a piece of the demon lord
 [Kostchtchie's](ref/monster/demon-lord-kostchtchie) mortal soul, entrapped within by the witch

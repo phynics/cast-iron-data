@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 34,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 34,000 gp
+Weight: 4 lbs.
+:::
 
 This bejeweled scepter constantly emits a low hum that amplifies the wielder's voice. A booming
 scepter acts as a +1 [thundering](ref/magic-enh/thundering) [light mace](ref/eq-weapon/light-mace)
@@ -33,6 +38,7 @@ the area of a [silence](ref/spell/silence) spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [shout](ref/spell/shout), [ventriloquism](ref/spell/ventriloquism);
-**Cost** 17,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [shout](ref/spell/shout), [ventriloquism](ref/spell/ventriloquism)
+Cost: 17,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 12,500 gp; **Weight** varies
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 12,500 gp
+Weight: varies
+:::
 
 This highly malleable weapon is forged from insubstantial darkness using a combination of illusion
 and transmutation magic. Each shadowcraft weapon is designed with a base type (melee or ranged) and
@@ -60,6 +65,7 @@ appearance it was commanded to assume until its wielder commands it to assume a 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon); **Price**
-6,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon)
+Price: 6,250 gp
+:::

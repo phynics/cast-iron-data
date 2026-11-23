@@ -20,9 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** armor; **Price** 10,650 gp; **Weight** 50 lbs. (full plate), 35 lbs. (banded mail), 70 lbs.
-(barding)
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: armor
+Price: 10,650 gp
+Weight: 50 lbs. (full plate), 35 lbs. (banded mail), 70 lbs. (barding)
+:::
 
 Shined to a mirror finish, this suit of +2 [full plate](ref/eq-armor/full-plate) is decorated with
 gold inlay. As a move action when the wearer is mounted, the plates of the armor expand and
@@ -41,5 +45,7 @@ well.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fabricate](ref/spell/fabricate); **Price** 6,150 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fabricate](ref/spell/fabricate)
+Price: 6,150 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A planestriking weapon functions as a [planar](ref/magic-enh/planar) weapon, ignoring up to 5 points
 of [damage reduction](ref/rule/damage-reduction) when used against an outsider. In addition, when
@@ -30,5 +35,7 @@ weapon ignores up to 10 points of damage reduction when used against outsiders n
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dismissal](ref/spell/dismissal); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dismissal](ref/spell/dismissal)
+Price: -
+:::

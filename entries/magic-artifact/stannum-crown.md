@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** head; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: head
+Price: -
+Weight: 2 lbs.
+:::
 
 Though polished to a silvery gleam, the metal of this velvet-capped crown is simple tin. Occult
 scholars believe the first stannum crowns were created by a mad psychic king who had become

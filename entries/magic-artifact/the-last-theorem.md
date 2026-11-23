@@ -20,8 +20,13 @@ aura = "strong (all schools) [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools) \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools) \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This book is non-magical; it is the hieroglyphic formulas contained within it that radiate both
 magic and evil. The formulas cannot be duplicated or transcribed unless the reader has the ability

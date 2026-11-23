@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 7th\
-**Slot** chest and neck (see text); **Price** 18,200 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 7th
+Slot: chest and neck (see text)
+Price: 18,200 gp
+Weight: 10 lbs.
+:::
 
 The tall, silver collar on this +2 [mithral](ref/eq-material/mithral)
 [armored coat](ref/eq-armor/armored-coat) is attractively set off by the coat's deep navy hues and
@@ -42,5 +47,7 @@ against attacks and maneuvers targeting the neck or throat.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death ward](ref/spell/death-ward), [shield of faith](ref/spell/shield-of-faith); **Price** 9,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death ward](ref/spell/death-ward), [shield of faith](ref/spell/shield-of-faith)
+Price: 9,200 gp
+:::

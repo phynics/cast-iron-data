@@ -23,8 +23,13 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Aura** strong varies; **CL** 15th\
-**Slot** none; **Price** 37,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 15th
+Slot: none
+Price: 37,000 gp
+Weight: 5 lbs.
+:::
 
 This device negates the spell or spell-like function or functions of magic items. The wielder points
 the rod at the magic item, and a pale gray beam shoots forth to touch the target device, attacking
@@ -37,5 +42,7 @@ artifacts). A rod of negation can function three times per day.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [dispel magic](ref/spell/dispel-magic),
-[limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle); **Cost** 18,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [dispel magic](ref/spell/dispel-magic), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle)
+Cost: 18,500 gp
+:::

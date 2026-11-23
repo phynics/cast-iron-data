@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 22,710 gp; **Weight** 13 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 22,710 gp
+Weight: 13 lbs.
+:::
 
 This ornate +2 [lance](ref/eq-weapon/lance) changes in color and style to match the armor of the
 wielder. A bright pennon flies from the end of the lance, mounted just behind the lance's point, and
@@ -33,5 +38,7 @@ on the next attack roll they make against the same target. The bonus lasts for 1
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[divine favor](ref/spell/divine-favor); **Price** 11,510 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [divine favor](ref/spell/divine-favor)
+Price: 11,510 gp
+:::

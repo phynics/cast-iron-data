@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** armor; **Price** 2,565 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: armor
+Price: 2,565 gp
+Weight: 25 lbs.
+:::
 
 This muddy brown +1 [hide](ref/eq-armor/hide) armor carries a fetid stench like raw sewage, and
 occasionally sprouts angry and uncomfortable-looking blisters. Creatures other than the wearer are
@@ -43,5 +48,7 @@ cause her to become [nauseated](ref/misc/nauseated) or sickened.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[contagion](ref/spell/contagion), [stinking cloud](ref/spell/stinking-cloud); **Price** 1,365 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [contagion](ref/spell/contagion), [stinking cloud](ref/spell/stinking-cloud)
+Price: 1,365 gp
+:::

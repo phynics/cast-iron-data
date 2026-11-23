@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "5th"
 +++
 
-**Aura** moderate transmutation; **CL** 5th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 5th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can be placed only on one-handed or light piercing melee weapons. A greater
 flamboyant weapon is nearly identical to a [flamboyant](ref/magic-enh/flamboyant) weapon, but its
@@ -30,5 +35,7 @@ the flamboyant special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater heroism](ref/spell/heroism-greater), creator must be a panache user; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater heroism](ref/spell/heroism-greater), creator must be a panache user
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 36,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 36,302 gp
+Weight: 1 lb.
+:::
 
 The hilt of this ornate +2 [dagger](ref/eq-weapon/dagger) is engraved with a depiction of a human
 clutching the sides of her head. When a creature takes damage from the blade, its mind rejects the
@@ -42,5 +47,7 @@ determines what information she learns.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mind probe](ref/spell/mind-probe); **Price** 18,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mind probe](ref/spell/mind-probe)
+Price: 18,302 gp
+:::

@@ -20,8 +20,13 @@ aura = "stong abjuration"
 caster_level = "18th"
 +++
 
-**Aura** stong abjuration; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 2,000 lbs.
+::: statblock
+Aura: stong abjuration
+CL: 18th
+Slot: none
+Price: -
+Weight: 2,000 lbs.
+:::
 
 This huge, ornate throne, carved from white marble and inlaid with flickering, smoking, multicolored
 spirals of serpentstone, is uncomfortably tall and thin for most humans, as it is designed to seat a

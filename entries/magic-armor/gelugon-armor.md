@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration and evocation; **CL** 13th\
-**Slot** armor; **Price** 117,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration and evocation
+CL: 13th
+Slot: armor
+Price: 117,650 gp
+Weight: 50 lbs.
+:::
 
 This +4 [full plate](ref/eq-armor/full-plate) is fashioned to make the wearer appear to be an
 [ice devil](ref/monster/devil-ice-devil-gelugon), complete with insectile eyes. Frosty blue energy
@@ -34,5 +39,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy), creator must be lawful evil; **Price** 59,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy), creator must be lawful evil
+Price: 59,650 gp
+:::

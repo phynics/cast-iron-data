@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** 10,301 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: 10,301 gp
+Weight: 2 lbs.
+:::
 
 This steel tankard functions as a +1 [light hammer](ref/eq-weapon/light-hammer). Worshipers of
 [Cayden Cailean](ref/faith/cayden-cailean) are automatically proficient with it. The interior of the
@@ -33,6 +38,7 @@ a random pocket, if the wielder has no preference).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest);
-**Price** 5,301 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), [secret chest](ref/spell/secret-chest)
+Price: 5,301 gp
+:::

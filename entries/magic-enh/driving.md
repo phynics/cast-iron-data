@@ -19,8 +19,12 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. A driving weapon can be used to perform
 [bull rush](ref/rule/bull-rush) and [trip](ref/rule/trip) combat maneuvers in its first range
@@ -30,5 +34,7 @@ knocked prone.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[telekinetic charge](ref/spell/telekinetic-charge); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [telekinetic charge](ref/spell/telekinetic-charge)
+Price: -
+:::

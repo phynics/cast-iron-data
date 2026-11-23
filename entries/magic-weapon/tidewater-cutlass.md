@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 3,395 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 3,395 gp
+Weight: 4 lbs.
+:::
 
 The blade of this +1 [cutlass](ref/eq-weapon/cutlass) is spotted with rust, and its basket hilt is
 cast in the likeness of a grinning skull. Once per day, a tidewater cutlass can be used to cast
@@ -36,5 +41,7 @@ push impertinent sailors overboard to drown in the Wormwood's wake.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hydraulic push](ref/spell/hydraulic-push); **Price** 1,855 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hydraulic push](ref/spell/hydraulic-push)
+Price: 1,855 gp
+:::

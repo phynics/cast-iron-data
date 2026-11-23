@@ -20,8 +20,13 @@ aura = "mild abjuration"
 caster_level = "5th"
 +++
 
-**Aura** mild abjuration; **CL** 5th\
-**Slot** none; **Price** 250 gp; **Weight** -
+::: statblock
+Aura: mild abjuration
+CL: 5th
+Slot: none
+Price: 250 gp
+Weight: -
+:::
 
 This +1 [firearm bullet](ref/eq-weapon/firearm-bullet) deals no damage but instead dispels one
 magical effect on the target, as _[dispel magic](ref/spell/dispel-magic)_ cast by a 5th-level
@@ -29,5 +34,7 @@ wizard. If the target has multiple magical effects active, the lowest-level effe
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic); **Price** 125 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic)
+Price: 125 gp
+:::

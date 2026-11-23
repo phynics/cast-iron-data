@@ -20,8 +20,13 @@ aura = "strong conjuration and evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** varies
+::: statblock
+Aura: strong conjuration and evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: varies
+:::
 
 Winter collectors are always located in areas of severe cold, and are typically surrounded by thick
 snow or ice. A winter collector siphons a portion of the ambient cold weather and condenses it into

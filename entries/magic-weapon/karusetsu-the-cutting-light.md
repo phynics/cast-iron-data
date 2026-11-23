@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 67,500 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 67,500 gp
+Weight: 8 lbs.
+:::
 
 This exquisitely detailed +3 [nodachi](ref/eq-weapon/nodachi) comes sheathed in a black-lacquered
 scabbard with gold filigree. Its hilt is wrapped in red [dragonhide](ref/eq-material/dragonhide),
@@ -36,5 +41,7 @@ a DC 14 Reflex save or be [blinded](ref/misc/blinded) for 1d4 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mage's sword](ref/spell/mages-sword), [searing light](ref/spell/searing-light); **Price** 33,930 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mage's sword](ref/spell/mages-sword), [searing light](ref/spell/searing-light)
+Price: 33,930 gp
+:::

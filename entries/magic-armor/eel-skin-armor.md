@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** armor; **Price** 33,810 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: armor
+Price: 33,810 gp
+Weight: 15 lbs.
+:::
 
 This red +2 [slick](ref/magic-enh/slick) [electricity resistance](ref/magic-enh/energy-resistance)
 [leather](ref/eq-armor/leather) armor is crafted from the skin of the
@@ -35,6 +40,7 @@ and negates the staggering effect. The aura persists for 5 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[elemental aura](ref/spell/elemental-aura), [grease](ref/spell/grease),
-[resist energy](ref/spell/resist-energy); **Price** 16,985 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [elemental aura](ref/spell/elemental-aura), [grease](ref/spell/grease), [resist energy](ref/spell/resist-energy)
+Price: 16,985 gp
+:::

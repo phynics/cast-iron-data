@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 1/2 lb.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: -
+Weight: 1/2 lb.
+:::
 
 This platinum key can open nearly any lock or door with a mere touch. With a touch of the key, a
 lock of DC 40 or lower unlocks. When a creature holding the key attempts to break down a door with a

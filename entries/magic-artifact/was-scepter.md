@@ -20,8 +20,13 @@ aura = "overwhelming abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming abjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 30 lbs.
+::: statblock
+Aura: overwhelming abjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 30 lbs.
+:::
 
 The Was Scepter can be wielded in combat as a +4 [light mace](ref/eq-weapon/light-mace). Upon
 command, it expands to a length of 6 feet and can be wielded as a [double](ref/misc/double) weapon

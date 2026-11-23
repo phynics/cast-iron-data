@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Typically forged by [aeons](ref/family/aeon) or other creatures that eschew commonly held structures
 of morality, unaligned weapons quell the effects of extreme alignments on the wielder. The wielder
@@ -37,5 +42,7 @@ strongly aligned traits, regardless of her actual alignment.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[undetectable alignment](ref/spell/undetectable-alignment); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [undetectable alignment](ref/spell/undetectable-alignment)
+Price: -
+:::

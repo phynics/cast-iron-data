@@ -20,8 +20,13 @@ aura = "strong conjuration [chaos and evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration \[chaos and evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration \[chaos and evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 An Abyssal runestone allows a spellcaster to cast
 [lesser planar binding](ref/spell/planar-binding-lesser),

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "20th"
 +++
 
-**Aura** moderate evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 7 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 7 lbs.
+:::
 
 The flamma horacalcum is tiny ball of fire harvested from a secret and hidden grotto on the Plane of
 Fire where the flames are infused with energies leaking from the Demiplane of Time. During the time

@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 22,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 22,800 gp
+Weight: 4 lbs.
+:::
 
 This dark mahogany staff is carved in the shape of a squid's tentacle and smells strongly of
 seawater. When grasped, the staff animates, writhing momentarily until it regains its rigid, wooden
@@ -40,5 +45,7 @@ The staff allows the use of the following spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [black tentacles](ref/spell/black-tentacles),
-[summon monster VI](ref/spell/summon-monster-6); **Cost** 11,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [black tentacles](ref/spell/black-tentacles), [summon monster VI](ref/spell/summon-monster-6)
+Cost: 11,400 gp
+:::

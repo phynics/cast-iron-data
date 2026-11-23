@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 This rare substance appears to be an ordinary, sooty piece of blackish rock. If the stone is broken
 open (break DC 20), a cavity is revealed at the stone's heart. This cavity is lined with a magical

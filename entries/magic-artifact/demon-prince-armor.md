@@ -20,8 +20,13 @@ aura = "overwhelming necromancy"
 caster_level = "22nd"
 +++
 
-**Aura** overwhelming necromancy; **CL** 22nd\
-**Slot** none; **Price** -; **Weight** 80 lbs.
+::: statblock
+Aura: overwhelming necromancy
+CL: 22nd
+Slot: none
+Price: -
+Weight: 80 lbs.
+:::
 
 This armor looks like a more massive and dangerous suit of
 [demon armor](ref/magic-armor/demon-armor). It is a suit of +5

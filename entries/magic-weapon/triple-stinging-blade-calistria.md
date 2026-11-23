@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "7th"
 +++
 
-**Aura** faint evocation; **CL** 7th\
-**Slot** none; **Price** 11,702 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint evocation
+CL: 7th
+Slot: none
+Price: 11,702 gp
+Weight: 1 lb.
+:::
 
 This highly decorative +1 [dagger](ref/eq-weapon/dagger) sports a rose carved onto its pommel and a
 yellow-and-black-striped hilt. Upon examination, the blade seems to be dented at regular intervals.
@@ -39,5 +44,7 @@ equivalent to [Medium spider venom](ref/eq-poison/medium-spider-venom).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spike growth](ref/spell/spike-growth); **Price** 5,851 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spike growth](ref/spell/spike-growth)
+Price: 5,851 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 37,550 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 37,550 gp
+Weight: 5 lbs.
+:::
 
 The gold-washed barrel of this elegant +2
 [double-barreled pistol](ref/eq-weapon/double-barreled-pistol) always catches the light, and its
@@ -32,5 +37,7 @@ her allies, fading away after 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[versatile weapon](ref/spell/versatile-weapon); **Price** 19,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [versatile weapon](ref/spell/versatile-weapon)
+Price: 19,800 gp
+:::

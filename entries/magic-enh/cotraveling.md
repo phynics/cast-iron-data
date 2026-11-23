@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong conjuration; **CL** 14th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 14th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 Cotraveling armor is decorated with the embroidered image of a five-armed spiral. While the armor is
 worn, the wearer can touch a willing creature and attune that creature to one of the five arms; once
@@ -37,5 +42,7 @@ must wait 24 hours before attuning new creatures to the spiral.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[plane shift](ref/spell/plane-shift); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [plane shift](ref/spell/plane-shift)
+Price: +3 bonus
+:::

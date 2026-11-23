@@ -20,8 +20,13 @@ aura = "not stated, presumably conjuration (teleportation)"
 caster_level = "-"
 +++
 
-**Aura** not stated, presumably conjuration (teleportation); **CL** -\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: not stated, presumably conjuration (teleportation)
+CL: -
+Slot: none
+Price: -
+Weight: -
+:::
 
 Some elves shudder to hear their aiudara referred to as "elf gates," but most accept the vulgar name
 good-naturedly. These sculpted stone arches, carved with elven runes and sylvan imagery, are

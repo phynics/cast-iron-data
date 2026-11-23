@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** 54,212 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: 54,212 gp
+Weight: 5 lbs.
+:::
 
 This special +3 [bane](ref/magic-enh/bane) [warhammer](ref/eq-weapon/warhammer) seeks only to crush
 the enemy of its wielder in battle. The hammer can speak Common, constantly mutters, curses when it
@@ -35,8 +40,10 @@ type remains until a new one is chosen.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[summon monster IV](ref/spell/summon-monster-4); **Price** 27,262 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [summon monster IV](ref/spell/summon-monster-4)
+Price: 27,262 gp
+:::
 
 ### Statistics
 

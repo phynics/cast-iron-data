@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 34,335 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 34,335 gp
+Weight: 6 lbs.
+:::
 
 This +2 [huntsman](ref/magic-enh/huntsman) [bastard sword](ref/eq-weapon/bastard-sword) has a grip
 bound in leather and trimmed with fur. Once per round when the wielder strikes a target with the
@@ -40,6 +45,7 @@ earlier or later in the round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aspect of the wolf](ref/spell/aspect-of-the-wolf),
-[detect animals or plants](ref/spell/detect-animals-or-plants); **Price** 17,335 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aspect of the wolf](ref/spell/aspect-of-the-wolf), [detect animals or plants](ref/spell/detect-animals-or-plants)
+Price: 17,335 gp
+:::

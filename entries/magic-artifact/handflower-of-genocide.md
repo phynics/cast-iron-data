@@ -20,8 +20,13 @@ aura = "strong enchantment and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment and transmutation; **CL** 18th\
-**Slot** hands; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment and transmutation
+CL: 18th
+Slot: hands
+Price: -
+Weight: 1 lb.
+:::
 
 Fine links spread from this gold bracelet to rings and finger-capping claws. This ornament was once
 a [vambrace of the genie](ref/magic-wondrous/vambraces-of-the-genie), but its magic has been warped

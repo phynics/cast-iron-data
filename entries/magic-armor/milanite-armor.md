@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** armor; **Price** 2,780 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: armor
+Price: 2,780 gp
+Weight: 15 lbs.
+:::
 
 This +1 [leather](ref/eq-armor/leather) armor usually looks like heavy protective work clothing,
 such as the garb of a professional blacksmith, butcher, or woodcutter. Once per day when an adjacent
@@ -31,5 +36,7 @@ expended for the day, it automatically triggers on the wearer.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds); **Price** 1,470 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds)
+Price: 1,470 gp
+:::

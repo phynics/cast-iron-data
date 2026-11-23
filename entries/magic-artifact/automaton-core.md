@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 These glowing metal cylinders are often gold- or silver-plated and decorated with tiny, glowing
 arcane symbols. These cores are primarily used to provide life-giving power to an

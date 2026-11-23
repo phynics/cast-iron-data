@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 When an [inquisitor](ref/class/inquisitor) wielder uses her judgment class ability while wielding a
 jurist weapon, it grants her an enhancement bonus on her Perception checks and to CMD. The bonus is
@@ -33,5 +38,7 @@ third and following rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[owl's wisdom](ref/spell/owls-wisdom); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [owl's wisdom](ref/spell/owls-wisdom)
+Price: -
+:::

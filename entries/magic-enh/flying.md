@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: +5 bonus
+Weight: -
+:::
 
 This ability can be placed only on melee weapons. A flying weapon acts as a
 [dancing](ref/magic-enh/dancing) weapon, but while dancing it can be directed to attack foes up to
@@ -35,5 +40,7 @@ free hand, falls at his feet. If the weapon can't return after 4 rounds, it fall
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects)
+Price: -
+:::

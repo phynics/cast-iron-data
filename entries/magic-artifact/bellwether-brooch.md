@@ -20,8 +20,13 @@ aura = "overwhelming enchantment and transmutation"
 caster_level = "29th"
 +++
 
-**Aura** overwhelming enchantment and transmutation; **CL** 29th\
-**Slot** amulet; **Price** -; **Weight** -
+::: statblock
+Aura: overwhelming enchantment and transmutation
+CL: 29th
+Slot: amulet
+Price: -
+Weight: -
+:::
 
 The creators of Dragonfall allowed for the possibility that at some point in the future, Dragonfall
 might require relocation. While they could not program the guardians with the flexibility of thought

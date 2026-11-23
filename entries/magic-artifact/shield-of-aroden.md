@@ -26,8 +26,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** shield; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: shield
+Price: -
+Weight: 10 lbs.
+:::
 
 The Shield of Aroden is a +5 [light fortification](ref/magic-enh/fortification-light)
 [spell resistance (17)](ref/magic-enh/spell-resistance-17)

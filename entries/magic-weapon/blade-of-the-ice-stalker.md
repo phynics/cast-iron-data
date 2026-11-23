@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** 32,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: 32,310 gp
+Weight: 2 lbs.
+:::
 
 An unnaturally cold, razor-thin blade of magically-hardened ice juts from the pommel of this +1
 [frost](ref/magic-enh/frost) [keen](ref/magic-enh/keen) [short sword](ref/eq-weapon/short-sword). On
@@ -35,6 +40,7 @@ the fire subtype. A blade of the ice stalker can implant an ice shard once per m
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [chill metal](ref/spell/chill-metal), [keen edge](ref/spell/keen-edge);
-**Price** 16,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [chill metal](ref/spell/chill-metal), [keen edge](ref/spell/keen-edge)
+Price: 16,310 gp
+:::

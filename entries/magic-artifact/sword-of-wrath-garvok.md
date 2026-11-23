@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "16th"
 +++
 
-**Aura** strong evocation; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation
+CL: 16th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 This scarred piece of crimson stained metal functions similarly to a +5
 [returning](ref/magic-enh/returning) [throwing](ref/magic-enh/throwing)

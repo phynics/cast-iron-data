@@ -20,8 +20,13 @@ aura = "moderate evocation [evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation \[evil\]; **CL** 10th\
-**Slot** none; **Price** 10,305 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation \[evil\]
+CL: 10th
+Slot: none
+Price: 10,305 gp
+Weight: 4 lbs.
+:::
 
 This +1 [flaming](ref/magic-enh/flaming) [light mace](ref/eq-weapon/light-mace) has an iron shaft
 and a polished ruby-red stone head, similar to a gemstone. Sometimes a diabolical eye or face is
@@ -35,5 +40,7 @@ damage from unholy energy.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike); **Price** 5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike)
+Price: 5,305 gp
+:::

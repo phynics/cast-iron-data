@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** armor; **Price** 12,800 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: armor
+Price: 12,800 gp
+Weight: 40 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -42,6 +47,7 @@ If multiple effects charge the armor, only the strongest effect applies. Fixed a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), creator must be a Varisian; **Price** 6,550
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure moderate wounds](ref/spell/cure-moderate-wounds), creator must be a Varisian
+Price: 6,550 gp
+:::

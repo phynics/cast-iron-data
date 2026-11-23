@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 3,072 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 3,072 gp
+Weight: 1 lb.
+:::
 
 This +1 [dagger](ref/eq-weapon/dagger) is etched with spiderweb designs and its hilt is shaped like
 a skeleton that has been laid to rest. [Pharasmin](ref/faith/pharasma) priests sometimes use these
@@ -33,5 +38,7 @@ _[disrupt undead](ref/spell/disrupt-undead)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disrupt undead](ref/spell/disrupt-undead); **Price** 1,697 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disrupt undead](ref/spell/disrupt-undead)
+Price: 1,697 gp
+:::

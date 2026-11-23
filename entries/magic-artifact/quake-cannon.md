@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1,000 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 1,000 lbs.
+:::
 
 The cannon consists of a pivoting chair designed for a Medium creature mounted atop a tripod that
 splays 10 feet in diameter. Attached to the front of the chair is a 12-foot-long, hollow

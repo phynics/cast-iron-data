@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A countering weapon gives its wielder a +2 bonus to his combat maneuver defense against combat
 maneuvers made to [disarm](ref/rule/disarm) or [sunder](ref/rule/sunder) this weapon. If the attempt
@@ -32,6 +37,7 @@ within the wielder's reach. Countering can only be placed on melee weapons.
 
 ### Construction
 
-**Requirements** [Combat Reflexes](ref/feat/combat-reflexes),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace); **Price** -
+::: statblock
+Requirements: [Combat Reflexes](ref/feat/combat-reflexes), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace)
+Price: -
+:::

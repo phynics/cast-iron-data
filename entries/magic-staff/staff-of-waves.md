@@ -21,8 +21,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 90,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 90,300 gp
+Weight: 5 lbs.
+:::
 
 This staff is made of entwined coral and topped with a brilliant sapphire. The staff functions as a
 +1 [quenching](ref/magic-enh/quenching) [quarterstaff](ref/eq-weapon/quarterstaff) above the waves
@@ -38,7 +43,7 @@ It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[hydraulic torrent](ref/spell/hydraulic-torrent), [ride the waves](ref/spell/ride-the-waves),
-[slipstream](ref/spell/slipstream), [vortex](ref/spell/vortex), [wave form](ref/spell/wave-form);
-**Cost** 45,300 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [hydraulic torrent](ref/spell/hydraulic-torrent), [ride the waves](ref/spell/ride-the-waves), [slipstream](ref/spell/slipstream), [vortex](ref/spell/vortex), [wave form](ref/spell/wave-form)
+Cost: 45,300 gp
+:::

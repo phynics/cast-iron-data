@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 96,600 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 96,600 gp
+Weight: 4 lbs.
+:::
 
 This +2/+2 [cruel](ref/magic-enh/cruel) [quarterstaff](ref/eq-weapon/quarterstaff) is made of
 polished ebony, and features a blackened metal spike on its bottom end. As a standard action, the
@@ -41,7 +46,7 @@ creature, ending the effect.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [cause fear](ref/spell/cause-fear),
-[death knell](ref/spell/death-knell), [deeper darkness](ref/spell/deeper-darkness),
-[plane shift](ref/spell/plane-shift); **Price** 48,600 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell), [deeper darkness](ref/spell/deeper-darkness), [plane shift](ref/spell/plane-shift)
+Price: 48,600 gp
+:::

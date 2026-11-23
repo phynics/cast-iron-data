@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 A suit of withstanding armor is inscribed with eldritch runes across its surface and decorated with
 the snarling countenances of specific creatures. Each suit of withstanding armor is tailored to a
@@ -36,5 +41,7 @@ with the withstanding special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[crushing despair](ref/spell/crushing-despair); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [crushing despair](ref/spell/crushing-despair)
+Price: +1 bonus
+:::

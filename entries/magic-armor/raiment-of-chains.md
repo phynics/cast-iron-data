@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 6,250 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 6,250 gp
+Weight: 25 lbs.
+:::
 
 While unattended, this +1 [chain shirt](ref/eq-armor/chain-shirt) takes the shape of a heap of rusty
 chains, but when a creature picks up the armor, the shirt immediately starts to assume its true
@@ -37,6 +42,7 @@ maneuver check has been attempted.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [chain of perdition](ref/spell/chain-of-perdition);
-**Price** 3,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [chain of perdition](ref/spell/chain-of-perdition)
+Price: 3,250 gp
+:::

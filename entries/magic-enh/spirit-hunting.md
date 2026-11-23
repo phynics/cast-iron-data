@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A spirit-hunting weapon excels against enemies with either the mystery or spirit class feature (but
 has no effect against a shaman who has a temporary bond to the appropriate spirit by way of the
@@ -51,5 +56,7 @@ with the following mysteries or spirits.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Price: -
+:::

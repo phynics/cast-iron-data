@@ -20,8 +20,12 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** none; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: none
+Weight: 2 lbs.
+:::
 
 This bow appears to be a +2 [distance](ref/magic-enh/distance) [shortbow](ref/eq-weapon/shortbow),
 but its curse is that it suffers a -4 cumulative penalty for each range increment beyond the first.
@@ -32,4 +36,7 @@ effect.
 
 ### Construction
 
-**Requirements** +2 _distance_ shortbow; **Cost** -
+::: statblock
+Requirements: +2 _distance_ shortbow
+Cost: -
+:::

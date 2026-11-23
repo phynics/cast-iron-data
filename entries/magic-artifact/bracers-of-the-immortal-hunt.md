@@ -20,8 +20,13 @@ aura = "overwhelming (all schools)"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming (all schools); **CL** 30th\
-**Slot** wrists; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming (all schools)
+CL: 30th
+Slot: wrists
+Price: -
+Weight: 1 lb.
+:::
 
 The Bracers of the Immortal Hunt claim to have been gifted by [Erastil](ref/faith/erastil) to a
 favored Ulfen hunter millennia ago. They are stoic and steadfast in their decisions, regarding only

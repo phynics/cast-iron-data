@@ -20,8 +20,13 @@ aura = "strong transmutation (evil)"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation (evil); **CL** 20th\
-**Slot** body; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation (evil)
+CL: 20th
+Slot: body
+Price: -
+Weight: 1 lb.
+:::
 
 The Robe of the Rifts is crafted of what appears to be fine silk, but is in fact forged of congealed
 dreams siphoned from the minds of slumbering spellcasters as they were ritually murdered. It was

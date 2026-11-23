@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong transmutation; **CL** 18th\
-**Slot** none; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 18th
+Slot: none
+Price: +5 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. The wielder can make attacks of
 opportunity with an interfering weapon as if he threatened all spaces within the weapon's first
@@ -33,5 +38,7 @@ opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[litany of warding](ref/spell/litany-of-warding); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [litany of warding](ref/spell/litany-of-warding)
+Price: -
+:::

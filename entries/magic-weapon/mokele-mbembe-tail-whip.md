@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 32,301 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 32,301 gp
+Weight: 2 lbs.
+:::
 
 This item is crafted from tightly braided rawhide from a water buffalo skin, and is usually awarded
 to a prominent member of a tribe. The mokele-mbembe tail whip functions as a +2
@@ -32,5 +37,7 @@ the weapon's sonic damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shout](ref/spell/shout); **Price** 16,301 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shout](ref/spell/shout)
+Price: 16,301 gp
+:::

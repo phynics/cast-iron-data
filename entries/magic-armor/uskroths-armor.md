@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 11,350 gp; **Weight** 100 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 11,350 gp
+Weight: 100 lbs.
+:::
 
 This battered, well-used suit of +1 [half-plate](ref/eq-armor/half-plate) automatically resizes
 itself to match the size of its wearer. Once per day on command, the armor can bestow upon its
@@ -32,5 +37,7 @@ she activates this ability - once chosen, it cannot be changed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[righteous might](ref/spell/righteous-might); **Price** 6,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [righteous might](ref/spell/righteous-might)
+Price: 6,350 gp
+:::

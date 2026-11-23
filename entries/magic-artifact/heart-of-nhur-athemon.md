@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 15 lbs.
+:::
 
 This multi-chambered clockwork device is about the size of an ogre's fist. Tiny mechanisms whir and
 grind, powering a constant thump reminiscent of a heartbeat. When placed upon the chest of a

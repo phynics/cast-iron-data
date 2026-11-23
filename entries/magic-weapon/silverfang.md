@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 9,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 9,320 gp
+Weight: 2 lbs.
+:::
 
 Silverfang is a +1 undead [bane](ref/magic-enh/bane) [mithral](ref/eq-material/mithral)
 [rapier](ref/eq-weapon/rapier) originally forged by a cabal of [vampire](ref/template/vampire)
@@ -40,5 +45,7 @@ negates) as a swift action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death ward](ref/spell/death-ward), [halt undead](ref/spell/halt-undead); **Price** 8,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death ward](ref/spell/death-ward), [halt undead](ref/spell/halt-undead)
+Price: 8,250 gp
+:::

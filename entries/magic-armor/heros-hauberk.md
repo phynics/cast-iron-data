@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** 16,600 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: 16,600 gp
+Weight: 25 lbs.
+:::
 
 The [damage reduction](ref/rule/damage-reduction) of this dull gray +1
 [adamantine](ref/eq-material/adamantine) [chain shirt](ref/eq-armor/chain-shirt) stacks with any
@@ -38,6 +43,7 @@ penalties, the total of the penalties is reduced by 1, not each individual penal
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), creator must have the raging
-song class feature; **Price** 11,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), creator must have the raging song class feature
+Price: 11,850 gp
+:::

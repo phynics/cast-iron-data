@@ -24,8 +24,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is made from ebony or other dark wood and carved with images of bones and skulls mingled
 with strange spidery runes. It allows use of the following spells:
@@ -39,7 +44,7 @@ with strange spidery runes. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [cause fear](ref/spell/cause-fear),
-[circle of death](ref/spell/circle-of-death), [enervation](ref/spell/enervation),
-[ghoul touch](ref/spell/ghoul-touch), [halt undead](ref/spell/halt-undead),
-[waves of fatigue](ref/spell/waves-of-fatigue); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cause fear](ref/spell/cause-fear), [circle of death](ref/spell/circle-of-death), [enervation](ref/spell/enervation), [ghoul touch](ref/spell/ghoul-touch), [halt undead](ref/spell/halt-undead), [waves of fatigue](ref/spell/waves-of-fatigue)
+Cost: 41,000 gp
+:::

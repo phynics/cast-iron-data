@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** armor; **Price** 26,500 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: armor
+Price: 26,500 gp
+Weight: 25 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -35,7 +40,7 @@ found in Tanglebriar and the Worldwound, or even in the Abyss and the Maelstrom.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dismissal](ref/spell/dismissal),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos), creator must be an elf;
-**Price** 18,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dismissal](ref/spell/dismissal), [magic circle against chaos](ref/spell/magic-circle-against-chaos), creator must be an elf
+Price: 18,500 gp
+:::

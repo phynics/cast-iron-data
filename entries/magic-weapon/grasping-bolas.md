@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 3,805 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 3,805 gp
+Weight: 2 lbs.
+:::
 
 This +1 [bolas](ref/eq-weapon/bolas) is favored in the southern Mwangi Expanse, where it is commonly
 crafted from [assassin vines](ref/monster/assassin-vine) and used as a means of escape from the
@@ -38,5 +43,7 @@ The animated ropes employed by a grasping bolas have AC 22, [hardness](ref/umr/h
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope) or [entangle](ref/spell/entangle); **Price** 2,055 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope) or [entangle](ref/spell/entangle)
+Price: 2,055 gp
+:::

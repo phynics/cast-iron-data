@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 30,320 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 30,320 gp
+Weight: 10 lbs.
+:::
 
 The [oni](ref/family/oni) of Chu Ye grant these +3 [tetsubos](ref/eq-weapon/tetsubo) to loyal human
 servants, who use them to enforce the oni's will throughout the nation in spite of the Steel Dictate
@@ -39,5 +44,7 @@ succeeds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[giant form I](ref/spell/giant-form-1); **Price** 15,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [giant form I](ref/spell/giant-form-1)
+Price: 15,160 gp
+:::

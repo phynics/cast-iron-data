@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "8th"
 +++
 
-**Aura** faint necromancy; **CL** 8th\
-**Slot** none; **Price** 29,110 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 8th
+Slot: none
+Price: 29,110 gp
+Weight: 10 lbs.
+:::
 
 The [Ulfen Guard](ref/rule/f-imperial) favor a single-bladed battleaxe as their weapon of choice. An
 elite few are chosen to bear a crowcaller, a magically enhanced version that not only strikes down
@@ -32,5 +37,7 @@ _[speak with dead](ref/spell/speak-with-dead)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [speak with dead](ref/spell/speak-with-dead); **Price** 14,710 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [speak with dead](ref/spell/speak-with-dead)
+Price: 14,710 gp
+:::

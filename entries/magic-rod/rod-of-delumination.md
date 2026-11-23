@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 35,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 35,000 gp
+Weight: 5 lbs.
+:::
 
 This silvery rod is spoon-sized and utterly featureless. A creature holding a rod of delumination
 can extinguish any ability, item, or spell effect that is acting as a light source simply by
@@ -39,5 +44,7 @@ previously extinguished, provided that the light source's normal duration hasn't
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Snuffing Spell](ref/feat/snuffing-spell);
-**Cost** 17,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Snuffing Spell](ref/feat/snuffing-spell)
+Cost: 17,500 gp
+:::

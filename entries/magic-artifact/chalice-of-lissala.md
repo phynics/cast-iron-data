@@ -20,8 +20,13 @@ aura = "overwhelming enchantment"
 caster_level = "22nd"
 +++
 
-**Aura** overwhelming enchantment; **CL** 22nd\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming enchantment
+CL: 22nd
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 The bowl of this elegant golden chalice resembles seven overlapping feathered wings, while the stand
 is shaped like a coiled snake. The chalice is inlaid with green gems that form spiky runes.

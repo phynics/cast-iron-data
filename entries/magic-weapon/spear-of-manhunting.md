@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 3,925 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 3,925 gp
+Weight: 8 lbs.
+:::
 
 A 2-foot-long blade extends from the heavy crossbar of this +1
 [boar spear](ref/eq-weapon/boar-spear). Designed to catch and hold humanoid prey, a spear of
@@ -33,5 +38,7 @@ dropped or withdrawn, such as by making additional attacks with the weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hold person](ref/spell/hold-person), [shrink item](ref/spell/shrink-item); **Price** 2,115 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hold person](ref/spell/hold-person), [shrink item](ref/spell/shrink-item)
+Price: 2,115 gp
+:::

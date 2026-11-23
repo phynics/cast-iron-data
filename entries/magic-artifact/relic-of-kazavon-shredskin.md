@@ -23,8 +23,13 @@ aura = "strong divination and illusion"
 caster_level = "20th"
 +++
 
-**Aura** strong divination and illusion; **CL** 20th\
-**Slot** chest; **Price** -; **Weight** 20 lbs.
+::: statblock
+Aura: strong divination and illusion
+CL: 20th
+Slot: chest
+Price: -
+Weight: 20 lbs.
+:::
 
 Kazavon's shattered ribs were twisted into a mantle of bone fragments known as the Shredskin. The
 mantle grants its wearer a +6 enhancement bonus to Wisdom, a +5 resistance bonus on all saving

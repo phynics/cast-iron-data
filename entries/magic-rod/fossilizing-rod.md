@@ -20,8 +20,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 11th\
-**Slot** none; **Price** 26,400 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 11th
+Slot: none
+Price: 26,400 gp
+Weight: 4 lbs.
+:::
 
 This forearm-length rod of onyx gemstone is capped by a sphere of amber. Once per day when the
 bearer of a fossilizing rod casts [animate dead](ref/spell/animate-dead) to animate skeletons, she
@@ -32,5 +37,7 @@ so magically in life. However, due to the stone infusing their bones, fossilized
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [flesh to stone](ref/spell/flesh-to-stone);
-**Cost** 13,200 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [flesh to stone](ref/spell/flesh-to-stone)
+Cost: 13,200 gp
+:::

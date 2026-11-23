@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 29,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 29,000 gp
+Weight: 5 lbs.
+:::
 
 The rod of the aboleth acts as a +1 [corrosive](ref/magic-enh/corrosive)
 [light mace](ref/eq-weapon/light-mace). One end of the rod has three eye-shaped rubies imbedded in
@@ -39,6 +44,7 @@ takes on a slimy sheen that doesn't affect the wielder's grip. This rod has the 
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [aboleth's lung](ref/spell/aboleths-lung),
-[acid arrow](ref/spell/acid-arrow), [touch of the sea](ref/spell/touch-of-the-sea); **Cost** 29,000
-gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [aboleth's lung](ref/spell/aboleths-lung), [acid arrow](ref/spell/acid-arrow), [touch of the sea](ref/spell/touch-of-the-sea)
+Cost: 29,000 gp
+:::

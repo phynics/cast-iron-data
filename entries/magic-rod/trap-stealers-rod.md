@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 13,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 13,500 gp
+Weight: 5 lbs.
+:::
 
 This sturdy iron rod is forged with pronounced angles to allow for strong gripping, inscribed with
 images and sayings of trickster figures from myths and common folklore. Hooked at one end, a
@@ -49,5 +54,7 @@ location after 24 hours. This ability functions once per day.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [create pit](ref/spell/create-pit),
-[knock](ref/spell/knock), [plane shift](ref/spell/plane-shift); **Cost** 6,750 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [create pit](ref/spell/create-pit), [knock](ref/spell/knock), [plane shift](ref/spell/plane-shift)
+Cost: 6,750 gp
+:::

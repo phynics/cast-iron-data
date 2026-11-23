@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 25,000 gp
+Weight: 5 lbs.
+:::
 
 A rod of withering acts as a +1 [light mace](ref/eq-weapon/light-mace) that deals no hit point
 damage. Instead, the wielder deals 1d4 points of [Strength damage](ref/rule/ability-damage-drain)
@@ -34,5 +39,7 @@ either case, the defender negates the effect with a DC 17 Fortitude save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [contagion](ref/spell/contagion); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [contagion](ref/spell/contagion)
+Cost: 12,500 gp
+:::

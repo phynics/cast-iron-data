@@ -24,8 +24,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 Made from a supple length of willow carefully selected to have a crooked, forked tip, a staff of
 divination allows use of the following spells:
@@ -39,7 +44,7 @@ divination allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[detect secret doors](ref/spell/detect-secret-doors), [locate creature](ref/spell/locate-creature),
-[locate object](ref/spell/locate-object), [prying eyes](ref/spell/prying-eyes),
-[tongues](ref/spell/tongues), [true seeing](ref/spell/true-seeing); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [detect secret doors](ref/spell/detect-secret-doors), [locate creature](ref/spell/locate-creature), [locate object](ref/spell/locate-object), [prying eyes](ref/spell/prying-eyes), [tongues](ref/spell/tongues), [true seeing](ref/spell/true-seeing)
+Cost: 41,000 gp
+:::

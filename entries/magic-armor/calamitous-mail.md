@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** armor; **Price** 3,750 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: armor
+Price: 3,750 gp
+Weight: 25 lbs.
+:::
 
 This style of +1 [chain shirt](ref/eq-armor/chain-shirt) is decorated with small agates, and was
 first created by followers of the halfling goddess of mischief and battle. The wearer gains a +1
@@ -29,5 +34,7 @@ luck bonus on all saving throws.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[divine favor](ref/spell/divine-favor); **Price** 2,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [divine favor](ref/spell/divine-favor)
+Price: 2,000 gp
+:::

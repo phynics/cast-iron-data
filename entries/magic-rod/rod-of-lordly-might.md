@@ -23,8 +23,13 @@ aura = "strong varies"
 caster_level = "19th"
 +++
 
-**Aura** strong varies; **CL** 19th\
-**Slot** none; **Price** 70,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong varies
+CL: 19th
+Slot: none
+Price: 70,000 gp
+Weight: 10 lbs.
+:::
 
 This rod has functions that are spell-like, and it can also be used as a magic weapon of various
 sorts. In addition, it has several more mundane uses. The rod of lordly might is metal and thicker
@@ -71,7 +76,7 @@ employed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength),
-[fear](ref/spell/fear), [flame blade](ref/spell/flame-blade), [hold person](ref/spell/hold-person),
-[inflict light wounds](ref/spell/inflict-light-wounds); **Cost** 35,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength), [fear](ref/spell/fear), [flame blade](ref/spell/flame-blade), [hold person](ref/spell/hold-person), [inflict light wounds](ref/spell/inflict-light-wounds)
+Cost: 35,000 gp
+:::

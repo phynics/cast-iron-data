@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** armor; **Price** 43,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: armor
+Price: 43,300 gp
+Weight: 40 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -32,6 +37,7 @@ and can absorb up to 10 points of positive energy.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mass cure moderate wounds](ref/spell/cure-moderate-wounds-mass), creator must be a Varisian;
-**Price** 21,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mass cure moderate wounds](ref/spell/cure-moderate-wounds-mass), creator must be a Varisian
+Price: 21,800 gp
+:::

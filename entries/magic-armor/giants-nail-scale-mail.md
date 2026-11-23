@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** armor; **Price** 9,200 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: armor
+Price: 9,200 gp
+Weight: 30 lbs.
+:::
 
 This thick coat of +2 [scale mail](ref/eq-armor/scale-mail) is crafted from waxy scales of varying
 sizes with a sickly, jaundiced color - the grime-stained fingernails of dead hill giants. Any
@@ -35,5 +40,7 @@ rounds and is compelled to attack the armor's wearer for the duration of this ef
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear), [rage](ref/spell/rage); **Price** 4,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear), [rage](ref/spell/rage)
+Price: 4,700 gp
+:::

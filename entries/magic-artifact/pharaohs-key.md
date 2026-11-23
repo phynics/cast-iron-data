@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 17th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The Pharaoh's Key is a strange-looking device, possibly of Shory origin, about 1 foot in diameter.
 The device's primary use is as an activation item to trigger the firing of the Slave Trenches, yet

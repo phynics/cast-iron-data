@@ -21,8 +21,13 @@ aura = "moderate conjuration and illusion"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and illusion; **CL** 9th\
-**Slot** armor; **Price** 20,150 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate conjuration and illusion
+CL: 9th
+Slot: armor
+Price: 20,150 gp
+Weight: 25 lbs.
+:::
 
 This sky-blue suit of mistmail has the [glamered](ref/magic-enh/glamered) armor special ability, and
 can once per day create a dramatic spectacle of twinkling lights, as the
@@ -32,9 +37,10 @@ divinatory powers.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [obscuring mist](ref/spell/obscuring-mist),
-[rainbow pattern](ref/spell/rainbow-pattern); **Price** 10,075 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [obscuring mist](ref/spell/obscuring-mist), [rainbow pattern](ref/spell/rainbow-pattern)
+Price: 10,075 gp
+:::
 
 ### Statistics
 

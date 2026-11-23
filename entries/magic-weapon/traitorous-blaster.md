@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 7,050 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 7,050 gp
+Weight: 5 lbs.
+:::
 
 This +1 [double-barreled pistol](ref/eq-weapon/double-barreled-pistol) has an oversized stock to
 compensate for the massive recoil the weapon produces, though even with this attachment the kickback
@@ -33,5 +38,7 @@ normally associated with firing both barrels of a double-barreled pistol as a si
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mirror strike](ref/spell/mirror-strike); **Price** 4,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mirror strike](ref/spell/mirror-strike)
+Price: 4,550 gp
+:::

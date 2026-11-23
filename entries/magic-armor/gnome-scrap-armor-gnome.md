@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 11,175 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 11,175 gp
+Weight: 10 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -56,5 +61,7 @@ items sized for Small creatures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item), creator must be a gnome; **Price** 5,675 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item), creator must be a gnome
+Price: 5,675 gp
+:::

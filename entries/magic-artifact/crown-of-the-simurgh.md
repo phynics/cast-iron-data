@@ -23,8 +23,13 @@ aura = "strong divination and transmutation [good]"
 caster_level = "18th"
 +++
 
-**Aura** strong divination and transmutation \[good\]; **CL** 18th\
-**Slot** head; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong divination and transmutation \[good\]
+CL: 18th
+Slot: head
+Price: -
+Weight: 1 lb.
+:::
 
 A crown of the simurgh grants the wearer the protection of the [simurgh](ref/monster/simurgh) who
 created it. The crown only works for a single creature for whom the crown was specifically crafted.

@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons that normally deal nonlethal damage, such
 as [whips](ref/eq-weapon/whip) and [saps](ref/eq-weapon/sap). All damage a deadly weapon deals is
@@ -35,5 +40,7 @@ resume.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[inflict light wounds](ref/spell/inflict-light-wounds); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [inflict light wounds](ref/spell/inflict-light-wounds)
+Price: -
+:::

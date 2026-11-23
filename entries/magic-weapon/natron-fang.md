@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon; **Price** 7,280 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon
+Price: 7,280 gp
+Weight: 8 lbs.
+:::
 
 Carved from a single chunk of magically strengthened mineral salts, a natron fang is a +1
 [khopesh](ref/eq-weapon/khopesh) forged to combat the undead, specifically mummies and incorporeal
@@ -33,6 +38,7 @@ addition to the weapon's normal damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[consecrate](ref/spell/consecrate), [disrupting weapon](ref/spell/disrupting-weapon); **Price**
-3,665 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [consecrate](ref/spell/consecrate), [disrupting weapon](ref/spell/disrupting-weapon)
+Price: 3,665 gp
+:::

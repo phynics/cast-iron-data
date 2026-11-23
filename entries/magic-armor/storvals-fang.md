@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 38,312 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 38,312 gp
+Weight: 6 lbs.
+:::
 
 This metal +1 [klar](ref/eq-armor/klar) is shaped like the head of a storm [roc](ref/monster/roc),
 whose sharp feathers serve as the klar's spikes, and it hums and crackles like a distant stormy sky.
@@ -38,6 +43,7 @@ fails such a saving throw is also pushed back 10 feet and knocked [prone](ref/ru
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy),
-[sound burst](ref/spell/sound-burst), creator must be of Shoanti descent; **Price** 19,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy), [sound burst](ref/spell/sound-burst), creator must be of Shoanti descent
+Price: 19,312 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration, conjuration, and transmutation; **CL** 20th\
-**Slot** ring; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration, conjuration, and transmutation
+CL: 20th
+Slot: ring
+Price: -
+Weight: -
+:::
 
 Three faces representing the threefold aspect of womanhood - maiden, mother, and crone - adorn this
 solid silver ring. [Baba Yaga](ref/monster/baba-yaga) crafted the Artrosa Ring for her chosen warden

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 20,301 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 20,301 gp
+Weight: 2 lbs.
+:::
 
 This +1 [returning](ref/magic-enh/returning) [light hammer](ref/eq-weapon/light-hammer) can strike
 multiple foes with a single throw. If the wielder has multiple attacks from a high base attack
@@ -43,5 +48,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[telekinesis](ref/spell/telekinesis); **Price** 20,301 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [telekinesis](ref/spell/telekinesis)
+Price: 20,301 gp
+:::

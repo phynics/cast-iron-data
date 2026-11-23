@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 10,305 gp; **Weight** 16 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 10,305 gp
+Weight: 16 lbs.
+:::
 
 This +1 [returning](ref/magic-enh/returning) [harpoon](ref/eq-weapon/harpoon) is made from the
 jagged, scrimshaw-carved tusk of a narwhal attached to a 50-foot length of woven sinew. Unlike most
@@ -30,6 +35,7 @@ no penalties on [attack rolls underwater](ref/rule/physical-attacks-underwater).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement), [telekinesis](ref/spell/telekinesis);
-**Price** 5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement), [telekinesis](ref/spell/telekinesis)
+Price: 5,305 gp
+:::

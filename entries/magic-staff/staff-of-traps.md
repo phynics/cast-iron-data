@@ -24,8 +24,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 56,925 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 56,925 gp
+Weight: 5 lbs.
+:::
 
 The tip of this dark wooden shaft holds a piece of hard, chalk-like stone between black, claw-like
 protrusions. The staff allows use of the following spells:
@@ -39,7 +44,7 @@ protrusions. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [alarm](ref/spell/alarm),
-[explosive runes](ref/spell/explosive-runes), [fire trap](ref/spell/fire-trap),
-[magic mouth](ref/spell/magic-mouth), [phantom trap](ref/spell/phantom-trap),
-[sepia snake sigil](ref/spell/sepia-snake-sigil); **Cost** 36,525 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [alarm](ref/spell/alarm), [explosive runes](ref/spell/explosive-runes), [fire trap](ref/spell/fire-trap), [magic mouth](ref/spell/magic-mouth), [phantom trap](ref/spell/phantom-trap), [sepia snake sigil](ref/spell/sepia-snake-sigil)
+Cost: 36,525 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong transmutation; **CL** 19th\
-**Slot** none; **Price** 80,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 19th
+Slot: none
+Price: 80,000 gp
+Weight: 10 lbs.
+:::
 
 This dwarven version of the more famous [rod of lordly might](ref/magic-rod/rod-of-lordly-might) has
 no spell-like powers; however, when wielded by a [dwarf](ref/race/dwarf), it increases all AC,
@@ -42,5 +47,7 @@ preferences.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength)
+Cost: 40,000 gp
+:::

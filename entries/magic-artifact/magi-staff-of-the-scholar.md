@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This shepherd's crook is formed of alternating bands of ivory and obsidian around a sycamore shaft.
 Golden runes run the length of the staff, twisting into new configurations as its various powers are

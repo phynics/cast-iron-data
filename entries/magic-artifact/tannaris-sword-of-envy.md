@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 7 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: none
+Price: -
+Weight: 7 lbs.
+:::
 
 A purely cosmetic magical effect causes the elegant blade of this sword to cycle through distinctive
 colors and textures, making it appear to be crafted from massive pieces of gemstone, coral, or

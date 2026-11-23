@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 178 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 178 gp
+Weight: -
+:::
 
 When propelled from a firearm, this +1
 [alchemical paper cartridge](ref/eq-weapon/alchemical-cartridge) changes the damage, depending on
@@ -45,7 +50,7 @@ extinguished.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and
-[acid arrow](ref/spell/acid-arrow) (acid), [cone of cold](ref/spell/cone-of-cold) (cold),
-[lightning bolt](ref/spell/lightning-bolt) (electricity), or
-[scorching ray](ref/spell/scorching-ray) (fire); **Price** 98 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and [acid arrow](ref/spell/acid-arrow) (acid), [cone of cold](ref/spell/cone-of-cold) (cold), [lightning bolt](ref/spell/lightning-bolt) (electricity), or [scorching ray](ref/spell/scorching-ray) (fire)
+Price: 98 gp
+:::

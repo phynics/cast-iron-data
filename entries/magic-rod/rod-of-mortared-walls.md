@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 8,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 8,000 gp
+Weight: 5 lbs.
+:::
 
 This carved stone rod is capped with a flat metal trowel blade. The rod can be used three times per
 day, in any combination of the following abilities.
@@ -44,6 +49,7 @@ day, in any combination of the following abilities.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[soften earth and stone](ref/spell/soften-earth-and-stone),
-[wall of stone](ref/spell/wall-of-stone); **Cost** 4,000 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [soften earth and stone](ref/spell/soften-earth-and-stone), [wall of stone](ref/spell/wall-of-stone)
+Cost: 4,000 gp
+:::

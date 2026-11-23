@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 Carved long ago from the ice at the heart of an ancient glacier and infused with a cold and
 unstoppable drive, this +5 [icy burst](ref/magic-enh/icy-burst) [quenching](ref/magic-enh/quenching)

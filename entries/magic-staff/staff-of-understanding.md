@@ -24,8 +24,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: none
+Price: 14,400 gp
+Weight: 5 lbs.
+:::
 
 This polished maple or oak staff is inlaid with ivory strips along its length, and runes of various
 languages also formed from inlaid ivory span the shaft. It allows use of the following spells:
@@ -36,6 +41,7 @@ languages also formed from inlaid ivory span the shaft. It allows use of the fol
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[comprehend languages](ref/spell/comprehend-languages),
-[detect thoughts](ref/spell/detect-thoughts), [tongues](ref/spell/tongues); **Cost** 7,200 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [comprehend languages](ref/spell/comprehend-languages), [detect thoughts](ref/spell/detect-thoughts), [tongues](ref/spell/tongues)
+Cost: 7,200 gp
+:::

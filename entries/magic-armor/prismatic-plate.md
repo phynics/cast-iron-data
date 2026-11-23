@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** 160,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: 160,650 gp
+Weight: 50 lbs.
+:::
 
 This resplendent suit of +3 [full plate](ref/eq-armor/full-plate) shimmers and shifts between all
 the colors of the rainbow. A single color dominates the others at any given time. As a swift action,
@@ -45,9 +50,7 @@ protection.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor), [mind blank](ref/spell/mind-blank),
-[neutralize poison](ref/spell/neutralize-poison), [resist energy](ref/spell/resist-energy),
-[stone to flesh](ref/spell/stone-to-flesh), and [prismatic sphere](ref/spell/prismatic-sphere),
-[prismatic spray](ref/spell/prismatic-spray), or [prismatic wall](ref/spell/prismatic-wall);
-**Price** 81,150 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor), [mind blank](ref/spell/mind-blank), [neutralize poison](ref/spell/neutralize-poison), [resist energy](ref/spell/resist-energy), [stone to flesh](ref/spell/stone-to-flesh), and [prismatic sphere](ref/spell/prismatic-sphere), [prismatic spray](ref/spell/prismatic-spray), or [prismatic wall](ref/spell/prismatic-wall)
+Price: 81,150 gp
+:::

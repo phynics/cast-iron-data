@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** none; **Price** +3,750 gp; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: none
+Price: +3,750 gp
+Weight: -
+:::
 
 When the wielder of an exclusionary weapon damages a creature with it, she can choose to not affect
 that creature with any [channel energy](ref/ability/channel-energy) ability she uses within the next
@@ -32,6 +37,7 @@ exclude the target she has been excluding for the longest amount of time.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Selective Channeling](ref/feat/selective-channeling), [sanctuary](ref/spell/sanctuary); **Price**
-1,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Selective Channeling](ref/feat/selective-channeling), [sanctuary](ref/spell/sanctuary)
+Price: 1,875 gp
+:::

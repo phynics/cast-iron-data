@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 50 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 50 lbs.
+:::
 
 This wooden mortar for grinding is 4 feet tall and 14 inches in diameter, and can hold up to 4 cubic
 feet of dry goods. Its pestle is about 8 feet long and carved of the same dense wood. It can be used

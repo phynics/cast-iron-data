@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 20,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 20,300 gp
+Weight: 5 lbs.
+:::
 
 This +1 [thundering](ref/magic-enh/thundering) [pepperbox](ref/eq-weapon/pepperbox) bears a
 fire-breathing dragon motif, and its wooden grip is ornately carved. Unlike a normal pepperbox, each
@@ -32,6 +37,7 @@ If two barrels are shot at once, they must both be fired at the same target, and
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Rapid Shot](ref/feat/rapid-shot), [blindness/deafness](ref/spell/blindness-deafness),
-[haste](ref/spell/haste); **Price** 11,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Rapid Shot](ref/feat/rapid-shot), [blindness/deafness](ref/spell/blindness-deafness), [haste](ref/spell/haste)
+Price: 11,800 gp
+:::

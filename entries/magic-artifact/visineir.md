@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming all
+CL: 30th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This [adamantine](ref/eq-material/adamantine) quill pen is the greatest weapon
 [Mephistopheles](ref/faith/mephistopheles) has in the corruption of souls. As a full-round action

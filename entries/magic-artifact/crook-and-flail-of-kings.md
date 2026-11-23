@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs. each
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs. each
+:::
 
 Crafted by the fabled thaumaturge Sekhmenathes of An for Hakotep's grandfather, these two symbols of
 rulership were passed down to the Sky Pharaoh by his father and buried with Hakotep in his crypt

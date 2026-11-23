@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on a melee weapon. Upon command, an unseen weapon can be
 made invisible, including any scabbard, sheath, or similar accessory used to hold the weapon. A
@@ -37,5 +42,7 @@ and [disintegrate](ref/spell/disintegrate) or [rusting grasp](ref/spell/rusting-
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater invisibility](ref/spell/invisibility-greater); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater invisibility](ref/spell/invisibility-greater)
+Price: -
+:::

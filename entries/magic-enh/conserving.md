@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This ability cannot be placed on firearms. Only projectile weapons can be made conserving. When the
 wielder misses with a ranged attack, the fired ammunition teleports unharmed to its quiver, case, or
@@ -32,6 +37,7 @@ from working.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[abundant ammunition](ref/spell/abundant-ammunition), [dimension door](ref/spell/dimension-door);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [abundant ammunition](ref/spell/abundant-ammunition), [dimension door](ref/spell/dimension-door)
+Price: -
+:::

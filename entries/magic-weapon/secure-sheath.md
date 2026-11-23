@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration; **CL** 4th\
-**Slot** none; **Price** 500 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 4th
+Slot: none
+Price: 500 gp
+Weight: 1 lb.
+:::
 
 Common across the length and breadth of Golarion, secure sheaths take a hundred different forms,
 from simple loops to richly engraved scabbards. A secure sheath can be attuned to a new owner by
@@ -31,5 +36,7 @@ Strength check to pull it out.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[glue seal](ref/spell/glue-seal); **Price** 250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [glue seal](ref/spell/glue-seal)
+Price: 250 gp
+:::

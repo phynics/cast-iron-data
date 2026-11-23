@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** 26,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: 26,000 gp
+Weight: 3 lbs.
+:::
 
 This asymmetric Minkai longbow, or daikyu, is over 6 feet long, and made of laminated bamboo, wood,
 and leather with a grip crafted from the hide of an imperial dragon. The daikyu of commanding
@@ -50,6 +55,7 @@ wielded. This negative level cannot be overcome in any way (including by
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [daylight](ref/spell/daylight),
-[heroism](ref/spell/heroism), [true seeing](ref/spell/true-seeing); **Price** 13,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [daylight](ref/spell/daylight), [heroism](ref/spell/heroism), [true seeing](ref/spell/true-seeing)
+Price: 13,200 gp
+:::

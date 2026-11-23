@@ -27,8 +27,13 @@ aura = "strong varies"
 caster_level = "13th"
 +++
 
-**Aura** strong varies; **CL** 13th\
-**Slot** none; **Price** 69,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 13th
+Slot: none
+Price: 69,300 gp
+Weight: 5 lbs.
+:::
 
 This staff is made of scorched and twisted wood and is set with a crystal sphere filled with
 swirling smoke. It allows the use of the following spells:
@@ -44,8 +49,7 @@ swirling smoke. It allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [darkness](ref/spell/darkness),
-[enervation](ref/spell/enervation), [planar binding](ref/spell/planar-binding),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement),
-[summon monster V](ref/spell/summon-monster-5), [vampiric touch](ref/spell/vampiric-touch); **Cost**
-34,650 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [darkness](ref/spell/darkness), [enervation](ref/spell/enervation), [planar binding](ref/spell/planar-binding), [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [summon monster V](ref/spell/summon-monster-5), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 34,650 gp
+:::

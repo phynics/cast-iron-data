@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 These ancient artifacts function as [decks of many things](ref/magic-artifact/deck-of-many-things),
 save that they have only 13 cards: Euryale, Flames, Jester, Key, Knight, Moon, Rogue, Ruin, Skull,

@@ -21,8 +21,13 @@ aura = "overwhelming necromancy"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming necromancy; **CL** 20th\
-**Slot** held; **Price** priceless; **Weight** 3 lbs. per section
+::: statblock
+Aura: overwhelming necromancy
+CL: 20th
+Slot: held
+Price: priceless
+Weight: 3 lbs. per section
+:::
 
 Karzoug is not alone in his restless sleep of the ages. Zutha, The undead lord of Gastash and
 Runelord of Gluttony saw the end in the stars just as his compatriots did and prepared accordingly.

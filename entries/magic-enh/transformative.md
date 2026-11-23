@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** weapon quality; **Price** +10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: weapon quality
+Price: +10,000 gp
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A transformative weapon alters its shape
 at its wielder's command, becoming any other melee weapon of the same general shape and handedness;
@@ -45,5 +50,7 @@ bludgeoning weapon. When unattended, the weapon reverts to its true shape.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation); **Price** +5,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation)
+Price: +5,000 gp
+:::

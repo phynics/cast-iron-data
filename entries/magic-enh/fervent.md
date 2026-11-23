@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A fervent weapon thrums with the divine power of a specific deity or set of deities. If the wielder
 is an adherent of the deity or deities, she gains several benefits. First, the wielder gains a +4
@@ -37,5 +42,7 @@ at the weapon's creation and cannot be altered.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[align weapon](ref/spell/align-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [align weapon](ref/spell/align-weapon)
+Price: -
+:::

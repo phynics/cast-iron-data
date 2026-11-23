@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 The tentacle of the Vaults is an artifact fashioned by the
 [xiomorns](ref/monster/xiomorn-vault-builder-mythic) from an

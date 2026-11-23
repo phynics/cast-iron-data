@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 A stanching suit of armor helps stop the flow of blood from the wearer's wounds, automatically
 tightening like a tourniquet in the appropriate places while also magically reducing the severity of
@@ -32,6 +37,7 @@ adds the armor's enhancement bonus to Constitution checks to become [stable](ref
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stabilize](ref/spell/stabilize), [cure critical wounds](ref/spell/cure-critical-wounds) or
-[lesser restoration](ref/spell/restoration-lesser); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stabilize](ref/spell/stabilize), [cure critical wounds](ref/spell/cure-critical-wounds) or [lesser restoration](ref/spell/restoration-lesser)
+Price: +1 bonus
+:::

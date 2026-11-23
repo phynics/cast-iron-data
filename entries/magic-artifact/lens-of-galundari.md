@@ -20,8 +20,13 @@ aura = "overwhelming abjuration"
 caster_level = "22nd"
 +++
 
-**Aura** overwhelming abjuration; **CL** 22nd\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: overwhelming abjuration
+CL: 22nd
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 At its most basic level, the Lens of Galundari functions as the focal point for an inward-facing
 [magic circle](ref/spell/magic-circle) spell of the user's choice. The

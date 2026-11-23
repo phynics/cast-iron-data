@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** armor; **Price** 18,165 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: armor
+Price: 18,165 gp
+Weight: 25 lbs.
+:::
 
 With the coming of the Eye of Abendego and the permanent change to the coastline's environs, its
 inhabitants have been forced to look to strange new places for resources. Hagfish hide may well be
@@ -34,5 +39,7 @@ Fortitude saving throw to avoid being [nauseated](ref/misc/nauseated) by the sli
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease), [water breathing](ref/spell/water-breathing); **Price** 9,165 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease), [water breathing](ref/spell/water-breathing)
+Price: 9,165 gp
+:::

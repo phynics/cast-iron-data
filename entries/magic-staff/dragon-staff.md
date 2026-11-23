@@ -21,8 +21,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 81,000 gp; **Weight** 7 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 81,000 gp
+Weight: 7 lbs.
+:::
 
 Made from a large dragon bone, wrapped in scales and topped with the fearsome image of a dragon,
 this staff radiates power. Each dragon staff is linked to one type of chromatic dragon: black, blue,
@@ -45,7 +50,7 @@ similar spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [alter self](ref/spell/alter-self),
-[dragon's breath](ref/spell/dragons-breath), [fly](ref/spell/fly),
-[form of the dragon II](ref/spell/form-of-the-dragon-2),
-[protection from energy](ref/spell/protection-from-energy); **Cost** 40,500 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [alter self](ref/spell/alter-self), [dragon's breath](ref/spell/dragons-breath), [fly](ref/spell/fly), [form of the dragon II](ref/spell/form-of-the-dragon-2), [protection from energy](ref/spell/protection-from-energy)
+Cost: 40,500 gp
+:::

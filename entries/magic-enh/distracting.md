@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Weapons with this special ability cause foes struck by them to have difficulty controlling their
 magic. Any time a creature that has been struck by a distracting weapon would have to succeed at a
@@ -32,5 +37,7 @@ hours, though it can be affected by a greater distracting effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[qualm](ref/spell/qualm); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [qualm](ref/spell/qualm)
+Price: -
+:::

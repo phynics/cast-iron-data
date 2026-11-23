@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +4,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +4,000 gp
+Weight: -
+:::
 
 Three times per day as a swift action, the wearer of expeditious armor can summon a burst of speed
 and gain a +10-foot enhancement bonus on all modes of movement for 1 round. This ability can be
@@ -29,5 +34,7 @@ applied to any kind of armor, but not shields.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[expeditious retreat](ref/spell/expeditious-retreat); **Price** +2,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [expeditious retreat](ref/spell/expeditious-retreat)
+Price: +2,000 gp
+:::

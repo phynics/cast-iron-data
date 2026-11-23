@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. Each time the wielder damages a creature
 using a mimetic weapon, he gains resistance 10 to one energy type that the creature is resistant or
@@ -32,5 +37,7 @@ creature's own resistances and immunities are unaffected.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation and necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and necromancy; **CL** 5th\
-**Slot** none; **Price** 22,105 gp; **Weight** 16 lbs.
+::: statblock
+Aura: faint evocation and necromancy
+CL: 5th
+Slot: none
+Price: 22,105 gp
+Weight: 16 lbs.
+:::
 
 This +2 [ominous](ref/magic-enh/ominous) [harpoon](ref/eq-weapon/harpoon) is carved from a bleached
 whale bone and bound with the spirit of an ancient beast that rumbles with a low, mournful call each
@@ -43,5 +48,7 @@ creatures of a larger size category or for determining what creatures can be tar
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enlarge person](ref/spell/enlarge-person), [scare](ref/spell/scare); **Price** 11,705 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enlarge person](ref/spell/enlarge-person), [scare](ref/spell/scare)
+Price: 11,705 gp
+:::

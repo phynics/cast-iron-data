@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 23,315 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 23,315 gp
+Weight: 6 lbs.
+:::
 
 This translucent longsword was first forged by Jistkan elemental binders. It appears to have a blade
 crafted from solid wind, similar in appearance to the matter that makes up an air elemental's body.
@@ -34,6 +39,7 @@ different planes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster IV](ref/spell/summon-monster-4) or
-[summon nature's ally IV](ref/spell/summon-natures-ally-4); **Price** 11,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster IV](ref/spell/summon-monster-4) or [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Price: 11,815 gp
+:::

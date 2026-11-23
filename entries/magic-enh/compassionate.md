@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A compassionate weapon has the power to save a foe from the brink of death. When a successful hit
 from a compassionate weapon would bring a creature to -1 or fewer hit points, that creature is
@@ -30,5 +35,7 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stabilize](ref/spell/stabilize); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stabilize](ref/spell/stabilize)
+Price: -
+:::

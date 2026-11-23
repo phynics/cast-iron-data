@@ -20,8 +20,13 @@ aura = "overwhelming abjuration"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming abjuration; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming abjuration
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Envy is made of shimmering green [noqual](ref/eq-material/noqual). As long as the Shard
 of Envy is carried, its owner can use [dispel magic](ref/spell/dispel-magic) as a

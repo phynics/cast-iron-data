@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 28,550 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 28,550 gp
+Weight: 4 lbs.
+:::
 
 This +1 [light repeating crossbow](ref/eq-weapon/repeating-light-crossbow) of deep mahogany rimmed
 with gold has a stock carved in the likeness of Abadar's First Vault. An extradimensional space
@@ -41,6 +46,7 @@ This chain lasts for 5 rounds before fading from existence.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chain of perdition](ref/spell/chain-of-perdition), [secret chest](ref/spell/secret-chest);
-**Price** 14,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chain of perdition](ref/spell/chain-of-perdition), [secret chest](ref/spell/secret-chest)
+Price: 14,550 gp
+:::

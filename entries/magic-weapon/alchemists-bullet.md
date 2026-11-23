@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 330 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 330 gp
+Weight: 1/2 lb.
+:::
 
 This +1 [sling bullet](ref/eq-weapon/sling-bullets) contains a magical reservoir that can store a
 single vial of any alchemical substance capable of being used as a splash weapon. If the alchemist
@@ -32,5 +37,7 @@ destroyed as well without effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 180 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 180 gp
+:::

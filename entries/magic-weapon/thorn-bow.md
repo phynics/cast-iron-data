@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 59,700 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 59,700 gp
+Weight: 8 lbs.
+:::
 
 This +2 [lesser designating](ref/magic-enh/designating-lesser)
 [composite longbow](ref/eq-weapon/composite-longbow) (+3 Str) has a bowstring that resembles a
@@ -33,6 +38,7 @@ how the _[wall of thorns](ref/spell/wall-of-thorns)_ is oriented.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[instant enemy](ref/spell/instant-enemy), [wall of thorns](ref/spell/wall-of-thorns); **Price**
-30,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [instant enemy](ref/spell/instant-enemy), [wall of thorns](ref/spell/wall-of-thorns)
+Price: 30,200 gp
+:::

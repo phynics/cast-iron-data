@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** normal (547 gp), greater (1,047 gp); **Weight** 1/20 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: normal (547 gp), greater (1,047 gp)
+Weight: 1/20 lb.
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) makes no sound on release or as it flies through the air. A
 creature struck by a hushing arrow must succeed at a DC 13 Will save or be affected by
@@ -35,6 +40,7 @@ hushing arrows, except they weigh 1/10 of a pound per bolt.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Heighten Spell](ref/feat/heighten-spell) (greater hushing arrow only),
-[silence](ref/spell/silence); **Price** 277 gp (normal), 577 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Heighten Spell](ref/feat/heighten-spell) (greater hushing arrow only), [silence](ref/spell/silence)
+Price: 277 gp (normal), 577 gp (greater)
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 6,555 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 6,555 gp
+Weight: 4 lbs.
+:::
 
 This +1 [longsword](ref/eq-weapon/longsword) sheds light as a [torch](ref/eq-misc/torch) and when
 drawn emits a shining starburst around the hilt, similar to [Iomedae's](ref/faith/iomedae) holy
@@ -32,6 +37,7 @@ _[inheritor's smite](ref/spell/inheritors-smite)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds), [inheritor's smite](ref/spell/inheritors-smite);
-**Price** 3,435 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds), [inheritor's smite](ref/spell/inheritors-smite)
+Price: 3,435 gp
+:::

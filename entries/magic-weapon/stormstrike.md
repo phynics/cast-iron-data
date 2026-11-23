@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 9,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 9,315 gp
+Weight: 4 lbs.
+:::
 
 This +1 [trident](ref/eq-weapon/trident) has a green-blue metal head, a pole made of driftwood, and
 a sheaf of white human hair tied at the joint. The wielder of stormstrike can speak one command word
@@ -31,7 +36,7 @@ Activating one of these abilities deactivates the other.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm),
-[call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt); **Price**
-4,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm), [call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt)
+Price: 4,815 gp
+:::

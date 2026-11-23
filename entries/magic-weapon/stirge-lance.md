@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 8,500 gp
+Weight: -
+:::
 
 This +1 [returning](ref/magic-enh/returning) [featherweight dart](ref/eq-weapon/featherweight-dart)
 transforms into an insect-sized stirge when fired. As with a normal featherweight dart, a stirge
@@ -45,6 +50,7 @@ destroyed, but must be retrieved manually.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [returning weapon](ref/spell/returning-weapon);
-**Price** 4,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [returning weapon](ref/spell/returning-weapon)
+Price: 4,400 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** weapon; **Price** 14,012 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: weapon
+Price: 14,012 gp
+Weight: 2 lbs.
+:::
 
 This bladed scarf is made of fine, silvery blue silk. Members of the mystery cult of
 [Ashava](ref/faith/ashava) - the True Spark and a deified [azata](ref/family/azata) - first created
@@ -46,7 +51,7 @@ other benefits of the _[spirit-bound blade](ref/spell/spirit-bound-blade)_ spell
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater magic weapon](ref/spell/magic-weapon-greater),
-[spirit-bound blade](ref/spell/spirit-bound-blade), phantom class feature, creator must worship
-[Ashava](ref/faith/ashava); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater magic weapon](ref/spell/magic-weapon-greater), [spirit-bound blade](ref/spell/spirit-bound-blade), phantom class feature, creator must worship [Ashava](ref/faith/ashava)
+Price: -
+:::

@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 38,552 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 38,552 gp
+Weight: 8 lbs.
+:::
 
 This weapon usually appears to be a particularly frightening-looking iron or steel mace. On command,
 this +2 [heavy mace](ref/eq-weapon/heavy-mace) causes the wielder's clothes and appearance to
@@ -35,5 +40,7 @@ ability up to three times per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear); **Price** 19,432 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear)
+Price: 19,432 gp
+:::

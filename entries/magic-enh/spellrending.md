@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 If a spellrending shield successfully protects its wearer from a spell effect, the shield stores the
 spell's energy and glows as bright as a [torch](ref/eq-misc/torch) for 1 round per level of the
@@ -33,5 +38,7 @@ special ability can have the spellrending special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell absorption](ref/spell/spell-absorption); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell absorption](ref/spell/spell-absorption)
+Price: +1 bonus
+:::

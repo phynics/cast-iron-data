@@ -20,8 +20,13 @@ aura = "strong divination and necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong divination and necromancy; **CL** 12th\
-**Slot** none; **Price** 32,700 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong divination and necromancy
+CL: 12th
+Slot: none
+Price: 32,700 gp
+Weight: 12 lbs.
+:::
 
 This +1 human-[bane](ref/magic-enh/bane) [seeking](ref/magic-enh/seeking)
 [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) is carved from whalebone
@@ -35,6 +40,7 @@ wielder takes a -2 penalty on its saving throw.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[retribution](ref/spell/retribution), [summon monster I](ref/spell/summon-monster-1),
-[true seeing](ref/spell/true-seeing); **Price** 16,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [retribution](ref/spell/retribution), [summon monster I](ref/spell/summon-monster-1), [true seeing](ref/spell/true-seeing)
+Price: 16,700 gp
+:::

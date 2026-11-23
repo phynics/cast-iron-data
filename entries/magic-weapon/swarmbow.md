@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** none; **Price** 11,275 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: none
+Price: 11,275 gp
+Weight: 2 lbs.
+:::
 
 This +2 [composite shortbow](ref/eq-weapon/composite-shortbow) is carved of withered juniper wood to
 resemble a swarming mass of wasps. Favored by the mystical bee-people called the
@@ -34,5 +39,7 @@ rounds or until destroyed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon swarm](ref/spell/summon-swarm); **Price** 6,075 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon swarm](ref/spell/summon-swarm)
+Price: 6,075 gp
+:::

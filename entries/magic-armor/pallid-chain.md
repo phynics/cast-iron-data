@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** armor; **Price** 3,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: armor
+Price: 3,300 gp
+Weight: 40 lbs.
+:::
 
 The links of this +1 [chainmail](ref/eq-armor/chainmail) are a dull, sickly white color that
 resembles old bone, and the suit's gauntlets are tipped with silver-black finger spikes. Once per
@@ -31,5 +36,7 @@ target can only answer questions that pertain to events that occurred after it b
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[speak with dead](ref/spell/speak-with-dead); **Price** 1,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [speak with dead](ref/spell/speak-with-dead)
+Price: 1,800 gp
+:::

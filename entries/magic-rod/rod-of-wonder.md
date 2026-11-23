@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 A rod of wonder is a strange and unpredictable device that randomly generates any number of weird
 effects each time it is used. Activating the rod is a standard action. Typical powers of the rod
@@ -57,5 +62,7 @@ include the following.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [confusion](ref/spell/confusion), creator must be
-chaotic; **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [confusion](ref/spell/confusion), creator must be chaotic
+Cost: 6,000 gp
+:::

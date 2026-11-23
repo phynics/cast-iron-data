@@ -20,8 +20,13 @@ aura = "strong divination and enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong divination and enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong divination and enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 This +4 [wounding](ref/magic-enh/wounding) [throwing](ref/magic-enh/throwing)
 [longspear](ref/eq-weapon/longspear) has a 2-foot-long iron spearhead covered with over 30 cruel

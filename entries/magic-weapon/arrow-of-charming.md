@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 2,886 gp; **Weight** 1/20 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 2,886 gp
+Weight: 1/20 lb.
+:::
 
 When this +3 [arrow](ref/eq-weapon/arrow) strikes a creature, it explodes in a small cloud of red
 dust and deals nonlethal damage. The creature struck must succeed at a DC 16 Will save or be charmed
@@ -31,5 +36,7 @@ charmed by the named creature on a failed save. Inscribing the arrow takes 10 mi
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm monster](ref/spell/charm-monster); **Price** 1,446 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm monster](ref/spell/charm-monster)
+Price: 1,446 gp
+:::

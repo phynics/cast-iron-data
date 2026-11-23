@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** shield; **Price** 15,170 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: shield
+Price: 15,170 gp
+Weight: 10 lbs.
+:::
 
 The face of this +1 [bashing](ref/magic-enh/bashing)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) swirls with the image of swirling clouds,
@@ -33,6 +38,7 @@ _[gust of wind](ref/spell/gust-of-wind)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [gust of wind](ref/spell/gust-of-wind); **Price** 8,170
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [gust of wind](ref/spell/gust-of-wind)
+Price: 8,170 gp
+:::

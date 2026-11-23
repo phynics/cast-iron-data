@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 24,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 24,315 gp
+Weight: 4 lbs.
+:::
 
 This +3 [scimitar](ref/eq-weapon/scimitar) has an emerald gem set into its hilt. When the wielder
 confirms a critical hit with the emerald-eyed blade, as a free action the wielder can cause the
@@ -33,5 +38,7 @@ potions, or other magic items with the word "cure" in their names until the curs
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[bestow curse](ref/spell/bestow-curse); **Price** 21,315 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bestow curse](ref/spell/bestow-curse)
+Price: 21,315 gp
+:::

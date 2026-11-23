@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "12th"
 +++
 
-**Aura** moderate necromancy; **CL** 12th\
-**Slot** none; **Price** 80,318 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 12th
+Slot: none
+Price: 80,318 gp
+Weight: 10 lbs.
+:::
 
 The black blade of this +2 [keen](ref/magic-enh/keen) [unholy](ref/magic-enh/unholy)
 [scythe](ref/eq-weapon/scythe) reflects faint images of the souls of those it has claimed. Whenever
@@ -33,6 +38,7 @@ wielder cannot gain another hero point from the scythe until the first is used o
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [malediction](ref/spell/malediction),
-[unholy blight](ref/spell/unholy-blight); **Price** 40,318 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [malediction](ref/spell/malediction), [unholy blight](ref/spell/unholy-blight)
+Price: 40,318 gp
+:::

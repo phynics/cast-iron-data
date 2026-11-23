@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 30th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 [Pazuzu's](ref/monster/demon-lord-pazuzu) weapon is the Scepter of Shibaxet, a staff of black metal
 with a large hook at its tip. The scepter functions as a

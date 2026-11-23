@@ -24,8 +24,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 51,008 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 51,008 gp
+Weight: 5 lbs.
+:::
 
 The forked top of this walnut shaft resembles a combination of a
 [dowsing rod](ref/eq-misc/dowsing-rod) and the curled horns of a beast, and a delicate gemstone
@@ -38,6 +43,7 @@ hovers between its enfolding arms. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [augury](ref/spell/augury),
-[commune](ref/spell/commune), [divination](ref/spell/divination),
-[speak with dead](ref/spell/speak-with-dead); **Cost** 30,608 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [augury](ref/spell/augury), [commune](ref/spell/commune), [divination](ref/spell/divination), [speak with dead](ref/spell/speak-with-dead)
+Cost: 30,608 gp
+:::

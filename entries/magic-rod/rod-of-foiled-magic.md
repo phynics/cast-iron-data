@@ -20,8 +20,12 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Weight: 5 lbs.
+:::
 
 This rod is similar in appearance to a metamagic rod. Once a creature picks up such a rod, it cannot
 be discarded without use of a [remove curse](ref/spell/remove-curse) spell or similar magic. Each
@@ -32,4 +36,7 @@ percentile chance), but if he is able to cast the spell, the spell has a caster 
 
 ### Construction
 
-**Requirements** metamagic rod; **Cost** -
+::: statblock
+Requirements: metamagic rod
+Cost: -
+:::

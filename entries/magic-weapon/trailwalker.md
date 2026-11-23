@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 40,372 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 40,372 gp
+Weight: 2 lbs.
+:::
 
 This +1 [mithral](ref/eq-material/mithral) [bladed scarf](ref/eq-weapon/bladed-scarf) is unusually
 long and ornate, patched and expanded over several generations into a garish collection of colors
@@ -39,5 +44,7 @@ lengthy or indirect), this is a move action instead.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimension door](ref/spell/dimension-door); **Price** 20,842 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimension door](ref/spell/dimension-door)
+Price: 20,842 gp
+:::

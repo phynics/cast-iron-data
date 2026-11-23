@@ -23,8 +23,12 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Weight: 3 lbs.
+:::
 
 This is a +2 [shortspear](ref/eq-weapon/shortspear), but each time it is used in melee against a foe
 and the attack roll is a natural 1, it damages its wielder instead of her intended target. When the
@@ -34,4 +38,7 @@ damage to the hurler is doubled.
 
 ### Construction
 
-**Requirements** +2 shortspear, any magic weapon; **Cost** -
+::: statblock
+Requirements: +2 shortspear, any magic weapon
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can be placed only on a melee weapon with a hilt or handle. An umbral weapon
 does not reflect any sources of ambient light and is perpetually cloaked in shadow. It is considered
@@ -43,5 +48,7 @@ the weapon is dropped, disarmed, sheathed, or otherwise stowed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [darkness](ref/spell/darkness), [darkvision](ref/spell/darkvision)
+Price: -
+:::

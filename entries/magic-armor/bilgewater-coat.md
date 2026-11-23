@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 11,655 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 11,655 gp
+Weight: 10 lbs.
+:::
 
 This +1 [putrid](ref/magic-enh/putrid) [padded](ref/eq-armor/padded) armor is made up of colorful
 silks, complete with a ruffled collar that is accented with a brass button. Whenever a creature that
@@ -35,5 +40,7 @@ requires.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease),
-[stinking cloud](ref/spell/stinking-cloud); **Price** 6,405 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [grease](ref/spell/grease), [stinking cloud](ref/spell/stinking-cloud)
+Price: 6,405 gp
+:::

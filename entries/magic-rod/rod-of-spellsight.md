@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** none; **Price** 12,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: none
+Price: 12,000 gp
+Weight: 6 lbs.
+:::
 
 This beautiful ivory rod is embedded with countless sapphires and covered with intricate designs
 inlaid in silver. The vision of a rod of spellsight's wielder is unaffected by any magical cloud,
@@ -33,5 +38,7 @@ effects such as [blindness/deafness](ref/spell/blindness-deafness) or the blindi
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [gust of wind](ref/spell/gust-of-wind),
-[true seeing](ref/spell/true-seeing); **Cost** 6,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [gust of wind](ref/spell/gust-of-wind), [true seeing](ref/spell/true-seeing)
+Cost: 6,000 gp
+:::

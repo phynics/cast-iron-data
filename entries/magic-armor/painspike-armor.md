@@ -20,8 +20,13 @@ aura = "faint necromancy [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 5th\
-**Slot** armor; **Price** 4,145 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 5th
+Slot: armor
+Price: 4,145 gp
+Weight: 20 lbs.
+:::
 
 This black +1 [spiked](ref/eq-armorenh/armor-spikes) [studded leather](ref/eq-armor/studded-leather)
 armor is outfitted with dozens of intimidating barbs, wicked chains, and leather straps that look to
@@ -30,5 +35,7 @@ _bleed_ at will and _[interrogation](ref/spell/interrogation)_ once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [interrogation](ref/spell/interrogation); **Price** 2,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [interrogation](ref/spell/interrogation)
+Price: 2,160 gp
+:::

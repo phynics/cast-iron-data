@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "1st"
 +++
 
-**Aura** faint necromancy; **CL** 1st\
-**Slot** none; **Price** 7,812 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 1st
+Slot: none
+Price: 7,812 gp
+Weight: 2 lbs.
+:::
 
 Dyed in somber shades of gray and tipped with treated shards of bone instead of blade-tips, this +1
 [bladed scarf](ref/eq-weapon/bladed-scarf) is predominantly used by wandering Varisian caravans in
@@ -38,6 +43,7 @@ undead creature it strikes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disrupt undead](ref/spell/disrupt-undead), [hide from undead](ref/spell/hide-from-undead);
-**Price** 4,062 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disrupt undead](ref/spell/disrupt-undead), [hide from undead](ref/spell/hide-from-undead)
+Price: 4,062 gp
+:::

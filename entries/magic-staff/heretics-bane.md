@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 32,000 gp
+Weight: 5 lbs.
+:::
 
 This sturdy wooden staff is crowned by a holy symbol, surrounded by wicked barbs of metal. The staff
 allows use of the following spells:
@@ -34,6 +39,7 @@ allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [castigate](ref/spell/castigate),
-[command](ref/spell/command), [denounce](ref/spell/denounce),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [castigate](ref/spell/castigate), [command](ref/spell/command), [denounce](ref/spell/denounce), [zone of truth](ref/spell/zone-of-truth)
+Cost: 16,000 gp
+:::

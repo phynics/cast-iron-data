@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 12,780 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 12,780 gp
+Weight: 10 lbs.
+:::
 
 This +1/+1 [two-bladed sword](ref/eq-weapon/two-bladed-sword) has blades of alchemical silver. The
 weapon deals an extra 2d6 points of damage against any creature with the shapechanger subtype. When
@@ -33,5 +38,7 @@ the weapon, it must make a successful DC 15 Will save or return to its natural f
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[baleful polymorph](ref/spell/baleful-polymorph); **Price** 6,780 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [baleful polymorph](ref/spell/baleful-polymorph)
+Price: 6,780 gp
+:::

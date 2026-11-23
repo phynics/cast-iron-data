@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This gleaming silver sword has a spray of quillons resembling a sunburst and a pommel shaped like a
 pair of hands clasped together. Its blade continually sheds light equivalent to the

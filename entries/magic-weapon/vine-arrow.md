@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 80 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 80 gp
+Weight: -
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) looks like a plant stem fletched with leaves instead of
 feathers. If it strikes a foe, vines grow from the creature's body. Any creature within 5 feet of
@@ -30,5 +35,7 @@ succeeds at a DC 13 Reflex save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[entangle](ref/spell/entangle); **Price** 40 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [entangle](ref/spell/entangle)
+Price: 40 gp
+:::

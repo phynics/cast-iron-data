@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 75 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 75 lbs.
+:::
 
 This beautifully made concert harp features intarsia butterflies on its walnut frame and column,
 golden pedals, and silver strings. It produces a warm, mellow tone.

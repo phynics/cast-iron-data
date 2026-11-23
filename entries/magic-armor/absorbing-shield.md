@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation; **CL** 17th\
-**Slot** shield; **Price** 50,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 17th
+Slot: shield
+Price: 50,170 gp
+Weight: 15 lbs.
+:::
 
 This +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield) is made of metal, but its color is a
 flat black that seems to absorb light. Once every 2 days, on command, it can
@@ -34,5 +39,7 @@ creature or weapon as it strikes the shield.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disintegrate](ref/spell/disintegrate); **Price** 25,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disintegrate](ref/spell/disintegrate)
+Price: 25,170 gp
+:::

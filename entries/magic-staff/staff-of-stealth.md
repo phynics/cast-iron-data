@@ -24,8 +24,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** none; **Price** 39,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: none
+Price: 39,300 gp
+Weight: 5 lbs.
+:::
 
 This twisted, dark gray staff allows use of the following spells:
 
@@ -36,6 +41,7 @@ This twisted, dark gray staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [disguise self](ref/spell/disguise-self),
-[greater invisibility](ref/spell/invisibility-greater), [invisibility](ref/spell/invisibility),
-[nondetection](ref/spell/nondetection); **Cost** 20,900 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [disguise self](ref/spell/disguise-self), [greater invisibility](ref/spell/invisibility-greater), [invisibility](ref/spell/invisibility), [nondetection](ref/spell/nondetection)
+Cost: 20,900 gp
+:::

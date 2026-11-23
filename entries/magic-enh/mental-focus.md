@@ -20,8 +20,13 @@ aura = "evocation"
 caster_level = "5th"
 +++
 
-**Aura** evocation; **CL** 5th\
-**Slot** armor quality; **Price** +3,000 gp; **Weight** -
+::: statblock
+Aura: evocation
+CL: 5th
+Slot: armor quality
+Price: +3,000 gp
+Weight: -
+:::
 
 Armor enhanced with the mental focus special ability grants its wearer a +2 enhancement bonus on
 [concentration](ref/rule/concentration) checks. If the wearer has the mental focus
@@ -31,5 +36,7 @@ if the armor is removed. The mental focus special ability can be applied only to
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[talismanic implement](ref/spell/talismanic-implement); **Price** 1,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [talismanic implement](ref/spell/talismanic-implement)
+Price: 1,500 gp
+:::

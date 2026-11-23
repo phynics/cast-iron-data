@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 5,050 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 5,050 gp
+Weight: 4 lbs.
+:::
 
 This +1 [quarterstaff](ref/eq-weapon/quarterstaff) is made of wood carved and dyed to look like two
 entwined asps, one black and one white. At will, the wielder can use the staff to cast
@@ -32,6 +37,7 @@ cast spells as if he had the Eschew Materials feat.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Eschew Materials](ref/feat/eschew-materials), [magic missile](ref/spell/magic-missile); **Price**
-2,825 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Eschew Materials](ref/feat/eschew-materials), [magic missile](ref/spell/magic-missile)
+Price: 2,825 gp
+:::

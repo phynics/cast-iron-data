@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 22,325 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 22,325 gp
+Weight: 10 lbs.
+:::
 
 This viciously barbed +1 [spiked chain](ref/eq-weapon/spiked-chain) consists of a jagged hook at the
 end of a length of rusty chain. It twitches of its own accord, as if it had some semblance of cruel
@@ -36,6 +41,7 @@ make an attack against the target at his highest base attack bonus as an immedia
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Combat Expertise](ref/feat/combat-expertise), [Improved Drag](ref/feat/improved-drag),
-[Improved Reposition](ref/feat/improved-reposition), [haste](ref/spell/haste); **Price** 11,325 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Combat Expertise](ref/feat/combat-expertise), [Improved Drag](ref/feat/improved-drag), [Improved Reposition](ref/feat/improved-reposition), [haste](ref/spell/haste)
+Price: 11,325 gp
+:::

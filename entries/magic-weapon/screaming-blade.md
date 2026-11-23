@@ -20,8 +20,13 @@ aura = "moderate evocation [evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation \[evil\]; **CL** 10th\
-**Slot** none; **Price** 25,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation \[evil\]
+CL: 10th
+Slot: none
+Price: 25,315 gp
+Weight: 4 lbs.
+:::
 
 This +2 [longsword](ref/eq-weapon/longsword) contains the hideous captured screams of a torture
 victim. The blade howls these blasphemies and profanities whenever it is drawn. This discordant
@@ -42,6 +47,7 @@ its enhancement bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sound burst](ref/spell/sound-burst), creator must be evil and torture a sentient creature during
-creation; **Price** 12,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sound burst](ref/spell/sound-burst), creator must be evil and torture a sentient creature during creation
+Price: 12,815 gp
+:::

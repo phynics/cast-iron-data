@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 1,466 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 1,466 gp
+Weight: -
+:::
 
 The wielder of this gleaming purple +2 [blowgun dart](ref/eq-weapon/blowgun-darts) can whisper while
 loading the dart to imbue it with a _[suggestion](ref/spell/suggestion)._ When the dart strikes a
@@ -30,5 +35,7 @@ words of the _[suggestion](ref/spell/suggestion)_ as if they were whispered in h
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[modify memory](ref/spell/modify-memory), [suggestion](ref/spell/suggestion); **Price** 736 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [modify memory](ref/spell/modify-memory), [suggestion](ref/spell/suggestion)
+Price: 736 gp
+:::

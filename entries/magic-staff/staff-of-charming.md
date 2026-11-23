@@ -24,8 +24,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 17,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 17,600 gp
+Weight: 5 lbs.
+:::
 
 Made of twisting wood ornately shaped and carved, this staff allows use of the following spells:
 
@@ -34,5 +39,7 @@ Made of twisting wood ornately shaped and carved, this staff allows use of the f
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [charm monster](ref/spell/charm-monster),
-[charm person](ref/spell/charm-person); **Cost** 8,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [charm monster](ref/spell/charm-monster), [charm person](ref/spell/charm-person)
+Cost: 8,800 gp
+:::

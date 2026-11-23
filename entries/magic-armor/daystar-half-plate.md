@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** armor; **Price** 81,250 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: armor
+Price: 81,250 gp
+Weight: 50 lbs.
+:::
 
 This glowing +1 [half-plate](ref/eq-armor/half-plate) is decorated with various images of the sun
 and depictions of nature. At will, the wearer can command the armor to shine with a
@@ -34,5 +39,7 @@ centered on the wearer and the wearer is immune to its effects.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daylight](ref/spell/daylight), [sunburst](ref/spell/sunburst); **Price** 41,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daylight](ref/spell/daylight), [sunburst](ref/spell/sunburst)
+Price: 41,000 gp
+:::

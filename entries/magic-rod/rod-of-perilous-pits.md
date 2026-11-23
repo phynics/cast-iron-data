@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 25,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 25,000 gp
+Weight: 4 lbs.
+:::
 
 This rod roughly resembles a torch with a small brass cage at the end. The wielder can cast any
 spell of 3rd level or lower into the rod. The rod can contain one spell at a time; casting a new
@@ -39,5 +44,7 @@ allows the caster to center spells with a duration of instantaneous (such as
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [create pit](ref/spell/create-pit), creator must
-be a caster of at least 12th level; **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [create pit](ref/spell/create-pit), creator must be a caster of at least 12th level
+Cost: 12,500 gp
+:::

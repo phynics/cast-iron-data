@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 32,310 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 32,310 gp
+Weight: 10 lbs.
+:::
 
 This +2 [lance](ref/eq-weapon/lance) is made out of white spruce wood with a handle carved from
 mammoth tusk ivory. Its shaft is decorated with images of charging mammoths or running wolves.
@@ -38,6 +43,7 @@ lance functions as a normal +2 lance.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animal growth](ref/spell/animal-growth), [bull's strength](ref/spell/bulls-strength); **Price**
-16,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animal growth](ref/spell/animal-growth), [bull's strength](ref/spell/bulls-strength)
+Price: 16,310 gp
+:::

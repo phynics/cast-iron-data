@@ -22,9 +22,13 @@ caster_level = "17th"
 
 ## Pale Maiden
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 0 wishes (32,065 gp), 1 wish (72,365 gp), 2 wishes (112,665 gp), 3 wishes
-(152,965 gp); **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 0 wishes (32,065 gp), 1 wish (72,365 gp), 2 wishes (112,665 gp), 3 wishes (152,965 gp)
+Weight: 4 lbs.
+:::
 
 This +3 [longsword](ref/eq-weapon/longsword) is a variant [luck blade](ref/magic-weapon/luck-blade).
 It grants its wielder a +1 luck bonus on all saving throws. Once per day, its possessor can reroll
@@ -36,6 +40,7 @@ grants the daily use of its reroll power.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[miracle](ref/spell/miracle) or [wish](ref/spell/wish); **Price** 16,190 gp (0 wishes), 48,840 gp (1
-wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [miracle](ref/spell/miracle) or [wish](ref/spell/wish)
+Price: 16,190 gp (0 wishes), 48,840 gp (1 wish), 81,490 gp (2 wishes), 114,140 gp (3 wishes)
+:::

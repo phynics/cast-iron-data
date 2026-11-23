@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** armor quality; **Price** +6,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: armor quality
+Price: +6,500 gp
+Weight: -
+:::
 
 A suit of locksmith armor does not apply its armor check penalty to its wearer's Disable Device
 checks. At will, the wearer of locksmith armor can extend from her fingertips small, delicate wires
@@ -37,5 +42,7 @@ special ability can be applied only to light armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[knock](ref/spell/knock); **Price** 3,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [knock](ref/spell/knock)
+Price: 3,250 gp
+:::

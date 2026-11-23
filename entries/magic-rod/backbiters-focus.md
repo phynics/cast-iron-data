@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 7,800 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 7,800 gp
+Weight: 1 lb.
+:::
 
 This small [darkwood](ref/eq-material/darkwood) rod is adorned with a carving of a figure whose own
 weapon is curled backward as if to strike the figure. Three times per day, the user can speak the
@@ -34,5 +39,7 @@ dealt to the wielder. This is a curse effect that lasts for 7 rounds.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse); **Cost**
-4,900 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse)
+Cost: 4,900 gp
+:::

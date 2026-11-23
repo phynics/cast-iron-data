@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 90,308 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 90,308 gp
+Weight: 3 lbs.
+:::
 
 Ikarikurusai is an ornate +3 [shock](ref/magic-enh/shock) [sansetsukon](ref/eq-weapon/sansetsukon)
 that automatically resizes itself to match the size of its wielder. The chains joining the segments
@@ -39,7 +44,7 @@ many critical hits are made by the weapon that round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt),
-[chain lightning](ref/spell/chain-lightning), [resist energy](ref/spell/resist-energy); **Price**
-45,308 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt), [chain lightning](ref/spell/chain-lightning), [resist energy](ref/spell/resist-energy)
+Price: 45,308 gp
+:::

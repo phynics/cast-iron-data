@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** armor; **Price** 11,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: armor
+Price: 11,350 gp
+Weight: 30 lbs.
+:::
 
 This sturdy, unadorned [breastplate](ref/eq-armor/breastplate) has a +1 enhancement bonus on the
 Material Plane. On any Elemental Plane, or against attacks made by creatures native to any Elemental
@@ -31,5 +36,7 @@ On any other plane, or against attacks made by any outsider, its enhancement bon
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[plane shift](ref/spell/plane-shift); **Price** 5,580 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [plane shift](ref/spell/plane-shift)
+Price: 5,580 gp
+:::

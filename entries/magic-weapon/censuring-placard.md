@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 14,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 14,300 gp
+Weight: 2 lbs.
+:::
 
 Most often appearing as a simple flattened board inscribed with a portion of
 [Cayden Cailean's](ref/faith/cayden-cailean) holy text, a censuring placard is used to inflict just
@@ -34,5 +39,7 @@ week.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break enchantment](ref/spell/break-enchantment); **Price** 7,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break enchantment](ref/spell/break-enchantment)
+Price: 7,300 gp
+:::

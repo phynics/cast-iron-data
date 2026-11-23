@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Aura** moderate evocation; **CL** 12th\
-**Slot** none; **Price** 20,340 gp; **Weight** 18 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 12th
+Slot: none
+Price: 20,340 gp
+Weight: 18 lbs.
+:::
 
 Molded and crafted from a single large chunk of raw iron ore, this +1
 [thundering](ref/magic-enh/thundering) [earth breaker](ref/eq-weapon/earth-breaker) is as cool as
@@ -36,6 +41,7 @@ also deals 2d8 points of sonic damage to the target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [stone shape](ref/spell/stone-shape); **Price**
-28,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [stone shape](ref/spell/stone-shape)
+Price: 28,300 gp
+:::

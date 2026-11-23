@@ -23,8 +23,13 @@ aura = "faint evocation"
 caster_level = "2nd"
 +++
 
-**Aura** faint evocation; **CL** 2nd\
-**Slot** none; **Price** 100 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 2nd
+Slot: none
+Price: 100 gp
+Weight: -
+:::
 
 These +1 [firearm bullets](ref/eq-weapon/firearm-bullet) deal no damage, but instead cause a pale
 glow to outline the target, granting the effect of a _[faerie fire](ref/spell/faerie-fire)_ spell
@@ -33,5 +38,7 @@ rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[faerie fire](ref/spell/faerie-fire); **Price** 50 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [faerie fire](ref/spell/faerie-fire)
+Price: 50 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 Winding this music box causes it to play a haunting, 30-second-long melody. However, a bard can
 learn this tune as though it were a masterpiece. When performed by a bard, the tune becomes the Song

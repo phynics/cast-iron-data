@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 This eye-catching rod is bedecked with glittering spangles. The wielder gains a +5 competence bonus
 on Bluff and [Sleight of Hand](ref/skill/sleight-of-hand) checks, as well as on opposed Charisma
@@ -34,5 +39,7 @@ Perform checks when using [distraction](ref/performance/distraction).
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [hypnotism](ref/spell/hypnotism); **Cost** 9,000
-gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [hypnotism](ref/spell/hypnotism)
+Cost: 9,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** armor; **Price** 29,350 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: armor
+Price: 29,350 gp
+Weight: 25 lbs.
+:::
 
 The warden of the woods is a suit of +3 [greenwood](ref/eq-material/greenwood)
 [splint mail](ref/eq-armor/splint-mail) made of strips of laminated greenwood that flex with the
@@ -46,6 +51,7 @@ its full enhancement bonus), and any weapons still detached from the armor crumb
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ironwood](ref/spell/ironwood), [shillelagh](ref/spell/shillelagh),
-[wood shape](ref/spell/wood-shape); **Price** 14,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ironwood](ref/spell/ironwood), [shillelagh](ref/spell/shillelagh), [wood shape](ref/spell/wood-shape)
+Price: 14,850 gp
+:::

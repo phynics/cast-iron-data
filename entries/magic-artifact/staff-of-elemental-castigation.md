@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This staff functions as a [staff of the magi](ref/magic-artifact/staff-of-the-magi), with several
 modifications. Its [summon monster IX](ref/spell/summon-monster-9) power can only summon elementals,

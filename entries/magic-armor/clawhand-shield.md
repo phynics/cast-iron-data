@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** shield; **Price** 8,158 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: shield
+Price: 8,158 gp
+Weight: 8 lbs.
+:::
 
 This shield is made of bone and ivory, but has been imbued with magic to function as a +2
 [mithral](ref/eq-material/mithral) [heavy steel shield](ref/eq-armor/heavy-steel-shield) (though it
@@ -39,5 +44,7 @@ result, the shield has no arcane spell failure chance.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Price** 4,158 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Price: 4,158 gp
+:::

@@ -19,8 +19,12 @@ aura = "faint transmutation"
 caster_level = "6th"
 +++
 
-**Aura** faint transmutation; **CL** 6th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 6th
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. The wielder of a leveraging weapon gains a
 bonus equal to the weapon's enhancement bonus to her Combat Maneuver Defense against
@@ -30,5 +34,7 @@ applied to combat maneuver checks to attempt bull rush, drag, reposition, and tr
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enlarge person](ref/spell/enlarge-person); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enlarge person](ref/spell/enlarge-person)
+Price: -
+:::

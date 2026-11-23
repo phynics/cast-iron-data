@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** 61,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: 61,000 gp
+Weight: 5 lbs.
+:::
 
 This item creates a non-dimensional space, a pocket paradise. There the rod's possessor and as many
 as 199 other creatures can stay in complete safety for a period of time - up to 200 days divided by
@@ -46,4 +51,7 @@ period expires, but the rod can only be activated once per week.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [gate](ref/spell/gate); **Cost** 30,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [gate](ref/spell/gate)
+Cost: 30,500 gp
+:::

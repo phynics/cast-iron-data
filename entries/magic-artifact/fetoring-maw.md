@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 18th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 By holding this fist-sized, sickly green gem and concentrating for 1 hour, the bearer can create a
 sphere of poisonous fog centered in a location the bearer has seen that is within 1 mile of his

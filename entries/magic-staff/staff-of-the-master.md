@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 30,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 30,000 gp
+Weight: 5 lbs.
+:::
 
 Often given as gifts to apprentices upon reaching the rank of master, these staves come in eight
 different varieties, one for each school of magic. This particular staff is for the school of
@@ -40,7 +45,7 @@ Using the staff for this purpose does not increase the casting time of the spell
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [ray of enfeeblement](ref/spell/ray-of-enfeeblement),
-[spectral hand](ref/spell/spectral-hand), [vampiric touch](ref/spell/vampiric-touch); **Cost**
-15,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [spectral hand](ref/spell/spectral-hand), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 15,300 gp
+:::

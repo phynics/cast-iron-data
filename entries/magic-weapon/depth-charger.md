@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 11th\
-**Slot** none; **Price** 58,800 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 11th
+Slot: none
+Price: 58,800 gp
+Weight: 3 lbs.
+:::
 
 Carved to look like the bones of fish, the barrel and mechanical components of this blunderbuss are
 made of mithral. A depth charger is a +2 [reliable](ref/magic-enh/reliable)
@@ -38,7 +43,7 @@ available breathing time is reset only if a depth charger is kept dry for 12 con
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Gunsmithing](ref/feat/gunsmithing), [air bubble](ref/spell/air-bubble),
-[mending](ref/spell/mending), [summon monster I](ref/spell/summon-monster-1),
-[water breathing](ref/spell/water-breathing); **Price** 30,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Gunsmithing](ref/feat/gunsmithing), [air bubble](ref/spell/air-bubble), [mending](ref/spell/mending), [summon monster I](ref/spell/summon-monster-1), [water breathing](ref/spell/water-breathing)
+Price: 30,550 gp
+:::

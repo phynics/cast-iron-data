@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 3,060 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 3,060 gp
+Weight: 2 lbs.
+:::
 
 This simple but finely crafted +1 [rapier](ref/eq-weapon/rapier) has a hilt in the shape of a
 tankard, open on one end for the wielder's hand. Once per day, the wielder can use
@@ -33,6 +38,7 @@ into weak beer that is safe to drink.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[purify food and drink](ref/spell/purify-food-and-drink), [remove fear](ref/spell/remove-fear);
-**Price** 1,690 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [purify food and drink](ref/spell/purify-food-and-drink), [remove fear](ref/spell/remove-fear)
+Price: 1,690 gp
+:::

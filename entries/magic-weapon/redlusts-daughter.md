@@ -20,8 +20,13 @@ aura = "moderate evocation, necromancy, and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation, necromancy, and transmutation; **CL** 10th\
-**Slot** none; **Price** 9,875 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation, necromancy, and transmutation
+CL: 10th
+Slot: none
+Price: 9,875 gp
+Weight: 8 lbs.
+:::
 
 This +1 [flaming](ref/magic-enh/flaming) [falchion](ref/eq-weapon/falchion) is engraved with
 leering, long-tongued demonic faces. As a standard action, the bearer can will the weapon to
@@ -34,6 +39,7 @@ the same properties as this weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [flame strike](ref/spell/flame-strike),
-[shrink item](ref/spell/shrink-item); **Price** 5,125 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [flame strike](ref/spell/flame-strike), [shrink item](ref/spell/shrink-item)
+Price: 5,125 gp
+:::

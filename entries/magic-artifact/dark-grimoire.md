@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 This heavy grimoire is bound in leather and has wicked-looking metal clasps. The dark grimoire is a
 substantial text, nearly 1,000 pages long. Its pages contain some good spells and some evil spells,

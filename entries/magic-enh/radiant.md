@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** armor/shield quality; **Price** +7,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: armor/shield quality
+Price: +7,500 gp
+Weight: -
+:::
 
 Armor and shields with the radiant special ability shine as brightly as a [torch](ref/eq-misc/torch)
 when worn. This radiance can be suppressed or resumed on command. Designs usually feature bright
@@ -31,5 +36,7 @@ or until commanded to dim.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daylight](ref/spell/daylight); **Price** +3,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daylight](ref/spell/daylight)
+Price: +3,750 gp
+:::

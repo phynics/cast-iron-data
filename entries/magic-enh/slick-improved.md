@@ -23,12 +23,19 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** armor quality; **Price** +15,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: armor quality
+Price: +15,000 gp
+Weight: -
+:::
 
 As [slick](ref/magic-enh/slick), except it grants a +10 competence bonus on Escape Artist checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease); **Price** +7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease)
+Price: +7,500 gp
+:::

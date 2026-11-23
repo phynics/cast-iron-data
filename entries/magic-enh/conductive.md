@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A conductive weapon is able to channel the energy of a spell-like or supernatural ability that
 relies on a melee or ranged touch attack to hit its target (such as from a cleric's domain granted
@@ -41,5 +46,7 @@ works only with magical abilities of the same type as the weapon (melee or range
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spectral hand](ref/spell/spectral-hand); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spectral hand](ref/spell/spectral-hand)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "overwhelming enchantment"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming enchantment; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 80 lbs.
+::: statblock
+Aura: overwhelming enchantment
+CL: 25th
+Slot: none
+Price: -
+Weight: 80 lbs.
+:::
 
 This 2-foot-tall marble statue has the exact appearance of a mortal creature, constantly reflecting
 any changes to its appearance from injury, age, or even [reincarnation](ref/spell/reincarnate). The

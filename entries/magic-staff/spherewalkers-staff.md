@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 43,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 43,400 gp
+Weight: 3 lbs.
+:::
 
 This slender [darkwood](ref/eq-material/darkwood) staff is topped either with a star-shaped crystal
 or a butterfly-like silver head. Sacred to the faith of Desna, a spherewalker's staff allows use of
@@ -40,8 +45,7 @@ When carried (even when stowed), a spherewalker's staff increases the wielder's 
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [air walk](ref/spell/air-walk),
-[ant haul](ref/spell/ant-haul), [dimension door](ref/spell/dimension-door),
-[freedom of movement](ref/spell/freedom-of-movement), [plane shift](ref/spell/plane-shift),
-[water walk](ref/spell/water-walk), creator must worship [Desna](ref/faith/desna); **Cost** 21,700
-gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [air walk](ref/spell/air-walk), [ant haul](ref/spell/ant-haul), [dimension door](ref/spell/dimension-door), [freedom of movement](ref/spell/freedom-of-movement), [plane shift](ref/spell/plane-shift), [water walk](ref/spell/water-walk), creator must worship [Desna](ref/faith/desna)
+Cost: 21,700 gp
+:::

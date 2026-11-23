@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 This stone tablet bears a carving in the shape of a twig with five branches. There are only a
 limited number of Elder Signs in existence, so each time one of these artifacts is destroyed, the

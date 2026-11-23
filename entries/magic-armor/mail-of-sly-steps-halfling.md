@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** armor; **Price** 25,900 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: armor
+Price: 25,900 gp
+Weight: 5 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -35,6 +40,7 @@ sized for Small creatures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[expeditious retreat](ref/spell/expeditious-retreat), creator must be a halfling; **Price** 13,400
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [expeditious retreat](ref/spell/expeditious-retreat), creator must be a halfling
+Price: 13,400 gp
+:::

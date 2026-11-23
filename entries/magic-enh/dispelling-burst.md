@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A dispelling burst weapon functions like a [dispelling](ref/magic-enh/dispelling) weapon but may
 store [dispel magic](ref/spell/dispel-magic) or
@@ -39,6 +44,7 @@ action and then immediately discharge it into the target as a free action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater dispel magic](ref/spell/dispel-magic-greater), creator must be a caster of at least 12th
-level; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater dispel magic](ref/spell/dispel-magic-greater), creator must be a caster of at least 12th level
+Price: -
+:::

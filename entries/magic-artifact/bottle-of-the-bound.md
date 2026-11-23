@@ -26,8 +26,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 The Bottle of the Bound is an ancient brass bottle with a narrow neck and a rounded belly, slightly
 flattened on the bottom so it stands upright when resting on a table. The bottle's tight-fitting

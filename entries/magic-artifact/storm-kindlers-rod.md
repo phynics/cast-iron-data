@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 Among the varied items crafted by the earliest [Storm Kindlers](ref/rule/aff-storms) were these
 potent rods. Very few Storm Kindler's rods have been recovered, and today's Storm Kindlers suspect

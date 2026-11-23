@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "18th"
 +++
 
-**Aura** strong (all schools); **CL** 18th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 18th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 This tome bestows the ability to use the spells within its pages upon any bearer of any class.
 However, a bearer not already able to use spells gains one negative level for as long as the book is

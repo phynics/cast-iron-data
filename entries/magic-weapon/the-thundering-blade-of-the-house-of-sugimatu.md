@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 28,415 gp; **Weight** 9 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 28,415 gp
+Weight: 9 lbs.
+:::
 
 Once per day as a standard action, the bearer of this +1 [thundering](ref/magic-enh/thundering)
 [naginata](ref/eq-weapon/naginata) can strike the blade against the ground, causing it to ring with
@@ -37,5 +42,7 @@ weapon is no longer wielded. This negative level cannot be overcome in any way (
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [shout](ref/spell/shout); **Price** 14,375 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [shout](ref/spell/shout)
+Price: 14,375 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** shield quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: shield quality
+Price: +2 bonus
+Weight: -
+:::
 
 A merging shield can meld with a held one-handed or light weapon. The wearer chooses each round
 whether to attack with the weapon or defend with the shield. Melding or freeing the shield requires
@@ -35,5 +40,7 @@ the shield's bonus to AC until the start of her next turn. A merged shield can't
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[versatile weapon](ref/spell/versatile-weapon); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [versatile weapon](ref/spell/versatile-weapon)
+Price: +2 bonus
+:::

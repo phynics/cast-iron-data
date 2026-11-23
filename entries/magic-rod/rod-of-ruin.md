@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 16,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 16,000 gp
+Weight: 5 lbs.
+:::
 
 This magical item appears to be an old and decaying scepter, with empty sockets for gemstones and
 rusted iron bands holding its rotting wooden shaft together. Three times per day on command, when
@@ -31,5 +36,7 @@ withers. The object, which can be no larger than a door or must take up no more 
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [disintegrate](ref/spell/disintegrate); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [disintegrate](ref/spell/disintegrate)
+Cost: 8,000 gp
+:::

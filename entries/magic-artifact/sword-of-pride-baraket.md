@@ -22,8 +22,13 @@ slot = "none"
 caster_level = "16th"
 +++
 
-**Aura**; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura:
+CL: 16th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Although known as the Sword of Pride, Baraket appears to be nothing more than an elegant basket hilt
 made of glass or highly polished crystal with no blade, as the deadly length of this +5

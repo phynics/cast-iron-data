@@ -23,8 +23,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 10th\
-**Slot** none; **Price** 21,820 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 10th
+Slot: none
+Price: 21,820 gp
+Weight: 3 lbs.
+:::
 
 Crafted to defend against enemies seeking to damage it rather than its wielder, a Rostland edge is a
 +2 [countering](ref/magic-enh/countering) [impervious](ref/magic-enh/impervious)
@@ -34,7 +39,7 @@ explodes with tremendous force, dealing 10d6 points of fire damage to every crea
 
 ### Construction
 
-**Requirements** [Combat Reflexes](ref/feat/combat-reflexes),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [fabricate](ref/spell/fabricate),
-[fireball](ref/spell/fireball), [make whole](ref/spell/make-whole); **Price** 11,070 gp
+::: statblock
+Requirements: [Combat Reflexes](ref/feat/combat-reflexes), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [fabricate](ref/spell/fabricate), [fireball](ref/spell/fireball), [make whole](ref/spell/make-whole)
+Price: 11,070 gp
+:::

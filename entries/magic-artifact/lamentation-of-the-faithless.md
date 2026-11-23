@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "28th"
 +++
 
-**Aura** overwhelming all; **CL** 28th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 28th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 [Szuriel's](ref/monster/horsemen-of-the-apocalypse-szuriel) weapon is Lamentation of the Faithless,
 a black-bladed +5 [speed](ref/magic-enh/speed) [unholy](ref/magic-enh/unholy)

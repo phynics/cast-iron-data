@@ -24,8 +24,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 7th\
-**Slot** none; **Price** 28,715 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 7th
+Slot: none
+Price: 28,715 gp
+Weight: 6 lbs.
+:::
 
 This well-made weapon acts as a +1 demon-[bane](ref/magic-enh/bane)
 [battleaxe](ref/eq-weapon/battleaxe) and constantly emits a susurrus of faint, overlapping voices.
@@ -44,9 +49,10 @@ _[lesser restoration](ref/spell/restoration-lesser)_ three times per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bless weapon](ref/spell/bless-weapon), [lesser restoration](ref/spell/restoration-lesser),
-[summon monster I](ref/spell/summon-monster-1); **Price** 14,357 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bless weapon](ref/spell/bless-weapon), [lesser restoration](ref/spell/restoration-lesser), [summon monster I](ref/spell/summon-monster-1)
+Price: 14,357 gp
+:::
 
 ### Statistics
 

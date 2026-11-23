@@ -20,8 +20,13 @@ aura = "strong abjuration, evocation, and transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration, evocation, and transmutation; **CL** 17th\
-**Slot** hands; **Price** -; **Weight** 1 lb. each
+::: statblock
+Aura: strong abjuration, evocation, and transmutation
+CL: 17th
+Slot: hands
+Price: -
+Weight: 1 lb. each
+:::
 
 Each Godclaw gauntlet is a +2 [axiomatic](ref/magic-enh/axiomatic)
 [spiked gauntlet](ref/eq-weapon/spiked-gauntlet). Once per day, the left Godclaw gauntlet can be

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Popular among those who seek to impersonate skilled warriors, a training weapon grants one combat
 feat to the wielder as long as the weapon is drawn and in hand. The feat is chosen when this special
@@ -31,6 +36,7 @@ weapon cannot be changed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic weapon](ref/spell/magic-weapon), creator must have the chosen combat feat and its
-prerequisites; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic weapon](ref/spell/magic-weapon), creator must have the chosen combat feat and its prerequisites
+Price: -
+:::

@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 1,516 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 1,516 gp
+Weight: -
+:::
 
 This +1 [flaming](ref/magic-enh/flaming) [arrow](ref/eq-weapon/arrow) continues to burn its target
 each round, dealing 1d6 points of fire damage on the attacker's turn for the next 3 rounds. Removing
@@ -34,6 +39,7 @@ destroys it, and it burns up once the 3 rounds pass.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or
-[fireball](ref/spell/fireball); **Price** 758 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball)
+Price: 758 gp
+:::

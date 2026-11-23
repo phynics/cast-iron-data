@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor quality
+Price: +3 bonus
+Weight: -
+:::
 
 A suit of armor with the titanic ability is almost comically oversized, though the effect is
 superficial and the interior fits a creature normally, with no adjustments necessary. A creature
@@ -36,5 +41,7 @@ to its enhancement bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enlarge person](ref/spell/enlarge-person); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enlarge person](ref/spell/enlarge-person)
+Price: +3 bonus
+:::

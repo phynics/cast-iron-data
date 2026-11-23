@@ -20,8 +20,12 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Weight: 8 lbs.
+:::
 
 The grip of this [greatsword](ref/eq-weapon/greatsword) has a series of deep notches, and its jagged
 blade is a deep crimson. A bloodbite is awakened by bloodlust, and its appetite must be sated. When
@@ -33,4 +37,7 @@ the owner benefits from a [remove curse](ref/spell/remove-curse) spell or simila
 
 ### Construction
 
-**Requirements** +2 [wounding](ref/magic-enh/wounding) greatsword; **Cost** -
+::: statblock
+Requirements: +2 [wounding](ref/magic-enh/wounding) greatsword
+Cost: -
+:::

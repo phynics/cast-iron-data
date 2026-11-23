@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 This +5 [flaming](ref/magic-enh/flaming) [wounding](ref/magic-enh/wounding)
 [unholy](ref/magic-enh/unholy) [ranseur](ref/eq-weapon/ranseur) was once the weapon of a powerful

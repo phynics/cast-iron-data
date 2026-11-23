@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2,500 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 2,500 lbs.
+:::
 
 When the Worldwound destroyed the nation of Sarkoris, the faithful of [Iomedae](ref/faith/iomedae)
 seized upon the event as a balm against the horror of Aroden's death. The invention of the first

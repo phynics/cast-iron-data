@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** shield; **Price** 120,830 gp; **Weight** 23 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: shield
+Price: 120,830 gp
+Weight: 23 lbs.
+:::
 
 Shined to a mirror finish and fitted with supple leather straps, this +1
 [mithral](ref/eq-material/mithral) [tower shield](ref/eq-armor/tower-shield) displays no decoration
@@ -32,5 +37,7 @@ for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[antimagic field](ref/spell/antimagic-field); **Price** 60,930 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [antimagic field](ref/spell/antimagic-field)
+Price: 60,930 gp
+:::

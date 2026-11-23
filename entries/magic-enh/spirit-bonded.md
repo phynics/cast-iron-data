@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** armor quality; **Price** +6,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: armor quality
+Price: +6,000 gp
+Weight: -
+:::
 
 The wearer of armor with the spirit-bonded special ability gains a +1 bonus on saving throws to
 resist psychic spells and effects originating from incorporeal creatures. Additionally, if the
@@ -30,5 +35,7 @@ increases by 1. The spirit-bonded special ability can be applied only to medium 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call spirit](ref/spell/call-spirit); **Price** 3,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call spirit](ref/spell/call-spirit)
+Price: 3,000 gp
+:::

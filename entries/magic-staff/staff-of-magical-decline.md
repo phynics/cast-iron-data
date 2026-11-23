@@ -20,8 +20,12 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Weight: 5 lbs.
+:::
 
 This staff appears to be an ordinary staff and functions normally as such until it is used in
 combat. The wielder's effective caster level drops to match that of the staff or the wielder's
@@ -37,4 +41,7 @@ curse. The only way for the wielder to be rid of the staff is by [miracle](ref/s
 
 ### Construction
 
-**Requirements** any staff; **Cost** -
+::: statblock
+Requirements: any staff
+Cost: -
+:::

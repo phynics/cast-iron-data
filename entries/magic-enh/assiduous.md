@@ -20,8 +20,13 @@ aura = "faint enchantment and conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint enchantment and conjuration; **CL** 1st\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment and conjuration
+CL: 1st
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 When the wielder of an assiduous shield [fights defensively](ref/misc/fighting-defensively) or uses
 the [total defense](ref/misc/total-defense) action, the shield's mirrored surface provides
@@ -33,5 +38,7 @@ immune, though the attacker receives a +5 bonus if it is normally immune to its 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lock gaze](ref/spell/lock-gaze), [mirror polish](ref/spell/mirror-polish); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lock gaze](ref/spell/lock-gaze), [mirror polish](ref/spell/mirror-polish)
+Price: +1 bonus
+:::

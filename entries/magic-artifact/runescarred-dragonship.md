@@ -20,8 +20,13 @@ aura = "strong divination and necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong divination and necromancy; **CL** 13th\
-**Slot** none; **Price** -; **Weight** 26 tons
+::: statblock
+Aura: strong divination and necromancy
+CL: 13th
+Slot: none
+Price: -
+Weight: 26 tons
+:::
 
 This decrepit [longship](ref/eq-misc/longship) seems barely seaworthy. Its boards are splintered and
 it is branded with a number of angular runes, each said to bind the soul of a sailor to the vessel.

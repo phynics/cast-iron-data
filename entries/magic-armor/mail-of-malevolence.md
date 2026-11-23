@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** armor; **Price** 61,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: armor
+Price: 61,300 gp
+Weight: 40 lbs.
+:::
 
 Mail of malevolence hangs in rags and tatters and acts as nonmagical chainmail to wearers who lack
 at least a moderate evil aura. When worn by a sufficiently evil character, it instead functions as
@@ -34,6 +39,7 @@ creatures, she heals a like amount of damage herself regardless of whether she i
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[righteous might](ref/spell/righteous-might), [spell resistance](ref/spell/spell-resistance);
-**Price** 30,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [righteous might](ref/spell/righteous-might), [spell resistance](ref/spell/spell-resistance)
+Price: 30,800 gp
+:::

@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 29,600 gp
+Weight: 5 lbs.
+:::
 
 This twisted iron staff bears ominous stains along its length, and ends in a black skull with red
 gemstone eyes. The staff allows use of the following spells:
@@ -34,7 +39,7 @@ gemstone eyes. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon),
-[detect good](ref/spell/detect-good),
-[magic circle against good](ref/spell/magic-circle-against-good),
-[unholy blight](ref/spell/unholy-blight); **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon), [detect good](ref/spell/detect-good), [magic circle against good](ref/spell/magic-circle-against-good), [unholy blight](ref/spell/unholy-blight)
+Cost: 14,800 gp
+:::

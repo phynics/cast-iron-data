@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "9th"
 +++
 
-**Aura** moderate varies; **CL** 9th\
-**Slot** none; **Price** 34,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 9th
+Slot: none
+Price: 34,200 gp
+Weight: 5 lbs.
+:::
 
 This length of hemlock-shrouded oak gives off the faintest whiff of rot and corruption. It allows
 use of the following spells:
@@ -35,5 +40,7 @@ use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [cloudkill](ref/spell/cloudkill),
-[stinking cloud](ref/spell/stinking-cloud); **Cost** 17,100 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cloudkill](ref/spell/cloudkill), [stinking cloud](ref/spell/stinking-cloud)
+Cost: 17,100 gp
+:::

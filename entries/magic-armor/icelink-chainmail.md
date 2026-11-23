@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** armor; **Price** 15,100 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: armor
+Price: 15,100 gp
+Weight: 20 lbs.
+:::
 
 Carved from a single block of ice birthed from the breath of the great white wyrm Sjohvor, the
 ice-carved rings of this exquisite suit of +2 [chainmail](ref/eq-armor/chainmail) never thaw. If
@@ -36,5 +41,7 @@ chainmail and floats in water.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[frigid touch](ref/spell/frigid-touch), [wall of ice](ref/spell/wall-of-ice); **Price** 7,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [frigid touch](ref/spell/frigid-touch), [wall of ice](ref/spell/wall-of-ice)
+Price: 7,700 gp
+:::

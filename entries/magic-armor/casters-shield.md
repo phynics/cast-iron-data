@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** shield; **Price** 3,153 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: shield
+Price: 3,153 gp
+Weight: 5 lbs.
+:::
 
 This +1 [light wooden shield](ref/eq-armor/light-wooden-shield) has a leather strip on the back on
 which a spellcaster can scribe a single spell as on a scroll. A spell so scribed requires half the
@@ -37,5 +42,7 @@ price of the shield is modified by the value of the scroll spell if one is curre
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Scribe Scroll](ref/feat/scribe-scroll), creator must be at least 6th level; **Price** 1,653 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Scribe Scroll](ref/feat/scribe-scroll), creator must be at least 6th level
+Price: 1,653 gp
+:::

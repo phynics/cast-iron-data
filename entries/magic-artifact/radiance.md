@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 In 4692 AR, soon after the start of the Fourth Crusade, a [paladin](ref/class/paladin) of
 [Iomedae](ref/faith/iomedae) and renowned demon slayer named Yaniel spoke out against the Mendevian

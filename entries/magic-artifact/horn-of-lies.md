@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 15 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 30th
+Slot: none
+Price: -
+Weight: 15 lbs.
+:::
 
 This horn can be sounded three times per day as a swift or move action to function as a
 [greater horn of blasting](ref/magic-wondrous/horn-of-blasting-greater) with no chance of exploding

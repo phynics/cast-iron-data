@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. A fortuitous weapon grants the wielder
 more attacks of opportunity. Once per round, when the wielder of a fortuitous weapon hits with an
@@ -30,5 +35,7 @@ at a -5 penalty.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste)
+Price: -
+:::

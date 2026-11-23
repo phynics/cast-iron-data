@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** (19,515 gp); **Weight** 6 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: (19,515 gp)
+Weight: 6 lbs.
+:::
 
 Weapons like this [alchemical silver](ref/eq-material/alchemical-silver) +2
 [defending](ref/magic-enh/defending) [bastard sword](ref/eq-weapon/bastard-sword) are favored blades
@@ -34,6 +39,7 @@ hit; these modified blades are called [talonstrike swords](ref/magic-weapon/talo
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield](ref/spell/shield) or [shield of faith](ref/spell/shield-of-faith),
-[shield other](ref/spell/shield-other); **Price** 10,015 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield) or [shield of faith](ref/spell/shield-of-faith), [shield other](ref/spell/shield-other)
+Price: 10,015 gp
+:::

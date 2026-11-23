@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** armor; **Price** 15,200 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: armor
+Price: 15,200 gp
+Weight: 15 lbs.
+:::
 
 This battered +1 [mithral](ref/eq-material/mithral) [breastplate](ref/eq-armor/breastplate) bears a
 resemblance to a stylized turtle shell. On command, its wearer can vanish inside the armor, leaving
@@ -38,5 +43,7 @@ wearer, though in this case still wearing the armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rope trick](ref/spell/rope-trick); **Price** 9,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rope trick](ref/spell/rope-trick)
+Price: 9,700 gp
+:::

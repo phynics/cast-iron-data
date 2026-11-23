@@ -23,8 +23,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 150 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 150 lbs.
+:::
 
 Dangerous artifacts created by the demon lord [Angazhan](ref/faith/angazhan), several totems of
 Angazhan lie hidden in the depths of the Mwangi Expanse. Each is an intelligent artifact largely in

@@ -21,8 +21,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 24,800 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 24,800 gp
+Weight: 2 lbs.
+:::
 
 A creature that willingly grasps a zenj totem staff is affected as though it were in a
 _[zone of truth](ref/spell/zone-of-truth)._ This effect has no saving throw, lasts as long as the
@@ -46,8 +51,7 @@ creature refuses to enter combat and is immediately dismissed if it takes damage
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [aura sight](ref/spell/aura-sight),
-[protection from evil](ref/spell/protection-from-evil),
-[summon nature's ally II](ref/spell/summon-natures-ally-2),
-[summon nature's ally IV](ref/spell/summon-natures-ally-4),
-[zone of truth](ref/spell/zone-of-truth); **Cost** 12,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [aura sight](ref/spell/aura-sight), [protection from evil](ref/spell/protection-from-evil), [summon nature's ally II](ref/spell/summon-natures-ally-2), [summon nature's ally IV](ref/spell/summon-natures-ally-4), [zone of truth](ref/spell/zone-of-truth)
+Cost: 12,400 gp
+:::

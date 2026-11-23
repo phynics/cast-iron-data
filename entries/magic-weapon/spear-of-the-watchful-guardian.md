@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon; **Price** 8,462 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon
+Price: 8,462 gp
+Weight: 6 lbs.
+:::
 
 This magically strengthened bronze-tipped +1 [spear](ref/eq-weapon/spear) enables its wielder to
 better face a variety of foes. Originally created by priests of [Nethys](ref/faith/nethys) for use
@@ -40,6 +45,7 @@ insight bonus on [Perception](ref/skill/perception) checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[timely inspiration](ref/spell/timely-inspiration), [versatile weapon](ref/spell/versatile-weapon);
-**Price** 4,382 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [timely inspiration](ref/spell/timely-inspiration), [versatile weapon](ref/spell/versatile-weapon)
+Price: 4,382 gp
+:::

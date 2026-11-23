@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 10,530 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 10,530 gp
+Weight: 4 lbs.
+:::
 
 This brass-colored +1 [double-barreled pistol](ref/eq-weapon/double-barreled-pistol) has a dark
 oaken grip and ornate musical motifs etched into the entire surface. Three times per day, when the
@@ -35,6 +40,7 @@ use this ability with the pistol.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), crafter must be a gunslinger with the
-pistol-whip deed; **Price** 6,290 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), crafter must be a gunslinger with the pistol-whip deed
+Price: 6,290 gp
+:::

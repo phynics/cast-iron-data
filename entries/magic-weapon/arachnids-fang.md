@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 18,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 18,302 gp
+Weight: 1 lb.
+:::
 
 Poison applied to this +1 [dagger](ref/eq-weapon/dagger) seeps into the blade, awaiting the perfect
 moment for release. After a hit with the dagger but before damage is determined, the wielder of an
@@ -31,5 +36,7 @@ released on a given attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[touch injection](ref/spell/touch-injection); **Price** 9,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [touch injection](ref/spell/touch-injection)
+Price: 9,302 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** rod; **Price** 14,400 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: rod
+Price: 14,400 gp
+Weight: 4 lbs.
+:::
 
 This rod is fashioned in the form of a uraeus, the legendary two-headed winged cobra that is the
 symbol of the Ancient Osirian deity [Wadjet](ref/faith/wadjet), patron of Osirion and the goddess of
@@ -42,6 +47,7 @@ functions only if its possessor is lawful.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [poison](ref/spell/poison), [resistance](ref/spell/resistance),
-creator must have 5 ranks in Sense Motive; **Cost** 7,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [poison](ref/spell/poison), [resistance](ref/spell/resistance), creator must have 5 ranks in Sense Motive
+Cost: 7,200 gp
+:::

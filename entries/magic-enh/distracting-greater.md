@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 Weapons with this special ability cause foes struck by them to have exceptional difficulty
 controlling their magic. Any time a creature that has been struck by a greater distracting weapon
@@ -35,5 +40,7 @@ the greater distracting weapon's effect instead.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[qualm](ref/spell/qualm); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [qualm](ref/spell/qualm)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** none; **Price** 102,962 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: none
+Price: 102,962 gp
+Weight: 1/2 lb.
+:::
 
 Amazingly light, this ebon +2 [keen](ref/magic-enh/keen) [dagger](ref/eq-weapon/dagger) fades into
 near intangibility at its tip. It ignores bonuses to AC provided by deflection and force effects,
@@ -37,6 +42,7 @@ closes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [shadow walk](ref/spell/shadow-walk),
-[shadow weapon](ref/spell/shadow-weapon); **Price** 51,632 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [shadow walk](ref/spell/shadow-walk), [shadow weapon](ref/spell/shadow-weapon)
+Price: 51,632 gp
+:::

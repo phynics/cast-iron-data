@@ -22,9 +22,13 @@ caster_level = "6th"
 
 ## Leng Flail
 
-**Aura** moderate transmutation (lesser) or moderate transmutation and enchantment (greater); **CL**
-6th\
-**Slot** none; **Price** lesser (8,315 gp), greater (50,315 gp); **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation (lesser) or moderate transmutation and enchantment (greater)
+CL: 6th
+Slot: none
+Price: lesser (8,315 gp), greater (50,315 gp)
+Weight: 10 lbs.
+:::
 
 The immense and inscrutable [Leng spiders](ref/monster/leng-spider) are known to construct makeshift
 flails by linking nearby debris, such as rocks or skulls, with their own extruded web fibers.
@@ -41,7 +45,7 @@ a mind-affecting effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[spider climb](ref/spell/spider-climb) (lesser) or [confusion](ref/spell/confusion),
-[magic stone](ref/spell/magic-stone), _[spider climb](ref/spell/spider-climb)_ (greater); **Price**
-4,315 gp (lesser), 25,315 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [spider climb](ref/spell/spider-climb) (lesser) or [confusion](ref/spell/confusion), [magic stone](ref/spell/magic-stone), _[spider climb](ref/spell/spider-climb)_ (greater)
+Price: 4,315 gp (lesser), 25,315 gp (greater)
+:::

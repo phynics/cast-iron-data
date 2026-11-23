@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** shield quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: shield quality
+Price: +2 bonus
+Weight: -
+:::
 
 A character with the weapon training class feature who wields a mastering shield applies his highest
 weapon training bonus on attack rolls and damage rolls for [shield bashes](ref/misc/shield-bash)
@@ -35,5 +40,7 @@ shield. A character without weapon training gains no benefit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[transformation](ref/spell/transformation); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [transformation](ref/spell/transformation)
+Price: +2 bonus
+:::

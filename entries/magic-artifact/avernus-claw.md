@@ -20,8 +20,13 @@ aura = "overwhelming varied"
 caster_level = "28th"
 +++
 
-**Aura** overwhelming varied; **CL** 28th\
-**Slot** none; **Price** -; **Weight** 24 lbs.
+::: statblock
+Aura: overwhelming varied
+CL: 28th
+Slot: none
+Price: -
+Weight: 24 lbs.
+:::
 
 [Furcas's](ref/faith/furcas) weapon is a +4 [axiomatic](ref/magic-enh/axiomatic)
 [flaming burst](ref/magic-enh/flaming-burst) [unholy](ref/magic-enh/unholy)

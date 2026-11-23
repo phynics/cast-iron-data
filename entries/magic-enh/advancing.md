@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Advancing
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This ability can only be placed on melee weapons. Once per round, when the wielder damages a
 creature in melee with an advancing weapon, she can take a 5-foot step as a swift action after the
@@ -34,7 +39,9 @@ any other ability or effect that allows moving as part of an attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[feather step](ref/spell/feather-step); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [feather step](ref/spell/feather-step)
+Price: -
+:::
 
 > _See also: [advancing armor enhancement](ref/magic-enh/advancing-armor)_

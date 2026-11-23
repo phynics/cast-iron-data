@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 27,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 27,200 gp
+Weight: 5 lbs.
+:::
 
 This walking stick, which still has dark gray bark along its entire length, branches into an ornate
 fork at its top, decorated with wildflowers and different kinds of leaves. It allows use of the
@@ -39,8 +44,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[detect snares and pits](ref/spell/detect-snares-and-pits),
-[endure elements](ref/spell/endure-elements), [freedom of movement](ref/spell/freedom-of-movement),
-[longstrider](ref/spell/longstrider), [pass without trace](ref/spell/pass-without-trace); **Cost**
-13,600 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [detect snares and pits](ref/spell/detect-snares-and-pits), [endure elements](ref/spell/endure-elements), [freedom of movement](ref/spell/freedom-of-movement), [longstrider](ref/spell/longstrider), [pass without trace](ref/spell/pass-without-trace)
+Cost: 13,600 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 25 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 25 lbs.
+:::
 
 A soul portrait is a painting imbued with immense magical power attached to a solid wooden frame.
 The exact image presented on each soul portrait varies, and has a magical effect only if it depicts

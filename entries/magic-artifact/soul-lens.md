@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 This large lens of green crystal has the Thassilonian rune for transmutation and greed inscribed
 upon its surface. The lens is fitted in an iron ring, which is attached to an articulated arm that

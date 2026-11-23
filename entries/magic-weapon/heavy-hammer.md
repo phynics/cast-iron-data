@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Weight** 20 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Weight: 20 lbs.
+:::
 
 This massive [warhammer](ref/eq-weapon/warhammer) is even heavier than its size would normally
 warrant. A creature wielding the hammer takes a -2 penalty on attack rolls and a +4 bonus on damage
@@ -30,4 +34,7 @@ primary weapon until subject to a successful [remove curse](ref/spell/remove-cur
 
 ### Construction
 
-**Requirements** +2 warhammer; **Cost** -
+::: statblock
+Requirements: +2 warhammer
+Cost: -
+:::

@@ -23,8 +23,13 @@ aura = "moderate varies"
 caster_level = "11th"
 +++
 
-**Aura** moderate varies; **CL** 11th\
-**Slot** none; **Price** 85,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate varies
+CL: 11th
+Slot: none
+Price: 85,000 gp
+Weight: 4 lbs.
+:::
 
 This rod is indistinguishable from a +1 [light mace](ref/eq-weapon/light-mace). The rod bestows a +1
 insight bonus on initiative checks. If grasped firmly, it enables the wielder to use _detect chaos,
@@ -44,8 +49,7 @@ the ground. Objects remain animated for 11 rounds. The rod can perform this func
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [alarm](ref/spell/alarm),
-[animate objects](ref/spell/animate-objects), [prayer](ref/spell/prayer),
-[detect chaos, detect evil detect good, detect law](ref/spell/detect-evil),
-[detect magic](ref/spell/detect-magic), [discern lies](ref/spell/discern-lies),
-[light](ref/spell/light), [see invisibility](ref/spell/see-invisibility); **Cost** 42,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [alarm](ref/spell/alarm), [animate objects](ref/spell/animate-objects), [prayer](ref/spell/prayer), [detect chaos, detect evil detect good, detect law](ref/spell/detect-evil), [detect magic](ref/spell/detect-magic), [discern lies](ref/spell/discern-lies), [light](ref/spell/light), [see invisibility](ref/spell/see-invisibility)
+Cost: 42,500 gp
+:::

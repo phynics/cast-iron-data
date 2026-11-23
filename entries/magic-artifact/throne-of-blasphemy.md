@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "16th"
 +++
 
-**Aura** strong enchantment; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 500 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 16th
+Slot: none
+Price: -
+Weight: 500 lbs.
+:::
 
 By sitting on the throne of blasphemy and intoning profane blasphemies (a full-round action) with
 hands soaked in the blood of a good-aligned sentient being, a creature gains the ability to poison

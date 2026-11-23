@@ -20,8 +20,13 @@ aura = "overwhelming illusion"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming illusion; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming illusion
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Pride is made of coppery [horacalcum](ref/eq-material/horacalcum). As long as the Shard
 of Pride is carried, its owner can use [major image](ref/spell/major-image) as a

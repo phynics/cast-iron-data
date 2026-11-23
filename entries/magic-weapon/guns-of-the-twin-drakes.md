@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 18,600 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 18,600 gp
+Weight: 8 lbs.
+:::
 
 These paired firearms - a +1 [flaming](ref/magic-enh/flaming)
 [dragon pistol](ref/eq-weapon/dragon-pistol) and a +1 [frost](ref/magic-enh/frost) dragon pistol -
@@ -37,6 +42,7 @@ normally granted by the flaming and frost weapon special abilities.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste), [fireball](ref/spell/fireball), [ray of frost](ref/spell/ray-of-frost);
-**Price** 10,600 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste), [fireball](ref/spell/fireball), [ray of frost](ref/spell/ray-of-frost)
+Price: 10,600 gp
+:::

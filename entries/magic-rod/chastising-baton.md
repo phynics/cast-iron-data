@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 5,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 5,000 gp
+Weight: 3 lbs.
+:::
 
 This short metal rod is etched with the outlines of various weapons and is usually owned by
 strong-armed rulers who keep a tight rein on their nation's military. A chastising baton adds 1 to
@@ -32,5 +37,7 @@ becoming [sickened](ref/misc/sickened) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [pain strike](ref/spell/pain-strike); **Cost**
-2,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [pain strike](ref/spell/pain-strike)
+Cost: 2,500 gp
+:::

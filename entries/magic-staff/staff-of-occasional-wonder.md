@@ -20,8 +20,12 @@ aura = "varies"
 caster_level = "varies"
 +++
 
-**Aura** varies; **CL** varies\
-**Slot** none; **Weight** 4 lbs.
+::: statblock
+Aura: varies
+CL: varies
+Slot: none
+Weight: 4 lbs.
+:::
 
 A staff of occasional wonder can appear to be any magical staff, and in fact such items are usually
 the result of accidents during an attempted crafting of the staff it appears to be. It usually
@@ -30,4 +34,7 @@ instead of the desired effect, the staff acts like a [rod of wonder](ref/magic-r
 
 ### Construction
 
-**Requirements** any staff; **Cost** -
+::: statblock
+Requirements: any staff
+Cost: -
+:::

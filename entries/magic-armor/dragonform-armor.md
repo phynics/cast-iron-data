@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** armor; **Price** 24,120 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: armor
+Price: 24,120 gp
+Weight: 15 lbs.
+:::
 
 This +1 [leather](ref/eq-armor/leather) armor is the same color as the dragon type with which it is
 associated and has been worked to resemble dragon hide. Once per day the wearer can speak the
@@ -30,5 +35,7 @@ _[form of the dragon I](ref/spell/form-of-the-dragon-1)_ spell. This effect last
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[form of the dragon I](ref/spell/form-of-the-dragon-1); **Price** 12,060 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [form of the dragon I](ref/spell/form-of-the-dragon-1)
+Price: 12,060 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** armor; **Price** 17,650 gp; **Weight** 45 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: armor
+Price: 17,650 gp
+Weight: 45 lbs.
+:::
 
 This +2 [spiked](ref/eq-armorenh/armor-spikes) [splint mail](ref/eq-armor/splint-mail) is fashioned
 from hacked-off chunks of tanned hide and held together by humanoid spines. Used by orcs of the
@@ -35,6 +40,7 @@ human-[bane](ref/magic-enh/bane) armor spikes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape I](ref/spell/beast-shape-1), [disguise self](ref/spell/disguise-self),
-[summon monster I](ref/spell/summon-monster-1); **Price** 9,025 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape I](ref/spell/beast-shape-1), [disguise self](ref/spell/disguise-self), [summon monster I](ref/spell/summon-monster-1)
+Price: 9,025 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong universal"
 caster_level = "20th"
 +++
 
-**Aura** strong universal; **CL** 20th\
-**Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong universal
+CL: 20th
+Slot: none
+Price: 200,000 gp
+Weight: 5 lbs.
+:::
 
 The Scepter of the Arclords is a powerful device capable of harvesting all the ambient magic from a
 large area and focusing it into a single powerful effect. Once per day the wielder can command the
@@ -45,5 +50,7 @@ isn't intelligent, it's capable of sliding on its own at a speed of 5 feet.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [limited wish](ref/spell/limited-wish),
-[wish](ref/spell/wish); **Cost** 100,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [limited wish](ref/spell/limited-wish), [wish](ref/spell/wish)
+Cost: 100,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 26,380 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 26,380 gp
+Weight: 7 lbs.
+:::
 
 The long blade of this weapon bears shifting black and yellow patterns, resembling the markings of a
 wasp. This +1 [heartseeker](ref/magic-enh/heartseeker)
@@ -36,6 +41,7 @@ of 4). Attempts to cure the poisoned target with a skill or magic take a -4 pena
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [pernicious poison](ref/spell/pernicious-poison); **Price**
-13,380 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [pernicious poison](ref/spell/pernicious-poison)
+Price: 13,380 gp
+:::

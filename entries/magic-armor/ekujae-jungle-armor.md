@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 3,900 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: armor
+Price: 3,900 gp
+Weight: 20 lbs.
+:::
 
 Made of densely compacted jungle leaves by the Ekujae jungle elves of the Mwangi, this +1
 [leaf armor](ref/eq-armor/leaf-armor) has been delicately inscribed with elven script. Prized by
@@ -36,6 +41,7 @@ _[endure elements](ref/spell/endure-elements)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[endure elements](ref/spell/endure-elements), [entangle](ref/spell/entangle), creator must be a
-druid; **Price** 2,275 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [endure elements](ref/spell/endure-elements), [entangle](ref/spell/entangle), creator must be a druid
+Price: 2,275 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This +5 Large shield, emblazoned with the symbol of the sun, allows the wielder to cast spells as if
 she were a 20th-level [paladin](ref/class/paladin) with a Charisma of 20. The spells gained are

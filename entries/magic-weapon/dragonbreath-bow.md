@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "14th"
 +++
 
-**Aura** strong evocation; **CL** 14th\
-**Slot** none; **Price** 50,375 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 14th
+Slot: none
+Price: 50,375 gp
+Weight: 3 lbs.
+:::
 
 This +2 [flaming burst](ref/magic-enh/flaming-burst) [longbow's](ref/eq-weapon/longbow) arrow rest
 is shaped like a dragon's head with its mouth agape - as if about to unleash its breath weapon. A
@@ -32,6 +37,7 @@ fire damage. This damage stacks with the bow's flaming burst special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [flame strike](ref/spell/flame-strike),
-[scorching ray](ref/spell/scorching-ray); **Price** 25,375 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [flame strike](ref/spell/flame-strike), [scorching ray](ref/spell/scorching-ray)
+Price: 25,375 gp
+:::

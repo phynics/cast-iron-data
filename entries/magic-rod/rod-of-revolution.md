@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment; **CL** 20th\
-**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 20th
+Slot: none
+Price: 82,000 gp
+Weight: 8 lbs.
+:::
 
 This variant [rod of rulership](ref/magic-rod/rod-of-rulership) looks like a castoff piece of wood
 from a lumber mill. Originating from the earliest insurrections of Galt, these rods have become
@@ -35,5 +40,7 @@ it crumbles to dust. These minutes need not be continuous.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[mass charm monster](ref/spell/charm-monster-mass), [rage](ref/spell/rage); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [mass charm monster](ref/spell/charm-monster-mass), [rage](ref/spell/rage)
+Cost: 41,000 gp
+:::

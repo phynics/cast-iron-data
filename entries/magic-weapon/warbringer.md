@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "14th"
 +++
 
-**Aura** strong enchantment; **CL** 14th\
-**Slot** none; **Price** 61,375 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 14th
+Slot: none
+Price: 61,375 gp
+Weight: 8 lbs.
+:::
 
 This massive, wickedly curved red-bladed sword is a +3 [keen](ref/magic-enh/keen)
 [vicious](ref/magic-enh/vicious) [falchion](ref/eq-weapon/falchion) that murmurs a low, rumbling
@@ -33,6 +38,7 @@ as the _[murderous command](ref/spell/murderous-command)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [murderous command](ref/spell/murderous-command),
-[rage](ref/spell/rage); **Price** 30,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [murderous command](ref/spell/murderous-command), [rage](ref/spell/rage)
+Price: 30,875 gp
+:::

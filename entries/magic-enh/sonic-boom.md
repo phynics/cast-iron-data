@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can be placed only on firearms and firearm ammunition. Attacks with a sonic
 boom weapon deal an additional 1d6 points of sonic damage to the target and 1d6 points of sonic
@@ -31,5 +36,7 @@ the boom must succeed at a DC 16 Fortitude save or be deafened for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shout](ref/spell/shout); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shout](ref/spell/shout)
+Price: -
+:::

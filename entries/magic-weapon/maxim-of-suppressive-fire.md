@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 33,800 gp; **Weight** 140 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 33,800 gp
+Weight: 140 lbs.
+:::
 
 The bullets fired by this +2 [Maxim M1910 machine gun](ref/eq-weapon/maxim-m1910-machine-gun) are
 enhanced to pierce protective cover, allowing the wielder to ignore the AC bonus granted to targets
@@ -31,5 +36,7 @@ target still benefits from total [concealment](ref/rule/concealment) (50% miss c
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[phase door](ref/spell/phase-door); **Price** 17,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [phase door](ref/spell/phase-door)
+Price: 17,800 gp
+:::

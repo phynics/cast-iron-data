@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** neck; **Price** 15,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: neck
+Price: 15,000 gp
+Weight: 6 lbs.
+:::
 
 One half of this rod is made of gray, semi-solid fog, while the other half glows from within as if
 filled with flickering embers. A rod of gripping smoke acts as a +1
@@ -47,5 +52,7 @@ either leaves the affected area or attempts to use or retrieve the item.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [solid fog](ref/spell/solid-fog),
-[telekinesis](ref/spell/telekinesis); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [solid fog](ref/spell/solid-fog), [telekinesis](ref/spell/telekinesis)
+Cost: 7,500 gp
+:::

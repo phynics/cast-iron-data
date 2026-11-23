@@ -22,8 +22,12 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on piercing or slashing melee weapons. The first time each
 round that the wielder hits a living target with a vampiric weapon, the weapon restores an amount of
@@ -41,7 +45,7 @@ converts the stolen energy into positive or negative energy, as appropriate for 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[inflict moderate wounds](ref/spell/inflict-moderate-wounds),
-[vampiric touch](ref/spell/vampiric-touch); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure moderate wounds](ref/spell/cure-moderate-wounds), [inflict moderate wounds](ref/spell/inflict-moderate-wounds), [vampiric touch](ref/spell/vampiric-touch)
+Price: -
+:::

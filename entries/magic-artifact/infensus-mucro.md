@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "20th"
 +++
 
-**Aura** moderate transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This elegantly wrought +3 [speed](ref/magic-enh/speed) [longsword](ref/eq-weapon/longsword) remains
 pristine despite having been sheathed in a submerged corpse's chest cavity for over 200 years. Given

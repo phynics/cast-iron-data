@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 36,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 36,000 gp
+Weight: 5 lbs.
+:::
 
 Holes in this metal shaft cause it to emit an eerie moan when swung through the air. It allows use
 of the following spells:
@@ -36,5 +41,7 @@ of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [shatter](ref/spell/shatter),
-[shout](ref/spell/shout), [sound burst](ref/spell/sound-burst); **Cost** 18,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [shatter](ref/spell/shatter), [shout](ref/spell/shout), [sound burst](ref/spell/sound-burst)
+Cost: 18,000 gp
+:::

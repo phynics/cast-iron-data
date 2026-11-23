@@ -20,8 +20,13 @@ aura = "strong conjuration and divination"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration and divination; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong conjuration and divination
+CL: 15th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 Several Osa paintings exist, each displaying a hand-painted Shenmen landscape. These paintings react
 to specific groups of individuals, sensing in them a likeness between their fates and the curse that

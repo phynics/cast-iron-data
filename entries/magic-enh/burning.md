@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A burning weapon causes an unattended flammable object to ignite when struck (Fortitude DC 13
 negates for magic items), dealing 1d6+1 points of fire damage to the object each round after it's
@@ -41,5 +46,7 @@ crusades against other races.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[elemental touch](ref/spell/elemental-touch); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [elemental touch](ref/spell/elemental-touch)
+Price: -
+:::

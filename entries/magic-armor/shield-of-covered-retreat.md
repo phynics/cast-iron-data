@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** shield; **Price** 8,157 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: shield
+Price: 8,157 gp
+Weight: 10 lbs.
+:::
 
 A _shield of covered retreat_ is a wide wooden kite shield emblazoned with the image of a mighty
 tree, the original design of which is thought to come from Nirmathas. Three times per day as a swift
@@ -38,5 +43,7 @@ normally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield](ref/spell/shield); **Price** 4,157 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield)
+Price: 4,157 gp
+:::

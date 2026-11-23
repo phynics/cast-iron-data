@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "7th"
 +++
 
-**Aura** strong transmutation; **CL** 7th\
-**Slot** none; **Price** 26,712 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 7th
+Slot: none
+Price: 26,712 gp
+Weight: 15 lbs.
+:::
 
 The head of this +1 [warhammer](ref/eq-weapon/warhammer) is made from magically treated stone that
 is as hard as metal. A shatterstone hammer deals double damage against unattended earthen and stone
@@ -32,5 +37,7 @@ _[slow](ref/spell/slow)_ spell). A DC 14 Will save negates this effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shatter](ref/spell/shatter), [slow](ref/spell/slow); **Price** 13,512 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shatter](ref/spell/shatter), [slow](ref/spell/slow)
+Price: 13,512 gp
+:::

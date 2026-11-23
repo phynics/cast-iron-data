@@ -20,8 +20,13 @@ aura = "strong conjuration, necromancy, transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration, necromancy, transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong conjuration, necromancy, transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 The blade called Briar is an intelligent +5 [cold iron](ref/eq-material/cold-iron)
 [vorpal](ref/magic-enh/vorpal) [bastard sword](ref/eq-weapon/bastard-sword) whose special purpose is

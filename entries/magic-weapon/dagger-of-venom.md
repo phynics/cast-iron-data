@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 8,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 8,302 gp
+Weight: 1 lb.
+:::
 
 This black +1 [dagger](ref/eq-weapon/dagger) has a serrated edge. It allows the wielder to use a
 _poison_ effect (as the spell, save DC 14) upon a creature struck by the blade once per day. The
@@ -33,5 +38,7 @@ effect must be invoked in the same round that the dagger strikes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[poison](ref/spell/poison); **Price** 4,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison)
+Price: 4,302 gp
+:::

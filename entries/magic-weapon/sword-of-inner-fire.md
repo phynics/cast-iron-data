@@ -20,8 +20,13 @@ aura = "strong transmutation [fire]"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation \[fire\]; **CL** 16th\
-**Slot** none; **Price** 151,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation \[fire\]
+CL: 16th
+Slot: none
+Price: 151,315 gp
+Weight: 4 lbs.
+:::
 
 This +1 [flaming burst](ref/magic-enh/flaming-burst)
 [brilliant energy](ref/magic-enh/brilliant-energy) [longsword](ref/eq-weapon/longsword) has a
@@ -37,7 +42,7 @@ throws.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [flame strike](ref/spell/flame-strike),
-[gaseous form](ref/spell/gaseous-form), [instant summons](ref/spell/instant-summons),
-[shield of faith](ref/spell/shield-of-faith); **Price** 75,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [flame strike](ref/spell/flame-strike), [gaseous form](ref/spell/gaseous-form), [instant summons](ref/spell/instant-summons), [shield of faith](ref/spell/shield-of-faith)
+Price: 75,815 gp
+:::

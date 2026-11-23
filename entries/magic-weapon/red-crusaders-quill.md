@@ -20,8 +20,13 @@ aura = "moderate necromancy and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy and transmutation; **CL** 10th\
-**Slot** none; **Price** 25,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy and transmutation
+CL: 10th
+Slot: none
+Price: 25,320 gp
+Weight: 2 lbs.
+:::
 
 An artful rapier with a lotus petal guard, this magnificent weapon dedicated to
 [Arazni's](ref/monster/arazni) former incarnation is useful to warriors and artists alike.
@@ -35,6 +40,7 @@ inscribes another _[mark of justice](ref/spell/mark-of-justice)_ with the Red Cr
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[arcane mark](ref/spell/arcane-mark), [mark of justice](ref/spell/mark-of-justice), creator must
-worship [Arazni](ref/faith/arazni); **Price** 12,820 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [arcane mark](ref/spell/arcane-mark), [mark of justice](ref/spell/mark-of-justice), creator must worship [Arazni](ref/faith/arazni)
+Price: 12,820 gp
+:::

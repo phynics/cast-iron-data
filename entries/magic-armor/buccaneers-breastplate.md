@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** armor; **Price** 23,850 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: armor
+Price: 23,850 gp
+Weight: 30 lbs.
+:::
 
 This +1 [breastplate](ref/eq-armor/breastplate) is made of shining amber metal and decorated with
 faint motifs of the waves and water. It allows the wearer to continually utilize the effects of the
@@ -33,5 +38,7 @@ wearer is borne toward the surface at a rate of 60 feet per round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[water walk](ref/spell/water-walk); **Price** 12,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [water walk](ref/spell/water-walk)
+Price: 12,100 gp
+:::

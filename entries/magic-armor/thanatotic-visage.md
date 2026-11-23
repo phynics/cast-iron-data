@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** head; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: head
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This jet-black helm completely masks the wearer's face above the mouth, giving him a grim aspect. A
 thanatotic visage has no effect unless worn with
@@ -32,5 +37,7 @@ destroys the thanatotic visage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[breath of life](ref/spell/breath-of-life); **Price** 2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [breath of life](ref/spell/breath-of-life)
+Price: 2,500 gp
+:::

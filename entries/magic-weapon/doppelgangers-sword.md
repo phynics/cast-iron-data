@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** none; **Price** 18,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: none
+Price: 18,310 gp
+Weight: 2 lbs.
+:::
 
 Once per day as a standard action, the wielder of this +1 [short sword](ref/eq-weapon/short-sword)
 can appear as a specific humanoid enemy the blade has injured within the previous 7 minutes. The
@@ -32,5 +37,7 @@ saving throw to disbelieve the illusion.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[alter self](ref/spell/alter-self), [major image](ref/spell/major-image); **Price** 9,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [alter self](ref/spell/alter-self), [major image](ref/spell/major-image)
+Price: 9,310 gp
+:::

@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A thundering weapon creates a cacophonous roar like thunder whenever it strikes a target with a
 successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an
@@ -35,5 +40,7 @@ successful DC 14 Fortitude save or be [deafened](ref/misc/deafened) permanently.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness)
+Price: -
+:::

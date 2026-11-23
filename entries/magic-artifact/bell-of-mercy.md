@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2,000 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 2,000 lbs.
+:::
 
 This large bell appears to be cast from pure polished silver. It is engraved with delicate runes
 around the bottom lip, and measures 3 feet from lip to crown and 5 feet in circumference around the

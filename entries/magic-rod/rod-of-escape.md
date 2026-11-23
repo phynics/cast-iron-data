@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 15,000 gp
+Weight: 5 lbs.
+:::
 
 Wrought from [cold iron](ref/eq-material/cold-iron), this rod allows its wielder to escape from even
 the tightest of bonds or grasps. If an opponent [grapples](ref/rule/grapple) the wielder of this
@@ -35,5 +40,7 @@ not need to be holding the rod to gains this bonus; it must merely be on the own
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength),
-[cat's grace](ref/spell/cats-grace), [shatter](ref/spell/shatter); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), [shatter](ref/spell/shatter)
+Cost: 7,500 gp
+:::

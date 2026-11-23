@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** 226 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: 226 gp
+Weight: -
+:::
 
 Often etched with images of spider webs or swampy vines, this sickly green +1
 [seeking](ref/magic-enh/seeking) [bolt](ref/eq-weapon/crossbow-bolts) transforms into sticky goo
@@ -34,6 +39,7 @@ by a [tanglefoot bag](ref/eq-weapon/tanglefoot-bag).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true seeing](ref/spell/true-seeing), and either [web](ref/spell/web) or creator must have 5 ranks
-in Craft (alchemy); **Price** 113 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true seeing](ref/spell/true-seeing), and either [web](ref/spell/web) or creator must have 5 ranks in Craft (alchemy)
+Price: 113 gp
+:::

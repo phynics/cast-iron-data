@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 79,102 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 79,102 gp
+Weight: 1 lb.
+:::
 
 This punching dagger's blade is engraved with images of spider webs. Upon close inspection, the
 images seem to come alive as if spiders were swarming across the webs on the blade. Twice per day as
@@ -33,6 +38,7 @@ through an enemy's threatened area without provoking an attack of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [keen edge](ref/spell/keen-edge),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement); **Price** 39,702 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [keen edge](ref/spell/keen-edge), [ray of enfeeblement](ref/spell/ray-of-enfeeblement)
+Price: 39,702 gp
+:::

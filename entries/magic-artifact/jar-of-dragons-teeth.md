@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 Each time this jar gains a new user it produces 2d4 dragon teeth. When one of these teeth is
 swallowed, it grants the user the following powers for 1 full week or until it is dismissed as a

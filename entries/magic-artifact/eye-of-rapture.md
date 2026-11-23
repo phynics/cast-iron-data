@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "20th"
 +++
 
-**Aura** strong illusion; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong illusion
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 The Eye of Rapture, once triggered, shrouds an area as large as one square mile in a powerful meld
 of enchantment and illusion magic. Those within range see only what they want to see and are filled

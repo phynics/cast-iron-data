@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on slashing or piercing melee weapons. While the wielder
 benefits from a [raging song](ref/ability/raging-song) performance (whether her own or from an
@@ -35,5 +40,7 @@ triumph when it confirms a critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), creator must have the raging song class feature; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), creator must have the raging song class feature
+Price: -
+:::

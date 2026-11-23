@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** armor; **Price** 33,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: armor
+Price: 33,160 gp
+Weight: 15 lbs.
+:::
 
 The papery layers of this robe barely constitute what would be traditionally called armor, yet act
 as +3 [leather](ref/eq-armor/leather) armor. Once per day, when the wearer is struck by a critical
@@ -35,5 +40,7 @@ can have. A successful DC 19 Will save negates this effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[geas/quest](ref/spell/geas-quest), creator must make a pact with a devil; **Price** 16,660 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [geas/quest](ref/spell/geas-quest), creator must make a pact with a devil
+Price: 16,660 gp
+:::

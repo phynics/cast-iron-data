@@ -23,8 +23,13 @@ aura = "strong (conjuration and necromancy)"
 caster_level = "20th"
 +++
 
-**Aura** strong (conjuration and necromancy); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 9 tons
+::: statblock
+Aura: strong (conjuration and necromancy)
+CL: 20th
+Slot: none
+Price: -
+Weight: 9 tons
+:::
 
 The anima focus is an immense artifact created by Karzoug in the final years of Thassilon, based
 upon the research and notes of the Lords of Greed in Runeforge. This artifact maintains the link

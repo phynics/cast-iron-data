@@ -24,8 +24,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 22,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 22,800 gp
+Weight: 5 lbs.
+:::
 
 Made of twisted [darkwood](ref/eq-material/darkwood) covered with knots and nodules resembling
 crawling insects (which occasionally seem to move), this staff allows use of the following spells:
@@ -35,5 +40,7 @@ crawling insects (which occasionally seem to move), this staff allows use of the
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [insect plague](ref/spell/insect-plague),
-[summon swarm](ref/spell/summon-swarm); **Cost** 11,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [insect plague](ref/spell/insect-plague), [summon swarm](ref/spell/summon-swarm)
+Cost: 11,400 gp
+:::

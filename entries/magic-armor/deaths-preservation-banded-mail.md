@@ -20,8 +20,13 @@ aura = "strong conjuration and divination"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration and divination; **CL** 18th\
-**Slot** armor; **Price** 22,400 gp; **Weight** 35 lbs.
+::: statblock
+Aura: strong conjuration and divination
+CL: 18th
+Slot: armor
+Price: 22,400 gp
+Weight: 35 lbs.
+:::
 
 This +2 [light fortification](ref/magic-enh/fortification-light)
 [banded mail](ref/eq-armor/banded-mail) has a small, ovoid stone set in the left shoulder. The armor
@@ -36,7 +41,7 @@ banded mail.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[contingency](ref/spell/contingency), [gentle repose](ref/spell/gentle-repose),
-[limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle),
-[word of recall](ref/spell/word-of-recall); **Price** 11,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [contingency](ref/spell/contingency), [gentle repose](ref/spell/gentle-repose), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), [word of recall](ref/spell/word-of-recall)
+Price: 11,200 gp
+:::

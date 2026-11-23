@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "14th"
 +++
 
-**Aura** strong evocation; **CL** 14th\
-**Slot** none; **Price** 54,475 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong evocation
+CL: 14th
+Slot: none
+Price: 54,475 gp
+Weight: 8 lbs.
+:::
 
 This +3 [frost](ref/magic-enh/frost) [greatsword](ref/eq-weapon/greatsword) sheds light as a
 [torch](ref/eq-misc/torch) when the temperature drops below 0 F. At such times it cannot be
@@ -38,6 +43,7 @@ level of the fire spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic), [ice storm](ref/spell/ice-storm),
-[protection from energy](ref/spell/protection-from-energy); **Price** 27,375 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic), [ice storm](ref/spell/ice-storm), [protection from energy](ref/spell/protection-from-energy)
+Price: 27,375 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong conjuration [evil]"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration \[evil\]; **CL** 13th\
-**Slot** none; **Price** 78,310 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration \[evil\]
+CL: 13th
+Slot: none
+Price: 78,310 gp
+Weight: 3 lbs.
+:::
 
 This item functions like a [murderer's machete](ref/magic-weapon/murderers-machete), but is a +2
 [keen](ref/magic-enh/keen) [wounding](ref/magic-enh/wounding)
@@ -29,6 +34,7 @@ This item functions like a [murderer's machete](ref/magic-weapon/murderers-mache
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [cruel jaunt](ref/spell/cruel-jaunt), [keen edge](ref/spell/keen-edge),
-creator must sacrifice a sentient living creature; **Price** 39,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [cruel jaunt](ref/spell/cruel-jaunt), [keen edge](ref/spell/keen-edge), creator must sacrifice a sentient living creature
+Price: 39,310 gp
+:::

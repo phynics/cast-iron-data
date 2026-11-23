@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 7,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 7,315 gp
+Weight: 4 lbs.
+:::
 
 This steel-tined +1 [trident](ref/eq-weapon/trident) can be commanded to lengthen or shorten its
 haft (or return to its normal length) as a swift action. It is a two-handed [reach](ref/misc/reach)
@@ -31,5 +36,7 @@ to a fighter's fork in any form.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 3,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 3,815 gp
+:::

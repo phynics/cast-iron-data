@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 3,605 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: armor
+Price: 3,605 gp
+Weight: 20 lbs.
+:::
 
 This +1 [studded leather](ref/eq-armor/studded-leather) is styled like a captain's jacket with long,
 sturdy leather tails that cover the wearer's thighs, and it is festooned with steel studs crafted to
@@ -30,6 +35,7 @@ _[purify food and drink](ref/spell/purify-food-and-drink)_ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[abundant ammunition](ref/spell/abundant-ammunition),
-[purify food and drink](ref/spell/purify-food-and-drink); **Price** 1,890 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [abundant ammunition](ref/spell/abundant-ammunition), [purify food and drink](ref/spell/purify-food-and-drink)
+Price: 1,890 gp
+:::

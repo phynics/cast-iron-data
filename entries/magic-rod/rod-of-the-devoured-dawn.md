@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** rod; **Price** 20,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: rod
+Price: 20,000 gp
+Weight: 10 lbs.
+:::
 
 The head of this rod is carved to resemble the visage of the Ancient Osirian deity
 [Apep](ref/faith/apep), Devourer of the Dawn, god of chaos, darkness, destruction, and snakes. A rod
@@ -45,7 +50,7 @@ time. A rod of the devoured dawn only functions if its wielder is chaotic.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [darkvision](ref/spell/darkvision),
-[dispel magic](ref/spell/dispel-magic), [hypnotic pattern](ref/spell/hypnotic-pattern),
-[secret chest](ref/spell/secret-chest); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [darkvision](ref/spell/darkvision), [dispel magic](ref/spell/dispel-magic), [hypnotic pattern](ref/spell/hypnotic-pattern), [secret chest](ref/spell/secret-chest)
+Cost: 10,000 gp
+:::

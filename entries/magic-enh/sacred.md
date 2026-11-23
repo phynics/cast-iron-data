@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A sacred weapon is filled with divine energy, and acts as a holy symbol. When wielded by a creature
 that can cast divine spells, the weapon automatically displays an image of that creature's holy
@@ -34,5 +39,7 @@ minor blessings at a cost of one use of that blessing.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: +5,000 gp
+Weight: -
+:::
 
 This special ability can be placed only on a melee weapon. Once per day as a free action, the
 wielder of a sneaky weapon can designate a single foe within his melee reach as his prey. If the
@@ -34,5 +39,7 @@ additional time per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[doom](ref/spell/doom); **Price** 2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [doom](ref/spell/doom)
+Price: 2,500 gp
+:::

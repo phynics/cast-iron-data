@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 49,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 49,800 gp
+Weight: 5 lbs.
+:::
 
 Created from a number of iron rods, copper gears, and silver screws, this staff constantly shifts
 and changes. The staff allows use of the following spells:
@@ -38,5 +43,7 @@ loses all of its charges and this ability cannot be used again until it is fully
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [animate objects](ref/spell/animate-objects),
-[make whole](ref/spell/make-whole), [mending](ref/spell/mending); **Cost** 24,900 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [animate objects](ref/spell/animate-objects), [make whole](ref/spell/make-whole), [mending](ref/spell/mending)
+Cost: 24,900 gp
+:::

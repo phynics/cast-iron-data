@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +15,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +15,000 gp
+Weight: -
+:::
 
 Venom-eating armor allows its wearer to store poisons from venomous creatures for later use.
 Whenever the wearer of venom-eating armor is subjected to a poison attack and succeeds at a saving
@@ -36,5 +41,7 @@ primarily from leather, such as leather, studded leather, and armor made of drag
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[delay poison](ref/spell/delay-poison), [poison](ref/spell/poison); **Price** 7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [delay poison](ref/spell/delay-poison), [poison](ref/spell/poison)
+Price: 7,500 gp
+:::

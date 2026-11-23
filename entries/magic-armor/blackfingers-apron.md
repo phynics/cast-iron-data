@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 5th\
-**Slot** armor; **Price** 5,240 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 5th
+Slot: armor
+Price: 5,240 gp
+Weight: 15 lbs.
+:::
 
 This +1 [bitter](ref/magic-enh/bitter) [leather](ref/eq-armor/leather) armor looks much like a
 blacksmith's apron or an alchemist's smock, and has many small pockets suitable for holding
@@ -33,6 +38,7 @@ crumbles into dust if it is not used within 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[negate aroma](ref/spell/negate-aroma), [stinking cloud](ref/spell/stinking-cloud),
-[web](ref/spell/web); **Price** 2,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [negate aroma](ref/spell/negate-aroma), [stinking cloud](ref/spell/stinking-cloud), [web](ref/spell/web)
+Price: 2,700 gp
+:::

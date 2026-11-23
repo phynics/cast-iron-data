@@ -20,8 +20,13 @@ aura = "strong evocation and necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 220 lbs.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 220 lbs.
+:::
 
 This horned and frilled dragon's head is coated with a thick layer of white lime. When dropped from
 a height of at least 150 feet, the tathlum detonates in an explosion of greasy darkness, dealing

@@ -19,8 +19,12 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Price** +7,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Price: +7,500 gp
+Weight: -
+:::
 
 This special ability can be placed only on a light or one-handed melee weapon. A concealed weapon
 alters its shape at its wielder's command, transforming into a non-weapon object of the wielder's
@@ -45,5 +49,7 @@ its original form or has been left unattended for 8 hours, whichever comes soone
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation); **Price** 3,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation)
+Price: 3,750 gp
+:::

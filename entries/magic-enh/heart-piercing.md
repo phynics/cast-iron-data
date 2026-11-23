@@ -19,8 +19,12 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Price** +5 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Price: +5 bonus
+Weight: -
+:::
 
 This special ability can be placed only on piercing ranged weapons. It functions as
 [vorpal](ref/magic-enh/vorpal) except that a heart-piercing weapon can pierce the target's heart (if
@@ -28,5 +32,7 @@ it has one), killing it instantly.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[finger of death](ref/spell/finger-of-death), [keen edge](ref/spell/keen-edge); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [finger of death](ref/spell/finger-of-death), [keen edge](ref/spell/keen-edge)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: +5,000 gp
+Weight: -
+:::
 
 Armor with this special ability is designed to enhance mobility in combat. The armor grants a +5
 competence bonus on Acrobatics checks. Any time the wearer regains a grit or panache point, the
@@ -29,5 +34,7 @@ armor's bonus on Acrobatics checks doubles until the beginning of her next turn.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[cat's grace](ref/spell/cats-grace); **Price** 2,500 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [cat's grace](ref/spell/cats-grace)
+Price: 2,500 gp
+:::

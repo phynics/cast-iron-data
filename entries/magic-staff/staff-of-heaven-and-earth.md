@@ -27,8 +27,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 54,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 54,000 gp
+Weight: 5 lbs.
+:::
 
 Topped by a swirling cloudy stone and wrapped with black iron filigree, this staff allows use of the
 following spells:
@@ -41,6 +46,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [air walk](ref/spell/air-walk),
-[control winds](ref/spell/control-winds), [gust of wind](ref/spell/gust-of-wind),
-[spike stones](ref/spell/spike-stones), [stone shape](ref/spell/stone-shape); **Cost** 27,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [air walk](ref/spell/air-walk), [control winds](ref/spell/control-winds), [gust of wind](ref/spell/gust-of-wind), [spike stones](ref/spell/spike-stones), [stone shape](ref/spell/stone-shape)
+Cost: 27,000 gp
+:::

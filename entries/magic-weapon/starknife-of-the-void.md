@@ -20,8 +20,13 @@ aura = "strong illusion and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** strong illusion and transmutation; **CL** 5th\
-**Slot** none; **Price** 21,324 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong illusion and transmutation
+CL: 5th
+Slot: none
+Price: 21,324 gp
+Weight: 3 lbs.
+:::
 
 The starknife of the void is a weapon designed by devotees of
 [Black Butterfly](ref/faith/black-butterfly) and at one time could only be found among the faithful
@@ -39,6 +44,7 @@ deaf.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [telekinesis](ref/spell/telekinesis); **Price**
-10,824 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [telekinesis](ref/spell/telekinesis)
+Price: 10,824 gp
+:::

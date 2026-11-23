@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 12th\
-**Slot** none; **Price** 142,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 12th
+Slot: none
+Price: 142,000 gp
+Weight: 3 lbs.
+:::
 
 Two entwined wooden snakes run the length of this laurel rod, which is capped with a pair of brass
 wings. This mystical implement gives its possessor a +5 insight bonus on
@@ -50,7 +55,7 @@ effects.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [breath of life](ref/spell/breath-of-life),
-[deep slumber](ref/spell/deep-slumber), [heroism](ref/spell/heroism),
-[universal formula](ref/spell/universal-formula), creator must have at least 10 ranks in Craft
-(alchemy); **Cost** 71,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [breath of life](ref/spell/breath-of-life), [deep slumber](ref/spell/deep-slumber), [heroism](ref/spell/heroism), [universal formula](ref/spell/universal-formula), creator must have at least 10 ranks in Craft (alchemy)
+Cost: 71,000 gp
+:::

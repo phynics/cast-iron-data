@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** armor quality; **Price** +49,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: armor quality
+Price: +49,000 gp
+Weight: -
+:::
 
 On command, this ability allows the wearer of the armor to become ethereal (as the
 _[ethereal jaunt](ref/spell/ethereal-jaunt)_ spell) once per day. The character can remain ethereal
@@ -32,5 +37,7 @@ for as long as desired, but once he returns to normal, he cannot become ethereal
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ethereal jaunt](ref/spell/ethereal-jaunt); **Price** +24,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ethereal jaunt](ref/spell/ethereal-jaunt)
+Price: +24,500 gp
+:::

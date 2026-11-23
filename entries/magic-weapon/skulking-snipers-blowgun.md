@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** none; **Price** 62,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: none
+Price: 62,302 gp
+Weight: 1 lb.
+:::
 
 A skulking sniper's blowgun is crafted of fine hardwood that shifts color between brown and dark
 green under different lights. The wielder of this +3 [distance](ref/magic-enh/distance)
@@ -36,7 +41,7 @@ as normal.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[greater invisibility](ref/spell/invisibility-greater), [silence](ref/spell/silence); **Price**
-31,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [greater invisibility](ref/spell/invisibility-greater), [silence](ref/spell/silence)
+Price: 31,302 gp
+:::

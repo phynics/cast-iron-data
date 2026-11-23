@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 64,305 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 64,305 gp
+Weight: 5 lbs.
+:::
 
 This ebon rod is so dark it seems to absorb the light around it. The rod functions as a +2
 [light mace](ref/eq-weapon/light-mace), and allows its wielder to see in darkness as if she had the
@@ -35,5 +40,7 @@ attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [deeper darkness](ref/spell/deeper-darkness),
-[true seeing](ref/spell/true-seeing); **Cost** 32,305 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [deeper darkness](ref/spell/deeper-darkness), [true seeing](ref/spell/true-seeing)
+Cost: 32,305 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 35,005 gp; **Weight** 16 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 35,005 gp
+Weight: 16 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,6 +38,7 @@ the Flotsam Graveyard.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [warp wood](ref/spell/warp-wood), creator must be a gillman; **Price**
-17,655 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [warp wood](ref/spell/warp-wood), creator must be a gillman
+Price: 17,655 gp
+:::

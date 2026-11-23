@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 30,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 30,000 gp
+Weight: 5 lbs.
+:::
 
 This bronze rod is capped with a hollow head formed by sweeping aquiline wings shielding a
 _[continual flame](ref/spell/continual-flame)._ A rod of liberty can be used as a +1
@@ -36,6 +41,7 @@ the spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [break enchantment](ref/spell/break-enchantment),
-[cast out](ref/spell/cast-out), [continual flame](ref/spell/continual-flame); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [break enchantment](ref/spell/break-enchantment), [cast out](ref/spell/cast-out), [continual flame](ref/spell/continual-flame)
+Cost: 15,000 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This charm resembles an [orrery](ref/eq-misc/orrery) composed of small, freely orbiting orbs
 circling a candle-sized flame. The device functions as an

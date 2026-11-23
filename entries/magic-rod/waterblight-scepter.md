@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 18,312 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 18,312 gp
+Weight: 8 lbs.
+:::
 
 This gnarled blackwood scepter seeps tar, making it sticky to the touch. Around Cassomir,
 waterblight scepters are popular among inquisitors, oracles, and witches who regularly ply the
@@ -36,5 +41,7 @@ not be used all at once, but it must be used in 10-minute increments.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [water walk](ref/spell/water-walk); **Cost** 13,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [water walk](ref/spell/water-walk)
+Cost: 13,312 gp
+:::

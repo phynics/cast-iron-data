@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 5,235 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 5,235 gp
+Weight: 10 lbs.
+:::
 
 This suit of +1 [stanching](ref/magic-enh/stanching) [padded](ref/eq-armor/padded) armor is of
 traditional Osirian design, consisting of a quilted cuirass of lightweight, breathable linen; a
@@ -32,7 +37,7 @@ initiative check.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[anticipate peril](ref/spell/anticipate-peril), [stabilize](ref/spell/stabilize),
-[cure critical wounds](ref/spell/cure-critical-wounds) or
-[lesser restoration](ref/spell/restoration-lesser); **Price** 2,695 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [anticipate peril](ref/spell/anticipate-peril), [stabilize](ref/spell/stabilize), [cure critical wounds](ref/spell/cure-critical-wounds) or [lesser restoration](ref/spell/restoration-lesser)
+Price: 2,695 gp
+:::

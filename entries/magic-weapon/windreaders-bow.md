@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "8th"
 +++
 
-**Aura** moderate divination; **CL** 8th\
-**Slot** none; **Price** 54,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 8th
+Slot: none
+Price: 54,400 gp
+Weight: 3 lbs.
+:::
 
 Whenever an arrow fired from this +1 [adaptive](ref/magic-enh/adaptive)
 [seeking](ref/magic-enh/seeking) [composite longbow](ref/eq-weapon/composite-longbow) damages the
@@ -33,6 +38,7 @@ standard action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [locate creature](ref/spell/locate-creature),
-[warp wood](ref/spell/warp-wood); **Price** 27,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [locate creature](ref/spell/locate-creature), [warp wood](ref/spell/warp-wood)
+Price: 27,400 gp
+:::

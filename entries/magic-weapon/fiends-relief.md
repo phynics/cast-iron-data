@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 3,305 gp; **Weight** 9 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 3,305 gp
+Weight: 9 lbs.
+:::
 
 A creature wielding one of these +1 [longspears](ref/eq-weapon/longspear) - which are favored gifts
 of House Thrune - gains a +3 bonus on attack rolls when [flanking](ref/rule/flanking) with an
@@ -31,5 +36,7 @@ fiend would grant to the target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[command](ref/spell/command), [detect evil](ref/spell/detect-evil); **Price** 1,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [command](ref/spell/command), [detect evil](ref/spell/detect-evil)
+Price: 1,805 gp
+:::

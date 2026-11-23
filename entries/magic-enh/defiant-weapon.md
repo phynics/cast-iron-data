@@ -22,8 +22,13 @@ caster_level = "10th"
 
 ## Defiant
 
-**Aura** strong abjuration; **CL** 10th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 10th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A defiant weapon helps its wielder stay
 alive in desperate conditions. It stays in its wielder's hand even if she is
@@ -40,7 +45,9 @@ feats.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), Heroic Defiance,
-[break enchantment](ref/spell/break-enchantment), [stabilize](ref/spell/stabilize); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), Heroic Defiance, [break enchantment](ref/spell/break-enchantment), [stabilize](ref/spell/stabilize)
+Price: -
+:::
 
 > _See also: [defiant armor enhancement](ref/magic-enh/defiant)_

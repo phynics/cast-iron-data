@@ -23,8 +23,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "11th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 11th\
-**Slot** none; **Price** 22,301 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 11th
+Slot: none
+Price: 22,301 gp
+Weight: 1 lb.
+:::
 
 A sadist's lash is a long whip of thin strips of leather. Created originally by a special sect of
 wizards who served under Runelord Sorshen, sadist's lashes swiftly became quite popular throughout
@@ -36,5 +41,7 @@ by the wielder of the lash for 1 minute unless it succeeds at a DC 15 Will save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dominate person](ref/spell/dominate-person); **Price** 11,301 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dominate person](ref/spell/dominate-person)
+Price: 11,301 gp
+:::

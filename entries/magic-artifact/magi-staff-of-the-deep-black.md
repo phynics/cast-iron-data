@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This crystalline blue-white staff fell from the sky during a dazzling display of falling stars.
 Sages believe it was once part of an enormous piece of ice drifting between worlds since the dawn of

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** armor; **Price** 30,300 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: armor
+Price: 30,300 gp
+Weight: 20 lbs.
+:::
 
 This suit of +1 [steel lamellar](ref/eq-armor/lamellar-steel) weighs less than normal steel lamellar
 (though it is still considered medium armor). Skyplate armor grants its wearer the ability to use
@@ -31,5 +36,7 @@ and all effects associated with magical or mundane weather.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy), [wind walk](ref/spell/wind-walk); **Price** 15,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy), [wind walk](ref/spell/wind-walk)
+Price: 15,300 gp
+:::

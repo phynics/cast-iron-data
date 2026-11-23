@@ -23,8 +23,12 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Weight: 8 lbs.
+:::
 
 This sword appears to be a +2 [greatsword](ref/eq-weapon/greatsword). However, whenever it is used
 in battle, its wielder goes berserk (gaining all the benefits and drawbacks of the
@@ -34,4 +38,7 @@ this sword as a cursed object, others see it as a boon.
 
 ### Construction
 
-**Requirements** +2 greatsword, any magic weapon; **Cost** -
+::: statblock
+Requirements: +2 greatsword, any magic weapon
+Cost: -
+:::

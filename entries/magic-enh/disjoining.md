@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 These weapons were first created by deities and given to mortals so that they could combat mythic
 foes. When the wielder confirms a critical hit against a mythic creature with a disjoining weapon,
@@ -31,6 +36,7 @@ weapon. Only melee weapons can have this ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [mythic severance](ref/spell/mythic-severance);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [mythic severance](ref/spell/mythic-severance)
+Price: -
+:::

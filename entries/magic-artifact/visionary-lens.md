@@ -23,8 +23,13 @@ aura = "strong divination, enchantment, and illusion"
 caster_level = "20th"
 +++
 
-**Aura** strong divination, enchantment, and illusion; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 50 lbs.
+::: statblock
+Aura: strong divination, enchantment, and illusion
+CL: 20th
+Slot: none
+Price: -
+Weight: 50 lbs.
+:::
 
 This ornate mirror measures 4 feet in diameter, framed in gold and embellished with silver. The
 frame depicts dozens of stylized eyes from fey creatures that alternately open and close in

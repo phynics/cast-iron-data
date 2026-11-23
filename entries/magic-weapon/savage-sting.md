@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** none; **Price** 38,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: none
+Price: 38,302 gp
+Weight: 1 lb.
+:::
 
 This +1 [seeking](ref/magic-enh/seeking) [blowgun](ref/eq-weapon/blowgun) is made of a hollowed
 piece of reed lacquered in vibrant orange hues and decorated with a fetish of brilliantly colored
@@ -30,5 +35,7 @@ virulent toxin, which functions as the _poison_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[poison](ref/spell/poison), [true seeing](ref/spell/true-seeing); **Price** 19,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison), [true seeing](ref/spell/true-seeing)
+Price: 19,302 gp
+:::

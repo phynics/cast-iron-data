@@ -20,8 +20,13 @@ aura = "strong evocation [fire]"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation \[fire\]; **CL** 12th\
-**Slot** none; **Price** 400 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong evocation \[fire\]
+CL: 12th
+Slot: none
+Price: 400 gp
+Weight: 1/2 lb.
+:::
 
 This +1 [flaming burst](ref/magic-enh/flaming-burst) [shuriken](ref/eq-weapon/shuriken) is etched
 with the image of an erupting volcano. Any creature damaged by an earthfire shuriken must make a DC
@@ -30,6 +35,7 @@ a Reflex save to quench the flames; failure results in another 1d6 points of fir
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[burning gaze](ref/spell/burning-gaze); [flame blade](ref/spell/flame-blade),
-[flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball); **Price** 198 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [burning gaze](ref/spell/burning-gaze); [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball)
+Price: 198 gp
+:::

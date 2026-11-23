@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 206 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 206 gp
+Weight: -
+:::
 
 This +1 [featherweight dart](ref/eq-weapon/featherweight-dart) is designed to be fired from a small
 wrist launcher. As with a normal featherweight dart, it deals no damage; it instead administers 1
@@ -34,5 +39,7 @@ damaged, so as with other magical ammunition, it can't be reused.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[apport object](ref/spell/apport-object); **Price** 106 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [apport object](ref/spell/apport-object)
+Price: 106 gp
+:::

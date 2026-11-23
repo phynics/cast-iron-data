@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** shield; **Price** 14,200 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: shield
+Price: 14,200 gp
+Weight: 15 lbs.
+:::
 
 The face of this +2 [heavy steel shield](ref/eq-armor/heavy-steel-shield) is lined with sheets of
 riveted steel to absorb more impact. A surefooted shield grants its wielder a +2 bonus on his CMD
@@ -35,5 +40,7 @@ attacks of opportunity and does not count as a 5-foot step.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[abjuring step](ref/spell/abjuring-step); **Price** 7,185 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [abjuring step](ref/spell/abjuring-step)
+Price: 7,185 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** shield; **Price** 19,170 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: shield
+Price: 19,170 gp
+Weight: 10 lbs.
+:::
 
 The front of this +1 [bashing](ref/magic-enh/bashing)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) looks as though it is crafted from hundreds of
@@ -34,6 +39,7 @@ minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [stone shape](ref/spell/stone-shape),
-[flesh to stone](ref/spell/flesh-to-stone); **Price** 9,670 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [stone shape](ref/spell/stone-shape), [flesh to stone](ref/spell/flesh-to-stone)
+Price: 9,670 gp
+:::

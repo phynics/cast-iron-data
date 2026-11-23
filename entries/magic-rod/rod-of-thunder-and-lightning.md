@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 33,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 33,000 gp
+Weight: 5 lbs.
+:::
 
 Constructed of iron set with silver rivets, this rod has the properties of a +2
 [light mace](ref/eq-weapon/light-mace). Its other powers are as follows.
@@ -57,6 +62,7 @@ thunderclap deals 2d6 points of sonic damage. A single DC 16 Reflex save applies
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [lightning bolt](ref/spell/lightning-bolt),
-[shout](ref/spell/shout); **Cost** 16,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [lightning bolt](ref/spell/lightning-bolt), [shout](ref/spell/shout)
+Cost: 16,500 gp
+:::

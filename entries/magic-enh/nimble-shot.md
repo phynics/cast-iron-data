@@ -20,13 +20,20 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** weapon quality; **Price** +4 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: weapon quality
+Price: +4 bonus
+Weight: -
+:::
 
 This special ability can only be placed on ranged weapons. A nimble shot weapon doesn't provoke
 attacks of opportunity when fired.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bow spirit](ref/spell/bow-spirit); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bow spirit](ref/spell/bow-spirit)
+Price: -
+:::

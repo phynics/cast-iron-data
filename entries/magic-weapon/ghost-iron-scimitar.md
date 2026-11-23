@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** 162,315 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: 162,315 gp
+Weight: 8 lbs.
+:::
 
 When Xin learned that the runelords had invested their champions with the swords known as the
 Alara-hai - the Swords of Sin - he decided that he deserved such a weapon for his champion as well.
@@ -43,6 +48,7 @@ failures to aid in triggering its unstable mind.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [keen edge](ref/spell/keen-edge),
-[plane shift](ref/spell/plane-shift); **Price** 100,315 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [keen edge](ref/spell/keen-edge), [plane shift](ref/spell/plane-shift)
+Price: 100,315 gp
+:::

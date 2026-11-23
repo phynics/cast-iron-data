@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 43,500 gp
+Weight: 5 lbs.
+:::
 
 This staff, constructed of dark purple crystal, allows the use of the following spells:
 
@@ -37,8 +42,7 @@ The staff may be used as a weapon, functioning as a +1 [impact](ref/magic-enh/im
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [bull's strength](ref/spell/bulls-strength),
-[confusion](ref/spell/confusion), [darkness](ref/spell/darkness), [fear](ref/spell/fear),
-[irradiate](ref/spell/irradiate), [planetary adaptation](ref/spell/planetary-adaptation); **Cost**
-21,900 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [bull's strength](ref/spell/bulls-strength), [confusion](ref/spell/confusion), [darkness](ref/spell/darkness), [fear](ref/spell/fear), [irradiate](ref/spell/irradiate), [planetary adaptation](ref/spell/planetary-adaptation)
+Cost: 21,900 gp
+:::

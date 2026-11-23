@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The handle of this simple straw broom, or besom, is capped with a small skull with long white hair.
 On command, the broom sweeps away any tracks or traces of passage, as

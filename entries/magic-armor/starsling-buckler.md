@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 6th\
-**Slot** none; **Price** 14,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 6th
+Slot: none
+Price: 14,000 gp
+Weight: 5 lbs.
+:::
 
 This +2 [buckler](ref/eq-armor/buckler) is emblazoned with a swirl of stars and comets. Many of the
 Saoc Brethren commissioned these bucklers as markers of high social standing; they had them each
@@ -40,5 +45,7 @@ automatically after 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[light](ref/spell/light), [magic stone](ref/spell/magic-stone); **Price** 7,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [light](ref/spell/light), [magic stone](ref/spell/magic-stone)
+Price: 7,000 gp
+:::

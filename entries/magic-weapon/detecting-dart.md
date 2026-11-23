@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 2,000 gp
+Weight: -
+:::
 
 This tiny [blowgun dart](ref/eq-weapon/blowgun-darts) is made of iron and engraved with runes. The
 back half of the dart has a colorful tuft of fletching that detaches when the dart is thrown or
@@ -42,5 +47,7 @@ back half instead tracks the new creature.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[locate creature](ref/spell/locate-creature); **Price** 1,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [locate creature](ref/spell/locate-creature)
+Price: 1,000 gp
+:::

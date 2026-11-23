@@ -21,8 +21,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 20,800 gp
+Weight: 5 lbs.
+:::
 
 Crumbling bark continuously flakes from this solid, aged oak staff without diminishing its size. It
 allows the use of the following spells:
@@ -33,6 +38,7 @@ allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [calcific touch](ref/spell/calcific-touch),
-[corrosive touch](ref/spell/corrosive-touch), [touch injection](ref/spell/touch-injection); **Cost**
-10,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [calcific touch](ref/spell/calcific-touch), [corrosive touch](ref/spell/corrosive-touch), [touch injection](ref/spell/touch-injection)
+Cost: 10,400 gp
+:::

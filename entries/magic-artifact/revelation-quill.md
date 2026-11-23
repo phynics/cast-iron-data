@@ -23,8 +23,13 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Aura** strong divination; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The first revelation quills were created by the followers of the Peacock Spirit. Since the fall of
 Thassilon, the method for creating them has been lost. The few revelation quills that remain today

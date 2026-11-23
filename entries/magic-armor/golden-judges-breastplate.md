@@ -20,8 +20,13 @@ aura = "faint abjuration, enchantment, and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration, enchantment, and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 5,110 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint abjuration, enchantment, and transmutation
+CL: 3rd
+Slot: armor
+Price: 5,110 gp
+Weight: 30 lbs.
+:::
 
 This gold-colored +1 [breastplate](ref/eq-armor/breastplate) has a large, ornate symbol of a vault
 key on one side of the chest. The wearer gains a +4 competence bonus on Sense Motive checks. The
@@ -30,6 +35,7 @@ day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[command](ref/spell/command), [owl's wisdom](ref/spell/owls-wisdom),
-[peacebond](ref/spell/peacebond); **Price** 2,730 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [command](ref/spell/command), [owl's wisdom](ref/spell/owls-wisdom), [peacebond](ref/spell/peacebond)
+Price: 2,730 gp
+:::

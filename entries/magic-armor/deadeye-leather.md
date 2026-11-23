@@ -20,8 +20,13 @@ aura = "faint divination and illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and illusion; **CL** 5th\
-**Slot** armor; **Price** 5,425 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint divination and illusion
+CL: 5th
+Slot: armor
+Price: 5,425 gp
+Weight: 20 lbs.
+:::
 
 This mottled green-and-brown +1 [shadow](ref/magic-enh/shadow)
 [studded leather](ref/eq-armor/studded-leather) has the symbol of [Erastil](ref/faith/erastil)
@@ -32,6 +37,7 @@ attack ignores the target's miss chance and AC bonus from [cover](ref/rule/cover
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence),
-[true strike](ref/spell/true-strike); **Price** 2,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence), [true strike](ref/spell/true-strike)
+Price: 2,800 gp
+:::

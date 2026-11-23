@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A mighty cleaving weapon allows a wielder
 using the [Cleave](ref/feat/cleave) feat to make one additional attack if the first attack hits, as
@@ -33,5 +38,7 @@ be against the first foe.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[divine power](ref/spell/divine-power); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [divine power](ref/spell/divine-power)
+Price: -
+:::

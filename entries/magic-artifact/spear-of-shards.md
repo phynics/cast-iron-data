@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "18th"
 +++
 
-**Aura** strong divination; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong divination
+CL: 18th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 The spear of shards is a +6 [returning](ref/magic-enh/returning) [wounding](ref/magic-enh/wounding)
 [spear](ref/eq-weapon/spear) created by the Vault Keepers to guide them through the convoluted

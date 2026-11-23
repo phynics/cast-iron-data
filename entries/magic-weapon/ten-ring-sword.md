@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 14,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 14,315 gp
+Weight: 4 lbs.
+:::
 
 This finely crafted +2 [nine-ring broadsword](ref/eq-weapon/nine-ring-broadsword) has an extra gap
 at the base of the blade's unsharpened edge, closest to the hilt, seemingly to fit an extra ring.
@@ -43,5 +48,7 @@ properties.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mage hand](ref/spell/mage-hand), [versatile weapon](ref/spell/versatile-weapon); **Price** 7,157 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mage hand](ref/spell/mage-hand), [versatile weapon](ref/spell/versatile-weapon)
+Price: 7,157 gp
+:::

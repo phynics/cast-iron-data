@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** none; **Price** 20,925 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: none
+Price: 20,925 gp
+Weight: 4 lbs.
+:::
 
 A skull and partial backbone carved from ivory top this +2 [sword cane](ref/eq-weapon/sword-cane),
 and gray sharkskin covers its wooden scabbard. The wielder can use the
@@ -40,5 +45,7 @@ instead of her own size modifier.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[arcane eye](ref/spell/arcane-eye), [obscure object](ref/spell/obscure-object); **Price** 10,635 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [arcane eye](ref/spell/arcane-eye), [obscure object](ref/spell/obscure-object)
+Price: 10,635 gp
+:::

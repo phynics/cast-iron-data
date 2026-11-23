@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 55,330 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 55,330 gp
+Weight: 4 lbs.
+:::
 
 This +2 [cruel](ref/magic-enh/cruel) [longsword](ref/eq-weapon/longsword) features layers of
 [cold iron](ref/eq-material/cold-iron) and steel folded over one another repeatedly. The blade
@@ -35,6 +40,7 @@ such bound creatures, and the damage bypasses damage reduction.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell),
-[symbol of pain](ref/spell/symbol-of-pain); **Price** 27,830 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell), [symbol of pain](ref/spell/symbol-of-pain)
+Price: 27,830 gp
+:::

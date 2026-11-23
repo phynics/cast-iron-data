@@ -20,8 +20,13 @@ aura = "weak necromancy"
 caster_level = "5th"
 +++
 
-**Aura** weak necromancy; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: weak necromancy
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 The sickly gray wood of this arrow seems quite fragile and delicate. Created from pale necromantic
 bone or casket wood, this arrow splinters when it impacts, embedding pieces of itself in the target
@@ -32,5 +37,7 @@ negative energy for healing.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell)
+Price: -
+:::

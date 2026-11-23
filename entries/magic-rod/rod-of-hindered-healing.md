@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 30,000 gp
+Weight: 4 lbs.
+:::
 
 This black steel rod is capped by a circular pattern of pristine human finger bones. While held by a
 living creature, the rod radiates a moderate aura of negative energy that affects magical healing
@@ -31,5 +36,7 @@ of healing.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[inflict critical wounds](ref/spell/inflict-critical-wounds); **Cost** 15,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [inflict critical wounds](ref/spell/inflict-critical-wounds)
+Cost: 15,000 gp
+:::

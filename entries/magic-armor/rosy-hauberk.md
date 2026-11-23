@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 3,035 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: armor
+Price: 3,035 gp
+Weight: 25 lbs.
+:::
 
 This metallic +1 [chain shirt](ref/eq-armor/chain-shirt) is woven with the petals, buds, and stalks
 of numerous kinds of beautiful flowers, and the garment is so finely cut that it makes even
@@ -31,6 +36,7 @@ _[summon instrument](ref/spell/summon-instrument)_ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aspect of the nightingale](ref/spell/aspect-of-the-nightingale),
-[summon instrument](ref/spell/summon-instrument); **Price** 1,965 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aspect of the nightingale](ref/spell/aspect-of-the-nightingale), [summon instrument](ref/spell/summon-instrument)
+Price: 1,965 gp
+:::

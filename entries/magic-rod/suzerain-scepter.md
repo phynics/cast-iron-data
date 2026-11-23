@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 20,000 gp
+Weight: 5 lbs.
+:::
 
 This ornately bejeweled baton confers the mark of rightful rulership on its bearer. The wielder of
 this scepter gains a +5 competence bonus on Knowledge (nobility) and Diplomacy checks. Furthermore,
@@ -38,6 +43,7 @@ bonus increases by 1.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), Leadership, [bless](ref/spell/bless),
-[good hope](ref/spell/good-hope), [greater command](ref/spell/command-greater), the creator must
-have the Leadership feat; **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), Leadership, [bless](ref/spell/bless), [good hope](ref/spell/good-hope), [greater command](ref/spell/command-greater), the creator must have the Leadership feat
+Cost: 10,000 gp
+:::

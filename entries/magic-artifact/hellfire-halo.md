@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 16th\
-**Slot** head; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 16th
+Slot: head
+Price: -
+Weight: 1 lb.
+:::
 
 This tarnished ring looks like a fiery halo set ablaze in evil-looking fire. The flames are harmless
 and shed light as an [everburning torch](ref/eq-misc/everburning-torch); the wearer can suppress or

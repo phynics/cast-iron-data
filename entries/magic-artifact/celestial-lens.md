@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2,400 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2,400 lbs.
+:::
 
 The celestial lens is a 12-foot-diameter lens mounted in a rune-covered circular frame of strange,
 alien metal, floating in a permanent orbit around a temple dedicated to the sun. Several smaller

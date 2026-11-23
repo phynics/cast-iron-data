@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. The magic weapon serves as a channel for
 the wielder's ki, allowing her to use her special ki attacks through the weapon as if they were
@@ -34,5 +39,7 @@ this feat).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a monk; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a monk
+Price: -
+:::

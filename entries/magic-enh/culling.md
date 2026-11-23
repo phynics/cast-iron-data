@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee slashing weapons. When a culling weapon is used to
 make an attack using the [Cleave](ref/feat/cleave) or [Great Cleave](ref/feat/great-cleave) feat, it
@@ -32,5 +37,7 @@ successful attacks granted by use of the [Cleaving Finish](ref/feat/cleaving-fin
 
 ### Construction
 
-**Requirements** Cleave, [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[divine favor](ref/spell/divine-favor); **Price** -
+::: statblock
+Requirements: Cleave, [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [divine favor](ref/spell/divine-favor)
+Price: -
+:::

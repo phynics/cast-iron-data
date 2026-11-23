@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shield; **Price** 7,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shield
+Price: 7,170 gp
+Weight: 15 lbs.
+:::
 
 This +2 [heavy steel shield](ref/eq-armor/heavy-steel-shield) has a distinct curve to its shape and
 often bears the device of a valiant knight. The wearer of this shield gains a +2 bonus on Reflex
@@ -33,6 +38,7 @@ on Will saves against the [frightful presence](ref/umr/frightful-presence) abili
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[remove fear](ref/spell/remove-fear), [shield of faith](ref/spell/shield-of-faith); **Price** 3,670
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [remove fear](ref/spell/remove-fear), [shield of faith](ref/spell/shield-of-faith)
+Price: 3,670 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shield; **Price** 4,655 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shield
+Price: 4,655 gp
+Weight: 5 lbs.
+:::
 
 This unassuming +1 [buckler](ref/eq-armor/buckler) has an array of small tools and implements
 embedded into the backside of its rim, able to be folded and snapped out for use at a moment's
@@ -36,5 +41,7 @@ hit points in this form and can be converted back into shield form on command.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation); **Price** 2,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation)
+Price: 2,450 gp
+:::

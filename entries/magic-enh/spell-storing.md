@@ -25,8 +25,13 @@ caster_level = "12th"
 
 ## Spell Storing
 
-**Aura** strong evocation and varies; **CL** 12th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong evocation and varies
+CL: 12th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A spell storing weapon allows a spellcaster to store a single targeted spell of up to 3rd level in
 the weapon. (The spell must have a casting time of 1 standard action.) Anytime the weapon strikes a
@@ -43,7 +48,9 @@ currently stored.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a caster of at least 12th level; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a caster of at least 12th level
+Price: -
+:::
 
 > _See also: [spell storing armor enhancement](ref/magic-enh/spell-storing-armor)_

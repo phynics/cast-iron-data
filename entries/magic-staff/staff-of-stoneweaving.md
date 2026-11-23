@@ -21,8 +21,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 13th\
-**Slot** none; **Price** 63,180 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 13th
+Slot: none
+Price: 63,180 gp
+Weight: 5 lbs.
+:::
 
 A staff of stoneweaving is a staff of rough-hewn obsidian with a glowing ruby floating between the
 forked branches of its top end. It allows the use of the following spells:
@@ -42,8 +47,7 @@ the round after a bullet is created, it disappears from existence.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [minor creation](ref/spell/minor-creation),
-[spike stones](ref/spell/spike-stones), [statue](ref/spell/statue),
-[stone shape](ref/spell/stone-shape), [stone to flesh](ref/spell/stone-to-flesh),
-[stoneskin](ref/spell/stoneskin); **Cost** 31,430 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [minor creation](ref/spell/minor-creation), [spike stones](ref/spell/spike-stones), [statue](ref/spell/statue), [stone shape](ref/spell/stone-shape), [stone to flesh](ref/spell/stone-to-flesh), [stoneskin](ref/spell/stoneskin)
+Cost: 31,430 gp
+:::

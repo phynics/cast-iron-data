@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** 29,902 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: 29,902 gp
+Weight: 2 lbs.
+:::
 
 The bars of this +2 [nunchaku](ref/eq-weapon/nunchaku) are solid iron, wrapped in leather decorated
 with an imperial dragon motif, and connected by a chain. Once per day, when the wielder of a
@@ -42,5 +47,7 @@ successful disarm attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blade barrier](ref/spell/blade-barrier), [confusion](ref/spell/confusion); **Price** 15,102 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blade barrier](ref/spell/blade-barrier), [confusion](ref/spell/confusion)
+Price: 15,102 gp
+:::

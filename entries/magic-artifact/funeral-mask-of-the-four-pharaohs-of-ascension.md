@@ -20,8 +20,13 @@ aura = "strong transmutation [law]"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation \[law\]; **CL** 17th\
-**Slot** head and eyes; **Price** minor artifact; **Weight** -
+::: statblock
+Aura: strong transmutation \[law\]
+CL: 17th
+Slot: head and eyes
+Price: minor artifact
+Weight: -
+:::
 
 This golden mask, decorated with a headdress of 56 [hieracosphinx](ref/monster/sphinx-hieracosphinx)
 feathers, acts in all regards as a silver [horn of Valhalla](ref/magic-wondrous/horn-of-valhalla)

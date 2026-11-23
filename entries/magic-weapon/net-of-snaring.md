@@ -21,8 +21,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 11th\
-**Slot** none; **Price** 28,940 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 11th
+Slot: none
+Price: 28,940 gp
+Weight: 6 lbs.
+:::
 
 This +1 [distance](ref/magic-enh/distance) [net](ref/eq-weapon/net) seems lighter than expected and
 is slightly sticky to the touch. Three times per day, the wielder may speak the command word and
@@ -35,6 +40,7 @@ normal size so long as no creature is confined within it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[levitate](ref/spell/levitate), [permanency](ref/spell/permanency),
-[shrink item](ref/spell/shrink-item), [web](ref/spell/web); **Price** 14,470 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [levitate](ref/spell/levitate), [permanency](ref/spell/permanency), [shrink item](ref/spell/shrink-item), [web](ref/spell/web)
+Price: 14,470 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on light or one-handed piercing melee weapons. Weapons with
 this enhancement are particularly devastating in the hands of a
@@ -32,5 +37,7 @@ critical hit, though she can regain panache normally if the attack is a killing 
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[true strike](ref/spell/true-strike); **Price** -
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [true strike](ref/spell/true-strike)
+Price: -
+:::

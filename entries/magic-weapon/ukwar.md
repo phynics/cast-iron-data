@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 23,335 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 23,335 gp
+Weight: 6 lbs.
+:::
 
 Ukwar is a +1 [conductive](ref/magic-enh/conductive) [battleaxe](ref/eq-weapon/battleaxe) infused
 with the angry spirit of a Deadwatcher orc leader named Ukwar. After perishing in Scarwall and
@@ -53,9 +58,10 @@ an identical weapon can do so using the guidelines below.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rage](ref/spell/rage), [spectral hand](ref/spell/spectral-hand),
-[summon monster I](ref/spell/summon-monster-1); **Price** 14,335 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rage](ref/spell/rage), [spectral hand](ref/spell/spectral-hand), [summon monster I](ref/spell/summon-monster-1)
+Price: 14,335 gp
+:::
 
 ### Statistics
 

@@ -19,8 +19,12 @@ aura = "faint evocation"
 caster_level = "10th"
 +++
 
-**Aura** faint evocation; **CL** 10th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 10th
+Price: +1 bonus
+Weight: -
+:::
 
 Only ranged weapons can have the beaming ability. Once per day, as a swift action, a beaming weapon
 creates a number of glowing orbs equal to the weapon's enhancement bonus. The orbs float around the
@@ -31,5 +35,7 @@ The orbs remain until expended or until the wielder sleeps.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[searing light](ref/spell/searing-light); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [searing light](ref/spell/searing-light)
+Price: -
+:::

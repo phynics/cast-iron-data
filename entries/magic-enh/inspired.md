@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on simple weapons,
 [hand crossbows](ref/eq-weapon/hand-crossbow), [rapiers](ref/eq-weapon/rapier),
@@ -36,5 +41,7 @@ investigator adds twice the result of the inspiration roll to the weapon's damag
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[good hope](ref/spell/good-hope); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [good hope](ref/spell/good-hope)
+Price: -
+:::

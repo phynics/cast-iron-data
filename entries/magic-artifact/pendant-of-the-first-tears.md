@@ -20,8 +20,13 @@ aura = "strong conjuration and enchantmnet"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration and enchantmnet; **CL** 18th\
-**Slot** neck; **Price** -; **Weight** -
+::: statblock
+Aura: strong conjuration and enchantmnet
+CL: 18th
+Slot: neck
+Price: -
+Weight: -
+:::
 
 This tear-shaped crystal hangs from a delicate setting and chain, both encrusted with black diamond
 dust. The pendant is forged from chips of the diadem of [Doloras](ref/faith/doloras), Queen of the

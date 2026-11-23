@@ -21,8 +21,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 32,000 gp
+Weight: 5 lbs.
+:::
 
 Whenever the user is holding this wooden staff, 10 bulging eyes carved along the length of the staff
 animate, granting the user a +5 competence bonus on [Perception](ref/skill/perception) checks as
@@ -43,6 +48,7 @@ The staff allows the use of the following spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[blindness/deafness](ref/spell/blindness-deafness), [prying eyes](ref/spell/prying-eyes),
-[summon monster II](ref/spell/summon-monster-2); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [blindness/deafness](ref/spell/blindness-deafness), [prying eyes](ref/spell/prying-eyes), [summon monster II](ref/spell/summon-monster-2)
+Cost: 16,000 gp
+:::

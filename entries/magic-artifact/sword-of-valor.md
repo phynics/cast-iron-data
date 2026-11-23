@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation [good]"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and evocation \[good\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration and evocation \[good\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The Inheritor herself carried this crimson banner into battle during the Shining Crusade. An army
 commander who carries the Sword of Valor increases the

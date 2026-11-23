@@ -19,8 +19,12 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Price: +2 bonus
+Weight: -
+:::
 
 Jagged designs of lightning, fangs, or weaponry adorn any bloodthirsty armor, which bolsters its
 wearer's confidence and presence with each wound the wearer inflicts. Only light or medium armor can
@@ -31,5 +35,7 @@ enhancement bonus increases by 3 instead.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rage](ref/spell/rage); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rage](ref/spell/rage)
+Price: +2 bonus
+:::

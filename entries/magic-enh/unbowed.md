@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 9th\
-**Slot** armor quality; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 9th
+Slot: armor quality
+Price: +5 bonus
+Weight: -
+:::
 
 When the wearer of unbowed armor would be reduced to 0 hit points or fewer by an attack that deals
 hit point damage, the wearer can negate all of that attack's damage as an immediate action. Using
@@ -33,5 +38,7 @@ heavy armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[breath of life](ref/spell/breath-of-life), [shatter](ref/spell/shatter); **Price** +5 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [breath of life](ref/spell/breath-of-life), [shatter](ref/spell/shatter)
+Price: +5 bonus
+:::

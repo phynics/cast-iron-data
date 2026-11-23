@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** shield; **Price** 25,180 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: shield
+Price: 25,180 gp
+Weight: 15 lbs.
+:::
 
 This +2 [_spell resistance_ (13)](ref/magic-enh/spell-resistance-13)
 [tower shield](ref/eq-armor/tower-shield) grants a +4 resistance bonus on Reflex saving throws
@@ -32,6 +37,7 @@ or spell-like ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [spell resistance](ref/spell/spell-resistance); **Price**
-12,680 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [spell resistance](ref/spell/spell-resistance)
+Price: 12,680 gp
+:::

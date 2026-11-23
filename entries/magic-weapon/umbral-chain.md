@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 8,825 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 8,825 gp
+Weight: 10 lbs.
+:::
 
 This bloodstained spiked chain has a large handle-ring that glows a pale violet color when wielded
 in normal light. An umbral chain grows more potent in darkness. It acts as a +1
@@ -36,5 +41,7 @@ vanishing completely in darkness or supernatural darkness.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deeper darkness](ref/spell/deeper-darkness); **Price** 4,575 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deeper darkness](ref/spell/deeper-darkness)
+Price: 4,575 gp
+:::

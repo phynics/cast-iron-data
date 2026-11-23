@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 9,760 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 9,760 gp
+Weight: 1 lb.
+:::
 
 The blade of this +1 [living steel](ref/eq-material/living-steel) [dagger](ref/eq-weapon/dagger) is
 always slightly damp to the touch. The save DC of any injury poison coating this blade increases
@@ -33,5 +38,7 @@ target's memory.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[modify memory](ref/spell/modify-memory); **Price** 4,880 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [modify memory](ref/spell/modify-memory)
+Price: 4,880 gp
+:::

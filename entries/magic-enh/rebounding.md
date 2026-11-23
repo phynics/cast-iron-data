@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shield; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shield
+Price: +1 bonus
+Weight: -
+:::
 
 A rebounding shield provides an additional +2 enhancement bonus to AC against thrown weapons, and it
 adds its total enhancement bonus to the wielder's touch AC against splash weapons. If an opponent
@@ -30,5 +35,7 @@ the [misdirection](ref/rule/throw-splash-weapon) of the splash weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield](ref/spell/shield); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield)
+Price: +1 bonus
+:::

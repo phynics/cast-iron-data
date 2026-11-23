@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "15th"
 +++
 
-**Aura** strong illusion; **CL** 15th\
-**Slot** neck; **Price** -; **Weight** -
+::: statblock
+Aura: strong illusion
+CL: 15th
+Slot: neck
+Price: -
+Weight: -
+:::
 
 The shinobi fuhonsen is said to have been the first payment ever made to a ninja in the history of
 Minkai. The tarnished bronze coin has a square central hole and bears six ideograms on its two

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 74,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 74,000 gp
+Weight: 3 lbs.
+:::
 
 This ornate scepter of bronze and mithral has a flanged head like a golden-white sunburst. A scepter
 of heaven acts as a +1 evil outsider [bane](ref/magic-enh/bane)
@@ -49,8 +54,7 @@ held.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bless weapon](ref/spell/bless-weapon),
-[dispel evil](ref/spell/dispel-evil), [holy smite](ref/spell/holy-smite),
-[holy sword](ref/spell/holy-sword), [holy word](ref/spell/holy-word),
-[spear of purity](ref/spell/spear-of-purity), creator must be good; **Cost** 37,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bless weapon](ref/spell/bless-weapon), [dispel evil](ref/spell/dispel-evil), [holy smite](ref/spell/holy-smite), [holy sword](ref/spell/holy-sword), [holy word](ref/spell/holy-word), [spear of purity](ref/spell/spear-of-purity), creator must be good
+Cost: 37,000 gp
+:::

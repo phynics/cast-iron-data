@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 20,315 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 20,315 gp
+Weight: 5 lbs.
+:::
 
 Once per day within 1 minute of using this +1 [valiant](ref/magic-enh/valiant)
 [scimitar](ref/eq-weapon/scimitar) to kill or knock unconscious a foe, as a standard action, the
@@ -30,5 +35,7 @@ on attack rolls, skill checks, and saving throws for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[good hope](ref/spell/good-hope), [true strike](ref/spell/true-strike); **Price** 10,315 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [good hope](ref/spell/good-hope), [true strike](ref/spell/true-strike)
+Price: 10,315 gp
+:::

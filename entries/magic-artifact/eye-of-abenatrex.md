@@ -20,8 +20,13 @@ aura = "N/A"
 caster_level = "N/A"
 +++
 
-**Aura** N/A; **CL** N/A\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: N/A
+CL: N/A
+Slot: none
+Price: -
+Weight: -
+:::
 
 The Eye of Abenatrex appears as a crystalline eyeball almost too large to be held in one hand.
 Gouges mar its surface and a golden triangle is embedded deep in the black iris - the symbol of the

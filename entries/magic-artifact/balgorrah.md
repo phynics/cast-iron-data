@@ -21,8 +21,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** weapon; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: weapon
+Price: -
+Weight: 2 lbs.
+:::
 
 On a successful critical hit, this +5 [unholy](ref/magic-enh/unholy) [kukri](ref/eq-weapon/kukri)
 deals 2 points of [bleed](ref/rule/bleed) damage, which stack with any bleed damage already caused

@@ -23,8 +23,13 @@ aura = "faint transmutation [good]"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation \[good\]; **CL** 5th\
-**Slot** armor; **Price** 22,400 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint transmutation \[good\]
+CL: 5th
+Slot: armor
+Price: 22,400 gp
+Weight: 20 lbs.
+:::
 
 This +3 [chainmail](ref/eq-armor/chainmail) is so fine and light that it can be worn under normal
 clothing without betraying its presence. It has a maximum Dexterity bonus of +8, an armor check
@@ -33,5 +38,7 @@ the wearer to use _[fly](ref/spell/fly)_ on command (as the spell) once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fly](ref/spell/fly), creator must be good; **Price** 11,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fly](ref/spell/fly), creator must be good
+Price: 11,350 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 A talisman of reluctant wishes appears the same as a
 [stone of conjuring earth elementals](ref/magic-wondrous/stone-of-conjuring-earth-elementals), a

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** 202,630 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: 202,630 gp
+Weight: 4 lbs.
+:::
 
 This +3 [cold iron](ref/eq-material/cold-iron) [longsword](ref/eq-weapon/longsword) becomes a +5
 [holy](ref/magic-enh/holy) [defiant](ref/magic-enh/defiant-weapon) cold iron longsword in the hands
@@ -42,7 +47,7 @@ spell level of the dispelled spell instead of healing 1d4 points of damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [gaseous form](ref/spell/gaseous-form),
-[greater dispel magic](ref/spell/dispel-magic-greater), [holy aura](ref/spell/holy-aura), creator
-must be good; **Price** 102,630 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [gaseous form](ref/spell/gaseous-form), [greater dispel magic](ref/spell/dispel-magic-greater), [holy aura](ref/spell/holy-aura), creator must be good
+Price: 102,630 gp
+:::

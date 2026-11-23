@@ -20,8 +20,13 @@ aura = "strong evocation and necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 13th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 13th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Roiling blue smoke fills this small glass bottle, occasionally forming an aged face that vanishes
 just as quickly. So long as the bottle is worn openly on a creature's body, the Enthroned King's

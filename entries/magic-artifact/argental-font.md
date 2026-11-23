@@ -20,8 +20,13 @@ aura = "strong conjuration (healing)"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration (healing); **CL** 18th\
-**Slot** none; **Price** -; **Weight** 2,000 lbs.
+::: statblock
+Aura: strong conjuration (healing)
+CL: 18th
+Slot: none
+Price: -
+Weight: 2,000 lbs.
+:::
 
 This beautifully carved stone fountain is decorated with figures of dancing fey creatures and holds
 pure, shimmering water that glows with silvery light. The moon-goddess [Acavna](ref/faith/acavna)

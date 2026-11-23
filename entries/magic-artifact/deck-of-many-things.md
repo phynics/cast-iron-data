@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A deck of many things is usually found in a box or leather pouch. Each deck contains a number of
 cards or plaques made of ivory or vellum. Each is engraved with glyphs, characters, and sigils. As

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 Anytime the wearer of bolstering armor damages a creature with a melee or ranged attack, he gains a
 +2 competence bonus on saving throws against that creature's abilities until the start of his next
@@ -30,5 +35,7 @@ shields, and tower shields, but not light armor or bucklers.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism)
+Price: +1 bonus
+:::

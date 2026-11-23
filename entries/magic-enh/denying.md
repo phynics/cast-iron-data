@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** +4 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: +4 bonus
+Weight: -
+:::
 
 Once per day, when this armor's wearer is subject to either a critical hit or a
 [sneak attack](ref/ability/sneak-attack) made with a melee weapon, she can automatically negate that
@@ -34,6 +39,7 @@ applied only to heavy armors.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle); **Price** +4 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle)
+Price: +4 bonus
+:::

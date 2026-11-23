@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** +4,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: +4,000 gp
+Weight: -
+:::
 
 Burdenless armor distributes the weight of the wearer's load more efficiently, allowing her to carry
 more without suffering the effects of encumbrance. The wearer's
@@ -30,5 +35,7 @@ and heavy).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[effortless armor](ref/spell/effortless-armor); **Price** 2,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [effortless armor](ref/spell/effortless-armor)
+Price: 2,000 gp
+:::

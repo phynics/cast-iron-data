@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The gleaming, gold scepter bears elegant boughs and leaves, blooming into a miniature, flowered
 treetop at one end. The scepter's rod has four slots, onto which four large rings can be slotted.

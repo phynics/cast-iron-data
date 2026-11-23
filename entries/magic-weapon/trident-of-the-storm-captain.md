@@ -20,8 +20,13 @@ aura = "strong evocation and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 13th\
-**Slot** none; **Price** 109,665 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 13th
+Slot: none
+Price: 109,665 gp
+Weight: 4 lbs.
+:::
 
 This +4 [shock](ref/magic-enh/shock) [trident](ref/eq-weapon/trident) is carved from fish-bone and
 its points are shark teeth. The wielder gains a +4 competence bonus on Profession (sailor) and Swim
@@ -36,6 +41,7 @@ cannot use the trident's other abilities while shapechanged.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning), [control weather](ref/spell/control-weather),
-[greater magic fang](ref/spell/magic-fang-greater), [vortex](ref/spell/vortex); **Price** 54,990 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning), [control weather](ref/spell/control-weather), [greater magic fang](ref/spell/magic-fang-greater), [vortex](ref/spell/vortex)
+Price: 54,990 gp
+:::

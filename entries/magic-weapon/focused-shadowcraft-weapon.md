@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion; **CL** 12th\
-**Slot** none; **Price** 13,000 gp; **Weight** varies
+::: statblock
+Aura: strong illusion
+CL: 12th
+Slot: none
+Price: 13,000 gp
+Weight: varies
+:::
 
 This melee [shadowcraft weapon](ref/magic-weapon/shadowcraft-weapon) is designed to act as a conduit
 for shadow magic, enhancing a spell's potency when the weapon is involved in its casting. As a swift
@@ -30,7 +35,7 @@ shadow subschool or spell with the darkness or shadow descriptors by 1.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability),
-[major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon); **Price**
-6,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [imbue with spell ability](ref/spell/imbue-with-spell-ability), [major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon)
+Price: 6,500 gp
+:::

@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 20,800 gp
+Weight: 5 lbs.
+:::
 
 This iron-shod wood staff allows use of the following spells:
 
@@ -37,6 +42,7 @@ This iron-shod wood staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon),
-[bane](ref/spell/bane), [cause fear](ref/spell/cause-fear), [command](ref/spell/command),
-[magic weapon](ref/spell/magic-weapon); **Cost** 10,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon), [bane](ref/spell/bane), [cause fear](ref/spell/cause-fear), [command](ref/spell/command), [magic weapon](ref/spell/magic-weapon)
+Cost: 10,400 gp
+:::

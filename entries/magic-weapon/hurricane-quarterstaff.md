@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 7,840 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 7,840 gp
+Weight: 4 lbs.
+:::
 
 This +1/+1 [quarterstaff](ref/eq-weapon/quarterstaff) is hollow, drilled through with numerous tiny
 holes, and whistles when swung and spun. Once per day as a standard action, the wielder may spin the
@@ -32,5 +37,7 @@ with ki is equal to 12 + the wielder's Wisdom modifier.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[gust of wind](ref/spell/gust-of-wind); **Price** 4,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [gust of wind](ref/spell/gust-of-wind)
+Price: 4,200 gp
+:::

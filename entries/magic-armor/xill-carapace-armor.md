@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** armor; **Price** 83,050 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: armor
+Price: 83,050 gp
+Weight: 15 lbs.
+:::
 
 This suit of +1 [spiked](ref/eq-armorenh/armor-spikes) [half-plate](ref/eq-armor/half-plate) armor
 is crafted from the hide and carapace of a [xill](ref/monster/xill) and includes a xill-skull helmet
@@ -37,6 +42,7 @@ natural paralytic. The target of a successful critical hit made with these armor
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ethereal jaunt](ref/spell/ethereal-jaunt), [hold monster](ref/spell/hold-monster); **Price** 41,900
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ethereal jaunt](ref/spell/ethereal-jaunt), [hold monster](ref/spell/hold-monster)
+Price: 41,900 gp
+:::

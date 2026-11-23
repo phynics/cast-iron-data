@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 80,000 gp
+Weight: 5 lbs.
+:::
 
 This +3 [impact](ref/magic-enh/impact) [warhammer](ref/eq-weapon/warhammer) deals 2d6 points of
 bludgeoning damage when it hits. As a swift action, the wielder can will the hammer's crystalline
@@ -34,5 +39,7 @@ for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[earthquake](ref/spell/earthquake), [lead blades](ref/spell/lead-blades); **Price** 40,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [earthquake](ref/spell/earthquake), [lead blades](ref/spell/lead-blades)
+Price: 40,000 gp
+:::

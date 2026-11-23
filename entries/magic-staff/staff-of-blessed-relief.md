@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "8th"
 +++
 
-**Aura** faint conjuration; **CL** 8th\
-**Slot** none; **Price** 7,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 8th
+Slot: none
+Price: 7,200 gp
+Weight: 5 lbs.
+:::
 
 This simple wooden staff is given to young clergy when they first set out into the world to spread
 the charity of their faith. The staff allows use of the following spells:
@@ -33,5 +38,7 @@ the charity of their faith. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless),
-[create water](ref/spell/create-water), [stabilize](ref/spell/stabilize); **Cost** 3,600 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless), [create water](ref/spell/create-water), [stabilize](ref/spell/stabilize)
+Cost: 3,600 gp
+:::

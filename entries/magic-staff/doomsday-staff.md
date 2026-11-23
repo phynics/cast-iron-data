@@ -21,8 +21,13 @@ aura = "strong varied"
 caster_level = "13th"
 +++
 
-**Aura** strong varied; **CL** 13th\
-**Slot** none; **Price** 52,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varied
+CL: 13th
+Slot: none
+Price: 52,000 gp
+Weight: 5 lbs.
+:::
 
 This bulky staff is sacred to the cult of [Groetus](ref/faith/groetus), and its end bears the god's
 holy symbol - a skull-faced moon. This staff allows the use of the following spells.
@@ -35,7 +40,7 @@ holy symbol - a skull-faced moon. This staff allows the use of the following spe
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [bestow curse](ref/spell/bestow-curse),
-[confusion](ref/spell/confusion), [control weather](ref/spell/control-weather),
-[doom](ref/spell/doom), [insanity](ref/spell/insanity), [insect plague](ref/spell/insect-plague);
-**Cost** 26,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [bestow curse](ref/spell/bestow-curse), [confusion](ref/spell/confusion), [control weather](ref/spell/control-weather), [doom](ref/spell/doom), [insanity](ref/spell/insanity), [insect plague](ref/spell/insect-plague)
+Cost: 26,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 17,820 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 17,820 gp
+Weight: 2 lbs.
+:::
 
 This +1 [dueling](ref/magic-enh/dueling) [rapier](ref/eq-weapon/rapier) ends duels quickly and
 decisively by depriving the wielder's opponent of her weapon. Following a successful
@@ -30,5 +35,7 @@ in any direction as a swift action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [mage hand](ref/spell/mage-hand); **Price** 9,070 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [mage hand](ref/spell/mage-hand)
+Price: 9,070 gp
+:::

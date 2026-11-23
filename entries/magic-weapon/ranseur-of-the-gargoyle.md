@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 4,310 gp; **Weight** 12 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 4,310 gp
+Weight: 12 lbs.
+:::
 
 A ranseur of the gargoyle appears to have a head crafted of obsidian, but is in fact as hard and
 resilient as steel. This weapon functions as a +1 [ranseur](ref/eq-weapon/ranseur) that grants a +4
@@ -31,5 +36,7 @@ harden for 1 round, gaining a +2 enhancement bonus to its natural armor score.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[barkskin](ref/spell/barkskin); **Price** 2,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [barkskin](ref/spell/barkskin)
+Price: 2,310 gp
+:::

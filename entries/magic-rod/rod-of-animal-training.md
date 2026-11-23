@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 12,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 12,300 gp
+Weight: 5 lbs.
+:::
 
 The head of this bronze scepter is shaped like a roaring lion leaping forward. When held by a
 creature with no ranks in the [Handle Animal](ref/skill/handle-animal) skill, this rod allows the
@@ -34,5 +39,7 @@ times per day.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [charm animal](ref/spell/charm-animal); **Cost**
-6,150 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [charm animal](ref/spell/charm-animal)
+Cost: 6,150 gp
+:::

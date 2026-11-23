@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** weapon; **Price** 16,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: weapon
+Price: 16,302 gp
+Weight: 1 lb.
+:::
 
 Appearing as a bloodstained icicle with a worn leather handle, this +1 [frost](ref/magic-enh/frost)
 [dagger](ref/eq-weapon/dagger) is impervious to both cold and fire. Once per day, the dagger can
@@ -36,5 +41,7 @@ for the day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[unholy ice](ref/spell/unholy-ice); **Price** 8,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [unholy ice](ref/spell/unholy-ice)
+Price: 8,302 gp
+:::

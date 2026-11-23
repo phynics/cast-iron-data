@@ -20,8 +20,13 @@ aura = "moderate divination and evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination and evocation; **CL** 6th\
-**Slot** none; **Price** 10,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination and evocation
+CL: 6th
+Slot: none
+Price: 10,400 gp
+Weight: 2 lbs.
+:::
 
 The stock and bow of this +1 [distance](ref/magic-enh/distance)
 [hand crossbow](ref/eq-weapon/hand-crossbow) are decorated with the golden head of an osprey, sea
@@ -39,6 +44,7 @@ The second ability causes a bolt fired from the crossbow to function as a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [doom](ref/spell/doom),
-[flare burst](ref/spell/flare-burst); **Price** 5,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [doom](ref/spell/doom), [flare burst](ref/spell/flare-burst)
+Price: 5,400 gp
+:::

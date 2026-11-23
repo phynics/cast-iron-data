@@ -21,8 +21,13 @@ aura = "strong conjuration and divination"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and divination; **CL** 13th\
-**Slot** none; **Price** 48,535 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong conjuration and divination
+CL: 13th
+Slot: none
+Price: 48,535 gp
+Weight: 6 lbs.
+:::
 
 This +2 aberration-[bane](ref/magic-enh/bane) [bastard sword](ref/eq-weapon/bastard-sword) is made
 of magically hardened [bronze](ref/eq-material/bronze) and has the special purpose of killing
@@ -34,9 +39,10 @@ had 5 ranks in the skill (total +13 bonus).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[detect aberration](ref/spell/detect-aberration), [summon monster I](ref/spell/summon-monster-1);
-**Price** 24,435 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [detect aberration](ref/spell/detect-aberration), [summon monster I](ref/spell/summon-monster-1)
+Price: 24,435 gp
+:::
 
 ### Statistics
 

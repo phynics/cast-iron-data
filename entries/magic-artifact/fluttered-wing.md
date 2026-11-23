@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong enchantment
+CL: 18th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 Once per day, the bearer of the Fluttered Wing can quietly and soothingly converse with a creature
 that is at least indifferent toward it. While the bearer does so, she gains a +10 bonus on Bluff and

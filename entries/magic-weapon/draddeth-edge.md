@@ -21,8 +21,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 10th\
-**Slot** none; **Price** 58,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 10th
+Slot: none
+Price: 58,312 gp
+Weight: 5 lbs.
+:::
 
 This +1 [defiant](ref/magic-enh/defiant-weapon) [transformative](ref/magic-enh/transformative)
 [warhammer](ref/eq-weapon/warhammer) houses the mind of a cunning schemer and brilliant military
@@ -49,10 +54,10 @@ its current owner when it feels its purpose is complete.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic aura](ref/spell/magic-aura), [major creation](ref/spell/major-creation),
-[summon monster I](ref/spell/summon-monster-1), [teleport](ref/spell/teleport), creator must have at
-least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive; **Price** 25,562 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic aura](ref/spell/magic-aura), [major creation](ref/spell/major-creation), [summon monster I](ref/spell/summon-monster-1), [teleport](ref/spell/teleport), creator must have at least 10 ranks in Profession (soldier) and 5 ranks in Sense Motive
+Price: 25,562 gp
+:::
 
 ### Statistics
 

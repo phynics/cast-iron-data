@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** none; **Price** 25,715 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: none
+Price: 25,715 gp
+Weight: 4 lbs.
+:::
 
 This black iron +2 [longsword](ref/eq-weapon/longsword) bestows a
 [negative level](ref/rule/energy-drain-and-negative-levels) when it deals a critical hit. The sword
@@ -35,5 +40,7 @@ become permanent.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation); **Price** 13,015 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation)
+Price: 13,015 gp
+:::

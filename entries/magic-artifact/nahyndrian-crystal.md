@@ -20,8 +20,13 @@ aura = "overwhelming conjuration and necromancy [evil]"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming conjuration and necromancy \[evil\]; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: overwhelming conjuration and necromancy \[evil\]
+CL: 30th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 Normally, when a demon lord is slain while its Abyssal resurrection ability has already been used,
 its body joins the countless others petrified into the walls of the Rift of Repose. The demon lord

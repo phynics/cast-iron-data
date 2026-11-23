@@ -21,8 +21,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 200,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 200,000 gp
+Weight: 5 lbs.
+:::
 
 This hollow, silver staff is covered in intricate glyphs and flute-like keys, and allows use of the
 following spells:
@@ -52,7 +57,7 @@ staff by accepting 3 points of burn.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[cure light wounds](ref/spell/cure-light-wounds),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [mage hand](ref/spell/mage-hand),
-[repulsion](ref/spell/repulsion), [telekinesis](ref/spell/telekinesis); **Cost** 100,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cure light wounds](ref/spell/cure-light-wounds), [cure moderate wounds](ref/spell/cure-moderate-wounds), [mage hand](ref/spell/mage-hand), [repulsion](ref/spell/repulsion), [telekinesis](ref/spell/telekinesis)
+Cost: 100,000 gp
+:::

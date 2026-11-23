@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 This armor exudes an exceptionally vile and bitter taste whenever something bites or swallows a
 creature that is wearing it. Any creature that [grapples](ref/rule/grapple) the wearer with a bite
@@ -38,5 +43,7 @@ as a standard action. This is a poison effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stinking cloud](ref/spell/stinking-cloud); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stinking cloud](ref/spell/stinking-cloud)
+Price: +1 bonus
+:::

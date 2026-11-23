@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 7th\
-**Slot** armor; **Price** 20,750 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 7th
+Slot: armor
+Price: 20,750 gp
+Weight: 50 lbs.
+:::
 
 This +1 [half-plate](ref/eq-armor/half-plate) is emblazoned with holy script and religious
 iconography. Raiment of the shining crusade was first crafted by the holy warriors serving under
@@ -37,6 +42,7 @@ originating from creatures with an evil alignment. This effect lasts for 1 round
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy smite](ref/spell/holy-smite), [protection from evil](ref/spell/protection-from-evil);
-**Price** 10,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy smite](ref/spell/holy-smite), [protection from evil](ref/spell/protection-from-evil)
+Price: 10,750 gp
+:::

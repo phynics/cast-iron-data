@@ -19,8 +19,12 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Price: +1 bonus
+Weight: -
+:::
 
 A debilitating weapon has wicked ridges and gleams maliciously in any amount of light. Whenever a
 debilitating weapon is used to attack an opponent that is denied its Dexterity bonus to AC and hits,
@@ -35,5 +39,7 @@ applied by the bewildered or disoriented effects by 1.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), creator must have 5 ranks in Heal; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), creator must have 5 ranks in Heal
+Price: -
+:::

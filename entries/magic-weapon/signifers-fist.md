@@ -23,8 +23,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 5th\
-**Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 5th
+Slot: none
+Price: 10,305 gp
+Weight: 2 lbs.
+:::
 
 This +1 [light mace](ref/eq-weapon/light-mace) is forged of black iron and topped with what appears
 to be a clenched fist with spikes protruding from between the fingers. As a move action, the wielder
@@ -39,5 +44,7 @@ to [bleed](ref/rule/bleed), though the attack still deals damage normally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste), [summon monster I](ref/spell/summon-monster-1); **Price** 5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste), [summon monster I](ref/spell/summon-monster-1)
+Price: 5,305 gp
+:::

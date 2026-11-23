@@ -23,8 +23,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 132 gp; **Weight** 1/10 lb.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 132 gp
+Weight: 1/10 lb.
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) is painted white and has white fletching. If it strikes a foe
 so that it would normally deal damage, it instead bursts into magical energy that deals nonlethal
@@ -33,5 +38,7 @@ DC 11 Will save or fall asleep.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sleep](ref/spell/sleep); **Price** 70 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sleep](ref/spell/sleep)
+Price: 70 gp
+:::

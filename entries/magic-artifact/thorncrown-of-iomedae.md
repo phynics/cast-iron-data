@@ -20,8 +20,13 @@ aura = "overwhelming conjuration and evocation"
 caster_level = "21st"
 +++
 
-**Aura** overwhelming conjuration and evocation; **CL** 21st\
-**Slot** head; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming conjuration and evocation
+CL: 21st
+Slot: head
+Price: -
+Weight: 1 lb.
+:::
 
 The Thorncrown of Iomedae functions as a
 [major crown of blasting](ref/magic-wondrous/crown-of-blasting-major) that grants the wearer a

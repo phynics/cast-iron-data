@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The first Sihedron Tomes were said to have been crafted by a dragon in the service of Emperor Xin.
 Each of these books has a unique appearance, and hold an infinite number of pages for spellcasters

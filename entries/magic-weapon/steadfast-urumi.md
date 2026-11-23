@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 8th\
-**Slot** none; **Price** 18,830 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 8th
+Slot: none
+Price: 18,830 gp
+Weight: 6 lbs.
+:::
 
 This weapon consists of a flexible blade attached to a handle by a fine coil of steel, and is
 favored by [tieflings](ref/race/tiefling) and other outcasts in Jalmeray. This +1
@@ -32,5 +37,7 @@ through a threatened area.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield of faith](ref/spell/shield-of-faith); **Price** 9,580 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield of faith](ref/spell/shield-of-faith)
+Price: 9,580 gp
+:::

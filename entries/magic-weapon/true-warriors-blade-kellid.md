@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 50,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 50,350 gp
+Weight: 8 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,5 +38,7 @@ a dragon's ability to cast as a sorcerer does, for example).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[antimagic field](ref/spell/antimagic-field), creator must be a Kellid; **Price** 25,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [antimagic field](ref/spell/antimagic-field), creator must be a Kellid
+Price: 25,350 gp
+:::

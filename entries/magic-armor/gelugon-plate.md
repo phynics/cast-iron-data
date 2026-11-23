@@ -23,8 +23,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 7th\
-**Slot** armor; **Price** 60,950 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 7th
+Slot: armor
+Price: 60,950 gp
+Weight: 50 lbs.
+:::
 
 This iridescent +3 [Hellknight plate](ref/eq-armor/hellknight-plate) is cold to the touch, and the
 fiendish features that swirl across the plates shed gouts of cold mist. The wearer of this armor
@@ -39,5 +44,7 @@ _[wall of ice](ref/spell/wall-of-ice)_ three times per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[slow](ref/spell/slow), [wall of ice](ref/spell/wall-of-ice); **Price** 31,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [slow](ref/spell/slow), [wall of ice](ref/spell/wall-of-ice)
+Price: 31,550 gp
+:::

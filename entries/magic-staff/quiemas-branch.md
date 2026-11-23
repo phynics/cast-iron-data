@@ -21,8 +21,13 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration, conjuration, and transmutation; **CL** 15th\
-**Slot** none; **Price** 72,750 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration, conjuration, and transmutation
+CL: 15th
+Slot: none
+Price: 72,750 gp
+Weight: 2 lbs.
+:::
 
 This staff is crafted out of interlocking woods, woven together and knotted with holly leaf and
 mistletoe, with a cloudy purple gem resting atop it. Quiema's branch allows the use of the following
@@ -36,7 +41,7 @@ spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [changestaff](ref/spell/changestaff),
-[quench](ref/spell/quench), [repel metal or stone](ref/spell/repel-metal-or-stone),
-[transmute metal to wood](ref/spell/transmute-metal-to-wood), [tree stride](ref/spell/tree-stride);
-**Cost** 36,375 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [changestaff](ref/spell/changestaff), [quench](ref/spell/quench), [repel metal or stone](ref/spell/repel-metal-or-stone), [transmute metal to wood](ref/spell/transmute-metal-to-wood), [tree stride](ref/spell/tree-stride)
+Cost: 36,375 gp
+:::

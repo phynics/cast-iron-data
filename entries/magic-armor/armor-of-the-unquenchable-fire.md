@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and enchantment; **CL** 8th\
-**Slot** armor; **Price** 4,840 gp; **Weight** 40 lbs.
+::: statblock
+Aura: moderate conjuration and enchantment
+CL: 8th
+Slot: armor
+Price: 4,840 gp
+Weight: 40 lbs.
+:::
 
 This blue-black +1 [defiant](ref/magic-enh/defiant) [chainmail](ref/eq-armor/chainmail) has a metal
 badge depicting [Calistria's](ref/faith/calistria) three-dagger symbol fused to it. Each of these
@@ -31,6 +36,7 @@ _[charm person](ref/spell/charm-person)_ (lasting 1 hour).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm person](ref/spell/charm-person), [summon monster I](ref/spell/summon-monster-1); **Price**
-2,570 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm person](ref/spell/charm-person), [summon monster I](ref/spell/summon-monster-1)
+Price: 2,570 gp
+:::

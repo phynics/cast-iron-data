@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A dueling weapon bears magical enhancements that makes it particularly effective at performing
 certain combat maneuvers. When a dueling weapon is used to perform a combat maneuver that utilizes
@@ -38,7 +43,9 @@ enhancement bonus, which in and of itself adds to CMB checks normally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace)
+Price: -
+:::
 
 > _See also: [dueling enhancement](ref/magic-enh/dueling)_

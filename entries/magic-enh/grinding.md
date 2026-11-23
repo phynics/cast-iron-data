@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor/shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield or suit of armor with this special ability is covered with jagged burrs and razor-sharp
 serrations that saw and grind whenever the wearer is [grappled](ref/rule/grapple-conditions) or
@@ -32,5 +37,7 @@ maneuver check against the wearer takes damage equal to the armor or shield's en
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge)
+Price: +1 bonus
+:::

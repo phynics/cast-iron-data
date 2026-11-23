@@ -23,8 +23,13 @@ aura = "strong conjuration and necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong conjuration and necromancy; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration and necromancy
+CL: 17th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 A bone house is a variant form of instant fortress most often employed by elite agents of Nidal and
 influential members of [Zon-Kuthon's](ref/faith/zon-kuthon) faith. These grim statuettes appear as

@@ -23,8 +23,13 @@ aura = "none"
 caster_level = "-"
 +++
 
-**Aura** none; **CL** -\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: none
+CL: -
+Slot: none
+Price: -
+Weight: -
+:::
 
 The most obvious and striking feature of the Land of Black Blood (in the Vault of Orv) is that which
 gives it a name: the chilling black fluid that seeps from more than a dozen sites throughout the

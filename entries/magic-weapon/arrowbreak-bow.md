@@ -20,8 +20,12 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Weight: 2 lbs.
+:::
 
 This shortbow is beautifully made and inlaid with iridescent designs, appearing to be a +2
 [shortbow](ref/eq-weapon/shortbow). When it fires its arrows, though, it does it with so much force
@@ -31,4 +35,7 @@ primary ranged weapon and can only be discarded after the owner is subject to a
 
 ### Construction
 
-**Requirements** +2 shortbow; **Cost** -
+::: statblock
+Requirements: +2 shortbow
+Cost: -
+:::

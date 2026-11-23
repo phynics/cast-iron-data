@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A silencing weapon makes no noise when drawn or when used to attack. In addition, after hitting a
 creature, the wielder can surround that creature with an aura that muffles all sounds coming from it
@@ -39,5 +44,7 @@ beyond it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[silence](ref/spell/silence); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [silence](ref/spell/silence)
+Price: -
+:::

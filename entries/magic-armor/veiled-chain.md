@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** armor; **Price** 4,490 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: armor
+Price: 4,490 gp
+Weight: 25 lbs.
+:::
 
 Narrow strips of brilliant silk cloth are woven through the rings of this +1
 [chain shirt](ref/eq-armor/chain-shirt) that cause the armor's colors to shift and shimmer as its
@@ -30,5 +35,7 @@ _[vanish](ref/spell/vanish)_ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [vanish](ref/spell/vanish); **Price** 2,370 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [vanish](ref/spell/vanish)
+Price: 2,370 gp
+:::

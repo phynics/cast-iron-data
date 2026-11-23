@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 26,150 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 26,150 gp
+Weight: 5 lbs.
+:::
 
 This staff of dark wood is stouter and sturdier than most magical staves, with a gnarled and twisted
 knot of wood at the top end. It allows use of the following spells:
@@ -38,7 +43,7 @@ knot of wood at the top end. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [enlarge person](ref/spell/enlarge-person),
-[mass enlarge person](ref/spell/enlarge-person-mass),
-[mass reduce person](ref/spell/reduce-person-mass), [reduce person](ref/spell/reduce-person),
-[shrink item](ref/spell/shrink-item); **Cost** 13,075 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [enlarge person](ref/spell/enlarge-person), [mass enlarge person](ref/spell/enlarge-person-mass), [mass reduce person](ref/spell/reduce-person-mass), [reduce person](ref/spell/reduce-person), [shrink item](ref/spell/shrink-item)
+Cost: 13,075 gp
+:::

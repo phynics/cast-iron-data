@@ -22,8 +22,13 @@ caster_level = "7th"
 
 ## Impervious
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor/shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor/shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield or suit of armor with this special ability is especially hardy. It gains double its
 enhancement bonus to [hardness](ref/umr/hardness) and hit points (instead of just the enhancement
@@ -33,7 +38,9 @@ equal to its enhancement bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fabricate](ref/spell/fabricate), [make whole](ref/spell/make-whole); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fabricate](ref/spell/fabricate), [make whole](ref/spell/make-whole)
+Price: +1 bonus
+:::
 
 > _See also: [impervious weapon enhancement](ref/magic-enh/impervious)_

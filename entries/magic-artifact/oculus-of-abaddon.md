@@ -20,8 +20,13 @@ aura = "overwhelming conjuration, divination, and necromancy"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming conjuration, divination, and necromancy; **CL** 20th\
-**Slot** eye; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming conjuration, divination, and necromancy
+CL: 20th
+Slot: eye
+Price: -
+Weight: 1 lb.
+:::
 
 An oculus of Abaddon is a potent artifact rumored to have been created by one of the Four Horsemen
 of the Apocalypse as a way to reward those who work as their agents on the Material Plane. More

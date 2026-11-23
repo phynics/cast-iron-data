@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Aura** moderate evocation; **CL** 12th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 12th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. Whenever a tailwind weapon is used to
 make a ranged attack, the weapon or its projectile is pushed along by a powerful tailwind that fills
@@ -33,5 +38,7 @@ feet); each whole range increment beyond 60 feet applies a penalty to the attack
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[gust of wind](ref/spell/gust-of-wind); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [gust of wind](ref/spell/gust-of-wind)
+Price: -
+:::

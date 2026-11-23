@@ -24,8 +24,13 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Aura** strong varies; **CL** 15th\
-**Slot** none; **Price** 235,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 15th
+Slot: none
+Price: 235,000 gp
+Weight: 5 lbs.
+:::
 
 A staff of power is a potent magic item with varied offensive and defensive abilities, carved from
 magically hardened wood. It is usually topped with a glistening gem or orb that burns from within
@@ -64,11 +69,7 @@ of power, are capable of being used for a retributive strike.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold),
-[continual flame](ref/spell/continual-flame), [heightened](ref/feat/heighten-spell)
-[fireball](ref/spell/fireball), [globe of invulnerability](ref/spell/globe-of-invulnerability),
-[hold monster](ref/spell/hold-monster), [levitate](ref/spell/levitate), heightened
-[lightning bolt](ref/spell/lightning-bolt), [magic missile](ref/spell/magic-missile), heightened
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement), [wall of force](ref/spell/wall-of-force);
-**Cost** 117,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold), [continual flame](ref/spell/continual-flame), [heightened](ref/feat/heighten-spell) [fireball](ref/spell/fireball), [globe of invulnerability](ref/spell/globe-of-invulnerability), [hold monster](ref/spell/hold-monster), [levitate](ref/spell/levitate), heightened [lightning bolt](ref/spell/lightning-bolt), [magic missile](ref/spell/magic-missile), heightened [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [wall of force](ref/spell/wall-of-force)
+Cost: 117,500 gp
+:::

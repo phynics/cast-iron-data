@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 10,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 10,302 gp
+Weight: 1 lb.
+:::
 
 A wielder with a free hand can split this +1 [dagger](ref/eq-weapon/dagger) into two identical +1
 [daggers](ref/eq-weapon/dagger) as a swift action, or a free action if she has the
@@ -38,5 +43,7 @@ when it doubles.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shadow weapon](ref/spell/shadow-weapon); **Price** 5,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shadow weapon](ref/spell/shadow-weapon)
+Price: 5,302 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate abjuration; **CL** 5th\
-**Slot** shield; **Price** 2,159 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 5th
+Slot: shield
+Price: 2,159 gp
+Weight: 15 lbs.
+:::
 
 This +1 [light steel shield](ref/eq-armor/light-steel-shield) is wrapped in a layer of gray skin.
 Once per day, the wearer can animate the skin as a human [zombie](ref/template/zombie) under her
@@ -32,5 +37,7 @@ hour recreates the shield's skin.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate dead](ref/spell/animate-dead); **Price** 1,159 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate dead](ref/spell/animate-dead)
+Price: 1,159 gp
+:::

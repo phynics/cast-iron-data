@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 18,395 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 18,395 gp
+Weight: 4 lbs.
+:::
 
 Zul is a +1 human-[bane](ref/magic-enh/bane) [trident](ref/eq-weapon/trident) that has been passed
 down from chieftain to chieftain in Krelloort's tribe for generations. Zul's three-pronged head is
@@ -40,6 +45,7 @@ can be used up to 7 times per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[calcific touch](ref/spell/calcific-touch), [summon monster I](ref/spell/summon-monster-1);
-**Price** 9,355 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [calcific touch](ref/spell/calcific-touch), [summon monster I](ref/spell/summon-monster-1)
+Price: 9,355 gp
+:::

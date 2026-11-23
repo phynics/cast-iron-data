@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This massive forge is built into the structure of a temple to [Magrim](ref/faith/magrim) and can't
 be moved without divine intervention. Made of precious metals and gemstones, the forge is

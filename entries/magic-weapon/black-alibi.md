@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 4,410 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 4,410 gp
+Weight: 1 lb.
+:::
 
 The blade of this +1 [short sword](ref/eq-weapon/short-sword) appears to be nothing more than a
 shadow, but is quite solid and as sharp as steel. Five times per day, the wielder can as a move
@@ -33,6 +38,7 @@ _[modify memory](ref/spell/modify-memory)_).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), either [false alibi](ref/spell/false-alibi) or
-[modify memory](ref/spell/modify-memory); **Price** 2,360 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), either [false alibi](ref/spell/false-alibi) or [modify memory](ref/spell/modify-memory)
+Price: 2,360 gp
+:::

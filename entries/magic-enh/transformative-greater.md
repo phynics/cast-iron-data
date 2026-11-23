@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** +15,000 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: +15,000 gp
+Weight: -
+:::
 
 A greater transformative weapon becomes any other weapon the wielder desires when a command word is
 spoken. The weapon cannot become ammunition, but can freely change between simple, martial, exotic,
@@ -36,5 +41,7 @@ reverts to its true shape.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[polymorph any object](ref/spell/polymorph-any-object); **Price** 7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [polymorph any object](ref/spell/polymorph-any-object)
+Price: 7,500 gp
+:::

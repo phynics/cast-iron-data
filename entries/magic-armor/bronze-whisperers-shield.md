@@ -20,8 +20,13 @@ aura = "faint evocation and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation and transmutation; **CL** 3rd\
-**Slot** shield; **Price** 4,279 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint evocation and transmutation
+CL: 3rd
+Slot: shield
+Price: 4,279 gp
+Weight: 6 lbs.
+:::
 
 This +1 [light steel shield](ref/eq-armor/light-steel-shield) is decorated with bronze gears and
 vaguely resembles a feminine metal mask with a rune on its forehead. As a standard action, the
@@ -31,6 +36,7 @@ _[shocking grasp](ref/spell/shocking-grasp)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[minor creation](ref/spell/minor-creation), [shocking grasp](ref/spell/shocking-grasp); **Price**
-2,219 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [minor creation](ref/spell/minor-creation), [shocking grasp](ref/spell/shocking-grasp)
+Price: 2,219 gp
+:::

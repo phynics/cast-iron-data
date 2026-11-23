@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 35,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 35,320 gp
+Weight: 2 lbs.
+:::
 
 This +2 [countering](ref/magic-enh/countering) [dueling](ref/magic-enh/dueling)
 [rapier](ref/eq-weapon/rapier) is particularly well balanced, and features a stout steel ball on the
@@ -31,6 +36,7 @@ points of bludgeoning damage, and the critical multiplier is 20/×2.
 
 ### Construction
 
-**Requirements** [Combat Reflexes](ref/feat/combat-reflexes),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [daze](ref/spell/daze); **Price** 17,820 gp
+::: statblock
+Requirements: [Combat Reflexes](ref/feat/combat-reflexes), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [daze](ref/spell/daze)
+Price: 17,820 gp
+:::

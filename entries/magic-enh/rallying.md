@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** armor/shield quality; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: armor/shield quality
+Price: +5,000 gp
+Weight: -
+:::
 
 This armor or shield is brightly polished, and its mirror-bright surface is magically endowed with
 the ability to bring comfort to the wearer's companions. Allies within 30 feet of the wearer gain a
@@ -32,5 +37,7 @@ banner ability), the morale bonus increases to +6.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[remove fear](ref/spell/remove-fear); **Price** +2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [remove fear](ref/spell/remove-fear)
+Price: +2,500 gp
+:::

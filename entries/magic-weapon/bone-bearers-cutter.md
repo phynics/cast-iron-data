@@ -20,8 +20,13 @@ aura = "moderate necromancy and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy and transmutation; **CL** 10th\
-**Slot** none; **Price** 21,802 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy and transmutation
+CL: 10th
+Slot: none
+Price: 21,802 gp
+Weight: 1 lb.
+:::
 
 The bone handle of this +1 [wounding](ref/magic-enh/wounding) [dagger](ref/eq-weapon/dagger) is
 engraved with imagery of fierce beasts. Once per day as a standard action, the dagger can be driven
@@ -34,6 +39,7 @@ feat.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [crafter's fortune](ref/spell/crafters-fortune),
-[howling agony](ref/spell/howling-agony); **Price** 11,052 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [crafter's fortune](ref/spell/crafters-fortune), [howling agony](ref/spell/howling-agony)
+Price: 11,052 gp
+:::

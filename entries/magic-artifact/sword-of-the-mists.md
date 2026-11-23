@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 Forged by powerful fey from the primal word as a gift to mortal champions, a sword of mists is a +6
 [defending](ref/magic-enh/defending) [greatsword](ref/eq-weapon/greatsword) of gleaming blue steel

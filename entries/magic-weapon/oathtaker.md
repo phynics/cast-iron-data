@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 18,540 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 18,540 gp
+Weight: 20 lbs.
+:::
 
 This [Large](ref/misc/damage-die-adjustments) +1 [tetsubo](ref/eq-weapon/tetsubo) is banded in
 corroded iron bearing brass studs that are embossed with wicked Tien characters of punishment and
@@ -35,6 +40,7 @@ removed by the wielder.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mark of justice](ref/spell/mark-of-justice), [slay living](ref/spell/slay-living); **Price** 9,440
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mark of justice](ref/spell/mark-of-justice), [slay living](ref/spell/slay-living)
+Price: 9,440 gp
+:::

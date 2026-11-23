@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This sphere acts as a normal [sphere of annihilation](ref/magic-artifact/sphere-of-annihilation) in
 all respects, save that any use of a [gate](ref/spell/gate) spell to destroy it results in an

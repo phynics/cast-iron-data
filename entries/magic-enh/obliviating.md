@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on bludgeoning melee weapons. Whenever the wielder deals
 critical hit damage or [sneak attack](ref/ability/sneak-attack) damage with an obliviating weapon,
@@ -31,5 +36,7 @@ start of its next turn.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[modify memory](ref/spell/modify-memory); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [modify memory](ref/spell/modify-memory)
+Price: -
+:::

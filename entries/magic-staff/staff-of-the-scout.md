@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 9,600 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 9,600 gp
+Weight: 4 lbs.
+:::
 
 This staff is carefully crafted from the branches of a tree, still intertwined as they grew and
 crowned with living leaves. The staff allows use of the following spells:
@@ -33,6 +38,7 @@ crowned with living leaves. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [know direction](ref/spell/know-direction),
-[pass without trace](ref/spell/pass-without-trace),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Cost** 4,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [know direction](ref/spell/know-direction), [pass without trace](ref/spell/pass-without-trace), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 4,800 gp
+:::

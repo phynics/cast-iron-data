@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** none; **Price** 12,305 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: none
+Price: 12,305 gp
+Weight: 3 lbs.
+:::
 
 The lash of this whip is made of countless tiny chitinous plates interlocking to form an articulated
 cord, tipped with sharp blades. A scorpion tail whip is a +2
@@ -33,5 +38,7 @@ whip, he does not gain the initiative bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[anticipate peril](ref/spell/anticipate-peril); **Price** 6,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [anticipate peril](ref/spell/anticipate-peril)
+Price: 6,305 gp
+:::

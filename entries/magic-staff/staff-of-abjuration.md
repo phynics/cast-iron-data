@@ -24,8 +24,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 Usually carved from the heartwood of an ancient oak, ash, sequoia, or other large tree, this staff
 allows use of the following spells:
@@ -39,8 +44,7 @@ allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [dismissal](ref/spell/dismissal),
-[dispel magic](ref/spell/dispel-magic),
-[lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser),
-[repulsion](ref/spell/repulsion), [resist energy](ref/spell/resist-energy),
-[shield](ref/spell/shield); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [dismissal](ref/spell/dismissal), [dispel magic](ref/spell/dispel-magic), [lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser), [repulsion](ref/spell/repulsion), [resist energy](ref/spell/resist-energy), [shield](ref/spell/shield)
+Cost: 41,000 gp
+:::

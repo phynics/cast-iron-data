@@ -21,8 +21,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 21,600 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 21,600 gp
+Weight: 1 lb.
+:::
 
 These slender crystal shafts span 4 to 5 feet in length, with facets covered in deeply etched white
 runes of unknown make. Since the only known examples of these staves were discovered near Mount
@@ -36,5 +41,7 @@ Additionally, the staff contains the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [fly](ref/spell/fly),
-[levitate](ref/spell/levitate), [shocking grasp](ref/spell/shocking-grasp); **Cost** 10,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [fly](ref/spell/fly), [levitate](ref/spell/levitate), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 10,800 gp
+:::

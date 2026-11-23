@@ -20,8 +20,13 @@ aura = "strong conjuration and evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and evocation; **CL** 12th\
-**Slot** armor; **Price** 6,950 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong conjuration and evocation
+CL: 12th
+Slot: armor
+Price: 6,950 gp
+Weight: 25 lbs.
+:::
 
 This red-and-gold +1 [spell storing](ref/magic-enh/spell-storing-armor)
 [chain shirt](ref/eq-armor/chain-shirt) is designed to be worn over or between multiple layers of
@@ -32,6 +37,7 @@ to strike an undead creature with positive energy or heal an ally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[light](ref/spell/light), [stabilize](ref/spell/stabilize), creator must be a caster of at least
-12th level; **Price** 3,600 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [light](ref/spell/light), [stabilize](ref/spell/stabilize), creator must be a caster of at least 12th level
+Price: 3,600 gp
+:::

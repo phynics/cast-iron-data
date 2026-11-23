@@ -20,8 +20,13 @@ aura = "overwhelming (no school)"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming (no school); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: overwhelming (no school)
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 This scepter consists of two spiraling pieces of metal, one of iron and the other of
 [adamantine](ref/eq-material/adamantine), twisted around one another like two snakes. Each spiral

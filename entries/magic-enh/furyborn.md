@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A furyborn weapon draws power from the
 anger and frustration the wielder feels when battling foes that refuse to die. Each time the wielder
@@ -35,5 +40,7 @@ hour passes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rage](ref/spell/rage); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rage](ref/spell/rage)
+Price: -
+:::

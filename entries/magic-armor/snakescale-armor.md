@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** armor; **Price** 8,900 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: armor
+Price: 8,900 gp
+Weight: 20 lbs.
+:::
 
 This +1 [scale mail](ref/eq-armor/scale-mail) is made from hardened, reinforced snakeskin scales.
 The armor has an arcane spell failure chance of 15%, a maximum Dexterity bonus of +5, and a -2 armor
@@ -30,6 +35,7 @@ Snakescale armor is considered light armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence),
-[spider climb](ref/spell/spider-climb); **Price** 4,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence), [spider climb](ref/spell/spider-climb)
+Price: 4,450 gp
+:::

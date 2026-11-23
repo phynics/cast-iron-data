@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This weapon special ability can only be placed on ammunition. A creature struck by a piece of
 penetrating ammunition must succeed at a DC 17 Fortitude save or the ammunition proceeds to travel
@@ -31,5 +36,7 @@ penalty, in addition to any modifiers for added range.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mirror strike](ref/spell/mirror-strike); **Price** -
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mirror strike](ref/spell/mirror-strike)
+Price: -
+:::

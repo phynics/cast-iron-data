@@ -20,8 +20,13 @@ aura = "overwhelming abjuration"
 caster_level = "23rd"
 +++
 
-**Aura** overwhelming abjuration; **CL** 23rd\
-**Slot** none; **Price** -; **Weight** 20 lbs.
+::: statblock
+Aura: overwhelming abjuration
+CL: 23rd
+Slot: none
+Price: -
+Weight: 20 lbs.
+:::
 
 The boss of this large black shield resembles a deformed skull of tarnished silver. The shield bears
 many dents and scratches from past battles.

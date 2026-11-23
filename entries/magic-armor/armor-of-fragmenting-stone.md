@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** armor; **Price** 21,650 gp; **Weight** 60 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: armor
+Price: 21,650 gp
+Weight: 60 lbs.
+:::
 
 This imposing suit of armor, first forged by Jistkan elemental binders, is covered in large, jagged
 stones and functions as +2 [full plate](ref/eq-armor/full-plate). Once per day as an immediate
@@ -33,7 +38,7 @@ destroyed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster IV](ref/spell/summon-monster-4) or
-[summon nature's ally IV](ref/spell/summon-natures-ally-4), creator must have visited the Elemental
-Plane of Earth; **Price** 11,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster IV](ref/spell/summon-monster-4) or [summon nature's ally IV](ref/spell/summon-natures-ally-4), creator must have visited the Elemental Plane of Earth
+Price: 11,650 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** shield quality; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: shield quality
+Price: +5,000 gp
+Weight: -
+:::
 
 A shield with this special ability is usually crafted with an open dragon's mouth on the front. A
 shield with the wyrmsbreath special ability is keyed to one type of energy (acid, cold, electricity,
@@ -34,5 +39,7 @@ than one wyrmsbreath ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[burning hands](ref/spell/burning-hands); **Price** +2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [burning hands](ref/spell/burning-hands)
+Price: +2,500 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The beacon of true faith takes the form of an ornate [torch](ref/eq-misc/torch) made of electrum. It
 holds an undying magical flame that requires no fuel or air, and in the hands of most creatures it

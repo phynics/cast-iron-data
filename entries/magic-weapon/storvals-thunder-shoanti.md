@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 50,340 gp; **Weight** 14 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 50,340 gp
+Weight: 14 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,6 +38,7 @@ that target succeeds at a DC 16 Fortitude save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lightning bolt](ref/spell/lightning-bolt), [sound burst](ref/spell/sound-burst), creator must be a
-Shoanti; **Price** 25,340 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lightning bolt](ref/spell/lightning-bolt), [sound burst](ref/spell/sound-burst), creator must be a Shoanti
+Price: 25,340 gp
+:::

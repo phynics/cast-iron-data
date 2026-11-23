@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 20th\
-**Slot** body; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 20th
+Slot: body
+Price: -
+Weight: 1 lb.
+:::
 
 Sorshen's Scintillating Garment is the traditional robe of the Runelord of Lust. Woven of the finest
 of silks and accented with precious stones, the garment is surprisingly light and easy to move in.

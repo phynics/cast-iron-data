@@ -21,8 +21,13 @@ aura = "strong varies"
 caster_level = "15th"
 +++
 
-**Aura** strong varies; **CL** 15th\
-**Slot** none; **Price** 220,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 15th
+Slot: none
+Price: 220,000 gp
+Weight: 5 lbs.
+:::
 
 The staff of the hierophant is a powerful magic item with the ability to both heal and harm, which
 also gives its wielder a number of protections. The staff is crafted from platinum and topped with a
@@ -52,12 +57,7 @@ ability checks, attack rolls, saving throws, and skill checks for 1 day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless),
-[cure critical wounds](ref/spell/cure-critical-wounds),
-[cure moderate wounds](ref/spell/cure-moderate-wounds), [flame strike](ref/spell/flame-strike),
-[freedom of movement](ref/spell/freedom-of-movement), [heightened](ref/feat/heighten-spell)
-[hold person](ref/spell/hold-person), [prayer](ref/spell/prayer),
-[righteous might](ref/spell/righteous-might), [searing light](ref/spell/searing-light),
-[true resurrection](ref/spell/true-resurrection), [true seeing](ref/spell/true-seeing); **Cost**
-110,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless), [cure critical wounds](ref/spell/cure-critical-wounds), [cure moderate wounds](ref/spell/cure-moderate-wounds), [flame strike](ref/spell/flame-strike), [freedom of movement](ref/spell/freedom-of-movement), [heightened](ref/feat/heighten-spell) [hold person](ref/spell/hold-person), [prayer](ref/spell/prayer), [righteous might](ref/spell/righteous-might), [searing light](ref/spell/searing-light), [true resurrection](ref/spell/true-resurrection), [true seeing](ref/spell/true-seeing)
+Cost: 110,000 gp
+:::

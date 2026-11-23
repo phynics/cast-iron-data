@@ -24,8 +24,12 @@ caster_level = "8th"
 
 ## Net of Snaring
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Weight: 1 lb.
+:::
 
 This net provides a +3 bonus on attack rolls but can only be used underwater. Underwater, it can be
 commanded to shoot forth up to 30 feet to trap a creature. If thrown on land, it changes course to
@@ -33,4 +37,7 @@ target the creature that threw it.
 
 ### Construction
 
-**Requirements** +3 [net](ref/eq-weapon/net); **Cost** -
+::: statblock
+Requirements: +3 [net](ref/eq-weapon/net)
+Cost: -
+:::

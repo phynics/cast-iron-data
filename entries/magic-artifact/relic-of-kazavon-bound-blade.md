@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 The Bound Blade is a +3 [unholy](ref/magic-enh/unholy) [adamantine](ref/eq-material/adamantine)
 [bastard sword](ref/eq-weapon/bastard-sword), forged from the claws of Kazavon. For worshipers of

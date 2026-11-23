@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** +7,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: +7,500 gp
+Weight: -
+:::
 
 Trackless armor lightens the wearer's step and camouflages his appearance. Survival checks to track
 the wearer take a -5 penalty, and the wearer gains a +5 competence bonus on Stealth checks. Only
@@ -29,5 +34,7 @@ the wearer take a -5 penalty, and the wearer gains a +5 competence bonus on Stea
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[pass without trace](ref/spell/pass-without-trace); **Price** 3,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [pass without trace](ref/spell/pass-without-trace)
+Price: 3,750 gp
+:::

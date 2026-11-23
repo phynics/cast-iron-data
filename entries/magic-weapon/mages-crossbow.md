@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 18,335 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 18,335 gp
+Weight: 4 lbs.
+:::
 
 This +2 [light crossbow](ref/eq-weapon/light-crossbow) is made of silver that never needs to be
 polished. A mage's crossbow is especially effective against creatures with
@@ -35,6 +40,7 @@ caster level check to overcome the target's spell resistance (if any) and on the
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Spell Penetration](ref/feat/spell-penetration), [summon monster I](ref/spell/summon-monster-1),
-[true strike](ref/spell/true-strike); **Price** 9,835 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Spell Penetration](ref/feat/spell-penetration), [summon monster I](ref/spell/summon-monster-1), [true strike](ref/spell/true-strike)
+Price: 9,835 gp
+:::

@@ -24,8 +24,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 51,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 51,500 gp
+Weight: 5 lbs.
+:::
 
 This staff is usually sheathed in a layer of silver and decorated with gold and amber sunbursts. A
 staff of illumination allows use of the following spells:
@@ -37,6 +42,7 @@ staff of illumination allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [dancing lights](ref/spell/dancing-lights),
-[daylight](ref/spell/daylight), [flare](ref/spell/flare), [sunburst](ref/spell/sunburst); **Cost**
-25,750 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [dancing lights](ref/spell/dancing-lights), [daylight](ref/spell/daylight), [flare](ref/spell/flare), [sunburst](ref/spell/sunburst)
+Cost: 25,750 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** none; **Price** 42,350 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: none
+Price: 42,350 gp
+Weight: 2 lbs.
+:::
 
 An infecting spike is a large, corroded armor spike. When carefully placed against a suit of armor
 without armor spikes as a full-round action, an infecting spike attaches itself firmly to the armor,
@@ -43,5 +48,7 @@ reduced to 0 hit points.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[contagion](ref/spell/contagion); **Price** 21,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [contagion](ref/spell/contagion)
+Price: 21,350 gp
+:::

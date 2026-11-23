@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: -
+Weight: -
+:::
 
 An amethyst crescent grants [fast healing](ref/umr/fast-healing) 2 to its wearer as well a +4
 circumstance bonus on saving throws against negative energy and death effects.

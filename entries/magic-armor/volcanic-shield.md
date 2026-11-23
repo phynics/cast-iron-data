@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** shield; **Price** 14,170 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: shield
+Price: 14,170 gp
+Weight: 10 lbs.
+:::
 
 This +1 [bashing](ref/magic-enh/bashing) [heavy steel shield](ref/eq-armor/heavy-steel-shield) burns
 with an internal fire upon its boss, gaining the [flaming](ref/magic-enh/flaming) weapon special
@@ -32,6 +37,7 @@ a cascade of brimstone as the _[burning hands](ref/spell/burning-hands)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [burning hands](ref/spell/burning-hands),
-[pyrotechnics](ref/spell/pyrotechnics); **Price** 7,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [burning hands](ref/spell/burning-hands), [pyrotechnics](ref/spell/pyrotechnics)
+Price: 7,170 gp
+:::

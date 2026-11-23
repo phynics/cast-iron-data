@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 80 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 80 gp
+Weight: -
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) is as black as the darkest night and is fletched with sleek
 raven feathers. If the arrow strikes a foe, magical darkness infuses the creature's sight. The
@@ -31,5 +36,7 @@ DC 13 Fortitude saving throw or lose its darkvision for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[darkness](ref/spell/darkness); **Price** 40 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [darkness](ref/spell/darkness)
+Price: 40 gp
+:::

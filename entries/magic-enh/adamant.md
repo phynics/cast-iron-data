@@ -19,8 +19,12 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Price: +2 bonus
+Weight: -
+:::
 
 Once per day as a swift action, the wearer can harden armor possessing this special ability to the
 strength of [adamantine](ref/eq-material/adamantine), giving it DR 3/- for 9 rounds. The adamant
@@ -28,5 +32,7 @@ special ability can be placed on only heavy armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mage armor](ref/spell/mage-armor), [major creation](ref/spell/major-creation); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mage armor](ref/spell/mage-armor), [major creation](ref/spell/major-creation)
+Price: +2 bonus
+:::

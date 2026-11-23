@@ -23,8 +23,13 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment, illusion, and necromancy; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong enchantment, illusion, and necromancy
+CL: 20th
+Slot: head
+Price: -
+Weight: 4 lbs.
+:::
 
 The eponymous fangs set into this jeweled golden circlet are those of the dragon Kazavon. The crown
 grants its wearer a +6 enhancement bonus to her Constitution and Charisma scores, as well as

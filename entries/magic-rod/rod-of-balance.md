@@ -20,8 +20,13 @@ aura = "faint and transmutation abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint and transmutation abjuration; **CL** 5th\
-**Slot** none; **Price** 15,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint and transmutation abjuration
+CL: 5th
+Slot: none
+Price: 15,000 gp
+Weight: 5 lbs.
+:::
 
 This short, slender rod appears to be crafted from solid iron, though it is incredibly light. In
 this shortened form, the rod has no powers. However, when the wielder pushes a small button on one
@@ -39,5 +44,7 @@ and transmutation schools.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [cat's grace](ref/spell/cats-grace),
-[feather fall](ref/spell/feather-fall), [jump](ref/spell/jump); **Cost** 7,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [cat's grace](ref/spell/cats-grace), [feather fall](ref/spell/feather-fall), [jump](ref/spell/jump)
+Cost: 7,500 gp
+:::

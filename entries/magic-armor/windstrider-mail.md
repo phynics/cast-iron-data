@@ -20,8 +20,13 @@ aura = "faint evocation and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation and transmutation; **CL** 5th\
-**Slot** armor; **Price** 10,100 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint evocation and transmutation
+CL: 5th
+Slot: armor
+Price: 10,100 gp
+Weight: 10 lbs.
+:::
 
 Sleek dull gray stripes line the sides of this +1 [mithral](ref/eq-material/mithral)
 [chain shirt](ref/eq-armor/chain-shirt), slightly marring the otherwise shining metal. When worn,
@@ -48,5 +53,7 @@ to the ground upon transforming back.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[gaseous form](ref/spell/gaseous-form), [gust of wind](ref/spell/gust-of-wind); **Price** 4,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [gaseous form](ref/spell/gaseous-form), [gust of wind](ref/spell/gust-of-wind)
+Price: 4,100 gp
+:::

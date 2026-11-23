@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong abjuration; **CL** 18th\
-**Slot** none; **Price** 120,630 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 18th
+Slot: none
+Price: 120,630 gp
+Weight: 4 lbs.
+:::
 
 This +2 [cold iron](ref/eq-material/cold-iron) [longsword](ref/eq-weapon/longsword) becomes a +5
 [holy](ref/magic-enh/holy) cold iron longsword in the hands of a [paladin](ref/class/paladin).
@@ -37,5 +42,7 @@ or counterspell versions of _[greater dispel magic](ref/spell/dispel-magic-great
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy aura](ref/spell/holy-aura), creator must be good; **Price** 60,630 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy aura](ref/spell/holy-aura), creator must be good
+Price: 60,630 gp
+:::

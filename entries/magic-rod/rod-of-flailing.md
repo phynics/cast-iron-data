@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 50,000 gp
+Weight: 5 lbs.
+:::
 
 Upon the command of its possessor, this rod activates, changing from a normal-seeming rod to a +3/+3
 [dire flail](ref/eq-weapon/dire-flail). The dire flail is a [double](ref/misc/double) weapon, which
@@ -40,5 +45,7 @@ Transforming a rod of flailing into a weapon or back into a rod is a move action
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bless](ref/spell/bless); **Cost** 25,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bless](ref/spell/bless)
+Cost: 25,000 gp
+:::

@@ -24,8 +24,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 11th\
-**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 11th
+Slot: none
+Price: 57,200 gp
+Weight: 5 lbs.
+:::
 
 The elaborate swirls and delicate flecks of shining metal adorning the head of this pale wooden
 shaft make it seem almost as much a long mace as a staff. It allows use of the following spells:
@@ -38,7 +43,7 @@ shaft make it seem almost as much a long mace as a staff. It allows use of the f
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [disintegrate](ref/spell/disintegrate),
-[enervation](ref/spell/enervation), [ray of enfeeblement](ref/spell/ray-of-enfeeblement),
-[ray of exhaustion](ref/spell/ray-of-exhaustion), [scorching ray](ref/spell/scorching-ray); **Cost**
-28,600 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [disintegrate](ref/spell/disintegrate), [enervation](ref/spell/enervation), [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [ray of exhaustion](ref/spell/ray-of-exhaustion), [scorching ray](ref/spell/scorching-ray)
+Cost: 28,600 gp
+:::

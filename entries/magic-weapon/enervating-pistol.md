@@ -20,8 +20,13 @@ aura = "strong necromancy [death]"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy \[death\]; **CL** 13th\
-**Slot** none; **Price** 51,300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong necromancy \[death\]
+CL: 13th
+Slot: none
+Price: 51,300 gp
+Weight: 4 lbs.
+:::
 
 Kerdak Bonefist had this +1 [reliable](ref/magic-enh/reliable) [distance](ref/magic-enh/distance)
 [pistol](ref/eq-weapon/pistol) specially crafted for him to take advantage of his unique skeletal
@@ -38,7 +43,7 @@ any way (including [restoration](ref/spell/restoration) spells) while the weapon
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[finger of death](ref/spell/finger-of-death), [enervation](ref/spell/enervation),
-[mending](ref/spell/mending); **Price** 26,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [finger of death](ref/spell/finger-of-death), [enervation](ref/spell/enervation), [mending](ref/spell/mending)
+Price: 26,300 gp
+:::

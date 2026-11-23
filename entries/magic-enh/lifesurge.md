@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A lifesurge weapon boosts and sustains the
 wielder's life energy while he is in the throes of combat. The wielder gains a bonus on saving
@@ -43,6 +48,7 @@ dissipating.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Channel Smite](ref/feat/channel-smite), [cure serious wounds](ref/spell/cure-serious-wounds),
-[death ward](ref/spell/death-ward), [disrupt undead](ref/spell/disrupt-undead); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Channel Smite](ref/feat/channel-smite), [cure serious wounds](ref/spell/cure-serious-wounds), [death ward](ref/spell/death-ward), [disrupt undead](ref/spell/disrupt-undead)
+Price: -
+:::

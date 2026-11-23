@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 48,502 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 48,502 gp
+Weight: 1 lb.
+:::
 
 This wavy blade is almost transparently thin, and glows with ethereal energy upon being grasped. In
 addition to being a +3 [ghost touch](ref/magic-enh/ghost-touch-weapon)
@@ -32,6 +37,7 @@ addition to being a +3 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic), [plane shift](ref/spell/plane-shift), creator must be 9th
-level; **Price** 24,402 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic), [plane shift](ref/spell/plane-shift), creator must be 9th level
+Price: 24,402 gp
+:::

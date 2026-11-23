@@ -20,8 +20,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 7th\
-**Slot** none; **Price** 3,000 gp; **Weight** 1/10 lb.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 7th
+Slot: none
+Price: 3,000 gp
+Weight: 1/10 lb.
+:::
 
 This +2 [arrow](ref/eq-weapon/arrow) is fitted with a head of pure, crystallized
 [blightburn](ref/eq-material/blightburn). Unless contained in a lead-lined case or quiver, the arrow
@@ -34,5 +39,7 @@ recovered as normal, but an arrow removed after hitting a target is destroyed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fester](ref/spell/fester), [fireball](ref/spell/fireball); **Price** 1,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fester](ref/spell/fester), [fireball](ref/spell/fireball)
+Price: 1,500 gp
+:::

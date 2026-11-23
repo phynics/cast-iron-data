@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 11,330 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 11,330 gp
+Weight: 8 lbs.
+:::
 
 Born from dwarven forges, these +1 giant-[bane](ref/magic-enh/bane)
 [dwarven waraxes](ref/eq-weapon/dwarven-waraxe) are crafted in the likeness of the favored weapon of
@@ -33,6 +38,7 @@ opponents up to two size categories larger than its wielder.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [summon monster I](ref/spell/summon-monster-1);
-**Price** 5,830 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [summon monster I](ref/spell/summon-monster-1)
+Price: 5,830 gp
+:::

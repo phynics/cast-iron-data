@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 15,350 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 15,350 gp
+Weight: 20 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -39,7 +44,7 @@ None of these benefits apply in water.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[create water](ref/spell/create-water), [endure elements](ref/spell/endure-elements),
-[freedom of movement](ref/spell/freedom-of-movement), creator must be either a gillman or a merfolk;
-**Price** 7,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [create water](ref/spell/create-water), [endure elements](ref/spell/endure-elements), [freedom of movement](ref/spell/freedom-of-movement), creator must be either a gillman or a merfolk
+Price: 7,850 gp
+:::

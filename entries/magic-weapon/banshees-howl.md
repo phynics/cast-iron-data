@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** none; **Price** 38,480 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: none
+Price: 38,480 gp
+Weight: 2 lbs.
+:::
 
 This jet-black +3 [rapier](ref/eq-weapon/rapier) weeps quietly when wielded in combat. A creature
 critically hit by banshee's howl must succeed at a DC 16 Will save or be affected by
@@ -44,6 +49,7 @@ transforming into such weapons upon death to continue the fight, though their tr
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[crushing despair](ref/spell/crushing-despair),
-[wail of the banshee](ref/spell/wail-of-the-banshee); **Price** 19,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [crushing despair](ref/spell/crushing-despair), [wail of the banshee](ref/spell/wail-of-the-banshee)
+Price: 19,400 gp
+:::

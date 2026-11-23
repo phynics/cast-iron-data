@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A repositioning weapon grants the wielder
 a +2 enhancement bonus on combat maneuver checks to [reposition](ref/rule/reposition) a foe. If the
@@ -31,5 +36,7 @@ have both the [anchoring](ref/magic-enh/anchoring) and repositioning special abi
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[telekinesis](ref/spell/telekinesis); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [telekinesis](ref/spell/telekinesis)
+Price: -
+:::

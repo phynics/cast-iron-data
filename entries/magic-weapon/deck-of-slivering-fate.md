@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 13,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 13,000 gp
+Weight: -
+:::
 
 The 54 cards in this +1 [limning](ref/magic-enh/limning) [harrow deck](ref/eq-misc/harrow-deck) have
 more violent imagery than a standard harrow deck, and each card has a thin metallic frill around its
@@ -32,6 +37,7 @@ slashing damage instead of piercing, and the bonus damage from the
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Wondrous Item](ref/feat/craft-wondrous-item), Deadly Dealer,
-[magic missile](ref/spell/magic-missile); **Price** 6,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Wondrous Item](ref/feat/craft-wondrous-item), Deadly Dealer, [magic missile](ref/spell/magic-missile)
+Price: 6,500 gp
+:::

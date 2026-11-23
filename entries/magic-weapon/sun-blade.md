@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 50,335 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 50,335 gp
+Weight: 2 lbs.
+:::
 
 This sword is the size of a [bastard sword](ref/eq-weapon/bastard-sword). However, a sun blade is
 wielded as if it were a [short sword](ref/eq-weapon/short-sword) with respect to weight and ease of
@@ -54,5 +59,7 @@ wielded.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daylight](ref/spell/daylight), creator must be good; **Price** 25,335 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daylight](ref/spell/daylight), creator must be good
+Price: 25,335 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 17th\
-**Slot** head and headband; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 17th
+Slot: head and headband
+Price: -
+Weight: 5 lbs.
+:::
 
 Carved from gold and inlaid with cobalt, lapis lazuli, and onyx, this elaborate funerary mask was
 crafted for the Sky Pharaoh Hakotep I, and was intended to be interred along with his mummy in his

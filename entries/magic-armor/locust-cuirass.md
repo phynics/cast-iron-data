@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration; **CL** 6th\
-**Slot** armor; **Price** 6,565 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 6th
+Slot: armor
+Price: 6,565 gp
+Weight: 8 lbs.
+:::
 
 The overlapping leather plates of this +2 [lamellar cuirass](ref/eq-armor/lamellar-cuirass) oddly
 feel more like insect chitin than the supple leather they are crafted from. This armor's lightweight
@@ -38,5 +43,7 @@ remaining distance as normal.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cape of wasps](ref/spell/cape-of-wasps); **Price** 3,365 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cape of wasps](ref/spell/cape-of-wasps)
+Price: 3,365 gp
+:::
