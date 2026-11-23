@@ -1,4 +1,4 @@
-entry_id	publication	page	basis	note
+entry_id	publication	page	basis	note	evidence
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-deadfall	bestiary	129	print	
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-noose	bestiary	129	print	
 ref/carried/bestiary/monsters/ettercap/special-abilities/traps/ettercap-spear-trap	bestiary	129	print	
@@ -1155,7 +1155,7 @@ ref/trait/wendifa-apprentice	faiths-and-philosophies		unconfirmed	title not foun
 ref/trait/zealots-bearing	faiths-and-philosophies		unconfirmed	title not found on the proposed page or the two pages around it
 ref/affliction/aashaqs-wyvern/poison-ex	isles-of-the-shackles	42	print	
 ref/affliction/adaro/nettlefin-toxin	bestiary-3	7	print	
-ref/affliction/akata/void-death	bestiary-2	23	print	
+ref/affliction/akata/void-death	bestiary-2	23	print		proposal 22, print 23: the monster starts on 22; the affliction heading is on 23
 ref/affliction/animate-dream/nightmare-curse	bestiary-2	29	print	
 ref/affliction/ant-giant-ant/poison-ex	bestiary	16	print	
 ref/affliction/ant-knight-ant/poison-ex	bestiary-5	27	print	
@@ -1180,8 +1180,8 @@ ref/affliction/embalming-bear/potent-embalming-fluid	tears-at-bitter-manor	60	pr
 ref/affliction/empusa/lash-venom	planar-adventures	232	print	
 ref/affliction/fafnheir/curse-of-fafnheir	lands-of-the-linnorm-kings	56	print	
 ref/affliction/festrog/necrotic-boils	bestiary-3	115	print	
-ref/affliction/fungal-creature/fungal-blood-or-flesh	bestiary-4	117	print	
-ref/affliction/fungal-creature/fungal-spores	bestiary-4	117	print	
+ref/affliction/fungal-creature/fungal-blood-or-flesh	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
+ref/affliction/fungal-creature/fungal-spores	bestiary-4	117	print		proposal 116, print 117: the monster starts on 116; the affliction heading is on 117
 ref/affliction/gholdako/seaside-rot	bestiary-4	125	print	
 ref/affliction/gholdako/seaside-rot	isles-of-the-shackles	49	print	
 ref/affliction/ghole/bubonic-plague	bestiary-6	132	print	
@@ -1198,14 +1198,14 @@ ref/affliction/hypnalis/hypnalis-venom	bestiary-4	154	print
 ref/affliction/iku-turso/tursas	bestiary-3	153	print	
 ref/affliction/jinmenju/head-fruit-poison	bestiary-4	161	print	
 ref/affliction/julunggali-mythic/julunggali-venom	bestiary-4	164	print	
-ref/affliction/khala/chillbane-fever	bestiary-5	151	print	
+ref/affliction/khala/chillbane-fever	bestiary-5	151	print		reference marked book-differs; print confirms the heading on p. 151
 ref/affliction/kraken/kraken-ink	bestiary	184	print	
 ref/affliction/kurobozu/black-apoxia	bestiary-5	153	print	
 ref/affliction/lizard-monitor-lizard/poison-ex	bestiary	194	print	
 ref/affliction/magma-ooze/magma-ooze-poison	bestiary-2	184	print	
-ref/affliction/mummy-lord/insidious-mummy-rot-su	bestiary-5	177	print	
+ref/affliction/mummy-lord/insidious-mummy-rot-su	bestiary-5	177	print		proposal 176, print 177: the monster starts on 176; the affliction heading is on 177
 ref/affliction/myceloid/purple-pox	bestiary-3	196	print	
-ref/affliction/necrocraft/rotting-flesh	bestiary-4	201	print	
+ref/affliction/necrocraft/rotting-flesh	bestiary-4	201	print		proposal 200, print 201: the monster starts on 200; the affliction heading is on 201
 ref/affliction/nekomata/nekomata-madness	bestiary-6	201	print	
 ref/affliction/ningyo/ningyo-flesh	bestiary-4	206	print	
 ref/affliction/nuckelavee/mortasheen	bestiary-3	203	print	
