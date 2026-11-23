@@ -6,6 +6,9 @@ source_ids = ["champions-of-balance"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "impelling_disarm", path = "json/class_ability_rage_powers.json" },
 ]
+[[sources]]
+publication = "champions-of-balance"
+page = "23"
 
 [fields]
 kind = "class_option"

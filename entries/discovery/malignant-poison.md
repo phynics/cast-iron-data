@@ -6,6 +6,9 @@ source_ids = ["dungeoneers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "malignant_poison", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "dungeoneers-handbook"
+page = "27"
 
 [fields]
 kind = "class_option"

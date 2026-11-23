@@ -6,6 +6,8 @@ source_ids = ["core-rulebook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "deadly_performance", path = "json/class_ability_bardic_performances.json" },
 ]
+[[sources]]
+publication = "core-rulebook"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["heroes-from-the-fringe"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "intimidating_display", path = "json/class_ability_shaman_hexes.json" },
 ]
+[[sources]]
+publication = "heroes-from-the-fringe"
+page = "8"
 
 [fields]
 kind = "class_option"

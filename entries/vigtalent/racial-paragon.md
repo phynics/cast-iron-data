@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "racial_paragon", path = "json/class_ability_vigilante_talents.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "15"
 
 [fields]
 kind = "class_option"

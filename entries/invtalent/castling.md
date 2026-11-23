@@ -6,6 +6,9 @@ source_ids = ["elemental-masters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "castling", path = "json/class_ability_investigator_talents.json" },
 ]
+[[sources]]
+publication = "elemental-masters-handbook"
+page = "9"
 
 [fields]
 kind = "class_option"

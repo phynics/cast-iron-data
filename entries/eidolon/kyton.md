@@ -6,6 +6,9 @@ source_ids = ["curse-of-the-crimson-throne"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "kyton", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "431"
 
 [fields]
 kind = "class_option"

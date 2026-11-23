@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "wrecking_mysticism", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "werewolf_shape", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "25"
 
 [fields]
 kind = "class_option"

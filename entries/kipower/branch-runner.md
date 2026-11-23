@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-beast"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "branch_runner", path = "json/class_ability_ki_powers.json" },
 ]
+[[sources]]
+publication = "blood-of-the-beast"
+page = "30"
 
 [fields]
 kind = "class_option"

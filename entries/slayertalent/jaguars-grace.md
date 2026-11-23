@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "jaguars_grace", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "4"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "god_meddled", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "heroes-of-golarion"
+page = "14"
 
 [fields]
 kind = "class_option"

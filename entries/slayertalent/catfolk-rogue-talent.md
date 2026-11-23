@@ -6,6 +6,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "catfolk_rogue_talent", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "22"
 
 [fields]
 kind = "class_option"

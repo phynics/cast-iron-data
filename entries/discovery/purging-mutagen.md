@@ -6,6 +6,9 @@ source_ids = ["healers-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "purging_mutagen", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "healers-handbook"
+page = "11"
 
 [fields]
 kind = "class_option"

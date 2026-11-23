@@ -6,6 +6,9 @@ source_ids = ["distant-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "substantiating_bomb", path = "json/class_ability_discoveries.json" },
 ]
+[[sources]]
+publication = "distant-realms"
+page = "53"
 
 [fields]
 kind = "class_option"

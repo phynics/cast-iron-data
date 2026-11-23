@@ -6,6 +6,8 @@ source_ids = ["divine-anthology"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "expert_cypher", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "divine-anthology"
 
 [fields]
 kind = "class_option"

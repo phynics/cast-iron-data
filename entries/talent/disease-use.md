@@ -6,6 +6,9 @@ source_ids = ["blood-of-the-moon"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "disease_use", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "blood-of-the-moon"
+page = "19"
 
 [fields]
 kind = "class_option"

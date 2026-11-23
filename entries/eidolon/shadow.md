@@ -6,6 +6,9 @@ source_ids = ["blood-of-shadows"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "shadow", path = "json/class_ability_unchained_eidolons.json" },
 ]
+[[sources]]
+publication = "blood-of-shadows"
+page = "12"
 
 [fields]
 kind = "class_option"

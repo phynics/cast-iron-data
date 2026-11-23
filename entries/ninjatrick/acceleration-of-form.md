@@ -6,6 +6,9 @@ source_ids = ["chronicle-of-legends"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acceleration_of_form", path = "json/class_ability_ninja_tricks.json" },
 ]
+[[sources]]
+publication = "chronicle-of-legends"
+page = "6"
 
 [fields]
 kind = "class_option"
