@@ -43,8 +43,11 @@ against creatures who, at the GM's discretion, would not be swayed by scent).
 
 ## Perfume/cologne
 
-**Price** 5 gp; **Weight** -\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Adventuring Gear
+:::
 
 Most perfumes and colognes are derived from the essential oils of flowers. Perfume or cologne may
 (at the GM's discretion) provide a +1 circumstance bonus on several Charisma-based skill checks.

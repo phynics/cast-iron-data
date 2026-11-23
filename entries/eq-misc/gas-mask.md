@@ -35,5 +35,8 @@ penalty on hearing- and sight-based Perception checks. A gas mask's filter canis
 
 ### Gas mask cannister
 
-**Price** 5 gp; **Weight** 1 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 1 lbs.
+Category: Adventuring Gear
+:::

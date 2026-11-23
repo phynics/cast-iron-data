@@ -34,8 +34,11 @@ exquisite acoustic properties grant the listener a +4 circumstance bonus instead
 
 ## Ear trumpet
 
-**Price** 5 gp; **Weight** 2 lbs.\
-**Category** Adventuring Gear
+::: statblock
+Price: 5 gp
+Weight: 2 lbs.
+Category: Adventuring Gear
+:::
 
 By holding this specially crafted ear trumpet to your ear and placing the other end against a door
 or wall, you reduce the DC penalty for listening through a door or wall by 5.

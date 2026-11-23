@@ -391,6 +391,13 @@ with no label (`Craft Technological Item, …`, and the lab). Owner ruling 3 (am
 line without a label stays a paragraph below it, unchanged. No `Requirements` label is added.
 The block carries no drift label.
 
+`pricevar` (`eq-misc`, 13 entries): the entries that carry a second item under a heading of its own
+(`## Ear trumpet`, `## Flag`, `### Gas mask cannister`, `## Perfume/cologne`) print its `**Price**`,
+`**Weight**` and `**Category**` there. One untitled block under that heading, which is the printed
+name of the variant, so no title is added (a `title` would repeat the heading). The block carries
+`Price` and `Weight`, so the entry's own block comes first (`no-lead-row`); a `Price` or `Slot`
+equal to the entry's own leaves the paragraph prose.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -2223,8 +2230,22 @@ def plan_techcons(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+def plan_pricevar(cs: list[list[str]]) -> dict[int, dict]:
+    """K-pricevar. A paragraph that opens with `**Price**` directly under a heading of its own
+    (the second item that an entry carries: `## Ear trumpet`, `## Flag`, `### Gas mask cannister`):
+    one untitled block under that heading, whose text is the printed name of the variant. The block
+    carries `Price` and `Weight`, so the entry's own block must come first, and a `Price` row equal
+    to the entry's own leaves the paragraph prose (ruling 2)."""
+    return {
+        index: {}
+        for index, chunk in enumerate(cs)
+        if index and len(cs[index - 1]) == 1 and HEADING.match(cs[index - 1][0]) and chunk[0].startswith("**Price** ")
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "pricevar": (("eq-misc",), plan_pricevar, ()),
     "techcons": (("tech-armor", "tech-artifact", "tech-cyber", "tech-misc", "tech-pharma", "tech-weapon"), plan_techcons, ()),
     "trap": (("eq-misc",), plan_trap, ()),
     "cost": (("eq-weapon", "magic-fleshcraft"), plan_cost, ()),
@@ -2878,7 +2899,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, TrapSelfTest, TechconsSelfTest, PricevarSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -4147,6 +4168,27 @@ class TechconsSelfTest(unittest.TestCase):
         with self.assertRaises(Queue) as caught:
             convert_variants(self.BODY.replace("**Cost** 1,000 gp", "**Cost** Paid in full. It is cheap"), plan_techcons)
         self.assertEqual(caught.exception.reason, "sentences-in-variant")
+
+
+class PricevarSelfTest(unittest.TestCase):
+    BODY = (
+        "\n## Gas mask (modern)\n\n::: statblock\nPrice: 25 gp\nWeight: 1 lbs.\nCategory: Adventuring Gear\n:::\n\nA mask.\n\n"
+        "### Gas mask cannister\n\n**Price** 5 gp; **Weight** 1 lbs.\\\n**Category** Adventuring Gear\n"
+    )
+
+    def test_the_paragraph_under_its_own_heading_becomes_an_untitled_block_under_it(self):
+        new = convert_variants(self.BODY, plan_pricevar)
+        self.assertTrue(new.endswith(
+            "### Gas mask cannister\n\n::: statblock\nPrice: 5 gp\nWeight: 1 lbs.\nCategory: Adventuring Gear\n:::\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_pricevar, new), "already")
+
+    def test_an_equal_price_stays_prose_and_a_missing_own_block_queues(self):
+        same = self.BODY.replace("Price: 25 gp", "Price: 5 gp")
+        self.assertEqual(convert_variants(same, plan_pricevar), same)
+        with self.assertRaises(Queue) as caught:
+            convert_variants("\n## Gas mask\n\nA mask.\n\n" + self.BODY.split("### Gas mask cannister")[0].split("A mask.\n\n")[1] + "### Gas mask cannister\n\n**Price** 5 gp\n", plan_pricevar)
+        self.assertEqual(caught.exception.reason, "no-lead-row")
 
 
 class SourcesSelfTest(unittest.TestCase):
