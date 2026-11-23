@@ -15,25 +15,34 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Halfling [fighter](ref/class/fighter) 4\
-CE Small humanoid (halfling)\
-**Init** +4; **Senses** Perception +6
+CE Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +4
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 20, touch 15, flat-footed 16 (+5 armor, +4 Dex, +1 size)\
-**hp** 30 (4d10+4)\
-**Fort** +6, **Ref** +6, **Will** +2; +3 vs. fear\
-**Defensive Abilities** bravery +1
+::: statblock
+AC: 20, touch 15, flat-footed 16 (+5 armor, +4 Dex, +1 size)
+hp: 30 (4d10+4)
+Fort: +6
+Ref: +6
+Will: +2; +3 vs. fear
+Defensive Abilities: bravery +1
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk dagger +9 (1d3+3/19-20), mwk dagger +9 (1d3+2/19-20)\
-**Ranged** dagger +10 (1d3+3/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: mwk dagger +9 (1d3+3/19-20), mwk dagger +9 (1d3+2/19-20)
+Ranged: dagger +10 (1d3+3/19-20)
+:::
 
 ### Tactics
 
@@ -43,18 +52,23 @@ in reserve for dangerous spellcasters or when battle turns against her.
 
 ### Statistics
 
-**Str** 12, **Dex** 18, **Con** 12, **Int** 13, **Wis** 10, **Cha** 10\
-**Base Atk** +4; **CMB** +4; **CMD** 18\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-[Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (dagger),
-[Weapon Specialization](ref/feat/weapon-specialization) (dagger)\
-**Skills** Acrobatics +10 (+6 when jumping), Bluff +4, Climb +3, Perception +6, Sleight of Hand +5,
-Stealth +11\
-**Languages** Common, Goblin, Halfling\
-**SQ** armor training 1\
-**Combat Gear** [feather token (whip)](ref/magic-wondrous/feather-token-whip), flask of
-[acid](ref/eq-weapon/acid); **Other Gear** +1 [chain shirt](ref/eq-armor/chain-shirt),
-[daggers](ref/eq-weapon/dagger) (6), masterwork daggers (2), 24 gp
+::: statblock
+Str: 12
+Dex: 18
+Con: 12
+Int: 13
+Wis: 10
+Cha: 10
+Base Atk: +4
+CMB: +4
+CMD: 18
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Focus](ref/feat/weapon-focus) (dagger), [Weapon Specialization](ref/feat/weapon-specialization) (dagger)
+Skills: Acrobatics +10 (+6 when jumping), Bluff +4, Climb +3, Perception +6, Sleight of Hand +5, Stealth +11
+Languages: Common, Goblin, Halfling
+SQ: armor training 1
+Combat Gear: [feather token (whip)](ref/magic-wondrous/feather-token-whip), flask of [acid](ref/eq-weapon/acid)
+Other Gear: +1 [chain shirt](ref/eq-armor/chain-shirt), [daggers](ref/eq-weapon/dagger) (6), masterwork daggers (2), 24 gp
+:::
 
 ### Description
 

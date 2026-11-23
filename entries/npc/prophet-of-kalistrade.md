@@ -15,54 +15,62 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Human [aristocrat](ref/npcclass/aristocrat) 5/prophet of Kalistrade 8\
-LN Medium humanoid (human)\
-**Init** +2; **Senses** Perception +0
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +2
+Senses: Perception +0
+:::
 
 ### Defense
 
-**AC** 18, touch 17, flat-footed 12 (+1 deflection, +2 Dex, +4 dodge, +1 natural)\
-**hp** 76 (13d8+18)\
-**Fort** +10, **Ref** +11, **Will** +15\
-**Defensive Abilities** auspicious display +3
+::: statblock
+AC: 18, touch 17, flat-footed 12 (+1 deflection, +2 Dex, +4 dodge, +1 natural)
+hp: 76 (13d8+18)
+Fort: +10
+Ref: +11
+Will: +15
+Defensive Abilities: auspicious display +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 longsword +9/+4 (1d8/19-20)\
-**Prophet Of Kalistrade Spells Known** (CL 8th; concentration +13)\
-_3rd (3)_-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance),
-[glibness](ref/spell/glibness), [suggestion](ref/spell/suggestion) (DC 20)\
-_2nd (5)_-[detect thoughts](ref/spell/detect-thoughts) (DC 17),
-[hideous laughter](ref/spell/hideous-laughter) (DC 19), [locate object](ref/spell/locate-object),
-[zone of truth](ref/spell/zone-of-truth) (DC 19)\
-_1st (6)_-[charm person](ref/spell/charm-person) (DC 18),
-[comprehend languages](ref/spell/comprehend-languages), [divine favor](ref/spell/divine-favor),
-[hypnotism](ref/spell/hypnotism) (DC 18), [identify](ref/spell/identify)
+::: statblock
+Speed: 30 ft.
+Melee: +1 longsword +9/+4 (1d8/19-20)
+:::
+
+::: statblock
+title = "Prophet Of Kalistrade Spells Known"
+Caster level: 8th
+Concentration: +13
+3rd (3): [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [glibness](ref/spell/glibness), [suggestion](ref/spell/suggestion) (DC 20)
+2nd (5): [detect thoughts](ref/spell/detect-thoughts) (DC 17), [hideous laughter](ref/spell/hideous-laughter) (DC 19), [locate object](ref/spell/locate-object), [zone of truth](ref/spell/zone-of-truth) (DC 19)
+1st (6): [charm person](ref/spell/charm-person) (DC 18), [comprehend languages](ref/spell/comprehend-languages), [divine favor](ref/spell/divine-favor), [hypnotism](ref/spell/hypnotism) (DC 18), [identify](ref/spell/identify)
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 14, **Con** 12, **Int** 14, **Wis** 10, **Cha** 21\
-**Base Atk** +9; **CMB** +8; **CMD** 25\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge),
-[Extend Spell](ref/feat/extend-spell), [Greater Spell Focus](ref/feat/greater-spell-focus)
-(enchantment), [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will),
-[Persuasive](ref/feat/persuasive), [Spell Focus](ref/feat/spell-focus) (enchantment)\
-**Skills** Appraise +18, Craft (jewelry) +13, Diplomacy +25, Intimidate +7, Knowledge (local,
-nobility) +18, Profession (merchant) +16, Sense Motive +13, Spellcraft +10\
-**Languages** Common, Dwarven, Varisian\
-**SQ** business acumen (two size categories), mystical contacts, prophet's chest, purchase spells
-(3rd, 2nd, or 1st level)\
-**Combat Gear** potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of
-[mage armor](ref/spell/mage-armor); **Other Gear** +1 [longsword](ref/eq-weapon/longsword),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), jewelry and opulent clothing (worth
-9,000 gp), 3,035 gp
+::: statblock
+Str: 8
+Dex: 14
+Con: 12
+Int: 14
+Wis: 10
+Cha: 21
+Base Atk: +9
+CMB: +8
+CMD: 25
+Feats: [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Extend Spell](ref/feat/extend-spell), [Greater Spell Focus](ref/feat/greater-spell-focus) (enchantment), [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will), [Persuasive](ref/feat/persuasive), [Spell Focus](ref/feat/spell-focus) (enchantment)
+Skills: Appraise +18, Craft (jewelry) +13, Diplomacy +25, Intimidate +7, Knowledge (local, nobility) +18, Profession (merchant) +16, Sense Motive +13, Spellcraft +10
+Languages: Common, Dwarven, Varisian
+SQ: business acumen (two size categories), mystical contacts, prophet's chest, purchase spells (3rd, 2nd, or 1st level)
+Combat Gear: potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), potion of [mage armor](ref/spell/mage-armor)
+Other Gear: +1 [longsword](ref/eq-weapon/longsword), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), jewelry and opulent clothing (worth 9,000 gp), 3,035 gp
+:::
 
 ### Special Abilities
 

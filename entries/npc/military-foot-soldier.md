@@ -15,39 +15,55 @@ kind = "creature"
 cr = "1/3"
 +++
 
-**Challenge rating:** 1/3
-
-**XP** 135\
 Human [warrior](ref/npcclass/warrior) 1\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +0
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/3
+XP: 135
+Init: +1
+Senses: Perception +0
+:::
 
 ### Defense
 
-**AC** 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)\
-**hp** 8 (1d10+3)\
-**Fort** +2, **Ref** +1, **Will** +0
+::: statblock
+AC: 17, touch 11, flat-footed 16 (+6 armor, +1 Dex)
+hp: 8 (1d10+3)
+Fort: +2
+Ref: +1
+Will: +0
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** longspear +3 (1d8+3/×3) or greatsword +3 (2d6+3/19-20) or dagger +3 (1d4+2/19-20)\
-**Ranged** javelin +2 (1d6+2)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with longspear)
+::: statblock
+Speed: 20 ft.
+Melee: longspear +3 (1d8+3/×3) or greatsword +3 (2d6+3/19-20) or dagger +3 (1d4+2/19-20)
+Ranged: javelin +2 (1d6+2)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with longspear)
+:::
 
 ### Statistics
 
-**Str** 15, **Dex** 12, **Con** 11, **Int** 8, **Wis** 10, **Cha** 9\
-**Base Atk** +1; **CMB** +3; **CMD** 14\
-**Feats** [Step Up](ref/feat/step-up), [Toughness](ref/feat/toughness)\
-**Skills** Craft (weapons) +3, Profession (soldier) +4, Survival +1\
-**Languages** Common\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[chainmail](ref/eq-armor/chainmail), [greatsword](ref/eq-weapon/greatsword),
-[dagger](ref/eq-weapon/dagger), [javelin](ref/eq-weapon/javelin),
-[longspear](ref/eq-weapon/longspear), 2 gp\
-**Boon** Foot soldiers can help PCs buy normal (non-masterwork) simple or martial weapons at a 10%
-discount, or may agree to accompany the PCs as men-at-arms for a 10% share of the treasure.
+::: statblock
+Str: 15
+Dex: 12
+Con: 11
+Int: 8
+Wis: 10
+Cha: 9
+Base Atk: +1
+CMB: +3
+CMD: 14
+Feats: [Step Up](ref/feat/step-up), [Toughness](ref/feat/toughness)
+Skills: Craft (weapons) +3, Profession (soldier) +4, Survival +1
+Languages: Common
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [chainmail](ref/eq-armor/chainmail), [greatsword](ref/eq-weapon/greatsword), [dagger](ref/eq-weapon/dagger), [javelin](ref/eq-weapon/javelin), [longspear](ref/eq-weapon/longspear), 2 gp
+Boon: Foot soldiers can help PCs buy normal (non-masterwork) simple or martial weapons at a 10% discount, or may agree to accompany the PCs as men-at-arms for a 10% share of the treasure.
+:::
 
 ### Description
 

@@ -18,52 +18,61 @@ cr = "5"
 _This warrior's armor resembles the carapace of a mighty beetle. She wields a khopesh in one hand
 and a large shield in the other._
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Human [fighter](ref/class/fighter) 6\
-LN Medium humanoid (human)\
-**Init** +2; **Senses** Perception +6
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +2
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 21, touch 11, flat-footed 20 (+8 armor, +1 Dex, +2 shield)\
-**hp** 49 (6d10+12)\
-**Fort** +8, **Ref** +5, **Will** +5 (+2 vs. fear)\
-**Defensive Abilities** bravery +2
+::: statblock
+AC: 21, touch 11, flat-footed 20 (+8 armor, +1 Dex, +2 shield)
+hp: 49 (6d10+12)
+Fort: +8
+Ref: +5
+Will: +5 (+2 vs. fear)
+Defensive Abilities: bravery +2
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 khopesh +11/+6 (1d8+5/19-20)\
-**Ranged** heavy crossbow +8 (1d10/19-20)\
-**Special Attacks** weapon training (heavy blades +1)
+::: statblock
+Speed: 20 ft.
+Melee: +1 khopesh +11/+6 (1d8+5/19-20)
+Ranged: heavy crossbow +8 (1d10/19-20)
+Special Attacks: weapon training (heavy blades +1)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 14, **Con** 14, **Int** 13, **Wis** 10, **Cha** 8\
-**Base Atk** +6; **CMB** +9 (+13 trip); **CMD** 21 (23 vs. trip)\
-**Feats** [Bodyguard](ref/feat/bodyguard), [Combat Expertise](ref/feat/combat-expertise),
-[Combat Reflexes](ref/feat/combat-reflexes),
-[Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (khopesh),
-[Greater Trip](ref/feat/greater-trip), [Improved Trip](ref/feat/improved-trip),
-[In Harm's Way](ref/feat/in-harms-way), [Iron Will](ref/feat/iron-will)\
-**Skills** Heal +6, Intimidate +8 (+10 vs. Osirians), Knowledge (local) +7, Perception +6, Sense
-Motive +6; Racial Modifiers +2 Intimidate vs. Osirians\
-**Languages** Common, Dwarven, Osiriani\
-**SQ** armor training 1, the Constant
+::: statblock
+Str: 16
+Dex: 14
+Con: 14
+Int: 13
+Wis: 10
+Cha: 8
+Base Atk: +6
+CMB: +9 (+13 trip)
+CMD: 21 (23 vs. trip)
+Feats: [Bodyguard](ref/feat/bodyguard), [Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes), [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (khopesh), [Greater Trip](ref/feat/greater-trip), [Improved Trip](ref/feat/improved-trip), [In Harm's Way](ref/feat/in-harms-way), [Iron Will](ref/feat/iron-will)
+Skills: Heal +6, Intimidate +8 (+10 vs. Osirians), Knowledge (local) +7, Perception +6, Sense Motive +6; Racial Modifiers +2 Intimidate vs. Osirians
+Languages: Common, Dwarven, Osiriani
+SQ: armor training 1, the Constant
+:::
 
 ### Ecology
 
-**Environment** any (Osirion)\
-**Organization** solitary, squad (3), team (6-12), escort (3-12 with government dignitary), or royal
-detail (24+ with pharaoh)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget)
-([half-plate](ref/eq-armor/half-plate), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), +1
-[khopesh](ref/eq-weapon/khopesh), [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), potion of
-[bull's strength](ref/spell/bulls-strength), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), 72 gp)
+::: statblock
+Environment: any (Osirion)
+Organization: solitary, squad (3), team (6-12), escort (3-12 with government dignitary), or royal detail (24+ with pharaoh)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) ([half-plate](ref/eq-armor/half-plate), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), +1 [khopesh](ref/eq-weapon/khopesh), [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), potion of [bull's strength](ref/spell/bulls-strength), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), 72 gp)
+:::
 
 ### Special Abilities
 

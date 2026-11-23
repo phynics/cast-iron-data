@@ -18,56 +18,61 @@ cr = "6"
 _This hard-eyed stranger holds a strange weapon in his hand that resembles a pistol but glows with a
 pale blue light._
 
-**Challenge rating:** 6
-
-**XP** 2,400\
 Human [gunslinger](ref/class/gunslinger) 6\
-CG Medium humanoid (human)\
-**Init** +5; **Senses** Perception +11
+CG Medium humanoid (human)
+
+::: statblock
+Challenge rating: 6
+XP: 2,400
+Init: +5
+Senses: Perception +11
+:::
 
 ### Defense
 
-**AC** 20, touch 16, flat-footed 15 (+4 armor, +1 deflection, +3 Dex, +2 dodge)\
-**hp** 61 (6d10+24)\
-**Fort** +8, **Ref** +9, **Will** +5\
-**Defensive Abilities** nimble +2
+::: statblock
+AC: 20, touch 16, flat-footed 15 (+4 armor, +1 deflection, +3 Dex, +2 dodge)
+hp: 61 (6d10+24)
+Fort: +8
+Ref: +9
+Will: +5
+Defensive Abilities: nimble +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +8/+3 (1d4+1/19-20)\
-**Ranged** laser pistol +10 touch (1d8+3 fire) or mwk pistol +10 touch (1d8/×4)\
-**Special Attacks** grit (2), gun training (laser pistol, +3)
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +8/+3 (1d4+1/19-20)
+Ranged: laser pistol +10 touch (1d8+3 fire) or mwk pistol +10 touch (1d8/×4)
+Special Attacks: grit (2), gun training (laser pistol, +3)
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 17, **Con** 14, **Int** 10, **Wis** 14, **Cha** 8\
-**Base Atk** +6; **CMB** +7; **CMD** 23\
-**Feats** [Gunsmithing](ref/feat/gunsmithing), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot),
-[Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (laser pistol)\
-**Skills** Acrobatics +11, Craft (mechanical) +9, Knowledge (engineering) +9, Perception +11,
-Sleight of Hand +11\
-**Languages** Common\
-**SQ** deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility
-shot), gunsmith, rare resources
+::: statblock
+Str: 12
+Dex: 17
+Con: 14
+Int: 10
+Wis: 14
+Cha: 8
+Base Atk: +6
+CMB: +7
+CMD: 23
+Feats: [Gunsmithing](ref/feat/gunsmithing), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (laser pistol)
+Skills: Acrobatics +11, Craft (mechanical) +9, Knowledge (engineering) +9, Perception +11, Sleight of Hand +11
+Languages: Common
+SQ: deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith, rare resources
+:::
 
 ### Ecology
 
-**Environment** any (Numeria)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (oil of
-[magic weapon](ref/spell/magic-weapon), potion of [cat's grace](ref/spell/cats-grace), potions of
-[cure moderate wounds](ref/spell/cure-moderate-wounds) (2), [antitoxin](ref/eq-misc/antitoxin), mwk
-[chain shirt](ref/eq-armor/chain-shirt), [laser pistol](ref/tech-weapon/laser-pistol), mwk
-[dagger](ref/eq-weapon/dagger), mwk [pistol](ref/eq-weapon/pistol) with 20 bullets and 20
-[paper alchemical cartridges](ref/eq-weapon/alchemical-cartridge-paper-bullet-or-pellet) \[bullet\],
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), black
-[powder horn](ref/eq-misc/powder-horn) with 20 doses of black powder,
-[everburning torch](ref/eq-misc/everburning-torch), mwk
-[artisan's tools](ref/eq-misc/artisans-tools-masterwork), 5 Numerian silverdisks worth 100 gp each,
-40 gp)
+::: statblock
+Environment: any (Numeria)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (oil of [magic weapon](ref/spell/magic-weapon), potion of [cat's grace](ref/spell/cats-grace), potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), [antitoxin](ref/eq-misc/antitoxin), mwk [chain shirt](ref/eq-armor/chain-shirt), [laser pistol](ref/tech-weapon/laser-pistol), mwk [dagger](ref/eq-weapon/dagger), mwk [pistol](ref/eq-weapon/pistol) with 20 bullets and 20 [paper alchemical cartridges](ref/eq-weapon/alchemical-cartridge-paper-bullet-or-pellet) \[bullet\], [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), black [powder horn](ref/eq-misc/powder-horn) with 20 doses of black powder, [everburning torch](ref/eq-misc/everburning-torch), mwk [artisan's tools](ref/eq-misc/artisans-tools-masterwork), 5 Numerian silverdisks worth 100 gp each, 40 gp)
+:::
 
 ### Special Abilities
 

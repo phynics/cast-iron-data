@@ -15,23 +15,32 @@ kind = "creature"
 cr = "1/3"
 +++
 
-**Challenge rating:** 1/3
-
-**XP** 135\
 Halfling [aristocrat](ref/npcclass/aristocrat) 1\
-N Small humanoid (halfling)\
-**Init** +2; **Senses** Perception +6
+N Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 1/3
+XP: 135
+Init: +2
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 13, touch 13, flat-footed 11 (+2 Dex, +1 size)\
-**hp** 3 (1d8-1)\
-**Fort** +0, **Ref** +3, **Will** +3; +2 vs. fear
+::: statblock
+AC: 13, touch 13, flat-footed 11 (+2 Dex, +1 size)
+hp: 3 (1d8-1)
+Fort: +0
+Ref: +3
+Will: +3; +2 vs. fear
+:::
 
 ### Offense
 
-**Speed** 25 ft.\
-**Melee** dagger -1 (1d3-2/19-20)
+::: statblock
+Speed: 25 ft.
+Melee: dagger -1 (1d3-2/19-20)
+:::
 
 ### Tactics
 
@@ -40,13 +49,21 @@ possible to find a guard.
 
 ### Statistics
 
-**Str** 6, **Dex** 15, **Con** 9, **Int** 12, **Wis** 10, **Cha** 12\
-**Base Atk** +0; **CMB** -3; **CMD** 9\
-**Feats** [Fleet](ref/feat/fleet)\
-**Skills** Acrobatics +4, Climb +0, Diplomacy +5, Escape Artist +3, Knowledge (local, nobility) +5,
-Perception +6, Stealth +7\
-**Languages** Common, Halfling\
-**Gear** [dagger](ref/eq-weapon/dagger), [courtier's outfit](ref/eq-misc/courtiers-outfit), 228 gp
+::: statblock
+Str: 6
+Dex: 15
+Con: 9
+Int: 12
+Wis: 10
+Cha: 12
+Base Atk: +0
+CMB: -3
+CMD: 9
+Feats: [Fleet](ref/feat/fleet)
+Skills: Acrobatics +4, Climb +0, Diplomacy +5, Escape Artist +3, Knowledge (local, nobility) +5, Perception +6, Stealth +7
+Languages: Common, Halfling
+Gear: [dagger](ref/eq-weapon/dagger), [courtier's outfit](ref/eq-misc/courtiers-outfit), 228 gp
+:::
 
 ### Description
 

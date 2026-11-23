@@ -18,60 +18,69 @@ cr = "8"
 _Battered scraps of metal hang from this battle-scarred archer's necklace, trophies of the fierce
 Kellid's many mechanical kills._
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [ranger](ref/class/ranger) 9\
-CN Medium humanoid (human)\
-**Init** +4; **Senses** Perception +13
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +4
+Senses: Perception +13
+:::
 
 ### Defense
 
-**AC** 19, touch 14, flat-footed 15 (+5 armor, +4 Dex)\
-**hp** 79 (9d10+25)\
-**Fort** +9, **Ref** +11, **Will** +5\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 19, touch 14, flat-footed 15 (+5 armor, +4 Dex)
+hp: 79 (9d10+25)
+Fort: +9
+Ref: +11
+Will: +5
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** adamantine warhammer +12/+7 (1d8+2/×3)\
-**Ranged** mwk composite longbow +15/+10 (1d8+2/×3)\
-**Special Attacks** combat style (archery), favored enemy (animals +2, constructs +4)\
-**Ranger Spells Prepared** (CL 6th; concentration +7)\
-_2nd_-[barkskin](ref/spell/barkskin)\
-_1st_-[abundant ammunition](ref/spell/abundant-ammunition), [longstrider](ref/spell/longstrider),
-[resist energy](ref/spell/resist-energy)
+::: statblock
+Speed: 30 ft.
+Melee: adamantine warhammer +12/+7 (1d8+2/×3)
+Ranged: mwk composite longbow +15/+10 (1d8+2/×3)
+Special Attacks: combat style (archery), favored enemy (animals +2, constructs +4)
+:::
+
+::: statblock
+title = "Ranger Spells Prepared"
+Caster level: 6th
+Concentration: +7
+2nd: [barkskin](ref/spell/barkskin)
+1st: [abundant ammunition](ref/spell/abundant-ammunition), [longstrider](ref/spell/longstrider), [resist energy](ref/spell/resist-energy)
+:::
 
 ### Statistics
 
-**Str** 14, **Dex** 18, **Con** 14, **Int** 8, **Wis** 12, **Cha** 10\
-**Base Atk** +9; **CMB** +11; **CMD** 25\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Diehard](ref/feat/diehard),
-[Endurance](ref/feat/endurance), [Improved Precise Shot](ref/feat/improved-precise-shot),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Power Attack](ref/feat/power-attack),
-[Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot),
-[Weapon Focus](ref/feat/weapon-focus) (longbow)\
-**Skills** Heal +12, Knowledge (geography) +8, Knowledge (nature) +8, Perception +13, Sense Motive
-+10, Stealth +15, Survival +13\
-**Languages** Common, Hallit\
-**SQ** [favored terrain](ref/ability/favored-terrain) (mountain +2, plains +4), hunter's bond
-(companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +9,
-[woodland stride](ref/ability/woodland-stride)
+::: statblock
+Str: 14
+Dex: 18
+Con: 14
+Int: 8
+Wis: 12
+Cha: 10
+Base Atk: +9
+CMB: +11
+CMD: 25
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Improved Precise Shot](ref/feat/improved-precise-shot), [Point-Blank Shot](ref/feat/point-blank-shot), [Power Attack](ref/feat/power-attack), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Weapon Focus](ref/feat/weapon-focus) (longbow)
+Skills: Heal +12, Knowledge (geography) +8, Knowledge (nature) +8, Perception +13, Sense Motive +10, Stealth +15, Survival +13
+Languages: Common, Hallit
+SQ: [favored terrain](ref/ability/favored-terrain) (mountain +2, plains +4), hunter's bond (companions), swift tracker, track +4, [wild empathy](ref/ability/wild-empathy) +9, [woodland stride](ref/ability/woodland-stride)
+:::
 
 ### Ecology
 
-**Environment** cold hills or plains (Numeria)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1
-[adamantine](ref/eq-material/adamantine) construct [bane](ref/magic-enh/bane) arrows (10),
-adamantine [arrows](ref/eq-weapon/arrow) (10), scroll of [cat's grace](ref/spell/cats-grace), scroll
-of [cure moderate wounds](ref/spell/cure-moderate-wounds),
-[arc grenade](ref/tech-weapon/arc-grenade), +1 [chain shirt](ref/eq-armor/chain-shirt), adamantine
-[warhammer](ref/eq-weapon/warhammer), [dagger](ref/eq-weapon/dagger), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), animal fetish \[divine focus\],
-[spell component pouch](ref/eq-misc/spell-component-pouch), 29 gp)
+::: statblock
+Environment: cold hills or plains (Numeria)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (+1 [adamantine](ref/eq-material/adamantine) construct [bane](ref/magic-enh/bane) arrows (10), adamantine [arrows](ref/eq-weapon/arrow) (10), scroll of [cat's grace](ref/spell/cats-grace), scroll of [cure moderate wounds](ref/spell/cure-moderate-wounds), [arc grenade](ref/tech-weapon/arc-grenade), +1 [chain shirt](ref/eq-armor/chain-shirt), adamantine [warhammer](ref/eq-weapon/warhammer), [dagger](ref/eq-weapon/dagger), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), animal fetish \[divine focus\], [spell component pouch](ref/eq-misc/spell-component-pouch), 29 gp)
+:::
 
 ### Special Abilities
 

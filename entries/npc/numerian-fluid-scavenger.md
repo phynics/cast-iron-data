@@ -17,62 +17,61 @@ cr = "6"
 
 _Bottles and flasks hang from the belt and tattered leather armor or this ragged, wild-eyed human._
 
-**Challenge rating:** 6
-
-**XP** 2,400\
 Human [alchemist](ref/class/alchemist) 7\
-CN Medium humanoid (human)\
-**Init** +6; **Senses** Perception +9
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 6
+XP: 2,400
+Init: +6
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)\
-**hp** 56 (7d8+21)\
-**Fort** +9, **Ref** +10, **Will** +2; +4 vs. poison\
-**Weaknesses** addicted
+::: statblock
+AC: 16, touch 12, flat-footed 14 (+4 armor, +2 Dex)
+hp: 56 (7d8+21)
+Fort: +9
+Ref: +10
+Will: +2; +4 vs. poison
+Weaknesses: addicted
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk longspear +6 (1d8/×3)\
-**Ranged** dart +7 (1d4 plus poison)\
-**Special Attacks** bomb 11/day (4d6+4 fire, DC 17)
+::: statblock
+Speed: 30 ft.
+Melee: mwk longspear +6 (1d8/×3)
+Ranged: dart +7 (1d4 plus poison)
+Special Attacks: bomb 11/day (4d6+4 fire, DC 17)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 14, **Con** 13, **Int** 18, **Wis** 8, **Cha** 12\
-**Base Atk** +5; **CMB** +5; **CMD** 17\
-**Feats** [Brew Potion](ref/feat/brew-potion), [Great Fortitude](ref/feat/great-fortitude),
-[Improved Initiative](ref/feat/improved-initiative),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Throw Anything](ref/feat/throw-anything), [Toughness](ref/feat/toughness)\
-**Skills** Appraise +10, Craft (alchemy) +14, Disable Device +12, Knowledge (engineering) +11,
-Knowledge (local) +8, Perception +9, Sleight of Hand +12, Spellcraft +14, Stealth +9, Survival +9\
-**Languages** Aklo, Common, Giant, Hallit, Orc\
-**SQ** alchemy (alchemy crafting +7, identify potions), discoveries
-([acid bomb](ref/discovery/acid-bomb), [enhance potion](ref/discovery/enhance-potion) 4/day, latest
-dose, [mutagen](ref/discovery/mutagen) (+4/-2, +2 natural, 70 minutes),
-[precise bombs](ref/discovery/precise-bombs) \[4 squares\]), [poison use](ref/ability/poison-use),
-swift alchemy, swift poisoning
+::: statblock
+Str: 10
+Dex: 14
+Con: 13
+Int: 18
+Wis: 8
+Cha: 12
+Base Atk: +5
+CMB: +5
+CMD: 17
+Feats: [Brew Potion](ref/feat/brew-potion), [Great Fortitude](ref/feat/great-fortitude), [Improved Initiative](ref/feat/improved-initiative), [Lightning Reflexes](ref/feat/lightning-reflexes), [Point-Blank Shot](ref/feat/point-blank-shot), [Throw Anything](ref/feat/throw-anything), [Toughness](ref/feat/toughness)
+Skills: Appraise +10, Craft (alchemy) +14, Disable Device +12, Knowledge (engineering) +11, Knowledge (local) +8, Perception +9, Sleight of Hand +12, Spellcraft +14, Stealth +9, Survival +9
+Languages: Aklo, Common, Giant, Hallit, Orc
+SQ: alchemy (alchemy crafting +7, identify potions), discoveries ([acid bomb](ref/discovery/acid-bomb), [enhance potion](ref/discovery/enhance-potion) 4/day, latest dose, [mutagen](ref/discovery/mutagen) (+4/-2, +2 natural, 70 minutes), [precise bombs](ref/discovery/precise-bombs) \[4 squares\]), [poison use](ref/ability/poison-use), swift alchemy, swift poisoning
+:::
 
 ### Ecology
 
-**Environment** cold plains (Numeria)\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[delay poison](ref/spell/delay-poison), potion of
-[lesser restoration](ref/spell/restoration-lesser), potion of
-[remove disease](ref/spell/remove-disease), [acid](ref/eq-weapon/acid) (2),
-[alchemist's fire](ref/eq-weapon/alchemists-fire) (2), [darts](ref/eq-weapon/dart) coated in giant
-wasp poison \[6\], giant wasp poison \[4 doses\], [oil of taggit](ref/eq-poison/oil-of-taggit) \[2
-doses\], plastic container holding 1 pint of Numerian fluid, +1
-[studded leather](ref/eq-armor/studded-leather), mwk [longspear](ref/eq-weapon/longspear),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[alchemist's kit](ref/eq-misc/alchemists-kit), formula book \[contains all prepared formulae as well
-as the following: 1st-[comprehend languages](ref/spell/comprehend-languages),
-[detect secret doors](ref/spell/detect-secret-doors), [endure elements](ref/spell/endure-elements),
-[identify](ref/spell/identify); 2nd-cure moderate wounds, delay poison\], 34 gp)
+::: statblock
+Environment: cold plains (Numeria)
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [delay poison](ref/spell/delay-poison), potion of [lesser restoration](ref/spell/restoration-lesser), potion of [remove disease](ref/spell/remove-disease), [acid](ref/eq-weapon/acid) (2), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2), [darts](ref/eq-weapon/dart) coated in giant wasp poison \[6\], giant wasp poison \[4 doses\], [oil of taggit](ref/eq-poison/oil-of-taggit) \[2 doses\], plastic container holding 1 pint of Numerian fluid, +1 [studded leather](ref/eq-armor/studded-leather), mwk [longspear](ref/eq-weapon/longspear), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [alchemist's kit](ref/eq-misc/alchemists-kit), formula book \[contains all prepared formulae as well as the following: 1st-[comprehend languages](ref/spell/comprehend-languages), [detect secret doors](ref/spell/detect-secret-doors), [endure elements](ref/spell/endure-elements), [identify](ref/spell/identify); 2nd-cure moderate wounds, delay poison\], 34 gp)
+:::
 
 ### Special Abilities
 

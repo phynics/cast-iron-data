@@ -18,51 +18,61 @@ cr = "2"
 _Black feathers cover this crow-headed swashbuckler, his hands and legs ending in powerful talons.
 He wields a long, curved sword and wears brightly colored studded leather armor._
 
-**Challenge rating:** 2
-
-**XP** 600\
 Male [rogue](ref/class/rogue) ([charlatan](ref/arc-rogue/charlatan)) 3\
-CN Medium humanoid (tengu)\
-**Init** +7; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +10
+CN Medium humanoid (tengu)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +7
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +10
+:::
 
 ### Defense
 
-**AC** 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)\
-**hp** 20 (3d8+3)\
-**Fort** +2, **Ref** +6, **Will** +3\
-**Defensive Abilities** [evasion](ref/ability/evasion)
+::: statblock
+AC: 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)
+hp: 20 (3d8+3)
+Fort: +2
+Ref: +6
+Will: +3
+Defensive Abilities: [evasion](ref/ability/evasion)
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk rapier +6 (1d6-1/18-20)\
-**Ranged** mwk light crossbow +6 (1d8/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +2d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +6 (1d6-1/18-20)
+Ranged: mwk light crossbow +6 (1d8/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +2d6
+:::
 
 ### Statistics
 
-**Str** 8, **Dex** 17, **Con** 12, **Int** 10, **Wis** 14, **Cha** 13\
-**Base Atk** +2; **CMB** +1; **CMD** 14\
-**Feats** [Improved Initiative](ref/feat/improved-initiative),
-[Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +5, Bluff +7, Climb +1, Diplomacy +7, Escape Artist +9, Intimidate +7,
-Knowledge (local) +6, Linguistics +4, Perception +10, Sense Motive +8, Sleight of Hand +9, Stealth
-+11; Racial Modifiers +4 Linguistics, +2 Perception, +2 Stealth\
-**Languages** Common, Tengu\
-**SQ** advanced rogue talents ([rumormonger](ref/talent/rumormonger)), swordtrained
+::: statblock
+Str: 8
+Dex: 17
+Con: 12
+Int: 10
+Wis: 14
+Cha: 13
+Base Atk: +2
+CMB: +1
+CMD: 14
+Feats: [Improved Initiative](ref/feat/improved-initiative), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +5, Bluff +7, Climb +1, Diplomacy +7, Escape Artist +9, Intimidate +7, Knowledge (local) +6, Linguistics +4, Perception +10, Sense Motive +8, Sleight of Hand +9, Stealth +11; Racial Modifiers +4 Linguistics, +2 Perception, +2 Stealth
+Languages: Common, Tengu
+SQ: advanced rogue talents ([rumormonger](ref/talent/rumormonger)), swordtrained
+:::
 
 ### Ecology
 
-**Environment** any\
-**Organization** solitary\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[studded leather](ref/eq-armor/studded-leather), masterwork [rapier](ref/eq-weapon/rapier),
-masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[invisibility](ref/spell/invisibility), [alchemist's fire](ref/eq-weapon/alchemists-fire),
-[antitoxin](ref/eq-misc/antitoxin), [smokesticks](ref/eq-misc/smokestick) (2),
-[tanglefoot bag](ref/eq-weapon/tanglefoot-bag), [thunderstone](ref/eq-weapon/thunderstone), other
-treasure)
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [studded leather](ref/eq-armor/studded-leather), masterwork [rapier](ref/eq-weapon/rapier), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [invisibility](ref/spell/invisibility), [alchemist's fire](ref/eq-weapon/alchemists-fire), [antitoxin](ref/eq-misc/antitoxin), [smokesticks](ref/eq-misc/smokestick) (2), [tanglefoot bag](ref/eq-weapon/tanglefoot-bag), [thunderstone](ref/eq-weapon/thunderstone), other treasure)
+:::
 
 ### Description
 

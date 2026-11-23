@@ -15,26 +15,35 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Half-elf [ranger](ref/class/ranger) 1\
-LN Medium humanoid (elf, human)\
-**Init** +3; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +10
+LN Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +3
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +10
+:::
 
 ### Defense
 
-**AC** 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)\
-**hp** 12 (1d10+2)\
-**Fort** +3, **Ref** +5, **Will** +1; +2 vs. enchantments\
-**Immune** sleep
+::: statblock
+AC: 16, touch 13, flat-footed 13 (+3 armor, +3 Dex)
+hp: 12 (1d10+2)
+Fort: +3
+Ref: +5
+Will: +1; +2 vs. enchantments
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** longsword +3 (1d8+3/19-20) or shortspear +3 (1d6+2)\
-**Ranged** longbow +4 (1d8/×3)\
-**Special Attacks** favored enemy (orcs +2)
+::: statblock
+Speed: 30 ft.
+Melee: longsword +3 (1d8+3/19-20) or shortspear +3 (1d6+2)
+Ranged: longbow +4 (1d8/×3)
+Special Attacks: favored enemy (orcs +2)
+:::
 
 ### Tactics
 
@@ -44,19 +53,23 @@ trouble or cover her retreat.
 
 ### Statistics
 
-**Str** 14, **Dex** 17, **Con** 12, **Int** 10, **Wis** 13, **Cha** 8\
-**Base Atk** +1; **CMB** +3; **CMD** 16\
-**Feats** [Point-Blank Shot](ref/feat/point-blank-shot), [Skill Focus](ref/feat/skill-focus)
-(Perception)\
-**Skills** Climb +6, Knowledge (local) +1, Knowledge (nature) +4, Perception +10, Stealth +7,
-Survival +5\
-**Languages** Common, Elven\
-**SQ** elf blood, track +1, [wild empathy](ref/ability/wild-empathy) +0\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds),
-[alchemist's fire](ref/eq-weapon/alchemists-fire), masterwork [arrows](ref/eq-weapon/arrow) (3),
-[smokestick](ref/eq-misc/smokestick); **Other Gear** masterwork
-[studded leather](ref/eq-armor/studded-leather), [longbow](ref/eq-weapon/longbow) with 20 arrows,
-[longsword](ref/eq-weapon/longsword), [shortspear](ref/eq-weapon/shortspear), 15 gp
+::: statblock
+Str: 14
+Dex: 17
+Con: 12
+Int: 10
+Wis: 13
+Cha: 8
+Base Atk: +1
+CMB: +3
+CMD: 16
+Feats: [Point-Blank Shot](ref/feat/point-blank-shot), [Skill Focus](ref/feat/skill-focus) (Perception)
+Skills: Climb +6, Knowledge (local) +1, Knowledge (nature) +4, Perception +10, Stealth +7, Survival +5
+Languages: Common, Elven
+SQ: elf blood, track +1, [wild empathy](ref/ability/wild-empathy) +0
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), [alchemist's fire](ref/eq-weapon/alchemists-fire), masterwork [arrows](ref/eq-weapon/arrow) (3), [smokestick](ref/eq-misc/smokestick)
+Other Gear: masterwork [studded leather](ref/eq-armor/studded-leather), [longbow](ref/eq-weapon/longbow) with 20 arrows, [longsword](ref/eq-weapon/longsword), [shortspear](ref/eq-weapon/shortspear), 15 gp
+:::
 
 ### Description
 

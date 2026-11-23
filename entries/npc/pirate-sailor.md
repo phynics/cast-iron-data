@@ -17,42 +17,59 @@ cr = "1/2"
 
 _This rugged character is clad in colorful, mismatched clothing, his hair tied back in a bandana._
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [rogue](ref/class/rogue) 1\
-CN Medium humanoid (human)\
-**Init** +3; **Senses** Perception +4
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +3
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 16, touch 14, flat-footed 12 (+2 armor, +3 Dex, +1 dodge)\
-**hp** 9 (1d8+1)\
-**Fort** +1, **Ref** +5, **Will** +0
+::: statblock
+AC: 16, touch 14, flat-footed 12 (+2 armor, +3 Dex, +1 dodge)
+hp: 9 (1d8+1)
+Fort: +1
+Ref: +5
+Will: +0
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** falchion +2 (2d4+3/18-20) or mwk dagger +3 (1d4+3/19-20)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft.
+Melee: falchion +2 (2d4+3/18-20) or mwk dagger +3 (1d4+3/19-20)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Statistics
 
-**Str** 15, **Dex** 16, **Con** 13, **Int** 12, **Wis** 10, **Cha** 8\
-**Base Atk** +0; **CMB** +2; **CMD** 16\
-**Feats** [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge)\
-**Skills** Acrobatics +7, Bluff +3, Climb +6, Diplomacy +3, Disable Device +7, Escape Artist +7,
-Intimidate +3, Knowledge (local) +5, Perception +4, Sense Motive +4, Swim +6\
-**Languages** Common, Polyglot\
-**SQ** [trapfinding](ref/ability/trapfinding) +1
+::: statblock
+Str: 15
+Dex: 16
+Con: 13
+Int: 12
+Wis: 10
+Cha: 8
+Base Atk: +0
+CMB: +2
+CMD: 16
+Feats: [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge)
+Skills: Acrobatics +7, Bluff +3, Climb +6, Diplomacy +3, Disable Device +7, Escape Artist +7, Intimidate +3, Knowledge (local) +5, Perception +4, Sense Motive +4, Swim +6
+Languages: Common, Polyglot
+SQ: [trapfinding](ref/ability/trapfinding) +1
+:::
 
 ### Ecology
 
-**Environment** any oceans or coastlines\
-**Organization** solitary, pair, or gang (3-8)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget)
-([leather armor](ref/eq-armor/leather), [falchion](ref/eq-weapon/falchion), masterwork
-[dagger](ref/eq-weapon/dagger), other treasure)
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary, pair, or gang (3-8)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) ([leather armor](ref/eq-armor/leather), [falchion](ref/eq-weapon/falchion), masterwork [dagger](ref/eq-weapon/dagger), other treasure)
+:::
 
 ### Description
 

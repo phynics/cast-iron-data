@@ -15,51 +15,56 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Human [fighter](ref/class/fighter) 8\
-N Medium humanoid\
-**Init** +6; **Senses** Perception +8
+N Medium humanoid
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +6
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 25, touch 12, flat-footed 25 (+10 armor, +2 Dex, +3 shield)\
-**hp** 80 (8d10+36)\
-**Fort** +10, **Ref** +5, **Will** +6; +2 vs. fear\
-**Defensive Abilities** bravery +2
+::: statblock
+AC: 25, touch 12, flat-footed 25 (+10 armor, +2 Dex, +3 shield)
+hp: 80 (8d10+36)
+Fort: +10
+Ref: +5
+Will: +6; +2 vs. fear
+Defensive Abilities: bravery +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 bastard sword +14/+9 (1d10+7/17-20) or spiked gauntlet +11/+6 (1d4+3)\
-**Ranged** javelin +10 (1d6+3)\
-**Special Attacks** weapon training (heavy blades +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 bastard sword +14/+9 (1d10+7/17-20) or spiked gauntlet +11/+6 (1d4+3)
+Ranged: javelin +10 (1d6+3)
+Special Attacks: weapon training (heavy blades +1)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 14, **Con** 16, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +8; **CMB** +11; **CMD** 23\
-**Feats** [Cleave](ref/feat/cleave), [Improved Critical](ref/feat/improved-critical) (bastard
-sword), [Improved Initiative](ref/feat/improved-initiative),
-[Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will),
-[Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness),
-[Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bastard sword),
-[Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)\
-**Skills** Intimidate +7, Knowledge (dungeoneering) +5, Perception +8, Profession (soldier) +5, Ride
-+8, Survival +10\
-**Languages** Common\
-**SQ** armor training 2\
-**Combat Gear** potion of [align weapon](ref/spell/align-weapon), potion of
-[bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2); **Other Gear** +1
-[full plate](ref/eq-armor/full-plate), +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield), +1
-[bastard sword](ref/eq-weapon/bastard-sword), [spiked gauntlet](ref/eq-weapon/spiked-gauntlet),
-[javelins](ref/eq-weapon/javelin) (5),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 40 gp\
-**Boon** A sellsword may use her connections to help PCs buy +1 weapons or armor at a 10% discount,
-or lend her reputation to a PC with [Leadership](ref/feat/leadership), granting a +1 Leadership
-score bonus for 1 month to recruit warrior followers.
+::: statblock
+Str: 16
+Dex: 14
+Con: 16
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +8
+CMB: +11
+CMD: 23
+Feats: [Cleave](ref/feat/cleave), [Improved Critical](ref/feat/improved-critical) (bastard sword), [Improved Initiative](ref/feat/improved-initiative), [Improved Iron Will](ref/feat/improved-iron-will), [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (bastard sword), [Weapon Specialization](ref/feat/weapon-specialization) (bastard sword)
+Skills: Intimidate +7, Knowledge (dungeoneering) +5, Perception +8, Profession (soldier) +5, Ride +8, Survival +10
+Languages: Common
+SQ: armor training 2
+Combat Gear: potion of [align weapon](ref/spell/align-weapon), potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2)
+Other Gear: +1 [full plate](ref/eq-armor/full-plate), +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield), +1 [bastard sword](ref/eq-weapon/bastard-sword), [spiked gauntlet](ref/eq-weapon/spiked-gauntlet), [javelins](ref/eq-weapon/javelin) (5), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), 40 gp
+Boon: A sellsword may use her connections to help PCs buy +1 weapons or armor at a 10% discount, or lend her reputation to a PC with [Leadership](ref/feat/leadership), granting a +1 Leadership score bonus for 1 month to recruit warrior followers.
+:::
 
 ### Description
 

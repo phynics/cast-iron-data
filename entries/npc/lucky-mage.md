@@ -15,49 +15,56 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Halfling [sorcerer](ref/class/sorcerer) 11\
-N Small humanoid (halfling)\
-**Init** +3; **Senses** Perception +13
+N Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +3
+Senses: Perception +13
+:::
 
 ### Defense
 
-**AC** 21, touch 16, flat-footed 17 (+4 armor, +1 deflection, +3 Dex, +1 dodge, +1 natural, +1 size)\
-**hp** 63 (11d6+22)\
-**Fort** +9, **Ref** +11, **Will** +10; +2 vs. fear\
-**Defensive Abilities** fated +3; **Immune** fire (120 points)
+::: statblock
+AC: 21, touch 16, flat-footed 17 (+4 armor, +1 deflection, +3 Dex, +1 dodge, +1 natural, +1 size)
+hp: 63 (11d6+22)
+Fort: +9
+Ref: +11
+Will: +10; +2 vs. fear
+Defensive Abilities: fated +3
+Immune: fire (120 points)
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk longspear +5 (1d6-2/×3)\
-**Ranged** mwk light crossbow +10 (1d6/19-20)\
-**Special Attacks** it was meant to be (1/day)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 11th; concentration +16)\
-_8/day_-touch of destiny (+5)\
-**Sorcerer Spells Known** (CL 11th; concentration +16)\
-_5th (5/day)_-[break enchantment](ref/spell/break-enchantment),
-[interposing hand](ref/spell/interposing-hand), [teleport](ref/spell/teleport)\
-_4th (7/day)_-[bestow curse](ref/spell/bestow-curse) (DC 19),
-[dimension door](ref/spell/dimension-door), [freedom of movement](ref/spell/freedom-of-movement),
-[greater invisibility](ref/spell/invisibility-greater)\
-_3rd (7/day)_-[dispel magic](ref/spell/dispel-magic), [fireball](ref/spell/fireball) (DC 18),
-[hold person](ref/spell/hold-person) (DC 18),
-[protection from energy](ref/spell/protection-from-energy),
-[ray of exhaustion](ref/spell/ray-of-exhaustion) (DC 18)\
-_2nd (7/day)_-[acid arrow](ref/spell/acid-arrow), [blindness/deafness](ref/spell/blindness-deafness)
-(DC 17), [blur](ref/spell/blur), [scorching ray](ref/spell/scorching-ray),
-[see invisibility](ref/spell/see-invisibility), [spider climb](ref/spell/spider-climb)\
-_1st (8/day)_-[alarm](ref/spell/alarm), [charm person](ref/spell/charm-person) (DC 16),
-[floating disk](ref/spell/floating-disk), [mage armor](ref/spell/mage-armor),
-[magic missile](ref/spell/magic-missile), [true strike](ref/spell/true-strike)\
-_0 (at will)_-[arcane mark](ref/spell/arcane-mark), [detect magic](ref/spell/detect-magic),
-[light](ref/spell/light), [mage hand](ref/spell/mage-hand), [message](ref/spell/message),
-[prestidigitation](ref/spell/prestidigitation), [ray of frost](ref/spell/ray-of-frost),
-[read magic](ref/spell/read-magic), [resistance](ref/spell/resistance)\
-**Bloodline** [destined](ref/sorcbloodline/destined)
+::: statblock
+Speed: 20 ft.
+Melee: mwk longspear +5 (1d6-2/×3)
+Ranged: mwk light crossbow +10 (1d6/19-20)
+Special Attacks: it was meant to be (1/day)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11th
+Concentration: +16
+8/day: touch of destiny (+5)
+:::
+
+::: statblock
+title = "Sorcerer Spells Known"
+Caster level: 11th
+Concentration: +16
+5th (5/day): [break enchantment](ref/spell/break-enchantment), [interposing hand](ref/spell/interposing-hand), [teleport](ref/spell/teleport)
+4th (7/day): [bestow curse](ref/spell/bestow-curse) (DC 19), [dimension door](ref/spell/dimension-door), [freedom of movement](ref/spell/freedom-of-movement), [greater invisibility](ref/spell/invisibility-greater)
+3rd (7/day): [dispel magic](ref/spell/dispel-magic), [fireball](ref/spell/fireball) (DC 18), [hold person](ref/spell/hold-person) (DC 18), [protection from energy](ref/spell/protection-from-energy), [ray of exhaustion](ref/spell/ray-of-exhaustion) (DC 18)
+2nd (7/day): [acid arrow](ref/spell/acid-arrow), [blindness/deafness](ref/spell/blindness-deafness) (DC 17), [blur](ref/spell/blur), [scorching ray](ref/spell/scorching-ray), [see invisibility](ref/spell/see-invisibility), [spider climb](ref/spell/spider-climb)
+1st (8/day): [alarm](ref/spell/alarm), [charm person](ref/spell/charm-person) (DC 16), [floating disk](ref/spell/floating-disk), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile), [true strike](ref/spell/true-strike)
+0 (at will): [arcane mark](ref/spell/arcane-mark), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [message](ref/spell/message), [prestidigitation](ref/spell/prestidigitation), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic), [resistance](ref/spell/resistance)
+Bloodline: [destined](ref/sorcbloodline/destined)
+:::
 
 ### Tactics
 
@@ -70,26 +77,23 @@ her while she uses ranged attack spells such as fireball and ray of exhaustion.\
 
 ### Statistics
 
-**Str** 6, **Dex** 16, **Con** 12, **Int** 13, **Wis** 10, **Cha** 21\
-**Base Atk** +5; **CMB** +2; **CMD** 23\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Combat Expertise](ref/feat/combat-expertise),
-[Defensive Combat Training](ref/feat/defensive-combat-training), [Dodge](ref/feat/dodge),
-[Eschew Materials](ref/feat/eschew-materials), [Great Fortitude](ref/feat/great-fortitude),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Mobility](ref/feat/mobility)\
-**Skills** Acrobatics +5 (+1 when jumping), Bluff +13, Climb +0, Fly +9, Knowledge (arcana, history)
-+9, Perception +13, Spellcraft +10\
-**Languages** Common, Gnome, Halfling\
-**SQ** bloodline arcana (gains a luck bonus to saves when casting personal-range spells)\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[cure serious wounds](ref/spell/cure-serious-wounds), potion of
-[eagle's splendor](ref/spell/eagles-splendor), potion of [fly](ref/spell/fly), potion of
-[invisibility](ref/spell/invisibility), wand of [shield](ref/spell/shield) (44 charges); **Other
-Gear** masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 10 bolts, masterwork
-[longspear](ref/eq-weapon/longspear),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2),
-[headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1), 649 gp
+::: statblock
+Str: 6
+Dex: 16
+Con: 12
+Int: 13
+Wis: 10
+Cha: 21
+Base Atk: +5
+CMB: +2
+CMD: 23
+Feats: [Combat Casting](ref/feat/combat-casting), [Combat Expertise](ref/feat/combat-expertise), [Defensive Combat Training](ref/feat/defensive-combat-training), [Dodge](ref/feat/dodge), [Eschew Materials](ref/feat/eschew-materials), [Great Fortitude](ref/feat/great-fortitude), [Lightning Reflexes](ref/feat/lightning-reflexes), [Mobility](ref/feat/mobility)
+Skills: Acrobatics +5 (+1 when jumping), Bluff +13, Climb +0, Fly +9, Knowledge (arcana, history) +9, Perception +13, Spellcraft +10
+Languages: Common, Gnome, Halfling
+SQ: bloodline arcana (gains a luck bonus to saves when casting personal-range spells)
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [eagle's splendor](ref/spell/eagles-splendor), potion of [fly](ref/spell/fly), potion of [invisibility](ref/spell/invisibility), wand of [shield](ref/spell/shield) (44 charges)
+Other Gear: masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 10 bolts, masterwork [longspear](ref/eq-weapon/longspear), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [cloak of resistance +2](ref/magic-wondrous/cloak-of-resistance-2), [headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), 649 gp
+:::
 
 ### Description
 

@@ -15,33 +15,39 @@ kind = "creature"
 cr = "17"
 +++
 
-**Challenge rating:** 17
-
-**XP** 102,400\
 Human [barbarian](ref/class/barbarian) 18\
-N Medium humanoid (human)\
-**Init** +3; **Senses** Perception +21
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 17
+XP: 102,400
+Init: +3
+Senses: Perception +21
+:::
 
 ### Defense
 
-**AC** 19, touch 12, flat-footed 15 (+7 armor, +3 Dex, +1 dodge, -2 rage)\
-**hp** 230 (18d12+108)\
-**Fort** +19, **Ref** +12, **Will** +12; +6 vs. spells and spell-like and supernatural abilities, +4
-vs. enchantments\
-**Defensive Abilities** 50% chance to negate critical hits and sneak attacks,
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), indomitable will,
-[trap sense](ref/ability/trap-sense) +6; **DR** 4/-; **Immune** frightened, nauseated, shaken,
-sickened
+::: statblock
+AC: 19, touch 12, flat-footed 15 (+7 armor, +3 Dex, +1 dodge, -2 rage)
+hp: 230 (18d12+108)
+Fort: +19
+Ref: +12
+Will: +12; +6 vs. spells and spell-like and supernatural abilities, +4 vs. enchantments
+Defensive Abilities: 50% chance to negate critical hits and sneak attacks, [improved uncanny dodge](ref/ability/improved-uncanny-dodge), indomitable will, [trap sense](ref/ability/trap-sense) +6
+DR: 4/-
+Immune: frightened, nauseated, shaken, sickened
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** +3 adamantine ranseur +31/+26/+21/+16 (2d4+18/×3)\
-**Ranged** +1 composite longbow +22/+17/+12/+7 (1d8+11/×3)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with ranseur)\
-**Special Attacks** greater rage (40 rounds/day), rage powers (fearless rage, guarded stance +4,
-internal fortitude, mighty swing, quick reflexes, strength surge +18, superstition +6, surprise
-accuracy +5, unexpected strike)
+::: statblock
+Speed: 40 ft.
+Melee: +3 adamantine ranseur +31/+26/+21/+16 (2d4+18/×3)
+Ranged: +1 composite longbow +22/+17/+12/+7 (1d8+11/×3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with ranseur)
+Special Attacks: greater rage (40 rounds/day), rage powers (fearless rage, guarded stance +4, internal fortitude, mighty swing, quick reflexes, strength surge +18, superstition +6, surprise accuracy +5, unexpected strike)
+:::
 
 ### Tactics
 
@@ -59,27 +65,23 @@ abilities, no bonus vs. enchantments; **Melee** +3 adamantine ranseur +28/+23/+1
 
 ### Statistics
 
-**Str** 30, **Dex** 16, **Con** 20, **Int** 14, **Wis** 10, **Cha** 8\
-**Base Atk** +18; **CMB** +28 (+32 trip); **CMD** 40 (42 vs. trip)\
-**Feats** [Combat Expertise](ref/feat/combat-expertise),
-[Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge),
-[Greater Trip](ref/feat/greater-trip), [Improved Trip](ref/feat/improved-trip),
-[Lunge](ref/feat/lunge), [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack),
-[Spring Attack](ref/feat/spring-attack), [Whirlwind Attack](ref/feat/whirlwind-attack)\
-**Skills** Acrobatics +21, Climb +20, Intimidate +20, Knowledge (dungeoneering) +10, Knowledge
-(geography) +10, Knowledge (nature) +20, Perception +21, Ride +7, Survival +20, Swim +20\
-**Languages** Common\
-**SQ** fast movement, tireless rage\
-**Combat Gear** oil of [align weapon](ref/spell/align-weapon) (good), potion of
-[cure light wounds](ref/spell/cure-light-wounds), potion of [fly](ref/spell/fly), potion of
-[invisibility](ref/spell/invisibility), potions of [shield of faith](ref/spell/shield-of-faith) (2);
-**Other Gear** +1 [moderate fortification](ref/magic-enh/fortification-moderate)
-[breastplate](ref/eq-armor/breastplate), +3 [adamantine](ref/eq-material/adamantine)
-[ranseur](ref/eq-weapon/ranseur), +1 [composite longbow](ref/eq-weapon/composite-longbow) (+10 Str)
-with 20 arrows, [dagger](ref/eq-weapon/dagger), [handaxe](ref/eq-weapon/handaxe),
-[belt of giant strength +6](ref/magic-wondrous/belt-of-giant-strength-6),
-[cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3),
-[pink rhomboid](ref/magic-ioun/pink-rhomboid) ioun stone, 43 gp
+::: statblock
+Str: 30
+Dex: 16
+Con: 20
+Int: 14
+Wis: 10
+Cha: 8
+Base Atk: +18
+CMB: +28 (+32 trip)
+CMD: 40 (42 vs. trip)
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes), [Dodge](ref/feat/dodge), [Greater Trip](ref/feat/greater-trip), [Improved Trip](ref/feat/improved-trip), [Lunge](ref/feat/lunge), [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack), [Spring Attack](ref/feat/spring-attack), [Whirlwind Attack](ref/feat/whirlwind-attack)
+Skills: Acrobatics +21, Climb +20, Intimidate +20, Knowledge (dungeoneering) +10, Knowledge (geography) +10, Knowledge (nature) +20, Perception +21, Ride +7, Survival +20, Swim +20
+Languages: Common
+SQ: fast movement, tireless rage
+Combat Gear: oil of [align weapon](ref/spell/align-weapon) (good), potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [fly](ref/spell/fly), potion of [invisibility](ref/spell/invisibility), potions of [shield of faith](ref/spell/shield-of-faith) (2)
+Other Gear: +1 [moderate fortification](ref/magic-enh/fortification-moderate) [breastplate](ref/eq-armor/breastplate), +3 [adamantine](ref/eq-material/adamantine) [ranseur](ref/eq-weapon/ranseur), +1 [composite longbow](ref/eq-weapon/composite-longbow) (+10 Str) with 20 arrows, [dagger](ref/eq-weapon/dagger), [handaxe](ref/eq-weapon/handaxe), [belt of giant strength +6](ref/magic-wondrous/belt-of-giant-strength-6), [cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3), [pink rhomboid](ref/magic-ioun/pink-rhomboid) ioun stone, 43 gp
+:::
 
 ### Description
 

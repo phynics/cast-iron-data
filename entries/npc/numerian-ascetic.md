@@ -15,54 +15,57 @@ kind = "creature"
 cr = "13"
 +++
 
-**Challenge rating:** 13
-
-**XP** 25,600\
 Android [monk](ref/class/monk) 14\
-LN Medium humanoid (android)\
-**Init** +4; **Senses** [darkvision](ref/rule/darkvision) 60 ft.,
-[low-light vision](ref/rule/low-light-vision); Perception +16
+LN Medium humanoid (android)
+
+::: statblock
+Challenge rating: 13
+XP: 25,600
+Init: +4
+Senses: [darkvision](ref/rule/darkvision) 60 ft., [low-light vision](ref/rule/low-light-vision); Perception +16
+:::
 
 ### Defense
 
-**AC** 24, touch 23, flat-footed 19 (+1 armor, +2 deflection, +4 Dex, +1 dodge, +3 monk, +3 Wis)\
-**hp** 94 (14d8+28)\
-**Fort** +10, **Ref** +13, **Will** +12; +2 vs. enchantments\
-**Defensive Abilities** constructed, improved [evasion](ref/ability/evasion); **Immune** disease,
-emotion-based effects, exhaustion, fatigue, fear, poison, sleep; **SR** 24
+::: statblock
+AC: 24, touch 23, flat-footed 19 (+1 armor, +2 deflection, +4 Dex, +1 dodge, +3 monk, +3 Wis)
+hp: 94 (14d8+28)
+Fort: +10
+Ref: +13
+Will: +12; +2 vs. enchantments
+Defensive Abilities: constructed, improved [evasion](ref/ability/evasion)
+Immune: disease, emotion-based effects, exhaustion, fatigue, fear, poison, sleep
+SR: 24
+:::
 
 ### Offense
 
-**Speed** 70 ft.\
-**Melee** +2 unarmed strike +15/+10 (2d6+5) or +2 flurry of blows +17/+17/+12/+12/+7 (2d6+5)\
-**Ranged** dagger +14 (1d4+3/19-20)\
-**Special Attacks** flurry of blows, nanite surge (+17), stunning fist (15/day, DC 22)
+::: statblock
+Speed: 70 ft.
+Melee: +2 unarmed strike +15/+10 (2d6+5) or +2 flurry of blows +17/+17/+12/+12/+7 (2d6+5)
+Ranged: dagger +14 (1d4+3/19-20)
+Special Attacks: flurry of blows, nanite surge (+17), stunning fist (15/day, DC 22)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 18, **Con** 12, **Int** 10, **Wis** 17, **Cha** 8\
-**Base Atk** +10; **CMB** +18 (+22 grapple); **CMD** 36 (38 vs. grapple)\
-**Feats** [Agile Maneuvers](ref/feat/agile-maneuvers), [Bonebreaker](ref/feat/bonebreaker),
-[Catch Off-Guard](ref/feat/catch-off-guard), [Dimensional Agility](ref/feat/dimensional-agility),
-[Dodge](ref/feat/dodge), [Greater Grapple](ref/feat/greater-grapple),
-[Improved Grapple](ref/feat/improved-grapple),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Jawbreaker](ref/feat/jawbreaker),
-[Mantis Style](ref/feat/mantis-style), [Neckbreaker](ref/feat/neckbreaker),
-[Stunning Fist](ref/feat/stunning-fist)\
-**Skills** Acrobatics +18 (+48 when jumping), Climb +17, Heal +15, Perception +16, Sense Motive -1,
-Stealth +21; Racial Modifiers +2 Perception, -4 Sense Motive\
-**Languages** Common\
-**SQ** abundant step, diamond body, diamond soul, emotionless, fast movement, high jump, ki pool (10
-points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body\
-**Combat Gear** potion of [cat's grace](ref/spell/cats-grace), potion of
-[cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [haste](ref/spell/haste), potion
-of [invisibility](ref/spell/invisibility), [smokesticks](ref/eq-misc/smokestick) (2); **Other Gear**
-[daggers](ref/eq-weapon/dagger) (2),
-[amulet of mighty fists +2](ref/magic-wondrous/amulet-of-mighty-fists-2),
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2),
-[bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[ring of protection +2](ref/magic-ring/ring-of-protection-2)
+::: statblock
+Str: 16
+Dex: 18
+Con: 12
+Int: 10
+Wis: 17
+Cha: 8
+Base Atk: +10
+CMB: +18 (+22 grapple)
+CMD: 36 (38 vs. grapple)
+Feats: [Agile Maneuvers](ref/feat/agile-maneuvers), [Bonebreaker](ref/feat/bonebreaker), [Catch Off-Guard](ref/feat/catch-off-guard), [Dimensional Agility](ref/feat/dimensional-agility), [Dodge](ref/feat/dodge), [Greater Grapple](ref/feat/greater-grapple), [Improved Grapple](ref/feat/improved-grapple), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Jawbreaker](ref/feat/jawbreaker), [Mantis Style](ref/feat/mantis-style), [Neckbreaker](ref/feat/neckbreaker), [Stunning Fist](ref/feat/stunning-fist)
+Skills: Acrobatics +18 (+48 when jumping), Climb +17, Heal +15, Perception +16, Sense Motive -1, Stealth +21; Racial Modifiers +2 Perception, -4 Sense Motive
+Languages: Common
+SQ: abundant step, diamond body, diamond soul, emotionless, fast movement, high jump, ki pool (10 points, lawful, magic), maneuver training, purity of body, slow fall 70 ft., wholeness of body
+Combat Gear: potion of [cat's grace](ref/spell/cats-grace), potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [haste](ref/spell/haste), potion of [invisibility](ref/spell/invisibility), [smokesticks](ref/eq-misc/smokestick) (2)
+Other Gear: [daggers](ref/eq-weapon/dagger) (2), [amulet of mighty fists +2](ref/magic-wondrous/amulet-of-mighty-fists-2), [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), [bracers of armor +1](ref/magic-wondrous/bracers-of-armor-1), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [ring of protection +2](ref/magic-ring/ring-of-protection-2)
+:::
 
 ### Special Abilities
 

@@ -15,31 +15,39 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Half-elf [barbarian](ref/class/barbarian) 9\
-N Medium humanoid (elf, human)\
-**Init** +2; **Senses** [low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent);
-Perception +19
+N Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision), [scent](ref/umr/scent); Perception +19
+:::
 
 ### Defense
 
-**AC** 14, touch 10, flat-footed 12 (+4 armor, +2 Dex, -2 rage)\
-**hp** 109 (9d12+45)\
-**Fort** +11, **Ref** +6, **Will** +6; +4 vs. spells and spell-like and supernatural abilities, +2
-vs. enchantments\
-**Defensive Abilities** [improved uncanny dodge](ref/ability/improved-uncanny-dodge),
-[trap sense](ref/ability/trap-sense) +3; **DR** 1/-; **Immune** sleep
+::: statblock
+AC: 14, touch 10, flat-footed 12 (+4 armor, +2 Dex, -2 rage)
+hp: 109 (9d12+45)
+Fort: +11
+Ref: +6
+Will: +6; +4 vs. spells and spell-like and supernatural abilities, +2 vs. enchantments
+Defensive Abilities: [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +3
+DR: 1/-
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** +1 longspear +16/+11 (2d4+10/×3) or spiked gauntlet +15/+10 (1d4+6)\
-**Ranged** +1 composite longbow +12/+7 (1d8+7/×3)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with longspear)\
-**Special Attacks** rage (22 rounds/day), rage powers (quick reflexes, raging swimmer +9, scent,
-superstition +4)
+::: statblock
+Speed: 40 ft.
+Melee: +1 longspear +16/+11 (2d4+10/×3) or spiked gauntlet +15/+10 (1d4+6)
+Ranged: +1 composite longbow +12/+7 (1d8+7/×3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with longspear)
+Special Attacks: rage (22 rounds/day), rage powers (quick reflexes, raging swimmer +9, scent, superstition +4)
+:::
 
 ### Tactics
 
@@ -56,25 +64,23 @@ Climb +8, Swim +9.
 
 ### Statistics
 
-**Str** 22, **Dex** 14, **Con** 18, **Int** 12, **Wis** 10, **Cha** 8\
-**Base Atk** +9; **CMB** +15; **CMD** 25\
-**Feats** [Cleave](ref/feat/cleave), [Great Cleave](ref/feat/great-cleave), [Lunge](ref/feat/lunge),
-[Power Attack](ref/feat/power-attack), [Skill Focus](ref/feat/skill-focus) (Acrobatics),
-[Vital Strike](ref/feat/vital-strike)\
-**Skills** Acrobatics +16 (+20 when jumping), Climb +10, Handle Animal +10, Knowledge (nature) +5,
-Linguistics +3, Perception +19, Ride +5, Stealth +10, Survival +4, Swim +20\
-**Languages** Aquan, Common, Elven, Sylvan\
-**SQ** elf blood, fast movement\
-**Combat Gear** oil of [align weapon](ref/spell/align-weapon) (lawful), potion of
-[cure light wounds](ref/spell/cure-light-wounds), potion of
-[lesser restoration](ref/spell/restoration-lesser),
-[alchemical silver](ref/eq-material/alchemical-silver) [arrows](ref/eq-weapon/arrow) (10),
-[cold iron](ref/eq-material/cold-iron) arrows (10); **Other Gear** masterwork
-[chain shirt](ref/eq-armor/chain-shirt), +1 [composite longbow](ref/eq-weapon/composite-longbow) (+6
-Str) with 20 arrows, +1 [longspear](ref/eq-weapon/longspear), masterwork longspear,
-[spiked gauntlet](ref/eq-weapon/spiked-gauntlet),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle), 1 gp
+::: statblock
+Str: 22
+Dex: 14
+Con: 18
+Int: 12
+Wis: 10
+Cha: 8
+Base Atk: +9
+CMB: +15
+CMD: 25
+Feats: [Cleave](ref/feat/cleave), [Great Cleave](ref/feat/great-cleave), [Lunge](ref/feat/lunge), [Power Attack](ref/feat/power-attack), [Skill Focus](ref/feat/skill-focus) (Acrobatics), [Vital Strike](ref/feat/vital-strike)
+Skills: Acrobatics +16 (+20 when jumping), Climb +10, Handle Animal +10, Knowledge (nature) +5, Linguistics +3, Perception +19, Ride +5, Stealth +10, Survival +4, Swim +20
+Languages: Aquan, Common, Elven, Sylvan
+SQ: elf blood, fast movement
+Combat Gear: oil of [align weapon](ref/spell/align-weapon) (lawful), potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [lesser restoration](ref/spell/restoration-lesser), [alchemical silver](ref/eq-material/alchemical-silver) [arrows](ref/eq-weapon/arrow) (10), [cold iron](ref/eq-material/cold-iron) arrows (10)
+Other Gear: masterwork [chain shirt](ref/eq-armor/chain-shirt), +1 [composite longbow](ref/eq-weapon/composite-longbow) (+6 Str) with 20 arrows, +1 [longspear](ref/eq-weapon/longspear), masterwork longspear, [spiked gauntlet](ref/eq-weapon/spiked-gauntlet), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [eyes of the eagle](ref/magic-wondrous/eyes-of-the-eagle), 1 gp
+:::
 
 ### Description
 

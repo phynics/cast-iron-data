@@ -15,44 +15,53 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [commoner](ref/npcclass/commoner) 5\
-NG Medium humanoid\
-**Init** +0; **Senses** Perception +7
+NG Medium humanoid
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +0
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 11, touch 10, flat-footed 11 (+1 armor)\
-**hp** 17 (5d6)\
-**Fort** +1, **Ref** +1, **Will** +4
+::: statblock
+AC: 11, touch 10, flat-footed 11 (+1 armor)
+hp: 17 (5d6)
+Fort: +1
+Ref: +1
+Will: +4
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** spear +2 (1d8/×3)\
-**Ranged** spear +2 (1d8/×3)
+::: statblock
+Speed: 30 ft.
+Melee: spear +2 (1d8/×3)
+Ranged: spear +2 (1d8/×3)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 10, **Con** 11, **Int** 13, **Wis** 12, **Cha** 10\
-**Base Atk** +2; **CMB** +2; **CMD** 12\
-**Feats** [Alertness](ref/feat/alertness), [Endurance](ref/feat/endurance),
-[Iron Will](ref/feat/iron-will), [Skill Focus](ref/feat/skill-focus) (Heal)\
-**Skills** Handle Animal +5, Heal +10, Knowledge (religion) +5, Perception +7, Perform (sing) +5,
-Profession (midwife) +5, Ride +5, Sense Motive +7, Swim +5\
-**Languages** Common\
-**Combat Gear** potions of [cure light wounds](ref/spell/cure-light-wounds),
-[neutralize poison](ref/spell/neutralize-poison),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness),
-[remove disease](ref/spell/remove-disease), and [sanctuary](ref/spell/sanctuary),
-[holy water](ref/eq-weapon/holy-water); **Other Gear** [padded armor](ref/eq-armor/padded),
-[spear](ref/eq-weapon/spear), [healer's kit](ref/eq-misc/healers-kit),
-[wooden holy symbol](ref/eq-misc/wooden-holy-symbol), [mule](ref/eq-misc/donkey-or-mule)\
-**Boon** A pilgrim will tend the wounds of injured PCs with her Heal skill or one of her healing
-potions if the need is great or if the PCs make a donation to her church of at least half the
-potion's price.
+::: statblock
+Str: 10
+Dex: 10
+Con: 11
+Int: 13
+Wis: 12
+Cha: 10
+Base Atk: +2
+CMB: +2
+CMD: 12
+Feats: [Alertness](ref/feat/alertness), [Endurance](ref/feat/endurance), [Iron Will](ref/feat/iron-will), [Skill Focus](ref/feat/skill-focus) (Heal)
+Skills: Handle Animal +5, Heal +10, Knowledge (religion) +5, Perception +7, Perform (sing) +5, Profession (midwife) +5, Ride +5, Sense Motive +7, Swim +5
+Languages: Common
+Combat Gear: potions of [cure light wounds](ref/spell/cure-light-wounds), [neutralize poison](ref/spell/neutralize-poison), [remove blindness/deafness](ref/spell/remove-blindness-deafness), [remove disease](ref/spell/remove-disease), and [sanctuary](ref/spell/sanctuary), [holy water](ref/eq-weapon/holy-water)
+Other Gear: [padded armor](ref/eq-armor/padded), [spear](ref/eq-weapon/spear), [healer's kit](ref/eq-misc/healers-kit), [wooden holy symbol](ref/eq-misc/wooden-holy-symbol), [mule](ref/eq-misc/donkey-or-mule)
+Boon: A pilgrim will tend the wounds of injured PCs with her Heal skill or one of her healing potions if the need is great or if the PCs make a donation to her church of at least half the potion's price.
+:::
 
 ### Description
 

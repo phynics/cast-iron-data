@@ -15,29 +15,35 @@ kind = "creature"
 cr = "19"
 +++
 
-**Challenge rating:** 19
-
-**XP** 204,800\
 Human [fighter](ref/class/fighter) 10/duelist 10\
-N Medium humanoid (human)\
-**Init** +14; **Senses** Perception +20
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 19
+XP: 204,800
+Init: +14
+Senses: Perception +20
+:::
 
 ### Defense
 
-**AC** 28, touch 22, flat-footed 20 (+3 armor, +3 deflection, +7 Dex, +1 dodge, +1 insight, +3
-natural)\
-**hp** 224 (10d10+10d10+110)\
-**Fort** +17, **Ref** +19, **Will** +11; +3 vs. fear\
-**Defensive Abilities** bravery +3, canny defense +1, elaborate defense +3, enhanced mobility, grace
-+2, parry
+::: statblock
+AC: 28, touch 22, flat-footed 20 (+3 armor, +3 deflection, +7 Dex, +1 dodge, +1 insight, +3 natural)
+hp: 224 (10d10+10d10+110)
+Fort: +17
+Ref: +19
+Will: +11; +3 vs. fear
+Defensive Abilities: bravery +3, canny defense +1, elaborate defense +3, enhanced mobility, grace +2, parry
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 human-bane shock rapier +29/+24/+19/+14 (1d6+9/15-20 plus 1d6 electricity)\
-**Ranged** mwk dagger +29/+24/+19/+14 (1d4+6/19-20)\
-**Special Attacks** acrobatic charge, crippling critical, no retreat, precise strike +10, riposte,
-weapon training (light blades +2, crossbows +1)
+::: statblock
+Speed: 30 ft.
+Melee: +1 human-bane shock rapier +29/+24/+19/+14 (1d6+9/15-20 plus 1d6 electricity)
+Ranged: mwk dagger +29/+24/+19/+14 (1d4+6/19-20)
+Special Attacks: acrobatic charge, crippling critical, no retreat, precise strike +10, riposte, weapon training (light blades +2, crossbows +1)
+:::
 
 ### Tactics
 
@@ -47,33 +53,22 @@ then focusing his attentions on that one.
 
 ### Statistics
 
-**Str** 18, **Dex** 22, **Con** 18, **Int** 13, **Wis** 10, **Cha** 8\
-**Base Atk** +20; **CMB** +24; **CMD** 45\
-**Feats** [Blinding Critical](ref/feat/blinding-critical),
-[Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes),
-[Critical Focus](ref/feat/critical-focus), [Deflect Arrows](ref/feat/deflect-arrows),
-[Dodge](ref/feat/dodge), [Improved Critical](ref/feat/improved-critical) (rapier),
-[Improved Initiative](ref/feat/improved-initiative),
-[Improved Iron Will](ref/feat/improved-iron-will),
-[Improved Vital Strike](ref/feat/improved-vital-strike), [Iron Will](ref/feat/iron-will),
-[Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack),
-[Spring Attack](ref/feat/spring-attack), [Toughness](ref/feat/toughness),
-[Vital Strike](ref/feat/vital-strike), [Weapon Finesse](ref/feat/weapon-finesse),
-[Weapon Specialization](ref/feat/weapon-specialization) (rapier),
-[Wind Stance](ref/feat/wind-stance)\
-**Skills** Acrobatics +16, Bluff +4, Climb +17, Diplomacy +4, Heal +5, Intimidate +12, Knowledge
-(history, local, nobility) +6, Perception +20, Perform (dance) +4, Ride +14, Stealth +16\
-**SQ** armor training 2, improved reaction +4\
-**Combat Gear** potion of [cure serious wounds](ref/spell/cure-serious-wounds); **Other Gear** +1
-human-[bane](ref/magic-enh/bane) shock rapier, masterwork [dagger](ref/eq-weapon/dagger),
-[amulet of natural armor +3](ref/magic-wondrous/amulet-of-natural-armor-3),
-[belt of physical perfection +4](ref/magic-wondrous/belt-of-physical-perfection-4),
-[boots of speed](ref/magic-wondrous/boots-of-speed),
-[bracers of armor +3](ref/magic-wondrous/bracers-of-armor-3),
-[cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3),
-[dusty rose prism](ref/magic-ioun/dusty-rose-prism) ioun stone,
-[hat of disguise](ref/magic-wondrous/hat-of-disguise),
-[ring of protection +3](ref/magic-ring/ring-of-protection-3), 2,526 gp
+::: statblock
+Str: 18
+Dex: 22
+Con: 18
+Int: 13
+Wis: 10
+Cha: 8
+Base Atk: +20
+CMB: +24
+CMD: 45
+Feats: [Blinding Critical](ref/feat/blinding-critical), [Combat Expertise](ref/feat/combat-expertise), [Combat Reflexes](ref/feat/combat-reflexes), [Critical Focus](ref/feat/critical-focus), [Deflect Arrows](ref/feat/deflect-arrows), [Dodge](ref/feat/dodge), [Improved Critical](ref/feat/improved-critical) (rapier), [Improved Initiative](ref/feat/improved-initiative), [Improved Iron Will](ref/feat/improved-iron-will), [Improved Vital Strike](ref/feat/improved-vital-strike), [Iron Will](ref/feat/iron-will), [Mobility](ref/feat/mobility), [Power Attack](ref/feat/power-attack), [Spring Attack](ref/feat/spring-attack), [Toughness](ref/feat/toughness), [Vital Strike](ref/feat/vital-strike), [Weapon Finesse](ref/feat/weapon-finesse), [Weapon Specialization](ref/feat/weapon-specialization) (rapier), [Wind Stance](ref/feat/wind-stance)
+Skills: Acrobatics +16, Bluff +4, Climb +17, Diplomacy +4, Heal +5, Intimidate +12, Knowledge (history, local, nobility) +6, Perception +20, Perform (dance) +4, Ride +14, Stealth +16
+SQ: armor training 2, improved reaction +4
+Combat Gear: potion of [cure serious wounds](ref/spell/cure-serious-wounds)
+Other Gear: +1 human-[bane](ref/magic-enh/bane) shock rapier, masterwork [dagger](ref/eq-weapon/dagger), [amulet of natural armor +3](ref/magic-wondrous/amulet-of-natural-armor-3), [belt of physical perfection +4](ref/magic-wondrous/belt-of-physical-perfection-4), [boots of speed](ref/magic-wondrous/boots-of-speed), [bracers of armor +3](ref/magic-wondrous/bracers-of-armor-3), [cloak of resistance +3](ref/magic-wondrous/cloak-of-resistance-3), [dusty rose prism](ref/magic-ioun/dusty-rose-prism) ioun stone, [hat of disguise](ref/magic-wondrous/hat-of-disguise), [ring of protection +3](ref/magic-ring/ring-of-protection-3), 2,526 gp
+:::
 
 ### Description
 

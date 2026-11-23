@@ -15,52 +15,57 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Half-elf [druid](ref/class/druid) 11\
-CN Medium humanoid (elf, human)\
-**Init** +5; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +14
+CN Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +5
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +14
+:::
 
 ### Defense
 
-**AC** 23, touch 13, flat-footed 21 (+7 armor, +1 deflection, +1 Dex, +1 dodge, +3 shield)\
-**hp** 84 (11d8+31)\
-**Fort** +10, **Ref** +5, **Will** +13; +2 vs. enchantments, +4 vs. fey and plant-targeted effects\
-**Immune** poison; **Resist** electricity 10
+::: statblock
+AC: 23, touch 13, flat-footed 21 (+7 armor, +1 deflection, +1 Dex, +1 dodge, +3 shield)
+hp: 84 (11d8+31)
+Fort: +10
+Ref: +5
+Will: +13; +2 vs. enchantments, +4 vs. fey and plant-targeted effects
+Immune: poison
+Resist: electricity 10
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 sickle +10/+5 (1d6+2)\
-**Ranged** mwk shortspear +10/+5 (1d6+1)\
-**Special Attacks** wild shape 4/day\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 11th; concentration +16)\
-_8/day_-[lightning arc](ref/spell/lightning-arc)\
-**Druid Spells Prepared** (CL 11th; concentration +16)\
-_6th_-[chain lightning](ref/spell/chain-lightning)^[1](ref/npc/mistress-of-high-places#footnote-d)^
-(DC 22), [greater dispel magic](ref/spell/dispel-magic-greater)\
-_5th_-[call lightning storm](ref/spell/call-lightning-storm) (DC 21),
-[control winds](ref/spell/control-winds)^[1](ref/npc/mistress-of-high-places#footnote-d)^ (DC 20),
-[cure critical wounds](ref/spell/cure-critical-wounds), [wall of fire](ref/spell/wall-of-fire) (DC
-21)\
-_4th_-[air walk](ref/spell/air-walk)^[1](ref/npc/mistress-of-high-places#footnote-d)^,
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[freedom of movement](ref/spell/freedom-of-movement), [ice storm](ref/spell/ice-storm) (DC 20),
-[scrying](ref/spell/scrying) (DC 19)\
-_3rd_-[gaseous form](ref/spell/gaseous-form)^[1](ref/npc/mistress-of-high-places#footnote-d)^,
-[greater magic fang](ref/spell/magic-fang-greater) (2),
-[protection from energy](ref/spell/protection-from-energy) (2), [sleet storm](ref/spell/sleet-storm)\
-_2nd_-[animal messenger](ref/spell/animal-messenger), [barkskin](ref/spell/barkskin) (3),
-[fog cloud](ref/spell/fog-cloud),
-[wind wall](ref/spell/wind-wall)^[1](ref/npc/mistress-of-high-places#footnote-d)^\
-_1st_-[cure light wounds](ref/spell/cure-light-wounds) (2),
-[endure elements](ref/spell/endure-elements), [faerie fire](ref/spell/faerie-fire) (2),
-[obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/mistress-of-high-places#footnote-d)^,
-[speak with animals](ref/spell/speak-with-animals)\
-_0 (at will)_-[flare](ref/spell/flare) (DC 16), [light](ref/spell/light),
-[mending](ref/spell/mending), [stabilize](ref/spell/stabilize)\
-**Domain** Air
+::: statblock
+Speed: 20 ft.
+Melee: +1 sickle +10/+5 (1d6+2)
+Ranged: mwk shortspear +10/+5 (1d6+1)
+Special Attacks: wild shape 4/day
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11th
+Concentration: +16
+8/day: [lightning arc](ref/spell/lightning-arc)
+:::
+
+::: statblock
+title = "Druid Spells Prepared"
+Caster level: 11th
+Concentration: +16
+6th: [chain lightning](ref/spell/chain-lightning)^[1](ref/npc/mistress-of-high-places#footnote-d)^ (DC 22), [greater dispel magic](ref/spell/dispel-magic-greater)
+5th: [call lightning storm](ref/spell/call-lightning-storm) (DC 21), [control winds](ref/spell/control-winds)^[1](ref/npc/mistress-of-high-places#footnote-d)^ (DC 20), [cure critical wounds](ref/spell/cure-critical-wounds), [wall of fire](ref/spell/wall-of-fire) (DC 21)
+4th: [air walk](ref/spell/air-walk)^[1](ref/npc/mistress-of-high-places#footnote-d)^, [cure serious wounds](ref/spell/cure-serious-wounds), [freedom of movement](ref/spell/freedom-of-movement), [ice storm](ref/spell/ice-storm) (DC 20), [scrying](ref/spell/scrying) (DC 19)
+3rd: [gaseous form](ref/spell/gaseous-form)^[1](ref/npc/mistress-of-high-places#footnote-d)^, [greater magic fang](ref/spell/magic-fang-greater) (2), [protection from energy](ref/spell/protection-from-energy) (2), [sleet storm](ref/spell/sleet-storm)
+2nd: [animal messenger](ref/spell/animal-messenger), [barkskin](ref/spell/barkskin) (3), [fog cloud](ref/spell/fog-cloud), [wind wall](ref/spell/wind-wall)^[1](ref/npc/mistress-of-high-places#footnote-d)^
+1st: [cure light wounds](ref/spell/cure-light-wounds) (2), [endure elements](ref/spell/endure-elements), [faerie fire](ref/spell/faerie-fire) (2), [obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/mistress-of-high-places#footnote-d)^, [speak with animals](ref/spell/speak-with-animals)
+0 (at will): [flare](ref/spell/flare) (DC 16), [light](ref/spell/light), [mending](ref/spell/mending), [stabilize](ref/spell/stabilize)
+Domain: Air
+:::
 
 ### Tactics
 
@@ -72,28 +77,23 @@ Once prepared, she moves above ground and opens with chain lightning.
 
 ### Statistics
 
-**Str** 12, **Dex** 13, **Con** 15, **Int** 8, **Wis** 20, **Cha** 10\
-**Base Atk** +8; **CMB** +9; **CMD** 22\
-**Feats** [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative),
-[Mobility](ref/feat/mobility), [Natural Spell](ref/feat/natural-spell),
-[Skill Focus](ref/feat/skill-focus) (Survival), [Spell Focus](ref/feat/spell-focus) (evocation),
-[Vital Strike](ref/feat/vital-strike)\
-**Skills** Fly +6, Handle Animal +6, Heal +9, Knowledge (nature) +9, Knowledge (planes) +3,
-Linguistics +2, Perception +14, Perform (dance) +2, Spellcraft +5, Survival +18\
-**Languages** Aquan, Auran, Common, Druidic, Elven, Ignan\
-**SQ** elf blood, nature bond (Air domain), nature sense, trackless step,
-[wild empathy](ref/ability/wild-empathy) +11, [woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** potion of [haste](ref/spell/haste), wand of
-[cure moderate wounds](ref/spell/cure-moderate-wounds) (6 charges); **Other Gear** +1
-[ironwood](ref/spell/ironwood) [breastplate](ref/eq-armor/breastplate), +1
-[darkwood](ref/eq-material/darkwood) [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), +1
-[sickle](ref/eq-weapon/sickle), masterwork [shortspears](ref/eq-weapon/shortspear) (3),
-[bag of holding](ref/magic-wondrous/bag-of-holding) (type I),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[holly and mistletoe](ref/eq-misc/holly-and-mistletoe),
-[spell component pouch](ref/eq-misc/spell-component-pouch), 289 gp
+::: statblock
+Str: 12
+Dex: 13
+Con: 15
+Int: 8
+Wis: 20
+Cha: 10
+Base Atk: +8
+CMB: +9
+CMD: 22
+Feats: [Dodge](ref/feat/dodge), [Improved Initiative](ref/feat/improved-initiative), [Mobility](ref/feat/mobility), [Natural Spell](ref/feat/natural-spell), [Skill Focus](ref/feat/skill-focus) (Survival), [Spell Focus](ref/feat/spell-focus) (evocation), [Vital Strike](ref/feat/vital-strike)
+Skills: Fly +6, Handle Animal +6, Heal +9, Knowledge (nature) +9, Knowledge (planes) +3, Linguistics +2, Perception +14, Perform (dance) +2, Spellcraft +5, Survival +18
+Languages: Aquan, Auran, Common, Druidic, Elven, Ignan
+SQ: elf blood, nature bond (Air domain), nature sense, trackless step, [wild empathy](ref/ability/wild-empathy) +11, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: potion of [haste](ref/spell/haste), wand of [cure moderate wounds](ref/spell/cure-moderate-wounds) (6 charges)
+Other Gear: +1 [ironwood](ref/spell/ironwood) [breastplate](ref/eq-armor/breastplate), +1 [darkwood](ref/eq-material/darkwood) [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), +1 [sickle](ref/eq-weapon/sickle), masterwork [shortspears](ref/eq-weapon/shortspear) (3), [bag of holding](ref/magic-wondrous/bag-of-holding) (type I), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [holly and mistletoe](ref/eq-misc/holly-and-mistletoe), [spell component pouch](ref/eq-misc/spell-component-pouch), 289 gp
+:::
 
 ### Description
 
