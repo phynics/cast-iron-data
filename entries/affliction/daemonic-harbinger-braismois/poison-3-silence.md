@@ -10,6 +10,7 @@ provenance = [
 ]
 [[sources]]
 publication = "druma-profit-and-prophecy"
+page = "59"
 
 [fields]
 kind = "none"
