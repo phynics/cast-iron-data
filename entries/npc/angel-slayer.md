@@ -49,8 +49,8 @@ Special Attacks: favored enemy (elves +2, good outsiders +8, humans +2, magical 
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 12th
-concentration: +14
+Caster level: 12th
+Concentration: +14
 4th: [freedom of movement](ref/spell/freedom-of-movement)
 3rd: [cure moderate wounds](ref/spell/cure-moderate-wounds), [neutralize poison](ref/spell/neutralize-poison)
 2nd: [barkskin](ref/spell/barkskin), [cat's grace](ref/spell/cats-grace), [protection from energy](ref/spell/protection-from-energy)

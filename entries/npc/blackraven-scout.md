@@ -49,8 +49,8 @@ Special Attacks: favored enemy (giants +4, humans +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 3rd
-concentration: +4
+Caster level: 3rd
+Concentration: +4
 1st: [animal messenger](ref/spell/animal-messenger), [resist energy](ref/spell/resist-energy)
 :::
 

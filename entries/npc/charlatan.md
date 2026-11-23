@@ -47,8 +47,8 @@ Special Attacks: [sneak attack](ref/ability/sneak-attack) +2d6
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 4th
-concentration: +5
+Caster level: 4th
+Concentration: +5
 3/day: [prestidigitation](ref/spell/prestidigitation)
 2/day: [disguise self](ref/spell/disguise-self)
 :::

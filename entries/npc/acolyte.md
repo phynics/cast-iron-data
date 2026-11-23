@@ -45,8 +45,8 @@ Ranged: silver dagger +1 (1d4/19-20)
 
 ::: statblock
 title = "Adept Spells Prepared"
-CL: 1st
-concentration: +2
+Caster level: 1st
+Concentration: +2
 1st: [bless](ref/spell/bless), cure light wounds
 0 (at will): [guidance](ref/spell/guidance), [light](ref/spell/light), [mending](ref/spell/mending)
 :::

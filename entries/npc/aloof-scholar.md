@@ -46,8 +46,8 @@ Special Attacks: bardic performance 25 rounds/day (move action; [countersong](re
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 7th
-concentration: +10
+Caster level: 7th
+Concentration: +10
 3rd (2/day): [glibness](ref/spell/glibness), [scrying](ref/spell/scrying) (DC 16)
 2nd (4/day): [blur](ref/spell/blur), [daze monster](ref/spell/daze-monster) (DC 17), [detect thoughts](ref/spell/detect-thoughts) (DC 15), [locate object](ref/spell/locate-object)
 1st (5/day): [charm person](ref/spell/charm-person) (DC 16), [comprehend languages](ref/spell/comprehend-languages), [detect secret doors](ref/spell/detect-secret-doors), [silent image](ref/spell/silent-image) (DC 14), [unseen servant](ref/spell/unseen-servant)

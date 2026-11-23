@@ -46,8 +46,8 @@ Special Attacks: bardic performance 18 rounds/day ([countersong](ref/performance
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 6th
-concentration: +10
+Caster level: 6th
+Concentration: +10
 2nd (4/day): [eagle's splendor](ref/spell/eagles-splendor), [enthrall](ref/spell/enthrall) (DC 17), [heroism](ref/spell/heroism), [hold person](ref/spell/hold-person) (DC 17)
 1st (5/day): [charm person](ref/spell/charm-person) (DC 16), [cure light wounds](ref/spell/cure-light-wounds), [silent image](ref/spell/silent-image) (DC 15), [ventriloquism](ref/spell/ventriloquism) (DC 15)
 0 (at will): [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound) (DC 14), [mage hand](ref/spell/mage-hand), [mending](ref/spell/mending), [open/close](ref/spell/open-close), [prestidigitation](ref/spell/prestidigitation)

@@ -47,16 +47,16 @@ Melee: mwk quarterstaff +7/+2 (1d6-1)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 15th
-concentration: +21
+Caster level: 15th
+Concentration: +21
 At will: dimensional steps (450 feet/day)
 9/day: acid dart (1d6+7 acid)
 :::
 
 ::: statblock
 title = "Conjurer Spells Prepared"
-CL: 15th
-concentration: +21
+Caster level: 15th
+Concentration: +21
 8th: [incendiary cloud](ref/spell/incendiary-cloud) (DC 26), summon monster VIII
 7th: [extended](ref/feat/extend-spell) [acid fog](ref/spell/acid-fog), [widened](ref/feat/widen-spell) [black tentacles](ref/spell/black-tentacles), [mass hold person](ref/spell/hold-person-mass) (DC 23)
 6th: [quickened](ref/feat/quicken-spell) [acid arrow](ref/spell/acid-arrow), acid fog, [disintegrate](ref/spell/disintegrate) (DC 22), quickened invisibility, [summon monster VI](ref/spell/summon-monster-6)

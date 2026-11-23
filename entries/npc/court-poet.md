@@ -46,8 +46,8 @@ Special Attacks: bardic performance 16 rounds/day ([countersong](ref/performance
 
 ::: statblock
 title = "Bard Spells Known"
-CL: 5th
-concentration: +9
+Caster level: 5th
+Concentration: +9
 2nd (3/day): [detect thoughts](ref/spell/detect-thoughts) (DC 16), [invisibility](ref/spell/invisibility), [misdirection](ref/spell/misdirection)
 1st (5/day): [alarm](ref/spell/alarm), [charm person](ref/spell/charm-person) (DC 16), [comprehend languages](ref/spell/comprehend-languages), [undetectable alignment](ref/spell/undetectable-alignment)
 0 (at will): [detect magic](ref/spell/detect-magic), [ghost sound](ref/spell/ghost-sound) (DC 14), [light](ref/spell/light), [mage hand](ref/spell/mage-hand), [open/close](ref/spell/open-close), [resistance](ref/spell/resistance)

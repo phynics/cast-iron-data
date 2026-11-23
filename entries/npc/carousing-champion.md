@@ -46,15 +46,15 @@ Special Attacks: channel positive energy 7/day (DC 15, 3d6)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 6th
-concentration: +9
+Caster level: 6th
+Concentration: +9
 6/day: dazing touch, touch of chaos
 :::
 
 ::: statblock
 title = "Cleric Spells Prepared"
-CL: 6th
-concentration: +9
+Caster level: 6th
+Concentration: +9
 3rd: [locate object](ref/spell/locate-object), [searing light](ref/spell/searing-light), [suggestion](ref/spell/suggestion)^[1](ref/npc/carousing-champion#footnote-d)^, [summon monster III](ref/spell/summon-monster-3)
 2nd: [aid](ref/spell/aid), [calm emotions](ref/spell/calm-emotions)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 15), [eagle's splendor](ref/spell/eagles-splendor), [sound burst](ref/spell/sound-burst) (DC 15), [zone of truth](ref/spell/zone-of-truth) (DC 15)
 1st: [bless water](ref/spell/bless-water), [charm person](ref/spell/charm-person)^[1](ref/npc/carousing-champion#footnote-d)^ (DC 14), [comprehend languages](ref/spell/comprehend-languages), [detect undead](ref/spell/detect-undead), [hide from undead](ref/spell/hide-from-undead)

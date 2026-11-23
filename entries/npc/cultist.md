@@ -45,8 +45,8 @@ Ranged: mwk silver dagger +9 (1d4-1/19-20)
 
 ::: statblock
 title = "Adept Spells Prepared"
-CL: 10th
-concentration: +13
+Caster level: 10th
+Concentration: +13
 3rd: [bestow curse](ref/spell/bestow-curse) (DC 16), [cure serious wounds](ref/spell/cure-serious-wounds)
 2nd: [invisibility](ref/spell/invisibility), [mirror image](ref/spell/mirror-image), [web](ref/spell/web) (DC 15)
 1st: [command](ref/spell/command) (DC 14), cure light wounds, [obscuring mist](ref/spell/obscuring-mist), [protection from law](ref/spell/protection-from-law)

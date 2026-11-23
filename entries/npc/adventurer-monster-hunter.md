@@ -46,8 +46,8 @@ Special Attacks: favored enemy (magical beasts +4, monstrous humanoids +2)
 
 ::: statblock
 title = "Ranger Spells Prepared"
-CL: 3rd
-concentration: +3
+Caster level: 3rd
+Concentration: +3
 1st: [speak with animals](ref/spell/speak-with-animals)
 :::
 

@@ -46,15 +46,15 @@ Special Attacks: wild shape 1/day
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 5th
-concentration: +9
+Caster level: 5th
+Concentration: +9
 7/day: acid dart
 :::
 
 ::: statblock
 title = "Druid Spells Prepared"
-CL: 5th
-concentration: +9
+Caster level: 5th
+Concentration: +9
 3rd: [spike growth](ref/spell/spike-growth) (2, DC 17), [stone shape](ref/spell/stone-shape)^[1](ref/npc/cavern-defender#footnote-d)^
 2nd: [barkskin](ref/spell/barkskin), [bear's endurance](ref/spell/bears-endurance), [soften earth and stone](ref/spell/soften-earth-and-stone)^[1](ref/npc/cavern-defender#footnote-d)^, [summon swarm](ref/spell/summon-swarm)
 1st: cure light wounds, [magic stone](ref/spell/magic-stone)^[1](ref/npc/cavern-defender#footnote-d)^, [obscuring mist](ref/spell/obscuring-mist), [shillelagh](ref/spell/shillelagh), [speak with animals](ref/spell/speak-with-animals)

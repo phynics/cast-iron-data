@@ -48,8 +48,8 @@ Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids, w
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 19th
-concentration: +20
+Caster level: 19th
+Concentration: +20
 1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound) (DC 11), [prestidigitation](ref/spell/prestidigitation), [speak with animals](ref/spell/speak-with-animals)
 :::
 

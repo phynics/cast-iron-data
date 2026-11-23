@@ -46,8 +46,8 @@ Special Attacks: intense spells +3
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 6th
-concentration: +9
+Caster level: 6th
+Concentration: +9
 3rd: [dispel magic](ref/spell/dispel-magic), fly, [haste](ref/spell/haste), [fireball](ref/spell/fireball) (2) (DC 17)
 2nd: [flaming sphere](ref/spell/flaming-sphere) (DC 16), [glitterdust](ref/spell/glitterdust) (DC 15), [mirror image](ref/spell/mirror-image), [protection from arrows](ref/spell/protection-from-arrows), [scorching ray](ref/spell/scorching-ray) (DC 16)
 1st: [burning hands](ref/spell/burning-hands) (DC 15), [color spray](ref/spell/color-spray) (DC 14), [expeditious retreat](ref/spell/expeditious-retreat), [mage armor](ref/spell/mage-armor), shocking grasp

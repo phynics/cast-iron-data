@@ -47,8 +47,8 @@ Special Attacks: cypher lore\* (defensive scrollcaster, enhance scroll 1/day, fo
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 9th
-concentration: +14
+Caster level: 9th
+Concentration: +14
 5th: [cone of cold](ref/spell/cone-of-cold) (DC 20), [wall of force](ref/spell/wall-of-force)
 4th: [dimension door](ref/spell/dimension-door), [lesser globe of invulnerability](ref/spell/globe-of-invulnerability-lesser), [wall of fire](ref/spell/wall-of-fire)
 3rd: [dispel magic](ref/spell/dispel-magic), [fireball](ref/spell/fireball) (DC 18), [protection from energy](ref/spell/protection-from-energy), [summon monster III](ref/spell/summon-monster-3)

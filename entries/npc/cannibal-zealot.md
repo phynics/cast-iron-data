@@ -49,22 +49,22 @@ Special Attacks: judgment 2/day, rage (14 rounds/day), rage power (animal fury)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 7th
-concentration: +7
+Caster level: 7th
+Concentration: +7
 1/day: [decompose corpse](ref/spell/decompose-corpse)
 :::
 
 ::: statblock
 title = "Inquisitor Spell-Like Abilities"
-CL: 4th
-concentration: +7
+Caster level: 4th
+Concentration: +7
 At will: detect alignment
 :::
 
 ::: statblock
 title = "Inquisitor Spells Known"
-CL: 4th
-concentration: +7
+Caster level: 4th
+Concentration: +7
 2nd (2/day): [hold person](ref/spell/hold-person) (DC 15), [weapon of awe](ref/spell/weapon-of-awe) (DC 15)
 1st (4/day): [command](ref/spell/command) (DC 14), cure light wounds, [shield of faith](ref/spell/shield-of-faith), [wrath](ref/spell/wrath)
 0 (at will): [bleed](ref/spell/bleed) (DC 13), [create water](ref/spell/create-water), [daze](ref/spell/daze) (DC 13), [guidance](ref/spell/guidance), [light](ref/spell/light), [stabilize](ref/spell/stabilize)
