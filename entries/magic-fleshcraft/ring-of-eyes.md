@@ -32,5 +32,8 @@ Temporary Duration: 10 minutes
 
 ### Creation Requirements
 
-**Cost** N/A\
+::: statblock
+Cost: N/A
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 13 ranks; Heal DC 24; **Elixir Cost** 700 gp

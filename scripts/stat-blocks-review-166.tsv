@@ -62,11 +62,10 @@ entries/eq-misc/wagon.md	item	label-without-separator	Category
 entries/eq-misc/wagon.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/wire.md	item	variant-paragraphs	Tripwire Trap - CR 1/3
+entries/eq-weapon/composite-longbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
+entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
-entries/eq-weapon/hornbow-orc.md	item	variant-paragraphs	Cost
-entries/eq-weapon/reflex-bow.md	item	variant-paragraphs	Cost
-entries/eq-weapon/spear-sling.md	item	variant-paragraphs	Cost
 entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
@@ -98,23 +97,6 @@ entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignmen
 entries/magic-artifact/totem-of-angazhan.md	intelligent	unlabelled-line	_At will_-[weird](ref/spell/weird) (DC 2
 entries/magic-artifact/totem-of-angazhan.md	item	variant-paragraphs	Alignment
 entries/magic-enh/runeforged.md	item	variant-paragraphs	Requirements
-entries/magic-fleshcraft/adhesive-slime.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/antennae.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/blinding-spittle-glands.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/burrowing-claws.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/camouflage-flesh.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/carapace.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/cerebral-husk.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/claw-gauntlet.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/darksight-eyes.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/grasping-tendril.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/poison-fangs.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/retractable-spines.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/ring-of-eyes.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/shark-gills.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/stinging-tail.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/webbed-appendages.md	item	variant-paragraphs	Cost
-entries/magic-fleshcraft/wings-of-darkness.md	item	variant-paragraphs	Cost
 entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
 entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj
 entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Price; Price

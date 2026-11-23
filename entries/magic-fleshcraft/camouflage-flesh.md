@@ -33,5 +33,8 @@ use Stealth in any natural terrain, whether or not it has [cover](ref/rule/cover
 
 ### Creation Requirements
 
-**Cost** 15,000 gp\
+::: statblock
+Cost: 15,000 gp
+:::
+
 [Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 13 ranks; Heal DC 23; **Elixir Cost** 500 gp

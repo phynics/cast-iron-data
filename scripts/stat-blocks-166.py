@@ -344,6 +344,16 @@ Ivory Goats the book prints `**CL** 11th; Craft Wondrous Item, _animate objects_
 block with the one row `CL`, whose value is kept as printed with its requirements tail; the label
 is not renamed. The entry's own block (`CL: varies`) comes first, so the drift check keeps reading it.
 
+`cost` (`eq-weapon`, `magic-fleshcraft`, 22 entries expected): a paragraph that opens with
+`**Cost**`. The bows print `**Cost** 225 gp (+1), 325 gp (+2), …` under `### Composite Bows`: one
+untitled block where the paragraph stands. The `Composite longbow +N` headings of the composite
+bows print `**Cost** 200gp` and, at +0, the whole weapon: a file whose first block with `Cost` or
+`Weight` would be one of those queues (`no-lead-row`), so a variant never becomes the first row. The
+fleshcraft items print `**Cost** 1,000 gp` and then a line without a label (`Fleshwarper, Craft
+(alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp`) under `### Creation Requirements`: the
+labelled lines become the block, and the line without a label stays a paragraph below it, unchanged,
+as for the technological Construction (ruling 3). No label is invented.
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -1886,11 +1896,12 @@ def weapon_group_swap(old: str, new: str) -> bool:
     return drop(old) == drop(new) and WEAPON_GROUP_LABEL in old and "Weapon Group:" in new
 
 
-def lead_first(chunks_out: list[str], index: int, labels: list[str]) -> None:
+def lead_first(chunks_out: list[str], index: int, labels: list[str], extra: tuple[str, ...] = ()) -> None:
     """Drift reads the first row of each of `DRIFT_LABELS` in the body: a variant block that
-    carries one needs a block with it before it, or the file queues."""
+    carries one needs a block with it before it, or the file queues. A kind can name `extra`
+    labels that need the same."""
     for label in labels:
-        if label in DRIFT_LABELS and not any(
+        if label in DRIFT_LABELS + extra and not any(
             re.search(rf"^{re.escape(label)}:", chunk, re.M) for chunk in chunks_out[:index] if chunk.startswith("::: statblock")
         ):
             raise Queue("no-lead-row", label)
@@ -1915,12 +1926,23 @@ def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
             continue
         spec = chosen[index]
         lines = chunk[1:] if spec.get("drop_first") else chunk
+        tail = None
+        if spec.get("tail"):
+            # The lines up to the first one without a label are the block; the rest stays a paragraph below it.
+            segments = "\n".join(lines).split("\\\n")
+            keep = next((i for i, seg in enumerate(segments) if not ITEM_LABEL.match(join_wrapped(seg.split("\n")))), len(segments))
+            if keep == 0:
+                raise Queue("unlabelled-line", segments[0][:40])
+            lines = "\\\n".join(segments[:keep]).split("\n")
+            tail = "\\\n".join(segments[keep:]) if keep < len(segments) else None
         block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()))
-        lead_first(out, len(out), labels)
-        swaps[index] = [block]
+        lead_first(out, len(out), labels, spec.get("lead_labels", ()))
+        swaps[index] = [block] + ([tail] if tail else [])
         if spec.get("printed_before"):
             printed_before[index] = spec["title"]
         out.append(block)
+        if tail:
+            out.append(tail)
     new_body = "\n" + "\n\n".join(out) + "\n"
     prove_variants(body, new_body, cs, swaps, commas, printed_before)
     return new_body
@@ -2019,8 +2041,27 @@ def plan_figurine(cs: list[list[str]]) -> dict[int, dict]:
     return {index: {} for index, chunk in enumerate(cs) if chunk[0].startswith("**CL** ")}
 
 
+def plan_cost(cs: list[list[str]]) -> dict[int, dict]:
+    """K-cost. A paragraph that opens with `**Cost**`. Under `### Creation Requirements` (the
+    fleshcraft items) the lines with a label are the block and the line without one stays a
+    paragraph below it, unchanged (the same shape as the technological Construction of ruling 3).
+    Anywhere else (the bows: `**Cost** 225 gp (+1), 325 gp (+2), …` under `### Composite Bows`, and
+    the `Composite longbow +N` headings) the paragraph is one untitled block where it stands, and
+    the entry needs a block with a `Cost` row before it, so a variant is never the first `Cost`."""
+    chosen: dict[int, dict] = {}
+    for index, chunk in enumerate(cs):
+        if not chunk[0].startswith("**Cost** "):
+            continue
+        if index and cs[index - 1] == ["### Creation Requirements"]:
+            chosen[index] = {"tail": True}
+        else:
+            chosen[index] = {"lead_labels": ("Cost",)}
+    return chosen
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "cost": (("eq-weapon", "magic-fleshcraft"), plan_cost, ()),
     "figurine": (("magic-wondrous",), plan_figurine, ()),
     "spellbook": (("eq-spellbook",), plan_spellbook, ()),
     "ioun": (("*",), plan_ioun, ()),
@@ -2667,7 +2708,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, FigurineSelfTest, CostSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3760,6 +3801,41 @@ class FigurineSelfTest(unittest.TestCase):
         with self.assertRaises(Queue) as caught:
             convert_variants("\n" + self.BODY.split("\n\n", 2)[2], plan_figurine)
         self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "CL"))
+
+
+class CostSelfTest(unittest.TestCase):
+    BOW = (
+        "\n::: statblock\nCost: 125 gp (+0)\nWeight: 2 lbs.\n:::\n\n### Composite Bows\n\nAll composite bows have a rating.\n\n"
+        "**Cost** 225 gp (+1), 325 gp (+2)\n"
+    )
+    FLESH = (
+        "\n::: statblock\nPrice: gp\n:::\n\n### Creation Requirements\n\n**Cost** 1,000 gp\\\n"
+        "[Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp\n"
+    )
+
+    def test_a_bow_cost_list_becomes_a_one_row_block_after_the_entrys_own_cost(self):
+        new = convert_variants(self.BOW, plan_cost)
+        self.assertTrue(new.endswith("::: statblock\nCost: 225 gp (+1), 325 gp (+2)\n:::\n"), new)
+        with self.assertRaises(Queue) as caught:  # a file whose own block has no Cost row
+            convert_variants(self.BOW.replace("Cost: 125 gp (+0)\n", ""), plan_cost)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("no-lead-row", "Cost"))
+
+    def test_a_composite_bow_without_an_own_block_queues_because_the_variant_would_be_first(self):
+        body = (
+            "\n### Composite longbow +0\n\n**Cost** 100 gp **Weight** 3 lbs.\\\n**Damage** 1d6\n\n"
+            "### Composite longbow +1\n\n**Cost** 200gp\n"
+        )
+        with self.assertRaises(Queue) as caught:
+            convert_variants(body, plan_cost)
+        self.assertEqual(caught.exception.reason, "no-lead-row")
+
+    def test_the_fleshcraft_cost_is_the_block_and_the_line_without_a_label_stays_below(self):
+        new = convert_variants(self.FLESH, plan_cost)
+        self.assertTrue(new.endswith(
+            "### Creation Requirements\n\n::: statblock\nCost: 1,000 gp\n:::\n\n"
+            "[Fleshwarper](ref/feat/fleshwarper), Craft (alchemy) 8 ranks; Heal DC 18; **Elixir Cost** 250 gp\n"
+        ), new)
+        self.assertEqual(classify_variant(plan_cost, new), "already")
 
 
 class SourcesSelfTest(unittest.TestCase):
