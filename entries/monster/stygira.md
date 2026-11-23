@@ -33,86 +33,65 @@ Unnaturally tall and lean, her form is all cracked flesh and stony crevices span
 withered gray flesh. Shattered black teeth jut from a chapped, lipless mouth that stretches beneath
 a high, scarred brow devoid of nose or eyes._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+blindsight: 30
+blindsightParens: 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +23
+Senses: Scent
+Experience points: 3,200
+:::
 
-**blindsight:** 30
+### Defense
 
-**blindsightParens:** 120 ft. with green eyes), _[true seeing](ref/spell/true-seeing)_ (with gem eye
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 76 (8d10+32)
+Fort: +6
+Ref: +9
+Will: +14
+Dr: 10/adamantine
+Immune: gaze attacks, paralysis, petrification
+Sr: 18
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +11 (1d4+3 plus stone curse)
+Spec Att: gem gaze, stone curse
+:::
 
-**Size:** medium
+### Statistics
 
-**Type:** Monstrous humanoid
+::: statblock
+Ability scores: Str 17, Dex 16, Con 18, Int 17, Wis 22, Cha 15
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Alertness, Blind-Fight, Improved Initiative, Iron Will
+Skills: Bluff +10, Knowledge (arcana, dungeoneering) +11, Perception +23, Sense Motive +16, Spellcraft +11
+Racial Modifiers: +4 Perception (with gemstone)
+Languages: Cyclops, Giant, Terran
+Special qualities: gem eye
+:::
 
-**Perception:** +23
+### Ecology
 
-**Senses:** Scent
-
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +14
-
-**Dr:** 10/adamantine
-
-**Immune:** gaze attacks, paralysis, petrification
-
-**Sr:** 18
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +11 (1d4+3 plus stone curse)
-
-**Spec Att:** gem gaze, stone curse
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 18, Int 17, Wis 22, Cha 15
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Blind-Fight, Improved Initiative, Iron Will
-
-**Skills:** Bluff +10, Knowledge (arcana, dungeoneering) +11, Perception +23, Sense Motive +16,
-Spellcraft +11
-
-**Racial Modifiers:** +4 Perception (with gemstone)
-
-**Languages:** Cyclops, Giant, Terran
-
-**Special qualities:** gem eye
-
-**Ecology**
-
-**Environment:** temperate hills and underground
-
-**Organization:** solitary, pair, or mystery (3-7)
-
-**Treasure:** Standard; typically gemstones
+::: statblock
+Environment: temperate hills and underground
+Organization: solitary, pair, or mystery (3-7)
+Treasure: Standard; typically gemstones
+:::
 
 ### Special Abilities
 

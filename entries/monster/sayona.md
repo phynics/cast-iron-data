@@ -31,94 +31,71 @@ abilities = ["13", "20", "-", "11", "12", "21"]
 _This revolting withered corpse of a woman is dressed in revealing clothes, its bare skin wet with
 fresh blood._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +5
+Lifesense: present
+Size: medium
+Perception: +21
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 26
+Touch: 16
+Flat-footed: 20
+AC modifiers: +5 Dex, +1 dodge, +10 natural
+Hit points: 161 (17d8+85)
+Fort: +10
+Ref: +12
+Will: +13
+Fh: 5 (see living form)
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 30
+:::
 
-**Lifesense:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+B Drain: 1d4 Con
+Melee: bite +18 (2d6+1 plus bleed and paralysis), 2 claws +18 (2d6+1 plus bleed and paralysis)
+Paralysis: 1d4 rounds, DC 23
+Spec Att: absorb blood, fear cone (60 ft., DC 23), staggering gaze
+:::
 
-**Perception:** +21
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +17
+Per day: 3/day: command undead (DC 17), dominate person (DC 20), fog cloud, gaseous form, invisibility
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 13, Dex 20, Con -, Int 11, Wis 12, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +13
+Combat maneuver defense: 29
+Feats: Dodge, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike, Weapon Finesse, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Bluff +14, Diplomacy +14, Disguise +17, Sense Motive +12, Stealth +16
+Languages: Abyssal, Common, Infernal
+Special qualities: create spawn, living form
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 16
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 Dex, +1 dodge, +10 natural
-
-**Hit points:** 161 (17d8+85)
-
-**Fort:** +10
-
-**Ref:** +12
-
-**Will:** +13
-
-**Fh:** 5 (see living form)
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1d4 Con
-
-**Melee:** bite +18 (2d6+1 plus bleed and paralysis), 2 claws +18 (2d6+1 plus bleed and paralysis)
-
-**Paralysis:** 1d4 rounds, DC 23
-
-**Spec Att:** absorb blood, fear cone (60 ft., DC 23), staggering gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**Per day:**
-
-- 3/day: command undead (DC 17), dominate person (DC 20), fog cloud, gaseous form, invisibility
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 20, Con -, Int 11, Wis 12, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 29
-
-**Feats:** Dodge, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike, Weapon
-Finesse, Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Bluff +14, Diplomacy +14, Disguise +17, Sense Motive +12, Stealth +16
-
-**Languages:** Abyssal, Common, Infernal
-
-**Special qualities:** create spawn, living form
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary or retinue (1d3 plus 2d6 spawn)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land or underground
+Organization: solitary or retinue (1d3 plus 2d6 spawn)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

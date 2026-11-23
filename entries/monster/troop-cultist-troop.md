@@ -30,101 +30,75 @@ abilities = ["20", "21", "18", "10", "17", "15"]
 
 _A band of violet-skinned elves raises their hands high as vile magic swirls in the air above them._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +9
+Size: medium
+Perception: +22
+Senses: Darkvision 120 ft.
+Subtype: Elf, Troop
+Experience points: 12,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 21
+Touch: 16
+Flat-footed: 15
+AC modifiers: +5 armor, +5 Dex, +1 dodge
+Hit points: 144 (17d8+68)
+Fort: +11
+Ref: +12
+Will: +15; +2 vs. enchantments
+Defensive abilities: swift healing, troop traits
+Fh: 5
+Immune: sleep
+Sr: 16
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Ch N En: DC 14, 3d6
+Melee: troop (4d6+5 plus poison)
+Reach: 5
+Space: 20
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Per day: 3/day: quickened blindness/deafness (DC 14)\
+1/day: resist energy, shield of faith
+:::
 
-**Senses:** Darkvision 120 ft.
+### Statistics
 
-**Subtype:** Elf, Troop
+::: statblock
+Ability scores: Str 20, Dex 21, Con 18, Int 10, Wis 17, Cha 15
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Combat Casting, Dodge, Great Fortitude, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility, Selective Channeling
+Skills: Knowledge (arcana) +5, Perception +22, Sense Motive +5, Spellcraft +5
+Racial Modifiers: +2 Perception
+Languages: Elven, Undercommon
+Special qualities: [poison use](ref/ability/poison-use), spellcasting
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 16
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 armor, +5 Dex, +1 dodge
-
-**Hit points:** 144 (17d8+68)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +15; +2 vs. enchantments
-
-**Defensive abilities:** swift healing, troop traits
-
-**Fh:** 5
-
-**Immune:** sleep
-
-**Sr:** 16
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** DC 14, 3d6
-
-**Melee:** troop (4d6+5 plus poison)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Per day:**
-
-- 3/day: quickened blindness/deafness (DC 14)
-- 1/day: resist energy, shield of faith
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 21, Con 18, Int 10, Wis 17, Cha 15
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Combat Casting, Dodge, Great Fortitude, Improved Initiative, Improved Lightning Reflexes,
-Iron Will, Lightning Reflexes, Mobility, Selective Channeling
-
-**Skills:** Knowledge (arcana) +5, Perception +22, Sense Motive +5, Spellcraft +5
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Elven, Undercommon
-
-**Special qualities:** [poison use](ref/ability/poison-use), spellcasting
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or band (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or band (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

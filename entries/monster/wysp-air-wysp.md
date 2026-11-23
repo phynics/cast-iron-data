@@ -30,81 +30,62 @@ abilities = ["10", "19", "12", "10", "13", "13"]
 
 _This sphere of elemental matter emits a strange hum that resonates with elemental power._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: resonance (30 ft.)
+Initiative: +4
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** resonance (30 ft.)
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +7
+Will: +2
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 tendrils +11 (1d3+2)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 19, Con 12, Int 10, Wis 13, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Flyby Attack, Weapon Finesse
+Skills: Bluff +7, Fly +20, Knowledge (arcana) +4, Knowledge (planes) +6, Perception +7, Sense Motive +7, Stealth +18
+Languages: Auran
+Special qualities: living battery, servitor
+:::
 
-**Subtype:** Air, Elemental
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +2
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 tendrils +11 (1d3+2)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 19, Con 12, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Flyby Attack, Weapon Finesse
-
-**Skills:** Bluff +7, Fly +20, Knowledge (arcana) +4, Knowledge (planes) +6, Perception +7, Sense
-Motive +7, Stealth +18
-
-**Languages:** Auran
-
-**Special qualities:** living battery, servitor
-
-**Ecology**
-
-**Environment:** any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6
-plus a powerful elemental creature)
-
-**Treasure:** None
+::: statblock
+Environment: any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6 plus a powerful elemental creature)
+Treasure: None
+:::
 
 ### Description
 

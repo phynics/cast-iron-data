@@ -32,90 +32,70 @@ abilities = ["13", "17", "14", "12", "12", "6"]
 _This lanky man sneers as he draws his sword. Tiny horns and a barbed tail reveal that he is
 something more than human._
 
-**Challenge rating:** 1/2
-
 **Tiefling [rogue](ref/class/rogue) 1**
 
-**Initiative:** +3
+::: statblock
+Challenge rating: 1/2
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 armor, +3 Dex
+Hit points: 10 (1d8+2)
+Fort: +2
+Ref: +5
+Will: +1
+Resist: cold 5, electricity 5, fire 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: short sword +3 (1d6+1/19-20)
+Ranged: light crossbow +3 (1d8/19-20)
+Sneak: +1d6
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Per day: 1/day: darkness
+:::
 
-**Subtype:** Native
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 13, Dex 17, Con 14, Int 12, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Acrobatics +6, Bluff +4, Disable Device +6, Escape Artist +6, Intimidate +2, Perception +5, Sense Motive +5, Sleight of Hand +6, Stealth +8
+Racial Modifiers: +2 Bluff, +2 Stealth
+Languages: Abyssal, Common, Infernal
+Special qualities: fiendish sorcery, [trapfinding](ref/ability/trapfinding)
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +3 Dex
-
-**Hit points:** 10 (1d8+2)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +1
-
-**Resist:** cold 5, electricity 5, fire 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +3 (1d6+1/19-20)
-
-**Ranged:** light crossbow +3 (1d8/19-20)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Per day:**
-
-- 1/day: darkness
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 14, Int 12, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +6, Bluff +4, Disable Device +6, Escape Artist +6, Intimidate +2, Perception
-+5, Sense Motive +5, Sleight of Hand +6, Stealth +8
-
-**Racial Modifiers:** +2 Bluff, +2 Stealth
-
-**Languages:** Abyssal, Common, Infernal
-
-**Special qualities:** fiendish sorcery, [trapfinding](ref/ability/trapfinding)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** NPC gear (studded leather armor, short sword, light crossbow with 20 bolts)
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-5)
+Treasure: NPC gear (studded leather armor, short sword, light crossbow with 20 bolts)
+:::
 
 ### Special Abilities
 

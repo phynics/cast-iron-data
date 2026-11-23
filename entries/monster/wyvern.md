@@ -29,76 +29,60 @@ abilities = ["19", "12", "18", "7", "12", "9"]
 _A dark blue dragon, its wings immense and its tail tipped with a hooked stinger, lands on two
 taloned feet and roars a challenge._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: dragon
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +18
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 73 (7d12+28)
+Fort: +9
+Ref: +6
+Will: +8
+Immune: sleep, paralysis
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., fly 60 ft. (poor)
+Melee: sting +10 melee (1d6+4 plus poison), bite +10 melee (2d6+4 plus [grab](ref/umr/grab)), 2 wings +5 (1d6+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 12, Con 18, Int 7, Wis 12, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 23
+Feats: Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)
+Skills: Fly +5, Perception +18, Sense Motive +11, Stealth +7
+Racial Modifiers: +4 Perception
+Languages: Draconic
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 73 (7d12+28)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +8
-
-**Immune:** sleep, paralysis
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (poor)
-
-**Melee:** sting +10 melee (1d6+4 plus poison), bite +10 melee (2d6+4 plus [grab](ref/umr/grab)), 2
-wings +5 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 18, Int 7, Wis 12, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 23
-
-**Feats:** Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Perception)
-
-**Skills:** Fly +5, Perception +18, Sense Motive +11, Stealth +7
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary, pair, or flight (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary, pair, or flight (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

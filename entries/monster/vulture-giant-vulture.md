@@ -30,73 +30,59 @@ abilities = ["22", "15", "18", "2", "15", "7"]
 _A wickedly hooked beak and an immense bald head draw attention from this enormous scavenger's vast
 wingspan._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +14
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +10
+Ref: +6
+Will: +3; +4 vs. disease
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 50 ft. (average)
+Melee: bite +9 (2d6+9 plus disease)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 2, Wis 15, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Great Fortitude, Toughness, Weapon Focus (bite)
+Skills: Fly +7, Perception +14
+Racial Modifiers: +8 Perception
+Special qualities: diseased
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +3; +4 vs. disease
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (average)
-
-**Melee:** bite +9 (2d6+9 plus disease)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 2, Wis 15, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Toughness, Weapon Focus (bite)
-
-**Skills:** Fly +7, Perception +14
-
-**Racial Modifiers:** +8 Perception
-
-**Special qualities:** diseased
-
-**Ecology**
-
-**Environment:** warm plains or hills
-
-**Organization:** solitary, pair, or flock (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains or hills
+Organization: solitary, pair, or flock (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

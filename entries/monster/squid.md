@@ -30,71 +30,58 @@ abilities = ["15", "15", "11", "2", "12", "2"]
 _This slender red squid darts through the water with alacrity. Two large eyes stare from above the
 creature's tentacles._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 natural
+Hit points: 13 (3d8)
+Fort: +3
+Ref: +7
+Will: +2
+Ink: 5
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 60 ft.
+Jet: 240
+Melee: bite +4 (1d3+2), tentacles +2 (1d4+1 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 15, Con 11, Int 2, Wis 12, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 16
+Feats: Improved Initiative, Lightning Reflexes, Multiattack
+Skills: Perception +7, Swim +10
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 natural
-
-**Hit points:** 13 (3d8)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +2
-
-**Ink:** 5
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Jet:** 240
-
-**Melee:** bite +4 (1d3+2), tentacles +2 (1d4+1 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 11, Int 2, Wis 12, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Lightning Reflexes, Multiattack
-
-**Skills:** Perception +7, Swim +10
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, or school (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, or school (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

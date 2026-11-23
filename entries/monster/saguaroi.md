@@ -31,77 +31,61 @@ abilities = ["20", "18", "18", "7", "15", "11"]
 _This humanoid plant creature has the prickly hide of a cactus, and smaller cactuses seemingly
 sprout from its flesh._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+Experience points: 1,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 59 (7d8+28)
+Fort: +9
+Ref: +8
+Will: +4
+Defensive abilities: needle hide
+Immune: [plant traits](ref/umr/plant-traits)
+Regen: 5 (fire)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +10 (1d6+5)
+Spec Att: needle cone
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 20, Dex 18, Con 18, Int 7, Wis 15, Cha 11
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 24
+Feats: Alertness, Combat Reflexes, Improved Initiative, Lightning Reflexes
+Skills: Perception +10
+Languages: Sylvan
+Special qualities: [freeze](ref/umr/freeze), produce water
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 59 (7d8+28)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +4
-
-**Defensive abilities:** needle hide
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Regen:** 5 (fire)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +10 (1d6+5)
-
-**Spec Att:** needle cone
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 18, Con 18, Int 7, Wis 15, Cha 11
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24
-
-**Feats:** Alertness, Combat Reflexes, Improved Initiative, Lightning Reflexes
-
-**Skills:** Perception +10
-
-**Languages:** Sylvan
-
-**Special qualities:** [freeze](ref/umr/freeze), produce water
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, party (3-9), or tribe (10-20)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, party (3-9), or tribe (10-20)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

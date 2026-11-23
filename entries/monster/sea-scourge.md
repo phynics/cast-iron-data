@@ -32,81 +32,63 @@ abilities = ["24", "7", "18", "-", "1", "1"]
 _This whitish-gray amoeboid creature has bits of flotsam embedded in its amorphous form, which moves
 inexorably against the current._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Initiative: -2
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Subtype: Aquatic
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 7
+Touch: 7
+Flat-footed: 7
+AC modifiers: -2 Dex, -1 size
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +1
+Will: -2
+Amorph: present
+Immune: acid, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 10 ft., swim 20 ft.
+Constrict: 1d6+7 plus 1d4 acid
+Engulf: DC 21, 1d6 acid and paralysis
+Melee: 2 slams +12 (1d6+7 plus 1d4 acid and [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: acid jet
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** -5
+::: statblock
+Ability scores: Str 24, Dex 7, Con 18, Int -, Wis 1, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+18 grapple)
+Combat maneuver defense: 22 (can't be tripped)
+Skills: Climb +15
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 7
-
-**Touch:** 7
-
-**Flat-footed:** 7
-
-**AC modifiers:** -2 Dex, -1 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** -2
-
-**Amorph:** present
-
-**Immune:** acid, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., swim 20 ft.
-
-**Constrict:** 1d6+7 plus 1d4 acid
-
-**Engulf:** DC 21, 1d6 acid and paralysis
-
-**Melee:** 2 slams +12 (1d6+7 plus 1d4 acid and [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** acid jet
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 7, Con 18, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+18 grapple)
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Skills:** Climb +15
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, swarm (2-5), or bloom (6-9)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm oceans
+Organization: solitary, swarm (2-5), or bloom (6-9)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

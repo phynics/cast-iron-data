@@ -33,58 +33,44 @@ abilities = ["24", "16", "21", "16", "13", "6"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 9
-
 **Sahuagin [fighter](ref/class/fighter) 7**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 9
+blindsense: 30
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 22
+AC modifiers: +7 armor, +3 Dex, +5 natural
+Hit points: 101 (9d10+52)
+Fort: +11
+Ref: +9
+Will: +7 (+2 vs. fear)
+Defensive abilities: bravery +2
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
-
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 13
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 armor, +3 Dex, +5 natural
-
-**Hit points:** 101 (9d10+52)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +7 (+2 vs. fear)
-
-**Defensive abilities:** bravery +2
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** mwk trident +17/+12 (1d8+7), claw +16 (1d4+6/19-20 plus 1d6 cold), bite +15 (1d4+4 plus
-1d6 cold)
-
-**Ranged:** mwk underwater heavy crossbow +13 (1d10/19-20)
-
-**Spec Att:** [blood frenzy](ref/monster/sahuagin), weapon training (natural +1)
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: mwk trident +17/+12 (1d8+7), claw +16 (1d4+6/19-20 plus 1d6 cold), bite +15 (1d4+4 plus 1d6 cold)
+Ranged: mwk underwater heavy crossbow +13 (1d10/19-20)
+Spec Att: [blood frenzy](ref/monster/sahuagin), weapon training (natural +1)
+:::
 
 ### Tactics
 
@@ -94,34 +80,26 @@ piscine head features a toothy maw._
 Fort +9; Melee mwk trident +15/+10 (1d8+5), claw +14 (1d4+5/19-20 plus 1d6 cold), bite +13 (1d6+3
 plus 1d6 cold); Str 20, Con 17; CMB +14, CMD 27
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 24, Dex 16, Con 21, Int 16, Wis 13, Cha 6
+::: statblock
+Ability scores: Str 24, Dex 16, Con 21, Int 16, Wis 13, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +16
+Combat maneuver defense: 32
+Feats: Blood Tide, Combat Expertise, Greater Blood Frenzy, Improved Critical (claw), Lunge, Multiattack, Power Attack, Weapon Focus (claw), Weapon Specialization (claw)
+Skills: Climb +12, Intimidate +10, Knowledge (nobility) +12, Perception +13, Ride +14
+Languages: Aquan, Common, Infernal; speak with sharks
+Special qualities: armor training 2
+Combat gear: potion of bear's endurance, potion of bull's strength, potion of cure moderate wounds
+Other gear: +1 breastplate, mwk trident, mwk uhc20, Iclk1, flaming I-amulet of mighty fists, 1,033 gp
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 32
-
-**Feats:** Blood Tide, Combat Expertise, Greater Blood Frenzy, Improved Critical (claw), Lunge,
-Multiattack, Power Attack, Weapon Focus (claw), Weapon Specialization (claw)
-
-**Skills:** Climb +12, Intimidate +10, Knowledge (nobility) +12, Perception +13, Ride +14
-
-**Languages:** Aquan, Common, Infernal; speak with sharks
-
-**Special qualities:** armor training 2
-
-**Combat gear:** potion of bear's endurance, potion of bull's strength, potion of cure moderate
-wounds
-
-**Other gear:** +1 breastplate, mwk trident, mwk uhc20, Iclk1, flaming I-amulet of mighty fists,
-1,033 gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

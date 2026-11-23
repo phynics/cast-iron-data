@@ -32,92 +32,67 @@ abilities = ["36", "21", "28", "3", "20", "3"]
 _This immense, worm-like creature piles its coils upon itself, exposing four scythe-shaped claws and
 a massive fanged mouth._
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+blindsight: 60
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +9
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 307,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 37
+Touch: 7
+Flat-footed: 32
+AC modifiers: +5 Dex, +30 natural, -8 size
+Hit points: 362 (25d10+225)
+Fort: +19
+Ref: +21
+Will: +21
+Defensive abilities: caustic ichor, planar anchor, twisting coils
+Dr: 15/adamantine and lawful
+Fh: 20
+Immune: ability damage, ability drain, acid, disease, mind-affecting effects, poison
+Sr: 31
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 50 ft., burrow 50 ft., climb 50 ft.
+Melee: bite +30 (4d6+13/19-20 plus [grab](ref/umr/grab)), 4 claws +30 (2d8+13/19-20), sting +30 (2d8+13/19-20 plus poison)
+Reach: 30
+Space: 30
+Spec Att: disgorge wracked reality, penetrating strikes, wrack reality
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +33
+::: statblock
+Ability scores: Str 36, Dex 21, Con 28, Int 3, Wis 20, Cha 3
+Base attack bonus: +25
+Combat maneuver bonus: +46 (+48 bull rush)
+Combat maneuver defense: 61 (63 vs. bull rush, can't be tripped)
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Improved Critical (claw), Improved Critical (sting), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Staggering Critical
+Skills: Climb +49, Perception +33
+Languages: Abyssal (can't speak)
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Evil, Extraplanar
-
-**Experience points:** 307,200
-
-**Armor class:** 37
-
-**Touch:** 7
-
-**Flat-footed:** 32
-
-**AC modifiers:** +5 Dex, +30 natural, -8 size
-
-**Hit points:** 362 (25d10+225)
-
-**Fort:** +19
-
-**Ref:** +21
-
-**Will:** +21
-
-**Defensive abilities:** caustic ichor, planar anchor, twisting coils
-
-**Dr:** 15/adamantine and lawful
-
-**Fh:** 20
-
-**Immune:** ability damage, ability drain, acid, disease, mind-affecting effects, poison
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 50 ft., burrow 50 ft., climb 50 ft.
-
-**Melee:** bite +30 (4d6+13/19-20 plus [grab](ref/umr/grab)), 4 claws +30 (2d8+13/19-20), sting +30
-(2d8+13/19-20 plus poison)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** disgorge wracked reality, penetrating strikes, wrack reality
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 21, Con 28, Int 3, Wis 20, Cha 3
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +46 (+48 bull rush)
-
-**Combat maneuver defense:** 61 (63 vs. bull rush, can't be tripped)
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Great Fortitude, Improved Bull Rush,
-Improved Critical (bite), Improved Critical (claw), Improved Critical (sting), Improved Initiative,
-Iron Will, Lightning Reflexes, Power Attack, Staggering Critical
-
-**Skills:** Climb +49, Perception +33
-
-**Languages:** Abyssal (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

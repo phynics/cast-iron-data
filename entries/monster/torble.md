@@ -32,67 +32,52 @@ insectoid legs and eyestalks suggest it is a more advanced creature. Its antenna
 wave about curiously, and its multiple legs carry forth its transparent, hand-sized body at a
 surprisingly swift scuttle._
 
-**Challenge rating:** 1/8
+::: statblock
+Challenge rating: 1/8
+blindsight: 30
+Size: diminutive
+Initiative: +2
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 30 ft.
+Type: vermin
+Experience points: 50
+:::
 
-**blindsight:** 30
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 14
+AC modifiers: +2 Dex, +4 size
+Hit points: 1 (1d8-3)
+Fort: -1
+Ref: +2
+Will: +2
+Dr: 1/piercing or slashing
+Immune: acid
+Weaknesses: ooze-vermin hybrid
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 15 ft., climb 15 ft.
+Melee: bite +0 (1 plus 1 acid)
+Reach: 0
+Space: 0
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 30 ft.
-
-**Type:** vermin
-
-**Experience points:** 50
-
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +4 size
-
-**Hit points:** 1 (1d8-3)
-
-**Fort:** -1
-
-**Ref:** +2
-
-**Will:** +2
-
-**Dr:** 1/piercing or slashing
-
-**Immune:** acid
-
-**Weaknesses:** ooze-vermin hybrid
-
-**Offense**
-
-**Speed:** 15 ft., climb 15 ft.
-
-**Melee:** bite +0 (1 plus 1 acid)
-
-**Reach:** 0
-
-**Space:** 0
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 5, Int -, Wis 14, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -8
-
-**Combat maneuver defense:** 4
-
-**Special qualities:** primitive sight, telepathic sensitivity
+::: statblock
+Ability scores: Str 3, Dex 15, Con 5, Int -, Wis 14, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: -8
+Combat maneuver defense: 4
+Special qualities: primitive sight, telepathic sensitivity
+:::
 
 ### Special Abilities
 

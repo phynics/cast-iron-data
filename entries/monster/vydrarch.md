@@ -31,87 +31,65 @@ abilities = ["30", "17", "20", "7", "22", "15"]
 _Seeping spines cover the inky scales of this long, sinuous beast, its twin serpent heads writhing
 at the ends of its swaying necks._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +3
+Type: Magical beast
+Perception: +23
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 26
+AC modifiers: +3 Dex, +20 natural, -4 size
+Hit points: 199 (19d10+95)
+Fort: +16
+Ref: +14
+Will: +12
+Dr: 10/magic
+Immune: poison, sleep
+:::
 
-**Initiative:** +3
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Capsize: present
+Melee: 2 bites +26 (2d8+10/19-20 plus [grab](ref/umr/grab)), tail slap +23 (2d8+5 plus poison spines)
+Reach: 20
+Reach P: 30 ft. with bite
+Space: 20
+Spec Att: veil of fog
+Swallow: 4d6+15 bludgeoning damage, AC 20, 19 hp
+:::
 
-**Perception:** +23
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 17, Con 20, Int 7, Wis 22, Cha 15
+Base attack bonus: +19
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 46 (can't be tripped)
+Feats: Awesome Blow, Cleave, Critical Focus, Improved Bull Rush, Improved Critical (bite), Multiattack, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite)
+Skills: Perception +23, Swim +26
+Languages: Aquan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +20 natural, -4 size
-
-**Hit points:** 199 (19d10+95)
-
-**Fort:** +16
-
-**Ref:** +14
-
-**Will:** +12
-
-**Dr:** 10/magic
-
-**Immune:** poison, sleep
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Capsize:** present
-
-**Melee:** 2 bites +26 (2d8+10/19-20 plus [grab](ref/umr/grab)), tail slap +23 (2d8+5 plus poison
-spines)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with bite
-
-**Space:** 20
-
-**Spec Att:** veil of fog
-
-**Swallow:** 4d6+15 bludgeoning damage, AC 20, 19 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 17, Con 20, Int 7, Wis 22, Cha 15
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 46 (can't be tripped)
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Improved Bull Rush, Improved Critical (bite),
-Multiattack, Power Attack, Staggering Critical, Vital Strike, Weapon Focus (bite)
-
-**Skills:** Perception +23, Swim +26
-
-**Languages:** Aquan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate oceans
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate oceans
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

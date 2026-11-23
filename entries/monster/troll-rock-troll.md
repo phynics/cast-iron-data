@@ -30,79 +30,62 @@ abilities = ["25", "12", "24", "5", "9", "6"]
 _This bulky creature has beady eyes, and rocky skin studded with small crystals. Its jutting
 underbite holds large, crystalline teeth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: large
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth, Giant
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 80 (7d8+49)
+Fort: +12
+Ref: +3
+Will: +3
+Regen: 5 (acid or sonic)
+Weaknesses: sunlight petrification
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: bite +11 (1d8+7), 2 claw +12 (1d6+7)
+Reach: 10
+Rend: 2 claws, 1d6+9
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 12, Con 24, Int 5, Wis 9, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: +13
+Combat maneuver defense: 24
+Feats: Intimidating Prowess, Iron Will, Power Attack, Weapon Focus (claw)
+Skills: Climb +11, Intimidate +10, Perception +6
+Languages: Giant
+:::
 
-**Subtype:** Earth, Giant
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 80 (7d8+49)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +3
-
-**Regen:** 5 (acid or sonic)
-
-**Weaknesses:** sunlight petrification
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +11 (1d8+7), 2 claw +12 (1d6+7)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+9
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 12, Con 24, Int 5, Wis 9, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 24
-
-**Feats:** Intimidating Prowess, Iron Will, Power Attack, Weapon Focus (claw)
-
-**Skills:** Climb +11, Intimidate +10, Perception +6
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or gang (2-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

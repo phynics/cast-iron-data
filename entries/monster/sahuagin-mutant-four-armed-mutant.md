@@ -31,77 +31,60 @@ _This burly humanoid has sharp scales and fins like some predatory fish. As if i
 serrated teeth were not intimidating enough, the monstrosity clenches deadly claws at the ends of
 four powerful arms._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 18 (2d10+7)
+Fort: +4
+Ref: +4
+Will: +4
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: trident +4 (1d8+2), bite +2 (1d4+1), 2 claws +4 (1d4+2) or bite +4 (1d4+1), 4 claws +4 (1d4+2)
+Spec Att: blood frenzy
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 14, Dex 13, Con 14, Int 14, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Great Fortitude, Multiattack, Toughness
+Skills: Handle Animal +1, Ride +6
+Languages: Aquan, Common; speak with sharks
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 18 (2d10+7)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** trident +4 (1d8+2), bite +2 (1d4+1), 2 claws +4 (1d4+2) or bite +4 (1d4+1), 4 claws +4
-(1d4+2)
-
-**Spec Att:** blood frenzy
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 14, Int 14, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Great Fortitude, Multiattack, Toughness
-
-**Skills:** Handle Animal +1, Ride +6
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
-
-**Organization:** solitary, pair, unit (1 plus 3-18 sahuagin), royal guard (2-8 plus 1 sahuagin
-chieftain of 4th level)
-
-**Treasure:** NPC gear (trident); other treasure
+::: statblock
+Environment: temperate or warm ocean
+Organization: solitary, pair, unit (1 plus 3-18 sahuagin), royal guard (2-8 plus 1 sahuagin chieftain of 4th level)
+Treasure: NPC gear (trident); other treasure
+:::
 
 ### Special Abilities
 

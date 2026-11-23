@@ -38,101 +38,73 @@ abilities = ["19", "12", "17", "14", "13", "14"]
 _This fanged humanoid has hideously transparent skin, revealing the vivid colors of internal organs
 and ivory bones inside its body._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 120 ft.
+Subtype: Native
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +3 armor, +1 Dex, +2 natural
+Hit points: 25 (3d10+9)
+Fort: +6
+Ref: +4
+Will: +4
+Defensive abilities: negative energy affinity
+Dr: 5/good or silver
+Immune: death effects (see below), disease, fear, level drain
+Resist: acid 10
+Sr: 14
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+B Drain: 1 Con
+Melee: rhoka sword +8 (1d8+6/18-20), bite +2 (1d4+2 plus 2 Str) or bite +7 (1d4+4 plus 2 Str)
+Ranged: composite longbow +4 (1d8+4/×3)
+:::
 
-**Perception:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +5
+At will: feather fall
+Per day: 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 13)
+:::
 
-**Senses:** Darkvision 120 ft.
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 19, Dex 12, Con 17, Int 14, Wis 13, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Iron Will, Weapon Focus (rhoka sword)
+Skills: Intimidate +8, Knowledge (dungeoneering) +5, Perception +7
+Languages: Aklo, Undercommon
+Special qualities: daemonic pact
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 armor, +1 Dex, +2 natural
-
-**Hit points:** 25 (3d10+9)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +4
-
-**Defensive abilities:** negative energy affinity
-
-**Dr:** 5/good or silver
-
-**Immune:** death effects (see below), disease, fear, level drain
-
-**Resist:** acid 10
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**B Drain:** 1 Con
-
-**Melee:** rhoka sword +8 (1d8+6/18-20), bite +2 (1d4+2 plus 2 Str) or bite +7 (1d4+4 plus 2 Str)
-
-**Ranged:** composite longbow +4 (1d8+4/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +5
-
-**At will:**
-
-- feather fall
-
-**Per day:**
-
-- 3/day: align weapon, death knell (DC 14), ray of enfeeblement (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 17, Int 14, Wis 13, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Iron Will, Weapon Focus (rhoka sword)
-
-**Skills:** Intimidate +8, Knowledge (dungeoneering) +5, Perception +7
-
-**Languages:** Aklo, Undercommon
-
-**Special qualities:** daemonic pact
-
-**Ecology**
-
-**Environment:** any land ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, gang (3-12), or cult (13-30 plus 2-6 fighters of 2nd-4th level,
-1-4 necromancer wizards of 3rd-6th level, 1 cleric high priest of 5th-9th level, 8-12
-[skavelings](ref/monster/bat-skaveling), and 1-3 [ceustodaemons](ref/monster/daemon-ceustodaemon))
-
-**Treasure:** NPC gear (studded leather armor, -rhoka sword, cl20+4); other treasure
+::: statblock
+Environment: any land ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, gang (3-12), or cult (13-30 plus 2-6 fighters of 2nd-4th level, 1-4 necromancer wizards of 3rd-6th level, 1 cleric high priest of 5th-9th level, 8-12 [skavelings](ref/monster/bat-skaveling), and 1-3 [ceustodaemons](ref/monster/daemon-ceustodaemon))
+Treasure: NPC gear (studded leather armor, -rhoka sword, cl20+4); other treasure
+:::
 
 ### Special Abilities
 

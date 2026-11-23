@@ -36,89 +36,67 @@ abilities = ["20", "16", "18", "11", "14", "13"]
 _This vermin-like creature has iridescent, membranous wings and its many sharp teeth drip with
 noxious slime._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: chaos (10 ft.), gibber (15 ft., DC 20)
+Alignment: Chaotic evil
+Initiative: +3
+Size: large
+Type: outsider
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 6,400
+:::
 
-**aura:** chaos (10 ft.), gibber (15 ft., DC 20)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +1 dodge, +9 natural, -1 size
+Hit points: 114 (12d10+48)
+Fort: +8
+Ref: +11
+Will: +10
+Fh: 2
+Immune: acid, poison
+Resist: electricity 10, fire 10
+Sr: 20
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: bite +17 (1d8+5 plus 3d6 acid), 2 claws +16 (1d6+5)
+Ranged: spit acid +14 ranged touch (5d6 acid)
+Reach: 5
+Space: 10
+Spec Att: spit acid
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +17
+::: statblock
+Ability scores: Str 20, Dex 16, Con 18, Int 11, Wis 14, Cha 13
+Base attack bonus: +12
+Combat maneuver bonus: +18
+Combat maneuver defense: 32
+Feats: Blind-Fight, Dodge, Flyby Attack, Hover, Power Attack, Weapon Focus (bite)
+Skills: Acrobatics +12, Climb +14, Knowledge (dungeoneering) +10, Perception +17
+Languages: Abyssal
+Special qualities: [compression](ref/umr/compression), swarm mother
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Evil, Extraplanar
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +1 dodge, +9 natural, -1 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +10
-
-**Fh:** 2
-
-**Immune:** acid, poison
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** bite +17 (1d8+5 plus 3d6 acid), 2 claws +16 (1d6+5)
-
-**Ranged:** spit acid +14 ranged touch (5d6 acid)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** spit acid
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con 18, Int 11, Wis 14, Cha 13
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 32
-
-**Feats:** Blind-Fight, Dodge, Flyby Attack, Hover, Power Attack, Weapon Focus (bite)
-
-**Skills:** Acrobatics +12, Climb +14, Knowledge (dungeoneering) +10, Perception +17
-
-**Languages:** Abyssal
-
-**Special qualities:** [compression](ref/umr/compression), swarm mother
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary or hive (1 plus 2-20 [vescavor swarms](ref/monster/vescavor-swarm))
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary or hive (1 plus 2-20 [vescavor swarms](ref/monster/vescavor-swarm))
+Treasure: None
+:::
 
 ### Special Abilities
 

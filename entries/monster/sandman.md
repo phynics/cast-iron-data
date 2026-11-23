@@ -31,84 +31,64 @@ abilities = ["14", "13", "15", "10", "11", "10"]
 _A whirling cloud of fine desert sand piles up upon itself, forming into the shape of a humanoid
 figure._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: sleep (20 ft., DC 14)
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 30
+Experience points: 800
+:::
 
-**aura:** sleep (20 ft., DC 14)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +5
+Will: +3
+Amorph: present
+Dr: 10/bludgeoning
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: slam +6 (1d6+3 plus sleep)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +7
+::: statblock
+Ability scores: Str 14, Dex 13, Con 15, Int 10, Wis 11, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 17
+Feats: Improved Initiative, Iron Will
+Skills: Acrobatics +8, Climb +9, Knowledge (planes) +7, Perception +7, Sense Motive +7, Stealth +8 (+12 in sand)
+Racial Modifiers: +4 Stealth in sand
+Languages: Terran
+Special qualities: [compression](ref/umr/compression), sand form
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Earth, Elemental, Extraplanar
-
-**tremorsense:** 30
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +3
-
-**Amorph:** present
-
-**Dr:** 10/bludgeoning
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** slam +6 (1d6+3 plus sleep)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 15, Int 10, Wis 11, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 17
-
-**Feats:** Improved Initiative, Iron Will
-
-**Skills:** Acrobatics +8, Climb +9, Knowledge (planes) +7, Perception +7, Sense Motive +7, Stealth
-+8 (+12 in sand)
-
-**Racial Modifiers:** +4 Stealth in sand
-
-**Languages:** Terran
-
-**Special qualities:** [compression](ref/umr/compression), sand form
-
-**Ecology**
-
-**Environment:** any land ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary, gang (2-4), or shoal (5-10)
-
-**Treasure:** None
+::: statblock
+Environment: any land ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary, gang (2-4), or shoal (5-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

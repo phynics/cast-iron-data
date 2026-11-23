@@ -31,103 +31,74 @@ abilities = ["21", "20", "24", "17", "22", "29"]
 _This emaciated, robed humanoid wields a scythe made of bone to match the skeletal wings that
 protrude from its shoulders._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: fear aura (60 ft., DC 30)
+Initiative: +9
+Size: large
+Alignment: Lawful neutral
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft., Detect chaos, Detect law, True seeing
+Subtype: Extraplanar, Lawful
+Experience points: 102,400
+:::
 
-**aura:** fear aura (60 ft., DC 30)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 31
+Touch: 15
+Flat-footed: 25
+AC modifiers: +5 Dex, +1 dodge, +16 natural, -1 size
+Hit points: 275 (22d10+154)
+Fort: +20
+Ref: +12
+Will: +19
+Dr: 10/chaotic and silver
+Fh: 10
+Immune: ability damage, ability drain, cold, death effects, disease, energy drain, negative energy, poison
+Resist: acid 10, fire 10
+Sr: 28
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 30 ft., fly 40 ft. (perfect)
+Melee: +3 axiomatic scythe +30/+25/+20/+15 (2d6+10/×4), 2 wings +21 (1d8+2)
+Reach: 10
+Space: 10
+Spec Att: destroy soul
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: detect chaos, detect law, tongues, true seeing
+Per day: 3/day: destruction (DC 26), energy drain, greater scrying (DC 26), soul bind (DC 28)
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect law, True seeing
+::: statblock
+Ability scores: Str 21, Dex 20, Con 24, Int 17, Wis 22, Cha 29
+Base attack bonus: +22
+Combat maneuver bonus: +28
+Combat maneuver defense: 44
+Feats: Cleave, Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility, Power Attack, Spring Attack, Stand Still, Weapon Focus (scythe), Whirlwind Attack
+Skills: Acrobatics +30, Diplomacy +34, Sense Motive +31, Spellcraft +28, Stealth +26
+Languages: Celestial, Common, Draconic, Infernal; _[tongues](ref/spell/tongues)_
+:::
 
-**Subtype:** Extraplanar, Lawful
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 31
-
-**Touch:** 15
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 Dex, +1 dodge, +16 natural, -1 size
-
-**Hit points:** 275 (22d10+154)
-
-**Fort:** +20
-
-**Ref:** +12
-
-**Will:** +19
-
-**Dr:** 10/chaotic and silver
-
-**Fh:** 10
-
-**Immune:** ability damage, ability drain, cold, death effects, disease, energy drain, negative
-energy, poison
-
-**Resist:** acid 10, fire 10
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (perfect)
-
-**Melee:** +3 axiomatic scythe +30/+25/+20/+15 (2d6+10/×4), 2 wings +21 (1d8+2)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** destroy soul
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- detect chaos, detect law, tongues, true seeing
-
-**Per day:**
-
-- 3/day: destruction (DC 26), energy drain, greater scrying (DC 26), soul bind (DC 28)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 20, Con 24, Int 17, Wis 22, Cha 29
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 44
-
-**Feats:** Cleave, Combat Expertise, Combat Reflexes, Dodge, Improved Initiative, Mobility, Power
-Attack, Spring Attack, Stand Still, Weapon Focus (scythe), Whirlwind Attack
-
-**Skills:** Acrobatics +30, Diplomacy +34, Sense Motive +31, Spellcraft +28, Stealth +26
-
-**Languages:** Celestial, Common, Draconic, Infernal; _[tongues](ref/spell/tongues)_
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double (+3 axiomatic scythe); other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double (+3 axiomatic scythe); other treasure
+:::
 
 ### Special Abilities
 

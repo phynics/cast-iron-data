@@ -31,89 +31,66 @@ abilities = ["16", "13", "18", "14", "15", "13"]
 _This snake-bodied humanoid hisses with anger. Spines of crackling flame dance along the creature's
 blackened, fiery-red scales._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +1
+Size: medium
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Fire
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +1 Dex, +7 natural
+Hit points: 76 (8d10+32)
+Fort: +10
+Ref: +7
+Will: +6
+Dr: 10/magic
+Immune: fire
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Constrict: 2d6+4 plus 1d6 fire
+Melee: spear +11/+6 (1d8+4/×3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and [grab](ref/umr/grab))
+Reach: 5
+Reach P: 10 ft. with tail
+Space: 5
+Spec Att: heat
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 16, Dex 13, Con 18, Int 14, Wis 15, Cha 13
+Base attack bonus: +8
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 22 (can't be tripped)
+Feats: Cleave, Iron Will, Power Attack, Skill Focus (Perception)
+Skills: Acrobatics +12, Bluff +12, Craft (weaponsmithing) +17, Intimidate +12, Knowledge (planes) +13, Perception +16, Sense Motive +13, Stealth +12
+Racial Modifiers: +4 Craft (armorsmithing, blacksmithing, and weaponsmithing)
+Languages: Common, Ignan
+:::
 
-**Subtype:** Extraplanar, Fire
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +7 natural
-
-**Hit points:** 76 (8d10+32)
-
-**Fort:** +10
-
-**Ref:** +7
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Immune:** fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Constrict:** 2d6+4 plus 1d6 fire
-
-**Melee:** spear +11/+6 (1d8+4/×3 plus 1d6 fire), tail slap +6 (2d6+1 plus 1d6 fire and
-[grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tail
-
-**Space:** 5
-
-**Spec Att:** heat
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 13, Con 18, Int 14, Wis 15, Cha 13
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 22 (can't be tripped)
-
-**Feats:** Cleave, Iron Will, Power Attack, Skill Focus (Perception)
-
-**Skills:** Acrobatics +12, Bluff +12, Craft (weaponsmithing) +17, Intimidate +12, Knowledge
-(planes) +13, Perception +16, Sense Motive +13, Stealth +12
-
-**Racial Modifiers:** +4 Craft (armorsmithing, blacksmithing, and weaponsmithing)
-
-**Languages:** Common, Ignan
-
-**Ecology**
-
-**Environment:** any ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary, pair, or cluster (3-5)
-
-**Treasure:** Standard (spear); other non-flammable treasure
+::: statblock
+Environment: any ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary, pair, or cluster (3-5)
+Treasure: Standard (spear); other non-flammable treasure
+:::
 
 ### Special Abilities
 

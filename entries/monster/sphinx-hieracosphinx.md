@@ -27,73 +27,59 @@ abilities = ["19", "14", "15", "6", "15", "10"]
 
 _A cold-eyed falcon's head and great wings adorn the body of this otherwise leonine creature._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 15
+AC modifiers: +2 Dex, +6 natural, -1 size
+Hit points: 60 (8d10+16)
+Fort: +8
+Ref: +8
+Will: +4
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 60 ft. (poor)
+Melee: bite +11 (1d10+4), 2 claws +11 (1d6+4)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 14, Con 15, Int 6, Wis 15, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 25 (29 vs. trip)
+Feats: Cleave, Flyby Attack, Power Attack, Skill Focus (Perception)
+Skills: Fly +3, Perception +16
+Racial Modifiers: +4 Perception
+Languages: Sphinx
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +6 natural, -1 size
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (poor)
-
-**Melee:** bite +11 (1d10+4), 2 claws +11 (1d6+4)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con 15, Int 6, Wis 15, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 25 (29 vs. trip)
-
-**Feats:** Cleave, Flyby Attack, Power Attack, Skill Focus (Perception)
-
-**Skills:** Fly +3, Perception +16
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Sphinx
-
-**Ecology**
-
-**Environment:** warm hills
-
-**Organization:** solitary, pair, or flock (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm hills
+Organization: solitary, pair, or flock (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

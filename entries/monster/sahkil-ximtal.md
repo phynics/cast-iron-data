@@ -31,111 +31,77 @@ abilities = ["30", "25", "30", "15", "22", "23"]
 _A rat's head sprouts from the front of a crab-like body, and two tentacular tails ending in hands
 erupt from the towering bulk._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Initiative: +11
+Size: large
+Alignment: Neutral evil
+Type: outsider
+Perception: +27
+Senses: Darkvision 60 ft., Detect good, Detect magic, See in darkness, True seeing
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 102,400
+:::
 
-**Initiative:** +11
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 33
+Touch: 17
+Flat-footed: 25
+AC modifiers: +7 Dex, +1 dodge, +16 natural, -1 size
+Hit points: 279 (18d10+180)
+Fort: +21
+Ref: +13
+Will: +17
+Dr: 15/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 15, electricity 15, sonic 15
+Sr: 28
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., climb 20 ft., fly 60 ft. (good)
+Constrict: 3d6+14
+Melee: bite +31 (2d8+14 plus disease), 2 claws +31 (3d6+14/19-20 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 15 ft. with claws
+Space: 10
+Spec Att: disease, isolation, look of fear (60 ft., DC 25), miasma
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +23
+Constant: detect good, detect magic, fly, greater magic fang, true seeing
+At will: feast on fear (DC 23), putrefy food and drink (DC 16)
+Per day: 3/day: cloudkill (DC 21), quickened displacement, suggestion (DC 19)\
+1/day: horrid wilting (DC 24), imprisonment (DC 25), maze, sequester
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, See in darkness, True seeing
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 30, Dex 25, Con 30, Int 15, Wis 22, Cha 23
+Base attack bonus: +18
+Combat maneuver bonus: +29
+Combat maneuver defense: 47 (can't be tripped)
+Feats: Blind-Fight, Combat Reflexes, Critical Focus, Dodge, Improved Critical (claw), Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (displacement), Staggering Critical
+Skills: Bluff +27, Climb +18, Intimidate +27, Knowledge (arcana, planes) +23, Perception +27, Sense Motive +27, Spellcraft +23, Stealth +24
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: despoil, easy to call, emotional focus, skip between, spirit touch
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 17
-
-**Flat-footed:** 25
-
-**AC modifiers:** +7 Dex, +1 dodge, +16 natural, -1 size
-
-**Hit points:** 279 (18d10+180)
-
-**Fort:** +21
-
-**Ref:** +13
-
-**Will:** +17
-
-**Dr:** 15/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 15, electricity 15, sonic 15
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft., fly 60 ft. (good)
-
-**Constrict:** 3d6+14
-
-**Melee:** bite +31 (2d8+14 plus disease), 2 claws +31 (3d6+14/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with claws
-
-**Space:** 10
-
-**Spec Att:** disease, isolation, look of fear (60 ft., DC 25), miasma
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +23
-
-**Constant:**
-
-- detect good, detect magic, fly, greater magic fang, true seeing
-
-**At will:**
-
-- feast on fear (DC 23), putrefy food and drink (DC 16)
-
-**Per day:**
-
-- 3/day: cloudkill (DC 21), quickened displacement, suggestion (DC 19)
-- 1/day: horrid wilting (DC 24), imprisonment (DC 25), maze, sequester
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 25, Con 30, Int 15, Wis 22, Cha 23
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 47 (can't be tripped)
-
-**Feats:** Blind-Fight, Combat Reflexes, Critical Focus, Dodge, Improved Critical (claw), Improved
-Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (displacement),
-Staggering Critical
-
-**Skills:** Bluff +27, Climb +18, Intimidate +27, Knowledge (arcana, planes) +23, Perception +27,
-Sense Motive +27, Spellcraft +23, Stealth +24
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** despoil, easy to call, emotional focus, skip between, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or fright (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or fright (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

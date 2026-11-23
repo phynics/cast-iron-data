@@ -32,79 +32,62 @@ abilities = ["24", "17", "18", "2", "11", "5"]
 _This creature's bulbous compound eyes peer in all directions as its twin mandibles twitch and
 gnash. Six legs, each ending in spade-like claws, support its bulk._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Earth
+tremorsense: 90
+Experience points: 4,800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 18
+AC modifiers: +3 Dex, +9 natural, -1 size
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +10
+Will: +3
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 30 ft.
+Melee: bite +16 (1d8+7/19-20 plus [grab](ref/umr/grab)), 2 claws +16 (1d8+7)
+Rake: 2 claws +16, 1d8+7
+Reach: 5
+Space: 10
+Spec Att: burrowing charge, pit surge
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 24, Dex 17, Con 18, Int 2, Wis 11, Cha 5
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 31 (39 vs. trip)
+Feats: Combat Reflexes, Improved Critical (bite), Power Attack, Run, Skill Focus (Perception)
+Skills: Acrobatics +7, Climb +11, Perception +14
+Special qualities: feeding, [no breath](ref/umr/no-breath)
+:::
 
-**Subtype:** Earth
+### Ecology
 
-**tremorsense:** 90
-
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +9 natural, -1 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft.
-
-**Melee:** bite +16 (1d8+7/19-20 plus [grab](ref/umr/grab)), 2 claws +16 (1d8+7)
-
-**Rake:** 2 claws +16, 1d8+7
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** burrowing charge, pit surge
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 18, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 31 (39 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Power Attack, Run, Skill Focus (Perception)
-
-**Skills:** Acrobatics +7, Climb +11, Perception +14
-
-**Special qualities:** feeding, [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** temperate and warm deserts and plains
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate and warm deserts and plains
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

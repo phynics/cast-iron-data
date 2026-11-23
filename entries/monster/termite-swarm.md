@@ -30,81 +30,63 @@ abilities = ["1", "15", "16", "-", "12", "7"]
 
 _The ground teems with crawling termites, biting and stinging as they come._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Scent
+Subtype: Swarm
+tremorsense: 60
+Type: vermin
+Experience points: 2,400
+:::
 
-**Size:** fine
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 18
+AC modifiers: +2 Dex, +8 size
+Hit points: 75 (10d8+30)
+Fort: +10
+Ref: +5
+Will: +4
+Defensive abilities: swarm traits
+Immune: disease, mind-affecting effects, visual effects, weapon damage
+Resist: acid 5
+Weaknesses: blind
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Distraction: 17
+Melee: swarm (3d6 plus 1d6 acid)
+Reach: 0
+Space: 1/2
+Spec Att: gnaw, lingering sting
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 1, Dex 15, Con 16, Int -, Wis 12, Cha 7
+Base attack bonus: +7
+Combat maneuver bonus: -
+Combat maneuver defense: -
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 20
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +8 size
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +10
-
-**Ref:** +5
-
-**Will:** +4
-
-**Defensive abilities:** swarm traits
-
-**Immune:** disease, mind-affecting effects, visual effects, weapon damage
-
-**Resist:** acid 5
-
-**Weaknesses:** blind
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Distraction:** 17
-
-**Melee:** swarm (3d6 plus 1d6 acid)
-
-**Reach:** 0
-
-**Space:** 1/2
-
-**Spec Att:** gnaw, lingering sting
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 15, Con 16, Int -, Wis 12, Cha 7
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Ecology**
-
-**Environment:** warm forests, plains, or underground
-
-**Organization:** solitary, pair, nest (3-6), or colony (7-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests, plains, or underground
+Organization: solitary, pair, nest (3-6), or colony (7-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

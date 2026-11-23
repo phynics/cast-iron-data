@@ -30,79 +30,62 @@ abilities = ["1", "13", "18", "-", "10", "13"]
 _A wave of wing-like seedpods whips through the air, each tipped by a miniscule thorn and propelled
 by a rapidly lashing tendril._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+blindsense: 60
+Size: fine
+Initiative: +1
+Alignment: Neutral
+Perception: +0
+Type: plant
+Subtype: Swarm
+Experience points: 1,600
+:::
 
-**blindsense:** 60
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 19
+Touch: 19
+Flat-footed: 18
+AC modifiers: +1 Dex, +8 size
+Hit points: 51 (7d8+35)
+Fort: +9
+Ref: +3
+Will: +2
+Defensive abilities: swarm traits
+Immune: [plant traits](ref/umr/plant-traits), weapon damage
+Vulner: fire
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., fly 30 ft. (perfect)
+Distraction: 17
+Melee: swarm (2d6 plus infestation)
+Reach: 0
+Space: 10
+:::
 
-**Perception:** +0
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 1, Dex 13, Con 18, Int -, Wis 10, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Climb +3, Perception +0
+Racial Modifiers: modifies Climb with Dexterity
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 19
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +8 size
-
-**Hit points:** 51 (7d8+35)
-
-**Fort:** +9
-
-**Ref:** +3
-
-**Will:** +2
-
-**Defensive abilities:** swarm traits
-
-**Immune:** [plant traits](ref/umr/plant-traits), weapon damage
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 5 ft., fly 30 ft. (perfect)
-
-**Distraction:** 17
-
-**Melee:** swarm (2d6 plus infestation)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 18, Int -, Wis 10, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Climb +3, Perception +0
-
-**Racial Modifiers:** modifies Climb with Dexterity
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, flight (2-4 swarms), or cloud (5-7 swarms)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, flight (2-4 swarms), or cloud (5-7 swarms)
+Treasure: None
+:::
 
 ### Special Abilities
 

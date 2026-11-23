@@ -27,94 +27,65 @@ special_qualities = "arcane bond (viper), extended illusions (+2 rounds)"
 abilities = ["10", "22", "21", "22", "13", "18"]
 +++
 
-**Challenge rating:** 8
-
 **Advanced serpentfolk illusionist 4**
 
-**Initiative:** +10
+::: statblock
+Challenge rating: 8
+Initiative: +10
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Experience points: 4,800
+:::
 
-**Size:** medium
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 15
+AC modifiers: +1 deflection, +6 Dex, +4 natural
+Hit points: 99 (5d10+4d6+58\~9)
+Fort: +7
+Ref: +11
+Will: +9
+Immune: mind-affecting effects, paralysis, poison
+Sr: 19
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +8/+3 (1d4/19-20), bite +2 (1d6 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +8
+At will: disguise self (DC 15, humanoid form only), ventriloquism (DC 15)
+Per day: 1/day: blur, dominate person (DC 19), major image (DC 17), mirror image, suggestion (DC 17)
+:::
 
-**Experience points:** 4,800
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +10
+Per day: 9/day: blinding ray
+:::
 
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 deflection, +6 Dex, +4 natural
-
-**Hit points:** 99 (5d10+4d6+58\~9)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +9
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +8/+3 (1d4/19-20), bite +2 (1d6 plus poison)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +8
-
-**At will:**
-
-- disguise self (DC 15, humanoid form only), ventriloquism (DC 15)
-
-**Per day:**
-
-- 1/day: blur, dominate person (DC 19), major image (DC 17), mirror image, suggestion (DC 17)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +10
-
-**Per day:**
-
-- 9/day: blinding ray
-
-**Prepared Spells**
-
-**Caster level:** 4
-
-**Concentration:** +10
-
-**2nd-level spells:**
-
-- blindness/deafness (DC 18), detect thoughts (DC 18), illusion of calm (DC 19), invisibility,
-  pernicious poison
-
-**1st-level spells:**
-
-- color spray (2, DC 18), hypnotism (DC 18), shield, silent image (DC 18), vanish
-
-**Cantrips:**
-
-- dancing lights, detect magic, mage hand, read magic
-
-**Opposition Schools:** conjuration, evocation
+::: statblock
+title = "Prepared Spells"
+Caster level: 4
+Concentration: +10
+2nd-level spells: blindness/deafness (DC 18), detect thoughts (DC 18), illusion of calm (DC 19), invisibility, pernicious poison
+1st-level spells: color spray (2, DC 18), hypnotism (DC 18), shield, silent image (DC 18), vanish
+Cantrips: dancing lights, detect magic, mage hand, read magic
+Opposition Schools: conjuration, evocation
+:::
 
 ### Tactics
 
@@ -123,38 +94,27 @@ debilitate them with blindness/deafness, color spray, or a venomous bite enhance
 poison. Otherwise, it attacks with its wand or uses suggestion and dominate person to turn enemies
 into allies.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 10, Dex 22, Con 21, Int 22, Wis 13, Cha 18
+::: statblock
+Ability scores: Str 10, Dex 22, Con 21, Int 22, Wis 13, Cha 18
+Base attack bonus: +7
+Combat maneuver bonus: +7
+Combat maneuver defense: 24
+Feats: Combat Casting, Improved Initiative, Scribe Scroll, Spell Focus (enchantment), Spell Focus (illusion), Toughness
+Skills: Acrobatics +11, Bluff +10, Diplomacy +10, Disguise +10, Sense Motive +7, Spellcraft +18, Use Magic Device +15
+Racial Modifiers: +8 Escape Artist, +4 Use Magic Device
+Languages: Abyssal, Aklo, Common, Draconic, Elven, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: arcane bond (viper), extended illusions (+2 rounds)
+Combat gear: 2 potion of cure moderate wounds, 2 scroll of blur, 2 scroll of daze monster, 2 scroll of hideous laughter, scroll of hold person, 2 scroll of invisibility, 2 scroll of mirror image, 2 scroll of touch of idiocy, Dmage armor/20 charges, Dmagic missile/20 charges
+Other gear: mwk dagger, Iamu1, ring of prot1, spellbook, 273 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Casting, Improved Initiative, Scribe Scroll, Spell Focus (enchantment), Spell
-Focus (illusion), Toughness
-
-**Skills:** Acrobatics +11, Bluff +10, Diplomacy +10, Disguise +10, Sense Motive +7, Spellcraft +18,
-Use Magic Device +15
-
-**Racial Modifiers:** +8 Escape Artist, +4 Use Magic Device
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Elven, Undercommon; [telepathy](ref/umr/telepathy)
-100 ft.
-
-**Special qualities:** arcane bond (viper), extended illusions (+2 rounds)
-
-**Combat gear:** 2 potion of cure moderate wounds, 2 scroll of blur, 2 scroll of daze monster, 2
-scroll of hideous laughter, scroll of hold person, 2 scroll of invisibility, 2 scroll of mirror
-image, 2 scroll of touch of idiocy, Dmage armor/20 charges, Dmagic missile/20 charges
-
-**Other gear:** mwk dagger, Iamu1, ring of prot1, spellbook, 273 gp
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
+::: statblock
+Environment: any land (usually jungles or underground)
+:::
 
 ### Special Abilities
 

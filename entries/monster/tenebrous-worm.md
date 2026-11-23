@@ -31,73 +31,59 @@ abilities = ["17", "16", "20", "2", "13", "7"]
 _This pallid beast clatters upon dozens of small legs. Writhing bristles twitch on its back, and its
 shadow seems strangely mobile._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 4,800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 18
+AC modifiers: +3 Dex, +8 natural
+Hit points: 105 (10d10+50)
+Fort: +14
+Ref: +6
+Will: +8
+Defensive abilities: bristles
+Immune: acid
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 20 ft.
+Melee: bite +14 (2d6+4 plus 6d6 acid)
+Spec Att: poison
+:::
 
-**Perception:** +14
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 16, Con 20, Int 2, Wis 13, Cha 7
+Base attack bonus: +10
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Critical Focus, Great Fortitude, Improved Initiative, Iron Will, Weapon Focus (bite)
+Skills: Perception +14, Stealth +16
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +8 natural
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +14
-
-**Ref:** +6
-
-**Will:** +8
-
-**Defensive abilities:** bristles
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +14 (2d6+4 plus 6d6 acid)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 20, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Critical Focus, Great Fortitude, Improved Initiative, Iron Will, Weapon Focus (bite)
-
-**Skills:** Perception +14, Stealth +16
-
-**Ecology**
-
-**Environment:** any land (Plane of Shadow)
-
-**Organization:** solitary, pair, or swarm (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land (Plane of Shadow)
+Organization: solitary, pair, or swarm (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

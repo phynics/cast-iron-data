@@ -30,84 +30,66 @@ abilities = ["21", "23", "-", "1", "11", "5"]
 _Sculpted from ivory in the form of a large skull, this construct perches on six segmented legs of
 whitened bone._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +10
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 15
+AC modifiers: +6 Dex, +4 natural, +1 size
+Hit points: 75 (10d10+20)
+Fort: +3
+Ref: +9
+Will: +3
+Immune: [construct traits](ref/umr/construct-traits), electricity, magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., climb 20 ft., fly 40 ft. (good)
+Melee: 2 claws +17 (1d6+5 plus poison), 2 wings +11 (1d3+2)
+Spec Att: disorienting screech
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: -1
+Constant: detect magic
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 3,200
+::: statblock
+Ability scores: Str 21, Dex 23, Con -, Int 1, Wis 11, Cha 5
+Base attack bonus: +10
+Combat maneuver bonus: +14
+Combat maneuver defense: 30 (38 vs. trip)
+Feats: Flyby Attack, Improved Initiative, Skill Focus (Perception), Toughness, Weapon Focus (claws)
+Skills: Acrobatics +8, Climb +15, Perception +5, Stealth +12
+Languages: Thassilonian (can't speak)
+Special qualities: alert, [freeze](ref/umr/freeze)
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 Dex, +4 natural, +1 size
-
-**Hit points:** 75 (10d10+20)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +3
-
-**Immune:** [construct traits](ref/umr/construct-traits), electricity, magic
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., fly 40 ft. (good)
-
-**Melee:** 2 claws +17 (1d6+5 plus poison), 2 wings +11 (1d3+2)
-
-**Spec Att:** disorienting screech
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** -1
-
-**Constant:**
-
-- detect magic
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 23, Con -, Int 1, Wis 11, Cha 5
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 30 (38 vs. trip)
-
-**Feats:** Flyby Attack, Improved Initiative, Skill Focus (Perception), Toughness, Weapon Focus
-(claws)
-
-**Skills:** Acrobatics +8, Climb +15, Perception +5, Stealth +12
-
-**Languages:** Thassilonian (can't speak)
-
-**Special qualities:** alert, [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or troop (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or troop (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

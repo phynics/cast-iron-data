@@ -31,81 +31,63 @@ abilities = ["-", "19", "-", "11", "16", "17"]
 _This spectral human is draped in multicolored vestments that trail off into mist, and has open
 black pits for eyes and an expression of sorrow and horror._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 13
+AC modifiers: +3 deflection, +4 Dex, +1 dodge
+Hit points: 75 (10d8+30)
+Fort: +6
+Ref: +7
+Will: +10
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: legacy of faith
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: fly 60 ft. (average)
+Ch N En: 7d6, DC 18, 6/day, as 7th-level cleric
+Melee: incorporeal touch +11 touch (1d8 plus curse of sorrowful wasting)
+Spec Att: curse of sorrowful wasting (DC 18)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 19, Con -, Int 11, Wis 16, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Channel Smite, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative
+Skills: Intimidate +16, Knowledge (religion) +13, Perception +16, Sense Motive +11, Stealth +12
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 75 (10d8+30)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +10
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** legacy of faith
-
-**Offense**
-
-**Speed:** fly 60 ft. (average)
-
-**Ch N En:** 7d6, DC 18, 6/day, as 7th-level cleric
-
-**Melee:** incorporeal touch +11 touch (1d8 plus curse of sorrowful wasting)
-
-**Spec Att:** curse of sorrowful wasting (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 19, Con -, Int 11, Wis 16, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Channel Smite, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative
-
-**Skills:** Intimidate +16, Knowledge (religion) +13, Perception +16, Sense Motive +11, Stealth +12
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or conclave (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or conclave (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

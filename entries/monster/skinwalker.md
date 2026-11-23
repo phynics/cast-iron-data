@@ -31,89 +31,70 @@ abilities = ["17", "14", "13", "8", "14", "8"]
 
 _This man seems human at first, but a closer look reveals he has claws and sharp teeth._
 
-**Challenge rating:** 1/2
-
 **Male skinwalker [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Subtype: Shapechanger, Skinwalker
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 armor, +2 Dex
+Hit points: 12 (1d10+2)
+Fort: +3
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft.
+Fav En: human +2
+Melee: 2 claws +4 (1d4+3)
+Ranged: longbow +3 (1d8/×3)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 1/day: speak with animals
+:::
 
-**Subtype:** Shapechanger, Skinwalker
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 17, Dex 14, Con 13, Int 8, Wis 14, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Power Attack
+Skills: Climb +7
+Racial Modifiers: +2 Handle Animal
+Languages: Common
+Special qualities: change shape, track +1, [wild empathy](ref/ability/wild-empathy) +2
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +2 Dex
-
-**Hit points:** 12 (1d10+2)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** human +2
-
-**Melee:** 2 claws +4 (1d4+3)
-
-**Ranged:** longbow +3 (1d8/×3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: speak with animals
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 14, Con 13, Int 8, Wis 14, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Power Attack
-
-**Skills:** Climb +7
-
-**Racial Modifiers:** +2 Handle Animal
-
-**Languages:** Common
-
-**Special qualities:** change shape, track +1, [wild empathy](ref/ability/wild-empathy) +2
-
-**Ecology**
-
-**Environment:** any forests, hills, or mountains
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** Standard (studded leather armor, longbow); other treasure
+::: statblock
+Environment: any forests, hills, or mountains
+Organization: solitary, pair, or pack (3-12)
+Treasure: Standard (studded leather armor, longbow); other treasure
+:::
 
 ### Special Abilities
 

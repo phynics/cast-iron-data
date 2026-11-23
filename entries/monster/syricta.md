@@ -30,82 +30,63 @@ abilities = ["31", "14", "22", "7", "14", "17"]
 _A cobra head rests on a humanoid torso that splits into dozens of snakes. One arm is a snake tail,
 while the other is two snake heads._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +2
+Size: large
+Perception: +22
+Senses: Darkvision 60 ft., Scent
+Experience points: 19,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 27
+AC modifiers: +2 Dex, +18 natural, -1 size
+Hit points: 178 (17d8+102)
+Fort: +11
+Ref: +9
+Will: +12
+Immune: mind-affecting effects, paralysis, poison
+Sr: 23
+Weaknesses: serpentfolk pawn
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Constrict: 1d6+10
+Melee: 3 bites +22 (2d6+10/19-20 plus poison), tentacle +20 (1d6+5 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: poison, poison cloud, snake overrun
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 31, Dex 14, Con 22, Int 7, Wis 14, Cha 17
+Base attack bonus: +12
+Combat maneuver bonus: +23 (+27 overrun)
+Combat maneuver defense: 35 (37 vs. overrun, can't be tripped)
+Feats: Greater Overrun, Improved Critical (bite), Improved Overrun, Intimidating Prowess, Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite), Weapon Focus (tentacle)
+Skills: Intimidate +31, Perception +22
+Languages: Aklo, Draconic, Undercommon
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 11
-
-**Flat-footed:** 27
-
-**AC modifiers:** +2 Dex, +18 natural, -1 size
-
-**Hit points:** 178 (17d8+102)
-
-**Fort:** +11
-
-**Ref:** +9
-
-**Will:** +12
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 23
-
-**Weaknesses:** serpentfolk pawn
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Constrict:** 1d6+10
-
-**Melee:** 3 bites +22 (2d6+10/19-20 plus poison), tentacle +20 (1d6+5 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison, poison cloud, snake overrun
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 14, Con 22, Int 7, Wis 14, Cha 17
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +23 (+27 overrun)
-
-**Combat maneuver defense:** 35 (37 vs. overrun, can't be tripped)
-
-**Feats:** Greater Overrun, Improved Critical (bite), Improved Overrun, Intimidating Prowess,
-Lightning Reflexes, Multiattack, Power Attack, Weapon Focus (bite), Weapon Focus (tentacle)
-
-**Skills:** Intimidate +31, Perception +22
-
-**Languages:** Aklo, Draconic, Undercommon
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, knot (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, knot (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

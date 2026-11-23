@@ -32,97 +32,73 @@ _This hulking reptilian humanoid's torso bristles with twitching vestigial limbs
 and drooling half-formed mouths. The creature's oversized maw is filled with curved teeth
 reminiscent of sickle blades._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: [stench](ref/umr/stench) (30 ft., DC 17, 10 rounds)
+Alignment: Chaotic evil
+Initiative: +1
+Size: large
+Type: outsider
+Perception: +1
+Senses: Darkvision 120 ft., See in darkness
+Subtype: Chaotic, Evil, Extraplanar, Native
+Experience points: 2,400
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 17, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +7
+Will: +5
+Dr: 10/cold iron or good
+Immune: acid, poison
+Resist: cold 10, electricity 10, fire 10
+Weaknesses: sunlight powerlessness
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: bite +13 (1d10+5/19-20 plus 1d6 acid and corrupting bite), 2 claws +12 (1d6+5)
+Reach: 10
+Space: 10
+Spec Att: corrupting bite, vicious jaws
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+Per day: 1/day: deeper darkness, slow (DC 15), unholy blight (DC 16)
+:::
 
-**Perception:** +1
+### Statistics
 
-**Senses:** Darkvision 120 ft., See in darkness
+::: statblock
+Ability scores: Str 20, Dex 12, Con 17, Int 5, Wis 13, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 25
+Feats: Diehard, Endurance, Iron Will, Weapon Focus (bite)
+Skills: Climb +12
+Racial Modifiers: +4 Stealth in rocky areas
+Languages: Abyssal
+:::
 
-**Subtype:** Chaotic, Evil, Extraplanar, Native
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 10/cold iron or good
-
-**Immune:** acid, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +13 (1d10+5/19-20 plus 1d6 acid and corrupting bite), 2 claws +12 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** corrupting bite, vicious jaws
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**Per day:**
-
-- 1/day: deeper darkness, slow (DC 15), unholy blight (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 12, Con 17, Int 5, Wis 13, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 25
-
-**Feats:** Diehard, Endurance, Iron Will, Weapon Focus (bite)
-
-**Skills:** Climb +12
-
-**Racial Modifiers:** +4 Stealth in rocky areas
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

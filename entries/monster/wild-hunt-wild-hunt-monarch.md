@@ -33,157 +33,91 @@ abilities = ["33", "25", "28", "22", "26", "27"]
 _This limber and regal humanoid has an elk's antlers, long pointed ears, flowing white hair, and
 luminescent green eyes._
 
-**Challenge rating:** 19
-
-**Alignment:** Chaotic neutral
-
-**Type:** fey
-
-**greensight:** 60
-
-**Initiative:** +11
-
-**Size:** medium
-
-**Perception:** +37
-
-**Senses:** Low-light vision, Mistsight, Scent, See in darkness
-
-**Subtype:** Wild hunt
-
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 26
-
-**Flat-footed:** 26
-
-**AC modifiers:** +8 deflection, +7 Dex, +1 dodge, +8 natural
-
-**Hit points:** 325 (26d6+234)
-
-**Fort:** +19
-
-**Ref:** +22
-
-**Will:** +23
-
-**Defensive abilities:** instinctive cooperation, wild grace
-
-**Dr:** 15/cold iron
-
-**Immune:** cold
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** monarch's glaive +30/+25/+20 (1d10+21/19-20/×3 plus 2d6), gore +19 (1d8+5)
-
-**Ranged:** monarch's glaive +26 (1d10+21/19-20/×3 plus 2d6)
-
-**Spec Att:** call to the hunt, monarch's glaive, staggering gore, wild gaze (DC 31), wild
-reincarnation
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +25
-
-**Constant:**
-
-- know direction, speak with animals, speak with plants
-
-**At will:**
-
-- charm monster (DC 22), command (DC 19), dominate person (DC 23), ghost sound (DC 18), major image
-  (DC 21)
-
-**Per day:**
-
-- 3/day: quickened charm monster (DC 22), greater command (DC 23), hallucinatory terrain (DC 22),
-  mass suggestion (DC 24), plane shift (DC 25), stone tell, veil
-- 1/day: dominate monster (DC 27), summon (level 9, 1 wild hunt horse 100%), wind walk
-
-**Prepared Spells**
-
-**Caster level:** 17
-
-**Concentration:** +25
-
-**9th-level spells:**
-
-- foresight
-
-**8th-level spells:**
-
-- finger of death (DC 26), mass cure serious wounds, word of recall
-
-**7th-level spells:**
-
-- control weather, fire storm (DC 25), heal, sunbeam (DC 25)
-
-**6th-level spells:**
-
-- greater dispel magic, 2, move earth, transport via plants, 2
-
-**5th-level spells:**
-
-- baleful polymorph (DC 23), call lightning storm (DC 23), death ward, tree stride, wall of thorns
-
-**4th-level spells:**
-
-- air walk, cure serious wounds, 2, dispel magic, flame strike (DC 22), freedom of movement
-
-**3rd-level spells:**
-
-- cure moderate wounds, 2, daylight, snare, spike growth, wind wall
-
-**2nd-level spells:**
-
-- barkskin, hold animal (DC 20), lesser restoration, resist energy, stone call, tree shape
-
-**1st-level spells:**
-
-- cure light wounds, 2, entangle (DC 19), faerie fire, obscuring mist, produce flame
-
-**Cantrips:**
-
-- detect magic, guidance, mending, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 33, Dex 25, Con 28, Int 22, Wis 26, Cha 27
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 50
-
-**Feats:** Blind-Fight, Combat Reflexes, Critical Focus, Dodge, Furious Focus, Great Fortitude,
-Improved Critical (glaive), Improved Initiative, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Step Up, Tiring Critical, Weapon
-Focus (glaive)
-
-**Skills:** Acrobatics +36, Diplomacy +37, Intimidate +34, Knowledge (geography, nature) +35,
-Perception +37, Use Magic Device +37
-
-**Languages:** Aklo, Common, Draconic, Sylvan; _speak with animals, speak with plants_
-
-**Special qualities:** planar acclimation, wild hunt link
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or wild hunt
-
-**Treasure:** Double (+3 glaive); other treasure
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +11
+Size: medium
+Perception: +37
+Senses: Low-light vision, Mistsight, Scent, See in darkness
+Subtype: Wild hunt
+Experience points: 204,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 34
+Touch: 26
+Flat-footed: 26
+AC modifiers: +8 deflection, +7 Dex, +1 dodge, +8 natural
+Hit points: 325 (26d6+234)
+Fort: +19
+Ref: +22
+Will: +23
+Defensive abilities: instinctive cooperation, wild grace
+Dr: 15/cold iron
+Immune: cold
+Resist: electricity 10, fire 10
+:::
+
+### Offense
+
+::: statblock
+Speed: 50 ft.
+Melee: monarch's glaive +30/+25/+20 (1d10+21/19-20/×3 plus 2d6), gore +19 (1d8+5)
+Ranged: monarch's glaive +26 (1d10+21/19-20/×3 plus 2d6)
+Spec Att: call to the hunt, monarch's glaive, staggering gore, wild gaze (DC 31), wild reincarnation
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +25
+Constant: know direction, speak with animals, speak with plants
+At will: charm monster (DC 22), command (DC 19), dominate person (DC 23), ghost sound (DC 18), major image (DC 21)
+Per day: 3/day: quickened charm monster (DC 22), greater command (DC 23), hallucinatory terrain (DC 22), mass suggestion (DC 24), plane shift (DC 25), stone tell, veil\
+1/day: dominate monster (DC 27), summon (level 9, 1 wild hunt horse 100%), wind walk
+:::
+
+::: statblock
+title = "Prepared Spells"
+Caster level: 17
+Concentration: +25
+9th-level spells: foresight
+8th-level spells: finger of death (DC 26), mass cure serious wounds, word of recall
+7th-level spells: control weather, fire storm (DC 25), heal, sunbeam (DC 25)
+6th-level spells: greater dispel magic, 2, move earth, transport via plants, 2
+5th-level spells: baleful polymorph (DC 23), call lightning storm (DC 23), death ward, tree stride, wall of thorns
+4th-level spells: air walk, cure serious wounds, 2, dispel magic, flame strike (DC 22), freedom of movement
+3rd-level spells: cure moderate wounds, 2, daylight, snare, spike growth, wind wall
+2nd-level spells: barkskin, hold animal (DC 20), lesser restoration, resist energy, stone call, tree shape
+1st-level spells: cure light wounds, 2, entangle (DC 19), faerie fire, obscuring mist, produce flame
+Cantrips: detect magic, guidance, mending, stabilize
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 33, Dex 25, Con 28, Int 22, Wis 26, Cha 27
+Base attack bonus: +13
+Combat maneuver bonus: +24
+Combat maneuver defense: 50
+Feats: Blind-Fight, Combat Reflexes, Critical Focus, Dodge, Furious Focus, Great Fortitude, Improved Critical (glaive), Improved Initiative, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (charm monster), Step Up, Tiring Critical, Weapon Focus (glaive)
+Skills: Acrobatics +36, Diplomacy +37, Intimidate +34, Knowledge (geography, nature) +35, Perception +37, Use Magic Device +37
+Languages: Aklo, Common, Draconic, Sylvan; _speak with animals, speak with plants_
+Special qualities: planar acclimation, wild hunt link
+:::
+
+### Ecology
+
+::: statblock
+Environment: any land
+Organization: solitary or wild hunt
+Treasure: Double (+3 glaive); other treasure
+:::
 
 ### Special Abilities
 

@@ -33,73 +33,59 @@ abilities = ["19", "12", "15", "2", "13", "10"]
 _This fierce creature merges the front half of a great cat with the tail and other characteristics
 of a giant fish._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 17
+AC modifiers: +1 Dex, +8 natural, -1 size
+Hit points: 45 (6d10+12)
+Fort: +7
+Ref: +6
+Will: +5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: bite +8 (1d8+3), 2 claws +9 (1d4+3)
+Reach: 5
+Rend: 2 claws, 1d4+4
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 12, Con 15, Int 2, Wis 13, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 21 (can't be tripped)
+Feats: Iron Will, Skill Focus (Perception), Weapon Focus (claw)
+Skills: Perception +10, Swim +17
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 17
-
-**AC modifiers:** +1 Dex, +8 natural, -1 size
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** bite +8 (1d8+3), 2 claws +9 (1d4+3)
-
-**Reach:** 5
-
-**Rend:** 2 claws, 1d4+4
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 12, Con 15, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21 (can't be tripped)
-
-**Feats:** Iron Will, Skill Focus (Perception), Weapon Focus (claw)
-
-**Skills:** Perception +10, Swim +17
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm coastlines
-
-**Organization:** solitary, pair, or pride (3-15)
-
-**Treasure:** None
+::: statblock
+Environment: warm coastlines
+Organization: solitary, pair, or pride (3-15)
+Treasure: None
+:::
 
 ### Description
 

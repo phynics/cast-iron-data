@@ -33,75 +33,60 @@ fringe of bird's feathers around its quivering central mass and long tentacles t
 center, with each tentacle ending in a snapping beak. It sings to itself as it flies, each beak
 making a different note in an eerie harmony._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 30
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Subtype: Extraplanar
+Experience points: 2,400
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 17
+AC modifiers: +3 Dex, +8 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +11
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 10 ft., fly 30 ft. (perfect)
+Melee: 3 bites +11 (1d6+4 plus poison)
+Reach: 15
+Space: 10
+Spec Att: poison
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +12
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 2, Wis 12, Cha 8
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 26 (30 vs. trip)
+Feats: Combat Reflexes, Flyby Attack, Improved Initiative, Lightning Reflexes
+Skills: Fly +9, Perception +12, Stealth +0
+Special qualities: spill poison
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +8 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +11
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (perfect)
-
-**Melee:** 3 bites +11 (1d6+4 plus poison)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 16, Int 2, Wis 12, Cha 8
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26 (30 vs. trip)
-
-**Feats:** Combat Reflexes, Flyby Attack, Improved Initiative, Lightning Reflexes
-
-**Skills:** Fly +9, Perception +12, Stealth +0
-
-**Special qualities:** spill poison
-
-**Ecology**
-
-**Environment:** any tropical (First World)
-
-**Organization:** solitary or shoal (6-24)
-
-**Treasure:** None
+::: statblock
+Environment: any tropical (First World)
+Organization: solitary or shoal (6-24)
+Treasure: None
+:::
 
 ### Special Abilities
 

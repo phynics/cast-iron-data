@@ -34,79 +34,62 @@ abilities = ["-", "16", "-", "14", "16", "15"]
 _This translucent, ghostly figure fades into view from the damp mist, its face distorted by wrath
 into a hideous mask._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+aura: [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Initiative: +7
+Alignment: Lawful evil
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 3,200
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 deflection, +3 Dex
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +5
+Will: +9
+Chan Res: +2
+Incorporeal: present
+Weaknesses: resurrection vulnerability, sunlight powerlessness
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 80 ft. (perfect)
+E Drain: 2 levels, DC 16
+Melee: incorporeal touch +10 (1d8 plus energy drain)
+Spec Att: create spawn
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 14, Wis 16, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Blind-Fight, Improved Initiative, Skill Focus (Perception), Weapon Focus (touch)
+Skills: Fly +11, Intimidate +13, Knowledge (history) +10, Perception +17
+Languages: Common
+:::
 
-**Subtype:** Incorporeal
+### Ecology
 
-**Type:** undead
-
-**Experience points:** 3,200
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +3 Dex
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +9
-
-**Chan Res:** +2
-
-**Incorporeal:** present
-
-**Weaknesses:** resurrection vulnerability, sunlight powerlessness
-
-**Offense**
-
-**Speed:** fly 80 ft. (perfect)
-
-**E Drain:** 2 levels, DC 16
-
-**Melee:** incorporeal touch +10 (1d8 plus energy drain)
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 14, Wis 16, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Blind-Fight, Improved Initiative, Skill Focus (Perception), Weapon Focus (touch)
-
-**Skills:** Fly +11, Intimidate +13, Knowledge (history) +10, Perception +17
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, gang (3-6), or swarm (7-12)
+::: statblock
+Environment: any
+Organization: solitary, pair, gang (3-6), or swarm (7-12)
+:::
 
 ### Special Abilities
 

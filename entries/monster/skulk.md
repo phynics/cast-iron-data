@@ -32,76 +32,61 @@ abilities = ["11", "14", "13", "10", "14", "7"]
 _This smooth-skinned, hairless humanoid has penetrating eyes and skin that shifts and changes to
 mimic his surroundings._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Size: medium
+Perception: +5
+Senses: Low-light vision
+Subtype: Skulk
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 16 (3d8+3)
+Fort: +2
+Ref: +5
+Will: +3
+:::
 
-**Initiative:** +6
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: short sword +2 (1d6/19-20)
+Ranged: dagger +4 (1d4/19-20)
+Sneak: +1d6
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 11, Dex 14, Con 13, Int 10, Wis 14, Cha 7
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Perception +5, Stealth +16
+Racial Modifiers: +8 Stealth
+Languages: Common, Undercommon
+Special qualities: camouflaged step, chameleon skin
+:::
 
-**Subtype:** Skulk\
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** short sword +2 (1d6/19-20)
-
-**Ranged:** dagger +4 (1d4/19-20)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 14, Con 13, Int 10, Wis 14, Cha 7
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Perception +5, Stealth +16
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Common, Undercommon
-
-**Special qualities:** camouflaged step, chameleon skin
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, band (3-8), or tribe (9-16)
-
-**Treasure:** Standard (short sword, 2 daggers); other treasure
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, band (3-8), or tribe (9-16)
+Treasure: Standard (short sword, 2 daggers); other treasure
+:::
 
 ### Special Abilities
 

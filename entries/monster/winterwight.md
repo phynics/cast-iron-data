@@ -30,105 +30,75 @@ abilities = ["40", "23", "-", "11", "18", "29"]
 _Human-sized and of a deathly blue color, this long-taloned skeletal creature is partially encased
 in jagged sheets of ice._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+aura: cold (10 ft.)
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Perception: +27
+Senses: Darkvision 60 ft.
+Subtype: Cold
+Type: undead
+Experience points: 102,400
+:::
 
-**aura:** cold (10 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 32
+Touch: 16
+Flat-footed: 26
+AC modifiers: +6 Dex, +16 natural
+Hit points: 270 (20d8+180)
+Fort: +15
+Ref: +14
+Will: +16
+Chan Res: +4
+Dr: 15/bludgeoning and good
+Fh: 10
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 28
+Vulner: fire
+:::
 
-**Initiative:** +10
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15 plus blightfire)
+Rend: 2 claws 2d8+22
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +26
+Constant: air walk
+At will: cone of cold (DC 24), dimension door, greater dispel magic, sleet storm, wall of ice
+Per day: 3/day: polar ray\
+1/day: control weather
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Cold
+::: statblock
+Ability scores: Str 40, Dex 23, Con -, Int 11, Wis 18, Cha 29
+Base attack bonus: +15
+Combat maneuver bonus: +30
+Combat maneuver defense: 46
+Feats: Blind-Fight, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
+Skills: Acrobatics +26, Intimidate +32, Perception +27, Stealth +29
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 16
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 Dex, +16 natural
-
-**Hit points:** 270 (20d8+180)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +16
-
-**Chan Res:** +4
-
-**Dr:** 15/bludgeoning and good
-
-**Fh:** 10
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 28
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +30 (2d8+15 plus blightfire), 2 claws +30 (2d6+15 plus blightfire)
-
-**Rend:** 2 claws 2d8+22
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +26
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- cone of cold (DC 24), dimension door, greater dispel magic, sleet storm, wall of ice
-
-**Per day:**
-
-- 3/day: polar ray
-- 1/day: control weather
-
-**Statistics**
-
-**Ability scores:** Str 40, Dex 23, Con -, Int 11, Wis 18, Cha 29
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 46
-
-**Feats:** Blind-Fight, Combat Reflexes, Critical Focus, Greater Vital Strike, Improved Initiative,
-Improved Vital Strike, Lightning Reflexes, Power Attack, Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +26, Intimidate +32, Perception +27, Stealth +29
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any cold land
-
-**Organization:** solitary, pair, or incursion (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold land
+Organization: solitary, pair, or incursion (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

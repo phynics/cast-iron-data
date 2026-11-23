@@ -29,94 +29,71 @@ abilities = ["22", "18", "21", "10", "17", "13"]
 _This mighty horse has eight powerful legs. Its hooves leave shimmering hoofprints that quickly fade
 to mist._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +4
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 12,800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 25
+Touch: 13
+Flat-footed: 21
+AC modifiers: +4 Dex, +12 natural, -1 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +15
+Will: +9
+Immune: electricity
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 80 ft.
+Br Weap: DC 22
+Melee: bite +19 (1d8+6), 4 hooves +17 (1d8+3)
+Pow Ch: hooves, 2d8+12
+Reach: 5
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Trample: 1d8+9, DC 23
+:::
 
-**Perception:** +16
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +12
+Constant: air walk
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 12,800
+::: statblock
+Ability scores: Str 22, Dex 18, Con 21, Int 10, Wis 17, Cha 13
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 35 (47 vs. trip)
+Feats: Endurance, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Run, Weapon Focus (hoof)
+Skills: Acrobatics +18 (+38 when jumping), Perception +16, Swim +16
+Languages: Auran (can't speak)
+:::
 
-**Armor class:** 25
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 Dex, +12 natural, -1 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +15
-
-**Will:** +9
-
-**Immune:** electricity
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 80 ft.
-
-**Br Weap:** DC 22
-
-**Melee:** bite +19 (1d8+6), 4 hooves +17 (1d8+3)
-
-**Pow Ch:** hooves, 2d8+12
-
-**Reach:** 5
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Trample:** 1d8+9, DC 23
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +12
-
-**Constant:**
-
-- air walk
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con 21, Int 10, Wis 17, Cha 13
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35 (47 vs. trip)
-
-**Feats:** Endurance, Iron Will, Lightning Reflexes, Multiattack, Power Attack, Run, Weapon Focus
-(hoof)
-
-**Skills:** Acrobatics +18 (+38 when jumping), Perception +16, Swim +16
-
-**Languages:** Auran (can't speak)
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, or herd (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, or herd (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

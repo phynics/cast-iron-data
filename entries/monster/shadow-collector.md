@@ -31,94 +31,70 @@ abilities = ["14", "24", "19", "15", "17", "18"]
 _Shadows drip from the hands of this small, humanoid figure. Massive ears and elaborate eyebrows
 frame her youthful features._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +7
+Perception: +18
+Senses: Low-light vision
+Size: small
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 21
+Touch: 19
+Flat-footed: 13
+AC modifiers: +7 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 90 (12d6+48)
+Fort: +8
+Ref: +15
+Will: +11
+Dr: 10/cold iron
+Sr: 19
+:::
 
-**Initiative:** +7
+### Offense
 
-**Perception:** +18
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +15 (1d6+2)
+Sneak: +3d6
+Spec Att: steal shadow, tear shadow
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+At will: dancing lights, disguise self, major image (DC 17), shadow evocation (simulating leashed shackles only; DC 19), shadow step
+Per day: 3/day: shadow conjuration (DC 18)\
+1/day: shadow evocation (DC 19), shadow walk
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 14, Dex 24, Con 19, Int 15, Wis 17, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+14 steal)
+Combat maneuver defense: 25 (27 vs. steal)
+Feats: Agile Maneuvers, Combat Expertise, Dodge, Improved Steal, Mobility, Spring Attack, Weapon Finesse, Weapon Focus (claw)
+Skills: Bluff +19, Climb +11, Diplomacy +19, Sense Motive +12, Sleight of Hand +22, Stealth +26
+Languages: Aklo, Common, Sylvan
+Special qualities: no shadow
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 19
-
-**Flat-footed:** 13
-
-**AC modifiers:** +7 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 90 (12d6+48)
-
-**Fort:** +8
-
-**Ref:** +15
-
-**Will:** +11
-
-**Dr:** 10/cold iron
-
-**Sr:** 19
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +15 (1d6+2)
-
-**Sneak:** +3d6
-
-**Spec Att:** steal shadow, tear shadow
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**At will:**
-
-- dancing lights, disguise self, major image (DC 17), shadow evocation (simulating leashed shackles
-  only; DC 19), shadow step
-
-**Per day:**
-
-- 3/day: shadow conjuration (DC 18)
-- 1/day: shadow evocation (DC 19), shadow walk
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 24, Con 19, Int 15, Wis 17, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+14 steal)
-
-**Combat maneuver defense:** 25 (27 vs. steal)
-
-**Feats:** Agile Maneuvers, Combat Expertise, Dodge, Improved Steal, Mobility, Spring Attack, Weapon
-Finesse, Weapon Focus (claw)
-
-**Skills:** Bluff +19, Climb +11, Diplomacy +19, Sense Motive +12, Sleight of Hand +22, Stealth +26
-
-**Languages:** Aklo, Common, Sylvan
-
-**Special qualities:** no shadow
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or gang (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

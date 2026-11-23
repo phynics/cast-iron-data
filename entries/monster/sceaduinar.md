@@ -34,109 +34,76 @@ abilities = ["17", "20", "18", "13", "14", "17"]
 _This gargoyle-like creature has long spiky legs and a bat-like head - its body seems to be made of
 living, dark purple crystal._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +5
+Lifesense: present
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +17
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 3,200
+:::
 
-**Initiative:** +5
+### Defense
 
-**Lifesense:** present
+::: statblock
+Armor class: 20
+Touch: 16
+Flat-footed: 14
+AC modifiers: +5 Dex, +1 dodge, +4 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +11
+Will: +5
+Defensive abilities: entropic flesh, negative energy affinity, void child
+Dr: 10/adamantine or good
+Immune: cold, death effects, disease, energy drain, poison
+Resist: acid 10, electricity 10, sonic 10
+Sr: 18
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft., fly 90 ft. (good)
+E Drain: 1 level, DC 17
+Melee: bite +14 (1d6+3 plus 1d6 negative energy and energy drain), 2 wings +9 (1d6+1 plus 1d6 negative energy)
+Spec Att: entropic touch
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +12
+Constant: entropic shield, hide from undead (DC 14)
+At will: bleed (DC 13), dimension door, self only, dispel magic
+Per day: 3/day: death knell (DC 15), deeper darkness, enervation, inflict serious wounds (DC 16), silence\
+1/day: antilife shell, greater teleport, self plus 50 lbs. of objects only, harm (DC 19), slay living (DC 18)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 17, Dex 20, Con 18, Int 13, Wis 14, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 28
+Feats: Dodge, Mobility, Skill Focus (Perception), Step Up, Weapon Finesse
+Skills: Escape Artist +17, Fly +9, Intimidate +15, Knowledge (nature) +13, Perception +17, Sense Motive +14, Stealth +25
+Racial Modifiers: +4 Knowledge (planes), +8 Stealth
+Languages: Aklo, Common
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 16
-
-**Flat-footed:** 14
-
-**AC modifiers:** +5 Dex, +1 dodge, +4 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +5
-
-**Defensive abilities:** entropic flesh, negative energy affinity, void child
-
-**Dr:** 10/adamantine or good
-
-**Immune:** cold, death effects, disease, energy drain, poison
-
-**Resist:** acid 10, electricity 10, sonic 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 40 ft., fly 90 ft. (good)
-
-**E Drain:** 1 level, DC 17
-
-**Melee:** bite +14 (1d6+3 plus 1d6 negative energy and energy drain), 2 wings +9 (1d6+1 plus 1d6
-negative energy)
-
-**Spec Att:** entropic touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +12
-
-**Constant:**
-
-- entropic shield, hide from undead (DC 14)
-
-**At will:**
-
-- bleed (DC 13), dimension door, self only, dispel magic
-
-**Per day:**
-
-- 3/day: death knell (DC 15), deeper darkness, enervation, inflict serious wounds (DC 16), silence
-- 1/day: antilife shell, greater teleport, self plus 50 lbs. of objects only, harm (DC 19), slay
-  living (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 18, Int 13, Wis 14, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28
-
-**Feats:** Dodge, Mobility, Skill Focus (Perception), Step Up, Weapon Finesse
-
-**Skills:** Escape Artist +17, Fly +9, Intimidate +15, Knowledge (nature) +13, Perception +17, Sense
-Motive +14, Stealth +25
-
-**Racial Modifiers:** +4 Knowledge (planes), +8 Stealth
-
-**Languages:** Aklo, Common
-
-**Ecology**
-
-**Environment:** any ([Negative Energy Plane](ref/rule/negative-energy-plane))
-
-**Organization:** solitary or death squad (2-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Negative Energy Plane](ref/rule/negative-energy-plane))
+Organization: solitary or death squad (2-11)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

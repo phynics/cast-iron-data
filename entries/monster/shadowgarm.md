@@ -31,75 +31,60 @@ _This amorphous creature loosely resembles a cross between a large snake and an 
 oily skin, and parts of its very flesh blend seamlessly into the shadows. Its constantly moving,
 writhing form makes it difficult to identify from a distance._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Extraplanar
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 armor, +2 Dex
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +5
+Will: +5
+Defensive abilities: feather fall, shadow blend
+Sr: 7
+Weaknesses: light fixation
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: 3 claws +4 (1d4+2 plus shadow slime)
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 14, Dex 15, Con 14, Int 5, Wis 14, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Climb +14, Perception +6, Stealth +6 (+10 in dim light)
+Racial Modifiers: +4 Stealth in dim light
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +2 Dex
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +5
-
-**Defensive abilities:** feather fall, shadow blend
-
-**Sr:** 7
-
-**Weaknesses:** light fixation
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** 3 claws +4 (1d4+2 plus shadow slime)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 14, Int 5, Wis 14, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Climb +14, Perception +6, Stealth +6 (+10 in dim light)
-
-**Racial Modifiers:** +4 Stealth in dim light
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary or gathering (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary or gathering (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

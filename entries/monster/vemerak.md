@@ -33,91 +33,67 @@ abilities = ["32", "17", "23", "5", "16", "22"]
 _This huge monstrosity seems like some alien, clawed insect, with vaguely humanoid features and
 three tentacular tails._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: aberration
+aura: spore cloud (30 ft.)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +7
+Perception: +23
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Experience points: 38,400
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** spore cloud (30 ft.)
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 26
+AC modifiers: +3 Dex, +18 natural, -2 size
+Hit points: 195 (17d8+119)
+Fort: +13
+Ref: +8
+Will: +13
+Dr: 5/-
+Immune: acid, electricity, disease, mind-affecting, poison
+Resist: sonic 20
+Sr: 25
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 40 ft., burrow 20 ft., climb 40 ft.
+Br Weap: 90-foot line, 14d8 acid damage, DC 24 half, once every 1d4 rounds
+Constrict: tentacles 1d6+5 or claws 1d8+11
+Melee: bite +22 (2d6+11), 2 claws +22 (1d8+11 plus [grab](ref/umr/grab)), 3 tentacles +19 (1d6+5 plus grab)
+Reach: 15
+Space: 15
+Spec Att: earthquake
+:::
 
-**Initiative:** +7
+### Statistics
 
-**Perception:** +23
+::: statblock
+Ability scores: Str 32, Dex 17, Con 23, Int 5, Wis 16, Cha 22
+Base attack bonus: +12
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 38 (50 vs. trip)
+Feats: Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Initiative, Multiattack, Power Attack, Toughness, Weapon Focus (bite), Weapon Focus (claws)
+Skills: Climb +19, Perception +23
+Languages: Aklo
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 38,400
-
-**Armor class:** 29
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +18 natural, -2 size
-
-**Hit points:** 195 (17d8+119)
-
-**Fort:** +13
-
-**Ref:** +8
-
-**Will:** +13
-
-**Dr:** 5/-
-
-**Immune:** acid, electricity, disease, mind-affecting, poison
-
-**Resist:** sonic 20
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft., climb 40 ft.
-
-**Br Weap:** 90-foot line, 14d8 acid damage, DC 24 half, once every 1d4 rounds
-
-**Constrict:** tentacles 1d6+5 or claws 1d8+11
-
-**Melee:** bite +22 (2d6+11), 2 claws +22 (1d8+11 plus [grab](ref/umr/grab)), 3 tentacles +19 (1d6+5
-plus grab)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** earthquake
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 17, Con 23, Int 5, Wis 16, Cha 22
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 38 (50 vs. trip)
-
-**Feats:** Awesome Blow, Great Fortitude, Improved Bull Rush, Improved Initiative, Multiattack,
-Power Attack, Toughness, Weapon Focus (bite), Weapon Focus (claws)
-
-**Skills:** Climb +19, Perception +23
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

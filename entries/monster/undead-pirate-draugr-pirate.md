@@ -29,82 +29,64 @@ abilities = ["21", "14", "-", "10", "12", "13"]
 
 _No flavor text._
 
-**Challenge rating:** 3
-
 **Draugr [rogue](ref/class/rogue) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +6
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Water
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +3 armor, +2 Dex, +2 natural, +1 shield
+Hit points: 22 (3d8+1d8+5\~4)
+Fort: +2
+Ref: +5
+Will: +4
+Dr: 5/bludgeoning or slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk falcata +9 (1d8+5/19-20/×3 plus nausea) or slam +7 (1d10+5 plus nausea)
+Sneak: +1d6
+:::
 
-**Subtype:** Water
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 21, Dex 14, Con -, Int 10, Wis 12, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Improved Initiative, Weapon Focus (falcata)
+Skills: Acrobatics +8, Climb +10
+Languages: Common (can't speak)
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 armor, +2 Dex, +2 natural, +1 shield
-
-**Hit points:** 22 (3d8+1d8+5\~4)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +4
-
-**Dr:** 5/bludgeoning or slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk falcata +9 (1d8+5/19-20/×3 plus nausea) or slam +7 (1d10+5 plus nausea)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 14, Con -, Int 10, Wis 12, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Weapon Focus (falcata)
-
-**Skills:** Acrobatics +8, Climb +10
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary or gang (2-5)
-
-**Treasure:** NPC gear (mwk studded leather armor, light wooden shield, mwk -falcata); other
-treasure
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary or gang (2-5)
+Treasure: NPC gear (mwk studded leather armor, light wooden shield, mwk -falcata); other treasure
+:::
 
 ### Description
 

@@ -32,124 +32,81 @@ abilities = ["29", "32", "40", "28", "25", "37"]
 
 _This crimson-haired demonic woman has wings of fire. She carries a slender bow made of flames._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: unholy aura (DC 31)
+Alignment: Chaotic evil
+Initiative: +11
+Size: medium
+Type: outsider
+Perception: +45
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Chaotic, Demon, Evil, Extraplanar, Fire
+Experience points: 1,638,400
+:::
 
-**aura:** unholy aura (DC 31)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 42
+Touch: 35
+Flat-footed: 31
+AC modifiers: +4 deflection, +11 Dex, +7 natural, +10 profane
+Hit points: 553 (27d10+405)
+Fort: +28
+Ref: +30
+Will: +26
+Defensive abilities: fire shield, _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron and good
+Immune: charm and compulsion effects, death effects, disease, fire, electricity, poison
+Regen: 15 (good)
+Resist: acid 30, cold 30
+Sr: 36
+Vulner: cold
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., fly 80 ft. (perfect)
+Burn: 8d6 fire, DC 38
+Constrict: 2d6+13 plus 4d6 fire and burn
+Melee: 2 claws +36 (1d8+9 plus 4d6 fire and burn), tail slap +31 (2d6+4 plus 4d6 fire, burn, and [grab](ref/umr/grab)), 2 wings +31 (1d8+4 plus 4d6 fire and burn)
+Ranged: firebow +43/+38/+33/+28 (1d8+14/19-20/×3 plus 1d6 fire and burn)
+Spec Att: dream haunting, energy drain, fiery passion, profane benediction
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Constant: detect good, detect law, fire shield, warm shield only, freedom of movement, true seeing, unholy aura (DC 31)
+At will: charm monster (DC 27), desecrate, greater dispel magic, greater teleport, mass suggestion (DC 29), telekinesis (DC 28), unholy blight (DC 27)
+Per day: 3/day: empowered delayed blast fireball (DC 30), symbol of persuasion (DC 29)\
+1/day: meteor swarm (DC 32), nightmare (DC 28), summon demons, time stop
+:::
 
-**Perception:** +45
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 29, Dex 32, Con 40, Int 28, Wis 25, Cha 37
+Base attack bonus: +27
+Combat maneuver bonus: +36 (+40 grapple)
+Combat maneuver defense: 71
+Feats: Blinding Critical, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item, Critical Focus, Deadly Aim, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (delayed blast fireball), Improved Critical (composite longbow), Improved Precise Shot, Pinpoint Targeting, Point-Blank Shot, Precise Shot, Quicken Spell-Like Ability (dominate person), Rapid Shot
+Skills: Acrobatics +41, Bluff +51, Diplomacy +40, Disguise +43, Perform (dance) +40, Sense Motive +37, Sleight of Hand +38, Spellcraft +36, Stealth +41, Use Magic Device +43
+Racial Modifiers: +8 Bluff, +8 Perception
+Languages: Abyssal, Celestial, Common, Draconic, Ignan; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), divine deception, nascent demon lord traits
+Faith: Shamira
+:::
 
-**Subtype:** Chaotic, Demon, Evil, Extraplanar, Fire
+### Ecology
 
-**Experience points:** 1,638,400
-
-**Armor class:** 42
-
-**Touch:** 35
-
-**Flat-footed:** 31
-
-**AC modifiers:** +4 deflection, +11 Dex, +7 natural, +10 profane
-
-**Hit points:** 553 (27d10+405)
-
-**Fort:** +28
-
-**Ref:** +30
-
-**Will:** +26
-
-**Defensive abilities:** fire shield, _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron and good
-
-**Immune:** charm and compulsion effects, death effects, disease, fire, electricity, poison
-
-**Regen:** 15 (good)
-
-**Resist:** acid 30, cold 30
-
-**Sr:** 36
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 40 ft., fly 80 ft. (perfect)
-
-**Burn:** 8d6 fire, DC 38
-
-**Constrict:** 2d6+13 plus 4d6 fire and burn
-
-**Melee:** 2 claws +36 (1d8+9 plus 4d6 fire and burn), tail slap +31 (2d6+4 plus 4d6 fire, burn, and
-[grab](ref/umr/grab)), 2 wings +31 (1d8+4 plus 4d6 fire and burn)
-
-**Ranged:** firebow +43/+38/+33/+28 (1d8+14/19-20/×3 plus 1d6 fire and burn)
-
-**Spec Att:** dream haunting, energy drain, fiery passion, profane benediction
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Constant:**
-
-- detect good, detect law, fire shield, warm shield only, freedom of movement, true seeing, unholy
-  aura (DC 31)
-
-**At will:**
-
-- charm monster (DC 27), desecrate, greater dispel magic, greater teleport, mass suggestion (DC 29),
-  telekinesis (DC 28), unholy blight (DC 27)
-
-**Per day:**
-
-- 3/day: empowered delayed blast fireball (DC 30), symbol of persuasion (DC 29)
-- 1/day: meteor swarm (DC 32), nightmare (DC 28), summon demons, time stop
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 32, Con 40, Int 28, Wis 25, Cha 37
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +36 (+40 grapple)
-
-**Combat maneuver defense:** 71
-
-**Feats:** Blinding Critical, Craft Construct, Craft Magic Arms and Armor, Craft Wondrous Item,
-Critical Focus, Deadly Aim, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (delayed
-blast fireball), Improved Critical (composite longbow), Improved Precise Shot, Pinpoint Targeting,
-Point-Blank Shot, Precise Shot, Quicken Spell-Like Ability (dominate person), Rapid Shot
-
-**Skills:** Acrobatics +41, Bluff +51, Diplomacy +40, Disguise +43, Perform (dance) +40, Sense
-Motive +37, Sleight of Hand +38, Spellcraft +36, Stealth +41, Use Magic Device +43
-
-**Racial Modifiers:** +8 Bluff, +8 Perception
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Ignan; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), divine deception, nascent demon lord traits
-
-**Faith:** Shamira
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary (unique)
-
-**Treasure:** Triple
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary (unique)
+Treasure: Triple
+:::
 
 ### Special Abilities
 

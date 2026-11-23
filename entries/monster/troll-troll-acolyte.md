@@ -28,85 +28,61 @@ special_attacks = "destructive smite (+1, 4/day)"
 abilities = ["21", "12", "25", "8", "13", "10"]
 +++
 
-**Challenge rating:** 6
-
 **Troll [cleric](ref/class/cleric) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: large
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 deflection, +1 Dex, +6 natural, -1 size
+Hit points: 92 (8d8+56)
+Fort: +15
+Ref: +3
+Will: +8
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Ch N En: 3/day, DC 11, 1d6
+Melee: bite +9 (1d8+5), 2 claws +10 (1d6+5)
+Reach: 10
+Rend: 2 claws, 1d6+7
+Space: 10
+Spec Att: destructive smite (+1, 4/day)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: +3
+Per day: 4/day: storm burst, 1d6+1 nonlethal
+:::
 
-**Subtype:** Giant
-
-**Experience points:** 2,400
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 deflection, +1 Dex, +6 natural, -1 size
-
-**Hit points:** 92 (8d8+56)
-
-**Fort:** +15
-
-**Ref:** +3
-
-**Will:** +8
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** 3/day, DC 11, 1d6
-
-**Melee:** bite +9 (1d8+5), 2 claws +10 (1d6+5)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+7
-
-**Space:** 10
-
-**Spec Att:** destructive smite (+1, 4/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**Per day:**
-
-- 4/day: storm burst, 1d6+1 nonlethal
-
-**Prepared Spells**
-
-**Caster level:** 2
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- bless, divine favor, obscuring mist^D^, sun metal
-
-**Cantrips:**
-
-- bleed (DC 11), detect magic, resistance, spark
-
-**Domains:** [Destruction](ref/domain/destruction), [Weather](ref/domain/weather)
+::: statblock
+title = "Prepared Spells"
+Caster level: 2
+Concentration: +3
+1st-level spells: bless, divine favor, obscuring mist^D^, sun metal
+Cantrips: bleed (DC 11), detect magic, resistance, spark
+Domains: [Destruction](ref/domain/destruction), [Weather](ref/domain/weather)
+:::
 
 ###### D {#footnote-d}
 
@@ -118,29 +94,25 @@ Domain spell
 
 **During Combat** The troll acolyte casts divine favor or sun metal, then attacks.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 21, Dex 12, Con 25, Int 8, Wis 13, Cha 10
+::: statblock
+Ability scores: Str 21, Dex 12, Con 25, Int 8, Wis 13, Cha 10
+Base attack bonus: +5
+Combat maneuver bonus: +11
+Combat maneuver defense: 23
+Feats: Channel Smite, Improved Iron Will, Iron Will, Weapon Focus (claw)
+Skills: Intimidate +4, Perception +7
+Languages: Giant
+Combat gear: potion of bull's strength, potion of invisibility
+Other gear: Iamu1, ring of prot1, 50 gp
+:::
 
-**Base attack bonus:** +5
+### Ecology
 
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23
-
-**Feats:** Channel Smite, Improved Iron Will, Iron Will, Weapon Focus (claw)
-
-**Skills:** Intimidate +4, Perception +7
-
-**Languages:** Giant
-
-**Combat gear:** potion of bull's strength, potion of invisibility
-
-**Other gear:** Iamu1, ring of prot1, 50 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

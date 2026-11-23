@@ -30,79 +30,62 @@ abilities = ["21", "16", "14", "2", "13", "11"]
 _This bear-sized predator is long and low-slung. Its soft fur and intelligent expression contrast
 with its glistening fangs._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 12
+Flat-footed: 14
+AC modifiers: +3 Dex, +5 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +6
+Ref: +7
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+B Drain: 1d4+1 Con
+Blood Rage: present
+Grab: present
+Melee: bite +8 (1d8+7 plus grab)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 21, Dex 16, Con 14, Int 2, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 22 (26 vs. trip)
+Feats: Combat Reflexes, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Climb +9
+Racial Modifiers: +4 Climb, +2 Perception, +6 Stealth, +2 Swim
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 12
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +5 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**B Drain:** 1d4+1 Con
-
-**Blood Rage:** present
-
-**Grab:** present
-
-**Melee:** bite +8 (1d8+7 plus grab)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 14, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 22 (26 vs. trip)
-
-**Feats:** Combat Reflexes, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Climb +9
-
-**Racial Modifiers:** +4 Climb, +2 Perception, +6 Stealth, +2 Swim
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or den (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or den (3-6)
+Treasure: Incidental
+:::
 
 ### Description
 

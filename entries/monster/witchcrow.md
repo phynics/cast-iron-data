@@ -32,95 +32,73 @@ abilities = ["8", "15", "8", "13", "12", "11"]
 _With a raucous cry and a flurry of feathered wings, this jet-black bird takes to the air, an
 unnatural gleam in its otherworldly eyes._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Alignment: Chaotic evil
+Initiative: +2
+Type: Magical beast
+Perception: +6
+Senses: Darkvision 60 ft., Detect magic, Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 13 (3d10-3)
+Fort: +2
+Ref: +5
+Will: +2
+Resist: cold 5
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 20 ft., fly 50 ft. (good)
+Melee: 2 talons +4 (1d3-1)
+Reach: 5
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4; save DCs are Intelligence-based
+Constant: detect magic, speak with animals, birds only
+Per day: 3/day: perceive cues, vanish, ventriloquism (DC 12)\
+1/day: ill omen, mirror image
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 13 (3d10-3)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (good)
-
-**Melee:** 2 talons +4 (1d3-1)
-
-**Reach:** 5
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4; save DCs are Intelligence-based
-
-**Constant:**
-
-- detect magic, speak with animals, birds only
-
-**Per day:**
-
-- 3/day: perceive cues, vanish, ventriloquism (DC 12)
-- 1/day: ill omen, mirror image
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 8, Int 13, Wis 12, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+5 steal)
-
-**Combat maneuver defense:** 12 (14 vs. steal)
-
-**Feats:** Combat Expertise, Flyby Attack^B^, Improved Steal
-
-**Skills:** Fly +15, Knowledge (arcana) +2, Perception +6, Sleight of Hand +11, Spellcraft +3,
-Stealth +14
-
-**Racial Modifiers:** +8 Sleight of Hand
-
-**Languages:** Aklo, Common; _[speak with animals](ref/spell/speak-with-animals)_ (birds only)
+::: statblock
+Ability scores: Str 8, Dex 15, Con 8, Int 13, Wis 12, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+5 steal)
+Combat maneuver defense: 12 (14 vs. steal)
+Feats: Combat Expertise, Flyby Attack^B^, Improved Steal
+Skills: Fly +15, Knowledge (arcana) +2, Perception +6, Sleight of Hand +11, Spellcraft +3, Stealth +14
+Racial Modifiers: +8 Sleight of Hand
+Languages: Aklo, Common; _[speak with animals](ref/spell/speak-with-animals)_ (birds only)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** cold and temperate forests and plains
-
-**Organization:** solitary, pair, covey (3-12), or murder (13-30)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold and temperate forests and plains
+Organization: solitary, pair, covey (3-12), or murder (13-30)
+Treasure: Standard
+:::
 
 ### Description
 

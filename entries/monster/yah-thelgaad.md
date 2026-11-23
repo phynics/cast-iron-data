@@ -32,137 +32,89 @@ _A writhing forest of tendrils extends from one end of this chitincovered creatu
 from the other lashes a pincer-tipped tail. Six transparent blisters adorn its back, each containing
 a brain floating in thick green fluid._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +8
+Size: large
+Perception: +26
+Senses: Darkvision 60 ft., Diagnose disease, True seeing
+Experience points: 38,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 25
+Flat-footed: 26
+AC modifiers: +4 Dex, +12 insight, +5 natural, -1 size
+Hit points: 200 (16d8+128)
+Fort: +13
+Ref: +11
+Will: +17
+Defensive abilities: carapace
+Dr: 10/magic and adamantine
+Immune: disease, mind-affecting effects
+Resist: cold 10, fire 10
+Sr: 25
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., fly 40 ft. (perfect)
+Melee: claw +22 (3d6+11 plus poison), 2 tentacles +22 (1d8+11 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: command disease, mind storm, powerful tentacles, spellstrike
+:::
 
-**Perception:** +26
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +20
+Constant: diagnose disease, true seeing
+:::
 
-**Senses:** Darkvision 60 ft., Diagnose disease, True seeing
+::: statblock
+title = "Spells Known"
+Caster level: 12
+Concentration: +32
+6th-level spells: 4/day: disintegrate (DC 21)
+5th-level spells: 6/day: sending, suffocation (DC 22)
+4th-level spells: 8/day: confusion (DC 19), contagion (DC 21), dimension door
+3rd-level spells: 8/day: clairaudience/clairvoyance, dispel magic, slow (DC 18), vampiric touch
+2nd-level spells: 8/day: detect thoughts (DC 17), ghoul touch (DC 19), mirror image, scorching ray, spectral hand
+1st-level spells: 8/day: chill touch (DC 18), magic missile, ray of enfeeblement (DC 18), shocking grasp, unseen servant
+Cantrips: At will: acid splash, detect magic, flare (DC 15), ghost sound (DC 15), mage hand, open/close, prestidigitation, read magic, touch of fatigue (DC 17)
+:::
 
-**Experience points:** 38,400
+### Statistics
 
-**Armor class:** 30
-
-**Touch:** 25
-
-**Flat-footed:** 26
-
-**AC modifiers:** +4 Dex, +12 insight, +5 natural, -1 size
-
-**Hit points:** 200 (16d8+128)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +17
-
-**Defensive abilities:** carapace
-
-**Dr:** 10/magic and adamantine
-
-**Immune:** disease, mind-affecting effects
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 20 ft., fly 40 ft. (perfect)
-
-**Melee:** claw +22 (3d6+11 plus poison), 2 tentacles +22 (1d8+11 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** command disease, mind storm, powerful tentacles, spellstrike
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +20
-
-**Constant:**
-
-- diagnose disease, true seeing
-
-**Spells Known**
-
-**Caster level:** 12
-
-**Concentration:** +32
-
-**6th-level spells:**
-
-- 4/day: disintegrate (DC 21)
-
-**5th-level spells:**
-
-- 6/day: sending, suffocation (DC 22)
-
-**4th-level spells:**
-
-- 8/day: confusion (DC 19), contagion (DC 21), dimension door
-
-**3rd-level spells:**
-
-- 8/day: clairaudience/clairvoyance, dispel magic, slow (DC 18), vampiric touch
-
-**2nd-level spells:**
-
-- 8/day: detect thoughts (DC 17), ghoul touch (DC 19), mirror image, scorching ray, spectral hand
-
-**1st-level spells:**
-
-- 8/day: chill touch (DC 18), magic missile, ray of enfeeblement (DC 18), shocking grasp, unseen
-  servant
-
-**Cantrips:**
-
-- At will: acid splash, detect magic, flare (DC 15), ghost sound (DC 15), mage hand, open/close,
-  prestidigitation, read magic, touch of fatigue (DC 17)
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 18, Con 26, Int 23, Wis 25, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 50 (62 vs. trip)
-
-**Feats:** Arcane Strike, Combat Casting, Combat Expertise, Eschew Materials^B^, Greater Spell Focus
-(necromancy), Improved Initiative, Lightning Reflexes, Spell Focus (necromancy), Vital Strike
-
-**Skills:** Bluff +21, Diplomacy +13, Spellcraft +25, Use Magic Device +21
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Infernal, Protean, Undercommon;
-[telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** brain collection, strange knowledge
+::: statblock
+Ability scores: Str 32, Dex 18, Con 26, Int 23, Wis 25, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +24
+Combat maneuver defense: 50 (62 vs. trip)
+Feats: Arcane Strike, Combat Casting, Combat Expertise, Eschew Materials^B^, Greater Spell Focus (necromancy), Improved Initiative, Lightning Reflexes, Spell Focus (necromancy), Vital Strike
+Skills: Bluff +21, Diplomacy +13, Spellcraft +25, Use Magic Device +21
+Languages: Abyssal, Aklo, Common, Draconic, Infernal, Protean, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: brain collection, strange knowledge
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Double
+:::
 
 ### Special Abilities
 

@@ -34,77 +34,60 @@ abilities = ["12", "9", "14", "8", "11", "11"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+aura: [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: -1
+Size: medium
+Perception: +0
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 400
+:::
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 15
+Touch: 9
+Flat-footed: 15
+AC modifiers: -1 Dex, +6 natural
+Hit points: 13 (2d8+4)
+Fort: +7
+Ref: -1
+Will: +0
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** -1
+::: statblock
+Speed: 30 ft.
+Melee: club +2 (1d6+1), claw -3 (1d4), bite -3 (1d4) or 2 claws +2 (1d4+1), bite +2 (1d4+1)
+Ranged: javelin +0 (1d6)
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +0
+::: statblock
+Ability scores: Str 12, Dex 9, Con 14, Int 8, Wis 11, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 11
+Feats: Great Fortitude
+Skills: Stealth +5 (+9 in rocky areas)
+Racial Modifiers: +4 Stealth (+8 in rocky areas)
+Languages: Draconic
+:::
 
-**Senses:** Darkvision 90 ft.
+### Ecology
 
-**Subtype:** Reptilian
-
-**Experience points:** 400
-
-**Armor class:** 15
-
-**Touch:** 9
-
-**Flat-footed:** 15
-
-**AC modifiers:** -1 Dex, +6 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +7
-
-**Ref:** -1
-
-**Will:** +0
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** club +2 (1d6+1), claw -3 (1d4), bite -3 (1d4) or 2 claws +2 (1d4+1), bite +2 (1d4+1)
-
-**Ranged:** javelin +0 (1d6)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 9, Con 14, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Great Fortitude
-
-**Skills:** Stealth +5 (+9 in rocky areas)
-
-**Racial Modifiers:** +4 Stealth (+8 in rocky areas)
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, clutch (3-6), squad (7-12 plus 1 cleric or druid of 3rd level and
-1-2 [monitor lizards](ref/monster/lizard-monitor-lizard)), or band (20-80 plus 20% noncombatants,1
-chieftain of 3rd-6th level, 1-3 clerics or druids of 3rd-6th level, and 3-13 monitor lizards)
-
-**Treasure:** NPC gear (club, 3 javelins); other treasure
+::: statblock
+Environment: any underground
+Organization: solitary, pair, clutch (3-6), squad (7-12 plus 1 cleric or druid of 3rd level and 1-2 [monitor lizards](ref/monster/lizard-monitor-lizard)), or band (20-80 plus 20% noncombatants,1 chieftain of 3rd-6th level, 1-3 clerics or druids of 3rd-6th level, and 3-13 monitor lizards)
+Treasure: NPC gear (club, 3 javelins); other treasure
+:::
 
 ### Description
 

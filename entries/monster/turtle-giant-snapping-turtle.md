@@ -29,74 +29,59 @@ abilities = ["32", "6", "21", "1", "13", "6"]
 
 _This lumbering turtle is the size of a house; its head features powerful, razor-sharp beak._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+Size: gargantuan
+Initiative: +2
+Alignment: Neutral
+Perception: +21
+Senses: Low-light vision, Scent
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 23
+Touch: 4
+Flat-footed: 23
+AC modifiers: -2 Dex, +19 natural, -4 size
+Hit points: 115 (11d8+66)
+Fort: +12
+Ref: +5
+Will: +6
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Melee: bite +16 (4d6+16 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 20
+Swallow: 2d8+16 bludgeoning, AC 23, 22 hp
+:::
 
-**Perception:** +21
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 6, Con 21, Int 1, Wis 13, Cha 6
+Base attack bonus: +8
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Improved Initiative, Iron Will, Lunge, Skill Focus (Perception), Toughness, Weapon Focus (bite)
+Skills: Perception +21, Swim +19
+Special qualities: armored stomach, [hold breath](ref/umr/hold-breath), shell
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 4
-
-**Flat-footed:** 23
-
-**AC modifiers:** -2 Dex, +19 natural, -4 size
-
-**Hit points:** 115 (11d8+66)
-
-**Fort:** +12
-
-**Ref:** +5
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Melee:** bite +16 (4d6+16 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 20
-
-**Swallow:** 2d8+16 bludgeoning, AC 23, 22 hp
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 6, Con 21, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Improved Initiative, Iron Will, Lunge, Skill Focus (Perception), Toughness, Weapon Focus
-(bite)
-
-**Skills:** Perception +21, Swim +19
-
-**Special qualities:** armored stomach, [hold breath](ref/umr/hold-breath), shell
-
-**Ecology**
-
-**Environment:** temperate or warm water or shore
-
-**Organization:** solitary or band (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm water or shore
+Organization: solitary or band (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

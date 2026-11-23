@@ -32,70 +32,53 @@ abilities = ["22", "13", "18", "8", "13", "11"]
 _A column of soldiers clad in the black and red of House Thrune move together, their weapons at the
 ready in a coordinated front._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: humanoid
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +13
+Subtype: Human, Troop
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 11
+Flat-footed: 19
+AC modifiers: +9 armor, +1 Dex
+Hit points: 85 (9d8+45)
+Fort: +10
+Ref: +4
+Will: +6
+Defensive abilities: troop traits
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: troop (2d6+6)
+Reach: 5
+Space: 20
+Spec Att: volley
+:::
 
-**Perception:** +13
+### Statistics
 
-**Subtype:** Human, Troop
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 11
-
-**Flat-footed:** 19
-
-**AC modifiers:** +9 armor, +1 Dex
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +6
-
-**Defensive abilities:** troop traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (2d6+6)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** volley
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 13, Con 18, Int 8, Wis 13, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23
-
-**Feats:** Ability Focus (volley), Improved Initiative, Iron Will, Skill Focus (Perception),
-Toughness
-
-**Skills:** Perception +13
-
-**Languages:** Common
-
-**Special qualities:** protect ally
+::: statblock
+Ability scores: Str 22, Dex 13, Con 18, Int 8, Wis 13, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 23
+Feats: Ability Focus (volley), Improved Initiative, Iron Will, Skill Focus (Perception), Toughness
+Skills: Perception +13
+Languages: Common
+Special qualities: protect ally
+:::
 
 ### Special Abilities
 

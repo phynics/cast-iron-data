@@ -29,81 +29,63 @@ abilities = ["24", "9", "18", "3", "8", "3"]
 _This plant's thick trunk is capped by a crown of wide leaves, whipping vines, mushrooms, and a
 ravenous purple maw._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Type: plant
+Experience points: 2,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 19
+Touch: 7
+Flat-footed: 19
+AC modifiers: -1 Dex, +12 natural, -2 size
+Hit points: 76 (9d8+36)
+Fort: +10
+Ref: +4
+Will: +4
+Immune: acid, [plant traits](ref/umr/plant-traits)
+Regen: 10 (bludgeoning or fire)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 20 ft.
+Melee: bite +11 (2d6+7 plus [grab](ref/umr/grab)), 2 tentacles +6 (1d6+3 plus grab)
+Paralysis: 3d6 rounds, DC 18
+Reach: 15
+Space: 15
+Swallow: 2d6 acid damage plus paralysis, AC 15, 7 hp
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 24, Dex 9, Con 18, Int 3, Wis 8, Cha 3
+Base attack bonus: +6
+Combat maneuver bonus: +15 (+19 grapple)
+Combat maneuver defense: 24 (can't be tripped)
+Feats: Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
+Skills: Perception +7, Stealth +1 (+9 in undergrowth)
+Racial Modifiers: +8 Stealth in undergrowth
+Languages: Sylvan (can't speak)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 7
-
-**Flat-footed:** 19
-
-**AC modifiers:** -1 Dex, +12 natural, -2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +10
-
-**Ref:** +4
-
-**Will:** +4
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits)
-
-**Regen:** 10 (bludgeoning or fire)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** bite +11 (2d6+7 plus [grab](ref/umr/grab)), 2 tentacles +6 (1d6+3 plus grab)
-
-**Paralysis:** 3d6 rounds, DC 18
-
-**Reach:** 15
-
-**Space:** 15
-
-**Swallow:** 2d6 acid damage plus paralysis, AC 15, 7 hp
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 9, Con 18, Int 3, Wis 8, Cha 3
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15 (+19 grapple)
-
-**Combat maneuver defense:** 24 (can't be tripped)
-
-**Feats:** Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
-
-**Skills:** Perception +7, Stealth +1 (+9 in undergrowth)
-
-**Racial Modifiers:** +8 Stealth in undergrowth
-
-**Languages:** Sylvan (can't speak)
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary, pair, or grove (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary, pair, or grove (3-6)
+Treasure: Standard
+:::
 
 ### Description
 

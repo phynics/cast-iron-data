@@ -30,83 +30,66 @@ abilities = ["20", "16", "-", "1", "11", "5"]
 _Crouched on six jointed metal legs, this large humanoid head crafted from polished marble gazes
 intently with its glowing green eyes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Initiative: +7
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 17
+AC modifiers: +3 Dex, +6 natural, +1 size
+Hit points: 43 (6d10+10)
+Fort: +2
+Ref: +5
+Will: +2
+Immune: acid, [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +12 (1d4+5)
+Ranged: paralyzing bolt +10 (paralysis)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: -1
+Constant: detect magic
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 20, Dex 16, Con -, Int 1, Wis 11, Cha 5
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 23 (31 vs. trip)
+Feats: Ability Focus (paralyzing bolt), Improved Initiative, Skill Focus (Perception)
+Skills: Climb +13, Perception +6, Stealth +10
+Languages: Thassilonian (can't speak)
+Special qualities: alert, [freeze](ref/umr/freeze)
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +6 natural, +1 size
-
-**Hit points:** 43 (6d10+10)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +12 (1d4+5)
-
-**Ranged:** paralyzing bolt +10 (paralysis)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** -1
-
-**Constant:**
-
-- detect magic
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con -, Int 1, Wis 11, Cha 5
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23 (31 vs. trip)
-
-**Feats:** Ability Focus (paralyzing bolt), Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Climb +13, Perception +6, Stealth +10
-
-**Languages:** Thassilonian (can't speak)
-
-**Special qualities:** alert, [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or troop (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or troop (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

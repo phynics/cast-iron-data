@@ -28,67 +28,56 @@ abilities = ["12", "15", "14", "2", "13", "7"]
 
 _This dark-winged vulture has a wickedly hooked beak stained with bright red blood._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: bite +3 (1d6+1)
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 15, Con 14, Int 2, Wis 13, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Flyby Attack
+Skills: Fly +12, Perception +13
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** bite +3 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 14, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Flyby Attack
-
-**Skills:** Fly +12, Perception +13
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or flock (3-18)
-
-**Treasure:** None
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or flock (3-18)
+Treasure: None
+:::
 
 ### Description
 

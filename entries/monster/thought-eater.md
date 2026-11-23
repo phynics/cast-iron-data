@@ -31,89 +31,69 @@ abilities = ["4", "19", "10", "7", "12", "15"]
 _A nimbus of glowing, intangible matter envelops this strange skeletal creature with a bird-like
 beak._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +8
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 size
+Hit points: 18 (4d8)
+Fort: +1
+Ref: +5
+Will: +5
+Defensive abilities: ethereal body
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 10 ft., fly 30 ft. (perfect)
+Melee: bite +9 (1d3-3 plus eat thoughts)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 4
+Concentration: +6
+Power points: 5
+Psychoactive powers: identify, 1 PE, daze monster, 2 PE, DC 14, detect thoughts, 2 PE, DC 14, resist energy, 2 PE
+:::
 
-**Subtype:** Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 19, Con 10, Int 7, Wis 12, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +5
+Combat maneuver defense: 12
+Feats: Improved Initiative, Weapon Finesse
+Skills: Fly +16, Perception +8, Stealth +19
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: ethereal passage
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +5
-
-**Defensive abilities:** ethereal body
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (perfect)
-
-**Melee:** bite +9 (1d3-3 plus eat thoughts)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Psychic Magic**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**Power points:** 5
-
-**Psychoactive powers:**
-
-- identify, 1 PE, daze monster, 2 PE, DC 14, detect thoughts, 2 PE, DC 14, resist energy, 2 PE
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 19, Con 10, Int 7, Wis 12, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 12
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +16, Perception +8, Stealth +19
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** ethereal passage
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary or group (1-3)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary or group (1-3)
+Treasure: None
+:::
 
 ### Special Abilities
 

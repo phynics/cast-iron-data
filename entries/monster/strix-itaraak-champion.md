@@ -32,83 +32,63 @@ abilities = ["14", "20", "14", "8", "12", "8"]
 _Armored in sun-bleached bones and smelling of stale blood, this scarred man with massive wings
 keeps his bow at the ready._
 
-**Challenge rating:** 9
-
 **Strix [slayer](ref/class/slayer) 10**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +5
+Size: medium
+Perception: +12 (+14 in dim light or darkness)
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Strix
+Experience points: 6,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +7 armor, +3 Dex
+Hit points: 85 (10d10+30)
+Fort: +9
+Ref: +12
+Will: +4; +2 bonus vs. illusion spells or effects
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +12 (+14 in dim light or darkness)
+::: statblock
+Speed: 20 ft., fly 45 ft. (average)
+Melee: +1 longspear +13/+8 (1d8+4/×3), 2 wings +7 (1d6+1)
+Ranged: mwk composite longbow +17/+12 (1d8+2/×3)
+Sneak: +3d6
+Spec Att: hatred,, studied target +3 (3 targets)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Strix\
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 14, Dex 20, Con 14, Int 8, Wis 12, Cha 8
+Base attack bonus: +10
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Fling, Flyby Attack, Point-Blank Shot, Powerful Wings, Rapid Shot, Skill Focus (Fly), Snatch and Drop, Weapon Focus (longbow)
+Skills: Acrobatics +11 (+7 when jumping), Climb +5, Intimidate +6, Knowledge (geography) +5, Perception +12 (+14 in dim light or darkness)
+Languages: Strix
+Special qualities: nocturnal, slayer talents ([combat trick](ref/talent/combat-trick), [fast stealth](ref/talent/fast-stealth), [ranger combat style](ref/slayertalent/ranger-combat-style) \[archery\], [sniper's eye](ref/talent/snipers-eye), [weapon training](ref/talent/weapon-training)), stalker, suspicious, track +5
+Combat gear: 8 +1 BANE-human arrows, potion of barkskin, potion of invisibility
+Other gear: +2 MN breastplate, +1 longspear, mwk cl40+2, Iboid2
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 armor, +3 Dex
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +9
-
-**Ref:** +12
-
-**Will:** +4; +2 bonus vs. illusion spells or effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 45 ft. (average)
-
-**Melee:** +1 longspear +13/+8 (1d8+4/×3), 2 wings +7 (1d6+1)
-
-**Ranged:** mwk composite longbow +17/+12 (1d8+2/×3)
-
-**Sneak:** +3d6
-
-**Spec Att:** hatred,, studied target +3 (3 targets)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 20, Con 14, Int 8, Wis 12, Cha 8
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Fling, Flyby Attack, Point-Blank Shot, Powerful Wings, Rapid Shot, Skill Focus (Fly),
-Snatch and Drop, Weapon Focus (longbow)
-
-**Skills:** Acrobatics +11 (+7 when jumping), Climb +5, Intimidate +6, Knowledge (geography) +5,
-Perception +12 (+14 in dim light or darkness)
-
-**Languages:** Strix
-
-**Special qualities:** nocturnal, slayer talents ([combat trick](ref/talent/combat-trick),
-[fast stealth](ref/talent/fast-stealth), [ranger combat style](ref/slayertalent/ranger-combat-style)
-\[archery\], [sniper's eye](ref/talent/snipers-eye), [weapon training](ref/talent/weapon-training)),
-stalker, suspicious, track +5
-
-**Combat gear:** 8 +1 BANE-human arrows, potion of barkskin, potion of invisibility
-
-**Other gear:** +2 MN breastplate, +1 longspear, mwk cl40+2, Iboid2
-
-**Ecology**
-
-**Environment:** temperate mountains
+::: statblock
+Environment: temperate mountains
+:::
 
 ### Description
 

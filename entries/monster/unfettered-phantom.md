@@ -31,77 +31,61 @@ abilities = ["16", "16", "17", "10", "11", "13"]
 
 _This strange ghostly creature seems to writhe in the throes of some uncontrollable emotion._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Phantom
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +4
+Will: +4
+Dr: 5/slashing
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 35 ft.
+Melee: slams +8 (1d8+3)
+Spec Att: phantasmagoric slam (anger)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 16, Dex 16, Con 17, Int 10, Wis 11, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Dodge, Fleet, Power Attack, Run
+Skills: Acrobatics +11, Fly +11, Intimidate +9, Perception +8, Sense Motive +8, Stealth +11
+Languages: Common
+Special qualities: incorporeal step
+:::
 
-**Subtype:** Phantom
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 5/slashing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 35 ft.
-
-**Melee:** slams +8 (1d8+3)
-
-**Spec Att:** phantasmagoric slam (anger)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 16, Con 17, Int 10, Wis 11, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Fleet, Power Attack, Run
-
-**Skills:** Acrobatics +11, Fly +11, Intimidate +9, Perception +8, Sense Motive +8, Stealth +11
-
-**Languages:** Common
-
-**Special qualities:** incorporeal step
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane) or Material Plane)
-
-**Organization:** solitary, pair, or flock (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane) or Material Plane)
+Organization: solitary, pair, or flock (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,88 +31,66 @@ abilities = ["26", "16", "21", "4", "13", "11"]
 _A reptilian head on a serpentine neck slowly surfaces. Shadows beneath the water hint at a body of
 considerable size._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +7
+Type: Magical beast
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 24
+Touch: 11
+Flat-footed: 21
+AC modifiers: +3 Dex, +13 natural, -2 size
+Hit points: 136 (13d10+65)
+Fort: +13
+Ref: +13
+Will: +7
+Defensive abilities: elusive
+Immune: cold
+Resist: fire 20
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: bite +19 (4d6+8/19-20 plus [grab](ref/umr/grab)), tail slap +14 (2d8+4)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 15
+Swallow: 3d6+12 bludgeoning damage, AC 16, 13 hp
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 16, Con 21, Int 4, Wis 13, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +23 (+27 grapple)
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Improved Critical (bite), Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth)
+Skills: Perception +11, Stealth +14, Swim +16
+Racial Modifiers: +4 Perception
+Languages: Aquan (can't speak)
+Special qualities: water travel
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +3 Dex, +13 natural, -2 size
-
-**Hit points:** 136 (13d10+65)
-
-**Fort:** +13
-
-**Ref:** +13
-
-**Will:** +7
-
-**Defensive abilities:** elusive
-
-**Immune:** cold
-
-**Resist:** fire 20
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** bite +19 (4d6+8/19-20 plus [grab](ref/umr/grab)), tail slap +14 (2d8+4)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Swallow:** 3d6+12 bludgeoning damage, AC 16, 13 hp
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 16, Con 21, Int 4, Wis 13, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +23 (+27 grapple)
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Improved Iron Will, Iron Will, Lightning
-Reflexes, Power Attack, Skill Focus (Stealth)
-
-**Skills:** Perception +11, Stealth +14, Swim +16
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** water travel
-
-**Ecology**
-
-**Environment:** any lakes
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any lakes
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

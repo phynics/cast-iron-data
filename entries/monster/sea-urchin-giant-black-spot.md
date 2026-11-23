@@ -31,85 +31,65 @@ abilities = ["1", "13", "10", "-", "10", "15"]
 _The spines of this sizable sea urchin bristle, revealing a strange, multipart beak gnashing in
 their midst._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Aquatic
+Size: tiny
+Experience points: 200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 14
+AC modifiers: +1 Dex, +2 natural, +2 size
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +3
+Will: +0
+Defensive abilities: stability
+Immune: mind-affecting effects
+Resist: cold 5
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Melee: bite +4 (1d3-5), spines -2 (1d2-5 plus curse)
+Reach: 0
+Space: 2-1/2
+Spec Att: leaping charge
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 1, Dex 13, Con 10, Int -, Wis 10, Cha 15
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 5 (13 vs. bull rush or trip)
+Feats: Weapon Finesse
+Skills: Acrobatics +9, Swim +3
+Racial Modifiers: +8 Acrobatics
+Languages: none
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +2 natural, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** +0
-
-**Defensive abilities:** stability
-
-**Immune:** mind-affecting effects
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Melee:** bite +4 (1d3-5), spines -2 (1d2-5 plus curse)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** leaping charge
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 10, Int -, Wis 10, Cha 15
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 5 (13 vs. bull rush or trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +9, Swim +3
-
-**Racial Modifiers:** +8 Acrobatics
-
-**Languages:** none
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm oceans or coastlines
-
-**Organization:** solitary, pair, or cluster (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm oceans or coastlines
+Organization: solitary, pair, or cluster (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

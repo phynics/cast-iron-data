@@ -31,98 +31,72 @@ abilities = ["20", "16", "14", "10", "17", "8"]
 
 _A gray-skinned humanoid with oddly unremarkable features floats ponderously in mid-air._
 
-**Challenge rating:** 6
-
 **Male human tulpa [monk](ref/class/monk) 5**
 
-**Initiative:** +7
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Augmented humanoid, Human
+Experience points: 2,400
+:::
 
-**Alignment:** Lawful neutral
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 18
+Flat-footed: 15
+AC modifiers: +3 Dex, +1 dodge, +1 monk, +3 Wis, +1 natural
+Hit points: 46 (5d8+20)
+Fort: +6
+Ref: +7
+Will: +7; +2 vs. enchantment, +4 vs. mind-affecting effects
+Evasion: present
+Immune: disease
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 40 ft.
+Melee: unarmed strike +9 (1d8+5) or flurry of blows +9/+9 (1d8+5)
+Spec Att: flurry of blows, stunning fist (5/day, DC 15)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Psychic Magic"
+Caster level: 5
+Concentration: +5
+Power points: 8
+Psychoactive powers: burst of adrenaline, 1 PE, burst of insight, 1 PE, ego whip I, 3 PE, DC 13, levitate, 2 PE, paranoia, 2 PE, DC 12
+:::
 
-**Subtype:** Augmented humanoid, Human
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 20, Dex 16, Con 14, Int 10, Wis 17, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 26
+Feats: Dodge, Improved Initiative, Improved Unarmed Strike, Power Attack, Stunning Fist, Toughness, Weapon Focus (unarmed strike)
+Skills: Acrobatics +11, Bluff +0 (+8 vs. its creator), Diplomacy +0 (+8 vs. its creator), Sense Motive +11 (+19 vs. its creator), Stealth +11
+Racial Modifiers: +8 Bluff, Diplomacy, Intimidate, and Sense Motive vs. its creator
+Languages: Common
+Special qualities: creator link, fast movement, high jump, ki pool (5 points, magic), maneuver training, mental form (DC 12), slow fall 20 ft., sustained by thought
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 18
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 monk, +3 Wis, +1 natural
-
-**Hit points:** 46 (5d8+20)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +7; +2 vs. enchantment, +4 vs. mind-affecting effects
-
-**Evasion:** present
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** unarmed strike +9 (1d8+5) or flurry of blows +9/+9 (1d8+5)
-
-**Spec Att:** flurry of blows, stunning fist (5/day, DC 15)
-
-**Psychic Magic**
-
-**Caster level:** 5
-
-**Concentration:** +5
-
-**Power points:** 8
-
-**Psychoactive powers:**
-
-- burst of adrenaline, 1 PE, burst of insight, 1 PE, ego whip I, 3 PE, DC 13, levitate, 2 PE,
-  paranoia, 2 PE, DC 12
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 16, Con 14, Int 10, Wis 17, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 26
-
-**Feats:** Dodge, Improved Initiative, Improved Unarmed Strike, Power Attack, Stunning Fist,
-Toughness, Weapon Focus (unarmed strike)
-
-**Skills:** Acrobatics +11, Bluff +0 (+8 vs. its creator), Diplomacy +0 (+8 vs. its creator), Sense
-Motive +11 (+19 vs. its creator), Stealth +11
-
-**Racial Modifiers:** +8 Bluff, Diplomacy, Intimidate, and Sense Motive vs. its creator
-
-**Languages:** Common
-
-**Special qualities:** creator link, fast movement, high jump, ki pool (5 points, magic), maneuver
-training, mental form (DC 12), slow fall 20 ft., sustained by thought
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** NPC gear (Iamu1, potion of cure moderate wounds, potion of fly, potion of
-invisibility)
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: NPC gear (Iamu1, potion of cure moderate wounds, potion of fly, potion of invisibility)
+:::
 
 ### Description
 

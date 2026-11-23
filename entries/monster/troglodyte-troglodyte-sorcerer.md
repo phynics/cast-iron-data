@@ -32,99 +32,73 @@ abilities = ["10", "13", "14", "10", "13", "16"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 4
-
 **Troglodyte [sorcerer](ref/class/sorcerer) 4**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+::: statblock
+Challenge rating: 4
+aura: [stench](ref/umr/stench) (30 ft., DC 13, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +1
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 39 (2d8+4d6+16\~6)
+Fort: +7
+Ref: +3
+Will: +6; +2 vs. poison
+Resist: electricity 5
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk club +4 (1d6), bite -2 (1d4), claw -2 (1d4) or bite +3 (1d4), 2 claws +3 (1d4)
+Spec Att: claws (1d6, 6 rounds/day)
+:::
 
-**Perception:** +1
+::: statblock
+title = "Spells Known"
+Caster level: 4
+Concentration: +7
+2nd-level spells: 4/day: acid arrow
+1st-level spells: 7/day: cause fear (DC 15), corrosive touch, ray of enfeeblement (DC 15), summon monster I
+Cantrips: At will: acid splash, daze (DC 13), detect magic, ghost sound (DC 13), mage hand, mending
+Bloodline: [Abyssal](ref/sorcbloodline/abyssal)
+:::
 
-**Senses:** Darkvision 90 ft.
+### Statistics
 
-**Subtype:** Reptilian
+::: statblock
+Ability scores: Str 10, Dex 13, Con 14, Int 10, Wis 13, Cha 16
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Combat Casting, Eschew Materials, Silent Spell, Spell Focus (evocation)
+Skills: Knowledge (arcana) +7, Spellcraft +6, Stealth +9 (+13 in rocky areas)
+Languages: Draconic
+Special qualities: bloodline arcana (summoned creatures gain DR 2/good)
+Combat gear: potion of cure light wounds, Dinvisibility/10 charges
+Other gear: mwk club, Iclk1, 150 gp
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 39 (2d8+4d6+16\~6)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +6; +2 vs. poison
-
-**Resist:** electricity 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk club +4 (1d6), bite -2 (1d4), claw -2 (1d4) or bite +3 (1d4), 2 claws +3 (1d4)
-
-**Spec Att:** claws (1d6, 6 rounds/day)
-
-**Spells Known**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**2nd-level spells:**
-
-- 4/day: acid arrow
-
-**1st-level spells:**
-
-- 7/day: cause fear (DC 15), corrosive touch, ray of enfeeblement (DC 15), summon monster I
-
-**Cantrips:**
-
-- At will: acid splash, daze (DC 13), detect magic, ghost sound (DC 13), mage hand, mending
-
-**Bloodline:** [Abyssal](ref/sorcbloodline/abyssal)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 14, Int 10, Wis 13, Cha 16
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Combat Casting, Eschew Materials, Silent Spell, Spell Focus (evocation)
-
-**Skills:** Knowledge (arcana) +7, Spellcraft +6, Stealth +9 (+13 in rocky areas)
-
-**Languages:** Draconic
-
-**Special qualities:** bloodline arcana (summoned creatures gain DR 2/good)
-
-**Combat gear:** potion of cure light wounds, Dinvisibility/10 charges
-
-**Other gear:** mwk club, Iclk1, 150 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

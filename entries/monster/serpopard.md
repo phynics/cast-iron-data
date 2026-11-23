@@ -31,84 +31,64 @@ abilities = ["19", "21", "18", "10", "14", "17"]
 _The muscles beneath the spotted fur of this sleek feline tense, poised to pounce. Its long, sinuous
 neck stretches over twice the length of its body, ending in a snarling leopard's head._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Initiative: +9
+Type: Magical beast
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 20
+Touch: 15
+Flat-footed: 15
+AC modifiers: +5 Dex, +5 natural
+Hit points: 85 (9d10+36)
+Fort: +10
+Ref: +11
+Will: +7
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: bite +14 (1d6+4/19-20), 2 claws +14 (1d4+4 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: bite +14, 1d6+4; 2 claws +14, 1d4+4
+Reach: 5
+Reach P: 15 ft. with bite
+Space: 5
+Spec Att: dune step, limber neck
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 21, Con 18, Int 10, Wis 14, Cha 17
+Base attack bonus: +9
+Combat maneuver bonus: +13
+Combat maneuver defense: 28 (32 vs. trip)
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Iron Will, Weapon Finesse
+Skills: Acrobatics +10 (+14 when jumping), Bluff +9, Climb +8, Knowledge (geography) +5, Perception +10
+Racial Modifiers: +4 Acrobatics when jumping, +4 Bluff, +4 Stealth
+Languages: Common
+Special qualities: far wanderer
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +5 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +14 (1d6+4/19-20), 2 claws +14 (1d4+4 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** bite +14, 1d6+4; 2 claws +14, 1d4+4
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** dune step, limber neck
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 21, Con 18, Int 10, Wis 14, Cha 17
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28 (32 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Iron Will, Weapon Finesse
-
-**Skills:** Acrobatics +10 (+14 when jumping), Bluff +9, Climb +8, Knowledge (geography) +5,
-Perception +10
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Bluff, +4 Stealth
-
-**Languages:** Common
-
-**Special qualities:** far wanderer
-
-**Ecology**
-
-**Environment:** warm deserts or plains
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts or plains
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

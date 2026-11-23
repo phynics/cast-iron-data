@@ -31,77 +31,61 @@ abilities = ["26", "10", "19", "-", "15", "1"]
 _This huge, fungal growth has a stalk as black as the shadows, and dark motes float in the air
 around its enormous cap._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+aura: tenebrous aura (30 ft.)
+blindsight: 60
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +2
+Senses: Low-light vision, See in darkness
+Type: plant
+Experience points: 2,400
+:::
 
-**aura:** tenebrous aura (30 ft.)
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 20
+Touch: 8
+Flat-footed: 20
+AC modifiers: +12 natural, -2 size
+Hit points: 76 (9d8+36)
+Fort: +10
+Ref: +3
+Will: +5
+Immune: fire, [plant traits](ref/umr/plant-traits)
+Regen: 5 (acid)
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +0
+::: statblock
+Speed: 20 ft.
+Melee: 2 tentacles +12 (1d8+8)
+Reach: 15
+Space: 15
+Spec Att: psychic trauma spores (DC 18)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +2
+::: statblock
+Ability scores: Str 26, Dex 10, Con 19, Int -, Wis 15, Cha 1
+Base attack bonus: +6
+Combat maneuver bonus: +16
+Combat maneuver defense: 26 (can't be tripped)
+Special qualities: darken flames
+:::
 
-**Senses:** Low-light vision, See in darkness
+### Ecology
 
-**Type:** plant
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 8
-
-**Flat-footed:** 20
-
-**AC modifiers:** +12 natural, -2 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +10
-
-**Ref:** +3
-
-**Will:** +5
-
-**Immune:** fire, [plant traits](ref/umr/plant-traits)
-
-**Regen:** 5 (acid)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 tentacles +12 (1d8+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** psychic trauma spores (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 10, Con 19, Int -, Wis 15, Cha 1
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Special qualities:** darken flames
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or grove (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary or grove (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

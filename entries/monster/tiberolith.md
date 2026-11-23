@@ -33,77 +33,61 @@ abilities = ["26", "11", "-", "-", "11", "1"]
 _A bizarre thrum echoes from somewhere deep within this towering stone hulk, and blue liquid runs
 down its shuddering body._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: construct
+Size: huge
+Initiative: +0
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: +16 natural, -2 size
+Hit points: 111 (13d10+40)
+Fort: +4
+Ref: +4
+Will: +4
+Defensive abilities: spell trap
+Dr: 10/adamantine and bludgeoning
+Immune: acid, [construct traits](ref/umr/construct-traits)
+Resist: electricity 30
+Sr: 24
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +19 (3d8+8)
+Reach: 15
+Space: 15
+Spec Att: corrosive strikes, shockwave
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 11, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +13
+Combat maneuver bonus: +23
+Combat maneuver defense: 33
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** +16 natural, -2 size
-
-**Hit points:** 111 (13d10+40)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Defensive abilities:** spell trap
-
-**Dr:** 10/adamantine and bludgeoning
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits)
-
-**Resist:** electricity 30
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +19 (3d8+8)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** corrosive strikes, shockwave
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 33
-
-**Ecology**
-
-**Environment:** any coastlines or water
-
-**Organization:** solitary, pair, or squad (3-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastlines or water
+Organization: solitary, pair, or squad (3-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,90 +32,63 @@ abilities = ["10", "20", "16", "7", "14", "19"]
 _This fierce and feral-looking woman has huge wings and clawed hands and feet, and carries a
 wicked-looking longbow._
 
-**Challenge rating:** 11
-
 **Female harpy [ranger](ref/class/ranger) 7**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 11
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: Monstrous humanoid
+Perception: +19
+Senses: Darkvision 60 ft.
+Experience points: 12,800
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 24
+Touch: 17
+Flat-footed: 18
+AC modifiers: +6 armor, +1 deflection, +5 Dex, +1 dodge, +1 natural
+Hit points: 118 (7d10+7d10+42\~14)
+Fort: +12
+Ref: +15
+Will: +9
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Perception:** +19
+::: statblock
+Speed: 30 ft., fly 80 ft. (average)
+Fav En: evil outsiders +2, humans +4
+Melee: mwk morningstar +15/+10/+5 (1d8)
+Ranged: +1 frost longbow +21/+16/+11 (1d8+1/×3 plus 1d6 cold)
+Spec Att: captivating song
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Prepared Spells"
+Caster level: 4
+Concentration: +6
+2nd-level spells: wind wall
+1st-level spells: resist energy, 2
+:::
 
-**Experience points:** 12,800
+### Statistics
 
-**Armor class:** 24
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +6 armor, +1 deflection, +5 Dex, +1 dodge, +1 natural
-
-**Hit points:** 118 (7d10+7d10+42\~14)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (average)
-
-**Fav En:** evil outsiders +2, humans +4
-
-**Melee:** mwk morningstar +15/+10/+5 (1d8)
-
-**Ranged:** +1 frost longbow +21/+16/+11 (1d8+1/×3 plus 1d6 cold)
-
-**Spec Att:** captivating song
-
-**Prepared Spells**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**2nd-level spells:**
-
-- wind wall
-
-**1st-level spells:**
-
-- resist energy, 2
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 20, Con 16, Int 7, Wis 14, Cha 19
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 31
-
-**Feats:** Dodge, Endurance, Flyby Attack, Great Fortitude, Manyshot, Point-Blank Shot, Precise
-Shot, Rapid Shot, Skill Focus (Bluff), Weapon Focus (longbow)
-
-**Skills:** Bluff +24, Fly +22, Intimidate +8, Knowledge (local) +1, Perception +19, Perform (sing)
-+6, Stealth +9
-
-**Languages:** Common
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (desert +2), hunter's bond
-(companions), track +3, [wild empathy](ref/ability/wild-empathy) +11,
-[woodland stride](ref/ability/woodland-stride)
-
-**Gear:** +3 studded leather armor, +1 flaming longbow, mwk morningstar, Iamu1, Iboid2, ring of
-prot1, 7 gp
+::: statblock
+Ability scores: Str 10, Dex 20, Con 16, Int 7, Wis 14, Cha 19
+Base attack bonus: +14
+Combat maneuver bonus: +14
+Combat maneuver defense: 31
+Feats: Dodge, Endurance, Flyby Attack, Great Fortitude, Manyshot, Point-Blank Shot, Precise Shot, Rapid Shot, Skill Focus (Bluff), Weapon Focus (longbow)
+Skills: Bluff +24, Fly +22, Intimidate +8, Knowledge (local) +1, Perception +19, Perform (sing) +6, Stealth +9
+Languages: Common
+Special qualities: [favored terrain](ref/ability/favored-terrain) (desert +2), hunter's bond (companions), track +3, [wild empathy](ref/ability/wild-empathy) +11, [woodland stride](ref/ability/woodland-stride)
+Gear: +3 studded leather armor, +1 flaming longbow, mwk morningstar, Iamu1, Iboid2, ring of prot1, 7 gp
+:::
 
 ### Special Abilities
 

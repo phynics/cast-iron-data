@@ -32,110 +32,77 @@ abilities = ["25", "28", "23", "14", "20", "21"]
 _This blue-furred horse with a cloud-like mane and tail has gray, human-like eyes that show obvious
 intelligence._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +9
+Size: large
+Perception: +24
+Senses: Low-light vision, Wind senses
+Subtype: Air, Shapechanger
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 27
+Touch: 19
+Flat-footed: 17
+AC modifiers: +9 Dex, +1 dodge, +8 natural, -1 size
+Hit points: 168 (16d6+112)
+Fort: +11
+Ref: +19
+Will: +15
+Dr: 10/cold iron
+Immune: electricity
+Resist: cold 10, sonic 10
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 60 ft., fly 200 ft. (perfect)
+Br Weap: 90-ft. cone, 6d6 sonic plus wind blast, Reflex DC 24 for half, usable every 1d4 rounds
+Melee: bite +16 (1d8+7 plus 2d6 sonic), 2 hooves +16 (1d8+7 plus 2d6 sonic)
+Pounce: present
+Reach: 5
+Space: 10
+Spec Att: powerful hooves, thundering blows
+Trample: 1d8+10 plus 2d6 sonic, DC 25
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +21
+Constant: cloak of winds (DC 18)
+At will: fog cloud, gust of wind (DC 17), invisibility, self only, whispering wind
+Per day: 3/day: control weather, plant growth, sleet storm\
+1/day: chain lightning (DC 21)
+:::
 
-**Senses:** Low-light vision, Wind senses
+### Statistics
 
-**Subtype:** Air, Shapechanger
+::: statblock
+Ability scores: Str 25, Dex 28, Con 23, Int 14, Wis 20, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +16
+Combat maneuver defense: 36 (40 vs. trip)
+Feats: Combat Reflexes, Dodge, Flyby Attack, Mobility, Run, Toughness, Weapon Finesse, Wind Stance
+Skills: Acrobatics +28, Fly +34, Knowledge (geography) +21, Perception +24
+Languages: Auran, Common, Sylvan
+Special qualities: [change shape](ref/umr/change-shape) (Large humanoid; [alter self](ref/spell/alter-self)), wind resistance
+:::
 
-**Experience points:** 19,200
+### Ecology {#stat-ecology}
 
-**Armor class:** 27
-
-**Touch:** 19
-
-**Flat-footed:** 17
-
-**AC modifiers:** +9 Dex, +1 dodge, +8 natural, -1 size
-
-**Hit points:** 168 (16d6+112)
-
-**Fort:** +11
-
-**Ref:** +19
-
-**Will:** +15
-
-**Dr:** 10/cold iron
-
-**Immune:** electricity
-
-**Resist:** cold 10, sonic 10
-
-**Offense**
-
-**Speed:** 60 ft., fly 200 ft. (perfect)
-
-**Br Weap:** 90-ft. cone, 6d6 sonic plus wind blast, Reflex DC 24 for half, usable every 1d4 rounds
-
-**Melee:** bite +16 (1d8+7 plus 2d6 sonic), 2 hooves +16 (1d8+7 plus 2d6 sonic)
-
-**Pounce:** present
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** powerful hooves, thundering blows
-
-**Trample:** 1d8+10 plus 2d6 sonic, DC 25
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +21
-
-**Constant:**
-
-- cloak of winds (DC 18)
-
-**At will:**
-
-- fog cloud, gust of wind (DC 17), invisibility, self only, whispering wind
-
-**Per day:**
-
-- 3/day: control weather, plant growth, sleet storm
-- 1/day: chain lightning (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 28, Con 23, Int 14, Wis 20, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 36 (40 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Mobility, Run, Toughness, Weapon Finesse, Wind
-Stance
-
-**Skills:** Acrobatics +28, Fly +34, Knowledge (geography) +21, Perception +24
-
-**Languages:** Auran, Common, Sylvan
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Large humanoid;
-[alter self](ref/spell/alter-self)), wind resistance
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or herd (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or herd (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

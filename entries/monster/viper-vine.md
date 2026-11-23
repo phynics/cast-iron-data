@@ -30,82 +30,63 @@ abilities = ["26", "19", "19", "1", "10", "6"]
 _Large tendrils ending in tiny claws unfurl from the central stalk of this plant, which rises like a
 serpent ready to strike._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Initiative: +8
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 25,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 14
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +13 natural, -1 size
+Hit points: 190 (20d8+100)
+Fort: +16
+Ref: +12
+Will: +6
+Immune: acid, [plant traits](ref/umr/plant-traits)
+Weaknesses: cold lethargy
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 10 ft.
+Constrict: 1d6+8
+Melee: bite +23 (2d6+8/19-20 plus 3d6 acid), 4 tentacles +21 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Reach P: 20 ft. with tentacle
+Space: 10
+Spec Att: captivating cloud
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 26, Dex 19, Con 19, Int 1, Wis 10, Cha 6
+Base attack bonus: +15
+Combat maneuver bonus: +24 (+28 grapple)
+Combat maneuver defense: 39 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Power Attack, Toughness, Weapon Focus (bite), Weapon Focus (tentacle)
+Skills: Perception +13, Stealth +13
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 14
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +13 natural, -1 size
-
-**Hit points:** 190 (20d8+100)
-
-**Fort:** +16
-
-**Ref:** +12
-
-**Will:** +6
-
-**Immune:** acid, [plant traits](ref/umr/plant-traits)
-
-**Weaknesses:** cold lethargy
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Constrict:** 1d6+8
-
-**Melee:** bite +23 (2d6+8/19-20 plus 3d6 acid), 4 tentacles +21 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with tentacle
-
-**Space:** 10
-
-**Spec Att:** captivating cloud
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 19, Int 1, Wis 10, Cha 6
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24 (+28 grapple)
-
-**Combat maneuver defense:** 39 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (bite), Improved Initiative, Lightning
-Reflexes, Multiattack, Power Attack, Toughness, Weapon Focus (bite), Weapon Focus (tentacle)
-
-**Skills:** Perception +13, Stealth +13
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

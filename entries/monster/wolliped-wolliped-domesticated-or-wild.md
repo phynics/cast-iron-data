@@ -26,69 +26,57 @@ melee = "gore +1 (1d8+2)"
 abilities = ["18", "14", "17", "2", "11", "3"]
 +++
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +1 (1d8+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 14, Con 17, Int 2, Wis 11, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (32 vs. trip)
+Feats: Endurance, Run, Skill Focus (Perception)
+Skills: Climb +8, Perception +9
+:::
 
-**Experience points:** 800
+### Ecology {#stat-ecology}
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +1 (1d8+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 14, Con 17, Int 2, Wis 11, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (32 vs. trip)
-
-**Feats:** Endurance, Run, Skill Focus (Perception)
-
-**Skills:** Climb +8, Perception +9
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, pair, or herd (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills
+Organization: solitary, pair, or herd (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

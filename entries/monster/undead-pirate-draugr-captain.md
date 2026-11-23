@@ -27,95 +27,72 @@ special_qualities = "rogue talents (bleeding attack +1), trapfinding +1"
 abilities = ["25", "18", "-", "14", "16", "17"]
 +++
 
-**Challenge rating:** 4
-
 **Draugr captain [rogue](ref/class/rogue) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +4
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Water
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +2 armor, +4 Dex, +4 natural
+Hit points: 39 (3d8+2d8+17\~5)
+Fort: +4
+Ref: +8
+Will: +6
+Dr: 5/bludgeoning or slashing
+Evasion: present
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Perception:** +11
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk scimitar +12 (1d6+10/18-20 plus 1 negative level) or slam +10 (1d10+10 plus 1 negative level)
+Sneak: +1d6
+:::
 
-**Subtype:** Water
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +8
+Per day: 3/day: obscuring mist
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 25, Dex 18, Con -, Int 14, Wis 16, Cha 17
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 24
+Feats: Combat Reflexes, Power Attack, Weapon Focus (scimitar)
+Skills: Acrobatics +12, Bluff +9, Climb +15
+Languages: Common (can't speak)
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1), [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 armor, +4 Dex, +4 natural
-
-**Hit points:** 39 (3d8+2d8+17\~5)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +6
-
-**Dr:** 5/bludgeoning or slashing
-
-**Evasion:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk scimitar +12 (1d6+10/18-20 plus 1 negative level) or slam +10 (1d10+10 plus 1
-negative level)
-
-**Sneak:** +1d6
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: obscuring mist
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con -, Int 14, Wis 16, Cha 17
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 24
-
-**Feats:** Combat Reflexes, Power Attack, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +12, Bluff +9, Climb +15
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1),
-[trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any oceans or coastlines
-
-**Organization:** solitary
-
-**Treasure:** NPC gear (leather armor, mwk scimitar); other treasure
+::: statblock
+Environment: any oceans or coastlines
+Organization: solitary
+Treasure: NPC gear (leather armor, mwk scimitar); other treasure
+:::
 
 ### Description
 

@@ -31,101 +31,73 @@ abilities = ["31", "13", "22", "14", "13", "20"]
 _This massive, eyeless draconic creature is covered in purplehued scales and sharp, spiky
 protrusions._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+blindsight: 60
+Alignment: Chaotic evil
+Type: dragon
+Size: huge
+Initiative: +5
+Perception: +22
+Subtype: Chaotic, Evil
+Experience points: 51,200
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 10
+Flat-footed: 28
+AC modifiers: +1 Dex, +1 dodge, +20 natural, -2 size
+Hit points: 225 (18d12+108)
+Fort: +17
+Ref: +12
+Will: +12
+Dr: 10/good or lawful
+Immune: acid, dragon traits, gaze attacks, illusions, magic paralysis and sleep, poison, polymorph, visual effects
+Sr: 26
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft., burrow 30 ft., swim 30 ft., fly 60 ft. (average)
+Br Weap: 100-ft. line, 16d6, Reflex DC 25 for half, usable every 1d4 rounds
+Melee: bite +26 (2d8+10), 2 claws +26 (2d6+10), tail slap +21 (2d8+5), 2 wings +21 (1d8+5)
+Reach: 10
+Reach P: 15 ft. with bite
+Space: 15
+Spec Att: entropic breath, maw of the Abyss
+:::
 
-**Initiative:** +5
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +23
+Constant: entropic shield, freedom of movement
+Per day: 1/day: polymorph any object (DC 23)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Subtype:** Chaotic, Evil
+::: statblock
+Ability scores: Str 31, Dex 13, Con 22, Int 14, Wis 13, Cha 20
+Base attack bonus: +18
+Combat maneuver bonus: +30
+Combat maneuver defense: 42 (46 vs. trip)
+Feats: Blind-Fight, Critical Focus, Dodge, Flyby Attack, Improved Initiative, Power Attack, Snatch, Staggering Critical, Stunning Critical
+Skills: Acrobatics +19, Bluff +18, Diplomacy +15, Fly +18
+Languages: Abyssal, Common, Draconic
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 10
-
-**Flat-footed:** 28
-
-**AC modifiers:** +1 Dex, +1 dodge, +20 natural, -2 size
-
-**Hit points:** 225 (18d12+108)
-
-**Fort:** +17
-
-**Ref:** +12
-
-**Will:** +12
-
-**Dr:** 10/good or lawful
-
-**Immune:** acid, dragon traits, gaze attacks, illusions, magic paralysis and sleep, poison,
-polymorph, visual effects
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft., burrow 30 ft., swim 30 ft., fly 60 ft. (average)
-
-**Br Weap:** 100-ft. line, 16d6, Reflex DC 25 for half, usable every 1d4 rounds
-
-**Melee:** bite +26 (2d8+10), 2 claws +26 (2d6+10), tail slap +21 (2d8+5), 2 wings +21 (1d8+5)
-
-**Reach:** 10
-
-**Reach P:** 15 ft. with bite
-
-**Space:** 15
-
-**Spec Att:** entropic breath, maw of the Abyss
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +23
-
-**Constant:**
-
-- entropic shield, freedom of movement
-
-**Per day:**
-
-- 1/day: polymorph any object (DC 23)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 13, Con 22, Int 14, Wis 13, Cha 20
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +30
-
-**Combat maneuver defense:** 42 (46 vs. trip)
-
-**Feats:** Blind-Fight, Critical Focus, Dodge, Flyby Attack, Improved Initiative, Power Attack,
-Snatch, Staggering Critical, Stunning Critical
-
-**Skills:** Acrobatics +19, Bluff +18, Diplomacy +15, Fly +18
-
-**Languages:** Abyssal, Common, Draconic
-
-**Ecology**
-
-**Environment:** any (the Worldwound)
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any (the Worldwound)
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

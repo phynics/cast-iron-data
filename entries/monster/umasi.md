@@ -31,77 +31,61 @@ abilities = ["18", "15", "17", "10", "13", "8"]
 _An emaciated humanoid bursts through the trees, brandishing a knife of black stone. His body is a
 patchwork of hair, skin, scales, and strange limbs stitched together with thick, black thread._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Initiative: +6
+Size: medium
+Type: Monstrous humanoid
+Perception: +12
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +2 Dex, +4 natural, +2 shield
+Hit points: 42 (5d10+15)
+Fort: +6
+Ref: +6
+Will: +5; +2 vs. poison
+Immune: disease
+Weaknesses: immune to healing
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft.
+Melee: dagger +7 (1d4+4/19-20), 2 unarmed strikes +7 (1d3+2 nonlethal)
+Ranged: shortbow +7 (1d6/×3)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 15, Con 17, Int 10, Wis 13, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 21
+Feats: Great Fortitude, Improved Initiative, Multiweapon Fighting
+Skills: Heal +13, Intimidate +6, Perception +12
+Racial Modifiers: +8 Heal, +4 Perception, +4 Stealth
+Languages: Polyglot
+Special qualities: graft flesh, harvest organs, immortal flesh
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +4 natural, +2 shield
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +5; +2 vs. poison
-
-**Immune:** disease
-
-**Weaknesses:** immune to healing
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** dagger +7 (1d4+4/19-20), 2 unarmed strikes +7 (1d3+2 nonlethal)
-
-**Ranged:** shortbow +7 (1d6/×3)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 17, Int 10, Wis 13, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 21
-
-**Feats:** Great Fortitude, Improved Initiative, Multiweapon Fighting
-
-**Skills:** Heal +13, Intimidate +6, Perception +12
-
-**Racial Modifiers:** +8 Heal, +4 Perception, +4 Stealth
-
-**Languages:** Polyglot
-
-**Special qualities:** graft flesh, harvest organs, immortal flesh
-
-**Ecology**
-
-**Environment:** tropical jungle
-
-**Organization:** solitary, hunting party (2-8), or tribe (10-30)
-
-**Treasure:** NPC gear (heavy wooden shield, MO dagger, sb20); other treasure
+::: statblock
+Environment: tropical jungle
+Organization: solitary, hunting party (2-8), or tribe (10-30)
+Treasure: NPC gear (heavy wooden shield, MO dagger, sb20); other treasure
+:::
 
 ### Special Abilities
 

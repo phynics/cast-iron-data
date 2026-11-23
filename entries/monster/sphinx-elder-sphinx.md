@@ -30,113 +30,77 @@ abilities = ["39", "12", "23", "26", "30", "25"]
 _The brooding face of this towering limestone statue of a gynosphinx reflects a harsh wisdom
 acquired through untold ages of experience._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Size: gargantuan
+Initiative: +5
+Type: Magical beast
+Alignment: Neutral
+Perception: +27
+Senses: Darkvision 60 ft., Low-light vision, True seeing
+Experience points: 76,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 28
+AC modifiers: +1 Dex, +22 natural, -4 size
+Hit points: 241 (21d10+126)
+Fort: +18
+Ref: +15
+Will: +19
+Defensive abilities: enciphered mind
+Dr: 15/adamantine and magic
+Immune: petrification
+Sr: 27
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., fly 60 ft. (poor)
+Melee: 2 claws +31 (2d6+14), 2 wings +26 (2d6+7)
+Pounce: present
+Rake: 2 claws +31, 2d6+14
+Reach: 15
+Space: 20
+Spec Att: litany of riddles
+Trample: 2d6+21, DC 34
+:::
 
-**Perception:** +27
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: comprehend languages, detect magic, nondetection, read magic, true seeing
+Per day: 3/day: clairaudience/clairvoyance, greater dispel magic, hallucinatory terrain (DC 21), locate object, remove curse, sirocco (DC 23)\
+1/day: commune, contact other plane, legend lore
+Per week: \^any one of the following:, symbol of fear (DC 22), symbol of persuasion (DC 23), symbol of sleep (DC 23), symbol of vulnerability (DC 26), symbol of weakness (DC 24), $; all symbols last for 1 week maximum
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 76,800
+::: statblock
+Ability scores: Str 39, Dex 12, Con 23, Int 26, Wis 30, Cha 25
+Base attack bonus: +21
+Combat maneuver bonus: +39 (+41 bull rush)
+Combat maneuver defense: 50 (52 vs. bull rush, 54 vs. trip)
+Feats: Alertness, Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Diplomacy +20, Sense Motive +24, Spellcraft +28, Use Magic Device +20
+Languages: Abyssal, Aquan, Ancient Osiriani, Auran, Celestial, Common, Draconic, Giant, Ignan, Infernal, Jistka, Sphinx, Sylvan, Tekritanin, Terran; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: enigma, sphinx monolith
+:::
 
-**Armor class:** 29
+### Ecology {#stat-ecology}
 
-**Touch:** 7
-
-**Flat-footed:** 28
-
-**AC modifiers:** +1 Dex, +22 natural, -4 size
-
-**Hit points:** 241 (21d10+126)
-
-**Fort:** +18
-
-**Ref:** +15
-
-**Will:** +19
-
-**Defensive abilities:** enciphered mind
-
-**Dr:** 15/adamantine and magic
-
-**Immune:** petrification
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (poor)
-
-**Melee:** 2 claws +31 (2d6+14), 2 wings +26 (2d6+7)
-
-**Pounce:** present
-
-**Rake:** 2 claws +31, 2d6+14
-
-**Reach:** 15
-
-**Space:** 20
-
-**Spec Att:** litany of riddles
-
-**Trample:** 2d6+21, DC 34
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- comprehend languages, detect magic, nondetection, read magic, true seeing
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance, greater dispel magic, hallucinatory terrain (DC 21), locate
-  object, remove curse, sirocco (DC 23)
-- 1/day: commune, contact other plane, legend lore
-
-**Per week:**
-
-- \^any one of the following:, symbol of fear (DC 22), symbol of persuasion (DC 23), symbol of sleep
-  (DC 23), symbol of vulnerability (DC 26), symbol of weakness (DC 24), $; all symbols last for 1
-  week maximum
-
-**Statistics**
-
-**Ability scores:** Str 39, Dex 12, Con 23, Int 26, Wis 30, Cha 25
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +39 (+41 bull rush)
-
-**Combat maneuver defense:** 50 (52 vs. bull rush, 54 vs. trip)
-
-**Feats:** Alertness, Awesome Blow, Flyby Attack, Improved Bull Rush, Improved Initiative, Improved
-Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Diplomacy +20, Sense Motive +24, Spellcraft +28, Use Magic Device +20
-
-**Languages:** Abyssal, Aquan, Ancient Osiriani, Auran, Celestial, Common, Draconic, Giant, Ignan,
-Infernal, Jistka, Sphinx, Sylvan, Tekritanin, Terran; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** enigma, sphinx monolith
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

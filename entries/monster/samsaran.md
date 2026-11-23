@@ -32,105 +32,78 @@ abilities = ["8", "14", "11", "12", "14", "15"]
 _This serene-looking slender young man has pale blue skin and solid black eyes, and is dressed in
 simple robes._
 
-**Challenge rating:** 1/2
-
 **Male samsaran [oracle](ref/class/oracle) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Subtype: Samsaran
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +3 armor, +2 Dex
+Hit points: 11 (1d8+3)
+Fort: +0
+Ref: +2
+Will: +4; +2 vs. death effects, negative energy effects, negative levels
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: spear -1 (1d6-1)
+Ranged: sling +2 (1d4-1)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +3
+Per day: 1/day: comprehend languages, deathwatch, stabilize
+:::
 
-**Subtype:** Samsaran
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +3
+1st-level spells: 4/day: command (DC 13), cure light wounds, sanctuary (DC 13)
+Cantrips: At will: ghost sound (DC 12), guidance, light, mage hand, read magic, resistance
+Mystery: [lore](ref/mystery/lore)
+:::
 
-**Experience points:** 200
+### Statistics
 
-**Armor class:** 15
+::: statblock
+Ability scores: Str 8, Dex 14, Con 11, Int 12, Wis 14, Cha 15
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Feats: Toughness
+Skills: Diplomacy +6, Spellcraft +5
+Racial Modifiers: +2 Disable Device, +2 Perception
+Languages: Celestial, Common, Draconic, Samsaran
+Special qualities: lifebound, oracle's curse ([haunted](ref/oraclecurse/haunted)), revelations (think on it), shards of the past (Disable Device, Perception)
+:::
 
-**Touch:** 12
+### Ecology
 
-**Flat-footed:** 13
-
-**AC modifiers:** +3 armor, +2 Dex
-
-**Hit points:** 11 (1d8+3)
-
-**Fort:** +0
-
-**Ref:** +2
-
-**Will:** +4; +2 vs. death effects, negative energy effects, negative levels
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear -1 (1d6-1)
-
-**Ranged:** sling +2 (1d4-1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**Per day:**
-
-- 1/day: comprehend languages, deathwatch, stabilize
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- 4/day: command (DC 13), cure light wounds, sanctuary (DC 13)
-
-**Cantrips:**
-
-- At will: ghost sound (DC 12), guidance, light, mage hand, read magic, resistance
-
-**Mystery:** [lore](ref/mystery/lore)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 14, Con 11, Int 12, Wis 14, Cha 15
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Feats:** Toughness
-
-**Skills:** Diplomacy +6, Spellcraft +5
-
-**Racial Modifiers:** +2 Disable Device, +2 Perception
-
-**Languages:** Celestial, Common, Draconic, Samsaran
-
-**Special qualities:** lifebound, oracle's curse ([haunted](ref/oraclecurse/haunted)), revelations
-(think on it), shards of the past (Disable Device, Perception)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or clan (3-12)
-
-**Treasure:** NPC gear (studded leather armor, spear, sng10);
-[thieves' tools](ref/eq-misc/thieves-tools), other treasure
+::: statblock
+Environment: any land
+Organization: solitary or clan (3-12)
+Treasure: NPC gear (studded leather armor, spear, sng10); [thieves' tools](ref/eq-misc/thieves-tools), other treasure
+:::
 
 ### Description
 

@@ -30,77 +30,61 @@ abilities = ["21", "8", "-", "6", "17", "16"]
 _This grotesque tangle of twisted bones, decayed flesh, and rotted organs is shaped into a vague
 parody of the human form._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: awfulness (60 ft., DC 16)
+Initiative: +3
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**aura:** awfulness (60 ft., DC 16)
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: -1 Dex, +9 natural
+Hit points: 52 (7d8+21)
+Fort: +5
+Ref: +3
+Will: +8
+Defensive abilities: meant to live, rise again
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: resurrection vulnerability
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Melee: bite +10 (1d4+5), 2 claws +10 (1d4+5)
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 21, Dex 8, Con -, Int 6, Wis 17, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 19
+Feats: Improved Initiative, Lightning Reflexes, Power Attack, Step Up
+Skills: Climb +15, Perception +13
+Languages: Common (can't speak)
+Special qualities: essential salts
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** -1 Dex, +9 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +8
-
-**Defensive abilities:** meant to live, rise again
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** resurrection vulnerability
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +10 (1d4+5), 2 claws +10 (1d4+5)
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 8, Con -, Int 6, Wis 17, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Lightning Reflexes, Power Attack, Step Up
-
-**Skills:** Climb +15, Perception +13
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** essential salts
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or blasphemy (3-14)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or blasphemy (3-14)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -32,85 +32,65 @@ _This cloud of long-necked birds rises into the air, screeching in a cacophony r
 klaxons and clanging tools. As these avians flit among one another, their feathers glint with a
 metallic gleam, reflecting even the dimmest light back a hundredfold through a dim haze of blood._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Subtype: Swarm
+Size: tiny
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 18
+AC modifiers: +4 Dex, +1 dodge, +6 natural, +2 size
+Hit points: 52 (7d10+14)
+Fort: +7
+Ref: +9
+Will: +3
+Defensive abilities: half damage from slashing and piercing weapons, swarm traits
+Dr: 5/magic
+Immune: fire
+Weaknesses: sonic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 10 ft., fly 60 ft. (average)
+Bleed: 1
+Distraction: 15
+Melee: swarm +7 (2d6-2 plus bleed)
+Reach: 0
+Space: 10
+Spec Att: dazzle
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Swarm
+::: statblock
+Ability scores: Str 6, Dex 19, Con 14, Int 2, Wis 13, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Alertness, Dodge, Improved Initiative, Step Up
+Skills: Fly +8, Perception +13
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural, +2 size
-
-**Hit points:** 52 (7d10+14)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +3
-
-**Defensive abilities:** half damage from slashing and piercing weapons, swarm traits
-
-**Dr:** 5/magic
-
-**Immune:** fire
-
-**Weaknesses:** sonic
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (average)
-
-**Bleed:** 1
-
-**Distraction:** 15
-
-**Melee:** swarm +7 (2d6-2 plus bleed)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** dazzle
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 19, Con 14, Int 2, Wis 13, Cha 11
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Alertness, Dodge, Improved Initiative, Step Up
-
-**Skills:** Fly +8, Perception +13
-
-**Ecology**
-
-**Environment:** warm plains and deserts
-
-**Organization:** solitary, flock (2-4 swarms), or host (5-8 swarms)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm plains and deserts
+Organization: solitary, flock (2-4 swarms), or host (5-8 swarms)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

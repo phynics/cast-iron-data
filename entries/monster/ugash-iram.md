@@ -31,90 +31,64 @@ abilities = ["32", "19", "26", "13", "20", "16"]
 _This immense creature resembles a horrific, twelve-armed squid. Its emerald eyes burn with a
 terrifying malignance, and the thing has a fanged maw where its beak should be._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: colossal
+Initiative: +8
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +20
+Senses: Darkvision 120 ft., Low-light vision, See in darkness
+Subtype: Aquatic
+Experience points: 51,200
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 28
+Touch: 6
+Flat-footed: 24
+AC modifiers: +4 Dex, +22 natural, -8 size
+Hit points: 229 (17d10+136)
+Fort: +18
+Ref: +14
+Will: +10
+Dr: 10/cold iron
+Resist: acid 10, cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 5 ft., swim 60 ft.
+Jet: 320
+Melee: tentacles +20 (6d6+11 plus [grab](ref/umr/grab))
+Reach: 30
+Space: 30
+Spec Att: savage bite (+20 melee, 4d8+11/18-20 plus poison), unholy blood
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+At will: disfiguring touch (DC 17)
+Per day: 3/day: bestow curse (DC 18), freedom of movement, protection from energy\
+1/day: dominate monster (DC 24), rage
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision, See in darkness
+### Statistics
 
-**Subtype:** Aquatic
-
-**Experience points:** 51,200
-
-**Armor class:** 28
-
-**Touch:** 6
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 Dex, +22 natural, -8 size
-
-**Hit points:** 229 (17d10+136)
-
-**Fort:** +18
-
-**Ref:** +14
-
-**Will:** +10
-
-**Dr:** 10/cold iron
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 5 ft., swim 60 ft.
-
-**Jet:** 320
-
-**Melee:** tentacles +20 (6d6+11 plus [grab](ref/umr/grab))
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** savage bite (+20 melee, 4d8+11/18-20 plus poison), unholy blood
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**At will:**
-
-- disfiguring touch (DC 17)
-
-**Per day:**
-
-- 3/day: bestow curse (DC 18), freedom of movement, protection from energy
-- 1/day: dominate monster (DC 24), rage
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 19, Con 26, Int 13, Wis 20, Cha 16
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +36 (+40 grapple)
-
-**Combat maneuver defense:** 50 (can't be tripped)
-
-**Feats:** Cleave, Combat Expertise, Combat Reflexes, Deadly Finish, Greater Disarm, Improved
-Disarm, Improved Initiative, Power Attack, Stand Still
-
-**Skills:** Bluff +13, Knowledge (geography) +10, Perception +20, Sense Motive +13, Stealth -8, Swim
-+23
-
-**Languages:** Abyssal, Aquan, Common; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 32, Dex 19, Con 26, Int 13, Wis 20, Cha 16
+Base attack bonus: +17
+Combat maneuver bonus: +36 (+40 grapple)
+Combat maneuver defense: 50 (can't be tripped)
+Feats: Cleave, Combat Expertise, Combat Reflexes, Deadly Finish, Greater Disarm, Improved Disarm, Improved Initiative, Power Attack, Stand Still
+Skills: Bluff +13, Knowledge (geography) +10, Perception +20, Sense Motive +13, Stealth -8, Swim +23
+Languages: Abyssal, Aquan, Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ### Special Abilities
 

@@ -34,93 +34,68 @@ abilities = ["26", "15", "21", "17", "17", "20"]
 _The shape of this creature gives the impression of a squirming mass accompanied by an indescribable
 monstrous stench._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+aura: [stench](ref/umr/stench) (30 ft., DC 22, 10 rounds)
+blindsight: 30
+Alignment: Chaotic evil
+Initiative: +6
+Size: large
+Perception: +20
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 22, 10 rounds)
+::: statblock
+Armor class: 24
+Touch: 11
+Flat-footed: 22
+AC modifiers: +2 Dex, +13 natural, -1 size
+Hit points: 133 (14d8+70)
+Fort: +9
+Ref: +8
+Will: +12
+Defensive abilities: tenuous natural invisibility
+Dr: 10/magic
+Immune: cold, fire
+Resist: sonic 10
+Sr: 21
+:::
 
-**blindsight:** 30
+### Offense
 
-**Alignment:** Chaotic evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+B Drain: 1d4 Con
+Melee: bite +17 (1d8+8/19-20/×3), 4 tentacles +16 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Spec Att: devastation
+:::
 
-**Initiative:** +6
+### Statistics
 
-**Size:** large
+::: statblock
+Ability scores: Str 26, Dex 15, Con 21, Int 17, Wis 17, Cha 20
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 30 (38 vs. trip)
+Feats: Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes, Multiattack, Vital Strike, Weapon Focus (tentacle)
+Skills: Climb +33, Escape Artist +19, Intimidate +22, Knowledge (arcana) +20, Perception +20, Spellcraft +20, Stealth +15
+Languages: Aklo
+:::
 
-**Perception:** +20
+### Ecology
 
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Extraplanar
-
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +13 natural, -1 size
-
-**Hit points:** 133 (14d8+70)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +12
-
-**Defensive abilities:** tenuous natural invisibility
-
-**Dr:** 10/magic
-
-**Immune:** cold, fire
-
-**Resist:** sonic 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**B Drain:** 1d4 Con
-
-**Melee:** bite +17 (1d8+8/19-20/×3), 4 tentacles +16 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** devastation
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 15, Con 21, Int 17, Wis 17, Cha 20
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 30 (38 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Critical (bite), Improved Initiative, Lightning Reflexes,
-Multiattack, Vital Strike, Weapon Focus (tentacle)
-
-**Skills:** Climb +33, Escape Artist +19, Intimidate +22, Knowledge (arcana) +20, Perception +20,
-Spellcraft +20, Stealth +15
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,71 +30,58 @@ abilities = ["4", "8", "13", "1", "13", "6"]
 _A thick shell encases this reptile's body, from which only its tail, its feet, and a head fitted
 with powerful jaws emerge._
 
-**Challenge rating:** 1/3
+::: statblock
+Challenge rating: 1/3
+Type: animal
+Initiative: -1
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 135
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 12
+Touch: 11
+Flat-footed: 12
+AC modifiers: -1 Dex, +1 natural, +2 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +1
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 10 ft., swim 20 ft.
+Melee: bite +1 (1d3-3)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 8, Con 13, Int 1, Wis 13, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 4 (8 vs. trip)
+Feats: Weapon Finesse
+Skills: Perception +5, Swim +5
+Special qualities: [hold breath](ref/umr/hold-breath), shell
+:::
 
-**Experience points:** 135
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** -1 Dex, +1 natural, +2 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., swim 20 ft.
-
-**Melee:** bite +1 (1d3-3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 8, Con 13, Int 1, Wis 13, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 4 (8 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +5, Swim +5
-
-**Special qualities:** [hold breath](ref/umr/hold-breath), shell
-
-**Ecology**
-
-**Environment:** temperate or warm water or shore
-
-**Organization:** solitary or band (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm water or shore
+Organization: solitary or band (2-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

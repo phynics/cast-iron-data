@@ -36,139 +36,91 @@ with a fluid grace._
 
 **Mythic Vault Builder**
 
-**Challenge rating:** 20
+::: statblock
+Challenge rating: 20
+Mythic rank: 8
+aura: frightful presence (30 ft., DC 27)
+Initiative: +10
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +26
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Mythic
+tremorsense: 120
+Experience points: 307,200
+:::
 
-**Mythic rank:** 8
+### Defense
 
-**aura:** frightful presence (30 ft., DC 27)
+::: statblock
+Armor class: 38
+Touch: 21
+Flat-footed: 27
+AC modifiers: +10 Dex, +1 dodge, +17 natural
+Hit points: 317 (19d10+213)
+Fort: +13
+Ref: +21
+Will: +17
+Block At: present
+Dr: 10/adamantine, bludgeoning, and epic
+Fh: 5
+Fortif: 50
+Immune: elemental traits
+Sr: 31
+:::
 
-**Initiative:** +10
+### Offense
 
-**Alignment:** Lawful neutral
+::: statblock
+Speed: 40 ft., burrow 30 ft., climb 40 ft.
+M Magic: 3/day
+M Power: 10/day, surge +1d10
+Melee: 4 claws +29 (2d4+10/19-20 plus crystallization)
+Rend: 2 claws, 2d4+9
+Sp Extra: earth glide
+Spec Att: crystal burst, crystallization,xiomorn spellcasting
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +27
+At will: dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 20), statue (DC 25), stone shape, stone tell
+Per day: 3/day: command stone (DC 27), flesh to stone (DC 24), spike stones (DC 22), wall of stone\
+1/day: permanency, summon monster VII, earth elementals only, symbol of scrying
+:::
 
-**Type:** outsider
+::: statblock
+title = "Prepared Spells"
+Caster level: 19
+Concentration: +28
+8th-level spells: earthquake, maze, repel metal or stone
+6th-level spells: disintegrate (DC 24), flesh to stone (DC 24)
+3rd-level spells: fly
+:::
 
-**Perception:** +26
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 22, Dex 31, Con 25, Int 29, Wis 18, Cha 26
+Base attack bonus: +19
+Combat maneuver bonus: +25 (+31 sunder)
+Combat maneuver defense: 46 (52 vs. sunder, 50 vs. trip)
+Feats: Ability Focus (crystallization), Combat Reflexes, Dodge, Extra Mythic Power, Improved Critical (claw), Mythic Improved Sunder, Iron Will, Mobility, Power Attack, Mythic Spring Attack, Mythic Weapon Finesse
+Skills: Climb +33, Knowledge (arcana, planes) +39, Perception +26, Sense Motive +26, Spellcraft +31, Stealth +32, Use Magic Device +30
+Racial Modifiers: +8 Craft (sculpture), +8 Knowledge (arcana), +8 Knowledge (planes)
+Languages: Terran; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: item mastery, item shaper, secret of the Vault Seeds
+:::
 
-**Subtype:** Earth, Elemental, Extraplanar, Mythic
+### Ecology
 
-**tremorsense:** 120
-
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 21
-
-**Flat-footed:** 27
-
-**AC modifiers:** +10 Dex, +1 dodge, +17 natural
-
-**Hit points:** 317 (19d10+213)
-
-**Fort:** +13
-
-**Ref:** +21
-
-**Will:** +17
-
-**Block At:** present
-
-**Dr:** 10/adamantine, bludgeoning, and epic
-
-**Fh:** 5
-
-**Fortif:** 50
-
-**Immune:** elemental traits
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 40 ft., burrow 30 ft., climb 40 ft.
-
-**M Magic:** 3/day
-
-**M Power:** 10/day, surge +1d10
-
-**Melee:** 4 claws +29 (2d4+10/19-20 plus crystallization)
-
-**Rend:** 2 claws, 2d4+9
-
-**Sp Extra:** earth glide
-
-**Spec Att:** crystal burst, crystallization,xiomorn spellcasting
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +27
-
-**At will:**
-
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 20), statue (DC
-  25), stone shape, stone tell
-
-**Per day:**
-
-- 3/day: command stone (DC 27), flesh to stone (DC 24), spike stones (DC 22), wall of stone
-- 1/day: permanency, summon monster VII, earth elementals only, symbol of scrying
-
-**Prepared Spells**
-
-**Caster level:** 19
-
-**Concentration:** +28
-
-**8th-level spells:**
-
-- earthquake, maze, repel metal or stone
-
-**6th-level spells:**
-
-- disintegrate (DC 24), flesh to stone (DC 24)
-
-**3rd-level spells:**
-
-- fly
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 31, Con 25, Int 29, Wis 18, Cha 26
-
-**Base attack bonus:** +19
-
-**Combat maneuver bonus:** +25 (+31 sunder)
-
-**Combat maneuver defense:** 46 (52 vs. sunder, 50 vs. trip)
-
-**Feats:** Ability Focus (crystallization), Combat Reflexes, Dodge, Extra Mythic Power, Improved
-Critical (claw), Mythic Improved Sunder, Iron Will, Mobility, Power Attack, Mythic Spring Attack,
-Mythic Weapon Finesse
-
-**Skills:** Climb +33, Knowledge (arcana, planes) +39, Perception +26, Sense Motive +26, Spellcraft
-+31, Stealth +32, Use Magic Device +30
-
-**Racial Modifiers:** +8 Craft (sculpture), +8 Knowledge (arcana), +8 Knowledge (planes)
-
-**Languages:** Terran; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** item mastery, item shaper, secret of the Vault Seeds
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or foundation (2 plus 4-20
-[Vault Keepers](ref/monster/xiomorn-vault-keeper))
-
-**Treasure:** Triple
+::: statblock
+Environment: any
+Organization: solitary, pair, or foundation (2 plus 4-20 [Vault Keepers](ref/monster/xiomorn-vault-keeper))
+Treasure: Triple
+:::
 
 ### Special Abilities
 

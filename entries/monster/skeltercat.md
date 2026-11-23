@@ -32,77 +32,61 @@ abilities = ["19", "18", "15", "6", "13", "12"]
 _The tawny coat of this snarling feline resembles that of a mountain lion, though this creature is
 much more muscular and carries itself with a strange posture._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Initiative: +4
+Type: Magical beast
+Size: medium
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Shapechanger
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 17
+Touch: 15
+Flat-footed: 12
+AC modifiers: +4 Dex, +1 dodge, +2 natural
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +8
+Will: +4
+Defensive abilities: mixed mind
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: bite +9 (1d6+4 plus [grab](ref/umr/grab)), 2 claws +9 (1d4+4)
+Spec Att: musk, scream
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 18, Con 15, Int 6, Wis 13, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Dodge, Iron Will, Run
+Skills: Acrobatics +12 (+16 when jumping), Climb +8, Perception +5
+Racial Modifiers: +4 Acrobatics (+8 when jumping), +4 Stealth
+Languages: Common (can't speak)
+Special qualities: partial transformation
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +1 dodge, +2 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +4
-
-**Defensive abilities:** mixed mind
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +9 (1d6+4 plus [grab](ref/umr/grab)), 2 claws +9 (1d4+4)
-
-**Spec Att:** musk, scream
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 15, Int 6, Wis 13, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Iron Will, Run
-
-**Skills:** Acrobatics +12 (+16 when jumping), Climb +8, Perception +5
-
-**Racial Modifiers:** +4 Acrobatics (+8 when jumping), +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** partial transformation
-
-**Ecology**
-
-**Environment:** temperate forests, hills, or mountains
-
-**Organization:** solitary, pair, or clan (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, hills, or mountains
+Organization: solitary, pair, or clan (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

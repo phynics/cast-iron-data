@@ -30,79 +30,62 @@ abilities = ["13", "13", "15", "6", "12", "10"]
 _This creature's thick, serpentine body is protected by dense, horny plates. A visible haze of heat
 rises from its red-hot scales._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: molten body
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Fire
+tremorsense: 60
+Experience points: 600
+:::
 
-**aura:** molten body
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +4
+Will: +2
+Immune: fire, elemental
+Vulner: cold
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 20 ft.
+Burn: 1d6, DC 13
+Melee: slam +4 (1d6+1 plus burn)
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +10
+::: statblock
+Ability scores: Str 13, Dex 13, Con 15, Int 6, Wis 12, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15 (can't be tripped)
+Feats: Nimble Moves, Skill Focus (Perception)
+Skills: Acrobatics +7, Perception +10
+Languages: Ignan (can't speak)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Earth, Elemental, Extraplanar, Fire
-
-**tremorsense:** 60
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** fire, elemental
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft., burrow 20 ft.
-
-**Burn:** 1d6, DC 13
-
-**Melee:** slam +4 (1d6+1 plus burn)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 15, Int 6, Wis 12, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15 (can't be tripped)
-
-**Feats:** Nimble Moves, Skill Focus (Perception)
-
-**Skills:** Acrobatics +7, Perception +10
-
-**Languages:** Ignan (can't speak)
-
-**Ecology**
-
-**Environment:** any land ([Plane of Fire](ref/rule/plane-of-fire))
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any land ([Plane of Fire](ref/rule/plane-of-fire))
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -26,69 +26,57 @@ melee = "bite -2 (1d3-4)"
 abilities = ["3", "6", "8", "2", "12", "3"]
 +++
 
-**Challenge rating:** 1/6
+::: statblock
+Challenge rating: 1/6
+Type: animal
+Initiative: -2
+Alignment: Neutral
+Perception: +4
+Senses: Low-light vision
+Size: tiny
+Experience points: 65
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** -2
+::: statblock
+Armor class: 16
+Touch: 10
+Flat-footed: 16
+AC modifiers: -2 Dex, +6 natural, +2 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +0
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 5 ft., swim 20 ft.
+Melee: bite -2 (1d3-4)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 6, Con 8, Int 2, Wis 12, Cha 3
+Base attack bonus: +0
+Combat maneuver bonus: -4
+Combat maneuver defense: 2 (6 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +4, Swim +10
+:::
 
-**Experience points:** 65
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** -2 Dex, +6 natural, +2 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +0
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 5 ft., swim 20 ft.
-
-**Melee:** bite -2 (1d3-4)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 6, Con 8, Int 2, Wis 12, Cha 3
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -4
-
-**Combat maneuver defense:** 2 (6 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +4, Swim +10
-
-**Ecology**
-
-**Environment:** temperate or tropical forests, oceans, and rivers
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate or tropical forests, oceans, and rivers
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -28,72 +28,58 @@ ranged = "light crossbow +5 (2d6/19-20)"
 abilities = ["21", "17", "18", "10", "10", "9"]
 +++
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +7
+Senses: Low-light vision
+Subtype: Gnome
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 11
+AC modifiers: +2 armor, +3 Dex, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +4
+Will: +1
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: mwk morningstar +9 (2d6 +5)
+Ranged: light crossbow +5 (2d6/19-20)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 17, Con 18, Int 10, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Skills: Climb +7, Disable Device +10, Perception +7, Sleight of Hand +10, Stealth +6
+:::
 
-**Subtype:** Gnome
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 armor, +3 Dex, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk morningstar +9 (2d6 +5)
-
-**Ranged:** light crossbow +5 (2d6/19-20)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 17, Con 18, Int 10, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Skills:** Climb +7, Disable Device +10, Perception +7, Sleight of Hand +10, Stealth +6
-
-**Ecology**
-
-**Environment:** any hills or forests
-
-**Organization:** solitary, pair, or mob (3-12)
-
-**Treasure:** NPC gear (leather armor, mwk morningstar, light crossbow with 10 bolts); other
-treasure
+::: statblock
+Environment: any hills or forests
+Organization: solitary, pair, or mob (3-12)
+Treasure: NPC gear (leather armor, mwk morningstar, light crossbow with 10 bolts); other treasure
+:::
 
 ### Special Abilities
 

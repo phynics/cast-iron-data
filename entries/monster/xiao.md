@@ -28,87 +28,67 @@ abilities = ["4", "16", "14", "7", "11", "13"]
 
 _This snarling blue-white monkey flies through the air on a pair of bird-like wings._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Magical beast
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +6
+Will: +1
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: bite +8 (1d4-3), 2 slams +8 (1d3-3)
+Reach: 0
+Sneak: +1d6
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +3
+Per day: 3/day: burning hands (DC 12), spark
+:::
 
-**Size:** tiny
+### Statistics
 
-**Experience points:** 600
+::: statblock
+Ability scores: Str 4, Dex 16, Con 14, Int 7, Wis 11, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 11
+Feats: Stealthy, Weapon Finesse
+Skills: Acrobatics +11, Disable Device +8, Escape Artist +5, Fly +11, Perception +4, Sleight of Hand +8, Stealth +13
+Racial Modifiers: +8 Acrobatics, +4 Disable Device, +4 Sleight of Hand
+Languages: Common (can't speak)
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** bite +8 (1d4-3), 2 slams +8 (1d3-3)
-
-**Reach:** 0
-
-**Sneak:** +1d6
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +3
-
-**Per day:**
-
-- 3/day: burning hands (DC 12), spark
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 16, Con 14, Int 7, Wis 11, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 11
-
-**Feats:** Stealthy, Weapon Finesse
-
-**Skills:** Acrobatics +11, Disable Device +8, Escape Artist +5, Fly +11, Perception +4, Sleight of
-Hand +8, Stealth +13
-
-**Racial Modifiers:** +8 Acrobatics, +4 Disable Device, +4 Sleight of Hand
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** warm mountains or forests
-
-**Organization:** individuals, troupe (3-12), flock (13-30)
-
-**Treasure:** Incidental; [thieves' tools](ref/eq-misc/thieves-tools), shiny trinkets, small pieces
-of jewelry that catch a xiao's eye
+::: statblock
+Environment: warm mountains or forests
+Organization: individuals, troupe (3-12), flock (13-30)
+Treasure: Incidental; [thieves' tools](ref/eq-misc/thieves-tools), shiny trinkets, small pieces of jewelry that catch a xiao's eye
+:::
 
 ### Description
 

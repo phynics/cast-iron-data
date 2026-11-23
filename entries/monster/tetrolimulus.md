@@ -33,79 +33,62 @@ _From a body like a strange crab sprouts the torso of a praying mantis, clad in 
 crustacean armor. Swaying hypnotically, it rattles razor-sharp claws and raises its long,
 rapier-like tail stinger._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Initiative: +8
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 12,800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 27
+Touch: 13
+Flat-footed: 23
+AC modifiers: +4 Dex, +14 natural, -1 size
+Hit points: 147 (14d10+70)
+Fort: +16
+Ref: +13
+Will: +7
+Resist: cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft., swim 50 ft.
+Melee: 2 claws +19 (2d6+6/×4), sting +17 (1d6+3 plus poison)
+Pounce: present
+Reach: 10
+Space: 10
+Spec Att: poison
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 18, Con 21, Int 3, Wis 12, Cha 9
+Base attack bonus: +14
+Combat maneuver bonus: +21
+Combat maneuver defense: 35
+Feats: Endurance, Great Fortitude, Improved Initiative, Iron Will, Lunge, Multiattack, Run
+Skills: Climb +10, Perception +7
+Special qualities: [amphibious](ref/umr/amphibious), shoreline mastery
+:::
 
-**Subtype:** Aquatic
+### Ecology {#stat-ecology}
 
-**Experience points:** 12,800
-
-**Armor class:** 27
-
-**Touch:** 13
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +14 natural, -1 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +7
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 50 ft., swim 50 ft.
-
-**Melee:** 2 claws +19 (2d6+6/×4), sting +17 (1d6+3 plus poison)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con 21, Int 3, Wis 12, Cha 9
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 35
-
-**Feats:** Endurance, Great Fortitude, Improved Initiative, Iron Will, Lunge, Multiattack, Run
-
-**Skills:** Climb +10, Perception +7
-
-**Special qualities:** [amphibious](ref/umr/amphibious), shoreline mastery
-
-**Ecology**
-
-**Environment:** temperate coasts
-
-**Organization:** solitary, pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate coasts
+Organization: solitary, pair
+Treasure: None
+:::
 
 ### Special Abilities
 

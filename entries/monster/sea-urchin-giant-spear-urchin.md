@@ -32,83 +32,64 @@ special_qualities = "amphibious"
 abilities = ["23", "3", "18", "-", "11", "2"]
 +++
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: -4
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: All-around vision, Low-light vision, Scent
+Subtype: Aquatic
+tremorsense: 30
+Type: vermin
+Experience points: 1,200
+:::
 
-**Initiative:** -4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 5
+Flat-footed: 17
+AC modifiers: -4 Dex, +12 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +8
+Ref: -3
+Will: +1
+Defensive abilities: stability
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 5 ft.
+Melee: 2 spines +8 (1d6+6 plus poison)
+Ranged: 2 spines +3 (1d6+6 plus poison)
+Reach: 5
+Space: 10
+Spec Att: spines (+8, 1d6+6 plus poison)
+:::
 
-**Senses:** All-around vision, Low-light vision, Scent
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 23, Dex 3, Con 18, Int -, Wis 11, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 16 (24 vs. bull rush or trip)
+Skills: Perception +4
+Racial Modifiers: +4 Perception
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Type:** vermin
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 5
-
-**Flat-footed:** 17
-
-**AC modifiers:** -4 Dex, +12 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +8
-
-**Ref:** -3
-
-**Will:** +1
-
-**Defensive abilities:** stability
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** 2 spines +8 (1d6+6 plus poison)
-
-**Ranged:** 2 spines +3 (1d6+6 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** spines (+8, 1d6+6 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 3, Con 18, Int -, Wis 11, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 16 (24 vs. bull rush or trip)
-
-**Skills:** Perception +4
-
-**Racial Modifiers:** +4 Perception
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm ocean or coastline
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm ocean or coastline
+Organization: solitary, pair, or cluster (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

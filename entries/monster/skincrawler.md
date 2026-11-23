@@ -31,75 +31,60 @@ abilities = ["10", "9", "20", "-", "1", "1"]
 _What appears to be a heap of freshly flensed skin ripples and flexes; it has a long tendril tipped
 with a single sharp fingernail._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+blindsight: 30
+Initiative: -1
+Alignment: Neutral
+Type: ooze
+Perception: -5
+Size: tiny
+Experience points: 200
+:::
 
-**blindsight:** 30
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 11
+AC modifiers: -1 Dex, +2 size
+Hit points: 9 (1d8+5)
+Fort: +5
+Ref: -1
+Will: -5
+Immune: [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Attach: present
+Melee: sting +2 (1d2 plus attach and memory lapse)
+Reach: 0
+Space: 2-1/2
+Spec Att: memory lapse, siphon vitality
+:::
 
-**Perception:** -5
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 10, Dex 9, Con 20, Int -, Wis 1, Cha 1
+Base attack bonus: +0
+Combat maneuver bonus: -3 (+7 grapple when attached)
+Combat maneuver defense: 7
+Skills: Climb +8
+Special qualities: adaptive attachment, [freeze](ref/umr/freeze) (strip of flesh)
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 11
-
-**Touch:** 11
-
-**Flat-footed:** 11
-
-**AC modifiers:** -1 Dex, +2 size
-
-**Hit points:** 9 (1d8+5)
-
-**Fort:** +5
-
-**Ref:** -1
-
-**Will:** -5
-
-**Immune:** [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Attach:** present
-
-**Melee:** sting +2 (1d2 plus attach and memory lapse)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** memory lapse, siphon vitality
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 9, Con 20, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3 (+7 grapple when attached)
-
-**Combat maneuver defense:** 7
-
-**Skills:** Climb +8
-
-**Special qualities:** adaptive attachment, [freeze](ref/umr/freeze) (strip of flesh)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or rash (2-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or rash (2-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

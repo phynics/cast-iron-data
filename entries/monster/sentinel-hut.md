@@ -30,79 +30,62 @@ abilities = ["25", "17", "-", "-", "11", "16"]
 _This strange windowless cabin, with a steep thatched roof and a single door painted red, stands on
 an enormous pair of knobby legs._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: construct
+Size: huge
+Initiative: +3
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 4,800
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 21
+Touch: 11
+Flat-footed: 18
+AC modifiers: +3 Dex, +10 natural, -2 size
+Hit points: 95 (10d10+40)
+Fort: +3
+Ref: +6
+Will: +3
+Defensive abilities: dancing
+Dr: 5/adamantine
+Evasion: present
+Immune: acid, cold, [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +15 (2d4+7 plus [grab](ref/umr/grab)), slam +15 (2d6+7)
+Reach: 15
+Space: 15
+Spec Att: stir crazy
+Swallow: 1d2 Wisdom damage, AC 15, 9 hp
+Trample: 2d6+10, DC 22
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 25, Dex 17, Con -, Int -, Wis 11, Cha 16
+Base attack bonus: +10
+Combat maneuver bonus: +19 (+23 grapple)
+Combat maneuver defense: 32
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +3 Dex, +10 natural, -2 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +3
-
-**Defensive abilities:** dancing
-
-**Dr:** 5/adamantine
-
-**Evasion:** present
-
-**Immune:** acid, cold, [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +15 (2d4+7 plus [grab](ref/umr/grab)), slam +15 (2d6+7)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** stir crazy
-
-**Swallow:** 1d2 Wisdom damage, AC 15, 9 hp
-
-**Trample:** 2d6+10, DC 22
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 17, Con -, Int -, Wis 11, Cha 16
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19 (+23 grapple)
-
-**Combat maneuver defense:** 32
-
-**Ecology**
-
-**Environment:** any land (Irrisen)
-
-**Organization:** solitary or unit (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land (Irrisen)
+Organization: solitary or unit (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

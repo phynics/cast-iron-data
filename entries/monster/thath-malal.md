@@ -30,94 +30,67 @@ abilities = ["26", "11", "22", "16", "15", "21"]
 _This immense, eyeless worm is covered in a midnight blue hide. Four barbed tongues wriggle out from
 its open, lily-shaped maw._
 
-**Challenge rating:** 13
-
 **Variant young neothelid**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 13
+Type: aberration
+blindsight: 100
+Alignment: Chaotic evil
+Size: huge
+Initiative: +4
+Perception: +22
+Senses: Trace teleport 60 ft.
+Experience points: 25,600
+:::
 
-**blindsight:** 100
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 28
+Touch: 8
+Flat-footed: 28
+AC modifiers: +20 natural, -2 size
+Hit points: 178 (17d8+102)
+Fort: +13
+Ref: +5
+Will: +14
+Dr: 10/cold iron
+Sr: 24
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +4
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Br Weap: 50-ft. cone, 10d10 acid, Reflex DC 24 half, usable every 1d4 rounds
+Melee: 4 tongues +13 (2d6+8/19-20 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: mind thrust (12d10, DC 23), psychic crush (DC 23)
+Swallow: 1d8+8 plus 1d8 acid damage, AC 20, 17 hp
+:::
 
-**Perception:** +22
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 17
+Concentration: +22
+At will: charm monster (DC 19), detect thoughts (DC 17), poison (DC 19), suggestion (DC 18), teleport
+Per day: 3/day: clairvoyance/clairaudience, telekinesis (DC 20)\
+1/day: quickened suggestion (DC 18)
+:::
 
-**Senses:** Trace teleport 60 ft.
+### Statistics
 
-**Experience points:** 25,600
-
-**Armor class:** 28
-
-**Touch:** 8
-
-**Flat-footed:** 28
-
-**AC modifiers:** +20 natural, -2 size
-
-**Hit points:** 178 (17d8+102)
-
-**Fort:** +13
-
-**Ref:** +5
-
-**Will:** +14
-
-**Dr:** 10/cold iron
-
-**Sr:** 24
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Br Weap:** 50-ft. cone, 10d10 acid, Reflex DC 24 half, usable every 1d4 rounds
-
-**Melee:** 4 tongues +13 (2d6+8/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** mind thrust (12d10, DC 23), psychic crush (DC 23)
-
-**Swallow:** 1d8+8 plus 1d8 acid damage, AC 20, 17 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 17
-
-**Concentration:** +22
-
-**At will:**
-
-- charm monster (DC 19), detect thoughts (DC 17), poison (DC 19), suggestion (DC 18), teleport
-
-**Per day:**
-
-- 3/day: clairvoyance/clairaudience, telekinesis (DC 20)
-- 1/day: quickened suggestion (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 11, Con 22, Int 16, Wis 15, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +22 (+24 bull rush)
-
-**Combat maneuver defense:** 32 (34 vs. bull rush, can't be tripped)
-
-**Feats:** Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue),
-Improved Initiative, Iron Will, Power Attack, Quicken
-[Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
-
-**Skills:** Bluff +22, Climb +28, Diplomacy +22, Spellcraft +23
-
-**Languages:** Aklo, Orvian, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+::: statblock
+Ability scores: Str 26, Dex 11, Con 22, Int 16, Wis 15, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +22 (+24 bull rush)
+Combat maneuver defense: 32 (34 vs. bull rush, can't be tripped)
+Feats: Cleave, Great Cleave, Great Fortitude, Improved Bull Rush, Improved Critical (tongue), Improved Initiative, Iron Will, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (suggestion)
+Skills: Bluff +22, Climb +28, Diplomacy +22, Spellcraft +23
+Languages: Aklo, Orvian, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
 ### Description
 

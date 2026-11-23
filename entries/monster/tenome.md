@@ -33,73 +33,59 @@ abilities = ["14", "15", "13", "10", "11", "12"]
 _This wrinkled, pale humanoid has an eyeless head and a wide, fanged mouth; its eyes glare
 freakishly from the palms of its hands._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +6
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +9
+Senses: Darkvision 60 ft.
+Experience points: 1,200
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 Dex, +1 dodge, +4 natural
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +7
+Will: +7
+Weaknesses: obscuring grapple
+:::
 
-**Type:** Monstrous humanoid
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft.
+Melee: bite +8 (1d6+2), 2 claws +8 (1d4+2 plus [grab](ref/umr/grab))
+Sp Extra: burst of speed
+Spec Att: bone drink, terrifying gaze
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 14, Dex 15, Con 13, Int 10, Wis 11, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +8
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Iron Will
+Skills: Intimidate +10, Perception +9
+Languages: Common
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +1 dodge, +4 natural
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +7
-
-**Weaknesses:** obscuring grapple
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +8 (1d6+2), 2 claws +8 (1d4+2 plus [grab](ref/umr/grab))
-
-**Sp Extra:** burst of speed
-
-**Spec Att:** bone drink, terrifying gaze
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 15, Con 13, Int 10, Wis 11, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Iron Will
-
-**Skills:** Intimidate +10, Perception +9
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or scourge (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or scourge (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,102 +33,77 @@ abilities = ["10", "12", "16", "13", "8", "17"]
 
 _Light shimmers across this humanoid figure's bare golden skin, illuminating regal features._
 
-**Challenge rating:** 1/2
-
 **Shabti [oracle](ref/class/oracle) 1**
 
-**Initiative:** +1
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +3
+Senses: Darkvision 60 ft.
+Subtype: Native
+Experience points: 200
+:::
 
-**Alignment:** Lawful neutral
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 11
+Touch: 11
+Flat-footed: 10
+AC modifiers: +1 Dex
+Hit points: 12 (1d8+4)
+Fort: +3
+Ref: +1
+Will: +1
+Defensive abilities: immune to undeath, resist level drain
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 30 ft.
+Melee: longsword +0 (1d8/19-20)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 1/day: suggestion (DC 16)
+:::
 
-**Subtype:** Native
+::: statblock
+title = "Spells Known"
+Caster level: 1
+Concentration: +4
+1st-level spells: 4/day: command (DC 14), cure light wounds, summon monster I
+Cantrips: At will: bleed (DC 13), create water, detect magic, ghost sound (DC 13), mage hand, stabilize
+Mystery: [heavens](ref/mystery/heavens)
+:::
 
-**Experience points:** 200
+### Statistics
 
-**Armor class:** 11
+::: statblock
+Ability scores: Str 10, Dex 12, Con 16, Int 13, Wis 8, Cha 17
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 11
+Feats: Martial weapon Proficiency (longsword)
+Skills: Diplomacy +7, Sense Motive +3, Spellcraft +5
+Languages: Celestial, Common
+Special qualities: immortal, oracle's curse ([haunted](ref/oraclecurse/haunted)), past-life knowledge, revelations (coat of many stars), shattered soul
+:::
 
-**Touch:** 11
+### Ecology
 
-**Flat-footed:** 10
-
-**AC modifiers:** +1 Dex
-
-**Hit points:** 12 (1d8+4)
-
-**Fort:** +3
-
-**Ref:** +1
-
-**Will:** +1
-
-**Defensive abilities:** immune to undeath, resist level drain
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** longsword +0 (1d8/19-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 1/day: suggestion (DC 16)
-
-**Spells Known**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- 4/day: command (DC 14), cure light wounds, summon monster I
-
-**Cantrips:**
-
-- At will: bleed (DC 13), create water, detect magic, ghost sound (DC 13), mage hand, stabilize
-
-**Mystery:** [heavens](ref/mystery/heavens)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 12, Con 16, Int 13, Wis 8, Cha 17
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11
-
-**Feats:** Martial weapon Proficiency (longsword)
-
-**Skills:** Diplomacy +7, Sense Motive +3, Spellcraft +5
-
-**Languages:** Celestial, Common
-
-**Special qualities:** immortal, oracle's curse ([haunted](ref/oraclecurse/haunted)), past-life
-knowledge, revelations (coat of many stars), shattered soul
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or retinue (1 plus 2d4 human commoners)
-
-**Treasure:** NPC gear (club, potion of cure moderate wounds)
+::: statblock
+Environment: any
+Organization: solitary or retinue (1 plus 2d4 human commoners)
+Treasure: NPC gear (club, potion of cure moderate wounds)
+:::
 
 ### Special Abilities
 

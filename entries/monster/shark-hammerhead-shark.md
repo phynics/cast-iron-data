@@ -30,73 +30,59 @@ abilities = ["21", "16", "17", "1", "16", "6"]
 _Beneath this sleek gray shark's unusually shaped head, a disproportionately small mouth flashes
 with razor-sharp teeth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+blindsense: 30
+Initiative: +7
+Keen Scent: present
+Size: large
+Alignment: Neutral
+Perception: +10
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +9
+Ref: +7
+Will: +4
+:::
 
-**Initiative:** +7
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +7 (1d8+7)
+Reach: 5
+Space: 10
+:::
 
-**Size:** large
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 21, Dex 16, Con 17, Int 1, Wis 16, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Great Fortitude, Improved Initiative
+Skills: Perception +10, Swim +13
+:::
 
-**Perception:** +10
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +7 (1d8+7)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 17, Int 1, Wis 16, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Great Fortitude, Improved Initiative
-
-**Skills:** Perception +10, Swim +13
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, school (3-6), or pack (7-13)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, school (3-6), or pack (7-13)
+Treasure: None
+:::
 
 ### Description
 

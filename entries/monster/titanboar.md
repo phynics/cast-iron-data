@@ -29,75 +29,60 @@ abilities = ["25", "10", "21", "2", "13", "10"]
 _Muscles like iron bands ripple beneath the flesh of this enormous pig. A second set of tusks curls
 up from its jaw, guarding its eyes._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Initiative: +4
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 18
+Touch: 9
+Flat-footed: 18
+AC modifiers: +9 natural, -1 size
+Hit points: 94 (9d8+54)
+Fort: +11
+Ref: +6
+Will: +6
+Ferocity: present
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Blood Rage: present
+Melee: gore +12 (2d6+10)
+Pow Ch: gore +14, 4d6+20
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 25, Dex 10, Con 21, Int 2, Wis 13, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +14 (+16 overrun)
+Combat maneuver defense: 24 (30 vs. overrun, 28 vs. trip)
+Feats: Improved Initiative, Improved Overrun, Iron Will, Power Attack, Toughness
+Skills: Perception +13
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 9
-
-**Flat-footed:** 18
-
-**AC modifiers:** +9 natural, -1 size
-
-**Hit points:** 94 (9d8+54)
-
-**Fort:** +11
-
-**Ref:** +6
-
-**Will:** +6
-
-**Ferocity:** present
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Blood Rage:** present
-
-**Melee:** gore +12 (2d6+10)
-
-**Pow Ch:** gore +14, 4d6+20
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 10, Con 21, Int 2, Wis 13, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14 (+16 overrun)
-
-**Combat maneuver defense:** 24 (30 vs. overrun, 28 vs. trip)
-
-**Feats:** Improved Initiative, Improved Overrun, Iron Will, Power Attack, Toughness
-
-**Skills:** Perception +13
-
-**Ecology**
-
-**Environment:** temperate hills or forests
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate hills or forests
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

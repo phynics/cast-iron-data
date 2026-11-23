@@ -30,82 +30,63 @@ abilities = ["17", "20", "20", "11", "16", "11"]
 
 _This grim band of hobgoblin hunters is equipped with sturdy armor and well-used weapons._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: humanoid
+Initiative: +9
+Alignment: Lawful evil
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid, Troop
+Experience points: 38,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 28
+Touch: 15
+Flat-footed: 23
+AC modifiers: +5 armor, +5 Dex, +8 natural
+Hit points: 199 (19d8+114)
+Fort: +16
+Ref: +13
+Will: +11
+Defensive abilities: stalwart, troop traits
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Distraction: 24
+Melee: troop (4d6+3 plus distraction)
+Reach: 5
+Space: 20
+Spec Att: arcane hunter, magic weapons, volley
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 20, Con 20, Int 11, Wis 16, Cha 11
+Base attack bonus: +14
+Combat maneuver bonus: +17
+Combat maneuver defense: 32
+Feats: Combat Reflexes, Diehard, Disruptive, Endurance, Improved Initiative, Iron Will, Lightning Reflexes, Spellbreaker, Step Up, Toughness
+Skills: Knowledge (arcana) +10, Perception +12, Spellcraft +19, Stealth +9
+Racial Modifiers: +4 Stealth
+Languages: Common, Goblin
+:::
 
-**Subtype:** Goblinoid, Troop
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 armor, +5 Dex, +8 natural
-
-**Hit points:** 199 (19d8+114)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +11
-
-**Defensive abilities:** stalwart, troop traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Distraction:** 24
-
-**Melee:** troop (4d6+3 plus distraction)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** arcane hunter, magic weapons, volley
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 20, Con 20, Int 11, Wis 16, Cha 11
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 32
-
-**Feats:** Combat Reflexes, Diehard, Disruptive, Endurance, Improved Initiative, Iron Will,
-Lightning Reflexes, Spellbreaker, Step Up, Toughness
-
-**Skills:** Knowledge (arcana) +10, Perception +12, Spellcraft +19, Stealth +9
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Goblin
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or division (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or division (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

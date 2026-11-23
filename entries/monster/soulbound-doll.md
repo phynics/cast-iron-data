@@ -32,79 +32,62 @@ abilities = ["7", "14", "-", "11", "10", "9"]
 
 _This doll's glass eyes glisten with unmistakable curiosity as it comes to life with a fluid grace._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: N (but see below)
+Type: construct
+Initiative: +6
+Perception: +3
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 600
+:::
 
-**Alignment:** N (but see below)
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 15
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 Dex, +1 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +1
+Ref: +3
+Will: +1
+Dr: 2/magic
+Immune: [construct traits](ref/umr/construct-traits)
+Weaknesses: susceptible to mind-affecting effects
+:::
 
-**Initiative:** +6
+### Offense
 
-**Perception:** +3
+::: statblock
+Speed: 20 ft.
+Melee: dagger +3 (1d2-2/19-20)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 7, Dex 14, Con -, Int 11, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 11
+Feats: Improved Initiative, Toughness
+Skills: Perception +3, Stealth +13
+Languages: Common
+Special qualities: alignment variation, soul focus
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +1 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1
-
-**Dr:** 2/magic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Weaknesses:** susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** dagger +3 (1d2-2/19-20)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 14, Con -, Int 11, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 11
-
-**Feats:** Improved Initiative, Toughness
-
-**Skills:** Perception +3, Stealth +13
-
-**Languages:** Common
-
-**Special qualities:** alignment variation, soul focus
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or family (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or family (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

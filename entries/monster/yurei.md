@@ -30,99 +30,72 @@ abilities = ["10", "25", "-", "14", "21", "23"]
 _Long black hair obscures the face of this pale woman. With each motion, her body twitches and
 jerks._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Initiative: +11
+Size: medium
+Alignment: Neutral evil
+Perception: +23
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 19,200
+:::
 
-**Initiative:** +11
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 27
+Touch: 22
+Flat-footed: 15
+AC modifiers: +7 Dex, +5 dodge, +5 natural
+Hit points: 157 (15d8+90)
+Fort: +11
+Ref: +14
+Will: +16
+Chan Res: +2
+Defensive abilities: flicker
+Evasion: present
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 23
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +23
+::: statblock
+Speed: 40 ft.
+Melee: painful grasp +11 touch (12d6 plus sickened)
+Spec Att: choking suffocation, face of death
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +16
+Constant: blink, spider climb, water walk
+At will: enter image
+Per day: 3/day: suffocation (DC 21)\
+1/day: mislead (DC 22), nightmare (DC 21)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 10, Dex 25, Con -, Int 14, Wis 21, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +11
+Combat maneuver defense: 33
+Feats: Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Step Up
+Skills: Acrobatics +22, Climb +18, Intimidate +24, Perception +23, Sense Motive +23, Stealth +25
+Languages: Common
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 22
-
-**Flat-footed:** 15
-
-**AC modifiers:** +7 Dex, +5 dodge, +5 natural
-
-**Hit points:** 157 (15d8+90)
-
-**Fort:** +11
-
-**Ref:** +14
-
-**Will:** +16
-
-**Chan Res:** +2
-
-**Defensive abilities:** flicker
-
-**Evasion:** present
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 23
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** painful grasp +11 touch (12d6 plus sickened)
-
-**Spec Att:** choking suffocation, face of death
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**Constant:**
-
-- blink, spider climb, water walk
-
-**At will:**
-
-- enter image
-
-**Per day:**
-
-- 3/day: suffocation (DC 21)
-- 1/day: mislead (DC 22), nightmare (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 25, Con -, Int 14, Wis 21, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 33
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Iron Will, Lightning Reflexes, Mobility,
-Spring Attack, Step Up
-
-**Skills:** Acrobatics +22, Climb +18, Intimidate +24, Perception +23, Sense Motive +23, Stealth +25
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or haunting (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or haunting (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

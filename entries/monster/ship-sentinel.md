@@ -30,79 +30,64 @@ abilities = ["19", "21", "-", "-", "23", "16"]
 _A larger-than-life wooden carving of a mermaid holding a spear clambers forward, the vibrant paint
 coating her frame encrusted in years' worth of sea salt._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: construct
+Initiative: +9
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Darkvision 60 ft., Low-light vision, Ship sight
+Experience points: 3,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 15
+AC modifiers: +5 Dex, +6 natural, -1 size
+Hit points: 68 (7d10+30)
+Fort: +2
+Ref: +7
+Will: +8
+Dr: 5/slashing or piercing
+Immune: [construct traits](ref/umr/construct-traits)
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk spear +11/+6 (2d6+6 plus salted wound/×3) or 2 slams +10 (1d6+4 plus salted wound)
+Ranged: mwk spear +12 (2d6+4 plus salted wound/×3)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Ship sight
-
-**Experience points:** 3,200
-
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +5 Dex, +6 natural, -1 size
-
-**Hit points:** 68 (7d10+30)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +8
-
-**Dr:** 5/slashing or piercing
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk spear +11/+6 (2d6+6 plus salted wound/×3) or 2 slams +10 (1d6+4 plus salted wound)
-
-**Ranged:** mwk spear +12 (2d6+4 plus salted wound/×3)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 21, Con -, Int -, Wis 23, Cha 16
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Improved Initiative^B^
+::: statblock
+Ability scores: Str 19, Dex 21, Con -, Int -, Wis 23, Cha 16
+Base attack bonus: +7
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Improved Initiative^B^
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

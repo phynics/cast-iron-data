@@ -32,83 +32,64 @@ abilities = ["37", "16", "-", "-", "10", "7"]
 
 _This humanoid-shaped colossus is a towering fury of burning wicker and wood._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Size: colossal
+Type: construct
+Initiative: +3
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Fire
+Experience points: 25,600
+:::
 
-**Size:** colossal
+### Defense
 
-**Type:** construct
+::: statblock
+Armor class: 20
+Touch: 5
+Flat-footed: 17
+AC modifiers: +3 Dex, +15 natural, -8 size
+Hit points: 157 (14d10+80)
+Fort: +4
+Ref: +7
+Will: +4
+Defensive abilities: fire healing, [hardness](ref/umr/hardness) 5
+Fh: 1
+Immune: [construct traits](ref/umr/construct-traits), fire
+Vulner: cold
+:::
 
-**Initiative:** +3
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Burn: 1d6 fire, DC 17
+Melee: 2 slams +19 (2d8+13 plus burn and [grab](ref/umr/grab))
+Ranged: burning brand +9 (4d6+13 plus burn)
+Reach: 30
+Space: 30
+Spec Att: wicker cage
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 37, Dex 16, Con -, Int -, Wis 10, Cha 7
+Base attack bonus: +14
+Combat maneuver bonus: +35 (+39 grapple)
+Combat maneuver defense: 48
+Special qualities: constant blaze
+:::
 
-**Subtype:** Fire
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 20
-
-**Touch:** 5
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +15 natural, -8 size
-
-**Hit points:** 157 (14d10+80)
-
-**Fort:** +4
-
-**Ref:** +7
-
-**Will:** +4
-
-**Defensive abilities:** fire healing, [hardness](ref/umr/hardness) 5
-
-**Fh:** 1
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Burn:** 1d6 fire, DC 17
-
-**Melee:** 2 slams +19 (2d8+13 plus burn and [grab](ref/umr/grab))
-
-**Ranged:** burning brand +9 (4d6+13 plus burn)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** wicker cage
-
-**Statistics**
-
-**Ability scores:** Str 37, Dex 16, Con -, Int -, Wis 10, Cha 7
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +35 (+39 grapple)
-
-**Combat maneuver defense:** 48
-
-**Special qualities:** constant blaze
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

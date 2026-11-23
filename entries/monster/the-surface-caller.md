@@ -33,121 +33,78 @@ abilities = ["10", "16", "14", "8", "10", "16"]
 _This blue-skinned elf has milk-white eyes, a glowing punching dagger, and a shield embossed with a
 demonic face._
 
-**Challenge rating:** 7
-
 **Female drow [sorcerer](ref/class/sorcerer) 4/[swashbuckler](ref/class/swashbuckler) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +9
+Size: medium
+Perception: +7
+Senses: Darkvision 120 ft.
+Subtype: Elf
+Experience points: 3,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +5 armor, +3 Dex, +1 dodge, +1 shield
+Hit points: 58 (4d6+4d10+20\~8)
+Fort: +5
+Ref: +9
+Will: +6; +2 vs. charm, cold, enchantments, fear, fire, and sleep
+Defensive abilities: charmed life 3/day, nimble +1
+Immune: sleep
+Sr: 14
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Melee: +1 punching dagger +11/+6 (1d4+3/×3) or dagger +9/+4 (1d4/19-20)
+Ranged: dagger +9/+4 (1d4/19-20)
+Spec Att: deeds ([derring-do](ref/swashdeed/derring-do), [dodging panache](ref/swashdeed/dodging-panache), [kip-up](ref/swashdeed/kip-up), [menacing swordplay](ref/swashdeed/menacing-swordplay), [opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte), [precise strike](ref/swashdeed/precise-strike), [swashbuckler initiative](ref/swashdeed/swashbuckler-initiative)), panache (5)
+:::
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Per day: 1/day: dancing lights, darkness, faerie fire
+:::
 
-**Subtype:** Elf
+::: statblock
+title = "Spells Known"
+Caster level: 4
+Concentration: +7, spell failure chance 25%
+2nd-level spells: 4/day: alter self
+1st-level spells: 7/day: grease, ray of enfeeblement (DC 14), true strike, vanish (DC 14)
+Cantrips: At will: acid splash, arcane mark, daze (DC 13), message, open/close (DC 13), read magic
+Bloodline: [Accursed](ref/sorcbloodline/accursed)
+:::
 
-**Experience points:** 3,200
+### Statistics
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 armor, +3 Dex, +1 dodge, +1 shield
-
-**Hit points:** 58 (4d6+4d10+20\~8)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +6; +2 vs. charm, cold, enchantments, fear, fire, and sleep
-
-**Defensive abilities:** charmed life 3/day, nimble +1
-
-**Immune:** sleep
-
-**Sr:** 14
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** +1 punching dagger +11/+6 (1d4+3/×3) or dagger +9/+4 (1d4/19-20)
-
-**Ranged:** dagger +9/+4 (1d4/19-20)
-
-**Spec Att:** deeds ([derring-do](ref/swashdeed/derring-do),
-[dodging panache](ref/swashdeed/dodging-panache), [kip-up](ref/swashdeed/kip-up),
-[menacing swordplay](ref/swashdeed/menacing-swordplay),
-[opportune parry and riposte](ref/swashdeed/opportune-parry-and-riposte),
-[precise strike](ref/swashdeed/precise-strike),
-[swashbuckler initiative](ref/swashdeed/swashbuckler-initiative)), panache (5)
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Per day:**
-
-- 1/day: dancing lights, darkness, faerie fire
-
-**Spells Known**
-
-**Caster level:** 4
-
-**Concentration:** +7, spell failure chance 25%
-
-**2nd-level spells:**
-
-- 4/day: alter self
-
-**1st-level spells:**
-
-- 7/day: grease, ray of enfeeblement (DC 14), true strike, vanish (DC 14)
-
-**Cantrips:**
-
-- At will: acid splash, arcane mark, daze (DC 13), message, open/close (DC 13), read magic
-
-**Bloodline:** [Accursed](ref/sorcbloodline/accursed)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 14, Int 8, Wis 10, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 20
-
-**Feats:** Eschew Materials, Extra Panache, Improved Initiative, Weapon Focus (punching dagger),
-Weapon Specialization (punching dagger)
-
-**Skills:** Acrobatics +9, Climb +6, Disguise +4, Escape Artist +7, Intimidate +7, Perception +7
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Elven, Undercommon
-
-**Special qualities:** dare (out for blood), horrific visage, [poison use](ref/ability/poison-use),
-swashbuckler finesse, wretched endurance
-
-**Combat gear:** 2 potion of cure moderate wounds, scroll of fly, Danimate rope/50 charges, 5 potion
-of Xdrow
-
-**Other gear:** +1 MM chain shirt, mwk buckler, +1 -punching dagger, 6 daggers, Iclk1, 13 pp
+::: statblock
+Ability scores: Str 10, Dex 16, Con 14, Int 8, Wis 10, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 20
+Feats: Eschew Materials, Extra Panache, Improved Initiative, Weapon Focus (punching dagger), Weapon Specialization (punching dagger)
+Skills: Acrobatics +9, Climb +6, Disguise +4, Escape Artist +7, Intimidate +7, Perception +7
+Racial Modifiers: +2 Perception
+Languages: Elven, Undercommon
+Special qualities: dare (out for blood), horrific visage, [poison use](ref/ability/poison-use), swashbuckler finesse, wretched endurance
+Combat gear: 2 potion of cure moderate wounds, scroll of fly, Danimate rope/50 charges, 5 potion of Xdrow
+Other gear: +1 MM chain shirt, mwk buckler, +1 -punching dagger, 6 daggers, Iclk1, 13 pp
+:::
 
 ### Description
 

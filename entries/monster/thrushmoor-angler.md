@@ -32,80 +32,62 @@ abilities = ["21", "13", "20", "12", "14", "17"]
 _Razor-sharp teeth line the huge mouth of this bloated, slimecovered amphibian. A glittering,
 luminescent organ suspended by a fleshy tether hangs like a lantern above its head._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic neutral
+Initiative: +1
+Type: Magical beast
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 22
+Touch: 11
+Flat-footed: 21
+AC modifiers: +1 Dex, +11 natural
+Hit points: 105 (10d10+50)
+Fort: +12
+Ref: +8
+Will: +7
+Fh: 5
+Resist: acid 10, cold 10
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +16 (1d8+5/19-20 plus [grab](ref/umr/grab)), 2 claws +15 (1d4+5)
+Spec Att: tantalizing lure
+Swallow: 2d6 acid plus 1d6 slashing damage, AC 15, 10 hp
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 21, Dex 13, Con 20, Int 12, Wis 14, Cha 17
+Base attack bonus: +10
+Combat maneuver bonus: +15
+Combat maneuver defense: 26 (34 vs. trip)
+Feats: Ability Focus (projected victim), Ability Focus (tantalizing lure), Improved Critical (bite), Iron Will, Weapon Focus (bite)
+Skills: Acrobatics +4, Perception +15, Stealth +14, Swim +26
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious), projected victim
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 22
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +1 Dex, +11 natural
-
-**Hit points:** 105 (10d10+50)
-
-**Fort:** +12
-
-**Ref:** +8
-
-**Will:** +7
-
-**Fh:** 5
-
-**Resist:** acid 10, cold 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +16 (1d8+5/19-20 plus [grab](ref/umr/grab)), 2 claws +15 (1d4+5)
-
-**Spec Att:** tantalizing lure
-
-**Swallow:** 2d6 acid plus 1d6 slashing damage, AC 15, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 13, Con 20, Int 12, Wis 14, Cha 17
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 26 (34 vs. trip)
-
-**Feats:** Ability Focus (projected victim), Ability Focus (tantalizing lure), Improved Critical
-(bite), Iron Will, Weapon Focus (bite)
-
-**Skills:** Acrobatics +4, Perception +15, Stealth +14, Swim +26
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious), projected victim
-
-**Ecology**
-
-**Environment:** temperate forests, swamps, and water
-
-**Organization:** solitary, pair, or cloister (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forests, swamps, and water
+Organization: solitary, pair, or cloister (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

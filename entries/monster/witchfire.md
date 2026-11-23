@@ -35,95 +35,70 @@ abilities = ["-", "22", "-", "17", "16", "25"]
 _Bathed in sickly green flames, this insubstantial specter of a beautiful young woman floats just
 off the ground._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Alignment: Chaotic evil
+Initiative: +10
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 24
+Touch: 24
+Flat-footed: 17
+AC modifiers: +7 deflection, +6 Dex, +1 dodge
+Hit points: 115 (10d8+70)
+Fort: +10
+Ref: +11
+Will: +10
+Defensive abilities: witchflame
+Immune: fire, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: fly 50 ft. (perfect)
+Melee: incorporeal touch +13 (8d6 fire plus witchflame)
+Ranged: witchflame bolt +13 (8d6 fire plus witchflame)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +16
+At will: dancing lights, disguise self, ghost sound (DC 17), invisibility, pyrotechnics (DC 19), ray of enfeeblement (DC 18)
+Per day: 1/day: summon (level 4, 2 will-o'-wisps 50%)
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 22, Con -, Int 17, Wis 16, Cha 25
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
+Skills: Bluff +17, Fly +14, Intimidate +20, Knowledge (any two) +13, Perception +16, Sense Motive +16, Stealth +19
+Languages: Auran, Common, Giant
+Special qualities: sound mimicry (animal noises)
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 24
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 deflection, +6 Dex, +1 dodge
-
-**Hit points:** 115 (10d8+70)
-
-**Fort:** +10
-
-**Ref:** +11
-
-**Will:** +10
-
-**Defensive abilities:** witchflame
-
-**Immune:** fire, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 50 ft. (perfect)
-
-**Melee:** incorporeal touch +13 (8d6 fire plus witchflame)
-
-**Ranged:** witchflame bolt +13 (8d6 fire plus witchflame)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +16
-
-**At will:**
-
-- dancing lights, disguise self, ghost sound (DC 17), invisibility, pyrotechnics (DC 19), ray of
-  enfeeblement (DC 18)
-
-**Per day:**
-
-- 1/day: summon (level 4, 2 will-o'-wisps 50%)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 22, Con -, Int 17, Wis 16, Cha 25
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Lightning Reflexes, Mobility
-
-**Skills:** Bluff +17, Fly +14, Intimidate +20, Knowledge (any two) +13, Perception +16, Sense
-Motive +16, Stealth +19
-
-**Languages:** Auran, Common, Giant
-
-**Special qualities:** sound mimicry (animal noises)
-
-**Ecology**
-
-**Environment:** any swamps or woodlands
-
-**Organization:** solitary or coven (3 witchfires and hags-see below)
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamps or woodlands
+Organization: solitary or coven (3 witchfires and hags-see below)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

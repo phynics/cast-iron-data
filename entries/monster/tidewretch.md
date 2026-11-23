@@ -30,92 +30,70 @@ abilities = ["16", "14", "-", "7", "13", "18"]
 _This ancient, empty-eyed woman appears to have flesh made from damp, rotting wood, and sparse
 clumps of seaweed serve as her hair._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +2 Dex, +1 dodge, +6 natural
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +5
+Will: +9
+Chan Res: +4
+Dr: 10/slashing
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: driftwood-dependent
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: 2 claws +10 (1d6+3 plus parasites)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: entangle (DC 16), tree shape, dead tree only, wood shape (DC 16)
+Per day: 3/day: aqueous orb (DC 17), crushing despair (DC 17), enervation\
+1/day: blight (DC 18)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 16, Dex 14, Con -, Int 7, Wis 13, Cha 18
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Alertness, Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
+Skills: Diplomacy +7, Handle Animal +7, Sense Motive +3, Swim +14
+Languages: Common, Sylvan
+Special qualities: vermin empathy
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +9
-
-**Chan Res:** +4
-
-**Dr:** 10/slashing
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** driftwood-dependent
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** 2 claws +10 (1d6+3 plus parasites)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- entangle (DC 16), tree shape, dead tree only, wood shape (DC 16)
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 17), crushing despair (DC 17), enervation
-- 1/day: blight (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con -, Int 7, Wis 13, Cha 18
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Alertness, Dodge, Improved Initiative, Iron Will, Weapon Focus (claw)
-
-**Skills:** Diplomacy +7, Handle Animal +7, Sense Motive +3, Swim +14
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** vermin empathy
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary, pair, or tangle (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastlines
+Organization: solitary, pair, or tangle (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -32,94 +32,69 @@ abilities = ["14", "17", "18", "13", "14", "19"]
 _Short and pudgy, this raccoon-like humanoid wields a stout quarterstaff and weaves a little as if
 intoxicated._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Initiative: +3
+Size: medium
+Type: Monstrous humanoid
+Perception: +8
+Senses: Darkvision 60 ft., Detect poison, Low-light vision
+Subtype: Shapechanger
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 shield
+Hit points: 47 (5d10+20)
+Fort: +5
+Ref: +7
+Will: +6
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft.
+Melee: mwk quarterstaff +7 (1d6+2), mwk quarterstaff +7 (1d6+1), slam +2 (1d6+1)
+Ranged: sling +8 (1d4+2)
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +11
+Constant: detect poison
+At will: purify food and drink
+Per day: 3/day: magic stone, major creation, up to 1 cubic foot\
+1/day: create food and water, shrink item, veil, self only
+:::
 
-**Senses:** Darkvision 60 ft., Detect poison, Low-light vision
+### Statistics
 
-**Subtype:** Shapechanger
+::: statblock
+Ability scores: Str 14, Dex 17, Con 18, Int 13, Wis 14, Cha 19
+Base attack bonus: +5
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (quarterstaff)
+Skills: Bluff +7, Diplomacy +6, Perform (percussion) +8, Sense Motive +4, Spellcraft +4, Stealth +10
+Languages: Common, Tanuki
+Special qualities: [change shape](ref/umr/change-shape) (raccoon; [beast shape II](ref/spell/beast-shape-2)), sake affinity
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 shield
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +6
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk quarterstaff +7 (1d6+2), mwk quarterstaff +7 (1d6+1), slam +2 (1d6+1)
-
-**Ranged:** sling +8 (1d4+2)
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +11
-
-**Constant:**
-
-- detect poison
-
-**At will:**
-
-- purify food and drink
-
-**Per day:**
-
-- 3/day: magic stone, major creation, up to 1 cubic foot
-- 1/day: create food and water, shrink item, veil, self only
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 18, Int 13, Wis 14, Cha 19
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Two-Weapon Defense, Two-Weapon Fighting, Weapon Focus (quarterstaff)
-
-**Skills:** Bluff +7, Diplomacy +6, Perform (percussion) +8, Sense Motive +4, Spellcraft +4, Stealth
-+10
-
-**Languages:** Common, Tanuki
-
-**Special qualities:** [change shape](ref/umr/change-shape) (raccoon;
-[beast shape II](ref/spell/beast-shape-2)), sake affinity
-
-**Ecology**
-
-**Environment:** temperate forests or urban
-
-**Organization:** solitary, pair, or gathering (3-8)
-
-**Treasure:** Standard (mwk quarterstaff); 4 gulps of sake in a gourd, other treasure
+::: statblock
+Environment: temperate forests or urban
+Organization: solitary, pair, or gathering (3-8)
+Treasure: Standard (mwk quarterstaff); 4 gulps of sake in a gourd, other treasure
+:::
 
 ### Special Abilities
 

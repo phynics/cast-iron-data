@@ -30,87 +30,65 @@ abilities = ["30", "21", "26", "13", "10", "15"]
 
 _These hobgoblin knights ride atop brutish stinking yaks that paw the ground angrily._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: [stench](ref/umr/stench) (DC 30, 10 rounds)
+Type: humanoid
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid, Troop
+Experience points: 153,600
+:::
 
-**aura:** [stench](ref/umr/stench) (DC 30, 10 rounds)
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 32
+Touch: 11
+Flat-footed: 31
+AC modifiers: +10 armor, +1 Dex, +8 natural, +3 shield
+Hit points: 300 (24d8+192)
+Fort: +22
+Ref: +15
+Will: +10
+Defensive abilities: troop traits
+Immune: fear
+:::
 
-**Initiative:** +5
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 40 ft.
+Bleed: 2d6
+Melee: troop (5d6+10 plus bleed)
+Reach: 10
+Space: 20
+Spec Att: magic weapons, mounted terror, mounted troop, volley
+:::
 
-**Size:** medium
+### Statistics
 
-**Perception:** +16
+::: statblock
+Ability scores: Str 30, Dex 21, Con 26, Int 13, Wis 10, Cha 15
+Base attack bonus: +18
+Combat maneuver bonus: +28 (+30 bull rush, +32 overrun)
+Combat maneuver defense: 43 (45 vs. bull rush or overrun, 47 vs. trip)
+Feats: Animal Affinity, Charge Through, Combat Reflexes, Endurance, Greater Overrun, Improved Bull Rush, Improved Overrun, Intimidating Prowess, Iron Will, Lightning Reflexes, Mounted Combat, Power Attack
+Skills: Handle Animal +15, Ride +30, Stealth +3
+Racial Modifiers: +4 Stealth
+Languages: Common, Giant, Goblin
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Goblinoid, Troop
-
-**Experience points:** 153,600
-
-**Armor class:** 32
-
-**Touch:** 11
-
-**Flat-footed:** 31
-
-**AC modifiers:** +10 armor, +1 Dex, +8 natural, +3 shield
-
-**Hit points:** 300 (24d8+192)
-
-**Fort:** +22
-
-**Ref:** +15
-
-**Will:** +10
-
-**Defensive abilities:** troop traits
-
-**Immune:** fear
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Bleed:** 2d6
-
-**Melee:** troop (5d6+10 plus bleed)
-
-**Reach:** 10
-
-**Space:** 20
-
-**Spec Att:** magic weapons, mounted terror, mounted troop, volley
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 21, Con 26, Int 13, Wis 10, Cha 15
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +28 (+30 bull rush, +32 overrun)
-
-**Combat maneuver defense:** 43 (45 vs. bull rush or overrun, 47 vs. trip)
-
-**Feats:** Animal Affinity, Charge Through, Combat Reflexes, Endurance, Greater Overrun, Improved
-Bull Rush, Improved Overrun, Intimidating Prowess, Iron Will, Lightning Reflexes, Mounted Combat,
-Power Attack
-
-**Skills:** Handle Animal +15, Ride +30, Stealth +3
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Giant, Goblin
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or division (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or division (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

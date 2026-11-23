@@ -30,85 +30,65 @@ abilities = ["21", "15", "-", "6", "12", "14"]
 _This feral, black-furred creature combines the features of a wolf and those of a horse, with a
 fanged muzzle and glowing red eyes._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+aura: [unnatural aura](ref/umr/unnatural-aura)
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Scent
+Type: undead
+Experience points: 800
+:::
 
-**aura:** [unnatural aura](ref/umr/unnatural-aura)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 26 (4d8+8)
+Fort: +3
+Ref: +3
+Will: +5
+Dr: 5/silver
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 5, electricity 5
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft.
+B Drain: 1d2 Constitution
+Melee: bite +7 (1d8+7 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: terrifying gaze
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 21, Dex 15, Con -, Int 6, Wis 12, Cha 14
+Base attack bonus: +3
+Combat maneuver bonus: +9 (+13 grapple)
+Combat maneuver defense: 21 (25 vs. trip)
+Feats: Improved Initiative, Run
+Skills: Intimidate +8, Perception +10, Stealth +8
+Racial Modifiers: +4 Perception, +4 Stealth
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +5
-
-**Dr:** 5/silver
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 5, electricity 5
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +7 (1d8+7 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** terrifying gaze
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con -, Int 6, Wis 12, Cha 14
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9 (+13 grapple)
-
-**Combat maneuver defense:** 21 (25 vs. trip)
-
-**Feats:** Improved Initiative, Run
-
-**Skills:** Intimidate +8, Perception +10, Stealth +8
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or pack (3-11)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land
+Organization: solitary, pair, or pack (3-11)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

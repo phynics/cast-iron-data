@@ -30,69 +30,57 @@ abilities = ["17", "15", "16", "-", "11", "8"]
 _Coiling around several human skeletons, this wet green plant's sickly flowers smoke with a nasty
 yellow vapor._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +0
+Type: plant
+tremorsense: 30
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +3
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 5 ft.
+Melee: tendril +5 (1d4+4)
+Reach: 10
+Space: 5
+Spec Att: create yellow musk zombie, pollen spray
+:::
 
-**Type:** plant
+### Statistics
 
-**tremorsense:** 30
+::: statblock
+Ability scores: Str 17, Dex 15, Con 16, Int -, Wis 11, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 17 (can't be tripped)
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 5 ft.
-
-**Melee:** tendril +5 (1d4+4)
-
-**Reach:** 10
-
-**Space:** 5
-
-**Spec Att:** create yellow musk zombie, pollen spray
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 16, Int -, Wis 11, Cha 8
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Ecology**
-
-**Environment:** temperate or warm forests and underground
-
-**Organization:** patch (creeper plus 1-6 yellow musk [zombies](ref/template/zombie))
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests and underground
+Organization: patch (creeper plus 1-6 yellow musk [zombies](ref/template/zombie))
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

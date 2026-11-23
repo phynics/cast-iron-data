@@ -29,91 +29,69 @@ abilities = ["13", "14", "-", "11", "14", "15"]
 _This withered old corpse has a feral glint in her eyes and clasps a rusty axe in her yellow-nailed
 hands._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +2
+Size: medium
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 dodge, +2 natural
+Hit points: 37 (5d8+15)
+Fort: +3
+Ref: +3
+Will: +6
+Chan Res: +4
+Dr: 5/piercing
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +4 (1d8+1/×3), claw -1 (1d4) or 2 claws +4 (1d4+1)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +6
+At will: darkness
+Per day: 3/day: ghoul touch, scare (DC 14)\
+1/day: animate dead, ray of exhaustion, summon (level 3, 1d3 bat or bird swarms \[use the same stats\], 1d2 constrictor snakes, 1d3 venomous snakes, or 1d4 wolves)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 13, Dex 14, Con -, Int 11, Wis 14, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Ability Focus (corpse call), Dodge, Toughness
+Skills: Bluff +7, Knowledge (arcana) +8, Perception +10, Stealth +14
+Racial Modifiers: +4 Stealth
+Languages: Common (can't speak)
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 dodge, +2 natural
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +6
-
-**Chan Res:** +4
-
-**Dr:** 5/piercing
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** battleaxe +4 (1d8+1/×3), claw -1 (1d4) or 2 claws +4 (1d4+1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +6
-
-**At will:**
-
-- darkness
-
-**Per day:**
-
-- 3/day: ghoul touch, scare (DC 14)
-- 1/day: animate dead, ray of exhaustion, summon (level 3, 1d3 bat or bird swarms \[use the same
-  stats\], 1d2 constrictor snakes, 1d3 venomous snakes, or 1d4 wolves)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 14, Con -, Int 11, Wis 14, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Ability Focus (corpse call), Dodge, Toughness
-
-**Skills:** Bluff +7, Knowledge (arcana) +8, Perception +10, Stealth +14
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Standard (battleaxe)
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Standard (battleaxe)
+:::
 
 ### Special Abilities
 

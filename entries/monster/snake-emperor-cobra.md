@@ -28,71 +28,58 @@ abilities = ["22", "15", "18", "1", "17", "2"]
 _This massive green cobra rears its head upward aggressively, its brightly colored, scaly hood
 flaring in an unmistakable warning._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision, Scent
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 16
+AC modifiers: +2 Dex, +7 natural, -1 size
+Hit points: 51 (6d8+24)
+Fort: +9
+Ref: +7
+Will: +5
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 30 ft., swim 30 ft.
+Melee: bite +10 (2d6+9 plus poison)
+Reach: 10
+Space: 10
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 1, Wis 17, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +11
+Combat maneuver defense: 23 (can't be tripped)
+Feats: Improved Initiative, Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Acrobatics +10, Climb +14
+Racial Modifiers: +8 Acrobatics, +4 Perception, +4 Stealth
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +7 natural, -1 size
-
-**Hit points:** 51 (6d8+24)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft., swim 30 ft.
-
-**Melee:** bite +10 (2d6+9 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 1, Wis 17, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Acrobatics +10, Climb +14
-
-**Racial Modifiers:** +8 Acrobatics, +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate or warm swamps
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm swamps
+Organization: solitary, pair, or nest (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

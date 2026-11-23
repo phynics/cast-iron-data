@@ -29,71 +29,58 @@ abilities = ["18", "14", "17", "2", "11", "3"]
 _This shaggy, multi-legged creature has a flattened face with wide nostrils and four eyes. Ivory
 tusks jut downward from its mouth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 13
+AC modifiers: +2 Dex, +4 natural, -1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: gore +6 (1d8+6)
+Reach: 5
+Space: 10
+Trample: 1d6+6, DC 16
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 18, Dex 14, Con 17, Int 2, Wis 11, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+10 bull rush)
+Combat maneuver defense: 20 (22 vs. bull rush, 32 vs. trip)
+Feats: Endurance, Improved Bull Rush, Power Attack
+Skills: Climb +8, Perception +6
+:::
 
-**Experience points:** 800
+### Ecology {#stat-ecology}
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +4 natural, -1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** gore +6 (1d8+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 1d6+6, DC 16
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 14, Con 17, Int 2, Wis 11, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+10 bull rush)
-
-**Combat maneuver defense:** 20 (22 vs. bull rush, 32 vs. trip)
-
-**Feats:** Endurance, Improved Bull Rush, Power Attack
-
-**Skills:** Climb +8, Perception +6
-
-**Ecology**
-
-**Environment:** temperate hills
-
-**Organization:** solitary, pair, or cavalry (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate hills
+Organization: solitary, pair, or cavalry (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,79 +31,63 @@ abilities = ["12", "17", "12", "10", "15", "8"]
 
 _Black feathers cover this crow-headed humanoid, and its hands and legs end in powerful talons._
 
-**Challenge rating:** 1/2
-
 **Male tengu [rogue](ref/class/rogue) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision
+Subtype: Tengu
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 armor, +3 Dex
+Hit points: 9 (1d8+1)
+Fort: +1
+Ref: +5
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d4+1/19-20), bite -2 (1d3)
+Ranged: short bow +3 (1d6/×3)
+Sneak: +1d6
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Tengu\
-**Experience points:** 200
+::: statblock
+Ability scores: Str 12, Dex 17, Con 12, Int 10, Wis 15, Cha 8
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Weapon Finesse
+Skills: Acrobatics +7, Appraise +4, Bluff +3, Climb +5, Knowledge (local) +4, Linguistics +8, Perception +8, Stealth +9
+Racial Modifiers: +2 Perception, +2 Stealth, +4 Linguistics
+Languages: Common, Goblin, Halfling, Tengu
+Special qualities: gifted linguist, swordtrained, [trapfinding](ref/ability/trapfinding)
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 armor, +3 Dex
-
-**Hit points:** 9 (1d8+1)
-
-**Fort:** +1
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d4+1/19-20), bite -2 (1d3)
-
-**Ranged:** short bow +3 (1d6/×3)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 12, Int 10, Wis 15, Cha 8
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +7, Appraise +4, Bluff +3, Climb +5, Knowledge (local) +4, Linguistics +8,
-Perception +8, Stealth +9
-
-**Racial Modifiers:** +2 Perception, +2 Stealth, +4 Linguistics
-
-**Languages:** Common, Goblin, Halfling, Tengu
-
-**Special qualities:** gifted linguist, swordtrained, [trapfinding](ref/ability/trapfinding)
-
-**Ecology**
-
-**Environment:** temperate mountains or urban
-
-**Organization:** solitary, pair, or conspiracy (3-12)
-
-**Treasure:** NPC gear (leather armor, dagger, sb20); other treasure
+::: statblock
+Environment: temperate mountains or urban
+Organization: solitary, pair, or conspiracy (3-12)
+Treasure: NPC gear (leather armor, dagger, sb20); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,112 +32,75 @@ abilities = ["12", "14", "15", "19", "8", "8"]
 _This insectile biped has a tapir-like snout and is unmistakably alien in appearance, despite its
 vaguely humanoid shape._
 
-**Challenge rating:** 8
-
 **Yaddithian [wizard](ref/class/wizard) 9**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 8
+Type: aberration
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft.
+Experience points: 4,800
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 13
+AC modifiers: +1 deflection, +2 Dex, +2 natural
+Hit points: 61 (9d6+27)
+Fort: +5
+Ref: +5
+Will: +5
+Resist: cold 5
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft.
+Melee: +1 dagger +6 (1d4+2), claw +0 (1d4)
+Ranged: +1 dagger +7 (1d4+2)
+Spec Att: hand of the apprentice (7/day)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Prepared Spells"
+Caster level: 9
+Concentration: +13
+5th-level spells: feeblemind (DC 19)
+4th-level spells: detect scrying, dimension door, scrying (DC 18)
+3rd-level spells: displacement, fly, lightning bolt (DC 17), sleet storm
+2nd-level spells: alter self, blindness/deafness (3, DC 16), mirror image
+1st-level spells: mage armor, magic missile, 2, shield, ventriloquism (DC 15)
+Cantrips: arcane mark, daze (DC 14), detect magic, read magic
+:::
 
-**Experience points:** 4,800
+### Statistics
 
-**Armor class:** 15
+::: statblock
+Ability scores: Str 12, Dex 14, Con 15, Int 19, Wis 8, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 18
+Feats: Combat Casting, Craft Wondrous Item, Eschew Materials, Scribe Scroll, Silent Spell, Skill Focus (Perception), Spell Penetration
+Skills: Knowledge (arcana, dungeoneering, history, planes) +18, Perception +11, Spellcraft +18
+Racial Modifiers: +2 Knowledge (all), +2 Spellcraft
+Languages: Aklo, Elder Thing, Mi-Go, Yaddithian, Yithian
+Special qualities: arcane bond (amulet), arcane school (universalist), cosmic mind, long-lived, metamagic mastery (1/day), [no breath](ref/umr/no-breath)
+:::
 
-**Touch:** 13
+### Ecology
 
-**Flat-footed:** 13
-
-**AC modifiers:** +1 deflection, +2 Dex, +2 natural
-
-**Hit points:** 61 (9d6+27)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** +1 dagger +6 (1d4+2), claw +0 (1d4)
-
-**Ranged:** +1 dagger +7 (1d4+2)
-
-**Spec Att:** hand of the apprentice (7/day)
-
-**Prepared Spells**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**5th-level spells:**
-
-- feeblemind (DC 19)
-
-**4th-level spells:**
-
-- detect scrying, dimension door, scrying (DC 18)
-
-**3rd-level spells:**
-
-- displacement, fly, lightning bolt (DC 17), sleet storm
-
-**2nd-level spells:**
-
-- alter self, blindness/deafness (3, DC 16), mirror image
-
-**1st-level spells:**
-
-- mage armor, magic missile, 2, shield, ventriloquism (DC 15)
-
-**Cantrips:**
-
-- arcane mark, daze (DC 14), detect magic, read magic
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 14, Con 15, Int 19, Wis 8, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18
-
-**Feats:** Combat Casting, Craft Wondrous Item, Eschew Materials, Scribe Scroll, Silent Spell, Skill
-Focus (Perception), Spell Penetration
-
-**Skills:** Knowledge (arcana, dungeoneering, history, planes) +18, Perception +11, Spellcraft +18
-
-**Racial Modifiers:** +2 Knowledge (all), +2 Spellcraft
-
-**Languages:** Aklo, Elder Thing, Mi-Go, Yaddithian, Yithian
-
-**Special qualities:** arcane bond (amulet), arcane school (universalist), cosmic mind, long-lived,
-metamagic mastery (1/day), [no breath](ref/umr/no-breath)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or conclave (3-16)
-
-**Treasure:** NPC gear (+1 dagger, Iamu1, Ihh, ring of prot1, Dacid arrow/50 charges); other
-treasure
+::: statblock
+Environment: any
+Organization: solitary, pair, or conclave (3-16)
+Treasure: NPC gear (+1 dagger, Iamu1, Ihh, ring of prot1, Dacid arrow/50 charges); other treasure
+:::
 
 ### Special Abilities
 

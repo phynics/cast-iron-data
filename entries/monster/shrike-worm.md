@@ -30,101 +30,74 @@ abilities = ["28", "16", "20", "7", "19", "23"]
 _Iridescent spines cover the back of this enormous, long-legged worm. Writhing tentacles sprout from
 its throat, below a circular, toothy maw dripping with luminescent spittle._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+aura: impossible form (100 ft., DC 27)
+blindsight: 60
+Size: huge
+Initiative: +7
+Alignment: Neutral evil
+Perception: +29
+Senses: Darkvision 60 ft.
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** impossible form (100 ft., DC 27)
+::: statblock
+Armor class: 29
+Touch: 11
+Flat-footed: 26
+AC modifiers: +3 Dex, +18 natural, -2 size
+Hit points: 231 (22d8+132)
+Fort: +14
+Ref: +10
+Will: +17; +6 vs. illusion
+Defensive abilities: illusion sense
+Dr: 10/magic
+Sr: 26
+:::
 
-**blindsight:** 60
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +24 (1d8+9), 6 tentacles +22 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 15
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 15
+Spec Att: impale, phantasmal slime (DC 27, once every 1d4 rounds)
+:::
 
-**Initiative:** +7
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +21
+Constant: air walk
+Per day: 3/day: hallucinatory terrain (DC 20), persistent image (DC 21)\
+1/day: scintillating pattern (DC 24)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +29
+::: statblock
+Ability scores: Str 28, Dex 16, Con 20, Int 7, Wis 19, Cha 23
+Base attack bonus: +16
+Combat maneuver bonus: +27 (+31 grapple)
+Combat maneuver defense: 40 (can't be tripped)
+Feats: Combat Reflexes, Following Step, Great Fortitude, Improved Initiative, Lunge, Multiattack, Step Up, Step Up and Strike, Toughness, Weapon Focus (claw), Weapon Focus (tentacle)
+Skills: Perception +29
+Languages: Aklo (can't speak)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 29
-
-**Touch:** 11
-
-**Flat-footed:** 26
-
-**AC modifiers:** +3 Dex, +18 natural, -2 size
-
-**Hit points:** 231 (22d8+132)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +17; +6 vs. illusion
-
-**Defensive abilities:** illusion sense
-
-**Dr:** 10/magic
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +24 (1d8+9), 6 tentacles +22 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 15
-
-**Spec Att:** impale, phantasmal slime (DC 27, once every 1d4 rounds)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +21
-
-**Constant:**
-
-- air walk
-
-**Per day:**
-
-- 3/day: hallucinatory terrain (DC 20), persistent image (DC 21)
-- 1/day: scintillating pattern (DC 24)
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 16, Con 20, Int 7, Wis 19, Cha 23
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27 (+31 grapple)
-
-**Combat maneuver defense:** 40 (can't be tripped)
-
-**Feats:** Combat Reflexes, Following Step, Great Fortitude, Improved Initiative, Lunge,
-Multiattack, Step Up, Step Up and Strike, Toughness, Weapon Focus (claw), Weapon Focus (tentacle)
-
-**Skills:** Perception +29
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** any land or underground
-
-**Organization:** solitary, pair, or delusion (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any land or underground
+Organization: solitary, pair, or delusion (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

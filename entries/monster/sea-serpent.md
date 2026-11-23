@@ -30,84 +30,64 @@ abilities = ["34", "14", "25", "2", "11", "11"]
 _Spine-frilled neck arching up from the water like a snake ready to strike, this ship-sized serpent
 hisses a challenge._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: gargantuan
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 19,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 25
+Touch: 8
+Flat-footed: 23
+AC modifiers: +2 Dex, +17 natural, -4 size
+Hit points: 187 (15d10+105)
+Fort: +16
+Ref: +13
+Will: +7
+Defensive abilities: elusive
+Immune: cold
+Resist: fire 30
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 60 ft.
+Capsize: present
+Constrict: 3d6+18
+Melee: bite +23 (4d8+22/19-20 plus [grab](ref/umr/grab)), tail slap +18 (3d6+6 plus grab)
+Reach: 20
+Space: 20
+Swallow: 4d8+18 bludgeoning damage, AC 18, hp 18
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 14, Con 25, Int 2, Wis 11, Cha 11
+Base attack bonus: +15
+Combat maneuver bonus: +31 (+35 grapple)
+Combat maneuver defense: 43 (can't be tripped)
+Feats: Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Skill Focus (Stealth), Stealthy
+Skills: Perception +8, Stealth +13, Swim +20
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 19,200
-
-**Armor class:** 25
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +2 Dex, +17 natural, -4 size
-
-**Hit points:** 187 (15d10+105)
-
-**Fort:** +16
-
-**Ref:** +13
-
-**Will:** +7
-
-**Defensive abilities:** elusive
-
-**Immune:** cold
-
-**Resist:** fire 30
-
-**Offense**
-
-**Speed:** 20 ft., swim 60 ft.
-
-**Capsize:** present
-
-**Constrict:** 3d6+18
-
-**Melee:** bite +23 (4d8+22/19-20 plus [grab](ref/umr/grab)), tail slap +18 (3d6+6 plus grab)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 4d8+18 bludgeoning damage, AC 18, hp 18
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 14, Con 25, Int 2, Wis 11, Cha 11
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +31 (+35 grapple)
-
-**Combat maneuver defense:** 43 (can't be tripped)
-
-**Feats:** Improved Bull Rush, Improved Critical (bite), Improved Initiative, Iron Will, Lightning
-Reflexes, Power Attack, Skill Focus (Stealth), Stealthy
-
-**Skills:** Perception +8, Stealth +13, Swim +20
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

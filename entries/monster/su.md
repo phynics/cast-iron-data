@@ -31,97 +31,73 @@ abilities = ["19", "19", "16", "7", "14", "16"]
 _This emaciated quadruped has a mouth full of jagged teeth and a cluster of bald, mewling offspring
 clinging to its back._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +4
+Type: Magical beast
+Size: medium
+Perception: +10
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, Scent
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 15
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +6 natural
+Hit points: 114 (12d10+48)
+Fort: +11
+Ref: +12
+Will: +6
+Dr: 10/magic
+Immune: disease
+Improved evasion: present
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Bleed: 1d6
+Melee: bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus [grab](ref/umr/grab))
+Pounce: present
+Rake: 2 claws +16, 1d6+4
+Spec Att: prehensile tail, whelp magic
+:::
 
-**Perception:** +10
+::: statblock
+title = "Psychic Magic"
+Caster level: 12
+Concentration: +15
+Power points: 0
+Psychoactive powers: id insinuation II, 3 PE, DC 16, mind thrust III, 3 PE, DC 16, thought shield II, 3 PE
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 19, Dex 19, Con 16, Int 7, Wis 14, Cha 16
+Base attack bonus: +12
+Combat maneuver bonus: +16 (+20 grapple)
+Combat maneuver defense: 31 (35 vs. trip)
+Feats: Critical Focus, Dodge, Improved Critical (claw), Mobility, Nimble Moves, Toughness
+Skills: Acrobatics +14, Climb +12, Perception +10, Stealth +11 (+19 in forests)
+Racial Modifiers: +4 Acrobatics, +8 Stealth in forests
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: whelp family
+:::
 
-**Armor class:** 21
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +6 natural
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +11
-
-**Ref:** +12
-
-**Will:** +6
-
-**Dr:** 10/magic
-
-**Immune:** disease
-
-**Improved evasion:** present
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +16 (1d8+4 plus 1d6 bleed), 2 claws +16 (1d6+4/19-20 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Rake:** 2 claws +16, 1d6+4
-
-**Spec Att:** prehensile tail, whelp magic
-
-**Psychic Magic**
-
-**Caster level:** 12
-
-**Concentration:** +15
-
-**Power points:** 0
-
-**Psychoactive powers:**
-
-- id insinuation II, 3 PE, DC 16, mind thrust III, 3 PE, DC 16, thought shield II, 3 PE
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 19, Con 16, Int 7, Wis 14, Cha 16
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +16 (+20 grapple)
-
-**Combat maneuver defense:** 31 (35 vs. trip)
-
-**Feats:** Critical Focus, Dodge, Improved Critical (claw), Mobility, Nimble Moves, Toughness
-
-**Skills:** Acrobatics +14, Climb +12, Perception +10, Stealth +11 (+19 in forests)
-
-**Racial Modifiers:** +4 Acrobatics, +8 Stealth in forests
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** whelp family
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, or troop (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forests
+Organization: solitary, pair, or troop (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

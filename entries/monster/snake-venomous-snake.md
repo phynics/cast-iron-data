@@ -29,71 +29,60 @@ abilities = ["8", "13", "14", "1", "13", "2"]
 _This brightly colored snake assumes an aggressive posture, its hissing mouth open to display its
 fangs._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +5
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 13
+AC modifiers: +1 Dex, +3 natural
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +4
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +2 (1d4-1 plus poison)
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +3 natural
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +2 (1d4-1 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 13, Con 14, Int 1, Wis 13, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse^B^
-
-**Skills:** Acrobatics +9, Climb +9
-
-**Racial Modifiers:** +4 Perception, +4 Stealth, +8 Acrobatics
+::: statblock
+Ability scores: Str 8, Dex 13, Con 14, Int 1, Wis 13, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse^B^
+Skills: Acrobatics +9, Climb +9
+Racial Modifiers: +4 Perception, +4 Stealth, +8 Acrobatics
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any temperate or warm
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any temperate or warm
+Organization: solitary, pair, or nest (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

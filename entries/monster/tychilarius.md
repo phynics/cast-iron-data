@@ -32,111 +32,76 @@ abilities = ["48", "35", "46", "31", "35", "32"]
 _A host of tentacles - some tipped with eyes and others ending in mouths - flail around a massive
 spiraling maw ringed with thousands of teeth._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+Type: aberration
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +16
+Perception: +37
+Senses: Darkvision 60 ft., True seeing
+Subtype: Aquatic, Chaotic, Evil
+Experience points: 819,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 41
+Touch: 25
+Flat-footed: 29
+AC modifiers: +12 Dex, +11 insight, +16 natural, -8 size
+Hit points: 495 (22d8+396)
+Fort: +25
+Ref: +19
+Will: +25; +4 vs. psychic spells and effects
+Defensive abilities: all-around vision, [psychic resilience](ref/umr/psychic-resilience)
+Dr: 10/adamantine and good
+Immune: cold, disease, poison
+Resist: fire 20
+Sr: 34
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +16
+::: statblock
+Speed: 60 ft., swim 120 ft., fly 60 ft. (average)
+Melee: bite +27 (6d6+19/19-20 plus [grab](ref/umr/grab)), 6 tentacles +25 (2d8+9/19-20 plus grab)
+Reach: 30
+Space: 30
+Spec Att: overcharge synapses, plasma bolt, shatter mind, void maw
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 23
+Concentration: +34
+Constant: true seeing
+At will: deeper darkness, detect magic, dimension door, freedom of movement, protection from good, protection from law
+Per day: 3/day: feeblemind (DC 26), nightmare (DC 26), telekinesis (DC 26)\
+1/day: insanity (DC 28), mind blank, overwhelming presence (DC 30), repulsion (DC 27)
+:::
 
-**Senses:** Darkvision 60 ft., True seeing
+### Statistics
 
-**Subtype:** Aquatic, Chaotic, Evil
+::: statblock
+Ability scores: Str 48, Dex 35, Con 46, Int 31, Wis 35, Cha 32
+Base attack bonus: +16
+Combat maneuver bonus: +43
+Combat maneuver defense: 76 (can't be tripped)
+Feats: Cleave, Combat Reflexes, Great Cleave, Improved Critical (bite), Improved Critical (tentacle), Improved Initiative, Improved Vital Strike, Multiattack, Point-Blank Shot, Power Attack, Vital Strike
+Skills: Bluff +22, Fly +29
+Languages: Abyssal, Aklo, Common, Draconic, Infernal, Protean; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [no breath](ref/umr/no-breath), reform flesh, starflight
+:::
 
-**Experience points:** 819,200
+### Ecology
 
-**Armor class:** 41
-
-**Touch:** 25
-
-**Flat-footed:** 29
-
-**AC modifiers:** +12 Dex, +11 insight, +16 natural, -8 size
-
-**Hit points:** 495 (22d8+396)
-
-**Fort:** +25
-
-**Ref:** +19
-
-**Will:** +25; +4 vs. psychic spells and effects
-
-**Defensive abilities:** all-around vision, [psychic resilience](ref/umr/psychic-resilience)
-
-**Dr:** 10/adamantine and good
-
-**Immune:** cold, disease, poison
-
-**Resist:** fire 20
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 60 ft., swim 120 ft., fly 60 ft. (average)
-
-**Melee:** bite +27 (6d6+19/19-20 plus [grab](ref/umr/grab)), 6 tentacles +25 (2d8+9/19-20 plus
-grab)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** overcharge synapses, plasma bolt, shatter mind, void maw
-
-**Spell-Like Abilities**
-
-**Caster level:** 23
-
-**Concentration:** +34
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- deeper darkness, detect magic, dimension door, freedom of movement, protection from good,
-  protection from law
-
-**Per day:**
-
-- 3/day: feeblemind (DC 26), nightmare (DC 26), telekinesis (DC 26)
-- 1/day: insanity (DC 28), mind blank, overwhelming presence (DC 30), repulsion (DC 27)
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 35, Con 46, Int 31, Wis 35, Cha 32
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +43
-
-**Combat maneuver defense:** 76 (can't be tripped)
-
-**Feats:** Cleave, Combat Reflexes, Great Cleave, Improved Critical (bite), Improved Critical
-(tentacle), Improved Initiative, Improved Vital Strike, Multiattack, Point-Blank Shot, Power Attack,
-Vital Strike
-
-**Skills:** Bluff +22, Fly +29
-
-**Languages:** Abyssal, Aklo, Common, Draconic, Infernal, Protean; [telepathy](ref/umr/telepathy)
-300 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath), reform flesh, starflight
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** unique
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: unique
+Treasure: Standard
+:::
 
 ### Special Abilities
 

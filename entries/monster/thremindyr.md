@@ -31,87 +31,65 @@ abilities = ["15", "25", "16", "11", "14", "16"]
 
 _Blustering winds and snow swirl around this white, almost transparent fey-like phantom._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: cold aura (10 ft.)
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Sense protection
+Subtype: Air, Cold, Native
+Experience points: 6,400
+:::
 
-**aura:** cold aura (10 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 23
+Touch: 17
+Flat-footed: 16
+AC modifiers: +7 Dex, +6 natural
+Hit points: 104 (11d10+44)
+Fort: +12
+Ref: +12
+Will: +9
+Dr: 10/magic
+Immune: cold, elemental traits
+Vulner: fire
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (perfect)
+Br Weap: 30-ft. cone, 4d6 cold plus entrap, Reflex DC 18 half, usable every 1d4 rounds
+Entrap: DC 18, 1d10 rounds, [hardness](ref/umr/hardness) 5, hp 10
+Melee: 2 slams +18 (1d6+2 plus 2d6 cold and entrap)
+Spec Att: shatter protection
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +15
+::: statblock
+Ability scores: Str 15, Dex 25, Con 16, Int 11, Wis 14, Cha 16
+Base attack bonus: +11
+Combat maneuver bonus: +18
+Combat maneuver defense: 30
+Feats: Agile Maneuvers, Flyby Attack, Great Fortitude, Lightning Reflexes, Toughness, Weapon Finesse
+Skills: Acrobatics +15, Bluff +11, Escape Artist +20, Fly +25, Intimidate +16, Knowledge (planes) +10, Perception +15, Stealth +15
+Languages: Auran, Giant
+Special qualities: indistinct
+:::
 
-**Senses:** Darkvision 60 ft., Sense protection
+### Ecology {#stat-ecology}
 
-**Subtype:** Air, Cold, Native
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 Dex, +6 natural
-
-**Hit points:** 104 (11d10+44)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +9
-
-**Dr:** 10/magic
-
-**Immune:** cold, elemental traits
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (perfect)
-
-**Br Weap:** 30-ft. cone, 4d6 cold plus entrap, Reflex DC 18 half, usable every 1d4 rounds
-
-**Entrap:** DC 18, 1d10 rounds, [hardness](ref/umr/hardness) 5, hp 10
-
-**Melee:** 2 slams +18 (1d6+2 plus 2d6 cold and entrap)
-
-**Spec Att:** shatter protection
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 25, Con 16, Int 11, Wis 14, Cha 16
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 30
-
-**Feats:** Agile Maneuvers, Flyby Attack, Great Fortitude, Lightning Reflexes, Toughness, Weapon
-Finesse
-
-**Skills:** Acrobatics +15, Bluff +11, Escape Artist +20, Fly +25, Intimidate +16, Knowledge
-(planes) +10, Perception +15, Stealth +15
-
-**Languages:** Auran, Giant
-
-**Special qualities:** indistinct
-
-**Ecology**
-
-**Environment:** cold hills or mountains
-
-**Organization:** solitary, pair, or blizzard (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: cold hills or mountains
+Organization: solitary, pair, or blizzard (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

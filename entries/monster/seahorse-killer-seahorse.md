@@ -30,77 +30,61 @@ abilities = ["26", "12", "21", "1", "12", "7"]
 
 _This elephant-sized sea creature resembles a horse crossed with a fish, with crazed whirling eyes._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: animal
+Size: huge
+Initiative: +1
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 16
+AC modifiers: +8 armor, +1 Dex, -2 size
+Hit points: 63 (6d8+36)
+Fort: +10
+Ref: +6
+Will: +3
+Defensive abilities: anchor (see [giant seahorse](ref/monster/seahorse-giant-seahorse))
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 40 ft.
+Constrict: 1d6+8
+Melee: bite +10 (1d8+8 plus bleed), tail slap +5 (1d6+4 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 15
+Spec Att: bleed 1d6
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 12, Con 21, Int 1, Wis 12, Cha 7
+Base attack bonus: +4
+Combat maneuver bonus: +14
+Combat maneuver defense: 25
+Feats: Endurance, Skill Focus (Perception), Toughness
+Skills: Perception +13, Swim +16
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +8 armor, +1 Dex, -2 size
-
-**Hit points:** 63 (6d8+36)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +3
-
-**Defensive abilities:** anchor (see [giant seahorse](ref/monster/seahorse-giant-seahorse))
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Constrict:** 1d6+8
-
-**Melee:** bite +10 (1d8+8 plus bleed), tail slap +5 (1d6+4 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** bleed 1d6
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 12, Con 21, Int 1, Wis 12, Cha 7
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 25
-
-**Feats:** Endurance, Skill Focus (Perception), Toughness
-
-**Skills:** Perception +13, Swim +16
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or school (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or school (3-8)
+Treasure: None
+:::
 
 ### Description
 

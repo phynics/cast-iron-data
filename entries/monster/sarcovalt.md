@@ -32,110 +32,78 @@ abilities = ["12", "17", "16", "10", "13", "7"]
 _This horse-sized housefly has a vulture's neck growing out of its body, capped with a fleshless
 vulture skull._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +3
+Alignment: Neutral evil
+Type: outsider
+Perception: +8
+Senses: Darkvision 60 ft., Deathwatch, Low-light vision
+Subtype: Evil, Extraplanar
+Size: tiny
+Experience points: 1,200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 16
+AC modifiers: +3 Dex, +4 natural, +2 size
+Hit points: 34 (4d10+12)
+Fort: +6
+Ref: +7
+Will: +5
+Dr: 5/good or silver
+Ferocity: present
+Immune: disease
+Resist: acid 10, cold 10
+Sr: 15
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 20 ft., climb 20 ft., fly 60 ft. (good)
+B Drain: 1d2 Constitution
+Bleed: 1d6
+Melee: bite +9 (1d8+1 plus bleed, disease, and [grab](ref/umr/grab))
+Reach: 0
+Space: 2-1/2
+Spec Att: detach head, disease
+:::
 
-**Senses:** Darkvision 60 ft., Deathwatch, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +2
+Constant: deathwatch
+At will: purify food and drink
+Per day: 3/day: death knell (DC 10), lesser animate dead, vomit swarm, see below\
+1/day: acid arrow, contagion (DC 11), stinking cloud (DC 10)
+:::
 
-**Subtype:** Evil, Extraplanar
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 12, Dex 17, Con 16, Int 10, Wis 13, Cha 7
+Base attack bonus: +4
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 18 (26 vs. trip)
+Feats: Great Fortitude, Weapon Finesse
+Skills: Climb +9, Intimidate +5, Knowledge (nature) +7, Perception +8
+Languages: Abyssal, Infernal; [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: disease swarm
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +4 natural, +2 size
-
-**Hit points:** 34 (4d10+12)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +5
-
-**Dr:** 5/good or silver
-
-**Ferocity:** present
-
-**Immune:** disease
-
-**Resist:** acid 10, cold 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., fly 60 ft. (good)
-
-**B Drain:** 1d2 Constitution
-
-**Bleed:** 1d6
-
-**Melee:** bite +9 (1d8+1 plus bleed, disease, and [grab](ref/umr/grab))
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** detach head, disease
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +2
-
-**Constant:**
-
-- deathwatch
-
-**At will:**
-
-- purify food and drink
-
-**Per day:**
-
-- 3/day: death knell (DC 10), lesser animate dead, vomit swarm, see below
-- 1/day: acid arrow, contagion (DC 11), stinking cloud (DC 10)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 16, Int 10, Wis 13, Cha 7
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 18 (26 vs. trip)
-
-**Feats:** Great Fortitude, Weapon Finesse
-
-**Skills:** Climb +9, Intimidate +5, Knowledge (nature) +7, Perception +8
-
-**Languages:** Abyssal, Infernal; [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** disease swarm
-
-**Ecology**
-
-**Environment:** any ([Abaddon](ref/rule/abaddon))
-
-**Organization:** solitary, pair, or swarm (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Abaddon](ref/rule/abaddon))
+Organization: solitary, pair, or swarm (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

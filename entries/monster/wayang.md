@@ -31,114 +31,85 @@ abilities = ["8", "16", "12", "17", "8", "13"]
 
 _Spiralling patterns cover this shadowy humanoid's skin, and its black hair trails away in wisps._
 
-**Challenge rating:** 1/2
-
 **Male wayang illusionist 1**
 
-**Alignment:** Chaotic neutral
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +3
+Perception: +2
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Wayang
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 size
+Hit points: 8 (1d6+2)
+Fort: +1
+Ref: +3
+Will: +1; +2 vs. shadow spells
+:::
 
-**Perception:** +2
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 20 ft.
+Melee: dagger +0 (1d3-1/19-20)
+Ranged: blowgun +4 (1)
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +2
+Per day: 1/day: ghost sound (DC 11), pass without trace, ventriloquism (DC 12)
+:::
 
-**Subtype:** Wayang
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Concentration: +4
+Per day: 6/day: !_[blinding ray](ref/spell/blinding-ray)_
+:::
 
-**Experience points:** 200
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +4
+1st-level spells: hypnotism (DC 14), silent image (DC 14), vanish
+Cantrips: detect magic, ghost sound (DC 13), read magic
+Opposition Schools: necromancy, transmutation
+:::
 
-**Armor class:** 14
+### Statistics
 
-**Touch:** 14
+::: statblock
+Ability scores: Str 8, Dex 16, Con 12, Int 17, Wis 8, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -2
+Combat maneuver defense: 11
+Feats: Combat Casting, Scribe Scroll
+Skills: Craft (alchemy) +7, Knowledge (arcana) +7, Perception +2, Spellcraft +7, Stealth +10
+Racial Modifiers: +2 Perception, +2 Stealth
+Languages: Abyssal, Common, Draconic, Goblin, Wayang
+Special qualities: arcane bond (amulet), extended illusions +1 round, light and dark, shadow magic
+:::
 
-**Flat-footed:** 11
+### Ecology
 
-**AC modifiers:** +3 Dex, +1 size
-
-**Hit points:** 8 (1d6+2)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1; +2 vs. shadow spells
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** dagger +0 (1d3-1/19-20)
-
-**Ranged:** blowgun +4 (1)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**Per day:**
-
-- 1/day: ghost sound (DC 11), pass without trace, ventriloquism (DC 12)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**Per day:**
-
-- 6/day: !_[blinding ray](ref/spell/blinding-ray)_
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +4
-
-**1st-level spells:**
-
-- hypnotism (DC 14), silent image (DC 14), vanish
-
-**Cantrips:**
-
-- detect magic, ghost sound (DC 13), read magic
-
-**Opposition Schools:** necromancy, transmutation
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 12, Int 17, Wis 8, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -2
-
-**Combat maneuver defense:** 11
-
-**Feats:** Combat Casting, Scribe Scroll
-
-**Skills:** Craft (alchemy) +7, Knowledge (arcana) +7, Perception +2, Spellcraft +7, Stealth +10
-
-**Racial Modifiers:** +2 Perception, +2 Stealth
-
-**Languages:** Abyssal, Common, Draconic, Goblin, Wayang
-
-**Special qualities:** arcane bond (amulet), extended illusions +1 round, light and dark, shadow
-magic
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, tribe (3-24)
-
-**Treasure:** NPC gear (dagger); [blowgun](ref/eq-weapon/blowgun) with 20 darts, other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, tribe (3-24)
+Treasure: NPC gear (dagger); [blowgun](ref/eq-weapon/blowgun) with 20 darts, other treasure
+:::
 
 ### Special Abilities
 

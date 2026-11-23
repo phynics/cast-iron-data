@@ -31,100 +31,72 @@ abilities = ["8", "16", "13", "9", "12", "12"]
 _This creature's stout canine torso tops a slimy mass resembling an earthworm. Disgusting veins
 dangle from its face._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +7
+Alignment: Neutral evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar, Sahkil
+Size: tiny
+Experience points: 600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 natural, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +4
+Will: +4
+Dr: 5/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 10, electricity 10, sonic 10
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Grab: Small
+Melee: bite +4 (1d4-1 plus grab), 2 claws +4 (1d3-1)
+Spec Att: bewildering assault, look of fear (30 ft., DC 14), spirit touch
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +4
+At will: cause fear (DC 14), mage hand
+Per day: 3/day: mirror image
+Per week: contact other plane
+:::
 
-**Subtype:** Evil, Extraplanar, Sahkil
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 16, Con 13, Int 9, Wis 12, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 13
+Feats: Improved Initiative, Skill Focus (Intimidate)
+Skills: Acrobatics +9, Intimidate +10, Knowledge (planes) +5, Perception +7, Stealth +17
+Languages: Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) (touch)
+Special qualities: [change shape](ref/umr/change-shape) (tiny cat or dog; [beast shape II](ref/spell/beast-shape-2)) easy to call, emotional focus
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 natural, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 5/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 10, electricity 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Grab:** Small
-
-**Melee:** bite +4 (1d4-1 plus grab), 2 claws +4 (1d3-1)
-
-**Spec Att:** bewildering assault, look of fear (30 ft., DC 14), spirit touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +4
-
-**At will:**
-
-- cause fear (DC 14), mage hand
-
-**Per day:**
-
-- 3/day: mirror image
-
-**Per week:**
-
-- contact other plane
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 16, Con 13, Int 9, Wis 12, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Skill Focus (Intimidate)
-
-**Skills:** Acrobatics +9, Intimidate +10, Knowledge (planes) +5, Perception +7, Stealth +17
-
-**Languages:** Abyssal, Celestial, Common, Infernal; [telepathy](ref/umr/telepathy) (touch)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (tiny cat or dog;
-[beast shape II](ref/spell/beast-shape-2)) easy to call, emotional focus
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary or pack (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary or pack (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

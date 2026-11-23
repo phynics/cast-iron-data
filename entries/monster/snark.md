@@ -30,73 +30,59 @@ abilities = ["1", "13", "8", "2", "12", "13"]
 _Bright colors and patterns shine on the fur of this long-nosed, rodent-like creature, and glorious
 wings hold it aloft._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Size: diminutive
+Initiative: +1
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +3
+Will: +1
+:::
 
-**Initiative:** +1
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 15 ft., fly 30 ft. (poor)
+Melee: 2 claws +5 (1d2-5)
+Reach: 0
+Space: 1
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 1, Dex 13, Con 8, Int 2, Wis 12, Cha 13
+Base attack bonus: +0
+Combat maneuver bonus: -3
+Combat maneuver defense: 2
+Feats: Weapon Finesse
+Skills: Acrobatics +0, Climb +13, Perception +5, Stealth +17
+Racial Modifiers: +4 Climb, +4 Stealth
+Special qualities: bioluminescence
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., climb 15 ft., fly 30 ft. (poor)
-
-**Melee:** 2 claws +5 (1d2-5)
-
-**Reach:** 0
-
-**Space:** 1
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 13, Con 8, Int 2, Wis 12, Cha 13
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 2
-
-**Feats:** Weapon Finesse
-
-**Skills:** Acrobatics +0, Climb +13, Perception +5, Stealth +17
-
-**Racial Modifiers:** +4 Climb, +4 Stealth
-
-**Special qualities:** bioluminescence
-
-**Ecology**
-
-**Environment:** any (First World)
-
-**Organization:** solitary, pair, or conspiracy (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any (First World)
+Organization: solitary, pair, or conspiracy (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

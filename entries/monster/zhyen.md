@@ -31,88 +31,67 @@ _This short, genie-like creature floats in midair, barely a foot tall but posses
 which to determine its true height. Wisps of elemental light trail from its eyes, and it bows, ready
 to serve._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +0
+Alignment: Neutral
+Type: outsider
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: [air](ref/subtype/air), [earth](ref/subtype/earth), [fire](ref/subtype/fire), or [water](ref/subtype/water)
+Size: tiny
+Experience points: 200
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 15
+AC modifiers: +2 Dex, +3 natural, +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +4
+Will: +4
+Resist: acid 5, cold 5, electricity 5, and fire 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 10 ft., swim 30 ft., fly 30 ft. (perfect), swim (if a water zhyen)
+Melee: +1 melee touch (1d4 acid, cold, electricity, or fire damage)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+At will: mage hand, mending
+Per day: 1/day: endure elements, touch of fatigue
+:::
 
-**Subtype:** [air](ref/subtype/air), [earth](ref/subtype/earth), [fire](ref/subtype/fire), or
-[water](ref/subtype/water)
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 6, Dex 14, Con 10, Int 9, Wis 14, Cha 12
+Base attack bonus: +1
+Combat maneuver bonus: -3
+Combat maneuver defense: 9
+Feats: Run
+Skills: Fly +6
+Languages: Aquan, Auran, Common, Ignan, Terran
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +3 natural, +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +4
-
-**Will:** +4
-
-**Resist:** acid 5, cold 5, electricity 5, and fire 5
-
-**Offense**
-
-**Speed:** 10 ft., swim 30 ft., fly 30 ft. (perfect), swim (if a water zhyen)
-
-**Melee:** +1 melee touch (1d4 acid, cold, electricity, or fire damage)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**At will:**
-
-- mage hand, mending
-
-**Per day:**
-
-- 1/day: endure elements, touch of fatigue
-
-**Statistics**
-
-**Ability scores:** Str 6, Dex 14, Con 10, Int 9, Wis 14, Cha 12
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -3
-
-**Combat maneuver defense:** 9
-
-**Feats:** Run
-
-**Skills:** Fly +6
-
-**Languages:** Aquan, Auran, Common, Ignan, Terran
-
-**Ecology**
-
-**Environment:** any desert or elemental plane
-
-**Organization:** solitary or gang (1 zhyen and 2-4 [mephits](ref/monster/mephit))
-
-**Treasure:** None
+::: statblock
+Environment: any desert or elemental plane
+Organization: solitary or gang (1 zhyen and 2-4 [mephits](ref/monster/mephit))
+Treasure: None
+:::
 
 ### Description
 

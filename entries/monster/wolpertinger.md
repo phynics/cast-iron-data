@@ -28,71 +28,58 @@ abilities = ["9", "14", "15", "4", "13", "6"]
 
 _This creature appears to be a large hare with long fangs, feathered wings, and a set of antlers._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 15 (2d10+4)
+Fort: +5
+Ref: +5
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., fly 40 ft. (average)
+Bleed: 1d4
+Melee: bite +6 (1d3-1 plus bleed 1d4), gore +6 (1d3-1)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 9, Dex 14, Con 15, Int 4, Wis 13, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Weapon Finesse
+Skills: Fly +6, Perception +5, Stealth +14
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (average)
-
-**Bleed:** 1d4
-
-**Melee:** bite +6 (1d3-1 plus bleed 1d4), gore +6 (1d3-1)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 9, Dex 14, Con 15, Int 4, Wis 13, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +6, Perception +5, Stealth +14
-
-**Ecology**
-
-**Environment:** temperate forests or hills
-
-**Organization:** solitary, pair, or pack (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests or hills
+Organization: solitary, pair, or pack (3-12)
+Treasure: None
+:::
 
 ### Description
 

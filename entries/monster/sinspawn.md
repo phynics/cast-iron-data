@@ -36,74 +36,59 @@ abilities = ["13", "13", "14", "10", "13", "12"]
 _This hairless humanoid lurches on back-bent, dog-like legs, its hideous mouth flanked by tiny arms
 with three-fingered hands._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +5
+Size: medium
+Alignment: Neutral evil
+Perception: +7
+Senses: Darkvision 60 ft., Sin-scent
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 dodge, +2 natural
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +2
+Will: +4
+Immune: mind-affecting effects
+Sr: 13
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 40 ft.
+Melee: ranseur +3 (2d4+1/×3), bite -2 (1d6 plus sinful bite) or bite +3 (1d6+1 plus sinful bite), 2 claws +3 (1d4+1)
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Sin-scent
+::: statblock
+Ability scores: Str 13, Dex 13, Con 14, Int 10, Wis 13, Cha 12
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Dodge, Improved Initiative
+Skills: Intimidate +7, Perception +7
+Languages: Aklo
+Special qualities: martial proficiency
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 dodge, +2 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +4
-
-**Immune:** mind-affecting effects
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** ranseur +3 (2d4+1/×3), bite -2 (1d6 plus sinful bite) or bite +3 (1d6+1 plus sinful
-bite), 2 claws +3 (1d4+1)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 14, Int 10, Wis 13, Cha 12
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Intimidate +7, Perception +7
-
-**Languages:** Aklo
-
-**Special qualities:** martial proficiency
-
-**Ecology**
-
-**Environment:** any ruins
-
-**Organization:** solitary, pair, or cult (3-8)
-
-**Treasure:** Standard (ranseur); other treasure
+::: statblock
+Environment: any ruins
+Organization: solitary, pair, or cult (3-8)
+Treasure: Standard (ranseur); other treasure
+:::
 
 ### Special Abilities
 

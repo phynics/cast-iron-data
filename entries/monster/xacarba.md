@@ -35,112 +35,76 @@ abilities = ["29", "21", "21", "26", "22", "24"]
 _This towering, three-tailed, six-eyed beast seems like three rune-backed serpents partially melded
 together into one body._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Size: gargantuan
+Initiative: +9
+Type: outsider
+Perception: +29
+Senses: Arcane sight, Darkvision 120 ft., Detect good, Low-light vision, Scent, True seeing
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 31
+Touch: 12
+Flat-footed: 25
+AC modifiers: +5 Dex, +1 dodge, +19 natural, -4 size
+Hit points: 210 (20d10+100)
+Fort: +17
+Ref: +13
+Will: +20
+Dr: 10/good
+Immune: electricity, poison
+Resist: acid 10, cold 10, fire 10
+Sr: 26
+:::
 
-**Initiative:** +9
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Constrict: 2d6+9
+Melee: bite +25 (3d8+9 plus poison), 3 tail slaps +20 (2d8+4 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 20
+Spec Att: redirect spell
+:::
 
-**Perception:** +29
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +25
+Constant: arcane sight, detect good, true seeing
+At will: detect thoughts (DC 19), greater teleport, self plus 50 lbs. of objects only, invisibility, suggestion (DC 20)
+Per day: 3/day: charm monster (DC 21), mass suggestion (DC 23), scrying (DC 21), symbol of pain (DC 22), touch of idiocy, vision\
+1/day: summon (level 5, 1 hezrou or 1d4 succubi, 50%)
+:::
 
-**Senses:** Arcane sight, Darkvision 120 ft., Detect good, Low-light vision, Scent, True seeing
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 29, Dex 21, Con 21, Int 26, Wis 22, Cha 24
+Base attack bonus: +20
+Combat maneuver bonus: +33 (+37 grapple)
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Combat Reflexes, Dodge, Improved Initiative, Improved Iron Will, Improved Vital Strike, Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike
+Skills: Acrobatics +25 (+29 jump), Bluff +30, Climb +17, Diplomacy +27, Disguise +27, Sense Motive +29, Spellcraft +31, Stealth +16, Use Magic Device +27
+Languages: Abyssal, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid as a swift action, but always retains one serpentine trait that negates the bonus to Disguise checks; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 12
-
-**Flat-footed:** 25
-
-**AC modifiers:** +5 Dex, +1 dodge, +19 natural, -4 size
-
-**Hit points:** 210 (20d10+100)
-
-**Fort:** +17
-
-**Ref:** +13
-
-**Will:** +20
-
-**Dr:** 10/good
-
-**Immune:** electricity, poison
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Sr:** 26
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Constrict:** 2d6+9
-
-**Melee:** bite +25 (3d8+9 plus poison), 3 tail slaps +20 (2d8+4 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 20
-
-**Spec Att:** redirect spell
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +25
-
-**Constant:**
-
-- arcane sight, detect good, true seeing
-
-**At will:**
-
-- detect thoughts (DC 19), greater teleport, self plus 50 lbs. of objects only, invisibility,
-  suggestion (DC 20)
-
-**Per day:**
-
-- 3/day: charm monster (DC 21), mass suggestion (DC 23), scrying (DC 21), symbol of pain (DC 22),
-  touch of idiocy, vision
-- 1/day: summon (level 5, 1 hezrou or 1d4 succubi, 50%)
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 21, Con 21, Int 26, Wis 22, Cha 24
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** +33 (+37 grapple)
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Improved Iron Will, Improved Vital Strike,
-Iron Will, Lightning Reflexes, Mobility, Spring Attack, Vital Strike
-
-**Skills:** Acrobatics +25 (+29 jump), Bluff +30, Climb +17, Diplomacy +27, Disguise +27, Sense
-Motive +29, Spellcraft +31, Stealth +16, Use Magic Device +27
-
-**Languages:** Abyssal, Common, Draconic; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid as a swift action, but
-always retains one serpentine trait that negates the bonus to Disguise checks;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any land ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any land ([the Abyss](ref/rule/the-abyss))
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

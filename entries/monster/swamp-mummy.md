@@ -29,73 +29,59 @@ abilities = ["20", "12", "-", "6", "15", "15"]
 _Clad in the shreds of its original garments, this withered and leathery corpse has dark, empty eye
 sockets._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: drowning (30 ft., DC 15), [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+Initiative: +5
+Alignment: Lawful evil
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**aura:** drowning (30 ft., DC 15), [unnatural aura](ref/umr/unnatural-aura) (30 ft.)
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +6 natural
+Hit points: 52 (7d8+21)
+Fort: +6
+Ref: +3
+Will: +7
+Dr: 5/-
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: 2 slams +10 (1d8+5 plus bog rot)
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 12, Con -, Int 6, Wis 15, Cha 15
+Base attack bonus: +5
+Combat maneuver bonus: +10
+Combat maneuver defense: 21
+Feats: Great Fortitude, Improved Initiative, Power Attack, Toughness
+Skills: Perception +12, Stealth +11
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 natural
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +7
-
-**Dr:** 5/-
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** 2 slams +10 (1d8+5 plus bog rot)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 12, Con -, Int 6, Wis 15, Cha 15
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 21
-
-**Feats:** Great Fortitude, Improved Initiative, Power Attack, Toughness
-
-**Skills:** Perception +12, Stealth +11
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any swamps
-
-**Organization:** solitary, warden squad (2-6), or guardian detail (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any swamps
+Organization: solitary, warden squad (2-6), or guardian detail (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,115 +31,74 @@ abilities = ["31", "29", "32", "24", "26", "29"]
 
 _This creature has the body of a middle-aged human man and the pointed ears and legs of a goat._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic neutral
+Type: fey
+Initiative: +13
+Size: medium
+Perception: +38
+Senses: Low-light vision, True seeing
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 37
+Touch: 30
+Flat-footed: 26
+AC modifiers: +9 deflection, +9 Dex, +2 dodge, +7 natural
+Hit points: 333 (23d6+253); sustaining joy
+Fort: +18
+Ref: +23
+Will: +21
+Defensive abilities: grace
+Dr: 15/cold iron and magic
+Immune: sonic
+Sr: 30
+:::
 
-**Initiative:** +13
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: +5 morningstar +28/+28/+23/+18 (1d8+20/19-20), hoof +17 (2d6+5)
+Ranged: +5 composite longbow +27/+27/+22/+17 (1d8+13/×3)
+Spec Att: dramatic flourish, impossible verisimilitude, thyrsus
+:::
 
-**Perception:** +38
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 21
+Concentration: +30
+Constant: haste, speak with animals, stone tell, true seeing
+At will: commune with nature, confusion (DC 23), crushing despair (DC 23), dancing lights (DC 19), divination, fear (DC 21), good hope, mass suggestion (DC 25), mirage arcana (DC 24), persistent image (DC 24), polymorph any object (DC 27), reckless infatuation (DC 22), waves of ecstasy (DC 26)
+Per day: 3/day: quickened greater heroism, vengeful outrage (DC 25)\
+1/day: cloak of dreams (DC 25), freedom, insanity (DC 26), mass charm monster (DC 27), plant growth, reincarnate, summon (level 9, 4d4 advanced dire tigers, 4d4 advanced maenads, or 2 storm giants 100%)
+:::
 
-**Senses:** Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 204,800
+::: statblock
+Ability scores: Str 31, Dex 29, Con 32, Int 24, Wis 26, Cha 29
+Base attack bonus: +11
+Combat maneuver bonus: +19
+Combat maneuver defense: 49
+Feats: Dodge, Improved Critical (morningstar), Improved Initiative, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater heroism), Rapid Shot, Spring Attack, Weapon Focus (morningstar), Weapon Focus (longbow)
+Skills: Knowledge (arcana, history, religion) +30, Perception +38
+Racial Modifiers: +4 Perception, +4 Perform (oratory), +4 Stealth
+Languages: Common, Elven, Sylvan; _speak with animals, stone tell_
+Special qualities: versatile performance (act, comedy, dance, oratory, wind instruments)
+:::
 
-**Armor class:** 37
+### Ecology
 
-**Touch:** 30
-
-**Flat-footed:** 26
-
-**AC modifiers:** +9 deflection, +9 Dex, +2 dodge, +7 natural
-
-**Hit points:** 333 (23d6+253); sustaining joy
-
-**Fort:** +18
-
-**Ref:** +23
-
-**Will:** +21
-
-**Defensive abilities:** grace
-
-**Dr:** 15/cold iron and magic
-
-**Immune:** sonic
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +5 morningstar +28/+28/+23/+18 (1d8+20/19-20), hoof +17 (2d6+5)
-
-**Ranged:** +5 composite longbow +27/+27/+22/+17 (1d8+13/×3)
-
-**Spec Att:** dramatic flourish, impossible verisimilitude, thyrsus
-
-**Spell-Like Abilities**
-
-**Caster level:** 21
-
-**Concentration:** +30
-
-**Constant:**
-
-- haste, speak with animals, stone tell, true seeing
-
-**At will:**
-
-- commune with nature, confusion (DC 23), crushing despair (DC 23), dancing lights (DC 19),
-  divination, fear (DC 21), good hope, mass suggestion (DC 25), mirage arcana (DC 24), persistent
-  image (DC 24), polymorph any object (DC 27), reckless infatuation (DC 22), waves of ecstasy (DC
-  26)
-
-**Per day:**
-
-- 3/day: quickened greater heroism, vengeful outrage (DC 25)
-- 1/day: cloak of dreams (DC 25), freedom, insanity (DC 26), mass charm monster (DC 27), plant
-  growth, reincarnate, summon (level 9, 4d4 advanced dire tigers, 4d4 advanced maenads, or 2 storm
-  giants 100%)
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 29, Con 32, Int 24, Wis 26, Cha 29
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 49
-
-**Feats:** Dodge, Improved Critical (morningstar), Improved Initiative, Mobility, Point-Blank Shot,
-Power Attack, Precise Shot, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater
-heroism), Rapid Shot, Spring Attack, Weapon Focus (morningstar), Weapon Focus (longbow)
-
-**Skills:** Knowledge (arcana, history, religion) +30, Perception +38
-
-**Racial Modifiers:** +4 Perception, +4 Perform (oratory), +4 Stealth
-
-**Languages:** Common, Elven, Sylvan; _speak with animals, stone tell_
-
-**Special qualities:** versatile performance (act, comedy, dance, oratory, wind instruments)
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, troupe (1 plus 3-9 [advanced](ref/template/advanced)
-[dire tigers](ref/monster/tiger-dire-tiger-smilodon), [centaurs](ref/monster/centaur),
-[ichthyocentaurs](ref/monster/ichthyocentaur), [leanan sidhe](ref/monster/leanan-sidhe-mythic),
-[maenads](ref/monster/maenad), [satyrs](ref/monster/satyr), or NPCs of at least 11th level), or
-court (1-3 plus 1-3 [muses](ref/monster/muse), 4-12 centaurs or satyrs, and 3-9 leanan sidhe,
-maenads, or [storm giants](ref/monster/giant-storm-giant))
-
-**Treasure:** Standard (cl, 40 MM arrows, MM morningstar);
-[masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+::: statblock
+Environment: temperate forests
+Organization: solitary, troupe (1 plus 3-9 [advanced](ref/template/advanced) [dire tigers](ref/monster/tiger-dire-tiger-smilodon), [centaurs](ref/monster/centaur), [ichthyocentaurs](ref/monster/ichthyocentaur), [leanan sidhe](ref/monster/leanan-sidhe-mythic), [maenads](ref/monster/maenad), [satyrs](ref/monster/satyr), or NPCs of at least 11th level), or court (1-3 plus 1-3 [muses](ref/monster/muse), 4-12 centaurs or satyrs, and 3-9 leanan sidhe, maenads, or [storm giants](ref/monster/giant-storm-giant))
+Treasure: Standard (cl, 40 MM arrows, MM morningstar); [masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), other treasure
+:::
 
 ### Special Abilities
 

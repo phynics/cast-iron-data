@@ -32,127 +32,80 @@ abilities = ["26", "36", "35", "19", "23", "24"]
 _This gloriously plumed anthropomorphic eagle has feathers tipped with shimmering gold, and claws
 with sharp black talons._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+aura: [frightful presence](ref/umr/frightful-presence) (60 ft., DC 30), protective aura (30 ft., DC 30, 10 rounds), quell the profane
+Initiative: +13
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +44
+Senses: Darkvision 60 ft., See invisibility, True seeing
+Subtype: Agathion, Extraplanar, Good
+Experience points: 819,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (60 ft., DC 30), protective aura (30 ft.,
-DC 30, 10 rounds), quell the profane
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 40
+Touch: 22
+Flat-footed: 27
+AC modifiers: +13 Dex, +18 natural, -1 size
+Hit points: 472 (27d10+324)
+Fort: +27
+Ref: +22
+Will: +21; +4 vs. poison
+Dr: 15/silver and evil
+Evasion: present
+Immune: electricity, petrification
+Resist: cold 10, sonic 10
+Sr: 34
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral good
+::: statblock
+Speed: 40 ft., fly 180 ft. (good)
+Melee: 2 claws +40 (3d6+12/18-20/×3), 2 wings +37 (3d6+4)
+Pounce: present
+Reach: 10
+Rend: 2 claws, 3d6+12
+Space: 10
+Spec Att: [channel positive energy](ref/ability/channel-energy), coruscating charge, sacred slasher, twin talons
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: cloak of winds, discern lies, freedom of movement, magic circle against evil, mind blank, see invisibility, speak with animals, true seeing
+At will: aid, daylight, dimension door, dispel evil (DC 22), displacement, self only, greater command (DC 22), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, hold monster (DC 22), magic missile, remove fear, river of wind (DC 21), wind wall
+Per day: 3/day: break enchantment, control winds, divine power, eagle aerie, chain lightning (DC 23), holy aura (DC 25), holy word (DC 24), miracle, plane shift (DC 24), spell turning\
+1/day: control weather, mass heal, overwhelming presence (DC 26), summon (level 8, 1d4+1 advanced avorals 100%), sunburst (DC 25), whirlwind (DC 25)
+:::
 
-**Perception:** +44
+### Statistics
 
-**Senses:** Darkvision 60 ft., See invisibility, True seeing
+::: statblock
+Ability scores: Str 26, Dex 36, Con 35, Int 19, Wis 23, Cha 24
+Base attack bonus: +27
+Combat maneuver bonus: +36
+Combat maneuver defense: 59
+Feats: Bleeding Critical, Dimensional Agility, Dimensional Assault, Dimensional Dervish, Critical Focus, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (chain lightning), Flyby Attack, Multiattack, Power Attack, Quicken Spell-Like Ability (chain lightning), Staggering Critical, Stunning Critical, Weapon Finesse, Weapon Focus (claws)
+Skills: Acrobatics +40, Bluff +20, Diplomacy +30, Fly +45, Handle Animal +30, Perform (oratory) +10, Sense Motive +36, Spellcraft +10, Stealth +38, Use Magic Device +34
+Racial Modifiers: +8 Perception
+Languages: Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
+Special qualities: benevolent mercy, [lay on hands](ref/ability/lay-on-hands) (10d6, 10/day, as a 20th-level paladin)
+:::
 
-**Subtype:** Agathion, Extraplanar, Good
+### Ecology
 
-**Experience points:** 819,200
-
-**Armor class:** 40
-
-**Touch:** 22
-
-**Flat-footed:** 27
-
-**AC modifiers:** +13 Dex, +18 natural, -1 size
-
-**Hit points:** 472 (27d10+324)
-
-**Fort:** +27
-
-**Ref:** +22
-
-**Will:** +21; +4 vs. poison
-
-**Dr:** 15/silver and evil
-
-**Evasion:** present
-
-**Immune:** electricity, petrification
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 40 ft., fly 180 ft. (good)
-
-**Melee:** 2 claws +40 (3d6+12/18-20/×3), 2 wings +37 (3d6+4)
-
-**Pounce:** present
-
-**Reach:** 10
-
-**Rend:** 2 claws, 3d6+12
-
-**Space:** 10
-
-**Spec Att:** [channel positive energy](ref/ability/channel-energy), coruscating charge, sacred
-slasher, twin talons
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- cloak of winds, discern lies, freedom of movement, magic circle against evil, mind blank, see
-  invisibility, speak with animals, true seeing
-
-**At will:**
-
-- aid, daylight, dimension door, dispel evil (DC 22), displacement, self only, greater command (DC
-  22), greater dispel magic, greater teleport, self plus 50 lbs. of objects only, hold monster (DC
-  22), magic missile, remove fear, river of wind (DC 21), wind wall
-
-**Per day:**
-
-- 3/day: break enchantment, control winds, divine power, eagle aerie, chain lightning (DC 23), holy
-  aura (DC 25), holy word (DC 24), miracle, plane shift (DC 24), spell turning
-- 1/day: control weather, mass heal, overwhelming presence (DC 26), summon (level 8, 1d4+1 advanced
-  avorals 100%), sunburst (DC 25), whirlwind (DC 25)
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 36, Con 35, Int 19, Wis 23, Cha 24
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 59
-
-**Feats:** Bleeding Critical, Dimensional Agility, Dimensional Assault, Dimensional Dervish,
-Critical Focus, Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (chain lightning), Flyby
-Attack, Multiattack, Power Attack, Quicken Spell-Like Ability (chain lightning), Staggering
-Critical, Stunning Critical, Weapon Finesse, Weapon Focus (claws)
-
-**Skills:** Acrobatics +40, Bluff +20, Diplomacy +30, Fly +45, Handle Animal +30, Perform (oratory)
-+10, Sense Motive +36, Spellcraft +10, Stealth +38, Use Magic Device +34
-
-**Racial Modifiers:** +8 Perception
-
-**Languages:** Celestial, Common, Draconic, Infernal; _speak with animals, truespeech_
-
-**Special qualities:** benevolent mercy, [lay on hands](ref/ability/lay-on-hands) (10d6, 10/day, as
-a 20th-level paladin)
-
-**Ecology**
-
-**Environment:** any air ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary or flight (Talmandor and 3-6 [advanced](ref/template/advanced)
-[avorals](ref/monster/agathion-avoral))
-
-**Treasure:** Triple
+::: statblock
+Environment: any air ([Nirvana](ref/rule/nirvana))
+Organization: solitary or flight (Talmandor and 3-6 [advanced](ref/template/advanced) [avorals](ref/monster/agathion-avoral))
+Treasure: Triple
+:::
 
 ### Special Abilities
 

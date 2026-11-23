@@ -29,100 +29,73 @@ abilities = ["24", "13", "20", "19", "22", "19"]
 _This noble creature stands strong and tall with the body of a powerful bull and the head of a
 wise-looking human._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +7
+Size: large
+Alignment: Lawful good
+Type: Magical beast
+Perception: +20
+Senses: Darkvision 60 ft., Detect chaos, Detect evil, Low-light vision, True seeing
+Experience points: 6,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 24
+Touch: 16
+Flat-footed: 23
+AC modifiers: +1 Dex, +6 insight, +8 natural, -1 size
+Hit points: 115 (11d10+55)
+Fort: +12
+Ref: +14
+Will: +11
+Defensive abilities: prescience
+Dr: 10/evil
+Fh: 5
+Resist: electricity 10, fire 10
+Sr: 20
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: gore +17 (2d8+7/19-20), 2 hooves +12 (1d6+3), 2 wings +12 (1d6+3)
+Reach: 5
+Space: 10
+Trample: 2d6+10, DC 22
+:::
 
-**Perception:** +20
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: detect chaos, detect evil, true seeing
+Per day: 3/day: empowered cure moderate wounds, dispel magic, magic circle against evil, remove disease, shield other\
+1/day: dismissal (DC 19), flame strike (DC 19), restoration
+:::
 
-**Senses:** Darkvision 60 ft., Detect chaos, Detect evil, Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str 24, Dex 13, Con 20, Int 19, Wis 22, Cha 19
+Base attack bonus: +11
+Combat maneuver bonus: +19 (+23 bull rush)
+Combat maneuver defense: 36 (38 vs. bull rush, 40 vs. trip)
+Feats: Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cure moderate wounds), Greater Bull Rush, Improved Bull Rush, Improved Critical (gore), Iron Will, Power Attack
+Skills: Diplomacy +15, Sense Motive +17
+Languages: Auran, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 23
-
-**AC modifiers:** +1 Dex, +6 insight, +8 natural, -1 size
-
-**Hit points:** 115 (11d10+55)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +11
-
-**Defensive abilities:** prescience
-
-**Dr:** 10/evil
-
-**Fh:** 5
-
-**Resist:** electricity 10, fire 10
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** gore +17 (2d8+7/19-20), 2 hooves +12 (1d6+3), 2 wings +12 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Trample:** 2d6+10, DC 22
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- detect chaos, detect evil, true seeing
-
-**Per day:**
-
-- 3/day: empowered cure moderate wounds, dispel magic, magic circle against evil, remove disease,
-  shield other
-- 1/day: dismissal (DC 19), flame strike (DC 19), restoration
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 13, Con 20, Int 19, Wis 22, Cha 19
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +19 (+23 bull rush)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush, 40 vs. trip)
-
-**Feats:** Empower [Spell-Like Ability](ref/umr/spell-like-abilities) (cure moderate wounds),
-Greater Bull Rush, Improved Bull Rush, Improved Critical (gore), Iron Will, Power Attack
-
-**Skills:** Diplomacy +15, Sense Motive +17
-
-**Languages:** Auran, Celestial, Common; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

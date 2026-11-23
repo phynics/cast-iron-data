@@ -30,76 +30,60 @@ abilities = ["28", "13", "23", "11", "12", "16"]
 _The white-and-gold tabards of this tight formation of armored soldiers are spotless, and their
 swords and armor are polished to a mirror-bright sheen._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: humanoid
+Initiative: +5
+Alignment: Lawful good
+Size: medium
+Perception: +27
+Subtype: Human, Troop
+Experience points: 38,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 29
+Touch: 12
+Flat-footed: 27
+AC modifiers: +9 armor, +1 Dex, +1 dodge, +3 natural, +5 shield
+Hit points: 210 (20d8+120)
+Fort: +14
+Ref: +9
+Will: +15
+Defensive abilities: troop traits
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: troop (6d6+9)
+Reach: 5
+Space: 20
+Spec Att: volley
+:::
 
-**Perception:** +27
+### Statistics
 
-**Subtype:** Human, Troop
+::: statblock
+Ability scores: Str 28, Dex 13, Con 23, Int 11, Wis 12, Cha 16
+Base attack bonus: +15
+Combat maneuver bonus: +24 (+26 bull rush)
+Combat maneuver defense: 36 (38 vs. bull rush)
+Feats: Dodge, Great Fortitude, Improved Bull Rush, Improved Initiative, Intimidating Prowess, Iron Will, Lightning Reflexes, Persuasive, Power Attack, Shield Focus, Skill Focus (Perception)
+Skills: Climb +6, Diplomacy +5, Intimidate +36, Perception +27
+Languages: Common
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 12
-
-**Flat-footed:** 27
-
-**AC modifiers:** +9 armor, +1 Dex, +1 dodge, +3 natural, +5 shield
-
-**Hit points:** 210 (20d8+120)
-
-**Fort:** +14
-
-**Ref:** +9
-
-**Will:** +15
-
-**Defensive abilities:** troop traits
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (6d6+9)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** volley
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 13, Con 23, Int 11, Wis 12, Cha 16
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +24 (+26 bull rush)
-
-**Combat maneuver defense:** 36 (38 vs. bull rush)
-
-**Feats:** Dodge, Great Fortitude, Improved Bull Rush, Improved Initiative, Intimidating Prowess,
-Iron Will, Lightning Reflexes, Persuasive, Power Attack, Shield Focus, Skill Focus (Perception)
-
-**Skills:** Climb +6, Diplomacy +5, Intimidate +36, Perception +27
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, company (2-4) or battalion (5-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, company (2-4) or battalion (5-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

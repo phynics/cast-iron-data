@@ -36,106 +36,76 @@ abilities = ["30", "15", "22", "11", "16", "19"]
 _This creature's three singing heads sway atop serpentine necks that extend from a bulbous body
 split by a wide, toothy mouth._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+aura: cacophony (100 ft., DC 22)
+Alignment: Chaotic neutral
+Initiative: +2
+Size: large
+Type: Magical beast
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 25,600
+:::
 
-**aura:** cacophony (100 ft., DC 22)
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 26
+Touch: 11
+Flat-footed: 24
+AC modifiers: +2 Dex, +15 natural, -1 size
+Hit points: 184 (16d10+96)
+Fort: +16
+Ref: +12
+Will: +8
+Immune: mind-affecting effects
+Resist: fire 10, sonic 10
+:::
 
-**Initiative:** +2
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: bite +25 (4d6+15/19-20)
+Ranged: 3 sonic beams +17 (5d6 sonic)
+Reach: 5
+Space: 10
+Spec Att: staggering gaze
+Trample: 1d10+15, DC 28
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +19
+At will: shatter (DC 16)
+Per day: 3/day: charm monster (DC 18), quickened confusion (DC 18)\
+1/day: bestow curse (DC 18, ranged touch attack, 30 ft.)
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 30, Dex 15, Con 22, Int 11, Wis 16, Cha 19
+Base attack bonus: +16
+Combat maneuver bonus: +27
+Combat maneuver defense: 39 (47 vs. trip)
+Feats: Blind-Fight, Critical Focus, Deafening Critical, Improved Critical (bite), Point-Blank Shot, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion), Skill Focus (Perception)
+Skills: Bluff +12, Perception +17, Stealth +17 (+21 in water), Swim +18
+Racial Modifiers: +4 Stealth in water
+Languages: Aklo; _[tongues](ref/spell/tongues)_
+Special qualities: false heads, water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 26
-
-**Touch:** 11
-
-**Flat-footed:** 24
-
-**AC modifiers:** +2 Dex, +15 natural, -1 size
-
-**Hit points:** 184 (16d10+96)
-
-**Fort:** +16
-
-**Ref:** +12
-
-**Will:** +8
-
-**Immune:** mind-affecting effects
-
-**Resist:** fire 10, sonic 10
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** bite +25 (4d6+15/19-20)
-
-**Ranged:** 3 sonic beams +17 (5d6 sonic)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** staggering gaze
-
-**Trample:** 1d10+15, DC 28
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +19
-
-**At will:**
-
-- shatter (DC 16)
-
-**Per day:**
-
-- 3/day: charm monster (DC 18), quickened confusion (DC 18)
-- 1/day: bestow curse (DC 18, ranged touch attack, 30 ft.)
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 15, Con 22, Int 11, Wis 16, Cha 19
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 39 (47 vs. trip)
-
-**Feats:** Blind-Fight, Critical Focus, Deafening Critical, Improved Critical (bite), Point-Blank
-Shot, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (confusion), Skill
-Focus (Perception)
-
-**Skills:** Bluff +12, Perception +17, Stealth +17 (+21 in water), Swim +18
-
-**Racial Modifiers:** +4 Stealth in water
-
-**Languages:** Aklo; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** false heads, water dependency
-
-**Ecology**
-
-**Environment:** any coastlines
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any coastlines
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

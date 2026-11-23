@@ -32,78 +32,61 @@ features. Pale humanoid skin and carapace meld together beneath a face with segm
 mandibles chittering a song of discordant alien clicks and hisses, as overlong carapace claws weave
 cords of thick webbing between them._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Type: aberration
+Size: huge
+Initiative: +18
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+tremorsense: 30
+Experience points: 4,800
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 12
+Flat-footed: 16
+AC modifiers: +6 Dex, +8 natural, -2 size
+Hit points: 95 (10d8+50)
+Fort: +7
+Ref: +7
+Will: +9
+:::
 
-**Initiative:** +18
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 30 ft.
+Melee: 1 bite +9 (2d6+7), 2 claws +9 (1d8+7 plus paralytic nails)
+Reach: 15
+Space: 15
+Spec Att: drag, weaver's song, paralytic nails
+Web: +11 ranged, DC 19, 10 hp
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 24, Dex 18, Con 18, Int 13, Wis 14, Cha 17
+Base attack bonus: +7
+Combat maneuver bonus: +16
+Combat maneuver defense: 30 (can't be tripped)
+Feats: Far Shot, Improved Initiative, Point-Blank Shot, Toughness, Weapon Finesse
+Skills: Bluff +8, Climb +19, Intimidate +16, Knowledge (dungeoneering) +7, Perception +10, Perform (string) +14, Spellcraft +13, Stealth +6
+Languages: Common
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 20
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 Dex, +8 natural, -2 size
-
-**Hit points:** 95 (10d8+50)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +9
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 30 ft.
-
-**Melee:** 1 bite +9 (2d6+7), 2 claws +9 (1d8+7 plus paralytic nails)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** drag, weaver's song, paralytic nails
-
-**Web:** +11 ranged, DC 19, 10 hp
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 18, Con 18, Int 13, Wis 14, Cha 17
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 30 (can't be tripped)
-
-**Feats:** Far Shot, Improved Initiative, Point-Blank Shot, Toughness, Weapon Finesse
-
-**Skills:** Bluff +8, Climb +19, Intimidate +16, Knowledge (dungeoneering) +7, Perception +10,
-Perform (string) +14, Spellcraft +13, Stealth +6
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any forests or hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any forests or hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

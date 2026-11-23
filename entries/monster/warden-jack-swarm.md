@@ -29,67 +29,50 @@ special_qualities = "tower access"
 abilities = ["4", "14", "-", "-", "11", "1"]
 +++
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: construct
+Size: fine
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+tremorsense: 30
+Experience points: 1,200
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** fine
+::: statblock
+Armor class: 21
+Touch: 20
+Flat-footed: 19
+AC modifiers: +2 Dex, +1 natural, +8 size
+Hit points: 27 (5d10)
+Fort: +1
+Ref: +3
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits), weapon damage, swarm traits
+:::
 
-**Initiative:** +2
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Distraction: 12
+Melee: swarm (1d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: topple, wounding spikes
+:::
 
-**Perception:** +0
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Swarm
-
-**tremorsense:** 30
-
-**Experience points:** 1,200
-
-**Armor class:** 21
-
-**Touch:** 20
-
-**Flat-footed:** 19
-
-**AC modifiers:** +2 Dex, +1 natural, +8 size
-
-**Hit points:** 27 (5d10)
-
-**Fort:** +1
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits), weapon damage, swarm traits
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Distraction:** 12
-
-**Melee:** swarm (1d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** topple, wounding spikes
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +0
-
-**At will:**
-
-- open/close
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +0
+At will: open/close
+:::
 
 ### Tactics
 
@@ -98,17 +81,15 @@ advantage when possible.
 
 **Morale** The swarm fights until destroyed.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 4, Dex 14, Con -, Int -, Wis 11, Cha 1
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Special qualities:** tower access
+::: statblock
+Ability scores: Str 4, Dex 14, Con -, Int -, Wis 11, Cha 1
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Special qualities: tower access
+:::
 
 ### Special Abilities
 

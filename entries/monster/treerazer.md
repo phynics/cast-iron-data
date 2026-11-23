@@ -35,120 +35,80 @@ abilities = ["36", "30", "40", "21", "24", "25"]
 _The twenty-foot-tall winged saurian demon wields an acid-dripping axe. Two red eyes glow above a
 tooth-filled beak._
 
-**Challenge rating:** 25
+::: statblock
+Challenge rating: 25
+aura: corruption (120 ft.), unholy aura (DC 25)
+Alignment: Chaotic evil
+Size: huge
+Initiative: +14
+Type: outsider
+Perception: +38
+Senses: Darkvision 60 ft., Detect good, Detect law, True seeing
+Subtype: Demon, Native
+Experience points: 1,638,400
+:::
 
-**aura:** corruption (120 ft.), unholy aura (DC 25)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 42
+Touch: 22
+Flat-footed: 32
+AC modifiers: +4 deflection, +10 Dex, +20 natural, -2 size
+Hit points: 574 (28d10+420)
+Fort: +34
+Ref: +23
+Will: +27
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 15/cold iron and good
+Immune: death effects, disease, electricity, mind-affecting effects, poison
+Regen: 15 (good)
+Resist: acid 30, cold 30, fire 30
+Sr: 36
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +14
+::: statblock
+Speed: 60 ft., swim 40 ft., fly 60 ft. (good)
+Melee: Blackaxe +44/+39/+34/+29 (4d6+24/19-20/×3 plus 1d6 acid), bite +37 (2d6+6), 2 wings +37 (1d8+6)
+Reach: 20
+Space: 20
+Spec Att: defoliation
+:::
 
-**Type:** outsider
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: detect good, detect law, freedom of movement, true seeing, unholy aura, water breathing
+At will: antiplant shell, contagion (DC 21), desecrate, greater dispel magic, greater teleport, within Tanglebriar only, telekinesis (DC 22), unholy blight (DC 21)
+Per day: 3/day: control plants (DC 25), quickened greater dispel magic, wall of thorns\
+1/day: horrid wilting (DC 25), summon demons, symbol of death (DC 25), time stop
+:::
 
-**Perception:** +38
+### Statistics
 
-**Senses:** Darkvision 60 ft., Detect good, Detect law, True seeing
+::: statblock
+Ability scores: Str 36, Dex 30, Con 40, Int 21, Wis 24, Cha 25
+Base attack bonus: +28
+Combat maneuver bonus: +43
+Combat maneuver defense: 67
+Feats: Awesome Blow, Combat Reflexes, Critical Focus, Flyby Attack, Greater Vital Strike, Improved Bull Rush, Improved Critical (greataxe), Improved Initiative, Improved Vital Strike, Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater dispel magic), Staggering Critical, Vital Strike
+Skills: Acrobatics +41, Fly +38
+Languages: Abyssal, Common, Elven, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: nascent demon lord traits
+Gear: Blackaxe
+Faith: Treerazer
+:::
 
-**Subtype:** Demon, Native
+### Ecology
 
-**Experience points:** 1,638,400
-
-**Armor class:** 42
-
-**Touch:** 22
-
-**Flat-footed:** 32
-
-**AC modifiers:** +4 deflection, +10 Dex, +20 natural, -2 size
-
-**Hit points:** 574 (28d10+420)
-
-**Fort:** +34
-
-**Ref:** +23
-
-**Will:** +27
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 15/cold iron and good
-
-**Immune:** death effects, disease, electricity, mind-affecting effects, poison
-
-**Regen:** 15 (good)
-
-**Resist:** acid 30, cold 30, fire 30
-
-**Sr:** 36
-
-**Offense**
-
-**Speed:** 60 ft., swim 40 ft., fly 60 ft. (good)
-
-**Melee:** Blackaxe +44/+39/+34/+29 (4d6+24/19-20/×3 plus 1d6 acid), bite +37 (2d6+6), 2 wings +37
-(1d8+6)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spec Att:** defoliation
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- detect good, detect law, freedom of movement, true seeing, unholy aura, water breathing
-
-**At will:**
-
-- antiplant shell, contagion (DC 21), desecrate, greater dispel magic, greater teleport, within
-  Tanglebriar only, telekinesis (DC 22), unholy blight (DC 21)
-
-**Per day:**
-
-- 3/day: control plants (DC 25), quickened greater dispel magic, wall of thorns
-- 1/day: horrid wilting (DC 25), summon demons, symbol of death (DC 25), time stop
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 30, Con 40, Int 21, Wis 24, Cha 25
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +43
-
-**Combat maneuver defense:** 67
-
-**Feats:** Awesome Blow, Combat Reflexes, Critical Focus, Flyby Attack, Greater Vital Strike,
-Improved Bull Rush, Improved Critical (greataxe), Improved Initiative, Improved Vital Strike,
-Multiattack, Power Attack, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (greater
-dispel magic), Staggering Critical, Vital Strike
-
-**Skills:** Acrobatics +41, Fly +38
-
-**Languages:** Abyssal, Common, Elven, Sylvan; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** nascent demon lord traits
-
-**Gear:** Blackaxe
-
-**Faith:** Treerazer
-
-**Ecology**
-
-**Environment:** Tanglebriar
-
-**Organization:** solitary or group (Treerazer plus 1d4 [nalfeshnees](ref/monster/demon-nalfeshnee)
-and 2d4 [hezrous](ref/monster/demon-hezrou))
-
-**Treasure:** Triple; plus Blackaxe
+::: statblock
+Environment: Tanglebriar
+Organization: solitary or group (Treerazer plus 1d4 [nalfeshnees](ref/monster/demon-nalfeshnee) and 2d4 [hezrous](ref/monster/demon-hezrou))
+Treasure: Triple; plus Blackaxe
+:::
 
 ### Special Abilities
 

@@ -31,88 +31,68 @@ abilities = ["20", "17", "15", "12", "13", "12"]
 
 _This thick-bodied, white-furred bugbear wears bearskins and carries an axe made of ice and bone._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft., Scent
+Subtype: Goblinoid
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 armor, +3 Dex, +3 natural
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +8
+Will: +3
+Resist: cold 5
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +9 (1d8+7/×3)
+Ranged: javelin +7 (1d6+5)
+:::
 
-**Perception:** +11
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Per day: 3/day: quench
+:::
 
-**Senses:** Darkvision 60 ft., Scent
+### Statistics
 
-**Subtype:** Goblinoid
+::: statblock
+Ability scores: Str 20, Dex 17, Con 15, Int 12, Wis 13, Cha 12
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Martial Weapon Proficiency (battleaxe), Nimble Moves, Power Attack
+Skills: Climb +11, Intimidate +11, Perception +11
+Racial Modifiers: +4 Intimidate, +4 Perception, +4 Stealth
+Languages: Common, Giant, Goblin
+Special qualities: thuggery, trackless step
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 armor, +3 Dex, +3 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +3
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** battleaxe +9 (1d8+7/×3)
-
-**Ranged:** javelin +7 (1d6+5)
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Per day:**
-
-- 3/day: quench
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 17, Con 15, Int 12, Wis 13, Cha 12
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Martial Weapon Proficiency (battleaxe), Nimble Moves, Power Attack
-
-**Skills:** Climb +11, Intimidate +11, Perception +11
-
-**Racial Modifiers:** +4 Intimidate, +4 Perception, +4 Stealth
-
-**Languages:** Common, Giant, Goblin
-
-**Special qualities:** thuggery, trackless step
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary, pair, gang (3-6), or warband (7-12 plus 3 warriors of 1st level and 1
-chieftain of 3rd-5th level)
-
-**Treasure:** NPC gear (mwk studded leather armor, battleaxe, 3 javelins); other treasure
+::: statblock
+Environment: cold mountains
+Organization: solitary, pair, gang (3-6), or warband (7-12 plus 3 warriors of 1st level and 1 chieftain of 3rd-5th level)
+Treasure: NPC gear (mwk studded leather armor, battleaxe, 3 javelins); other treasure
+:::
 
 ### Special Abilities
 

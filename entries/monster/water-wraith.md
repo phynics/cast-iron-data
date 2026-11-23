@@ -31,73 +31,59 @@ abilities = ["14", "13", "13", "3", "12", "6"]
 _This eight-legged lizard has a round, lamprey-like mouth full of teeth, and its scales slowly
 change color to match its surroundings._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic neutral
+Initiative: +5
+Size: large
+Type: Magical beast
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +4
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Type:** Magical beast
+::: statblock
+Speed: 30 ft., swim 40 ft.
+B Drain: 1d2 Constitution
+Melee: bite +4 (1d8+2 plus attach), 4 claws +4 (1d6+2)
+Rend: 2 claws, 1d3+3
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 14, Dex 13, Con 13, Int 3, Wis 12, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +6 (+10 when attached)
+Combat maneuver defense: 18 (30 vs. trip)
+Feats: Dodge, Improved Initiative
+Skills: Perception +5, Stealth +1, Swim +14
+Special qualities: [amphibious](ref/umr/amphibious), expressive chameleon
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., swim 40 ft.
-
-**B Drain:** 1d2 Constitution
-
-**Melee:** bite +4 (1d8+2 plus attach), 4 claws +4 (1d6+2)
-
-**Rend:** 2 claws, 1d3+3
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 13, Int 3, Wis 12, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6 (+10 when attached)
-
-**Combat maneuver defense:** 18 (30 vs. trip)
-
-**Feats:** Dodge, Improved Initiative
-
-**Skills:** Perception +5, Stealth +1, Swim +14
-
-**Special qualities:** [amphibious](ref/umr/amphibious), expressive chameleon
-
-**Ecology**
-
-**Environment:** warm rivers (Garund)
-
-**Organization:** solitary, pair, or swarm (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: warm rivers (Garund)
+Organization: solitary, pair, or swarm (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

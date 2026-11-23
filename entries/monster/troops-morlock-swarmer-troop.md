@@ -29,83 +29,64 @@ special_qualities = "expert climber"
 abilities = ["17", "21", "16", "5", "14", "6"]
 +++
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Type: Monstrous humanoid
+Perception: +2
+Senses: Darkvision 120 ft.
+Subtype: Troop
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 12
+AC modifiers: +5 Dex, +1 dodge, +2 natural
+Hit points: 85 (9d10+36)
+Fort: +6
+Ref: +11
+Will: +10
+Defensive abilities: troop traits
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 40 ft., climb 30 ft.
+Melee: troop (4d6+3)
+Reach: 5
+Space: 15
+Spec Att: leap attack, swarming
+:::
 
-**Perception:** +2
+### Statistics
 
-**Senses:** Darkvision 120 ft.
+::: statblock
+Ability scores: Str 17, Dex 21, Con 16, Int 5, Wis 14, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +12
+Combat maneuver defense: 28
+Feats: Acrobatic, Dodge, Iron Will, Mobility, Toughness
+Skills: Acrobatics +18 (+22 when jumping), Climb +25, Stealth +11 (+15 in caverns)
+Racial Modifiers: +8 Acrobatics, +16 Climb, +4 Stealth in caverns
+Languages: Undercommon
+Special qualities: expert climber
+:::
 
-**Subtype:** Troop
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +1 dodge, +2 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +6
-
-**Ref:** +11
-
-**Will:** +10
-
-**Defensive abilities:** troop traits
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 40 ft., climb 30 ft.
-
-**Melee:** troop (4d6+3)
-
-**Reach:** 5
-
-**Space:** 15
-
-**Spec Att:** leap attack, swarming
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 21, Con 16, Int 5, Wis 14, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 28
-
-**Feats:** Acrobatic, Dodge, Iron Will, Mobility, Toughness
-
-**Skills:** Acrobatics +18 (+22 when jumping), Climb +25, Stealth +11 (+15 in caverns)
-
-**Racial Modifiers:** +8 Acrobatics, +16 Climb, +4 Stealth in caverns
-
-**Languages:** Undercommon
-
-**Special qualities:** expert climber
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or tribe (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or tribe (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

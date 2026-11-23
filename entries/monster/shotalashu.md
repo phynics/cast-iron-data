@@ -29,73 +29,59 @@ abilities = ["15", "17", "17", "4", "14", "12"]
 
 _This large, four-legged reptile has a brown scaled hide and a long, powerful tail._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +7
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 600
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 25 (3d10+9)
+Fort: +6
+Ref: +6
+Will: +3
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: 2 claws +4 (1d6+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 15, Dex 17, Con 17, Int 4, Wis 14, Cha 12
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 19
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Acrobatics +7 (+19 when jumping), Perception +9, Stealth +3
+Languages: Lashunta (can't speak)
+Special qualities: jungle strider, telepathic link
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 25 (3d10+9)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** 2 claws +4 (1d6+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 17, Con 17, Int 4, Wis 14, Cha 12
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Acrobatics +7 (+19 when jumping), Perception +9, Stealth +3
-
-**Languages:** Lashunta (can't speak)
-
-**Special qualities:** jungle strider, telepathic link
-
-**Ecology**
-
-**Environment:** any jungle (Castrovel)
-
-**Organization:** solitary, bonded mount (1 plus 1 [lashunta](ref/monster/lashunta)), or pack (3-5)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any jungle (Castrovel)
+Organization: solitary, bonded mount (1 plus 1 [lashunta](ref/monster/lashunta)), or pack (3-5)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

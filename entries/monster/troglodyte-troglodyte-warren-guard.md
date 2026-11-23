@@ -33,61 +33,45 @@ abilities = ["22", "13", "20", "8", "13", "9"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 9
-
 **Troglodyte [barbarian](ref/class/barbarian) ([brutal pugilist](ref/arc-barbarian/brutal-pugilist))
 8**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 16, 10 rounds)
+::: statblock
+Challenge rating: 9
+aura: [stench](ref/umr/stench) (30 ft., DC 16, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +14
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 6,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 18
+AC modifiers: +2 armor, +1 Dex, +8 natural, -2 rage
+Hit points: 124 (2d8+8d12+58\~10)
+Fort: +15
+Ref: +4
+Will: +8
+Defensive abilities: improved savage grapple
+Dr: 1/-
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
-
-**Perception:** +14
-
-**Senses:** Darkvision 90 ft.
-
-**Subtype:** Reptilian
-
-**Experience points:** 6,400
-
-**Armor class:** 19
-
-**Touch:** 11
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 armor, +1 Dex, +8 natural, -2 rage
-
-**Hit points:** 124 (2d8+8d12+58\~10)
-
-**Fort:** +15
-
-**Ref:** +4
-
-**Will:** +8
-
-**Defensive abilities:** improved savage grapple
-
-**Dr:** 1/-
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** +1 bite +16 (1d4+7), 2 +1 claws +16 (1d6+7)
-
-**Ranged:** javelin +10 (1d6+6)
-
-**Spec Att:** rage (21 rounds/day), rage powers
-([intimidating glare](ref/ragepower/intimidating-glare), [knockback](ref/ragepower/knockback),
-[strength surge](ref/ragepower/strength-surge) +8, [terrifying howl](ref/ragepower/terrifying-howl)
-\[DC 20\])
+::: statblock
+Speed: 40 ft.
+Melee: +1 bite +16 (1d4+7), 2 +1 claws +16 (1d6+7)
+Ranged: javelin +10 (1d6+6)
+Spec Att: rage (21 rounds/day), rage powers ([intimidating glare](ref/ragepower/intimidating-glare), [knockback](ref/ragepower/knockback), [strength surge](ref/ragepower/strength-surge) +8, [terrifying howl](ref/ragepower/terrifying-howl) \[DC 20\])
+:::
 
 ### Tactics
 
@@ -102,34 +86,27 @@ knockback to drive them away or grapples them to get them under control.
 19, touch 13, flat-footed 18; hp 104; Fort +13, Will +6; Melee +1 bite +14 (1d4+5), 2 +1 claws +14
 (1d6+5); Ranged javelin +10 (1d6+4); Str 18, Con 16; CMB +13 (+17 bull rush, +15 grapple).
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 22, Dex 13, Con 20, Int 8, Wis 13, Cha 9
+::: statblock
+Ability scores: Str 22, Dex 13, Con 20, Int 8, Wis 13, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+19 bull rush, +17 grapple)
+Combat maneuver defense: 24 (26 vs. bull rush)
+Feats: Diehard, Improved Bull Rush, Improved Natural Attack (claws), Iron Will, Power Attack
+Skills: Acrobatics +7 (+11 when jumping), Heal +7, Intimidate +12, Perception +14, Stealth +5 (+9 in rocky areas)
+Racial Modifiers: +4 Acrobatics when jumping, +4 Stealth (+8 in rocky areas)
+Languages: Draconic
+Special qualities: fast movement
+Combat gear: potion of barkskin, potion of cure serious wounds
+Other gear: Ifist1, Iboa2, Iclk1
+:::
 
-**Base attack bonus:** +9
+### Ecology
 
-**Combat maneuver bonus:** +15 (+19 bull rush, +17 grapple)
-
-**Combat maneuver defense:** 24 (26 vs. bull rush)
-
-**Feats:** Diehard, Improved Bull Rush, Improved Natural Attack (claws), Iron Will, Power Attack
-
-**Skills:** Acrobatics +7 (+11 when jumping), Heal +7, Intimidate +12, Perception +14, Stealth +5
-(+9 in rocky areas)
-
-**Racial Modifiers:** +4 Acrobatics when jumping, +4 Stealth (+8 in rocky areas)
-
-**Languages:** Draconic
-
-**Special qualities:** fast movement
-
-**Combat gear:** potion of barkskin, potion of cure serious wounds
-
-**Other gear:** Ifist1, Iboa2, Iclk1
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

@@ -30,89 +30,69 @@ abilities = ["18", "19", "16", "5", "16", "17"]
 _The rear limbs of this elk-sized insectoid loop into a large, chitinous sphere, and it nimbly
 propels itself forward with balance and grace._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic neutral
+Initiative: +4
+Type: Magical beast
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +4 natural
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +10
+Will: +5
+Defensive abilities: wheel barbs
+Immune: disease, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft., climb 10 ft.
+Bleed: 1d6
+Melee: bite +13 (1d6+4 plus bleed), claws +12 (1d4+4)
+Spec Att: freewheeling charge
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +11
+Per day: 3/day: glitterdust (DC 15), silent image (DC 14)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 18, Dex 19, Con 16, Int 5, Wis 16, Cha 17
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 27
+Feats: Dodge, Mobility, Nimble Moves, Weapon Focus (bite)
+Skills: Climb +17, Perception +12
+Racial Modifiers: +4 Perception, +8 Survival when tracking
+Languages: Aklo (can't speak)
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +4 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +5
-
-**Defensive abilities:** wheel barbs
-
-**Immune:** disease, poison
-
-**Offense**
-
-**Speed:** 40 ft., climb 10 ft.
-
-**Bleed:** 1d6
-
-**Melee:** bite +13 (1d6+4 plus bleed), claws +12 (1d4+4)
-
-**Spec Att:** freewheeling charge
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: glitterdust (DC 15), silent image (DC 14)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 19, Con 16, Int 5, Wis 16, Cha 17
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 27
-
-**Feats:** Dodge, Mobility, Nimble Moves, Weapon Focus (bite)
-
-**Skills:** Climb +17, Perception +12
-
-**Racial Modifiers:** +4 Perception, +8 Survival when tracking
-
-**Languages:** Aklo (can't speak)
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or nest (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or nest (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

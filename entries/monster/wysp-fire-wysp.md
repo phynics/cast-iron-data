@@ -30,85 +30,64 @@ abilities = ["10", "15", "12", "10", "13", "13"]
 
 _This sphere of elemental matter emits a strange hum that resonates with elemental power._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: resonance (30 ft.)
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Fire
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** resonance (30 ft.)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +2
+Immune: elemental traits, fire
+Vulner: cold
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft., fly 20 ft. (poor)
+Burn: 1d6 fire, DC 14
+Melee: 2 tendrils +9 (1d3+2 plus burn)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 10, Dex 15, Con 12, Int 10, Wis 13, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Bluff +7, Intimidate +7, Knowledge (planes) +6, Perception +7, Sense Motive +7, Stealth +16
+Languages: Ignan
+Special qualities: living battery, servitor
+:::
 
-**Subtype:** Elemental, Fire
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** elemental traits, fire
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 60 ft., fly 20 ft. (poor)
-
-**Burn:** 1d6 fire, DC 14
-
-**Melee:** 2 tendrils +9 (1d3+2 plus burn)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 12, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Bluff +7, Intimidate +7, Knowledge (planes) +6, Perception +7, Sense Motive +7, Stealth
-+16
-
-**Languages:** Ignan
-
-**Special qualities:** living battery, servitor
-
-**Ecology**
-
-**Environment:** any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6
-plus a powerful elemental creature)
-
-**Treasure:** None
+::: statblock
+Environment: any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6 plus a powerful elemental creature)
+Treasure: None
+:::
 
 ### Description
 

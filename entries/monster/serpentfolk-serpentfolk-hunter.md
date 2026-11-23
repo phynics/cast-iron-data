@@ -29,55 +29,43 @@ special_qualities = "track +1, wild empathy +1"
 abilities = ["22", "17", "19", "8", "11", "8"]
 +++
 
-**Challenge rating:** 6
-
 **Degenerate serpentfolk [ranger](ref/class/ranger) 2**
 
-**Initiative:** +7
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: medium
+Type: Monstrous humanoid
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft., Scent
+Experience points: 2,400
+:::
 
-**Size:** medium
+### Defense
 
-**Type:** Monstrous humanoid
+::: statblock
+Armor class: 20
+Touch: 13
+Flat-footed: 17
+AC modifiers: +3 Dex, +7 natural
+Hit points: 66 (7d10+28)
+Fort: +10
+Ref: +10
+Will: +4
+Immune: mind-affecting effects, paralysis, poison
+Sr: 17
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft., Scent
-
-**Experience points:** 2,400
-
-**Armor class:** 20
-
-**Touch:** 13
-
-**Flat-footed:** 17
-
-**AC modifiers:** +3 Dex, +7 natural
-
-**Hit points:** 66 (7d10+28)
-
-**Fort:** +10
-
-**Ref:** +10
-
-**Will:** +4
-
-**Immune:** mind-affecting effects, paralysis, poison
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** mwk scimitar +14/+9 (1d6+6/18-20), bite +8 (1d6+3 plus poison)
-
-**Ranged:** +1 composite shortbow +12/+7 (1d6+7/×3)
-
-**Spec Att:** combat style (archery)
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: mwk scimitar +14/+9 (1d6+6/18-20), bite +8 (1d6+3 plus poison)
+Ranged: +1 composite shortbow +12/+7 (1d6+7/×3)
+Spec Att: combat style (archery)
+:::
 
 ### Tactics
 
@@ -86,34 +74,27 @@ ability and firing arrows from darkness while communicating telepathically with 
 advantage of ranged combat until forced into melee, when it then uses its venomous bite to capture
 opponents for food or enslavement.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 22, Dex 17, Con 19, Int 8, Wis 11, Cha 8
+::: statblock
+Ability scores: Str 22, Dex 17, Con 19, Int 8, Wis 11, Cha 8
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 26
+Feats: Great Fortitude, Improved Initiative, Point-Blank Shot, Rapid Shot, Weapon Focus (composite shortbow)
+Skills: Climb +10
+Racial Modifiers: +8 Escape Artist, +4 Perception
+Languages: Aklo; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +1
+Combat gear: 4 +1 BANE-human arrows, 2 potion of cure moderate wounds
+Other gear: +1 csb20, mwk scimitar, 95 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 26
-
-**Feats:** Great Fortitude, Improved Initiative, Point-Blank Shot, Rapid Shot, Weapon Focus
-(composite shortbow)
-
-**Skills:** Climb +10
-
-**Racial Modifiers:** +8 Escape Artist, +4 Perception
-
-**Languages:** Aklo; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +1
-
-**Combat gear:** 4 +1 BANE-human arrows, 2 potion of cure moderate wounds
-
-**Other gear:** +1 csb20, mwk scimitar, 95 gp
-
-**Ecology**
-
-**Environment:** any land (usually jungles or underground)
+::: statblock
+Environment: any land (usually jungles or underground)
+:::
 
 ### Special Abilities
 

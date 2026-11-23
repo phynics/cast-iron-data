@@ -31,91 +31,70 @@ abilities = ["16", "17", "-", "13", "14", "15"]
 _This desiccated strix has glowing, green eyes and long, jagged claws. A pair of burning, ghostly
 wings sprouts from its hunched back._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 39 (6d8+12)
+Fort: +4
+Ref: +5
+Will: +7
+Chan Res: +2
+Defensive abilities: cursed land, rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: cold 5, fire 5
+Weaknesses: sunlight powerlessness
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +7 (1d4+3), 2 wraithfire wings +5 (1d4 cold plus staggered)
+Spec Att: unholy blast, wraithfire wings
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+At will: feather fall
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 1,200
+::: statblock
+Ability scores: Str 16, Dex 17, Con -, Int 13, Wis 14, Cha 15
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Combat Reflexes, Improved Initiative, Multiattack
+Skills: Climb +20, Intimidate +11, Perception +11
+Languages: Strix
+Special qualities: hatred
+:::
 
-**Armor class:** 17
+### Ecology
 
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Defensive abilities:** cursed land, rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** cold 5, fire 5
-
-**Weaknesses:** sunlight powerlessness
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +7 (1d4+3), 2 wraithfire wings +5 (1d4 cold plus staggered)
-
-**Spec Att:** unholy blast, wraithfire wings
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**At will:**
-
-- feather fall
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con -, Int 13, Wis 14, Cha 15
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Reflexes, Improved Initiative, Multiattack
-
-**Skills:** Climb +20, Intimidate +11, Perception +11
-
-**Languages:** Strix
-
-**Special qualities:** hatred
-
-**Ecology**
-
-**Environment:** temperate mountains
-
-**Organization:** solitary, pair, or warband (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate mountains
+Organization: solitary, pair, or warband (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

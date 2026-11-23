@@ -30,74 +30,59 @@ abilities = ["12", "17", "13", "16", "10", "17"]
 _Dark pink flesh drawn tightly across its emaciated body, this being resembles a gaunt human
 stripped of its skin, its pulsing muscles completely exposed._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: fey
+Initiative: +3
+Size: medium
+Perception: +7
+Senses: Low-light vision
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 18 (4d6+4)
+Fort: +2
+Ref: +7
+Will: +4
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +5 (1d4+1)
+Sneak: +1d6
+Spec Att: steal skin
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 12, Dex 17, Con 13, Int 16, Wis 10, Cha 17
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 16
+Feats: Deceitful, Weapon Finesse
+Skills: Acrobatics +10, Bluff +12, Disguise +16 (+26 with stolen skin), Sense Motive +7, Sleight of Hand +10, Stealth +14
+Racial Modifiers: +4 Disguise, +4 Heal, +4 Stealth
+Languages: Aklo, Common, Elven, Sylvan
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 18 (4d6+4)
-
-**Fort:** +2
-
-**Ref:** +7
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +5 (1d4+1)
-
-**Sneak:** +1d6
-
-**Spec Att:** steal skin
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 13, Int 16, Wis 10, Cha 17
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 16
-
-**Feats:** Deceitful, Weapon Finesse
-
-**Skills:** Acrobatics +10, Bluff +12, Disguise +16 (+26 with stolen skin), Sense Motive +7, Sleight
-of Hand +10, Stealth +14
-
-**Racial Modifiers:** +4 Disguise, +4 Heal, +4 Stealth
-
-**Languages:** Aklo, Common, Elven, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

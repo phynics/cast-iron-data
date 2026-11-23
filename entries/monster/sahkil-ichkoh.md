@@ -31,101 +31,73 @@ abilities = ["22", "19", "18", "12", "17", "21"]
 _This monstrosity looks like a massive cockroach made from putrid hair. A humanoid face leers in
 place of an insectile head._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +15
+Senses: Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 3,200
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +4 Dex, +6 natural
+Hit points: 85 (9d10+36)
+Fort: +9
+Ref: +10
+Will: +11
+Dr: 10/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 10, electricity 10, sonic 10
+Sr: 18
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +15 (2d6+6)
+Spec Att: fall apart, look of fear (30 ft., DC 21)
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +14
+Constant: detect good, detect magic, see invisibility
+At will: dimension door, invisibility, mage hand
+Per day: 3/day: alter self, blindness/deafness (DC 18), blur, inflict pain (DC 18)\
+1/day: enervation
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 22, Dex 19, Con 18, Int 12, Wis 17, Cha 21
+Base attack bonus: +9
+Combat maneuver bonus: +15
+Combat maneuver defense: 29 (33 vs. trip)
+Feats: Combat Reflexes, Great Fortitude, Improved Initiative, Iron Will, Skill Focus (Stealth)
+Skills: Acrobatics +16, Bluff +18, Knowledge (arcana) +13, Perception +15, Sense Motive +15, Spellcraft +13, Stealth +19
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easy to call, emotional focus, skip between, spirit touch
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +6 natural
-
-**Hit points:** 85 (9d10+36)
-
-**Fort:** +9
-
-**Ref:** +10
-
-**Will:** +11
-
-**Dr:** 10/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 10, electricity 10, sonic 10
-
-**Sr:** 18
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 claws +15 (2d6+6)
-
-**Spec Att:** fall apart, look of fear (30 ft., DC 21)
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- dimension door, invisibility, mage hand
-
-**Per day:**
-
-- 3/day: alter self, blindness/deafness (DC 18), blur, inflict pain (DC 18)
-- 1/day: enervation
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 18, Int 12, Wis 17, Cha 21
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 29 (33 vs. trip)
-
-**Feats:** Combat Reflexes, Great Fortitude, Improved Initiative, Iron Will, Skill Focus (Stealth)
-
-**Skills:** Acrobatics +16, Bluff +18, Knowledge (arcana) +13, Perception +15, Sense Motive +15,
-Spellcraft +13, Stealth +19
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or clot (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or clot (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

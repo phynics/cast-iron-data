@@ -30,160 +30,95 @@ abilities = ["41", "14", "30", "23", "22", "23"]
 
 **Mythic Shen**
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+Mythic rank: 9
+aura: frightful presence (300 ft., DC 30)
+Type: dragon
+Size: gargantuan
+Initiative: +15
+Alignment: Neutral
+Perception: +38
+Senses: Darkvision 120 ft., Low-light vision, Mistsight, Scent, See invisibility, True seeing
+Subtype: Aquatic, Mythic, Water
+Experience points: 1,228,800
+:::
 
-**Mythic rank:** 9
+### Defense
 
-**aura:** frightful presence (300 ft., DC 30)
+::: statblock
+Armor class: 44
+Touch: 8
+Flat-footed: 44
+AC modifiers: +2 Dex, +38 natural, -4 size
+Hit points: 568 (29d12+380)
+Fort: +26
+Ref: +20
+Will: +24
+Dr: 10/epic
+Immune: paralysis, sleep
+Sr: 35
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 50 ft., swim 80 ft., fly 250 ft. (average)
+Br Weap: 60-ft. cone, 25d6 cold, Reflex DC 34 for half, usable every 1d4 rounds
+M Power: 9/day, surge +1d10
+Melee: bite +41 (2d10+22/19-20), 2 claws +41 (2d8+15/19-20), gore +40 (2d10+22), tail slap +38 (2d10+22)
+Reach: 15
+Reach P: 20 ft. with bite and gore
+Space: 20
+Spec Att: cloud breath, crush, dragon attacks, lingering breath (4d6 cold, 9 rounds), mists of madness, tail sweep (DC 34, 2d6+22), wild arcana
+:::
 
-**Initiative:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 29
+Concentration: +35
+Constant: true seeing
+At will: control water, create water, hydraulic push, water walk
+:::
 
-**Alignment:** Neutral
-
-**Perception:** +38
-
-**Senses:** Darkvision 120 ft., Low-light vision, Mistsight, Scent, See invisibility, True seeing
-
-**Subtype:** Aquatic, Mythic, Water
-
-**Experience points:** 1,228,800
-
-**Armor class:** 44
-
-**Touch:** 8
-
-**Flat-footed:** 44
-
-**AC modifiers:** +2 Dex, +38 natural, -4 size
-
-**Hit points:** 568 (29d12+380)
-
-**Fort:** +26
-
-**Ref:** +20
-
-**Will:** +24
-
-**Dr:** 10/epic
-
-**Immune:** paralysis, sleep
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 50 ft., swim 80 ft., fly 250 ft. (average)
-
-**Br Weap:** 60-ft. cone, 25d6 cold, Reflex DC 34 for half, usable every 1d4 rounds
-
-**M Power:** 9/day, surge +1d10
-
-**Melee:** bite +41 (2d10+22/19-20), 2 claws +41 (2d8+15/19-20), gore +40 (2d10+22), tail slap +38
-(2d10+22)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite and gore
-
-**Space:** 20
-
-**Spec Att:** cloud breath, crush, dragon attacks, lingering breath (4d6 cold, 9 rounds), mists of
-madness, tail sweep (DC 34, 2d6+22), wild arcana
-
-**Spell-Like Abilities**
-
-**Caster level:** 29
-
-**Concentration:** +35
-
-**Constant:**
-
-- true seeing
-
-**At will:**
-
-- control water, create water, hydraulic push, water walk
-
-**Spells Known**
-
-**Caster level:** 17
-
-**Concentration:** +23
-
-**8th-level spells:**
-
-- 4/day: maze, greater shadow evocation (DC 28)
-
-**7th-level spells:**
-
-- 6/day: control weather^M^, greater shadow conjuration (DC 27), prismatic spray^M^ (DC 23)
-
-**6th-level spells:**
-
-- 7/day: globe of invulnerability^M^, greater dispel magic, mass suggestion (DC 22), programmed
-  image (DC 26)
-
-**5th-level spells:**
-
-- 7/day: dominate person (DC 21), persistent image (DC 25), shadow evocation (DC 25), telekinesis^M^
-  (DC 21)
-
-**4th-level spells:**
-
-- 7/day: dimension door^M^, greater invisibility, rainbow pattern (DC 24), shadow conjuration (DC
-  24)
-
-**3rd-level spells:**
-
-- 7/day: deep slumber^M^ (DC 19), dispel magic, haste^M^, major image (DC 23)
-
-**2nd-level spells:**
-
-- 8/day: euphoric cloud (DC 18), hypnotic pattern (DC 22), minor image^M^ (DC 22), mirror image,
-  invisibility^M^
-
-**1st-level spells:**
-
-- 8/day: comprehend languages, obscuring mist, silent image (DC 21), unseen servant, vanish
+::: statblock
+title = "Spells Known"
+Caster level: 17
+Concentration: +23
+8th-level spells: 4/day: maze, greater shadow evocation (DC 28)
+7th-level spells: 6/day: control weather^M^, greater shadow conjuration (DC 27), prismatic spray^M^ (DC 23)
+6th-level spells: 7/day: globe of invulnerability^M^, greater dispel magic, mass suggestion (DC 22), programmed image (DC 26)
+5th-level spells: 7/day: dominate person (DC 21), persistent image (DC 25), shadow evocation (DC 25), telekinesis^M^ (DC 21)
+4th-level spells: 7/day: dimension door^M^, greater invisibility, rainbow pattern (DC 24), shadow conjuration (DC 24)
+3rd-level spells: 7/day: deep slumber^M^ (DC 19), dispel magic, haste^M^, major image (DC 23)
+2nd-level spells: 8/day: euphoric cloud (DC 18), hypnotic pattern (DC 22), minor image^M^ (DC 22), mirror image, invisibility^M^
+1st-level spells: 8/day: comprehend languages, obscuring mist, silent image (DC 21), unseen servant, vanish
+:::
 
 ###### M {#footnote-m}
 
 mythic spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 41, Dex 14, Con 30, Int 23, Wis 22, Cha 23
+::: statblock
+Ability scores: Str 41, Dex 14, Con 30, Int 23, Wis 22, Cha 23
+Base attack bonus: +29
+Combat maneuver bonus: +48
+Combat maneuver defense: 60 (64 vs. trip)
+Feats: Flyby Attack, Greater Spell Focus (illusion), Improved Critical (bite), Improved Critical (claws), Mythic Improved Initiative, Mythic Iron Will, Mythic Lightning Reflexes, Lunge, Multiattack, Power Attack, Snatch, Mythic Spell Focus (illusion), Mythic Vital Strike, Weapon Focus (bite, claw)
+Skills: Bluff +38, Disable Device +31, Fly +28
+Languages: Aquan, Auran, Celestial, Common, Draconic, Sylvan, Terran
+Special qualities: [change shape](ref/umr/change-shape) (pheasant, shellfish, swallow; [beast shape III](ref/spell/beast-shape-3)), competent caster, dragon cantrips, gaseous form, mirage castle, mythic spellcasting, pearl soul
+:::
 
-**Base attack bonus:** +29
+### Ecology
 
-**Combat maneuver bonus:** +48
-
-**Combat maneuver defense:** 60 (64 vs. trip)
-
-**Feats:** Flyby Attack, Greater Spell Focus (illusion), Improved Critical (bite), Improved Critical
-(claws), Mythic Improved Initiative, Mythic Iron Will, Mythic Lightning Reflexes, Lunge,
-Multiattack, Power Attack, Snatch, Mythic Spell Focus (illusion), Mythic Vital Strike, Weapon Focus
-(bite, claw)
-
-**Skills:** Bluff +38, Disable Device +31, Fly +28
-
-**Languages:** Aquan, Auran, Celestial, Common, Draconic, Sylvan, Terran
-
-**Special qualities:** [change shape](ref/umr/change-shape) (pheasant, shellfish, swallow;
-[beast shape III](ref/spell/beast-shape-3)), competent caster, dragon cantrips, gaseous form, mirage
-castle, mythic spellcasting, pearl soul
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary
-
-**Treasure:** Triple
+::: statblock
+Environment: any water
+Organization: solitary
+Treasure: Triple
+:::
 
 ### Special Abilities
 

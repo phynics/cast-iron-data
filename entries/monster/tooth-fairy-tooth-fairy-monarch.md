@@ -32,92 +32,69 @@ _Resembling a gaunt humanoid from the waist up and a fleshy insect from the wais
 child-sized creature has enormous black eyes and a large jaw with a lolling tongue. It wears a crown
 made of humanoid teeth and clutches a tooth-studded scepter._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: fey
+Initiative: +8
+Alignment: Neutral evil
+Perception: +10
+Senses: Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 27 (5d6+10)
+Fort: +3
+Ref: +8
+Will: +6
+Dr: 5/cold iron
+Sr: 14
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 20 ft., fly 50 ft. (perfect)
+Melee: scepter +6 (1d6+3), bite +5 (1d6+2 plus paralysis)
+Paralysis: 1d4 rounds, DC 14
+Spec Att: death throes, scepter
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+At will: fumbletongue (DC 13), mage hand, open/close
+Per day: 1/day: hold animal (DC 14), hold person (DC 14), invisibility, self only, ventriloquism (DC 13)
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 14, Dex 18, Con 15, Int 11, Wis 15, Cha 14
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 17 (25 vs. trip)
+Feats: Combat Reflexes, Improved Initiative, Skill Focus (Bluff)
+Skills: Bluff +12, Escape Artist +11, Fly +13, Perception +10, Sense Motive +9, Stealth +15, Use Magic Device +10
+Languages: Common, Sylvan
+Special qualities: tooth eater
+:::
 
-**Armor class:** 15
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 27 (5d6+10)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +6
-
-**Dr:** 5/cold iron
-
-**Sr:** 14
-
-**Offense**
-
-**Speed:** 20 ft., fly 50 ft. (perfect)
-
-**Melee:** scepter +6 (1d6+3), bite +5 (1d6+2 plus paralysis)
-
-**Paralysis:** 1d4 rounds, DC 14
-
-**Spec Att:** death throes, scepter
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**At will:**
-
-- fumbletongue (DC 13), mage hand, open/close
-
-**Per day:**
-
-- 1/day: hold animal (DC 14), hold person (DC 14), invisibility, self only, ventriloquism (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 18, Con 15, Int 11, Wis 15, Cha 14
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 17 (25 vs. trip)
-
-**Feats:** Combat Reflexes, Improved Initiative, Skill Focus (Bluff)
-
-**Skills:** Bluff +12, Escape Artist +11, Fly +13, Perception +10, Sense Motive +9, Stealth +15, Use
-Magic Device +10
-
-**Languages:** Common, Sylvan
-
-**Special qualities:** tooth eater
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or court (1 plus 2-12 \[tooth fairies\](ref/monster/tooth-fairy))
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary or court (1 plus 2-12 \[tooth fairies\](ref/monster/tooth-fairy))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,63 @@ abilities = ["18", "20", "19", "2", "14", "10"]
 _This sleek equine is slightly smaller than an average horse, but its eyes contain a gleam of higher
 intelligence._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +5
+Size: large
+Alignment: Neutral
+Perception: +8 (+12 in deserts)
+Senses: Desert senses, Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 12
+AC modifiers: +5 Dex, +3 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +8
+Ref: +9
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: bite +6 (1d8+4), 2 hooves +5 (1d4+2)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +8 (+12 in deserts)
+### Statistics
 
-**Senses:** Desert senses, Low-light vision, Scent
-
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +5 Dex, +3 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +8
-
-**Ref:** +9
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** bite +6 (1d8+4), 2 hooves +5 (1d4+2)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 20, Con 19, Int 2, Wis 14, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 23
-
-**Feats:** Endurance, Multiattack, Run^B^, Weapon Focus (hoof)
-
-**Skills:** Perception +8 (+12 in deserts)
-
-**Racial Modifiers:** +4 Perception and +4 Survival in deserts
-
-**Special qualities:** desert dweller, easily trained
+::: statblock
+Ability scores: Str 18, Dex 20, Con 19, Int 2, Wis 14, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 23
+Feats: Endurance, Multiattack, Run^B^, Weapon Focus (hoof)
+Skills: Perception +8 (+12 in deserts)
+Racial Modifiers: +4 Perception and +4 Survival in deserts
+Special qualities: desert dweller, easily trained
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or herd (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or herd (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

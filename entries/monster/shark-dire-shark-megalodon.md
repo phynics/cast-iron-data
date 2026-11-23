@@ -30,76 +30,60 @@ abilities = ["30", "15", "17", "1", "12", "10"]
 _Large as a dragon, this shark's jaws open to reveal a cavernous, tooth-lined gullet capable of
 swallowing a horse whole._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: animal
+blindsense: 30
+Size: gargantuan
+Initiative: +6
+Keen Scent: present
+Alignment: Neutral
+Perception: +25
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 21
+AC modifiers: +2 Dex, +15 natural, -4 size
+Hit points: 112 (15d8+45)
+Fort: +14
+Ref: +13
+Will: +8
+:::
 
-**Size:** gargantuan
+### Offense
 
-**Initiative:** +6
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +17 (4d10+15/19-20 plus [grab](ref/umr/grab))
+Reach: 20
+Space: 20
+Swallow: 2d6+15 damage, AC 17, 11 hp
+:::
 
-**Keen Scent:** present
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 30, Dex 15, Con 17, Int 1, Wis 12, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +25 (+29 grapple)
+Combat maneuver defense: 37
+Feats: Bleeding Critical, Critical Focus, Great Fortitude, Improved Critical (bite), Improved Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
+Skills: Perception +25, Swim +18
+:::
 
-**Perception:** +25
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 21
-
-**AC modifiers:** +2 Dex, +15 natural, -4 size
-
-**Hit points:** 112 (15d8+45)
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +17 (4d10+15/19-20 plus [grab](ref/umr/grab))
-
-**Reach:** 20
-
-**Space:** 20
-
-**Swallow:** 2d6+15 damage, AC 17, 11 hp
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 15, Con 17, Int 1, Wis 12, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +25 (+29 grapple)
-
-**Combat maneuver defense:** 37
-
-**Feats:** Bleeding Critical, Critical Focus, Great Fortitude, Improved Critical (bite), Improved
-Initiative, Iron Will, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Perception +25, Swim +18
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary
+Treasure: None
+:::
 
 ### Description
 

@@ -31,79 +31,62 @@ abilities = ["14", "17", "16", "7", "10", "15"]
 
 _This glittering ooze suddenly flexes and bulges as portions of it begin to crystallize._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsight: 30
+Alignment: Chaotic good
+Initiative: +3
+Size: medium
+Type: ooze
+Perception: +3
+Subtype: Extraplanar, Shapechanger
+Experience points: 600
+:::
 
-**blindsight:** 30
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 10
+AC modifiers: +3 Dex, +1 dodge
+Hit points: 22 (3d8+9)
+Fort: +4
+Ref: +4
+Will: +1
+Defensive abilities: all-around vision
+Dr: 5/bludgeoning
+Immune: acid, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: 2 slam +4 (1d4+2)
+Spec Att: hero's infusion
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +3
+::: statblock
+Ability scores: Str 14, Dex 17, Con 16, Int 7, Wis 10, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Dodge, Skill Focus (Perception)
+Skills: Climb +11
+Languages: Celestial, Common
+Special qualities: amorphous aegis, [compression](ref/umr/compression)
+:::
 
-**Subtype:** Extraplanar, Shapechanger
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 10
-
-**AC modifiers:** +3 Dex, +1 dodge
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/bludgeoning
-
-**Immune:** acid, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** 2 slam +4 (1d4+2)
-
-**Spec Att:** hero's infusion
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con 16, Int 7, Wis 10, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Dodge, Skill Focus (Perception)
-
-**Skills:** Climb +11
-
-**Languages:** Celestial, Common
-
-**Special qualities:** amorphous aegis, [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or colony (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

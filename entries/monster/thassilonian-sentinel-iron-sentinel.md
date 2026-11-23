@@ -30,85 +30,67 @@ abilities = ["22", "18", "-", "1", "11", "5"]
 
 _An ape-like head with demonic features cast in black iron sits on six segmented mechanical legs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Type: construct
+Initiative: +9
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Detect magic, Low-light vision
+Size: small
+Experience points: 1,600
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 15
+AC modifiers: +4 Dex, +4 natural, +1 size
+Hit points: 54 (8d10+10)
+Fort: +2
+Ref: +8
+Will: +2
+Immune: cold, [construct traits](ref/umr/construct-traits), magic
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: 2 claws +16 (1d4+6)
+Ranged: icy bolt +13 (1d6 cold plus slow)
+Spec Att: head-butt +16 (1d4+3)
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 2
+Concentration: -1
+Constant: detect magic
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 22, Dex 18, Con -, Int 1, Wis 11, Cha 5
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 27 (35 vs. trip)
+Feats: Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (claws)
+Skills: Acrobatics +6, Climb +16, Perception +5, Stealth +10
+Languages: Thassilonian (can't speak)
+Special qualities: alert, [freeze](ref/umr/freeze)
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 Dex, +4 natural, +1 size
-
-**Hit points:** 54 (8d10+10)
-
-**Fort:** +2
-
-**Ref:** +8
-
-**Will:** +2
-
-**Immune:** cold, [construct traits](ref/umr/construct-traits), magic
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** 2 claws +16 (1d4+6)
-
-**Ranged:** icy bolt +13 (1d6 cold plus slow)
-
-**Spec Att:** head-butt +16 (1d4+3)
-
-**Spell-Like Abilities**
-
-**Caster level:** 2
-
-**Concentration:** -1
-
-**Constant:**
-
-- detect magic
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 18, Con -, Int 1, Wis 11, Cha 5
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 27 (35 vs. trip)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Skill Focus (Perception), Weapon Focus (claws)
-
-**Skills:** Acrobatics +6, Climb +16, Perception +5, Stealth +10
-
-**Languages:** Thassilonian (can't speak)
-
-**Special qualities:** alert, [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or troop (3-7)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or troop (3-7)
+Treasure: None
+:::
 
 ### Special Abilities
 

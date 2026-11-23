@@ -31,73 +31,59 @@ abilities = ["3", "19", "10", "1", "12", "6"]
 _This insectoid creature has two pairs of bat wings, a tangle of thin legs, and a needle-sharp
 proboscis._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: tiny
+Experience points: 200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +4 Dex, +2 size
+Hit points: 5 (1d10)
+Fort: +2
+Ref: +6
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 10 ft., fly 40 ft. (average)
+Melee: touch +7 (attach)
+Reach: 0
+Space: 2-1/2
+Spec Att: blood drain
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 19, Con 10, Int 1, Wis 12, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +3 (+11 grapple when attached)
+Combat maneuver defense: 9 (17 vs. trip)
+Feats: Weapon Finesse
+Skills: Fly +8, Stealth +16
+Special qualities: diseased
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +4 Dex, +2 size
-
-**Hit points:** 5 (1d10)
-
-**Fort:** +2
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., fly 40 ft. (average)
-
-**Melee:** touch +7 (attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** blood drain
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 19, Con 10, Int 1, Wis 12, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3 (+11 grapple when attached)
-
-**Combat maneuver defense:** 9 (17 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Fly +8, Stealth +16
-
-**Special qualities:** diseased
-
-**Ecology**
-
-**Environment:** temperate and warm swamps
-
-**Organization:** solitary, colony (2-4), flock (5-8), storm (9-14), or swarm (15-40)
-
-**Treasure:** None
+::: statblock
+Environment: temperate and warm swamps
+Organization: solitary, colony (2-4), flock (5-8), storm (9-14), or swarm (15-40)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,98 +31,70 @@ abilities = ["26", "18", "21", "4", "13", "11"]
 _This arching, reptilian creature has an elongated neck and short fins. Its jagged teeth hint at its
 primordial nature, and the abundant plant growth covering its body suggests both fertility and rot._
 
-**Challenge rating:** 12
-
 **Female unique water orm**
 
-**Size:** huge
+::: statblock
+Challenge rating: 12
+Size: huge
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Aquatic
+Experience points: 19,200
+:::
 
-**Initiative:** +4
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 26
+Touch: 12
+Flat-footed: 22
+AC modifiers: +4 Dex, +14 natural, -2 size
+Hit points: 157 (15d10+75); swamp healing 5
+Fort: +14
+Ref: +13
+Will: +8
+Defensive abilities: elusive
+Immune: cold, poison
+Resist: electricity 20, fire 20
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: bite +21 (4d6+8/19-20 plus [grab](ref/umr/grab) and poison), tail slap +16 (2d8+4)
+Reach: 15
+Reach P: 20 ft. with bite
+Space: 15
+Swallow: 3d6+12 bludgeoning damage, AC 17, 15 hp
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +15
+At will: control water, freedom of movement
+Per day: 5/day: diminish plants, plant growth\
+3/day: command plants, thorn body, wall of thorns\
+1/day: hydraulic torrent
+:::
 
-**Subtype:** Aquatic
+### Statistics
 
-**Experience points:** 19,200
-
-**Armor class:** 26
-
-**Touch:** 12
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +14 natural, -2 size
-
-**Hit points:** 157 (15d10+75); swamp healing 5
-
-**Fort:** +14
-
-**Ref:** +13
-
-**Will:** +8
-
-**Defensive abilities:** elusive
-
-**Immune:** cold, poison
-
-**Resist:** electricity 20, fire 20
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** bite +21 (4d6+8/19-20 plus [grab](ref/umr/grab) and poison), tail slap +16 (2d8+4)
-
-**Reach:** 15
-
-**Reach P:** 20 ft. with bite
-
-**Space:** 15
-
-**Swallow:** 3d6+12 bludgeoning damage, AC 17, 15 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +15
-
-**At will:**
-
-- control water, freedom of movement
-
-**Per day:**
-
-- 5/day: diminish plants, plant growth
-- 3/day: command plants, thorn body, wall of thorns
-- 1/day: hydraulic torrent
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 18, Con 21, Int 4, Wis 13, Cha 11
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +25 (+27 bull rush, +29 grapple)
-
-**Combat maneuver defense:** 39 (41 vs. bull rush, 43 vs. trip)
-
-**Feats:** Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Iron
-Will, Iron Will, Power Attack, Sickening Critical
-
-**Skills:** Perception +13, Stealth +9 (+17 in swamps), Swim +16
-
-**Racial Modifiers:** +4 Perception, +8 Stealth in swamps
-
-**Languages:** Aquan (can't speak)
-
-**Special qualities:** [amphibious](ref/umr/amphibious), water travel
+::: statblock
+Ability scores: Str 26, Dex 18, Con 21, Int 4, Wis 13, Cha 11
+Base attack bonus: +15
+Combat maneuver bonus: +25 (+27 bull rush, +29 grapple)
+Combat maneuver defense: 39 (41 vs. bull rush, 43 vs. trip)
+Feats: Awesome Blow, Critical Focus, Improved Bull Rush, Improved Critical (bite), Improved Iron Will, Iron Will, Power Attack, Sickening Critical
+Skills: Perception +13, Stealth +9 (+17 in swamps), Swim +16
+Racial Modifiers: +4 Perception, +8 Stealth in swamps
+Languages: Aquan (can't speak)
+Special qualities: [amphibious](ref/umr/amphibious), water travel
+:::
 
 ### Special Abilities
 

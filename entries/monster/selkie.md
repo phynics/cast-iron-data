@@ -35,76 +35,60 @@ abilities = ["18", "17", "14", "13", "10", "19"]
 _This sleek, aquatic creature has short gray fur, webbed hands ending in sharp claws, and a mouth
 full of pointed teeth._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Initiative: +7
+Size: medium
+Type: Monstrous humanoid
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Subtype: Aquatic, Shapechanger
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +5 natural
+Hit points: 45 (6d10+12)
+Fort: +4
+Ref: +8
+Will: +5
+Resist: cold 10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 20 ft., swim 50 ft.
+Melee: bite +10 (1d8+6), 2 claws +10 (1d6+4)
+Spec Att: powerful blows (bite), shake
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 18, Dex 17, Con 14, Int 13, Wis 10, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 23 (can't be tripped)
+Feats: Combat Reflexes, Deceitful, Improved Critical (bite), Improved Initiative
+Skills: Bluff +12, Disguise +10, Sense Motive +4, Stealth +10, Swim +21
+Languages: Aquan, Common
+Special qualities: [change shape](ref/umr/change-shape) (any Small or Medium humanoid; [alter self](ref/spell/alter-self)), echo of reason, [hold breath](ref/umr/hold-breath)
+:::
 
-**Subtype:** Aquatic, Shapechanger
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +5 natural
-
-**Hit points:** 45 (6d10+12)
-
-**Fort:** +4
-
-**Ref:** +8
-
-**Will:** +5
-
-**Resist:** cold 10
-
-**Offense**
-
-**Speed:** 20 ft., swim 50 ft.
-
-**Melee:** bite +10 (1d8+6), 2 claws +10 (1d6+4)
-
-**Spec Att:** powerful blows (bite), shake
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 17, Con 14, Int 13, Wis 10, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 23 (can't be tripped)
-
-**Feats:** Combat Reflexes, Deceitful, Improved Critical (bite), Improved Initiative
-
-**Skills:** Bluff +12, Disguise +10, Sense Motive +4, Stealth +10, Swim +21
-
-**Languages:** Aquan, Common
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), echo of reason, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold oceans
-
-**Organization:** solitary, pair, or pack (3-14)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold oceans
+Organization: solitary, pair, or pack (3-14)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,81 +31,63 @@ abilities = ["26", "14", "17", "-", "14", "9"]
 _This strange oyster-like mollusk has a long, thin tongue, tipped with a blade, that slides from
 between the shell halves._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Aquatic
+Type: vermin
+Experience points: 2,400
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 21
+AC modifiers: +4 armor, +2 Dex, +8 natural, -1 size
+Hit points: 60 (8d8+24)
+Fort: +9
+Ref: +4
+Will: +4
+Defensive abilities: sticky shell
+Dr: 5/adamantine
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 5 ft., swim 20 ft.
+Bleed: 1d6
+Melee: tongue +13 (2d6+12/-18-20 plus bleed)
+Reach: 15
+Space: 10
+Spec Att: ambush strike
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 26, Dex 14, Con 17, Int -, Wis 14, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +15
+Combat maneuver defense: 27 (can't be tripped)
+Skills: Stealth +6 (+14 in lair), Swim +16
+Racial Modifiers: +8 Stealth (+16 in lair)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 21
-
-**AC modifiers:** +4 armor, +2 Dex, +8 natural, -1 size
-
-**Hit points:** 60 (8d8+24)
-
-**Fort:** +9
-
-**Ref:** +4
-
-**Will:** +4
-
-**Defensive abilities:** sticky shell
-
-**Dr:** 5/adamantine
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 5 ft., swim 20 ft.
-
-**Bleed:** 1d6
-
-**Melee:** tongue +13 (2d6+12/-18-20 plus bleed)
-
-**Reach:** 15
-
-**Space:** 10
-
-**Spec Att:** ambush strike
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 14, Con 17, Int -, Wis 14, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 27 (can't be tripped)
-
-**Skills:** Stealth +6 (+14 in lair), Swim +16
-
-**Racial Modifiers:** +8 Stealth (+16 in lair)
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary, pair, or bed (3-10)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm oceans
+Organization: solitary, pair, or bed (3-10)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

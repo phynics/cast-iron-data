@@ -31,95 +31,69 @@ abilities = ["34", "13", "29", "13", "16", "12"]
 _A tentacled horror that seems to shift in and out of the shadows, this bizarre beast is an
 amalgamation of darkness and menace._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Alignment: Chaotic evil
+Initiative: +5
+Size: large
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Augmented aberration
+Experience points: 25,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 27
+Touch: 10
+Flat-footed: 26
+AC modifiers: +1 Dex, +17 natural, -1 size
+Hit points: 162 (12d8+108)
+Fort: +13
+Ref: +5
+Will: +13
+Defensive abilities: shadow blend
+Dr: 10/magic
+Immune: electricity
+Resist: cold 15
+Sr: 27
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 10 ft.
+Melee: bite +20 (4d8+18/19-20)
+Pull: strands, 5 ft.
+Ranged: 6 strands +10 touch (1d6 Str)
+Reach: 10
+Space: 10
+Spec Att: strands
+:::
 
-**Perception:** +24
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 34, Dex 13, Con 29, Int 13, Wis 16, Cha 12
+Base attack bonus: +9
+Combat maneuver bonus: +22
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (strand)
+Skills: Climb +27, Knowledge (dungeoneering) +13, Perception +24, Stealth +18 (+44 in icy or stony areas)
+Racial Modifiers: +26 Stealth in icy or stony areas
+Languages: Aklo, Common
+:::
 
-**Subtype:** Augmented aberration
+### Ecology
 
-**Experience points:** 25,600
-
-**Armor class:** 27
-
-**Touch:** 10
-
-**Flat-footed:** 26
-
-**AC modifiers:** +1 Dex, +17 natural, -1 size
-
-**Hit points:** 162 (12d8+108)
-
-**Fort:** +13
-
-**Ref:** +5
-
-**Will:** +13
-
-**Defensive abilities:** shadow blend
-
-**Dr:** 10/magic
-
-**Immune:** electricity
-
-**Resist:** cold 15
-
-**Sr:** 27
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** bite +20 (4d8+18/19-20)
-
-**Pull:** strands, 5 ft.
-
-**Ranged:** 6 strands +10 touch (1d6 Str)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** strands
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 13, Con 29, Int 13, Wis 16, Cha 12
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Skill Focus (Perception), Skill
-Focus (Stealth), Weapon Focus (strand)
-
-**Skills:** Climb +27, Knowledge (dungeoneering) +13, Perception +24, Stealth +18 (+44 in icy or
-stony areas)
-
-**Racial Modifiers:** +26 Stealth in icy or stony areas
-
-**Languages:** Aklo, Common
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, or cluster (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary, pair, or cluster (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

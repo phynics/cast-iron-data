@@ -31,81 +31,65 @@ abilities = ["5", "15", "10", "-", "10", "2"]
 _This brown spider's body is fist-sized, yet its long, spindly legs and oversized fangs make it
 appear quite fearsome._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +2
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft.
+Size: tiny
+tremorsense: 60
+Type: vermin
+Experience points: 100
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 4 (1d8)
+Fort: +2
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +0
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +4 (1d3-3 plus poison)
+Reach: 5
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Size:** tiny
+### Statistics
 
-**tremorsense:** 60
-
-**Type:** vermin
-
-**Experience points:** 100
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 4 (1d8)
-
-**Fort:** +2
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +4 (1d3-3 plus poison)
-
-**Reach:** 5
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 15, Con 10, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7
-
-**Feats:** Lunge^B^, Weapon Finesse^B^
-
-**Skills:** Climb +5
-
-**Special qualities:** [compression](ref/umr/compression), water skating
+::: statblock
+Ability scores: Str 5, Dex 15, Con 10, Int -, Wis 10, Cha 2
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 7
+Feats: Lunge^B^, Weapon Finesse^B^
+Skills: Climb +5
+Special qualities: [compression](ref/umr/compression), water skating
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

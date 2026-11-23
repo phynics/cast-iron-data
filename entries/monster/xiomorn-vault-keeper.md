@@ -34,104 +34,74 @@ abilities = ["22", "27", "25", "27", "18", "24"]
 _This towering, spindly, four-armed entity appears to be made of stone and crystal, yet it moves
 with a fluid grace._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +8
+Alignment: Lawful neutral
+Size: medium
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+tremorsense: 120
+Experience points: 38,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful neutral
+::: statblock
+Armor class: 28
+Touch: 19
+Flat-footed: 19
+AC modifiers: +8 Dex, +1 dodge, +9 natural
+Hit points: 200 (16d10+112)
+Fort: +12
+Ref: +18
+Will: +14
+Dr: 10/adamantine and bludgeoning
+Fh: 5
+Immune: elemental traits
+Sr: 25
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: 4 claws +24 (2d4+6/19-20 plus crystallization)
+Rend: 2 claws, 2d4+9
+Spec Att: crystal burst (DC 25), crystallization (DC 25)
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+At will: dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 19), statue (DC 24), stone shape, stone tell
+Per day: 3/day: command stone (DC 26), flesh to stone (DC 23), spike stones (DC 21), wall of stone\
+1/day: summon monster VII, earth elementals only, symbol of scrying
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Earth, Elemental, Extraplanar
+::: statblock
+Ability scores: Str 22, Dex 27, Con 25, Int 27, Wis 18, Cha 24
+Base attack bonus: +16
+Combat maneuver bonus: +22 (+24 sunder)
+Combat maneuver defense: 41 (43 vs. sunder)
+Feats: Combat Reflexes, Dodge, Improved Critical (claw), Improved Sunder, Mobility, Power Attack, Spring Attack, Weapon Finesse
+Skills: Acrobatics +20, Climb +30, Knowledge (arcana) +27, Knowledge (dungeoneering, nature) +24, Perception +23, Sense Motive +23, Spellcraft +27, Stealth +27, Use Magic Device +26
+Languages: Terran; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: item mastery
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 19
-
-**Flat-footed:** 19
-
-**AC modifiers:** +8 Dex, +1 dodge, +9 natural
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +14
-
-**Dr:** 10/adamantine and bludgeoning
-
-**Fh:** 5
-
-**Immune:** elemental traits
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** 4 claws +24 (2d4+6/19-20 plus crystallization)
-
-**Rend:** 2 claws, 2d4+9
-
-**Spec Att:** crystal burst (DC 25), crystallization (DC 25)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**At will:**
-
-- dispel magic, greater teleport, self plus 50 lbs. of objects only, shatter (DC 19), statue (DC
-  24), stone shape, stone tell
-
-**Per day:**
-
-- 3/day: command stone (DC 26), flesh to stone (DC 23), spike stones (DC 21), wall of stone
-- 1/day: summon monster VII, earth elementals only, symbol of scrying
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 27, Con 25, Int 27, Wis 18, Cha 24
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +22 (+24 sunder)
-
-**Combat maneuver defense:** 41 (43 vs. sunder)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (claw), Improved Sunder, Mobility, Power
-Attack, Spring Attack, Weapon Finesse
-
-**Skills:** Acrobatics +20, Climb +30, Knowledge (arcana) +27, Knowledge (dungeoneering, nature)
-+24, Perception +23, Sense Motive +23, Spellcraft +27, Stealth +27, Use Magic Device +26
-
-**Languages:** Terran; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** item mastery
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or cabal (3-6 plus 4-12 [pechs](ref/monster/pech) and 2-6
-[earth elementals](ref/monster/earth-elemental))
-
-**Treasure:** Double
+::: statblock
+Environment: any
+Organization: solitary, pair, or cabal (3-6 plus 4-12 [pechs](ref/monster/pech) and 2-6 [earth elementals](ref/monster/earth-elemental))
+Treasure: Double
+:::
 
 ### Special Abilities
 

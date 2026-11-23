@@ -27,80 +27,62 @@ melee = "swarm +7 (1d6 plus distraction and disease)"
 abilities = ["5", "17", "-", "2", "10", "15"]
 +++
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +3
+Alignment: Neutral evil
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +6
+Will: +3
+Defensive abilities: half damage from weapons, swarm traits
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Distraction: 13
+Melee: swarm +7 (1d6 plus distraction and disease)
+Reach: 0
+Space: 10
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 5, Dex 17, Con -, Int 2, Wis 10, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Lightning Reflexes, Weapon Finesse
+Skills: Climb +5, Perception +5, Stealth +15
+Racial Modifiers: +4 Climb, +4 Stealth
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +3
-
-**Defensive abilities:** half damage from weapons, swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Distraction:** 13
-
-**Melee:** swarm +7 (1d6 plus distraction and disease)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 5, Dex 17, Con -, Int 2, Wis 10, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Lightning Reflexes, Weapon Finesse
-
-**Skills:** Climb +5, Perception +5, Stealth +15
-
-**Racial Modifiers:** +4 Climb, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or nuisance (3-5 swarms plus 1
-[ubashki lynx](ref/monster/ubashki-ubashki-lynx))
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or nuisance (3-5 swarms plus 1 [ubashki lynx](ref/monster/ubashki-ubashki-lynx))
+Treasure: None
+:::
 
 ### Special Abilities
 

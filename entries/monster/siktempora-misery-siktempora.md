@@ -32,115 +32,81 @@ abilities = ["22", "19", "20", "15", "21", "18"]
 _This armless creature has a woman's torso supported by six spidery legs. It lacks a mouth or nose,
 and its gaze conveys a furious misery._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Alignment: Chaotic evil
+Initiative: +13
+Size: large
+Type: outsider
+Perception: +24
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 19,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 27
+Touch: 19
+Flat-footed: 22
+AC modifiers: +4 Dex, +1 dodge, +5 insight, +8 natural, -1 size
+Hit points: 168 (16d10+80)
+Fort: +10
+Ref: +16
+Will: +15
+Defensive abilities: temporal sense
+Evasion: present
+Fh: 10
+Immune: disease, mind-affecting effects, pain effects, poison
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +21 (2d6+6/19-20 plus misery)
+Reach: 15
+Sneak: +4d6
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 10
+Spec Att: burst of uncanny speed, savage the suffering,, telepathic wail
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: air walk
+At will: temporal jaunt
+Per day: 3/day: displacement, quickened vanish\
+1/day: plane shift (DC 21)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
-
-**Experience points:** 19,200
-
-**Armor class:** 27
-
-**Touch:** 19
-
-**Flat-footed:** 22
-
-**AC modifiers:** +4 Dex, +1 dodge, +5 insight, +8 natural, -1 size
-
-**Hit points:** 168 (16d10+80)
-
-**Fort:** +10
-
-**Ref:** +16
-
-**Will:** +15
-
-**Defensive abilities:** temporal sense
-
-**Evasion:** present
-
-**Fh:** 10
-
-**Immune:** disease, mind-affecting effects, pain effects, poison
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +21 (2d6+6/19-20 plus misery)
-
-**Reach:** 15
-
-**Sneak:** +4d6
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 10
-
-**Spec Att:** burst of uncanny speed, savage the suffering,, telepathic wail
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- air walk
-
-**At will:**
-
-- temporal jaunt
-
-**Per day:**
-
-- 3/day: displacement, quickened vanish
-- 1/day: plane shift (DC 21)
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 19, Con 20, Int 15, Wis 21, Cha 18
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 43 (51 vs. trip)
-
-**Feats:** Combat Reflexes, Dodge, Improved Critical (claws), Improved Initiative, Lightning
-Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (vanish), Spring
-Attack, Whirlwind Attack^B^
-
-**Skills:** Acrobatics +23, Intimidate +23, Knowledge (arcana, history) +21, Perception +24, Sense
-Motive +24, Stealth +19
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** miserable source
+::: statblock
+Ability scores: Str 22, Dex 19, Con 20, Int 15, Wis 21, Cha 18
+Base attack bonus: +16
+Combat maneuver bonus: +23
+Combat maneuver defense: 43 (51 vs. trip)
+Feats: Combat Reflexes, Dodge, Improved Critical (claws), Improved Initiative, Lightning Reflexes, Mobility, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (vanish), Spring Attack, Whirlwind Attack^B^
+Skills: Acrobatics +23, Intimidate +23, Knowledge (arcana, history) +21, Perception +24, Sense Motive +24, Stealth +19
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: miserable source
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Dimension of Time](ref/rule/dimension-of-time))
-
-**Organization:** solitary, pair, or desperation (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Dimension of Time](ref/rule/dimension-of-time))
+Organization: solitary, pair, or desperation (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

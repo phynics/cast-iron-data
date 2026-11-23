@@ -30,83 +30,66 @@ abilities = ["15", "13", "22", "-", "13", "2"]
 
 _The brown and black exoskeleton of this roach gleams when exposed to the light._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 15
+Touch: 10
+Flat-footed: 14
+AC modifiers: +1 Dex, +5 natural, -1 size
+Hit points: 31 (3d8+18)
+Fort: +9
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+Weaknesses: [light sensitivity](ref/umr/light-sensitivity)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., climb 40 ft., fly 60 ft. (poor)
+Melee: bite +3 (2d6+3 plus poison)
+Reach: 5
+Space: 10
+Spec Att: poison
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 10
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +5 natural, -1 size
-
-**Hit points:** 31 (3d8+18)
-
-**Fort:** +9
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Weaknesses:** [light sensitivity](ref/umr/light-sensitivity)
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft., fly 60 ft. (poor)
-
-**Melee:** bite +3 (2d6+3 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 22, Int -, Wis 13, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 16 (24 vs. trip)
-
-**Feats:** Diehard^B^, Endurance^B^
-
-**Skills:** Climb +10, Perception +5, Stealth +1
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
+::: statblock
+Ability scores: Str 15, Dex 13, Con 22, Int -, Wis 13, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +5
+Combat maneuver defense: 16 (24 vs. trip)
+Feats: Diehard^B^, Endurance^B^
+Skills: Climb +10, Perception +5, Stealth +1
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any land
-
-**Organization:** solitary, pair, or intrusion (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary, pair, or intrusion (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

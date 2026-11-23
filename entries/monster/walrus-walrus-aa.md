@@ -29,71 +29,58 @@ abilities = ["23", "11", "18", "2", "10", "9"]
 _This bulky, thick-skinned, flippered creature has on its face two enormous tusks and what looks
 like a coarse mustache._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 17
+Touch: 9
+Flat-footed: 17
+AC modifiers: +8 natural, -1 size
+Hit points: 42 (5d8+20)
+Fort: +8
+Ref: +6
+Will: +1
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., swim 40 ft.
+Melee: gore +8 (1d8+9/19-20)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 23, Dex 11, Con 18, Int 2, Wis 10, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +10
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Improved Bull Rush, Lightning Reflexes, Power Attack
+Skills: Perception +6, Swim +19
+Special qualities: fatal gore, [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +8 natural, -1 size
-
-**Hit points:** 42 (5d8+20)
-
-**Fort:** +8
-
-**Ref:** +6
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 20 ft., swim 40 ft.
-
-**Melee:** gore +8 (1d8+9/19-20)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 11, Con 18, Int 2, Wis 10, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Improved Bull Rush, Lightning Reflexes, Power Attack
-
-**Skills:** Perception +6, Swim +19
-
-**Special qualities:** fatal gore, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** cold coastlines
-
-**Organization:** solitary, pair, or herd (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: cold coastlines
+Organization: solitary, pair, or herd (3-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -31,67 +31,52 @@ any kind, its bulk is covered in jagged thorns protruding from its fungal surfac
 
 **Thorny Vegepygmie**
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: -1
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 13
+AC modifiers: +3 Dex, +3 natural
+Hit points: 26 (4d8+8)
+Fort: +6
+Ref: +4
+Will: +0
+Defensive abilities: thorny hide
+Dr: 5/slashing or bludgeoning
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 40 ft.
+Melee: bite +4 (1d6+1 plus poison and trip)
+Ranged: thorn cluster +6 (1d3 per thorn/19-20 plus poison)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +3 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +0
-
-**Defensive abilities:** thorny hide
-
-**Dr:** 5/slashing or bludgeoning
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** bite +4 (1d6+1 plus poison and trip)
-
-**Ranged:** thorn cluster +6 (1d3 per thorn/19-20 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 14, Int 6, Wis 9, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17 (21 vs. trip)
-
-**Feats:** Point-Blank Shot, Precise Shot
-
-**Skills:** Acrobatics +7
-
-**Languages:** Vegepygmy (can't speak)
+::: statblock
+Ability scores: Str 13, Dex 16, Con 14, Int 6, Wis 9, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 17 (21 vs. trip)
+Feats: Point-Blank Shot, Precise Shot
+Skills: Acrobatics +7
+Languages: Vegepygmy (can't speak)
+:::
 
 ### Special Abilities
 

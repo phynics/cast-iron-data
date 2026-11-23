@@ -33,87 +33,66 @@ abilities = ["13", "16", "15", "8", "11", "6"]
 _Filth and soot cover this large, emaciated humanoid's pallid skin, and its beady black eyes glint
 with desperate hunger._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +4
+Senses: Low-light vision, Scent
+Subtype: Giant
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 11
+AC modifiers: +3 Dex, +2 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +4
+Will: +1
+Resist: fire 10
+Weaknesses: wicked blood
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +2 (1d8+1), 2 claws +2 (1d6+1)
+Ranged: rock +5 (1d8+1)
+Reach: 10
+Rock Th: 60 ft.
+Space: 10
+Spec Att: soot breath
+:::
 
-**Perception:** +4
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 13, Dex 16, Con 15, Int 8, Wis 11, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Combat Reflexes, Deadly Aim
+Skills: Acrobatics +4, Climb +9, Perception +4, Stealth +0 (+8 in urban environments)
+Racial Modifiers: +8 Stealth in urban environments
+Languages: Giant
+Special qualities: [compression](ref/umr/compression), inhale flames
+:::
 
-**Subtype:** Giant
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +2 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Resist:** fire 10
-
-**Weaknesses:** wicked blood
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +2 (1d8+1), 2 claws +2 (1d6+1)
-
-**Ranged:** rock +5 (1d8+1)
-
-**Reach:** 10
-
-**Rock Th:** 60 ft.
-
-**Space:** 10
-
-**Spec Att:** soot breath
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 15, Int 8, Wis 11, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Combat Reflexes, Deadly Aim
-
-**Skills:** Acrobatics +4, Climb +9, Perception +4, Stealth +0 (+8 in urban environments)
-
-**Racial Modifiers:** +8 Stealth in urban environments
-
-**Languages:** Giant
-
-**Special qualities:** [compression](ref/umr/compression), inhale flames
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary or gang (2-3)
-
-**Treasure:** Standard
+::: statblock
+Environment: any urban
+Organization: solitary or gang (2-3)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

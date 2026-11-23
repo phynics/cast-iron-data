@@ -31,97 +31,72 @@ abilities = ["13", "16", "13", "10", "11", "14"]
 
 _This elven woman's allure is obfuscated by her ragged insectile wings and long, claw-like nails._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Initiative: +3
+Size: medium
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Chaotic, Extraplanar, Shapechanger
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 39 (6d10+6)
+Fort: +3
+Ref: +8
+Will: +7; +2 vs. enchantments
+Dr: 5/cold iron
+Immune: sleep
+Resist: electricity 10, fire 5
+Sr: 15
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 50 ft. (average)
+Melee: 2 claws +9 (1d6+1 plus poison)
+Spec Att: ability drain, poison
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +8
+Per day: 3/day: charm person (DC 13), darkness, locate creature\
+1/day: dimension door, ethereal jaunt, self plus 50 lbs. of objects only, heightened charm person (DC 16), suggestion (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar, Shapechanger
+::: statblock
+Ability scores: Str 13, Dex 16, Con 13, Int 10, Wis 11, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 21
+Feats: Dodge, Iron Will, Weapon Finesse
+Skills: Bluff +11 (+19 when passing hidden messages), Diplomacy +11, Knowledge (planes) +6, Perception +9
+Racial Modifiers: +8 Bluff when passing hidden messages, +4 Survival when following tracks
+Languages: Abyssal, Celestial, Common, Draconic, Elven; [telepathy](ref/umr/telepathy) 10 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self)), swift tracker
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +7; +2 vs. enchantments
-
-**Dr:** 5/cold iron
-
-**Immune:** sleep
-
-**Resist:** electricity 10, fire 5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (average)
-
-**Melee:** 2 claws +9 (1d6+1 plus poison)
-
-**Spec Att:** ability drain, poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +8
-
-**Per day:**
-
-- 3/day: charm person (DC 13), darkness, locate creature
-- 1/day: dimension door, ethereal jaunt, self plus 50 lbs. of objects only, heightened charm person
-  (DC 16), suggestion (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 13, Int 10, Wis 11, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Iron Will, Weapon Finesse
-
-**Skills:** Bluff +11 (+19 when passing hidden messages), Diplomacy +11, Knowledge (planes) +6,
-Perception +9
-
-**Racial Modifiers:** +8 Bluff when passing hidden messages, +4 Survival when following tracks
-
-**Languages:** Abyssal, Celestial, Common, Draconic, Elven; [telepathy](ref/umr/telepathy) 10 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self)), swift tracker
-
-**Ecology**
-
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

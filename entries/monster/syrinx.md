@@ -30,86 +30,68 @@ abilities = ["8", "8", "9", "12", "15", "11"]
 _Robed in silk and its own regal wings, this humanoid assays its surroundings with the lethal
 detachment of the owl it resembles._
 
-**Challenge rating:** 1/3
-
 **Syrinx [adept](ref/npcclass/adept) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/3
+Type: humanoid
+Initiative: -1
+Alignment: Lawful evil
+Size: medium
+Perception: +3 (+5 at night)
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Syrinx
+Experience points: 135
+:::
 
-**Initiative:** -1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 9
+Touch: 9
+Flat-footed: 9
+AC modifiers: -1 Dex
+Hit points: 5 (1d6-1)
+Fort: -1
+Ref: -1
+Will: +4; +2 vs. mind-affecting effects
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +3 (+5 at night)
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: quarterstaff -1 (1d6-1) Adept
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +3
+1st-level spells: command (DC 13)
+Cantrips: detect magic, ghost sound (DC 12), read magic, stabilize
+:::
 
-**Subtype:** Syrinx\
-**Experience points:** 135
+### Statistics
 
-**Armor class:** 9
+::: statblock
+Ability scores: Str 8, Dex 8, Con 9, Int 12, Wis 15, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 8
+Feats: Combat Casting
+Skills: Fly +3, Perception +3 (+5 at night), Spellcraft +5
+Racial Modifiers: +2 Perception at night, +2 Stealth at night
+Languages: Common, Syrinx; _speak with avians_
+:::
 
-**Touch:** 9
+### Ecology
 
-**Flat-footed:** 9
-
-**AC modifiers:** -1 Dex
-
-**Hit points:** 5 (1d6-1)
-
-**Fort:** -1
-
-**Ref:** -1
-
-**Will:** +4; +2 vs. mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** quarterstaff -1 (1d6-1) Adept
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +3
-
-**1st-level spells:**
-
-- command (DC 13)
-
-**Cantrips:**
-
-- detect magic, ghost sound (DC 12), read magic, stabilize
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 8, Con 9, Int 12, Wis 15, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 8
-
-**Feats:** Combat Casting
-
-**Skills:** Fly +3, Perception +3 (+5 at night), Spellcraft +5
-
-**Racial Modifiers:** +2 Perception at night, +2 Stealth at night
-
-**Languages:** Common, Syrinx; _speak with avians_
-
-**Ecology**
-
-**Environment:** temperate mountains (Arcadia)
-
-**Organization:** solitary, pair, or cell (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate mountains (Arcadia)
+Organization: solitary, pair, or cell (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

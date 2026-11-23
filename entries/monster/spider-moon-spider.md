@@ -31,88 +31,69 @@ abilities = ["12", "15", "14", "5", "14", "7"]
 _Pale and round-bodied, this giant spider is the size of a large dog. Its crimson eyes glitter with
 malign intelligence._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 60
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +5
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +4 (1d6+1 plus poison)
+Spec Att: poison
+Web: +11 ranged touch, DC 19, 10 hp, DR 5/slashing
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +3
+Per day: 3/day: obscuring mist\
+1/day: gaseous form
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 12, Dex 15, Con 14, Int 5, Wis 14, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 16
+Feats: Ability Focus (poison), Improved Initiative
+Skills: Climb +21, Perception +10, Stealth +10
+Racial Modifiers: +16 Climb, +4 Perception, +4 Stealth
+Languages: Common (can't speak)
+Special qualities: moon spider webs
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +4 (1d6+1 plus poison)
-
-**Spec Att:** poison
-
-**Web:** +11 ranged touch, DC 19, 10 hp, DR 5/slashing
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +3
-
-**Per day:**
-
-- 3/day: obscuring mist
-- 1/day: gaseous form
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 14, Int 5, Wis 14, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16
-
-**Feats:** Ability Focus (poison), Improved Initiative
-
-**Skills:** Climb +21, Perception +10, Stealth +10
-
-**Racial Modifiers:** +16 Climb, +4 Perception, +4 Stealth
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** moon spider webs
-
-**Ecology**
-
-**Environment:** temperate forest
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forest
+Organization: solitary, pair, or colony (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

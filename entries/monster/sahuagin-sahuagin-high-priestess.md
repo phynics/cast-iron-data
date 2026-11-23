@@ -33,119 +33,81 @@ abilities = ["20", "9", "26", "14", "20", "11"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 9
-
 **Giant sahuagin [cleric](ref/class/cleric) 7**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 9
+blindsense: 30
+Initiative: -1
+Size: large
+Alignment: Lawful evil
+Type: Monstrous humanoid
+Perception: +12
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Initiative:** -1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 8
+Flat-footed: 23
+AC modifiers: +7 armor, -1 Dex, +8 natural, -1 size
+Hit points: 121 (2d10+7d8+79\~9)
+Fort: +13
+Ref: +6
+Will: +13
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Ch N En: 5/day, DC 13, 4d6
+Melee: +1 spear +13/+8 (2d6+8/×3), bite +6 (1d8+5)
+Ranged: mwk underwater heavy crossbow +6 (2d8/19-20)
+Spec Att: [blood frenzy](ref/monster/sahuagin), destructive smite (+3, 8/day)
+:::
 
-**Perception:** +12
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 8
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 armor, -1 Dex, +8 natural, -1 size
-
-**Hit points:** 121 (2d10+7d8+79\~9)
-
-**Fort:** +13
-
-**Ref:** +6
-
-**Will:** +13
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Ch N En:** 5/day, DC 13, 4d6
-
-**Melee:** +1 spear +13/+8 (2d6+8/×3), bite +6 (1d8+5)
-
-**Ranged:** mwk underwater heavy crossbow +6 (2d8/19-20)
-
-**Spec Att:** [blood frenzy](ref/monster/sahuagin), destructive smite (+3, 8/day)
-
-**Prepared Spells**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**4th-level spells:**
-
-- dimension door^D^, gift of the deep, unholy blight (DC 19)
-
-**3rd-level spells:**
-
-- air breathing, fly^D^, prayer, summon monster III
-
-**2nd-level spells:**
-
-- bear's endurance, cure moderate wounds, dread bolt (DC 17), hold person (DC 17), shatter^D^ (DC
-  17)
-
-**1st-level spells:**
-
-- command (DC 16), cure light wounds, 2, divine favor, murderous command (DC 16), sanctuary, true
-  strike^D^
-
-**Cantrips:**
-
-- bleed (DC 15), detect magic, guidance, read magic
-
-**Domains:** [Destruction](ref/domain/destruction), [Travel](ref/domain/travel)
+::: statblock
+title = "Prepared Spells"
+Caster level: 7
+Concentration: +12
+4th-level spells: dimension door^D^, gift of the deep, unholy blight (DC 19)
+3rd-level spells: air breathing, fly^D^, prayer, summon monster III
+2nd-level spells: bear's endurance, cure moderate wounds, dread bolt (DC 17), hold person (DC 17), shatter^D^ (DC 17)
+1st-level spells: command (DC 16), cure light wounds, 2, divine favor, murderous command (DC 16), sanctuary, true strike^D^
+Cantrips: bleed (DC 15), detect magic, guidance, read magic
+Domains: [Destruction](ref/domain/destruction), [Travel](ref/domain/travel)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 20, Dex 9, Con 26, Int 14, Wis 20, Cha 11
+::: statblock
+Ability scores: Str 20, Dex 9, Con 26, Int 14, Wis 20, Cha 11
+Base attack bonus: +7
+Combat maneuver bonus: +13
+Combat maneuver defense: 22
+Feats: Combat Casting, Extra Channel, Improved Natural Attack (bite), Lightning Reflexes, Weapon Focus (spear)
+Skills: Intimidate +12, Knowledge (religion) +14, Perception +12, Sense Motive +17, Spellcraft +14, Swim +10
+Languages: Aquan, Common, Elven, Infernal; speak with sharks
+Special qualities: agile feet (8/day)
+Combat gear: scroll of cure critical wounds
+Other gear: +1 breastplate, +1 spear, mwk uhc20, Ihbw2, gold unholy symbol/worth 250 gp, 796 gp
+:::
 
-**Base attack bonus:** +7
+### Ecology
 
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Casting, Extra Channel, Improved Natural Attack (bite), Lightning Reflexes, Weapon
-Focus (spear)
-
-**Skills:** Intimidate +12, Knowledge (religion) +14, Perception +12, Sense Motive +17, Spellcraft
-+14, Swim +10
-
-**Languages:** Aquan, Common, Elven, Infernal; speak with sharks
-
-**Special qualities:** agile feet (8/day)
-
-**Combat gear:** scroll of cure critical wounds
-
-**Other gear:** +1 breastplate, +1 spear, mwk uhc20, Ihbw2, gold unholy symbol/worth 250 gp, 796 gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

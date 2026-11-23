@@ -32,85 +32,64 @@ abilities = ["18", "22", "23", "16", "13", "9"]
 _A wild-eyed band of hobgoblins cluster tightly around fortified carts containing hoses and
 reservoirs brimming with strange fluids._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+Type: humanoid
+Initiative: +10
+Alignment: Lawful evil
+Size: medium
+Perception: +22
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid, Troop
+Experience points: 76,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +10
+::: statblock
+Armor class: 29
+Touch: 15
+Flat-footed: 24
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +10 natural
+Hit points: 241 (21d8+147)
+Fort: +20
+Ref: +15
+Will: +10
+Defensive abilities: troop traits
+Immune: poison
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: troop (5d6+4 plus 3d6 fire)
+Reach: 5
+Space: 20
+Spec Att: alchemical bombardment, firedrake spout
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 18, Dex 22, Con 23, Int 16, Wis 13, Cha 9
+Base attack bonus: +15
+Combat maneuver bonus: +19
+Combat maneuver defense: 36
+Feats: Dodge, Endurance, Exotic Weapon Proficiency (firedrake), Great Fortitude, Improved Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Siege Engineer, Throw Anything, Toughness
+Skills: Craft (alchemy) +27, Heal +14, Knowledge (engineering) +24, Perception +22
+Racial Modifiers: +4 Stealth
+Languages: Common, Draconic, Giant, Goblin, Orc
+Special qualities: alchemical revitalization
+:::
 
-**Subtype:** Goblinoid, Troop
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 29
-
-**Touch:** 15
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +10 natural
-
-**Hit points:** 241 (21d8+147)
-
-**Fort:** +20
-
-**Ref:** +15
-
-**Will:** +10
-
-**Defensive abilities:** troop traits
-
-**Immune:** poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (5d6+4 plus 3d6 fire)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Spec Att:** alchemical bombardment, firedrake spout
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 22, Con 23, Int 16, Wis 13, Cha 9
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 36
-
-**Feats:** Dodge, Endurance, Exotic Weapon Proficiency (firedrake), Great Fortitude, Improved
-Initiative, Improved Iron Will, Iron Will, Lightning Reflexes, Siege Engineer, Throw Anything,
-Toughness
-
-**Skills:** Craft (alchemy) +27, Heal +14, Knowledge (engineering) +24, Perception +22
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Common, Draconic, Giant, Goblin, Orc
-
-**Special qualities:** alchemical revitalization
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

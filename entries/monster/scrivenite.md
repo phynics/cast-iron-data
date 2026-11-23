@@ -32,101 +32,75 @@ abilities = ["10", "16", "15", "19", "15", "14"]
 _This humanoid-shaped figure of folded paper and silken ribbons hovers gently in the air. It wears
 the open cover of some great tome like a metal- and leather-bound mask._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +10
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Lawful
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 16
+AC modifiers: +4 deflection, +3 Dex, +2 natural
+Hit points: 37 (5d10+10)
+Fort: +3
+Ref: +7
+Will: +8
+Defensive abilities: clever defense
+Dr: 5/chaotic
+Immune: poison
+Resist: cold 10, sonic 10
+Sr: 15
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (good)
+Melee: 2 ribbon lashes +8 (1d4 plus 1 Int damage)
+Reach: 5
+Reach P: 10 ft. with ribbon lashes
+Space: 5
+Spec Att: ribbon lash
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +9; save DCs are Charisma-based
+Per day: 3/day: comprehend languages, daze monster (DC 14), detect thoughts (DC 14), protection from chaos
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Lawful
+::: statblock
+Ability scores: Str 10, Dex 16, Con 15, Int 19, Wis 15, Cha 14
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 22
+Feats: Improved Initiative, Iron Will, Weapon Finesse
+Skills: Craft (books) +12, Stealth +11
+Languages: Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran
+Special qualities: ambient knowledge, soul tome, tome form
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 deflection, +3 Dex, +2 natural
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +3
-
-**Ref:** +7
-
-**Will:** +8
-
-**Defensive abilities:** clever defense
-
-**Dr:** 5/chaotic
-
-**Immune:** poison
-
-**Resist:** cold 10, sonic 10
-
-**Sr:** 15
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (good)
-
-**Melee:** 2 ribbon lashes +8 (1d4 plus 1 Int damage)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with ribbon lashes
-
-**Space:** 5
-
-**Spec Att:** ribbon lash
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +9; save DCs are Charisma-based
-
-**Per day:**
-
-- 3/day: comprehend languages, daze monster (DC 14), detect thoughts (DC 14), protection from chaos
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 16, Con 15, Int 19, Wis 15, Cha 14
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 22
-
-**Feats:** Improved Initiative, Iron Will, Weapon Finesse
-
-**Skills:** Craft (books) +12, Stealth +11
-
-**Languages:** Abyssal, Aklo, Aquan, Auran, Celestial, Common, Draconic, Ignan, Infernal, Terran
-
-**Special qualities:** ambient knowledge, soul tome, tome form
-
-**Ecology**
-
-**Environment:** any ([Axis](ref/rule/utopia))
-
-**Organization:** solitary, pair, or collection (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Axis](ref/rule/utopia))
+Organization: solitary, pair, or collection (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

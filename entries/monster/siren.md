@@ -32,83 +32,66 @@ abilities = ["10", "17", "12", "14", "19", "21"]
 
 _This creature has the body of a hawk and the head of a beautiful woman with long, shining hair._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Magical beast
+Size: medium
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +1 dodge, +4 natural
+Hit points: 52 (8d10+8)
+Fort: +7
+Ref: +11
+Will: +6
+Immune: mind-affecting effects
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., fly 60 ft. (good)
+Melee: 2 talons +11 (1d6)
+Sneak: +2d6
+Spec Att: bardic performance, siren's song
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 7
+Concentration: +12
+Per day: 3/day: cause fear (DC 16), charm person (DC 16), deep slumber (DC 18), shout (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 10, Dex 17, Con 12, Int 14, Wis 19, Cha 21
+Base attack bonus: +8
+Combat maneuver bonus: +8
+Combat maneuver defense: 22
+Feats: Dodge, Flyby Attack, Lightning Reflexes, Weapon Finesse
+Skills: Fly +7, Knowledge (history) +10, Perception +15, Perform (sing) +13, Stealth +14
+Languages: Auran, Common
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +1 dodge, +4 natural
-
-**Hit points:** 52 (8d10+8)
-
-**Fort:** +7
-
-**Ref:** +11
-
-**Will:** +6
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (good)
-
-**Melee:** 2 talons +11 (1d6)
-
-**Sneak:** +2d6
-
-**Spec Att:** bardic performance, siren's song
-
-**Spell-Like Abilities**
-
-**Caster level:** 7
-
-**Concentration:** +12
-
-**Per day:**
-
-- 3/day: cause fear (DC 16), charm person (DC 16), deep slumber (DC 18), shout (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 17, Con 12, Int 14, Wis 19, Cha 21
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Flyby Attack, Lightning Reflexes, Weapon Finesse
-
-**Skills:** Fly +7, Knowledge (history) +10, Perception +15, Perform (sing) +13, Stealth +14
-
-**Languages:** Auran, Common
-
-**Ecology**
-
-**Environment:** temperate or warm hills
-
-**Organization:** solitary or flight (2-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm hills
+Organization: solitary or flight (2-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

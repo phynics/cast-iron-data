@@ -33,81 +33,62 @@ abilities = ["17", "18", "14", "15", "12", "11"]
 _This flame-red humanoid appears to be a strange mix of insect and reptile, with four arms and
 twitching, fanged mandibles._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Evil, Extraplanar
+Experience points: 2,400
+:::
 
-**Initiative:** +8
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 21
+Touch: 14
+Flat-footed: 17
+AC modifiers: +4 Dex, +5 natural, +2 shield
+Hit points: 67 (9d10+18)
+Fort: +8
+Ref: +10
+Will: +6
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: short swords +13/+13/+8 (1d6+3/19-20), claw +13 (1d4+3 plus [grab](ref/umr/grab)), bite +7 (1d3+1 plus paralysis), or 4 claws +13 (1d4+3 plus grab), bite +12 (1d3+3 plus paralysis)
+Paralysis: 1d4 hours, DC 16
+Ranged: 2 longbows +13 (1d8/×3)
+Spec Att: implant
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 17, Dex 18, Con 14, Int 15, Wis 12, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 26
+Feats: Combat Reflexes, Improved Initiative, Iron Will, Weapon Focus (claw, short sword)
+Skills: Acrobatics +16, Bluff +12, Intimidate +12, Knowledge (arcana) +14, Perception +13, Sense Motive +13, Stealth +14
+Languages: Common, Infernal
+Special qualities: multiweapon mastery, planewalk
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 21
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 Dex, +5 natural, +2 shield
-
-**Hit points:** 67 (9d10+18)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +6
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** short swords +13/+13/+8 (1d6+3/19-20), claw +13 (1d4+3 plus [grab](ref/umr/grab)), bite
-+7 (1d3+1 plus paralysis), or 4 claws +13 (1d4+3 plus grab), bite +12 (1d3+3 plus paralysis)
-
-**Paralysis:** 1d4 hours, DC 16
-
-**Ranged:** 2 longbows +13 (1d8/×3)
-
-**Spec Att:** implant
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 18, Con 14, Int 15, Wis 12, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 26
-
-**Feats:** Combat Reflexes, Improved Initiative, Iron Will, Weapon Focus (claw, short sword)
-
-**Skills:** Acrobatics +16, Bluff +12, Intimidate +12, Knowledge (arcana) +14, Perception +13, Sense
-Motive +13, Stealth +14
-
-**Languages:** Common, Infernal
-
-**Special qualities:** multiweapon mastery, planewalk
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard (heavy steel shield, 2 short swords, 2 lbs40); other treasure
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard (heavy steel shield, 2 short swords, 2 lbs40); other treasure
+:::
 
 ### Special Abilities
 

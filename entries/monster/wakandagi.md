@@ -31,107 +31,76 @@ abilities = ["30", "23", "24", "13", "19", "22"]
 
 _This antlered beast combines the features of an elegant deer and a slithering serpent._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Initiative: +6
+Size: large
+Alignment: Neutral good
+Type: outsider
+Perception: +23
+Senses: Darkvision 60 ft., Detect evil, Detect magic, Low-light vision, Mistsight, Scent
+Subtype: Native, Water
+Experience points: 38,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 28
+Touch: 16
+Flat-footed: 21
+AC modifiers: +6 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 200 (16d10+112)
+Fort: +17
+Ref: +13
+Will: +14
+Immune: disease, poison
+Resist: cold 10, fire 10
+Sr: 25
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., swim 80 ft.
+Capsize: present
+Melee: gore +25 (1d8+10), bite +25 (1d8+10), 2 hooves +23 (1d8+5), tail slap +23 (1d8+5)
+Pounce: present
+Pow Ch: gore, 2d8+15
+Ranged: water bomb +21 touch (bull rush)
+Reach: 5
+Reach P: 10 ft. with tail slap
+Space: 10
+Spec Att: water bomb
+:::
 
-**Perception:** +23
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +20
+At will: detect evil, detect magic, fog cloud, quench (DC 19)
+Per day: 3/day: aqueous orb (DC 19), neutralize poison
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Detect magic, Low-light vision, Mistsight, Scent
+### Statistics
 
-**Subtype:** Native, Water
+::: statblock
+Ability scores: Str 30, Dex 23, Con 24, Int 13, Wis 19, Cha 22
+Base attack bonus: +16
+Combat maneuver bonus: +27
+Combat maneuver defense: 44 (48 vs. trip)
+Feats: Dodge, Lightning Reflexes, Mobility, Multiattack, Point-Blank Shot, Power Attack, Spring Attack, Vital Strike
+Skills: Acrobatics +20, Diplomacy +20, Intimidate +20, Knowledge (nature, planes) +15, Perception +23, Swim +23
+Languages: Common, Sylvan
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 16
-
-**Flat-footed:** 21
-
-**AC modifiers:** +6 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +17
-
-**Ref:** +13
-
-**Will:** +14
-
-**Immune:** disease, poison
-
-**Resist:** cold 10, fire 10
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 40 ft., swim 80 ft.
-
-**Capsize:** present
-
-**Melee:** gore +25 (1d8+10), bite +25 (1d8+10), 2 hooves +23 (1d8+5), tail slap +23 (1d8+5)
-
-**Pounce:** present
-
-**Pow Ch:** gore, 2d8+15
-
-**Ranged:** water bomb +21 touch (bull rush)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with tail slap
-
-**Space:** 10
-
-**Spec Att:** water bomb
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +20
-
-**At will:**
-
-- detect evil, detect magic, fog cloud, quench (DC 19)
-
-**Per day:**
-
-- 3/day: aqueous orb (DC 19), neutralize poison
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 23, Con 24, Int 13, Wis 19, Cha 22
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 44 (48 vs. trip)
-
-**Feats:** Dodge, Lightning Reflexes, Mobility, Multiattack, Point-Blank Shot, Power Attack, Spring
-Attack, Vital Strike
-
-**Skills:** Acrobatics +20, Diplomacy +20, Intimidate +20, Knowledge (nature, planes) +15,
-Perception +23, Swim +23
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** temperate rivers
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: temperate rivers
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

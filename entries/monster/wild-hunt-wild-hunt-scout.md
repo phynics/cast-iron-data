@@ -32,104 +32,75 @@ abilities = ["20", "29", "22", "17", "24", "21"]
 
 _This lithe humanoid has pointed ears, glowing green eyes, and a ram's horns._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic neutral
+Type: fey
+greensight: 60
+Initiative: +13
+Size: medium
+Perception: +34
+Senses: Low-light vision, Scent, See in darkness
+Subtype: Wild hunt
+Experience points: 51,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 31
+Touch: 25
+Flat-footed: 21
+AC modifiers: +5 deflection, +9 Dex, +1 dodge, +6 natural
+Hit points: 228 (24d6+144)
+Fort: +16
+Ref: +23
+Will: +21
+Defensive abilities: instinctive cooperation, wild grace
+Dr: 15/cold iron
+Immune: cold, blindness
+Resist: electricity 10, fire 10
+:::
 
-**greensight:** 60
+### Offense
 
-**Initiative:** +13
+::: statblock
+Speed: 50 ft.
+Melee: force scimitar +18/+13/+8 touch (1d6+5 force/15-20)
+Ranged: crystal +21 touch (3d6 force plus blindness)
+Sneak: +4d6
+Spec Att: wild gaze (DC 27)
+:::
 
-**Size:** medium
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 15
+Concentration: +20
+Constant: know direction, pass without trace, speak with animals, speak with plants
+Per day: 3/day: clairaudience/clairvoyance, dimension door, stone tell\
+1/day: true seeing
+:::
 
-**Perception:** +34
+### Statistics
 
-**Senses:** Low-light vision, Scent, See in darkness
+::: statblock
+Ability scores: Str 20, Dex 29, Con 22, Int 17, Wis 24, Cha 21
+Base attack bonus: +12
+Combat maneuver bonus: +17
+Combat maneuver defense: 42
+Feats: Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Greater Feint, Improved Critical (scimitar), Improved Feint, Improved Initiative, Mobility, Skill Focus (Bluff), Spring Attack, Weapon Focus (scimitar)
+Skills: Acrobatics +36, Bluff +38, Intimidate +29, Knowledge (nature) +30, Perception +34
+Languages: Aklo, Common, Sylvan; _speak with animals, speak with plants_
+Special qualities: planar acclimation, wild hunt link
+:::
 
-**Subtype:** Wild hunt
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 25
-
-**Flat-footed:** 21
-
-**AC modifiers:** +5 deflection, +9 Dex, +1 dodge, +6 natural
-
-**Hit points:** 228 (24d6+144)
-
-**Fort:** +16
-
-**Ref:** +23
-
-**Will:** +21
-
-**Defensive abilities:** instinctive cooperation, wild grace
-
-**Dr:** 15/cold iron
-
-**Immune:** cold, blindness
-
-**Resist:** electricity 10, fire 10
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** force scimitar +18/+13/+8 touch (1d6+5 force/15-20)
-
-**Ranged:** crystal +21 touch (3d6 force plus blindness)
-
-**Sneak:** +4d6
-
-**Spec Att:** wild gaze (DC 27)
-
-**Spell-Like Abilities**
-
-**Caster level:** 15
-
-**Concentration:** +20
-
-**Constant:**
-
-- know direction, pass without trace, speak with animals, speak with plants
-
-**Per day:**
-
-- 3/day: clairaudience/clairvoyance, dimension door, stone tell
-- 1/day: true seeing
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 29, Con 22, Int 17, Wis 24, Cha 21
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 42
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Great Fortitude, Greater Feint, Improved
-Critical (scimitar), Improved Feint, Improved Initiative, Mobility, Skill Focus (Bluff), Spring
-Attack, Weapon Focus (scimitar)
-
-**Skills:** Acrobatics +36, Bluff +38, Intimidate +29, Knowledge (nature) +30, Perception +34
-
-**Languages:** Aklo, Common, Sylvan; _speak with animals, speak with plants_
-
-**Special qualities:** planar acclimation, wild hunt link
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, invasion (2-6), or wild hunt
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, invasion (2-6), or wild hunt
+Treasure: Standard
+:::
 
 ### Special Abilities
 

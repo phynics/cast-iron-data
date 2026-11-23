@@ -33,79 +33,62 @@ abilities = ["15", "15", "15", "3", "10", "8"]
 _Strange, translucent gas bladders carry this tangle of thorny, purple vines and clumps of mold
 through the air._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +3
+Will: +1
+Immune: [plant traits](ref/umr/plant-traits)
+Resist: acid 5, electricity 5
+Vulner: fire
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 10 ft., climb 10 ft., fly 40 ft. (poor)
+Grab: Medium
+Melee: bite +5 (1d4+2 plus grab), 2 tendrils +3 (1d4+1 plus grab)
+Spec Att: spores
+:::
 
-**Type:** plant
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 15, Dex 15, Con 15, Int 3, Wis 10, Cha 8
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15 (17 vs. trip)
+Feats: Flyby Attack, Multiattack
+Skills: Climb +10, Perception +4
+Languages: spore communication
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +3
-
-**Will:** +1
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 5, electricity 5
-
-**Vulner:** fire
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft., fly 40 ft. (poor)
-
-**Grab:** Medium
-
-**Melee:** bite +5 (1d4+2 plus grab), 2 tendrils +3 (1d4+1 plus grab)
-
-**Spec Att:** spores
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 15, Int 3, Wis 10, Cha 8
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15 (17 vs. trip)
-
-**Feats:** Flyby Attack, Multiattack
-
-**Skills:** Climb +10, Perception +4
-
-**Languages:** spore communication
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary, pair, cluster (3-6), or pod (7-20)
-
-**Treasure:** None
+::: statblock
+Environment: any underground
+Organization: solitary, pair, cluster (3-6), or pod (7-20)
+Treasure: None
+:::
 
 ### Special Abilities
 

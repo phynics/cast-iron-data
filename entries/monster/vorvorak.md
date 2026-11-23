@@ -31,99 +31,73 @@ abilities = ["25", "14", "19", "13", "16", "18"]
 _A crocodilian head surmounts this creature's draconic body. Thick scales cover its mottled brown
 and green hide, and a muscular tail sways menacingly behind it._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +13
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 24
+Touch: 10
+Flat-footed: 22
+AC modifiers: +2 Dex, +14 natural, -2 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +12
+Will: +9; +4 vs. fear
+Defensive abilities: confident
+Immune: poison
+Sr: 21
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 40 ft.
+Melee: bite +18 (2d6+7), 2 claws +18 (1d8+7), tail slap +16 (2d6+3)
+Reach: 10
+Space: 15
+Spec Att: poison spit (60-ft. line, 8d8 plus poison, DC 20), sweeping tail
+:::
 
-**Perception:** +13
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 13
+Concentration: +17
+At will: decrepit disguise (DC 15), major image (DC 17), quintessence (DC 15)
+Per day: 3/day: control water, fog cloud, shadow conjuration (DC 18)\
+1/day: mirage arcana (DC 19), shadow evocation (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 9,600
+::: statblock
+Ability scores: Str 25, Dex 14, Con 19, Int 13, Wis 16, Cha 18
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 34 (38 vs. trip)
+Feats: Combat Casting, Flanking Foil, Improved Initiative, Intimidating Prowess, Iron Will, Lightning Reflexes, Multiattack
+Skills: Climb +25
+Racial Modifiers: +8 Stealth in mud or water
+Languages: Common (can't speak)
+Special qualities: canal walker, [hold breath](ref/umr/hold-breath)
+:::
 
-**Armor class:** 24
+### Ecology
 
-**Touch:** 10
-
-**Flat-footed:** 22
-
-**AC modifiers:** +2 Dex, +14 natural, -2 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +12
-
-**Will:** +9; +4 vs. fear
-
-**Defensive abilities:** confident
-
-**Immune:** poison
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 40 ft.
-
-**Melee:** bite +18 (2d6+7), 2 claws +18 (1d8+7), tail slap +16 (2d6+3)
-
-**Reach:** 10
-
-**Space:** 15
-
-**Spec Att:** poison spit (60-ft. line, 8d8 plus poison, DC 20), sweeping tail
-
-**Spell-Like Abilities**
-
-**Caster level:** 13
-
-**Concentration:** +17
-
-**At will:**
-
-- decrepit disguise (DC 15), major image (DC 17), quintessence (DC 15)
-
-**Per day:**
-
-- 3/day: control water, fog cloud, shadow conjuration (DC 18)
-- 1/day: mirage arcana (DC 19), shadow evocation (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 14, Con 19, Int 13, Wis 16, Cha 18
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 34 (38 vs. trip)
-
-**Feats:** Combat Casting, Flanking Foil, Improved Initiative, Intimidating Prowess, Iron Will,
-Lightning Reflexes, Multiattack
-
-**Skills:** Climb +25
-
-**Racial Modifiers:** +8 Stealth in mud or water
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** canal walker, [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** temperate plains or marshes
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate plains or marshes
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,86 +31,65 @@ abilities = ["4", "16", "-", "3", "9", "11"]
 _This brown-and-yellow sludge appears to be made of multiple smaller globules churning in a
 disgusting communal mass._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Swarm
+Size: tiny
+Type: undead
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 17
+Touch: 16
+Flat-footed: 13
+AC modifiers: +3 Dex, +1 dodge, +1 natural, +2 size
+Hit points: 54 (12d8)
+Fort: +4
+Ref: +9
+Will: +9
+Amorph: present
+Defensive abilities: swarm traits
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: acid 10
+:::
 
-**Perception:** +8
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Distraction: 16
+Melee: swarm (3d6 plus digest and distraction)
+Reach: 0
+Space: 10
+Spec Att: digest
+:::
 
-**Subtype:** Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 4, Dex 16, Con -, Int 3, Wis 9, Cha 11
+Base attack bonus: +9
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Dodge, Improved Iron Will, Iron Will, Lightning Reflexes, Mobility, Skill Focus (Perception)
+Skills: Climb +14
+Languages: Common (can't speak)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +3 Dex, +1 dodge, +1 natural, +2 size
-
-**Hit points:** 54 (12d8)
-
-**Fort:** +4
-
-**Ref:** +9
-
-**Will:** +9
-
-**Amorph:** present
-
-**Defensive abilities:** swarm traits
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Distraction:** 16
-
-**Melee:** swarm (3d6 plus digest and distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** digest
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 16, Con -, Int 3, Wis 9, Cha 11
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Dodge, Improved Iron Will, Iron Will, Lightning Reflexes, Mobility, Skill Focus
-(Perception)
-
-**Skills:** Climb +14
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pack (2-5), or infestation (6-12)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pack (2-5), or infestation (6-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

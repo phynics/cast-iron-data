@@ -30,81 +30,63 @@ abilities = ["21", "10", "17", "7", "10", "9"]
 _A mass of tangled vines and dripping slime rises on two trunk-like legs, reeking of rot and freshly
 turned earth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision
+Type: plant
+Experience points: 2,400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +10 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +9
+Ref: +5
+Will: +5
+Immune: electricity, [plant traits](ref/umr/plant-traits)
+Resist: fire 10
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 20 ft., swim 20 ft.
+Constrict: 2d6+7
+Melee: 2 slams +11 (2d6+5 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 21, Dex 10, Con 17, Int 7, Wis 10, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 22
+Feats: Cleave, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam)
+Skills: Perception +11, Stealth +8 (+16 in swamps or forest), Swim +13
+Racial Modifiers: +4 Perception, +4 Stealth (+12 in swamps or forests)
+Languages: Common, Sylvan (can't speak)
+Special qualities: electric fortitude
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +10 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +9
-
-**Ref:** +5
-
-**Will:** +5
-
-**Immune:** electricity, [plant traits](ref/umr/plant-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 20 ft., swim 20 ft.
-
-**Constrict:** 2d6+7
-
-**Melee:** 2 slams +11 (2d6+5 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 10, Con 17, Int 7, Wis 10, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 22
-
-**Feats:** Cleave, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (slam)
-
-**Skills:** Perception +11, Stealth +8 (+16 in swamps or forest), Swim +13
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+12 in swamps or forests)
-
-**Languages:** Common, Sylvan (can't speak)
-
-**Special qualities:** electric fortitude
-
-**Ecology**
-
-**Environment:** temperate forest or marshes
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forest or marshes
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

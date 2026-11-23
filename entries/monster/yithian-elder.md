@@ -33,110 +33,80 @@ _This creature's conical body bears four rubbery appendages: two end in strong p
 in a cluster of four trumpet-like organs, and yet another is attached to a round head with three
 eyes that glow with ancient, forbidden power._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: aberration
+blindsense: 60
+Initiative: +3
+Size: large
+Alignment: Lawful neutral
+Perception: +32
+Senses: All-around vision, Darkvision 60 ft.
+Experience points: 25,600
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 27
+Touch: 12
+Flat-footed: 24
+AC modifiers: +3 Dex, +15 natural, -1 size
+Hit points: 180 (19d8+95)
+Fort: +13
+Ref: +9
+Will: +19
+Dr: 10/magic
+Fh: 5
+Resist: acid 10, cold 10, fire 10
+:::
 
-**Initiative:** +3
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., climb 10 ft.
+Melee: 2 pincers +21 (2d8+12/×3)
+Ranged: lightning gun +16 touch (10d12 electricity)
+Reach: 10
+Space: 10
+Spec Att: amnesia, deadly pincers
+:::
 
-**Alignment:** Lawful neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +27
+At will: astral projection, self only, detect thoughts (DC 18), hold monster (DC 21), modify memory (DC 21)
+:::
 
-**Perception:** +32
+::: statblock
+title = "Psychic Magic"
+Caster level: 19
+Concentration: +27
+Power points: 22
+Psychoactive powers: hypercognition, 2 PE, intellect fortress III, 6 PE, major mind swap, 9 PE, DC 29, mental barrier V, 6 PE, mind probe, 4 PE, DC 24, remote viewing, 5 PE, thought shield V, 6 PE
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 25,600
+::: statblock
+Ability scores: Str 26, Dex 17, Con 21, Int 28, Wis 23, Cha 22
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 36
+Feats: Alertness, Combat Expertise, Great Fortitude, Improved Great Fortitude, Improved Iron Will, Iron Will, Spell Focus (abjuration, divination, enchantment), Vital Strike
+Skills: Climb +16, Knowledge (arcana, dungeoneering, engineering, geography, history, planes) +31, Linguistics +28, Perception +32, Sense Motive +29, Use Magic Device +25
+Languages: Aklo, Common, Yithian, 26 other languages; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: mental projection
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +3 Dex, +15 natural, -1 size
-
-**Hit points:** 180 (19d8+95)
-
-**Fort:** +13
-
-**Ref:** +9
-
-**Will:** +19
-
-**Dr:** 10/magic
-
-**Fh:** 5
-
-**Resist:** acid 10, cold 10, fire 10
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft.
-
-**Melee:** 2 pincers +21 (2d8+12/×3)
-
-**Ranged:** lightning gun +16 touch (10d12 electricity)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** amnesia, deadly pincers
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +27
-
-**At will:**
-
-- astral projection, self only, detect thoughts (DC 18), hold monster (DC 21), modify memory (DC 21)
-
-**Psychic Magic**
-
-**Caster level:** 19
-
-**Concentration:** +27
-
-**Power points:** 22
-
-**Psychoactive powers:**
-
-- hypercognition, 2 PE, intellect fortress III, 6 PE, major mind swap, 9 PE, DC 29, mental barrier
-  V, 6 PE, mind probe, 4 PE, DC 24, remote viewing, 5 PE, thought shield V, 6 PE
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 17, Con 21, Int 28, Wis 23, Cha 22
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 36
-
-**Feats:** Alertness, Combat Expertise, Great Fortitude, Improved Great Fortitude, Improved Iron
-Will, Iron Will, Spell Focus (abjuration, divination, enchantment), Vital Strike
-
-**Skills:** Climb +16, Knowledge (arcana, dungeoneering, engineering, geography, history, planes)
-+31, Linguistics +28, Perception +32, Sense Motive +29, Use Magic Device +25
-
-**Languages:** Aklo, Common, Yithian, 26 other languages; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** mental projection
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard; [lightning gun](ref/magic-wondrous/lightning-gun), other treasure
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: Standard; [lightning gun](ref/magic-wondrous/lightning-gun), other treasure
+:::
 
 ### Special Abilities
 

@@ -33,79 +33,62 @@ abilities = ["24", "17", "21", "2", "13", "6"]
 _This serpentine beast undulates through the water. Its scaly skin and its flesh are clear,
 revealing its red-and-brown organs._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +3
+Size: large
+Type: Magical beast
+Alignment: Neutral
+Perception: +7
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 1,600
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +3 Dex, +6 natural, -1 size
+Hit points: 52 (5d10+25)
+Fort: +9
+Ref: +7
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., swim 40 ft.
+Melee: bite +12 (2d6+10 plus [grab](ref/umr/grab)) or tongue +12 (grab and pull)
+Pull: tongue, 15 ft.
+Reach: 10
+Reach P: 20 ft. with tongue
+Space: 10
+Swallow: 1d6 acid damage, AC 14, 5 hp
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 24, Dex 17, Con 21, Int 2, Wis 13, Cha 6
+Base attack bonus: +5
+Combat maneuver bonus: +13 (+17 grapple)
+Combat maneuver defense: 26 (can't be tripped)
+Feats: Power Attack, Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Perception +7, Stealth +6 (+14 in water), Swim +19
+Racial Modifiers: +8 Stealth in water
+Special qualities: [compression](ref/umr/compression), see-through skin
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +6 natural, -1 size
-
-**Hit points:** 52 (5d10+25)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., swim 40 ft.
-
-**Melee:** bite +12 (2d6+10 plus [grab](ref/umr/grab)) or tongue +12 (grab and pull)
-
-**Pull:** tongue, 15 ft.
-
-**Reach:** 10
-
-**Reach P:** 20 ft. with tongue
-
-**Space:** 10
-
-**Swallow:** 1d6 acid damage, AC 14, 5 hp
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 17, Con 21, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +13 (+17 grapple)
-
-**Combat maneuver defense:** 26 (can't be tripped)
-
-**Feats:** Power Attack, Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Perception +7, Stealth +6 (+14 in water), Swim +19
-
-**Racial Modifiers:** +8 Stealth in water
-
-**Special qualities:** [compression](ref/umr/compression), see-through skin
-
-**Ecology**
-
-**Environment:** temperate rivers or marshes
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate rivers or marshes
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -34,73 +34,59 @@ abilities = ["16", "14", "11", "1", "12", "3"]
 _This elongated, olive fish has a thick set of jaws with a prominent underbite, and its body is
 covered in a layer of thick algae._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Keen Scent: present
+Size: medium
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 18 (4d8)
+Fort: +4
+Ref: +6
+Will: +2
+:::
 
-**Keen Scent:** present
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 10 ft., swim 60 ft.
+Melee: bite +6 (1d6+3), tail slap +1 (1d6+1)
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 16, Dex 14, Con 11, Int 1, Wis 12, Cha 3
+Base attack bonus: +3
+Combat maneuver bonus: +6
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Improved Initiative, Skill Focus (Perception)
+Skills: Perception +9, Stealth +7 (+11 in water), Swim +11
+Racial Modifiers: +4 Stealth in water
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., swim 60 ft.
-
-**Melee:** bite +6 (1d6+3), tail slap +1 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 14, Con 11, Int 1, Wis 12, Cha 3
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Perception +9, Stealth +7 (+11 in water), Swim +11
-
-**Racial Modifiers:** +4 Stealth in water
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** temperate or warm marshes
-
-**Organization:** solitary, pack (2-5), or school (6-11)
-
-**Treasure:** None
+::: statblock
+Environment: temperate or warm marshes
+Organization: solitary, pack (2-5), or school (6-11)
+Treasure: None
+:::
 
 ### Description
 

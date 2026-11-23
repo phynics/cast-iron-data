@@ -31,84 +31,64 @@ abilities = ["32", "9", "21", "2", "10", "7"]
 _This ugly creature's porcine head features multiple horns and tusks. Its muscular body ripples with
 raw power._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: huge
+Initiative: -1
+Type: Magical beast
+Alignment: Neutral
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 51,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 29
+Touch: 7
+Flat-footed: 29
+AC modifiers: -1 Dex, +22 natural, -2 size
+Hit points: 253 (22d10+132)
+Fort: +21
+Ref: +12
+Will: +9; +6 vs. charms and compulsions
+Dr: 5/-
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 60 ft.
+Melee: gore +31 (4d8+16 plus push), 2 hooves +29 (2d8+11), tail slap +29 (2d6+5 plus push)
+Push: gore, tail slap, 10 ft.
+Reach: 15
+Reach P: 15 ft. with tail slap
+Space: 10
+Spec Att: destructive charge, thundering path, unstoppable force
+Trample: 2d8+16
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 9, Con 21, Int 2, Wis 10, Cha 7
+Base attack bonus: +22
+Combat maneuver bonus: +35 (+37 bull rush, +39 overrun)
+Combat maneuver defense: 44 (46 vs. bull rush, 46 vs. overrun)
+Feats: Charge Through, Endurance, Great Fortitude, Greater Overrun, Improved Bull Rush, Improved Overrun, Iron Will, Multiattack, Power Attack, Run, Toughness
+Skills: Acrobatics +6 (+18 when jumping), Perception +12, Swim +23
+Racial Modifiers: +12 Acrobatics when jumping, +4 Swim
+Special qualities: bloody-minded
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 7
-
-**Flat-footed:** 29
-
-**AC modifiers:** -1 Dex, +22 natural, -2 size
-
-**Hit points:** 253 (22d10+132)
-
-**Fort:** +21
-
-**Ref:** +12
-
-**Will:** +9; +6 vs. charms and compulsions
-
-**Dr:** 5/-
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** gore +31 (4d8+16 plus push), 2 hooves +29 (2d8+11), tail slap +29 (2d6+5 plus push)
-
-**Push:** gore, tail slap, 10 ft.
-
-**Reach:** 15
-
-**Reach P:** 15 ft. with tail slap
-
-**Space:** 10
-
-**Spec Att:** destructive charge, thundering path, unstoppable force
-
-**Trample:** 2d8+16
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 9, Con 21, Int 2, Wis 10, Cha 7
-
-**Base attack bonus:** +22
-
-**Combat maneuver bonus:** +35 (+37 bull rush, +39 overrun)
-
-**Combat maneuver defense:** 44 (46 vs. bull rush, 46 vs. overrun)
-
-**Feats:** Charge Through, Endurance, Great Fortitude, Greater Overrun, Improved Bull Rush, Improved
-Overrun, Iron Will, Multiattack, Power Attack, Run, Toughness
-
-**Skills:** Acrobatics +6 (+18 when jumping), Perception +12, Swim +23
-
-**Racial Modifiers:** +12 Acrobatics when jumping, +4 Swim
-
-**Special qualities:** bloody-minded
-
-**Ecology**
-
-**Environment:** temperate marshes, hills, or coasts
-
-**Organization:** solitary, pair, herd (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: temperate marshes, hills, or coasts
+Organization: solitary, pair, herd (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

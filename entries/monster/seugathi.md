@@ -34,108 +34,76 @@ abilities = ["16", "20", "17", "14", "17", "19"]
 _This worm-like monster has a hideous face of eyes and hooked jaws. It wields a wand and a sword in
 its twin tentacle tails._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+aura: madness (30 ft.)
+Alignment: Chaotic evil
+Initiative: +9
+Size: large
+Perception: +15
+Senses: Darkvision 120 ft., Detect thoughts
+tremorsense: 30
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**aura:** madness (30 ft.)
+::: statblock
+Armor class: 19
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 armor, +5 Dex, +1 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +6
+Ref: +8
+Will: +9
+Dr: 10/slashing or piercing
+Fh: 5
+Immune: mind-affecting effects, poison
+Sr: 17
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Initiative:** +9
+::: statblock
+Speed: 30 ft.
+Melee: mwk short sword +11/+6 (1d8+3/19-20), bite +5 (1d8+1 plus poison)
+Reach: 10
+Space: 10
+Spec Att: confusion command
+:::
 
-**Size:** large
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +10
+Constant: mage armor
+At will: detect thoughts (DC 16), levitate
+Per day: 3/day: confusion (DC 18), dispel magic, suggestion (DC 17)\
+1/day: mind fog (DC 19), phantasmal killer (DC 18)
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 120 ft., Detect thoughts
+::: statblock
+Ability scores: Str 16, Dex 20, Con 17, Int 14, Wis 17, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 25 (can't be tripped)
+Feats: Ability Focus (aura of madness), Combat Casting, Combat Reflexes, Improved Initiative, Weapon Finesse
+Skills: Escape Artist +17, Knowledge (religion) +14, Perception +15, Sense Motive +12, Stealth +13, Use Magic Device +16
+Languages: Aklo, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: item use
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 2,400
-
-**Armor class:** 19
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +5 Dex, +1 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +6
-
-**Ref:** +8
-
-**Will:** +9
-
-**Dr:** 10/slashing or piercing
-
-**Fh:** 5
-
-**Immune:** mind-affecting effects, poison
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk short sword +11/+6 (1d8+3/19-20), bite +5 (1d8+1 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** confusion command
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +10
-
-**Constant:**
-
-- mage armor
-
-**At will:**
-
-- detect thoughts (DC 16), levitate
-
-**Per day:**
-
-- 3/day: confusion (DC 18), dispel magic, suggestion (DC 17)
-- 1/day: mind fog (DC 19), phantasmal killer (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 20, Con 17, Int 14, Wis 17, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 25 (can't be tripped)
-
-**Feats:** Ability Focus (aura of madness), Combat Casting, Combat Reflexes, Improved Initiative,
-Weapon Finesse
-
-**Skills:** Escape Artist +17, Knowledge (religion) +14, Perception +15, Sense Motive +12, Stealth
-+13, Use Magic Device +16
-
-**Languages:** Aklo, Undercommon; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** item use
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** single, pair, or expedition (3-8)
-
-**Treasure:** Double (mwk short sword, Dmagic missile/CL 5th, 1d20+30 charges)
+::: statblock
+Environment: any underground
+Organization: single, pair, or expedition (3-8)
+Treasure: Double (mwk short sword, Dmagic missile/CL 5th, 1d20+30 charges)
+:::
 
 ### Special Abilities
 

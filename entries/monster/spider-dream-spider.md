@@ -32,71 +32,58 @@ abilities = ["10", "15", "12", "-", "12", "11"]
 
 _The size of a human child, this shimmering spider has a blue-and-purple-striped belly._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 5 (1d8+1)
+Fort: +3
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +1 (1d4 plus poison)
+Spec Att: dream web, poison
+Web: +3 ranged, DC 11, 1 hp
+:::
 
-**Size:** small
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 10, Dex 15, Con 12, Int -, Wis 12, Cha 11
+Base attack bonus: +0
+Combat maneuver bonus: -1
+Combat maneuver defense: 11
+Skills: Climb +8, Perception +5, Stealth +6 (+10 when in its webs)
+Racial Modifiers: +4 Perception, +4 Stealth when in its webs
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 5 (1d8+1)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +1 (1d4 plus poison)
-
-**Spec Att:** dream web, poison
-
-**Web:** +3 ranged, DC 11, 1 hp
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 12, Int -, Wis 12, Cha 11
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** -1
-
-**Combat maneuver defense:** 11
-
-**Skills:** Climb +8, Perception +5, Stealth +6 (+10 when in its webs)
-
-**Racial Modifiers:** +4 Perception, +4 Stealth when in its webs
-
-**Ecology**
-
-**Environment:** tropical forest or any urban
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: tropical forest or any urban
+Organization: solitary, pair, or colony (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,78 +31,61 @@ abilities = ["50", "6", "27", "2", "11", "5"]
 _This immense whale has an enormous, box-shaped head over a massive, toothy maw. Its rough white
 hide is laced with scars._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Type: animal
+blindsight: 120
+Size: colossal
+Initiative: -2
+Alignment: Neutral
+Perception: +13
+Senses: Low-light vision
+Experience points: 38,400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsight:** 120
+::: statblock
+Armor class: 28
+Touch: 0
+Flat-footed: 28
+AC modifiers: -2 Dex, +28 natural, -8 size
+Hit points: 225 (18d8+144)
+Fort: +21
+Ref: +9
+Will: +8
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** -2
+::: statblock
+Speed: swim 40 ft.
+Capsize: present
+Melee: bite +25 (6d6+20/19-20), tail slap +20 (3d6+10)
+Reach: 30
+Space: 30
+Spec Att: smashing breach
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +13
+::: statblock
+Ability scores: Str 50, Dex 6, Con 27, Int 2, Wis 11, Cha 5
+Base attack bonus: +13
+Combat maneuver bonus: +41
+Combat maneuver defense: 49 (can't be tripped)
+Feats: Critical Focus, Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved Critical (bite), Iron Will, Power Attack, Staggering Critical
+Skills: Perception +13, Swim +39
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Senses:** Low-light vision
+### Ecology
 
-**Experience points:** 38,400
-
-**Armor class:** 28
-
-**Touch:** 0
-
-**Flat-footed:** 28
-
-**AC modifiers:** -2 Dex, +28 natural, -8 size
-
-**Hit points:** 225 (18d8+144)
-
-**Fort:** +21
-
-**Ref:** +9
-
-**Will:** +8
-
-**Offense**
-
-**Speed:** swim 40 ft.
-
-**Capsize:** present
-
-**Melee:** bite +25 (6d6+20/19-20), tail slap +20 (3d6+10)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** smashing breach
-
-**Statistics**
-
-**Ability scores:** Str 50, Dex 6, Con 27, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +41
-
-**Combat maneuver defense:** 49 (can't be tripped)
-
-**Feats:** Critical Focus, Diehard, Endurance, Great Fortitude, Improved Bull Rush, Improved
-Critical (bite), Iron Will, Power Attack, Staggering Critical
-
-**Skills:** Perception +13, Swim +39
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pair, or pod (3-16)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pair, or pod (3-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

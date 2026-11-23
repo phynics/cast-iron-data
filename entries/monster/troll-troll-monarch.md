@@ -29,59 +29,45 @@ special_qualities = "armor training 2"
 abilities = ["29", "12", "27", "8", "9", "10"]
 +++
 
-**Challenge rating:** 15
-
 **Troll [fighter](ref/class/fighter) 10**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 15
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +5
+Size: large
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 51,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 26
+Touch: 11
+Flat-footed: 25
+AC modifiers: +10 armor, +1 deflection, +1 Dex, +5 natural, -1 size
+Hit points: 220 (6d8+10d10+138\~16)
+Fort: +20
+Ref: +8
+Will: +6 (+3 vs. fear)
+Defensive abilities: bravery +3
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +9
-
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
-
-**Subtype:** Giant
-
-**Experience points:** 51,200
-
-**Armor class:** 26
-
-**Touch:** 11
-
-**Flat-footed:** 25
-
-**AC modifiers:** +10 armor, +1 deflection, +1 Dex, +5 natural, -1 size
-
-**Hit points:** 220 (6d8+10d10+138\~16)
-
-**Fort:** +20
-
-**Ref:** +8
-
-**Will:** +6 (+3 vs. fear)
-
-**Defensive abilities:** bravery +3
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +25 (1d8+11), 2 claws +25 (1d6+13/19-20)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+17
-
-**Space:** 10
-
-**Spec Att:** weapon training (natural +2, thrown +1)
+::: statblock
+Speed: 30 ft.
+Melee: bite +25 (1d8+11), 2 claws +25 (1d6+13/19-20)
+Reach: 10
+Rend: 2 claws, 1d6+17
+Space: 10
+Spec Att: weapon training (natural +2, thrown +1)
+:::
 
 ### Tactics
 
@@ -92,35 +78,26 @@ worthy challenge to his rule.
 strongest-looking melee combatant. He uses burning hands from his cloak to disperse and damage
 groups of enemies, but otherwise uses melee attacks and rend.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 29, Dex 12, Con 27, Int 8, Wis 9, Cha 10
+::: statblock
+Ability scores: Str 29, Dex 12, Con 27, Int 8, Wis 9, Cha 10
+Base attack bonus: +14
+Combat maneuver bonus: +24
+Combat maneuver defense: 36
+Feats: Bleeding Critical, Cooperative Rend, Critical Focus, Great Rend, Improved Critical (claws), Improved Initiative, Improved Iron Will, Intimidating Prowess, Iron Will, Lightning Reflexes, Mighty Bite, Throw Anything, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Intimidate +18, Perception +9
+Languages: Giant
+Special qualities: armor training 2
+Combat gear: potion of bear's endurance, potion of cure serious wounds, potion of haste, potion of invisibility
+Other gear: +1 full plate, I-bag of holding/type I, Ibogs2, I-cloak of the troll king, MWgr, Ihbac2, ring of minor ring of energy resistance/fire, ring of prot1, 750 gp
+:::
 
-**Base attack bonus:** +14
+### Ecology
 
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 36
-
-**Feats:** Bleeding Critical, Cooperative Rend, Critical Focus, Great Rend, Improved Critical
-(claws), Improved Initiative, Improved Iron Will, Intimidating Prowess, Iron Will, Lightning
-Reflexes, Mighty Bite, Throw Anything, Weapon Focus (bite), Weapon Focus (claw)
-
-**Skills:** Intimidate +18, Perception +9
-
-**Languages:** Giant
-
-**Special qualities:** armor training 2
-
-**Combat gear:** potion of bear's endurance, potion of cure serious wounds, potion of haste, potion
-of invisibility
-
-**Other gear:** +1 full plate, I-bag of holding/type I, Ibogs2, I-cloak of the troll king, MWgr,
-Ihbac2, ring of minor ring of energy resistance/fire, ring of prot1, 750 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

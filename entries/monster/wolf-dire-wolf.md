@@ -28,71 +28,58 @@ abilities = ["19", "15", "17", "2", "12", "10"]
 
 _This immense black wolf is the size of a horse, its fangs as large and sharp as knives._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +2
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +6
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft.
+Melee: bite +7 (1d8+6 plus [trip](ref/umr/trip))
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 15, Con 17, Int 2, Wis 12, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 20 (24 vs. trip)
+Feats: Run, Skill Focus (Perception), Weapon Focus (bite)
+Skills: Perception +10
+Racial Modifiers: +4 Survival when tracking by scent
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +7 (1d8+6 plus [trip](ref/umr/trip))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 15, Con 17, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 20 (24 vs. trip)
-
-**Feats:** Run, Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Perception +10
-
-**Racial Modifiers:** +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** cold or temperate forests
-
-**Organization:** solitary, pair, or pack (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: cold or temperate forests
+Organization: solitary, pair, or pack (3-8)
+Treasure: None
+:::
 
 ### Description
 

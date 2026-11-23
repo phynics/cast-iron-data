@@ -31,100 +31,73 @@ abilities = ["21", "16", "17", "9", "12", "16"]
 _This monstrous wild boar is infested with wriggling worms and accompanied by a buzzing cloud of
 flies._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Detect magic, Low-light vision
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 1,200
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 42 (5d10+15)
+Fort: +7
+Ref: +7
+Will: +2
+Dr: 5/good
+Immune: death effects, disease, fear, poison
+Resist: cold 10, electricity 10, fire 10
+Sr: 15
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft.
+Melee: gore +10 (2d6+7 plus nervous consumption)
+Spec Att: cough, look of fear (DC 15), spirit touch
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +7
+Constant: detect magic
+At will: open/close
+Per day: 3/day: grease (DC 14), sense fear\
+1/day: remove disease
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 16
+Base attack bonus: +5
+Combat maneuver bonus: +10 (+12 bull rush)
+Combat maneuver defense: 23 (25 vs. bull rush)
+Feats: Improved Bull Rush, Improved Initiative, Power Attack
+Skills: Bluff +11, Intimidate +11, Perception +9, Sense Motive +9, Stealth +11
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easy to call, emotional focus, skip between
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 42 (5d10+15)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +2
-
-**Dr:** 5/good
-
-**Immune:** death effects, disease, fear, poison
-
-**Resist:** cold 10, electricity 10, fire 10
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +10 (2d6+7 plus nervous consumption)
-
-**Spec Att:** cough, look of fear (DC 15), spirit touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +7
-
-**Constant:**
-
-- detect magic
-
-**At will:**
-
-- open/close
-
-**Per day:**
-
-- 3/day: grease (DC 14), sense fear
-- 1/day: remove disease
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 16, Con 17, Int 9, Wis 12, Cha 16
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +10 (+12 bull rush)
-
-**Combat maneuver defense:** 23 (25 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Improved Initiative, Power Attack
-
-**Skills:** Bluff +11, Intimidate +11, Perception +9, Sense Motive +9, Stealth +11
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or sounder (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or sounder (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -28,80 +28,62 @@ special_attacks = "tripping spears~volley"
 abilities = ["20", "19", "20", "13", "22", "9"]
 +++
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: humanoid
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +18
+Senses: Darkvision 60 ft.
+Subtype: Goblinoid, Troop
+Experience points: 9,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 25
+Touch: 14
+Flat-footed: 21
+AC modifiers: +9 armor, +4 Dex, +2 shield
+Hit points: 126 (12d8+72)
+Fort: +13
+Ref: +8
+Will: +12
+Defensive abilities: close ranks, troop traits
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 20 ft.
+Melee: troop (3d6+5 plus [trip](ref/umr/trip))
+Reach: 10
+Space: 20
+Spec Att: tripping spears, volley
+:::
 
-**Perception:** +18
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 20, Dex 19, Con 20, Int 13, Wis 22, Cha 9
+Base attack bonus: +9
+Combat maneuver bonus: +14 (+16 trip)
+Combat maneuver defense: 28 (30 vs. trip)
+Feats: Combat Expertise, Deflect Arrows, Improved Initiative, Improved Trip, Improved Unarmed Strike, Toughness
+Skills: Intimidate +11, Perception +18, Stealth +20
+Racial Modifiers: +4 Stealth
+Languages: Goblin
+:::
 
-**Subtype:** Goblinoid, Troop
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 25
-
-**Touch:** 14
-
-**Flat-footed:** 21
-
-**AC modifiers:** +9 armor, +4 Dex, +2 shield
-
-**Hit points:** 126 (12d8+72)
-
-**Fort:** +13
-
-**Ref:** +8
-
-**Will:** +12
-
-**Defensive abilities:** close ranks, troop traits
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Melee:** troop (3d6+5 plus [trip](ref/umr/trip))
-
-**Reach:** 10
-
-**Space:** 20
-
-**Spec Att:** tripping spears, volley
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 19, Con 20, Int 13, Wis 22, Cha 9
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +14 (+16 trip)
-
-**Combat maneuver defense:** 28 (30 vs. trip)
-
-**Feats:** Combat Expertise, Deflect Arrows, Improved Initiative, Improved Trip, Improved Unarmed
-Strike, Toughness
-
-**Skills:** Intimidate +11, Perception +18, Stealth +20
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Goblin
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or legion (3-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or legion (3-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

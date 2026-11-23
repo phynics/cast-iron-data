@@ -32,80 +32,62 @@ abilities = ["12", "13", "15", "10", "12", "11"]
 _This dark-furred creature wielding a horn bow looks like a burly humanoid with the head and hooves
 of a mountain goat._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: fey
+Initiative: +1
+Alignment: Lawful neutral
+Perception: +7
+Senses: Low-light vision
+Size: small
+Experience points: 400
+:::
 
-**Type:** fey
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 16 (3d6+6)
+Fort: +3
+Ref: +4
+Will: +4
+Dr: 2/cold iron
+Resist: cold 5
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 30 ft.
+Melee: gore +3 (1d4+1)
+Ranged: composite longbow +3 (1d6+1/×3)
+Spec Att: nature's traps
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 13, Con 15, Int 10, Wis 12, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 12
+Feats: Point-Blank Shot, Rapid Shot
+Skills: Acrobatics +11, Climb +11, Craft (bows) +8, Knowledge (nature) +4, Perception +7
+Racial Modifiers: +4 Acrobatics, +4 Climb, +4 Craft (bows), +4 Craft (traps)
+Languages: Sylvan
+Special qualities: effortless leap, mountain stride
+:::
 
-**Experience points:** 400
+### Ecology {#stat-ecology}
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 16 (3d6+6)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +4
-
-**Dr:** 2/cold iron
-
-**Resist:** cold 5
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** gore +3 (1d4+1)
-
-**Ranged:** composite longbow +3 (1d6+1/×3)
-
-**Spec Att:** nature's traps
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 15, Int 10, Wis 12, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 12
-
-**Feats:** Point-Blank Shot, Rapid Shot
-
-**Skills:** Acrobatics +11, Climb +11, Craft (bows) +8, Knowledge (nature) +4, Perception +7
-
-**Racial Modifiers:** +4 Acrobatics, +4 Climb, +4 Craft (bows), +4 Craft (traps)
-
-**Languages:** Sylvan
-
-**Special qualities:** effortless leap, mountain stride
-
-**Ecology**
-
-**Environment:** temperate or cold mountains
-
-**Organization:** solitary, pair, patrol (3-5), band (6-12), or tribe (13-32 plus 1 chieftain of
-3rd-4th level)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or cold mountains
+Organization: solitary, pair, patrol (3-5), band (6-12), or tribe (13-32 plus 1 chieftain of 3rd-4th level)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

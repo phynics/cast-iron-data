@@ -31,78 +31,61 @@ abilities = ["20", "18", "16", "12", "12", "10"]
 _Over two dozen men and women clad in chain shirts and leather armor brandish their knives and
 swords menacingly._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic neutral
+Type: humanoid
+Initiative: +8
+Size: medium
+Perception: +12
+Subtype: Human, Troop
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 armor, +4 Dex, +1 dodge
+Hit points: 82 (11d8+33)
+Fort: +6
+Ref: +13
+Will: +6
+Defensive abilities: troop traits
+Evasion: present
+:::
 
-**Initiative:** +8
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: troop (3d6+5)
+Reach: 5
+Space: 20
+:::
 
-**Perception:** +12
+### Statistics
 
-**Subtype:** Human, Troop
+::: statblock
+Ability scores: Str 20, Dex 18, Con 16, Int 12, Wis 12, Cha 10
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 28 (can't be tripped)
+Feats: Dodge, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility
+Skills: Acrobatics +11, Perception +12
+Languages: Common
+Special qualities: protect ally
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge
-
-**Hit points:** 82 (11d8+33)
-
-**Fort:** +6
-
-**Ref:** +13
-
-**Will:** +6
-
-**Defensive abilities:** troop traits
-
-**Evasion:** present
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** troop (3d6+5)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 18, Con 16, Int 12, Wis 12, Cha 10
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28 (can't be tripped)
-
-**Feats:** Dodge, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes,
-Mobility
-
-**Skills:** Acrobatics +11, Perception +12
-
-**Languages:** Common
-
-**Special qualities:** protect ally
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or band (2-4)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary or band (2-4)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

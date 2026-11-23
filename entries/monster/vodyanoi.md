@@ -33,88 +33,69 @@ abilities = ["16", "19", "17", "13", "20", "12"]
 _This humanoid salamander carries a gnarled staff in one hand. Tendrils drape its chin, resembling
 the beard of an eccentric hermit._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic neutral
+Initiative: +8
+Size: medium
+Type: Monstrous humanoid
+Perception: +14
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 19
+Touch: 15
+Flat-footed: 14
+AC modifiers: +4 Dex, +1 dodge, +4 natural
+Hit points: 51 (6d10+18)
+Fort: +5
+Ref: +9
+Will: +10
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Melee: shortspear +9/+4 (1d6+4), bite +4 (1d8+1)
+Ranged: shortspear +10 (1d6+3)
+Spec Att: suffocating water
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +7
+Per day: 3/day: control water, dancing lights, grease (DC 12), hydraulic push (DC 12), water breathing\
+1/day: aqueous orb (DC 14), neutralize poison, remove disease
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 16, Dex 19, Con 17, Int 13, Wis 20, Cha 12
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Dodge, Improved Initiative, Skill Focus (Heal)
+Skills: Diplomacy +3, Heal +18
+Racial Modifiers: +4 Heal
+Languages: Aquan, Common, Sylvan
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 15
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +1 dodge, +4 natural
-
-**Hit points:** 51 (6d10+18)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +10
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Melee:** shortspear +9/+4 (1d6+4), bite +4 (1d8+1)
-
-**Ranged:** shortspear +10 (1d6+3)
-
-**Spec Att:** suffocating water
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +7
-
-**Per day:**
-
-- 3/day: control water, dancing lights, grease (DC 12), hydraulic push (DC 12), water breathing
-- 1/day: aqueous orb (DC 14), neutralize poison, remove disease
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 19, Con 17, Int 13, Wis 20, Cha 12
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Improved Initiative, Skill Focus (Heal)
-
-**Skills:** Diplomacy +3, Heal +18
-
-**Racial Modifiers:** +4 Heal
-
-**Languages:** Aquan, Common, Sylvan
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any rivers or marshes
-
-**Organization:** solitary, pair, or family (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any rivers or marshes
+Organization: solitary, pair, or family (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

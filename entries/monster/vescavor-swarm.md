@@ -34,85 +34,65 @@ abilities = ["7", "17", "16", "4", "13", "12"]
 _With a gibbering chorus, hundreds of toothy insects swarm together, their heads nothing more than
 maws filled with a sickly green glow._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+aura: gibber (15 ft.)
+Alignment: Chaotic evil
+Size: diminutive
+Initiative: +3
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Chaotic, Evil, Extraplanar, Swarm
+Experience points: 1,600
+:::
 
-**aura:** gibber (15 ft.)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 16
+AC modifiers: +3 Dex, +2 natural, +4 size
+Hit points: 47 (5d10+20)
+Fort: +7
+Ref: +9
+Will: +2
+Immune: poison, swarm traits, weapon damage
+Resist: fire 10, electricity 10
+Sr: 16
+:::
 
-**Size:** diminutive
+### Offense
 
-**Initiative:** +3
+::: statblock
+Speed: 30 ft., fly 40 ft. (good)
+Distraction: 15
+Melee: swarm (2d6 plus distraction)
+Reach: 0
+Space: 10
+Spec Att: ravenous, traumatizing
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +9
+::: statblock
+Ability scores: Str 7, Dex 17, Con 16, Int 4, Wis 13, Cha 12
+Base attack bonus: +5
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Blind-Fight, Lightning Reflexes, Toughness
+Skills: Fly +21, Perception +9, Stealth +23
+Languages: Abyssal
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Chaotic, Evil, Extraplanar, Swarm
-
-**Experience points:** 1,600
-
-**Armor class:** 19
-
-**Touch:** 17
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +2 natural, +4 size
-
-**Hit points:** 47 (5d10+20)
-
-**Fort:** +7
-
-**Ref:** +9
-
-**Will:** +2
-
-**Immune:** poison, swarm traits, weapon damage
-
-**Resist:** fire 10, electricity 10
-
-**Sr:** 16
-
-**Offense**
-
-**Speed:** 30 ft., fly 40 ft. (good)
-
-**Distraction:** 15
-
-**Melee:** swarm (2d6 plus distraction)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** ravenous, traumatizing
-
-**Statistics**
-
-**Ability scores:** Str 7, Dex 17, Con 16, Int 4, Wis 13, Cha 12
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Blind-Fight, Lightning Reflexes, Toughness
-
-**Skills:** Fly +21, Perception +9, Stealth +23
-
-**Languages:** Abyssal
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, plague (3-12), or apocalypse (16-30)
-
-**Treasure:** None
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, plague (3-12), or apocalypse (16-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

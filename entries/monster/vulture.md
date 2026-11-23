@@ -29,67 +29,56 @@ abilities = ["12", "13", "14", "2", "13", "7"]
 _This dark-feathered vulture has a bald neck and head, and its long, hooked beak is caked with
 carrion._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +9
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 12
+Flat-footed: 12
+AC modifiers: +1 Dex, +1 natural, +1 size
+Hit points: 6 (1d8+2)
+Fort: +6
+Ref: +3
+Will: +1; +4 vs. disease
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 10 ft., fly 50 ft. (average)
+Melee: bite +2 (1d6+1)
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 12, Dex 13, Con 14, Int 2, Wis 13, Cha 7
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 11
+Feats: Great Fortitude
+Skills: Fly +7, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +1 natural, +1 size
-
-**Hit points:** 6 (1d8+2)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +1; +4 vs. disease
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (average)
-
-**Melee:** bite +2 (1d6+1)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 13, Con 14, Int 2, Wis 13, Cha 7
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11
-
-**Feats:** Great Fortitude
-
-**Skills:** Fly +7, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** warm plains or hills
-
-**Organization:** solitary, pair, or flock (3-24)
-
-**Treasure:** None
+::: statblock
+Environment: warm plains or hills
+Organization: solitary, pair, or flock (3-24)
+Treasure: None
+:::
 
 ### Description
 

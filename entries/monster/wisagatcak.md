@@ -30,100 +30,73 @@ abilities = ["21", "24", "25", "18", "20", "21"]
 
 _This spider-like monstrosity watches quietly, skittering about on six needle-sharp legs._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+aura: insidious whispers (60 ft., DC 23)
+Initiative: +7
+Alignment: Lawful evil
+Type: outsider
+Perception: +24
+Senses: See in darkness
+Size: small
+Subtype: Evil, Extraplanar, Lawful
+tremorsense: 30
+Experience points: 38,400
+:::
 
-**aura:** insidious whispers (60 ft., DC 23)
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 30
+Touch: 19
+Flat-footed: 22
+AC modifiers: +7 Dex, +1 dodge, +11 natural, +1 size
+Hit points: 200 (16d10+112)
+Fort: +12
+Ref: +17
+Will: +15
+Dr: 10/good
+Immune: cold
+Sr: 25
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., burrow 20 ft., climb 40 ft.
+Melee: bite +22 (1d8+5 plus weakness), gore +22 (2d4+5), 4 talons +22 (1d6+5)
+Rake: 2 talons, 1d6+5
+Spec Att: ravage flesh
+:::
 
-**Perception:** +24
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +19
+At will: dimension door, whispering wind
+Per day: 3/day: air walk, freezing sphere (DC 21)\
+1/day: polar ray (DC 23), wall of ice
+:::
 
-**Senses:** See in darkness
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 21, Dex 24, Con 25, Int 18, Wis 20, Cha 21
+Base attack bonus: +16
+Combat maneuver bonus: +20 (+24 trip)
+Combat maneuver defense: 38 (48 vs. trip)
+Feats: Acrobatic Steps, Combat Expertise, Dodge, Greater Trip, Improved Trip, Lunge, Mobility, Nimble Moves
+Skills: Acrobatics +26, Bluff +24, Climb +32, Intimidate +24, Knowledge (arcana) +20, Perception +24
+Languages: Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**tremorsense:** 30
-
-**Experience points:** 38,400
-
-**Armor class:** 30
-
-**Touch:** 19
-
-**Flat-footed:** 22
-
-**AC modifiers:** +7 Dex, +1 dodge, +11 natural, +1 size
-
-**Hit points:** 200 (16d10+112)
-
-**Fort:** +12
-
-**Ref:** +17
-
-**Will:** +15
-
-**Dr:** 10/good
-
-**Immune:** cold
-
-**Sr:** 25
-
-**Offense**
-
-**Speed:** 50 ft., burrow 20 ft., climb 40 ft.
-
-**Melee:** bite +22 (1d8+5 plus weakness), gore +22 (2d4+5), 4 talons +22 (1d6+5)
-
-**Rake:** 2 talons, 1d6+5
-
-**Spec Att:** ravage flesh
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +19
-
-**At will:**
-
-- dimension door, whispering wind
-
-**Per day:**
-
-- 3/day: air walk, freezing sphere (DC 21)
-- 1/day: polar ray (DC 23), wall of ice
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 24, Con 25, Int 18, Wis 20, Cha 21
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +20 (+24 trip)
-
-**Combat maneuver defense:** 38 (48 vs. trip)
-
-**Feats:** Acrobatic Steps, Combat Expertise, Dodge, Greater Trip, Improved Trip, Lunge, Mobility,
-Nimble Moves
-
-**Skills:** Acrobatics +26, Bluff +24, Climb +32, Intimidate +24, Knowledge (arcana) +20, Perception
-+24
-
-**Languages:** Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Ecology**
-
-**Environment:** cold mountains ([Hell](ref/rule/hell))
-
-**Organization:** solitary or wave (2-8)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains ([Hell](ref/rule/hell))
+Organization: solitary or wave (2-8)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

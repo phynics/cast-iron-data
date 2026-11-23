@@ -29,69 +29,57 @@ abilities = ["17", "17", "12", "1", "12", "2"]
 _This large snake has a thick, muscular body and dull green scales decorated with dirty brown
 stripes._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +12
+Senses: Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 13
+Flat-footed: 12
+AC modifiers: +3 Dex, +2 natural
+Hit points: 19 (3d8+6)
+Fort: +4
+Ref: +6
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Constrict: 1d4+4
+Melee: bite +5 (1d4+4 plus [grab](ref/umr/grab))
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Scent
+::: statblock
+Ability scores: Str 17, Dex 17, Con 12, Int 1, Wis 12, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +5 (+9 grapple)
+Combat maneuver defense: 18 (can't be tripped)
+Feats: Skill Focus (Perception), Toughness
+Skills: Acrobatics +15, Climb +11
+Racial Modifiers: +4 Perception, +4 Stealth, +8 Acrobatics
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +2 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Constrict:** 1d4+4
-
-**Melee:** bite +5 (1d4+4 plus [grab](ref/umr/grab))
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 17, Con 12, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +5 (+9 grapple)
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Feats:** Skill Focus (Perception), Toughness
-
-**Skills:** Acrobatics +15, Climb +11
-
-**Racial Modifiers:** +4 Perception, +4 Stealth, +8 Acrobatics
-
-**Ecology**
-
-**Environment:** warm forests, swamps, and fresh water
-
-**Organization:** solitary or nest (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: warm forests, swamps, and fresh water
+Organization: solitary or nest (2-6)
+Treasure: None
+:::
 
 ### Description
 

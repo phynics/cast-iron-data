@@ -31,103 +31,73 @@ abilities = ["25", "18", "22", "15", "18", "19"]
 _This monster is vaguely humanoid, but stands on three legs. A foul liquid drips from the
 needle-like tips of its long, hooked arms._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Initiative: +8
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 9,600
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 25
+Touch: 15
+Flat-footed: 20
+AC modifiers: +4 Dex, +1 dodge, +10 natural
+Hit points: 138 (12d10+72)
+Fort: +14
+Ref: +8
+Will: +14
+Dr: 10/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 10, electricity 10, sonic 10
+Sr: 21
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., climb 50 ft.
+Melee: bite +19 (1d10+7), 2 talons +19 (2d6+7/19-20 plus addiction)
+Spec Att: look of fear (30 ft., DC 22)
+:::
 
-**Perception:** +19
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +14
+Constant: detect good, detect magic, see invisibility
+At will: greater teleport, self plus 50 lbs. of objects only
+Per day: 3/day: foe to friend (DC 19), greater invisibility, overwhelming grief (DC 20), protection from good, suggestion (DC 17)\
+1/day: nightmare (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Detect good, Detect magic, Low-light vision, See invisibility
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 25, Dex 18, Con 22, Int 15, Wis 18, Cha 19
+Base attack bonus: +12
+Combat maneuver bonus: +19
+Combat maneuver defense: 34 (36 vs. trip)
+Feats: Combat Expertise, Combat Reflexes, Dodge, Improved Critical (talon), Improved Initiative, Iron Will
+Skills: Acrobatics +19, Climb +30, Craft (alchemy) +17, Intimidate +19, Knowledge (arcana, planes) +11, Perception +19, Sense Motive +19, Stealth +19
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easy to call, emotional focus, skip between, spirit touch
+:::
 
-**Experience points:** 9,600
+### Ecology
 
-**Armor class:** 25
-
-**Touch:** 15
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 Dex, +1 dodge, +10 natural
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +14
-
-**Ref:** +8
-
-**Will:** +14
-
-**Dr:** 10/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 10, electricity 10, sonic 10
-
-**Sr:** 21
-
-**Offense**
-
-**Speed:** 50 ft., climb 50 ft.
-
-**Melee:** bite +19 (1d10+7), 2 talons +19 (2d6+7/19-20 plus addiction)
-
-**Spec Att:** look of fear (30 ft., DC 22)
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +14
-
-**Constant:**
-
-- detect good, detect magic, see invisibility
-
-**At will:**
-
-- greater teleport, self plus 50 lbs. of objects only
-
-**Per day:**
-
-- 3/day: foe to friend (DC 19), greater invisibility, overwhelming grief (DC 20), protection from
-  good, suggestion (DC 17)
-- 1/day: nightmare (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 18, Con 22, Int 15, Wis 18, Cha 19
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34 (36 vs. trip)
-
-**Feats:** Combat Expertise, Combat Reflexes, Dodge, Improved Critical (talon), Improved Initiative,
-Iron Will
-
-**Skills:** Acrobatics +19, Climb +30, Craft (alchemy) +17, Intimidate +19, Knowledge (arcana,
-planes) +11, Perception +19, Sense Motive +19, Stealth +19
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between, spirit touch
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, pair, or gang (3-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, pair, or gang (3-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

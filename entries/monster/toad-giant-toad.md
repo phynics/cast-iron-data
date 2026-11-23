@@ -29,75 +29,60 @@ abilities = ["19", "13", "16", "1", "8", "6"]
 _Stubby warts dot the skin of this horse-sized brown toad. Its throat bulges and ripples as though
 about to croak._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 13
+AC modifiers: +1 Dex, +4 natural, -1 size
+Hit points: 22 (3d8+9)
+Fort: +6
+Ref: +6
+Will: +0
+Defensive abilities: poison skin
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., swim 15 ft.
+Melee: bite +5 (1d6+6 plus [grab](ref/umr/grab))
+Reach: 10
+Space: 10
+Swallow: 1d4 bludgeoning, AC 12, 2 hp
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 19, Dex 13, Con 16, Int 1, Wis 8, Cha 6
+Base attack bonus: +2
+Combat maneuver bonus: +7 (+11 grapple)
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Lightning Reflexes, Skill Focus (Perception)
+Skills: Acrobatics +5 (+9 jump), Perception +8, Stealth +5, Swim +12
+Racial Modifiers: +4 Acrobatics (+8 jump), +4 Stealth
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +4 natural, -1 size
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +6
-
-**Ref:** +6
-
-**Will:** +0
-
-**Defensive abilities:** poison skin
-
-**Offense**
-
-**Speed:** 30 ft., swim 15 ft.
-
-**Melee:** bite +5 (1d6+6 plus [grab](ref/umr/grab))
-
-**Reach:** 10
-
-**Space:** 10
-
-**Swallow:** 1d4 bludgeoning, AC 12, 2 hp
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 16, Int 1, Wis 8, Cha 6
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +7 (+11 grapple)
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Acrobatics +5 (+9 jump), Perception +8, Stealth +5, Swim +12
-
-**Racial Modifiers:** +4 Acrobatics (+8 jump), +4 Stealth
-
-**Ecology**
-
-**Environment:** temperate forests, plains, or swamps
-
-**Organization:** solitary, pair, or knot (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests, plains, or swamps
+Organization: solitary, pair, or knot (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

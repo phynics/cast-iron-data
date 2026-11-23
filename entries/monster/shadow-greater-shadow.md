@@ -30,77 +30,61 @@ abilities = ["-", "20", "-", "6", "12", "15"]
 
 _This shadowy figure sways and moves with an erratic grace, as if lit by an unseen fire._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Initiative: +5
+Size: medium
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 18
+Touch: 18
+Flat-footed: 12
+AC modifiers: +2 deflection, +5 Dex, +1 dodge
+Hit points: 58 (9d8+18)
+Fort: +5
+Ref: +8
+Will: +7
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: fly 40 ft. (good)
+Melee: incorporeal touch +11 (1d8 Strength)
+Spec Att: create spawn (as per shadow), strength damage
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 20, Con -, Int 6, Wis 12, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Dodge, Flyby Attack, Mobility, Skill Focus (Perception, Stealth)
+Skills: Fly +15, Perception +13, Stealth +20 (+24 in dim light, +16 in bright light)
+Racial Modifiers: +4 Stealth in dim light (-4 in bright light)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 18
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +5 Dex, +1 dodge
-
-**Hit points:** 58 (9d8+18)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +7
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Melee:** incorporeal touch +11 (1d8 Strength)
-
-**Spec Att:** create spawn (as per shadow), strength damage
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con -, Int 6, Wis 12, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Dodge, Flyby Attack, Mobility, Skill Focus (Perception, Stealth)
-
-**Skills:** Fly +15, Perception +13, Stealth +20 (+24 in dim light, +16 in bright light)
-
-**Racial Modifiers:** +4 Stealth in dim light (-4 in bright light)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

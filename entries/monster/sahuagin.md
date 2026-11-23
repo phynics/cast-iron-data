@@ -32,81 +32,61 @@ abilities = ["14", "13", "14", "14", "13", "9"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+blindsense: 30
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +6
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 600
+:::
 
-**blindsense:** 30
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 16
+Touch: 11
+Flat-footed: 15
+AC modifiers: +1 Dex, +5 natural
+Hit points: 15 (2d10+4)
+Fort: +4
+Ref: +4
+Will: +4
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: trident +4 (1d8+3), bite -1 (1d4+1) or 2 claws +4 (1d4+2), bite +4 (1d4+2)
+Ranged: heavy crossbow +3 (1d10/19-20)
+Spec Att: blood frenzy
+:::
 
-**Type:** Monstrous humanoid
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 14, Dex 13, Con 14, Int 14, Wis 13, Cha 9
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Great Fortitude
+Skills: Handle Animal +1, Ride +6
+Languages: Aquan, Common; speak with sharks
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 600
-
-**Armor class:** 16
-
-**Touch:** 11
-
-**Flat-footed:** 15
-
-**AC modifiers:** +1 Dex, +5 natural
-
-**Hit points:** 15 (2d10+4)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +4
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** trident +4 (1d8+3), bite -1 (1d4+1) or 2 claws +4 (1d4+2), bite +4 (1d4+2)
-
-**Ranged:** heavy crossbow +3 (1d10/19-20)
-
-**Spec Att:** blood frenzy
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 14, Int 14, Wis 13, Cha 9
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Great Fortitude
-
-**Skills:** Handle Animal +1, Ride +6
-
-**Languages:** Aquan, Common; speak with sharks
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
-
-**Organization:** Solitary, pair, team (5-8), patrol (11-20 plus 1 lieutenant of 3rd level and 1-2
-sharks), band (20-80 plus 100% noncombatants, 1 lieutenant of 3rd level and 1 chieftain of 4th level
-per 20 adults, and 1-2 sharks), or tribe (70-160 plus 100% noncombatants, 1 lieutenant of 3rd level
-per 20 adults, 1 chieftain of 4th level per 40 adults, 9 guards of 4th level, 1-4 underpriestesses
-of 3rd-6th level, 1 priestess of 7th level, 1 baron of 6th-8th level, and 5-8 sharks)
-
-**Treasure:** NPC gear (trident, heavy crossbow with 10 bolts); other treasure
+::: statblock
+Environment: temperate or warm ocean
+Organization: Solitary, pair, team (5-8), patrol (11-20 plus 1 lieutenant of 3rd level and 1-2 sharks), band (20-80 plus 100% noncombatants, 1 lieutenant of 3rd level and 1 chieftain of 4th level per 20 adults, and 1-2 sharks), or tribe (70-160 plus 100% noncombatants, 1 lieutenant of 3rd level per 20 adults, 1 chieftain of 4th level per 40 adults, 9 guards of 4th level, 1-4 underpriestesses of 3rd-6th level, 1 priestess of 7th level, 1 baron of 6th-8th level, and 5-8 sharks)
+Treasure: NPC gear (trident, heavy crossbow with 10 bolts); other treasure
+:::
 
 ### Special Abilities
 

@@ -32,102 +32,78 @@ abilities = ["17", "12", "13", "8", "11", "10"]
 _This ferocious ursine brute has blade-like metallic teeth and appears to be covered in overlapping
 iron plates._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Initiative: +5
+Size: large
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Chaotic, Extraplanar
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +5
+::: statblock
+Armor class: 19
+Touch: 10
+Flat-footed: 18
+AC modifiers: +1 Dex, +9 natural, -1 size
+Hit points: 39 (6d10+6)
+Fort: +6
+Ref: +3
+Will: +5
+Dr: 5/lawful
+Immune: fear
+Resist: cold 5, electricity 5, fire 5
+Sr: 15
+:::
 
-**Size:** large
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +8 (1d6+3), 2 claws +9 (1d6+3 plus [grab](ref/umr/grab))
+Reach: 5
+Space: 10
+Spec Att: adamantine attacks
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+Per day: 3/day: bear's endurance, cure light wounds, true strike\
+1/day: rage
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Chaotic, Extraplanar
-
-**Experience points:** 1,200
-
-**Armor class:** 19
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +1 Dex, +9 natural, -1 size
-
-**Hit points:** 39 (6d10+6)
-
-**Fort:** +6
-
-**Ref:** +3
-
-**Will:** +5
-
-**Dr:** 5/lawful
-
-**Immune:** fear
-
-**Resist:** cold 5, electricity 5, fire 5
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +8 (1d6+3), 2 claws +9 (1d6+3 plus [grab](ref/umr/grab))
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** adamantine attacks
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**Per day:**
-
-- 3/day: bear's endurance, cure light wounds, true strike
-- 1/day: rage
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 12, Con 13, Int 8, Wis 11, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10 (+14 grapple, +12 sunder)
-
-**Combat maneuver defense:** 21 (23 vs. sunder, 25 vs. trip)
-
-**Feats:** Improved Initiative, Improved Sunder^B^, Power Attack, Weapon Focus (claws)
-
-**Skills:** Climb +12
-
-**Racial Modifiers:** +4 Swim
-
-**Languages:** Abyssal, Celestial; _[speak with animals](ref/spell/speak-with-animals)_ (bears only)
-
-**Special qualities:** eat metal
+::: statblock
+Ability scores: Str 17, Dex 12, Con 13, Int 8, Wis 11, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +10 (+14 grapple, +12 sunder)
+Combat maneuver defense: 21 (23 vs. sunder, 25 vs. trip)
+Feats: Improved Initiative, Improved Sunder^B^, Power Attack, Weapon Focus (claws)
+Skills: Climb +12
+Racial Modifiers: +4 Swim
+Languages: Abyssal, Celestial; _[speak with animals](ref/spell/speak-with-animals)_ (bears only)
+Special qualities: eat metal
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Elysium](ref/rule/elysium))
-
-**Organization:** solitary, pair, or gang (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Elysium](ref/rule/elysium))
+Organization: solitary, pair, or gang (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

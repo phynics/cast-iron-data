@@ -32,116 +32,75 @@ abilities = ["32", "25", "26", "19", "20", "23"]
 _This knight wears armor patterned like raven feathers with a helmet shaped like a raven's head and
 gauntlets fit for oversized talons._
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 26), shatter loyalties
+Type: fey
+Initiative: +11
+Size: medium
+Alignment: Neutral evil
+Perception: +29
+Senses: Deathwatch, Low-light vision, See in darkness, True seeing
+Subtype: Shapechanger
+Experience points: 76,800
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 26), shatter loyalties
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 34
+Touch: 24
+Flat-footed: 26
+AC modifiers: +7 Dex, +2 dodge, +5 insight, +10 natural
+Hit points: 253 (22d6+176)
+Fort: +17
+Ref: +21
+Will: +18
+Defensive abilities: fate warden
+Dr: 15/cold iron and good
+Immune: curses, death effects, energy drain, fear
+Sr: 27
+:::
 
-**Initiative:** +11
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 60 ft., fly 110 ft. (average)
+Bleed: 1d6
+Melee: 2 claws +23 (1d6+11 plus 1d6 bleed), bite +23 (1d8+11/15-20 plus 1d6 bleed) or +5 [cruel](ref/magic-enh/cruel) [keen](ref/magic-enh/keen) falchion +29/+29/+24/+19 (2d4+21/15-20 plus 1d6 bleed)
+Spec Att: bloodbird, raven hexes (agony, cackle, charm, dire prophecy, disguise, evil eye, misfortune, retribution, speak in dreams), soul eater
+:::
 
-**Alignment:** Neutral evil
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +24
+Constant: deathwatch, freedom of movement, haste, tongues, true seeing
+At will: bestow curse (DC 20), crushing despair (DC 19), detect thoughts (DC 18), dispel magic, fear (DC 20), scrying (DC 20), suggestion (DC 19)
+Per day: 1/day: circle of death (DC 22), ethereal jaunt, geas/quest, mass suggestion (DC 22), modify memory (DC 20)
+Per month: limited wish, to non-fey only
+:::
 
-**Perception:** +29
+### Statistics
 
-**Senses:** Deathwatch, Low-light vision, See in darkness, True seeing
+::: statblock
+Ability scores: Str 32, Dex 25, Con 26, Int 19, Wis 20, Cha 23
+Base attack bonus: +11
+Combat maneuver bonus: +22
+Combat maneuver defense: 46
+Feats: Critical Focus, Dodge, Flyby Attack, Great Fortitude, Improved Critical (bite), Improved Initiative, Lunge, Mobility, Power Attack, Weapon Focus (falchion), Wind Stance
+Skills: Acrobatics +31, Bluff +30, Diplomacy +21, Disguise +30, Profession (soldier) +15, Sense Motive +25, Stealth +25, Use Magic Device +20
+Languages: Aklo, Common, Infernal, Sylvan; _[tongues](ref/spell/tongues)_
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid, peryton, wolf, or dire wolf; [alter self](ref/spell/alter-self) or [beast shape III](ref/spell/beast-shape-3)), raven knight
+:::
 
-**Subtype:** Shapechanger
+### Ecology
 
-**Experience points:** 76,800
-
-**Armor class:** 34
-
-**Touch:** 24
-
-**Flat-footed:** 26
-
-**AC modifiers:** +7 Dex, +2 dodge, +5 insight, +10 natural
-
-**Hit points:** 253 (22d6+176)
-
-**Fort:** +17
-
-**Ref:** +21
-
-**Will:** +18
-
-**Defensive abilities:** fate warden
-
-**Dr:** 15/cold iron and good
-
-**Immune:** curses, death effects, energy drain, fear
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 60 ft., fly 110 ft. (average)
-
-**Bleed:** 1d6
-
-**Melee:** 2 claws +23 (1d6+11 plus 1d6 bleed), bite +23 (1d8+11/15-20 plus 1d6 bleed) or +5
-[cruel](ref/magic-enh/cruel) [keen](ref/magic-enh/keen) falchion +29/+29/+24/+19 (2d4+21/15-20 plus
-1d6 bleed)
-
-**Spec Att:** bloodbird, raven hexes (agony, cackle, charm, dire prophecy, disguise, evil eye,
-misfortune, retribution, speak in dreams), soul eater
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +24
-
-**Constant:**
-
-- deathwatch, freedom of movement, haste, tongues, true seeing
-
-**At will:**
-
-- bestow curse (DC 20), crushing despair (DC 19), detect thoughts (DC 18), dispel magic, fear (DC
-  20), scrying (DC 20), suggestion (DC 19)
-
-**Per day:**
-
-- 1/day: circle of death (DC 22), ethereal jaunt, geas/quest, mass suggestion (DC 22), modify memory
-  (DC 20)
-
-**Per month:**
-
-- limited wish, to non-fey only
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 25, Con 26, Int 19, Wis 20, Cha 23
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 46
-
-**Feats:** Critical Focus, Dodge, Flyby Attack, Great Fortitude, Improved Critical (bite), Improved
-Initiative, Lunge, Mobility, Power Attack, Weapon Focus (falchion), Wind Stance
-
-**Skills:** Acrobatics +31, Bluff +30, Diplomacy +21, Disguise +30, Profession (soldier) +15, Sense
-Motive +25, Stealth +25, Use Magic Device +20
-
-**Languages:** Aklo, Common, Infernal, Sylvan; _[tongues](ref/spell/tongues)_
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid, peryton,
-wolf, or dire wolf; [alter self](ref/spell/alter-self) or
-[beast shape III](ref/spell/beast-shape-3)), raven knight
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or unkindness (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or unkindness (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

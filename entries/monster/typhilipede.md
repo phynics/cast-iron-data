@@ -32,83 +32,64 @@ abilities = ["12", "15", "12", "5", "13", "8"]
 _This hideous creature has a jet-black segmented body, four beady eyes, bat-like wings, and a pair
 of oversized mandibles that glisten with green ichor._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: shadow (10 ft.)
+Initiative: +6
+Alignment: Lawful evil
+Type: outsider
+Perception: +7
+Senses: Darkvision 120 ft., See in darkness
+Subtype: Evil, Extraplanar, Lawful
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** shadow (10 ft.)
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +2
+Immune: fire, poison
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., fly 30 ft. (poor)
+Melee: bite +7 (1d3+1 plus poison)
+Reach: 0
+Space: 2-1/2
+Spec Att: poison
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 120 ft., See in darkness
+::: statblock
+Ability scores: Str 12, Dex 15, Con 12, Int 5, Wis 13, Cha 8
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Improved Initiative, Weapon Finesse
+Skills: Fly +8, Perception +7, Stealth +16
+Languages: Infernal (can't speak)
+Special qualities: lumivore
+:::
 
-**Subtype:** Evil, Extraplanar, Lawful
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** fire, poison
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., fly 30 ft. (poor)
-
-**Melee:** bite +7 (1d3+1 plus poison)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con 12, Int 5, Wis 13, Cha 8
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Improved Initiative, Weapon Finesse
-
-**Skills:** Fly +8, Perception +7, Stealth +16
-
-**Languages:** Infernal (can't speak)
-
-**Special qualities:** lumivore
-
-**Ecology**
-
-**Environment:** any underground ([Hell](ref/rule/hell))
-
-**Organization:** solitary, mass (2-9), or colony (10-30)
-
-**Treasure:** None
+::: statblock
+Environment: any underground ([Hell](ref/rule/hell))
+Organization: solitary, mass (2-9), or colony (10-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

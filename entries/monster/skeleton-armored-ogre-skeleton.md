@@ -26,65 +26,51 @@ melee = "greatclub +7 (2d8+7) or 2 claws +7 (1d6+5)"
 abilities = ["21", "10", "-", "-", "10", "10"]
 +++
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +4
+Size: large
+Alignment: Neutral evil
+Perception: +0
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 600
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 19
+Touch: 9
+Flat-footed: 19
+AC modifiers: +8 armor, +2 natural, -1 size
+Hit points: 18 (4d8)
+Fort: +1
+Ref: +1
+Will: +4
+Dr: 5/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +0
+::: statblock
+Speed: 30 ft., (40 ft. base)
+Melee: greatclub +7 (2d8+7) or 2 claws +7 (1d6+5)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 600
-
-**Armor class:** 19
-
-**Touch:** 9
-
-**Flat-footed:** 19
-
-**AC modifiers:** +8 armor, +2 natural, -1 size
-
-**Hit points:** 18 (4d8)
-
-**Fort:** +1
-
-**Ref:** +1
-
-**Will:** +4
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft., (40 ft. base)
-
-**Melee:** greatclub +7 (2d8+7) or 2 claws +7 (1d6+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 10, Con -, Int -, Wis 10, Cha 10
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 19
-
-**Feats:** Improved Initiative^B^
-
-**Gear:** half-plate, greatclub
+::: statblock
+Ability scores: Str 21, Dex 10, Con -, Int -, Wis 10, Cha 10
+Base attack bonus: +3
+Combat maneuver bonus: +9
+Combat maneuver defense: 19
+Feats: Improved Initiative^B^
+Gear: half-plate, greatclub
+:::
 
 ###### B {#footnote-b}
 

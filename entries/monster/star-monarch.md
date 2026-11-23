@@ -31,108 +31,77 @@ abilities = ["18", "23", "18", "11", "17", "18"]
 _This brilliantly colored moth rises taller than a house. A long tail resembling peacock feathers
 trails behind the creature._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+aura: dreamwarden (30 ft.)
+Alignment: Chaotic good
+Size: huge
+Initiative: +10
+Type: Magical beast
+Perception: +16
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 6,400
+:::
 
-**aura:** dreamwarden (30 ft.)
+### Defense
 
-**Alignment:** Chaotic good
+::: statblock
+Armor class: 22
+Touch: 15
+Flat-footed: 15
+AC modifiers: +6 Dex, +1 dodge, +7 natural, -2 size
+Hit points: 114 (12d10+48)
+Fort: +12
+Ref: +14
+Will: +9
+Dr: 5/silver
+Immune: cold
+Sr: 20
+:::
 
-**Size:** huge
+### Offense
 
-**Initiative:** +10
+::: statblock
+Speed: 30 ft., fly 80 ft. (average)
+Melee: 2 claws +14 (1d8+4 plus [grab](ref/umr/grab)), tail +14 (2d6+4 nonlethal)
+Rake: 4 claws +10, 1d6+3
+Reach: 5
+Reach P: 15 ft. with tail
+Sp Extra: starflight
+Space: 15
+Spec Att: glowsap
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 12
+Concentration: +16
+Constant: entropic shield
+At will: dancing lights, restful sleep
+Per day: 3/day: deep slumber (DC 17), dream, wandering star motes (DC 18)\
+1/day: cloak of dreams (DC 20)
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 23, Con 18, Int 11, Wis 17, Cha 18
+Base attack bonus: +12
+Combat maneuver bonus: +18 (+22 grapple)
+Combat maneuver defense: 35 (43 vs. trip)
+Feats: Alertness, Dodge, Flyby Attack, Hover, Improved Initiative, Iron Will
+Skills: Fly +14, Perception +16, Sense Motive +12
+Languages: Common (can't speak); [telepathy](ref/umr/telepathy) touch
+Special qualities: navigational awareness, [no breath](ref/umr/no-breath), toxic flesh
+:::
 
-**Experience points:** 6,400
+### Ecology
 
-**Armor class:** 22
-
-**Touch:** 15
-
-**Flat-footed:** 15
-
-**AC modifiers:** +6 Dex, +1 dodge, +7 natural, -2 size
-
-**Hit points:** 114 (12d10+48)
-
-**Fort:** +12
-
-**Ref:** +14
-
-**Will:** +9
-
-**Dr:** 5/silver
-
-**Immune:** cold
-
-**Sr:** 20
-
-**Offense**
-
-**Speed:** 30 ft., fly 80 ft. (average)
-
-**Melee:** 2 claws +14 (1d8+4 plus [grab](ref/umr/grab)), tail +14 (2d6+4 nonlethal)
-
-**Rake:** 4 claws +10, 1d6+3
-
-**Reach:** 5
-
-**Reach P:** 15 ft. with tail
-
-**Sp Extra:** starflight
-
-**Space:** 15
-
-**Spec Att:** glowsap
-
-**Spell-Like Abilities**
-
-**Caster level:** 12
-
-**Concentration:** +16
-
-**Constant:**
-
-- entropic shield
-
-**At will:**
-
-- dancing lights, restful sleep
-
-**Per day:**
-
-- 3/day: deep slumber (DC 17), dream, wandering star motes (DC 18)
-- 1/day: cloak of dreams (DC 20)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 23, Con 18, Int 11, Wis 17, Cha 18
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +18 (+22 grapple)
-
-**Combat maneuver defense:** 35 (43 vs. trip)
-
-**Feats:** Alertness, Dodge, Flyby Attack, Hover, Improved Initiative, Iron Will
-
-**Skills:** Fly +14, Perception +16, Sense Motive +12
-
-**Languages:** Common (can't speak); [telepathy](ref/umr/telepathy) touch
-
-**Special qualities:** navigational awareness, [no breath](ref/umr/no-breath), toxic flesh
-
-**Ecology**
-
-**Environment:** any (Varisia)
-
-**Organization:** solitary, pair, or rabble (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any (Varisia)
+Organization: solitary, pair, or rabble (3-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

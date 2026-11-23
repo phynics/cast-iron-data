@@ -31,95 +31,72 @@ abilities = ["4", "11", "11", "12", "13", "2"]
 
 _This eel-like creature has a thick, greasy body and a large, circular mouth full of tiny teeth._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: aberration
+blindsight: 60
+Initiative: +0
+Alignment: Neutral
+Perception: +6
+Senses: Arcane sight
+Subtype: Aquatic
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** aberration
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +0
+Will: +4
+Defensive abilities: host buffer
+Immune: disease, mind-affecting effects, poison
+Sr: 11
+:::
 
-**Initiative:** +0
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 5 ft., swim 30 ft.
+Melee: bite +3 (1d4-3 plus attach and 1d3 Wisdom damage)
+Reach: 0
+Space: 2-1/2
+Spec Att: puppet master
+:::
 
-**Perception:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +1
+Constant: arcane sight
+:::
 
-**Senses:** Arcane sight
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 4, Dex 11, Con 11, Int 12, Wis 13, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: -1 (+7 grapple)
+Combat maneuver defense: 6 (14 vs. grapple, can't be tripped)
+Feats: Weapon Finesse
+Skills: Climb +2
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 10 ft.
+Special qualities: [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +0
-
-**Will:** +4
-
-**Defensive abilities:** host buffer
-
-**Immune:** disease, mind-affecting effects, poison
-
-**Sr:** 11
-
-**Offense**
-
-**Speed:** 5 ft., swim 30 ft.
-
-**Melee:** bite +3 (1d4-3 plus attach and 1d3 Wisdom damage)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** puppet master
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +1
-
-**Constant:**
-
-- arcane sight
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 11, Con 11, Int 12, Wis 13, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** -1 (+7 grapple)
-
-**Combat maneuver defense:** 6 (14 vs. grapple, can't be tripped)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Climb +2
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 10 ft.
-
-**Special qualities:** [amphibious](ref/umr/amphibious), [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary, pair, or infestation (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any water
+Organization: solitary, pair, or infestation (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

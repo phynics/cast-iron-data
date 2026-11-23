@@ -33,155 +33,94 @@ _This writhing terror is made of tentacles and the heads of multiple hounds. The
 beautiful woman extends from the monster's center, though its fiendish visage is far from
 welcoming._
 
-**Challenge rating:** 20
-
 **Female [scylla](ref/monster/scylla) [cleric](ref/class/cleric) of [Rovagug](ref/faith/rovagug) 8**
 
-**Type:** aberration
+::: statblock
+Challenge rating: 20
+Type: aberration
+aura: [frightful presence](ref/umr/frightful-presence) (30 ft., DC 27)
+blindsight: 30
+Alignment: Chaotic evil
+Size: huge
+Initiative: +14
+Perception: +34
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
+Subtype: Aquatic
+Experience points: 307,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (30 ft., DC 27)
+### Defense
 
-**blindsight:** 30
+::: statblock
+Armor class: 38
+Touch: 28
+Flat-footed: 23
+AC modifiers: +5 deflection, +14 Dex, +1 dodge, +10 natural, -2 size
+Hit points: 406 (20d8+8d8+280\~28)
+Fort: +22
+Ref: +22
+Will: +27
+Defensive abilities: _[freedom of movement](ref/spell/freedom-of-movement)_
+Dr: 10/cold iron and lawful
+Fh: 10
+Immune: charm effects, cold, confusion and insanity effects
+Improved evasion: present
+Resist: acid 20, fire 20
+Sr: 31
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** huge
+::: statblock
+Speed: 30 ft., swim 50 ft., fly 60 ft. (good)
+Bleed: 1d6
+Ch N En: 10/day, DC 21, 4d6
+Constrict: 1d6+10
+Melee: 3 bites +37 (1d8+12/19-20 plus bleed), 4 tentacles +35 (1d6+6 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: deadly weather (8 rounds/day), gale aura (8 rounds/day)
+:::
 
-**Initiative:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 16
+Concentration: +23
+Constant: fly, freedom of movement, nondetection, see invisibility
+At will: acid arrow, control water, fog cloud, greater dispel magic, major image (DC 20)
+Per day: 3/day: black tentacles, charm monster (DC 21), insanity (DC 24), mirage arcana (DC 22), solid fog\
+1/day: control weather, power word stun, project image (DC 24), summon (level 8, 1 charybdis 100%)
+:::
 
-**Perception:** +34
-
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, See invisibility
-
-**Subtype:** Aquatic
-
-**Experience points:** 307,200
-
-**Armor class:** 38
-
-**Touch:** 28
-
-**Flat-footed:** 23
-
-**AC modifiers:** +5 deflection, +14 Dex, +1 dodge, +10 natural, -2 size
-
-**Hit points:** 406 (20d8+8d8+280\~28)
-
-**Fort:** +22
-
-**Ref:** +22
-
-**Will:** +27
-
-**Defensive abilities:** _[freedom of movement](ref/spell/freedom-of-movement)_
-
-**Dr:** 10/cold iron and lawful
-
-**Fh:** 10
-
-**Immune:** charm effects, cold, confusion and insanity effects
-
-**Improved evasion:** present
-
-**Resist:** acid 20, fire 20
-
-**Sr:** 31
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft., fly 60 ft. (good)
-
-**Bleed:** 1d6
-
-**Ch N En:** 10/day, DC 21, 4d6
-
-**Constrict:** 1d6+10
-
-**Melee:** 3 bites +37 (1d8+12/19-20 plus bleed), 4 tentacles +35 (1d6+6 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** deadly weather (8 rounds/day), gale aura (8 rounds/day)
-
-**Spell-Like Abilities**
-
-**Caster level:** 16
-
-**Concentration:** +23
-
-**Constant:**
-
-- fly, freedom of movement, nondetection, see invisibility
-
-**At will:**
-
-- acid arrow, control water, fog cloud, greater dispel magic, major image (DC 20)
-
-**Per day:**
-
-- 3/day: black tentacles, charm monster (DC 21), insanity (DC 24), mirage arcana (DC 22), solid fog
-- 1/day: control weather, power word stun, project image (DC 24), summon (level 8, 1 charybdis 100%)
-
-**Prepared Spells**
-
-**Caster level:** 8
-
-**Concentration:** +17
-
-**4th-level spells:**
-
-- cure critical wounds (DC 23), divine power, inflict critical wounds^D^ (DC 23), tongues, unholy
-  blight (DC 23)
-
-**3rd-level spells:**
-
-- call lightning^D^ (DC 22), cure serious wounds (DC 22), 2, invisibility purge, magic circle
-  against good, water breathing
-
-**2nd-level spells:**
-
-- darkness, death knell (DC 21), gust of wind^D^ (DC 21), shatter, 2, spiritual weapon
-
-**1st-level spells:**
-
-- cause fear (DC 20), command (DC 20), 2, divine favor, entropic shield, obscuring mist, shield of
-  faith, true strike^D^
-
-**Cantrips:**
-
-- bleed (DC 19), detect magic, guidance, virtue
-
-**Domains:** [Catastrophe](ref/domain/destruction), [Storms](ref/domain/weather)
+::: statblock
+title = "Prepared Spells"
+Caster level: 8
+Concentration: +17
+4th-level spells: cure critical wounds (DC 23), divine power, inflict critical wounds^D^ (DC 23), tongues, unholy blight (DC 23)
+3rd-level spells: call lightning^D^ (DC 22), cure serious wounds (DC 22), 2, invisibility purge, magic circle against good, water breathing
+2nd-level spells: darkness, death knell (DC 21), gust of wind^D^ (DC 21), shatter, 2, spiritual weapon
+1st-level spells: cause fear (DC 20), command (DC 20), 2, divine favor, entropic shield, obscuring mist, shield of faith, true strike^D^
+Cantrips: bleed (DC 19), detect magic, guidance, virtue
+Domains: [Catastrophe](ref/domain/destruction), [Storms](ref/domain/weather)
+:::
 
 ###### D {#footnote-d}
 
 Domain spell
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 35, Dex 38, Con 31, Int 18, Wis 29, Cha 24
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +35 (+39 grapple)
-
-**Combat maneuver defense:** 65
-
-**Feats:** Combat Reflexes, Critical Focus, Dodge, Improved Critical (bite), Mobility, Multiattack,
-Power Attack, Selective Channeling, Staggering Critical, Stunning Critical, Vital Strike, Weapon
-Finesse, Weapon Focus (bite), Weapon Focus (tentacle)
-
-**Skills:** Acrobatics +35, Bluff +25, Fly +35, Use Magic Device +29
-
-**Languages:** Aboleth, Abyssal, Aklo, Aquan, Common
-
-**Special qualities:** [amphibious](ref/umr/amphibious), aura, [change shape](ref/umr/change-shape)
-(1 humanoid form; [alter self](ref/spell/alter-self)),
-[undersized weapons](ref/umr/undersized-weapons)
-
-**Gear:** Ifist3, Ibopp4, ring of prot5
+::: statblock
+Ability scores: Str 35, Dex 38, Con 31, Int 18, Wis 29, Cha 24
+Base attack bonus: +21
+Combat maneuver bonus: +35 (+39 grapple)
+Combat maneuver defense: 65
+Feats: Combat Reflexes, Critical Focus, Dodge, Improved Critical (bite), Mobility, Multiattack, Power Attack, Selective Channeling, Staggering Critical, Stunning Critical, Vital Strike, Weapon Finesse, Weapon Focus (bite), Weapon Focus (tentacle)
+Skills: Acrobatics +35, Bluff +25, Fly +35, Use Magic Device +29
+Languages: Aboleth, Abyssal, Aklo, Aquan, Common
+Special qualities: [amphibious](ref/umr/amphibious), aura, [change shape](ref/umr/change-shape) (1 humanoid form; [alter self](ref/spell/alter-self)), [undersized weapons](ref/umr/undersized-weapons)
+Gear: Ifist3, Ibopp4, ring of prot5
+:::
 
 ### Description
 

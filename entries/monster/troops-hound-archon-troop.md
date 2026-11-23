@@ -28,85 +28,64 @@ special_qualities = "coordinated teleport"
 abilities = ["23", "20", "23", "18", "21", "18"]
 +++
 
-**Challenge rating:** 16
+::: statblock
+Challenge rating: 16
+aura: aura of menace (DC 24)
+Initiative: +9
+Alignment: Lawful good
+Size: medium
+Type: outsider
+Perception: +39
+Senses: Darkvision 60 ft., Detect evil, Low-light vision, Scent
+Subtype: Archon, Extraplanar, Good, Lawful, Troop
+Experience points: 76,800
+:::
 
-**aura:** aura of menace (DC 24)
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 28
+Touch: 15
+Flat-footed: 23
+AC modifiers: +4 armor, +4 Dex, +1 dodge, +9 natural; +2 deflection vs. evil
+Hit points: 241 (21d10+126)
+Fort: +20
+Ref: +19
+Will: +14; +2 resistance vs. evil, +4 vs. poison
+Dr: 10/evil
+Immune: electricity, petrification
+Sr: 27
+:::
 
-**Alignment:** Lawful good
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 40 ft.
+Melee: troop (8d6+9)
+Reach: 5
+Space: 20
+:::
 
-**Type:** outsider
+### Statistics
 
-**Perception:** +39
+::: statblock
+Ability scores: Str 23, Dex 20, Con 23, Int 18, Wis 21, Cha 18
+Base attack bonus: +21
+Combat maneuver bonus: +27
+Combat maneuver defense: 43
+Feats: Alertness, Dodge, Great Fortitude, Improved Great Fortitude, Improved Initiative, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Persuasive, Skill Focus (Intimidate), Skill Focus (Perception)
+Skills: Acrobatics +28, Climb +29
+Languages: Celestial, Common, Draconic, Infernal; _truespeech_
+Special qualities: coordinated teleport
+:::
 
-**Senses:** Darkvision 60 ft., Detect evil, Low-light vision, Scent
+### Ecology
 
-**Subtype:** Archon, Extraplanar, Good, Lawful, Troop
-
-**Experience points:** 76,800
-
-**Armor class:** 28
-
-**Touch:** 15
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 armor, +4 Dex, +1 dodge, +9 natural; +2 deflection vs. evil
-
-**Hit points:** 241 (21d10+126)
-
-**Fort:** +20
-
-**Ref:** +19
-
-**Will:** +14; +2 resistance vs. evil, +4 vs. poison
-
-**Dr:** 10/evil
-
-**Immune:** electricity, petrification
-
-**Sr:** 27
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** troop (8d6+9)
-
-**Reach:** 5
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 20, Con 23, Int 18, Wis 21, Cha 18
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 43
-
-**Feats:** Alertness, Dodge, Great Fortitude, Improved Great Fortitude, Improved Initiative,
-Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Persuasive, Skill Focus (Intimidate),
-Skill Focus (Perception)
-
-**Skills:** Acrobatics +28, Climb +29
-
-**Languages:** Celestial, Common, Draconic, Infernal; _truespeech_
-
-**Special qualities:** coordinated teleport
-
-**Ecology**
-
-**Environment:** any ([Heaven](ref/rule/heaven))
-
-**Organization:** solitary, pair, or army (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Heaven](ref/rule/heaven))
+Organization: solitary, pair, or army (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -33,82 +33,64 @@ abilities = ["18", "12", "18", "8", "13", "9"]
 _This humanoid's scaly hide is dull gray. Its frame resembles that of a cave lizard, with a long
 tail and crests on its head and back._
 
-**Challenge rating:** 7
-
 **Troglodyte [fighter](ref/class/fighter) 6**
 
-**aura:** [stench](ref/umr/stench) (30 ft., DC 15, 10 rounds)
+::: statblock
+Challenge rating: 7
+aura: [stench](ref/umr/stench) (30 ft., DC 15, 10 rounds)
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +3
+Senses: Darkvision 90 ft.
+Subtype: Reptilian
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 23
+Touch: 11
+Flat-footed: 22
+AC modifiers: +6 armor, +1 Dex, +6 natural
+Hit points: 82 (2d8+6d10+40\~8)
+Fort: +13
+Ref: +4
+Will: +4 (+2 vs. fear)
+Defensive abilities: bravery +2
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: mwk lance +13/+8 (1d8+5/×3), bite +6 (1d4+2), claw +6 (1d4+2)
+Ranged: javelin +9/+4 (1d6+5)
+Spec Att: weapon training (spears +1)
+:::
 
-**Perception:** +3
+### Statistics
 
-**Senses:** Darkvision 90 ft.
+::: statblock
+Ability scores: Str 18, Dex 12, Con 18, Int 8, Wis 13, Cha 9
+Base attack bonus: +7
+Combat maneuver bonus: +11 (+13 bull rush)
+Combat maneuver defense: 22 (24 vs. bull rush)
+Feats: Improved Bull Rush, Mounted Combat, Power Attack, Quick Draw, Ride-By Attack, Spirited Charge, Toughness, Unseat
+Skills: Handle Animal +6, Ride +6, Stealth +3 (+7 in rocky areas)
+Languages: Draconic
+Special qualities: armor training 1
+Combat gear: potion of cure moderate wounds
+Other gear: mwk breastplate, 7 javelins, mwk lance, Ibogs2, Iclk1, 33 gp
+:::
 
-**Subtype:** Reptilian
+### Ecology
 
-**Experience points:** 3,200
-
-**Armor class:** 23
-
-**Touch:** 11
-
-**Flat-footed:** 22
-
-**AC modifiers:** +6 armor, +1 Dex, +6 natural
-
-**Hit points:** 82 (2d8+6d10+40\~8)
-
-**Fort:** +13
-
-**Ref:** +4
-
-**Will:** +4 (+2 vs. fear)
-
-**Defensive abilities:** bravery +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk lance +13/+8 (1d8+5/×3), bite +6 (1d4+2), claw +6 (1d4+2)
-
-**Ranged:** javelin +9/+4 (1d6+5)
-
-**Spec Att:** weapon training (spears +1)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con 18, Int 8, Wis 13, Cha 9
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +11 (+13 bull rush)
-
-**Combat maneuver defense:** 22 (24 vs. bull rush)
-
-**Feats:** Improved Bull Rush, Mounted Combat, Power Attack, Quick Draw, Ride-By Attack, Spirited
-Charge, Toughness, Unseat
-
-**Skills:** Handle Animal +6, Ride +6, Stealth +3 (+7 in rocky areas)
-
-**Languages:** Draconic
-
-**Special qualities:** armor training 1
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** mwk breastplate, 7 javelins, mwk lance, Ibogs2, Iclk1, 33 gp
-
-**Ecology**
-
-**Environment:** any underground
+::: statblock
+Environment: any underground
+:::
 
 ### Description
 

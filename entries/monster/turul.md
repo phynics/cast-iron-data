@@ -31,106 +31,75 @@ abilities = ["34", "17", "24", "17", "22", "21"]
 
 _Flickers of light and energy radiate from this awe-inspiring, bird-like creature._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: gargantuan
+Initiative: +7
+Alignment: Neutral
+Type: outsider
+Perception: +37
+Senses: Darkvision 60 ft., Detect magic, See invisibility
+Subtype: Extraplanar
+Experience points: 204,800
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 34
+Touch: 10
+Flat-footed: 30
+AC modifiers: +3 Dex, +1 dodge, +24 natural, -4 size
+Hit points: 350 (28d10+196)
+Fort: +23
+Ref: +12
+Will: +22
+Fh: 15
+Immune: death attacks, disease, energy drain, fire, poison
+Sr: 30
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 120 ft. (good)
+Melee: 2 talons +39 (2d8+14/19-20), bite +38 (2d10+14/19-20)
+Ranged: 2 energy feathers +27/+27 (8d8 electricity or fire)
+Reach: 20
+Rend: 2 talons, 2d8+21
+Space: 20
+Spec Att: adamantine attacks, deadly swoop, energy feathers, piercing scream
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +25
+Constant: detect magic, see invisibility
+At will: cure critical wounds, greater dispel magic, remove curse
+Per day: 3/day: breath of life, heal, searing light, summon (level 8, 1 phoenix 75%)\
+1/day: reincarnate
+:::
 
-**Senses:** Darkvision 60 ft., Detect magic, See invisibility
+### Statistics
 
-**Subtype:** Extraplanar
+::: statblock
+Ability scores: Str 34, Dex 17, Con 24, Int 17, Wis 22, Cha 21
+Base attack bonus: +28
+Combat maneuver bonus: +46
+Combat maneuver defense: 60
+Feats: Combat Reflexes, Deflect Arrows, Dodge, Flyby Attack, Hover, Improved Critical (talons), Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Snatch, Vital Strike, Weapon Focus (talons), Wingover
+Skills: Acrobatics +34, Diplomacy +36, Sense Motive +37, Spellcraft +31
+Languages: Auran, Common, Ignan
+:::
 
-**Experience points:** 204,800
+### Ecology
 
-**Armor class:** 34
-
-**Touch:** 10
-
-**Flat-footed:** 30
-
-**AC modifiers:** +3 Dex, +1 dodge, +24 natural, -4 size
-
-**Hit points:** 350 (28d10+196)
-
-**Fort:** +23
-
-**Ref:** +12
-
-**Will:** +22
-
-**Fh:** 15
-
-**Immune:** death attacks, disease, energy drain, fire, poison
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 40 ft., fly 120 ft. (good)
-
-**Melee:** 2 talons +39 (2d8+14/19-20), bite +38 (2d10+14/19-20)
-
-**Ranged:** 2 energy feathers +27/+27 (8d8 electricity or fire)
-
-**Reach:** 20
-
-**Rend:** 2 talons, 2d8+21
-
-**Space:** 20
-
-**Spec Att:** adamantine attacks, deadly swoop, energy feathers, piercing scream
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +25
-
-**Constant:**
-
-- detect magic, see invisibility
-
-**At will:**
-
-- cure critical wounds, greater dispel magic, remove curse
-
-**Per day:**
-
-- 3/day: breath of life, heal, searing light, summon (level 8, 1 phoenix 75%)
-- 1/day: reincarnate
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 17, Con 24, Int 17, Wis 22, Cha 21
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +46
-
-**Combat maneuver defense:** 60
-
-**Feats:** Combat Reflexes, Deflect Arrows, Dodge, Flyby Attack, Hover, Improved Critical (talons),
-Improved Critical (bite), Improved Initiative, Improved Vital Strike, Power Attack, Snatch, Vital
-Strike, Weapon Focus (talons), Wingover
-
-**Skills:** Acrobatics +34, Diplomacy +36, Sense Motive +37, Spellcraft +31
-
-**Languages:** Auran, Common, Ignan
-
-**Ecology**
-
-**Environment:** any ([Positive Energy Plane](ref/rule/positive-energy-plane))
-
-**Organization:** solitary or pair
-
-**Treasure:** Double
+::: statblock
+Environment: any ([Positive Energy Plane](ref/rule/positive-energy-plane))
+Organization: solitary or pair
+Treasure: Double
+:::
 
 ### Special Abilities
 

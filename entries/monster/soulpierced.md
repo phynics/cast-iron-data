@@ -32,94 +32,71 @@ abilities = ["-", "34", "-", "15", "19", "27"]
 _This translucent apparition wears tatters of once-fine clothing and jewelry. The creature's
 still-beating heart glows brightly around a dagger thrust through its chest._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+Alignment: Chaotic evil
+Initiative: +16
+Size: medium
+Perception: +39
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 102,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +16
+::: statblock
+Armor class: 31
+Touch: 31
+Flat-footed: 18
+AC modifiers: +8 deflection, +12 Dex, +1 dodge
+Hit points: 275 (22d8+176)
+Fort: +15
+Ref: +19
+Will: +19
+Chan Res: +6
+Defensive abilities: rejuvenation
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Sr: 28
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +39
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: incorporeal touch +28 (17d6 plus frustrating touch)
+Spec Att: frustrating touch (DC 25), livid outburst (20d6, DC 25)
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +28
+Constant: nondetection
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 34, Con -, Int 15, Wis 19, Cha 27
+Base attack bonus: +16
+Combat maneuver bonus: +28
+Combat maneuver defense: 47
+Feats: Alertness, Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Skill Focus (Intimidate), Skill Focus (Perception), Stand Still, Step Up
+Skills: Bluff +30, Fly +45, Intimidate +39, Perception +39, Sense Motive +33, Stealth +37
+Languages: Common
+Special qualities: site bound, soulpiercing blade
+:::
 
-**Experience points:** 102,400
+### Ecology
 
-**Armor class:** 31
-
-**Touch:** 31
-
-**Flat-footed:** 18
-
-**AC modifiers:** +8 deflection, +12 Dex, +1 dodge
-
-**Hit points:** 275 (22d8+176)
-
-**Fort:** +15
-
-**Ref:** +19
-
-**Will:** +19
-
-**Chan Res:** +6
-
-**Defensive abilities:** rejuvenation
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Sr:** 28
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** incorporeal touch +28 (17d6 plus frustrating touch)
-
-**Spec Att:** frustrating touch (DC 25), livid outburst (20d6, DC 25)
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +28
-
-**Constant:**
-
-- nondetection
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 34, Con -, Int 15, Wis 19, Cha 27
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 47
-
-**Feats:** Alertness, Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron
-Will, Skill Focus (Intimidate), Skill Focus (Perception), Stand Still, Step Up
-
-**Skills:** Bluff +30, Fly +45, Intimidate +39, Perception +39, Sense Motive +33, Stealth +37
-
-**Languages:** Common
-
-**Special qualities:** site bound, soulpiercing blade
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or agony (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, or agony (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -31,75 +31,60 @@ abilities = ["8", "15", "17", "6", "11", "14"]
 _This unsettling creature has the head of a fanged, green-eyed horse and a body that is little more
 than a writhing tentacle._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Type: aberration
+Initiative: +2
+Alignment: Neutral evil
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: tiny
+Experience points: 200
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 7 (1d8+3)
+Fort: +3
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 10 ft., fly 30 ft. (perfect)
+Melee: bite +1 (1d4-1), tentacle +1 (1d4-1)
+Reach: 2-1/2
+Space: 2-1/2
+Spec Att: baleful whinny, lashing strike
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con 17, Int 6, Wis 11, Cha 14
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 9 (can't be tripped)
+Feats: Lightning Reflexes
+Skills: Fly +14, Perception +4, Stealth +14
+Languages: Aklo
+Special qualities: flight
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 7 (1d8+3)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 10 ft., fly 30 ft. (perfect)
-
-**Melee:** bite +1 (1d4-1), tentacle +1 (1d4-1)
-
-**Reach:** 2-1/2
-
-**Space:** 2-1/2
-
-**Spec Att:** baleful whinny, lashing strike
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 17, Int 6, Wis 11, Cha 14
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Feats:** Lightning Reflexes
-
-**Skills:** Fly +14, Perception +4, Stealth +14
-
-**Languages:** Aklo
-
-**Special qualities:** flight
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary, pair, herd (3-8), or harras (9-16)
-
-**Treasure:** None
+::: statblock
+Environment: any forests
+Organization: solitary, pair, herd (3-8), or harras (9-16)
+Treasure: None
+:::
 
 ### Special Abilities
 

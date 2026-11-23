@@ -28,69 +28,57 @@ abilities = ["18", "13", "14", "-", "15", "2"]
 
 _The thick stalks of this dark-veined, gray plant are covered in a fine black fuzz._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +2
+Senses: Low-light vision, See in darkness
+Type: plant
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 39 (6d8+12)
+Fort: +7
+Ref: +3
+Will: +4
+Fh: 2
+Immune: cold, [plant traits](ref/umr/plant-traits)
+Resist: acid 5, electricity 5, fire 5
+Weaknesses: vulnerable to light
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 10 ft.
+Melee: 2 slams +8 (1d6+4)
+:::
 
-**Senses:** Low-light vision, See in darkness
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 18, Dex 13, Con 14, Int -, Wis 15, Cha 2
+Base attack bonus: +4
+Combat maneuver bonus: +8
+Combat maneuver defense: 19 (can't be tripped)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 39 (6d8+12)
-
-**Fort:** +7
-
-**Ref:** +3
-
-**Will:** +4
-
-**Fh:** 2
-
-**Immune:** cold, [plant traits](ref/umr/plant-traits)
-
-**Resist:** acid 5, electricity 5, fire 5
-
-**Weaknesses:** vulnerable to light
-
-**Offense**
-
-**Speed:** 10 ft.
-
-**Melee:** 2 slams +8 (1d6+4)
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 14, Int -, Wis 15, Cha 2
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19 (can't be tripped)
-
-**Ecology**
-
-**Environment:** any forests or underground
-
-**Organization:** solitary, pair, or patch (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any forests or underground
+Organization: solitary, pair, or patch (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

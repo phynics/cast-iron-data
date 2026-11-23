@@ -34,80 +34,62 @@ abilities = ["32", "11", "22", "2", "13", "5"]
 _This insect-like creature is covered in downy white fur. A pair of eyes gleams above a three-part
 mouth that drips viscous fluid._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Size: huge
+Initiative: +4
+Type: Magical beast
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+tremorsense: 30
+Experience points: 9,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 24
+Touch: 8
+Flat-footed: 24
+AC modifiers: +16 natural, -2 size
+Hit points: 138 (12d10+72)
+Fort: +14
+Ref: +10
+Will: +5; +4 vs. mind-affecting effects
+Ferocity: present
+Resist: cold 20
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., burrow 20 ft.
+Melee: bite +21 (2d6+11 plus freezing saliva), 2 claws +21 (1d8+11)
+Reach: 15
+Space: 15
+Spec Att: coat claws, spit
+:::
 
-**Perception:** +15
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 32, Dex 11, Con 22, Int 2, Wis 13, Cha 5
+Base attack bonus: +12
+Combat maneuver bonus: +25 (+27 bull rush)
+Combat maneuver defense: 35 (37 vs. bull rush, 39 vs. trip)
+Feats: Awesome Blow, Improved Bull Rush, Improved Initiative, Lightning Reflexes, Power Attack, Snatch
+Skills: Climb +15, Perception +15
+Special qualities: hibernation
+:::
 
-**tremorsense:** 30
+### Ecology
 
-**Experience points:** 9,600
-
-**Armor class:** 24
-
-**Touch:** 8
-
-**Flat-footed:** 24
-
-**AC modifiers:** +16 natural, -2 size
-
-**Hit points:** 138 (12d10+72)
-
-**Fort:** +14
-
-**Ref:** +10
-
-**Will:** +5; +4 vs. mind-affecting effects
-
-**Ferocity:** present
-
-**Resist:** cold 20
-
-**Offense**
-
-**Speed:** 40 ft., burrow 20 ft.
-
-**Melee:** bite +21 (2d6+11 plus freezing saliva), 2 claws +21 (1d8+11)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** coat claws, spit
-
-**Statistics**
-
-**Ability scores:** Str 32, Dex 11, Con 22, Int 2, Wis 13, Cha 5
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +25 (+27 bull rush)
-
-**Combat maneuver defense:** 35 (37 vs. bull rush, 39 vs. trip)
-
-**Feats:** Awesome Blow, Improved Bull Rush, Improved Initiative, Lightning Reflexes, Power Attack,
-Snatch
-
-**Skills:** Climb +15, Perception +15
-
-**Special qualities:** hibernation
-
-**Ecology**
-
-**Environment:** any cold land
-
-**Organization:** solitary, pair, or hive (3-10)
-
-**Treasure:** None
+::: statblock
+Environment: any cold land
+Organization: solitary, pair, or hive (3-10)
+Treasure: None
+:::
 
 ### Special Abilities
 

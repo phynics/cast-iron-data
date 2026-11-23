@@ -31,107 +31,76 @@ abilities = ["30", "23", "26", "21", "24", "23"]
 _This graceful, elegant dragon has six legs, a radiantly feathered tail and wings, and scales that
 appear to be made of solid sunlight._
 
-**Challenge rating:** 21
+::: statblock
+Challenge rating: 21
+aura: radiance (120 ft.)
+blindsense: 60
+Type: dragon
+Size: gargantuan
+Initiative: +6
+Alignment: Neutral good
+Perception: +38
+Senses: Darkvision 120 ft., Low-light vision
+Subtype: Extraplanar, Good
+Experience points: 409,600
+:::
 
-**aura:** radiance (120 ft.)
+### Defense
 
-**blindsense:** 60
+::: statblock
+Armor class: 38
+Touch: 38
+Flat-footed: 31
+AC modifiers: +6 Dex, +1 dodge, +25 natural, -4 size
+Hit points: 406 (28d12+224)
+Fort: +24
+Ref: +22
+Will: +23
+Defensive abilities: luminous scales
+Dr: 10/epic
+Immune: ability damage, ability drain, blindness, dazzled, energy drain, fire, mind-affecting effects, negative energy, paralysis, sleep
+Regen: 20 (evil spells or effects)
+Resist: acid 20, cold 20, electricity 20
+Sr: 32
+:::
 
-**Type:** dragon
+### Offense
 
-**Size:** gargantuan
+::: statblock
+Speed: 80 ft., fly 250 ft. (average)
+Br Weap: 60-ft. cone, 25d6 fire and divine damage, Reflex DC 32 half
+Melee: bite +34 (2d8+10/19-20), 4 claws +34 (2d6+10/19-20), tail slap +29 (2d8+5), 2 wings +29 (2d6+5)
+Reach: 20
+Space: 20
+:::
 
-**Initiative:** +6
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +26
+Per day: 3/day: miracle, to duplicate existing spells
+:::
 
-**Alignment:** Neutral good
+### Statistics
 
-**Perception:** +38
+::: statblock
+Ability scores: Str 30, Dex 23, Con 26, Int 21, Wis 24, Cha 23
+Base attack bonus: +28
+Combat maneuver bonus: +42 (+44 bull rush)
+Combat maneuver defense: 59 (61 vs. bull rush, 67 vs. trip)
+Feats: Awesome Blow, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus, Dodge, Flyby Attack, Hover, Improved Bull Rush, Improved Critical (bite, claw), Mobility, Power Attack, Wingover
+Skills: Acrobatics +34, Diplomacy +37, Sense Motive +38, Spellcraft +36, Use Magic Device +37
+Languages: Celestial, Common, Draconic
+Special qualities: martyr's blessing
+:::
 
-**Senses:** Darkvision 120 ft., Low-light vision
+### Ecology
 
-**Subtype:** Extraplanar, Good
-
-**Experience points:** 409,600
-
-**Armor class:** 38
-
-**Touch:** 38
-
-**Flat-footed:** 31
-
-**AC modifiers:** +6 Dex, +1 dodge, +25 natural, -4 size
-
-**Hit points:** 406 (28d12+224)
-
-**Fort:** +24
-
-**Ref:** +22
-
-**Will:** +23
-
-**Defensive abilities:** luminous scales
-
-**Dr:** 10/epic
-
-**Immune:** ability damage, ability drain, blindness, dazzled, energy drain, fire, mind-affecting
-effects, negative energy, paralysis, sleep
-
-**Regen:** 20 (evil spells or effects)
-
-**Resist:** acid 20, cold 20, electricity 20
-
-**Sr:** 32
-
-**Offense**
-
-**Speed:** 80 ft., fly 250 ft. (average)
-
-**Br Weap:** 60-ft. cone, 25d6 fire and divine damage, Reflex DC 32 half
-
-**Melee:** bite +34 (2d8+10/19-20), 4 claws +34 (2d6+10/19-20), tail slap +29 (2d8+5), 2 wings +29
-(2d6+5)
-
-**Reach:** 20
-
-**Space:** 20
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +26
-
-**Per day:**
-
-- 3/day: miracle, to duplicate existing spells
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 23, Con 26, Int 21, Wis 24, Cha 23
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +42 (+44 bull rush)
-
-**Combat maneuver defense:** 59 (61 vs. bull rush, 67 vs. trip)
-
-**Feats:** Awesome Blow, Blinding Critical, Combat Expertise, Combat Reflexes, Critical Focus,
-Dodge, Flyby Attack, Hover, Improved Bull Rush, Improved Critical (bite, claw), Mobility, Power
-Attack, Wingover
-
-**Skills:** Acrobatics +34, Diplomacy +37, Sense Motive +38, Spellcraft +36, Use Magic Device +37
-
-**Languages:** Celestial, Common, Draconic
-
-**Special qualities:** martyr's blessing
-
-**Ecology**
-
-**Environment:** any ([Nirvana](ref/rule/nirvana))
-
-**Organization:** solitary or flight (2-4)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Nirvana](ref/rule/nirvana))
+Organization: solitary or flight (2-4)
+Treasure: None
+:::
 
 ### Special Abilities
 

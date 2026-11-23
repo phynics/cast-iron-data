@@ -30,89 +30,67 @@ abilities = ["12", "21", "18", "17", "15", "22"]
 _Empty eyes peer out from beneath the hood of this pale maiden's patchwork cloak. Her hands hold
 what appear to be the shadowy silhouettes of scissors and a sewing needle._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: fey
+Initiative: +9
+Size: medium
+Perception: +17
+Senses: Low-light vision
+Experience points: 4,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 22
+Touch: 16
+Flat-footed: 16
+AC modifiers: +5 Dex, +1 dodge, +6 natural
+Hit points: 90 (12d6+48)
+Fort: +8
+Ref: +13
+Will: +10
+Dr: 5/cold iron and piercing
+:::
 
-**Initiative:** +9
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft.
+Melee: scissors +12/+7 (1d6+1/19-20), needle +6 touch (hollow heart curse)
+Sneak: +3d6
+Spec Att: needle, sorrowful gaze
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +14
+At will: crushing despair (DC 19)
+Per day: 3/day: overwhelming grief (DC 20), ray of exhaustion, shadow conjuration, shadow step
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Experience points:** 4,800
+::: statblock
+Ability scores: Str 12, Dex 21, Con 18, Int 17, Wis 15, Cha 22
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 23
+Feats: Ability Focus (curse), Combat Casting, Combat Reflexes, Dodge, Improved Initiative, Weapon Finesse
+Skills: Acrobatics +20, Disguise +21, Sense Motive +17, Sleight of Hand +20, Stealth +20, Use Magic Device +21
+Languages: Aklo, Common, Sylvan
+:::
 
-**Armor class:** 22
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 16
-
-**AC modifiers:** +5 Dex, +1 dodge, +6 natural
-
-**Hit points:** 90 (12d6+48)
-
-**Fort:** +8
-
-**Ref:** +13
-
-**Will:** +10
-
-**Dr:** 5/cold iron and piercing
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** scissors +12/+7 (1d6+1/19-20), needle +6 touch (hollow heart curse)
-
-**Sneak:** +3d6
-
-**Spec Att:** needle, sorrowful gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +14
-
-**At will:**
-
-- crushing despair (DC 19)
-
-**Per day:**
-
-- 3/day: overwhelming grief (DC 20), ray of exhaustion, shadow conjuration, shadow step
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 21, Con 18, Int 17, Wis 15, Cha 22
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23
-
-**Feats:** Ability Focus (curse), Combat Casting, Combat Reflexes, Dodge, Improved Initiative,
-Weapon Finesse
-
-**Skills:** Acrobatics +20, Disguise +21, Sense Motive +17, Sleight of Hand +20, Stealth +20, Use
-Magic Device +21
-
-**Languages:** Aklo, Common, Sylvan
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

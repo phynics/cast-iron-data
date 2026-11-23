@@ -34,79 +34,62 @@ abilities = ["12", "12", "-", "11", "13", "15"]
 _The flesh of this walking corpse is rotting and putrid, its body skeletal in places and its eye
 sockets glowing with red light._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Alignment: Lawful evil
+Size: medium
+Perception: +11
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 15
+Touch: 11
+Flat-footed: 14
+AC modifiers: +1 Dex, +4 natural
+Hit points: 26 (4d8+8)
+Fort: +3
+Ref: +2
+Will: +5
+Immune: [undead traits](ref/umr/undead-traits)
+Weaknesses: resurrection vulnerability
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +11
+::: statblock
+Speed: 30 ft.
+E Drain: 1 level, DC 14
+Melee: slam +4 (1d4+1 plus energy drain)
+Spec Att: create spawn
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 12, Dex 12, Con -, Int 11, Wis 13, Cha 15
+Base attack bonus: +3
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Blind-Fight, Skill Focus (Perception)
+Skills: Intimidate +9, Knowledge (religion) +7, Perception +11, Stealth +16
+Racial Modifiers: +8 Stealth
+Languages: Common
+Special qualities: create spawn
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 11
-
-**Flat-footed:** 14
-
-**AC modifiers:** +1 Dex, +4 natural
-
-**Hit points:** 26 (4d8+8)
-
-**Fort:** +3
-
-**Ref:** +2
-
-**Will:** +5
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Weaknesses:** resurrection vulnerability
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**E Drain:** 1 level, DC 14
-
-**Melee:** slam +4 (1d4+1 plus energy drain)
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 12, Con -, Int 11, Wis 13, Cha 15
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Blind-Fight, Skill Focus (Perception)
-
-**Skills:** Intimidate +9, Knowledge (religion) +7, Perception +11, Stealth +16
-
-**Racial Modifiers:** +8 Stealth
-
-**Languages:** Common
-
-**Special qualities:** create spawn
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, gang (3-6), or pack (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, gang (3-6), or pack (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

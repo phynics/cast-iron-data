@@ -29,86 +29,66 @@ special_qualities = "track +1, wild empathy -1"
 abilities = ["23", "18", "27", "6", "11", "4"]
 +++
 
-**Challenge rating:** 6
-
 **Troll [ranger](ref/class/ranger) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 24
+Touch: 14
+Flat-footed: 20
+AC modifiers: +5 armor, +1 deflection, +4 Dex, +5 natural, -1 size
+Hit points: 102 (6d8+2d10+64\~8)
+Fort: +17
+Ref: +10
+Will: +3
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +15
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: bite +12 (1d8+6), 2 claws +12 (1d6+6)
+Reach: 10
+Rend: 2 claws, 1d6+9
+Space: 10
+Spec Att: combat style (natural weapon)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 23, Dex 18, Con 27, Int 6, Wis 11, Cha 4
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 28
+Feats: Rending Claws, Skill Focus (Perception), Sprinting Troll, Weapon Focus (claw), Weapon Focus (bite)
+Skills: Intimidate +4, Perception +15
+Languages: Giant
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) -1
+Combat gear: potion of invisibility
+Other gear: +1 chain shirt, Iclk1, ring of prot1, 100 gp
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 24
-
-**Touch:** 14
-
-**Flat-footed:** 20
-
-**AC modifiers:** +5 armor, +1 deflection, +4 Dex, +5 natural, -1 size
-
-**Hit points:** 102 (6d8+2d10+64\~8)
-
-**Fort:** +17
-
-**Ref:** +10
-
-**Will:** +3
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** bite +12 (1d8+6), 2 claws +12 (1d6+6)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+9
-
-**Space:** 10
-
-**Spec Att:** combat style (natural weapon)
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 18, Con 27, Int 6, Wis 11, Cha 4
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 28
-
-**Feats:** Rending Claws, Skill Focus (Perception), Sprinting Troll, Weapon Focus (claw), Weapon
-Focus (bite)
-
-**Skills:** Intimidate +4, Perception +15
-
-**Languages:** Giant
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) -1
-
-**Combat gear:** potion of invisibility
-
-**Other gear:** +1 chain shirt, Iclk1, ring of prot1, 100 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

@@ -32,100 +32,74 @@ abilities = ["35", "8", "26", "14", "16", "18"]
 _Tearing its elephantine roots free from the soil, an enormous tree unfurls long, tangled branches
 into arms ending in massive claws._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Size: gargantuan
+Initiative: -1
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision
+Type: plant
+Experience points: 19,200
+:::
 
-**Size:** gargantuan
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 27
+Touch: 5
+Flat-footed: 27
+AC modifiers: -1 Dex, +22 natural, -4 size
+Hit points: 175 (14d8+112)
+Fort: +17
+Ref: +3
+Will: +9
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 40 ft.
+Melee: 2 slams +19 (4d6+12/19-20 plus [grab](ref/umr/grab))
+Ranged: rock +6 (4d6+18)
+Reach: 20
+Rock Th: 240 ft.
+Space: 20
+Spec Att: curse of barkflesh, shake the earth
+Trample: 4d6+18, DC 29
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +15
+At will: entangle (DC 15)
+:::
 
-**Type:** plant
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 35, Dex 8, Con 26, Int 14, Wis 16, Cha 18
+Base attack bonus: +10
+Combat maneuver bonus: +26 (+28 to sunder)
+Combat maneuver defense: 35 (37 vs. sunder)
+Feats: Alertness, Improved Critical (slam), Improved Natural Attack (slam), Improved Sunder, Iron Will, Power Attack, Weapon Focus (slam)
+Skills: Diplomacy +14, Sense Motive +9, Stealth -8 (+8 in forests)
+Racial Modifiers: +16 Stealth in forests
+Languages: Polyglot, Sylvan, Treant; _treespeech_
+Special qualities: animate trees, double damage against objects
+:::
 
-**Armor class:** 27
+### Ecology
 
-**Touch:** 5
-
-**Flat-footed:** 27
-
-**AC modifiers:** -1 Dex, +22 natural, -4 size
-
-**Hit points:** 175 (14d8+112)
-
-**Fort:** +17
-
-**Ref:** +3
-
-**Will:** +9
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 slams +19 (4d6+12/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** rock +6 (4d6+18)
-
-**Reach:** 20
-
-**Rock Th:** 240 ft.
-
-**Space:** 20
-
-**Spec Att:** curse of barkflesh, shake the earth
-
-**Trample:** 4d6+18, DC 29
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +15
-
-**At will:**
-
-- entangle (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 8, Con 26, Int 14, Wis 16, Cha 18
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +26 (+28 to sunder)
-
-**Combat maneuver defense:** 35 (37 vs. sunder)
-
-**Feats:** Alertness, Improved Critical (slam), Improved Natural Attack (slam), Improved Sunder,
-Iron Will, Power Attack, Weapon Focus (slam)
-
-**Skills:** Diplomacy +14, Sense Motive +9, Stealth -8 (+8 in forests)
-
-**Racial Modifiers:** +16 Stealth in forests
-
-**Languages:** Polyglot, Sylvan, Treant; _treespeech_
-
-**Special qualities:** animate trees, double damage against objects
-
-**Ecology**
-
-**Environment:** warm jungles
-
-**Organization:** solitary or grove (2-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm jungles
+Organization: solitary or grove (2-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

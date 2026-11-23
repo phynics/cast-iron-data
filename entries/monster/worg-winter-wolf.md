@@ -29,81 +29,63 @@ abilities = ["20", "13", "18", "9", "13", "10"]
 _This bear-sized wolf has white fur and a rime of frost around its muzzle. Its eyes are pale blue,
 almost white in color._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +5
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Cold
+Experience points: 1,600
+:::
 
-**Initiative:** +5
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 57 (6d10+24)
+Fort: +9
+Ref: +6
+Will: +3
+Immune: cold
+Vulner: fire
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft.
+Br Weap: every 1d4 rounds, 15-ft. cone, 6d6 cold damage, Reflex half DC 17
+Melee: bite +10 (1d8+7 plus 1d6 cold and trip)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 20, Dex 13, Con 18, Int 9, Wis 13, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +12
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Improved Initiative, Run, Skill Focus (Perception)
+Skills: Perception +11
+Racial Modifiers: +2 Perception, +2 Stealth (+8 in snow), +2 Survival
+Languages: Common, Giant
+:::
 
-**Subtype:** Cold
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 57 (6d10+24)
-
-**Fort:** +9
-
-**Ref:** +6
-
-**Will:** +3
-
-**Immune:** cold
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Br Weap:** every 1d4 rounds, 15-ft. cone, 6d6 cold damage, Reflex half DC 17
-
-**Melee:** bite +10 (1d8+7 plus 1d6 cold and trip)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 18, Int 9, Wis 13, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Improved Initiative, Run, Skill Focus (Perception)
-
-**Skills:** Perception +11
-
-**Racial Modifiers:** +2 Perception, +2 Stealth (+8 in snow), +2 Survival
-
-**Languages:** Common, Giant
-
-**Ecology**
-
-**Environment:** cold forests and plains
-
-**Organization:** solitary, pair, or pack (6-11)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold forests and plains
+Organization: solitary, pair, or pack (6-11)
+Treasure: Standard
+:::
 
 ### Description
 

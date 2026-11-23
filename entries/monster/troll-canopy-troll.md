@@ -32,85 +32,67 @@ abilities = ["12", "18", "17", "4", "9", "7"]
 _Prominent tusks and unruly green fur mark this fearsome creature as a troll despite its small size.
 It hangs overhead, swinging between its oversized forearms and lashing, claw-tipped tail._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Perception: +4
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Giant
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 size
+Hit points: 30 (4d8+12)
+Fort: +7
+Ref: +5
+Will: +2
+Regen: 5 (acid or fire)
+:::
 
-**Initiative:** +4
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., climb 30 ft.
+Melee: bite +5 (1d4+1), 2 claws +5 (1d3+1), sting +5 (1d3+1 plus poison)
+Reach: 5
+Reach P: 10 ft. with sting
+Space: 5
+Spec Att: poison, swarming
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
-
-**Subtype:** Giant
-
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 size
-
-**Hit points:** 30 (4d8+12)
-
-**Fort:** +7
-
-**Ref:** +5
-
-**Will:** +2
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 20 ft., climb 30 ft.
-
-**Melee:** bite +5 (1d4+1), 2 claws +5 (1d3+1), sting +5 (1d3+1 plus poison)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with sting
-
-**Space:** 5
-
-**Spec Att:** poison, swarming
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 18, Con 17, Int 4, Wis 9, Cha 7
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3 (+6 grapple)
-
-**Combat maneuver defense:** 17 (20 vs. grapple)
-
-**Feats:** Improved Grapple^B^, Iron Will, Weapon Finesse
-
-**Skills:** Acrobatics +5 (+13 when jumping), Climb +10, Perception +4
-
-**Racial Modifiers:** +8 Acrobatics when jumping
-
-**Special qualities:** cradling
+::: statblock
+Ability scores: Str 12, Dex 18, Con 17, Int 4, Wis 9, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +3 (+6 grapple)
+Combat maneuver defense: 17 (20 vs. grapple)
+Feats: Improved Grapple^B^, Iron Will, Weapon Finesse
+Skills: Acrobatics +5 (+13 when jumping), Climb +10, Perception +4
+Racial Modifiers: +8 Acrobatics when jumping
+Special qualities: cradling
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate or warm forests
-
-**Organization:** pair, gang (3-4), or troop (5-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate or warm forests
+Organization: pair, gang (3-4), or troop (5-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

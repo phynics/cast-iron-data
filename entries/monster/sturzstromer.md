@@ -33,107 +33,77 @@ abilities = ["18", "13", "27", "10", "22", "15"]
 _Stones jump and roll as if moved by an earthquake that affects nothing else around it. A wave of
 disturbed earth and rock follows behind them._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Alignment: Chaotic neutral
+Initiative: +1
+Type: outsider
+Perception: +33
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar, Swarm
+Size: tiny
+tremorsense: 120
+Experience points: 204,800
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 34
+Touch: 14
+Flat-footed: 32
+AC modifiers: +1 Dex, +1 dodge, +20 natural, +2 size
+Hit points: 324 (24d10+192)
+Fort: +22
+Ref: +17
+Will: +16
+Dr: 10/-
+Immune: electricity, elemental traits, swarm traits
+Resist: cold 30, fire 30
+Sr: 30
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +33
+::: statblock
+Speed: 50 ft.
+Distraction: 30
+Melee: swarm (6d6+6 plus distraction)
+Ranged: rock +29/+24/+19/+14 (6d6+6)
+Reach: 0
+Rock Th: 120 ft.
+Space: 10
+Spec Att: landslide, powerful swarm, rumble
+Trample: 6d6+6, DC 26
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 19
+Concentration: +21
+Constant: stone tell
+:::
 
-**Subtype:** Earth, Elemental, Extraplanar, Swarm
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 18, Dex 13, Con 27, Int 10, Wis 22, Cha 15
+Base attack bonus: +24
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Feats: Blind-Fight, Dodge, Greater Blind-Fight, Improved Blind-Fight, Improved Iron Will, Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility, Quick Draw, Run, Weapon Focus (rock)
+Skills: Appraise +27, Climb +31, Knowledge (geography) +27, Perception +33, Stealth +36
+Languages: Terran; _[stone tell](ref/spell/stone-tell)_
+Special qualities: mountaineer
+:::
 
-**tremorsense:** 120
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 14
-
-**Flat-footed:** 32
-
-**AC modifiers:** +1 Dex, +1 dodge, +20 natural, +2 size
-
-**Hit points:** 324 (24d10+192)
-
-**Fort:** +22
-
-**Ref:** +17
-
-**Will:** +16
-
-**Dr:** 10/-
-
-**Immune:** electricity, elemental traits, swarm traits
-
-**Resist:** cold 30, fire 30
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Distraction:** 30
-
-**Melee:** swarm (6d6+6 plus distraction)
-
-**Ranged:** rock +29/+24/+19/+14 (6d6+6)
-
-**Reach:** 0
-
-**Rock Th:** 120 ft.
-
-**Space:** 10
-
-**Spec Att:** landslide, powerful swarm, rumble
-
-**Trample:** 6d6+6, DC 26
-
-**Spell-Like Abilities**
-
-**Caster level:** 19
-
-**Concentration:** +21
-
-**Constant:**
-
-- stone tell
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 13, Con 27, Int 10, Wis 22, Cha 15
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Feats:** Blind-Fight, Dodge, Greater Blind-Fight, Improved Blind-Fight, Improved Iron Will,
-Improved Lightning Reflexes, Iron Will, Lightning Reflexes, Mobility, Quick Draw, Run, Weapon Focus
-(rock)
-
-**Skills:** Appraise +27, Climb +31, Knowledge (geography) +27, Perception +33, Stealth +36
-
-**Languages:** Terran; _[stone tell](ref/spell/stone-tell)_
-
-**Special qualities:** mountaineer
-
-**Ecology**
-
-**Environment:** any mountains ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any mountains ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

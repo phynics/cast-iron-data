@@ -31,79 +31,62 @@ abilities = ["25", "16", "-", "8", "13", "19"]
 _This undead horror's upper body is twisted and malformed, and its hands end in tangles of blunt,
 electric-blue tendrils._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 3,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 85 (10d8+40)
+Fort: +7
+Ref: +6
+Will: +8
+Dr: 5/cold iron
+Immune: [undead traits](ref/umr/undead-traits)
+Sr: 18
+Weaknesses: vulnerable to glass
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +14 (1d6+7/18-20)
+Spec Att: deadly slam, dispelling critical
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 25, Dex 16, Con -, Int 8, Wis 13, Cha 19
+Base attack bonus: +7
+Combat maneuver bonus: +14
+Combat maneuver defense: 27
+Feats: Cleave, Combat Reflexes, Improved Initiative, Power Attack, Skill Focus (Stealth)
+Skills: Climb +16, Intimidate +12, Perception +14, Stealth +18
+Languages: Common
+Special qualities: ravage magic
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 85 (10d8+40)
-
-**Fort:** +7
-
-**Ref:** +6
-
-**Will:** +8
-
-**Dr:** 5/cold iron
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Sr:** 18
-
-**Weaknesses:** vulnerable to glass
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +14 (1d6+7/18-20)
-
-**Spec Att:** deadly slam, dispelling critical
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con -, Int 8, Wis 13, Cha 19
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Combat Reflexes, Improved Initiative, Power Attack, Skill Focus (Stealth)
-
-**Skills:** Climb +16, Intimidate +12, Perception +14, Stealth +18
-
-**Languages:** Common
-
-**Special qualities:** ravage magic
-
-**Ecology**
-
-**Environment:** any (Spellscar Desert)
-
-**Organization:** solitary, pair, or hunt (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Spellscar Desert)
+Organization: solitary, pair, or hunt (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

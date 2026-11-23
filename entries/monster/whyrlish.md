@@ -32,86 +32,65 @@ abilities = ["31", "24", "23", "5", "22", "12"]
 _This translucent, jellyfish-like creature has a shimmering purple and blue bell-like body that
 sports a nest of sting-tipped tendrils._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Type: aberration
+Size: huge
+Initiative: +11
+Alignment: Neutral
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Extraplanar
+Experience points: 51,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 31
+Touch: 16
+Flat-footed: 23
+AC modifiers: +7 Dex, +1 dodge, +15 natural, -2 size
+Hit points: 210 (20d8+120)
+Fort: +12
+Ref: +15
+Will: +18
+Amorph: present
+Defensive abilities: all-around vision
+Immune: ability drain, death effects, electricity, energy drain, fear, negative energy effects
+:::
 
-**Initiative:** +11
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., fly 50 ft. (perfect)
+Constrict: 2d6+10
+Melee: stings +23 (4d8+10 plus cnidocytes), 2 tentacles +23 (2d6+10 plus [grab](ref/umr/grab))
+Reach: 15
+Space: 15
+Spec Att: electrical discharge
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 24, Con 23, Int 5, Wis 22, Cha 12
+Base attack bonus: +15
+Combat maneuver bonus: +27 (+29 bull rush)
+Combat maneuver defense: 45 (47 vs. bull rush)
+Feats: Acrobatic, Combat Reflexes, Dodge, Flyby Attack, Improved Bull Rush, Improved Initiative, Lightning Reflexes, Mobility, Power Attack, Vital Strike
+Skills: Acrobatics +17, Fly +21, Perception +19
+Languages: Aklo (can't speak)
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Subtype:** Extraplanar
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 31
-
-**Touch:** 16
-
-**Flat-footed:** 23
-
-**AC modifiers:** +7 Dex, +1 dodge, +15 natural, -2 size
-
-**Hit points:** 210 (20d8+120)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +18
-
-**Amorph:** present
-
-**Defensive abilities:** all-around vision
-
-**Immune:** ability drain, death effects, electricity, energy drain, fear, negative energy effects
-
-**Offense**
-
-**Speed:** 10 ft., fly 50 ft. (perfect)
-
-**Constrict:** 2d6+10
-
-**Melee:** stings +23 (4d8+10 plus cnidocytes), 2 tentacles +23 (2d6+10 plus [grab](ref/umr/grab))
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** electrical discharge
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 24, Con 23, Int 5, Wis 22, Cha 12
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +27 (+29 bull rush)
-
-**Combat maneuver defense:** 45 (47 vs. bull rush)
-
-**Feats:** Acrobatic, Combat Reflexes, Dodge, Flyby Attack, Improved Bull Rush, Improved Initiative,
-Lightning Reflexes, Mobility, Power Attack, Vital Strike
-
-**Skills:** Acrobatics +17, Fly +21, Perception +19
-
-**Languages:** Aklo (can't speak)
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** any air ([Astral Plane](ref/rule/astral-plane))
-
-**Organization:** solitary, pair, or flotilla (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any air ([Astral Plane](ref/rule/astral-plane))
+Organization: solitary, pair, or flotilla (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

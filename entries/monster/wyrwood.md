@@ -30,80 +30,62 @@ abilities = ["14", "17", "-", "15", "12", "6"]
 
 _Though obviously a wooden construct, this small, nimble creature moves fluidly and purposefully._
 
-**Challenge rating:** 1/2
-
 **Wyrwood [rogue](ref/class/rogue) 1**
 
-**Type:** construct
+::: statblock
+Challenge rating: 1/2
+Type: construct
+Initiative: +3
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision
+Size: small
+Experience points: 200
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 16
+Touch: 14
+Flat-footed: 13
+AC modifiers: +2 armor, +3 Dex, +1 size
+Hit points: 18 (1d8+10)
+Fort: +0
+Ref: +5 (+1 vs. traps)
+Will: +1
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Perception:** +5
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Speed: 30 ft.
+Melee: dagger +3 (1d3+2/19-20)
+Ranged: dagger +4 (1d3+2/19-20)
+Sneak: +1d6
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 200
+::: statblock
+Ability scores: Str 14, Dex 17, Con -, Int 15, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +1
+Combat maneuver defense: 14
+Feats: Deft Hands
+Skills: Acrobatics +7, Appraise +6, Climb +6, Craft (alchemy) +6, Disable Device +9, Escape Artist +7, Knowledge (dungeoneering) +6, Perception +5, Sleight of Hand +9, Stealth +11, Use Magic Device +2
+Languages: Common
+Special qualities: [trapfinding](ref/ability/trapfinding) +1
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 armor, +3 Dex, +1 size
-
-**Hit points:** 18 (1d8+10)
-
-**Fort:** +0
-
-**Ref:** +5 (+1 vs. traps)
-
-**Will:** +1
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** dagger +3 (1d3+2/19-20)
-
-**Ranged:** dagger +4 (1d3+2/19-20)
-
-**Sneak:** +1d6
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 17, Con -, Int 15, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 14
-
-**Feats:** Deft Hands
-
-**Skills:** Acrobatics +7, Appraise +6, Climb +6, Craft (alchemy) +6, Disable Device +9, Escape
-Artist +7, Knowledge (dungeoneering) +6, Perception +5, Sleight of Hand +9, Stealth +11, Use Magic
-Device +2
-
-**Languages:** Common
-
-**Special qualities:** [trapfinding](ref/ability/trapfinding) +1
-
-**Ecology**
-
-**Environment:** any ruins or underground
-
-**Organization:** solitary or cabal (2-8)
-
-**Treasure:** NPC gear (2 daggers, leather armor); [thieves' tools](ref/eq-misc/thieves-tools),
-other treasure
+::: statblock
+Environment: any ruins or underground
+Organization: solitary or cabal (2-8)
+Treasure: NPC gear (2 daggers, leather armor); [thieves' tools](ref/eq-misc/thieves-tools), other treasure
+:::
 
 ### Description
 

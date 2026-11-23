@@ -30,73 +30,59 @@ abilities = ["22", "15", "18", "2", "13", "9"]
 _As tall as a tree, this dark gray bird stands on long legs. Its curved neck supports a sleek head
 with a slim but wicked beak._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: animal
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 16
+AC modifiers: +2 Dex, +8 natural, -2 size
+Hit points: 68 (8d8+32)
+Fort: +10
+Ref: +8
+Will: +3
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 60 ft. (average)
+Melee: bite +10 (2d6+9)
+Reach: 15
+Sneak: +2d6
+Space: 15
+:::
 
-**Perception:** +5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 22, Dex 15, Con 18, Int 2, Wis 13, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +14
+Combat maneuver defense: 26
+Feats: Hover, Improved Initiative, Skill Focus (Stealth), Snatch
+Skills: Fly -2, Perception +5, Stealth +7
+Special qualities: still predator
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +8 natural, -2 size
-
-**Hit points:** 68 (8d8+32)
-
-**Fort:** +10
-
-**Ref:** +8
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (average)
-
-**Melee:** bite +10 (2d6+9)
-
-**Reach:** 15
-
-**Sneak:** +2d6
-
-**Space:** 15
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 15, Con 18, Int 2, Wis 13, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 26
-
-**Feats:** Hover, Improved Initiative, Skill Focus (Stealth), Snatch
-
-**Skills:** Fly -2, Perception +5, Stealth +7
-
-**Special qualities:** still predator
-
-**Ecology**
-
-**Environment:** temperate rivers and swamps
-
-**Organization:** solitary, pair, or stand (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: temperate rivers and swamps
+Organization: solitary, pair, or stand (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

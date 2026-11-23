@@ -30,107 +30,75 @@ abilities = ["34", "22", "35", "7", "14", "21"]
 _This immense creature's warty body is shaped like a many-pointed star, and from it sprout nearly a
 dozen different wings._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 27)
+blindsense: 300
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +10
+Type: Magical beast
+Perception: +20
+Senses: All-around vision, Darkvision 60 ft., Low-light vision, Scent
+Experience points: 614,400
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 27)
+### Defense
 
-**blindsense:** 300
+::: statblock
+Armor class: 39
+Touch: 9
+Flat-footed: 32
+AC modifiers: +6 Dex, +1 dodge, +30 natural, -8 size
+Hit points: 437 (25d10+300)
+Fort: +26
+Ref: +20
+Will: +12
+Dr: 15/epic
+Immune: ability damage, acid, bleed, disease, electricity, energy drain, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 30
+Sr: 33
+:::
 
-**Alignment:** Chaotic evil
+### Offense
 
-**Size:** colossal
+::: statblock
+Speed: 20 ft., fly 100 ft. (perfect)
+Melee: bite +29 (4d6+12), 3 razor tongues +29 (2d6+12/18-20/×3 plus 1d6 bleed, 1 Con bleed, and blood rage), 6 wings +24 (2d8+6)
+Ranged: 4 eye rays +23 (4d6 sonic/18-20 plus nausea)
+Reach: 30
+Reach P: 50 ft. with razor tongues
+Space: 30
+:::
 
-**Initiative:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 25
+Concentration: +30
+At will: acid fog, greater invisibility, song of discord (DC 20)
+Per day: 3/day: winds of vengeance
+:::
 
-**Type:** Magical beast
+### Statistics
 
-**Perception:** +20
+::: statblock
+Ability scores: Str 34, Dex 22, Con 35, Int 7, Wis 14, Cha 21
+Base attack bonus: +25
+Combat maneuver bonus: +45
+Combat maneuver defense: 62 (can't be tripped)
+Feats: Ability Focus (eye ray), Dodge, Flyby Attack, Improved Initiative, Improved Precise Shot, Improved Vital Strike, Iron Will, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Snatch, Vital Strike
+Skills: Fly +19, Perception +20
+Languages: Aklo
+Special qualities: hibernation, shatter silence, unstoppable force
+:::
 
-**Senses:** All-around vision, Darkvision 60 ft., Low-light vision, Scent
+### Ecology
 
-**Experience points:** 614,400
-
-**Armor class:** 39
-
-**Touch:** 9
-
-**Flat-footed:** 32
-
-**AC modifiers:** +6 Dex, +1 dodge, +30 natural, -8 size
-
-**Hit points:** 437 (25d10+300)
-
-**Fort:** +26
-
-**Ref:** +20
-
-**Will:** +12
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, acid, bleed, disease, electricity, energy drain, mind-affecting effects,
-paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 30
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 20 ft., fly 100 ft. (perfect)
-
-**Melee:** bite +29 (4d6+12), 3 razor tongues +29 (2d6+12/18-20/×3 plus 1d6 bleed, 1 Con bleed, and
-blood rage), 6 wings +24 (2d8+6)
-
-**Ranged:** 4 eye rays +23 (4d6 sonic/18-20 plus nausea)
-
-**Reach:** 30
-
-**Reach P:** 50 ft. with razor tongues
-
-**Space:** 30
-
-**Spell-Like Abilities**
-
-**Caster level:** 25
-
-**Concentration:** +30
-
-**At will:**
-
-- acid fog, greater invisibility, song of discord (DC 20)
-
-**Per day:**
-
-- 3/day: winds of vengeance
-
-**Statistics**
-
-**Ability scores:** Str 34, Dex 22, Con 35, Int 7, Wis 14, Cha 21
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +45
-
-**Combat maneuver defense:** 62 (can't be tripped)
-
-**Feats:** Ability Focus (eye ray), Dodge, Flyby Attack, Improved Initiative, Improved Precise Shot,
-Improved Vital Strike, Iron Will, Mobility, Point-Blank Shot, Power Attack, Precise Shot, Snatch,
-Vital Strike
-
-**Skills:** Fly +19, Perception +20
-
-**Languages:** Aklo
-
-**Special qualities:** hibernation, shatter silence, unstoppable force
-
-**Ecology**
-
-**Environment:** any (Casmaron)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Casmaron)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

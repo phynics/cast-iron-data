@@ -31,73 +31,61 @@ abilities = ["11", "15", "13", "2", "12", "6"]
 _This furred creature has long tentacles that are covered in ridges and suction discs in place of
 arms, legs, and a tail._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 10
+AC modifiers: +2 Dex
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 10 ft., climb 30 ft., swim 10 ft.
+Melee: bite +3 (1d6), 2 tentacles +1 (1d4 plus [grab](ref/umr/grab))
+Spec Att: remarkable grip
+:::
 
-**Perception:** +6
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 10
-
-**AC modifiers:** +2 Dex
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 10 ft., climb 30 ft., swim 10 ft.
-
-**Melee:** bite +3 (1d6), 2 tentacles +1 (1d4 plus [grab](ref/umr/grab))
-
-**Spec Att:** remarkable grip
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 15, Con 13, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Multiattack, Weapon Finesse^B^
-
-**Skills:** Climb +8
-
-**Special qualities:** regrowth
+::: statblock
+Ability scores: Str 11, Dex 15, Con 13, Int 2, Wis 12, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Multiattack, Weapon Finesse^B^
+Skills: Climb +8
+Special qualities: regrowth
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** temperate coasts
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate coasts
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

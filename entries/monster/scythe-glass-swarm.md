@@ -31,81 +31,63 @@ abilities = ["1", "25", "-", "-", "10", "1"]
 
 _The razor-sharp wings of a thousand stained glass insects jingle with a resonant melody._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Size: diminutive
+Initiative: +7
+Alignment: Neutral
+Perception: +0
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Swarm
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** diminutive
+::: statblock
+Armor class: 25
+Touch: 21
+Flat-footed: 18
+AC modifiers: +7 Dex, +4 natural, +4 size
+Hit points: 110 (20d10)
+Fort: +6
+Ref: +13
+Will: +6
+Defensive abilities: swarm traits
+Immune: acid, [construct traits](ref/umr/construct-traits), weapon damage
+Vulner: sonic
+:::
 
-**Initiative:** +7
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., fly 50 ft. (perfect)
+Distraction: 20
+Melee: swarm (4d6 plus 2d6 bleed)
+Reach: 0
+Space: 10
+Spec Att: resonant flight, serrated wings
+:::
 
-**Perception:** +0
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 1, Dex 25, Con -, Int -, Wis 10, Cha 1
+Base attack bonus: +20
+Combat maneuver bonus: -
+Combat maneuver defense: -
+Skills: Fly +21
+Special qualities: [freeze](ref/umr/freeze)
+:::
 
-**Subtype:** Swarm
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 21
-
-**Flat-footed:** 18
-
-**AC modifiers:** +7 Dex, +4 natural, +4 size
-
-**Hit points:** 110 (20d10)
-
-**Fort:** +6
-
-**Ref:** +13
-
-**Will:** +6
-
-**Defensive abilities:** swarm traits
-
-**Immune:** acid, [construct traits](ref/umr/construct-traits), weapon damage
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (perfect)
-
-**Distraction:** 20
-
-**Melee:** swarm (4d6 plus 2d6 bleed)
-
-**Reach:** 0
-
-**Space:** 10
-
-**Spec Att:** resonant flight, serrated wings
-
-**Statistics**
-
-**Ability scores:** Str 1, Dex 25, Con -, Int -, Wis 10, Cha 1
-
-**Base attack bonus:** +20
-
-**Combat maneuver bonus:** -
-
-**Combat maneuver defense:** -
-
-**Skills:** Fly +21
-
-**Special qualities:** [freeze](ref/umr/freeze)
-
-**Ecology**
-
-**Environment:** any urban
-
-**Organization:** solitary, pair, or gallery (3-12)
-
-**Treasure:** None
+::: statblock
+Environment: any urban
+Organization: solitary, pair, or gallery (3-12)
+Treasure: None
+:::
 
 ### Special Abilities
 

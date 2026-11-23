@@ -35,90 +35,67 @@ abilities = ["-", "20", "16", "7", "13", "10"]
 _A noxious mustard-colored vapor hangs low over the battlefield, concealing the lurching forms of
 dead soldiers._
 
-**Challenge rating:** 10
+::: statblock
+Challenge rating: 10
+Type: aberration
+Size: gargantuan
+Initiative: +9
+Lifesense: present
+Alignment: Neutral evil
+Perception: +25
+Senses: Darkvision 60 ft.
+Subtype: Air
+Experience points: 9,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 6
+AC modifiers: +5 Dex, +1 dodge, -4 size
+Hit points: 127 (15d8+60)
+Fort: +8
+Ref: +10
+Will: +10
+Amorph: present
+Defensive abilities: negative energy affinity
+Dr: 10/magic
+Fh: 5
+Immune: acid, electricity, sonic
+:::
 
-**Initiative:** +9
+### Offense
 
-**Lifesense:** present
+::: statblock
+Speed: fly 40 ft. (perfect)
+Melee: touch +7 (6d6 acid plus 6d6 negative energy)
+Reach: 10
+Space: 20
+Spec Att: create juju zombie, engulfing mists (DC 22, 6d6 acid plus 6d6 negative energy)
+:::
 
-**Alignment:** Neutral evil
+### Statistics
 
-**Perception:** +25
+::: statblock
+Ability scores: Str -, Dex 20, Con 16, Int 7, Wis 13, Cha 10
+Base attack bonus: +11
+Combat maneuver bonus: +15
+Combat maneuver defense: 31 (can't be tripped)
+Feats: Ability Focus (engulfing mists), Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Mobility, Skill Focus (Perception), Toughness
+Skills: Fly +25, Perception +25
+Languages: Common (can't speak); [telepathy](ref/umr/telepathy) 30 ft.
+Special qualities: gaseous, juju zombie symbiosis
+:::
 
-**Senses:** Darkvision 60 ft.
+### Ecology
 
-**Subtype:** Air
-
-**Experience points:** 9,600
-
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 6
-
-**AC modifiers:** +5 Dex, +1 dodge, -4 size
-
-**Hit points:** 127 (15d8+60)
-
-**Fort:** +8
-
-**Ref:** +10
-
-**Will:** +10
-
-**Amorph:** present
-
-**Defensive abilities:** negative energy affinity
-
-**Dr:** 10/magic
-
-**Fh:** 5
-
-**Immune:** acid, electricity, sonic
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Melee:** touch +7 (6d6 acid plus 6d6 negative energy)
-
-**Reach:** 10
-
-**Space:** 20
-
-**Spec Att:** create juju zombie, engulfing mists (DC 22, 6d6 acid plus 6d6 negative energy)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 20, Con 16, Int 7, Wis 13, Cha 10
-
-**Base attack bonus:** +11
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 31 (can't be tripped)
-
-**Feats:** Ability Focus (engulfing mists), Combat Reflexes, Dodge, Flyby Attack, Improved
-Initiative, Mobility, Skill Focus (Perception), Toughness
-
-**Skills:** Fly +25, Perception +25
-
-**Languages:** Common (can't speak); [telepathy](ref/umr/telepathy) 30 ft.
-
-**Special qualities:** gaseous, juju zombie symbiosis
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or horror (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary, pair, or horror (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

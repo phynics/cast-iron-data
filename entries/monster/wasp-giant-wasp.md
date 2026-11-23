@@ -29,71 +29,58 @@ abilities = ["18", "12", "18", "-", "13", "11"]
 _This horse-sized wasp is covered in yellow and black vertical stripes - its stinger is the size of
 a sword and drips with venom._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +9
+Senses: Darkvision 60 ft.
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 14
+Touch: 10
+Flat-footed: 13
+AC modifiers: +1 Dex, +4 natural, -1 size
+Hit points: 34 (4d8+16)
+Fort: +8
+Ref: +2
+Will: +2
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +9
+::: statblock
+Speed: 20 ft., fly 60 ft. (good)
+Melee: sting +6 (1d8+6 plus poison)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** vermin
+::: statblock
+Ability scores: Str 18, Dex 12, Con 18, Int -, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +8
+Combat maneuver defense: 19
+Skills: Fly +3, Perception +9
+Racial Modifiers: +8 Perception
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 10
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +4 natural, -1 size
-
-**Hit points:** 34 (4d8+16)
-
-**Fort:** +8
-
-**Ref:** +2
-
-**Will:** +2
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 20 ft., fly 60 ft. (good)
-
-**Melee:** sting +6 (1d8+6 plus poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 12, Con 18, Int -, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8
-
-**Combat maneuver defense:** 19
-
-**Skills:** Fly +3, Perception +9
-
-**Racial Modifiers:** +8 Perception
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, group (3-6), or nest (7-19)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, group (3-6), or nest (7-19)
+Treasure: None
+:::
 
 ### Special Abilities
 

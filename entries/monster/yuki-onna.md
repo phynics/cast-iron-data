@@ -31,95 +31,71 @@ abilities = ["-", "18", "-", "17", "21", "22"]
 _This beautiful but sad-looking woman wears an ornate robe and is surrounded by a whirling mass of
 snow._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+aura: snowstorm (200 ft.)
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +17
+Senses: Darkvision 60 ft.
+Subtype: Cold, Incorporeal
+Type: undead
+Experience points: 4,800
+:::
 
-**aura:** snowstorm (200 ft.)
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 21
+Touch: 21
+Flat-footed: 16
+AC modifiers: +6 deflection, +4 Dex, +1 dodge
+Hit points: 94 (9d8+54)
+Fort: +9
+Ref: +7
+Will: +11
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Vulner: fire
+Weaknesses: snow dependency
+:::
 
-**Alignment:** Lawful evil
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: 2 touches +10 (4d6 cold plus chilling touch)
+Spec Att: chilling touch, fascinating gaze
+:::
 
-**Perception:** +17
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +16
+Constant: blur
+Per day: 3/day: cone of cold (DC 21), eyebite (comatose and panicked only, DC 22), ice storm
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Cold, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 18, Con -, Int 17, Wis 21, Cha 22
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 27
+Feats: Combat Casting, Dodge, Improved Initiative, Mobility, Spring Attack
+Skills: Bluff +15, Fly +12, Intimidate +18, Perception +17
+Languages: Common
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 4,800
-
-**Armor class:** 21
-
-**Touch:** 21
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 deflection, +4 Dex, +1 dodge
-
-**Hit points:** 94 (9d8+54)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +11
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Vulner:** fire
-
-**Weaknesses:** snow dependency
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** 2 touches +10 (4d6 cold plus chilling touch)
-
-**Spec Att:** chilling touch, fascinating gaze
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +16
-
-**Constant:**
-
-- blur
-
-**Per day:**
-
-- 3/day: cone of cold (DC 21), eyebite (comatose and panicked only, DC 22), ice storm
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 18, Con -, Int 17, Wis 21, Cha 22
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Casting, Dodge, Improved Initiative, Mobility, Spring Attack
-
-**Skills:** Bluff +15, Fly +12, Intimidate +18, Perception +17
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any cold
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: any cold
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

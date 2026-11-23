@@ -34,77 +34,61 @@ abilities = ["-", "14", "-", "6", "12", "15"]
 _Barely seen out of the corner of the eye, this wisp of shadow is vaguely humanoid in outline and
 writhes with unholy life._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Initiative: +2
+Size: medium
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 12
+AC modifiers: +2 deflection, +2 Dex, +1 dodge
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +3
+Will: +4
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: fly 40 ft. (good)
+Melee: incorporeal touch +4 (1d6 Strength damage)
+Spec Att: create spawn
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Incorporeal
+::: statblock
+Ability scores: Str -, Dex 14, Con -, Int 6, Wis 12, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 17
+Feats: Dodge, Skill Focus (Perception)
+Skills: Fly +11, Perception +8, Stealth +8 (+12 in dim light, +4 in bright light)
+Racial Modifiers: +4 Stealth in dim light (-4 in bright light)
+:::
 
-**Type:** undead
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +2 Dex, +1 dodge
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +3
-
-**Will:** +4
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Offense**
-
-**Speed:** fly 40 ft. (good)
-
-**Melee:** incorporeal touch +4 (1d6 Strength damage)
-
-**Spec Att:** create spawn
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 14, Con -, Int 6, Wis 12, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 17
-
-**Feats:** Dodge, Skill Focus (Perception)
-
-**Skills:** Fly +11, Perception +8, Stealth +8 (+12 in dim light, +4 in bright light)
-
-**Racial Modifiers:** +4 Stealth in dim light (-4 in bright light)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, gang (3-6), or swarm (7-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any
+Organization: solitary, pair, gang (3-6), or swarm (7-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

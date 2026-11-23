@@ -31,73 +31,59 @@ abilities = ["3", "15", "9", "2", "12", "6"]
 _Built like a small badger, this creature has black fur with white stripes running from its face to
 its fluffy tail, which is raised in warning._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Type: animal
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Low-light vision, Scent
+Size: tiny
+Experience points: 100
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 3 (1d8-1)
+Fort: +1
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +4 (1d3-4), 2 claws +4 (1d2-4)
+Ranged: spray +4 touch (musk)
+Reach: 2-1/2
+Space: 2-1/2
+Spec Att: musk
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 3, Dex 15, Con 9, Int 2, Wis 12, Cha 6
+Base attack bonus: +0
+Combat maneuver bonus: +0
+Combat maneuver defense: 6
+Feats: Weapon Finesse
+Skills: Perception +5
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 3 (1d8-1)
-
-**Fort:** +1
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +4 (1d3-4), 2 claws +4 (1d2-4)
-
-**Ranged:** spray +4 touch (musk)
-
-**Reach:** 2-1/2
-
-**Space:** 2-1/2
-
-**Spec Att:** musk
-
-**Statistics**
-
-**Ability scores:** Str 3, Dex 15, Con 9, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +0
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 6
-
-**Feats:** Weapon Finesse
-
-**Skills:** Perception +5
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary, pair, or surfeit (3-5)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary, pair, or surfeit (3-5)
+Treasure: None
+:::
 
 ### Special Abilities
 

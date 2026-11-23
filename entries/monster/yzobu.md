@@ -30,75 +30,60 @@ abilities = ["14", "13", "14", "1", "12", "5"]
 _This four-legged animal with a long-horned, bovine head looks like a cross between a horse and a
 long-haired yak._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+aura: [stench](ref/umr/stench) (DC 13, 10 rounds)
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**aura:** [stench](ref/umr/stench) (DC 13, 10 rounds)
+::: statblock
+Armor class: 13
+Touch: 10
+Flat-footed: 12
+AC modifiers: +1 Dex, +3 natural, -1 size
+Hit points: 13 (2d8+4)
+Fort: +5
+Ref: +4
+Will: +1
+:::
 
-**Initiative:** +1
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 40 ft.
+Melee: gore +3 (1d8+3)
+Reach: 5
+Space: 10
+Spec Att: stampede
+Trample: 1d6+3, DC 13
+:::
 
-**Alignment:** Neutral
+### Statistics
 
-**Perception:** +6
+::: statblock
+Ability scores: Str 14, Dex 13, Con 14, Int 1, Wis 12, Cha 5
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 15
+Feats: Weapon Focus (gore)
+Skills: Perception +6
+:::
 
-**Senses:** Low-light vision, Scent
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 13
-
-**Touch:** 10
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +3 natural, -1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** gore +3 (1d8+3)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** stampede
-
-**Trample:** 1d6+3, DC 13
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 13, Con 14, Int 1, Wis 12, Cha 5
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 15
-
-**Feats:** Weapon Focus (gore)
-
-**Skills:** Perception +6
-
-**Ecology**
-
-**Environment:** cold hills and plains
-
-**Organization:** solitary, pair, or herd (3-30)
-
-**Treasure:** None
+::: statblock
+Environment: cold hills and plains
+Organization: solitary, pair, or herd (3-30)
+Treasure: None
+:::
 
 ### Special Abilities
 

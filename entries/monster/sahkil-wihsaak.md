@@ -31,96 +31,71 @@ abilities = ["16", "17", "16", "11", "12", "14"]
 _Buzzing wings hold this gaunt creature just above the ground. A grasshopper serves as the
 creature's head._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +7
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +12
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Evil, Extraplanar, Sahkil
+Experience points: 2,400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 20
+Touch: 14
+Flat-footed: 16
+AC modifiers: +3 Dex, +1 dodge, +6 natural
+Hit points: 68 (8d10+24)
+Fort: +5
+Ref: +9
+Will: +7
+Dr: 10/good
+Immune: death effects, disease, fear effects, poison
+Resist: cold 10, electricity 10, sonic 10
+Sr: 17
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 50 ft., fly 80 ft. (perfect)
+Melee: 4 claws +12 (1d6+3)
+Spec Att: droning madness, look of fear (30 ft., DC 18), spirit touch
+:::
 
-**Perception:** +12
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8
+Concentration: +10
+At will: blur, detect magic, greater teleport, self plus 50 lbs. of objects only, vomit swarm
+Per day: 1/day: see invisibility, suggestion (DC 15), unholy blight (DC 16)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Evil, Extraplanar, Sahkil
+::: statblock
+Ability scores: Str 16, Dex 17, Con 16, Int 11, Wis 12, Cha 14
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 25
+Feats: Combat Reflexes, Dodge, Improved Initiative, Weapon Focus (claw)
+Skills: Acrobatics +10, Bluff +10, Fly +15, Intimidate +11, Knowledge (local) +7, Perception +12, Sense Motive +12, Stealth +14
+Languages: Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: easy to call, emotional focus, skip between, swarmwalking
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 14
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +1 dodge, +6 natural
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +5
-
-**Ref:** +9
-
-**Will:** +7
-
-**Dr:** 10/good
-
-**Immune:** death effects, disease, fear effects, poison
-
-**Resist:** cold 10, electricity 10, sonic 10
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 50 ft., fly 80 ft. (perfect)
-
-**Melee:** 4 claws +12 (1d6+3)
-
-**Spec Att:** droning madness, look of fear (30 ft., DC 18), spirit touch
-
-**Spell-Like Abilities**
-
-**Caster level:** 8
-
-**Concentration:** +10
-
-**At will:**
-
-- blur, detect magic, greater teleport, self plus 50 lbs. of objects only, vomit swarm
-
-**Per day:**
-
-- 1/day: see invisibility, suggestion (DC 15), unholy blight (DC 16)
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 17, Con 16, Int 11, Wis 12, Cha 14
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 25
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Weapon Focus (claw)
-
-**Skills:** Acrobatics +10, Bluff +10, Fly +15, Intimidate +11, Knowledge (local) +7, Perception
-+12, Sense Motive +12, Stealth +14
-
-**Languages:** Abyssal, Celestial, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** easy to call, emotional focus, skip between, swarmwalking
-
-**Ecology**
-
-**Environment:** any ([Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary or swarm (2-12)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary or swarm (2-12)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

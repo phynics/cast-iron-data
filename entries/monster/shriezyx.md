@@ -36,85 +36,65 @@ abilities = ["13", "17", "12", "3", "12", "2"]
 _An oversized, eight-legged monstrosity stares ravenously from its three beady eyes, its gaping maw
 dripping with green venom._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: aberration
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +12
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Experience points: 1,200
+:::
 
-**Type:** aberration
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +3 Dex, +4 natural
+Hit points: 38 (7d8+7)
+Fort: +5
+Ref: +5
+Will: +6
+Ferocity: present
+Immune: mind-affecting effects
+Regen: 3 (fire)
+Vulner: fire
+Weaknesses: fear of fire
+:::
 
-**Initiative:** +7
+### Offense
 
-**Size:** medium
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +8 (1d6+1 plus poison), 4 claws +8 (1d4+1)
+Spec Att: slowing toxin
+Web: +8 ranged, DC 14, 7 hp
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 17, Con 12, Int 3, Wis 12, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +6
+Combat maneuver defense: 19 (31 vs. trip)
+Feats: Great Fortitude, Improved Initiative, Step Up, Weapon Finesse
+Skills: Climb +15, Perception +12
+Racial Modifiers: +4 Perception
+Languages: Aklo
+:::
 
-**tremorsense:** 60
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +4 natural
-
-**Hit points:** 38 (7d8+7)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +6
-
-**Ferocity:** present
-
-**Immune:** mind-affecting effects
-
-**Regen:** 3 (fire)
-
-**Vulner:** fire
-
-**Weaknesses:** fear of fire
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +8 (1d6+1 plus poison), 4 claws +8 (1d4+1)
-
-**Spec Att:** slowing toxin
-
-**Web:** +8 ranged, DC 14, 7 hp
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 12, Int 3, Wis 12, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 19 (31 vs. trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Step Up, Weapon Finesse
-
-**Skills:** Climb +15, Perception +12
-
-**Racial Modifiers:** +4 Perception
-
-**Languages:** Aklo
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or hive (3-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or hive (3-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

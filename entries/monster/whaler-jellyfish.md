@@ -31,81 +31,63 @@ abilities = ["36", "23", "28", "-", "25", "1"]
 _This enormous, translucent blob trails a mass of six immense tentacles and a central forest of
 tendrils below its body._
 
-**Challenge rating:** 17
+::: statblock
+Challenge rating: 17
+blindsight: 120
+Size: colossal
+Initiative: +6
+Alignment: Neutral
+Perception: +7
+Subtype: Aquatic
+Type: vermin
+Experience points: 102,400
+:::
 
-**blindsight:** 120
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 32
+Touch: 8
+Flat-footed: 26
+AC modifiers: +6 Dex, +24 natural, -8 size
+Hit points: 270 (20d8+180)
+Fort: +21
+Ref: +12
+Will: +13
+Amorph: present
+Defensive abilities: aquatic transparency
+Dr: 20/piercing or slashing
+Immune: mind-affecting effects
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: swim 30 ft.
+Constrict: 2d6+13
+Melee: 6 tentacles +20 (2d6+13 plus [grab](ref/umr/grab) and poison)
+Reach: 60
+Space: 30
+Spec Att: poison
+:::
 
-**Perception:** +7
+### Statistics
 
-**Subtype:** Aquatic
+::: statblock
+Ability scores: Str 36, Dex 23, Con 28, Int -, Wis 25, Cha 1
+Base attack bonus: +15
+Combat maneuver bonus: +36
+Combat maneuver defense: 52 (can't be tripped)
+Skills: Swim +21
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 102,400
-
-**Armor class:** 32
-
-**Touch:** 8
-
-**Flat-footed:** 26
-
-**AC modifiers:** +6 Dex, +24 natural, -8 size
-
-**Hit points:** 270 (20d8+180)
-
-**Fort:** +21
-
-**Ref:** +12
-
-**Will:** +13
-
-**Amorph:** present
-
-**Defensive abilities:** aquatic transparency
-
-**Dr:** 20/piercing or slashing
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** swim 30 ft.
-
-**Constrict:** 2d6+13
-
-**Melee:** 6 tentacles +20 (2d6+13 plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 60
-
-**Space:** 30
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 23, Con 28, Int -, Wis 25, Cha 1
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 52 (can't be tripped)
-
-**Skills:** Swim +21
-
-**Ecology**
-
-**Environment:** any oceans
-
-**Organization:** solitary, pack (2-4), or bloom (5-8)
-
-**Treasure:** None
+::: statblock
+Environment: any oceans
+Organization: solitary, pack (2-4), or bloom (5-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

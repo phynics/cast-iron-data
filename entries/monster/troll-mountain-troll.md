@@ -31,103 +31,75 @@ abilities = ["36", "13", "25", "7", "16", "8"]
 _This enormous, stooped creature has powerful limbs; a mane of gritty brown fur; and a ferocious,
 tusked underbite._
 
-**Challenge rating:** 14
+::: statblock
+Challenge rating: 14
+Alignment: Chaotic neutral
+Size: huge
+Type: humanoid
+Initiative: +1
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 38,400
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 29
+Touch: 9
+Flat-footed: 28
+AC modifiers: +1 Dex, +20 natural, -2 size
+Hit points: 207 (18d8+126)
+Fort: +18
+Ref: +7
+Will: +15
+Defensive abilities: stubborn
+Regen: 10 (acid or fire)
+Rock Ct: present
+Vulner: sonic
+:::
 
-**Type:** humanoid
+### Offense
 
-**Initiative:** +1
+::: statblock
+Speed: 40 ft., burrow 10 ft., climb 40 ft.
+Melee: bite +24 (2d10+13), 2 claws +24 (2d6+13)
+Ranged: rock +13/+8/+3 (2d8+19)
+Reach: 15
+Rend: 2 claws, 2d6+13
+Rock Th: 120 ft.
+Space: 15
+:::
 
-**Perception:** +15
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14
+Concentration: +13
+At will: stone shape
+Per day: 3/day: spike stones (DC 13), stone tell\
+1/day: earthquake (DC 17), flesh to stone (DC 15), summon monster VIII, earth elemental only
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 36, Dex 13, Con 25, Int 7, Wis 16, Cha 8
+Base attack bonus: +13
+Combat maneuver bonus: +28
+Combat maneuver defense: 39
+Feats: Awesome Blow, Deadly Aim, Improved Bull Rush, Improved Iron Will, Improved Vital Strike, Iron Will, Power Attack, Quick Draw, Vital Strike
+Skills: Climb +33, Perception +15
+Languages: Giant
+:::
 
-**Experience points:** 38,400
+### Ecology
 
-**Armor class:** 29
-
-**Touch:** 9
-
-**Flat-footed:** 28
-
-**AC modifiers:** +1 Dex, +20 natural, -2 size
-
-**Hit points:** 207 (18d8+126)
-
-**Fort:** +18
-
-**Ref:** +7
-
-**Will:** +15
-
-**Defensive abilities:** stubborn
-
-**Regen:** 10 (acid or fire)
-
-**Rock Ct:** present
-
-**Vulner:** sonic
-
-**Offense**
-
-**Speed:** 40 ft., burrow 10 ft., climb 40 ft.
-
-**Melee:** bite +24 (2d10+13), 2 claws +24 (2d6+13)
-
-**Ranged:** rock +13/+8/+3 (2d8+19)
-
-**Reach:** 15
-
-**Rend:** 2 claws, 2d6+13
-
-**Rock Th:** 120 ft.
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 14
-
-**Concentration:** +13
-
-**At will:**
-
-- stone shape
-
-**Per day:**
-
-- 3/day: spike stones (DC 13), stone tell
-- 1/day: earthquake (DC 17), flesh to stone (DC 15), summon monster VIII, earth elemental only
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 13, Con 25, Int 7, Wis 16, Cha 8
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 39
-
-**Feats:** Awesome Blow, Deadly Aim, Improved Bull Rush, Improved Iron Will, Improved Vital Strike,
-Iron Will, Power Attack, Quick Draw, Vital Strike
-
-**Skills:** Climb +33, Perception +15
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

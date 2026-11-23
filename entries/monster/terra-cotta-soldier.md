@@ -30,73 +30,59 @@ abilities = ["16", "16", "-", "1", "11", "1"]
 _This perfectly sculpted, finely detailed, life-sized clay figure has a look of fierce determination
 and a sword clenched in each hand._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: construct
+Initiative: +7
+Size: medium
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 2,400
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 19
+Touch: 13
+Flat-footed: 16
+AC modifiers: +3 Dex, +6 natural
+Hit points: 64 (8d10+20)
+Fort: +2
+Ref: +5
+Will: +2
+Dr: 5/bludgeoning
+Immune: [construct traits](ref/umr/construct-traits), fire
+Sr: 17
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: longsword +10/+5 (1d8+3/19-20), short sword +10 (1d6+1/19-20) or 2 slams +11 (1d6+3)
+Spec Att: keen weapons, rank fighting
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 16, Dex 16, Con -, Int 1, Wis 11, Cha 1
+Base attack bonus: +8
+Combat maneuver bonus: +11
+Combat maneuver defense: 24
+Feats: Improved Initiative, Two Weapon Fighting, Weapon Focus (longsword, shortsword)
+Skills: Perception +8
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 19
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +3 Dex, +6 natural
-
-**Hit points:** 64 (8d10+20)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +2
-
-**Dr:** 5/bludgeoning
-
-**Immune:** [construct traits](ref/umr/construct-traits), fire
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** longsword +10/+5 (1d8+3/19-20), short sword +10 (1d6+1/19-20) or 2 slams +11 (1d6+3)
-
-**Spec Att:** keen weapons, rank fighting
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 16, Con -, Int 1, Wis 11, Cha 1
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 24
-
-**Feats:** Improved Initiative, Two Weapon Fighting, Weapon Focus (longsword, shortsword)
-
-**Skills:** Perception +8
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, troop (3-12), or army (13+)
-
-**Treasure:** Incidental (longsword, short sword); other treasure
+::: statblock
+Environment: any
+Organization: solitary, troop (3-12), or army (13+)
+Treasure: Incidental (longsword, short sword); other treasure
+:::
 
 ### Special Abilities
 

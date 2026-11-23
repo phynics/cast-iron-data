@@ -29,93 +29,71 @@ special_qualities = "elven magic, favored terrain (urban +2), hunter's bond (com
 abilities = ["12", "18", "12", "12", "13", "8"]
 +++
 
-**Challenge rating:** 3
-
 **Elf [ranger](ref/class/ranger) 4**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 3
+Type: humanoid
+Initiative: +4
+Size: medium
+Alignment: Neutral evil
+Perception: +10
+Senses: Low-light vision
+Subtype: Elf
+Experience points: 800
+:::
 
-**Initiative:** +4
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 armor, +4 Dex
+Hit points: 38 (4d10+12)
+Fort: +5
+Ref: +8
+Will: +2; +2 vs. enchantments
+Immune: sleep
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 30 ft.
+Fav En: humans +2
+Melee: mwk rapier +7 (1d6+1/18-20), mwk rapier +7 (1d6/18-20)
+Ranged: mwk composite longbow +9 (1d8+2/×3)
+Spec Att: combat style (two-weapon)
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Prepared Spells"
+Caster level: 1
+Concentration: +2
+1st-level spells: entangle (DC 12)
+:::
 
-**Subtype:** Elf
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 12, Dex 18, Con 12, Int 12, Wis 13, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +5
+Combat maneuver defense: 19
+Feats: Endurance, Toughness, Two-Weapon Fighting, Weapon Finesse
+Skills: Intimidate +6, Knowledge (geography) +8, Perception +10
+Languages: Common, Draconic, Elven
+Special qualities: elven magic, [favored terrain](ref/ability/favored-terrain) (urban +2), hunter's bond (companions), track +2, [wild empathy](ref/ability/wild-empathy) +3
+Combat gear: potion of cat's grace, potion of cure moderate wounds, potion of protective penumbra, scroll of animal messenger, scroll of longstrider
+Other gear: mwk chain shirt, mwk cl20, 2 mwk rapiers, 5 srs, 9 gp
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +4 Dex
-
-**Hit points:** 38 (4d10+12)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +2; +2 vs. enchantments
-
-**Immune:** sleep
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Fav En:** humans +2
-
-**Melee:** mwk rapier +7 (1d6+1/18-20), mwk rapier +7 (1d6/18-20)
-
-**Ranged:** mwk composite longbow +9 (1d8+2/×3)
-
-**Spec Att:** combat style (two-weapon)
-
-**Prepared Spells**
-
-**Caster level:** 1
-
-**Concentration:** +2
-
-**1st-level spells:**
-
-- entangle (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 18, Con 12, Int 12, Wis 13, Cha 8
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 19
-
-**Feats:** Endurance, Toughness, Two-Weapon Fighting, Weapon Finesse
-
-**Skills:** Intimidate +6, Knowledge (geography) +8, Perception +10
-
-**Languages:** Common, Draconic, Elven
-
-**Special qualities:** elven magic, [favored terrain](ref/ability/favored-terrain) (urban +2),
-hunter's bond (companions), track +2, [wild empathy](ref/ability/wild-empathy) +3
-
-**Combat gear:** potion of cat's grace, potion of cure moderate wounds, potion of protective
-penumbra, scroll of animal messenger, scroll of longstrider
-
-**Other gear:** mwk chain shirt, mwk cl20, 2 mwk rapiers, 5 srs, 9 gp
-
-**Ecology**
-
-**Environment:** any
+::: statblock
+Environment: any
+:::
 
 ### Description
 

@@ -30,67 +30,56 @@ abilities = ["10", "13", "15", "2", "14", "7"]
 _This large, tawny rodent has powerful forelimbs ending in spade-like claws. Sand and mud cakes the
 creature's fur._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+Initiative: +1
+Alignment: Neutral
+Perception: +6
+Senses: Low-light vision, Scent
+Size: small
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 12
+Touch: 12
+Flat-footed: 11
+AC modifiers: +1 Dex, +1 size
+Hit points: 13 (2d8+4)
+Fort: +7
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +6
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: bite +2 (1d4), 2 claws +2 (1d4)
+Spec Att: dust cloud
+:::
 
-**Senses:** Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 13, Con 15, Int 2, Wis 14, Cha 7
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 11 (15 vs. trip)
+Feats: Great Fortitude
+Skills: Perception +6, Stealth +9
+:::
 
-**Experience points:** 400
+### Ecology
 
-**Armor class:** 12
-
-**Touch:** 12
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +1 size
-
-**Hit points:** 13 (2d8+4)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** bite +2 (1d4), 2 claws +2 (1d4)
-
-**Spec Att:** dust cloud
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 13, Con 15, Int 2, Wis 14, Cha 7
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 11 (15 vs. trip)
-
-**Feats:** Great Fortitude
-
-**Skills:** Perception +6, Stealth +9
-
-**Ecology**
-
-**Environment:** any deserts
-
-**Organization:** solitary, pair
-
-**Treasure:** None
+::: statblock
+Environment: any deserts
+Organization: solitary, pair
+Treasure: None
+:::
 
 ### Special Abilities
 

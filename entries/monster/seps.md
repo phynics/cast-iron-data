@@ -31,80 +31,62 @@ abilities = ["30", "14", "21", "2", "11", "11"]
 _This giant armored snake has large fangs, dripping with venom that hisses when it spatters on the
 ground._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +17
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 26
+Touch: 10
+Flat-footed: 24
+AC modifiers: +2 Dex, +16 natural, -2 size
+Hit points: 147 (14d10+70)
+Fort: +14
+Ref: +11
+Will: +6
+Defensive abilities: acid blood
+Immune: acid, poison
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +23 (3d8+15/19-20 plus poison)
+Reach: 15
+Space: 15
+Spec Att: poison
+:::
 
-**Perception:** +17
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 30, Dex 14, Con 21, Int 2, Wis 11, Cha 11
+Base attack bonus: +14
+Combat maneuver bonus: +26
+Combat maneuver defense: 38 (can't be tripped)
+Feats: Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus (Perception), Skill Focus (Stealth), Weapon Focus (bite)
+Skills: Perception +17, Stealth +11
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: liquefaction
+:::
 
-**Experience points:** 12,800
+### Ecology
 
-**Armor class:** 26
-
-**Touch:** 10
-
-**Flat-footed:** 24
-
-**AC modifiers:** +2 Dex, +16 natural, -2 size
-
-**Hit points:** 147 (14d10+70)
-
-**Fort:** +14
-
-**Ref:** +11
-
-**Will:** +6
-
-**Defensive abilities:** acid blood
-
-**Immune:** acid, poison
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +23 (3d8+15/19-20 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 14, Con 21, Int 2, Wis 11, Cha 11
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 38 (can't be tripped)
-
-**Feats:** Improved Critical (bite), Improved Initiative, Iron Will, Power Attack, Skill Focus
-(Perception), Skill Focus (Stealth), Weapon Focus (bite)
-
-**Skills:** Perception +17, Stealth +11
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** liquefaction
-
-**Ecology**
-
-**Environment:** temperate or warm deserts or forests
-
-**Organization:** solitary or nest (2-5)
-
-**Treasure:** Incidental; acid-proof items
+::: statblock
+Environment: temperate or warm deserts or forests
+Organization: solitary or nest (2-5)
+Treasure: Incidental; acid-proof items
+:::
 
 ### Special Abilities
 

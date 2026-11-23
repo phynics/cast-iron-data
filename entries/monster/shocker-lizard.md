@@ -30,71 +30,58 @@ abilities = ["10", "15", "13", "2", "13", "6"]
 _This dog-sized lizard has two horns, one on either side of its head, and green scales that crackle
 with sparks of lightning._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +6
+Type: Magical beast
+Alignment: Neutral
+Perception: +8
+Senses: Darkvision 60 ft., Electricity sense, Low-light vision
+Size: small
+Experience points: 600
+:::
 
-**Initiative:** +6
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 16
+Touch: 13
+Flat-footed: 14
+AC modifiers: +2 Dex, +3 natural, +1 size
+Hit points: 19 (3d10+3)
+Fort: +4
+Ref: +5
+Will: +2
+Immune: electricity
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 40 ft., climb 20 ft., swim 20 ft.
+Melee: bite +4 (1d4)
+Spec Att: shock
+:::
 
-**Senses:** Darkvision 60 ft., Electricity sense, Low-light vision
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 10, Dex 15, Con 13, Int 2, Wis 13, Cha 6
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (18 vs. trip)
+Feats: Improved Initiative, Skill Focus (Stealth)
+Skills: Climb +8
+Racial Modifiers: +2 Perception, +4 Stealth
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 13
-
-**Flat-footed:** 14
-
-**AC modifiers:** +2 Dex, +3 natural, +1 size
-
-**Hit points:** 19 (3d10+3)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +2
-
-**Immune:** electricity
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +4 (1d4)
-
-**Spec Att:** shock
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 13, Int 2, Wis 13, Cha 6
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (18 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth)
-
-**Skills:** Climb +8
-
-**Racial Modifiers:** +2 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm marshes
-
-**Organization:** solitary, pair, clutch (3-6), or colony (7-12)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm marshes
+Organization: solitary, pair, clutch (3-6), or colony (7-12)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

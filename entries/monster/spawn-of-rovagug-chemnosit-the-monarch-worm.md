@@ -31,109 +31,76 @@ abilities = ["36", "13", "34", "5", "14", "21"]
 _This massive beast possesses a mouth of rasping teeth and tentacles with biting mouths. In the
 center of its maw rests a glowing evil eye._
 
-**Challenge rating:** 23
+::: statblock
+Challenge rating: 23
+aura: [frightful presence](ref/umr/frightful-presence) (300 ft., DC 26)
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +5
+Type: Magical beast
+Perception: +27
+Senses: Darkvision 60 ft., Low-light vision
+tremorsense: 180
+Experience points: 819,200
+:::
 
-**aura:** [frightful presence](ref/umr/frightful-presence) (300 ft., DC 26)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 39
+Touch: 3
+Flat-footed: 38
+AC modifiers: +1 Dex, +36 natural, -8 size
+Hit points: 472 (27d10+324)
+Fort: +29
+Ref: +18
+Will: +13
+Dr: 15/epic
+Immune: ability damage, acid, bleed, cold, disease, energy drain, mind-affecting effects, paralysis, permanent wounds, petrification, poison, polymorph
+Regen: 30
+Sr: 34
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +5
+::: statblock
+Speed: 40 ft., burrow 40 ft.
+Melee: 6 toothed tentacles +33 (2d10+13/19-20 plus [grab](ref/umr/grab))
+Ranged: ray +20 (disintegrate/19-20)
+Reach: 30
+Space: 30
+Spec Att: hungry gaze, spines
+Swallow: 2d10+13 plus 1d4 Str damage, AC 28, 47 hp
+:::
 
-**Type:** Magical beast
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 27
+Concentration: +32
+At will: disintegrate (DC 21)
+Per day: 1/day: earthquake
+:::
 
-**Perception:** +27
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 36, Dex 13, Con 34, Int 5, Wis 14, Cha 21
+Base attack bonus: +27
+Combat maneuver bonus: +48 (+52 grapple, +68 overrun)
+Combat maneuver defense: 59 (can't be tripped)
+Feats: Ability Focus (hungry gaze), Awesome Blow, Bleeding Critical, Blind-Fight, Critical Focus, Great Fortitude, Improved Bull Rush, Improved Critical (ray), Improved Critical (toothed tentacle), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (toothed tentacle)
+Skills: Climb +20
+Languages: Aklo
+Special qualities: hibernation, unstoppable force
+:::
 
-**tremorsense:** 180
+### Ecology
 
-**Experience points:** 819,200
-
-**Armor class:** 39
-
-**Touch:** 3
-
-**Flat-footed:** 38
-
-**AC modifiers:** +1 Dex, +36 natural, -8 size
-
-**Hit points:** 472 (27d10+324)
-
-**Fort:** +29
-
-**Ref:** +18
-
-**Will:** +13
-
-**Dr:** 15/epic
-
-**Immune:** ability damage, acid, bleed, cold, disease, energy drain, mind-affecting effects,
-paralysis, permanent wounds, petrification, poison, polymorph
-
-**Regen:** 30
-
-**Sr:** 34
-
-**Offense**
-
-**Speed:** 40 ft., burrow 40 ft.
-
-**Melee:** 6 toothed tentacles +33 (2d10+13/19-20 plus [grab](ref/umr/grab))
-
-**Ranged:** ray +20 (disintegrate/19-20)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** hungry gaze, spines
-
-**Swallow:** 2d10+13 plus 1d4 Str damage, AC 28, 47 hp
-
-**Spell-Like Abilities**
-
-**Caster level:** 27
-
-**Concentration:** +32
-
-**At will:**
-
-- disintegrate (DC 21)
-
-**Per day:**
-
-- 1/day: earthquake
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 13, Con 34, Int 5, Wis 14, Cha 21
-
-**Base attack bonus:** +27
-
-**Combat maneuver bonus:** +48 (+52 grapple, +68 overrun)
-
-**Combat maneuver defense:** 59 (can't be tripped)
-
-**Feats:** Ability Focus (hungry gaze), Awesome Blow, Bleeding Critical, Blind-Fight, Critical
-Focus, Great Fortitude, Improved Bull Rush, Improved Critical (ray), Improved Critical (toothed
-tentacle), Improved Initiative, Iron Will, Lightning Reflexes, Power Attack, Weapon Focus (toothed
-tentacle)
-
-**Skills:** Climb +20
-
-**Languages:** Aklo
-
-**Special qualities:** hibernation, unstoppable force
-
-**Ecology**
-
-**Environment:** any (Darklands)
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any (Darklands)
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,98 +30,71 @@ abilities = ["-", "21", "-", "10", "20", "23"]
 _This cloud of thick black smoke crackles as flashes of electricity illuminate it from within, but
 it whirs as if mechanical._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Type: construct
+Size: huge
+Initiative: +9
+Alignment: Neutral
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision, See alignment
+Experience points: 6,400
+:::
 
-**Type:** construct
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 20
+Flat-footed: 14
+AC modifiers: +6 deflection, +5 Dex, +1 dodge, -2 size
+Hit points: 98 (9d10+49)
+Fort: +3
+Ref: +8
+Will: +8
+Defensive abilities: gaseous
+Immune: [construct traits](ref/umr/construct-traits)
+:::
 
-**Initiative:** +9
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: fly 40 ft. (perfect)
+Engulf: DC 21, 1d6 Wis
+Melee: 2 tendrils +12 touch (3d6 electricity)
+Reach: 15
+Space: 15
+:::
 
-**Perception:** +14
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +15
+Constant: see alignment, tongues
+At will: detect thoughts (DC 17), fear (DC 20)
+Per day: 3/day: major image (DC 19)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, See alignment
+### Statistics
 
-**Experience points:** 6,400
+::: statblock
+Ability scores: Str -, Dex 21, Con -, Int 10, Wis 20, Cha 23
+Base attack bonus: +9
+Combat maneuver bonus: +11
+Combat maneuver defense: 33 (can't be tripped)
+Feats: Ability Focus (engulf), Dodge, Improved Initiative, Toughness, Weapon Finesse
+Skills: Fly +9, Perception +14, Stealth +6
+Languages: _[tongues](ref/spell/tongues)_ (can't speak in natural form)
+Special qualities: [change shape](ref/umr/change-shape) (Small or Medium humanoid; [alter self](ref/spell/alter-self)), tethered
+:::
 
-**Armor class:** 20
+### Ecology
 
-**Touch:** 20
-
-**Flat-footed:** 14
-
-**AC modifiers:** +6 deflection, +5 Dex, +1 dodge, -2 size
-
-**Hit points:** 98 (9d10+49)
-
-**Fort:** +3
-
-**Ref:** +8
-
-**Will:** +8
-
-**Defensive abilities:** gaseous
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Offense**
-
-**Speed:** fly 40 ft. (perfect)
-
-**Engulf:** DC 21, 1d6 Wis
-
-**Melee:** 2 tendrils +12 touch (3d6 electricity)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +15
-
-**Constant:**
-
-- see alignment, tongues
-
-**At will:**
-
-- detect thoughts (DC 17), fear (DC 20)
-
-**Per day:**
-
-- 3/day: major image (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 21, Con -, Int 10, Wis 20, Cha 23
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 33 (can't be tripped)
-
-**Feats:** Ability Focus (engulf), Dodge, Improved Initiative, Toughness, Weapon Finesse
-
-**Skills:** Fly +9, Perception +14, Stealth +6
-
-**Languages:** _[tongues](ref/spell/tongues)_ (can't speak in natural form)
-
-**Special qualities:** [change shape](ref/umr/change-shape) (Small or Medium humanoid;
-[alter self](ref/spell/alter-self)), tethered
-
-**Ecology**
-
-**Environment:** temperate or warm forests
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or warm forests
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

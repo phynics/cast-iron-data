@@ -28,71 +28,58 @@ abilities = ["11", "17", "12", "-", "10", "2"]
 
 _A spider the size of a man crawls silently from the depths of its funnel-shaped web._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +3
+Size: medium
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +3
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 11
+AC modifiers: +3 Dex, +1 natural
+Hit points: 16 (3d8+3)
+Fort: +4
+Ref: +4
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: bite +2 (1d6 plus poison)
+Web: +5 ranged, DC 12, hp 2
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 11, Dex 17, Con 12, Int -, Wis 10, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 15 (27 vs. trip)
+Skills: Climb +16, Perception +4 (+8 in webs), Stealth +7 (+11 in webs)
+Racial Modifiers: +4 Perception, +4 Stealth (+8 in webs), +16 Climb
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +3 Dex, +1 natural
-
-**Hit points:** 16 (3d8+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** bite +2 (1d6 plus poison)
-
-**Web:** +5 ranged, DC 12, hp 2
-
-**Statistics**
-
-**Ability scores:** Str 11, Dex 17, Con 12, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15 (27 vs. trip)
-
-**Skills:** Climb +16, Perception +4 (+8 in webs), Stealth +7 (+11 in webs)
-
-**Racial Modifiers:** +4 Perception, +4 Stealth (+8 in webs), +16 Climb
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or colony (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or colony (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

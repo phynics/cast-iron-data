@@ -31,76 +31,60 @@ abilities = ["29", "14", "20", "1", "15", "2"]
 _This great, writhing aquatic beast is pale blue with bright yellow stripes, and possesses a
 flipper-like tail to aid it as it swims._
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Type: animal
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Perception: +12
+Senses: Low-light vision
+Experience points: 3,200
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 18
+AC modifiers: +2 Dex, +10 natural, -2 size
+Hit points: 85 (9d8+45)
+Fort: +11
+Ref: +10
+Will: +5
+:::
 
-**Initiative:** +6
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 40 ft.
+Melee: bite +14 (2d8+13/19-20 plus poison)
+Reach: 15
+Space: 15
+Spec Att: poison
+:::
 
-**Perception:** +12
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 29, Dex 14, Con 20, Int 1, Wis 15, Cha 2
+Base attack bonus: +6
+Combat maneuver bonus: +17
+Combat maneuver defense: 29
+Feats: Improved Critical (bite), Improved Initiative, Lightning Reflexes, Snatch, Weapon Focus (bite)
+Skills: Climb +17
+Racial Modifiers: +4 Perception, +4 Stealth
+Special qualities: [hold breath](ref/umr/hold-breath)
+:::
 
-**Experience points:** 3,200
+### Ecology
 
-**Armor class:** 20
-
-**Touch:** 10
-
-**Flat-footed:** 18
-
-**AC modifiers:** +2 Dex, +10 natural, -2 size
-
-**Hit points:** 85 (9d8+45)
-
-**Fort:** +11
-
-**Ref:** +10
-
-**Will:** +5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 40 ft.
-
-**Melee:** bite +14 (2d8+13/19-20 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 14, Con 20, Int 1, Wis 15, Cha 2
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 29
-
-**Feats:** Improved Critical (bite), Improved Initiative, Lightning Reflexes, Snatch, Weapon Focus
-(bite)
-
-**Skills:** Climb +17
-
-**Racial Modifiers:** +4 Perception, +4 Stealth
-
-**Special qualities:** [hold breath](ref/umr/hold-breath)
-
-**Ecology**
-
-**Environment:** warm oceans
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: warm oceans
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

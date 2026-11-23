@@ -32,91 +32,67 @@ abilities = ["42", "10", "25", "7", "11", "10"]
 _This titanic earthen creature is humanoid-shaped with a hunched, pugnacious posture. The enormous
 hump of its back bears a ring of standing stones that crackle faintly with energy._
 
-**Challenge rating:** 19
+::: statblock
+Challenge rating: 19
+Size: colossal
+Initiative: +0
+Alignment: Neutral
+Type: outsider
+Perception: +31
+Senses: Darkvision 60 ft.
+Subtype: Earth, Elemental, Extraplanar
+Experience points: 204,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 34
+Touch: 2
+Flat-footed: 34
+AC modifiers: +32 natural, -8 size
+Hit points: 350 (28d10+196)
+Fort: +18
+Ref: +16
+Will: +18
+Dr: 15/-
+Immune: acid, elemental traits
+Sr: 30
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft.
+Melee: bite +36 (6d8+16 plus [grab](ref/umr/grab)), 2 slams +36 (4d6+16/19-20)
+Reach: 30
+Space: 30
+Spec Att: joggle, menhir focus pool
+Swallow: 6d8+24 bludgeoning damage, AC 30, 70 hp
+Trample: 4d6+24, DC 40
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 42, Dex 10, Con 25, Int 7, Wis 11, Cha 10
+Base attack bonus: +28
+Combat maneuver bonus: +52 (+56 bull rush, grapple)
+Combat maneuver defense: 62 (64 vs. bull rush)
+Feats: Awesome Blow, Cleave, Critical Focus, Great Cleave, Great Fortitude, Greater Bull Rush, Improved Bull Rush, Improved Critical (slam), Improved Iron Will, Iron Will, Lunge, Power Attack, Skill Focus (Stealth), Staggering Critical
+Skills: Appraise +29, Intimidate +31, Perception +31, Stealth +21 (+29 in rocky terrain)
+Racial Modifiers: +8 Stealth in rocky terrain
+Languages: Terran
+Special qualities: [freeze](ref/umr/freeze), hill retreat, stony stomach
+:::
 
-**Subtype:** Earth, Elemental, Extraplanar
+### Ecology
 
-**Experience points:** 204,800
-
-**Armor class:** 34
-
-**Touch:** 2
-
-**Flat-footed:** 34
-
-**AC modifiers:** +32 natural, -8 size
-
-**Hit points:** 350 (28d10+196)
-
-**Fort:** +18
-
-**Ref:** +16
-
-**Will:** +18
-
-**Dr:** 15/-
-
-**Immune:** acid, elemental traits
-
-**Sr:** 30
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +36 (6d8+16 plus [grab](ref/umr/grab)), 2 slams +36 (4d6+16/19-20)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** joggle, menhir focus pool
-
-**Swallow:** 6d8+24 bludgeoning damage, AC 30, 70 hp
-
-**Trample:** 4d6+24, DC 40
-
-**Statistics**
-
-**Ability scores:** Str 42, Dex 10, Con 25, Int 7, Wis 11, Cha 10
-
-**Base attack bonus:** +28
-
-**Combat maneuver bonus:** +52 (+56 bull rush, grapple)
-
-**Combat maneuver defense:** 62 (64 vs. bull rush)
-
-**Feats:** Awesome Blow, Cleave, Critical Focus, Great Cleave, Great Fortitude, Greater Bull Rush,
-Improved Bull Rush, Improved Critical (slam), Improved Iron Will, Iron Will, Lunge, Power Attack,
-Skill Focus (Stealth), Staggering Critical
-
-**Skills:** Appraise +29, Intimidate +31, Perception +31, Stealth +21 (+29 in rocky terrain)
-
-**Racial Modifiers:** +8 Stealth in rocky terrain
-
-**Languages:** Terran
-
-**Special qualities:** [freeze](ref/umr/freeze), hill retreat, stony stomach
-
-**Ecology**
-
-**Environment:** any hills or underground ([Plane of Earth](ref/rule/plane-of-earth))
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: any hills or underground ([Plane of Earth](ref/rule/plane-of-earth))
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

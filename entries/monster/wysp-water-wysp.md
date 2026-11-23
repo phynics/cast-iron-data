@@ -31,82 +31,63 @@ abilities = ["13", "12", "14", "10", "13", "13"]
 
 _This sphere of elemental matter emits a strange hum that resonates with elemental power._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+aura: resonance (30 ft.)
+Initiative: +1
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Water
+Size: tiny
+Experience points: 600
+:::
 
-**aura:** resonance (30 ft.)
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 22 (3d10+6)
+Fort: +5
+Ref: +4
+Will: +2
+Immune: elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 90 ft.
+Melee: 2 tendrils +9 (1d3+3)
+Reach: 0
+Space: 2-1/2
+Spec Att: drench
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Ability scores: Str 13, Dex 12, Con 14, Int 10, Wis 13, Cha 13
+Base attack bonus: +3
+Combat maneuver bonus: +2
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Power Attack, Weapon Focus (tendril)
+Skills: Bluff +7, Heal +6
+Languages: Aquan
+Special qualities: living battery, servitor
+:::
 
-**Subtype:** Elemental, Water
+### Ecology
 
-**Size:** tiny
-
-**Experience points:** 600
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 22 (3d10+6)
-
-**Fort:** +5
-
-**Ref:** +4
-
-**Will:** +2
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 30 ft., swim 90 ft.
-
-**Melee:** 2 tendrils +9 (1d3+3)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Spec Att:** drench
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 12, Con 14, Int 10, Wis 13, Cha 13
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Power Attack, Weapon Focus (tendril)
-
-**Skills:** Bluff +7, Heal +6
-
-**Languages:** Aquan
-
-**Special qualities:** living battery, servitor
-
-**Ecology**
-
-**Environment:** any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
-
-**Organization:** solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6
-plus a powerful elemental creature)
-
-**Treasure:** None
+::: statblock
+Environment: any (Elemental Planes or [Ethereal Plane](ref/rule/ethereal-plane))
+Organization: solitary, cloud (3-8), symphony (10-40 plus 1 wysp conductor), or retinue (1-6 plus a powerful elemental creature)
+Treasure: None
+:::
 
 ### Special Abilities
 

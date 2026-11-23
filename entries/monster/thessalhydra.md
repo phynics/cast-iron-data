@@ -30,88 +30,65 @@ abilities = ["31", "40", "32", "2", "24", "9"]
 _This four-legged reptile has eight serpentine heads arrayed around a central maw. Its long,
 thrashing tail ends in a crab-like pincer._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Type: aberration
+Size: gargantuan
+Initiative: +15
+Alignment: Neutral
+Perception: +31
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 153,600
+:::
 
-**Type:** aberration
+### Defense
 
-**Size:** gargantuan
+::: statblock
+Armor class: 33
+Touch: 21
+Flat-footed: 18
+AC modifiers: +15 Dex, +12 natural, -4 size
+Hit points: 310 (20d8+220)
+Fort: +17
+Ref: +21
+Will: +19
+Defensive abilities: all-around vision
+Fh: 15
+Immune: acid
+:::
 
-**Initiative:** +15
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft., swim 20 ft.
+Br Weap: 160-ft. line, 20d6 acid damage, Reflex DC 31 half, usable every 1d4 rounds
+Constrict: 2d6+10
+Melee: bite +27 (3d6+10/19-20 plus 2d6 acid), 8 snake bites +25 (1d8+5/19-20 plus 1d6 acid), pincer +24 (2d8+5 plus [grab](ref/umr/grab))
+Pounce: present
+Ranged: 8 acid spits +26 touch (2d6 acid)
+Reach: 20
+Reach P: 30 ft. with snake bites, 40 ft. with pincer
+Space: 20
+:::
 
-**Perception:** +31
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 31, Dex 40, Con 32, Int 2, Wis 24, Cha 9
+Base attack bonus: +15
+Combat maneuver bonus: +29
+Combat maneuver defense: 54 (58 vs. trip)
+Feats: Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (bite, snake bites), Multiattack, Skill Focus (Perception), Weapon Finesse, Weapon Focus (bite), Weapon Focus (snake bites)
+Skills: Perception +31, Swim +26
+:::
 
-**Experience points:** 153,600
+### Ecology
 
-**Armor class:** 33
-
-**Touch:** 21
-
-**Flat-footed:** 18
-
-**AC modifiers:** +15 Dex, +12 natural, -4 size
-
-**Hit points:** 310 (20d8+220)
-
-**Fort:** +17
-
-**Ref:** +21
-
-**Will:** +19
-
-**Defensive abilities:** all-around vision
-
-**Fh:** 15
-
-**Immune:** acid
-
-**Offense**
-
-**Speed:** 40 ft., swim 20 ft.
-
-**Br Weap:** 160-ft. line, 20d6 acid damage, Reflex DC 31 half, usable every 1d4 rounds
-
-**Constrict:** 2d6+10
-
-**Melee:** bite +27 (3d6+10/19-20 plus 2d6 acid), 8 snake bites +25 (1d8+5/19-20 plus 1d6 acid),
-pincer +24 (2d8+5 plus [grab](ref/umr/grab))
-
-**Pounce:** present
-
-**Ranged:** 8 acid spits +26 touch (2d6 acid)
-
-**Reach:** 20
-
-**Reach P:** 30 ft. with snake bites, 40 ft. with pincer
-
-**Space:** 20
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 40, Con 32, Int 2, Wis 24, Cha 9
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +29
-
-**Combat maneuver defense:** 54 (58 vs. trip)
-
-**Feats:** Bleeding Critical, Combat Reflexes, Critical Focus, Improved Critical (bite, snake
-bites), Multiattack, Skill Focus (Perception), Weapon Finesse, Weapon Focus (bite), Weapon Focus
-(snake bites)
-
-**Skills:** Perception +31, Swim +26
-
-**Ecology**
-
-**Environment:** temperate swamps
-
-**Organization:** solitary
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate swamps
+Organization: solitary
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

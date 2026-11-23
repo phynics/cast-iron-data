@@ -30,77 +30,61 @@ abilities = ["36", "10", "20", "-", "10", "2"]
 _This towering scorpion's carapace is as black as coal, and its claws are each as long as a man's
 body._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+Size: colossal
+Initiative: +0
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 51,200
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 30
+Touch: 2
+Flat-footed: 30
+AC modifiers: +28 natural, -8 size
+Hit points: 228 (24d8+120)
+Fort: +19
+Ref: +8
+Will: +8
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 60 ft.
+Constrict: 2d8+19
+Melee: 2 claws +23 (2d8+13 plus [grab](ref/umr/grab)), sting +23 (2d6+13 plus poison)
+Reach: 30
+Space: 30
+Spec Att: rapid stinging
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 36, Dex 10, Con 20, Int -, Wis 10, Cha 2
+Base attack bonus: +18
+Combat maneuver bonus: +39 (+43 grapple)
+Combat maneuver defense: 49 (61 vs. trip)
+Skills: Climb +17, Perception +4, Stealth -12
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 51,200
-
-**Armor class:** 30
-
-**Touch:** 2
-
-**Flat-footed:** 30
-
-**AC modifiers:** +28 natural, -8 size
-
-**Hit points:** 228 (24d8+120)
-
-**Fort:** +19
-
-**Ref:** +8
-
-**Will:** +8
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Constrict:** 2d8+19
-
-**Melee:** 2 claws +23 (2d8+13 plus [grab](ref/umr/grab)), sting +23 (2d6+13 plus poison)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** rapid stinging
-
-**Statistics**
-
-**Ability scores:** Str 36, Dex 10, Con 20, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +18
-
-**Combat maneuver bonus:** +39 (+43 grapple)
-
-**Combat maneuver defense:** 49 (61 vs. trip)
-
-**Skills:** Climb +17, Perception +4, Stealth -12
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm deserts
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

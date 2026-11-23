@@ -28,76 +28,60 @@ abilities = ["35", "18", "24", "2", "11", "5"]
 _This massive cat-like creature has the lithe grace of a feline despite a shell-like armor of
 segmented plates._
 
-**Challenge rating:** 13
+::: statblock
+Challenge rating: 13
+Type: animal
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Experience points: 25,600
+:::
 
-**Type:** animal
+### Defense
 
-**Size:** huge
+::: statblock
+Armor class: 28
+Touch: 12
+Flat-footed: 24
+AC modifiers: +4 Dex, +16 natural, -2 size
+Hit points: 184 (16d8+112)
+Fort: +17
+Ref: +14
+Will: +7
+:::
 
-**Initiative:** +4
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., climb 20 ft.
+Melee: bite +22 (2d6+12 plus [grab](ref/umr/grab)), 2 claw +22 (1d8+12/19-20 plus rend)
+Pounce: present
+Reach: 15
+Rend: 2 claws, 1d8+18
+Space: 15
+Trample: 2d8, DC 30
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 35, Dex 18, Con 24, Int 2, Wis 11, Cha 5
+Base attack bonus: +12
+Combat maneuver bonus: +26
+Combat maneuver defense: 40
+Feats: Acrobatic, Cleave, Diehard, Endurance, Improved Critical (claw), Iron Will, Power Attack, Run
+Skills: Acrobatics +11, Climb +25
+:::
 
-**Experience points:** 25,600
+### Ecology
 
-**Armor class:** 28
-
-**Touch:** 12
-
-**Flat-footed:** 24
-
-**AC modifiers:** +4 Dex, +16 natural, -2 size
-
-**Hit points:** 184 (16d8+112)
-
-**Fort:** +17
-
-**Ref:** +14
-
-**Will:** +7
-
-**Offense**
-
-**Speed:** 50 ft., climb 20 ft.
-
-**Melee:** bite +22 (2d6+12 plus [grab](ref/umr/grab)), 2 claw +22 (1d8+12/19-20 plus rend)
-
-**Pounce:** present
-
-**Reach:** 15
-
-**Rend:** 2 claws, 1d8+18
-
-**Space:** 15
-
-**Trample:** 2d8, DC 30
-
-**Statistics**
-
-**Ability scores:** Str 35, Dex 18, Con 24, Int 2, Wis 11, Cha 5
-
-**Base attack bonus:** +12
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 40
-
-**Feats:** Acrobatic, Cleave, Diehard, Endurance, Improved Critical (claw), Iron Will, Power Attack,
-Run
-
-**Skills:** Acrobatics +11, Climb +25
-
-**Ecology**
-
-**Environment:** cold hills or mountains
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: cold hills or mountains
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 

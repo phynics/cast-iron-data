@@ -32,97 +32,73 @@ abilities = ["-", "16", "-", "6", "14", "15"]
 _This ghostly, emaciated figure's mouth hangs agape in an endless howl, and its abnormally long arms
 almost touch the ground._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Initiative: +7
+Size: medium
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Incorporeal
+Type: undead
+Experience points: 1,600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +7
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 12
+AC modifiers: +2 deflection, +3 Dex, +1 dodge
+Hit points: 52 (8d8+16)
+Fort: +4
+Ref: +5
+Will: +8
+Chan Res: +2
+Immune: [undead traits](ref/umr/undead-traits)
+Incorporeal: present
+Weaknesses: susceptible to addicts
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +16
+::: statblock
+Speed: fly 30 ft. (perfect)
+Melee: 2 incorporeal touches +9 (2d6 plus addiction)
+Reach: 5
+Reach P: 10 ft. vs. addicts
+Space: 5
+Spec Att: tormented howl
+:::
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +7
+Per day: 1/day: ray of exhaustion (DC 15), touch of idiocy
+:::
 
-**Subtype:** Incorporeal
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str -, Dex 16, Con -, Int 6, Wis 14, Cha 15
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 22
+Feats: Combat Reflexes, Dodge, Improved Initiative, Skill Focus (Perception)
+Skills: Fly +22, Perception +16
+Languages: Common
+Special qualities: associated drug (opium), hungering reach, voracious frenzy
+:::
 
-**Experience points:** 1,600
+### Ecology
 
-**Armor class:** 16
-
-**Touch:** 16
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 deflection, +3 Dex, +1 dodge
-
-**Hit points:** 52 (8d8+16)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +8
-
-**Chan Res:** +2
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Incorporeal:** present
-
-**Weaknesses:** susceptible to addicts
-
-**Offense**
-
-**Speed:** fly 30 ft. (perfect)
-
-**Melee:** 2 incorporeal touches +9 (2d6 plus addiction)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. vs. addicts
-
-**Space:** 5
-
-**Spec Att:** tormented howl
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +7
-
-**Per day:**
-
-- 1/day: ray of exhaustion (DC 15), touch of idiocy
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 16, Con -, Int 6, Wis 14, Cha 15
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Reflexes, Dodge, Improved Initiative, Skill Focus (Perception)
-
-**Skills:** Fly +22, Perception +16
-
-**Languages:** Common
-
-**Special qualities:** associated drug (opium), hungering reach, voracious frenzy
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or gang (3-8)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

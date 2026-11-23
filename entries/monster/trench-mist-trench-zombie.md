@@ -29,85 +29,61 @@ special_qualities = "symbiote"
 abilities = ["17", "18", "-", "10", "12", "8"]
 +++
 
-**Challenge rating:** 6
-
 **Human [fighter](ref/class/fighter) ([trench fighter](ref/arc-fighter/trench-fighter)) 6**
 
-**Initiative:** +8
+::: statblock
+Challenge rating: 6
+Initiative: +8
+Alignment: Lawful evil
+Size: medium
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Augmented humanoid, Human
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Lawful evil
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 15
+Flat-footed: 13
+AC modifiers: +4 Dex, +1 dodge, +3 natural
+Hit points: 43 (6d10+6)
+Fort: +4
+Ref: +6
+Will: +3 (+2 vs. fear)
+Defensive abilities: bravery +2
+Dr: 5/magic and slashing
+Immune: acid, cold, electricity, [undead traits](ref/umr/undead-traits)
+Resist: fire 10
+:::
 
-**Perception:** +7
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Melee: socket bayonet +9/+4 (1d6+3) or slam +9 (1d6+4)
+Ranged: Mosin-Nagant M1891 rifle +12/+7 (1d10+6/×4) or M1914 concussion grenade +10 (3d6)
+Spec Att: trench warfare (rifle), weapon training (firearms +1)
+:::
 
-**Subtype:** Augmented humanoid, Human
+### Statistics
 
-**Type:** undead
-
-**Experience points:** 2,400
-
-**Armor class:** 18
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +1 dodge, +3 natural
-
-**Hit points:** 43 (6d10+6)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +3 (+2 vs. fear)
-
-**Defensive abilities:** bravery +2
-
-**Dr:** 5/magic and slashing
-
-**Immune:** acid, cold, electricity, [undead traits](ref/umr/undead-traits)
-
-**Resist:** fire 10
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** socket bayonet +9/+4 (1d6+3) or slam +9 (1d6+4)
-
-**Ranged:** Mosin-Nagant M1891 rifle +12/+7 (1d10+6/×4) or M1914 concussion grenade +10 (3d6)
-
-**Spec Att:** trench warfare (rifle), weapon training (firearms +1)
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 18, Con -, Int 10, Wis 12, Cha 8
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 24
-
-**Feats:** Deadly Aim, Dodge, Improved Initiative, Point-Blank Shot, Precise Shot, Rapid Shot,
-Toughness, Weapon Focus (rifle), Weapon Specialization (rifle)
-
-**Skills:** Climb +15, Stealth +10, Survival +5
-
-**Racial Modifiers:** +8 Climb
-
-**Languages:** Russian
-
-**Special qualities:** symbiote
-
-**Combat gear:** 2 [M1914 concussion grenades](ref/eq-weapon/m1914-concussion-grenade)
-
-**Other gear:** [Mosin-Nagant M1891 rifle](ref/eq-weapon/mosin-nagant-m1891-rifle) with 20 metal
-cartridges, socket [bayonet](ref/eq-weapon/bayonet), gas mask
+::: statblock
+Ability scores: Str 17, Dex 18, Con -, Int 10, Wis 12, Cha 8
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 24
+Feats: Deadly Aim, Dodge, Improved Initiative, Point-Blank Shot, Precise Shot, Rapid Shot, Toughness, Weapon Focus (rifle), Weapon Specialization (rifle)
+Skills: Climb +15, Stealth +10, Survival +5
+Racial Modifiers: +8 Climb
+Languages: Russian
+Special qualities: symbiote
+Combat gear: 2 [M1914 concussion grenades](ref/eq-weapon/m1914-concussion-grenade)
+Other gear: [Mosin-Nagant M1891 rifle](ref/eq-weapon/mosin-nagant-m1891-rifle) with 20 metal cartridges, socket [bayonet](ref/eq-weapon/bayonet), gas mask
+:::
 
 ### Special Abilities
 

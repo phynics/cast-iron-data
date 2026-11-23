@@ -28,92 +28,70 @@ abilities = ["20", "13", "17", "15", "14", "14"]
 
 _A jackal's head draped in a tattered headdress extends from a winged, leonine body._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +1
+Size: large
+Type: Magical beast
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 2,400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 20
+Touch: 10
+Flat-footed: 19
+AC modifiers: +1 Dex, +10 natural, -1 size
+Hit points: 76 (9d10+27)
+Fort: +9
+Ref: +7
+Will: +5
+Immune: disease
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., fly 60 ft. (poor)
+Melee: bite +13 (1d8+7 plus disease and trip), 2 claws +13 (1d6+5)
+Pounce: present
+Reach: 5
+Space: 10
+Spec Att: devour secret lore, disease, powerful bite, trip
+:::
 
-**Perception:** +8
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+At will: speak with dead (DC 15)
+Per day: 3/day: detect thoughts (DC 14)\
+1/day: animate dead, seek thoughts (DC 15)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 20, Dex 13, Con 17, Int 15, Wis 14, Cha 14
+Base attack bonus: +9
+Combat maneuver bonus: +15 (+17 trip)
+Combat maneuver defense: 26 (32 vs. trip)
+Feats: Cleave, Combat Expertise, Flyby Attack, Improved Trip, Power Attack
+Skills: Fly +4, Intimidate +8, Knowledge (any one) +11, Perception +8
+Languages: Common, Draconic, Sphinx
+:::
 
-**Armor class:** 20
+### Ecology {#stat-ecology}
 
-**Touch:** 10
-
-**Flat-footed:** 19
-
-**AC modifiers:** +1 Dex, +10 natural, -1 size
-
-**Hit points:** 76 (9d10+27)
-
-**Fort:** +9
-
-**Ref:** +7
-
-**Will:** +5
-
-**Immune:** disease
-
-**Offense**
-
-**Speed:** 30 ft., fly 60 ft. (poor)
-
-**Melee:** bite +13 (1d8+7 plus disease and trip), 2 claws +13 (1d6+5)
-
-**Pounce:** present
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** devour secret lore, disease, powerful bite, trip
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**At will:**
-
-- speak with dead (DC 15)
-
-**Per day:**
-
-- 3/day: detect thoughts (DC 14)
-- 1/day: animate dead, seek thoughts (DC 15)
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 13, Con 17, Int 15, Wis 14, Cha 14
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +15 (+17 trip)
-
-**Combat maneuver defense:** 26 (32 vs. trip)
-
-**Feats:** Cleave, Combat Expertise, Flyby Attack, Improved Trip, Power Attack
-
-**Skills:** Fly +4, Intimidate +8, Knowledge (any one) +11, Perception +8
-
-**Languages:** Common, Draconic, Sphinx
-
-**Ecology**
-
-**Environment:** warm deserts and hills
-
-**Organization:** solitary
-
-**Treasure:** Standard
+::: statblock
+Environment: warm deserts and hills
+Organization: solitary
+Treasure: Standard
+:::
 
 ### Special Abilities
 

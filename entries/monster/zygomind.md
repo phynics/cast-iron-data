@@ -30,102 +30,75 @@ abilities = ["31", "25", "20", "-", "24", "35"]
 
 _This enormous fungus looks like a cage, and a strange glow emanates from within._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+aura: fascinating aura (300 ft., DC 36, 10 rounds), [stench](ref/umr/stench) (100 ft., DC 29, 2d4 rounds)
+blindsight: 100
+Size: colossal
+Initiative: +7
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision
+Type: plant
+Experience points: 153,600
+:::
 
-**aura:** fascinating aura (300 ft., DC 36, 10 rounds), [stench](ref/umr/stench) (100 ft., DC 29,
-2d4 rounds)
+### Defense
 
-**blindsight:** 100
+::: statblock
+Armor class: 24
+Touch: 9
+Flat-footed: 17
+AC modifiers: +7 Dex, +15 natural, -8 size
+Hit points: 266 (28d8+140)
+Fort: +21
+Ref: +16
+Will: +16
+Defensive abilities: all-around vision
+Dr: 20/magic and slashing
+Fh: 20
+Immune: [plant traits](ref/umr/plant-traits)
+Sr: 29
+:::
 
-**Size:** colossal
+### Offense
 
-**Initiative:** +7
+::: statblock
+Speed: 5 ft., climb 5 ft.
+Constrict: 2d8+10
+Entrap: DC 29 plus soporific spores, 1d10 rounds, [hardness](ref/umr/hardness) 5, hp 10
+Melee: 4 tentacles +23 (2d8+10 plus [grab](ref/umr/grab) and soporific spores)
+Reach: 30
+Reach P: 50 ft. with tentacles
+Space: 30
+Spec Att: create undead, seamless reality, soporific spores
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 18
+Concentration: +30
+At will: greater create mindscape
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 31, Dex 25, Con 20, Int -, Wis 24, Cha 35
+Base attack bonus: +21
+Combat maneuver bonus: +39 (+43 grapple)
+Combat maneuver defense: 56 (can't be tripped)
+Skills: Climb +18
+Special qualities: spore explosion
+:::
 
-**Type:** plant
+### Ecology
 
-**Experience points:** 153,600
-
-**Armor class:** 24
-
-**Touch:** 9
-
-**Flat-footed:** 17
-
-**AC modifiers:** +7 Dex, +15 natural, -8 size
-
-**Hit points:** 266 (28d8+140)
-
-**Fort:** +21
-
-**Ref:** +16
-
-**Will:** +16
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 20/magic and slashing
-
-**Fh:** 20
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 5 ft., climb 5 ft.
-
-**Constrict:** 2d8+10
-
-**Entrap:** DC 29 plus soporific spores, 1d10 rounds, [hardness](ref/umr/hardness) 5, hp 10
-
-**Melee:** 4 tentacles +23 (2d8+10 plus [grab](ref/umr/grab) and soporific spores)
-
-**Reach:** 30
-
-**Reach P:** 50 ft. with tentacles
-
-**Space:** 30
-
-**Spec Att:** create undead, seamless reality, soporific spores
-
-**Spell-Like Abilities**
-
-**Caster level:** 18
-
-**Concentration:** +30
-
-**At will:**
-
-- greater create mindscape
-
-**Statistics**
-
-**Ability scores:** Str 31, Dex 25, Con 20, Int -, Wis 24, Cha 35
-
-**Base attack bonus:** +21
-
-**Combat maneuver bonus:** +39 (+43 grapple)
-
-**Combat maneuver defense:** 56 (can't be tripped)
-
-**Skills:** Climb +18
-
-**Special qualities:** spore explosion
-
-**Ecology**
-
-**Environment:** any temperate
-
-**Organization:** solitary
-
-**Treasure:** Other (none or incidental)
+::: statblock
+Environment: any temperate
+Organization: solitary
+Treasure: Other (none or incidental)
+:::
 
 ### Special Abilities
 

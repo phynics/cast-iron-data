@@ -30,79 +30,61 @@ abilities = ["26", "19", "22", "9", "15", "14"]
 _This ophidian dragon's scales and frills form a brightly colored pattern, backlit like stained
 glass by the creature's inner glow._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: dragon
+Initiative: +8
+Size: large
+Alignment: Neutral
+Perception: +19
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** dragon
+### Defense
 
-**Initiative:** +8
+::: statblock
+Armor class: 27
+Touch: 17
+Flat-footed: 23
+AC modifiers: +4 Dex, +10 natural, -1 size
+Hit points: 175 (14d12+84)
+Fort: +15
+Ref: +13
+Will: +11
+Immune: paralysis, sleep
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 50 ft., fly 60 ft. (good)
+Br Weap: 40-ft. line, sedative, Fort DC 23, usable every 1d4 rounds
+Melee: 2 frills +21 (2d6+8), gore +21 (1d8+8), bite +21 (2d6+8 plus sedative), tail slap +19 (1d8+4)
+Reach: 10
+Space: 10
+Spec Att: prismatic pattern
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 26, Dex 19, Con 22, Int 9, Wis 15, Cha 14
+Base attack bonus: +14
+Combat maneuver bonus: +23
+Combat maneuver defense: 37 (can't be tripped)
+Feats: Combat Reflexes, Flyby Attack, Hover, Improved Initiative, Multiattack, Power Attack, Wingover
+Skills: Fly +19, Intimidate +15, Perception +19
+Languages: Draconic
+:::
 
-**Experience points:** 19,200
+### Ecology
 
-**Armor class:** 27
-
-**Touch:** 17
-
-**Flat-footed:** 23
-
-**AC modifiers:** +4 Dex, +10 natural, -1 size
-
-**Hit points:** 175 (14d12+84)
-
-**Fort:** +15
-
-**Ref:** +13
-
-**Will:** +11
-
-**Immune:** paralysis, sleep
-
-**Offense**
-
-**Speed:** 50 ft., fly 60 ft. (good)
-
-**Br Weap:** 40-ft. line, sedative, Fort DC 23, usable every 1d4 rounds
-
-**Melee:** 2 frills +21 (2d6+8), gore +21 (1d8+8), bite +21 (2d6+8 plus sedative), tail slap +19
-(1d8+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** prismatic pattern
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 19, Con 22, Int 9, Wis 15, Cha 14
-
-**Base attack bonus:** +14
-
-**Combat maneuver bonus:** +23
-
-**Combat maneuver defense:** 37 (can't be tripped)
-
-**Feats:** Combat Reflexes, Flyby Attack, Hover, Improved Initiative, Multiattack, Power Attack,
-Wingover
-
-**Skills:** Fly +19, Intimidate +15, Perception +19
-
-**Languages:** Draconic
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, den (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any land
+Organization: solitary, pair, den (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

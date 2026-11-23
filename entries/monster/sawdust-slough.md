@@ -30,83 +30,64 @@ abilities = ["18", "8", "21", "-", "1", "1"]
 _A cloud of fine dust particles hangs in the air around this seething mass of sawdust and wood
 shavings._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+aura: choking chaff (5 ft., DC 18)
+Initiative: -1
+Size: large
+Alignment: Neutral
+Perception: -5
+Senses: Low-light vision
+Type: plant
+tremorsense: 60
+Experience points: 1,200
+:::
 
-**aura:** choking chaff (5 ft., DC 18)
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 12
+Touch: 8
+Flat-footed: 12
+AC modifiers: -1 Dex, +4 natural, -1 size
+Hit points: 57 (6d8+30)
+Fort: +10
+Ref: +1
+Will: -3
+Amorph: present
+Dr: 5/-
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft.
+Engulf: DC 17, 1d6+6 bludgeoning plus choking chaff
+Melee: slam +7 (1d6+6)
+Reach: 5
+Space: 10
+:::
 
-**Perception:** -5
+### Statistics
 
-**Senses:** Low-light vision
+::: statblock
+Ability scores: Str 18, Dex 8, Con 21, Int -, Wis 1, Cha 1
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 18 (can't be tripped)
+Skills: Climb +12
+Special qualities: flammable
+:::
 
-**Type:** plant
+### Ecology
 
-**tremorsense:** 60
-
-**Experience points:** 1,200
-
-**Armor class:** 12
-
-**Touch:** 8
-
-**Flat-footed:** 12
-
-**AC modifiers:** -1 Dex, +4 natural, -1 size
-
-**Hit points:** 57 (6d8+30)
-
-**Fort:** +10
-
-**Ref:** +1
-
-**Will:** -3
-
-**Amorph:** present
-
-**Dr:** 5/-
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft.
-
-**Engulf:** DC 17, 1d6+6 bludgeoning plus choking chaff
-
-**Melee:** slam +7 (1d6+6)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 8, Con 21, Int -, Wis 1, Cha 1
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 18 (can't be tripped)
-
-**Skills:** Climb +12
-
-**Special qualities:** flammable
-
-**Ecology**
-
-**Environment:** temperate forest
-
-**Organization:** solitary, pair, or cascade (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: temperate forest
+Organization: solitary, pair, or cascade (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

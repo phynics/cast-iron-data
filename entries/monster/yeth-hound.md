@@ -30,73 +30,59 @@ abilities = ["17", "15", "15", "6", "14", "10"]
 
 _This emaciated, hairless canine has a strange air of menace and cruelty about it._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Scent
+Subtype: Evil, Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 30 (4d10+8)
+Fort: +3
+Ref: +6
+Will: +6
+Dr: 5/silver
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 40 ft., fly 60 ft. (good)
+Melee: bite +7 (2d6+4 plus sinister bite and trip)
+Spec Att: bay
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Ability scores: Str 17, Dex 15, Con 15, Int 6, Wis 14, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Improved Initiative, Skill Focus (Fly)
+Skills: Fly +16, Perception +9
+Languages: Abyssal or Infernal (can't speak)
+:::
 
-**Subtype:** Evil, Extraplanar
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +3
-
-**Ref:** +6
-
-**Will:** +6
-
-**Dr:** 5/silver
-
-**Offense**
-
-**Speed:** 40 ft., fly 60 ft. (good)
-
-**Melee:** bite +7 (2d6+4 plus sinister bite and trip)
-
-**Spec Att:** bay
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 15, Int 6, Wis 14, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Fly)
-
-**Skills:** Fly +16, Perception +9
-
-**Languages:** Abyssal or Infernal (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, or pack (6-11)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any
+Organization: solitary, pair, or pack (6-11)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

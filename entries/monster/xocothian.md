@@ -31,97 +31,72 @@ abilities = ["15", "12", "11", "10", "11", "10"]
 _This serpentine mix of flying fish and great seabird rolls and twists like waves in an ocean
 storm._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Initiative: +1
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Air, Extraplanar, Water
+Experience points: 1,200
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 17
+Touch: 10
+Flat-footed: 16
+AC modifiers: +1 Dex, +7 natural, -1 size
+Hit points: 33 (6d10)
+Fort: +5
+Ref: +5
+Will: +5
+Dr: 5/cold iron
+Sr: 15
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 30 ft., swim 90 ft., fly 90 ft. (average)
+Melee: bite +7 (1d8+2), 2 wings +2 (1d6+1)
+Reach: 5
+Sp Extra: speed burst 200 ft.
+Space: 10
+:::
 
-**Perception:** +9
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 6
+Concentration: +6
+At will: alter winds, know direction, shocking grasp
+Per day: 3/day: chill metal (DC 13), cure light wounds, faerie fire, obscuring mist\
+1/day: dimension door, self plus 50 lbs. of objects only, hydraulic torrent (DC 13)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Air, Extraplanar, Water
+::: statblock
+Ability scores: Str 15, Dex 12, Con 11, Int 10, Wis 11, Cha 10
+Base attack bonus: +6
+Combat maneuver bonus: +9
+Combat maneuver defense: 20 (can't be tripped)
+Feats: Combat Reflexes, Lightning Reflexes, Power Attack
+Skills: Fly +8
+Languages: Druidic, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
+Special qualities: form of sea and sky
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +7 natural, -1 size
-
-**Hit points:** 33 (6d10)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +5
-
-**Dr:** 5/cold iron
-
-**Sr:** 15
-
-**Offense**
-
-**Speed:** 30 ft., swim 90 ft., fly 90 ft. (average)
-
-**Melee:** bite +7 (1d8+2), 2 wings +2 (1d6+1)
-
-**Reach:** 5
-
-**Sp Extra:** speed burst 200 ft.
-
-**Space:** 10
-
-**Spell-Like Abilities**
-
-**Caster level:** 6
-
-**Concentration:** +6
-
-**At will:**
-
-- alter winds, know direction, shocking grasp
-
-**Per day:**
-
-- 3/day: chill metal (DC 13), cure light wounds, faerie fire, obscuring mist
-- 1/day: dimension door, self plus 50 lbs. of objects only, hydraulic torrent (DC 13)
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 12, Con 11, Int 10, Wis 11, Cha 10
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20 (can't be tripped)
-
-**Feats:** Combat Reflexes, Lightning Reflexes, Power Attack
-
-**Skills:** Fly +8
-
-**Languages:** Druidic, Sylvan; _[speak with animals](ref/spell/speak-with-animals)_
-
-**Special qualities:** form of sea and sky
-
-**Ecology**
-
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air) or
-[Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pair, or school (3-5)
-
-**Treasure:** Standard
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air) or [Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pair, or school (3-5)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

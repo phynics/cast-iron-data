@@ -28,67 +28,56 @@ abilities = ["17", "19", "19", "2", "16", "10"]
 
 _A chilling chorus of howls echoes through the air as a massive, white-furred wolf emerges._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +4
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 18
+Touch: 14
+Flat-footed: 14
+AC modifiers: +4 Dex, +4 natural
+Hit points: 17 (2d8+8)
+Fort: +7
+Ref: +7
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +4 (1d6+4 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 19, Con 19, Int 2, Wis 16, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +4
+Combat maneuver defense: 18 (22 vs. trip)
+Feats: Skill Focus (Perception)
+Skills: Perception +10, Stealth +8
+Racial Modifiers: +4 Survival when tracking by scent
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 18
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +4 Dex, +4 natural
-
-**Hit points:** 17 (2d8+8)
-
-**Fort:** +7
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +4 (1d6+4 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 19, Con 19, Int 2, Wis 16, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 18 (22 vs. trip)
-
-**Feats:** Skill Focus (Perception)
-
-**Skills:** Perception +10, Stealth +8
-
-**Racial Modifiers:** +4 Survival when tracking by scent
-
-**Ecology**
-
-**Environment:** cold forest or mountains
-
-**Organization:** solitary, pair, or pack (3-20)
-
-**Treasure:** None
+::: statblock
+Environment: cold forest or mountains
+Organization: solitary, pair, or pack (3-20)
+Treasure: None
+:::
 
 ### Description
 

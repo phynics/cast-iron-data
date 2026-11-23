@@ -31,88 +31,66 @@ abilities = ["29", "8", "21", "12", "16", "13"]
 _This animated tree's bark is knotted into vaguely humanoid features, with branches for arms and
 roots for legs._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+Size: huge
+Initiative: -1
+Alignment: Neutral good
+Perception: +12
+Senses: Low-light vision
+Type: plant
+Experience points: 4,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** -1
+::: statblock
+Armor class: 21
+Touch: 7
+Flat-footed: 21
+AC modifiers: -1 Dex, +14 natural, -2 size
+Hit points: 114 (12d8+60)
+Fort: +13
+Ref: +3
+Will: +9
+Dr: 10/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral good
+### Offense
 
-**Perception:** +12
+::: statblock
+Speed: 30 ft.
+Melee: 2 slams +17 (2d6+9/19-20)
+Ranged: rock +7 (2d6+13)
+Reach: 15
+Rock Th: 180 ft.
+Space: 15
+Trample: 2d6+13, DC 25
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 29, Dex 8, Con 21, Int 12, Wis 16, Cha 13
+Base attack bonus: +9
+Combat maneuver bonus: +20
+Combat maneuver defense: 29
+Feats: Alertness, Improved Critical (slam), Improved Sunder, Iron Will, Power Attack, Weapon Focus (slam)
+Skills: Diplomacy +9, Sense Motive +9, Stealth -9 (+7 in forests)
+Racial Modifiers: +16 Stealth in forests
+Languages: Common, Sylvan, Treant
+Special qualities: animate trees, double damage against objects, treespeech
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 7
-
-**Flat-footed:** 21
-
-**AC modifiers:** -1 Dex, +14 natural, -2 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +13
-
-**Ref:** +3
-
-**Will:** +9
-
-**Dr:** 10/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** 2 slams +17 (2d6+9/19-20)
-
-**Ranged:** rock +7 (2d6+13)
-
-**Reach:** 15
-
-**Rock Th:** 180 ft.
-
-**Space:** 15
-
-**Trample:** 2d6+13, DC 25
-
-**Statistics**
-
-**Ability scores:** Str 29, Dex 8, Con 21, Int 12, Wis 16, Cha 13
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +20
-
-**Combat maneuver defense:** 29
-
-**Feats:** Alertness, Improved Critical (slam), Improved Sunder, Iron Will, Power Attack, Weapon
-Focus (slam)
-
-**Skills:** Diplomacy +9, Sense Motive +9, Stealth -9 (+7 in forests)
-
-**Racial Modifiers:** +16 Stealth in forests
-
-**Languages:** Common, Sylvan, Treant
-
-**Special qualities:** animate trees, double damage against objects, treespeech
-
-**Ecology**
-
-**Environment:** any forest
-
-**Organization:** solitary or grove (2-7)
-
-**Treasure:** Standard
+::: statblock
+Environment: any forest
+Organization: solitary or grove (2-7)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

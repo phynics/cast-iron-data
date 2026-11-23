@@ -30,77 +30,61 @@ abilities = ["41", "13", "22", "-", "10", "2"]
 _This massive brown-and-green tarantula is the size of a large house and has huge, razor-sharp
 fangs._
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: colossal
+Initiative: +1
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 12,800
+:::
 
-**Size:** colossal
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 25
+Touch: 3
+Flat-footed: 24
+AC modifiers: +1 Dex, +22 natural, -8 size
+Hit points: 147 (14d8+84)
+Fort: +15
+Ref: +5
+Will: +4
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 40 ft., climb 20 ft.
+Melee: bite +17 (6d8+22 plus poison)
+Reach: 30
+Space: 30
+Spec Att: poison, poisoned web (+13 ranged, DC 23, 14 hp)
+Trample: 4d8+22, DC 32
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 41, Dex 13, Con 22, Int -, Wis 10, Cha 2
+Base attack bonus: +10
+Combat maneuver bonus: +33
+Combat maneuver defense: 44 (56 vs. trip)
+Skills: Climb +23, Perception +4, Stealth -7 (+1 in forests)
+Racial Modifiers: +8 Climb, +4 Perception, +8 Stealth (+16 in forests)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 3
-
-**Flat-footed:** 24
-
-**AC modifiers:** +1 Dex, +22 natural, -8 size
-
-**Hit points:** 147 (14d8+84)
-
-**Fort:** +15
-
-**Ref:** +5
-
-**Will:** +4
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 20 ft.
-
-**Melee:** bite +17 (6d8+22 plus poison)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** poison, poisoned web (+13 ranged, DC 23, 14 hp)
-
-**Trample:** 4d8+22, DC 32
-
-**Statistics**
-
-**Ability scores:** Str 41, Dex 13, Con 22, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +33
-
-**Combat maneuver defense:** 44 (56 vs. trip)
-
-**Skills:** Climb +23, Perception +4, Stealth -7 (+1 in forests)
-
-**Racial Modifiers:** +8 Climb, +4 Perception, +8 Stealth (+16 in forests)
-
-**Ecology**
-
-**Environment:** any forests or swamps
-
-**Organization:** solitary, pair, or colony (3-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any forests or swamps
+Organization: solitary, pair, or colony (3-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

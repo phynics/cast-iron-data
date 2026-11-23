@@ -33,90 +33,69 @@ abilities = ["18", "17", "16", "17", "12", "7"]
 _This scaly humanoid has a long, fish-like tail. Its arms and legs end in webbed claws, and its
 piscine head features a toothy maw._
 
-**Challenge rating:** 3
-
 **Sahuagin [rogue](ref/class/rogue) 2**
 
-**blindsense:** 30
+::: statblock
+Challenge rating: 3
+blindsense: 30
+Initiative: +3
+Alignment: Lawful evil
+Size: medium
+Type: Monstrous humanoid
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Aquatic
+Experience points: 800
+:::
 
-**Initiative:** +3
+### Defense
 
-**Alignment:** Lawful evil
+::: statblock
+Armor class: 18
+Touch: 13
+Flat-footed: 15
+AC modifiers: +3 Dex, +5 natural
+Hit points: 34 (2d10+2d8+14\~4)
+Fort: +3
+Ref: +9
+Will: +4
+Evasion: present
+Weaknesses: [light blindness](ref/umr/light-blindness)
+:::
 
-**Size:** medium
+### Offense
 
-**Type:** Monstrous humanoid
-
-**Perception:** +8
-
-**Senses:** Darkvision 60 ft.
-
-**Subtype:** Aquatic
-
-**Experience points:** 800
-
-**Armor class:** 18
-
-**Touch:** 13
-
-**Flat-footed:** 15
-
-**AC modifiers:** +3 Dex, +5 natural
-
-**Hit points:** 34 (2d10+2d8+14\~4)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +4
-
-**Evasion:** present
-
-**Weaknesses:** [light blindness](ref/umr/light-blindness)
-
-**Offense**
-
-**Speed:** 30 ft., swim 60 ft.
-
-**Melee:** mwk trident +8 (1d8+6), bite +2 (1d4+2) or 2 claws +7 (1d4+4), bite +7 (1d4+4)
-
-**Ranged:** mwk underwater heavy crossbow +7 (1d10/19-20)
-
-**Spec Att:** [blood frenzy](ref/monster/sahuagin), [sneak attack](ref/ability/sneak-attack) +1d6
+::: statblock
+Speed: 30 ft., swim 60 ft.
+Melee: mwk trident +8 (1d8+6), bite +2 (1d4+2) or 2 claws +7 (1d4+4), bite +7 (1d4+4)
+Ranged: mwk underwater heavy crossbow +7 (1d10/19-20)
+Spec Att: [blood frenzy](ref/monster/sahuagin), [sneak attack](ref/ability/sneak-attack) +1d6
+:::
 
 ### Tactics
 
 **During Combat** The scout shoots the appropriate bane bolts before closing to melee.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 18, Dex 17, Con 16, Int 17, Wis 12, Cha 7
+::: statblock
+Ability scores: Str 18, Dex 17, Con 16, Int 17, Wis 12, Cha 7
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Combat Expertise, Rapid Reload (heavy crossbow)
+Skills: Acrobatics +10, Climb +11, Disable Device +12, Escape Artist +10, Knowledge (geography) +7, Perception +8, Ride +7
+Languages: Aquan, Common, Elven; speak with sharks
+Special qualities: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1), [trapfinding](ref/ability/trapfinding) +1
+Combat gear: 3 +1 BANE-elf bolts, 3 +1 BANE-human bolts, 3 +1 BANE-merfolk bolts, potion of cure moderate wounds
+Other gear: mwk trident, mwk uhc20, I-feather token (anchor), dagger, thieves' tools, 53 gp
+:::
 
-**Base attack bonus:** +3
+### Ecology
 
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Combat Expertise, Rapid Reload (heavy crossbow)
-
-**Skills:** Acrobatics +10, Climb +11, Disable Device +12, Escape Artist +10, Knowledge (geography)
-+7, Perception +8, Ride +7
-
-**Languages:** Aquan, Common, Elven; speak with sharks
-
-**Special qualities:** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +1),
-[trapfinding](ref/ability/trapfinding) +1
-
-**Combat gear:** 3 +1 BANE-elf bolts, 3 +1 BANE-human bolts, 3 +1 BANE-merfolk bolts, potion of cure
-moderate wounds
-
-**Other gear:** mwk trident, mwk uhc20, I-feather token (anchor), dagger, thieves' tools, 53 gp
-
-**Ecology**
-
-**Environment:** temperate or warm ocean
+::: statblock
+Environment: temperate or warm ocean
+:::
 
 ### Description
 

@@ -33,90 +33,68 @@ abilities = ["15", "21", "14", "10", "10", "13"]
 _With jet-black skin and a small but menacing pair of horns, this goateed, impish creature wields a
 bloody knife and a wicked grin._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Alignment: Chaotic evil
+Type: fey
+Initiative: +5
+Perception: +7
+Senses: Low-light vision
+Size: small
+Experience points: 800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** fey
+::: statblock
+Armor class: 16
+Touch: 16
+Flat-footed: 11
+AC modifiers: +5 Dex, +1 size
+Hit points: 26 (4d6+12)
+Fort: +3
+Ref: +9
+Will: +4
+:::
 
-**Initiative:** +5
+### Offense
 
-**Perception:** +7
+::: statblock
+Speed: 40 ft.
+Br Weap: 15-ft. cone, 2d6 fire damage, Reflex DC 14 half, usable every 2d4 rounds
+Melee: mwk dagger +9 (1d3+2/19-20)
+Sneak: +1d6
+Spec Att: frightening gaze, vault
+:::
 
-**Senses:** Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 4
+Concentration: +5
+Constant: feather fall, pass without trace
+Per day: 1/day: passwall
+:::
 
-**Size:** small
+### Statistics
 
-**Experience points:** 800
+::: statblock
+Ability scores: Str 15, Dex 21, Con 14, Int 10, Wis 10, Cha 13
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 18
+Feats: Toughness, Weapon Finesse
+Skills: Acrobatics +12 (+16 when jumping), Bluff +6, Climb +9, Escape Artist +12, Perception +7, Sleight of Hand +10, Stealth +16
+Racial Modifiers: +4 Acrobatics when jumping
+Languages: Common, Sylvan
+:::
 
-**Armor class:** 16
+### Ecology
 
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +5 Dex, +1 size
-
-**Hit points:** 26 (4d6+12)
-
-**Fort:** +3
-
-**Ref:** +9
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Br Weap:** 15-ft. cone, 2d6 fire damage, Reflex DC 14 half, usable every 2d4 rounds
-
-**Melee:** mwk dagger +9 (1d3+2/19-20)
-
-**Sneak:** +1d6
-
-**Spec Att:** frightening gaze, vault
-
-**Spell-Like Abilities**
-
-**Caster level:** 4
-
-**Concentration:** +5
-
-**Constant:**
-
-- feather fall, pass without trace
-
-**Per day:**
-
-- 1/day: passwall
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 21, Con 14, Int 10, Wis 10, Cha 13
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 18
-
-**Feats:** Toughness, Weapon Finesse
-
-**Skills:** Acrobatics +12 (+16 when jumping), Bluff +6, Climb +9, Escape Artist +12, Perception +7,
-Sleight of Hand +10, Stealth +16
-
-**Racial Modifiers:** +4 Acrobatics when jumping
-
-**Languages:** Common, Sylvan
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary
-
-**Treasure:** Double (mwk dagger); other treasure
+::: statblock
+Environment: any land
+Organization: solitary
+Treasure: Double (mwk dagger); other treasure
+:::
 
 ### Special Abilities
 

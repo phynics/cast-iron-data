@@ -31,73 +31,59 @@ abilities = ["17", "16", "13", "2", "12", "9"]
 _Snarling and ferocious, this horse-sized skunk emits a frightening growl as it smashes through the
 undergrowth._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Type: animal
+Initiative: +3
+Size: large
+Alignment: Neutral
+Perception: +7
+Senses: Low-light vision, Scent
+Experience points: 800
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 12
+AC modifiers: +3 Dex, +3 natural, -1 size
+Hit points: 32 (5d8+10)
+Fort: +5
+Ref: +7
+Will: +2
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: bite +5 (1d8+3), 2 claws +5 (1d6+3)
+Ranged: spray +5 touch (musk)
+Reach: 5
+Space: 10
+Spec Att: musk
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 16, Con 13, Int 2, Wis 12, Cha 9
+Base attack bonus: +3
+Combat maneuver bonus: +7
+Combat maneuver defense: 20
+Feats: Ability Focus (musk), Power Attack, Toughness
+Skills: Climb +7, Perception +7
+:::
 
-**Experience points:** 800
+### Ecology
 
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +3 Dex, +3 natural, -1 size
-
-**Hit points:** 32 (5d8+10)
-
-**Fort:** +5
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +5 (1d8+3), 2 claws +5 (1d6+3)
-
-**Ranged:** spray +5 touch (musk)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** musk
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 16, Con 13, Int 2, Wis 12, Cha 9
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 20
-
-**Feats:** Ability Focus (musk), Power Attack, Toughness
-
-**Skills:** Climb +7, Perception +7
-
-**Ecology**
-
-**Environment:** temperate forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: temperate forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Special Abilities
 

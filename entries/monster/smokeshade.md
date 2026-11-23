@@ -31,81 +31,63 @@ abilities = ["-", "15", "12", "8", "13", "11"]
 _This tube of roiling mist writhes through the air. Thin tendrils of dark smoke reach tentatively
 out from its body as swiftly as they collapse back into its central mass._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: aberration
+Initiative: +6
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Subtype: Extraplanar, Incorporeal
+Size: tiny
+Experience points: 600
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 15
+Flat-footed: 13
+AC modifiers: +1 deflection, +2 Dex, +2 size
+Hit points: 22 (4d8+4)
+Fort: +2
+Ref: +5
+Will: +5
+Amorph: present
+Sr: 13
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 10 ft., fly 60 ft. (good)
+Melee: tendril +5 (2d6 negative energy plus cloying shade)
+Reach: 0
+Reach P: 5 ft. with tendril
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Subtype:** Extraplanar, Incorporeal
+::: statblock
+Ability scores: Str -, Dex 15, Con 12, Int 8, Wis 13, Cha 11
+Base attack bonus: +3
+Combat maneuver bonus: +3
+Combat maneuver defense: 13 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes
+Skills: Acrobatics +9, Fly +15, Perception +8, Stealth +15
+Languages: Aklo (can't speak); [telepathy](ref/umr/telepathy) 60 ft.
+Special qualities: hide in plain sight, misty form
+:::
 
-**Size:** tiny
+### Ecology
 
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 15
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 deflection, +2 Dex, +2 size
-
-**Hit points:** 22 (4d8+4)
-
-**Fort:** +2
-
-**Ref:** +5
-
-**Will:** +5
-
-**Amorph:** present
-
-**Sr:** 13
-
-**Offense**
-
-**Speed:** 10 ft., fly 60 ft. (good)
-
-**Melee:** tendril +5 (2d6 negative energy plus cloying shade)
-
-**Reach:** 0
-
-**Reach P:** 5 ft. with tendril
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str -, Dex 15, Con 12, Int 8, Wis 13, Cha 11
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes
-
-**Skills:** Acrobatics +9, Fly +15, Perception +8, Stealth +15
-
-**Languages:** Aklo (can't speak); [telepathy](ref/umr/telepathy) 60 ft.
-
-**Special qualities:** hide in plain sight, misty form
-
-**Ecology**
-
-**Environment:** any (Plane of Shadow)
-
-**Organization:** solitary or pair
-
-**Treasure:** Standard
+::: statblock
+Environment: any (Plane of Shadow)
+Organization: solitary or pair
+Treasure: Standard
+:::
 
 ### Special Abilities
 

@@ -30,73 +30,59 @@ abilities = ["15", "14", "13", "1", "12", "2"]
 _Jagged markings decorate the body of this human-sized shark. A multitude of stains on its large
 teeth tell of the frequency and ferocity with which it uses its bite._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Type: animal
+blindsense: 30
+Initiative: +6
+Keen Scent: present
+Size: medium
+Alignment: Neutral
+Perception: +6
+Subtype: Aquatic
+Experience points: 400
+:::
 
-**Type:** animal
+### Defense
 
-**blindsense:** 30
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +5
+Will: +1
+:::
 
-**Initiative:** +6
+### Offense
 
-**Keen Scent:** present
+::: statblock
+Speed: swim 60 ft.
+Melee: bite +3 (1d6+3)
+Reach: 5
+Space: 5
+:::
 
-**Size:** medium
+### Statistics
 
-**Alignment:** Neutral
+::: statblock
+Ability scores: Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Improved Initiative
+Skills: Perception +6, Swim +10
+:::
 
-**Perception:** +6
+### Ecology
 
-**Subtype:** Aquatic
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +5
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** swim 60 ft.
-
-**Melee:** bite +3 (1d6+3)
-
-**Reach:** 5
-
-**Space:** 5
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 14, Con 13, Int 1, Wis 12, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Improved Initiative
-
-**Skills:** Perception +6, Swim +10
-
-**Ecology**
-
-**Environment:** any ocean
-
-**Organization:** solitary, pair, school (3-6)
-
-**Treasure:** None
+::: statblock
+Environment: any ocean
+Organization: solitary, pair, school (3-6)
+Treasure: None
+:::
 
 ### Description
 

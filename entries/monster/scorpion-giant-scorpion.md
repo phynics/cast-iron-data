@@ -29,75 +29,60 @@ abilities = ["19", "10", "16", "-", "10", "2"]
 _The sixteen-foot-long scorpion scrabbles forward, ferocious claws raised in challenge, stingered
 tail arched over its back._
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +0
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 800
+:::
 
-**Initiative:** +0
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 16
+Touch: 9
+Flat-footed: 16
+AC modifiers: +7 armor, -1 size
+Hit points: 37 (5d8+15)
+Fort: +7
+Ref: +1
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 50 ft.
+Constrict: 1d6+4
+Melee: 2 claws +6 (1d6+4 plus [grab](ref/umr/grab)), sting +6 (1d6+4 plus poison)
+Reach: 10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 19, Dex 10, Con 16, Int -, Wis 10, Cha 2
+Base attack bonus: +3
+Combat maneuver bonus: +8 (+12 grapple)
+Combat maneuver defense: 18 (30 vs. trip)
+Skills: Climb +8, Perception +4, Stealth +0
+Racial Modifiers: +4 Climb, +4 Perception, +4 Stealth
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 9
-
-**Flat-footed:** 16
-
-**AC modifiers:** +7 armor, -1 size
-
-**Hit points:** 37 (5d8+15)
-
-**Fort:** +7
-
-**Ref:** +1
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Constrict:** 1d6+4
-
-**Melee:** 2 claws +6 (1d6+4 plus [grab](ref/umr/grab)), sting +6 (1d6+4 plus poison)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 10, Con 16, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +8 (+12 grapple)
-
-**Combat maneuver defense:** 18 (30 vs. trip)
-
-**Skills:** Climb +8, Perception +4, Stealth +0
-
-**Racial Modifiers:** +4 Climb, +4 Perception, +4 Stealth
-
-**Ecology**
-
-**Environment:** warm or temperate deserts, forests, plains, or underground
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: warm or temperate deserts, forests, plains, or underground
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -30,77 +30,61 @@ abilities = ["21", "15", "16", "-", "12", "2"]
 _This towering spider is the size of an elephant. Its legs have spiky joints and its face looks
 vaguely, but disturbingly, humanoid._
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Size: huge
+Initiative: +2
+Alignment: Neutral
+Perception: +5
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 1,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 18
+Touch: 10
+Flat-footed: 16
+AC modifiers: +2 Dex, +8 natural, -2 size
+Hit points: 52 (7d8+21)
+Fort: +8
+Ref: +4
+Will: +3
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 40 ft., climb 40 ft.
+Melee: bite +8 (2d8+7 plus poison)
+Reach: 15
+Space: 15
+Web: +5 ranged, DC 16, hp 7
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 21, Dex 15, Con 16, Int -, Wis 12, Cha 2
+Base attack bonus: +5
+Combat maneuver bonus: +12
+Combat maneuver defense: 24 (36 vs. trip)
+Skills: Climb +29, Perception +5, Stealth -2
+Racial Modifiers: +16 Climb, +4 Perception, +4 Stealth
+Special qualities: [compression](ref/umr/compression)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 10
-
-**Flat-footed:** 16
-
-**AC modifiers:** +2 Dex, +8 natural, -2 size
-
-**Hit points:** 52 (7d8+21)
-
-**Fort:** +8
-
-**Ref:** +4
-
-**Will:** +3
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 40 ft., climb 40 ft.
-
-**Melee:** bite +8 (2d8+7 plus poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Web:** +5 ranged, DC 16, hp 7
-
-**Statistics**
-
-**Ability scores:** Str 21, Dex 15, Con 16, Int -, Wis 12, Cha 2
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 24 (36 vs. trip)
-
-**Skills:** Climb +29, Perception +5, Stealth -2
-
-**Racial Modifiers:** +16 Climb, +4 Perception, +4 Stealth
-
-**Special qualities:** [compression](ref/umr/compression)
-
-**Ecology**
-
-**Environment:** temperate or cold hills or underground
-
-**Organization:** solitary or pair
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate or cold hills or underground
+Organization: solitary or pair
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

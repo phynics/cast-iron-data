@@ -32,85 +32,65 @@ abilities = ["22", "10", "17", "17", "16", "11"]
 _A skeleton of silver rods gives this blob of protoplasm a roughly defined shape with an
 approximation of three arms and legs. Its outer skin shimmers with a rainbow of colors._
 
-**Challenge rating:** 8
+::: statblock
+Challenge rating: 8
+blindsight: 100
+Initiative: +4
+Size: large
+Alignment: Lawful evil
+Type: ooze
+Perception: +11
+Experience points: 4,800
+:::
 
-**blindsight:** 100
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 21
+Touch: 9
+Flat-footed: 21
+AC modifiers: +12 natural, -1 size
+Hit points: 100 (8d8+24\~\~40)
+Fort: +7
+Ref: +4
+Will: +7
+Immune: cold, electricity, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
+Resist: acid 10
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Lawful evil
+::: statblock
+Speed: 20 ft.
+Bleed: 1 Int damage
+Melee: 2 slams +11 (1d6+6 plus bleed)
+Ranged: force ray +5 ranged touch (10d6 force)
+Reach: 10
+Space: 10
+Spec Att: atavistic manipulation, force ray
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 22, Dex 10, Con 17, Int 17, Wis 16, Cha 11
+Base attack bonus: +6
+Combat maneuver bonus: +13
+Combat maneuver defense: 23 (25 vs. trip)
+Feats: Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
+Skills: Disable Device +8, Heal +10, Knowledge (arcana, engineering) +10, Perception +11
+Racial Modifiers: +4 Heal
+Languages: Aklo, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
+Special qualities: [no breath](ref/umr/no-breath), poisonous sublimation
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 9
-
-**Flat-footed:** 21
-
-**AC modifiers:** +12 natural, -1 size
-
-**Hit points:** 100 (8d8+24\~\~40)
-
-**Fort:** +7
-
-**Ref:** +4
-
-**Will:** +7
-
-**Immune:** cold, electricity, mind-affecting effects, [ooze traits](ref/umr/ooze-traits)
-
-**Resist:** acid 10
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Bleed:** 1 Int damage
-
-**Melee:** 2 slams +11 (1d6+6 plus bleed)
-
-**Ranged:** force ray +5 ranged touch (10d6 force)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** atavistic manipulation, force ray
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 10, Con 17, Int 17, Wis 16, Cha 11
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 23 (25 vs. trip)
-
-**Feats:** Great Fortitude, Improved Initiative, Iron Will, Lightning Reflexes
-
-**Skills:** Disable Device +8, Heal +10, Knowledge (arcana, engineering) +10, Perception +11
-
-**Racial Modifiers:** +4 Heal
-
-**Languages:** Aklo, Common, Infernal; [telepathy](ref/umr/telepathy) 100 ft.
-
-**Special qualities:** [no breath](ref/umr/no-breath), poisonous sublimation
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Standard; silver armature worth 350 gp, other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Standard; silver armature worth 350 gp, other treasure
+:::
 
 ### Special Abilities
 

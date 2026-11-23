@@ -30,109 +30,74 @@ abilities = ["28", "11", "25", "20", "21", "28"]
 _This towering, shapely, purple-skinned woman has an insectile lower body, antennae on her brow, and
 the wings of a bee._
 
-**Challenge rating:** 18
+::: statblock
+Challenge rating: 18
+Size: huge
+Initiative: +4
+Alignment: Lawful neutral
+Type: Monstrous humanoid
+Perception: +37
+Senses: Darkvision 60 ft., Detect secret doors, Low-light vision, True seeing
+Experience points: 153,600
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +4
+::: statblock
+Armor class: 33
+Touch: 8
+Flat-footed: 33
+AC modifiers: +25 natural, -2 size
+Hit points: 312 (25d10+175)
+Fort: +15
+Ref: +14
+Will: +21
+Defensive abilities: merope coat
+Fh: 10
+Immune: poison, sonic
+Resist: acid 20
+Sr: 29
+:::
 
-**Alignment:** Lawful neutral
+### Offense
 
-**Type:** Monstrous humanoid
+::: statblock
+Speed: 30 ft., fly 50 ft. (good)
+Melee: +2 axiomatic light mace +35/+30/+25/+20 (2d6+11/19-20), sting +27 (2d8+4/19-20 plus poison)
+Reach: 15
+Space: 15
+Spec Att: launch merope, spawn soldiers
+:::
 
-**Perception:** +37
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +29
+Constant: detect secret doors, true seeing
+At will: daylight, detect thoughts (DC 21), greater scrying (DC 26), neutralize poison, remove disease, speak with dead (DC 22)
+Per day: 3/day: charm monster (DC 23), find the path, giant vermin, 8 bees or 6 wasps, mass cure critical wounds, poison (DC 23), restoration, quickened slow (DC 22)\
+1/day: foresight, mass heal, regenerate
+:::
 
-**Senses:** Darkvision 60 ft., Detect secret doors, Low-light vision, True seeing
+### Statistics
 
-**Experience points:** 153,600
+::: statblock
+Ability scores: Str 28, Dex 11, Con 25, Int 20, Wis 21, Cha 28
+Base attack bonus: +25
+Combat maneuver bonus: +36
+Combat maneuver defense: 46
+Feats: Alertness, Combat Casting, Combat Expertise, Critical Focus, Greater Spell Penetration, Improved Critical (sting), Improved Critical (light mace), Improved Initiative, Improved Iron Will, Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (slow), Spell Penetration, Weapon Focus (light mace)
+Skills: Bluff +34, Diplomacy +34, Sense Motive +34, Spellcraft +30, Use Magic Device +34
+Languages: Common, Sylvan, Thriae; [telepathy](ref/umr/telepathy) 300 ft.
+:::
 
-**Armor class:** 33
+### Ecology
 
-**Touch:** 8
-
-**Flat-footed:** 33
-
-**AC modifiers:** +25 natural, -2 size
-
-**Hit points:** 312 (25d10+175)
-
-**Fort:** +15
-
-**Ref:** +14
-
-**Will:** +21
-
-**Defensive abilities:** merope coat
-
-**Fh:** 10
-
-**Immune:** poison, sonic
-
-**Resist:** acid 20
-
-**Sr:** 29
-
-**Offense**
-
-**Speed:** 30 ft., fly 50 ft. (good)
-
-**Melee:** +2 axiomatic light mace +35/+30/+25/+20 (2d6+11/19-20), sting +27 (2d8+4/19-20 plus
-poison)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** launch merope, spawn soldiers
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +29
-
-**Constant:**
-
-- detect secret doors, true seeing
-
-**At will:**
-
-- daylight, detect thoughts (DC 21), greater scrying (DC 26), neutralize poison, remove disease,
-  speak with dead (DC 22)
-
-**Per day:**
-
-- 3/day: charm monster (DC 23), find the path, giant vermin, 8 bees or 6 wasps, mass cure critical
-  wounds, poison (DC 23), restoration, quickened slow (DC 22)
-- 1/day: foresight, mass heal, regenerate
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 11, Con 25, Int 20, Wis 21, Cha 28
-
-**Base attack bonus:** +25
-
-**Combat maneuver bonus:** +36
-
-**Combat maneuver defense:** 46
-
-**Feats:** Alertness, Combat Casting, Combat Expertise, Critical Focus, Greater Spell Penetration,
-Improved Critical (sting), Improved Critical (light mace), Improved Initiative, Improved Iron Will,
-Iron Will, Quicken [Spell-Like Ability](ref/umr/spell-like-abilities) (slow), Spell Penetration,
-Weapon Focus (light mace)
-
-**Skills:** Bluff +34, Diplomacy +34, Sense Motive +34, Spellcraft +30, Use Magic Device +34
-
-**Languages:** Common, Sylvan, Thriae; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or colony (1 queen, 3 [seers](ref/monster/thriae-thriae-seer), 11-20
-[soldiers](ref/monster/thriae-thriae-soldier), and 3-30 [giant bees](ref/monster/bee-giant-bee))
-
-**Treasure:** Double (+2 axiomatic light mace); other treasure
+::: statblock
+Environment: any
+Organization: solitary or colony (1 queen, 3 [seers](ref/monster/thriae-thriae-seer), 11-20 [soldiers](ref/monster/thriae-thriae-soldier), and 3-30 [giant bees](ref/monster/bee-giant-bee))
+Treasure: Double (+2 axiomatic light mace); other treasure
+:::
 
 ### Special Abilities
 

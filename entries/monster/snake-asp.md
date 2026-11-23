@@ -28,73 +28,61 @@ abilities = ["10", "15", "14", "1", "15", "2"]
 
 _This long, muscular snake rears up and shows its hood and fangs when threatened._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +6
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 15
+Touch: 12
+Flat-footed: 13
+AC modifiers: +2 Dex, +3 natural
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +5
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 20 ft., climb 20 ft., swim 20 ft.
+Melee: bite +4 (1d4 plus poison)
+Spec Att: poison
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
-
-**Experience points:** 600
-
-**Armor class:** 15
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +2 Dex, +3 natural
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 20 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** bite +4 (1d4 plus poison)
-
-**Spec Att:** poison
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 14, Int 1, Wis 15, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14 (can't be tripped)
-
-**Feats:** Improved Initiative, Skill Focus (Stealth), Weapon Finesse^B^
-
-**Skills:** Acrobatics +10, Climb +10
-
-**Racial Modifiers:** +8 Acrobatics, +4 Perception, +4 Stealth
+::: statblock
+Ability scores: Str 10, Dex 15, Con 14, Int 1, Wis 15, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 14 (can't be tripped)
+Feats: Improved Initiative, Skill Focus (Stealth), Weapon Finesse^B^
+Skills: Acrobatics +10, Climb +10
+Racial Modifiers: +8 Acrobatics, +4 Perception, +4 Stealth
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm deserts
-
-**Organization:** solitary, pair, or nest (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: warm deserts
+Organization: solitary, pair, or nest (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 

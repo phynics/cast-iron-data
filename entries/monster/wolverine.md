@@ -30,67 +30,56 @@ abilities = ["15", "15", "15", "2", "12", "10"]
 _This stocky, muscular mammal is the size of a badger, its snarling lips revealing a mouth full of
 yellow teeth._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Type: animal
+Initiative: +2
+Size: medium
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision, Scent
+Experience points: 600
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 22 (3d8+9)
+Fort: +5
+Ref: +5
+Will: +2
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft., burrow 10 ft., climb 10 ft.
+Melee: 2 claws +4 (1d6+2), bite +4 (1d4+2)
+Spec Att: rage
+:::
 
-**Perception:** +10
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 15, Dex 15, Con 15, Int 2, Wis 12, Cha 10
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (20 vs. trip)
+Feats: Skill Focus (Perception), Toughness
+Skills: Climb +10, Perception +10
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 22 (3d8+9)
-
-**Fort:** +5
-
-**Ref:** +5
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft., climb 10 ft.
-
-**Melee:** 2 claws +4 (1d6+2), bite +4 (1d4+2)
-
-**Spec Att:** rage
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 15, Int 2, Wis 12, Cha 10
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (20 vs. trip)
-
-**Feats:** Skill Focus (Perception), Toughness
-
-**Skills:** Climb +10, Perception +10
-
-**Ecology**
-
-**Environment:** cold forests
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold forests
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

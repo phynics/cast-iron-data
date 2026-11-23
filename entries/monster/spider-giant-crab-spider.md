@@ -29,69 +29,57 @@ abilities = ["10", "15", "12", "-", "10", "2"]
 _This pale yellow spider's legs protrude on either side, giving it a very distinctive stance. The
 thing is the size of a large dog._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+tremorsense: 60
+Type: vermin
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 11
+AC modifiers: +2 Dex, +1 size
+Hit points: 11 (2d8+2)
+Fort: +4
+Ref: +2
+Will: +0
+Immune: mind-affecting effects
+:::
 
-**Perception:** +4
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 20 ft.
+Melee: bite +2 (1d4 plus poison)
+:::
 
-**Size:** small
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 10, Dex 15, Con 12, Int -, Wis 10, Cha 2
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 12 (24 vs. trip)
+Skills: Acrobatics +10, Climb +24, Perception +4, Stealth +10 (+21 when stationary)
+Racial Modifiers: +8 Acrobatics, +16 Climb, +4 Perception, +4 Stealth (+15 when stationary)
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 200
-
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 11
-
-**AC modifiers:** +2 Dex, +1 size
-
-**Hit points:** 11 (2d8+2)
-
-**Fort:** +4
-
-**Ref:** +2
-
-**Will:** +0
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft.
-
-**Melee:** bite +2 (1d4 plus poison)
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 12, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 12 (24 vs. trip)
-
-**Skills:** Acrobatics +10, Climb +24, Perception +4, Stealth +10 (+21 when stationary)
-
-**Racial Modifiers:** +8 Acrobatics, +16 Climb, +4 Perception, +4 Stealth (+15 when stationary)
-
-**Ecology**
-
-**Environment:** warm or temperate forests
-
-**Organization:** solitary, pair, or colony (3-10)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm or temperate forests
+Organization: solitary, pair, or colony (3-10)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -28,69 +28,57 @@ abilities = ["17", "15", "13", "6", "14", "10"]
 
 _This unusually large wolf has an evil, almost intelligent light shining in its deep red eyes._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Initiative: +2
+Type: Magical beast
+Size: medium
+Alignment: Neutral evil
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Experience points: 600
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 natural
+Hit points: 26 (4d10+4)
+Fort: +5
+Ref: +6
+Will: +3
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 50 ft.
+Melee: bite +7 (1d6+4 plus [trip](ref/umr/trip))
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Ability scores: Str 17, Dex 15, Con 13, Int 6, Wis 14, Cha 10
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 19 (23 vs. trip)
+Feats: Run, Skill Focus (Perception)
+Skills: Perception +11
+Racial Modifiers: +2 Perception, +2 Stealth, +2 Survival
+Languages: Common, Goblin
+:::
 
-**Experience points:** 600
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 50 ft.
-
-**Melee:** bite +7 (1d6+4 plus [trip](ref/umr/trip))
-
-**Statistics**
-
-**Ability scores:** Str 17, Dex 15, Con 13, Int 6, Wis 14, Cha 10
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19 (23 vs. trip)
-
-**Feats:** Run, Skill Focus (Perception)
-
-**Skills:** Perception +11
-
-**Racial Modifiers:** +2 Perception, +2 Stealth, +2 Survival
-
-**Languages:** Common, Goblin
-
-**Ecology**
-
-**Environment:** temperate forests and plains
-
-**Organization:** solitary, pair, or pack (3-11)
-
-**Treasure:** Incidental
+::: statblock
+Environment: temperate forests and plains
+Organization: solitary, pair, or pack (3-11)
+Treasure: Incidental
+:::
 
 ### Description
 

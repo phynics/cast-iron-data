@@ -30,75 +30,60 @@ abilities = ["13", "13", "14", "-", "10", "2"]
 _This bug has long, fuzzy legs that support it on the water's surface as if the creature stands on
 solid ground._
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +1
+Size: large
+Alignment: Neutral
+Perception: +4
+Senses: Darkvision 60 ft.
+tremorsense: 60
+Type: vermin
+Experience points: 400
+:::
 
-**Initiative:** +1
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 12
+Touch: 10
+Flat-footed: 11
+AC modifiers: +1 Dex, +2 natural, -1 size
+Hit points: 19 (3d8+6)
+Fort: +5
+Ref: +2
+Will: +1
+Immune: mind-affecting effects
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 30 ft., fly 20 ft. (poor)
+Melee: 2 claws +2 (1d4+1), bite +2 (1d2+1)
+Reach: 5
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**tremorsense:** 60
+::: statblock
+Ability scores: Str 13, Dex 13, Con 14, Int -, Wis 10, Cha 2
+Base attack bonus: +2
+Combat maneuver bonus: +4
+Combat maneuver defense: 16 (24 vs. trip)
+Skills: Fly -5
+Racial Modifiers: +4 Perception, +4 Swim
+Special qualities: water skating
+:::
 
-**Type:** vermin
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 12
-
-**Touch:** 10
-
-**Flat-footed:** 11
-
-**AC modifiers:** +1 Dex, +2 natural, -1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +5
-
-**Ref:** +2
-
-**Will:** +1
-
-**Immune:** mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft., fly 20 ft. (poor)
-
-**Melee:** 2 claws +2 (1d4+1), bite +2 (1d2+1)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con 14, Int -, Wis 10, Cha 2
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +4
-
-**Combat maneuver defense:** 16 (24 vs. trip)
-
-**Skills:** Fly -5
-
-**Racial Modifiers:** +4 Perception, +4 Swim
-
-**Special qualities:** water skating
-
-**Ecology**
-
-**Environment:** any water
-
-**Organization:** solitary or colony (2-9)
-
-**Treasure:** Incidental
+::: statblock
+Environment: any water
+Organization: solitary or colony (2-9)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

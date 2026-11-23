@@ -32,111 +32,76 @@ abilities = ["49", "10", "41", "27", "20", "24"]
 _This titanic, armored figure wields an immense axe. Its hands end in claws, and its voice thunders
 with ruinous power._
 
-**Challenge rating:** 22
+::: statblock
+Challenge rating: 22
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +4
+Type: outsider
+Perception: +31
+Senses: Darkvision 120 ft., True seeing
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 614,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 38
+Touch: 2
+Flat-footed: 38
+AC modifiers: +12 armor, +24 natural, -8 size
+Hit points: 471 (23d10+345)
+Fort: +22
+Ref: +15
+Will: +20; +8 resistance vs. mind-affecting
+Dr: 15/lawful and epic
+Immune: aging, death effects, disease
+Sr: 33
+:::
 
-**Initiative:** +4
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft., (40 ft. in armor)
+Melee: +3 unholy battleaxe +37/+32/+27/+22 (6d6+22/19-20/×3), claw +29 (2d8+9) or 2 claws +34 (2d8+19)
+Ranged: rock +16/+11/+6/+1 (2d6+19)
+Reach: 30
+Space: 30
+Spec Att: godslayer, rock-throwing (100 ft.)
+Trample: 2d8+28, DC 40
+:::
 
-**Perception:** +31
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: air walk, mind blank, spell turning, true seeing
+At will: bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
+Per day: 3/day: disintegrate (DC 23), greater scrying (DC 24), heal, mass suggestion (DC 23)\
+1/day: greater planar ally, imprisonment (DC 26), meteor swarm (DC 26), true resurrection
+:::
 
-**Senses:** Darkvision 120 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 49, Dex 10, Con 41, Int 27, Wis 20, Cha 24
+Base attack bonus: +23
+Combat maneuver bonus: +50
+Combat maneuver defense: 60
+Feats: Awesome Blow, Bleeding Critical, Critical Focus, Greater Vital Strike, Improved Bull Rush, Improved Critical (battleaxe), Improved Initiative, Improved Vital Strike, Iron Will, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Bluff +33, Craft (any one) +34, Diplomacy +30, Sense Motive +31, Spellcraft +34, Stealth +5, Use Magic Device +33
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: [change shape](ref/umr/change-shape) (any humanoid; [alter self](ref/spell/alter-self))
+:::
 
-**Experience points:** 614,400
+### Ecology
 
-**Armor class:** 38
-
-**Touch:** 2
-
-**Flat-footed:** 38
-
-**AC modifiers:** +12 armor, +24 natural, -8 size
-
-**Hit points:** 471 (23d10+345)
-
-**Fort:** +22
-
-**Ref:** +15
-
-**Will:** +20; +8 resistance vs. mind-affecting
-
-**Dr:** 15/lawful and epic
-
-**Immune:** aging, death effects, disease
-
-**Sr:** 33
-
-**Offense**
-
-**Speed:** 60 ft., (40 ft. in armor)
-
-**Melee:** +3 unholy battleaxe +37/+32/+27/+22 (6d6+22/19-20/×3), claw +29 (2d8+9) or 2 claws +34
-(2d8+19)
-
-**Ranged:** rock +16/+11/+6/+1 (2d6+19)
-
-**Reach:** 30
-
-**Space:** 30
-
-**Spec Att:** godslayer, rock-throwing (100 ft.)
-
-**Trample:** 2d8+28, DC 40
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- air walk, mind blank, spell turning, true seeing
-
-**At will:**
-
-- bestow curse (DC 21), break enchantment, divination, greater dispel magic, sending
-
-**Per day:**
-
-- 3/day: disintegrate (DC 23), greater scrying (DC 24), heal, mass suggestion (DC 23)
-- 1/day: greater planar ally, imprisonment (DC 26), meteor swarm (DC 26), true resurrection
-
-**Statistics**
-
-**Ability scores:** Str 49, Dex 10, Con 41, Int 27, Wis 20, Cha 24
-
-**Base attack bonus:** +23
-
-**Combat maneuver bonus:** +50
-
-**Combat maneuver defense:** 60
-
-**Feats:** Awesome Blow, Bleeding Critical, Critical Focus, Greater Vital Strike, Improved Bull
-Rush, Improved Critical (battleaxe), Improved Initiative, Improved Vital Strike, Iron Will,
-Lightning Reflexes, Power Attack, Vital Strike
-
-**Skills:** Bluff +33, Craft (any one) +34, Diplomacy +30, Sense Motive +31, Spellcraft +34, Stealth
-+5, Use Magic Device +33
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** [change shape](ref/umr/change-shape) (any humanoid;
-[alter self](ref/spell/alter-self))
-
-**Ecology**
-
-**Environment:** any ([the Abyss](ref/rule/the-abyss))
-
-**Organization:** solitary, pair, or war band (3-6)
-
-**Treasure:** Standard (+3 full plate, +3 unholy battleaxe); other treasure
+::: statblock
+Environment: any ([the Abyss](ref/rule/the-abyss))
+Organization: solitary, pair, or war band (3-6)
+Treasure: Standard (+3 full plate, +3 unholy battleaxe); other treasure
+:::
 
 ### Special Abilities
 

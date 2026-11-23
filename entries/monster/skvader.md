@@ -29,70 +29,57 @@ abilities = ["8", "15", "13", "4", "13", "6"]
 _This small creature has the forequarters and hind legs of a hare, and the wings and tail of a wood
 grouse._
 
-**Challenge rating:** 1/2
+::: statblock
+Challenge rating: 1/2
+Initiative: +2
+Type: Magical beast
+Alignment: Neutral
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Size: tiny
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Type:** Magical beast
+::: statblock
+Armor class: 14
+Touch: 14
+Flat-footed: 12
+AC modifiers: +2 Dex, +2 size
+Hit points: 6 (1d10+1)
+Fort: +3
+Ref: +4
+Will: +1
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 40 ft., fly 40 ft. (poor)
+Melee: bite +5 (1d3-1 plus attach)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Size:** tiny
+::: statblock
+Ability scores: Str 8, Dex 15, Con 13, Int 4, Wis 13, Cha 6
+Base attack bonus: +1
+Combat maneuver bonus: +1
+Combat maneuver defense: 10 (14 vs. trip)
+Feats: Weapon Finesse
+Skills: Stealth +14
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 14
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +2 size
-
-**Hit points:** 6 (1d10+1)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +1
-
-**Offense**
-
-**Speed:** 40 ft., fly 40 ft. (poor)
-
-**Melee:** bite +5 (1d3-1 plus attach)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 8, Dex 15, Con 13, Int 4, Wis 13, Cha 6
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 10 (14 vs. trip)
-
-**Feats:** Weapon Finesse
-
-**Skills:** Stealth +14
-
-**Ecology**
-
-**Environment:** temperate forest and hills
-
-**Organization:** solitary, pair, family (3-12), or pack (1 [wolpertinger](ref/monster/wolpertinger)
-and 3-12 skvaders)
-
-**Treasure:** None
+::: statblock
+Environment: temperate forest and hills
+Organization: solitary, pair, family (3-12), or pack (1 [wolpertinger](ref/monster/wolpertinger) and 3-12 skvaders)
+Treasure: None
+:::
 
 ### Special Abilities
 

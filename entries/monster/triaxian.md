@@ -32,74 +32,56 @@ _This warrior looks like an attractive humanoid with pointed, feather-like ears 
 long, horizontal slits. Though he has no true hair, his entire body is covered in short, sleek white
 fur._
 
-**Challenge rating:** 1/2
-
 **Triaxian [ranger](ref/class/ranger) 1**
 
-**Type:** humanoid
+::: statblock
+Challenge rating: 1/2
+Type: humanoid
+Initiative: +2
+Size: medium
+Alignment: Neutral
+othersubs: Triaxian
+Perception: +8
+Senses: Low-light vision
+Experience points: 200
+:::
 
-**Initiative:** +2
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +6 armor, +2 Dex
+Hit points: 13 (1d10+3)
+Fort: +4
+Ref: +4
+Will: +2
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**othersubs:** Triaxian
+::: statblock
+Speed: 20 ft.
+Fav En: dragons +2
+Melee: lance +2 (1d8+1/×3) or longsword +2 (1d8+1/19-20)
+Ranged: composite longbow +3 (1d8+1/×3)
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision
-
-**Experience points:** 200
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 armor, +2 Dex
-
-**Hit points:** 13 (1d10+3)
-
-**Fort:** +4
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 20 ft.
-
-**Fav En:** dragons +2
-
-**Melee:** lance +2 (1d8+1/×3) or longsword +2 (1d8+1/19-20)
-
-**Ranged:** composite longbow +3 (1d8+1/×3)
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 14, Con 15, Int 10, Wis 14, Cha 8
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 14
-
-**Feats:** Mounted Archery, Mounted Combat
-
-**Skills:** Knowledge (arcana) +1, Perception +8
-
-**Racial Modifiers:** +2 Perception
-
-**Languages:** Triaxian
-
-**Special qualities:** seasoned, track +1, [wild empathy](ref/ability/wild-empathy) +0
-
-**Gear:** NPC gear (chainmail, [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows,
-lance, longsword, other treasure)
+::: statblock
+Ability scores: Str 13, Dex 14, Con 15, Int 10, Wis 14, Cha 8
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 14
+Feats: Mounted Archery, Mounted Combat
+Skills: Knowledge (arcana) +1, Perception +8
+Racial Modifiers: +2 Perception
+Languages: Triaxian
+Special qualities: seasoned, track +1, [wild empathy](ref/ability/wild-empathy) +0
+Gear: NPC gear (chainmail, [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, lance, longsword, other treasure)
+:::
 
 ### Special Abilities
 

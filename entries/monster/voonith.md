@@ -32,81 +32,63 @@ abilities = ["13", "16", "14", "5", "12", "13"]
 _This brightly colored, long-necked amphibian has six legs, a fanged snout, and numerous finlets
 running down its spine._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic neutral
+Initiative: +3
+Type: Magical beast
+Perception: +8
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Aquatic
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic neutral
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 size
+Hit points: 37 (5d10+10)
+Fort: +6
+Ref: +7
+Will: +2
+:::
 
-**Type:** Magical beast
+### Offense
 
-**Perception:** +8
+::: statblock
+Speed: 30 ft., swim 50 ft.
+Melee: bite +8 (1d6+1 plus [trip](ref/umr/trip)), 4 claws +7 (1d3+1)
+Pounce: present
+Reach: 5
+Reach P: 10 ft. with bite
+Space: 5
+Spec Att: blood-freezing howl
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 13, Dex 16, Con 14, Int 5, Wis 12, Cha 13
+Base attack bonus: +5
+Combat maneuver bonus: +5
+Combat maneuver defense: 18 (26 vs. trip)
+Feats: Ability Focus (blood-freezing howl), Skill Focus (Perception), Weapon Focus (bite)
+Skills: Perception +8, Stealth +12, Swim +14
+Languages: Aklo
+Special qualities: [amphibious](ref/umr/amphibious)
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 37 (5d10+10)
-
-**Fort:** +6
-
-**Ref:** +7
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., swim 50 ft.
-
-**Melee:** bite +8 (1d6+1 plus [trip](ref/umr/trip)), 4 claws +7 (1d3+1)
-
-**Pounce:** present
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with bite
-
-**Space:** 5
-
-**Spec Att:** blood-freezing howl
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 16, Con 14, Int 5, Wis 12, Cha 13
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +5
-
-**Combat maneuver defense:** 18 (26 vs. trip)
-
-**Feats:** Ability Focus (blood-freezing howl), Skill Focus (Perception), Weapon Focus (bite)
-
-**Skills:** Perception +8, Stealth +12, Swim +14
-
-**Languages:** Aklo
-
-**Special qualities:** [amphibious](ref/umr/amphibious)
-
-**Ecology**
-
-**Environment:** any rivers or marshes
-
-**Organization:** solitary, pair, or clutch (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: any rivers or marshes
+Organization: solitary, pair, or clutch (3-6)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

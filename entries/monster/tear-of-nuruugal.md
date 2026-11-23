@@ -32,99 +32,73 @@ abilities = ["14", "1", "24", "4", "5", "1"]
 _A slithering blob of amoeba-like protoplasm shines with flame, warping the air around it in a
 searing mirage._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+blindsight: 60
+Alignment: Chaotic neutral
+Initiative: -5
+Type: ooze
+Perception: -3
+Size: small
+Subtype: Fire
+Experience points: 2,400
+:::
 
-**blindsight:** 60
+### Defense
 
-**Alignment:** Chaotic neutral
+::: statblock
+Armor class: 6
+Touch: 6
+Flat-footed: 6
+AC modifiers: -5 Dex, +1 size
+Hit points: 62 (5d8+40)
+Fort: +8
+Ref: -4
+Will: -2
+Dr: 5/-
+Immune: fire, [ooze traits](ref/umr/ooze-traits)
+Sr: 17
+Vulner: cold
+:::
 
-**Initiative:** -5
+### Offense
 
-**Type:** ooze
+::: statblock
+Speed: 10 ft., climb 10 ft.
+Burn: 1d6, DC 19
+Constrict: 1d6+3
+Melee: slam +7 (1d6+3 plus burn and [grab](ref/umr/grab))
+Ranged: ranged touch -1 (by spell)
+Spec Att: symbiosis
+:::
 
-**Perception:** -3
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5
+Concentration: +0
+At will: detect thoughts (DC 7), produce flame
+Per day: 3/day: searing light
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Fire
+::: statblock
+Ability scores: Str 14, Dex 1, Con 24, Int 4, Wis 5, Cha 1
+Base attack bonus: +3
+Combat maneuver bonus: +4 (+8 grapple)
+Combat maneuver defense: 9 (can't be tripped)
+Feats: Ability Focus (symbiosis), Toughness, Weapon Focus (slam)
+Skills: Climb +12, Stealth +2
+Languages: telepathy 100 ft.
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 6
-
-**Touch:** 6
-
-**Flat-footed:** 6
-
-**AC modifiers:** -5 Dex, +1 size
-
-**Hit points:** 62 (5d8+40)
-
-**Fort:** +8
-
-**Ref:** -4
-
-**Will:** -2
-
-**Dr:** 5/-
-
-**Immune:** fire, [ooze traits](ref/umr/ooze-traits)
-
-**Sr:** 17
-
-**Vulner:** cold
-
-**Offense**
-
-**Speed:** 10 ft., climb 10 ft.
-
-**Burn:** 1d6, DC 19
-
-**Constrict:** 1d6+3
-
-**Melee:** slam +7 (1d6+3 plus burn and [grab](ref/umr/grab))
-
-**Ranged:** ranged touch -1 (by spell)
-
-**Spec Att:** symbiosis
-
-**Spell-Like Abilities**
-
-**Caster level:** 5
-
-**Concentration:** +0
-
-**At will:**
-
-- detect thoughts (DC 7), produce flame
-
-**Per day:**
-
-- 3/day: searing light
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 1, Con 24, Int 4, Wis 5, Cha 1
-
-**Base attack bonus:** +3
-
-**Combat maneuver bonus:** +4 (+8 grapple)
-
-**Combat maneuver defense:** 9 (can't be tripped)
-
-**Feats:** Ability Focus (symbiosis), Toughness, Weapon Focus (slam)
-
-**Skills:** Climb +12, Stealth +2
-
-**Languages:** telepathy 100 ft.
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or pack (2-6)
-
-**Treasure:** None
+::: statblock
+Environment: any land
+Organization: solitary or pack (2-6)
+Treasure: None
+:::
 
 ### Special Abilities
 

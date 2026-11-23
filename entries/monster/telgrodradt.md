@@ -31,95 +31,71 @@ abilities = ["18", "15", "16", "9", "13", "14"]
 _This monster resembles a gigantic, writhing grub, its translucent flesh rippling disgustingly. It
 has four elongated tentacles and a toothy maw._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Type: aberration
+Initiative: +6
+Size: large
+Alignment: Neutral evil
+Perception: +10
+Senses: Darkvision 60 ft.
+Experience points: 2,400
+:::
 
-**Type:** aberration
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 19
+Touch: 11
+Flat-footed: 17
+AC modifiers: +2 Dex, +8 natural, -1 size
+Hit points: 67 (9d8+27)
+Fort: +6
+Ref: +5
+Will: +7
+Defensive abilities: negative energy affinity
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral evil
+::: statblock
+Speed: 30 ft., burrow 10 ft.
+Melee: 2 claws +10 (1d6+4), bite +9 (1d8+4 plus disease)
+Ranged: negative energy ray +7 touch (3d6 negative energy)
+Reach: 10
+Reach P: 5 ft. with bite
+Space: 10
+Spec Att: create thralls, disease, negative energy ray
+:::
 
-**Perception:** +10
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +11
+At will: curse water, detect undead
+Per day: 3/day: darkness, death knell, inflict moderate wounds (DC 14)\
+1/day: animate dead, desecrate, see invisibility, silence
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 18, Dex 15, Con 16, Int 9, Wis 13, Cha 14
+Base attack bonus: +6
+Combat maneuver bonus: +11
+Combat maneuver defense: 23
+Feats: Blind-Fight, Combat Reflexes, Improved Initiative, Power Attack, Weapon Focus (claw)
+Skills: Intimidate +8, Knowledge (religion) +8, Perception +10, Stealth +10
+Languages: Necril, Undercommon
+:::
 
-**Armor class:** 19
+### Ecology {#stat-ecology}
 
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +2 Dex, +8 natural, -1 size
-
-**Hit points:** 67 (9d8+27)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +7
-
-**Defensive abilities:** negative energy affinity
-
-**Offense**
-
-**Speed:** 30 ft., burrow 10 ft.
-
-**Melee:** 2 claws +10 (1d6+4), bite +9 (1d8+4 plus disease)
-
-**Ranged:** negative energy ray +7 touch (3d6 negative energy)
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** create thralls, disease, negative energy ray
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +11
-
-**At will:**
-
-- curse water, detect undead
-
-**Per day:**
-
-- 3/day: darkness, death knell, inflict moderate wounds (DC 14)
-- 1/day: animate dead, desecrate, see invisibility, silence
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 15, Con 16, Int 9, Wis 13, Cha 14
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +11
-
-**Combat maneuver defense:** 23
-
-**Feats:** Blind-Fight, Combat Reflexes, Improved Initiative, Power Attack, Weapon Focus (claw)
-
-**Skills:** Intimidate +8, Knowledge (religion) +8, Perception +10, Stealth +10
-
-**Languages:** Necril, Undercommon
-
-**Ecology**
-
-**Environment:** underground
-
-**Organization:** solitary, pair, gathering (3-12), or settlement (12-30 telgrodradts and 200-500
-[zombies](ref/template/zombie) and [skeletons](ref/template/skeleton))
-
-**Treasure:** Standard
+::: statblock
+Environment: underground
+Organization: solitary, pair, gathering (3-12), or settlement (12-30 telgrodradts and 200-500 [zombies](ref/template/zombie) and [skeletons](ref/template/skeleton))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

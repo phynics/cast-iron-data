@@ -30,82 +30,63 @@ abilities = ["19", "18", "16", "9", "10", "7"]
 _This large creature has light blue-green skin and cold, piercing eyes. Dressed in rough furs, its
 tusked jaw juts forth in a long underbite._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +4
+Size: large
+Perception: +9
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Cold, Giant
+Experience points: 1,200
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 13
+AC modifiers: +4 Dex, +4 natural, -1 size
+Hit points: 45 (6d8+18)
+Fort: +8
+Ref: +8
+Will: +2
+Immune: cold
+Regen: 5 (acid or fire)
+Vulner: fire
+:::
 
-**Initiative:** +4
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +7 (2d6+4), bite +2 (1d6+2), claw +2 (1d4+2) or bite +7 (1d6+4), 2 claws +7 (1d4+4)
+Reach: 10
+Rend: 2 claws, 1d6+6
+Space: 10
+:::
 
-**Perception:** +9
+### Statistics
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+Ability scores: Str 19, Dex 18, Con 16, Int 9, Wis 10, Cha 7
+Base attack bonus: +4
+Combat maneuver bonus: +9
+Combat maneuver defense: 23
+Feats: Intimidating Prowess, Lightning Reflexes, Skill Focus (Perception)
+Skills: Intimidate +7, Perception +9
+Languages: Giant
+:::
 
-**Subtype:** Cold, Giant
+### Ecology
 
-**Experience points:** 1,200
-
-**Armor class:** 17
-
-**Touch:** 13
-
-**Flat-footed:** 13
-
-**AC modifiers:** +4 Dex, +4 natural, -1 size
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +8
-
-**Ref:** +8
-
-**Will:** +2
-
-**Immune:** cold
-
-**Regen:** 5 (acid or fire)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** battleaxe +7 (2d6+4), bite +2 (1d6+2), claw +2 (1d4+2) or bite +7 (1d6+4), 2 claws +7
-(1d4+4)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+6
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 18, Con 16, Int 9, Wis 10, Cha 7
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 23
-
-**Feats:** Intimidating Prowess, Lightning Reflexes, Skill Focus (Perception)
-
-**Skills:** Intimidate +7, Perception +9
-
-**Languages:** Giant
-
-**Ecology**
-
-**Environment:** cold mountains or underground
-
-**Organization:** solitary or band (3-6)
-
-**Treasure:** Standard
+::: statblock
+Environment: cold mountains or underground
+Organization: solitary or band (3-6)
+Treasure: Standard
+:::
 
 ### Description
 

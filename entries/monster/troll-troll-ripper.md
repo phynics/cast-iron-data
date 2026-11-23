@@ -28,85 +28,65 @@ special_qualities = "armor training 1"
 abilities = ["25", "16", "27", "4", "11", "6"]
 +++
 
-**Challenge rating:** 8
-
 **Troll [fighter](ref/class/fighter) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: large
+Perception: +5
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Subtype: Giant
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 23
+Touch: 13
+Flat-footed: 19
+AC modifiers: +5 armor, +3 Dex, +1 dodge, +5 natural, -1 size
+Hit points: 118 (6d8+3d10+75\~9)
+Fort: +17
+Ref: +7
+Will: +4 (+1 vs. fear)
+Defensive abilities: bravery +1
+Regen: 5 (acid or fire)
+:::
 
-**Size:** large
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: 30 ft.
+Melee: bite +15 (1d8+8), 2 claws +15 (1d6+8)
+Reach: 10
+Rend: 2 claws, 1d6+10
+Space: 10
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Subtype:** Giant
+::: statblock
+Ability scores: Str 25, Dex 16, Con 27, Int 4, Wis 11, Cha 6
+Base attack bonus: +7
+Combat maneuver bonus: +15
+Combat maneuver defense: 29
+Feats: Combat Reflexes, Cooperative Rend, Dodge, Great Rend, Power Attack, Weapon Focus (bite), Weapon Focus (claw)
+Skills: Intimidate +5, Perception +5
+Languages: Giant
+Special qualities: armor training 1
+Combat gear: potion of barkskin, 2 potion of bull's strength, potion of protection from energy (fire)
+Other gear: +1 Ah, Ifist1, Iclk1, barbed troll claws, 265 gp
+:::
 
-**Experience points:** 4,800
+### Ecology
 
-**Armor class:** 23
-
-**Touch:** 13
-
-**Flat-footed:** 19
-
-**AC modifiers:** +5 armor, +3 Dex, +1 dodge, +5 natural, -1 size
-
-**Hit points:** 118 (6d8+3d10+75\~9)
-
-**Fort:** +17
-
-**Ref:** +7
-
-**Will:** +4 (+1 vs. fear)
-
-**Defensive abilities:** bravery +1
-
-**Regen:** 5 (acid or fire)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** bite +15 (1d8+8), 2 claws +15 (1d6+8)
-
-**Reach:** 10
-
-**Rend:** 2 claws, 1d6+10
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 16, Con 27, Int 4, Wis 11, Cha 6
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +15
-
-**Combat maneuver defense:** 29
-
-**Feats:** Combat Reflexes, Cooperative Rend, Dodge, Great Rend, Power Attack, Weapon Focus (bite),
-Weapon Focus (claw)
-
-**Skills:** Intimidate +5, Perception +5
-
-**Languages:** Giant
-
-**Special qualities:** armor training 1
-
-**Combat gear:** potion of barkskin, 2 potion of bull's strength, potion of protection from energy
-(fire)
-
-**Other gear:** +1 Ah, Ifist1, Iclk1, barbed troll claws, 265 gp
-
-**Ecology**
-
-**Environment:** cold mountains
+::: statblock
+Environment: cold mountains
+:::
 
 ### Description
 

@@ -34,106 +34,76 @@ abilities = ["27", "27", "24", "11", "14", "16"]
 _This menacing creature stands on four pointed legs like those of an insect. A conical head sits
 atop its humanoid torso._
 
-**Challenge rating:** 15
+::: statblock
+Challenge rating: 15
+aura: static aura (5 ft., 2d6 electricity)
+Alignment: Chaotic evil
+Initiative: +12
+Size: large
+Type: Monstrous humanoid
+Perception: +22
+Senses: All-around vision, Darkvision 90 ft., Low-light vision, Mistsight, Scent, See in darkness
+Experience points: 51,200
+:::
 
-**aura:** static aura (5 ft., 2d6 electricity)
+### Defense
 
-**Alignment:** Chaotic evil
+::: statblock
+Armor class: 30
+Touch: 18
+Flat-footed: 21
+AC modifiers: +8 Dex, +1 dodge, +12 natural, -1 size
+Hit points: 212 (17d10+119)
+Fort: +12
+Ref: +18
+Will: +12
+Immune: disease, electricity, poison
+Regen: 5 (acid)
+Resist: cold 10, fire 10
+:::
 
-**Initiative:** +12
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 50 ft., climb 30 ft.
+Melee: bite +24 (1d8+8), 2 claws +24 (1d8+8/19-20 plus 1d6 electricity)
+Reach: 5
+Reach P: 10 ft. with claws
+Sneak: +3d6
+Space: 10
+Spec Att: impaling leap,, static blast
+:::
 
-**Type:** Monstrous humanoid
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 11
+Concentration: +14
+At will: alter winds, fog cloud, jump
+Per day: 3/day: deeper darkness, greater invisibility, gust of wind (DC 15), ice storm\
+1/day: control weather, plague storm (DC 19), sirocco (DC 19)
+:::
 
-**Perception:** +22
+### Statistics
 
-**Senses:** All-around vision, Darkvision 90 ft., Low-light vision, Mistsight, Scent, See in
-darkness
+::: statblock
+Ability scores: Str 27, Dex 27, Con 24, Int 11, Wis 14, Cha 16
+Base attack bonus: +17
+Combat maneuver bonus: +26
+Combat maneuver defense: 43 (47 vs. trip)
+Feats: Acrobatic Steps, Combat Reflexes, Dodge, Improved Critical (claws), Improved Initiative, Mobility, Nimble Moves, Power Attack, Spring Attack
+Skills: Acrobatics +22, Climb +24, Perception +22
+Racial Modifiers: +4 Stealth in icy or snowy areas
+Languages: Auran
+Special qualities: adaptive camouflage
+:::
 
-**Experience points:** 51,200
+### Ecology
 
-**Armor class:** 30
-
-**Touch:** 18
-
-**Flat-footed:** 21
-
-**AC modifiers:** +8 Dex, +1 dodge, +12 natural, -1 size
-
-**Hit points:** 212 (17d10+119)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +12
-
-**Immune:** disease, electricity, poison
-
-**Regen:** 5 (acid)
-
-**Resist:** cold 10, fire 10
-
-**Offense**
-
-**Speed:** 50 ft., climb 30 ft.
-
-**Melee:** bite +24 (1d8+8), 2 claws +24 (1d8+8/19-20 plus 1d6 electricity)
-
-**Reach:** 5
-
-**Reach P:** 10 ft. with claws
-
-**Sneak:** +3d6
-
-**Space:** 10
-
-**Spec Att:** impaling leap,, static blast
-
-**Spell-Like Abilities**
-
-**Caster level:** 11
-
-**Concentration:** +14
-
-**At will:**
-
-- alter winds, fog cloud, jump
-
-**Per day:**
-
-- 3/day: deeper darkness, greater invisibility, gust of wind (DC 15), ice storm
-- 1/day: control weather, plague storm (DC 19), sirocco (DC 19)
-
-**Statistics**
-
-**Ability scores:** Str 27, Dex 27, Con 24, Int 11, Wis 14, Cha 16
-
-**Base attack bonus:** +17
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 43 (47 vs. trip)
-
-**Feats:** Acrobatic Steps, Combat Reflexes, Dodge, Improved Critical (claws), Improved Initiative,
-Mobility, Nimble Moves, Power Attack, Spring Attack
-
-**Skills:** Acrobatics +22, Climb +24, Perception +22
-
-**Racial Modifiers:** +4 Stealth in icy or snowy areas
-
-**Languages:** Auran
-
-**Special qualities:** adaptive camouflage
-
-**Ecology**
-
-**Environment:** cold mountains
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: cold mountains
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

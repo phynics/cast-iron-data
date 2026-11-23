@@ -33,99 +33,73 @@ brain._
 
 **Mythic Tyrant Jelly**
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Mythic rank: 3
+blindsight: 60
+Initiative: +2, Mythic Improved Initiative
+Size: large
+Alignment: Neutral
+Type: ooze
+Perception: +11
+Subtype: Mythic
+Experience points: 6,400
+:::
 
-**Mythic rank:** 3
+### Defense
 
-**blindsight:** 60
+::: statblock
+Armor class: 23
+Touch: 4
+Flat-footed: 23
+AC modifiers: -5 Dex, +29 natural, -1 size
+Hit points: 129 (10d8+84)
+Fort: +11
+Ref: -2
+Will: +6
+Dr: 5/epic
+Fh: 5
+Immune: electricity, [ooze traits](ref/umr/ooze-traits), piercing damage, slashing damage
+:::
 
-**Initiative:** +2, Mythic Improved Initiative
+### Offense
 
-**Size:** large
+::: statblock
+Speed: 20 ft., climb 10 ft.
+Constrict: 6d6+4 plus 1d6 acid plus grab and poison
+M Power: 3/day, surge +1d6
+Melee: slam +12 (6d6+6 plus 1d6 acid plus [grab](ref/umr/grab) and poison)
+Reach: 5
+Space: 10
+Spec Att: poison
+:::
 
-**Alignment:** Neutral
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10
+Concentration: +11
+Per day: 3/day: charm monster, vermin only, giant vermin, hold monster, vermin only, dominate monster, vermin only
+:::
 
-**Type:** ooze
+### Statistics
 
-**Perception:** +11
+::: statblock
+Ability scores: Str 18, Dex 1, Con 22, Int 5, Wis 12, Cha 13
+Base attack bonus: +7
+Combat maneuver bonus: +12 (+16 grapple)
+Combat maneuver defense: 17 (can't be tripped)
+Feats: Great Fortitude, Mythic Improved Initiative, Iron Will, Step Up, Mythic Weapon Focus (slam)
+Skills: Climb +12, Perception +11
+Special qualities: compression, control vermin, create spawn, vermin empathy
+:::
 
-**Subtype:** Mythic
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 4
-
-**Flat-footed:** 23
-
-**AC modifiers:** -5 Dex, +29 natural, -1 size
-
-**Hit points:** 129 (10d8+84)
-
-**Fort:** +11
-
-**Ref:** -2
-
-**Will:** +6
-
-**Dr:** 5/epic
-
-**Fh:** 5
-
-**Immune:** electricity, [ooze traits](ref/umr/ooze-traits), piercing damage, slashing damage
-
-**Offense**
-
-**Speed:** 20 ft., climb 10 ft.
-
-**Constrict:** 6d6+4 plus 1d6 acid plus grab and poison
-
-**M Power:** 3/day, surge +1d6
-
-**Melee:** slam +12 (6d6+6 plus 1d6 acid plus [grab](ref/umr/grab) and poison)
-
-**Reach:** 5
-
-**Space:** 10
-
-**Spec Att:** poison
-
-**Spell-Like Abilities**
-
-**Caster level:** 10
-
-**Concentration:** +11
-
-**Per day:**
-
-- 3/day: charm monster, vermin only, giant vermin, hold monster, vermin only, dominate monster,
-  vermin only
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 1, Con 22, Int 5, Wis 12, Cha 13
-
-**Base attack bonus:** +7
-
-**Combat maneuver bonus:** +12 (+16 grapple)
-
-**Combat maneuver defense:** 17 (can't be tripped)
-
-**Feats:** Great Fortitude, Mythic Improved Initiative, Iron Will, Step Up, Mythic Weapon Focus
-(slam)
-
-**Skills:** Climb +12, Perception +11
-
-**Special qualities:** compression, control vermin, create spawn, vermin empathy
-
-**Ecology**
-
-**Environment:** any underground
-
-**Organization:** solitary or nest (1 plus 7-19 [giant wasps](ref/monster/wasp-giant-wasp))
-
-**Treasure:** Standard
+::: statblock
+Environment: any underground
+Organization: solitary or nest (1 plus 7-19 [giant wasps](ref/monster/wasp-giant-wasp))
+Treasure: Standard
+:::
 
 ### Special Abilities
 

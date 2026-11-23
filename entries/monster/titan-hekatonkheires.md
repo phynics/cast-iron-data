@@ -32,118 +32,79 @@ abilities = ["48", "15", "43", "22", "19", "24"]
 _This behemoth looks like a towering humanoid with fifty heads and twice as many hands, each
 wielding a different weapon._
 
-**Challenge rating:** 24
+::: statblock
+Challenge rating: 24
+Alignment: Chaotic evil
+Size: colossal
+Initiative: +6
+Type: outsider
+Perception: +35
+Senses: All-around vision, Darkvision 120 ft., True seeing
+Subtype: Chaotic, Evil, Extraplanar
+Experience points: 1,228,800
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Size:** colossal
+::: statblock
+Armor class: 42
+Touch: 4
+Flat-footed: 40
+AC modifiers: +8 armor, +2 Dex, +30 natural, -8 size
+Hit points: 516 (24d10+384)
+Fort: +30
+Ref: +12
+Will: +18
+Defensive abilities: spell turning
+Dr: 20/epic and lawful
+Immune: aging, death effects, disease, mind-affecting effects
+Regen: 10 (epic)
+Sr: 35
+:::
 
-**Initiative:** +6
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: 60 ft.
+Melee: +3 weapon +38/+33/+28/+23 (6d6+22 plus hundred-handed whirlwind) or slam +35 (4d8+28 plus stun)
+Ranged: rock +22/+17/+12/+7 (8d8+31/18-20)
+Reach: 30
+Rock Th: 200 ft.
+Sp Extra: _[air walk](ref/spell/air-walk)_
+Space: 30
+Spec Att: stunning slam
+:::
 
-**Perception:** +35
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 20
+Concentration: +27
+Constant: air walk, spell turning, true seeing
+At will: bestow curse (DC 21), break enchantment, chain lightning (DC 23), greater dispel magic, find the path, sending
+Per day: 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)\
+1/day: dominate monster (DC 26), greater spell immunity, imprisonment (DC 26), storm of vengeance (DC 26)
+:::
 
-**Senses:** All-around vision, Darkvision 120 ft., True seeing
+### Statistics
 
-**Subtype:** Chaotic, Evil, Extraplanar
+::: statblock
+Ability scores: Str 48, Dex 15, Con 43, Int 22, Wis 19, Cha 24
+Base attack bonus: +24
+Combat maneuver bonus: +51
+Combat maneuver defense: 71
+Feats: Alertness, Cleave, Combat Expertise, Critical Focus, Great Cleave, Greater Vital Strike, Improved Bull Rush, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack, Vital Strike
+Skills: Acrobatics +29 (+41 when jumping), Bluff +34, Climb +46, Craft (any) +33, Diplomacy +31, Escape Artist +29, Intimidate +34, Knowledge (history) +30, Perception +35
+Languages: Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
+Special qualities: hands of war, planar leap
+:::
 
-**Experience points:** 1,228,800
+### Ecology
 
-**Armor class:** 42
-
-**Touch:** 4
-
-**Flat-footed:** 40
-
-**AC modifiers:** +8 armor, +2 Dex, +30 natural, -8 size
-
-**Hit points:** 516 (24d10+384)
-
-**Fort:** +30
-
-**Ref:** +12
-
-**Will:** +18
-
-**Defensive abilities:** spell turning
-
-**Dr:** 20/epic and lawful
-
-**Immune:** aging, death effects, disease, mind-affecting effects
-
-**Regen:** 10 (epic)
-
-**Sr:** 35
-
-**Offense**
-
-**Speed:** 60 ft.
-
-**Melee:** +3 weapon +38/+33/+28/+23 (6d6+22 plus hundred-handed whirlwind) or slam +35 (4d8+28 plus
-stun)
-
-**Ranged:** rock +22/+17/+12/+7 (8d8+31/18-20)
-
-**Reach:** 30
-
-**Rock Th:** 200 ft.
-
-**Sp Extra:** _[air walk](ref/spell/air-walk)_
-
-**Space:** 30
-
-**Spec Att:** stunning slam
-
-**Spell-Like Abilities**
-
-**Caster level:** 20
-
-**Concentration:** +27
-
-**Constant:**
-
-- air walk, spell turning, true seeing
-
-**At will:**
-
-- bestow curse (DC 21), break enchantment, chain lightning (DC 23), greater dispel magic, find the
-  path, sending
-
-**Per day:**
-
-- 3/day: greater scrying (DC 24), heal, mass suggestion (DC 23)
-- 1/day: dominate monster (DC 26), greater spell immunity, imprisonment (DC 26), storm of vengeance
-  (DC 26)
-
-**Statistics**
-
-**Ability scores:** Str 48, Dex 15, Con 43, Int 22, Wis 19, Cha 24
-
-**Base attack bonus:** +24
-
-**Combat maneuver bonus:** +51
-
-**Combat maneuver defense:** 71
-
-**Feats:** Alertness, Cleave, Combat Expertise, Critical Focus, Great Cleave, Greater Vital Strike,
-Improved Bull Rush, Improved Initiative, Improved Vital Strike, Lightning Reflexes, Power Attack,
-Vital Strike
-
-**Skills:** Acrobatics +29 (+41 when jumping), Bluff +34, Climb +46, Craft (any) +33, Diplomacy +31,
-Escape Artist +29, Intimidate +34, Knowledge (history) +30, Perception +35
-
-**Languages:** Abyssal, Celestial, Common; [telepathy](ref/umr/telepathy) 300 ft.
-
-**Special qualities:** hands of war, planar leap
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary
-
-**Treasure:** Triple; 50-100 various weapons, other treasure
+::: statblock
+Environment: any
+Organization: solitary
+Treasure: Triple; 50-100 various weapons, other treasure
+:::
 
 ### Special Abilities
 

@@ -27,120 +27,85 @@ special_qualities = "arcane bond (skull)"
 abilities = ["12", "15", "-", "16", "12", "15"]
 +++
 
-**Challenge rating:** 5
-
 **Human skeletal mage necromancer 3**
 
-**Initiative:** +6
+::: statblock
+Challenge rating: 5
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +8
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 1,600
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 16
+AC modifiers: +4 armor, +2 Dex, +2 natural
+Hit points: 38 (2d8+3d6+18\~5)
+Fort: +2
+Ref: +4
+Will: +8
+Chan Res: +4
+Dr: 5/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +8
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft.
+Ch N En: DC 13, 6/day, command undead only
+Melee: mwk dagger +5 (1d4+1/19-20), claw -1 (1d4) or 2 claws +4 (1d4+1) or spectral hand +6 touch (by touch spell)
+Ranged: ray +4 ranged touch (by spell)
+:::
 
-**Type:** undead
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3
+Concentration: +6
+Per day: 6/day: grave touch, 1 round
+:::
 
-**Experience points:** 1,600
+::: statblock
+title = "Prepared Spells"
+Caster level: 3
+Concentration: +6
+2nd-level spells: ghoul touch (DC 17), scorching ray, spectral hand
+1st-level spells: chill touch (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16)
+Cantrips: detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)
+Opposition Schools: Enchantment, Illusion
+:::
 
-**Armor class:** 18
+### Statistics
 
-**Touch:** 12
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 armor, +2 Dex, +2 natural
-
-**Hit points:** 38 (2d8+3d6+18\~5)
-
-**Fort:** +2
-
-**Ref:** +4
-
-**Will:** +8
-
-**Chan Res:** +4
-
-**Dr:** 5/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Ch N En:** DC 13, 6/day, command undead only
-
-**Melee:** mwk dagger +5 (1d4+1/19-20), claw -1 (1d4) or 2 claws +4 (1d4+1) or spectral hand +6
-touch (by touch spell)
-
-**Ranged:** ray +4 ranged touch (by spell)
-
-**Spell-Like Abilities**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**Per day:**
-
-- 6/day: grave touch, 1 round
-
-**Prepared Spells**
-
-**Caster level:** 3
-
-**Concentration:** +6
-
-**2nd-level spells:**
-
-- ghoul touch (DC 17), scorching ray, spectral hand
-
-**1st-level spells:**
-
-- chill touch (DC 16), mage armor, magic missile, ray of enfeeblement (DC 16)
-
-**Cantrips:**
-
-- detect magic, mage hand, ray of frost, read magic, touch of fatigue (DC 15)
-
-**Opposition Schools:** Enchantment, Illusion
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 15, Con -, Int 16, Wis 12, Cha 15
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 15
-
-**Feats:** Combat Casting, Command Undead, Improved Initiative^B^, Scribe Scroll, Silent Spell^B^,
-Spell Focus (necromancy), Toughness, Weapon Finesse
-
-**Skills:** Intimidate +8, Knowledge (arcana) +11, Perception +8, Sense Motive +9, Spellcraft +11,
-Stealth +10
-
-**Languages:** Abyssal, Common, Draconic, Undercommon
-
-**Special qualities:** arcane bond (skull)
+::: statblock
+Ability scores: Str 12, Dex 15, Con -, Int 16, Wis 12, Cha 15
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 15
+Feats: Combat Casting, Command Undead, Improved Initiative^B^, Scribe Scroll, Silent Spell^B^, Spell Focus (necromancy), Toughness, Weapon Finesse
+Skills: Intimidate +8, Knowledge (arcana) +11, Perception +8, Sense Motive +9, Spellcraft +11, Stealth +10
+Languages: Abyssal, Common, Draconic, Undercommon
+Special qualities: arcane bond (skull)
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any
-
-**Organization:** solitary or pair
-
-**Treasure:** NPC gear (mwk dagger, Iclk1);
-[spell component pouch](ref/eq-misc/spell-component-pouch), [spellbook](ref/eq-misc/spellbook),
-skull, 348 gp
+::: statblock
+Environment: any
+Organization: solitary or pair
+Treasure: NPC gear (mwk dagger, Iclk1); [spell component pouch](ref/eq-misc/spell-component-pouch), [spellbook](ref/eq-misc/spellbook), skull, 348 gp
+:::
 
 ### Description
 

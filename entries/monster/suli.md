@@ -36,83 +36,65 @@ abilities = ["15", "12", "11", "10", "9", "10"]
 _This fine-featured humanoid wears exotic clothing and has flashing eyes; his arms are sheathed in a
 blaze of crackling flames._
 
-**Challenge rating:** 1/2
-
 **Suli [ranger](ref/class/ranger) 1**
 
-**Initiative:** +1
+::: statblock
+Challenge rating: 1/2
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: -1
+Senses: Low-light vision
+Subtype: Native
+Experience points: 200
+:::
 
-**Size:** medium
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +6 armor, +1 Dex
+Hit points: 11 (1d10+1)
+Fort: +2
+Ref: +3
+Will: -1
+Resist: acid 5, cold 5, electricity 5, fire 5
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** -1
+::: statblock
+Speed: 20 ft., (30 ft. without armor)
+Fav En: humans +2
+Melee: scimitar +4 (1d6+3/18-20)
+Ranged: shortbow +2 (1d6/×3)
+Spec Att: elemental assault
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Subtype:** Native
+::: statblock
+Ability scores: Str 15, Dex 12, Con 11, Int 10, Wis 9, Cha 10
+Base attack bonus: +1
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Weapon Focus (scimitar)
+Skills: Diplomacy +3
+Racial Modifiers: +2 Diplomacy, +2 Sense Motive
+Languages: Common plus one elemental language (Auran, Aquan, Ignan, or Terran)
+Special qualities: track +1, [wild empathy](ref/ability/wild-empathy) +1
+:::
 
-**Experience points:** 200
+### Ecology
 
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +6 armor, +1 Dex
-
-**Hit points:** 11 (1d10+1)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** -1
-
-**Resist:** acid 5, cold 5, electricity 5, fire 5
-
-**Offense**
-
-**Speed:** 20 ft., (30 ft. without armor)
-
-**Fav En:** humans +2
-
-**Melee:** scimitar +4 (1d6+3/18-20)
-
-**Ranged:** shortbow +2 (1d6/×3)
-
-**Spec Att:** elemental assault
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 12, Con 11, Int 10, Wis 9, Cha 10
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Weapon Focus (scimitar)
-
-**Skills:** Diplomacy +3
-
-**Racial Modifiers:** +2 Diplomacy, +2 Sense Motive
-
-**Languages:** Common plus one elemental language (Auran, Aquan, Ignan, or Terran)
-
-**Special qualities:** track +1, [wild empathy](ref/ability/wild-empathy) +1
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** single, pair, or group (3-6)
-
-**Treasure:** NPC gear (chainmail, scimitar, sb20); other treasure
+::: statblock
+Environment: any
+Organization: single, pair, or group (3-6)
+Treasure: NPC gear (chainmail, scimitar, sb20); other treasure
+:::
 
 ### Special Abilities
 

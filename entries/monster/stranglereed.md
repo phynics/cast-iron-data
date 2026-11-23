@@ -34,94 +34,69 @@ abilities = ["25", "20", "21", "1", "12", "6"]
 
 _This tangled mass of thick reeds extends from a bulbous pod split by a wide, thorn-toothed maw._
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Initiative: +9
+Size: large
+Alignment: Neutral
+Perception: +10
+Senses: Low-light vision
+Type: plant
+Subtype: Aquatic
+Experience points: 6,400
+:::
 
-**Initiative:** +9
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 18
+AC modifiers: +5 Dex, +9 natural, -1 size
+Hit points: 114 (12d8+60)
+Fort: +13
+Ref: +11
+Will: +5
+Defensive abilities: all-around vision
+Dr: 5/slashing
+Immune: [plant traits](ref/umr/plant-traits)
+Vulner: fire
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Perception:** +10
+::: statblock
+Speed: 5 ft., climb 10 ft., swim 20 ft.
+Constrict: 2d8+7
+Grab: present
+Melee: 2 tendrils +16 (2d8+7 plus grab), bite +15 (1d8+7)
+Pull: tendril, 5 ft.
+Reach: 10
+Reach P: 5 ft. with bite
+Space: 10
+Spec Att: suffocate
+Strangle: present
+:::
 
-**Senses:** Low-light vision
+### Statistics
 
-**Type:** plant
+::: statblock
+Ability scores: Str 25, Dex 20, Con 21, Int 1, Wis 12, Cha 6
+Base attack bonus: +9
+Combat maneuver bonus: +17 (+21 grapple)
+Combat maneuver defense: 32 (can't be tripped)
+Feats: Improved Initiative, Lightning Reflexes, Lunge, Skill Focus (Stealth), Stealthy, Weapon Focus (tendrils)
+Skills: Climb +15
+Special qualities: [freeze](ref/umr/freeze), water dependency
+:::
 
-**Subtype:** Aquatic
+### Ecology
 
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 18
-
-**AC modifiers:** +5 Dex, +9 natural, -1 size
-
-**Hit points:** 114 (12d8+60)
-
-**Fort:** +13
-
-**Ref:** +11
-
-**Will:** +5
-
-**Defensive abilities:** all-around vision
-
-**Dr:** 5/slashing
-
-**Immune:** [plant traits](ref/umr/plant-traits)
-
-**Vulner:** fire
-
-**Offense**
-
-**Speed:** 5 ft., climb 10 ft., swim 20 ft.
-
-**Constrict:** 2d8+7
-
-**Grab:** present
-
-**Melee:** 2 tendrils +16 (2d8+7 plus grab), bite +15 (1d8+7)
-
-**Pull:** tendril, 5 ft.
-
-**Reach:** 10
-
-**Reach P:** 5 ft. with bite
-
-**Space:** 10
-
-**Spec Att:** suffocate
-
-**Strangle:** present
-
-**Statistics**
-
-**Ability scores:** Str 25, Dex 20, Con 21, Int 1, Wis 12, Cha 6
-
-**Base attack bonus:** +9
-
-**Combat maneuver bonus:** +17 (+21 grapple)
-
-**Combat maneuver defense:** 32 (can't be tripped)
-
-**Feats:** Improved Initiative, Lightning Reflexes, Lunge, Skill Focus (Stealth), Stealthy, Weapon
-Focus (tendrils)
-
-**Skills:** Climb +15
-
-**Special qualities:** [freeze](ref/umr/freeze), water dependency
-
-**Ecology**
-
-**Environment:** warm rivers or lakes
-
-**Organization:** solitary or patch (2-6)
-
-**Treasure:** Incidental
+::: statblock
+Environment: warm rivers or lakes
+Organization: solitary or patch (2-6)
+Treasure: Incidental
+:::
 
 ### Special Abilities
 

@@ -31,88 +31,67 @@ abilities = ["12", "20", "-", "9", "13", "19"]
 _With the size and appearance of a small child, this wrinkled grey figure has crimson eyes and
 jagged teeth._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Initiative: +9
+Perception: +16
+Senses: Darkvision 60 ft., Scent
+Size: small
+Type: undead
+Experience points: 2,400
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Initiative:** +9
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 13
+AC modifiers: +5 Dex, +1 dodge, +2 natural, +1 size
+Hit points: 76 (9d8+36)
+Fort: +7
+Ref: +8
+Will: +7
+Immune: [undead traits](ref/umr/undead-traits)
+:::
 
-**Perception:** +16
+### Offense
 
-**Senses:** Darkvision 60 ft., Scent
+::: statblock
+Speed: 5 ft., fly 40 ft. (good)
+Melee: 2 claws +13 (1d6+5), bite +12 (1d6+5/15-20)
+Spec Att: hobbling gait, ravaging despair, sanguinary rejuvenation
+:::
 
-**Size:** small
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 9
+Concentration: +13
+At will: suggestion (DC 16)
+Per day: 1/day: crushing despair (DC 17), dimension door, shout (DC 18)
+:::
 
-**Type:** undead
+### Statistics
 
-**Experience points:** 2,400
+::: statblock
+Ability scores: Str 12, Dex 20, Con -, Int 9, Wis 13, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +6
+Combat maneuver defense: 22
+Feats: Dodge, Improved Critical (bite), Improved Initiative, Shadow Strike, Skill Focus (Perception), Weapon Finesse, Weapon Focus (claw)
+Skills: Fly +19, Perception +16, Sense Motive +8, Stealth +21
+Languages: Common; [telepathy](ref/umr/telepathy) 50 ft.
+Special qualities: sound mimicry (voices)
+:::
 
-**Armor class:** 19
+### Ecology
 
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +1 dodge, +2 natural, +1 size
-
-**Hit points:** 76 (9d8+36)
-
-**Fort:** +7
-
-**Ref:** +8
-
-**Will:** +7
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Offense**
-
-**Speed:** 5 ft., fly 40 ft. (good)
-
-**Melee:** 2 claws +13 (1d6+5), bite +12 (1d6+5/15-20)
-
-**Spec Att:** hobbling gait, ravaging despair, sanguinary rejuvenation
-
-**Spell-Like Abilities**
-
-**Caster level:** 9
-
-**Concentration:** +13
-
-**At will:**
-
-- suggestion (DC 16)
-
-**Per day:**
-
-- 1/day: crushing despair (DC 17), dimension door, shout (DC 18)
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 20, Con -, Int 9, Wis 13, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Improved Critical (bite), Improved Initiative, Shadow Strike, Skill Focus
-(Perception), Weapon Finesse, Weapon Focus (claw)
-
-**Skills:** Fly +19, Perception +16, Sense Motive +8, Stealth +21
-
-**Languages:** Common; [telepathy](ref/umr/telepathy) 50 ft.
-
-**Special qualities:** sound mimicry (voices)
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary
-
-**Treasure:** None
+::: statblock
+Environment: any forests
+Organization: solitary
+Treasure: None
+:::
 
 ### Special Abilities
 

@@ -33,79 +33,62 @@ still clutch a short spear and a round bronze shield. Yet, beneath its decrepit 
 bones, a deftness and deadly intent linger on, embodied in a hellish light smoldering in its
 shadowed eye sockets._
 
-**Challenge rating:** 6
+::: statblock
+Challenge rating: 6
+Initiative: +6
+Size: medium
+Alignment: Neutral evil
+Perception: +13
+Senses: Darkvision 60 ft.
+Type: undead
+Experience points: 2,400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 21
+Touch: 12
+Flat-footed: 19
+AC modifiers: +6 armor, +2 Dex, +2 natural, +1 shield
+Hit points: 76 (8d8+40)
+Fort: +6
+Ref: +4
+Will: +8
+Defensive abilities: united resistance
+Dr: 10/bludgeoning
+Immune: cold, [undead traits](ref/umr/undead-traits)
+Sr: 17
+:::
 
-**Alignment:** Neutral evil
+### Offense
 
-**Perception:** +13
+::: statblock
+Speed: 30 ft.
+Melee: spear +10 (1d8+4/×3) or 2 claws +10 (1d4+4)
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 19, Dex 14, Con -, Int 11, Wis 14, Cha 19
+Base attack bonus: +6
+Combat maneuver bonus: +10
+Combat maneuver defense: 22
+Feats: Combat Expertise, Improved Disarm, Improved Initiative, Toughness
+Skills: Acrobatics +5, Climb +10, Perception +13, Stealth +8
+Racial Modifiers: +8 Stealth while using disjoin
+Languages: Common (can't speak)
+Special qualities: deadly ally, disjoin
+:::
 
-**Experience points:** 2,400
+### Ecology
 
-**Armor class:** 21
-
-**Touch:** 12
-
-**Flat-footed:** 19
-
-**AC modifiers:** +6 armor, +2 Dex, +2 natural, +1 shield
-
-**Hit points:** 76 (8d8+40)
-
-**Fort:** +6
-
-**Ref:** +4
-
-**Will:** +8
-
-**Defensive abilities:** united resistance
-
-**Dr:** 10/bludgeoning
-
-**Immune:** cold, [undead traits](ref/umr/undead-traits)
-
-**Sr:** 17
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** spear +10 (1d8+4/×3) or 2 claws +10 (1d4+4)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 14, Con -, Int 11, Wis 14, Cha 19
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 22
-
-**Feats:** Combat Expertise, Improved Disarm, Improved Initiative, Toughness
-
-**Skills:** Acrobatics +5, Climb +10, Perception +13, Stealth +8
-
-**Racial Modifiers:** +8 Stealth while using disjoin
-
-**Languages:** Common (can't speak)
-
-**Special qualities:** deadly ally, disjoin
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary, pair, troop (3-18)
-
-**Treasure:** Standard (breastplate, buckler, spear)
+::: statblock
+Environment: any
+Organization: solitary, pair, troop (3-18)
+Treasure: Standard (breastplate, buckler, spear)
+:::
 
 ### Special Abilities
 

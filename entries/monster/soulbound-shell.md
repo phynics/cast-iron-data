@@ -29,113 +29,74 @@ abilities = ["13", "13", "-", "20", "10", "13"]
 
 _This white statue of a bald human is marbled with glowing green veins of energy._
 
-**Challenge rating:** 12
+::: statblock
+Challenge rating: 12
+Type: construct
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Perception: +15
+Senses: Darkvision 60 ft., Low-light vision
+Experience points: 19,200
+:::
 
-**Type:** construct
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 26
+Touch: 11
+Flat-footed: 25
+AC modifiers: +4 armor, +1 Dex, +11 natural
+Hit points: 132 (15d10+50)
+Fort: +5
+Ref: +6
+Will: +7
+Dr: 10/adamantine and magic
+Immune: [construct traits](ref/umr/construct-traits)
+Sr: 23
+Weaknesses: cemented mind, susceptible to mind-affecting effects
+:::
 
-**Size:** medium
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +17/+12/+7 (1d4+1/19-20)
+:::
 
-**Perception:** +15
+::: statblock
+title = "Prepared Spells"
+Caster level: 12
+Concentration: +17
+6th-level spells: beast shape IV, disintegrate (DC 21)
+5th-level spells: cloudkill (2, DC 22), dominate person (DC 21), passwall
+4th-level spells: black tentacles, 2, fire shield, shout (DC 19)
+3rd-level spells: fly, lightning bolt (2, DC 18), stinking cloud (2, DC 20)
+2nd-level spells: false life, already cast, glitterdust (DC 19), hideous laughter (DC 18), make whole, mirror image
+1st-level spells: charm person (2, DC 17), expeditious retreat, grease (DC 18), mage armor, already cast, unseen servant
+Cantrips: acid splash, detect magic, mage hand, read magic
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Experience points:** 19,200
+::: statblock
+Ability scores: Str 13, Dex 13, Con -, Int 20, Wis 10, Cha 13
+Base attack bonus: +15
+Combat maneuver bonus: +16
+Combat maneuver defense: 27
+Feats: Combat Casting, Craft Construct, Greater Spell Focus (conjuration), Improved Iron Will, Iron Will, Skill Focus (Spellcraft), Spell Focus (conjuration), Spell Focus (enchantment), Toughness
+Skills: Craft (sculptures) +20, Disguise +16, Spellcraft +26, Use Magic Device +16
+Languages: Aklo, Common, Draconic
+Special qualities: soul focus
+:::
 
-**Armor class:** 26
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 25
-
-**AC modifiers:** +4 armor, +1 Dex, +11 natural
-
-**Hit points:** 132 (15d10+50)
-
-**Fort:** +5
-
-**Ref:** +6
-
-**Will:** +7
-
-**Dr:** 10/adamantine and magic
-
-**Immune:** [construct traits](ref/umr/construct-traits)
-
-**Sr:** 23
-
-**Weaknesses:** cemented mind, susceptible to mind-affecting effects
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** mwk dagger +17/+12/+7 (1d4+1/19-20)
-
-**Prepared Spells**
-
-**Caster level:** 12
-
-**Concentration:** +17
-
-**6th-level spells:**
-
-- beast shape IV, disintegrate (DC 21)
-
-**5th-level spells:**
-
-- cloudkill (2, DC 22), dominate person (DC 21), passwall
-
-**4th-level spells:**
-
-- black tentacles, 2, fire shield, shout (DC 19)
-
-**3rd-level spells:**
-
-- fly, lightning bolt (2, DC 18), stinking cloud (2, DC 20)
-
-**2nd-level spells:**
-
-- false life, already cast, glitterdust (DC 19), hideous laughter (DC 18), make whole, mirror image
-
-**1st-level spells:**
-
-- charm person (2, DC 17), expeditious retreat, grease (DC 18), mage armor, already cast, unseen
-  servant
-
-**Cantrips:**
-
-- acid splash, detect magic, mage hand, read magic
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 13, Con -, Int 20, Wis 10, Cha 13
-
-**Base attack bonus:** +15
-
-**Combat maneuver bonus:** +16
-
-**Combat maneuver defense:** 27
-
-**Feats:** Combat Casting, Craft Construct, Greater Spell Focus (conjuration), Improved Iron Will,
-Iron Will, Skill Focus (Spellcraft), Spell Focus (conjuration), Spell Focus (enchantment), Toughness
-
-**Skills:** Craft (sculptures) +20, Disguise +16, Spellcraft +26, Use Magic Device +16
-
-**Languages:** Aklo, Common, Draconic
-
-**Special qualities:** soul focus
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary or workshop (1 plus 2-8 other constructs)
-
-**Treasure:** Standard (mwk dagger); other treasure
+::: statblock
+Environment: any land
+Organization: solitary or workshop (1 plus 2-8 other constructs)
+Treasure: Standard (mwk dagger); other treasure
+:::
 
 ### Special Abilities
 

@@ -31,77 +31,61 @@ abilities = ["4", "12", "-", "3", "9", "11"]
 
 _A jumble of melted bones and skull fragments float amid an oozing brown and yellow slurry._
 
-**Challenge rating:** 1/4
+::: statblock
+Challenge rating: 1/4
+Initiative: +1
+Alignment: Neutral evil
+Perception: +6
+Senses: Darkvision 60 ft.
+Size: tiny
+Type: undead
+Experience points: 100
+:::
 
-**Initiative:** +1
+### Defense
 
-**Alignment:** Neutral evil
+::: statblock
+Armor class: 13
+Touch: 13
+Flat-footed: 12
+AC modifiers: +1 Dex, +2 size
+Hit points: 9 (2d8)
+Fort: +0
+Ref: +1
+Will: +1
+Amorph: present
+Immune: [undead traits](ref/umr/undead-traits)
+Resist: acid 5
+:::
 
-**Perception:** +6
+### Offense
 
-**Senses:** Darkvision 60 ft.
+::: statblock
+Speed: 30 ft., climb 20 ft., swim 20 ft.
+Melee: +3 (1d3-3 plus 1 acid)
+Reach: 0
+Space: 2-1/2
+:::
 
-**Size:** tiny
+### Statistics
 
-**Type:** undead
+::: statblock
+Ability scores: Str 4, Dex 12, Con -, Int 3, Wis 9, Cha 11
+Base attack bonus: +1
+Combat maneuver bonus: +0
+Combat maneuver defense: 7 (can't be tripped)
+Feats: Skill Focus (Perception), Weapon Finesse
+Skills: Climb +9
+Languages: Common (can't speak)
+:::
 
-**Experience points:** 100
+### Ecology
 
-**Armor class:** 13
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +1 Dex, +2 size
-
-**Hit points:** 9 (2d8)
-
-**Fort:** +0
-
-**Ref:** +1
-
-**Will:** +1
-
-**Amorph:** present
-
-**Immune:** [undead traits](ref/umr/undead-traits)
-
-**Resist:** acid 5
-
-**Offense**
-
-**Speed:** 30 ft., climb 20 ft., swim 20 ft.
-
-**Melee:** +3 (1d3-3 plus 1 acid)
-
-**Reach:** 0
-
-**Space:** 2-1/2
-
-**Statistics**
-
-**Ability scores:** Str 4, Dex 12, Con -, Int 3, Wis 9, Cha 11
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +0
-
-**Combat maneuver defense:** 7 (can't be tripped)
-
-**Feats:** Skill Focus (Perception), Weapon Finesse
-
-**Skills:** Climb +9
-
-**Languages:** Common (can't speak)
-
-**Ecology**
-
-**Environment:** any
-
-**Organization:** solitary or pack (2-5)
-
-**Treasure:** None
+::: statblock
+Environment: any
+Organization: solitary or pack (2-5)
+Treasure: None
+:::
 
 ### Description
 

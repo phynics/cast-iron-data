@@ -29,75 +29,60 @@ abilities = ["23", "15", "17", "2", "12", "6"]
 _This powerful feline predator moves with a deadly grace, its reddish-orange fur slashed with black
 stripes._
 
-**Challenge rating:** 4
+::: statblock
+Challenge rating: 4
+Type: animal
+Initiative: +6
+Size: large
+Alignment: Neutral
+Perception: +8
+Senses: Low-light vision, Scent
+Experience points: 1,200
+:::
 
-**Type:** animal
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 14
+Touch: 11
+Flat-footed: 12
+AC modifiers: +2 Dex, +3 natural, -1 size
+Hit points: 45 (6d8+18)
+Fort: +8
+Ref: +7
+Will: +3
+:::
 
-**Size:** large
+### Offense
 
-**Alignment:** Neutral
+::: statblock
+Speed: 40 ft.
+Melee: 2 claws +10 (1d8+6 plus [grab](ref/umr/grab)), bite +9 (2d6+6 plus grab)
+Pounce: present
+Rake: 2 claws +10, 1d8+6
+Reach: 5
+Space: 10
+:::
 
-**Perception:** +8
+### Statistics
 
-**Senses:** Low-light vision, Scent
+::: statblock
+Ability scores: Str 23, Dex 15, Con 17, Int 2, Wis 12, Cha 6
+Base attack bonus: +4
+Combat maneuver bonus: +11 (+15 grapple)
+Combat maneuver defense: 23 (27 vs. trip)
+Feats: Improved Initiative, Skill Focus (Perception), Weapon Focus (claw)
+Skills: Acrobatics +10, Perception +8, Stealth +7 (+11 in areas of tall grass), Swim +11
+Racial Modifiers: +4 Acrobatics, +4 Stealth (+8 in tall grass)
+:::
 
-**Experience points:** 1,200
+### Ecology
 
-**Armor class:** 14
-
-**Touch:** 11
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +3 natural, -1 size
-
-**Hit points:** 45 (6d8+18)
-
-**Fort:** +8
-
-**Ref:** +7
-
-**Will:** +3
-
-**Offense**
-
-**Speed:** 40 ft.
-
-**Melee:** 2 claws +10 (1d8+6 plus [grab](ref/umr/grab)), bite +9 (2d6+6 plus grab)
-
-**Pounce:** present
-
-**Rake:** 2 claws +10, 1d8+6
-
-**Reach:** 5
-
-**Space:** 10
-
-**Statistics**
-
-**Ability scores:** Str 23, Dex 15, Con 17, Int 2, Wis 12, Cha 6
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +11 (+15 grapple)
-
-**Combat maneuver defense:** 23 (27 vs. trip)
-
-**Feats:** Improved Initiative, Skill Focus (Perception), Weapon Focus (claw)
-
-**Skills:** Acrobatics +10, Perception +8, Stealth +7 (+11 in areas of tall grass), Swim +11
-
-**Racial Modifiers:** +4 Acrobatics, +4 Stealth (+8 in tall grass)
-
-**Ecology**
-
-**Environment:** any forests
-
-**Organization:** solitary or pair
-
-**Treasure:** None
+::: statblock
+Environment: any forests
+Organization: solitary or pair
+Treasure: None
+:::
 
 ### Description
 
