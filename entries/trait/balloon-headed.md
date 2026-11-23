@@ -7,6 +7,12 @@ source_ids = ["goblins-of-golarion", "we-be-goblins"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "balloon_headed", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "goblins-of-golarion"
+page = "16"
+[[sources]]
+publication = "we-be-goblins"
+page = "12"
 
 [fields]
 kind = "trait"

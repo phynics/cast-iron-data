@@ -7,6 +7,9 @@ source_ids = ["heroes-of-the-high-court"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bureaucrats_favored", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-high-court"
+page = "2"
 
 [fields]
 kind = "trait"

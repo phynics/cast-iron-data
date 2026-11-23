@@ -7,6 +7,12 @@ source_ids = ["curse-of-the-crimson-throne", "curse-of-the-crimson-throne-player
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "drug_addict", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "curse-of-the-crimson-throne"
+page = "8"
+[[sources]]
+publication = "curse-of-the-crimson-throne-players-guide"
+page = "15"
 
 [fields]
 kind = "trait"

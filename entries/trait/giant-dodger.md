@@ -7,6 +7,9 @@ source_ids = ["giant-hunters-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "giant_dodger", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "giant-hunters-handbook"
+page = "12"
 
 [fields]
 kind = "trait"

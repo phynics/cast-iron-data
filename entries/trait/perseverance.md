@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "dwarves-of-golarion"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "perseverance", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "7"
+[[sources]]
+publication = "dwarves-of-golarion"
+page = "11"
 
 [fields]
 kind = "trait"

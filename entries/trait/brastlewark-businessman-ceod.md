@@ -6,6 +6,9 @@ source_ids = ["cheliax-empire-of-devils"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "brastlewark_businessman_ceod", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "cheliax-empire-of-devils"
+page = "19"
 
 [fields]
 kind = "trait"

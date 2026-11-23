@@ -7,6 +7,9 @@ source_ids = ["dirty-tactics-toolbox"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bauble_fascination", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "dirty-tactics-toolbox"
+page = "23"
 
 [fields]
 kind = "trait"

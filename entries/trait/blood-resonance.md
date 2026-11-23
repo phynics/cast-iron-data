@@ -7,6 +7,9 @@ source_ids = ["cohorts-and-companions"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "blood_resonance", path = "json/traits03.json" },
 ]
+[[sources]]
+publication = "cohorts-and-companions"
+page = "18"
 
 [fields]
 kind = "trait"

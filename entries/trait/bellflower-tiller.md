@@ -7,6 +7,9 @@ source_ids = ["faction-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bellflower_tiller", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "faction-guide"
+page = "63"
 
 [fields]
 kind = "trait"

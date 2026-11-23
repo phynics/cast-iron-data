@@ -7,6 +7,12 @@ source_ids = ["inner-sea-primer", "legacy-of-fire-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "merchants_child", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "inner-sea-primer"
+page = "10"
+[[sources]]
+publication = "legacy-of-fire-players-guide"
+page = "7"
 
 [fields]
 kind = "trait"

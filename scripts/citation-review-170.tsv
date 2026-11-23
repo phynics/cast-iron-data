@@ -827,18 +827,40 @@ ref/racial-trait/human/skilled	racial_trait	occult-adventures	book-differs		the 
 ref/racial-trait/human/skilled	racial_trait	ultimate-intrigue	book-differs		the reference lists the entry only in other books
 ref/racial-trait/human/skilled	racial_trait	ultimate-wilderness	book-differs		the reference lists the entry only in other books
 ref/carried/advanced-players-guide/rules/new-rules/traits/religion-traits/divine-courtesan	trait	advanced-players-guide	no-page		
+ref/trait/abject-belief	trait	faiths-and-philosophies	page-format	0	
 ref/trait/absolute-loyalty	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/affinity-for-the-elements	trait	faiths-of-corruption	unconfirmed	19	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/born-free	trait	faiths-and-philosophies	page-format	0	
+ref/trait/bound-by-honor	trait	faiths-and-philosophies	page-format	0	
+ref/trait/chosen-of-iomedae	trait	champions-of-purity	unconfirmed	13	title not found on the proposed page or the two pages around it
+ref/trait/crisis-of-faith	trait	faiths-and-philosophies	page-format	0	
 ref/trait/demon-hunter	trait	advanced-players-guide	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	cheliax-empire-of-devils	book-differs		the reference lists the entry only in other books
 ref/trait/demon-hunter	trait	ultimate-campaign	book-differs		the reference lists the entry only in other books
+ref/trait/devout-visionary	trait	faiths-and-philosophies	page-format	0	
+ref/trait/divine-denier	trait	faiths-and-philosophies	page-format	0	
 ref/trait/dueling-cloak-adept	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/elven-polytheist	trait	faiths-of-purity	unconfirmed	20	title not found on the proposed page or the two pages around it
 ref/trait/favored-son-or-daughter	trait	advanced-players-guide	no-page		
 ref/trait/godclaw-disciple	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/hellknight-inquisitor	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/inspiring-rush	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/mischievous-smile	trait	divine-anthology	no-page		
+ref/trait/monastic	trait	faiths-and-philosophies	page-format	0	
+ref/trait/nature-worshiper	trait	faiths-and-philosophies	page-format	0	
+ref/trait/proxy-of-many	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/questing-hellknight	trait	path-of-the-hellknight	unconfirmed	56	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/trait/scourge-of-the-seas	trait	inner-sea-npc-codex	book-differs		the reference lists the entry only in other books
+ref/trait/self-actualization	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/trait/steel-skin	trait	knights-of-the-inner-sea	page-format	0	
+ref/trait/totemist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/traditionalist	trait	divine-anthology	book-differs		the reference lists the entry only in other books
+ref/trait/traditionalist	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/treerazers-bane	trait	elves-of-golarion	no-page		
+ref/trait/treerazers-bane	trait	inner-sea-primer	no-page		
+ref/trait/underlying-principles	trait	faiths-of-balance	unconfirmed	15	title not found on the proposed page or the two pages around it, nor as a heading in the book
+ref/trait/wendifa-apprentice	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
+ref/trait/zealots-bearing	trait	faiths-and-philosophies	unconfirmed	33	title not found on the proposed page or the two pages around it
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/acid-drop-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragon-dung-pit-trap	trap	monster-codex	no-page		
 ref/carried/monster-codex/rules/kobolds/new-rules/kobold-traps/dragonfire-trap	trap	monster-codex	no-page		
