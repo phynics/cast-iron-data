@@ -2978,7 +2978,7 @@ ref/discovery/aromatic-extract	heroes-of-the-high-court	10	print
 ref/discovery/celestial-poisons	champions-of-purity	24	print	
 ref/discovery/change-alignment	champions-of-purity	24	print		title text only (no heading form): the name is on page 24 and on none of the two pages each side
 ref/discovery/constructive-dyes	heroes-of-golarion	25	print	
-ref/discovery/cursed-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/cursed-bomb	champions-of-corruption	26	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/divine-inks	heroes-of-golarion	25	print	
 ref/discovery/dread-bomb	distant-realms	52	print	
 ref/discovery/elemental-destabilizers	elemental-masters-handbook	30	print		proposal 31, print 30: heading on exactly one page within two pages of the proposal
@@ -2998,7 +2998,7 @@ ref/discovery/nostrum	heroes-of-the-high-court	11	print
 ref/discovery/pickled-quasit	champions-of-corruption	26	print	
 ref/discovery/plague-vector	champions-of-corruption	26	print	
 ref/discovery/poisoned-explosive	dirty-tactics-toolbox	7	print		title text only (no heading form): the name is on page 7 and on none of the two pages each side
-ref/discovery/profane-bomb	champions-of-corruption		unconfirmed	only a short title is on the proposed page, which proves little
+ref/discovery/profane-bomb	champions-of-corruption	26	print		the alchemist discovery is printed as a heading (name, asterisk, colon) on this page
 ref/discovery/psychoactive-bomb	blood-of-the-moon	15	print		title text only (no heading form): the name is on page 15 and on none of the two pages each side
 ref/discovery/purging-mutagen	healers-handbook	11	print	
 ref/discovery/ranged-baptism	champions-of-purity	24	print		the alchemical discovery is printed under its name (Greater Change Alignment as Change Alignment, Greater) on this page
