@@ -12,6 +12,7 @@ publication = "inner-sea-gods"
 page = "223"
 [[sources]]
 publication = "faiths-of-balance"
+page = "15"
 
 [fields]
 kind = "trait"
