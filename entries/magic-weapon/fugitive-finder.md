@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 8th\
-**Slot** none; **Price** 12,655 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 8th
+Slot: none
+Price: 12,655 gp
+Weight: 4 lbs.
+:::
 
 This human-[bane](ref/magic-enh/bane) [light crossbow](ref/eq-weapon/light-crossbow) has a
 gold-colored metal lath and a keyhole-shaped slot for the bolt to rest in. The wielder gains a
@@ -32,6 +37,7 @@ instead of human-bane, giving the wielder a better opportunity to capture a flee
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[longstrider](ref/spell/longstrider), [summon monster I](ref/spell/summon-monster-1); **Price**
-6,495 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [longstrider](ref/spell/longstrider), [summon monster I](ref/spell/summon-monster-1)
+Price: 6,495 gp
+:::

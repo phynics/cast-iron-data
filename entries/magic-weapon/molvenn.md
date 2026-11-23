@@ -22,8 +22,13 @@ caster_level = "15th"
 
 ## Molvënn
 
-**Aura** strong necromancy and transmutation; **CL** 15th\
-**Slot** none; **Price** 63,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 15th
+Slot: none
+Price: 63,312 gp
+Weight: 5 lbs.
+:::
 
 This heavy warhammer is capped with steel spikes on both ends of its massive head, and a leather
 thong prevents it from falling from the wielder's hand. Molvënn is a +3
@@ -38,5 +43,7 @@ Molvënn two-handed. Additionally, while Molvënn's wielder is raging, she canno
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [rage](ref/spell/rage); **Price** 31,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [rage](ref/spell/rage)
+Price: 31,812 gp
+:::

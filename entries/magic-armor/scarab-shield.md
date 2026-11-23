@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** shield; **Price** 4,399 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: shield
+Price: 4,399 gp
+Weight: 6 lbs.
+:::
 
 This +1 [light steel shield](ref/eq-armor/light-steel-shield) is fashioned in the shape of a
 [scarab beetle](ref/monster/beetle-scarab-beetle) - a creature that functions as a psychopomp for
@@ -43,6 +48,7 @@ or otherwise act without ending the effect. This ability functions once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blessing of courage and life](ref/spell/blessing-of-courage-and-life),
-[sanctuary](ref/spell/sanctuary); **Price** 2,279 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blessing of courage and life](ref/spell/blessing-of-courage-and-life), [sanctuary](ref/spell/sanctuary)
+Price: 2,279 gp
+:::

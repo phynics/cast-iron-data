@@ -22,8 +22,13 @@ caster_level = "varies"
 
 ## Boulder Bullet
 
-**Aura** moderate or strong enchantment; **CL** varies\
-**Slot** none; **Price** lesser (806 gp), normal (1,966 gp), greater (4,006 gp); **Weight** 1/2 lb.
+::: statblock
+Aura: moderate or strong enchantment
+CL: varies
+Slot: none
+Price: lesser (806 gp), normal (1,966 gp), greater (4,006 gp)
+Weight: 1/2 lb.
+:::
 
 A boulder bullet appears to be a magical [sling bullet](ref/eq-weapon/sling-bullets) when held, but
 it is actually a shrunken piece of catapult ammunition. A boulder bullet expands rapidly when
@@ -46,5 +51,7 @@ the size of heavy catapult ammunition, increasing its base damage to 8d6.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 406 gp (lesser), 986 gp (normal), 2,006 gp (greater)
+:::

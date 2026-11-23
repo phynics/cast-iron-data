@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 Long ago, the tyrannical elemental lords waged war on their benevolent counterparts and imprisoned
 them in powerful, unique artifacts. This lost artifact imprisons Lysianassa, Empress of the Torrent,

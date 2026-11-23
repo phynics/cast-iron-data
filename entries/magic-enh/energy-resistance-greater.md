@@ -23,13 +23,20 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** armor/shield quality; **Price** +66,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: armor/shield quality
+Price: +66,000 gp
+Weight: -
+:::
 
 As [energy resistance](ref/magic-enh/energy-resistance), except it absorbs the first 30 points of
 energy damage per attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy); **Price** +33,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy)
+Price: +33,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 This armor protects its wearer from harmful negative and positive energy, including
 [channeled energy](ref/ability/channel-energy). The armor absorbs the first 10 points of positive or
@@ -33,5 +38,7 @@ armor of any sort, but not shields.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death ward](ref/spell/death-ward); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death ward](ref/spell/death-ward)
+Price: +1 bonus
+:::

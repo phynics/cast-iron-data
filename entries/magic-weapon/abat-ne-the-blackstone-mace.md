@@ -21,8 +21,13 @@ aura = "strong abjuration"
 caster_level = "10th"
 +++
 
-**Aura** strong abjuration; **CL** 10th\
-**Slot** weapon; **Price** 51,005 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 10th
+Slot: weapon
+Price: 51,005 gp
+Weight: 5 lbs.
+:::
 
 Abat-Ne, better known as the Blackstone Mace, is a +2 [defiant](ref/magic-enh/defiant-weapon)
 [light mace](ref/eq-weapon/light-mace) named for the fist-sized mystic ebon stone that serves as the
@@ -51,9 +56,10 @@ commits to vanquishing an opponent, it proves relentless in fulfilling its purpo
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Heroic Defiance](ref/feat/heroic-defiance), [break enchantment](ref/spell/break-enchantment),
-[stabilize](ref/spell/stabilize); **Price** 40,600 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Heroic Defiance](ref/feat/heroic-defiance), [break enchantment](ref/spell/break-enchantment), [stabilize](ref/spell/stabilize)
+Price: 40,600 gp
+:::
 
 ### Statistics
 

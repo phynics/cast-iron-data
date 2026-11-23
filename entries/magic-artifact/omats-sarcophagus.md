@@ -20,8 +20,13 @@ aura = "overwhelming conjuration"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1,500 lbs.
+::: statblock
+Aura: overwhelming conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1,500 lbs.
+:::
 
 Omat's Sarcophagus is similar in appearance to the sarcophagi used in the burial rites of many
 ancient pharaohs. It is constructed from wood, and its surface is sealed with pitch and set with an

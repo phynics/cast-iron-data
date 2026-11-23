@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 20 tons
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 20 tons
+:::
 
 The cubic spiral regulates the environment around it when directed by a knowledgeable operator.
 Shallow gouges on one side of the block serve as a bed in which up to 20 tiny clusters of cubic

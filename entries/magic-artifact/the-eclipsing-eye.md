@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 20 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 30th
+Slot: none
+Price: -
+Weight: 20 lbs.
+:::
 
 The Eclipsing Eye is a +4 [adamantine](ref/eq-material/adamantine)
 [axiomatic](ref/magic-enh/axiomatic) [unholy](ref/magic-enh/unholy)

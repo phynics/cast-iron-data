@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Despite its best-known name, Vesper's Rapier is not necessarily a [rapier](ref/eq-weapon/rapier).
 This weapon is a +3 [keen](ref/magic-enh/keen) [speed](ref/magic-enh/speed) sword, with the type of

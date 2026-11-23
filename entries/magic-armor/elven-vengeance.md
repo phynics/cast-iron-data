@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** armor; **Price** 16,150 gp; **Weight** 20 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: armor
+Price: 16,150 gp
+Weight: 20 lbs.
+:::
 
 This set of +2 [elven chain](ref/eq-armor/elven-chain) grants its wearer a +4 _resistance_ bonus on
 saving throws against spells, [spell-like abilities](ref/umr/spell-like-abilities), and other
@@ -34,5 +39,7 @@ been crafted.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[detect evil](ref/spell/detect-evil), [resistance](ref/spell/resistance); **Price** 10,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [detect evil](ref/spell/detect-evil), [resistance](ref/spell/resistance)
+Price: 10,650 gp
+:::

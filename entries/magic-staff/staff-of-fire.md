@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 18,950 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 18,950 gp
+Weight: 5 lbs.
+:::
 
 Crafted from bronzewood with brass bindings, this staff allows use of the following spells:
 
@@ -35,5 +40,7 @@ Crafted from bronzewood with brass bindings, this staff allows use of the follow
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [burning hands](ref/spell/burning-hands),
-[fireball](ref/spell/fireball), [wall of fire](ref/spell/wall-of-fire); **Cost** 9,475 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [burning hands](ref/spell/burning-hands), [fireball](ref/spell/fireball), [wall of fire](ref/spell/wall-of-fire)
+Cost: 9,475 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration and necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and necromancy; **CL** 3rd\
-**Slot** armor; **Price** 2,380 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint abjuration and necromancy
+CL: 3rd
+Slot: armor
+Price: 2,380 gp
+Weight: 40 lbs.
+:::
 
 This ugly +1 [chainmail](ref/eq-armor/chainmail) resists polishing and easily acquires bent links
 and other cosmetic damage from everyday use, though such blemishes never impair its function as
@@ -32,6 +37,7 @@ _[protection from good](ref/spell/protection-from-good)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), [protection from good](ref/spell/protection-from-good),
-[Curse](ref/domain/luck) subdomain or [evil eye](ref/hex/evil-eye) hex; **Price** 1,340 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), [protection from good](ref/spell/protection-from-good), [Curse](ref/domain/luck) subdomain or [evil eye](ref/hex/evil-eye) hex
+Price: 1,340 gp
+:::

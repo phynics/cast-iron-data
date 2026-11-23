@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 16,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 16,302 gp
+Weight: 1 lb.
+:::
 
 This +1 [dagger](ref/eq-weapon/dagger) is jet black and appears to drip grains of sand from its
 blade. Once per day as an immediate action when the wielder unsuccessfully attacks, he can activate
@@ -33,6 +38,7 @@ provoke attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dimension door](ref/spell/dimension-door), [shifting sand](ref/spell/shifting-sand); **Price**
-9,302 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dimension door](ref/spell/dimension-door), [shifting sand](ref/spell/shifting-sand)
+Price: 9,302 gp
+:::

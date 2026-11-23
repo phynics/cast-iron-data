@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "12th"
 +++
 
-**Aura** moderate abjuration; **CL** 12th\
-**Slot** none; **Price** 12,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 12th
+Slot: none
+Price: 12,000 gp
+Weight: 5 lbs.
+:::
 
 This stout, dense rod is always constructed of highly conductive metal, shot through with web-like
 veins of white or yellow glass. While a creature holds a conduit rod, she gains electricity
@@ -33,6 +38,7 @@ descriptor, she can teleport anywhere that spell's effect, but is otherwise unaf
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [dimension door](ref/spell/dimension-door),
-[lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy); **Cost** 6,000
-gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [dimension door](ref/spell/dimension-door), [lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy)
+Cost: 6,000 gp
+:::

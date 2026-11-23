@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Aura** moderate evocation; **CL** 12th\
-**Slot** none; **Price** 13,801 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 12th
+Slot: none
+Price: 13,801 gp
+Weight: 2 lbs.
+:::
 
 Originally made from the winding intestines of a scrag, the first version of this +2
 [corrosive](ref/magic-enh/corrosive) [whip](ref/eq-weapon/whip) was crafted by a blood-bard who
@@ -37,5 +42,7 @@ performance combat, as the weapon's blasts of acid prevent the enemy from approa
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid arrow](ref/spell/acid-arrow), [adoration](ref/spell/adoration); **Price** 7,051 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid arrow](ref/spell/acid-arrow), [adoration](ref/spell/adoration)
+Price: 7,051 gp
+:::

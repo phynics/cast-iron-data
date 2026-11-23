@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** weapon; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: weapon
+Price: -
+Weight: 1 lb.
+:::
 
 Reprisal is an unusually well-balanced and responsive +2 rapier. Reprisal's wielder can apply her
 Dexterity modifier to damage rolls with the weapon in place of her Strength modifier - this bonus is

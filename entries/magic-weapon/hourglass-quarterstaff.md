@@ -20,8 +20,13 @@ aura = "strong conjuration, divination, and transmutation"
 caster_level = "14th"
 +++
 
-**Aura** strong conjuration, divination, and transmutation; **CL** 14th\
-**Slot** none; **Price** 63,300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration, divination, and transmutation
+CL: 14th
+Slot: none
+Price: 63,300 gp
+Weight: 4 lbs.
+:::
 
 This +1 [disruption](ref/magic-enh/disruption)/+1 [invigorating](ref/magic-enh/invigorating)
 [quarterstaff](ref/eq-weapon/quarterstaff) is a sturdy shaft of yew with heavy metal rings at each
@@ -37,6 +42,7 @@ an old woman as old.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deathwatch](ref/spell/deathwatch), [good hope](ref/spell/good-hope), [heal](ref/spell/heal),
-[threefold aspect](ref/spell/threefold-aspect); **Price** 31,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deathwatch](ref/spell/deathwatch), [good hope](ref/spell/good-hope), [heal](ref/spell/heal), [threefold aspect](ref/spell/threefold-aspect)
+Price: 31,800 gp
+:::

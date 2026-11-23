@@ -20,8 +20,13 @@ aura = "strong evocation and illusion"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation and illusion; **CL** 12th\
-**Slot** none; **Price** 11,035 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation and illusion
+CL: 12th
+Slot: none
+Price: 11,035 gp
+Weight: 2 lbs.
+:::
 
 This vicious-looking +1 [corrosive](ref/magic-enh/corrosive)
 [sawtooth sabre](ref/eq-weapon/sawtooth-sabre) has a crimson blade and a hilt that appears to be
@@ -32,5 +37,7 @@ scene of an assassination.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid arrow](ref/spell/acid-arrow), [vanish](ref/spell/vanish); **Price** 5,685 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid arrow](ref/spell/acid-arrow), [vanish](ref/spell/vanish)
+Price: 5,685 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** shield; **Price** 36,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: shield
+Price: 36,170 gp
+Weight: 15 lbs.
+:::
 
 This +1 [animated](ref/magic-enh/animated) [bashing](ref/magic-enh/bashing)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) rattles in anticipation during battle. When
@@ -36,6 +41,7 @@ shield bashing attacks, they apply to attacks made by the belligerent shield.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [animate objects](ref/spell/animate-objects); **Price**
-18,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [animate objects](ref/spell/animate-objects)
+Price: 18,170 gp
+:::

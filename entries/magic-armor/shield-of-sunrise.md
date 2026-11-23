@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "5th"
 +++
 
-**Aura** moderate evocation; **CL** 5th\
-**Slot** shield; **Price** 7,659 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 5th
+Slot: shield
+Price: 7,659 gp
+Weight: 6 lbs.
+:::
 
 This +1 [bashing](ref/magic-enh/bashing) [light steel shield](ref/eq-armor/light-steel-shield)
 features a brilliant sun motif, and always seems comfortably warm to the touch. Once per day when
@@ -38,6 +43,7 @@ creature is vulnerable to light, it is also [dazed](ref/misc/dazed) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daybreak arrow](ref/spell/daybreak-arrow), [tactical acumen](ref/spell/tactical-acumen); **Price**
-3,909 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daybreak arrow](ref/spell/daybreak-arrow), [tactical acumen](ref/spell/tactical-acumen)
+Price: 3,909 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 20,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 20,000 gp
+Weight: 4 lbs.
+:::
 
 This rod functions as a +1 [light mace](ref/eq-weapon/light-mace) and resembles the distorted femur
 of some monstrous creature. Up to three times per day when the wielder damages a creature with the
@@ -38,5 +43,7 @@ spell that can remove the effects of _[bestow curse](ref/spell/bestow-curse)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [bestow curse](ref/spell/bestow-curse)
+Cost: 10,000 gp
+:::

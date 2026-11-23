@@ -23,13 +23,20 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 1,500 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 1,500 gp
+Weight: 2 lbs.
+:::
 
 This [javelin](ref/eq-weapon/javelin) becomes a 5d6 lightning bolt when thrown (Reflex DC 14 half).
 It is consumed in the attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lightning bolt](ref/spell/lightning-bolt); **Price** 750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lightning bolt](ref/spell/lightning-bolt)
+Price: 750 gp
+:::

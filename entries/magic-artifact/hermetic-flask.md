@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This humble-looking, round-bottomed flask was used to purify one of the legendary
 [philosopher's stones](ref/magic-artifact/philosophers-stone), and acquired some special properties

@@ -20,8 +20,13 @@ aura = "strong conjuration [chaotic, evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration \[chaotic, evil\]; **CL** 15th\
-**Slot** neck; **Price** -; **Weight** -
+::: statblock
+Aura: strong conjuration \[chaotic, evil\]
+CL: 15th
+Slot: neck
+Price: -
+Weight: -
+:::
 
 A mythic amulet of the Abyss bears the rune of a single demon lord on its face, indicating the lord
 to which the amulet is attuned. At its basest, a mythic amulet of the Abyss functions as an unholy

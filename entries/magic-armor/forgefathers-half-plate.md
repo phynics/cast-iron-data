@@ -20,8 +20,13 @@ aura = "faint abjuration, divination, evocation, and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration, divination, evocation, and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 4,180 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint abjuration, divination, evocation, and transmutation
+CL: 3rd
+Slot: armor
+Price: 4,180 gp
+Weight: 50 lbs.
+:::
 
 This +1 [half-plate](ref/eq-armor/half-plate) is usually sized for a dwarf and decorated with one or
 more sacred hammer symbols of [Torag](ref/faith/torag). Once per day, the wearer may use _mending,
@@ -31,6 +36,7 @@ combat with, even if he possesses no ranks in the appropriate Knowledge skill.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[know the enemy](ref/spell/know-the-enemy), [mending](ref/spell/mending),
-[protection from evil](ref/spell/protection-from-evil), [spark](ref/spell/spark); **Price** 2,465 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [know the enemy](ref/spell/know-the-enemy), [mending](ref/spell/mending), [protection from evil](ref/spell/protection-from-evil), [spark](ref/spell/spark)
+Price: 2,465 gp
+:::

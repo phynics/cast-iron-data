@@ -20,8 +20,12 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Weight: 4 lbs.
+:::
 
 This pistol acts as a normal +2 [pistol](ref/eq-weapon/pistol), but it has a strange aversion to
 talk of peace. Anytime the wielder or an ally within line of sight that the wielder can hear
@@ -34,4 +38,7 @@ powder when the action is taken.
 
 ### Construction
 
-**Requirements** any pistol; **Cost** -
+::: statblock
+Requirements: any pistol
+Cost: -
+:::

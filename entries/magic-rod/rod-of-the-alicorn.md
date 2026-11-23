@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 25,000 gp
+Weight: 5 lbs.
+:::
 
 This twisted wooden rod resembles the horn of a [unicorn](ref/monster/unicorn). Three times per day,
 the user can touch the rod to a target as a standard action and heal it with
@@ -31,6 +36,7 @@ also cast _[neutralize poison](ref/spell/neutralize-poison)_ on a target in this
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [cure light wounds](ref/spell/cure-light-wounds),
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[neutralize poison](ref/spell/neutralize-poison), creator must be good-aligned; **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [cure light wounds](ref/spell/cure-light-wounds), [cure moderate wounds](ref/spell/cure-moderate-wounds), [neutralize poison](ref/spell/neutralize-poison), creator must be good-aligned
+Cost: 12,500 gp
+:::

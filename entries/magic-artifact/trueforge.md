@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 500 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 25th
+Slot: none
+Price: -
+Weight: 500 lbs.
+:::
 
 Formed of meteoric [adamantine](ref/eq-material/adamantine), the massive anvil known as the
 Trueforge appears and vanishes according to unknowable whims - perhaps those of a greater power,

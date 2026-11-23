@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on ranged weapons. Whenever the wielder attempts to make a
 sneak attack with a sniping weapon, the maximum distance she can be from her target increases to 45
@@ -30,5 +35,7 @@ sneak attack may be made.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[longshot](ref/spell/longshot); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [longshot](ref/spell/longshot)
+Price: -
+:::

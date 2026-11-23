@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "15th"
 +++
 
-**Aura** moderate transmutation; **CL** 15th\
-**Slot** none; **Price** 65,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 15th
+Slot: none
+Price: 65,310 gp
+Weight: 2 lbs.
+:::
 
 This +1 [dancing](ref/magic-enh/dancing) [short sword](ref/eq-weapon/short-sword) automatically
 rises up to defend a fallen or sleeping wielder. To activate the sword, the wielder must fall
@@ -37,6 +42,7 @@ wielder, it tends to select a random target each round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects),
-[mage's faithful hound](ref/spell/mages-faithful-hound); **Price** 32,810 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [mage's faithful hound](ref/spell/mages-faithful-hound)
+Price: 32,810 gp
+:::

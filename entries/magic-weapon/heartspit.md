@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 10,310 gp; **Weight** 18 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 10,310 gp
+Weight: 18 lbs.
+:::
 
 Fitted with a menacingly cruel 2-foot-long barbed iron head, this
 [Large](ref/misc/damage-die-adjustments) +1 giant-[bane](ref/magic-enh/bane)
@@ -37,6 +42,7 @@ damage as the spear's barbed head is ripped free.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hold person](ref/spell/hold-person), [keen edge](ref/spell/keen-edge),
-[summon monster I](ref/spell/summon-monster-1); **Price** 5,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hold person](ref/spell/hold-person), [keen edge](ref/spell/keen-edge), [summon monster I](ref/spell/summon-monster-1)
+Price: 5,310 gp
+:::

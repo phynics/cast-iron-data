@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** 13,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: 13,500 gp
+Weight: -
+:::
 
 Originally invented by a wandering [Deskaran](ref/faith/deskari) priest and serial killer, these
 pale, worn-looking +1 [handwraps](ref/eq-weapon/handwraps) have become popular among those
@@ -38,6 +43,7 @@ Fortitude saving throw or be [nauseated](ref/misc/nauseated) for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [repel vermin](ref/spell/repel-vermin),
-[summon swarm](ref/spell/summon-swarm); **Price** 6,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [repel vermin](ref/spell/repel-vermin), [summon swarm](ref/spell/summon-swarm)
+Price: 6,750 gp
+:::

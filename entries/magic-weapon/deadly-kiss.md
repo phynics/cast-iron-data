@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 10,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 10,302 gp
+Weight: 1 lb.
+:::
 
 Forged centuries ago for a master poisoner known for her seductive assassinations, Deadly Kiss is a
 Tian-style +1 [dagger](ref/eq-weapon/dagger) with a blue metal blade. If the wielder is carrying
@@ -33,6 +38,7 @@ with the blade results in a natural 1, the wielder exposes herself to the poison
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[unseen servant](ref/spell/unseen-servant), creator must have the poison use ability; **Price**
-5,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [unseen servant](ref/spell/unseen-servant), creator must have the poison use ability
+Price: 5,302 gp
+:::

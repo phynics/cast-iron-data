@@ -24,8 +24,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 20,800 gp
+Weight: 5 lbs.
+:::
 
 This sturdy-looking hickory staff is capped with a figurine of an angel or other benevolent spirit,
 wings and arms outstretched as if in welcome. This staff allows use of the following spells:
@@ -37,6 +42,7 @@ wings and arms outstretched as if in welcome. This staff allows use of the follo
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless),
-[prayer](ref/spell/prayer), [remove fear](ref/spell/remove-fear),
-[remove paralysis](ref/spell/remove-paralysis); **Cost** 10,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [bless](ref/spell/bless), [prayer](ref/spell/prayer), [remove fear](ref/spell/remove-fear), [remove paralysis](ref/spell/remove-paralysis)
+Cost: 10,400 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A phase locking weapon interferes with dimensional travel. A creature damaged by a phase locking
 weapon is affected as though by the _[dimensional anchor](ref/spell/dimensional-anchor)_ spell for 1
@@ -29,5 +34,7 @@ round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor)
+Price: -
+:::

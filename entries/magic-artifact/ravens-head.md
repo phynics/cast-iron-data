@@ -23,8 +23,13 @@ aura = "strong conjuration (healing)"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration (healing); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong conjuration (healing)
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 Holy to the church of [Pharasma](ref/faith/pharasma), this gold-plated +3 undead
 [bane](ref/magic-enh/bane) [heavy mace](ref/eq-weapon/heavy-mace) was the symbol of office for the

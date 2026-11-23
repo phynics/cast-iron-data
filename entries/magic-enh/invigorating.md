@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. After an attack with this weapon drops a
 living foe (kills it or drops it to negative hit points), the weapon infuses its wielder with vigor.
@@ -32,5 +37,7 @@ all modes of movement possessed until the end of the wielder's next turn.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[good hope](ref/spell/good-hope); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [good hope](ref/spell/good-hope)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** weapon; **Price** 120,302 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: weapon
+Price: 120,302 gp
+Weight: 4 lbs.
+:::
 
 A master's lash is a [Large](ref/misc/damage-die-adjustments) +5
 [flaming burst](ref/magic-enh/flaming-burst) [whip](ref/eq-weapon/whip). In addition to the fire
@@ -33,6 +38,7 @@ well. Activating this is a free action - the target must succeed at a DC 19 Will
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse) and [fireball](ref/spell/fireball),
-[flame blade](ref/spell/flame-blade), or [flame strike](ref/spell/flame-strike); **Price** 60,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse) and [fireball](ref/spell/fireball), [flame blade](ref/spell/flame-blade), or [flame strike](ref/spell/flame-strike)
+Price: 60,302 gp
+:::

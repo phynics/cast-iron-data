@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 80 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 80 lbs.
+:::
 
 This sea-green statue is 18 inches tall and 12 inches wide, and depicts a muscular iguana with
 bulging eyes and a beard of tentacles underneath its jaw. The idol always appears wet and constantly

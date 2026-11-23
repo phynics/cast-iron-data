@@ -20,8 +20,13 @@ aura = "strong necromancy [evil]"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 18th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Not every [lich](ref/template/lich) that attempts the transition to undeath succeeds. For most, this
 means an excruciating, spellblasted death; for a small fraction of others, this means a typically

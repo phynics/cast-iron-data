@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 23,002 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 23,002 gp
+Weight: 1 lb.
+:::
 
 This sturdy +1 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 [adamantine](ref/eq-material/adamantine) [dagger](ref/eq-weapon/dagger) can be used as a punch to
@@ -38,5 +43,7 @@ foot.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disintegrate](ref/spell/disintegrate), [plane shift](ref/spell/plane-shift); **Price** 13,002 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disintegrate](ref/spell/disintegrate), [plane shift](ref/spell/plane-shift)
+Price: 13,002 gp
+:::

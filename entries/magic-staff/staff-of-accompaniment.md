@@ -21,8 +21,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 8th\
-**Slot** none; **Price** 14,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 8th
+Slot: none
+Price: 14,800 gp
+Weight: 5 lbs.
+:::
 
 This staff is adorned with musical notes. When held and used with bardic performance, it accompanies
 the song with the sounds of wind instruments, granting a +2 competence bonus on
@@ -34,6 +39,7 @@ the song with the sounds of wind instruments, granting a +2 competence bonus on
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [allegro](ref/spell/allegro),
-[chord of shards](ref/spell/chord-of-shards), [saving finale](ref/spell/saving-finale); **Cost**
-7,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [allegro](ref/spell/allegro), [chord of shards](ref/spell/chord-of-shards), [saving finale](ref/spell/saving-finale)
+Cost: 7,400 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 9,928 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 9,928 gp
+Weight: 1/2 lb.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -32,6 +37,7 @@ weapon. A second command word causes the junk to reform into a weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item), [summon monster I](ref/spell/summon-monster-1), creator must
-be a goblin; **Price** 5,118 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item), [summon monster I](ref/spell/summon-monster-1), creator must be a goblin
+Price: 5,118 gp
+:::

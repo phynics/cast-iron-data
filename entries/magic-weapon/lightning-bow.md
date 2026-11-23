@@ -21,8 +21,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 54,300 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 54,300 gp
+Weight: 3 lbs.
+:::
 
 This intelligent item is called a lightning bow by mortals, a name is seen as a slight to the
 [lightning elemental](ref/monster/lightning-elemental) trapped within it: a creature honor-bound to
@@ -46,9 +51,10 @@ bows have the following powers.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning), the willing service of one Huge lighting elemental for
-at least 100 years; **Price** 27,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning), the willing service of one Huge lighting elemental for at least 100 years
+Price: 27,300 gp
+:::
 
 ### Statistics
 

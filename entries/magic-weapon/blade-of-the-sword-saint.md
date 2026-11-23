@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 75,350 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 75,350 gp
+Weight: 6 lbs.
+:::
 
 This exquisitely forged katana is the result of painstaking attention and craftsmanship by one who
 is dedicated to mastering swordplay in its highest form.
@@ -36,5 +41,7 @@ monk weapon for use in his flurry of blows.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a monk; **Price** 37,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a monk
+Price: 37,850 gp
+:::

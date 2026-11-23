@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 15th\
-**Slot** armor; **Price** 22,675 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 15th
+Slot: armor
+Price: 22,675 gp
+Weight: 45 lbs.
+:::
 
 Crafted by Uqtaal spirit-shamans, this ancient +1 [ghost touch](ref/magic-enh/ghost-touch-armor)
 [four-mirror armor](ref/eq-armor/four-mirror) consists of four polished steel plates harnessed
@@ -34,6 +39,7 @@ once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deathwatch](ref/spell/deathwatch), [etherealness](ref/spell/etherealness),
-[protection from evil](ref/spell/protection-from-evil); **Price** 11,435 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deathwatch](ref/spell/deathwatch), [etherealness](ref/spell/etherealness), [protection from evil](ref/spell/protection-from-evil)
+Price: 11,435 gp
+:::

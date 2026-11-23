@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on a weapon that can be thrown. A returning weapon flies
 through the air back to the creature that threw it. It returns to the thrower just before the
@@ -34,5 +39,7 @@ since throwing it, the weapon drops to the ground in the square from which it wa
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[telekinesis](ref/spell/telekinesis); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [telekinesis](ref/spell/telekinesis)
+Price: -
+:::

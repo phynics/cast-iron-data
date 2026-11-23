@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** shield quality; **Price** +4 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: shield quality
+Price: +4 bonus
+Weight: -
+:::
 
 A bastion shield grants its wielder the ability to shrug off mind-affecting effects for a limited
 time. Whenever the wielder of a bastion shield fails a Will saving throw against a mind-affecting
@@ -32,5 +37,7 @@ special ability can be applied only to heavy shields and [tower shields](ref/eq-
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mind blank](ref/spell/mind-blank); **Price** +4 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mind blank](ref/spell/mind-blank)
+Price: +4 bonus
+:::

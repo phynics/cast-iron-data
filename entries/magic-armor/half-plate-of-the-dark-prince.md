@@ -20,8 +20,13 @@ aura = "faint conjuration and enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and enchantment; **CL** 3rd\
-**Slot** armor; **Price** 3,910 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint conjuration and enchantment
+CL: 3rd
+Slot: armor
+Price: 3,910 gp
+Weight: 50 lbs.
+:::
 
 This regal-looking +1 [half-plate](ref/eq-armor/half-plate) is a status symbol in the church of
 [Asmodeus](ref/faith/asmodeus), and is decorated with red infernal symbols and an inverted
@@ -30,6 +35,7 @@ _[infernal healing](ref/spell/infernal-healing)_ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm person](ref/spell/charm-person), [infernal healing](ref/spell/infernal-healing); **Price**
-2,330 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm person](ref/spell/charm-person), [infernal healing](ref/spell/infernal-healing)
+Price: 2,330 gp
+:::

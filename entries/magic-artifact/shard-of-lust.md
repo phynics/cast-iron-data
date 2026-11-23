@@ -20,8 +20,13 @@ aura = "overwhelming enchantment"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming enchantment; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming enchantment
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Lust is made of a deep red [djezet](ref/eq-material/djezet) alloy. As long as the Shard
 of Lust is carried, its owner can use [suggestion](ref/spell/suggestion) as a

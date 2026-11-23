@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** none; **Price** 73,300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: none
+Price: 73,300 gp
+Weight: 4 lbs.
+:::
 
 An infinity symbol is engraved on both sides of this +5 [pistol's](ref/eq-weapon/pistol) mother of
 pearl grip, and the barrel is adorned with gold depicting the moon, planets, and stars against a
@@ -31,5 +36,7 @@ misfire.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[reloading hands](ref/spell/reloading-hands); **Price** 37,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [reloading hands](ref/spell/reloading-hands)
+Price: 37,300 gp
+:::

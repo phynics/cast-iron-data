@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** armor; **Price** 30,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: armor
+Price: 30,350 gp
+Weight: 30 lbs.
+:::
 
 This pale-blue +2 [breastplate](ref/eq-armor/breastplate) is made from flowing ocean water enchanted
 to retain its shape. The armor check penalty of a suit of flowing fortress armor doesn't apply to
@@ -48,6 +53,7 @@ action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[control water](ref/spell/control-water), [elemental body I](ref/spell/elemental-body-1); **Price**
-15,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [control water](ref/spell/control-water), [elemental body I](ref/spell/elemental-body-1)
+Price: 15,350 gp
+:::

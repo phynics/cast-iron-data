@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 50,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 50,000 gp
+Weight: 5 lbs.
+:::
 
 This rod absorbs spells or [spell-like abilities](ref/umr/spell-like-abilities) into itself. The
 magic absorbed must be a single-target spell or a ray directed at either the character holding the
@@ -51,5 +56,7 @@ still stored within.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [spell turning](ref/spell/spell-turning); **Cost**
-25,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [spell turning](ref/spell/spell-turning)
+Cost: 25,000 gp
+:::

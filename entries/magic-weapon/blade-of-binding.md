@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** 12,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: 12,350 gp
+Weight: 8 lbs.
+:::
 
 This +1 [greatsword](ref/eq-weapon/greatsword) is decorated with a lock motif. On a successful hit
 with the sword against a creature that is the wielder's size or smaller, the wielder can attempt to
@@ -44,5 +49,7 @@ sword form and the weapon gains the [broken](ref/misc/broken) condition.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope); **Price** 6,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope)
+Price: 6,350 gp
+:::

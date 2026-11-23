@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A patriotic weapon radiates with the collective power and strength of a particular nation of people.
 If the wielder is a member of that nationality, he gains several benefits. First, the wielder gains
@@ -37,5 +42,7 @@ Chelaxian or Shoanti.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield with this ability rings loudly when struck in combat. As an immediate action when the
 wearer is hit by an attack, the wearer can activate the shield to create a deafening bang equivalent
@@ -32,5 +37,7 @@ affects the wearer.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deafness](ref/spell/blindness-deafness), [sound burst](ref/spell/sound-burst); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deafness](ref/spell/blindness-deafness), [sound burst](ref/spell/sound-burst)
+Price: +1 bonus
+:::

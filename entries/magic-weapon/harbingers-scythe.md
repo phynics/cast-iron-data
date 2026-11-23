@@ -20,8 +20,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 7th\
-**Slot** none; **Price** 19,518 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 7th
+Slot: none
+Price: 19,518 gp
+Weight: 10 lbs.
+:::
 
 This +2 [scythe](ref/eq-weapon/scythe) has a handle carved of bone and topped with a single onyx
 gem. Once per day when the wielder of the weapon confirms a critical hit against a foe, she can
@@ -34,5 +39,7 @@ the wielder's total Hit Dice.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation); **Price** 9,918 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation)
+Price: 9,918 gp
+:::

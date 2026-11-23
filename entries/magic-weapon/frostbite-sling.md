@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 9,380 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 9,380 gp
+Weight: -
+:::
 
 This +1 [frost](ref/magic-enh/frost) [sling](ref/eq-weapon/sling) is crafted of blue-dyed leather.
 In lieu of adding cold damage to normal ammunition, three times per day wielder may create and hurl
@@ -32,5 +37,7 @@ make the target [exhausted](ref/misc/exhausted) even if it is already fatigued.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[frostbite](ref/spell/frostbite); **Price** 4,840 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [frostbite](ref/spell/frostbite)
+Price: 4,840 gp
+:::

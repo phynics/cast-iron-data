@@ -20,8 +20,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 8th\
-**Slot** none; **Price** 19,305 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 8th
+Slot: none
+Price: 19,305 gp
+Weight: 8 lbs.
+:::
 
 This +1 animal-[bane](ref/magic-enh/bane) [boar spear](ref/eq-weapon/boar-spear) has a wide crossbar
 engraved with symbols depicting an open hand. The boar spear increases the shield bonus to AC
@@ -33,6 +38,7 @@ opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[force punch](ref/spell/force-punch), [shield](ref/spell/shield),
-[summon monster I](ref/spell/summon-monster-1); **Price** 9,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [force punch](ref/spell/force-punch), [shield](ref/spell/shield), [summon monster I](ref/spell/summon-monster-1)
+Price: 9,805 gp
+:::

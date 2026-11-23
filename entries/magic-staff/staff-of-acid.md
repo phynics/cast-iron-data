@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 28,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 28,600 gp
+Weight: 5 lbs.
+:::
 
 This staff is made of a rust-colored metal that has been corroded by acid, with a sickly green gem
 at its tip. The staff allows use of the following spells:
@@ -33,5 +38,7 @@ at its tip. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [acid arrow](ref/spell/acid-arrow),
-[acid fog](ref/spell/acid-fog), [corrosive touch](ref/spell/corrosive-touch); **Cost** 14,300 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [acid arrow](ref/spell/acid-arrow), [acid fog](ref/spell/acid-fog), [corrosive touch](ref/spell/corrosive-touch)
+Cost: 14,300 gp
+:::

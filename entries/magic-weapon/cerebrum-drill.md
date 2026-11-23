@@ -20,8 +20,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 15th\
-**Slot** none; **Price** 82,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 15th
+Slot: none
+Price: 82,000 gp
+Weight: 8 lbs.
+:::
 
 This +3 [aberration-bane](ref/magic-enh/bane) [conserving](ref/magic-enh/conserving)
 [heavy crossbow](ref/eq-weapon/heavy-crossbow) is crafted with a
@@ -44,6 +49,7 @@ save to remove the effect. If the brain-boring shot was a confirmed critical hit
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break enchantment](ref/spell/break-enchantment), [calm emotions](ref/spell/calm-emotions),
-[mind fog](ref/spell/mind-fog); **Price** 41,175 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break enchantment](ref/spell/break-enchantment), [calm emotions](ref/spell/calm-emotions), [mind fog](ref/spell/mind-fog)
+Price: 41,175 gp
+:::

@@ -21,8 +21,13 @@ aura = "strong enchantment"
 caster_level = "13th"
 +++
 
-**Aura** strong enchantment; **CL** 13th\
-**Slot** none; **Price** 57,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 13th
+Slot: none
+Price: 57,200 gp
+Weight: 5 lbs.
+:::
 
 When the wielder of this hollow wooden staff speaks or shouts, it reverberates with the sound of her
 voice, lending a booming insistence to her words. It allows the use of the following spells:
@@ -35,6 +40,7 @@ voice, lending a booming insistence to her words. It allows the use of the follo
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [denounce](ref/spell/denounce),
-[glibness](ref/spell/glibness), [mass suggestion](ref/spell/suggestion-mass),
-[suggestion](ref/spell/suggestion), [tongues](ref/spell/tongues); **Cost** 28,600 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [denounce](ref/spell/denounce), [glibness](ref/spell/glibness), [mass suggestion](ref/spell/suggestion-mass), [suggestion](ref/spell/suggestion), [tongues](ref/spell/tongues)
+Cost: 28,600 gp
+:::

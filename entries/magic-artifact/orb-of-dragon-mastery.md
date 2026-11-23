@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 These grim orbs swirl hypnotically with shades of crimson and the color of the draconic breed whose
 minds they can ensnare. The bearer of an Orb of Dragon Mastery can, as a standard action, dominate

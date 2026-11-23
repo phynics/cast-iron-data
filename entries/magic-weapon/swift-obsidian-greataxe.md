@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 11,320 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 11,320 gp
+Weight: 12 lbs.
+:::
 
 The blade of this +1 [keen](ref/magic-enh/keen) [greataxe](ref/eq-weapon/greataxe) is carved from
 jet-black obsidian. When the wielder [charges](ref/rule/charge) an enemy, he receives a +10 foot
@@ -33,6 +38,7 @@ within 30 feet a +10 foot enhancement bonus to base speed for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[expeditious retreat](ref/spell/expeditious-retreat), [keen edge](ref/spell/keen-edge); **Price**
-5,802 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [expeditious retreat](ref/spell/expeditious-retreat), [keen edge](ref/spell/keen-edge)
+Price: 5,802 gp
+:::

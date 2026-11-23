@@ -20,8 +20,13 @@ aura = "strong abjuration, conjuration (healing), and divination"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration, conjuration (healing), and divination; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration, conjuration (healing), and divination
+CL: 20th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 This delicate circlet appears to be made of living blue-green vines with tiny leaves. Clearly of
 elven manufacture, the interlocking vines occasionally shift and grasp each other in new

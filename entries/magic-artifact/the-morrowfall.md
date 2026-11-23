@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The Morrowfall is one-half of the Aohl, an artifact gifted to the ancient Jaytirian Society
 following a sacred truce between their two feuding gods of millennia past. The Morrowfall is the

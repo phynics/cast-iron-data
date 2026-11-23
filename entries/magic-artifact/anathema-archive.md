@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This unusually heavy scroll consists of a rather long sheet of supple, impossible-to-tear parchment
 wound between two rods. When the anathema archive is opened, it presents a tangle of Thassilonian

@@ -23,13 +23,20 @@ aura = "faint conjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint conjuration; **CL** 4th\
-**Slot** armor quality; **Price** +3,750 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 4th
+Slot: armor quality
+Price: +3,750 gp
+Weight: -
+:::
 
 Slick armor seems coated at all times with a slightly greasy oil. It provides a +5 competence bonus
 on its wearer's Escape Artist checks. The armor's armor check penalty still applies normally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease); **Price** +1,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease)
+Price: +1,875 gp
+:::

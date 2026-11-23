@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration and evocation; **CL** 12th\
-**Slot** none; **Price** 53,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration and evocation
+CL: 12th
+Slot: none
+Price: 53,000 gp
+Weight: 2 lbs.
+:::
 
 Once possessed by a [brijidine azata](ref/monster/azata-brijidine) dedicated to ending the
 depredations of [kytons](ref/family/kyton), this potent magic weapon now holds a portion of her
@@ -40,6 +45,7 @@ item is put away. The negative level cannot be overcome in any way (including by
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor), [holy smite](ref/spell/holy-smite), creator must
-be good; **Price** 26,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor), [holy smite](ref/spell/holy-smite), creator must be good
+Price: 26,650 gp
+:::

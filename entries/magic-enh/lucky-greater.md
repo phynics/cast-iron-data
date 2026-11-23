@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment; **CL** 12th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 12th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can only be placed on one-handed or two-handed firearms. A greater lucky
 firearm is nearly identical to a [lucky](ref/magic-enh/lucky) firearm, but its reservoir holds 3
@@ -33,5 +38,7 @@ ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater heroism](ref/spell/heroism-greater), creator must be a grit user; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater heroism](ref/spell/heroism-greater), creator must be a grit user
+Price: -
+:::

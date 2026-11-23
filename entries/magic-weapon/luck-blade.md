@@ -23,9 +23,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 0 wishes (22,060 gp), 1 wish (62,360 gp), 2 wishes (102,660 gp), 3 wishes
-(142,960 gp); **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 0 wishes (22,060 gp), 1 wish (62,360 gp), 2 wishes (102,660 gp), 3 wishes (142,960 gp)
+Weight: 2 lbs.
+:::
 
 This +2 [short sword](ref/eq-weapon/short-sword) gives its possessor a +1 luck bonus on all saving
 throws. Its possessor also gains the power of good fortune, usable once per day. This extraordinary
@@ -37,6 +41,7 @@ the +1 luck bonus, and still grants its reroll power.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[miracle](ref/spell/miracle) or [wish](ref/spell/wish); **Price** 11,185 gp (0 wishes), 43,835 gp (1
-wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [miracle](ref/spell/miracle) or [wish](ref/spell/wish)
+Price: 11,185 gp (0 wishes), 43,835 gp (1 wish), 76,485 gp (2 wishes), 109,135 gp (3 wishes)
+:::

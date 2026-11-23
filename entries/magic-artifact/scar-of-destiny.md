@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This scar appears on specific individuals at birth, or as a result of powerful but unexplained
 magical confluences. Anyone with this mark is untethered from reality, and might step out of

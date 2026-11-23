@@ -20,8 +20,13 @@ aura = "moderate divination and enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination and enchantment; **CL** 10th\
-**Slot** none; **Price** 8,302 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination and enchantment
+CL: 10th
+Slot: none
+Price: 8,302 gp
+Weight: 2 lbs.
+:::
 
 This +1 [dagger](ref/eq-weapon/dagger) is forged for Daggermark assassins by Lady Smilos's orders
 alone. It allows slayers, rogues, and assassins who work for the Daggermark Assassins' Guild the
@@ -35,5 +40,7 @@ must be 4 levels higher than the target in order to sneak attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[guidance](ref/spell/guidance), [instant enemy](ref/spell/instant-enemy); **Price** 4,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [guidance](ref/spell/guidance), [instant enemy](ref/spell/instant-enemy)
+Price: 4,302 gp
+:::

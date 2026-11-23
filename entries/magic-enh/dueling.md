@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +14,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +14,000 gp
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A dueling weapon (which must be a weapon
 that can be used with the [Weapon Finesse](ref/feat/weapon-finesse) feat) gives the wielder a +4
@@ -35,7 +40,9 @@ perform a feint against the wielder.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace); **Price** +7,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace)
+Price: +7,000 gp
+:::
 
 > _See also: [dueling (PSFG) enhancement](ref/magic-enh/dueling-psfg)_

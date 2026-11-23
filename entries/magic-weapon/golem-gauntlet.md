@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 18,505 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 18,505 gp
+Weight: 5 lbs.
+:::
 
 This [adamantine](ref/eq-material/adamantine) [light mace](ref/eq-weapon/light-mace) has been molded
 to resemble the fist of a [golem](ref/family/golem). When the mace is touched or picked up by a
@@ -37,5 +42,7 @@ ranged attack is negated.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[mage's disjunction](ref/spell/mages-disjunction); **Price** 9,253 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [mage's disjunction](ref/spell/mages-disjunction)
+Price: 9,253 gp
+:::

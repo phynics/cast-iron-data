@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A suit of steaming armor features numerous sliding plates and movable pieces to aid in ventilation.
 Three times per day, the wearer of steaming armor can speak a command word that causes the armor to
@@ -40,5 +45,7 @@ The steaming armor special ability can be applied only to medium and heavy armor
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[elemental aura](ref/spell/elemental-aura); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [elemental aura](ref/spell/elemental-aura)
+Price: +2 bonus
+:::

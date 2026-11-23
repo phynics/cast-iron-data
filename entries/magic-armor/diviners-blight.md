@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** armor; **Price** 31,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: armor
+Price: 31,160 gp
+Weight: 15 lbs.
+:::
 
 Aside from its superb craftsmanship, this +4 [leather](ref/eq-armor/leather) armor has little to
 distinguish it from any other armor. Once per week, while a living creature wears a suit of
@@ -51,6 +56,7 @@ creature it's set to imitate again.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[misdirection](ref/spell/misdirection), [project image](ref/spell/project-image); **Price** 15,660
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [misdirection](ref/spell/misdirection), [project image](ref/spell/project-image)
+Price: 15,660 gp
+:::

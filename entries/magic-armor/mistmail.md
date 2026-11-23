@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** armor; **Price** 2,250 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: armor
+Price: 2,250 gp
+Weight: 25 lbs.
+:::
 
 The fine links of this +1 [chain shirt](ref/eq-armor/chain-shirt) form a pattern of roiling clouds.
 On command once per day, the wearer can transform it into thick fog that fills his space and
@@ -36,5 +41,7 @@ while the mistmail is in fog form, it reforms at the character's feet.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[obscuring mist](ref/spell/obscuring-mist); **Price** 1,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [obscuring mist](ref/spell/obscuring-mist)
+Price: 1,250 gp
+:::

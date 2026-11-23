@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 31,900 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 31,900 gp
+Weight: 5 lbs.
+:::
 
 This staff is made of shining silver, with a tip shaped like a lightning bolt. The staff allows use
 of the following spells:
@@ -33,6 +38,7 @@ of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [chain lightning](ref/spell/chain-lightning),
-[lightning bolt](ref/spell/lightning-bolt), [shocking grasp](ref/spell/shocking-grasp); **Cost**
-15,950 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [chain lightning](ref/spell/chain-lightning), [lightning bolt](ref/spell/lightning-bolt), [shocking grasp](ref/spell/shocking-grasp)
+Cost: 15,950 gp
+:::

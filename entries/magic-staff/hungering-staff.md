@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 30,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 30,000 gp
+Weight: 4 lbs.
+:::
 
 A ring of curved fangs circles the tip of this 7-foot-long bone staff. When
 _[magic mouth](ref/spell/magic-mouth)_ is cast from the staff, the resulting illusory mouth is
@@ -42,5 +47,7 @@ The staff allows the use of the following spells.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [beast shape I](ref/spell/beast-shape-1),
-[hungry pit](ref/spell/hungry-pit), [magic mouth](ref/spell/magic-mouth); **Cost** 15,500 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [beast shape I](ref/spell/beast-shape-1), [hungry pit](ref/spell/hungry-pit), [magic mouth](ref/spell/magic-mouth)
+Cost: 15,500 gp
+:::

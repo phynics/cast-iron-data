@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** none; **Price** 5,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: none
+Price: 5,315 gp
+Weight: 4 lbs.
+:::
 
 This +1 [scimitar](ref/eq-weapon/scimitar) has a twisted hilt that evokes a stylized version of
 [Sarenrae's](ref/faith/sarenrae) holy symbol. The blade is etched with a prayer to the goddess to
@@ -36,6 +41,7 @@ the wielder to use this ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[burning hands](ref/spell/burning-hands), [searing light](ref/spell/searing-light); **Price** 2,815
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [burning hands](ref/spell/burning-hands), [searing light](ref/spell/searing-light)
+Price: 2,815 gp
+:::

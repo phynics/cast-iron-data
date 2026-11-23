@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 9,655 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 9,655 gp
+Weight: 4 lbs.
+:::
 
 This +1 [blinding](ref/magic-enh/blinding) [buckler](ref/eq-armor/buckler) is made from a lustrous
 glass that is as hard as steel and reflects light like a mirror. The shield glows as a torch, though
@@ -35,5 +40,7 @@ ability can be used again.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daylight](ref/spell/daylight), [light](ref/spell/light); **Price** 4,975 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daylight](ref/spell/daylight), [light](ref/spell/light)
+Price: 4,975 gp
+:::

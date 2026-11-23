@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 18,505 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 18,505 gp
+Weight: 3 lbs.
+:::
 
 This +1 [scorpion whip](ref/eq-weapon/scorpion-whip) is made from the tail of a giant
 [cave scorpion](ref/monster/scorpion-cave-scorpion). Three times per day, it allows the wielder to
@@ -39,5 +44,7 @@ poison effect becomes 10 + 1/2 the creature's Hit Dice + its Constitution modifi
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape III](ref/spell/beast-shape-3), [poison](ref/spell/poison); **Price** 9,505 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape III](ref/spell/beast-shape-3), [poison](ref/spell/poison)
+Price: 9,505 gp
+:::

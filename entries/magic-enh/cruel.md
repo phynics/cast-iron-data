@@ -23,8 +23,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 When the wielder strikes a creature that is [frightened](ref/misc/frightened),
 [shaken](ref/misc/shaken), or [panicked](ref/misc/panicked) with a cruel weapon, that creature
@@ -34,5 +39,7 @@ that last for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell)
+Price: -
+:::

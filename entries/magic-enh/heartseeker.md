@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A heartseeker weapon is drawn unerringly
 toward beating hearts. A heartseeker weapon ignores the miss chance for
@@ -31,5 +36,7 @@ with the elemental subtype, or any creature specifically noted to lack a heart.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell)
+Price: -
+:::

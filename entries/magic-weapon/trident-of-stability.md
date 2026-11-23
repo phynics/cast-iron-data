@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 9,815 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 9,815 gp
+Weight: 4 lbs.
+:::
 
 The base of this sturdy but tarnished +1 [trident](ref/eq-weapon/trident) has a wide metal bar at
 the bottom, perfectly situated to serve as a solid footrest or other sort of step. The bar acts as
@@ -38,5 +43,7 @@ falling damage for the current distance fallen.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[levitate](ref/spell/levitate); **Price** 5,065 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [levitate](ref/spell/levitate)
+Price: 5,065 gp
+:::

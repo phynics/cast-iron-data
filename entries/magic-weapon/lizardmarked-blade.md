@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 15,715 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 15,715 gp
+Weight: 3 lbs.
+:::
 
 The pommel of this +1 [shock](ref/magic-enh/shock) [gladius](ref/eq-weapon/gladius) is shaped like
 the head of a lightning-breathing [linnorm](ref/family/linnorm). The wielder automatically detects
@@ -34,5 +39,7 @@ is (effectively increasing the gladius's damage die from 1d6 to 1d8). This lasts
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lead blades](ref/spell/lead-blades), [lightning bolt](ref/spell/lightning-bolt); **Price** 8,015 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lead blades](ref/spell/lead-blades), [lightning bolt](ref/spell/lightning-bolt)
+Price: 8,015 gp
+:::

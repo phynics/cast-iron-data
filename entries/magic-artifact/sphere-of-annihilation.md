@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A sphere of annihilation is a globe of absolute blackness 2 feet in diameter. Any matter that comes
 in contact with a sphere is instantly sucked into the void and utterly destroyed. Only the direct

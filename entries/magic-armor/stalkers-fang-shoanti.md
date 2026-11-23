@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shield; **Price** 11,462 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shield
+Price: 11,462 gp
+Weight: 6 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -34,6 +39,7 @@ a creature that is denied its Dexterity bonus to AC, the target takes an additio
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [keen edge](ref/spell/keen-edge), creator must be a Shoanti; **Price**
-5,962 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [keen edge](ref/spell/keen-edge), creator must be a Shoanti
+Price: 5,962 gp
+:::

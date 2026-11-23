@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "16th"
 +++
 
-**Aura** strong necromancy; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 16th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 This +5 [ghost touch](ref/magic-enh/ghost-touch-weapon) [vicious](ref/magic-enh/vicious)
 [falchion](ref/eq-weapon/falchion) has a misty, ethereal quality that makes it appear to be spectral

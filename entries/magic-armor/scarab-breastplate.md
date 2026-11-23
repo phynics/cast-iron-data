@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** armor; **Price** 32,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: armor
+Price: 32,350 gp
+Weight: 30 lbs.
+:::
 
 This +3 [breastplate](ref/eq-armor/breastplate) is crafted from the carapace of a giant
 [scarab beetle](ref/monster/beetle-scarab-beetle), enchanted to be as hard and reflective as
@@ -44,6 +49,7 @@ _[vermin shape II](ref/spell/vermin-shape-2)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[creeping doom](ref/spell/creeping-doom), [spell turning](ref/spell/spell-turning),
-[vermin shape II](ref/spell/vermin-shape-2); **Price** 16,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [creeping doom](ref/spell/creeping-doom), [spell turning](ref/spell/spell-turning), [vermin shape II](ref/spell/vermin-shape-2)
+Price: 16,350 gp
+:::

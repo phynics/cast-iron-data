@@ -20,8 +20,13 @@ aura = "strong abjuration [evil]"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration \[evil\]; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong abjuration \[evil\]
+CL: 17th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 The so-called Invidious Halberd was intended to epitomize a sort of balance to the other six
 Alara-quin-Emperor Xin sought to infuse this weapon with potent abilities to negate powerful works

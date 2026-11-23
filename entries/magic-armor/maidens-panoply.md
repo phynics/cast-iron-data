@@ -20,8 +20,13 @@ aura = "moderate abjuration and divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and divination; **CL** 11th\
-**Slot** armor; **Price** 30,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate abjuration and divination
+CL: 11th
+Slot: armor
+Price: 30,650 gp
+Weight: 50 lbs.
+:::
 
 This set of +3 [Gray Maiden plate](ref/eq-armor/gray-maiden-plate) creates a mental link between the
 wearer and her allies. The wearer can telepathically communicate with allies within 30 feet
@@ -34,5 +39,7 @@ the maiden's aegis's enhancement bonus, and the bonus it grants increases to +2.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[detect thoughts](ref/spell/detect-thoughts), [telepathy](ref/spell/telepathy); **Price** 16,150 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [detect thoughts](ref/spell/detect-thoughts), [telepathy](ref/spell/telepathy)
+Price: 16,150 gp
+:::

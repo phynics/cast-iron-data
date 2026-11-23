@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 32,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 32,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is made from high-quality wood and festooned with brass rods and keys, looking almost
 like an instrument. The staff allows use of the following spells:
@@ -39,6 +44,7 @@ instrument, and it can revert back to a staff as a free action.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [ghost sound](ref/spell/ghost-sound),
-[piercing shriek](ref/spell/piercing-shriek), [sculpt sound](ref/spell/sculpt-sound),
-[wall of sound](ref/spell/wall-of-sound); **Cost** 16,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [ghost sound](ref/spell/ghost-sound), [piercing shriek](ref/spell/piercing-shriek), [sculpt sound](ref/spell/sculpt-sound), [wall of sound](ref/spell/wall-of-sound)
+Cost: 16,000 gp
+:::

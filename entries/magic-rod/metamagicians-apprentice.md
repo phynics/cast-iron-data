@@ -21,8 +21,13 @@ aura = "strong divination"
 caster_level = "18th"
 +++
 
-**Aura** strong divination; **CL** 18th\
-**Slot** none; **Price** 93,605 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong divination
+CL: 18th
+Slot: none
+Price: 93,605 gp
+Weight: 5 lbs.
+:::
 
 This slender rod is usually capped with a metal knob resembling the face of a young male or female
 mage. The first rod of this type was created by a ruthless cabal of wizards and sorcerers who
@@ -59,8 +64,10 @@ find a way to free its mind from the object or destroy the item so its mind can 
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), the four metamagic feats the rod is to know;
-**Price** 47,105 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), the four metamagic feats the rod is to know
+Price: 47,105 gp
+:::
 
 ### Statistics
 

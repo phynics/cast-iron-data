@@ -20,8 +20,13 @@ aura = "strong conjuration and necromancy [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and necromancy \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration and necromancy \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This thick, syrupy, deep purple elixir contains within it the ability to infuse a drinker with a
 tiny fragment of a dead demon lord's mythic power. So potent is this elixir that it must be stored

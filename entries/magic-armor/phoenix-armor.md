@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 9th\
-**Slot** armor; **Price** 36,130 gp; **Weight** 50 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 9th
+Slot: armor
+Price: 36,130 gp
+Weight: 50 lbs.
+:::
 
 This brilliant golden +2 [fire resistance](ref/magic-enh/energy-resistance)
 [full plate](ref/eq-armor/full-plate) is decorated with an ornate feather motif curling across its
@@ -34,5 +39,7 @@ Both of these effects last for 9 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fire shield](ref/spell/fire-shield), [fly](ref/spell/fly); **Price** 18,890 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fire shield](ref/spell/fire-shield), [fly](ref/spell/fly)
+Price: 18,890 gp
+:::

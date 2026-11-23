@@ -20,8 +20,13 @@ aura = "strong necromancy and enchantment"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy and enchantment; **CL** 17th\
-**Slot** none; **Price** lesser artifact; **Weight** -
+::: statblock
+Aura: strong necromancy and enchantment
+CL: 17th
+Slot: none
+Price: lesser artifact
+Weight: -
+:::
 
 The witch ice shard is crafted from witch ice, a mysterious substance found only beneath the
 windswept reaches of Witch Queen's demesne. This glittering cerulean ice has many fell uses, but one

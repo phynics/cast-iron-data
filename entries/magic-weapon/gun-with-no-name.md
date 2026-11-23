@@ -20,8 +20,13 @@ aura = "moderate abjuration and conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and conjuration; **CL** 9th\
-**Slot** none; **Price** 98,300 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration and conjuration
+CL: 9th
+Slot: none
+Price: 98,300 gp
+Weight: 5 lbs.
+:::
 
 Though the green, glowing runes on this firearm denote it as magical, otherwise this +2 mythic
 [bane](ref/magic-enh/bane) [greater lucky](ref/magic-enh/lucky-greater)
@@ -36,6 +41,7 @@ attempts to ascertain her location, thoughts, or alignment. The firearm itself i
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [divine favor](ref/spell/divine-favor),
-[nondetection](ref/spell/nondetection); **Price** 50,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [divine favor](ref/spell/divine-favor), [nondetection](ref/spell/nondetection)
+Price: 50,800 gp
+:::

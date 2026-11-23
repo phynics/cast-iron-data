@@ -23,8 +23,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 12th\
-**Slot** none; **Price** 25,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 12th
+Slot: none
+Price: 25,000 gp
+Weight: 5 lbs.
+:::
 
 The possessor of this fantastically bejeweled rod gains a +4 enhancement bonus to her Charisma score
 for as long as she holds or carries the item. Once per day, the rod garbs her in magically created
@@ -46,5 +51,7 @@ associated with it (including any items that were taken out of the tent) disappe
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [eagle's splendor](ref/spell/eagles-splendor),
-[fabricate](ref/spell/fabricate), [major creation](ref/spell/major-creation); **Cost** 12,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [eagle's splendor](ref/spell/eagles-splendor), [fabricate](ref/spell/fabricate), [major creation](ref/spell/major-creation)
+Cost: 12,500 gp
+:::

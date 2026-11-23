@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 60,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 60,000 gp
+Weight: 4 lbs.
+:::
 
 This heavy leaden rod is carved with a series of glyphs that resemble Terran writing. It has a
 single activation stud at its base. A creature can activate the rod by pressing the stud or by
@@ -33,5 +38,7 @@ clumsy) and plummets to the ground unless it succeeds at a DC 25 [Fly](ref/skill
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [reverse gravity](ref/spell/reverse-gravity);
-**Cost** 30,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [reverse gravity](ref/spell/reverse-gravity)
+Cost: 30,000 gp
+:::

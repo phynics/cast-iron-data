@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** shield quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: shield quality
+Price: +2 bonus
+Weight: -
+:::
 
 As a move action, an animated shield can be loosed to defend its wielder on its own. For the
 following 4 rounds, the shield grants its bonus to the one who loosed it and then drops. While
@@ -43,5 +48,7 @@ animated again for at least 4 rounds. This special ability cannot be added to a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects)
+Price: +2 bonus
+:::

@@ -20,8 +20,13 @@ aura = "moderate abjuration and enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration and enchantment; **CL** 8th\
-**Slot** armor; **Price** 18,480 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate abjuration and enchantment
+CL: 8th
+Slot: armor
+Price: 18,480 gp
+Weight: 25 lbs.
+:::
 
 Crafted from the scaled hide of a [black dragon](ref/family/dragon-black) and lined with
 [wolliped](ref/monster/wolliped) fur for warmth, this suit of +1
@@ -40,7 +45,7 @@ on Fortitude saves against the effects of cold weather.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism), [resist energy](ref/spell/resist-energy), [shield](ref/spell/shield)
-or [shield of faith](ref/spell/shield-of-faith), creator must have 5 ranks in the Ride skill;
-**Price** 9,405 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism), [resist energy](ref/spell/resist-energy), [shield](ref/spell/shield) or [shield of faith](ref/spell/shield-of-faith), creator must have 5 ranks in the Ride skill
+Price: 9,405 gp
+:::

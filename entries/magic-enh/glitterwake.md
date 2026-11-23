@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. Three times per day as a swift action,
 the wielder can activate a glitterwake weapon to cause her next ranged attack with the weapon to
@@ -34,5 +39,7 @@ number of minutes equal to the weapon's enhancement bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[glitterdust](ref/spell/glitterdust); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [glitterdust](ref/spell/glitterdust)
+Price: -
+:::

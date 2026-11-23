@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 42,816 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 42,816 gp
+Weight: 10 lbs.
+:::
 
 The summoner's sorrow is a +2 [cold iron](ref/eq-material/cold-iron) [glaive](ref/eq-weapon/glaive)
 that deals an extra 2d6 points of damage against summoned creatures, including eidolons. Once each
@@ -39,5 +44,7 @@ save DC of 17. The wielder cannot both dispel and dismiss in the same round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dismissal](ref/spell/dismissal), [dispel magic](ref/spell/dispel-magic); **Price** 21,566 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dismissal](ref/spell/dismissal), [dispel magic](ref/spell/dispel-magic)
+Price: 21,566 gp
+:::

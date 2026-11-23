@@ -23,8 +23,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** armor quality; **Price** +3,750 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: armor quality
+Price: +3,750 gp
+Weight: -
+:::
 
 This armor blurs the wearer whenever she tries to hide, while also dampening the sound around her,
 granting a +5 competence bonus on Stealth checks. The armor's armor check penalty still applies
@@ -32,5 +37,7 @@ normally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence); **Price** +1,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence)
+Price: +1,875 gp
+:::

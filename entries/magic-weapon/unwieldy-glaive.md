@@ -20,8 +20,12 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Weight** 10 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Weight: 10 lbs.
+:::
 
 This weapon appears and acts as a +2 [glaive](ref/eq-weapon/glaive), but cannot be used to make
 attacks of opportunity, and hinders its wielder whenever such an attack is attempted. When its
@@ -31,4 +35,7 @@ next turn.
 
 ### Construction
 
-**Requirements** +2 glaive; **Cost** -
+::: statblock
+Requirements: +2 glaive
+Cost: -
+:::

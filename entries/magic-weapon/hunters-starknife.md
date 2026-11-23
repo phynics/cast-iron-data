@@ -20,8 +20,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 10th\
-**Slot** none; **Price** 36,324 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 10th
+Slot: none
+Price: 36,324 gp
+Weight: 3 lbs.
+:::
 
 Random patterns of brown rust, discolored metal, and dried blood tarnish the surface of this +2
 [wounding](ref/magic-enh/wounding) [starknife](ref/eq-weapon/starknife). If this weapon is thrown
@@ -34,5 +39,7 @@ of damage when attempting this check, regardless of whether it succeeds or fails
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [faerie fire](ref/spell/faerie-fire); **Price** 18,324 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [faerie fire](ref/spell/faerie-fire)
+Price: 18,324 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** armor; **Price** 3,410 gp; **Weight** 7 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: armor
+Price: 3,410 gp
+Weight: 7 lbs.
+:::
 
 When unattended, [djezet](ref/eq-material/djezet) skin appears as a curiously smooth sphere of
 rust-red metal. When it's held and a command word is spoken, the armor oozes across the wearer's
@@ -33,5 +38,7 @@ Diplomacy checks to make requests of creatures with an attitude of friendly or h
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm person](ref/spell/charm-person); **Price** 1,785 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm person](ref/spell/charm-person)
+Price: 1,785 gp
+:::

@@ -23,14 +23,20 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** armor/shield quality; **Price** 13 (+2 bonus), 15 (+3 bonus), 17 (+4 bonus), 19 (+5 bonus);
-**Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: armor/shield quality
+Price: 13 (+2 bonus), 15 (+3 bonus), 17 (+4 bonus), 19 (+5 bonus)
+Weight: -
+:::
 
 This special ability grants the armor or shield's wearer spell resistance while the armor or shield
 is worn.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell resistance](ref/spell/spell-resistance); **Price** varies
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell resistance](ref/spell/spell-resistance)
+Price: varies
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 916 gp; **Weight** 1/20 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 916 gp
+Weight: 1/20 lb.
+:::
 
 When this translucent +2 [arrow](ref/eq-weapon/arrow) is fired, it becomes ethereal until it enters
 the target's space. A phase arrow ignores [cover](ref/rule/cover) of all kinds, including total
@@ -32,5 +37,7 @@ against the attack (granting a 50% miss chance).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blink](ref/spell/blink); **Price** 461 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blink](ref/spell/blink)
+Price: 461 gp
+:::

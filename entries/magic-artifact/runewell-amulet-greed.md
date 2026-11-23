@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** neck; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: neck
+Price: -
+Weight: -
+:::
 
 This amulet of gold and red crystal grants the wearer a +5 enhancement bonus to her natural armor.
 In addition, the wearer becomes attuned to both the

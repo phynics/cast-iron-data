@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 6,308 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 6,308 gp
+Weight: 2 lbs.
+:::
 
 On a successful critical hit, this +1 [kukri](ref/eq-weapon/kukri) deals 2 points of
 [bleed](ref/rule/bleed) damage, which stacks with any bleed damage already caused by the attack.
@@ -32,5 +37,7 @@ Temporary hit points bestowed by the bloodletting kukri last for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [vampiric touch](ref/spell/vampiric-touch); **Price** 3,308 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [vampiric touch](ref/spell/vampiric-touch)
+Price: 3,308 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 9th\
-**Slot** armor; **Price** 24,200 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 9th
+Slot: armor
+Price: 24,200 gp
+Weight: 20 lbs.
+:::
 
 These +2 [armored coats](ref/eq-armor/armored-coat) are traditionally worn by the Aldori swordlords
 of Brevoy. The wearer of this armor gains a +2 enhancement bonus on initiative checks and a +2
@@ -33,6 +38,7 @@ wearer of Aldori dueling armor parries the attack and takes no damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [symbol of striking](ref/spell/symbol-of-striking); **Price**
-12,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [symbol of striking](ref/spell/symbol-of-striking)
+Price: 12,200 gp
+:::

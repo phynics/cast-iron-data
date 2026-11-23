@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: -
+Weight: -
+:::
 
 While in use, a vivacious rose prism ioun stone grants a +2 insight bonus to AC.
 

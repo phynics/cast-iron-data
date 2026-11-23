@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** shield; **Price** 14,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: shield
+Price: 14,170 gp
+Weight: 15 lbs.
+:::
 
 This +2 [mirrored](ref/magic-enh/mirrored) [heavy steel shield](ref/eq-armor/heavy-steel-shield) is
 infused with the spite of [divs](ref/family/div), allowing its bearer to terrify and disgust foes
@@ -34,6 +39,7 @@ fear effect, and it can be avoided as though it were a [gaze](ref/umr/gaze) atta
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[phantasmal killer](ref/spell/phantasmal-killer), [spell turning](ref/spell/spell-turning);
-**Price** 7,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [phantasmal killer](ref/spell/phantasmal-killer), [spell turning](ref/spell/spell-turning)
+Price: 7,170 gp
+:::

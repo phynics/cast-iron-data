@@ -20,8 +20,13 @@ aura = "moderate enchantment and conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment and conjuration; **CL** 7th\
-**Slot** armor; **Price** 4,890 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate enchantment and conjuration
+CL: 7th
+Slot: armor
+Price: 4,890 gp
+Weight: 30 lbs.
+:::
 
 This +1 [stanching](ref/magic-enh/stanching) [breastplate](ref/eq-armor/breastplate) is
 battle-scarred but polished with great care, and has a small sword-and-mountain symbol of
@@ -31,7 +36,7 @@ points or killed, the wearer may activate this as an immediate action instead of
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[compel hostility](ref/spell/compel-hostility), [stabilize](ref/spell/stabilize), either
-[cure critical wounds](ref/spell/cure-critical-wounds) or
-[lesser restoration](ref/spell/restoration-lesser); **Price** 2,620 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [compel hostility](ref/spell/compel-hostility), [stabilize](ref/spell/stabilize), either [cure critical wounds](ref/spell/cure-critical-wounds) or [lesser restoration](ref/spell/restoration-lesser)
+Price: 2,620 gp
+:::

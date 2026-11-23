@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** +7,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: +7,000 gp
+Weight: -
+:::
 
 This armor's ability functions only if its wearer has the panache class feature. When a melee attack
 made by an enemy within the wearer's melee reach would reduce the wearer to fewer than 0 hit points,
@@ -31,5 +36,7 @@ wearer falling unconscious or dead.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste); **Price** 3,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste)
+Price: 3,500 gp
+:::

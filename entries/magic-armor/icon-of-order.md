@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shield; **Price** 26,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shield
+Price: 26,170 gp
+Weight: 15 lbs.
+:::
 
 An icon of order is a +2 [heavy steel shield](ref/eq-armor/heavy-steel-shield) that typically
 displays the sword-and-sunburst holy symbol of [Iomedae](ref/faith/iomedae) on a white field. The
@@ -31,6 +36,7 @@ _[protection from chaos](ref/spell/protection-from-chaos)_ as a swift action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Quicken Spell](ref/feat/quicken-spell), [protection from chaos](ref/spell/protection-from-chaos);
-**Price** 13,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Quicken Spell](ref/feat/quicken-spell), [protection from chaos](ref/spell/protection-from-chaos)
+Price: 13,170 gp
+:::

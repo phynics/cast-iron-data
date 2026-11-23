@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration; **CL** 14th\
-**Slot** shield quality; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 14th
+Slot: shield quality
+Price: +5 bonus
+Weight: -
+:::
 
 This shield is as highly polished as a mirror, and its surface is completely reflective. Once per
 day, it can be called on to reflect a spell back at its caster exactly like the
@@ -32,5 +37,7 @@ _[spell turning](ref/spell/spell-turning)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell turning](ref/spell/spell-turning); **Price** +5 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell turning](ref/spell/spell-turning)
+Price: +5 bonus
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 28,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 28,000 gp
+Weight: 5 lbs.
+:::
 
 This 3-foot-long, magically reinforced obsidian rod is capped with a globe of volcanic glass at one
 end, and a gleaming spike at the other. Veins of molten earth glow faintly beneath the rod's
@@ -46,4 +51,7 @@ successful DC 16 Reflex save.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [firefall](ref/spell/firefall); **Cost** 14,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [firefall](ref/spell/firefall)
+Cost: 14,000 gp
+:::

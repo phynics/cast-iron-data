@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 Upon command, a breaking weapon deals an extra 2d6 points of damage against inanimate objects and
 crystalline creatures on a successful hit and ignores the [hardness](ref/umr/hardness) of objects
@@ -31,5 +36,7 @@ remains until another command is given.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break](ref/spell/break) or [shatter](ref/spell/shatter); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break](ref/spell/break) or [shatter](ref/spell/shatter)
+Price: -
+:::

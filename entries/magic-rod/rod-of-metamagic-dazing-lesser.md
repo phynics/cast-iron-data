@@ -25,14 +25,20 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Dazing
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to
-6th-level spells\]), 121,500 gp (greater \[all spells\]); **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to 6th-level spells\]), 121,500 gp (greater \[all spells\])
+Weight: 5 lbs.
+:::
 
 The wielder can cast up to three spells per day that [daze](ref/misc/dazed) affected creatures as
 though using the Dazing Spell feat.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Dazing Spell](ref/feat/dazing-spell); **Cost**
-7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Dazing Spell](ref/feat/dazing-spell)
+Cost: 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
+:::

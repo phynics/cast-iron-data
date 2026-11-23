@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** +1,875 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: +1,875 gp
+Weight: -
+:::
 
 This special ability can be placed only on projectile weapons. Most sniping weapons are dull-colored
 and marked with symbols of death. The wielder of a sniping weapon gains a +5 competence bonus on
@@ -29,5 +34,7 @@ Stealth checks to remain hidden after sniping with it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invisibility](ref/spell/invisibility), [silence](ref/spell/silence); **Price** 937 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence)
+Price: 937 gp
+:::

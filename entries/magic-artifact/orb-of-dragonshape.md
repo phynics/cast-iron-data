@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong transmutation; **CL** 19th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 19th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 Once per day, the bearer of one of these scintillating, 1-foot-diameter orbs can transform into a
 Huge dragon of a specific variety. This effect is similar to that created by

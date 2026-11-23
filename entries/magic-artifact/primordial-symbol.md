@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 Its origin lost in the infinite expanse of time, a primordial symbol is a polished stone bearing a
 mystic sign that resembles a lopsided, two-barred cross. When held forth and invoked by a bearer who

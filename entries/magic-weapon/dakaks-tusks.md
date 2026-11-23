@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 26,616 gp; **Weight** 13 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 26,616 gp
+Weight: 13 lbs.
+:::
 
 Containing the bound essence of a troll warlord, this matched pair of +1
 [vicious](ref/magic-enh/vicious) [heavy picks](ref/eq-weapon/heavy-pick) rends flesh with horrifying
@@ -35,5 +40,7 @@ points of bleed damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [enervation](ref/spell/enervation); **Price** 13,616 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [enervation](ref/spell/enervation)
+Price: 13,616 gp
+:::

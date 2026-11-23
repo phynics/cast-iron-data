@@ -23,8 +23,13 @@ aura = "overwhelming conjuration"
 caster_level = "23rd"
 +++
 
-**Aura** overwhelming conjuration; **CL** 23rd\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: overwhelming conjuration
+CL: 23rd
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 This innocuous-looking scrap is nothing less than the physical manifestation of a man-made demiplane
 known as Kakishon, and the rune covering the scroll is in fact a representation of the plane's

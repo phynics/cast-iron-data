@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** weapon quality; **Price** +4 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: weapon quality
+Price: +4 bonus
+Weight: -
+:::
 
 As a standard action, a dancing weapon can be loosed to attack on its own. It fights for 4 rounds
 using the base attack bonus of the one who loosed it and then drops. While dancing, it cannot make
@@ -39,5 +44,7 @@ rounds. This special ability can only be placed on melee weapons.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects)
+Price: -
+:::

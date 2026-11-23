@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 17,025 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 17,025 gp
+Weight: 10 lbs.
+:::
 
 This wicked-looking +2 [adamantine](ref/eq-material/adamantine)
 [spiked chain](ref/eq-weapon/spiked-chain) is favored by those who associate with
@@ -33,5 +38,7 @@ the maneuver's effects).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects); **Price** 10,025 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects)
+Price: 10,025 gp
+:::

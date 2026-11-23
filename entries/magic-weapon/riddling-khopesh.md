@@ -20,8 +20,13 @@ aura = "moderate conjuration, evocation, and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration, evocation, and transmutation; **CL** 10th\
-**Slot** none; **Price** 15,320 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration, evocation, and transmutation
+CL: 10th
+Slot: none
+Price: 15,320 gp
+Weight: 8 lbs.
+:::
 
 This +1 [khopesh](ref/eq-weapon/khopesh) has a handle in the shape of an elongated
 [sphinx](ref/family/sphinx), with the sphinx's serene face as the pommel of the sword. Once per day,
@@ -35,5 +40,7 @@ ability to the weapon for 24 hours.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[commune](ref/spell/commune); **Price** 7,820 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [commune](ref/spell/commune)
+Price: 7,820 gp
+:::

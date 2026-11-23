@@ -23,8 +23,13 @@ aura = "overwhelming conjuration and transmutation"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming conjuration and transmutation; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 3,500 lbs.
+::: statblock
+Aura: overwhelming conjuration and transmutation
+CL: 30th
+Slot: none
+Price: -
+Weight: 3,500 lbs.
+:::
 
 Approximately 15 feet tall and 15 feet square, this crude hut sits atop a pair of gigantic chicken
 legs that, when not tucked beneath the structure at rest, endlessly pick and scratch at the hut's

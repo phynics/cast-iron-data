@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: none
+Price: -
+Weight: -
+:::
 
 This simple-looking key seems to be carved crudely from stone, but is in fact a sort of skeleton key
 that can be used to wind all clockwork constructs swiftly and efficiently. Originally, the key

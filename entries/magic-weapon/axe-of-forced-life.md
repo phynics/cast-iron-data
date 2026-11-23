@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 45,310 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 45,310 gp
+Weight: 6 lbs.
+:::
 
 This +3 [battleaxe](ref/eq-weapon/battleaxe) has a well-worn haft and a blackened blade etched with
 an [ouroboros](ref/monster/ouroboros). An axe of forced life briefly disrupts the
@@ -41,6 +46,7 @@ at a DC 17 Will save or lose the benefits of all forms of
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[breath of life](ref/spell/breath-of-life), [dispel evil](ref/spell/dispel-evil); **Price** 22,810
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [breath of life](ref/spell/breath-of-life), [dispel evil](ref/spell/dispel-evil)
+Price: 22,810 gp
+:::

@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 20,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 20,800 gp
+Weight: 5 lbs.
+:::
 
 Leaves sprout from this wooden staff, some green and some black. When the wielder uses the staff, he
 plucks one of the leaves: a green leaf to provide sustenance or a black leaf to cause hunger or
@@ -36,7 +41,7 @@ thirst. The staff allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [create water](ref/spell/create-water),
-[cup of dust](ref/spell/cup-of-dust), [feast of ashes](ref/spell/feast-of-ashes),
-[goodberry](ref/spell/goodberry), [purify food and drink](ref/spell/purify-food-and-drink); **Cost**
-10,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [create water](ref/spell/create-water), [cup of dust](ref/spell/cup-of-dust), [feast of ashes](ref/spell/feast-of-ashes), [goodberry](ref/spell/goodberry), [purify food and drink](ref/spell/purify-food-and-drink)
+Cost: 10,400 gp
+:::

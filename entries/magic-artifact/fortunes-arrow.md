@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 1/10 lb.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: -
+Weight: 1/10 lb.
+:::
 
 While this +3 [seeking](ref/magic-enh/seeking) arrow is carried, it grants its bearer a +2 luck
 bonus on saving throws and skill checks. The wielder doubles her

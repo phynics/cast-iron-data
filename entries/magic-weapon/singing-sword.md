@@ -21,8 +21,13 @@ aura = "strong enchantment"
 caster_level = "14th"
 +++
 
-**Aura** strong enchantment; **CL** 14th\
-**Slot** none; **Price** 165,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 14th
+Slot: none
+Price: 165,315 gp
+Weight: 4 lbs.
+:::
 
 This +2 [keen](ref/magic-enh/keen) [dancing](ref/magic-enh/dancing)
 [longsword](ref/eq-weapon/longsword) is infused with the soul of a bard who chose to instill his
@@ -41,9 +46,10 @@ following powers.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [animate objects](ref/spell/animate-objects), the soul of a
-willing [bard](ref/class/bard) of at least 8th level; **Price** 500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [animate objects](ref/spell/animate-objects), the soul of a willing [bard](ref/class/bard) of at least 8th level
+Price: 500 gp
+:::
 
 ### Statistics
 

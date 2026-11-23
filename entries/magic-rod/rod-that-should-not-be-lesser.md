@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 12,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 12,000 gp
+Weight: 8 lbs.
+:::
 
 This rod is a fusion of magic and the limb of a dangerous, nearly mindless aberration. This rod
 features a single writhing tentacle at one end. The rod contains the mind of a living creature, but
@@ -43,9 +48,10 @@ mind-affecting fear effect. The greater rods have a
 
 ### Construction
 
-**Requirements** [summon monster III](ref/spell/summon-monster-3) (Lesser),
-[summon monster V](ref/spell/summon-monster-5) (Greater); **Price** 6,000 gp (Lesser), 20,000 gp
-(Greater)
+::: statblock
+Requirements: [summon monster III](ref/spell/summon-monster-3) (Lesser), [summon monster V](ref/spell/summon-monster-5) (Greater)
+Price: 6,000 gp (Lesser), 20,000 gp (Greater)
+:::
 
 ### Statistics
 

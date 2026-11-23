@@ -20,8 +20,12 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Weight** 6 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Weight: 6 lbs.
+:::
 
 This vicious-looking +2 [battleaxe](ref/eq-weapon/battleaxe) grants its wielder the
 [Great Cleave](ref/feat/great-cleave) feat. But when using this feat, the wielder makes an
@@ -33,4 +37,7 @@ his primary weapon and must use Great Cleave at every opportunity until subject 
 
 ### Construction
 
-**Requirements** +2 battleaxe; **Cost** -
+::: statblock
+Requirements: +2 battleaxe
+Cost: -
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 In its natural form, a figurine of the concealed companion looks like nothing more than a fist-sized
 hunk of distinctly colored clay. When taken up by a character who possesses a deep contention with

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 8,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 8,350 gp
+Weight: 8 lbs.
+:::
 
 This +1 [greatsword](ref/eq-weapon/greatsword) is often found among the robot-hunters of Numeria.
 Three times per day as a standard action, the wielder can envelop the blade with a razor-edged field
@@ -33,5 +38,7 @@ actual hardness.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wall of force](ref/spell/wall-of-force); **Price** 4,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wall of force](ref/spell/wall-of-force)
+Price: 4,350 gp
+:::

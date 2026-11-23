@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 1,450 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 1,450 gp
+Weight: 1 lb.
+:::
 
 This [M1914 concussion grenade](ref/eq-weapon/m1914-concussion-grenade) can be thrown up to 680 feet
 away, as it teleports itself directly to the target location when thrown. This allows a dimensional
@@ -34,5 +39,7 @@ grenade is consumed in the attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimension door](ref/spell/dimension-door), [mass daze](ref/spell/daze-mass); **Price** 750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimension door](ref/spell/dimension-door), [mass daze](ref/spell/daze-mass)
+Price: 750 gp
+:::

@@ -23,13 +23,20 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +3,750 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +3,750 gp
+Weight: -
+:::
 
 This suit of armor helps its wearer remain mounted and in control of his mount. The wearer gains a
 +5 competence bonus on [Ride](ref/skill/ride) skill checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must
-have 5 ranks in Ride; **Price** +1,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must have 5 ranks in Ride
+Price: +1,875 gp
+:::

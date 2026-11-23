@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 50,312 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 50,312 gp
+Weight: 8 lbs.
+:::
 
 The flanges on the head of this +1 [axiomatic](ref/magic-enh/axiomatic)
 [heavy mace](ref/eq-weapon/heavy-mace) are shaped like skeleton keys. Three times per day as a swift
@@ -37,5 +42,7 @@ In addition, when attempting to destroy a lock, the mace ignores up to 20 points
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[knock](ref/spell/knock), [passwall](ref/spell/passwall); **Price** 25,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [knock](ref/spell/knock), [passwall](ref/spell/passwall)
+Price: 25,312 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 9th\
-**Slot** none; **Price** 32,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 9th
+Slot: none
+Price: 32,350 gp
+Weight: 8 lbs.
+:::
 
 It is said that the empyreal lord [Ragathiel's](ref/faith/ragathiel) divine soldiers wield these
 golden +1 [holy](ref/magic-enh/holy) [greatswords](ref/eq-weapon/greatsword) in their battles
@@ -36,5 +41,7 @@ one-quarter on a successful save) and are not blinded.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy smite](ref/spell/holy-smite), creator must be good; **Price** 16,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy smite](ref/spell/holy-smite), creator must be good
+Price: 16,350 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation [electricity]"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation \[electricity\]; **CL** 13th\
-**Slot** none; **Price** 98,302 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation \[electricity\]
+CL: 13th
+Slot: none
+Price: 98,302 gp
+Weight: 6 lbs.
+:::
 
 This +1 [keen](ref/magic-enh/keen) [shock](ref/magic-enh/shock) [spear](ref/eq-weapon/spear)
 constantly flickers and sparks with power. When casting spells with the electricity descriptor, the
@@ -39,6 +44,7 @@ critical hit on an attack that calls down a lightning bolt, the lightning also d
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [call lightning](ref/spell/call-lightning),
-[control weather](ref/spell/control-weather); **Price** 49,302 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [call lightning](ref/spell/call-lightning), [control weather](ref/spell/control-weather)
+Price: 49,302 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "12th"
 +++
 
-**Aura** faint conjuration; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons or ammunition. A cyclonic weapon or piece
 of ammunition feels as though it were surrounded by gentle winds pulling it in all directions. When
@@ -31,5 +36,7 @@ liquid or gaseous environmental factors.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[air bubble](ref/spell/air-bubble); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [air bubble](ref/spell/air-bubble)
+Price: -
+:::

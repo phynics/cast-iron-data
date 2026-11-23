@@ -20,8 +20,13 @@ aura = "moderate conjuration [evil]"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration \[evil\]; **CL** 11th\
-**Slot** none; **Price** 32,870 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration \[evil\]
+CL: 11th
+Slot: none
+Price: 32,870 gp
+Weight: 3 lbs.
+:::
 
 This wide machete is darkly stained with blood. It is treated as a +1 [keen](ref/magic-enh/keen)
 [short sword](ref/eq-weapon/short-sword) that also has a vicious cutting edge, allowing it to deal
@@ -34,6 +39,7 @@ can lick the bloodstains on the blade as a standard action to gain the benefits 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cruel jaunt](ref/spell/cruel-jaunt), [keen edge](ref/spell/keen-edge), creator must sacrifice a
-sentient living creature; **Price** 16,590 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cruel jaunt](ref/spell/cruel-jaunt), [keen edge](ref/spell/keen-edge), creator must sacrifice a sentient living creature
+Price: 16,590 gp
+:::

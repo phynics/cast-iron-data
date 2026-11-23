@@ -20,8 +20,13 @@ aura = "moderate enchantment and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** moderate enchantment and transmutation; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 1,750 lbs.
+::: statblock
+Aura: moderate enchantment and transmutation
+CL: 15th
+Slot: none
+Price: -
+Weight: 1,750 lbs.
+:::
 
 This immense brass, bronze, and crystal [orrery](ref/eq-misc/orrery) models Golarion's solar system
 as it was in the Age of Legend. If consulted for 10 minutes or more, the orrery grants a +5

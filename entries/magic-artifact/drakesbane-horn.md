@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 7 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 7 lbs.
+:::
 
 The Drakesbane Horn is a 4-foot-long spiraling horn cut from the skull of a primordial drake. Its
 surface is carved with an intricate pattern of interlocking knots inlaid with silver and copper.

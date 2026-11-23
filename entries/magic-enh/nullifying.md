@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A nullifying weapon suppresses a
 creature's [spell resistance](ref/rule/spell-resistance) for a short amount of time. Anytime the
@@ -32,5 +37,7 @@ from a nullification weapon stack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[antimagic field](ref/spell/antimagic-field); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [antimagic field](ref/spell/antimagic-field)
+Price: -
+:::

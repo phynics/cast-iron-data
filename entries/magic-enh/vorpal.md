@@ -23,8 +23,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 18th\
-**Slot** weapon quality; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 18th
+Slot: weapon quality
+Price: +5 bonus
+Weight: -
+:::
 
 This potent and feared ability allows the weapon to sever the heads of those it strikes. Upon a roll
 of natural 20 (followed by a successful roll to confirm the critical hit), the weapon severs the
@@ -36,5 +41,7 @@ an inappropriate weapon, reroll.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[circle of death](ref/spell/circle-of-death), [keen edge](ref/spell/keen-edge); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [circle of death](ref/spell/circle-of-death), [keen edge](ref/spell/keen-edge)
+Price: -
+:::

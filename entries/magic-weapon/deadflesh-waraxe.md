@@ -20,8 +20,12 @@ aura = "strong conjuration and transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 12th\
-**Slot** none; **Weight** 8 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 12th
+Slot: none
+Weight: 8 lbs.
+:::
 
 These +1 [mithral](ref/eq-material/mithral) [ghost touch](ref/magic-enh/ghost-touch-weapon) undead
 [bane](ref/magic-enh/bane) [dwarven waraxes](ref/eq-weapon/dwarven-waraxe) were crafted hurriedly to
@@ -40,4 +44,7 @@ was too late.
 
 ### Construction
 
-**Requirements** +1 mithral ghost touch undead bane dwarven waraxe; **Cost** -
+::: statblock
+Requirements: +1 mithral ghost touch undead bane dwarven waraxe
+Cost: -
+:::

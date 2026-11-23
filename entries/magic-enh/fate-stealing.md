@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. When a fate-stealing weapon strikes a
 creature that possesses either grit or panache, the wielder can steal 1 grit point or panache point
@@ -35,5 +40,7 @@ attempt fails.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[vampiric touch](ref/spell/vampiric-touch); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [vampiric touch](ref/spell/vampiric-touch)
+Price: -
+:::

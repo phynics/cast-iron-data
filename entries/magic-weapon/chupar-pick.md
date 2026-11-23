@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 7th\
-**Slot** none; **Price** 24,304 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 7th
+Slot: none
+Price: 24,304 gp
+Weight: 3 lbs.
+:::
 
 A curved yellow fang juts from the wooden haft of this light pick in place of a metal tip. Though
 the fang seems fragile, the enchantments on the weapon render it as hard as steel, and the fang
@@ -34,6 +39,7 @@ additional effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [haste](ref/spell/haste), one [chupacabra](ref/monster/chupacabra) fang;
-**Price** 12,304 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [haste](ref/spell/haste), one [chupacabra](ref/monster/chupacabra) fang
+Price: 12,304 gp
+:::

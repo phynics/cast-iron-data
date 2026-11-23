@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** shield quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: shield quality
+Price: +2 bonus
+Weight: -
+:::
 
 As the [guarding](ref/magic-enh/guarding) property, except as a free action, the wearer selects any
 number of adjacent allies to receive the shield's bonus. All selected allies receive the same bonus.
@@ -30,5 +35,7 @@ not for any other targets.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield other](ref/spell/shield-other); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield other](ref/spell/shield-other)
+Price: +2 bonus
+:::

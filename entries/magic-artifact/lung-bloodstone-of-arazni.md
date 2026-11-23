@@ -20,8 +20,13 @@ aura = "strong abjuration and necromancy [lawful]"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and necromancy \[lawful\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration and necromancy \[lawful\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This canopic jar containing [Arazni's](ref/faith/arazni) preserved lungs echoes with Arazni's sense
 of duty and the lingering power of the dead god Aroden. The bearer of the Lung Bloodstone of Arazni

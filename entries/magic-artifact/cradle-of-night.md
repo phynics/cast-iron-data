@@ -20,8 +20,13 @@ aura = "strong illusion [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong illusion \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong illusion \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Once each year, a Cradle of Night can infuse a single living creature that handles it with a
 manifestation of the [shadowbound corruption](ref/rule/shadowbound). If the creature wishes to

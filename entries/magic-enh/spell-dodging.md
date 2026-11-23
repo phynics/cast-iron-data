@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "4th"
 +++
 
-**Aura** faint abjuration; **CL** 4th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 4th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A suit of spell dodging armor makes it more difficult for attacks from spells and
 [spell-like abilities](ref/umr/spell-like-abilities) to hit its wearer, often physically pulling and
@@ -31,5 +36,7 @@ attacks of summoned creatures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mage armor](ref/spell/mage-armor); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mage armor](ref/spell/mage-armor)
+Price: +2 bonus
+:::

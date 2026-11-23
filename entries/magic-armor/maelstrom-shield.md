@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** shield; **Price** 14,170 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: shield
+Price: 14,170 gp
+Weight: 10 lbs.
+:::
 
 The device of this +1 [bashing](ref/magic-enh/bashing)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) features a magical image of the trackless
@@ -34,6 +39,7 @@ of water as the _[hydraulic push](ref/spell/hydraulic-push)_ spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [control water](ref/spell/control-water),
-[hydraulic push](ref/spell/hydraulic-push); **Price** 7,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [control water](ref/spell/control-water), [hydraulic push](ref/spell/hydraulic-push)
+Price: 7,170 gp
+:::

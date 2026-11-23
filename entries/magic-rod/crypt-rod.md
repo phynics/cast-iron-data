@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 8,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 8,500 gp
+Weight: 5 lbs.
+:::
 
 This 3-foot-long iron rod has a flanged, conical head and strikes as a +1
 [light mace](ref/eq-weapon/light-mace). On command when held in hand, the rod points in the
@@ -32,5 +37,7 @@ carries an item that the individual owned in life.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [locate object](ref/spell/locate-object); **Cost**
-4,250 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [locate object](ref/spell/locate-object)
+Cost: 4,250 gp
+:::

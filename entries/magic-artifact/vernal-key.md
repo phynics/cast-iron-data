@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The Vernal Key consists of three lattice orbs, one inside the other, all carved from a single piece
 of blue mineral. The key was created to unlock a jarl's prison, but as a side effect it also

@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "11th"
 +++
 
-**Aura** strong (all schools); **CL** 11th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 11th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 This portable [orrery](ref/eq-misc/orrery) models Golarion's solar system, and is collapsible down
 to a 1-foot-diameter globe - expanding it out to its full size (about 4 feet across) or collapsing

@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 12,650 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 12,650 gp
+Weight: 2 lbs.
+:::
 
 Thin golden strands snake through this transparent shaft, seeming to flow from one brass endcap to
 the other. Once per day when the wielder is damaged by an effect that deals at least 10 points of
@@ -35,6 +40,7 @@ wielder takes from the effect.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[Intensified Spell](ref/feat/intensified-spell), [shocking grasp](ref/spell/shocking-grasp),
-[lightning bolt](ref/spell/lightning-bolt); **Cost** 6,475 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [Intensified Spell](ref/feat/intensified-spell), [shocking grasp](ref/spell/shocking-grasp), [lightning bolt](ref/spell/lightning-bolt)
+Cost: 6,475 gp
+:::

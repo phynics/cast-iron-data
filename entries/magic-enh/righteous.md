@@ -25,8 +25,13 @@ caster_level = "10th"
 
 ## Righteous, Unrighteous, Unbound, Vigilant
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** armor quality; **Price** +27,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: armor quality
+Price: +27,000 gp
+Weight: -
+:::
 
 Righteous armor is often engraved or enameled with religious symbols. Once per day on command, the
 wearer can invoke an effect, as per the spell _[righteous might](ref/spell/righteous-might),_
@@ -51,6 +56,7 @@ it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[righteous might](ref/spell/righteous-might), creator must be lawful (vigilant armor only) or
-chaotic (unbound armor only); **Price** +13,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [righteous might](ref/spell/righteous-might), creator must be lawful (vigilant armor only) or chaotic (unbound armor only)
+Price: +13,500 gp
+:::

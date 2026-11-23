@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 3,515 gp; **Weight** 20 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 3,515 gp
+Weight: 20 lbs.
+:::
 
 Crafted from the skin of a great cat, this +1 [hide](ref/eq-armor/hide) armor provides its wearer a
 +2 competence bonus on all ability checks to perform feats of strength, such as bending bars, and
@@ -32,5 +37,7 @@ score as if it were 8 higher than normal for the purpose of determining her
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ant haul](ref/spell/ant-haul), [bull's strength](ref/spell/bulls-strength); **Price** 1,915 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ant haul](ref/spell/ant-haul), [bull's strength](ref/spell/bulls-strength)
+Price: 1,915 gp
+:::

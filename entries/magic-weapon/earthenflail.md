@@ -20,8 +20,13 @@ aura = "strong evocation and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 13th\
-**Slot** none; **Price** 11,315 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 13th
+Slot: none
+Price: 11,315 gp
+Weight: 10 lbs.
+:::
 
 This roughly hewn wooden haft is lashed with gut and rope to a hefty boulder. This +1
 [heavy flail](ref/eq-weapon/heavy-flail) ignores the [hardness](ref/umr/hardness) of any object with
@@ -33,5 +38,7 @@ made of these materials. Cover provided by other sources is unaffected.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[phase door](ref/spell/phase-door), [shatter](ref/spell/shatter); **Price** 5,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [phase door](ref/spell/phase-door), [shatter](ref/spell/shatter)
+Price: 5,815 gp
+:::

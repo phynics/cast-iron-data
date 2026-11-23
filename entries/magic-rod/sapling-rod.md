@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 9th\
-**Slot** none; **Price** 16,650 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 9th
+Slot: none
+Price: 16,650 gp
+Weight: 5 lbs.
+:::
 
 This rod appears to be the limbless trunk and branching roots of a miniature tree. It grants its
 wielder a +5 competence bonus on [Survival](ref/skill/survival) checks to get along in the wild and
@@ -42,7 +47,7 @@ before shriveling into useless husks.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[cure moderate wounds](ref/spell/cure-moderate-wounds),
-[grove of respite](ref/spell/grove-of-respite), [lesser restoration](ref/spell/restoration-lesser);
-**Cost** 8,325 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [cure moderate wounds](ref/spell/cure-moderate-wounds), [grove of respite](ref/spell/grove-of-respite), [lesser restoration](ref/spell/restoration-lesser)
+Cost: 8,325 gp
+:::

@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** neck; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: neck
+Price: -
+Weight: 1 lb.
+:::
 
 This brittle human jawbone is all that remains of the legendary Chelish diplomat Galevius. A simple
 cord allows the relic to be worn as a necklace. The jawbone represents all of Galevius's substantial

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield with this special ability is designed to perform a [shield bash](ref/misc/shield-bash). A
 bashing shield deals damage as if it were a weapon of
@@ -34,5 +39,7 @@ weapon when used to bash. Only light and heavy shields can have this ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength)
+Price: +1 bonus
+:::

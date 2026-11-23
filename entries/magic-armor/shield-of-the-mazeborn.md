@@ -20,8 +20,13 @@ aura = "faint divination and enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint divination and enchantment; **CL** 5th\
-**Slot** shield; **Price** 18,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint divination and enchantment
+CL: 5th
+Slot: shield
+Price: 18,170 gp
+Weight: 15 lbs.
+:::
 
 This +1 [bashing](ref/magic-enh/bashing) [heavy steel shield](ref/eq-armor/heavy-steel-shield)
 resembles a bull's head with a complex, maze-like rune inscribed on the creature's forehead. In
@@ -32,6 +37,7 @@ once per week. As long as the shield is equipped, it also grants the wearer immu
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [find the path](ref/spell/find-the-path),
-[know direction](ref/spell/know-direction); **Price** 9,170 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [find the path](ref/spell/find-the-path), [know direction](ref/spell/know-direction)
+Price: 9,170 gp
+:::

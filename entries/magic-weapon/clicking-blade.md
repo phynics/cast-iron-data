@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** none; **Price** 10,310 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: none
+Price: 10,310 gp
+Weight: 3 lbs.
+:::
 
 Adapted from the weapons of the Clicking Caverns' mysterious clockwork soldiers, this +1
 [keen](ref/magic-enh/keen) [short sword](ref/eq-weapon/short-sword) is modified with ticking
@@ -34,5 +39,7 @@ become d4s, and d8s become d6s).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lesser object possession](ref/spell/object-possession-lesser); **Price** 5,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lesser object possession](ref/spell/object-possession-lesser)
+Price: 5,310 gp
+:::

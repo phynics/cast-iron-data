@@ -20,8 +20,13 @@ aura = "strong varied [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong varied \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong varied \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This gruesome artifact looks like the mummified, hollowed-out arm of a
 [glabrezu](ref/monster/demon-glabrezu). This graft contains an imprisoned parasitic demon that can

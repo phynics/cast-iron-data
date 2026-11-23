@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A called weapon can be teleported to the wielder's hand as a swift action that does not provoke
 attacks of opportunity, even if the weapon is in the possession of another creature. This ability
@@ -31,5 +36,7 @@ function.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[teleport](ref/spell/teleport); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [teleport](ref/spell/teleport)
+Price: -
+:::

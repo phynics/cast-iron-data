@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 13th\
-**Slot** armor; **Price** 22,165 gp; **Weight** 25 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 13th
+Slot: armor
+Price: 22,165 gp
+Weight: 25 lbs.
+:::
 
 This grotesque suit of +1 [hide](ref/eq-armor/hide) armor is stitched together from the hides of
 [gugs](ref/monster/gug) from the underworld of the [Dreamlands](ref/rule/dimension-of-dreams) and
@@ -37,5 +42,7 @@ than two arms.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[alter self](ref/spell/alter-self), [limited wish](ref/spell/limited-wish); **Price** 11,165 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [alter self](ref/spell/alter-self), [limited wish](ref/spell/limited-wish)
+Price: 11,165 gp
+:::

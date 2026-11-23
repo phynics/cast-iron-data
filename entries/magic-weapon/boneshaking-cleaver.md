@@ -20,8 +20,13 @@ aura = "strong necromancy [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 15th\
-**Slot** none; **Price** 90,320 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 15th
+Slot: none
+Price: 90,320 gp
+Weight: 12 lbs.
+:::
 
 This well-balanced, two-handed cleaver is nearly 6 feet in length. Its blade protrudes from a hilt
 that appears to be the spine of an animal, capped with a skull at its end. A boneshaking cleaver
@@ -32,6 +37,7 @@ following conditions to the target for 1 round: deafened, shaken, or sickened.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), [unholy blight](ref/spell/unholy-blight); **Price** 45,320
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), [unholy blight](ref/spell/unholy-blight)
+Price: 45,320 gp
+:::

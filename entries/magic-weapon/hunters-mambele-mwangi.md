@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 35,304 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 35,304 gp
+Weight: 3 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,6 +38,7 @@ escaping into the enveloping trees of the dense jungle.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[locate creature](ref/spell/locate-creature), [returning weapon](ref/spell/returning-weapon),
-creator must be a Mwangi; **Price** 17,804 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [locate creature](ref/spell/locate-creature), [returning weapon](ref/spell/returning-weapon), creator must be a Mwangi
+Price: 17,804 gp
+:::

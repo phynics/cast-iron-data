@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Vouchsafing armor grants its wearer DR 5/- while she is [unconscious](ref/misc/unconscious),
 [nauseated](ref/misc/nauseated), [stunned](ref/misc/stunned), or
@@ -31,5 +36,7 @@ able to make attacks while pinned, the armor does not grant its DR.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stoneskin](ref/spell/stoneskin); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stoneskin](ref/spell/stoneskin)
+Price: +1 bonus
+:::

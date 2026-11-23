@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 30,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 30,400 gp
+Weight: 3 lbs.
+:::
 
 Favored by worshipers of [Desna](ref/faith/desna) and elves alike, the silvery wooden limbs and
 green riser of this +3 [composite longbow](ref/eq-weapon/composite-longbow) are decorated with rows
@@ -40,5 +45,7 @@ attack is shrouded with a soft radiance (as [faerie fire](ref/spell/faerie-fire)
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[searing light](ref/spell/searing-light), [warp wood](ref/spell/warp-wood); **Price** 15,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [searing light](ref/spell/searing-light), [warp wood](ref/spell/warp-wood)
+Price: 15,400 gp
+:::

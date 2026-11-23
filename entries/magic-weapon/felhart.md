@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** none; **Price** 22,375 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: none
+Price: 22,375 gp
+Weight: 4 lbs.
+:::
 
 Felhart is a +2 [bane](ref/magic-enh/bane) [longbow](ref/eq-weapon/longbow) crafted from the
 fiercely carved horns of at least two venerable stags and strung with a cord laced with silver. The
@@ -42,5 +47,7 @@ never allows a strange rider to ride it alone.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true strike](ref/spell/true-strike); **Price** 11,187 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true strike](ref/spell/true-strike)
+Price: 11,187 gp
+:::

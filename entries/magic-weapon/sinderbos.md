@@ -19,8 +19,13 @@ slot = "none"
 aura = "moderate conjuration and evocation"
 +++
 
-**Aura** moderate conjuration and evocation; **CL**\
-**Slot** none; **Price** 12,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL:
+Slot: none
+Price: 12,312 gp
+Weight: 5 lbs.
+:::
 
 This pitch-black +1 [flaming](ref/magic-enh/flaming) [warhammer](ref/eq-weapon/warhammer) is bereft
 of any ornamentation beyond an engraving on its face of a bull's head with an open flame, the unholy
@@ -39,6 +44,7 @@ aura for the purposes of [detect evil](ref/spell/detect-evil) or similar effects
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ash storm](ref/spell/ash-storm), [fireball](ref/spell/fireball), creator must worship
-[Moloch](ref/faith/moloch) and have 5 ranks in Craft (armor) or Craft (weapons); **Price** 6,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ash storm](ref/spell/ash-storm), [fireball](ref/spell/fireball), creator must worship [Moloch](ref/faith/moloch) and have 5 ranks in Craft (armor) or Craft (weapons)
+Price: 6,812 gp
+:::

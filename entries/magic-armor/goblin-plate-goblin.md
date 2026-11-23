@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** armor; **Price** 23,650 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: armor
+Price: 23,650 gp
+Weight: 25 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -38,6 +43,7 @@ usual AC bonus (rounded down), and any armor check penalty is doubled.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy), [shatter](ref/spell/shatter), creator must be a goblin;
-**Price** 12,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy), [shatter](ref/spell/shatter), creator must be a goblin
+Price: 12,650 gp
+:::

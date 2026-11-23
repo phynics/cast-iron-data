@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** armor; **Price** 20,175 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: armor
+Price: 20,175 gp
+Weight: 20 lbs.
+:::
 
 Each of the yellow ribbons that spill from the joints of this jaundiced suit of +3
 [studded leather](ref/eq-armor/studded-leather) armor bears one or more haunting runes. Three times
@@ -43,6 +48,7 @@ Reflex saving throw or no damage if successful.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[glyph of warding](ref/spell/glyph-of-warding), [secret page](ref/spell/secret-page), creator must
-possess the Rune domain; **Price** 10,175 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [glyph of warding](ref/spell/glyph-of-warding), [secret page](ref/spell/secret-page), creator must possess the Rune domain
+Price: 10,175 gp
+:::

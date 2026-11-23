@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 37,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 37,600 gp
+Weight: 5 lbs.
+:::
 
 This stout staff is made of ash. Four faces of animals - a bear, a falcon, a stag, and a wolf - are
 carved at its top. The aspect staff functions as a +1/+1 [quarterstaff](ref/eq-weapon/quarterstaff)
@@ -35,8 +40,7 @@ and allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [aspect of the bear](ref/spell/aspect-of-the-bear),
-[aspect of the falcon](ref/spell/aspect-of-the-falcon),
-[aspect of the stag](ref/spell/aspect-of-the-stag),
-[aspect of the wolf](ref/spell/aspect-of-the-wolf); **Cost** 19,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [aspect of the bear](ref/spell/aspect-of-the-bear), [aspect of the falcon](ref/spell/aspect-of-the-falcon), [aspect of the stag](ref/spell/aspect-of-the-stag), [aspect of the wolf](ref/spell/aspect-of-the-wolf)
+Cost: 19,100 gp
+:::

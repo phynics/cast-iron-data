@@ -23,8 +23,13 @@ aura = "moderate illusion"
 caster_level = "11th"
 +++
 
-**Aura** moderate illusion; **CL** 11th\
-**Slot** none; **Price** 65,575 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 11th
+Slot: none
+Price: 65,575 gp
+Weight: 2 lbs.
+:::
 
 With a blade crafted entirely out of black metal, this +2 [speed](ref/magic-enh/speed)
 [sawtooth sabre](ref/eq-weapon/sawtooth-sabre) has only one hint of color: a red hilt. Once per day
@@ -42,6 +47,7 @@ enemy's melee attack, she can swap places with an illusory assassin that is adja
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-an 11th-level cleric of Achaekek or be able to cast [haste](ref/spell/haste),
-[mirror image](ref/spell/mirror-image), and [mislead](ref/spell/mislead); **Price** 32,955 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be an 11th-level cleric of Achaekek or be able to cast [haste](ref/spell/haste), [mirror image](ref/spell/mirror-image), and [mislead](ref/spell/mislead)
+Price: 32,955 gp
+:::

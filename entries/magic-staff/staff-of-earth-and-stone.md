@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 85,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 85,800 gp
+Weight: 5 lbs.
+:::
 
 This staff is topped with a fist-sized emerald that gleams with smoldering power. It allows the use
 of the following spells:
@@ -35,5 +40,7 @@ of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [move earth](ref/spell/move-earth),
-[passwall](ref/spell/passwall); **Cost** 42,900 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [move earth](ref/spell/move-earth), [passwall](ref/spell/passwall)
+Cost: 42,900 gp
+:::

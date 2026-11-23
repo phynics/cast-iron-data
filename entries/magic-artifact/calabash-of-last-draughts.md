@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 18th\
-**Slot** chest; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 18th
+Slot: chest
+Price: -
+Weight: 5 lbs.
+:::
 
 An elaborately carved stopper caps this black gourd. It was once a
 [decanter of endless water](ref/magic-wondrous/decanter-of-endless-water), but the bottle's magic

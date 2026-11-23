@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** +4,500 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: +4,500 gp
+Weight: -
+:::
 
 Armor with this special ability grants its wearer a +5 competence bonus on Escape Artist checks and
 to CMD against [grapple](ref/rule/grapple) combat maneuvers. Additionally, once per day on command,
@@ -33,5 +38,7 @@ must be made primarily of leather, fabric, or another flexible, organic material
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fluid form](ref/spell/fluid-form); **Price** 2,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fluid form](ref/spell/fluid-form)
+Price: 2,250 gp
+:::

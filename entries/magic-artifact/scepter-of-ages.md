@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 25th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 The Scepter of Ages can be wielded as a +4 [heavy mace](ref/eq-weapon/heavy-mace) with a critical
 threat range of 18-20. In addition to the damage this weapon deals, any creature struck by the

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** armor; **Price** 9,480 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: armor
+Price: 9,480 gp
+Weight: 5 lbs.
+:::
 
 This elaborate +2 [silken ceremonial](ref/eq-armor/silken-ceremonial) armor is made of layers of
 silken braids and is often worn by diplomats and royalty when more drab or utilitarian armor is
@@ -32,5 +37,7 @@ bonus to AC for 1 round when taking the [withdraw](ref/rule/withdraw) action as 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope); **Price** 4,980 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope)
+Price: 4,980 gp
+:::

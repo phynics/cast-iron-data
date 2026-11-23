@@ -24,8 +24,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is usually made of ash or walnut and bears ornate carvings of many different kinds of
 creatures. It allows use of the following spells:
@@ -39,7 +44,7 @@ creatures. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [cloudkill](ref/spell/cloudkill),
-[minor creation](ref/spell/minor-creation), [stinking cloud](ref/spell/stinking-cloud),
-[summon monster VI](ref/spell/summon-monster-6), [summon swarm](ref/spell/summon-swarm),
-[unseen servant](ref/spell/unseen-servant); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cloudkill](ref/spell/cloudkill), [minor creation](ref/spell/minor-creation), [stinking cloud](ref/spell/stinking-cloud), [summon monster VI](ref/spell/summon-monster-6), [summon swarm](ref/spell/summon-swarm), [unseen servant](ref/spell/unseen-servant)
+Cost: 41,000 gp
+:::

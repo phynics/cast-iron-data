@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 98,320 gp; **Weight** 36 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 98,320 gp
+Weight: 36 lbs.
+:::
 
 This [Huge](ref/misc/damage-die-adjustments), double-bitted stone axe, or labrys, is carved entirely
 of hematite, with a wooden shaft covered in fur. It functions as a +3 [stone](ref/eq-material/stone)
@@ -36,7 +41,7 @@ end.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [earthquake](ref/spell/earthquake),
-[giant form I](ref/spell/giant-form-1), [lead blades](ref/spell/lead-blades),
-[shrink item](ref/spell/shrink-item); **Price** 49,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [earthquake](ref/spell/earthquake), [giant form I](ref/spell/giant-form-1), [lead blades](ref/spell/lead-blades), [shrink item](ref/spell/shrink-item)
+Price: 49,320 gp
+:::

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This weapon responds to [channeled positive and negative energy](ref/ability/channel-energy). When
 the wielder spends a swift action to channel energy through the weapon, it ignites with a strange
@@ -40,5 +45,7 @@ This special ability can only be placed on melee weapons.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Channel Smite](ref/feat/channel-smite), [align weapon](ref/spell/align-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Channel Smite](ref/feat/channel-smite), [align weapon](ref/spell/align-weapon)
+Price: -
+:::

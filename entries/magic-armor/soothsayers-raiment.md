@@ -23,8 +23,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** armor; **Price** 10,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: armor
+Price: 10,300 gp
+Weight: 40 lbs.
+:::
 
 This +1 [chainmail](ref/eq-armor/chainmail) is attuned to a particular oracular
 [mystery](ref/ability/mysteries) and contains a revelation associated with that mystery. Its design
@@ -42,6 +47,7 @@ by +5.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[augury](ref/spell/augury), creator must be an oracle with the desired revelation; **Price** 5,300
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [augury](ref/spell/augury), creator must be an oracle with the desired revelation
+Price: 5,300 gp
+:::

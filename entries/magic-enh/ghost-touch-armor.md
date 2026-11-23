@@ -25,8 +25,13 @@ caster_level = "15th"
 
 ## Ghost Touch
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** armor/shield quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: armor/shield quality
+Price: +3 bonus
+Weight: -
+:::
 
 This armor or shield seems almost translucent. Both its enhancement bonus and its armor bonus count
 against the attacks of corporeal and incorporeal creatures. It can be picked up, moved, and worn by
@@ -36,7 +41,9 @@ through solid objects.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[etherealness](ref/spell/etherealness); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [etherealness](ref/spell/etherealness)
+Price: +3 bonus
+:::
 
 > _See also: [ghost touch weapon enhancement](ref/magic-enh/ghost-touch-weapon)_

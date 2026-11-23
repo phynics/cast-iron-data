@@ -19,8 +19,12 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee or thrown weapons. The wielder of a sharding weapon
 can make a special ranged attack with the weapon in place of any melee attack. To do this, the
@@ -32,5 +36,7 @@ target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation)
+Price: -
+:::

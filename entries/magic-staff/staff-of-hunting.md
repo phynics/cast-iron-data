@@ -21,8 +21,13 @@ aura = "strong varies"
 caster_level = "13th"
 +++
 
-**Aura** strong varies; **CL** 13th\
-**Slot** none; **Price** 51,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 13th
+Slot: none
+Price: 51,000 gp
+Weight: 5 lbs.
+:::
 
 This length of aged ivory is carved with numerous hunting scenes which seem to animate and tell a
 story when the staff is rotated. It allows the use of the following spells:
@@ -34,6 +39,7 @@ story when the staff is rotated. It allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [acute senses](ref/spell/acute-senses),
-[bard's escape](ref/spell/bards-escape), [locate creature](ref/spell/locate-creature),
-[unwilling shield](ref/spell/unwilling-shield); **Cost** 25,500 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [acute senses](ref/spell/acute-senses), [bard's escape](ref/spell/bards-escape), [locate creature](ref/spell/locate-creature), [unwilling shield](ref/spell/unwilling-shield)
+Cost: 25,500 gp
+:::

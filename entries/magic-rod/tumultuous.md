@@ -20,14 +20,20 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 3,000 gp (lesser \[up to 3rd-level spells\]), 11,000 gp (normal \[up to
-6th-level spells\]), 24,500 gp (greater \[all spells\]); **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 3,000 gp (lesser \[up to 3rd-level spells\]), 11,000 gp (normal \[up to 6th-level spells\]), 24,500 gp (greater \[all spells\])
+Weight: 5 lbs.
+:::
 
 The wielder of this metamagic rod can cast up to three spells per day that scatter the targets as
 though using the Tumultuous Spell feat.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Tumultuous Spell](ref/feat/tumultuous-spell);
-**Cost** 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Tumultuous Spell](ref/feat/tumultuous-spell)
+Cost: 1,500 gp (lesser), 5,500 gp (normal), 12,250 gp (greater)
+:::

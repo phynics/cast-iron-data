@@ -20,8 +20,13 @@ aura = "strong abjuration, conjuration, and evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration, conjuration, and evocation; **CL** 17th\
-**Slot** none; **Price** 66,750 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration, conjuration, and evocation
+CL: 17th
+Slot: none
+Price: 66,750 gp
+Weight: 5 lbs.
+:::
 
 Forged with a wicked barbed end that resembles a key, this +2 [redeemed](ref/magic-enh/redeemed)
 [longsword](ref/eq-weapon/longsword) was once the unholy sword of a diabolist - before a party of
@@ -36,6 +41,7 @@ brings the wielder back to the exact spot it previously left.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[consecrate](ref/spell/consecrate), [holy smite](ref/spell/holy-smite),
-[plane shift](ref/spell/plane-shift), creator must be good; **Price** 33,533 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [consecrate](ref/spell/consecrate), [holy smite](ref/spell/holy-smite), [plane shift](ref/spell/plane-shift), creator must be good
+Price: 33,533 gp
+:::

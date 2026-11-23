@@ -26,8 +26,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 This is a +6 [keen](ref/magic-enh/keen) [throwing](ref/magic-enh/throwing)
 goblinoid-[bane](ref/magic-enh/bane) [dwarven waraxe](ref/eq-weapon/dwarven-waraxe). Any dwarf who

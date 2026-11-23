@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A furious weapon serves as a focus for its
 wielder's anger. When the wielder is raging or under the effect of a _rage_ spell, the weapon's
@@ -37,5 +42,7 @@ also includes the +2 if the wielder is raging).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rage](ref/spell/rage); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rage](ref/spell/rage)
+Price: -
+:::

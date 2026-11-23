@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 Invented by the [Lantern Bearers](ref/rule/aff-lights), this enhancement can be added to a magic
 weapon with at least a +1 bonus. Against [driders](ref/monster/fleshwarp-drider) and creatures with
@@ -31,6 +36,7 @@ once per day (similar to [detect animals or plants](ref/spell/detect-animals-or-
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[darkvision](ref/spell/darkvision), [detect evil](ref/spell/detect-evil),
-[summon monster I](ref/spell/summon-monster-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [darkvision](ref/spell/darkvision), [detect evil](ref/spell/detect-evil), [summon monster I](ref/spell/summon-monster-1)
+Price: -
+:::

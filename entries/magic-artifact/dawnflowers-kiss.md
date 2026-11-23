@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** weapon; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: weapon
+Price: -
+Weight: 4 lbs.
+:::
 
 The sacred weapon known as Dawnflower's Kiss is said to have been one of a dozen identical weapons
 created long ago when [Sarenrae](ref/faith/sarenrae) split open the world while fighting

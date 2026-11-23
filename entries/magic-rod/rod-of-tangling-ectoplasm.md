@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 This lengthy rod looks like a walking cane with a stylized crystal skull at its top. As a standard
 action up to three times per day, the wielder can slam the base of the rod into the ground while
@@ -36,5 +41,7 @@ disappearing.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [ectoplasmic snare](ref/spell/ectoplasmic-snare);
-**Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [ectoplasmic snare](ref/spell/ectoplasmic-snare)
+Cost: 9,000 gp
+:::

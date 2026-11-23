@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** shield; **Price** 22,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: shield
+Price: 22,170 gp
+Weight: 15 lbs.
+:::
 
 This +1 [rallying](ref/magic-enh/rallying) [heavy steel shield](ref/eq-armor/heavy-steel-shield)
 prominently displays the sword emblem of the god [Iomedae](ref/faith/iomedae), and functions as a
@@ -34,8 +39,7 @@ on her. This bonus lasts for 1 minute or until the smite evil ends, whichever co
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter),
-[magic circle against evil](ref/spell/magic-circle-against-evil),
-[remove fear](ref/spell/remove-fear), [sanctify armor](ref/spell/sanctify-armor); **Price** 11,170
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [magic circle against evil](ref/spell/magic-circle-against-evil), [remove fear](ref/spell/remove-fear), [sanctify armor](ref/spell/sanctify-armor)
+Price: 11,170 gp
+:::

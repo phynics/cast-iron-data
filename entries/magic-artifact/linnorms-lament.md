@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This horn operates as a normal [horn of Valhalla](ref/magic-wondrous/horn-of-valhalla), save that it
 can be blown more than once per day, with the warriors from previous soundings remaining until their

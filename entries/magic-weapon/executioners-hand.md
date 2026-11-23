@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 18th\
-**Slot** none; **Price** 75,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 18th
+Slot: none
+Price: 75,000 gp
+Weight: 8 lbs.
+:::
 
 This +3 [adamantine](ref/eq-material/adamantine) [greatsword](ref/eq-weapon/greatsword) is designed
 with a single purpose: to bring swift death to those tried and found guilty before the law. When
@@ -31,5 +36,7 @@ it is automatically confirmed as a critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[circle of death](ref/spell/circle-of-death), [keen edge](ref/spell/keen-edge); **Price** 30,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [circle of death](ref/spell/circle-of-death), [keen edge](ref/spell/keen-edge)
+Price: 30,000 gp
+:::

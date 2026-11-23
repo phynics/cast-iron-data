@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** none; **Price** 24,502 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: none
+Price: 24,502 gp
+Weight: 1/2 lb.
+:::
 
 This +1 [keen](ref/magic-enh/keen) [returning](ref/magic-enh/returning)
 [mithral](ref/eq-material/mithral) [dagger](ref/eq-weapon/dagger) is bleached pale white like some
@@ -36,6 +41,7 @@ dagger misses, though no creature can be targeted by the dagger more than once i
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [greater magic weapon](ref/spell/magic-weapon-greater),
-[keen edge](ref/spell/keen-edge), [telekinesis](ref/spell/telekinesis); **Price** 12,502 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [greater magic weapon](ref/spell/magic-weapon-greater), [keen edge](ref/spell/keen-edge), [telekinesis](ref/spell/telekinesis)
+Price: 12,502 gp
+:::

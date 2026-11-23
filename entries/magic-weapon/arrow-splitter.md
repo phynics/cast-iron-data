@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 180,375 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 180,375 gp
+Weight: 3 lbs.
+:::
 
 This +5 [second chance](ref/magic-enh/second-chance) [longbow](ref/eq-weapon/longbow) is made of
 supple willow that forever looks freshly carved. When the wielder hits a foe multiple times with the
@@ -34,6 +39,7 @@ deals an additional 2d6 points of precision damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ricochet shot](ref/spell/ricochet-shot), [sonic thrust](ref/spell/sonic-thrust); **Price** 90,375
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ricochet shot](ref/spell/ricochet-shot), [sonic thrust](ref/spell/sonic-thrust)
+Price: 90,375 gp
+:::

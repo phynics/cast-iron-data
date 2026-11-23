@@ -26,8 +26,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The mantis blade is an intelligent +2 [axiomatic](ref/magic-enh/axiomatic)
 [sawtooth sabre](ref/eq-weapon/sawtooth-sabre) made of red chitin that forms a curved, serrated

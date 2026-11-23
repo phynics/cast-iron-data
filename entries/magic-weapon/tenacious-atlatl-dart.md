@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** none; **Price** 29,101 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: none
+Price: 29,101 gp
+Weight: 2 lbs.
+:::
 
 This +1 [returning](ref/magic-enh/returning) [atlatl dart](ref/eq-weapon/atlatl-dart) is not
 destroyed when used as ammunition for an [atlatl](ref/eq-weapon/atlatl). Its returning special
@@ -33,5 +38,7 @@ _[dispel magic](ref/spell/dispel-magic),_ before returning to the wielder as nor
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic), [telekinesis](ref/spell/telekinesis); **Price** 14,701 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic), [telekinesis](ref/spell/telekinesis)
+Price: 14,701 gp
+:::

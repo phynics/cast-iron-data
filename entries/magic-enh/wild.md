@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** armor/shield quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: armor/shield quality
+Price: +3 bonus
+Weight: -
+:::
 
 Armor with this special ability usually appears to be made from magically hardened animal pelt. The
 wearer of a suit of armor or a shield with this ability preserves his armor bonus (and any
@@ -33,5 +38,7 @@ covered in leaf patterns. While the wearer is in a wild shape, the armor cannot 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[baleful polymorph](ref/spell/baleful-polymorph); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [baleful polymorph](ref/spell/baleful-polymorph)
+Price: +3 bonus
+:::

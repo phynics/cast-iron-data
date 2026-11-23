@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration and evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The Shackles are rife with tales of legendary treasures, but the story of the loss of Aiger's Kiss
 has seen a resurgence of late, it being the 25th anniversary of the blade's loss in the Black Tower

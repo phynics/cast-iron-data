@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** armor; **Price** 18,300 gp; **Weight** 30 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: armor
+Price: 18,300 gp
+Weight: 30 lbs.
+:::
 
 The plates of this suit of +1 [steel lamellar](ref/eq-armor/lamellar-steel) armor are etched with
 the complete Laws of Man from the secular nation of Rahadoum. Suits of armor of the Pure Legion are
@@ -36,5 +41,7 @@ the following round to end the spell.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[endure elements](ref/spell/endure-elements), [mind blank](ref/spell/mind-blank); **Price** 9,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [endure elements](ref/spell/endure-elements), [mind blank](ref/spell/mind-blank)
+Price: 9,300 gp
+:::

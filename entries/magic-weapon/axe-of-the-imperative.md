@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 5,310 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 5,310 gp
+Weight: 6 lbs.
+:::
 
 An axe of the imperative is a +1 [battleaxe](ref/eq-weapon/battleaxe) that cuts through willpower
 and resolve as surely as it hews flesh and bone. On a successful hit against a creature, the wielder
@@ -40,5 +45,7 @@ language-dependent effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mark of justice](ref/spell/mark-of-justice); **Price** 2,830 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mark of justice](ref/spell/mark-of-justice)
+Price: 2,830 gp
+:::

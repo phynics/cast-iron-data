@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 41,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 41,400 gp
+Weight: 5 lbs.
+:::
 
 Tipped on either end with a glistening diamond, this rune-covered staff allows use of the following
 spells:
@@ -36,5 +41,7 @@ spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold),
-[ice storm](ref/spell/ice-storm), [wall of ice](ref/spell/wall-of-ice); **Cost** 20,700 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold), [ice storm](ref/spell/ice-storm), [wall of ice](ref/spell/wall-of-ice)
+Cost: 20,700 gp
+:::

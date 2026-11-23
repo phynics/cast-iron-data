@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong conjuration; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 16th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 A scene of imperial decadences depicted in fantastically fine etchings - which seem to change upon
 each consideration - covers the surface of this +5 short sword. Every time Shin-Tari successfully

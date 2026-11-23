@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 18th\
-**Slot** none; **Price** 33,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 18th
+Slot: none
+Price: 33,315 gp
+Weight: 4 lbs.
+:::
 
 This +1 [flaming](ref/magic-enh/flaming) [scimitar](ref/eq-weapon/scimitar) has golden flames
 embossed along the blade, which flicker and glow even when the sword's flames are extinguished.
@@ -35,6 +40,7 @@ blade reappears in its owner's hands.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [flame blade](ref/spell/flame-blade),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Price** 16,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [flame blade](ref/spell/flame-blade), [greater magic weapon](ref/spell/magic-weapon-greater)
+Price: 16,815 gp
+:::

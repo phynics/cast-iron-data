@@ -23,8 +23,13 @@ aura = "moderate conjuration and evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration and evocation; **CL** 10th\
-**Slot** none; **Price** 90,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration and evocation
+CL: 10th
+Slot: none
+Price: 90,000 gp
+Weight: 8 lbs.
+:::
 
 Arnlaugr's legendary blade, Rixbrand, is a double-sided blade of folded blue steel, intricately
 engraved with ancient runes that light up with electric flame in the presence of dragonkind. The
@@ -45,5 +50,7 @@ even with the blade in hand: the same fate that befell the original sword in Arn
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [summon monster I](ref/spell/summon-monster-1); **Price** 45,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [summon monster I](ref/spell/summon-monster-1)
+Price: 45,000 gp
+:::

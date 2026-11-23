@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "20th"
 +++
 
-**Aura** strong divination; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong divination
+CL: 20th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 A timeglass appears as a 1-foot-long elongated glass bulb set within a stand made of
 [horacalcum](ref/eq-material/horacalcum). Within the bulb churns a mote of pale blue mist-vapors

@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** armor quality; **Price** +10,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: armor quality
+Price: +10,000 gp
+Weight: -
+:::
 
 Putrid armor gives off a revolting, stomach-twisting stench. Each living creatures within 10 feet of
 the wearer must succeed at a DC 14 Fortitude save or be [sickened](ref/misc/sickened) for 5 rounds.
@@ -35,5 +40,7 @@ strong wind.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stinking cloud](ref/spell/stinking-cloud); **Price** +5,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stinking cloud](ref/spell/stinking-cloud)
+Price: +5,000 gp
+:::

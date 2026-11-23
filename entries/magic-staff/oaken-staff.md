@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 31,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 31,800 gp
+Weight: 4 lbs.
+:::
 
 This thick, 5-foot-long wooden staff is made of rough oak and has two branches growing from the top.
 The branches twist together and bend back toward the body of the staff, and their leaves often
@@ -46,7 +51,7 @@ can cast _[speak with plants](ref/spell/speak-with-plants)_ from the staff witho
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [barkskin](ref/spell/barkskin),
-[plant growth](ref/spell/plant-growth), [speak with plants](ref/spell/speak-with-plants),
-[teleport](ref/spell/teleport), creator must be a caster of at least 12th level; **Cost** 16,050 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [barkskin](ref/spell/barkskin), [plant growth](ref/spell/plant-growth), [speak with plants](ref/spell/speak-with-plants), [teleport](ref/spell/teleport), creator must be a caster of at least 12th level
+Cost: 16,050 gp
+:::

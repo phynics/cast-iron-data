@@ -23,8 +23,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 196 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 196 gp
+Weight: 1/2 lb.
+:::
 
 This gritty and irregular +1 [sling bullet](ref/eq-weapon/sling-bullets) explodes into a cloud of
 choking dust when it successfully strikes its target. This cloud fills a 5-foot cube and follows the
@@ -34,5 +39,7 @@ for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stinking cloud](ref/spell/stinking-cloud); **Price** 98 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stinking cloud](ref/spell/stinking-cloud)
+Price: 98 gp
+:::

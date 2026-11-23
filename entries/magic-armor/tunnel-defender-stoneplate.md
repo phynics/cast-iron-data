@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** armor; **Price** 26,700 gp; **Weight** 75 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: armor
+Price: 26,700 gp
+Weight: 75 lbs.
+:::
 
 Even bulkier than its nonmagical cousins, this set of +3 [stoneplate](ref/eq-armor/stoneplate) is
 crafted from stones of widely differing colors, and is often allocated to
@@ -41,6 +46,7 @@ by the stone. In this case, the wearer can be restored to life only by a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[meld into stone](ref/spell/meld-into-stone), [wall of stone](ref/spell/wall-of-stone), creator must
-be a dwarf; **Price** 14,325 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [meld into stone](ref/spell/meld-into-stone), [wall of stone](ref/spell/wall-of-stone), creator must be a dwarf
+Price: 14,325 gp
+:::

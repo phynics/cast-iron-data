@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** armor; **Price** 17,175 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: armor
+Price: 17,175 gp
+Weight: 10 lbs.
+:::
 
 Devised by Her Infernal Majestrix, Abrogail I, this +3
 [studded leather](ref/eq-armor/studded-leather) armor is lavishly adorned with a bound
@@ -40,6 +45,7 @@ destroyed (not just broken).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[lesser planar ally](ref/spell/planar-ally-lesser), [summon swarm](ref/spell/summon-swarm), caster
-level 9th; **Price** 8,675 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [lesser planar ally](ref/spell/planar-ally-lesser), [summon swarm](ref/spell/summon-swarm), caster level 9th
+Price: 8,675 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 11,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 11,000 gp
+Weight: 5 lbs.
+:::
 
 Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex),
 she can use this rod's power to double the duration of the hex, so long as the hex's normal duration
@@ -31,5 +36,7 @@ eye) still has only a 1-round duration against a target that succeeds at its sav
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Extend Spell](ref/feat/extend-spell), creator
-must possess the hex class feature; **Cost** 5,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Extend Spell](ref/feat/extend-spell), creator must possess the hex class feature
+Cost: 5,500 gp
+:::

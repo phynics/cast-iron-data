@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on ranged weapons. If the wielder spends at least 1 minute
 preparing a hiding place or when she uses the [sniping](ref/skill/stealth) rules, she adds the
@@ -32,5 +37,7 @@ multiplied on a critical hit but does stack with other forms of precision damage
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [invisibility](ref/spell/invisibility); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [invisibility](ref/spell/invisibility)
+Price: -
+:::

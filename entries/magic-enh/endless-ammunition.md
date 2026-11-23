@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 Only bows and crossbows can be made into endless ammunition weapons - firearms and other projectile
 weapons cannot. Each time an endless ammunition weapon is nocked, a single nonmagical arrow or bolt
@@ -36,5 +41,7 @@ and bolts are always destroyed when fired.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[minor creation](ref/spell/minor-creation); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [minor creation](ref/spell/minor-creation)
+Price: -
+:::

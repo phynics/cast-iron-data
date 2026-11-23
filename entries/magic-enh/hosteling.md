@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** armor/shield quality; **Price** +7,500 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: armor/shield quality
+Price: +7,500 gp
+Weight: -
+:::
 
 A suit of armor or shield with this special ability hides living animals within its iconography to
 keep it safe. The wearer can speak a command word to magically store an animal to which he is
@@ -46,5 +51,7 @@ outsiders, oozes, or other exotic companion creatures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[secret chest](ref/spell/secret-chest); **Price** +3,750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [secret chest](ref/spell/secret-chest)
+Price: +3,750 gp
+:::

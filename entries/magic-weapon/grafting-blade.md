@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 4,370 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 4,370 gp
+Weight: 1 lb.
+:::
 
 This plain-looking +1 [spring blade](ref/eq-weapon/spring-blade) is attached to a weather-beaten
 cedar grip. By speaking a command word, the wielder can magically merge the grip into a larger wood
@@ -36,5 +41,7 @@ both items unharmed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wood shape](ref/spell/wood-shape); **Price** 2,370 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wood shape](ref/spell/wood-shape)
+Price: 2,370 gp
+:::

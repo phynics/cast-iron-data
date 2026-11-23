@@ -24,8 +24,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus
 is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes.
@@ -49,5 +54,7 @@ To randomly determine a weapon's designated foe, roll on the following table.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: -
+:::

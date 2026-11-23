@@ -20,8 +20,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** none; **Price** 4,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: none
+Price: 4,312 gp
+Weight: 5 lbs.
+:::
 
 This hefty +1 [warhammer](ref/eq-weapon/warhammer) is crafted to resemble a dwarven face and is
 decorated with lavish gems. By speaking a command word, the wielder can transform the Forgefather's
@@ -34,6 +39,7 @@ fire damage to creatures struck in addition to the regular damage dealt.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy) (fire), [shrink item](ref/spell/shrink-item); **Price**
-2,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy) (fire), [shrink item](ref/spell/shrink-item)
+Price: 2,312 gp
+:::

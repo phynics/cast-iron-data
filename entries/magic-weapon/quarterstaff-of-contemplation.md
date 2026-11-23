@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** 34,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: 34,800 gp
+Weight: 4 lbs.
+:::
 
 This wooden pole is plain, save that green dragon scales adorn to its length. Treated as a +2
 [quarterstaff](ref/eq-weapon/quarterstaff), it is a favorite of Irori's wandering followers. In the
@@ -34,5 +39,7 @@ body at the cost of 1 ki point instead of 2.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a 7th-level monk; **Price** 17,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a 7th-level monk
+Price: 17,550 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "9th"
 +++
 
-**Aura** faint transmutation; **CL** 9th\
-**Slot** armor; **Price** 7,310 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint transmutation
+CL: 9th
+Slot: armor
+Price: 7,310 gp
+Weight: 1 lb.
+:::
 
 This enchanted sleeve is made of tiny, feather-shaped leaves and is designed to fit birds. Once
 fitted over the body of a Tiny or smaller avian creature, featherleaf barding automatically shrinks
@@ -33,5 +38,7 @@ its fly speed and maneuverability remain the same.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fly](ref/spell/fly), [tree stride](ref/spell/tree-stride); **Price** 3,660 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fly](ref/spell/fly), [tree stride](ref/spell/tree-stride)
+Price: 3,660 gp
+:::

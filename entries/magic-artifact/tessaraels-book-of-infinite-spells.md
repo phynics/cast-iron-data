@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "18th"
 +++
 
-**Aura** strong (all schools); **CL** 18th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 18th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This narrow volume is bound in green leather with silver inlay shaped in the forms of letters from
 the elven alphabet. It gives off a moist, earthy smell, like a forest after a light rain.

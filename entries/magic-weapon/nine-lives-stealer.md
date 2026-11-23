@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 23,057 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 23,057 gp
+Weight: 4 lbs.
+:::
 
 This longsword always performs as a +2 [longsword](ref/eq-weapon/longsword), but it also has the
 power to draw the life force from an opponent. It can do this nine times before the ability is lost.
@@ -41,5 +46,7 @@ never result in actual level loss, but they cannot be overcome in any way (inclu
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[finger of death](ref/spell/finger-of-death); **Price** 11,528 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [finger of death](ref/spell/finger-of-death)
+Price: 11,528 gp
+:::

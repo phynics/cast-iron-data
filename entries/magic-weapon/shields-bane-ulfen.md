@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 20,310 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 20,310 gp
+Weight: 6 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -34,6 +39,7 @@ equipment that grants a shield bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shatter](ref/spell/shatter), [true strike](ref/spell/true-strike), creator must be an Ulfen;
-**Price** 10,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shatter](ref/spell/shatter), [true strike](ref/spell/true-strike), creator must be an Ulfen
+Price: 10,310 gp
+:::

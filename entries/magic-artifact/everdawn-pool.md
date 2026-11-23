@@ -20,8 +20,13 @@ aura = "strong enchantment, illusion, and necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment, illusion, and necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1,200 lbs.
+::: statblock
+Aura: strong enchantment, illusion, and necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 1,200 lbs.
+:::
 
 The runelords of Thassilon had a long tradition of placing power into pools, liquefying and
 containing raw magic to harness for a multitude of goals. Their runewells are perhaps the most

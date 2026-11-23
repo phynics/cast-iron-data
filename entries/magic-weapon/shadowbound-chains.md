@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 19,725 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 19,725 gp
+Weight: 10 lbs.
+:::
 
 Jagged and spiked, this +1 [vicious](ref/magic-enh/vicious) [viridium](ref/eq-material/viridium)
 [spiked chain](ref/eq-weapon/spiked-chain) shifts between hues of muted green and deep violet.
@@ -38,5 +43,7 @@ shadowbound chains can summon forth only one shadow at a time.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shadow conjuration](ref/spell/shadow-conjuration); **Price** 11,125 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shadow conjuration](ref/spell/shadow-conjuration)
+Price: 11,125 gp
+:::

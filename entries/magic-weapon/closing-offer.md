@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment; **CL** 10th\
-**Slot** none; **Price** 15,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 10th
+Slot: none
+Price: 15,310 gp
+Weight: 2 lbs.
+:::
 
 A closing offer is a rusty +2 [short sword](ref/eq-weapon/short-sword) with a thin, unblemished
 section along the center of the blade. Inscribing the surname of a humanoid on that section attunes
@@ -34,5 +39,7 @@ reagents.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[confess](ref/spell/confess), [heroism](ref/spell/heroism); **Price** 7,810 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [confess](ref/spell/confess), [heroism](ref/spell/heroism)
+Price: 7,810 gp
+:::

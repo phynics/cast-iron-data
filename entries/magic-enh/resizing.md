@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** +4,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: +4,000 gp
+Weight: -
+:::
 
 A resizing weapon instantly shrinks or grows to suit the size of any creature that picks it up
 unless it is currently wielded by another creature. It reverts to its original size 1 round after it
@@ -29,5 +34,7 @@ leaves its wielder's possession.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resize item](ref/spell/resize-item); **Price** 2,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resize item](ref/spell/resize-item)
+Price: 2,000 gp
+:::

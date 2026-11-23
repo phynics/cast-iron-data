@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 The rugged surface of a jawbreaker shield is always scratched and gouged, as if gnawed by enormous
 jaws. Attacking the wielder with a bite attack provokes an attack of opportunity from the wielder,
@@ -43,5 +48,7 @@ shields.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[inflict critical wounds](ref/spell/inflict-critical-wounds); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [inflict critical wounds](ref/spell/inflict-critical-wounds)
+Price: +2 bonus
+:::

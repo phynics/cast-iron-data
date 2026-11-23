@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 28,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 28,312 gp
+Weight: 5 lbs.
+:::
 
 Marrowcracker is a +2 [mighty cleaving](ref/magic-enh/mighty-cleaving)
 [warhammer](ref/eq-weapon/warhammer) with a haft carved to look like a stout femur. Whenever the
@@ -31,6 +36,7 @@ choice).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[calcific touch](ref/spell/calcific-touch), [divine power](ref/spell/divine-power),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement); **Price** 14,312 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [calcific touch](ref/spell/calcific-touch), [divine power](ref/spell/divine-power), [ray of enfeeblement](ref/spell/ray-of-enfeeblement)
+Price: 14,312 gp
+:::

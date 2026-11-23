@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 4,308 gp; **Weight** 9 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 4,308 gp
+Weight: 9 lbs.
+:::
 
 This +1 [boarding pike](ref/eq-weapon/boarding-pike) is an 8-foot-long pole topped with a tapered
 metal spearpoint and a backward-facing hook, used to draw vessels closer together or repel boarders.
@@ -32,5 +37,7 @@ repelling can also be extended in this way to draw vessels closer together for b
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wood shape](ref/spell/wood-shape); **Price** 2,308 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wood shape](ref/spell/wood-shape)
+Price: 2,308 gp
+:::

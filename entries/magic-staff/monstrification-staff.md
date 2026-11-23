@@ -21,8 +21,13 @@ aura = "faint transmutation (polymorph)"
 caster_level = "8th"
 +++
 
-**Aura** faint transmutation (polymorph); **CL** 8th\
-**Slot** none; **Price** 12,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation (polymorph)
+CL: 8th
+Slot: none
+Price: 12,000 gp
+Weight: 4 lbs.
+:::
 
 The figures on this scrimshawed ivory staff slowly morph from one monstrous figure into another, and
 often grow to take up more space on the staff's surface. An [alchemist](ref/class/alchemist) or
@@ -36,6 +41,7 @@ charges.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [enlarge person](ref/spell/enlarge-person),
-[monstrous physique I](ref/spell/monstrous-physique-1), creator must be an alchemist; **Cost** 6,150
-gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [enlarge person](ref/spell/enlarge-person), [monstrous physique I](ref/spell/monstrous-physique-1), creator must be an alchemist
+Cost: 6,150 gp
+:::

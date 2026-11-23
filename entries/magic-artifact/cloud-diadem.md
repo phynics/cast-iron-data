@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 30 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: head
+Price: -
+Weight: 30 lbs.
+:::
 
 This giant-sized silver-and-steel crown allows its wearer to telepathically control Ironcloud Keep's
 engine and direct the castle's motion. In addition, the wearer of the cloud diadem can extend his

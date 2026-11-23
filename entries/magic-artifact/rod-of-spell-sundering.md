@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong abjuration; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 18th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 This 3-foot-long aspen rod bears glyphs of protection and abjuration. Each end is capped with a
 smooth copper sphere. While holding the rod, the bearer automatically perceives any spell cast (or

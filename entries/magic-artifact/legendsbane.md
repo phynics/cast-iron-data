@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This +6 [keen](ref/magic-enh/keen) [speed](ref/magic-enh/speed)
 [adamantine](ref/eq-material/adamantine) [dagger](ref/eq-weapon/dagger) was constructed in defiance

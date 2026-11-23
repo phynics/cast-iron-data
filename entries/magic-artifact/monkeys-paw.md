@@ -21,8 +21,13 @@ aura = "strong necromancy and universal"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy and universal; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy and universal
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This dimension-hopping artifact waits patiently until a creature picks it up. Each time it is picked
 up by a new user, the monkey's paw grants that creature three wishes, as if it were a

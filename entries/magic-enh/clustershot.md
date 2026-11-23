@@ -20,8 +20,13 @@ aura = "weak transmutation"
 caster_level = "5th"
 +++
 
-**Aura** weak transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: weak transmutation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 These arrows are inscribed with a spiral groove down the length of the haft and an eye-glyph on the
 head. They are designed to maintain accuracy when firing multiple arrows at the same time (such as
@@ -33,5 +38,7 @@ they critically hit deal half normal critical hit damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic weapon](ref/spell/magic-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic weapon](ref/spell/magic-weapon)
+Price: -
+:::

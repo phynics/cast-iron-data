@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 47,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 47,315 gp
+Weight: 4 lbs.
+:::
 
 This +1 [cold iron](ref/eq-material/cold-iron) [holy](ref/magic-enh/holy)
 demon-[bane](ref/magic-enh/bane) [longsword](ref/eq-weapon/longsword) is marked with the symbol of
@@ -31,6 +36,7 @@ by 1.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy smite](ref/spell/holy-smite), [summon monster I](ref/spell/summon-monster-1), creator must
-worship [Iomedae](ref/faith/iomedae), creator must be a paladin or a warpriest; **Price** 23,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy smite](ref/spell/holy-smite), [summon monster I](ref/spell/summon-monster-1), creator must worship [Iomedae](ref/faith/iomedae), creator must be a paladin or a warpriest
+Price: 23,815 gp
+:::

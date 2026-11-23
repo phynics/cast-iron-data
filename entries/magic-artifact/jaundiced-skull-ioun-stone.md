@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: none
+Price: -
+Weight: -
+:::
 
 In addition to serving as a vessel for Auberon's soul, the jaundiced skull ioun stone is a potent
 artifact with two protections against detection. First, when active, the

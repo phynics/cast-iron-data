@@ -20,8 +20,13 @@ aura = "moderate evocation and transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation and transmutation; **CL** 6th\
-**Slot** shield; **Price** 21,340 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation and transmutation
+CL: 6th
+Slot: shield
+Price: 21,340 gp
+Weight: 10 lbs.
+:::
 
 This +2 [leather madu](ref/eq-armor/madu-shield-leather) is designed in the form of a bull
 elephant's head, complete with imposing ivory tusks. The shield provides a +3 circumstance bonus on
@@ -34,5 +39,7 @@ of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape I](ref/spell/beast-shape-1), [force punch](ref/spell/force-punch); **Price** 10,840 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape I](ref/spell/beast-shape-1), [force punch](ref/spell/force-punch)
+Price: 10,840 gp
+:::

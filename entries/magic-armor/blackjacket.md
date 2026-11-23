@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** armor; **Price** 28,700 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: armor
+Price: 28,700 gp
+Weight: 20 lbs.
+:::
 
 This jet-black uniform is assigned to top agents in Druma's military - the Mercenary League. Wearers
 of this +3 [armored coat](ref/eq-armor/armored-coat) continually benefit from the spell
@@ -36,5 +41,7 @@ the armor as a move action to ignore the command.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm person](ref/spell/charm-person), [heroism](ref/spell/heroism); **Price** 14,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm person](ref/spell/charm-person), [heroism](ref/spell/heroism)
+Price: 14,450 gp
+:::

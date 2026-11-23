@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 25,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 25,000 gp
+Weight: 1 lb.
+:::
 
 An overflowing rod amplifies and focuses the side effects of a [kineticist's](ref/class/kineticist)
 burn. While holding the rod, the kineticist counts as 3 levels higher for the purpose of determining
@@ -32,5 +37,7 @@ elemental overflow with another class feature).
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level kineticist; **Cost**
-12,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level kineticist
+Cost: 12,500 gp
+:::

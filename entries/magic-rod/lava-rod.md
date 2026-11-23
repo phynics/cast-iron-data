@@ -20,8 +20,13 @@ aura = "strong evocation [fire]"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation \[fire\]; **CL** 13th\
-**Slot** none; **Price** 80,000 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong evocation \[fire\]
+CL: 13th
+Slot: none
+Price: 80,000 gp
+Weight: 8 lbs.
+:::
 
 This irregularly shaped iron rod is studded with orange gems. It can be wielded as a +2
 [club](ref/eq-weapon/club). For 10 rounds per day, the rod can be wielded as a +2
@@ -36,5 +41,7 @@ transform takes 13d6 points of fire damage (Reflex DC 20 half).
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[delayed blast fireball](ref/spell/delayed-blast-fireball); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [delayed blast fireball](ref/spell/delayed-blast-fireball)
+Cost: 40,000 gp
+:::

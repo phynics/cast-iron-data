@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons that are designed to be thrown. If the
 wielder has the spellstrike class feature (such as from levels in the magus class), he can throw a
@@ -31,6 +36,7 @@ remaining touches with that spell are harmlessly discharged.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spectral hand](ref/spell/spectral-hand), creator must have the spellstrike class feature;
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spectral hand](ref/spell/spectral-hand), creator must have the spellstrike class feature
+Price: -
+:::

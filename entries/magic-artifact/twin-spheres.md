@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Rumored to have once been a single, normal sphere split in two through a failed attempt to destroy
 it, these dual [spheres of annihilation](ref/magic-artifact/sphere-of-annihilation) are linked, such

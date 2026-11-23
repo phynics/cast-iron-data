@@ -20,8 +20,13 @@ aura = "moderate abjuration and divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and divination; **CL** 7th\
-**Slot** none; **Price** 30,320 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate abjuration and divination
+CL: 7th
+Slot: none
+Price: 30,320 gp
+Weight: 6 lbs.
+:::
 
 This +1 [net](ref/eq-weapon/net) is made from fine silvery cords rather than simple rope. The net
 prevents extradimensional travel, affecting any creature entangled by it as per
@@ -32,6 +37,7 @@ to free themselves from a devil catcher.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor),
-[invisibility purge](ref/spell/invisibility-purge); **Price** 15,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor), [invisibility purge](ref/spell/invisibility-purge)
+Price: 15,320 gp
+:::

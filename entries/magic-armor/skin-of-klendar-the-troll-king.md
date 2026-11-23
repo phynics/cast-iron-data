@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** armor; **Price** 16,315 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: armor
+Price: 16,315 gp
+Weight: 25 lbs.
+:::
 
 This suit of mottled, greenish hide armor has no seams, as if it were made from a single large,
 disgusting skin. When worn, it tightens to fit snugly against the body. The skin acts as a suit of
@@ -39,5 +44,7 @@ wearing the armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aid](ref/spell/aid), [regenerate](ref/spell/regenerate); **Price** 8,157 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aid](ref/spell/aid), [regenerate](ref/spell/regenerate)
+Price: 8,157 gp
+:::

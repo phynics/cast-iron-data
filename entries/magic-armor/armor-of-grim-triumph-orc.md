@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** armor; **Price** 14,300 gp; **Weight** 40 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: armor
+Price: 14,300 gp
+Weight: 40 lbs.
+:::
 
 > _The following suit of armor is generally available only to members of the indicated race or
 > ethnicity._
@@ -49,6 +54,7 @@ cost and price of a hide of grim triumph by 185 gp and the weight by 10 pounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear), [gentle repose](ref/spell/gentle-repose), creator must be an orc; **Price**
-7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear), [gentle repose](ref/spell/gentle-repose), creator must be an orc
+Price: 7,500 gp
+:::

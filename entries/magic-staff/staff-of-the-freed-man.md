@@ -21,8 +21,13 @@ aura = "moderate varies"
 caster_level = "17th"
 +++
 
-**Aura** moderate varies; **CL** 17th\
-**Slot** none; **Price** 51,688 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 17th
+Slot: none
+Price: 51,688 gp
+Weight: 5 lbs.
+:::
 
 Just over 7 feet tall and topped with what looks like a large iron skeleton key, this unassuming
 oaken staff appears to be nothing but a common walking stick. It allows use of the following spells:
@@ -34,6 +39,7 @@ oaken staff appears to be nothing but a common walking stick. It allows use of t
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[detect secret doors](ref/spell/detect-secret-doors), [freedom](ref/spell/freedom),
-[knock](ref/spell/knock), [passwall](ref/spell/passwall); **Cost** 25,840 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [detect secret doors](ref/spell/detect-secret-doors), [freedom](ref/spell/freedom), [knock](ref/spell/knock), [passwall](ref/spell/passwall)
+Cost: 25,840 gp
+:::

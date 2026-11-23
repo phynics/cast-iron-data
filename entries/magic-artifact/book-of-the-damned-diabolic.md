@@ -23,8 +23,13 @@ aura = "overwhelming all schools [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming all schools \[evil, lawful\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: overwhelming all schools \[evil, lawful\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 This flesh-bound folio contains pages from the
 [Book of the Damned](ref/magic-artifact/book-of-the-damned) related to [Hell](ref/rule/hell) and its

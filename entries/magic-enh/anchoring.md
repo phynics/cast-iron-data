@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be added to a melee weapon or a thrown weapon. An anchoring weapon
 pins a target in place and prevents it from moving. As a swift action, the weapon can be fixed in
@@ -38,5 +43,7 @@ special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[levitate](ref/spell/levitate); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [levitate](ref/spell/levitate)
+Price: -
+:::

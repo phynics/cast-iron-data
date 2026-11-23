@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** armor; **Price** 8,750 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: armor
+Price: 8,750 gp
+Weight: 15 lbs.
+:::
 
 The Sargavan government often issues this armor to scouts traveling through the jungle. This +1
 [expeditious](ref/magic-enh/expeditious) [glamered](ref/magic-enh/glamered)
@@ -33,6 +38,7 @@ instead grants a +3 competence bonus on Diplomacy checks against people of that 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [expeditious retreat](ref/spell/expeditious-retreat);
-**Price** 4,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [expeditious retreat](ref/spell/expeditious-retreat)
+Price: 4,450 gp
+:::

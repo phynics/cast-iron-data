@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 9,810 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 9,810 gp
+Weight: 3 lbs.
+:::
 
 This +1 [adamantine](ref/eq-material/adamantine)
 [swordbreaker dagger](ref/eq-weapon/swordbreaker-dagger) has a jagged ebon blade inscribed with
@@ -35,5 +40,7 @@ weapon shrunken by a shrivelblade to its proper size.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 5,060 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 5,060 gp
+:::

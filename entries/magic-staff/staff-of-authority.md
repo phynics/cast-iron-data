@@ -21,8 +21,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 23,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 23,000 gp
+Weight: 5 lbs.
+:::
 
 This stout ironbound staff functions as a +1/+1 [quarterstaff](ref/eq-weapon/quarterstaff). It
 allows the use of the following spells:
@@ -33,6 +38,7 @@ allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [forced quiet](ref/spell/forced-quiet),
-[interrogation](ref/spell/interrogation), [oppressive boredom](ref/spell/oppressive-boredom);
-**Cost** 11,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [forced quiet](ref/spell/forced-quiet), [interrogation](ref/spell/interrogation), [oppressive boredom](ref/spell/oppressive-boredom)
+Cost: 11,800 gp
+:::

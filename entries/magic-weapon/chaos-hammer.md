@@ -20,8 +20,13 @@ aura = "moderate evocation [chaotic]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[chaotic\]; **CL** 9th\
-**Slot** none; **Price** 38,312 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation \[chaotic\]
+CL: 9th
+Slot: none
+Price: 38,312 gp
+Weight: 10 lbs.
+:::
 
 This oversized hammer crackles with chaotic energy. Once per day as a standard action, the wielder
 of this +1 [anarchic](ref/magic-enh/anarchic) [warhammer](ref/eq-weapon/warhammer) can strike the
@@ -31,6 +36,7 @@ to activate this ability without using up its daily use.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [align weapon](ref/spell/align-weapon),
-[chaos hammer](ref/spell/chaos-hammer), creator must be chaotic; **Price** 19,312 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [align weapon](ref/spell/align-weapon), [chaos hammer](ref/spell/chaos-hammer), creator must be chaotic
+Price: 19,312 gp
+:::

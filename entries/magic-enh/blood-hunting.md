@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A blood-hunting weapon excels against enemies with the bloodline class feature. Against a designated
 foe, the weapon's enhancement bonus is 2 better than its actual bonus. It also deals an additional
@@ -50,5 +55,7 @@ with the following bloodlines.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration and evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and evocation; **CL** 5th\
-**Slot** armor quality; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and evocation
+CL: 5th
+Slot: armor quality
+Price: +5,000 gp
+Weight: -
+:::
 
 This armor is usually decorated with engravings of storm clouds and lightning bolts. If an attack
 strikes the wearer and deals at least 10 points of electricity damage, the armor becomes visibly
@@ -35,6 +40,7 @@ attack would have dealt the wearer before any applicable resistances or immuniti
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy), [shocking grasp](ref/spell/shocking-grasp); **Price**
-+5,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy), [shocking grasp](ref/spell/shocking-grasp)
+Price: +5,000 gp
+:::

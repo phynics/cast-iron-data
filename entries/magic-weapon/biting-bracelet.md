@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** none; **Price** 5,000 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: none
+Price: 5,000 gp
+Weight: 2 lbs.
+:::
 
 This +1 [heavy wrist launcher](ref/eq-weapon/heavy-wrist-launcher) appears to be a lavish, gold
 bracelet. This functions like the [glamered](ref/magic-enh/glamered-weapon) weapon special ability,
@@ -30,5 +35,7 @@ innocuous appearance 1 round after being used as a weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura); **Price** 2,775 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura)
+Price: 2,775 gp
+:::

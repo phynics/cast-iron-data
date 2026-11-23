@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 32,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 32,800 gp
+Weight: 5 lbs.
+:::
 
 This ominous staff is made of twisting wood and topped with a small skull. It allows use of the
 following spells:
@@ -38,7 +43,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [death ward](ref/spell/death-ward),
-[deathwatch](ref/spell/deathwatch), [detect undead](ref/spell/detect-undead),
-[gentle repose](ref/spell/gentle-repose), [speak with dead](ref/spell/speak-with-dead); **Cost**
-16,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [death ward](ref/spell/death-ward), [deathwatch](ref/spell/deathwatch), [detect undead](ref/spell/detect-undead), [gentle repose](ref/spell/gentle-repose), [speak with dead](ref/spell/speak-with-dead)
+Cost: 16,400 gp
+:::

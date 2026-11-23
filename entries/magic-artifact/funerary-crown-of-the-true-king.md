@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** head; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: head
+Price: -
+Weight: 4 lbs.
+:::
 
 The curling horns that jut out from the temples of this splendid helm are actually fangs extracted
 from the jaws of a [cairn linnorm](ref/monster/linnorm-cairn-linnorm). Created by and for the

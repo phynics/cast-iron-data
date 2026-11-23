@@ -23,8 +23,12 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Weight** 2 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Weight: 2 lbs.
+:::
 
 This blade seems to be and behaves in all ways as a _sword of subtlety_ until actually used in
 combat. Once used in combat, it imposes a -10 penalty on all [Stealth](ref/skill/stealth) checks
@@ -35,4 +39,7 @@ curse-ending magic can rid the wielder of the sword once its curse activates.
 
 ### Construction
 
-**Requirements** [sword of subtlety](ref/magic-weapon/sword-of-subtlety); **Cost** -
+::: statblock
+Requirements: [sword of subtlety](ref/magic-weapon/sword-of-subtlety)
+Cost: -
+:::

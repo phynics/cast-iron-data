@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** hands; **Price** 8,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: hands
+Price: 8,000 gp
+Weight: 4 lbs.
+:::
 
 These Large gauntlets are bulky, and the palms and fingers are studded with wickedly serrated
 spikes. The wearer gains a +2 bonus on damage rolls with its claw attacks; the wearer adds this
@@ -31,5 +36,7 @@ wearer takes a -4 penalty on all Dexterity-based checks involving her hands.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic weapon](ref/spell/magic-weapon); **Price** 4,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic weapon](ref/spell/magic-weapon)
+Price: 4,000 gp
+:::

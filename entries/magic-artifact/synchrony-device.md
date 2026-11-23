@@ -20,8 +20,13 @@ aura = "overwhelming conjuration"
 caster_level = "21st"
 +++
 
-**Aura** overwhelming conjuration; **CL** 21st\
-**Slot** none; **Price** -; **Weight** 16,800 lbs.
+::: statblock
+Aura: overwhelming conjuration
+CL: 21st
+Slot: none
+Price: -
+Weight: 16,800 lbs.
+:::
 
 The Synchrony Device is a large, spherical mass of intertwining, spinning rings, each covered in
 complex runes and sigils. Designed by the Spindle Solution prior to Earthfall as a weapon of mass

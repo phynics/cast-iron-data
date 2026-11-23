@@ -20,8 +20,13 @@ aura = "faint enchantment and evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment and evocation; **CL** 3rd\
-**Slot** none; **Price** 4,815 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint enchantment and evocation
+CL: 3rd
+Slot: none
+Price: 4,815 gp
+Weight: 10 lbs.
+:::
 
 The head of this +1 [heavy flail](ref/eq-weapon/heavy-flail) looks like a human skull with wicked
 spikes growing out of it. At will, the wielder can affect a creature struck by the obliviating flail
@@ -35,6 +40,7 @@ slain.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [lesser confusion](ref/spell/confusion-lesser); **Price**
-2,565 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [lesser confusion](ref/spell/confusion-lesser)
+Price: 2,565 gp
+:::

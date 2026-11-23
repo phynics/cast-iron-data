@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy; **CL** 18th\
-**Slot** chest; **Price** 150,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy
+CL: 18th
+Slot: chest
+Price: 150,000 gp
+Weight: 1 lb.
+:::
 
 Even the [Pathfinders](ref/rule/aff-scholars) cannot say which tale of this item's origins is true;
 it may have been made from a piece of the Pact Stone, carried by [Norgorber](ref/faith/norgorber) as
@@ -46,6 +51,7 @@ link may only be severed by [break enchantment](ref/spell/break-enchantment) or
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation), [keen edge](ref/spell/keen-edge),
-[symbol of death](ref/spell/symbol-of-death); **Price** 75,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation), [keen edge](ref/spell/keen-edge), [symbol of death](ref/spell/symbol-of-death)
+Price: 75,000 gp
+:::

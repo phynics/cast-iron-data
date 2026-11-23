@@ -21,8 +21,13 @@ aura = "strong illusion and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion and transmutation; **CL** 13th\
-**Slot** none; **Price** 59,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong illusion and transmutation
+CL: 13th
+Slot: none
+Price: 59,400 gp
+Weight: 5 lbs.
+:::
 
 Angels crafted the first staff of wings to assist their mortal allies during a fiendish invasion
 onto the Material Plane. Copies have since been made by secular crafters. A staff of wings is made
@@ -38,6 +43,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [fly](ref/spell/fly),
-[mass fly](ref/spell/fly-mass), [overland flight](ref/spell/overland-flight),
-[silent image](ref/spell/silent-image); **Cost** 29,700 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [fly](ref/spell/fly), [mass fly](ref/spell/fly-mass), [overland flight](ref/spell/overland-flight), [silent image](ref/spell/silent-image)
+Cost: 29,700 gp
+:::

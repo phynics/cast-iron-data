@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 Upon command, a frost weapon is sheathed in a terrible, icy cold that deals an extra 1d6 points of
 cold damage on a successful hit. The cold does not harm the wielder. The effect remains until
@@ -32,5 +37,7 @@ another command is given.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm)
+Price: -
+:::

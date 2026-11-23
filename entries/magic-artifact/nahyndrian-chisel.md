@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This large chisel appears to be made of deep purple crystal; it is, in fact, carved from the heart
 of a single enormous [Nahyndrian crystal](ref/magic-artifact/nahyndrian-crystal). Imbued with

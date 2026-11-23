@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The perfect golden lute is said to be a flawless instrument; its tone and clarity are unrivaled. It
 is an instrument so fine it practically performs itself, granting anyone who plays it a +10

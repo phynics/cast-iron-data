@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** armor; **Price** 16,175 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: armor
+Price: 16,175 gp
+Weight: 20 lbs.
+:::
 
 Each metal bit of this suit of +1 [studded leather](ref/eq-armor/studded-leather) looks more like a
 tiny sneering face than a simple stud. Once per day the wearer of the armor may command the mouths
@@ -37,5 +42,7 @@ a mind-affecting sonic effect, and has no effect on creatures that do not use a 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[confusion](ref/spell/confusion); **Price** 7,675 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [confusion](ref/spell/confusion)
+Price: 7,675 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: +5,000 gp
+Weight: -
+:::
 
 Taking the form of a deity's favored weapon, a sacrosanct weapon serves as both a martial implement
 and the corresponding deity's holy (or unholy) symbol. Once per day when the wielder uses the
@@ -34,5 +39,7 @@ expending its daily use. When using mythic power to activate this ability, it ca
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), the crafter must be able to channel energy; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), the crafter must be able to channel energy
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** headband; **Price** -; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: headband
+Price: -
+Weight: -
+:::
 
 The Nimbus of Radiant Truth exists only when good has need of a great champion. Such a champion can
 attain it only though a perilous quest that tests mettle and righteousness. Rather than being a

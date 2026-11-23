@@ -25,8 +25,13 @@ caster_level = "9th"
 
 ## Ghost Touch
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus.
 An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to attacks
@@ -37,7 +42,9 @@ placed on melee weapons and ammunition.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[plane shift](ref/spell/plane-shift); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [plane shift](ref/spell/plane-shift)
+Price: -
+:::
 
 See also: [ghost touch armor enhancement](ref/magic-enh/ghost-touch-armor)

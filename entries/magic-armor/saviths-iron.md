@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 13th\
-**Slot** none; **Price** 59,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 13th
+Slot: none
+Price: 59,170 gp
+Weight: 15 lbs.
+:::
 
 This large iron shield acts as a +1 [animated](ref/magic-enh/animated)
 [light fortification](ref/magic-enh/fortification-light)
@@ -41,6 +46,7 @@ inflict ability score damage have no effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle), [neutralize poison](ref/spell/neutralize-poison); **Price** 29,670 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), [neutralize poison](ref/spell/neutralize-poison)
+Price: 29,670 gp
+:::

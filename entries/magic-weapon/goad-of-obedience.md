@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** 11,508 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: 11,508 gp
+Weight: 5 lbs.
+:::
 
 This +1 [ankus](ref/eq-weapon/ankus) grants the wielder a +2 competence bonus on
 [wild empathy](ref/ability/wild-empathy) checks. Five times per day, the wielder can make a touch
@@ -34,5 +39,7 @@ _[hold animal](ref/spell/hold-animal)_ (Will DC 13 negates).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm animal](ref/spell/charm-animal), [hold animal](ref/spell/hold-animal); **Price** 5,908 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm animal](ref/spell/charm-animal), [hold animal](ref/spell/hold-animal)
+Price: 5,908 gp
+:::

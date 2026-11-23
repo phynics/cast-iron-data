@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "8th"
 +++
 
-**Aura** moderate enchantment; **CL** 8th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 8th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A creature that has taken nonlethal damage from a peaceful weapon becomes [shaken](ref/misc/shaken)
 for 1 round each time it deals lethal damage to another living creature. The duration stacks with
@@ -33,6 +38,7 @@ made.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[calm emotions](ref/spell/calm-emotions), [cure light wounds](ref/spell/cure-light-wounds);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [calm emotions](ref/spell/calm-emotions), [cure light wounds](ref/spell/cure-light-wounds)
+Price: -
+:::

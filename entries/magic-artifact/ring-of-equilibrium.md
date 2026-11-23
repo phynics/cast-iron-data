@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** ring; **Price** -; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: ring
+Price: -
+Weight: -
+:::
 
 A ring of equilibrium is a wooden ring carefully carved from core of an oak tree, decorated with
 delicate runes, and sanded and finished to be perfectly round, smooth, and symmetrical. When slipped

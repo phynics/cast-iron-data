@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate conjuration; **CL** 5th\
-**Slot** none; **Price** 5,315 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 5th
+Slot: none
+Price: 5,315 gp
+Weight: 1 lb.
+:::
 
 The end of this +1 [viridium](ref/eq-material/viridium)
 [long lash](ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments)
@@ -33,5 +38,7 @@ effects. The viridium has been strengthened, so the weapon isn't fragile.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[remove disease](ref/spell/remove-disease); **Price** 2,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [remove disease](ref/spell/remove-disease)
+Price: 2,815 gp
+:::

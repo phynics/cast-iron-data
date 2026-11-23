@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 16 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 16 lbs.
+:::
 
 A maleficus spike is an ancient item forged of [cold iron](ref/eq-material/cold-iron) with an
 [adamantine](ref/eq-material/adamantine) core designed to keep demons at bay. When driven into the

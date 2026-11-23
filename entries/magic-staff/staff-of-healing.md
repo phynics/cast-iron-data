@@ -24,8 +24,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 29,600 gp
+Weight: 5 lbs.
+:::
 
 This white ash staff is decorated with inlaid silver runes. It allows use of the following spells:
 
@@ -36,8 +41,7 @@ This white ash staff is decorated with inlaid silver runes. It allows use of the
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[cure serious wounds](ref/spell/cure-serious-wounds),
-[lesser restoration](ref/spell/restoration-lesser),
-[remove blindness/deafness](ref/spell/remove-blindness-deafness),
-[remove disease](ref/spell/remove-disease); **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cure serious wounds](ref/spell/cure-serious-wounds), [lesser restoration](ref/spell/restoration-lesser), [remove blindness/deafness](ref/spell/remove-blindness-deafness), [remove disease](ref/spell/remove-disease)
+Cost: 14,800 gp
+:::

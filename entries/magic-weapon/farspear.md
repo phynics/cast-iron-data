@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 53,801 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 53,801 gp
+Weight: 3 lbs.
+:::
 
 This +2 [elysian bronze](ref/eq-material/elysian-bronze) [spear](ref/eq-weapon/spear) is capable of
 warping space to strike faraway targets as if they stood within arm's reach. As a standard action,
@@ -34,5 +39,7 @@ leagues away.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimension door](ref/spell/dimension-door); **Price** 27,551 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimension door](ref/spell/dimension-door)
+Price: 27,551 gp
+:::

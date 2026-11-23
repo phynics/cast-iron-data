@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 43,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 43,500 gp
+Weight: 5 lbs.
+:::
 
 This gnarled wooden staff is bedecked with broken charms and burnt fetishes that were once used to
 ward against bad luck, but now are in shambles. The staff allows use of the following spells:
@@ -40,7 +45,7 @@ staff and a -2 penalty to AC against any attacks made by the staff.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [baleful polymorph](ref/spell/baleful-polymorph),
-[bestow curse](ref/spell/bestow-curse), [blindness/deafness](ref/spell/blindness-deafness),
-[ill omen](ref/spell/ill-omen); **Cost** 22,050 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [baleful polymorph](ref/spell/baleful-polymorph), [bestow curse](ref/spell/bestow-curse), [blindness/deafness](ref/spell/blindness-deafness), [ill omen](ref/spell/ill-omen)
+Cost: 22,050 gp
+:::

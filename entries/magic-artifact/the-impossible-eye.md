@@ -20,8 +20,13 @@ aura = "overwhelming divination"
 caster_level = "21st"
 +++
 
-**Aura** overwhelming divination; **CL** 21st\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: overwhelming divination
+CL: 21st
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The Impossible Eye grants a number of potent powers of divination. In order to activate any of these
 powers, the user must look into the mirror and make a DC 20 Will save; failure indicates that the

@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 An icy burst weapon functions as a [frost](ref/magic-enh/frost) weapon that also explodes with frost
 upon striking a successful critical hit. The frost does not harm the wielder. In addition to the
@@ -37,5 +42,7 @@ successful critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm)
+Price: -
+:::

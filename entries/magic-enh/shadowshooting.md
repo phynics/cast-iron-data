@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be added to ranged projectile weapons (including
 [slings](ref/eq-weapon/sling) and sling-like weapons). Black smoke constantly wafts from the firing
@@ -38,5 +43,7 @@ deals damage normally, while success means the weapon deals minimum damage again
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[reloading hands](ref/spell/reloading-hands), [shadow weapon](ref/spell/shadow-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [reloading hands](ref/spell/reloading-hands), [shadow weapon](ref/spell/shadow-weapon)
+Price: -
+:::

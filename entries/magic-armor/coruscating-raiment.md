@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** armor; **Price** 63,150 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: armor
+Price: 63,150 gp
+Weight: 50 lbs.
+:::
 
 Originally crafted by [jyoti](ref/monster/jyoti) armorsmiths of the Positive Energy Plane, this
 gleaming suit of +1 [radiant](ref/magic-enh/radiant) [full plate](ref/eq-armor/full-plate) has a
@@ -35,5 +40,7 @@ incorporeal creatures (although she must have line of sight to her target when s
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sunburst](ref/spell/sunburst); **Price** 32,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sunburst](ref/spell/sunburst)
+Price: 32,400 gp
+:::

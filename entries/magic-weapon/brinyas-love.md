@@ -20,8 +20,13 @@ aura = "moderate transmutation [good]"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation \[good\]; **CL** 7th\
-**Slot** none; **Price** 5,052 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation \[good\]
+CL: 7th
+Slot: none
+Price: 5,052 gp
+Weight: 1 lb.
+:::
 
 The fire-blackened blade of this hopeknife bears the inscription "my love" in stark silver and glows
 with light equivalent to a [light](ref/spell/light) spell when drawn. Brinya's Love is a +1
@@ -34,6 +39,7 @@ wielder gains a +3 sacred bonus to his CMD against [disarm](ref/rule/disarm) and
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blade of bright victory](ref/spell/blade-of-bright-victory), [daylight](ref/spell/daylight);
-**Price** 2,677 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blade of bright victory](ref/spell/blade-of-bright-victory), [daylight](ref/spell/daylight)
+Price: 2,677 gp
+:::

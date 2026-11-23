@@ -20,8 +20,13 @@ aura = "minor necromancy"
 caster_level = "9th"
 +++
 
-**Aura** minor necromancy; **CL** 9th\
-**Slot** weapon; **Price** 10,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: minor necromancy
+CL: 9th
+Slot: weapon
+Price: 10,320 gp
+Weight: 2 lbs.
+:::
 
 Grudge blades play a role in many of the conflicts driven by the diabolical elite, both petty and
 epic. The dull, dark-gray steel of the blades almost appears blunt on the edges, but these +1
@@ -37,5 +42,7 @@ the damage bonus to +0.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [magic weapon](ref/spell/magic-weapon); **Price** 5,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [magic weapon](ref/spell/magic-weapon)
+Price: 5,320 gp
+:::

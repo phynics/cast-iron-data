@@ -23,8 +23,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 3rd\
-**Slot** armor; **Price** 2,430 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 3rd
+Slot: armor
+Price: 2,430 gp
+Weight: 30 lbs.
+:::
 
 This reflective +1 [breastplate](ref/eq-armor/breastplate) is decorated with a sword-and-starburst
 symbol. The armor is normally a golden color, but in battle it becomes silver-gray. The wearer can
@@ -33,5 +38,7 @@ per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bless weapon](ref/spell/bless-weapon), [remove fear](ref/spell/remove-fear); **Price** 1,390 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bless weapon](ref/spell/bless-weapon), [remove fear](ref/spell/remove-fear)
+Price: 1,390 gp
+:::

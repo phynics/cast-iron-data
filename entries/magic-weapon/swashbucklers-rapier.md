@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 7,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 7,320 gp
+Weight: 2 lbs.
+:::
 
 This +1 [rapier](ref/eq-weapon/rapier) has the nondescript, clean lines of a practice foil. The
 wielder can spend 1 panache point as a swift action to give the rapier the
@@ -30,6 +35,7 @@ designated foe.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic weapon](ref/spell/magic-weapon), creator must have 5 ranks in Craft (weapons); **Price**
-3,820 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic weapon](ref/spell/magic-weapon), creator must have 5 ranks in Craft (weapons)
+Price: 3,820 gp
+:::

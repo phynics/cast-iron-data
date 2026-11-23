@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A shattering weapon functions as a [breaking](ref/magic-enh/breaking) weapon that also explodes with
 a resounding crash upon striking a successful critical hit. In addition to the extra damage from the
@@ -38,5 +43,7 @@ hardness of 10 or lower.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break](ref/spell/break) or [shatter](ref/spell/shatter); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break](ref/spell/break) or [shatter](ref/spell/shatter)
+Price: -
+:::

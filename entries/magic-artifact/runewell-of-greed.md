@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 900 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 900 lbs.
+:::
 
 Currently hidden at the heart of the Eye of Avarice in a demiplane lodged between
 [Leng](ref/rule/leng) and the Material Plane, Karzoug's runewell of greed is the key to both his

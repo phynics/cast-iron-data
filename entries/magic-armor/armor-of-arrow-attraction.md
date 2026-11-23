@@ -23,8 +23,12 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** armor; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: armor
+Weight: 50 lbs.
+:::
 
 Magical analysis indicates that this armor is a normal suit of +3
 [full plate](ref/eq-armor/full-plate). The armor works normally with regard to melee attacks but
@@ -33,4 +37,7 @@ true nature of the armor does not reveal itself until the character is fired upo
 
 ### Construction
 
-**Requirements** +3 full plate; **Cost** -
+::: statblock
+Requirements: +3 full plate
+Cost: -
+:::

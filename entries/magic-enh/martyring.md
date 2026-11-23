@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** armor quality; **Price** +18,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: armor quality
+Price: +18,000 gp
+Weight: -
+:::
 
 This armor allows the wearer to capitalize on her own injuries to heal her allies. Once per day as
 an immediate action, when an enemy confirms a critical hit against someone wearing martyring armor,
@@ -32,5 +37,7 @@ negates a critical hit (such as the [fortification](ref/magic-enh/fortification)
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass); **Price** +9,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mass cure light wounds](ref/spell/cure-light-wounds-mass)
+Price: +9,000 gp
+:::

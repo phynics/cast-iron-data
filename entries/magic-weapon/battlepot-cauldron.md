@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 9,312 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 9,312 gp
+Weight: 8 lbs.
+:::
 
 This small cast-iron [cauldron](ref/eq-misc/cauldron) has ring handles and three latches that can
 secure the lid in place. While the pot can be used for cooking and brewing potions, when gripped by
@@ -36,6 +41,7 @@ with each blow.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[cauldron](ref/hex/cauldron) hex or [touch injection](ref/spell/touch-injection); creator must have
-8 ranks in Craft (alchemy); **Price** 4,656 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [cauldron](ref/hex/cauldron) hex or [touch injection](ref/spell/touch-injection); creator must have 8 ranks in Craft (alchemy)
+Price: 4,656 gp
+:::

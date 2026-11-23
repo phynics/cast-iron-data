@@ -19,8 +19,12 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Price: +1 bonus
+Weight: -
+:::
 
 This special weapon ability can be placed on only melee weapons. When a character wielding a
 dazzling radiance weapon uses the [Dazzling Display](ref/feat/dazzling-display) feat, the weapon
@@ -31,5 +35,7 @@ dazzled for 1d4 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[color spray](ref/spell/color-spray); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [color spray](ref/spell/color-spray)
+Price: -
+:::

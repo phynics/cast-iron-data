@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 9th\
-**Slot** none; **Price** 45,700 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 9th
+Slot: none
+Price: 45,700 gp
+Weight: 5 lbs.
+:::
 
 This flanged iron rod is much heavier than it looks, and grants the wielder a portion of the skill
 of a master coldwarper. The wielder gains a +5 competence bonus on Craft checks involving metal.
@@ -36,5 +41,7 @@ and the duration is instantaneous.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [fabricate](ref/spell/fabricate),
-[major creation](ref/spell/major-creation); **Cost** 22,850 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [fabricate](ref/spell/fabricate), [major creation](ref/spell/major-creation)
+Cost: 22,850 gp
+:::

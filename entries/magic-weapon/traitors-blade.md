@@ -23,8 +23,13 @@ aura = "strong necromancy and enchantment"
 caster_level = "14th"
 +++
 
-**Aura** strong necromancy and enchantment; **CL** 14th\
-**Slot** none; **Price** 50,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy and enchantment
+CL: 14th
+Slot: none
+Price: 50,302 gp
+Weight: 1 lb.
+:::
 
 This +2 [wounding](ref/magic-enh/wounding) [dagger](ref/eq-weapon/dagger) allows the wielder to use
 _[charm monster](ref/spell/charm-monster)_ (DC 18) three times per day. When the wielder hits a
@@ -35,6 +40,7 @@ for 1d4 rounds, but are immediately freed from the charm effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [charm monster](ref/spell/charm-monster),
-[inflict moderate wounds](ref/spell/inflict-moderate-wounds); **Price** 25,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [charm monster](ref/spell/charm-monster), [inflict moderate wounds](ref/spell/inflict-moderate-wounds)
+Price: 25,302 gp
+:::

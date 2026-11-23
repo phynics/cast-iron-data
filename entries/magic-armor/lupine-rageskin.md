@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 12,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 12,160 gp
+Weight: 15 lbs.
+:::
 
 This +1 [leather](ref/eq-armor/leather) armor consists of wolf skins sewn together with sinew. When
 the wearer rages, he automatically turns into a Medium wolf, as if using
@@ -31,5 +36,7 @@ rage ends, the wearer reverts to his own form.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape I](ref/spell/beast-shape-1); **Price** 6,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape I](ref/spell/beast-shape-1)
+Price: 6,160 gp
+:::

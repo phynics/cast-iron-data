@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "14th"
 +++
 
-**Aura** strong transmutation; **CL** 14th\
-**Slot** armor; **Price** 11,575 gp; **Weight** 20 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 14th
+Slot: armor
+Price: 11,575 gp
+Weight: 20 lbs.
+:::
 
 This set of +2 [studded leather](ref/eq-armor/studded-leather) glows eerily in darkness. Tinted
 using rare dyes from the lost town of Mosswater in the River Kingdoms, this leather suit gives its
@@ -36,5 +41,7 @@ a total of up to 10 rounds per day. This duration doesn't need to be continuous,
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ethereal jaunt](ref/spell/ethereal-jaunt); **Price** 5,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ethereal jaunt](ref/spell/ethereal-jaunt)
+Price: 5,875 gp
+:::

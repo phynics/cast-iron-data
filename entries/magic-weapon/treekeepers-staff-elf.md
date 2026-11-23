@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 18,700 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 18,700 gp
+Weight: 4 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -40,6 +45,7 @@ their productivity increased in this way.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[litany of entanglement](ref/spell/litany-of-entanglement), [plant growth](ref/spell/plant-growth),
-[speak with plants](ref/spell/speak-with-plants), creator must be an elf; **Price** 9,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [litany of entanglement](ref/spell/litany-of-entanglement), [plant growth](ref/spell/plant-growth), [speak with plants](ref/spell/speak-with-plants), creator must be an elf
+Price: 9,650 gp
+:::

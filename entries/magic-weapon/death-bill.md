@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** none; **Price** 14,318 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: none
+Price: 14,318 gp
+Weight: 10 lbs.
+:::
 
 Death bills are greatly coveted by [redcaps](ref/monster/redcap), and the loss of a death bill is
 considered a great shame punishable by exile or even death. A death bill is a +1
@@ -38,6 +43,7 @@ _[death knell](ref/spell/death-knell)_ on that victim (Will DC 13 negates).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [inflict critical wounds](ref/spell/inflict-critical-wounds);
-**Price** 7,318 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [inflict critical wounds](ref/spell/inflict-critical-wounds)
+Price: 7,318 gp
+:::

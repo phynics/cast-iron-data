@@ -20,8 +20,13 @@ aura = "overwhelming all schools [evil, lawful]"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all schools \[evil, lawful\]; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming all schools \[evil, lawful\]
+CL: 30th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Written of only in the most cultic lore of Heaven and Hell, this foot-long sliver of radiance is
 said to be the final piece of the spear [Asmodeus](ref/faith/asmodeus) used to slay his brother

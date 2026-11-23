@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 These five oblong, wooden planks range in length from 5 inches to about 1 foot, and weigh 1 pound
 each. None is carved thicker than a finger, and their sides taper to form dull blades. Each is

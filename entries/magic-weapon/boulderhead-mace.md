@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 6,812 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 6,812 gp
+Weight: 8 lbs.
+:::
 
 The head of this +1 [heavy mace](ref/eq-weapon/heavy-mace) is made from a single piece of roughly
 spherical, polished granite. Once per day, the wielder can command the mace to release this head,
@@ -37,5 +42,7 @@ weapon's haft over the next 24 hours, and it is unusable as a weapon until the h
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wall of stone](ref/spell/wall-of-stone); **Price** 3,652 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wall of stone](ref/spell/wall-of-stone)
+Price: 3,652 gp
+:::

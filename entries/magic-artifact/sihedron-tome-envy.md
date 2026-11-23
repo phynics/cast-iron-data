@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Belimarius's spellbook holds an infinite number of pages to inscribe spells upon. Any wizard who
 prepares spells from a Sihedron Tome can prepare [bonus spells](ref/rule/determine-bonuses) as if

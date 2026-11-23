@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 266 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 266 gp
+Weight: 1 lb.
+:::
 
 The warped clay sphere of this +1 [fuse grenade](ref/eq-weapon/fuse-grenade) is painted with a
 crimson bull's-eye symbol and its fuse is dyed red. An unerring grenade can be lit as a move action
@@ -32,5 +37,7 @@ intersection. An unerring grenade otherwise functions as a normal fuse grenade (
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true seeing](ref/spell/true-seeing); **Price** 186 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true seeing](ref/spell/true-seeing)
+Price: 186 gp
+:::

@@ -24,8 +24,13 @@ aura = "strong varies"
 caster_level = "13th"
 +++
 
-**Aura** strong varies; **CL** 13th\
-**Slot** none; **Price** 100,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 13th
+Slot: none
+Price: 100,400 gp
+Weight: 5 lbs.
+:::
 
 Appearing to have grown naturally into its shape, this oak, ash, or yew staff allows use of the
 following spells:
@@ -44,10 +49,7 @@ attributes continue to function after all the charges are expended.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [animate plants](ref/spell/animate-plants),
-[barkskin](ref/spell/barkskin), [charm animal](ref/spell/charm-animal),
-[pass without trace](ref/spell/pass-without-trace),
-[speak with animals](ref/spell/speak-with-animals),
-[summon nature's ally VI](ref/spell/summon-natures-ally-6),
-[wall of thorns](ref/spell/wall-of-thorns); **Cost** 50,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [animate plants](ref/spell/animate-plants), [barkskin](ref/spell/barkskin), [charm animal](ref/spell/charm-animal), [pass without trace](ref/spell/pass-without-trace), [speak with animals](ref/spell/speak-with-animals), [summon nature's ally VI](ref/spell/summon-natures-ally-6), [wall of thorns](ref/spell/wall-of-thorns)
+Cost: 50,500 gp
+:::

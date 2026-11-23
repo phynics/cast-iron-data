@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 8,305 gp; **Weight** 16 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 8,305 gp
+Weight: 16 lbs.
+:::
 
 Commonly used by Erutaki hunters and whalers, this +1 [harpoon](ref/eq-weapon/harpoon) is wrapped in
 fur, and several small gourds dangle from the weapon and the rope attached to it. If the wielder
@@ -35,5 +40,7 @@ waters, but these adornments don't impact the weapon's buoyancy.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[levitate](ref/spell/levitate), [slow](ref/spell/slow); **Price** 4,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [levitate](ref/spell/levitate), [slow](ref/spell/slow)
+Price: 4,305 gp
+:::

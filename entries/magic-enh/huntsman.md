@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A huntsman weapon helps its wielder locate and capture quarry. When the weapon is held in hand, the
 wielder gains the weapon's enhancement bonus on Survival checks made to track any creature the
@@ -33,5 +38,7 @@ tracked with Survival in the past day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[detect animals or plants](ref/spell/detect-animals-or-plants); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [detect animals or plants](ref/spell/detect-animals-or-plants)
+Price: -
+:::

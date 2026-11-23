@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** none; **Price** 306 gp; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: none
+Price: 306 gp
+Weight: -
+:::
 
 This animated wood and metal snake squirms and hisses when handled, attempting to bite its holder
 just as a real snake might. To use the snakebiter arrow as a projectile, the bearer must first
@@ -37,6 +42,7 @@ carried in a pouch rather than a quiver to prevent them from getting loose.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [poison](ref/spell/poison),
-[true strike](ref/spell/true-strike); **Price** 156 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [poison](ref/spell/poison), [true strike](ref/spell/true-strike)
+Price: 156 gp
+:::

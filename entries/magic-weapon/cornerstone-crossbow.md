@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "12th"
 +++
 
-**Aura** strong divination; **CL** 12th\
-**Slot** none; **Price** 21,335 gp; **Weight** 9 lbs.
+::: statblock
+Aura: strong divination
+CL: 12th
+Slot: none
+Price: 21,335 gp
+Weight: 9 lbs.
+:::
 
 As a standard action, this +1 [seeking](ref/magic-enh/seeking)
 [light crossbow](ref/eq-weapon/light-crossbow) can generate bolts of force that briefly harden to
@@ -38,5 +43,7 @@ them.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[levitate](ref/spell/levitate), [true seeing](ref/spell/true-seeing); **Price** 10,835 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [levitate](ref/spell/levitate), [true seeing](ref/spell/true-seeing)
+Price: 10,835 gp
+:::

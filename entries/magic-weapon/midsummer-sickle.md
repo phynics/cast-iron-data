@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Aura** moderate evocation; **CL** 12th\
-**Slot** none; **Price** 7,806 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 12th
+Slot: none
+Price: 7,806 gp
+Weight: 1 lb.
+:::
 
 Created by the druids of the [Green Faith](ref/faith/green-faith), this +1
 [mithral](ref/eq-material/mithral) [spell storing](ref/magic-enh/spell-storing)
@@ -31,5 +36,7 @@ store spells on the druid spell list or from the Air, Earth, Fire, or Water doma
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a druid of at least 12th level; **Price** 4,306 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a druid of at least 12th level
+Price: 4,306 gp
+:::

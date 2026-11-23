@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This long staff of smooth, pale bone is bent in a swaying shape, like a crone's back, and is carved
 with ancient symbols of death and spirits, with the writing standing out in stark black from a thick

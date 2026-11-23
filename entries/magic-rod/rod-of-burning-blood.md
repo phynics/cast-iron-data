@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 11,050 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 11,050 gp
+Weight: 4 lbs.
+:::
 
 This rod of blackened iron is inset with rubies and functions as a +1
 [cunning](ref/magic-enh/cunning) [light mace](ref/eq-weapon/light-mace).
@@ -37,6 +42,7 @@ standard action that provokes attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Rod](ref/feat/craft-rod), [flame strike](ref/spell/flame-strike),
-[true strike](ref/spell/true-strike); **Cost** 5,525 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Rod](ref/feat/craft-rod), [flame strike](ref/spell/flame-strike), [true strike](ref/spell/true-strike)
+Cost: 5,525 gp
+:::

@@ -27,8 +27,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 58,000 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 58,000 gp
+Weight: 7 lbs.
+:::
 
 This staff is made of silver, with a shimmering sphere of [mithral](ref/eq-material/mithral) at
 either end. One end features a golden snake wrapped around the staff and cradling the larger of
@@ -44,7 +49,7 @@ It allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [bull's strength](ref/spell/bulls-strength),
-[enlarge person](ref/spell/enlarge-person), [flesh to stone](ref/spell/flesh-to-stone),
-[fox's cunning](ref/spell/foxs-cunning), [telekinesis](ref/spell/telekinesis); **Cost** 29,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [bull's strength](ref/spell/bulls-strength), [enlarge person](ref/spell/enlarge-person), [flesh to stone](ref/spell/flesh-to-stone), [fox's cunning](ref/spell/foxs-cunning), [telekinesis](ref/spell/telekinesis)
+Cost: 29,300 gp
+:::

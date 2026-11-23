@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 900 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 900 lbs.
+:::
 
 This 12-foot-high, 10-foot-diameter cauldron is made of solid iron, cast in one piece and thick
 enough to withstand great heat. Its side is marked with the Sihedron Rune, while many other

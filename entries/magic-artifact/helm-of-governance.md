@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 This helm masks the wearer's face and functions as a
 [helm of telepathy](ref/magic-wondrous/helm-of-telepathy) combined with an

@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 41,335 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 41,335 gp
+Weight: 6 lbs.
+:::
 
 The blade of this +2 [holy](ref/magic-enh/holy) [bastard sword](ref/eq-weapon/bastard-sword) always
 appears lustrous and polished, with a hilt wrapped in alternating colors of deep black and royal
@@ -32,5 +37,7 @@ smite or challenge as if she were three class levels higher.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy smite](ref/spell/holy-smite); **Price** 20,168 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy smite](ref/spell/holy-smite)
+Price: 20,168 gp
+:::

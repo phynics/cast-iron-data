@@ -20,8 +20,13 @@ aura = "strong conjuration and evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration and evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This translucent crystalline rod is 2-1/2 feet long; its ends are jagged and its length is carved
 with arcane runes. In addition to functioning as a

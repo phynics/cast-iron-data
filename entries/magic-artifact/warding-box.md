@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 A warding box is a powerful magical container built to obscure and confound any attempt to locate
 objects kept inside. The box can hold one object no larger than 8 inches by 8 inches by 3 inches (or

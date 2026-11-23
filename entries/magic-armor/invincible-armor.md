@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** 137,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: 137,650 gp
+Weight: 50 lbs.
+:::
 
 Invincible armor shifts between three different appearances, but always weighs the same and protects
 as +2 [impervious](ref/magic-enh/impervious-armor)
@@ -35,7 +40,7 @@ damage from any of these energy types.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fabricate](ref/spell/fabricate), [make whole](ref/spell/make-whole),
-[resist energy](ref/spell/resist-energy), and [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle); **Price** 69,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fabricate](ref/spell/fabricate), [make whole](ref/spell/make-whole), [resist energy](ref/spell/resist-energy), and [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle)
+Price: 69,650 gp
+:::

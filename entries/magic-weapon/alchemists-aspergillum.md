@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 2,805 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 2,805 gp
+Weight: 4 lbs.
+:::
 
 This +1 [battle aspergillum](ref/eq-weapon/battle-aspergillum) has a dappled surface and a hollow
 interior, and it's made from a corrosion-resistant alloy that allows it to contain certain
@@ -37,5 +42,7 @@ refilled.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resist energy](ref/spell/resist-energy); **Price** 1,402 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resist energy](ref/spell/resist-energy)
+Price: 1,402 gp
+:::

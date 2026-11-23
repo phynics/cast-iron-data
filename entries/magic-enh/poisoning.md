@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** armor; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: armor
+Price: +1 bonus
+Weight: -
+:::
 
 A suit of armor with this ability becomes poisonous to the touch. The user must slip a vial of 1
 dose of the injury or ingested poison to be used into a hidden slot along the armor's inner thigh.
@@ -33,5 +38,7 @@ from the armor and the wearer must load a new vial into the armor to recharge th
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[poison](ref/spell/poison); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison)
+Price: +1 bonus
+:::

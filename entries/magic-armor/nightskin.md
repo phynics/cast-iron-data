@@ -20,8 +20,13 @@ aura = "moderate illusion (evil)"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion (evil); **CL** 10th\
-**Slot** armor; **Price** 53,100 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate illusion (evil)
+CL: 10th
+Slot: armor
+Price: 53,100 gp
+Weight: 25 lbs.
+:::
 
 Each of these +2 [glamered](ref/magic-enh/glamered) [chain shirts](ref/eq-armor/chain-shirt) bears a
 permanent illusion of being a fantastic ebon gown of peerless design or a royal suit of nighted
@@ -37,5 +42,7 @@ Nightskin is a fundamentally evil armor and any wearer of good alignment is trea
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major image](ref/spell/major-image), [true seeing](ref/spell/true-seeing); **Price** 26,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major image](ref/spell/major-image), [true seeing](ref/spell/true-seeing)
+Price: 26,550 gp
+:::

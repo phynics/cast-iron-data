@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 7,305 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 7,305 gp
+Weight: 1 lb.
+:::
 
 This bloodstained, skull-bedecked [bayonet](ref/eq-weapon/bayonet) has thin blood gutters running
 along both sides of its 14-inch blade. When attached to a magic crossbow or firearm, a
@@ -41,6 +46,7 @@ purpose of overcoming [damage reduction](ref/rule/damage-reduction).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater magic weapon](ref/spell/magic-weapon-greater),
-[versatile weapon](ref/spell/versatile-weapon); **Price** 3,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater magic weapon](ref/spell/magic-weapon-greater), [versatile weapon](ref/spell/versatile-weapon)
+Price: 3,805 gp
+:::

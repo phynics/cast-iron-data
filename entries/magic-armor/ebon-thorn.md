@@ -20,8 +20,13 @@ aura = "moderate enchantment and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment and necromancy; **CL** 7th\
-**Slot** armor; **Price** 60,500 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate enchantment and necromancy
+CL: 7th
+Slot: armor
+Price: 60,500 gp
+Weight: 6 lbs.
+:::
 
 This suit of +4 [bolstering](ref/magic-enh/bolstering) [grinding](ref/magic-enh/grinding)
 [adamantine](ref/eq-material/adamantine) [full plate](ref/eq-armor/full-plate) bristles with long
@@ -33,6 +38,7 @@ doesn't take the normal -4 penalty on Intimidate checks made against larger oppo
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell),
-[heroism](ref/spell/heroism), [keen edge](ref/spell/keen-edge); **Price** 38,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [death knell](ref/spell/death-knell), [heroism](ref/spell/heroism), [keen edge](ref/spell/keen-edge)
+Price: 38,500 gp
+:::

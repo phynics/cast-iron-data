@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 20th\
-**Slot** weapon; **Price** 182,308 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 20th
+Slot: weapon
+Price: 182,308 gp
+Weight: 1 lb.
+:::
 
 A mournful razor is a +3 [vorpal](ref/magic-enh/vorpal) [war razor](ref/eq-weapon/war-razor) capable
 of inflicting particularly distressing and demoralizing wounds. The weapon resizes automatically to
@@ -36,6 +41,7 @@ immediately once the victim is completely healed of all damage).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bestow curse](ref/spell/bestow-curse), [circle of death](ref/spell/circle-of-death),
-[keen edge](ref/spell/keen-edge); **Price** 91,308 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bestow curse](ref/spell/bestow-curse), [circle of death](ref/spell/circle-of-death), [keen edge](ref/spell/keen-edge)
+Price: 91,308 gp
+:::

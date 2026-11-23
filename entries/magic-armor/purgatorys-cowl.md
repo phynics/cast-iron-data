@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 11th\
-**Slot** armor; **Price** 24,175 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 11th
+Slot: armor
+Price: 24,175 gp
+Weight: 30 lbs.
+:::
 
 This tattered suit of +1 [deathless](ref/magic-enh/deathless)
 [studded leather](ref/eq-armor/studded-leather) has a black leather hood attached to the neck.
@@ -34,6 +39,7 @@ spell-like abilities from the Death and Repose domains. This effect lasts for 1 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death ward](ref/spell/death-ward), [undeath to death](ref/spell/undeath-to-death); **Price** 12,175
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death ward](ref/spell/death-ward), [undeath to death](ref/spell/undeath-to-death)
+Price: 12,175 gp
+:::

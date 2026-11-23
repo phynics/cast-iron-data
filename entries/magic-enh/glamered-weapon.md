@@ -22,8 +22,13 @@ caster_level = "10th"
 
 ## Glamered
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** weapon quality; **Price** +4,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: weapon quality
+Price: +4,000 gp
+Weight: -
+:::
 
 A glamered weapon can be commanded to change its shape and appearance to assume the form of another
 object of similar size. The weapon retains all its properties (including weight) when so disguised
@@ -33,7 +38,9 @@ this special ability is suppressed for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura); **Price** +2,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [magic aura](ref/spell/magic-aura)
+Price: +2,000 gp
+:::
 
 > _See also: [glamered armor enhancement](ref/magic-enh/glamered)_

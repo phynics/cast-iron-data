@@ -20,8 +20,13 @@ aura = "strong necromancy and abjuration (evil)"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy and abjuration (evil); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong necromancy and abjuration (evil)
+CL: 20th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 This shining violet crystal is as large as a grapefruit. In its depths swirl spectral shapes and
 glimpses of a strange landscape. When activated it grows as bright as a

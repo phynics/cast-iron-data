@@ -23,13 +23,20 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on a ranged weapon. A distance weapon has double the range
 increment of other weapons of its kind.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 The weapon channels and amplifies the wielder's ki, allowing her to use her special ki attacks
 through the weapon as though they were unarmed attacks. These attacks include the
@@ -41,5 +46,7 @@ Weapons with the [ki focus](ref/magic-enh/ki-focus) ability can be upgraded to b
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a monk; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a monk
+Price: -
+:::

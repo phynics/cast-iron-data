@@ -19,8 +19,12 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Price: +5,000 gp
+Weight: -
+:::
 
 Malevolent armor is usually decorated with motifs of conflict, such as enraged faces, clashing
 swords, and dueling outsiders. The wearer of a suit of malevolent armor applies a +2 competence
@@ -30,5 +34,7 @@ apply the enhancement bonus of the armor to attack rolls made against
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[desecrate](ref/spell/desecrate), [doom](ref/spell/doom); **Price** +2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [desecrate](ref/spell/desecrate), [doom](ref/spell/doom)
+Price: +2,500 gp
+:::

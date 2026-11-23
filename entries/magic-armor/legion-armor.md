@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** armor; **Price** 13,400 gp; **Weight** 35 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: armor
+Price: 13,400 gp
+Weight: 35 lbs.
+:::
 
 This gilded suit of +2 [banded mail](ref/eq-armor/banded-mail) is decorated with images of celestial
 beings holding their weapons high. Legion armor is typically worn by high-ranking
@@ -39,5 +44,7 @@ save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cause fear](ref/spell/cause-fear), [spiritual ally](ref/spell/spiritual-ally); **Price** 6,900 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cause fear](ref/spell/cause-fear), [spiritual ally](ref/spell/spiritual-ally)
+Price: 6,900 gp
+:::

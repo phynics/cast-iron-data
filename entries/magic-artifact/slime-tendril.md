@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 A horrid, slimy whip crafted from a severed aboleth's tentacle, the slime tendril grants the wielder
 unpleasant transformative powers akin to those of the [aboleths](ref/monster/alghollthu-aboleth).

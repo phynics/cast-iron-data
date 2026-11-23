@@ -20,8 +20,13 @@ aura = "strong evocation and illusion"
 caster_level = "19th"
 +++
 
-**Aura** strong evocation and illusion; **CL** 19th\
-**Slot** none; **Price** 45,125 gp; **Weight** varies
+::: statblock
+Aura: strong evocation and illusion
+CL: 19th
+Slot: none
+Price: 45,125 gp
+Weight: varies
+:::
 
 A swarm of shadowy rats clump together to form this +1 [stalking](ref/magic-enh/stalking) light
 melee [shadowcraft weapon](ref/magic-weapon/shadowcraft-weapon). Three times per day, the wielder
@@ -38,8 +43,7 @@ the Old Rat Woman.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Create Reliquary Arms and Shields](ref/feat/create-reliquary-arms-and-shields),
-[deeper darkness](ref/spell/deeper-darkness), [fog cloud](ref/spell/fog-cloud),
-[major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon); **Price**
-22,712 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Create Reliquary Arms and Shields](ref/feat/create-reliquary-arms-and-shields), [deeper darkness](ref/spell/deeper-darkness), [fog cloud](ref/spell/fog-cloud), [major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon)
+Price: 22,712 gp
+:::

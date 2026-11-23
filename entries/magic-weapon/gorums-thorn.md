@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 12,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 12,350 gp
+Weight: 8 lbs.
+:::
 
 This forge-blackened +1 [keen](ref/magic-enh/keen) [greatsword](ref/eq-weapon/greatsword) is
 festooned with religious iconography depicting glorious images of the Lord in Iron. If
@@ -33,5 +38,7 @@ wielder is not knocked [prone](ref/rule/prone).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [righteous might](ref/spell/righteous-might); **Price** 6,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [righteous might](ref/spell/righteous-might)
+Price: 6,350 gp
+:::

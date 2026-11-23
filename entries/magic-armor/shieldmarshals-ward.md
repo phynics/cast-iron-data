@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shield; **Price** 17,155 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shield
+Price: 17,155 gp
+Weight: 5 lbs.
+:::
 
 Crafted from magnetic ore warped by exposure to the Mana Wastes, this +1
 [arrow deflection](ref/magic-enh/arrow-deflection) [buckler](ref/eq-armor/buckler) is thought to be
@@ -43,7 +48,7 @@ bear a shieldmarshal's ward without penalty, even if she isn't proficient with i
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter),
-[protection from arrows](ref/spell/protection-from-arrows), [shield](ref/spell/shield),
-[telekinesis](ref/spell/telekinesis); **Price** 8,655 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [protection from arrows](ref/spell/protection-from-arrows), [shield](ref/spell/shield), [telekinesis](ref/spell/telekinesis)
+Price: 8,655 gp
+:::

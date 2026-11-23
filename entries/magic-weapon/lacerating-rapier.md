@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 10,302 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 10,302 gp
+Weight: 4 lbs.
+:::
 
 The blade of this +1 [rapier](ref/eq-weapon/rapier) is imbued with the ability to change form
 slightly when used to [sneak attack](ref/ability/sneak-attack) foes, allowing the wielder to hit
@@ -35,6 +40,7 @@ first creature takes sneak attack damage.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[greater magic weapon](ref/spell/magic-weapon-greater), [mirror strike](ref/spell/mirror-strike);
-**Price** 5,302 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [greater magic weapon](ref/spell/magic-weapon-greater), [mirror strike](ref/spell/mirror-strike)
+Price: 5,302 gp
+:::

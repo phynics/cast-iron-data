@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "16th"
 +++
 
-**Aura** strong transmutation; **CL** 16th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 16th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This small [adamantine](ref/eq-material/adamantine) loop and handle is typically fitted with a fine
 adamantine chain so that it can be worn as a necklace. A talisman of the sphere is worse than

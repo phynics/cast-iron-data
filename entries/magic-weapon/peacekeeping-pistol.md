@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** none; **Price** 11,700 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: none
+Price: 11,700 gp
+Weight: 4 lbs.
+:::
 
 Crafted in the forges of Alkenstar, this +1 [merciful](ref/magic-enh/merciful)
 [pistol](ref/eq-weapon/pistol) is ornamented with filigree of angelic creatures along the barrel,
@@ -32,6 +37,7 @@ spend 1 grit point to increase the DC of this save by 4.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds), [daze monster](ref/spell/daze-monster); **Price**
-6,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds), [daze monster](ref/spell/daze-monster)
+Price: 6,500 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** armor/shield quality; **Price** +49,000 gp; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: armor/shield quality
+Price: +49,000 gp
+Weight: -
+:::
 
 Undead controlling armor and shields often have skeletal or other grisly decorations or flourishes
 to their decor. They let the user control up to 26 Hit Dice of undead per day, as the
@@ -34,5 +39,7 @@ this feature is entirely decorative and has no other effect on the armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[control undead](ref/spell/control-undead); **Price** +24,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [control undead](ref/spell/control-undead)
+Price: +24,500 gp
+:::

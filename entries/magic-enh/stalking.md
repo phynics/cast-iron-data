@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 The longer the wielder of a stalking weapon studies a target, the more effective her strike. As a
 standard action, a character wielding a stalking weapon can command it to study a creature within 60
@@ -37,5 +42,7 @@ all bonus damage dice against the previously studied creature.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hunter's eye](ref/spell/hunters-eye), [true strike](ref/spell/true-strike); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hunter's eye](ref/spell/hunters-eye), [true strike](ref/spell/true-strike)
+Price: -
+:::

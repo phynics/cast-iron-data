@@ -20,8 +20,13 @@ aura = "moderate conjuration and enchantment [mind-affecting, sonic]"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and enchantment \[mind-affecting, sonic\]; **CL** 8th\
-**Slot** none; **Price** 11,901 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate conjuration and enchantment \[mind-affecting, sonic\]
+CL: 8th
+Slot: none
+Price: 11,901 gp
+Weight: 2 lbs.
+:::
 
 This leathern lash is dyed with special unguents that give it a disturbing crimson hue. A tamer's
 whip is a +1 animal-[bane](ref/magic-enh/bane) [whip](ref/eq-weapon/whip) that deals lethal damage
@@ -33,6 +38,7 @@ bonus on any [combat maneuvers](ref/rule/combat-maneuvers) against animals or ma
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animal trance](ref/spell/animal-trance), [snare](ref/spell/snare),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Price** 6,101 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animal trance](ref/spell/animal-trance), [snare](ref/spell/snare), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Price: 6,101 gp
+:::

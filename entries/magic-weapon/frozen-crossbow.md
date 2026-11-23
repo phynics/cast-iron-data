@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 25,700 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 25,700 gp
+Weight: 8 lbs.
+:::
 
 When this +2 [frost](ref/magic-enh/frost)
 [repeating heavy crossbow](ref/eq-weapon/repeating-heavy-crossbow) is empty and underwater, pulling
@@ -32,6 +37,7 @@ leaving the crossbow.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement), [icicle dagger](ref/spell/icicle-dagger);
-**Price** 13,200 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement), [icicle dagger](ref/spell/icicle-dagger)
+Price: 13,200 gp
+:::

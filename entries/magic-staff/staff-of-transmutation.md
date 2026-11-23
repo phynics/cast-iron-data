@@ -24,8 +24,13 @@ aura = "strong transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong transmutation; **CL** 13th\
-**Slot** none; **Price** 82,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 13th
+Slot: none
+Price: 82,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is generally carved from or decorated with petrified wood or fossilized bone that has
 been etched with tiny but complex runes. It allows use of the following spells:
@@ -39,7 +44,7 @@ been etched with tiny but complex runes. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [alter self](ref/spell/alter-self),
-[baleful polymorph](ref/spell/baleful-polymorph), [blink](ref/spell/blink),
-[disintegrate](ref/spell/disintegrate), [expeditious retreat](ref/spell/expeditious-retreat),
-[polymorph](ref/spell/polymorph); **Cost** 41,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [alter self](ref/spell/alter-self), [baleful polymorph](ref/spell/baleful-polymorph), [blink](ref/spell/blink), [disintegrate](ref/spell/disintegrate), [expeditious retreat](ref/spell/expeditious-retreat), [polymorph](ref/spell/polymorph)
+Cost: 41,000 gp
+:::

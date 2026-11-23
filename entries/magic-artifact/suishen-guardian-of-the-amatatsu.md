@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 Suishen is a +2 [defending](ref/magic-enh/defending) [flaming](ref/magic-enh/flaming)
 [katana](ref/eq-weapon/katana). The ancestral blade of the Amatatsu family, Suishen is believed to

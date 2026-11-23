@@ -20,8 +20,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Seven feet of twisted, gnarled spruce carved with primitive runes and icons depicting mammoths,
 tigers, and hunters form this regal staff. The staff has all the powers of a

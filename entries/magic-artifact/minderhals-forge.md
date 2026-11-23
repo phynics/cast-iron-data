@@ -20,8 +20,13 @@ aura = "strong transmutation [evil, lawful]"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation \[evil, lawful\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation \[evil, lawful\]
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Minderhal's Forge appears to be a giant stone blacksmithing forge and huge iron anvil set atop a
 basalt platform that rises from a pit of slag. First and foremost, Minderhal's Forge functions as an

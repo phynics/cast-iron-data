@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +10,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +10,000 gp
+Weight: -
+:::
 
 Armor with this special ability grants the wearer a burrow speed of 10 feet. This speed allows the
 wearer to tunnel through any type of soil, including rocky soil, but not actual solid stone. This
@@ -35,5 +40,7 @@ breathe. The wearer gains a +4 bonus on all saving throws against
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[soften earth and stone](ref/spell/soften-earth-and-stone); **Price** +5,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [soften earth and stone](ref/spell/soften-earth-and-stone)
+Price: +5,000 gp
+:::

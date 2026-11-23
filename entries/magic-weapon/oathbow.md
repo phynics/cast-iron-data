@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 25,600 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 25,600 gp
+Weight: 3 lbs.
+:::
 
 Of elven make, this white +2 [composite longbow](ref/eq-weapon/composite-longbow) (+2 Str bonus)
 whispers "Swift defeat to my enemies" in Elven when nocked and pulled. Once per day, if the archer
@@ -44,5 +49,7 @@ special power again until 24 hours have passed from the time he made the oath.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-an elf; **Price** 13,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be an elf
+Price: 13,100 gp
+:::

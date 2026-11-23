@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 160 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 15th
+Slot: none
+Price: -
+Weight: 160 lbs.
+:::
 
 The void crystal crackled into existence through interplanetary feedback between a device on
 Golarion - one of two linked magical rings - and a facility on Eox. The ring that's buried deep

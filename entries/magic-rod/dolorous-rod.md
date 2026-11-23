@@ -20,8 +20,13 @@ aura = "moderate enchantment and necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment and necromancy; **CL** 10th\
-**Slot** none; **Price** 120,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate enchantment and necromancy
+CL: 10th
+Slot: none
+Price: 120,000 gp
+Weight: 5 lbs.
+:::
 
 On command, this rod beats with a slow, steady pulse, sending a deep, almost inaudible thrum through
 the air. At the start of each successive round of holding the rod, its bearer takes 1d10 points of
@@ -35,6 +40,7 @@ unaffected.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Mythic Crafter](ref/feat/mythic-crafter),
-[bestow curse](ref/spell/bestow-curse), [crushing despair](ref/spell/crushing-despair); **Cost**
-60,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Mythic Crafter](ref/feat/mythic-crafter), [bestow curse](ref/spell/bestow-curse), [crushing despair](ref/spell/crushing-despair)
+Cost: 60,000 gp
+:::

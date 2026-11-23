@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 9,512 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 9,512 gp
+Weight: 10 lbs.
+:::
 
 This well-crafted +1 [glaive-guisarme](ref/eq-weapon/glaive-guisarme) has an image of a roaring lion
 built into its fastener, and the entire weapon is unnaturally warm to the touch. When used to brace
@@ -31,5 +36,7 @@ character for being a weapon with the [brace](ref/misc/brace) special feature.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true strike](ref/spell/true-strike); **Price** 4,912 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true strike](ref/spell/true-strike)
+Price: 4,912 gp
+:::

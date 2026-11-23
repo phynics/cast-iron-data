@@ -20,8 +20,13 @@ aura = "moderate illusion and transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate illusion and transmutation; **CL** 10th\
-**Slot** armor; **Price** 8,910 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate illusion and transmutation
+CL: 10th
+Slot: armor
+Price: 8,910 gp
+Weight: 15 lbs.
+:::
 
 This +1 [shadow](ref/magic-enh/shadow) [leather](ref/eq-armor/leather) armor causes the wearer's
 skin to warp and distort into a welter of horrid scarification. The armor itself disappears from
@@ -34,5 +39,7 @@ rolls.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[alter self](ref/spell/alter-self), [invisibility](ref/spell/invisibility); **Price** 4,535 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [alter self](ref/spell/alter-self), [invisibility](ref/spell/invisibility)
+Price: 4,535 gp
+:::

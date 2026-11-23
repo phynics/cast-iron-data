@@ -20,8 +20,13 @@ aura = "strong conjuration and necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and necromancy; **CL** 13th\
-**Slot** none; **Price** 52,118 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong conjuration and necromancy
+CL: 13th
+Slot: none
+Price: 52,118 gp
+Weight: 10 lbs.
+:::
 
 Though largely constructed in the image of [Deskari's](ref/faith/deskari) own terrible scythe,
 [Riftcarver](ref/magic-artifact/riftcarver), these +3 [scythes](ref/eq-weapon/scythe) bear tiny
@@ -38,6 +43,7 @@ his control.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[contagion](ref/spell/contagion), [summon monster VII](ref/spell/summon-monster-7); **Price** 26,218
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [contagion](ref/spell/contagion), [summon monster VII](ref/spell/summon-monster-7)
+Price: 26,218 gp
+:::

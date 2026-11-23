@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A harvesting weapon siphons away mythic power from one mythic creature to empower another. Whenever
 a mythic wielder confirms a critical hit against another mythic creature, the weapon leeches away
@@ -36,5 +41,7 @@ weapons can have this ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [steal power](ref/spell/steal-power); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [steal power](ref/spell/steal-power)
+Price: -
+:::

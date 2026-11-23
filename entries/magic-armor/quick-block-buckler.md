@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration; **CL** 14th\
-**Slot** shield; **Price** 36,155 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 14th
+Slot: shield
+Price: 36,155 gp
+Weight: 15 lbs.
+:::
 
 Once per round as an immediate action, this +3 [arrow deflection](ref/magic-enh/arrow-deflection)
 [buckler](ref/eq-armor/buckler) can be used to block an incoming melee attack. When used in this
@@ -31,5 +36,7 @@ attack in this way, it cannot use its arrow deflection special ability for 1 rou
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield](ref/spell/shield); **Price** 18,155 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield)
+Price: 18,155 gp
+:::

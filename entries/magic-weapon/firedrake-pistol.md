@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 20,300 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 20,300 gp
+Weight: 4 lbs.
+:::
 
 This hefty +1 [flaming](ref/magic-enh/flaming) [pistol](ref/eq-weapon/pistol) is elaborately carved
 with its barrel in the semblance of a roaring dragon and its grip wrapped in polished red
@@ -33,5 +38,7 @@ attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[burning hands](ref/spell/burning-hands), [fireball](ref/spell/fireball); **Price** 10,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [burning hands](ref/spell/burning-hands), [fireball](ref/spell/fireball)
+Price: 10,800 gp
+:::

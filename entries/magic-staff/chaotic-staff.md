@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 29,600 gp
+Weight: 5 lbs.
+:::
 
 Made up from a number of different materials, including wood, metal, and possibly pieces of flesh,
 this staff seems to shift in shape and form over time. The staff allows use of the following spells:
@@ -34,6 +39,7 @@ this staff seems to shift in shape and form over time. The staff allows use of t
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon),
-[chaos hammer](ref/spell/chaos-hammer), [detect evil](ref/spell/detect-evil),
-[magic circle against law](ref/spell/magic-circle-against-law); **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon), [chaos hammer](ref/spell/chaos-hammer), [detect evil](ref/spell/detect-evil), [magic circle against law](ref/spell/magic-circle-against-law)
+Cost: 14,800 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 25,302 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 25,302 gp
+Weight: 2 lbs.
+:::
 
 The spirit caller is a +1 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 [mere club](ref/eq-weapon/mere-club) carved of nephrite jade. Incorporeal undead and ghosts struck
@@ -34,5 +39,7 @@ consumed by a spirit caller still rejuvenate as normal.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic jar](ref/spell/magic-jar), [plane shift](ref/spell/plane-shift); **Price** 12,802 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic jar](ref/spell/magic-jar), [plane shift](ref/spell/plane-shift)
+Price: 12,802 gp
+:::

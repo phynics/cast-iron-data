@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong transmutation; **CL** 18th\
-**Slot** headband; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 18th
+Slot: headband
+Price: -
+Weight: -
+:::
 
 The earth's eye is a small geode that resembles a crystalline eye that sparkles brilliantly. When
 the earth's eye is worn on a headband and positioned in the center of the forehead, it creates a

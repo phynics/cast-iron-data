@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "18th"
 +++
 
-**Aura** strong divination; **CL** 18th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination
+CL: 18th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 Fashioned from rose gold and set with multicolored gemstones that glitter with internal
 illumination, the Imperial Diadem contains the memories and personalities of Yhtill's population.

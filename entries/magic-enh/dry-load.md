@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** weapon quality; **Price** +1,500 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: weapon quality
+Price: +1,500 gp
+Weight: -
+:::
 
 This weapon special ability can only be applied to alchemical or metal firearm cartridges. Dry load
 cartridges can be used to load guns underwater or in other airless environments, such as a vacuum.
@@ -43,5 +48,7 @@ The listed price is for 50 dry load cartridges.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[air bubble](ref/spell/air-bubble); **Price** +750 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [air bubble](ref/spell/air-bubble)
+Price: +750 gp
+:::

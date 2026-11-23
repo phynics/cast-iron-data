@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** +1,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: +1,000 gp
+Weight: -
+:::
 
 This special ability can be placed only on melee weapons. When the wielder issues the command word,
 a shrinking weapon shrinks to the size of a standard [dagger](ref/eq-weapon/dagger). While in this
@@ -30,5 +35,7 @@ is spoken again, the weapon returns to its original state.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** +500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: +500 gp
+:::

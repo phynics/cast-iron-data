@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This verdant branch glows with a soothing, pale green light. Carefully pruned from the world's first
 tree, this artifact hums with energy. Full of everlasting life, it needs time to transfer its magic.

@@ -21,8 +21,13 @@ aura = "moderate evocation [good]"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 7th\
-**Slot** none; **Price** 21,015 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 7th
+Slot: none
+Price: 21,015 gp
+Weight: 4 lbs.
+:::
 
 Clarity is a +1 [holy](ref/magic-enh/holy) [scimitar](ref/eq-weapon/scimitar) crafted to vanquish
 the evil creatures of the night. Though she can't speak, her empathic communications clearly
@@ -33,8 +38,10 @@ wielder.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[holy smite](ref/spell/holy-smite), [remove fear](ref/spell/remove-fear); **Price** 10,665 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [holy smite](ref/spell/holy-smite), [remove fear](ref/spell/remove-fear)
+Price: 10,665 gp
+:::
 
 ### Statistics
 

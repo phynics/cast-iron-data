@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 23,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 23,200 gp
+Weight: 5 lbs.
+:::
 
 This silver-tipped willow staff constantly emits light, as if from a _[light](ref/spell/light)_
 spell - the radiance is emitted from the staff's metallic end and flickers as if with flame. The
@@ -38,6 +43,7 @@ staff of radiance allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [daylight](ref/spell/daylight),
-[glitterdust](ref/spell/glitterdust), [light](ref/spell/light),
-[searing light](ref/spell/searing-light); **Cost** 11,600 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [daylight](ref/spell/daylight), [glitterdust](ref/spell/glitterdust), [light](ref/spell/light), [searing light](ref/spell/searing-light)
+Cost: 11,600 gp
+:::

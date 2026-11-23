@@ -20,8 +20,13 @@ aura = "faint conjuration and divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and divination; **CL** 3rd\
-**Slot** none; **Price** 4,461 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration and divination
+CL: 3rd
+Slot: none
+Price: 4,461 gp
+Weight: 2 lbs.
+:::
 
 This long piece of cloth is so fine that it can pass through a finger ring. Delicately woven with
 multiple colors to spell out [Iroran](ref/faith/irori) prayers, it is usually worn as a shawl or
@@ -34,6 +39,7 @@ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds), [know the enemy](ref/spell/know-the-enemy);
-**Price** 2,381 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds), [know the enemy](ref/spell/know-the-enemy)
+Price: 2,381 gp
+:::

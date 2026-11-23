@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 25,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 25,312 gp
+Weight: 5 lbs.
+:::
 
 In the hands of a [dwarf](ref/race/dwarf), this +1 [warhammer](ref/eq-weapon/warhammer) functions as
 a +2 [returning](ref/magic-enh/returning) warhammer. It can be hurled with a 20-foot range
@@ -30,5 +35,7 @@ the giant subtype.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a dwarf of at least 7th level; **Price** 12,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a dwarf of at least 7th level
+Price: 12,812 gp
+:::

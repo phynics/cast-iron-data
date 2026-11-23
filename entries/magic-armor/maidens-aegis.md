@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** shield; **Price** 9,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: shield
+Price: 9,170 gp
+Weight: 15 lbs.
+:::
 
 These +2 [heavy steel shields](ref/eq-armor/heavy-steel-shield) were often issued to
 [Gray Maiden](ref/rule/aff-scarred-ladies) unit leaders, and many still carry them today. Once per
@@ -32,5 +37,7 @@ feet from the maiden's aegis that granted the bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic vestment](ref/spell/magic-vestment); **Price** 4,670 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic vestment](ref/spell/magic-vestment)
+Price: 4,670 gp
+:::

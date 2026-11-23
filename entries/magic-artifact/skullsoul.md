@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 18th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 This grim, alabaster figurine is the size of a human skull with an elaborately sculpted base. The
 Skullsoul is inert until it is bonded with a living creature. It then becomes a powerful and

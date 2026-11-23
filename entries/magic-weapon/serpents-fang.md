@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 10,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 10,302 gp
+Weight: 1 lb.
+:::
 
 The brass hilt of this curved +1 [dagger](ref/eq-weapon/dagger) resembles a snake coiled around a
 bone. When a new user unsheathes the dagger for the first time, the weapon lets out a long, ominous
@@ -38,5 +43,7 @@ himself if he rolls a natural 1 on an attack roll.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[secret chest](ref/spell/secret-chest); **Price** 5,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [secret chest](ref/spell/secret-chest)
+Price: 5,302 gp
+:::

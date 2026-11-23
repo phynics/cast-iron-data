@@ -20,8 +20,13 @@ aura = "moderate abjuration and divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and divination; **CL** 7th\
-**Slot** none; **Price** 67,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration and divination
+CL: 7th
+Slot: none
+Price: 67,000 gp
+Weight: 5 lbs.
+:::
 
 This rod is a simple, unadorned piece of clear crystal that has been magically hardened. The wielder
 of the rod is under a constant _[nondetection](ref/spell/nondetection)_ effect, as the spell.
@@ -34,5 +39,7 @@ Furthermore, the rod has the following powers.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [detect thoughts](ref/spell/detect-thoughts),
-[discern lies](ref/spell/discern-lies), [nondetection](ref/spell/nondetection); **Cost** 33,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [detect thoughts](ref/spell/detect-thoughts), [discern lies](ref/spell/discern-lies), [nondetection](ref/spell/nondetection)
+Cost: 33,500 gp
+:::

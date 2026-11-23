@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 307 gp; **Weight** 1/10 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 307 gp
+Weight: 1/10 lb.
+:::
 
 This +1 [arrow](ref/eq-weapon/arrow) is crafted from human bone by agents of the
 [Whispering Way](ref/rule/f-gravepath). When it strikes a target, all mindless undead within 300
@@ -33,5 +38,7 @@ their normal behavior.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[command undead](ref/spell/command-undead); **Price** 157 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [command undead](ref/spell/command-undead)
+Price: 157 gp
+:::

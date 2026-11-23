@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 12,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 12,302 gp
+Weight: 1 lb.
+:::
 
 These +1 [gauntlets](ref/eq-weapon/gauntlet) are made of snakeskin and grant a +1 enhancement bonus
 on [grapple](ref/rule/grapple) checks.
@@ -36,5 +41,7 @@ change while it is shrunken.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 6,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 6,302 gp
+:::

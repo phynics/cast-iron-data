@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 18th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 These cloudy, white crystals are believed to form spontaneously - though extremely infrequently -
 when a region of planar chaos drifts near a lawfully oriented one. When carried by a non-mythic

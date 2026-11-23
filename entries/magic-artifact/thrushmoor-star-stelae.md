@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 44,000 lbs. each
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 44,000 lbs. each
+:::
 
 The Star Stelae in Thrushmoor are partially operational and provide the following benefits to any
 creature bearing an [unholy symbol](ref/eq-misc/wooden-holy-symbol) of [Hastur](ref/faith/hastur) -

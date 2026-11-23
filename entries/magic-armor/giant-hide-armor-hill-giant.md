@@ -25,9 +25,13 @@ caster_level = "15th"
 
 ## Giant-Hide Armor
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** armor; **Price** ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant
-(54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp); **Weight** 25 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: armor
+Price: ogre (39,165 gp), hill giant (46,665 gp), stone, fire, or frost giant (54,165 gp), troll (59,165 gp), cloud giant (69,165 gp), storm giant (79,665 gp)
+Weight: 25 lbs.
+:::
 
 This drooping, many-folded suit of +3 [hide](ref/eq-armor/hide) armor is made from the tanned skin
 of an actual giant. Once per day on command, the wearer can grow to match the size of the
@@ -41,8 +45,7 @@ the same kind of giant as the attacker.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[giant form I](ref/spell/giant-form-1) (ogre, hill giant, stone giant, fire giant, frost giant, or
-troll) or [giant form II](ref/spell/giant-form-2) (cloud giant or storm giant); **Price** 19,600 gp
-(ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665
-gp (cloud giant), 38,415 gp (storm giant)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [giant form I](ref/spell/giant-form-1) (ogre, hill giant, stone giant, fire giant, frost giant, or troll) or [giant form II](ref/spell/giant-form-2) (cloud giant or storm giant)
+Price: 19,600 gp (ogre), 23,415 gp (hill giant), 27,165 gp (stone, fire, or frost giant), 29,665 gp (troll), 34,665 gp (cloud giant), 38,415 gp (storm giant)
+:::

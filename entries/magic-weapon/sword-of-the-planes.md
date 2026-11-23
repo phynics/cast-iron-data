@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 22,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 22,315 gp
+Weight: 4 lbs.
+:::
 
 This [longsword](ref/eq-weapon/longsword) has an enhancement bonus of +1 on the Material Plane, but
 on any elemental planes its enhancement bonus increases to +2. The +2 enhancement bonus also applies
@@ -34,5 +39,7 @@ either of those planes. On any other plane, or against any outsider, it function
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[plane shift](ref/spell/plane-shift); **Price** 11,315 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [plane shift](ref/spell/plane-shift)
+Price: 11,315 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 18,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 18,000 gp
+Weight: 5 lbs.
+:::
 
 This wooden rod is engraved with serrated-edged leaves of stinging nettles. This rod acts as a +1
 [light mace](ref/eq-weapon/light-mace) that deals no damage. Instead, the rod's venomous touch
@@ -37,5 +42,7 @@ are immune to this effect. A creature that saves is unaffected by the area's poi
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [plant growth](ref/spell/plant-growth),
-[poison](ref/spell/poison); **Cost** 9,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [plant growth](ref/spell/plant-growth), [poison](ref/spell/poison)
+Cost: 9,000 gp
+:::

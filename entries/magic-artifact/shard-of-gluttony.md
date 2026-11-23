@@ -20,8 +20,13 @@ aura = "overwhelming necromancy"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming necromancy; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming necromancy
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Gluttony is made of pale [inubrix](ref/eq-material/inubrix). As long as the Shard of
 Gluttony is carried, its owner can use [vampiric touch](ref/spell/vampiric-touch) as a

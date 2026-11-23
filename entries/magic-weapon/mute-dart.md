@@ -20,8 +20,13 @@ aura = "faint illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion; **CL** 5th\
-**Slot** none; **Price** 566 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 5th
+Slot: none
+Price: 566 gp
+Weight: -
+:::
 
 This ivory +1 [blowgun dart](ref/eq-weapon/blowgun-darts) emits a _[silence](ref/spell/silence)_
 effect that envelops the space of the creature or object it strikes, up to a maximum radius of 20
@@ -30,5 +35,7 @@ feet. If a creature is struck, it can resist the _[silence](ref/spell/silence)_ 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[silence](ref/spell/silence); **Price** 286 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [silence](ref/spell/silence)
+Price: 286 gp
+:::

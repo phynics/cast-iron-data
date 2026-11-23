@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** 5,901 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: 5,901 gp
+Weight: 4 lbs.
+:::
 
 Three times per day, the wielder of this +1
 [pounder tail](ref/carried/advanced-race-guide/races/kobolds/new-racial-rules/kobold-equipment/kobold-tail-attachments)
@@ -37,5 +42,7 @@ large that it would be unable to squeeze.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enlarge person](ref/spell/enlarge-person); **Price** 3,101 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enlarge person](ref/spell/enlarge-person)
+Price: 3,101 gp
+:::

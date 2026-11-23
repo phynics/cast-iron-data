@@ -20,8 +20,13 @@ aura = "overwhelming necromancy"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming necromancy; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming necromancy
+CL: 30th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 When [Vildeis](ref/monster/empyreal-lord-vildeis) reached for a tool to permanently put an end to
 her sight so she no longer had to bear witness to the evils of the multiverse, her hand fell upon

@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 26,340 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 26,340 gp
+Weight: 15 lbs.
+:::
 
 This +3 [earth breaker](ref/eq-weapon/earth-breaker) is blocky and heavy. Several chrysoberyls adorn
 the head around its striking surface. The density hammer's wielder is immune to petrification
@@ -32,5 +37,7 @@ density hammer gains the [fragile](ref/misc/fragile) weapon special feature.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stone to flesh](ref/spell/stone-to-flesh); **Price** 12,340 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stone to flesh](ref/spell/stone-to-flesh)
+Price: 12,340 gp
+:::

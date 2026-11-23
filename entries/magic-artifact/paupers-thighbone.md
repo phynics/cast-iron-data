@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 This ivory rod marked with nine special golden runes is an ornamental container for the true
 treasure sealed within: the broken thighbone of the unfailingly selfless Saint Argil. The rod cannot

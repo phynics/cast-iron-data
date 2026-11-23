@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 50,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 50,320 gp
+Weight: 2 lbs.
+:::
 
 Three times per day, this +2 [wounding](ref/magic-enh/wounding) [rapier](ref/eq-weapon/rapier)
 allows the wielder to make a touch attack with the weapon that deals 1d6 points of
@@ -33,5 +38,7 @@ hits are immune to the Constitution damage dealt by this weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[harm](ref/spell/harm); **Price** 25,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [harm](ref/spell/harm)
+Price: 25,320 gp
+:::

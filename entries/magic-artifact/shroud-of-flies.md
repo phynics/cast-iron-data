@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 18th\
-**Slot** shoulders; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 18th
+Slot: shoulders
+Price: -
+Weight: 1 lb.
+:::
 
 Crystal baubles that resemble insect wings line the edge of this luxurious but fraying cloak. The
 garment was once a cloak of displacement, but the harbinger spirit trapped within has warped and

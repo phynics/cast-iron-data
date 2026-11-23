@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 8,305 gp; **Weight** 9 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 8,305 gp
+Weight: 9 lbs.
+:::
 
 A cave dweller's greataxe appears to be a thin slab of stone crudely lashed to a bone haft. It's as
 serviceable as a metal weapon of the same type would be, and functions as a +1
@@ -33,5 +38,7 @@ it becomes [petrified](ref/rule/petrified) for 1d4 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[calcific touch](ref/spell/calcific-touch); **Price** 4,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [calcific touch](ref/spell/calcific-touch)
+Price: 4,305 gp
+:::

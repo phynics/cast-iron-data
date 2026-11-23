@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 1,516 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 1,516 gp
+Weight: -
+:::
 
 This +1 [corrosive](ref/magic-enh/corrosive) [arrow](ref/eq-weapon/arrow) continues to leak acid
 onto its target each round, dealing 1d6 points of acid damage on the attacker's turn for the next 3
@@ -34,5 +39,7 @@ herself). Removing the arrow destroys it. The arrow dissolves once the 3 rounds 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid arrow](ref/spell/acid-arrow); **Price** 758 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid arrow](ref/spell/acid-arrow)
+Price: 758 gp
+:::

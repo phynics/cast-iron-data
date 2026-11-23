@@ -25,8 +25,13 @@ caster_level = "3rd"
 
 ## Burrowing Bullet
 
-**Aura** moderate necromancy; **CL** 3rd\
-**Slot** none; **Price** lesser (1,722 gp), greater (3,447 gp); **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 3rd
+Slot: none
+Price: lesser (1,722 gp), greater (3,447 gp)
+Weight: -
+:::
 
 This +1 [firearm bullet](ref/eq-weapon/firearm-bullet) deals normal damage, but when it hits a
 living creature, it burrows into the creature's flesh, causing wracking pain until removed or until
@@ -38,7 +43,7 @@ are harder to remove (DC 20 Heal check as a standard action).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[symbol of pain](ref/spell/symbol-of-pain) (burrowing bullet) or
-[symbol of stunning](ref/spell/symbol-of-stunning) (greater burrowing bullet); **Price** 861 gp
-(normal), 1,723 gp (greater)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [symbol of pain](ref/spell/symbol-of-pain) (burrowing bullet) or [symbol of stunning](ref/spell/symbol-of-stunning) (greater burrowing bullet)
+Price: 861 gp (normal), 1,723 gp (greater)
+:::

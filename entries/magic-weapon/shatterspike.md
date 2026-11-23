@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 4,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 4,315 gp
+Weight: 4 lbs.
+:::
 
 This intimidating weapon appears to be a longsword with multiple hooks, barbs, and serrations along
 the blade, excellent for catching and sundering a foe's weapon. Wielders without the
@@ -35,5 +40,7 @@ Shatterspike can damage weapons with an enhancement bonus of +4 or lower.
 
 ### Construction
 
-**Requirements** Str 13, [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), Improved
-Sunder, [Power Attack](ref/feat/power-attack), [shatter](ref/spell/shatter); **Price** 2,315 gp
+::: statblock
+Requirements: Str 13, [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), Improved Sunder, [Power Attack](ref/feat/power-attack), [shatter](ref/spell/shatter)
+Price: 2,315 gp
+:::

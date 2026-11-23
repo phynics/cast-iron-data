@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 14,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 14,160 gp
+Weight: 15 lbs.
+:::
 
 This +2 [leather](ref/eq-armor/leather) armor is made of camel hide and has been worn smooth as if
 blasted by sand. The wearer is protected from mundane extremes of cold and heat (as the
@@ -33,5 +38,7 @@ each use of this ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stoneskin](ref/spell/stoneskin); **Price** 7,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stoneskin](ref/spell/stoneskin)
+Price: 7,160 gp
+:::

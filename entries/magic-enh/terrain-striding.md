@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "13th"
 +++
 
-**Aura** strong enchantment; **CL** 13th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 13th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 Armor with the terrain-striding special ability is attuned to a specific terrain when the armor is
 created, selected from rangers' [favored terrains](ref/ability/favored-terrain). The wearer of armor
@@ -31,5 +36,7 @@ terrain. The terrain-striding special ability can be applied only to medium armo
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resistance](ref/spell/resistance); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resistance](ref/spell/resistance)
+Price: +1 bonus
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** 22,500 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: 22,500 gp
+Weight: 50 lbs.
+:::
 
 This +1 [adamantine](ref/eq-material/adamantine)
 [light fortification](ref/magic-enh/fortification-light) [full plate](ref/eq-armor/full-plate) is
@@ -34,6 +39,7 @@ armor rack, if one is adjacent.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle), creator must be proficient with heavy armor; **Price** 19,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle), creator must be proficient with heavy armor
+Price: 19,500 gp
+:::

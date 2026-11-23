@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** +2,500 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: +2,500 gp
+Weight: -
+:::
 
 This special ability can be placed only on a [whip](ref/eq-weapon/whip). A prehensile whip can, as a
 swift action, be attached to an object as if it were a grappling hook. The whip can then be used to
@@ -32,5 +37,7 @@ weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rope trick](ref/spell/rope-trick); **Price** 1,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rope trick](ref/spell/rope-trick)
+Price: 1,250 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** none; **Price** 32,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: none
+Price: 32,320 gp
+Weight: 2 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,5 +38,7 @@ threatened by the foil; those who fail this save end their movement just outside
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sanctuary](ref/spell/sanctuary), creator must be a Taldan; **Price** 16,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sanctuary](ref/spell/sanctuary), creator must be a Taldan
+Price: 16,320 gp
+:::

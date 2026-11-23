@@ -23,8 +23,13 @@ aura = "overwhelming all"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming all; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 150 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 30th
+Slot: none
+Price: -
+Weight: 150 lbs.
+:::
 
 More than just a powerful artifact, the Skull of Ydersius is the actual skull of a deity, the vessel
 through which the much-diminished god of serpents perceives and influences existence.

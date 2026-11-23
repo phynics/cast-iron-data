@@ -20,8 +20,13 @@ aura = "moderate abjuration, faint conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration, faint conjuration; **CL** 7th\
-**Slot** armor; **Price** 52,900 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate abjuration, faint conjuration
+CL: 7th
+Slot: armor
+Price: 52,900 gp
+Weight: 30 lbs.
+:::
 
 This battered yet lovingly polished +1 [breastplate](ref/eq-armor/breastplate) is marked by three
 chipped glass circles set over the heart, each of a different color. Three times per day, the wearer
@@ -34,6 +39,7 @@ may add one additional die to the total amount of damage healed.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds), [sanctuary](ref/spell/sanctuary); **Price** 26,450
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds), [sanctuary](ref/spell/sanctuary)
+Price: 26,450 gp
+:::

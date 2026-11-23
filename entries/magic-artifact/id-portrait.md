@@ -23,8 +23,13 @@ aura = "strong enchantment, necromancy, and universal"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment, necromancy, and universal; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 50 lbs.
+::: statblock
+Aura: strong enchantment, necromancy, and universal
+CL: 20th
+Slot: none
+Price: -
+Weight: 50 lbs.
+:::
 
 This 4-foot-by-8-foot oil-on-wood masterwork painting depicts an elegant high-backed padded chair in
 the foreground of a gothic study with heavy curtains, polished tables supporting decorative lamps,

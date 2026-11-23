@@ -23,8 +23,13 @@ aura = "strong necromancy [evil]"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 350 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 17th
+Slot: none
+Price: -
+Weight: 350 lbs.
+:::
 
 The Hourglass of Shadows is a foul artifact that allows the user to process a creature's remains
 into an undead [shadow](ref/monster/shadow). The unwieldy, 5-foot-tall device rests suspended on an

@@ -23,8 +23,13 @@ aura = "strong divination and enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong divination and enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3,475 lbs.
+::: statblock
+Aura: strong divination and enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 3,475 lbs.
+:::
 
 Great horns of gold, a massive sea serpent's skull, and the wings of Kazavon form the ornate Throne
 of Nalt. The throne grants whoever is seated upon it a +6 enhancement bonus to Charisma and Wisdom.

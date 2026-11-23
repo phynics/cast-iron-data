@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** armor; **Price** 12,550 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: armor
+Price: 12,550 gp
+Weight: 50 lbs.
+:::
 
 This immaculate set of +1 [full plate](ref/eq-armor/full-plate) adorned with gilt flourishes and
 imagery of lions, and embossed red accents. When worn, the armor grants its wearer a +2 sacred bonus
@@ -50,7 +55,7 @@ be [shaken](ref/misc/shaken) on a failed save. Dismissing this effect now grants
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[archon's aura](ref/spell/archons-aura),
-[veil of positive energy](ref/spell/veil-of-positive-energy), creator must worship Iomedae;
-**Price** 7,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [archon's aura](ref/spell/archons-aura), [veil of positive energy](ref/spell/veil-of-positive-energy), creator must worship Iomedae
+Price: 7,100 gp
+:::

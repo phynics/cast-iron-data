@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 10,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 10,500 gp
+Weight: 5 lbs.
+:::
 
 This rod is valued by treasure hunters and miners alike, for it pulses and hums in the wielder's
 hand in the proximity of metal. As the wearer aims the rod, the pulsations grow more noticeable as
@@ -36,5 +41,7 @@ operation requires a full-round action.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [locate object](ref/spell/locate-object); **Cost**
-5,250 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [locate object](ref/spell/locate-object)
+Cost: 5,250 gp
+:::

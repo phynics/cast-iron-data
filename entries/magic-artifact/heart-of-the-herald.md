@@ -20,8 +20,13 @@ aura = "strong necromancy (chaotic, evil)"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy (chaotic, evil); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy (chaotic, evil)
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 This still-warm heart drips trickles of golden blood. Torn from the chest of the Herald of
 [Iomedae](ref/faith/iomedae), the Heart of the Herald has been corrupted with evil. Any lawful or

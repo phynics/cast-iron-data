@@ -19,8 +19,12 @@ aura = "moderate conjuration"
 caster_level = "5th"
 +++
 
-**Aura** moderate conjuration; **CL** 5th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 5th
+Price: +1 bonus
+Weight: -
+:::
 
 Injecting weapons feature bulbous pommels and small grooves along their blades, allowing them to
 store and deliver poison. An injecting weapon can hold up to 3 doses of injury poison. As a swift
@@ -30,5 +34,7 @@ reservoir is a full-round action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[delay poison](ref/spell/delay-poison); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [delay poison](ref/spell/delay-poison)
+Price: -
+:::

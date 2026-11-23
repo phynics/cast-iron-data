@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 39,515 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 39,515 gp
+Weight: 2 lbs.
+:::
 
 This +2 [frost](ref/magic-enh/frost) [short sword](ref/eq-weapon/short-sword) has a blade made of
 sparkling blue ice. Anyone wielding an ice fang is protected from cold weather as if they were
@@ -41,6 +46,7 @@ action to reform the blade of the ice fang, at any size, before it can be used a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[endure elements](ref/spell/endure-elements), [ice storm](ref/spell/ice-storm),
-[shrink item](ref/spell/shrink-item); **Price** 19,915 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [endure elements](ref/spell/endure-elements), [ice storm](ref/spell/ice-storm), [shrink item](ref/spell/shrink-item)
+Price: 19,915 gp
+:::

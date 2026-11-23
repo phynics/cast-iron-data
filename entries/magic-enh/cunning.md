@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability allows a weapon to find chinks in a foe's defenses using the wielder's
 knowledge of the target. Whenever the weapon's attack is a critical threat, the wielder gains a +4
@@ -33,5 +38,7 @@ identify the creature's type, or a +6 bonus instead if she has 15 or more ranks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true strike](ref/spell/true-strike); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true strike](ref/spell/true-strike)
+Price: -
+:::

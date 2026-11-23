@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 18,310 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 18,310 gp
+Weight: 10 lbs.
+:::
 
 This +1 [keen](ref/magic-enh/keen) [lance](ref/eq-weapon/lance) has the ability to penetrate and
 destroy shields. Whenever its wielder uses it to successfully strike an opponent who carries a
@@ -34,5 +39,7 @@ to make a [sunder](ref/rule/sunder) attack against a shield, it bypasses the shi
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [shatter](ref/spell/shatter); **Price** 9,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [shatter](ref/spell/shatter)
+Price: 9,310 gp
+:::

@@ -19,8 +19,12 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Price: +5,000 gp
+Weight: -
+:::
 
 A suit of armor with this special ability alters the perceived aura of the wearer for the purpose of
 divination spells that reveal auras (such as [detect evil](ref/spell/detect-evil)) to an aura
@@ -35,6 +39,7 @@ realizes something is amiss with the attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[nondetection](ref/spell/nondetection), [unholy blight](ref/spell/unholy-blight); **Price** +2,500
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [nondetection](ref/spell/nondetection), [unholy blight](ref/spell/unholy-blight)
+Price: +2,500 gp
+:::

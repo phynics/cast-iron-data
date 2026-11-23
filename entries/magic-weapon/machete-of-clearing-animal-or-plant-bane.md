@@ -22,9 +22,13 @@ caster_level = "3rd"
 
 ## Machete of Clearing
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** normal (5,550 gp), animal or plant [bane](ref/magic-enh/bane) (11,550 gp);
-**Weight** 2 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: normal (5,550 gp), animal or plant [bane](ref/magic-enh/bane) (11,550 gp)
+Weight: 2 lbs.
+:::
 
 This broad, heavy knife is used to chop through thick undergrowth in the jungle. Once per day on
 command, this +1 [short sword](ref/eq-weapon/short-sword) can cast
@@ -37,6 +41,7 @@ conjuration; **CL** 8th.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[defoliate](ref/spell/defoliate) (plus [summon monster I](ref/spell/summon-monster-1) for animal or
-plant bane); **Price** 2,930 gp (5,930 gp for animal or plant bane)
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [defoliate](ref/spell/defoliate) (plus [summon monster I](ref/spell/summon-monster-1) for animal or plant bane)
+Price: 2,930 gp (5,930 gp for animal or plant bane)
+:::

@@ -20,8 +20,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 6th\
-**Slot** none; **Price** 19,301 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 6th
+Slot: none
+Price: 19,301 gp
+Weight: 1/2 lb.
+:::
 
 This thick metal +2 [wushu dart](ref/eq-weapon/wushu-dart) has a ring at its base tied with a short
 ribbon of green silk. If the wielder confirms a critical hit against a living creature with the husk
@@ -34,6 +39,7 @@ point.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[feast of ashes](ref/spell/feast-of-ashes), [lesser restoration](ref/spell/restoration-lesser);
-**Price** 9,801 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [feast of ashes](ref/spell/feast-of-ashes), [lesser restoration](ref/spell/restoration-lesser)
+Price: 9,801 gp
+:::

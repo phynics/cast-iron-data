@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** hands; **Price** 5,305 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: hands
+Price: 5,305 gp
+Weight: 2 lbs.
+:::
 
 This +1 [cestus](ref/eq-weapon/cestus) of blackened leather is reinforced with strips of dark iron
 over the fingers and cruel spikes along the back of the hand and forearm. With a mental command, the
@@ -41,5 +46,7 @@ case the cestus absorbs the weapon cord into itself and the leather strap mends 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope); **Price** 2,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope)
+Price: 2,805 gp
+:::

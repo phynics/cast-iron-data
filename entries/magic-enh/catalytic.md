@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This ability can be placed only on a [corrosive](ref/magic-enh/corrosive) or
 [corrosive burst](ref/magic-enh/corrosive-burst) weapon. When the wielder of a catalytic weapon hits
@@ -35,5 +40,7 @@ reaction with a natural weapon or unarmed strike takes 1d6 points of acid damage
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid arrow](ref/spell/acid-arrow); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid arrow](ref/spell/acid-arrow)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "strong evocation and necromancy"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation and necromancy; **CL** 15th\
-**Slot** none; **Price** 51,850 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation and necromancy
+CL: 15th
+Slot: none
+Price: 51,850 gp
+Weight: 6 lbs.
+:::
 
 This golden-bladed +1 [glorious](ref/magic-enh/glorious) undead-[bane](ref/magic-enh/bane)
 [katana](ref/eq-weapon/katana) shines like the first rays of the morning sun. Whenever the wielder
@@ -51,7 +56,7 @@ distant.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[blindness/deafness](ref/spell/blindness-deafness), [daylight](ref/spell/daylight),
-[flare](ref/spell/flare), [miracle](ref/spell/miracle), [sunburst](ref/spell/sunburst); **Price**
-28,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [blindness/deafness](ref/spell/blindness-deafness), [daylight](ref/spell/daylight), [flare](ref/spell/flare), [miracle](ref/spell/miracle), [sunburst](ref/spell/sunburst)
+Price: 28,100 gp
+:::

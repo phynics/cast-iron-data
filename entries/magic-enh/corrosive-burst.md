@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "12th"
 +++
 
-**Aura** moderate evocation; **CL** 12th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 12th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A corrosive burst weapon functions as a [corrosive](ref/magic-enh/corrosive) weapon that explodes
 with searing acid upon striking a successful critical hit. The acid does not harm the wielder. In
@@ -38,5 +43,7 @@ successful critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[acid arrow](ref/spell/acid-arrow); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [acid arrow](ref/spell/acid-arrow)
+Price: -
+:::

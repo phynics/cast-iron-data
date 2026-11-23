@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 28,800 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 28,800 gp
+Weight: 4 lbs.
+:::
 
 This broad-bladed +1 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 [nine-ring broadsword](ref/eq-weapon/nine-ring-broadsword) is crafted of silvery-gray steel, with
@@ -49,7 +54,7 @@ charge per week.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel evil](ref/spell/dispel-evil), [disrupting weapon](ref/spell/disrupting-weapon),
-[plane shift](ref/spell/plane-shift), [summon monster I](ref/spell/summon-monster-1); **Price**
-14,560 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel evil](ref/spell/dispel-evil), [disrupting weapon](ref/spell/disrupting-weapon), [plane shift](ref/spell/plane-shift), [summon monster I](ref/spell/summon-monster-1)
+Price: 14,560 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination and necromancy [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong divination and necromancy \[evil\]; **CL** 20th\
-**Slot** ring; **Price** -; **Weight** -
+::: statblock
+Aura: strong divination and necromancy \[evil\]
+CL: 20th
+Slot: ring
+Price: -
+Weight: -
+:::
 
 Upon donning the Apollyon Ring, the wearer experiences an increased state of being, her
 consciousness becoming an infectious disease known as the Mark of the Prophet. The wearer is the

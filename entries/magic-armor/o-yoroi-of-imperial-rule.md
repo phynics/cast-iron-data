@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** armor; **Price** 68,400 gp; **Weight** 45 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: armor
+Price: 68,400 gp
+Weight: 45 lbs.
+:::
 
 This distinctive +4 [adamantine](ref/eq-material/adamantine) [glamered](ref/magic-enh/glamered)
 [o-yoroi](ref/eq-armor/o-yoroi) was designed for scions of Minkai's imperial families and their
@@ -37,6 +42,7 @@ released.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clenched fist](ref/spell/clenched-fist), [disguise self](ref/spell/disguise-self); **Price** 42,550
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clenched fist](ref/spell/clenched-fist), [disguise self](ref/spell/disguise-self)
+Price: 42,550 gp
+:::

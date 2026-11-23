@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation [force]"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and evocation \[force\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and evocation \[force\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This chalice is perhaps the last surviving artifact from Sacred Ozem, now forever lost in a tragic
 battle that ultimately led to the foundation of the [Knights of Ozem](ref/pclass/knight-of-ozem).

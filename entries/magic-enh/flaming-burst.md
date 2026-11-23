@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 A flaming burst weapon functions as a [flaming](ref/magic-enh/flaming) weapon that also explodes
 with flame upon striking a successful critical hit. The fire does not harm the wielder. In addition
@@ -38,6 +43,7 @@ successful critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and
-[fireball](ref/spell/fireball), [flame blade](ref/spell/flame-blade), or
-[flame strike](ref/spell/flame-strike); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor) and [fireball](ref/spell/fireball), [flame blade](ref/spell/flame-blade), or [flame strike](ref/spell/flame-strike)
+Price: -
+:::

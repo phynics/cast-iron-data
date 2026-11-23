@@ -23,8 +23,13 @@ aura = "moderate transmutation [evil]"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation \[evil\]; **CL** 11th\
-**Slot** none; **Price** 22,375 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate transmutation \[evil\]
+CL: 11th
+Slot: none
+Price: 22,375 gp
+Weight: 8 lbs.
+:::
 
 The blade of this brutal-looking falchion is serrated, forming the fangs of the stylized etching of
 a jackal's profile on the shimmering metal. Such weapons are fashioned in honor of
@@ -41,6 +46,7 @@ Constitution damage and the stun effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[harm](ref/spell/harm), [unholy blight](ref/spell/unholy-blight), creator must be evil; **Price**
-11,375 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [harm](ref/spell/harm), [unholy blight](ref/spell/unholy-blight), creator must be evil
+Price: 11,375 gp
+:::

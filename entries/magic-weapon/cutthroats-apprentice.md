@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 33,910 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 33,910 gp
+Weight: 2 lbs.
+:::
 
 This simply made +1 [dancing](ref/magic-enh/dancing) [short sword](ref/eq-weapon/short-sword) leaps
 to hand at the slightest touch. It can be drawn as a free action as though using the
@@ -35,6 +40,7 @@ last creature attacked.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [unwitting ally](ref/spell/unwitting-ally); **Price**
-17,110 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [unwitting ally](ref/spell/unwitting-ally)
+Price: 17,110 gp
+:::

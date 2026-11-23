@@ -20,8 +20,13 @@ aura = "moderate necromancy [evil]"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy \[evil\]; **CL** 10th\
-**Slot** none; **Price** 40,310 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate necromancy \[evil\]
+CL: 10th
+Slot: none
+Price: 40,310 gp
+Weight: 6 lbs.
+:::
 
 This +1 [frost](ref/magic-enh/frost) [wounding](ref/magic-enh/wounding)
 [battleaxe](ref/eq-weapon/battleaxe) sacrifices the souls of those it kills to the foul gods of the
@@ -32,6 +37,7 @@ allies.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed),
-[bless](ref/spell/bless), [chill metal](ref/spell/chill-metal),
-[death knell](ref/spell/death-knell), [divine favor](ref/spell/divine-favor); **Price** 20,310 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [bleed](ref/spell/bleed), [bless](ref/spell/bless), [chill metal](ref/spell/chill-metal), [death knell](ref/spell/death-knell), [divine favor](ref/spell/divine-favor)
+Price: 20,310 gp
+:::

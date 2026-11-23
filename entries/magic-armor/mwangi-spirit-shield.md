@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** shield; **Price** 19,393 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: shield
+Price: 19,393 gp
+Weight: 5 lbs.
+:::
 
 This large wood-and-hide shield is similar to other Mwangi shields, but the totem animal painted on
 the shield's face seems to move when the shield is carried. Crafted by Mwangi shamans to grant its
@@ -36,6 +41,7 @@ wielders instead of _[bull's strength](ref/spell/bulls-strength)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [etherealness](ref/spell/etherealness); **Price** 9,733
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [etherealness](ref/spell/etherealness)
+Price: 9,733 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration, conjuration, and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration, conjuration, and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong abjuration, conjuration, and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 Despite its ragged appearance, Saint Cuthbert's Mace is a +5 [axiomatic](ref/magic-enh/axiomatic)
 [holy](ref/magic-enh/holy) [disruption](ref/magic-enh/disruption)

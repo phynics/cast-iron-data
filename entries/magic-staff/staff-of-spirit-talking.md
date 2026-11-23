@@ -21,8 +21,13 @@ aura = "moderate divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate divination; **CL** 11th\
-**Slot** none; **Price** 39,050 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 11th
+Slot: none
+Price: 39,050 gp
+Weight: 5 lbs.
+:::
 
 A Mwangi staff of spirit-talking is made of ebony or other dark wood, with the bones of numerous
 small animals dangling from it. It allows the use of the following spells:
@@ -35,8 +40,7 @@ small animals dangling from it. It allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [command plants](ref/spell/command-plants),
-[commune with nature](ref/spell/commune-with-nature),
-[speak with animals](ref/spell/speak-with-animals),
-[speak with plants](ref/spell/speak-with-plants), [stone tell](ref/spell/stone-tell); **Cost**
-19,525 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [command plants](ref/spell/command-plants), [commune with nature](ref/spell/commune-with-nature), [speak with animals](ref/spell/speak-with-animals), [speak with plants](ref/spell/speak-with-plants), [stone tell](ref/spell/stone-tell)
+Cost: 19,525 gp
+:::

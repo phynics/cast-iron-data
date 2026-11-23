@@ -20,8 +20,13 @@ aura = "strong abjuration and evocation [good]"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration and evocation \[good\]; **CL** 12th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration and evocation \[good\]
+CL: 12th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 A redeemed weapon was once a corrupt unholy weapon. The taint of evil has been purged from it,
 however, and the weapon is now in all ways a [holy](ref/magic-enh/holy) weapon, dealing an
@@ -35,6 +40,7 @@ weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[consecrate](ref/spell/consecrate), [holy smite](ref/spell/holy-smite), creator must be good;
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [consecrate](ref/spell/consecrate), [holy smite](ref/spell/holy-smite), creator must be good
+Price: -
+:::

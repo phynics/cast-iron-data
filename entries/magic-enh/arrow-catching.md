@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 A shield with this ability attracts ranged weapon attacks to it. It has a deflection bonus of +1
 against ranged weapons because projectiles and thrown weapons veer toward it. Additionally, any
@@ -38,5 +43,7 @@ activate or deactivate this ability with a command word.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[entropic shield](ref/spell/entropic-shield); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [entropic shield](ref/spell/entropic-shield)
+Price: +1 bonus
+:::

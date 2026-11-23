@@ -20,8 +20,13 @@ aura = "moderate conjuration and necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration and necromancy; **CL** 9th\
-**Slot** none; **Price** 36,305 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration and necromancy
+CL: 9th
+Slot: none
+Price: 36,305 gp
+Weight: 4 lbs.
+:::
 
 This +1 [battle aspergillum](ref/eq-weapon/battle-aspergillum) has additional powers when filled
 with [holy water](ref/eq-weapon/holy-water) or unholy water (filling it requires a move action). By
@@ -43,7 +48,7 @@ worth of holy or unholy water at a time.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mass cure light wounds](ref/spell/cure-light-wounds-mass),
-[mass inflict light wounds](ref/spell/inflict-light-wounds-mass), creator must be able to channel
-energy; **Price** 18,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mass cure light wounds](ref/spell/cure-light-wounds-mass), [mass inflict light wounds](ref/spell/inflict-light-wounds-mass), creator must be able to channel energy
+Price: 18,305 gp
+:::

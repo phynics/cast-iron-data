@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 60,802 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 60,802 gp
+Weight: 1 lb.
+:::
 
 The blade of this +2 [wounding](ref/magic-enh/wounding) [dagger](ref/eq-weapon/dagger) is brightly
 polished. Even when drenched in a victim's blood, it appears clean and dry moments later, as though
@@ -38,6 +43,7 @@ immediately heals all bleeding wounds possessed by the wielder.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [inflict serious wounds](ref/spell/inflict-serious-wounds); **Price**
-30,552 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [inflict serious wounds](ref/spell/inflict-serious-wounds)
+Price: 30,552 gp
+:::

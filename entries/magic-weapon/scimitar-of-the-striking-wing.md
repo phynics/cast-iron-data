@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 27,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 27,000 gp
+Weight: 4 lbs.
+:::
 
 This bronze +2 [scimitar](ref/eq-weapon/scimitar) bears an eagle motif on its pommel, and allows the
 user to soar through the air to deliver his attacks. As a free action, the wielder can fly without
@@ -32,5 +37,7 @@ _[feather fall](ref/spell/feather-fall)_ at will.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[feather fall](ref/spell/feather-fall), [fly](ref/spell/fly); **Price** 13,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [feather fall](ref/spell/feather-fall), [fly](ref/spell/fly)
+Price: 13,500 gp
+:::

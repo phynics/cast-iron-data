@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Benevolent
 
-**Aura** faint enchantment; **CL** 5th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 5th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 This suit of armor best serves a wearer who focuses on assisting and protecting his allies.
 Benevolent armor is usually decorated with motifs of prosperity, plenty, and generosity, such as
@@ -33,7 +38,9 @@ opponent's next attack, he also adds the benevolent armor's enhancement bonus to
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aid](ref/spell/aid); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aid](ref/spell/aid)
+Price: +1 bonus
+:::
 
 > _See also: [benevolent weapon enhancement](ref/magic-enh/benevolent)_

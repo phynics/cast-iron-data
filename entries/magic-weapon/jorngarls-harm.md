@@ -20,8 +20,13 @@ aura = "strong necromancy [evil] and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy \[evil\] and transmutation; **CL** 18th\
-**Slot** none; **Price** 150,320 gp; **Weight** 24 lbs.
+::: statblock
+Aura: strong necromancy \[evil\] and transmutation
+CL: 18th
+Slot: none
+Price: 150,320 gp
+Weight: 24 lbs.
+:::
 
 This [Large](ref/misc/damage-die-adjustments) +2 [keen](ref/magic-enh/keen)
 [vorpal](ref/magic-enh/vorpal) [greataxe](ref/eq-weapon/greataxe) has an
@@ -34,6 +39,7 @@ blade.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[circle of death](ref/spell/circle-of-death), [enervation](ref/spell/enervation),
-[keen edge](ref/spell/keen-edge); **Price** 75,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [circle of death](ref/spell/circle-of-death), [enervation](ref/spell/enervation), [keen edge](ref/spell/keen-edge)
+Price: 75,320 gp
+:::

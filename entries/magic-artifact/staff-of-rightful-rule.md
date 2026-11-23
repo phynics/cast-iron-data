@@ -23,8 +23,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 This staff is a single piece of [mithral](ref/eq-material/mithral) carved with lines and small dots
 and encrusted with blue and violet gemstones at either end. The runes marking it are a mixture of

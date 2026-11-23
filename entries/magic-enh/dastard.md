@@ -23,8 +23,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 This armor special ability works only for evil creatures with the challenge ability (such as
 [cavaliers](ref/class/cavalier)) or the smite good ability (such as
@@ -34,5 +39,7 @@ a +2 profane bonus to AC against attacks from the chosen opponent.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[protection from good](ref/spell/protection-from-good); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [protection from good](ref/spell/protection-from-good)
+Price: +1 bonus
+:::

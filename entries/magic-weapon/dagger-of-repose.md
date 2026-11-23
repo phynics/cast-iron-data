@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 8,902 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 8,902 gp
+Weight: 1 lb.
+:::
 
 This short, curved dagger shimmers with folded layers of iron and steel. It acts as a +1
 undead-[bane](ref/magic-enh/bane) [dagger](ref/eq-weapon/dagger). Once per day when the dagger of
@@ -33,6 +38,7 @@ animated by necromancy magic such as [animate dead](ref/spell/animate-dead) or
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sanctify corpse](ref/spell/sanctify-corpse), [summon monster I](ref/spell/summon-monster-1);
-**Price** 4,602 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sanctify corpse](ref/spell/sanctify-corpse), [summon monster I](ref/spell/summon-monster-1)
+Price: 4,602 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Once the fortress of a legendary tyrant known only as the Storm King, this castle now wanders the
 known universe, sometimes at the whim of its master, but often as a drifting and aimless haunt of

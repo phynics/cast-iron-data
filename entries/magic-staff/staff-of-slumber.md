@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "9th"
 +++
 
-**Aura** moderate varies; **CL** 9th\
-**Slot** none; **Price** 81,766 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 9th
+Slot: none
+Price: 81,766 gp
+Weight: 5 lbs.
+:::
 
 Smoky spirals adorn the length of this staff, and have an almost hypnotic effect. The staff allows
 use of the following spells:
@@ -39,7 +44,7 @@ use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [deep slumber](ref/spell/deep-slumber),
-[dream](ref/spell/dream), [nightmare](ref/spell/nightmare),
-[symbol of sleep](ref/spell/symbol-of-sleep), [ray of exhaustion](ref/spell/ray-of-exhaustion),
-[waves of fatigue](ref/spell/waves-of-fatigue); **Cost** 49,216 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [deep slumber](ref/spell/deep-slumber), [dream](ref/spell/dream), [nightmare](ref/spell/nightmare), [symbol of sleep](ref/spell/symbol-of-sleep), [ray of exhaustion](ref/spell/ray-of-exhaustion), [waves of fatigue](ref/spell/waves-of-fatigue)
+Cost: 49,216 gp
+:::

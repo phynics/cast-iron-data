@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 18th\
-**Slot** none; **Price** 128,300 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 18th
+Slot: none
+Price: 128,300 gp
+Weight: 2 lbs.
+:::
 
 Ice covers the lash of this +1 [frost](ref/magic-enh/frost) [vorpal](ref/magic-enh/vorpal)
 [whip](ref/eq-weapon/whip). A frostkiss whip deals damage as though it were
@@ -32,6 +37,7 @@ armor bonuses higher than +3.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm);
-[horrid wilting](ref/spell/horrid-wilting), [keen edge](ref/spell/keen-edge); **Price** 64,300 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm); [horrid wilting](ref/spell/horrid-wilting), [keen edge](ref/spell/keen-edge)
+Price: 64,300 gp
+:::

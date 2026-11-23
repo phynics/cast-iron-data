@@ -20,13 +20,20 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 75,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 75,500 gp
+Weight: 5 lbs.
+:::
 
 Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex),
 she can use this rod's power to activate the hex as swift action rather than a standard action.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Quicken Spell](ref/feat/quicken-spell), creator
-must possess the hex class feature; **Cost** 37,750 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Quicken Spell](ref/feat/quicken-spell), creator must possess the hex class feature
+Cost: 37,750 gp
+:::

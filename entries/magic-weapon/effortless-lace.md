@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 2,500 gp
+Weight: -
+:::
 
 This elegant silk ribbon gleams like mithral and feels like polished steel. When wrapped around the
 grip of a one-handed piercing or slashing melee weapon for 24 hours, the ribbon's magic permanently
@@ -40,5 +45,7 @@ dispel the magic of the weapon or cause the weapon to gain the [broken](ref/misc
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 1,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 1,250 gp
+:::

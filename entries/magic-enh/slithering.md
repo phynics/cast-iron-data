@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on a melee weapon. A slithering weapon can bend and flex
 when swung at a target, allowing it to fit through narrow gaps and around difficult angles with
@@ -34,5 +39,7 @@ rolls with her slithering weapon.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fluid form](ref/spell/fluid-form); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fluid form](ref/spell/fluid-form)
+Price: -
+:::

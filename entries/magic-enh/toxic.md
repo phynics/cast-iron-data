@@ -19,8 +19,12 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Price: +2 bonus
+Weight: -
+:::
 
 Weapons with the toxic special ability reinforce the effects of applied poisons. The save DC of a
 poison applied to the weapon and delivered via an attack increases by 2. In addition, each time such
@@ -30,6 +34,7 @@ property only once.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[accelerate poison](ref/spell/accelerate-poison), [pernicious poison](ref/spell/pernicious-poison);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [accelerate poison](ref/spell/accelerate-poison), [pernicious poison](ref/spell/pernicious-poison)
+Price: -
+:::

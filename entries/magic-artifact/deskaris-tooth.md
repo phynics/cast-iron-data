@@ -20,8 +20,13 @@ aura = "strong conjuration and necromancy (evil)"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and necromancy (evil); **CL** 20th\
-**Slot** weapon; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration and necromancy (evil)
+CL: 20th
+Slot: weapon
+Price: -
+Weight: 2 lbs.
+:::
 
 A gift to Areelu from [Deskari](ref/faith/deskari) himself, Deskari's Tooth is a +6
 [anarchic](ref/magic-enh/anarchic) [unholy](ref/magic-enh/unholy) [dagger](ref/eq-weapon/dagger)

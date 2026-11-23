@@ -20,8 +20,13 @@ aura = "moderate evocation (plus aura of stored spell)"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation (plus aura of stored spell); **CL** 10th\
-**Slot** none; **Price** 12,806 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation (plus aura of stored spell)
+CL: 10th
+Slot: none
+Price: 12,806 gp
+Weight: 2 lbs.
+:::
 
 Emberchill is a +1 [frost](ref/magic-enh/frost) [sickle](ref/eq-weapon/sickle) whose cruel blade is
 crafted entirely of magical ice. The weapon itself is immune to fire damage. It is believed that one
@@ -41,7 +46,7 @@ Emberchill.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Improved Counterspell](ref/feat/improved-counterspell), [dispel magic](ref/spell/dispel-magic),
-[ice storm](ref/spell/ice-storm), creator must be a caster of at least 10th level; **Price** 6,556
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Improved Counterspell](ref/feat/improved-counterspell), [dispel magic](ref/spell/dispel-magic), [ice storm](ref/spell/ice-storm), creator must be a caster of at least 10th level
+Price: 6,556 gp
+:::

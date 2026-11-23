@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 34,800 gp; **Weight** 9 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 34,800 gp
+Weight: 9 lbs.
+:::
 
 This +2 [shock](ref/magic-enh/shock) [musket](ref/eq-weapon/musket) is inscribed with imagery of
 storms and plagues, glorifying the daemonic harbinger [Cixyron](ref/faith/cixyron). When a bullet
@@ -34,5 +39,7 @@ but each bullet must be removed before the target can be cured of its disease.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning), [contagion](ref/spell/contagion); **Price** 17,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning), [contagion](ref/spell/contagion)
+Price: 17,400 gp
+:::

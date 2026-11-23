@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** none; **Price** 3,970 gp; **Weight** 8 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: none
+Price: 3,970 gp
+Weight: 8 lbs.
+:::
 
 This wicked-looking +1 [greatsword](ref/eq-weapon/greatsword) is engraved with glowing Ulfen runes
 that spell out a Gorumite battle song. When wielded, the blade sheds light as a
@@ -31,5 +36,7 @@ is active and for 1 round whenever the weapon is used to deal damage to a living
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[rage](ref/spell/rage); **Price** 2,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [rage](ref/spell/rage)
+Price: 2,160 gp
+:::

@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "29th"
 +++
 
-**Aura** overwhelming all; **CL** 29th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 29th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 [Apollyon's](ref/faith/apollyon) weapon is the Usher of the Black Rain. He can cause this weapon to
 shift from a [scythe](ref/eq-weapon/scythe) to a

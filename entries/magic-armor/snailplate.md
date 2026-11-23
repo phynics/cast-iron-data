@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration; **CL** 14th\
-**Slot** armor; **Price** 36,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 14th
+Slot: armor
+Price: 36,000 gp
+Weight: 30 lbs.
+:::
 
 This breastplate made from the shell of a flail snail functions as a +1
 [reflecting](ref/magic-enh/reflecting) [breastplate](ref/eq-armor/breastplate) (even though that
@@ -32,6 +37,7 @@ this one use per day to roll on the flail snail's chart, randomly warping the sp
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spell turning](ref/spell/spell-turning), one [flail snail](ref/monster/flail-snail) shell;
-**Price** 18,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spell turning](ref/spell/spell-turning), one [flail snail](ref/monster/flail-snail) shell
+Price: 18,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 11,165 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 11,165 gp
+Weight: 25 lbs.
+:::
 
 This +1 [hide](ref/eq-armor/hide) armor is always made from the pelt of a migratory herd animal.
 Anyone wearing this armor can maintain a [hustle](ref/rule/overland-movement) for a full 8 hours
@@ -32,5 +37,7 @@ has had a full night's rest.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bear's endurance](ref/spell/bears-endurance); **Price** 5,665 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bear's endurance](ref/spell/bears-endurance)
+Price: 5,665 gp
+:::

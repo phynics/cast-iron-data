@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 This strangely shaped, ebon-colored rock streaked with deep purple veins is actually the petrified
 heart of a long-forgotten mythic hero. Over the centuries, the heart has appeared as an amulet, the

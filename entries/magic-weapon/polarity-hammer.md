@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 12,310 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 12,310 gp
+Weight: 10 lbs.
+:::
 
 This +1/+1 [meteor hammer](ref/eq-weapon/meteor-hammer) is always made of ferrous metals, and has
 weighted spheres on either end of its sturdy dark chain. A wielder can use the magic within a
@@ -40,5 +45,7 @@ against opponents wearing metal armor, carrying metal shields, or made of metal 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[force punch](ref/spell/force-punch), [shield](ref/spell/shield); **Price** 6,155 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [force punch](ref/spell/force-punch), [shield](ref/spell/shield)
+Price: 6,155 gp
+:::

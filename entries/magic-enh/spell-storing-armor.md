@@ -22,8 +22,13 @@ caster_level = "12th"
 
 ## Spell Storing
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 This armor allows a spellcaster to store a single touch spell of up to 3rd level in it. Anytime a
 creature hits the wearer with a melee attack or melee touch attack, the armor can cast the spell on
@@ -35,7 +40,9 @@ armor emits a strong aura of the evocation school, plus the aura of the stored s
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be
-a caster of at least 12th level; **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator must be a caster of at least 12th level
+Price: +1 bonus
+:::
 
 > _See also: [spell storing weapon enhancement](ref/magic-enh/spell-storing)_

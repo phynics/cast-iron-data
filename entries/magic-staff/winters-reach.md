@@ -21,8 +21,13 @@ aura = "strong evocation and transmutation"
 caster_level = "19th"
 +++
 
-**Aura** strong evocation and transmutation; **CL** 19th\
-**Slot** none; **Price** 228,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation and transmutation
+CL: 19th
+Slot: none
+Price: 228,000 gp
+Weight: 5 lbs.
+:::
 
 This staff is made of a single icicle that tapers to a sharpened point at each end. It can be used
 as a +3 [icy burst](ref/magic-enh/icy-burst) [quarterstaff](ref/eq-weapon/quarterstaff) (only one
@@ -47,7 +52,7 @@ uses 1 charge.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold),
-[dispel magic](ref/spell/dispel-magic), [freezing sphere](ref/spell/freezing-sphere),
-[frostbite](ref/spell/frostbite), [ice body](ref/spell/ice-body), [ice storm](ref/spell/ice-storm),
-[icy prison](ref/spell/icy-prison), [wall of ice](ref/spell/wall-of-ice); **Cost** 114,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [cone of cold](ref/spell/cone-of-cold), [dispel magic](ref/spell/dispel-magic), [freezing sphere](ref/spell/freezing-sphere), [frostbite](ref/spell/frostbite), [ice body](ref/spell/ice-body), [ice storm](ref/spell/ice-storm), [icy prison](ref/spell/icy-prison), [wall of ice](ref/spell/wall-of-ice)
+Cost: 114,000 gp
+:::

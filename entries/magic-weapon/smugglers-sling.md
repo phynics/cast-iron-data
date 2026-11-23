@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 5,300 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 5,300 gp
+Weight: -
+:::
 
 Smuggler's slings are favored in Chu Ye, where they are employed by freedom fighters sneaking
 contraband weapons past [oni](ref/family/oni) slave masters. The wielder of this +1
@@ -34,5 +39,7 @@ bullet must be fired by the end of the round or it vanishes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[reloading hands](ref/spell/reloading-hands); **Price** 2,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [reloading hands](ref/spell/reloading-hands)
+Price: 2,650 gp
+:::

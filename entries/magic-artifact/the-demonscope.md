@@ -20,8 +20,13 @@ aura = "strong abjuration and divination"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and divination; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration and divination
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Rising from the floor of the heart chamber is a well of arcane power. Filling the well to within a
 couple inches of the top is an inky black liquid that drinks in the light. Within this liquid,

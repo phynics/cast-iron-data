@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 21,310 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 21,310 gp
+Weight: 2 lbs.
+:::
 
 The blade of this +1 [limning](ref/magic-enh/limning) [short sword](ref/eq-weapon/short-sword)
 pulsates with a faint blue glow when wielded. When its wielder is targeted by ranged attacks, an
@@ -38,5 +43,7 @@ deflected or cut in half.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[faerie fire](ref/spell/faerie-fire), [wind wall](ref/spell/wind-wall); **Price** 10,810 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [faerie fire](ref/spell/faerie-fire), [wind wall](ref/spell/wind-wall)
+Price: 10,810 gp
+:::

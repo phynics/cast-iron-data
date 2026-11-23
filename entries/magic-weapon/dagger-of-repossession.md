@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 14,702 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 14,702 gp
+Weight: 1 lb.
+:::
 
 This +1 [dagger](ref/eq-weapon/dagger) has a thin crystal tube embedded in its center. Once per day,
 the wielder of this dagger may slash herself, dealing damage as normal, but also channel some of her
@@ -39,5 +44,7 @@ no unusual effect if used on anyone other than the target whose blood is imprint
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break enchantment](ref/spell/break-enchantment); **Price** 7,502 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break enchantment](ref/spell/break-enchantment)
+Price: 7,502 gp
+:::

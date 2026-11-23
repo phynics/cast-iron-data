@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** armor; **Price** 32,350 gp; **Weight** 75 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: armor
+Price: 32,350 gp
+Weight: 75 lbs.
+:::
 
 Three times per day, as an immediate action when struck by a melee attack while he is touching the
 ground, the wearer of this +1 [titanic](ref/magic-enh/titanic) [stoneplate](ref/eq-armor/stoneplate)
@@ -32,5 +37,7 @@ feet, and any creature in the affected area must succeed at a DC 15 Reflex save 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[earthquake](ref/spell/earthquake); **Price** 17,150 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [earthquake](ref/spell/earthquake)
+Price: 17,150 gp
+:::

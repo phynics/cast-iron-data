@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The rune of [Baphomet](ref/faith/baphomet) emblazons this slim, leather-bound volume. Taken from a
 larger work, the Fasciculus Labyrinthum details many of the rituals of Baphomet worship. Included in

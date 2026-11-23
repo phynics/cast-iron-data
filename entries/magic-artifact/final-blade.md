@@ -20,8 +20,13 @@ aura = "strong"
 caster_level = "20th"
 +++
 
-**Aura** strong; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1,000 lbs.
+::: statblock
+Aura: strong
+CL: 20th
+Slot: none
+Price: -
+Weight: 1,000 lbs.
+:::
 
 The guillotines known as the final blades have become symbols of Galt and the bloody excesses of the
 Red Revolution, yet the first of these horrific devices were actually built to serve the cause of

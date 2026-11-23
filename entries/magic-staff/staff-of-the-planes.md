@@ -21,8 +21,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** none; **Price** 63,960 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: none
+Price: 63,960 gp
+Weight: 5 lbs.
+:::
 
 This obsidian staff twinkles as if reflecting the star-filled sky at night. The staff allows use of
 the following spells.
@@ -39,6 +44,7 @@ restored.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[planar adaptation](ref/spell/planar-adaptation), [planar binding](ref/spell/planar-binding),
-[plane shift](ref/spell/plane-shift); **Cost** 31,980 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [planar adaptation](ref/spell/planar-adaptation), [planar binding](ref/spell/planar-binding), [plane shift](ref/spell/plane-shift)
+Cost: 31,980 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** armor quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: armor quality
+Price: +2 bonus
+Weight: -
+:::
 
 Three times per day, the wearer of a suit of phantasmal armor can leave an illusory afterimage of
 herself in a square she occupied as part of a move action. This double is created through illusion
@@ -36,5 +41,7 @@ to light armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shadow projection](ref/spell/shadow-projection); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shadow projection](ref/spell/shadow-projection)
+Price: +2 bonus
+:::

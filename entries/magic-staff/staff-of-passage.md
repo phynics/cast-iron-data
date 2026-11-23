@@ -24,8 +24,13 @@ aura = "strong varies"
 caster_level = "17th"
 +++
 
-**Aura** strong varies; **CL** 17th\
-**Slot** none; **Price** 206,900 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 17th
+Slot: none
+Price: 206,900 gp
+Weight: 5 lbs.
+:::
 
 This potent item allows use of the following spells:
 
@@ -37,7 +42,7 @@ This potent item allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[astral projection](ref/spell/astral-projection), [dimension door](ref/spell/dimension-door),
-[greater teleport](ref/spell/teleport-greater), [passwall](ref/spell/passwall),
-[phase door](ref/spell/phase-door); **Cost** 115,950 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [astral projection](ref/spell/astral-projection), [dimension door](ref/spell/dimension-door), [greater teleport](ref/spell/teleport-greater), [passwall](ref/spell/passwall), [phase door](ref/spell/phase-door)
+Cost: 115,950 gp
+:::

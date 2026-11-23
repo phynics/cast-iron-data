@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 9,308 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 9,308 gp
+Weight: 1 lb.
+:::
 
 This +1 [war razor](ref/eq-weapon/war-razor) is commonly used by members of the Bloody Barbers
 thieves' guild in Absalom. A preferred means for the guild to permanently silence snitches and
@@ -42,5 +47,7 @@ _[speak with dead](ref/spell/speak-with-dead)_ spells.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[speak with dead](ref/spell/speak-with-dead); **Price** 4,808 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [speak with dead](ref/spell/speak-with-dead)
+Price: 4,808 gp
+:::

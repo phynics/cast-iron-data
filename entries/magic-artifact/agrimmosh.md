@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 Agrimmosh appears to be a simple stone blacksmith's hammer engraved with
 [Minderhal's](ref/faith/minderhal) holy symbol. It functions as a +2 [impact](ref/magic-enh/impact)

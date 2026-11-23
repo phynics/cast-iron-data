@@ -20,8 +20,13 @@ aura = "strong evocation [fire]"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation \[fire\]; **CL** 13th\
-**Slot** armor; **Price** 100,050 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong evocation \[fire\]
+CL: 13th
+Slot: armor
+Price: 100,050 gp
+Weight: 50 lbs.
+:::
 
 Legend tells that the first suits of empyreal armor were forged from the battered, cast-off
 breastplates worn by [solars](ref/monster/angel-solar) in battle. These suits were gifted to
@@ -38,6 +43,7 @@ divine power and is therefore not subject to energy resistance.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fire shield](ref/spell/fire-shield), [limited wish](ref/spell/limited-wish) or
-[miracle](ref/spell/miracle); **Price** 50,850 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fire shield](ref/spell/fire-shield), [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle)
+Price: 50,850 gp
+:::

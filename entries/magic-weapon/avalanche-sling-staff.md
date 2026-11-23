@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 36,320 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 36,320 gp
+Weight: 3 lbs.
+:::
 
 Three times per day, the wielder of this +3
 [halfling sling staff](ref/eq-weapon/halfling-sling-staff) can launch a stone (not a sling bullet)
@@ -30,5 +35,7 @@ target square.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stone call](ref/spell/stone-call); **Price** 18,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stone call](ref/spell/stone-call)
+Price: 18,320 gp
+:::

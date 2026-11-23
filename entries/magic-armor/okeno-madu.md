@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** shield; **Price** 5,590 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: shield
+Price: 5,590 gp
+Weight: 5 lbs.
+:::
 
 A common sight among the more deplorable slavers of Katapesh, this +1
 [leather madu](ref/eq-armor/madu-shield-leather) is adorned with body parts - ranging from fingers
@@ -37,5 +42,7 @@ long as the fetishes continue shaking.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[castigate](ref/spell/castigate); **Price** 2,890 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [castigate](ref/spell/castigate)
+Price: 2,890 gp
+:::

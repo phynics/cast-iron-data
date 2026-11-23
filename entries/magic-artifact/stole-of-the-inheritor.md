@@ -20,8 +20,13 @@ aura = "overwhelming abjuration"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming abjuration; **CL** 20th\
-**Slot** shoulders; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming abjuration
+CL: 20th
+Slot: shoulders
+Price: -
+Weight: 2 lbs.
+:::
 
 [Iomedae](ref/faith/iomedae) often grants the use of the Stole of the Inheritor to her champions in
 times of great need. When draped across the shoulders, the stole grants DR 5/good, and it grants the

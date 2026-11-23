@@ -23,8 +23,13 @@ aura = "strong necromancy [evil]"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy \[evil\]; **CL** 13th\
-**Slot** armor; **Price** 52,260 gp; **Weight** 50 lbs.
+::: statblock
+Aura: strong necromancy \[evil\]
+CL: 13th
+Slot: armor
+Price: 52,260 gp
+Weight: 50 lbs.
+:::
 
 This plate armor is fashioned to make the wearer appear to be a demon. Glowing red energy emanates
 from sigils engraved on the armor's key plates and joints, and the runes intermittently surge with
@@ -42,5 +47,7 @@ while the armor is worn.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[contagion](ref/spell/contagion); **Price** 26,955 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [contagion](ref/spell/contagion)
+Price: 26,955 gp
+:::

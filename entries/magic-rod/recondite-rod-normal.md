@@ -22,9 +22,13 @@ caster_level = "17th"
 
 ## Recondite Rod
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 5,000 gp (lesser \[up to 3rd-level spells\]), 18,000 gp (normal \[up to
-6th-level spells\]), 40,500 gp (greater \[all spells\]); **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 5,000 gp (lesser \[up to 3rd-level spells\]), 18,000 gp (normal \[up to 6th-level spells\]), 40,500 gp (greater \[all spells\])
+Weight: 5 lbs.
+:::
 
 This odd, 2-foot-long rod appears to be made out of solidified ectoplasm shot through with energy
 that pulses brightly at regular intervals, almost like a heartbeat. Three times per day, this rod
@@ -41,6 +45,7 @@ of 6th level or lower. A greater recondite rod can be used with spells of 8th le
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Empower Spell](ref/feat/empower-spell), the
-creator must know at least one spell that can be undercast; **Cost** 2,500 gp (lesser), 9,000 gp
-(normal), 20,250 gp (greater)
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Empower Spell](ref/feat/empower-spell), the creator must know at least one spell that can be undercast
+Cost: 2,500 gp (lesser), 9,000 gp (normal), 20,250 gp (greater)
+:::

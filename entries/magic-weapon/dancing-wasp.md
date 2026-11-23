@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 12,392 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 12,392 gp
+Weight: 3 lbs.
+:::
 
 This +1 [kusarigama](ref/eq-weapon/kusarigama) makes a shrill whistling sound whenever it is used in
 combat. Once per day as a standard action, the wielder of Dancing Wasp can whirl the weapon above
@@ -32,6 +37,7 @@ round), to a maximum of 5 rounds, after which the wasp vanishes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster IV](ref/spell/summon-monster-4) or
-[summon nature's ally IV](ref/spell/summon-natures-ally-4); **Price** 6,352 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster IV](ref/spell/summon-monster-4) or [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Price: 6,352 gp
+:::

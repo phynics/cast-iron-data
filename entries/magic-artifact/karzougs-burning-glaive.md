@@ -20,8 +20,13 @@ aura = "strong transmutation [evil]"
 caster_level = "17th"
 +++
 
-**Aura** strong transmutation \[evil\]; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong transmutation \[evil\]
+CL: 17th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 Soon after the founding of Thassilon, the ancient emperor Xin crafted the Alara-quin, seven icons
 symbolizing the runelords' mastery of rune magic and dominance over their respective domains.

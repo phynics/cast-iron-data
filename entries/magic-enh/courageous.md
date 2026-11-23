@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be added to a melee weapon. A courageous weapon fortifies the
 wielder's courage and morale in battle. The wielder gains a morale bonus on saving throws against
@@ -31,5 +36,7 @@ fear the wielder gains from any other source is increased by half the weapon's e
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroism](ref/spell/heroism), [remove fear](ref/spell/remove-fear); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroism](ref/spell/heroism), [remove fear](ref/spell/remove-fear)
+Price: -
+:::

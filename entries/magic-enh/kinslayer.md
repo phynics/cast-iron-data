@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A kinslayer weapon is enhanced with enmity against all those born into the wielder's familial line.
 Against creatures related to the wielder, this weapon's enhancement bonus is +2 better than its
@@ -30,5 +35,7 @@ is not multiplied on a critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[detect relations](ref/spell/detect-relations); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [detect relations](ref/spell/detect-relations)
+Price: -
+:::

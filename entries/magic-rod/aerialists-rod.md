@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 3,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 3,200 gp
+Weight: 5 lbs.
+:::
 
 A small, metal loop caps each end of this well-worn, 2-foot-long brass rod. Pressing on each of
 three smooth studs on the rod's surface activates a different special ability. Pressing a stud a
@@ -48,5 +53,7 @@ buildings, or other overhangs to which the trapeze can attach.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [animate rope](ref/spell/animate-rope),
-[cat's grace](ref/spell/cats-grace); **Cost** 1,600 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [animate rope](ref/spell/animate-rope), [cat's grace](ref/spell/cats-grace)
+Cost: 1,600 gp
+:::

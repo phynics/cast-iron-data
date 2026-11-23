@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** none; **Price** 2,370 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: none
+Price: 2,370 gp
+Weight: 15 lbs.
+:::
 
 This +1 [heavy steel shield](ref/eq-armor/heavy-steel-shield) is often stylized by its dwarven
 crafters to look like a door or archway. Once per day after uttering a command word, the wielder can
@@ -33,5 +38,7 @@ shield from the portal, automatically ending the effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hold portal](ref/spell/hold-portal); **Price** 1,270 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hold portal](ref/spell/hold-portal)
+Price: 1,270 gp
+:::

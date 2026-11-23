@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** armor; **Price** 22,350 gp; **Weight** 40 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: armor
+Price: 22,350 gp
+Weight: 40 lbs.
+:::
 
 The burden of this weighty +1 [light fortification](ref/magic-enh/fortification-light)
 [breastplate](ref/eq-armor/breastplate) gives it an armor check penalty of -5. As an immediate
@@ -34,6 +39,7 @@ possesses.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [iron body](ref/spell/iron-body), either
-[limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle); **Price** 11,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [iron body](ref/spell/iron-body), either [limited wish](ref/spell/limited-wish) or [miracle](ref/spell/miracle)
+Price: 11,350 gp
+:::

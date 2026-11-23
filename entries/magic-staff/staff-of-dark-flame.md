@@ -21,8 +21,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 8th\
-**Slot** none; **Price** 47,000 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 8th
+Slot: none
+Price: 47,000 gp
+Weight: 4 lbs.
+:::
 
 Made from bleached bones that have been fused together, the head of this staff burns with an unholy
 fire. This staff can be used as a +1 [flaming](ref/magic-enh/flaming)
@@ -38,8 +43,7 @@ spells:
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [animate dead](ref/spell/animate-dead),
-[false life](ref/spell/false-life), [fireball](ref/spell/fireball),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement), [scorching ray](ref/spell/scorching-ray);
-**Cost** 27,133 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [animate dead](ref/spell/animate-dead), [false life](ref/spell/false-life), [fireball](ref/spell/fireball), [ray of enfeeblement](ref/spell/ray-of-enfeeblement), [scorching ray](ref/spell/scorching-ray)
+Cost: 27,133 gp
+:::

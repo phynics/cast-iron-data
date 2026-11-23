@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Brawling
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +3 bonus
+Weight: -
+:::
 
 The wearer of brawling armor gains a +2 bonus on unarmed attack and damage rolls, including combat
 maneuver checks made to [grapple](ref/rule/grapple). Her unarmed strikes count as magic weapons for
@@ -34,7 +39,9 @@ brawling ability can be applied only to light armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength)
+Price: +3 bonus
+:::
 
 > _See also: [brawling weapon enhancement](ref/magic-enh/brawling-weapon)_

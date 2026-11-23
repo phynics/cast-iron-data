@@ -20,8 +20,13 @@ aura = "overwhelming all schools [evil, lawful]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming all schools \[evil, lawful\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: overwhelming all schools \[evil, lawful\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 These tattered and mismatched pages from the
 [Book of the Damned](ref/magic-artifact/book-of-the-damned) deal with other types of fiendish beings

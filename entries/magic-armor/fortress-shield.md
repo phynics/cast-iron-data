@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** shield; **Price** 19,180 gp; **Weight** 45 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: shield
+Price: 19,180 gp
+Weight: 45 lbs.
+:::
 
 The wearer of this +1 [tower shield](ref/eq-armor/tower-shield) may, as a full-round action,
 transform the shield into a 1-inch-thick cube of iron that springs into being around him, completely
@@ -39,5 +44,7 @@ current space, or if the wearer falls unconscious or dies.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wall of iron](ref/spell/wall-of-iron); **Price** 9,680 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wall of iron](ref/spell/wall-of-iron)
+Price: 9,680 gp
+:::

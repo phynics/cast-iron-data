@@ -20,8 +20,13 @@ aura = "overwhelming enchantment"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming enchantment; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: overwhelming enchantment
+CL: 25th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 The silvery glass of this oval mirror displays many alluring sights. Its dark wooden frame is
 studded with many small green gems and is carved with the shapes of a male figure on one side of the

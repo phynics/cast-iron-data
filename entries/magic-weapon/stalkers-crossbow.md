@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "14th"
 +++
 
-**Aura** strong divination; **CL** 14th\
-**Slot** none; **Price** 54,735 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong divination
+CL: 14th
+Slot: none
+Price: 54,735 gp
+Weight: 4 lbs.
+:::
 
 This crimson-and-black +3 [seeking](ref/magic-enh/seeking)
 [light crossbow](ref/eq-weapon/light-crossbow) is strung with what appears to be a length of
@@ -33,6 +38,7 @@ against that target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[locate creature](ref/spell/locate-creature), [summon monster I](ref/spell/summon-monster-1),
-[true seeing](ref/spell/true-seeing); **Price** 27,535 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [locate creature](ref/spell/locate-creature), [summon monster I](ref/spell/summon-monster-1), [true seeing](ref/spell/true-seeing)
+Price: 27,535 gp
+:::

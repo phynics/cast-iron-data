@@ -20,8 +20,13 @@ aura = "strong divination and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong divination and transmutation; **CL** 20th\
-**Slot** neck; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong divination and transmutation
+CL: 20th
+Slot: neck
+Price: -
+Weight: 1 lb.
+:::
 
 This simple neck ring consists of a silver braid with matching ivory ends sculpted to resemble
 wolf's heads. The torc allows itself to be worn by only a mythic character who swears absolute

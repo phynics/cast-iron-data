@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** armor quality; **Price** +5 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: armor quality
+Price: +5 bonus
+Weight: -
+:::
 
 As an immediate action, the wearer of a suit of dread wing armor can order it to disassemble and
 reconfigure itself as a pair of immense dragon's wings. These wings grant the armor's wearer a fly
@@ -34,5 +39,7 @@ applied only to [full-plate](ref/eq-armor/full-plate) armor or Hellknight armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fly](ref/spell/fly), [iron body](ref/spell/iron-body); **Price** +5 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fly](ref/spell/fly), [iron body](ref/spell/iron-body)
+Price: +5 bonus
+:::

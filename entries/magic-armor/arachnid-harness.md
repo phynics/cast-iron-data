@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "4th"
 +++
 
-**Aura** faint transmutation; **CL** 4th\
-**Slot** armor; **Price** 6,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 4th
+Slot: armor
+Price: 6,160 gp
+Weight: 15 lbs.
+:::
 
 This form-fitting black +1 [leather](ref/eq-armor/leather) features eight ridged support ribs along
 the back. On command, the arachnid harness sprouts eight enormous spidery legs from these ribs.
@@ -32,5 +37,7 @@ takes damage while climbing.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spider climb](ref/spell/spider-climb); **Price** 3,160 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spider climb](ref/spell/spider-climb)
+Price: 3,160 gp
+:::

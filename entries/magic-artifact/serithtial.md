@@ -26,8 +26,13 @@ aura = "strong abjuration"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration; **CL** 17th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 17th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Serithtial is a +4 [holy](ref/magic-enh/holy) [bastard sword](ref/eq-weapon/bastard-sword) crafted,
 it is said, by [Iomedae](ref/faith/iomedae) herself as a gift to Mandraivus's great-grandfather, a

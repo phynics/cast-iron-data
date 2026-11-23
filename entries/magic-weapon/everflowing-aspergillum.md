@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** none; **Price** 7,805 gp; **Weight** 4 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: none
+Price: 7,805 gp
+Weight: 4 lbs.
+:::
 
 The [holy water](ref/eq-weapon/holy-water) in this +1
 [battle aspergillum](ref/eq-weapon/battle-aspergillum) never runs dry. However, the water vanishes 1
@@ -32,5 +37,7 @@ weapon for purposes of overcoming [damage reduction](ref/rule/damage-reduction).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bless water](ref/spell/bless-water), [create water](ref/spell/create-water); **Price** 3,905 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bless water](ref/spell/bless-water), [create water](ref/spell/create-water)
+Price: 3,905 gp
+:::

@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 41,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 41,600 gp
+Weight: 5 lbs.
+:::
 
 The top of this rosewood shaft narrows and then expands again, bound by a number of metal rings. It
 allows use of the following spells:
@@ -37,6 +42,7 @@ allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [bear's endurance](ref/spell/bears-endurance),
-[bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Cost** 20,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [bear's endurance](ref/spell/bears-endurance), [bull's strength](ref/spell/bulls-strength), [cat's grace](ref/spell/cats-grace), [greater magic weapon](ref/spell/magic-weapon-greater)
+Cost: 20,800 gp
+:::

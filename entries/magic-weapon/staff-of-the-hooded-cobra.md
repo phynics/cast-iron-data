@@ -20,8 +20,13 @@ aura = "moderate abjuration and necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration and necromancy; **CL** 7th\
-**Slot** none; **Price** 42,400 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration and necromancy
+CL: 7th
+Slot: none
+Price: 42,400 gp
+Weight: 2 lbs.
+:::
 
 Carved from a single piece of darkwood and topped by the head of a hooded cobra, this staff
 functions as a +3 [defending](ref/magic-enh/defending) [darkwood](ref/eq-material/darkwood)
@@ -41,5 +46,7 @@ additional 1d6 points of damage and injects the target with a virulent poison.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[poison](ref/spell/poison), [shield of faith](ref/spell/shield-of-faith); **Price** 21,360 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison), [shield of faith](ref/spell/shield-of-faith)
+Price: 21,360 gp
+:::

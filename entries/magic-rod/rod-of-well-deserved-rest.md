@@ -20,8 +20,13 @@ aura = "strong enchantment and evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment and evocation; **CL** 12th\
-**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment and evocation
+CL: 12th
+Slot: none
+Price: 62,000 gp
+Weight: 5 lbs.
+:::
 
 This rod is made of polished gold, and features three blown-glass onion domes at one end. It
 functions as a +1 [light mace](ref/eq-weapon/light-mace). Up to three times per day, with a
@@ -37,6 +42,7 @@ _[good hope](ref/spell/good-hope)_ spell for 1 hour.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [deep slumber](ref/spell/deep-slumber),
-[good hope](ref/spell/good-hope), [restful sleep](ref/spell/restful-sleep),
-[tiny hut](ref/spell/tiny-hut); **Cost** 31,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [deep slumber](ref/spell/deep-slumber), [good hope](ref/spell/good-hope), [restful sleep](ref/spell/restful-sleep), [tiny hut](ref/spell/tiny-hut)
+Cost: 31,000 gp
+:::

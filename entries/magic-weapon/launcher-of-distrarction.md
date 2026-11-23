@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "6th"
 +++
 
-**Aura** moderate illusion; **CL** 6th\
-**Slot** none; **Price** 10,550 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 6th
+Slot: none
+Price: 10,550 gp
+Weight: 2 lbs.
+:::
 
 Twice per day, as a swift action when the wielder of this +1
 [heavy wrist launcher](ref/eq-weapon/heavy-wrist-launcher) makes an attack with the weapon, he can
@@ -32,5 +37,7 @@ location as the crossbow sound.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ghost sound](ref/spell/ghost-sound), [misdirection](ref/spell/misdirection); **Price** 5,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ghost sound](ref/spell/ghost-sound), [misdirection](ref/spell/misdirection)
+Price: 5,550 gp
+:::

@@ -20,8 +20,13 @@ aura = "overwhelming conjuration"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming conjuration; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 2 tons
+::: statblock
+Aura: overwhelming conjuration
+CL: 25th
+Slot: none
+Price: -
+Weight: 2 tons
+:::
 
 This Huge, egg-shaped, intelligent, plane-shifting vessel is constructed almost entirely of brass.
 The exterior appears to be one crafted and polished sheet of metal, but it does have a door that can

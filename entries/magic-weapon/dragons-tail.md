@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** none; **Price** 32,310 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: none
+Price: 32,310 gp
+Weight: 12 lbs.
+:::
 
 This +2 dragon-[bane](ref/magic-enh/bane) [guisarme](ref/eq-weapon/guisarme) seems to vibrate with a
 low hum. On a successful hit, the target must succeed at a DC 20 Fortitude save or become
@@ -31,6 +36,7 @@ thereafter. It is staggered for 1 round even on a successful save.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resonating word](ref/spell/resonating-word), [summon monster I](ref/spell/summon-monster-1);
-**Price** 16,155 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resonating word](ref/spell/resonating-word), [summon monster I](ref/spell/summon-monster-1)
+Price: 16,155 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 5,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 5,400 gp
+Weight: 5 lbs.
+:::
 
 This mahogany rod is etched with the image of whirling storm clouds. Once per day on command, the
 wielder can slam the rod against the ground, releasing a concussive wave of sonic and force energy.
@@ -32,6 +37,7 @@ unaffected by this blast. This effect is a force and sonic effect.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[blindness/deafness](ref/spell/blindness-deafness), [wall of force](ref/spell/wall-of-force);
-**Cost** 2,700 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [blindness/deafness](ref/spell/blindness-deafness), [wall of force](ref/spell/wall-of-force)
+Cost: 2,700 gp
+:::

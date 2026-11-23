@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A legbreaker weapon reduces the base land speed of a struck creature by 10 feet for 1d4 rounds.
 Multiple hits from a legbreaker weapon do not reduce a creature's land speed further, but they do
@@ -32,5 +37,7 @@ struck creature. This ability can only be placed on bludgeoning melee weapons.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[touch of gracelessness](ref/spell/touch-of-gracelessness); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [touch of gracelessness](ref/spell/touch-of-gracelessness)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 10,305 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 10,305 gp
+Weight: 1 lb.
+:::
 
 This set of +1 [keen](ref/magic-enh/keen) [claw blades](ref/eq-weapon/claw-blades) is most effective
 when the wearer has multiple claw attacks per round. When making a full attack with claws, if the
@@ -32,5 +37,7 @@ other abilities that grant rend attacks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [keen edge](ref/spell/keen-edge); **Price** 5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [keen edge](ref/spell/keen-edge)
+Price: 5,305 gp
+:::

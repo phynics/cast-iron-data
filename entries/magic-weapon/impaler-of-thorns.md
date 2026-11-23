@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 9,000 gp; **Weight** 9 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 9,000 gp
+Weight: 9 lbs.
+:::
 
 The impaler of thorns is an ancient weapon dating back to Thassilonian times, when it was often used
 by city guards to aid in breaking up civil unrest. An impaler's shaft is made of
@@ -42,6 +47,7 @@ becoming [nauseated](ref/misc/nauseated) with despair for 1 round.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [crushing despair](ref/spell/crushing-despair),
-[delay poison](ref/spell/delay-poison); **Price** 4,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [crushing despair](ref/spell/crushing-despair), [delay poison](ref/spell/delay-poison)
+Price: 4,500 gp
+:::

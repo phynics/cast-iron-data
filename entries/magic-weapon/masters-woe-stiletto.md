@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** none; **Price** 10,002 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: none
+Price: 10,002 gp
+Weight: 1 lb.
+:::
 
 The black-lacquered handle of this slender blade is inlaid with the image of a broken skull. A
 master's woe stiletto is a +1 [living steel](ref/eq-material/living-steel)
@@ -40,5 +45,7 @@ or similar effects. Any uncontrolled undead remain uncontrolled when the effect 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[necromantic burden](ref/spell/necromantic-burden); **Price** 5,402 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [necromantic burden](ref/spell/necromantic-burden)
+Price: 5,402 gp
+:::

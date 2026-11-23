@@ -23,8 +23,12 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Weight** 4 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Weight: 4 lbs.
+:::
 
 This longsword performs well against targets in practice, but when used in combat its wielder takes
 a -2 penalty on attack rolls.
@@ -36,4 +40,7 @@ other weapon.
 
 ### Construction
 
-**Requirements** +2 [longsword](ref/eq-weapon/longsword), any magic weapon; **Cost** -
+::: statblock
+Requirements: +2 [longsword](ref/eq-weapon/longsword), any magic weapon
+Cost: -
+:::

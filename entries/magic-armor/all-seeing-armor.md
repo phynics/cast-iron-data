@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** armor; **Price** 5,570 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: armor
+Price: 5,570 gp
+Weight: 25 lbs.
+:::
 
 This +1 [chain shirt](ref/eq-armor/chain-shirt) is made of shiny, bright rings on the left side and
 dull, dark rings on the right. The church of [Nethys](ref/faith/nethys) uses suits of all-seeing
@@ -31,6 +36,7 @@ wearer can use _[comprehend languages](ref/spell/comprehend-languages)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[comprehend languages](ref/spell/comprehend-languages), [detect magic](ref/spell/detect-magic),
-[read magic](ref/spell/read-magic); **Price** 2,910 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [comprehend languages](ref/spell/comprehend-languages), [detect magic](ref/spell/detect-magic), [read magic](ref/spell/read-magic)
+Price: 2,910 gp
+:::

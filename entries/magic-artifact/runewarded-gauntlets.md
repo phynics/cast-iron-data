@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** hands; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: hands
+Price: -
+Weight: 2 lbs.
+:::
 
 A set of runewarded gauntlets helps to protect the wearer from the influence of intelligent magic
 items, an effect that immediately becomes apparent to a wearer when the gauntlets are first put on.

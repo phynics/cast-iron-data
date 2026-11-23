@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1/2 lb.
+::: statblock
+Aura: strong abjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1/2 lb.
+:::
 
 When the final fragment of the Kenabres wardstone shatters, a few tiny shards of the stone remain
 behind. The magic remaining in these fragments is fleeting, usable only once before the shard

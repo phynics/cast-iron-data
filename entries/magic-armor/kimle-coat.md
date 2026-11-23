@@ -22,8 +22,13 @@ caster_level = "3rd"
 
 ## Kimlé Coat
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** armor; **Price** 2,300 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: armor
+Price: 2,300 gp
+Weight: 15 lbs.
+:::
 
 This +1 [leather](ref/eq-armor/leather) armor is made of kimlé, a linen-like cloth made of a sea
 plant the church of [Gozreh](ref/faith/gozreh) cultivates, and resembles a snug light coat with a
@@ -32,6 +37,7 @@ on Swim checks. Once per day, the wearer can breathe water for 1 minute.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[water breathing](ref/spell/water-breathing), creator must have 5 ranks in the Swim skill; **Price**
-1,230 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [water breathing](ref/spell/water-breathing), creator must have 5 ranks in the Swim skill
+Price: 1,230 gp
+:::

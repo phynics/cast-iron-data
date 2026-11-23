@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 8,500 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 8,500 gp
+Weight: 3 lbs.
+:::
 
 This rod looks like a long sliver of ice and is cold to the touch, but deals no cold damage to its
 wielder. The wearer can use the rod to make a melee touch attack that deals 1d4 points of cold
@@ -31,5 +36,7 @@ ground to create a 30-foot cone of ice that encrusts the earth, affecting the ar
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [cone of cold](ref/spell/cone-of-cold); **Cost**
-4,250 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [cone of cold](ref/spell/cone-of-cold)
+Cost: 4,250 gp
+:::

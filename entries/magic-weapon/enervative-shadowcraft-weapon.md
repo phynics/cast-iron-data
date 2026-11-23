@@ -20,8 +20,13 @@ aura = "strong illusion and necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong illusion and necromancy; **CL** 12th\
-**Slot** none; **Price** 36,000 gp; **Weight** varies
+::: statblock
+Aura: strong illusion and necromancy
+CL: 12th
+Slot: none
+Price: 36,000 gp
+Weight: varies
+:::
 
 This [shadowcraft weapon](ref/magic-weapon/shadowcraft-weapon) glows with palpable malice, its
 hunger ceaselessly gnawing upon the wits of its wielder. Whenever the wielder of an enervative
@@ -33,6 +38,7 @@ negative level gained or any such levels become permanent.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation), [major creation](ref/spell/major-creation),
-[shadow weapon](ref/spell/shadow-weapon); **Price** 18,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation), [major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon)
+Price: 18,000 gp
+:::

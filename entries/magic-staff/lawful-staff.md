@@ -21,8 +21,13 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Price** 29,600 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Price: 29,600 gp
+Weight: 5 lbs.
+:::
 
 This staff is crafted from a perfectly smooth triangular rod of silver, and its top is crowned with
 a golden sphere. The staff allows use of the following spells:
@@ -34,7 +39,7 @@ a golden sphere. The staff allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon),
-[detect chaos](ref/spell/detect-chaos),
-[magic circle against chaos](ref/spell/magic-circle-against-chaos),
-[order's wrath](ref/spell/orders-wrath); **Cost** 14,800 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [align weapon](ref/spell/align-weapon), [detect chaos](ref/spell/detect-chaos), [magic circle against chaos](ref/spell/magic-circle-against-chaos), [order's wrath](ref/spell/orders-wrath)
+Cost: 14,800 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** 30,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: 30,320 gp
+Weight: 2 lbs.
+:::
 
 This +2 [rapier](ref/eq-weapon/rapier) has elegant lines and a stylish basket hilt. The wielder of
 this weapon gains a +5 competence bonus on [Acrobatics](ref/skill/acrobatics) checks made to move
@@ -31,6 +36,7 @@ provoking attacks of opportunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement), creator must have 10 ranks in Craft (weapons);
-**Price** 15,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement), creator must have 10 ranks in Craft (weapons)
+Price: 15,350 gp
+:::

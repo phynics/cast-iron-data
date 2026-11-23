@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 25,305 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 25,305 gp
+Weight: 4 lbs.
+:::
 
 Katapeshi slave masters and enforcers sometimes use slaver's canes to put down insubordinates or
 recapture escaped property. The head of the studded black +1
@@ -34,6 +39,7 @@ around a target within 90 feet (Reflex DC 16 negates) that lasts for 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Enlarge Spell](ref/feat/enlarge-spell), [resilient sphere](ref/spell/resilient-sphere); **Price**
-12,805 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Enlarge Spell](ref/feat/enlarge-spell), [resilient sphere](ref/spell/resilient-sphere)
+Price: 12,805 gp
+:::

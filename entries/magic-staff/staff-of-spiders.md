@@ -21,8 +21,13 @@ aura = "moderate conjuratio and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuratio and transmutation; **CL** 8th\
-**Slot** none; **Price** 30,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuratio and transmutation
+CL: 8th
+Slot: none
+Price: 30,200 gp
+Weight: 5 lbs.
+:::
 
 This staff is constructed from thousands of carefully prepared spiderwebs packed around a base and
 layered to make a shaft just as hard as oak, if not harder. A staff of spiders functions as a +1/+1
@@ -35,6 +40,7 @@ layered to make a shaft just as hard as oak, if not harder. A staff of spiders f
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Craft Staff](ref/feat/craft-staff), [spider climb](ref/spell/spider-climb),
-[summon monster III](ref/spell/summon-monster-3), [web](ref/spell/web); **Cost** 15,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Craft Staff](ref/feat/craft-staff), [spider climb](ref/spell/spider-climb), [summon monster III](ref/spell/summon-monster-3), [web](ref/spell/web)
+Cost: 15,400 gp
+:::

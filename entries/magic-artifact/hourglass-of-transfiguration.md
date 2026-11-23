@@ -20,8 +20,13 @@ aura = "strong all schools"
 caster_level = "20th"
 +++
 
-**Aura** strong all schools; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong all schools
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Whoever breaks this crystalline hourglass blacks out for 24 hours. During this time no power can
 reawaken her, as she is gradually swapping places with another version of herself from some other

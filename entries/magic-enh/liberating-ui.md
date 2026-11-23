@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on a melee weapon. A liberating weapon grants its wielder a
 competence bonus equal to the weapon's enhancement bonus on [Sense Motive](ref/skill/sense-motive)
@@ -39,6 +44,7 @@ hours.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break enchantment](ref/spell/break-enchantment),
-[greater dispel magic](ref/spell/dispel-magic-greater); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break enchantment](ref/spell/break-enchantment), [greater dispel magic](ref/spell/dispel-magic-greater)
+Price: -
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 61,340 gp; **Weight** 14 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 61,340 gp
+Weight: 14 lbs.
+:::
 
 The tribal symbols covering the surface of this +2 [anarchic](ref/magic-enh/anarchic)
 [flaming](ref/magic-enh/flaming) [earth breaker](ref/eq-weapon/earth-breaker) radiate a tangible
@@ -35,7 +40,7 @@ time the wielder enters a rage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor);
-[chaos hammer](ref/spell/chaos-hammer); [fireball](ref/spell/fireball),
-[flame blade](ref/spell/flame-blade), or [flame strike](ref/spell/flame-strike); creator must be
-chaotic; **Price** 30,840 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor); [chaos hammer](ref/spell/chaos-hammer); [fireball](ref/spell/fireball), [flame blade](ref/spell/flame-blade), or [flame strike](ref/spell/flame-strike); creator must be chaotic
+Price: 30,840 gp
+:::

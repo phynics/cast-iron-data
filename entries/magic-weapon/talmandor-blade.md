@@ -20,8 +20,13 @@ aura = "moderate abjuration, conjuration, and evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration, conjuration, and evocation; **CL** 7th\
-**Slot** none; **Price** 58,615 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration, conjuration, and evocation
+CL: 7th
+Slot: none
+Price: 58,615 gp
+Weight: 2 lbs.
+:::
 
 This +2 [holy](ref/magic-enh/holy) [mithral](ref/eq-material/mithral)
 [longsword](ref/eq-weapon/longsword) continually sheds [light](ref/spell/light) as the spell. While
@@ -32,6 +37,7 @@ against paralysis and petrification spells and effects.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[darkvision](ref/spell/darkvision), [holy smite](ref/spell/holy-smite),
-[stone to flesh](ref/spell/stone-to-flesh), creator must be good; **Price** 29,465 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [darkvision](ref/spell/darkvision), [holy smite](ref/spell/holy-smite), [stone to flesh](ref/spell/stone-to-flesh), creator must be good
+Price: 29,465 gp
+:::

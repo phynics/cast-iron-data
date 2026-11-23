@@ -20,8 +20,13 @@ aura = "strong varied"
 caster_level = "12th"
 +++
 
-**Aura** strong varied; **CL** 12th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong varied
+CL: 12th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A sparkling blue rhomboid ioun stone grants a +4 enhancement bonus to Strength while in use.
 

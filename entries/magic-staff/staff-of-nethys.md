@@ -21,8 +21,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** none; **Price** 131,550 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: none
+Price: 131,550 gp
+Weight: 5 lbs.
+:::
 
 These staves are often made of [darkwood](ref/eq-material/darkwood) and topped with the holy symbol
 of [Nethys](ref/faith/nethys), the eyes of which are made of rare gems that glow with magical
@@ -45,9 +50,7 @@ class with that spell on its spell list.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [Heighten Spell](ref/feat/heighten-spell),
-[arcane sight](ref/spell/arcane-sight), [channel the gift](ref/spell/channel-the-gift) or
-[imbue with spell ability](ref/spell/imbue-with-spell-ability),
-[fractions of heal and harm](ref/spell/fractions-of-heal-and-harm),
-[prying eyes](ref/spell/prying-eyes), [spell gauge](ref/spell/spell-gauge),
-[spell scourge](ref/spell/spell-scourge); **Cost** 65,775 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [Heighten Spell](ref/feat/heighten-spell), [arcane sight](ref/spell/arcane-sight), [channel the gift](ref/spell/channel-the-gift) or [imbue with spell ability](ref/spell/imbue-with-spell-ability), [fractions of heal and harm](ref/spell/fractions-of-heal-and-harm), [prying eyes](ref/spell/prying-eyes), [spell gauge](ref/spell/spell-gauge), [spell scourge](ref/spell/spell-scourge)
+Cost: 65,775 gp
+:::

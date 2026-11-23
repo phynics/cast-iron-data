@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong necromancy; **CL** 12th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 12th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 This ability can be placed only on melee weapons. An exhausting weapon can bring a great weariness
 to opponents in battle. On a critical hit, the wielder can choose to forgo the additional damage
@@ -31,5 +36,7 @@ effects, and creatures immune to the effects of exhaustion or to critical hits a
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ray of exhaustion](ref/spell/ray-of-exhaustion); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ray of exhaustion](ref/spell/ray-of-exhaustion)
+Price: -
+:::

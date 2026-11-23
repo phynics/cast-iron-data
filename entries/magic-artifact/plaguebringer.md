@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A twisted blend of artifact, disease, and malign intellect, the Plaguebringer isn't so much found as
 contracted. Once it infects a host, Plaguebringer renders him immune to the effects of any lesser

@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 12,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 12,000 gp
+Weight: 10 lbs.
+:::
 
 This 6-foot-long silver rod is capped with a copper ball at one end, and a multipronged iron spike
 at the other. Three times per day, the spiked end can be driven into sand, mud, or loose earth as a
@@ -36,6 +41,7 @@ it.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [dispel magic](ref/spell/dispel-magic),
-[lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy); **Cost** 6,000
-gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [dispel magic](ref/spell/dispel-magic), [lightning bolt](ref/spell/lightning-bolt), [resist energy](ref/spell/resist-energy)
+Cost: 6,000 gp
+:::

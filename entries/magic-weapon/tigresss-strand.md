@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 18,305 gp; **Weight** 3 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 18,305 gp
+Weight: 3 lbs.
+:::
 
 This unusual whip is made of spider silk hardened to the consistency of cartilage and studded with
 bear claws. Tigress's Strand acts as +1 [dueling](ref/magic-enh/dueling)
@@ -31,5 +36,7 @@ attacks (such as from spiders or aranea).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cat's grace](ref/spell/cats-grace), [web](ref/spell/web); **Price** 9,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cat's grace](ref/spell/cats-grace), [web](ref/spell/web)
+Price: 9,305 gp
+:::

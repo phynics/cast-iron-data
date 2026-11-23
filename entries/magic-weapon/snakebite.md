@@ -20,8 +20,13 @@ aura = "moderate necromancy and transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy and transmutation; **CL** 9th\
-**Slot** none; **Price** 57,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy and transmutation
+CL: 9th
+Slot: none
+Price: 57,320 gp
+Weight: 2 lbs.
+:::
 
 This +2 [injecting](ref/magic-enh/injecting) [wounding](ref/magic-enh/wounding)
 [rapier](ref/eq-weapon/rapier) is prized among the cults of [Ydersius](ref/faith/ydersius). This
@@ -32,5 +37,7 @@ pommel reservoir.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [pernicious poison](ref/spell/pernicious-poison); **Price** 28,660 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [pernicious poison](ref/spell/pernicious-poison)
+Price: 28,660 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment; **CL** 18th\
-**Slot** head; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 18th
+Slot: head
+Price: -
+Weight: 3 lbs.
+:::
 
 The creation of some long-forgotten tyrant, this iron crown is fitted with four retractable spikes
 that can slide into the crown's interior. When the crown of the iron king is placed on a creature's

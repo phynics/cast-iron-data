@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 50 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 50 lbs.
+:::
 
 Blackaxe is a Huge +5 plant [bane](ref/magic-enh/bane) [greataxe](ref/eq-weapon/greataxe) which is
 considered epic and can penetrate epic [damage reduction](ref/rule/damage-reduction). Virulent acid

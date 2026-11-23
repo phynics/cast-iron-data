@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "13th"
 +++
 
-**Aura** moderate evocation; **CL** 13th\
-**Slot** none; **Price** 20,324 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 13th
+Slot: none
+Price: 20,324 gp
+Weight: 2 lbs.
+:::
 
 The original crystalline starknife was the weapon of Nugloss, a powerful priestess of
 [Desna](ref/faith/desna) who fought for the Linnorm Kings during the Winter War. Made of a
@@ -37,5 +42,7 @@ weapon special ability.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[daylight](ref/spell/daylight), [shatter](ref/spell/shatter); **Price** 10,324 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [daylight](ref/spell/daylight), [shatter](ref/spell/shatter)
+Price: 10,324 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: none
+Price: -
+Weight: -
+:::
 
 Thuvia's sun orchid elixir is a nearly perfect solution for those who seek eternal life. A single
 dose of sun orchid elixir cannot stop the aging process, but it does the next-best thing - it

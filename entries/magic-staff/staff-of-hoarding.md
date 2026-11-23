@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "11th"
 +++
 
-**Aura** moderate varies; **CL** 11th\
-**Slot** none; **Price** 55,866 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 11th
+Slot: none
+Price: 55,866 gp
+Weight: 5 lbs.
+:::
 
 This gorgeous teak shaft has many gold and silver coins hammered into it. It allows use of the
 following spells:
@@ -38,6 +43,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [identify](ref/spell/identify),
-[legend lore](ref/spell/legend-lore), [locate object](ref/spell/locate-object),
-[magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest); **Cost** 30,016 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [identify](ref/spell/identify), [legend lore](ref/spell/legend-lore), [locate object](ref/spell/locate-object), [magic aura](ref/spell/magic-aura), [secret chest](ref/spell/secret-chest)
+Cost: 30,016 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shield; **Price** 29,170 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shield
+Price: 29,170 gp
+Weight: 30 lbs.
+:::
 
 The matte surface of this +1 [voidglass](ref/eq-material/voidglass) heavy shield is cold to the
 touch. The shield's face contains a disorienting field of flickering stars. On command, the wearer
@@ -36,5 +41,7 @@ becomes permanently nonmagical.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[teleport](ref/spell/teleport); **Price** 15,670 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [teleport](ref/spell/teleport)
+Price: 15,670 gp
+:::

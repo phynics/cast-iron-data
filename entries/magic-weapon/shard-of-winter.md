@@ -20,8 +20,13 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** none; **Price** 26,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: none
+Price: 26,302 gp
+Weight: 1 lb.
+:::
 
 This small knife has a bone handle and a blade that seems to be made of clear blue ice. Commonly
 found in the hands of an Irriseni [winter witch](ref/arc-witch/winter-witch), a shard of winter is a
@@ -33,6 +38,7 @@ the witch's level. This spell can't be modified by metamagic feats or other abil
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[ice storm](ref/spell/ice-storm), [telepathic bond](ref/spell/telepathic-bond), creator must be a
-winter witch; **Price** 13,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [ice storm](ref/spell/ice-storm), [telepathic bond](ref/spell/telepathic-bond), creator must be a winter witch
+Price: 13,302 gp
+:::

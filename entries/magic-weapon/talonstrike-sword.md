@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 33,835 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 33,835 gp
+Weight: 3 lbs.
+:::
 
 These [mithral](ref/eq-material/mithral) +2 [defending](ref/magic-enh/defending)
 [bastard swords](ref/eq-weapon/bastard-sword) are favored blades of the
@@ -35,6 +40,7 @@ This is an upgraded version of the cheaper [Talon Sword](ref/magic-weapon/talon-
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dimensional anchor](ref/spell/dimensional-anchor), [shield](ref/spell/shield) or
-[shield of faith](ref/spell/shield-of-faith); **Price** 18,435 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dimensional anchor](ref/spell/dimensional-anchor), [shield](ref/spell/shield) or [shield of faith](ref/spell/shield-of-faith)
+Price: 18,435 gp
+:::

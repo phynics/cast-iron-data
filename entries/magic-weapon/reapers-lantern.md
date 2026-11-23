@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** 9,515 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: 9,515 gp
+Weight: 10 lbs.
+:::
 
 This black iron lantern and chain functions as a +1 [heavy flail](ref/eq-weapon/heavy-flail). The
 lantern burns with a cold blue-green flame that sheds light as per a
@@ -42,7 +47,7 @@ one.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[continual flame](ref/spell/continual-flame), [death knell](ref/spell/death-knell),
-[speak with dead](ref/spell/speak-with-dead), [vampiric touch](ref/spell/vampiric-touch); **Price**
-4,915 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [continual flame](ref/spell/continual-flame), [death knell](ref/spell/death-knell), [speak with dead](ref/spell/speak-with-dead), [vampiric touch](ref/spell/vampiric-touch)
+Price: 4,915 gp
+:::

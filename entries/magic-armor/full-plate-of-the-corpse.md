@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** armor; **Price** 35,650 gp; **Weight** 50 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: armor
+Price: 35,650 gp
+Weight: 50 lbs.
+:::
 
 This suit of +2 [full plate](ref/eq-armor/full-plate) has been etched and stained in such a way that
 it resembles the form and shape of a decomposed body that is encased in a suit of armor. The wearer
@@ -32,5 +37,7 @@ undead behave as if the wearer simply isn't there.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hide from undead](ref/spell/hide-from-undead); **Price** 18,650 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hide from undead](ref/spell/hide-from-undead)
+Price: 18,650 gp
+:::

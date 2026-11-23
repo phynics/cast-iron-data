@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 24,621 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 24,621 gp
+Weight: 3 lbs.
+:::
 
 This heavy whip features [Pharasmin](ref/faith/pharasma) imagery on its silver handle. The Lady's
 spiral is a +1 [ghost touch](ref/magic-enh/ghost-touch-weapon) undead-[bane](ref/magic-enh/bane)
@@ -36,7 +41,7 @@ cannot be wielded as one.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure light wounds](ref/spell/cure-light-wounds), [plane shift](ref/spell/plane-shift),
-[summon monster I](ref/spell/summon-monster-1), creator must be a worshiper of Pharasma; **Price**
-12,621 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure light wounds](ref/spell/cure-light-wounds), [plane shift](ref/spell/plane-shift), [summon monster I](ref/spell/summon-monster-1), creator must be a worshiper of Pharasma
+Price: 12,621 gp
+:::

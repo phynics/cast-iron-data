@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 20,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 20,000 gp
+Weight: 5 lbs.
+:::
 
 Someone who carries this blue-and-white staff need never feel small nor weak, as the staff brings
 everybody and everything down to size. This staff allows the use of the following spells:
@@ -34,6 +39,7 @@ everybody and everything down to size. This staff allows the use of the followin
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[mass reduce person](ref/spell/reduce-person-mass), [reduce animal](ref/spell/reduce-animal),
-[reduce person](ref/spell/reduce-person), [shrink item](ref/spell/shrink-item); **Cost** 10,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [mass reduce person](ref/spell/reduce-person-mass), [reduce animal](ref/spell/reduce-animal), [reduce person](ref/spell/reduce-person), [shrink item](ref/spell/shrink-item)
+Cost: 10,000 gp
+:::

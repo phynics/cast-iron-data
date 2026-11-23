@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "12th"
 +++
 
-**Aura** strong evocation; **CL** 12th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 12th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 An igniting weapon functions as a [flaming](ref/magic-enh/flaming) weapon that also causes the
 target to [catch fire](ref/rule/catching-on-fire) upon striking it with a successful critical hit.
@@ -30,6 +35,7 @@ turn to put out the fire. The flaming ability must be active for the weapon to s
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or
-[fireball](ref/spell/fireball); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike), or [fireball](ref/spell/fireball)
+Price: -
+:::

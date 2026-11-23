@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** armor; **Price** 20,550 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: armor
+Price: 20,550 gp
+Weight: 30 lbs.
+:::
 
 Once per day as a standard action, the wearer of this +2 [do-maru](ref/eq-armor/do-maru) armor can
 activate the armor to heal 4d8+9 points of damage and end any and all of the following conditions
@@ -39,5 +44,7 @@ weighs 30 lbs.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cleanse](ref/spell/cleanse); **Price** 10,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cleanse](ref/spell/cleanse)
+Price: 10,450 gp
+:::

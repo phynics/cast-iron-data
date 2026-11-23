@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 10,305 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 10,305 gp
+Weight: 2 lbs.
+:::
 
 This +1 [bolas](ref/eq-weapon/bolas), crafted from strands of jungle vine woven into strong cord and
 weighted with rocks, is favored by the [charau-ka](ref/monster/charau-ka). Ranged
@@ -31,5 +36,7 @@ had the [returning](ref/magic-enh/returning) property.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[entangle](ref/spell/entangle), [telekinesis](ref/spell/telekinesis); **Price** 5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [entangle](ref/spell/entangle), [telekinesis](ref/spell/telekinesis)
+Price: 5,305 gp
+:::

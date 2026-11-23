@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "5th"
 +++
 
-**Aura** moderate necromancy; **CL** 5th\
-**Slot** none; **Price** 5,312 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 5th
+Slot: none
+Price: 5,312 gp
+Weight: 6 lbs.
+:::
 
 Runechill hatchets are sized for Large creatures, but resizes so it can be wielded by Medium
 creatures as [battleaxes](ref/eq-weapon/battleaxe) or Small creatures as
@@ -40,5 +45,7 @@ flee as if [panicked](ref/misc/panicked) for 1d4+5 rounds.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill touch](ref/spell/chill-touch); **Price** 2,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill touch](ref/spell/chill-touch)
+Price: 2,812 gp
+:::

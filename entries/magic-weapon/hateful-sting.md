@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 60,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 60,302 gp
+Weight: 1 lb.
+:::
 
 This +1 [dancing](ref/magic-enh/dancing) [dagger](ref/eq-weapon/dagger) can attack foes up to 60
 feet from the activating character, and takes the form of a rat-sized metal wasp when the dancing
@@ -33,6 +38,7 @@ manually takes a full-round action.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [summon swarm](ref/spell/summon-swarm); **Price**
-30,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [summon swarm](ref/spell/summon-swarm)
+Price: 30,302 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 A weapon with the guided property allows its wielder to use his instinct when striking blows with
 it. Attacks from a guided weapon generally don't strike hard, but they strike at precisely the right
@@ -34,5 +39,7 @@ weapon's nature and imparts a -2 penalty on all attack rolls made in this manner
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spiritual weapon](ref/spell/spiritual-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spiritual weapon](ref/spell/spiritual-weapon)
+Price: -
+:::

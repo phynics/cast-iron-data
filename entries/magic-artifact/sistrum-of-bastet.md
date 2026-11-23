@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Sistrum of Bastet is a powerful artifact that, when used properly, allows a bard to use her
 bardic performance ability to enhance the spells of a divine spellcaster or conceal her true

@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** shield; **Price** 17,257 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: shield
+Price: 17,257 gp
+Weight: 10 lbs.
+:::
 
 This [heavy wooden shield](ref/eq-armor/heavy-wooden-shield) has a +3 enhancement bonus. Arching
 bird wings are carved into the face of the shield. Once per day, it can be commanded to
@@ -33,5 +38,7 @@ and move at 60 feet per round, or up to 266 pounds and move at 40 feet per round
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fly](ref/spell/fly); **Price** 8,707 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fly](ref/spell/fly)
+Price: 8,707 gp
+:::

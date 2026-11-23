@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 44,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 44,200 gp
+Weight: 5 lbs.
+:::
 
 This copper rod is made up of constantly grinding gear-like parts. It is believed that these rods
 may be some alternate or lesser form of [harbinger archons](ref/monster/archon-harbinger-archon).
@@ -44,9 +49,10 @@ creatures.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [dimension door](ref/spell/dimension-door),
-[knock](ref/spell/knock), [explosive runes](ref/spell/explosive-runes), creator must be lawful good;
-**Price** 22,100 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [dimension door](ref/spell/dimension-door), [knock](ref/spell/knock), [explosive runes](ref/spell/explosive-runes), creator must be lawful good
+Price: 22,100 gp
+:::
 
 ### Statistics
 

@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** 566 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: 566 gp
+Weight: -
+:::
 
 This +1 [paper alchemical cartridge](ref/eq-weapon/alchemical-cartridge) contains a bullet and is
 marked with a symbol of an ear. When fired from a firearm, a reporting cartridge allows the wielder
@@ -31,5 +36,7 @@ from the square in which the bullet landed, regardless of whether it hit its mar
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance); **Price** 286 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance)
+Price: 286 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate enchantment, evocation, and illusion"
 caster_level = "10th"
 +++
 
-**Aura** moderate enchantment, evocation, and illusion; **CL** 10th\
-**Slot** armor; **Price** 4,890 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate enchantment, evocation, and illusion
+CL: 10th
+Slot: armor
+Price: 4,890 gp
+Weight: 30 lbs.
+:::
 
 This +1 [glamered](ref/magic-enh/glamered) [scale mail](ref/eq-armor/scale-mail) is decorated with
 fangs and is usually made from the hide of a reptilian beast such as a basilisk. The wearer can use
@@ -30,6 +35,7 @@ full-round action, the wearer can activate both of these abilities at the same t
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[burst bonds](ref/spell/burst-bonds), [disguise self](ref/spell/disguise-self),
-[wrath](ref/spell/wrath); **Price** 2,590 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [burst bonds](ref/spell/burst-bonds), [disguise self](ref/spell/disguise-self), [wrath](ref/spell/wrath)
+Price: 2,590 gp
+:::

@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 A long wooden staff, shod in iron and inscribed with sigils and runes of all types, this potent
 artifact contains many spell powers and other functions. Unlike a normal staff, a staff of the magi

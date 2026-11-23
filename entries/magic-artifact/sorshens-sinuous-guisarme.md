@@ -20,8 +20,13 @@ aura = "strong evocation [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 10 lbs.
+:::
 
 Sorshen's Sinuous Guisarme is a +5 [keen](ref/magic-enh/keen) [speed](ref/magic-enh/speed)
 [spell-storing](ref/magic-enh/spell-storing) [mithral](ref/eq-material/mithral)

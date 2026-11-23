@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 900 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 900 lbs.
+:::
 
 Runelord Alaznist, inspired by and jealous of Karzoug's success with the
 [runewell of greed](ref/magic-artifact/runewell-of-greed), experimented with variant runewells of

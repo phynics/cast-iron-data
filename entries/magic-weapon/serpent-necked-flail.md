@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 32,315 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 32,315 gp
+Weight: 10 lbs.
+:::
 
 The head of this weapon resembles a knot of entwined serpents. In this form, it can be used as a
 [masterwork](ref/rule/masterwork-armor) [heavy mace](ref/eq-weapon/heavy-mace). Upon command, the
@@ -31,5 +36,7 @@ the command word again makes the weapon revert to its mace form.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste); **Price** 16,165 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste)
+Price: 16,165 gp
+:::

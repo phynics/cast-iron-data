@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 400 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 400 lbs.
+:::
 
 Said to have been gifted by [Dispater](ref/monster/archdevil-dispater) himself to
 [Order of the Gate](ref/hkorder/order-of-the-gate) founder Sheel Leroung, the vicious link is a

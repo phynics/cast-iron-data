@@ -20,8 +20,12 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Weight: 5 lbs.
+:::
 
 This staff appears as a normal [staff of electricity](ref/magic-staff/staff-of-electricity), except
 it is black instead of silver and electricity occasionally arcs along the shaft. The curse on this
@@ -39,4 +43,7 @@ secondary target, a random ally must be chosen as a secondary target.
 
 ### Construction
 
-**Requirements** [staff of electricity](ref/magic-staff/staff-of-electricity); **Cost** -
+::: statblock
+Requirements: [staff of electricity](ref/magic-staff/staff-of-electricity)
+Cost: -
+:::

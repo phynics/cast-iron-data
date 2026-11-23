@@ -20,8 +20,13 @@ aura = "overwhelming transmutation"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: overwhelming transmutation
+CL: 25th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Shard of Greed is made of black [adamantine](ref/eq-material/adamantine). As long as the Shard
 of Greed is carried, its owner can use [haste](ref/spell/haste) as a

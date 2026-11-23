@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "5th"
 +++
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A virulent weapon magically intensifies any poison it delivers. The saving throw DC of any poison
 applied to either a virulent weapon or any ammunition fired from it increases by a number equal to
@@ -30,5 +35,7 @@ the virulent weapon's enhancement bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[pernicious poison](ref/spell/pernicious-poison); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [pernicious poison](ref/spell/pernicious-poison)
+Price: -
+:::

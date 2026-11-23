@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** none; **Price** 19,502 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: none
+Price: 19,502 gp
+Weight: 6 lbs.
+:::
 
 When thrown, this +1 [returning](ref/magic-enh/returning) [spear](ref/eq-weapon/spear) is considered
 a one-handed weapon and gains a +2 bonus on the attack roll. If the spear hits when thrown, the
@@ -33,6 +38,7 @@ throwing the spear, he can continue a full attack with the spear.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [dimension door](ref/spell/dimension-door),
-[telekinesis](ref/spell/telekinesis); **Price** 9,902 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [dimension door](ref/spell/dimension-door), [telekinesis](ref/spell/telekinesis)
+Price: 9,902 gp
+:::

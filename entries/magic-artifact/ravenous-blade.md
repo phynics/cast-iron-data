@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "18th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 18th\
-**Slot** none; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 18th
+Slot: none
+Price: -
+Weight: 8 lbs.
+:::
 
 Jagged teeth stud the length of this falchion's blackened steel blade. Warped and twisted by the
 daemonic spirit trapped within, this former +2 [merciful](ref/magic-enh/merciful)

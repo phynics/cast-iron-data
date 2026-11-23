@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "6th"
 +++
 
-**Aura** moderate abjuration; **CL** 6th\
-**Slot** armor; **Price** 16,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 6th
+Slot: armor
+Price: 16,350 gp
+Weight: 30 lbs.
+:::
 
 Numerians who oppose the Technic League have developed many forms of protection from the tyrannical
 organization's technology-infused weaponry. This +2 [breastplate](ref/eq-armor/breastplate) is made
@@ -36,5 +41,7 @@ to determine whether it hits its new target.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deflection](ref/spell/deflection), [shield](ref/spell/shield); **Price** 8,700 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deflection](ref/spell/deflection), [shield](ref/spell/shield)
+Price: 8,700 gp
+:::

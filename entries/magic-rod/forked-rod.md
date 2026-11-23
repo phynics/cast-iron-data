@@ -20,8 +20,13 @@ aura = "moderate divination"
 caster_level = "9th"
 +++
 
-**Aura** moderate divination; **CL** 9th\
-**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate divination
+CL: 9th
+Slot: none
+Price: 50,000 gp
+Weight: 3 lbs.
+:::
 
 This bifurcated mithral rod resembles an oversized tuning fork. The forked rod acts as a focus for
 _[plane shift](ref/spell/plane-shift),_ but the plane to which it is attuned to can be adjusted as a
@@ -37,6 +42,7 @@ affect another target with _[dimensional anchor](ref/spell/dimensional-anchor)._
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift); **Cost**
-25,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [dimensional anchor](ref/spell/dimensional-anchor), [plane shift](ref/spell/plane-shift)
+Cost: 25,000 gp
+:::

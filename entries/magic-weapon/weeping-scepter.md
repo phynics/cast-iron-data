@@ -20,8 +20,13 @@ aura = "moderate abjuration, strong evil"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration, strong evil; **CL** 8th\
-**Slot** none; **Price** 12,912 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate abjuration, strong evil
+CL: 8th
+Slot: none
+Price: 12,912 gp
+Weight: 8 lbs.
+:::
 
 This [mace of blood](ref/magic-weapon/mace-of-blood) functions as a +1
 [wounding](ref/magic-enh/wounding) [heavy mace](ref/eq-weapon/heavy-mace) rather than a +3 heavy
@@ -29,5 +34,7 @@ mace. Its head resembles six twisted faces.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed); **Cost** 6,612 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed)
+Cost: 6,612 gp
+:::

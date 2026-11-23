@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** armor; **Price** 52,100 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: armor
+Price: 52,100 gp
+Weight: 5 lbs.
+:::
 
 This chain armor is so fine it offers protection only because it's enchanted and made of
 [mithral](ref/eq-material/mithral). It acts as a suit of +4
@@ -30,6 +35,7 @@ Dexterity bonus to AC of +8 and imposes no chance of arcane spell failure.
 
 ### Construction
 
-**Requirements** Armor Proficiency (light),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease),
-[iron body](ref/spell/iron-body); **Price** 27,600 gp
+::: statblock
+Requirements: Armor Proficiency (light), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease), [iron body](ref/spell/iron-body)
+Price: 27,600 gp
+:::

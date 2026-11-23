@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 900 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 900 lbs.
+:::
 
 Alaznist's runewell of wrath is located within the Eye of Fury, a demiplane hidden within the
 uppermost reaches of the runelord's realm of Hollow Mountain. The runewell's job of absorbing

@@ -20,8 +20,13 @@ aura = "faint enchantment"
 caster_level = "4th"
 +++
 
-**Aura** faint enchantment; **CL** 4th\
-**Slot** none; **Price** 5,220 gp; **Weight** 14 lbs.
+::: statblock
+Aura: faint enchantment
+CL: 4th
+Slot: none
+Price: 5,220 gp
+Weight: 14 lbs.
+:::
 
 The head of this +1 [earth breaker](ref/eq-weapon/earth-breaker) is shaped like a massive version of
 the gavel one might see in a court of law - the weapon is nearly 4 feet long from end to end. The
@@ -37,5 +42,7 @@ first.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[confess](ref/spell/confess); **Price** 2,780 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [confess](ref/spell/confess)
+Price: 2,780 gp
+:::

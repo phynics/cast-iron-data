@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** shield; **Price** 20,170 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: shield
+Price: 20,170 gp
+Weight: 15 lbs.
+:::
 
 This +4 [heavy steel shield](ref/eq-armor/heavy-steel-shield) acts in all ways as a
 [dragonslayer's shield](ref/magic-armor/dragonslayers-shield), except it grants a +6 morale bonus on
@@ -30,6 +35,7 @@ morale bonus.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[remove fear](ref/spell/remove-fear), [shield of faith](ref/spell/shield-of-faith); **Price** 10,170
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [remove fear](ref/spell/remove-fear), [shield of faith](ref/spell/shield-of-faith)
+Price: 10,170 gp
+:::

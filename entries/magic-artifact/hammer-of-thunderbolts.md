@@ -26,8 +26,13 @@ aura = "strong evocation, necromancy, and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation, necromancy, and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 15 lbs.
+::: statblock
+Aura: strong evocation, necromancy, and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 15 lbs.
+:::
 
 This +3 Large [returning](ref/magic-enh/returning) [warhammer](ref/eq-weapon/warhammer) deals 2d6
 points of damage on a successful hit. In the hands of a wielder who wears a

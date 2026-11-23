@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "13th"
 +++
 
-**Aura** strong necromancy; **CL** 13th\
-**Slot** none; **Price** 24,310 gp; **Weight** 12 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 13th
+Slot: none
+Price: 24,310 gp
+Weight: 12 lbs.
+:::
 
 A flaying halberd is a +1 [halberd](ref/eq-weapon/halberd) that can be used to slice off large
 swaths of a creature's skin. In combat, a character can denote a maximum of one attack per round to
@@ -37,6 +42,7 @@ immune to flaying strikes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bleed](ref/spell/bleed), [inflict critical wounds](ref/spell/inflict-critical-wounds); **Price**
-12,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bleed](ref/spell/bleed), [inflict critical wounds](ref/spell/inflict-critical-wounds)
+Price: 12,310 gp
+:::

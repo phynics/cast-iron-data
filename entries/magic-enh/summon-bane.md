@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 A summon bane weapon excels against summoned creatures, including those summoned by conjuration
 (summoning) spells (such as _[summon monster](ref/spell/summon-monster)_ and
@@ -33,6 +38,7 @@ damage against such foes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster IV](ref/spell/summon-monster-4) or
-[summon nature's ally IV](ref/spell/summon-natures-ally-4); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster IV](ref/spell/summon-monster-4) or [summon nature's ally IV](ref/spell/summon-natures-ally-4)
+Price: -
+:::

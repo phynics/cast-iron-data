@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 As a swift action, the wielder can expend one use of mythic power to increase the weapon's
 enhancement bonus by half his mythic tier (minimum 1, to a maximum of a +6 enhancement bonus) and
@@ -30,6 +35,7 @@ give it the ability to bypass [damage reduction](ref/rule/damage-reduction). The
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [greater heroism](ref/spell/heroism-greater),
-[greater magic weapon](ref/spell/magic-weapon-greater); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [greater heroism](ref/spell/heroism-greater), [greater magic weapon](ref/spell/magic-weapon-greater)
+Price: -
+:::

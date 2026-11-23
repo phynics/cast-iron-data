@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 When a limning weapon is wielded, a pale glow outlines it. On a successful strike against a creature
 affected by a means of magical concealment, the weapon outlines the creature in
@@ -35,5 +40,7 @@ darkness or fog.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[faerie fire](ref/spell/faerie-fire); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [faerie fire](ref/spell/faerie-fire)
+Price: -
+:::

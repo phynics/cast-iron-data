@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** none; **Price** 8,810 gp; **Weight** 2 lbs.
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: none
+Price: 8,810 gp
+Weight: 2 lbs.
+:::
 
 As black as coal, this short sword grows more potent the farther it is kept from light. It acts as a
 +1 [short sword](ref/eq-weapon/short-sword) when in [dim light](ref/rule/vision-and-light). In
@@ -37,5 +42,7 @@ no longer in the bright light.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deeper darkness](ref/spell/deeper-darkness); **Price** 4,560 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deeper darkness](ref/spell/deeper-darkness)
+Price: 4,560 gp
+:::

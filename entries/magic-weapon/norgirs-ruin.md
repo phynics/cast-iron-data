@@ -21,8 +21,13 @@ aura = "strong evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong evocation; **CL** 15th\
-**Slot** none; **Price** 91,712 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 15th
+Slot: none
+Price: 91,712 gp
+Weight: 5 lbs.
+:::
 
 Norgir's Ruin is an intelligent +2 dwarf [bane](ref/magic-enh/bane)
 [warhammer](ref/eq-weapon/warhammer). It has spent the past several generations in the possession of
@@ -35,10 +40,10 @@ duergar, changes its alignment to lawful good, and raises its Wisdom score up to
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic), [earthquake](ref/spell/earthquake),
-[invisibility purge](ref/spell/invisibility-purge), [summon monster I](ref/spell/summon-monster-1);
-**Price** 46,012 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic), [earthquake](ref/spell/earthquake), [invisibility purge](ref/spell/invisibility-purge), [summon monster I](ref/spell/summon-monster-1)
+Price: 46,012 gp
+:::
 
 ### Statistics
 

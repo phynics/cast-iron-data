@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** weapon; **Price** 13,715 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: weapon
+Price: 13,715 gp
+Weight: 2 lbs.
+:::
 
 Primarily used by the cliff-dwelling Shoanti of western Varisia's Shadde-Quah clan, a +1
 [Shoanti bolas](ref/eq-weapon/shoanti-bolas) is elementally enchanted. Each end of a bolas has its
@@ -39,6 +44,7 @@ the orb ended its movement.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aqueous orb](ref/spell/aqueous-orb), [ray of frost](ref/spell/ray-of-frost),
-[spark](ref/spell/spark); **Price** 7,015 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aqueous orb](ref/spell/aqueous-orb), [ray of frost](ref/spell/ray-of-frost), [spark](ref/spell/spark)
+Price: 7,015 gp
+:::

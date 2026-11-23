@@ -20,8 +20,13 @@ aura = "strong evocation (evil)"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation (evil); **CL** 20th\
-**Slot** weapon; **Price** -; **Weight** 10 lbs.
+::: statblock
+Aura: strong evocation (evil)
+CL: 20th
+Slot: weapon
+Price: -
+Weight: 10 lbs.
+:::
 
 The favored blade of the Storm King, Noriznigath is named for the first nascent demon lord it was
 used to behead, and is a Large +6 [unholy](ref/magic-enh/unholy)

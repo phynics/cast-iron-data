@@ -20,8 +20,13 @@ aura = "strong divination and enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong divination and enchantment; **CL** 12th\
-**Slot** none; **Price** 50,000 gp; **Weight** 3 lbs.
+::: statblock
+Aura: strong divination and enchantment
+CL: 12th
+Slot: none
+Price: 50,000 gp
+Weight: 3 lbs.
+:::
 
 This wooden marotte is topped with a jester's head whose comical face takes on the likeness of the
 wielder. As a free action, the wielder of a fool's scepter can speak through the jester's head and
@@ -47,6 +52,7 @@ always answers in a voice that is loud enough to be audible to the subject of th
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [ghost sound](ref/spell/ghost-sound),
-[hideous laughter](ref/spell/hideous-laughter), [legend lore](ref/spell/legend-lore); **Cost**
-25,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [ghost sound](ref/spell/ghost-sound), [hideous laughter](ref/spell/hideous-laughter), [legend lore](ref/spell/legend-lore)
+Cost: 25,000 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A shadow urn is a simple clay pot that has been imbued with ashes that have passed through the
 [hourglass of shadows](ref/magic-artifact/hourglass-of-shadows). When a shadow urn is broken, the

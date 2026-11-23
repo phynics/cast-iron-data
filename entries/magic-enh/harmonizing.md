@@ -20,8 +20,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** armor quality; **Price** +15,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: armor quality
+Price: +15,000 gp
+Weight: -
+:::
 
 Every step taken in harmonizing armor produces a symphony of sounds. The armor harmonizes with music
 played, lyrics sung, and words spoken by its wearer, creating a pleasant counter-melody. Its wearer
@@ -39,5 +44,7 @@ The harmonizing ability can be applied to any armor, but not shields.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major image](ref/spell/major-image) or bardic performance; **Price** +7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major image](ref/spell/major-image) or bardic performance
+Price: +7,500 gp
+:::

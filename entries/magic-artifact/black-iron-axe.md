@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 When a mythic creature uses this +6 [keen](ref/magic-enh/keen) [vorpal](ref/magic-enh/vorpal)
 [greataxe](ref/eq-weapon/greataxe) forged from a dull black alloy to decapitate his foes, the axe's

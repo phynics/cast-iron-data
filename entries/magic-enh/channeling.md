@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** +18,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: +18,000 gp
+Weight: -
+:::
 
 A shield with this special ability is crafted to resemble an angel or other outsider holding a basin
 of some sort, and is engraved with holy symbols. The shield is keyed to either positive or negative
@@ -32,6 +37,7 @@ points.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cure](ref/spell/cure-moderate-wounds)/[inflict moderate wounds](ref/spell/inflict-moderate-wounds),
-creator must be able to channel energy; **Price** +9,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cure](ref/spell/cure-moderate-wounds)/[inflict moderate wounds](ref/spell/inflict-moderate-wounds), creator must be able to channel energy
+Price: +9,000 gp
+:::

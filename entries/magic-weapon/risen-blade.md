@@ -20,8 +20,13 @@ aura = "moderate evocation and necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation and necromancy; **CL** 10th\
-**Slot** none; **Price** 23,320 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation and necromancy
+CL: 10th
+Slot: none
+Price: 23,320 gp
+Weight: 8 lbs.
+:::
 
 As servants of the rightful ruler of Osirion, the Ruby Prince Khemet III, members of the
 organization known as the [Risen Guard](ref/rule/f-second-life) often wield these specially ordained
@@ -42,6 +47,7 @@ A risen blade can store up to 5 charges. Each charge dissipates if not used with
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flame strike](ref/spell/flame-strike), creator must be a 9th-level cleric capable of channeling
-positive energy; **Price** 11,820 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flame strike](ref/spell/flame-strike), creator must be a 9th-level cleric capable of channeling positive energy
+Price: 11,820 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Though this tube resembles a simple copper pipe, its exotic metal reshapes the flow of time itself.
 A thought record measures 1 foot in length, and despite its light weight, it resists sudden

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** armor; **Price** 8,350 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: armor
+Price: 8,350 gp
+Weight: 30 lbs.
+:::
 
 This suit of Large +2 [scale mail](ref/eq-armor/scale-mail) [barding](ref/eq-armor/barding) is
 equipped with leather straps and loops suitable for attaching harnesses and leashes. It can fit any
@@ -32,5 +37,7 @@ is created.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[awaken](ref/spell/awaken); **Price** 4,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [awaken](ref/spell/awaken)
+Price: 4,350 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 Forged from solid steel, this magically animated prosthetic hand is elaborately sculpted down to the
 finest detail. Nargrym's steel hand can be used to replace the normal hand of a humanoid creature -

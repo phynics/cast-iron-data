@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** armor; **Price** 20,165 gp; **Weight** 25 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: armor
+Price: 20,165 gp
+Weight: 25 lbs.
+:::
 
 This +1 [hide](ref/eq-armor/hide) armor is stitched together from grizzly bear hides. When the
 wearer rages, she automatically turns into a Large brown bear, as if using
@@ -31,5 +36,7 @@ When the rage ends, the wearer reverts to her own form.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[beast shape II](ref/spell/beast-shape-2); **Price** 10,165 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [beast shape II](ref/spell/beast-shape-2)
+Price: 10,165 gp
+:::

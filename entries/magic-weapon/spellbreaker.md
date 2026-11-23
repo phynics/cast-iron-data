@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** none; **Price** 71,600 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: none
+Price: 71,600 gp
+Weight: 4 lbs.
+:::
 
 Only one end of this iron-shod +3 [quarterstaff](ref/eq-weapon/quarterstaff) has an enhancement
 bonus. The enhanced end acts as a [bane](ref/magic-enh/bane) weapon against any creature with the
@@ -35,6 +40,7 @@ spellcasters inside any _[antimagic field](ref/spell/antimagic-field)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter), [antimagic field](ref/spell/antimagic-field); **Price**
-36,100 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [antimagic field](ref/spell/antimagic-field)
+Price: 36,100 gp
+:::

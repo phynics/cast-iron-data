@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** none; **Price** 26,900 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: none
+Price: 26,900 gp
+Weight: 3 lbs.
+:::
 
 Black feathers adorn the tips of this ebony +1 [composite longbow](ref/eq-weapon/composite-longbow)
 (+5 Strength bonus). The bow gives off the faint scent of brimstone when the string is drawn back.
@@ -39,6 +44,7 @@ effect. This manifests as a pulsating darkness emerging from the bow and swallow
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[dust of twilight](ref/spell/dust-of-twilight), [thundering drums](ref/spell/thundering-drums);
-**Price** 13,750 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [dust of twilight](ref/spell/dust-of-twilight), [thundering drums](ref/spell/thundering-drums)
+Price: 13,750 gp
+:::

@@ -26,8 +26,13 @@ aura = "strong enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 Each of these fabled Orbs contains the essence and personality of an ancient dragon of a different
 variety (one for each of the major ten different chromatic and metallic dragons). The bearer of an

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 4,305 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 4,305 gp
+Weight: 2 lbs.
+:::
 
 The lashing aklys was first invented by [derro](ref/monster/derro) magisters to bolster their
 ability to upend their foes. A lashing aklys is a +1 [aklys](ref/eq-weapon/aklys) that grants a +2
@@ -31,5 +36,7 @@ attempts against foes of up to two size categories larger than you with a lashin
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope); **Price** 2,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope)
+Price: 2,305 gp
+:::

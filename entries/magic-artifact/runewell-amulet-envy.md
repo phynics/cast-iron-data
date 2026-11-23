@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** neck; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: neck
+Price: -
+Weight: -
+:::
 
 Since Belimarius's runewell is defective, her runewell amulet is not as powerful as those worn by
 certain other runelords. It grants a +5 enhancement bonus to her natural armor. In addition, she can

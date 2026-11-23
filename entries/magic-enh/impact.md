@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** weapon quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: weapon quality
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons that are not light weapons. An impact
 weapon delivers a potent kinetic jolt when it strikes, dealing damage as if the weapon were
@@ -33,6 +38,7 @@ those in which a weapon is used, such as [Bull Rush Strike](ref/feat/bull-rush-s
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [lead blades](ref/spell/lead-blades),
-[righteous might](ref/spell/righteous-might) or [giant form I](ref/spell/giant-form-1); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [lead blades](ref/spell/lead-blades), [righteous might](ref/spell/righteous-might) or [giant form I](ref/spell/giant-form-1)
+Price: -
+:::

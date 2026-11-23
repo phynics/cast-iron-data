@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shield; **Price** 14,080 gp; **Weight** 30 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shield
+Price: 14,080 gp
+Weight: 30 lbs.
+:::
 
 Once per day as a standard action, the wielder of this +2 [adamantine](ref/eq-material/adamantine)
 [tower shield](ref/eq-armor/tower-shield) can conjure two _spiritual allies_ (as per the spell).
@@ -31,5 +36,7 @@ have the [Shield Wall](ref/feat/shield-wall) teamwork feat.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spiritual ally](ref/spell/spiritual-ally); **Price** 9,580 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spiritual ally](ref/spell/spiritual-ally)
+Price: 9,580 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 11,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 11,160 gp
+Weight: 15 lbs.
+:::
 
 This +1 [slick](ref/magic-enh/slick) [leather](ref/eq-armor/leather) armor is made of shining,
 slippery eelskin that allows the wearer to move with deadly grace and sudden swiftness, especially
@@ -33,6 +38,7 @@ does leave the water, her surprise round turn immediately ends.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease), [invisibility](ref/spell/invisibility),
-[touch of the sea](ref/spell/touch-of-the-sea); **Price** 5,660 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease), [invisibility](ref/spell/invisibility), [touch of the sea](ref/spell/touch-of-the-sea)
+Price: 5,660 gp
+:::

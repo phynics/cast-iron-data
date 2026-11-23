@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "17th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 17th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 17th
+Slot: none
+Price: -
+Weight: -
+:::
 
 These topaz stones polished by the sea's embrace are carved with powerful runes of the ancient
 azlanti. these runes bestow two beneficial effects: First, you may pass many azlanti wards and

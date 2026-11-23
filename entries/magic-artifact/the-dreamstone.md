@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 The dreamstone's primary function is to surround itself with a stable dreamscape within the
 [Dimension of Dreams](ref/rule/dimension-of-dreams). The dreamstone's radius is fluid and

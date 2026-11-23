@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "18th"
 +++
 
-**Aura** strong evocation; **CL** 18th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 18th
+Slot: none
+Price: -
+Weight: -
+:::
 
 An evil divine spellcaster who possesses this item can cause a flaming crack to open at the feet of
 a good divine spellcaster who is up to 100 feet away. The intended victim is swallowed up forever

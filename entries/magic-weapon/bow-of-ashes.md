@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration; **CL** 8th\
-**Slot** none; **Price** 11,400 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 8th
+Slot: none
+Price: 11,400 gp
+Weight: 3 lbs.
+:::
 
 This +1 [adaptive](ref/magic-enh/adaptive) [flaming](ref/magic-enh/flaming)
 [composite longbow](ref/eq-weapon/composite-longbow) is made of a single piece of petrified wood
@@ -34,6 +39,7 @@ with total concealment). The ash arrow crumbles to nothing 1 round after leaving
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fireball](ref/spell/fireball) or [flame blade](ref/spell/flame-blade),
-[warp wood](ref/spell/warp-wood); **Price** 5,900 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fireball](ref/spell/fireball) or [flame blade](ref/spell/flame-blade), [warp wood](ref/spell/warp-wood)
+Price: 5,900 gp
+:::

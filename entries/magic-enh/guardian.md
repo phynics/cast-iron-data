@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A guardian weapon allows the wielder to
 transfer some or all of the weapon's enhancement bonus to his saving throws as a bonus that stacks
@@ -40,5 +45,7 @@ single point of enhancement bonus increases either AC or saving throws, but not 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[resistance](ref/spell/resistance); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [resistance](ref/spell/resistance)
+Price: -
+:::

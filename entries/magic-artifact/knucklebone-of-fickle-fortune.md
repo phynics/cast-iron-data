@@ -23,8 +23,13 @@ aura = "strong (all schools)"
 caster_level = "20th"
 +++
 
-**Aura** strong (all schools); **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools)
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 At first sight, the artifact appears to be nothing more than a piece of bone worn down to a near
 sphere, but when a creature picks it up, the knucklebone's true power and nature becomes apparent.

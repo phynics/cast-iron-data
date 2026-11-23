@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can be placed only on a shield. Once per day, a singing shield's bearer can
 command the shield to sing for 10 rounds to counter magical effects that depend on sound (as the
@@ -31,5 +36,7 @@ countersong.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[sound burst](ref/spell/sound-burst); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [sound burst](ref/spell/sound-burst)
+Price: +1 bonus
+:::

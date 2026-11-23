@@ -23,8 +23,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: -
+:::
 
 The spindle of perfect knowledge is large, bright, and flawless marquise-cut diamond
 [ioun stone](ref/magic-wondrous/ioun-stone) the size of a halfling's fist. The gemstone would be a

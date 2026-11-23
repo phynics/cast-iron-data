@@ -20,8 +20,13 @@ aura = "faint divination and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination and transmutation; **CL** 3rd\
-**Slot** shield; **Price** 2,527 gp; **Weight** 10 lbs.
+::: statblock
+Aura: faint divination and transmutation
+CL: 3rd
+Slot: shield
+Price: 2,527 gp
+Weight: 10 lbs.
+:::
 
 This +1 [heavy wooden shield](ref/eq-armor/heavy-wooden-shield) looks like it is made from pieces of
 driftwood lashed together with seaweed. The bearer may use
@@ -32,5 +37,7 @@ her.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[know direction](ref/spell/know-direction), [warp wood](ref/spell/warp-wood); **Price** 1,342 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [know direction](ref/spell/know-direction), [warp wood](ref/spell/warp-wood)
+Price: 1,342 gp
+:::

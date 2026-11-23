@@ -19,8 +19,12 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Price** +7,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Price: +7,000 gp
+Weight: -
+:::
 
 As a standard action, the wielder of a liberating weapon can free herself or an adjacent creature
 from spells and abilities that inhibit movement, such as paralysis,
@@ -31,6 +35,7 @@ spell or effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[dispel magic](ref/spell/dispel-magic), [freedom of movement](ref/spell/freedom-of-movement);
-**Price** +3,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [dispel magic](ref/spell/dispel-magic), [freedom of movement](ref/spell/freedom-of-movement)
+Price: +3,500 gp
+:::

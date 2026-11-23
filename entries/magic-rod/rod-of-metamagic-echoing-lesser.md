@@ -22,14 +22,20 @@ caster_level = "17th"
 
 ## Rod of Metamagic, Echoing
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to
-6th-level spells\]), 121,500 gp (greater \[all spells\]); **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 14,000 gp (lesser \[up to 3rd-level spells\]), 54,000 gp (normal \[up to 6th-level spells\]), 121,500 gp (greater \[all spells\])
+Weight: 5 lbs.
+:::
 
 The wielder can cast up to three spells per day that can be cast an additional time that day as if
 using the Echoing Spell feat.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Echoing Spell](ref/feat/echoing-spell); **Cost**
-7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Echoing Spell](ref/feat/echoing-spell)
+Cost: 7,000 gp (lesser), 27,000 gp (normal), 60,750 gp (greater)
+:::

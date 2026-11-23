@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 10th\
-**Slot** armor; **Price** 8,950 gp; **Weight** 75 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 10th
+Slot: armor
+Price: 8,950 gp
+Weight: 75 lbs.
+:::
 
 This suit of +1 [stoneplate](ref/eq-armor/stoneplate) bears a horned [gorgon's](ref/monster/gorgon)
 head on each shoulder and the screaming face of a [medusa](ref/monster/medusa) on its breastplate.
@@ -35,5 +40,7 @@ of the wearer's body without hindering her movement.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[stone to flesh](ref/spell/stone-to-flesh); **Price** 5,450 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [stone to flesh](ref/spell/stone-to-flesh)
+Price: 5,450 gp
+:::

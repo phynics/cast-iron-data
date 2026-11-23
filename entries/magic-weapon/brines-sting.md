@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "8th"
 +++
 
-**Aura** moderate necromancy; **CL** 8th\
-**Slot** none; **Price** 10,320 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 8th
+Slot: none
+Price: 10,320 gp
+Weight: 2 lbs.
+:::
 
 Brine's Sting is a slim +1 [rapier](ref/eq-weapon/rapier) with a hilt guard in the shape of a
 writhing purple sea snake. On a successful hit that deals damage, the target must succeed at a DC 14
@@ -33,5 +38,7 @@ form around the wound.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[horrid wilting](ref/spell/horrid-wilting); **Price** 5,320 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [horrid wilting](ref/spell/horrid-wilting)
+Price: 5,320 gp
+:::

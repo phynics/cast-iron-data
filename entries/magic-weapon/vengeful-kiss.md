@@ -20,8 +20,13 @@ aura = "faint illusion, necromancy, and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion, necromancy, and transmutation; **CL** 5th\
-**Slot** none; **Price** 11,501 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint illusion, necromancy, and transmutation
+CL: 5th
+Slot: none
+Price: 11,501 gp
+Weight: 2 lbs.
+:::
 
 This +1 [deadly](ref/magic-enh/deadly) [whip](ref/eq-weapon/whip) is made of braided black and
 yellow leather cords, and is as strong as a silk rope. The bearer of a vengeful kiss can activate
@@ -31,6 +36,7 @@ creature wielding the whip can use _[invigorate](ref/spell/invigorate)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate rope](ref/spell/animate-rope), [inflict light wounds](ref/spell/inflict-light-wounds),
-[invigorate](ref/spell/invigorate); **Price** 5,901 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate rope](ref/spell/animate-rope), [inflict light wounds](ref/spell/inflict-light-wounds), [invigorate](ref/spell/invigorate)
+Price: 5,901 gp
+:::

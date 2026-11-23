@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** none; **Price** 30,000 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: none
+Price: 30,000 gp
+Weight: 10 lbs.
+:::
 
 The stone handle of this +3 [adamantine](ref/eq-material/adamantine)
 [warhammer](ref/eq-weapon/warhammer) is carved in the form of a stately dwarven woman. The wielder
@@ -31,5 +36,7 @@ wielder is a humanoid with the dwarf subtype, this bonus increases to +10.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fabricate](ref/spell/fabricate); **Price** 16,506 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fabricate](ref/spell/fabricate)
+Price: 16,506 gp
+:::

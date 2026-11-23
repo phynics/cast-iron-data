@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 17,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 17,315 gp
+Weight: 4 lbs.
+:::
 
 The pommel of this ornate +2 [longsword](ref/eq-weapon/longsword) is made to look like a coiled
 golden dragon with six small diamond scales running down its back. When made, this sword holds 6
@@ -32,5 +37,7 @@ longsword.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heroic fortune](ref/spell/heroic-fortune); **Price** 8,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heroic fortune](ref/spell/heroic-fortune)
+Price: 8,815 gp
+:::

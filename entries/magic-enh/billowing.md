@@ -20,8 +20,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Billowing armor constantly creates a cushion of elemental air around the wearer. The wearer is
 immune to additional damage from constriction and damage from being buried, although he gains no
@@ -31,6 +36,7 @@ by half.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cushioning bands](ref/spell/cushioning-bands), [feather fall](ref/spell/feather-fall); **Price** +1
-bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cushioning bands](ref/spell/cushioning-bands), [feather fall](ref/spell/feather-fall)
+Price: +1 bonus
+:::

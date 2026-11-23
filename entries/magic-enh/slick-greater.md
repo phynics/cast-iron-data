@@ -23,12 +23,19 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** armor quality; **Price** +33,750 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: armor quality
+Price: +33,750 gp
+Weight: -
+:::
 
 As [slick](ref/magic-enh/slick), except it grants a +15 competence bonus on Escape Artist checks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease); **Price** +16,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease)
+Price: +16,875 gp
+:::

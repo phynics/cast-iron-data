@@ -20,8 +20,13 @@ aura = "moderate evocation [cold]"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation \[cold\]; **CL** 8th\
-**Slot** none; **Price** 16,955 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation \[cold\]
+CL: 8th
+Slot: none
+Price: 16,955 gp
+Weight: 4 lbs.
+:::
 
 This +1 [frost](ref/magic-enh/frost) [scimitar](ref/eq-weapon/scimitar) has been forged from a
 single piece of razor-sharp, super-hardened ice. A rimeblade automatically resizes itself to match
@@ -45,7 +50,7 @@ after a single attack, regardless of whether the attack is successful or not.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Elemental Spell](ref/feat/elemental-spell), [Rime Spell](ref/feat/rime-spell),
-[chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm),
-[flame blade](ref/spell/flame-blade), [frigid touch](ref/spell/frigid-touch); **Price** 8,635 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Elemental Spell](ref/feat/elemental-spell), [Rime Spell](ref/feat/rime-spell), [chill metal](ref/spell/chill-metal) or [ice storm](ref/spell/ice-storm), [flame blade](ref/spell/flame-blade), [frigid touch](ref/spell/frigid-touch)
+Price: 8,635 gp
+:::

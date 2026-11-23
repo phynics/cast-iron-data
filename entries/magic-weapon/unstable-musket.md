@@ -20,8 +20,12 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Weight** 9 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Weight: 9 lbs.
+:::
 
 This item seems to be a normal +1 [musket](ref/eq-weapon/musket) but has a misfire chance of 1-5. No
 effect or ability can reduce this misfire chance. This musket must be used as its owner's primary
@@ -30,4 +34,7 @@ ranged weapon and can only be discarded after the owner is subject to a
 
 ### Construction
 
-**Requirements** +1 musket; **Cost** -
+::: statblock
+Requirements: +1 musket
+Cost: -
+:::

@@ -20,8 +20,12 @@ aura = "strong transmutation"
 caster_level = "12th"
 +++
 
-**Aura** strong transmutation; **CL** 12th\
-**Slot** body; **Weight** 30 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 12th
+Slot: body
+Weight: 30 lbs.
+:::
 
 Designed to resemble the wide scales on a serpent's belly, this armor functions as a +1
 [breastplate](ref/eq-armor/breastplate) of [fire resistance](ref/magic-enh/energy-resistance). The
@@ -36,4 +40,7 @@ constructs and undead.
 
 ### Construction
 
-**Requirements** +1 breastplate of fire resistance; **Cost** -
+::: statblock
+Requirements: +1 breastplate of fire resistance
+Cost: -
+:::

@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** none; **Price** 18,650 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: none
+Price: 18,650 gp
+Weight: 4 lbs.
+:::
 
 The magical properties of this +1 [trident](ref/eq-weapon/trident) with a 6-foot-long haft enable
 its wielder to charm up to 14 Hit Dice of aquatic animals as per the spell
@@ -37,6 +42,7 @@ trident.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[charm animal](ref/spell/charm-animal), [speak with animals](ref/spell/speak-with-animals);
-**Price** 9,482 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [charm animal](ref/spell/charm-animal), [speak with animals](ref/spell/speak-with-animals)
+Price: 9,482 gp
+:::

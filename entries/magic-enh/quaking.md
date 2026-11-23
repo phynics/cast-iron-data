@@ -19,8 +19,12 @@ aura = "faint evocation"
 caster_level = "6th"
 +++
 
-**Aura** faint evocation; **CL** 6th\
-**Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 6th
+Price: +2 bonus
+Weight: -
+:::
 
 This special ability can be placed only on melee bludgeoning weapons. The wielder of a quaking
 weapon can strike the ground as a standard action to perform a [trip](ref/rule/trip) combat maneuver
@@ -32,5 +36,7 @@ this special trip combat maneuver check.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater thunderstomp](ref/spell/thunderstomp-greater); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater thunderstomp](ref/spell/thunderstomp-greater)
+Price: -
+:::

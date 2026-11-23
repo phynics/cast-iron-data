@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A neutralizing weapon thrust into up to 1
 gallon of nonmagical corrosive liquid transforms it into harmless water. When used against a
@@ -31,5 +36,7 @@ the weapon itself is immune to acid damage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[purify food and drink](ref/spell/purify-food-and-drink); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [purify food and drink](ref/spell/purify-food-and-drink)
+Price: -
+:::

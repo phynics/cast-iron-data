@@ -23,8 +23,13 @@ aura = "moderate divination"
 caster_level = "10th"
 +++
 
-**Aura** moderate divination; **CL** 10th\
-**Slot** none; **Price** 23,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate divination
+CL: 10th
+Slot: none
+Price: 23,500 gp
+Weight: 5 lbs.
+:::
 
 This device pulses in the wielder's hand and points in the direction of any creature or creatures
 hostile to the bearer of the device (nearest ones first). These creatures can be invisible,
@@ -35,5 +40,7 @@ each use lasting up to 10 minutes. Activating the rod is a standard action.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [true seeing](ref/spell/true-seeing); **Cost**
-23,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [true seeing](ref/spell/true-seeing)
+Cost: 23,500 gp
+:::

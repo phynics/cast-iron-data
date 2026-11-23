@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 16,101 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 16,101 gp
+Weight: 1 lb.
+:::
 
 The cross-guard and tines of this +2 [adamantine](ref/eq-material/adamantine)
 [sai](ref/eq-weapon/sai) are crafted of a mysterious red metal, adorned with grinning skulls. The
@@ -34,5 +39,7 @@ day and affects only the victim of the attack.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[silence](ref/spell/silence), [slay living](ref/spell/slay-living); **Price** 9,551 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [silence](ref/spell/silence), [slay living](ref/spell/slay-living)
+Price: 9,551 gp
+:::

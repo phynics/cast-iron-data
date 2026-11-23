@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** none; **Price** 50,302 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: none
+Price: 50,302 gp
+Weight: 2 lbs.
+:::
 
 This +2 [keen](ref/magic-enh/keen) [returning](ref/magic-enh/returning) [spear](ref/eq-weapon/spear)
 is adorned with feathers and fur, as well as with a bright steel chain that trails down from the top
@@ -39,5 +44,7 @@ rush ends.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[keen edge](ref/spell/keen-edge), [telekinesis](ref/spell/telekinesis); **Price** 25,302 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [keen edge](ref/spell/keen-edge), [telekinesis](ref/spell/telekinesis)
+Price: 25,302 gp
+:::

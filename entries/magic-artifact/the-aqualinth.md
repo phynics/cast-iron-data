@@ -20,8 +20,13 @@ aura = "strong (all schools) [evil]"
 caster_level = "18th"
 +++
 
-**Aura** strong (all schools) \[evil\]; **CL** 18th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (all schools) \[evil\]
+CL: 18th
+Slot: none
+Price: -
+Weight: -
+:::
 
 A strange statue of some unknown dark material resembling unnaturally slippery stone, this idol is
 carved in the shape of something at once unrecognizable and terrifyingly organic, and possesses a

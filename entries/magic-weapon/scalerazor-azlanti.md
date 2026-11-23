@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate transmutation; **CL** 8th\
-**Slot** none; **Price** 35,315 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 8th
+Slot: none
+Price: 35,315 gp
+Weight: 4 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -34,6 +39,7 @@ the new result, even if it is worse.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[protection from evil](ref/spell/protection-from-evil),
-[summon monster I](ref/spell/summon-monster-1), creator must be an Azlanti; **Price** 17,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [protection from evil](ref/spell/protection-from-evil), [summon monster I](ref/spell/summon-monster-1), creator must be an Azlanti
+Price: 17,815 gp
+:::

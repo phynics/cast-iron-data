@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A spellstealing weapon allows its wielder
 to siphon protective magic from a target and transfer it to herself. When the wielder rolls a
@@ -36,6 +41,7 @@ additional spell effect per additional multiple beyond ×2 (two effects for ×3,
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[greater arcane sight](ref/spell/arcane-sight-greater), [limited wish](ref/spell/limited-wish);
-**Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [greater arcane sight](ref/spell/arcane-sight-greater), [limited wish](ref/spell/limited-wish)
+Price: -
+:::

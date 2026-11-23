@@ -20,8 +20,13 @@ aura = "strong enchantment, illusion, necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong enchantment, illusion, necromancy; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong enchantment, illusion, necromancy
+CL: 20th
+Slot: head
+Price: -
+Weight: 4 lbs.
+:::
 
 Kazavon's teeth were set into a jeweled circlet of gold, creating the Crown of Fangs. The crown
 grants its wearer a +6 enhancement bonus to Constitution and Charisma, as well as

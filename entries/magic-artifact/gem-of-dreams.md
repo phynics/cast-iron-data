@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 No record of where Kamaria found this potent artifact exists, although many believe she discovered
 it while exploring a remote corner of the nightmare realm of [Leng](ref/rule/leng). The Gem of

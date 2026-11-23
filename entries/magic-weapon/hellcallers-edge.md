@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** weapon; **Price** 20,350 gp; **Weight** 8 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: weapon
+Price: 20,350 gp
+Weight: 8 lbs.
+:::
 
 Bestowed as rewards for unwavering loyalty to [Hellknight](ref/rule/aff-lawknights) paravicars of
 great renown, these filigreed +2 [greatswords](ref/eq-weapon/greatsword) pulse with a sickening
@@ -37,5 +42,7 @@ resistance or immunity.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[flame strike](ref/spell/flame-strike), caster level 6th; **Price** 10,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [flame strike](ref/spell/flame-strike), caster level 6th
+Price: 10,350 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "6th"
 +++
 
-**Aura** moderate necromancy; **CL** 6th\
-**Slot** none; **Price** 4,310 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate necromancy
+CL: 6th
+Slot: none
+Price: 4,310 gp
+Weight: 1 lb.
+:::
 
 A wizard hook is a +1 [hook hand](ref/eq-weapon/hook-hand) and a useful item for any arcane
 spellcaster. Although a wizard hook does not allow for fine manipulation, it is infused with magic
@@ -34,5 +39,7 @@ save DC of the spell increases by +1, but you do not do hook hand damage).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[spectral hand](ref/spell/spectral-hand); **Price** 2,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [spectral hand](ref/spell/spectral-hand)
+Price: 2,310 gp
+:::

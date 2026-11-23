@@ -20,8 +20,13 @@ aura = "faint conjuration and transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration and transmutation; **CL** 3rd\
-**Slot** armor quality; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint conjuration and transmutation
+CL: 3rd
+Slot: armor quality
+Price: +2 bonus
+Weight: -
+:::
 
 When the wearer of a suit of rampaging armor [charges](ref/rule/charge) or attempts a
 [bull rush](ref/rule/bull-rush) combat maneuver check, he can ignore
@@ -32,5 +37,7 @@ of terrain remains for 1 minute. The rampaging special ability can be applied on
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[feather step](ref/spell/feather-step), [stone call](ref/spell/stone-call); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [feather step](ref/spell/feather-step), [stone call](ref/spell/stone-call)
+Price: +2 bonus
+:::

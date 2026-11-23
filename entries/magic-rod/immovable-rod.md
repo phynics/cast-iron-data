@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** none; **Price** 5,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: none
+Price: 5,000 gp
+Weight: 5 lbs.
+:::
 
 This rod looks like a flat iron bar with a small button on one end. When the button is pushed (a
 move action), the rod does not move from where it is, even if staying in place defies gravity. Thus,
@@ -36,4 +41,7 @@ a single round.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [levitate](ref/spell/levitate); **Cost** 2,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [levitate](ref/spell/levitate)
+Cost: 2,500 gp
+:::

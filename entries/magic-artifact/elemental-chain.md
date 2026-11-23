@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 This looks to be just two plain steel rings. But when a mythic creature grasping them expends one
 use of mythic power as a swift action, they explode into a 10-foot-long spiked fighting chain formed

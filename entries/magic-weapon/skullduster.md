@@ -21,8 +21,13 @@ aura = "strong abjuration and conjuration"
 caster_level = "14th"
 +++
 
-**Aura** strong abjuration and conjuration; **CL** 14th\
-**Slot** none; **Price** 104,508 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong abjuration and conjuration
+CL: 14th
+Slot: none
+Price: 104,508 gp
+Weight: 6 lbs.
+:::
 
 This +2 [disruption](ref/magic-enh/disruption) [morningstar's](ref/eq-weapon/morningstar) metal head
 resembles the face of a half-orc. The weapon can cast
@@ -34,9 +39,10 @@ further aid, grumbles constantly in Orc about treachery, and seeks a new owner.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death ward](ref/spell/death-ward), [heal](ref/spell/heal),
-[remove paralysis](ref/spell/remove-paralysis); **Price** 52,408 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death ward](ref/spell/death-ward), [heal](ref/spell/heal), [remove paralysis](ref/spell/remove-paralysis)
+Price: 52,408 gp
+:::
 
 ### Statistics
 

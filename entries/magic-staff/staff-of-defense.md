@@ -24,8 +24,13 @@ aura = "strong abjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong abjuration; **CL** 15th\
-**Slot** none; **Price** 62,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong abjuration
+CL: 15th
+Slot: none
+Price: 62,000 gp
+Weight: 5 lbs.
+:::
 
 The staff of defense is a simple-looking polished wooden staff that throbs with power when held
 defensively. It allows use of the following spells:
@@ -37,6 +42,7 @@ defensively. It allows use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [shield](ref/spell/shield),
-[shield of faith](ref/spell/shield-of-faith), [shield of law](ref/spell/shield-of-law),
-[shield other](ref/spell/shield-other), creator must be lawful; **Cost** 31,000 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [shield](ref/spell/shield), [shield of faith](ref/spell/shield-of-faith), [shield of law](ref/spell/shield-of-law), [shield other](ref/spell/shield-other), creator must be lawful
+Cost: 31,000 gp
+:::

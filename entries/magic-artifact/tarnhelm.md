@@ -20,8 +20,13 @@ aura = "strong conjuration, illusion, and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration, illusion, and transmutation; **CL** 20th\
-**Slot** head; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong conjuration, illusion, and transmutation
+CL: 20th
+Slot: head
+Price: -
+Weight: 2 lbs.
+:::
 
 This [mithral](ref/eq-material/mithral) cap includes prominent guards for the eyes and nose. The
 helmet was forged under duress by a dwarven smith to further the ambitions of his mad brother. The

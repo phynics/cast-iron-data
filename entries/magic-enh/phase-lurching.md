@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration; **CL** 13th\
-**Slot** armor quality; **Price** +9,100 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 13th
+Slot: armor quality
+Price: +9,100 gp
+Weight: -
+:::
 
 Phase lurching armor takes on a shifting and immaterial appearance and radiates ghostly clouds of
 ectoplasm. The wearer of phase lurching armor has the ability to pass through walls or material
@@ -34,5 +39,7 @@ ability can be applied only to light armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[phase door](ref/spell/phase-door); **Price** 4,550 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [phase door](ref/spell/phase-door)
+Price: 4,550 gp
+:::

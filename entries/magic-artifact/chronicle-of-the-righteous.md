@@ -20,8 +20,13 @@ aura = "overwhelming (all schools) [good]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming (all schools) \[good\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: overwhelming (all schools) \[good\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 The Chronicle of the Righteous is the collected records of the good Outer Planes as written by the
 exiled [angel](ref/family/angel) Tabris, who was ordered to catalog the lore of all the multiverse

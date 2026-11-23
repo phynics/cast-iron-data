@@ -24,8 +24,13 @@ aura = "strong varies"
 caster_level = "13th"
 +++
 
-**Aura** strong varies; **CL** 13th\
-**Slot** none; **Price** 84,066 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong varies
+CL: 13th
+Slot: none
+Price: 84,066 gp
+Weight: 5 lbs.
+:::
 
 The carved surface of this solid oaken beam always depicts a scene with the opposite qualities of
 the current weather (rainy on dry days, dry on rainy days, and so on). It allows use of the
@@ -40,7 +45,7 @@ following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [control weather](ref/spell/control-weather),
-[fog cloud](ref/spell/fog-cloud), [gust of wind](ref/spell/gust-of-wind),
-[ice storm](ref/spell/ice-storm), [sleet storm](ref/spell/sleet-storm),
-[wind wall](ref/spell/wind-wall); **Cost** 42,033 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [control weather](ref/spell/control-weather), [fog cloud](ref/spell/fog-cloud), [gust of wind](ref/spell/gust-of-wind), [ice storm](ref/spell/ice-storm), [sleet storm](ref/spell/sleet-storm), [wind wall](ref/spell/wind-wall)
+Cost: 42,033 gp
+:::

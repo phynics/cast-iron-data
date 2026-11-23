@@ -23,8 +23,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 20th\
-**Slot** armor; **Price** -; **Weight** 30 lbs.
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 20th
+Slot: armor
+Price: -
+Weight: 30 lbs.
+:::
 
 Crafted from the skull of the dragon Kazavon, the Armor of Skulls is a Large intelligent +4
 [greater electricity resistance](ref/magic-enh/energy-resistance-greater)

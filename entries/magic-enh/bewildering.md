@@ -19,8 +19,12 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Price: +1 bonus
+Weight: -
+:::
 
 Three times per day, when the wielder of a bewildering weapon makes a successful attack with this
 weapon, in addition to dealing the weapon's normal damage, the wielder can inflict the
@@ -29,5 +33,7 @@ Will saving throw each round to end this effect.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[confusion](ref/spell/confusion); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [confusion](ref/spell/confusion)
+Price: -
+:::

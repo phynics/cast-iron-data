@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** none; **Price** 35,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: none
+Price: 35,312 gp
+Weight: 5 lbs.
+:::
 
 This massive +1 [ghost touch](ref/magic-enh/ghost-touch-weapon)
 [disruption](ref/magic-enh/disruption) [warhammer](ref/eq-weapon/warhammer) is crafted from a single
@@ -32,5 +37,7 @@ creature, that creature must succeed at a DC 20 Fortitude save or be knocked
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[heal](ref/spell/heal), [plane shift](ref/spell/plane-shift); **Price** 17,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [heal](ref/spell/heal), [plane shift](ref/spell/plane-shift)
+Price: 17,812 gp
+:::

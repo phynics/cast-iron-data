@@ -20,8 +20,13 @@ aura = "strong enchantment"
 caster_level = "18th"
 +++
 
-**Aura** strong enchantment; **CL** 18th\
-**Slot** none; **Price** 40,000 gp; **Weight** 6 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 18th
+Slot: none
+Price: 40,000 gp
+Weight: 6 lbs.
+:::
 
 This white, slender rod is engraved with decorative emblems of elephants, jackals, alligators, and
 other wild beasts, and is worth 2,000 gp because of its masterful craftsmanship. The wielder can
@@ -37,5 +42,7 @@ minutes of the rod's total duration every minute).
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [geas/quest](ref/spell/geas-quest),
-[mass charm monster](ref/spell/charm-monster-mass); **Cost** 21,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [geas/quest](ref/spell/geas-quest), [mass charm monster](ref/spell/charm-monster-mass)
+Cost: 21,000 gp
+:::

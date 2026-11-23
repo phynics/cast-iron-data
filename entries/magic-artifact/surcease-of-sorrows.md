@@ -20,8 +20,13 @@ aura = "overwhelming all"
 caster_level = "27th"
 +++
 
-**Aura** overwhelming all; **CL** 27th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: overwhelming all
+CL: 27th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 Surcease of Sorrows is a +4 [adamantine](ref/eq-material/adamantine) [impact](ref/magic-enh/impact)
 [repositioning](ref/magic-enh/repositioning) [heavy mace](ref/eq-weapon/heavy-mace) that resembles a

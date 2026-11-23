@@ -20,8 +20,13 @@ aura = "strong illusion and necromancy"
 caster_level = "19th"
 +++
 
-**Aura** strong illusion and necromancy; **CL** 19th\
-**Slot** none; **Price** 60,000 gp; **Weight** varies
+::: statblock
+Aura: strong illusion and necromancy
+CL: 19th
+Slot: none
+Price: 60,000 gp
+Weight: varies
+:::
 
 This +1 [vicious](ref/magic-enh/vicious) two-handed melee
 [shadowcraft weapon](ref/magic-weapon/shadowcraft-weapon) has the texture and consistency of
@@ -39,7 +44,7 @@ A torment of the Midnight Lord can be used as an unholy symbol divine focus of Z
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Create Reliquary Arms and Shields](ref/feat/create-reliquary-arms-and-shields),
-[major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon),
-[symbol of pain](ref/spell/symbol-of-pain); **Price** 30,000 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Create Reliquary Arms and Shields](ref/feat/create-reliquary-arms-and-shields), [major creation](ref/spell/major-creation), [shadow weapon](ref/spell/shadow-weapon), [symbol of pain](ref/spell/symbol-of-pain)
+Price: 30,000 gp
+:::

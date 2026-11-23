@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "14th"
 +++
 
-**Aura** strong divination; **CL** 14th\
-**Slot** none; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: strong divination
+CL: 14th
+Slot: none
+Price: +3 bonus
+Weight: -
+:::
 
 A set of sensing armor compensates when its wearer has been [blinded](ref/misc/blinded), is in total
 darkness (as long as the wearer doesn't have [darkvision](ref/rule/darkvision) or the
@@ -33,5 +38,7 @@ senses end. The wearer can't gain these abilities by closing her eyes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[true seeing](ref/spell/true-seeing); **Price** +3 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [true seeing](ref/spell/true-seeing)
+Price: +3 bonus
+:::

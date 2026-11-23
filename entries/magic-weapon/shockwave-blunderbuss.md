@@ -20,8 +20,13 @@ aura = "strong evocation"
 caster_level = "18th"
 +++
 
-**Aura** strong evocation; **CL** 18th\
-**Slot** none; **Price** 87,300 gp; **Weight** 8 lbs.
+::: statblock
+Aura: strong evocation
+CL: 18th
+Slot: none
+Price: 87,300 gp
+Weight: 8 lbs.
+:::
 
 Whenever the wielder fires pellets from this +2 [sonic boom](ref/magic-enh/sonic-boom)
 [blunderbuss](ref/eq-weapon/blunderbuss), she attempts a free combat maneuver check to
@@ -31,5 +36,7 @@ attacks of opportunity for these trip attempts and doesn't risk knocking herself
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[reverse gravity](ref/spell/reverse-gravity), [shout](ref/spell/shout); **Price** 44,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [reverse gravity](ref/spell/reverse-gravity), [shout](ref/spell/shout)
+Price: 44,800 gp
+:::

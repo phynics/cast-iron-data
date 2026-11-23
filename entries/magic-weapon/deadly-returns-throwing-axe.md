@@ -20,8 +20,12 @@ aura = "moderate evocation"
 caster_level = "8th"
 +++
 
-**Aura** moderate evocation; **CL** 8th\
-**Slot** none; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 8th
+Slot: none
+Weight: 2 lbs.
+:::
 
 This weapon appears to be a +2 [returning](ref/magic-enh/returning)
 [throwing axe](ref/eq-weapon/throwing-axe). Instead of the normal returning ability, this axe only
@@ -34,4 +38,7 @@ the deadly returns throwing axe always uses it as her primary weapon until subje
 
 ### Construction
 
-**Requirements** +2 _returning_ throwing axe; **Cost** -
+::: statblock
+Requirements: +2 _returning_ throwing axe
+Cost: -
+:::

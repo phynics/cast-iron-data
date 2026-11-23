@@ -26,8 +26,13 @@ aura = "overwhelming transmutation"
 caster_level = "30th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 30th\
-**Slot** none; **Price** -; **Weight** 300 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 30th
+Slot: none
+Price: -
+Weight: 300 lbs.
+:::
 
 The Codex is enormous - supposedly, it requires two strong men to lift it. No matter how many pages
 are turned, another always remains. Anyone opening the Codex for the first time is utterly

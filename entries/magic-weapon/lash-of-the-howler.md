@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** none; **Price** 18,305 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: none
+Price: 18,305 gp
+Weight: 3 lbs.
+:::
 
 The lash of the howler is a +1 [vicious](ref/magic-enh/vicious)
 [scorpion whip](ref/eq-weapon/scorpion-whip) tipped with quills torn from a howler's mane. Each time
@@ -34,6 +39,7 @@ still removed but the process deals 1d4+1 points of damage to the victim.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[enervation](ref/spell/enervation), [ray of sickening](ref/spell/ray-of-sickening); **Price** 9,305
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [enervation](ref/spell/enervation), [ray of sickening](ref/spell/ray-of-sickening)
+Price: 9,305 gp
+:::

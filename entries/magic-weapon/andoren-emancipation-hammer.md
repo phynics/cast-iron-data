@@ -20,8 +20,13 @@ aura = "moderate abjuration and evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration and evocation; **CL** 9th\
-**Slot** weapon; **Price** 13,312 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration and evocation
+CL: 9th
+Slot: weapon
+Price: 13,312 gp
+Weight: 5 lbs.
+:::
 
 A broken chain link of tempered steel is embedded in the head of this +1
 [warhammer](ref/eq-weapon/warhammer). If the wielder successfully uses the hammer to make an attack
@@ -38,5 +43,7 @@ as the compulsion doesn't prevent it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[break enchantment](ref/spell/break-enchantment), [shatter](ref/spell/shatter); **Price** 7,812 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [break enchantment](ref/spell/break-enchantment), [shatter](ref/spell/shatter)
+Price: 7,812 gp
+:::

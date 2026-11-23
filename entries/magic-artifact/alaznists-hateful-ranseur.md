@@ -20,8 +20,13 @@ aura = "strong evocation [evil]"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation \[evil\]; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: strong evocation \[evil\]
+CL: 20th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 Alaznist's Hateful Ranseur is a +3 [keen](ref/magic-enh/keen)
 [spell-storing](ref/magic-enh/spell-storing) [wounding](ref/magic-enh/wounding)

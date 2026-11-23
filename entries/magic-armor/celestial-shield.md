@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "7th"
 +++
 
-**Aura** moderate evocation; **CL** 7th\
-**Slot** shield; **Price** 13,170 gp; **Weight** 7 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 7th
+Slot: shield
+Price: 13,170 gp
+Weight: 7 lbs.
+:::
 
 This gold-edged +2 [blinding](ref/magic-enh/blinding)
 [heavy steel shield](ref/eq-armor/heavy-steel-shield) is impossibly light and handy despite its
@@ -36,6 +41,7 @@ once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[feather fall](ref/spell/feather-fall), [overland flight](ref/spell/overland-flight); **Price**
-6,670 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [feather fall](ref/spell/feather-fall), [overland flight](ref/spell/overland-flight)
+Price: 6,670 gp
+:::

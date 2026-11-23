@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 This special ability can only be placed on melee weapons. A seaborne weapon functions easily in
 watery environments. With the weapon in hand, the wielder gains a bonus on Swim checks equal to
@@ -31,6 +36,7 @@ _[freedom of movement](ref/spell/freedom-of-movement)._
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement),
-[touch of the sea](ref/spell/touch-of-the-sea); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement), [touch of the sea](ref/spell/touch-of-the-sea)
+Price: -
+:::

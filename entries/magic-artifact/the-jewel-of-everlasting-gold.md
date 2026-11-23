@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 5 lbs.
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 5 lbs.
+:::
 
 The jewel of everlasting gold is a fist-sized ruby mounted in a bejeweled, rune-carved scepter and
 held in place with platinum stems. Tar-Baphon,

@@ -20,8 +20,13 @@ aura = "varies"
 caster_level = "5th"
 +++
 
-**Aura** varies; **CL** 5th\
-**Slot** armor; **Price** 30,250 gp; **Weight** 15 lbs.
+::: statblock
+Aura: varies
+CL: 5th
+Slot: armor
+Price: 30,250 gp
+Weight: 15 lbs.
+:::
 
 This bizarre +1 [quilted cloth](ref/eq-armor/quilted-cloth) armor holds eight small vials that can
 be filled with potions, poisons, or other alchemical substances, plus numerous decoys. If the wearer
@@ -39,5 +44,7 @@ upon ingestion, the opponent can avoid being affected if she succeeds at a DC 15
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shrink item](ref/spell/shrink-item); **Price** 15,250 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shrink item](ref/spell/shrink-item)
+Price: 15,250 gp
+:::

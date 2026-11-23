@@ -20,8 +20,13 @@ aura = "strong conjuration and transmutation"
 caster_level = "13th"
 +++
 
-**Aura** strong conjuration and transmutation; **CL** 13th\
-**Slot** shield quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong conjuration and transmutation
+CL: 13th
+Slot: shield quality
+Price: +1 bonus
+Weight: -
+:::
 
 On command, a folding shield transforms to take on the form of another shield. As a move action, the
 wearer of a folding shield can change the shield from its current form into a
@@ -31,6 +36,7 @@ transform the folding shield.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[instant summons](ref/spell/instant-summons),
-[masterwork transformation](ref/spell/masterwork-transformation); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [instant summons](ref/spell/instant-summons), [masterwork transformation](ref/spell/masterwork-transformation)
+Price: +1 bonus
+:::

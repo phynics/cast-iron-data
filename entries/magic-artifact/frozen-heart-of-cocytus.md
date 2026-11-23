@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "15th"
 +++
 
-**Aura** strong divination; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong divination
+CL: 15th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 At a glance, this object appears to be a hard, dark, roughly egg-shaped rock. Closer inspection
 reveals it's actually a humanoid heart - frozen hard, solid, and covered in smooth ice. When

@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** weapon quality; **Price** +3 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: weapon quality
+Price: +3 bonus
+Weight: -
+:::
 
 When making a full-attack action, the wielder of a speed weapon may make one extra attack with it.
 The attack uses the wielder's full base attack bonus, plus any modifiers appropriate to the
@@ -33,5 +38,7 @@ _[haste](ref/spell/haste)_ spell.)
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[haste](ref/spell/haste); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [haste](ref/spell/haste)
+Price: -
+:::

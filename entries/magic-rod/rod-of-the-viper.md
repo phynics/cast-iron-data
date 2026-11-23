@@ -23,8 +23,13 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** none; **Price** 19,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: none
+Price: 19,000 gp
+Weight: 5 lbs.
+:::
 
 This rod strikes as a +2 [heavy mace](ref/eq-weapon/heavy-mace). Once per day, upon the wielder's
 command, the head of the rod becomes that of an actual serpent for 10 minutes. During this period,
@@ -36,6 +41,7 @@ The rod only functions if its possessor is evil.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod),
-[Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison),
-creator must be evil; **Cost** 9,500 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [poison](ref/spell/poison), creator must be evil
+Cost: 9,500 gp
+:::

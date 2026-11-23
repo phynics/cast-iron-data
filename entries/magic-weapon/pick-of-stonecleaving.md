@@ -20,8 +20,13 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** none; **Price** 11,308 gp; **Weight** 6 lbs.
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: none
+Price: 11,308 gp
+Weight: 6 lbs.
+:::
 
 When this +1 [adamantine](ref/eq-material/adamantine) [heavy pick](ref/eq-weapon/heavy-pick) is used
 to damage unattended objects, it deals an additional 2d6 points of damage. If the wielder expends
@@ -30,5 +35,7 @@ one use of mythic power when making such an attack, the pick bypasses the object
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[Mythic Crafter](ref/feat/mythic-crafter), [shatter](ref/spell/shatter); **Price** 7,308 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [Mythic Crafter](ref/feat/mythic-crafter), [shatter](ref/spell/shatter)
+Price: 7,308 gp
+:::

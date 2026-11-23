@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "6th"
 +++
 
-**Aura** moderate evocation; **CL** 6th\
-**Slot** none; **Price** 22,305 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 6th
+Slot: none
+Price: 22,305 gp
+Weight: 3 lbs.
+:::
 
 This rod functions as a +1 [flaming burst](ref/magic-enh/flaming-burst)
 [light mace](ref/eq-weapon/light-mace). Furthermore, when the rod confirms a critical hit, not only
@@ -37,6 +42,7 @@ by a confirmed critical hit.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike) or
-[fireball](ref/spell/fireball), [faerie fire](ref/spell/faerie-fire); **Cost** 11,305 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [flame blade](ref/spell/flame-blade), [flame strike](ref/spell/flame-strike) or [fireball](ref/spell/fireball), [faerie fire](ref/spell/faerie-fire)
+Cost: 11,305 gp
+:::

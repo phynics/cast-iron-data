@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** armor quality; **Price** +15,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: armor quality
+Price: +15,000 gp
+Weight: -
+:::
 
 On command, the wearer of a suit of radiant flight armor can conjure a pair of bat-like wings from
 her back that shed light like a [torch](ref/eq-misc/torch). These wings grant a fly speed of 30
@@ -31,5 +36,7 @@ armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fly](ref/spell/fly); **Price** 7,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fly](ref/spell/fly)
+Price: 7,500 gp
+:::

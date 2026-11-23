@@ -22,8 +22,13 @@ caster_level = "5th"
 
 ## Advancing
 
-**Aura** faint necromancy; **CL** 5th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint necromancy
+CL: 5th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 A suit of armor with the advancing special ability allows its wearer to move through fallen enemies
 to the forefront of any conflict. Once per round when the wearer of a suit of advancing armor
@@ -35,7 +40,9 @@ advancing special ability can be applied only to heavy armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[deadly juggernaut](ref/spell/deadly-juggernaut); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [deadly juggernaut](ref/spell/deadly-juggernaut)
+Price: +1 bonus
+:::
 
 > _See also: [advancing weapon enhancement](ref/magic-enh/advancing)_

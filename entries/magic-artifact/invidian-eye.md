@@ -20,8 +20,13 @@ aura = "strong abjuration and divination"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and divination; **CL** 20th\
-**Slot** neck; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong abjuration and divination
+CL: 20th
+Slot: neck
+Price: -
+Weight: 1 lb.
+:::
 
 The Invidian Eye rewards devotion and punishes betrayal. When first given to a creature, the
 necklace recognizes members of the creature's race and gender - but not a specific individual - as

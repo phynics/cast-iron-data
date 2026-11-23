@@ -21,8 +21,13 @@ aura = "moderate illusion"
 caster_level = "8th"
 +++
 
-**Aura** moderate illusion; **CL** 8th\
-**Slot** armor; **Price** 117,160 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate illusion
+CL: 8th
+Slot: armor
+Price: 117,160 gp
+Weight: 15 lbs.
+:::
 
 This suit of +4 [greater shadow](ref/magic-enh/shadow-greater)
 [greater slick](ref/magic-enh/slick-greater) [leather](ref/eq-armor/leather) armor fits as snugly as
@@ -35,9 +40,10 @@ arcane spell failure.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[grease](ref/spell/grease), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence),
-creator must have the sneak attack class feature; **Price** 58,660 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [grease](ref/spell/grease), [invisibility](ref/spell/invisibility), [silence](ref/spell/silence), creator must have the sneak attack class feature
+Price: 58,660 gp
+:::
 
 ### Statistics
 

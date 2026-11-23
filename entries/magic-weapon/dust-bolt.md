@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** none; **Price** 1,730 gp; **Weight** 1/10 lb.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: none
+Price: 1,730 gp
+Weight: 1/10 lb.
+:::
 
 This +1 outsider (water) [bane](ref/magic-enh/bane) [barbed bolt](ref/eq-weapon/barbed-arrow) is
 etched with runes of thirst and desiccation. Any living creature struck by a dust bolt begins dying
@@ -31,6 +36,7 @@ with the aquatic or water subtype save with a -4 penalty, and on a failed save t
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[cup of dust](ref/spell/cup-of-dust), [summon monster I](ref/spell/summon-monster-1); **Price** 880
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [cup of dust](ref/spell/cup-of-dust), [summon monster I](ref/spell/summon-monster-1)
+Price: 880 gp
+:::

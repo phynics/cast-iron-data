@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** none; **Price** 18,235 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: none
+Price: 18,235 gp
+Weight: 4 lbs.
+:::
 
 This finely crafted +2 [bastard sword](ref/eq-weapon/bastard-sword) has three blood-red gems
 embedded in its pommel. When the wielder kills a living creature (even herself) with the sacrificial
@@ -33,5 +38,7 @@ longer transfer life energy, but it can still be used as a +2 bastard sword.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Reach Spell](ref/feat/reach-spell), [breath of life](ref/spell/breath-of-life); **Price** 14,215 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Reach Spell](ref/feat/reach-spell), [breath of life](ref/spell/breath-of-life)
+Price: 14,215 gp
+:::

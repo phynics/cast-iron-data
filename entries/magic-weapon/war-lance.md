@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "8th"
 +++
 
-**Aura** moderate abjuration; **CL** 8th\
-**Slot** none; **Price** 10,310 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 8th
+Slot: none
+Price: 10,310 gp
+Weight: 10 lbs.
+:::
 
 Shorter and thicker than most lances, this +3 [lance](ref/eq-weapon/lance) has a full-sized shield
 worked into the vamplate, though it is too heavy to count as a shield for shield bash and similar
@@ -30,5 +35,7 @@ grants the wielder and her steed a +2 shield bonus to AC when the wielder is mou
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield](ref/spell/shield); **Price** 5,310 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield](ref/spell/shield)
+Price: 5,310 gp
+:::

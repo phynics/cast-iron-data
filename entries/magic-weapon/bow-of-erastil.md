@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** none; **Price** 19,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: none
+Price: 19,500 gp
+Weight: 5 lbs.
+:::
 
 This golden +1 [endless ammunition](ref/magic-enh/endless-ammunition)
 [distance](ref/magic-enh/distance) [composite longbow (+6 Str)](ref/eq-weapon/composite-longbow)
@@ -33,7 +38,7 @@ that enemy.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[Mythic Crafter](ref/feat/mythic-crafter),
-[clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [haste](ref/spell/haste);
-**Price** 19,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [Mythic Crafter](ref/feat/mythic-crafter), [clairaudience/clairvoyance](ref/spell/clairaudience-clairvoyance), [haste](ref/spell/haste)
+Price: 19,500 gp
+:::

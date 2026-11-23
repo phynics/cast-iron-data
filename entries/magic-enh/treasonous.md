@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 A treasonous weapon functions as a [patriotic](ref/magic-enh/patriotic) weapon, but when wielded
 against a member of the nationality to which it is attuned, the weapon's enhancement bonus is +2
@@ -30,6 +35,7 @@ designated nationality. This extra damage is not multiplied on a critical hit.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[summon monster I](ref/spell/summon-monster-1), [weapon of awe](ref/spell/weapon-of-awe), creator
-must be a member of the attuned nationality; **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [summon monster I](ref/spell/summon-monster-1), [weapon of awe](ref/spell/weapon-of-awe), creator must be a member of the attuned nationality
+Price: -
+:::

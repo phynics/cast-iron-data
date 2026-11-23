@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 9,615 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 9,615 gp
+Weight: 1 lb.
+:::
 
 This +1 [cutlass](ref/eq-weapon/cutlass) is constantly soaked with brine. The wielder's attacks with
 a cutlass of waves don't take penalties from [being underwater](ref/rule/fighting-underwater), as if
@@ -31,5 +36,7 @@ as per _[slipstream](ref/spell/slipstream)._
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[slipstream](ref/spell/slipstream); **Price** 4,650 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [slipstream](ref/spell/slipstream)
+Price: 4,650 gp
+:::

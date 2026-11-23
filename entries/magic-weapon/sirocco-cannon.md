@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** none; **Price** 184,500 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: none
+Price: 184,500 gp
+Weight: -
+:::
 
 This +1 [shocking burst](ref/magic-enh/shocking-burst) [cannon](ref/eq-siegeengine/cannon) is
 mounted on a brass carriage decorated with carvings of winds and storms. Three times per day, a
@@ -40,6 +45,7 @@ additional damage to ships or structures.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt),
-[sirocco](ref/spell/sirocco); **Price** 95,400 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [call lightning](ref/spell/call-lightning) or [lightning bolt](ref/spell/lightning-bolt), [sirocco](ref/spell/sirocco)
+Price: 95,400 gp
+:::

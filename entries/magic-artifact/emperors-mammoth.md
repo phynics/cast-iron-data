@@ -20,8 +20,13 @@ aura = "strong transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 8 tons
+::: statblock
+Aura: strong transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 8 tons
+:::
 
 This strange construct vehicle looks like a giant woolly mammoth with a fortified palanquin mounted
 upon its back. Fashioned from rope, metal, wood, and bone, the Emperor's Mammoth stands nearly 15

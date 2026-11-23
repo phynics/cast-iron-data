@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** armor; **Price** 25,900 gp; **Weight** 15 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: armor
+Price: 25,900 gp
+Weight: 15 lbs.
+:::
 
 Crafted by shamans of the Yumogu tribe for their mightiest chieftains, this undecorated +3
 [leather](ref/eq-armor/leather) armor is made from strips of boiled horsehide. While her enemies
@@ -36,6 +41,7 @@ condition or conditions return.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[invigorate](ref/spell/invigorate), [rage](ref/spell/rage),
-[waves of fatigue](ref/spell/waves-of-fatigue); **Price** 13,030 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [invigorate](ref/spell/invigorate), [rage](ref/spell/rage), [waves of fatigue](ref/spell/waves-of-fatigue)
+Price: 13,030 gp
+:::

@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor quality; **Price** +5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor quality
+Price: +5,000 gp
+Weight: -
+:::
 
 Armor of comfort sheds dirt and sweat as they accumulate, and remains as comfortable as
 weather-appropriate clothing regardless of environmental conditions. A suit of armor with this
@@ -32,6 +37,7 @@ by 1 (to a minimum of 0).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[endure elements](ref/spell/endure-elements), [prestidigitation](ref/spell/prestidigitation);
-**Price** +2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [endure elements](ref/spell/endure-elements), [prestidigitation](ref/spell/prestidigitation)
+Price: +2,500 gp
+:::

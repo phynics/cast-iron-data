@@ -20,8 +20,13 @@ aura = "faint necromancy [evil]"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy \[evil\]; **CL** 3rd\
-**Slot** none; **Price** 7,302 gp; **Weight** 1 lb.
+::: statblock
+Aura: faint necromancy \[evil\]
+CL: 3rd
+Slot: none
+Price: 7,302 gp
+Weight: 1 lb.
+:::
 
 The serrated blade of this +1 [dagger](ref/eq-weapon/dagger) is set in a hilt made of human bone
 carved in the shape of a scorpion's tail. Once per day when the wielder delivers a
@@ -44,5 +49,7 @@ of any previous sacrifice already held in the dagger.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell); **Price** 3,802 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell)
+Price: 3,802 gp
+:::

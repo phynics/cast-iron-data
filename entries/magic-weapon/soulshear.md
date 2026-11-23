@@ -21,8 +21,13 @@ aura = "strong conjuration [evil]"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration \[evil\]; **CL** 15th\
-**Slot** none; **Price** 45,508 gp; **Weight** 10 lbs.
+::: statblock
+Aura: strong conjuration \[evil\]
+CL: 15th
+Slot: none
+Price: 45,508 gp
+Weight: 10 lbs.
+:::
 
 Forged by Staunton Vhane with the aid of several Templars of the Ivory Labyrinth, this intelligent
 +2 [transformative](ref/magic-enh/transformative) [glaive](ref/eq-weapon/glaive) is infused with a
@@ -41,9 +46,10 @@ selecting an unaligned magic item carried by its wielder to hide its evil. Once 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[major creation](ref/spell/major-creation), [planar binding](ref/spell/planar-binding); **Price**
-22,908 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [major creation](ref/spell/major-creation), [planar binding](ref/spell/planar-binding)
+Price: 22,908 gp
+:::
 
 ### Statistics
 

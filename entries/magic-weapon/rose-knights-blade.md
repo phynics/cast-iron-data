@@ -20,8 +20,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** none; **Price** 28,015 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: none
+Price: 28,015 gp
+Weight: 2 lbs.
+:::
 
 This elegant mithral sword bears a blooming rose on the crossguard, with vines winding around the
 hilt. Filarina Grantsliem discovered the rose knight's blade during her brief adventuring career,
@@ -44,5 +49,7 @@ standard action to remove one of these mind-affecting conditions from the ally.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[aid](ref/spell/aid), [break enchantment](ref/spell/break-enchantment); **Price** 15,015 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [aid](ref/spell/aid), [break enchantment](ref/spell/break-enchantment)
+Price: 15,015 gp
+:::

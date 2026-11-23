@@ -20,8 +20,13 @@ aura = "strong necromancy"
 caster_level = "20th"
 +++
 
-**Aura** strong necromancy; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 3 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 20th
+Slot: none
+Price: -
+Weight: 3 lbs.
+:::
 
 Anyone who reads the entire hundred pages of blood-scripted text bound within the Bone Grimoire (a
 task that requires 1 week of study and a successful DC 25 Linguistics check by someone who can read

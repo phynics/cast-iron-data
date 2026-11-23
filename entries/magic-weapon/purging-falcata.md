@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** none; **Price** 19,318 gp; **Weight** 4 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: none
+Price: 19,318 gp
+Weight: 4 lbs.
+:::
 
 First constructed for use during Taldor's great purge of the [Sarenite](ref/faith/sarenrae) Cult of
 the Dawnflower, this +2 [falcata](ref/eq-weapon/falcata) is inscribed with various religious slurs.
@@ -40,6 +45,7 @@ attuned, the wielder deals an additional 3d6 points of damage instead of the nor
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[weapon of awe](ref/spell/weapon-of-awe), creator must use the weapon to slay a member of the
-attuned religion; **Price** 9,818 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [weapon of awe](ref/spell/weapon-of-awe), creator must use the weapon to slay a member of the attuned religion
+Price: 9,818 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong (varies)"
 caster_level = "19th"
 +++
 
-**Aura** strong (varies); **CL** 19th\
-**Slot** none; **Price** -; **Weight** -
+::: statblock
+Aura: strong (varies)
+CL: 19th
+Slot: none
+Price: -
+Weight: -
+:::
 
 These palm-sized silver dragon scales are unique items - essentially minor artifacts resulting from
 Terendelev's death on the Storm King's blade.

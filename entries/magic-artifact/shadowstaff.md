@@ -26,8 +26,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 This artifact was crafted ages ago, weaving together wispy strands of shadow into a twisted black
 staff. The Shadowstaff makes the wielder slightly shadowy and incorporeal, granting him a +4 bonus

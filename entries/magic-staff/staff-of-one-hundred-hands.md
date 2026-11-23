@@ -21,8 +21,13 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** none; **Price** 180,200 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: none
+Price: 180,200 gp
+Weight: 5 lbs.
+:::
 
 Sculpted into the shape of dozens of grasping, distorted hands, this staff appears to be carved
 entirely from one piece of clear crystal. When held, the hands that form the staff distort to
@@ -38,7 +43,7 @@ This staff also allows the wielder to use mage hand at will.
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [clenched fist](ref/spell/clenched-fist),
-[crushing hand](ref/spell/crushing-hand), [forceful hand](ref/spell/forceful-hand),
-[grasping hand](ref/spell/grasping-hand), [interposing hand](ref/spell/interposing-hand),
-[mage hand](ref/spell/mage-hand); **Cost** 90,100 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [clenched fist](ref/spell/clenched-fist), [crushing hand](ref/spell/crushing-hand), [forceful hand](ref/spell/forceful-hand), [grasping hand](ref/spell/grasping-hand), [interposing hand](ref/spell/interposing-hand), [mage hand](ref/spell/mage-hand)
+Cost: 90,100 gp
+:::

@@ -26,8 +26,13 @@ aura = "overwhelming necromancy"
 caster_level = "22nd"
 +++
 
-**Aura** overwhelming necromancy; **CL** 22nd\
-**Slot** head; **Price** -; **Weight** 8 lbs.
+::: statblock
+Aura: overwhelming necromancy
+CL: 22nd
+Slot: head
+Price: -
+Weight: 8 lbs.
+:::
 
 The crown of an infamous undead tyrant, the Horns of Naraga are a symbol of dominance over death.
 When worn by an undead creature, the Horns of Naraga reduce all damage taken from positive energy by

@@ -20,8 +20,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** armor; **Price** 20,375 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: armor
+Price: 20,375 gp
+Weight: 20 lbs.
+:::
 
 This suit of +3 [studded leather](ref/eq-armor/studded-leather) armor is decorated with metal
 skulls. Once per day as a standard action, the wearer can command the skulls to unleash a
@@ -34,5 +39,7 @@ effect created by someone other than himself, he gains a +2 bonus on Will saves 
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fear](ref/spell/fear); **Price** 10,275 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fear](ref/spell/fear)
+Price: 10,275 gp
+:::

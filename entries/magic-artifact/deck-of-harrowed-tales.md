@@ -23,8 +23,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1 lb.
+:::
 
 The Deck of Harrowed Tales is a unique [Harrow deck](ref/eq-misc/harrow-deck) linked to the
 [Harrowed Realm](ref/rule/harrowed-realm), a fantastical demiplane populated by whimsical and

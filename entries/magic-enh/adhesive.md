@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** armor quality; **Price** +7,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: armor quality
+Price: +7,000 gp
+Weight: -
+:::
 
 On command, the hands and feet of this armor's wearer become incredibly sticky, granting her a climb
 speed of 20 feet. The stickiness grants the wearer a +2 enhancement bonus on combat maneuver checks
@@ -34,6 +39,7 @@ is a free action. Adhesive cannot be placed on armor with any version of the
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[bull's strength](ref/spell/bulls-strength), [spider climb](ref/spell/spider-climb); **Price**
-+3,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [bull's strength](ref/spell/bulls-strength), [spider climb](ref/spell/spider-climb)
+Price: +3,500 gp
+:::

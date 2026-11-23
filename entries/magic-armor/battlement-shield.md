@@ -23,8 +23,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** shield; **Price** 16,180 gp; **Weight** 45 lbs.
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: shield
+Price: 16,180 gp
+Weight: 45 lbs.
+:::
 
 Once per day on command, this +2 [tower shield](ref/eq-armor/tower-shield) can transform into a
 solid, 1-foot-thick, 10-foot-by-10-foot wall of masonry with a battlement on top and an arrow slit
@@ -39,5 +44,7 @@ cannot appear in a space too small to accommodate it.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[wall of stone](ref/spell/wall-of-stone); **Price** 8,180 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [wall of stone](ref/spell/wall-of-stone)
+Price: 8,180 gp
+:::

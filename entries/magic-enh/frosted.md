@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 Armor and shields with the frosted ability are coated in a thin layer of frost, making the armor or
 shield shimmer faintly and take on a bluish-white hue. The wearer gains a +4 bonus to CMD against
@@ -31,5 +36,7 @@ damage every round to opponents that [constrict](ref/umr/constrict) or
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[chill metal](ref/spell/chill-metal); **Price** +2 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [chill metal](ref/spell/chill-metal)
+Price: +2 bonus
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and transmutation"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and transmutation; **CL** 20th\
-**Slot** head; **Price** -; **Weight** -
+::: statblock
+Aura: strong abjuration and transmutation
+CL: 20th
+Slot: head
+Price: -
+Weight: -
+:::
 
 This crenellated gold coronet, decorated with jewels and etchings of lions, seems heavier in the
 hand than expected. A single roaring lion's head decorates the crown's front. The Primogen Crown

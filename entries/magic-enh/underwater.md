@@ -20,8 +20,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 This ability can be placed only on a melee bludgeoning or slashing weapon. Melee attacks with the
 weapon don't take the usual -2 penalty for
@@ -29,5 +34,7 @@ weapon don't take the usual -2 penalty for
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[freedom of movement](ref/spell/freedom-of-movement); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [freedom of movement](ref/spell/freedom-of-movement)
+Price: -
+:::

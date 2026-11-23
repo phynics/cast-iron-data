@@ -23,8 +23,13 @@ aura = "strong necromancy"
 caster_level = "12th"
 +++
 
-**Aura** strong necromancy; **CL** 12th\
-**Slot** shield; **Price** 18,770 gp; **Weight** 15 lbs.
+::: statblock
+Aura: strong necromancy
+CL: 12th
+Slot: shield
+Price: 18,770 gp
+Weight: 15 lbs.
+:::
 
 Three flensed skulls jut from the face of this +2
 [heavy steel shield](ref/eq-armor/heavy-steel-shield). Three times per day as a free action, the
@@ -39,5 +44,7 @@ regains hit points from blood drain in a similar manner), she also heals 5 hit p
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[vampiric touch](ref/spell/vampiric-touch); **Price** 9,545 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [vampiric touch](ref/spell/vampiric-touch)
+Price: 9,545 gp
+:::

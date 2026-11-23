@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "15th"
 +++
 
-**Aura** strong (no school); **CL** 15th\
-**Slot** none; **Price** 121,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 15th
+Slot: none
+Price: 121,500 gp
+Weight: 5 lbs.
+:::
 
 Slightly smaller and shorter than [vril staves](ref/magic-staff/vril-staff), hollow rods are hollow
 silver tubes covered in intricate glyphs and small, flute-like keys. Three times per day, a
@@ -33,5 +38,7 @@ metakinesis.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level kineticist; **Cost**
-60,750 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), creator must be a 10th-level kineticist
+Cost: 60,750 gp
+:::

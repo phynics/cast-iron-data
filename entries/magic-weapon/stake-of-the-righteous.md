@@ -20,8 +20,13 @@ aura = "moderate evocation [good]"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 9th\
-**Slot** none; **Price** 3,520 gp; **Weight** 2 lbs.
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 9th
+Slot: none
+Price: 3,520 gp
+Weight: 2 lbs.
+:::
 
 Cooled in baths of [holy water](ref/eq-weapon/holy-water) after its forging, this +1
 [silver](ref/eq-material/alchemical-silver) [stake](ref/eq-weapon/wooden-stake) is often used by
@@ -37,5 +42,7 @@ energy courses through the weapon, and it cannot attempt to remove the stake aga
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[hallow](ref/spell/hallow); **Price** 1,770 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [hallow](ref/spell/hallow)
+Price: 1,770 gp
+:::

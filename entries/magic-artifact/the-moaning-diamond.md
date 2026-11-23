@@ -26,8 +26,13 @@ aura = "overwhelming transmutation"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming transmutation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: overwhelming transmutation
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 The Moaning Diamond appears to be an uncut diamond the size of a human fist. At all times, it gives
 forth a baleful moaning, as if wailing in pain. Despite the disturbing noise, the Moaning Diamond is

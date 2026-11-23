@@ -20,8 +20,13 @@ aura = "faint conjuration and illusion"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration and illusion; **CL** 5th\
-**Slot** none; **Price** 10,305 gp; **Weight** -
+::: statblock
+Aura: faint conjuration and illusion
+CL: 5th
+Slot: none
+Price: 10,305 gp
+Weight: -
+:::
 
 Elegant as it is deadly, this +1 [fighting fan](ref/eq-weapon/fighting-fan) is under a minor glamer
 that causes it to resemble a nonlethal fan intended for courtly or social affairs, though the glamer
@@ -36,6 +41,7 @@ reduced by 2 due to the low dosage.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise weapon](ref/spell/disguise-weapon), [silver darts](ref/spell/silver-darts); **Price**
-5,305 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise weapon](ref/spell/disguise-weapon), [silver darts](ref/spell/silver-darts)
+Price: 5,305 gp
+:::

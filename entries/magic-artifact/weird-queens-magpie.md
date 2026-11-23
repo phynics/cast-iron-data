@@ -20,8 +20,13 @@ aura = "strong enchantment and evocation"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment and evocation; **CL** 15th\
-**Slot** none; **Price** -; **Weight** 2 lbs.
+::: statblock
+Aura: strong enchantment and evocation
+CL: 15th
+Slot: none
+Price: -
+Weight: 2 lbs.
+:::
 
 Created by an ancient fey queen who could see the threads of fate, this intelligent, magical
 construct bird is made of bones fused by alchemy and magic. Though it takes the shape of a bird

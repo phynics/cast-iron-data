@@ -23,8 +23,13 @@ aura = "moderate enchantment"
 caster_level = "6th"
 +++
 
-**Aura** moderate enchantment; **CL** 6th\
-**Slot** armor; **Price** 18,175 gp; **Weight** 20 lbs.
+::: statblock
+Aura: moderate enchantment
+CL: 6th
+Slot: armor
+Price: 18,175 gp
+Weight: 20 lbs.
+:::
 
 This set of fine +2 [parade](ref/eq-armor/parade) armor matches the dress uniform of Andoran's
 [Eagle Knights](ref/rule/aff-vangard). If the wearer is ever grappled or restrained, she can attempt
@@ -35,6 +40,7 @@ enhancement bonus to AC from +2 to +5 for the next 10 minutes.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[liberating command](ref/spell/liberating-command), [mage armor](ref/spell/mage-armor); **Price**
-9,175 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [liberating command](ref/spell/liberating-command), [mage armor](ref/spell/mage-armor)
+Price: 9,175 gp
+:::

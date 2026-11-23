@@ -20,8 +20,13 @@ aura = "strong divination"
 caster_level = "13th"
 +++
 
-**Aura** strong divination; **CL** 13th\
-**Slot** none; **Price** 75,815 gp; **Weight** 4 lbs.
+::: statblock
+Aura: strong divination
+CL: 13th
+Slot: none
+Price: 75,815 gp
+Weight: 4 lbs.
+:::
 
 This curved blade of golden metal, a +1 [keen](ref/magic-enh/keen)
 [heartseeker](ref/magic-enh/heartseeker) [spellstealing](ref/magic-enh/spellstealing)
@@ -35,6 +40,7 @@ detection, and the magical auras revealed are clearly visible to all.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[death knell](ref/spell/death-knell), [greater arcane sight](ref/spell/arcane-sight-greater),
-[keen edge](ref/spell/keen-edge), [limited wish](ref/spell/limited-wish); **Price** 37,815 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [death knell](ref/spell/death-knell), [greater arcane sight](ref/spell/arcane-sight-greater), [keen edge](ref/spell/keen-edge), [limited wish](ref/spell/limited-wish)
+Price: 37,815 gp
+:::

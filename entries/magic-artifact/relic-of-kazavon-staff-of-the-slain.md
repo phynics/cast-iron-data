@@ -23,8 +23,13 @@ aura = "strong evocation"
 caster_level = "20th"
 +++
 
-**Aura** strong evocation; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 6 lbs.
+::: statblock
+Aura: strong evocation
+CL: 20th
+Slot: none
+Price: -
+Weight: 6 lbs.
+:::
 
 Crafted from the tailbones of Kazavon, the Staff of the Slain is an intelligent +5
 [spell storing](ref/magic-enh/spell-storing) [shock](ref/magic-enh/shock)

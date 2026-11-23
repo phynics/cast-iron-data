@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "12th"
 +++
 
-**Aura** faint abjuration; **CL** 12th\
-**Slot** armor; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 12th
+Slot: armor
+Price: +2 bonus
+Weight: -
+:::
 
 Mind buttressing armor grants the wearer a +2 resistance bonus on Will saves and renders her immune
 to possession and mental control (including charm and compulsion effects like
@@ -33,6 +38,7 @@ resume. This ability can be applied only to medium or heavy armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[protection from chaos/evil/good/law](ref/spell/protection-from-chaos-evil-good-law); **Price** +2
-bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [protection from chaos/evil/good/law](ref/spell/protection-from-chaos-evil-good-law)
+Price: +2 bonus
+:::

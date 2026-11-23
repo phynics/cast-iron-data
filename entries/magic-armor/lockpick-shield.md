@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "11th"
 +++
 
-**Aura** moderate transmutation; **CL** 11th\
-**Slot** shield; **Price** 7,159 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 11th
+Slot: shield
+Price: 7,159 gp
+Weight: 6 lbs.
+:::
 
 With a command word, the bearer of this +2 [light steel shield](ref/eq-armor/light-steel-shield) can
 cause a series of lockpicks and tiny tools to extend from the front of the shield and begin picking
@@ -39,5 +44,7 @@ Armor Class (such as an attack from a trap triggered by the shield failing its c
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects); **Price** 3,659 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects)
+Price: 3,659 gp
+:::

@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** armor; **Price** 44,215 gp; **Weight** 12 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: armor
+Price: 44,215 gp
+Weight: 12 lbs.
+:::
 
 Crafted from the flayed skin of a [barbed devil](ref/monster/devil-barbed-devil-hamatula), this
 imposing +2 [spiked](ref/eq-armorenh/armor-spikes) [hide](ref/eq-armor/hide) armor weighs half the
@@ -39,6 +44,7 @@ resistance 20 when raging.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[polymorph](ref/spell/polymorph), [resist energy](ref/spell/resist-energy) (fire); **Price** 22,215
-gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [polymorph](ref/spell/polymorph), [resist energy](ref/spell/resist-energy) (fire)
+Price: 22,215 gp
+:::

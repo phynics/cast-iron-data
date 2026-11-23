@@ -23,8 +23,13 @@ aura = "overwhelming all schools [chaotic, evil]"
 caster_level = "25th"
 +++
 
-**Aura** overwhelming all schools \[chaotic, evil\]; **CL** 25th\
-**Slot** none; **Price** -; **Weight** 12 lbs.
+::: statblock
+Aura: overwhelming all schools \[chaotic, evil\]
+CL: 25th
+Slot: none
+Price: -
+Weight: 12 lbs.
+:::
 
 The demonic chapters of the [Book of the Damned](ref/magic-artifact/book-of-the-damned) are bound
 between razor-edged covers of [cold iron](ref/eq-material/cold-iron). Readers must take care when

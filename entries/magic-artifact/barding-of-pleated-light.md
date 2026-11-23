@@ -20,8 +20,13 @@ aura = "overwhelming abjuration"
 caster_level = "20th"
 +++
 
-**Aura** overwhelming abjuration; **CL** 20th\
-**Slot** armor (barding); **Price** -; **Weight** 100 lbs.
+::: statblock
+Aura: overwhelming abjuration
+CL: 20th
+Slot: armor (barding)
+Price: -
+Weight: 100 lbs.
+:::
 
 The barding of pleated light was crafted by angels in service to [Pulura](ref/faith/pulura), the
 Shimmering Maiden, an empyreal lord once venerated by the conquered people of Sarkoris. This

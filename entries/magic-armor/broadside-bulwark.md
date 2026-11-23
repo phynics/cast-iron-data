@@ -20,8 +20,13 @@ aura = "moderate evocation"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation; **CL** 10th\
-**Slot** shield; **Price** 19,007 gp; **Weight** 10 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 10th
+Slot: shield
+Price: 19,007 gp
+Weight: 10 lbs.
+:::
 
 The front of this +2 [heavy wooden shield](ref/eq-armor/heavy-wooden-shield) has several small holes
 that resemble the gun ports on a naval ship. There are seven such holes in total on the front of
@@ -41,5 +46,7 @@ wielder fire resistance 5.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[fireball](ref/spell/fireball), [resist energy](ref/spell/resist-energy); **Price** 9,582 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [fireball](ref/spell/fireball), [resist energy](ref/spell/resist-energy)
+Price: 9,582 gp
+:::

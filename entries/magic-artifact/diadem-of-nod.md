@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** headband; **Price** -; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: headband
+Price: -
+Weight: -
+:::
 
 The Diadem of Nod is a slender, platinum headband adorned with a large, perfectly cut diamond that
 rests on its wearer's forehead. When the wearer sleeps, she can create a pocket dream dimension and

@@ -23,8 +23,13 @@ aura = "strong (two variable schools)"
 caster_level = "13th"
 +++
 
-**Aura** strong (two variable schools); **CL** 13th\
-**Slot** none; **Price** +2 bonus; **Weight** -
+::: statblock
+Aura: strong (two variable schools)
+CL: 13th
+Slot: none
+Price: +2 bonus
+Weight: -
+:::
 
 During Thassilon's height, many of the empire's greatest soldiers, mercenaries, and arcane assassins
 wielded weapons infused with two allied schools of magic that worked together to grant the wielder

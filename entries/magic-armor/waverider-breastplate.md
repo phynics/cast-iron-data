@@ -20,8 +20,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** armor; **Price** 5,000 gp; **Weight** 30 lbs.
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: armor
+Price: 5,000 gp
+Weight: 30 lbs.
+:::
 
 This flat, gray +1 [breastplate](ref/eq-armor/breastplate) is embossed with the iron fin symbol of
 the Wave Riders (Absalom's sea cavalry), and is enchanted to make it lighter in water. The armor
@@ -32,5 +37,7 @@ wearer if the armor is worn - to float as per the _[buoyancy](ref/spell/buoyancy
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[buoyancy](ref/spell/buoyancy), [water walk](ref/spell/water-walk); **Price** 2,500 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [buoyancy](ref/spell/buoyancy), [water walk](ref/spell/water-walk)
+Price: 2,500 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong illusion"
 caster_level = "13th"
 +++
 
-**Aura** strong illusion; **CL** 13th\
-**Slot** none; **Price** 80,000 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong illusion
+CL: 13th
+Slot: none
+Price: 80,000 gp
+Weight: 5 lbs.
+:::
 
 A nightmare rod is a wooden rod with a smooth, purple, crystalline octopus clutching one end, its
 tentacles wrapped around the length of the rod and its bulbous body serving as a sort of mace head.
@@ -41,6 +46,7 @@ mind-affecting fear effect. In addition, a nightmare rod has the following power
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [fear](ref/spell/fear),
-[nightmare](ref/spell/nightmare), [phantasmal killer](ref/spell/phantasmal-killer),
-[remove fear](ref/spell/remove-fear); **Cost** 40,000 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [fear](ref/spell/fear), [nightmare](ref/spell/nightmare), [phantasmal killer](ref/spell/phantasmal-killer), [remove fear](ref/spell/remove-fear)
+Cost: 40,000 gp
+:::

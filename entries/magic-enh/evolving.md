@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** none; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: none
+Price: +1 bonus
+Weight: -
+:::
 
 Armor with this special ability often has revolting fleshy protrusions that periodically quiver and
 twitch. Once per day on command, the armor fuses with the flesh of the wearer for 30 minutes or
@@ -36,5 +41,7 @@ evolving armor.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[evolution surge](ref/spell/evolution-surge); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [evolution surge](ref/spell/evolution-surge)
+Price: +1 bonus
+:::

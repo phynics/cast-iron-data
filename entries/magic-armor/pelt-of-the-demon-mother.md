@@ -20,8 +20,13 @@ aura = "faint necromancy"
 caster_level = "3rd"
 +++
 
-**Aura** faint necromancy; **CL** 3rd\
-**Slot** armor; **Price** 3,325 gp; **Weight** 25 lbs.
+::: statblock
+Aura: faint necromancy
+CL: 3rd
+Slot: armor
+Price: 3,325 gp
+Weight: 25 lbs.
+:::
 
 This +1 [hide](ref/eq-armor/hide) armor appears to be made from a horrific amalgam of rotted animal
 pelts and animal bones, and is usually decorated with the skulls of tiny rodents or vermin and
@@ -30,6 +35,7 @@ and _[unnatural lust](ref/spell/unnatural-lust)_ each once per day.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self), [unnatural lust](ref/spell/unnatural-lust); **Price**
-1,745 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self), [unnatural lust](ref/spell/unnatural-lust)
+Price: 1,745 gp
+:::

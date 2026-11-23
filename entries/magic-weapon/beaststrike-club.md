@@ -23,8 +23,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 7,300 gp; **Weight** 3 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 7,300 gp
+Weight: 3 lbs.
+:::
 
 This +1 [club](ref/eq-weapon/club) is often decorated with large teeth and carved with stylized
 images of different animals. As a standard action, the wielder may transform the club into the head
@@ -42,5 +47,7 @@ damage is always increased in this fashion. If unattended, the club reverts to i
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shillelagh](ref/spell/shillelagh); **Price** 3,800 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shillelagh](ref/spell/shillelagh)
+Price: 3,800 gp
+:::

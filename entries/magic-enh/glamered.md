@@ -25,8 +25,13 @@ caster_level = "10th"
 
 ## Glamered
 
-**Aura** moderate illusion; **CL** 10th\
-**Slot** armor quality; **Price** +2,700 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 10th
+Slot: armor quality
+Price: +2,700 gp
+Weight: -
+:::
 
 Upon command, a suit of glamered armor changes shape and appearance to assume the form of a normal
 set of clothing. The armor retains all its properties (including weight) when it is so disguised.
@@ -35,7 +40,9 @@ armor when it is disguised.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[disguise self](ref/spell/disguise-self); **Price** +1,350 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [disguise self](ref/spell/disguise-self)
+Price: +1,350 gp
+:::
 
 > _See also: [glamered weapon enhancement](ref/magic-enh/glamered-weapon)_

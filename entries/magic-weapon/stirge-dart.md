@@ -20,8 +20,13 @@ aura = "strong necromancy and transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong necromancy and transmutation; **CL** 15th\
-**Slot** none; **Price** 4,501 gp; **Weight** 1/2 lb.
+::: statblock
+Aura: strong necromancy and transmutation
+CL: 15th
+Slot: none
+Price: 4,501 gp
+Weight: 1/2 lb.
+:::
 
 When thrown, this +1 [dart](ref/eq-weapon/dart) animates and attacks a single target as a
 [dancing](ref/magic-enh/dancing) weapon for 4 rounds. When a stirge dart hits, instead of dealing
@@ -32,5 +37,7 @@ properties.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[animate objects](ref/spell/animate-objects), [bleed](ref/spell/bleed); **Price** 2,251 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [animate objects](ref/spell/animate-objects), [bleed](ref/spell/bleed)
+Price: 2,251 gp
+:::

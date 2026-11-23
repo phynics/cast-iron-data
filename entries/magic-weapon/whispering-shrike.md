@@ -20,8 +20,13 @@ aura = "faint abjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration; **CL** 5th\
-**Slot** none; **Price** 5,940 gp; **Weight** 2 lbs.
+::: statblock
+Aura: faint abjuration
+CL: 5th
+Slot: none
+Price: 5,940 gp
+Weight: 2 lbs.
+:::
 
 Whispering Shrike is a +1 [wakizashi](ref/eq-weapon/wakizashi) of incredibly beautiful design. The
 sword is etched with images of seven shrikes perched on a coiling branch that runs the length of the
@@ -35,5 +40,7 @@ a small item such as a flask or rolled piece of paper.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[shield other](ref/spell/shield-other); **Price** 3,140 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [shield other](ref/spell/shield-other)
+Price: 3,140 gp
+:::

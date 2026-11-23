@@ -20,8 +20,13 @@ aura = "moderate conjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate conjuration; **CL** 9th\
-**Slot** none; **Price** 38,335 gp; **Weight** 2 lbs
+::: statblock
+Aura: moderate conjuration
+CL: 9th
+Slot: none
+Price: 38,335 gp
+Weight: 2 lbs
+:::
 
 Popular with [assassins](ref/pclass/assassin) and [vigilantes](ref/class/vigilante) due to its ease
 of concealment and lack of need for ammunition, this durable +2
@@ -40,6 +45,7 @@ under it or leap over it, thus avoiding detection. The bolts last for 6 hours be
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[alarm](ref/spell/alarm), [minor creation](ref/spell/minor-creation), [silence](ref/spell/silence);
-**Price** 19,335 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [alarm](ref/spell/alarm), [minor creation](ref/spell/minor-creation), [silence](ref/spell/silence)
+Price: 19,335 gp
+:::

@@ -20,8 +20,13 @@ aura = "strong abjuration and enchantment"
 caster_level = "20th"
 +++
 
-**Aura** strong abjuration and enchantment; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 4 lbs.
+::: statblock
+Aura: strong abjuration and enchantment
+CL: 20th
+Slot: none
+Price: -
+Weight: 4 lbs.
+:::
 
 Fashioned from a single piece of black jade, this 3-foot-long scepter has a T-shaped handle carved
 to resemble the head of a horned crocodile. The scepter's other end curls and forms an eyehook, to

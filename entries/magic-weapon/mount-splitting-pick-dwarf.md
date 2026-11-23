@@ -20,8 +20,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** none; **Price** 28,008 gp; **Weight** 6 lbs.
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: none
+Price: 28,008 gp
+Weight: 6 lbs.
+:::
 
 The following weapon is generally available only to members of the indicated race or ethnicity.
 
@@ -33,6 +38,7 @@ creatures with the earth subtype (even non-outsiders such as [gargoyles](ref/mon
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[soften earth and stone](ref/spell/soften-earth-and-stone), creator must be a
-[dwarf](ref/race/dwarf); **Price** 15,508 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [soften earth and stone](ref/spell/soften-earth-and-stone), creator must be a [dwarf](ref/race/dwarf)
+Price: 15,508 gp
+:::

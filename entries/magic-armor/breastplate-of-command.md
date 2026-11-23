@@ -23,8 +23,13 @@ aura = "strong enchantment"
 caster_level = "15th"
 +++
 
-**Aura** strong enchantment; **CL** 15th\
-**Slot** armor; **Price** 25,400 gp; **Weight** 30 lbs.
+::: statblock
+Aura: strong enchantment
+CL: 15th
+Slot: armor
+Price: 25,400 gp
+Weight: 30 lbs.
+:::
 
 This +2 [breastplate](ref/eq-armor/breastplate) typically bears the image of a rampant grizzly bear
 or other impressive predator. It bestows a commanding aura upon its wearer. The wearer gains a +2
@@ -36,5 +41,7 @@ not function if the wearer hides or conceals herself in any way.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[mass charm monster](ref/spell/charm-monster-mass); **Price** 12,875 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [mass charm monster](ref/spell/charm-monster-mass)
+Price: 12,875 gp
+:::

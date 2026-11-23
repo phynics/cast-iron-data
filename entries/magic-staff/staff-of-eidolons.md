@@ -21,8 +21,13 @@ aura = "moderate conjuration and transmutation"
 caster_level = "8th"
 +++
 
-**Aura** moderate conjuration and transmutation; **CL** 8th\
-**Slot** none; **Price** 14,400 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate conjuration and transmutation
+CL: 8th
+Slot: none
+Price: 14,400 gp
+Weight: 5 lbs.
+:::
 
 This crooked staff is made of mahogany and decorated with the bones of eidolons that jut out of the
 wood. It allows the use of the following spells:
@@ -33,7 +38,7 @@ wood. It allows the use of the following spells:
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff),
-[lesser evolution surge](ref/spell/evolution-surge-lesser),
-[lesser rejuvenate eidolon](ref/spell/rejuvenate-eidolon-lesser), [unfetter](ref/spell/unfetter);
-**Cost** 7,200 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [lesser evolution surge](ref/spell/evolution-surge-lesser), [lesser rejuvenate eidolon](ref/spell/rejuvenate-eidolon-lesser), [unfetter](ref/spell/unfetter)
+Cost: 7,200 gp
+:::

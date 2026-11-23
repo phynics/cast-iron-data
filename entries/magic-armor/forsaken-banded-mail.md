@@ -23,8 +23,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** armor; **Price** 25,400 gp; **Weight** 35 lbs.
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: armor
+Price: 25,400 gp
+Weight: 35 lbs.
+:::
 
 A massive skull adorns the chest piece of this suit of +1 [banded mail](ref/eq-armor/banded-mail),
 and smaller gilted images of defaced holy symbols cover the other parts of the armor. The wearer of
@@ -36,5 +41,7 @@ as +2 higher against creatures with these abilities.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator cannot
-be a divine spellcaster; **Price** 12,900 gp
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), creator cannot be a divine spellcaster
+Price: 12,900 gp
+:::

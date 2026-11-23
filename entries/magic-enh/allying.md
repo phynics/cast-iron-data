@@ -23,8 +23,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** weapon quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: weapon quality
+Price: +1 bonus
+Weight: -
+:::
 
 An allying weapon allows the wielder to transfer some or all of the weapon's enhancement bonus to
 one weapon being used by an ally of the wielder. The wielder must have line of sight to the intended
@@ -35,5 +40,7 @@ enhancement bonus on the ally's weapon (if any).
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[magic weapon](ref/spell/magic-weapon); **Price** -
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [magic weapon](ref/spell/magic-weapon)
+Price: -
+:::

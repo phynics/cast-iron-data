@@ -24,8 +24,13 @@ aura = "moderate varies"
 caster_level = "8th"
 +++
 
-**Aura** moderate varies; **CL** 8th\
-**Slot** none; **Price** 48,800 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate varies
+CL: 8th
+Slot: none
+Price: 48,800 gp
+Weight: 5 lbs.
+:::
 
 Soon after falling into the hands of a new owner, this piece of finely varnished cedar develops
 ornamental brass keys, strings, or other decorations that make it look like a stylized version of
@@ -41,7 +46,7 @@ its owner's favorite type of musical instrument. It allows use of the following 
 
 ### Construction
 
-**Requirements** [Craft Staff](ref/feat/craft-staff), [calm emotions](ref/spell/calm-emotions),
-[enthrall](ref/spell/enthrall), [glibness](ref/spell/glibness),
-[hypnotic pattern](ref/spell/hypnotic-pattern), [major image](ref/spell/major-image),
-[pyrotechnics](ref/spell/pyrotechnics), [sculpt sound](ref/spell/sculpt-sound); **Cost** 24,400 gp
+::: statblock
+Requirements: [Craft Staff](ref/feat/craft-staff), [calm emotions](ref/spell/calm-emotions), [enthrall](ref/spell/enthrall), [glibness](ref/spell/glibness), [hypnotic pattern](ref/spell/hypnotic-pattern), [major image](ref/spell/major-image), [pyrotechnics](ref/spell/pyrotechnics), [sculpt sound](ref/spell/sculpt-sound)
+Cost: 24,400 gp
+:::

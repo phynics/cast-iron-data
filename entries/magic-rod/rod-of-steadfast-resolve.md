@@ -23,8 +23,13 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 38,305 gp; **Weight** 5 lbs.
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 38,305 gp
+Weight: 5 lbs.
+:::
 
 This rod functions as a +2 [light mace](ref/eq-weapon/light-mace). It takes the form of a light mace
 with a head in the shape of a clenched fist. While a character wields this rod, it grants all his
@@ -38,5 +43,7 @@ worse.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [bless](ref/spell/bless),
-[calm emotions](ref/spell/calm-emotions), creator must have the human subtype; **Cost** 19,305 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [bless](ref/spell/bless), [calm emotions](ref/spell/calm-emotions), creator must have the human subtype
+Cost: 19,305 gp
+:::

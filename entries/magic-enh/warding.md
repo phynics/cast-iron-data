@@ -20,8 +20,13 @@ aura = "strong abjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong abjuration; **CL** 12th\
-**Slot** armor quality; **Price** +1 bonus; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 12th
+Slot: armor quality
+Price: +1 bonus
+Weight: -
+:::
 
 Once per day as an immediate action, the wearer of warding armor can activate it to end all active
 challenge, judgment, and smite abilities affecting her. This does not prevent opponents from
@@ -31,5 +36,7 @@ these attacks.
 
 ### Construction
 
-**Requirements** [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor),
-[atonement](ref/spell/atonement); **Price** +1 bonus
+::: statblock
+Requirements: [Craft Magic Arms and Armor](ref/feat/craft-magic-arms-and-armor), [atonement](ref/spell/atonement)
+Price: +1 bonus
+:::

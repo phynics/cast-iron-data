@@ -20,8 +20,13 @@ aura = "strong (no school)"
 caster_level = "17th"
 +++
 
-**Aura** strong (no school); **CL** 17th\
-**Slot** none; **Price** 32,500 gp; **Weight** 5 lbs.
+::: statblock
+Aura: strong (no school)
+CL: 17th
+Slot: none
+Price: 32,500 gp
+Weight: 5 lbs.
+:::
 
 Three times per day when a wielder of this rod uses a hex (but not an advanced hex or grand hex),
 she can use this rod's power to target not only the hex's normal target, but also another target
@@ -30,5 +35,7 @@ least 30 feet.
 
 ### Construction
 
-**Requirements** [Craft Rod](ref/feat/craft-rod), [Split Hex](ref/feat/split-hex), creator must have
-the hex class feature; **Cost** 16,250 gp
+::: statblock
+Requirements: [Craft Rod](ref/feat/craft-rod), [Split Hex](ref/feat/split-hex), creator must have the hex class feature
+Cost: 16,250 gp
+:::

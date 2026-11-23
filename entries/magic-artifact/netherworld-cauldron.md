@@ -20,8 +20,13 @@ aura = "strong conjuration"
 caster_level = "20th"
 +++
 
-**Aura** strong conjuration; **CL** 20th\
-**Slot** none; **Price** -; **Weight** 1/2 ton
+::: statblock
+Aura: strong conjuration
+CL: 20th
+Slot: none
+Price: -
+Weight: 1/2 ton
+:::
 
 This huge cauldron forged from black iron serves as a dimensional gateway to a mythic netherworld
 where powerful entities come seeking to barter with, commune with, or corrupt mythic mortals. To
