@@ -768,6 +768,8 @@ def lavender_fixes() -> tuple:
             (f'\nprice = "{BOTH_PRICES}"\n', f'\nprice = "{price}"\n'),
             (f"\nPrice: {BOTH_PRICES}\n", f"\nPrice: {price}\n"),
             (f"\nCost: {BOTH_COSTS}\n", f"\nCost: {cost}\n"),
+            # The Description said 9th; the tables of the Core Rulebook, Ultimate Equipment and Seekers of Secrets say 8th.
+            ("can absorb spells 9th level or lower", "can absorb spells 8th level or lower"),
         ]
         note = f"rows: the stone is in the table on p. {pages[0]}, its cracked variants on p. 47 and its flawed variants on p. 47 or 50"
         if stale_line is not None:
@@ -780,8 +782,9 @@ def lavender_fixes() -> tuple:
                 )
             )
             note += f"; the Flawed Pale Lavender line cited p. {stale_line}, the list is on p. 50"
+        note += "; the lavender and green stone absorbs spells of 8th level or lower, as the tables print (the Description said 9th)"
         note += f"; the stone's own price {price} and construction cost {cost} (the block held both stones'), and the `price` field with it"
-        fixes.append((f"entries/magic-ioun/{slug}.md", "Seekers of Secrets pp. 47-50, Core Rulebook p. 521", note, tuple(pairs)))
+        fixes.append((f"entries/magic-ioun/{slug}.md", "Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306", note, tuple(pairs)))
     return tuple(fixes)
 
 

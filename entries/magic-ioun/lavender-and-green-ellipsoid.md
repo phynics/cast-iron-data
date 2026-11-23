@@ -50,7 +50,7 @@ These stones work somewhat like a [rod of absorption](ref/magic-rod/rod-of-absor
 lavender ioun stone** absorbs spells of 4th level or lower, but only as a
 [readied action](ref/rule/ready). After absorbing 20 spell levels, the stone burns out and turns to
 [dull gray](ref/magic-ioun/dull-gray-stone), forever useless. The **lavender and green ioun stone**
-behaves the same way, but can absorb spells 9th level or lower, and burns out after 50 spell levels
+behaves the same way, but can absorb spells 8th level or lower, and burns out after 50 spell levels
 are absorbed. Neither stone can be used to empower spells.
 
 #### Resonance

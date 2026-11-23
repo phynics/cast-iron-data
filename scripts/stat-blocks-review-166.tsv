@@ -58,7 +58,7 @@ entries/magic-ioun/gamboge-nodule.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/gold-nodule.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/incandescent-blue-sphere.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/iridescent-spindle.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/lavender-and-green-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 48, its cracked variants on p. 47 and its flawed variants on p. 47 or 50; the Flawed Pale Lavender line cited p. 48, the list is on p. 50; the stone's own price 40,000 gp and construction cost 20,000 gp (the block held both stones'), and the `price` field with it (Seekers of Secrets pp. 47-50, Core Rulebook p. 521)
+entries/magic-ioun/lavender-and-green-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 48, its cracked variants on p. 47 and its flawed variants on p. 47 or 50; the Flawed Pale Lavender line cited p. 48, the list is on p. 50; the lavender and green stone absorbs spells of 8th level or lower, as the tables print (the Description said 9th); the stone's own price 40,000 gp and construction cost 20,000 gp (the block held both stones'), and the `price` field with it (Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306)
 entries/magic-ioun/lavender-and-green-ellipsoid.md	item	variant-paragraphs	Price; Price; Price; Price
 entries/magic-ioun/magenta-prism.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/mossy-disk.md	item	variant-paragraphs	Price; Price
@@ -77,7 +77,7 @@ entries/magic-ioun/pale-blue-rhomboid.md	item	print-fix	rows: the stone prints o
 entries/magic-ioun/pale-blue-rhomboid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-green-prism.md	item	print-fix	rows: the stone prints on p. 49, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 47) (Seekers of Secrets pp. 49, 47, 50)
 entries/magic-ioun/pale-green-prism.md	item	variant-paragraphs	Price; Price
-entries/magic-ioun/pale-lavender-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 49, its cracked variants on p. 47 and its flawed variants on p. 47 or 50; the stone's own price 20,000 gp and construction cost 10,000 gp (the block held both stones'), and the `price` field with it (Seekers of Secrets pp. 47-50, Core Rulebook p. 521)
+entries/magic-ioun/pale-lavender-ellipsoid.md	item	print-fix	rows: the stone is in the table on p. 49, its cracked variants on p. 47 and its flawed variants on p. 47 or 50; the lavender and green stone absorbs spells of 8th level or lower, as the tables print (the Description said 9th); the stone's own price 20,000 gp and construction cost 10,000 gp (the block held both stones'), and the `price` field with it (Seekers of Secrets pp. 47-50, Core Rulebook p. 521, Ultimate Equipment p. 306)
 entries/magic-ioun/pale-lavender-ellipsoid.md	item	variant-paragraphs	Price; Price; Price; Price
 entries/magic-ioun/pale-orange-rhomboid.md	item	variant-paragraphs	Price; Price
 entries/magic-ioun/pale-ruby-trillian.md	item	print-fix	rows: the stone prints on p. 45, its cracked variant on p. 47 and its flawed variant on p. 50 (the row said 45); the Flawed line cited p. 48, the list is on p. 50 (Seekers of Secrets pp. 45, 47, 50)
