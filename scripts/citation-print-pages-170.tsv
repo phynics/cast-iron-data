@@ -3611,11 +3611,11 @@ ref/discovery/lasting-tinctures	potions-and-poisons	9	print
 ref/discovery/nauseating-flesh	ultimate-combat	24	print		
 ref/discovery/poison-conversion	ultimate-combat	24	print		
 ref/discovery/siege-bomb	ultimate-combat	24	print		the discovery is printed as a heading (name, asterisk, colon) on this page
-ref/eidolon/aeon	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/aeon	plane-hoppers-handbook	24	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/eidolon/agathion	pathfinder-unchained	29	print		the subtype heading is on this page; the description starts here (it continues on page 30)
 ref/eidolon/angel	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
 ref/eidolon/archon	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
-ref/eidolon/astral	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/astral	plane-hoppers-handbook	24	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/eidolon/azata	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
 ref/eidolon/daemon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
 ref/eidolon/demon	pathfinder-unchained	31	print		the subtype heading is on this page; the description starts here
@@ -3625,9 +3625,9 @@ ref/eidolon/elemental	pathfinder-unchained	33	print		the subtype heading is on t
 ref/eidolon/inevitable	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
 ref/eidolon/protean	pathfinder-unchained	33	print		the subtype heading is on this page; the description starts here
 ref/eidolon/psychopomp	pathfinder-unchained	34	print		the subtype heading is on this page; the description starts here
-ref/eidolon/radiant	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
-ref/eidolon/storykin	plane-hoppers-handbook		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/eidolon/void	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/eidolon/radiant	plane-hoppers-handbook	25	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
+ref/eidolon/storykin	plane-hoppers-handbook	31	print		proposal 26, print 31: the Storykin Eidolon Subtype heading is in the Harrowed Realm section on this page; the subtypes of the Planar Allies section (24 to 25) are Aeon, Astral, Radiant and Void
+ref/eidolon/void	plane-hoppers-handbook	25	print		the eidolon subtype heading (name, eidolon subtype) is on this page; the description starts here
 ref/hex/congeal	people-of-the-wastes	21	print		
 ref/hex/deathcall	qadira-jewel-of-the-east	15	print		
 ref/hex/gift-of-consumption	potions-and-poisons	10	print		
