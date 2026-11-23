@@ -3599,7 +3599,7 @@ ref/discovery/immolation-bomb	ultimate-combat	24	print		title text only (no head
 ref/discovery/lasting-tinctures	potions-and-poisons	9	print		
 ref/discovery/nauseating-flesh	ultimate-combat	24	print		
 ref/discovery/poison-conversion	ultimate-combat	24	print		
-ref/discovery/siege-bomb	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/siege-bomb	ultimate-combat	24	print		the discovery is printed as a heading (name, asterisk, colon) on this page
 ref/eidolon/aeon	plane-hoppers-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
 ref/eidolon/agathion	pathfinder-unchained	29	print		the subtype heading is on this page; the description starts here (it continues on page 30)
 ref/eidolon/angel	pathfinder-unchained	30	print		the subtype heading is on this page; the description starts here
@@ -3664,7 +3664,7 @@ ref/kipower/water-sprint	pathfinder-unchained	18	print
 ref/kipower/wholeness-of-body	pathfinder-unchained	18	print		
 ref/kipower/wind-jump	pathfinder-unchained	18	print		
 ref/ninjatrick/acrobatic-master	ultimate-combat	14	print		
-ref/ninjatrick/advanced-talent	ultimate-combat		unconfirmed	the name is a heading only on page 32, far from the proposed page 16; which one prints the option is not settled	
+ref/ninjatrick/advanced-talent	ultimate-combat	16	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/assassinate	ultimate-combat	16	print		
 ref/ninjatrick/bleeding-attack	ultimate-combat	14	print		title text only (no heading form): the name is on page 14 and on none of the two pages each side
 ref/ninjatrick/blinding-bomb	ultimate-combat	17	print		
@@ -3673,7 +3673,7 @@ ref/ninjatrick/combat-trick	ultimate-combat	15	print
 ref/ninjatrick/darkvision	ultimate-combat	15	print		
 ref/ninjatrick/deadly-range	ultimate-combat	15	print		
 ref/ninjatrick/deadly-shuriken	ultimate-combat	17	print		
-ref/ninjatrick/deflect-arrows	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/deflect-arrows	ultimate-combat	15	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/evasion	ultimate-combat	17	print		
 ref/ninjatrick/fast-stealth	ultimate-combat	15	print		
 ref/ninjatrick/feat	ultimate-combat	17	print		
@@ -3684,7 +3684,7 @@ ref/ninjatrick/ghost-step	ultimate-combat	17	print
 ref/ninjatrick/hidden-weapons	ultimate-combat	15	print		
 ref/ninjatrick/high-jumper	ultimate-combat	15	print		
 ref/ninjatrick/invisible-blade	ultimate-combat	17	print		
-ref/ninjatrick/ki-block	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/ki-block	ultimate-combat	15	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/ki-charge	ultimate-combat	15	print		
 ref/ninjatrick/master-disguise	ultimate-combat	17	print		
 ref/ninjatrick/poison-bomb	ultimate-combat	15	print		
@@ -3694,7 +3694,7 @@ ref/ninjatrick/see-the-unseen	ultimate-combat	17	print
 ref/ninjatrick/shadow-clone	ultimate-combat	15	print		
 ref/ninjatrick/shadow-split	ultimate-combat	17	print		
 ref/ninjatrick/slow-metabolism	ultimate-combat	15	print		
-ref/ninjatrick/slow-reactions	ultimate-combat		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/ninjatrick/slow-reactions	ultimate-combat	16	print		the ninja trick is printed under its name on this page
 ref/ninjatrick/smoke-bomb	ultimate-combat	16	print		
 ref/ninjatrick/snatch-arrows	ultimate-combat	16	print		
 ref/ninjatrick/style-master	ultimate-combat	16	print		
@@ -3724,8 +3724,8 @@ ref/ragepower/dragon-totem	ultimate-combat	26	print
 ref/ragepower/eater-of-magic	ultimate-combat	27	print		
 ref/ragepower/elemental-stance	pathfinder-unchained	10	print		
 ref/ragepower/ghost-rager	ultimate-combat	27	print		
-ref/ragepower/greater-ground-breaker	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
-ref/ragepower/greater-guarded-life	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-ground-breaker	ultimate-combat	27	print		the rage power is printed as Name, Greater on this page
+ref/ragepower/greater-guarded-life	ultimate-combat	27	print		the rage power is printed as Name, Greater on this page
 ref/ragepower/greater-sun-totem	qadira-jewel-of-the-east		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
 ref/ragepower/guarded-stance-stance	pathfinder-unchained	11	print		
 ref/ragepower/hive-totem-resilience	ultimate-combat	27	print		
@@ -3779,7 +3779,7 @@ ref/talent/accurate-poisoner	potions-and-poisons	13	print
 ref/talent/black-market-connections	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/certainty	pathfinder-unchained	21	print		
 ref/talent/coax-information-unchained-rogue	pathfinder-unchained	21	print		
-ref/talent/confounding-blades	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/confounding-blades	ultimate-combat	70	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/convincing-lie	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/cutting-edge	pathfinder-unchained	23	print		
 ref/talent/deadly-sneak-unchained-rogue	pathfinder-unchained	23	print		title text only (no heading form): the name is on page 23 and on none of the two pages each side
@@ -3793,12 +3793,12 @@ ref/talent/getaway-artist	ultimate-combat	69	print		proposal 1 (placeholder), pr
 ref/talent/getaway-master	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/greater-multitalented	pathfinder-unchained	24	print		the rogue talent is printed on this page as Multitalented, Greater
 ref/talent/greater-terrain-mastery	pathfinder-unchained	24	print		the rogue talent is printed on this page as Terrain Mastery, Greater
-ref/talent/grit	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/grit	ultimate-combat	69	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/hard-minded	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/hide-in-plain-sight	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
 ref/talent/hold-breath	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
 ref/talent/iron-guts	ultimate-combat	69	print		proposal 1 (placeholder), print 69: heading on exactly one page of the whole book
-ref/talent/ki-pool	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/ki-pool	ultimate-combat	69	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/lasting-poison-unchained-rogue	pathfinder-unchained	21	print		
 ref/talent/ledge-walker-unchained-rogue	pathfinder-unchained	22	print		
 ref/talent/light-walker	pathfinder-unchained	24	print		
@@ -3823,7 +3823,7 @@ ref/talent/suppress-poison	potions-and-poisons	13	print
 ref/talent/surprise-attack-unchained-rogue	pathfinder-unchained	22	print		
 ref/talent/terrain-mastery	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/toxic-regurgitation	potions-and-poisons	13	print		
-ref/talent/underhanded	ultimate-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/underhanded	ultimate-combat	70	print		the rogue talent is printed under its name on this page (the proposed page 1 was a placeholder)
 ref/talent/unwitting-ally	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book
 ref/talent/wall-scramble	ultimate-combat	70	print		proposal 1 (placeholder), print 70: heading on exactly one page of the whole book
 ref/talent/weapon-snatcher	ultimate-combat	71	print		proposal 1 (placeholder), print 71: heading on exactly one page of the whole book

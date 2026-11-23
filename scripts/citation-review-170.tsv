@@ -92,7 +92,6 @@ ref/discovery/profane-bomb	class_option	champions-of-corruption	unconfirmed	26	o
 ref/discovery/ranged-baptism	class_option	champions-of-purity	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/discovery/remedy-extract	class_option	healers-handbook	no-page		
 ref/discovery/sand-bomb	class_option	antiheros-handbook	unconfirmed	29	only a short title is on the proposed page, which proves little
-ref/discovery/siege-bomb	class_option	ultimate-combat	unconfirmed	24	only a short title is on the proposed page, which proves little
 ref/discovery/solid-ground	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/discovery/thorny-bomb	class_option	ultimate-wilderness	unconfirmed	34	only a short title is on the proposed page, which proves little
 ref/domain/air	class_option	advanced-players-guide	marker		paragraph agrees; it ends the normal part
@@ -177,11 +176,7 @@ ref/invtalent/iconclastic-strike	class_option	inner-sea-intrigue	unconfirmed	31	
 ref/invtalent/masterful-numerical-strike	class_option	disciples-doctrine	no-page		
 ref/invtalent/slowing-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
 ref/invtalent/timed-strike	class_option	advanced-class-origins	unconfirmed	15	only a short title is on the proposed page, which proves little
-ref/ninjatrick/advanced-talent	class_option	ultimate-combat	unconfirmed	16	the name is a heading only on page 32, far from the proposed page 16; which one prints the option is not settled
 ref/ninjatrick/breath-of-the-ancestors	class_option	legacy-of-dragons	unconfirmed	22	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ninjatrick/deflect-arrows	class_option	ultimate-combat	unconfirmed	15	only a short title is on the proposed page, which proves little
-ref/ninjatrick/ki-block	class_option	ultimate-combat	unconfirmed	15	only a short title is on the proposed page, which proves little
-ref/ninjatrick/slow-reactions	class_option	ultimate-combat	unconfirmed	16	only a short title is on the proposed page, which proves little
 ref/oraclecurse/acursed	class_option	horror-realms	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/oraclecurse/pranked	class_option	legacy-of-the-first-world	unconfirmed	10	only a short title is on the proposed page, which proves little
 ref/oraclecurse/reclusive	class_option	legacy-of-the-first-world	unconfirmed	22	only a short title is on the proposed page, which proves little
@@ -203,8 +198,6 @@ ref/ragepower/greater-eclipsing-rage	class_option	ultimate-wilderness	unconfirme
 ref/ragepower/greater-erratic-charge	class_option	villain-codex	unconfirmed	176	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-ferocious-beast	class_option	animal-archive	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-fire-totem	class_option	blood-of-the-elements	unconfirmed	11	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-ground-breaker	class_option	ultimate-combat	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/ragepower/greater-guarded-life	class_option	ultimate-combat	unconfirmed	27	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-moon-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-spire-totem	class_option	wilderness-origins	unconfirmed	24	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/ragepower/greater-suffocating-grip	class_option	legacy-of-the-first-world	unconfirmed	29	title not found on the proposed page or the two pages around it, nor as a heading in the book
@@ -246,18 +239,14 @@ ref/sorcbloodline/undead	class_option	ultimate-magic	marker		paragraph agrees; i
 ref/sorcbloodline/verdant	class_option	ultimate-magic	marker		paragraph agrees; it ends the normal part
 ref/talent/armor-piercer	class_option	monster-hunters-handbook	unconfirmed	9	only a short title is on the proposed page, which proves little
 ref/talent/climbing-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/confounding-blades	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/disabling-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/escaping-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/expert-cypher	class_option	divine-anthology	unconfirmed	7	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/flying-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/graceful-athlete	class_option	blood-of-the-beast	coarse	6	the proposal is a section or parent page
-ref/talent/grit	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/ki-pool	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/riding-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/sleight-of-hand-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/talent/swimming-stunt	class_option	inner-sea-combat	unconfirmed	16	title not found on the proposed page or the two pages around it, nor as a heading in the book
-ref/talent/underhanded	class_option	ultimate-combat	unconfirmed	1	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/vigtalent/environmental-weapon	class_option	ultimate-intrigue	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/vigtalent/expose-weaknesses	class_option	ultimate-intrigue	unconfirmed	14	title not found on the proposed page or the two pages around it, nor as a heading in the book
 ref/vigtalent/foe-collision	class_option	ultimate-intrigue	unconfirmed	14	only a short title is on the proposed page, which proves little
