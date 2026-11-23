@@ -7,6 +7,9 @@ source_ids = ["jade-regent-players-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "childhood_crush", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "jade-regent-players-guide"
+page = "12"
 
 [fields]
 kind = "trait"

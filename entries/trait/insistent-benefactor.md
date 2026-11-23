@@ -7,6 +7,9 @@ source_ids = ["pathfinder-society-primer"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insistent_benefactor", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "pathfinder-society-primer"
+page = "13"
 
 [fields]
 kind = "trait"

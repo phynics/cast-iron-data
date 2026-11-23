@@ -7,6 +7,9 @@ source_ids = ["merchants-manifest"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "canon_of_coin", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "merchants-manifest"
+page = "2"
 
 [fields]
 kind = "trait"

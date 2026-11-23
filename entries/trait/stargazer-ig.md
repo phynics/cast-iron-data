@@ -7,6 +7,12 @@ source_ids = ["iron-gods-players-guide", "people-of-the-river"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stargazer_ig", path = "json/traits02.json" },
 ]
+[[sources]]
+publication = "iron-gods-players-guide"
+page = "9"
+[[sources]]
+publication = "people-of-the-river"
+page = "31"
 
 [fields]
 kind = "trait"

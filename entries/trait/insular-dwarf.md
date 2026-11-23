@@ -7,6 +7,9 @@ source_ids = ["people-of-the-north"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "insular_dwarf", path = "json/traits05.json" },
 ]
+[[sources]]
+publication = "people-of-the-north"
+page = "15"
 
 [fields]
 kind = "trait"

@@ -7,6 +7,9 @@ source_ids = ["legacy-of-the-first-world"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "accustomed_to_trickery", path = "json/traits04.json" },
 ]
+[[sources]]
+publication = "legacy-of-the-first-world"
+page = "2"
 
 [fields]
 kind = "trait"
