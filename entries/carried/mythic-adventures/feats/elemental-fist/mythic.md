@@ -11,6 +11,9 @@ provenance = [
 relations = [
   { kind = "addon", target = "ref/feat/elemental-fist", label = "mythic" },
 ]
+[[sources]]
+publication = "mythic-adventures"
+page = "64"
 
 [fields]
 kind = "feat"
