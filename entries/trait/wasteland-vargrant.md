@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/wasteland-vargrant"
 kind = "trait"
-title = "Wasteland Vargrant"
+title = "Wasteland Vagrant"
 aon = "TraitDisplay.aspx?ItemName=Wasteland%20Vargrant"
 source_ids = ["people-of-the-wastes"]
 provenance = [

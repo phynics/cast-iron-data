@@ -1,7 +1,7 @@
 +++
 id = "ref/trait/emberkin-imposter"
 kind = "trait"
-title = "Emberkin Imposter"
+title = "Emberkin Impostor"
 aon = "TraitDisplay.aspx?ItemName=Emberkin%20Imposter"
 source_ids = ["qadira-jewel-of-the-east"]
 provenance = [
