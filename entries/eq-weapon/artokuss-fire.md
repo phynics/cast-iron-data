@@ -36,6 +36,10 @@ effect lasts for a number of rounds equal to the user's mythic tier, and otherwi
 offering no relief to creatures that try to extinguish the fire by dousing or immersing themselves
 in water.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 magnesium + 25 saltpeter + 30
-spirit of wine)/congelation; **Craft DC** 30\
-**Time** 1 hour; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(20 magnesium + 25 saltpeter + 30 spirit of wine)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 hour
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

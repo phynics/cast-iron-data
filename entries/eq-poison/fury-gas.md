@@ -36,6 +36,10 @@ afterward
 
 **Cure:** 2 saves
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (180 brimstone + 80 quicksilver + 60
-saltpeter)/fermentation; **Craft** DC 16\
-**Time** 1 day; **Tools** heat source; **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(180 brimstone + 80 quicksilver + 60 saltpeter)/fermentation](ref/rule/spontaneous-alchemy)
+Craft: DC 16
+Time: 1 day
+Tools: heat source
+Type: poison
+:::

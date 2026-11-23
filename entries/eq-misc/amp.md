@@ -30,6 +30,10 @@ addicted to that drug by 2 for 1d4 days; this increase stacks. If a drug combine
 consumed within 1 round, the amp spoils and the drug becomes tainted, as if cut with
 [bunk](ref/eq-misc/bunk).
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (6 quicksilver + 10
-realgar)/distillation; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(6 quicksilver + 10 realgar)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical tool
+:::

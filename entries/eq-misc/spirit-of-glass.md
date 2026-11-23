@@ -33,6 +33,10 @@ soaked in poison. Spirit of glass is often mistaken for lint or loose cloth, tho
 abrasions it causes can be identified with a successful DC 15 Craft (alchemy) check or DC 17 Heal
 check. Spirit of glass can be used only once before it is expended.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (2 cold iron + 7 darkwood + 5
-gold)/calcination; **Craft DC** 25\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** alchemical tool
+::: statblock
+Spontaneous Alchemy Recipe: [(2 cold iron + 7 darkwood + 5 gold)/calcination](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: alchemical tool
+:::

@@ -42,6 +42,10 @@ dreams, and can be returned with a restoration or heal spell
 
 **Cure:** 2 saves
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (115 realgar + 115 cytillesh
-spores)/calcination; **Craft** DC 18\
-**Time** 1 hour; **Tools** [crucible](ref/eq-misc/crucible); **Type** poison
+::: statblock
+Spontaneous Alchemy Recipe: [(115 realgar + 115 cytillesh spores)/calcination](ref/rule/spontaneous-alchemy)
+Craft: DC 18
+Time: 1 hour
+Tools: [crucible](ref/eq-misc/crucible)
+Type: poison
+:::

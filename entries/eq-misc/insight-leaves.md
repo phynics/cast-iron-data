@@ -28,6 +28,10 @@ going to bed. While you sleep, you experience vivid hallucinations that offer in
 with which you previously had only limited familiarity. After 8 hours of uninterrupted rest, you can
 attempt a previously failed Knowledge check with a +2 alchemical bonus.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (10 dew of lunary + 5 mugwort
-extract + 20 spirit of wine)/fermentation; **Craft DC** 25\
-**Time** 1 day; **Tools** heat source; **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(10 dew of lunary + 5 mugwort extract + 20 spirit of wine)/fermentation](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 1 day
+Tools: heat source
+Type: alchemical remedy
+:::

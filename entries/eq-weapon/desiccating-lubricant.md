@@ -32,7 +32,10 @@ and a -2 penalty to CMD against grapple, bull rush, and disarm checks. These pen
 minute. Against ooze creatures and creatures with the water subtype, desiccating lubricant deals 2d4
 points of lethal damage and the penalties increase to -4.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (25 cold iron + 10 salt + 10
-urea)/congelation; **Craft DC** 20\
-**Time** 10 minutes; **Tools** [alchemist's lab](ref/eq-misc/alchemists-lab); **Type** alchemical
-weapon
+::: statblock
+Spontaneous Alchemy Recipe: [(25 cold iron + 10 salt + 10 urea)/congelation](ref/rule/spontaneous-alchemy)
+Craft DC: 20
+Time: 10 minutes
+Tools: [alchemist's lab](ref/eq-misc/alchemists-lab)
+Type: alchemical weapon
+:::

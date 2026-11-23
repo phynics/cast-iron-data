@@ -34,6 +34,10 @@ be resisted with a successful Fortitude save, he can attempt an immediate saving
 effect (using the +2 alchemical bonus if applicable); this final benefit can be gained only once per
 day.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (20 phosphorus + 60 ginger extract +
-30 mugwort extract)/filtration; **Craft DC** 25\
-**Time** 10 minutes; **Tools** [filter](ref/eq-misc/filter); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(20 phosphorus + 60 ginger extract + 30 mugwort extract)/filtration](ref/rule/spontaneous-alchemy)
+Craft DC: 25
+Time: 10 minutes
+Tools: [filter](ref/eq-misc/filter)
+Type: alchemical remedy
+:::

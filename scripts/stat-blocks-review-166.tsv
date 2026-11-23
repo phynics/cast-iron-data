@@ -1,22 +1,14 @@
 path	pass	reason	detail
-entries/eq-misc/amp.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/angelstep.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/antitoxin.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/autosniper-trap.md	item	variant-paragraphs	Autosniper Trap
 entries/eq-misc/balloon-trap.md	item	variant-paragraphs	Sirocco Balloon Trap - CR 14
 entries/eq-misc/bear-trap.md	item	variant-paragraphs	Bear Trap - CR 1
 entries/eq-misc/bell-tripwire-trap.md	item	variant-paragraphs	Bell Tripwire Trap
 entries/eq-misc/black-amaranth.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/blood-boiling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/blood-chilling-pill.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/bloodgorge.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/bloody-mandrake.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/bone-reed.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/boulderhead-bock.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/bunk.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/chameleon-ointment.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/cloud-puff.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/courtesans-outfit.md	item	variant-paragraphs	Tear-away clothing
@@ -30,10 +22,8 @@ entries/eq-misc/ear-trumpet-masterwork.md	item	variant-paragraphs	Price
 entries/eq-misc/ear-trumpet.md	item	variant-paragraphs	Price
 entries/eq-misc/efreeti-cord.md	item	variant-paragraphs	Price
 entries/eq-misc/entertainers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/essence-of-independence.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/executioners-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/explorers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/eye-drops-of-the-unseen-master.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/fairy-cap.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/flag-ensign-or-courtesy-large.md	item	variant-paragraphs	Price
 entries/eq-misc/flag-ensign-or-courtesy-small.md	item	variant-paragraphs	Price
@@ -41,28 +31,18 @@ entries/eq-misc/flag-personal-signal-large.md	item	variant-paragraphs	Price
 entries/eq-misc/flag-personal-signal-small.md	item	variant-paragraphs	Price
 entries/eq-misc/flag.md	item	variant-paragraphs	Price
 entries/eq-misc/flask-launcher.md	item	variant-paragraphs	Flash Launcher Trap
-entries/eq-misc/frightful-war-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/gas-mask.md	item	variant-paragraphs	Price
 entries/eq-misc/goblinvine.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/heathensnuff.md	item	variant-paragraphs	Type
 entries/eq-misc/hobgoblin-war-draught.md	item	variant-paragraphs	Craft DC
-entries/eq-misc/homunculus-clay.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/hot-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/icecap-ale.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/imposing-war-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/incense-of-divinity.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/insight-leaves.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/instant-fertilizer.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/leechwort.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/longbeard-lambic.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/love-in-idleness.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/loyalty-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/manacles-common.md	item	label-without-separator	Category
 entries/eq-misc/manacles-masterwork.md	item	label-without-separator	Category
 entries/eq-misc/manacles-mithral.md	item	label-without-separator	Category
 entries/eq-misc/merfolks-comb.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/mimameith.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/mimic-fibers.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/moly.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/monks-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/nepenthe.md	item	block-ended-at-sentences	Preparation
@@ -74,23 +54,14 @@ entries/eq-misc/perfume-cologne.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-common-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/perfume-exotic-per-dose.md	item	variant-paragraphs	Price
 entries/eq-misc/pickpockets-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/poison-diffuser.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/poison-latch-needle.md	item	variant-paragraphs	Poison Latch Needle Trap
 entries/eq-misc/portable-bolt-trap.md	item	variant-paragraphs	Portable Bolt Trap - CR 1/2
 entries/eq-misc/pull-cord-grenade.md	item	variant-paragraphs	Type
 entries/eq-misc/royal-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/seeing-slime.md	item	block-ended-at-sentences	Preparation
-entries/eq-misc/semblance-transfusion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/shamans-paint.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/silence-dust.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/smokestick.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/snake-oil.md	item	variant-paragraphs	Type
-entries/eq-misc/spirit-of-glass.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/squires-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/sunrod.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/surge-syrup.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/tea-of-transference.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/tear-away-artisans-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/tear-away-burglars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/tear-away-cold-weather-outfit.md	item	variant-paragraphs	Tear-away clothing
@@ -109,16 +80,11 @@ entries/eq-misc/tear-away-royal-outfit.md	item	variant-paragraphs	Tear-away clot
 entries/eq-misc/tear-away-scholars-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/tear-away-squires-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/tear-away-travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
-entries/eq-misc/tindertwig.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/trapped-item-trapped-disguise-kit.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
 entries/eq-misc/trapped-item-trapped-scroll-case.md	item	variant-paragraphs	Trapped Disguise Kit; Trapped Scroll Case
 entries/eq-misc/travelers-outfit.md	item	variant-paragraphs	Tear-away clothing
 entries/eq-misc/trespassers-boot.md	item	variant-paragraphs	Trespasser's Boot - CR 1/2
-entries/eq-misc/tunnel-creeper.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/vapors-of-easy-breath.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-misc/vector-ink.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/venom-trap.md	item	variant-paragraphs	Venom Trap - CR varies
-entries/eq-misc/vivifying-moxibustion-needles.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	label-without-separator	Category
 entries/eq-misc/wagon-heavy-travel-per-mile.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/wagon-heavy.md	item	label-without-separator	Category
@@ -133,16 +99,6 @@ entries/eq-misc/wagon.md	item	label-without-separator	Category
 entries/eq-misc/wagon.md	item	sources-unparsed	PRPG Core Rulebook pg. 159, 163
 entries/eq-misc/winterbite.md	item	block-ended-at-sentences	Preparation
 entries/eq-misc/wire.md	item	variant-paragraphs	Tripwire Trap - CR 1/3
-entries/eq-misc/wyrms-breath-bitter.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/alchemical-isolation.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/confabulation-powder.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/count-ambrass-punishment.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/cytillesh-extract.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/flaming-doom.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/fury-gas.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/liquid-persuasion.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/smell-of-fear.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-poison/vampires-kiss.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-spellbook/apprentice-chapbook-of-rul-thaven.md	item	variant-paragraphs	Opposition
 entries/eq-spellbook/arctic-call.md	item	variant-paragraphs	Opposition
 entries/eq-spellbook/arrowsongs-sorrow.md	item	variant-paragraphs	Value
@@ -184,40 +140,11 @@ entries/eq-spellbook/unnamed-journal.md	item	variant-paragraphs	Value
 entries/eq-spellbook/wisdom-of-jatembe-nine-warriors-edition.md	item	variant-paragraphs	Value
 entries/eq-spellbook/wisdom-of-jatembe-six-warriors-edition.md	item	variant-paragraphs	Value
 entries/eq-spellbook/wisdom-of-jatembe-three-warriors-edition.md	item	variant-paragraphs	Value
-entries/eq-weapon/acid-neutralizer.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/acid.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/alchemists-fire.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-bleeding.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-durable.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-dye.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-lodestone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-pheromone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-slow-burn.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-splintercloud.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-tangleshot.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/arrow-trip.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/artokuss-fire.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/bloating-solution.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-weapon/composite-longbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
-entries/eq-weapon/congealer-spray.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/desiccating-lubricant.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-dancing-peonies.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-firecracker-spirit.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-firecracker.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-jumping-jenny.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-skydragon.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/firework-sparking-pinwheel.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-weapon/hornbow-orc.md	item	variant-paragraphs	Cost
-entries/eq-weapon/lyddric-essence.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-weapon/reflex-bow.md	item	variant-paragraphs	Cost
-entries/eq-weapon/shriek-bomb.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/slime-grenade.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-weapon/spear-sling.md	item	variant-paragraphs	Cost
-entries/eq-weapon/stormstone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/suffocating-powder.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/tanglefoot-bag.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
-entries/eq-weapon/thunderstone.md	item	variant-paragraphs	Spontaneous Alchemy Recipe
 entries/eq-weaponenh/brutally-weighted.md	item	label-without-separator	Weight
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/armor-of-the-shadow-lord.md	item	variant-paragraphs	Alignment

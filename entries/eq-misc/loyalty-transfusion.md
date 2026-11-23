@@ -29,6 +29,10 @@ of their blood into the serum. When an appropriate homunculus drinks this concoc
 treats the master-to-be as its master. The change in ownership also causes the homunculus's
 alignment to change to match that of its new owner.
 
-**[Spontaneous Alchemy](ref/rule/spontaneous-alchemy) Recipe** (200 quicksilver + 150 realgar + 200
-spirit of wine)/distillation; **Craft DC** 30\
-**Time** 1 day; **Tools** [retort](ref/eq-misc/retort); **Type** alchemical remedy
+::: statblock
+Spontaneous Alchemy Recipe: [(200 quicksilver + 150 realgar + 200 spirit of wine)/distillation](ref/rule/spontaneous-alchemy)
+Craft DC: 30
+Time: 1 day
+Tools: [retort](ref/eq-misc/retort)
+Type: alchemical remedy
+:::
