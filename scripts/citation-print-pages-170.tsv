@@ -2481,6 +2481,7 @@ ref/affliction/daughter-of-urgathoa/bubonic-plague	inner-sea-world-guide	309	pri
 ref/affliction/death-dog/wormpox	bestiary-4	44	print	
 ref/affliction/disease/disease-name-ex-or-su	bestiary-5	292	print		the disease format example (Disease Name, Bite-injury, DC 15, onset 1d3 days) is printed in the Disease universal monster rule on this page
 ref/affliction/dorvae/dorvae-poison-su	bestiary-4	62	print	
+ref/affliction/drakainia/poison-glands-poison	bestiary-4	77	print		the poison line is printed in the Poison Glands ability of the drakainia template on this page
 ref/affliction/duneshaker/duneshaker-poison	bestiary-6	256	print	
 ref/affliction/embalming-bear/potent-embalming-fluid	tears-at-bitter-manor	60	print	
 ref/affliction/empusa/lash-venom	planar-adventures	232	print	
@@ -2504,6 +2505,7 @@ ref/affliction/hag-moon-hag/dreadful-ravings	planar-adventures	242	print
 ref/affliction/hag-sea-hag/evil-eye-curse	bestiary	243	print	
 ref/affliction/horsemen-of-the-apocalypse-apollyon/soul-plague	bestiary-6	160	print		the disease is printed as a line in the monster's special abilities on this page
 ref/affliction/howler/howler-howl	bestiary-2	159	print	
+ref/affliction/hungry-flesh/tumor-infestation	bestiary-4	152	print		the disease line (Tumor infestation) is printed in the special abilities of the hungry flesh on this page (the proposal 152 was a coarse page)
 ref/affliction/hypnalis/hypnalis-venom	bestiary-4	154	print	
 ref/affliction/iku-turso/tursas	bestiary-3	153	print	
 ref/affliction/jinmenju/head-fruit-poison	bestiary-4	161	print	
