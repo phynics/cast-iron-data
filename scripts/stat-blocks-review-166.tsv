@@ -28,7 +28,6 @@ entries/eq-weapon/composite-shortbow.md	cost	no-lead-row	Cost
 entries/eq-weapon/composite-shortbow.md	item	variant-paragraphs	Cost; Cost; Cost; Cost; Cost; Cost; Cost
 entries/eq-weaponenh/brutally-weighted.md	item	print-fix	price: `+1,500 gp`; the field also held the weight (Adventurer's Armory 2 p. 10)
 entries/magic-armor/planar-invasion-shield.md	item	print-fix	Construction: the intended item `absorbing shield` as a link, without the emphasis that held the `;` (Ultimate Equipment p. 349)
-entries/magic-artifact/spherical-boat-of-zutha.md	item	variant-paragraphs	AC; Maximum Speed; Propulsion
 entries/magic-artifact/sword-of-gluttony-ungarato.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-gluttony-ungarato.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/sword-of-lust-asheia.md	intelligent	sentences-in-variant	Powers
@@ -39,7 +38,6 @@ entries/magic-artifact/sword-of-sloth-shin-tari.md	intelligent	sentences-in-vari
 entries/magic-artifact/sword-of-sloth-shin-tari.md	item	variant-paragraphs	Alignment
 entries/magic-artifact/sword-of-wrath-garvok.md	intelligent	sentences-in-variant	Powers
 entries/magic-artifact/sword-of-wrath-garvok.md	item	variant-paragraphs	Alignment
-entries/magic-enh/runeforged.md	item	variant-paragraphs	Requirements
 entries/magic-graft/fungal-eyes.md	item	unlabelled-line	These small, glowing blue fungi form a p
 entries/magic-graft/reaching-vines.md	item	unlabelled-line	Cytillesh spores seeded beneath the subj
 entries/magic-ioun/agate-ellipsoid.md	item	variant-paragraphs	Price; Price

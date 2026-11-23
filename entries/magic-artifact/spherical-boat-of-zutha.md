@@ -59,31 +59,36 @@ Colossal water vehicle\
 
 #### Defense
 
-**AC** 2; **[Hardness](ref/umr/hardness)** 20\
-**hp** 1,200 (599)\
-**Base Save** +0
+::: statblock
+AC: 2
+Hardness: [20](ref/umr/hardness)
+hp: 1,200 (599)
+Base Save: +0
+:::
 
 #### Offense
 
-**Maximum Speed** 500 ft.; **Acceleration** 100 ft.\
-**CMB** +8; **CMD** 18\
-**Ramming Damage** 8d8
+::: statblock
+Maximum Speed: 500 ft.
+Acceleration: 100 ft.
+CMB: +8
+CMD: 18
+Ramming Damage: 8d8
+:::
 
 #### Description
 
 The _Spherical Boat of Zutha_ can carry 50 tons of cargo or 160 soldiers.
 
-**Propulsion** magic\
-**Driving Check** none (magic)\
-**Forward Facing** the ship's forward\
-**Driving Device** magic item\
-**Driving Space** any square on the ship\
-**Decks** 2\
-**Weapons** _The Spherical Boat of Zutha_ wasn't created with weapons, but it can accommodate up to
-20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the
-ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides
-of the ship, as with a normal warship. Although the bearer controls the movement of the ship by
-thought alone, additional crew members are required to operate any siege engines on the ship.
+::: statblock
+Propulsion: magic
+Driving Check: none (magic)
+Forward Facing: the ship's forward
+Driving Device: magic item
+Driving Space: any square on the ship
+Decks: 2
+Weapons: _The Spherical Boat of Zutha_ wasn't created with weapons, but it can accommodate up to 20 Large direct-fire siege engines in banks of 10 positioned on the port and starboard sides of the ship, or up to six Huge direct-fire siege engines in banks of three on the port and starboard sides of the ship, as with a normal warship. Although the bearer controls the movement of the ship by thought alone, additional crew members are required to operate any siege engines on the ship.
+:::
 
 ### Destruction
 
