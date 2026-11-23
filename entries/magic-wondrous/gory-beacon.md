@@ -9,6 +9,9 @@ provenance = [
 [[sources]]
 publication = "heaven-unleashed"
 page = "55"
+[[sources]]
+publication = "ultimate-equipment"
+page = "301"
 
 [fields]
 kind = "item"
@@ -34,6 +37,5 @@ heat functions only when a creature of the user's type within 30 feet (including
 
 ### Construction
 
-**Sources:** Ultimate Equipment pg 301\
 **Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
 [burning hands](ref/spell/burning-hands), creator cannot be good; **Cost** 2,900 gp

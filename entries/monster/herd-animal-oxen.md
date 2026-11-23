@@ -6,6 +6,9 @@ source_ids = ["bestiary", "pathfinder-51-the-hungry-storm"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "herd_animal_oxen", path = "json/monsters13.json" },
 ]
+[[sources]]
+publication = "bestiary"
+page = "174"
 
 [fields]
 kind = "creature"
@@ -44,7 +47,6 @@ attack.
 
 **Senses:** Low-light vision, Scent
 
-**Sources:** Pathfinder RPG Bestiary pg 174\
 **Experience points:** 600
 
 **Armor class:** 13

@@ -113,7 +113,6 @@ this manner.
 
 ### Construction
 
-**Sources:** Classic Treasures Revisited pg 14\
 **Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
 [mage hand](ref/spell/mage-hand) (remote activation cube only),
 [summon monster I](ref/spell/summon-monster-1) (discriminating cube only),
