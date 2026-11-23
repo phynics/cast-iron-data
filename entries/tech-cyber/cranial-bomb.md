@@ -28,7 +28,11 @@ Implantation: 1
 
 ### Construction
 
-**Craft DC** 20; **Cost** 2,250 gp\
+::: statblock
+Craft DC: 20
+Cost: 2,250 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by

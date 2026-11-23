@@ -28,7 +28,11 @@ Implantation: 1
 
 ### Construction
 
-**Craft DC** 28; **Cost** 1,000 gp\
+::: statblock
+Craft DC: 28
+Cost: 1,000 gp
+:::
+
 [Craft Cybernetics](ref/feat/craft-cybernetics), [cybernetics lab](ref/rule/crafting-laboratories)
 
 A skillslot is implanted into the target's brain, leaving a small port at the base of the skull.
