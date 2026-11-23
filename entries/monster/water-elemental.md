@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary"
-page = "126"
+page = "126-127"
 
 [fields]
 kind = "creature"
@@ -28,74 +28,60 @@ abilities = ["14", "10", "13", "4", "11", "11"]
 
 _This translucent creature's shape shifts between a spinning column of water and a crashing wave._
 
-**Small Water Elemental**
+## Small Water Elemental {#stat-small}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +0
+Alignment: Neutral
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Elemental, Extraplanar, Water
+Experience points: 400
+:::
 
-**Initiative:** +0
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 17
+AC modifiers: +6 natural, +1 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +3
+Will: +0
+Immune: elemental traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: slam +5 (1d6+3)
+Spec Att: drench, vortex (DC 13), water mastery
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
+::: statblock
+Ability scores: Str 14, Dex 10, Con 13, Int 4, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 13
+Feats: Power Attack
+Skills: Acrobatics +4, Escape Artist +4, Knowledge (planes) +1, Perception +4, Stealth +8, Swim +14
+:::
 
-**Subtype:** Elemental, Extraplanar, Water
+### Ecology
 
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +3
-
-**Will:** +0
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** slam +5 (1d6+3)
-
-**Spec Att:** drench, vortex (DC 13), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 10, Con 13, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 13
-
-**Feats:** Power Attack
-
-**Skills:** Acrobatics +4, Escape Artist +4, Knowledge (planes) +1, Perception +4, Stealth +8, Swim
-+14
-
-**Ecology**
-
-**Environment:** any ([Plane of Water](ref/rule/plane-of-water))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Water](ref/rule/plane-of-water))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -134,338 +120,249 @@ out of water.
 
 **Family:** [Elemental](ref/family/elemental)
 
-**Medium Water Elemental**
-
-**Challenge rating:** 3
-
-**Initiative:** +1
-
-**Size:** medium
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +5
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 126\
-**Subtype:** Elemental, Extraplanar, Water
-
-**Experience points:** 800
-
-**Armor class:** 17
-
-**Touch:** 11
-
-**Flat-footed:** 16
-
-**AC modifiers:** +1 Dex, +6 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +5
-
-**Will:** +1
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** slam +7 (1d8+4)
-
-**Spec Att:** drench, vortex (DC 15), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 12, Con 15, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 18
-
-**Feats:** Cleave, Power Attack
-
-**Skills:** Acrobatics +6, Escape Artist +6, Knowledge (planes) +2, Perception +5, Stealth +6, Swim
-+16
-
-**Large Water Elemental**
-
-**Challenge rating:** 5
-
-**Initiative:** +2
-
-**Size:** large
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +9
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 126\
-**Subtype:** Elemental, Extraplanar, Water
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 12
-
-**Flat-footed:** 15
-
-**AC modifiers:** +2 Dex, +1 dodge, +6 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +8
-
-**Will:** +2
-
-**Dr:** 5/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** 2 slams +12 (1d8+5)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** drench, vortex (DC 19), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 14, Con 17, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +14
-
-**Combat maneuver defense:** 27
-
-**Feats:** Cleave, Dodge, Great Cleave, Power Attack
-
-**Skills:** Acrobatics +9, Escape Artist +11, Knowledge (planes) +5, Perception +9, Stealth +5, Swim
-+24
-
-**Huge Water Elemental**
-
-**Challenge rating:** 7
-
-**Size:** huge
-
-**Initiative:** +4
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +13
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 126\
-**Subtype:** Elemental, Extraplanar, Water
-
-**Experience points:** 3,200
-
-**Armor class:** 21
-
-**Touch:** 13
-
-**Flat-footed:** 16
-
-**AC modifiers:** +4 Dex, +1 dodge, +8 natural, -2 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +11
-
-**Will:** +3
-
-**Dr:** 5/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** 2 slams +15 (2d6+7)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** drench, vortex (DC 22), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 18, Con 19, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +19
-
-**Combat maneuver defense:** 34
-
-**Feats:** Cleave, Dodge, Great Cleave, Improved Bull Rush, Power Attack
-
-**Skills:** Acrobatics +11, Escape Artist +15, Knowledge (planes) +7, Perception +13, Stealth +3,
-Swim +26
-
-**Greater Water Elemental**
-
-**Challenge rating:** 9
-
-**Size:** huge
-
-**Initiative:** +5
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +16
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 127\
-**Subtype:** Elemental, Extraplanar, Water
-
-**Experience points:** 6,400
-
-**Armor class:** 23
-
-**Touch:** 14
-
-**Flat-footed:** 17
-
-**AC modifiers:** +5 Dex, +1 dodge, +9 natural, -2 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +15
-
-**Will:** +4
-
-**Dr:** 10/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** 2 slams +20 (2d8+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** drench, vortex (DC 25), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 20, Con 19, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +24
-
-**Combat maneuver defense:** 40
-
-**Feats:** Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Sunder, Lightning Reflexes,
-Power Attack
-
-**Skills:** Acrobatics +18, Escape Artist +20, Knowledge (planes) +12, Perception +16, Stealth +10,
-Swim +30
-
-**Elder Water Elemental**
-
-**Challenge rating:** 11
-
-**Size:** huge
-
-**Initiative:** +6
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +19
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 127\
-**Subtype:** Elemental, Extraplanar, Water
-
-**Experience points:** 12,800
-
-**Armor class:** 24
-
-**Touch:** 15
-
-**Flat-footed:** 17
-
-**AC modifiers:** +6 Dex, +1 dodge, +9 natural, -2 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +18
-
-**Will:** +5
-
-**Dr:** 10/-
-
-**Immune:** elemental traits
-
-**Offense**
-
-**Speed:** 20 ft., swim 90 ft.
-
-**Melee:** 2 slams +24 (2d10+10/19-20)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** drench, vortex (DC 28), water mastery
-
-**Statistics**
-
-**Ability scores:** Str 30, Dex 22, Con 19, Int 10, Wis 11, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +28
-
-**Combat maneuver defense:** 45
-
-**Feats:** Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Critical (slam), Improved
-Sunder, Lightning Reflexes, Power Attack
-
-**Skills:** Acrobatics +25, Escape Artist +25, Knowledge (planes) +19, Perception +19, Stealth +17,
-Swim +37
+## Medium Water Elemental {#stat-medium}
+
+::: statblock
+Challenge rating: 3
+Initiative: +1
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Water
+Experience points: 800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 17
+Touch: 11
+Flat-footed: 16
+AC modifiers: +1 Dex, +6 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +5
+Will: +1
+Immune: elemental traits
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: slam +7 (1d8+4)
+Spec Att: drench, vortex (DC 15), water mastery
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 16, Dex 12, Con 15, Int 4, Wis 11, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +7
+Combat maneuver defense: 18
+Feats: Cleave, Power Attack
+Skills: Acrobatics +6, Escape Artist +6, Knowledge (planes) +2, Perception +5, Stealth +6, Swim +16
+:::
+
+## Large Water Elemental {#stat-large}
+
+::: statblock
+Challenge rating: 5
+Initiative: +2
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +9
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Water
+Experience points: 1,600
+:::
+
+### Defense
+
+::: statblock
+Armor class: 18
+Touch: 12
+Flat-footed: 15
+AC modifiers: +2 Dex, +1 dodge, +6 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +8
+Will: +2
+Dr: 5/-
+Immune: elemental traits
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: 2 slams +12 (1d8+5)
+Reach: 10
+Space: 10
+Spec Att: drench, vortex (DC 19), water mastery
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 20, Dex 14, Con 17, Int 6, Wis 11, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +14
+Combat maneuver defense: 27
+Feats: Cleave, Dodge, Great Cleave, Power Attack
+Skills: Acrobatics +9, Escape Artist +11, Knowledge (planes) +5, Perception +9, Stealth +5, Swim +24
+:::
+
+## Huge Water Elemental {#stat-huge}
+
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +4
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Water
+Experience points: 3,200
+:::
+
+### Defense
+
+::: statblock
+Armor class: 21
+Touch: 13
+Flat-footed: 16
+AC modifiers: +4 Dex, +1 dodge, +8 natural, -2 size
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +11
+Will: +3
+Dr: 5/-
+Immune: elemental traits
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: 2 slams +15 (2d6+7)
+Reach: 15
+Space: 15
+Spec Att: drench, vortex (DC 22), water mastery
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 24, Dex 18, Con 19, Int 6, Wis 11, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +19
+Combat maneuver defense: 34
+Feats: Cleave, Dodge, Great Cleave, Improved Bull Rush, Power Attack
+Skills: Acrobatics +11, Escape Artist +15, Knowledge (planes) +7, Perception +13, Stealth +3, Swim +26
+:::
+
+## Greater Water Elemental {#stat-greater}
+
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +5
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Water
+Experience points: 6,400
+:::
+
+### Defense
+
+::: statblock
+Armor class: 23
+Touch: 14
+Flat-footed: 17
+AC modifiers: +5 Dex, +1 dodge, +9 natural, -2 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +15
+Will: +4
+Dr: 10/-
+Immune: elemental traits
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: 2 slams +20 (2d8+9)
+Reach: 15
+Space: 15
+Spec Att: drench, vortex (DC 25), water mastery
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 28, Dex 20, Con 19, Int 8, Wis 11, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +24
+Combat maneuver defense: 40
+Feats: Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Sunder, Lightning Reflexes, Power Attack
+Skills: Acrobatics +18, Escape Artist +20, Knowledge (planes) +12, Perception +16, Stealth +10, Swim +30
+:::
+
+## Elder Water Elemental {#stat-elder}
+
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Elemental, Extraplanar, Water
+Experience points: 12,800
+:::
+
+### Defense
+
+::: statblock
+Armor class: 24
+Touch: 15
+Flat-footed: 17
+AC modifiers: +6 Dex, +1 dodge, +9 natural, -2 size
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +18
+Will: +5
+Dr: 10/-
+Immune: elemental traits
+:::
+
+### Offense
+
+::: statblock
+Speed: 20 ft., swim 90 ft.
+Melee: 2 slams +24 (2d10+10/19-20)
+Reach: 15
+Space: 15
+Spec Att: drench, vortex (DC 28), water mastery
+:::
+
+### Statistics
+
+::: statblock
+Ability scores: Str 30, Dex 22, Con 19, Int 10, Wis 11, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +28
+Combat maneuver defense: 45
+Feats: Cleave, Dodge, Great Cleave, Improved Bull Rush, Improved Critical (slam), Improved Sunder, Lightning Reflexes, Power Attack
+Skills: Acrobatics +25, Escape Artist +25, Knowledge (planes) +19, Perception +19, Stealth +17, Swim +37
+:::

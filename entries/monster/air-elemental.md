@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary"
-page = "120"
+page = "120-121"
 
 [fields]
 kind = "creature"
@@ -28,80 +28,65 @@ abilities = ["12", "17", "12", "4", "11", "11"]
 _This cloud-like creature has dark hollows reminiscent of eyes and a mouth, and a howling wind whips
 it into ominous shapes._
 
-**Small Air Elemental**
+## Small Air Elemental {#stat-small}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +7
+Alignment: Neutral
+Type: outsider
+Perception: +4
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Air, Elemental, Extraplanar
+Experience points: 400
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 17
+Touch: 14
+Flat-footed: 14
+AC modifiers: +3 Dex, +3 natural, +1 size
+Hit points: 13 (2d10+2)
+Fort: +4
+Ref: +6
+Will: +0
+Defensive abilities: air mastery
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: slam +6 (1d4+1)
+Whirlwind: DC 12
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +0
-
-**Defensive abilities:** air mastery
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +6 (1d4+1)
-
-**Whirlwind:** DC 12
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 12, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Flyby Attack, Improved Initiative^B^, Weapon Finesse^B^
-
-**Skills:** Acrobatics +7, Escape Artist +7, Fly +17, Knowledge (planes) +1, Perception +4, Stealth
-+11
+::: statblock
+Ability scores: Str 12, Dex 17, Con 12, Int 4, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Flyby Attack, Improved Initiative^B^, Weapon Finesse^B^
+Skills: Acrobatics +7, Escape Artist +7, Fly +17, Knowledge (planes) +1, Perception +4, Stealth +11
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** [Plane of Air](ref/rule/plane-of-air)
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: [Plane of Air](ref/rule/plane-of-air)
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -135,436 +120,273 @@ when underwater.
 
 **Family:** [Elemental](ref/family/elemental)
 
-**Small Air Elemental**
+## Medium Air Elemental {#stat-medium}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 3
+Initiative: +9
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +7
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 19
+Touch: 16
+Flat-footed: 13
+AC modifiers: +5 Dex, +1 dodge, +3 natural
+Hit points: 30 (4d10+8)
+Fort: +6
+Ref: +9
+Will: +1
+Defensive abilities: air mastery
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +4
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: slam +9 (1d6+3)
+Whirlwind: DC 14
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Sources:** Pathfinder RPG Bestiary pg 120\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 400
-
-**Armor class:** 17
-
-**Touch:** 14
-
-**Flat-footed:** 14
-
-**AC modifiers:** +3 Dex, +3 natural, +1 size
-
-**Hit points:** 13 (2d10+2)
-
-**Fort:** +4
-
-**Ref:** +6
-
-**Will:** +0
-
-**Defensive abilities:** air mastery
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +6 (1d4+1)
-
-**Whirlwind:** DC 12
-
-**Statistics**
-
-**Ability scores:** Str 12, Dex 17, Con 12, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Flyby Attack, Improved Initiative^B^, Weapon Finesse^B^
-
-**Skills:** Acrobatics +7, Escape Artist +7, Fly +17, Knowledge (planes) +1, Perception +4, Stealth
-+11
-
-###### B {#footnote-b-2}
-
-Bonus feat.
-
-**Medium Air Elemental**
-
-**Challenge rating:** 3
-
-**Initiative:** +9
-
-**Size:** medium
-
-**Alignment:** Neutral
-
-**Type:** outsider
-
-**Perception:** +7
-
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 120\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 800
-
-**Armor class:** 19
-
-**Touch:** 16
-
-**Flat-footed:** 13
-
-**AC modifiers:** +5 Dex, +1 dodge, +3 natural
-
-**Hit points:** 30 (4d10+8)
-
-**Fort:** +6
-
-**Ref:** +9
-
-**Will:** +1
-
-**Defensive abilities:** air mastery
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +9 (1d6+3)
-
-**Whirlwind:** DC 14
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 21, Con 14, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 22
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative^B^, Weapon Finesse^B^
-
-**Skills:** Acrobatics +11, Escape Artist +9, Fly +17, Knowledge (planes) +1, Perception +7, Stealth
-+10
+::: statblock
+Ability scores: Str 14, Dex 21, Con 14, Int 4, Wis 11, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 22
+Feats: Dodge, Flyby Attack, Improved Initiative^B^, Weapon Finesse^B^
+Skills: Acrobatics +11, Escape Artist +9, Fly +17, Knowledge (planes) +1, Perception +7, Stealth +10
+:::
 
 ###### B {#footnote-b-3}
 
 Bonus feat.
 
-**Large Air Elemental**
+## Large Air Elemental {#stat-large}
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +11
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +11
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 21
+Touch: 17
+Flat-footed: 13
+AC modifiers: +7 Dex, +1 dodge, +4 natural, -1 size
+Hit points: 68 (8d10+24)
+Fort: +9
+Ref: +13
+Will: +2
+Defensive abilities: air mastery
+Dr: 5/-
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +14 (1d8+4)
+Reach: 10
+Space: 10
+Whirlwind: DC 18
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 120\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 1,600
-
-**Armor class:** 21
-
-**Touch:** 17
-
-**Flat-footed:** 13
-
-**AC modifiers:** +7 Dex, +1 dodge, +4 natural, -1 size
-
-**Hit points:** 68 (8d10+24)
-
-**Fort:** +9
-
-**Ref:** +13
-
-**Will:** +2
-
-**Defensive abilities:** air mastery
-
-**Dr:** 5/-
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +14 (1d8+4)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Whirlwind:** DC 18
-
-**Statistics**
-
-**Ability scores:** Str 18, Dex 25, Con 16, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +13
-
-**Combat maneuver defense:** 31
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Mobility, Weapon Finesse^B^
-
-**Skills:** Acrobatics +15, Escape Artist +15, Fly +21, Knowledge (planes) +5, Perception +11,
-Stealth +11
+::: statblock
+Ability scores: Str 18, Dex 25, Con 16, Int 6, Wis 11, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +13
+Combat maneuver defense: 31
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Mobility, Weapon Finesse^B^
+Skills: Acrobatics +15, Escape Artist +15, Fly +21, Knowledge (planes) +5, Perception +11, Stealth +11
+:::
 
 ###### B {#footnote-b-4}
 
 Bonus feat.
 
-**Huge Air Elemental**
+## Huge Air Elemental {#stat-huge}
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +13
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 22
+Touch: 18
+Flat-footed: 12
+AC modifiers: +9 Dex, +1 dodge, +4 natural, -2 size
+Hit points: 95 (10d10+40)
+Fort: +11
+Ref: +16
+Will: +5
+Defensive abilities: air mastery
+Dr: 5/-
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +17 (2d6+6)
+Reach: 15
+Space: 15
+Whirlwind: DC 21
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 120\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 3,200
-
-**Armor class:** 22
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +9 Dex, +1 dodge, +4 natural, -2 size
-
-**Hit points:** 95 (10d10+40)
-
-**Fort:** +11
-
-**Ref:** +16
-
-**Will:** +5
-
-**Defensive abilities:** air mastery
-
-**Dr:** 5/-
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +17 (2d6+6)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Whirlwind:** DC 21
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 29, Con 18, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +18
-
-**Combat maneuver defense:** 38
-
-**Feats:** Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron Will, Mobility, Weapon
-Finesse^B^
-
-**Skills:** Acrobatics +18, Escape Artist +18, Fly +23, Knowledge (planes) +7, Perception +13,
-Stealth +9
+::: statblock
+Ability scores: Str 22, Dex 29, Con 18, Int 6, Wis 11, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +18
+Combat maneuver defense: 38
+Feats: Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron Will, Mobility, Weapon Finesse^B^
+Skills: Acrobatics +18, Escape Artist +18, Fly +23, Knowledge (planes) +7, Perception +13, Stealth +9
+:::
 
 ###### B {#footnote-b-5}
 
 Bonus feat.
 
-**Greater Air Elemental**
+## Greater Air Elemental {#stat-greater}
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +14
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 25
+Touch: 19
+Flat-footed: 14
+AC modifiers: +10 Dex, +1 dodge, +6 natural, -2 size
+Hit points: 123 (13d10+52)
+Fort: +12
+Ref: +18
+Will: +6
+Defensive abilities: air mastery
+Dr: 10/-
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +21 (2d8+7)
+Reach: 15
+Space: 15
+Whirlwind: DC 23
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 120\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 6,400
-
-**Armor class:** 25
-
-**Touch:** 19
-
-**Flat-footed:** 14
-
-**AC modifiers:** +10 Dex, +1 dodge, +6 natural, -2 size
-
-**Hit points:** 123 (13d10+52)
-
-**Fort:** +12
-
-**Ref:** +18
-
-**Will:** +6
-
-**Defensive abilities:** air mastery
-
-**Dr:** 10/-
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +21 (2d8+7)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Whirlwind:** DC 23
-
-**Statistics**
-
-**Ability scores:** Str 24, Dex 31, Con 18, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +22
-
-**Combat maneuver defense:** 43
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron Will,
-Mobility, Power Attack, Weapon Finesse^B^
-
-**Skills:** Acrobatics +25, Escape Artist +23, Fly +27, Knowledge (planes) +12, Perception +16,
-Stealth +15
+::: statblock
+Ability scores: Str 24, Dex 31, Con 18, Int 8, Wis 11, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +22
+Combat maneuver defense: 43
+Feats: Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
+Skills: Acrobatics +25, Escape Artist +23, Fly +27, Knowledge (planes) +12, Perception +16, Stealth +15
+:::
 
 ###### B {#footnote-b-6}
 
 Bonus feat.
 
-**Elder Air Elemental**
+## Elder Air Elemental {#stat-elder}
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +15
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +15
+::: statblock
+Armor class: 28
+Touch: 20
+Flat-footed: 16
+AC modifiers: +11 Dex, +1 dodge, +8 natural, -2 size
+Hit points: 152 (16d10+64)
+Fort: +14
+Ref: +21
+Will: +7
+Defensive abilities: air mastery
+Dr: 10/-
+Immune: [elemental](ref/subtype/elemental) traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +25 (2d8+9)
+Reach: 15
+Space: 15
+Whirlwind: DC 27
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Pathfinder RPG Bestiary pg 121\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 12,800
-
-**Armor class:** 28
-
-**Touch:** 20
-
-**Flat-footed:** 16
-
-**AC modifiers:** +11 Dex, +1 dodge, +8 natural, -2 size
-
-**Hit points:** 152 (16d10+64)
-
-**Fort:** +14
-
-**Ref:** +21
-
-**Will:** +7
-
-**Defensive abilities:** air mastery
-
-**Dr:** 10/-
-
-**Immune:** [elemental](ref/subtype/elemental) traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +25 (2d8+9)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Whirlwind:** DC 27
-
-**Statistics**
-
-**Ability scores:** Str 28, Dex 33, Con 18, Int 10, Wis 11, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +27
-
-**Combat maneuver defense:** 49
-
-**Feats:** Blind-Fight, Cleave, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron
-Will, Mobility, Power Attack, Weapon Finesse^B^
-
-**Skills:** Acrobatics +30, Escape Artist +30, Fly +34, Knowledge (planes) +19, Perception +19,
-Stealth +22
+::: statblock
+Ability scores: Str 28, Dex 33, Con 18, Int 10, Wis 11, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +27
+Combat maneuver defense: 49
+Feats: Blind-Fight, Cleave, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative^B^, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
+Skills: Acrobatics +30, Escape Artist +30, Fly +34, Knowledge (planes) +19, Perception +19, Stealth +22
+:::
 
 ###### B {#footnote-b-7}
 

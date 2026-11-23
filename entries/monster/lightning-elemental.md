@@ -8,7 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "bestiary-2"
-page = "116"
+page = "116-117"
 
 [fields]
 kind = "creature"
@@ -29,77 +29,64 @@ abilities = ["10", "15", "10", "4", "11", "11"]
 _This creature looks like a dark storm cloud, with sparks suggesting eyes and long sweeping arms
 charged with bolts of lightning._
 
-**Small Lightning Elemental**
+## Small Lightning Elemental {#stat-small}
 
-**Challenge rating:** 1
+::: statblock
+Challenge rating: 1
+Initiative: +6
+Alignment: Neutral
+Type: outsider
+Perception: +5
+Senses: Darkvision 60 ft.
+Size: small
+Subtype: Air, Elemental, Extraplanar
+Experience points: 400
+:::
 
-**Initiative:** +6
+### Defense
 
-**Alignment:** Neutral
+::: statblock
+Armor class: 14
+Touch: 13
+Flat-footed: 12
+AC modifiers: +2 Dex, +1 natural, +1 size
+Hit points: 11 (2d10)
+Fort: +3
+Ref: +5
+Will: +0
+Immune: electricity, elemental traits
+:::
 
-**Type:** outsider
+### Offense
 
-**Perception:** +5
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: slam +5 (1d4 plus 1d3 electricity)
+Spec Att: metal mastery, spark leap
+:::
 
-**Senses:** Darkvision 60 ft.
+### Statistics
 
-**Size:** small
-
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 400
-
-**Armor class:** 14
-
-**Touch:** 13
-
-**Flat-footed:** 12
-
-**AC modifiers:** +2 Dex, +1 natural, +1 size
-
-**Hit points:** 11 (2d10)
-
-**Fort:** +3
-
-**Ref:** +5
-
-**Will:** +0
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +5 (1d4 plus 1d3 electricity)
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 10, Dex 15, Con 10, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +1
-
-**Combat maneuver defense:** 13
-
-**Feats:** Improved Initiative, Weapon Finesse^B^
-
-**Skills:** Acrobatics +7, Escape Artist +6, Fly +12, Knowledge (planes) +1, Perception +5
+::: statblock
+Ability scores: Str 10, Dex 15, Con 10, Int 4, Wis 11, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +1
+Combat maneuver defense: 13
+Feats: Improved Initiative, Weapon Finesse^B^
+Skills: Acrobatics +7, Escape Artist +6, Fly +12, Knowledge (planes) +1, Perception +5
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** any ([Plane of Air](ref/rule/plane-of-air))
-
-**Organization:** solitary, pair, or gang (3-8)
-
-**Treasure:** None
+::: statblock
+Environment: any ([Plane of Air](ref/rule/plane-of-air))
+Organization: solitary, pair, or gang (3-8)
+Treasure: None
+:::
 
 ### Special Abilities
 
@@ -129,354 +116,268 @@ stink of ozone.
 
 **Family:** [Elemental](ref/family/elemental)
 
-**Medium Lightning Elemental**
+## Medium Lightning Elemental {#stat-medium}
 
-**Challenge rating:** 3
+::: statblock
+Challenge rating: 3
+Initiative: +8
+Size: medium
+Alignment: Neutral
+Type: outsider
+Perception: +7
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 800
+:::
 
-**Initiative:** +8
+### Defense
 
-**Size:** medium
+::: statblock
+Armor class: 16
+Touch: 15
+Flat-footed: 11
+AC modifiers: +4 Dex, +1 dodge, +1 natural
+Hit points: 26 (4d10+4)
+Fort: +5
+Ref: +8
+Will: +1
+Immune: electricity, elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: slam +8 (1d6+3 plus 1d4 electricity)
+Spec Att: metal mastery, spark leap
+:::
 
-**Perception:** +7
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 116\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 800
-
-**Armor class:** 16
-
-**Touch:** 15
-
-**Flat-footed:** 11
-
-**AC modifiers:** +4 Dex, +1 dodge, +1 natural
-
-**Hit points:** 26 (4d10+4)
-
-**Fort:** +5
-
-**Ref:** +8
-
-**Will:** +1
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** slam +8 (1d6+3 plus 1d4 electricity)
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 14, Dex 19, Con 12, Int 4, Wis 11, Cha 11
-
-**Base attack bonus:** +4
-
-**Combat maneuver bonus:** +6
-
-**Combat maneuver defense:** 21
-
-**Feats:** Dodge, Improved Initiative, Weapon Finesse^B^
-
-**Skills:** Acrobatics +11, Escape Artist +9, Fly +12, Knowledge (planes) +2, Perception +7
+::: statblock
+Ability scores: Str 14, Dex 19, Con 12, Int 4, Wis 11, Cha 11
+Base attack bonus: +4
+Combat maneuver bonus: +6
+Combat maneuver defense: 21
+Feats: Dodge, Improved Initiative, Weapon Finesse^B^
+Skills: Acrobatics +11, Escape Artist +9, Fly +12, Knowledge (planes) +2, Perception +7
+:::
 
 ###### B {#footnote-b-2}
 
 Bonus feat.
 
-**Large Lightning Elemental**
+## Large Lightning Elemental {#stat-large}
 
-**Challenge rating:** 5
+::: statblock
+Challenge rating: 5
+Initiative: +10
+Size: large
+Alignment: Neutral
+Type: outsider
+Perception: +11
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 1,600
+:::
 
-**Initiative:** +10
+### Defense
 
-**Size:** large
+::: statblock
+Armor class: 18
+Touch: 16
+Flat-footed: 11
+AC modifiers: +6 Dex, +1 dodge, +2 natural, -1 size
+Hit points: 60 (8d10+16)
+Fort: +8
+Ref: +12
+Will: +2
+Dr: 5/-
+Immune: electricity, elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +13 (1d8+3 plus 1d6 electricity)
+Reach: 10
+Space: 10
+Spec Att: metal mastery, spark leap
+:::
 
-**Perception:** +11
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 116\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 1,600
-
-**Armor class:** 18
-
-**Touch:** 16
-
-**Flat-footed:** 11
-
-**AC modifiers:** +6 Dex, +1 dodge, +2 natural, -1 size
-
-**Hit points:** 60 (8d10+16)
-
-**Fort:** +8
-
-**Ref:** +12
-
-**Will:** +2
-
-**Dr:** 5/-
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +13 (1d8+3 plus 1d6 electricity)
-
-**Reach:** 10
-
-**Space:** 10
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 16, Dex 23, Con 14, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +8
-
-**Combat maneuver bonus:** +12
-
-**Combat maneuver defense:** 29
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Mobility, Weapon Finesse^B^
-
-**Skills:** Acrobatics +17, Escape Artist +17, Fly +12, Knowledge (planes) +9, Perception +11
+::: statblock
+Ability scores: Str 16, Dex 23, Con 14, Int 6, Wis 11, Cha 11
+Base attack bonus: +8
+Combat maneuver bonus: +12
+Combat maneuver defense: 29
+Feats: Dodge, Flyby Attack, Improved Initiative, Mobility, Weapon Finesse^B^
+Skills: Acrobatics +17, Escape Artist +17, Fly +12, Knowledge (planes) +9, Perception +11
+:::
 
 ###### B {#footnote-b-3}
 
 Bonus feat.
 
-**Huge Lightning Elemental**
+## Huge Lightning Elemental {#stat-huge}
 
-**Challenge rating:** 7
+::: statblock
+Challenge rating: 7
+Size: huge
+Initiative: +12
+Alignment: Neutral
+Type: outsider
+Perception: +13
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 3,200
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +12
+::: statblock
+Armor class: 19
+Touch: 17
+Flat-footed: 10
+AC modifiers: +8 Dex, +1 dodge, +2 natural, -2 size
+Hit points: 85 (10d10+30)
+Fort: +10
+Ref: +15
+Will: +5
+Dr: 5/-
+Immune: electricity, elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +16 (2d6+5 plus 1d8 electricity)
+Reach: 15
+Space: 15
+Spec Att: metal mastery, spark leap
+:::
 
-**Perception:** +13
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 116\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 3,200
-
-**Armor class:** 19
-
-**Touch:** 17
-
-**Flat-footed:** 10
-
-**AC modifiers:** +8 Dex, +1 dodge, +2 natural, -2 size
-
-**Hit points:** 85 (10d10+30)
-
-**Fort:** +10
-
-**Ref:** +15
-
-**Will:** +5
-
-**Dr:** 5/-
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +16 (2d6+5 plus 1d8 electricity)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 20, Dex 27, Con 16, Int 6, Wis 11, Cha 11
-
-**Base attack bonus:** +10
-
-**Combat maneuver bonus:** +17
-
-**Combat maneuver defense:** 36
-
-**Feats:** Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility, Weapon Finesse^B^
-
-**Skills:** Acrobatics +21, Escape Artist +21, Fly +12, Knowledge (planes) +11, Perception +13
+::: statblock
+Ability scores: Str 20, Dex 27, Con 16, Int 6, Wis 11, Cha 11
+Base attack bonus: +10
+Combat maneuver bonus: +17
+Combat maneuver defense: 36
+Feats: Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility, Weapon Finesse^B^
+Skills: Acrobatics +21, Escape Artist +21, Fly +12, Knowledge (planes) +11, Perception +13
+:::
 
 ###### B {#footnote-b-4}
 
 Bonus feat.
 
-**Greater Lightning Elemental**
+## Greater Lightning Elemental {#stat-greater}
 
-**Challenge rating:** 9
+::: statblock
+Challenge rating: 9
+Size: huge
+Initiative: +13
+Alignment: Neutral
+Type: outsider
+Perception: +16
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 6,400
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +13
+::: statblock
+Armor class: 22
+Touch: 18
+Flat-footed: 12
+AC modifiers: +9 Dex, +1 dodge, +4 natural, -2 size
+Hit points: 110 (13d10+39)
+Fort: +11
+Ref: +17
+Will: +6
+Dr: 10/-
+Immune: electricity, elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +20 (2d8+6 plus 2d6 electricity)
+Reach: 15
+Space: 15
+Spec Att: metal mastery, spark leap
+:::
 
-**Perception:** +16
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 117\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 6,400
-
-**Armor class:** 22
-
-**Touch:** 18
-
-**Flat-footed:** 12
-
-**AC modifiers:** +9 Dex, +1 dodge, +4 natural, -2 size
-
-**Hit points:** 110 (13d10+39)
-
-**Fort:** +11
-
-**Ref:** +17
-
-**Will:** +6
-
-**Dr:** 10/-
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +20 (2d8+6 plus 2d6 electricity)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 22, Dex 29, Con 16, Int 8, Wis 11, Cha 11
-
-**Base attack bonus:** +13
-
-**Combat maneuver bonus:** +21
-
-**Combat maneuver defense:** 41
-
-**Feats:** Blind-Fight, Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility, Power Attack,
-Weapon Finesse^B^
-
-**Skills:** Acrobatics +25, Escape Artist +25, Fly +13, Intimidate +16, Knowledge (planes) +15,
-Perception +16
+::: statblock
+Ability scores: Str 22, Dex 29, Con 16, Int 8, Wis 11, Cha 11
+Base attack bonus: +13
+Combat maneuver bonus: +21
+Combat maneuver defense: 41
+Feats: Blind-Fight, Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
+Skills: Acrobatics +25, Escape Artist +25, Fly +13, Intimidate +16, Knowledge (planes) +15, Perception +16
+:::
 
 ###### B {#footnote-b-5}
 
 Bonus feat.
 
-**Elder Lightning Elemental**
+## Elder Lightning Elemental {#stat-elder}
 
-**Challenge rating:** 11
+::: statblock
+Challenge rating: 11
+Size: huge
+Initiative: +14
+Alignment: Neutral
+Type: outsider
+Perception: +19
+Senses: Darkvision 60 ft.
+Subtype: Air, Elemental, Extraplanar
+Experience points: 12,800
+:::
 
-**Size:** huge
+### Defense
 
-**Initiative:** +14
+::: statblock
+Armor class: 25
+Touch: 19
+Flat-footed: 14
+AC modifiers: +10 Dex, +1 dodge, +6 natural, -2 size
+Hit points: 136 (16d10+48)
+Fort: +13
+Ref: +20
+Will: +7
+Dr: 10/-
+Immune: electricity, elemental traits
+:::
 
-**Alignment:** Neutral
+### Offense
 
-**Type:** outsider
+::: statblock
+Speed: fly 100 ft. (perfect)
+Melee: 2 slams +24 (2d8+8 plus 2d8 electricity)
+Reach: 15
+Space: 15
+Spec Att: metal mastery, spark leap
+:::
 
-**Perception:** +19
+### Statistics
 
-**Senses:** Darkvision 60 ft.
-
-**Sources:** Bestiary 2 pg 117\
-**Subtype:** Air, Elemental, Extraplanar
-
-**Experience points:** 12,800
-
-**Armor class:** 25
-
-**Touch:** 19
-
-**Flat-footed:** 14
-
-**AC modifiers:** +10 Dex, +1 dodge, +6 natural, -2 size
-
-**Hit points:** 136 (16d10+48)
-
-**Fort:** +13
-
-**Ref:** +20
-
-**Will:** +7
-
-**Dr:** 10/-
-
-**Immune:** electricity, elemental traits
-
-**Offense**
-
-**Speed:** fly 100 ft. (perfect)
-
-**Melee:** 2 slams +24 (2d8+8 plus 2d8 electricity)
-
-**Reach:** 15
-
-**Space:** 15
-
-**Spec Att:** metal mastery, spark leap
-
-**Statistics**
-
-**Ability scores:** Str 26, Dex 31, Con 16, Int 10, Wis 11, Cha 11
-
-**Base attack bonus:** +16
-
-**Combat maneuver bonus:** +26
-
-**Combat maneuver defense:** 47
-
-**Feats:** Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will,
-Mobility, Power Attack, Weapon Finesse^B^
-
-**Skills:** Acrobatics +29, Escape Artist +29, Fly +14, Intimidate +19, Knowledge (planes) +19,
-Perception +19, Stealth +21
+::: statblock
+Ability scores: Str 26, Dex 31, Con 16, Int 10, Wis 11, Cha 11
+Base attack bonus: +16
+Combat maneuver bonus: +26
+Combat maneuver defense: 47
+Feats: Blind-Fight, Combat Reflexes, Dodge, Flyby Attack, Improved Initiative, Iron Will, Mobility, Power Attack, Weapon Finesse^B^
+Skills: Acrobatics +29, Escape Artist +29, Fly +14, Intimidate +19, Knowledge (planes) +19, Perception +19, Stealth +21
+:::
 
 ###### B {#footnote-b-6}
 
