@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "inured_to_terror", path = "json/class_ability_slayer_talents.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "18"
 
 [fields]
 kind = "class_option"

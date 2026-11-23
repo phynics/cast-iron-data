@@ -6,6 +6,9 @@ source_ids = ["inner-sea-intrigue"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "claimed_turf", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "inner-sea-intrigue"
+page = "32"
 
 [fields]
 kind = "class_option"

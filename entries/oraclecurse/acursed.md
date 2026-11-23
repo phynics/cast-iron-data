@@ -6,6 +6,8 @@ source_ids = ["horror-realms"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "acursed", path = "json/class_ability_curses.json" },
 ]
+[[sources]]
+publication = "horror-realms"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["martial-arts-handbook"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "action_before_thought", path = "json/class_ability_ki_powers.json" },
 ]
+[[sources]]
+publication = "martial-arts-handbook"
+page = "20"
 
 [fields]
 kind = "class_option"

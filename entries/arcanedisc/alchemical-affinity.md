@@ -6,6 +6,9 @@ source_ids = ["magical-marketplace"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "alchemical_affinity", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "magical-marketplace"
+page = "18"
 
 [fields]
 kind = "class_option"

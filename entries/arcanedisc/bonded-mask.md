@@ -6,6 +6,9 @@ source_ids = ["pathfinder-80-empty-graves"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "bonded_mask", path = "json/class_ability_arcane_discoveries.json" },
 ]
+[[sources]]
+publication = "pathfinder-80-empty-graves"
+page = "26"
 
 [fields]
 kind = "class_option"

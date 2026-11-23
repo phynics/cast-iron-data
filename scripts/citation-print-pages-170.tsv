@@ -3278,3 +3278,297 @@ ref/oraclecurse/wolfscarred-face	blood-of-angels	26	print-offset		offset +2: the
 ref/discovery/demolition-charge	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)
 ref/discovery/grease-bomb	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)
 ref/discovery/malignant-poison	dungeoneers-handbook	27	print		rendered PDF p. 29, printed p. 27, seen (the three discoveries are on that page)
+ref/arcanedisc/faith-magic	magic-tactics-toolbox	3	print		
+ref/arcanedisc/psychic-preparation	magic-tactics-toolbox	3	print		
+ref/discovery/cytillesh-bomb	inner-sea-monster-codex	23	print		
+ref/discovery/fey-mutagen	legacy-of-the-first-world	7	print		
+ref/discovery/flesh-eating-bomb	monster-hunters-handbook	17	print		title text only (no heading form): the name is on page 17 and on none of the two pages each side
+ref/discovery/grand-fey-mutagen	legacy-of-the-first-world	7	print		
+ref/discovery/greater-fey-mutagen	legacy-of-the-first-world	7	print		
+ref/discovery/method-to-the-madness	inner-sea-monster-codex	23	print		
+ref/discovery/monstrous-graft	inner-sea-monster-codex	23	print		
+ref/discovery/ooze-blight	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/discovery/precise-poison	inner-sea-monster-codex	23	print		
+ref/discovery/promethean-disciple	occult-adventures	112	print		
+ref/discovery/sleeper-agent	inner-sea-monster-codex	23	print		
+ref/discovery/splitting-mutagen	monster-hunters-handbook	17	print		
+ref/discovery/subsumed-spirit	inner-sea-monster-codex	23	print		
+ref/discovery/sunlight-acclimation	inner-sea-monster-codex	23	print		
+ref/eidolon/aberrant	horror-realms		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/eidolon/twinned	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hex/disrupt-connection	monster-summoners-handbook	9	print		
+ref/hex/mothers-eye	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/hex/seduction	legacy-of-the-first-world	17	print		
+ref/hex/witchs-bottle	heroes-of-the-wild	11	print		
+ref/hkdiscipline/brand	inner-sea-world-guide	278	print		
+ref/hkdiscipline/call-armor	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/censor	inner-sea-world-guide	278	print		
+ref/hkdiscipline/command	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/dispel-chaos	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/favored-quarry	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/fearsomeness	inner-sea-world-guide	279	print		
+ref/hkdiscipline/mental-intrusion	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/onslaught	inner-sea-world-guide	279	print		
+ref/hkdiscipline/pentamic-faith	inner-sea-world-guide	279	print		
+ref/hkdiscipline/shackle	inner-sea-world-guide	279	print		
+ref/hkdiscipline/shadow-step	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/summon-devil	inner-sea-world-guide	279	print		
+ref/hkdiscipline/summon-servant-of-law	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/trace	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/tracker	inner-sea-world-guide	279	print		
+ref/hkdiscipline/versatile-intimidation	path-of-the-hellknight		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/hkdiscipline/vigilance	inner-sea-world-guide	279	print		
+ref/hkdiscipline/wrack	inner-sea-world-guide	279	print		
+ref/invtalent/atheist-inspiration	inner-sea-intrigue	31	print		
+ref/invtalent/eldritch-conduit	magic-tactics-toolbox	7	print		
+ref/invtalent/false-spellcaster	inner-sea-intrigue	31	print		
+ref/invtalent/favored-beat	inner-sea-intrigue	31	print		
+ref/invtalent/iconclastic-strike	inner-sea-intrigue		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/invtalent/innocent-facade	magic-tactics-toolbox	27	print		
+ref/invtalent/just-a-face-in-the-crowd	magic-tactics-toolbox	7	print		
+ref/invtalent/occult-dungeoneer	magic-tactics-toolbox	7	print		
+ref/invtalent/rapid-perception	magic-tactics-toolbox	27	print		
+ref/invtalent/scry-slip	magic-tactics-toolbox	27	print		
+ref/invtalent/silencing-strike	inner-sea-intrigue	31	print		title text only (no heading form): the name is on page 31 and on none of the two pages each side
+ref/invtalent/spell-storing	magic-tactics-toolbox	7	print		
+ref/invtalent/sustained-inspirational-expertise	inner-sea-intrigue	31	print		
+ref/invtalent/the-whole-time	magic-tactics-toolbox	7	print		
+ref/invtalent/twilight-talon-improvisation	inner-sea-intrigue	31	print		title text only (no heading form): the name is on page 31 and on none of the two pages each side
+ref/kipower/action-before-thought	martial-arts-handbook	20	print		
+ref/kipower/bare-hand-block	martial-arts-handbook	20	print		
+ref/kipower/breaking-down-koan	martial-arts-handbook	20	print		
+ref/kipower/building-up-koan	martial-arts-handbook	20	print		
+ref/kipower/ki-sunder	martial-arts-handbook	20	print		
+ref/kipower/master-thought-koan	martial-arts-handbook	20	print		
+ref/ninjatrick/breath-of-the-ancestors	legacy-of-dragons		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ninjatrick/deep-cover	martial-arts-handbook	21	print		
+ref/ninjatrick/greater-ki-venom	martial-arts-handbook	21	print		
+ref/ninjatrick/herbal-compound	martial-arts-handbook	20	print		
+ref/ninjatrick/ki-venom	martial-arts-handbook	20	print		the heading is on the proposed page (20) and on 20,21; the row keeps the proposal
+ref/ninjatrick/many-guises	martial-arts-handbook	21	print		
+ref/ninjatrick/occulted-soul	martial-arts-handbook	21	print		
+ref/ninjatrick/strangler	martial-arts-handbook	21	print		
+ref/ninjatrick/swift-poisoner	martial-arts-handbook	21	print		
+ref/oraclecurse/aboleth	horror-realms	14	print		
+ref/oraclecurse/acursed	horror-realms		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/oraclecurse/covetous	legacy-of-dragons	8	print		
+ref/oraclecurse/deep-one	horror-realms	14	print		
+ref/oraclecurse/demonic	horror-realms	14	print		
+ref/oraclecurse/ghoul	horror-realms	14	print		
+ref/oraclecurse/hellbound	horror-realms	14	print		
+ref/oraclecurse/hive	horror-realms	14	print		
+ref/oraclecurse/hunger	inner-sea-monster-codex	17	print		
+ref/oraclecurse/lich	horror-realms	14	print		
+ref/oraclecurse/lycanthropy	horror-realms	14	print		
+ref/oraclecurse/plagued	horror-realms	15	print		
+ref/oraclecurse/possessed	horror-realms	15	print		
+ref/oraclecurse/powerless-prophecy	inner-sea-monster-codex	17	print		
+ref/oraclecurse/pranked	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/promethean	horror-realms	15	print		
+ref/oraclecurse/reclusive	legacy-of-the-first-world		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/oraclecurse/shadowbound	horror-realms	15	print		
+ref/oraclecurse/site-bound	inner-sea-monster-codex	35	print		
+ref/oraclecurse/vampirism	horror-realms	15	print		
+ref/patron/conspiracies	horror-adventures	72	print		
+ref/patron/decadence	horror-adventures	72	print		
+ref/patron/entropy	horror-adventures	72	print		
+ref/patron/ethereal	occult-adventures	125	print		
+ref/patron/mind	occult-adventures	125	print		the heading is on the proposed page (125) and on 123,125; the row keeps the proposal
+ref/patron/mountain	heroes-of-the-wild	13	print		
+ref/patron/plant	heroes-of-the-wild	11	print		
+ref/patron/revenge	horror-adventures	72	print		
+ref/patron/space	horror-adventures	72	print		
+ref/patron/storms	heroes-of-the-wild	13	print		
+ref/patron/summer	heroes-of-the-wild	13	print		
+ref/patron/summer	ultimate-wilderness	88	print		
+ref/patron/thorns	heroes-of-the-wild	13	print		
+ref/patron/thorns	ultimate-wilderness	88	print		
+ref/phrenicamp/biokinetic-healing	occult-origins	16	print		
+ref/phrenicamp/complex-countermeasures	occult-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/phrenicamp/conjured-armor	occult-adventures	61	print		
+ref/phrenicamp/defensive-prognostication	occult-adventures	61	print		
+ref/phrenicamp/deflection-field	occult-origins	16	print		
+ref/phrenicamp/dispelling-pulse	occult-adventures	63	print		
+ref/phrenicamp/dragons-breath	occult-origins		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/phrenicamp/dual-amplification	occult-adventures	63	print		
+ref/phrenicamp/focused-force	occult-adventures	61	print		
+ref/phrenicamp/intense-focus	occult-adventures	61	print		
+ref/phrenicamp/mimic-metamagic	occult-adventures	63	print		
+ref/phrenicamp/mindshield	occult-adventures	61	print		
+ref/phrenicamp/mindtouch	occult-adventures	61	print		
+ref/phrenicamp/ongoing-defense	occult-adventures	61	print		
+ref/phrenicamp/overpowering-mind	occult-adventures	62	print		
+ref/phrenicamp/phrenic-strike	occult-origins	16	print		
+ref/phrenicamp/psychofeedback	occult-origins	16	print		
+ref/phrenicamp/relentless-casting	occult-adventures	62	print		
+ref/phrenicamp/space-rending-spell	occult-adventures	63	print		
+ref/phrenicamp/subordinate-spell	occult-adventures	64	print		
+ref/phrenicamp/synaptic-shock	occult-adventures	64	print		
+ref/phrenicamp/telempathic-restoration	occult-origins	16	print		
+ref/phrenicamp/telepathic-targeting	occult-origins	16	print		
+ref/phrenicamp/transfer-fear	occult-origins	16	print		
+ref/phrenicamp/turning-shield	occult-adventures	64	print		
+ref/phrenicamp/undercast-surge	occult-adventures	62	print		
+ref/phrenicamp/will-of-the-dead	occult-adventures	62	print		
+ref/ragepower/cult-totem	horror-adventures	46	print		
+ref/ragepower/daemon-totem	horror-adventures	46	print		
+ref/ragepower/flight-response	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-cult-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-daemon-totem	horror-adventures		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/greater-suffocating-grip	legacy-of-the-first-world		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/ragepower/lesser-cult-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
+ref/ragepower/lesser-daemon-totem	horror-adventures	46	print		title text only (no heading form): the name is on page 46 and on none of the two pages each side
+ref/ragepower/master-of-the-deep	legacy-of-the-first-world	29	print		
+ref/ragepower/suffocating-grip	legacy-of-the-first-world	29	print		
+ref/rangertrap/acid-trap	kobolds-of-golarion		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/rangertrap/blightburn-trap	kobolds-of-golarion	20	print		
+ref/rangertrap/channeled-energy-trap	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
+ref/rangertrap/distraction-trap	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
+ref/rangertrap/lazurite-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/oversized-barbs	kobolds-of-golarion	20	print		title text only (no heading form): the name is on page 20 and on none of the two pages each side
+ref/rangertrap/pit-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/rust-monster-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
+ref/rangertrap/selective-trigger	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
+ref/rangertrap/spell-stealing-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
+ref/rangertrap/spell-storing-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
+ref/rangertrap/tar-trap	kobolds-of-golarion		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/rangertrap/transdimensional-trap	kobolds-of-golarion	21	print		title text only (no heading form): the name is on page 21 and on none of the two pages each side
+ref/rangertrap/tripwire	kobolds-of-golarion		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/shamanhex/silkstring-snare	legacy-of-the-first-world	17	print		
+ref/slayertalent/eternal-opposition	martial-arts-handbook	18	print		
+ref/slayertalent/experience-across-ages	martial-arts-handbook	18	print		
+ref/slayertalent/inured-to-terror	martial-arts-handbook	18	print		
+ref/slayertalent/mountainside-ambush	martial-arts-handbook	18	print		
+ref/slayertalent/mystic-veil	martial-arts-handbook	18	print		
+ref/slayertalent/recall-training	martial-arts-handbook	19	print		proposal 18, print 19: heading on exactly one page within two pages of the proposal
+ref/soctalent/bellflower-innuendo	inner-sea-intrigue	33	print		
+ref/soctalent/companion-to-the-lonely	inner-sea-intrigue	33	print		
+ref/soctalent/discreet-inquiries	inner-sea-intrigue	33	print		
+ref/soctalent/kalistocrats-acumen	inner-sea-intrigue	33	print		
+ref/stare/allure	occult-adventures	42	print		
+ref/stare/devilbane-binding	occult-origins	13	print		
+ref/stare/devilbane-dampening	occult-origins	13	print		
+ref/stare/devilbane-dismissal	occult-origins	13	print		
+ref/stare/devilbane-impediment	occult-origins	13	print		
+ref/stare/devilbane-mundanity	occult-origins	13	print		
+ref/stare/devilbane-withering	occult-origins	13	print		
+ref/stare/disorientation	occult-adventures	42	print		
+ref/stare/disquiet	occult-realms	16	print		
+ref/stare/infiltration	occult-realms	16	print		
+ref/stare/lethality	occult-realms	16	print		
+ref/stare/nightblindness	occult-realms	16	print		
+ref/stare/nightmare	occult-realms	16	print		
+ref/stare/oscillation	occult-realms	16	print		
+ref/stare/psychic-inception	occult-adventures	43	print		
+ref/stare/restriction	occult-realms	16	print		
+ref/stare/sabotage	occult-realms	16	print		
+ref/stare/sapped-magic	occult-adventures	43	print		
+ref/stare/sluggishness	occult-adventures	43	print		
+ref/stare/susceptibility	occult-adventures	43	print		
+ref/stare/timidity	occult-adventures	43	print		
+ref/stylestrike/break	martial-arts-handbook	7	print		
+ref/stylestrike/rabbit-punch	martial-arts-handbook	6	print		
+ref/stylestrike/throat-crush	martial-arts-handbook	7	print		
+ref/talent/acrobatic-stunt	inner-sea-combat	16	print		
+ref/talent/ambuscading-grapple	monster-hunters-handbook	9	print		
+ref/talent/armor-piercer	monster-hunters-handbook		unconfirmed	only a short title is on the proposed page, which proves little	
+ref/talent/claimed-turf	inner-sea-intrigue	32	print		
+ref/talent/climbing-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/dampen-presence	magic-tactics-toolbox	27	print		
+ref/talent/developed-poison-immunity	heroes-of-the-wild	21	print		
+ref/talent/disabling-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/eldritch-conduit	magic-tactics-toolbox	7	print		
+ref/talent/escaping-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/favored-terrain	heroes-of-the-wild	21	print		
+ref/talent/flying-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/glib-facade	magic-tactics-toolbox	27	print		
+ref/talent/green-tongue	heroes-of-the-wild	21	print		
+ref/talent/innocent-facade	magic-tactics-toolbox	27	print		
+ref/talent/innocuous-servant	inner-sea-intrigue	32	print		
+ref/talent/just-a-face-in-the-crowd	magic-tactics-toolbox	7	print		
+ref/talent/maneuvering-dodge	inner-sea-intrigue	32	print		
+ref/talent/occult-dungeoneer	magic-tactics-toolbox	7	print		
+ref/talent/rapid-perception	magic-tactics-toolbox	27	print		
+ref/talent/riding-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/scry-slip	magic-tactics-toolbox	27	print		
+ref/talent/sczarni-smuggler	inner-sea-intrigue	32	print		
+ref/talent/sleight-of-hand-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/spell-storing	magic-tactics-toolbox	7	print		
+ref/talent/stealth-stunt	inner-sea-combat	16	print		
+ref/talent/superior-sniper	magic-tactics-toolbox	27	print		
+ref/talent/swift-tracker	heroes-of-the-wild	21	print		
+ref/talent/swimming-stunt	inner-sea-combat		unconfirmed	title not found on the proposed page or the two pages around it, nor as a heading in the book	
+ref/talent/the-whole-time	magic-tactics-toolbox	7	print		
+ref/talent/thrill-of-the-chase	inner-sea-intrigue	32	print		
+ref/talent/unlock-ki	magic-tactics-toolbox	27	print		
+ref/talent/wild-magic	heroes-of-the-wild	21	print		
+ref/trick/allay-pain	occult-realms	16	print		
+ref/trick/astounding-avoidance	occult-adventures	40	print		
+ref/trick/avian-escape	occult-adventures	43	print		
+ref/trick/chain-of-eyes	occult-origins	12	print		
+ref/trick/compel-alacrity	occult-adventures	40	print		
+ref/trick/concealing-veil	occult-origins	12	print		
+ref/trick/cursed-sanction	occult-adventures	43	print		
+ref/trick/faked-death	occult-adventures	44	print		
+ref/trick/false-flanker	occult-adventures	40	print		
+ref/trick/fearsome-guise	occult-adventures	40	print		
+ref/trick/fleet-in-shadows	occult-realms	16	print		
+ref/trick/free-in-body	occult-adventures	44	print		
+ref/trick/gift-of-will	occult-adventures	40	print		
+ref/trick/greater-mask-misery	occult-adventures	44	print		
+ref/trick/levitation-buffer	occult-adventures	41	print		
+ref/trick/linked-reaction	occult-adventures	41	print		
+ref/trick/mask-misery	occult-adventures	41	print		
+ref/trick/meek-facade	occult-adventures	41	print		
+ref/trick/mental-fallback	occult-adventures	44	print		
+ref/trick/mesmeric-mirror	occult-adventures	41	print		
+ref/trick/mesmeric-pantomime	occult-adventures	41	print		
+ref/trick/misdirection	occult-adventures	41	print		
+ref/trick/psychosomatic-surge	occult-adventures	41	print		
+ref/trick/reflect-fear	occult-realms	16	print		
+ref/trick/reflection-of-weakness	occult-adventures	41	print		title text only (no heading form): the name is on page 41 and on none of the two pages each side
+ref/trick/see-in-darkness	occult-realms	16	print		
+ref/trick/shadow-blend	occult-realms	16	print		
+ref/trick/shadow-splinter	occult-adventures	42	print		
+ref/trick/slip-bonds	occult-origins	12	print		
+ref/trick/spatial-switch	occult-adventures	44	print		
+ref/trick/spectral-smoke	occult-adventures	42	print		
+ref/trick/spell-anticipation	occult-adventures	44	print		
+ref/trick/umbral-shield	occult-realms	16	print		
+ref/trick/umbral-transformation	occult-realms	16	print		
+ref/trick/unwitting-messenger	occult-origins	12	print		
+ref/trick/vanish-arrow	occult-adventures	42	print		
+ref/trick/vision-of-blood	occult-adventures	44	print		
+ref/trick/willful-ignorance	occult-origins	12	print		
+ref/unchevolution/advanced-psychic-magic	horror-realms	19	print		
+ref/unchevolution/alien-consciousness	horror-realms	19	print		
+ref/unchevolution/amorphous	horror-realms	19	print		
+ref/unchevolution/basic-psychic-magic	horror-realms	18	print		
+ref/unchevolution/blood-frenzy	horror-realms	19	print		
+ref/unchevolution/disease	horror-realms	19	print		
+ref/unchevolution/extra-feat	legacy-of-the-first-world	19	print		
+ref/unchevolution/intermediate-psychic-magic	horror-realms	19	print		
+ref/unchevolution/shared-evolution	legacy-of-the-first-world	19	print		
+ref/unchevolution/shared-slot	legacy-of-the-first-world	19	print		
+ref/unchevolution/superior-psychic-magic	horror-realms	19	print		
+ref/unchevolution/tentacle-mass	horror-realms	18	print		
+ref/vigtalent/instant-plan	inner-sea-intrigue	33	print		
+ref/vigtalent/shackle-smash	inner-sea-intrigue	33	print		
+ref/vigtalent/turnabout	inner-sea-intrigue	33	print		
+ref/vigtalent/whip-of-vengeance	inner-sea-intrigue	33	print		
+ref/arcanedisc/alchemical-affinity	magical-marketplace	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/arcanedisc/infectious-charms	magical-marketplace	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/arcanedisc/resilient-illusions	magical-marketplace	18	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/discovery/directed-bomb	magical-marketplace	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/discovery/elemental-mutagen	magical-marketplace	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/discovery/healing-bomb	magical-marketplace	20	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/hex/abominate	magical-marketplace	28	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/hex/pariah	magical-marketplace	28	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/rangertrap/penetrating-trap	magical-marketplace	12	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/rangertrap/quicksand-trap	magical-marketplace	12	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/rangertrap/wounding-trap	magical-marketplace	12	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/talent/hamstring-strike	magical-marketplace	26	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/talent/sneaky-maneuver	magical-marketplace	26	print-offset		offset +2: the title is on PDF page printed+2 and on no other page; anchor: PDF p. 14 = printed p. 12 (Penetrating Trap)
+ref/discovery/blackstar-bomb	monster-codex	32	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)
+ref/discovery/void-bomb	monster-codex	32	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)
+ref/oraclecurse/infested	monster-codex	104	print-offset		offset +1: the title is on PDF page printed+1 and on no other page; anchor: PDF p. 33 = printed p. 32 (Blackstar Bomb)

@@ -6,6 +6,9 @@ source_ids = ["inner-sea-world-guide"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "onslaught", path = "json/class_ability_hellknight_disciplines.json" },
 ]
+[[sources]]
+publication = "inner-sea-world-guide"
+page = "279"
 
 [fields]
 kind = "class_option"

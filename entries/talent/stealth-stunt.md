@@ -6,6 +6,9 @@ source_ids = ["inner-sea-combat"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "stealth_stunt", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "inner-sea-combat"
+page = "16"
 
 [fields]
 kind = "class_option"

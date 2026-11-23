@@ -6,6 +6,9 @@ source_ids = ["pathfinder-130-city-in-the-lions-eye"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "sneak_training", path = "json/class_ability_rogue_talents.json" },
 ]
+[[sources]]
+publication = "pathfinder-130-city-in-the-lions-eye"
+page = "76"
 
 [fields]
 kind = "class_option"

@@ -6,6 +6,9 @@ source_ids = ["heroes-of-the-wild"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "plant", path = "json/class_ability_patrons.json" },
 ]
+[[sources]]
+publication = "heroes-of-the-wild"
+page = "11"
 
 [fields]
 kind = "class_option"
