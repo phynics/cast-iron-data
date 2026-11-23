@@ -15,38 +15,52 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [commoner](ref/npcclass/commoner) 1/[expert](ref/npcclass/expert) 1\
-N Medium humanoid\
-**Init** +0; **Senses** Perception +1
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +0
+Senses: Perception +1
+:::
 
 ### Defense
 
-**AC** 10, touch 10, flat-footed 10\
-**hp** 10 (2 HD, 1d6+1d8+2)\
-**Fort** +1, **Ref** +0, **Will** +3
+::: statblock
+AC: 10, touch 10, flat-footed 10
+hp: 10 (2 HD, 1d6+1d8+2)
+Fort: +1
+Ref: +0
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** club +0 (1d6) or sickle +0 (1d6)\
-**Ranged** sling +0 (1d4) or club +0 (1d6)
+::: statblock
+Speed: 30 ft.
+Melee: club +0 (1d6) or sickle +0 (1d6)
+Ranged: sling +0 (1d4) or club +0 (1d6)
+:::
 
 ### Statistics
 
-**Str** 11, **Dex** 10, **Con** 12, **Int** 10, **Wis** 13, **Cha** 9\
-**Base Atk** +0; **CMB** +0; **CMD** 10\
-**Feats** [Animal Affinity](ref/feat/animal-affinity), [Skill Focus](ref/feat/skill-focus)
-(Profession \[farmer\])\
-**Skills** Craft (carpentry) +5, Handle Animal +6, Heal +5, Knowledge (local) +4, Knowledge (nature)
-+4, Profession (farmer) +9, Ride +7\
-**Languages** Common\
-**Gear** [club](ref/eq-weapon/club), [sickle](ref/eq-weapon/sickle), [sling](ref/eq-weapon/sling)
-with 10 bullets, [heavy horse](ref/eq-misc/horse-heavy), [wagon](ref/eq-misc/wagon)\
-**Boon** A farmer can provide enough food and drink for the PCs for 1 week free of charge, or offer
-them a place to sleep for the night in his barn.
+::: statblock
+Str: 11
+Dex: 10
+Con: 12
+Int: 10
+Wis: 13
+Cha: 9
+Base Atk: +0
+CMB: +0
+CMD: 10
+Feats: [Animal Affinity](ref/feat/animal-affinity), [Skill Focus](ref/feat/skill-focus) (Profession \[farmer\])
+Skills: Craft (carpentry) +5, Handle Animal +6, Heal +5, Knowledge (local) +4, Knowledge (nature) +4, Profession (farmer) +9, Ride +7
+Languages: Common
+Gear: [club](ref/eq-weapon/club), [sickle](ref/eq-weapon/sickle), [sling](ref/eq-weapon/sling) with 10 bullets, [heavy horse](ref/eq-misc/horse-heavy), [wagon](ref/eq-misc/wagon)
+Boon: A farmer can provide enough food and drink for the PCs for 1 week free of charge, or offer them a place to sleep for the night in his barn.
+:::
 
 ### Description
 

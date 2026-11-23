@@ -15,49 +15,70 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [cleric](ref/class/cleric) 1\
-LN Medium humanoid\
-**Init** +0; **Senses** Perception +2
+LN Medium humanoid
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +0
+Senses: Perception +2
+:::
 
 ### Defense
 
-**AC** 17, touch 10, flat-footed 17 (+5 armor, +2 shield)\
-**hp** 5 (1d8+1)\
-**Fort** +3, **Ref** +0, **Will** +4
+::: statblock
+AC: 17, touch 10, flat-footed 17 (+5 armor, +2 shield)
+hp: 5 (1d8+1)
+Fort: +3
+Ref: +0
+Will: +4
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** shortspear +1 (1d6+1)\
-**Ranged** shortspear +0 (1d6+1)\
-**Special Attacks** channel positive energy 7/day (DC 12, 1d6)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 1st; concentration +3)\
-_5/day_-rebuke death, touch of law\
-**Cleric Spells Prepared** (CL 1st; concentration +3)\
-_1st_-[bless](ref/spell/bless), [command](ref/spell/command) (DC 13),
-[cure light wounds](ref/spell/cure-light-wounds)^[1](ref/npc/temple-acolyte#footnote-d)^\
-_0 (at will)_-[guidance](ref/spell/guidance), [resistance](ref/spell/resistance),
-[virtue](ref/spell/virtue)\
-**Domains** [Healing](ref/domain/healing), Law
+::: statblock
+Speed: 20 ft.
+Melee: shortspear +1 (1d6+1)
+Ranged: shortspear +0 (1d6+1)
+Special Attacks: channel positive energy 7/day (DC 12, 1d6)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1st
+Concentration: +3
+5/day: rebuke death, touch of law
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+Caster level: 1st
+Concentration: +3
+1st: [bless](ref/spell/bless), [command](ref/spell/command) (DC 13), [cure light wounds](ref/spell/cure-light-wounds)^[1](ref/npc/temple-acolyte#footnote-d)^
+0 (at will): [guidance](ref/spell/guidance), [resistance](ref/spell/resistance), [virtue](ref/spell/virtue)
+Domains: [Healing](ref/domain/healing), Law
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 10, **Con** 13, **Int** 10, **Wis** 15, **Cha** 14\
-**Base Atk** +0; **CMB** +1; **CMD** 11\
-**Feats** [Extra Channel](ref/feat/extra-channel),
-[Selective Channeling](ref/feat/selective-channeling)\
-**Skills** Diplomacy +6, Heal +8, Knowledge (religion) +4, Sense Motive +6\
-**Languages** Common\
-**Combat Gear** scroll of [protection from chaos](ref/spell/protection-from-chaos), scroll of
-[sanctuary](ref/spell/sanctuary); **Other Gear** [scale mail](ref/eq-armor/scale-mail),
-[heavy wooden shield](ref/eq-armor/heavy-wooden-shield), [shortspears](ref/eq-weapon/shortspear)
-(2), [healer's kit](ref/eq-misc/healers-kit), [silver holy symbol](ref/eq-misc/holy-symbol-silver)\
-**Boon** An acolyte can tend a character's wounds or provide a free wooden holy symbol or sacred
-tract (granting a +2 circumstance bonus on Knowledge \[religion\] checks about the acolyte's faith).
-An acolyte can also make holy water for PCs at a 20% discount.
+::: statblock
+Str: 12
+Dex: 10
+Con: 13
+Int: 10
+Wis: 15
+Cha: 14
+Base Atk: +0
+CMB: +1
+CMD: 11
+Feats: [Extra Channel](ref/feat/extra-channel), [Selective Channeling](ref/feat/selective-channeling)
+Skills: Diplomacy +6, Heal +8, Knowledge (religion) +4, Sense Motive +6
+Languages: Common
+Combat Gear: scroll of [protection from chaos](ref/spell/protection-from-chaos), scroll of [sanctuary](ref/spell/sanctuary)
+Other Gear: [scale mail](ref/eq-armor/scale-mail), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), [shortspears](ref/eq-weapon/shortspear) (2), [healer's kit](ref/eq-misc/healers-kit), [silver holy symbol](ref/eq-misc/holy-symbol-silver)
+Boon: An acolyte can tend a character's wounds or provide a free wooden holy symbol or sacred tract (granting a +2 circumstance bonus on Knowledge \[religion\] checks about the acolyte's faith). An acolyte can also make holy water for PCs at a 20% discount.
+:::
 
 ### Description
 

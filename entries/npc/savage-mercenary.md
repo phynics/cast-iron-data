@@ -15,24 +15,33 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [barbarian](ref/class/barbarian) 1\
-CN Medium humanoid (human)\
-**Init** +1; **Senses** Perception +5
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)\
-**hp** 17 (1d12+5)\
-**Fort** +6, **Ref** +1, **Will** +3
+::: statblock
+AC: 15, touch 9, flat-footed 14 (+6 armor, +1 Dex, -2 rage)
+hp: 17 (1d12+5)
+Fort: +6
+Ref: +1
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** greatsword +6 (2d6+7/19-20) or heavy flail +6 (1d10+7/19-20)\
-**Special Attacks** rage (6 rounds/day)
+::: statblock
+Speed: 30 ft.
+Melee: greatsword +6 (2d6+7/19-20) or heavy flail +6 (1d10+7/19-20)
+Special Attacks: rage (6 rounds/day)
+:::
 
 ### Tactics
 
@@ -45,16 +54,23 @@ uses her flail against weapon-using foes to make disarm and trip combat maneuver
 
 ### Statistics
 
-**Str** 21, **Dex** 13, **Con** 18, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +1; **CMB** +6; **CMD** 15\
-**Feats** [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack)\
-**Skills** Climb +5, Knowledge (nature) +4, Perception +5, Survival +5, Swim +5\
-**Languages** Common\
-**SQ** fast movement\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds), potion of
-[remove fear](ref/spell/remove-fear), [alchemist's fire](ref/eq-weapon/alchemists-fire); **Other
-Gear** [breastplate](ref/eq-armor/breastplate), [greatsword](ref/eq-weapon/greatsword),
-[heavy flail](ref/eq-weapon/heavy-flail), [sling](ref/eq-weapon/sling) with 10 bullets, 5 gp
+::: statblock
+Str: 21
+Dex: 13
+Con: 18
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +1
+CMB: +6
+CMD: 15
+Feats: [Cleave](ref/feat/cleave), [Power Attack](ref/feat/power-attack)
+Skills: Climb +5, Knowledge (nature) +4, Perception +5, Survival +5, Swim +5
+Languages: Common
+SQ: fast movement
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [remove fear](ref/spell/remove-fear), [alchemist's fire](ref/eq-weapon/alchemists-fire)
+Other Gear: [breastplate](ref/eq-armor/breastplate), [greatsword](ref/eq-weapon/greatsword), [heavy flail](ref/eq-weapon/heavy-flail), [sling](ref/eq-weapon/sling) with 10 bullets, 5 gp
+:::
 
 ### Description
 

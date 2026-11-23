@@ -15,51 +15,70 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [cleric](ref/class/cleric) of [Norgorber](ref/faith/norgorber) 3\
-NE Medium humanoid (human)\
-**Init** +2; **Senses** Perception +3
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +2
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)\
-**hp** 20 (3d8+3)\
-**Fort** +4, **Ref** +3, **Will** +6
+::: statblock
+AC: 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)
+hp: 20 (3d8+3)
+Fort: +4
+Ref: +3
+Will: +6
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk war razor +5 (1d4/19-20)\
-**Special Attacks** channel negative energy 4/day (DC 12, 2d6), sudden shift\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 3rd; concentration +6)\
-_6/day_-bleeding touch (1 rounds)\
-**Cleric Spells Prepared** (CL 3rd; concentration +6)\
-_2nd_-[invisibility](ref/spell/invisibility)^[1](ref/npc/skinsaw-cultist#footnote-d)^,
-[mirror image](ref/spell/mirror-image), [undetectable alignment](ref/spell/undetectable-alignment)\
-_1st_-[disguise self](ref/spell/disguise-self)^[1](ref/npc/skinsaw-cultist#footnote-d)^,
-[murderous command](ref/spell/murderous-command) (DC 15),
-[protection from good](ref/spell/protection-from-good), [shield of faith](ref/spell/shield-of-faith)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 13), [detect magic](ref/spell/detect-magic),
-[guidance](ref/spell/guidance), [resistance](ref/spell/resistance)\
-**Domains** Death, Deception
+::: statblock
+Speed: 30 ft.
+Melee: mwk war razor +5 (1d4/19-20)
+Special Attacks: channel negative energy 4/day (DC 12, 2d6), sudden shift
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 3rd
+Concentration: +6
+6/day: bleeding touch (1 rounds)
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+Caster level: 3rd
+Concentration: +6
+2nd: [invisibility](ref/spell/invisibility)^[1](ref/npc/skinsaw-cultist#footnote-d)^, [mirror image](ref/spell/mirror-image), [undetectable alignment](ref/spell/undetectable-alignment)
+1st: [disguise self](ref/spell/disguise-self)^[1](ref/npc/skinsaw-cultist#footnote-d)^, [murderous command](ref/spell/murderous-command) (DC 15), [protection from good](ref/spell/protection-from-good), [shield of faith](ref/spell/shield-of-faith)
+0 (at will): [bleed](ref/spell/bleed) (DC 13), [detect magic](ref/spell/detect-magic), [guidance](ref/spell/guidance), [resistance](ref/spell/resistance)
+Domains: Death, Deception
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 14, **Con** 12, **Int** 8, **Wis** 17, **Cha** 13\
-**Base Atk** +2; **CMB** +2; **CMD** 14\
-**Feats** [Blind-Fight](ref/feat/blind-fight),
-[Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (war razor),
-[Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Bluff +3, Disguise +4, Spellcraft +3, Stealth +5\
-**Languages** Common\
-**SQ** aura\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), scroll of
-[death knell](ref/spell/death-knell), scroll of [owl's wisdom](ref/spell/owls-wisdom); **Other
-Gear** +1 [leather armor](ref/eq-armor/leather), mwk [war razor](ref/eq-weapon/war-razor), leather
-[skinsaw mask](ref/magic-wondrous/skinsaw-mask) (unholy symbol), 30 gp
+::: statblock
+Str: 10
+Dex: 14
+Con: 12
+Int: 8
+Wis: 17
+Cha: 13
+Base Atk: +2
+CMB: +2
+CMD: 14
+Feats: [Blind-Fight](ref/feat/blind-fight), [Martial Weapon Proficiency](ref/feat/martial-weapon-proficiency) (war razor), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Bluff +3, Disguise +4, Spellcraft +3, Stealth +5
+Languages: Common
+SQ: aura
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), scroll of [death knell](ref/spell/death-knell), scroll of [owl's wisdom](ref/spell/owls-wisdom)
+Other Gear: +1 [leather armor](ref/eq-armor/leather), mwk [war razor](ref/eq-weapon/war-razor), leather [skinsaw mask](ref/magic-wondrous/skinsaw-mask) (unholy symbol), 30 gp
+:::
 
 ### Description
 

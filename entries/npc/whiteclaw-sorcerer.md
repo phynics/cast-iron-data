@@ -15,33 +15,45 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Elf [sorcerer](ref/class/sorcerer) 3\
-NE Medium humanoid (elf)\
-**Init** +2; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +7
+NE Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +2
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +7
+:::
 
 ### Defense
 
-**AC** 17, touch 12, flat-footed 15 (+4 armor, +2 Dex, +1 natural)\
-**hp** 19 (3d6+6)\
-**Fort** +2, **Ref** +5, **Will** +2; +2 vs. enchantments\
-**Immune** sleep; **Resist** cold 5
+::: statblock
+AC: 17, touch 12, flat-footed 15 (+4 armor, +2 Dex, +1 natural)
+hp: 19 (3d6+6)
+Fort: +2
+Ref: +5
+Will: +2; +2 vs. enchantments
+Immune: sleep
+Resist: cold 5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** 2 claws +1 (1d4) or mwk longsword +2 (1d8/19-20)\
-**Ranged** longbow +3 (1d8/×3)\
-**Special Attacks** claws (2, 1d4, 5 rounds/day)\
-**Sorcerer Spells Known** (CL 3rd; concentration +5)\
-_1st (6/day)_-[cause fear](ref/spell/cause-fear) (DC 13),
-[endure elements](ref/spell/endure-elements), [mage armor](ref/spell/mage-armor),
-[magic missile](ref/spell/magic-missile)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 12), [detect magic](ref/spell/detect-magic),
-[light](ref/spell/light), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)\
-**Bloodline** [draconic](ref/sorcbloodline/draconic) (white)
+::: statblock
+Speed: 30 ft.
+Melee: 2 claws +1 (1d4) or mwk longsword +2 (1d8/19-20)
+Ranged: longbow +3 (1d8/×3)
+Special Attacks: claws (2, 1d4, 5 rounds/day)
+:::
+
+::: statblock
+title = "Sorcerer Spells Known"
+Caster level: 3rd
+Concentration: +5
+1st (6/day): [cause fear](ref/spell/cause-fear) (DC 13), [endure elements](ref/spell/endure-elements), [mage armor](ref/spell/mage-armor), [magic missile](ref/spell/magic-missile)
+0 (at will): [bleed](ref/spell/bleed) (DC 12), [detect magic](ref/spell/detect-magic), [light](ref/spell/light), [ray of frost](ref/spell/ray-of-frost), [read magic](ref/spell/read-magic)
+Bloodline: [draconic](ref/sorcbloodline/draconic) (white)
+:::
 
 ### Tactics
 
@@ -54,18 +66,23 @@ flat-footed 11.
 
 ### Statistics
 
-**Str** 10, **Dex** 14, **Con** 12, **Int** 15, **Wis** 8, **Cha** 15\
-**Base Atk** +1; **CMB** +1; **CMD** 13\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Eschew Materials](ref/feat/eschew-materials),
-[Lightning Reflexes](ref/feat/lightning-reflexes)\
-**Skills** Intimidate +8, Knowledge (arcana) +8, Perception +7, Spellcraft +8 (+10 to identify magic
-item properties)\
-**Languages** Common, Draconic, Elven, Goblin\
-**SQ** bloodline arcana (cold spells deal +1 damage per die), elven magic, weapon familiarity\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds), potion of
-[fly](ref/spell/fly), scrolls of [bull's strength](ref/spell/bulls-strength) (2), scroll of
-[fog cloud](ref/spell/fog-cloud); **Other Gear** [longbow](ref/eq-weapon/longbow) with 20 arrows,
-masterwork [longsword](ref/eq-weapon/longsword), 10 gp
+::: statblock
+Str: 10
+Dex: 14
+Con: 12
+Int: 15
+Wis: 8
+Cha: 15
+Base Atk: +1
+CMB: +1
+CMD: 13
+Feats: [Combat Casting](ref/feat/combat-casting), [Eschew Materials](ref/feat/eschew-materials), [Lightning Reflexes](ref/feat/lightning-reflexes)
+Skills: Intimidate +8, Knowledge (arcana) +8, Perception +7, Spellcraft +8 (+10 to identify magic item properties)
+Languages: Common, Draconic, Elven, Goblin
+SQ: bloodline arcana (cold spells deal +1 damage per die), elven magic, weapon familiarity
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [fly](ref/spell/fly), scrolls of [bull's strength](ref/spell/bulls-strength) (2), scroll of [fog cloud](ref/spell/fog-cloud)
+Other Gear: [longbow](ref/eq-weapon/longbow) with 20 arrows, masterwork [longsword](ref/eq-weapon/longsword), 10 gp
+:::
 
 ### Description
 

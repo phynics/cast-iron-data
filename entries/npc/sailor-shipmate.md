@@ -15,39 +15,52 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [expert](ref/npcclass/expert) 1/[warrior](ref/npcclass/warrior) 1\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +4
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 15, touch 12, flat-footed 13 (+3 armor, +1 Dex, +1 dodge)\
-**hp** 11 (2 HD; 1d8+1d10+2)\
-**Fort** +3, **Ref** +1, **Will** +2
+::: statblock
+AC: 15, touch 12, flat-footed 13 (+3 armor, +1 Dex, +1 dodge)
+hp: 11 (2 HD; 1d8+1d10+2)
+Fort: +3
+Ref: +1
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** scimitar +2 (1d6+1/18-20) or dagger +2 (1d4+1/19-20)\
-**Ranged** composite longbow +2 (1d8+1/×3)
+::: statblock
+Speed: 30 ft.
+Melee: scimitar +2 (1d6+1/18-20) or dagger +2 (1d4+1/19-20)
+Ranged: composite longbow +2 (1d8+1/×3)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 13, **Con** 12, **Int** 8, **Wis** 10, **Cha** 9\
-**Base Atk** +1; **CMB** +2; **CMD** 14\
-**Feats** [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Profession \[sailor\])\
-**Skills** Acrobatics +5, Climb +5, Craft (ships) +3, Perception +4, Profession (fisherman) +4,
-Profession (sailor) +8, Survival +4, Swim +5\
-**Languages** Common\
-**Gear** masterwork [studded leather](ref/eq-armor/studded-leather), [daggers](ref/eq-weapon/dagger)
-(2), [composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows,
-[scimitar](ref/eq-weapon/scimitar)\
-**Boon** A shipmate can smuggle a small item onto or off of a ship, or help PCs get on or off of a
-ship by creating a distraction for any other watchers (-4 on Perception checks to notice the PCs for
-up to 1 minute).
+::: statblock
+Str: 13
+Dex: 13
+Con: 12
+Int: 8
+Wis: 10
+Cha: 9
+Base Atk: +1
+CMB: +2
+CMD: 14
+Feats: [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Profession \[sailor\])
+Skills: Acrobatics +5, Climb +5, Craft (ships) +3, Perception +4, Profession (fisherman) +4, Profession (sailor) +8, Survival +4, Swim +5
+Languages: Common
+Gear: masterwork [studded leather](ref/eq-armor/studded-leather), [daggers](ref/eq-weapon/dagger) (2), [composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows, [scimitar](ref/eq-weapon/scimitar)
+Boon: A shipmate can smuggle a small item onto or off of a ship, or help PCs get on or off of a ship by creating a distraction for any other watchers (-4 on Perception checks to notice the PCs for up to 1 minute).
+:::
 
 ### Description
 

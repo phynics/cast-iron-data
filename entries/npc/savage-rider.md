@@ -15,30 +15,38 @@ kind = "creature"
 cr = "12"
 +++
 
-**Challenge rating:** 12
-
-**XP** 19,200\
 Human [barbarian](ref/class/barbarian) 13\
-CN Medium humanoid (human)\
-**Init** +1; **Senses** Perception +17
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 12
+XP: 19,200
+Init: +1
+Senses: Perception +17
+:::
 
 ### Defense
 
-**AC** 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, -2 rage, +2 shield) (+1 deflection vs. ranged
-weapons)\
-**hp** 194 (13d12+104)\
-**Fort** +16, **Ref** +6, **Will** +9; +5 vs. spells and spell-like or supernatural abilities\
-**Defensive Abilities** [improved uncanny dodge](ref/ability/improved-uncanny-dodge),
-[trap sense](ref/ability/trap-sense) +4; **DR** 3/-
+::: statblock
+AC: 17, touch 9, flat-footed 16 (+6 armor, +1 Dex, -2 rage, +2 shield) (+1 deflection vs. ranged weapons)
+hp: 194 (13d12+104)
+Fort: +16
+Ref: +6
+Will: +9; +5 vs. spells and spell-like or supernatural abilities
+Defensive Abilities: [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +4
+DR: 3/-
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** +1 lance +21/+16/+11 (1d8+8/×3)\
-**Ranged** mwk composite longbow +15/+10/+5 (1d8+7/×3)\
-**Space** 5 ft., **Reach** 5 ft. (10 ft. with lance)\
-**Special Attacks** greater rage (32 rounds/day), rage powers (guarded stance +3, mighty swing,
-renewed vigor 3d8+10, rolling dodge +3, strength surge +13, superstition +5)
+::: statblock
+Speed: 40 ft.
+Melee: +1 lance +21/+16/+11 (1d8+8/×3)
+Ranged: mwk composite longbow +15/+10/+5 (1d8+7/×3)
+Space: 5 ft.
+Reach: 5 ft. (10 ft. with lance)
+Special Attacks: greater rage (32 rounds/day), rage powers (guarded stance +3, mighty swing, renewed vigor 3d8+10, rolling dodge +3, strength surge +13, superstition +5)
+:::
 
 ### Tactics
 
@@ -56,28 +64,23 @@ abilities; **Melee** +1 lance +18/+13/+8 (1d8+5/×3); **Ranged** mwk composite l
 
 ### Statistics
 
-**Str** 24, **Dex** 13, **Con** 24, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +13; **CMB** +20; **CMD** 29\
-**Feats** [Animal Affinity](ref/feat/animal-affinity),
-[Improved Bull Rush](ref/feat/improved-bull-rush), [Mounted Combat](ref/feat/mounted-combat),
-[Power Attack](ref/feat/power-attack), [Ride-By Attack](ref/feat/ride-by-attack),
-[Skill Focus](ref/feat/skill-focus) (Ride), [Spirited Charge](ref/feat/spirited-charge),
-[Unseat](ref/feat/unseat)\
-**Skills** Acrobatics +11, Climb +10, Handle Animal +19, Knowledge (nature) +10, Perception +17,
-Ride +26, Survival +13, Swim +10\
-**Languages** Common\
-**SQ** fast movement\
-**Combat Gear** oil of [keen edge](ref/spell/keen-edge), potion of
-[cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[rhino hide armor](ref/eq-armor/hide), +1 [arrow catching](ref/magic-enh/arrow-catching)
-[buckler](ref/eq-armor/buckler), +1 [lance](ref/eq-weapon/lance), masterwork
-[composite longbow](ref/eq-weapon/composite-longbow) (+7 Str) with 20 arrows,
-[bag of tricks (tan)](ref/magic-wondrous/bag-of-tricks-tan),
-[belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[heavy warhorse](ref/eq-misc/horse-heavy-combat-trained) with
-[riding saddle](ref/eq-misc/saddle-riding) and masterwork
-[studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding), 51 gp
+::: statblock
+Str: 24
+Dex: 13
+Con: 24
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +13
+CMB: +20
+CMD: 29
+Feats: [Animal Affinity](ref/feat/animal-affinity), [Improved Bull Rush](ref/feat/improved-bull-rush), [Mounted Combat](ref/feat/mounted-combat), [Power Attack](ref/feat/power-attack), [Ride-By Attack](ref/feat/ride-by-attack), [Skill Focus](ref/feat/skill-focus) (Ride), [Spirited Charge](ref/feat/spirited-charge), [Unseat](ref/feat/unseat)
+Skills: Acrobatics +11, Climb +10, Handle Animal +19, Knowledge (nature) +10, Perception +17, Ride +26, Survival +13, Swim +10
+Languages: Common
+SQ: fast movement
+Combat Gear: oil of [keen edge](ref/spell/keen-edge), potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [rhino hide armor](ref/eq-armor/hide), +1 [arrow catching](ref/magic-enh/arrow-catching) [buckler](ref/eq-armor/buckler), +1 [lance](ref/eq-weapon/lance), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+7 Str) with 20 arrows, [bag of tricks (tan)](ref/magic-wondrous/bag-of-tricks-tan), [belt of mighty constitution +2](ref/magic-wondrous/belt-of-mighty-constitution-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [heavy warhorse](ref/eq-misc/horse-heavy-combat-trained) with [riding saddle](ref/eq-misc/saddle-riding) and masterwork [studded leather](ref/eq-armor/studded-leather) [barding](ref/eq-armor/barding), 51 gp
+:::
 
 ### Description
 

@@ -15,26 +15,35 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [barbarian](ref/class/barbarian) 5\
-CN Medium humanoid (human)\
-**Init** +1; **Senses** Perception +9
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +1
+Senses: Perception +9
+:::
 
 ### Defense
 
-**AC** 12, touch 9, flat-footed 11 (+3 armor, +1 Dex, -2 rage)\
-**hp** 58 (5d12+20)\
-**Fort** +9, **Ref** +3 (+1 vs. traps), **Will** +5; +3 vs. magic\
-**Defensive Abilities** [improved uncanny dodge](ref/ability/improved-uncanny-dodge)
+::: statblock
+AC: 12, touch 9, flat-footed 11 (+3 armor, +1 Dex, -2 rage)
+hp: 58 (5d12+20)
+Fort: +9
+Ref: +3 (+1 vs. traps)
+Will: +5; +3 vs. magic
+Defensive Abilities: [improved uncanny dodge](ref/ability/improved-uncanny-dodge)
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** mwk spear +12 (1d8+9/×3) or handaxe +11 (1d6+6/×3)\
-**Ranged** mwk composite longbow +7 (1d8+4/×3)\
-**Special Attacks** rage (14 rounds/day), rage powers (powerful blow +2, superstition +3)
+::: statblock
+Speed: 40 ft.
+Melee: mwk spear +12 (1d8+9/×3) or handaxe +11 (1d6+6/×3)
+Ranged: mwk composite longbow +7 (1d8+4/×3)
+Special Attacks: rage (14 rounds/day), rage powers (powerful blow +2, superstition +3)
+:::
 
 ### Tactics
 
@@ -44,23 +53,23 @@ flat-footed 13; **hp** 48; **Fort** +7, **Will** +3; **Melee** mwk spear +10 (1d
 
 ### Statistics
 
-**Str** 22, **Dex** 13, **Con** 18, **Int** 8, **Wis** 12, **Cha** 10\
-**Base Atk** +5; **CMB** +11; **CMD** 20\
-**Feats** [Mounted Archery](ref/feat/mounted-archery), [Mounted Combat](ref/feat/mounted-combat),
-[Ride-By Attack](ref/feat/ride-by-attack), [Spirited Charge](ref/feat/spirited-charge)\
-**Skills** Handle Animal +8, Knowledge (nature) +7, Perception +9, Ride +9, Survival +9\
-**Languages** Common, Shoanti\
-**SQ** fast movement, trap sense +1\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potion of
-[cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds)
-(2), potions of [protection from law](ref/spell/protection-from-law) (2); **Other Gear** mwk
-[studded leather](ref/eq-armor/studded-leather), mwk
-[composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows,
-[handaxe](ref/eq-weapon/handaxe), mwk [spear](ref/eq-weapon/spear),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained) with
-[military saddle](ref/eq-misc/military-saddle) and mwk studded leather
-[barding](ref/eq-armor/barding), 45 gp
+::: statblock
+Str: 22
+Dex: 13
+Con: 18
+Int: 8
+Wis: 12
+Cha: 10
+Base Atk: +5
+CMB: +11
+CMD: 20
+Feats: [Mounted Archery](ref/feat/mounted-archery), [Mounted Combat](ref/feat/mounted-combat), [Ride-By Attack](ref/feat/ride-by-attack), [Spirited Charge](ref/feat/spirited-charge)
+Skills: Handle Animal +8, Knowledge (nature) +7, Perception +9, Ride +9, Survival +9
+Languages: Common, Shoanti
+SQ: fast movement, trap sense +1
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potion of [cat's grace](ref/spell/cats-grace), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potions of [protection from law](ref/spell/protection-from-law) (2)
+Other Gear: mwk [studded leather](ref/eq-armor/studded-leather), mwk [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, [handaxe](ref/eq-weapon/handaxe), mwk [spear](ref/eq-weapon/spear), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [heavy horse (combat trained)](ref/eq-misc/horse-heavy-combat-trained) with [military saddle](ref/eq-misc/military-saddle) and mwk studded leather [barding](ref/eq-armor/barding), 45 gp
+:::
 
 ### Description
 

@@ -15,43 +15,53 @@ kind = "creature"
 cr = "10"
 +++
 
-**Challenge rating:** 10
-
-**XP** 9,600\
 Human [warrior](ref/npcclass/warrior) 12\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +2
+N Medium humanoid
+
+::: statblock
+Challenge rating: 10
+XP: 9,600
+Init: +1
+Senses: Perception +2
+:::
 
 ### Defense
 
-**AC** 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)\
-**hp** 102 (12d10+36)\
-**Fort** +9, **Ref** +5, **Will** +3
+::: statblock
+AC: 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
+hp: 102 (12d10+36)
+Fort: +9
+Ref: +5
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** +1 human bane greatsword +17/+12/+7 (2d6+7/17-20) or +1 human bane greatsword +19/+14/+9
-(4d6+9/17-20) vs. humans or handaxe +16/+11/+6 (1d6+4/×3)\
-**Ranged** longbow +13/+8/+3 (1d8/×3)
+::: statblock
+Speed: 20 ft.
+Melee: +1 human bane greatsword +17/+12/+7 (2d6+7/17-20) or +1 human bane greatsword +19/+14/+9 (4d6+9/17-20) vs. humans or handaxe +16/+11/+6 (1d6+4/×3)
+Ranged: longbow +13/+8/+3 (1d8/×3)
+:::
 
 ### Statistics
 
-**Str** 19, **Dex** 12, **Con** 12, **Int** 8, **Wis** 9, **Cha** 10\
-**Base Atk** +12; **CMB** +16; **CMD** 27\
-**Feats** [Critical Focus](ref/feat/critical-focus), [Diehard](ref/feat/diehard),
-[Endurance](ref/feat/endurance), [Improved Critical](ref/feat/improved-critical) (greatsword),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Lunge](ref/feat/lunge),
-[Toughness](ref/feat/toughness)\
-**Skills** Climb +7, Handle Animal +6, Intimidate +19, Perception +2, Ride +4\
-**Languages** Common\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds); **Other Gear**
-[hide armor](ref/eq-armor/hide), +1 human [bane](ref/magic-enh/bane)
-[greatsword](ref/eq-weapon/greatsword), [handaxe](ref/eq-weapon/handaxe),
-[longbow](ref/eq-weapon/longbow) with 20 arrows,
-[belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), 18 gp\
-**Boon** A chieftain can grant safe passage through lands within 20 miles; no tribes within that
-area will attack the PCs.
+::: statblock
+Str: 19
+Dex: 12
+Con: 12
+Int: 8
+Wis: 9
+Cha: 10
+Base Atk: +12
+CMB: +16
+CMD: 27
+Feats: [Critical Focus](ref/feat/critical-focus), [Diehard](ref/feat/diehard), [Endurance](ref/feat/endurance), [Improved Critical](ref/feat/improved-critical) (greatsword), [Intimidating Prowess](ref/feat/intimidating-prowess), [Lunge](ref/feat/lunge), [Toughness](ref/feat/toughness)
+Skills: Climb +7, Handle Animal +6, Intimidate +19, Perception +2, Ride +4
+Languages: Common
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds)
+Other Gear: [hide armor](ref/eq-armor/hide), +1 human [bane](ref/magic-enh/bane) [greatsword](ref/eq-weapon/greatsword), [handaxe](ref/eq-weapon/handaxe), [longbow](ref/eq-weapon/longbow) with 20 arrows, [belt of giant strength +2](ref/magic-wondrous/belt-of-giant-strength-2), 18 gp
+Boon: A chieftain can grant safe passage through lands within 20 miles; no tribes within that area will attack the PCs.
+:::
 
 ### Description
 

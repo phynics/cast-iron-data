@@ -15,25 +15,34 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [commoner](ref/npcclass/commoner) 10\
-CE Medium humanoid (human)\
-**Init** -1; **Senses** Perception +14
+CE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: -1
+Senses: Perception +14
+:::
 
 ### Defense
 
-**AC** 11, touch 9, flat-footed 11 (+2 armor, -1 Dex)\
-**hp** 55 (10d6+20)\
-**Fort** +6, **Ref** +4, **Will** +6\
-**Immune** detect thoughts, discern lies, alignment detection
+::: statblock
+AC: 11, touch 9, flat-footed 11 (+2 armor, -1 Dex)
+hp: 55 (10d6+20)
+Fort: +6
+Ref: +4
+Will: +6
+Immune: detect thoughts, discern lies, alignment detection
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** light mace +4 (1d6-1)\
-**Ranged** splash weapon +4 (varies)
+::: statblock
+Speed: 30 ft.
+Melee: light mace +4 (1d6-1)
+Ranged: splash weapon +4 (varies)
+:::
 
 ### Tactics
 
@@ -42,19 +51,22 @@ fighting in melee only as a last resort.
 
 ### Statistics
 
-**Str** 9, **Dex** 8, **Con** 12, **Int** 12, **Wis** 12, **Cha** 14\
-**Base Atk** +5; **CMB** +4; **CMD** 13\
-**Feats** [Great Fortitude](ref/feat/great-fortitude), [Iron Will](ref/feat/iron-will),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Skill Focus](ref/feat/skill-focus) (Bluff, Sense
-Motive), [Toughness](ref/feat/toughness)\
-**Skills** Bluff +18, Diplomacy +8, Knowledge (geography) +3, Knowledge (history) +5, Knowledge
-(local) +6, Linguistics +3, Perception +14, Ride +5, Sense Motive +12\
-**Languages** Common, Dwarven, Elven, Halfling\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of
-[gaseous form](ref/spell/gaseous-form), potion of [mage armor](ref/spell/mage-armor),
-[acid](ref/eq-weapon/acid) (2), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2); **Other
-Gear** [leather armor](ref/eq-armor/leather), [light mace](ref/eq-weapon/light-mace),
-[ring of mind shielding](ref/magic-ring/ring-of-mind-shielding), 875 gp
+::: statblock
+Str: 9
+Dex: 8
+Con: 12
+Int: 12
+Wis: 12
+Cha: 14
+Base Atk: +5
+CMB: +4
+CMD: 13
+Feats: [Great Fortitude](ref/feat/great-fortitude), [Iron Will](ref/feat/iron-will), [Lightning Reflexes](ref/feat/lightning-reflexes), [Skill Focus](ref/feat/skill-focus) (Bluff, Sense Motive), [Toughness](ref/feat/toughness)
+Skills: Bluff +18, Diplomacy +8, Knowledge (geography) +3, Knowledge (history) +5, Knowledge (local) +6, Linguistics +3, Perception +14, Ride +5, Sense Motive +12
+Languages: Common, Dwarven, Elven, Halfling
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), potion of [gaseous form](ref/spell/gaseous-form), potion of [mage armor](ref/spell/mage-armor), [acid](ref/eq-weapon/acid) (2), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2)
+Other Gear: [leather armor](ref/eq-armor/leather), [light mace](ref/eq-weapon/light-mace), [ring of mind shielding](ref/magic-ring/ring-of-mind-shielding), 875 gp
+:::
 
 ### Description
 

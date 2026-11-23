@@ -15,36 +15,52 @@ kind = "creature"
 cr = "1/3"
 +++
 
-**Challenge rating:** 1/3
-
-**XP** 135\
 Human [commoner](ref/npcclass/commoner) 1\
-N Medium humanoid\
-**Init** +0; **Senses** Perception +3
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/3
+XP: 135
+Init: +0
+Senses: Perception +3
+:::
 
 ### Defense
 
-**AC** 10, touch 10, flat-footed 10\
-**hp** 6 (1d6+3)\
-**Fort** +2, **Ref** +0, **Will** -1
+::: statblock
+AC: 10, touch 10, flat-footed 10
+hp: 6 (1d6+3)
+Fort: +2
+Ref: +0
+Will: -1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** improvised club +1 (1d4+1)\
-**Ranged** sling -1 (1d3+1)
+::: statblock
+Speed: 30 ft.
+Melee: improvised club +1 (1d4+1)
+Ranged: sling -1 (1d3+1)
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 11, **Con** 15, **Int** 4, **Wis** 9, **Cha** 10\
-**Base Atk** +0; **CMB** +1; **CMD** 11\
-**Feats** [Catch Off-Guard](ref/feat/catch-off-guard), [Endurance](ref/feat/endurance)\
-**Skills** Climb +5, Perception +3\
-**Languages** Common\
-**Gear** [improvised](ref/misc/improvised-weapons) [club](ref/eq-weapon/club),
-[sling](ref/eq-weapon/sling) with 10 stones, turnip\
-**Boon** The village idiot can lead PCs to something secret or hidden inside the town that he has
-come across, granting a +5 bonus on one Perception check to search an area.
+::: statblock
+Str: 12
+Dex: 11
+Con: 15
+Int: 4
+Wis: 9
+Cha: 10
+Base Atk: +0
+CMB: +1
+CMD: 11
+Feats: [Catch Off-Guard](ref/feat/catch-off-guard), [Endurance](ref/feat/endurance)
+Skills: Climb +5, Perception +3
+Languages: Common
+Gear: [improvised](ref/misc/improvised-weapons) [club](ref/eq-weapon/club), [sling](ref/eq-weapon/sling) with 10 stones, turnip
+Boon: The village idiot can lead PCs to something secret or hidden inside the town that he has come across, granting a +5 bonus on one Perception check to search an area.
+:::
 
 ### Description
 

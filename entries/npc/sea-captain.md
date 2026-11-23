@@ -15,45 +15,54 @@ kind = "creature"
 cr = "7"
 +++
 
-**Challenge rating:** 7
-
-**XP** 3,200\
 Halfling [druid](ref/class/druid) 8\
-NE Small humanoid (halfling)\
-**Init** +7; **Senses** Perception +15
+NE Small humanoid (halfling)
+
+::: statblock
+Challenge rating: 7
+XP: 3,200
+Init: +7
+Senses: Perception +15
+:::
 
 ### Defense
 
-**AC** 26, touch 14, flat-footed 23 (+7 armor, +3 Dex, +3 natural, +2 shield, +1 size)\
-**hp** 61 (8d8+22)\
-**Fort** +9, **Ref** +7, **Will** +12; +2 vs. fear, +4 vs. fey and plant-targeted effects
+::: statblock
+AC: 26, touch 14, flat-footed 23 (+7 armor, +3 Dex, +3 natural, +2 shield, +1 size)
+hp: 61 (8d8+22)
+Fort: +9
+Ref: +7
+Will: +12; +2 vs. fear, +4 vs. fey and plant-targeted effects
+:::
 
 ### Offense
 
-**Speed** 15 ft.\
-**Melee** mwk scimitar +11/+6 (1d4+3/18-20)\
-**Ranged** mwk sling +11/+6 (1d3+3)\
-**Special Attacks** wild shape 3/day\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 8th; concentration +12)\
-_8/day_-lightning lord\
-_7/day_-storm burst\
-**Druid Spells Prepared** (CL 8th; concentration +12)\
-_4th_-[control water](ref/spell/control-water), [flame strike](ref/spell/flame-strike) (DC 18),
-[freedom of movement](ref/spell/freedom-of-movement),
-[sleet storm](ref/spell/sleet-storm)^[1](ref/npc/sea-captain#footnote-d)^\
-_3rd_-[call lightning](ref/spell/call-lightning)^[1](ref/npc/sea-captain#footnote-d)^ (DC 17),
-[greater magic fang](ref/spell/magic-fang-greater),
-[protection from energy](ref/spell/protection-from-energy), [quench](ref/spell/quench),
-[wind wall](ref/spell/wind-wall)\
-_2nd_-[barkskin](ref/spell/barkskin), [bull's strength](ref/spell/bulls-strength),
-[fog cloud](ref/spell/fog-cloud)^[1](ref/npc/sea-captain#footnote-d)^,
-[gust of wind](ref/spell/gust-of-wind) (DC 16), [warp wood](ref/spell/warp-wood)\
-_1st_-[cure light wounds](ref/spell/cure-light-wounds) (4),
-[endure elements](ref/spell/endure-elements),
-[obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/sea-captain#footnote-d)^\
-_0 (at will)_-[create water](ref/spell/create-water), [detect magic](ref/spell/detect-magic),
-[flare](ref/spell/flare) (DC 14), [light](ref/spell/light)\
-**Domain** Weather
+::: statblock
+Speed: 15 ft.
+Melee: mwk scimitar +11/+6 (1d4+3/18-20)
+Ranged: mwk sling +11/+6 (1d3+3)
+Special Attacks: wild shape 3/day
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 8th
+Concentration: +12
+8/day: lightning lord
+7/day: storm burst
+:::
+
+::: statblock
+title = "Druid Spells Prepared"
+Caster level: 8th
+Concentration: +12
+4th: [control water](ref/spell/control-water), [flame strike](ref/spell/flame-strike) (DC 18), [freedom of movement](ref/spell/freedom-of-movement), [sleet storm](ref/spell/sleet-storm)^[1](ref/npc/sea-captain#footnote-d)^
+3rd: [call lightning](ref/spell/call-lightning)^[1](ref/npc/sea-captain#footnote-d)^ (DC 17), [greater magic fang](ref/spell/magic-fang-greater), [protection from energy](ref/spell/protection-from-energy), [quench](ref/spell/quench), [wind wall](ref/spell/wind-wall)
+2nd: [barkskin](ref/spell/barkskin), [bull's strength](ref/spell/bulls-strength), [fog cloud](ref/spell/fog-cloud)^[1](ref/npc/sea-captain#footnote-d)^, [gust of wind](ref/spell/gust-of-wind) (DC 16), [warp wood](ref/spell/warp-wood)
+1st: [cure light wounds](ref/spell/cure-light-wounds) (4), [endure elements](ref/spell/endure-elements), [obscuring mist](ref/spell/obscuring-mist)^[1](ref/npc/sea-captain#footnote-d)^
+0 (at will): [create water](ref/spell/create-water), [detect magic](ref/spell/detect-magic), [flare](ref/spell/flare) (DC 14), [light](ref/spell/light)
+Domain: Weather
+:::
 
 ### Tactics
 
@@ -71,27 +80,23 @@ touch 14, flat-footed 20; **Melee** mwk scimitar +11/+6 (1d4+1/18-20); **Ranged*
 
 ### Statistics
 
-**Str** 16, **Dex** 16, **Con** 12, **Int** 10, **Wis** 18, **Cha** 10\
-**Base Atk** +6; **CMB** +8; **CMD** 21\
-**Feats** [Improved Initiative](ref/feat/improved-initiative),
-[Natural Spell](ref/feat/natural-spell), [Toughness](ref/feat/toughness),
-[Weapon Finesse](ref/feat/weapon-finesse)\
-**Skills** Acrobatics +1 (-3 when jumping), Climb +8, Fly +6, Handle Animal +5, Heal +11, Knowledge
-(nature) +10, Perception +15, Spellcraft +7, Survival +13, Swim +5\
-**Languages** Common, Druidic, Goblin, Halfling\
-**SQ** nature bond (Weather domain), nature sense, trackless step,
-[wild empathy](ref/ability/wild-empathy) +8, [woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** scroll of [owl's wisdom](ref/spell/owls-wisdom),
-[alchemist's fire](ref/eq-weapon/alchemists-fire) (3), [thunderstone](ref/eq-weapon/thunderstone);
-**Other Gear** +1 [dragonhide](ref/eq-material/dragonhide) [breastplate](ref/eq-armor/breastplate),
-masterwork [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), masterwork
-[scimitar](ref/eq-weapon/scimitar), masterwork [sling](ref/eq-weapon/sling) with 20 bullets,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2),
-[grappling hook](ref/eq-weapon/grappling-hook), [healer's kit](ref/eq-misc/healers-kit),
-[holly and mistletoe](ref/eq-misc/holly-and-mistletoe),
-[silk rope (50 ft.)](ref/eq-misc/silk-rope-50-ft),
-[spell component pouch](ref/eq-misc/spell-component-pouch), 22 gp
+::: statblock
+Str: 16
+Dex: 16
+Con: 12
+Int: 10
+Wis: 18
+Cha: 10
+Base Atk: +6
+CMB: +8
+CMD: 21
+Feats: [Improved Initiative](ref/feat/improved-initiative), [Natural Spell](ref/feat/natural-spell), [Toughness](ref/feat/toughness), [Weapon Finesse](ref/feat/weapon-finesse)
+Skills: Acrobatics +1 (-3 when jumping), Climb +8, Fly +6, Handle Animal +5, Heal +11, Knowledge (nature) +10, Perception +15, Spellcraft +7, Survival +13, Swim +5
+Languages: Common, Druidic, Goblin, Halfling
+SQ: nature bond (Weather domain), nature sense, trackless step, [wild empathy](ref/ability/wild-empathy) +8, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: scroll of [owl's wisdom](ref/spell/owls-wisdom), [alchemist's fire](ref/eq-weapon/alchemists-fire) (3), [thunderstone](ref/eq-weapon/thunderstone)
+Other Gear: +1 [dragonhide](ref/eq-material/dragonhide) [breastplate](ref/eq-armor/breastplate), masterwork [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), masterwork [scimitar](ref/eq-weapon/scimitar), masterwork [sling](ref/eq-weapon/sling) with 20 bullets, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [headband of inspired wisdom +2](ref/magic-wondrous/headband-of-inspired-wisdom-2), [grappling hook](ref/eq-weapon/grappling-hook), [healer's kit](ref/eq-misc/healers-kit), [holly and mistletoe](ref/eq-misc/holly-and-mistletoe), [silk rope (50 ft.)](ref/eq-misc/silk-rope-50-ft), [spell component pouch](ref/eq-misc/spell-component-pouch), 22 gp
+:::
 
 ### Description
 

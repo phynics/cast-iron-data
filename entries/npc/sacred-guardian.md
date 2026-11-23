@@ -15,62 +15,57 @@ kind = "creature"
 cr = "13"
 +++
 
-**Challenge rating:** 13
-
-**XP** 25,600\
 Gnome [cleric](ref/class/cleric) of [Shelyn](ref/faith/shelyn) 14\
-N Small humanoid (gnome)\
-**Init** +6; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +22
+N Small humanoid (gnome)
+
+::: statblock
+Challenge rating: 13
+XP: 25,600
+Init: +6
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +22
+:::
 
 ### Defense
 
-**AC** 24, touch 16, flat-footed 21 (+7 armor, +2 deflection, +2 Dex, +1 dodge, +1 natural, +1 size)
-(+4 dodge vs. giants)\
-**hp** 129 (14d8+63)\
-**Fort** +16, **Ref** +9, **Will** +18; +2 vs. illusions\
-**Immune** fire (120 points)
+::: statblock
+AC: 24, touch 16, flat-footed 21 (+7 armor, +2 deflection, +2 Dex, +1 dodge, +1 natural, +1 size) (+4 dodge vs. giants)
+hp: 129 (14d8+63)
+Fort: +16
+Ref: +9
+Will: +18; +2 vs. illusions
+Immune: fire (120 points)
+:::
 
 ### Offense
 
-**Speed** 15 ft.\
-**Melee** mwk glaive +11/+6 (1d8-1/×3)\
-**Ranged** mwk light crossbow +14 (1d6/19-20)\
-**Special Attacks** channel positive energy 5/day (DC 19, 7d6), +1 on attack rolls against goblinoid
-and reptilian humanoids\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 14th; concentration +20)\
-_9/day_-bit of luck, resistant touch\
-**Cleric Spells Prepared** (CL 14th; concentration +20)\
-_7th_-[destruction](ref/spell/destruction) (DC 23),
-[repulsion](ref/spell/repulsion)^[1](ref/npc/sacred-guardian#footnote-d)^ (DC 23),
-[summon monster VII](ref/spell/summon-monster-7)\
-_6th_-[antilife shell](ref/spell/antilife-shell),
-[antimagic field](ref/spell/antimagic-field)^[1](ref/npc/sacred-guardian#footnote-d)^,
-[banishment](ref/spell/banishment) (DC 22), [blade barrier](ref/spell/blade-barrier) (DC 22),
-[greater dispel magic](ref/spell/dispel-magic-greater)\
-_5th_-[breath of life](ref/spell/breath-of-life), [greater command](ref/spell/command-greater) (DC
-21), [mark of justice](ref/spell/mark-of-justice),
-[spell resistance](ref/spell/spell-resistance)^[1](ref/npc/sacred-guardian#footnote-d)^,
-[wall of stone](ref/spell/wall-of-stone)\
-_4th_-[air walk](ref/spell/air-walk), [death ward](ref/spell/death-ward),
-[freedom of movement](ref/spell/freedom-of-movement)^[1](ref/npc/sacred-guardian#footnote-d)^,
-[neutralize poison](ref/spell/neutralize-poison), [order's wrath](ref/spell/orders-wrath) (DC 20),
-[repel vermin](ref/spell/repel-vermin)\
-_3rd_-[bestow curse](ref/spell/bestow-curse) (DC 19),
-[blindness/deafness](ref/spell/blindness-deafness) (DC 19),
-[glyph of warding](ref/spell/glyph-of-warding) (2),
-[invisibility purge](ref/spell/invisibility-purge),
-[protection from energy](ref/spell/protection-from-energy)^[1](ref/npc/sacred-guardian#footnote-d)^
-(DC 19)\
-_2nd_-[bear's endurance](ref/spell/bears-endurance), [delay poison](ref/spell/delay-poison) (DC 18),
-[hold person](ref/spell/hold-person) (2, DC 18), [remove paralysis](ref/spell/remove-paralysis),
-[shield other](ref/spell/shield-other)^[1](ref/npc/sacred-guardian#footnote-d)^\
-_1st_-[cause fear](ref/spell/cause-fear) (2, DC 17), [command](ref/spell/command) (DC 17),
-[divine favor](ref/spell/divine-favor), [entropic shield](ref/spell/entropic-shield),
-[sanctuary](ref/spell/sanctuary) (DC 17),
-[true strike](ref/spell/true-strike)^[1](ref/npc/sacred-guardian#footnote-d)^\
-_0 (at will)_-[create water](ref/spell/create-water), [detect poison](ref/spell/detect-poison),
-[mending](ref/spell/mending), [read magic](ref/spell/read-magic)\
-**Domains** [Luck](ref/domain/luck), [Protection](ref/domain/protection)
+::: statblock
+Speed: 15 ft.
+Melee: mwk glaive +11/+6 (1d8-1/×3)
+Ranged: mwk light crossbow +14 (1d6/19-20)
+Special Attacks: channel positive energy 5/day (DC 19, 7d6), +1 on attack rolls against goblinoid and reptilian humanoids
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 14th
+Concentration: +20
+9/day: bit of luck, resistant touch
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+Caster level: 14th
+Concentration: +20
+7th: [destruction](ref/spell/destruction) (DC 23), [repulsion](ref/spell/repulsion)^[1](ref/npc/sacred-guardian#footnote-d)^ (DC 23), [summon monster VII](ref/spell/summon-monster-7)
+6th: [antilife shell](ref/spell/antilife-shell), [antimagic field](ref/spell/antimagic-field)^[1](ref/npc/sacred-guardian#footnote-d)^, [banishment](ref/spell/banishment) (DC 22), [blade barrier](ref/spell/blade-barrier) (DC 22), [greater dispel magic](ref/spell/dispel-magic-greater)
+5th: [breath of life](ref/spell/breath-of-life), [greater command](ref/spell/command-greater) (DC 21), [mark of justice](ref/spell/mark-of-justice), [spell resistance](ref/spell/spell-resistance)^[1](ref/npc/sacred-guardian#footnote-d)^, [wall of stone](ref/spell/wall-of-stone)
+4th: [air walk](ref/spell/air-walk), [death ward](ref/spell/death-ward), [freedom of movement](ref/spell/freedom-of-movement)^[1](ref/npc/sacred-guardian#footnote-d)^, [neutralize poison](ref/spell/neutralize-poison), [order's wrath](ref/spell/orders-wrath) (DC 20), [repel vermin](ref/spell/repel-vermin)
+3rd: [bestow curse](ref/spell/bestow-curse) (DC 19), [blindness/deafness](ref/spell/blindness-deafness) (DC 19), [glyph of warding](ref/spell/glyph-of-warding) (2), [invisibility purge](ref/spell/invisibility-purge), [protection from energy](ref/spell/protection-from-energy)^[1](ref/npc/sacred-guardian#footnote-d)^ (DC 19)
+2nd: [bear's endurance](ref/spell/bears-endurance), [delay poison](ref/spell/delay-poison) (DC 18), [hold person](ref/spell/hold-person) (2, DC 18), [remove paralysis](ref/spell/remove-paralysis), [shield other](ref/spell/shield-other)^[1](ref/npc/sacred-guardian#footnote-d)^
+1st: [cause fear](ref/spell/cause-fear) (2, DC 17), [command](ref/spell/command) (DC 17), [divine favor](ref/spell/divine-favor), [entropic shield](ref/spell/entropic-shield), [sanctuary](ref/spell/sanctuary) (DC 17), [true strike](ref/spell/true-strike)^[1](ref/npc/sacred-guardian#footnote-d)^
+0 (at will): [create water](ref/spell/create-water), [detect poison](ref/spell/detect-poison), [mending](ref/spell/mending), [read magic](ref/spell/read-magic)
+Domains: [Luck](ref/domain/luck), [Protection](ref/domain/protection)
+:::
 
 ### Tactics
 
@@ -83,27 +78,23 @@ and barrier spells, but reacts aggressively if his opponents won't surrender or 
 
 ### Statistics
 
-**Str** 8, **Dex** 14, **Con** 18, **Int** 13, **Wis** 22, **Cha** 10\
-**Base Atk** +10; **CMB** +8; **CMD** 23\
-**Feats** [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge),
-[Extra Channel](ref/feat/extra-channel), [Improved Channel](ref/feat/improved-channel),
-[Improved Initiative](ref/feat/improved-initiative),
-[Selective Channeling](ref/feat/selective-channeling), [Turn Undead](ref/feat/turn-undead)\
-**Skills** Craft (armor) +3, Craft (jewelry) +6, Diplomacy +9, Heal +15, Knowledge (arcana, history,
-nobility) +6, Knowledge (local) +3, Knowledge (religion) +10, Perception +22, Sense Motive +12,
-Spellcraft +8\
-**Languages** Common, Gnome, Sylvan\
-**SQ** aura, aura of protection (+2 deflection, energy resistance 10, 14 rounds/day), good fortune
-(2/day)\
-**Combat Gear** potions of [invisibility](ref/spell/invisibility) (2),
-[ring of the ram](ref/magic-ring/ring-of-the-ram) (10 charges); **Other Gear** +1
-[light fortification](ref/magic-enh/fortification-light) [breastplate](ref/eq-armor/breastplate),
-masterwork [glaive](ref/eq-weapon/glaive), masterwork [light crossbow](ref/eq-weapon/light-crossbow)
-with 20 bolts, [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[headband of inspired wisdom +4](ref/magic-wondrous/headband-of-inspired-wisdom-4),
-[ring of protection +2](ref/magic-ring/ring-of-protection-2),
-[platinum holy symbol](ref/eq-misc/holy-symbol-platinum) (worth 500 gp), powdered diamond (worth 200
-gp), 787 gp
+::: statblock
+Str: 8
+Dex: 14
+Con: 18
+Int: 13
+Wis: 22
+Cha: 10
+Base Atk: +10
+CMB: +8
+CMD: 23
+Feats: [Combat Casting](ref/feat/combat-casting), [Dodge](ref/feat/dodge), [Extra Channel](ref/feat/extra-channel), [Improved Channel](ref/feat/improved-channel), [Improved Initiative](ref/feat/improved-initiative), [Selective Channeling](ref/feat/selective-channeling), [Turn Undead](ref/feat/turn-undead)
+Skills: Craft (armor) +3, Craft (jewelry) +6, Diplomacy +9, Heal +15, Knowledge (arcana, history, nobility) +6, Knowledge (local) +3, Knowledge (religion) +10, Perception +22, Sense Motive +12, Spellcraft +8
+Languages: Common, Gnome, Sylvan
+SQ: aura, aura of protection (+2 deflection, energy resistance 10, 14 rounds/day), good fortune (2/day)
+Combat Gear: potions of [invisibility](ref/spell/invisibility) (2), [ring of the ram](ref/magic-ring/ring-of-the-ram) (10 charges)
+Other Gear: +1 [light fortification](ref/magic-enh/fortification-light) [breastplate](ref/eq-armor/breastplate), masterwork [glaive](ref/eq-weapon/glaive), masterwork [light crossbow](ref/eq-weapon/light-crossbow) with 20 bolts, [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [headband of inspired wisdom +4](ref/magic-wondrous/headband-of-inspired-wisdom-4), [ring of protection +2](ref/magic-ring/ring-of-protection-2), [platinum holy symbol](ref/eq-misc/holy-symbol-platinum) (worth 500 gp), powdered diamond (worth 200 gp), 787 gp
+:::
 
 ### Description
 

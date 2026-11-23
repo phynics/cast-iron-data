@@ -15,37 +15,53 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [commoner](ref/npcclass/commoner) 2\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +4
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: Perception +4
+:::
 
 ### Defense
 
-**AC** 11, touch 11, flat-footed 10 (+1 Dex)\
-**hp** 7 (2d6)\
-**Fort** +0, **Ref** +1, **Will** -1
+::: statblock
+AC: 11, touch 11, flat-footed 10 (+1 Dex)
+hp: 7 (2d6)
+Fort: +0
+Ref: +1
+Will: -1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** serving tray +1 (1d4) or frying pan +1 (1d6 plus 1 fire \[if hot\])\
-**Ranged** drinking glass +2 (1d4 plus dazzled 1 round \[drink in eyes\])
+::: statblock
+Speed: 30 ft.
+Melee: serving tray +1 (1d4) or frying pan +1 (1d6 plus 1 fire \[if hot\])
+Ranged: drinking glass +2 (1d4 plus dazzled 1 round \[drink in eyes\])
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 12, **Con** 11, **Int** 10, **Wis** 9, **Cha** 13\
-**Base Atk** +1; **CMB** +1; **CMD** 12\
-**Feats** [Catch Off-Guard](ref/feat/catch-off-guard), [Throw Anything](ref/feat/throw-anything)\
-**Skills** Perception +4, Perform (dance) +3, Profession (barmaid) +4, Profession (cook) +3, Sleight
-of Hand +2\
-**Languages** Common\
-**Combat Gear** [antitoxin](ref/eq-misc/antitoxin) (2); **Other Gear** serving tray or frying pan,
-drinking glasses (2 to 4)\
-**Boon** A barmaid can get PCs a free round of drinks or whisper the local gossip (granting a +2
-bonus on the PCs' next Diplomacy check to gather information in that community).
+::: statblock
+Str: 10
+Dex: 12
+Con: 11
+Int: 10
+Wis: 9
+Cha: 13
+Base Atk: +1
+CMB: +1
+CMD: 12
+Feats: [Catch Off-Guard](ref/feat/catch-off-guard), [Throw Anything](ref/feat/throw-anything)
+Skills: Perception +4, Perform (dance) +3, Profession (barmaid) +4, Profession (cook) +3, Sleight of Hand +2
+Languages: Common
+Combat Gear: [antitoxin](ref/eq-misc/antitoxin) (2)
+Other Gear: serving tray or frying pan, drinking glasses (2 to 4)
+Boon: A barmaid can get PCs a free round of drinks or whisper the local gossip (granting a +2 bonus on the PCs' next Diplomacy check to gather information in that community).
+:::
 
 ### Description
 

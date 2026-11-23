@@ -15,24 +15,33 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [fighter](ref/class/fighter) 1\
-N Medium humanoid (human)\
-**Init** +2; **Senses** Perception +2
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +2
+Senses: Perception +2
+:::
 
 ### Defense
 
-**AC** 20, touch 12, flat-footed 18 (+6 armor, +2 Dex, +2 shield)\
-**hp** 14 (1d10+4)\
-**Fort** +3, **Ref** +2, **Will** +3
+::: statblock
+AC: 20, touch 12, flat-footed 18 (+6 armor, +2 Dex, +2 shield)
+hp: 14 (1d10+4)
+Fort: +3
+Ref: +2
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** longsword +4 (1d8+3/19-20) or cold iron dagger +4 (1d4+3/19-20)\
-**Ranged** heavy crossbow +3 (1d10/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: longsword +4 (1d8+3/19-20) or cold iron dagger +4 (1d4+3/19-20)
+Ranged: heavy crossbow +3 (1d10/19-20)
+:::
 
 ### Tactics
 
@@ -41,21 +50,22 @@ alchemist's fire for foes he can't harm or can't hit with his sword.
 
 ### Statistics
 
-**Str** 17, **Dex** 14, **Con** 12, **Int** 8, **Wis** 13, **Cha** 10\
-**Base Atk** +1; **CMB** +4; **CMD** 16\
-**Feats** [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack),
-[Toughness](ref/feat/toughness)\
-**Skills** Heal +2, Perception +2, Survival +5\
-**Languages** Common\
-**Combat Gear** potion of [cure light wounds](ref/spell/cure-light-wounds),
-[alchemist's fire](ref/eq-weapon/alchemists-fire), [holy water](ref/eq-weapon/holy-water),
-[oil](ref/eq-misc/oil) (2), [healer's kit](ref/eq-misc/healers-kit) (2 uses remaining); **Other
-Gear** [breastplate](ref/eq-armor/breastplate),
-[heavy wooden shield](ref/eq-armor/heavy-wooden-shield), [cold iron](ref/eq-material/cold-iron)
-[dagger](ref/eq-weapon/dagger), [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 20 bolts,
-[longsword](ref/eq-weapon/longsword), [bedroll](ref/eq-misc/bedroll),
-[tindertwigs](ref/eq-misc/tindertwig) (2), [whetstone](ref/eq-misc/whetstone),
-[wooden holy symbol](ref/eq-misc/wooden-holy-symbol), 3 gp
+::: statblock
+Str: 17
+Dex: 14
+Con: 12
+Int: 8
+Wis: 13
+Cha: 10
+Base Atk: +1
+CMB: +4
+CMD: 16
+Feats: [Iron Will](ref/feat/iron-will), [Power Attack](ref/feat/power-attack), [Toughness](ref/feat/toughness)
+Skills: Heal +2, Perception +2, Survival +5
+Languages: Common
+Combat Gear: potion of [cure light wounds](ref/spell/cure-light-wounds), [alchemist's fire](ref/eq-weapon/alchemists-fire), [holy water](ref/eq-weapon/holy-water), [oil](ref/eq-misc/oil) (2), [healer's kit](ref/eq-misc/healers-kit) (2 uses remaining)
+Other Gear: [breastplate](ref/eq-armor/breastplate), [heavy wooden shield](ref/eq-armor/heavy-wooden-shield), [cold iron](ref/eq-material/cold-iron) [dagger](ref/eq-weapon/dagger), [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 20 bolts, [longsword](ref/eq-weapon/longsword), [bedroll](ref/eq-misc/bedroll), [tindertwigs](ref/eq-misc/tindertwig) (2), [whetstone](ref/eq-misc/whetstone), [wooden holy symbol](ref/eq-misc/wooden-holy-symbol), 3 gp
+:::
 
 ### Description
 

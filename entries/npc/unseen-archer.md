@@ -15,28 +15,35 @@ kind = "creature"
 cr = "14"
 +++
 
-**Challenge rating:** 14
-
-**XP** 38,400\
 Half-elf [rogue](ref/class/rogue) 15\
-NE Medium humanoid (elf, human)\
-**Init** +6; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +21
+NE Medium humanoid (elf, human)
+
+::: statblock
+Challenge rating: 14
+XP: 38,400
+Init: +6
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +21
+:::
 
 ### Defense
 
-**AC** 22, touch 17, flat-footed 16 (+5 armor, +1 deflection, +5 Dex, +1 dodge)\
-**hp** 101 (15d8+30)\
-**Fort** +7, **Ref** +16, **Will** +7; +2 vs. enchantments\
-**Defensive Abilities** [improved evasion](ref/ability/improved-evasion),
-[improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense)
-+5
+::: statblock
+AC: 22, touch 17, flat-footed 16 (+5 armor, +1 deflection, +5 Dex, +1 dodge)
+hp: 101 (15d8+30)
+Fort: +7
+Ref: +16
+Will: +7; +2 vs. enchantments
+Defensive Abilities: [improved evasion](ref/ability/improved-evasion), [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk rapier +14/+9/+4 (1d6+2/18-20)\
-**Ranged** +1 shock composite longbow +19/+14/+9 (1d8+3/×3 plus 1d6 electricity)\
-**Special Attacks** [sneak attack](ref/ability/sneak-attack) +8d6
+::: statblock
+Speed: 30 ft.
+Melee: mwk rapier +14/+9/+4 (1d6+2/18-20)
+Ranged: +1 shock composite longbow +19/+14/+9 (1d8+3/×3 plus 1d6 electricity)
+Special Attacks: [sneak attack](ref/ability/sneak-attack) +8d6
+:::
 
 ### Tactics
 
@@ -47,33 +54,23 @@ his ring of invisibility again and changes location.
 
 ### Statistics
 
-**Str** 14, **Dex** 22, **Con** 13, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +11; **CMB** +13; **CMD** 31\
-**Feats** [Dodge](ref/feat/dodge), [Improved Precise Shot](ref/feat/improved-precise-shot),
-[Manyshot](ref/feat/manyshot), [Mobility](ref/feat/mobility),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot),
-[Rapid Shot](ref/feat/rapid-shot), [Shot on the Run](ref/feat/shot-on-the-run),
-[Skill Focus](ref/feat/skill-focus) (Stealth), [Weapon Focus](ref/feat/weapon-focus) (composite
-longbow)\
-**Skills** Acrobatics +24, Climb +20, Disguise +17, Knowledge (dungeoneering) +8, Knowledge
-(geography) +5, Knowledge (nature) +15, Perception +21, Ride +21, Stealth +30, Swim +10\
-**Languages** Common, Elven\
-**SQ** rogue talents ([bleeding attack](ref/talent/bleeding-attack) +8,
-[defensive roll](ref/talent/defensive-roll), [fast stealth](ref/talent/fast-stealth),
-[improved evasion](ref/talent/improved-evasion), [rogue crawl](ref/talent/rogue-crawl),
-[slippery mind](ref/talent/slippery-mind), [weapon training](ref/talent/weapon-training)),
-[trapfinding](ref/ability/trapfinding) +7, elf blood\
-**Combat Gear** +1 human-[bane](ref/magic-enh/bane) arrows (5), +1 magical beast-bane arrows (5),
-[silversheen](ref/magic-wondrous/silversheen) (2); **Other Gear** +2
-[studded leather](ref/eq-armor/studded-leather), +1 [shock](ref/magic-enh/shock)
-[composite longbow](ref/eq-weapon/composite-longbow) (+2 Str) with 50 arrows, masterwork
-[rapier](ref/eq-weapon/rapier),
-[belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[efficient quiver](ref/magic-wondrous/efficient-quiver),
-[ring of invisibility](ref/magic-ring/ring-of-invisibility),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[disguise kit](ref/eq-misc/disguise-kit), [sunrods](ref/eq-misc/sunrod) (4), 1,587 gp
+::: statblock
+Str: 14
+Dex: 22
+Con: 13
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +11
+CMB: +13
+CMD: 31
+Feats: [Dodge](ref/feat/dodge), [Improved Precise Shot](ref/feat/improved-precise-shot), [Manyshot](ref/feat/manyshot), [Mobility](ref/feat/mobility), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Rapid Shot](ref/feat/rapid-shot), [Shot on the Run](ref/feat/shot-on-the-run), [Skill Focus](ref/feat/skill-focus) (Stealth), [Weapon Focus](ref/feat/weapon-focus) (composite longbow)
+Skills: Acrobatics +24, Climb +20, Disguise +17, Knowledge (dungeoneering) +8, Knowledge (geography) +5, Knowledge (nature) +15, Perception +21, Ride +21, Stealth +30, Swim +10
+Languages: Common, Elven
+SQ: rogue talents ([bleeding attack](ref/talent/bleeding-attack) +8, [defensive roll](ref/talent/defensive-roll), [fast stealth](ref/talent/fast-stealth), [improved evasion](ref/talent/improved-evasion), [rogue crawl](ref/talent/rogue-crawl), [slippery mind](ref/talent/slippery-mind), [weapon training](ref/talent/weapon-training)), [trapfinding](ref/ability/trapfinding) +7, elf blood
+Combat Gear: +1 human-[bane](ref/magic-enh/bane) arrows (5), +1 magical beast-bane arrows (5), [silversheen](ref/magic-wondrous/silversheen) (2)
+Other Gear: +2 [studded leather](ref/eq-armor/studded-leather), +1 [shock](ref/magic-enh/shock) [composite longbow](ref/eq-weapon/composite-longbow) (+2 Str) with 50 arrows, masterwork [rapier](ref/eq-weapon/rapier), [belt of incredible dexterity +2](ref/magic-wondrous/belt-of-incredible-dexterity-2), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [efficient quiver](ref/magic-wondrous/efficient-quiver), [ring of invisibility](ref/magic-ring/ring-of-invisibility), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [disguise kit](ref/eq-misc/disguise-kit), [sunrods](ref/eq-misc/sunrod) (4), 1,587 gp
+:::
 
 ### Description
 

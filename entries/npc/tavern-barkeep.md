@@ -15,41 +15,52 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [expert](ref/npcclass/expert) 4/[warrior](ref/npcclass/warrior) 1\
-N Medium humanoid\
-**Init** +0; **Senses** Perception +10
+N Medium humanoid
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +0
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 13, touch 10, flat-footed 13 (+3 armor)\
-**hp** 23 (5 HD; 4d8+1d10)\
-**Fort** +5, **Ref** +1, **Will** +6
+::: statblock
+AC: 13, touch 10, flat-footed 13 (+3 armor)
+hp: 23 (5 HD; 4d8+1d10)
+Fort: +5
+Ref: +1
+Will: +6
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** sap +3 (1d6-1 nonlethal) or dagger +3 (1d4-1/19-20)\
-**Ranged** mwk heavy crossbow +5 (1d10/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: sap +3 (1d6-1 nonlethal) or dagger +3 (1d4-1/19-20)
+Ranged: mwk heavy crossbow +5 (1d10/19-20)
+:::
 
 ### Statistics
 
-**Str** 9, **Dex** 11, **Con** 10, **Int** 12, **Wis** 14, **Cha** 10\
-**Base Atk** +4; **CMB** +3; **CMD** 13\
-**Feats** [Great Fortitude](ref/feat/great-fortitude), [Quick Draw](ref/feat/quick-draw),
-[Rapid Reload](ref/feat/rapid-reload), [Skill Focus](ref/feat/skill-focus) (Profession \[barkeep\])\
-**Skills** Bluff +8, Handle Animal +5, Intimidate +5, Knowledge (local) +9, Linguistics +6,
-Perception +10, Perform (comedy) +6, Perform (oratory) +6, Profession (barkeep) +13, Ride +5, Sense
-Motive +10, Sleight of Hand +5\
-**Languages** Common, Dwarven, Halfling\
-**Gear** +1 [leather armor](ref/eq-armor/leather), masterwork
-[heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts and one +1 human
-[bane](ref/magic-enh/bane) bolt, [dagger](ref/eq-weapon/dagger), [sap](ref/eq-weapon/sap)\
-**Boon** A barkeep can arrange free room and board for PCs for up to a week. He can also share local
-rumors and customs with PCs, granting a +2 circumstance bonus on Diplomacy and Sense Motive checks
-in his community for 1 day.
+::: statblock
+Str: 9
+Dex: 11
+Con: 10
+Int: 12
+Wis: 14
+Cha: 10
+Base Atk: +4
+CMB: +3
+CMD: 13
+Feats: [Great Fortitude](ref/feat/great-fortitude), [Quick Draw](ref/feat/quick-draw), [Rapid Reload](ref/feat/rapid-reload), [Skill Focus](ref/feat/skill-focus) (Profession \[barkeep\])
+Skills: Bluff +8, Handle Animal +5, Intimidate +5, Knowledge (local) +9, Linguistics +6, Perception +10, Perform (comedy) +6, Perform (oratory) +6, Profession (barkeep) +13, Ride +5, Sense Motive +10, Sleight of Hand +5
+Languages: Common, Dwarven, Halfling
+Gear: +1 [leather armor](ref/eq-armor/leather), masterwork [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 10 bolts and one +1 human [bane](ref/magic-enh/bane) bolt, [dagger](ref/eq-weapon/dagger), [sap](ref/eq-weapon/sap)
+Boon: A barkeep can arrange free room and board for PCs for up to a week. He can also share local rumors and customs with PCs, granting a +2 circumstance bonus on Diplomacy and Sense Motive checks in his community for 1 day.
+:::
 
 ### Description
 

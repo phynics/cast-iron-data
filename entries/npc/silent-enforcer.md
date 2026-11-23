@@ -15,43 +15,55 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Human [monk](ref/class/monk) 6\
-LE Medium humanoid (human)\
-**Init** +2; **Senses** Perception +11
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +2
+Senses: Perception +11
+:::
 
 ### Defense
 
-**AC** 18, touch 16, flat-footed 15 (+2 armor, +2 Dex, +1 dodge, +1 monk, +2 Wis)\
-**hp** 48 (6d8+18)\
-**Fort** +8, **Ref** +7, **Will** +7; +2 vs. enchantments\
-**Defensive Abilities** [evasion](ref/ability/evasion); **Immune** disease
+::: statblock
+AC: 18, touch 16, flat-footed 15 (+2 armor, +2 Dex, +1 dodge, +1 monk, +2 Wis)
+hp: 48 (6d8+18)
+Fort: +8
+Ref: +7
+Will: +7; +2 vs. enchantments
+Defensive Abilities: [evasion](ref/ability/evasion)
+Immune: disease
+:::
 
 ### Offense
 
-**Speed** 50 ft.\
-**Melee** unarmed strike +8 (1d8+3) or flurry of blows +8/+8/+3 (1d8+3)\
-**Special Attacks** flurry of blows, stunning fist (6/day, DC 15)
+::: statblock
+Speed: 50 ft.
+Melee: unarmed strike +8 (1d8+3) or flurry of blows +8/+8/+3 (1d8+3)
+Special Attacks: flurry of blows, stunning fist (6/day, DC 15)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 14, **Con** 13, **Int** 8, **Wis** 14, **Cha** 10\
-**Base Atk** +4; **CMB** +9; **CMD** 23\
-**Feats** [Dodge](ref/feat/dodge), [Gorgon's Fist](ref/feat/gorgons-fist),
-[Great Fortitude](ref/feat/great-fortitude),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Power Attack](ref/feat/power-attack),
-[Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist),
-[Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)\
-**Skills** Acrobatics +11 (+25 when jumping), Intimidate +9, Linguistics +0, Perception +11, Stealth
-+10\
-**Languages** Common (can't speak), Shadowtongue (can't speak)\
-**SQ** fast movement, high jump, ki pool (5 points, magic), maneuver training, purity of body, slow
-fall 30 ft.\
-**Combat Gear** potion of [barkskin](ref/spell/barkskin), potion of
-[cure light wounds](ref/spell/cure-light-wounds), potion of [silence](ref/spell/silence); **Other
-Gear** [bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2)
+::: statblock
+Str: 16
+Dex: 14
+Con: 13
+Int: 8
+Wis: 14
+Cha: 10
+Base Atk: +4
+CMB: +9
+CMD: 23
+Feats: [Dodge](ref/feat/dodge), [Gorgon's Fist](ref/feat/gorgons-fist), [Great Fortitude](ref/feat/great-fortitude), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Power Attack](ref/feat/power-attack), [Scorpion Style](ref/feat/scorpion-style), [Stunning Fist](ref/feat/stunning-fist), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (unarmed strike)
+Skills: Acrobatics +11 (+25 when jumping), Intimidate +9, Linguistics +0, Perception +11, Stealth +10
+Languages: Common (can't speak), Shadowtongue (can't speak)
+SQ: fast movement, high jump, ki pool (5 points, magic), maneuver training, purity of body, slow fall 30 ft.
+Combat Gear: potion of [barkskin](ref/spell/barkskin), potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [silence](ref/spell/silence)
+Other Gear: [bracers of armor +2](ref/magic-wondrous/bracers-of-armor-2)
+:::
 
 ### Description
 
