@@ -15,42 +15,52 @@ kind = "creature"
 cr = "1"
 +++
 
-**Challenge rating:** 1
-
-**XP** 400\
 Human [commoner](ref/npcclass/commoner) 2/[warrior](ref/npcclass/warrior) 1\
-N Medium humanoid\
-**Init** +1; **Senses** Perception +7
+N Medium humanoid
+
+::: statblock
+Challenge rating: 1
+XP: 400
+Init: +1
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 shield)\
-**hp** 15 (3 HD; 2d6+1d10+3)\
-**Fort** +3, **Ref** +1, **Will** -1
+::: statblock
+AC: 16, touch 11, flat-footed 15 (+4 armor, +1 Dex, +1 shield)
+hp: 15 (3 HD; 2d6+1d10+3)
+Fort: +3
+Ref: +1
+Will: -1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** battleaxe +3 (1d8+1/×3) or dagger +3 (1d4+1/19-20)\
-**Ranged** mwk composite longbow +4 (1d8+1/×3) or mwk composite longbow +2/+2 (1d8+1/×3) or dagger
-+3 (1d4+1/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: battleaxe +3 (1d8+1/×3) or dagger +3 (1d4+1/19-20)
+Ranged: mwk composite longbow +4 (1d8+1/×3) or mwk composite longbow +2/+2 (1d8+1/×3) or dagger +3 (1d4+1/19-20)
+:::
 
 ### Statistics
 
-**Str** 13, **Dex** 13, **Con** 12, **Int** 10, **Wis** 8, **Cha** 9\
-**Base Atk** +2; **CMB** +3; **CMD** 14\
-**Feats** [Alertness](ref/feat/alertness), [Point Blank Shot](ref/feat/point-blank-shot),
-[Rapid Shot](ref/feat/rapid-shot)\
-**Skills** Climb +3, Handle Animal +3, Knowledge (geography) +1, Knowledge (local) +1, Perception
-+7, Ride +3, Sense Motive +2, Survival +1, Swim +3\
-**Languages** Common\
-**Gear** masterwork [chain shirt](ref/eq-armor/chain-shirt), [buckler](ref/eq-armor/buckler),
-[battleaxe](ref/eq-weapon/battleaxe), [dagger](ref/eq-weapon/dagger), masterwork
-[composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows,
-[mule](ref/eq-misc/donkey-or-mule), [saddle](ref/eq-misc/saddle-riding)\
-**Boon** A vagabond can give accurate directions to any known landmark or settlement within 50 miles
-(+5 on Survival checks to avoid getting lost) and general information about likely dangers (terrain
-or hostile creatures) along the way.
+::: statblock
+Str: 13
+Dex: 13
+Con: 12
+Int: 10
+Wis: 8
+Cha: 9
+Base Atk: +2
+CMB: +3
+CMD: 14
+Feats: [Alertness](ref/feat/alertness), [Point Blank Shot](ref/feat/point-blank-shot), [Rapid Shot](ref/feat/rapid-shot)
+Skills: Climb +3, Handle Animal +3, Knowledge (geography) +1, Knowledge (local) +1, Perception +7, Ride +3, Sense Motive +2, Survival +1, Swim +3
+Languages: Common
+Gear: masterwork [chain shirt](ref/eq-armor/chain-shirt), [buckler](ref/eq-armor/buckler), [battleaxe](ref/eq-weapon/battleaxe), [dagger](ref/eq-weapon/dagger), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+1 Str) with 20 arrows, [mule](ref/eq-misc/donkey-or-mule), [saddle](ref/eq-misc/saddle-riding)
+Boon: A vagabond can give accurate directions to any known landmark or settlement within 50 miles (+5 on Survival checks to avoid getting lost) and general information about likely dangers (terrain or hostile creatures) along the way.
+:::
 
 ### Description
 

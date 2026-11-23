@@ -17,47 +17,61 @@ cr = "4"
 
 _This proud Ulfen captain stands alert on the deck of her dragonprowed longship, bow at the ready._
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [fighter](ref/class/fighter) 5\
-CN Medium humanoid (human)\
-**Init** +3; **Senses** Perception -1
+CN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: +3
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 17, touch 13, flat-footed 14 (+4 armor, +3 Dex)\
-**hp** 42 (5d10++10)\
-**Fort** +6, **Ref** +4, **Will** +2; +1 vs. fear\
-**Defensive Abilities** bravery +1
+::: statblock
+AC: 17, touch 13, flat-footed 14 (+4 armor, +3 Dex)
+hp: 42 (5d10++10)
+Fort: +6
+Ref: +4
+Will: +2; +1 vs. fear
+Defensive Abilities: bravery +1
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk battleaxe +7 (1d8+1/×3)\
-**Ranged** +1 composite longbow +11 (1d8+5/×3)\
-**Special Attacks** weapon training (bows +1)
+::: statblock
+Speed: 30 ft.
+Melee: mwk battleaxe +7 (1d8+1/×3)
+Ranged: +1 composite longbow +11 (1d8+5/×3)
+Special Attacks: weapon training (bows +1)
+:::
 
 ### Statistics
 
-**Str** 12, **Dex** 16, **Con** 14, **Int** 13, **Wis** 8, **Cha** 12\
-**Base Atk** +5; **CMB** +6; **CMD** 19\
-**Feats** [Deadly Aim](ref/feat/deadly-aim), [Iron Will](ref/feat/iron-will),
-[Persuasive](ref/feat/persuasive), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Precise Shot](ref/feat/precise-shot), [Weapon Focus](ref/feat/weapon-focus) (composite longbow),
-[Weapon Specialization](ref/feat/weapon-specialization) (composite longbow)\
-**Skills** Craft (carpentry) +9, Intimidate +11, Profession (sailor) +7, Sense Motive +4, Swim +9\
-**Languages** Aquan, Common, Skald\
-**SQ** armor training 1
+::: statblock
+Str: 12
+Dex: 16
+Con: 14
+Int: 13
+Wis: 8
+Cha: 12
+Base Atk: +5
+CMB: +6
+CMD: 19
+Feats: [Deadly Aim](ref/feat/deadly-aim), [Iron Will](ref/feat/iron-will), [Persuasive](ref/feat/persuasive), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Weapon Focus](ref/feat/weapon-focus) (composite longbow), [Weapon Specialization](ref/feat/weapon-specialization) (composite longbow)
+Skills: Craft (carpentry) +9, Intimidate +11, Profession (sailor) +7, Sense Motive +4, Swim +9
+Languages: Aquan, Common, Skald
+SQ: armor training 1
+:::
 
 ### Ecology
 
-**Environment** any\
-**Organization** solitary or raid (one longboat captain and 2d6 Ulfen raiders)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork
-[chain shirt](ref/eq-armor/chain-shirt), +1 [composite longbow](ref/eq-weapon/composite-longbow)
-with 20 arrows, masterwork [battleaxe](ref/eq-weapon/battleaxe), potions of
-[cure moderate wounds](ref/spell/cure-moderate-wounds) (2), other treasure)
+::: statblock
+Environment: any
+Organization: solitary or raid (one longboat captain and 2d6 Ulfen raiders)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (masterwork [chain shirt](ref/eq-armor/chain-shirt), +1 [composite longbow](ref/eq-weapon/composite-longbow) with 20 arrows, masterwork [battleaxe](ref/eq-weapon/battleaxe), potions of [cure moderate wounds](ref/spell/cure-moderate-wounds) (2), other treasure)
+:::
 
 ### Description
 

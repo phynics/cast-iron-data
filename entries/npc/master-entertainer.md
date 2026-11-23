@@ -15,29 +15,42 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Gnome [expert](ref/npcclass/expert) 10\
-CN Small humanoid (gnome)\
-**Init** +1; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +2
+CN Small humanoid (gnome)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +1
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +2
+:::
 
 ### Defense
 
-**AC** 12, touch 12, flat-footed 11 (+1 Dex, +1 size)\
-**hp** 45 (10d8)\
-**Fort** +3, **Ref** +6, **Will** +7; +2 vs. illusions\
-**Defensive Abilities** defensive training (+4 dodge bonus to AC vs. giants)
+::: statblock
+AC: 12, touch 12, flat-footed 11 (+1 Dex, +1 size)
+hp: 45 (10d8)
+Fort: +3
+Ref: +6
+Will: +7; +2 vs. illusions
+Defensive Abilities: defensive training (+4 dodge bonus to AC vs. giants)
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** dagger +7/+2 (1d3-2/19-20)\
-**Ranged** dagger +10/+5 (1d3-2/19-20)\
-**Special Attacks** +1 on attack rolls against goblinoid and reptilian humanoids\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 10th; concentration +13)\
-_1/day_-[dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound),
-prestidigitation, [speak with animals](ref/spell/speak-with-animals)
+::: statblock
+Speed: 20 ft.
+Melee: dagger +7/+2 (1d3-2/19-20)
+Ranged: dagger +10/+5 (1d3-2/19-20)
+Special Attacks: +1 on attack rolls against goblinoid and reptilian humanoids
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 10th
+Concentration: +13
+1/day: [dancing lights](ref/spell/dancing-lights), [ghost sound](ref/spell/ghost-sound), prestidigitation, [speak with animals](ref/spell/speak-with-animals)
+:::
 
 ### Tactics
 
@@ -45,28 +58,22 @@ prestidigitation, [speak with animals](ref/spell/speak-with-animals)
 
 ### Statistics
 
-**Str** 7, **Dex** 12, **Con** 10, **Int** 12, **Wis** 10, **Cha** 16\
-**Base Atk** +7; **CMB** +4; **CMD** 15\
-**Feats** [Lightning Reflexes](ref/feat/lightning-reflexes),
-[Point-Blank Shot](ref/feat/point-blank-shot), [Quick Draw](ref/feat/quick-draw),
-[Rapid Shot](ref/feat/rapid-shot), [Weapon Focus](ref/feat/weapon-focus) (dagger)\
-**Skills** Acrobatics +14 (+10 when jumping), Bluff +11, Craft (painting) +10, Disguise +9, Escape
-Artist +9, Knowledge (local, nobility) +9, Perception +2, Perform (comedy) +16, Perform (dance) +11,
-Perform (wind) +8, Sense Motive +5, Sleight of Hand +14, Use Magic Device +16\
-**Languages** Common, Elven, Gnome, Sylvan\
-**Combat Gear** potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scrolls of
-[cat's grace](ref/spell/cats-grace) (2), scroll of [major image](ref/spell/major-image), scroll of
-[shrink item](ref/spell/shrink-item), wand of [invisibility](ref/spell/invisibility) (10 charges),
-wand of [prestidigitation](ref/spell/prestidigitation) (20 charges), wand of
-[pyrotechnics](ref/spell/pyrotechnics) (10 charges), wand of [silent image](ref/spell/silent-image)
-(10 charges), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2),
-[thunderstones](ref/eq-weapon/thunderstone) (2); **Other Gear** [daggers](ref/eq-weapon/dagger) (8),
-[elixir of love](ref/magic-wondrous/elixir-of-love),
-[hat of disguise](ref/magic-wondrous/hat-of-disguise),
-[marvelous pigments](ref/magic-wondrous/marvelous-pigments), masterwork
-[artisan's tools](ref/eq-misc/artisans-tools-masterwork),
-[masterwork panpipes](ref/eq-misc/musical-instrument-masterwork),
-[smokesticks](ref/eq-misc/smokestick) (2), [tindertwigs](ref/eq-misc/tindertwig) (4), 335 gp
+::: statblock
+Str: 7
+Dex: 12
+Con: 10
+Int: 12
+Wis: 10
+Cha: 16
+Base Atk: +7
+CMB: +4
+CMD: 15
+Feats: [Lightning Reflexes](ref/feat/lightning-reflexes), [Point-Blank Shot](ref/feat/point-blank-shot), [Quick Draw](ref/feat/quick-draw), [Rapid Shot](ref/feat/rapid-shot), [Weapon Focus](ref/feat/weapon-focus) (dagger)
+Skills: Acrobatics +14 (+10 when jumping), Bluff +11, Craft (painting) +10, Disguise +9, Escape Artist +9, Knowledge (local, nobility) +9, Perception +2, Perform (comedy) +16, Perform (dance) +11, Perform (wind) +8, Sense Motive +5, Sleight of Hand +14, Use Magic Device +16
+Languages: Common, Elven, Gnome, Sylvan
+Combat Gear: potion of [cure moderate wounds](ref/spell/cure-moderate-wounds), scrolls of [cat's grace](ref/spell/cats-grace) (2), scroll of [major image](ref/spell/major-image), scroll of [shrink item](ref/spell/shrink-item), wand of [invisibility](ref/spell/invisibility) (10 charges), wand of [prestidigitation](ref/spell/prestidigitation) (20 charges), wand of [pyrotechnics](ref/spell/pyrotechnics) (10 charges), wand of [silent image](ref/spell/silent-image) (10 charges), [alchemist's fire](ref/eq-weapon/alchemists-fire) (2), [thunderstones](ref/eq-weapon/thunderstone) (2)
+Other Gear: [daggers](ref/eq-weapon/dagger) (8), [elixir of love](ref/magic-wondrous/elixir-of-love), [hat of disguise](ref/magic-wondrous/hat-of-disguise), [marvelous pigments](ref/magic-wondrous/marvelous-pigments), masterwork [artisan's tools](ref/eq-misc/artisans-tools-masterwork), [masterwork panpipes](ref/eq-misc/musical-instrument-masterwork), [smokesticks](ref/eq-misc/smokestick) (2), [tindertwigs](ref/eq-misc/tindertwig) (4), 335 gp
+:::
 
 ### Description
 

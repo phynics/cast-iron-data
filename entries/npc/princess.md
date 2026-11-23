@@ -15,23 +15,32 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Human [aristocrat](ref/npcclass/aristocrat) 2\
-N Medium humanoid (human)\
-**Init** +1; **Senses** Perception +0
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: Perception +0
+:::
 
 ### Defense
 
-**AC** 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)\
-**hp** 7 (2d8-2)\
-**Fort** -1, **Ref** +1, **Will** +3
+::: statblock
+AC: 12, touch 12, flat-footed 10 (+1 Dex, +1 dodge)
+hp: 7 (2d8-2)
+Fort: -1
+Ref: +1
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** unarmed strike +0 (1d3-1) or light mace +0 (1d6-1) or short sword +0 (1d6-1/19-20)
+::: statblock
+Speed: 30 ft.
+Melee: unarmed strike +0 (1d3-1) or light mace +0 (1d6-1) or short sword +0 (1d6-1/19-20)
+:::
 
 ### Tactics
 
@@ -41,13 +50,21 @@ weapons). If she has no allies and believes her life is in danger, she flees.
 
 ### Statistics
 
-**Str** 8, **Dex** 13, **Con** 9, **Int** 11, **Wis** 10, **Cha** 14\
-**Base Atk** +1; **CMB** +0; **CMD** 12\
-**Feats** [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Diplomacy)\
-**Skills** Bluff +6, Diplomacy +10, Knowledge (nobility) +5, Knowledge (religion) +4, Perform
-(dance) +7, Perform (sing, string) +6, Ride +5, Sense Motive +4\
-**Languages** Common\
-**Gear** [noble's outfit](ref/eq-misc/nobles-outfit), [signet ring](ref/eq-misc/signet-ring), 310 gp
+::: statblock
+Str: 8
+Dex: 13
+Con: 9
+Int: 11
+Wis: 10
+Cha: 14
+Base Atk: +1
+CMB: +0
+CMD: 12
+Feats: [Dodge](ref/feat/dodge), [Skill Focus](ref/feat/skill-focus) (Diplomacy)
+Skills: Bluff +6, Diplomacy +10, Knowledge (nobility) +5, Knowledge (religion) +4, Perform (dance) +7, Perform (sing, string) +6, Ride +5, Sense Motive +4
+Languages: Common
+Gear: [noble's outfit](ref/eq-misc/nobles-outfit), [signet ring](ref/eq-misc/signet-ring), 310 gp
+:::
 
 ### Description
 

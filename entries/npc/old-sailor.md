@@ -15,25 +15,34 @@ kind = "creature"
 cr = "1/2"
 +++
 
-**Challenge rating:** 1/2
-
-**XP** 200\
 Elf [expert](ref/npcclass/expert) 2\
-CN Medium humanoid (elf)\
-**Init** +1; **Senses** [low-light vision](ref/rule/low-light-vision); Perception +6
+CN Medium humanoid (elf)
+
+::: statblock
+Challenge rating: 1/2
+XP: 200
+Init: +1
+Senses: [low-light vision](ref/rule/low-light-vision); Perception +6
+:::
 
 ### Defense
 
-**AC** 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)\
-**hp** 11 (2d8+2)\
-**Fort** +0, **Ref** +1, **Will** +3; +2 vs. enchantments\
-**Immune** sleep
+::: statblock
+AC: 13, touch 11, flat-footed 12 (+2 armor, +1 Dex)
+hp: 11 (2d8+2)
+Fort: +0
+Ref: +1
+Will: +3; +2 vs. enchantments
+Immune: sleep
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk dagger +3 (1d4+1/19-20) or handaxe +2 (1d6+1/×3)\
-**Ranged** mwk dagger +3 (1d4+1/19-20) or shortbow +2 (1d6/×3)
+::: statblock
+Speed: 30 ft.
+Melee: mwk dagger +3 (1d4+1/19-20) or handaxe +2 (1d6+1/×3)
+Ranged: mwk dagger +3 (1d4+1/19-20) or shortbow +2 (1d6/×3)
+:::
 
 ### Tactics
 
@@ -42,13 +51,21 @@ to maintain a tactical advantage.
 
 ### Statistics
 
-**Str** 12, **Dex** 13, **Con** 11, **Int** 10, **Wis** 10, **Cha** 9\
-**Base Atk** +1; **CMB** +2; **CMD** 13\
-**Feats** [Athletic](ref/feat/athletic)\
-**Skills** Acrobatics +5, Climb +8, Craft (scrimshaw) +4, Knowledge (religion) +4, Perception +6,
-Perform (string) +3, Profession (sailor) +4, Sleight of Hand +5, Survival +4, Swim +8\
-**Languages** Common, Elven\
-**SQ** elven magic, weapon familiarity
+::: statblock
+Str: 12
+Dex: 13
+Con: 11
+Int: 10
+Wis: 10
+Cha: 9
+Base Atk: +1
+CMB: +2
+CMD: 13
+Feats: [Athletic](ref/feat/athletic)
+Skills: Acrobatics +5, Climb +8, Craft (scrimshaw) +4, Knowledge (religion) +4, Perception +6, Perform (string) +3, Profession (sailor) +4, Sleight of Hand +5, Survival +4, Swim +8
+Languages: Common, Elven
+SQ: elven magic, weapon familiarity
+:::
 
 ### Description
 

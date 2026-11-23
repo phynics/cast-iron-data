@@ -15,68 +15,66 @@ kind = "creature"
 cr = "9"
 +++
 
-**Challenge rating:** 9
-
-**XP** 6,400\
 Human [oracle](ref/class/oracle) 10\
-CE Medium humanoid (human)\
-**Init** +2; **Senses** Perception -1
+CE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 9
+XP: 6,400
+Init: +2
+Senses: Perception -1
+:::
 
 ### Defense
 
-**AC** 14, touch 13, flat-footed 11 (+2 Dex, +1 dodge, +1 natural)\
-**hp** 68 (10d8+20)\
-**Fort** +7, **Ref** +6, **Will** +9; +1 vs. fear
+::: statblock
+AC: 14, touch 13, flat-footed 11 (+2 Dex, +1 dodge, +1 natural)
+hp: 68 (10d8+20)
+Fort: +7
+Ref: +6
+Will: +9; +1 vs. fear
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 dagger +8/+3 (1d4+1/19-20)\
-**Ranged** +1 dagger +10/+5 (1d4+1/19-20)\
-**Oracle Spells Known** (CL 10th; concentration +15)\
-_5th (4/day)_-[feeblemind](ref/spell/feeblemind) (DC 20),
-[mass inflict light wounds](ref/spell/inflict-light-wounds-mass) (DC 20),
-[summon monster V](ref/spell/summon-monster-5)\
-_4th (6/day)_-[black tentacles](ref/spell/black-tentacles), [divine power](ref/spell/divine-power),
-[inflict critical wounds](ref/spell/inflict-critical-wounds) (DC 19),
-[summon monster IV](ref/spell/summon-monster-4)\
-_3rd (7/day)_-[animate dead](ref/spell/animate-dead), [bestow curse](ref/spell/bestow-curse) (DC
-18), [inflict serious wounds](ref/spell/inflict-serious-wounds) (DC 18), [prayer](ref/spell/prayer),
-[tongues](ref/spell/tongues)\
-_2nd (7/day)_-[disfiguring touch](ref/spell/disfiguring-touch) (DC 17),
-[dust of twilight](ref/spell/dust-of-twilight) (DC 17), [enthrall](ref/spell/enthrall) (DC 17),
-[inflict moderate wounds](ref/spell/inflict-moderate-wounds) (DC 17),
-[lesser restoration](ref/spell/restoration-lesser), [shard of chaos](ref/spell/shard-of-chaos) (DC
-17)\
-_1st (8/day)_-[command](ref/spell/command) (DC 16), [divine favor](ref/spell/divine-favor),
-[doom](ref/spell/doom) (DC 16), [entropic shield](ref/spell/entropic-shield),
-[inflict light wounds](ref/spell/inflict-light-wounds) (DC 16),
-[ray of sickening](ref/spell/ray-of-sickening) (DC 16), [shield of faith](ref/spell/shield-of-faith)\
-_0 (at will)_-[bleed](ref/spell/bleed) (DC 15), [detect magic](ref/spell/detect-magic),
-[detect poison](ref/spell/detect-poison), [guidance](ref/spell/guidance), [light](ref/spell/light),
-[mending](ref/spell/mending), [read magic](ref/spell/read-magic),
-[resistance](ref/spell/resistance), [spark](ref/spell/spark)\
-**Mystery** [dark tapestry](ref/mystery/dark-tapestry)
+::: statblock
+Speed: 30 ft.
+Melee: +1 dagger +8/+3 (1d4+1/19-20)
+Ranged: +1 dagger +10/+5 (1d4+1/19-20)
+:::
+
+::: statblock
+title = "Oracle Spells Known"
+Caster level: 10th
+Concentration: +15
+5th (4/day): [feeblemind](ref/spell/feeblemind) (DC 20), [mass inflict light wounds](ref/spell/inflict-light-wounds-mass) (DC 20), [summon monster V](ref/spell/summon-monster-5)
+4th (6/day): [black tentacles](ref/spell/black-tentacles), [divine power](ref/spell/divine-power), [inflict critical wounds](ref/spell/inflict-critical-wounds) (DC 19), [summon monster IV](ref/spell/summon-monster-4)
+3rd (7/day): [animate dead](ref/spell/animate-dead), [bestow curse](ref/spell/bestow-curse) (DC 18), [inflict serious wounds](ref/spell/inflict-serious-wounds) (DC 18), [prayer](ref/spell/prayer), [tongues](ref/spell/tongues)
+2nd (7/day): [disfiguring touch](ref/spell/disfiguring-touch) (DC 17), [dust of twilight](ref/spell/dust-of-twilight) (DC 17), [enthrall](ref/spell/enthrall) (DC 17), [inflict moderate wounds](ref/spell/inflict-moderate-wounds) (DC 17), [lesser restoration](ref/spell/restoration-lesser), [shard of chaos](ref/spell/shard-of-chaos) (DC 17)
+1st (8/day): [command](ref/spell/command) (DC 16), [divine favor](ref/spell/divine-favor), [doom](ref/spell/doom) (DC 16), [entropic shield](ref/spell/entropic-shield), [inflict light wounds](ref/spell/inflict-light-wounds) (DC 16), [ray of sickening](ref/spell/ray-of-sickening) (DC 16), [shield of faith](ref/spell/shield-of-faith)
+0 (at will): [bleed](ref/spell/bleed) (DC 15), [detect magic](ref/spell/detect-magic), [detect poison](ref/spell/detect-poison), [guidance](ref/spell/guidance), [light](ref/spell/light), [mending](ref/spell/mending), [read magic](ref/spell/read-magic), [resistance](ref/spell/resistance), [spark](ref/spell/spark)
+Mystery: [dark tapestry](ref/mystery/dark-tapestry)
+:::
 
 ### Statistics
 
-**Str** 10, **Dex** 15, **Con** 12, **Int** 13, **Wis** 8, **Cha** 20\
-**Base Atk** +7; **CMB** +7; **CMD** 20\
-**Feats** [Dodge](ref/feat/dodge), [Great Fortitude](ref/feat/great-fortitude),
-[Iron Will](ref/feat/iron-will), [Oracular Intuition](ref/feat/oracular-intuition),
-[Stoic](ref/feat/stoic), [Toughness](ref/feat/toughness)\
-**Skills** Diplomacy +13, Disguise +13, Heal +7, Intimidate +13, Knowledge (arcana) +14, Knowledge
-(history) +8, Knowledge (planes) +14, Knowledge (religion) +14, Sense Motive +9, Spellcraft +18,
-Stealth +6\
-**Languages** Aklo, Common, Terran; _[tongues](ref/spell/tongues)_ (understand only)\
-**SQ** oracle's curse (tongues), revelations (brain drain \[3/day, 10d4\], cloak of darkness \[+6,
-10 hours/day\], interstellar void \[2/day, 10d6 plus fatigue\])\
-**Combat Gear** wand of [cure moderate wounds](ref/spell/cure-moderate-wounds) (19 charges); **Other
-Gear** +1 [dagger](ref/eq-weapon/dagger),
-[amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2),
-[Preklikin's Book of Cults](ref/magic-wondrous/preklikins-book-of-cults), 238 gp
+::: statblock
+Str: 10
+Dex: 15
+Con: 12
+Int: 13
+Wis: 8
+Cha: 20
+Base Atk: +7
+CMB: +7
+CMD: 20
+Feats: [Dodge](ref/feat/dodge), [Great Fortitude](ref/feat/great-fortitude), [Iron Will](ref/feat/iron-will), [Oracular Intuition](ref/feat/oracular-intuition), [Stoic](ref/feat/stoic), [Toughness](ref/feat/toughness)
+Skills: Diplomacy +13, Disguise +13, Heal +7, Intimidate +13, Knowledge (arcana) +14, Knowledge (history) +8, Knowledge (planes) +14, Knowledge (religion) +14, Sense Motive +9, Spellcraft +18, Stealth +6
+Languages: Aklo, Common, Terran; _[tongues](ref/spell/tongues)_ (understand only)
+SQ: oracle's curse (tongues), revelations (brain drain \[3/day, 10d4\], cloak of darkness \[+6, 10 hours/day\], interstellar void \[2/day, 10d6 plus fatigue\])
+Combat Gear: wand of [cure moderate wounds](ref/spell/cure-moderate-wounds) (19 charges)
+Other Gear: +1 [dagger](ref/eq-weapon/dagger), [amulet of natural armor +1](ref/magic-wondrous/amulet-of-natural-armor-1), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [headband of alluring charisma +2](ref/magic-wondrous/headband-of-alluring-charisma-2), [Preklikin's Book of Cults](ref/magic-wondrous/preklikins-book-of-cults), 238 gp
+:::
 
 ### Special Abilities
 

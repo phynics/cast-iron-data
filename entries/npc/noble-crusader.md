@@ -15,40 +15,52 @@ kind = "creature"
 cr = "4"
 +++
 
-**Challenge rating:** 4
-
-**XP** 1,200\
 Human [cleric](ref/class/cleric) of [Iomedae](ref/faith/iomedae) 5\
-LN Medium humanoid (human)\
-**Init** -1; **Senses** Perception +6
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 4
+XP: 1,200
+Init: -1
+Senses: Perception +6
+:::
 
 ### Defense
 
-**AC** 18, touch 9, flat-footed 18 (+7 armor, -1 Dex, +2 shield)\
-**hp** 41 (5d8+15)\
-**Fort** +7, **Ref** +1, **Will** +7
+::: statblock
+AC: 18, touch 9, flat-footed 18 (+7 armor, -1 Dex, +2 shield)
+hp: 41 (5d8+15)
+Fort: +7
+Ref: +1
+Will: +7
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk longsword +8 (1d8+3/19-20)\
-**Special Attacks** channel positive energy 6/day (DC 13, 3d6)\
-**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL 5th; concentration +7)\
-_5/day_-touch of law\
-_5/day_-battle rage (+2 damage)\
-**Cleric Spells Prepared** (CL 5th; concentration +7)\
-_3rd_-[dispel magic](ref/spell/dispel-magic),
-[magic vestment](ref/spell/magic-vestment)^[1](ref/npc/noble-crusader#footnote-d)^,
-[searing light](ref/spell/searing-light)\
-_2nd_-[align weapon](ref/spell/align-weapon) (law only)^[1](ref/npc/noble-crusader#footnote-d)^,
-[enthrall](ref/spell/enthrall) (DC 14), [resist energy](ref/spell/resist-energy) (DC 14),
-[sound burst](ref/spell/sound-burst) (DC 14)\
-_1st_-[command](ref/spell/command) (DC 13), [divine favor](ref/spell/divine-favor),
-[magic weapon](ref/spell/magic-weapon)^[1](ref/npc/noble-crusader#footnote-d)^,
-[shield of faith](ref/spell/shield-of-faith), [summon monster I](ref/spell/summon-monster-1)\
-_0 (at will)_-[guidance](ref/spell/guidance), [light](ref/spell/light),
-[purify food and drink](ref/spell/purify-food-and-drink), [resistance](ref/spell/resistance)\
-**Domains** Law, [War](ref/domain/war)
+::: statblock
+Speed: 20 ft.
+Melee: mwk longsword +8 (1d8+3/19-20)
+Special Attacks: channel positive energy 6/day (DC 13, 3d6)
+:::
+
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 5th
+Concentration: +7
+5/day: touch of law
+5/day: battle rage (+2 damage)
+:::
+
+::: statblock
+title = "Cleric Spells Prepared"
+Caster level: 5th
+Concentration: +7
+3rd: [dispel magic](ref/spell/dispel-magic), [magic vestment](ref/spell/magic-vestment)^[1](ref/npc/noble-crusader#footnote-d)^, [searing light](ref/spell/searing-light)
+2nd: [align weapon](ref/spell/align-weapon) (law only)^[1](ref/npc/noble-crusader#footnote-d)^, [enthrall](ref/spell/enthrall) (DC 14), [resist energy](ref/spell/resist-energy) (DC 14), [sound burst](ref/spell/sound-burst) (DC 14)
+1st: [command](ref/spell/command) (DC 13), [divine favor](ref/spell/divine-favor), [magic weapon](ref/spell/magic-weapon)^[1](ref/npc/noble-crusader#footnote-d)^, [shield of faith](ref/spell/shield-of-faith), [summon monster I](ref/spell/summon-monster-1)
+0 (at will): [guidance](ref/spell/guidance), [light](ref/spell/light), [purify food and drink](ref/spell/purify-food-and-drink), [resistance](ref/spell/resistance)
+Domains: Law, [War](ref/domain/war)
+:::
 
 ### Tactics
 
@@ -61,20 +73,23 @@ flat-footed 18.
 
 ### Statistics
 
-**Str** 17, **Dex** 8, **Con** 14, **Int** 10, **Wis** 14, **Cha** 12\
-**Base Atk** +3; **CMB** +6; **CMD** 15\
-**Feats** [Combat Casting](ref/feat/combat-casting), Heavy Armor Proficiency,
-[Improved Shield Bash](ref/feat/improved-shield-bash), [Weapon Focus](ref/feat/weapon-focus)
-(longsword)\
-**Skills** Diplomacy +9, Heal +6, Knowledge (nobility) +6, Knowledge (religion) +5, Perception +6\
-**Languages** Common\
-**SQ** aura\
-**Combat Gear** potion of [bull's strength](ref/spell/bulls-strength),
-[thunderstone](ref/eq-weapon/thunderstone); **Other Gear** masterwork
-[splint mail](ref/eq-armor/splint-mail), +1 [light steel shield](ref/eq-armor/light-steel-shield),
-masterwork [longsword](ref/eq-weapon/longsword),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[silver holy symbol](ref/eq-misc/holy-symbol-silver), 271 gp
+::: statblock
+Str: 17
+Dex: 8
+Con: 14
+Int: 10
+Wis: 14
+Cha: 12
+Base Atk: +3
+CMB: +6
+CMD: 15
+Feats: [Combat Casting](ref/feat/combat-casting), Heavy Armor Proficiency, [Improved Shield Bash](ref/feat/improved-shield-bash), [Weapon Focus](ref/feat/weapon-focus) (longsword)
+Skills: Diplomacy +9, Heal +6, Knowledge (nobility) +6, Knowledge (religion) +5, Perception +6
+Languages: Common
+SQ: aura
+Combat Gear: potion of [bull's strength](ref/spell/bulls-strength), [thunderstone](ref/eq-weapon/thunderstone)
+Other Gear: masterwork [splint mail](ref/eq-armor/splint-mail), +1 [light steel shield](ref/eq-armor/light-steel-shield), masterwork [longsword](ref/eq-weapon/longsword), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [silver holy symbol](ref/eq-misc/holy-symbol-silver), 271 gp
+:::
 
 ### Description
 

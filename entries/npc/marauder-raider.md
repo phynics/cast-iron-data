@@ -15,27 +15,35 @@ kind = "creature"
 cr = "5"
 +++
 
-**Challenge rating:** 5
-
-**XP** 1,600\
 Human [barbarian](ref/class/barbarian) 6\
-CN Medium humanoid\
-**Init** +2; **Senses** Perception +8
+CN Medium humanoid
+
+::: statblock
+Challenge rating: 5
+XP: 1,600
+Init: +2
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 15, touch 11, flat-footed 12 (+4 armor, +2 Dex, +1 dodge, -2 rage)\
-**hp** 67 (6d12+28)\
-**Fort** +9, **Ref** +4, **Will** +5\
-**Defensive Abilities** [improved uncanny dodge](ref/ability/improved-uncanny-dodge),
-[trap sense](ref/ability/trap-sense) +2
+::: statblock
+AC: 15, touch 11, flat-footed 12 (+4 armor, +2 Dex, +1 dodge, -2 rage)
+hp: 67 (6d12+28)
+Fort: +9
+Ref: +4
+Will: +5
+Defensive Abilities: [improved uncanny dodge](ref/ability/improved-uncanny-dodge), [trap sense](ref/ability/trap-sense) +2
+:::
 
 ### Offense
 
-**Speed** 40 ft.\
-**Melee** mwk spear +12/+7 (1d8+7/×3) or kukri +11/+6 (1d4+5/18-20)\
-**Ranged** mwk composite longbow +9/+4 (1d8+3/×3)\
-**Special Attacks** rage (16 rounds/day), rage powers (animal fury, no escape, scent)
+::: statblock
+Speed: 40 ft.
+Melee: mwk spear +12/+7 (1d8+7/×3) or kukri +11/+6 (1d4+5/18-20)
+Ranged: mwk composite longbow +9/+4 (1d8+3/×3)
+Special Attacks: rage (16 rounds/day), rage powers (animal fury, no escape, scent)
+:::
 
 ### Tactics
 
@@ -45,23 +53,24 @@ CN Medium humanoid\
 
 ### Statistics
 
-**Str** 21, **Dex** 14, **Con** 18, **Int** 10, **Wis** 12, **Cha** 8\
-**Base Atk** +6; **CMB** +11; **CMD** 22\
-**Feats** [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility),
-[Point Blank Shot](ref/feat/point-blank-shot), [Shot on the Run](ref/feat/shot-on-the-run)\
-**Skills** Acrobatics +11 (+15 jump), Climb +11, Intimidate +8, Knowledge (nature) +6, Perception
-+8, Survival +7, Swim +9\
-**Languages** Common\
-**SQ** fast movement\
-**Combat Gear** oil of [magic weapon](ref/spell/magic-weapon), potion of
-[cure light wounds](ref/spell/cure-light-wounds), [thunderstone](ref/eq-weapon/thunderstone);
-**Other Gear** +1 [studded leather](ref/eq-armor/studded-leather),
-[javelin of lightning](ref/magic-weapon/javelin-of-lightning), [kukri](ref/eq-weapon/kukri),
-masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+3 Str) with 40 arrows, masterwork
-[spear](ref/eq-weapon/spear), 1 gp\
-**Boon** Raiders can assist the PCs in ascending high mountain peaks, cliffs, or passes, while
-warning them of dangerous areas and hidden locales (+2 circumstance bonus for 1 week on Perception
-and Survival checks within a 10-mile radius).
+::: statblock
+Str: 21
+Dex: 14
+Con: 18
+Int: 10
+Wis: 12
+Cha: 8
+Base Atk: +6
+CMB: +11
+CMD: 22
+Feats: [Dodge](ref/feat/dodge), [Mobility](ref/feat/mobility), [Point Blank Shot](ref/feat/point-blank-shot), [Shot on the Run](ref/feat/shot-on-the-run)
+Skills: Acrobatics +11 (+15 jump), Climb +11, Intimidate +8, Knowledge (nature) +6, Perception +8, Survival +7, Swim +9
+Languages: Common
+SQ: fast movement
+Combat Gear: oil of [magic weapon](ref/spell/magic-weapon), potion of [cure light wounds](ref/spell/cure-light-wounds), [thunderstone](ref/eq-weapon/thunderstone)
+Other Gear: +1 [studded leather](ref/eq-armor/studded-leather), [javelin of lightning](ref/magic-weapon/javelin-of-lightning), [kukri](ref/eq-weapon/kukri), masterwork [composite longbow](ref/eq-weapon/composite-longbow) (+3 Str) with 40 arrows, masterwork [spear](ref/eq-weapon/spear), 1 gp
+Boon: Raiders can assist the PCs in ascending high mountain peaks, cliffs, or passes, while warning them of dangerous areas and hidden locales (+2 circumstance bonus for 1 week on Perception and Survival checks within a 10-mile radius).
+:::
 
 ### Description
 

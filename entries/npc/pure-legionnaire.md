@@ -15,48 +15,54 @@ kind = "creature"
 cr = "6"
 +++
 
-**Challenge rating:** 6
-
-**XP** 2,400\
 Human [ranger](ref/class/ranger) ([skirmisher](ref/arc-ranger/skirmisher)) 7\
-LN Medium humanoid (human)\
-**Init** +2; **Senses** Perception +15
+LN Medium humanoid (human)
+
+::: statblock
+Challenge rating: 6
+XP: 2,400
+Init: +2
+Senses: Perception +15
+:::
 
 ### Defense
 
-**AC** 18, touch 13, flat-footed 15 (+5 armor, +2 Dex, +1 dodge)\
-**hp** 64 (7d10+21)\
-**Fort** +7, **Ref** +10, **Will** +5
+::: statblock
+AC: 18, touch 13, flat-footed 15 (+5 armor, +2 Dex, +1 dodge)
+hp: 64 (7d10+21)
+Fort: +7
+Ref: +10
+Will: +5
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** +1 scimitar +12/+7 (1d6+4/18-20)\
-**Ranged** mwk longbow +10/+5 (1d8/×3)\
-**Special Attacks** favored enemy (humans +4, native outsiders +2)
+::: statblock
+Speed: 30 ft.
+Melee: +1 scimitar +12/+7 (1d6+4/18-20)
+Ranged: mwk longbow +10/+5 (1d8/×3)
+Special Attacks: favored enemy (humans +4, native outsiders +2)
+:::
 
 ### Statistics
 
-**Str** 17, **Dex** 14, **Con** 12, **Int** 10, **Wis** 14, **Cha** 8\
-**Base Atk** +7; **CMB** +10; **CMD** 23\
-**Feats** [Dodge](ref/feat/dodge), [Endurance](ref/feat/endurance),
-[Lightning Reflexes](ref/feat/lightning-reflexes), [Point-Blank Shot](ref/feat/point-blank-shot),
-[Precise Shot](ref/feat/precise-shot), [Skill Focus](ref/feat/skill-focus) (Perception),
-[Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (scimitar)\
-**Skills** Heal +4, Intimidate +9, Knowledge (local) +7, Knowledge (religion) +7, Perception +15,
-Sense Motive +9, Stealth +11, Survival +12\
-**Languages** Common, Osiriani\
-**SQ** [favored terrain](ref/ability/favored-terrain) (desert +2), hunter's bond (companions),
-hunter's tricks 5/day (hateful attack, uncanny senses), track +3,
-[wild empathy](ref/ability/wild-empathy) +6, [woodland stride](ref/ability/woodland-stride)\
-**Combat Gear** [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (2); **Other Gear** +1
-[leather lamellar](ref/eq-armor/lamellar-leather), +1 [scimitar](ref/eq-weapon/scimitar), mwk
-[longbow](ref/eq-weapon/longbow) with 20 arrows,
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[elixir of truth](ref/magic-wondrous/elixir-of-truth),
-[elixir of vision](ref/magic-wondrous/elixir-of-vision),
-[everburning torch](ref/eq-misc/everburning-torch), [healer's kit](ref/eq-misc/healers-kit), mwk
-[manacles](ref/eq-misc/manacles-masterwork), 39 gp
+::: statblock
+Str: 17
+Dex: 14
+Con: 12
+Int: 10
+Wis: 14
+Cha: 8
+Base Atk: +7
+CMB: +10
+CMD: 23
+Feats: [Dodge](ref/feat/dodge), [Endurance](ref/feat/endurance), [Lightning Reflexes](ref/feat/lightning-reflexes), [Point-Blank Shot](ref/feat/point-blank-shot), [Precise Shot](ref/feat/precise-shot), [Skill Focus](ref/feat/skill-focus) (Perception), [Toughness](ref/feat/toughness), [Weapon Focus](ref/feat/weapon-focus) (scimitar)
+Skills: Heal +4, Intimidate +9, Knowledge (local) +7, Knowledge (religion) +7, Perception +15, Sense Motive +9, Stealth +11, Survival +12
+Languages: Common, Osiriani
+SQ: [favored terrain](ref/ability/favored-terrain) (desert +2), hunter's bond (companions), hunter's tricks 5/day (hateful attack, uncanny senses), track +3, [wild empathy](ref/ability/wild-empathy) +6, [woodland stride](ref/ability/woodland-stride)
+Combat Gear: [tanglefoot bag](ref/eq-weapon/tanglefoot-bag) (2)
+Other Gear: +1 [leather lamellar](ref/eq-armor/lamellar-leather), +1 [scimitar](ref/eq-weapon/scimitar), mwk [longbow](ref/eq-weapon/longbow) with 20 arrows, [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [elixir of truth](ref/magic-wondrous/elixir-of-truth), [elixir of vision](ref/magic-wondrous/elixir-of-vision), [everburning torch](ref/eq-misc/everburning-torch), [healer's kit](ref/eq-misc/healers-kit), mwk [manacles](ref/eq-misc/manacles-masterwork), 39 gp
+:::
 
 ### Description
 

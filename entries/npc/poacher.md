@@ -15,25 +15,34 @@ kind = "creature"
 cr = "2"
 +++
 
-**Challenge rating:** 2
-
-**XP** 600\
 Human [ranger](ref/class/ranger) 3\
-CE Medium humanoid (human)\
-**Init** +1; **Senses** Perception +7
+CE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 2
+XP: 600
+Init: +1
+Senses: Perception +7
+:::
 
 ### Defense
 
-**AC** 14, touch 11, flat-footed 13 (+3 armor, +1 Dex)\
-**hp** 30 (3d10+9)\
-**Fort** +5, **Ref** +4, **Will** +2
+::: statblock
+AC: 14, touch 11, flat-footed 13 (+3 armor, +1 Dex)
+hp: 30 (3d10+9)
+Fort: +5
+Ref: +4
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** 2 mwk handaxes +6 (1d6+3/×3)\
-**Ranged** mwk heavy crossbow +5 (1d10/19-20)\
-**Special Attacks** favored enemy (animals +2)
+::: statblock
+Speed: 30 ft.
+Melee: 2 mwk handaxes +6 (1d6+3/×3)
+Ranged: mwk heavy crossbow +5 (1d10/19-20)
+Special Attacks: favored enemy (animals +2)
+:::
 
 ### Tactics
 
@@ -43,21 +52,23 @@ than expected, he retreats and drinks his potion of bull's strength.
 
 ### Statistics
 
-**Str** 17, **Dex** 12, **Con** 14, **Int** 10, **Wis** 13, **Cha** 8\
-**Base Atk** +3; **CMB** +6; **CMD** 17\
-**Feats** [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance),
-[Quick Draw](ref/feat/quick-draw), [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-[Weapon Focus](ref/feat/weapon-focus) (handaxe)\
-**Skills** Climb +9, Intimidate +4, Knowledge (geography) +5, Knowledge (local) +2, Knowledge
-(nature) +6, Perception +7, Stealth +7, Survival +7\
-**Languages** Common\
-**SQ** [favored terrain](ref/ability/favored-terrain) (forest +2), track +1,
-[wild empathy](ref/ability/wild-empathy) +2\
-**Combat Gear** potion of [bull's strength](ref/spell/bulls-strength), potions of
-[cure light wounds](ref/spell/cure-light-wounds) (2), potion of
-[hide from animals](ref/spell/hide-from-animals); **Other Gear** masterwork
-[studded leather](ref/eq-armor/studded-leather), masterwork [handaxes](ref/eq-weapon/handaxe) (2),
-masterwork [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 20 bolts, 63 gp
+::: statblock
+Str: 17
+Dex: 12
+Con: 14
+Int: 10
+Wis: 13
+Cha: 8
+Base Atk: +3
+CMB: +6
+CMD: 17
+Feats: [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance), [Quick Draw](ref/feat/quick-draw), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (handaxe)
+Skills: Climb +9, Intimidate +4, Knowledge (geography) +5, Knowledge (local) +2, Knowledge (nature) +6, Perception +7, Stealth +7, Survival +7
+Languages: Common
+SQ: [favored terrain](ref/ability/favored-terrain) (forest +2), track +1, [wild empathy](ref/ability/wild-empathy) +2
+Combat Gear: potion of [bull's strength](ref/spell/bulls-strength), potions of [cure light wounds](ref/spell/cure-light-wounds) (2), potion of [hide from animals](ref/spell/hide-from-animals)
+Other Gear: masterwork [studded leather](ref/eq-armor/studded-leather), masterwork [handaxes](ref/eq-weapon/handaxe) (2), masterwork [heavy crossbow](ref/eq-weapon/heavy-crossbow) with 20 bolts, 63 gp
+:::
 
 ### Description
 

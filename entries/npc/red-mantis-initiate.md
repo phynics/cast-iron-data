@@ -15,48 +15,61 @@ kind = "creature"
 cr = "3"
 +++
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [ranger](ref/class/ranger) 4\
-LE Medium humanoid (human)\
-**Init** +2; **Senses** Perception +8
+LE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +2
+Senses: Perception +8
+:::
 
 ### Defense
 
-**AC** 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)\
-**hp** 30 (4d10+4)\
-**Fort** +4, **Ref** +6, **Will** +2
+::: statblock
+AC: 15, touch 12, flat-footed 13 (+3 armor, +2 Dex)
+hp: 30 (4d10+4)
+Fort: +4
+Ref: +6
+Will: +2
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk sawtooth sabre +7 (1d8+3/19-20), mwk dagger +6 (1d4+3/19-20) or mwk sawtooth sabre +9
-(1d8+4/19-20)\
-**Ranged** mwk dagger +7 (1d4+3/19-20)\
-**Special Attacks** favored enemy (humans +2)\
-**Ranger Spells Prepared** (CL 1st; concentration +2)\
-_1st_-[pass without trace](ref/spell/pass-without-trace)
+::: statblock
+Speed: 30 ft.
+Melee: mwk sawtooth sabre +7 (1d8+3/19-20), mwk dagger +6 (1d4+3/19-20) or mwk sawtooth sabre +9 (1d8+4/19-20)
+Ranged: mwk dagger +7 (1d4+3/19-20)
+Special Attacks: favored enemy (humans +2)
+:::
+
+::: statblock
+title = "Ranger Spells Prepared"
+Caster level: 1st
+Concentration: +2
+1st: [pass without trace](ref/spell/pass-without-trace)
+:::
 
 ### Statistics
 
-**Str** 16, **Dex** 15, **Con** 11, **Int** 12, **Wis** 13, **Cha** 8\
-**Base Atk** +4; **CMB** +7; **CMD** 19\
-**Feats** [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance),
-[Skill Focus](ref/feat/skill-focus) (Stealth), [Two-Weapon Fighting](ref/feat/two-weapon-fighting),
-[Weapon Focus](ref/feat/weapon-focus) (sawtooth sabre)\
-**Skills** Acrobatics +6, Bluff +3, Climb +8, Disguise +3, Intimidate +6, Perception +8, Stealth
-+12, Survival +8, Swim +8\
-**Languages** Common, Kelish\
-**SQ** [favored terrain](ref/ability/favored-terrain) (urban +2), hunter's bond (companions), track
-+2, [wild empathy](ref/ability/wild-empathy) +3\
-**Combat Gear** [dust of tracelessness](ref/magic-wondrous/dust-of-tracelessness),
-[elixirs of hiding](ref/magic-wondrous/elixir-of-hiding) (2), potion of
-[cure light wounds](ref/spell/cure-light-wounds), potion of [invisibility](ref/spell/invisibility),
-[black adder venom](ref/eq-poison/black-adder-venom) (1 dose), [smokesticks](ref/eq-misc/smokestick)
-(2); **Other Gear** mwk [studded leather](ref/eq-armor/studded-leather), mwk
-[daggers](ref/eq-weapon/dagger) (2), mwk [sawtooth sabre](ref/eq-weapon/sawtooth-sabre),
-[wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) of Achaekek, 25 gp
+::: statblock
+Str: 16
+Dex: 15
+Con: 11
+Int: 12
+Wis: 13
+Cha: 8
+Base Atk: +4
+CMB: +7
+CMD: 19
+Feats: [Double Slice](ref/feat/double-slice), [Endurance](ref/feat/endurance), [Skill Focus](ref/feat/skill-focus) (Stealth), [Two-Weapon Fighting](ref/feat/two-weapon-fighting), [Weapon Focus](ref/feat/weapon-focus) (sawtooth sabre)
+Skills: Acrobatics +6, Bluff +3, Climb +8, Disguise +3, Intimidate +6, Perception +8, Stealth +12, Survival +8, Swim +8
+Languages: Common, Kelish
+SQ: [favored terrain](ref/ability/favored-terrain) (urban +2), hunter's bond (companions), track +2, [wild empathy](ref/ability/wild-empathy) +3
+Combat Gear: [dust of tracelessness](ref/magic-wondrous/dust-of-tracelessness), [elixirs of hiding](ref/magic-wondrous/elixir-of-hiding) (2), potion of [cure light wounds](ref/spell/cure-light-wounds), potion of [invisibility](ref/spell/invisibility), [black adder venom](ref/eq-poison/black-adder-venom) (1 dose), [smokesticks](ref/eq-misc/smokestick) (2)
+Other Gear: mwk [studded leather](ref/eq-armor/studded-leather), mwk [daggers](ref/eq-weapon/dagger) (2), mwk [sawtooth sabre](ref/eq-weapon/sawtooth-sabre), [wooden unholy symbol](ref/eq-misc/wooden-holy-symbol) of Achaekek, 25 gp
+:::
 
 ### Description
 

@@ -17,46 +17,60 @@ cr = "3"
 
 _This beefy human brawler has the bearing of a thug._
 
-**Challenge rating:** 3
-
-**XP** 800\
 Human [brawler](ref/class/brawler) 4\
-NE Medium humanoid (human)\
-**Init** +1; **Senses** Perception +5
+NE Medium humanoid (human)
+
+::: statblock
+Challenge rating: 3
+XP: 800
+Init: +1
+Senses: Perception +5
+:::
 
 ### Defense
 
-**AC** 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)\
-**hp** 33 (4d10+11)\
-**Fort** +7, **Ref** +6, **Will** +3
+::: statblock
+AC: 15, touch 11, flat-footed 14 (+4 armor, +1 Dex)
+hp: 33 (4d10+11)
+Fort: +7
+Ref: +6
+Will: +3
+:::
 
 ### Offense
 
-**Speed** 30 ft.\
-**Melee** mwk longspear +9 (1d8+6/×3) or handaxe +8 (1d6+4/×3) or unarmed strike +8 (1d8+4)\
-**Ranged** javelin +5 (1d6+4)\
-**Special Attacks** knockout (DC 16) 1/day, martial flexibility 5/day
+::: statblock
+Speed: 30 ft.
+Melee: mwk longspear +9 (1d8+6/×3) or handaxe +8 (1d6+4/×3) or unarmed strike +8 (1d8+4)
+Ranged: javelin +5 (1d6+4)
+Special Attacks: knockout (DC 16) 1/day, martial flexibility 5/day
+:::
 
 ### Statistics
 
-**Str** 18, **Dex** 13, **Con** 14, **Int** 8, **Wis** 12, **Cha** 10\
-**Base Atk** +4; **CMB** +8 (+9 trip); **CMD** 19 (20 vs. trip)\
-**Feats** [Combat Expertise](ref/feat/combat-expertise), [Enforcer](ref/feat/enforcer),
-[Improved Unarmed Strike](ref/feat/improved-unarmed-strike),
-[Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack)\
-**Skills** Acrobatics +7, Climb +7, Intimidate +11, Perception +5, Profession (woodcutter) +5, Ride
-+4, Sense Motive +5, Stealth +4, Swim +7\
-**Languages** Common\
-**SQ** brawler's cunning, martial training
+::: statblock
+Str: 18
+Dex: 13
+Con: 14
+Int: 8
+Wis: 12
+Cha: 10
+Base Atk: +4
+CMB: +8 (+9 trip)
+CMD: 19 (20 vs. trip)
+Feats: [Combat Expertise](ref/feat/combat-expertise), [Enforcer](ref/feat/enforcer), [Improved Unarmed Strike](ref/feat/improved-unarmed-strike), [Intimidating Prowess](ref/feat/intimidating-prowess), [Power Attack](ref/feat/power-attack)
+Skills: Acrobatics +7, Climb +7, Intimidate +11, Perception +5, Profession (woodcutter) +5, Ride +4, Sense Motive +5, Stealth +4, Swim +7
+Languages: Common
+SQ: brawler's cunning, martial training
+:::
 
 ### Ecology
 
-**Environment** any forest or urban (especially Darkmoon Vale)\
-**Organization** solitary, pair, or gang (3-12)\
-**Treasure** [NPC gear](ref/rule/step-1-determine-treasure-budget) (mwk
-[chain shirt](ref/eq-armor/chain-shirt), mwk [longspear](ref/eq-weapon/longspear),
-[handaxe](ref/eq-weapon/handaxe), [javelins](ref/eq-weapon/javelin) (3),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), other treasure)
+::: statblock
+Environment: any forest or urban (especially Darkmoon Vale)
+Organization: solitary, pair, or gang (3-12)
+Treasure: [NPC gear](ref/rule/step-1-determine-treasure-budget) (mwk [chain shirt](ref/eq-armor/chain-shirt), mwk [longspear](ref/eq-weapon/longspear), [handaxe](ref/eq-weapon/handaxe), [javelins](ref/eq-weapon/javelin) (3), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), other treasure)
+:::
 
 ### Description
 

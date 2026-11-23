@@ -15,24 +15,33 @@ kind = "creature"
 cr = "8"
 +++
 
-**Challenge rating:** 8
-
-**XP** 4,800\
 Human [aristocrat](ref/npcclass/aristocrat) 10\
-N Medium humanoid (human)\
-**Init** +0; **Senses** Perception +10
+N Medium humanoid (human)
+
+::: statblock
+Challenge rating: 8
+XP: 4,800
+Init: +0
+Senses: Perception +10
+:::
 
 ### Defense
 
-**AC** 18, touch 11, flat-footed 18 (+7 armor, +1 deflection)\
-**hp** 50 (10d8+5)\
-**Fort** +6, **Ref** +4, **Will** +10
+::: statblock
+AC: 18, touch 11, flat-footed 18 (+7 armor, +1 deflection)
+hp: 50 (10d8+5)
+Fort: +6
+Ref: +4
+Will: +10
+:::
 
 ### Offense
 
-**Speed** 20 ft.\
-**Melee** mwk longsword +8/+3 (1d8-1/19-20) or light mace +6/+1 (1d6-1)\
-**Ranged** mwk dagger +8/+3 (1d4-1/19-20)
+::: statblock
+Speed: 20 ft.
+Melee: mwk longsword +8/+3 (1d8-1/19-20) or light mace +6/+1 (1d6-1)
+Ranged: mwk dagger +8/+3 (1d4-1/19-20)
+:::
 
 ### Tactics
 
@@ -44,23 +53,22 @@ and tries to flee.
 
 ### Statistics
 
-**Str** 8, **Dex** 11, **Con** 10, **Int** 14, **Wis** 10, **Cha** 14\
-**Base Atk** +7; **CMB** +6; **CMD** 17\
-**Feats** [Alertness](ref/feat/alertness), [Great Fortitude](ref/feat/great-fortitude),
-[Iron Will](ref/feat/iron-will), [Persuasive](ref/feat/persuasive),
-[Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (longsword)\
-**Skills** Bluff +10, Diplomacy +19, Intimidate +12, Knowledge (geography, history) +10, Knowledge
-(local) +6, Knowledge (nobility) +15, Knowledge (religion) +8, Linguistics +9, Perception +10,
-Perform (dance) +6, Perform (oratory) +10, Ride +6, Sense Motive +17\
-**Languages** Common, Dwarven, Elven, Giant, Gnome, Halfling, Sylvan\
-**Combat Gear** potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of
-[delay poison](ref/spell/delay-poison); **Other Gear** +1 [glamered](ref/magic-enh/glamered)
-[breastplate](ref/eq-armor/breastplate), masterwork [dagger](ref/eq-weapon/dagger), masterwork
-[longsword](ref/eq-weapon/longsword),
-[cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1),
-[ring of protection +1](ref/magic-ring/ring-of-protection-1),
-[royal outfit](ref/eq-misc/royal-outfit), crown (worth 500 gp), royal scepter (worth 250 gp, as
-light mace in combat), royal seal (worth 150 gp), 233 gp
+::: statblock
+Str: 8
+Dex: 11
+Con: 10
+Int: 14
+Wis: 10
+Cha: 14
+Base Atk: +7
+CMB: +6
+CMD: 17
+Feats: [Alertness](ref/feat/alertness), [Great Fortitude](ref/feat/great-fortitude), [Iron Will](ref/feat/iron-will), [Persuasive](ref/feat/persuasive), [Vital Strike](ref/feat/vital-strike), [Weapon Focus](ref/feat/weapon-focus) (longsword)
+Skills: Bluff +10, Diplomacy +19, Intimidate +12, Knowledge (geography, history) +10, Knowledge (local) +6, Knowledge (nobility) +15, Knowledge (religion) +8, Linguistics +9, Perception +10, Perform (dance) +6, Perform (oratory) +10, Ride +6, Sense Motive +17
+Languages: Common, Dwarven, Elven, Giant, Gnome, Halfling, Sylvan
+Combat Gear: potion of [cure serious wounds](ref/spell/cure-serious-wounds), potion of [delay poison](ref/spell/delay-poison)
+Other Gear: +1 [glamered](ref/magic-enh/glamered) [breastplate](ref/eq-armor/breastplate), masterwork [dagger](ref/eq-weapon/dagger), masterwork [longsword](ref/eq-weapon/longsword), [cloak of resistance +1](ref/magic-wondrous/cloak-of-resistance-1), [ring of protection +1](ref/magic-ring/ring-of-protection-1), [royal outfit](ref/eq-misc/royal-outfit), crown (worth 500 gp), royal scepter (worth 250 gp, as light mace in combat), royal seal (worth 150 gp), 233 gp
+:::
 
 ### Description
 
