@@ -32,7 +32,11 @@ Usage: 1 charge/minute
 
 ### Construction
 
-**Craft DC** 27; **Cost** 3,200 gp\
+::: statblock
+Craft DC: 27
+Cost: 3,200 gp
+:::
+
 [Craft Technological Arms and Armor](ref/feat/craft-technological-arms-and-armor),
 [graviton lab](ref/rule/crafting-laboratories)
 

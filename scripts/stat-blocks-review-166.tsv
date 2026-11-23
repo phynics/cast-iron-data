@@ -277,28 +277,6 @@ entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Wat
 entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/winter-witch-baroness.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
 entries/npc/winter-witch-cold-sister.md	npc	print-fix	Spell-Like Abilities concentration: `+7`; the import left `+7s` (Irrisen, Land of Eternal Winter p. 62)
-entries/tech-armor/chameleon-suit.md	item	construction-unlabelled	
-entries/tech-armor/deep-diving-suit.md	item	construction-unlabelled	
-entries/tech-armor/gravity-suit.md	item	construction-unlabelled	
-entries/tech-armor/hard-light-shield.md	item	construction-unlabelled	
-entries/tech-armor/heavy-weapon-harness.md	item	construction-unlabelled	
-entries/tech-armor/hev-suit.md	item	construction-unlabelled	
-entries/tech-armor/inssuit.md	item	construction-unlabelled	
-entries/tech-armor/nanite-ablative-armor.md	item	construction-unlabelled	
-entries/tech-armor/neraplast-armor.md	item	construction-unlabelled	
-entries/tech-armor/panic-suit.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-black.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-blue.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-brown.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-gray.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-green.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-orange.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-prismatic.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-red.md	item	construction-unlabelled	
-entries/tech-armor/scatterlight-suit-white.md	item	construction-unlabelled	
-entries/tech-armor/smart-armor-compact-form.md	item	construction-unlabelled	
-entries/tech-armor/smart-armor-expanded-form.md	item	construction-unlabelled	
-entries/tech-armor/spacesuit.md	item	construction-unlabelled	
 entries/tech-artifact/fission-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/fusion-reactor.md	item	linked-label	[Hardness](ref/umr/hardness)
 entries/tech-artifact/geothermal-generator.md	item	linked-label	[Hardness](ref/umr/hardness)
