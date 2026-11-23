@@ -116,8 +116,8 @@ N4  Rows. A line `**Label** value` becomes the row `Label: value`. A line with s
     (`Will: +5; +2 vs. enchantments`). The lead block is `Challenge rating` and the lead rows; each
     section gets one untitled block.
 N5  Spell lists. A line `**Title** (CL 6th; concentration +9)` followed by level lines opens a
-    stat block with that title, as the monster spell blocks have. Its first rows are `CL: 6th` and
-    `concentration: +9`: the parentheses and the `;` go. Each level line `_3rd_-fly, haste` becomes
+    stat block with that title, as the monster spell blocks have. Its first rows are the caster
+    level and the concentration (N8): the parentheses and the `;` go. Each level line `_3rd_-fly, haste` becomes
     the row `3rd: fly, haste`: the emphasis markers and the dash go. The rows after the level lines
     (`Bloodline`, `Domains`, `Opposition Schools`) stay in that block, as in monsters (C8). A
     header with any other part (`arcane spell failure 10%`, `conc. +5`) is queued.
@@ -127,10 +127,16 @@ N7  Queue. Anything else queues the whole file, unchanged: an unlabelled line ou
     `Aura …` line after `Init`), two labels with no `;` between them, a `,` before another label,
     a level line outside a spell list, prose, a quote or a list in a statistics section, a
     section printed twice, a value with an edge escape.
+N8  Spell block labels (owner ruling of 2026-11-23). The two header rows take the labels of the
+    monster spell blocks: `CL 6th` becomes `Caster level: 6th` and `concentration +9` becomes
+    `Concentration: +9`. These are the only two labels the pass renames; the values are kept.
+    An NPC that was converted before this rule (rows `CL:` and `concentration:` under a block
+    title) is relabelled in place: `--write` reports it as `relabelled`, after a line-by-line
+    proof that nothing else changed.
 
 The NPC word proof allows exactly the separators N4 to N6 drop, and only inside the statistics:
 the `;` or `,` before a label, the parentheses and `;` of a spell list header, the `_ _-` of a
-level label, and the one link of N6. A row adds the colon after its label. Every other word,
+level label, the one link of N6, and the two renamed labels of N8. A row adds the colon after its label. Every other word,
 spell name, count and number must be found again, in order; the unlabelled lead lines are checked
 as moved. `npc_proof_words` does this reading on its own, apart from the converter.
 
@@ -392,8 +398,9 @@ def render_block(title: str | None, rows: list[tuple[str, list[str]]]) -> str:
     return "\n".join(out)
 
 
-def words(text: str, drop_line: str | None = None) -> list[str]:
-    """The words of a body with the markup this pass adds or removes taken out."""
+def words(text: str, drop_line: str | None = None, keep_bold: bool = False) -> list[str]:
+    """The words of a body with the markup this pass adds or removes taken out. The creature pass
+    turns bold labels into rows, so it drops `**`; the NPC proof reads labels itself and keeps it."""
     out: list[str] = []
     dropped = drop_line is None
     in_block = False
@@ -419,7 +426,7 @@ def words(text: str, drop_line: str | None = None) -> list[str]:
                 line = line[2:]
         if line.endswith("\\") and not line.endswith("\\\\"):
             line = line[:-1]
-        out.extend(line.replace("**", "").split())
+        out.extend((line if keep_bold else line.replace("**", "")).split())
     return out
 
 
@@ -677,6 +684,8 @@ NPC_LABEL = re.compile(r"\*\*([^*]+)\*\*")
 NPC_LEVEL = re.compile(r"_([^_]+)_-(.+)", re.S)
 NPC_HEADER = re.compile(r"\*\*([^*]+)\*\* \(([^()]*)\)")
 NPC_HEADER_PART = re.compile(r"(CL|concentration) (\S+)")
+# N8: the header parts take the labels of the monster spell blocks.
+NPC_HEADER_LABELS = {"CL": "Caster level", "concentration": "Concentration"}
 # The labels that print after a comma, not a semicolon: `**Fort** +3, **Ref** +4, **Will** +5`.
 NPC_COMMA_LABELS = ("Ref", "Will", "Dex", "Con", "Int", "Wis", "Cha", "Reach")
 NPC_LINKED_LABELS = {"[Spell-Like Abilities](ref/umr/spell-like-abilities)": "Spell-Like Abilities"}
@@ -728,8 +737,47 @@ def classify_npc(body: str) -> str:
     if count == 1:
         return "paragraphs"
     if count == 0 and re.search(r"^::: statblock\nChallenge rating:", body, re.M):
-        return "already"
+        return "old-labels" if relabel_npc(body) != body else "already"
     raise Queue("challenge-rating-lines", str(count))
+
+
+OLD_HEADER_ROWS = (("CL: ", "Caster level: "), ("concentration: ", "Concentration: "))
+
+
+def relabel_npc(body: str) -> str:
+    """N8 for an NPC that was converted with the labels `CL` and `concentration`: the two rows
+    that open a titled block take the monster labels. Nothing else is read or changed."""
+    lines = body.split("\n")
+    for index, line in enumerate(lines):
+        if not (line.startswith('title = "') and index and lines[index - 1] == "::: statblock"):
+            continue
+        for offset, (old, new) in enumerate(OLD_HEADER_ROWS, start=1):
+            if index + offset < len(lines) and lines[index + offset].startswith(old):
+                lines[index + offset] = new + lines[index + offset][len(old):]
+            else:
+                break
+    new_body = "\n".join(lines)
+    prove_relabel(body, new_body)
+    return new_body
+
+
+def prove_relabel(body: str, new_body: str) -> None:
+    """Line by line: only a `CL: x` or `concentration: x` row changed, only into its new label with
+    the same value, and only as the first or second row under a block title."""
+    old_lines, new_lines = body.split("\n"), new_body.split("\n")
+    if len(old_lines) != len(new_lines):
+        raise ProofFailed("the relabel changed the number of lines")
+    for index, (old_line, new_line) in enumerate(zip(old_lines, new_lines)):
+        if old_line == new_line:
+            continue
+        allowed = False
+        for offset, (old, new) in enumerate(OLD_HEADER_ROWS, start=1):
+            under_title = index >= offset + 1 and old_lines[index - offset].startswith('title = "')
+            under_title = under_title and old_lines[index - offset - 1] == "::: statblock"
+            if under_title and old_line.startswith(old) and new_line == new + old_line[len(old):]:
+                allowed = True
+        if not allowed:
+            raise ProofFailed(f"the relabel changed line {index + 1}: {old_line!r}")
 
 
 def convert_npc(body: str) -> str:
@@ -810,8 +858,8 @@ def convert_npc(body: str) -> str:
                         named = NPC_HEADER_PART.fullmatch(piece)
                         if named is None:
                             raise Queue("spell-header", flat[:60])
-                        add(named.group(1), npc_value(named.group(1), named.group(2)))
-                    if [label for label, _ in block[1]][:1] != ["CL"] or len(block[1]) > 2:
+                        add(NPC_HEADER_LABELS[named.group(1)], npc_value(named.group(1), named.group(2)))
+                    if [label for label, _ in block[1]][:1] != ["Caster level"] or len(block[1]) > 2:
                         raise Queue("spell-header", flat[:60])
                     spell_rows = True
                     continue
@@ -854,7 +902,7 @@ def npc_proof_words(body: str) -> list[str]:
     In the lead and in the Defense, Offense, Statistics and Ecology sections only:
     - a bold label loses the `;` or `,` before it and gains the colon of a row;
     - a spell list header `**Title** (CL 6th; concentration +9)` loses its parentheses and the `;`,
-      and `CL` and `concentration` gain the colon of a row;
+      and exactly `CL` becomes `Caster level:` and `concentration` becomes `Concentration:` (N8);
     - a spell level label `_3rd_-` loses its emphasis markers and its dash for the colon of a row;
     - the linked label `[Spell-Like Abilities](…)` loses its link.
     Nothing else is touched: every other character of every word must be found again.
@@ -865,10 +913,10 @@ def npc_proof_words(body: str) -> list[str]:
         text = "\n".join(chunk)
         if HEADING.match(chunk[0]):
             zone = chunk[0] in NPC_SECTIONS
-            out.extend(words(text))
+            out.extend(words(text, keep_bold=True))
             continue
         if not zone or not text.startswith("**"):
-            out.extend(words(text))
+            out.extend(words(text, keep_bold=True))
             continue
         segments = text.split("\\\n")
         for position, segment in enumerate(segments):
@@ -877,10 +925,13 @@ def npc_proof_words(body: str) -> list[str]:
                 flat = flat.replace("**" + linked + "**", "**" + plain + "**")
             header = re.fullmatch(r"\*\*([^*]+)\*\* \(([^()]*)\)", flat)
             if header and position + 1 < len(segments) and segments[position + 1].startswith("_"):
-                pieces = [re.sub(r"^(\S+) ", r"\1: ", piece) for piece in header.group(2).split("; ")]
+                pieces = [
+                    re.sub(r"^(CL|concentration) ", lambda name: NPC_HEADER_LABELS[name.group(1)] + ": ", piece)
+                    for piece in header.group(2).split("; ")
+                ]
                 flat = header.group(1) + " " + " ".join(pieces)
             elif flat.startswith("_"):
-                flat = re.sub(r"^_([^_]+)_-", r"\1: ", flat).replace("**", "")  # bold in a value stays
+                flat = re.sub(r"^_([^_]+)_-", r"\1: ", flat)  # bold in a value stays, and is compared
             else:
                 flat = re.sub(r"[;,]?\s*\*\*([^*]+?):?\*\*", r" \1:", flat)
             out.extend(flat.split())
@@ -890,8 +941,8 @@ def npc_proof_words(body: str) -> list[str]:
 def prove_npc(body: str, new_body: str, moved: str | None) -> None:
     expected = npc_proof_words(body)
     if moved is not None:
-        expected = move_run(expected, words(moved), ["Challenge", "rating:"])
-    actual = words(new_body)
+        expected = move_run(expected, words(moved, keep_bold=True), ["Challenge", "rating:"])
+    actual = words(new_body, keep_bold=True)
     if expected != actual:
         at = next((i for i, (a, b) in enumerate(zip(expected, actual)) if a != b), min(len(expected), len(actual)))
         raise ProofFailed(f"words differ at {at}: {expected[at:at + 6]} / {actual[at:at + 6]}")
@@ -943,8 +994,11 @@ def plan_file(text: str, name: str = "creature") -> tuple[str, str, str]:
         return "skipped", "", text
     try:
         classify, convert = (classify_npc, convert_npc) if name == "npc" else (classify_monster, convert_monster)
-        if classify(body) == "already":
+        state = classify(body)
+        if state == "already":
             return "already", "", text
+        if state == "old-labels":
+            return "relabelled", "", front + relabel_npc(body)
         new_body = convert(body)
     except Queue as queued:
         return "queue:" + queued.reason, queued.detail, text
@@ -1026,7 +1080,7 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
             text = path.read_text(encoding="utf-8")
             status, detail, new_text = plan_file(text, name)
             counts[(name, status)] += 1
-            if status == "converted":
+            if status in ("converted", "relabelled"):
                 changed += 1
                 if mode == "write":
                     write_atomic(path, new_text)
@@ -1040,6 +1094,8 @@ def run(root: Path, mode: str, passes: list[str], only_value: str | None, out=sy
     verb = {"write": "converted", "check": "would convert", "survey": "would convert"}[mode]
     for (name, status), count in sorted(counts.items()):
         label = verb if status == "converted" else status.replace("queue:", "queued: ")
+        if status == "relabelled" and mode != "write":
+            label = "would relabel"
         print(f"{name}\t{label}\t{count}", file=out)
 
     tsv = "\n".join(review_rows(root, implemented_passes())) + "\n"
@@ -1451,15 +1507,15 @@ Reach: 5 ft. (10 ft. with lance)
 
 ::: statblock
 title = "Spell-Like Abilities"
-CL: 6th
-concentration: +9
+Caster level: 6th
+Concentration: +9
 6/day: dehydrating touch
 :::
 
 ::: statblock
 title = "Wizard Spells Prepared"
-CL: 6th
-concentration: +9
+Caster level: 6th
+Concentration: +9
 3rd: [dispel magic](ref/spell/dispel-magic), fly, **[haste](ref/spell/haste)**, [fireball](ref/spell/fireball) (2) (DC 17)
 0 (at will): light^D^
 D: Domain spell
@@ -1542,7 +1598,13 @@ class NpcSelfTest(unittest.TestCase):
         broken = [
             NPC_EXPECTED.replace("fly, ", ""),  # a spell name lost
             NPC_EXPECTED.replace("(2) (DC 17)", "(DC 17)"),  # a count lost
-            NPC_EXPECTED.replace("CL: 6th\nconcentration: +9\n3rd", "CL: 6th\nconcentration: +8\n3rd"),  # a number changed
+            NPC_EXPECTED.replace("Concentration: +9\n3rd", "Concentration: +8\n3rd"),  # a number changed
+            NPC_EXPECTED.replace("Caster level: 6th\nConcentration: +9\n3rd", "Caster level: 5th\nConcentration: +9\n3rd"),
+            NPC_EXPECTED.replace("Caster level: 6th\nConcentration: +9\n3rd", "CL: 6th\nconcentration: +9\n3rd"),  # N8 not applied
+            NPC_EXPECTED.replace("Caster level: 6th\nConcentration: +9\n3rd", "Level: 6th\nConcentration: +9\n3rd"),  # another label
+            NPC_EXPECTED.replace("**[haste](ref/spell/haste)**", "[haste](ref/spell/haste)"),  # bold lost in a level row
+            NPC_EXPECTED.replace("**[haste](ref/spell/haste)**", "**[haste](ref/spell/haste)"),
+            NPC_EXPECTED.replace("fly, ", "**fly**, "),  # bold added in a level row
             NPC_EXPECTED.replace("6/day: dehydrating", "5/day: dehydrating"),
             NPC_EXPECTED.replace("Will: +5; +2 vs. enchantments", "Will: +5"),
             NPC_EXPECTED.replace("Fort: +3", "Fort: +3,"),  # a separator kept inside a value
@@ -1559,6 +1621,28 @@ class NpcSelfTest(unittest.TestCase):
                     prove_npc(NPC_SAMPLE, text, moved)
         with self.assertRaises(ProofFailed):  # the unlabelled lines left where they were
             prove_npc(NPC_SAMPLE, NPC_EXPECTED, None)
+
+    def test_an_npc_with_the_old_header_labels_is_relabelled_and_nothing_else(self):
+        old = NPC_EXPECTED.replace("Caster level: 6th\nConcentration: +9", "CL: 6th\nconcentration: +9")
+        # Rows with the same labels that do not open a titled block stay.
+        old = old.replace("Speed: 30 ft.\n", "CL: 3rd\nconcentration: +1\nSpeed: 30 ft.\n").replace("D: Domain spell", "CL: stays")
+        expected = old.replace("CL: 6th\nconcentration: +9", "Caster level: 6th\nConcentration: +9")
+        self.assertEqual(old.count("CL: 6th"), 2)
+        self.assertEqual(classify_npc(old), "old-labels")
+        self.assertEqual(plan_file(FRONT + old, "npc"), ("relabelled", "", FRONT + expected))
+        self.assertEqual(plan_file(FRONT + expected, "npc")[0], "already")
+        self.assertEqual(plan_file(FRONT + NPC_EXPECTED, "npc")[0], "already")
+        prove_relabel(old, expected)
+        for broken in (
+            expected.replace("Caster level: 6th", "Caster level: 7th", 1),
+            expected.replace("Concentration: +9", "Concentration: +8", 1),
+            expected.replace("CL: 3rd", "Caster level: 3rd"),
+            expected.replace("CL: stays", "Caster level: stays"),
+            expected.replace("fly, ", ""),
+            expected + "\n",
+        ):
+            with self.assertRaises(ProofFailed):
+                prove_relabel(old, broken)
 
 if __name__ == "__main__":
     sys.exit(main(sys.argv[1:]))
