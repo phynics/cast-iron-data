@@ -19,10 +19,16 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Cost** 200 gp **Weight** 45 lbs.\
-**Armor Bonus** +7; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
-**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 200 gp
+Weight: 45 lbs.
+Armor Bonus: +7
+Max Dex Bonus: +0
+Armor Check Penalty: -7
+Arcane Spell Failure Chance: 40%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 Splint mail is made up of overlapping layers of metal strips attached to a backing of leather or
 sturdy fabric. These splints are of greater size and durability than those that compose a suit of

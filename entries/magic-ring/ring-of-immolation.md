@@ -24,8 +24,13 @@ aura = "moderate evocation (fire)"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation (fire); **CL** 10th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation (fire)
+CL: 10th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 A ring of immolation is made of pumice and hardened ash but is as strong as metal. As a free action,
 the wearer can activate the ring to create a _[fire shield](ref/spell/fire-shield)_ (warm) on
@@ -37,5 +42,7 @@ _[fire shield](ref/spell/fire-shield)._
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [fire shield](ref/spell/fire-shield); **Cost**
-6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [fire shield](ref/spell/fire-shield)
+Cost: 6,000 gp
+:::

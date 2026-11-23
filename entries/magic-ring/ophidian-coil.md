@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 This small wooden ring resembles a serpent with tiny gemstone eyes coiling around the wearer's
 finger. If worn for 24 hours, it causes its wearer to manifest many serpentine traits. The wearer's
@@ -48,5 +53,7 @@ the wearer is successfully affected by a spell with the cold descriptor, she is
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [beast shape I](ref/spell/beast-shape-1),
-[poison](ref/spell/poison); **Cost** 7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [beast shape I](ref/spell/beast-shape-1), [poison](ref/spell/poison)
+Cost: 7,500 gp
+:::

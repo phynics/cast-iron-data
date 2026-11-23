@@ -21,8 +21,13 @@ aura = "strong enchantment"
 caster_level = "12th"
 +++
 
-**Aura** strong enchantment; **CL** 12th\
-**Slot** ring; **Price** 14,000 gp; **Weight** -
+::: statblock
+Aura: strong enchantment
+CL: 12th
+Slot: ring
+Price: 14,000 gp
+Weight: -
+:::
 
 This garish signet ring is worth 1,500 gp for its materials and workmanship alone. Like the user of
 a [rod of rulership](ref/magic-rod/rod-of-rulership), the ring's wearer can command the fealty of
@@ -53,5 +58,7 @@ ring's wearer must first release one of the three ruled creatures.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [mass suggestion](ref/spell/suggestion-mass);
-**Cost** 7,750 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [mass suggestion](ref/spell/suggestion-mass)
+Cost: 7,750 gp
+:::

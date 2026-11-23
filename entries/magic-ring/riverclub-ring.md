@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint conjuration; **CL** 1st\
-**Slot** ring; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 1st
+Slot: ring
+Price: 1,000 gp
+Weight: -
+:::
 
 Popular among Riverfolk who prefer to work their waterway unarmed, this simple bronze band can
 transform into a handy weapon in a pinch. When the wearer of a riverclub ring plunges her hand into
@@ -34,5 +39,7 @@ turns back into a puddle of water again as soon as the wielder loosens her grip 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [icicle dagger](ref/spell/icicle-dagger);
-**Cost** 500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [icicle dagger](ref/spell/icicle-dagger)
+Cost: 500 gp
+:::

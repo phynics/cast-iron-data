@@ -21,8 +21,12 @@ detrimental to lycanthropes, automatically confirming any critical threats again
 firearm that is shooting a silver bullet takes a -1 penalty on damage rolls (with a minimum of 1
 point of damage).
 
-**Cost** 25 gp **Weight** 0.0166 lbs.\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 25 gp
+Weight: 0.0166 lbs.
+Category: Ammunition
+Proficiency: Exotic
+:::
 
 **Note:** Weight is based on 30 regular bullets weighing half a pound; 15 bullets weigh 0.25 lb, and
 3 bullets weigh 0.05 lb.

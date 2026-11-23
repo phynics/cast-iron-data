@@ -19,6 +19,14 @@ weight = "1 lb."
 This [combat scabbard](ref/eq-misc/combat-scabbard) has a sharp blade on the outer edge, allowing
 you to use it as a weapon.
 
-**Cost** 10 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special** see text\
-**Category** One-Handed; **Proficiency** Martial
+::: statblock
+Cost: 10 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: see text
+Category: One-Handed
+Proficiency: Martial
+:::

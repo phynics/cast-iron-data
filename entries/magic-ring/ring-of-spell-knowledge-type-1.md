@@ -23,9 +23,13 @@ caster_level = "7th"
 
 ## Ring of Spell Knowledge
 
-**Aura** moderate or strong (no school); **CL** 7th\
-**Slot** ring; **Price** 1,500 gp (type I), 6,000 gp (type II), 13,500 gp (type III), 24,000 gp
-(type IV); **Weight** -
+::: statblock
+Aura: moderate or strong (no school)
+CL: 7th
+Slot: ring
+Price: 1,500 gp (type I), 6,000 gp (type II), 13,500 gp (type III), 24,000 gp (type IV)
+Weight: -
+:::
 
 This ring comes in four types. All of them are useful only to spontaneous arcane spellcasters.
 Through study, the wearer can gain the knowledge of a single spell in addition to those allotted by
@@ -42,6 +46,7 @@ purposes (storage and casting).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must be able to cast spells of the spell
-level to be granted; **Cost** 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp
-(type IV)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must be able to cast spells of the spell level to be granted
+Cost: 750 gp (type I), 3,000 gp (type II), 6,750 gp (type III), 12,000 gp (type IV)
+:::

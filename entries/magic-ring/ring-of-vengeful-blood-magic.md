@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** ring; **Price** 5,400 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: ring
+Price: 5,400 gp
+Weight: -
+:::
 
 This claw ring is made of red metal tinged with orange, and a long nail made of obsidian extends
 from the tip. It allows its wearer to cast a spell as an attack of opportunity. Three time per day,
@@ -34,5 +39,7 @@ opportunity for the round; casting this spell does not itself provoke an attack 
 
 ### Construction
 
-**Requirements** [Combat Reflexes](ref/feat/combat-reflexes), [Forge Ring](ref/feat/forge-ring),
-[Quicken Spell](ref/feat/quicken-spell); **Cost** 17,500 gp
+::: statblock
+Requirements: [Combat Reflexes](ref/feat/combat-reflexes), [Forge Ring](ref/feat/forge-ring), [Quicken Spell](ref/feat/quicken-spell)
+Cost: 17,500 gp
+:::

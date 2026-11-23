@@ -27,8 +27,15 @@ reliability of such designs. An axe-gauntlet takes a full-round action to don, a
 +10 bonus to your CMD against disarm attempts. You can't use the hand on which an axe-gauntlet is
 worn for anything else.
 
-**Cost** 16 gp **Weight** 5 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[blocking](ref/misc/blocking), [disarm](ref/misc/disarm)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Close
+::: statblock
+Cost: 16 gp
+Weight: 5 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [blocking](ref/misc/blocking), [disarm](ref/misc/disarm)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Close](ref/ability/weapon-groups#sec-close)
+:::

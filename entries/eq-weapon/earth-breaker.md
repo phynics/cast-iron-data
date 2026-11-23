@@ -39,7 +39,15 @@ the force of a powerful swing down into a smaller, more focused area, allowing i
 armor with greater ease. Due to the tremendous size and weight of its head, an earth breaker is
 poorly balanced, and requires two hands to properly lift and control.
 
-**Cost** 40 gp **Weight** 14 lbs.\
-**Damage** 1d10 (small), 2d6 (medium); **Critical** ×3; **Range** -; **Type** B; **Special** -\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 40 gp
+Weight: 14 lbs.
+Damage: 1d10 (small), 2d6 (medium)
+Critical: ×3
+Range: -
+Type: B
+Special: -
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

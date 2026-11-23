@@ -20,7 +20,14 @@ This crossbow shoots ammunition called bolas bolts instead of crossbow bolts. It
 and [heavy](ref/eq-weapon/heavy-slavers-crossbow) varieties (but not double, hand, or repeating
 crossbow varieties) with the same reload action as a conventional crossbow of its type.
 
-**Cost** 250 gp **Weight** 6 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/see "bolas bolts" text; **Range** 40 ft.;
-**Type** B; **Special** [nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip), see text\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 250 gp
+Weight: 6 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/see "bolas bolts" text
+Range: 40 ft.
+Type: B
+Special: [nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip), see text
+Category: Ranged
+Proficiency: Exotic
+:::

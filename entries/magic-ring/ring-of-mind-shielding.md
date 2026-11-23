@@ -24,8 +24,13 @@ aura = "faint abjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint abjuration; **CL** 3rd\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 3rd
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 This ring is usually of fine workmanship and wrought from heavy gold. The wearer is continually
 immune to [detect thoughts](ref/spell/detect-thoughts), [discern lies](ref/spell/discern-lies), and
@@ -33,5 +38,7 @@ any attempt to magically discern her alignment.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [nondetection](ref/spell/nondetection); **Cost**
-4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [nondetection](ref/spell/nondetection)
+Cost: 4,000 gp
+:::

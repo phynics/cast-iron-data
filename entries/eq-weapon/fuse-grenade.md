@@ -20,8 +20,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This hollow clay container holds a small charge of black powder and a slow-burning fuse. Lighting
 the fuse is a move action; 1d3 rounds later the grenade explodes, dealing 2d6 points of bludgeoning

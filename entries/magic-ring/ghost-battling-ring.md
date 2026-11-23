@@ -21,8 +21,13 @@ aura = "faint illusion, necromancy, and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint illusion, necromancy, and transmutation; **CL** 5th\
-**Slot** ring; **Price** 13,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion, necromancy, and transmutation
+CL: 5th
+Slot: ring
+Price: 13,000 gp
+Weight: -
+:::
 
 This silver ring is engraved with a skull flanked by twin hourglasses. It functions as a
 [ring of the grasping grave](ref/magic-ring/ring-of-the-grasping-grave). In addition, the wearer can
@@ -31,5 +36,7 @@ day.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [ghostly disguise](ref/spell/ghostly-disguise),
-[haste](ref/spell/haste), [sculpt corpse](ref/spell/sculpt-corpse); **Cost** 6,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [ghostly disguise](ref/spell/ghostly-disguise), [haste](ref/spell/haste), [sculpt corpse](ref/spell/sculpt-corpse)
+Cost: 6,500 gp
+:::

@@ -19,9 +19,14 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Cost** 7 gp **Weight** 10 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 15%
+::: statblock
+Cost: 7 gp
+Weight: 10 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 15%
+:::
 
 A heavy wooden shield is essentially the same as a
 [heavy steel shield](ref/eq-armor/heavy-steel-shield), except that it responds differently to some

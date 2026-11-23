@@ -22,8 +22,15 @@ successful [sneak attack](ref/ability/sneak-attack) with a drow razor deals an a
 of damage; this damage is precision damage and is not multiplied on a critical hit. A character with
 the drow's weapon familiarity racial trait treats the drow razor as a martial weapon.
 
-**Cost** 25 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special**
-see text\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 25 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: see text
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

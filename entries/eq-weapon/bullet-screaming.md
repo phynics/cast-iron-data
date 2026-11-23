@@ -20,5 +20,9 @@ This ammunition makes a piercing scream when fired. If fired as part of an Intim
 imparts a +5 bonus on the check. If used with the [startling shot](ref/deed/startling-shot) deed,
 the target is [flat-footed](ref/rule/flat-footed) for an additional round.
 
-**Cost** 20 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 20 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

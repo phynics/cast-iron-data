@@ -24,8 +24,13 @@ aura = "faint enchantment and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint enchantment and transmutation; **CL** 5th\
-**Slot** ring; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment and transmutation
+CL: 5th
+Slot: ring
+Price: 3,000 gp
+Weight: -
+:::
 
 This simple gold band is engraved with the holy symbol of [Iomedae](ref/faith/iomedae). It functions
 as a [ring of protection +1](ref/magic-ring/ring-of-protection-1). In addition, the wearer can cast
@@ -35,6 +40,7 @@ _[prestidigitation](ref/spell/prestidigitation)_ to clean up his clothing, skin,
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [bless weapon](ref/spell/bless-weapon),
-[prestidigitation](ref/spell/prestidigitation), [shield of faith](ref/spell/shield-of-faith),
-[wartrain mount](ref/spell/wartrain-mount), creator must be at least 3rd level; **Cost** 1,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [bless weapon](ref/spell/bless-weapon), [prestidigitation](ref/spell/prestidigitation), [shield of faith](ref/spell/shield-of-faith), [wartrain mount](ref/spell/wartrain-mount), creator must be at least 3rd level
+Cost: 1,500 gp
+:::

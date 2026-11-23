@@ -23,7 +23,11 @@ These arrows have rounded wooden tips that deal bludgeoning damage rather than p
 can use a blunt arrow to deal nonlethal damage (at the normal -4 attack penalty for using a lethal
 weapon to deal nonlethal damage).
 
-**Cost** 0.1 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

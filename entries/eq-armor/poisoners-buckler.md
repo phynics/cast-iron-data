@@ -16,9 +16,14 @@ category = "Armor"
 weight = "3 lbs."
 +++
 
-**Cost** 1,505 gp **Weight** 3 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** —\
-**Arcane Spell Failure Chance** —%
+::: statblock
+Cost: 1,505 gp
+Weight: 3 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: —
+Arcane Spell Failure Chance: —%
+:::
 
 Half-drow make these bucklers to allow for quick application of exactly the right poison in the
 middle of combat. This [mithral](ref/eq-material/mithral) [buckler](ref/eq-armor/buckler) is painted

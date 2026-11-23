@@ -32,7 +32,15 @@ sling, but stones are not as dense or as round as bullets. Thus, such an attack 
 the weapon were designed for a creature [one size category smaller](ref/misc/damage-die-adjustments)
 than you and you take a -1 penalty on attack rolls.
 
-**Cost** - **Weight** -\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 50 ft.; **Type** B; **Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: -
+Weight: -
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

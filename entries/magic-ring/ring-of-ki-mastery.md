@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This ring is half onyx and half clear-white crystal, magically fused together and hardened to the
 strength of steel. It allows a wearer with a ki pool to store up to 2 ki points in the ring as a
@@ -38,5 +43,7 @@ points needed to use a ninja trick or ki ability by 1 (minimum 1 ki point).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [ki leech](ref/spell/ki-leech), the creator must
-be able to use ki; **Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [ki leech](ref/spell/ki-leech), the creator must be able to use ki
+Cost: 5,000 gp
+:::

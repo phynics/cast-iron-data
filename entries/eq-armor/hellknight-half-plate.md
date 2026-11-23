@@ -19,10 +19,16 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Cost** 850 gp **Weight** 50 lbs.\
-**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
-**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 850 gp
+Weight: 50 lbs.
+Armor Bonus: +8
+Max Dex Bonus: +0
+Armor Check Penalty: -7
+Arcane Spell Failure Chance: 40%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 The armor worn by a [Hellknight signifer](ref/pclass/hellknight-signifer) is a vestment of armored
 plates, chain, and dark fabric. It functions as [half-plate](ref/eq-armor/half-plate), but it can be

@@ -22,8 +22,15 @@ weight = "3 lbs."
 The tip of this 3-foot-long, straight-bladed sword is bent into two staggered, opposing sharpened
 spurs that can be used to pull weapons from an opponent's hands.
 
-**Cost** 12 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [monk](ref/misc/monk)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Monk
+::: statblock
+Cost: 12 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [monk](ref/misc/monk)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

@@ -30,8 +30,15 @@ retrieve the aklys after throwing it as a move action. The hook allows you to ma
 [trip](ref/rule/trip) attacks at range. Some aklyses have holes drilled through them and whistle
 when flung.
 
-**Cost** 5 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B; **Special**
-[performance](ref/misc/performance), [trip](ref/misc/trip)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers; Thrown
+::: statblock
+Cost: 5 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B
+Special: [performance](ref/misc/performance), [trip](ref/misc/trip)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

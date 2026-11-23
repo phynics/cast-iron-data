@@ -25,7 +25,11 @@ weight = "0.15 lbs."
 These arrows come with specially designed grooves and fletching that cause them to emit a loud
 keening sound audible within 500 feet of their flight path. They are sold in quantities of 20.
 
-**Cost** 0.1 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

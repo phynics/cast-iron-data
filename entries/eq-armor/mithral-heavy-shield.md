@@ -19,9 +19,14 @@ category = "Armor"
 weight = "5 lbs."
 +++
 
-**Cost** 1,020 gp **Weight** 5 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 1,020 gp
+Weight: 5 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 5%
+:::
 
 This [heavy shield](ref/eq-armor/heavy-steel-shield) is made of [mithral](ref/eq-material/mithral)
 and is thus much lighter than a standard steel shield. It has a 5% arcane spell failure chance and

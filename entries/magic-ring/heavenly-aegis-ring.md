@@ -21,8 +21,13 @@ aura = "moderate evocation [good]"
 caster_level = "10th"
 +++
 
-**Aura** moderate evocation \[good\]; **CL** 10th\
-**Slot** ring; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation \[good\]
+CL: 10th
+Slot: ring
+Price: 16,000 gp
+Weight: -
+:::
 
 The surface of this silver ring never tarnishes, but when an evil creature is wearing it, its luster
 diminishes. Whenever the wearer takes the [total defense](ref/misc/total-defense) action, he can
@@ -41,5 +46,7 @@ The ring's power renews each day at dawn.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [holy smite](ref/spell/holy-smite),
-[magic circle against evil](ref/spell/magic-circle-against-evil); **Cost** 8,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [holy smite](ref/spell/holy-smite), [magic circle against evil](ref/spell/magic-circle-against-evil)
+Cost: 8,000 gp
+:::

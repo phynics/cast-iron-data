@@ -24,8 +24,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** ring; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: ring
+Price: 50,000 gp
+Weight: -
+:::
 
 These curious rings always come in pairs. A ring of friend shield without its mate is useless.
 Either wearer of one of a pair of the rings can, at any time, command his ring to cast a
@@ -34,5 +39,7 @@ This effect has no range limitation.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [shield other](ref/spell/shield-other); **Cost**
-25,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [shield other](ref/spell/shield-other)
+Cost: 25,000 gp
+:::

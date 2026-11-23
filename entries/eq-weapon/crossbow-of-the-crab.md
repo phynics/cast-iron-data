@@ -34,7 +34,15 @@ attacks with the pincers. If a character operates the lever that extends and ret
 and feelers while the crossbow is mounted, the apparatus ejects the crossbow instead, enabling the
 vehicle to make pincer attacks again.
 
-**Cost** 2,500 gp **Weight** 24 lbs.\
-**Damage** 2d8 (large); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 2,500 gp
+Weight: 24 lbs.
+Damage: 2d8 (large)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

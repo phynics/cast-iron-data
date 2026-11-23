@@ -27,7 +27,14 @@ cult uses [blue whinnis](ref/eq-poison/blue-whinnis) poison, and within the radi
 [the dreamstone's](ref/magic-artifact/the-dreamstone) effects the unconsciousness effect may trigger
 lucid dreaming.
 
-**Cost** 15 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special**
-[trip](ref/misc/trip)\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 15 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: [trip](ref/misc/trip)
+Category: Light
+Proficiency: Simple
+:::

@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "-"
 +++
 
-**Price** 1 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 1 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This alchemical flare explodes in black sparks 1 round after lighting. Any creature with
 [darkvision](ref/rule/darkvision) in the same square as a darkflare when it explodes must succeed at

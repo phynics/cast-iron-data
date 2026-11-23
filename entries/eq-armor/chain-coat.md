@@ -16,10 +16,16 @@ category = "Armor"
 weight = "40 lbs."
 +++
 
-**Cost** 75 gp **Weight** 40 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +5; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 75 gp
+Weight: 40 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +5
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 30%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This relatively simple armor consists of heavy chains that wrap around your body and limbs. While it
 weighs more and provides less protection than other medium armors, it is also less of a hindrance.

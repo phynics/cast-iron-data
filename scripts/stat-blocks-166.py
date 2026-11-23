@@ -227,7 +227,7 @@ FRONT_MATTER_END = "\n+++\n"
 
 # The slices already written to the corpus: (pass, --only value or None for the whole pass).
 # `--check` with no scope arguments checks exactly these.
-APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", None)]
+APPLIED: list[tuple[str, str | None]] = [("creature", None), ("npc", None), ("item", "eq-weapon,eq-armor,magic-ring")]
 
 PASS_FOLDERS = {"creature": ("monster",), "npc": ("npc",), "item": ("*",), "fixes": ()}
 PASS_KIND = {"creature": "creature", "npc": "creature", "item": "item"}
@@ -279,6 +279,12 @@ PRINT_FIXES = (
         "Adventurer's Armory 2 p. 10",
         "price: `+1,500 gp`; the field also held the weight",
         (('price = "+1,500 gp **Weight** +1 lb."\n', 'price = "+1,500 gp"\n'),),
+    ),
+    (
+        "entries/npc/winter-witch-cold-sister.md",
+        "Irrisen, Land of Eternal Winter p. 62",
+        "Spell-Like Abilities concentration: `+7`; the import left `+7s`",
+        (("\nConcentration: +7s\n", "\nConcentration: +7\n"),),
     ),
 )
 
@@ -1350,7 +1356,7 @@ def review_rows(root: Path, passes: list[str]) -> list[str]:
     """The review TSV for the whole corpus: the same before and after a conversion."""
     rows = []
     for rel, citation, note, _ in PRINT_FIXES:
-        kind = "creature" if "/monster/" in rel else "item"
+        kind = {"monster": "creature", "npc": "npc"}.get(rel.split("/")[1], "item")
         rows.append((rel, kind, "print-fix", f"{note} ({citation})"))
     for name in passes:
         for path in pass_files(root, name):

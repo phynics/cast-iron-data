@@ -20,8 +20,11 @@ price = "15 gp"
 weight = "0.15 lbs."
 +++
 
-**Price** 15 gp; **Weight** 0.15 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: 0.15 lbs.
+Category: Alchemical Weapons
+:::
 
 The arrowhead of this arrow is coated with potent substances that react to blood and sweat,
 releasing a strong aroma that most predators recognize as the scent of tasty injured prey and other

@@ -19,5 +19,9 @@ weight = "2 lbs."
 An atlatl dart is the equivalent of a [javelin](ref/eq-weapon/javelin) except it has fletching. If
 thrown without an [atlatl](ref/eq-weapon/atlatl), treat it as a javelin.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

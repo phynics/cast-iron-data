@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "9th"
 +++
 
-**Aura** moderate necromancy; **CL** 9th\
-**Slot** ring; **Price** 8,500 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 9th
+Slot: ring
+Price: 8,500 gp
+Weight: -
+:::
 
 This platinum band has a smoky quartz set neatly into it. Once per day, the wearer can speak a
 command word and place the quartz on her skin as a full-round action to siphon a single dose of
@@ -31,5 +36,7 @@ after the wearer has been poisoned.
 
 ### Construction
 
-**Requirements** [Craft Wondrous Item](ref/feat/craft-wondrous-item),
-[absorb toxicity](ref/spell/absorb-toxicity); **Cost** 4,250 gp
+::: statblock
+Requirements: [Craft Wondrous Item](ref/feat/craft-wondrous-item), [absorb toxicity](ref/spell/absorb-toxicity)
+Cost: 4,250 gp
+:::

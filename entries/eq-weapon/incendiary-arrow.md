@@ -23,7 +23,11 @@ of opportunity. Once lit, the arrow burns for 2 rounds. A lit incendiary arrow d
 point of fire damage. On a critical hit, the target must succeed at a DC 15 Reflex save or catch
 fire. Incendiary bolts exist for crossbows.
 
-**Cost** 0.5 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.5 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

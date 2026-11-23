@@ -24,8 +24,15 @@ place of a blade. When you score a critical hit with a quadrens, the resulting g
 point of [bleed](ref/rule/bleed) damage. In addition to punching through hide and armor, the spikes
 can also be used to snag opponents' blades and twist them out of their grips.
 
-**Cost** 8 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** P; **Special**
-[performance](ref/misc/performance)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 8 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P
+Special: [performance](ref/misc/performance)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

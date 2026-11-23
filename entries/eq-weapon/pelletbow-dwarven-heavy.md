@@ -31,8 +31,15 @@ damage or firing bolts) that apply to a [heavy crossbow](ref/eq-weapon/heavy-cro
 a dwarven heavy pelletbow, and those that apply to a light crossbow also apply to a dwarven light
 pelletbow.
 
-**Cost** 75 gp **Weight** 8 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×3; **Range** 60 ft.; **Type** B;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 75 gp
+Weight: 8 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×3
+Range: 60 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

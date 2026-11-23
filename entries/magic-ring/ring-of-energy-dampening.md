@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** ring; **Price** 31,500 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: ring
+Price: 31,500 gp
+Weight: -
+:::
 
 When the wearer is about to take acid, cold, electricity, or fire damage, this band of braided
 copper and silver writhes like a snake. It provides resistance 5 to acid, cold, electricity, and
@@ -33,6 +38,7 @@ energy type damaging him to all allies within 20 feet. This resistance lasts for
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Mythic Crafter](ref/feat/mythic-crafter),
-[protection from energy](ref/spell/protection-from-energy), [shield other](ref/spell/shield-other);
-**Cost** 15,750 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Mythic Crafter](ref/feat/mythic-crafter), [protection from energy](ref/spell/protection-from-energy), [shield other](ref/spell/shield-other)
+Cost: 15,750 gp
+:::

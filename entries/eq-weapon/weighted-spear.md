@@ -20,8 +20,15 @@ This pole has a spear head at one end and a mace head at the other. It can be wi
 standard spear (though it isn't balanced for throwing), or it can be used as a double weapon,
 alternately thrusting and bashing.
 
-**Cost** 10 gp **Weight** 8 lbs.\
-**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** ×3/×2; **Range** -; **Type** B or P;
-**Special** [brace](ref/misc/brace), [double](ref/misc/double)\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Spears
+::: statblock
+Cost: 10 gp
+Weight: 8 lbs.
+Damage: 1d6/1d4 (small), 1d8/1d6 (medium)
+Critical: ×3/×2
+Range: -
+Type: B or P
+Special: [brace](ref/misc/brace), [double](ref/misc/double)
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Spears](ref/ability/weapon-groups#sec-spears)
+:::

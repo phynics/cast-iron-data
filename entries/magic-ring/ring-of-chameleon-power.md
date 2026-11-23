@@ -24,8 +24,13 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** ring; **Price** 12,700 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: ring
+Price: 12,700 gp
+Weight: -
+:::
 
 As a free action, the wearer of this ring can gain the ability to magically blend in with her
 surroundings. This provides a +10 competence bonus on her Stealth checks. As a standard action, she
@@ -33,5 +38,7 @@ can also use the spell _[disguise self](ref/spell/disguise-self)_ as often as sh
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [disguise self](ref/spell/disguise-self),
-[invisibility](ref/spell/invisibility); **Cost** 6,350 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [disguise self](ref/spell/disguise-self), [invisibility](ref/spell/invisibility)
+Cost: 6,350 gp
+:::

@@ -21,8 +21,15 @@ If you are proficient with this weapon, you gain a +4 bonus on any [sunder](ref/
 attempts made against weapons with a wooden haft; otherwise you may use this sword as a
 [bastard sword](ref/eq-weapon/bastard-sword).
 
-**Cost** 50 gp **Weight** 6 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[sunder](ref/misc/sunder)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 50 gp
+Weight: 6 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [sunder](ref/misc/sunder)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 This tarnished copper band sheds its patina when worn by anyone with panache or grit. Whenever the
 wearer regains a panache or grit point through her actions (not just a daily refresh), she can try
@@ -38,5 +43,7 @@ grit point to reroll a save, the ring provides no benefit if she hasn't used any
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [restoration](ref/spell/restoration), creator
-must be a grit or panache user; **Cost** 7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [restoration](ref/spell/restoration), creator must be a grit or panache user
+Cost: 7,500 gp
+:::

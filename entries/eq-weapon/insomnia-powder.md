@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "2 lbs."
 +++
 
-**Price** 60 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This fine white powder is a powerful stimulant that affects the nervous systems of any creatures
 that inhale or ingest it, preventing them from sleeping for 24 hours. A packet of insomnia powder

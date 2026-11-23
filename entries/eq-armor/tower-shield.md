@@ -19,9 +19,14 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Cost** 30 gp **Weight** 45 lbs.\
-**Shield Bonus** +4; **Max Dex Bonus** +2; **Armor Check Penalty** -10\
-**Arcane Spell Failure Chance** 50%
+::: statblock
+Cost: 30 gp
+Weight: 45 lbs.
+Shield Bonus: +4
+Max Dex Bonus: +2
+Armor Check Penalty: -10
+Arcane Spell Failure Chance: 50%
+:::
 
 This massive wooden shield is nearly as tall as its user. In most situations, it provides the
 indicated shield bonus to your AC. As a standard action, however, you can use a tower shield to

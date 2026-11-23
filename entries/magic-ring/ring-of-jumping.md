@@ -24,13 +24,20 @@ aura = "faint transmutation"
 caster_level = "2nd"
 +++
 
-**Aura** faint transmutation; **CL** 2nd\
-**Slot** ring; **Price** 2,500 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 2nd
+Slot: ring
+Price: 2,500 gp
+Weight: -
+:::
 
 This ring continually allows the wearer to leap about, providing a +5 competence bonus on all her
 [Acrobatics](ref/skill/acrobatics) checks made to make high or long jumps.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks in Acrobatics;
-**Cost** 1,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have 5 ranks in Acrobatics
+Cost: 1,250 gp
+:::

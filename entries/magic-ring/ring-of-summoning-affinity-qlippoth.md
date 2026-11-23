@@ -21,8 +21,13 @@ aura = "faint conjuration [chaos, evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[chaos, evil\]; **CL** 5th\
-**Slot** ring; **Price** 8,600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[chaos, evil\]
+CL: 5th
+Slot: ring
+Price: 8,600 gp
+Weight: -
+:::
 
 This ring has an odd, disquieting texture that always reveals greater layers of complexity the more
 closely it is examined. If the wearer can cast _[summon monster](ref/spell/summon-monster)_ spells,
@@ -36,5 +41,7 @@ wearer can use this ring to summon a cythnigot, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be chaotic evil; **Cost** 4,300 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be chaotic evil
+Cost: 4,300 gp
+:::

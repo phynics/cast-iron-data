@@ -19,10 +19,16 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Cost** 16,500 gp **Weight** 50 lbs.\
-**Armor Bonus** +9; **Max Dex Bonus** +1; **Armor Check Penalty** -5\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 16,500 gp
+Weight: 50 lbs.
+Armor Bonus: +9
+Max Dex Bonus: +1
+Armor Check Penalty: -5
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 This full plate is made of [adamantine](ref/eq-material/adamantine), giving its wearer
 [damage reduction](ref/rule/damage-reduction) 3/-.

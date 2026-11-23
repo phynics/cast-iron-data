@@ -34,8 +34,15 @@ rather than stab with the weapon, allowing you to put more force behind each str
 pata, you cannot use that hand for anything else. A pata provides a +10 bonus to your CMD against
 disarm attempts.
 
-**Cost** 14 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[performance](ref/misc/performance)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Blades, Light
+::: statblock
+Cost: 14 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [performance](ref/misc/performance)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

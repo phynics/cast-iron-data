@@ -20,8 +20,11 @@ price = "1 gp"
 weight = "0.15 lbs."
 +++
 
-**Price** 1 gp; **Weight** 0.15 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 1 gp
+Weight: 0.15 lbs.
+Category: Alchemical Weapons
+:::
 
 These arrows are tightly wrapped in strands of [alchemical glue](ref/eq-misc/alchemical-glue).
 Durable arrows don't break with normal use, whether or not they hit their target; unless a durable

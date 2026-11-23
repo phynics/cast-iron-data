@@ -24,7 +24,11 @@ range increment is 20 feet greater with [longbows](ref/eq-weapon/longbow) and 10
 [shortbows](ref/eq-weapon/shortbow). They deal damage as if
 [one size category smaller](ref/misc/damage-die-adjustments).
 
-**Cost** 0.1 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

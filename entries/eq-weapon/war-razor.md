@@ -32,7 +32,15 @@ To all appearances, a war razor is an oversized razor or flip knife. Since the r
 handle, no sheath is required, making the weapon easy to hide and thus granting the wielder a +2
 bonus on Sleight of Hand checks to conceal the weapon on her body.
 
-**Cost** 8 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 8 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

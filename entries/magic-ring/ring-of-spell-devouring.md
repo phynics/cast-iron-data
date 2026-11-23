@@ -20,8 +20,12 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: ring
+Weight: -
+:::
 
 This delicate ring appears to be a ring of spell storing or a ring of spell turning, but instead of
 aiding casting or counterspelling, the ring hinders such efforts. Each time the wearer casts an
@@ -32,5 +36,7 @@ penalty on [Spellcraft](ref/skill/spellcraft) checks to identify a spell when at
 
 ### Construction
 
-**Requirements** [ring of spell storing (any)](ref/magic-ring/ring-of-spell-storing) or a
-[ring of spell turning](ref/magic-ring/ring-of-spell-turning); **Cost** -
+::: statblock
+Requirements: [ring of spell storing (any)](ref/magic-ring/ring-of-spell-storing) or a [ring of spell turning](ref/magic-ring/ring-of-spell-turning)
+Cost: -
+:::

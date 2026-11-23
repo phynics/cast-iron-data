@@ -480,6 +480,7 @@ entries/npc/vaultbreaker.md	npc	spell-header	**Transmuter Spells Prepared** (CL 
 entries/npc/water-merchant.md	npc	unlabelled-line	D Domain spell; **Domain** Water
 entries/npc/wayward-crusader.md	npc	unlabelled-line	Aura courage (10 ft.)
 entries/npc/winter-witch-baroness.md	npc	spell-header	**[Spell-Like Abilities](ref/umr/spell-like-abilities)** (CL
+entries/npc/winter-witch-cold-sister.md	npc	print-fix	Spell-Like Abilities concentration: `+7`; the import left `+7s` (Irrisen, Land of Eternal Winter p. 62)
 entries/tech-armor/chameleon-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
 entries/tech-armor/deep-diving-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref
 entries/tech-armor/gravity-suit.md	item	unlabelled-line	[Craft Technological Arms and Armor](ref

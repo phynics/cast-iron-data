@@ -21,7 +21,15 @@ weight = "8 lbs."
 
 A heavy mace has a larger head and a longer handle than a [light mace](ref/eq-weapon/light-mace).
 
-**Cost** 12 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** -\
-**Category** One-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 12 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: -
+Category: One-Handed
+Proficiency: Simple
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

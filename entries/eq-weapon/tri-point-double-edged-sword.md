@@ -23,8 +23,15 @@ Topping the head of this 5-foot-long shaft are three long, backward-curved blade
 appearance of a blossoming lotus. The unusually large head is designed to land heavy blows and cause
 multiple wounds that open away from each other.
 
-**Cost** 12 gp **Weight** 14 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Monk
+::: statblock
+Cost: 12 gp
+Weight: 14 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk)
+:::

@@ -23,7 +23,15 @@ This nonmagical [longsword](ref/eq-weapon/longsword) is crafted out of
 [cold iron](ref/eq-material/cold-iron). As a [masterwork weapon](ref/rule/masterwork-weapons), it
 has a +1 enhancement bonus on attack rolls.
 
-**Cost** 330 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 330 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

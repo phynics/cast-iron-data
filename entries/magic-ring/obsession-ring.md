@@ -20,8 +20,12 @@ aura = "moderate abjuration"
 caster_level = "9th"
 +++
 
-**Aura** moderate abjuration; **CL** 9th\
-**Slot** none; **Price** 116,500 gp
+::: statblock
+Aura: moderate abjuration
+CL: 9th
+Slot: none
+Price: 116,500 gp
+:::
 
 These [rings of protection +3](ref/magic-ring/ring-of-protection-3) are extremely varied in form.
 They can be of any alignment and each has its own unique personality and proclivities. Each ring has
@@ -48,8 +52,10 @@ communicate with their wielder to encourage pursuit of this goal.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [shield of faith](ref/spell/shield-of-faith),
-creator must be 15th level (or 9th level if the creator is a gnome); **Price** 58,250 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [shield of faith](ref/spell/shield-of-faith), creator must be 15th level (or 9th level if the creator is a gnome)
+Price: 58,250 gp
+:::
 
 ### Statistics
 

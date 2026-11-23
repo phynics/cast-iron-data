@@ -23,8 +23,16 @@ repeater can fire 6 shots before the air reservoir is depleted. An air repeater 
 reservoirs. Replacing the air reservoir requires 1 minute. The [Rapid Reload](ref/feat/rapid-reload)
 feat reduces this to a full-round action.
 
-**Cost** 600 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** 50 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1 (see text); **Capacity** 6\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 600 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: 50 ft.
+Type: B and P
+Special: -
+Misfire: 1 (see text)
+Capacity: 6
+Category: Two-Handed
+Proficiency: Exotic
+:::

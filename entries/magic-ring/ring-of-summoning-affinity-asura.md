@@ -21,8 +21,13 @@ aura = "faint conjuration [evil, law]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[evil, law\]; **CL** 5th\
-**Slot** ring; **Price** 7,600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[evil, law\]
+CL: 5th
+Slot: ring
+Price: 7,600 gp
+Weight: -
+:::
 
 This ring is made of intricately marked brass. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds
@@ -35,5 +40,7 @@ wearer can use this ring to summon a tripurasura, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be lawful evil; **Cost** 3,800 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be lawful evil
+Cost: 3,800 gp
+:::

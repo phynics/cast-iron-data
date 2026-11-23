@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** ring; **Price** 30,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: ring
+Price: 30,000 gp
+Weight: -
+:::
 
 Once per day, the wearer of this ring can attune it to one of the four Elemental Planes for 24
 hours. While on that plane, the ring grants the wearer the corresponding benefits below. Once per
@@ -44,5 +49,7 @@ and other dangerously hot surfaces as if under the effects of [water walk](ref/s
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[planar adaptation](ref/spell/planar-adaptation); **Cost** 15,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar adaptation](ref/spell/planar-adaptation)
+Cost: 15,000 gp
+:::

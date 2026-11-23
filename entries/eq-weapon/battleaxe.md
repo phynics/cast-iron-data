@@ -24,7 +24,15 @@ have one blade or two, with blade shapes ranging from half-moons to squared edge
 versions of woodcutting axes. The wooden haft may be protected and strengthened with metal bands
 called langets.
 
-**Cost** 10 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 10 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

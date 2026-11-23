@@ -23,7 +23,11 @@ available), a burning, oil-soaked spongestone deals +1d2 fire damage and can ign
 materials (such as a thatched roof). Allowing a spongestone to burn in a sling's cup for more than
 1d3 rounds gives the [sling](ref/eq-weapon/sling) the broken condition.
 
-**Cost** 1 gp **Weight** 0.2 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 1 gp
+Weight: 0.2 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

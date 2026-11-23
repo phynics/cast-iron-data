@@ -17,8 +17,11 @@ price = "30 gp"
 weight = "-"
 +++
 
-**Price** 30 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 These firecrackers are covered in magical runes and are mixed with
 [ghost salt](ref/eq-misc/weapon-blanch-ghost-salt). One round after you light a spirit firecracker

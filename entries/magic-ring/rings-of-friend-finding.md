@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** ring; **Price** 9,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: ring
+Price: 9,000 gp
+Weight: -
+:::
 
 These specialized rings are sold in pairs and help allies find one another. Each of the wearers must
 wear the rings for 24 hours before they function, after which each wearer can activate her ring of
@@ -31,5 +36,7 @@ condition of the wearer of the other ring as a _[status](ref/spell/status)_ spel
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts),
-[status](ref/spell/status); **Cost** 4,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts), [status](ref/spell/status)
+Cost: 4,500 gp
+:::

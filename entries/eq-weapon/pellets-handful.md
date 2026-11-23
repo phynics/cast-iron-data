@@ -27,8 +27,12 @@ used in the pellets' place. Using anything other than pellets or
 scatter weapon increases the weapon's misfire range by 1 (though this increase can be removed by
 switching back to standard ammunition). Thirty handfuls of pellets weigh half a pound.
 
-**Cost** 1 gp **Weight** 0.0166 lbs.\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 1 gp
+Weight: 0.0166 lbs.
+Category: Ammunition
+Proficiency: Exotic
+:::
 
 **Note:** Weight is approximate, based on 30 handfuls weighing half a pound; 15 handfuls weigh 0.25
 lb, and 3 handfuls weigh 0.05 lb.

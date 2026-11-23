@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "-"
 +++
 
-**Price** 300 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 300 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This large flask holds a swarm of angry wasps. A portable hive can be thrown as a
 [splash weapon](ref/rule/throw-splash-weapon), and when it hits a grid intersection or a creature, a

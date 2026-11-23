@@ -39,7 +39,14 @@ far enough away to be out of the weapon's reach, the grapple ends.
 A grappling hook's weight includes the weight of 50 feet of hemp rope. It can be reduced by using
 shorter or lighter rope.
 
-**Cost** 6 gp **Weight** 14 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P; **Special**
-[grapple](ref/misc/grapple)\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 6 gp
+Weight: 14 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P
+Special: [grapple](ref/misc/grapple)
+Category: Ranged
+Proficiency: Exotic
+:::

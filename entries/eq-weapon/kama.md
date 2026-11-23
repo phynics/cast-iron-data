@@ -23,8 +23,15 @@ Similar to a [sickle](ref/eq-weapon/sickle) - and in some regions still used to 
 is a short, curved blade attached to a simple handle, usually made of wood. It is sometimes also
 referred to as a kai, and is frequently used in pairs by martial artists.
 
-**Cost** 2 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[monk](ref/misc/monk), [trip](ref/misc/trip)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Monk
+::: statblock
+Cost: 2 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [monk](ref/misc/monk), [trip](ref/misc/trip)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

@@ -24,8 +24,15 @@ sai, you get a +2 bonus on combat maneuver checks to sunder an enemy's weapon. T
 is not usually used for stabbing. Instead, it is used primarily to bludgeon foes, punching with the
 hilt, or else to catch and disarm weapons between its tines. Sais are often wielded in pairs.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Monk
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [monk](ref/misc/monk)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk)
+:::

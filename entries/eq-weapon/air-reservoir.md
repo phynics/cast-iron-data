@@ -19,5 +19,9 @@ weight = "-"
 A spare reservoir of compressed air comes with 6 pieces of ammunition to be used with an
 [air repeater](ref/eq-weapon/air-repeater).
 
-**Cost** 6 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 6 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

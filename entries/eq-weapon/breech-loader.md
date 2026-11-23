@@ -21,8 +21,16 @@ to its stock by a hinge, enabling ammunition to be loaded quickly and easily. Re
 breech-loader is a standard action that reloads both barrels; the
 [Rapid Reload](ref/feat/rapid-reload) feat reduces this to a move action.
 
-**Cost** 3,000 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×4; **Range** 20 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1 (5 ft.); **Capacity** 2\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 3,000 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×4
+Range: 20 ft.
+Type: B and P
+Special: -
+Misfire: 1 (5 ft.)
+Capacity: 2
+Category: One-Handed
+Proficiency: Exotic
+:::

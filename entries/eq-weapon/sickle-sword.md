@@ -23,8 +23,15 @@ twist the sword in unpredictable ways. When wielding a sickle-sword in one hand 
 other, you can spend a swift action to gain a +2 bonus on your next attack roll before the end of
 your turn.
 
-**Cost** 20 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[distracting](ref/misc/distracting), see text\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 20 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [distracting](ref/misc/distracting), see text
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

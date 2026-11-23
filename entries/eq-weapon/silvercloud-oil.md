@@ -17,8 +17,11 @@ price = "60 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 60 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 The viscous turquoise oil in this fine glass vial bursts into a pearlescent, silvery mist when
 exposed to air. You can throw a vial of silvercloud oil as a

@@ -25,7 +25,14 @@ A brass knife has the [fragile](ref/misc/fragile) quality. A fragile weapon gain
 condition if the wielder rolls a natural 1 on an attack roll with the weapon. If a fragile weapon is
 already broken, rolling a natural 1 destroys it instead.
 
-**Cost** 2 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** 10 ft.; **Type** P or S;
-**Special** fragile\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 2 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: 10 ft.
+Type: P or S
+Special: fragile
+Category: Light
+Proficiency: Simple
+:::

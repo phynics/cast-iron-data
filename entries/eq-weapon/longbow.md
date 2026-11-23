@@ -29,7 +29,15 @@ Strength modifier to damage rolls when you use a
 [composite longbow](ref/eq-weapon/composite-longbow), but not a regular longbow. A longbow fires
 arrows.
 
-**Cost** 75 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 100 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Bows
+::: statblock
+Cost: 75 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 100 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Bows](ref/ability/weapon-groups#sec-bows)
+:::

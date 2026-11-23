@@ -24,8 +24,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** ring; **Price** 200,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: ring
+Price: 200,000 gp
+Weight: -
+:::
 
 All four kinds of rings of elemental command are very powerful. Each appears to be nothing more than
 a lesser magic ring until fully activated (by meeting a special condition, such as single-handedly
@@ -113,5 +118,7 @@ established condition is met.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [summon monster VI](ref/spell/summon-monster-6),
-all appropriate spells; **Cost** 100,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [summon monster VI](ref/spell/summon-monster-6), all appropriate spells
+Cost: 100,000 gp
+:::

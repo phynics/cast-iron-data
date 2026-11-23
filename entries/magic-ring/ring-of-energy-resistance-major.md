@@ -26,8 +26,13 @@ caster_level = "11th"
 
 ## Ring of Energy Resistance
 
-**Aura** moderate abjuration; **CL** 11th\
-**Slot** ring; **Price** 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater); **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 11th
+Slot: ring
+Price: 12,000 gp (minor), 28,000 gp (major), 44,000 gp (greater)
+Weight: -
+:::
 
 Rings of this type come in a wide variety of designs and colorations, typically related to the types
 of energy they defend against. These rings continually protect their wearers from damage from one
@@ -40,5 +45,7 @@ grants 20 points of resistance. A greater ring of energy resistance grants 30 po
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [resist energy](ref/spell/resist-energy);
-**Cost** 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [resist energy](ref/spell/resist-energy)
+Cost: 6,000 gp (minor), 14,000 gp (major), 22,000 gp (greater)
+:::

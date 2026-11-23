@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This hollow metal or wooden tube contains slow-burning powder. When you light the fuse (a move
 action), it creates a 3-foot-long, blazing fountain of red-hot fiery sparks. You wield this fountain

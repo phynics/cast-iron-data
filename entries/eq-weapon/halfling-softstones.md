@@ -19,7 +19,11 @@ weight = "0.4 lbs."
 These tight bundles of elastic fibers deal nonlethal damage when fired from a
 [sling](ref/eq-weapon/sling).
 
-**Cost** 0.01 gp **Weight** 0.4 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.01 gp
+Weight: 0.4 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

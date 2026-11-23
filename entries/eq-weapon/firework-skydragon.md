@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "10 lbs."
 +++
 
-**Price** 300 gp; **Weight** 10 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 300 gp
+Weight: 10 lbs.
+Category: Alchemical Weapons
+:::
 
 The skydragon firework is the apex of the firework artisan's craft. Unlit, a skydragon firework
 looks like an unassuming tube of thin wood and colored parchment. One round after you light a

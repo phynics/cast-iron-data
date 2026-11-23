@@ -26,8 +26,15 @@ the [disarm](ref/misc/disarm) special feature when they are used individually. A
 can also be formed into a single one-handed weapon to gain the [trip](ref/misc/trip) special
 feature.
 
-**Cost** 6 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special** disarm
-or trip, [monk](ref/misc/monk)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Monk
+::: statblock
+Cost: 6 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: disarm or trip, [monk](ref/misc/monk)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk)
+:::

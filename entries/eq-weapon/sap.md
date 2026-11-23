@@ -23,8 +23,15 @@ This weapon consists of a soft wrapping around a hard, dense core, typically a l
 a lead rod. The head is wider than the handle and designed to spread out the force of the blow,
 making it less likely to draw blood or break bones.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[nonlethal](ref/misc/nonlethal)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [nonlethal](ref/misc/nonlethal)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

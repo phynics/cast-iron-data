@@ -20,8 +20,11 @@ price = "500 gp"
 weight = "100 lbs."
 +++
 
-**Price** 500 gp; **Weight** 100 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 500 gp
+Weight: 100 lbs.
+Category: Alchemical Weapons
+:::
 
 This tree stump-sized bundle of tubes immediately begins to emit arcs of multi-colored sparks when
 lit. Starting 1d6 rounds after lighting, it loudly releases brightly colored streaks of tiny flaming

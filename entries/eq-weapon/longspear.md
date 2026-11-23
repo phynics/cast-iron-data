@@ -21,8 +21,15 @@ weight = "9 lbs."
 
 A longspear is about 8 feet in length.
 
-**Cost** 5 gp **Weight** 9 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Spears
+::: statblock
+Cost: 5 gp
+Weight: 9 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears)
+:::

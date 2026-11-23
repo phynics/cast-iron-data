@@ -25,8 +25,15 @@ often imagined as a ball, sometimes spiked like the head of a
 shapes, such as short bars. Military flails are sturdier evolutions of agricultural flails, which
 are used for threshing: beating stacks of grains to separate the useful grains from their husks.
 
-**Cost** 8 gp **Weight** 5 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 8 gp
+Weight: 5 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

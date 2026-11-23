@@ -23,8 +23,12 @@ aura = "strong transmutation"
 caster_level = "15th"
 +++
 
-**Aura** strong transmutation; **CL** 15th\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: strong transmutation
+CL: 15th
+Slot: ring
+Weight: -
+:::
 
 This ring operates exactly like a ring of feather falling. However, it also makes the wearer clumsy.
 She takes a -4 penalty to Dexterity and has a 20% chance of spell failure when trying to cast any
@@ -33,4 +37,7 @@ spell failure chances.)
 
 ### Construction
 
-**Requirements** [ring of feather falling](ref/magic-ring/ring-of-feather-falling); **Cost** -
+::: statblock
+Requirements: [ring of feather falling](ref/magic-ring/ring-of-feather-falling)
+Cost: -
+:::

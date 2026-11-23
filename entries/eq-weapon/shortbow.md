@@ -29,7 +29,15 @@ you can apply it to damage rolls when you use a
 [composite shortbow](ref/eq-weapon/composite-shortbow), but not a regular shortbow. A shortbow fires
 arrows.
 
-**Cost** 30 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 60 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Bows
+::: statblock
+Cost: 30 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 60 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Bows](ref/ability/weapon-groups#sec-bows)
+:::

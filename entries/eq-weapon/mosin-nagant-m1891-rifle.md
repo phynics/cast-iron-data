@@ -26,7 +26,16 @@ to 2 rounds of ammunition as a move action. Ammunition is typically sold in grou
 rifle has a lug for the attachment of a socket bayonet, and can be equipped with a unique sidemount
 scope system.
 
-**Cost** 500 gp **Weight** 9 lbs.\
-**Damage** 1d10 (medium); **Critical** ×4; **Range** 80 ft.; **Type** B and P; **Special** —\
-**Misfire** 1; **Capacity** 5\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 500 gp
+Weight: 9 lbs.
+Damage: 1d10 (medium)
+Critical: ×4
+Range: 80 ft.
+Type: B and P
+Special: —
+Misfire: 1
+Capacity: 5
+Category: Two-Handed
+Proficiency: Exotic
+:::

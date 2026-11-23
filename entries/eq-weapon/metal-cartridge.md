@@ -23,5 +23,9 @@ These sturdier versions of [alchemical cartridges](ref/eq-weapon/alchemical-cart
 ammunition for advanced firearms. They can hold either [bullets](ref/eq-weapon/firearm-bullet) or
 [pellets](ref/eq-weapon/pellets-handful).
 
-**Cost** 15 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 15 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "10 lbs."
 +++
 
-**Price** 200 gp; **Weight** 10 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 200 gp
+Weight: 10 lbs.
+Category: Alchemical Weapons
+:::
 
 Used by the dwarves of Dongun Hold to excavate precious crystals from deep underground, this heavy
 ceramic canister is packed with inert fibers surrounding a large alchemically infused black powder

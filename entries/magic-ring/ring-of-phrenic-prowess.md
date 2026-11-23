@@ -21,8 +21,13 @@ aura = "moderate abjuration and divination"
 caster_level = "11th"
 +++
 
-**Aura** moderate abjuration and divination; **CL** 11th\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration and divination
+CL: 11th
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 This ring is made of rough iron and is set with four amethysts. It allows a wearer with a phrenic
 pool to store up to 4 points from her phrenic pool in the ring as a swift action. These points
@@ -41,5 +46,7 @@ phrenic pool, in addition to the following uses.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [spell turning](ref/spell/spell-turning),
-[telepathic bond](ref/spell/telepathic-bond); **Cost** 10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [spell turning](ref/spell/spell-turning), [telepathic bond](ref/spell/telepathic-bond)
+Cost: 10,000 gp
+:::

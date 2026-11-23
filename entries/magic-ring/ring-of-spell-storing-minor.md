@@ -24,13 +24,20 @@ aura = "faint evocation"
 caster_level = "5th"
 +++
 
-**Aura** faint evocation; **CL** 5th\
-**Slot** ring; **Price** 18,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 5th
+Slot: ring
+Price: 18,000 gp
+Weight: -
+:::
 
 As the [ring of spell storing](ref/magic-ring/ring-of-spell-storing), except it holds up to 3 levels
 of spells.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 9,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 9,000 gp
+:::

@@ -27,8 +27,16 @@ dose of [black powder](ref/eq-weapon/black-powder-dose), or a single
 [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) (with either bullets or pellets) as
 ammunition. This is an early firearm.
 
-**Cost** 1,000 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×4; **Range** special; **Type** B and P;
-**Special** scatter\
-**Misfire** 1-2 (5 ft.); **Capacity** 1\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 1,000 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×4
+Range: special
+Type: B and P
+Special: scatter
+Misfire: 1-2 (5 ft.)
+Capacity: 1
+Category: One-Handed
+Proficiency: Exotic
+:::

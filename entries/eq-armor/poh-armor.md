@@ -17,7 +17,10 @@ price = "500 gp"
 weight = "65 lbs."
 +++
 
-**Price** 500 gp; **Weight** 65 lbs.
+::: statblock
+Price: 500 gp
+Weight: 65 lbs.
+:::
 
 Named after a ferocious unicorn-tiger hybrid, this suit of [scale mail](ref/eq-armor/scale-mail)
 [barding](ref/eq-armor/barding) bears a vicious horn on the forehead plate and metal tiger claws

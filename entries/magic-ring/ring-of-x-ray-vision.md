@@ -24,8 +24,13 @@ aura = "moderate divination"
 caster_level = "6th"
 +++
 
-**Aura** moderate divination; **CL** 6th\
-**Slot** ring; **Price** 25,000 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 6th
+Slot: ring
+Price: 25,000 gp
+Weight: -
+:::
 
 On command, this ring gives its wearer the ability to see into and through solid matter. Vision
 range is 20 feet, with the viewer seeing as if he were looking at something in normal light even if
@@ -38,5 +43,7 @@ a single day. The ring must be used in 1-minute increments.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [true seeing](ref/spell/true-seeing); **Cost**
-12,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [true seeing](ref/spell/true-seeing)
+Cost: 12,500 gp
+:::

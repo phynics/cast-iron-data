@@ -18,8 +18,15 @@ weight = "12 lbs."
 
 This long, heavy spear has a point at each end, allowing it to be used as a double weapon.
 
-**Cost** 25 gp **Weight** 12 lbs.\
-**Damage** 1d6/1d6 (small), 1d8/1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[double](ref/misc/double)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Spears
+::: statblock
+Cost: 25 gp
+Weight: 12 lbs.
+Damage: 1d6/1d6 (small), 1d8/1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [double](ref/misc/double)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears)
+:::

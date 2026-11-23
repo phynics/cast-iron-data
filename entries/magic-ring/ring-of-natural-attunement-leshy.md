@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "3rd"
 +++
 
-**Aura** faint conjuration; **CL** 3rd\
-**Slot** ring; **Price** 2,800 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 3rd
+Slot: ring
+Price: 2,800 gp
+Weight: -
+:::
 
 This ring is made of thin but strong vines braided together in an elegant weave. If the wearer can
 cast _[summon nature's ally](ref/spell/summon-natures-ally)_ spells, the wearer adds
@@ -35,5 +40,7 @@ _[summon nature's ally I](ref/spell/summon-natures-ally-1)_ spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [plant growth](ref/spell/plant-growth),
-[summon nature's ally I](ref/spell/summon-natures-ally-1); **Cost** 1,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [plant growth](ref/spell/plant-growth), [summon nature's ally I](ref/spell/summon-natures-ally-1)
+Cost: 1,400 gp
+:::

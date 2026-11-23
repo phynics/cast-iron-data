@@ -19,10 +19,16 @@ category = "Armor"
 weight = "4 lbs."
 +++
 
-**Cost** 30 gp **Weight** 4 lbs.\
-**Armor Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 30 gp
+Weight: 4 lbs.
+Armor Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 0%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Used for ceremonial displays or occasionally worn (albeit with no additional benefit) over heavier
 armor, these robes consist of several layers of cloth and an outer layer of silk intricately woven

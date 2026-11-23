@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** ring; **Price** 11,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: ring
+Price: 11,000 gp
+Weight: -
+:::
 
 Made of aged bronze and steel, this ring looks like it should have a gem set in it, but instead has
 an empty circular hole. The hole in the ring holds a single
@@ -43,6 +48,7 @@ abilities.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [magic weapon](ref/spell/magic-weapon),
-[telekinesis](ref/spell/telekinesis), creator must meet the requirements for the ammunition special
-abilities that can be imbued by the ring; **Cost** 5,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [magic weapon](ref/spell/magic-weapon), [telekinesis](ref/spell/telekinesis), creator must meet the requirements for the ammunition special abilities that can be imbued by the ring
+Cost: 5,500 gp
+:::

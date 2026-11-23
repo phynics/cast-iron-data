@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "2 lbs."
 +++
 
-**Price** 20 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 20 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This flask is filled with the detritus of minor ectoplasmic phantoms and similar creatures. You can
 throw a flask of ectoplasmic residue as a [splash weapon](ref/rule/throw-splash-weapon). Treat this

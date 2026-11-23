@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "7th"
 +++
 
-**Aura** moderate necromancy; **CL** 7th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 7th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 This ring is made of black steel and is eerily cold to the touch. Once per day as a swift action,
 when the wearer hits a living creature with an unarmed attack, the target must succeed at a DC 20
@@ -32,5 +37,7 @@ this attack, the ring's wearer gains a +2 enhancement bonus to her Strength for 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [bull's strength](ref/spell/bulls-strength),
-[ray of enfeeblement](ref/spell/ray-of-enfeeblement); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [bull's strength](ref/spell/bulls-strength), [ray of enfeeblement](ref/spell/ray-of-enfeeblement)
+Cost: 4,000 gp
+:::

@@ -21,8 +21,16 @@ than a typical pistol but slightly less deadly on a critical hit. It can fire on
 [dragoon cartridges](ref/eq-weapon/dragoon-cartridge) or specially modified
 [mage shot](ref/magic-weapon/mage-shot).
 
-**Cost** 1,500 gp **Weight** 5 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 30 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1 (5 ft.); **Capacity** 3\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 1,500 gp
+Weight: 5 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 30 ft.
+Type: B and P
+Special: -
+Misfire: 1 (5 ft.)
+Capacity: 3
+Category: One-Handed
+Proficiency: Exotic
+:::

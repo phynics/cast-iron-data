@@ -24,12 +24,19 @@ aura = "faint illusion"
 caster_level = "3rd"
 +++
 
-**Aura** faint illusion; **CL** 3rd\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: faint illusion
+CL: 3rd
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 By activating this simple silver ring, the wearer can benefit from _invisibility,_ as the spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [invisibility](ref/spell/invisibility); **Cost**
-10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [invisibility](ref/spell/invisibility)
+Cost: 10,000 gp
+:::

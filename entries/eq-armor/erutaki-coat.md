@@ -16,10 +16,16 @@ category = "Armor"
 weight = "24 lbs."
 +++
 
-**Cost** 80 gp **Weight** 24 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +3; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 80 gp
+Weight: 24 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +3
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 20%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 Used by the Erutaki human tribes and snowcaster elves native to the arctic tundra of the Crown of
 the World, this heavy parka is treated as an [armored coat](ref/eq-armor/armored-coat). It provides

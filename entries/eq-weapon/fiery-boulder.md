@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "10 lbs."
 +++
 
-**Price** 100 gp; **Weight** 10 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 10 lbs.
+Category: Alchemical Weapons
+:::
 
 A fiery boulder is a large, roughly boulder-shaped version of
 [alchemist's fire](ref/eq-weapon/alchemists-fire) favored by giants. A direct hit from this

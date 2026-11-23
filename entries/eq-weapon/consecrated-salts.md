@@ -17,8 +17,11 @@ price = "300 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 300 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 300 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 The powdered salts in this stoppered glass sphere contains reagents blessed by a cleric or another
 divine authority. You can throw a sphere of consecrated salts as a

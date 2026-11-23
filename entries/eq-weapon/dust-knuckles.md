@@ -17,8 +17,10 @@ price = "1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves)"
 weight = "- (1 vial), - (diamond dust vial), 0.5 lb. (gloves)"
 +++
 
-**Price** 1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves); **Weight** - (1 vial), - (diamond dust
-vial), 0.5 lb. (gloves)
+::: statblock
+Price: 1.25 gp, 25 gp (diamond dust vial), 25 gp (gloves)
+Weight: - (1 vial), - (diamond dust vial), 0.5 lb. (gloves)
+:::
 
 This fingerless leather glove includes four small pouches along the knuckle line into which you can
 insert tiny glass vials. You can fill the vials with poison or ground minerals. When you punch

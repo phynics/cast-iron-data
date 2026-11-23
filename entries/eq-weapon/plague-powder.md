@@ -17,8 +17,11 @@ price = "varies"
 weight = "-"
 +++
 
-**Price** varies; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: varies
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This ash-gray powder is refined from the crushed bones of creatures that died of virulent diseases,
 illegally produced by nefarious alchemists, and sold on the black market to those seeking to spread

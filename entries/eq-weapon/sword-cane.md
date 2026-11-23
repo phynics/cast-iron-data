@@ -28,7 +28,15 @@ feat to apply your Dexterity modifier instead of your Strength modifier to attac
 cane sized for you, even though it isn't a light weapon. You can't wield a sword cane in two hands
 in order to apply 1-1/2 times your Strength modifier to damage.
 
-**Cost** 45 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 45 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

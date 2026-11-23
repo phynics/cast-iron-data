@@ -21,8 +21,13 @@ aura = "faint conjuration [evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[evil\]; **CL** 5th\
-**Slot** ring; **Price** 10,600 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[evil\]
+CL: 5th
+Slot: ring
+Price: 10,600 gp
+Weight: -
+:::
 
 This ring is carved from bone. If the wearer can cast _[summon monster](ref/spell/summon-monster)_
 spells, the wearer adds [cacodaemon](ref/monster/daemon-cacodaemon) to the 3rd-level list of
@@ -37,5 +42,7 @@ the wearer can use this ring to summon a cacodaemon, as if by the
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be neutral evil; **Cost** 5,300 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be neutral evil
+Cost: 5,300 gp
+:::

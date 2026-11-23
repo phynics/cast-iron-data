@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** ring; **Price** 7,800 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: ring
+Price: 7,800 gp
+Weight: -
+:::
 
 This ring is forged from black iron and shining silver. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, he adds
@@ -33,6 +38,7 @@ paracletus, as if by the [summon monster III](ref/spell/summon-monster-3) spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be neutral with no other alignment
-components; **Cost** 3,900 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be neutral with no other alignment components
+Cost: 3,900 gp
+:::

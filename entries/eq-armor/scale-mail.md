@@ -19,10 +19,16 @@ category = "Armor"
 weight = "30 lbs."
 +++
 
-**Cost** 50 gp **Weight** 30 lbs.\
-**Armor Bonus** +5; **Max Dex Bonus** +3; **Armor Check Penalty** -4\
-**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 50 gp
+Weight: 30 lbs.
+Armor Bonus: +5
+Max Dex Bonus: +3
+Armor Check Penalty: -4
+Arcane Spell Failure Chance: 25%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 Scale mail is made up of dozens of small, overlapping metal plates. Similar to both
 [splint mail](ref/eq-armor/splint-mail) and [banded mail](ref/eq-armor/banded-mail), scalemail has a

@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "2 lbs."
 +++
 
-**Price** 75 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 75 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This metal canister contains alchemical reactants separated by parchment and a slow-burning fuse.
 Lighting the fuse is a move action; 1d3 rounds later, the chroma grenade explodes, spewing

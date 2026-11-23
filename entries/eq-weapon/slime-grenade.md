@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "3 lbs."
 +++
 
-**Price** 100 gp; **Weight** 3 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 3 lbs.
+Category: Alchemical Weapons
+:::
 
 The alchemists of Nex have found several uses for the toxic residue left over from their massive
 ooze cultivating experiments, including a variety of items known collectively as slime grenades.

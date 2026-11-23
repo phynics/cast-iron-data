@@ -23,8 +23,11 @@ price = "10 gp"
 weight = "1 lb."
 +++
 
-**Price** 10 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 10 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 You can throw a flask of acid as a [splash weapon](ref/rule/throw-splash-weapon). Treat this attack
 as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid

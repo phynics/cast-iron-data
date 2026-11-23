@@ -26,8 +26,15 @@ An underwater light crossbow functions like its normal counterpart above water, 
 underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient
 with a normal [light crossbow](ref/eq-weapon/light-crossbow) can use an underwater light crossbow.
 
-**Cost** 70 gp **Weight** 4 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** 80 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 70 gp
+Weight: 4 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: 80 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Simple
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

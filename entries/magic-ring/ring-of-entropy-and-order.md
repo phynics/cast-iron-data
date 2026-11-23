@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate abjuration; **CL** 10th\
-**Slot** ring; **Price** 16,200 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 10th
+Slot: ring
+Price: 16,200 gp
+Weight: -
+:::
 
 This gold ring resembles tiny angel wings folded around a clear crystal. Once per day, the wearer
 can target herself with a _[protection from chaos](ref/spell/protection-from-chaos)_ or
@@ -38,6 +43,7 @@ an immediate action.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [contingency](ref/spell/contingency),
-[protection from chaos](ref/spell/protection-from-chaos),
-[protection from law](ref/spell/protection-from-law); **Cost** 8,100 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [contingency](ref/spell/contingency), [protection from chaos](ref/spell/protection-from-chaos), [protection from law](ref/spell/protection-from-law)
+Cost: 8,100 gp
+:::

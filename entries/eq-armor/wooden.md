@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 20 gp **Weight** 25 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +3; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 20 gp
+Weight: 25 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +3
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This suit of leather armor has plates of fire-treated wood sewn over vital areas. Though not as
 effective as metal armor, it offers better protection than leather alone. Unlike metal armor, the

@@ -22,8 +22,15 @@ weight = "12 lbs."
 A halberd is similar to a 5-foot-long spear, but it also has a small, axe-like head mounted near the
 tip.
 
-**Cost** 10 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** P or S; **Special**
-[brace](ref/misc/brace), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 10 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: P or S
+Special: [brace](ref/misc/brace), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

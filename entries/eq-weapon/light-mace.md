@@ -23,7 +23,15 @@ A mace is made up of an ornate metal head attached to a simple wooden or metal s
 head is usually flanged to cause more pain or damage. Some more primitive maces are made with stone
 bound to a wooden haft with leather straps.
 
-**Cost** 5 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** -\
-**Category** Light; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 5 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: -
+Category: Light
+Proficiency: Simple
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

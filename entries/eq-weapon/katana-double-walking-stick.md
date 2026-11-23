@@ -24,7 +24,15 @@ pair. Despite their name, the blades more closely resemble the shorter wakizashi
 blades use the statistics listed on the table. When the blades are concealed in their case, this
 weapon can be used as a [quarterstaff](ref/eq-weapon/quarterstaff).
 
-**Cost** 50 gp **Weight** 6 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double
+::: statblock
+Cost: 50 gp
+Weight: 6 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: -
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double)
+:::

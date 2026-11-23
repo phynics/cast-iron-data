@@ -21,8 +21,13 @@ aura = "strong abjuration and evocation"
 caster_level = "11th"
 +++
 
-**Aura** strong abjuration and evocation; **CL** 11th\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration and evocation
+CL: 11th
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 This ring is a thin but sturdy piece of forged steel crafted to resemble a serpent swallowing its
 tail, and is magically imbued to reveal the secrets of arcane mastery to its wearer. The ring allows
@@ -40,6 +45,7 @@ the ring as if they were his own, or can spend them in each of the following way
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability),
-[spell turning](ref/spell/spell-turning); **Cost** 10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability), [spell turning](ref/spell/spell-turning)
+Cost: 10,000 gp
+:::

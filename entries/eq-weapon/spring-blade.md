@@ -24,7 +24,14 @@ requires the same type of action as drawing a weapon. A spring blade is easy to 
 must succeed at a DC 20 Perception check to notice the blade hidden within the wooden handle, and
 you gain a +4 bonus on Sleight of Hand checks to conceal a spring blade on your body.
 
-**Cost** 70 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P or S;
-**Special** -\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 70 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P or S
+Special: -
+Category: Light
+Proficiency: Simple
+:::

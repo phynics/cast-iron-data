@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "9th"
 +++
 
-**Aura** moderate transmutation; **CL** 9th\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 9th
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 These rings once displayed the smiling face of King Gaspodar, and were forged in limited quantities
 to celebrate the end of his reign. After [Aroden's](ref/faith/aroden) death, the rings were cast
@@ -46,5 +51,7 @@ owners of a ring of terrible cost guard the item carefully.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [aid](ref/spell/aid),
-[resistance](ref/spell/resistance), [vampiric touch](ref/spell/vampiric-touch); **Cost** 10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [aid](ref/spell/aid), [resistance](ref/spell/resistance), [vampiric touch](ref/spell/vampiric-touch)
+Cost: 10,000 gp
+:::

@@ -21,8 +21,13 @@ aura = "strong conjuration"
 caster_level = "12th"
 +++
 
-**Aura** strong conjuration; **CL** 12th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: strong conjuration
+CL: 12th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 Each of these silver-and-gemstone rings is attuned to a specific
 [aiudara](ref/magic-artifact/aiudara), or elf gate. The ring must be created at the aiudara in
@@ -34,5 +39,7 @@ gates in mind.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [word of recall](ref/spell/word-of-recall);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [word of recall](ref/spell/word-of-recall)
+Cost: 6,000 gp
+:::

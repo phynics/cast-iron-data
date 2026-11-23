@@ -28,8 +28,15 @@ harpoon, it is a grappling weapon. A harpoon's weight includes 10 pounds for the
 of hemp rope. The weight can be reduced by using shorter or lighter rope. If you are not proficient
 with a harpoon, treat it like a [spear](ref/eq-weapon/spear).
 
-**Cost** 5 gp **Weight** 16 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 10 ft.; **Type** P; **Special**
-[grapple](ref/misc/grapple), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 5 gp
+Weight: 16 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: P
+Special: [grapple](ref/misc/grapple), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

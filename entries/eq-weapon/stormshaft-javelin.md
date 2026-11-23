@@ -25,8 +25,15 @@ with one of these javelins, the creature takes damage as normal and is the cente
 thunderstone's effect. If you miss, roll to see where the javelin lands (as if determining a miss
 with a splash weapon); that square becomes the center of the thunderstone's effect.
 
-**Cost** 35 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 30 ft.; **Type** P; **Special** see
-text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 35 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 30 ft.
+Type: P
+Special: see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

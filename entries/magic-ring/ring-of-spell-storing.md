@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "9th"
 +++
 
-**Aura** moderate evocation; **CL** 9th\
-**Slot** ring; **Price** 50,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 9th
+Slot: ring
+Price: 50,000 gp
+Weight: -
+:::
 
 A ring of spell storing contains up to 5 levels of spells (either divine or arcane, or even a mix of
 both spell types) that the wearer can cast. Each spell has a caster level equal to the minimum level
@@ -46,5 +51,7 @@ The ring magically imparts to the wearer the names of all spells currently store
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 25,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 25,000 gp
+:::

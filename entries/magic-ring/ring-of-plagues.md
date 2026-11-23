@@ -21,8 +21,13 @@ aura = "moderate necromancy"
 caster_level = "11th"
 +++
 
-**Aura** moderate necromancy; **CL** 11th\
-**Slot** ring; **Price** 20,000 gp; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 11th
+Slot: ring
+Price: 20,000 gp
+Weight: -
+:::
 
 This silver ring is set with a black opal. Once per day, when the wearer is reduced to half or fewer
 of her maximum hit point total, whoever dealt the activating blow to the wearer is immediately
@@ -43,5 +48,7 @@ curses end, allowing surviving victims to recover naturally.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [contagion](ref/spell/contagion),
-[major curse](ref/spell/curse-major), [spite](ref/spell/spite); **Cost** 10,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [contagion](ref/spell/contagion), [major curse](ref/spell/curse-major), [spite](ref/spell/spite)
+Cost: 10,000 gp
+:::

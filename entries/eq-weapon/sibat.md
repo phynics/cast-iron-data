@@ -26,8 +26,15 @@ This weapon is similar to a [shortspear](ref/eq-weapon/shortspear) with a flexib
 shaft and an elaborately barbed head. The barbs can snag flesh, clothing, or armor to ensnare an
 enemy.
 
-**Cost** 2 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 10 ft.; **Type** P or S;
-**Special** [grapple](ref/misc/grapple)\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Spears; Thrown
+::: statblock
+Cost: 2 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: P or S
+Special: [grapple](ref/misc/grapple)
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Spears](ref/ability/weapon-groups#sec-spears); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

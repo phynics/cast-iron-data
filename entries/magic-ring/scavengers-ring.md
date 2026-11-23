@@ -21,8 +21,13 @@ aura = "moderate abjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate abjuration; **CL** 7th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: moderate abjuration
+CL: 7th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 This polished iron band allows the wearer to walk along the ocean floor as easily as on dry land.
 The wearer of a scavenger's ring sinks to the bottom of any large body of water at a rate of 30 feet
@@ -35,5 +40,7 @@ breathe while underwater.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[freedom of movement](ref/spell/freedom-of-movement); **Cost** 7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [freedom of movement](ref/spell/freedom-of-movement)
+Cost: 7,500 gp
+:::

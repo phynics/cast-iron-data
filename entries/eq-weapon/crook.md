@@ -20,8 +20,15 @@ This common herder's tool is a wooden pole with a hooked end. When using a crook
 penalty for not having two hands free when making a combat maneuver check to initiate a
 [grapple](ref/rule/grapple) against a creature you threaten.
 
-**Cost** 1 gp **Weight** 5 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[reach](ref/misc/reach), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 1 gp
+Weight: 5 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

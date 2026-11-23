@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** ring; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: ring
+Price: 5,000 gp
+Weight: -
+:::
 
 This elaborately decorated ring is crafted with the design of a fierce dragon wrapped greedily
 around a shining gemstone. It grants the wearer a +5 competence bonus on all
@@ -35,5 +40,7 @@ he were trained in them.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [fox's cunning](ref/spell/foxs-cunning), creator
-must have 5 ranks in the relevant skill; **Cost** 2,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [fox's cunning](ref/spell/foxs-cunning), creator must have 5 ranks in the relevant skill
+Cost: 2,500 gp
+:::

@@ -25,8 +25,15 @@ deals 1d6 points of damage (critical multiplier ×3). Its hook is a piercing wea
 points of damage (critical multiplier ×4). You can use either head as the primary weapon. Gnomes
 treat hooked hammers as martial weapons.
 
-**Cost** 20 gp **Weight** 6 lbs.\
-**Damage** 1d6/1d4 (small), 1d8/1d6 (medium); **Critical** ×3/×4; **Range** -; **Type** B or P;
-**Special** [double](ref/misc/double), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double
+::: statblock
+Cost: 20 gp
+Weight: 6 lbs.
+Damage: 1d6/1d4 (small), 1d8/1d6 (medium)
+Critical: ×3/×4
+Range: -
+Type: B or P
+Special: [double](ref/misc/double), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double)
+:::

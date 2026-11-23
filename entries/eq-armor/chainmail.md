@@ -19,10 +19,16 @@ category = "Armor"
 weight = "40 lbs."
 +++
 
-**Cost** 150 gp **Weight** 40 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +2; **Armor Check Penalty** -5\
-**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 150 gp
+Weight: 40 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +2
+Armor Check Penalty: -5
+Arcane Spell Failure Chance: 30%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete
 mesh of chain links that cover the torso and arms, and extends below the waist. Multiple

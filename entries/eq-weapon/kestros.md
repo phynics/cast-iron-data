@@ -25,7 +25,15 @@ use a kestros, just as it does for thrown weapons. You can fire - but not load -
 hand. Loading a kestros is a move action that requires two hands and provokes attacks of
 opportunity. [Halflings](ref/race/halfling) treat the kestros as a martial weapon.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 50 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 50 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

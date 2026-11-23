@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 9,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 9,000 gp
+Weight: 1 lb.
+:::
 
 This silver ring features arboreal motifs, and is set with a small but brilliant sapphire. If the
 wearer has the [channel energy](ref/ability/channel-energy) class feature, the radius of his
@@ -35,6 +40,7 @@ time it does not confer any benefits.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[Selective Channeling](ref/feat/selective-channeling), creator must have the channel energy class
-feature; **Cost** 4,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Selective Channeling](ref/feat/selective-channeling), creator must have the channel energy class feature
+Cost: 4,500 gp
+:::

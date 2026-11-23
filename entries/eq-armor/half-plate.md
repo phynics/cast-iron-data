@@ -19,10 +19,16 @@ category = "Armor"
 weight = "50 lbs."
 +++
 
-**Cost** 600 gp **Weight** 50 lbs.\
-**Armor Bonus** +8; **Max Dex Bonus** +0; **Armor Check Penalty** -7\
-**Arcane Spell Failure Chance** 40%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 600 gp
+Weight: 50 lbs.
+Armor Bonus: +8
+Max Dex Bonus: +0
+Armor Check Penalty: -7
+Arcane Spell Failure Chance: 40%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 Half-plate armor combines elements of [full plate](ref/eq-armor/full-plate) and
 [chainmail](ref/eq-armor/chainmail), incorporating several sizable plates of sculpted metal with an

@@ -24,13 +24,20 @@ aura = "strong evocation"
 caster_level = "17th"
 +++
 
-**Aura** strong evocation; **CL** 17th\
-**Slot** ring; **Price** 200,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 17th
+Slot: ring
+Price: 200,000 gp
+Weight: -
+:::
 
 As the [ring of spell storing](ref/magic-ring/ring-of-spell-storing), except it holds up to 10
 levels of spells.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 100,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 100,000 gp
+:::

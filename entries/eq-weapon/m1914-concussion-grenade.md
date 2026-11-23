@@ -23,6 +23,14 @@ firing pin when thrown. The device detonates at the beginning of your next turn,
 area you targeted. The device relies on a concussive blast to deal damage, and all creatures within
 a 20-foot radius take 3d6 points of bludgeoning damage (Reflex DC 15 for half ).
 
-**Cost** 50 gp **Weight** 1 lb.\
-**Damage** 3d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B; **Special** see description\
-**Category** Explosive; **Proficiency** Exotic
+::: statblock
+Cost: 50 gp
+Weight: 1 lb.
+Damage: 3d6 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B
+Special: see description
+Category: Explosive
+Proficiency: Exotic
+:::

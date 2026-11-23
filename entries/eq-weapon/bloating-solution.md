@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "-"
 +++
 
-**Price** 25 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This thin vial of viscous purple fluid can be thrown at an ooze creature as a splash weapon with a
 range increment of 10 feet. On a direct hit, the solution causes an ooze creature to become bloated

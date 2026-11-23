@@ -19,8 +19,15 @@ weight = "12 lbs."
 This heavy bladed spear is specifically designed for use against giants, who have long reach and the
 ability to soak up large amounts of damage.
 
-**Cost** 25 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 2d6 (medium); **Critical** ×3; **Range** -; **Type** P or S; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 25 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 2d6 (medium)
+Critical: ×3
+Range: -
+Type: P or S
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

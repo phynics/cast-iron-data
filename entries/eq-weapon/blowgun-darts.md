@@ -25,7 +25,11 @@ weight = "-"
 The thin, light darts used in a [blowgun](ref/eq-weapon/blowgun) are usually made of hardwood with a
 stabilizing fletching of down or fur. A dart is usually loaded from the back end just before firing.
 
-**Cost** 0.05 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.05 gp
+Weight: -
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

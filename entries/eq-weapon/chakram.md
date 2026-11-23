@@ -31,7 +31,15 @@ designed for such use; you take a -1 penalty on your attack roll with the weapon
 a DC 15 Reflex save or cut yourself on the blade (half damage, no Strength modifier). You do not
 need to make this save if wearing heavy armor.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** 30 ft.; **Type** S; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Blades, Light; Thrown
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: 30 ft.
+Type: S
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 16,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 16,000 gp
+Weight: -
+:::
 
 This lustrous gold ring is highly malleable and always fits perfectly. After being worn for 24
 hours, the ring allows the wearer to resize one weapon or suit of armor to her size. The ring can
@@ -34,5 +39,7 @@ as the _[resize item](ref/spell/resize-item)_ spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [resize item](ref/spell/resize-item); **Cost**
-8,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [resize item](ref/spell/resize-item)
+Cost: 8,000 gp
+:::

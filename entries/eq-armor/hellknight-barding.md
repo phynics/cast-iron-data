@@ -20,7 +20,10 @@ price = "varies"
 weight = "varies"
 +++
 
-**Price** varies; **Weight** varies
+::: statblock
+Price: varies
+Weight: varies
+:::
 
 [Hellknights](ref/rule/aff-lawknights) often equip their steeds with armor similar to their own.
 Typical barding for Hellknight steeds is spiked (the spikes are ornamental, however, and cannot deal

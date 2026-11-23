@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** ring; **Price** 7,800 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: ring
+Price: 7,800 gp
+Weight: -
+:::
 
 This ring carved from a single piece of cherry wood bears an inscription written in Tien. If the
 wearer can cast _[summon nature's ally](ref/spell/summon-natures-ally)_ spells, the wearer adds
@@ -35,6 +40,7 @@ _[summon nature's ally III](ref/spell/summon-natures-ally-3)_ spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[commune with nature](ref/spell/commune-with-nature),
-[summon nature's ally III](ref/spell/summon-natures-ally-3); **Cost** 3,900 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [commune with nature](ref/spell/commune-with-nature), [summon nature's ally III](ref/spell/summon-natures-ally-3)
+Cost: 3,900 gp
+:::

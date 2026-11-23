@@ -25,7 +25,15 @@ free action that does not provoke an attack of opportunity so long as you have a
 -4 penalty when throwing a stone at an adjacent target and cannot use the weapon to attack creatures
 in your space.
 
-**Cost** 5 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 50 ft.; **Type** B; **Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 5 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 50 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

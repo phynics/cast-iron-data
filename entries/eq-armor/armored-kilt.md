@@ -19,10 +19,16 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Cost** 20 gp **Weight** 10 lbs.\
-**Armor Bonus** +1; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 0%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 20 gp
+Weight: 10 lbs.
+Armor Bonus: +1
+Max Dex Bonus: +6
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 0%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Popular among the Keleshite soldiers of Qadira, the armored kilt is made of a thick cloth skirt with
 bars of steel hanging down from the waist and a ring of horizontal steel plates just above the hem.

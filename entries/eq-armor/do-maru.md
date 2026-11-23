@@ -19,10 +19,16 @@ category = "Armor"
 weight = "30 lbs."
 +++
 
-**Cost** 200 gp **Weight** 30 lbs.\
-**Armor Bonus** +5; **Max Dex Bonus** +4; **Armor Check Penalty** -4\
-**Arcane Spell Failure Chance** 25%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 200 gp
+Weight: 30 lbs.
+Armor Bonus: +5
+Max Dex Bonus: +4
+Armor Check Penalty: -4
+Arcane Spell Failure Chance: 25%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 The lightest of armors typically favored by samurai, do-maru wraps around the wearer's body like a
 short armored coat. It consists primarily of lamellar and lacks a solid breastplate or sleeves,

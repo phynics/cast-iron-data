@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "7th"
 +++
 
-**Aura** moderate conjuration; **CL** 7th\
-**Slot** ring; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 7th
+Slot: ring
+Price: 1,000 gp
+Weight: -
+:::
 
 This rusty iron ring looks like a twisted chain. On command, the ring can produce a rusty, clanky
 length of iron chain ([hardness](ref/umr/hardness) 10, 5 hp, break DC 26). The ring can create no
@@ -34,5 +39,7 @@ is 50 feet. Whatever length of chain she shoots out counts against ring's daily 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [major creation](ref/spell/major-creation);
-**Cost** 500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [major creation](ref/spell/major-creation)
+Cost: 500 gp
+:::

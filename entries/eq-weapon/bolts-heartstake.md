@@ -29,5 +29,9 @@ weaknesses.
 
 A heartstake bolt deals normal damage for the crossbow of its type.
 
-**Cost** 20 gp **Weight** 0.6 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 20 gp
+Weight: 0.6 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

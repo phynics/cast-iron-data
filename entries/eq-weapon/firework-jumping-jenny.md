@@ -17,8 +17,11 @@ price = "15 gp"
 weight = "-"
 +++
 
-**Price** 15 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 15 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This small, round paper packet is filled with a sparkling propellant and pierced with several
 irregular holes, which causes it to dance and spin as the firework burns. One round after you light

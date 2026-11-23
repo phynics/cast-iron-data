@@ -24,8 +24,13 @@ aura = "moderate transmutation"
 caster_level = "7th"
 +++
 
-**Aura** moderate transmutation; **CL** 7th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 7th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This ring functions as a [ring of jumping](ref/magic-ring/ring-of-jumping), except it grants the
 wearer a +10 competence bonus all her [Acrobatics](ref/skill/acrobatics) checks made to make high or
@@ -33,5 +38,7 @@ long jumps.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), creator must have 10 ranks in Acrobatics;
-**Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), creator must have 10 ranks in Acrobatics
+Cost: 5,000 gp
+:::

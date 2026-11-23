@@ -22,7 +22,11 @@ soaked in oil or strong alcohol, they burn brightly for 1 round, illuminating an
 [candle](ref/eq-misc/candle) and creating brief streaks of light as they fly through the air. They
 generally aren't hot enough and burn out too quickly to ignite combustibles.
 
-**Cost** 0.5 cp **Weight** 0.2 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.5 cp
+Weight: 0.2 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

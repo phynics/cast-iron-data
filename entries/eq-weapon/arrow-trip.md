@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "0.2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 0.2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 0.2 lbs.
+Category: Alchemical Weapons
+:::
 
 This squat arrow has a large, bulbous metal tip that expands and flattens in flight. If you hit a
 creature with a trip arrow, the arrow deals no damage but performs a [trip](ref/rule/trip) combat

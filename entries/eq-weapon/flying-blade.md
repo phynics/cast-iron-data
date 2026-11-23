@@ -28,8 +28,15 @@ blade is a clumsy weapon, you receive a -2 penalty on attack rolls with it, but 
 attacks of opportunity provoked by movement, you receive a +2 bonus on attack rolls instead of the
 penalty.
 
-**Cost** 40 gp **Weight** 12 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[performance](ref/misc/performance), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 40 gp
+Weight: 12 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [performance](ref/misc/performance), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

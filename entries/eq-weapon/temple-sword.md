@@ -34,8 +34,15 @@ into the blade or the pommel so that charms, bells, or other holy trinkets can b
 reflect the owner's devotion or to serve as foci for prayer or meditation. Monks are proficient with
 the temple sword.
 
-**Cost** 30 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[monk](ref/misc/monk), [trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Monk
+::: statblock
+Cost: 30 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [monk](ref/misc/monk), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

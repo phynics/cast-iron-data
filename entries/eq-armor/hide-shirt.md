@@ -22,10 +22,16 @@ category = "Armor"
 weight = "18 lbs."
 +++
 
-**Cost** 20 gp **Weight** 18 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +4; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 20 gp
+Weight: 18 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +4
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and
 shoulder coverings protect Shoanti riders without restricting their mobility. The wearer of a hide

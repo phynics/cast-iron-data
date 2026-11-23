@@ -41,8 +41,15 @@ An urumi has reach, so you can strike opponents 10 feet away with it. In additio
 weapons with reach, it can be used against an adjacent foe. Built for flexibility, an urumi takes
 only half damage from attempts to [sunder](ref/rule/sunder) it.
 
-**Cost** 30 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special**
-[distracting](ref/misc/distracting)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails; Monk
+::: statblock
+Cost: 30 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: [distracting](ref/misc/distracting)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

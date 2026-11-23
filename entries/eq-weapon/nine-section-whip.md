@@ -24,9 +24,15 @@ spike. This weapon can be wielded as a single-handed weapon, a two-handed weapon
 Nine-section whips often have colored cloth flags attached to the ends to make them easier to
 control.
 
-**Cost** 8 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** B; **Special**
-[blocking](ref/misc/blocking), [distracting](ref/misc/distracting), [monk](ref/misc/monk),
-[trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails; Monk
+::: statblock
+Cost: 8 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: B
+Special: [blocking](ref/misc/blocking), [distracting](ref/misc/distracting), [monk](ref/misc/monk), [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

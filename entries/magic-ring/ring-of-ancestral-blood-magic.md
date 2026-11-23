@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "10th"
 +++
 
-**Aura** moderate transmutation; **CL** 10th\
-**Slot** ring; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 10th
+Slot: ring
+Price: 4,000 gp
+Weight: -
+:::
 
 While the wearer is [bloodraging](ref/class/bloodrager), he can cast a bonus spell gained from his
 bloodrager bloodline without expending a spell slot. He can do this three times per day, and must
@@ -31,5 +36,7 @@ meet all the other requirements for spellcasting.
 
 ### Construction
 
-**Requirements** [Endurance](ref/feat/endurance), [Extend Spell](ref/feat/extend-spell),
-[Forge Ring](ref/feat/forge-ring), creator must have the bloodrage class feature; **Cost** 2,000 gp
+::: statblock
+Requirements: [Endurance](ref/feat/endurance), [Extend Spell](ref/feat/extend-spell), [Forge Ring](ref/feat/forge-ring), creator must have the bloodrage class feature
+Cost: 2,000 gp
+:::

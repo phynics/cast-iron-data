@@ -27,8 +27,15 @@ This deceptively complex weapon appears to be nothing more than a 12-foot rope a
 be whirled at great speeds, then aimed to strike and pierce opponents with great reach. Once it
 strikes, the wielder can quickly retrieve the weapon with a tug of the rope as a free action.
 
-**Cost** 1 gp **Weight** -\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 20 ft.; **Type** P; **Special**
-[blocking](ref/misc/blocking), [distracting](ref/misc/distracting), [monk](ref/misc/monk)\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Monk; Thrown
+::: statblock
+Cost: 1 gp
+Weight: -
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: P
+Special: [blocking](ref/misc/blocking), [distracting](ref/misc/distracting), [monk](ref/misc/monk)
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

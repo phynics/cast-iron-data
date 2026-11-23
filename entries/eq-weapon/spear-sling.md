@@ -30,10 +30,17 @@ A spear-sling is made with a particular strength rating, like a composite longbo
 Strength bonus granted by the sling's strength rating adds 50 gp to its cost. If you have a negative
 Strength modifier, apply it to damage rolls when you use a spear-sling.
 
-**Cost** 50 gp (+0) **Weight** 2 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** see text; **Type** P; **Special**
-see text\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: 50 gp (+0)
+Weight: 2 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: see text
+Type: P
+Special: see text
+Category: Ranged
+Proficiency: Martial
+:::
 
 ### Composite Bows
 

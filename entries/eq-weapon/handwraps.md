@@ -24,6 +24,14 @@ makes with her hands. A character can't benefit from both handwraps and other it
 enhancement bonuses or weapon special abilities (such as an
 [amulet of mighty fists](ref/magic-wondrous/amulet-of-mighty-fists)) on the same attack.
 
-**Cost** 0.1 gp **Weight** -\
-**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text\
-**Category** Light; **Proficiency** Simple
+::: statblock
+Cost: 0.1 gp
+Weight: -
+Damage: - (small), - (medium)
+Critical: -
+Range: -
+Type: -
+Special: see text
+Category: Light
+Proficiency: Simple
+:::

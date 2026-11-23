@@ -25,7 +25,14 @@ and is suitable both for slashing swings and targeted thrusts. These weapons are
 wielded alongside elven thornblades. Attacks with an elven leafblade gain a +2 bonus on attack rolls
 made to confirm critical hits.
 
-**Cost** 40 gp **Weight** 3 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 18-20/×2; **Range** -; **Type** P or S;
-**Special** see text\
-**Category** Light; **Proficiency** Exotic
+::: statblock
+Cost: 40 gp
+Weight: 3 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P or S
+Special: see text
+Category: Light
+Proficiency: Exotic
+:::

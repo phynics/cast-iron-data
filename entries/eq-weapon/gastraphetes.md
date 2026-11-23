@@ -25,7 +25,14 @@ rolls; you take no penalty for firing a gastraphetes while [prone](ref/rule/pron
 larger creature can use a gastraphetes one size smaller than itself without any support, but takes
 the normal penalty for firing an [inappropriately sized weapon](ref/misc/weapon-size).
 
-**Cost** 65 gp **Weight** 12 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: 65 gp
+Weight: 12 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+:::

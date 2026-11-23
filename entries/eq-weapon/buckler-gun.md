@@ -28,8 +28,16 @@ or a single [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammuni
 awkward construction, a buckler gun is always considered an off-handed weapon. This is an early
 firearm.
 
-**Cost** 750 gp **Weight** 6 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×4; **Range** 10 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1 (5 ft.); **Capacity** 2\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 750 gp
+Weight: 6 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×4
+Range: 10 ft.
+Type: B and P
+Special: -
+Misfire: 1 (5 ft.)
+Capacity: 2
+Category: One-Handed
+Proficiency: Exotic
+:::

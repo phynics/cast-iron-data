@@ -25,8 +25,15 @@ weight = "1 lb."
 This short whip is made of nine knotted thongs about 3 feet in length. A cat-o'-nine-tails deals no
 damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [nonlethal](ref/misc/nonlethal)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [nonlethal](ref/misc/nonlethal)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

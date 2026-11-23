@@ -29,7 +29,15 @@ allows the spring to force the arrow out. Once a shaft is fired, the tube must b
 can be used again. Reloading a tube is a full-round action, or a standard action if the wielder has
 the [Rapid Reload](ref/feat/rapid-reload) feat.
 
-**Cost** 3 gp **Weight** 0.5 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 40 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 3 gp
+Weight: 0.5 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 40 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

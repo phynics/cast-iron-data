@@ -23,8 +23,15 @@ A boarding gaff, or gaff hook, is a long pole with a hook for spearing fish. Pir
 extra, heavier hooks to both ends of boarding gaffs to assist with boarding actions, giving the
 weapon its common name. A boarding gaff can also be used for fishing.
 
-**Cost** 8 gp **Weight** 8 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** P or S;
-**Special** [double](ref/misc/double), [reach](ref/misc/reach), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Polearms
+::: statblock
+Cost: 8 gp
+Weight: 8 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: P or S
+Special: [double](ref/misc/double), [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

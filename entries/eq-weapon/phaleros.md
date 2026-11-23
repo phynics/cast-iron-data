@@ -24,6 +24,14 @@ target as though it had suffered a direct hit from the splash weapon. A phaleros
 reloading one with a splash weapon is a process that takes two rounds and provokes attacks of
 opportunity.
 
-**Cost** 5 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: 5 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Martial
+:::

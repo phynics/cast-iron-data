@@ -23,8 +23,11 @@ price = "30 gp"
 weight = "0.3 lbs."
 +++
 
-**Price** 30 gp; **Weight** 0.3 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: 0.3 lbs.
+Category: Alchemical Weapons
+:::
 
 This thick-shafted arrow contains a reservoir of [holy water](ref/eq-weapon/holy-water) and is
 designed to burst upon impact. A raining arrow damages the target as normal, and also treats the

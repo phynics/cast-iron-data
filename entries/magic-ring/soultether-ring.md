@@ -21,8 +21,13 @@ aura = "strong necromancy"
 caster_level = "17th"
 +++
 
-**Aura** strong necromancy; **CL** 17th\
-**Slot** ring; **Price** 8,000 gp; **Weight** -
+::: statblock
+Aura: strong necromancy
+CL: 17th
+Slot: ring
+Price: 8,000 gp
+Weight: -
+:::
 
 When the wearer of this delicate platinum ring dies, his soul remains adrift in the River of Souls
 and does not proceed to its final judgment in the Boneyard. Until the soultether ring is removed
@@ -34,5 +39,7 @@ consider soultether rings to be sacrilegious, and the creatures destroy the ring
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring); [soul bind](ref/spell/soul-bind) or
-[true resurrection](ref/spell/true-resurrection); **Cost** 4,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring); [soul bind](ref/spell/soul-bind) or [true resurrection](ref/spell/true-resurrection)
+Cost: 4,000 gp
+:::

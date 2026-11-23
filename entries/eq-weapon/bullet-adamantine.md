@@ -19,5 +19,9 @@ weight = "-"
 These expensive bullets are crafted from [adamantine](ref/eq-material/adamantine). They ignore
 [hardness](ref/umr/hardness) 20 or less when attacking objects.
 
-**Cost** 61 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Exotic
+::: statblock
+Cost: 61 gp
+Weight: -
+Category: Ammunition
+Proficiency: Exotic
+:::

@@ -24,6 +24,14 @@ Sleight of Hand check opposed by opponents' Perception checks to keep the wrist 
 If you are proficient with [hand crossbows](ref/eq-weapon/hand-crossbow), you are also proficient
 with wrist launchers.
 
-**Cost** 200 gp **Weight** 1 lb.\
-**Damage** - (small), - (medium); **Critical** -; **Range** 20 ft.; **Type** P; **Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 200 gp
+Weight: 1 lb.
+Damage: - (small), - (medium)
+Critical: -
+Range: 20 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

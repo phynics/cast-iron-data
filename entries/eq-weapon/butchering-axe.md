@@ -21,8 +21,15 @@ long, thick haft that only barely counterbalances its weight. If your Strength i
 17 for a Small or smaller butchering axe), you take a -2 penalty on attacks with it, as you're
 unable to maneuver its daunting size and weight.
 
-**Cost** 65 gp **Weight** 25 lbs.\
-**Damage** 1d12 (small), 3d6 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** see
-text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 65 gp
+Weight: 25 lbs.
+Damage: 1d12 (small), 3d6 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

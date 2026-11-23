@@ -21,8 +21,13 @@ aura = "faint abjuration and transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and transmutation; **CL** 5th\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration and transmutation
+CL: 5th
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 This iron ring's head is shaped like a gilded anvil. In addition to the usual powers of a
 [ring of ferocious action](ref/magic-ring/ring-of-ferocious-action), the wearer can expend 1 charge
@@ -31,5 +36,7 @@ iron or silver. For 1 minute, the imbued weapon can bypass either DR/cold iron o
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [haste](ref/spell/haste),
-[magic weapon](ref/spell/magic-weapon), [stabilize](ref/spell/stabilize); **Cost** 3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [haste](ref/spell/haste), [magic weapon](ref/spell/magic-weapon), [stabilize](ref/spell/stabilize)
+Cost: 3,000 gp
+:::

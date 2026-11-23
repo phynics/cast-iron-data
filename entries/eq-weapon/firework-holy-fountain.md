@@ -17,8 +17,11 @@ price = "110 gp"
 weight = "1 lb."
 +++
 
-**Price** 110 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 110 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This hollow metal cylinder is etched with various religious symbols and contains a reservoir of
 [holy water](ref/eq-weapon/holy-water). When you light its fuse (a move action), a holy fountain

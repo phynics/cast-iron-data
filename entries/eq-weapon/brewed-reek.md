@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Animal musk, spoiled meat, pungent plants, and any other foul-smelling substances on hand go into a
 batch of brewed reek. When boiled, this mixture becomes a thick alchemical slime that adheres to

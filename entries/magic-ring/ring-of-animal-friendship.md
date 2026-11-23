@@ -24,8 +24,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** ring; **Price** 10,800 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: ring
+Price: 10,800 gp
+Weight: -
+:::
 
 A ring of animal friendship always bears some sort of animal-like design in its craftsmanship. On
 command, this ring affects an animal as if the wearer had cast
@@ -34,5 +39,7 @@ friend.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [charm animal](ref/spell/charm-animal); **Cost**
-5,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [charm animal](ref/spell/charm-animal)
+Cost: 5,400 gp
+:::

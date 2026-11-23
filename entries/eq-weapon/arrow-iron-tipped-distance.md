@@ -22,7 +22,11 @@ damage. Iron-tipped distance arrows increase their bow's range increment by 10 f
 penalty on damage dealt per range increment (minimum 1 point of damage). They are sold in leather
 quivers in quantities of 20.
 
-**Cost** 0.05 gp **Weight** 0.2 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.05 gp
+Weight: 0.2 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

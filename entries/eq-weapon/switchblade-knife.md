@@ -20,7 +20,14 @@ This knife has a springloaded blade hidden inside the handle. It can be designed
 another type of object (a DC 15 Perception check reveals the deception). If held in your hand, you
 can activate it as a free action. This weapon is treated as a [dagger](ref/eq-weapon/dagger).
 
-**Cost** 5 gp **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** 10 ft.; **Type** P;
-**Special** -\
-**Category** Light; **Proficiency** Martial
+::: statblock
+Cost: 5 gp
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: 10 ft.
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+:::

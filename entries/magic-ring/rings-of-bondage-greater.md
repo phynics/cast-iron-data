@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "11th"
 +++
 
-**Aura** moderate enchantment; **CL** 11th\
-**Slot** ring; **Price** 42,000 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 11th
+Slot: ring
+Price: 42,000 gp
+Weight: -
+:::
 
 These specialized rings function as [rings of bondage](ref/magic-ring/rings-of-bondage), but a
 command imposed by the wearer of the master ring (including a mutual agreement affecting both
@@ -38,7 +43,7 @@ affected as _[bestow curse](ref/spell/bestow-curse)._
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [bestow curse](ref/spell/bestow-curse),
-[detect thoughts](ref/spell/detect-thoughts), [geas/quest](ref/spell/geas-quest),
-[sanctuary](ref/spell/sanctuary), [share language](ref/spell/share-language),
-[status](ref/spell/status); **Cost** 21,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [bestow curse](ref/spell/bestow-curse), [detect thoughts](ref/spell/detect-thoughts), [geas/quest](ref/spell/geas-quest), [sanctuary](ref/spell/sanctuary), [share language](ref/spell/share-language), [status](ref/spell/status)
+Cost: 21,000 gp
+:::

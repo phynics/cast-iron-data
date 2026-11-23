@@ -24,8 +24,13 @@ aura = "strong abjuration"
 caster_level = "16th"
 +++
 
-**Aura** strong abjuration; **CL** 16th\
-**Slot** ring; **Price** 180,000 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 16th
+Slot: ring
+Price: 180,000 gp
+Weight: -
+:::
 
 This extravagant ring is heavy with precious jewels. As fashions change (or as the wearer's fancy
 shifts), the wearer can alter the appearance of her armor, clothing, and even weaponry at will as a
@@ -37,6 +42,7 @@ throws, and [spell resistance](ref/rule/spell-resistance) 22.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [minor image](ref/spell/minor-image),
-[resistance](ref/spell/resistance), [shield](ref/spell/shield) or
-[shield of faith](ref/spell/shield-of-faith); **Cost** 90,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [minor image](ref/spell/minor-image), [resistance](ref/spell/resistance), [shield](ref/spell/shield) or [shield of faith](ref/spell/shield-of-faith)
+Cost: 90,000 gp
+:::

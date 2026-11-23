@@ -23,7 +23,15 @@ This one-handed axe is short (roughly 1 foot long) and designed for use with one
 throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its
 head. Tomahawks, war hatchets, and other such names usually refer to hand axes.
 
-**Cost** 6 gp **Weight** 3 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes; Tribal
+::: statblock
+Cost: 6 gp
+Weight: 3 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes); [Tribal](ref/ability/weapon-groups#sec-tribal)
+:::

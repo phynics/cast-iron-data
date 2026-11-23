@@ -24,8 +24,15 @@ the opposite side is fitted with a crescent blade that juts out like a pair of b
 monk's spade does many types of damage. The type of damage it deals depends on how it is wielded,
 with the spade side able to bludgeon and slash and the crescent side able to slash and pierce.
 
-**Cost** 20 gp **Weight** 12 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** B or P or S;
-**Special** [double](ref/misc/double), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Monk; Polearms
+::: statblock
+Cost: 20 gp
+Weight: 12 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: B or P or S
+Special: [double](ref/misc/double), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Monk](ref/ability/weapon-groups#sec-monk); [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

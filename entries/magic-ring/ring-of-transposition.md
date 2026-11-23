@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "10th"
 +++
 
-**Aura** moderate conjuration; **CL** 10th\
-**Slot** ring; **Price** 10,800 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 10th
+Slot: ring
+Price: 10,800 gp
+Weight: -
+:::
 
 On command, the wearer of this ring can touch it to another ring, magical or mundane, and bind it to
 the ring of transposition. Once per day, the wearer of the ring of transposition can speak a command
@@ -35,5 +40,7 @@ a successful [dispel](ref/spell/dispel-magic) check against the caster level of 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door);
-**Cost** 5,400 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [dimension door](ref/spell/dimension-door)
+Cost: 5,400 gp
+:::

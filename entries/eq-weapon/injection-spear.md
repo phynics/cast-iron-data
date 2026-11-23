@@ -26,6 +26,14 @@ the spear hits a target. A non-proficient user can wield an injection spear as a
 identical to a normal spear, save that it cannot be thrown, weighs 8 pounds, cannot be used to
 brace, and costs 60 gp.
 
-**Cost** 60 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special** -\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 60 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: -
+Category: Two-Handed
+Proficiency: Exotic
+:::

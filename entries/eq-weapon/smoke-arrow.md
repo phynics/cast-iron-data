@@ -23,7 +23,11 @@ This arrow is actually a specially-shaped [smokestick](ref/eq-misc/smokestick) t
 from a bow. It trails smoke as it flies, and creates a 5-foot cube of smoke where it strikes. It
 otherwise functions like a normal arrow in terms of damage, range, and so on.
 
-**Cost** 10 gp **Weight** 0.15 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 10 gp
+Weight: 0.15 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Weight is based on 20 normal arrows weighing three pounds.

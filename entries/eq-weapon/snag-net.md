@@ -29,8 +29,15 @@ check to trip against that opponent; if you succeed, you may trip your opponent 
 piercing damage to it. The [concentration](ref/rule/concentration) DC to cast while entangled in a
 snag net is 17 + the spell's level. The Escape Artist DC to escape a snag net is 22.
 
-**Cost** 30 gp **Weight** 10 lbs.\
-**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** P; **Special**
-[trip](ref/misc/trip), see text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 30 gp
+Weight: 10 lbs.
+Damage: - (small), - (medium)
+Critical: -
+Range: 10 ft.
+Type: P
+Special: [trip](ref/misc/trip), see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

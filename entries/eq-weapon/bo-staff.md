@@ -22,8 +22,15 @@ weight = "3 lbs."
 Similar to a [quarterstaff](ref/eq-weapon/quarterstaff), only more slender and tapered at one end,
 the bo staff is both a defensive device and a weapon.
 
-**Cost** 1 gp **Weight** 3 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[blocking](ref/misc/blocking), [double](ref/misc/double), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Monk
+::: statblock
+Cost: 1 gp
+Weight: 3 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [blocking](ref/misc/blocking), [double](ref/misc/double), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

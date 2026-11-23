@@ -25,7 +25,14 @@ pull herself along the rope if the bolt is secure. When used with a barbed bolt,
 a +2 bonus on grapple combat maneuver checks to pull the target toward you. When used with a
 grappling bolt, the winch provides a +2 bonus on Climb checks.
 
-**Cost** 400 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 400 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+:::

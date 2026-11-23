@@ -28,7 +28,15 @@ weight = "1 lb."
 This close combat weapon is just a sharpened piece of wood. [Iron spikes](ref/eq-misc/iron-spike)
 that are used as weapons deal damage as wooden stakes.
 
-**Cost** - **Weight** 1 lb.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** 10 ft.; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Close
+::: statblock
+Cost: -
+Weight: 1 lb.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: P
+Special: -
+Category: Light
+Proficiency: Simple
+Weapon Group: [Close](ref/ability/weapon-groups#sec-close)
+:::

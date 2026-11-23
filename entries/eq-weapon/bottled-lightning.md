@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Electricity crackles along a metal filament inside this small glass bottle. You can open the bottle
 as a standard action, unleashing a small bolt of lightning toward an enemy within 20 feet of you.

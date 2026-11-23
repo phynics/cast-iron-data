@@ -25,10 +25,17 @@ gain a +1 circumstance bonus on attack rolls with a reflex bow. All reflex bows 
 scores in the same way as composite bows. Effects that apply to both longbows and shortbows also
 apply to reflex bows.
 
-**Cost** 125 gp (+0) **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 100 ft.; **Type** P; **Special**
-see text\
-**Category** Ranged; **Proficiency** Martial
+::: statblock
+Cost: 125 gp (+0)
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 100 ft.
+Type: P
+Special: see text
+Category: Ranged
+Proficiency: Martial
+:::
 
 ### Composite Bows
 

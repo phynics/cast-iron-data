@@ -24,8 +24,13 @@ aura = "strong universal"
 caster_level = "20th"
 +++
 
-**Aura** strong universal; **CL** 20th\
-**Slot** ring; **Price** 120,000 gp; **Weight** -
+::: statblock
+Aura: strong universal
+CL: 20th
+Slot: ring
+Price: 120,000 gp
+Weight: -
+:::
 
 This ring is set with three rubies. Each ruby stores a _[wish](ref/spell/wish)_ spell, activated by
 the ring. When a _[wish](ref/spell/wish)_ is used, that ruby disappears. For a randomly generated
@@ -34,5 +39,7 @@ becomes a nonmagical item.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [miracle](ref/spell/miracle) or
-[wish](ref/spell/wish); **Cost** 97,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [miracle](ref/spell/miracle) or [wish](ref/spell/wish)
+Cost: 97,500 gp
+:::

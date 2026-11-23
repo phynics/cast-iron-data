@@ -19,7 +19,11 @@ weight = "0.5 lbs."
 These [sling bullets](ref/eq-weapon/sling-bullets) are honeycombed with overlapping perforations
 that cause them to emit an eerie moan audible within 500 feet of their flight path.
 
-**Cost** 0.2 gp **Weight** 0.5 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.2 gp
+Weight: 0.5 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 20.

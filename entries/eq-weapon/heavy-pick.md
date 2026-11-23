@@ -23,7 +23,15 @@ This variant of the [light pick](ref/eq-weapon/light-pick) has a longer handle a
 one or two hands. It is a common, inexpensive weapon for mounted soldiers since it can be used
 effectively from horseback.
 
-**Cost** 8 gp **Weight** 6 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×4; **Range** -; **Type** P; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 8 gp
+Weight: 6 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×4
+Range: -
+Type: P
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

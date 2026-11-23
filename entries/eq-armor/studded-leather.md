@@ -19,10 +19,16 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 25 gp **Weight** 20 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 25 gp
+Weight: 20 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +5
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 An improved form of [leather](ref/eq-armor/leather) armor, studded leather armor is covered with
 dozens of metal protuberances. While these rounded studs offer little defense individually, in the

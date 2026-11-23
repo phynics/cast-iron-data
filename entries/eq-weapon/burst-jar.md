@@ -17,8 +17,11 @@ price = "35 gp"
 weight = "1 lb."
 +++
 
-**Price** 35 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 35 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This simple clay pot has two sealed, airtight inner chambers containing alchemical liquids. The jar
 is thrown as a [splash weapon](ref/rule/throw-splash-weapon). It shatters on impact, covering the

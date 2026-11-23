@@ -19,10 +19,16 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 25 gp **Weight** 20 lbs.\
-**Armor Bonus** +3; **Max Dex Bonus** +5; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 15%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 25 gp
+Weight: 20 lbs.
+Armor Bonus: +3
+Max Dex Bonus: +5
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 15%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Most wealthy countries with standing armies have a different uniform for use in showy noncombat
 situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by

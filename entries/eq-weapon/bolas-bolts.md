@@ -32,5 +32,9 @@ DC of the Strength check to break the bolas to 20.
 If the attack trips and entangles a target, the creature cannot move from its square until it breaks
 free of the bolas cords.
 
-**Cost** 20 gp **Weight** 4 lbs.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 20 gp
+Weight: 4 lbs.
+Category: Ammunition
+Proficiency: Ammunition
+:::

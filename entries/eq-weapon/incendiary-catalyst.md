@@ -17,8 +17,11 @@ price = "40 gp"
 weight = "1 lb."
 +++
 
-**Price** 40 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Incendiary catalyst can be thrown at a creature as a ranged touch attack with a range increment of
 10 feet. On a hit, the target is doused with accelerants that give the target vulnerability to fire

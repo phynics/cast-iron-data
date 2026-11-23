@@ -17,8 +17,11 @@ price = "150 gp"
 weight = "1 lb."
 +++
 
-**Price** 150 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 150 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 A stormstone functions like a [thunderstone](ref/eq-weapon/thunderstone), but deals 1d6 points of
 sonic damage in addition to [deafening](ref/misc/deafened) creatures; a successful DC 15 Fortitude

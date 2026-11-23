@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "0.2 lbs."
 +++
 
-**Price** 50 gp; **Weight** 0.2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 0.2 lbs.
+Category: Alchemical Weapons
+:::
 
 These carefully crafted wooden crossbow bolts have a hollow core filled with alchemist's fire. On a
 hit, an alchemical fire bolt deals 1d4 points of fire damage in addition to its normal damage.

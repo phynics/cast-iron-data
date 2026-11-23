@@ -19,10 +19,16 @@ category = "Armor"
 weight = "35 lbs."
 +++
 
-**Cost** 250 gp **Weight** 35 lbs.\
-**Armor Bonus** +7; **Max Dex Bonus** +1; **Armor Check Penalty** -6\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 250 gp
+Weight: 35 lbs.
+Armor Bonus: +7
+Max Dex Bonus: +1
+Armor Check Penalty: -6
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 Banded mail is made up of overlapping strips of metal, fastened to a sturdy backing of leather and
 chain. The size of the metal plates, interconnected metal bands, and layers of underlying armor make

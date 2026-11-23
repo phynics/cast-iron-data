@@ -21,8 +21,13 @@ aura = "faint evocation"
 caster_level = "3rd"
 +++
 
-**Aura** faint evocation; **CL** 3rd\
-**Slot** ring; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint evocation
+CL: 3rd
+Slot: ring
+Price: 1,000 gp
+Weight: -
+:::
 
 This spiraling silver ring glows briefly when a living creature puts it on. If its wearer of a ring
 of the faithful dead is slain by a creature with the create spawn ability, the wearer does not rise
@@ -33,5 +38,7 @@ this protection.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [sanctify corpse](ref/spell/sanctify-corpse);
-**Cost** 500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [sanctify corpse](ref/spell/sanctify-corpse)
+Cost: 500 gp
+:::

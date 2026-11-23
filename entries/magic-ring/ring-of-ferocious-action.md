@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "5th"
 +++
 
-**Aura** faint transmutation; **CL** 5th\
-**Slot** ring; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 5th
+Slot: ring
+Price: 3,000 gp
+Weight: -
+:::
 
 This ring allows its wearer to persevere through physical or mental trauma that hampers his actions.
 Once per day, when the wearer gains the [staggered](ref/misc/staggered) condition from an enemy's
@@ -35,5 +40,7 @@ multiple times.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [haste](ref/spell/haste),
-[stabilize](ref/spell/stabilize); **Cost** 1,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [haste](ref/spell/haste), [stabilize](ref/spell/stabilize)
+Cost: 1,500 gp
+:::

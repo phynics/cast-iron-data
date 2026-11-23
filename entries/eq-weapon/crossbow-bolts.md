@@ -28,7 +28,11 @@ A crossbow bolt used as a melee weapon is treated as a light
 that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts,
 which are sometimes called "quarrels."
 
-**Cost** 0.1 gp **Weight** 0.1 lb.\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: 0.1 lb.
+Category: Ammunition
+Proficiency: Ammunition
+:::
 
 **Note:** Stats are an extrapolation from the original quantity of 10.

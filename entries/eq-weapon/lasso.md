@@ -32,7 +32,15 @@ lasso is 10 + the spell level being cast. An entangled creature can slip free wi
 DC 23 Strength check to break it. On a successful hit, the lasso tightens; to use it again you must
 spend a standard action sliding the knot to enlarge the loop.
 
-**Cost** 0.1 gp **Weight** 5 lbs.\
-**Damage** - (small), - (medium); **Critical** -; **Range** -; **Type** -; **Special** see text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 0.1 gp
+Weight: 5 lbs.
+Damage: - (small), - (medium)
+Critical: -
+Range: -
+Type: -
+Special: see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

@@ -25,7 +25,15 @@ weight = "6 lbs."
 This sword is used almost exclusively by the life-hating [urdefhans](ref/monster/urdefhan). The
 sword is the size of a longsword but consists of two serrated blades placed side by side.
 
-**Cost** 25 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 25 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

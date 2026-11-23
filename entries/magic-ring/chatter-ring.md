@@ -20,8 +20,12 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: ring
+Weight: -
+:::
 
 This ring appears as a normal ring of eloquence, with four different languages (usually Common,
 Dwarven, Elven, and Gnome) etched around the inside of a silver band, and the wearer of a chatter
@@ -33,4 +37,7 @@ benefits from a [remove curse](ref/spell/remove-curse) spell or similar effect.
 
 ### Construction
 
-**Requirements** [ring of eloquence](ref/magic-ring/ring-of-eloquence); **Cost** -
+::: statblock
+Requirements: [ring of eloquence](ref/magic-ring/ring-of-eloquence)
+Cost: -
+:::

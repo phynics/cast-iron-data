@@ -38,7 +38,15 @@ A halfling sling staff can be used as a simple weapon that deals bludgeoning dam
 a [club](ref/eq-weapon/club) of its size. [Halflings](ref/race/halfling) treat halfling sling staves
 as martial weapons.
 
-**Cost** 20 gp **Weight** 3 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** 80 ft.; **Type** B; **Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 20 gp
+Weight: 3 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: 80 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

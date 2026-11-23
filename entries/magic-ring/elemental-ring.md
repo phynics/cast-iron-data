@@ -21,8 +21,13 @@ aura = "strong conjuration"
 caster_level = "15th"
 +++
 
-**Aura** strong conjuration; **CL** 15th\
-**Slot** ring; **Price** 30,000 gp; **Weight** 1 lb.
+::: statblock
+Aura: strong conjuration
+CL: 15th
+Slot: ring
+Price: 30,000 gp
+Weight: 1 lb.
+:::
 
 This ornate ring has a thick iron band covered in sigils of calling, and is set with a large glowing
 gemstone that appears to be an elemental gem. The ring serves as a gateway for a specific elder
@@ -39,5 +44,7 @@ become a valueless hunk of lead.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally),
-[planar binding](ref/spell/planar-binding); **Cost** 15,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally), [planar binding](ref/spell/planar-binding)
+Cost: 15,000 gp
+:::

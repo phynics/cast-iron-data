@@ -22,8 +22,15 @@ scimitar whose blade splits into two about two-thirds of the way toward the tip.
 score is less than 15, you take a -2 penalty on attacks rolls with a split-blade sword, as you're
 unable to maneuver its unusual blade.
 
-**Cost** 200 gp **Weight** 8 lbs\
-**Damage** 1d10 (small), 2d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [trip](ref/misc/trip), see text\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 200 gp
+Weight: 8 lbs
+Damage: 1d10 (small), 2d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [trip](ref/misc/trip), see text
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

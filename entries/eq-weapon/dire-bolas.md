@@ -23,7 +23,14 @@ you need both hands to swing it around your head, and considerable time to get t
 speed. Making a ranged attack with it is a full-round action. You can use a dire bolas to trip a
 creature whose size is up to three size categories larger than yours.
 
-**Cost** 20 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** 10 ft.; **Type** B; **Special**
-[nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip)\
-**Category** Ranged; **Proficiency** Exotic
+::: statblock
+Cost: 20 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: 10 ft.
+Type: B
+Special: [nonlethal](ref/misc/nonlethal), [trip](ref/misc/trip)
+Category: Ranged
+Proficiency: Exotic
+:::

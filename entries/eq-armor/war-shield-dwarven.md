@@ -16,9 +16,14 @@ category = "Armor"
 weight = "8 lbs."
 +++
 
-**Cost** 50 gp **Weight** 8 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 20%
+::: statblock
+Cost: 50 gp
+Weight: 8 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 20%
+:::
 
 This shield's sides are cut into jagged angles and honed to razor sharpness. Dwarven skirmishers
 often wield these shields in pairs, savagely hacking opponents to pieces, while some dwarven

@@ -23,8 +23,15 @@ This very long, two-handed weapon has a slender but wickedly sharp 4-foot-long b
 is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders
 from their mounts or set to receive a charge.
 
-**Cost** 60 gp **Weight** 8 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 18-20/×2; **Range** -; **Type** S or P;
-**Special** [brace](ref/misc/brace)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Polearms
+::: statblock
+Cost: 60 gp
+Weight: 8 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S or P
+Special: [brace](ref/misc/brace)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

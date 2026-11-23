@@ -32,8 +32,15 @@ same manner as you would a normal crossbow of the same size. However, you must f
 two hands in order to use the reloading lever, and you must use two hands to load a new case of
 bolts.
 
-**Cost** 400 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** 120 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 400 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: 120 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

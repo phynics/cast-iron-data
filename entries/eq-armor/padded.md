@@ -19,10 +19,16 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Cost** 5 gp **Weight** 10 lbs.\
-**Armor Bonus** +1; **Max Dex Bonus** +8; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 5 gp
+Weight: 10 lbs.
+Armor Bonus: +1
+Max Dex Bonus: +8
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 5%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 More than simple clothing, padded armor combines heavy, quilted cloth and layers of densely packed
 stuffing to create a cheap and basic protection. It is typically worn by those not intending to face

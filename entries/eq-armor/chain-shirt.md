@@ -19,9 +19,15 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 100 gp **Weight** 25 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +4; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 100 gp
+Weight: 25 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +4
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 20%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 Covering the torso, this shirt is made up of thousands of interlocking metal rings.

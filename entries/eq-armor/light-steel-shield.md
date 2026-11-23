@@ -19,9 +19,14 @@ category = "Armor"
 weight = "6 lbs."
 +++
 
-**Cost** 9 gp **Weight** 6 lbs.\
-**Shield Bonus** +1; **Max Dex Bonus** —; **Armor Check Penalty** -1\
-**Arcane Spell Failure Chance** 5%
+::: statblock
+Cost: 9 gp
+Weight: 6 lbs.
+Shield Bonus: +1
+Max Dex Bonus: —
+Armor Check Penalty: -1
+Arcane Spell Failure Chance: 5%
+:::
 
 You strap a light steel shield to your forearm and grip it with your hand. A light steel shield's
 weight lets you carry other items in that hand, although you cannot use weapons with it. Whether

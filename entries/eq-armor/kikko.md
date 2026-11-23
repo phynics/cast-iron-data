@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 250 gp **Weight** 25 lbs.\
-**Armor Bonus** +5; **Max Dex Bonus** +4; **Armor Check Penalty** -3\
-**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 250 gp
+Weight: 25 lbs.
+Armor Bonus: +5
+Max Dex Bonus: +4
+Armor Check Penalty: -3
+Arcane Spell Failure Chance: 20%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 Kikko armor consists of a clever arrangement of hexagonal plates made from iron and sewn to cloth,
 granting the wearer greater flexibility than that provided by many armors that afford similar

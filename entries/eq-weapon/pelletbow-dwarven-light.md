@@ -30,8 +30,15 @@ Feats and special abilities that don't involve proficiency (that don't depend on
 damage or firing bolts) that apply to a heavy crossbow also apply to a dwarven heavy pelletbow, and
 those that apply to a light crossbow also apply to a dwarven light pelletbow.
 
-**Cost** 50 gp **Weight** 4 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×3; **Range** 40 ft.; **Type** B;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 50 gp
+Weight: 4 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×3
+Range: 40 ft.
+Type: B
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

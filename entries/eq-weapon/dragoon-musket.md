@@ -20,8 +20,16 @@ This long-barreled musket shoots more precisely than other muskets but is slight
 a critical hit. It can fire only [dragoon cartridges](ref/eq-weapon/dragoon-cartridge) or specially
 modified [mage shot](ref/magic-weapon/mage-shot).
 
-**Cost** 2,000 gp **Weight** 12 lbs.\
-**Damage** 1d10 (small), 1d12 (medium); **Critical** ×3; **Range** 60 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-2 (5 ft.); **Capacity** 3\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 2,000 gp
+Weight: 12 lbs.
+Damage: 1d10 (small), 1d12 (medium)
+Critical: ×3
+Range: 60 ft.
+Type: B and P
+Special: -
+Misfire: 1-2 (5 ft.)
+Capacity: 3
+Category: Two-Handed
+Proficiency: Exotic
+:::

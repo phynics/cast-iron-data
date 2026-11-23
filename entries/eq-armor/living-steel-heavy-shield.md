@@ -16,9 +16,14 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Cost** 30 gp **Weight** 15 lbs.\
-**Shield Bonus** +2; **Max Dex Bonus** —; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 15%
+::: statblock
+Cost: 30 gp
+Weight: 15 lbs.
+Shield Bonus: +2
+Max Dex Bonus: —
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 15%
+:::
 
 This nonmagical [heavy steel shield](ref/eq-armor/heavy-steel-shield) is made out of
 [living steel](ref/eq-material/living-steel). It has no enhancement bonus, but its material and

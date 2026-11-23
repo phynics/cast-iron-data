@@ -21,8 +21,15 @@ seax is the size of a short sword, and has a broad blade with a distinctive trap
 your Strength score is less than 15, you take a -2 penalty on attack rolls with a broken-back seax,
 as you're unable to put enough force into the blows to land them effectively.
 
-**Cost** 40 gp **Weight** 4 lbs\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** 19-20/×2; **Range** -; **Type** P & S;
-**Special** see text\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 40 gp
+Weight: 4 lbs
+Damage: 1d8 (small), 1d10 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P & S
+Special: see text
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

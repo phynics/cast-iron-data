@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "1 lb."
 +++
 
-**Price** 100 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This hollow clay container holds black powder, a slow-burning fuse, and rock salt or hard beads of
 resin or rubber. Lighting the fuse is a move action; 1d3 rounds later, the sting grenade explodes,

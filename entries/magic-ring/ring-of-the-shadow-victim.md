@@ -21,8 +21,13 @@ aura = "moderate illusion"
 caster_level = "7th"
 +++
 
-**Aura** moderate illusion; **CL** 7th\
-**Slot** ring; **Price** 101,000 gp; **Weight** -
+::: statblock
+Aura: moderate illusion
+CL: 7th
+Slot: ring
+Price: 101,000 gp
+Weight: -
+:::
 
 This smooth, lusterless gray ring is crafted of dark glass and has the image of a body carved into
 its band. Once per day, the wearer of this ring can perform a complex mental and verbal ritual,
@@ -61,6 +66,7 @@ unchanged from when the initial ritual was completed, appears in its place.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [alter self](ref/spell/alter-self),
-[gentle repose](ref/spell/gentle-repose), [lesser simulacrum](ref/spell/simulacrum-lesser); **Cost**
-50,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [alter self](ref/spell/alter-self), [gentle repose](ref/spell/gentle-repose), [lesser simulacrum](ref/spell/simulacrum-lesser)
+Cost: 50,500 gp
+:::

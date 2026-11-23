@@ -17,8 +17,11 @@ price = "200 gp"
 weight = "1 lb."
 +++
 
-**Price** 200 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 200 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Once its fuse has been lit, this hoop-shaped firework emits colorful sparks from a series of
 outward-angled wooden tubes. It can then be rolled along the ground or thrown as a

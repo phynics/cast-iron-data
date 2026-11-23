@@ -20,9 +20,13 @@ aura = "faint abjuration and divination"
 caster_level = "5th"
 +++
 
-**Aura** faint abjuration and divination; **CL** 5th\
-**Slot** ring; **Price** 8,000 gp (+1), 17,000 gp (+2), 27,000 gp (+3), 38,000 gp (+4), 50,000 gp
-(+5); **Weight** -
+::: statblock
+Aura: faint abjuration and divination
+CL: 5th
+Slot: ring
+Price: 8,000 gp (+1), 17,000 gp (+2), 27,000 gp (+3), 38,000 gp (+4), 50,000 gp (+5)
+Weight: -
+:::
 
 These rings are said to have first been forged in Rahadoum by the Council of Elders to help root out
 the hidden faithful and other practitioners of the divine. A ring of the godless grants a luck bonus
@@ -42,8 +46,7 @@ turn, and it detects only divine magic or divine spellcasting ability.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [arcane sight](ref/spell/arcane-sight),
-[detect magic](ref/spell/detect-magic), [spell resistance](ref/spell/spell-resistance), creator
-cannot be a divine spellcaster, creator must be of a level at least three times higher than the
-bonus of the ring; **Cost** 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp
-(+5)
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [arcane sight](ref/spell/arcane-sight), [detect magic](ref/spell/detect-magic), [spell resistance](ref/spell/spell-resistance), creator cannot be a divine spellcaster, creator must be of a level at least three times higher than the bonus of the ring
+Cost: 4,000 gp (+1), 8,500 gp (+2), 13,500 gp (+3), 19,000 gp (+4), 25,000 gp (+5)
+:::

@@ -24,8 +24,13 @@ aura = "moderate evocation"
 caster_level = "11th"
 +++
 
-**Aura** moderate evocation; **CL** 11th\
-**Slot** ring; **Price** 4,000 gp; **Weight** -
+::: statblock
+Aura: moderate evocation
+CL: 11th
+Slot: ring
+Price: 4,000 gp
+Weight: -
+:::
 
 Upon first examination, this ring seems to be a
 [ring of spell storing](ref/magic-ring/ring-of-spell-storing). However, while it allows a single
@@ -37,5 +42,7 @@ before) may be placed into it again.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[imbue with spell ability](ref/spell/imbue-with-spell-ability); **Cost** 2,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [imbue with spell ability](ref/spell/imbue-with-spell-ability)
+Cost: 2,000 gp
+:::

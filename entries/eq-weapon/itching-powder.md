@@ -20,8 +20,11 @@ price = "60 gp"
 weight = "2 lbs."
 +++
 
-**Price** 60 gp; **Weight** 2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 60 gp
+Weight: 2 lbs.
+Category: Alchemical Weapons
+:::
 
 This fine gray powder causes targets to suffer from uncontrollable itching until they spend at least
 1 round washing it off. Throwing a packet of itching powder is a

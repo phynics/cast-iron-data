@@ -17,8 +17,11 @@ price = "20 gp"
 weight = "1 lb."
 +++
 
-**Price** 20 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 20 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This flask of alchemical powder reacts to the elemental power in suli blood. Adding at least 1 hit
 point worth of suli blood to it creates an alchemical [splash weapon](ref/rule/throw-splash-weapon).

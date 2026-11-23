@@ -21,8 +21,13 @@ aura = "moderate transmutation"
 caster_level = "6th"
 +++
 
-**Aura** moderate transmutation; **CL** 6th\
-**Slot** ring; **Price** 6,000 gp; **Weight** -
+::: statblock
+Aura: moderate transmutation
+CL: 6th
+Slot: ring
+Price: 6,000 gp
+Weight: -
+:::
 
 Created in pairs, these simple golden rings allow for short-range communication between the wearers.
 The listed and cost are for both rings. As long as the wearers are within 1 mile of one another,
@@ -36,4 +41,7 @@ voices of other creatures.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [message](ref/spell/message); **Cost** 3,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [message](ref/spell/message)
+Cost: 3,000 gp
+:::

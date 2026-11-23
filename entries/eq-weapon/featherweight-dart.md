@@ -26,5 +26,9 @@ finding the dart itself at the location where it fell requires a successful DC 1
 This ammunition can be used in both [blowguns](ref/eq-weapon/blowgun) and
 [wrist launchers](ref/eq-weapon/wrist-launcher).
 
-**Cost** 0.1 gp **Weight** -\
-**Category** Ammunition; **Proficiency** Ammunition
+::: statblock
+Cost: 0.1 gp
+Weight: -
+Category: Ammunition
+Proficiency: Ammunition
+:::

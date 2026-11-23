@@ -22,7 +22,14 @@ weight = "5 lbs."
 This versatile weapon looks like a heavy-headed axe, but a proficient wielder can use the blunt back
 of the head to deal bludgeoning damage.
 
-**Cost** 25 gp **Weight** 5 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×3; **Range** 10 ft.; **Type** B or S;
-**Special** -\
-**Category** Light; **Proficiency** Exotic
+::: statblock
+Cost: 25 gp
+Weight: 5 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×3
+Range: 10 ft.
+Type: B or S
+Special: -
+Category: Light
+Proficiency: Exotic
+:::

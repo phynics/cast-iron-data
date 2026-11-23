@@ -26,8 +26,15 @@ or clothing, the attacker makes a [trip](ref/rule/trip) attempt. If successful, 
 fall [prone](ref/rule/prone), but instead is snagged and stumbles forward, leaving the victim
 [flat-footed](ref/rule/flat-footed) for the remainder of the round.
 
-**Cost** 50 gp **Weight** 7 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** S; **Special**
-[disarm](ref/misc/disarm), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy; Monk
+::: statblock
+Cost: 50 gp
+Weight: 7 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: [disarm](ref/misc/disarm), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

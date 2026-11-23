@@ -26,8 +26,15 @@ otherwise, it functions as a [greatclub](ref/eq-weapon/greatclub). Inserting a t
 weapon's compartment is a standard action, and powers the weapon for 24 hours, after which the
 thunderstone is consumed.
 
-**Cost** 70 gp **Weight** 15 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×2; **Range** -; **Type** B; **Special** see
-text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Hammers
+::: statblock
+Cost: 70 gp
+Weight: 15 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Hammers](ref/ability/weapon-groups#sec-hammers)
+:::

@@ -18,8 +18,15 @@ weight = "2 lbs."
 
 The hanbo is a staff less than a yard long, often carved to look like a walking stick.
 
-**Cost** 1 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[monk](ref/misc/monk), [trip](ref/misc/trip)\
-**Category** Light; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Monk
+::: statblock
+Cost: 1 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [monk](ref/misc/monk), [trip](ref/misc/trip)
+Category: Light
+Proficiency: Simple
+Weapon Group: [Monk](ref/ability/weapon-groups#sec-monk)
+:::

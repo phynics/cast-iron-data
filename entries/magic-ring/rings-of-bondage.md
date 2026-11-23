@@ -21,8 +21,13 @@ aura = "moderate enchantment"
 caster_level = "7th"
 +++
 
-**Aura** moderate enchantment; **CL** 7th\
-**Slot** ring; **Price** 18,200 gp; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 7th
+Slot: ring
+Price: 18,200 gp
+Weight: -
+:::
 
 These rings are forged in pairs, establishing a mental connection between the two creatures wearing
 them, designating one as the master and the other as the servant. The listed and cost are for both
@@ -55,6 +60,7 @@ A target can have a ring of bondage forcibly placed on its finger, but only if t
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts),
-[lesser geas](ref/spell/geas-lesser), [sanctuary](ref/spell/sanctuary),
-[share language](ref/spell/share-language), [status](ref/spell/status); **Cost** 9,100 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [detect thoughts](ref/spell/detect-thoughts), [lesser geas](ref/spell/geas-lesser), [sanctuary](ref/spell/sanctuary), [share language](ref/spell/share-language), [status](ref/spell/status)
+Cost: 9,100 gp
+:::

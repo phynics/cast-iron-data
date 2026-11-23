@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "1 lb."
 +++
 
-**Price** 50 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 Harvested and concentrated from the remains of slain [ghasts](ref/monster/ghoul), this foul-smelling
 powder is kept in tightly sealed flasks. It is thrown as a

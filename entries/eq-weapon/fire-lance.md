@@ -25,7 +25,16 @@ and targets AC rather than touch AC. A fire lance is always treated as having th
 for the purpose of determining the effects of a misfire. A fire lance uses a javelin and 2 doses of
 [black powder](ref/eq-weapon/black-powder-dose) as ammunition. This is an early firearm.
 
-**Cost** 25 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×4; **Range** 10 ft.; **Type** P; **Special** -\
-**Misfire** 1-4 (5 ft.); **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 25 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×4
+Range: 10 ft.
+Type: P
+Special: -
+Misfire: 1-4 (5 ft.)
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

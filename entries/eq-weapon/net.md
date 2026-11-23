@@ -40,7 +40,15 @@ make a normal ranged touch attack roll. After the net is unfolded, you take a -4
 rolls with it. It takes 2 rounds for a proficient user to fold a net and twice that long for a
 nonproficient one to do so.
 
-**Cost** 20 gp **Weight** 6 lbs.\
-**Damage** - (small), - (medium); **Critical** -; **Range** 10 ft.; **Type** -; **Special** see text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Thrown
+::: statblock
+Cost: 20 gp
+Weight: 6 lbs.
+Damage: - (small), - (medium)
+Critical: -
+Range: 10 ft.
+Type: -
+Special: see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

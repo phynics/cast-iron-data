@@ -24,8 +24,13 @@ aura = "strong evocation"
 caster_level = "13th"
 +++
 
-**Aura** strong evocation; **CL** 13th\
-**Slot** ring; **Price** 15,000 gp; **Weight** -
+::: statblock
+Aura: strong evocation
+CL: 13th
+Slot: ring
+Price: 15,000 gp
+Weight: -
+:::
 
 Once per day, the wearer of this charred bone ring may, as an immediate action, cause it to detonate
 in a 30-foot-radius [burst](ref/misc/burst) that deals 10d6 points of fire damage (Reflex DC 14
@@ -35,5 +40,7 @@ explosion never destroys the ring.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [Quicken Spell](ref/feat/quicken-spell),
-[fireball](ref/spell/fireball); **Cost** 7,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [Quicken Spell](ref/feat/quicken-spell), [fireball](ref/spell/fireball)
+Cost: 7,500 gp
+:::

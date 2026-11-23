@@ -34,8 +34,15 @@ weight = "1 lb."
 This short, curved blade was created by goblins, who often drill numerous holes into it in an
 attempt to reduce its weight. Most dogslicers are sized for Small creatures.
 
-**Cost** 8 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[fragile](ref/misc/fragile)\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 8 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [fragile](ref/misc/fragile)
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

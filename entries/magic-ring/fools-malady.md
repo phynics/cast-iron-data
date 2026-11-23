@@ -21,8 +21,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** ring; **Price** 900 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: ring
+Price: 900 gp
+Weight: -
+:::
 
 This simple lead ring is carved with a twisting face. When worn, the ring causes a wearer to develop
 a single deformity over the course of 1 minute. The exact malformation is determined when the ring
@@ -37,5 +42,7 @@ associated with the condition.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [alter self](ref/spell/alter-self); **Cost** 450
-gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [alter self](ref/spell/alter-self)
+Cost: 450 gp
+:::

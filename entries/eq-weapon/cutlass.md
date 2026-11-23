@@ -28,7 +28,15 @@ weight = "4 lbs."
 This short, curved sword is favored by seafarers for close-quarters combat. It is treated as a
 [scimitar](ref/eq-weapon/scimitar) for any effects that apply to scimitars.
 
-**Cost** 15 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 15 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

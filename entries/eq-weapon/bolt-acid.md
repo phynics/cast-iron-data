@@ -20,8 +20,11 @@ price = "40 gp"
 weight = "0.2 lbs."
 +++
 
-**Price** 40 gp; **Weight** 0.2 lbs.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 40 gp
+Weight: 0.2 lbs.
+Category: Alchemical Weapons
+:::
 
 These metal crossbow bolts have a glass section in the middle filled with acid. On a hit, an acid
 bolt deals 1d4 points of acid damage in addition to its normal damage. Acid bolts do not cause

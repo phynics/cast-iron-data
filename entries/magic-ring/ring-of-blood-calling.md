@@ -21,8 +21,13 @@ aura = "moderate conjuration"
 caster_level = "11th"
 +++
 
-**Aura** moderate conjuration; **CL** 11th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: moderate conjuration
+CL: 11th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 This iron ring is set with a polished bloodstone. When created, a ring of blood calling creates a
 link between a single mortal creature devoted to [Asmodeus](ref/faith/asmodeus) and a specific
@@ -45,5 +50,7 @@ need to make their own arrangements with Xanthut to link themselves to the ring 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar binding](ref/spell/planar-binding);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar binding](ref/spell/planar-binding)
+Cost: 6,000 gp
+:::

@@ -19,10 +19,16 @@ category = "Armor"
 weight = "25 lbs."
 +++
 
-**Cost** 15 gp **Weight** 25 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +4; **Armor Check Penalty** -3\
-**Arcane Spell Failure Chance** 20%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 15 gp
+Weight: 25 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +4
+Armor Check Penalty: -3
+Arcane Spell Failure Chance: 20%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 Hide armor is made from the tanned skin of particularly thick-hided beasts, stitched with either
 multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or

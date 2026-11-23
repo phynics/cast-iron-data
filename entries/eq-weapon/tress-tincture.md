@@ -17,8 +17,11 @@ price = "50 gp"
 weight = "-"
 +++
 
-**Price** 50 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 50 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 This tincture is used to counteract hair loss and guarantee luxurious locks, but alchemists have
 developed a concentrated form for use in combat. You can throw tress tincture as a ranged touch

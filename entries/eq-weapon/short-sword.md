@@ -25,7 +25,15 @@ blades can be curved or straight, single- or double-edged, and wide or narrow. H
 or simple, with crossguards, basket hilts, or no guard at all. Such weapons are often used on their
 own, but can also be paired as a matched set, or used in conjunction with a dagger or longer sword.
 
-**Cost** 10 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 19-20/×2; **Range** -; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 10 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 19-20/×2
+Range: -
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

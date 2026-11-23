@@ -21,8 +21,13 @@ aura = "faint abjuration"
 caster_level = "1st"
 +++
 
-**Aura** faint abjuration; **CL** 1st\
-**Slot** ring; **Price** 1,000 gp; **Weight** -
+::: statblock
+Aura: faint abjuration
+CL: 1st
+Slot: ring
+Price: 1,000 gp
+Weight: -
+:::
 
 This humble ring is crafted from smooth red and blue porcelain and wrapped with threads of copper.
 Each morning, the ring's wearer must select either hot or cold, and for the next 24 hours the ring
@@ -34,5 +39,7 @@ for the day, and its protection immediately ends for the day if it is removed.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [endure elements](ref/spell/endure-elements),
-[prestidigitation](ref/spell/prestidigitation); **Cost** 500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [endure elements](ref/spell/endure-elements), [prestidigitation](ref/spell/prestidigitation)
+Cost: 500 gp
+:::

@@ -17,8 +17,11 @@ price = "25 gp"
 weight = "1 lb."
 +++
 
-**Price** 25 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 25 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 This flask of volatile chemicals contains traces of graveyard dirt and a few drops of blood from a
 righteous creature. You can throw a bone burn flask as a

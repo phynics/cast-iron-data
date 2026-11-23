@@ -21,7 +21,14 @@ recurved blade spans forward and back from its head like a deadly butterfly. A d
 grants a +1 bonus on all attack rolls after the first when using [Cleave](ref/feat/cleave) or
 [Great Cleave](ref/feat/great-cleave).
 
-**Cost** 60 gp **Weight** 12 lbs.\
-**Damage** 1d8 (small), 1d10 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** see
-text\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 60 gp
+Weight: 12 lbs.
+Damage: 1d8 (small), 1d10 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: see text
+Category: One-Handed
+Proficiency: Exotic
+:::

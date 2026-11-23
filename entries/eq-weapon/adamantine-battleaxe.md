@@ -23,7 +23,15 @@ This nonmagical [battleaxe](ref/eq-weapon/battleaxe) is made of
 [adamantine](ref/eq-material/adamantine). As a [masterwork weapon](ref/rule/masterwork-weapons), it
 has a +1 enhancement bonus on attack rolls.
 
-**Cost** 3,010 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** S; **Special** -\
-**Category** One-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Axes
+::: statblock
+Cost: 3,010 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: S
+Special: -
+Category: One-Handed
+Proficiency: Martial
+Weapon Group: [Axes](ref/ability/weapon-groups#sec-axes)
+:::

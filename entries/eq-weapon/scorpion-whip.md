@@ -31,8 +31,15 @@ even to creatures with armor bonuses. If you are proficient with both the scorpi
 performance weapon) or as a whip. When you use a scorpion whip as a whip, it is equivalent to a
 whip, but deals lethal damage and can harm creatures regardless of their armor bonus.
 
-**Cost** 5 gp **Weight** 3 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[performance](ref/misc/performance)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Flails
+::: statblock
+Cost: 5 gp
+Weight: 3 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [performance](ref/misc/performance)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Flails](ref/ability/weapon-groups#sec-flails)
+:::

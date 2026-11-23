@@ -19,10 +19,16 @@ category = "Armor"
 weight = "10 lbs."
 +++
 
-**Cost** 1,100 gp **Weight** 10 lbs.\
-**Armor Bonus** +4; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 1,100 gp
+Weight: 10 lbs.
+Armor Bonus: +4
+Max Dex Bonus: +6
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 10%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This extremely light [chain shirt](ref/eq-armor/chain-shirt) is made of very fine
 [mithral](ref/eq-material/mithral) links. The armor has an arcane spell failure chance of 10%, a

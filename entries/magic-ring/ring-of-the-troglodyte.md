@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** ring; **Price** 12,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: ring
+Price: 12,000 gp
+Weight: -
+:::
 
 Two times per day on command, the wearer of this ring can produce a horrific smell affecting all
 living creatures other than the wearer within a 10-foot radius. Once created, the smell remains,
@@ -35,5 +40,7 @@ become [sickened](ref/misc/sickened) for 1 round. If they are already sickened, 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [stinking cloud](ref/spell/stinking-cloud);
-**Cost** 6,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [stinking cloud](ref/spell/stinking-cloud)
+Cost: 6,000 gp
+:::

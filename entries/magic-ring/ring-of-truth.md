@@ -23,8 +23,12 @@ aura = "moderate enchantment"
 caster_level = "9th"
 +++
 
-**Aura** moderate enchantment; **CL** 9th\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: moderate enchantment
+CL: 9th
+Slot: ring
+Weight: -
+:::
 
 Deceptively pleasant-looking, a ring of truth bears images of childlike angels and broadly smiling
 divine creatures holding onto links of a heavy chain. The wearer of this cursed ring is rendered
@@ -35,5 +39,7 @@ curse is negated.
 
 ### Construction
 
-**Requirements** [ring of mind shielding](ref/magic-ring/ring-of-mind-shielding),
-[ring of x-ray vision](ref/magic-ring/ring-of-x-ray-vision); **Cost** -
+::: statblock
+Requirements: [ring of mind shielding](ref/magic-ring/ring-of-mind-shielding), [ring of x-ray vision](ref/magic-ring/ring-of-x-ray-vision)
+Cost: -
+:::

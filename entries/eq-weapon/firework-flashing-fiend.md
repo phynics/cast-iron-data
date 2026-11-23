@@ -17,8 +17,11 @@ price = "100 gp"
 weight = "-"
 +++
 
-**Price** 100 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 100 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 When lit, this small conical firework emits bright white sparks that illuminate the area as a
 [candle](ref/eq-misc/candle). It can be thrown to target an intersection as a

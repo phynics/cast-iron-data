@@ -37,7 +37,15 @@ strike with it as a deadly melee weapon. Alternatively, by gripping it by the ou
 starknife's light, aerodynamic design allows it to be thrown short distances in a manner similar to
 a [chakram](ref/eq-weapon/chakram).
 
-**Cost** 24 gp **Weight** 3 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** ×3; **Range** 20 ft.; **Type** P; **Special** -\
-**Category** Light; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light; Thrown
+::: statblock
+Cost: 24 gp
+Weight: 3 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: ×3
+Range: 20 ft.
+Type: P
+Special: -
+Category: Light
+Proficiency: Martial
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

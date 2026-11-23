@@ -30,8 +30,15 @@ You can shoot, but not load, a hand crossbow with one hand at no penalty. You ca
 crossbow with each hand, but you take a penalty on attack rolls as if attacking with
 [two light weapons](ref/rule/two-weapon-fighting).
 
-**Cost** 100 gp **Weight** 2 lbs.\
-**Damage** 1d3 (small), 1d4 (medium); **Critical** 19-20/×2; **Range** 30 ft.; **Type** P;
-**Special** -\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 100 gp
+Weight: 2 lbs.
+Damage: 1d3 (small), 1d4 (medium)
+Critical: 19-20/×2
+Range: 30 ft.
+Type: P
+Special: -
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

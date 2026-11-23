@@ -30,8 +30,15 @@ This heavy blade has a convex curve near the end, making its overall shape simil
 shape allows the wielder to hook around defenses and trip foes. The elegant shape of a khopesh leads
 some artisans to cover them in ornate decorations.
 
-**Cost** 20 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** -; **Type** S; **Special**
-[trip](ref/misc/trip)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 20 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: -
+Type: S
+Special: [trip](ref/misc/trip)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

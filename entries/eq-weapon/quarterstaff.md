@@ -23,8 +23,15 @@ A quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it'
 at the butt and the other a quarter of the way up the staff, allowing it to block blows and make
 quick strikes.
 
-**Cost** - **Weight** 4 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[double](ref/misc/double), [monk](ref/misc/monk)\
-**Category** Two-Handed; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Monk
+::: statblock
+Cost: -
+Weight: 4 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [double](ref/misc/double), [monk](ref/misc/monk)
+Category: Two-Handed
+Proficiency: Simple
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Monk](ref/ability/weapon-groups#sec-monk)
+:::

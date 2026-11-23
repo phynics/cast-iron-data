@@ -21,8 +21,13 @@ aura = "faint divination"
 caster_level = "3rd"
 +++
 
-**Aura** faint divination; **CL** 3rd\
-**Slot** ring; **Price** 3,500 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 3rd
+Slot: ring
+Price: 3,500 gp
+Weight: -
+:::
 
 Fine etchings spell out the alphabets of four languages around the inside of this finely crafted
 silver band. The wearer gains the ability to speak and understand the four languages whose alphabets
@@ -39,5 +44,7 @@ chance of spell failure is reduced to 10%.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring),
-[comprehend languages](ref/spell/comprehend-languages); **Cost** 1,750 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [comprehend languages](ref/spell/comprehend-languages)
+Cost: 1,750 gp
+:::

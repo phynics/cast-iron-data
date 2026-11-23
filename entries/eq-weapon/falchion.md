@@ -23,7 +23,15 @@ This sword has one curved, sharp edge like a scimitar, with the back edge unshar
 flat or slightly curved. Its weight is greater toward the end, making it better for chopping rather
 than stabbing.
 
-**Cost** 75 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 2d4 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special** -\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 75 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 2d4 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: -
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

@@ -39,8 +39,15 @@ first bolt. Reloading one bolt is a standard action; the [Rapid Reload](ref/feat
 reduces this to a move action. [Crossbow Mastery](ref/feat/crossbow-mastery) allows you to reload
 both bolts as a move action. A double crossbow fires crossbow bolts.
 
-**Cost** 300 gp **Weight** 18 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 19-20/×2; **Range** 80 ft.; **Type** P;
-**Special** see text\
-**Category** Ranged; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Crossbows
+::: statblock
+Cost: 300 gp
+Weight: 18 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 19-20/×2
+Range: 80 ft.
+Type: P
+Special: see text
+Category: Ranged
+Proficiency: Exotic
+Weapon Group: [Crossbows](ref/ability/weapon-groups#sec-crossbows)
+:::

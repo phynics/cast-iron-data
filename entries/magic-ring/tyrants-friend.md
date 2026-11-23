@@ -21,8 +21,13 @@ aura = "faint divination"
 caster_level = "5th"
 +++
 
-**Aura** faint divination; **CL** 5th\
-**Slot** ring; **Price** 3,000 gp; **Weight** -
+::: statblock
+Aura: faint divination
+CL: 5th
+Slot: ring
+Price: 3,000 gp
+Weight: -
+:::
 
 A slender copper band, a tyrant's friend is thin enough to be hidden beneath another ring (although
 it still counts against the limit of magic rings a character can wear). The ring grows noticeably
@@ -31,5 +36,7 @@ containers holding poison), warning the wearer of potential danger.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [detect poison](ref/spell/detect-poison);
-**Cost** 1,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [detect poison](ref/spell/detect-poison)
+Cost: 1,500 gp
+:::

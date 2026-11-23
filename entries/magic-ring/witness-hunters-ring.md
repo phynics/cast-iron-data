@@ -21,8 +21,13 @@ aura = "moderate divination"
 caster_level = "7th"
 +++
 
-**Aura** moderate divination; **CL** 7th\
-**Slot** ring; **Price** 25,200 gp; **Weight** -
+::: statblock
+Aura: moderate divination
+CL: 7th
+Slot: ring
+Price: 25,200 gp
+Weight: -
+:::
 
 This ring's deep red stone hides the image of an eye within an eye or the symbol of a secret
 society, since many secret societies create these rings to protect their most important agents and
@@ -34,5 +39,7 @@ per day on command.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [detect scrying](ref/spell/detect-scrying),
-[locate creature](ref/spell/locate-creature); **Cost** 12,600 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [detect scrying](ref/spell/detect-scrying), [locate creature](ref/spell/locate-creature)
+Cost: 12,600 gp
+:::

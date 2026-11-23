@@ -24,8 +24,13 @@ aura = "faint enchantment"
 caster_level = "3rd"
 +++
 
-**Aura** faint enchantment; **CL** 3rd\
-**Slot** ring; **Price** 2,000 gp; **Weight** -
+::: statblock
+Aura: faint enchantment
+CL: 3rd
+Slot: ring
+Price: 2,000 gp
+Weight: -
+:::
 
 This platinum thimble, intricately crafted in the shape of an animal claw, is worn on one finger. A
 [vampire](ref/template/vampire) wearer can use the thimble to inflict a tiny wound as part of the
@@ -37,5 +42,7 @@ this time, the creature's senses return and it can react accordingly.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [enthrall](ref/spell/enthrall); **Cost** 1,000
-gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [enthrall](ref/spell/enthrall)
+Cost: 1,000 gp
+:::

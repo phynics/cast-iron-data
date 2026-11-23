@@ -26,8 +26,16 @@ when firing pellets, and has a 10-foot range increment when firing a bullet. A b
 bullet or pellets and a single dose of [black powder](ref/eq-weapon/black-powder-dose) or a single
 [alchemical cartridge](ref/eq-weapon/alchemical-cartridge) as ammunition. This is an early firearm.
 
-**Cost** 2,000 gp **Weight** 8 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** special; **Type** B and P;
-**Special** scatter\
-**Misfire** 1-2 (10 ft.); **Capacity** 1\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 2,000 gp
+Weight: 8 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: special
+Type: B and P
+Special: scatter
+Misfire: 1-2 (10 ft.)
+Capacity: 1
+Category: Two-Handed
+Proficiency: Exotic
+:::

@@ -21,8 +21,13 @@ aura = "strong abjuration"
 caster_level = "13th"
 +++
 
-**Aura** strong abjuration; **CL** 13th\
-**Slot** ring; **Price** 19,500 gp; **Weight** -
+::: statblock
+Aura: strong abjuration
+CL: 13th
+Slot: ring
+Price: 19,500 gp
+Weight: -
+:::
 
 A ring of energy shroud always appears to be glass or crystal in construction, tinted in a red,
 green, blue, or yellow hue. Closer inspection reveals a small band of metal within the glass or
@@ -37,5 +42,7 @@ _[elemental aura](ref/spell/elemental-aura)_ effect has the same energy type of 
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [elemental aura](ref/spell/elemental-aura),
-[resist energy](ref/spell/resist-energy); **Cost** 9,750 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [elemental aura](ref/spell/elemental-aura), [resist energy](ref/spell/resist-energy)
+Cost: 9,750 gp
+:::

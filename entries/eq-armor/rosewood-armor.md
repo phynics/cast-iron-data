@@ -22,10 +22,16 @@ category = "Armor"
 weight = "15 lbs."
 +++
 
-**Cost** 50 gp **Weight** 15 lbs.\
-**Armor Bonus** +2; **Max Dex Bonus** +6; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 10%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 50 gp
+Weight: 15 lbs.
+Armor Bonus: +2
+Max Dex Bonus: +6
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 10%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This suit of leather armor is wrapped in special rose vines. Treat this as
 [leather armor](ref/eq-armor/leather) with [armor spikes](ref/eq-armorenh/armor-spikes). The vines

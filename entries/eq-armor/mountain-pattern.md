@@ -19,10 +19,16 @@ category = "Armor"
 weight = "40 lbs."
 +++
 
-**Cost** 250 gp **Weight** 40 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +3; **Armor Check Penalty** -4\
-**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 250 gp
+Weight: 40 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +3
+Armor Check Penalty: -4
+Arcane Spell Failure Chance: 30%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This medium armor consists of hundreds of small, interlocking pieces of steel shaped to resemble an
 ancient symbol for the word "mountain." The mail is then riveted to a cloth or leather backing. It

@@ -22,8 +22,15 @@ pull it back; pulling the chain to retrieve the thrown hammer is a move action. 
 maximum throwing range is 10 feet. Dwarf rangers are fond of using chain-hammers, often using a
 [locked gauntlet](ref/eq-armorenh/locked-gauntlet) to make sure one of the hammers remains secure.
 
-**Cost** 34 gp **Weight** 8 lbs.\
-**Damage** 1d4/1d4 (small), 1d6/1d6 (medium); **Critical** ×2; **Range** 20 ft.; **Type** B;
-**Special** [double](ref/misc/double), see text\
-**Category** Two-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Double; Hammers; Thrown
+::: statblock
+Cost: 34 gp
+Weight: 8 lbs.
+Damage: 1d4/1d4 (small), 1d6/1d6 (medium)
+Critical: ×2
+Range: 20 ft.
+Type: B
+Special: [double](ref/misc/double), see text
+Category: Two-Handed
+Proficiency: Exotic
+Weapon Group: [Double](ref/ability/weapon-groups#sec-double); [Hammers](ref/ability/weapon-groups#sec-hammers); [Thrown](ref/ability/weapon-groups#sec-thrown)
+:::

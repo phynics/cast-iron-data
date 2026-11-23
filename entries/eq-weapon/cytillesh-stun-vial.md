@@ -17,8 +17,11 @@ price = "75 gp"
 weight = "0.5 lb."
 +++
 
-**Price** 75 gp; **Weight** 0.5 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 75 gp
+Weight: 0.5 lb.
+Category: Alchemical Weapons
+:::
 
 Harvested from the cytillesh fungus commonly found in the Darklands, these small vials emit a bright
 blue glow, and are commonly used in intertribal kobold disputes. When broken, a cytillesh stun vial

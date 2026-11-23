@@ -25,8 +25,16 @@ disk, and each stray bullet has a 50% chance to hit the wielder, dealing 1d6 poi
 Reloading a cylinder rifle requires two full-round actions, regardless of the number of slots being
 loaded. The [Rapid Reload](ref/feat/rapid-reload) feat reduces this to a single full-round action.
 
-**Cost** 6,000 gp **Weight** 12 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** 40 ft.; **Type** B and P;
-**Special** -\
-**Misfire** 1-3 (10 ft.); **Capacity** 8\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 6,000 gp
+Weight: 12 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: 40 ft.
+Type: B and P
+Special: -
+Misfire: 1-3 (10 ft.)
+Capacity: 8
+Category: Two-Handed
+Proficiency: Exotic
+:::

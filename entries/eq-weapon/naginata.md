@@ -22,8 +22,15 @@ weight = "9 lbs."
 The naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, sword-like blade.
 The shaft is designed to keep the wielder out of reach from swords and shorter weapons.
 
-**Cost** 35 gp **Weight** 9 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×4; **Range** -; **Type** S; **Special**
-[reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Martial\
-**[Weapon Group](ref/ability/weapon-groups)** Polearms
+::: statblock
+Cost: 35 gp
+Weight: 9 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×4
+Range: -
+Type: S
+Special: [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Martial
+Weapon Group: [Polearms](ref/ability/weapon-groups#sec-polearms)
+:::

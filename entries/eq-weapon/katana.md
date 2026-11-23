@@ -26,8 +26,15 @@ opponents' heads and limbs. Though finely balanced, these blades are difficult t
 can use a katana two-handed as a martial weapon, but must take the
 [Exotic Weapon Proficiency](ref/feat/exotic-weapon-proficiency) (katana) feat to use it one-handed.
 
-**Cost** 50 gp **Weight** 6 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** 18-20/×2; **Range** -; **Type** S; **Special**
-[deadly](ref/misc/deadly)\
-**Category** One-Handed; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Heavy
+::: statblock
+Cost: 50 gp
+Weight: 6 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: 18-20/×2
+Range: -
+Type: S
+Special: [deadly](ref/misc/deadly)
+Category: One-Handed
+Proficiency: Exotic
+Weapon Group: [Blades, Heavy](ref/ability/weapon-groups#sec-heavy-blades)
+:::

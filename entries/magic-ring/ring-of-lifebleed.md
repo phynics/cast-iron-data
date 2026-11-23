@@ -20,8 +20,12 @@ aura = "moderate necromancy"
 caster_level = "10th"
 +++
 
-**Aura** moderate necromancy; **CL** 10th\
-**Slot** ring; **Weight** -
+::: statblock
+Aura: moderate necromancy
+CL: 10th
+Slot: ring
+Weight: -
+:::
 
 Before being worn, this ring appears to be a ring of regeneration. Once it is worn in combat,
 however, the true nature of the ring becomes apparent. Each time the wearer is hit with a melee or
@@ -31,4 +35,7 @@ the wearer dies or by way of a [remove curse](ref/spell/remove-curse), [wish](re
 
 ### Construction
 
-**Requirements** [ring of regeneration](ref/magic-ring/ring-of-regeneration); **Cost** -
+::: statblock
+Requirements: [ring of regeneration](ref/magic-ring/ring-of-regeneration)
+Cost: -
+:::

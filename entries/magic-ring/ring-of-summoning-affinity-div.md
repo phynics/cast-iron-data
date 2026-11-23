@@ -21,8 +21,13 @@ aura = "faint conjuration [chaos, evil]"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration \[chaos, evil\]; **CL** 5th\
-**Slot** ring; **Price** 9,100 gp; **Weight** -
+::: statblock
+Aura: faint conjuration \[chaos, evil\]
+CL: 5th
+Slot: ring
+Price: 9,100 gp
+Weight: -
+:::
 
 This ring is shaped to resemble a snake consuming its own tail. If the wearer can cast
 _[summon monster](ref/spell/summon-monster)_ spells, the wearer adds [doru](ref/monster/div-doru) to
@@ -35,5 +40,7 @@ by the [summon monster III](ref/spell/summon-monster-3) spell.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or
-[planar binding](ref/spell/planar-binding), creator must be chaotic evil; **Cost** 4,550 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [planar ally](ref/spell/planar-ally) or [planar binding](ref/spell/planar-binding), creator must be chaotic evil
+Cost: 4,550 gp
+:::

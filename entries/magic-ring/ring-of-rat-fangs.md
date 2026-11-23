@@ -24,8 +24,13 @@ aura = "faint transmutation"
 caster_level = "3rd"
 +++
 
-**Aura** faint transmutation; **CL** 3rd\
-**Slot** ring; **Price** 5,000 gp; **Weight** -
+::: statblock
+Aura: faint transmutation
+CL: 3rd
+Slot: ring
+Price: 5,000 gp
+Weight: -
+:::
 
 This bone ring is the shape of an elongated rat biting its own tail. The wearer gains a bite attack
 as a primary [natural attack](ref/umr/natural-attacks). This attack deals 1d4 points of piercing
@@ -35,5 +40,7 @@ original race (for example, a human might gain prominent teeth).
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [magic fang](ref/spell/magic-fang),
-[polymorph](ref/spell/polymorph); **Cost** 2,500 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [magic fang](ref/spell/magic-fang), [polymorph](ref/spell/polymorph)
+Cost: 2,500 gp
+:::

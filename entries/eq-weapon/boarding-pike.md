@@ -26,7 +26,14 @@ Boarding pikes are mainly used defensively, to repel boarding actions. The pikes
 brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to
 repel boarders.
 
-**Cost** 8 gp **Weight** 9 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×3; **Range** -; **Type** P; **Special**
-[brace](ref/misc/brace), [reach](ref/misc/reach)\
-**Category** Two-Handed; **Proficiency** Simple
+::: statblock
+Cost: 8 gp
+Weight: 9 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×3
+Range: -
+Type: P
+Special: [brace](ref/misc/brace), [reach](ref/misc/reach)
+Category: Two-Handed
+Proficiency: Simple
+:::

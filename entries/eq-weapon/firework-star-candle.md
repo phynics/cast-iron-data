@@ -20,8 +20,11 @@ price = "5 gp"
 weight = "-"
 +++
 
-**Price** 5 gp; **Weight** -\
-**Category** Alchemical Weapons
+::: statblock
+Price: 5 gp
+Weight: -
+Category: Alchemical Weapons
+:::
 
 _Originally known as "Desnan Candle Firework"._
 

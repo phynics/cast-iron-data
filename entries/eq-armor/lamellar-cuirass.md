@@ -19,10 +19,16 @@ category = "Armor"
 weight = "8 lbs."
 +++
 
-**Cost** 15 gp **Weight** 8 lbs.\
-**Armor Bonus** +2; **Max Dex Bonus** +4; **Armor Check Penalty** 0\
-**Arcane Spell Failure Chance** 5%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 15 gp
+Weight: 8 lbs.
+Armor Bonus: +2
+Max Dex Bonus: +4
+Armor Check Penalty: 0
+Arcane Spell Failure Chance: 5%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This armor consists of a light breastplate and shoulder guards made from lacquered leather plates
 bound together and fitted over a silk shirt.

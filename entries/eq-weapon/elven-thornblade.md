@@ -22,7 +22,14 @@ modifier to attack rolls with an elven thornblade instead of her Strength modifi
 thornblade grants no additional benefit when wielded two-handed. In addition, attacks with an elven
 thornblade gain a +2 bonus on attack rolls made to confirm critical hits.
 
-**Cost** 60 gp **Weight** 4 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** P or S;
-**Special** see text\
-**Category** One-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 60 gp
+Weight: 4 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P or S
+Special: see text
+Category: One-Handed
+Proficiency: Exotic
+:::

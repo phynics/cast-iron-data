@@ -19,7 +19,14 @@ weight = "10 lbs."
 This is simply a [heavy flail](ref/eq-weapon/heavy-flail) mounted on the end of a long polearm. It
 has the reach and trip weapon qualities.
 
-**Cost** 15 gp **Weight** 10 lbs.\
-**Damage** 1d6 (small), 1d8 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-[disarm](ref/misc/disarm), [reach](ref/misc/reach), [trip](ref/misc/trip)\
-**Category** Two-Handed; **Proficiency** Exotic
+::: statblock
+Cost: 15 gp
+Weight: 10 lbs.
+Damage: 1d6 (small), 1d8 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: [disarm](ref/misc/disarm), [reach](ref/misc/reach), [trip](ref/misc/trip)
+Category: Two-Handed
+Proficiency: Exotic
+:::

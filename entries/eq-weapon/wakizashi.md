@@ -24,8 +24,15 @@ weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) a
 These blades are specifically worn by [samurai](ref/class/samurai) and are intended to be paired
 with a [katana](ref/eq-weapon/katana). Together, this set of blades is referred to as a daisho.
 
-**Cost** 35 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** 18-20/×2; **Range** -; **Type** P or S;
-**Special** [deadly](ref/misc/deadly)\
-**Category** Light; **Proficiency** Exotic\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 35 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: 18-20/×2
+Range: -
+Type: P or S
+Special: [deadly](ref/misc/deadly)
+Category: Light
+Proficiency: Exotic
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

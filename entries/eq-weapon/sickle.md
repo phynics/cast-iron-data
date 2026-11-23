@@ -24,8 +24,15 @@ strong curve that can easily catch an opponent's limb or armor. Its blade can be
 serrated, and some fighting sickles are sharpened on both sides near the point, making it easier to
 hook into an opponent's flesh.
 
-**Cost** 6 gp **Weight** 2 lbs.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** S; **Special**
-[trip](ref/misc/trip)\
-**Category** Light; **Proficiency** Simple\
-**[Weapon Group](ref/ability/weapon-groups)** Blades, Light
+::: statblock
+Cost: 6 gp
+Weight: 2 lbs.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: S
+Special: [trip](ref/misc/trip)
+Category: Light
+Proficiency: Simple
+Weapon Group: [Blades, Light](ref/ability/weapon-groups#sec-light-blades)
+:::

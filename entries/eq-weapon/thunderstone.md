@@ -23,8 +23,11 @@ price = "30 gp"
 weight = "1 lb."
 +++
 
-**Price** 30 gp; **Weight** 1 lb.\
-**Category** Alchemical Weapons
+::: statblock
+Price: 30 gp
+Weight: 1 lb.
+Category: Alchemical Weapons
+:::
 
 You can throw this stone as a ranged attack with a range increment of 20 feet. When it strikes a
 hard surface (or is struck hard), it creates a deafening bang that is treated as a sonic attack.

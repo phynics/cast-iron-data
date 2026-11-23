@@ -19,10 +19,16 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Cost** 125 gp **Weight** 45 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +2; **Armor Check Penalty** -5\
-**Arcane Spell Failure Chance** 30%; **Speed** 20 ft./15 ft.\
-**Category** Medium armor
+::: statblock
+Cost: 125 gp
+Weight: 45 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +2
+Armor Check Penalty: -5
+Arcane Spell Failure Chance: 30%
+Speed: 20 ft./15 ft.
+Category: Medium armor
+:::
 
 This armor consists of four plates harnessed together with leather shoulder straps. Two round plates
 protect your front and back, while two smaller rectangular plates cover the sides of the torso.

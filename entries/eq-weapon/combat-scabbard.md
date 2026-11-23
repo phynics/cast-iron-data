@@ -22,7 +22,14 @@ it from your belt as a swift action when drawing the weapon it contains. Taking 
 for using a scabbard. For the purpose of fighter weapon groups, a scabbard for a heavy blade is
 considered a hammer, and a scabbard for a light blade is considered a close weapon.
 
-**Cost** 1 gp **Weight** 1 lb.\
-**Damage** 1d4 (small), 1d6 (medium); **Critical** ×2; **Range** -; **Type** B; **Special**
-improvised, see text\
-**Category** One-Handed; **Proficiency** Martial
+::: statblock
+Cost: 1 gp
+Weight: 1 lb.
+Damage: 1d4 (small), 1d6 (medium)
+Critical: ×2
+Range: -
+Type: B
+Special: improvised, see text
+Category: One-Handed
+Proficiency: Martial
+:::

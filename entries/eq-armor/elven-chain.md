@@ -19,10 +19,16 @@ category = "Armor"
 weight = "20 lbs."
 +++
 
-**Cost** 5,150 gp **Weight** 20 lbs.\
-**Armor Bonus** +6; **Max Dex Bonus** +4; **Armor Check Penalty** -2\
-**Arcane Spell Failure Chance** 20%; **Speed** 30 ft./20 ft.\
-**Category** Light armor
+::: statblock
+Cost: 5,150 gp
+Weight: 20 lbs.
+Armor Bonus: +6
+Max Dex Bonus: +4
+Armor Check Penalty: -2
+Arcane Spell Failure Chance: 20%
+Speed: 30 ft./20 ft.
+Category: Light armor
+:::
 
 This extremely light [chainmail](ref/eq-armor/chainmail) is made of very fine
 [mithral](ref/eq-material/mithral) links. This armor is treated, in all ways, like light armor,

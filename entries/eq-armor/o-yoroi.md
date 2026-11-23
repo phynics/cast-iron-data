@@ -19,10 +19,16 @@ category = "Armor"
 weight = "45 lbs."
 +++
 
-**Cost** 1,700 gp **Weight** 45 lbs.\
-**Armor Bonus** +8; **Max Dex Bonus** +2; **Armor Check Penalty** -6\
-**Arcane Spell Failure Chance** 35%; **Speed** 20 ft./15 ft.\
-**Category** Heavy armor
+::: statblock
+Cost: 1,700 gp
+Weight: 45 lbs.
+Armor Bonus: +8
+Max Dex Bonus: +2
+Armor Check Penalty: -6
+Arcane Spell Failure Chance: 35%
+Speed: 20 ft./15 ft.
+Category: Heavy armor
+:::
 
 Worn almost exclusively by highranking samurai, o-yoroi - or "great armor" - is a heavy combat armor
 that consists of various supplementary components that include both plate and lamellar elements.

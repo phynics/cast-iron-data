@@ -21,8 +21,13 @@ aura = "faint conjuration"
 caster_level = "5th"
 +++
 
-**Aura** faint conjuration; **CL** 5th\
-**Slot** ring; **Price** 10,000 gp; **Weight** -
+::: statblock
+Aura: faint conjuration
+CL: 5th
+Slot: ring
+Price: 10,000 gp
+Weight: -
+:::
 
 This ring of jagged steel gives the impression that it was salvaged from a suit of armor and then
 crudely bent into a circle. The wearer of the ring can, at will, designate any one opponent she can
@@ -31,4 +36,7 @@ attacks made by that opponent until she designates a new enemy.
 
 ### Construction
 
-**Requirements** [Forge Ring](ref/feat/forge-ring), [shield](ref/spell/shield); **Cost** 5,000 gp
+::: statblock
+Requirements: [Forge Ring](ref/feat/forge-ring), [shield](ref/spell/shield)
+Cost: 5,000 gp
+:::
