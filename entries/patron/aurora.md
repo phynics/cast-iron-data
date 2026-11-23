@@ -8,6 +8,7 @@ provenance = [
 ]
 [[sources]]
 publication = "paths-of-the-righteous"
+page = "31"
 
 [fields]
 kind = "class_option"
