@@ -20,7 +20,9 @@ category = "Spellbooks"
 _This is a simple, unadorned spellbook. Notes on improving the efficiency of each spell crowd the
 margins, most of them hopelessly misguided._
 
-**Value** 275 gp
+::: statblock
+Value: 275 gp
+:::
 
 #### Spells
 

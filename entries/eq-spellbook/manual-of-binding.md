@@ -20,11 +20,11 @@ category = "Spellbooks"
 _The three volumes of this set are bound in black sharkskin, the spells inscribed in purple ink on
 fine paper. Spells conceal extensive notes on constructing a lich's phylactery._
 
-**Opposition** Abjuration, enchantment\
-**Protection** [magic aura](ref/spell/magic-aura) (spellbook appears nonmagical),
-[secret page](ref/spell/secret-page) hides the notes on constructing a lich's phylactery,
-[sepia snake sigil](ref/spell/sepia-snake-sigil) (Reflex DC 17)\
-**Value** 17,165 gp (21,215 gp with the preparation ritual)
+::: statblock
+Opposition: Abjuration, enchantment
+Protection: [magic aura](ref/spell/magic-aura) (spellbook appears nonmagical), [secret page](ref/spell/secret-page) hides the notes on constructing a lich's phylactery, [sepia snake sigil](ref/spell/sepia-snake-sigil) (Reflex DC 17)
+Value: 17,165 gp (21,215 gp with the preparation ritual)
+:::
 
 #### Spells
 

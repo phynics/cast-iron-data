@@ -20,7 +20,9 @@ category = "Spellbooks"
 _This book is bound in glittering silver bark, and its title is printed in golden calligraphy in
 both Elven and Common._
 
-**Value** 575 gp (1,100 gp with the preparation ritual)
+::: statblock
+Value: 575 gp (1,100 gp with the preparation ritual)
+:::
 
 #### Spells
 

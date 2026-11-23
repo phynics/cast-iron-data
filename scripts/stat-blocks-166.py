@@ -333,6 +333,12 @@ paragraph `**Requirements** …; **Cost** …` directly under it becomes an unti
 heading, which stays. The `Flawed Ioun Stone` and `Cracked Ioun Stone` paragraphs (`**Price** 800 gp`
 and a sentence) restate the entry's own `Price` and stay prose.
 
+`spellbook` (`eq-spellbook`, 41 entries): the paragraph that opens with `**Opposition**`,
+`**Protection**` or `**Value**` (any of them, in that order) under the `### Level N …` heading
+of a spellbook. One untitled block where it stands. No other label is read, and the value of a
+`Protection` may be a sentence (the books print their wards in prose), which the sentence rule
+would otherwise refuse (`sentences`).
+
 Proofs of the conversion passes, run on every file before it is written (a failure aborts the run and writes nothing more):
 
 - the front matter, `[fields]` included, is byte-identical;
@@ -1773,9 +1779,11 @@ def variant_block(
     commas: tuple[str, ...] = (),
     link_labels: bool = False,
     sentences: bool = False,
+    allowed: tuple[str, ...] = (),
 ) -> tuple[str, list[str]]:
     """(the stat block, its labels) for the lines of a statistics paragraph. `title` is the printed
-    variant name. A `**Sources:**` line or a sentence value (unless `sentences`) queues the file."""
+    variant name. A `**Sources:**` line or a sentence value (unless `sentences`) queues the file, and
+    so does a label outside `allowed` when that list is given."""
     rows: list[tuple[str, list[str]]] = []
     for segment in "\n".join(chunk).split("\\\n"):
         if segment.startswith("**Sources:**"):
@@ -1787,6 +1795,8 @@ def variant_block(
     labels = [label for label, _ in rows]
     if not rows or len(set(labels)) != len(labels):
         raise Queue("label-twice" if rows else "prose-variant", labels[0] if labels else "")
+    if allowed and any(label not in allowed for label in labels):
+        raise Queue("unexpected-label", next(label for label in labels if label not in allowed))
     return render_block(title, rows), labels
 
 
@@ -1900,7 +1910,7 @@ def convert_variants(body: str, plan, commas: tuple[str, ...] = ()) -> str:
             continue
         spec = chosen[index]
         lines = chunk[1:] if spec.get("drop_first") else chunk
-        block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False))
+        block, labels = variant_block(lines, spec.get("title"), spec.get("commas", commas), spec.get("link_labels", False), spec.get("sentences", False), spec.get("allowed", ()))
         lead_first(out, len(out), labels)
         swaps[index] = [block]
         if spec.get("printed_before"):
@@ -1981,8 +1991,23 @@ def plan_ioun(cs: list[list[str]]) -> dict[int, dict]:
     }
 
 
+SPELLBOOK_LABELS = ("Opposition", "Protection", "Value")
+
+
+def plan_spellbook(cs: list[list[str]]) -> dict[int, dict]:
+    """K-spellbook. The paragraph of a spellbook that opens with `**Opposition**`, `**Protection**`
+    or `**Value**`: one untitled block where it stands, under the `### Level N …` heading. Only
+    those three labels are read; the `Protection` of some books is a sentence, and that is expected."""
+    return {
+        index: {"sentences": True, "allowed": SPELLBOOK_LABELS}
+        for index, chunk in enumerate(cs)
+        if any(chunk[0].startswith(f"**{label}** ") for label in SPELLBOOK_LABELS)
+    }
+
+
 # name -> (the folders of the pass, its plan, the labels that may follow a comma). A new kind is one line.
 VARIANT_KINDS = {
+    "spellbook": (("eq-spellbook",), plan_spellbook, ()),
     "ioun": (("*",), plan_ioun, ()),
     "intelligent": (("*",), plan_intelligent, ("Wis", "Cha")),
     "tearaway": (("eq-misc",), plan_tearaway, ()),
@@ -2627,7 +2652,7 @@ def main(argv: list[str]) -> int:
     args = list(argv)
     if "--self-test" in args:
         suite = unittest.TestSuite(
-            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SourcesSelfTest)
+            unittest.defaultTestLoader.loadTestsFromTestCase(case) for case in (SelfTest, NpcSelfTest, ItemSelfTest, SiegeSelfTest, VariantSelfTest, RecipeSelfTest, TearawaySelfTest, IntelligentSelfTest, IounSelfTest, SpellbookSelfTest, SourcesSelfTest)
         )
         return 0 if unittest.TextTestRunner(verbosity=1).run(suite).wasSuccessful() else 1
     mode = "survey"
@@ -3677,6 +3702,29 @@ class IounSelfTest(unittest.TestCase):
         )
         self.assertEqual(classify_variant(plan_ioun, new), "already")
         self.assertEqual(classify_variant(plan_ioun, self.BODY.replace("#### Construction", "#### Making")), "already")
+
+
+class SpellbookSelfTest(unittest.TestCase):
+    BODY = (
+        "\n### Level 11 Evoker\n\n_A white cover._\n\n"
+        "**Opposition** Illusion, necromancy\\\n**Protection** [Fire trap](ref/spell/fire-trap) (DC 19). The edges are warded.\\\n"
+        "**Value** 2,300 gp (3,300 gp with the preparation ritual)\n\n#### Spells\n\n- 1st-[shield](ref/spell/shield)\n"
+    )
+
+    def test_the_three_rows_become_one_block_and_a_sentence_protection_is_kept(self):
+        new = convert_variants(self.BODY, plan_spellbook)
+        self.assertIn(
+            "_A white cover._\n\n::: statblock\nOpposition: Illusion, necromancy\n"
+            "Protection: [Fire trap](ref/spell/fire-trap) (DC 19). The edges are warded.\n"
+            "Value: 2,300 gp (3,300 gp with the preparation ritual)\n:::\n\n#### Spells\n",
+            new,
+        )
+        self.assertEqual(classify_variant(plan_spellbook, new), "already")
+
+    def test_another_label_queues(self):
+        with self.assertRaises(Queue) as caught:
+            convert_variants(self.BODY.replace("**Value**", "**Worth**"), plan_spellbook)
+        self.assertEqual((caught.exception.reason, caught.exception.detail), ("unexpected-label", "Worth"))
 
 
 class SourcesSelfTest(unittest.TestCase):

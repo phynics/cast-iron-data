@@ -22,10 +22,11 @@ fingerbones forming the locks on the cover. A family seal has been embossed on t
 the cover, but flecks of gold leaf have begun to peel away, revealing that the embossed pattern in
 fact follows a faded tattoo on the skin itself._
 
-**Opposition** Enchantment, illusion\
-**Protection** A series of three [superior locks](ref/eq-misc/lock-superior) each augmented with
-arcane lock (DC 50) and a symbol of weakness (Fortitude DC 20) on the second page of each book.\
-**Value** 7,635 gp
+::: statblock
+Opposition: Enchantment, illusion
+Protection: A series of three [superior locks](ref/eq-misc/lock-superior) each augmented with arcane lock (DC 50) and a symbol of weakness (Fortitude DC 20) on the second page of each book.
+Value: 7,635 gp
+:::
 
 #### Spells
 

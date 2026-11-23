@@ -20,7 +20,9 @@ category = "Spellbooks"
 _The first three pages of this book contain pressed flowers and botanical diagrams relating to
 brewing Thuvian remedies._
 
-**Value** 50 gp (115 gp with the preparation ritual)
+::: statblock
+Value: 50 gp (115 gp with the preparation ritual)
+:::
 
 #### Spells
 

@@ -21,7 +21,9 @@ _This heavy book is bound between a pair of thin stone tablets, its title carved
 Scribed completely in the Dwarven tongue, the text contains numerous tips regarding the construction
 and upkeep of nearly every corridor, path, and tunnel in the Five Kings Mountains._
 
-**Value** 4,385 gp (8,385 gp with the preparation ritual)
+::: statblock
+Value: 4,385 gp (8,385 gp with the preparation ritual)
+:::
 
 #### Spells
 

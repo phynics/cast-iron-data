@@ -22,8 +22,10 @@ mechanical transcription - with a title page, a table of contents, and a useful 
 index. They have been treated well and are clearly reference works, rather than laboratory notes;
 the writer was obviously a most disciplined and focused inventor._
 
-**Protection** The cover is treated with [tears of death](ref/eq-poison/tears-of-death) poison.\
-**Value** 6,615 gp (11,115 gp with the preparation ritual)
+::: statblock
+Protection: The cover is treated with [tears of death](ref/eq-poison/tears-of-death) poison.
+Value: 6,615 gp (11,115 gp with the preparation ritual)
+:::
 
 #### Spells
 
