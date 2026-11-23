@@ -7,6 +7,8 @@ source_ids = ["path-of-the-hellknight"]
 provenance = [
   { dataset = "pathfinder-data-1-e", record = "hellknight_inquisitor", path = "json/traits01.json" },
 ]
+[[sources]]
+publication = "path-of-the-hellknight"
 
 [fields]
 kind = "trait"
