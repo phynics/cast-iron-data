@@ -31,90 +31,68 @@ abilities = ["15", "18", "16", "10", "16", "9"]
 
 _This long-furred ape-person wears a battered snakeskin poncho and carries a worn musket._
 
-**Challenge rating:** 6
-
 **Charau-ka [gunslinger](ref/class/gunslinger) 4**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 6
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +6
+Perception: +11
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Charau-ka
+Experience points: 2,400
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +6
+::: statblock
+Armor class: 24
+Touch: 17
+Flat-footed: 18
+AC modifiers: +4 armor, +4 Dex, +2 dodge, +3 natural, +1 size
+Hit points: 60 (3d8+4d10+25\~7)
+Fort: +8
+Ref: +11
+Will: +5
+Defensive abilities: nimble +1
+:::
 
-**Perception:** +11
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: mwk club +10/+5 (1d4+2), bite +4 (1d3+3)
+Ranged: musket +11 (1d10/×4) or rock +12 (1d4+2/19-20)
+Spec Att: grit (3), shrieking frenzy, thrown-weapon mastery
+:::
 
-**Size:** small
+### Statistics
 
-**Subtype:** Charau-ka\
-**Experience points:** 2,400
-
-**Armor class:** 24
-
-**Touch:** 17
-
-**Flat-footed:** 18
-
-**AC modifiers:** +4 armor, +4 Dex, +2 dodge, +3 natural, +1 size
-
-**Hit points:** 60 (3d8+4d10+25\~7)
-
-**Fort:** +8
-
-**Ref:** +11
-
-**Will:** +5
-
-**Defensive abilities:** nimble +1
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** mwk club +10/+5 (1d4+2), bite +4 (1d3+3)
-
-**Ranged:** musket +11 (1d10/×4) or rock +12 (1d4+2/19-20)
-
-**Spec Att:** grit (3), shrieking frenzy, thrown-weapon mastery
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 18, Con 16, Int 10, Wis 16, Cha 9
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 23
-
-**Feats:** Dodge, Gunsmithing, Mobility, Point-Blank Shot, Precise Shot, Shot on the Run, Throw
-Anything^B^
-
-**Skills:** Acrobatics +10, Bluff +4, Climb +13, Intimidate +4, Perception +11
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Polyglot
-
-**Special qualities:** deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick
-clear, utility shot), gunsmith
-
-**Combat gear:** oil of jury-rig oil of magic weapon, 2 potion of cure moderate wounds, potion of
-invisibility, potion of protection from good, 2 [tracer bullets](ref/magic-weapon/tracer-bullet), 10
-[entangling shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-entangling-shot), 10
-[salt shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-salt-shot), 2 tanglefoot bags
-
-**Other gear:** mwk chain shirt, mwk club, m20, Iamu1, [powder horn](ref/eq-misc/powder-horn) with
-20 doses of black powder
+::: statblock
+Ability scores: Str 15, Dex 18, Con 16, Int 10, Wis 16, Cha 9
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 23
+Feats: Dodge, Gunsmithing, Mobility, Point-Blank Shot, Precise Shot, Shot on the Run, Throw Anything^B^
+Skills: Acrobatics +10, Bluff +4, Climb +13, Intimidate +4, Perception +11
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Polyglot
+Special qualities: deeds (deadeye, gunslinger initiative, gunslinger's dodge, pistol-whip, quick clear, utility shot), gunsmith
+Combat gear: oil of jury-rig oil of magic weapon, 2 potion of cure moderate wounds, potion of invisibility, potion of protection from good, 2 [tracer bullets](ref/magic-weapon/tracer-bullet), 10 [entangling shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-entangling-shot), 10 [salt shot alchemical cartridges](ref/eq-weapon/alchemical-cartridge-salt-shot), 2 tanglefoot bags
+Other gear: mwk chain shirt, mwk club, m20, Iamu1, [powder horn](ref/eq-misc/powder-horn) with 20 doses of black powder
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
+::: statblock
+Environment: warm forests
+:::
 
 ### Description
 

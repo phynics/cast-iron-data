@@ -32,81 +32,64 @@ abilities = ["15", "13", "14", "8", "12", "11"]
 _This limber, shrieking creature has the visage of an enraged monkey, but it walks upright like a
 man._
 
-**Challenge rating:** 2
+::: statblock
+Challenge rating: 2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Perception: +2
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Charau-ka
+Experience points: 600
+:::
 
-**Alignment:** Chaotic evil
+### Defense
 
-**Type:** humanoid
+::: statblock
+Armor class: 14
+Touch: 12
+Flat-footed: 13
+AC modifiers: +1 Dex, +2 natural, +1 size
+Hit points: 19 (3d8+6)
+Fort: +3
+Ref: +4
+Will: +2
+:::
 
-**Initiative:** +1
+### Offense
 
-**Perception:** +2
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: club +5 (1d4+3), bite +0 (1d3+1)
+Ranged: rock +5 (1d4+2/19-20)
+Spec Att: shrieking frenzy, thrown-weapon mastery
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+### Statistics
 
-**Size:** small
-
-**Subtype:** Charau-ka\
-**Experience points:** 600
-
-**Armor class:** 14
-
-**Touch:** 12
-
-**Flat-footed:** 13
-
-**AC modifiers:** +1 Dex, +2 natural, +1 size
-
-**Hit points:** 19 (3d8+6)
-
-**Fort:** +3
-
-**Ref:** +4
-
-**Will:** +2
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** club +5 (1d4+3), bite +0 (1d3+1)
-
-**Ranged:** rock +5 (1d4+2/19-20)
-
-**Spec Att:** shrieking frenzy, thrown-weapon mastery
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 13, Con 14, Int 8, Wis 12, Cha 11
-
-**Base attack bonus:** +2
-
-**Combat maneuver bonus:** +3
-
-**Combat maneuver defense:** 14
-
-**Feats:** Point-Blank Shot, Precise Shot, Throw Anything^B^
-
-**Skills:** Climb +14, Perception +2, Stealth +10
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Polyglot
+::: statblock
+Ability scores: Str 15, Dex 13, Con 14, Int 8, Wis 12, Cha 11
+Base attack bonus: +2
+Combat maneuver bonus: +3
+Combat maneuver defense: 14
+Feats: Point-Blank Shot, Precise Shot, Throw Anything^B^
+Skills: Climb +14, Perception +2, Stealth +10
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Polyglot
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
-
-**Organization:** solitary, pair, patrol (3-8), or tribe (9-20 plus 1-3
-[dire apes](ref/monster/ape-dire-ape-gigantopithecus), 1-3 fighter sub-chieftains of 2nd level, 1
-cleric of [Angazhan](ref/faith/angazhan) of 3rd-5th level, and 1 chieftain of any class of 4th-8th
-level)
-
-**Treasure:** Standard
+::: statblock
+Environment: warm forests
+Organization: solitary, pair, patrol (3-8), or tribe (9-20 plus 1-3 [dire apes](ref/monster/ape-dire-ape-gigantopithecus), 1-3 fighter sub-chieftains of 2nd level, 1 cleric of [Angazhan](ref/faith/angazhan) of 3rd-5th level, and 1 chieftain of any class of 4th-8th level)
+Treasure: Standard
+:::
 
 ### Special Abilities
 

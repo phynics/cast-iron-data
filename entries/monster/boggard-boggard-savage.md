@@ -30,53 +30,42 @@ special_qualities = "fast movement, hold breath, swamp stride"
 abilities = ["23", "11", "22", "8", "13", "8"]
 +++
 
-**Challenge rating:** 4
-
 **Boggard [barbarian](ref/class/barbarian) 2**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 4
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +0
+Size: medium
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Boggard
+Experience points: 1,200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +0
+::: statblock
+Armor class: 15
+Touch: 8
+Flat-footed: 15
+AC modifiers: +4 armor, +3 natural, -2 rage
+Hit points: 61 (3d8+2d12+30\~5)
+Fort: +12
+Ref: +3
+Will: +4
+Uncanny dodge: present
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +10
-
-**Senses:** Darkvision 60 ft., Low-light vision
-
-**Subtype:** Boggard\
-**Experience points:** 1,200
-
-**Armor class:** 15
-
-**Touch:** 8
-
-**Flat-footed:** 15
-
-**AC modifiers:** +4 armor, +3 natural, -2 rage
-
-**Hit points:** 61 (3d8+2d12+30\~5)
-
-**Fort:** +12
-
-**Ref:** +3
-
-**Will:** +4
-
-**Uncanny dodge:** present
-
-**Offense**
-
-**Speed:** 30 ft., swim 30 ft.
-
-**Melee:** mwk greatclub +12 (1d10+9), tongue +5 touch (sticky tongue)
-
-**Ranged:** javelin +4 (1d6+6)
-
-**Spec Att:** rage (10 rounds/day), rage powers ([no escape](ref/ragepower/no-escape)), terrifying
-croak (DC 12)
+::: statblock
+Speed: 30 ft., swim 30 ft.
+Melee: mwk greatclub +12 (1d10+9), tongue +5 touch (sticky tongue)
+Ranged: javelin +4 (1d6+6)
+Spec Att: rage (10 rounds/day), rage powers ([no escape](ref/ragepower/no-escape)), terrifying croak (DC 12)
+:::
 
 ### Tactics
 
@@ -84,31 +73,26 @@ croak (DC 12)
 hp 51; Fort +10, Will +2; Melee mwk greatclub +10 (1d10+6), tongue +3 touch (sticky tongue); Str 19,
 Con 18; CMB +8; Skills Climb +9, Swim +17.
 
-**Statistics**
+### Statistics
 
-**Ability scores:** Str 23, Dex 11, Con 22, Int 8, Wis 13, Cha 8
+::: statblock
+Ability scores: Str 23, Dex 11, Con 22, Int 8, Wis 13, Cha 8
+Base attack bonus: +4
+Combat maneuver bonus: +10
+Combat maneuver defense: 18
+Feats: Lightning Reflexes, Power Attack, Weapon Focus (greatclub)
+Skills: Acrobatics +6 (+22 when jumping), Climb +11
+Languages: Boggard
+Special qualities: fast movement, [hold breath](ref/umr/hold-breath), swamp stride
+Combat gear: oil of magic weapon, 2 potion of cure moderate wounds
+Other gear: +1 studded leather armor, 3 javelins, mwk greatclub, 269 gp
+:::
 
-**Base attack bonus:** +4
+### Ecology
 
-**Combat maneuver bonus:** +10
-
-**Combat maneuver defense:** 18
-
-**Feats:** Lightning Reflexes, Power Attack, Weapon Focus (greatclub)
-
-**Skills:** Acrobatics +6 (+22 when jumping), Climb +11
-
-**Languages:** Boggard
-
-**Special qualities:** fast movement, [hold breath](ref/umr/hold-breath), swamp stride
-
-**Combat gear:** oil of magic weapon, 2 potion of cure moderate wounds
-
-**Other gear:** +1 studded leather armor, 3 javelins, mwk greatclub, 269 gp
-
-**Ecology**
-
-**Environment:** temperate marshes
+::: statblock
+Environment: temperate marshes
+:::
 
 ### Description
 

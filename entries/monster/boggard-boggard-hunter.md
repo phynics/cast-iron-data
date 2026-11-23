@@ -30,80 +30,63 @@ special_qualities = "favored terrain (swamp +2), hold breath, swamp stride, trac
 abilities = ["19", "13", "16", "8", "13", "8"]
 +++
 
-**Challenge rating:** 5
-
 **Boggard [ranger](ref/class/ranger) 3**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 5
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +1
+Size: medium
+Perception: +14
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Boggard
+Experience points: 1,600
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +1
+::: statblock
+Armor class: 18
+Touch: 11
+Flat-footed: 17
+AC modifiers: +4 armor, +1 Dex, +3 natural
+Hit points: 53 (3d8+3d10+24\~6)
+Fort: +10
+Ref: +6
+Will: +4
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +14
+::: statblock
+Speed: 20 ft., swim 30 ft.
+Fav En: reptilian humanoids +2
+Melee: morningstar +9 (1d8+4), tongue +4 touch (sticky tongue)
+Ranged: mwk composite longbow +8 (1d8+4/×3)
+Spec Att: combat style (archery), terrifying croak (DC 12)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+### Statistics
 
-**Subtype:** Boggard\
-**Experience points:** 1,600
+::: statblock
+Ability scores: Str 19, Dex 13, Con 16, Int 8, Wis 13, Cha 8
+Base attack bonus: +5
+Combat maneuver bonus: +9
+Combat maneuver defense: 20
+Feats: Endurance, Point-Blank Shot, Precise Shot, Toughness, Weapon Focus (composite longbow)
+Skills: Acrobatics +5 (+21 when jumping), Knowledge (nature) +5, Perception +14, Swim +12
+Languages: Boggard
+Special qualities: [favored terrain](ref/ability/favored-terrain) (swamp +2), [hold breath](ref/umr/hold-breath), swamp stride, track +1, [wild empathy](ref/ability/wild-empathy) +2
+Combat gear: potion of cure moderate wounds
+Other gear: +1 studded leather armor, morningstar, mwk cl+4, Iclk1, 267 gp
+:::
 
-**Armor class:** 18
+### Ecology
 
-**Touch:** 11
-
-**Flat-footed:** 17
-
-**AC modifiers:** +4 armor, +1 Dex, +3 natural
-
-**Hit points:** 53 (3d8+3d10+24\~6)
-
-**Fort:** +10
-
-**Ref:** +6
-
-**Will:** +4
-
-**Offense**
-
-**Speed:** 20 ft., swim 30 ft.
-
-**Fav En:** reptilian humanoids +2
-
-**Melee:** morningstar +9 (1d8+4), tongue +4 touch (sticky tongue)
-
-**Ranged:** mwk composite longbow +8 (1d8+4/×3)
-
-**Spec Att:** combat style (archery), terrifying croak (DC 12)
-
-**Statistics**
-
-**Ability scores:** Str 19, Dex 13, Con 16, Int 8, Wis 13, Cha 8
-
-**Base attack bonus:** +5
-
-**Combat maneuver bonus:** +9
-
-**Combat maneuver defense:** 20
-
-**Feats:** Endurance, Point-Blank Shot, Precise Shot, Toughness, Weapon Focus (composite longbow)
-
-**Skills:** Acrobatics +5 (+21 when jumping), Knowledge (nature) +5, Perception +14, Swim +12
-
-**Languages:** Boggard
-
-**Special qualities:** [favored terrain](ref/ability/favored-terrain) (swamp +2),
-[hold breath](ref/umr/hold-breath), swamp stride, track +1, [wild empathy](ref/ability/wild-empathy)
-+2
-
-**Combat gear:** potion of cure moderate wounds
-
-**Other gear:** +1 studded leather armor, morningstar, mwk cl+4, Iclk1, 267 gp
-
-**Ecology**
-
-**Environment:** temperate marshes
+::: statblock
+Environment: temperate marshes
+:::
 
 ### Description
 

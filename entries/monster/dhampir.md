@@ -30,82 +30,67 @@ abilities = ["13", "17", "10", "10", "8", "16"]
 _This unnaturally graceful man moves without a sound, his gaze just as piercing as the needle-sharp
 blade he effortlessly wields._
 
-**Challenge rating:** 1/2
-
 **Dhampir [fighter](ref/class/fighter) 1**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 1/2
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +3
+Size: medium
+Perception: +1
+Senses: Darkvision 60 ft., Low-light vision
+Subtype: Dhampir
+Experience points: 200
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +3
+::: statblock
+Armor class: 17
+Touch: 13
+Flat-footed: 14
+AC modifiers: +4 armor, +3 Dex
+Hit points: 13 (1d10+3)
+Fort: +2
+Ref: +3
+Will: -1 (+2 vs. disease and mind-affecting effects)
+Defensive abilities: negative energy affinity, resist level drain
+:::
 
-**Size:** medium
+### Offense
 
-**Perception:** +1
+::: statblock
+Speed: 30 ft.
+Melee: rapier +4 (1d6+1/18-20)
+:::
 
-**Senses:** Darkvision 60 ft., Low-light vision
+::: statblock
+title = "Spell-Like Abilities"
+Caster level: 1
+Per day: 3/day: detect undead
+:::
 
-**Subtype:** Dhampir\
-**Experience points:** 200
+### Statistics
 
-**Armor class:** 17
+::: statblock
+Ability scores: Str 13, Dex 17, Con 10, Int 10, Wis 8, Cha 16
+Base attack bonus: +1
+Combat maneuver bonus: +2
+Combat maneuver defense: 15
+Feats: Toughness, Weapon Finesse
+Skills: Bluff +5, Intimidate +7, Perception +1
+Racial Modifiers: +2 Bluff, +2 Perception
+Languages: Common
+:::
 
-**Touch:** 13
+### Ecology
 
-**Flat-footed:** 14
-
-**AC modifiers:** +4 armor, +3 Dex
-
-**Hit points:** 13 (1d10+3)
-
-**Fort:** +2
-
-**Ref:** +3
-
-**Will:** -1 (+2 vs. disease and mind-affecting effects)
-
-**Defensive abilities:** negative energy affinity, resist level drain
-
-**Offense**
-
-**Speed:** 30 ft.
-
-**Melee:** rapier +4 (1d6+1/18-20)
-
-**Spell-Like Abilities**
-
-**Caster level:** 1
-
-**Per day:**
-
-- 3/day: detect undead
-
-**Statistics**
-
-**Ability scores:** Str 13, Dex 17, Con 10, Int 10, Wis 8, Cha 16
-
-**Base attack bonus:** +1
-
-**Combat maneuver bonus:** +2
-
-**Combat maneuver defense:** 15
-
-**Feats:** Toughness, Weapon Finesse
-
-**Skills:** Bluff +5, Intimidate +7, Perception +1
-
-**Racial Modifiers:** +2 Bluff, +2 Perception
-
-**Languages:** Common
-
-**Ecology**
-
-**Environment:** any land
-
-**Organization:** solitary, pair, or court (3-8 and 1 [vampire](ref/template/vampire))
-
-**Treasure:** NPC gear (chain shirt, rapier); other treasure
+::: statblock
+Environment: any land
+Organization: solitary, pair, or court (3-8 and 1 [vampire](ref/template/vampire))
+Treasure: NPC gear (chain shirt, rapier); other treasure
+:::
 
 ### Special Abilities
 

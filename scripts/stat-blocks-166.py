@@ -75,11 +75,17 @@ C12 Anchors. A new heading takes the key `sec-<name>`. When the entry already ha
     that key (a prose `### Ecology`), the new heading carries the explicit anchor `{#stat-<name>}`
     so no existing key moves.
 C13 Queue. Anything else in the region queues the whole file, unchanged: a paragraph with several
-    labels, a hard break in a row, a bold paragraph inside a section, prose between rows, a list
+    labels that C15 does not cover, a bold paragraph inside a section, prose between rows, a list
     that does not follow an empty row, a nested or escaped list, a fenced block, a section with no
-    rows, a label that would need escaping.
+    rows, a label that would need escaping, a `**Sources:**` citation line among the rows (it is
+    not a statistic).
 C14 The nine rows that cast-iron #254 left for a print check (`othersubs`, `tremorParens`,
     `blindsightParens`, `augment`) convert like any row and are listed in the TSV as `print-254`.
+C15 Rows joined by a break. A paragraph whose lines end in a hard break (`\\`) becomes one row per
+    segment, in order, when every segment on its own is a C2 row: it starts with its own
+    `**Label:**`, its label needs no escaping, and its value holds no further `:**` and no edge
+    escape. The breaks are dropped. If any segment fails, the whole file is queued. Two labels in
+    one paragraph without a break between them are always queued.
 
 Proofs, run on every file before it is written (a failure aborts the run and writes nothing more):
 
@@ -446,35 +452,45 @@ def convert_monster(body: str) -> str:
             raise Queue("heading-in-region", chunk[0])
         row = COLON_ROW.match(text)
         if row:
-            label, value = row.group(1), row.group(2) or ""
-            if "\\\n" in text or "\n**" in text or ":**" in value:
-                raise Queue("multi-label-paragraph", label)
-            if "\\" in label or ":" in label or label != label.strip():
-                raise Queue("label-needs-escape", label)
-            value = join_wrapped(value.split("\n"))
-            if value.endswith("\\") or GUARDED.match(value):
-                raise Queue("escaped-edge", label)
-            values = [value]
-            if not value and index < len(cs) and cs[index][0].startswith("- "):
+            # C15: a hard break ends a row when every segment is a row of its own.
+            segments = text.split("\\\n")
+            found: list[tuple[str, list[str]]] = []
+            for segment in segments:
+                part = COLON_ROW.match(segment)
+                if part is None:
+                    raise Queue("multi-label-paragraph", row.group(1))
+                label, value = part.group(1), part.group(2) or ""
+                if "\n**" in segment or ":**" in value:
+                    raise Queue("multi-label-paragraph", label)
+                if label == "Sources":
+                    raise Queue("sources-line-in-region")
+                if "\\" in label or ":" in label or label != label.strip():
+                    raise Queue("label-needs-escape", label)
+                value = join_wrapped(value.split("\n"))
+                if value.endswith("\\") or GUARDED.match(value):
+                    raise Queue("escaped-edge", label)
+                found.append((label, [value]))
+            if len(found) == 1 and not found[0][1][0] and index < len(cs) and cs[index][0].startswith("- "):
                 listed = flat_list(cs[index])
                 if listed is None:
-                    raise Queue("unflat-list", label)
-                values = listed
+                    raise Queue("unflat-list", found[0][0])
+                found[0] = (found[0][0], listed)
                 index += 1
-            if label == "Armor class":
-                if seen:
-                    raise Queue("armor-class-after-section")
-                close()
-                parts.append(("heading", "Defense"))
-                seen.append("Defense")
-                block = [None, [], False]
-            elif block is None:
-                if seen or started:
-                    raise Queue("row-outside-block", label)
-                lead_at = len(parts)
-                block = [None, [], False]
-            block[1].append((label, values))
-            started = True
+            for label, values in found:
+                if label == "Armor class":
+                    if seen:
+                        raise Queue("armor-class-after-section")
+                    close()
+                    parts.append(("heading", "Defense"))
+                    seen.append("Defense")
+                    block = [None, [], False]
+                elif block is None:
+                    if seen or started:
+                        raise Queue("row-outside-block", label)
+                    lead_at = len(parts)
+                    block = [None, [], False]
+                block[1].append((label, values))
+                started = True
             continue
         bold = BOLD_ONLY.match(text)
         if bold:
@@ -537,10 +553,8 @@ def convert_monster(body: str) -> str:
             new_lines.append(line)
             rendered.append(line)
     new_body = "\n" + "\n\n".join(rendered) + "\n"
-    if rest_text.strip("\n"):
+    if rest:
         new_body += "\n" + rest_text
-    elif rest_text:
-        raise Queue("blank-tail")
 
     prove_monster(body, new_body, rest_text, descriptor, new_lines)
     return new_body
@@ -946,6 +960,19 @@ class SelfTest(unittest.TestCase):
     def test_a_monster_converts_by_the_rules(self):
         self.assertEqual(convert_monster(SAMPLE), EXPECTED)
 
+    def test_rows_joined_by_breaks_split_into_rows(self):
+        joined = SAMPLE.replace("**Type:** outsider\n\n", "**Type:** outsider\\\n")
+        self.assertNotEqual(joined, SAMPLE)
+        self.assertEqual(convert_monster(joined), EXPECTED)
+        three = SAMPLE.replace("**Armor class:** 15\n\n", "**Armor class:** 15\\\n").replace(
+            "**Type:** outsider\n\n**othersubs:** Herald\n\n", "**Type:** outsider\\\n**othersubs:** Herald\\\n"
+        )
+        self.assertEqual(convert_monster(three), EXPECTED)
+
+    def test_a_body_that_ends_with_the_statistics_converts(self):
+        body = SAMPLE[: SAMPLE.index("### Description")]
+        self.assertEqual(convert_monster(body), EXPECTED[: EXPECTED.index("\n### Description")])
+
     def test_a_converted_file_reads_as_already_and_the_front_matter_is_kept(self):
         status, _, text = plan_file(FRONT + SAMPLE)
         self.assertEqual(status, "converted")
@@ -969,7 +996,19 @@ class SelfTest(unittest.TestCase):
 
     def test_what_the_rules_do_not_cover_is_queued(self):
         cases = [
-            ("multi-label-paragraph", SAMPLE.replace("**Type:** outsider\n\n", "**Type:** outsider\\\n")),
+            # C15 refused: a segment that is not a row, two labels with no break, a label inside a value.
+            ("multi-label-paragraph", SAMPLE.replace("**Type:** outsider\n", "**Type:** outsider\\\n_Kinetic blast_ +5\n")),
+            ("multi-label-paragraph", SAMPLE.replace("**Type:** outsider\n\n", "**Type:** outsider\n")),
+            ("multi-label-paragraph", SAMPLE.replace("**Type:** outsider", "**Type:** outsider **Subtype:** Native")),
+            ("multi-label-paragraph", SAMPLE.replace("**Type:** outsider\n\n", "**Type:** outsider **Subtype:** x\\\n")),
+            ("multi-label-paragraph", SAMPLE.replace("**Type:**", "**[Type](ref/rule/type):**")),
+            ("label-needs-escape", SAMPLE.replace("**Type:** outsider\n\n**othersubs:**", "**Type:** outsider\\\n**other: subs:**")),
+            ("escaped-edge", SAMPLE.replace("**Type:** outsider\n", "**Type:** outsider\\\n")),
+            ("escaped-edge", SAMPLE.replace("**Type:** outsider\n\n**othersubs:** Herald", "**Type:** outsider\\\n**othersubs:** \\- Herald")),
+            ("list-without-empty-row", SAMPLE.replace("**Caster level:** 1\n\n", "**Caster level:** 1\\\n")),
+            ("sources-line-in-region", SAMPLE.replace("**Type:** outsider\n", "**Sources:** Bestiary pg 174\\\n**Type:** outsider\n")),
+            ("note-before-rows", SAMPLE.replace("**Challenge rating:** 1/2", "###### D {#footnote-d}\n\nDomain spell\n\n**Challenge rating:** 1/2", 1)),
+            ("note-without-text", SAMPLE.replace("Domain spell\n\n", "")),
             ("bold-paragraph-in-section", SAMPLE.replace("**Speed:** 30 ft.", "**Swarm form**\n\n**Speed:** 30 ft.")),
             ("two-descriptors", SAMPLE.replace("**Type:** outsider", "**Second line**\n\n**Type:** outsider")),
             ("section-order", SAMPLE.replace("**Statistics**", "**Ecology**")),

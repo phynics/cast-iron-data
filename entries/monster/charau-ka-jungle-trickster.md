@@ -31,107 +31,76 @@ abilities = ["15", "15", "12", "12", "14", "16"]
 
 _This lean ape-person is bedecked with a rattling collection of whistles, drums, and charms._
 
-**Challenge rating:** 8
-
 **Charau-ka [bard](ref/class/bard) ([sound striker](ref/arc-bard/sound-striker)) 6**
 
-**Alignment:** Chaotic evil
+::: statblock
+Challenge rating: 8
+Alignment: Chaotic evil
+Type: humanoid
+Initiative: +2
+Perception: +10
+Senses: Darkvision 60 ft., Low-light vision, Scent
+Size: small
+Subtype: Charau-ka
+Experience points: 4,800
+:::
 
-**Type:** humanoid
+### Defense
 
-**Initiative:** +2
+::: statblock
+Armor class: 22
+Touch: 13
+Flat-footed: 20
+AC modifiers: +4 armor, +2 Dex, +3 natural, +2 shield, +1 size
+Hit points: 55 (3d8+6d8+15\~9)
+Fort: +4
+Ref: +10
+Will: +8; +4 vs. bardic performance, language-dependent, and sonic
+:::
 
-**Perception:** +10
+### Offense
 
-**Senses:** Darkvision 60 ft., Low-light vision, Scent
+::: statblock
+Speed: 30 ft., climb 30 ft.
+Melee: +1 whip +10/+5 (1d2+3 nonlethal), bite +4 (1d3+3)
+Ranged: rock +10 (1d4+2/19-20)
+Spec Att: bardic performance 23 rounds/day ([countersong](ref/performance/countersong), [distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 16\], [inspire courage](ref/performance/inspire-courage) +2, weird words \[DC 16, 1d8+3\], wordstrike \[1d4+6\]), shrieking frenzy, thrown-weapon mastery
+:::
 
-**Size:** small
+::: statblock
+title = "Spells Known"
+Caster level: 6
+Concentration: +9
+2nd-level spells: 4/day: cure moderate wounds, detect thoughts (DC 15), invisibility, suggestion (DC 15)
+1st-level spells: 5/day: charm person (DC 14), disguise self (DC 14), expeditious retreat, hideous laughter (DC 14)
+Cantrips: At will: detect magic, ghost sound (DC 13), lullaby (DC 13), mage hand, prestidigitation (DC 13), read magic
+:::
 
-**Subtype:** Charau-ka\
-**Experience points:** 4,800
+### Statistics
 
-**Armor class:** 22
-
-**Touch:** 13
-
-**Flat-footed:** 20
-
-**AC modifiers:** +4 armor, +2 Dex, +3 natural, +2 shield, +1 size
-
-**Hit points:** 55 (3d8+6d8+15\~9)
-
-**Fort:** +4
-
-**Ref:** +10
-
-**Will:** +8; +4 vs. bardic performance, language-dependent, and sonic
-
-**Offense**
-
-**Speed:** 30 ft., climb 30 ft.
-
-**Melee:** +1 whip +10/+5 (1d2+3 nonlethal), bite +4 (1d3+3)
-
-**Ranged:** rock +10 (1d4+2/19-20)
-
-**Spec Att:** bardic performance 23 rounds/day ([countersong](ref/performance/countersong),
-[distraction](ref/performance/distraction), [fascinate](ref/performance/fascinate) \[DC 16\],
-[inspire courage](ref/performance/inspire-courage) +2, weird words \[DC 16, 1d8+3\], wordstrike
-\[1d4+6\]), shrieking frenzy, thrown-weapon mastery
-
-**Spells Known**
-
-**Caster level:** 6
-
-**Concentration:** +9
-
-**2nd-level spells:**
-
-- 4/day: cure moderate wounds, detect thoughts (DC 15), invisibility, suggestion (DC 15)
-
-**1st-level spells:**
-
-- 5/day: charm person (DC 14), disguise self (DC 14), expeditious retreat, hideous laughter (DC 14)
-
-**Cantrips:**
-
-- At will: detect magic, ghost sound (DC 13), lullaby (DC 13), mage hand, prestidigitation (DC 13),
-  read magic
-
-**Statistics**
-
-**Ability scores:** Str 15, Dex 15, Con 12, Int 12, Wis 14, Cha 16
-
-**Base attack bonus:** +6
-
-**Combat maneuver bonus:** +7
-
-**Combat maneuver defense:** 19
-
-**Feats:** Extra Performance, Point-Blank Shot, Skill Focus (Perform \[oratory\]), Skill Focus
-(Perform \[act\]), Spellsong, Throw Anything^B^
-
-**Skills:** Acrobatics +11, Appraise +5, Climb +14, Intimidate +8, Knowledge (geography, history)
-+8, Linguistics +6, Perception +10, Perform (act) +17, Perform (dance) +10, Sleight of Hand +7,
-Spellcraft +8, Stealth +13, Use Magic Device +7
-
-**Racial Modifiers:** +4 Stealth
-
-**Languages:** Abyssal, Common, Kelish, Polyglot, Vanaran
-
-**Special qualities:** bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)
-
-**Combat gear:** potion of mirror image, Dalter self/21 charges, 2 potion of Xoil of taggit
-
-**Other gear:** +1 studded leather armor, mwk heavy wooden shield, +1 whip, Iamu1, disguise kit
+::: statblock
+Ability scores: Str 15, Dex 15, Con 12, Int 12, Wis 14, Cha 16
+Base attack bonus: +6
+Combat maneuver bonus: +7
+Combat maneuver defense: 19
+Feats: Extra Performance, Point-Blank Shot, Skill Focus (Perform \[oratory\]), Skill Focus (Perform \[act\]), Spellsong, Throw Anything^B^
+Skills: Acrobatics +11, Appraise +5, Climb +14, Intimidate +8, Knowledge (geography, history) +8, Linguistics +6, Perception +10, Perform (act) +17, Perform (dance) +10, Sleight of Hand +7, Spellcraft +8, Stealth +13, Use Magic Device +7
+Racial Modifiers: +4 Stealth
+Languages: Abyssal, Common, Kelish, Polyglot, Vanaran
+Special qualities: bardic knowledge +3, lore master 1/day, versatile performance (oratory, act)
+Combat gear: potion of mirror image, Dalter self/21 charges, 2 potion of Xoil of taggit
+Other gear: +1 studded leather armor, mwk heavy wooden shield, +1 whip, Iamu1, disguise kit
+:::
 
 ###### B {#footnote-b}
 
 Bonus feat.
 
-**Ecology**
+### Ecology
 
-**Environment:** warm forests
+::: statblock
+Environment: warm forests
+:::
 
 ### Description
 
